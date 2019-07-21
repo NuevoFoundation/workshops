@@ -1,0 +1,452 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel='shortcut icon' type='image/x-icon' href='img/nuevo-icon.ico' />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Nuevo Foundation Web Course</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7">
+                    <h1 class="display-1 mt-5">Let's build a website</h1>
+                    <p class="lead">An introductory guide on how to make a simple website from scratch.</p>
+                </div>
+                <div class="col-sm-5">
+                    <img src="img/nuvi.jpg" class="rounded mt-5 d-block" />
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="list-group position-fixed">
+                        <a href="#intro" class="list-group-item list-group-item-action">
+                            Meet Benji
+                        </a>
+                        <a href="#website-explanation" class="list-group-item list-group-item-action">What is a website?</a>
+                        <a href="#web-design" class="list-group-item list-group-item-action">Website design</a>
+                        <a href="#html-section" class="list-group-item list-group-item-action">HTML</a>
+                        <a href="#css-section" class="list-group-item list-group-item-action">CSS</a>
+                        <a href="#media" class="list-group-item list-group-item-action">Media elements</a>
+                    </div>
+                </div>
+                <div class="col-md-10">
+                    <div class="container" id="intro">
+                        <div class="jumbotron">
+                            <img src="img/meet-benji-sm.jpg" class="rounded mx-auto d-block">
+                            <h5 class="display-4 text-center">Meet Benji</h5>
+                            <p class="lead">Benji was born in Houston, Texas. Soon after Benji was born, a devastating hurricane hit Houston. Hurricane Harvey displaced more than 30,000 people, including Benji’s family. Benji can’t speak human so we don’t know the details. All we know is that Benji is looking for a home and is committed to be a good boy wherever he goes. Let’s make a website so we can share his information, and find his forever home!</p>
+                        </div>
+
+                        <div class="my-4" id="website-explanation">
+                            <h2>Basics first. What is a website?</h2>
+                            <p>A website is just a page that can be found on the Internet. It is displayed through a browser when you type the address (aka unique name) in the address bar.</p>
+                            <img src="https://1mtvya.dm.files.1drv.com/y4mqBcdQfTi7DP7Pk8U1Yu86e9ObVoogX4E9bB_jcTLAm5HVJpHgKWm6xeBpo_22xqLBgUwewOMcGKwEKFp9LHgFGgIcA2E-7W1XWmFqR3fkD04AQXAZFMxZxJdqqBlPvqrIs7rh_XEJRwpQc0eoRTERgI2gIJ_yR6jlCjz5Xer_oLWcVGTo12DUg-WTB5jM77hz4nbHirbMyufs6NQ60EIrg?width=660&height=521&cropmode=none" width="660" height="521" class="rounded mx-auto d-block" />
+                        </div>
+
+                        <div class="my-4" id="web-parts">
+                            <h2>Parts of a website</h2>
+                            <p>Common website elements include navigation bars, footers, search bars, and contact forms.</p>
+                            <img src="https://1muzpa.dm.files.1drv.com/y4mkCFbsozyUfEeD_QatKv6bgaph72ddGBBP9YjhPjrWxBllFh6ypDGoEzakDBuFGEsk-VG3kjJYxmqA9Ok8CH9qdsEdQqT30gYIWnz0KjMpFoZZoxvtbKrH7eGD62VTC-N1I67uXfg-LTP9Q4T6IPwKeHBoqzy63rSKjSFAQKg6dphSN3zW5GrS30sbR16vMStjfZaycgBqtMJBbMpj3EW_Q?width=2187&height=1323&cropmode=none" width="1094" height="662" />
+                            <br>
+                        </div>
+
+                        <div class="my-4" id="web-design">
+                            <h2>Website design</h2>
+                            <p>The first step in making a website is to decide which elements we want, and how they will look. This process is called layout design and it’s just a rough sketch of how the different pieces are going to come together. There are many tools to help you do this, but the oldest and one of the most popular is good ol’ pen and paper. Here’s how I sketched mine:</p>
+                            <img src="img/dog-layout-sm.png" class="mx-auto d-block" />
+                            <p>Note that the sketch is just a guideline. It’s okay to change things around as we start putting it together. A good rule of thumb is to start as simple as possible.</p>
+                        </div>
+
+
+                    </div>
+
+                    <div class="container mt-6">
+                        <div class="my-4" id="html-section">
+                            <h2>Putting it together</h2>
+                            <h3>Label the parts with HTML</h3>
+                            <p>For your browser to understand what each element of your site is, we need to label them with HTML tags. HTML stands for <strong>Hypertext Markup Language</strong>. Tags are words surrounded by the symbols <strong>&lt;</strong> and <strong>&gt;</strong>. For example, the <strong>&lt;img&gt;</strong> tag tells your browser “this is an image.” The <strong>&lt;button&gt;</strong> tag tells it “this is a button.”</p>
+
+                            <img src="img/web-tags-sm.png" class="mx-auto d-block">
+
+                            <p>Most tags need an opening tag and a closing tag. For example, you will see all pages have an &lt;html&gt; opening tag at the top, and a closing &lt;/html&gt; tag at the end. This tells the browser where the HTML elements start and where they end. Think of tags like quotation marks; for example, the computer will understand that everything in between the tags &lt;html&gt; and &lt;/html&gt; is part of an HTML website.</p>
+
+                            <p>There are also a few tags, like the image tag <strong>&lt;img&gt;</strong>, that are self-closing, meaning that they only need an opening tag, and do not need a closing tag.</p>
+
+                            <p>Here is an example:</p>
+
+                            <div id="html-codepen">
+                                <p class="codepen" data-height="500" data-theme-id="dark" data-default-tab="html,result" data-user="Sunny-Dee" data-slug-hash="ErRraG" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="HTML Basics">
+                                    <span>See the Pen <a href="https://codepen.io/Sunny-Dee/pen/ErRraG/">
+                                            HTML Basics</a> by Deliana Escobari (<a href="https://codepen.io/Sunny-Dee">@Sunny-Dee</a>)
+                                        on <a href="https://codepen.io">CodePen</a>.</span>
+                                </p>
+                                <h6>The HTML tab shows the code, while the Result tab shows how the output look on a web browser.</h6>
+                            </div>
+
+
+                            <div class="exercise-box">
+                                <h2>Challenge 1 - Writing HTML code</h2>
+                                <ol>
+                                    <li>Open the web editor (click the "Try it yourself!" button below)</li>
+                                    <li>Use the header tags to add a title, and the paragraph tags to write a paragraph about Benji</li>
+                                    <li>If you have time: write a list of Benji's favorite treats: turkey, peanut butter, and string cheese</li>
+                                </ol>
+                                <a class="my-2 mx-4 btn btn-info" href="https://codepen.io/Sunny-Dee/pen/exxyYL" target="_blank">Try it yourself!</a>
+                            </div>
+                            <p>Use this reference chart to try some html tags on your own.</p>
+                            <table class="table table-striped table-hover">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Tag</th>
+                                        <th scope="col">Description</th>
+                                        <th scope="col">Example</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">&lt;html&gt;&lt;/html&gt;</th>
+                                        <td>Describes an HTML Document. Any website must start with the &lt;html&gt; opening tag and end with the &lt;/html&gt; closing tag.</td>
+                                        <td>See the Code Pen example above.</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">&lt;!-- --&gt;</th>
+                                        <td>Describes a comment. Comments are meant for other coders to see but they are not displayed on the website.</td>
+                                        <td>&lt;!-- This line will not show in the browser --&gt;</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">&lt;head&gt;&lt;/head&gt;</th>
+                                        <td>Contains all the HTML elements that give information to the browser to display the website correctly. The HTML elements between &lt;head&gt; and &lt;/head&gt; tag are not displayed.</td>
+                                        <td>See the Code Pen example above.</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">&lt;title&gt;&lt;/title&gt;</th>
+                                        <td>Contains the title of the website to be used for naming the browser tab.</td>
+                                        <td>&lt;head&gt;<br>
+                                            &lt;title&gt;My website&lt;/title&gt;<br>
+                                            &lt;/head&gt;</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">&lt;body&gt;&lt;/body&gt;</th>
+                                        <td>Contains all the HTML elements that are displayed in the page like text and pictures.</td>
+                                        <td>See the Code Pen example above.</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">&lt;h1&gt;&lt;/h1&gt; <br>... <br>&lt;h6&gt;&lt;/h6&gt;</th>
+                                        <td>Defines a heading/title. &lt;h1&gt; defines the most important (largest) heading/title, while &lt;h6&gt; defines the least important (smallest) heading.</td>
+                                        <td>&lt;h1&gt;This will be a big title&lt;/h1&gt;<br>
+                                            &lt;h4&gt;This will be a smaller title&lt;/h4&gt;</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">&lt;p&gt;&lt;/p&gt;</th>
+                                        <td>Describes a paragraph.</td>
+                                        <td>&lt;p&gt;Dogs evolved to love humans. In conclusion, dogs are a human’s best friend.&lt;/p&gt;</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">&lt;div&gt;&lt;/div&gt;</th>
+                                        <td>Defines a division or section on the site.</td>
+                                        <td>&lt;div&gt;<br>
+                                            &lt;h1&gt;All about me&lt;/h1&gt;<br>
+                                            &lt;/div&gt;</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">&lt;img&gt;</th>
+                                        <td>An image. It’s a self-closing tag but you must specify the source of the image for the browser to know where to get the image from.</td>
+                                        <td>&lt;img src="aka.ms/Benji-the-dog"&gt;</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">&lt;hr&gt;</th>
+                                        <td>Draws a horizontal line. Another self-closing tag that’s useful if you want to break up the page’s content.</td>
+                                        <td>&lt;!-- section 1 --&gt;<br>
+                                            &lt;hr&gt;<br>
+                                            &lt;!-- section 2 --&gt;</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">&lt;ul&gt;<br>&lt;li&gt;&lt;/li&gt;<br>&lt;/ul&gt;</th>
+                                        <td>A list. To start the list, use a &lt;ul&gt; tag. For each item to be added to the list, surround the item with the &lt;li&gt; and &lt;/li&gt;tags. Finish the list with the &lt;/ul&gt; tag.</td>
+                                        <td>&lt;ul&gt;<br>&lt;li&gt;This is a list item.&lt;/li&gt;<br>&lt;/ul&gt;</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <hr>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <h3>HTML Attributes</h3>
+                                        <p>Each tag can also have additional information. For example, image tags need to have a source, so we need an attribute to tell the browser where to go get the image from.</p>
+                                    </div>
+                                </div>
+                                <div class="row my-4">
+                                    <div class="col">
+                                        <p>Here is an example:</p>
+                                        <img src="img/attribute-sm.png" class="mx-auto d-block" />
+                                        <p>And here is the result:</p>
+                                        <img src="https://qyatda.dm.files.1drv.com/y4mTmthbnZl8R4dmLmzkmrlFe1Wg8V1YoXSQp0JIvJJQgPK_IC6O3oWMQXXqUH386u9cNsKg-8kUV8ec4_TvC5eUFUrgkdZeRHJ95uQ0nUbgO_BO3_33cWBUkS9KUqvZhSDYcn9h037DYIPnmUerzBJ1XyjbhSseOhdpDJXya8Cn__51WxOdTygEpsC9NA4NriAZXjTizgUsiNu1qYIo-1B7w?width=495&height=660&cropmode=none" width="495" height="660" class="rounded mx-auto d-block" />
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col">
+                                        <p>We can also have style attributes that can change the properties of an element. For example, there are attributes that we can use to change the visual appearance of an element, such as the size, the color, and the text font. All attributes are formatted as: <code>attribute-name="value in quotes"</code>. For example, we can change the color of a paragraph to red by typing in <code>&lt;p style="color:red"&gt;&lt;/p&gt;</code>.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="my-4" id="css-section">
+                            <h2>Style it with CSS</h2>
+                            <p>Tags tell the browser what website elements to use. But we also need to tell it how to display the elements, and where to place them. We may want the title on the center or on the right side. We may want a picture on the right and a paragraph on the left. There are two ways we can do this: through HTML attributes or <strong>Cascading Style Sheets.</strong></p>
+
+                            <h3>Cascading Style Sheets (CSS)</h3>
+                            <p>HTML attributes are straight-forward but they can become messy quickly. If we wish to do a lot of styling, each HTML element can become long and hard to read. Furthermore, what if we want to style many elements the same way? We would have to copy all the attributes for each element, which is not efficient and prone to mistakes. For most styling, it’s better to use CSS.</p>
+                            
+                            <p>CSS files work closely with HTML tags. Each HTML tag can have a <code>class</code> attribute and/or an <code>id</code> attribute that helps to identify each element. Many elements can have the same class, and an element can have multiple classes. However, an element can only have one single id, and the id cannot be shared among elements. The CSS file uses these attributes to display styling specific to each <code>class</code> or <code>id</code>.</p>
+                            
+                            <p>See this example below:</p>
+                            <div id="css-codepen" class="mb-4">
+                                <p class="codepen" data-height="426" data-theme-id="dark" data-default-tab="css,result" data-user="Sunny-Dee" data-slug-hash="qgvpQE" style="height: 426px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Styling it up">
+                                    <span>See the Pen <a href="https://codepen.io/Sunny-Dee/pen/qgvpQE/"> Styling it up</a> by Deliana Escobari (<a href="https://codepen.io/Sunny-Dee">@Sunny-Dee</a>) on <a href="https://codepen.io">CodePen</a>.</span></p>
+                                    <h6>Click the "HTML" tab on the top left corner to see the HTML code, and the "CSS" tab to see the CSS code.</h6>
+                            </div>
+
+                            <p>Let's take a look at the HTML code. Try to find a &lt;div&gt; tag with the attribute <code>"info"</code>. It looks like <code>&lt;div id="info"&gt;</code>. By giving this div an id, we can then use CSS to specify styling for this specific element. </p>
+                                
+                            <p>Switch over to the CSS file. We can also give styling to all elements of a specific type - for example, we could use CSS give all &lt;p&gt; elements the same style. In the header block, we tell the browser to color all the headers #0097A7 (which is the teal color).</p>
+                                
+                            <p>Let's talk about the syntax (or the way of writing) for CSS. First, you start with what element you want to style. If you want to style all elements with the same tag (such as &lt;header&gt;), simply write the name. If you want to style an element with a class or id, put a <code>.</code> or a <code>#</code> in front of the class or id name respectively. Then, for each property you wish to change, use the format <code>attribute-name: value;</code>. Don't forget to end each line with a <code>;</code>. All these styles should be surrounded by the curly braces { and }.</p>
+
+                            <p>There are way too many style elements to cover them all in this tutorial. If, in the sketch you made earlier, you aren't sure how to use CSS to accomplish the desired styling, try searching online.</p>
+                            <img src="img/web-search.gif">
+
+                            <div id="color-card" class="card w-75 mx-auto my-2">
+                                <div class="card-body">
+                                    <h5 class="card-title">A note on color</h5>
+                                    <p class="card-text">While CSS understands 140 color names such as "green", "red", and "blue", this can still be limiting. What about if we want a dark green, or a slightly lighter green? To achieve this, we can also refer to colors in hexadecimal or RGB form. Check <a href="https://htmlcolorcodes.com/color-names/" target="_blank">this link</a> to see the colors and their corresponding hexadecimal form.</p>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+
+                        <div>
+                            <h4>Adding a new font</h4>
+                            <ul>
+                                <li>Let's import the Heebo font from the internet. First we import the font at the top of the CSS file with this statement:<br>
+                                    <code>@import url('https://fonts.googleapis.com/css?family=Heebo|Open+Sans');
+                                    </code></li>
+                                <li>Then we assigned it to the body tag. Since this tag will contain all the other HTML elements, our choice of font will be used for all elements.<br><img src="img/bodytag.PNG" /></li>
+                                <li>Notice that the format inside the curly braces is: <code>name: value;</code></li>
+                                <li>Here are some other fonts you can try importing:<br>
+                                    <ul>
+                                        <li>
+                                            <code class="fontref">@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');</code><br>
+                                            <code>font-family: 'Roboto Mono', monospace;</code>
+                                        </li>
+                                        <li>
+                                            <code class="fontref">@import url('https://fonts.googleapis.com/css?family=Indie+Flower');</code><br>
+                                            <code>font-family: 'Indie Flower', cursive;</code>
+                                        </li>
+                                        <li>
+                                            <code class="fontref">@import url('https://fonts.googleapis.com/css?family=Pacifico');</code><br>
+                                            <code>font-family: 'Pacifico', cursive;</code>
+                                        </li>
+                                        <li>
+                                            <code class="fontref">@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');</code><br>
+                                            <code>font-family: 'Permanent Marker', cursive;</code>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="exercise-box">
+                            <h2>Challenge 2 - Writing CSS code</h2>
+                            <ol>
+                                <li>Add an id attribute to one of the tags. For example, the &lt;h2&gt; tag</li>
+                                <li>Toggle to the CSS tab and add style to the tag to which you gave an id</li>
+                                <li>Change the title color</li>
+                                <li>Change the font to <code>"Trebuchet MS", Helvetica, sans-serif</code></li>
+                            </ol>
+                            <a class="my-2 mx-4 btn btn-info" href="https://codepen.io/Sunny-Dee/pen/qgvpQE" target="_blank">Try it yourself!</a>
+                        </div>
+
+                        <div class="my-4" id="media">
+                            <h1>Media Elements</h1>
+                            <h2>Add a GIF</h2>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col sm-10">
+                                        <p>GIF stands for <strong>Graphic Interchange Format</strong>, but all you need to know is that it's just another type of image file. The only difference is that the file has many images. When displayed in the browser, the images are played in sequence, similar to the frames of a movie. Think of it like one of those flip books that seem like the image is animated when you flip it.</p>
+                                    </div>
+                                    <div class="col sm-2">
+                                        <img src="img/flipbook.gif" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="exercise-box">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col center-block">
+                                            <h2>Challenge 3 - Adding a GIF of Nuvi</h2>
+                                            <img src="img/nuvi-giphy.gif"/>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col center-block">
+                                            <ol>
+                                                <li><a href="https://giphy.com/nuevofoundation" target="_blank">Follow this link</a> to see the available GIFs</li>
+                                                <li>Click on the one you like and select "Embed" <br>
+                                                    <img src="img/nuevo-.png"/></li>
+                                                <li>Copy the code from the white box below "GIF Embed Code"<br>
+                                                    <img src="img/giphy-embed-instruction.PNG" />
+                                                </li>
+                                                <li>Paste the code anywhere in your page as long as it's inside the <code>&lt;body&gt;</code> tags.<br> <img src="https://qyauda.dm.files.1drv.com/y4mWCkifMfvdIaCqGW09zaPjD40e01lWkslVcULewSkHTta3krUbVk_9gF0un3CRjC7OZV_kee2RVhYze2QWcTuB9QJdjFCa_ODpEO4tcmELYwxy3cVRtswz3IeVyX6R9CuT9hLlbajdX7y0zm9otMQ2M5Ejq81FSaRAnXdK0KMNAPq_QdzEhOuiuHlKleDGFQdYjtx7nKiayg2HSUuq16n0w?width=419&height=228&cropmode=none" /></li>
+                                            </ol>
+                                            <a class="my-2 mx-4 btn btn-info" href="https://codepen.io/Sunny-Dee/pen/moqzmP" target="_blank">Try it yourself!</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+
+                            <h2>Add a video</h2>
+
+                            <p>Aside from text and images, one of the most common things we like to add to websites are videos. Video files are very large, so it’s best to use a service to upload and display the video such as YouTube. Once uploaded to YouTube, how do we get it to play on our website? We use a special tag called an <b>iframe</b>.</p>
+
+                            <p>Iframes display HTML from other websites inside our own. It’s like a window, where you can see what is happening outside on the internet from inside the current website. This process is called embedding.</p>
+
+                            <p>For example, the video below is an iframe from Benji’s Instragram:</p>
+
+                            <div id="video-example" align="center">
+                                <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/Bm7fs0ElGvX/?utm_source=ig_embed&amp;utm_medium=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                                    <div style="padding:16px;"> <a href="https://www.instagram.com/p/Bm7fs0ElGvX/?utm_source=ig_embed&amp;utm_medium=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank">
+                                            <div style=" display: flex; flex-direction: row; align-items: center;">
+                                                <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div>
+                                                <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+                                                    <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div>
+                                                    <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div>
+                                                </div>
+                                            </div>
+                                            <div style="padding: 19% 0;"></div>
+                                            <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+                                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                        <g transform="translate(-511.000000, -20.000000)" fill="#000000">
+                                                            <g>
+                                                                <path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </svg></div>
+                                            <div style="padding-top: 8px;">
+                                                <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div>
+                                            </div>
+                                            <div style="padding: 12.5% 0;"></div>
+                                            <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
+                                                <div>
+                                                    <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div>
+                                                    <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div>
+                                                    <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div>
+                                                </div>
+                                                <div style="margin-left: 8px;">
+                                                    <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div>
+                                                    <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div>
+                                                </div>
+                                                <div style="margin-left: auto;">
+                                                    <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div>
+                                                    <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div>
+                                                    <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/Bm7fs0ElGvX/?utm_source=ig_embed&amp;utm_medium=loading" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Push yourself to try new things! 🍉 I stick to the paleo diet most days (usually just the meat part) but on occasion I go for something crazy</a></p>
+                                        <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by <a href="https://www.instagram.com/benjimite_thegudboi/?utm_source=ig_embed&amp;utm_medium=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank"> Benji Escobari Marquez</a> (@benjimite_thegudboi) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2018-08-26T05:05:39+00:00">Aug 25, 2018 at 10:05pm PDT</time></p>
+                                    </div>
+                                </blockquote>
+                            </div>
+
+                            <p>Many sites offer iframes to embed in your website. As an example, here is how you find the iframe code for a YouTube video:</p>
+                            <img src="img/get-iframe.gif" class="mx-auto d-block">
+
+                            <hr>
+                            <div class="my-4">
+                                <h2>Adding a contact form</h2>
+                                <p>Finally, we will add a contact form to let people reach us if they are interested in Benji.</p>
+                                <p>Most browsers do not support sending emails directly from the contact form because it's an easy way for trouble makers to send spam to users. Spam is an irrelevant or inappropriate message sent over the internet. Therefore, to send a form, we will use a free service called <a href="https://formspree.io/" target="_blank">FormSpree</a>. If we want the messages in the contact form to go to our email, we will first need to confirm it with FormSpree. This confirmation method keeps bad actors from just putting down anyone’s email in a contact form and spamming the victim.</p>
+
+                                <p class="codepen" data-height="607" data-theme-id="dark" data-default-tab="html,result" data-user="Sunny-Dee" data-slug-hash="ywJggd" style="height: 607px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Contact Form">
+                                    <span>See the Pen <a href="https://codepen.io/Sunny-Dee/pen/ywJggd/">
+                                            Contact Form</a> by Deliana Escobari (<a href="https://codepen.io/Sunny-Dee">@Sunny-Dee</a>)
+                                        on <a href="https://codepen.io">CodePen</a>.</span></p>
+                            </div>
+                        </div>
+
+                        <div class="exercise-box">
+                            <h2>Challenge 4 - Editing a contact form</h2>
+                            <ol>
+                                <li>Click on the <strong>try it yourself!</strong> button to open the editor</li>
+                                <li>Change the part that says <code>&lt;YOUR EMAIL HERE!&gt;</code> to your personal email if you have one. If you don't, use <code>email@nuevofoundation.org</code></li>
+                                <li>If you do, try to send a test message and see if it works</li>
+                                <li>Add any styling to the form. For example, try changing font or color of the form</li>
+                            </ol>
+                            <a class="my-2 mx-4 btn btn-info" href="https://codepen.io/Sunny-Dee/pen/KEyGZo" target="_blank">Try it yourself!</a>
+                        </div>
+                        <hr>
+                        <h2 class="my-4">Time to freestyle it!</h2>
+                        <div class="exercise-box">
+                            <h2>Challenge 5</h2>
+                            <p> Using what you've learned, let's try to create a site that describes you! Try and use some or all of the following:
+                                <ol>
+                                    <li>A heading & paragraph tag</li>
+                                    <li>Different fonts</li>
+                                    <li>Different colors</li>
+                                    <li>Add an image to your site</li>
+                                    <li>A list</li>
+                                    <li>Embed a gif or video</li>
+                                </ol>
+                                <a class="my-2 mx-4 btn btn-info" href="https://codepen.io/Sunny-Dee/pen/qvVJLE" target="_blank">Show your style!</a>
+                        </div>
+
+                        <hr>
+                        <div class="row justify-content-md-center">
+                            <div class="col my-auto">
+                                <p>FYI: I know you might be concerned about Benji, but we are happy to tell you that he has already found a home! Thanks a lot for the help :)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <hr>
+                <div class="row justify-content-md-center">
+                    <div class="col my-auto">
+                        <img src="img/nuvi.gif" id="footer-img" class="float-right">
+                    </div>
+                    <div class="col my-auto">
+                        <p class="font-weight-bolder text-muted text-left">Nuevo Foundation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script async src="//www.instagram.com/embed.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+    </div>
+</body>
+
+</html>
