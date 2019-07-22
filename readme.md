@@ -62,4 +62,12 @@ This project support regular markdown and a series of custom shortcodes for thin
 - [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [Available shortcodes](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
+## Adding metadata for your workshop
+
+If you followed the `hugo new` step from above, you should have a new file named `index.md` with the following metadata at the top of the file.
+
+**Description**: Add a short description
+
+`--- title: "Web Basics" description: "Workshop description goes here" date: 2019-07-22T14:51:26-07:00 prereq: "link to workshop markdown file" difficulty: "Beginner, Intermediate, or Advanced" download: "URL to GitHub folder goes here" draft: true ---`
+
 ## Contributor guidelines coming soon
