@@ -1,2 +1,19 @@
-<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
-{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+<meta name="description" content="
+{{ with .Description }}
+    {{ . }}
+{{ else }}
+    {{ with .Site.Params.description }}
+        {{ . }}
+    {{ end }}
+{{ end }}">
+{{ with .Site.Params.author }}
+    <meta name="author" content="
+    {{ . }}">
+{{ end }}
+
+{{ with .Params.difficulty }}
+<div class="metadata-row">
+    <span class="metadata-label">Difficulty: </span>
+    <span class="metadata-value">{{ . }} </span>
+</div>
+{{ end }}

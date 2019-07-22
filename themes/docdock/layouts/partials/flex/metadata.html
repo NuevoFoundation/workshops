@@ -1,0 +1,22 @@
+<div class="metadata-box">
+  {{ with.Params.prereq }}
+  <div class="metadata-row">
+    <span class="metadata-label">Pre-requisite: </span>
+    <span class="metadata-value">{{ . }} </span>
+  </div>
+  {{ end }}
+
+  {{ with.Params.difficulty }}
+  <div class="metadata-row">
+    <span class="metadata-label">Difficulty: </span>
+    <span class="metadata-value">{{ . }} </span>
+  </div>
+  {{ end }}
+
+  {{ with.Params.download }}
+  <div class="metadata-row">
+    <span class="metadata-label">Download: </span>
+    <span class="metadata-value"><a href="{{ . }}">Download</a> </span>
+  </div>
+  {{ end }}
+</div>
