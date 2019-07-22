@@ -22,7 +22,7 @@
                         <p class="lead">An introductory guide on how to make a simple Guess The Word from scratch using C#.</p>
                     </div>
                     <div class="col-sm-5">
-                        <img src="media/nuvi.jpg" class="rounded mt-5 d-block" />
+                        <img src="media/nuvi.jpg" class="rounded mt-5 d-block" alt="Nuvi icon" />
                     </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@
 
                             <h2>Using Repl.it</h2>
                             <p>Open your favorite internet browser (such as Edge, Firefox, Google Chrome, Internet Explorer) and go to <a href="https://repl.it/languages/csharp">https://repl.it/languages/csharp</a>. You should see the following screen:</p>
-                            <img src="media/Picture2.png" class="rounded mx-auto d-block" />
+                            <img src="media/Picture2.png" class="rounded mx-auto d-block" alt="Repl.it home screen" />
                             <p>
                                 We will ignore some of the details on this screen, but we will go over some of the basics that show up. The main.cs file contains code, or instructions for the computer to run. Press the <b>run</b> button to tell the computer to perform the instructions in the code.
                                 Any results from running the code will be displayed on the right side, called the console. Any activities under the <b>Working Together</b> sections will be done in this browser tab, working together with the instructor.
@@ -68,14 +68,16 @@
                             <h2>Setting up the project</h2>
                             <p>The goal of today's activity is to learn C#skills and incorporate your new-found knowledge to create a GuessTheWord game! Let's get the game set up.</p>
                             <p>In a new browser tab, go to <a href="https://aka.ms/nuevoguesstheword">https://aka.ms/nuevoguesstheword</a>. Your screen should look like this:</p>
-                            <img src="media/Picture3.png" class="rounded mx-auto d-block" />
+                            <img src="media/Picture3.png" class="rounded mx-auto d-block" alt="Nuevo guess the word"/>
                             <p>Click the Fork button to create a copy of the code for yourself to work on. Any activities under the <b>Activity</b> sections will be done in this browser tab. You will do these activities on your own, but helpers are available when you are stuck.</p>
                         </div>
 
                         <div class="my-4" id="the-basics">
                             <h1>The Basics</h1>
-                            <h2>Writing to Console</h2>
-                            <p><code class="language-cs">Console.WriteLine</code> means to tell the computer to print the sentence enclosed within the parentheses <code class="language-cs">()</code> out onto the console. To try it out, press <b>run</b>. You see that <code class="language-cs">Hello World</code> is printed out to the screen on the right.</p>
+                            <div id="writing-to-console">
+                                <h2>Writing to Console</h2>
+                                <p><code class="language-cs">Console.WriteLine</code> means to tell the computer to print the sentence enclosed within the parentheses <code class="language-cs">()</code> out onto the console. To try it out, press <b>run</b>. You see that <code class="language-cs">Hello World</code> is printed out to the screen on the right.</p>
+                            </div>
 
                             <div class="working-together-box" id="activity-1">
                                 <h3>Working Together</h3>
@@ -85,605 +87,610 @@
                                     <li>Press <b>run</b> to see if two sentences are printed out. If you see any red text, please ask for help.</li>
                                 </ol>
                                 <p>We will use printing heavily in the later lessons, so make sure you understand this before continuing!</p>
-                            </div>    
+                            </div>
+
+                            <div class="warning-box">
+                                <h3>HELP! I got a lot of red text!</h3>
+                                <p>If you see any red text, you have encountered some errors! Please ask for help or check the debugging page at the end of this tutorial. Beware of the following when coding in C#:</p>
+                                <ol>
+                                    <li>The <code class="language-cs">c</code> in <code class="language-cs">Console</code>, and the <code class="language-cs">w</code> and <code class="language-cs">l</code> in <code class="language-cs">WriteLine</code> are capitalized.</li>
+                                    <li>There is a semicolon <code class="language-cs">;</code> at the end of the line.</li>
+                                    <li>Make sure the sentence you wish to print is surrounded in quotation marks, and that the sentence is between the parentheses.</li>
+                                    <li>Do not delete any curly braces <code class="language-cs">{</code> or <code class="language-cs">}</code>.</li>
+                                </ol>
+                            </div>
+
+                            <div id="comments">
+                                <h2>Comments</h2>
+                                <p>Developers often need to collaborate with other developers. Comments are an easy way for developers to write notes in the code and communicate with others. Comments are ignored by the computer; thus, they are also an easy way to tell the computer to not run certain lines of code. There are two ways to create comments:</p>
+                                <ol>
+                                    <li>To comment out one line, place <code class="language-cs">//</code> in front of a line of code. For example:
+                                    <pre><code class="language-cs">
+                                    // This is a single-line comment.
+                                    </code></pre>
+                                    </li>
+                                    <li>To comment out multiple lines at once, indicate the start of the comment with <code class="language-cs">/*</code> and the end of the comment with <code class="language-cs">*/</code>. For example:
+                                    <pre><code class="language-cs">
+                                    /* This is a multi-line comment.
+                                    This line is also part of the comment. */
+                                    </code></pre>
+                                    </li>
+                                </ol>
+                                <p>To remove a comment (or uncomment a line), simply delete the <code class="language-cs">//</code> for a single-line comment, or the <code class="language-cs">/*</code> and the <code class="language-cs">*/</code> characters for the multi-line comment.</p>
+                            </div>
+
+                            <div class="working-together-box">
+                                <h3>Working Together</h3>
+                                <ol>
+                                    <li>Place <code class="language-cs">//</code> in front of <code class="language-cs">Console.WriteLine("Hello World");</code>. After pressing <b>run</b>, check to make sure that <code class="language-cs">Hello World</code> is not printed to the console.
+                                    <li>Delete the <code class="language-cs">//</code> and instead, surround <code class="language-cs">Console.WriteLine("Hello World");</code> with <code class="language-cs">/*</code> and <code class="language-cs">*/</code>. Check that <code class="language-cs">Hello World</code> is still not printed to the console after pressing <b>run</b>.
+                                    <li>Delete both <code class="language-cs">/*</code> and <code class="language-cs">*/</code>, and press <b>run</b>. <code class="language-cs">Hello World</code> should now be printed to the console.
+                                </ol>
+                                <p>Throughout today's activity you will see various multi-line comments and <code class="language-cs">// TODO</code> comments. These comments will guide us towards completing the Guess the Word game, so be sure you understand how to comment and uncomment code.</p>
+                            </div>
+                            
+                            <div class="exercise-box">
+                                <h3>Activity 1</h3>
+                                <p>Go to the code containing the GuessTheWord game. Press <b>run</b>. Notice that <code class="language-cs">Press 'run' on the top of the screen to play again.</code> is the only thing that is printed to the console. Let's add a welcome message so that the player knows they playing the Guess the Word game.</p>
+                                <p>Find <code class="language-cs">// TODO (ACTIVITY 1)</code> in the code. Add a line of code to print Welcome to C#GuessTheWord to the console. If you did this correctly, <code class="language-cs">Welcome to C# GuessTheWord</code> will be printed to the console after pressing <b>run</b>.</p>
+                            </div>
+                            
+                            <div id="strings">
+                                <h2>Strings</h2>
+                                <p>Anything that is surrounded in quotation marks is called a string. This is how a computer represents words or sentences. For example, <code class="language-cs">"a"</code>, <code class="language-cs">"2"</code>, <code class="language-cs">"banana!"</code>, and <code class="language-cs">"Hello World"</code> are strings, but <code class="language-cs">Hello World</code> and <code class="language-cs">2</code> are not strings, because the quotation marks are missing.</p>
+                                <p>You can combine many strings together using the <code class="language-cs">+</code> operator. For example:</p>
+                                <ul>
+                                    <li><code class="language-cs">"Apple" + "Pineapple"</code> produces the string <code class="language-cs">"ApplePineapple"</code>.</li>
+                                    <li><code class="language-cs">"Nuevo" + " " + "Foundation"</code> produces the string <code class="language-cs">"Nuevo Foundation"</code>.</li>
+                                </ul>
+                                
+                                <img src="media/Picture4.png" class="rounded mx-auto d-block" alt="Combining strings with +" />
+                            </div>
+
+                            <div class="working-together-box">
+                                <h3>Working Together</h3>
+                                <p>Delete all your <code class="language-cs">Console.WriteLine</code> text in your code. Start your code with the line <code class="language-cs">Console.WriteLine("Nuevo" + " " + "Foundation");</code>.</p>
+                                <p>Note that there are many ways to combine strings together. For example, another way to print Nuevo Foundation would be to write <code class="language-cs">Console.WriteLine("Nue" + "vo Fou" + "ndation");</code>.</p>
+                                <p>We will brainstorm at least one more way to print the string <code class="language-cs">"Nuevo Foundation"</code> using two <code class="language-cs">+</code> symbols in each <code class="language-cs">Console.WriteLine</code> statement. Verify that Nuevo Foundation is printed out 3 times. In other words, your console should look like this after you press <b>run</b>:</p>
+                                
+                                <pre><code>
+                                Nuevo Foundation
+                                Nuevo Foundation
+                                Nuevo Foundation
+                                </code></pre>
+                            </div>
+                            
+                            <div class="exercise-box">
+                                <h3>Activity 2</h3>
+                                <p>Find <code class="language-cs">// TODO (ACTIVITY 2)</code> in the GuessTheWord code. For the Guess the Word game, we will give the computer a word bank, and the computer will choose one of the words randomly to use for the game. So far, we have added the words <code class="language-cs">"Hello"</code> and <code class="language-cs">"World"</code> to the word bank. However, a Guess the Word game with only two possible words to guess is not fun at all! Add at least 3 more strings to the word bank.</p>
+                                <p><i><b>Note:</b></i> The console output will not change from the previous activity. We do not want to tell the player the words inside the word bank when they play the game! For this activity, just make sure that you do not get any error messages in the console after pressing <b>run</b>.</p>
+                            </div>
+                            
+                            <div id="numbers">
+                                <h2>Numbers</h2>
+                                <p>The computer can also do regular math that you see in school. Use <code class="language-cs">Console.WriteLine</code> to print out the result from the math expressions. No quotation marks are needed for numbers!</p>
+                                <pre><code class="language-cs">
+                                Console.WriteLine(5 + 4);
+                                Console.WriteLine(6 * (9 - 7) / 3);
+                                </code></pre>
+                                
+                                <img src="media/Picture5.png" class="rounded mx-auto d-block" alt="Printing numbers" />
+                                
+                                <p>Here is the full list of math symbols that you can use:</p>
+                                <table class="table">
+                                    <tr>
+                                        <td><code class="language-cs">+</code></td>
+                                        <td>Add</td>
+                                        <td><code class="language-cs">\</code></td>
+                                        <td>Divide</td>
+                                    </tr>
+                                    <tr>
+                                        <td><code class="language-cs">-</code></td>
+                                        <td>Subtract</td>
+                                        <td><code class="language-cs">%</code></td>
+                                        <td>Modulo (remainder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><code class="language-cs">*</code></td>
+                                        <td>Multiply</td>
+                                        <td><code class="language-cs">(</code>,<code class="language-cs">)</code></td>
+                                        <td>Parenthesis</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            
+                            <div class="fun-fact-box">
+                                <h3>Fun Fact: Computer Division</h3>
+                                <p>The computer does division differently from your regular calculator. Computer division will exclude remainders or decimals. For example, <code class="language-cs">15 / 4</code> produces <code class="language-cs">3</code>, and not <code class="language-cs">3.75</code>.</p>
+                            </div>
+                            
+                            <div class="working-together-box">
+                                <h3>Working Together</h3>
+                                <p>Delete all your <code class="language-cs">Console.WriteLine</code> text in your code.</p>
+                                <p>Try printing out the answers to the following to the console. Ensure your brackets are matched. Use a calculator (or mental math) to verify the computer produced the correct answer.</p>
+                                
+                                <ul>
+                                    <li><code class="language-cs">2 - 19</code></li>
+                                    <li><code class="language-cs">(3 + 5) * 6</code></li>
+                                    <li><code class="language-cs">(13 + 5 * 8) / (6 - (3 + 7))</code></li>
+                                </ul>
+                            </div>
+                            
+                            <div class="fun-fact-box">
+                                <h3>Fun Fact: Random Numbers</h3>
+                                <p>Here is how to print a random number between <code class="language-cs">1</code> (inclusive) and <code class="language-cs">10</code> (exclusive):</p>
+                                
+                                <pre><code class="language-cs">
+                                Random random = new Random(); 
+                                Console.WriteLine(random.Next(1, 10));
+                                </code></pre>
+                                
+                                <p>Try to find where we use <code class="language-cs">Random</code> in the GuessTheWord game! However, the details as to how this works is complicated, so we will skip this discussion.</p>
+                            </div>
+                            
+                            <div id="booleans">
+                                <h2>Booleans</h2>
+                                <b>Booleans</b> are <code class="language-cs">true</code> or <code class="language-cs">false</code> statements. Unlike strings or numbers, booleans store statements of truth: is what I am saying true or false? For example, if I ask, "Are you a robot?", this question produces a <code class="language-cs">true</code> or <code class="language-cs">false</code> result, which we call a <b>Boolean</b>. In this case, since you are not a robot (hopefully!), we would produce <code class="language-cs">false</code>.
+                                
+                                <p>We can also use math operators to create boolean expressions. Here are some examples; however, notice the unusual symbols for "equal to" and "not equal to":</p>
+                                
+                                <table class="table">
+                                    <tr>
+                                        <td><code class="language-cs">&lt;</code></td>
+                                        <td>Less than</td>
+                                        <td><code class="language-cs">&gt;</code></td>
+                                        <td>Greater than</td>
+                                    </tr>
+                                    <tr>
+                                        <td><code class="language-cs">&lt;=</code></td>
+                                        <td>Less than or equal to</td>
+                                        <td><code class="language-cs">=&gt;</code></td>
+                                        <td>Greater than or equal to</td>
+                                    </tr>
+                                    <tr>
+                                        <td><code class="language-cs">==</code></td>
+                                        <td>Equal to</td>
+                                        <td><code class="language-cs">!=</code></td>
+                                        <td>Not euqal to</td>
+                                    </tr>
+                                </table>
+                                
+                                <p>As usual, use <code class="language-cs">Console.WriteLine</code> to print out your results:</p>
+                                <pre><code class="language-cs">
+                                Console.WriteLine(10 &lt; 8);
+                                Console.WriteLine((3 * 6) == (32 - 14));
+                                </code></pre>
+                                
+                                <img src="media/Picture6.png" class="rounded mx-auto d-block" alt="Printing numbers" />
+                            </div>
+
+                            <div class="working-together-box">
+                                <h3>Working Together</h3>
+                                <p>Delete all your <code class="language-cs">Console.WriteLine</code> text in your code.</p>
+                                <p>Try guessing the answers to the following expressions. Use <code class="language-cs">Console.WriteLine</code> to check your answers.</p>
+                                
+                                <ul>
+                                    <li><code class="language-cs">54 &lt; (10 + 32)</code></li>
+                                    <li><code class="language-cs">(37 / 5) == 7</code></li>
+                                    <li><code class="language-cs">"Hello" + "World" == "Hello World"</code></li>
+                                    <li><code class="language-cs">false == false</code></li>
+                                </ul>
+                            </div>
+                            
+                            <div id="booleans-operators">
+                                <h2>Booleans Operators</h2>
+                                <p>You can also connect boolean expressions together using the <code class="language-cs">&&</code> (AND) and the <code class="language-cs">||</code> (OR) operator. For example, suppose I ask: "Are you a human, and is Nuvi a robot?" The word "and" connects the two true-false questions together. In this case, since it is true that you are a human, and it is also true that Nuvi is a robot, then the overall result is <code class="language-cs">true</code>.</p>
+                                <p>Here's a chart that describes what happens when we connect booleans together:</p>
+                                
+                                <table class="table">
+                                    <tr>
+                                        <th>Expression</th>
+                                        <th>Result</th>
+                                        <th>Expression</th>
+                                        <th>Result</th>
+                                    </tr>
+                                    <tr>
+                                        <td><code class="language-cs">true && true</code></td>
+                                        <td><code class="language-cs">true</code></td>
+                                        <td><code class="language-cs">true || true</code></td>
+                                        <td><code class="language-cs">true</code></td>
+                                    </tr>
+                                    <tr>
+                                        <td><code class="language-cs">true && false</code></td>
+                                        <td><code class="language-cs">false</code></td>
+                                        <td><code class="language-cs">true || false</code></td>
+                                        <td><code class="language-cs">true</code></td>
+                                    </tr>
+                                    <tr>
+                                        <td><code class="language-cs">false && true</code></td>
+                                        <td><code class="language-cs">false</code></td>
+                                        <td><code class="language-cs">false || true</code></td>
+                                        <td><code class="language-cs">true</code></td>
+                                    </tr>
+                                    <tr>
+                                        <td><code class="language-cs">false && false</code></td>
+                                        <td><code class="language-cs">false</code></td>
+                                        <td><code class="language-cs">false || false</code></td>
+                                        <td><code class="language-cs">false</code></td>
+                                    </tr>
+                                </table>
+                                
+                                <p>To summarize, <code class="language-cs">&&</code> requires both Boolean expressions to be true, while <code class="language-cs">||</code> only requires one of the two Boolean expressions to be <code class="language-cs">true</code>. Here are some more examples:</p>
+                                <ul>
+                                    <li><code class="language-cs">(5 &lt; 8) && (9 != 10)</code> produces <code class="language-cs">true</code> since both <code class="language-cs">5</code> is less than <code class="language-cs">8</code> and <code class="language-cs">9</code> is not equal to <code class="language-cs">10</code>.</li>
+                                    <li><code class="language-cs">(8 &lt;= 2) || ("h" + "e" == "he")</code> produces <code class="language-cs">true</code> since <code class="language-cs">"h" + "e"</code> results in <code class="language-cs">"he"</code>, even though <code class="language-cs">8</code> is not less than or equal to <code class="language-cs">2</code>.</li>
+                                    <li><code class="language-cs">(6 != 2 * 3) || (8 &lt; 2 * 4)</code> produces <code class="language-cs">false</code> since both <code class="language-cs">6</code> not equal to <code class="language-cs">2 * 3</code>, and <code class="language-cs">8</code> not being less than <code class="language-cs">2 * 4</code>, produce <code class="language-cs">false</code>.</li>
+                                </ul>
+                                
+                                <img src="media/Picture7.png" class="rounded mx-auto d-block" alt="Combining booleans" />
+                            </div>
+
+                            <div class="working-together-box">
+                                <h3>Working Together</h3>
+                                <p>Delete all your <code class="language-cs">Console.WriteLine</code> text in your code.</p>
+                                <p>Try guessing the answers to the following expressions. Use <code class="language-cs">Console.WriteLine</code> to print out the answers.</p>
+                                <ul>
+                                    <li><code class="language-cs">(9 &lt; 10) && (12 =&gt; 11)</code></li>
+                                    <li><code class="language-cs">(15 - 2 == 11) || (4 % 3 != 2)</code></li>
+                                </ul>
+                            </div>
+                            
+                            <div id="variables">
+                                <h2>Variables</h2>
+                                <p>Variables are simply names that we can give to values such as strings, numbers and booleans. We use variables to store information that the computer can keep track of.</p>
+                                <p>Here's how to declare a variable named <code class="language-cs">str</code>. We say <code class="language-cs">str</code> has the value <code class="language-cs">"Hello World"</code>. Can you describe what the other variables below mean?</p>
+                                <pre><code class="language-cs">
+                                var str = "Hello World";
+                                var x = 88;
+                                var happy = true;
+                                </code></pre>
+                                
+                                <p>Press <b>run</b>. Note that variables are not printed out to the console. Instead, the variable simply stores the string or number or boolean into the computer's memory. We can use these variables in other statements. For example, the following code would print <code class="language-cs">Hello Nuevo Foundation</code> to the console:</p>
+                                <pre><code class="language-cs">
+                                var str1 = "Hello";
+                                var str2 = "Nuevo Foundation";
+                                Console.WriteLine(str1 + " " + str2);
+                                </code></pre>
+                                
+                                <img src="media/Picture8.png" class="rounded mx-auto d-block" alt="Variables 1" />
+                                
+                                <p>You can change the value of a variable at any time by using the <code class="language-cs">=</code> operator again. If you're changing a value of a variable, you don't need to use <code class="language-cs">var</code> again. In the following example, <code class="language-cs">Hola</code> will be printed instead of <code class="language-cs">Hello</code>.</p>
+                                <pre><code class="language-cs">
+                                var str = "Hello";
+                                str = "Hola";
+                                Console.WriteLine(str);
+                                </code></pre>
+                                
+                                <img src="media/Picture9.png" class="rounded mx-auto d-block" alt="Variables 2" />
+                                
+                                <p>Here's another example: <code class="language-cs">10</code> will be printed instead of <code class="language-cs">9</code>.</p>
+                                <pre><code class="language-cs">
+                                var num = 9;
+                                num = num + 1;
+                                Console.WriteLine(num);
+                                </code></pre>
+                                
+                                <img src="media/Picture10.png" class="rounded mx-auto d-block" alt="Variables 3" />
+                                
+                                <p>Note that you CANNOT replace a string variable with a number or a boolean, and similarly for other combinations. The following example code will NOT work:</p>
+                                <pre><code class="language-cs">
+                                var happy = "Hello";
+                                happy = 9;
+                                </code></pre>
+                                
+                                <img src="media/Picture11.png" class="rounded mx-auto d-block" alt="Variables 4" />
+                                
+                                <p>Another way to declare variables is to replace var with the type (<code class="language-cs">string</code>, <code class="language-cs">int</code>, <code class="language-cs">bool</code>) of variable you are creating. By declaring the type explicitly, you avoid the problem that we see above. For example:</p>
+                                <pre><code class="language-cs">
+                                string str = "Hello World";
+                                int x = 88;
+                                bool happy = true;
+                                </code></pre>
+                                
+                                <p>Note that <code class="language-cs">var</code>, <code class="language-cs">string</code>, <code class="language-cs">int</code>, or <code class="language-cs">bool</code> are special keywords in C#, so you cannot create variables with those names.</p>
+                            </div>
+
+                            <div class="working-together-box">
+                                <h3>Working Together</h3>
+                                <p>Let's create two new variables:</p>
+                                
+                                <ul>
+                                    <li>A variable named comp that stores the string <code class="language-cs">"Computer"</code>.</li>
+                                    <li>A variable named five that stores the number <code class="language-cs">5</code>.</li>
+                                </ul>
+                                <p>Next, let's use the variables to print out (<code class="language-cs">Console.WriteLine</code>) the following to the console. Let's try to do this while using the variables!</p>
+                                <p><i><b>Hint:</b></i> we will use the <code class="language-cs">+</code> operator to combine strings together, and to also add numbers together.</p>
+                    
+                                <pre><code class="language-markup">
+                                Computer
+                                5
+                                ComputerComputer
+                                10
+                                ComputerComputerComputer
+                                15
+                                </code></pre>
+                            </div>
+                            
+                            <div class="exercise-box">
+                                <h3>Activity 3</h3>
+                                <p>This activity is split into 2 parts and will test your knowledge about variables.</p>
+                                
+                                <h4>Activity 3.1</h4>
+                                <p>At the start of the game, we should tell the player how many letters the word to guess has. For example, if the word to guess is <code class="language-cs">"Hello"</code>, we should tell the player: <code class="language-cs">The word has 5 letters</code>. We have already stored the number of letters in the <code class="language-cs">numberOfLetters</code> variable, so use it to complete this activity.</p>
+                                <p>To check if you have completed this activity correctly, press <b>run</b>, and make sure you see <code class="language-cs">The word has 5 letters</code> (or some number other than 5) in the console.</p>
+                                
+                                <h4>Activity 3.2</h4>
+                                <p>There are three pieces of information that we need the computer to store:</p>
+                                <ul>
+                                    <li>The number of lives.</li>
+                                    <li>The number of letters that the player has guess correctly so far.</li>
+                                    <li>Whether or not the player won the game.</li>
+                                </ul>
+                                
+                                <p>We will declare three variables to represent these pieces of information. Press <b>run</b> to make sure no errors appear in the console. Remember that variables do not produce console output, so for this part, we are only checking for the absence of errors.</p>
+                            </div>
+                            
+                            <div id="reading-from-console">
+                                <h2>Reading from Console</h2>
+                                <p>Now that we know the basics about variables, we can now accept input from the user. Use the following line to tell the console to wait until the user types something into the console. Then, the computer takes whatever is typed into the console, and stores it into the variable called <code class="language-cs">input</code>.</p>
+                                
+                                <pre><code class="language-cs">
+                                var input = Console.ReadLine();
+                                </code></pre>
+                                
+                                <p>Here's an example of how to use <code class="language-cs">Console.ReadLine</code> to accept user input:</p>
+                                <pre><code class="language-cs">
+                                Console.WriteLine("Type in something:");
+                                var input = Console.ReadLine();
+                                Console.WriteLine("You typed in: " + input);
+                                </code></pre>
+                                <p>When the user presses <b>run</b>, the user is greeted with the following program:</p>
+                                
+                                <img src="media/Picture12.png" class="rounded mx-auto d-block" alt="Reading 1" />
+                                
+                                <p>In this case, after the user types in <code class="language-cs">Hello World!</code> into the console, the program finishes outputting to the console:</p>
+                                
+                                <img src="media/Picture13.png" class="rounded mx-auto d-block" alt="Reading 2" />
+                            </div>
+
+                            <div class="working-together-box">
+                                <h3>Working Together</h3>
+                                <p>Write a program that first prints the following two lines to console:</p>
+                                <pre><code class="language-markup">
+                                Welcome!
+                                How can I help you today?
+                                </code></pre>
+                                <p>Afterwards, the console waits for user input. After the user types in something and presses Enter, the computer prints out:</p>
+                                <pre><code class="language-markup">
+                                You asked: [input]?
+                                I don't know the answer to that! Goodbye!
+                                </code></pre>
+                                <p><code class="language-cs">[input]</code> should be replaced with whatever the user had typed into the console.</p>
+                            </div> 
+                            
+                            <div class="exercise-box">
+                                <h3>Activity 4</h3>
+                                <p>This activity has four parts. This is a great time to use your knowledge of comments, numbers, variables, and reading from console to complete the 4 activities. Some background information for each activity is provided below, and hints are provided in the code. After each part, press <b>run</b> and make sure there are no errors present in the console.</p>
+                                
+                                <h4>Activity 4.1</h4>
+                                <p>First, let's introduce some more code into our game. Find the two lines of code which start with <code class="language-cs">TODO (ACTIVITY 4.1)</code> (one is at approximately line 60, and the other at approximately line 130). Delete both lines of code entirely. This unlocks the main behavior of the game, such as checking if the letter guessed by the player is found in the word to guess.</p>
+                                <p>Unfortunately, after pressing <b>run</b>, it seems like the game does not wait for user input, and continuously guesses <code class="language-cs">'C'</code> instead! This is no good, so let's fix this in the next part.</p>
+                                
+                                <h4>Activity 4.2</h4>
+                                <p>When the player makes a guess, we need to take the guessed letter and store it in a variable. The variable will be used to check if the letter appears in the word to guess. Use <code class="language-cs">Console.ReadLine</code> to wait for user input and store the user input in the input variable. Note: we have already declared the variable input already, so you do not need to use the <code class="language-cs">var</code> keyword.</p>
+                                <p>To check if you have done this correctly, press <b>run</b>, and you should now be able to type in a letter into the console.</p>
+                                
+                                <h4>Activity 4.3</h4>
+                                <p>Every time a letter is guessed correctly, we need to increment (add one to) the number of correctly guessed letters. Use the <code class="language-cs">lettersRevealed</code> variable to change the number of correctly guessed letters.</p>
+                                <p>Press <b>run</b> to make sure no errors occur. We have also provided some code to print out the value of the <code class="language-cs">lettersRevealed</code> variable for testing purposes. Make sure to delete this when you are done testing, since this is something we do not want to reveal to the player!</p>
+                                
+                                <h4>Activity 4.4</h4>
+                                <p>Every time a letter is guessed incorrectly, the player loses a life. Decrement (subtract one from) the number of lives, using the <code class="language-cs">lives</code> variable. We will also tell the player how many lives they have remaining, when they make an incorrect guess, by printing the number of lives to the console.</p>
+                                <p>Check if you have done this correctly by pressing <b>run</b>, guessing an incorrect letter, and seeing if the correct number of lives are displayed on the console.</p>
+                            </div>
+                            
+                            <div class="fun-fact-box">
+                                <h3>Fun Fact - Bugs</h3>
+                                <p>Recall in <b>Activity 4.1</b> that after uncommenting some code, we experienced some unexpected behavior. Any problems or unexpected behaviors in the program are called <b>"bugs"</b>. We fixed the bug introduced in <b>Activity 4.1</b> by introducing user input in <b>Activity 4.2</b>.</p>
+                                <p>Even if you implemented everything correctly in the previous parts, if you keep playing for a while, another issue still occurs. What is it? We will fix this bug in <b>Activity 6</b>.</p>
+                            </div>      
                         </div>
 
-                        <div class="warning-box">
-                            <h3>HELP! I got a lot of red text!</h3>
-                            <p>If you see any red text, you have encountered some errors! Please ask for help or check the debugging page at the end of this tutorial. Beware of the following when coding in C#:</p>
-                            <ol>
-                                <li>The <code class="language-cs">c</code> in <code class="language-cs">Console</code>, and the <code class="language-cs">w</code> and <code class="language-cs">l</code> in <code class="language-cs">WriteLine</code> are capitalized.</li>
-                                <li>There is a semicolon <code class="language-cs">;</code> at the end of the line.</li>
-                                <li>Make sure the sentence you wish to print is surrounded in quotation marks, and that the sentence is between the parentheses.</li>
-                                <li>Do not delete any curly braces <code class="language-cs">{</code> or <code class="language-cs">}</code>.</li>
-                            </ol>
-                        </div>
-        
-        <h2>Comments</h2>
-        <p>Developers often need to collaborate with other developers. Comments are an easy way for developers to write notes in the code and communicate with others. Comments are ignored by the computer; thus, they are also an easy way to tell the computer to not run certain lines of code. There are two ways to create comments:</p>
-        <ol>
-            <li>To comment out one line, place <code class="language-cs">//</code> in front of a line of code. For example:
-            <pre><code class="language-cs">
-            // This is a single-line comment.
-            </code></pre>
-            </li>
-            <li>To comment out multiple lines at once, indicate the start of the comment with <code class="language-cs">/*</code> and the end of the comment with <code class="language-cs">*/</code>. For example:
-            <pre><code class="language-cs">
-            /* This is a multi-line comment.
-            This line is also part of the comment. */
-            </code></pre>
-            </li>
-        </ol>
-        <p>To remove a comment (or uncomment a line), simply delete the <code class="language-cs">//</code> for a single-line comment, or the <code class="language-cs">/*</code> and the <code class="language-cs">*/</code> characters for the multi-line comment.</p>
-        
-        <div class="working-together-box">
-        <h3>Working Together</h3>
-        <ol>
-            <li>Place <code class="language-cs">//</code> in front of <code class="language-cs">Console.WriteLine("Hello World");</code>. After pressing <b>run</b>, check to make sure that <code class="language-cs">Hello World</code> is not printed to the console.
-            <li>Delete the <code class="language-cs">//</code> and instead, surround <code class="language-cs">Console.WriteLine("Hello World");</code> with <code class="language-cs">/*</code> and <code class="language-cs">*/</code>. Check that <code class="language-cs">Hello World</code> is still not printed to the console after pressing <b>run</b>.
-            <li>Delete both <code class="language-cs">/*</code> and <code class="language-cs">*/</code>, and press <b>run</b>. <code class="language-cs">Hello World</code> should now be printed to the console.
-        </ol>
-        <p>Throughout today's activity you will see various multi-line comments and <code class="language-cs">// TODO</code> comments. These comments will guide us towards completing the Guess the Word game, so be sure you understand how to comment and uncomment code.</p>
-        </div>
-        
-        <div class="exercise-box">
-        <h3>Activity 1</h3>
-        <p>Go to the code containing the GuessTheWord game. Press <b>run</b>. Notice that <code class="language-cs">Press 'run' on the top of the screen to play again.</code> is the only thing that is printed to the console. Let's add a welcome message so that the player knows they playing the Guess the Word game.</p>
-        
-        <p>Find <code class="language-cs">// TODO (ACTIVITY 1)</code> in the code. Add a line of code to print Welcome to C#GuessTheWord to the console. If you did this correctly, <code class="language-cs">Welcome to C# GuessTheWord</code> will be printed to the console after pressing <b>run</b>.</p>
-        </div>
-        
-        <h2>Strings</h2>
-        Anything that is surrounded in quotation marks is called a string. This is how a computer represents words or sentences. For example, <code class="language-cs">"a"</code>, <code class="language-cs">"2"</code>, <code class="language-cs">"banana!"</code>, and <code class="language-cs">"Hello World"</code> are strings, but <code class="language-cs">Hello World</code> and <code class="language-cs">2</code> are not strings, because the quotation marks are missing.
-        
-        You can combine many strings together using the <code class="language-cs">+</code> operator. For example:
-        <ul>
-            <li><code class="language-cs">"Apple" + "Pineapple"</code> produces the string <code class="language-cs">"ApplePineapple"</code>.</li>
-            <li><code class="language-cs">"Nuevo" + " " + "Foundation"</code> produces the string <code class="language-cs">"Nuevo Foundation"</code>.</li>
-        </ul>
-        
-        <img src="media/Picture4.png" class="rounded mx-auto d-block" alt="Combining strings with +" />
-        
-        <div class="working-together-box">
-        <h3>Working Together</h3>
-        Delete all your <code class="language-cs">Console.WriteLine</code> text in your code. Start your code with the line <code class="language-cs">Console.WriteLine("Nuevo" + " " + "Foundation");</code>.
-        
-        Note that there are many ways to combine strings together. For example, another way to print Nuevo Foundation would be to write <code class="language-cs">Console.WriteLine("Nue" + "vo Fou" + "ndation");</code>.
-        
-        We will brainstorm at least one more way to print the string <code class="language-cs">"Nuevo Foundation"</code> using two <code class="language-cs">+</code> symbols in each <code class="language-cs">Console.WriteLine</code> statement. Verify that Nuevo Foundation is printed out 3 times. In other words, your console should look like this after you press <b>run</b>:
-        
-        <pre><code>
-        Nuevo Foundation
-        Nuevo Foundation
-        Nuevo Foundation
-        </code></pre>
-        </div>
-        
-        <div class="exercise-box">
-        <h3>Activity 2</h3>
-        Find <code class="language-cs">// TODO (ACTIVITY 2)</code> in the GuessTheWord code. For the Guess the Word game, we will give the computer a word bank, and the computer will choose one of the words randomly to use for the game. So far, we have added the words <code class="language-cs">"Hello"</code> and <code class="language-cs">"World"</code> to the word bank. However, a Guess the Word game with only two possible words to guess is not fun at all! Add at least 3 more strings to the word bank.
-        
-        <i><b>Note:</b></i> The console output will not change from the previous activity. We do not want to tell the player the words inside the word bank when they play the game! For this activity, just make sure that you do not get any error messages in the console after pressing <b>run</b>.
-        </div>
-        
-        <h2>Numbers</h2>
-        The computer can also do regular math that you see in school. Use <code class="language-cs">Console.WriteLine</code> to print out the result from the math expressions. No quotation marks are needed for numbers!
-        <pre><code class="language-cs">
-        Console.WriteLine(5 + 4);
-        Console.WriteLine(6 * (9 - 7) / 3);
-        </code></pre>
-        
-        <img src="media/Picture5.png" class="rounded mx-auto d-block" alt="Printing numbers" />
-        
-        Here is the full list of math symbols that you can use:
+                        <div class="my-4" id="branching-and-loops">
+                            <h1>Branching and Loops</h1>
+                            <div id="if-else-statements">
+                                <h2>If-else statements</h2>
+                                <p>You can use <code class="language-cs">if</code> statements to <b>run</b> code statement only if certain conditions are met. Here is an example:</p>
+                                
+                                <pre><code class="language-cs">
+                                var myNum = (93 + 41) / 12;
+                                if (myNum == 11)
+                                {	
+                                    Console.WriteLine("They are equal!");
+                                }
+                                </code></pre>
+                                
+                                <p>Inside the <code class="language-cs">()</code> beside <code class="language-cs">if</code>, you should specify a boolean expression. If the expression is <code class="language-cs">true</code>, the code inside <code class="language-cs">{ }</code> is executed. In this case, since <code class="language-cs">myNum</code> is equal to <code class="language-cs">11</code>, <code class="language-cs">They are equal!</code> is printed.</p>
+                                
+                                <img src="media/Picture14.png" class="rounded mx-auto d-block" alt="If-else 1" />
+                                
+                                <p>If the condition is <code class="language-cs">false</code>, nothing happens! For example, since <code class="language-cs">10</code> is not greater than <code class="language-cs">11</code>, <code class="language-cs">Print me!</code> will not show up to the console.</p>
+                                <pre><code class="language-cs">
+                                var happy = 10;
+                                if (happy &gt; 11)
+                                {	
+                                    Console.WriteLine("Print me!");
+                                }
+                                </code></pre>
+                                
+                                <img src="media/Picture15.png" class="rounded mx-auto d-block" alt="If-else 2" />
+                                
+                                <p>Use <code class="language-cs">else</code> to tell the computer what to do if the condition is false. In this example, <code class="language-cs">now I got printed instead!</code> will be printed to the console.</p>
+                                <pre><code class="language-cs">
+                                var happy = 10;
+                                if (happy &gt; 11)
+                                {
+                                    Console.WriteLine("Print me!");
+                                }
+                                else
+                                {
+                                    Console.WriteLine("I got printed instead!");
+                                }
+                                </code></pre>
+                                
+                                <img src="media/Picture16.png" class="rounded mx-auto d-block" alt="If-else 3" />
+                                
+                                <p>You can chain many cases together using <code class="language-cs">else if</code>. Note that when using <code class="language-cs">else if</code>, only the first case will be evaluated. For example, in the following code snippet, <code class="language-cs">Statement</code> 1 will be printed. We will skip the check that <code class="language-cs">sad == 4</code> and <code class="language-cs">Statement 2</code> will not be printed, even though <code class="language-cs">sad == 4</code> is <code class="language-cs">true</code>.</p>
+                                
+                                <pre><code class="language-cs">
+                                var sad = 4;
+                                if (sad &lt; 9)
+                                {
+                                    Console.WriteLine("Statement 1");
+                                }
+                                else if (sad == 4)
+                                {
+                                    Console.WriteLine("Statement 2");
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Statement 3");
+                                }
+                                </code></pre>
+                                
+                                <img src="media/Picture17.png" class="rounded mx-auto d-block" alt="If-else 4" />
+                                
+                                <p>You can also place <code class="language-cs">if</code> statements inside other <code class="language-cs">if</code> statements for some interesting behavior:</p>
+                                <pre><code class="language-cs">
+                                var num1 = 10;
+                                var num2 = 20;
+                                if (num1 &lt; num2)
+                                {
+                                    if (num2 &lt; 30)
+                                    {
+                                        Console.WriteLine("Hello!");
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine("Hola!");
+                                    }
+                                }
+                                </code></pre>
+                                
+                                <img src="media/Picture18.png" class="rounded mx-auto d-block" alt="If-else 5" />
+                            </div>
 
-        <table class="table">
-            <tr>
-                <td><code class="language-cs">+</code></td>
-                <td>Add</td>
-                <td><code class="language-cs">\</code></td>
-                <td>Divide</td>
-            </tr>
-            <tr>
-                <td><code class="language-cs">-</code></td>
-                <td>Subtract</td>
-                <td><code class="language-cs">%</code></td>
-                <td>Modulo (remainder)</td>
-            </tr>
-            <tr>
-                <td><code class="language-cs">*</code></td>
-                <td>Multiply</td>
-                <td><code class="language-cs">(</code>,<code class="language-cs">)</code></td>
-                <td>Parenthesis</td>
-            </tr>
-        </table>
-        
-        <div class="fun-fact-box">
-        <h3>Fun Fact: Computer Division</h3>
-        The computer does division differently from your regular calculator. Computer division will exclude remainders or decimals. For example, <code class="language-cs">15 / 4</code> produces <code class="language-cs">3</code>, and not <code class="language-cs">3.75</code>.
-        </div>
-        
-        <div class="working-together-box">
-        <h3>Working Together</h3>
-        Delete all your <code class="language-cs">Console.WriteLine</code> text in your code.
-        
-        Try printing out the answers to the following to the console. Ensure your brackets are matched. Use a calculator (or mental math) to verify the computer produced the correct answer.
-        
-        <ul>
-            <li><code class="language-cs">2 - 19</code></li>
-            <li><code class="language-cs">(3 + 5) * 6</code></li>
-            <li><code class="language-cs">(13 + 5 * 8) / (6 - (3 + 7))</code></li>
-        </ul>
-        </div>
-        
-        <div class="fun-fact-box">
-        <h3>Fun Fact: Random Numbers</h3>
-        Here is how to print a random number between <code class="language-cs">1</code> (inclusive) and <code class="language-cs">10</code> (exclusive):
-        
-        <pre><code class="language-cs">
-        Random random = new Random(); 
-        Console.WriteLine(random.Next(1, 10));
-        </code></pre>
-        
-        Try to find where we use <code class="language-cs">Random</code> in the GuessTheWord game! However, the details as to how this works is complicated, so we will skip this discussion.
-        </div>
-        
-        <h2>Booleans</h2>
-        <b>Booleans</b> are <code class="language-cs">true</code> or <code class="language-cs">false</code> statements. Unlike strings or numbers, booleans store statements of truth: is what I am saying true or false? For example, if I ask, "Are you a robot?", this question produces a <code class="language-cs">true</code> or <code class="language-cs">false</code> result, which we call a <b>Boolean</b>. In this case, since you are not a robot (hopefully!), we would produce <code class="language-cs">false</code>.
-        
-        We can also use math operators to create boolean expressions. Here are some examples; however, notice the unusual symbols for "equal to" and "not equal to":
-        
-        <table class="table">
-            <tr>
-                <td><code class="language-cs">&lt;</code></td>
-                <td>Less than</td>
-                <td><code class="language-cs">&gt;</code></td>
-                <td>Greater than</td>
-            </tr>
-            <tr>
-                <td><code class="language-cs">&lt;=</code></td>
-                <td>Less than or equal to</td>
-                <td><code class="language-cs">=&gt;</code></td>
-                <td>Greater than or equal to</td>
-            </tr>
-            <tr>
-                <td><code class="language-cs">==</code></td>
-                <td>Equal to</td>
-                <td><code class="language-cs">!=</code></td>
-                <td>Not euqal to</td>
-            </tr>
-        </table>
-        
-        As usual, use <code class="language-cs">Console.WriteLine</code> to print out your results:
-        <pre><code class="language-cs">
-        Console.WriteLine(10 &lt; 8);
-        Console.WriteLine((3 * 6) == (32 - 14));
-        </code></pre>
-        
-        <img src="media/Picture6.png" class="rounded mx-auto d-block" alt="Printing numbers" />
-        
-        <div class="working-together-box">
-        <h3>Working Together</h3>
-        Delete all your <code class="language-cs">Console.WriteLine</code> text in your code.
-        
-        Try guessing the answers to the following expressions. Use <code class="language-cs">Console.WriteLine</code> to check your answers.
-        
-        <ul>
-            <li><code class="language-cs">54 &lt; (10 + 32)</code></li>
-            <li><code class="language-cs">(37 / 5) == 7</code></li>
-            <li><code class="language-cs">"Hello" + "World" == "Hello World"</code></li>
-            <li><code class="language-cs">false == false</code></li>
-        </ul>
-        </div>
-        
-        <h2>Booleans Operators</h2>
-        You can also connect boolean expressions together using the <code class="language-cs">&&</code> (AND) and the <code class="language-cs">||</code> (OR) operator. For example, suppose I ask: "Are you a human, and is Nuvi a robot?" The word "and" connects the two true-false questions together. In this case, since it is true that you are a human, and it is also true that Nuvi is a robot, then the overall result is <code class="language-cs">true</code>.
-        
-        Here's a chart that describes what happens when we connect booleans together:
-        
-        <table class="table">
-            <tr>
-                <th>Expression</th>
-                <th>Result</th>
-                <th>Expression</th>
-                <th>Result</th>
-            </tr>
-            <tr>
-                <td><code class="language-cs">true && true</code></td>
-                <td><code class="language-cs">true</code></td>
-                <td><code class="language-cs">true || true</code></td>
-                <td><code class="language-cs">true</code></td>
-            </tr>
-            <tr>
-                <td><code class="language-cs">true && false</code></td>
-                <td><code class="language-cs">false</code></td>
-                <td><code class="language-cs">true || false</code></td>
-                <td><code class="language-cs">true</code></td>
-            </tr>
-            <tr>
-                <td><code class="language-cs">false && true</code></td>
-                <td><code class="language-cs">false</code></td>
-                <td><code class="language-cs">false || true</code></td>
-                <td><code class="language-cs">true</code></td>
-            </tr>
-            <tr>
-                <td><code class="language-cs">false && false</code></td>
-                <td><code class="language-cs">false</code></td>
-                <td><code class="language-cs">false || false</code></td>
-                <td><code class="language-cs">false</code></td>
-            </tr>
-        </table>
-        
-        To summarize, <code class="language-cs">&&</code> requires both Boolean expressions to be true, while <code class="language-cs">||</code> only requires one of the two Boolean expressions to be <code class="language-cs">true</code>. Here are some more examples:
-        <ul>
-            <li><code class="language-cs">(5 &lt; 8) && (9 != 10)</code> produces <code class="language-cs">true</code> since both <code class="language-cs">5</code> is less than <code class="language-cs">8</code> and <code class="language-cs">9</code> is not equal to <code class="language-cs">10</code>.</li>
-            <li><code class="language-cs">(8 &lt;= 2) || ("h" + "e" == "he")</code> produces <code class="language-cs">true</code> since <code class="language-cs">"h" + "e"</code> results in <code class="language-cs">"he"</code>, even though <code class="language-cs">8</code> is not less than or equal to <code class="language-cs">2</code>.</li>
-            <li><code class="language-cs">(6 != 2 * 3) || (8 &lt; 2 * 4)</code> produces <code class="language-cs">false</code> since both <code class="language-cs">6</code> not equal to <code class="language-cs">2 * 3</code>, and <code class="language-cs">8</code> not being less than <code class="language-cs">2 * 4</code>, produce <code class="language-cs">false</code>.</li>
-        </ul>
-        
-        <img src="media/Picture7.png" class="rounded mx-auto d-block" alt="Combining booleans" />
-        
-        <div class="working-together-box">
-        <h3>Working Together</h3>
-        Delete all your <code class="language-cs">Console.WriteLine</code> text in your code.
-        
-        Try guessing the answers to the following expressions. Use <code class="language-cs">Console.WriteLine</code> to print out the answers.
-        <ul>
-            <li><code class="language-cs">(9 &lt; 10) && (12 =&gt; 11)</code></li>
-            <li><code class="language-cs">(15 - 2 == 11) || (4 % 3 != 2)</code></li>
-        </ul>
-        </div>
-        
-        <h2>Variables</h2>
-        Variables are simply names that we can give to values such as strings, numbers and booleans. We use variables to store information that the computer can keep track of.
-        
-        Here's how to declare a variable named <code class="language-cs">str</code>. We say <code class="language-cs">str</code> has the value <code class="language-cs">"Hello World"</code>. Can you describe what the other variables below mean?
-        <pre><code class="language-cs">
-        var str = "Hello World";
-        var x = 88;
-        var happy = true;
-        </code></pre>
-        
-        Press <b>run</b>. Note that variables are not printed out to the console. Instead, the variable simply stores the string or number or boolean into the computer's memory. We can use these variables in other statements. For example, the following code would print <code class="language-cs">Hello Nuevo Foundation</code> to the console:
-        <pre><code class="language-cs">
-        var str1 = "Hello";
-        var str2 = "Nuevo Foundation";
-        Console.WriteLine(str1 + " " + str2);
-        </code></pre>
-        
-        <img src="media/Picture8.png" class="rounded mx-auto d-block" alt="Variables 1" />
-        
-        You can change the value of a variable at any time by using the <code class="language-cs">=</code> operator again. If you're changing a value of a variable, you don't need to use <code class="language-cs">var</code> again. In the following example, <code class="language-cs">Hola</code> will be printed instead of <code class="language-cs">Hello</code>.
-        <pre><code class="language-cs">
-        var str = "Hello";
-        str = "Hola";
-        Console.WriteLine(str);
-        </code></pre>
-        
-        <img src="media/Picture9.png" class="rounded mx-auto d-block" alt="Variables 2" />
-        
-        Here's another example: <code class="language-cs">10</code> will be printed instead of <code class="language-cs">9</code>.
-        <pre><code class="language-cs">
-        var num = 9;
-        num = num + 1;
-        Console.WriteLine(num);
-        </code></pre>
-        
-        <img src="media/Picture10.png" class="rounded mx-auto d-block" alt="Variables 3" />
-        
-        Note that you CANNOT replace a string variable with a number or a boolean, and similarly for other combinations. The following example code will NOT work:
-        <pre><code class="language-cs">
-        var happy = "Hello";
-        happy = 9;
-        </code></pre>
-        
-        <img src="media/Picture11.png" class="rounded mx-auto d-block" alt="Variables 4" />
-        
-        Another way to declare variables is to replace var with the type (<code class="language-cs">string</code>, <code class="language-cs">int</code>, <code class="language-cs">bool</code>) of variable you are creating. By declaring the type explicitly, you avoid the problem that we see above. For example:
-        <pre><code class="language-cs">
-        string str = "Hello World";
-        int x = 88;
-        bool happy = true;
-        </code></pre>
-        
-        Note that <code class="language-cs">var</code>, <code class="language-cs">string</code>, <code class="language-cs">int</code>, or <code class="language-cs">bool</code> are special keywords in C#, so you cannot create variables with those names.
-        
-        <div class="working-together-box">
-        <h3>Working Together</h3>
-        Let's create two new variables:
-        
-        <ul>
-            <li>A variable named comp that stores the string <code class="language-cs">"Computer"</code>.</li>
-            <li>A variable named five that stores the number <code class="language-cs">5</code>.</li>
-        </ul>
-        Next, let's use the variables to print out (<code class="language-cs">Console.WriteLine</code>) the following to the console. Let's try to do this while using the variables!
-        
-        <i><b>Hint:</b></i> we will use the <code class="language-cs">+</code> operator to combine strings together, and to also add numbers together.
-        
-        <pre><code class="language-markup">
-        Computer
-        5
-        ComputerComputer
-        10
-        ComputerComputerComputer
-        15
-        </code></pre>
-        </div>
-        
-        <div class="exercise-box">
-        <h3>Activity 3</h3>
-        This activity is split into 2 parts and will test your knowledge about variables.
-        
-        <h4>Activity 3.1</h4>
-        At the start of the game, we should tell the player how many letters the word to guess has. For example, if the word to guess is <code class="language-cs">"Hello"</code>, we should tell the player: <code class="language-cs">The word has 5 letters</code>. We have already stored the number of letters in the <code class="language-cs">numberOfLetters</code> variable, so use it to complete this activity.
-        
-        To check if you have completed this activity correctly, press <b>run</b>, and make sure you see <code class="language-cs">The word has 5 letters</code> (or some number other than 5) in the console.
-        
-        <h4>Activity 3.2</h4>
-        There are three pieces of information that we need the computer to store:
-        <ul>
-            <li>The number of lives.</li>
-            <li>The number of letters that the player has guess correctly so far.</li>
-            <li>Whether or not the player won the game.</li>
-        </ul>
-        
-        We will declare three variables to represent these pieces of information. Press <b>run</b> to make sure no errors appear in the console. Remember that variables do not produce console output, so for this part, we are only checking for the absence of errors.
-        </div>
-        
-        <h2>Reading from Console</h2>
-        Now that we know the basics about variables, we can now accept input from the user. Use the following line to tell the console to wait until the user types something into the console. Then, the computer takes whatever is typed into the console, and stores it into the variable called <code class="language-cs">input</code>.
-        
-        <pre><code class="language-cs">
-        var input = Console.ReadLine();
-        </code></pre>
-        
-        Here's an example of how to use <code class="language-cs">Console.ReadLine</code> to accept user input:
-        <pre><code class="language-cs">
-        Console.WriteLine("Type in something:");
-        var input = Console.ReadLine();
-        Console.WriteLine("You typed in: " + input);
-        </code></pre>
-        When the user presses <b>run</b>, the user is greeted with the following program:
-        
-        <img src="media/Picture12.png" class="rounded mx-auto d-block" alt="Reading 1" />
-        
-        In this case, after the user types in <code class="language-cs">Hello World!</code> into the console, the program finishes outputting to the console:
-        
-        <img src="media/Picture13.png" class="rounded mx-auto d-block" alt="Reading 2" />
-        
-        <div class="working-together-box">
-        <h3>Working Together</h3>
-        Write a program that first prints the following two lines to console:
-        <pre><code class="language-markup">
-        Welcome!
-        How can I help you today?
-        </code></pre>
-        Afterwards, the console waits for user input. After the user types in something and presses Enter, the computer prints out:
-        <pre><code class="language-markup">
-        You asked: [input]?
-        I don't know the answer to that! Goodbye!
-        </code></pre>
-        <code class="language-cs">[input]</code> should be replaced with whatever the user had typed into the console.
-        </div> 
-        
-        <div class="exercise-box">
-        <h3>Activity 4</h3>
-        This activity has four parts. This is a great time to use your knowledge of comments, numbers, variables, and reading from console to complete the 4 activities. Some background information for each activity is provided below, and hints are provided in the code. After each part, press <b>run</b> and make sure there are no errors present in the console.
-        
-        <h4>Activity 4.1</h4>
-        First, let's introduce some more code into our game. Find the two lines of code which start with <code class="language-cs">TODO (ACTIVITY 4.1)</code> (one is at approximately line 60, and the other at approximately line 130). Delete both lines of code entirely. This unlocks the main behavior of the game, such as checking if the letter guessed by the player is found in the word to guess.
-        
-        Unfortunately, after pressing <b>run</b>, it seems like the game does not wait for user input, and continuously guesses <code class="language-cs">'C'</code> instead! This is no good, so let's fix this in the next part.
-        
-        <h4>Activity 4.2</h4>
-        When the player makes a guess, we need to take the guessed letter and store it in a variable. The variable will be used to check if the letter appears in the word to guess. Use <code class="language-cs">Console.ReadLine</code> to wait for user input and store the user input in the input variable. Note: we have already declared the variable input already, so you do not need to use the <code class="language-cs">var</code> keyword.
-        
-        To check if you have done this correctly, press <b>run</b>, and you should now be able to type in a letter into the console.
-        
-        <h4>Activity 4.3</h4>
-        Every time a letter is guessed correctly, we need to increment (add one to) the number of correctly guessed letters. Use the <code class="language-cs">lettersRevealed</code> variable to change the number of correctly guessed letters.
-        Press <b>run</b> to make sure no errors occur. We have also provided some code to print out the value of the <code class="language-cs">lettersRevealed</code> variable for testing purposes. Make sure to delete this when you are done testing, since this is something we do not want to reveal to the player!
-        
-        <h4>Activity 4.4</h4>
-        Every time a letter is guessed incorrectly, the player loses a life. Decrement (subtract one from) the number of lives, using the <code class="language-cs">lives</code> variable. We will also tell the player how many lives they have remaining, when they make an incorrect guess, by printing the number of lives to the console.
-        Check if you have done this correctly by pressing <b>run</b>, guessing an incorrect letter, and seeing if the correct number of lives are displayed on the console.
-        </div>
-        
-        <div class="fun-fact-box">
-        <h3>Fun Fact - Bugs</h3>
-        Recall in <b>Activity 4.1</b> that after uncommenting some code, we experienced some unexpected behavior. Any problems or unexpected behaviors in the program are called <b>"bugs"</b>. We fixed the bug introduced in <b>Activity 4.1</b> by introducing user input in <b>Activity 4.2</b>.
-        
-        Even if you implemented everything correctly in the previous parts, if you keep playing for a while, another issue still occurs. What is it? We will fix this bug in <b>Activity 6</b>.
-        </div>
-        
-        <h1>Branching and Loops</h1>
-        <h2>If-else statements</h2>
-        You can use <code class="language-cs">if</code> statements to <b>run</b> code statement only if certain conditions are met. Here is an example:
-        
-        <pre><code class="language-cs">
-        var myNum = (93 + 41) / 12;
-        if (myNum == 11)
-        {	
-            Console.WriteLine("They are equal!");
-        }
-        </code></pre>
-        
-        Inside the <code class="language-cs">()</code> beside <code class="language-cs">if</code>, you should specify a boolean expression. If the expression is <code class="language-cs">true</code>, the code inside <code class="language-cs">{ }</code> is executed. In this case, since <code class="language-cs">myNum</code> is equal to <code class="language-cs">11</code>, <code class="language-cs">They are equal!</code> is printed.
-        
-        <img src="media/Picture14.png" class="rounded mx-auto d-block" alt="If-else 1" />
-        
-        If the condition is <code class="language-cs">false</code>, nothing happens! For example, since <code class="language-cs">10</code> is not greater than <code class="language-cs">11</code>, <code class="language-cs">Print me!</code> will not show up to the console.
-        <pre><code class="language-cs">
-        var happy = 10;
-        if (happy &gt; 11)
-        {	
-            Console.WriteLine("Print me!");
-        }
-        </code></pre>
-        
-        <img src="media/Picture15.png" class="rounded mx-auto d-block" alt="If-else 2" />
-        
-        Use <code class="language-cs">else</code> to tell the computer what to do if the condition is false. In this example, <code class="language-cs">now I got printed instead!</code> will be printed to the console.
-        <pre><code class="language-cs">
-        var happy = 10;
-        if (happy &gt; 11)
-        {
-            Console.WriteLine("Print me!");
-        }
-        else
-        {
-            Console.WriteLine("I got printed instead!");
-        }
-        </code></pre>
-        
-        <img src="media/Picture16.png" class="rounded mx-auto d-block" alt="If-else 3" />
-        
-        You can chain many cases together using <code class="language-cs">else if</code>. Note that when using <code class="language-cs">else if</code>, only the first case will be evaluated. For example, in the following code snippet, <code class="language-cs">Statement</code> 1 will be printed. We will skip the check that <code class="language-cs">sad == 4</code> and <code class="language-cs">Statement 2</code> will not be printed, even though <code class="language-cs">sad == 4</code> is <code class="language-cs">true</code>.
-        
-        <pre><code class="language-cs">
-        var sad = 4;
-        if (sad &lt; 9)
-        {
-            Console.WriteLine("Statement 1");
-        }
-        else if (sad == 4)
-        {
-            Console.WriteLine("Statement 2");
-        }
-        else
-        {
-            Console.WriteLine("Statement 3");
-        }
-        </code></pre>
-        
-        <img src="media/Picture17.png" class="rounded mx-auto d-block" alt="If-else 4" />
-        
-        You can also place <code class="language-cs">if</code> statements inside other <code class="language-cs">if</code> statements for some interesting behavior:
-        <pre><code class="language-cs">
-        var num1 = 10;
-        var num2 = 20;
-        if (num1 &lt; num2)
-        {
-            if (num2 &lt; 30)
-            {
-                Console.WriteLine("Hello!");
-            }
-            else
-            {
-                Console.WriteLine("Hola!");
-            }
-        }
-        </code></pre>
-        
-        <img src="media/Picture18.png" class="rounded mx-auto d-block" alt="If-else 5" />
-        
-        <div class="working-together-box">
-        <h3>Working Together</h3>
-        Let's write a program that first prints the following line to console:
-        <pre><code class="language-markup">
-        Is coding fun?
-        </code></pre>
-        Afterwards, the console waits for user input.
-        
-        <ul>
-            <li>If the user enters yes, the computer prints out <code class="language-cs">Yes, I'm glad you're enjoying it!</code>.</li>
-            <li>If the user enters no, the computer prints out <code class="language-cs">Oh no, that's too bad!</code>.</li>
-            <li>Otherwise, the computer prints out: <code class="language-cs">I don't understand you! Goodbye!</code>.</li>
-        </ul>
-        </div>
-        
-        <div class="fun-fact-box">
-        <h3>Fun Fact: Switch statements</h3>
-        Using multiple <code class="language-cs">if</code>, <code class="language-cs">else</code> statements could get very long and confusing. You can use <code class="language-cs">switch</code> statements instead if you want to compare a single variable against multiple values. For example, the <b>Working Together</b> activity can be completed using the following piece of code:
-        
-        <pre><code class="language-cs">
-            var input = Console.ReadLine();
-            switch (input)
-            {
-                case "yes":
-                    Console.WriteLine("Yes, I'm glad you're enjoying it!");
-                    break;
-                case "no":
-                    Console.WriteLine("Oh no, that's too bad!");
-                    break;
-                default:
-                    Console.WriteLine("I don't understand you! Goodbye!");
-                    break;
-            }
-        </code></pre>
-        
-        Each case represents a possible value that the variable input might take. Make sure you use the <code class="language-cs">break</code> statement to tell the computer that you have completed all the actions associated with this case.
-        </div>
-        
-        <div class="exercise-box">
-        <h3>Activity 5</h3>
-        This activity is split into two parts. Use your knowledge of <code class="language-cs">if</code>-<code class="language-cs">else</code> statements to complete the activities. As always, press <b>run</b> after completing each part to check for errors.
-        
-        <h4>Activity 5.1</h4>
-        After the player guesses a letter, and we have checked whether the letter appears in the word, we need to check if the entire word has been guessed. If the entire word has been correctly identified, we should let the computer know that the player has won the game. Use an <code class="language-cs">if</code>-statement to change the value of the won variable only if the number of letters correctly guessed equals the number of letters in the word to guess.
-        
-        <h4>Activity 5.2</h4>
-        At the end of the game, we should let the player know if they won or lost the game.
-        If the player has won the game, print out to console <code class="language-cs">You won!</code>.
-        Else, tell the player that they lost, and print out the correct answer. For example, if the player could not guess the correct answer <code class="language-cs">"Hello"</code>, print out <code class="language-cs">You lost! The answer was 'Hello'</code>.
-        To test both parts of the activity, set the word bank to only contain one two-letter word (see <b>Activity 2</b> if you forget how to do this). Press <b>run</b>, and correctly guess the word when playing the game. Make sure <code class="language-cs">You won!</code> is printed out. <b>Run</b> again, and check that <code class="language-cs">You lost! </code>is printed out when you lose the game.
-        </div>
-        
-        <h2>While loops</h2>
-        <code class="language-cs">while</code> loops are an easy way to repeat the execution of lines without having to reuse a line many times. For example, to print <code class="language-cs">Hello World</code> five times in a row, you can do:
-        
-        <pre><code class="language-cs">
-        var counter = 1;
-        while (counter &lt;= 5)
-        {
-            Console.WriteLine("Hello World");
-            counter = counter + 1;
-        }
-        </code></pre>
-        
-        Like an <code class="language-cs">if</code> statement, inside the <code class="language-cs">()</code> beside <code class="language-cs">while</code>, you should specify a boolean expression. If the expression is <code class="language-cs">true</code>, the code inside the curly braces <code class="language-cs">{ }</code> is executed. However, after everything inside the curly braces is executed, we go back to the top of the <code class="language-cs">while</code> loop and check the boolean expression again. If the boolean expression continues to be <code class="language-cs">true</code>, the loop will be repeated.
-        
-        <img src="media/Picture19.png" class="rounded mx-auto d-block" alt="While 1" />
-        
-        You can also place <code class="language-cs">if</code> statements in <code class="language-cs">while</code> loops to do some interesting behavior:
-        
-        <pre><code class="language-cs">
-        var counter = 1;
-        while (counter &lt;= 10)
-        {
-            if (counter &lt; 5)
-            {
-                Console.WriteLine("Smaller than 5!");
-            }
-            else
-            {
-                Console.WriteLine("Greater than or equal to 5!");
-            }
-            counter = counter + 1;
-        }
-        </code></pre>
-        
-        Here is an example of an infinite loop - do you see what's wrong? What can you do so that the following piece of code prints <code class="language-cs">Spam!</code> only 100 times?
-        <pre><code class="language-cs">
-        var counter = 100;
-        while (counter &gt; 0)
-        {
-            Console.WriteLine("Spam!");
-        }
-        </code></pre>
-        
-        <img src="media/Picture20.png" class="rounded mx-auto d-block" alt="While 2" />
-        
-        <div class="working-together-box">
-        <h3>Working Together</h3>
-        Take your code from the previous activity. Let's expand the code so that instead of the program finishing after the user inputs once, allow the user to answer the question 10 times before exiting. Be careful about infinite loops!
-        </div>
-        
-        <div class="exercise-box">
-        <h3>Activity 6 - Completing the game!</h3>
-        Now, let's finally address the bug that was introduced in <b>Activity 4.2</b>. The game should continue to ask the player to guess letters if they have some lives remaining, and they have not yet won the game. Look at the <code class="language-cs">for</code> loop. As you might have noticed, even though you might have lives remaining, the game abruptly stops after only 3 guesses. We will replace this <code class="language-cs">for</code>-loop with a <code class="language-cs">while</code>-loop, with the correct looping condition. Use the given hint to complete the activity.
-        </div>
-        
+                            <div class="working-together-box">
+                                <h3>Working Together</h3>
+                                <p>Let's write a program that first prints the following line to console:</p>
+                                <pre><code class="language-markup">
+                                Is coding fun?
+                                </code></pre>
+                                <p>Afterwards, the console waits for user input.</p>
+                                
+                                <ul>
+                                    <li>If the user enters yes, the computer prints out <code class="language-cs">Yes, I'm glad you're enjoying it!</code>.</li>
+                                    <li>If the user enters no, the computer prints out <code class="language-cs">Oh no, that's too bad!</code>.</li>
+                                    <li>Otherwise, the computer prints out: <code class="language-cs">I don't understand you! Goodbye!</code>.</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="fun-fact-box">
+                                <h3>Fun Fact: Switch statements</h3>
+                                <p>Using multiple <code class="language-cs">if</code>, <code class="language-cs">else</code> statements could get very long and confusing. You can use <code class="language-cs">switch</code> statements instead if you want to compare a single variable against multiple values. For example, the <b>Working Together</b> activity can be completed using the following piece of code:</p>
+                                
+                                <pre><code class="language-cs">
+                                    var input = Console.ReadLine();
+                                    switch (input)
+                                    {
+                                        case "yes":
+                                            Console.WriteLine("Yes, I'm glad you're enjoying it!");
+                                            break;
+                                        case "no":
+                                            Console.WriteLine("Oh no, that's too bad!");
+                                            break;
+                                        default:
+                                            Console.WriteLine("I don't understand you! Goodbye!");
+                                            break;
+                                    }
+                                </code></pre>
+                                
+                                <p>Each case represents a possible value that the variable input might take. Make sure you use the <code class="language-cs">break</code> statement to tell the computer that you have completed all the actions associated with this case.</p>
+                            </div>
+                            
+                            <div class="exercise-box">
+                                <h3>Activity 5</h3>
+                                <p>This activity is split into two parts. Use your knowledge of <code class="language-cs">if</code>-<code class="language-cs">else</code> statements to complete the activities. As always, press <b>run</b> after completing each part to check for errors.</p>
+                                
+                                <h4>Activity 5.1</h4>
+                                <p>After the player guesses a letter, and we have checked whether the letter appears in the word, we need to check if the entire word has been guessed. If the entire word has been correctly identified, we should let the computer know that the player has won the game. Use an <code class="language-cs">if</code>-statement to change the value of the won variable only if the number of letters correctly guessed equals the number of letters in the word to guess.</p>
+                                
+                                <h4>Activity 5.2</h4>
+                                <p>At the end of the game, we should let the player know if they won or lost the game.</p>
+                                <ul>
+                                    <li>If the player has won the game, print out to console <code class="language-cs">You won!</code>.</li>
+                                    <li>Else, tell the player that they lost, and print out the correct answer. For example, if the player could not guess the correct answer <code class="language-cs">"Hello"</code>, print out <code class="language-cs">You lost! The answer was 'Hello'</code>.</li>
+                                </ul>
+                                <p>To test both parts of the activity, set the word bank to only contain one two-letter word (see <b>Activity 2</b> if you forget how to do this). Press <b>run</b>, and correctly guess the word when playing the game. Make sure <code class="language-cs">You won!</code> is printed out. <b>Run</b> again, and check that <code class="language-cs">You lost! </code>is printed out when you lose the game.</p>
+                            </div>
+                            
+                            <div id="while-loops">
+                                <h2>While loops</h2>
+                                <p><code class="language-cs">while</code> loops are an easy way to repeat the execution of lines without having to reuse a line many times. For example, to print <code class="language-cs">Hello World</code> five times in a row, you can do:</p>
+                                
+                                <pre><code class="language-cs">
+                                var counter = 1;
+                                while (counter &lt;= 5)
+                                {
+                                    Console.WriteLine("Hello World");
+                                    counter = counter + 1;
+                                }
+                                </code></pre>
+                                
+                                <p>Like an <code class="language-cs">if</code> statement, inside the <code class="language-cs">()</code> beside <code class="language-cs">while</code>, you should specify a boolean expression. If the expression is <code class="language-cs">true</code>, the code inside the curly braces <code class="language-cs">{ }</code> is executed. However, after everything inside the curly braces is executed, we go back to the top of the <code class="language-cs">while</code> loop and check the boolean expression again. If the boolean expression continues to be <code class="language-cs">true</code>, the loop will be repeated.</p>
+                                
+                                <img src="media/Picture19.png" class="rounded mx-auto d-block" alt="While 1" />
+                                
+                                <p>You can also place <code class="language-cs">if</code> statements in <code class="language-cs">while</code> loops to do some interesting behavior:</p>
+                                
+                                <pre><code class="language-cs">
+                                var counter = 1;
+                                while (counter &lt;= 10)
+                                {
+                                    if (counter &lt; 5)
+                                    {
+                                        Console.WriteLine("Smaller than 5!");
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine("Greater than or equal to 5!");
+                                    }
+                                    counter = counter + 1;
+                                }
+                                </code></pre>
+                                
+                                <p>Here is an example of an infinite loop - do you see what's wrong? What can you do so that the following piece of code prints <code class="language-cs">Spam!</code> only 100 times?</p>
+                                <pre><code class="language-cs">
+                                var counter = 100;
+                                while (counter &gt; 0)
+                                {
+                                    Console.WriteLine("Spam!");
+                                }
+                                </code></pre>
+                                
+                                <img src="media/Picture20.png" class="rounded mx-auto d-block" alt="While 2" />
+                            </div>
+                            
+                            <div class="working-together-box">
+                                <h3>Working Together</h3>
+                                <p>Take your code from the previous activity. Let's expand the code so that instead of the program finishing after the user inputs once, allow the user to answer the question 10 times before exiting. Be careful about infinite loops!</p>
+                            </div>
+                            
+                            <div class="exercise-box">
+                                <h3>Activity 6 - Completing the game!</h3>
+                                <p>Now, let's finally address the bug that was introduced in <b>Activity 4.2</b>. The game should continue to ask the player to guess letters if they have some lives remaining, and they have not yet won the game. Look at the <code class="language-cs">for</code> loop. As you might have noticed, even though you might have lives remaining, the game abruptly stops after only 3 guesses. We will replace this <code class="language-cs">for</code>-loop with a <code class="language-cs">while</code>-loop, with the correct looping condition. Use the given hint to complete the activity.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -693,7 +700,7 @@
             <hr>
             <div class="row justify-content-md-center">
                 <div class="col my-auto">
-                    <img src="gif/nuvi.gif" id="footer-img" class="float-right">
+                    <img src="gif/nuvi.gif" id="footer-img" class="float-right" alt="Nuvi gif">
                 </div>
                 <div class="col my-auto">
                     <p class="font-weight-bolder text-muted text-left">Nuevo Foundation</p>
