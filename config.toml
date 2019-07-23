@@ -4,7 +4,7 @@ languageCode = "en-us"
 DefaultContentLanguage = "en"
 title = "DocDock Documentation"
 theme = "docdock"
-themesdir = "themes/"
+# themesdir = "themes/"
 pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
 
@@ -28,12 +28,12 @@ enableMissingTranslationPlaceholders = false
 
 
 [params]
-editURL = "https://github.com/vjeantet/hugo-theme-docdock/edit/master/exampleSite/content/"
+editURL = "https://github.com/NuevoFoundation/workshops/tree/master/content/"
 showVisitedLinks = true # default is false
 themeStyle = "flex" # "original" or "flex" # default "flex"
 themeVariant = "" # choose theme variant "green", "gold" , "gray", "blue" (default)
 ordersectionsby = "weight" # ordersectionsby = "title"
-disableHomeIcon = false # default is false
+disableHomeIcon = true # default is false
 disableSearch = false # default is false
 disableNavChevron = false # set true to hide next/prev chevron, default is false
 highlightClientSide = false # set true to use highlight.pack.js instead of the default hugo chroma highlighter
