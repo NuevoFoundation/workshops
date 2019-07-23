@@ -1,0 +1,197 @@
+backend:
+  name: github
+  repo: thedanfernandez/docshubpage
+
+publish_mode: editorial_workflow
+media_folder: 'docshubpage/images/'
+
+collections:
+  - name: 'service' # Used in routes, ie.: /admin/collections/:slug/edit
+    label: 'Azure Service' # Used in the UI
+    folder: 'docshubpage/_services'
+    create: true # Allow users to create new documents in this collection
+    format: yml
+    fields: # The fields each document in this collection have
+      - { label: 'Service Name', name: 'title', widget: 'string', hint: 'The service name' }
+      - { label: 'Service Description', name: 'heroText', widget: 'string', hint: 'Succint 50 character description' }
+      - { label: 'Service Status', name: 'service_status', widget: 'select', options: ['Preview', 'Generally Available'], hint: 'Preview refers to services that are not generally available and may change. Use Generally Available for any shipping services' }
+      - { label: 'Call-to-Action Button Text', name: 'ctaText', widget: 'string', default: 'Get Started', hint: 'Text for button at top of page' }
+      - { label: 'Call-to-Action URL', name: 'ctaUrl', widget: 'string', default: 'https://aka.ms/azure/', hint: 'Fully qualified URL in the format https://aka.ms/azure' }
+      - label: 'Service Value Proposition'
+        name: 'valueproplist'
+        description: '3 - 7 Key Features and differentiation for service'
+        label_singular: 'Value Proposition'
+        widget: list
+        fields:
+              - { label: 'Heading', name: 'title', widget: 'string', hint: 'The section heading/tite'}
+              - { label: 'Text', name: 'text', widget: 'markdown', hint: 'Valueprop text' }
+              - { label: 'Image', name: 'src', widget: 'image', hint: 'Screenshot or image to support value prop' }
+              - { label: 'Alt Text', name: 'altText', widget: 'string', hint: 'Accessible text describing the image'}
+              - { label: 'Link Text', name: 'linkText', widget: 'string', hint: 'The text label for the link' }
+              - { label: 'Link URL', name: 'linkUrl', widget: string, default: 'https://aka.ms/azure/', hint: 'Fully qualified URL in the format https://aka.ms/azure'}
+  - name: 'landing' # Used in routes, ie.: /admin/collections/:slug/edit
+    label: 'Landing Pages' # Used in the UI
+    folder: 'docshubpage/landing'
+    create: true # Allow users to create new documents in this collection
+    format: yml
+    fields: # The fields each document in this collection have
+      - { label: 'documentType', name: 'documentType', widget: 'hidden', default: 'LandingData'}
+      - { label: 'Page Title', name: 'title', widget: 'string', hint: 'The page title' }
+      - label: 'sections'
+        name: 'sections'
+        widget: 'list'
+        fields:  
+        - label: 'items'
+          name: 'items'
+          widget: 'list'
+          fields: 
+            - { label: 'type', name: 'type', widget: 'string', default: 'markdown' }
+            - { label: 'Markdown Text 1233pm', name: 'text', widget: 'markdown', hint: 'Add markdown to display on the page' }
+  - name: 'objectlanding' # Used in routes, ie.: /admin/collections/:slug/edit
+    label: 'Object Landing Pages' # Used in the UI
+    folder: 'docshubpage/objectlanding'
+    create: true # Allow users to create new documents in this collection
+    format: yml
+    fields: # The fields each document in this collection have
+      - { label: 'documentType', name: 'documentType', widget: 'hidden', default: 'LandingData'}
+      - { label: 'Page Title409pm', name: 'title', widget: 'string', hint: 'The page title' }
+      - label: 'sections'
+        name: 'sections'
+        widget: 'list'
+        fields:  
+            - label: 'Landing Page'
+              name: 'items'
+              widget: 'list'
+              types:
+                - label: 'Paragraph'
+                  name: 'paragragh'
+                  widget: 'object'
+                  fields:
+                    - {label: Text, name: text, widget: string, hint: 'A section label'}   
+                - label: 'Card List'
+                  name: 'list'
+                  widget: object
+                  fields:
+                    - {label: 'style', name: 'style', widget: 'hidden', default: 'cards'}
+                    - label: 'Card Style'
+                      name: 'className'
+                      widget: 'select'
+                      options:
+                        - { label: 'Border Outline', value: 'cardsM' }
+                        - { label: 'Learn Style', value: 'cardsFTitle' }
+                    - {label: '# of Columns', name: 'columns', widget: 'number', default: 2}
+  - name: 'faq' # Used in routes, ie.: /admin/collections/:slug/edit
+    label: 'Azure FAQ' # Used in the UI
+    folder: 'docshubpage/_faqs'
+    create: true # Allow users to create new documents in this collection
+    format: yml
+    fields:
+      - {label: Title, name: title, widget: string, hint: 'Page Title'}
+      - label: 'All Questions'
+        label_singular: 'Q+A'
+        name: 'items'
+        widget: 'list'
+        fields: 
+          - { label: 'Question', name: 'question', widget: 'string', hint: 'Customer question'}
+          - { label: 'Answer', name: 'answer', widget: 'markdown', hint: 'Markdown response to question' }
+
+
+
+  # - name: 'objectlanding' # Used in routes, ie.: /admin/collections/:slug/edit
+  #   label: 'Object Landing Pages' # Used in the UI
+  #   folder: 'docshubpage/objectlanding'
+  #   create: true # Allow users to create new documents in this collection
+  #   format: yml
+  #   fields: # The fields each document in this collection have
+  #     - { label: 'documentType', name: 'documentType', widget: 'hidden', default: 'LandingData'}
+  #     - { label: 'Page Title409pm', name: 'title', widget: 'string', hint: 'The page title' }
+  #     - label: 'sections'
+  #       name: 'sections'
+  #       widget: 'list'
+  #       fields:  
+  #         - label: 'title'
+  #           name: 'title'
+  #           default: 'Section Title'
+  #           widget: 'string'
+  #           hint: 'The section header'
+  #           fields:
+  #           - label: 'Home Section'
+  #             name: 'items'
+  #             widget: 'list'
+  #             types:
+  #               - label: 'Carousel'
+  #                 name: 'carousel'
+  #                 widget: 'object'
+  #                 fields:
+  #                   - {label: Header, name: header, widget: string, default: "Image Gallery"}
+  #                   - {label: Template, name: template, widget: string, default: "carousel.html"}
+  #                   - label: Images
+  #                     name: images
+  #                     widget: list
+  #                     field: {label: ImageUrl, name: imageUrl, widget: string}
+  #               - label: "Spotlight"
+  #                 name: "spotlight"
+  #                 widget: object
+  #                 fields:
+  #                   - {label: Header, name: header, widget: string, default: "Spotlight"}
+  #                   - {label: Template, name: template, widget: string, default: "spotlight.html"}
+                    # - {label: Text, name: text, widget: text, default: "Hello World"}
+
+
+
+
+
+
+  # - label: "Home Section"
+  #   name: "sections"
+  #   widget: "list"
+  #   types:
+  #     - label: "Paragraph"
+  #       name: "paragraph"
+  #       widget: object
+  #       fields:
+  #         - {label: 'Text', name: text, widget: string, hint: "Text-only hint, no markdown"}
+  #     - label: "Spotlight"
+  #       name: "spotlight"
+  #       widget: object
+  #       fields:
+  #         - {label: Header, name: header, widget: string, default: "Spotlight"}
+  #         - {label: Template, name: template, widget: string, default: "spotlight.html"}
+  #         - {label: Text, name: text, widget: text, default: "Hello World"}
+  # # - name: 'object' # Used in routes, ie.: /admin/collections/:slug/edit
+  #   label: 'Object Landing Pages' # Used in the UI
+  #   folder: 'docshubpage/objectlanding'
+  #   create: true # Allow users to create new documents in this collection
+  #   format: yml
+  #   fields: 
+  #   - label: 'sections'
+  #     name: 'sections'
+  #     widget: 'list'
+  #     types:
+  #     fields:  
+  #       - label: 'items'
+  #         name: 'items'
+  #         widget: 'object'
+  #         fields: 
+  #           - { label: 'type', name: 'type', widget: 'string', default: 'markdown' }
+  #           - { label: 'Markdown Text 1233pm', name: 'text', widget: 'markdown', hint: 'Add markdown to display on the page' }
+  #       - label: 'Card List'
+  #         name: 'cardList'
+  #         widget: 'object'
+  #         fields:
+  #           - { label: 'type', name: 'type', widget: 'hidden', default: 'list' }
+  #           - { label: 'style', name: 'style', widget: 'hidden', default: 'cards'}
+  #           - { label: 'Card CSS Class', name: 'className', widget: 'select', options: ['cardsM']}
+  #           - { label: '# of Columns', name: 'columns', widget: 'number', default: '2', hint: 'The number of cards to show in the page layout (1-3)' }
+  #           - label: 'items'
+  #             name: 'items'
+  #             widget: 'list'
+  #             fields:
+  #               - { label: 'Card Title', name: 'title', widget: 'text', hint: 'Short title describing the content'}
+  #               - { label: 'Card HTML', name: 'html', widget: 'text', hint: 'HTML for each card, ex: <p>Get Started today</p>' }
+  #               - { label: 'Card Link URL', name: 'href', widget: 'string', hint: 'Fully qualified URL, ex: https://aka.ms/azure'}
+  #               - label: 'image'
+  #                 name: 'image'
+  #                 fields: 
+  #                   { label: 'Image Source URL', name: 'src', widget: string, default: 'https://docs.microsoft.com/media/common/i_get-started.svg', hint: 'Fully qualified image path (PNG, SVG, etc), ex: https://docs.microsoft.com/media/common/i_get-started.svg'}
+        
