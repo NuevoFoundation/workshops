@@ -12,7 +12,8 @@ This page explains how to create and test workshop files locally on your machine
 
 4. \*_Run the project locally_ Navigate to the newly created `workshops` folder and run the following command `hugo server -D` to run Hugo locally (-D will show draft posts). You should see something similar to this:
 
-`danielfe@DanielfeMac:~/\_Repos/workshops (master)\$ hugo server -D
+<pre>
+danielfe@DanielfeMac:~/\_Repos/workshops (master)\$ hugo server -D
 
                    | EN
 
@@ -34,7 +35,7 @@ Serving pages from memory
 Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
 Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
 Press Ctrl+C to stop`
-
+</pre>
 5. **Open a browser to see the site** Open a browser to http://localhost:1313 to see the website live.
 
 ## Create a new workshop
@@ -60,7 +61,7 @@ You can open Visual Studio Code by typing `code .` from the `workshops` folder. 
 This project support regular markdown and a series of custom shortcodes for things like notes, warnings, etc.
 
 - [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-- [Available shortcodes](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [Available shortcodes](https://docdock.netlify.com/shortcodes/)
 
 ## Adding metadata for your workshop
 
