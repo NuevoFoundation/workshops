@@ -24,4 +24,5 @@ Each workshop page has a set of partial pages that can be found in `themes/docdo
 * **Fonts**: `themes/docdock/static/scss/flex/fonts.scss`
 * **Top Navigation**: `themes/docdock/static/scss/flex/header.scss`
 * **Left navigation**: `themes/docdock/static/scss/flex/menu.scss`
+* **Shortcodes**: `themes/docdock/layouts/shortcodes` and `themes/docdock/static/scss/flex/*.scss` for SASS/CSS
 
