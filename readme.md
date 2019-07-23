@@ -50,7 +50,7 @@ For example, to create a workshop named `web-basics`, type the command `hugo new
 
 **Output**: Hugo will create the workshop under `workshops/content/web-basics/index.md
 
-**URL**: You can navigate to that page using the `hugo server -D` command to run the server and navigate to the new page (NOTE: you must remove the .md at the end of the file)
+**URL**: You can navigate to that page using the `hugo server -D` command from the workshop directory to run the server and navigate to the new page (NOTE: you must remove the .md at the end of the file)
 
 `http://localhost:1313/web-basics/`
 
