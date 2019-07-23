@@ -8,7 +8,7 @@ draft: false
 
 - [Website basics using HTML and CSS] (web-basics)
 - [C#] (csharp)
-- [Music with Python using Earsketch] (python-earsketch)
+- [Python: Create music using Earsketch] (python-earsketch)
 - [Example Project](example/)
 
 ## Contributor guidelines
