@@ -12,6 +12,8 @@ draft: true
 
 This is an example project
 
+Awesome, let's get started
+
 ### This is another heading
 
 More text goes here.

@@ -1,8 +1,10 @@
 <header>
   <div class="logo">
+    <!-- Page Logo-->
     {{ partial "header.html" . }}
   </div>
   <div class="burger"><a href="javascript:void(0);" style="font-size:15px;">&#9776;</a></div>
+  <!-- Site navigation menu -->
   {{- with .Site.Menus.shortcuts}}
     <nav class="shortcuts">
         {{- range sort . "Weight"}}
@@ -14,6 +16,7 @@
         {{- end}}
     </nav>
   {{- end}}
+  <!-- END Site navigation menu -->
 </header>
 <article>
   <aside>
@@ -25,9 +28,7 @@
           </a>
           </li>
       {{- end}}
-
       {{- partial "menu.html" . }}
-
     </ul>
     
     {{- partial "language-selector.html" . }}
