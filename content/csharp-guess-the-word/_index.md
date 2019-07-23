@@ -25,6 +25,8 @@ Click the Fork button to create a copy of the code for yourself to work on. Any 
 ## Writing to Console
 `Console.WriteLine` means to tell the computer to print the sentence enclosed within the parentheses `()` out onto the console. 
 
+{{% notice tip %}}
+
 ### Working Together
 1.  In the repl.it window below, press **run**. You see that `Hello World` is printed out to the screen on the right.
 2.	Without removing the quotation marks, try changing `"Hello World"` to another sentence. Press **run** to see if anything changes.
@@ -33,7 +35,11 @@ Click the Fork button to create a copy of the code for yourself to work on. Any 
 
 <iframe height="400px" width="100%" src="https://repl.it/@OliverZhang1/NF-CSharp-WritingToConsole?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
+{{% /notice %}}
+
 We will use printing heavily in the later lessons, so make sure you understand this before continuing!
+
+{{% notice warning %}}
 
 ### HELP! I got a lot of red text!
 
@@ -43,6 +49,8 @@ If you see any red text, you have encountered some errors! Please ask for help o
 2.	There is a semicolon `;` at the end of the line.
 3.	Make sure the sentence you wish to print is surrounded in quotation marks, and that the sentence is between the parentheses.
 4.	Do not delete any curly braces `{` or `}`.
+
+{{% /notice %}}
 
 ## Comments
 Developers often need to collaborate with other developers. Comments are an easy way for developers to write notes in the code and communicate with others. Comments are ignored by the computer; thus, they are also an easy way to tell the computer to not run certain lines of code. There are two ways to create comments:
@@ -62,6 +70,8 @@ Developers often need to collaborate with other developers. Comments are an easy
 
 To remove a comment (or uncomment a line), simply delete the `//` for a single-line comment, or the `/*` and the `*/` characters for the multi-line comment.
 
+{{% notice tip %}}
+
 ### Working Together
 1.	Place `//` in front of `Console.WriteLine("Hello World");`. After pressing **run**, check to make sure that `Hello World` is not printed to the console.
 2.	Delete the `//` and instead, surround `Console.WriteLine("Hello World");` with `/*` and `*/`. Check that `Hello World` is still not printed to the console after pressing **run**.
@@ -71,10 +81,16 @@ To remove a comment (or uncomment a line), simply delete the `//` for a single-l
 
 Throughout today's activity you will see various multi-line comments and `// TODO` comments. These comments will guide us towards completing the Guess the Word game, so be sure you understand how to comment and uncomment code.
 
+{{% /notice %}}
+
+{{% notice note %}}
+
 ### Activity 1
 Go to the code containing the GuessTheWord game. Press **run**. Notice that `Press 'run' on the top of the screen to play again.` is the only thing that is printed to the console. Let's add a welcome message so that the player knows they playing the Guess the Word game.
 
 Find `// TODO (ACTIVITY 1)` in the code. Add a line of code to print Welcome to C# GuessTheWord to the console. If you did this correctly, `Welcome to C# GuessTheWord` will be printed to the console after pressing **run**.
+
+{{% /notice %}}
 
 ## Strings
 Anything that is surrounded in quotation marks is called a string. This is how a computer represents words or sentences. For example, `"a"`, `"2"`, `"banana!"`, and `"Hello World"` are strings, but `Hello World` and `2` are not strings, because the quotation marks are missing.
@@ -85,6 +101,8 @@ You can combine many strings together using the `+` operator. For example:
 - `"Nuevo" + " " + "Foundation"` produces the string `"Nuevo Foundation"`.
 
 ![Combining strings with +](media/Picture4.png)
+
+{{% notice tip %}}
 
 ### Working Together
 In the repl.it window below, we started the code with the line `Console.WriteLine("Nuevo" + " " + "Foundation");`.
@@ -101,10 +119,16 @@ Nuevo Foundation
 
 <iframe height="400px" width="100%" src="https://repl.it/@OliverZhang1/NF-CSharp-Strings?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
+{{% /notice %}}
+
+{{% notice note %}}
+
 ### Activity 2
 Find `// TODO (ACTIVITY 2)` in the GuessTheWord code. For the Guess the Word game, we will give the computer a word bank, and the computer will choose one of the words randomly to use for the game. So far, we have added the words `"Hello"` and `"World"` to the word bank. However, a Guess the Word game with only two possible words to guess is not fun at all! Add at least 3 more strings to the word bank.
 
 ***Note:*** The console output will not change from the previous activity. We do not want to tell the player the words inside the word bank when they play the game! For this activity, just make sure that you do not get any error messages in the console after pressing **run**.
+
+{{% /notice %}}
 
 ## Numbers
 The computer can also do regular math that you see in school. Use `Console.WriteLine` to print out the result from the math expressions. No quotation marks are needed for numbers!
@@ -124,8 +148,14 @@ Operator | Description | Operator | Description
 `-`      | Subtract    | `%`      | Modulo (remainder)
 `*`      | Multiply    | `(`,`)`  | Parenthesis
 
+{{% notice info %}}
+
 ### Fun Fact: Computer Division
 The computer does division differently from your regular calculator. Computer division will exclude remainders or decimals. For example, `15 / 4` produces `3`, and not `3.75`.
+
+{{% /notice %}}
+
+{{% notice tip %}}
 
 ### Working Together
 Try printing out the answers to the following to the console. Ensure your brackets are matched. Use a calculator (or mental math) to verify the computer produced the correct answer.
@@ -136,6 +166,10 @@ Try printing out the answers to the following to the console. Ensure your bracke
 
 <iframe height="400px" width="100%" src="https://repl.it/@OliverZhang1/NF-CSharp-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
+{{% /notice %}}
+
+{{% notice info %}}
+
 ### Fun Fact: Random Numbers
 Here is how to print a random number between `1` (inclusive) and `10` (exclusive):
 
@@ -145,6 +179,8 @@ Console.WriteLine(random.Next(1, 10));
 ```
 
 Try to find where we use `Random` in the GuessTheWord game! However, the details as to how this works is complicated, so we will skip this discussion.
+
+{{% /notice %}}
 
 ## Booleans
 **Booleans** are `true` or `false` statements. Unlike strings or numbers, booleans store statements of truth: is what I am saying true or false? For example, if I ask, "Are you a robot?", this question produces a `true` or `false` result, which we call a **Boolean**. In this case, since you are not a robot (hopefully!), we would produce `false`.
@@ -166,6 +202,8 @@ Console.WriteLine((3 * 6) == (32 - 14));
 
 ![Printing numbers](media/Picture6.png)
 
+{{% notice tip %}}
+
 ### Working Together
 Try guessing the answers to the following expressions. Use `Console.WriteLine` to check your answers.
 
@@ -175,6 +213,8 @@ Try guessing the answers to the following expressions. Use `Console.WriteLine` t
 - `false == false`
 
 <iframe height="400px" width="100%" src="https://repl.it/@OliverZhang1/NF-CSharp-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+{{% /notice %}}
 
 ## Booleans Operators
 You can also connect boolean expressions together using the `&&` (AND) and the `||` (OR) operator. For example, suppose I ask: "Are you a human, and is Nuvi a robot?" The word "and" connects the two true-false questions together. In this case, since it is true that you are a human, and it is also true that Nuvi is a robot, then the overall result is `true`.
@@ -196,6 +236,8 @@ To summarize, `&&` requires both Boolean expressions to be true, while `||` only
 
 ![Combining booleans](media/Picture7.png)
 
+{{% notice tip %}}
+
 ### Working Together
 Try guessing the answers to the following expressions. Use `Console.WriteLine` to print out the answers.
 
@@ -203,6 +245,8 @@ Try guessing the answers to the following expressions. Use `Console.WriteLine` t
 - `(15 - 2 == 11) || (4 % 3 != 2)`
 
 <iframe height="400px" width="100%" src="https://repl.it/@OliverZhang1/NF-CSharp-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+{{% /notice %}}
 
 ## Variables
 Variables are simply names that we can give to values such as strings, numbers and booleans. We use variables to store information that the computer can keep track of.
@@ -264,6 +308,8 @@ bool happy = true;
 
 Note that `var`, `string`, `int`, or `bool` are special keywords in C#, so you cannot create variables with those names.
 
+{{% notice tip %}}
+
 ### Working Together
 Let's create two new variables:
 
@@ -285,6 +331,10 @@ ComputerComputerComputer
 
 <iframe height="400px" width="100%" src="https://repl.it/@OliverZhang1/NF-CSharp-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
+{{% /notice %}}
+
+{{% notice note %}}
+
 ### Activity 3
 This activity is split into 2 parts and will test your knowledge about variables.
 
@@ -301,6 +351,8 @@ There are three pieces of information that we need the computer to store:
 - Whether or not the player won the game.
 
 We will declare three variables to represent these pieces of information. Press **run** to make sure no errors appear in the console. Remember that variables do not produce console output, so for this part, we are only checking for the absence of errors.
+
+{{% /notice %}}
 
 ## Reading from Console
 Now that we know the basics about variables, we can now accept input from the user. Use the following line to tell the console to wait until the user types something into the console. Then, the computer takes whatever is typed into the console, and stores it into the variable called `input`.
@@ -325,6 +377,8 @@ In this case, after the user types in `Hello World!` into the console, the progr
 
 ![Reading 2](media/Picture13.png)
 
+{{% notice tip %}}
+
 ### Working Together
 Write a program that first prints the following two lines to console:
 
@@ -343,6 +397,10 @@ I don't know the answer to that! Goodbye!
 `[input]` should be replaced with whatever the user had typed into the console.
 
 <iframe height="400px" width="100%" src="https://repl.it/@OliverZhang1/NF-CSharp-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+{{% /notice %}}
+
+{{% notice note %}}
 
 ### Activity 4
 This activity has four parts. This is a great time to use your knowledge of comments, numbers, variables, and reading from console to complete the 4 activities. Some background information for each activity is provided below, and hints are provided in the code. After each part, press **run** and make sure there are no errors present in the console.
@@ -365,10 +423,16 @@ Press **run** to make sure no errors occur. We have also provided some code to p
 Every time a letter is guessed incorrectly, the player loses a life. Decrement (subtract one from) the number of lives, using the `lives` variable. We will also tell the player how many lives they have remaining, when they make an incorrect guess, by printing the number of lives to the console.
 Check if you have done this correctly by pressing **run**, guessing an incorrect letter, and seeing if the correct number of lives are displayed on the console.
 
+{{% /notice %}}
+
+{{% notice info %}}
+
 ### Fun Fact - Bugs
 Recall in **Activity 4.1** that after uncommenting some code, we experienced some unexpected behavior. Any problems or unexpected behaviors in the program are called **"bugs"**. We fixed the bug introduced in **Activity 4.1** by introducing user input in **Activity 4.2**.
 
 Even if you implemented everything correctly in the previous parts, if you keep playing for a while, another issue still occurs. What is it? We will fix this bug in **Activity 6**.
+
+{{% /notice %}}
 
 # Branching and Loops
 ## If-else statements
@@ -454,6 +518,8 @@ if (num1 < num2)
 
 ![If-else 5](media/Picture18.png)
 
+{{% notice tip %}}
+
 ### Working Together
 Let's write a program that first prints the following line to console:
 
@@ -468,6 +534,10 @@ Afterwards, the console waits for user input.
 - Otherwise, the computer prints out: `I don't understand you! Goodbye!`.
 
 <iframe height="400px" width="100%" src="https://repl.it/@OliverZhang1/NF-CSharp-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+{{% /notice %}}
+
+{{% notice info %}}
 
 ### Fun Fact: Switch statements
 Using multiple `if`, `else` statements could get very long and confusing. You can use `switch` statements instead if you want to compare a single variable against multiple values. For example, the **Working Together** activity can be completed using the following piece of code:
@@ -490,6 +560,10 @@ Using multiple `if`, `else` statements could get very long and confusing. You ca
 
 Each case represents a possible value that the variable input might take. Make sure you use the `break` statement to tell the computer that you have completed all the actions associated with this case.
 
+{{% /notice %}}
+
+{{% notice note %}}
+
 ### Activity 5
 This activity is split into two parts. Use your knowledge of `if`-`else` statements to complete the activities. As always, press **run** after completing each part to check for errors.
 
@@ -498,9 +572,13 @@ After the player guesses a letter, and we have checked whether the letter appear
 
 #### Activity 5.2
 At the end of the game, we should let the player know if they won or lost the game.
-If the player has won the game, print out to console `You won!`.
-Else, tell the player that they lost, and print out the correct answer. For example, if the player could not guess the correct answer `"Hello"`, print out `You lost! The answer was 'Hello'`.
+
+- If the player has won the game, print out to console `You won!`.
+- Else, tell the player that they lost, and print out the correct answer. For example, if the player could not guess the correct answer `"Hello"`, print out `You lost! The answer was 'Hello'`.
+
 To test both parts of the activity, set the word bank to only contain one two-letter word (see **Activity 2** if you forget how to do this). Press **run**, and correctly guess the word when playing the game. Make sure `You won!` is printed out. **Run** again, and check that `You lost! `is printed out when you lose the game.
+
+{{% /notice %}}
 
 ## While loops
 `while` loops are an easy way to repeat the execution of lines without having to reuse a line many times. For example, to print `Hello World` five times in a row, you can do:
@@ -548,8 +626,16 @@ while (counter > 0)
 
 ![While 2](media/Picture20.png)
 
+{{% notice tip %}}
+
 ### Working Together
 Take your code from the previous activity. Let's expand the code so that instead of the program finishing after the user inputs once, allow the user to answer the question 10 times before exiting. Be careful about infinite loops!
 
+{{% /notice %}}
+
+{{% notice note %}}
+
 ### Activity 6 - Completing the game!
 Now, let's finally address the bug that was introduced in **Activity 4.2**. The game should continue to ask the player to guess letters if they have some lives remaining, and they have not yet won the game. Look at the `for` loop. As you might have noticed, even though you might have lives remaining, the game abruptly stops after only 3 guesses. We will replace this `for`-loop with a `while`-loop, with the correct looping condition. Use the given hint to complete the activity.
+
+{{% /notice %}}
