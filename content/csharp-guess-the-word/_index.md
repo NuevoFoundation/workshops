@@ -9,38 +9,29 @@ draft: false
 ---
 
 # Starting Up
-We will alternate between two browser tabs during this activity.
+The goal of today's activity is to learn C# skills and incorporate your new-found knowledge to create a Guess The Word game! Let's get the game set up.
 
-## Using Repl.it
-Open your favorite internet browser (such as Edge, Firefox, Google Chrome, Internet Explorer) and go to [https://repl.it](https://repl.it). Scroll to the bottom of the page, look for ‘languages', search for C#, and click it.
-
-![repl.it C# link](media/Picture1.png)
-
-You should see the following screen:
-
-![repl.it main screen](media/Picture2.png)
-
-We will ignore some of the details on this screen, but we will go over some of the basics that show up. The main.cs file contains code, or instructions for the computer to run. Press the **run** button to tell the computer to perform the instructions in the code. Any results from running the code will be displayed on the right side, called the console.
-
-Any activities under the **Working Together** sections will be done in this browser tab, working together with the instructor.
-
-## Setting up the project
-The goal of today's activity is to learn C# skills and incorporate your new-found knowledge to create a GuessTheWord game! Let's get the game set up.
-
-In a new browser tab, go to [https://aka.ms/nuevoguesstheword](https://aka.ms/nuevoguesstheword). Your screen should look like this:
+Open your favorite internet browser (such as Edge, Firefox, Google Chrome, Internet Explorer), and go to [https://aka.ms/nuevoguesstheword](https://aka.ms/nuevoguesstheword). Your screen should look like this:
 
 ![repl.it main screen](media/Picture3.png)
 
-Click the Fork button to create a copy of the code for yourself to work on. Any activities under the **Activity** sections will be done in this browser tab. You will do these activities on your own, but helpers are available when you are stuck.
+We will ignore some of the details on this screen, but we will go over some of the basics that show up. The main.cs file contains code, or instructions for the computer to run. By pressing the **run** button, you tell the computer to perform the instructions in the code. Any results from running the code will be displayed on the right side, called the console.
+
+If you press **run** now, you will see that nothing happens! Your job is to help Nuvi complete the code for this game!
+
+Click the Fork button to create a copy of the code for yourself to work on. Any activities under the **Activity** sections will be done in this browser tab. You will do these activities on your own, but help is available when you are stuck.
 
 # The Basics
 ## Writing to Console
-`Console.WriteLine` means to tell the computer to print the sentence enclosed within the parentheses `()` out onto the console. To try it out, press **run**. You see that `Hello World` is printed out to the screen on the right.
+`Console.WriteLine` means to tell the computer to print the sentence enclosed within the parentheses `()` out onto the console. 
 
 ### Working Together
-1.	Without removing the quotation marks, try changing `"Hello World"` to another sentence. Press **run** to see if anything changes.
-2.	Add another `Console.WriteLine` below the current line to print a second sentence below the first sentence.
-3.	Press **run** to see if two sentences are printed out. If you see any red text, please ask for help.
+1.  In the repl.it window below, press **run**. You see that `Hello World` is printed out to the screen on the right.
+2.	Without removing the quotation marks, try changing `"Hello World"` to another sentence. Press **run** to see if anything changes.
+3.	Add another `Console.WriteLine` below the current line to print a second sentence below the first sentence.
+4.	Press **run** to see if two sentences are printed out. If you see any red text, please ask for help.
+
+<iframe height="400px" width="100%" src="https://repl.it/@OliverZhang1/NF-CSharp-WritingToConsole?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 We will use printing heavily in the later lessons, so make sure you understand this before continuing!
 
@@ -76,6 +67,8 @@ To remove a comment (or uncomment a line), simply delete the `//` for a single-l
 2.	Delete the `//` and instead, surround `Console.WriteLine("Hello World");` with `/*` and `*/`. Check that `Hello World` is still not printed to the console after pressing **run**.
 3.	Delete both `/*` and `*/`, and press **run**. `Hello World` should now be printed to the console.
 
+<iframe height="400px" width="100%" src="https://repl.it/@OliverZhang1/NF-CSharp-WritingToConsole?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
 Throughout today's activity you will see various multi-line comments and `// TODO` comments. These comments will guide us towards completing the Guess the Word game, so be sure you understand how to comment and uncomment code.
 
 ### Activity 1
@@ -94,7 +87,7 @@ You can combine many strings together using the `+` operator. For example:
 ![Combining strings with +](media/Picture4.png)
 
 ### Working Together
-Delete all your `Console.WriteLine` text in your code. Start your code with the line `Console.WriteLine("Nuevo" + " " + "Foundation");`.
+In the repl.it window below, we started the code with the line `Console.WriteLine("Nuevo" + " " + "Foundation");`.
 
 Note that there are many ways to combine strings together. For example, another way to print Nuevo Foundation would be to write `Console.WriteLine("Nue" + "vo Fou" + "ndation");`.
 
@@ -105,6 +98,8 @@ Nuevo Foundation
 Nuevo Foundation
 Nuevo Foundation
 ```
+
+<iframe height="400px" width="100%" src="https://repl.it/@OliverZhang1/NF-CSharp-Strings?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### Activity 2
 Find `// TODO (ACTIVITY 2)` in the GuessTheWord code. For the Guess the Word game, we will give the computer a word bank, and the computer will choose one of the words randomly to use for the game. So far, we have added the words `"Hello"` and `"World"` to the word bank. However, a Guess the Word game with only two possible words to guess is not fun at all! Add at least 3 more strings to the word bank.
@@ -133,13 +128,13 @@ Operator | Description | Operator | Description
 The computer does division differently from your regular calculator. Computer division will exclude remainders or decimals. For example, `15 / 4` produces `3`, and not `3.75`.
 
 ### Working Together
-Delete all your `Console.WriteLine` text in your code.
-
 Try printing out the answers to the following to the console. Ensure your brackets are matched. Use a calculator (or mental math) to verify the computer produced the correct answer.
 
 - `2 - 19`
 - `(3 + 5) * 6`
 - `(13 + 5 * 8) / (6 - (3 + 7))`
+
+<iframe height="400px" width="100%" src="https://repl.it/@OliverZhang1/NF-CSharp-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### Fun Fact: Random Numbers
 Here is how to print a random number between `1` (inclusive) and `10` (exclusive):
@@ -172,14 +167,14 @@ Console.WriteLine((3 * 6) == (32 - 14));
 ![Printing numbers](media/Picture6.png)
 
 ### Working Together
-Delete all your `Console.WriteLine` text in your code.
-
 Try guessing the answers to the following expressions. Use `Console.WriteLine` to check your answers.
 
 - `54 < (10 + 32)`
 - `(37 / 5) == 7`
 - `"Hello" + "World" == "Hello World"`
 - `false == false`
+
+<iframe height="400px" width="100%" src="https://repl.it/@OliverZhang1/NF-CSharp-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ## Booleans Operators
 You can also connect boolean expressions together using the `&&` (AND) and the `||` (OR) operator. For example, suppose I ask: "Are you a human, and is Nuvi a robot?" The word "and" connects the two true-false questions together. In this case, since it is true that you are a human, and it is also true that Nuvi is a robot, then the overall result is `true`.
@@ -202,12 +197,12 @@ To summarize, `&&` requires both Boolean expressions to be true, while `||` only
 ![Combining booleans](media/Picture7.png)
 
 ### Working Together
-Delete all your `Console.WriteLine` text in your code.
-
 Try guessing the answers to the following expressions. Use `Console.WriteLine` to print out the answers.
 
 - `(9 < 10) && (12 => 11)`
 - `(15 - 2 == 11) || (4 % 3 != 2)`
+
+<iframe height="400px" width="100%" src="https://repl.it/@OliverZhang1/NF-CSharp-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ## Variables
 Variables are simply names that we can give to values such as strings, numbers and booleans. We use variables to store information that the computer can keep track of.
@@ -288,6 +283,8 @@ ComputerComputerComputer
 15
 ```
 
+<iframe height="400px" width="100%" src="https://repl.it/@OliverZhang1/NF-CSharp-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
 ### Activity 3
 This activity is split into 2 parts and will test your knowledge about variables.
 
@@ -344,6 +341,8 @@ I don't know the answer to that! Goodbye!
 ```
 
 `[input]` should be replaced with whatever the user had typed into the console.
+
+<iframe height="400px" width="100%" src="https://repl.it/@OliverZhang1/NF-CSharp-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### Activity 4
 This activity has four parts. This is a great time to use your knowledge of comments, numbers, variables, and reading from console to complete the 4 activities. Some background information for each activity is provided below, and hints are provided in the code. After each part, press **run** and make sure there are no errors present in the console.
@@ -467,6 +466,8 @@ Afterwards, the console waits for user input.
 - If the user enters yes, the computer prints out `Yes, I'm glad you're enjoying it!`.
 - If the user enters no, the computer prints out `Oh no, that's too bad!`.
 - Otherwise, the computer prints out: `I don't understand you! Goodbye!`.
+
+<iframe height="400px" width="100%" src="https://repl.it/@OliverZhang1/NF-CSharp-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### Fun Fact: Switch statements
 Using multiple `if`, `else` statements could get very long and confusing. You can use `switch` statements instead if you want to compare a single variable against multiple values. For example, the **Working Together** activity can be completed using the following piece of code:
