@@ -1,14 +1,15 @@
 ---
-title: "Test2"
+title: "Workshops Homepage"
 date: 2019-07-22T12:40:43-07:00
 draft: false
 ---
 
 ## Workshop Projects
 
+- [Website basics using HTML and CSS] (web-basics)
+- [C#] (csharp)
+- [Music with Python using Earsketch] (python-earsketch)
 - [Example Project](example/)
-- Project 2
-- Project 3
 
 ## Contributor guidelines
 
