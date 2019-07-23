@@ -1,7 +1,7 @@
 ---
 title: "Web Developer Guidelines"
 date: 2019-07-22T14:08:32-07:00
-draft: true
+draft: false
 ---
 
 This document is for **website developers only** for changing the [Nuevo Foundation workshop project](https://github.com/nuevoFoundation/workshops) templates and style.
