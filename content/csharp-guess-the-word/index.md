@@ -55,11 +55,15 @@ If you see any red text, you have encountered some errors! Please ask for help o
 
 ## Comments
 Developers often need to collaborate with other developers. Comments are an easy way for developers to write notes in the code and communicate with others. Comments are ignored by the computer; thus, they are also an easy way to tell the computer to not run certain lines of code. There are two ways to create comments:
+
 1.	To comment out one line, place `//` in front of a line of code. For example:
+
 ```csharp
-// This is a single-line comment.
+// This is a single-line comment. 
 ```
+
 2.	To comment out multiple lines at once, indicate the start of the comment with `/*` and the end of the comment with `*/`. For example:
+
 ```csharp
 /* This is a multi-line comment.
    This line is also part of the comment. */
@@ -83,6 +87,7 @@ Find `// TODO (ACTIVITY 1)` in the code. Add a line of code to print Welcome to 
 Anything that is surrounded in quotation marks is called a string. This is how a computer represents words or sentences. For example, `"a"`, `"2"`, `"banana!"`, and `"Hello World"` are strings, but `Hello World` and `2` are not strings, because the quotation marks are missing.
 
 You can combine many strings together using the `+` operator. For example:
+
 - `"Apple" + "Pineapple"` produces the string `"ApplePineapple"`.
 - `"Nuevo" + " " + "Foundation"` produces the string `"Nuevo Foundation"`.
 
@@ -108,6 +113,7 @@ Find `// TODO (ACTIVITY 2)` in the GuessTheWord code. For the Guess the Word gam
 
 ## Numbers
 The computer can also do regular math that you see in school. Use `Console.WriteLine` to print out the result from the math expressions. No quotation marks are needed for numbers!
+
 ```csharp
 Console.WriteLine(5 + 4);
 Console.WriteLine(6 * (9 - 7) / 3);
@@ -117,9 +123,11 @@ Console.WriteLine(6 * (9 - 7) / 3);
 
 Here is the full list of math symbols that you can use:
 
-| `+` | Add | `\` | Divide |
-| `-` | Subtract | `%` | Modulo (remainder) |
-| `*` | Multiply | `(`,`)` | Parenthesis |
+Operator | Description | Operator | Description
+-------- | ----------- | -------- | -----------
+`+`      | Add         | `\`      | Divide
+`-`      | Subtract    | `%`      | Modulo (remainder)
+`*`      | Multiply    | `(`,`)`  | Parenthesis
 
 ### Fun Fact: Computer Division
 The computer does division differently from your regular calculator. Computer division will exclude remainders or decimals. For example, `15 / 4` produces `3`, and not `3.75`.
@@ -148,11 +156,14 @@ Try to find where we use `Random` in the GuessTheWord game! However, the details
 
 We can also use math operators to create boolean expressions. Here are some examples; however, notice the unusual symbols for "equal to" and "not equal to":
 
-| `<` | Less than | `>` | Greater than |
-| `<=` | Less than or equal to | `>=` | Greater than or equal to |
-| `==` | Equal to | `!=` | Not equal to |
+Operator | Description           | Operator | Description
+-------- | --------------------- | -------- | -----------
+`<`      | Less than             | `>`      | Greater than
+`<=`     | Less than or equal to | `>=`     | Greater than or equal to
+`==`     | Equal to              | `!=`     | Not equal to
 
 As usual, use `Console.WriteLine` to print out your results:
+
 ```csharp
 Console.WriteLine(10 < 8);
 Console.WriteLine((3 * 6) == (32 - 14));
@@ -164,6 +175,7 @@ Console.WriteLine((3 * 6) == (32 - 14));
 Delete all your `Console.WriteLine` text in your code.
 
 Try guessing the answers to the following expressions. Use `Console.WriteLine` to check your answers.
+
 - `54 < (10 + 32)`
 - `(37 / 5) == 7`
 - `"Hello" + "World" == "Hello World"`
@@ -174,14 +186,15 @@ You can also connect boolean expressions together using the `&&` (AND) and the `
 
 Here's a chart that describes what happens when we connect booleans together:
 
-| Expression | Result | Expression | Result |
-| --- | --- | --- | --- |
-| `true && true` | `true` | `true || true` | `true` |
-| `true && false` | `false` | `true || false` | `true` |
-| `false && true` | `false` | `false || true` | `true` |
-| `false && false` | `false` | `false || false` | `false` |
+Expression       | Result  | Expression                            | Result
+---------------- | ------- | ------------------------------------- | ------
+`true && true`   | `true`  | <code>true &#124;&#124; true</code>   | `true`
+`true && false`  | `false` | <code>true &#124;&#124; false</code>  | `true`
+`false && true`  | `false` | <code>false &#124;&#124; true</code>  | `true`
+`false && false` | `false` | <code>false &#124;&#124; false</code> | `false`
 
 To summarize, `&&` requires both Boolean expressions to be true, while `||` only requires one of the two Boolean expressions to be `true`. Here are some more examples:
+
 - `(5 < 8) && (9 != 10)` produces `true` since both `5` is less than `8` and `9` is not equal to `10`.
 - `(8 <= 2) || ("h" + "e" == "he")` produces `true` since `"h" + "e"` results in `"he"`, even though `8` is not less than or equal to `2`.
 - `(6 != 2 * 3) || (8 < 2 * 4)` produces `false` since both `6` not equal to `2 * 3`, and `8` not being less than `2 * 4`, produce `false`.
@@ -192,6 +205,7 @@ To summarize, `&&` requires both Boolean expressions to be true, while `||` only
 Delete all your `Console.WriteLine` text in your code.
 
 Try guessing the answers to the following expressions. Use `Console.WriteLine` to print out the answers.
+
 - `(9 < 10) && (12 => 11)`
 - `(15 - 2 == 11) || (4 % 3 != 2)`
 
@@ -199,6 +213,7 @@ Try guessing the answers to the following expressions. Use `Console.WriteLine` t
 Variables are simply names that we can give to values such as strings, numbers and booleans. We use variables to store information that the computer can keep track of.
 
 Here's how to declare a variable named `str`. We say `str` has the value `"Hello World"`. Can you describe what the other variables below mean?
+
 ```csharp
 var str = "Hello World";
 var x = 88;
@@ -206,6 +221,7 @@ var happy = true;
 ```
 
 Press **run**. Note that variables are not printed out to the console. Instead, the variable simply stores the string or number or boolean into the computer's memory. We can use these variables in other statements. For example, the following code would print `Hello Nuevo Foundation` to the console:
+
 ```csharp
 var str1 = "Hello";
 var str2 = "Nuevo Foundation";
@@ -215,6 +231,7 @@ Console.WriteLine(str1 + " " + str2);
 ![Variables 1](media/Picture8.png)
 
 You can change the value of a variable at any time by using the `=` operator again. If you're changing a value of a variable, you don't need to use `var` again. In the following example, `Hola` will be printed instead of `Hello`.
+
 ```csharp
 var str = "Hello";
 str = "Hola";
@@ -224,6 +241,7 @@ Console.WriteLine(str);
 ![Variables 2](media/Picture9.png)
 
 Here's another example: `10` will be printed instead of `9`.
+
 ```csharp
 var num = 9;
 num = num + 1;
@@ -233,6 +251,7 @@ Console.WriteLine(num);
 ![Variables 3](media/Picture10.png)
 
 Note that you CANNOT replace a string variable with a number or a boolean, and similarly for other combinations. The following example code will NOT work:
+
 ```csharp
 var happy = "Hello";
 happy = 9;
@@ -241,6 +260,7 @@ happy = 9;
 ![Variables 4](media/Picture11.png)
 
 Another way to declare variables is to replace var with the type (`string`, `int`, `bool`) of variable you are creating. By declaring the type explicitly, you avoid the problem that we see above. For example:
+
 ```csharp
 string str = "Hello World";
 int x = 88;
@@ -251,8 +271,10 @@ Note that `var`, `string`, `int`, or `bool` are special keywords in C#, so you c
 
 ### Working Together
 Let's create two new variables:
+
 - A variable named comp that stores the string `"Computer"`.
 - A variable named five that stores the number `5`.
+
 Next, let's use the variables to print out (`Console.WriteLine`) the following to the console. Let's try to do this while using the variables!
 
 ***Hint:*** we will use the `+` operator to combine strings together, and to also add numbers together.
@@ -276,6 +298,7 @@ To check if you have completed this activity correctly, press **run**, and make 
 
 #### Activity 3.2
 There are three pieces of information that we need the computer to store:
+
 - The number of lives.
 - The number of letters that the player has guess correctly so far.
 - Whether or not the player won the game.
@@ -290,11 +313,13 @@ var input = Console.ReadLine();
 ```
 
 Here's an example of how to use `Console.ReadLine` to accept user input:
+
 ```csharp
 Console.WriteLine("Type in something:");
 var input = Console.ReadLine();
 Console.WriteLine("You typed in: " + input);
 ```
+
 When the user presses **run**, the user is greeted with the following program:
 
 ![Reading 1](media/Picture12.png)
@@ -305,15 +330,19 @@ In this case, after the user types in `Hello World!` into the console, the progr
 
 ### Working Together
 Write a program that first prints the following two lines to console:
+
 ```
 Welcome!
 How can I help you today?
 ```
+
 Afterwards, the console waits for user input. After the user types in something and presses Enter, the computer prints out:
+
 ```
 You asked: [input]?
 I don't know the answer to that! Goodbye!
 ```
+
 `[input]` should be replaced with whatever the user had typed into the console.
 
 ### Activity 4
@@ -359,6 +388,7 @@ Inside the `()` beside `if`, you should specify a boolean expression. If the exp
 ![If-else 1](media/Picture14.png)
 
 If the condition is `false`, nothing happens! For example, since `10` is not greater than `11`, `Print me!` will not show up to the console.
+
 ```csharp
 var happy = 10;
 if (happy > 11)
@@ -370,6 +400,7 @@ if (happy > 11)
 ![If-else 2](media/Picture15.png)
 
 Use `else` to tell the computer what to do if the condition is false. In this example, `now I got printed instead!` will be printed to the console.
+
 ```csharp
 var happy = 10;
 if (happy > 11)
@@ -405,6 +436,7 @@ else
 ![If-else 4](media/Picture17.png)
 
 You can also place `if` statements inside other `if` statements for some interesting behavior:
+
 ```csharp
 var num1 = 10;
 var num2 = 20;
@@ -425,9 +457,11 @@ if (num1 < num2)
 
 ### Working Together
 Let's write a program that first prints the following line to console:
+
 ```
 Is coding fun?
 ```
+
 Afterwards, the console waits for user input.
 
 - If the user enters yes, the computer prints out `Yes, I'm glad you're enjoying it!`.
@@ -502,6 +536,7 @@ while (counter <= 10)
 ```
 
 Here is an example of an infinite loop - do you see what's wrong? What can you do so that the following piece of code prints `Spam!` only 100 times?
+
 ```csharp
 var counter = 100;
 while (counter > 0)
