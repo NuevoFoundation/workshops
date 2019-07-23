@@ -16,12 +16,12 @@ Follow the instructions in the Project readme.md to install Git and Hugo to test
 
 ## Web design styles and structure
 
-**Images:** Website images should be `themes/images`
-**Workshop Page**: Use the single.html template in `themes/docdock/_default/layouts/single.html`
-**List page**: Use the list.html template in `themes/docdock/_default/layouts/list.html`
+* **Images:** Website images should be `themes/images`
+* **Workshop Page**: Use the single.html template in `themes/docdock/_default/layouts/single.html`
+* **List page**: Use the list.html template in `themes/docdock/_default/layouts/list.html`
 Each workshop page has a set of partial pages that can be found in `themes/docdock/layouts`
-**CSS Files**: This site uses SASS, with all files in `themes/docdock/static/scss/flex`
-**Fonts**: `themes/docdock/static/scss/flex/fonts.scss`
-**Top Navigation**: `themes/docdock/static/scss/flex/header.scss`
-**Left navigation**: `themes/docdock/static/scss/flex/menu.scss`
-**Custom <head> values**
+* **CSS Files**: This site uses SASS, with all files in `themes/docdock/static/scss/flex`
+* **Fonts**: `themes/docdock/static/scss/flex/fonts.scss`
+* **Top Navigation**: `themes/docdock/static/scss/flex/header.scss`
+* **Left navigation**: `themes/docdock/static/scss/flex/menu.scss`
+
