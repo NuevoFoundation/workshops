@@ -1,16 +1,16 @@
 # Nuevo Foundation Workshop files
 
-This page explains how to create and test workshop files locally on your machine.
+This page explains how to create and test workshop files locally on your machine. Make sure you are added as a contributor.
 
 ## Setup Steps
 
 1. **Install the git command line** - instructions to do this can be found on the [GitHub website](https://help.github.com/en/articles/set-up-git)
 
-2. \*_Install Hugo_ - Follow the [Hugo setup instructions](https://gohugo.io/getting-started/installing).
+2. **Install Hugo** - Follow the [Hugo setup instructions](https://gohugo.io/getting-started/installing).
 
 3. **Clone the project locally** - From the command line, type `git clone https://github.com/NuevoFoundation/workshops.git`
 
-4. \*_Run the project locally_ Navigate to the newly created `workshops` folder and run the following command `hugo server -D` to run Hugo locally (-D will show draft posts). You should see something similar to this:
+4. **Run The Project Locally** - Navigate to the newly created `workshops` folder and run the following command `hugo server -D` to run Hugo locally (-D will show draft posts). You should see something similar to this:
 
 <pre>
 danielfe@DanielfeMac:~/\_Repos/workshops (master)\$ hugo server -D
@@ -36,6 +36,7 @@ Running in Fast Render Mode. For full rebuilds on change: hugo server --disableF
 Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
 Press Ctrl+C to stop`
 </pre>
+
 5. **Open a browser to see the site** Open a browser to http://localhost:1313 to see the website live.
 
 ## Create a new workshop
@@ -44,11 +45,11 @@ All content in Hugo is added to the `workshops/content` folder
 
 **Create a new workshop**: From the command line in the root directory (aka the `workshops/` directory), type the command:
 
-`hugo new workshop-name/workshop-name.md`
+`hugo new workshop-name/_index.md`
 
-For example, to create a workshop named `web-basics`, type the command `hugo new web-basics/index.md`
+For example, to create a workshop named `web-basics`, type the command `hugo new web-basics/_index.md`
 
-**Output**: Hugo will create the workshop under `workshops/content/web-basics/index.md
+**Output**: Hugo will create the workshop under `workshops/content/web-basics/\_index.md
 
 **URL**: You can navigate to that page using the `hugo server -D` command from the workshop directory to run the server and navigate to the new page (NOTE: you must remove the .md at the end of the file)
 
@@ -65,7 +66,7 @@ This project support regular markdown and a series of custom shortcodes for thin
 
 ## Adding metadata for your workshop
 
-If you followed the `hugo new` step from above, you should have a new file named `index.md` with the following metadata at the top of the file that you can edit to better describe your workshop
+If you followed the `hugo new` step from above, you should have a new file named `_index.md` with the following metadata at the top of the file that you can edit to better describe your workshop
 
 <pre>
 --- 
@@ -78,4 +79,5 @@ download: "URL to GitHub folder goes here"
 draft: true 
 ---
 </pre>
+
 ## Contributor guidelines coming soon
