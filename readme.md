@@ -46,9 +46,9 @@ All content in Hugo is added to the `workshops/content` folder
 
 `hugo new workshop-name/workshop-name.md`
 
-For example, to create a workshop named `web-basics`, type the command `hugo new web-basics/index.md`
+For example, to create a workshop named `web-basics`, type the command `hugo new web-basics/_index.md` (include the underscore "-" character)
 
-**Output**: Hugo will create the workshop under `workshops/content/web-basics/index.md
+**Output**: Hugo will create the workshop under `workshops/content/web-basics/_index.md
 
 **URL**: You can navigate to that page using the `hugo server -D` command from the workshop directory to run the server and navigate to the new page (NOTE: you must remove the .md at the end of the file)
 
