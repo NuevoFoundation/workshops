@@ -22,15 +22,7 @@ The index.html file is the main page for our flappy bird game which also uses ou
 
 ## Variables
 
-Variables are simply names that we can give to values such as *strings*, *numbers*, and *booleans*.
-
-![alt text](resources/_gen/images/variables.png "variables")
-
-In Javascript there are 6 **primitive data types** we will work with `string`, `number`, `boolean`.
-
-Anything that is surrounded in quotation marks is called a *string*. This is how a computer represents words or sentences. For example, `"a"`, `"2"`, `"banana!"`, and `"Hello World"` are strings, but `Hello World` and `2` are not *strings*, because the quotation marks are missing.       
-
-We use variables to store information so the computer can keep track of it. Variables are created by using the `var` keyword and the name of the variable. Then you can assign that variable to the information that you want to store by using a `=` and the content.
+Variables are simply names that we can give to values such as strings, numbers and Booleans. We use variables to store information so the computer can keep track of it. Variables are created by using the `var` keyword and the name of the variable. Then you can assign that variable to the information that you want to store by using a `=` followed by the information.
 
 For example:
 
@@ -57,7 +49,7 @@ var game = new Phaser.Game(800, 600);
 
 ## Conditionals
 
-**Activity 1: Let's utilize both Booleans and Boolean expressions to make sure our bird stays in the screen.**
+### Activity 1: Let's utilize both Booleans and Boolean expressions
 
 We can use if statements to run a code statement only if certain conditions are met.
 
@@ -65,15 +57,15 @@ For example:
 
 ```js
 if (isRainingOutside == true) {
-    takeUmbrella = true;  
-} else {  
-    takeUmbrella = false;  
+    takeUmbrella = true;
 }
 ```
 
-For our game we should add an **`if` statement** to make sure our bird is still on the screen. In the original game, you can't touch the ground or the top of the screen or the game ends.
-
 Inside the `()` beside `if`, you should specify a *Boolean expression*. **Booleans** are `true` or `false` statements. We can utilize this in our if statement. If the expression is `true`, the code inside `{ }` is executed.
+
+We can also use Boolean expressions to check if a number is in a specific range:
+
+![Comparison Operators](https://imgur.com/F9gGHiI.png)
 
 You can also connect **Boolean expressions** together using the `&&` (AND) and the `||` (OR) operator.
 
@@ -109,26 +101,23 @@ We can do that with this statement inside the jump function:
 this.bird.velocity.y = -300
 ```
 
-The number can be adjusted depending on how high you want the bird to jump! Try changing the number to see differences to how high the bird jumps when you press the spacebar down. 
+The number can be adjusted depending on how high you want the bird to jump! Try changing the number to see differences to how high the bird jumps when you press the spacebar down.
+
+Now your bird can fly through the air!
 
 ## Arrays
 
-**Activity 3: Lets add the logic to now allow our bird to be able to go through objects.**
+### Activity 3: Lets add the logic that keeps the bird from going through objects
 
-Currently, your bird flies through the obstacles in the game, which seems a little too easy. We can use code to increase the difficulty of the game by adding logic that makes the obstacles solid. In order to do this, you’ll need to know about *conditionals* and *arrays*. 
+Currently, your bird flies through the obstacles in the game, which seems a little too easy. We can use code to increase the difficulty of the game by adding logic that makes the obstacles solid. In order to do this, you’ll need to use conditionals and arrays. We already covered conditionals, so now let’s go over arrays.
+Arrays are a group of objects. They can represent a list of numbers, names, or even the objects in our game! In JavaScript, arrays are represented by `[ ]` (this would represent an empty array).
 
-We already covered conditionals, so now let’s go over arrays. Arrays are a group of objects. They can represent a list of numbers, names, or even the objects in our game! 
-
-In JavaScript, arrays are represented by `[ ]` (this would represent an empty array).
-
-You separate the objects in the array with commas. A sample array with numbers would be represented as
-[1, 2, 3, 4, 5]
-
-Arrays can also be used as values, so just like in the examples from the Variables section, you can assign a name to a group of objects like this:
+You separate the objects in the array with commas. A sample array with numbers would be represented as `[1, 2, 3, 4, 5]`.
+Arrays can also be used as values, so just like in the examples from the [Variables](#Variables) section, you can assign a name to a group of objects like this:
 
 ```js
 var numbers = [1, 2, 3, 4, 5];
 ```
+In order to make the obstacles solid, we’ll need to make a list of those game objects. Try creating an empty array at the top of this JavaScript document.
 
-In order to make the obstacles solid, we’ll need to make a list of those game objects. Try creating a 
-
+Now the pipes are 
