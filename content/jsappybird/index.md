@@ -26,7 +26,7 @@ Variables are simply names that we can give to values such as *strings*, *number
 
 ![alt text](resources/_gen/images/variables.png "variables")
 
-Anything that is surrounded in quotation marks is called a *string*. This is how a computer represents words or sentences. For example, `"a"`, `"2"`, `"banana!"`, and `"Hello World"` are strings, but `Hello World` and `2` are not *strings*, because the quotation marks are missing.
+Anything that is surrounded in quotation marks is called a *string*. This is how a computer represents words or sentences. For example, `"a"`, `"2"`, `"banana!"`, and `"Hello World"` are strings, but `Hello World` and `2` are not *strings*, because the quotation marks are missing.       
 
 We use variables to store information so the computer can keep track of it. Variables are created by using the `var` keyword and the name of the variable. Then you can assign that variable to the information that you want to store by using a `=` and the content.
 
@@ -113,8 +113,9 @@ The number can be adjusted depending on how high you want the bird to jump! Try 
 
 **Activity 3: Lets add the logic to now allow our bird to be able to go through objects.**
 
-Currently, your bird flies through the obstacles in the game, which seems a little too easy. We can use code to increase the difficulty of the game by adding logic that makes the obstacles solid. In order to do this, you’ll need to know about conditionals and arrays. We already covered conditionals, so now let’s go over arrays.
-Arrays are a group of objects. They can represent a list of numbers, names, or even the objects in our game! In JavaScript, arrays are represented by [] (this would represent an empty array).
+Currently, your bird flies through the obstacles in the game, which seems a little too easy. We can use code to increase the difficulty of the game by adding logic that makes the obstacles solid. In order to do this, you’ll need to know about *conditionals* and *arrays*. 
+
+We already covered conditionals, so now let’s go over arrays. Arrays are a group of objects. They can represent a list of numbers, names, or even the objects in our game! In JavaScript, arrays are represented by [] (this would represent an empty array).
 
 You separate the objects in the array with commas. A sample array with numbers would be represented as
 [1, 2, 3, 4, 5]
