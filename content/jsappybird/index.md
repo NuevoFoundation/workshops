@@ -18,13 +18,15 @@ The template contains the following files:
 - main.js, a file where we will write all our code. 
 - assets/, a directory with 2 images and one sound effect. 
 
-The index.html file is the main page for our flappy bird game which also loads our two Javascript files. The **phaser.min.js** file is our game framework we will use for making browser games. The other file is **main.js** which will hold all our Javascript logic.  
+The index.html file is the main page for our flappy bird game which also uses our two Javascript (`.js`) files. The **phaser.min.js** file is our game framework we will use for making browser games. The other file is **main.js** which will hold all our Javascript logic.  
 
 ## Variables
 
 Variables are simply names that we can give to values such as *strings*, *numbers*, and *booleans*.
 
 ![alt text](resources/_gen/images/variables.png "variables")
+
+In Javascript there are 6 **primitive data types** we will work with `string`, `number`, `boolean`.
 
 Anything that is surrounded in quotation marks is called a *string*. This is how a computer represents words or sentences. For example, `"a"`, `"2"`, `"banana!"`, and `"Hello World"` are strings, but `Hello World` and `2` are not *strings*, because the quotation marks are missing.       
 
@@ -115,10 +117,13 @@ The number can be adjusted depending on how high you want the bird to jump! Try 
 
 Currently, your bird flies through the obstacles in the game, which seems a little too easy. We can use code to increase the difficulty of the game by adding logic that makes the obstacles solid. In order to do this, you’ll need to know about *conditionals* and *arrays*. 
 
-We already covered conditionals, so now let’s go over arrays. Arrays are a group of objects. They can represent a list of numbers, names, or even the objects in our game! In JavaScript, arrays are represented by [] (this would represent an empty array).
+We already covered conditionals, so now let’s go over arrays. Arrays are a group of objects. They can represent a list of numbers, names, or even the objects in our game! 
+
+In JavaScript, arrays are represented by `[ ]` (this would represent an empty array).
 
 You separate the objects in the array with commas. A sample array with numbers would be represented as
 [1, 2, 3, 4, 5]
+
 Arrays can also be used as values, so just like in the examples from the Variables section, you can assign a name to a group of objects like this:
 
 ```js
