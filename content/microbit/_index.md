@@ -37,6 +37,7 @@ Integer is basically just a fancy name for any real number that is not a decimal
 // Below are different examples of variables
 
 //Integer (non decimal number) variables examples:
+
 var a = 5
 var b = 10
 var c = 15
@@ -46,6 +47,7 @@ var c = 15
 Doubles are your other "messy" numbers, the ones with that funky decimal. Examples are numbers like 0.5, 1.5, and so on. 
 ```javascript
 //Double (decimal number) variable examples:
+
 var x = 0.5
 var y = 1.5
 var z = 2.0
@@ -57,6 +59,7 @@ Strings are surrounded by "quotation marks"
 ```javascript
 //String (one or more words aka a "string" of characters) variable examples:
 //string variable values are surrounded by "quotation marks"
+
 var camp= "I <3 MICROSOFT"
 var course = "I'm 10! So old..."
 var instructor = "Coding is so fun!"
@@ -67,6 +70,7 @@ Characters are single letters. They are surrounded by 'single quotes'
 ```javascript
 //Character (a single letter) variable example:
 //character variable values are surrounded by 'single quotes'
+
 var letter = 'A'
 ```
 
@@ -76,13 +80,47 @@ Sometimes programmers want to check if certain conditions are true or false. Thi
 If you're curious about why these are called Booleans, a guy named George Boole is the one that created them. 
 ```javascript
 //Boolean (true or false) variable example
-var canPigsFly= false
+
+var canPigsFly = false
 var codingIsCool = true
+```
+
+## Math Operations
+Ah yes our favorite, computers are essentially calculators so it should be a given that we can do math on them. Here are examples of the math you can have in your JavaScript programs. 
+
+### Addition
+```javascript
+var a = a + b                //a = 15
+var a += b                   //a = 25
+```
+
+### Subtraction
+```javascript
+var a = a - b                //a = 15
+var a -= b                   //a = 5
+```
+### Multiplication
+```javascript
+var a = a * b                //a = 50
+var a *= b                   //a = 500
+``` 
+### Division
+```javascript
+var a = a / b                //a = 50
+var a /= b                   //a = 5
+```     
+### Modulo
+Ah yes, the one that sounds scary but actually isn't. Modulus operations just gives you the remainder after division. For example, 10 % 2 = 0 because when you divide 10 by 2, you have no remainder left. 
+
+```javascript
+var d= 10 % 2           //d= 0
+var e= 5 % 2            //e= 1
 ```
 
  ### Putting your skills to the test
 
-<iframe height="400px" width="100%" src="https://repl.it/@koconnell/add-JS-to-HTML?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="400px" width="100%" src="https://repl.it/@koconnell/add-JS-to-HTML?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals">
+</iframe>
 
 
 
