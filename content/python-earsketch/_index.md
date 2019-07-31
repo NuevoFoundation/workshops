@@ -2,7 +2,7 @@
 title: "Create music with Python using EarSketch"
 description: "Create music in Python using EarSketch"
 date: 2019-07-23T11:45:38-07:00
-prereq: "Basic Programming Languages"
+prereq: "basic programming"
 difficulty: "Intermediate"
 download: ""
 draft: false

@@ -2,9 +2,10 @@
 title: "Music Basics"
 description: "basics of music"
 date: 2019-07-23T11:45:38-07:00
-weight: 2
 draft: false
+weight: 2
 ---
+
 # Basics first. A few things about music.
 ![Can't load image: music-notes](img/music-notes.jpg)
 
