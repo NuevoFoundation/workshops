@@ -148,7 +148,7 @@ var count = 10
             
 while (count > 0){
     alert(count)
-c   ount--
+    count--
 }
             
 //for loop - counts down from 10
@@ -158,13 +158,13 @@ for (var i = 10; i > 0; i--){
             
 //endless while loop
 while (true){
-//this will happen over and over again forever since the condition will never be false
+    //this will happen over and over again forever since the condition will never be false
 }
 
 //break;	//stops a loop immediately and moves to line below the loop 
 ```
 ### Putting your skills to the test
-### Getting started with Micro:Bitg
+### Getting started with Micro:Bits
 
 <iframe height="400px" width="100%" src="https://repl.it/@koconnell/add-JS-to-HTML?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals">
 </iframe>
