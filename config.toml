@@ -2,7 +2,7 @@ baseURL = "/"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "DocDock Documentation"
+title = "Nuevo Foundation Workshops"
 theme = "docdock"
 # themesdir = "themes/"
 pygmentsCodeFences = true
