@@ -142,12 +142,14 @@ if (false){
 ### Loops
 And last but not least, we have things called loops. These allow you to repeat parts of your code until a certain condition is met. 
 
+The alert() function you see in the code snippet below simply displays a pop-up displaying the parameter you pass to it, the parameter is what is inside the parantheses, in this case it is displaying the updated count value.
+
 ```javascript
 //while loop - counts down from 10
 var count = 10
             
 while (count > 0){
-    alert(count)
+    alert(count) 
     count--
 }
             
@@ -158,16 +160,48 @@ for (var i = 10; i > 0; i--){
             
 //endless while loop
 while (true){
-    //this will happen over and over again forever since the condition will never be false
+    //this will happen over and over again forever since the condition will never be false. true is always true. 
 }
 
 //break;	//stops a loop immediately and moves to line below the loop 
 ```
-### Putting your skills to the test
-### Getting started with Micro:Bits
 
-<iframe height="400px" width="100%" src="https://repl.it/@koconnell/add-JS-to-HTML?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals">
-</iframe>
+
+## Getting started with Micro:Bits
+
+Now that you know the basics of JavaScript, you can use your knew skills to start programming your Micro:Bits! 
+
+### What is a Micro:Bit?
+
+A Micro:Bit is a programmable mini computer! It can be coded from any web browser in various languages like javaScript, Python,Scratch, and Blocks. For our session today with we will be using JavaScript. 
+
+Your Micro:Bit has the following physical features: 
+- 25 individually-programmable LEDs 
+- 2 programmable buttons
+- Physical connection pins
+- Motion sensors (accelerometer and compass)
+- Wireless communication via bluetooth and radio 
+- USB interface 
+
+![alt-text](resources/images/microbit-hardware-access.jpg)
+
+If you want to learn more about each individual component and all the features that come with your Micro:Bit, you can click [here](https://microbit.org/guide/features/).
+
+Go ahead and take out the the Micro:Bit and the rest of the components from the bag. You should have one Micro:Bit, 2 batteries, a micro USB cable, and the battery holder (the black box with the red and black wires coming out of it). If you're missing anything or need help feel free to ask one of the instructors! 
+
+### Quick Start
+
+Go ahead and plug in your Micro:Bit to your computer using the USB cable. You won't be needed the batteries right for a while so you can go ahead and put those aside. 
+
+Once you plug in the Micro:Bit to your computer, it will show up on your computer as a drive called 'MICROBIT'. If you open file explorer you should see something similar to the picture below. 
+
+![alt-text](resources/images/microbit-drive-file-explorer-example.jpg)
+
+Time for the fun stuff. I've coded up a game to give you an example of what you can make! Go ahead and download my game by clicking [here](resources/files/microbit-Asteroids.hex). Once it downloads you should see it inside your 'Downloads' folder. 
+
+
+
+
 
 
 
