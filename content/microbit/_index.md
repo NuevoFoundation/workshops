@@ -197,7 +197,11 @@ Once you plug in the Micro:Bit to your computer, it will show up on your compute
 
 ![alt-text](resources/images/microbit-drive-file-explorer-example.jpg)
 
-Time for the fun stuff. I've coded up a game to give you an example of what you can make! Go ahead and download my game by clicking [here](resources/files/microbit-Asteroids.hex). Once it downloads you should see it inside your 'Downloads' folder. 
+Time for the fun stuff. I've coded up a game to give you an example of what you can make! Go ahead and download my game by clicking [here](resources/files/microbit-Asteroids.hex). 
+
+<a href = "resources/files/microbit-Asteroids.hex" download>click to download</a>
+
+Once it downloads you should see it inside your 'Downloads' folder. 
 
 
 
