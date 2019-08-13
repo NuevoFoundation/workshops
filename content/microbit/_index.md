@@ -1,16 +1,13 @@
 ---
-title: "Microbit"
+title: "Coding with Microbit"
 description: "Using MicroBits to teach students about JavaScript and hardware"
 date: 2019-07-23T14:54:53-07:00
-prereq: "link to workshop markdown file"
-difficulty: "Intermediate"
-download: "URL to GitHub folder goes here"
-image: "src to image"
+difficulty: "Beginner to Intermediate"
+download: "https://github.com/NuevoFoundation/workshops/tree/master/content/microbit"
 draft: true
 ---
 
-# Coding and Engineering 101
-## An introduction to JavaScript and hardware using [MicroBits](https://microbit.org/guide/)
+<center><h2>An introduction to JavaScript and hardware using [MicroBits](https://microbit.org/guide/)</h2></center>
 
 [logo]: https://media.giphy.com/media/1nOL7s74KmSk0zDlDD/giphy.gif 
 ![alt text][logo]
@@ -38,9 +35,9 @@ Integer is basically just a fancy name for any real number that is not a decimal
 
 //Integer (non decimal number) variables examples:
 
-var a = 5
-var b = 10
-var c = 15
+var a = 5;
+var b = 10;
+var c = 15;
 ```
 
 ### Doubles
@@ -60,9 +57,9 @@ Strings are surrounded by "quotation marks"
 //String (one or more words aka a "string" of characters) variable examples:
 //string variable values are surrounded by "quotation marks"
 
-var camp= "I <3 MICROSOFT"
-var course = "I'm 10! So old..."
-var instructor = "Coding is so fun!"
+var company = "MICROSOFT";
+var course = "Coding with Micro:Bits!";
+var message = "Coding is so fun!";
 ```
 
 ### Characters
@@ -71,7 +68,7 @@ Characters are single letters. They are surrounded by 'single quotes'
 //Character (a single letter) variable example:
 //character variable values are surrounded by 'single quotes'
 
-var letter = 'A'
+var letter = 'A';
 ```
 
 ### Booleans
@@ -81,8 +78,8 @@ If you're curious about why these are called Booleans, a guy named George Boole 
 ```javascript
 //Boolean (true or false) variable example
 
-var canPigsFly = false
-var codingIsCool = true
+var canPigsFly = false;
+var codingIsCool = true;
 ```
 
 ## Math Operations
@@ -90,31 +87,31 @@ Ah yes our favorite, computers are essentially calculators so it should be a giv
 
 ### Addition
 ```javascript
-var a = a + b                //a = 15
-var a += b                   //a = 25
+var a = a + b;                //a = 15
+var a += b;                   //a = 25
 ```
 
 ### Subtraction
 ```javascript
-var a = a - b                //a = 15
-var a -= b                   //a = 5
+var a = a - b;                //a = 15
+var a -= b;                   //a = 5
 ```
 ### Multiplication
 ```javascript
-var a = a * b                //a = 50
-var a *= b                   //a = 500
+var a = a * b;                //a = 50
+var a *= b;                   //a = 500
 ``` 
 ### Division
 ```javascript
-var a = a / b                //a = 50
-var a /= b                   //a = 5
+var a = a / b;                //a = 50
+var a /= b;                   //a = 5
 ```     
 ### Modulo
 Ah yes, the one that sounds scary but actually isn't. Modulus operations just gives you the remainder after division. For example, 10 % 2 = 0 because when you divide 10 by 2, you have no remainder left. 
 
 ```javascript
-var d = 10 % 2           //d= 0
-var e = 5 % 2            //e= 1
+var d = 10 % 2;         //d= 0
+var e = 5 % 2;            //e= 1
 ```
 ### Print Statements 
 Sometimes you want your computer to actually display some text or the data your variables hold. To do this we use print statements. 
@@ -123,7 +120,7 @@ Sometimes you want your computer to actually display some text or the data your 
 console.log("This will show up in the console, but not the webpage")
 alert("This will display as a pop up window")
 
-var userResponse = prompt("Do you want to play a game?")
+var userResponse = prompt("Do you want to play a game?");
 ```
 
 ### Conditionals and Logical Operators
@@ -137,6 +134,11 @@ if (true){
 if (false){
 //this section of code will not run
 }
+
+var age = 10
+if (age < 18){ // if age is less than 10
+    print("You're not an adult yet! :( ");
+}
 ```         
 
 ### Loops
@@ -146,16 +148,16 @@ The alert() function you see in the code snippet below simply displays a pop-up 
 
 ```javascript
 //while loop - counts down from 10
-var count = 10
+var count = 10;
             
 while (count > 0){
-    alert(count) 
-    count--
+    alert(count);
+    count--;
 }
             
 //for loop - counts down from 10
 for (var i = 10; i > 0; i--){
-    alert(i)
+    alert(i);
 }
             
 //endless while loop
@@ -165,7 +167,6 @@ while (true){
 
 //break;	//stops a loop immediately and moves to line below the loop 
 ```
-
 
 ## Getting started with Micro:Bits
 
@@ -197,16 +198,87 @@ Once you plug in the Micro:Bit to your computer, it will show up on your compute
 
 ![alt-text](resources/images/microbit-drive-file-explorer-example.jpg)
 
-Time for the fun stuff. I've coded up a game to give you an example of what you can make! Go ahead and download my game by clicking [here](resources/files/microbit-Asteroids.hex). 
+I've coded up a game to give you an example of what you can make! Go ahead and download my game by clicking the link below. 
 
-<a href = "resources/files/microbit-Asteroids.hex" download>click to download</a>
+<a href = "resources/files/microbit-Asteroids.hex" download>Click to Download</a>
 
-Once it downloads you should see it inside your 'Downloads' folder. 
+Once it downloads you should see the HEX file inside your 'Downloads' folder. (You'll also notice I named this game 'Asteroids', if you have a better name please let me know)
 
+To actually play the game, you'll need to copy this file to your Micro:Bit. To do this you can simply copy and paste the file to the Micro:Bit directory, but I find another method much easier. Simply right click the file, click **Send To** then select **MICROBIT** 
 
+![alt-text](resources/images/windows-sendto.gif)
 
+If you did this correctly, you will notice your Micro:Bit LEDs will pause for a bit and the yellow LED on the back will blink while the Micro:Bit downloads the code. If you don't see this, don't worry and ask us for help.
 
+Curious about what my game's code looks like? Click [here](https://makecode.microbit.org/_bhJYfUURARgx)
 
+### Protecting Your Spaceship 
+![alt-text](resources/images/space-invaders.gif)
+
+Ready to play? These are the list of controls: 
+
+- **A + B:** Shoot lasers to destroy incoming asteroids
+- **Tilt:** Tilt your microbit left or right to move your spaceship
+
+Simple right? We'll see. I've programmed this game to go faster the more asteroids you destroy. Think you have the high score? Show off and let us know! You can see your score by waiting for the game over screen to pass. 
+
+**TIP:** If you reach the game over screen and want to start a new game, simply click the reset button behind your Micro:Bit.
+
+### Get Coding
+Finally! Time for the best part! Now you can use everything you've learned to create your own programs and code your Micro:Bits! 
+
+First, let's display our name on the Micro:Bit. Follow along with me. 
+
+Now let's go through two tutorials together! Go to this [link](https://makecode.microbit.org/) and find the "Flashing Heart" tutorial. 
+
+We'll be going through this and the "Micro Chat" tutorials. 
+
+### Your Turn
+Go ahead and find another tutorial you're interested in, or if you're feeling confident, code your own program from scratch! Have fun! 
+
+### Resources and Advanced Micro:Bit Cheat Sheet
+#### Variables, Printing, and Downloading ####
+- JavaScript variables are the same except the word 'let' is used instead of var
+
+    ```javascript
+    let variable = "text";
+    ```
+- The command `basic.showString(variable);` will make the text appear in the LED of the Micro:Bit
+
+    ```javascript
+    let name = "Gonzo";
+    basic.showString(name);
+    ```
+
+### Useful JavaScript Commands
+The commands below are in javaScript, if you prefer to use the Block code equivalent just look in the corresponding library. For example, you can find basic.forever() by clicking the Basic tab and dragging the forever function to your screen. 
+
+```javascript
+basic.forever(function () {
+	// Code between these brackets will run forever on your Micro:Bit
+})
+
+// Displays the number inside the parantheses on your Micro:Bit
+basic.showNumber(number) 
+
+// Displays the string (word) inside the parantheses on your Micro:Bit
+basic.showString(string); 
+
+// Generates a random number between 0 and the number inside the parantheses
+Math.random(number)
+
+input.onButtonPressed(Button.A, function () {
+    // Code here runs when button you specify is pressed, in this case when Button A is pressed
+})
+
+// Displays the specified character on the LED screen
+basic.showIcon(IconNames.Character)
+
+// Pauses your Miceo:Bit for the specified amount of microseconds
+basic.pause(microseconds)
+
+//
+```
 
 
 
