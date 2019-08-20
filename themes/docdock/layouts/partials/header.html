@@ -1,10 +1,127 @@
-{{ $header := print "_header." .Lang }}
-{{ range where .Site.Pages "File.BaseFileName" $header }}
-{{ .Content }}
-{{else}}
-{{ if .Site.GetPage "page" "_header.md" }}
-{{(.Site.GetPage "page" "_header.md").Content}}
-{{else}}
-<a class="baselink" href="{{.Site.BaseURL}}">{{.Site.Title}}</a>
-{{ end }}
-{{ end }}
+<div id="mobile-nav-menu" class="transition-out" style="display: none;">
+    <div class="close-btn" onclick="toggleVisibility();">
+        <i aria-hidden="true" focusable="false" style="cursor: pointer;" class="fa fa-times fa-w-11 fa-sm"></i>
+    </div>
+    <div>
+        <div class="sc-dNLxif ecnYUM">
+            <a href="/support-us"><button class="sc-jbKcbu sedGx"
+                    style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: 4px solid rgb(0, 0, 0); border-radius: 4px;">
+                    DONATE
+                </button></a>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/what-we-do">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>What We Do</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/get-involved">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Get Involved</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/support-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Support us</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/blog">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Event blog</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/about-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Our team</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/contact">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Contact us</li>
+            </ul>
+        </a>
+    </div>
+</div>
+<div>
+    <div class="sc-gGBfsJ iKkPGj">
+        <div class="container-fluid">
+            <div id="toprow" class="row">
+                <div class="col-xs-12">
+                    <div class="sc-EHOje fJMnSm">
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.instagram.com/nuevofoundation">
+                                <i aria-hidden="true" focusable="false" class="fa fa-1x fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://twitter.com/nuevofoundation">
+                                <i aria-hidden="true" focusable="false" class="fa fa-1x fa-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/NuevoFoundation">
+                                <i aria-hidden="true" focusable="false" class="fa fa-1x fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.linkedin.com/company/nuevofoundation">
+                                <i aria-hidden="true" focusable="false" class="fa fa-1x fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" rel="noopener noreferrer"
+                                href="https://nuevofoundation.org/support-us">Donate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="secondrow" class="row">
+                <div class="col-sm-12 hidden-xs">
+                    <div class="sc-htoDjs kjtfZK">
+                        <a class="sc-fjdhpX izNzAG active" aria-current="page" href="https://nuevofoundation.org">
+                            <img src="/images/Logo_long.0f097b90.svg" height="60px" />
+                        </a>
+                        <ul class="sc-iwsKbI bUOvG">
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/what-we-do">
+                                <li class="sc-gZMcBi Bomeo">What We Do</li>
+                            </a>
+                            <a class="izNzAG" href="https://nuevofoundation.org/get-involved"></a>
+                            <li class="Bomeo">
+                                Get Involved
+                            </li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/support-us">
+                                <li class="sc-gZMcBi Bomeo">Support us</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/blog">
+                                <li class="sc-gZMcBi Bomeo">Event blog</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/about-us">
+                                <li class="sc-gZMcBi Bomeo">Our team</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/contact">
+                                <li class="sc-gZMcBi Bomeo">Contact us</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <a class="sc-fjdhpX izNzAG active" aria-current="page" href="/">
+                                <img class="sc-dnqmqq emolVn" data-savepage-src="images/Logo_long.0f097b90.svg"
+                                    src="images/Logo_long.0f097b90.svg" height="60%" /></a>
+                        </div>
+                        <div class="col-xs-2" onclick="toggleVisibility();"
+                            style="padding-top: 4%; padding-left: 4%; cursor: pointer;">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                                class="svg-inline--fa fa-bars fa-w-14 fa-lg" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
