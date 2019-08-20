@@ -83,7 +83,7 @@ article > aside .menu > .dd-item {
 article > aside .menu .dd-item {
   padding-left: 1rem;
   list-style: none;
-  font-size: 13px;
+  font-size: 14px;
 }
 article > aside .menu .dd-item.alwaysopen > ul {
   display: block;
@@ -307,10 +307,9 @@ article section.page {
 }
 article section.page h1:first-of-type {
   margin: 3rem 0rem;
-  font-family: "Novacento Sans Wide", "Helvetica", "Tahoma", "Geneva", "Arial",
+  font-family: "lato-semibold", "Helvetica", "Tahoma", "Geneva", "Arial",
     sans-serif;
   text-align: center;
-  text-transform: uppercase;
   color: #060606;
   font-weight: 200;
   font-size: 3.25rem;
@@ -786,6 +785,29 @@ ul.children.children-card > span p {
     margin-left: -1rem;
     margin-right: -1rem;
   }
+}
+
+/* Metadata styles */
+.metadata-title {
+  text-align: center;
+  font-size: 16px;
+  background-color: #2053ab;
+}
+
+.metadata-box {
+  border: 1px solid lightgray;
+  padding: 10px;
+  width: 90%;
+}
+
+.metadata-row {
+}
+
+.metadata-label {
+  font-weight: 800;
+}
+
+.metadata-value {
 }
 
 /*# sourceMappingURL=style.css.map */
