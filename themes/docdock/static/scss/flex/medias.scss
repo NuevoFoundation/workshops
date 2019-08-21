@@ -37,11 +37,11 @@
   }
 
   .nav-select {
-    display: block;
-    margin-left: -10px;
-    margin-right: -10px;
+    display: flex;
+    justify-content: center;
   }
   .nav-select select {
+    margin-left: 5px;
     display: block;
   }
 

@@ -23,11 +23,11 @@
   <section class="page">
 
     <div class="nav-select">
-      <center>Navigation :
-        <select onchange="javascript:location.href = this.value;">
-          {{partial "flex/selectnavigation.html" .}}
-        </select>
-      </center>
+      Navigation:&nbsp;
+      <select onchange="javascript:location.href = this.value;">
+        {{partial "flex/selectnavigation.html" .}}
+      </select>
+
     </div>
     <!-- No search
     {{- if not .Site.Params.disableSearch}}
@@ -49,13 +49,12 @@
     </div>
     {{- end}} -->
 
-
     {{if not .IsHome}}<h1>{{.Title}}</h1>{{end}}
 
-
-    {{if .IsHome}}
-    {{else}}
+    {{ if isset .Params "difficulty" }}
     {{- partial "flex/metadata.html" . }}
+    {{else}}
+
     {{ end }}
 
     <!-- {{- partial "flex/metadata.html" . }} -->
