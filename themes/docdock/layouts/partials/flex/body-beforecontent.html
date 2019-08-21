@@ -51,4 +51,11 @@
 
 
     {{if not .IsHome}}<h1>{{.Title}}</h1>{{end}}
-    {{- partial "flex/metadata.html" . }}
+
+
+    {{if .IsHome}}
+    {{else}}
+    {- partial "flex/metadata.html" . }}
+    {{ end }}
+
+    <!-- {{- partial "flex/metadata.html" . }} -->

@@ -374,3 +374,8 @@ body {
   padding: 0;
   font-family: "lato-semibold", sans-serif;
 }
+.jgBGVn span {
+  display: block;
+  margin-top: 5px;
+  border-top: 4px solid rgb(252, 198, 0);
+}
