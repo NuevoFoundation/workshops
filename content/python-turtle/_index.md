@@ -29,9 +29,11 @@ Today you will be using Repl.it to learn how to code in Python. Here is an examp
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonWithTurtleIntroduction?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-Before we start, let's first understand how the window works. The `main.cs` file contains code, or instructions for the computer to run. By pressing the **run** button, you tell the computer to perform the instructions in the code. Any results from running the code will be displayed on the right side. Today, our results will be an animation of a drawing being created.
+Before we start, let's first understand how the window works. The `main.py` file contains code, or instructions for the computer to run. By pressing the **run** button, you tell the computer to perform the instructions in the code. Any results from running the code will be displayed on the bottom white screen, under the **result** tab. Today, our results will be an animation of a drawing being created.
 
-Next, let's explain further some of the code that has been provided to you in the `main.cs` file.
+Next, let's explain further some of the code that has been provided to you in the `main.py` file.
+
+{{% notice tip %}}
 
 ### Libraries and import statements
 
@@ -41,11 +43,13 @@ Look at the top of the code. You will see the following line:
 import turtle
 ```
 
-This statement allows us to import all of the drawing functionality provided by the `turtle` library. In particular, it introduces a cursor (the turtle) in the result window, which we can control using our code to draw images.
+This statement allows us to import all of the drawing functionality provided by the `turtle` library. A **library** is a place where related functionality are grouped together for use in the Python language. For example, the `turtle` library introduces a helpful artistic turtle in the result window, which we can control using our code to draw images.
 
 ### Comments
 
 The gray line that starts with `#` is called a **comment**. These are notes in the code that helps to explain what is happening in plain English. As they are ignored by the computer, they are often used so that when other developers work on the same code, they will have an easier time reading and understanding what is going on.
+
+{{% /notice %}}
 
 ## Introduction - Drawing a colored line
 
@@ -54,7 +58,7 @@ Before Alex can learn how to create a beehive, he must first learn how to draw a
 First, we need tell the turtle what color we want the line to be. To do this, let's type in:
 
 ```
-turtle.color("yellow")
+turtle.color("orange")
 ```
 
 Let's try to understand this line of code in more detail.
@@ -65,15 +69,15 @@ Let's try to understand this line of code in more detail.
 
 Anything you see in **quotation marks** is called a **string**. A string is just a sequence of characters (whether they are letters, numbers, or symbols).
 
-In the code above, `"yellow"` is a string. Other examples of strings include `"123"`, `"abc!"` and `"green"`. Be careful, `123`, `abc!` and `green` are not strings because there are missing quotation marks!
+In the code above, `"orange"` is a string. Other examples of strings include `"123"`, `"abc!"` and `"green"`. Be careful, `123`, `abc!` and `green` are not strings because there are missing quotation marks!
 
 ### Methods
 
-`turtle.color()` is a **method.**  We use methods to get the turtle to perform certain actions. In this case, turtle.color() is changing the color of the lines it draws to what color we tell it to. We told it to change the color to yellow by sending it the **string** “yellow” as an **argument**. 
+`turtle.color()` is a **method.**  We use methods to get the turtle to perform certain actions. In this case, `turtle.color()` is changing the color of the lines it draws to what color we tell it to. We told it to change the color to orange by sending it the **string** `"orange"` as an **argument**. 
 
 ### Arguments
 
-Arguments are inputs that you pass in to **methods** to use. In our example, turtle.color() needs a **string** argument representing the name of the color to set the turtle, so we passed in `"yellow"` as an **argument** to the method. We could also have told it to change the color to something else, but it has to have been a color that `turtle.color()` understand. The colors that it recognizes are: `"red"`, `"orange"`, `"yellow"`, `"green"`, `"blue"`, `"purple"`, `"black"`, `"pink"`, and `"gray"`. If we send in anything else besides one of these color strings, we would get an error!
+Arguments are inputs that you pass in to **methods** to use. In our example, `turtle.color()` needs a **string** argument representing the name of the color to set the turtle, so we passed in `"orange"` as an **argument** to the method. We could also have told it to change the color to something else, but it has to have been a color that `turtle.color()` understand. The colors that it recognizes are: `"red"`, `"orange"`, `"yellow"`, `"green"`, `"blue"`, `"purple"`, `"black"`, `"pink"`, and `"gray"`. If we send in anything else besides one of these color strings, we get the default color, which is black.
 
 {{% /notice %}}
 
@@ -84,11 +88,13 @@ turtle.forward(50)
 turtle.backward(50)
 ```
 
-TODO: add diagram here.
-
 `turtle.forward(50)` will make the turtle go forward 50 pixels and draw a line in the direction it's facing, while `turtle.backward(50)` will do the same, but in the opposite direction.
 
 {{% notice tip %}}
+
+### Pixels
+
+An image is composed of thousands, if not, millions of pixels. A pixel is a unit of measurement for digital images, similar to how we measure weight in pounds, or long distances in miles.
 
 ### Integers
 
@@ -99,7 +105,7 @@ Let's make the turtle go forward, so type in `turtle.forward(50)`. Now your code
 ```
 import turtle
 
-turtle.color("yellow")
+turtle.color("orange")
 turtle.forward(50)
 ```
 
@@ -107,13 +113,21 @@ turtle.forward(50)
 
 Now that we have completed our code, press **run**. You should see the following in the result screen:
 
-TODO: insert picture.
+<!--TODO: insert picture.-->
+
+If so, great! If not, please ask for help.
+
+As an exercise, try understanding what the following line of code does, and try adding this to your code. What does it do?
+
+```
+turtle.shape("turtle")
+```
 
 {{% notice warning %}}
 
-### HELP! I got a lot of red text!
+### HELP! Nothing shows up on the screen!
 
-If you see any red text, you have encountered some errors! Please ask for help or check the debugging page at the end of this tutorial. Beware of the following when coding in python:
+If, after pressing **run**, you don't see anything on the screen, check to see if there is a **red x** beside the **console** tab (The **console** tab is right beside the **result** tab in the middle of the screen). If you do, you have encountered some errors! Please click the **console** tab and ask for help. Beware of the following when coding in python:
 
 1.	Do not use any capital letters.
 2.	Make sure that that none of the lines you have written so far start with any spaces.
@@ -157,11 +171,15 @@ Let’s understand what this code does. `for i in range(3):` This statement tell
 
 {{% notice warning %}}
 
-### Spacing in Python
+### Tricky Python syntax - Part 1
 
-Notice that we added extra spaces in front of some lines of code in the example above. The spaces tell the computer these statements are considered a part of the `for` loop. 
+**Syntax** is how we write languages so that it is understandable. In English we have spelling and grammar rules to help understand each other. Similary, the Python language has syntax rules so that the computer can understand our code.
 
-Take a look at the below code. Because we removed the spaces in front of `turtle.left(120)`, the code will no longer work as expected. Now, we only repeat `turtle.forward(50)` three times, and we get a straight line instead!
+First, notice that at the end of the line with `for`, we added a colon (`:`); this signifies that the next line will be part of the `for` loop. The computer will complain if you miss the `:`!
+
+As well, we added extra spaces in front of some lines of code in the example above. The spaces tell the computer these statements are considered a part of the `for` loop. 
+
+To see how big of a difference this makes, take a look at the below code. Because we removed the spaces in front of `turtle.left(120)`, the code will no longer work as expected. Now, we only repeat `turtle.forward(50)` three times, and we get a straight line instead!
 
 ```
 for i in range(3):
@@ -171,7 +189,9 @@ turtle.left(120)
 
 {{% /notice %}}
 
-Now, take the example code that we have provided, and modify it slightly so that, instead of drawing a triangle, it draws a square. You can look back at what you did in Activity 1 as a hint. 
+Now, take the example code that we have provided, and modify it slightly so that, instead of drawing a triangle, it draws a square. You can look back at what you did in Activity 2 as a hint. 
+
+<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonWithTurtleActivity2?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ## Activity 3 - Drawing a hexagon
 
@@ -185,8 +205,13 @@ To help you draw a hexagon, think of how many sides a hexagon has. How many degr
 
 We drew one hexagon. But this is just one of many Alex needs to make to build his honeycomb. Once again, it seems that we would have to repeat the code many times to draw multiple hexagons. Fortunately, we don't have to! Functions to the rescue!
 
+{{% notice tip %}}
+
 ### Functions
+
 A function is a way to group together lines of code to do something. For instance, `turtle.forward(50)` moves the turtle forward 50 steps, and `turtle.left(120)` turns the turtle left 120 degrees. What if we want to always do these two actions together? We can put them in a function called `draw_line()`, so that whenever this function is called, both of these actions take place simultaneously. Think of this like a recipe: we compile all the instructions together, and the recipe's name is the food we are making.
+
+{{% /notice %}}
 
 Here is an example of a function, and how we would use it:
 
@@ -206,11 +231,37 @@ If you press **run** with just this code, you will notice that you won't see any
 def draw_line():
   turtle.forward(50)
   turtle.left(120)
+
+draw_line()  # Function call
 ```
  
 This is called a **function call** for the `draw_line()` function. A function call runs the code that’s defined in the function with the same name. With the recipe analogy, think of it as actually performing the recipe.
 
-> Tip: Always make sure the names of your functions are descriptive enough to explain what the code in the function does. 
+{{% notice info %}}
+
+### Tip
+
+Always make sure the names of your functions are descriptive enough to explain what the code in the function does. 
+
+{{% /notice %}}
+
+{{% notice warning %}}
+
+### Tricky Python syntax - Part 2
+
+Notice that functions use similar syntax rules with `for`-loops - you must have a `:` at the end of the function declaration, and anything in the function body needs to start with two spaces.
+
+What happens when you need a `for`-loop inside of a function? Then, you need to combine the rules together! Here is an example on how to properly put a `for`-loop inside of a function.
+
+```
+def draw_line():
+  for i in range(3):
+    turtle.forward(50)
+```
+
+Notice that `turtle.forward(50)` has 4 spaces in front of it, because it is both inside of a function definition, and inside of a `for`-loop!
+
+{{% /notice %}}
 
 So, let’s try that out by making our own `draw_hexagon()` function! Remember to include the function definition header, the number of sides a hexagon has, and the angle associated with a hexagon: 60 degrees.
 
@@ -218,20 +269,19 @@ So, let’s try that out by making our own `draw_hexagon()` function! Remember t
 
 ## Activity 5 - Drawing a honeycomb
 
-TODO: download to repo.
 ![](https://paper-attachments.dropbox.com/s_6DE744F5F42D9843D8BF3A4073281FC6AA4B5E70B001CCD7879563112D6136E1_1563991066657_honey_comb.png)
 
 This is the finale! Let's create the honeycomb that Alex will live in. Fortunately, a honeycomb is simply 6 hexagons, so let's combine our knowledge of functions and loops to make our honeycomb! 
 
-First create a loop that repeats 6 times. Inside the loop we have to first draw a hexagon using our `draw_hexagon()` function we previously defined. Next, move the turtle so it can draw the next hexagon. To do so, after the turtle draws each hexagon, we need to tell our turtle to move forward **50 pixels** and then turn right **60 degrees**. 
+In this activity, create a new function called `draw_honeycomb()`. Inside the function body, create a loop that repeats 6 times. Inside the loop we have to first draw a hexagon using our `draw_hexagon()` function we previously defined. Next, move the turtle so it can draw the next hexagon. To do so, after the turtle draws each hexagon, we need to tell our turtle to move forward **50 pixels** and then turn right **60 degrees**. 
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonWithTurtleActivity5?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 # Part 2: Building a Mandala Flower 
 
-Great job! You finished building a honeycomb for Alex’s beehive, but Alex needs to also get his pollen from flowers! Wouldn’t it be nice to add a flower to the picture as well? In part 2, we will be creating a mandala flower!
+Great job! You finished building a honeycomb for Alex’s beehive, but Alex needs to also get his pollen from flowers! Wouldn’t it be nice to add a flower to the picture as well? In part 2, we will be creating a mandala flower! (Stay tuned - we'll show you what a mandala flower looks like.)
 
-### Moving the turtle
+### Activity 6 - Moving the turtle
 
 Our first step is to move the turtle to a new location to draw the flower (we don’t want to draw the flower on top of the beehive!). To do this, we first need to use the following methods:
 
@@ -241,41 +291,49 @@ turtle.goto(x,y)
 turtle.pendown()
 ```
 
-`turtle.penup()` tells the turtle to pick up its pen so it doesn’t draw while it is moving. Then, with `turtle.goto(x,y)`, we are telling the turtle where to move . After that we tell the turtle to put its pen back down using `turtle.pendown()` so it can start drawing again. 
+`turtle.penup()` tells the turtle to pick up its pen so it doesn’t draw while it is moving. Then, with `turtle.goto(x,y)`, we are telling the turtle the position where the turtle moves to. After that we tell the turtle to put its pen back down using `turtle.pendown()` so it can start drawing again. 
 
-TODO: Add a picture of a graph with the x and y coordinates.
+<!--TODO: Add a picture of a graph with the x and y coordinates.-->
 
-> Tip: The `x` and  `y` in the `turtle.goto()` method are the `x` and `y` coordinates of the turtle. We want to change the `x, `y` coordinates of the turtle from `(0, 0)` which is the default top-left corner, to somewhere a little farther away so that the mandala flower doesn’t cover up part of the honeycomb.
+{{% notice info %}}
 
+### Tip
 
-## Activity 6 - Drawing a figure 8
+The `x` and  `y` in the `turtle.goto()` method are the `x` and `y` coordinates of the turtle. We want to change the `x`, `y` coordinates of the turtle from `(0, 0)` which is the default top-left corner, to somewhere a little farther away so that the mandala flower doesn’t cover up part of the honeycomb.
+
+{{% /notice %}}
+
+To complete this activity, move the turtle to position (300, 300) on the canvas.
+
+<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonWithTurtleActivity6?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+## Activity 7 - Drawing a figure 8
 
 ![drawing a figure 8](https://paper-attachments.dropbox.com/s_6DE744F5F42D9843D8BF3A4073281FC6AA4B5E70B001CCD7879563112D6136E1_1563992981796_figure8.PNG)
 
 Great! Now let’s make a figure 8 as the first step to making a mandala flower! A figure 8 is just two circles that are opposite to each other. 
-To do this we can make use of the `turtle.circle(x)` method, which takes an integer `x` as the radius of the circle. Having the radius as an **argument** means we can decide how big or small the circle should be.
-
-> Tip: `2 * radius` is how wide the circle is.
+To do this we can make use of the `turtle.circle(x)` method, which takes an integer `x` as the radius of the circle. (You may recall that `2 * radius` is how wide the circle is.) Having the radius as an **argument** means we can decide how big or small the circle should be.
 
 ```
   import turtle
-  turtle.circle(10)
+  turtle.circle(50)
 ```
 
-In the above example, the circle is 20 pixels wide and the circle is drawn in a counterclockwise direction. If the argument to `turtle.circle()` is negative, then the circle is drawn in a clockwise direction and it is opposite to the original version. 
+In the above example, the circle is 100 pixels wide and the circle is drawn in a counterclockwise direction. If the argument to `turtle.circle()` is negative, then the circle is drawn in a clockwise direction and it is opposite to the original version.
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonWithTurtleActivity6?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
-## Activity 7 -  Creating a mandala flower 
-
-We’re done creating our first figure 8!
-But we’re not done quite yet, we need an extra step to rotate the turtle by some number of degrees to prepare to draw the next figure 8 for our mandala flower!
-
-We can now use the figure 8 function to create a mandala flower! To do this we need to use a... you guessed it, a loop! In the loop we will call the figure 8 function we wrote earlier to create a figure 8 and then rotate the turtle either left or right a certain number of degrees. To make a mandala flower, it’s a good idea to create a loop that repeats at least 35 times. 
+Using this information, create a new function called `figure_8()` which draws a figure 8.
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonWithTurtleActivity7?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-## Activity 8 - Coloring your mandala flower
+## Activity 8 -  Creating a mandala flower 
+
+We’re done creating our first figure 8! We can now use the `figure_8()` function to create a mandala flower! A mandala flower is many figure 8s placed on top of each other at different angles. So, to do this we need to use a... you guessed it, a loop!
+
+Create a new function called `mandala_flower()`. In the loop we will call the `figure_8()` function we wrote earlier to create a figure 8. Then, rotate the turtle either left or right a certain number of degrees (for example, 10 degrees). Repeat these steps many times to make a mandala flower; it’s a good idea to create a loop that repeats at least 35 times. 
+
+<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonWithTurtleActivity8?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+## Activity 9 - Coloring your mandala flower
 
 ![mandala flower with blue pedals](https://paper-attachments.dropbox.com/s_F078714AB8FA59FD292476DB5E3304D54CD817148B6A8087A90D63D6C59A7C0D_1563989987816_mandala+one+color.PNG)
 
@@ -293,9 +351,9 @@ In the `turtle.color()` method, we can specify three integer arguments correspon
 
 Update your mandala flower to use a color of your liking. Feel free to experiment with different colors!
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonWithTurtleActivity7?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonWithTurtleActivity9?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-## Activity 9 - Randomizing the color of your mandala flower petals
+## Activity 10 - Randomizing the color of your mandala flower petals
 
 ![mandala flower with random color petals](https://paper-attachments.dropbox.com/s_F078714AB8FA59FD292476DB5E3304D54CD817148B6A8087A90D63D6C59A7C0D_1563989900782_mandala+colors.PNG)
 
@@ -305,18 +363,20 @@ We will make use of python’s `random` library. The `random.randint()` method a
 
 Use `random.randint(0, 256)` three times to produce three random values, and plug them into the `turtle.color()` method. You should now be able to see a multi-colored mandala flower! This is definitely a flower from which Alex would be interesting in collecting nectar!
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonWithTurtleActivity7?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonWithTurtleActivity10?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 Congratulations! You helped Alex make a honeycomb and a flower! He can now happily live in his beehive, and make lots of honey! Your final image should look something like this:
 
 ![final product](https://paper-attachments.dropbox.com/s_6DE744F5F42D9843D8BF3A4073281FC6AA4B5E70B001CCD7879563112D6136E1_1563991731125_final_image.png)
 
-## Activity 10 - Now, it's your turn!
+## Activity 11 - Now, it's your turn!
 
 If there is any time left, try drawing your own shapes and designs! Make your picture interesting using various shapes and colors.
 
 Click [here](https://repl.it/languages/python_turtle) to open a new blank repl.it window to start on your creation.
 
+
+<!--
 ## Help, I am stuck!
 
 Stuck? Check the Answer key for the activity that you are stuck on!
@@ -324,7 +384,7 @@ Stuck? Check the Answer key for the activity that you are stuck on!
 ```
 # Activity 1
 def draw_line():
-  turtle.color("yellow")
+  turtle.color("orange")
   turtle.forward(50)
   
 #Activity 2
@@ -386,3 +446,4 @@ def mandala_flower():
     turtle.color(random.randint(0, 256),random.randint(0, 256), random.randint(0, 256))  
     figure_8()
 ```
+-->
