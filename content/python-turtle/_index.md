@@ -127,11 +127,11 @@ turtle.shape("turtle")
 
 ### HELP! Nothing shows up on the screen!
 
-If, after pressing **run**, you don't see anything on the screen, check to see if there is a **red x** beside the **console** tab (The **console** tab is right beside the **result** tab in the middle of the screen). If you do, you have encountered some errors! Please click the **console** tab and ask for help. Beware of the following when coding in python:
+If, after pressing **run**, you don't see anything on the screen, check to see if there is a **red x** beside the **console** tab (the **console** tab is right beside the **result** tab in the middle of the screen). If you do, you have encountered some errors! Please click the **console** tab and ask for help. Beware of the following when coding in python:
 
 1.	Do not use any capital letters.
 2.	Make sure that that none of the lines you have written so far start with any spaces.
-3.	Ensure that the color that you have chosen is surrounded in quotation marks, and that the color is between the parentheses in `turtle.color()`.
+3.	Ensure that the name of the color that you have chosen is surrounded in quotation marks, and that the color is between the parentheses in `turtle.color()`.
 
 {{% /notice %}}
 
@@ -213,7 +213,7 @@ A function is a way to group together lines of code to do something. For instanc
 
 {{% /notice %}}
 
-Here is an example of a function, and how we would use it:
+Here is an example of a **function definition**, and how we would use it:
 
 ```
 def draw_line():
@@ -221,7 +221,14 @@ def draw_line():
   turtle.left(120)
 ```
 
-The first line is called the function definition header. The `def` keyword tells the computer that we are defining a new function. Next, we give the function a name, in this case `draw_line`. In the parentheses `()` we would normally define **parameters** for the function. For now, we will leave it as `()`. Finally, don't forget the `:` at the end of the line, which tells the computer that we are starting the function body.
+The first line is called the function definition **header**. The `def` keyword tells the computer that we are defining a new function. Next, we give the function a name, in this case `draw_line`. Finally, don't forget the `():` at the end of the line, which tells the computer that we are starting the function body.
+
+{{% notice tip %}}
+
+### Extra material - parameters
+Inside the parentheses `()` we would normally define **parameters** for the function. Parameters are inputs that we can give into the function, which the function can use to produce its output. For example, we must have two numbers to add them together and produce a result - the two numbers we used can be considered **parameters**. Today, we will not use parameters, and leave it as `()`. 
+
+{{% /notice %}}
 
 Similar to a for-loop, anything that we wish to define within the function needs to be preceded by 2 spaces.
 
@@ -239,9 +246,10 @@ This is called a **function call** for the `draw_line()` function. A function ca
 
 {{% notice info %}}
 
-### Tip
+### Tips
 
-Always make sure the names of your functions are descriptive enough to explain what the code in the function does. 
+1. Always make sure the names of your functions are descriptive enough to explain what the code in the function does. 
+2. Your function call must be below the function definition.
 
 {{% /notice %}}
 
@@ -299,11 +307,11 @@ turtle.pendown()
 
 ### Tip
 
-The `x` and  `y` in the `turtle.goto()` method are the `x` and `y` coordinates of the turtle. We want to change the `x`, `y` coordinates of the turtle from `(0, 0)` which is the default top-left corner, to somewhere a little farther away so that the mandala flower doesn’t cover up part of the honeycomb.
+The `x` and  `y` in the `turtle.goto()` method are the `x` and `y` coordinates of the turtle. We want to change the `x`, `y` coordinates of the turtle from `(0, 0)` which is center of the image, to somewhere a little farther away so that the mandala flower doesn’t cover up part of the honeycomb.
 
 {{% /notice %}}
 
-To complete this activity, move the turtle to position (300, 300) on the canvas.
+To complete this activity, move the turtle to position (300, 300) on the canvas. This will move it to the top-right corner.
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonWithTurtleActivity6?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
@@ -374,7 +382,6 @@ Congratulations! You helped Alex make a honeycomb and a flower! He can now happi
 If there is any time left, try drawing your own shapes and designs! Make your picture interesting using various shapes and colors.
 
 Click [here](https://repl.it/languages/python_turtle) to open a new blank repl.it window to start on your creation.
-
 
 <!--
 ## Help, I am stuck!
