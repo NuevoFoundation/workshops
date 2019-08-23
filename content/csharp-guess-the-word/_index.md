@@ -6,7 +6,7 @@ prereq: "None"
 difficulty: "Intermediate"
 download: ""
 draft: false
-icon: "fas fa-code"
+icon: "fas fa-question-circle"
 ---
 
 # Starting Up
