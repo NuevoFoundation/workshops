@@ -6,6 +6,7 @@ prereq: ""
 difficulty: "Beginner"
 download: ""
 image: ""
+icon: "fab fa-python"
 draft: false
 ---
 
@@ -13,7 +14,7 @@ draft: false
 
 # Introduction
 
-Welcome to the Nuevo Beehive! You are right on time to help our new baby bee Alex. 
+Welcome to the Nuevo Beehive! You are right on time to help our new baby bee Alex.
 
 ![animation of baby bee Alex](https://media1.giphy.com/media/ozjz5omKqJYex8CaDV/giphy.gif)
 
@@ -52,6 +53,7 @@ The gray line that starts with `#` is called a **comment**. These are notes in t
 {{% /notice %}}
 
 ## Introduction - Drawing a colored line
+
 
 Before Alex can learn how to create a beehive, he must first learn how to draw a colored line. We will do this in two parts.
 

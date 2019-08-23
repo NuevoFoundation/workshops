@@ -10,7 +10,7 @@ draft: true
 
 1. **Download the required files.** <link_here>
 
-The template contains the following files:  
+The template contains the following files:
 
 - phaser.min.js, the Phaser framework v2.4.3.
 - index.html, where the game will be displayed.
@@ -31,9 +31,9 @@ Variables are simply names that we can give to values such as strings, numbers a
 For example:
 
 ```js
-var world = "Hello World";  
+var world = "Hello World";
 var x = 88;
-var happy = true;  
+var happy = true;
 ```
 
 You can also change the value that a name references like this:
@@ -45,7 +45,7 @@ x = 10;
 
 In this example, the variable `x` is first assigned to 4, then it's reassigned to 10.
 
-The code below creates a new Phaser Game object and stores it in a variable to use for our game.  
+The code below creates a new Phaser Game object and stores it in a variable to use for our game.
 
 ```js
 var game = new Phaser.Game(800, 600);
@@ -61,11 +61,11 @@ For example:
 
 ```js
 if (isRainingOutside == true) {
-    takeUmbrella = true;
+  takeUmbrella = true;
 }
 ```
 
-Inside the `()` beside `if`, you should specify a *Boolean expression*. **Booleans** are `true` or `false` statements. We can utilize this in our if statement. If the expression is `true`, the code inside `{ }` is executed.
+Inside the `()` beside `if`, you should specify a _Boolean expression_. **Booleans** are `true` or `false` statements. We can utilize this in our if statement. If the expression is `true`, the code inside `{ }` is executed.
 
 We can also use Boolean expressions to check if a number is in a specific range:
 
@@ -75,12 +75,13 @@ You can also connect **Boolean expressions** together using the `&&` (AND) and t
 
 ![alt text](resources/_gen/images/statements.png "statements")
 
-`&&` requires both *Boolean expressions* to be `true`, while `||` only requires one of the two *Boolean expressions* to be `true`.  
+`&&` requires both _Boolean expressions_ to be `true`, while `||` only requires one of the two _Boolean expressions_ to be `true`.
 
 For example:
 
 ```js
 // produces true since both 5 is less than 8 and 9 is not equal to 10.
+
 (1 < 100) && (5 != 10)
 
 // produces true since at least one of the expressions results in true
@@ -89,11 +90,12 @@ For example:
 
 #### Open `Activity 1.js` where you'll be adding a conditional that checks that the bird in between the top of the screen (y = 0) and the bottom of the screen (y = 490)!
 
+
 ## Activity 2: Lets now add a function to that causes the bird to jump
 
 ### Functions
 
-**A function can be thought of as a task.** Some tasks are short and simple like adding `1 + 1` or saying `‘Hello World!’`. Functions can be used to run the same tasks multiple times. In this case, we’ll be writing a function to make the bird jump!  
+**A function can be thought of as a task.** Some tasks are short and simple like adding `1 + 1` or saying `‘Hello World!’`. Functions can be used to run the same tasks multiple times. In this case, we’ll be writing a function to make the bird jump!
 
 “Jumping” in this game is just changing the bird’s *y position*.
 
@@ -174,3 +176,4 @@ What we want to do is skip creating the obstacle **`if`** the `i` in the loop is
 Currently, the wall is made by adding a pipe to the screen each time the loop runs. Try a conditional around `addOnePipe` in the loop that'll cause `addOnePipe` to only run when `i` is not the same number as hole.
 
 Now that you've done these activities, you should have a working game! See how high of a score you can get!
+
