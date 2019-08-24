@@ -6,7 +6,6 @@ prereq: ""
 difficulty: "Beginner"
 download: ""
 image: ""
-icon: "fab fa-python"
 draft: false
 ---
 
@@ -14,7 +13,7 @@ draft: false
 
 # Introduction
 
-Welcome to the Nuevo Beehive! You are right on time to help our new baby bee Alex.
+Welcome to the Nuevo Beehive! You are right on time to help our new baby bee Alex. 
 
 ![animation of baby bee Alex](https://media1.giphy.com/media/ozjz5omKqJYex8CaDV/giphy.gif)
 
@@ -53,7 +52,6 @@ The gray line that starts with `#` is called a **comment**. These are notes in t
 {{% /notice %}}
 
 ## Introduction - Drawing a colored line
-
 
 Before Alex can learn how to create a beehive, he must first learn how to draw a colored line. We will do this in two parts.
 
@@ -169,19 +167,19 @@ for i in range(3):
   turtle.left(120)
 ```
 
-Let’s understand what this code does. `for i in range(3):` This statement tells the program to run the instructions in a loop. `range(3)` sets a limit to how many times the loop rus (in this case, 3 times). The letter `i` is called a **variable**. It is used to keep track of how many times we have run the contents of the loop.
+Let’s understand what this code does. `for i in range(3):` This statement tells the program to run the instructions in a loop. `range(3)` sets a limit to how many times the loop rus (in this case, 3 times). The letter `i` is called a **variable**. It is used to keep track of how many times we have run the contents of the loop. 
 
 {{% notice warning %}}
 
 ### Tricky Python syntax - Part 1
 
-**Syntax** is how we write languages so that it is understandable. In English we have spelling and grammar rules to help understand each other. Similary, the Python language has syntax rules so that the computer can understand our code.
+**Syntax** is how we write languages so that it is understandable. In English we have spelling and grammar rules to help understand each other. Similarly, the Python language has syntax rules so that the computer can understand our code.
 
 First, notice that at the end of the line with `for`, we added a colon (`:`); this signifies that the next line will be part of the `for` loop. The computer will complain if you miss the `:`!
 
-As well, we added extra spaces in front of some lines of code in the example above. The spaces tell the computer these statements are considered a part of the `for` loop. 
+As well, we added a tab in front of some lines of code in the example above. The tab tells the computer these statements are considered a part of the `for` loop. 
 
-To see how big of a difference this makes, take a look at the below code. Because we removed the spaces in front of `turtle.left(120)`, the code will no longer work as expected. Now, we only repeat `turtle.forward(50)` three times, and we get a straight line instead!
+To see how big of a difference this makes, take a look at the below code. Because we removed the tab in front of `turtle.left(120)`, the code will no longer work as expected. Now, we only repeat `turtle.forward(50)` three times, and we get a straight line instead!
 
 ```
 for i in range(3):
@@ -232,7 +230,7 @@ Inside the parentheses `()` we would normally define **parameters** for the func
 
 {{% /notice %}}
 
-Similar to a for-loop, anything that we wish to define within the function needs to be preceded by 2 spaces.
+Similar to a for-loop, anything that we wish to define within the function needs to be preceded by 1 tab.
 
 If you press **run** with just this code, you will notice that you won't see any output! We've only created the functions, but we need to use them. To use the function we created, type in `draw_line()` again, but without the `def`. 
 
@@ -269,7 +267,7 @@ def draw_line():
     turtle.forward(50)
 ```
 
-Notice that `turtle.forward(50)` has 4 spaces in front of it, because it is both inside of a function definition, and inside of a `for`-loop!
+Notice that `turtle.forward(50)` has 2 tabs in front of it, because it is both inside of a function definition, and inside of a `for`-loop!
 
 {{% /notice %}}
 
@@ -284,6 +282,12 @@ So, let’s try that out by making our own `draw_hexagon()` function! Remember t
 This is the finale! Let's create the honeycomb that Alex will live in. Fortunately, a honeycomb is simply 6 hexagons, so let's combine our knowledge of functions and loops to make our honeycomb! 
 
 In this activity, create a new function called `draw_honeycomb()`. Inside the function body, create a loop that repeats 6 times. Inside the loop we have to first draw a hexagon using our `draw_hexagon()` function we previously defined. Next, move the turtle so it can draw the next hexagon. To do so, after the turtle draws each hexagon, we need to tell our turtle to move forward **50 pixels** and then turn right **60 degrees**. 
+
+Note that the drawing of the honeycomb may take a while. You can change how fast the turtle draws the mandala flower by setting the turtle's speed to a number between 1 and 10, 1 being the slowest and 10 being the fastest. Place this code near where we change the color of the turtle.
+
+```
+  turtle.speed(8)
+```
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonWithTurtleActivity5?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
@@ -391,12 +395,21 @@ Click [here](https://repl.it/languages/python_turtle) to open a new blank repl.i
 Stuck? Check the Answer key for the activity that you are stuck on!
 
 ```
-# Activity 1
+#The below 3 lines are needed for the introduction activity and all the other activities as well.
+
+import turtle
+turtle.color("orange")
+turtle.shape("turtle")
+
+# Introduction activity
 def draw_line():
   turtle.color("orange")
   turtle.forward(50)
-  
-#Activity 2
+#TODO: Uncomment the below line to call the draw_line() function so that it runs
+#remember to comment it back out again before going to the next part!
+#draw_line()
+
+#Activity 1
 def draw_square():
   turtle.color("red")
   turtle.forward(50)
@@ -408,51 +421,89 @@ def draw_square():
   turtle.forward(50)
   turtle.left(90)
 
+#TODO: Uncomment the below line to call the draw_square() function so that it runs
+#remember to comment it back out again before going to the next part!
+#draw_square()
+
+#Activity 2
 def draw_square_using_for_loop():  
   turtle.color("red")
   for i in range(4):
     turtle.forward(50)
     turtle.left(90)
 
-# Activity 3
+#TODO: Uncomment the below line to call the draw_square_using_for_loop() function so that it runs
+#remember to comment it back out again before going to the next part!
+#draw_square_using_for_loop()
+
+#Activity 3
+def draw_hexagon():
+  for i in range(6):
+    turtle.color("orange")
+    turtle.forward(50)
+    turtle.left(60)
+    
+#TODO: Uncomment the below line to call the draw_square_using_for_loop() function so that it runs
+#remember to comment it back out again before going to the next part!   
+#draw_hexagon()
+
+# Activity 4
 def draw_hexagon():
   for i in range(6):
     draw_line()
     turtle.left(60)
+    
+#TODO: Uncomment the below line to call the draw_hexagon() function so that it runs
+#remember to comment it back out again before going to the next part!
+#draw_hexagon()
 
-# Activity 4
+# Activity 5
 def draw_honeycomb():
   for i in range(6):
     draw_hexagon()
     turtle.forward(50)
     turtle.right(60)
 
-# Activity 5
+#TODO: Uncomment the below line to call the draw_honeycomb() function so that it runs
+#remember to comment it back out again before going to the next part!
+#draw_honeycomb()
+
+# Activity 6
 turtle.penup()
 turtle.goto(300, 300)
 turtle.pendown()
 
-# Activity 6
+# Activity 7
 def figure_8():
   turtle.circle(50)
   turtle.circle(-50)
   turtle.left(10)
 
-# Activity 7
+#TODO: Uncomment the below line to call the figure_8() function so that it runs
+#remember to comment it back out again before going to the next part!
+#figure_8()
+
+# Activity 8
 def mandala_flower():
   for i in range(35):
     figure_8()
+    
+#mandala_flower()
 
-# Activity 8
+# Activity 9
 def mandala_flower():
   turtle.color(30, 100, 160)
   for i in range(35):
     figure_8()
+    
+#mandala_flower()
 
-# Activity 9
+# Activity 10
 def mandala_flower():
   for i in range(35):
     turtle.color(random.randint(0, 256),random.randint(0, 256), random.randint(0, 256))  
     figure_8()
+
+#mandala_flower()
 ```
 -->
