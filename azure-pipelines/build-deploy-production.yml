@@ -12,10 +12,10 @@ pool:
 steps:
   - template: hugo-build.yml
     parameters:
-      hugo_config_baseUrl: "https://nuevofoundationtest.z5.web.core.windows.net/"
+      hugo_config_baseUrl: "https://workshops.nuevofoundation.org"
   - task: AzureCLI@1
     inputs:
-      azureSubscription: "Visual Studio Enterprise(ad369abf-bdf9-4963-ae6a-610621055a13)"
+      azureSubscription: "$(AZURE_SUBSCRIPTION)"
       scriptLocation: "inlineScript"
       inlineScript: "az storage copy --source-local-path 'public/*' --recursive --destination-account-name $AZURE_STORAGE_ACCOUNT --destination-container '$web'"
     env:
