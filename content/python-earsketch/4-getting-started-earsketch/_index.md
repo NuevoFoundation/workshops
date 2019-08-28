@@ -10,19 +10,17 @@ EarSketch is a free educational programming environment developed at Georgia Ins
 1.  To make music, click on
     [EarSketch](https://earsketch.gatech.edu/earsketch2/) to open it in a new tab.
     
-{{% notice info %}} 
-
-### Recommended for Teachers 
-Please take a look at overview of EarSketch before you start with the class. It is important to know how to navigate back and forth in the UI.
-
-{{% /notice %}}
-
 2.  Now, let's get started. Click on **Scripts**
-    ![](img/icon-scripts.PNG) icon on the left menu bar and
+    ![](img/icon-scripts.png#thumbnail) icon on the left menu bar and
     select *Create a new script*. When prompted to enter the script
     name, enter *myjam* and click on *Create* button.
     ![](gif/createanewcript.gif)
 3.  Do not delete any of the pre-existing code! We will insert our code in between them.
+
+{{% notice info %}} 
+
+### Recommended for Teachers 
+Please take a look at overview of EarSketch before you start with the class. It is important to know how to navigate back and forth in the UI.
 
 **Overview of EarSketch**
 
@@ -43,3 +41,5 @@ API and an example on how to use the API. The second icon
 will use a couple of these in the coming sections.
 
 5. The last icon in the above picture shows the **Curriculum** guide. If you want to know more about EarSketch, you can explore the section that appears on the right side of the window when you click on it. We will skip this section for this exercise.
+
+{{% /notice %}}
