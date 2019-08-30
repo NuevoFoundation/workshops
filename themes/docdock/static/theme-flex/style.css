@@ -718,7 +718,9 @@ ul.children.children-card > span {
   min-width: 250px;
   margin: 1rem 1rem;
   border: 0.1rem solid #ccc;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 0px 13px 0px rgba(0, 0, 0, 0.2),
+    0 6px 5px 0 rgba(0, 0, 0, 0.19);
+  /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); */
 }
 ul.children.children-card > span card {
   margin: 0px 0px;
