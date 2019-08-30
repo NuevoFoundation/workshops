@@ -17,7 +17,7 @@ steps:
     inputs:
       azureSubscription: 'Azure Nuevo Foundation'
       scriptLocation: 'inlineScript'
-      inlineScript: 'az storage copy --source-local-path ''public/*'' --recursive --destination-account-name $AZURE_STORAGE_ACCOUNT --destination-container ''$web'''"
+      inlineScript: "az storage copy --source-local-path 'public/*' --recursive --destination-account-name $AZURE_STORAGE_ACCOUNT --destination-container '$web'"
     env:
       AZURE_STORAGE_ACCOUNT: $(AZURE_STORAGE_ACCOUNT)
       AZURE_STORAGE_KEY: $(AZURE_STORAGE_KEY)
