@@ -7,6 +7,7 @@ difficulty: "Beginner, Intermediate, or Advanced"
 download: "URL to GitHub folder goes here"
 icon: "fab fa-android"
 draft: true
+hidden: true
 ---
 
 # Tic-Tac-Toe
