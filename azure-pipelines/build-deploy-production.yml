@@ -12,11 +12,11 @@ pool:
 steps:
   - template: hugo-build.yml
     parameters:
-      hugo_config_baseUrl: "https://workshops.nuevofoundation.org"
+      hugo_config_baseUrl: "$(PRODUCTION_URL)"
   - task: AzureCLI@1
     inputs:
-      azureSubscription: "$(AZURE_SUBSCRIPTION)"
-      scriptLocation: "inlineScript"
+      azureSubscription: 'Azure Nuevo Foundation'
+      scriptLocation: 'inlineScript'
       inlineScript: "az storage copy --source-local-path 'public/*' --recursive --destination-account-name $AZURE_STORAGE_ACCOUNT --destination-container '$web'"
     env:
       AZURE_STORAGE_ACCOUNT: $(AZURE_STORAGE_ACCOUNT)
