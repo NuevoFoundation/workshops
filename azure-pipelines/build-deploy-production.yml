@@ -12,7 +12,7 @@ pool:
 steps:
   - template: hugo-build.yml
     parameters:
-      hugo_config_baseUrl: "https://workshops.nuevofoundation.org"
+      hugo_config_baseUrl: "$(PRODUCTION_URL)"
   - task: AzureCLI@1
     inputs:
       azureSubscription: "$(AZURE_SUBSCRIPTION)"
