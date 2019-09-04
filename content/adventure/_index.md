@@ -116,11 +116,11 @@ Nuevo Foundation
 Nuevo Foundation
 Nuevo Foundation
 
-{{% alert theme="info" %}} Hint: The strings that you combine do not have to be real words! For example, "Ap" + "ple" will produce the string "Apple". \*\*Ask for help if you are confused {{% /alert %}}
+{{% alert theme="info" %}} Hint: The strings that you combine do not have to be real words! For example, "Ap" + "ple" will produce the string "Apple". Ask for help if you are confused {{% /alert %}}
 
 ## Variables
 
-**Variables** are simply names that we can give to values such as strings, numbers, and booleans. Here’s how to make a variable named s. We says is a string that has the value "Hello, World!". Can you describe the following variables?
+**Variables** are simply names that we can give to values such as strings, numbers, and booleans. Here’s how to make a variable named s. We say s is a string that has the value "Hello, World!". Can you describe the following variables?
 
     s = "Hello, World!"
     x = 88
@@ -142,7 +142,7 @@ You can also do the following to print strings together while adding spaces in b
     str2 = "Nuevo Foundation"
     print(str1, str2)
 
-## Actiivty 2
+## Activity 3
 
 - Create two new variables: A variable named **comp** that stores the string **"Computer"**.
 - A variable named **five** that stores the number **5**.
@@ -177,7 +177,7 @@ This is because the program is waiting for you to type something in. Enter your 
 
 {{% alert theme="info" %}} Note: Even if we type in a number, such as 8, the variable value will contain the string "8". Be careful when attempting to do math on input variables! {{% /alert %}}
 
-## Acitivty 4
+## Activity 4
 
 Let’s see if we can write a program that first prints the following two lines to console:
 
@@ -232,7 +232,7 @@ A real-life example is if I’m hungry, I’ll eat. But if I’m not hungry, I w
 
 ![#Can't find image](Nuevo_Images/hungry.png)
 
-## Activity 2
+## Activity 5
 
 Let’s put it all together! Let’s see if we can create a program that takes prompts the user for their name. The user can write their name into the console. Then the computer can decide if their name is equal to your name, print out a response. Else, print out a different response!
 
