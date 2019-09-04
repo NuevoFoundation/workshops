@@ -15,13 +15,15 @@ The goal of today's activity is to learn C# skills and incorporate your new-foun
 
 Open your favorite internet browser (such as Edge, Firefox, Google Chrome, Internet Explorer), and go to [https://aka.ms/nuevoguesstheword](https://aka.ms/nuevoguesstheword). Your screen should look like this:
 
-![repl.it main screen](media/Picture3.png)
+![repl.it main screen](media/welcome-screen.png)
 
-We will ignore some of the details on this screen, but we will go over some of the basics that show up. The main.cs file contains code, or instructions for the computer to run. By pressing the **run** button, you tell the computer to perform the instructions in the code. Any results from running the code will be displayed on the right side, called the console.
+We will ignore some of the details on this screen, but we will go over some of the basics that show up. The `main.cs` file contains code, or instructions for the computer to run. By pressing the **run** button, you tell the computer to perform the instructions in the code. Any results from running the code will be displayed on the right side, called the **console**.
 
 If you press **run** now, you will see that nothing happens! Your job is to help Nuvi complete the code for this game!
 
-Click the Fork button to create a copy of the code for yourself to work on. Any activities under the **Activity** sections will be done in this browser tab. You will do these activities on your own, but help is available when you are stuck.
+Click the **fork** button to create a copy of the code for yourself to work on. Any activities under the **Activity** sections will be done in this browser tab. You will do these activities on your own, but help is available when you are stuck.
+
+![repl.it fork button](media/fork-picture.png)
 
 # The Basics
 
@@ -38,7 +40,7 @@ Click the Fork button to create a copy of the code for yourself to work on. Any 
 3.  Add another `Console.WriteLine` below the current line to print a second sentence below the first sentence.
 4.  Press **run** to see if two sentences are printed out. If you see any red text, please ask for help.
 
-<iframe height="400px" width="100%" src="https://repl.it/@OliverZhang1/NF-CSharp-WritingToConsole?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/NF-CSharp-WritingToConsole?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 {{% /notice %}}
 
@@ -84,7 +86,7 @@ To remove a comment (or uncomment a line), simply delete the `//` for a single-l
 2. Delete the `//` and instead, surround `Console.WriteLine("Hello World");` with `/*` and `*/`. Check that `Hello World` is still not printed to the console after pressing **run**.
 3. Delete both `/*` and `*/`, and press **run**. `Hello World` should now be printed to the console.
 
-<iframe height="400px" width="100%" src="https://repl.it/@OliverZhang1/NF-CSharp-WritingToConsole?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/NF-CSharp-WritingToConsole?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 Throughout today's activity you will see various multi-line comments and `// TODO` comments. These comments will guide us towards completing the Guess the Word game, so be sure you understand how to comment and uncomment code.
 
@@ -109,7 +111,7 @@ You can combine many strings together using the `+` operator. For example:
 - `"Apple" + "Pineapple"` produces the string `"ApplePineapple"`.
 - `"Nuevo" + " " + "Foundation"` produces the string `"Nuevo Foundation"`.
 
-![Combining strings with +](media/Picture4.png)
+![Combining strings with +](media/strings-intro.png)
 
 {{% notice tip %}}
 
@@ -127,7 +129,7 @@ Nuevo Foundation
 Nuevo Foundation
 ```
 
-<iframe height="400px" width="100%" src="https://repl.it/@OliverZhang1/NF-CSharp-Strings?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/NF-CSharp-Strings?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 {{% /notice %}}
 
@@ -150,7 +152,7 @@ Console.WriteLine(5 + 4);
 Console.WriteLine(6 * (9 - 7) / 3);
 ```
 
-![Printing numbers](media/Picture5.png)
+![Printing numbers](media/numbers-intro.png)
 
 Here is the full list of math symbols that you can use:
 
@@ -178,7 +180,7 @@ Try printing out the answers to the following to the console. Ensure your bracke
 - `(3 + 5) * 6`
 - `(13 + 5 * 8) / (6 - (3 + 7))`
 
-<iframe height="400px" width="100%" src="https://repl.it/@OliverZhang1/NF-CSharp-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/NF-CSharp-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 {{% /notice %}}
 
@@ -216,7 +218,7 @@ Console.WriteLine(10 < 8);
 Console.WriteLine((3 * 6) == (32 - 14));
 ```
 
-![Printing numbers](media/Picture6.png)
+![Printing booleans](media/booleans-intro.png)
 
 {{% notice tip %}}
 
@@ -229,7 +231,7 @@ Try guessing the answers to the following expressions. Use `Console.WriteLine` t
 - `"Hello" + "World" == "Hello World"`
 - `false == false`
 
-<iframe height="400px" width="100%" src="https://repl.it/@OliverZhang1/NF-CSharp-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/NF-CSharp-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 {{% /notice %}}
 
@@ -252,7 +254,7 @@ To summarize, `&&` requires both Boolean expressions to be true, while `||` only
 - `(8 <= 2) || ("h" + "e" == "he")` produces `true` since `"h" + "e"` results in `"he"`, even though `8` is not less than or equal to `2`.
 - `(6 != 2 * 3) || (8 < 2 * 4)` produces `false` since both `6` not equal to `2 * 3`, and `8` not being less than `2 * 4`, produce `false`.
 
-![Combining booleans](media/Picture7.png)
+![Combining booleans](media/booleans-advanced.png)
 
 {{% notice tip %}}
 
@@ -263,7 +265,7 @@ Try guessing the answers to the following expressions. Use `Console.WriteLine` t
 - `(9 < 10) && (12 => 11)`
 - `(15 - 2 == 11) || (4 % 3 != 2)`
 
-<iframe height="400px" width="100%" src="https://repl.it/@OliverZhang1/NF-CSharp-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/NF-CSharp-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 {{% /notice %}}
 
@@ -279,7 +281,11 @@ var x = 88;
 var happy = true;
 ```
 
-Press **run**. Note that variables are not printed out to the console. Instead, the variable simply stores the string or number or boolean into the computer's memory. We can use these variables in other statements. For example, the following code would print `Hello Nuevo Foundation` to the console:
+Press **run**. Note that variables are not printed out to the console. Instead, the variable simply stores the string or number or boolean into the computer's memory. 
+
+![Variables introduction](media/variables-intro.png)
+
+We can use these variables in other statements. For example, the following code would print `Hello Nuevo Foundation` to the console:
 
 ```csharp
 var str1 = "Hello";
@@ -287,7 +293,7 @@ var str2 = "Nuevo Foundation";
 Console.WriteLine(str1 + " " + str2);
 ```
 
-![Variables 1](media/Picture8.png)
+![Variables with strings](media/variables-strings.png)
 
 You can change the value of a variable at any time by using the `=` operator again. If you're changing a value of a variable, you don't need to use `var` again. In the following example, `Hola` will be printed instead of `Hello`.
 
@@ -297,7 +303,7 @@ str = "Hola";
 Console.WriteLine(str);
 ```
 
-![Variables 2](media/Picture9.png)
+![Variables replacing values](media/variables-replace.png)
 
 Here's another example: `10` will be printed instead of `9`.
 
@@ -307,7 +313,7 @@ num = num + 1;
 Console.WriteLine(num);
 ```
 
-![Variables 3](media/Picture10.png)
+![Variables with numbers](media/variables-numbers.png)
 
 Note that you CANNOT replace a string variable with a number or a boolean, and similarly for other combinations. The following example code will NOT work:
 
@@ -316,7 +322,7 @@ var happy = "Hello";
 happy = 9;
 ```
 
-![Variables 4](media/Picture11.png)
+![Variables invalid](media/variables-invalid.png)
 
 Another way to declare variables is to replace var with the type (`string`, `int`, `bool`) of variable you are creating. By declaring the type explicitly, you avoid the problem that we see above. For example:
 
@@ -350,7 +356,7 @@ ComputerComputerComputer
 15
 ```
 
-<iframe height="400px" width="100%" src="https://repl.it/@OliverZhang1/NF-CSharp-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/NF-CSharp-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 {{% /notice %}}
 
@@ -396,11 +402,11 @@ Console.WriteLine("You typed in: " + input);
 
 When the user presses **run**, the user is greeted with the following program:
 
-![Reading 1](media/Picture12.png)
+![Reading from input before typing in input](media/reading-input-1.png)
 
 In this case, after the user types in `Hello World!` into the console, the program finishes outputting to the console:
 
-![Reading 2](media/Picture13.png)
+![Reading from input after typing in input](media/reading-input-2.png)
 
 {{% notice tip %}}
 
@@ -422,7 +428,7 @@ I don't know the answer to that! Goodbye!
 
 `[input]` should be replaced with whatever the user had typed into the console.
 
-<iframe height="400px" width="100%" src="https://repl.it/@OliverZhang1/NF-CSharp-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/NF-CSharp-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 {{% /notice %}}
 
@@ -482,7 +488,7 @@ if (myNum == 11)
 
 Inside the `()` beside `if`, you should specify a boolean expression. If the expression is `true`, the code inside `{ }` is executed. In this case, since `myNum` is equal to `11`, `They are equal!` is printed.
 
-![If-else 1](media/Picture14.png)
+![If-else true case](media/if-true.png)
 
 If the condition is `false`, nothing happens! For example, since `10` is not greater than `11`, `Print me!` will not show up to the console.
 
@@ -494,7 +500,7 @@ if (happy > 11)
 }
 ```
 
-![If-else 2](media/Picture15.png)
+![If-else false case](media/if-false.png)
 
 Use `else` to tell the computer what to do if the condition is false. In this example, `now I got printed instead!` will be printed to the console.
 
@@ -510,7 +516,7 @@ else
 }
 ```
 
-![If-else 3](media/Picture16.png)
+![If-else](media/if-else.png)
 
 You can chain many cases together using `else if`. Note that when using `else if`, only the first case will be evaluated. For example, in the following code snippet, `Statement` 1 will be printed. We will skip the check that `sad == 4` and `Statement 2` will not be printed, even though `sad == 4` is `true`.
 
@@ -530,7 +536,7 @@ else
 }
 ```
 
-![If-else 4](media/Picture17.png)
+![If-else three statements](media/if-three.png)
 
 You can also place `if` statements inside other `if` statements for some interesting behavior:
 
@@ -550,7 +556,7 @@ if (num1 < num2)
 }
 ```
 
-![If-else 5](media/Picture18.png)
+![If-else nested](media/if-nested.png)
 
 {{% notice tip %}}
 
@@ -568,7 +574,7 @@ Afterwards, the console waits for user input.
 - If the user enters no, the computer prints out `Oh no, that's too bad!`.
 - Otherwise, the computer prints out: `I don't understand you! Goodbye!`.
 
-<iframe height="400px" width="100%" src="https://repl.it/@OliverZhang1/NF-CSharp-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/NF-CSharp-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 {{% /notice %}}
 
@@ -634,7 +640,7 @@ while (counter <= 5)
 
 Like an `if` statement, inside the `()` beside `while`, you should specify a boolean expression. If the expression is `true`, the code inside the curly braces `{ }` is executed. However, after everything inside the curly braces is executed, we go back to the top of the `while` loop and check the boolean expression again. If the boolean expression continues to be `true`, the loop will be repeated.
 
-![While 1](media/Picture19.png)
+![While 1](media/while-1.png)
 
 You can also place `if` statements in `while` loops to do some interesting behavior:
 
@@ -654,6 +660,8 @@ while (counter <= 10)
 }
 ```
 
+![While 2](media/while-2.png)
+
 Here is an example of an infinite loop - do you see what's wrong? What can you do so that the following piece of code prints `Spam!` only 100 times?
 
 ```csharp
@@ -663,8 +671,6 @@ while (counter > 0)
     Console.WriteLine("Spam!");
 }
 ```
-
-![While 2](media/Picture20.png)
 
 {{% notice tip %}}
 
