@@ -23,7 +23,8 @@
 
     {{ if not .Page.Lastmod.IsZero }}
     <div class="date">
-      <i class='fa fa-calendar'></i> {{T "last-update-on"}} {{ .Page.Lastmod.Format "02/01/2006" }}
+      <i class='fa fa-calendar'></i> {{T "last-update-on"}}
+      {{ .Page.Lastmod.Format "Mon, 02 Jan 2006 15:04:05 PDT"  }}
     </div>
     {{end}}
 
