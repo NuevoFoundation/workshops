@@ -594,7 +594,6 @@ h6:hover .anchor {
 }
 
 footer {
-  color: #aaa;
   font-size: 0.95rem;
   margin: 0 1rem 0 20rem;
   padding: 1rem 4rem;
@@ -606,7 +605,6 @@ footer .footline {
   /*border-top: 1px solid #e6e6e6;*/
   margin: 0rem;
   padding: 0;
-  font-size: smaller;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
