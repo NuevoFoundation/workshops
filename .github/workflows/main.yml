@@ -14,7 +14,7 @@ jobs:
         uses: peaceiris/actions-hugo@v0.57.2
         if: github.event.deleted == false
         with:
-          args: --gc --minify --cleanDestinationDir --baseUrl 'https://nuevofoundation.github.io/workshops/'
+          args: --gc --minify --cleanDestinationDir --baseUrl 'nuevofoundation.github.io/workshops/'
       - name: deploy
         uses: peaceiris/actions-gh-pages@v1.1.0
         if: success()
