@@ -138,19 +138,17 @@ element.addEventListener("submit", submitAction);
 ### Adding facts about Benji
 Using what you've just learned about Javascript, let's add some facts about Benji so people can learn more about him. 
 
-<!-- <iframe name="cp_embed_3" src="https://codepen.io/Sunny-Dee/embed/ywJggd?height=607&amp;theme-id=dark&amp;default-tab=html%2Cresult&amp;user=Sunny-Dee&amp;slug-hash=ywJggd&amp;pen-title=Contact%20Form&amp;name=cp_embed_3" scrolling="no" frameborder="0" height="607" allowtransparency="true" allowfullscreen="true" allowpaymentrequest="true" title="Contact Form" class="cp_embed_iframe " style="width: 100%; overflow:hidden; display:block;" id="cp_embed_ywJggd"></iframe> -->
-
 <iframe height="607" style="width: 100%;" scrolling="no" title="Information" src="//codepen.io/amarielo92/embed/mdbxNaq/?height=607&theme-id=dark&default-tab=html,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
 </iframe>
 
 <div class="exercise-box">
-  <h2>Challenge 1 - Writing a JavaScript function to delete items</h2>
+  <h2>Challenge 1 - Writing a JavaScript function to delete items.</h2>
   <ol>
-      <li>Open the web editor (click the "Try it yourself!" button below)</li>
-      <li>The function to create a list item about Benji has already been written</li>
-      <li>In the JS section of the web editor, try to create your own <code>deleteTask() function</code></li>
+      <li>Open the web editor (click the "Try it yourself!" button below).</li>
+      <li>The function to create a list item about Benji has already been written.</li>
+      <li>In the JS section of the web editor, try to create your own <code>deleteTask() function.</code></li>
       <li>You can use the <code>addTask()</code> function as a guide while creating your delete function.</li>
-      <li>If you get completely blocked, take a look at the sample <code>deleteTask()</code> at the bottom of the web editor in the JS section</li>
+      <li>If you get completely blocked, take a look at the sample <code>deleteTask()</code> at the bottom of the web editor in the JS section.</li>
   </ol>
   <a class="my-2 mx-4 btn btn-info" href="https://codepen.io/amarielo92/pen/mdbxNaq" target="_blank">Try it yourself!</a>
 </div>
