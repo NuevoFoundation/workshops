@@ -2,6 +2,7 @@
 title: "Web Developer Guidelines"
 date: 2019-07-22T14:08:32-07:00
 draft: false
+hidden: true
 ---
 
 This document is for **website developers only** for changing the [Nuevo Foundation workshop project](https://github.com/nuevoFoundation/workshops) templates and style.
@@ -17,11 +18,27 @@ Follow the instructions in the Project readme.md to install Git and Hugo to test
 ## Web design styles and structure
 
 - **Images:** Website images should be `themes/images`
-- **Workshop Page**: Use the single.html template in `themes/docdock/_default/layouts/single.html`
-- **List page**: Use the list.html template in `themes/docdock/_default/layouts/list.html`
-  Each workshop page has a set of partial pages that can be found in `themes/docdock/layouts`
-- **CSS Files**: This site uses SASS, with all files in `themes/docdock/static/scss/flex`
-- **Fonts**: `themes/docdock/static/scss/flex/fonts.scss`
-- **Top Navigation**: `themes/docdock/static/scss/flex/header.scss`
-- **Left navigation**: `themes/docdock/static/scss/flex/menu.scss`
-- **Shortcodes**: `themes/docdock/layouts/shortcodes` and `themes/docdock/static/scss/flex/*.scss` for SASS/CSS
+- **CSS** Ignore the SCSS files and just use CSS files in `/themes/docdock/static/css/` Make sure to add a reference to the CSS you want to include in the `head.html` file at `/themes/docdock/layouts/partials/flex/head.html`
+
+## Dissecting a Workshop Page
+
+- **Full page template**: To see all of the components of a page including header, menu, body, footer, see `/themes/docdock/layouts/_default/baseof.html`
+- **Head**: Meta, CSS, and JS files `/themes/docdock/layouts/partials/flex/head.html`
+- **Top / Menu Navigation**: Don't use docDock config.toml values, instead add/edit HTML in: `/themes/docdock/layouts/partials/flex/body-before-content.html`
+- **Left Menu**: `/themes/docdock/layouts/partials/flex/menu.html`
+- **Footer Navigation**: `/themes/docdock/layouts/partials/flex/body-after-content.html`
+- **Metadata Box**: `/themes/docdock/layouts/partials/flex/body-after-content.html`
+
+## Help, the CSS is gone
+
+One challenge with Hugo is that a key parameter in the build is the `baseURL` variable. If the content is loading, and the CSS is not, it's likely an issue with the `baseURL` setting.
+
+You can change the `baseURL` when building content instead of changing the config.toml file. The example below will minify the CSS and JS, set the baseURL to the production .org URL and copy the results to the `public` directory.
+
+`hugo --minify --baseURL "https://workshops.nuevofoundation.org/"`
+
+## Tips and Tricks
+
+- **Ignore Public**: By default, running `hugo` with no parameters will build the site to the public directory. Make sure you do not add the public directory to source control (it's in gitignore now).
+- **Left Nav**: You can hide content from the left nav by settting metadata on the file hidden: true (like this page's markdown!)
+- **Partials**: For resuable components to a page, create a new partial under `/themes/docdock/layouts/partials/flex/`.
