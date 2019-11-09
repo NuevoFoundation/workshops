@@ -2,7 +2,7 @@
 title: "Meet DJ Nuevo"
 description: "Set up headphones, check audio"
 date: 2019-07-23T11:45:38-07:00
-weight: 0
+weight: 1
 draft: false
 ---
 
