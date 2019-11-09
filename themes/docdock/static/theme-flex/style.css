@@ -643,7 +643,7 @@ div.notices p:first-child:before {
   top: -27px;
   color: #fff;
   font-family: FontAwesome;
-  content: "";
+  content: "";
   left: 10px;
 }
 
@@ -670,6 +670,10 @@ div.notices.tip p:first-child:after {
   content: "Tip";
 }
 
+div.notices.help p:first-child:after {
+  content: "Help";
+}
+
 div.notices.note {
   border-top: 30px solid #6bb1e0;
   background: #e6f3fb;
@@ -689,6 +693,12 @@ div.notices.tip {
 }
 
 div.notices.warning {
+  border-top: 30px solid #d58181;
+  background: #fbeded;
+  color: rgba(132, 56, 56, 0.995) !important;
+}
+
+div.notices.help {
   border-top: 30px solid #d58181;
   background: #fbeded;
   color: rgba(132, 56, 56, 0.995) !important;
