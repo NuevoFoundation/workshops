@@ -1,15 +1,13 @@
 ---
-title: "Workshops Homepage"
+title: "Nuevo Foundation Workshops"
 date: 2019-07-22T12:40:43-07:00
 draft: false
+hidemetadata: true
 ---
 
 ## Workshop Projects
 
-- [Website basics using HTML and CSS] (web-basics)
-- [C#] (csharp)
-- [Python: Create music using Earsketch] (python-earsketch)
-- [Example Project](example/)
+{{%workshop-list style="card" depth="1" showhidden="false" description="true" %}}
 
 ## Contributor guidelines
 

@@ -1,0 +1,381 @@
+@font-face {
+  font-family: "lato-semibold";
+  src: local("lato-semibold"), url(/fonts/Lato-Semibold.ttf) format("ttf");
+}
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+.col-lg-1,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-sm-1,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-xs-1,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12 {
+  padding-right: 0;
+  padding-left: 0;
+}
+.app-blur {
+  -webkit-filter: blur(1.2rem);
+  filter: blur(1.2rem);
+  opacity: 0.5;
+}
+.app-brightness {
+  -webkit-filter: brightness(60%);
+  filter: brightness(60%);
+}
+.flex-break {
+  flex-basis: 100%;
+  height: 0;
+}
+.footer-pics {
+  height: 50px;
+  margin-right: 20px;
+  color: #fff !important;
+  text-decoration: none;
+}
+.App-footer {
+  background-color: #29293c;
+  height: 260px;
+  color: #fff;
+  font-family: Lato, sans-serif;
+  text-align: center;
+}
+.App-footer-big {
+  font-size: 24px;
+  font-weight: 700;
+  padding-top: 50px;
+}
+.social-images {
+  padding: 25px;
+}
+.form-control {
+  border-radius: 5px;
+  box-shadow: #707070;
+}
+.button.btnStyle {
+  background-color: #fff;
+  border: 4px solid #fbc500;
+  color: "#000000";
+  height: "40px";
+  width: "160px";
+}
+.quote-text {
+  font-style: Segoe UI;
+  font-size: 36px;
+  font-weight: 400;
+}
+.vision-title {
+  font-style: Segoe UI;
+  font-size: 24px;
+  font-weight: 700;
+}
+.vision-left-text {
+  font-style: Segoe UI;
+  font-size: 36px;
+  font-weight: 400;
+  float: left;
+}
+.vision-right-text {
+  font-style: Segoe UI;
+  font-size: 24px;
+  font-weight: 400;
+  float: right;
+}
+.visual-visual-element-left {
+  height: 300px;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 50%;
+  font-size: 50px;
+  text-align: center;
+  float: left;
+}
+.visual-right-text {
+  font-style: Segoe UI;
+  font-size: 30px;
+  font-weight: 400;
+  float: right;
+}
+.mission-visual-left {
+  height: 370px;
+  width: 370px;
+  background-color: #010101;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+}
+.mission-text-right,
+.mission-title-right {
+  font-style: Segoe UI;
+  font-size: 30px;
+  font-weight: 400;
+  float: right;
+}
+.message-text {
+  font-style: Segoe UI;
+  font-size: 28px;
+  font-weight: 400;
+  text-align: center;
+}
+.bio {
+  margin: 25px;
+  font-family: Lato, sans-serif;
+  width: 700px;
+  padding: 40px 25px;
+  background: #d0e6e8;
+  font-size: 18px;
+  width: 550px;
+}
+.bioPic {
+  margin: auto;
+  display: block;
+  height: 180px;
+  width: 180px;
+}
+.bioWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.bioTextWrapper {
+  text-align: center;
+  margin-top: 32px;
+}
+.bioName {
+  font-size: 24px;
+  font-weight: 700;
+}
+.bioRole {
+  font-size: 16px;
+}
+.bioQuote {
+  font-size: 24px;
+  margin-top: 24px;
+}
+.bioText {
+  font-size: 16px;
+}
+.main-title {
+  padding: 20px;
+  font-weight: 700;
+}
+.main-title,
+.services {
+  display: flex;
+  color: #000;
+}
+.services {
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  background-color: #fcc600;
+  text-align: center;
+  padding-top: 1.875em;
+  padding-bottom: 1.875em;
+}
+.serviceDescription {
+  padding: 2.5em;
+  font-size: 1.25em;
+}
+.requestButton,
+.serviceDescription > h1 {
+  font-weight: 700;
+}
+.requestButton {
+  background-color: #fcc600;
+  color: #000;
+  border: 0.125em solid #fcc600;
+  padding: 0.625em;
+  border-radius: 0.313em;
+  font-size: 0.75em;
+}
+.logo > * {
+  margin-left: -2px;
+  font-weight: 700;
+  display: inline-block;
+  -webkit-animation-name: appear;
+  animation-name: appear;
+  -webkit-animation-duration: 0.01s;
+  animation-duration: 0.01s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.logo > :first-of-type {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.logo > :nth-of-type(2) {
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+}
+.logo > :nth-of-type(3) {
+  -webkit-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+.logo > :nth-of-type(4) {
+  -webkit-animation-delay: 1.7s;
+  animation-delay: 1.7s;
+}
+.logo > :nth-of-type(5) {
+  -webkit-animation-delay: 1.9s;
+  animation-delay: 1.9s;
+}
+.logo > :nth-of-type(6) {
+  -webkit-animation-delay: 2.1s;
+  animation-delay: 2.1s;
+}
+.logo > :nth-of-type(7) {
+  -webkit-animation-delay: 2.3s;
+  animation-delay: 2.3s;
+}
+.logo > :nth-of-type(8) {
+  -webkit-animation-delay: 2.5s;
+  animation-delay: 2.5s;
+}
+@-webkit-keyframes appear {
+  0% {
+    font-size: 0;
+  }
+  to {
+    font-size: 1em;
+  }
+}
+@keyframes appear {
+  0% {
+    font-size: 0;
+  }
+  to {
+    font-size: 1em;
+  }
+}
+.blink {
+  font-size: 1.5em;
+  font-weight: 400;
+  display: inline-block;
+  visibility: visible;
+  width: auto;
+  -webkit-animation-name: flash;
+  animation-name: flash;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-iteration-count: 5;
+  animation-iteration-count: 5;
+}
+@-webkit-keyframes flash {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes flash {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+#mobile-nav-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #fff;
+  color: #707070;
+  width: 66%;
+  height: 80vh;
+  z-index: 999;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.transition-in {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+.transition-out {
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+}
+.fa-times {
+  position: absolute;
+  right: 0;
+  margin-right: 40px;
+  margin-top: 10px;
+  font-size: 1.5em;
+}
+.close-btn {
+  margin-bottom: 4em;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "lato-semibold", sans-serif;
+}
+.jgBGVn span {
+  display: block;
+  margin-top: 5px;
+  border-top: 4px solid rgb(252, 198, 0);
+}

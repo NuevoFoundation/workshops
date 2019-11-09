@@ -6,5 +6,6 @@ prereq: "link to workshop markdown file"
 difficulty: "Beginner, Intermediate, or Advanced"
 download: "URL to GitHub folder goes here"
 image: "src to image"
+icon: "fas fa-code"
 draft: true
 ---

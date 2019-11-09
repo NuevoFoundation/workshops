@@ -6,6 +6,7 @@ prereq: "link to workshop markdown file"
 difficulty: "Beginner"
 download: "URL to GitHub folder goes here"
 draft: true
+hidden: true
 ---
 
 ## Hello World

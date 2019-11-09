@@ -1,5 +1,5 @@
 ---
-title: "Activity 8 - Organize your songs using functions"
+title: "Activity 3 - Organize your songs using functions"
 description: "Setting up headphones"
 weight: 8
 draft: false

@@ -22,25 +22,25 @@
 	{{- $pages := (.Scratch.Get "pages") }}
 
 	{{- if eq $sortTerm "Weight"}}
-	{{- template "childs" dict "menu" $pages.ByWeight "style" $style "showhidden" $showhidden "count" 1 "depth" $depth "pages" .Site.Pages "description" $withDescription "sortTerm" $sortTerm}}
+	{{- template "workshop-childs" dict "menu" .Site.Home.Sections.ByTitle "style" $style "showhidden" $showhidden "count" 1 "depth" $depth "pages" .Site.Pages "description" $withDescription "sortTerm" $sortTerm}}
 	{{- else if eq $sortTerm "Name"}}
-	{{- template "childs" dict "menu" $pages.ByTitle "style" $style "showhidden" $showhidden "count" 1 "depth" $depth "pages" .Site.Pages "description" $withDescription "sortTerm" $sortTerm}}
+	{{- template "workshop-childs" dict "menu" $pages.ByTitle "style" $style "showhidden" $showhidden "count" 1 "depth" $depth "pages" .Site.Pages "description" $withDescription "sortTerm" $sortTerm}}
 	{{- else if eq $sortTerm "PublishDate"}}
-	{{- template "childs" dict "menu" $pages.ByPublishDate "style" $style "showhidden" $showhidden "count" 1 "depth" $depth "pages" .Site.Pages "description" $withDescription "sortTerm" $sortTerm}}
+	{{- template "workshop-childs" dict "menu" $pages.ByPublishDate "style" $style "showhidden" $showhidden "count" 1 "depth" $depth "pages" .Site.Pages "description" $withDescription "sortTerm" $sortTerm}}
 	{{- else if eq $sortTerm "Date"}}
-	{{- template "childs" dict "menu" $pages.ByDate "style" $style "showhidden" $showhidden "count" 1 "depth" $depth "pages" .Site.Pages "description" $withDescription "sortTerm" $sortTerm}}
+	{{- template "workshop-childs" dict "menu" $pages.ByDate "style" $style "showhidden" $showhidden "count" 1 "depth" $depth "pages" .Site.Pages "description" $withDescription "sortTerm" $sortTerm}}
 	{{- else if eq $sortTerm "Length"}}
-	{{- template "childs" dict "menu" $pages.ByLength "style" $style "showhidden" $showhidden "count" 1 "depth" $depth "pages" .Site.Pages "description" $withDescription "sortTerm" $sortTerm}}
+	{{- template "workshop-childs" dict "menu" $pages.ByLength "style" $style "showhidden" $showhidden "count" 1 "depth" $depth "pages" .Site.Pages "description" $withDescription "sortTerm" $sortTerm}}
 	{{- else}}
-	{{- template "childs" dict "menu" $pages "style" $style "showhidden" $showhidden "count" 1 "depth" $depth "pages" .Site.Pages "description" $withDescription "sortTerm" $sortTerm}}
+	{{- template "workshop-childs" dict "menu" $pages "style" $style "showhidden" $showhidden "count" 1 "depth" $depth "pages" .Site.Pages "description" $withDescription "sortTerm" $sortTerm}}
 	{{end}}
 </ul>
 
 {{.Inner|safeHTML}}
 
-{{ define "childs" }}
+{{ define "workshop-childs" }}
 {{- range .menu }}
-{{- if and .Params.hidden (not $.showhidden) }}
+{{- if .Params.hidden }}
 {{- else}}
 
 <span>
@@ -54,13 +54,15 @@
 	{{- (printf "</h%d>" $numn)|safeHTML}}
 	{{- else}}
 	{{- (printf "<%s>" $.style)|safeHTML}}
+	<!-- icon -->
+	{{- with .Params.icon}}
+	<span><i aria-hidden="true" focusable="false" class="fab {{ . }}"></i></span>
+	{{- else }}
+	<span><i aria-hidden="true" focusable="false" class="fas fa-code"></i></span>
+	{{- end}}
 	<a href="{{.URL}}">{{ .Title }}</a>
 	{{- (printf "</%s>" $.style)|safeHTML}}
 	{{- end}}
-
-
-
-
 
 	{{- if $.description}}
 	{{- if .Description}}
