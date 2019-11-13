@@ -2,6 +2,8 @@
 title: "Python Basics"
 description: "basics of python"
 weight: 3
+prereq: "Python Basics"
+difficulty: "Beginner"
 draft: false
 ---
 # Python basics
@@ -10,6 +12,7 @@ To code music, we need to learn a little Python. Don't worry, it won't bite you.
 If you want to jump to a specific Python section, click on the topic
 below:
 
--   [Print & Comments](#print-comments)
--   [Functions](#functions)
+- [Print](../../python-basics/1-print)
+- [Comments](../../python-basics/2-comments)
+- [Functions](../../python-basics/3-functions)
 

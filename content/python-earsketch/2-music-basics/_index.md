@@ -3,6 +3,8 @@ title: "Music Basics"
 description: "basics of music"
 date: 2019-07-23T11:45:38-07:00
 draft: false
+prereq: "None"
+difficulty: "Beginner"
 weight: 2
 ---
 

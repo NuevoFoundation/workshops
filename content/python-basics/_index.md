@@ -10,3 +10,9 @@ weight: 1
 
 # Python basics
 
+1. [Print](1-print)
+2. [Comments](2-comments)
+3. [Functions](3-functions)
+4. [Help](10-help)
+
+
