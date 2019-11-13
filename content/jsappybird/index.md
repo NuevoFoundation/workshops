@@ -4,6 +4,7 @@ description: "Learn about variables, functions, and conditionals all while build
 date: 2019-07-23T10:42:43-07:00
 difficulty: "Beginner/Intermediate"
 draft: true
+hidden: true
 ---
 
 ![alt text](resources/_gen/images/flappy.png "JSappyBird")
@@ -82,14 +83,15 @@ For example:
 ```js
 // produces true since both 5 is less than 8 and 9 is not equal to 10.
 
-(1 < 100) && (5 != 10)
-
-// produces true since at least one of the expressions results in true
-(5 == 5) || (10 > 20)
+(1 < 100 &&
+  (5 != 10)(
+    // produces true since at least one of the expressions results in true
+    5 == 5
+  )) ||
+  10 > 20;
 ```
 
 #### Open `Activity 1.js` where you'll be adding a conditional that checks that the bird in between the top of the screen (y = 0) and the bottom of the screen (y = 490)!
-
 
 ## Activity 2: Lets now add a function to that causes the bird to jump
 
@@ -97,14 +99,14 @@ For example:
 
 **A function can be thought of as a task.** Some tasks are short and simple like adding `1 + 1` or saying `‘Hello World!’`. Functions can be used to run the same tasks multiple times. In this case, we’ll be writing a function to make the bird jump!
 
-“Jumping” in this game is just changing the bird’s *y position*.
+“Jumping” in this game is just changing the bird’s _y position_.
 
-#### Open `Activity 2.js` where we'll be adding a function called `jump`.**
+#### Open `Activity 2.js` where we'll be adding a function called `jump`.\*\*
 
-We can do that with this statement inside the `jump` function:  
+We can do that with this statement inside the `jump` function:
 
 ```js
-bird.body.velocity.y = -300
+bird.body.velocity.y = -300;
 ```
 
 The number can be adjusted depending on how high you want the bird to jump! Try changing the number to see differences to how high the bird jumps when you press the spacebar down.
@@ -136,7 +138,7 @@ For example
 ```js
 var sum = 0;
 for (var i = 0; i < 7; i += 1) {
-    sum = sum + 1;
+  sum = sum + 1;
 }
 ```
 
@@ -152,7 +154,7 @@ We can also use `i` in the code within the brackets:
 ```js
 var sum = 0;
 for (var i = 0; i < 7; i += 1) {
-    sum = i + 1;
+  sum = i + 1;
 }
 ```
 
@@ -161,14 +163,14 @@ This code performs the same operation, but uses `i` in the brackets.
 You can see a for loop in action here: <https://codepen.io/nayomitchell/pen/JgNoQe>! Try changing the numbers in the different statements.
 Can you figure out how to get the loop to **count down**?
 
-___
+---
 
 Now back to our game. The screen can fit 8 blocks on it, so we need a for loop that runs 8 times. In `Activity 3.js`, you'll need to add a for loop around the code that adds one obstacle on the screen.
 
 We have another problem now! The game is too hard since there's no way for your bird to get through!
 Let's add a gap in the wall of obstacles for your bird to fly through!
 
-___
+---
 
 Above the code you just edited, there's a variable called `hole`. This variable is a number between 1 and 6, which represent where the gap should be in the wall.
 What we want to do is skip creating the obstacle **`if`** the `i` in the loop is **the same** as `hole`. We can use a conditional to skip creating a block in the wall -- leaving an area to fly through!
@@ -176,4 +178,3 @@ What we want to do is skip creating the obstacle **`if`** the `i` in the loop is
 Currently, the wall is made by adding a pipe to the screen each time the loop runs. Try a conditional around `addOnePipe` in the loop that'll cause `addOnePipe` to only run when `i` is not the same number as hole.
 
 Now that you've done these activities, you should have a working game! See how high of a score you can get!
-

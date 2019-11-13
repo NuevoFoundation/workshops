@@ -167,7 +167,7 @@ for i in range(3):
   turtle.left(120)
 ```
 
-Let’s understand what this code does. `for i in range(3):` This statement tells the program to run the instructions in a loop. `range(3)` sets a limit to how many times the loop rus (in this case, 3 times). The letter `i` is called a **variable**. It is used to keep track of how many times we have run the contents of the loop. 
+Let’s understand what this code does. `for i in range(3):` This statement tells the program to run the instructions in a loop. `range(3)` sets a limit to how many times the loop runs (in this case, 3 times). The letter `i` is called a **variable**. It is used to keep track of how many times we have run the contents of the loop. 
 
 {{% notice warning %}}
 
@@ -293,6 +293,8 @@ Note that the drawing of the honeycomb may take a while. You can change how fast
 
 # Part 2: Building a Mandala Flower 
 
+![mandala flower with random color petals](https://paper-attachments.dropbox.com/s_F078714AB8FA59FD292476DB5E3304D54CD817148B6A8087A90D63D6C59A7C0D_1563989900782_mandala+colors.PNG)
+
 Great job! You finished building a honeycomb for Alex’s beehive, but Alex needs to also get his pollen from flowers! Wouldn’t it be nice to add a flower to the picture as well? In part 2, we will be creating a mandala flower! (Stay tuned - we'll show you what a mandala flower looks like.)
 
 ### Activity 6 - Moving the turtle
@@ -351,13 +353,13 @@ Create a new function called `mandala_flower()`. In the loop we will call the `f
 
 ![mandala flower with blue pedals](https://paper-attachments.dropbox.com/s_F078714AB8FA59FD292476DB5E3304D54CD817148B6A8087A90D63D6C59A7C0D_1563989987816_mandala+one+color.PNG)
 
-Now that we have the shape of a mandala flower, it’s time to color it! We’re still going to use the `turtle.color()` method; however this time we’re going to use an RBG value instead of a string color value, so that we can produce a larger variety of colors.
+Now that we have the shape of a mandala flower, it’s time to color it! We’re still going to use the `turtle.color()` method; however this time we’re going to use an RGB value instead of a string color value, so that we can produce a larger variety of colors.
 
 {{% notice tip %}}
 
-### RBG (Red-Green-Blue) colors
+### RGB (Red-Green-Blue) colors
 
-In primary school, you might recall that by mixing colors together, you can produce new colors. For example, combining red and blue together make purple. We can also change the amount of red and blue mixed together to create different shades of purple. The computer does something similar to produce colors. By combining various intensities of red, green, and blue, we can create more varied colors, such as powder blue, golden yellow, and salmon pink.
+In primary school, you might recall that by mixing colors together, you can produce new colors. For example, combining red and blue together make purple. We can also change the amount of red and blue mixed together to create different shades of purple. The computer does something similar to produce colors. By combining various intensities of red, green, and blue, we can create more varied colors, such as powder blue, golden yellow, and salmon pink. Click [here](https://htmlcolorcodes.com/color-names/) to see the colors and their corresponding hexadecimal form.
 
 In the `turtle.color()` method, we can specify three integer arguments corresponding to the amount of red, green, and blue to mix. Each integer must be between `0` and `255` inclusive. One example can be `turtle.color(30, 100, 238)`, which produces a dark shade of blue.
 

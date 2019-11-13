@@ -19,7 +19,7 @@
 <link href="{{(printf "theme-%s/variant-%s.css" ($.Site.Params.themeStyle| default "flex") .) | relURL}}"
       rel="stylesheet">
 {{end}}
-<link rel="stylesheet" href="{{"css/bootstrap.min.css" | relURL}}">
+{{/*  <link rel="stylesheet" href="{{"css/bootstrap.min.css" | relURL}}"> */}}
 <link rel="shortcut icon" href="https://www.nuevofoundation.org/favicons/favicon.ico" />
 <link rel="apple-touch-icon-precomposed" sizes="57x57"
       href="https://www.nuevofoundation.org/favicons//apple-touch-icon-57x57.png" />
@@ -43,9 +43,9 @@
 <link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-128.png" sizes=" 128x128" />
 <link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/css/bootstrap.min.css" />
-<link type="text/css" rel="stylesheet" href="/css/nuevoweb.css" />
-<link rel="stylesheet" href="/css/chunk.css" />
-<link rel="stylesheet" href="/css/data-style.css" />
+<link type="text/css" rel="stylesheet" href="{{"css/nuevoweb.css" | relURL }}" />
+<link rel="stylesheet" href="{{"css/chunk.css" | relURL}}" />
+<link rel="stylesheet" href="{{"css/data-style.css" | relURL}}" />
 <script src="{{"js/jquery-2.x.min.js" | relURL}}"></script>
 <script type="text/javascript">
       var baseurl = "{{.Site.BaseURL}}";
