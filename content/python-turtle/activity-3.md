@@ -5,8 +5,6 @@ weight: 5
 draft: false
 ---
 
-# Activity 3 - Drawing a hexagon
-
 Great job! You just drew your first shape in Python with Turtle! Now let’s slightly change the code we already wrote to draw a square to instead draw a hexagon. Alex is a bee, after all, and he needs to draw hexagons to build his first honeycomb.
 
 To help you draw a hexagon, think of how many sides a hexagon has. How many degrees are in each angle of a hexagon?

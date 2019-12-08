@@ -1,11 +1,9 @@
 ---
-title: "Activity 10 - Random colors"
+title: "Activity 10 - Randomizing the color of your mandala flower petals"
 date: 2019-07-25T13:24:17-07:00
 weight: 13
 draft: false
 ---
-
-# Activity 10 - Randomizing the color of your mandala flower petals
 
 ![mandala flower with random color petals](https://paper-attachments.dropbox.com/s_F078714AB8FA59FD292476DB5E3304D54CD817148B6A8087A90D63D6C59A7C0D_1563989900782_mandala+colors.PNG)
 
@@ -19,4 +17,4 @@ Use `random.randint(0, 256)` three times to produce three random values, and plu
 
 Congratulations! You helped Alex make a honeycomb and a flower! He can now happily live in his beehive, and make lots of honey! Your final image should look something like this:
 
-![final product](https://paper-attachments.dropbox.com/s_6DE744F5F42D9843D8BF3A4073281FC6AA4B5E70B001CCD7879563112D6136E1_1563991731125_final_image.png)
+![final product](../media/turtle-honeycomb-flower.png)

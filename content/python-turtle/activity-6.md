@@ -5,8 +5,6 @@ weight: 9
 draft: false
 ---
 
-# Activity 6 - Moving the turtle
-
 Our first step is to move the turtle to a new location to draw the flower (we don’t want to draw the flower on top of the beehive!). To do this, we first need to use the following methods:
 
 ```
@@ -17,7 +15,7 @@ turtle.pendown()
 
 `turtle.penup()` tells the turtle to pick up its pen so it doesn’t draw while it is moving. Then, with `turtle.goto(x,y)`, we are telling the turtle the position where the turtle moves to. After that we tell the turtle to put its pen back down using `turtle.pendown()` so it can start drawing again. 
 
-<!--TODO: Add a picture of a graph with the x and y coordinates.-->
+![Graph](../media/graph.png)
 
 {{% notice info %}}
 

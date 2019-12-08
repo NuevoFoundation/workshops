@@ -5,8 +5,6 @@ weight: 10
 draft: false
 ---
 
-# Activity 7 - Drawing a figure 8
-
 ![drawing a figure 8](https://paper-attachments.dropbox.com/s_6DE744F5F42D9843D8BF3A4073281FC6AA4B5E70B001CCD7879563112D6136E1_1563992981796_figure8.PNG)
 
 Great! Now let’s make a figure 8 as the first step to making a mandala flower! A figure 8 is just two circles that are opposite to each other. 

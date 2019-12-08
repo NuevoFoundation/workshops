@@ -5,8 +5,6 @@ weight: 3
 draft: false
 ---
 
-# Activity 1 - Drawing a square
-
 Kudos! You helped Alex draw a line! Now let’s step it up and help Alex draw a square. To draw a square, we need to follow these steps:
 
 1. Go forward for 50 steps

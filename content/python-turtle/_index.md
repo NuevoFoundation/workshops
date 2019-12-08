@@ -6,6 +6,7 @@ prereq: ""
 difficulty: "Beginner"
 image: ""
 draft: false
+weight: 3
 ---
 
 # Introduction

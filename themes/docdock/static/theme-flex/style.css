@@ -266,7 +266,6 @@ section strong {
   justify-content: flex-start;
   padding-right: 0px;
   align-items: baseline;
-  color: #e5e5e5;
 }
 #navigation a i {
   font-size: 4em;
@@ -276,7 +275,6 @@ section strong {
   margin: auto;
   flex-grow: 2;
   self-align: stretch;
-  font-size: 1.3rem;
 }
 #navigation a.nav-next {
   text-align: right;
@@ -311,7 +309,6 @@ article section.page h1:first-of-type {
     sans-serif;
   text-align: center;
   color: #060606;
-  font-weight: 200;
   font-size: 3.25rem;
   line-height: 2.7rem;
 }

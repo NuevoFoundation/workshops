@@ -1,11 +1,9 @@
 ---
-title: "Activity 2 - Loops"
+title: "Activity 2 - Simplyfing code with loops"
 date: 2019-07-25T13:24:17-07:00
 weight: 4
 draft: false
 ---
-
-# Activity 2 - Simplifying code with loops
 
 Great! You drew a square. But notice that we are writing the same lines over and over again! We had to repeat the instructions to draw a line and turn left 4 times. Wouldn’t it be great if we can give instructions once and tell the program to repeat it 4 times? Fear not, we can!
 

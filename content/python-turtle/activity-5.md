@@ -5,9 +5,7 @@ weight: 7
 draft: false
 ---
 
-## Activity 5 - Drawing a honeycomb
-
-![](https://paper-attachments.dropbox.com/s_6DE744F5F42D9843D8BF3A4073281FC6AA4B5E70B001CCD7879563112D6136E1_1563991066657_honey_comb.png)
+![Honeycomb drawing](../media/turtle-honeycomb.png)
 
 This is the finale! Let's create the honeycomb that Alex will live in. Fortunately, a honeycomb is simply 6 hexagons, so let's combine our knowledge of functions and loops to make our honeycomb! 
 

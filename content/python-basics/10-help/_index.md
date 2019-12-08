@@ -9,8 +9,8 @@ draft: false
 ---
 ##### No worries! See if any of the following helps you, if not, feel free to reach out to one of us, and we will help you.
 
-1.  Identation is very important when you are working in Python. Be careful of spaces & tabs in your code, because indentation errors can sometimes be pretty difficult to spot. 
-    ![](../img/screenshot-identationerror.png)
+1.  Indentation is very important when you are working in Python. Be careful of spaces & tabs in your code, because indentation errors can sometimes be pretty difficult to spot. 
+    ![](../img/screenshot-indentationerror.png)
     However on the positive side, strict formatting makes Python code very clean and organized. Are all your variables, functions indented properly as
     instructed?
 2.  SyntaxError: invalid syntax

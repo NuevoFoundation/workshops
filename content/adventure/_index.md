@@ -7,6 +7,7 @@ difficulty: "Intermediate"
 download: ""
 draft: false
 icon: "fab fa-python"
+weight: 4
 ---
 
 # Part 1 – Welcome!

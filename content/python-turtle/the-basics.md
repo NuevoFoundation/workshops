@@ -1,13 +1,13 @@
 ---
-title: "The Basics"
+title: "The Basics - Drawing a colored line"
 date: 2019-07-25T13:24:17-07:00
 weight: 2
 draft: false
 ---
 
-# The basics - Drawing a colored line
+Before Alex can learn how to create a beehive, he must first learn how to draw a colored line. We will add code to the below repl.it window, and we will do this in two parts.
 
-Before Alex can learn how to create a beehive, he must first learn how to draw a colored line. We will do this in two parts.
+<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonWithTurtleIntroduction?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 First, we need tell the turtle what color we want the line to be. To do this, let's type in:
 
@@ -54,6 +54,8 @@ An image is composed of thousands, if not, millions of pixels. A pixel is a unit
 
 An integer is just any whole number, whether positive or negative. In this example, both `turtle.forward()` and `turtle.backward()` expect an **integer** as an argument instead of a string. This is because the argument represents the number of pixels you want the turtle to move when drawing. A string would clearly not work for these methods!
 
+{{% /notice %}}
+
 Let's make the turtle go forward, so type in `turtle.forward(50)`. Now your code should look something like this:
 
 ```
@@ -63,11 +65,9 @@ turtle.color("orange")
 turtle.forward(50)
 ```
 
-{{% /notice %}}
-
 Now that we have completed our code, press **run**. You should see the following in the result screen:
 
-<!--TODO: insert picture.-->
+![Repl.it window](../media/basics-replit.png)
 
 If so, great! If not, please ask for help.
 

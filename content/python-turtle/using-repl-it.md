@@ -7,7 +7,7 @@ draft: false
 
 To help Alex live in a beehive, he needs to learn how to create a honeycomb! We will use Python's `turtle` library to draw a honeycomb for Alex.
 
-# Using Repl.it
+## Using Repl.it
 
 Today you will be using Repl.it to learn how to code in Python. Here is an example interactive window that you will use today:
 
