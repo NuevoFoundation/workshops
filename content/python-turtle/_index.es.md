@@ -7,7 +7,6 @@ difficulty: "Beginner, Intermediate, or Advanced"
 download: "URL to GitHub folder goes here"
 image: "src to image"
 icon: "fas fa-code"
-draft: true
 ---
 
 # Python con Turtle
@@ -165,7 +164,6 @@ Mientas tanto puedes revisar lo siguiente:
 7. Ir hacia adelante 50 pixeles.
 
 Recuerda que debes usar `turtle.forward()` para dibujar líneas. Para girar 90 grados necesitas pasar `90` como argumento al método `turtle.left()`:
-
 
 ```
 turtle.left(90)

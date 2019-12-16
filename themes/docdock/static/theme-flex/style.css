@@ -266,7 +266,6 @@ section strong {
   justify-content: flex-start;
   padding-right: 0px;
   align-items: baseline;
-  color: #e5e5e5;
 }
 #navigation a i {
   font-size: 4em;
@@ -276,7 +275,6 @@ section strong {
   margin: auto;
   flex-grow: 2;
   self-align: stretch;
-  font-size: 1.3rem;
 }
 #navigation a.nav-next {
   text-align: right;
@@ -311,7 +309,6 @@ article section.page h1:first-of-type {
     sans-serif;
   text-align: center;
   color: #060606;
-  font-weight: 200;
   font-size: 3.25rem;
   line-height: 2.7rem;
 }
@@ -646,7 +643,7 @@ div.notices p:first-child:before {
   top: -27px;
   color: #fff;
   font-family: FontAwesome;
-  content: "";
+  content: "";
   left: 10px;
 }
 
@@ -673,6 +670,10 @@ div.notices.tip p:first-child:after {
   content: "Tip";
 }
 
+div.notices.help p:first-child:after {
+  content: "Help";
+}
+
 div.notices.note {
   border-top: 30px solid #6bb1e0;
   background: #e6f3fb;
@@ -692,6 +693,12 @@ div.notices.tip {
 }
 
 div.notices.warning {
+  border-top: 30px solid #d58181;
+  background: #fbeded;
+  color: rgba(132, 56, 56, 0.995) !important;
+}
+
+div.notices.help {
   border-top: 30px solid #d58181;
   background: #fbeded;
   color: rgba(132, 56, 56, 0.995) !important;
