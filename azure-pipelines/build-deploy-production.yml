@@ -14,7 +14,6 @@ steps:
   - template: hugo-build.yml
     parameters:
       hugo_config_baseUrl: "$(PRODUCTION_URL)"
-      hugoVersion: '0.55.6'
   - task: AzureCLI@1
     inputs:
       azureSubscription: 'Azure Nuevo Foundation'
