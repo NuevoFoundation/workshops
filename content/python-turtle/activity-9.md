@@ -13,7 +13,7 @@ Now that we have the shape of a mandala flower, it’s time to color it! We’re
 
 ## RGB (Red-Green-Blue) colors
 
-In primary school, you might recall that by mixing colors together, you can produce new colors. For example, combining red and blue together make purple. We can also change the amount of red and blue mixed together to create different shades of purple. The computer does something similar to produce colors. By combining various intensities of red, green, and blue, we can create more varied colors, such as powder blue, golden yellow, and salmon pink. Click [here](https://htmlcolorcodes.com/color-names/) to see the colors and their corresponding hexadecimal form.
+In primary school, you might recall that by mixing colors together, you can produce new colors. For example, combining red and blue together make purple. We can also change the amount of red and blue mixed together to create different shades of purple. The computer does something similar to produce colors. By combining various intensities of red, green, and blue, we can create different colors, such as powder blue, golden yellow, and salmon pink. Click [here](https://htmlcolorcodes.com/color-names/) to see the colors and their corresponding hexadecimal form.
 
 In the `turtle.color()` method, we can specify three integer arguments corresponding to the amount of red, green, and blue to mix. Each integer must be between `0` and `255` inclusive. One example can be `turtle.color(30, 100, 238)`, which produces a dark shade of blue.
 

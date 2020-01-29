@@ -31,7 +31,7 @@ In the code above, `"orange"` is a string. Other examples of strings include `"1
 
 ## Arguments
 
-Arguments are inputs that you pass in to **methods** to use. In our example, `turtle.color()` needs a **string** argument representing the name of the color to set the turtle, so we passed in `"orange"` as an **argument** to the method. We could also have told it to change the color to something else, but it has to have been a color that `turtle.color()` understand. The colors that it recognizes are: `"red"`, `"orange"`, `"yellow"`, `"green"`, `"blue"`, `"purple"`, `"black"`, `"pink"`, and `"gray"`. If we send in anything else besides one of these color strings, we get the default color, which is black.
+Arguments are inputs that you pass in to **methods** to use. In our example, `turtle.color()` needs a **string** argument representing the name of the color to set the turtle, so we passed in `"orange"` as an **argument** to the method. We could also have told it to change the color to something else, but it has to have been a color that `turtle.color()` understands. The colors that it recognizes are: `"red"`, `"orange"`, `"yellow"`, `"green"`, `"blue"`, `"purple"`, `"black"`, `"pink"`, and `"gray"`. If we send in anything else besides one of these color strings, we get the default color, which is black.
 
 {{% /notice %}}
 

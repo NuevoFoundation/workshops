@@ -5,7 +5,7 @@ weight: 6
 draft: false
 ---
 
-We drew one hexagon. But this is just one of many Alex needs to make to build his honeycomb. Once again, it seems that we would have to repeat the code many times to draw multiple hexagons. Fortunately, we don't have to! Functions to the rescue!
+We drew one hexagon. But this is just one of many hexagons Alex needs to build his honeycomb. Once again, it seems that we would have to repeat the code many times to draw multiple hexagons. Fortunately, we don't have to! Functions to the rescue!
 
 {{% notice tip %}}
 
@@ -37,11 +37,11 @@ Similar to a for-loop, anything that we wish to define within the function needs
 If you press **run** with just this code, you will notice that you won't see any output! We've only created the functions, but we need to use them. To use the function we created, type in `draw_line()` again, but without the `def`. 
 
 ```
-def draw_line():
+def draw_line():    # Function definition
   turtle.forward(50)
   turtle.left(120)
 
-draw_line()  # Function call
+draw_line()         # Function call
 ```
  
 This is called a **function call** for the `draw_line()` function. A function call runs the code that’s defined in the function with the same name. With the recipe analogy, think of it as actually performing the recipe.
@@ -59,7 +59,7 @@ This is called a **function call** for the `draw_line()` function. A function ca
 
 ## Tricky Python syntax - Part 2
 
-Notice that functions use similar syntax rules with `for`-loops - you must have a `:` at the end of the function declaration, and anything in the function body needs to start with two spaces.
+Notice that functions use similar syntax rules with `for`-loops - you must have a `:` at the end of the function declaration, and anything in the function body needs to start with a tab.
 
 What happens when you need a `for`-loop inside of a function? Then, you need to combine the rules together! Here is an example on how to properly put a `for`-loop inside of a function.
 

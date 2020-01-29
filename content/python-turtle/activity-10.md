@@ -11,7 +11,7 @@ We’ve successfully set the color of the mandala flower to an RGB value. Now, l
 
 We will make use of python’s `random` library. The `random.randint()` method allows us to choose a random value for each of the red, green, or blue value. To choose a value that is between 0 inclusive and 256 exclusive (in other words, between 0 and 255 inclusive), we need to use `random.randint(0, 256)`.
 
-Use `random.randint(0, 256)` three times to produce three random values, and plug them into the `turtle.color()` method. You should now be able to see a multi-colored mandala flower! This is definitely a flower from which Alex would be interesting in collecting nectar!
+Use `random.randint(0, 256)` three times to produce three random values, and plug them into the `turtle.color()` method. You should now be able to see a multi-colored mandala flower! This is definitely a flower from which Alex would be interested in collecting nectar!
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonWithTurtleActivity10?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 

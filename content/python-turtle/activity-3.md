@@ -9,4 +9,12 @@ Great job! You just drew your first shape in Python with Turtle! Now let’s sli
 
 To help you draw a hexagon, think of how many sides a hexagon has. How many degrees are in each angle of a hexagon?
 
+As a helpful reminder, this is the code that was used to create a triangle:
+
+```
+for i in range(3):
+  turtle.forward(50)
+  turtle.left(120)
+```
+
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonWithTurtleActivity3?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>

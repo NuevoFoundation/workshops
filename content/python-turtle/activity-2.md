@@ -1,5 +1,5 @@
 ---
-title: "Activity 2 - Simplyfing code with loops"
+title: "Activity 2 - Simplifying code with loops"
 date: 2019-07-25T13:24:17-07:00
 weight: 4
 draft: false
@@ -37,6 +37,6 @@ turtle.left(120)
 
 {{% /notice %}}
 
-Now, take the example code that we have provided, and modify it slightly so that, instead of drawing a triangle, it draws a square. You can look back at what you did in Activity 2 as a hint. 
+Now, take the example code that we have provided, and modify it slightly so that, instead of drawing a triangle, it draws a square. You can look back at what you did in Activity 1 as a hint. 
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonWithTurtleActivity2?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>

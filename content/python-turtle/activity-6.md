@@ -21,7 +21,7 @@ turtle.pendown()
 
 ## Tip
 
-The `x` and  `y` in the `turtle.goto()` method are the `x` and `y` coordinates of the turtle. We want to change the `x`, `y` coordinates of the turtle from `(0, 0)` which is center of the image, to somewhere a little farther away so that the mandala flower doesn’t cover up part of the honeycomb.
+The `x` and  `y` in the `turtle.goto()` method are the `x` and `y` coordinates of the turtle. We want to change the `x` and  `y` coordinates of the turtle from `(0, 0)` which is center of the image, to somewhere a little further away so that the mandala flower doesn’t cover up part of the honeycomb.
 
 {{% /notice %}}
 
