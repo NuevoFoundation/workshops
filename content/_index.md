@@ -6,8 +6,7 @@ hidemetadata: true
 ---
 
 ## Workshop Projects
-
-{{%workshop-list style="card" depth="1" showhidden="false" description="true" %}}
+{{< workshop-list style="card" depth="1" showhidden="false" description="true"  >}}
 
 ## Contributor guidelines
 

@@ -8,6 +8,9 @@ theme = "docdock"
 pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
 
+[markup.goldmark.renderer]
+unsafe = true
+
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir= false
 enableMissingTranslationPlaceholders = false
