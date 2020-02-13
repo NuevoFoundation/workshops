@@ -6,7 +6,6 @@ hidden: true
 ---
 
 Welcome! These guidelines are for creating or editing a Nuevo Foundation Workshop! :)
-Hola hola
 
 ## Coming Soon
 
