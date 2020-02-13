@@ -206,5 +206,3 @@ An warning disclaimer
 - {{< icon name="font" size="large" >}} font
 - {{< icon name="bold" size="large" >}} bold
 - {{< icon name="italic" size="large" >}} italic
-
-###this is a comment
