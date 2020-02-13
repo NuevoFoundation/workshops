@@ -5,7 +5,7 @@ draft: false
 hidden: true
 ---
 
-These guidelines are for creating or editing a Nuevo Foundation Workshop!!!
+These guidelines are for creating or editing a Nuevo Foundation Workshop!
 
 ## Coming Soon
 
