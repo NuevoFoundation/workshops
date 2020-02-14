@@ -1,92 +1,52 @@
-# Nuevo Foundation Workshop files
+# Nuevo Foundation Workshop
 
-This page explains how to create and test workshop files locally on your machine. Make sure you are added as a contributor.
+This repo contains all of the code and content for the [Nuevo Foundation Workshop website](https://workshops.nuevofoundation.org). 
 
-## Setup Steps
+## Website Links
 
-1. **Install the git command line** - instructions to do this can be found on the [GitHub website](https://help.github.com/en/articles/set-up-git)
+* [Workshops website](https://workshops.nuevofoundation.org) - The site students use (aka production). This requires a manual push via Azure DevOps to push the master branch live. 
+* [Workshops GitHub IO test site](https://nuevofoundation.org.github.io/workshops/) - The site workshop creators use to validate the content is rendering correctly (aka staging).  Updates to this page are pushed *automatically* when you change the master branch. 
 
-2a. **Windows Setup**
+## Creating or Editing Workshops
 
-**Windows:** [Download](https://github.com/gohugoio/hugo/releases/download/v0.63.2/hugo_0.63.2_Windows-64bit.zip) 
-**Setup Hugo on the command line** [Follow these instructions to add Hugo to your command line path](https://gohugo.io/getting-started/installing#technical-users)
+* [How to edit workshop content from GitHub](#how-to-edit-workshop-content-from-github) - For small changes/tweaks, you can change the content directly from the GitHub web page. 
+* [How to create a workshop](#coming-soon) - This walks you through the steps needed to create a workshop. 
 
-2b. **Mac Setup**
-**MacOS 32-bit:** [Download](https://github.com/gohugoio/hugo/releases/download/v0.63.2/hugo_0.63.2_macOS-32bit.tar.gz) 
-**MacOS 64-bit:** [Download](https://github.com/gohugoio/hugo/releases/download/v0.63.2/hugo_0.63.2_macOS-64bit.tar.gz) 
-**Setup Hugo on the command line** [Follow these instructions to add Hugo to your command line path](https://gohugo.io/getting-started/installing#install-hugo-from-tarball)
-**Note:** Do *not* install from [brew](https://brew.sh) as the Hugo formula does not include older versions (0.63.2). 
+## How the site is built
 
-3. **Clone the project locally** - From the command line, type `git clone https://github.com/NuevoFoundation/workshops.git`
+The workshops subdomain content is built using the [DocDock](https://docdock.netlify.com/) theme for Hugo. [Hugo](https://gohugo.io) is a static site generator with a number of benefits:
 
-4. **Run The Project Locally** - Navigate to the newly created `workshops` folder and run the following command `hugo server -D` to run Hugo locally (-D will show draft posts). You should see something similar to this:
+1. **Content authors** can focus on content using markdown and not on the technical implementation of the site or CSS/page styling. Workshops are *automagically* added to the left table-of-contents and the workshops home page. Hugo works great locally (ex: on an airplane), and Hugo is the fastest static site generator, building the entire workshop site in <2 seconds.  
+2. **Students** benefit from a consistent UX across workshops, built-in accessibility, localization, responsive design supporting mobile-to-desktop, automated links to the GitHub repo, and fast global site performance using the Azure CDN.
+3. **Nuevo Dev Team** benefits from the ability to build and customize workshop pages including custom page templates, [built-in page controls for alerts, notes, buttons, warnings and more](https://workshops.nuevofoundation.org/guidelines/), custom controls (ex: the Nuevo header), <iframe> interactivity, custom metadata, automated cross-page linking, page theming, automated site map creation, built-in icons, and built-in automation using GitHub Actions and Azure DevOps for build / deployment. 
 
-<pre>
-danielfe@DanielfeMac:~/\_Repos/workshops (master)\$ hugo server -D
+## [How to edit workshop content from GitHub]
 
-                   | EN
+**Scenario**: Let's make a simple change to the Contributor Guidelines page and submit a pull request.
 
-+------------------+-----+
-Pages | 18
-Paginator pages | 0
-Non-page files | 0
-Static files | 209
-Processed images | 0
-Aliases | 5
-Sitemaps | 1
-Cleaned | 0
+### Find the markdown page on the website
+Open the [Workshop Contributor Guidelines](https://workshops.nuevofoundation.org/guidelines/) page, scroll to the bottom and click the "Edit on GitHub" hyperlink.
 
-Total in 126 ms
-Watching for changes in /Users/danielfe/\_Repos/workshops/{content,data,layouts,static,themes}
-Watching for config changes in /Users/danielfe/\_Repos/workshops/config.toml
-Environment: "development"
-Serving pages from memory
-Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
-Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
-Press Ctrl+C to stop`
-</pre>
+### Open the File editor 
+Click the pencil icon on the page which should open [Edit File page](https://github.com/NuevoFoundation/workshops/edit/master/content/guidelines/_index.md). 
 
-5. **Open a browser to see the site** Open a browser to http://localhost:1313 to see the website live.
+From here you can toggle between the `Edit file` tab to edit the content and the `Preview changes` tab for a rough preview of how the page would be rendereed. 
 
-## Create a new workshop
+### Make a change 
+From here, you can make a change to the page, say by adding two exclamation points to the word "Welcome!"
 
-All content in Hugo is added to the `workshops/content` folder
+**Before**: `Welcome!`
 
-**Create a new workshop**: From the command line in the root directory (aka the `workshops/` directory), type the command:
+**After**: `Welcome!!!`
 
-`hugo new workshop-name/_index.md`
+### Commit the change 
+At the bottom of the page, you will see the **Commit changes** section. Set the following values:
 
-For example, to create a workshop named `web-basics`, type the command `hugo new web-basics/_index.md`
+* **Title**: `Update index.md` Default, no change needed
+* **Extended Description**: For our example, we will say: `this is a test PR, you can safely delete` 
+* **Select**: `Create a new branch for this commit and start a pull request`
 
-**Output**: Hugo will create the workshop under `workshops/content/web-basics/\_index.md
+Finally, click the **Propose file change** button to create your pull request. 
 
-**URL**: You can navigate to that page using the `hugo server -D` command from the workshop directory to run the server and navigate to the new page (NOTE: you must remove the .md at the end of the file)
-
-`http://localhost:1313/web-basics/`
-
-## Editing a workshop file
-
-You can open Visual Studio Code by typing `code .` from the `workshops` folder. You can then edit the file using the markdown format.
-
-This project support regular markdown and a series of custom shortcodes for things like notes, warnings, etc.
-
-- [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-- [Available shortcodes](https://docdock.netlify.com/shortcodes/)
-
-## Adding metadata for your workshop
-
-If you followed the `hugo new` step from above, you should have a new file named `_index.md` with the following metadata at the top of the file that you can edit to better describe your workshop
-
-<pre>
---- 
-title: "Web Basics" 
-description: "Workshop description goes here" 
-date: 2019-07-22T14:51:26-07:00 
-prereq: "link to workshop markdown file" 
-difficulty: "Beginner, Intermediate, or Advanced" 
-download: "URL to GitHub folder goes here" 
-draft: true 
----
-</pre>
-
-## Contributor guidelines coming soon
+### Review your pull request
+Once created, go to the [Pull Requests](https://github.com/NuevoFoundation/workshops/pulls) tab to load your pull request.
