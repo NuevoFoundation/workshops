@@ -6,9 +6,16 @@ This page explains how to create and test workshop files locally on your machine
 
 1. **Install the git command line** - instructions to do this can be found on the [GitHub website](https://help.github.com/en/articles/set-up-git)
 
-2. **Install Hugo** - Follow the [Hugo setup instructions](https://gohugo.io/getting-started/installing). 
+2a. **Windows Setup**
 
-NOTE: For compatibility, you [must install version 0.63.2](https://github.com/gohugoio/hugo/releases/tag/v0.63.2) 
+**Windows:** [Download](https://github.com/gohugoio/hugo/releases/download/v0.63.2/hugo_0.63.2_Windows-64bit.zip) 
+**Setup Hugo on the command line** [Follow these instructions to add Hugo to your command line path](https://gohugo.io/getting-started/installing#technical-users)
+
+2b. **Mac Setup**
+**MacOS 32-bit:** [Download](https://github.com/gohugoio/hugo/releases/download/v0.63.2/hugo_0.63.2_macOS-32bit.tar.gz) 
+**MacOS 64-bit:** [Download](https://github.com/gohugoio/hugo/releases/download/v0.63.2/hugo_0.63.2_macOS-64bit.tar.gz) 
+**Setup Hugo on the command line** [Follow these instructions to add Hugo to your command line path](https://gohugo.io/getting-started/installing#install-hugo-from-tarball)
+**Note:** Do *not* install from [brew](https://brew.sh) as the Hugo formula does not include older versions (0.63.2). 
 
 3. **Clone the project locally** - From the command line, type `git clone https://github.com/NuevoFoundation/workshops.git`
 
