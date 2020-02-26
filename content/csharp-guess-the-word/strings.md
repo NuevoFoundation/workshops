@@ -13,6 +13,11 @@ You can combine many strings together using the `+` operator. For example:
 - `"Apple" + "Pineapple"` produces the string `"ApplePineapple"`.
 - `"Nuevo" + " " + "Foundation"` produces the string `"Nuevo Foundation"`.
 
+```csharp
+Console.WriteLine("Apple" + "Pineapple");
+Console.WriteLine("Nuevo" + " " + "Foundation");
+```
+
 ![Combining strings with +](../media/strings-intro.png)
 
 {{% notice tip %}}
@@ -31,6 +36,6 @@ Nuevo Foundation
 Nuevo Foundation
 ```
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/NF-CSharp-Strings?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<!--<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/NF-CSharp-Strings?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>-->
 
 {{% /notice %}}
