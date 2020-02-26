@@ -21,12 +21,12 @@ When the player makes a guess, we need to take the guessed letter and store it i
 
 To check if you have done this correctly, press **run**, and you should now be able to type in a letter into the console.
 
-#### Activity 4.3
+## Activity 4.3
 
 Every time a letter is guessed correctly, we need to increment (add one to) the number of correctly guessed letters. Use the `lettersRevealed` variable to change the number of correctly guessed letters.
 Press **run** to make sure no errors occur. We have also provided some code to print out the value of the `lettersRevealed` variable for testing purposes. Make sure to delete this when you are done testing, since this is something we do not want to reveal to the player!
 
-#### Activity 4.4
+## Activity 4.4
 
 Every time a letter is guessed incorrectly, the player loses a life. Decrement (subtract one from) the number of lives, using the `lives` variable. We will also tell the player how many lives they have remaining, when they make an incorrect guess, by printing the number of lives to the console.
 Check if you have done this correctly by pressing **run**, guessing an incorrect letter, and seeing if the correct number of lives are displayed on the console.

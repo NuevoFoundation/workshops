@@ -20,7 +20,7 @@ Here is the full list of math symbols that you can use:
 
 | Operator | Description | Operator     | Description        |
 | -------- | ----------- | ------------ | ------------------ |
-| `+`      | Add         | `\` | Divide |
+| `+`      | Add         | `\`          | Divide             | 
 | `-`      | Subtract    | `%`          | Modulo (remainder) |
 | `*`      | Multiply    | `(`,`)`      | Parenthesis        |
 
@@ -42,7 +42,7 @@ Try printing out the answers to the following to the console. Ensure your bracke
 - `(3 + 5) * 6`
 - `(13 + 5 * 8) / (6 - (3 + 7))`
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/NF-CSharp-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<!--<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/NF-CSharp-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>-->
 
 {{% /notice %}}
 
