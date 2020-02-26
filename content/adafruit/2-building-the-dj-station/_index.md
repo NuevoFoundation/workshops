@@ -5,30 +5,22 @@ draft: false
 weight: 2
 ---
 
-### Hooking up your adafruit
-1. After making sure that your battery case has two AAA batteries in it, plug the white connector into your adafruit. 
-2. Grab the USB-C to USB cord, plug the USB-C side into the Microbit, and plug the USB side into your laptop. 
+### Hooking up the oranges 
+Grab an orange and one of your wires. Open up one of the alligator clips and insert the bottom half into the orange, leaving the top part of the clip on the outside. This is easiest to do if you insert it in the middle of the bottom of the orange. The same spot where you’d start peeling if you were going to eat the orange.
 
-### Connecting Your Ground 
-1. Connect one alligator clip to the ground on the adafruit.
 ![Cannot load image](img/setup1.png?classes=border,shadow)
-
-2. Insert the other side of the same wire into the orange.
 ![Cannot load image](img/setup2.png?classes=border,shadow)
 
-### Connecting Your Headphones 
-1. Using two, preferably differently colored, wires, connect one to ground (GND) and another to port 0.
+Repeat this for the second orange using your other wire.
 ![Cannot load image](img/setup3.png?classes=border,shadow)
 
-2. Connect the ground wire to the bottom section of your headphones. The other side of the wire connected to P0 needs to be connected to the top section of your headphones.
+Connect one orange to A1 and the other one to A2 
 ![Cannot load image](img/setup4.png?classes=border,shadow)
 
-Your set up should now look like this: 
+All together your orange assembly looks like this! 
 ![Cannot load image](img/setup5.png?classes=border,shadow)
 
-### Building your Sound Buttons 
-1. Similar to the first orange, using a new wire, insert one side into a second orange and connect the other side to port 1.
+Using your USB cable, connect the small side to the chip. It’ll go into the silver port.
 ![Cannot load image](img/setup6.png?classes=border,shadow)
 
-2. Using a new wire, insert one side into a BANANA and connect the other side to port 2. That’s it!
-![Cannot load image](img/setup7.png?classes=border,shadow)
+Now let’s create the program before we plug in our chip to the computer! Please make sure your computer is MUTED before you start. 
