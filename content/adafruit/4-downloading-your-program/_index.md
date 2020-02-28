@@ -14,7 +14,8 @@ You should see a window popping up, asking where to save your file. It should de
 
 Now you can plug your USB cable into the computer. You should see some rainbow lights! This means your chip is on and running the default program. We are going to replace that with our program. Click the small reset button in the center of the chip. The lights should turn red then green. If your lights didn’t go green, quickly double click the reset button and wait a few seconds.
 
-![Cannot load image](img/3.png?classes=border,shadow)
+![Cannot load image](img/3.png?classes=border,shadow "Image taken from https://www.adafruit.com/")
+
 
 Once your lights are green, open up a Windows Explorer window if one doesn’t pop up. You should now see a CPLAYBOOT drive. Here it is shown as the D: drive but it could be E:, F:, etc.
 

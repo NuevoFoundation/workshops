@@ -4,6 +4,9 @@ description: ""
 draft: false
 weight: 3
 ---
+Open your favorite internet browser (such as Edge, Firefox, Google Chrome, Internet Explorer), and go to https://aka.ms/oranges. Your screen should look like this:
+
+![Cannot load image](img/adafruit.png?classes=border,shadow)
 
 ### Defining the Variables 
 Today we are going to be using oranges to tell our Adafruit when to make noise. The first thing we need to do is give the computer a name for each orange and where to look for what they are saying. We do the first part by defining a variable. Click on the section that says VARIABLES, it is salmon colored and 7th from the top. Then define a variable by clicking on Make a Variable and giving it a name. Do this twice, here we define ours as analog1 and analog2 but you can call them whatever you want.
@@ -32,7 +35,7 @@ Now that our computer knows what to call our oranges, and how to understand what
 
 ![Cannot load image](img/8.png?classes=border,shadow)
 
-Let’s go back to the volume knob example to understand the comparison we are going to be making in our loop. Every person has a sweet spot for how loud they like to listen to their music to be able to enjoy it the most. This sweet spot is also true for our oranges. They’ll tell the computer a number when they’re just sitting there and a lower number when we touch them. The trick is to find the spot in between so that we only make noise when we want to. 
+Let’s go back to the volume knob example to understand the comparison we are going to be making in our loop. Every person has a sweet spot for how loud they like to listen to their music to be able to enjoy it the most. This sweet spot is also true for our oranges. They’ll tell the computer a number when they’re just sitting there and a `lower number` when we touch them. The trick is to find the spot in between so that we only make noise when we want to. 
 
 To set this up, go to the LOGIC section again and grab the hexagonal “ __ < __ “ block that’s second under the Comparison subsection. Place that on top of the “true” in the “if __ then” block. Make sure you see the yellow highlight before dropping it there. Check the picture below to verify your workspace.
 
