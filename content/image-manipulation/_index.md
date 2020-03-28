@@ -1,18 +1,15 @@
 ---
 title: "Python Image Manipulation"
-# TODO katiewasnothere
-description: ""
+description: "An introduction to manipulating images in python."
 date: 2020-02-10T13:24:17-07:00
-prereq: ""
 difficulty: "Beginner"
-image: ""
 draft: false
+icon: "fab fa-python"
 weight: 1
 ---
 
 # Introduction
-
-
+This workshop will provide an introduction to manipulating images in python.
 
 ## Table of Contents
 
