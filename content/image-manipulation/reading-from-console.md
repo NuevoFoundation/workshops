@@ -18,11 +18,9 @@ value = <font color="blue">input</font>()
 <font color="blue">print</font>(`"Hello"` + value + `"!"`)</pre>
 
 
-Give this a try! When you hit run, you'll notice that the 
+Give this a try! When you hit run, you'll notice that the below image doesn't appear on the console yet.
 
 ![alt text](../media/end_symbol.png "image of the console end symbol")
-
-doesn't appear on the console yet. See below:
 
 ![alt text](../media/console_read_waiting.png "image of how the console looks waiting for user input")
 

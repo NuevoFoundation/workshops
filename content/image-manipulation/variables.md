@@ -14,7 +14,7 @@ Variables are simply names that we can give to values such as strings, numbers, 
 - happy = <font color="blue">True</font>
 
 
-Press ![alt text](../media/run.png "run button") 
+Press run. 
 
 ![alt text](../media/variables.png "image of how variables look in repl.it") 
 

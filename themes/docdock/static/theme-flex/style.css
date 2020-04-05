@@ -674,6 +674,10 @@ div.notices.help p:first-child:after {
   content: "Help";
 }
 
+div.notices.hint p:first-child:after {
+  content: "Hint";
+}
+
 div.notices.note {
   border-top: 30px solid #6bb1e0;
   background: #e6f3fb;
@@ -687,6 +691,12 @@ div.notices.info {
 }
 
 div.notices.tip {
+  border-top: 30px solid #84c578;
+  background: #e8f7e6;
+  color: rgba(72, 125, 63, 0.995) !important;
+}
+
+div.notices.hint {
   border-top: 30px solid #84c578;
   background: #e8f7e6;
   color: rgba(72, 125, 63, 0.995) !important;

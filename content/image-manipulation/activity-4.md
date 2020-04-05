@@ -13,9 +13,9 @@ Try printing out the answers to the following expressions using <font color="blu
 - <font color="blue">False</font> == <font color="blue">False</font>
 
 
-{{% alert theme="danger" %}}
-Challenge: Try making your own expressions! 
-{{% /alert %}}
+
+### Challenge: 
+Try making your own expressions! 
 
 ### Fun Fact: Connecting Booleans with AND and OR operators
 
@@ -38,9 +38,7 @@ To summarize, AND requires both boolean expressions to be true, while OR only re
 - (8 <= 2) or ("h" + "e" == "he") produces <font color="blue">True</font> since "h" + "e" results in "he", even though 8 is not less than or equal to 2.
 - (6 != 2 * 3) or (8 < 2 * 4) produces <font color="blue">False</font> since both 6 not equal to 2 * 3, and 8 being less than 2 * 4, produce <font color="blue">False</font>.
 
-{{% alert theme="danger" %}}
-What do you think the following expressions produce?
-{{% /alert %}}
+#### What do you think the following expressions produce?
 
 - (11-2 < 10) and (7+3 > 10)
 - (<font color="blue">True</font> or 3 < 1) and (<font color="blue">False</font> or 3>1)

@@ -10,14 +10,14 @@ weight: 13
 
 Next, use the variables and what you learned in the previous activities to <font color="blue">print</font> out the following to the console. You MUST use the variables!
 
-    ```
+    
     Computer
     5
     ComputerComputer
     10
     ComputerComputerComputer
     15
-    ```
+    
 
 {{% notice tip %}}
 

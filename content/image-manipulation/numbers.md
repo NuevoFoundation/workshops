@@ -20,9 +20,7 @@ For example,
 
 You can also try using the math symbols to make your own expressions! 
 
-Symbol        | Use           
-------------- | ------------- 
-+             | Add           | 
--             | Subtract      |  
-*             | Multiply      | 
-/             | Divide        | 
+| Symbol          | Use           | Symbol      | Use         |
+| --------------- | ------------- | ----------- | ----------- |
+| `+`             | Add           | `*`         | Multiply    | 
+| `-`             | Subtract      | `/`         | Divide      | 

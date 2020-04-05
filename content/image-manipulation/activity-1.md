@@ -16,12 +16,9 @@ weight: 4
     ```
 
     Press run to see if aything changes. 
-    ![alt text](../media/run.png "the run button")
 
 2. Add another <font color="blue">print</font> below the current line to print a second sentence below the first. 
 
 3. Press run to see if the two sentences print out
-
-![alt text](../media/run.png "the run button")
 
 We will use printing a lot in the later lessons, so make sure you understand this before continuing! 
