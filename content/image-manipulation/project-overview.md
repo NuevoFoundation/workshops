@@ -21,8 +21,7 @@ Firstly, let’s delete everything in the main.py file. Then, add the following 
 </pre>
 
 
-Once you hit ![alt text](../media/run.png "run button")
-you should see the module being installed in the console:
+Once you hit run, you should see the module being installed in the console:
 
 ![alt text](../media/installed_module.png "image of what you should see when you successfully install the module")
 

@@ -17,14 +17,11 @@ What are the boolean answers to these questions about you?
 4. My favorite color is blue. ______
 
 
-Operator    |  Meaning
-------------|----------
-<           | Less than
->           | Greater than
-<=          | Less than or equal to
->=          | Greater than or equal to
-==          | Equal to
-!=          | Not equal to
+| Operator | Description           | Operator | Description              |
+| -------- | --------------------- | -------- | ------------------------ |
+| `<`      | Less than             | `>`      | Greater than             |
+| `<=`     | Less than or equal to | `>=`     | Greater than or equal to |
+| `==`     | Equal to              | `!=`     | Not equal to             |
 
 
 As usual, use <font color="blue">print</font> to print out your results to the following:

@@ -12,7 +12,8 @@ To use the <b>filter()</b> function, you can specify the ImageFilter type within
 Add something like this below your previously added code
 
 <pre>
-    blurredImage = image.filter(ImageFilter.BLUR) blurredImage.save("myCatBlurred.jpg")
+    blurredImage = image.filter(ImageFilter.BLUR) 
+    blurredImage.save("myCatBlurred.jpg")
 </pre>
 
 You should see the saved cat image is blurred. Try this with a few other image filters until you find one you like!

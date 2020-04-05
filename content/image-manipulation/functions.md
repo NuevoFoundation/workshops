@@ -11,12 +11,11 @@ Suppose you have many lines of code, and you would like to give this section of 
 
 Let’s analyze this piece of code. The def tells the computer that you are writing a function. We give it a name, in this case, my_function. Then, we put a colon (the : symbol) to indicate that the function is starting. The next two lines are <b>two spaces away from the left side of the text editor</b> -- this tells the computer that these lines are part of the function definition. This is <b>very important</b>, so don't miss out on this detail!
 
-Press 
-
-![alt text](../media/run.png "run button")
+Press run.
 
 You will notice that nothing happens. This is only a function definition - we need to “call” the function to run the code within the function. In other words, the computer understands the instructions, but you need you tell the computer to do the given instructions. You can call my_function() anywhere, as long as it is after the function is defined. Place my_function() below the function definition, with no spaces in front. Your code should look like this:
  
+
 ![alt text](../media/my_function.png "how my_function() should look now")
 
 {{% notice note %}}

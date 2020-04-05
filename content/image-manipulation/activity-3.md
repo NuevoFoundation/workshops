@@ -17,10 +17,7 @@ Can you print out this statement? `"527 time 199 is: __"`
 
 You will fill in the blank with the answer of what `(527 * 199)` is. If you want to print a string and a number together, you first have to convert the number into a string. 
 
-Here's an example:
-
-
- <font color="blue">print</font>(`"Hello, World!"` + str(5))
+Here's an example: <font color="blue">print</font>(`"Hello, World!"` + str(5))
 
 {{% notice tip %}}
 
