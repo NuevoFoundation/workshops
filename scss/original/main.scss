@@ -670,6 +670,10 @@ div.notices.tip p:first-child:after {
     content: 'Tip';
 }
 
+div.notices.hint p:first-child:after {
+    content: 'Hint'; 
+}
+
 @each $notice_name, $notice_theme in $notice_map {
     $notice_back_temp: adjust-color(lshift_main(map-get($theme_map, $notice_theme), nth($notice_body_back_lshift, 1), nth($notice_body_back_lshift, 2)), $saturation: $notice_body_back_saturate);
     div.notices.#{$notice_name} {
