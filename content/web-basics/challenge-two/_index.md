@@ -10,7 +10,7 @@ weight: 7
 <font color="red">`<header id="page-title">`</font>
 
 3. Toggle to the CSS tab
-<font color="red">`#page-tigle
+<font color="red">`#page-title
 {
   styling here...
 }`
