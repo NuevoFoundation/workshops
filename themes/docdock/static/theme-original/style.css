@@ -635,6 +635,9 @@ div.notices.note p:first-child:after {
 div.notices.tip p:first-child:after {
   content: 'Tip'; }
 
+div.notices.hint p:first-child:after {
+  content: 'Hint'; }
+
 div.notices.note {
   border-top: 30px solid #6bb1e0;
   background: #e6f3fb;
@@ -654,6 +657,11 @@ div.notices.warning {
   border-top: 30px solid #d58181;
   background: #fbeded;
   color: rgba(132, 56, 56, 0.995) !important; }
+
+div.notices.hint {
+  border-top: 30px solid #84c578;
+  background: #e8f7e6;
+  color: rgba(72, 125, 63, 0.995) !important;}
 
 code, kbd, pre, samp {
   font-family: "Consolas", menlo, monospace;
