@@ -1,5 +1,5 @@
 ---
-title: "Activity 4 - Add effects to your songs"
+title: "Activity 4 - Add effects to your song"
 description: "Setting up headphones"
 weight: 9
 prereq: "Python Basics: Print, Comments, Functions"
@@ -18,7 +18,7 @@ producer to combine multiple effects together. Earsketch has many
 effects built-in. To reference all the effects, visit this
 [link](https://earsketch.gatech.edu/earsketch2/#?curriculum=5-1-0&language=python) and make sure *Curriculum* pane is selected in the navigation bar.
 
-Before we start adding effects to our song, let\'s breakdown the pieces
+Before we start adding effects to our song, let's breakdown the pieces
 of the two `setEffect` functions:
 ![](../img/screenshot-seteffect1.png)
 
@@ -31,29 +31,7 @@ of the two `setEffect` functions:
 -   `effectParameter`: The setting for the effect being used
 -   `effectValue`: The value applied to the effectParameter
 
-This `setEffect` function is used to apply an effect to a specific track
-for the entire duration of the song, but what if you only want a
-specific section of your song to have an effect? Use the `setEffect`
-function with more parameters!
-![](../img/screenshot-seteffect2.png)
-
--   `effectStartValue`: The starting value applied to the parameter
--   `effectStartLocation`: The measure at which the starting value is
-    set
--   `effectEndValue`: The ending value of the parameter
--   `effectEndLocation`: The measure at which the ending value is set
-
-This version of the `setEffect` allows for us to perform *automation*
-on a specific piece of our song. Automation is a way to change the value
-of an effect over time. One use of automation is to make a song fade in
-or fade out. To do so, we must adjust the **GAIN** `effectParameter`
-volume in the **VOLUME** `effectType` over time. For example, if we
-define our `effectStartValue` at -60 db and our `effectEndValue` at 0
-db, it will sound like our song is fading in over time. To adjust the
-starting point and length of the effect, specify the
-`effectStartLocation` and `effectEndLocation`.
-
-Add effects to your song
+Add setEffect function to your song
 -------------------------------------
 
 Since we are more familiar with using effects, let's add an effect to
@@ -107,6 +85,5 @@ Your code should now look something like this:
     sectionA(17, 25)
     setEffect(2, DELAY, DELAY_FEEDBACK, -6.0)
     setEffect(2, DELAY, DELAY_TIME, 1200.0)
-    setEffect(0, VOLUME, GAIN, -60, 1, 0, 3)
     
     finish()

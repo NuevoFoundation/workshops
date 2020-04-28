@@ -22,7 +22,7 @@ Welcome to this introductory guide on how to make music using
 6. [Activity 2 - Make a song](6-activity-2-make-a-song)
 7. [Activity 3 - Organize songs using functions](7-activity-3-organize-songs-using-functions)
 8. [Activity 4 - Add Effects to your songs](8-activity-4-add-effects-to-your-songs)
-9. [Activity 5 - Fade In](activity-5-fade-in)
+9. [Activity 5 - Use Effects to Fade in](9-activity-5-use-effects-to-fade-in)
 10. [Help, I am stuck!](10-help)
 
 ![Cannot load image: earsketch-play-overview](img/screenshot-overview.png?classes=border,shadow)
