@@ -1,7 +1,7 @@
 ---
 title: "Activity 3 - Organize your songs using functions"
 description: "Setting up headphones"
-prereq: "Python Basics: Print, Comments, Functions"
+prereq: "Python Basics: Functions"
 difficulty: "Beginner"
 weight: 8
 draft: false
