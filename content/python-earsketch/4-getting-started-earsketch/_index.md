@@ -7,7 +7,7 @@ difficulty: "Beginner"
 draft: false
 ---
 
-EarSketch is a free educational programming environment developed at Georgia Institute of Technology. We will be composing music using EarSketch today.
+[EarSketch](https://en.wikipedia.org/wiki/EarSketch) is a free educational programming environment developed at Georgia Institute of Technology. We will be composing music using EarSketch today.
 
 
 1.  To make music, click on
