@@ -23,12 +23,12 @@ songs are made up of various instruments, so we need to add more audio clips.
 Your code should now look something like this:
     {{% notice %}}
 
-    from earsketch import *\\
+    from earsketch import *\
     init()
-    setTempo(120)\\
+    setTempo(120)\
     fitMedia(RD_TRAP_BELLLEAD_1, 1, 5, 9)
     fitMedia(YG_TRAP_STRINGS_2, 2, 1, 17) 
     fitMedia(YG_TRAP_ELECTRIC_PIANO_FILTERED_1, 3, 1, 17) 
-    fitMedia(YG_TRAP_BASS_9, 4, 1, 9)\\
+    fitMedia(YG_TRAP_BASS_9, 4, 1, 9)\
     finish()
     {{% /notice %}}
