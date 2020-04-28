@@ -23,29 +23,29 @@ Now that we learned how to use functions, let's try to use them to organize our 
     large project file, use functions!
 
 Your code should now look something like this:
-    {{% notice %}}
+    
     from earsketch import *
+
     init()
     setTempo(120)
+
     fitMedia(HOUSE_DEEP_CRYSTALCHORD_001, 3, 1, 5)
-    fitMedia(HOUSE_DEEP_CRYSTALCHORD_002, 3, 5, 9) \\
-    \# Section A
+    fitMedia(HOUSE_DEEP_CRYSTALCHORD_002, 3, 5, 9)
+
+    # Section A
     def sectionA(startMeasure, endMeasure):
         fitMedia(RD_UK_HOUSE__AIRYPAD_1, 1, startMeasure, endMeasure)
         fitMedia(HOUSE_MAIN_BEAT_002, 4, startMeasure, endMeasure)
         fitMedia(HOUSE_ROADS_BASS_001, 5, startMeasure, endMeasure)  
-    \# Section B
+
+    # Section B
     def sectionB(startMeasure, endMeasure):
         fitMedia(Y37_ORGAN_1, 2, startMeasure, endMeasure)
         fitMedia(HOUSE_ROADS_BASS_001, 5, startMeasure, endMeasure)
-        fitMedia(RD_UK_HOUSE__ARPLEAD_1, 6, startMeasure, endMeasure)\\
+        fitMedia(RD_UK_HOUSE__ARPLEAD_1, 6, startMeasure, endMeasure)
+
     sectionA(1, 9)
     sectionB(9, 17)
-    sectionA(17, 25)\\
+    sectionA(17, 25)
+
     finish()
-    {{% /notice %}}
-
-{{% notice info %}}
-
-Digital Audio Workstation (DAW) is the area which the sounds appear in. It is at the center top of your EarSketch window. The following is an example of how different sections of a song may look in the DAW. ![](../img/screenshot-daw.png)
-{{% /notice %}}

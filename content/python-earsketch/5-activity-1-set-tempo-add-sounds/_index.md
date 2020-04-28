@@ -46,12 +46,18 @@ between 45-220.
         finish()
     {{% /notice %}}
 
+    {{% notice warning %}} Make sure the capitalization of the method call is correct. Most programming languages, Python included, are case sensitive. This means that adding capital letters can call a different function than expected. For example: `fitMedia()` is not the same as `FitMedia()`.
+    {{% /notice %}}
+
 6. Once you have input your own parameters, press run, then click on
     play to listen to your audio clip! 
     
     **If you see any red text, you have encountered some errors! Please ask for help.**
     The `fitMedia()` function is the backbone to making music in Earsketch. We will be using this function a lot, so if you have any questions regarding its usage, please ask!
 
-{{% notice warning %}}
-Make sure the capitalization of the method call is correct. Most programming languages, Python included, are case sensitive. This means that adding capital letters can call a different function than expected. For example: `fitMedia()` is not the same as `FitMedia()`.
+
+{{% notice info %}}
+
+Digital Audio Workstation (DAW) is the area which the sounds appear in. It is at the center top of your EarSketch window. The following is an example of how different sections of a song may look in the DAW. ![](../img/screenshot-daw.png)
 {{% /notice %}}
+
