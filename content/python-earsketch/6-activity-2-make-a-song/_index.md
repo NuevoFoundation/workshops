@@ -1,7 +1,7 @@
 ---
 title: "Activity 2 - Make a song!"
 description: "Setting up headphones"
-prereq: "Python Basics: Print, Comments"
+prereq: "Python Basics: Print, Comments, Functions"
 difficulty: "Beginner"
 weight: 6
 draft: false

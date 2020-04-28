@@ -1,7 +1,7 @@
 ---
 title: "Activity 1 - Set tempo & add sounds"
 description: "Setting up headphones"
-prereq: "Python Basics: Print, Comments"
+prereq: "Python Basics: Print, Comments, Functions"
 difficulty: "Beginner"
 weight: 5
 draft: false
@@ -34,19 +34,24 @@ between 45-220.
     If you are not sure what values to choose, try this:
     `fitMedia(YG_TRAP_ELECTRIC_PIANO_FILTERED_1, 3, 1, 17)`
     Your code should now look something like this:
-        {{% notice %}}
-    from earsketch import *\\
-        init()
-        setTempo(120)\\
-        fitMedia(YG_TRAP_ELECTRIC_PIANO_FILTERED_1, 3, 1, 17)\\
-        finish()
-        {{% /notice %}}
+        
+    {{% notice %}}
+    from earsketch import *
 
-    **Be careful:** Make sure the capitalization of the method call is
+        init()
+        setTempo(120)
+        
+        fitMedia(YG_TRAP_ELECTRIC_PIANO_FILTERED_1, 3, 1, 17)
+
+        finish()
+    {{% /notice %}}
+
+    {{% notice warning %}} Make sure the capitalization of the method call is
     correct. Most programming languages, Python included, are case
     sensitive. This means that adding capital letters can call a
     different function than expected. For example: `fitMedia()` is not
     the same as `FitMedia()`.
+    {{% /notice %}}
 
 6. Once you have input your own parameters, press run, then click on
     play to listen to your audio clip! 
