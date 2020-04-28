@@ -5,16 +5,16 @@ weight: 3
 draft: false
 ---
 
-**Functions** are a way to organize pieces of similar or repeating code. Rather than having to constantly type out the same code, we can put the desired code in a method and call it whenever we want to use it.
+**Functions** are a way to organize pieces of similar or repeating code. Rather than having to constantly type out the same code, we can put the desired code in a function and call it whenever we want to use it.
 
 {{% notice info %}}
 **Note:** The purpose of a function is to help reduce redundant code
 throughout the program.
 {{% /notice %}}
 
-## Creating a function - Function declaration & definition
+## Creating a function 
 
-### Function Declaration 
+### Define your function - name & parameters
 To make a function in python, we must use the `def`
 keyword. This keyword tells the code editor where the function is
 defined. `def` is followed by the name of the function. In order to
@@ -32,7 +32,7 @@ Make sure that the first line of your function always ends
 with a colon `:`
 {{% /notice %}}
 
-### Function Definition
+### Write the function body
 In Python, indentation defines which code is controlled
 by the function. For example, look at the following image:
 ![](../img/annotated-screenshot-function2.png)
