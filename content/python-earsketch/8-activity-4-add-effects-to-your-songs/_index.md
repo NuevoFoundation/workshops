@@ -16,7 +16,7 @@ specific effects for each audio clip. It is important to note that
 multiple effects can be placed on the same track. This allows for the
 producer to combine multiple effects together. Earsketch has many
 effects built-in. To reference all the effects, visit this
-[link](https://earsketch.gatech.edu/earsketch2/#?curriculum=5-1-0&language=python)
+[link](https://earsketch.gatech.edu/earsketch2/#?curriculum=5-1-0&language=python) and make sure *Curriculum* pane is selected in the navigation bar.
 
 Before we start adding effects to our song, let\'s breakdown the pieces
 of the two `setEffect` functions:
@@ -43,7 +43,7 @@ function with more parameters!
 -   `effectEndValue`: The ending value of the parameter
 -   `effectEndLocation`: The measure at which the ending value is set
 
-This version of the `setEffect` allows for us to perform \"automation\"
+This version of the `setEffect` allows for us to perform *automation*
 on a specific piece of our song. Automation is a way to change the value
 of an effect over time. One use of automation is to make a song fade in
 or fade out. To do so, we must adjust the **GAIN** `effectParameter`
@@ -81,27 +81,32 @@ our song.
     value for DELAY\_FEEDBACK.
 
 Your code should now look something like this:
-{{% notice %}}
-    from earsketch import *\\
+
+    from earsketch import *
+    
     init()
-    setTempo(120)\\
+    setTempo(120)
+    
     fitMedia(HOUSE_DEEP_CRYSTALCHORD_001, 3, 1, 5)
-    fitMedia(HOUSE_DEEP_CRYSTALCHORD_002, 3, 5, 9)\\
-    \# Section A
+    fitMedia(HOUSE_DEEP_CRYSTALCHORD_002, 3, 5, 9)
+    
+    # Section A
     def sectionA(startMeasure, endMeasure):
         fitMedia(RD_UK_HOUSE__AIRYPAD_1, 1, startMeasure, endMeasure)
         fitMedia(HOUSE_MAIN_BEAT_002, 4, startMeasure, endMeasure)
-        fitMedia(HOUSE_ROADS_BASS_001, 5, startMeasure, endMeasure)\\
-    \# Section B
+        fitMedia(HOUSE_ROADS_BASS_001, 5, startMeasure, endMeasure)
+    
+    # Section B
     def sectionB(startMeasure, endMeasure): 
         fitMedia(Y37_ORGAN_1, 2, startMeasure, endMeasure)
         fitMedia(HOUSE_ROADS_BASS_001, 5, startMeasure, endMeasure)
-        fitMedia(RD_UK_HOUSE__ARPLEAD_1, 6, startMeasure, endMeasure)\\
+        fitMedia(RD_UK_HOUSE__ARPLEAD_1, 6, startMeasure, endMeasure)
+    
     sectionA(1, 9)
     sectionB(9, 17)
     sectionA(17, 25)
     setEffect(2, DELAY, DELAY_FEEDBACK, -6.0)
     setEffect(2, DELAY, DELAY_TIME, 1200.0)
-    setEffect(0, VOLUME, GAIN, -60, 1, 0, 3)\\
+    setEffect(0, VOLUME, GAIN, -60, 1, 0, 3)
+    
     finish()
-{{% /notice %}}
