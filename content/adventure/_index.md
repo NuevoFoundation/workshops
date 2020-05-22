@@ -1,5 +1,5 @@
 ---
-title: "Python Choose Your Own Adventure Game"
+title: "Python: Choose Your Own Adventure Game"
 description: "An introductory guide on how to make a Choose Your Own Adventure Game in Python"
 date: 2019-07-23T11:45:38-07:00
 prereq: "None"
@@ -7,7 +7,7 @@ difficulty: "Intermediate"
 download: ""
 draft: false
 icon: "fab fa-python"
-weight: 4
+weight: 11
 ---
 
 # Part 1 – Welcome!

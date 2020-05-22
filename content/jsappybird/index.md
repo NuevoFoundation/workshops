@@ -1,10 +1,11 @@
 ---
-title: "JSappy Bird"
+title: "Javascript: JSappy Bird"
 description: "Learn about variables, functions, and conditionals all while building a flappy bird clone."
 date: 2019-07-23T10:42:43-07:00
 difficulty: "Beginner/Intermediate"
 draft: true
 hidden: true
+weight: 5
 ---
 
 ![alt text](resources/_gen/images/flappy.png "JSappyBird")

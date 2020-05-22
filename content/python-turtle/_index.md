@@ -1,12 +1,13 @@
 ---
-title: "Python Turtle"
+title: "Python: Coding with Turtles"
 description: "Learning Python with Turtle"
 date: 2019-07-25T13:24:17-07:00
 prereq: ""
 difficulty: "Beginner"
 image: ""
 draft: false
-weight: 3
+icon: "fab fa-python"
+weight: 13
 ---
 
 # Introduction

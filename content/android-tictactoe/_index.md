@@ -1,5 +1,5 @@
 ---
-title: "Android Tictactoe"
+title: "Android: Tictactoe"
 description: "Learn about variables, functions, and conditionals all while building a Tic-Tac-Toe Android app."
 date: 2019-07-23T14:28:42-07:00
 prereq: "link to workshop markdown file"

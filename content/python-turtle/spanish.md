@@ -1,12 +1,8 @@
 ---
-title: "Python Turtle Spanish"
+title: "Python Turtle en Español"
 description: "Workshop description goes here"
 date: 2019-09-22T23:26:18-05:00
-prereq: "link to workshop markdown file"
-difficulty: "Beginner, Intermediate, or Advanced"
-download: "URL to GitHub folder goes here"
-image: "src to image"
-icon: "fas fa-code"
+difficulty: "Principiante"
 ---
 
 # Python con Turtle
