@@ -6,7 +6,8 @@ prereq: "Python Basics: Print, Comments, Functions"
 difficulty: "Intermediate"
 download: ""
 draft: false
-weight: 2
+icon: "fab fa-python"
+weight: 12
 ---
 
 ### Let's make some music!

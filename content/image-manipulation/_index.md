@@ -1,11 +1,11 @@
 ---
-title: "Python Image Manipulation"
+title: "Python: Image Manipulation"
 description: "An introduction to manipulating images in python."
 date: 2020-02-10T13:24:17-07:00
 difficulty: "Beginner"
 draft: false
 icon: "fab fa-python"
-weight: 1
+weight: 15
 ---
 
 # Introduction
