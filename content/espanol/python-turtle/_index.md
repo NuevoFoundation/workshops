@@ -1,5 +1,5 @@
 ---
-title: "Python Turtle en Español"
+title: "Python Turtle"
 description: "Workshop description goes here"
 date: 2019-09-22T23:26:18-05:00
 difficulty: "Principiante"

@@ -15,20 +15,16 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir= false
 enableMissingTranslationPlaceholders = false
 
+[Languages]
+[Languages.en]
+weight = 1
+languageName = "English"
+contentDir = "content/english"
 
-# [Languages]
-# [Languages.en]
-# title = "Documentation for Hugo docDock"
-# weight = 1
-# languageName = "English"
-# 
-# [Languages.fr]
-# title = "Documentation du thème docDock"
-# weight = 2
-# languageName = "Français"
-
-
-
+[Languages.es]
+weight = 2
+languageName = "Español"
+contentDir = "content/espanol"
 
 [params]
 editURL = "https://github.com/NuevoFoundation/workshops/tree/master/content/"
