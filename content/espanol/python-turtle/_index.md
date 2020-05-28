@@ -1,6 +1,6 @@
 ---
 title: "Python Turtle"
-description: "Workshop description goes here"
+description: "Aprender Python con Turtle"
 date: 2019-09-22T23:26:18-05:00
 difficulty: "Principiante"
 ---
@@ -18,7 +18,7 @@ Alex vive en un país llamado Isla Tortuga. Los habitantes de Isla Tortuga habla
 
 # Part 1 - Construyendo la colmena
 
-Para que  Alex pueda vivir en una colmena, necesita aprender a construir un panal. Vamos a usar una biblioteca de Python que se llama `turtle` para dibujar el panal.
+Para que Alex pueda vivir en una colmena, necesita aprender a construir un panal. Vamos a usar una biblioteca de Python que se llama `turtle` para dibujar el panal.
 
 
 ## Using Repl.it

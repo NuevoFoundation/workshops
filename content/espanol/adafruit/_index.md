@@ -1,6 +1,6 @@
 ---
 title: "Programando Frutas Musicales con Adafruit"
-description: ""
+description: "Crear la música con EarSketch"
 date: 2020-05-237T11:45:38-07:00
 prereq: "None"
 difficulty: "Principiante"

@@ -5,10 +5,10 @@ draft: false
 hidemetadata: true
 ---
 
-## Workshop Projects
+## Proyectos
 {{< workshop-list style="card" depth="1" showhidden="false" description="true"  />}}
 
-## Contributor guidelines
+## Pautas para colaboradores (en inglés)
 
-- [Contributor guidelines](guidelines/)
-- [Workshop website developer guidelines](guidelines/web-developer)
+- [Pautas para colaboradores](../guidelines/)
+- [Pautas para desarrolladores de sitios web](../guidelines/web-developer)
