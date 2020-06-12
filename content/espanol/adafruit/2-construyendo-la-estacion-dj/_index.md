@@ -3,6 +3,7 @@ title: "Construyendo la estación de DJ"
 description: ""
 draft: false
 weight: 2
+translationKey: "adafruit-2"
 ---
 
 ### Conectando las naranjas

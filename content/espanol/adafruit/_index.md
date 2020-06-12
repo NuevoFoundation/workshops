@@ -7,6 +7,7 @@ difficulty: "Principiante"
 download: ""
 draft: false
 weight: 1
+translationKey: "adafruit-main"
 ---
 
 1. [Los Componentes](1-los-componentes) 

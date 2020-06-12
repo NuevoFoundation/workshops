@@ -3,6 +3,7 @@ title: "Building the DJ station"
 description: ""
 draft: false
 weight: 2
+translationKey: "adafruit-2"
 ---
 
 ### Hooking up the oranges 

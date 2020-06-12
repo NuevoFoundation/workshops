@@ -3,6 +3,7 @@ title: "Creando el programa "
 description: ""
 draft: false
 weight: 3
+translationKey: "adafruit-3"
 ---
 
 Abre tu navegador de internet favorito (como Edge, Firefox, Google Chrome, Internet Explorer) y entra a https://aka.ms/oranges. 

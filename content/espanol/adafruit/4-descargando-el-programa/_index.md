@@ -3,6 +3,7 @@ title: "Descargando el Programa"
 description: ""
 draft: false
 weight: 4
+translationKey: "adafruit-4"
 ---
 
 En la parte inferior de tu espacio de trabajo, debería ver este botón rosado de descarga al lado del nombre de tu programa. Puedes asignarle un nombre a tu programa, aquí se llama adafruit_musicalfruit. Haz clic en el botón de descarga.
