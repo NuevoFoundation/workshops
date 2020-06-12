@@ -3,6 +3,7 @@ title: "Activity 1 - Drawing a square"
 date: 2019-07-25T13:24:17-07:00
 weight: 3
 draft: false
+translationKey: "python-turtle-activity-1"
 ---
 
 Kudos! You helped Alex draw a line! Now let’s step it up and help Alex draw a square. To draw a square, we need to follow these steps:

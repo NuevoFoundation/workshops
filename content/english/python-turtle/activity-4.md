@@ -3,6 +3,7 @@ title: "Activity 4 - Simplifying code with functions"
 date: 2019-07-25T13:24:17-07:00
 weight: 6
 draft: false
+translationKey: "python-turtle-activity-4"
 ---
 
 We drew one hexagon. But this is just one of many hexagons Alex needs to build his honeycomb. Once again, it seems that we would have to repeat the code many times to draw multiple hexagons. Fortunately, we don't have to! Functions to the rescue!

@@ -8,6 +8,7 @@ image: ""
 draft: false
 icon: "fab fa-python"
 weight: 13
+translationKey: "python-turtle-home"
 ---
 
 # Introduction

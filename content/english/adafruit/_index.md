@@ -8,6 +8,7 @@ download: ""
 draft: false
 icon: "fas fa-microchip"
 weight: 1
+translationKey: "adafruit-main"
 ---
 
 1. [The Components](1-the-components)

@@ -53,9 +53,7 @@
 
 		{{- end}}
 
-    <hr />
-    <li>{{- partial "language-selector.html" . }}</li>
-    
+    <hr />    
     </ul>
 
  <section id="footer">
@@ -117,6 +115,8 @@
   {{if not .IsHome}}
     <h1>{{.Title}}</h1>
   {{end}}
+
+  <li>{{- partial "language-selector.html" . }}</li>
 
 {{define "breadcrumb"}}
 {{ if .page.Parent}}

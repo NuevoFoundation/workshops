@@ -3,6 +3,7 @@ title: "Using Repl.It"
 date: 2019-07-25T13:24:17-07:00
 weight: 1
 draft: false
+translationKey: "python-turtle-repl-it"
 ---
 
 To help Alex live in a beehive, he needs to learn how to create a honeycomb! We will use Python's `turtle` library to draw a honeycomb for Alex.

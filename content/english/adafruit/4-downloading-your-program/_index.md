@@ -3,6 +3,7 @@ title: "Downloading your program"
 description: ""
 draft: false
 weight: 4
+translationKey: "adafruit-4"
 ---
 At the bottom of your workspace you should see this bright pink download button next to the name of your program. You can name your program anything, here it’s called adafruit_musicalfruit. Click on the download button.
 
