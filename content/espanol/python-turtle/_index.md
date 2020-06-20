@@ -2,6 +2,7 @@
 title: "Python Turtle"
 description: "Aprender Python con Turtle"
 date: 2019-09-22T23:26:18-05:00
+prereq: "Ninguno"
 difficulty: "Principiante"
 weight: 2
 translationKey: "python-turtle-home"
