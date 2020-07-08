@@ -1,12 +1,12 @@
 ---
-title: "Java: "
+title: "Java: Basics"
 description: "Basics of Java"
-date: 2020-07-07T18:45:38-07:00 # what is this?
+date: 2019-07-30T18:45:38-07:00
 prereq: "none"
 difficulty: "Beginner"
-icon: "fab fa-python" # what is this?
-draft: false # what is this?
-weight: 10 # what is this?
+icon: ""
+draft: false
+weight: 10
 ---
 
 # Java basics
