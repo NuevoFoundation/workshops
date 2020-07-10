@@ -39,3 +39,25 @@ Output:
      `\/{o,o}  <   Hi, I am Minerva. Patrick's friend!  |
       / /)  )    \ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ /
      /,--"-"- 
+
+# activity-2: Types and Variables
+
+## DataType
+```java
+class Main {
+  public static void main(String[] args) {
+    String bestFriend = "Minerva";
+    int numOfFriends = 4;
+    double GPA = 3.6;
+    char meaningOfLife = '$';
+    boolean loveMusic = true;
+  }
+}
+```
+
+## Variable
+Output:
+
+```
+x: 11.2 y: 40.0 z: 4
+```
