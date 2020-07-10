@@ -6,13 +6,13 @@ date: 2020-07-08T00:00:00Z
 
 ### 1. Let the Program Speak! 
 
-Let’s try to print `Hello World` out by typing `System.out.print(“Hello World”);` 
+Let’s try to print `Hello World` out by typing `System.out.print("Hello World");` 
 
 As you might have guessed, the program prints out whatever you typed in the parenthesis. And, each line of code ends with `;`.
 
 After, add more statements to print numbers by putting numbers in the parenthesis (i.e. `System.out.print(2020)`) or a symbol by putting one symbol between 2 single quotes `'` (i.e. `System.out.print('@')`).
 
-<iframe height="600px" width="100%" src="https://repl.it/@WillHsu/Nuevo-Java-Basics?lite=true#1-print.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/HelloWorld?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 {{% notice tip %}}
 #### Do you notice that all the statements you typed end up printing everything in one line?
@@ -57,7 +57,8 @@ Use what you just learn and recreate this owl below using just 4 lines of code! 
       / /)  )    \ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ /
      /,--"-"- 
 
-<iframe height="600px" width="100%" src="https://repl.it/@WillHsu/Nuevo-Java-Basics?lite=true#2-owl.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Owl?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 {{% notice warning %}}
 #### I got an error!
 

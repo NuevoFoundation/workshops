@@ -18,7 +18,9 @@ Java is a high-level programming language developed by James Gosling and Sun Mic
 
 And, in this course, we will cover all the basic features of the language.
 
-![animation of duck Patrick](https://media.giphy.com/media/l49JKwmJLChtS6d44/giphy.gif)
+![animation of duck Patrick](https://media.giphy.com/media/l49JKwmJLChtS6d44/giphy.gif) 
+
+<p style="text-align: center;">(image created by Molang: giphy.com/molangofficialpage)</p>
 
 In this course, we will follow the lead of a music-loving yellow duck named <b>Patrick</b> 🐥 to learn all about Java and make friends along the way!
 
