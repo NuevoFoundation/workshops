@@ -2,7 +2,7 @@
 title: "Python: Coding with Turtles"
 description: "Learning Python with Turtle"
 date: 2019-07-25T13:24:17-07:00
-prereq: ""
+prereq: "None"
 difficulty: "Beginner"
 image: ""
 draft: false

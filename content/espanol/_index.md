@@ -5,7 +5,7 @@ draft: false
 hidemetadata: true
 ---
 
-## Proyectos
+## Proyectos de tallers
 {{< workshop-list style="card" depth="1" showhidden="false" description="true"  />}}
 
 ## Pautas para colaboradores (en inglés)
