@@ -2,6 +2,7 @@
 title: "Types and Variables"
 description: "Introduce types and variables in Java."
 date: 2020-07-08T00:00:00Z
+weight: 3
 ---
 
 ### 1. What the Type! 
@@ -32,7 +33,7 @@ int age = 10;
 boolean loveMusic = true;
 ```
 Patrick 🐥 isn't a master of data types! He often mixed them up when declaring variables. Let's help him fix his mistake:
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/DataType?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsDataType?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 By storing data in variables, you can use that data later or change it by assigning it to a different data of the same type. For example:
 
@@ -52,4 +53,4 @@ x = 2 + x * z;
 y = 10 * z;
 System.out.println("x: " + x + " y: " + y + " z: " + z );
 ```
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Variable?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsVariable?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>

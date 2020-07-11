@@ -1,7 +1,7 @@
 ---
 title: "Java: TicTacToe"
 description: "Learn how to make a console based TicTacToe game in Java"
-date: 2019-07-30T18:45:38-07:00
+date: 2020-07-08T00:00:00Z
 prereq: "none"
 difficulty: "Beginner"
 icon: ""

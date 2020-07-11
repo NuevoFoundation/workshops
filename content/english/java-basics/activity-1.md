@@ -2,6 +2,7 @@
 title: "Print Statements and Comments"
 description: "Introduce println() methods and comments in Java."
 date: 2020-07-08T00:00:00Z
+weight: 2
 ---
 
 ### 1. Let the Program Speak! 
@@ -12,7 +13,7 @@ As you might have guessed, the program prints out whatever you typed in the pare
 
 After, add more statements to print numbers by putting numbers in the parenthesis (i.e. `System.out.print(2020)`) or a symbol by putting one symbol between 2 single quotes `'` (i.e. `System.out.print('@')`).
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/HelloWorld?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsHelloWorld?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 {{% notice tip %}}
 #### Do you notice that all the statements you typed end up printing everything in one line?
@@ -58,14 +59,14 @@ Use what you just learn and recreate this owl below using just 4 lines of code! 
      /,--"-"- 
 
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Owl?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsOwl?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 {{% notice warning %}}
 #### I got an error!
 
      Main.java:4: error: reached end of file while parsing
 If you get an error like this such as, it is posible that you forgot to escape chararcters such as `"` and `\`.
 
-Revisit the thrid tip above to see how to escape character in print statement!
+Revisit the thrid tip above to see how to escape characters in a print statement!
 {{% /notice %}}
 
 ### 3. Make a Comment
