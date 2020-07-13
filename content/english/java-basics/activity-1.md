@@ -7,9 +7,9 @@ weight: 2
 
 ### 1. Let the Program Speak! 
 
-Let’s try to print `Hello World` out by typing `System.out.print("Hello World");` 
+Let’s try to write a program that says `Hello World` out by typing the line of code `System.out.print("Hello World");` 
 
-As you might have guessed, the program prints out whatever you typed in the parenthesis. And, each line of code ends with `;`.
+The program prints out whatever you typed in the parenthesis of `System.out.print(`. And, each line of code ends with `;`.
 
 After, add more statements to print numbers by putting numbers in the parenthesis (i.e. `System.out.print(2020)`) or a symbol by putting one symbol between 2 single quotes `'` (i.e. `System.out.print('@')`).
 

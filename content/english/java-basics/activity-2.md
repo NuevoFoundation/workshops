@@ -5,7 +5,23 @@ date: 2020-07-08T00:00:00Z
 weight: 3
 ---
 
-### 1. What the Type! 
+### 1. Variables: Name It!
+In the last exercise, we learn to print different statements with `System.out.print()`. 
+
+While it's great to print out a number or a sentence, we haven't given them a meaning. 
+
+In Java, we introduce the idea of a <b>variable</b> for data. A variable is like a box that stores a piece of data with a name. 
+
+<img src="images/variable.png" height="150"/> 
+
+For example, there can be a variable called `myName` that stored `"Patrick"`, another variable called `loveMusic` that stored `true`, and another variable called `age` that stored `3`.
+
+
+While it’s cool to have different types for different data, often we want to store them, so we can use the data later. 
+
+We do so by declaring a <b>variable</b> (name) and an associated type. For example:
+
+### 2. What the Type! 
 
 In Java, all data has a <b>type</b>, and a different type stores different kinds of values. 
 
@@ -23,10 +39,7 @@ Other important types include:
 
 - `double` type: type that store fractional numbers (i.e. `2.0`, `3.14`, `9.33`).
 
-### 2. Variables: Name It!
-While it’s cool to have different types for different data, often we want to store them, so we can use the data later. 
 
-We do so by declaring a <b>variable</b> (name) and an associated type. For example:
 ```
 String name = “Patrick”;
 int age = 10;
