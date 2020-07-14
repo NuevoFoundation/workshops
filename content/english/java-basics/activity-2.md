@@ -1,5 +1,5 @@
 ---
-title: "Types and Variables"
+title: "Variables and Types"
 description: "Introduce types and variables in Java."
 date: 2020-07-08T00:00:00Z
 weight: 3
@@ -30,10 +30,10 @@ int age = 3;
 ```
 
 In general, to declare a variable we write them in the format: `[data type] [variable name] = [data];`.
-
+{{% notice note %}}
 The following are the important data types that have been built-in in Java:
 
-- `int` type: an integer (i.e. 20, 30, 35).
+- `int` type: an integer (i.e. `20`, `30`, `35`).
 
 - `char` type: a character such as a symbol or single alphabet letter (i.e. `'A'`, `'b'`, `'('`, `']'`). 
 
@@ -42,6 +42,7 @@ The following are the important data types that have been built-in in Java:
 - `boolean` type: a type that is either the value `true` or `false`.
 
 - `double` type: type that store fractional numbers (i.e. `2.0`, `3.14`, `9.33`).
+{{% /notice %}}
 
 Let's revisit the three variables we talked about and identify their data types. 
 
@@ -64,21 +65,23 @@ By storing data in variables, you can use that data later or change it by assign
 ```
 int age = 10;
 System.out.println(age); // prints out 10
-age = age + 1; // add one to the age variable
+age = 11; // assign data 11 to the variable age
 System.out.println(age); // prints out 11
 ```
 {{% /notice %}}
 
 ### 4. What the Type -- Track Numbers! 
-Now consider the following code. What do you think the output is? Track the calculations by yourself then test it out below!
+Now consider the following code. What do you think the output is? Track the values of each variable by yourself then test it out below!
 
 ```
 double x = 2.3;
 double y = 10.0;
 int z = 4;
+
 x = y;
 y = x;
 z = 0;
+z = z;
 System.out.println("x: " + x + " y: " + y + " z: " + z );
 ```
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsVariable?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>

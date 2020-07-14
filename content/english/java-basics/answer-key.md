@@ -59,5 +59,5 @@ class Main {
 Output:
 
 ```
-x: 11.2 y: 40.0 z: 4
+x: 2.3 y: 2.3 z: 0
 ```
