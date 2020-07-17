@@ -12,7 +12,7 @@ Patrick 🐥 is a very polite duck who likes to greet everyone he meets with "Go
 <p style="text-align: center;">(image by National Geographic: giphy.com/natgeochannel)</p>
 
 As we learned before, we can print these statements as below:
-```
+```java
 System.out.println("Good Morning");   // say it between 0:00 - 11:59
 System.out.println("Good Afternoon"); // say it between 12:00 - 19:59
 System.out.println("Good Night");     // say it between 20:00 - 23:59
@@ -42,7 +42,7 @@ if(boolean expression){
 ```
 An <b>if-else statement</b> follows the structure shown above. If the boolean expression is `true`, the program will execute the if-block with `statement(s) A`. Otherwise, the program executes only the else-block with `statement(s) B`.
 #### Example
-```
+```java
 boolean likeMusic = true;
 if(likeMusic == true){
     System.out.println("I like Music");
@@ -82,7 +82,7 @@ while(boolean expression){
 `statement(s)` in the while block will be executed as long as the `boolean expression` is true. 
 
 The following is an example that prints out 1 through 10:
-```
+```java
 int number = 1;
 while(number <= 10){
     System.out.println(number);
@@ -103,7 +103,7 @@ In a for loop, there are three parts the in condition block: `initialization`, `
    If it is `false`, exit the for loop.
 
 The following is an example that prints out 1 through 10:
-```
+```java
 for(int number = 1; number <= 10; number = number + 1){
     System.out.println(number);
 }
@@ -118,7 +118,7 @@ Let's try to do it in a while loop:
 3. Write out the appropriate `boolean expression` and write out the while loop.
 
 By following those step we will get a while loop like this:
-```
+```java
 int total = 0;
 int num = 1;
 while(num <= 100){

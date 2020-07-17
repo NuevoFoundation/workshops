@@ -25,7 +25,7 @@ Before learning that we need to learn the concept of <b>type</b> in Java. Each v
 For example, the variable called `age` that store the number `3` should contain contain integers, not sentences or symbols. 
 
 In Java, for a variable to store whole numbers, it is type `int`. And, we declare a `int` variable called `age` with data `3` with the line of code:
-```
+```java
 int age = 3;
 ```
 
@@ -49,7 +49,7 @@ Let's revisit the three variables we talked about and identify their data types.
 <img src="../images/dataType.png" height="200"/> 
 
 To declare these variables in Java, we type the following:
-```
+```java
 String name = “Patrick”;
 int age = 10;
 boolean loveMusic = true;
@@ -62,7 +62,7 @@ Patrick 🐥 isn't a master of data types! He often mixed them up when declaring
 {{% notice tip %}}
 By storing data in variables, you can use that data later or change it by assigning it to a different data of the same type. For example:
 
-```
+```java
 int age = 10;
 System.out.println(age); // prints out 10
 age = 11; // assign data 11 to the variable age
@@ -73,7 +73,7 @@ System.out.println(age); // prints out 11
 ### 4. What the Type -- Track Numbers! 
 Now consider the following code. What do you think the output is? Track the values of each variable by yourself then test it out below!
 
-```
+```java
 double x = 2.3;
 double y = 10.0;
 int z = 4;

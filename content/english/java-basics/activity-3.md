@@ -7,7 +7,7 @@ weight: 4
 
 ### 1. Let's do Math: Arithmetic Operator
 In the last exercise, we learn about variables any how we can assign values to a variable of a specific type, such as:
-```
+```java
 int age = 3;  // declare variable age of type int with value 3
 age = 4;      // assign 4 to the variable age
 ```
@@ -16,7 +16,7 @@ Looking at the code above, it essentially add 1 to the value of the variable `ag
 
 And, in Java, we can perform math operations on variables directly with <b>arithmetic operators</b>: `+`, `-`, `*`, `/`, `%`.
 For example, we can use the add operator `+` to add 1 to `age`:
-```
+```java
 int age = 3;  // declare variable age of type int with value 3
 age = age + 1;// add 1 to age
 ```
