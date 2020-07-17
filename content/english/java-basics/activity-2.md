@@ -50,7 +50,7 @@ Let's revisit the three variables we talked about and identify their data types.
 
 To declare these variables in Java, we type the following:
 ```java
-String name = “Patrick”;
+String name = "Patrick";
 int age = 10;
 boolean loveMusic = true;
 ```
