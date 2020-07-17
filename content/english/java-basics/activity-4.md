@@ -68,12 +68,12 @@ In math class, Patrick's 🐥 teacher ask the class to solve a math challenge, a
 
 The teacher asks them to find the <b>sum of 1, 2, 3, ...., 100</b>. That is what is <b>1 + 2 + 3 + 4 ... + 99 + 100</b>?
 
-While we can plug this in to a calculator, but that is gonna take a while. Thankfully, in Java, you can eaily calculate this in 3 lines with the help of a <b>for loop</b> or <b>while loop</b>.
+While we can plug this in to a calculator, that is gonna take a while. Thankfully, in Java, you can easily calculate this in 3 lines with the help of a <b>for loop</b> or <b>while loop</b>.
 
 {{% notice note %}}
 <b>For loop</b> and <b>While loop</b> are control structures in Java that allow you to execute blocks of code multiples times.
 
-#### While Statement
+#### While Loop
 ```
 while(boolean expression){
     statement(s)
@@ -90,7 +90,7 @@ while(number <= 10){
 }
 ```
 In the while loop above, the program will print out the value of `number` and increment `number`. This step will be performed as long as `number <= 10`, and in this case the loop terminates when `number` is 11.
-#### For Statement
+#### For Loop
 ```
 for(initialization; termination condition; update statement){
     statement(s)
