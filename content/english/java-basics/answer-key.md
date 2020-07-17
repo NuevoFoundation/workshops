@@ -61,3 +61,21 @@ Output:
 ```
 x: 2.3 y: 2.3 z: 0
 ```
+
+# activity-3: Operators
+TODO
+
+
+
+
+
+```
+int currentHour = ... ; // variable that stores current hour between 0 - 23
+if(currentHour < 12){
+    System.out.println("Good Morning");
+}else if(currentHour < 20){
+    System.out.println("Good Afternoon");
+}else{
+    System.out.println("Good Night");
+}
+```
