@@ -79,3 +79,10 @@ if(currentHour < 12){
     System.out.println("Good Night");
 }
 ```
+
+
+      /*int total = 0;
+      for(int i = 1; i <= level; i++){
+          total = total + i*i;
+      }
+      return total;*/
