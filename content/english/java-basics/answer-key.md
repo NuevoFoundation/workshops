@@ -63,13 +63,47 @@ x: 2.3 y: 2.3 z: 0
 ```
 
 # activity-3: Operators
-TODO
 
+```java
+        int patrickGrade = 88;
+        int tomGrade = 89;
+        int maryGrade = 95;
+        int chrisGrade = 84;
+        int jenGrade = 92;
 
+        average = (patrickGrade + tomGrade + maryGrade + chrisGrade + jenGrade)/5;
 
-
+        boolean over60 = (average > 60);
+        boolean over70 = (average > 70);
+        boolean over80 = (average > 80);
+        boolean over90 = (average > 90);
+```
+Output:
 
 ```
+---------------------------
+     Music Grade Report    
+---------------------------
+
+Student Grades:          
+- Patrick: 88
+- Tom: 89
+- Mary: 95
+- Chris: 84
+- Jen: 92
+
+Class Average: 89.0
+- Average Over 60: true
+- Average Over 70: true
+- Average Over 80: true
+- Average Over 90: false
+```
+
+
+# activity-4: Control Structures
+
+## If statement
+```java
 int currentHour = ... ; // variable that stores current hour between 0 - 23
 if(currentHour < 12){
     System.out.println("Good Morning");
@@ -80,10 +114,14 @@ if(currentHour < 12){
 }
 ```
 
+## While Loop
+```java
+    int myTotal = 0;
+    for(int num2 = 1; num2 <= 100; num2++){
+        myTotal += num2;
+    }
+```
 
-
-
-# activity-4: Control Structures
 # activity-5: Methods
 
 ## Pyramid
@@ -96,7 +134,6 @@ if(currentHour < 12){
       return total;
   }
 ```
-
 
 # activity-6: Object and Classes
 
