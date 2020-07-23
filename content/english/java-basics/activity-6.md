@@ -6,26 +6,31 @@ weight: 7
 ---
 
 ### 1. Creating a Class!
-Java is an object-oriented programming language, and in Java everything is associated with an <b>object</b> and a <b>class</b> (the blueprint for the object).
+Java is an <b>object-oriented</b> programming language, which means everything in Java is associated with an <b>object</b> and a <b>class</b> (the blueprint for the object).
 
-For starters, the line of code that we used to print statements from activity 1 is activity a method call from a predefined class `System`!
+For starters, the line of code that we used to print statements from activity 1 is actually a method call from a predefined class called `System`!
 ```java
 System.out.println("Hello World");
 ```
 1. `System` is a class that deals with user input and outputs.
-2. `out` is a variable in class `System` of the type `PrintStream`.
-3. `println()` is a method of the class `PrintStream`.
+2. `out` is a variable in class `System` of the class/type `PrintStream`.
+3. `println()` is a method defined in the class `PrintStream`.
 
+<br />
 Another class we have interacted with in the previous exercises is `String`. The `String` class defines a set of rules on how a list of characters should behave.
 
-With the line of code, `String name = "Patrick";`, we created a `String` object with the rules defined in the `String` class.
+With following line of code, we created a `String` object called `name` using the rules defined in the `String` class:
+```java
+String name = "Patrick";
+```
+<br />
+`System`, `PrintStream`, and `String` are predefined classes in Java. However, we are not limited to these classes, we can actually create our own data type by writing a class!
 
-`System`, `PrintStream`, and `String` are predefined classes in Java. However, we are not limited to these classes, we can actually create our own types by writing a new class that defines an object!
+Let's learn about the different parts in a class below:
 
 {{% notice note %}}
 #### Class
-A class is a blueprint or prototype of a new type of object.
-In general, a class contains three important parts: (1) data fields/instance variables (2) constructor (3) methods. 
+A class is a blueprint or prototype of a new type of object. In general, a class contains three important parts: (1) data fields/instance variables (2) constructor (3) methods. 
 
 <img src="../images/class.png" height="400"/> 
 
@@ -34,7 +39,7 @@ In general, a class contains three important parts: (1) data fields/instance var
 
 (2) <b>constructor</b>: This is a method we call to create an object of this Class.
 
-(3) <b>methods</b>: These are methods an object of this class will be able to call to perform tasks.
+(3) <b>methods</b>: These are methods an object of this class will be able to call to perform certain tasks.
 
 For example:
 ```java
@@ -53,7 +58,7 @@ public class SampleClass{
 {{% /notice %}}
 
 ### 2. Try it Out 🐥!
-Let's make a `Bird` class to represent Patrick 🐥 and all of his best Bird friends!
+Let's make a `Bird` class to represent Patrick 🐥 and all of his Bird friends by following the steps below!
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsBird?lite=true#Bird.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
@@ -64,30 +69,30 @@ public class Bird{}
 <br />
 
 ####  Second, let's declare all the fields of the Bird class: species, name, hobby, age, loveMusic.
-Let's identify the appropriate type to each field:
-- species should be a `String` that store for exmaple: "duck", "swan", "owl".
-- name should be a `String` that store for example: "Patrick".
-- hobby should be a `String` that store for example: "play basketball".
-- age should be an `int` that store for example: 25.
-- loveMusic should be a `boolean` that store either true or false.
+Each fields is declared in the format: `private` `data type` `name` `;`.
+1. We declare all 5 fields as `private` in the class `Bird`. This ensures these data can only be accessed within this class.
 
-Let's declare all 5 fields as `private` in the class `Bird` which means these data can only be accessed within this class:
+2. Let's identify the appropriate type for each field:
+- `species` should be a `String` that store for exmaple: "duck", "swan", "owl".
+- `name` should be a `String` that store for example: "Patrick".
+- `hobby` should be a `String` that store for example: "play basketball".
+- `age` should be an `int` that store for example: 25.
+- `loveMusic` should be a `boolean` that store either true or false.
 
-For example, you would put `private String species;` to declare `species` as a private field of class `Bird`.
+For example, to declare `species` as a private field of class `Bird`, you would put `private String species;` .
 
-Finish the other 4 variables!
+3. Finish creating the other 4 fields of the Bird class!
 
 <br />
 
 #### Third, let's create the constructor for the class `Bird`. 
-Usually, constructor is the method that assign values to all the instance variables in a class. It has the format `public` `class name` (`parameter`).
+Usually, constructor is the method that initialializes value to all the fields in a class. It has the format `public` `class name` `(parameter)`. Since we have 5 fields in this class, the constructor will take in 5 parameter/inputs.
 ```java
-public Bird(String species_input, String name_input, String hobby_input, int age_input, boolean loveMusic_input){
+public Bird (String species_input, String name_input, String hobby_input, int age_input, boolean loveMusic_input){
     // constructor body
 }
 ```
-The method header contains 5 parameters, which will be inputs of the method call to the constructor when the program creates an `Bird` object!
-In the constructor body, we need to initialize all the instance variables, or assign them to initial values with the following:
+In the constructor body, we need to initialize all the instance variables, by assign each variables to its initial values:
 ```java
 species = species_input;
 name = name_input;
@@ -98,64 +103,81 @@ loveMusic = loveMusic_input;
 <br />
 
 #### Lastly, let's create some methods for the class `Bird`.
-Let's create 6 methods for this class!
-1. getSpecies();   // return species of the bird
-2. getName();      // return name of the bird
-3. getHobby();     // return hobby of the bird
-4. getAge();       // return age of the bird
-5. getLoveMusic(); // return whether the bird loves music
-6. toString();     // return information in a String
+We are gonna create 6 methods for this class!
+-  getSpecies();   // return species of the bird
+-  getName();      // return name of the bird
+-  getHobby();     // return hobby of the bird
+-  getAge();       // return age of the bird
+-  getLoveMusic(); // return whether the bird loves music
+-  toString();     // return information in a String
 
 Try to write out the first 5 methods with what you learned from the previous exercise about writing methods!
 
-And, let's write the `toString()` method together!
+<br />
+After, let's write the `toString()` method together!
 
-`toString()` is a method that returns the `String` representation of the object. We will return a String that include all fields of the `Bird`: name, age, species, hobby, loveMusic by calling the methods that returns those particular fields!
+`toString()` is a method that returns the `String` representation of the object. 
+
+We will return a String that include all fields of the `Bird`: name, age, species, hobby, loveMusic by calling the 5 methods you just implemented!
 ```java
 public String toString(){
+    // initialize variable info to have empty String
     String info = "";
+
+    // append information to the String in the format: 
+    // Hi, my name is [name]. I am a [age] year old [species] who likes to [hobby].
     info = info + "Hi, my name is " + getName() + 
-           ". I am a " + getAge() + "year old " + getSpecies() + 
+           ". I am a " + getAge() + " year old " + getSpecies() + 
            " who likes to " + getHobby() + ". ";
+
+    // if the Bird likes music, append the String "I also like music very much!" to info
     if(getLoveMusic()){
         info = info + "I also like music very much!";
     }else{        
         info = info + "However, I do not like music!";
     }
+
+    // return the full String
     return info;
 }
 ```
+{{% notice warning %}}
+If you correctly implemented the `Bird` class, you will see the following message when you click `Run`:
+```
+Congradulations! You correctly implemented the Bird Class :)
+```
+
+If there is still something incomplete or incorrect when you click `Run`:
+- You might get an error such as `Main.java:3: error: cannot access Bird`.
+- Or, you will see the message, `Something is still not quite right!`.
+{{% /notice %}}
 
 ### 3. Creating Birds 🐥!
+Congradulations! You just wrote you first Java class `Bird` class. Now let's learn to write a program that uses `Bird` objects!
+
 We defined the `Bird` class to have the following attributes (instance variables) and bahaviors (methods):
 <img src="../images/bird_class.png" height="450"/> 
 
-After writing the `Bird` class, let's write a program that uses `Bird` objects!
 
-To create a new object of a particular class, we make a method call to the class' consturctor.
+To create a new object of a particular class, we call the consturctor of that class in the format `class name` `variable name` `=` `new` `constructor call`.
 
 Recall that the constructor of `Bird` class is the following:
 ```java
 public Bird(String species_input, String name_input, String hobby_input, int age_input, boolean loveMusic_input);
 ```
 
-Hence, we can create a Bird with the attribute: 
-- species - duck
-- name - Patrick
-- hobby - hangout with friends
-- age - 15
-- loveMusic - true, 
-with one line of code in the format `class name` `variable name` `=` `new` `constructor call`.
+Hence, we can create a Bird with these attributes (species - duck; name - Patrick; hobby - hangout with friends; age - 15; loveMusic - true) with this line of code.
 ```java
 Bird patrick = new Bird("duck", "Patrick", "hangout with friends", 15, true);
 ```
 Try it out yourself and create multiple Birds of different species 🐦🐤🐔🐧!
+
 <br />
-Next, let's try to call on `toString()` method on these `Bird` objects we created. You can do either of the following:
+Next, let's call the `toString()` method on these `Bird` objects we created to print the information of our friends. You can do either of the following:
 
-1. directly call the `toString()` method. (i.e. `patrick.toString();`)
-2. put the name you given to the object in a print statement. (i.e. `System.out.println(patrick);`).
+1. Print the return value of `toString()` method. (i.e. `System.out.println(patrick.toString());`)
+2. Directly print the `Bird` object, which prompt `toString()` to be called in the background. (i.e. `System.out.println(patrick);`).
 
-Try it out yourself to print out information of all the birds 🐦🐤🐔🐧!
+Try it out and print out all the information of the bird friends you created 🐦🐤🐔🐧!
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsBird?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsBirdMain?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
