@@ -192,7 +192,7 @@ public class Bird{
 }
 ```
 
-## main() Implementation: No correct answe just an exercise
+## main() Implementation: No correct answer just an exercise
 ```java
 public static void main(String[] args) {
     Bird patrick = new Bird("duck", "Patrick", "hangout with friends", 15, true);

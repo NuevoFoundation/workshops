@@ -31,18 +31,18 @@ There are 2 parts in a method: header and body:
 #### Method Header
 To define a method, we need to first write out its <b>method header</b>. A method header has four main parts:
 
-  (1) <b>access specifier</b>. `public` tells the computer that anyone can use this method. `private` if it can only be called within a class. (We'll learn about classes on the next page!)
+1. <b>access specifier</b>. `public` tells the computer that anyone can use this method. `private` if it can only be called within a class. (We'll learn about classes on the next page!)
 
-  (2) <b>return type</b>. `void` means the method doesn't return anything.
+2. <b>return type</b>. `void` means the method doesn't return anything.
 
-  (3) <b>method name</b>. 
+3. <b>method name</b>. 
 
-  (4) <b>list of parameters</b>/ user inputs in the format of (`type` `input name`, `type` `input name`, ... ).
+4. <b>list of parameters</b>/ user inputs in the format of (`type` `input name`, `type` `input name`, ... ).
 
 ```
 // an example
 public void sing (String songName)
-  (1)   (2)  (3)        (4)
+   1.    2.   3.        4.
 ```
 <br />
 
@@ -51,7 +51,7 @@ Next, we put the block of code associated with the method in the <b>method body<
 
 To return some data, we put the keyword `return` followed by a variable name or a value to be returned. 
 
-This is an example of how to define a method that sum of numbers from numA through numB:
+This is an example of how to define a method that sum of numbers from `numA` through `numB`:
 ```java
 /* Method Name: sumNum
  * Input/Parameter: 2 numbers of type int
@@ -89,11 +89,11 @@ The above is an image of square-number pyramid where each level is a perfect squ
 That is the top level has `1 * 1` bead, the 2nd level has `2 * 2` beads.
 
 <br />
-Let's write a function that takes in the number of total levels and output the total number of beads in the pyramid!
+Let's write a method that takes in the number of total levels and output the total number of beads in the pyramid!
 
 Once you solved the challenge, you will see the following message:
 ```
-Congradulations! Challenge Solved!
+Congratulations! Challenge Solved!
 ```
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsPyramid?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>

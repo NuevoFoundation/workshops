@@ -1,12 +1,14 @@
 ---
-title: "Data Structure (Array & ArrayList)"
+title: "Data Structures (Array & ArrayList)"
 description: "Introduce basic data structures in Java."
 date: 2020-07-16T00:00:00Z
 weight: 8
 ---
 In previous exercises, we learned that variables allow us to access and store a piece data. But, what if we want to store a bunch of similiar data? Is there a good way to organize them without declaring multiple variables?
 
-In programming, <b>data structure</b> are structures that allowed coders to store multiple pieces of data of the same type. Using data structure is an efficient way to store and access large pieces of data. In this exercise, we will learn about 2 data structures used in Java: <b>array</b> and <b>ArrayList</b>.
+In programming, <b>data structures</b> are structures that allowed coders to store multiple pieces of data of the same type. Using data structures is an efficient way to store and access large pieces of data. In this exercise, we will learn about 2 data structures used in Java: <b>array</b> and <b>ArrayList</b>.
+
+While array is a fixed length data structure, ArrayList is a variable lengthed where you can change the size of the data structure. Let's start by looking at arrays!
 
 ### 1. Array
 Let's say we want to store Patrick's 🐥 top 5 favorite movies. Instead of creating 5 variables, we can store all 5 pieces of data in an array, our first data structure!
@@ -28,6 +30,16 @@ topMovies[3] = "Bird Box";
 topMovies[4] = "The Secret Life of Pets";
 // the array topMovies now store "Birds Of Prey", "The Birds", "Angry Birds", "Bird Box", "The Secret Life of Pets" in order
 ```
+{{% notice info %}}
+#### Why is array indexing in Java start with 0?
+It's tempting and reasonable to think to access the element of an array at the first index, we should start at index 1.
+
+However, when the computer read the code `arr[1]`, it doesn't think to get the `1st` element from `arr`. 
+
+It actually reads `arr[1]` as to get the element `1` distance from the start of the array.
+
+In other words, the index is actually a memory offset. To access the 1st element, we should get the element of `0` offset from the start of the array (i.e. `arr[0]`).
+{{% /notice %}}
 
 {{% notice tip %}}
 #### An alternating way to create an array:
@@ -82,10 +94,9 @@ topMoviesList.add("The Secret Life of Pets");
 // the ArrayList now store "Birds Of Prey", "The Birds", "Angry Birds", "Bird Box", "The Secret Life of Pets" in order
 ```
 
-To access an element at a particular index, we call the method `get()`.
-For example:
+To access an element at a particular index, we call the method `get()`. Note that Java use 0-based indexing, so to get the first element in an ArrayList we make a method call `get(0)`. For example:
 ```java
-String movie1 = topMoviesList.get(0); // numOfMovie2 has value "Birds Of Prey"
+String movie1 = topMoviesList.get(0); // movie1 has value "Birds Of Prey"
 ```
 
 And, to get the number of elements in the ArrayList, we call the method `size()`.
@@ -95,7 +106,7 @@ int numOfMovie2 = topMoviesList.size(); // numOfMovie2 has value 5
 ```
 <br />
 
-One critical difference between array and ArrayList is that you need to know number of elements to store in an array upfront, but you do not for an ArrayList.
+As we briefly mentioned above, the critical difference between array and ArrayList is that you need to know number of elements to store in an array upfront, but you do not for an ArrayList.
 
 - With the line of code `String topMovies[] = new String[5]` the array `topMovies` will forever have length 5. As a result, you can't store more than 5 Strings in `topMovies` after creating it.
 

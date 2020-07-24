@@ -24,7 +24,7 @@ With following line of code, we created a `String` object called `name` using th
 String name = "Patrick";
 ```
 <br />
-`System`, `PrintStream`, and `String` are predefined classes in Java. However, we are not limited to these classes, we can actually create our own data type by writing a class!
+`System`, `PrintStream`, and `String` are predefined classes in Java. However, we are not limited to these predefined classes, and we can actually create our own data type by writing a class! This is useful for coders to create specific objects to have certain attributes and behaviors. Having access to these user-defined types allows us to build distinct programs. 
 
 Let's learn about the different parts in a class below:
 
@@ -144,7 +144,7 @@ public String toString(){
 {{% notice warning %}}
 If you correctly implemented the `Bird` class, you will see the following message when you click `Run`:
 ```
-Congradulations! You correctly implemented the Bird Class :)
+Congratulations! You correctly implemented the Bird Class :)
 ```
 
 If there is still something incomplete or incorrect when you click `Run`:
@@ -159,7 +159,7 @@ We defined the `Bird` class to have the following attributes (instance variables
 <img src="../images/bird_class.png" height="450"/> 
 
 
-To create a new object of a particular class, we call the consturctor of that class in the format `class name` `variable name` `=` `new` `constructor call`.
+To create a new object of a particular class, we call the constructor of that class in the format `class name` `variable name` `=` `new` `constructor call`.
 
 Recall that the constructor of `Bird` class is the following:
 ```java
