@@ -34,12 +34,12 @@ A class is a blueprint or prototype of a new type of object. In general, a class
 
 <img src="../images/class.png" height="400"/> 
 
-(1) <b>data fields/instance variables</b>: These are the variables an object of this class has access to.
+1. <b>data fields/instance variables</b>: These are the variables an object of this class has access to.
                                            For example: A `Car` class may have the field `tire` of class `Tire`.
 
-(2) <b>constructor</b>: This is a method we call to create an object of this Class.
+2. <b>constructor</b>: This is a method we call to create an object of this Class.
 
-(3) <b>methods</b>: These are methods an object of this class will be able to call to perform certain tasks.
+3. <b>methods</b>: These are methods an object of this class will be able to call to perform certain tasks.
 
 For example:
 ```java
