@@ -34,8 +34,7 @@ A class is a blueprint or prototype of a new type of object. In general, a class
 
 <img src="../images/class.png" height="400"/> 
 
-1. <b>data fields/instance variables</b>: These are the variables an object of this class has access to.
-                                           For example: A `Car` class may have the field `tire` of class `Tire`.
+1. <b>data fields/instance variables</b>: These are the variables an object of this class has access to. For example: A `Car` class may have the field `tire` of class `Tire`.
 
 2. <b>constructor</b>: This is a method we call to create an object of this Class.
 
@@ -69,15 +68,15 @@ public class Bird{}
 <br />
 
 ####  Second, let's declare all the fields of the Bird class: species, name, hobby, age, loveMusic.
-Each fields is declared in the format: `private` `data type` `name` `;`.
+Each field is declared in the format: `private` `data type` `name` `;`.
 1. We declare all 5 fields as `private` in the class `Bird`. This ensures these data can only be accessed within this class.
 
 2. Let's identify the appropriate type for each field:
-- `species` should be a `String` that store for exmaple: "duck", "swan", "owl".
-- `name` should be a `String` that store for example: "Patrick".
-- `hobby` should be a `String` that store for example: "play basketball".
-- `age` should be an `int` that store for example: 25.
-- `loveMusic` should be a `boolean` that store either true or false.
+- `species` should be a `String` that stores for exmaple: "duck", "swan", "owl".
+- `name` should be a `String` that stores for example: "Patrick".
+- `hobby` should be a `String` that stores for example: "play basketball".
+- `age` should be an `int` that stores for example: 25.
+- `loveMusic` should be a `boolean` that stores either true or false.
 
 For example, to declare `species` as a private field of class `Bird`, you would put `private String species;` .
 
@@ -88,17 +87,17 @@ For example, to declare `species` as a private field of class `Bird`, you would 
 #### Third, let's create the constructor for the class `Bird`. 
 Usually, constructor is the method that initialializes value to all the fields in a class. It has the format `public` `class name` `(parameter)`. Since we have 5 fields in this class, the constructor will take in 5 parameter/inputs.
 ```java
-public Bird (String species_input, String name_input, String hobby_input, int age_input, boolean loveMusic_input){
+public Bird(String speciesInput, String nameInput, String hobbyInput, int ageInput, boolean loveMusicInput){
     // constructor body
 }
 ```
 In the constructor body, we need to initialize all the instance variables, by assign each variables to its initial values:
 ```java
-species = species_input;
-name = name_input;
-hobby = hobby_input;
-age = age_input;
-loveMusic = loveMusic_input;
+species = speciesInput;
+name = nameInput;
+hobby = hobbyInput;
+age = ageInput;
+loveMusic = loveMusicinput;
 ```
 <br />
 
@@ -153,7 +152,7 @@ If there is still something incomplete or incorrect when you click `Run`:
 {{% /notice %}}
 
 ### 3. Creating Birds 🐥!
-Congradulations! You just wrote you first Java class `Bird` class. Now let's learn to write a program that uses `Bird` objects!
+Congratulations! You just wrote you first Java class `Bird` class. Now let's learn to write a program that uses `Bird` objects!
 
 We defined the `Bird` class to have the following attributes (instance variables) and bahaviors (methods):
 <img src="../images/bird_class.png" height="450"/> 
@@ -163,7 +162,7 @@ To create a new object of a particular class, we call the constructor of that cl
 
 Recall that the constructor of `Bird` class is the following:
 ```java
-public Bird(String species_input, String name_input, String hobby_input, int age_input, boolean loveMusic_input);
+public Bird(String speciesInput, String nameInput, String hobbyInput, int ageInput, boolean loveMusicInput);
 ```
 
 Hence, we can create a Bird with these attributes (species - duck; name - Patrick; hobby - hangout with friends; age - 15; loveMusic - true) with this line of code.

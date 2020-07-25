@@ -23,7 +23,7 @@ But what if we want to calculate the sum from 1 to 77 instead? How do we do it w
 We want to create a ✨ magic box ✨ in code that does the calculation for us no matter which 2 numbers we want to create a sum for!
 <img src="../images/method.png" height="250"/> 
 
-In Java, <b>method</b> is like the magic box that performs a specfic task by running a block of code using user inputs. 
+In Java, a <b>method</b> is like the magic box that performs a specfic task by running a block of code using user inputs. 
 
 There are 2 parts in a method: header and body:
 
