@@ -6,25 +6,24 @@ draft: false
 hidden: true
 ---
 
-# activity-1: Game SetUp
+# actitity-1: Game SetUp
 ```java
 public class TicTacToe_Nuevo {
-    static ArrayList<Integer> playerMoves = new ArrayList<Integer>();
-    static ArrayList<Integer> computerMoves = new ArrayList<Integer>();
-
-    static String[] board = {" ", " ", " ", " ", " ", " ", " ", " ", " "};
-
     public static void main(String args[]){
-        System.out.println("<<<TicTacToe>>>\n- Positions on the board is represented by number 1 - 9\n- player: 'X' computer: 'O'");
-        printBoard();
+        String[] board = {" ", " ", " ", " ", " ", " ", " ", " ", " "};
+        String[] startBoard = {"1", "2", "3", "4", "5", "6", "7", "8", "9"};
+
+        System.out.println("<<<~  Tic  Tac  Toe  ~>>>\n* Choose number 1 - 9 to place your move\n* Player: 'X' Computer: 'O'\n");
+        printBoard(startBoard);
         System.out.print("Enter your move (1-9): "); 
-    }
-    public static void printBoard(){
-        System.out.println(" " + board[0] + " | " + board[1] + " | " + board[2] + " ");
+        }
+
+    public static void printBoard(String[] curBoard){
+        System.out.println(" " + curBoard[0] + " | " + curBoard[1] + " | " + curBoard[2] + " ");
         System.out.println("---+---+---");
-        System.out.println(" " + board[3] + " | " + board[4] + " | " + board[5] + " ");
+        System.out.println(" " + curBoard[3] + " | " + curBoard[4] + " | " + curBoard[5] + " ");
         System.out.println("---+---+---");
-        System.out.println(" " + board[6] + " | " + board[7] + " | " + board[8] + " ");
+        System.out.println(" " + curBoard[6] + " | " + curBoard[7] + " | " + curBoard[8] + " ");
     }
 }
 ```
