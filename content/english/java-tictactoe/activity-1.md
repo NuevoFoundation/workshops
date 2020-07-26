@@ -38,9 +38,9 @@ Enter your move (1-9):
 ```
 </br>
 
-1. Notice that in the starter code, we have the class `TicTacToe` and the `main()` method. `main()` method is where the program starts whenever we click the `Run` button. 
+1. Notice that in the starter code, we have the class `Main` and the `main()` method. `main()` method is where the program starts whenever we click the `Run` button. 
 ```java
-class TicTacToe {
+public class Main {
   public static void main(String[] args) {
   }
 }
