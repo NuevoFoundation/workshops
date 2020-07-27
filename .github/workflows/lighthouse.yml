@@ -1,5 +1,5 @@
 name: Lighthouse
-on: [push, pull_request]
+on: push
 jobs:
   CI:
     runs-on: ubuntu-latest
