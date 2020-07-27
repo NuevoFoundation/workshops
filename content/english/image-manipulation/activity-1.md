@@ -2,6 +2,8 @@
 title: "Activity 1"
 date: 2020-02-10T13:24:17-07:00
 draft: false
+difficulty: "Beginner"
+prereq: "Python Basics - Writing to Console - Print"
 weight: 4
 ---
 

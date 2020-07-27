@@ -6,6 +6,7 @@ prereq: "Python Basics: Print, Comments, Functions"
 difficulty: "Beginner"
 draft: false
 ---
+<iframe width="100%" height="500px" src="https://www.youtube.com/embed/R_eo0B8qDW0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Effects in EarSketch
 -------------------------------------

@@ -3,6 +3,8 @@ title: "Activity 5"
 date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 13
+difficulty: "Beginner"
+prereq: "Python Basics - Variables"
 --- 
 
 - Create two new variables: A variable named <b>comp</b> that stores the string `"Computer"`. 

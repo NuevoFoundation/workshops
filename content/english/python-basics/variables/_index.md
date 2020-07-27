@@ -2,7 +2,7 @@
 title: "Variables"
 date: 2020-02-10T13:24:17-07:00
 draft: false
-weight: 12
+weight: 3
 --- 
 
 Variables are simply names that we can give to values such as strings, numbers, and booleans. Here’s how to make a variable named s. We say s is a string that has the value `"Hello, World!"`. Can you describe the following variables?
@@ -16,7 +16,7 @@ Variables are simply names that we can give to values such as strings, numbers, 
 
 Press run. 
 
-![alt text](../media/variables.png "image of how variables look in repl.it") 
+![alt text](../img/variables.png "image of how variables look in repl.it") 
 
 {{% notice note %}}
 Variables are not printed out to the console. Instead, the variable simply saves the string, number, or boolean into the computer’s memory. We can use these variables in other statements. 
