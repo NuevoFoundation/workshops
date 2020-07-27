@@ -3,7 +3,7 @@ title: "Comments"
 draft: false
 weight: 2
 ---
-<iframe width="100%" height="500px" src="https://www.youtube.com/embed/NE9IEUi1Eqk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="600px" src="https://www.youtube.com/embed/NE9IEUi1Eqk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Make notes while you are coding
 
