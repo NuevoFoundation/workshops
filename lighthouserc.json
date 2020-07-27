@@ -1,7 +1,12 @@
 {
-    "ci": {
-        "collect": {
-            "staticDistDir": "./public"
-        }
+  "ci": {
+    "assert": {
+      "assertions": {
+        "categories:accessibility": ["warn", { "minScore": 1 }]
+      }
+    },
+    "collect": {
+      "staticDistDir": "./public"
     }
+  }
 }
