@@ -2,11 +2,11 @@
 title: "Activity 3 - Organize your song using functions"
 description: "Setting up headphones"
 prereq: "Python Basics: Functions"
-difficulty: "Beginner"
+difficulty: "Intermediate"
 weight: 8
 draft: false
 ---
-<iframe width="100%" height="500px" src="https://www.youtube.com/embed/ENPl4QnJg1I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="600px" src="https://www.youtube.com/embed/ENPl4QnJg1I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 In Earsketch, functions are mostly used to organize different sections of a song. The most common musical form is A-B-A where each section is
 four measures in length, and the A sections sound different from the B section.
