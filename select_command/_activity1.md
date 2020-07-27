@@ -74,3 +74,5 @@ Now use what you learned! **Rearrange the code blocks below to answer the questi
 <button class="button button1">Enter </button>
 
 {{< /rawhtml >}}
+
+<!-- TODO: Add SQL database image here -->
