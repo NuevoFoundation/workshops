@@ -11,7 +11,7 @@
     "collect": {
       "staticDistDir": "./public",
       "url": [
-        "https://localhost/"
+        "http://localhost/"
       ]
     }
   }
