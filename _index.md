@@ -14,7 +14,7 @@ weight: 130
 # Introduction: Learn SQL by Saving the Galaxy!
 
 
-![Galaxy](assets/Galaxy.png)
+![Galaxy](media/Galaxy.png)
 
 <font size="5">Welcome to the Nuevo Space Station (NSS)! 
 
