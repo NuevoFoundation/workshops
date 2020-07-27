@@ -12,5 +12,4 @@ weight: 15
 This workshop will provide an introduction to manipulating images in python.
 
 ## Table of Contents
-
 {{% children %}}

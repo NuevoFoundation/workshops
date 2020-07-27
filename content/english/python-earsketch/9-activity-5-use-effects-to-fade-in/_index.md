@@ -6,6 +6,8 @@ prereq: "Python Basics: Print, Comments, Functions"
 difficulty: "Beginner"
 draft: false
 ---
+<iframe width="100%" height="500px" src="https://www.youtube.com/embed/x3_gZYBX00I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Now that you have one effect in your song, let's try to fade in the introduction of our song.
 
 In activity 4, we used `setEffect` function to apply an effect to a specific track
