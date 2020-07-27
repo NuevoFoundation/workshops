@@ -9,7 +9,10 @@
       }
     },
     "collect": {
-      "staticDistDir": "./public"
+      "staticDistDir": "./public",
+      "url": [
+        "https://localhost/"
+      ]
     }
- }
+  }
 }
