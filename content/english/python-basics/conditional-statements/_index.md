@@ -2,7 +2,7 @@
 title: "Conditional statements"
 date: 2019-07-23T11:45:38-07:00
 draft: false
-weight: 5
+weight: 6
 ---
 
 Now that we know the basics of print statements, variables, and reading in input from the user – we can combine all these awesome skills with conditional statements. Conditional statements allow the computer to make **decisions** based off the **value** of an expression. In the real world, we use conditional statements all the time to make decisions! For example, if it is raining outside, then I use an umbrella. In this example, the I evaluated the weather outside and because it was raining, I made the sequential decision to use an umbrella.
@@ -43,7 +43,7 @@ A real-life example is if I’m hungry, I’ll eat. Else (in other words, I’m 
 
 ![#Can't find image](../img/hungry.png)
 
-# Activity 5
+### Challenge
 
 Let’s put it all together! Let’s see if we can create a program that takes prompts the user for their name. The user can write their name into the console. Then the computer can decide if their name is equal to your name, print out a response. Else, print out a different response!
 
