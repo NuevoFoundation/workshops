@@ -1,9 +1,10 @@
 ---
 title: "Functions"
 description: "Setting up headphones"
-weight: 3
+weight: 5
 draft: false
 ---
+<iframe width="100%" height="600px" src="https://www.youtube.com/embed/0207zoiJ6s8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Functions** are a way to organize pieces of similar or repeating code. Rather than having to constantly type out the same code, we can put the desired code in a function and call it whenever we want to use it.
 

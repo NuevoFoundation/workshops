@@ -3,6 +3,8 @@ title: "Activity 3"
 date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 9
+difficulty: "Beginner"
+prereq: "Python Basics - Data Types - Numbers"
 ---
 
 Let's try to figure out the answers to the following using Python. Try printing out the result of the below (<b>make sure you don't miss any parentheses</b>):

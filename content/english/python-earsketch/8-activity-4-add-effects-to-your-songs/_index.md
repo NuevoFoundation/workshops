@@ -3,9 +3,10 @@ title: "Activity 4 - Add effects to your song"
 description: "Setting up headphones"
 weight: 9
 prereq: "Python Basics: Print, Comments, Functions"
-difficulty: "Beginner"
+difficulty: "Intermediate"
 draft: false
 ---
+<iframe width="100%" height="600px" src="https://www.youtube.com/embed/R_eo0B8qDW0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Effects in EarSketch
 -------------------------------------
