@@ -3,6 +3,8 @@ title: "Open an image"
 date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 19
+prereq: "Python Basics: Repl.it, Writing to Console (Print), Comments, Data Types - Strings, Numbers, Booleans, Variables, Reading from Console, Functions"
+difficulty: Intermediate
 --- 
 
 To change an image, we must open an image. We can use the <b>Pillow Image</b> module we just imported in the setup.
