@@ -6,7 +6,7 @@ weight: 3
 ---
 
 # Back to Foundations
-Now that the game has the right title, lets dive depper into all these files in the game folder. What do they all mean? How does it contribute to the game?
+Now that the game has the right title, lets dive deeper into all these files in the game folder. What do they all mean? How does it contribute to the game?
 ![Expanded view of application files](../resources/_gen/images/app_structure_files.PNG)
 
 # AndroidManifest.xml
