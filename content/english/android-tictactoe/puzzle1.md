@@ -6,7 +6,7 @@ weight: 2
 ---
 
 # Run the Game
-Press the play button button (►) at the top of Android Studio and you’ll see that the title at the top of the app says Toe-Tac-Tic (that doesn't seem right!), lets change it to Tic-Tac-Toe.
+Press the play button button (►) at the top of Android Studio and you’ll see that the title at the top of the app says Toe-Tac-Tic (that doesn't seem right!), let's change it to Tic-Tac-Toe.
 
 # Solve the Puzzle
 Double-click the ```strings.xml``` file under res --> values:
