@@ -7,9 +7,13 @@ difficulty: "Beginner"
 download: ""
 draft: true
 icon: "fas fa-microchip"
-weight: 1
+weight: 7
 translationKey: "linux-basics-main"
 ---
+
+# Welcome
+
+## Table of Contents
 
 1. Where am I?
 
