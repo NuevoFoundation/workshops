@@ -9,7 +9,8 @@
       }
     },
     "collect": {
-      "url": ["http://localhost/", "http://localhost/adafruit/", "http://localhost/admin/"]
+      "staticDistDir": "./public",
+      "url": ["http://localhost/", "http://localhost/adafruit/index.html"]
     }
   }
 }
