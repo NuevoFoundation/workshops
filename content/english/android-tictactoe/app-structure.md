@@ -6,7 +6,7 @@ weight: 3
 ---
 
 # Back to Foundations
-Now that the game has the right title, lets dive deeper into all these files in the game folder. What do they all mean? How does it contribute to the game?
+Now that the game has the right title, let's dive deeper into all these files in the game folder. What do they all mean? How does it contribute to the game?
 ![Expanded view of application files](../resources/_gen/images/app_structure_files.PNG)
 
 ## AndroidManifest.xml
@@ -24,4 +24,3 @@ These files are located under the "values" folder. The files contain values that
 
 # Putting it Together
 All these files work together to create your game. The ```activity_main.xml``` file decides what is shown to you. When you click on the buttons, events are sent from the ```activity_main.xml``` to the ```MainActivity.kt``` to determine what happens on that button click. For repeatable values, ```activity_main.xml``` and ```MainActivity.kt``` can reach out to ```colors.xml, strings.xml, or styles.xml``` to use those values from one convenient location.
-
