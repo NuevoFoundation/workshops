@@ -8,7 +8,7 @@
         "categories:best-practices": ["warn", { "minScore":1 }]
       }
     },
-    "url": ["http://localhost/", "http://localhost/about-us"],
+    "urls": ["http://localhost/", "http://localhost/adafruit"],
     "collect": {
       "staticDistDir": "./public"
     }
