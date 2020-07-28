@@ -4,7 +4,7 @@ description: "Learn about variables, functions, and conditionals all while build
 date: 2020-07-27T14:04:59.61-07:00
 prereq: "Android Studio"
 difficulty: "Intermediate"
-download: "Github URL determined prior to publish"
+download: "resources/_gen/files/TicTacToe.zip"
 icon: "fab fa-android"
 draft: true
 hidden: false
