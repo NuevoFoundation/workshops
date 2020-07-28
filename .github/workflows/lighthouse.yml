@@ -26,5 +26,4 @@ jobs:
             http://localhost/
             http://localhost/adafruit/
             http://localhost/admin/
-          configPath: "./lighthouserc.json"
           temporaryPublicStorage: true
