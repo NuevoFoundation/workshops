@@ -19,16 +19,16 @@ print(y)
 The  `abs()` function give us the absolute(positive) value of number:
 
 ```python
-x = abs(-34)		#x = 34
+x = abs(-34)		         #x = 34
 print(x)
-y = abs(90)			#x = 90
+y = abs(90)			         #x = 90
 print(y)
 ```
 
 The  `pow(a, b)` function give us the value of a raised to the power of b (a<sup>b</sup>):
 
 ```python
-x = pow(3,4)		#x  = 81
+x = pow(3,4)		        #x  = 81
 print(x)
 ```
 
