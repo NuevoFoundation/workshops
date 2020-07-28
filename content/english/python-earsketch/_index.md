@@ -16,6 +16,10 @@ weight: 12
 Welcome to this introductory guide on how to make music using
 [EarSketch](https://en.wikipedia.org/wiki/EarSketch) & Python. To jump to a particular activity, click on the section link below:
 
+<details>
+<summary>Sections</summary>
+<br>
 {{% children %}}
+</details>
 
 ![Cannot load image: earsketch-play-overview](img/screenshot-overview.png?classes=border,shadow)

@@ -10,6 +10,7 @@ weight: 10
 ---
 
 # Python basics
+<details open>
+<summary>Topics</summary>
 {{% children %}}
-
-
+</details>
