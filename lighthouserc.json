@@ -9,7 +9,7 @@
       }
     },
     "collect": {
-      "staticDistDir": "./public"
+      "staticDistDir": ["./public", "./public/admin"]
     }
   }
 }
