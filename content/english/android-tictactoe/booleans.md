@@ -8,9 +8,33 @@ weight: 9
 # Booleans
 
 Booleans are true or false statements. Unlike strings or numbers, booleans store statements of truth: is what I am saying true or false? For example, if I ask, "Are you a robot?", this question produces a true or false result, which we call a Boolean. In this case, since you are not a robot (hopefully!), we would produce false. We can also use math operators to create boolean expressions. Here are some examples; however, notice the unusual symbols for "equal to" and "not equal to":
-< Less than > Greater than
-<= Less than or equal to => Greater than or equal to
-== Equal to != Not euqal to
+<table class="table">
+    <tr>
+        <td>&lt;</td>
+        <td>Less than</td>
+    <tr>
+    <tr>
+        <td>&gt;</td> 
+        <td>Greater than</td>
+    </tr>
+        <tr>
+        <td>&lt;=</td> 
+        <td>Less than or equal to</td>
+    </tr>
+        <tr>
+        <td>&gt;=</td> 
+        <td>Greater than or equal to</td>
+    </tr>
+        <tr>
+        <td>==</td> 
+        <td>Equal to</td>
+    </tr>
+        <tr>
+        <td>!=</td> 
+        <td>Not equal to</td>
+    </tr>
+</table>
+
 As usual, use `System.out.println` to print out your results:
 
 ```java
