@@ -8,32 +8,12 @@ weight: 9
 # Booleans
 
 Booleans are true or false statements. Unlike strings or numbers, booleans store statements of truth: is what I am saying true or false? For example, if I ask, "Are you a robot?", this question produces a true or false result, which we call a Boolean. In this case, since you are not a robot (hopefully!), we would produce false. We can also use math operators to create boolean expressions. Here are some examples; however, notice the unusual symbols for "equal to" and "not equal to":
-<table class="table">
-    <tr>
-        <td>&lt;</td>
-        <td>Less than</td>
-    <tr>
-    <tr>
-        <td>&gt;</td> 
-        <td>Greater than</td>
-    </tr>
-        <tr>
-        <td>&lt;=</td> 
-        <td>Less than or equal to</td>
-    </tr>
-        <tr>
-        <td>&gt;=</td> 
-        <td>Greater than or equal to</td>
-    </tr>
-        <tr>
-        <td>==</td> 
-        <td>Equal to</td>
-    </tr>
-        <tr>
-        <td>!=</td> 
-        <td>Not equal to</td>
-    </tr>
-</table>
+
+| Operator | Description           | Operator | Description              |
+| -------- | --------------------- | -------- | ------------------------ |
+| `<`      | Less than             | `>`      | Greater than             |
+| `<=`     | Less than or equal to | `>=`     | Greater than or equal to |
+| `==`     | Equal to              | `!=`     | Not equal to             |
 
 As usual, use `System.out.println` to print out your results:
 
@@ -55,54 +35,13 @@ Delete all your `System.out.println` text in your code. Try guessing the answers
 ## Booleans Operators
 
 You can also connect boolean expressions together using the `&&` (AND) and the `||` (OR) operator. For example, suppose I ask: "Are you a human, and is Nuvi a robot?" The word "and" connects the two true-false questions together. In this case, since it is true that you are a human, and it is also true that Nuvi is a robot, then the overall result is `true`. Here's a chart that describes what happens when we connect booleans together:  
-<table class="table">
-            <tr>
-                <td>AND Table</td>
-            <tr>
-                <td>Expression</td>
-                <td>Result</td>
-            </tr>
-            <tr>
-                <td><code>`true && true`</code></td>
-                <td><code>`true`</code></td>
-            </tr>
-            <tr>
-                <td><code>`true && false`</code></td>
-                <td><code>`false`</code></td>
-            </tr>
-            <tr>
-                <td><code>`false && true`</code></td>
-                <td><code>`false`</code></td>
-            </tr>
-            <tr>
-                <td><code>`false && false`</code></td>
-                <td><code>`false`</code></td>
-            </tr>
-        </table>
-<table class="table">
-            <tr>
-                <td>OR Table</td>
-            <tr>
-                <td>Expression</td>
-                <td>Result</td>
-            </tr>
-            <tr>
-                <td><code>`true || true`</code></td>
-                <td><code>`true`</code></td>
-            </tr>
-            <tr>
-                <td><code>`true || false`</code></td>
-                <td><code>`true`</code></td>
-            </tr>
-            <tr>
-                <td><code>`false || true`</code></td>
-                <td><code>`true`</code></td>
-            </tr>
-            <tr>
-                <td><code>`false || false`</code></td>
-                <td><code>`false`</code></td>
-            </tr>
-        </table>
+
+| Expression       | Result   | Expression       | Result  |
+| ---------------- | -------- | ---------------- | ------- |
+| `true && true`   | `true`   | `true || true`   | `true`  |
+| `true && false`  | `false`  | `true || false`  | `true`  |
+| `false && true`  | `false`  | `false || true`  | `true`  |
+| `false && false` | `false`  | `false || false` | `false` | 
 
 To summarize, `&&` requires both Boolean expressions to be true, while `||` only requires one of the two Boolean expressions to be true. Here are some more examples:
 
