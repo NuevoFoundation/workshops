@@ -1,5 +1,5 @@
 ---
 title: "Python Console"
 draft: false
-weight: 1
+weight: 2
 ---
