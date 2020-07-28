@@ -9,8 +9,7 @@
       }
     },
     "collect": {
-      "staticDistDir": "./public",
-      "urls": ["http://localhost/", "http://localhost/adafruit"]
+      "staticDistDir": "./public"
     }
   }
 }
