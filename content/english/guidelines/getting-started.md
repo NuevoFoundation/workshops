@@ -20,7 +20,7 @@ To get started:
 
 1. Fork the repo by clicking Fork in the top right corner:
 
-![image](../media/fork.png)
+![image](media/fork.png)
 
 2. From git bash, run (replacing _[user-name]_ with your GitHub user name):
 
