@@ -10,6 +10,11 @@ jobs:
       - name: Checkout submodules
         uses: textbook/git-checkout-submodule-action@master
 
+      - name: Use Node.js 10.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 10.x
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
@@ -19,8 +24,10 @@ jobs:
       - name: Build site
         run: hugo
 
+      - name: Install packages
+        run: npm install
+
       - name: Run Lighthouse CI
-        uses: treosh/lighthouse-ci-action@v2
-        with:
-          configPath: "./lighthouserc.json"
-          temporaryPublicStorage: true
+        run: |
+          npm install -g @lhci/cli@0.4.x
+          sh ./lighthouse.sh
