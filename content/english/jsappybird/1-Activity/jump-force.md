@@ -25,10 +25,9 @@ In the repl.it window below, we started the code with the line `bird.body.veloci
 
 ### Bonus Activity
 
-Lets make the Bird jump up and forwards
+Let's make the bird jump up and forwards:
 
-    Add below command in the file [File: create-game.js]
-    bird.body.velocity.x= 100;
-
+Add below command in the file [File: create-game.js]
+    bird.body.velocity.x = 100;
 
 
