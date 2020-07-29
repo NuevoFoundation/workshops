@@ -21,14 +21,14 @@ The secure room is only as secure as the key to the lock on the door. We need st
 Passwords need to be private and should only be known to you. A strong password is one that is more secure by virtue of being difficult for a machine or a human to guess. 
 
 #### Examples of weak passwords
-1. Any common dictionary word, in any language (e.g., airplane or aeroplano).
-2. A dictionary word where letters are replaced by numbers (e.g., a1rplan3 or aer0plan0).
-3. A repeated set of characters (e.g., AAAAA or 12345).
-4. A keyboard series of characters (e.g., qwerty or poiuy).
+1. Any common dictionary word, in any language (e.g., "airplane" or "Password").
+2. A dictionary word where letters are replaced by numbers (e.g., "a1rplan3" or "P4ssw0rd").
+3. A repeated set of characters (e.g., "AAAAA" or "12345").
+4. A keyboard series of characters (e.g., "qwerty" or "poiuy").
 5. Personal information (e.g., birthdays, names of pets or friends, Social Security number, addresses).
 6. Anything that’s written down and stored somewhere near your computer.
 
-Bob's key i.e. password was his personal information and hence Eve could guess it.
+Bob's key (his password) was his personal information and hence Eve could guess it.
 
 
 ## How to fix it?
