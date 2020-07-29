@@ -5,13 +5,13 @@ weight: 1
 draft: false
 ---
 
-To build a video game we need several functions in intuitive way, we will use Pygame library which provides set of readymade functions and objects that we can utilise to build video games and animation. 
+To build our game we will use the Pygame library, which provides a set of readymade functionality that we can use to build video games and animations.
 
 ## Using Repl.it
 
 Today you will be using Repl.it to build the Pong game.
 
-If you would like to re-cap on how to use Repl.it. Feel free to take a look at Python basics [tutorial](https://workshops.nuevofoundation.org/python-basics/repl-it/)
+If you would like to re-cap on how to use Repl.it. Checkout the following Python basics [tutorial](https://workshops.nuevofoundation.org/python-basics/repl-it/)
 
 Next, let's explain further some of the code that has been provided to you in the `main.py` file.
 
@@ -25,7 +25,7 @@ Look at the top of the code. You will see the following line:
 import pygame
 ```
 
-This statement allows us to import all of the animation and object drawing functionality provided by the `pygame` library. A **library** is a place where related functionality are grouped together for use in the Python language. For example, the `pygame` library provides a way to draw a rectangle on screen, which we can use to draw the boundaries, ball and paddles used in Pong game. 
+This statement allows us to import all of the animation and object drawing functionality provided by the `pygame` library. A **library** is a place where related functionality are grouped together for use in the Python language. For example, the `pygame` library provides a way to draw a rectangle on screen, which we can use to draw the boundaries, the ball and the paddles used in Pong game.
 
 ## Comments
 

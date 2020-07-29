@@ -1,5 +1,5 @@
 ---
-title: "Activity 1 - Define with width of Pong screen"
+title: "Activity 1 - Define the width of the Pong screen"
 date: 2019-07-29T13:24:17-07:00
 weight: 3
 draft: false
@@ -10,7 +10,7 @@ draft: false
 # Activity 1
 You can adjust the boundary of pong game by adjusting the height and width of rectangle that represent the boundary. 
 
-Go to the code containing the Pong game. Press **run**. Notice that Pong boundary is not well looking and it left blank space like shown below inside blue. Lets fix this in this activity so that game boundary looks good. 
+Go to the code containing the Pong game. Press **run**. Notice that the game's boundary don't look right - see the below image. Let's fix this in this activity so that game boundary looks good.
 
 ![](../media/width.PNG)
 

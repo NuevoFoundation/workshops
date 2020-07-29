@@ -5,7 +5,7 @@ weight: 2
 draft: false
 
 ---
-## What are class and object ? 
+## Classes and objects
 Before you start building a game, you should know how to draw different objects and modify them as per the way they need to look and move on computer screen. 
 
 In order to build objects you first decide how they should look, what role they would perform in your game and how player can control their movement on screen. You do this by creating a class for each object you want on screen. 
