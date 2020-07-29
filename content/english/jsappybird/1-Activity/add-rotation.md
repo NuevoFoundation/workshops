@@ -14,7 +14,7 @@ Add below command in the file [File: update-game.js]
 
 ## Comments:
 
-If is a conditonal block where we are checking the angle of the bird and if thta is less than 50 we are exceuting the condition 
+`If` is a conditional block where we are checking the angle of the bird and if it's less than 50 we are executing the condition.
    -bird.angle+=1;
 
 ## Working Together
@@ -26,7 +26,6 @@ In the repl.it window below, we started the code with the line `bird.angle+=1;`.
  In  your console you should see a Jsappy bird  roatting with an angle after you press **run**:
 
 ![alt text](../../img/rotate_output.png "bird rotating")
-
 
 
 
