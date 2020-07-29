@@ -11,8 +11,9 @@ We welcome contributions. Great ways to contribute include trying things out, fi
 
 For additional information, see the following:
 
-- [Getting Started](getting-started.md)
-- [New Workshop Guidelines](new-workshops.md)
-- [How the site is built](site-architecture.md)
-- [Web Developer Guidelines](web-developer.md)
-- [Formatting](formatting.md)
+{{% children %}}
+- [Getting Started](getting-started/)
+- [New Workshop Guidelines](new-workshops/)
+- [How the site is built](site-architecture/)
+- [Web Developer Guidelines](web-developer/)
+- [Formatting](formatting/)
