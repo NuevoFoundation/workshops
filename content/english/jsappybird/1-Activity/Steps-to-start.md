@@ -9,7 +9,7 @@ weight: 3
 Open the Activity-1 Scaffold URL to do the activity.
 https://repl.it/@nuevofoundation/JSappyBird-Activity-1-Scaffold
 
-When you make changes to the scafflod you will be created as anonymous users.
+When you make changes to the scaffold you will be created as anonymous users.
 
 You should see something like the following screen:
 
