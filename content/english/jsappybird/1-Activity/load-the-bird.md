@@ -5,9 +5,9 @@ draft: false
 weight: 4
 ---
 
-First of all Load Flappy and put on the screen.
+First of all let's load Flappy and put it on the screen.
 
-       Add below command in the file [File: load-sprites.js]
+Add below command in the file [File: load-sprites.js]
        game.load.image('bird','assets/bird.png');
 
 
@@ -20,6 +20,5 @@ In the repl.it window below, we started the code with the line `game.load.image(
 In your console you should see a Jsappy bird after you press **run**:
 
 ![alt text](../../img/loadbird_output.png "bird image in the output")
-
 
 
