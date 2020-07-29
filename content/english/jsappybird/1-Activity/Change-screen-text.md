@@ -19,7 +19,6 @@ In the repl.it window below, we started the code with the line `var text = game.
 
  In  your console you should see Press Space to Start after you press **run**:
 
-![alt text](../../img/startscreen_output.png "brid image in the output")
-
+![alt text](../../img/startscreen_output.png "bird image in the output")
 
 
