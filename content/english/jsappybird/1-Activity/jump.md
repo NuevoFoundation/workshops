@@ -19,8 +19,7 @@ In the repl.it window below, we started the code with the line `spaceKey.onDown.
 
 ![alt text](../../img/jump.png "image to add jump down")
 
- In  your console you should see a Jsappy bird jumping after you press **run**:
+In your console you should see a Jsappy bird jumping after you press **run**:
 
 ![alt text](../../img/jump_output.png "Image of jumping bird")
-
 
