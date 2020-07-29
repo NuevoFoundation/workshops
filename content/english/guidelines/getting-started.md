@@ -116,3 +116,14 @@ Some git tips: If you want to add everything and commit at the same time you can
 ### Create a pull request
 Congratulations, you've now made all the necessary changes and the last step is to get it reviewed and pushed into production.
 
+If you navigate to your fork on github.com you will most likely see a suggestion to create a Pull Request based on your latest push.
+
+![image](media/compare-and-pull.png)
+
+If you don't, just navigate to Pull Requests -> New pull request
+
+![image](media/create-new-pr.png)
+
+The most important aspect here is to make sure you're chosing your branches correctly (your base and your head).
+
+You can now hit the Create pull request button, give it a description and good title and wait for a review to merge it.
