@@ -5,10 +5,10 @@ draft: false
 weight: 7
 ---
 
-Lets add Gravity to the Bird
+Let's add gravity to the bird:
 
-    Add below command in the file [File: create-game.js]
-    bird.body.gravity.y= 900;
+Add below command in the file [File: create-game.js]
+    bird.body.gravity.y = 900;
 
 
 ## Working Together
@@ -20,7 +20,6 @@ In the repl.it window below, we started the code with the line `bird.body.gravit
  In  your console you should see a Jsappy bird  jumping with gravity after you press **run**:
 
 ![alt text](../../img/jump_output.png "bird jumping with gravity")
-
 
 
 
