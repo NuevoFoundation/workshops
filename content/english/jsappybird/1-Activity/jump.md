@@ -7,9 +7,9 @@ weight: 6
 
 What should we do with the bird?
 
-Lets make him Jump
+Let's make him jump:
 
-     Add below command in the file [File: create-game.js]
+Add below command in the file [File: create-game.js]
      spaceKey.onDown.add(jump, this);
 
 
@@ -22,6 +22,5 @@ In the repl.it window below, we started the code with the line `spaceKey.onDown.
  In  your console you should see a Jsappy bird jumping after you press **run**:
 
 ![alt text](../../img/jump_output.png "Image of jumping bird")
-
 
 
