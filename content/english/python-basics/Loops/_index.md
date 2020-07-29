@@ -1,13 +1,13 @@
 ---
 title: "Loops"
 draft: false
-weight: 1
+weight: 5
 ---
 
 ## Loops in Python
 
 If you want to repeat a task multiple times, Python has a way to do that easily using loops.
-There are two types of basic loops in python:  for loops and while loops.
+There are two types of basic loops in python:  `for` loops and `while` loops.
 
 ### For loops
 
@@ -22,15 +22,12 @@ What if you wanted to repeat a task 10 times instead? 100 times? 1000 times??
 
 It would be difficult to write a list with 1000 numbers [1,2,3,4,5,6,..........,998,999,1000].  There is a function that can create this list for you.
 
-Here's an example of how to create the list using the range function:
+Here's an example of how to create the list using the `range` function:
 
 The below code creates a list starting at 1 and ending at 10. Try replacing the list [1,2,3,4,5] in the above example with this range function!
-    {{% notice %}}
-    range(1,11)
-    {{% /notice %}}
-
-
-
+```
+range(1,11)
+```
 
 The list in the for loop doesn't just have to be numbers, it can be anything!  Here is another example of what you can do with it:
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/python-forloop-fruits?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
