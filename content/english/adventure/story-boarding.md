@@ -7,8 +7,13 @@ difficulty: Intermediate
 prereq: "Python Basics - Writing to Console (Print), Reading from Console, Strings, Variables, Conditional statements"
 ---
 
-To get started, pull out a piece a paper and start "story boarding". What does that mean? In order to develop a great story that allows the reader to choose between options, one can outline the flow of their story. This is a great planning step, that will you help you tremendously once you start coding!
-I would start with the 3 or 4 main choices your protagonist is going to make in the story. From there draw arrows for how the different choices your protagonist makes effects the story.
+{{% panel theme="instructions" header="Instructions"%}}
+
+1. To get started, pull out a piece a paper and start "story boarding". What does that mean? In order to develop a great story that allows the reader to choose between options, one can outline the flow of their story. This is a great planning step, that will you help you tremendously once you start coding!
+2. Try starting with the 3 or 4 main choices your protagonist is going to make in the story. 
+3. From there draw arrows for how the different choices your protagonist makes effects the story.
+
+{{% /panel %}}
 
 # Nuevo’s Example
 
