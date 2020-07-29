@@ -11,11 +11,6 @@ We welcome contributions. Great ways to contribute include trying things out, fi
 
 For additional information, see the following:
 
+- [Getting Started](content/english/guidelines/getting-started.md)
 - [How the site is built](content/english/guidelines/site-architecture.md)
 - [Formatting](content/english/guidelines/formatting.md)
-
-## Formatting Reference
-
-- [Standard Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-- [Custom Formatting Options using shortcodes](shortcodes/)
-
