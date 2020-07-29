@@ -6,7 +6,9 @@ weight: 6
 
 Just like a list, a set is a collection of items. The difference between a set and a list is that a set cannot contain duplicates. So, if you have 5 chocolates and you put them in a set, you'll only be left with 1 chocolate as duplicates will be removed. 😢
 
+<a href = "https://www.youtube.com/watch?v=mLIuHU5Sj5w">
 <img src="../img/sets_example.jpg" width="500"/>
+</a>
 
 In the image above, the left side represents **<font color="red">Indoor Games</font>** (Chess & Table Tennis) while the right side represents the **<font color="green">Outdoor Games</font>** (Cricket & Football). The middle represents the common part of both these sets. These are the games that can be played Indoors as well as Outdoors (Basketball & Badminton). The middle part is also known as the intersection between two sets.
 
