@@ -2,6 +2,7 @@
 title: "Setting up the PC"
 description: ""
 draft: true
+difficulty: Intermediate
 weight: 1
 translationKey: "arduino-3"
 ---

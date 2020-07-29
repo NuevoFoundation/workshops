@@ -2,6 +2,7 @@
 title: "Arduino - Activity 4"
 description: ""
 draft: true
+difficulty: Intermediate
 weight: 1
 translationKey: "arduino-7"
 ---
