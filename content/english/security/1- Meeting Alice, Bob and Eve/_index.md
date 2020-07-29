@@ -22,16 +22,9 @@ Meet our not so good friend **Eve**. **Eve** wants access to **Bob**’s secret.
 `key`. After spying on **Bob** for a while, **Eve** realizes that he really 
 loves his pet dog, Max. This gives **Eve** an idea.
 
-<!-- **Eve** has been spying on **Bob**. **Eve** is hoping to see if they can find 
-something that would give them a hint about how to get to **Bob**'s secret. 
-They realize **Bob** loves his pet dog, Max. -->
-
 **Eve** thinks that, since **Bob** loves his pet so much, he might have decided
 to make that the `key` to his lock. They decide to give it a try, and *violà*, 
 **Eve** was able to open **Bob**'s lock and see his secret.
-
-<!-- They figure out the key to his lock which is *I love Max* and voila **Eve** 
-finds out Bob’s “SECRET”. -->
 
 This is not good for **Bob**! He wants to know what he could have done
 differently so that **Eve** couldn't break his lock so easily, but he doesn't
