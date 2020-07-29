@@ -3,7 +3,7 @@ title: "Appendix"
 description: ""
 draft: true
 weight: 1
-translationKey: "arduino-4"
+translationKey: "arduino-8"
 ---
 
 # Appendix
@@ -19,19 +19,19 @@ Imagine our circuit is a play. Before the final performance in front of an audie
 > > The same is true on the red and blue lines on the left. However, the red and blue lines on the right and left are not connected to each other.
 > > Components that are plugged into the same common connection are connected in the circuit
 
-![Cannot load image](content\english\arduino\4-appendix\img1.png)
-![Cannot load image](content\english\arduino\4-appendix\img2.png)
+![Cannot load image](content\english\arduino\8-appendix\img1.png)
+![Cannot load image](content\english\arduino\8-appendix\img2.png)
 
 
 The Light Emitting Diode (or LED for short) is a small light that turns on when electricity flows through it. 
 
 > > The LED has 2 leads: the Anode and the Cathode.
 > > The Anode is longer than the Cathode and is always attached to the higher voltage.
-![Cannot load image](content\english\arduino\4-appendix\img3.png)
+![Cannot load image](content\english\arduino\8-appendix\img3.png)
 
 
 The resistor is a small piece of ceramic material that slows down the flow of electricity. 
 
 > > A resistor has 2 leads, but it is omnidirectional. In other words, it doesn’t matter which lead you attach to the higher voltage. 
 > > Most electronics can only handle a certain amount of electricity before they break, so resistors protect the other components in our game by keeping the electricity low. 
-![Cannot load image](content\english\arduino\4-appendix\img4.png)
+![Cannot load image](content\english\arduino\8-appendix\img4.png)
