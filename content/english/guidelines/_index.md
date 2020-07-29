@@ -12,5 +12,7 @@ We welcome contributions. Great ways to contribute include trying things out, fi
 For additional information, see the following:
 
 - [Getting Started](content/english/guidelines/getting-started.md)
+- [New Workshop Guidelines](content/english/guidelines/new-workshops.md)
 - [How the site is built](content/english/guidelines/site-architecture.md)
+- [Web Developer Guidelines](content/english/guidelines/web-developer.md)
 - [Formatting](content/english/guidelines/formatting.md)
