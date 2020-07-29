@@ -19,7 +19,6 @@ In the repl.it window below, we started the code with the line `jumpSound.play()
 
 In your console you should see a Jsappy bird jumping with sound after you press **run**:
 
-** Bird making Jump sound while its Jumping**
 
 
 

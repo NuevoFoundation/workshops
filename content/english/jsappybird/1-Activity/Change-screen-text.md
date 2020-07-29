@@ -1,6 +1,6 @@
 ---
 title: "Change the Screen text"
-date: 2020-02-10T13:24:17-07:00
+date: 2020-07-29T13:24:17-07:00
 draft: false
 weight: 5
 ---
