@@ -13,7 +13,7 @@ Lets add Force to the Bird
 
 ## Working Together
 
-In the repl.it window below, we started the code with the line `bird.body.velocity.y= -350;`.
+In the repl.it window below, we started the code with the line `bird.body.velocity.y = -350;`.
 
 ![alt text](../../img/jump_force.png "image to add gravity to the bird")
 
@@ -29,5 +29,4 @@ Let's make the bird jump up and forwards:
 
 Add below command in the file [File: create-game.js]
     bird.body.velocity.x = 100;
-
 
