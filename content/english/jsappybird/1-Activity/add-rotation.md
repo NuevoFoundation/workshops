@@ -5,11 +5,11 @@ draft: false
 weight: 9
 ---
 
-Lets add Force to the Bird
+Let's add rotation to the bird:
 
-    Add below command in the file [File: update-game.js]
-    if(bird.angle<50) {
-    bird.angle+=1;
+Add below command in the file [File: update-game.js]
+    if (bird.angle < 50) {
+       bird.angle += 1;
     }
 
 ## Comments:
@@ -26,7 +26,6 @@ In the repl.it window below, we started the code with the line `bird.angle+=1;`.
  In  your console you should see a Jsappy bird  roatting with an angle after you press **run**:
 
 ![alt text](../../img/rotate_output.png "bird rotating")
-
 
 
 
