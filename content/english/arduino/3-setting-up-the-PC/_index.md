@@ -9,13 +9,13 @@ translationKey: "arduino-3"
 
 # Setting up the PC
 
-Download and install teh Arduino IDE from:
+Download and install the Arduino IDE from:
 * the Microsoft Store (quicker install) - https://www.microsoft.com/store/productId/9NBLGGH4RSD8
 * or from the Arduino website https://www.arduino.cc/en/Main/Software (current version is 1.8.9)
 
 Once the software has been installed on your computer, go ahead and open it up. This is the Arduino IDE and is the place where all the programming will happen. Take some time to look around and get comfortable with it.
 
-![Cannot load image](content\english\arduino\3-settning-up-the-PC\img1.png)
+![Cannot load image](content\english\arduino\3-setting-up-the-PC\img1.png)
 *https://www.makerspaces.com/simple-arduino-projects-beginners/*
 
 1.	Menu Bar:  Gives you access to the tools needed for creating and saving Arduino sketches.
@@ -36,14 +36,10 @@ At this point you are ready to connect your Arduino to your computer.  Plug one 
 
 Once the board is connected, you will need to go to Tools then Board then finally select Arduino Uno.
 
-![Cannot load image](content\english\arduino\3-settning-up-the-PC\img2.png)
+![Cannot load image](content\english\arduino\3-setting-up-the-PC\img2.png)
 
 Next, you must tell the Arduino which port you are using on your computer.
 
 To select the port, go to Tools then Port then select the port that says Arduino.
 
-![Cannot load image](content\english\arduino\3-settning-up-the-PC\img3.png)
-
-
-
-
+![Cannot load image](content\english\arduino\3-setting-up-the-PC\img3.png)
