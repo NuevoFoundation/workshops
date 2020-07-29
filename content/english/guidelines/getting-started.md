@@ -35,40 +35,84 @@ The last command prevents an accidental push to this repository without going th
 
 After running above, `git remote -v` should show something similar to the following:
 ```
-\project-system> git remote -v 
+\workshops> git remote -v 
 origin  https://github.com/dmonroym/workshops.git (fetch)
 origin  https://github.com/dmonroym/workshops.git (push)
 upstream        https://github.com/NuevoFoundation/workshops.git (fetch)
 upstream        no_push (push)
 ```
 
-## How to edit workshop content from GitHub
+## Build and Test
 
-**Scenario**: Let's make a simple change to the Contributor Guidelines page and submit a pull request.
+In order to build and test your changes you'll want to use hugo. If you've followed the right installation instructions then hugo should be in your PATH (if not give your machine a restart).
 
-### Find the markdown page on the website
-Open the [Workshop Contributor Guidelines](https://workshops.nuevofoundation.org/guidelines/) page, scroll to the bottom and click the "Edit on GitHub" hyperlink.
+```
+\> cd workshops
+\workshops> hugo -D server
+```
 
-### Open the File editor 
-Click the pencil icon on the page which should open [Edit File page](https://github.com/NuevoFoundation/workshops/edit/master/content/guidelines/_index.md). 
+This'll output some build information but the most important line is going to be along the lines of: `Web Server is available at //localhost:1313/ (bind address 127.0.0.1)`
 
-From here you can toggle between the `Edit file` tab to edit the content and the `Preview changes` tab for a rough preview of how the page would be rendereed. 
+You can now launch your favorite web browser and open up //localhost:1313/ and should see the site up
 
-### Make a change 
-From here, you can make a change to the page, say by adding two exclamation points to the word "Welcome!"
+## Updating your fork
+
+In order to keep yourself up to date you'll want to maintain your fork updated as much as possible.
+Before creating a new branch you should fetch the changes and push them to your fork. Here's how to do it (if you need another branch just use that instead of master)
+
+```
+\workshops> git fetch --all --prune
+\workshops> git checkout master
+\workshops> git merge upstream/master
+\workshops> git push origin master
+```
+
+## Sample Walkthrough
+
+**Scenario**: Let's make a simple change to the Getting Started page and submit a pull request.
+
+### Follow instructions above
+
+Once you've followed the Code instructions above you'll have a local copy of the workshops repo
+
+### Create a topic branch
+
+Make sure your fork is updated before doing this
+
+```
+\workshops> git checkout master
+\workshops> git checkout -b [branch-name]
+\workshops> git push --set-upstream origin [branch-name]
+```
+
+### Open the repo using VS Code
+
+When you launch VS Code you can Open Folder... Navigate to the workshop folder and select open
+
+### Navigate to file and modify it
+
+Depending on what you're modifying you'll want to get a better understanding of [how the site is built](site-architecture.md)
+
+In our case you want to modify this file so go to content\english\guidelines\getting-started.md
+I simply want you to add two exclamation points to the word "Welcome!"
 
 **Before**: `Welcome!`
 
 **After**: `Welcome!!!`
 
 ### Commit the change 
-At the bottom of the page, you will see the **Commit changes** section. Set the following values:
 
-* **Title**: `Update index.md` Default, no change needed
-* **Extended Description**: For our example, we will say: `this is a test PR, you can safely delete` 
-* **Select**: `Create a new branch for this commit and start a pull request`
+Running git status should provide you with all the changes you've made and all the file names. You'll want to stage them by using git add and then commit and push them. Here's the commands to do that.
 
-Finally, click the **Propose file change** button to create your pull request. 
+```
+\workshops> git status
+\workshops> git add content/english/guidelines/getting-started.md
+\workshops> git commit -m "Added exlamations"
+\workshops> git push
+```
 
-### Review your pull request
-Once created, go to the [Pull Requests](https://github.com/NuevoFoundation/workshops/pulls) tab to load your pull request.
+Some git tips: If you want to add everything and commit at the same time you can skip all these commands and just use `git commit -am "message here" ` and then do the `git push`
+
+### Create a pull request
+Congratulations, you've now made all the necessary changes and the last step is to get it reviewed and pushed into production.
+
