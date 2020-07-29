@@ -1,14 +1,9 @@
 trace_dir() {
+    lhci autorun --collect.static-dist-dir="$1"/*
     for pathname in "$1"/*; do 
         if [ -d "$pathname" ]; then
-            trace_dir "$pathname"
-        elif [ -e "$pathname" ]; then
-            case "$pathname" in 
-                *.html)
-                echo "$pathname" 
-		echo "$(dirname $pathname)"
-		lhci autorun --collect.static-dist-dir="$(dirname $pathname)" --collect.url="$pathname"
-            esac
+            echo "$pathname"
+            lhci autorun --collect.static-dist-dir="$(dirname $pathname)" --collect.url="$pathname"
         fi
     done                
 }
