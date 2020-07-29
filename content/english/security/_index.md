@@ -11,7 +11,6 @@ weight: 1
 translationKey: "security-main"
 ---
 
-1. [Meeting Alice, Bob and Eve](1-meeting-alice-bob-and-eve)
-2. [Password Basics](2-password-basics)
-3. [Activity](3-activity)
-4. [Spy Game](4-spy-game)
+## Table of Contents
+
+{{% children %}}

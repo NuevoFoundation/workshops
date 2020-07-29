@@ -3,7 +3,7 @@ title: "Spy Game"
 description: ""
 draft: false
 weight: 4
-translationKey: "Security-4"
+translationKey: "security-4"
 ---
 
 From our last activity we learnt that a strong password is a combination of random characters (possibly having uppercase and lowercase letters), numbers and some special characters. Now it's time to play Hacked or Safe!
