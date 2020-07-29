@@ -6,7 +6,7 @@ weight: 2
 translationKey: "security-2"
 ---
 
-Our Secret Agent Alice solves the case by explaining Bob about Passowrds!!!
+Our Secret Agent Alice solves the case by explaining Bob about Passwords!!!
 
 ## What is a Password?
 
