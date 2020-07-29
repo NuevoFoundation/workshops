@@ -714,6 +714,69 @@ div.notices.help {
   color: rgba(132, 56, 56, 0.995) !important;
 }
 
+.panel {
+  background-color: white !important; }
+  .panel-body {
+    color: #323232 !important; }
+
+/* This feels so wrong... I'm re-theming bootstrap in here, there has to be a cleaner way. */
+/* TODO: Build bootstrap with the rest of the CSS? */
+.panel-primary {
+  border-color: #87b5dd !important; }
+
+.panel-primary > .panel-heading, .panel-primary > .panel-footer {
+  background-color: #a3c6e5;
+  border-color: #87b5dd;
+  color: rgba(84, 118, 148, 0.9925); }
+
+.panel-info {
+  border-color: #c2e5f6 !important; }
+
+.panel-info > .panel-heading, .panel-info > .panel-footer {
+  background-color: #d7eef9;
+  border-color: #c2e5f6;
+  color: rgba(72, 130, 159, 0.9925); }
+
+.panel-success {
+  border-color: #c9e8c3 !important; }
+
+.panel-success > .panel-heading, .panel-success > .panel-footer {
+  background-color: #daefd6;
+  border-color: #c9e8c3;
+  color: rgba(98, 142, 90, 0.9925); }
+
+.panel-warning {
+  border-color: #f8f1cd !important; }
+
+.panel-warning > .panel-heading, .panel-warning > .panel-footer {
+  background-color: #fbf7e1;
+  border-color: #f8f1cd;
+  color: rgba(159, 145, 72, 0.9925); }
+
+.panel-danger {
+  border-color: #f0cbcb !important; }
+
+.panel-danger > .panel-heading, .panel-danger > .panel-footer {
+  background-color: #f5dede;
+  border-color: #f0cbcb;
+  color: rgba(148, 84, 84, 0.9925); }
+
+.panel-default {
+  border-color: #e9e9e9 !important; }
+
+.panel-default > .panel-heading, .panel-default > .panel-footer {
+  background-color: #f4f4f4;
+  border-color: #e9e9e9;
+  color: rgba(116, 116, 116, 0.9925); }
+
+.panel-instructions {
+  border-color: #8c52ad !important; }
+
+.panel-instructions > .panel-heading, .panel-instructions > .panel-footer {
+  background-color: #8c52ad;
+  border-color: #8c52ad;
+  color: rgba(246, 235, 253, 0.993); }
+
 ul.children.children-card {
   flex-wrap: wrap;
   display: -webkit-box;

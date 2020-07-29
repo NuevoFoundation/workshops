@@ -121,6 +121,14 @@
   border-color: #e9e9e9;
   color: rgba(116, 116, 116, 0.9925); }
 
+.panel-instructions {
+  border-color: #e9e9e9 !important; }
+
+.panel-instructions > .panel-heading, .panel-instructions > .panel-footer {
+  background-color: #9000ff;
+  border-color: #8c00ff;
+  color: rgba(153, 0, 255, 0.993); }
+
 body {
   font-size: 16px !important;
   color: #323232 !important; }
@@ -929,7 +937,7 @@ td {
   border-right-color: rgba(0, 0, 0, 0.8); }
 
 #footer {
-  min-height: 3s0px; }
+  min-height: 30px; }
 
 .highlightable {
   padding: 0rem 0 0rem;
