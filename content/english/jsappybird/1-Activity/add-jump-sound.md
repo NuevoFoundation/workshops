@@ -5,9 +5,9 @@ draft: false
 weight: 10
 ---
 
-Lets add Force to the Bird
+Let's add sounds to the bird while it is jumping
 
-    Add below command in the file [File: create-game.js]
+Add the below command in the file [File: create-game.js]
     jumpSound.play();
 
 
@@ -20,7 +20,6 @@ In the repl.it window below, we started the code with the line `jumpSound.play()
  In  your console you should see a Jsappy bird  jumping with sound after you press **run**:
 
 ** Bird making Jump sound while its Jumping**
-
 
 
 
