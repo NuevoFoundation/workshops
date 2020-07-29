@@ -20,7 +20,7 @@ Console.WriteLine("Nuevo" + " " + "Foundation");
 
 ![Combining strings with +](../media/strings-intro.png)
 
-{{% notice tip %}}
+{{% panel theme="primary" header="Instructions"%}}
 
 ## Working Together
 
@@ -38,4 +38,4 @@ Nuevo Foundation
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/NF-CSharp-Strings?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-{{% /notice %}}
+{{% /panel %}}

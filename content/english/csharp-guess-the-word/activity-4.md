@@ -11,25 +11,41 @@ This activity has four parts. This is a great time to use your knowledge of comm
 
 ## Activity 4.1
 
+{{% panel theme="primary" header="Instructions"%}}
+
 First, let's introduce some more code into our game. Find the two lines of code which start with `TODO (ACTIVITY 4.1)` (one is at approximately line 60, and the other at approximately line 130). Delete both lines of code entirely. This unlocks the main behavior of the game, such as checking if the letter guessed by the player is found in the word to guess.
 
 Unfortunately, after pressing **run**, it seems like the game does not wait for user input, and continuously guesses `'C'` instead! This is no good, so let's fix this in the next part.
 
+{{% /panel %}}
+
 ## Activity 4.2
+
+{{% panel theme="primary" header="Instructions"%}}
 
 When the player makes a guess, we need to take the guessed letter and store it in a variable. The variable will be used to check if the letter appears in the word to guess. Use `Console.ReadLine` to wait for user input and store the user input in the input variable. Note: we have already declared the variable input already, so you do not need to use the `var` keyword.
 
 To check if you have done this correctly, press **run**, and you should now be able to type in a letter into the console.
 
+{{% /panel %}}
+
 ## Activity 4.3
+
+{{% panel theme="primary" header="Instructions"%}}
 
 Every time a letter is guessed correctly, we need to increment (add one to) the number of correctly guessed letters. Use the `lettersRevealed` variable to change the number of correctly guessed letters.
 Press **run** to make sure no errors occur. We have also provided some code to print out the value of the `lettersRevealed` variable for testing purposes. Make sure to delete this when you are done testing, since this is something we do not want to reveal to the player!
 
+{{% /panel %}}
+
 ## Activity 4.4
+
+{{% panel theme="primary" header="Instructions"%}}
 
 Every time a letter is guessed incorrectly, the player loses a life. Decrement (subtract one from) the number of lives, using the `lives` variable. We will also tell the player how many lives they have remaining, when they make an incorrect guess, by printing the number of lives to the console.
 Check if you have done this correctly by pressing **run**, guessing an incorrect letter, and seeing if the correct number of lives are displayed on the console.
+
+{{% /panel %}}
 
 {{% notice info %}}
 

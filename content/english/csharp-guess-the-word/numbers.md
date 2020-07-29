@@ -24,7 +24,7 @@ Here is the full list of math symbols that you can use:
 | `-`      | Subtract    | `%`          | Modulo (remainder) |
 | `*`      | Multiply    | `(`,`)`      | Parenthesis        |
 
-{{% notice info %}}
+{{% notice info%}}
 
 ## Fun Fact: Computer Division
 
@@ -32,7 +32,7 @@ The computer does division differently from your regular calculator. Computer di
 
 {{% /notice %}}
 
-{{% notice tip %}}
+{{% panel theme="primary" header="Instructions"%}}
 
 ## Working Together
 
@@ -44,7 +44,7 @@ Try printing out the answers to the following to the console. Ensure your bracke
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/NF-CSharp-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-{{% /notice %}}
+{{% /panel %}}
 
 {{% notice info %}}
 

@@ -25,7 +25,7 @@ Console.WriteLine((3 * 6) == (32 - 14));
 
 ![Printing booleans](../media/booleans-intro.png)
 
-{{% notice tip %}}
+{{% panel theme="primary" header="Instructions"%}}
 
 ## Working Together
 
@@ -38,4 +38,4 @@ Try guessing the answers to the following expressions. Use `Console.WriteLine` t
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/NF-CSharp-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-{{% /notice %}}
+{{% /panel %}}

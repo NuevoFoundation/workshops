@@ -24,7 +24,7 @@ Developers often need to collaborate with other developers. Comments are an easy
 
 To remove a comment (or uncomment a line), simply delete the `//` for a single-line comment, or the `/*` and the `*/` characters for the multi-line comment.
 
-{{% notice tip %}}
+{{% panel theme="primary" header="Instructions"%}}
 
 ## Working Together
 
@@ -36,4 +36,4 @@ To remove a comment (or uncomment a line), simply delete the `//` for a single-l
 
 Throughout today's activity you will see various multi-line comments and `// TODO` comments. These comments will guide us towards completing the Guess the Word game, so be sure you understand how to comment and uncomment code.
 
-{{% /notice %}}
+{{% /panel %}}

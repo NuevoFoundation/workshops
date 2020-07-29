@@ -29,7 +29,7 @@ In this case, after the user types in `Hello World!` into the console, the progr
 
 ![Reading from input after typing in input](../media/reading-input-2.png)
 
-{{% notice tip %}}
+{{% panel theme="primary" header="Instructions"%}}
 
 ## Working Together
 
@@ -51,4 +51,4 @@ I don't know the answer to that! Goodbye!
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/NF-CSharp-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-{{% /notice %}}
+{{% /panel %}}
