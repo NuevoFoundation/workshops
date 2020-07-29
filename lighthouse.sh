@@ -7,7 +7,7 @@ trace_dir() {
                 *.html)
                 echo "$pathname" 
 		echo "$(dirname $pathname)"
-		lhci autrun --collect.static-dist-dir="$(dirname $pathname)" --collect.url="$pathname"
+		lhci autorun --collect.static-dist-dir="$(dirname $pathname)" --collect.url="$pathname"
             esac
         fi
     done                
