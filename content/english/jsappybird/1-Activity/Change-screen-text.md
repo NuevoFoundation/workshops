@@ -5,7 +5,7 @@ draft: false
 weight: 5
 ---
 
-Lets change the start screen text
+Let's change the start screen text:
 
      Add below command in the file [File: start-screen.js]
      var text = game.add.text(0, 0, "Press Space to Start", textOptions);
@@ -20,7 +20,6 @@ In the repl.it window below, we started the code with the line `var text = game.
  In  your console you should see Press Space to Start after you press **run**:
 
 ![alt text](../../img/startscreen_output.png "brid image in the output")
-
 
 
 
