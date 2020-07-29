@@ -1,5 +1,5 @@
 ---
-title: "Steps to start Scafflod"
+title: "Starting up"
 date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 3
@@ -14,5 +14,4 @@ When you make changes to the scafflod you will be created as anonymous users.
 You should see something like the following screen:
 
 ![#Can't find image](../../img/replactivity1.png)
-
 
