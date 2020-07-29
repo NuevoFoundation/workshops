@@ -7,8 +7,8 @@ weight: 8
 
 Let's add force to the bird
 
-    Add below command in the file [File: create-game.js]
-    bird.body.velocity.y= -350;
+Add the below command in the file [File: create-game.js]
+    bird.body.velocity.y = -350;
 
 
 ## Working Together
