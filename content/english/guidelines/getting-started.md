@@ -7,6 +7,41 @@ hidden: true
 
 # Getting Started
 
+#### Prerequisites
+- [Visual Studio Code](https://code.visualstudio.com/download)
+- [Hugo](https://gohugo.io/getting-started/installing/)
+- [Git](https://git-scm.com/downloads) and you can get some experience here: https://try.github.io/
+
+## Code
+
+Contribution to this repository is via the [fork model](https://help.github.com/articles/fork-a-repo/). Contributors push changes to their own "forked" version of workshops, and then submit a pull request into it requesting those changes be merged.
+
+To get started:
+
+1. Fork the repo by clicking Fork in the top right corner:
+
+![image](../media/fork.png)
+
+2. From git bash, run (replacing _[user-name]_ with your GitHub user name):
+
+```
+\> git clone https://github.com/[user-name]/workshops.git
+\> cd workshops
+\workshops> git remote add upstream https://github.com/NuevoFoundation/workshops.git
+\workshops> git remote set-url --push upstream no_push
+```
+
+The last command prevents an accidental push to this repository without going through a pull request.
+
+After running above, `git remote -v` should show something similar to the following:
+```
+\project-system> git remote -v 
+origin  https://github.com/dmonroym/workshops.git (fetch)
+origin  https://github.com/dmonroym/workshops.git (push)
+upstream        https://github.com/NuevoFoundation/workshops.git (fetch)
+upstream        no_push (push)
+```
+
 ## How to edit workshop content from GitHub
 
 **Scenario**: Let's make a simple change to the Contributor Guidelines page and submit a pull request.
