@@ -2,7 +2,7 @@
 title: "In case you were wondering"
 date: 2019-09-03T17:53:41-07:00
 draft: false
-weight: 14
+weight: 18
 ---
 
 ![alt text](media/benji-and-me-sm.png "drawing of Benji and me")

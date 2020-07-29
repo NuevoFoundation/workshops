@@ -5,6 +5,8 @@ draft: false
 weight: 12
 ---
 
+{{% panel theme="primary" header="Instructions"%}}
+
 Using what you've learned, let's try to create a site that describes you! Try and use some or all of the following:
 
 1. A heading & paragraph tag
@@ -15,3 +17,5 @@ Using what you've learned, let's try to create a site that describes you! Try an
 6. Embed a gif or video
 
 <a class="my-2 mx-4 btn btn-info" href="https://codepen.io/Sunny-Dee/pen/qvVJLE" target="_blank">Show your style!</a>
+
+{{% /panel %}}
