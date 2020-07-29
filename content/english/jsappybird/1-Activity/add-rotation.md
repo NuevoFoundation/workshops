@@ -19,14 +19,13 @@ Add below command in the file [File: update-game.js]
 
 ## Working Together
 
-In the repl.it window below, we started the code with the line `bird.angle+=1;`.
+In the repl.it window below, we started the code with the line `bird.angle +=1;`.
 
 ![alt text](../../img/rotate.png "image to add rotation to the bird")
 
- In  your console you should see a Jsappy bird  roatting with an angle after you press **run**:
+In your console you should see a Jsappy bird rotating with an angle after you press **run**:
 
 ![alt text](../../img/rotate_output.png "bird rotating")
-
 
 
 
