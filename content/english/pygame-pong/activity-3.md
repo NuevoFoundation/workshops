@@ -6,15 +6,15 @@ draft: false
 ---
 
 # Activity 3
-Kudos! You not only fixed the game boundary, you are able to give color to objects too. Now lets see if you can change the keys for paddle movement. 
+Kudos! You not only fixed the game boundary, you are able to give color to objects too. Now let's see if you can change the keys for paddle movement. 
 
-To do this, we need to modify one of the parameters we pass to create left Paddle object. Remember, from basics section how you defined the `Paddle` class with UP and DOWN key assignments as its attributes. 
+To do this, we need to modify one of the parameters we pass to create the left paddle object. Remember, from basics section how you defined the `Paddle` class with UP and DOWN key assignments as its attributes. 
 
-Find `// TODO (ACTIVITY 3)` in the code. Modify the appropriate attribute value for left paddle so that it accepts 's' key for downward movement of left paddle. Notice that currently the downward movement of left paddle is controlled by key 't'. 
+Find `// TODO (ACTIVITY 3)` in the code. Modify the appropriate attribute value for the left paddle so that pressing the 's' key moves the left paddle down. Notice that currently the downward movement of the left paddle is controlled by the 't' key. 
 
 {{% notice tip %}}
 
-<h5>Feel free to expirement with UP key to accept a different key. Confirm the result after pressing <b>run</b>.</h5>
+<h5>Feel free to experiment with the UP key to accept a different key. Confirm the result after pressing <b>run</b>.</h5>
 
 {{% /notice %}}
 

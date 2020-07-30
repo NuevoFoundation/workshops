@@ -15,7 +15,7 @@ Find `// TODO (ACTIVITY 6)` in the code. We have on purpose introduced an `'if'`
 {{% notice tip %}}
 
 You may need to check the boundary value for horizontal position (represented by 'X' axis) of ball when right paddle misses it. Can you guess what value it should be ? 
-Confirm the result after pressing <b>run</b>
+Confirm the result after pressing **run**.
 
 {{% /notice %}}
 

@@ -16,7 +16,7 @@ Find `// TODO (ACTIVITY 5)` in the code. Declare a variable `font_label`, assign
 {{% notice tip %}}
 
 You can get different fonts supported in your system by running `pygame.font.get_fonts()`. Try using a different font than `'arial'`.
-Confirm the result after pressing <b>run</b>
+Confirm the result after pressing **run**.
 
 {{% /notice %}}
 

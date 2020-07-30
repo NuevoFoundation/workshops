@@ -12,7 +12,7 @@ weight: 17
 
 # Introduction
 
-You may already know how to play Pong game in real life. How about building the game to be played on a computer ? In this tutorial we will learn to use Python's Pygame library to build the Pong game. Sounds interesting, already?
+You may already know how to play Pong game in real life. How about building the game to be played on a computer? In this tutorial we will learn to use Python's Pygame library to build the Pong game. Sounds interesting, already?
 
 ![animation of pong game](https://media.giphy.com/media/xThuWtNFKZWG6fUFe8/giphy.gif)
 
