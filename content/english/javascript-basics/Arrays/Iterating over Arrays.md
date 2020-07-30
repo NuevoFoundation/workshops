@@ -14,4 +14,4 @@ The forEach() method calls a function (a callback function. In this case, functi
 
 The function passed to forEach is executed once for every item in the array, with the array item passed as the argument to the function. Unassigned values are not iterated in a forEach loop.
 
-![#Can't find image](../img/array_iterations/foreach.png)
+![#Can't find image](../img/arrayiterations/foreach.png)

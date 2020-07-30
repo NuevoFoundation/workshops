@@ -12,40 +12,40 @@ To make things easier, arrays provide a lot of methods. Let's go over some of th
 # Concat() 
 Joins two or more arrays and returns a new array.
 
-![#Can't find image](../img/array_methods/concat.png)
+![#Can't find image](../img/arraymethods/concat.png)
 
 
 # Push() 
 Adds one or more elements to the end of an array and returns the resulting length of the array.
 
-![#Can't find image](../img/array_methods/push.png)
+![#Can't find image](../img/arraymethods/push.png)
 
 
 # Pop() 
 Removes the last element from an array and returns that element.
 
-![#Can't find image](../img/array_methods/pop.png)
+![#Can't find image](../img/arraymethods/pop.png)
 
 s
 # Shift() 
 Removes the first element from an array and returns that element.
 
-![#Can't find image](../img/array_methods/shift.png)
+![#Can't find image](../img/arraymethods/shift.png)
 
 
 # Unshift() 
 Adds one or more elements to the front of an array and returns the new length of the array.
 
-![#Can't find image](../img/array_methods/unshift.png)
+![#Can't find image](../img/arraymethods/unshift.png)
 
 
 # Sort() 
 Sorts the elements of an array in place, and returns a reference to the array.
 
-![#Can't find image](../img/array_methods/sort.png)
+![#Can't find image](../img/arraymethods/sort.png)
 
 
 # Reverse() 
 Transposes the elements of an array, in place: the first array element becomes the last and the last becomes the first. It returns a reference to the array.
 
-![#Can't find image](../img/array_methods/reverse.png)
+![#Can't find image](../img/arraymethods/reverse.png)

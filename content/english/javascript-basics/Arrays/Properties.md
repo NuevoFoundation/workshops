@@ -11,7 +11,7 @@ Here is a list of the properties of the Array object along with their descriptio
 # Constructor() 
 Returns a reference to the array function that created the object.
 
-![#Can't find image](../img/array_properties/constructor.png)
+![#Can't find image](../img/arrayproperties/constructor.png)
 
 
 # Index() 
@@ -19,14 +19,14 @@ The property represents the zero-based index of the match in the string. Index p
 
 - Access an array element by index:
 
-![#Can't find image](../img/array_properties/indexaccess.png)
+![#Can't find image](../img/arrayproperties/indexaccess.png)
 
 - Modify an array element by index:
 
-![#Can't find image](../img/array_properties/indexmodify.png)
+![#Can't find image](../img/arrayproperties/indexmodify.png)
 
 
 # Length() 
 Reflects the number of elements in an array.
 
-![#Can't find image](../img/array_properties/length.png)
+![#Can't find image](../img/arrayproperties/length.png)
