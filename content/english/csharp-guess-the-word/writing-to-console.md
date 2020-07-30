@@ -18,7 +18,7 @@ weight: 2
 3.  Add another `Console.WriteLine` below the current line to print a second sentence below the first sentence.
 4.  Press **run** to see if two sentences are printed out. If you see any red text, please ask for help.
 
-<!--<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/NF-CSharp-WritingToConsole?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>-->
+<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/NF-CSharp-WritingToConsole?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 {{% /notice %}}
 
