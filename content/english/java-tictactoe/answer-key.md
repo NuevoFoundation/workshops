@@ -55,10 +55,9 @@ public class TicTacToe_Nuevo {
 				continue;
             }
 
-            printBoard();
+            printBoard(board);
             System.out.print("Enter your move (1-9): "); 
         }
-        sc.close();  
     }
 
     /*public static void printBoard(String[] curBoard){
@@ -73,22 +72,23 @@ public class TicTacToe_Nuevo {
 
 # activity-3: Update Board
 ```java
+// import java.util.Scanner;
+import java.util.Random;
 public class TicTacToe_Nuevo {
-    /*static ArrayList<Integer> playerMoves = new ArrayList<Integer>();
-    static ArrayList<Integer> computerMoves = new ArrayList<Integer>();
-
-    static String[] board = {" ", " ", " ", " ", " ", " ", " ", " ", " "};*/
-
     public static void main(String args[]){
         /*Scanner sc = new Scanner(System.in);
-        System.out.println("<<<TicTacToe>>>\n- Positions on the board is represented by number 1 - 9\n- player: 'X' computer: 'O'");
-        printBoard();
+        String[] board = {" ", " ", " ", " ", " ", " ", " ", " ", " "};
+        String[] startBoard = {"1", "2", "3", "4", "5", "6", "7", "8", "9"};
+
+        System.out.println("<<<~  Tic  Tac  Toe  ~>>>\n* Choose number 1 - 9 to place your move\n* Player: 'X' Computer: 'O'\n");
+        printBoard(startBoard);
         System.out.print("Enter your move (1-9): "); */
+
         while(true){
             /*int move;
 			try {
 				move = sc.nextInt();
-				if (!(move > 0 && move <= 9) || playerMoves.contains(move) || computerMoves.contains(move)) {
+				if (!(move > 0 && move <= 9) || ! board[move -1].equals(" ")) {
 					System.out.print("Invalid Position; re-enter your move (1-9): ");
 					continue;
 				}
@@ -98,38 +98,29 @@ public class TicTacToe_Nuevo {
 				continue;
             }*/
 
-            placeMove(move, true);
+            board[move - 1] = "X";
             
-            placeMove(getComputerMove(), false);
+            board[getComputerMove(board) - 1] = "O";
 
-            /* printBoard();
-            System.out.print("Enter your move (1-9): "); */
+            /*printBoard(board);
+            System.out.print("Enter your move (1-9): "); */s
         }
-        // sc.close();  
     }
-    /*public static void printBoard(){
-        System.out.println(" " + board[0] + " | " + board[1] + " | " + board[2] + " ");
+
+    /*public static void printBoard(String[] curBoard){
+        System.out.println(" " + curBoard[0] + " | " + curBoard[1] + " | " + curBoard[2] + " ");
         System.out.println("---+---+---");
-        System.out.println(" " + board[3] + " | " + board[4] + " | " + board[5] + " ");
+        System.out.println(" " + curBoard[3] + " | " + curBoard[4] + " | " + curBoard[5] + " ");
         System.out.println("---+---+---");
-        System.out.println(" " + board[6] + " | " + board[7] + " | " + board[8] + " ");
+        System.out.println(" " + curBoard[6] + " | " + curBoard[7] + " | " + curBoard[8] + " ");
     }*/
-    public static int getComputerMove(){
+    public static int getComputerMove(String[] curBoard){
         Random rand = new Random();
         int pos = rand.nextInt(9) + 1;
-        while(playerMoves.contains(pos) || computerMoves.contains(pos)){
+        while(! curBoard[pos - 1].equals(" ")){
             pos = rand.nextInt(9) + 1;
         }
         return pos;
-    }
-    public static void placeMove(int move, boolean playerTurn){
-        if(playerTurn){
-            board[move - 1] = "X";
-            playerMoves.add(move);
-        }else{
-            board[move - 1] = "O";
-            computerMoves.add(move);
-        }
     }
 }
 ```
@@ -179,7 +170,7 @@ public class TicTacToe_Nuevo {
             /* printBoard();
             System.out.print("Enter your move (1-9): "); */
         }
-        // sc.close();  
+        sc.close();   // important
     }
     /*public static void printBoard(){
         System.out.println(" " + board[0] + " | " + board[1] + " | " + board[2] + " ");
