@@ -9,7 +9,7 @@ draft: false
 weight: 10
 ---
 
-# Javascript basics
+# JavaScript basics
 <details open>
 <summary>Topics</summary>
 {{% children %}}
