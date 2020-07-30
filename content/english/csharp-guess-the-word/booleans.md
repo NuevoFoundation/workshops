@@ -25,9 +25,9 @@ Console.WriteLine((3 * 6) == (32 - 14));
 
 ![Printing booleans](../media/booleans-intro.png)
 
-{{% panel theme="primary" header="Instructions"%}}
-
 ## Working Together
+
+{{% panel theme="instructions" header="Instructions" %}}
 
 Try guessing the answers to the following expressions. Use `Console.WriteLine` to check your answers.
 

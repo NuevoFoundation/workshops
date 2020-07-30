@@ -9,8 +9,9 @@ weight: 2
 
 `Console.WriteLine` means to tell the computer to print the sentence enclosed within the parentheses `()` out onto the console.
 
-{{% panel theme="primary" header="Instructions"%}}
 ## Working Together
+
+{{% panel theme="instructions" header="Instructions" %}}
 
 1.  In the repl.it window below, press **run**. You see that `Hello World` is printed out to the screen on the right.
 2.  Without removing the quotation marks, try changing `"Hello World"` to another sentence. Press **run** to see if anything changes.

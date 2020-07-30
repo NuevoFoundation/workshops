@@ -5,7 +5,7 @@ draft: false
 weight: 15
 ---
 
-{{% panel theme="primary" header="Instructions"%}}
+{{% panel theme="instructions" header="Instructions" %}}
 
 Now, you will need to create a new repository to store the contents of your site! Think of a repository as a giant folder that can store lots of other files and folders for a given project. You can create one by selecting 'Start a Project' or 'Create a new repository'. Two very important things to keep in mind:
 

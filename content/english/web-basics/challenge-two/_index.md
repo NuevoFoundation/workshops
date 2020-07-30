@@ -5,7 +5,7 @@ draft: false
 weight: 7
 ---
 
-{{% panel theme="primary" header="Instructions"%}}
+{{% panel theme="instructions" header="Instructions" %}}
 
 1. Open the web editor (click the "Try it yourself!" button below)
 2. Add an id attribute to one of the header tag. For example, 

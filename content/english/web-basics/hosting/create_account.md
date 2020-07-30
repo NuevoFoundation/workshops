@@ -5,7 +5,7 @@ draft: false
 weight: 14
 ---
 
-{{% panel theme="primary" header="Instructions"%}}
+{{% panel theme="instructions" header="Instructions" %}}
 
 You will need a GitHub account to do so. If you don't have one, create one [here](https://github.com/).
 

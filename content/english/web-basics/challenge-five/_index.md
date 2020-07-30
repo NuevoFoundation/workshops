@@ -5,7 +5,7 @@ draft: false
 weight: 12
 ---
 
-{{% panel theme="primary" header="Instructions"%}}
+{{% panel theme="instructions" header="Instructions" %}}
 
 Using what you've learned, let's try to create a site that describes you! Try and use some or all of the following:
 

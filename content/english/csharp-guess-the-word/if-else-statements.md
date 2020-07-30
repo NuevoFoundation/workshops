@@ -89,10 +89,9 @@ if (num1 < num2)
 
 ![If-else nested](../media/if-nested.png)
 
-{{% panel theme="primary" header="Instructions"%}}
-
-
 ## Working Together
+
+{{% panel theme="instructions" header="Instructions" %}}
 
 Let's write a program that first prints the following line to console:
 

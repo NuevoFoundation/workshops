@@ -5,7 +5,7 @@ draft: false
 weight: 9
 ---
 
-{{% panel theme="primary" header="Instructions"%}}
+{{% panel theme="instructions" header="Instructions" %}}
 
 1. <a href="https://giphy.com/nuevofoundation" target="_blank">Follow this link</a> to see the available GIFs
 2. Click on the one you like and select "Embed" <br>

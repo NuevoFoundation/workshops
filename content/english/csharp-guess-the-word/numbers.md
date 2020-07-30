@@ -32,9 +32,9 @@ The computer does division differently from your regular calculator. Computer di
 
 {{% /notice %}}
 
-{{% panel theme="primary" header="Instructions"%}}
-
 ## Working Together
+
+{{% panel theme="instructions" header="Instructions" %}}
 
 Try printing out the answers to the following to the console. Ensure your brackets are matched. Use a calculator (or mental math) to verify the computer produced the correct answer.
 

@@ -29,9 +29,9 @@ In this case, after the user types in `Hello World!` into the console, the progr
 
 ![Reading from input after typing in input](../media/reading-input-2.png)
 
-{{% panel theme="primary" header="Instructions"%}}
-
 ## Working Together
+
+{{% panel theme="instructions" header="Instructions" %}}
 
 Write a program that first prints the following two lines to console:
 

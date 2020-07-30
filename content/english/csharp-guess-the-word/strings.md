@@ -20,9 +20,9 @@ Console.WriteLine("Nuevo" + " " + "Foundation");
 
 ![Combining strings with +](../media/strings-intro.png)
 
-{{% panel theme="primary" header="Instructions"%}}
+## Working Together 
 
-## Working Together
+{{% panel theme="instructions" header="Instructions" %}}
 
 In the repl.it window below, we started the code with the line `Console.WriteLine("Nuevo" + " " + "Foundation");`.
 

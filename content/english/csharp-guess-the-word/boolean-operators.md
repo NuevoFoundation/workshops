@@ -26,9 +26,9 @@ To summarize, `&&` requires both Boolean expressions to be true, while `||` only
 
 ![Combining booleans](../media/booleans-advanced.png)
 
-{{% panel theme="primary" header="Instructions"%}}
-
 ## Working Together
+
+{{% panel theme="instructions" header="Instructions" %}}
 
 Try guessing the answers to the following expressions. Use `Console.WriteLine` to print out the answers.
 

@@ -11,7 +11,8 @@ This activity is split into 2 parts and will test your knowledge about variables
 
 
 ## Activity 3.1
-{{% panel theme="primary" header="Instructions"%}}
+
+{{% panel theme="instructions" header="Instructions" %}}
 
 At the start of the game, we should tell the player how many letters the word to guess has. For example, if the word to guess is `"Hello"`, we should tell the player: `The word has 5 letters`. If the word to guess is `"Foundation"`, we should tell the player: `The word has 10 letters`. We have already stored the number of letters in the `numberOfLetters` variable, so use it to complete this activity.
 
@@ -21,7 +22,7 @@ To check if you have completed this activity correctly, press **run**, and make 
 
 ## Activity 3.2
 
-{{% panel theme="primary" header="Instructions"%}}
+{{% panel theme="instructions" header="Instructions" %}}
 
 There are two more pieces of information that we need the computer to store:
 

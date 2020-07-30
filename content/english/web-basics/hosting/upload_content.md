@@ -5,7 +5,7 @@ draft: false
 weight: 16
 ---
 
-{{% panel theme="primary" header="Instructions"%}}
+{{% panel theme="instructions" header="Instructions" %}}
 
 Upload all your files and folders that belong to your site in this new repository.
 

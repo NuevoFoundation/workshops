@@ -6,7 +6,7 @@ weight: 4
 ---
 
 # Activity 1
-{{% panel theme="primary" header="Instructions"%}}
+{{% panel theme="instructions" header="Instructions" %}}
 
 Go to the code containing the GuessTheWord game. Press **run**. Notice that `Press 'run' on the top of the screen to play again.` is the only thing that is printed to the console. Let's add a welcome message so that the player knows they playing the Guess the Word game.
 

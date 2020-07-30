@@ -5,7 +5,7 @@ draft: false
 weight: 4
 ---
 
-{{% panel theme="primary" header="Instructions"%}}
+{{% panel theme="instructions" header="Instructions" %}}
 
 1. Open the web editor (click the "Try it yourself!" button below)
 2. Use the header tags to add a title, and the paragraph tags to write a paragraph about Benji
