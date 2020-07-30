@@ -9,7 +9,7 @@ weight: 2
 
 An array is simply a collection of values. It's a special variable, which can hold more than one value at a time.
 
-For example, consider an array called fruits, which would contain values like apple, orange, mango etc... all together in a single variable.
+For example, consider an array called fruits, which would contain values like apple, orange, mango etc... all together in a single variable.   
 
 
 
