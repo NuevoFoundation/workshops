@@ -6,7 +6,7 @@ prereq: "None"
 difficulty: "Beginner"
 image: ""
 draft: false
-# icon: "fab fa-python"
+# icon: "fab fa-database"
 weight: 130
 # translationKey: "SQL-workshop-home"
 ---
