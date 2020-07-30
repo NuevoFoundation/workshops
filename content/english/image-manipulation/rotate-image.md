@@ -3,6 +3,8 @@ title: "Rotate the image"
 date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 20
+prereq: "Python Basics: Repl.it, Writing to Console (Print), Comments, Data Types - Strings, Numbers, Booleans, Variables, Reading from Console, Functions"
+difficulty: Intermediate
 --- 
 
 Now that we have the image in our code, let’s turn it in different directions. To do that, let’s look at the <b>Pillow Image</b> function <b>rotate()</b>.
