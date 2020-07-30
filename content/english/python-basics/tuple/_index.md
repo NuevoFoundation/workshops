@@ -1,10 +1,10 @@
 ---
-title: "Tuple"
+title: "Tuples"
 draft: false
 weight: 10
 ---
 
-Tuple is also a ordered collection of elements just like lists but tuple is immutable. So you can not change the elements of a tuple after it is assigned but for list you are allowed to do so. A tuple can be created by placing all the elements inside parentheses `()`, separated by commas. 
+A Tuple is also an ordered collection of elements just like lists, but tuples are immutable. So you can not change the elements of a tuple after it is assigned (unlike lists where you are allowed to do so). This immutable nature makes tuples very useful when you don't want your data to be mutated through out the program. Along with this, tuples are generally used to store elements of different data types. A tuple can be created by placing all the elements inside parentheses `()`, separated by commas. 
 
 ```python
 
@@ -15,22 +15,22 @@ my_tuple = ('apple', 'orange')
 
 {{% notice note %}}
 
-Tuple can also be created with out parentheses. However, it is a good practice to use them.
+Tuples can also be created without parentheses. However, it is a good practice to use them.
 
 {{% /notice %}}
 
-Tuple can also have the elements of different types.
+Tuple can also have elements of different types.
 
 ```python
 
-#A tuple having elements of different datatypes
+#A tuple having elements of different data types
 my_tuple = ('apple', 1, 4.5)
 
 ```
 
 ### Accessing the elements of a tuple
 
-We can access the elements of a tuple by using indexes inside square bracket `[]` just like list and the index starts from 0. 
+We can access the elements of a tuple by using indexes inside square bracket `[]` just like list. Note the index starts from 0. 
 
 ```python
 
@@ -44,7 +44,7 @@ print(my_tuple[2]) ## prints mango
 
 ### Combine two tuples
 
-We can combine two tuple by using `+` operator.
+We can combine two tuples by using `+` operator.
 
 ```python
 
@@ -72,7 +72,7 @@ print(len(fruits))  ## prints 3
 
 ### Reassign a tuple
 
-As we know tuple is immutable, we can not change and element of the tuple. So `fruits[0] = 'lemon'` will give error as here we are trying to change the element at index `0` of 'fruits'.
+Since tuples are immutable, we can not change an element of the tuple. So `fruits[0] = 'lemon'` will give an error as here we are trying to change the element at index `0` of 'fruits'.
 But we can reassign a tuple.
 
 ```python

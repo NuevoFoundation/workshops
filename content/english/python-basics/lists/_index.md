@@ -4,13 +4,13 @@ draft: false
 weight: 10
 ---
 
-Lists are the ordered collection of items and can be written as comma separated values inside square bracket `[]`. You can access the element  of a list by using indexes inside square bracket. The index starts from `0` and goes upto the `(number of elements in the list - 1)` and the first element is at index `0`. So, a lis having 6 elements will have indices from 0 to 5. 
+Lists are the ordered collection of items and can be written as comma separated values inside square bracket `[]`. You can access the element  of a list by using indexes inside square bracket. The index starts from `0` and goes up to the `(number of elements in the list - 1)` and the first element is at index `0`. So, a list having 6 elements will have indices from 0 to 5. 
 
 ```python
 #Creating a list of 5 fruits
 fruits = ['orange', 'apple', 'banana', 'apple', 'mango']
 
-#Print element at index 1
+#Print element at index 2
 print(fruits[2])     ##it prints banana
 
 
@@ -47,6 +47,7 @@ Appending an element can be done by the `list.append(x)` function where `x` is t
 
 ```python
 
+#Before the list is ['orange', 'apple', 'banana', 'apple', 'mango']
 fruits.append('lemon')
 #Now the list is ['orange', 'apple', 'banana', 'apple', 'mango', 'lemon']
 
@@ -77,7 +78,7 @@ fruits.remove('apple')
 
 {{% notice note %}}
 
-`list.remove(x)` throws value error if the element `x` is not present in the list.
+`list.remove(x)` throws a value error if the element `x` is not present in the list.
 
 {{% /notice %}}
 
@@ -113,7 +114,7 @@ fruits.reverse()
 
 ### Get the minimum and maximum element of the list
 
-`min(list)` function returns the minimum element of the list and the maximum element can be found by `max(list)` function.
+`min(list)` function returns the minimum element of the list and the maximum element can be found by using the `max(list)` function.
 
 ```python
 
