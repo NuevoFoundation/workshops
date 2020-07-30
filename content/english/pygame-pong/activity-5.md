@@ -6,16 +6,20 @@ draft: false
 
 ---
 
-![Honeycomb drawing](../media/turtle-honeycomb.png)
+# Activity 5
+Great progress so far! Now lets make use of a variable to control font value. 
 
-This is the finale! Let's create the honeycomb that Alex will live in. Fortunately, a honeycomb is simply 6 hexagons, so let's combine our knowledge of functions and loops to make our honeycomb! 
+In this activity you need to apply the knowledge about variables you learnt in Python basics. 
 
-In this activity, create a new function called `draw_honeycomb()`. Inside the function body, create a loop that repeats 6 times. Inside the loop we have to first draw a hexagon using our `draw_hexagon()` function we previously defined. Next, move the turtle so it can draw the next hexagon. To do so, after the turtle draws each hexagon, we need to tell our turtle to move forward **50 pixels** and then turn right **60 degrees**. 
+Find `// TODO (ACTIVITY 5)` in the code. Declare a variable `font_label`, assign it the value `'arial'`. Now take a look at statement in code `font_name = pygame.font.match_font('arial')`. Can you figure out the place in this statement where you should use this new variable to control the font displayed on screen ? 
 
-Note that the drawing of the honeycomb may take a while. You can change how fast the turtle draws the honeycomb by setting the turtle's speed to a number between 1 and 10, 1 being the slowest and 10 being the fastest. Place this code near where we change the color of the turtle.
+{{% notice tip %}}
 
-```
-turtle.speed(8)
-```
+You can get different fonts supported in your system by running `pygame.font.get_fonts()`. Try using a different font than `'arial'`.
+Confirm the result after pressing <b>run</b>
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonWithTurtleActivity5?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+{{% /notice %}}
+
+
+## Takeaway 
+You have just modified font parameter by using a variable. If you happen to use same font at multiple places in your program, then you can just modify variable at one place and it will take effect at all places where you have used that variable.

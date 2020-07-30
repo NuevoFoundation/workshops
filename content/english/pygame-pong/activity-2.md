@@ -5,7 +5,8 @@ weight: 4
 draft: false
 ---
 
-Great! You juts fixed the game's boundary. Now, notice that how everything inside game looks black and white. Let's give it some colors. 
+# Activity 2
+Great! You just fixed the game's boundary. Now, notice that how everything inside game looks black and white. Let's give it some colors. 
 
 To do this, we need to modify the RGB values in `COLOR` attribute.
 RGB stands for RED, GREEN, BLUE. In computer screen you can modify the color of each pixel by modifying its RGB value. Every color can be represented by combination of different RGB values in it. The values are specified in same order as RGB is written.

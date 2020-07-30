@@ -6,111 +6,61 @@ draft: false
 hidden: true
 ---
 
-The below 3 lines are needed for the introduction activity and all the other activities as well. 
-
-```python
-import turtle
-turtle.color("orange")
-turtle.shape("turtle")
-```
-
-### Introduction Activity
-```python
-turtle.color("orange")
-turtle.forward(50)
-```
 
 ### Activity 1
 ```python
-turtle.forward(50)
-turtle.left(90)
-turtle.forward(50)
-turtle.left(90)
-turtle.forward(50)
-turtle.left(90)
-turtle.forward(50)
-turtle.left(90)
+HEIGHT = 600
+WIDTH = 800
 ```
 
 ### Activity 2
 ```python
-for i in range(4):
-  turtle.forward(50)
-  turtle.left(90)
+COLOR = (70, 130, 180)
 ```
 
 ### Activity 3
 ```python
-for i in range(6):
-  turtle.forward(50)
-  turtle.left(60)
+self.paddles.append(Paddle(  # The left paddle
+      self.BALL_VELOCITY,
+      pygame.K_w,
+      pygame.K_s,
+      0,
+      self.HEIGHT / 2 - self.PADDLE_HEIGHT / 2,
+      self.PADDLE_WIDTH,
+      self.PADDLE_HEIGHT
+      ))
 ```
 
 ### Activity 4
 ```python
-def draw_hexagon():
-  for i in range(6):
-    turtle.forward(50)
-    turtle.left(60)
-
-draw_hexagon()
+ self.paddles.append(Paddle(  # The right paddle
+      self.BALL_VELOCITY,
+      pygame.K_UP,
+      pygame.K_DOWN,
+      self.WIDTH - self.PADDLE_WIDTH,
+      self.HEIGHT / 2 - self.PADDLE_HEIGHT / 2,
+      self.PADDLE_WIDTH,
+      self.PADDLE_HEIGHT
+      ))
 ```
 
 ### Activity 5
 ```python
-def draw_honeycomb():
-  for i in range(6):
-    draw_hexagon()
-    turtle.forward(50)
-    turtle.right(60)
-
-draw_honeycomb()
+font_label = 'arial'
+font_name = pygame.font.match_font(font_label)
 ```
 
 ### Activity 6
 ```python
-turtle.penup()
-turtle.goto(300, 300)
-turtle.pendown()
+if ball.x < 0
+    self.RIGHTSCORE = self.RIGHTSCORE + 1
+    ball.x = self.BALLXSTARTPOSITION
+    ball.y = self.BALLYSTARTPOSITION
+    ball.velocity = self.BALL_VELOCITY
+    ball.angle = self.BALL_ANGLE
 ```
 
 ### Activity 7
 ```python
-def figure_8():
-  turtle.circle(50)
-  turtle.circle(-50)
-
-figure_8()
-```
-
-### Activity 8
-```python
-def mandala_flower():
-  for i in range(35):
-    figure_8()
-    turtle.right(10)
-
-mandala_flower()
-```
-
-### Activity 9
-```python
-def mandala_flower():
-  turtle.color(30, 100, 160)
-  for i in range(35):
-    figure_8()
-    turtle.right(10)
-
-mandala_flower()
-```
-
-### Activity 10
-```python
-def mandala_flower():
-  for i in range(35):
-    turtle.color(random.randint(0, 256),random.randint(0, 256), random.randint(0, 256)) 
-    figure_8()
-    turtle.right(10)
-
-mandala_flower()
+if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
 ```

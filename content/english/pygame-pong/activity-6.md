@@ -1,30 +1,24 @@
 ---
-title: "Activity 6 - Fix if condition to track correct score."
+title: "Activity 6 - Fix the 'if' condition to track correct score."
 date: 2019-07-29T13:24:17-07:00
-weight: 9
+weight: 8
 draft: false
 ---
 
-Our first step is to move the turtle to a new location to draw the flower (we don’t want to draw the flower on top of the beehive!). To do this, we first need to use the following methods:
+# Activity 6
+You have come a long way, we hope you are enjoying!
 
-```
-turtle.penup() 
-turtle.goto(x,y)
-turtle.pendown()
-```
+In this activity you need to apply the knowledge about 'if' control structure you learnt in Python basics. 
 
-`turtle.penup()` tells the turtle to pick up its pen so it doesn’t draw while it is moving. Then, with `turtle.goto(x,y)`, we are telling the turtle the position where the turtle moves to. After that we tell the turtle to put its pen back down using `turtle.pendown()` so it can start drawing again. 
+Find `// TODO (ACTIVITY 6)` in the code. We have on purpose introduced an `'if'` block that is checking for wrong condition for tracking the score when right paddle miss the ball. This not only causing the wrong score to be displayed on screen , as well as it causing the ball to move in erratic manner. Can you figure out what 'condition' it should check for when right paddle miss the ball ? Feel free to ask if you need help in getting this right. 
 
-![Graph](../media/graph.png)
+{{% notice tip %}}
 
-{{% notice info %}}
-
-## Tip
-
-The `x` and  `y` in the `turtle.goto()` method are the `x` and `y` coordinates of the turtle. We want to change the `x` and  `y` coordinates of the turtle from `(0, 0)` which is center of the image, to somewhere a little further away so that the mandala flower doesn’t cover up part of the honeycomb.
+You may need to check the boundary value for horizontal position (represented by 'X' axis) of ball when right paddle misses it. Can you guess what value it should be ? 
+Confirm the result after pressing <b>run</b>
 
 {{% /notice %}}
 
-To complete this activity, move the turtle to position (300, 300) on the canvas. This will move it to the top-right corner.
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonWithTurtleActivity6?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+## Takeaway 
+You have just fixed a condition for checking boundary values when ball moves horizontally out of boundary of game.

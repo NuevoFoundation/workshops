@@ -5,8 +5,6 @@ weight: 3
 draft: false
 ---
 
-
-
 # Activity 1
 You can adjust the boundary of pong game by adjusting the height and width of rectangle that represent the boundary. 
 
