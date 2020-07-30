@@ -18,7 +18,7 @@ weight: 130
 
 ## Welcome to the Nuevo Space Station (NSS)! 
 
-<font size="3">You are a space adventurer who travels
+You are a space adventurer who travels
  the galaxy in your speedy rocket ship while solving coding puzzles to help save your
  alien friends on different planets.
 
