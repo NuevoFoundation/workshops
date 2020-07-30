@@ -31,7 +31,6 @@ You are given information about the Galaxy and want to look for the Planet of Fu
 
 #### Now use what you learned! **Rearrange the code blocks below to answer the question and continue your space adventure!**
 
-
 #### Question: What command will display all the columns in the database called "galaxy"?
 
 
@@ -76,3 +75,4 @@ You are given information about the Galaxy and want to look for the Planet of Fu
 {{< /rawhtml >}}
 
 <!-- TODO: Add SQL database image here -->
+

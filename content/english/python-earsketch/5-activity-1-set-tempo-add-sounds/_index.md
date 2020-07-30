@@ -2,12 +2,12 @@
 title: "Activity 1 - Set tempo & add sounds"
 description: "Setting up headphones"
 prereq: "Python Basics: Print, Comments, Functions"
-difficulty: "Beginner"
+difficulty: "Intermediate"
 weight: 5
 draft: false
 ---
 
-<iframe width="100%" height="500px" src="https://www.youtube.com/embed/3OpCc7sKcpM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="600px" src="https://www.youtube.com/embed/3OpCc7sKcpM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Let's take a closer look at the pre-existing code and understand what it means. ![annotated screenshot cannot be displayed](../img/annotated-screenshot-overview.png) We will be placing our new code between the `setTempo()` and `finish()` functions. The `setTempo()` function allows you to set the overall project tempo.
 

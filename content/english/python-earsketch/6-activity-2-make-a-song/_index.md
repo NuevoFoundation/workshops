@@ -2,11 +2,11 @@
 title: "Activity 2 - Make a song!"
 description: "Setting up headphones"
 prereq: "Python Basics: Print, Comments, Functions"
-difficulty: "Beginner"
+difficulty: "Intermediate"
 weight: 6
 draft: false
 ---
-<iframe width="100%" height="500px" src="https://www.youtube.com/embed/OvSvko6Y4io" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="600px" src="https://www.youtube.com/embed/OvSvko6Y4io" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Now that you have learned how to add sounds to Earsketch, let's try and make a song! You should already have one audio clip in Earsketch, but
 songs are made up of various instruments, so we need to add more audio clips.
