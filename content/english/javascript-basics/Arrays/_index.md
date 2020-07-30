@@ -17,6 +17,14 @@ For example, consider an array called fruits, which would contain values like ap
 
 The following statements show how to create arrays in two different ways but the end result is the same.
 
+<b>Syntax:</b>
+```javascript
+var arrayName = new Array(element0, element1, ..., elementN);
+var arrayName = Array(element0, element1, ..., elementN);
+var arrayName = [element0, element1, ..., elementN];
+```
+
+<b>Example:</b>
 ![#Can't find image](../img/array/syntax.png)
 
 
