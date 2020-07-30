@@ -1,6 +1,6 @@
 ---
-title: "Learn SELECT Command"
-description: "Learn SELECT command"
+title: "Learn the SELECT Command"
+description: "Learn the SELECT command"
 date: 2020-07-17
 prereq: "none"
 difficulty: "Beginner"
@@ -75,4 +75,3 @@ You are given information about the Galaxy and want to look for the Planet of Fu
 {{< /rawhtml >}}
 
 <!-- TODO: Add SQL database image here -->
-
