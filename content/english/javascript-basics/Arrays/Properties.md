@@ -5,7 +5,7 @@ draft: false
 weight: 4
 ---
 
-Array properties or characteristics are a way to describe the attributes of the array. Example: total no of elements, value at a particular index etc...
+Array properties or characteristics are a way to describe the attributes of the array. Examples include: the total number of elements, the value at a particular index, etc...
 
 Here is a list of the properties of the Array object along with their description.
 
