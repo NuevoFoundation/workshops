@@ -11,9 +11,9 @@ draft: false
 
 ## Now, it's your turn!
 We recommend to utilise the knowledge gained from this tutorial to make various interesting changes into game.
-- Can you make te game to use 'Sets' and limit each game to scoreline of 21 to declare winner of that set? The player who wins best of 3 sets, declared as winner. 
-- Try adding difficulty level for player to choose. At each difficulty level the default speed of ball is increased. Can you guess which attribute of the ball's object you should change? 
-- Can you assign player names to each side and let user enter preferred name before start of the game?
+- Add sets to the game, where each set is a first to 21 points. The player who wins the best of 3 sets will be declared as the winner.
+- Try adding difficulty level for player to choose. At each difficulty level the default speed of ball is increased. Can you guess which attribute of the `Ball` object you should change?
+- Can you assign player names to each side and let the user enter their preferred name before starting the game?
 
 
 
