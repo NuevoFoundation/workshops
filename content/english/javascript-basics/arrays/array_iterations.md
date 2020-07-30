@@ -14,7 +14,7 @@ The `forEach()` method calls a function (a callback function. In this case, func
 
 The function passed to `forEach` is executed once for every item in the array, with the array item passed as the argument to the function. Unassigned values are not iterated in a forEach loop.
 
-<b>Syntax:</b>
+**Syntax:**
 ```javascript
 arrayName.forEach(functionName);
 ```
