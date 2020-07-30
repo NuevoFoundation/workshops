@@ -15,7 +15,7 @@ translationKey: "sql_activity_1"
 </script>
 
 # Mission 1: Save the Planet of Fun From Boredom!
-<font size="3"> Your first mission is to go to the Planet of Fun and save them from boredom! 
+Your first mission is to go to the Planet of Fun and save them from boredom! 
 You are sent a database about the planet and you need to learn how to use SQL 
 commands to help save the Planet of Fun!
 
@@ -29,10 +29,10 @@ You are given information about the Galaxy and want to look for the Planet of Fu
 
 ![Select](../assets/Select.PNG)
 
-Now use what you learned! **Rearrange the code blocks below to answer the question and continue your space adventure!**
+#### Now use what you learned! **Rearrange the code blocks below to answer the question and continue your space adventure!**
 
 
-### Question: What command will display all the columns in the database called "galaxy"?
+#### Question: What command will display all the columns in the database called "galaxy"?
 
 
 {{< rawhtml >}}
