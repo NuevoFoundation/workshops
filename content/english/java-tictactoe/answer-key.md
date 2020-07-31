@@ -172,6 +172,7 @@ public class TicTacToe_Nuevo {
             /*printBoard(board);
             System.out.print("Enter your move (1-9): "); */s
         }
+        sc.close();  
     }
 
     /*public static void printBoard(String[] curBoard){
@@ -229,15 +230,7 @@ public class TicTacToe_Nuevo {
 
 # activity-5: AI Computer Move
 ```java
-// reimplement getComputerMove()
-public static int getComputerMove(){
-    Random rand = new Random();
-    int pos = rand.nextInt(9) + 1;
-    while(playerMoves.contains(pos) || computerMoves.contains(pos)){
-        pos = rand.nextInt(9) + 1;
-    }
-    return pos;
-}
+// TODO
 ```
 
 # Full Code

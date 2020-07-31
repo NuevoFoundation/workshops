@@ -18,107 +18,44 @@ weight: 5
 These are the concepts from the `Java: Basics` workshop that we will use in this activity. Please refer to these activity to review or learn the concepts before continuing!
 {{% /notice %}}
 
-1. 
+1. Write a method `getWinner(String[] curBoard)` that returns winner in a `String` with an `array` input of the current game board. 
 
+- If the player wins, return `"Congratulations! \nYou won the Game :)"`.
+- If the computer wins, return `"Game Over! \nYou lost the Game :("`.
+- If there's a tie, return `"It's a TIE! Try it again"`.
+- If there isn't a winner yet, return `""`.
 
+There are several ways to write this method. Give it a try in the following replit, it will tell you if your method is correctly written!
+<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaTicTacToegetWinner?lite=true#Winner.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
- ```java
-// import java.util.Scanner;
-// import java.util.Random;
-public class TicTacToe_Nuevo {
-    public static void main(String args[]){
-        /*Scanner sc = new Scanner(System.in);
-        String[] board = {" ", " ", " ", " ", " ", " ", " ", " ", " "};
-        String[] startBoard = {"1", "2", "3", "4", "5", "6", "7", "8", "9"};
+{{% notice note %}}
+#### Ideas/Hints for writing the method `getWinner()`
+- Concatenate `Strings` at the 3 positions that consist a horizontal, vertical, or diagonal row.
+- Check if each of them is `"XXX"` or `"OOO"` for a winner. (You can even create another method that checks if an input `String` is `"XXX"` or `"OOO"`)
+- If all the spots in the array is filled (a `for loop` can be helpful), and there is no winner, the game ends in a tie.
+{{% /notice %}}
 
-        System.out.println("<<<~  Tic  Tac  Toe  ~>>>\n* Choose number 1 - 9 to place your move\n* Player: 'X' Computer: 'O'\n");
-        printBoard(startBoard);
-        System.out.print("Enter your move (1-9): "); */
+2. In `main()`, call the method `gerWinner()` after you the code where you place the player's move, `"X"`. 
 
-        while(true){
-            /*int move;
-			try {
-				move = sc.nextInt();
-				if (!(move > 0 && move <= 9) || ! board[move -1].equals(" ")) {
-					System.out.print("Invalid Position; re-enter your move (1-9): ");
-					continue;
-				}
-			} catch (Exception e) {
-                sc.next();
-				System.out.print("Invalid Input; re-enter your move (1-9): ");
-				continue;
-            }*/
+Check if the game should continue (there is no winner or tie). 
 
-            // board[move - 1] = "X";
-            String winner = getWinner(board);
-            if(winner.length() > 0){
-                printBoard(board);
-                System.out.println("\n" + winner + "\n");
-                break;
-            }
-            
-            // board[getComputerMove(board) - 1] = "O";
-            winner = getWinner(board);
-            if(winner.length() > 0){
-                printBoard(board);
-                System.out.println("\n" + winner + "\n");
-                break;
-            }
+If not, print out the final board and the game result! And, add the line of code `break`, which prompts the program to break out from the `while` loop!
 
-            /*printBoard(board);
-            System.out.print("Enter your move (1-9): "); */s
-        }
-    }
+</br>
 
-    /*public static void printBoard(String[] curBoard){
-        System.out.println(" " + curBoard[0] + " | " + curBoard[1] + " | " + curBoard[2] + " ");
-        System.out.println("---+---+---");
-        System.out.println(" " + curBoard[3] + " | " + curBoard[4] + " | " + curBoard[5] + " ");
-        System.out.println("---+---+---");
-        System.out.println(" " + curBoard[6] + " | " + curBoard[7] + " | " + curBoard[8] + " ");
-    }
-    public static int getComputerMove(String[] curBoard){
-        Random rand = new Random();
-        int pos = rand.nextInt(9) + 1;
-        while(! curBoard[pos - 1].equals(" ")){
-            pos = rand.nextInt(9) + 1;
-        }
-        return pos;
-    }*/
-    
-    public static String getWinner(String[] curBoard){
-        for(int i = 0; i < 8; i++){
-            String checkWin = "";
-            switch(i){
-                case 0: checkWin = curBoard[0] + curBoard[1] + curBoard[2];
-                        break;
-                case 1: checkWin = curBoard[3] + curBoard[4] + curBoard[5];
-                        break;
-                case 2: checkWin = curBoard[6] + curBoard[7] + curBoard[8];
-                        break;
-                case 3: checkWin = curBoard[0] + curBoard[3] + curBoard[6];
-                        break;
-                case 4: checkWin = curBoard[1] + curBoard[4] + curBoard[7];
-                        break;
-                case 5: checkWin = curBoard[2] + curBoard[5] + curBoard[8];
-                        break;
-                case 6: checkWin = curBoard[0] + curBoard[4] + curBoard[8];
-                        break;
-                case 7: checkWin = curBoard[2] + curBoard[4] + curBoard[6];
-                        break;
-            }
-            if(checkWin.equals("XXX")){
-                return "Congratulations! \nYou won the Game :)";
-            }else if(checkWin.equals("OOO")){
-                return "Game Over! \nYou lost the Game :(";
-            }
-        }
-        for(String move: curBoard){
-            if(move.equals(" ")){
-                return "";
-            }
-        }
-        return "It's a TIE! Try it again";
-    }
-}
-```
+3. In `main()`, repeats the code in step 2 (check winner and print result if needed) after you place the computer's move, `"O"`.
+
+</br>
+
+4. Outside of the while loop, add the code `sc.close()` to close the `Scanner` object from reading any new inputs. 
+
+It is good practice to do so since we know we won't be getting any more inputs after we `break` from the `while` loop!
+
+</br>
+
+5. You should now have a functioning TicTacToe game! I am so proud of you to finish this workshop! Good Job 👍!
+
+</br>
+
+#### As an overview, this should be the structure of your code:
+<img src="../images/code.png" height="500"/> 
