@@ -7,12 +7,12 @@ weight: 2
 
 {{% notice tip %}}
 #### Prerequisites (from Java: Basics) 
-- activity-1: [Print Statements and Comments](../../java-basics/activity-1)
-- activity-2: [Variables and Types](../../java-basics/activity-2)
-- activity-3: [Operators](../../java-basics/activity-3)
-- activity-5: [Methods](../../java-basics/activity-5)
-- activity-6: [Object and Classes](../../java-basics/activity-6)
-- activity-7: [Data Structures (Array & ArrayList)](../../java-basics/activity-7)
+- activity-1: <a href="../../java-basics/activity-1" target="_blank">Print Statements and Comments</a>
+- activity-2: <a href="../../java-basics/activity-2" target="_blank">Variables and Types</a>
+- activity-3: <a href="../../java-basics/activity-3" target="_blank">Operators</a>
+- activity-5: <a href="../../java-basics/activity-5" target="_blank">Methods</a>
+- activity-6: <a href="../../java-basics/activity-6" target="_blank">Object and Classes</a>
+- activity-7: <a href="../../java-basics/activity-7" target="_blank">Data Structures (Array & ArrayList)</a>
 
 These are the concepts from the `Java: Basics` workshop that we will use in this activity. Please refer to these activity to review or learn the concepts before continuing!
 {{% /notice %}}
