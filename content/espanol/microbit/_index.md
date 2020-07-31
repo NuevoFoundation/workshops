@@ -284,7 +284,7 @@ Avanza y encuentra otro tutorial en el que estés interesado. Si te sientes segu
   let variable = "texto";
   ```
 
-- •	El comando `basic.showString(variable);` hará que el texto aparezca en el LED del Micro:Bit
+- El comando `basic.showString(variable);` hará que el texto aparezca en el LED del Micro:Bit
 
   ```javascript
   let nombre = "Gonzo";
