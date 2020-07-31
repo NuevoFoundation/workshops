@@ -173,7 +173,7 @@ if (edad < 18) {
 ### Bucles
 
 Y por último, pero no menos importante tenemos cosas llamadas bucles. Esto te permite repetir partes del código hasta que se cumpla una determinada condición.
-La función “alert()” que se ve en el código a continuación produce una ventana emergente que te muestra el parámetro que le pasas.  El parámetro es lo que está entre paréntesis.  En este caso está mostrando el valor de la cuenta actualizada.
+La función “alert()” que se ve en el código a continuación produce una ventana emergente que te muestra el parámetro que le pasas. El parámetro es lo que está entre paréntesis.  En este caso está mostrando el valor de la cuenta actualizada.
 
 ```javascript
 // Este bucle “while” cuenta hacia abajo desde 10
