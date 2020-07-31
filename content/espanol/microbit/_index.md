@@ -27,7 +27,7 @@ Las variables son contenedores en el código que pueden contener un solo número
 
 Con algunas excepciones, las variables se pueden identificar con cualquier letra, dígito, ora inferior o signo de dólar. PERO pase lo que pase, no pueden tener espacios y siempre deben empezar con una letra.
 
-Las variables pueden contener diferentes tipos de datos.  Vamos a repasar lo básico.
+Las variables pueden contener diferentes tipos de datos. Vamos a repasar lo básico.
 
 
 ## Tipos de Datos
