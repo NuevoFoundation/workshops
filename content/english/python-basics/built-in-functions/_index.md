@@ -5,11 +5,11 @@ draft: false
 weight: 4
 --- 
 
-There are many built-in functions in python that can be used to increase the ease of writing code. Lets discuss few of them here.
+There are many built-in functions in python that can be used to increase the ease of writing code. Let's discuss a few of them here.
 
 # sort()
 
-This function is used to sort the values in datastructures such as arrays,list.
+This function is used to sort the values in data structures such as arrays and lists.
 ```python
 arr = [8,5,1,4,6]
 arr.sort()
@@ -26,24 +26,27 @@ index = str1.find("World)"
 print(index) #prints 6
 ```
 # len()
-len() helps in finding out the size of the given datastructure.
+`len()` helps in finding out the size of the given data structure.
 ```python
 arr = [10,5,4,2,3]
 print(len(arr)) #prints 5
 ```
 
 # isdigit()
-This function returns true if string passed as an arguments consists of only digits int else it returns false.
+This function returns `true` if the string passed as an argument consists of only digits; otherwise it returns `false`
 ```python
 s = "123";  
 print str.isdigit() #prints true
 
 s = "Hello World";
 print str.isdigit() #prints false
+
+s = "123Hello"
+print str.isdigit() #prints false as it has letters along with digits
 ```
 
 # reverse()
-This function is used to reverse the contents of the list.
+This function is used to reverse the contents of an array or a list.
 ```python
 arr = [5, 6, 7, 8, 9];
 arr.reverse();
@@ -55,43 +58,51 @@ This function replaces the first argument passed to the function with the second
 
 ```python
 initial_str = "My name is Harry. Harry is a good boy."
-final_str = initial_str.replace("Harry","Potter")
+final_str = initial_str.replace("Harry", "Potter")
 print(final_str) #prints My name is Potter. Potter is a good boy.
 ```
 
 # append()
 
-This function is used to add a number, character or element of any data type to the end of the list.
+This function is used to add a number, character or element of any data type to the end of a list or an array.
 ```python
 arr = [1,2,3,4,5];
-arr.append( 6 );
+arr.append(6);
 print(arr) #prints [1,2,3,4,5,6]
+
+arr = ['Harry','Ram',1,2]
+arr.append("Jenifer")
+print(arr) #prints [Harry,Ram,1,2,Jenifer]
 ```
 # remove()
-Removes the first occurence if argument passed for the given object.
+Removes the first occurence if argument passed for the given object. If you try to remove an element not in list, it would give an exception stating element not in the list.
 ```python
-arr = [ 1,1,2,3,3 ]  
+arr = [1,1,2,3,3]  
 arr.remove(1)  
 print(arr) #prints 1,2,3,3
+
+arr.remove(4) #gives an exception stating element not in the list
 ```
 ### Challenge 1
--Create a array name`arr`
+ Create an array name`arr`
 
--Initialse it to [1,2,3,4,5]
 
--Append a number `6` to it and print.
 
--Reverse `arr` and print
+- Initialize it to `[1,2,3,4,5]`
 
--Sort `arr` and print it.
+- Append the number `6` to it and print.
 
--Print length of `arr`
+- Reverse `arr` and print it.
 
--Remove the element 6 from `arr` and print it.
+- Sort `arr` and print it.
 
--Print the length of `arr`
+- Print length of `arr`
 
-# Expected output
+- Remove the element 6 from `arr` and print it.
+
+- Print the length of `arr`,
+
+#### Expected output
 
     [1,2,3,4,5,6]
     [6,5,4,3,2,1]
@@ -101,7 +112,7 @@ print(arr) #prints 1,2,3,3
     5
 ### Challenge 2
 
-# Expected Output
+
 -Initialise a string `s` to "Hello all.Hello people".
 
 -Find the occurence of the word `Hello` in the string `s` and print.
@@ -110,6 +121,7 @@ print(arr) #prints 1,2,3,3
 
 -Find if the string `s` contains only digits and print the verdict.
 
+#### Expected Output
     0
     Hi all.Hi people.
     False
