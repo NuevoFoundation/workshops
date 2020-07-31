@@ -278,7 +278,7 @@ Avanza y encuentra otro tutorial en el que estés interesado. Si te sientes segu
 
 #### Variables, Impresión y Descarga
 
-- Las variables de JavaScript son las mismas, excepto que se utiliza la palabra 'let' en lugar de ‘var’
+- Las variables de JavaScript son las mismas, excepto que se utiliza la palabra clave 'let' en lugar de ‘var’ para definir un variable.
 
   ```javascript
   let variable = "texto";
