@@ -18,28 +18,30 @@ weight: 5
 These are the concepts from the `Java: Basics` workshop that we will use in this activity. Please refer to these activity to review or learn the concepts before continuing!
 {{% /notice %}}
 
-1. Write a method `getWinner(String[] curBoard)` that returns winner in a `String` with an `array` input of the current game board. 
+1. Write a method `getWinner(String[] curBoard)` that returns the winner in a `String` with an `array` input of the current game board. 
 
 - If the player wins, return `"Congratulations! \nYou won the Game :)"`.
 - If the computer wins, return `"Game Over! \nYou lost the Game :("`.
 - If there's a tie, return `"It's a TIE! Try it again"`.
 - If there isn't a winner yet, return `""`.
 
-There are several ways to write this method. Give it a try in the following replit, it will tell you if your method is correctly written!
+There are several ways to write this method. 
+
+Give it a try in the following replit first, it will tell you if your method is correctly written!
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaTicTacToegetWinner?lite=true#Winner.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 {{% notice note %}}
 #### Ideas/Hints for writing the method `getWinner()`
 - Concatenate `Strings` at the 3 positions that consist a horizontal, vertical, or diagonal row.
-- Check if each of them is `"XXX"` or `"OOO"` for a winner. (You can even create another method that checks if an input `String` is `"XXX"` or `"OOO"`)
-- If all the spots in the array is filled (a `for loop` can be helpful), and there is no winner, the game ends in a tie.
+- Use `equals()` to check if each of the concatenated Strings is `"XXX"` or `"OOO"` for a winner. (You can even create another method that checks if an input `String` is `"XXX"` or `"OOO"`)
+- If all the spots in the array is filled (a `for loop` can be helpful) and there is no winner, the game ends in a tie.
 {{% /notice %}}
 
-2. In `main()`, call the method `gerWinner()` after you the code where you place the player's move, `"X"`. 
+2. In `main()`, call the method `gerWinner()` after the line of code where you place the player's move, `"X"`. 
 
-Check if the game should continue (there is no winner or tie). 
+Check if the game should continue (there is no winner or a tie). 
 
-If not, print out the final board and the game result! And, add the line of code `break`, which prompts the program to break out from the `while` loop!
+If there is a winner or a tie, print out the final board and the game result! And, add the line of code `break;`, which prompts the program to break out from the `while` loop!
 
 </br>
 
@@ -49,7 +51,7 @@ If not, print out the final board and the game result! And, add the line of code
 
 4. Outside of the while loop, add the code `sc.close()` to close the `Scanner` object from reading any new inputs. 
 
-It is good practice to do so since we know we won't be getting any more inputs after we `break` from the `while` loop!
+It is good practice to close the `Scanner` object if we won't be getting any more inputs after we `break` from the `while` loop!
 
 </br>
 
