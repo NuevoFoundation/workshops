@@ -6,7 +6,7 @@ draft: false
 hidden: true
 ---
 
-# actitity-1: Game SetUp
+# activity-1: Game SetUp
 ```java
 public class TicTacToe_Nuevo {
     public static void main(String args[]){
