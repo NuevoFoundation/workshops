@@ -26,3 +26,6 @@ Let's play a game!
 </form>
 
 ### Voilà that's your new password! Doesn't it look hard to crack?
+
+{{< button href="/security/4-spy-game/" theme="success" >}} Success! {{< /button >}}
+
