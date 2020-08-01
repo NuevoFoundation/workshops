@@ -27,7 +27,7 @@ These are the concepts from the `Java: Basics` workshop that we will use in this
 
 There are several ways to write this method. 
 
-Give it a try in the following replit first, it will tell you if your method is correctly written!
+Give it a try in the following repl.it first; it will tell you if your method is correctly written!
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaTicTacToegetWinner?lite=true#Winner.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 {{% notice note %}}
