@@ -22,7 +22,7 @@ These are the concepts from the `Java: Basics` workshop that we will use in this
 
 - If the player wins, return `"Congratulations! \nYou won the Game :)"`.
 - If the computer wins, return `"Game Over! \nYou lost the Game :("`.
-- If there's a tie, return `"It's a TIE! Try it again"`.
+- If there's a tie, return `"It's a TIE! Try again"`.
 - If there isn't a winner yet, return `""`.
 
 There are several ways to write this method. 
