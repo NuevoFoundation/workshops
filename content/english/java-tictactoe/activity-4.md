@@ -39,7 +39,7 @@ Give it a try in the following repl.it first; it will tell you if your method is
 
 2. In `main()`, call the method `gerWinner()` after the line of code where you place the player's move, `"X"`. 
 
-Check if the game should continue (there is no winner or a tie). 
+Check if the game should continue (when there is no winner or a tie). 
 
 If there is a winner or a tie, print out the final board and the game result! And, add the line of code `break;`, which prompts the program to break out from the `while` loop!
 
