@@ -223,7 +223,7 @@ public class TicTacToe_Nuevo {
                 return "";
             }
         }
-        return "It's a TIE! Try it again";
+        return "It's a TIE! Try again";
     }
 }
 ```
@@ -328,7 +328,7 @@ public class TicTacToe_Nuevo {
                 return "";
             }
         }
-        return "It's a TIE! Try it again";
+        return "It's a TIE! Try again";
     }
 
     public static int getComputerMove(String[] curBoard){
