@@ -70,9 +70,9 @@ Nota que  `var`, `string`, `int`, or `bool` son palabras claves in C#, entonces 
 
 {{% notice tip %}}
 
-## Trabajando junt@s 
+## Trabajando junt@s
 
-Creemos dos variables nuevas: 
+Creemos dos variables nuevas:
 
 - Un variable llamado comp que contiene el string `"Computer"`.
 - Un variable llamado five que contiene el número `5`.
