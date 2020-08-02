@@ -6,7 +6,7 @@ draft: false
 translationKey: "python-turtle-repl-it"
 ---
 
-Para que Alex pueda vivir en una colmena, necesita aprender a construir un panal. Vamos a usar una biblioteca de Python que se llama `turtle` para dibujar el panal.
+Para que Alex pueda vivir en una colmena, necesita aprender a construir un panal. Vamos a usar una biblioteca de Python que se llama `turtle` (tortuga) para dibujar el panal.
 
 
 ## Usando Repl.it
