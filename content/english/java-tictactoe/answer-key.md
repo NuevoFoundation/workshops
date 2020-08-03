@@ -233,11 +233,11 @@ public class TicTacToe_Nuevo {
 public static int getComputerMoveAI(String[] curBoard){
         int pos = 0;
         int bestScore = Integer.MIN_VALUE;
-        for(int i = 1; i <= 9; i++){
-            if(curBoard[i - 1].equals(" ")){
-                curBoard[i - 1] = "O";
+        for(int i = 0; i < 9; i++){
+            if(curBoard[i].equals(" ")){
+                curBoard[i] = "O";
                 int score = minimax(curBoard, false);
-                curBoard[i - 1] = " ";
+                curBoard[i] = " ";
                 if(score > bestScore){
                     bestScore = score;
                     pos = i;
@@ -252,17 +252,17 @@ public static int getComputerMoveAI(String[] curBoard){
 
         // terminating state return score
         if(result.contains("TIE")) return 0;
-        if(result.contains("won")) return -1;
-        if(result.contains("lost")) return 1;
+        if(result.contains("won")) return -1 * factor;
+        if(result.contains("lost")) return 1 * factor;
                 
         // recurrence case
         int bestScore = (isMaximizing)? Integer.MIN_VALUE : Integer.MAX_VALUE;
         String symbol = (isMaximizing)? "O" : "X";
-        for(int i = 1; i <=9; i++){
-            if(curBoard[i - 1].equals(" ")){
-                curBoard[i - 1] = symbol;
+        for(int i = 0; i < 9; i++){
+            if(curBoard[i].equals(" ")){
+                curBoard[i] = symbol;
                 int score = minimax(curBoard, !isMaximizing);
-                curBoard[i - 1] = " ";
+                curBoard[i] = " ";
                 if(isMaximizing) {
                     bestScore = Math.max(score, bestScore);
                 }else{
@@ -272,6 +272,17 @@ public static int getComputerMoveAI(String[] curBoard){
         }
 
         return bestScore;
+    }
+
+    // return number of spots available + 1
+    public static int getFactor(String[] curBoard){
+        int counter = 1;
+        for(int i = 0; i < 9; i++){
+            if(curBoard[i].equals(" "){
+                counter++;
+            }
+        }
+        return couter;
     }
 ```
 
@@ -403,10 +414,12 @@ public class TicTacToe_Nuevo {
     public static int minimax(String[] curBoard, boolean isMaximizing){
         String result = getWinner(curBoard);
 
+        int factor = getFactor(curBoard);
+
         // terminating state return score
         if(result.contains("TIE")) return 0;
-        if(result.contains("won")) return -1;
-        if(result.contains("lost")) return 1;
+        if(result.contains("won")) return -1 * factor;
+        if(result.contains("lost")) return 1 * factor;
                 
         // recurrence case
         int bestScore = (isMaximizing)? Integer.MIN_VALUE : Integer.MAX_VALUE;
@@ -425,6 +438,17 @@ public class TicTacToe_Nuevo {
         }
 
         return bestScore;
+    }
+
+    // return number of spots available + 1
+    public static int getFactor(String[] curBoard){
+        int counter = 1;
+        for(int i = 0; i < 9; i++){
+            if(curBoard[i].equals(" "){
+                counter++;
+            }
+        }
+        return counter;
     }
 }
 ```

@@ -5,6 +5,10 @@ date: 2020-07-23T00:00:00Z
 weight: 6
 hidden: false
 ---
+{{% notice tip %}}
+#### This is a bonus activity!
+To continue, you should have completed the Tic-Tac-Toe program from the previous exercises! 
+{{% /notice %}}
 
 ### Let's make the computer think
 Previously, we use a `Random` object to randomly generate a move for the computer, making the competitiveness of the computer is pretty low.
@@ -17,7 +21,7 @@ We will do so by adding artificial intelligence into our program with the use th
 Minimax is an algorithm that is often used in two-player games to make optimal decisions for a player. 
 
 - The algorithm makes optimal decision for the maximizer by examining all the possible future game states based on the current game board. 
-- If there is a winner or tie, the game state will be given a score. (Score: computer wins (`+1`), player wins (`-1`), tie (`0`)).
+- If there is a winner or tie, the game state will be given a score. (Score: computer wins (`positive value`), player wins (`negative value`), tie (`0`)).
 - The two players are labeled as <b>maximizer</b> and <b>minimizer</b> respectedly. In this case, the computer is the maximizer, and the player is the minimizer. 
 - The maximizer tries to get the highest score possible, and the minimizer tries to minimize the score of its opponent. 
 
@@ -34,6 +38,7 @@ We will write this method assuming we have the `int minimax(String[] curBoard, b
 
 1. For each available spot on the game board, place `"X"` at that spot and get the score for that board by calling `minimax()`. 
 {{% notice hint %}}
+- Note that we call the method `minimax()` inside of the implementation of itself. We call a function that calls itself during its execution a <b>recursive function</b>.
 - Note you should pass `false` for the second argument since it'd be the minimizer's turn.
 - You should change that spot back to `"O"` after getting the score, so you maintain the original state of the game board during the next iteration.
 {{% /notice %}}
@@ -46,7 +51,14 @@ We will write this method assuming we have the `int minimax(String[] curBoard, b
 ### Write the Method `minimax()`
 As we discussed above, the `minimax()` method has the header `int minimax(String[] curBoard, boolean isMaximizing)`.
 
-1. Call `getWinner()` on the board to check if there is a winner. If so, return the corresponding score (Score: computer wins (`+1`), player wins (`-1`), tie (`0`)).
+1. Call `getWinner()` on the board to check if there is a winner. If so, return the corresponding score (Score: computer wins (`1 * number of spots left + 1`), player wins (`-1 * number of spots left + 1`), tie (`0`)).
+
+{{% notice note %}}
+#### Why do we multiple the score by "number of spots left + 1"?
+By including the factor of "number of spots left + 1" to the calculation of score, we give priority to the computer move that allows the computer to win in the fewest steps.
+
+Specifically, the maximizer tries to maximize its score, and the move being make should have the largest score (the most spots left when the computer wins).
+{{% /notice %}}
 
 2-1. If it's maximizer's turn (`"X"`), for each available spot on the game board, place `"X"` at that spot and get the score for that board by calling `minimax()`.
 
