@@ -230,7 +230,49 @@ public class TicTacToe_Nuevo {
 
 # activity-5: AI Computer Move
 ```java
-// TODO
+public static int getComputerMoveAI(String[] curBoard){
+        int pos = 0;
+        int bestScore = Integer.MIN_VALUE;
+        for(int i = 1; i <= 9; i++){
+            if(curBoard[i - 1].equals(" ")){
+                curBoard[i - 1] = "O";
+                int score = minimax(curBoard, false);
+                curBoard[i - 1] = " ";
+                if(score > bestScore){
+                    bestScore = score;
+                    pos = i;
+                }
+            }
+        }
+        return pos;
+    }
+
+    public static int minimax(String[] curBoard, boolean isMaximizing){
+        String result = getWinner(curBoard);
+
+        // terminating state return score
+        if(result.contains("TIE")) return 0;
+        if(result.contains("won")) return -1;
+        if(result.contains("lost")) return 1;
+                
+        // recurrence case
+        int bestScore = (isMaximizing)? Integer.MIN_VALUE : Integer.MAX_VALUE;
+        String symbol = (isMaximizing)? "O" : "X";
+        for(int i = 1; i <=9; i++){
+            if(curBoard[i - 1].equals(" ")){
+                curBoard[i - 1] = symbol;
+                int score = minimax(curBoard, !isMaximizing);
+                curBoard[i - 1] = " ";
+                if(isMaximizing) {
+                    bestScore = Math.max(score, bestScore);
+                }else{
+                    bestScore = Math.min(score, bestScore);
+                }
+            }
+        }
+
+        return bestScore;
+    }
 ```
 
 # Full Code
@@ -274,7 +316,7 @@ public class TicTacToe_Nuevo {
             if(ran < 0.2){
                 board[getComputerMove(board) - 1] = "O";
             }else{
-                board[getComputerMove2(board) - 1] = "O";
+                board[getComputerMoveAI(board) - 1] = "O";
             }
             winner = getWinner(board);
             if(winner.length() > 0){
@@ -341,7 +383,7 @@ public class TicTacToe_Nuevo {
     }
 
     // AI: computer move
-    public static int getComputerMove2(String[] curBoard){
+    public static int getComputerMoveAI(String[] curBoard){
         int pos = 0;
         int bestScore = Integer.MIN_VALUE;
         for(int i = 1; i <= 9; i++){
@@ -372,7 +414,7 @@ public class TicTacToe_Nuevo {
         for(int i = 1; i <=9; i++){
             if(curBoard[i - 1].equals(" ")){
                 curBoard[i - 1] = symbol;
-                int score = minimax(curBoard, true);
+                int score = minimax(curBoard, !isMaximizing);
                 curBoard[i - 1] = " ";
                 if(isMaximizing) {
                     bestScore = Math.max(score, bestScore);
