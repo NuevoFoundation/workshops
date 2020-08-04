@@ -64,7 +64,10 @@ function check(){
   if(p1 == "answer1" && p2 == "answer2" && p3 == "answer3" &&
      p4 == "answer4" && p5 == "answer5") {
 
-    alert("Congrats Space Cadet! You may continue on your space adventure!");
+    //Display the database
+    var display = document.getElementById("database");
+    display.setAttribute("style","visibility:visible");
+    alert("Congrats Space Cadet! Scroll Down To See The Results!");
   }
 
 }
