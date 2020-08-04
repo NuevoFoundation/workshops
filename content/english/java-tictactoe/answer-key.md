@@ -13,8 +13,8 @@ public class TicTacToe_Nuevo {
         String[] board = {" ", " ", " ", " ", " ", " ", " ", " ", " "};
         String[] startBoard = {"1", "2", "3", "4", "5", "6", "7", "8", "9"};
 
-        System.out.println("<<<~  Tic  Tac  Toe  ~>>>\n* Choose number 1 - 9 to place your move\n* Player: 'X' Computer: 'O'\n");
-        printBoard(startBoard);
+        System.out.println("<<<~  Tic  Tac  Toe  ~>>>\n* Choose number 1 - 9 to place your move\n* Player: 'X' Computer: 'O'\n" );
+        printBoard(startBoard); 
         System.out.print("Enter your move (1-9): "); 
         }
 
