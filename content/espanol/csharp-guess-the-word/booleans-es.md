@@ -5,7 +5,7 @@ weight: 8
 ---
 # Booleans
 
-Un **booleans** es una frase que puede ser `true` (verdadero) o `false` (falso). Diferente a los strings o los números, los Booleans archivan una declaración de la verdad: ¿es lo que yo digo verdadero o falso? Por ejemplo, so yo pregunto, ¿“Eres un robot” ?, esta pregunta produce un resultado `true` o `false`, lo que llamamos un **Boolean**. En este caso, porque tú no eres un robot (¡esperadamente!), esta pregunta produce el resultado `false`. 
+Un **boolean** es una frase que puede ser `true` (verdadero) o `false` (falso). Diferente a los strings o los números, los Booleans archivan una declaración de la verdad: ¿es lo que yo digo verdadero o falso? Por ejemplo, so yo pregunto, ¿“Eres un robot” ?, esta pregunta produce un resultado `true` o `false`, lo que llamamos un **boolean**. En este caso, porque tú no eres un robot (¡esperadamente!), esta pregunta produce el resultado `false`. 
 
 También podemos usar operadores de la matemática para crear expresiones de Booleans. Aquí hay unos ejemplos. 
 Ojo: nota los símbolos para “igual a” y “no igual a”.
