@@ -10,7 +10,6 @@ weight: 2
 
 {{% notice tip %}}
 
-**Consejo**
 ## Trabajando junt@s
 
 1.	En la repl.it ventana abajo, presiona **‘run’.** Vea que `Hello World` se imprimió en la ventana a la derecha. 
