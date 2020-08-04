@@ -13,22 +13,19 @@ From a list of passwords used by our `Nuvi` select the strongest password which 
 ![Cannot load image](pwd1.JPG?classes=border,shadow)
 <fieldset>  
   <legend>Can this password be Hacked?</legend>
-  <input type="radio" id="notify-on" name="notify" value="on" checked>
+  <input type="radio" id="notify-on1" name="notify" value="on" >
   <label for="notify-on">Yes</label>
-  <input type="radio" id="notify-off" name="notify" value="off">
+  <input type="radio" id="notify-off1" name="notify" value="off">
   <label for="notify-off">No</label>
-</fieldset> 
-
+</fieldset>
 
 
 ![Cannot load image](pwd2.JPG?classes=border,shadow)
-
-
 <fieldset>  
   <legend>Can this password be Hacked?</legend>
-  <input type="radio" id="notify-on" name="notify" value="on" checked>
+  <input type="radio" id="notify-on2" name="notify" value="on" >
   <label for="notify-on">Yes</label>
-  <input type="radio" id="notify-off" name="notify" value="off">
+  <input type="radio" id="notify-off2" name="notify" value="off">
   <label for="notify-off">No</label>
 </fieldset>
 
@@ -36,9 +33,9 @@ From a list of passwords used by our `Nuvi` select the strongest password which 
 
 <fieldset>  
   <legend>Can this password be Hacked?</legend>
-  <input type="radio" id="notify-on" name="notify" value="on" checked>
+  <input type="radio" id="notify-on3" name="notify" value="on" >
   <label for="notify-on">Yes</label>
-  <input type="radio" id="notify-off" name="notify" value="off">
+  <input type="radio" id="notify-off3" name="notify" value="off">
   <label for="notify-off">No</label>
 </fieldset> 
 
@@ -46,10 +43,25 @@ From a list of passwords used by our `Nuvi` select the strongest password which 
 
 <fieldset>  
   <legend>Can this password be Hacked?</legend>
-  <input type="radio" id="notify-on" name="notify" value="on" checked>
+  <input type="radio" id="notify-on4" name="notify" value="on" >
   <label for="notify-on">Yes</label>
-  <input type="radio" id="notify-off" name="notify" value="off">
+  <input type="radio" id="notify-off4" name="notify" value="off">
   <label for="notify-off">No</label>
 </fieldset> 
+
+<!--
+<script>
+var button1 = document.getElementById("notify-on1");
+var button2 = document.getElementById("notify-off1");
+if (button1.checked){
+    alert("radio1 selected");
+}else if (button2.checked) {
+    alert("radio2 selected");
+}
+</script>
+
+
+{{< button href="pwd1.JPG" theme="success" >}} Done {{< /button >}}-->
+
 
 #### CONGRATS! You’ve done it. Feel free to go back and change your passwords!
