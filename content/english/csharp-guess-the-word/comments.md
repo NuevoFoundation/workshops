@@ -32,7 +32,7 @@ To remove a comment (or uncomment a line), simply delete the `//` for a single-l
 2. Delete the `//` and instead, surround `Console.WriteLine("Hello World");` with `/*` and `*/`. Check that `Hello World` is still not printed to the console after pressing **run**.
 3. Delete both `/*` and `*/`, and press **run**. `Hello World` should now be printed to the console.
 
-<!--<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/NF-CSharp-WritingToConsole?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>-->
+<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/NF-CSharp-WritingToConsole?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 Throughout today's activity you will see various multi-line comments and `// TODO` comments. These comments will guide us towards completing the Guess the Word game, so be sure you understand how to comment and uncomment code.
 

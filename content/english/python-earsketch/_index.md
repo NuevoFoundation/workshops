@@ -9,21 +9,17 @@ draft: false
 icon: "fab fa-python"
 weight: 12
 ---
+<iframe width="100%" height="600px" src="https://www.youtube.com/embed/g0u1CkbpUWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Let's make some music!
 
 Welcome to this introductory guide on how to make music using
 [EarSketch](https://en.wikipedia.org/wiki/EarSketch) & Python. To jump to a particular activity, click on the section link below:
 
-1. [Meet DJ Nuevo](1-meet-dj-nuevo)
-2. [Music Basics](2-music-basics)
-3. [Python Basics](3-python-basics)
-4. [Getting started with Earsketch](4-getting-started-earsketch)
-5. [Activity 1 - Set tempo and add sounds](5-activity-1-set-tempo-add-sounds)
-6. [Activity 2 - Make a song](6-activity-2-make-a-song)
-7. [Activity 3 - Organize songs using functions](7-activity-3-organize-songs-using-functions)
-8. [Activity 4 - Add Effects to your songs](8-activity-4-add-effects-to-your-songs)
-9. [Activity 5 - Use Effects to Fade in](9-activity-5-use-effects-to-fade-in)
-10. [Help, I am stuck!](10-help)
+<details>
+<summary>Sections</summary>
+<br>
+{{% children %}}
+</details>
 
 ![Cannot load image: earsketch-play-overview](img/screenshot-overview.png?classes=border,shadow)
