@@ -1,6 +1,6 @@
 ---
 title: "Answer Key - Security"
-description: "Easy reference answer key for the adafruit curriculum"
+description: "Easy reference answer key for the security curriculum"
 draft: true
 hidden: true
 weight: 5
