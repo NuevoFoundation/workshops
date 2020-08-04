@@ -2,8 +2,6 @@
   TODO:
     * Introduction
     * Hardware setup
-    * Pairing device and downloading code
-    * Using the MakeCode simulator
 -->
 ---
 title: "micro:bit — Wireless Social Distancing"
@@ -62,3 +60,26 @@ That means if the signal we get is stronger than -67 (`strength > -67`), our mic
 We have all our logic written, but no way to tell if we're more than 6 feet apart. Now we'll add some lights so we can see when we're far enough apart. Click the Basic section at the top and drag a "show icon" block into the if part of our logic block. Click on the icon to see a list of other icons and choose the sad, frowning face. Go back to the Basic menu, grab another "show icon" block, and place it in the else part of the logic block. Change the icon to a smiling face. When you're done, your code will look like this:
 
 ![The final, completed code for the project](img/finalCode.png)
+
+### Downloading the Code and Trying It Out
+Now that our code has been written, it's time to try it all out. First, we have to pair the microbit with a computer. Find your USB cable and connect the smaller side to the silver USB port on the top of your microbit. Connect the other, larger end to a USB port on your computer. On the MakeCode workspace, click the ellipsis (...) next to the Download button to make a small menu pop up. From that menu, click on "Pair device".
+
+In the new window that pops up, click the purple "Pair device" button in the bottom-right corner. Finally, another window will pop up. Click on "BBC micro:bit CMSIS-DAP" and then on the Connect button at the bottom. Now we're connected and ready to download the code. You should only need to pair once.
+
+![Download button options expanded with "Pair device" selected](img/pairDevice.png)
+![The pop out window instructing users to connect their microbit and pair the device](img/pairModal.png)
+![The browser's connected devices list](img/connectToDevice.png)
+
+Now click the ellipsis (...) next to the purple Download button again. This time, click the "Download to micro:bit" option. When the Download button is done spinning, look for the "Download complete" bubble: that means we're done! Try moving away from other microbits on the same radio channel to see that frown on the microbit turn into a smile!
+
+![Showing the download completed bubble](img/downloadComplete.png)
+
+### Using the Simulator
+While not as fun as having the actual, physical harware, you can also use the simulator to see your code working. Look for the images of microbits off on the left side of your screen. If you don't see them, look for the ">" symbol on the left and click it to unhide the simulator. On the simulated microbits, find the Bluetooth radio antenna. It looks like a yellow square wave:
+
+![Image of simulated microbits with the radio highlighted](img/simulatorStart.png)
+
+If you hover your mouse cursor over this wave-shaped antenna, the actual signal strength will show up next to it. You can then click on the antenna and drag your mouse cursor left to decrease the signal strength or right to increase it. If you get the signal strong enough (`strength > -67`), the other microbit will update to show a frowning face. Weaken the signal again to make the microbit smile.
+
+![S](img/showingRSSI.png)
+![S](img/sadSimulator.png)
