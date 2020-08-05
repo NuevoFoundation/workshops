@@ -121,6 +121,12 @@ if(currentHour < 12){
         myTotal += num2;
     }
 ```
+Output:
+
+```
+Answer calculated in a while loop: 5050
+Answer calculated in a for loop: 5050
+```
 
 # activity-5: Methods
 
@@ -133,6 +139,12 @@ if(currentHour < 12){
       }
       return total;
   }
+```
+
+Output:
+
+```
+Congratulations! Challenge Solved!
 ```
 
 # activity-6: Object and Classes
@@ -220,6 +232,10 @@ Hi, my name is Patrick. I am a 15year old duck who likes to hangout with friends
   }
 ```
 
+Output:
+```
+Birds Of Prey, The Birds, Angry Birds, Bird Box, The Secret Life of Pets
+```
 ## ArrayList
 ```java
   public static void printList(ArrayList<String> list){
@@ -231,4 +247,9 @@ Hi, my name is Patrick. I am a 15year old duck who likes to hangout with friends
     // print last element and newline character
     System.out.println(list.get(list.size() -1));
   }
+```
+
+Output:
+```
+Birds Of Prey, The Birds, Angry Birds, Bird Box, The Secret Life of Pets
 ```
