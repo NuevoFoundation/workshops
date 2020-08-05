@@ -41,7 +41,7 @@ Let's look at an example below:
 
 <img src="../images/minimax.png" height="500"/> 
 
-1. In the first row, we considered the 3 possible moves for `"X"`. 
+1. In the first row, we considered the 3 possible moves for `"O"`. 
 
 2. We note that if the computer puts its move at position 8, the game will halt as the computer wins. That state will hence be given a score of `1 * number of spots left + 1` = `8`.
 
@@ -58,12 +58,12 @@ In activity-3, you wrote the method `int getComputerMove(String[] curBoard)` to 
 
 We will write this method assuming we have the `int minimax(String[] curBoard, boolean isMaximizing)` method implemented, which you will write later.
 
-1. For each available spot on the game board, place `"X"` at that spot and get the score for that board by calling `minimax()`. 
+1. For each available spot on the game board, place `"O"` at that spot and get the score for that board by calling `minimax()`. 
 
 {{% notice hint %}}
 - Note that we call the method `minimax()` inside of the implementation of itself. We call a function that calls itself during its execution a <b>recursive function</b>.
 - Note you should pass `false` for the second argument since it'd be the minimizer's turn.
-- You should change that spot back to `"O"` after getting the score, so you maintain the original state of the game board during the next iteration.
+- You should change that spot back to `" "` after getting the score, so you maintain the original state of the game board during the next iteration.
 {{% /notice %}}
 
 2. Track the largest score and its corresponding position of the board at each iteration. Return the position with the largest score.
@@ -89,13 +89,13 @@ As we discussed above, the `minimax()` method has the header `int minimax(String
 
 1. Call `getWinner()` on the board to check if there is a winner. If so, return the corresponding score (Score: computer wins (`1 * number of spots left + 1`), player wins (`-1 * number of spots left + 1`), tie (`0`)).
 
-2-1. If it's maximizer's turn (`"X"`), for each available spot on the game board, place `"X"` at that spot and get the score for that board by calling `minimax()`.
+2-1. If it's maximizer's turn (`"O"`), for each available spot on the game board, place `"O"` at that spot and get the score for that board by calling `minimax()`.
 
-2-2. If it's minimizer's turn (`"O"`), for each available spot on the game board, place `"O"` at that spot and get the score for that board by calling `minimax()`.
+2-2. If it's minimizer's turn (`"X"`), for each available spot on the game board, place `"X"` at that spot and get the score for that board by calling `minimax()`.
 
-3-1. If it's maximizer's turn (`"X"`), track the largest score and the corresponding position at each iteration, and return that score.
+3-1. If it's maximizer's turn (`"O"`), track the largest score and the corresponding position at each iteration, and return that score.
 
-3-2. If it's minimizer's turn (`"O"`), track the smallest score and the corresponding position at each iteration, and return that score.
+3-2. If it's minimizer's turn (`"X"`), track the smallest score and the corresponding position at each iteration, and return that score.
 
 ### Test your methods
 Copy and paste your two methods below `main()`. 
