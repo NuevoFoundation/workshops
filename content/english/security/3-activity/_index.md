@@ -1,7 +1,7 @@
 ---
 title: "Activity"
 description: ""
-draft: flase
+draft: false
 weight: 3
 translationKey: "security-3"
 ---
