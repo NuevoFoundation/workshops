@@ -1,7 +1,7 @@
 ---
 title: "Password Basics"
 description: ""
-draft: true
+draft: false
 weight: 2
 translationKey: "security-2"
 ---

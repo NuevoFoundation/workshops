@@ -13,9 +13,9 @@ From a list of passwords used by our `Nuvi` select the strongest password which 
 ![Cannot load image](pwd1.JPG?classes=border,shadow)
 <fieldset>  
   <legend>Can this password be Hacked?</legend>
-  <input type="radio" id="notify-on1" name="notify" value="on" >
+  <input type="radio" id="notify-on1" name="notify1" value="on" >
   <label for="notify-on">Yes</label>
-  <input type="radio" id="notify-off1" name="notify" value="off">
+  <input type="radio" id="notify-off1" name="notify1" value="off">
   <label for="notify-off">No</label>
 </fieldset>
 
@@ -23,9 +23,9 @@ From a list of passwords used by our `Nuvi` select the strongest password which 
 ![Cannot load image](pwd2.JPG?classes=border,shadow)
 <fieldset>  
   <legend>Can this password be Hacked?</legend>
-  <input type="radio" id="notify-on2" name="notify" value="on" >
+  <input type="radio" id="notify-on2" name="notify2" value="on" >
   <label for="notify-on">Yes</label>
-  <input type="radio" id="notify-off2" name="notify" value="off">
+  <input type="radio" id="notify-off2" name="notify2" value="off">
   <label for="notify-off">No</label>
 </fieldset>
 
@@ -33,9 +33,9 @@ From a list of passwords used by our `Nuvi` select the strongest password which 
 
 <fieldset>  
   <legend>Can this password be Hacked?</legend>
-  <input type="radio" id="notify-on3" name="notify" value="on" >
+  <input type="radio" id="notify-on3" name="notify3" value="on" >
   <label for="notify-on">Yes</label>
-  <input type="radio" id="notify-off3" name="notify" value="off">
+  <input type="radio" id="notify-off3" name="notify3" value="off">
   <label for="notify-off">No</label>
 </fieldset> 
 
@@ -43,9 +43,9 @@ From a list of passwords used by our `Nuvi` select the strongest password which 
 
 <fieldset>  
   <legend>Can this password be Hacked?</legend>
-  <input type="radio" id="notify-on4" name="notify" value="on" >
+  <input type="radio" id="notify-on4" name="notify4" value="on" >
   <label for="notify-on">Yes</label>
-  <input type="radio" id="notify-off4" name="notify" value="off">
+  <input type="radio" id="notify-off4" name="notify4" value="off">
   <label for="notify-off">No</label>
 </fieldset> 
 
