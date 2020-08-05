@@ -58,10 +58,13 @@ if (button1.checked){
 }else if (button2.checked) {
     alert("radio2 selected");
 }
-</script>
+</script> -->
+
+#### CONGRATS! You did it. See the answers by clicking the button below.
 
 
-{{< button href="pwd1.JPG" theme="success" >}} Done {{< /button >}}-->
+
+{{< button href="/security/5-summary/" theme="success" >}} Done {{< /button >}}
 
 
-#### CONGRATS! You’ve done it. Feel free to go back and change your passwords!
+
