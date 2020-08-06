@@ -34,7 +34,7 @@ Minimax is an algorithm that is used in two-player games to make optimal decisio
 - If there is a winner or tie, that game state will be given a score.
 - In our game specifically, we want the computer to win in fewest steps possible. Hence, we design the calculation of score for the game board as the following: 
 
-   (computer wins (`1 * number of spots left + 1`), player wins (`-1 * number of spots left + 1`), tie (`0`)).
+   (computer wins (`1 * (number of spots left + 1)`), player wins (`-1 * (number of spots left + 1)`), tie (`0`)).
 - While the maximizer tries to get the highest score possible, the minimizer tries to minimize the score of its opponent.  
 
 Let's look at an example below:
@@ -43,7 +43,7 @@ Let's look at an example below:
 
 1. In the first row, we considered the 3 possible moves for `"O"`. 
 
-2. We note that if the computer puts its move at position 8, the game will halt as the computer wins. That state will hence be given a score of `1 * number of spots left + 1` = `8`.
+2. We note that if the computer puts its move at position 8, the game will halt as the computer wins. That state will hence be given a score of `1 * (number of spots left + 1)` = `8`.
 
 3. We would consider all the possible moves of `"X"` and `"O"` until all possibilities end with a winner or a tie.
 
