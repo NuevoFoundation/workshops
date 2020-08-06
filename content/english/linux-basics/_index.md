@@ -13,18 +13,11 @@ translationKey: "linux-basics-main"
 
 # Welcome
 
+insert image of Nuvee
+
+*Greetings! I am Nuvee. We appreciate your coming to assist us!
+We have been notified that our computer is acting strangely and need your help to find out what is going on.*
+
 ## Table of Contents
 
-0. Getting ready
-1. Who am I?
-2. Ok, but what is this place?
-3. Looking around
-4. Getting settled in
-5. Taking notes
-6. Protecting our work
-7. Finding the bad stuff
-8. Reading content
-9. Confirm difference
-10. Throw it all away
-11. Replace with a new copy
-12. Wrap things up
+{{% children %}}
