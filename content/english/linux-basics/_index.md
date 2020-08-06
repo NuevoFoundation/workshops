@@ -15,5 +15,7 @@ translationKey: "linux-basics-main"
 
 ## Table of Contents
 
-1. Where am I?
-
+1. Who am I?
+2. Where am I?
+3. Files and Permissions
+4. Practice with Files and Directories
