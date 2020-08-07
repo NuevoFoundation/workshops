@@ -33,45 +33,42 @@ You are given information about the Galaxy and want to look for the Planet of Fu
 
 #### Question: What command will display all the columns in the database called "galaxy"?
 
-
 {{< rawhtml >}}
+<div class="terminal" id="terminal"> <center><img class="terminal" src="../assets/Terminal.png" alt="Terminal_screen" height="400" width="900"> </div>
 
-<div class="terminal" id="terminal"> <center><img class="img" src="../assets/Terminal.png" alt="Terminal_screen" height="400" width="900">
 
-
-<div id="div1" class ="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)" width="120" height="60">
+<div id="div1" class ="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
 <img class="img" id="answer1" src="../assets/Select_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag1" width="120" height="60">
 </div>
 
 <div id="div2" class="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
-<img id="answer2" src="../assets/Asterix_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag2" width="120" height="60">
+<img class="img" img id="answer2" src="../assets/Asterix_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag2" width="120" height="60">
 </div>
 
 <div id="div3" class="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
-<img id="answer4" src="../assets/galaxy_block.png" draggable="true" ondragstart="drag(event)" id="drag3" width="120" height="60" markdown="1">
+<img class="img" img id="answer4" src="../assets/galaxy_block.png" draggable="true" ondragstart="drag(event)" id="drag3" width="120" height="60" markdown="1">
 </div>
 
 <div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)">
-<img id="answer3" src="../assets/From_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag4" width="120" height="60" markdown="1">
+<img class="img" img id="answer3" src="../assets/From_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag4" width="120" height="60" markdown="1">
 </div>
 
 <div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)">
-<img id="answer5" src="../assets/Semicolon_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag5" width="120" height="60" markdown="1">
+<img class="img" img id="answer5" src="../assets/Semicolon_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag5" width="120" height="60" markdown="1">
 </div>
-
+<div id="buffer" class="dropClass" style="border:1px solid transparent;"> </div>
 <!-- Rectangles to Receive blocks -->
 <div id="div6" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
 <div id="div7" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
 <div id="div8" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
-
-
-<div id="div9" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)" style="position: relative; top: -362px; border-top-color: white; border-top-style: solid; border-top-width: 1px; border-right-color: white; border-right-style: solid; border-right-width: 1px; border-bottom-color: white; border-bottom-style: solid; border-bottom-width: 1px; border-left-color: white; border-left-style: solid; border-left-width: 1px; width: 120px; height: 60px; right: -710px;"> </div>
-
-<div id="div10" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)" style="position: relative; top: -362px; border-top-color: white; border-top-style: solid; border-top-width: 1px; border-right-color: white; border-right-style: solid; border-right-width: 1px; border-bottom-color: white; border-bottom-style: solid; border-bottom-width: 1px; border-left-color: white; border-left-style: solid; border-left-width: 1px; width: 120px; height: 60px; right: -715px;""> </div>
+<div id="div9" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
+<div id="div10" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
 
 </div>
-<button class="button button1">Enter </button>
+<!-- Enter button -->
+<button class="button button1" onclick="check()"> Enter </button>
 
+<!-- Hidden SQL database will appear once correct sequence is placed -->
+<img src="../assets/Database.png" id="database" alt="database" style="visibility:hidden"/>
 {{< /rawhtml >}}
 
-<!-- TODO: Add SQL database image here -->

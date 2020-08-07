@@ -1,30 +1,40 @@
 /* Positions and style for the code blocks */
 .codeBlocks, #div1, #div2, #div3, #div4, #div5 {
   position:relative;
-  top: -150px;
-  right: -300px;
+  display: block;
+  top: -15vw;
+  right: -7vw;
   float: left;
-  width: 120px;
-  height: 60px;
-  margin: 10px;
+  width: 9vw;
+  height: 5vw;
+  margin: 1vw;
   border: 1px solid green;
 }
 
 /* Positions and style for the drop places */
 .dropClass, #div6, #div7, #div8, #div9, #div10 {
   position:relative;
-  top: -280px;
-  right: 430px;
+  display: block;
+  top: -32vw;
+  right: -8vw;
   float: left;
-  width: 120px;
-  height: 60px;
-  margin: 10px;
+  width: 9vw;
+  height: 5vw;
+  margin: 1vw;
   border: 1px solid white;
 }
 
+.terminal {
+  width: 100%;
+  height: auto;
+}
+
 .img {
-	width: 100%;
-	height: auto;
+  position:absolute;
+  display: block;
+  width: auto;
+  height: auto;
+  top: -30px;
 }
 
 /* Button Format (default) */
@@ -49,6 +59,6 @@
   font-size: 24px;
   margin: 4px 2px;
   position:relative;
-  top:-50px;
-  right:-250px;
+  top:1vw;
+  right:35vw;
 }
