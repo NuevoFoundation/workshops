@@ -43,7 +43,7 @@ Let's look at an example below:
 
 1. In the first row, we considered the 3 possible moves for `"O"`. 
 
-2. We note that if the computer puts its move at position 8, the game will halt as the computer wins. That state will hence be given a score of `1 * (number of spots left + 1)` = `8`.
+2. We note that if the computer puts its move at position 8, the game will halt as the computer wins. That state will hence be given a score of `1 * (number of spots left + 1)` = `1 * (2+1)` = `3`.
 
 3. We would consider all the possible moves of `"X"` and `"O"` until all possibilities end with a winner or a tie.
 
