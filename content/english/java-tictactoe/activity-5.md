@@ -52,7 +52,7 @@ Let's look at an example below:
 
     For example, in the second board in row 1, the computer wins by placing `"O"` at position 8. That state will then be given a score of `1 * (number of available spots on the board + 1)` = `1 * (2+1)` = `3`.
 
-3. At game states that don't have a winner or a tie, we pick the smallest score during minimizing rounds (when `"X"` make a move), and the largest score during maximizing rounds (when `"X"` make a move).
+3. At game states that don't have a winner or a tie, we pick the smallest score during minimizing rounds (when `"X"` make a move), and the largest score during maximizing rounds (when `"O"` make a move).
 
 4. If you follow along through the maximizing/minimizing rounds on the picture above, you should note that the optimal move for the computer is to place `"O"` at position 8, allowing the computer to win with 1 move from the starting game board.
 
