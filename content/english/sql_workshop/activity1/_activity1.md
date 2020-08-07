@@ -29,12 +29,12 @@ You are given information about the Galaxy and want to look for the Planet of Fu
 
 ![Select](../assets/Select.PNG)
 
-#### Now use what you learned! **Rearrange the code blocks below to answer the question and continue your space adventure!**
+#### Now use what you learned! Rearrange the code blocks below to answer the question and continue your space adventure!
 
 #### Question: What command will display all the columns in the database called "galaxy"?
 
 {{< rawhtml >}}
-<div class="terminal" id="terminal"> <center><img class="terminal" src="../assets/Terminal.png" alt="Terminal_screen" height="400" width="900"> </div>
+<div class="terminal" id="terminal"><center><img class="terminal" src="../assets/Terminal.png" alt="Terminal_screen" height="400" width="900"></center>
 
 
 <div id="div1" class ="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
@@ -64,6 +64,7 @@ You are given information about the Galaxy and want to look for the Planet of Fu
 <div id="div9" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
 <div id="div10" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
 
+</div>
 </div>
 <!-- Enter button -->
 <button class="button button1" onclick="check()"> Enter </button>
