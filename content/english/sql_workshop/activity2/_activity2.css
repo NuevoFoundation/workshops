@@ -2,8 +2,8 @@
 .codeBlocks, #div1, #div2, #div3, #div4, #div5, #div6 {
   position:relative;
   display: block;
-  top: -15vw;
-  right: -5vw;
+  top: 13vw;
+  right: -6vw;
   float: left;
   width: 9vw;
   height: 5vw;
@@ -15,7 +15,7 @@
 .dropClass, #div7, #div8, #div9, #div10, #div11, #div12 {
   position:relative;
   display: block;
-  top: -37vw;
+  top: 11vw;
   right: -8vw;
   float: left;
   width: 8vw;
@@ -23,6 +23,21 @@
   margin: 1vw;
   border: 1px solid white;
   overflow: hidden;
+}
+
+/* Container to hold terminal image and relative positions for blocks*/
+.terminal_div {
+	position:relative;
+	height:34vw;
+	width: auto;
+}
+
+/* Terminal image properties */
+.terminal {
+  position:absolute;
+  max-width: 100%;
+  height: auto;
+  top: -30px;
 }
 
 /* Keep image blocks inside rectangle containers */
@@ -56,6 +71,6 @@
   font-size: 24px;
   margin: 4px 2px;
   position:relative;
-  top:-11vw;
-  right:30vw;
+  top:0vw;
+  left:30vw;
 }

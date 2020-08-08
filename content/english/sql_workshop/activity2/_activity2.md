@@ -38,10 +38,10 @@ we only want to display the robots and the toy is labeled 'Robot', then the comm
 #### Now use what you learned to find the coordinates! You are given a database called 'galaxy'. In the column labeled, 'name', you are looking for 'Planet of Fun'.
 
 <!-- rearrange code blocks on terminal to get coordinate block -->
-![Terminal](../assets/Terminal.png)
 
 {{< rawhtml >}}
 
+<div class="terminal_div" id="terminal_div"><img class="terminal" src="../assets/Terminal.png" alt="Terminal_screen">
 
 <!-- Rectangles to Receive blocks -->
 <div id="div7" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
@@ -51,7 +51,7 @@ we only want to display the robots and the toy is labeled 'Robot', then the comm
 <div id="div11" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
 <div id="div12" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
 
-<div id="div1" class ="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
+<div id="div1" class ="codeBlocks" style="clear: left;" ondrop="drop(event)" ondragover="allowDrop(event)">
 <img class="img" id="answer5" src="../assets/Equal.PNG" draggable="true" ondragstart="drag(event)" id="drag1">
 </div>
 
@@ -75,7 +75,7 @@ we only want to display the robots and the toy is labeled 'Robot', then the comm
 <img class="img" img id="answer3" src="../assets/Where_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag5">
 </div>
 
-
+</div>
 <!-- Press Enter and if correct, unhide coordinate block -->
 <button class="button button1" onclick="check()"> Enter </button>
 
