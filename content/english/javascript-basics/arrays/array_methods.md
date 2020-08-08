@@ -28,7 +28,7 @@ var value = arrayName1.concat(arrayName2);
 ```
 
 <b>Example:</b>
-![#Can't find image](../img/arraymethods/concat.png)
+![#Can't find image](../../img/arraymethods/concat.png)
 
 
 # Push() 
@@ -40,7 +40,7 @@ var value = arrayName.push(newElement);
 ```
 
 <b>Example:</b>
-![#Can't find image](../img/arraymethods/push.png)
+![#Can't find image](../../img/arraymethods/push.png)
 
 
 # Pop() 
@@ -52,7 +52,7 @@ var value = arrayName.pop();
 ```
 
 <b>Example:</b>
-![#Can't find image](../img/arraymethods/pop.png)
+![#Can't find image](../../img/arraymethods/pop.png)
 
 
 # Shift() 
@@ -64,7 +64,7 @@ var value = arrayName.shift();
 ```
 
 <b>Example:</b>
-![#Can't find image](../img/arraymethods/shift.png)
+![#Can't find image](../../img/arraymethods/shift.png)
 
 
 # Unshift() 
@@ -76,7 +76,7 @@ var value = arrayName.unshift(newElement);
 ```
 
 <b>Example:</b>
-![#Can't find image](../img/arraymethods/unshift.png)
+![#Can't find image](../../img/arraymethods/unshift.png)
 
 
 # Sort() 
@@ -88,7 +88,7 @@ var value = arrayName.sort();
 ```
 
 <b>Example:</b>
-![#Can't find image](../img/arraymethods/sort.png)
+![#Can't find image](../../img/arraymethods/sort.png)
 
 
 # Reverse() 
@@ -100,4 +100,4 @@ var value = arrayName.reverse();
 ```
 
 <b>Example:</b>
-![#Can't find image](../img/arraymethods/reverse.png)
+![#Can't find image](../../img/arraymethods/reverse.png)

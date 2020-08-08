@@ -4,10 +4,9 @@ description: "Learning To Build a Pong Game with Pygame Library"
 date: 2019-07-29T13:24:17-07:00
 prereq: "Python Basics"
 difficulty: "Intermediate"
-image: ""
 draft: false
+hidden: true
 icon: "fab fa-python"
-weight: 17
 ---
 
 # Introduction

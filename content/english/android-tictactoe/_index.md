@@ -6,9 +6,8 @@ prereq: "Android Studio"
 difficulty: "Intermediate"
 download: "resources/_gen/files/TicTacToe.zip"
 icon: "fab fa-android"
-draft: true
-hidden: false
-weight: 3
+draft: false
+hidden: true
 ---
 
 # Welcome

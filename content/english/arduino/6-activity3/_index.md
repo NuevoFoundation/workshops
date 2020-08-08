@@ -1,7 +1,8 @@
 ---
 title: "Arduino - Activity 3"
 description: ""
-draft: true
+draft: false
+hidden: true
 difficulty: Intermediate
 weight: 1
 translationKey: "arduino-6"
@@ -31,7 +32,7 @@ Let’s combine activity 1 and activity 2. Let’s control LEDs based on the inp
 20.	Attach one end of a jumper wire to 10C on the Breadboard and the other to 8 on the Elegoo.
 21.	Attach one end of a jumper wire to 15B and the other to 17X (anywhere in the blue [-] line) on the Breadboard.
 
-![Cannot load image](content\english\arduino\6-activity3\img10.png)
+![Cannot load image](img10.png)
 
 CODE:
 ```
@@ -104,4 +105,4 @@ void loop() {
 }
 
 ```
-![Cannot load image](content\english\arduino\6-activity3\img11.png)
+![Cannot load image](img11.png)

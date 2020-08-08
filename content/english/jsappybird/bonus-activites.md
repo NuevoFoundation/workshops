@@ -1,11 +1,9 @@
 ---
-title: "Catch Up Activities"
+title: "Bonus activities"
 date: 2020-07-29T13:24:17-07:00
 draft: false
 weight: 11
 ---
-
-
 
 {{% notice note %}}
 

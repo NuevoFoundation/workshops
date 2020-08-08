@@ -1,7 +1,8 @@
 ---
 title: "Arduino - Activity 1"
 description: ""
-draft: true
+draft: false
+hidden: true
 difficulty: Intermediate
 weight: 1
 translationKey: "arduino-4"
@@ -19,7 +20,7 @@ For your introduction to this system we can get the basics of circuitry and how 
 5.	Plug in the Arduino board via USB to your PC and open the Arduino IDE application
 6.	Click on File -> Examples -> 01.Basics -> Blink
 
-![Cannot load image](content\english\arduino\4-activity1\img4.png)
+![Cannot load image](img4.png)
 
 7.	Now click the upload button to deploy the program to the Arduino.
 
@@ -28,5 +29,5 @@ If you said the number 1000 in delay (1000); you are RIGHT!
 Change that number (don’t forget to hit the upload button again).
 Notice a difference? Why do you think 1000 is 1 second? How long would 10 minutes be? Why?
 
-![Cannot load image](content\english\arduino\4-activity1\img5.png)
-![Cannot load image](content\english\arduino\4-activity1\img6.png)
+![Cannot load image](img5.png)
+![Cannot load image](img6.png)
