@@ -7,7 +7,6 @@ difficulty: "Intermediate"
 download: ""
 draft: false
 icon: "fas fa-code"
-weight: 3
 ---
 
 # Welcome
