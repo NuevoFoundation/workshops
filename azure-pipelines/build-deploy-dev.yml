@@ -1,0 +1,23 @@
+# Development: https://workshops-dev.nuevofoundation.org/
+
+# This pipeline builds Hugo and copies the result to Azure Blob Storage
+# NOTE: Requires setting up variable values in Azure Pipelines using account and key.
+
+trigger:
+  - none
+
+pool:
+  vmImage: "ubuntu-latest"
+
+steps:
+  - template: hugo-build.yml
+    parameters:
+      hugo_config_baseUrl: "$(DEV_URL)"
+  - task: AzureCLI@1
+    inputs:
+      azureSubscription: 'Azure Nuevo Foundation'
+      scriptLocation: 'inlineScript'
+      inlineScript: "az storage copy --source-local-path 'public/*' --recursive --destination-account-name $AZURE_STORAGE_ACCOUNT --destination-container '$web'"
+    env:
+      AZURE_STORAGE_ACCOUNT: $(AZURE_STORAGE_ACCOUNT)
+      AZURE_STORAGE_KEY: $(AZURE_STORAGE_KEY)
