@@ -1,5 +1,5 @@
 ---
-title: "Add Sound While the Bird is Jumping"
+title: "Add sound while the bird is jumping"
 date: 2020-07-29T13:24:17-07:00
 draft: false
 weight: 10
@@ -15,7 +15,7 @@ Add the below command in the file [File: create-game.js]
 
 In the repl.it window below, we started the code with the line `jumpSound.play();`.
 
-![alt text](../../img/jump_sound.png "image to add sound to the bird")
+![alt text](../img/jump_sound.png "image to add sound to the bird")
 
 In your console you should see a Jsappy bird jumping with sound after you press **run**:
 

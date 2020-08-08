@@ -1,7 +1,8 @@
 ---
 title: "Introduction - Building with Arduino"
 description: ""
-draft: true
+draft: false
+hidden: true
 weight: 1
 translationKey: "arduino-1"
 ---
@@ -13,4 +14,4 @@ Electronics like microcontrollers, sensors, and all types of circuitry are all a
 
 Today we will work on a few activities to show you some of the capabilities of this platform. We will start small and simple and build to bigger and more complex. After you do the activity feel free to change some things to see what is different and gain a deeper understanding.
 
-![Cannot load image](content\english\arduino\1-introduction-building-with-ardunio\img1.png)
+![Cannot load image](img1.png)

@@ -1,5 +1,5 @@
 ---
-title: "Change the Screen text"
+title: "Change the screen text"
 date: 2020-07-29T13:24:17-07:00
 draft: false
 weight: 5
@@ -15,8 +15,8 @@ Add below command in the file [File: start-screen.js]
 
 In the repl.it window below, we started the code with the line `var text = game.add.text(0, 0, "Press Space to Start", textOptions);`.
 
-![alt text](../../img/startscreen.png "image to add the bird in the file")
+![alt text](../img/startscreen.png "image to add the bird in the file")
 
 In your console you should see `Press Space to Start` after you press **run**:
 
-![alt text](../../img/startscreen_output.png "bird image in the output")
+![alt text](../img/startscreen_output.png "bird image in the output")

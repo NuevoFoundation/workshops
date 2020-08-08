@@ -15,10 +15,10 @@ Add below command in the file [File: load-sprites.js]
 
 In the repl.it window below, we started the code with the line `game.load.image('bird', 'assets/bird.png');`.
 
-![alt text](../../img/loadbird.png "image to add the bird in the file")
+![alt text](../img/loadbird.png "image to add the bird in the file")
 
 In your console you should see a Jsappy bird after you press **run**:
 
-![alt text](../../img/loadbird_output.png "bird image in the output")
+![alt text](../img/loadbird_output.png "bird image in the output")
 
 
