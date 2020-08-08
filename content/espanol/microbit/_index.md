@@ -5,8 +5,8 @@ date: 2020-07-30T14:54:53-07:00
 difficulty: "Principiante a Intermedio"
 download: "https://github.com/NuevoFoundation/workshops/tree/master/content/espanol/microbit"
 draft: false
+hidden: true
 icon: "fas fa-microchip"
-weight: 6
 ---
 
 ### Una introducción a JavaScript y hardware mediante [Micro:Bits](https://microbit.org/guide/)
