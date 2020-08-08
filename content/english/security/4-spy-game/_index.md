@@ -10,7 +10,8 @@ From our last activity we learnt that a strong password is a combination of rand
 
 From a list of passwords used by our `Nuvi` select the strongest password which cannot be hacked by **Eve**.
 
-![Cannot load image](pwd1.JPG?classes=border,shadow)
+##  Ilovemypet
+<!--![Cannot load image](pwd1.JPG?classes=border,shadow)-->
 <fieldset>  
   <legend>Can this password be Hacked?</legend>
   <input type="radio" id="notify-on1" name="notify1" value="on" >
@@ -19,8 +20,8 @@ From a list of passwords used by our `Nuvi` select the strongest password which 
   <label for="notify-off">No</label>
 </fieldset>
 
-
-![Cannot load image](pwd2.JPG?classes=border,shadow)
+## 45tKcmi&
+<!--![Cannot load image](pwd2.JPG?classes=border,shadow)-->
 <fieldset>  
   <legend>Can this password be Hacked?</legend>
   <input type="radio" id="notify-on2" name="notify2" value="on" >
@@ -29,8 +30,8 @@ From a list of passwords used by our `Nuvi` select the strongest password which 
   <label for="notify-off">No</label>
 </fieldset>
 
-![Cannot load image](pwd3.JPG?classes=border,shadow)
-
+## 12345678
+<!--![Cannot load image](pwd3.JPG?classes=border,shadow)-->
 <fieldset>  
   <legend>Can this password be Hacked?</legend>
   <input type="radio" id="notify-on3" name="notify3" value="on" >
@@ -39,8 +40,8 @@ From a list of passwords used by our `Nuvi` select the strongest password which 
   <label for="notify-off">No</label>
 </fieldset> 
 
-![Cannot load image](pwd4.JPG?classes=border,shadow)
-
+## PYTHdf56$
+<!--![Cannot load image](pwd4.JPG?classes=border,shadow)-->
 <fieldset>  
   <legend>Can this password be Hacked?</legend>
   <input type="radio" id="notify-on4" name="notify4" value="on" >
