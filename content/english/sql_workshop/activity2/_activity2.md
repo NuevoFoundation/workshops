@@ -42,6 +42,15 @@ we only want to display the robots and the toy is labeled 'Robot', then the comm
 
 {{< rawhtml >}}
 
+
+<!-- Rectangles to Receive blocks -->
+<div id="div7" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
+<div id="div8" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
+<div id="div9" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
+<div id="div10" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
+<div id="div11" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
+<div id="div12" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
+
 <div id="div1" class ="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
 <img class="img" id="answer5" src="../assets/Equal.PNG" draggable="true" ondragstart="drag(event)" id="drag1">
 </div>
@@ -66,16 +75,6 @@ we only want to display the robots and the toy is labeled 'Robot', then the comm
 <img class="img" img id="answer3" src="../assets/Where_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag5">
 </div>
 
-<div id="buffer" class="dropClass" style="border:1px solid transparent;"> </div>
-<div id="buffer" class="dropClass" style="border:1px solid transparent;"> </div>
-
-<!-- Rectangles to Receive blocks -->
-<div id="div7" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
-<div id="div8" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
-<div id="div9" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
-<div id="div10" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
-<div id="div11" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
-<div id="div12" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
 
 <!-- Press Enter and if correct, unhide coordinate block -->
 <button class="button button1" onclick="check()"> Enter </button>

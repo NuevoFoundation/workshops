@@ -34,10 +34,17 @@ You are given information about the Galaxy and want to look for the Planet of Fu
 #### Question: What command will display all the columns in the database called "galaxy"?
 
 {{< rawhtml >}}
-<div class="terminal" id="terminal"><center><img class="terminal" src="../assets/Terminal.png" alt="Terminal_screen" height="400" width="900"></center>
+<div class="terminal_div" id="terminal_div"><img class="terminal" src="../assets/Terminal.png" alt="Terminal_screen">
+
+<!-- Rectangles to Receive blocks -->
+<div id="div6" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
+<div id="div7" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
+<div id="div8" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
+<div id="div9" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
+<div id="div10" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
 
 
-<div id="div1" class ="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
+<div id="div1" class ="codeBlocks" style="clear: left;" ondrop="drop(event)" ondragover="allowDrop(event)">
 <img class="img" id="answer1" src="../assets/Select_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag1" width="120" height="60">
 </div>
 
@@ -56,15 +63,7 @@ You are given information about the Galaxy and want to look for the Planet of Fu
 <div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)">
 <img class="img" img id="answer5" src="../assets/Semicolon_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag5" width="120" height="60" markdown="1">
 </div>
-<div id="buffer" class="dropClass" style="border:1px solid transparent;"> </div>
-<!-- Rectangles to Receive blocks -->
-<div id="div6" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
-<div id="div7" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
-<div id="div8" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
-<div id="div9" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
-<div id="div10" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
 
-</div>
 </div>
 <!-- Enter button -->
 <button class="button button1" onclick="check()"> Enter </button>
