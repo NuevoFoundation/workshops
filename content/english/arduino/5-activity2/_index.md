@@ -1,7 +1,8 @@
 ---
 title: "Arduino - Activity 2"
 description: ""
-draft: true
+draft: false
+hidden: true
 difficulty: Intermediate
 weight: 1
 translationKey: "arduino-5"
@@ -44,13 +45,13 @@ void loop() {
   delay(500); 
 }
 ```
-![Cannot load image](content\english\arduino\5-activity2\img7.png)
+![Cannot load image](img7.png)
 
 7.	Now click the upload button to deploy the program to the Arduino.
 8.	Click on the “Serial Monitor” button on the top right of the screen to display the console.
 
-![Cannot load image](content\english\arduino\5-activity2\img8.png)
+![Cannot load image](img8.png)
 
 9.	Notice how the X and Y values change when you move the joystick around.
 
-![Cannot load image](content\english\arduino\5-activity2\img9.png)
+![Cannot load image](img9.png)
