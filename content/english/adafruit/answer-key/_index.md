@@ -22,3 +22,5 @@ After setup, the oranges and adafruit should look like this:
 ### Solution - advanced (with lights)
 ![Cannot load image](img/adafruit-complex-solution.png?classes=border,shadow)
 
+### How it Works
+![Circuit diagram for the musical fruit project. Shows two oranges, acting as resistors, connected to the A1 and A2 analog pins of an AdaFruit CircuitPlayground Express. Also shows two hands touching the oranges, acting as pull-down resistors on the circuit.](img/musicalFruitDiagram.png?classes=border,shadow)

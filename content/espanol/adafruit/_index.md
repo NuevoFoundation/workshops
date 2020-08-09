@@ -6,11 +6,11 @@ prereq: "Ninguno"
 difficulty: "Principiante"
 download: ""
 draft: false
-weight: 1
 translationKey: "adafruit-main"
 ---
 
-1. [Los Componentes](1-los-componentes) 
-2. [Contruyendo la Estación del DJ](2-construyendo-la-estacion-dj)
-3. [Creando el Programa](3-creando-el-programa)
-4. [Descargando el Programa](4-descargando-el-programa)
+## Contenido
+<details open>
+<summary>Secciones</summary>
+{{% children %}}
+</details>
