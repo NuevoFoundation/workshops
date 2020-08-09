@@ -4,14 +4,13 @@ description: "Learn the SELECT command"
 date: 2020-07-17
 prereq: "none"
 difficulty: "Beginner"
-icon: ""
 draft: false
 translationKey: "sql_activity_1"
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->
-<link rel="stylesheet" href="../_activity1.css" type="text/css">
+<link rel="stylesheet" href="../../default/_default.css" type="text/css">
 </link>
-<script type="text/javascript" src="../_activity1.js">
+<script type="text/javascript" src="../../default/_default.js">
 </script>
 
 # Mission 1: Save the Planet of Fun From Boredom!
@@ -34,10 +33,18 @@ You are given information about the Galaxy and want to look for the Planet of Fu
 #### Question: What command will display all the columns in the database called "galaxy"?
 
 {{< rawhtml >}}
-<div class="terminal" id="terminal"> <center><img class="terminal" src="../assets/Terminal.png" alt="Terminal_screen" height="400" width="900"> </div>
+<div class="terminal_div" id="terminal_div"><img class="terminal" src="../assets/Terminal.png" alt="Terminal_screen">
 
 
-<div id="div1" class ="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
+<!-- Rectangles to Receive blocks -->
+<div id="div6" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
+<div id="div7" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
+<div id="div8" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
+<div id="div9" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
+<div id="div10" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
+
+
+<div id="div1" class ="codeBlocks" style="clear: left;" ondrop="drop(event)" ondragover="allowDrop(event)">
 <img class="img" id="answer1" src="../assets/Select_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag1" width="120" height="60">
 </div>
 
@@ -49,20 +56,13 @@ You are given information about the Galaxy and want to look for the Planet of Fu
 <img class="img" img id="answer4" src="../assets/galaxy_block.png" draggable="true" ondragstart="drag(event)" id="drag3" width="120" height="60" markdown="1">
 </div>
 
-<div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)">
+<div id="div4" class="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
 <img class="img" img id="answer3" src="../assets/From_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag4" width="120" height="60" markdown="1">
 </div>
 
-<div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)">
+<div id="div5" class="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
 <img class="img" img id="answer5" src="../assets/Semicolon_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag5" width="120" height="60" markdown="1">
 </div>
-<div id="buffer" class="dropClass" style="border:1px solid transparent;"> </div>
-<!-- Rectangles to Receive blocks -->
-<div id="div6" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
-<div id="div7" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
-<div id="div8" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
-<div id="div9" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
-<div id="div10" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
 
 </div>
 <!-- Enter button -->
@@ -71,4 +71,3 @@ You are given information about the Galaxy and want to look for the Planet of Fu
 <!-- Hidden SQL database will appear once correct sequence is placed -->
 <img src="../assets/Database.png" id="database" alt="database" style="visibility:hidden"/>
 {{< /rawhtml >}}
-
