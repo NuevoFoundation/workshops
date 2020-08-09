@@ -4,7 +4,6 @@ description: "Learn the WHERE command"
 date: 2020-07-16
 prereq: "none"
 difficulty: "Beginner"
-icon: ""
 draft: false
 translationKey: "sql_activity_2"
 ---

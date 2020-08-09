@@ -4,7 +4,6 @@ description: "Learn the COUNT command"
 date: 2020-07-15
 prereq: "none"
 difficulty: "Beginner"
-icon: ""
 draft: false
 translationKey: "sql_activity_3"
 ---
