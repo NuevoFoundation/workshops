@@ -1,26 +1,12 @@
 /* Positions and style for the code blocks */
-.codeBlocks, #div1, #div2, #div3, #div4, #div5, #div6 {
-  position:relative;
-  display: block;
-  top: 13vw;
+.codeBlocks {
   right: -6vw;
-  float: left;
-  width: 9vw;
-  height: 5vw;
-  margin: 1vw;
-  border: 1px solid green;
 }
 
 /* Positions and style for the drop places */
-.dropClass, #div7, #div8, #div9, #div10, #div11, #div12 {
-  position:relative;
-  display: block;
+.dropClass {
   top: 11vw;
-  right: -8vw;
-  float: left;
   width: 8vw;
   height: 4vw;
-  margin: 1vw;
-  border: 1px solid white;
   overflow: hidden;
 }
