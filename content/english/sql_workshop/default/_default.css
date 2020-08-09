@@ -1,6 +1,6 @@
 /* Positions and style for the code blocks */
-.codeBlocks, #div1, #div2, #div3, #div4, #div5 {
-  position:relative;
+.codeBlocks {
+  position: relative;
   display: block;
   top: 13vw;
   right: -8vw;
@@ -12,8 +12,8 @@
 }
 
 /* Positions and style for the drop places */
-.dropClass, #div6, #div7, #div8, #div9, #div10 {
-  position:relative;
+.dropClass {
+  position: relative;
   display: block;
   top: 10vw;
   right: -8vw;
@@ -24,21 +24,24 @@
   border: 1px solid white;
 }
 
+/* Reference position for blocks */
 .terminal_div {
-	position:relative;
-	height:34vw;
-	width: auto;
+  position: relative;
+  height: 34vw;
+  width: auto;
 }
 
+/* Terminal image position inside container */
 .terminal {
-  position:absolute;
+  position: absolute;
   max-width: 100%;
   height: auto;
   top: -30px;
 }
 
+/* Positions for code block images inside rectangles */
 .img {
-  position:absolute;
+  position: absolute;
   display: block;
   width: auto;
   height: auto;
@@ -67,6 +70,6 @@
   font-size: 24px;
   margin: 4px 2px;
   position:relative;
-  top:0vw;
-  left:30vw;
+  top: 0vw;
+  left: 30vw;
 }

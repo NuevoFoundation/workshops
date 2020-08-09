@@ -1,18 +1,5 @@
 //Global variables to keep track of answer places
-var p1 = null;
-var p2 = null;
-var p3 = null;
-var p4 = null;
-var p5 = null;
 var p6 = null;
-
-function allowDrop(ev) {
-  ev.preventDefault();
-}
-
-function drag(ev) {
-  ev.dataTransfer.setData("content", ev.target.id);
-}
 
 function drop(ev) {
   ev.preventDefault();
@@ -41,7 +28,6 @@ function drop(ev) {
 	  p6 = data;
       break;
     default:
-      alert("Try Again");
   }
 }
 
@@ -49,27 +35,27 @@ function check(){
 
   //Highlight the correct answers in green
   if(p1 == "answer1") {
-	document.getElementById('div7').style.borderWidth = "thick";
+    document.getElementById('div7').style.borderWidth = "thick";
     document.getElementById('div7').style.borderColor = "green";
   }
   if(p2 == "answer2") {
-	document.getElementById('div8').style.borderWidth = "thick";
+    document.getElementById('div8').style.borderWidth = "thick";
     document.getElementById('div8').style.borderColor = "green";
   }
   if(p3 == "answer3") {
-	document.getElementById('div9').style.borderWidth = "thick";
+    document.getElementById('div9').style.borderWidth = "thick";
     document.getElementById('div9').style.borderColor = "green";
   }
   if(p4 == "answer4") {
-	document.getElementById('div10').style.borderWidth = "thick";
+    document.getElementById('div10').style.borderWidth = "thick";
     document.getElementById('div10').style.borderColor = "green";
   }
   if(p5 == "answer5") {
-	document.getElementById('div11').style.borderWidth = "thick";
+    document.getElementById('div11').style.borderWidth = "thick";
     document.getElementById('div11').style.borderColor = "green";
   }
   if(p6 == "answer6") {
-	document.getElementById('div12').style.borderWidth = "thick";
+    document.getElementById('div12').style.borderWidth = "thick";
     document.getElementById('div12').style.borderColor = "green";
   }
 
@@ -80,10 +66,12 @@ function check(){
     //Display the planet of fun info
     var display1 = document.getElementById("planet");
     display1.setAttribute("style","visibility:visible");
-	var display2 = document.getElementById("gps");
+	
+    var display2 = document.getElementById("gps");
     display2.setAttribute("style","visibility:visible");
-	var display3 = document.getElementById("text");
-	display3.setAttribute("style","visibility:visible");
+	
+    var display3 = document.getElementById("text");
+    display3.setAttribute("style","visibility:visible");
 	
     alert("Congrats Space Cadet! Continue your Adventure!");
   }

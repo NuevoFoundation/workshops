@@ -9,7 +9,9 @@ draft: false
 translationKey: "sql_activity_2"
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->
+<link rel="stylesheet" href="../../default/_default.css" type="text/css"></link>
 <link rel="stylesheet" href="../_activity2.css" type="text/css"></link>
+<script type="text/javascript" src="../../default/_default.js"></script>
 <script type="text/javascript" src="../_activity2.js"></script>
 
 <!-- Embed YouTube Video Link here when ready -->
@@ -63,15 +65,15 @@ we only want to display the robots and the toy is labeled 'Robot', then the comm
 <img class="img" img id="answer4" src="../assets/Name_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag3">
 </div>
 
-<div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)">
+<div id="div4" class="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
 <img class="img" img id="answer6" src="../assets/Planet_Fun_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag4">
 </div>
 
-<div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)">
+<div id="div5" class="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
 <img class="img" img id="answer1" src="../assets/Select_From_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag5">
 </div>
 
-<div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)">
+<div id="div6" class="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
 <img class="img" img id="answer3" src="../assets/Where_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag5">
 </div>
 

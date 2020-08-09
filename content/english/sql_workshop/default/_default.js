@@ -44,23 +44,23 @@ function check(){
 
   //Highlight the correct answers in green
   if(p1 == "answer1") {
-	document.getElementById('div6').style.borderWidth = "thick";
+    document.getElementById('div6').style.borderWidth = "thick";
     document.getElementById('div6').style.borderColor = "green";
   }
   if(p2 == "answer2") {
-	document.getElementById('div7').style.borderWidth = "thick";
+    document.getElementById('div7').style.borderWidth = "thick";
     document.getElementById('div7').style.borderColor = "green";
   }
   if(p3 == "answer3") {
-	document.getElementById('div8').style.borderWidth = "thick";
+    document.getElementById('div8').style.borderWidth = "thick";
     document.getElementById('div8').style.borderColor = "green";
   }
   if(p4 == "answer4") {
-	document.getElementById('div9').style.borderWidth = "thick";
+    document.getElementById('div9').style.borderWidth = "thick";
     document.getElementById('div9').style.borderColor = "green";
   }
   if(p5 == "answer5") {
-	document.getElementById('div10').style.borderWidth = "thick";
+    document.getElementById('div10').style.borderWidth = "thick";
     document.getElementById('div10').style.borderColor = "green";
   }
 
