@@ -10,14 +10,17 @@ hidden: true
 ```java
 public class TicTacToe_Nuevo {
     public static void main(String args[]){
+        // the board that stores moves
         String[] board = {" ", " ", " ", " ", " ", " ", " ", " ", " "};
+        // starting board that labeled position(only printed once)
         String[] startBoard = {"1", "2", "3", "4", "5", "6", "7", "8", "9"};
 
-        System.out.println("<<<~  Tic  Tac  Toe  ~>>>\n* Choose number 1 - 9 to place your move\n* Player: 'X' Computer: 'O'\n");
-        printBoard(startBoard);
+        System.out.println("<<<~  Tic  Tac  Toe  ~>>>\n* Choose number 1 - 9 to place your move\n* Player: 'X' Computer: 'O'\n" );
+        printBoard(startBoard); 
         System.out.print("Enter your move (1-9): "); 
         }
 
+    // method that prints the board with the board input
     public static void printBoard(String[] curBoard){
         System.out.println(" " + curBoard[0] + " | " + curBoard[1] + " | " + curBoard[2] + " ");
         System.out.println("---+---+---");
@@ -44,17 +47,21 @@ public class TicTacToe_Nuevo {
         while(true){
             int move;
 			try {
+                // get integer input
 				move = sc.nextInt();
+                // check if the integer is between 1, 9. check if the position is empty
 				if (!(move > 0 && move <= 9) || ! board[move -1].equals(" ")) {
 					System.out.print("Invalid Position; re-enter your move (1-9): ");
 					continue;
 				}
 			} catch (Exception e) {
+                // clear the Scanner
                 sc.next();
 				System.out.print("Invalid Input; re-enter your move (1-9): ");
 				continue;
             }
 
+            // reprompt the board
             printBoard(board);
             System.out.print("Enter your move (1-9): "); 
         }
@@ -98,8 +105,10 @@ public class TicTacToe_Nuevo {
 				continue;
             }*/
 
+            // update the board with user's move
             board[move - 1] = "X";
             
+            // update the board with a random move for computer
             board[getComputerMove(board) - 1] = "O";
 
             /*printBoard(board);
@@ -114,6 +123,8 @@ public class TicTacToe_Nuevo {
         System.out.println("---+---+---");
         System.out.println(" " + curBoard[6] + " | " + curBoard[7] + " | " + curBoard[8] + " ");
     }*/
+
+    // method that generate a valid random move
     public static int getComputerMove(String[] curBoard){
         Random rand = new Random();
         int pos = rand.nextInt(9) + 1;
@@ -155,7 +166,7 @@ public class TicTacToe_Nuevo {
 
             // board[move - 1] = "X";
             String winner = getWinner(board);
-            if(winner.length() > 0){
+            if(winner.length() > 0){      // if there is a winner or a tie
                 printBoard(board);
                 System.out.println("\n" + winner + "\n");
                 break;
@@ -191,10 +202,12 @@ public class TicTacToe_Nuevo {
         return pos;
     }*/
     
+    // NOTE: this is one possible way to write this method. 
     public static String getWinner(String[] curBoard){
         for(int i = 0; i < 8; i++){
             String checkWin = "";
             switch(i){
+                // conactenate all possible winning positions
                 case 0: checkWin = curBoard[0] + curBoard[1] + curBoard[2];
                         break;
                 case 1: checkWin = curBoard[3] + curBoard[4] + curBoard[5];
@@ -212,6 +225,7 @@ public class TicTacToe_Nuevo {
                 case 7: checkWin = curBoard[2] + curBoard[4] + curBoard[6];
                         break;
             }
+            // check if any player wins
             if(checkWin.equals("XXX")){
                 return "Congratulations! \nYou won the Game :)";
             }else if(checkWin.equals("OOO")){
@@ -234,10 +248,14 @@ public class TicTacToe_Nuevo {
             int pos = 0;
             int bestScore = Integer.MIN_VALUE;
             for(int i = 0; i < 9; i++){
-                if(curBoard[i].equals(" ")){
+                if(curBoard[i].equals(" ")){ // go through all empty slots
+                    // put computer's move there
                     curBoard[i] = "O";
+                    // get the score
                     int score = minimax(curBoard, false);
+                    // change it back
                     curBoard[i] = " ";
+                    // keep track of the position that gives the best score
                     if(score > bestScore){
                         bestScore = score;
                         pos = i;
@@ -248,16 +266,18 @@ public class TicTacToe_Nuevo {
         }
     
         public static int minimax(String[] curBoard, boolean isMaximizing){
+            // check if the board has a winner or a tie yet
             String result = getWinner(curBoard);
     
+            // factor = number of empty slots + 1
             int factor = getFactor(curBoard);
 
-            // terminating state return score
+            // terminating state return score 
             if(result.contains("TIE")) return 0;
             if(result.contains("won")) return -1 * factor;
             if(result.contains("lost")) return 1 * factor;
                     
-            // recurrence case
+            // the follow code is similiar as getComputerMoveAI() but it swaps based on `isMaximizing` input
             int bestScore = (isMaximizing)? Integer.MIN_VALUE : Integer.MAX_VALUE;
             String symbol = (isMaximizing)? "O" : "X";
             for(int i = 0; i <9; i++){

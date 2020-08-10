@@ -1,0 +1,12 @@
+/* Positions and style for the code blocks */
+.codeBlocks {
+  right: -6vw;
+}
+
+/* Positions and style for the drop places */
+.dropClass {
+  top: 11vw;
+  width: 8vw;
+  height: 4vw;
+  overflow: hidden;
+}
