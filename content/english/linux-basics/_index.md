@@ -13,9 +13,11 @@ translationKey: "linux-basics-main"
 
 # Welcome
 
+insert image of Nuvee
+
+*Greetings! I am Nuvee. We appreciate your coming to assist us!
+We have been notified that our computer is acting strangely and need your help to find out what is going on.*
+
 ## Table of Contents
 
-1. Who am I?
-2. Where am I?
-3. Files and Permissions
-4. Practice with Files and Directories
+{{% children %}}
