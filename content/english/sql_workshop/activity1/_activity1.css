@@ -1,0 +1,64 @@
+/* Positions and style for the code blocks */
+.codeBlocks, #div1, #div2, #div3, #div4, #div5 {
+  position:relative;
+  display: block;
+  top: -15vw;
+  right: -7vw;
+  float: left;
+  width: 9vw;
+  height: 5vw;
+  margin: 1vw;
+  border: 1px solid green;
+}
+
+/* Positions and style for the drop places */
+.dropClass, #div6, #div7, #div8, #div9, #div10 {
+  position:relative;
+  display: block;
+  top: -32vw;
+  right: -8vw;
+  float: left;
+  width: 9vw;
+  height: 5vw;
+  margin: 1vw;
+  border: 1px solid white;
+}
+
+.terminal {
+  width: 100%;
+  height: auto;
+}
+
+.img {
+  position:absolute;
+  display: block;
+  width: auto;
+  height: auto;
+  top: -30px;
+}
+
+/* Button Format (default) */
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* Style for Enter button */
+.button1 {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px;
+  position:relative;
+  top:1vw;
+  right:35vw;
+}
