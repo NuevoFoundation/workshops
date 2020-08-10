@@ -24,7 +24,7 @@ chmod u=rwx g=rx o=x [filename]
 
 chmod can also be used with simple number commands. These commands are written like:
 chmod 751 filename
-The values can be understood as 7 is the combination of 4, 2, and 1. Thus, it gives users the permission to **r**ead, write, and execute.
+The values can be understood as 7 is the combination of 4, 2, and 1. Thus, it gives users the permission to read, write, and execute.
 What permissions do the other two values give?
 KEY
 4 = read
