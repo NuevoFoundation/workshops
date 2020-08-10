@@ -15,7 +15,7 @@ file [directory] -name [filename]
 **Search for all text files (Files that end with .txt):**
 file [directory] -name *.txt 
 
-**Searching for a pattern in a file?**
+Searching for a pattern in a file?
 
 Grep is a command used to search for a pattern of characters. (Should we define chars?). Grep has different flags or options that can change how it is used.
 ---
