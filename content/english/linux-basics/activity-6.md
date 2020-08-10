@@ -21,9 +21,9 @@ Grep is a command used to search for a pattern of characters. (Should we define 
 
 ---
 Flags: Uses
--c: To get the number of files with the pattern.
--i: To make the search case-insensitive. “uNiX” is the same as “unix”
--n: To return matched lines and their line numbers.
+-c: "To get the number of files with the pattern."
+-i: "To make the search case-insensitive. “uNiX” is the same as “unix”"
+-n: "To return matched lines and their line numbers."
 ---
 
 grep [flag] “[pattern]” [filename]
