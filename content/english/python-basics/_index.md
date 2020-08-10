@@ -11,5 +11,3 @@ weight: 10
 
 # Python basics
 {{% children %}}
-
-

@@ -2,7 +2,7 @@
 title: "Python: Pixels"
 description: "Pixels and Colors in Python"
 prereq: "Python Basics"
-difficulty: "Progressor"
+difficulty: "Intermediate"
 icon: "fab fa-python"
 draft: false
 weight: 10
