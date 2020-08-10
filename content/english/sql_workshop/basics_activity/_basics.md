@@ -9,11 +9,11 @@ draft: false
 translationKey: "sql_basics"
 ---
 # Cadet Training!
-<font size="4"> As a new honorary space explorer, let's go over some basics!
+As a new honorary space explorer, let's go over some basics!
 
 ## What Is A Database?
 
-<font size="3"> It is a type of container for you to hold and organize information. 
+ It is a type of container for you to hold and organize information. 
 Think of a database like a bucket where you can place toys in so they don’t get lost 
 and you can easily find them later. This bucket might hold smaller buckets to sort 
 your toys.
