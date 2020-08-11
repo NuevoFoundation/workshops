@@ -1,42 +1,48 @@
-[create-header-md]
-other = ""
+# body-beforecontent.html
+[navigation]
+other = "Navigation:"
 
+# custom-footer.html
+[join-social-media]
+other = "Join the conversation on social media."
 
-[Search-placeholder]
-other = "Search..."
+[copyright-footer]
+other = "© Copyright 2019, All Rights Reserved by Nuevo Foundation, a 501(c)(3) nonprofit."
 
-[Clear-History]
-other = "Clear History"
+# header.html
+[donate]
+other = "Donate"
 
-[Page]
-other = "Page"
+[what-we-do]
+other = "What We Do"
 
-[Next-Pages]
-other = "Next Pages"
+[workshops]
+other = "Workshops"
 
-[Previous-Pages]
-other = "Previous Pages"
+[get-involved]
+other = "Get Involved"
 
-[pagination-on]
-other = "of"
+[support-us]
+other = "Support us"
 
-[Attachments-label]
-other = "Attachments"
+[event-blog]
+other = "Event blog"
 
-[title-404]
-other = "Error"
+[our-team]
+other = "Our team"
 
-[message-404]
-other = "Woops. Looks like this page doesn't exist."
+[contact-us]
+other = "Contact us"
 
-[Go-to-homepage]
-other = "Go to homepage"
+# Metadata.html
+[workshop-resources]
+other = "Workshop Resources"
 
-[Edit-this-page]
-other = "Edit on GitHub"
+[pre-requisite]
+other = "Pre-requisite:"
 
-[Expand-title]
-other = "Expand me..."
+[difficulty]
+other = "Difficulty:"
 
-[last-update-on]
-other = "Last update on"
+[download]
+other = "Download:"

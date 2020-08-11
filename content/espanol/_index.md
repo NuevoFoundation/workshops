@@ -5,10 +5,10 @@ draft: false
 hidemetadata: true
 ---
 
-## Proyectos
+## Proyectos de tallers
 {{< workshop-list style="card" depth="1" showhidden="false" description="true"  />}}
 
 ## Pautas para colaboradores (en inglés)
 
-- [Pautas para colaboradores](../guidelines/)
+- [Pautas para colaboradores](guidelines/)
 - [Pautas para desarrolladores de sitios web](../guidelines/web-developer)
