@@ -2,6 +2,7 @@
 title: "Activity 1 - Determine User Account"
 description: "Use a Linux command to determine what user you are"
 date: 2020-08-10
+weight: 4
 ---
 
 Welcome! This activity will show you how to find out which user account you are currently using. 

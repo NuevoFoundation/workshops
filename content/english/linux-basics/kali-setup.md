@@ -2,12 +2,7 @@
 title: "Using Virtual Machines Part 2"
 description: "Continuing the introductory guide to using virtual machines."
 date: 2020-08-05
-prereq: "None"
-difficulty: "Beginner"
-download: ""
-draft: true
-icon: "fas fa-microchip"
-weight: 7
+weight: 2
 translationKey: "linux-basics-vbox-setup"
 ---
 

@@ -2,6 +2,7 @@
 title: " Activity 11 - Store and protect files."
 description: "Use Linux commands to compress and archive files."
 date: 2020-07-08
+weight: 14
 ---
 
 ***Thanks so much for helping us fix the machine! Now let's get everything up into one nice package.***

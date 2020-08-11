@@ -7,15 +7,15 @@ difficulty: "Beginner"
 download: ""
 draft: true
 icon: "fas fa-microchip"
-weight: 7
+weight: 1
 translationKey: "linux-basics-main"
 ---
 
 # Welcome
 
-insert image of Nuvee
+insert image of Nuvi
 
-*Greetings! I am Nuvee. We appreciate your coming to assist us!
+*Greetings! I am Nuvi. We appreciate your coming to assist us!
 We have been notified that our computer is acting strangely and need your help to find out what is going on.*
 
 ## Table of Contents

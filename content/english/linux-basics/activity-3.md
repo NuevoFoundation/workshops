@@ -2,6 +2,7 @@
 title: "Activity 3 - Explore Current Directory"
 description: "Use Linux commands to view the contents of the current directory"
 date: 2020-07-08
+weight: 6
 ---
 
 Now that we know where we are on the computer, let's take a look around. This way we can start finding what files might have been modified. 

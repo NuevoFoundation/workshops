@@ -1,7 +1,8 @@
 ---
-title: "Activity 5- A BAD File"
+title: "Activity 6 - A BAD File"
 description: "Use Linux commands to search"
 date: 2020-07-08
+weight: 9
 ---
 
 ***Remember that file we saw with the strange name? It was called [insert filename]. We should go find it again and take a closer look 

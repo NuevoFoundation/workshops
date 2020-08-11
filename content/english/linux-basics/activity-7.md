@@ -1,7 +1,8 @@
 ---
-title: "Activity 5- What's wrong with the file?"
+title: "Activity 7 - What's wrong with the file?"
 description: "Use Linux commands to read the file without opening it."
 date: 2020-07-08
+weight: 10
 ---
 
 ***Instead of opening the file in an editor, let's use the command line to try reading it.***
