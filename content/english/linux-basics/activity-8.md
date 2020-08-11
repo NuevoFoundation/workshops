@@ -1,3 +1,9 @@
+---
+title: "Activity 8- What's different?"
+description: "Use Linux commands to compare files."
+date: 2020-07-08
+---
+
 ***This file is usually a good file, but there seems to be some changes to it. Should we compare it to a known good version?***
 
 **Diff**
