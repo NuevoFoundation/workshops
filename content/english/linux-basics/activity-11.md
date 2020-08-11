@@ -9,9 +9,10 @@ Zip [name of zip file] [filenames to be zipped]
 
 tar is a command that creates and extracts archived files.
 
-|Tags| Purposes |
-| :... | :... |
+| flags | Uses |
+| :... | :.... |
 | -c | creates archive |
 | -x | extracts archive |
 | -f | creates archive with given filename |
+
 tar [filenames] 
