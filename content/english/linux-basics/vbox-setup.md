@@ -24,13 +24,27 @@ Don't worry though, this won't hurt your computer!
 
 
 ## Setting up VirtualBox
-VirtualBox is a virtualization software. It allows your computer to host virtual machines.
+VirtualBox is a virtualization software, also called a **hypervisor**. It allows your computer to host virtual machines.
+
 
 ### Downloading VirtualBox
 VirtualBox is available at this link: https://www.virtualbox.org/wiki/Downloads
 
-If you are using Windows:
-    Select "Windows hosts"
-If you are using Mac:
-    Select "OS X hosts"
-If you are using something else, we recommend using Windows or Mac for this workshop.
+If you are using Windows:  
+    Select "Windows hosts"  
+If you are using Mac:  
+    Select "OS X hosts"  
+If you are using something else, we recommend using Windows or Mac for this workshop. As anything else is beyond the scope.  
+
+![virtual box download page](../images/vbox-dlpage-update.JPG?classes=border,shadow)
+
+Next run the installer that just downloaded.
+
+The default options will be good enough for today!  
+Just keep clicking "Next" on the installer.
+
+Note some option selections are on the third page.
+![virtual box install options](../images/vbox-install-03.JPG?classes=border,shadow)
+
+Finally, you can keep the checkbox selected to start VirtualBox after installing.
+![virtual box launch after install](../images/vbox-install-06.JPG?classes=border,shadow)

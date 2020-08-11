@@ -10,6 +10,8 @@ Now that we know where we are on the computer, let's take a look around. This wa
 
 To look at the files in your current directory, we will now enter our first Linux command with a flag. Type “ls -l” to see the list of files and directories in your current directory. “ls” is the command to list the contents of a directory, and the flag “-l” is to list them in long form, meaning more detailed information will be displayed.
 
+![ls-l command](../images/03_ls-l.png?classes=border,shadow)
+
 **What information is being displayed?**
 
 Given the following sample output from “ls -l”, each column of output is explained below:
