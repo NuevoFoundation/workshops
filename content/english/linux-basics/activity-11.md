@@ -15,12 +15,4 @@ tar is a command that creates and extracts archived files.
 | -x | extracts archive |
 | -f | creates archive with given filename |
 
-
-|flags | Uses |
-| :--- | :---- |
-| -c | Creates archive. |
-| -i | Extracts archive. |
-| -n | Creates archive with given filename. |
-
-
 tar [filenames] 
