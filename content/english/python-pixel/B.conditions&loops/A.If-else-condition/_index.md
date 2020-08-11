@@ -6,7 +6,7 @@ weight: 3
 
 We have already learned some basic if-else conditions from previous workshops, click on the link below if you want to review.
 
-- <a href="../../python-basics/conditional-statements"> Conditional statements </a>
+- <a href="../../python-basics/conditional-statements" target="_blank"> Conditional statements </a>
 
 We will introduce a new condition called "elif".
 
