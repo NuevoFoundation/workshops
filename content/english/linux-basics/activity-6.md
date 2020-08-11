@@ -20,13 +20,13 @@ file [directory] -name *.txt
 Grep is a command used to search for a pattern of characters. (Should we define chars?). Grep has different flags or options that can change how it is used.
 
 ---
-flags: Uses
+|flags | Uses |
 ---
-c: "To get the number of files with the pattern."
+| -c | To get the number of files with the pattern. |
 ---
-i: "To make the search case-insensitive. “uNiX” is the same as “unix”"
+| -i | To make the search case-insensitive. “uNiX” is the same as “unix” |
 ---
-n: "To return matched lines and their line numbers."
+| -n | To return matched lines and their line numbers. |
 ---
 
 grep [flag] “[pattern]” [filename]
