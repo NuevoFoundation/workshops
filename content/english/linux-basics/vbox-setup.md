@@ -14,10 +14,10 @@ translationKey: "linux-basics-vbox-setup"
 *We are providing you with a copy of an **image** (see below for more details) to work with. You can download it here (insert link).*
 
 ## What is an image
-Images come in a variety of types. We have photographs, which are images. The images in computers are very similar.  
+Images come in a variety of types. We have photographs, which are images. The images in computers are very similar.
 Both are copies of things from a single point in time.
 
-This means what we will be working with is a copy of the computer that has been acting weird.  
+This means what we will be working with is a copy of the computer that has been acting weird.
 Don't worry though, this won't hurt your computer!
 
 ## What is a virtual machine
@@ -25,6 +25,7 @@ Don't worry though, this won't hurt your computer!
 
 ## Setting up VirtualBox
 VirtualBox is a virtualization software, also called a **hypervisor**. It allows your computer to host virtual machines.
+
 
 ### Downloading VirtualBox
 VirtualBox is available at this link: https://www.virtualbox.org/wiki/Downloads
