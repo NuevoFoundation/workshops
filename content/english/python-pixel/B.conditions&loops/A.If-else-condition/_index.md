@@ -64,5 +64,5 @@ else:
 Example B will print out:<br/>
 `1=1`<br/>
 
-In Example A we will evaluate the first `if` statement (`1==1`) to be `true`. The inside of first `if` statement will be executed then. We will then evaluate second `if` statement (`3==3`) to be `true` as well. The inside of second `if` statement will also be executed.<br/>
+In Example A we will evaluate the first `if` statement (`1==1`) to be `True`. The inside of first `if` statement will be executed then. We will then evaluate second `if` statement (`3==3`) to be `True` as well. The inside of second `if` statement will also be executed.<br/>
 In Example B we will evaluate the first `if` statement (`1==1`) to be `true`. Then the rest part of `elif` and `else` will not be evaluated since `if` is already correct.
