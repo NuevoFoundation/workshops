@@ -13,6 +13,8 @@ Here is a sample output, followed by an explanation of what is displayed:
 
 /home/user/Desktop
 
+![pwd command](../images/02_pwd.png?classes=border,shadow)
+
 - /: The first “/” denotes the root directory. This is the beginning of the Linux filesystem. It is called the root because the filesystem is built like a tree. The branches of the file system tree connect to more directories, which can in turn branch again to yet another directory, or to a file
 home: This denotes the home directory, which is located within the root directory
 - /user: This denotes another directory, called user, which is located within the home directory
