@@ -1,5 +1,5 @@
 ---
-title: "Activity 10- Remove the Bad File."
+title: "Activity 9- Remove the Bad File."
 description: "Use Linux commands to remove the bad file and directory."
 date: 2020-07-08
 ---
