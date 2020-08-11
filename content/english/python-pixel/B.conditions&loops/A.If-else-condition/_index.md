@@ -47,9 +47,9 @@ if 3 == 3:
 else:
     print('wrong')
 ```
-Example A will print out:<br/>
-`1=1`<br/>
-`3=3`<br/>
+Example A will print out:
+    1=1
+    3=3
 
 #### Example B
 ```python
