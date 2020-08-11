@@ -34,7 +34,7 @@ elif 1 == 3:
 else:
     print('1<3')
 ```
-Since we can see that `1` greater than `3` is false, so it evaluates to `false`. The inside of the `if` statement will not be executed then. Since last `if` statement is `false`, we will then evaluate the `elif` statement if `1` is equal to `3`, so it evaluates to `false`. So what is in `else` will be printed.
+Since we can see that `1` greater than `3` is false, so it evaluates to `False`. The inside of the `if` statement will not be executed then. Since last `if` statement is `False`, we will then evaluate the `elif` statement if `1` is equal to `3`, so it evaluates to `False`. So what is in `else` will be printed.
 ### Warning: `elif` is different from `if`  
 #### Let's see two examples
 #### Example A
