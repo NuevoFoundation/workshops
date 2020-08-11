@@ -1,5 +1,5 @@
 ---
-title: "Activity 8- What's different?"
+title: "Activity 8 - What's different?"
 description: "Use Linux commands to compare files."
 date: 2020-08-10
 ---

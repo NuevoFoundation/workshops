@@ -1,5 +1,5 @@
 ---
-title: "Activity 10- Lets move and replace."
+title: "Activity 10 - Lets move and replace."
 description: "Use Linux commands to move and copy files."
 date: 2020-07-08
 ---
