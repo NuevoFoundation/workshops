@@ -10,7 +10,7 @@ weight: 8
 ## Add a GIF
 GIF stands for <b>Graphic Interchange Format</b>, but all you need to know is that it's just another type of image file. The only difference is that the file has many images. When displayed in the browser, the images are played in sequence, similar to the frames of a movie. Think of it like one of those flip books that seem like the image is animated when you flip it.
 
-![alt text](media/flipbook.gif "gif of a flipbook")
+![alt text](../media/flipbook.gif "gif of a flipbook")
 
 ---
 
@@ -25,7 +25,7 @@ For example, the video below is an iframe from Benji’s Instragram:
 
 Many sites offer iframes to embed in your website. As an example, here is how you find the iframe code for a YouTube video:
 
-![alt text](media/get-iframe.gif "example embedding with iframes")
+![alt text](../media/get-iframe.gif "example embedding with iframes")
 
 ### Here is a sample iframe
 Copy the following code:

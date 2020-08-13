@@ -28,7 +28,7 @@ Let's talk about the syntax (or the way of writing) for CSS. First, you start wi
 
 There are way too many style elements to cover them all in this tutorial. If, in the sketch you made earlier, you aren't sure how to use CSS to accomplish the desired styling, try searching online.
 
-![alt text](media/web-search.gif "gif of web searching css")
+![alt text](../media/web-search.gif "gif of web searching css")
 
 {{% notice tip %}}
 
@@ -42,7 +42,7 @@ There are way too many style elements to cover them all in this tutorial. If, in
 `@import url('https://fonts.googleapis.com/css?family=Heebo|Open+Sans');`
 * Then we assigned it to the body tag. Since this tag will contain all the other HTML elements, our choice of font will be used for all elements.
 
-![alt text](media/bodytag.PNG "body tag example")
+![alt text](../media/bodytag.PNG "body tag example")
 
 * Notice that the format inside the curly braces is: `name: value;`
 

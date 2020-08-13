@@ -7,7 +7,7 @@ weight: 15
 ---
 
 ### Special note:
-This curriculum allows student to be creative.  The below is just an example of what they can do, please use your best judgement and ask for guidance if needed. The answer key provided here is fairly long because we are including snippets of full HTML for context.  
+This curriculum allows students to be creative. The below is just an example of what they can do, please use your best judgement and ask for guidance if needed. The answer key provided here is fairly long because we are including snippets of full HTML for context.
 
 When a student clicks on the 'Try it yourself!' it'll open a new tab with some of the HTML code (and CSS code) already scaffolded. 
 
@@ -25,7 +25,7 @@ Solution should have:
   <!-- Content goes inside the body -->
   <!-- Challenge 1: Add a header, a paragraph. -->
   <h1>About benji</h1>
-  <p>Benji is a cute pup. His favorite sport is fetch. He likes long walks in the woods.  Once he found a big stick.</p>
+  <p>Benji is a cute pup. His favorite sport is fetch. He likes long walks in the woods. Once he found a big stick.</p>
   <!-- Challenge 1 (optional) Add a list. -->
   <h5> Benji's favorite snacks </h5>
   <ul>
@@ -129,7 +129,7 @@ Integrated into sample 'Try it yourself code!':
 ```
 
 ## Challenge 4
-The contact form is already added for the students.  They will simply need to modify their email in the email section and then alter any styling they want!
+The contact form is already added for the students. They will simply need to modify their email in the email section and then alter any styling they want!
 
 ```HTML
 <!doctype html>
@@ -187,7 +187,7 @@ The contact form is already added for the students.  They will simply need to mo
 ```
 
 ## Challenge 5
-No solution here - the students are creating their own sites based on what they learned.  A few notes:
+No solution here - the students are creating their own sites based on what they learned. A few notes:
 1. Encourage students to use all of the different things they learned (ie. CSS, form, GIF)
 2. Encourage students to create something they would want to show other people. 
 

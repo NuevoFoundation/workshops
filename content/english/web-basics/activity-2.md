@@ -1,5 +1,5 @@
 ---
-title: "Challenge 2"
+title: "Activity 2"
 date: 2019-09-03T17:53:41-07:00
 draft: false
 weight: 7
