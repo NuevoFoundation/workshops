@@ -1,16 +1,14 @@
 ---
 title: "The Components"
-description: ""
 draft: false
 hidden: true
-weight: 1
-translationKey: "arduino-2"
+weight: 2
 ---
 
 ## The Components
 The components we will use for the project are shown below. Make sure you have all these components before starting: 
 
-![Cannot load image](img1.png)
+![Cannot load image](../img/img2.png)
 
 Elegoo UNO Project Super Starter Kit with Tutorial for Arduino includes all hardware (with exception to the computer)
 

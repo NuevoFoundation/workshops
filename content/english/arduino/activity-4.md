@@ -1,17 +1,14 @@
 ---
 title: "Arduino - Activity 4"
-description: ""
 draft: false
 hidden: true
-difficulty: Intermediate
-weight: 1
-translationKey: "arduino-7"
+weight: 7
 ---
 
 ### Activity 4 - LCD Display
 Now that you have mastered outputting signals to LEDs let’s look at displaying text with a simple display. Only 1 resistor (5K) is used to limit the brightness of the display. Try wiring this per the diagram without specific instructions.
 
-![Cannot load image](img12.png)
+![Cannot load image](../img/img15.png)
 
 CODE:
 ```
@@ -78,5 +75,5 @@ void loop() {
   lcd.print(millis() / 1000);
 }
 ```
-![Cannot load image](img13.png)
+![Cannot load image](../img/img16.png)
 

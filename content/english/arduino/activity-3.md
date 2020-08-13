@@ -1,14 +1,12 @@
 ---
 title: "Arduino - Activity 3"
-description: ""
 draft: false
 hidden: true
-difficulty: Intermediate
-weight: 1
-translationKey: "arduino-6"
+weight: 6
 ---
 
 ### Activity 3 - Joystick + LEDs
+
 Let’s combine activity 1 and activity 2. Let’s control LEDs based on the input from the joystick.
 1.	Attach one end of a jumper wire to GND on the joystick and the other to 7X on the Breadboard.
 2.	Attach one end of a jumper wire to +5V on the joystick and the other to 5W on the Breadboard.
@@ -32,7 +30,7 @@ Let’s combine activity 1 and activity 2. Let’s control LEDs based on the inp
 20.	Attach one end of a jumper wire to 10C on the Breadboard and the other to 8 on the Elegoo.
 21.	Attach one end of a jumper wire to 15B and the other to 17X (anywhere in the blue [-] line) on the Breadboard.
 
-![Cannot load image](img10.png)
+![Cannot load image](../img/img13.png)
 
 CODE:
 ```
@@ -105,4 +103,4 @@ void loop() {
 }
 
 ```
-![Cannot load image](img11.png)
+![Cannot load image](../img/img14.png)
