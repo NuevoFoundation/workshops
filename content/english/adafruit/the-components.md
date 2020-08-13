@@ -3,7 +3,6 @@ title: "The Components"
 description: ""
 draft: false
 weight: 1
-translationKey: "adafruit-1"
 ---
 
 The components we will use for the project are listed below. Make sure you have all of these before starting: 
