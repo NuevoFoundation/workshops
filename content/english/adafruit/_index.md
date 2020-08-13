@@ -7,7 +7,6 @@ difficulty: "Beginner"
 download: ""
 draft: false
 icon: "fas fa-microchip"
-translationKey: "adafruit-main"
 ---
 
 ## Table of Contents
