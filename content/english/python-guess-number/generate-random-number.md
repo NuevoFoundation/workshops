@@ -7,7 +7,7 @@ weight: 1
 Python includes a library called `random` that helps you generate random numbers. You can use this in your program by writing `import random` at the top of your program and using the `randint` function to generate a number between a range.
 
 This would generate a random number between 1 and 10
-```
+```python
     random.randint(1,10)
 ```
 
