@@ -1,9 +1,7 @@
 ---
 title: "Activity"
-description: ""
 draft: false
 weight: 3
-translationKey: "security-3"
 ---
 
 Let's play a game!

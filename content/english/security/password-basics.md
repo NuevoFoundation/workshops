@@ -1,9 +1,7 @@
 ---
 title: "Password Basics"
-description: ""
 draft: false
 weight: 2
-translationKey: "security-2"
 ---
 
 Our Secret Agent Alice solves the case by explaining Bob about Passwords!!!
@@ -13,8 +11,6 @@ Our Secret Agent Alice solves the case by explaining Bob about Passwords!!!
 Passwords are the key to the lock to your virtual world.
 Just like your secret is kept safe in a secure room using a lock and a key similarly your personal information on the internet is secured by your login password and username. 
 The secure room is only as secure as the key to the lock on the door. We need stronger passwords to protect our online data and identity from bad people known as **Hackers**.
-
-
 
 ## What went wrong?
 
