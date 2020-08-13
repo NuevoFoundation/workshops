@@ -1,7 +1,7 @@
 ---
 title: "Activity 4 - Add effects to your song"
 description: "Setting up headphones"
-weight: 9
+weight: 8
 prereq: "Python Basics: Print, Comments, Functions"
 difficulty: "Intermediate"
 draft: false

@@ -16,7 +16,7 @@ Before we start, make sure that your headphones are working. Try playing the fol
 <figure>
     <audio
         controls
-        src="audio/good-enough.mp3">
+        src="../audio/good-enough.mp3">
             Test audio to see if your browser supports the audio element. If you cannot play the audio, it likely means your browser does not support this. 
             <code>audio</code> element.
     </audio>

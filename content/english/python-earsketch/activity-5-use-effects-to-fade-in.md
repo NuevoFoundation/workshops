@@ -1,7 +1,7 @@
 ---
 title: "Activity 5 - Use effects to fade in"
 description: "Setting up headphones"
-weight: 11
+weight: 9
 prereq: "Python Basics: Print, Comments, Functions"
 difficulty: "Intermediate"
 draft: false
