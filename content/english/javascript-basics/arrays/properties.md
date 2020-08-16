@@ -19,7 +19,7 @@ arrayName.constructor;
 ```
 
 <b>Example:</b>
-![#Can't find image](../../img/arrayproperties/constructor.png)
+![#Can't find image](../../img/constructor.png)
 
 
 # Index() 
@@ -33,7 +33,7 @@ var value = arrayName[index];
 ```
 
 <b>Example:</b>
-![#Can't find image](../../img/arrayproperties/indexaccess.png)
+![#Can't find image](../../img/indexaccess.png)
 
 
 ### Modify an array element by index:
@@ -44,7 +44,7 @@ arrayName[index] = newValue;
 ```
 
 <b>Example:</b>
-![#Can't find image](../../img/arrayproperties/indexmodify.png)
+![#Can't find image](../../img/indexmodify.png)
 
 
 # Length() 
@@ -56,4 +56,4 @@ var length = arrayName.length;
 ```
 
 <b>Example:</b>
-![#Can't find image](../../img/arrayproperties/length.png)
+![#Can't find image](../../img/length.png)

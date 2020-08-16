@@ -37,7 +37,7 @@ Once you open playcode.io, there are a few things you need to do before we get s
 *  Turn off __live__ by clicking once on the __live__ button in the top right. 
 
 If you've done all the above steps correctly, your screen should look like this: 
-![#Can't find image](../img/introduction/playcode.png)
+![#Can't find image](../img/playcode.png)
 
 Now we are _finally_ ready to go and learn some JavaScript! 
 
