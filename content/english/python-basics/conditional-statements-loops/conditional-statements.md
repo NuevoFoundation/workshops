@@ -2,7 +2,7 @@
 title: "Conditional statements"
 date: 2019-07-23T11:45:38-07:00
 draft: false
-weight: 6
+weight: 1
 ---
 
 Now that we know the basics of print statements, variables, and reading in input from the user – we can combine all these awesome skills with conditional statements. Conditional statements allow the computer to make **decisions** based off the **value** of an expression. In the real world, we use conditional statements all the time to make decisions! For example, if it is raining outside, then I use an umbrella. In this example, the I evaluated the weather outside and because it was raining, I made the sequential decision to use an umbrella.
@@ -13,7 +13,7 @@ What conditional statements can you think of that you use in everyday life?
 
 We’ll start off with an if statement in its simplest form!
 
-![#Can't find image](../img/if.png)
+![#Can't find image](../../img/if.png)
 
 Shown above we have three different parts:
 
@@ -21,7 +21,7 @@ Shown above we have three different parts:
 2. Expr – this represents the expression that we are evaluating. If the expression is "truthful" then the computer will enter the if statement and execute the statement.
 3. Statement – what the computer will complete if the expression is "truthful"
 
-![#Can't find image](../img/truth.png)
+![#Can't find image](../../img/truth.png)
 
 Let’s break down the example above and decide why some statements are "truthful" or "falsy".
 
@@ -35,13 +35,13 @@ Now that we know how to use if statements to conditionally execute a single stat
 
 Sometimes, you need to evaluate a condition in order to act accordingly if it is `true`, but if it `false` we act differently. Here is the simplest form of the `else` statement.
 
-![#Can't find image](../img/else.png)
+![#Can't find image](../../img/else.png)
 
 This is really like the `if` statement! However here, if the `if` statement is `false` (not truthful), the program will automatically execute the `statement2` in the `else` statement.
 
 A real-life example is if I’m hungry, I’ll eat. Else (in other words, I’m not hungry), I won’t eat. Let’s take a look in python code!
 
-![#Can't find image](../img/hungry.png)
+![#Can't find image](../../img/hungry.png)
 
 ### Challenge
 

@@ -1,7 +1,7 @@
 ---
 title: "Tuples"
 draft: false
-weight: 10
+weight: 2
 ---
 
 A Tuple is also an ordered collection of elements just like lists, but tuples are immutable. So you can not change the elements of a tuple after it is assigned (unlike lists where you are allowed to do so). This immutable nature makes tuples very useful when you don't want your data to be mutated through out the program. Along with this, tuples are generally used to store elements of different data types. A tuple can be created by placing all the elements inside parentheses `()`, separated by commas. 

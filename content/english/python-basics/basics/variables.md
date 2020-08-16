@@ -14,7 +14,7 @@ happy = True
 ```
 Press run. 
 
-![alt text](../img/variables.png "image of how variables look in repl.it") 
+![alt text](../../img/variables.png "image of how variables look in repl.it") 
 
 Note that variables are not printed out to the console. Instead, the variable simply saves the string, number, or boolean into the computer’s memory. We can use these variables in other statements. For example, the following code would print `"Hello Nuevo Foundation"` to the console:
 

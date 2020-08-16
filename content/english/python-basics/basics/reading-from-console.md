@@ -2,7 +2,7 @@
 title: "Reading from the Console"
 date: 2020-02-10T13:24:17-07:00
 draft: false
-weight: 3
+weight: 6
 prereq: "Python Basics: Variables"
 difficulty: Intermediate
 --- 

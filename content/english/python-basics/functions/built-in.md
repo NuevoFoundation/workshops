@@ -2,7 +2,7 @@
 title: "Built in Functions"
 date: 2020-02-10T13:24:17-07:00
 draft: false
-weight: 4
+weight: 2
 --- 
 
 There are many built-in functions in python that can be used to increase the ease of writing code. Let's discuss a few of them here.

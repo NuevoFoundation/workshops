@@ -1,7 +1,7 @@
 ---
 title: "Lists"
 draft: false
-weight: 10
+weight: 1
 ---
 
 Lists are the ordered collection of items and can be written as comma separated values inside square bracket `[]`. You can access the element  of a list by using indexes inside square bracket. The index starts from `0` and goes up to the `(number of elements in the list - 1)` and the first element is at index `0`. So, a list having 6 elements will have indices from 0 to 5. 
