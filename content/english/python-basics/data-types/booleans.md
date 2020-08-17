@@ -2,7 +2,7 @@
 title: "Booleans"
 date: 2020-02-10T13:24:17-07:00
 draft: false
-weight: 10
+weight: 3
 ---
 
 Booleans are <font color="blue">True</font> or <font color="blue">False</font> statements. Unlike strings or numbers, <b>booleans</b> store statements of truth: is what I'm saying true or false? 

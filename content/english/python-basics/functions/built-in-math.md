@@ -2,7 +2,7 @@
 title: "Built-in Math Functions"
 date: 2019-07-28T11:45:38-07:00
 draft: false
-weight: 9
+weight: 3
 ---
 
 Python provides a number of important built-in functions that we can use without needing to provide the function definition. In this section, we will learn about some of the built-in math functions using that you can perform mathematical tasks on numbers.

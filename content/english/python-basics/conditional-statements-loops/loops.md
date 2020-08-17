@@ -1,7 +1,7 @@
 ---
 title: "Loops"
 draft: false
-weight: 5
+weight: 2
 ---
 
 ## Loops in Python
@@ -42,3 +42,31 @@ For example, let's create a while loop that repeates 5 times.
 As you can see, all of the code below the while loop gets executed as long as the variable count is less than 5.
 
 Be careful! Make sure that the condition becomes False at some point, or the loop will continue infinitely.
+
+#### Break statements
+
+You learned earlier that for loops and while loops keep iterating over a sequence until it reaches the end or until a condition is met.
+
+There is another way to stop running these loops before the end of the list or before a condition is met.
+
+You can do this with the break statement.  This lets you break out of the loop in either a for loop or while loop.  
+
+Here's an example with a while loop:
+<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Python-loops-break?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+
+### Challenges
+1. Using a `for` loop or `while` loop, try printing the following pattern
+```
+1 
+1 2 
+1 2 3 
+1 2 3 4 
+1 2 3 4 5
+```
+
+2. Given a large list such as the one below, write a program that can find a particular number from this list.
+For example, ask the user to enter a number in the console, then write to console if it was found.
+<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/python-loops-activity?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+How would you change this program if the list is very large?  If you've found a number, do you need to continue searching the rest of the list?

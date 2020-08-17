@@ -1,7 +1,7 @@
 ---
-title: "Data Types"
+title: "Conditional statements and loops"
 draft: false
-weight: 5
+weight: 1
 ---
 
 <details open>

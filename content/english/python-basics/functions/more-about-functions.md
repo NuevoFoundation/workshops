@@ -2,7 +2,7 @@
 title: "More about functions"
 date: 2020-02-10T13:24:17-07:00
 draft: false
-weight: 2
+weight: 1
 --- 
 
 Suppose you have many lines of code, and you would like to give this section of code a meaningful name. <b>Functions</b> are blocks of code that do just that. A function is a set of instructions that we give to the computer to store, and it can take in <b>parameters</b> (input data) and output data. A function in Python looks like this:

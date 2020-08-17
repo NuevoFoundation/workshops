@@ -20,4 +20,4 @@ arrayName.forEach(functionName);
 ```
 
 <b>Example:</b>
-![#Can't find image](../../img/arrayiterations/foreach.png)
+![#Can't find image](../../img/foreach.png)

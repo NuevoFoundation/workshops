@@ -1,7 +1,7 @@
 ---
-title: "Data Types"
+title: "Basics"
 draft: false
-weight: 5
+weight: 1
 ---
 
 <details open>

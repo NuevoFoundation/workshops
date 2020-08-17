@@ -1,7 +1,6 @@
 ---
 title: "Functions"
-description: "Setting up headphones"
-weight: 7
+weight: 3
 draft: false
 ---
 <iframe width="100%" height="600px" src="https://www.youtube.com/embed/0207zoiJ6s8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
