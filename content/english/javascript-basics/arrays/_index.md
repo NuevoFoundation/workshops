@@ -25,7 +25,7 @@ var arrayName = [element0, element1, ..., elementN];
 ```
 
 <b>Example:</b>
-![#Can't find image](../..//img/array/syntax.png)
+![#Can't find image](../img/syntax.png)
 
 
 

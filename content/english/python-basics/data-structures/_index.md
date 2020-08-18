@@ -1,7 +1,7 @@
 ---
-title: "Data Types"
+title: "Data Structures"
 draft: false
-weight: 5
+weight: 11
 ---
 
 <details open>
