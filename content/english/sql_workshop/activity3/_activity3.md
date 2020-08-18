@@ -13,16 +13,7 @@ translationKey: "sql_activity_3"
 <script type="text/javascript" src="../../default/alasql.js"></script>
 <script type="text/javascript" src="../_activity3.js"></script>
 <script type="text/javascript" src="../../default/_type.js"></script>
-
-<script>
-	alasql("CREATE TABLE planet(city_number INT, name STRING, population INT, favorite_food STRING)");
-	alasql("INSERT INTO planet VALUES (1,'LEGO City',1500,'Pizza')");
-	alasql("INSERT INTO planet VALUES (2,'Playground City',1000,'Pizza')");
-	alasql("INSERT INTO planet VALUES (3,'City of Games',6000,'Hotdog')");
-	alasql("INSERT INTO planet VALUES (4,'Fun Capital',9500,'Hamburger')");
-	alasql("INSERT INTO planet VALUES (5,'Seriously Fun',2000,'Taco')");
-
-</script>
+<script type="text/javascript" src="../../default/db.js"></script>
 
 After receiving the message from the Galactic Federation, you continue your adventure.
 

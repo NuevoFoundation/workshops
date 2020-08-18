@@ -15,25 +15,7 @@ translationKey: "sql_activity_6"
 <script type="text/javascript" src="../../default/_type.js"></script>
 <script type="text/javascript" src="../../default/alasql.js"></script>
 <script type="text/javascript" src="../_activity6.js"></script>
-
-
-
-<script>
-	alasql("CREATE TABLE items(object STRING, date_created STRING, location STRING, color STRING, height INT, short_description STRING)");
-
-	alasql("INSERT INTO items VALUES ('totem','1738-09-12','City of Fun', 'sprinkles',10,'Confetti Cannon')");
-	alasql("INSERT INTO items VALUES ('totem','1738-10-12','Fun Capital','blue',10,'Blue stuff goes boom')");
-	alasql("INSERT INTO items VALUES ('totem','1738-11-02','Playground City','red',10,'Red stuff goes boom')");
-	alasql("INSERT INTO items VALUES ('totem','UNKNOWN','UNKNOWN','gold',30,'UNKNOWN')");
-
-	alasql("INSERT INTO items VALUES ('ladder','1738-09-01','Fun Capital','red',100,'Tall ladder')");
-	alasql("INSERT INTO items VALUES ('ladder','1738-09-02','Fun Capital','blue',60,'Medium ladder')");
-	alasql("INSERT INTO items VALUES ('ladder','1738-09-03','Fun Capital','brown',20,'Short ladder')");
-	
-	alasql("INSERT INTO items VALUES ('key','1738-09-04','Fun Capital','gold',1,'Big key')");
-	alasql("INSERT INTO items VALUES ('key','1738-09-05','Fun Capital','gold',2,'Medium key')");
-	alasql("INSERT INTO items VALUES ('key','1738-09-06','Fun Capital','gold',3,'Small key')");
-</script>
+<script type="text/javascript" src="../../default/db.js"></script>
 
 <!-- Embed YouTube Video Link here when ready -->
 

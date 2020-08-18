@@ -15,23 +15,7 @@ translationKey: "sql_activity_5"
 <script type="text/javascript" src="../../default/_type.js"></script>
 <script type="text/javascript" src="../_activity5.js"></script>
 <script type="text/javascript" src="../../default/alasql.js"></script>
-
-<script>
-	alasql("CREATE TABLE items(object STRING, date_created STRING, location STRING, color STRING, height INT, short_description STRING)");
-
-	alasql("INSERT INTO items VALUES ('totem','1738-09-12','LEGO City', 'green',10,'Green stuff goes boom')");
-	alasql("INSERT INTO items VALUES ('totem','1738-10-12','Fun Capital','red',10,'Red stuff goes boom')");
-	alasql("INSERT INTO items VALUES ('totem','1738-11-02','Playground City','blue',10,'Blue stuff goes boom')");
-	alasql("INSERT INTO items VALUES ('totem','UNKNOWN','UNKNOWN','gold',30,'UNKNOWN')");
-
-	alasql("INSERT INTO items VALUES ('ladder','2010-03-01','Fun Capital','red',100,'Tall ladder')");
-	alasql("INSERT INTO items VALUES ('ladder','2010-03-03','Fun Capital','blue',60,'Medium ladder')");
-	alasql("INSERT INTO items VALUES ('ladder','2010-03-03','Fun Capital','brown',20,'Short ladder')");
-	
-	alasql("INSERT INTO items VALUES ('key','2018-07-23','Fun Capital','gold',1,'Big key')");
-	alasql("INSERT INTO items VALUES ('key','2018-07-25','Fun Capital','gold',2,'Medium key')");
-	alasql("INSERT INTO items VALUES ('key','2018-07-27','Fun Capital','gold',3,'Small key')");
-</script>
+<script type="text/javascript" src="../../default/db.js"></script>
 
 <!-- Embed YouTube Video Link here when ready -->
 
@@ -73,7 +57,7 @@ You can use commas inside the parenthesis to choose more than one column to show
 
 * Hint 2: Column property: Do you need to use MAX or MIN to find the tallest ladder?
 
-* Hint 3: Condition: WHERE [column_name] [IN/NOT IN]; 
+* Hint 3: Condition: WHERE [column_name] [IN/NOT IN];
 
 * Hint 4: Do you need to use IN or NOT IN to show the 'ladder'?
 
@@ -89,15 +73,15 @@ You can use commas inside the parenthesis to choose more than one column to show
       <button class="button button1" onclick="sql()" style="top:0vw; left:0vw;">	Enter </button>
 		</div>
 	</div>
-	
+
 	</br></br></br></br></br></br>
 	<h1 class="error" id="sqlcommand" <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
-	
+
 	<table id="table">
 		<tr>
 		</tr>
 	</table>
-	
+
 	<h4 id="story"></h4>
   <div id="legend" style="visibility:hidden">
     <br/>
@@ -127,15 +111,15 @@ You can use commas inside the parenthesis to choose more than one column to show
 <!-- Drag Block -->
 <div id="div1" class ="codeBlocks" style="clear: left;" ondrop="drop(event)" ondragover="allowDrop(event)">
   <img class="img" src="../assets/ladder.png" draggable="true" ondragstart="drag(event)" id="drag1">
-</div> 
+</div>
 
 <div id="div2" class ="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
   <img class="img" src="../assets/ladder_blue.png" draggable="true" ondragstart="drag(event)" id="drag2">
-</div> 
+</div>
 
 <div id="div3" class ="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
   <img class="img" src="../assets/ladder_brown.png" draggable="true" ondragstart="drag(event)" id="drag3">
-</div> 
+</div>
 
 </div>
 

@@ -21,9 +21,6 @@ function sql()
 	}
 
 	sqlToTable(headArr, array);
- 
-	alert(headArr[0]); //planet
-  alert(headArr[1]); //leader
 
 	if( (headArr[0] == "planet" && headArr[1] == "leader") || (headArr[0] == "leader" && headArr[1] == "planet"))
 	{
