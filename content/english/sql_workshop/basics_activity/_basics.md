@@ -22,7 +22,7 @@ your toys.
 
 ## What is SQL?
 
-What is SQL? SQL stands for “Structured Query Language” and like its name, 
+SQL stands for “Structured Query Language” and like its name, 
 it is a language that lets you talk to the database to get the information 
 you need. A SQL command is like a sentence you say to the database.
 
