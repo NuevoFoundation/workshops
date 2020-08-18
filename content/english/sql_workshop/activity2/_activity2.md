@@ -2,7 +2,7 @@
 title: "Learn the WHERE Command"
 description: "Learn the WHERE command"
 date: 2020-07-16
-prereq: "none"
+prereq: "SELECT command"
 difficulty: "Beginner"
 draft: false
 translationKey: "sql_activity_2"
@@ -20,29 +20,40 @@ translationKey: "sql_activity_2"
 You need to program your rocket ship GPS to go to the Planet of Fun by rearranging the code blocks. To find the coordinates,
 the Galactic Federation has given you the next SQL command: WHERE!
 
-**What the command does:** The WHERE command allows you to only show data that you want.
+### What the command does:
+The WHERE command allows you to only show data that you want.
 
 ![Explain](../assets/Where_Explain.png)
 
-**Example:**
-
-The SELECT * FROM database block that we learned from the previous activity allows us to choose a database to look through.
-The WHERE command allows us to narrow down what data is displayed depending on the condition (the green blocks in the image below).
-
-A condition is a requirement you are looking for. In the first image, the database would have a column called 'toys' and if
-we only want to display the robots and the toy is labeled 'Robot', then the command we would use would be:
-
-**SELECT * FROM database WHERE toys = 'robots';**
+### Example:
 
 ![Ex](../assets/Where_Ex.png)
 
-#### Now use what you learned to find the coordinates! You are given a database called 'galaxy'. In the column labeled, 'name', you are looking for 'Planet of Fun'.
+1. The SELECT * FROM database block that we learned from the previous activity allows us to choose a database to look through.
+
+2. The WHERE command allows us to narrow down what data is displayed depending on the condition (the green blocks in the image below).
+
+**A condition is a requirement you are looking for. Conditions do not have to follow the example above, but the most common use of conditions are looking for rows that contain specific information.**
+
+3. The name of the column we wish to look for information in.
+ 
+4. The equal sign means that we want to find information that matches what we have on the right-hand side of the equal sign. 
+
+5. When we are looking for specific words or text, we must surround the text with single quote marks. SQL uses single quote marks to indicate that we are looking for a word in the database.
+
+6. You can replace 'text' with any word you are looking for in the database.
+
+7. Semicolons act as the end of a SQL command, like a period at the end of a sentence.
+
+#
+
+#### Using the database called 'galaxy' that has a column labeled 'name', find the coordinates for the Planet of Fun!
 
 <!-- rearrange code blocks on terminal to get coordinate block -->
 
 {{< rawhtml >}}
 
-<div class="terminal_div" id="terminal_div"><img class="terminal" src="../assets/Terminal.png" alt="Terminal_screen">
+<div class="terminal_div" id="terminal_div"><img class="terminal" src="../../media/Terminal.png" alt="Terminal_screen">
 
 <!-- Rectangles to Receive blocks -->
 <div id="div7" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
@@ -76,9 +87,11 @@ we only want to display the robots and the toy is labeled 'Robot', then the comm
 <img class="img" img id="answer3" src="../assets/Where_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag5">
 </div>
 
-</div>
 <!-- Press Enter and if correct, unhide coordinate block -->
 <button class="button button1" onclick="check()"> Enter </button>
+
+</div>
+
 
 <img src="../assets/Show_Planet.png" id="planet" alt="planet" style="visibility:hidden"/>
 
