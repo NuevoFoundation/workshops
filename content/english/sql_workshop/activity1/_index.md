@@ -8,8 +8,8 @@ draft: false
 translationKey: "sql_activity_1"
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->
-<link rel="stylesheet" href="../default/_default.css" type="text/css">
-</link>
+<link rel="stylesheet" href="../default/_default.css" type="text/css"></link>
+<link rel="stylesheet" href="_activity1.css" type="text/css"></link>
 <script type="text/javascript" src="../default/_default.js">
 </script>
 

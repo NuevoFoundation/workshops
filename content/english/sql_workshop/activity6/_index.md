@@ -48,7 +48,7 @@ To help you out, the Galactic Federation has sent you a brief tutorial on how to
 		<div class="text-area">
 			<textarea id="commands" placeholder="Enter command here!" style="resize: none"></textarea>
       <button class = "button reset" onclick="document.getElementById('commands').value = ''">Reset</button>
-      <button class="button button1" onclick="sql()" style="top:0vw; left:0vw">	Enter </button>
+      <button class="button button1" onclick="sql()">	Enter </button>
 		</div>
 	</div>
 	

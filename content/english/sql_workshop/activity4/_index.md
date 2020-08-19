@@ -54,7 +54,7 @@ To do so, lets take a look at how to select multiple columns in a database.
 		<div class="text-area">
 			<textarea id="commands" placeholder="Enter command here!" style="resize: none"></textarea>
       <button class = "button reset" onclick="document.getElementById('commands').value = ''">Reset</button>
-			<button class="button button1" onclick="sql()" style="top:0vw; left:0vw">	Enter </button>
+			<button class="button button1" onclick="sql()">	Enter </button>
 		</div>
 	</div>
 
