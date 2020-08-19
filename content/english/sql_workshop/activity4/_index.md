@@ -9,8 +9,8 @@ translationKey: "sql_activity_4"
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->
 <script type="text/javascript" src="_activity4.js"></script>
-<link rel="stylesheet" href="../default/_type.css" type="text/css"></link>
 <link rel="stylesheet" href="../default/_default.css" type="text/css"></link>
+<link rel="stylesheet" href="../default/_type.css" type="text/css"></link>
 <script type="text/javascript" src="../default/alasql.js"></script>
 <script type="text/javascript" src="../default/db.js"></script>
 <script type="text/javascript" src="../default/_type.js"></script>
@@ -50,15 +50,18 @@ To do so, lets take a look at how to select multiple columns in a database.
 {{< rawhtml >}}
 
 	<div class="terminal_div" id="terminal_div">
-		<img class="terminal" src="../media/Terminal.png" alt="Terminal_screen" style="pointer-events:none">
 		<div class="text-area">
 			<textarea id="commands" placeholder="Enter command here!" style="resize: none"></textarea>
-      <button class = "button reset" onclick="document.getElementById('commands').value = ''">Reset</button>
-			<button class="button button1" onclick="sql()">	Enter </button>
 		</div>
+    
+    <div style="clear: both;"></div> 
+    <button class="button button1" onclick="sql()">	Enter </button>
+    
+    <div style="clear: both;"></div> 
+    <button class = "button reset" onclick="document.getElementById('commands').value = ''">Reset</button>
+    
 	</div>
-
-	</br></br></br></br></br></br>
+  <div style="clear: both;"></div> 
 	<h1 class="error" id="sqlcommand" <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
 
 	<table id="table">

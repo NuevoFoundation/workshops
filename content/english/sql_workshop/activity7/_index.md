@@ -42,16 +42,20 @@ and can only be unlocked with the smallest key on the planet!
 
 {{< rawhtml >}}
 
-<div class="terminal_div" id="terminal_div"><img class="terminal" src="../media/Terminal.png" alt="Terminal_screen">
+<div class="terminal_div" id="terminal_div">
 
   <div class="text-area">
     <textarea id="commands" placeholder="Enter command here!" style="resize: none"></textarea>
-    <button class = "button reset" onclick="document.getElementById('commands').value = ''">Reset</button>
-    <button class="button button1" onclick="sql()"> Enter </button>
   </div>
+  
+    <div style="clear: both;"></div> 
+    <button class="button button1" onclick="sql()">	Enter </button>
+    
+    <div style="clear: both;"></div> 
+    <button class = "button reset" onclick="document.getElementById('commands').value = ''">Reset</button>  
 </div>
 
-</br></br></br></br></br></br>
+<div style="clear: both;"></div>
 <h1 class="error" id="sqlcommand" <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
 
 <table id="table">
@@ -70,30 +74,35 @@ and can only be unlocked with the smallest key on the planet!
 
 
 ### Choose and drag the correct key onto the lock to continue your adventure!
-**Note: The correct key will highlight green**
-
+{{%notice note%}}
+The correct key will highlight green
+{{%/notice%}}
 
 {{< rawhtml >}}
 
 <!-- Player drags key block to drop block to finish mission -->
-<div class="door_div" id="door_div"><img class="door" id = "door" src="assets/Door.png" alt="door" style="height: 30vw;">
+<div class="door_div" id="door_div">
+
+<div id="buffer" class = "codeBlocks"></div>
+<div style="clear: both;"></div> 
 
 
-<!-- Drop Location -->
-<div id="div4" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
-
-<!-- Drag Block -->
-<div id="div1" class ="codeBlocks" style="clear: left;" ondrop="drop(event)" ondragover="allowDrop(event)">
+<!-- Position of first key -->
+<div id="div1" class ="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
   <img class="img" src="assets/Key1.png" draggable="true" ondragstart="drag(event)" id="drag1">
 </div> 
 
-<div id="div2" class ="codeBlocks" style="clear: left;" ondrop="drop(event)" ondragover="allowDrop(event)">
+<!-- Drag Block -->
+<div id="div2" class ="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
   <img class="img" src="assets/Key2.png" draggable="true" ondragstart="drag(event)" id="drag2">
 </div> 
 
-<div id="div3" class ="codeBlocks" style="clear: left;" ondrop="drop(event)" ondragover="allowDrop(event)">
+<div id="div3" class ="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
   <img class="img" src="assets/Key3.png" draggable="true" ondragstart="drag(event)" id="drag3">
 </div> 
+
+<!-- Drop Location -->
+<div id="div4" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
 
 </div>
 

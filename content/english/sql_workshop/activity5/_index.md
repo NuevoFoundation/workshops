@@ -33,22 +33,23 @@ The Galactic Federation has sent you four new SQL commands to play around with! 
 
 <br/>
 
+{{%notice info%}}
 Column Property:
 'MAX()' is used to look for the largest value in a column. 'MIN()' is the opposite of max and will look for the smallest value in a column.
 You can replace any word inside the parenthesis with another column name to get the largest or smallest value of that column.
+{{%/notice%}}
 
 ![IN](assets/In.png)
 ![NOT](assets/not.png)
 
+{{%notice info%}}
 Condition:
-'IN()' and 'NOT IN()' are used hand in hand with the WHERE command we learned in activity 2. IN() is part of the condition of a SQL command
-and is helpful when you want to show some columns but not all of them.
+* 'IN()' and 'NOT IN()' are used hand in hand with the WHERE command we learned in activity 2. IN() is part of the condition of a SQL command and is helpful when you want to show some columns but not all of them.
 
-'NOT IN()' is the opposite of 'IN()'. Instead of choosing what to show like 'IN()', 'NOT IN()' will show all the columns you did not choose inside
-the parenthesis.
+* 'NOT IN()' is the opposite of 'IN()'. Instead of choosing what to show like 'IN()', 'NOT IN()' will show all the columns you did not choose inside the parenthesis.
 
-You can use commas inside the parenthesis to choose more than one column to show or not show.
-
+* You can use commas inside the parenthesis to choose more than one column to show or not show.
+{{%/notice%}}
 <br/>
 
 ### Now use what you learned! Using the database called 'items' with a column labeled 'object', find the tallest 'ladder'.
@@ -66,15 +67,18 @@ You can use commas inside the parenthesis to choose more than one column to show
 {{< rawhtml >}}
 
 	<div class="terminal_div" id="terminal_div">
-		<img class="terminal" src="../media/Terminal.png" alt="Terminal_screen" style="pointer-events:none">
 		<div class="text-area">
-			<textarea id="commands" placeholder="Enter command here!" style="resize: none"></textarea>
-      <button class = "button reset" onclick="document.getElementById('commands').value = ''">Reset</button>			
-      <button class="button button1" onclick="sql()">	Enter </button>
+			<textarea id="commands" placeholder="Enter command here!" style="resize: none"></textarea>		
 		</div>
+    
+      <div style="clear: both;"></div> 
+      <button class="button button1" onclick="sql()">	Enter </button>
+      
+      <div style="clear: both;"></div> 
+      <button class = "button reset" onclick="document.getElementById('commands').value = ''">Reset</button>	
 	</div>
 
-	</br></br></br></br></br></br>
+  <div style="clear: both;"></div> 
 	<h1 class="error" id="sqlcommand" <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
 
 	<table id="table">
@@ -102,7 +106,7 @@ You can use commas inside the parenthesis to choose more than one column to show
 
 
 <!-- Player drags ladder block to drop block to finish mission -->
-<div class="hill_div" id="hill_div"><img class="hill" src="assets/Hill.png" alt="hill">
+<div class="hill_div" id="hill_div">
 
 
 <!-- Drop Location -->
@@ -123,9 +127,10 @@ You can use commas inside the parenthesis to choose more than one column to show
 
 </div>
 
+<div style="clear: both;"></div> 
+
 <!-- Next mission text displays -->
 <div id="text1" style="visibility:hidden">
-  <br/>
   <p> You made it! The Dear Leader tells you that the Planet of Fun is in danger of being invaded by the aliens from the Planet of Boredom!
   You must find the Totems of Fun in order to save the planet! </p>
 </div>

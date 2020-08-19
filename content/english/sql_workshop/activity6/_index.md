@@ -25,34 +25,41 @@ translationKey: "sql_activity_6"
 You need to explore the planet and find the first Legendary Totem of Fun - The Confetti Cannon of Fun. 
 Legends say that this cannon will never stop shooting confetti and it is a symbol of never-ending peace and entertainment. 
 
+{{%notice info%}}
 **Your only hint is that the artifact is created on 1738-09-12.**
-
+{{%/notice%}}
 To help you out, the Galactic Federation has sent you a brief tutorial on how to compare numbers in the database.
 
 ![Explain](assets/Comparator.png)
 ![Example](assets/Example.png)
 
-## Note: There are different versions of databases and the one you are using needs the value being compared to be inside single quotation marks! 
+{{%notice note%}}
+There are different versions of databases and the one you are using needs the value being compared to be inside single quotation marks! 
+{{%/notice%}}
 
-<br/>
+### Using the database 'items' with the column 'date_created', find out which artifact is the Legendary Totem of Fun: Confetti Cannon
 
-#### Using the database 'items' with the column 'date_created', find out which artifact is the Legendary Totem of Fun: Confetti Cannon
-
-* Hint: The artifact is created on '1738-09-12' (Use single quotation marks).
+{{%notice tip%}}
+Hint: The artifact is created on '1738-09-12' (Use single quotation marks).
+{{%/notice%}}
 
 <!-- SQL Type In Activity -->
 {{< rawhtml >}}
 
 	<div class="terminal_div" id="terminal_div">
-		<img class="terminal" src="../media/Terminal.png" alt="Terminal_screen" style="pointer-events:none">
 		<div class="text-area">
 			<textarea id="commands" placeholder="Enter command here!" style="resize: none"></textarea>
-      <button class = "button reset" onclick="document.getElementById('commands').value = ''">Reset</button>
-      <button class="button button1" onclick="sql()">	Enter </button>
 		</div>
+      
+      <div style="clear: both;"></div> 
+      <button class="button button1" onclick="sql()">	Enter </button> 
+      
+      <div style="clear: both;"></div> 
+      <button class = "button reset" onclick="document.getElementById('commands').value = ''">Reset</button>
+         
 	</div>
 	
-	</br></br></br></br></br></br>
+	<div style="clear: both;"></div> 
 	<h1 class="error" id="sqlcommand" <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
 	
 	<table id="table">
