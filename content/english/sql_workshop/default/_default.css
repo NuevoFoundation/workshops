@@ -2,11 +2,11 @@
 .codeBlocks {
   position: relative;
   display: block;
-  top: 13vw;
+  top: 19vw;
   right: -8vw;
   float: left;
-  width: 9vw;
-  height: 5vw;
+  width: 8vw;
+  height: 4vw;
   margin: 1vw;
   border: 1px solid green;
 }
@@ -15,11 +15,11 @@
 .dropClass {
   position: relative;
   display: block;
-  top: 10vw;
-  right: -8vw;
+  top: 14.5vw;
+  right: -9vw;
   float: left;
-  width: 9vw;
-  height: 5vw;
+  width: 8vw;
+  height: 4vw;
   margin: 1vw;
   border: 1px solid white;
 }
@@ -27,7 +27,7 @@
 /* Reference position for blocks */
 .terminal_div {
   position: relative;
-  height: 34vw;
+  height: 50vw;
   width: auto;
 }
 
@@ -37,6 +37,8 @@
   max-width: 100%;
   height: auto;
   top: -30px;
+  pointer-events: none;
+
 }
 
 /* Positions for code block images inside rectangles */
@@ -63,13 +65,28 @@
 
 /* Style for Enter button */
 .button1 {
-  background-color: #4CAF50;
+  background-color: #4dff4d;
   color: white;
   text-align: center;
   display: inline-block;
   font-size: 24px;
   margin: 4px 2px;
   position:relative;
-  top: 0vw;
-  left: 30vw;
+  top: 36vw;
+  left: 14vw;
+  border-radius: 25%;
+}
+
+/* Style for reset button */
+.reset {
+  background-color: #FF0000;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px;
+  position:relative;
+  top: 0vw; /* positive = more down*/
+  left: vw; /* positive = more right */
+  border-radius: 25%;
 }

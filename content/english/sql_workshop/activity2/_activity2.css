@@ -1,12 +1,26 @@
 /* Positions and style for the code blocks */
 .codeBlocks {
-  right: -6vw;
+  right: -7vw;
+  margin: 0.5vw;
+  top: 19vw;
 }
 
 /* Positions and style for the drop places */
 .dropClass {
-  top: 11vw;
+  top: 15vw;
+  left: 8vw;
   width: 8vw;
   height: 4vw;
   overflow: hidden;
+  margin: 0.3vw;
+}
+
+/* Style for Enter button */
+.button1 {
+  top: 36vw;
+  left: 11vw;
+}
+
+.terminal {
+  width: 103%;
 }

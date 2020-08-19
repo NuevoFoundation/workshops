@@ -8,10 +8,10 @@ draft: false
 translationKey: "sql_activity_2"
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->
-<link rel="stylesheet" href="../../default/_default.css" type="text/css"></link>
-<link rel="stylesheet" href="../_activity2.css" type="text/css"></link>
-<script type="text/javascript" src="../../default/_default.js"></script>
-<script type="text/javascript" src="../_activity2.js"></script>
+<link rel="stylesheet" href="../default/_default.css" type="text/css"></link>
+<link rel="stylesheet" href="_activity2.css" type="text/css"></link>
+<script type="text/javascript" src="../default/_default.js"></script>
+<script type="text/javascript" src="_activity2.js"></script>
 
 <!-- Embed YouTube Video Link here when ready -->
 
@@ -23,11 +23,11 @@ the Galactic Federation has given you the next SQL command: WHERE!
 ### What the command does:
 The WHERE command allows you to only show data that you want.
 
-![Explain](../assets/Where_Explain.png)
+![Explain](assets/Where_Explain.png)
 
 ### Example:
 
-![Ex](../assets/Where_Ex.png)
+![Ex](assets/Where_Ex.png)
 
 1. The SELECT * FROM database block that we learned from the previous activity allows us to choose a database to look through.
 
@@ -53,7 +53,7 @@ The WHERE command allows you to only show data that you want.
 
 {{< rawhtml >}}
 
-<div class="terminal_div" id="terminal_div"><img class="terminal" src="../../media/Terminal.png" alt="Terminal_screen">
+<div class="terminal_div" id="terminal_div"><img class="terminal" src="../media/Terminal.png" alt="Terminal_screen">
 
 <!-- Rectangles to Receive blocks -->
 <div id="div7" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
@@ -64,27 +64,27 @@ The WHERE command allows you to only show data that you want.
 <div id="div12" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
 
 <div id="div1" class ="codeBlocks" style="clear: left;" ondrop="drop(event)" ondragover="allowDrop(event)">
-<img class="img" id="answer5" src="../assets/Equal.PNG" draggable="true" ondragstart="drag(event)" id="drag1">
+<img class="img" id="answer5" src="assets/Equal.PNG" draggable="true" ondragstart="drag(event)" id="drag1">
 </div>
 
 <div id="div2" class="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
-<img class="img" img id="answer2" src="../assets/galaxy_block.png" draggable="true" ondragstart="drag(event)" id="drag2">
+<img class="img" img id="answer2" src="assets/galaxy_block.png" draggable="true" ondragstart="drag(event)" id="drag2">
 </div>
 
 <div id="div3" class="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
-<img class="img" img id="answer4" src="../assets/Name_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag3">
+<img class="img" img id="answer4" src="assets/Name_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag3">
 </div>
 
 <div id="div4" class="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
-<img class="img" img id="answer6" src="../assets/Planet_Fun_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag4">
+<img class="img" img id="answer6" src="assets/Planet_Fun_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag4">
 </div>
 
 <div id="div5" class="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
-<img class="img" img id="answer1" src="../assets/Select_From_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag5">
+<img class="img" img id="answer1" src="assets/Select_From_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag5">
 </div>
 
 <div id="div6" class="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
-<img class="img" img id="answer3" src="../assets/Where_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag5">
+<img class="img" img id="answer3" src="assets/Where_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag5">
 </div>
 
 <!-- Press Enter and if correct, unhide coordinate block -->
@@ -93,12 +93,12 @@ The WHERE command allows you to only show data that you want.
 </div>
 
 
-<img src="../assets/Show_Planet.png" id="planet" alt="planet" style="visibility:hidden"/>
+<img src="assets/Show_Planet.png" id="planet" alt="planet" style="visibility:hidden"/>
 
 <div id="text" style="visibility:hidden">
 <p> Now that you know where the Planet of Fun is, we can find more information about it and ignore the other planets. Lets go to the Planet of Fun! </p>
 </div>
 
-<img src="../assets/GPS.png" id="gps" alt="gps" style="visibility:hidden"/>
+<img src="assets/GPS.png" id="gps" alt="gps" style="visibility:hidden"/>
 
 {{< /rawhtml >}}

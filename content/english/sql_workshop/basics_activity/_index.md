@@ -18,7 +18,7 @@ Think of a database like a bucket where you can place toys in so they don’t ge
 and you can easily find them later. This bucket might hold smaller buckets to sort 
 your toys.
 
-![Analogy](../assets/Database_Analogy.png)
+![Analogy](assets/Database_Analogy.png)
 
 ## What is SQL?
 
@@ -26,7 +26,7 @@ SQL stands for “Structured Query Language” and like its name,
 it is a language that lets you talk to the database to get the information 
 you need. A SQL command is like a sentence you say to the database.
 
-![SQL](../assets/SQL.png)
+![SQL](assets/SQL.png)
 
 Now that you have some knowledge of what databases and SQL commands are, you will be
  learning how to use these on your missions! Continue to start your first official 

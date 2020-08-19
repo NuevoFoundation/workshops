@@ -8,9 +8,9 @@ draft: false
 translationKey: "sql_activity_1"
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->
-<link rel="stylesheet" href="../../default/_default.css" type="text/css">
+<link rel="stylesheet" href="../default/_default.css" type="text/css">
 </link>
-<script type="text/javascript" src="../../default/_default.js">
+<script type="text/javascript" src="../default/_default.js">
 </script>
 
 # Mission 1: Save the Planet of Fun From Boredom!
@@ -27,14 +27,14 @@ The SELECT command allows you to choose what data to show from a database.
 
 ### Example:
 
-![Select](../assets/Select.PNG)
+![Select](assets/Select.PNG)
 
 #### Now use what you learned! **Rearrange the code blocks below to answer the question and continue your space adventure!**
 
 #### Question: What command will display all the columns in the database called "galaxy"?
 
 {{< rawhtml >}}
-<div class="terminal_div" id="terminal_div"><img class="terminal" src="../../media/Terminal.png" alt="Terminal_screen">
+<div class="terminal_div" id="terminal_div"><img class="terminal" src="../media/Terminal.png" alt="Terminal_screen">
 
 
 <!-- Rectangles to Receive blocks -->
@@ -46,23 +46,23 @@ The SELECT command allows you to choose what data to show from a database.
 
 
 <div id="div1" class ="codeBlocks" style="clear: left;" ondrop="drop(event)" ondragover="allowDrop(event)">
-<img class="img" id="answer1" src="../assets/Select_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag1" width="120" height="60">
+<img class="img" id="answer1" src="assets/Select_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag1" width="120" height="60">
 </div>
 
 <div id="div2" class="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
-<img class="img" img id="answer2" src="../assets/Asterix_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag2" width="120" height="60">
+<img class="img" img id="answer2" src="assets/Asterix_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag2" width="120" height="60">
 </div>
 
 <div id="div3" class="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
-<img class="img" img id="answer4" src="../assets/galaxy_block.png" draggable="true" ondragstart="drag(event)" id="drag3" width="120" height="60" markdown="1">
+<img class="img" img id="answer4" src="assets/galaxy_block.png" draggable="true" ondragstart="drag(event)" id="drag3" width="120" height="60" markdown="1">
 </div>
 
 <div id="div4" class="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
-<img class="img" img id="answer3" src="../assets/From_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag4" width="120" height="60" markdown="1">
+<img class="img" img id="answer3" src="assets/From_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag4" width="120" height="60" markdown="1">
 </div>
 
 <div id="div5" class="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
-<img class="img" img id="answer5" src="../assets/Semicolon_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag5" width="120" height="60" markdown="1">
+<img class="img" img id="answer5" src="assets/Semicolon_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag5" width="120" height="60" markdown="1">
 </div>
 
 <!-- Enter button -->
@@ -72,5 +72,5 @@ The SELECT command allows you to choose what data to show from a database.
 
 
 <!-- Hidden SQL database will appear once correct sequence is placed -->
-<img src="../assets/Database.png" id="database" alt="database" style="visibility:hidden"/>
+<img src="assets/Database.png" id="database" alt="database" style="visibility:hidden"/>
 {{< /rawhtml >}}
