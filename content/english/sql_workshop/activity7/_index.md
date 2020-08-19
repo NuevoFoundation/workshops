@@ -1,0 +1,107 @@
+---
+title: "Use MIN Command"
+description: "Use MIN Command"
+date: 2020-07-10
+prereq: "SELECT Command, WHERE Command, MAX/MIN Command"
+difficulty: "Beginner"
+draft: false
+translationKey: "sql_activity_7"
+---
+<!-- Links for javascript and CSS needed for drop down logic -->
+<link rel="stylesheet" href="../default/_default.css" type="text/css"></link>
+<link rel="stylesheet" href="../default/_type.css" type="text/css"></link>
+<link rel="stylesheet" href="_activity7.css" type="text/css"></link>
+
+<script type="text/javascript" src="../default/_default.js"></script>
+<script type="text/javascript" src="../default/_type.js"></script>
+<script type="text/javascript" src="../default/alasql.js"></script>
+<script type="text/javascript" src="../default/db.js"></script>
+<script type="text/javascript" src="_activity7.js"></script>
+
+<!-- Embed YouTube Video Link here when ready -->
+
+
+## Task 7: Find the Key to Get to the Confetti Cannon!
+
+You found the location of the Legendary Confetti Cannon but it is locked away behind a door made of titanium 
+and can only be unlocked with the smallest key on the planet! 
+
+**To help you out, the Galactic Federation has sent you a reminder on how to use 'MIN()' from a previous activity.**
+
+![Explain](../activity5/assets/max_min.png)
+
+#### Using the database called 'items' with a column labeled 'object', find the 'key' with the smallest height.
+{{%notice tip%}}
+* Hint 1: Remember the advice from the Galactic Federation: SELECT [column/column property] FROM [database] [optional condition];
+
+* Hint 2: Condition: WHERE [column_name] ['IN()'/'NOT IN()']; 
+
+* Hint 3: Do you need to use 'IN()' or 'NOT IN()' to show the 'key'?
+{{%/notice%}}
+<!-- SQL Type In Activity -->
+
+{{< rawhtml >}}
+
+<div class="terminal_div" id="terminal_div"><img class="terminal" src="../media/Terminal.png" alt="Terminal_screen">
+
+  <div class="text-area">
+    <textarea id="commands" placeholder="Enter command here!" style="resize: none"></textarea>
+    <button class = "button reset" onclick="document.getElementById('commands').value = ''">Reset</button>
+    <button class="button button1" onclick="sql()"> Enter </button>
+  </div>
+</div>
+
+</br></br></br></br></br></br>
+<h1 class="error" id="sqlcommand" <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
+
+<table id="table">
+	 <tr>
+	 </tr>
+</table>
+
+<h4 id="story"></h4>
+
+<div id="legend" style="visibility:hidden">
+<p> Hint: The number of loops on the key matches the number of the height. </p>
+</div>
+
+<br>
+{{< /rawhtml >}}
+
+
+### Choose and drag the correct key onto the lock to continue your adventure!
+**Note: The correct key will highlight green**
+
+
+{{< rawhtml >}}
+
+<!-- Player drags key block to drop block to finish mission -->
+<div class="door_div" id="door_div"><img class="door" id = "door" src="assets/Door.png" alt="door" style="height: 30vw;">
+
+
+<!-- Drop Location -->
+<div id="div4" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
+
+<!-- Drag Block -->
+<div id="div1" class ="codeBlocks" style="clear: left;" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img class="img" src="assets/Key1.png" draggable="true" ondragstart="drag(event)" id="drag1">
+</div> 
+
+<div id="div2" class ="codeBlocks" style="clear: left;" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img class="img" src="assets/Key2.png" draggable="true" ondragstart="drag(event)" id="drag2">
+</div> 
+
+<div id="div3" class ="codeBlocks" style="clear: left;" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img class="img" src="assets/Key3.png" draggable="true" ondragstart="drag(event)" id="drag3">
+</div> 
+
+</div>
+
+<!-- Next mission text displays -->
+<div id="text1" style="visibility:hidden">
+  <p> You found the Legendary Totem of Fun: Confetti Cannon! </p>
+</div>
+
+<!-- Unhide the Confetti Cannon -->
+<img src="assets/confetti.png" id="cannon" alt="cannon" style="visibility:hidden"/>
+{{< /rawhtml >}}

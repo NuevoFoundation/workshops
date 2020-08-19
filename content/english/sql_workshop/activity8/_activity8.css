@@ -1,0 +1,26 @@
+/* Positions and style for the code blocks */
+.codeBlocks {
+  left: 45vw;
+  margin: 2vw;
+  top: -43vw;
+  width: 8vw;
+  height: 8vw;
+  border: 1px solid white;
+}
+
+/* Positions and style for the drop places */
+.dropClass {
+  top: -20vw;
+  left: 16.5vw;
+  width: 8vw;
+  height: 8vw;
+  overflow: hidden;
+  margin: 0.3vw;
+  border: 3px solid blue;
+}
+
+/* Style for Enter button */
+.button1 {
+  top: 0vw;
+  left: 0vw;
+}
