@@ -51,7 +51,7 @@ function sql()
 	var ans1 = "select max(height) from items where object in ('ladder');";
   var ans2 = "select max(height) from items where object in ('ladder')";
   var ans3 = "select * from items where object in ('ladder')";
-  var ans3 = "select * from items where object in ('ladder');";
+  var ans4 = "select * from items where object in ('ladder');";
   
   //Change string to lower case
   var input = document.getElementById("commands").value;

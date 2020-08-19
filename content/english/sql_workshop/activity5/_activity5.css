@@ -30,5 +30,6 @@
 .hill {
   position: absolute;
   top: -2vw;
+  pointer-events: none;
 	
 }
