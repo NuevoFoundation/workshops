@@ -2,6 +2,7 @@ function check(){
 
   //Display the confetti canon if correct command is used
   var display1 = document.getElementById("cannon");
+  display1.src = "assets/confetti_canon.png";
   display1.setAttribute("style","visibility:visible");
 	
   alert("Congrats Space Cadet! Continue your Adventure!");
@@ -33,7 +34,7 @@ function sql()
 	sqlToTable(headArr, array);
 	
 	/*change answer here */
-	var ans1 = "select * from items where date_created >= '1738-09-12';";
+  var ans1 = "select * from items where date_created >= '1738-09-12';";
   var ans2 = "select * from items where date_created >= '1738-09-12'";
   var ans3 = "select * from items where date_created == '1738-09-12';";
   var ans4 = "select * from items where date_created == '1738-09-12'";
@@ -44,6 +45,7 @@ function sql()
 
 	if(input == ans1 || input == ans2 || input == ans3 || input == ans4)
 	{
+		document.getElementById("story").innerHTML = "Nice job!";
 		check();
 	}
 	else

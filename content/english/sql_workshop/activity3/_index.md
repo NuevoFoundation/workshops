@@ -12,14 +12,14 @@ translationKey: "sql_activity_3"
 <link rel="stylesheet" href="../default/_type.css" type="text/css"></link>
 <script type="text/javascript" src="../default/alasql.js"></script>
 <script type="text/javascript" src="_activity3.js"></script>
-<script type="text/javascript" src="../default/_type.js"></script>
 <script type="text/javascript" src="../default/db.js"></script>
+<script type="text/javascript" src="../default/_type.js"></script>
 
 After receiving the message from the Galactic Federation, you continue your adventure.
 
 You have successfully arrived on the Planet of Fun! The Galactic Federation has sent you a database about this planet.
 
-![db](assets/planet_db.png)
+![db](assets/planet_db.PNG)
 
 ## Task 3: Talk to the inhabitants
 You need to talk to the inhabitants of the Planet of Fun to discover what the problem is. Find out how many cities there are on the planet using the COUNT command!
@@ -36,6 +36,7 @@ If you want to count the number of rows of a specific column, use the column nam
 
 
 ### Question: Using COUNT, what command will display the number of cities on the Planet of Fun?
+
 {{%notice tip%}}
 * Hint 1: The Galactic Federation gave you the name of this database at the beginning of this activity
 * Hint 2: You can use either the asterix (*) or a column name
@@ -43,29 +44,21 @@ If you want to count the number of rows of a specific column, use the column nam
 {{%/notice%}}
 
 {{< rawhtml >}}
-
-	<div class="terminal_div" id="terminal_div">
-		<div class="text-area">
-			<textarea id="commands" placeholder="Enter command here!" style="resize: none"></textarea>
-		</div>
-    
+  <div class="terminal_div" id="terminal_div">
+    <div class = "outer">
+      <h3 id = "commands" contenteditable="true" onclick="document.getElementById('commands').innerHTML = ''"> Type command here!<h3>
+    </div>
+    <div style="clear: both;"></div>
+    </br></br></br></br></br></br> 
+    <button class="button button1" onclick="sql()"> Enter </button>
     <div style="clear: both;"></div> 
-    <button class="button button1" onclick="sql()">	Enter </button>
-    
-    <div style="clear: both;"></div> 
-    <button class = "button reset" onclick="document.getElementById('commands').value = ''">Reset</button>
-
-	</div>
-
+    <button class = "button reset" onclick="document.getElementById('commands').innerHTML = ''">Reset</button>
+  </div>
   <div style="clear: both;"></div> 
-	<h1 class="error" id="sqlcommand" <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
-
-	<table id="table">
-		<tr>
-		</tr>
-	</table>
-
-	<h4 id="story"></h4>
-
-
+  <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
+  <table id="table">
+    <tr>
+    </tr>
+  </table>
+  <h4 id="story"></h4>
 {{< /rawhtml >}}

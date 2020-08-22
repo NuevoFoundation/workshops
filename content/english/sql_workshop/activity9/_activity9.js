@@ -61,6 +61,7 @@ function confirm() {
     
     //Display confetti cannon
     var display2 = document.getElementById("buffet");
+    display2.src="assets/Buffet.png";
     display2.setAttribute("style","visibility:visible");
   }
   else {

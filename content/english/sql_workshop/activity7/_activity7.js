@@ -14,11 +14,12 @@ function drop(ev) {
     
     //Display confetti cannon
     var display2 = document.getElementById("cannon");
+    display2.src = "assets/confetti.png";
     display2.setAttribute("style","visibility:visible");
 	
-	  //Turn box green
-	  var box = document.getElementById("div4");
-	  box.setAttribute("style","border:5px solid lime");
+	//Turn box green
+	var box = document.getElementById("div4");
+	box.setAttribute("style","border:5px solid lime");
   }
   else if(div_num == "div4") {
     alert("Try again Space Cadet!");
@@ -52,7 +53,7 @@ function sql()
 	sqlToTable(headArr, array);
 	
 	/*change answer here */
-	var ans1 = "select min(height) from items where object in ('key');";
+  var ans1 = "select min(height) from items where object in ('key');";
   var ans2 = "select min(height) from items where object in ('key')";
   var ans3 = "select * from items where object in ('key')";
   var ans4 = "select * from items where object in ('key');";
@@ -63,11 +64,7 @@ function sql()
 	
 	if(input == ans1 || input == ans2 || input == ans3 || input == ans4)
 	{
-		document.getElementById("story").innerHTML = "Amazing work as always, space cadet! You found the size of the smallest key!";
-
-    var display_legend = document.getElementById("legend");
-    display_legend.setAttribute("style","visibility:visible");
-    
+		document.getElementById("story").innerHTML = "Amazing work as always, space cadet! You found the key!";
 	}
 	else
 	{

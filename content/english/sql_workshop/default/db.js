@@ -34,8 +34,8 @@
 	alasql("INSERT INTO items VALUES ('ladder','1738-09-02','Fun Capital','blue',60,'Medium ladder')");
 	alasql("INSERT INTO items VALUES ('ladder','1738-09-03','Fun Capital','brown',20,'Short ladder')");
 	
-	alasql("INSERT INTO items VALUES ('key','1738-09-04','Fun Capital','gold',3,'Big key')");
-	alasql("INSERT INTO items VALUES ('key','1738-09-05','Fun Capital','gold',2,'Medium key')");
-	alasql("INSERT INTO items VALUES ('key','1738-09-06','Fun Capital','gold',1,'Small key')");
+	alasql("INSERT INTO items VALUES ('key','1738-09-04','Fun Capital','gold',3,'3 loops key')");
+	alasql("INSERT INTO items VALUES ('key','1738-09-05','Fun Capital','gold',3,'2 loops key')");
+	alasql("INSERT INTO items VALUES ('key','1738-09-06','Fun Capital','gold',3,'1 loop  key')");
 
   

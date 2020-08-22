@@ -74,6 +74,6 @@ Hint: The artifact is created on '1738-09-12' (Use single quotation marks).
 	</div>
 
 	<!-- Unhide the Confetti Cannon -->
-	<img src="assets/confetti_canon.png" id="cannon" alt="cannon" style="visibility:hidden"/>
+	<img id="cannon" alt="cannon" style="visibility:hidden"/>
 
 {{< /rawhtml >}}

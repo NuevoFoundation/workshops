@@ -60,7 +60,7 @@ the Confetti Cannon (reminder: the Confetti Cannon was created on 1738-09-12).
 
 <div style="clear: both;"></div> 
 
-<h1 class="error" id="sqlcommand" <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
+<h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
 
 <table id="table">
 	 <tr>
@@ -76,7 +76,7 @@ the Confetti Cannon (reminder: the Confetti Cannon was created on 1738-09-12).
 <br>
 
 <!-- Unhide the Confetti Cannon -->
-<img src="assets/GPSTerminal2.png" id="gps" alt="gps" style="visibility:hidden; pointer-events: none;"/>
+<img id="gps" alt="gps" style="visibility:hidden; pointer-events: none;"/>
 
 
 {{< /rawhtml >}}

@@ -24,7 +24,7 @@ function sql()
 	sqlToTable(headArr, array);
 	
 	/*change answer here */
-	var ans1 = "select * from items where date_created like '%-10-%';";
+  var ans1 = "select * from items where date_created like '%-10-%';";
   var ans2 = "select * from items where date_created like '%-10-%'";
   
   //Change string to lower case
@@ -39,6 +39,7 @@ function sql()
     display_legend.setAttribute("style","visibility:visible");
     
     var display = document.getElementById("gps");
+    display.src = "assets/GPSTerminal2.png";
     display.setAttribute("style","visibility:visible");
     
 	}

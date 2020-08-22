@@ -105,12 +105,12 @@ The WHERE command allows you to only show data that you want.
 </div>
 
 
-<img src="assets/Show_Planet.png" id="planet" alt="planet" style="visibility:hidden"/>
+<img id="planet" alt="planet" style="visibility:hidden"/>
 
 <div id="text" style="visibility:hidden">
 <p> Now that you know where the Planet of Fun is, we can find more information about it and ignore the other planets. Lets go to the Planet of Fun! </p>
 </div>
 
-<img src="assets/GPS.png" id="gps" alt="gps" style="visibility:hidden"/>
+<img id="gps" alt="gps" style="visibility:hidden"/>
 
 {{< /rawhtml >}}

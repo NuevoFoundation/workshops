@@ -65,10 +65,6 @@ and can only be unlocked with the smallest key on the planet!
 
 <h4 id="story"></h4>
 
-<div id="legend" style="visibility:hidden">
-<p> Hint: The number of loops on the key matches the number of the height. </p>
-</div>
-
 <br>
 {{< /rawhtml >}}
 
@@ -112,5 +108,5 @@ The correct key will highlight green
 </div>
 
 <!-- Unhide the Confetti Cannon -->
-<img src="assets/confetti.png" id="cannon" alt="cannon" style="visibility:hidden"/>
+<img id="cannon" alt="cannon" style="visibility:hidden"/>
 {{< /rawhtml >}}

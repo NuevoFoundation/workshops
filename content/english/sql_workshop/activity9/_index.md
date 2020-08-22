@@ -58,7 +58,7 @@ Your only clue is that the combination is the first two digits of the average ci
 <div style="clear: both;"></div>
  
 
-<h1 class="error" id="sqlcommand" <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
+<h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
 
 <table id="table">
 	 <tr>
@@ -100,7 +100,7 @@ The clue to the combination is at the top of this page!
 <h5 id="plot" style="visibility:hidden"> You did it, Space Explorer! You found the Legendary Totem of Fun: Infinite Buffet Table! </h5> 
 
 <!-- Unhide the Infinite Buffet Table -->
-<img src="assets/Buffet.png" id="buffet" alt="buffet" style="visibility:hidden"/>
+<img id="buffet" alt="buffet" style="visibility:hidden"/>
 
 
 {{< /rawhtml >}}
