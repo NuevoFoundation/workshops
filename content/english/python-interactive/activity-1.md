@@ -14,7 +14,7 @@ https://onlineasciitools.com/convert-text-to-ascii-art
 For example, we can convert the word "Restaurant" into 
 ASCII art. Take a look at the code below!
 
-```
+```python
 print("    _   _   _   _   _   _   _   _   _   _  ")
 print("   / \ / \ / \ / \ / \ / \ / \ / \ / \ / \ ")
 print("  ( r | e | s | t | a | u | r | a | n | t )")   
