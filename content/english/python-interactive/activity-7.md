@@ -6,5 +6,6 @@ draft: false
 translationKey: "python-INTERACTIVE-activity-7"
 ---
 ## Thank Customer for their Business
-include an ASCII art pic that will pop up on the console
+Include an ASCII art pic that will pop up on the console.
+
 Thank the customer for ordering from your restaurant by displaying another text to ASCII art image like "Thank you!", "Come again soon!", "Bon Appetit", or anything else along those lines by using the same art generator we used when printing out the restaurant banner.
