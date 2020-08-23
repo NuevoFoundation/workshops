@@ -3,7 +3,6 @@ title: "Actividad 4 - Simplificando el código con funciones"
 date: 2019-07-25T13:24:17-07:00
 weight: 6
 draft: false
-translationKey: "python-turtle-activity-4"
 ---
 
 Ya dibujamos un hexágono. Pero es sólo uno de los muchos que necesita para construir su colmena. Una vez más parece  we tendríamos que repetir el código varias veces para dibujar muchos hexágonos. Afortunadamente no tenemos qué hacerlo. ¡Las **funciones** vienen a nuestro rescate!

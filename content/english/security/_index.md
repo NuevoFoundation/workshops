@@ -7,7 +7,6 @@ difficulty: "Beginner"
 draft: false
 hidden: true
 icon: "fas fa-microchip"
-translationKey: "security-main"
 ---
 
 ## Table of Contents

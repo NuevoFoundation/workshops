@@ -3,7 +3,6 @@ title: "Usando Repl.It"
 date: 2019-07-25T13:24:17-07:00
 weight: 1
 draft: false
-translationKey: "python-turtle-repl-it"
 ---
 
 Para que Alex pueda vivir en una colmena, necesita aprender a construir un panal. Vamos a usar una biblioteca de Python que se llama `turtle` para dibujar el panal.

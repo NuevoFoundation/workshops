@@ -4,7 +4,6 @@ description: ""
 draft: false
 hidden: true
 weight: 1
-translationKey: "arduino-8"
 ---
 
 # Appendix
