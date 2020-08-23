@@ -12,4 +12,4 @@ translationKey: "python-interactive-home"
 
 # Introduction
 
-To start this program, open up a new Repl.it document and create a main() function definition and function call.
+To start this program, open up a new Repl.it document and create a `main()` function definition and function call.
