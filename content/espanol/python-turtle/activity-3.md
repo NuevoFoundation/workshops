@@ -3,7 +3,6 @@ title: "Actividad 3 - Dibujar un hexágono"
 date: 2019-07-25T13:24:17-07:00
 weight: 5
 draft: false
-translationKey: "python-turtle-activity-3"
 ---
 
 ¡Buen trabajo! Acabas de dibujar tu primera figura con Python y Turtle. Hagamos otros pequeños cambios al código que escribimos para hacer el cuadrado e intentemos hacer un hexágono. Alex es una abeja así que después de todo, él necesita dibujar hexágonos para crear su colmena.

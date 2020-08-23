@@ -3,7 +3,6 @@ title: "Los basicos - Dibujando una línea de color"
 date: 2019-07-25T13:24:17-07:00
 weight: 2
 draft: false
-translationKey: "python-turtle-basics"
 ---
 
 Ante de que Alex pueda aprender a crear una colmena, él debe aprender primero cómo dibujar una línea. Haremos esto en dos partes.

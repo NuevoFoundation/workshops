@@ -3,7 +3,6 @@ title: "Actividad 6 - Moviendo la tortuga"
 date: 2019-07-25T13:24:17-07:00
 weight: 9
 draft: false
-translationKey: "python-turtle-activity-6"
 ---
 
 Nuestro primer paso es mover la tortuga a una nueva posición para dibujar la flor (¡no queremos dibujar la flor encima de la colmena!). Para hacer esto, primero necesitamos usar los siguientes métodos:

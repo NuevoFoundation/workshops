@@ -3,7 +3,6 @@ title: "Activity 8 - Creating a mandala flower"
 date: 2019-07-25T13:24:17-07:00
 weight: 11
 draft: false
-translationKey: "python-turtle-activity-8"
 ---
 
 We’re done creating our first figure 8! We can now use the `figure_8()` function to create a mandala flower! A mandala flower is many figure 8s placed on top of each other at different angles. So, to do this we need to use a... you guessed it, a loop!

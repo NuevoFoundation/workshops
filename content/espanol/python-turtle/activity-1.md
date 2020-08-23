@@ -3,7 +3,6 @@ title: "Actividad 1 - Dibujando un cuadrado"
 date: 2019-07-25T13:24:17-07:00
 weight: 3
 draft: false
-translationKey: "python-turtle-activity-1"
 ---
 
 ¡Muy bien! Has ayudado a Alex a dibujar una línea. Ahora demos un paso más y dibujemos un cuadrado. Para dibujarlo, necesitamos seguir los siguientes pasos:
