@@ -10,7 +10,7 @@ Now that we have both a restaurant banner to display to the customer and a menu 
 {{% notice tip %}}
 ## Helper Functions
 Helper functions are functions that get called in a main function that runs all of the code for this program. Each of these helper functions works toward one simple goal. 
-{{% /notice tip%}}
+{{% /notice %}}
 
 The first helper function we'll be writing is `printMenu()`, a function that will iterate through the `dictMenu` dictionary and result in a Menu that looks like the example shown below. Since dictMenu's values are all lists with the price of the item as the first element and the description as the second element, we want to make sure that when we print out each item's information, we access each element of that list by using indexing.
 Psst: The description of the item is on a separate line from the item name and item price, what does this tell you?
