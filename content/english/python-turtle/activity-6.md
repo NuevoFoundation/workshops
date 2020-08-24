@@ -3,7 +3,6 @@ title: "Activity 6 - Moving the turtle"
 date: 2019-07-25T13:24:17-07:00
 weight: 9
 draft: false
-translationKey: "python-turtle-activity-6"
 ---
 
 Our first step is to move the turtle to a new location to draw the flower (we don’t want to draw the flower on top of the beehive!). To do this, we first need to use the following methods:

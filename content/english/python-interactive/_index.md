@@ -7,7 +7,6 @@ difficulty: "Intermediate"
 draft: false
 hidden: true
 icon: "fab fa-python"
-translationKey: "python-interactive-home"
 ---
 
 # Introduction

@@ -3,8 +3,6 @@ title: "Activity 5 - Drawing a honeycomb"
 date: 2019-07-25T13:24:17-07:00
 weight: 7
 draft: false
-translationKey: "python-turtle-activity-5"
-
 ---
 
 ![Honeycomb drawing](../media/turtle-honeycomb.png)

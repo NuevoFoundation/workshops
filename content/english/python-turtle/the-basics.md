@@ -3,7 +3,6 @@ title: "The Basics - Drawing a colored line"
 date: 2019-07-25T13:24:17-07:00
 weight: 2
 draft: false
-translationKey: "python-turtle-basics"
 ---
 
 Before Alex can learn how to create a beehive, he must first learn how to draw a colored line. We will add code to the below repl.it window, and we will do this in two parts.
