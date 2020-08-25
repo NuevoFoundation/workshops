@@ -1,7 +1,7 @@
 ---
 title: "Pixels on Image"
 draft: false
-weight: 3
+weight: 2
 ---
 
 ### Pixels
