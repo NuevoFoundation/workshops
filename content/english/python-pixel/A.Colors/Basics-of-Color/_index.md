@@ -1,7 +1,7 @@
 ---
 title: "Basics of colors"
 draft: false
-weight: 3
+weight: 1
 ---
 
 ## Basics of Colors
