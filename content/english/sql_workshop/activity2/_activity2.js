@@ -23,9 +23,9 @@ function drop(ev) {
       break;
     case 'div11':
       p5 = data;
-	  break;
-	case 'div12':
-	  p6 = data;
+    break;
+  case 'div12':
+    p6 = data;
       break;
     default:
   }
@@ -67,14 +67,14 @@ function check(){
     var display1 = document.getElementById("planet");
     display1.src = "assets/Show_Planet.png";
     display1.setAttribute("style","visibility:visible");
-	
+  
     var display2 = document.getElementById("gps");
     display2.src = "assets/GPS.png";
     display2.setAttribute("style","visibility:visible");
-	
+  
     var display3 = document.getElementById("text");
     display3.setAttribute("style","visibility:visible");
-	
+  
     alert("Congrats Space Cadet! Continue your Adventure!");
   }
 

@@ -46,12 +46,13 @@ function debug(input, ans)
   {
     if(inputText[i] == actual[i])
     {
-      output += "<span class='right'>" + inputText[i] + " </span>";
+      output += "<span class='right'>" + inputText[i] + "</span>";
     }
     else
     {
-      output += "<span class='wrong'>" + inputText[i] + " </span>";
+      output += "<span class='wrong'>" + inputText[i] + "</span>";
     }
+    output += "<span class='right'>" + " " + "</span>";
   }
   display.innerHTML = output;
 }

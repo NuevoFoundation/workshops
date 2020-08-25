@@ -70,8 +70,8 @@ Condition:
     <div class = "outer">
       <h3 id = "commands" contenteditable="true" onclick="document.getElementById('commands').innerHTML = ''"> Type command here!<h3>
     </div>
-        <div style="clear: both;"></div> 
-        </br></br></br></br></br></br>
+    <div style="clear: both;"></div> 
+    </br></br></br></br></br></br>
     <button class="button button1" onclick="sql()"> Enter </button>
     <div style="clear: both;"></div> 
     <button class = "button reset" onclick="document.getElementById('commands').innerHTML = ''">Reset</button>

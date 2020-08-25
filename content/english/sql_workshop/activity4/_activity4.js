@@ -25,7 +25,7 @@ function sql()
 
   var ans1 = "select planet, leader from galaxy";
   var ans2 = "select planet, leader from galaxy;";
-  
+  user = user.toLowerCase();
   
   if(user == ans1 || user == ans2)
   {

@@ -43,25 +43,21 @@ and can only be unlocked with the smallest key on the planet!
 {{< rawhtml >}}
 
 <div class="terminal_div" id="terminal_div">
-
-  <div class="text-area">
-    <textarea id="commands" placeholder="Enter command here!" style="resize: none"></textarea>
+    <div class = "outer">
+      <h3 id = "commands" contenteditable="true" onclick="document.getElementById('commands').innerHTML = ''"> Type command here!<h3>
+    </div>
+    <div style="clear: both;"></div> 
+    </br></br></br></br></br></br>
+    <button class="button button1" onclick="sql()"> Enter </button>
+    <div style="clear: both;"></div> 
+    <button class = "button reset" onclick="document.getElementById('commands').innerHTML = ''">Reset</button>
   </div>
-  
-    <div style="clear: both;"></div> 
-    <button class="button button1" onclick="sql()">	Enter </button>
-    
-    <div style="clear: both;"></div> 
-    <button class = "button reset" onclick="document.getElementById('commands').value = ''">Reset</button>  
-</div>
-
-<div style="clear: both;"></div>
-<h1 class="error" id="sqlcommand" <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
-
-<table id="table">
-	 <tr>
-	 </tr>
-</table>
+  <div style="clear: both;"></div> 
+  <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
+  <table id="table">
+    <tr></tr>
+  </table>
+  <h4 id="story"></h4>
 
 <h4 id="story"></h4>
 
