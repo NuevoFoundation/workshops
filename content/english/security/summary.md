@@ -3,7 +3,6 @@ title: "Summary"
 description: ""
 draft: false
 weight: 4
-translationKey: "security-4"
 ---
 
 #### Remember the characteristics of a strong password are:

@@ -3,7 +3,6 @@ title: "Activity 9 - Coloring your mandala flower"
 date: 2019-07-25T13:24:17-07:00
 weight: 12
 draft: false
-translationKey: "python-turtle-activity-9"
 ---
 
 ![mandala flower with blue pedals](https://paper-attachments.dropbox.com/s_F078714AB8FA59FD292476DB5E3304D54CD817148B6A8087A90D63D6C59A7C0D_1563989987816_mandala+one+color.PNG)

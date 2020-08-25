@@ -3,7 +3,6 @@ title: "Actividad 2 - Simplificando el código con ciclos (loops)"
 date: 2019-07-25T13:24:17-07:00
 weight: 4
 draft: false
-translationKey: "python-turtle-activity-2"
 ---
 
 ¡Genial! Dibujaste un cuadrado. ¿Pero notas cómo estamos escribiendo las mismas líneas una y otra vez? Tuvimos que repetir las instrucciones para dibujar una línea y dar la vuelta cuatro veces. ¿No sería genial que en vez de dar todas las instrucciones le dijeramos al programa que repita cuatro veces lo qu ele dijimos? ¡Intentémoslo!
