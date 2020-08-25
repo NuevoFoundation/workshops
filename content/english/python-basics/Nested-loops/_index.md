@@ -21,7 +21,9 @@ while expressionA:
         statement(B)
     statement(A)
 ```
-In the while loop above, when expressionA is false, we will skip the whole block. When expressionB is true, we will check expressionB. If expressionB is true, statement(B) will be execute. If expressionB is false, we will skip and execute statement(A). As a conclusion, if expressionA is false, none of the statement will be execute; statement(A) and statement(B) will both be executed if and only if both expressionA and expressionB are true.
+In the `while` loop above, when expressionA is `False`, we will skip the whole block. When expressionA is `True`, we will check expressionB. If expressionB is `True`, statement(B) will be executed. If expressionB is `False`, we will skip and return to statement(A). 
+
+In conclusion, if expressionA is `False`, none of the statements will be executed; statement(A) and statement(B) will both be executed if and only if both expressionA and expressionB are `True`.
 
 Let us take a look at one example for nested while loop.
  ```python
