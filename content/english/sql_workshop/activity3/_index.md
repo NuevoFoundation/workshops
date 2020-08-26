@@ -5,7 +5,6 @@ date: 2020-07-14
 prereq: "SELECT Command"
 difficulty: "Beginner"
 draft: false
-translationKey: "sql_activity_3"
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->
 <link rel="stylesheet" href="../default/_default.css" type="text/css"></link>
@@ -23,10 +22,10 @@ You have successfully arrived on the Planet of Fun! The Galactic Federation has 
 ![db](assets/planet_db.PNG)
 
 ## Task 3: Talk to the inhabitants
-You need to talk to the inhabitants of the Planet of Fun to discover what the problem is. Find out how many cities there are on the planet using the COUNT command!
+You need to talk to the inhabitants of the Planet of Fun to discover what the problem is. Find out how many cities there are on the planet using the "COUNT()" command!
 
 {{%notice info%}}
-When we use the SELECT * FROM planet; command, this table is displayed. But in order to check the number of cities, we can use the COUNT command.
+When we use the `SELECT * FROM planet;` command, this table is displayed. But in order to check the number of cities, we can use the COUNT command.
 {{%/notice%}}
 
 ![count](assets/count.png)
@@ -36,7 +35,7 @@ If you want to count the number of rows of a specific column, use the column nam
 {{%/notice%}}
 
 
-### Question: Using COUNT, what command will display the number of cities on the Planet of Fun?
+### Question: Using "COUNT()", what command will display the number of cities on the Planet of Fun?
 
 {{%notice tip%}}
 * Hint 1: The Galactic Federation gave you the name of this database at the beginning of this activity

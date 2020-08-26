@@ -5,7 +5,6 @@ date: 2020-07-10
 prereq: "SELECT Command, WHERE Command, MAX/MIN Command"
 difficulty: "Beginner"
 draft: false
-translationKey: "sql_activity_7"
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->
 <link rel="stylesheet" href="../default/_default.css" type="text/css"></link>
@@ -32,9 +31,9 @@ and can only be unlocked with the smallest key on the planet!
 
 #### Using the database called 'items' with a column labeled 'object', find the 'key' with the smallest height.
 {{%notice tip%}}
-* Hint 1: Remember the advice from the Galactic Federation: SELECT [column/column property] FROM [database] [optional condition];
+* Hint 1: Remember the advice from the Galactic Federation: `SELECT [column/column property] FROM [database] [optional condition];`
 
-* Hint 2: Condition: WHERE [column_name] ['IN()'/'NOT IN()']; 
+* Hint 2: Condition: `WHERE [column_name] ['IN()'/'NOT IN()'];` 
 
 * Hint 3: Do you need to use 'IN()' or 'NOT IN()' to show the 'key'?
 {{%/notice%}}
@@ -67,7 +66,7 @@ and can only be unlocked with the smallest key on the planet!
 
 ### Choose and drag the correct key onto the lock to continue your adventure!
 {{%notice note%}}
-The correct key will highlight green
+The correct key will be highlighted in green
 {{%/notice%}}
 
 {{< rawhtml >}}

@@ -5,7 +5,6 @@ date: 2020-07-08
 prereq: "SELECT Command, WHERE Command"
 difficulty: "Beginner"
 draft: false
-translationKey: "sql_activity_10"
 ---
 <!-- Embed YouTube Video Link here when ready -->
 ## Return the Legendary Totems of Fun to The Dear Leader
@@ -22,4 +21,4 @@ Your next step is to find the person who can combine both Legendary Totems of Fu
 ## Task 10: Help the inhabitants set up for the party!
 The whole planet is invited! Help the citizens prepare for the party by finding out how many guests will be attending!
 
-Lets go over the 'SUM' Command!
+Let's go over the 'SUM' Command!

@@ -5,7 +5,6 @@ date: 2020-07-12
 prereq: "SELECT Command, WHERE Command"
 difficulty: "Beginner"
 draft: false
-translationKey: "sql_activity_5"
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->
 <link rel="stylesheet" href="../default/_default.css" type="text/css"></link>
@@ -54,11 +53,11 @@ Condition:
 
 ### Now use what you learned! Using the database called 'items' with a column labeled 'object', find the tallest 'ladder'.
 {{%notice tip%}}
-* Hint 1: Remember the advice from the Galactic Federation: SELECT [column/column property] FROM [database] [optional condition];
+* Hint 1: Remember the advice from the Galactic Federation: `SELECT [column/column property] FROM [database] [optional condition];`
 
 * Hint 2: Column property: Do you need to use 'MAX()' or 'MIN()' to find the tallest ladder?
 
-* Hint 3: Condition: WHERE [column_name] [IN/NOT IN];
+* Hint 3: Condition: `WHERE [column_name] [IN/NOT IN];`
 
 * Hint 4: Do you need to use 'IN()' or 'NOT IN()' to show the 'ladder'?
 {{%/notice%}}

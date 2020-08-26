@@ -5,7 +5,6 @@ date: 2020-07-13
 prereq: "SELECT Command"
 difficulty: "Beginner"
 draft: false
-translationKey: "sql_activity_4"
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->
 <link rel="stylesheet" href="../default/_default.css" type="text/css"></link>

@@ -5,7 +5,6 @@ date: 2020-07-16
 prereq: "SELECT command"
 difficulty: "Beginner"
 draft: false
-translationKey: "sql_activity_2"
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->
 <link rel="stylesheet" href="../default/_default.css" type="text/css"></link>
@@ -30,7 +29,7 @@ The WHERE command allows you to only show data that you want.
 ![Ex](assets/Where_Ex.png)
 
 {{%notice info%}}
-1. The SELECT * FROM database block that we learned from the previous activity allows us to choose a database to look through.
+1. The `SELECT * FROM` database block that we learned from the previous activity allows us to choose a database to look through.
 
 2. The WHERE command allows us to narrow down what data is displayed depending on the condition (the green blocks in the image below).
 
