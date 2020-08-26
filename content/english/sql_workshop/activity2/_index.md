@@ -47,7 +47,6 @@ The WHERE command allows you to only show data that you want.
 7. Semicolons act as the end of a SQL command, like a period at the end of a sentence.
 {{%/notice%}}
 
-
 #### Using the database called 'galaxy' that has a column labeled 'name', find the coordinates for the Planet of Fun!
 
 <!-- rearrange code blocks on terminal to get coordinate block -->

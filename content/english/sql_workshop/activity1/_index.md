@@ -75,5 +75,5 @@ The SELECT command allows you to choose what data to show from a database.
 </div>
 
 <!-- Hidden SQL database will appear once correct sequence is placed -->
-<img id="database" alt="database" style="visibility:hidden"/>
+<img src="assets/Database.png" id="database" alt="database" style="visibility:hidden"/>
 {{< /rawhtml >}}

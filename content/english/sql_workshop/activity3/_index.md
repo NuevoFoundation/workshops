@@ -11,9 +11,10 @@ translationKey: "sql_activity_3"
 <link rel="stylesheet" href="../default/_default.css" type="text/css"></link>
 <link rel="stylesheet" href="../default/_type.css" type="text/css"></link>
 <script type="text/javascript" src="../default/alasql.js"></script>
-<script type="text/javascript" src="_activity3.js"></script>
-<script type="text/javascript" src="../default/db.js"></script>
 <script type="text/javascript" src="../default/_type.js"></script>
+<script type="text/javascript" src="../default/db.js"></script>
+<script type="text/javascript" src="_activity3.js"></script>
+
 
 After receiving the message from the Galactic Federation, you continue your adventure.
 
@@ -45,16 +46,24 @@ If you want to count the number of rows of a specific column, use the column nam
 
 {{< rawhtml >}}
   <div class="terminal_div" id="terminal_div">
+  
     <div class = "outer">
       <h3 id = "commands" contenteditable="true" onclick="document.getElementById('commands').innerHTML = ''"> Type command here!<h3>
     </div>
+    
     <div style="clear: both;"></div>
+    
     </br></br></br></br></br></br> 
+    
     <button class="button button1" onclick="sql()"> Enter </button>
+    
     <div style="clear: both;"></div> 
+    
     <button class = "button reset" onclick="document.getElementById('commands').innerHTML = ''">Reset</button>
   </div>
+  
   <div style="clear: both;"></div> 
+  
   <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
   <table id="table">
     <tr>

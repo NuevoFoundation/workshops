@@ -100,13 +100,11 @@ Condition:
 The correct ladder will highlight green
 {{%/notice%}}
 
-
 {{< rawhtml >}}
 
 
 <!-- Player drags ladder block to drop block to finish mission -->
 <div class="hill_div" id="hill_div">
-
 
 <!-- Drop Location -->
 <div id="div4" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>

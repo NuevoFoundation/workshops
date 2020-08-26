@@ -1,5 +1,5 @@
 function sql() 
-{
+{ 
   clearTable();
   document.getElementById("sqlcommand").innerHTML = "ERROR INVALID INPUT";
   document.getElementById("sqlcommand").style.visibility="visible";
@@ -27,6 +27,7 @@ function sql()
   var ans2 = "select count(*) from planet";
   var ans3 = "select count(city_number) from planet;";
   user = user.toLowerCase();
+
   
   if(user == ans1 || user == ans2 || user == ans3)
   {
