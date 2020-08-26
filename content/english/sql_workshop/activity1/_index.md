@@ -5,11 +5,10 @@ date: 2020-07-17
 prereq: "none"
 difficulty: "Beginner"
 draft: false
-translationKey: "sql_activity_1"
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->
-<link rel="stylesheet" href="../default/_default.css" type="text/css">
-</link>
+<link rel="stylesheet" href="../default/_default.css" type="text/css"></link>
+<link rel="stylesheet" href="_activity1.css" type="text/css"></link>
 <script type="text/javascript" src="../default/_default.js">
 </script>
 
@@ -20,10 +19,10 @@ commands to help save the Planet of Fun!
 
 ## Task 1: Take a peek at the information on the Planet of Fun
 You are given information about the Galaxy and want to look for the Planet of Fun. To do this,
- the Galactic Federation has given you your first SQL command: SELECT. 
+ the Galactic Federation has given you your first SQL command: "SELECT". 
 
 ### What the command does: 
-The SELECT command allows you to choose what data to show from a database.
+The "SELECT" command allows you to choose what data to show from a database.
 
 ### Example:
 
@@ -34,8 +33,7 @@ The SELECT command allows you to choose what data to show from a database.
 #### Question: What command will display all the columns in the database called "galaxy"?
 
 {{< rawhtml >}}
-<div class="terminal_div" id="terminal_div"><img class="terminal" src="../media/Terminal.png" alt="Terminal_screen">
-
+<div class="terminal_div" id="terminal_div">
 
 <!-- Rectangles to Receive blocks -->
 <div id="div6" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
@@ -44,8 +42,11 @@ The SELECT command allows you to choose what data to show from a database.
 <div id="div9" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
 <div id="div10" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
 
+<div style="clear: both;"></div> 
 
-<div id="div1" class ="codeBlocks" style="clear: left;" ondrop="drop(event)" ondragover="allowDrop(event)">
+<br><br>
+
+<div id="div1" class ="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
 <img class="img" id="answer1" src="assets/Select_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag1" width="120" height="60">
 </div>
 
@@ -65,11 +66,12 @@ The SELECT command allows you to choose what data to show from a database.
 <img class="img" img id="answer5" src="assets/Semicolon_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag5" width="120" height="60" markdown="1">
 </div>
 
+<div style="clear: both;"></div> 
+
 <!-- Enter button -->
 <button class="button button1" onclick="check()" > Enter </button>
 
 </div>
-
 
 <!-- Hidden SQL database will appear once correct sequence is placed -->
 <img src="assets/Database.png" id="database" alt="database" style="visibility:hidden"/>

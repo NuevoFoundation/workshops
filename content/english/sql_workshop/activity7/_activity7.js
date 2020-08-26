@@ -4,15 +4,20 @@ function drop(ev) {
   ev.target.appendChild(document.getElementById(data));
   var div_num = ev.currentTarget.id;
  
-  
+
   if(div_num == "div4" && data == "drag1") {
-    alert("You found the correct ladder! Go talk to the Dear Leader!");
+    alert("Congrats! You found the correct key!");
   
     //Display next mission prompt
     var display1 = document.getElementById("text1");
     display1.setAttribute("style","visibility:visible");
+    
+    //Display confetti cannon
+    var display2 = document.getElementById("cannon");
+    display2.src = "assets/confetti.png";
+    display2.setAttribute("style","visibility:visible");
   
-    //Turn box green
+  //Turn box green
   var box = document.getElementById("div4");
   box.setAttribute("style","border:5px solid lime");
   }
@@ -29,7 +34,7 @@ function sql()
   document.getElementById("sqlcommand").style.visibility="visible";
 
   var user = document.getElementById("commands").innerHTML;
-  debug(user.toLowerCase(),"select max(height) from items where object in ('ladder');");
+  debug(user.toLowerCase(),"select min(height) from items where object in ('key');");
   var array = alasql("MATRIX OF " + user);
   var ans = JSON.stringify(alasql(user));
 
@@ -48,23 +53,17 @@ function sql()
   sqlToTable(headArr, array);
   
   /*change answer here */
-  var ans1 = "select max(height) from items where object in ('ladder');";
-  var ans2 = "select max(height) from items where object in ('ladder')";
-  var ans3 = "select * from items where object in ('ladder')";
-  var ans4 = "select * from items where object in ('ladder');";
+  var ans1 = "select min(height) from items where object in ('key');";
+  var ans2 = "select min(height) from items where object in ('key')";
+  var ans3 = "select * from items where object in ('key')";
+  var ans4 = "select * from items where object in ('key');";
   
   //Change string to lower case
   var input = user.toLowerCase();
   
   if(input == ans1 || input == ans2 || input == ans3 || input == ans4)
   {
-    document.getElementById("commands").innerHTML = "<span class='right'>" + user + " </span>";
-    document.getElementById("story").innerHTML = "Amazing work as always, space cadet! You discovered that the Planet of Fun's Dear Leader is Olivia Windsor! Now you need to figure out a way to get to them!";
-    if(input == ans1 || input == ans2)
-    {
-      var display_legend = document.getElementById("legend");
-      display_legend.setAttribute("style","visibility:visible");
-    }
+    document.getElementById("story").innerHTML = "Amazing work as always, space cadet! You found the key!";
   }
   else
   {

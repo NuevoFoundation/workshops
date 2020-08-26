@@ -1,17 +1,34 @@
 .terminal_div {
-	position:relative;
-	height:34vw;
-	width: auto;
+  padding-top: 16vw;
+  padding-left: 11vw;
+  padding-bottom: 0vw;
+  padding-right: 3vw;
 }
 
+.outer {
+  float: left;
+  background-color: transparent;
+  width: 45vw;
+  height: 5vw;
+  resize: none;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  padding: 1vw 0;
+}
+
+.outer h3 {
+  margin: 0 auto;
+  text-align: left;
+  color: #228B22;
+
+}
 .text-area {
-  position: relative;
-  top: 15vw;
-  left: 11vw;
-  background-color: gray;
+  float: left;
+  background-color: transparent;
   color: green;
-  width: 52%;
-  height: 10%;
+  width: 40vw;
+  height: 13vw;
   font-size: 20px;
   resize: none;
 }
@@ -28,14 +45,26 @@
   box-shadow: 1px 1px 1px #aaaaaa;
 }
 
+.wrong {
+  background-color: #F08080;
+  color: black;
+}
+
+.right {
+  background-color: #3CB371;
+  color: black;
+}
+
 .table, th, td {
   border: 2px black;
   font-size: 25px;
 }
+
 tr:hover 
 {
-	background-color:#f5f5f5;
+  background-color:#f5f5f5;
 }
+
 tr:first-child {
   font-weight: bold;
 }

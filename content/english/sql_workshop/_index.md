@@ -7,7 +7,6 @@ difficulty: "Beginner"
 draft: false
 icon: "fas fa-database"
 weight: 130
-# translationKey: "SQL-workshop-home"
 ---
 
 # Introduction: Learn SQL by Saving the Galaxy!

@@ -1,7 +1,7 @@
 ---
-title: "Use Comparators"
-description: "Use Comparators"
-date: 2020-07-11
+title: "Learn LIKE Command"
+description: "Learn LIKE Command"
+date: 2020-07-09
 prereq: "SELECT Command, WHERE Command"
 difficulty: "Beginner"
 draft: false
@@ -9,43 +9,42 @@ draft: false
 <!-- Links for javascript and CSS needed for drop down logic -->
 <link rel="stylesheet" href="../default/_default.css" type="text/css"></link>
 <link rel="stylesheet" href="../default/_type.css" type="text/css"></link>
-
 <script type="text/javascript" src="../default/_default.js"></script>
 <script type="text/javascript" src="../default/_type.js"></script>
 <script type="text/javascript" src="../default/alasql.js"></script>
-<script type="text/javascript" src="_activity6.js"></script>
 <script type="text/javascript" src="../default/db.js"></script>
+<link rel="stylesheet" href="_activity8.css" type="text/css"></link>
+<script type="text/javascript" src="_activity8.js"></script>
 
 <!-- Embed YouTube Video Link here when ready -->
 
 
-## Task 6: Find the Legendary Totem of Fun: Confetti Cannon 
+## Task 8: Find the Legendary Totem of Fun: Infinite Buffet Table
 
-You need to explore the planet and find the first Legendary Totem of Fun - The Confetti Cannon of Fun. 
-Legends say that this cannon will never stop shooting confetti and it is a symbol of never-ending peace and entertainment. 
+Another artifact you must find is the infinite buffet table of fun! Legends say that festivals will never run 
+out of food with this mystic buffet table. 
 
 {{%notice info%}}
-**Your only hint is that the artifact is created on 1738-09-12.**
-{{%/notice%}}
-To help you out, the Galactic Federation has sent you a brief tutorial on how to compare numbers in the database.
-
-![Explain](assets/Comparator.png)
-![Example](assets/Example.png)
-
-{{%notice note%}}
-There are different versions of databases and the one you are using needs the value being compared to be inside single quotation marks! 
+This Totem was created a month after the previous artifact: 
+the Confetti Cannon (reminder: the Confetti Cannon was created on 1738-09-12).
 {{%/notice%}}
 
-### Using the database 'items' with the column 'date_created', find out which artifact is the Legendary Totem of Fun: Confetti Cannon
+**The Galactic Federation has sent you a brief tutorial on a handy command: LIKE**
 
+![Explain](assets/like_explain.png)
+![Ex](assets/like.png)
+
+#### Using the database called 'items' with a column labeled 'date_created', find the Infinite Buffet Table!
 {{%notice tip%}}
-Hint: The artifact is created on '1738-09-12' (Use single quotation marks).
+* Hint 1: The format for the date is Year-Month-Day.
+* Hint 2: This Totem was created a month AFTER the Confetti Cannon (1738-09-12).
+* Hint 3: What is the pattern? Do you need to look for the month at the beginning, end, or anywhere of the value?
 {{%/notice%}}
-
 <!-- SQL Type In Activity -->
+
 {{< rawhtml >}}
 
-  <div class="terminal_div" id="terminal_div">
+<div class="terminal_div" id="terminal_div">
     <div class = "outer">
       <h3 id = "commands" contenteditable="true" onclick="document.getElementById('commands').innerHTML = ''"> Type command here!<h3>
     </div>
@@ -62,10 +61,14 @@ Hint: The artifact is created on '1738-09-12' (Use single quotation marks).
   </table>
   <h4 id="story"></h4>
 
-  <div id="text" style="visibility:hidden">
-    <p> You found the location of the first Legendary Totem of Fun: The Confetti Cannon! </p>
-  </div>
+<div id="legend" style="visibility:hidden">
+  <p> You found the location of the Legendary Totem of Fun: Infinite Buffet Table! Now we will travel to Fun Capital!</p>
+</div>
 
-  <!-- Unhide the Confetti Cannon -->
-  <img id="cannon" alt="cannon" style="visibility:hidden"/>
+<br>
+
+<!-- Unhide the Confetti Cannon -->
+<img id="gps" alt="gps" style="visibility:hidden; pointer-events: none;"/>
+
+
 {{< /rawhtml >}}

@@ -70,6 +70,7 @@ function check(){
 
     //Display the database
     var display = document.getElementById("database");
+    display.src = "assets/Database.png";
     display.setAttribute("style","visibility:visible");
     alert("Congrats Space Cadet! Scroll Down To See The Results!");
   }

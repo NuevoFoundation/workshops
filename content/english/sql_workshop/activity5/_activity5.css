@@ -1,19 +1,16 @@
 /* Positions and style for the code blocks */
 .codeBlocks {
-  top: 10vw;
-  left: 40vw;
+  float: right;
   margin: 2vw;
-  width: 4vw;
-  height: 8vw;
+  width: 5vw;
+  height: 10vw;
   border: 1px solid white;
 }
 
 /* Positions and style for the drop places */
 .dropClass {
-  top: 8.5vw;
-  left: 14vw;
-  width: 4vw;
-  height: 8vw;
+  width: 5vw;
+  height: 9vw;
   overflow: hidden;
   margin: 0.3vw;
   border: 5px solid white;
@@ -22,14 +19,14 @@
 
 /* Position for hill placement */
 .hill_div {
-  height: 37vw;
-  position: relative;
+  padding-top: 8vw;
+  padding-left: 14vw;
+  padding-bottom: 0vw;
+  padding-right: 10vw;
+  background-image: url('assets/Hill.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 78vw;
+  height: 48vw;
 }
 
-/* Position for hill image */
-.hill {
-  position: absolute;
-  top: -2vw;
-  pointer-events: none;
-	
-}

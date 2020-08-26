@@ -1,13 +1,3 @@
-function check(){
-
-  //Display the confetti canon if correct command is used
-  var display1 = document.getElementById("cannon");
-  display1.src = "assets/confetti_canon.png";
-  display1.setAttribute("style","visibility:visible");
-  
-  alert("Congrats Space Cadet! Continue your Adventure!");
-}
-
 function sql() 
 {
   clearTable();
@@ -15,7 +5,7 @@ function sql()
   document.getElementById("sqlcommand").style.visibility="visible";
 
   var user = document.getElementById("commands").innerHTML;
-  debug(user.toLowerCase(),"select * from items where date_created >= '1738-09-12';");
+  debug(user.toLowerCase(),"select * from items where date_created like '%-10-%';");
   var array = alasql("MATRIX OF " + user);
   var ans = JSON.stringify(alasql(user));
 
@@ -34,23 +24,26 @@ function sql()
   sqlToTable(headArr, array);
   
   /*change answer here */
-  var ans1 = "select * from items where date_created >= '1738-09-12';";
-  var ans2 = "select * from items where date_created >= '1738-09-12'";
-  var ans3 = "select * from items where date_created == '1738-09-12';";
-  var ans4 = "select * from items where date_created == '1738-09-12'";
+  var ans1 = "select * from items where date_created like '%-10-%';";
+  var ans2 = "select * from items where date_created like '%-10-%'";
   
   //Change string to lower case
   var input = user.toLowerCase();
-
-  if(input == ans1 || input == ans2 || input == ans3 || input == ans4)
+  
+  if(input == ans1 || input == ans2)
   {
-    document.getElementById("story").innerHTML = "Nice job!";
-    check();
+    document.getElementById("story").innerHTML = "Amazing work as always, space cadet! The Legendary Totem of Fun: Infinite Buffet Table is in Fun Capital!";
+
+    var display_legend = document.getElementById("legend");
+    display_legend.setAttribute("style","visibility:visible");
+    
+    var display = document.getElementById("gps");
+    display.src = "assets/GPSTerminal2.png";
+    display.setAttribute("style","visibility:visible");
+    
   }
   else
   {
     document.getElementById("story").innerHTML = "Not quite the right command. Keep trying!";
   }
 }
-
-

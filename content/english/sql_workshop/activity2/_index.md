@@ -5,7 +5,6 @@ date: 2020-07-16
 prereq: "SELECT command"
 difficulty: "Beginner"
 draft: false
-translationKey: "sql_activity_2"
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->
 <link rel="stylesheet" href="../default/_default.css" type="text/css"></link>
@@ -29,7 +28,8 @@ The WHERE command allows you to only show data that you want.
 
 ![Ex](assets/Where_Ex.png)
 
-1. The SELECT * FROM database block that we learned from the previous activity allows us to choose a database to look through.
+{{%notice info%}}
+1. The `SELECT * FROM` database block that we learned from the previous activity allows us to choose a database to look through.
 
 2. The WHERE command allows us to narrow down what data is displayed depending on the condition (the green blocks in the image below).
 
@@ -44,8 +44,7 @@ The WHERE command allows you to only show data that you want.
 6. You can replace 'text' with any word you are looking for in the database.
 
 7. Semicolons act as the end of a SQL command, like a period at the end of a sentence.
-
-#
+{{%/notice%}}
 
 #### Using the database called 'galaxy' that has a column labeled 'name', find the coordinates for the Planet of Fun!
 
@@ -53,7 +52,7 @@ The WHERE command allows you to only show data that you want.
 
 {{< rawhtml >}}
 
-<div class="terminal_div" id="terminal_div"><img class="terminal" src="../media/Terminal.png" alt="Terminal_screen">
+<div class="terminal_div" id="terminal_div">
 
 <!-- Rectangles to Receive blocks -->
 <div id="div7" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
@@ -63,7 +62,11 @@ The WHERE command allows you to only show data that you want.
 <div id="div11" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
 <div id="div12" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
 
-<div id="div1" class ="codeBlocks" style="clear: left;" ondrop="drop(event)" ondragover="allowDrop(event)">
+<div style="clear: both;"></div>
+
+<br><br>
+
+<div id="div1" class ="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
 <img class="img" id="answer5" src="assets/Equal.PNG" draggable="true" ondragstart="drag(event)" id="drag1">
 </div>
 
@@ -79,6 +82,10 @@ The WHERE command allows you to only show data that you want.
 <img class="img" img id="answer6" src="assets/Planet_Fun_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag4">
 </div>
 
+<div style="clear: both;"></div>
+
+<div id="buffer" class="codeBlocks" style="border: none;"></div>
+
 <div id="div5" class="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
 <img class="img" img id="answer1" src="assets/Select_From_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag5">
 </div>
@@ -86,6 +93,9 @@ The WHERE command allows you to only show data that you want.
 <div id="div6" class="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
 <img class="img" img id="answer3" src="assets/Where_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag5">
 </div>
+
+<div style="clear: both;"></div>
+<br><br>
 
 <!-- Press Enter and if correct, unhide coordinate block -->
 <button class="button button1" onclick="check()"> Enter </button>

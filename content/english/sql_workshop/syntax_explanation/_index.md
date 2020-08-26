@@ -5,7 +5,6 @@ date: 2020-07-15
 prereq: "SELECT Command, conditions (WHERE command)"
 difficulty: "Beginner"
 draft: false
-translationKey: "sql_activity_2.5"
 ---
 
 <!-- Embed YouTube Video Link here when ready -->

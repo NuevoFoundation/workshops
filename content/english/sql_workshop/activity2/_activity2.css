@@ -1,26 +1,25 @@
 /* Positions and style for the code blocks */
 .codeBlocks {
-  right: -7vw;
-  margin: 0.5vw;
-  top: 19vw;
+  margin: 1vw;
+  width: 11vw;
+  height: 6vw;
 }
 
 /* Positions and style for the drop places */
 .dropClass {
-  top: 15vw;
-  left: 8vw;
   width: 8vw;
   height: 4vw;
   overflow: hidden;
   margin: 0.3vw;
 }
 
-/* Style for Enter button */
-.button1 {
-  top: 36vw;
-  left: 11vw;
-}
-
-.terminal {
-  width: 103%;
+.terminal_div {  
+  background-image: url('assets/Terminal.png');
+  padding-top: 12vw;
+  padding-left: 9vw;
+  padding-bottom: 0vw;
+  padding-right: 6vw;
+  width: 79vw;
+  height: 48vw;
+  overflow: hidden;
 }
