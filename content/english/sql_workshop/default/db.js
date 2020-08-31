@@ -47,4 +47,4 @@ alasql("INSERT INTO people VALUES ('Mr. Emmet','pizza','LEGO City', 'engineering
 alasql("INSERT INTO people VALUES ('Dr. Phi','Pizza','Playground City', 'math','Big Hero 6')");
 alasql("INSERT INTO people VALUES ('Caroline Jones','Hotdog','City of Games', 'technology','Meet the Robinsons')");
 alasql("INSERT INTO people VALUES ('Eva Dragonheart','Taco','Seriously Fun', 'science','WALL-E')");
-alasql("INSERT INTO people VALUES ('Duchess Leia','pizza','Playground City', 'engineering','Star Wars)");
+alasql("INSERT INTO people VALUES ('Duchess Leia','pizza','Playground City', 'engineering','Star Wars')");
