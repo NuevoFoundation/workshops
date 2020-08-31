@@ -19,14 +19,16 @@ draft: false
 
 ## Party with the Inhabitants! 
 
-You are tasked to choose which food to bring to the party! Each city has their own favorite food and you need to decide which foods to have at the party! To figure out what food to bring, lets go over the GROUP BY command.
+You are tasked to choose which food to serve at the party! Each city has their own favorite food and you need to decide which ones to have at the party! Let's use the `GROUP BY` command to figure out what to bring.
 
-### What the GROUP BY command does
+### What the `GROUP BY` command does
 
 ![Explain](assets/group.png)
 
-## Task 11: Help bring food to the party!
-Enter the command to figure what to bring!
+### Task 11: Using the database called 'planet' with the column 'favorite_food', find out what to bring to the party!
+{{%notice tip%}}
+Hint: The command follows closely to the example above.
+{{%/notice%}}
 
 
 {{< rawhtml >}}
@@ -62,6 +64,6 @@ Enter the command to figure what to bring!
 
 <br>
 
-<h5 id="plot" style="visibility:hidden"> You did it! </h5> 
+<h5 id="plot" style="visibility:hidden"> You did it Space Cadet! Now the inhabitants can finally begin the party! </h5> 
 
 {{< /rawhtml >}}

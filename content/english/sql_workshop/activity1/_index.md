@@ -19,10 +19,10 @@ commands to help save the Planet of Fun!
 
 ## Task 1: Take a peek at the information on the Planet of Fun
 You are given information about the Galaxy and want to look for the Planet of Fun. To do this,
- the Galactic Federation has given you your first SQL command: "SELECT". 
+ the Galactic Federation has given you your first SQL command: `SELECT`. 
 
 ### What the command does: 
-The "SELECT" command allows you to choose what data to show from a database.
+The `SELECT` command allows you to choose what data to show from a database.
 
 ### Example:
 

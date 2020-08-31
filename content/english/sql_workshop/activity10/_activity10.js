@@ -32,7 +32,7 @@ function sql()
   
   if(input == ans1 || input == ans2)
   {
-    document.getElementById("story").innerHTML = "Now we know how many guests will be attending! What do we need to bring to the party?"; 
+    document.getElementById("story").innerHTML = "Now we know how many guests will be attending! Let's choose what food to bring to the party!"; 
   }
   else
   {

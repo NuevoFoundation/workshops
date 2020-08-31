@@ -31,14 +31,14 @@ Your next step is to find the person who can combine both Legendary Totems of Fu
 ## Task 10: Help the inhabitants set up for the party!
 The whole planet is invited! Help the citizens prepare for the party by finding out how many guests will be attending!
 
-Let's go over the 'SUM' Command!
+Let's go over the `SUM` Command!
 
 ![Explain](assets/sum.png)
 
-#### Using the database 'planet' and the 'SUM()' command, find the total guests for this amazing party!
+#### Using the database 'planet' and the `SUM()` command, find the total guests for this amazing party!
 
 {{%notice tip%}}
-* Hint 1: The command follows very closely to the example and the AVG() command.
+* Hint 1: The command follows very closely to the example and the `AVG()` example (previous task).
 {{%/notice%}}
 
 <!-- SQL Type In Activity -->

@@ -32,7 +32,7 @@ function sql()
   
   if(input == ans1 || input == ans2)
   {
-    document.getElementById("story").innerHTML = "Nice job! Now pick all the different foods to bring!"; 
+    document.getElementById("story").innerHTML = "Nice job! The citizens on the planet of fun use a food-maker-izer to instantly cook food! Select the correct food items that match the inhabitant's favorite foods!"; 
   }
   else
   {
@@ -159,7 +159,14 @@ function confirm() {
   
   /* Advance plot */
   if(h == 1 && b == 1 && p == 1 && t == 1 && cake == 0 && ice == 0) {
-    alert("Congrats!");
+    alert("Congrats! You have food for the party!");
+    
+    /* Changes oven screen */
+    var screen = document.getElementById("vendor_div");
+    screen.style.backgroundImage = "url('assets/oven2.png')"
+    
+    var display = document.getElementById("plot");
+    display.setAttribute("style","visibility:display;");
   } else {
     alert("Check to make sure only the favorite foods are selected");
   }

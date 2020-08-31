@@ -27,6 +27,7 @@
   font-size: 50px;
   margin: 1.5vw;
   width: 9vw;
+  outline: none;
 }
 
 /* Vault buttons (Subtracting)*/
@@ -41,6 +42,7 @@
   font-size: 70px;
   margin: 1.7vw;
   width: 9vw;
+  outline: none;
   
 }
 

@@ -29,15 +29,15 @@ will only unlock if you find the secret number.
 Your only clue is that the combination is the first two digits of the average city population.
 {{%/notice%}}
 
-**Lets look at the 'AVG()' command!**
+**Lets look at the `AVG()` command!**
 
 ![Explain](assets/AVG.png)
 
-#### Using the database 'planet' and the 'AVG()' command, find the first two digits of the average city 'population'!
+#### Using the database 'planet' and the `AVG()` command, find the first two digits of the average city 'population'!
 {{%notice tip%}}
 * Hint 1: The command follows very closely to the example.
 
-* Hint 2: How do you use 'population' with the 'AVG()' command?
+* Hint 2: How do you use 'population' with the `AVG()` command?
 {{%/notice%}}
 <!-- SQL Type In Activity -->
 

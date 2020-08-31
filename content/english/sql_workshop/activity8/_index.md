@@ -29,7 +29,7 @@ This Totem was created a month after the previous artifact:
 the Confetti Cannon (reminder: the Confetti Cannon was created on 1738-09-12).
 {{%/notice%}}
 
-**The Galactic Federation has sent you a brief tutorial on a handy command: LIKE**
+**The Galactic Federation has sent you a brief tutorial on a handy command: `LIKE`**
 
 ![Explain](assets/like_explain.png)
 ![Ex](assets/like.png)

@@ -25,7 +25,7 @@ draft: false
 You found the location of the Legendary Confetti Cannon but it is locked away behind a door made of titanium 
 and can only be unlocked with the smallest key on the planet! 
 
-**To help you out, the Galactic Federation has sent you a reminder on how to use 'MIN()' from a previous activity.**
+**To help you out, the Galactic Federation has sent you a reminder on how to use `MIN()` from a previous activity.**
 
 ![Explain](../activity5/assets/max_min.png)
 
@@ -33,9 +33,9 @@ and can only be unlocked with the smallest key on the planet!
 {{%notice tip%}}
 * Hint 1: Remember the advice from the Galactic Federation: `SELECT [column/column property] FROM [database] [optional condition];`
 
-* Hint 2: Condition: `WHERE [column_name] ['IN()'/'NOT IN()'];` 
+* Hint 2: Condition: `WHERE [column_name] [IN()/NOT IN()];` 
 
-* Hint 3: Do you need to use 'IN()' or 'NOT IN()' to show the 'key'?
+* Hint 3: Do you need to use `IN()` or `NOT IN()` to show the 'key'?
 {{%/notice%}}
 <!-- SQL Type In Activity -->
 

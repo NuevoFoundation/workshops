@@ -36,7 +36,9 @@
 .img {
   position: relative;
   display: inline-block;
-  top: -2.3vw;
+  bottom: 2.3vw;
+  height: 5vw;
+  width: 8vw;
 }
 
 /* Button Format (default) */

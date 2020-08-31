@@ -1,10 +1,16 @@
 function drop(ev) {
   ev.preventDefault();
   var data = ev.dataTransfer.getData("content");
-  ev.target.appendChild(document.getElementById(data));
   var div_num = ev.currentTarget.id;
- 
+  var current = document.getElementById(div_num);
   
+  /* If drop div already has a block, don't replace image block */
+  var inDivs = current.getElementsByTagName("img");
+  if(inDivs.length == 0 && data == "drag1") {
+    ev.target.appendChild(document.getElementById(data));
+  }
+  
+  // Check if correct ladder is chosen
   if(div_num == "div4" && data == "drag1") {
     alert("You found the correct ladder! Go talk to the Dear Leader!");
   
@@ -13,8 +19,16 @@ function drop(ev) {
     display1.setAttribute("style","visibility:visible");
   
     //Turn box green
-  var box = document.getElementById("div4");
-  box.setAttribute("style","border:5px solid lime");
+    var box = document.getElementById("div4");
+    box.setAttribute("style","border:5px solid lime");
+    
+    //Disable dragging ladders
+    var img1 = document.getElementById('drag1');
+    img1.setAttribute('draggable', false);
+    var img2 = document.getElementById('drag2');
+    img2.setAttribute('draggable', false);
+    var img3 = document.getElementById('drag3');
+    img3.setAttribute('draggable', false);
   }
   else if(div_num == "div4") {
     alert("Try again Space Cadet!");

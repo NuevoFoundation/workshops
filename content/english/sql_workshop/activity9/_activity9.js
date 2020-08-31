@@ -69,14 +69,24 @@ function confirm() {
   }
   
   //Turn box green if correct
-  
   if(first == 4) {  
     var box = document.getElementById("lock1");
     box.setAttribute("style","border:10px solid lime");
+    
+    //Disable button clicking
+    var a1 = document.getElementById("first_up");
+    a1.setAttribute('onclick', false);
+    var a3 = document.getElementById("first_down");
+    a3.setAttribute('onclick', false);
+    
   }
   if(second == 0) {
     var box = document.getElementById("lock2");
     box.setAttribute("style","border:10px solid lime");
+    var a2 = document.getElementById("sec_up");
+    a2.setAttribute('onclick', false);
+    var a4 = document.getElementById("sec_down");
+    a4.setAttribute('onclick', false);
   }
 }
 

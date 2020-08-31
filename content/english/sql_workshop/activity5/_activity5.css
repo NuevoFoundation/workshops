@@ -2,8 +2,8 @@
 .codeBlocks {
   float: right;
   margin: 2vw;
-  width: 5vw;
-  height: 10vw;
+  width: 6vw;
+  height: 11vw;
   border: 1px solid white;
 }
 
@@ -28,5 +28,14 @@
   background-repeat: no-repeat;
   width: 78vw;
   height: 48vw;
+  border: 10px solid green;
 }
 
+/* Positions for ladder images inside rectangles */
+.img {
+  position: relative;
+  display: inline-block;
+  bottom: 2.3vw;
+  height: 10vw;
+  width: 8vw;
+}

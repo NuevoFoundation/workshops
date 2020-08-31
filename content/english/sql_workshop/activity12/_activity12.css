@@ -1,13 +1,19 @@
+/* The container holding the "did you find the inventor" image */
 .inventor_div {
-  padding-top: 10vw;
-  padding-left: 5vw;
-  padding-bottom: 0vw;
-  padding-right: 1vw;
   background-image: url('assets/find.png');
   background-size: contain;
   background-repeat: no-repeat;
-  width: 78vw;
-  height: 48vw;
+  width: 100%;
+  height: 25vw;
+}
+
+/* The child container of inventor_div, holds the text box insert area */
+.box_half {
+  padding-top: 9vw;
+  padding-left: 5vw;
+  float: left;
+  width: 57vw;
+  height: 23vw;
 }
 
 .text_box {
@@ -28,12 +34,25 @@
   color: #228B22;
 }
 
+/* Placement of the second check button in inventor_div */
+.half {
+  float: right;
+  padding-top: 3.5vw;
+  padding-right: 4vw;
+  height: 23vw;
+  width: 17vw;
+}
+
+/* Style for the second check button (for the inventor_div) */
 .second {
-  background-color: #4dff4d;
-  color: white;
+  background-color: transparent;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: black;
   text-align: left;
   display: inline-block;
-  font-size: 1.5vw;
+  font-size: 2vw;
   margin: 4px 2px;
   border-radius: 25%;
+  width: 11vw;
 }

@@ -43,8 +43,8 @@ alasql("INSERT INTO items VALUES ('key','1738-09-06','Fun Capital','gold',1,'1 l
 alasql("CREATE TABLE people(name STRING, favorite_food STRING, city_location STRING, favorite_subject STRING, favorite_movie STRING)");
 
 alasql("INSERT INTO people VALUES ('Olivia Windsor','Hamburger','Fun Capital', 'science','Hidden Figures')");
-alasql("INSERT INTO people VALUES ('Mr. ___','pizza','LEGO City', 'engineering','The LEGO movie')");
+alasql("INSERT INTO people VALUES ('Mr. Emmet','pizza','LEGO City', 'engineering','The LEGO movie')");
 alasql("INSERT INTO people VALUES ('Dr. Phi','Pizza','Playground City', 'math','Big Hero 6')");
-alasql("INSERT INTO people VALUES ('Mrs. ___','Hotdog','City of Games', 'technology','Meet the Robinsons')");
-alasql("INSERT INTO people VALUES ('Dr. ___','Taco','Seriously Fun', 'science','WALL-E')");
-alasql("INSERT INTO people VALUES ('Mrs. ___','pizza','Playground City', 'engineering','Star Wars)");
+alasql("INSERT INTO people VALUES ('Caroline Jones','Hotdog','City of Games', 'technology','Meet the Robinsons')");
+alasql("INSERT INTO people VALUES ('Eva Dragonheart','Taco','Seriously Fun', 'science','WALL-E')");
+alasql("INSERT INTO people VALUES ('Duchess Leia','pizza','Playground City', 'engineering','Star Wars)");

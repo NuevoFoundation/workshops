@@ -32,7 +32,7 @@ function sql()
   
   if(input == ans1 || input == ans2)
   {
-    document.getElementById("story").innerHTML = "Thats the correct command!";
+    document.getElementById("story").innerHTML = "That's the correct command! Did you figure out who the inventor is?";
   }
   else
   {
@@ -45,7 +45,7 @@ function check()
    var potential = document.getElementById("person").innerHTML;
    if (potential == "Dr. Phi")
    {
-    document.getElementById("answer").innerHTML = "You found him! Now the planet can be saved!";
+    document.getElementById("answer").innerHTML = "You found the inventor! Now he can combine the Legendary Totems of Fun into a more powerful Totem! This Totem unleashes a force field around the Plnaet of Fun! The planet is saved from the invaders!";
     document.getElementById("plot").src="assets/Planet_Fun.png";
    }
    else

@@ -17,20 +17,24 @@ draft: false
 <script type="text/javascript" src="_activity12.js"></script>
 <!-- Embed YouTube Video Link here when ready -->
 
-## All the guests are here! We need to find the Inventor before its too late!
+## All the guests are here! We need to find the Inventor before it's too late!
 
-Everyone is having a good time at the party! The inventor is somewhere here, and we need to find the inventor!
+Everyone is having a good time at the party! The inventor has also arrived, now we need to figure out who the inventor is! No one knows what the inventor looks like, but the Dear Leader has given you hints on how to find the inventor!
 
-### The Information that You Have:
+### The Information You Are Given:
 {{%notice info%}}
-* Favorite food is Pizza
+* The Inventor's favorite food is Pizza.
 
-* Favorite subject is Math
+* The Inventor's favorite subject is Math.
 
-* Favorite movie is Big Hero 6
+* The Inventor's favorite movie is "Big Hero 6".
 {{%/notice%}}
 
-## Task 12: Who is the inventor? Use the 'people' database
+### Task 12: Using the database called "people", figure out who the inventor is!
+{{%notice tip%}}
+* Hint 1: The command you use should display the entire "people" database.
+* Hint 2: The command is similar to the one in activity 1 (Learn the `SELECT` command).
+{{%/notice%}}
 
 {{< rawhtml >}}
 <div class="terminal_div" id="terminal_div">
@@ -51,11 +55,17 @@ Everyone is having a good time at the party! The inventor is somewhere here, and
 <h4 id="story"></h4>
 
 <div class = "inventor_div" id="inventor_div">
-	<div class = "text_box">
-		<h3 id = "person" contenteditable="true" onclick="document.getElementById('person').innerHTML = ''">Enter person here!<h3>
+  <div class = "box_half" id = "box_half">
+	  <div class = "text_box">
+		  <h3 id = "person" contenteditable="true" onclick="document.getElementById('person').innerHTML = ''">Enter person here!<h3>
+    </div>
   </div>
-  <button class="button second" onclick="check()"> Enter </button>
+  
+  <div class= "half" id = "half">
+    <button class="button second" onclick="check()"> Check! </button>
+  </div>
 </div>
+
 <h4 id="answer"></h4>
 <img id = "plot">
 {{< /rawhtml >}}
