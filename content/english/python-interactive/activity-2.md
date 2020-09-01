@@ -5,6 +5,9 @@ weight: 3
 draft: false
 translationKey: "python-INTERACTIVE-activity-2"
 ---
+## Pre-reqs
+- <a href="../../python-basics/lists" target="_blank">Lists</a>
+  
 ## How to Create and Store your Menu
 Now that we have a banner for your restaurant, let's start thinking about how to organize the information about your dishes. Remember how earlier you decided what foods and beverages you wanted to sell at your restaurant? Well, now we need to figure out how to store all of that information. We need to store the name, price, and description of every item on your menu.
 In order to do this, we can use what's called a Python dictionary to keep track of this information.
@@ -18,7 +21,7 @@ Here's the structure we'll use:
 By making sure to follow this structure when creating the **nested dictionary**, we can ensure that accessing the price and description later will be simple.
 
 Here's a sample nested dictionary, but remember to apply the structure from above when making your menu!
-```
+```python
 #structure
 #{word:[meaning, partOfSpeech, pronounciation]}
 smallDictionary = {'toy':['an object kids play with', 'noun', 'toi'], 'walk':['a way to move at a regular and slow pace, one foot lifted after the other, in sequence', 'verb', 'wok']}

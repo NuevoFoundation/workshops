@@ -1,10 +1,14 @@
 ---
 title: "Activity 1 - Create your Restaurant Banner"
 date: 2019-07-25T13:24:17-07:00
+prereq: "Python Basics - Print statements"
 weight: 3
 draft: false
 translationKey: "python-INTERACTIVE-activity-1"
 ---
+## Pre-reqs
+- <a href="../../python-basics/python-console/writing-to-console" target="_blank">Printing with Python</a>
+  
 ## Create your Restaurant Banner
 When setting up your restaurant's virtual cashier, we're going to have to first make sure we have a restaurant banner with the name of your restaurant. Since we want an actual banner, not just plain text for the name, let's use ASCII art! ASCII art uses special symbols such as `()`, `{}`, `*` and other keys to create images and words.
 For this activity, we can make use of this online resource to convert text into ASCII art.
