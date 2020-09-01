@@ -45,7 +45,7 @@ function check()
    var potential = document.getElementById("person").innerHTML;
    if (potential == "Dr. Phi")
    {
-    document.getElementById("answer").innerHTML = "You found the inventor! Now he can combine the Legendary Totems of Fun into a more powerful Totem! This Totem unleashes a force field around the Plnaet of Fun! The planet is saved from the invaders!";
+    document.getElementById("answer").innerHTML = "You found the inventor! Now he can combine the Legendary Totems of Fun into a more powerful Totem! This Totem unleashes a force field around the Planet of Fun! The planet is saved from the invaders!";
     document.getElementById("plot").src="assets/Planet_Fun.png";
    }
    else
