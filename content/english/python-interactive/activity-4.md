@@ -17,7 +17,7 @@ Hint: Use if statements to catch incorrect input.
 
 Hint: Return a boolean value, either `True` if the input is valid or `False` if the input is invalid.
 
-Hint: A helpful string method to analyze the orderItemInput would be str.split()... what should we split by?
+Hint: A helpful string method to analyze the orderItemInput would be `str.split()`... what should we split by?
 
 Since we can check customer input, let's go back to the `main()` function and add a while loop in the else block under the call to get the customer's first item. This while loop will continue to ask the user to input a valid order item and quantity just like earlier until `orderItemChecking(item)` returns `True`. Remember to store the result of the `input()` in the same variable as you used when you first asked for input, otherwise the while loop can't continue.
 
