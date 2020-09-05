@@ -17,7 +17,7 @@ Here's a sample interaction with the console you could have!
 ![Python interactive with Console](INTERACTIVE.jpg)
 
 To do this, we're going to need to code it all out on a single Repl.it document. Follow the link below and remember to fork it before starting to code! Happy Coding!
-https://repl.it/@nuevofoundation/WearyQuestionablePostscript#main.py
+https://repl.it/@nuevofoundation/PythonInteractive#main.py
 
 Since this is an Intermediate level workshop, we're going to need to know some Python Basics, but don't worry, if you're unsure of how something works, just check out these links and you're going to be good to go!
 
