@@ -12,7 +12,7 @@ draft: false
 When setting up your restaurant's virtual cashier, we're going to have to first make sure we have a restaurant banner with the name of your restaurant. Since we want an actual banner, not just plain text for the name, let's use ASCII art! ASCII art uses special symbols such as `()`, `{}`, `*` and other keys to create images and words.
 For this activity, we can make use of this online resource to convert text into ASCII art.
 
-https://onlineasciitools.com/convert-text-to-ascii-art
+[Text to ASCII converter](https://onlineasciitools.com/convert-text-to-ascii-art)
 
 For example, we can convert the word "Restaurant" into 
 ASCII art. Take a look at the code below!
