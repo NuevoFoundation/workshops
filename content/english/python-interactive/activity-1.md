@@ -4,7 +4,6 @@ date: 2019-07-25T13:24:17-07:00
 prereq: "Python Basics - Print statements"
 weight: 3
 draft: false
-translationKey: "python-INTERACTIVE-activity-1"
 ---
 ## Pre-reqs
 - <a href="../../python-basics/python-console/writing-to-console" target="_blank">Printing with Python</a>

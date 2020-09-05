@@ -3,7 +3,6 @@ title: "Activity 2 - How to Create and Store your Menu"
 date: 2019-07-25T13:24:17-07:00
 weight: 3
 draft: false
-translationKey: "python-INTERACTIVE-activity-2"
 ---
 ## Pre-reqs
 - <a href="../../python-basics/lists" target="_blank">Lists</a>

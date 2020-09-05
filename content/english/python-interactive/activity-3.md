@@ -3,7 +3,6 @@ title: "Activity 3 - Welcome Customer to your Restaurant & Display Menu"
 date: 2019-07-25T13:24:17-07:00
 weight: 3
 draft: false
-translationKey: "python-INTERACTIVE-activity-3"
 ---
 ## Welcome Customer to your Restaurant & Display Menu
 Now that we have both a restaurant banner to display to the customer and a menu stored in your Python Program, let's display your menu to the customer and welcome them in. In this activity, we're going to write 2 helper functions to accomplish this.

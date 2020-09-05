@@ -3,7 +3,6 @@ title: "Activity 4 - Interacting with the Customer"
 date: 2019-07-25T13:24:17-07:00
 weight: 3
 draft: false
-translationKey: "python-INTERACTIVE-activity-4"
 ---
 ## Interacting with the Customer
 Let's continue interacting with the customer and get their order! In the `main()` function, the next thing we need to do is create an empty list stored in the variable `listOrderItems` so that any items they will eventually order are stored here.

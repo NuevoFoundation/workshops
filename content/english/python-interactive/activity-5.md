@@ -3,7 +3,6 @@ title: "Activity 5 - Analyzing the customer's order"
 date: 2019-07-25T13:24:17-07:00
 weight: 3
 draft: false
-translationKey: "python-INTERACTIVE-activity-5"
 ---
 ## Pre-reqs
 - <a href="../../python-basics/functions" target="_blank">Functions</a>
