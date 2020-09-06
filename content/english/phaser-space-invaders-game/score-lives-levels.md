@@ -1,0 +1,53 @@
+---
+title: "Adding a Score, Lives, and Levels"
+date: 2020-08-20T11:45:38-07:00
+draft: false
+weight: 10
+---
+
+Now, we will add some numbers to quantify our game! The easiest one to implement is the score. We will start by creating a score variable and printing its value at the top left of the screen.
+
+/// show code
+
+We will update it in the hitEnemy function so that the player will earn points to their score if they defeat an enemy
+
+////show code
+
+Now we will add levels. We will initialize it the same way we did for the score, but this time we will print it to the middle of the screen instead of the top left
+
+//// show code
+
+We will make levels pretty simple: whenever the player destroys all of the enemies, the next level will be reached, respawning all of the enemies. In order to make each level more difficult than the last, we will make the enemies shoot more often. To make the enemies shoot more often, let’s create a difficulty variable like this:
+
+//// variable
+
+Now in the enemyShoot() method, we will use this difficulty variable to control how often the enemies shoot like this:
+
+///// show code
+
+With this setup, by changing the difficulty variable, we change how often the enemies shoot. A lower difficulty will make the game harder because it will make the probability that an enemy shoots harder.
+
+
+Now to make the level update when the player destroys all of the enemies, we will create a levelClear() method like this:
+
+//// show method
+
+Note how we have to create a new timer every time we create new enemies or else the enemies and timer might not be in sync. Also, note how we decrement the difficulty variable less when we reach 200 because the difficulty ramps up much quicker at that point.
+
+Now, we will add lives. We will again use a similar method to initialize it and put it on the top right of the screen
+
+//// show code
+
+Now, in order to lose a life whenever you get hit, now let’s add this code to hurtPlayer(). However, in order for the lives to mean anything, let’s make it a Game Over when the player. We will start by making some text that’s invisible on the screen in the create() method.
+
+//// show code
+
+We will make this text visible when it is a game over. We will do this in the hurtPlayer() method
+
+//// show code
+
+This makes the character not spawn, show the game over text, and restart the game if the player clicks on the screen. Only thing now is that we need to create the restart() method that this code refers to.
+
+////show restart method
+
+This resets everything to start the game over
