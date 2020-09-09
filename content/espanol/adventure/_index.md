@@ -6,7 +6,6 @@ prereq: "Conceptos básicos de Python - Escritura en consola (imprimir), Lectura
 download: ""
 draft: false
 icon: "fab fa-python"
-weight: 1
 ---
 
 # Parte 1 – ¡Bienvenido!
