@@ -2,7 +2,6 @@
 var p6 = null;
 prev.push(p6);
 bools.push(null);
-console.log("length of prev " + prev.length);
 div_array.push('div11');
 div_array.push('div12');
 ans_array.push('answer6');
@@ -156,6 +155,10 @@ function check(){
     /* Changes terminal screen */
     var screen = document.getElementById("terminal_div");
     screen.style.backgroundImage = "url('../media/Accept.png')"
+    
+    //Display the checkmark
+    var checkmark = document.getElementById("resume_plot");
+    checkmark.setAttribute("style","visibility:visible");
     
     hide_boxes();
   }

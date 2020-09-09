@@ -17,7 +17,7 @@ draft: false
 ## Task 2: Travel to the Planet of Fun!
 
 You need to program your rocket ship GPS to go to the Planet of Fun by rearranging the code blocks. To find the coordinates,
-the Galactic Federation has given you the next SQL command: `WHERE!`
+the Galactic Federation has given you the next SQL command: `WHERE`!
 
 ### What the command does:
 The `WHERE` command allows you to only show data that you want.
@@ -111,4 +111,11 @@ The `WHERE` command allows you to only show data that you want.
 
 <img src="assets/GPS.png" id="gps" alt="gps" style="visibility:hidden"/>
 
+<!-- Tells User to continue mission -->
+<div class="resume_plot" id="resume_plot" style="visibility:hidden">
+  <div class="alert">
+    <span id="check">&#10003;</span>
+    You've completed the task! Continue to the next mission!
+  </div>
+</div>
 {{< /rawhtml >}}

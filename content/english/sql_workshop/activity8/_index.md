@@ -67,8 +67,15 @@ the Confetti Cannon (reminder: the Confetti Cannon was created on 1738-09-12).
 
 <br>
 
-<!-- Unhide the Confetti Cannon -->
+<!-- Unhide the buffet table location -->
 <img id="gps" alt="gps" style="visibility:hidden; pointer-events: none;"/>
 
+<!-- Tells User to continue mission -->
+<div class="resume_plot" id="resume_plot" style="visibility:hidden">
+  <div class="alert">
+    <span id="check">&#10003;</span>
+    You've completed the task! Continue to the next mission!
+  </div>
+</div>
 
 {{< /rawhtml >}}

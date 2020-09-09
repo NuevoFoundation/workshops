@@ -1,7 +1,7 @@
 /* Positions and style for the code blocks */
 .codeBlocks {
   margin: 1vw;
-  width: 11vw;
+  width: 10vw;
   height: 6vw;
 }
 
@@ -18,8 +18,14 @@
   padding-top: 12vw;
   padding-left: 9vw;
   padding-bottom: 0vw;
-  padding-right: 6vw;
+  padding-right: 4vw;
   width: 79vw;
   height: 48vw;
   overflow: hidden;
+}
+
+/* Positions for code block images inside rectangles */
+.img {
+  max-width: 90%;
+  max-height: 90%;
 }

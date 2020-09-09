@@ -56,3 +56,11 @@ function debug(input, ans)
   }
   display.innerHTML = output;
 }
+
+//highlights user input in green
+function green()
+{
+  var display = document.getElementById("commands");
+  console.log("disaply is " + display.innerHTML);
+  display.innerHTML = "<span class='right'>" + display + "</span>";
+}

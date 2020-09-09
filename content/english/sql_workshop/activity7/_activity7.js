@@ -34,6 +34,10 @@ function drop(ev) {
     img2.setAttribute('draggable', false);
     var img3 = document.getElementById('drag3');
     img3.setAttribute('draggable', false);
+    
+    //Display the checkmark
+    var checkmark = document.getElementById("resume_plot");
+    checkmark.setAttribute("style","visibility:visible");
   }
   else if(div_num == "div4") {
     alert("Try again Space Cadet!");
@@ -48,7 +52,7 @@ function sql()
   document.getElementById("sqlcommand").style.visibility="visible";
 
   var user = document.getElementById("commands").innerHTML;
-  debug(user.toLowerCase(),"select min(height) from items where object in ('key');");
+  debug(user.toLowerCase(),"select min(height) from items where object in('key');", "select * from items where object in('key');");
   var array = alasql("MATRIX OF " + user);
   var ans = JSON.stringify(alasql(user));
 
@@ -67,17 +71,20 @@ function sql()
   sqlToTable(headArr, array);
   
   /*change answer here */
-  var ans1 = "select min(height) from items where object in ('key');";
-  var ans2 = "select min(height) from items where object in ('key')";
-  var ans3 = "select * from items where object in ('key')";
-  var ans4 = "select * from items where object in ('key');";
+  var ans1 = "select min(height) from items where object in('key');";
+  var ans2 = "select * from items where object in('key');";
   
   //Change string to lower case
   var input = user.toLowerCase();
   
-  if(input == ans1 || input == ans2 || input == ans3 || input == ans4)
+  if(input == ans1 || input == ans2)
   {
+    green();
     document.getElementById("story").innerHTML = "Amazing work as always, space cadet! You found the key!";
+    
+    /* Changes terminal screen */
+    var screen = document.getElementById("terminal_div");
+    screen.style.backgroundImage = "url('../media/green.png')"
   }
   else
   {

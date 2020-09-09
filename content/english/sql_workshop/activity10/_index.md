@@ -39,6 +39,7 @@ Let's go over the `SUM` Command!
 
 {{%notice tip%}}
 * Hint 1: The command follows very closely to the example and the `AVG()` example (previous task).
+* Hint 2: The 'population' column holds information on the number of individuals per city.
 {{%/notice%}}
 
 <!-- SQL Type In Activity -->
@@ -60,5 +61,13 @@ Let's go over the `SUM` Command!
     <tr></tr>
   </table>
   <h4 id="story"></h4>
+  
+  <!-- Tells User to continue mission -->
+  <div class="resume_plot" id="resume_plot" style="visibility:hidden">
+    <div class="alert">
+      <span id="check">&#10003;</span>
+      You've completed the task! Continue to the next mission!
+    </div>
+  </div>
 
 {{< /rawhtml >}}

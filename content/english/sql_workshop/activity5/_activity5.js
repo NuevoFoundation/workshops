@@ -29,6 +29,10 @@ function drop(ev) {
     img2.setAttribute('draggable', false);
     var img3 = document.getElementById('drag3');
     img3.setAttribute('draggable', false);
+    
+    //Display the checkmark
+    var checkmark = document.getElementById("resume_plot");
+    checkmark.setAttribute("style","visibility:visible");
   }
   else if(div_num == "div4") {
     alert("Try again Space Cadet!");
@@ -62,19 +66,23 @@ function sql()
   sqlToTable(headArr, array);
   
   /*change answer here */
-  var ans1 = "select max(height) from items where object in ('ladder');";
-  var ans2 = "select max(height) from items where object in ('ladder')";
-  var ans3 = "select * from items where object in ('ladder')";
-  var ans4 = "select * from items where object in ('ladder');";
+  var ans1 = "select max(height) from items where object in('ladder');";
+  var ans2 = "select * from items where object in('ladder');";
   
   //Change string to lower case
   var input = user.toLowerCase();
   
-  if(input == ans1 || input == ans2 || input == ans3 || input == ans4)
+  if(input == ans1 || input == ans2)
   {
+    green();
     document.getElementById("commands").innerHTML = "<span class='right'>" + user + " </span>";
     document.getElementById("story").innerHTML = "Amazing work as always, space cadet! You discovered that the Planet of Fun's Dear Leader is Olivia Windsor! Now you need to figure out a way to get to them!";
-    if(input == ans1 || input == ans2)
+    
+    /* Changes terminal screen */
+    var screen = document.getElementById("terminal_div");
+    screen.style.backgroundImage = "url('../media/green.png')"
+    
+    if(input == ans1)
     {
       var display_legend = document.getElementById("legend");
       display_legend.setAttribute("style","visibility:visible");

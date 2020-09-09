@@ -37,6 +37,11 @@ command in hopes that you will be able to overcome challenges that have yet to c
 
 ![Syntax](assets/Tutorial.png)
 
+{{%notice warning%}}
+* Column and database names are **case sensitive**, this means that if the names are all lower-case, please make sure they are lower-case when you type them!
+* Please don't forget the semicolon at the end of a SQL command!
+{{%/notice%}}
+
 Hopefully our advice will help you along your journey. Good luck Space Cadet!
 
 <br/>

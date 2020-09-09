@@ -63,10 +63,9 @@ and can only be unlocked with the smallest key on the planet!
 <br>
 {{< /rawhtml >}}
 
-
 ### Choose and drag the correct key onto the lock to continue your adventure!
 {{%notice note%}}
-The correct key will be highlighted in green
+The height corresponds to the number of loops at the base of the key. The correct key will be highlighted in green.
 {{%/notice%}}
 
 {{< rawhtml >}}
@@ -104,4 +103,12 @@ The correct key will be highlighted in green
 
 <!-- Unhide the Confetti Cannon -->
 <img id="cannon" alt="cannon" style="visibility:hidden"/>
+
+<!-- Tells User to continue mission -->
+<div class="resume_plot" id="resume_plot" style="visibility:hidden">
+  <div class="alert">
+    <span id="check">&#10003;</span>
+    You've completed the task! Continue to the next mission!
+  </div>
+</div>
 {{< /rawhtml >}}

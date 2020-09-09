@@ -30,7 +30,6 @@ You are tasked to choose which food to serve at the party! Each city has their o
 Hint: The command follows closely to the example above.
 {{%/notice%}}
 
-
 {{< rawhtml >}}
 <div class="terminal_div" id="terminal_div">
     <div class = "outer">
@@ -66,4 +65,11 @@ Hint: The command follows closely to the example above.
 
 <h5 id="plot" style="visibility:hidden"> You did it Space Cadet! Now the inhabitants can finally begin the party! </h5> 
 
+<!-- Tells User to continue mission -->
+<div class="resume_plot" id="resume_plot" style="visibility:hidden">
+  <div class="alert">
+    <span id="check">&#10003;</span>
+    You've completed the task! Continue to the next mission!
+  </div>
+</div>
 {{< /rawhtml >}}

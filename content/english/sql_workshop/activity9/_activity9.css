@@ -1,8 +1,8 @@
 /* Positions vault text box */
 .lock {
   float: left;
-  width: 9vw;
-  height: 8vw;
+  width: 34%;
+  height: 20%;
   border: 10px solid white;
   border-radius: 5px;
   resize: none;
@@ -15,18 +15,34 @@
   
 }
 
+#left_div {
+  float: left;
+  padding-top: 15%;
+  padding-left: 10%;
+  width: 50%;
+  height: 100%;
+}
+
+#right_div {
+  float: right;
+  padding-top: 31%;
+  padding-right: 17%;
+  width: 50%;
+  height: 100%;
+}
+
 /* Vault buttons (Adding)*/
 .first_up, .sec_up {
   float: left;
   background-color:#42f56c;
   border: none;
   color: white;
-  padding: 15px 32px;
   text-align: center;
   display: inline-block;
-  font-size: 50px;
+  font-size: 5vw;
   margin: 1.5vw;
-  width: 9vw;
+  width: 34%;
+  line-height: 2vw;
   outline: none;
 }
 
@@ -36,22 +52,21 @@
   background-color: #FF0000;
   border: none;
   color: white;
-  padding: 0px 32px;
   text-align: center;
   display: inline-block;
   font-size: 70px;
   margin: 1.7vw;
-  width: 9vw;
+  width: 34%;
+  line-height: 2vw;
   outline: none;
   
 }
 
 /* Vault confirm button */
 .vault_button {
-  float: right;
   text-align: left;
   display: inline-block;
-  font-size: 30px;
+  font-size: 2vw;
   font-family: courier;
   color: #43a4e0;
   font-weight: bold;
@@ -63,10 +78,6 @@
 
 /* Vault container with background image as vault */
 .vault_div {
-  padding-top: 12vw;
-  padding-left: 10vw;
-  padding-bottom: 1vw;
-  padding-right: 13vw;
   background-image: url('assets/Vault.png');
   background-size: contain;
   background-repeat: no-repeat;

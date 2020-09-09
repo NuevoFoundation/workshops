@@ -25,14 +25,22 @@ function sql()
   
   /*change answer here */
   var ans1 = "select sum(population) from planet;";
-  var ans2 = "select sum(population) from planet";
   
   //Change string to lower case
   var input = user.toLowerCase();
   
-  if(input == ans1 || input == ans2)
+  if(input == ans1)
   {
+    green();
     document.getElementById("story").innerHTML = "Now we know how many guests will be attending! Let's choose what food to bring to the party!"; 
+    
+    /* Changes terminal screen */
+    var screen = document.getElementById("terminal_div");
+    screen.style.backgroundImage = "url('../media/green.png')"
+    
+    /* Display the checkmark */
+    var checkmark = document.getElementById("resume_plot");
+    checkmark.setAttribute("style","visibility:visible");
   }
   else
   {

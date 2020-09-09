@@ -2,10 +2,10 @@
 .codeBlocks {
   display: inline-block;
   float: left;
-  width: 8vw;
+  width: 9vw;
   height: 5vw;
-  margin: 1vw;
   border: 1px solid green;
+  margin: 0.5vw;
 }
 
 /* Positions and style for the drop places */
@@ -35,10 +35,9 @@
 /* Positions for code block images inside rectangles */
 .img {
   position: relative;
-  display: inline-block;
-  bottom: 2.3vw;
-  height: 5vw;
-  width: 8vw;
+  bottom: 25px;
+  max-height: 90%;
+  max-width: 90%;
 }
 
 /* Button Format (default) */
@@ -77,4 +76,21 @@
   font-size: 1.5vw;
   margin: 4px 2px;
   border-radius: 25%;
+}
+
+/* Completion Banner */
+.alert {
+  padding: 20px;
+  background-color: #78ff62;
+  color: #008f00;
+  font-size: 18px;
+}
+
+#check {
+  margin-right: 15px;
+  color: #008f00;
+  font-weight: bold;
+  float: left;
+  font-size: 30px;
+  line-height: 20px;
 }

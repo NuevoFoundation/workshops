@@ -145,7 +145,10 @@ function check(){
     var display = document.getElementById("database");
     display.src = "assets/Database.png";
     display.setAttribute("style","visibility:visible");
-    //alert("Congrats Space Cadet! Scroll Down To See The Results!");
+    
+    //Display the checkmark
+    var checkmark = document.getElementById("resume_plot");
+    checkmark.setAttribute("style","visibility:visible");
     
     /* Changes terminal screen */
     var screen = document.getElementById("terminal_div");

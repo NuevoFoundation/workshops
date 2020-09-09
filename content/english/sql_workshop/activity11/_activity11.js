@@ -25,21 +25,24 @@ function sql()
   
   /*change answer here */
   var ans1 = "select * from planet group by favorite_food;";
-  var ans2 = "select * from planet group by favorite_food";
   
   //Change string to lower case
   var input = user.toLowerCase();
   
-  if(input == ans1 || input == ans2)
+  if(input == ans1)
   {
+    green();
     document.getElementById("story").innerHTML = "Nice job! The citizens on the planet of fun use a food-maker-izer to instantly cook food! Select the correct food items that match the inhabitant's favorite foods!"; 
+    
+    /* Changes terminal screen */
+    var screen = document.getElementById("terminal_div");
+    screen.style.backgroundImage = "url('../media/green.png')"
   }
   else
   {
     document.getElementById("story").innerHTML = "Not quite the right command. Keep trying!";
   }
 }
-
 
 /* Create global button array */
 var food_buttons = ["cake_button","ic_button","hd_button","burger_button","pizza_button","taco_button"];
@@ -167,6 +170,11 @@ function confirm() {
     
     var display = document.getElementById("plot");
     display.setAttribute("style","visibility:display;");
+    
+    /* Display the checkmark */
+    var checkmark = document.getElementById("resume_plot");
+    checkmark.setAttribute("style","visibility:visible");
+    
   } else {
     alert("Check to make sure only the favorite foods are selected");
   }

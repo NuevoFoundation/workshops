@@ -25,21 +25,28 @@ function sql()
   
   /*change answer here */
   var ans1 = "select * from items where date_created like '%-10-%';";
-  var ans2 = "select * from items where date_created like '%-10-%'";
   
   //Change string to lower case
   var input = user.toLowerCase();
   
-  if(input == ans1 || input == ans2)
+  if(input == ans1)
   {
+    green();
     document.getElementById("story").innerHTML = "Amazing work as always, space cadet! The Legendary Totem of Fun: Infinite Buffet Table is in Fun Capital!";
-
     var display_legend = document.getElementById("legend");
     display_legend.setAttribute("style","visibility:visible");
     
     var display = document.getElementById("gps");
     display.src = "assets/GPSTerminal2.png";
     display.setAttribute("style","visibility:visible");
+    
+    /* Changes terminal screen */
+    var screen = document.getElementById("terminal_div");
+    screen.style.backgroundImage = "url('../media/green.png')"
+    
+    /*Display the checkmark */
+    var checkmark = document.getElementById("resume_plot");
+    checkmark.setAttribute("style","visibility:visible");
     
   }
   else

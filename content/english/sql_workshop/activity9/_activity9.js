@@ -63,6 +63,10 @@ function confirm() {
     var display2 = document.getElementById("buffet");
     display2.src="assets/Buffet.png";
     display2.setAttribute("style","visibility:visible");
+    
+    /* Display the checkmark */
+    var checkmark = document.getElementById("resume_plot");
+    checkmark.setAttribute("style","visibility:visible");
   }
   else {
     alert("Try Again, Space Explorer!");
@@ -117,14 +121,18 @@ function sql()
   
   /*change answer here */
   var ans1 = "select avg(population) from planet;";
-  var ans2 = "select avg(population) from planet";
   
   //Change string to lower case
   var input = user.toLowerCase();
   
-  if(input == ans1 || input == ans2)
+  if(input == ans1)
   {
+    green();
     document.getElementById("story").innerHTML = "Nice work Space Cadet! You found the average population size!";
+    
+    /* Changes terminal screen */
+    var screen = document.getElementById("terminal_div");
+    screen.style.backgroundImage = "url('../media/green.png')"
   }
   else
   {

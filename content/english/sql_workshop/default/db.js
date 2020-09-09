@@ -28,7 +28,7 @@ alasql("CREATE TABLE items(object STRING, date_created STRING, location STRING, 
 alasql("INSERT INTO items VALUES ('totem','1738-09-12','City of Fun', 'sprinkles',10,'Confetti Cannon')");
 alasql("INSERT INTO items VALUES ('totem','1738-10-12','Fun Capital','blue',10,'Infinite Buffet Table')");
 alasql("INSERT INTO items VALUES ('totem','1738-11-02','Playground City','red',10,'Red stuff goes boom')");
-alasql("INSERT INTO items VALUES ('totem','UNKNOWN','UNKNOWN','gold',30,'UNKNOWN')");
+alasql("INSERT INTO items VALUES ('totem','1729-01-03','UNKNOWN','gold',30,'UNKNOWN')");
 
 alasql("INSERT INTO items VALUES ('ladder','1738-09-01','Fun Capital','red',100,'Tall ladder')");
 alasql("INSERT INTO items VALUES ('ladder','1738-09-02','Fun Capital','blue',60,'Medium ladder')");
