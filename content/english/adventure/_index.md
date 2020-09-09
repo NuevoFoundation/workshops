@@ -7,7 +7,6 @@ prereq: "Python Basics - Writing to Console (Print), Reading from Console, Strin
 download: ""
 draft: false
 icon: "fab fa-python"
-weight: 11
 ---
 
 # Part 1 – Welcome!
@@ -33,3 +32,9 @@ Let’s try it out!
  src="https://repl.it/@nuevofoundation/PythonGuessAdventureFullSample?lite=true&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 What did you all think? We’re now going to learn some cool skills that will allow us to create our own stories.
+
+## Table of Contents
+<details>
+<summary>Sections</summary>
+{{% children %}}
+</details>

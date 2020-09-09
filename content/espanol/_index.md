@@ -10,5 +10,5 @@ hidemetadata: true
 
 ## Pautas para colaboradores (en inglés)
 
-- [Pautas para colaboradores](../guidelines/)
+- [Pautas para colaboradores](guidelines/)
 - [Pautas para desarrolladores de sitios web](../guidelines/web-developer)
