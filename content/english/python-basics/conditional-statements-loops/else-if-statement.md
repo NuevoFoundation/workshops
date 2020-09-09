@@ -1,7 +1,7 @@
 ---
-title: "If-else Condition"
+title: "Else-if Condition"
 draft: false
-weight: 3
+weight: 2
 ---
 
 We have already learned some basic if-else conditions from previous workshops, click on the link below if you want to review.

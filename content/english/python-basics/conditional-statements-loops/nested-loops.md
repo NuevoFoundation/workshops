@@ -2,7 +2,7 @@
 title: "Nested loops"
 description: "Advanced applications applications for flows"
 date: 2020-07-16T00:00:00Z
-weight: 9
+weight: 4
 ---
 
 
@@ -21,9 +21,9 @@ while expressionA:
         statement(B)
     statement(A)
 ```
-In the `while` loop above, when expressionA is `False`, we will skip the whole block. When expressionA is `True`, we will check expressionB. If expressionB is `True`, statement(B) will be executed. If expressionB is `False`, we will skip and return to statement(A).
+In the `while` loop above, when expressionA produces `False`, we will skip the whole block. When expressionA produces `True`, we will check expressionB. If expressionB produces `True`, statement(B) will be executed. If expressionB produces `False`, we will skip and go to statement(A).
 <br/><br/>
-In conclusion, if expressionA is `False`, none of the statements will be executed; statement(A) and statement(B) will both be executed if and only if both expressionA and expressionB are `True`.
+In conclusion, if expressionA produces `False`, none of the statements will be executed; statement(A) and statement(B) will both be executed if and only if both expressionA and expressionB produce `True`.
 
 Let us take a look at one example for nested while loop.
  ```python
@@ -32,14 +32,14 @@ Let us take a look at one example for nested while loop.
  y = 0
  while x < 3:
     print("Go through outer while loop, x is", x, "y is", y, sep = " ")
-
     while y < 5:
      print("Go through inner while loop, x is", x, "y is", y, sep = " ")
-     x += 1
-     y += 1
+      y += 1
+    x += 1
+    y = 0
  ```
  This is the output of our example.
- ![alt text](../img/nestedex1.png "image showing while loop first example")
+ ![alt text](../../img/nestex1.png "image showing while loop first example")
  <br/><br/>
 #### Challenge
 Try to change the integers in the nested while loop and predict the outputs. Then run the code and observe the outputs. Do they match your predictions?

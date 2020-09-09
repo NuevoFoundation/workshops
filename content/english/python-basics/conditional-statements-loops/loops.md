@@ -1,7 +1,7 @@
 ---
 title: "Loops"
 draft: false
-weight: 2
+weight: 3
 ---
 
 ## Loops in Python
@@ -58,10 +58,10 @@ Here's an example with a while loop:
 ### Challenges
 1. Using a `for` loop or `while` loop, try printing the following pattern
 ```
-1 
-1 2 
-1 2 3 
-1 2 3 4 
+1
+1 2
+1 2 3
+1 2 3 4
 1 2 3 4 5
 ```
 
