@@ -6,7 +6,6 @@ difficulty: "Intermedio"
 download: ""
 draft: false
 icon: "fas fa-code"
-weight: 3
 ---
 
 # Traducciones de términos comunes 
