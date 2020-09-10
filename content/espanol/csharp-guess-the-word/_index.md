@@ -28,7 +28,7 @@ El lado izquierdo del índice abajo contiene términos frecuentemente usados en 
 
 # ¡Bienvenid@s! 
 
-The goal of today's activity is to learn C# skills and incorporate your new-found knowledge to create a Guess The Word game!
+El objetivo de la actividad de hoy es aprender el lenguaje de C# e incorporar lo que vas a aprender hoy para asi poder crear el juego ¡Adivina la palabra! 
 
 ## Contenido
 
