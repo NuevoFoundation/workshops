@@ -7,12 +7,16 @@ weight: 13
 
 ***Great, now that the bad one won't cause us any more headaches, let's replace the old file so things will run smoothly again.***
 
-**mv**
+**How to fix the  secret-message**
 
-mv is a command that can move files from one location to another. If the destination is a filename, this will rename the file to that name in that destination.
+The command mv replaces the destination file with the source file.
 mv [source filename] [destination name]
 
-**cp**
+Replace the messed up secret message with the old copy.
+
+**Make a copy of the secret message**
 
 cp is a command that copies a file from one location to another.
 cp [source filename] [destination name]
+
+Copy the secret message and put it in the directory you made.
