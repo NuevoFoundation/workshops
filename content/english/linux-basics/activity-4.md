@@ -14,5 +14,5 @@ While we work, as a cybersecurity engineer, it is important to take a lot of not
 To practice creating a new directory, use the command “mkdir” in the following format: 
 mkdir new_directory_name
 
-Example: mkdir myFiles
+Example: mkdir files
 
