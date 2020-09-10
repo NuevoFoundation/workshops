@@ -10,7 +10,7 @@ In this section, we will use all kinds of methods to make your own picture. In t
 
 
 #### Challenge - Make your own image
-In the following repl.it, we provide you some images you can play around with, you are also welcomed to add your own images.
+In the following activity, we provide you some images you can play around with, you are also welcomed to add your own images.
 {{% notice warning %}}
 **Be careful:** In order to see your image, please click on top left corner (which says 'Files'), and then click on the image file to see the result.
 {{% /notice %}}
