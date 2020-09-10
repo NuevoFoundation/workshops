@@ -1,0 +1,84 @@
+/* Positions vault text box */
+.lock {
+  float: left;
+  width: 9vw;
+  height: 8vw;
+  border: 10px solid white;
+  border-radius: 5px;
+  resize: none;
+  margin: 1.7vw;
+  text-align: center;
+  font-family: courier;
+  font-size: 25px;
+  padding: 10px 0px;
+  font-weight: bold;
+  
+}
+
+/* Vault buttons (Adding)*/
+.first_up, .sec_up {
+  float: left;
+  background-color:#42f56c;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 50px;
+  margin: 1.5vw;
+  width: 9vw;
+}
+
+/* Vault buttons (Subtracting)*/
+.first_down, .sec_down {
+  float: left;
+  background-color: #FF0000;
+  border: none;
+  color: white;
+  padding: 0px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 70px;
+  margin: 1.7vw;
+  width: 9vw;
+  
+}
+
+/* Vault confirm button */
+.vault_button {
+  float: right;
+  text-align: left;
+  display: inline-block;
+  font-size: 30px;
+  font-family: courier;
+  color: #43a4e0;
+  font-weight: bold;
+  background-color: transparent;
+  outline: none;
+  width: 10vw;
+  
+}
+
+/* Vault container with background image as vault */
+.vault_div {
+  padding-top: 12vw;
+  padding-left: 10vw;
+  padding-bottom: 1vw;
+  padding-right: 13vw;
+  background-image: url('assets/Vault.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 73vw;
+  height: 55vw;
+}
+
+/* Plot text style*/
+h5 {
+  font-size: 20px;
+}
+
+/* Buffet image position */
+.buffet {
+  display: inline-block;
+  pointer-events: none;
+}

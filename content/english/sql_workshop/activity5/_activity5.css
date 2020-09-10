@@ -1,0 +1,32 @@
+/* Positions and style for the code blocks */
+.codeBlocks {
+  float: right;
+  margin: 2vw;
+  width: 5vw;
+  height: 10vw;
+  border: 1px solid white;
+}
+
+/* Positions and style for the drop places */
+.dropClass {
+  width: 5vw;
+  height: 9vw;
+  overflow: hidden;
+  margin: 0.3vw;
+  border: 5px solid white;
+}
+
+
+/* Position for hill placement */
+.hill_div {
+  padding-top: 8vw;
+  padding-left: 14vw;
+  padding-bottom: 0vw;
+  padding-right: 10vw;
+  background-image: url('assets/Hill.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 78vw;
+  height: 48vw;
+}
+
