@@ -34,7 +34,7 @@ If you are using Windows:
     Select "Windows hosts"  
 If you are using Mac:  
     Select "OS X hosts"  
-If you are using something else, we recommend using Windows or Mac for this workshop. As anything else is beyond the scope.  
+If you are using something else, we recommend using Windows or Mac for this workshop. Anything else is beyond the scope for this workshop.  
 
 ![virtual box download page](../images/vbox-dlpage-update.JPG?classes=border,shadow)
 

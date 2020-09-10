@@ -16,7 +16,7 @@ Images files make it easy to send exact copies of computers.
 VirtualBox uses the .ova for their machine images.
 
 Let's download our copy of the computer! Click the link below to download.  
-Most images big (~8GB), so this might take a few minutes.
+Most images are big (~8GB), so this might take a few minutes.
 
 **TODO**
 Add link  
