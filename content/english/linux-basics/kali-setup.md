@@ -3,7 +3,7 @@ title: "Using Virtual Machines Part 2"
 description: "Continuing the introductory guide to using virtual machines."
 date: 2020-08-05
 weight: 2
-translationKey: "linux-basics-vbox-setup"
+translationKey: "linux-basics-kali-setup"
 ---
 
 *Now that we have the host environment ready, we can load the image as a VM.*
@@ -18,7 +18,7 @@ VirtualBox uses the .ova for their machine images.
 Let's download our copy of the computer! Click the link below to download.  
 Most images are big (~8GB), so this might take a few minutes.
 
-**TODO**
+##**TODO**
 Add link  
 Add image of download from new source
 
@@ -59,4 +59,3 @@ Typically this is about 5 minutes, but might be a little longer depending on you
 ![virtual box import screen](../images/import-06.JPG?classes=border,shadow)
 
 Now we can launch the virtual machine!
-Double click on the VM in VirtualBox!

@@ -3,6 +3,7 @@ title: "Activity 5 - Secure User Permissions"
 description: "Use a Linux command to secure your files"
 date: 2020-07-08
 weight: 8
+translationKey: "linux-basics-activity-5"
 ---
 
 Oh no. Some of our files might have been messed with! Let’s secure our files… but, how?
