@@ -3,6 +3,7 @@ title: "Activity 6 - A BAD File"
 description: "Use Linux commands to search"
 date: 2020-07-08
 weight: 9
+translationKey: "linux-basics-activity-6"
 ---
 
 ***Remember that file we saw with the strange name? It was called Malware.sh. We should go find it again and take a closer look 

@@ -21,11 +21,15 @@ This means what we will be working with is a copy of the computer that has been 
 Don't worry though, this won't hurt your computer!
 
 ## What is a virtual machine
+A virtual machine (commonly called a vm) is a computer file (called an image), that behaves like an actual computer.  
+In other words, creating a computer within a computer. It runs in a window, much like any other program.  
+This gives you the same experience on a vm as you would on a regular computer.
 
+The vm is **sandboxed** from the rest of the system, meaning that the software inside a vm can’t effect the computer itself.  
+This produces an ideal environment for testing other operating systems, accessing virus-infected data, and creating new software or applications.
 
 ## Setting up VirtualBox
 VirtualBox is a virtualization software, also called a **hypervisor**. It allows your computer to host virtual machines.
-
 
 ### Downloading VirtualBox
 VirtualBox is available at this link: https://www.virtualbox.org/wiki/Downloads
@@ -34,7 +38,7 @@ If you are using Windows:
     Select "Windows hosts"  
 If you are using Mac:  
     Select "OS X hosts"  
-If you are using something else, we recommend using Windows or Mac for this workshop. As anything else is beyond the scope.  
+If you are using something else, we recommend using Windows or Mac for this workshop. Anything else is beyond the scope for this workshop.  
 
 ![virtual box download page](../images/vbox-dlpage-update.JPG?classes=border,shadow)
 

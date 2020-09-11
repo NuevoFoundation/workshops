@@ -3,6 +3,7 @@ title: "Activity 4 - Note Taking Practice"
 description: "Use Linux commands to view the contents of the current directory"
 date: 2020-07-08
 weight: 7
+translationKey: "linux-basics-activity-4"
 ---
 
 Take some notes. practice mkdir, touch, and vim
