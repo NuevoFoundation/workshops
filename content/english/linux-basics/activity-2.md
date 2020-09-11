@@ -2,6 +2,7 @@
 title: "Activity 2 - Determine User Location"
 description: "Use a Linux command to determine what directory you are currently in"
 date: 2020-07-08
+weight: 5
 ---
 
 This activity will show you how to determine your location within the Linux filesystem

@@ -7,7 +7,7 @@ difficulty: "Beginner"
 download: ""
 draft: true
 icon: "fas fa-microchip"
-weight: 7
+weight: 1
 translationKey: "linux-basics-vbox-setup"
 ---
 
