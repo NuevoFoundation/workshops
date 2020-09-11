@@ -7,10 +7,14 @@ weight: 14
 
 ***Thanks so much for helping us fix the machine! Now let's get everything up into one nice package.***
 
-**zip**
+**Secure your files, so they don't get tampered with again**
 
 zip is a command that compresses a set of files.
 Zip [name of zip file] [filenames to be zipped]
+
+You did it! Thanks for your help and Nuvee really appreciates all of the advice and tips you gave him/her!
+
+----
 
 **tar**
 
