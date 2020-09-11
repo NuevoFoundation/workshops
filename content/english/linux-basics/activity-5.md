@@ -9,9 +9,11 @@ Oh no. Some of our files might have been messed with! Let’s secure our files�
 
 **How do I know how secure my files are?**
 
-Type in the Linux command, “ls -l" to see the current permissions for your files.
+Is there a command that we have learned so far that can show us how secure our files are?
 
 [Image & Explanation of results]
+
+We should keep using that command to check if we changed the permissions as expected.
 
 **How do I secure them then?**
 
@@ -20,6 +22,10 @@ the group and the members of the group of people with access to the file, and ot
 permissions to read, write, or execute.
 Try it:
 chmod u=rwx g=rx o=x [filename]
+
+**Try It**
+
+How would you use this command to secure the files in your new directory.
 
 **Shortcut!**
 
@@ -34,5 +40,3 @@ KEY
 0 = no permission
 Now, let's try to change the permissions of our files. Type in ‘ls -l’. Look at the results. We want anyone outside of our group and
 aside from ourselves to have no permissions for _____ file. How do we do that?
-
-
