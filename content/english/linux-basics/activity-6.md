@@ -5,7 +5,7 @@ date: 2020-07-08
 weight: 9
 ---
 
-***Remember that file we saw with the strange name? It was called [insert filename]. We should go find it again and take a closer look 
+***Remember that file we saw with the strange name? It was called Malware.sh. We should go find it again and take a closer look 
 at it.***
 
 **Searching for a file?**
@@ -15,6 +15,10 @@ Search for a specific File Name:
 file [directory] -name [filename]
 **Search for all text files (Files that end with .txt):**
 file [directory] -name *.txt 
+
+Use the find command to search for the file within the current directory. Is there a command we can use to figure out what the current directory is?
+
+--------------------------
 
 **Searching for a pattern in a file?**
 
