@@ -156,6 +156,7 @@ function check(){
     
     hide_boxes();
     
+    document.getElementById("database").src="assets/Database.png";
   }
 }
 

@@ -38,10 +38,6 @@ function sql()
     var screen = document.getElementById("terminal_div");
     screen.style.backgroundImage = "url('../media/green.png')"
   }
-  else
-  {
-    document.getElementById("story").innerHTML = "Not quite the right command. Keep trying!";
-  }
 }
 
 /* Create global button array */

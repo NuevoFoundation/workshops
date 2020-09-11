@@ -61,6 +61,6 @@ function debug(input, ans)
 function green()
 {
   var display = document.getElementById("commands");
-  console.log("disaply is " + display.innerHTML);
-  display.innerHTML = "<span class='right'>" + display + "</span>";
+  console.log("display is " + display.innerHTML);
+  display.innerHTML = "<span class='right'>" + display.innerHTML + "</span>";
 }

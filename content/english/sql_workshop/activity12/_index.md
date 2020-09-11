@@ -13,8 +13,7 @@ draft: false
 <script type="text/javascript" src="../default/_type.js"></script>
 <script type="text/javascript" src="../default/alasql.js"></script>
 <script type="text/javascript" src="../default/db.js"></script>
-<link rel="stylesheet" media="all" href="_activity12.css" type="text/css"></link>
-<link rel="stylesheet" media="print" href="print.css"></link>
+<link rel="stylesheet" href="_activity12.css" type="text/css"></link>
 <script type="text/javascript" src="_activity12.js"></script>
 <!-- Embed YouTube Video Link here when ready -->
 
@@ -78,27 +77,16 @@ Everyone is having a good time at the party! The inventor has also arrived, now 
   </div>
   
   <h2> You Saved the Planet of Fun! </h2>
-  <p> The Planet of Fun is now protected from the invaders thanks to you! You found the lost Legendary Totems of Fun and returned them to their rightful place and saved the citizens from danger! The inhabitants will never forget your act of kindness! Congrats space cadet! You’ve successfully saved the Planet of Fun! </p>
-
-  <!-- Certificate print out link <div class="certificate_img" id="certificate_img"></div>-->
-  <div class="certificate_div" id="certificate_div">
-    <img src="./assets/Certificate.png" alt="certificate" width=100% height=170%>
-    <!--<h3 class="name" id="name" style=""><strong>Space Cadet</strong></h3>
-    <h3 class="workshop" id="workshop">SQL Workshop</h3>-->
-  </div>
+  <p> The Planet of Fun is now protected from the invaders thanks to you! You found the lost Legendary Totems of Fun and returned them to their rightful place 
+      and saved the citizens from danger! The inhabitants will never forget your act of kindness! Congrats space cadet! You’ve successfully saved the Planet of Fun! 
+      <br><br>Click the "Download" button below to receive your honorary certificate!
+  </p>
   
-  <!-- You can print! -->
-  <div class="alert">
-    Press the button below to print out your certificate!
-  </div>
- 
-  <!--Print Button -->
-  <form>
-    <input type="button" onclick="printDiv('certificate_div')" value="Print Certificate!"/>
-  </form>
-
-
-
+  <!--Download Button -->
+  <form method="get" action="assets/Certificate.pdf" target="_blank">
+    <button type="submit" id="download">Download</button>
+  </form> 
 
 </div>
+
 {{< /rawhtml >}}

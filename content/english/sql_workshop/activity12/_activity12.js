@@ -62,21 +62,3 @@ function check()
     document.getElementById("answer").innerHTML = "Try again. This person is not who you are looking for.";
    }
 }
-
-/* Function to print certificate (container) */
-/* Code from https://stackoverflow.com/questions/2255291/print-the-contents-of-a-div/7167406 */
-function printDiv(divName) {
-  
-  var mywindow = window.open('', 'PRINT', 'height=400,width=600');
-
-    mywindow.document.write('<html><head><link rel="stylesheet" media="all" href="_activity12.css" type="text/css"></link>');
-    mywindow.document.write('</head><body>');
-    mywindow.document.write(document.getElementById(divName).innerHTML);
-    mywindow.document.write('</body></html>');
-
-    mywindow.document.close(); // necessary for IE >= 10
-    mywindow.focus(); // necessary for IE >= 10*/
-
-    mywindow.print();
-    return true;
-}

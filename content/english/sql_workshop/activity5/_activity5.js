@@ -88,8 +88,4 @@ function sql()
       display_legend.setAttribute("style","visibility:visible");
     }
   }
-  else
-  {
-    document.getElementById("story").innerHTML = "Not quite the right command. Keep trying!";
-  }
 }

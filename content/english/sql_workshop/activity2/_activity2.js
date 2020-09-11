@@ -161,5 +161,8 @@ function check(){
     checkmark.setAttribute("style","visibility:visible");
     
     hide_boxes();
+
+    document.getElementById("planet").src="assets/Show_Planet.png";
+    document.getElementById("gps").src="assets/GPS.png";
   }
 }

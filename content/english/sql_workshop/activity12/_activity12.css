@@ -60,39 +60,20 @@
   outline: none;
 }
 
-/* Style for the Hall of Fame Terminal */
-.enter_name {
-  background-image: url('assets/fame.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
+/* Style for the Download Button */
+#download {
+  background-color: #64b5f6;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  padding: 12px 28px;
+  margin: 0 auto;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
 }
 
-.certificate_div {
-  position: relative;
-}
-
-.name {
-  position: absolute;
-  top: 51%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  color: black;
-  padding-left: 2%;
-  padding-right: 2%;
-  font-size: 5vw;
-}
-
-.workshop {
-  position: absolute;
-  bottom: 14%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  color: black;
-  padding-left: 10%;
-  padding-right: 10%;
-  font-size: 4vw;
+#download:hover {
+  background-color: #0077c2;
 }
