@@ -6,7 +6,7 @@ weight: 7
 translationKey: "linux-basics-activity-4"
 ---
 
-Take some notes. practice mkdir, touch, and vim
+
 
 While we work, as a cybersecurity engineer, it is important to take a lot of notes and screenshots. These are helpful for future reference and might be needed by the police when trying to understand what crimes might have happened. Let's step up our workspace!
 
@@ -16,4 +16,12 @@ To practice creating a new directory, use the command “mkdir” in the followi
 mkdir new_directory_name
 
 Example: mkdir files
+
+![ls-l command](/images/04_mkdir.png?classes=border,shadow)
+
+As you can see, now when "ls -l" is run, an additional directory named "files" appears
+
+Now 
+
+Take some notes. practice mkdir, touch, and vim
 
