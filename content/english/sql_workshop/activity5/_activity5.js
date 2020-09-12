@@ -76,7 +76,7 @@ function sql()
   {
     green();
     document.getElementById("commands").innerHTML = "<span class='right'>" + user + " </span>";
-    document.getElementById("story").innerHTML = "Amazing work as always, space cadet! You discovered that the Planet of Fun's Dear Leader is Olivia Windsor! Now you need to figure out a way to get to them!";
+    document.getElementById("story").innerHTML = "Excellent work Space Cadet! Now you need to figure out a way to get to the Dear Leader!";
     
     /* Changes terminal screen */
     var screen = document.getElementById("terminal_div");
