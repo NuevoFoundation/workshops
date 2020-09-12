@@ -1,9 +1,10 @@
 /* The container holding the "did you find the inventor" image */
 .inventor_div {
+  padding-right: 1%;
   background-image: url('assets/find.png');
   background-size: contain;
   background-repeat: no-repeat;
-  width: 100%;
+  max-width: 85%;
   height: 22vw;
 }
 
@@ -38,7 +39,7 @@
 
 /* Placement of the second check button in inventor_div */
 .half {
-  float: left;
+  float: right;
   padding-top: 4%;
   padding-left: 6%;
   padding-right: 1%;

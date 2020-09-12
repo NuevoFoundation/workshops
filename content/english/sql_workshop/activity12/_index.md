@@ -1,5 +1,5 @@
 ---
-title: "Find the Inventor!"
+title: "Activity 12: Find the Inventor!"
 description: "Find the Inventor!"
 date: 2020-07-05
 prereq: "SELECT Command, WHERE Command"
