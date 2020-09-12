@@ -1,5 +1,5 @@
 ---
-title: "Use MIN Command"
+title: "Activity 7: Use the MIN Command"
 description: "Use MIN Command"
 date: 2020-07-10
 prereq: "SELECT Command, WHERE Command, MAX/MIN Command"

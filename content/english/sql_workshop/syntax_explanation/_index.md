@@ -1,5 +1,5 @@
 ---
-title: "Explain Syntax"
+title: "Tutorial 2: Explain Syntax"
 description: "Explain Syntax"
 date: 2020-07-15
 prereq: "SELECT Command, conditions (WHERE command)"

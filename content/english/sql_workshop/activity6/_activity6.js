@@ -1,5 +1,5 @@
-function check(){
-
+function check()
+{
   //Display the confetti canon if correct command is used
   var display1 = document.getElementById("cannon");
   display1.src = "assets/confetti_canon.png";
@@ -23,21 +23,22 @@ function sql()
   var user = document.getElementById("commands").innerHTML;
 
   //If user tries to input <> into alasql, turn into !=
-  if(user.includes("&lt;&gt;")) {
+  if(user.includes("&lt;&gt;")) 
+  {
     var tempString = user;
     var tempReplace = tempString.replace("&lt;&gt;", "!=");
     user = tempReplace;
   }
   //If user tries to input < into alasql
-  else if(user.includes("&lt;")) {
-    
+  else if(user.includes("&lt;")) 
+  {  
     var tempString = user;
     var tempReplace = tempString.replace("&lt;", "<");
     user = tempReplace;
   }  
   //If user tries to input > into alasql
-  else if(user.includes("&gt;")) {
-    
+  else if(user.includes("&gt;")) 
+  { 
     var tempString = user;
     var tempReplace = tempString.replace("&gt;", ">");
     user = tempReplace;
@@ -78,5 +79,3 @@ function sql()
     document.getElementById("story").innerHTML = "Not quite the right command. Keep trying!";
   }
 }
-
-

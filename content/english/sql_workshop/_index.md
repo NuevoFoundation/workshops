@@ -11,21 +11,17 @@ weight: 130
 
 # Introduction: Learn SQL by Saving the Galaxy!
 
-
 ![Galaxy](media/Galaxy.png)
 
 ## Welcome to the Nuevo Space Station (NSS)! 
 
-You are a space adventurer who travels
- the galaxy in your speedy rocket ship while solving coding puzzles to help save your
- alien friends on different planets.
-<!--
-You first need to apply as an honorary space explorer so you can start your
-adventures:
+You are a space adventurer who travels the galaxy in your speedy rocket ship while solving coding puzzles to help save your alien friends on different planets.
+ 
+You’ve been approved as an honorary space explorer by the Galactic Federation! You will be given missions to help make the galaxy a safe and fun place for everyone!
 
-[Space Cadet Survey](https://docs.google.com/forms/d/e/1FAIpQLSfTEKYwDtkwfJFfYOclEHJQSX2R9xIaPScSorowQptY3lREzw/viewform)
-
-Congratulations!--> You’ve been approved as an honorary space explorer by the Galactic Federation! You will be given missions to help make the galaxy a safe and fun place for everyone!
+{{%notice warning%}}
+Please do not use the Firefox browser for this workshop.
+{{%/notice%}}
 
 ## Table of Contents
 

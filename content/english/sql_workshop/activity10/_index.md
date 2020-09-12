@@ -1,5 +1,5 @@
 ---
-title: "Learn SUM command"
+title: "Activity 10: Learn the SUM command"
 description: "Learn SUM command"
 date: 2020-07-07
 prereq: "SELECT Command, WHERE Command"
@@ -49,25 +49,29 @@ Let's go over the `SUM` Command!
     <div class = "outer">
       <h3 id = "commands" contenteditable="true" onclick="document.getElementById('commands').innerHTML = ''"> Type command here!<h3>
     </div>
-    <div style="clear: both;"></div> 
+    <div style="clear: both;"></div>
     </br></br></br></br></br></br>
     <button class="button button1" onclick="sql()"> Enter </button>
     <div style="clear: both;"></div> 
     <button class = "button reset" onclick="document.getElementById('commands').innerHTML = ''">Reset</button>
-  </div>
-  <div style="clear: both;"></div> 
-  <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
-  <table id="table">
-    <tr></tr>
-  </table>
-  <h4 id="story"></h4>
+</div>
+
+<div style="clear: both;"></div> 
   
-  <!-- Tells User to continue mission -->
-  <div class="resume_plot" id="resume_plot" style="visibility:hidden">
-    <div class="alert">
-      <span id="check">&#10003;</span>
-      You've completed the task! Continue to the next mission!
-    </div>
+<h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
+  
+<table id="table">
+  <tr></tr>
+</table>
+  
+<h4 id="story"></h4>
+  
+<!-- Tells User to continue mission -->
+<div class="resume_plot" id="resume_plot" style="visibility:hidden">
+  <div class="alert">
+    <span id="check">&#10003;</span>
+    You've completed the task! Continue to the next mission!
   </div>
+</div>
 
 {{< /rawhtml >}}

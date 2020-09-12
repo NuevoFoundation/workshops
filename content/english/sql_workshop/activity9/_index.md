@@ -1,5 +1,5 @@
 ---
-title: "Learn AVG Command"
+title: "Activity 9: Learn the AVG Command"
 description: "Learn AVG Command"
 date: 2020-07-08
 prereq: "SELECT Command, WHERE Command"

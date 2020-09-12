@@ -1,5 +1,5 @@
 ---
-title: "Select Multiple Info"
+title: "Activity 4: Select Multiple Info"
 description: "Select Multiple Info"
 date: 2020-07-13
 prereq: "SELECT Command"

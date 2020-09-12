@@ -33,18 +33,24 @@ function clearTable()
 }
 
 
-function debug(input, ans)
+function debug(input, ans, ans2)
 {
+  var actual2 = null;
+  if(ans2 == null) 
+  {
+    var ans2 = "temp";
+  }
   var display = document.getElementById("commands");
   var output = "";
   var inputText = input.split(" ");
   var actual = ans.split(" ");
+  actual2 = ans2.split(" ");
   var i;
   var x;
 
   for(i = 0; i < inputText.length; i++)
   {
-    if(inputText[i] == actual[i])
+    if(inputText[i] == actual[i] || inputText[i] == actual2[i])
     {
       output += "<span class='right'>" + inputText[i] + "</span>";
     }

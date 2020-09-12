@@ -1,5 +1,5 @@
 ---
-title: "Learn LIKE Command"
+title: "Activity 8: Learn the LIKE Command"
 description: "Learn LIKE Command"
 date: 2020-07-09
 prereq: "SELECT Command, WHERE Command"

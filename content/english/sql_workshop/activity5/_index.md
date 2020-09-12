@@ -1,5 +1,5 @@
 ---
-title: "Learn the MAX/MIN Command"
+title: "Activity 5: Learn the MAX/MIN Command"
 description: "Learn the MAX/MIN Command"
 date: 2020-07-12
 prereq: "SELECT Command, WHERE Command"

@@ -1,4 +1,4 @@
-function sql() 
+function sql()
 {
   clearTable();
   document.getElementById("sqlcommand").innerHTML = "ERROR INVALID INPUT";
@@ -16,7 +16,7 @@ function sql()
   var ansArr = ans.split(',');
   var headArr = [];
   var i;
-  for( i = 0; i < ansArr.length; i++)
+  for(i = 0; i < ansArr.length; i++)
   {
     headArr.push(ansArr[i].substring( ansArr[i].indexOf('"') + 1, ansArr[i].indexOf('":')));
   }

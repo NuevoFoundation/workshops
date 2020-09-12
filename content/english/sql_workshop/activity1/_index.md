@@ -1,5 +1,5 @@
 ---
-title: "Learn the SELECT Command"
+title: "Activity 1: Learn the SELECT Command"
 description: "Learn the SELECT command"
 date: 2020-07-17
 prereq: "none"

@@ -1,4 +1,5 @@
-function drop(ev) {
+function drop(ev) 
+{
   ev.preventDefault();
   var data = ev.dataTransfer.getData("content");
   var div_num = ev.currentTarget.id;
@@ -6,12 +7,14 @@ function drop(ev) {
   
   /* If drop div already has a block, don't replace image block */
   var inDivs = current.getElementsByTagName("img");
-  if(inDivs.length == 0 && data == "drag1") {
+  if(inDivs.length == 0 && data == "drag1") 
+  {
     ev.target.appendChild(document.getElementById(data));
   }
  
 
-  if(div_num == "div4" && data == "drag1") {
+  if(div_num == "div4" && data == "drag1") 
+  {
     alert("Congrats! You found the correct key!");
   
     //Display next mission prompt
@@ -39,10 +42,10 @@ function drop(ev) {
     var checkmark = document.getElementById("resume_plot");
     checkmark.setAttribute("style","visibility:visible");
   }
-  else if(div_num == "div4") {
+  else if(div_num == "div4") 
+  {
     alert("Try again Space Cadet!");
   }
-  
 }
 
 function sql() 

@@ -1,5 +1,5 @@
 ---
-title: "Use Comparators"
+title: "Activity 6: Use Comparators"
 description: "Use Comparators"
 date: 2020-07-11
 prereq: "SELECT Command, WHERE Command"

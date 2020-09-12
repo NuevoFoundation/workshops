@@ -1,5 +1,5 @@
 ---
-title: "Learn the WHERE Command"
+title: "Activity 2: Learn the WHERE Command"
 description: "Learn the WHERE command"
 date: 2020-07-16
 prereq: "SELECT command"
