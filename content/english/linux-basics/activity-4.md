@@ -13,7 +13,7 @@ While we work, as a cybersecurity engineer, it is important to take a lot of not
 **What if I want to create a new directory?**
 
 To practice creating a new directory, use the command “mkdir” in the following format: 
-mkdir new_directory_name
+mkdir new_directory_name. Lets make a directory called "files"
 
 Example: mkdir files
 
@@ -21,7 +21,5 @@ Example: mkdir files
 
 As you can see, now when "ls -l" is run, an additional directory named "files" appears
 
-Now 
 
-Take some notes. practice mkdir, touch, and vim
 

@@ -6,33 +6,43 @@ weight: 6
 translationKey: "linux-basics-activity-3"
 ---
 
-Now that we know where we are on the computer, let's take a look around. This way we can start finding what files might have been modified. 
+Now that we know who and where we are, let's take a look around. We will explore another aspect of the Linux user account: user file permissions.
 
 **Files and permissions**
 
-To look at the files in your current directory, we will now enter our first Linux command with a flag. Type “ls -l” to see the list of files and directories in your current directory. “ls” is the command to list the contents of a directory, and the flag “-l” is to list them in long form, meaning more detailed information will be displayed.
+To see the Files in the current directory, type “ls -l”
+“ls” is the command to list the contents of a directory, and the flag “-l” is to list them in long form, meaning more detailed information will be displayed.
 
 ![ls-l command](/images/03_ls-l.png?classes=border,shadow)
 
 **What information is being displayed?**
 
-Given the following sample output from “ls -l”, each column of output is explained below:
+Lets examine the top line of the example above from left to right, for the directory "Desktop":
 
--rwx------ 1 user group 256 Jan 1 12:00 file.extension
-- -rwx------: The first character “-” denotes that this is a file. It would be a “d” if it were a directory
-- 1: The number of links for this file
-- user: The user who owns this file
-- group: The group this file belongs to
-- 256: The size of the file in bytes
-- Jan 1 12:00: Date and time the file was created
-- File.extension: name of he file
+drwxr-xr-x 2 nuvi nuvi 4096 Aug 10 23:50 Desktop
+
+- drwxr-xr-x: The first character “d” denotes that Desktop is a directory. IF it were a “-” it would mean that Desktop was a file.
+- 2: The number of links for this file
+- nuvi: The user who owns this file
+- nuvi: The group this file belongs to
+- 4096: The size of the file in bytes
+- Aug 10 23:50: Date and time the file was created
+- Desktop: name of the directory
 
 **What can you do with these files?**
 
-One example of how you can manipulate a file is by moving it to another location. This is accomplished by the move command, “mv” Practice by moving one of the files you listed above with “ls -l”, by using the “mv” command in the following format:
+One example of how you can manipulate a file or directory is by moving it to another location. This is accomplished by the move command, “mv” Lets practice by movind the Documents directory into the Desktop directory. Type in the command listed below:
 
-mv file.extension /home /usr
+mv Documents/ Desktop/
 
-Insert examples of moving, file a location where there is a bad file.
+Now type in "ls -l" one more time and look at the output.
 
-Oh look, here is a file that sounds like trouble! (file named malware or something)
+![ls-l command](/images/03_ls-l_after_move.png?classes=border,shadow)
+
+You should see that the directory Documents no longer appears, because it was moved into the Desktop directory. Lets practice mv one more time by moving it back. 
+
+Type in mv Desktop/Documents/ .
+
+This moves Documents from Desktop, back to our current directory, denoted by "." The period, or dot, is used in commands to denote the current directory. Typing "ls -l" one more time shows Documents has returned to this directory. 
+
+![ls-l command](/images/03_ls-l.png?classes=border,shadow)
