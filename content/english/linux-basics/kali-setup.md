@@ -27,20 +27,20 @@ Now that you have the machine image downloaded, let's set it up!
 In the VirtualBox application, we are able to *import* our images.  
 Let's click on the "Import' button to get started!
 
-![virtual box import button](../images/import-01.JPG?classes=border,shadow)
+![virtual box import button](../images/import-01.PNG?classes=border,shadow)
 
 #### Step 2
 The appliance we want to import will be the .ova file you downloaded earlier.  
 Go ahead and click on the little folder with a green caret  symbol.  
 This will open up a window so you can find and select the .ova file.
 
-![virtual box import screen](../images/import-02.JPG?classes=border,shadow)
+![virtual box import screen](../images/import-02.PNG?classes=border,shadow)
 
 #### Step 3
 Now that you selected the .ova image file. Click "Open".  
 Then click "Next" on the "Appliance to Import" screen.
 
-![virtual box import screen](../images/import-03.JPG?classes=border,shadow)
+![virtual box import screen](../images/import-03.PNG?classes=border,shadow)
 
 #### Step 4
 The last step!  
@@ -49,7 +49,7 @@ Make sure that the "USB Controller" option is <b>not</b> selected. Likely you wi
 Then for the MAC Address Policy, it is a good idea to make sure that says, "Generate new MAC addresses for all network adapters".
 Finally click "Import"!
 
-![virtual box import screen](../images/import-05.JPG?classes=border,shadow)
+![virtual box import screen](../images/import-05.PNG?classes=border,shadow)
 
 Note: this will have a pop-up with the time needed to complete the import.  
 Typically this is about 5 minutes, but might be a little longer depending on your computer.
