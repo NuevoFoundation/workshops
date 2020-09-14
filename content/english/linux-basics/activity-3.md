@@ -37,7 +37,7 @@ mv Documents/ Desktop/
 
 Now type in "ls -l" one more time and look at the output.
 
-![ls-l command](../images/03_ls-l_after_move.png?classes=border,shadow)
+![ls-l after move](../images/03_ls-l_after_move.PNG?classes=border,shadow)
 
 You should see that the directory Documents no longer appears, because it was moved into the Desktop directory. Lets practice mv one more time by moving it back. 
 
