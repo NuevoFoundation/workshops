@@ -9,3 +9,7 @@ draft: false
 # Introduction
 
 The goal of this lesson is to walk you through the creation of a game inspired by Space Shooters like Space Invaders and Galaga. You will also get a small taste of thinking about Object Oriented Programming.
+
+All sprites in the Space Invaders game were created by Luis Zuno (aka Ansimuz). Check him out if you like the pixel art!
+
+All sprites in the lesson repl with "dude" are from the Phaser website.
