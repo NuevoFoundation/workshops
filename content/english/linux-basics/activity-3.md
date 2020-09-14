@@ -8,13 +8,13 @@ translationKey: "linux-basics-activity-3"
 
 Now that we know where we are on the computer, let's take a look around. This way we can start finding what files might have been modified. 
 
-**Files and permissions**
+### Files and permissions
 
 To look at the files in your current directory, we will now enter our first Linux command with a flag. Type “ls -l” to see the list of files and directories in your current directory. “ls” is the command to list the contents of a directory, and the flag “-l” is to list them in long form, meaning more detailed information will be displayed.
 
 ![ls-l command](../images/03_ls-l.png?classes=border,shadow)
 
-**What information is being displayed?**
+### What information is being displayed?
 
 Given the following sample output from “ls -l”, each column of output is explained below:
 
@@ -27,7 +27,7 @@ Given the following sample output from “ls -l”, each column of output is exp
 - Jan 1 12:00: Date and time the file was created
 - File.extension: name of he file
 
-**What can you do with these files?**
+### What can you do with these files?
 
 One example of how you can manipulate a file is by moving it to another location. This is accomplished by the move command, “mv” Practice by moving one of the files you listed above with “ls -l”, by using the “mv” command in the following format:
 

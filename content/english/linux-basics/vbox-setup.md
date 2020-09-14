@@ -11,7 +11,7 @@ weight: 1
 translationKey: "linux-basics-vbox-setup"
 ---
 
-*We are providing you with a copy of an **image** (see below for more details) to work with. You can download it here (insert link).*
+*We are providing you with a copy of an <b>image</b> (see below for more details) to work with. You can download it here (insert link).*
 
 ## What is an image
 Images come in a variety of types. We have photographs, which are images. The images in computers are very similar.
@@ -29,7 +29,7 @@ The vm is **sandboxed** from the rest of the system, meaning that the software i
 This produces an ideal environment for testing other operating systems, accessing virus-infected data, and creating new software or applications.
 
 ## Setting up VirtualBox
-VirtualBox is a virtualization software, also called a **hypervisor**. It allows your computer to host virtual machines.
+VirtualBox is a virtualization software, also called a <b>hypervisor</b>. It allows your computer to host virtual machines.
 
 ### Downloading VirtualBox
 VirtualBox is available at this link: https://www.virtualbox.org/wiki/Downloads
