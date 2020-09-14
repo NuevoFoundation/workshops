@@ -8,14 +8,14 @@ translationKey: "linux-basics-activity-3"
 
 Now that we know who and where we are, let's take a look around. We will explore another aspect of the Linux user account: user file permissions.
 
-**Files and permissions**
+### Files and permissions
 
 To see the Files in the current directory, type “ls -l”
 “ls” is the command to list the contents of a directory, and the flag “-l” is to list them in long form, meaning more detailed information will be displayed.
 
 ![ls-l command](/images/03_ls-l.png?classes=border,shadow)
 
-**What information is being displayed?**
+### What information is being displayed?
 
 Lets examine the top line of the example above from left to right, for the directory "Desktop":
 
@@ -29,7 +29,7 @@ drwxr-xr-x 2 nuvi nuvi 4096 Aug 10 23:50 Desktop
 - Aug 10 23:50: Date and time the file was created
 - Desktop: name of the directory
 
-**What can you do with these files?**
+### What can you do with these files?
 
 One example of how you can manipulate a file or directory is by moving it to another location. This is accomplished by the move command, “mv” Lets practice by movind the Documents directory into the Desktop directory. Type in the command listed below:
 

@@ -8,7 +8,7 @@ translationKey: "linux-basics-activity-5"
 
 Oh no. Some of our files might have been messed with! Let’s secure our files… but, how?
 
-**How do I know how secure my files are?**
+### How do I know how secure my files are?
 
 Is there a command that we have learned so far that can show us how secure our files are?
 
@@ -16,7 +16,7 @@ Is there a command that we have learned so far that can show us how secure our f
 
 We should keep using that command to check if we changed the permissions as expected.
 
-**How do I secure them then?**
+### How do I secure them then?
 
 chmod is a command used to modify the permissions of your files for the following 3 different groups of users: the user and owner of the file,
 the group and the members of the group of people with access to the file, and others or anyone else. These groups can be modified to have
@@ -24,11 +24,11 @@ permissions to read, write, or execute.
 Try it:
 chmod u=rwx g=rx o=x [filename]
 
-**Try It**
+### Try It
 
 How would you use this command to secure the files in your new directory.
 
-**Shortcut!**
+### Shortcut!
 
 chmod can also be used with simple number commands. These commands are written like:
 chmod 751 filename

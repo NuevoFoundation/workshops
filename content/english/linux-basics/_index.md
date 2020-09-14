@@ -13,10 +13,10 @@ translationKey: "linux-basics-main"
 
 # Welcome
 
-insert image of Nuvi
+![nuvi picture](../images/nuvi.PNG?classes=border,shadow)
 
-*Greetings! I am Nuvi. We appreciate your coming to assist us!
-We have been notified that our computer is acting strangely and need your help to find out what is going on.*
+*Greetings! I am Nuvi. We appreciate your coming to assist us!*  
+*We have been notified that our computer is acting strangely and need your help to find out what is going on.*
 
 ## Table of Contents
 
