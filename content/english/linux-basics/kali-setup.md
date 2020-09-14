@@ -19,7 +19,7 @@ Let's download our copy of the computer! Click the link below to download.
 Most images are big (~8GB), so this might take a few minutes.
 
 ##**TODO**
-Add link  
+[Download link](https://nuevofoundation-my.sharepoint.com/:u:/r/personal/beatris_mendezgandica_nuevofoundation_org/Documents/Linux-Workshop/nuevo-linux-basics.ova?csf=1&web=1&e=5sekOO)
 Add image of download from new source
 
 ### Importing the Virtual Machine
