@@ -13,7 +13,7 @@ translationKey: "linux-basics-activity-11"
 zip is a command that compresses a set of files.
 Zip [name of zip file] [filenames to be zipped]
 
-You did it! Thanks for your help and Nuvee really appreciates all of the advice and tips you gave him/her!
+You did it! Thanks for your help and Nuvi really appreciates all of the advice and tips you gave him!
 
 ----
 

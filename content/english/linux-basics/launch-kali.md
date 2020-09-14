@@ -16,7 +16,7 @@ This is pretty simple using VirtualBox. Just double click on the vm that we crea
 As the virtual machine is getting started there may pop up some warnings like in this image.  
 It is safe to ignore these.
 
-![virtual box launch kali](../images/start-01.PNG?classes=border,shadow)
+![virtual box kali warnings](../images/start-02.PNG?classes=border,shadow)
 {{% /notice %}}
 
 ### Sign into the vm

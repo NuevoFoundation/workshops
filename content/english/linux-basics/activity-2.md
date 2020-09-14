@@ -13,7 +13,7 @@ This activity will show you how to determine your current location.
 
 To find out where in the file system you are currently located, type the command “pwd” This stands for Print Working 
 
-![pwd command](/images/02_pwd.png?classes=border,shadow)
+![pwd command](../images/02_pwd.png?classes=border,shadow)
 
 The output above is "/home/nuvi" and its meaning is explained below:
 

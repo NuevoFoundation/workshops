@@ -13,7 +13,7 @@ Now that we know who and where we are, let's take a look around. We will explore
 To see the Files in the current directory, type “ls -l”
 “ls” is the command to list the contents of a directory, and the flag “-l” is to list them in long form, meaning more detailed information will be displayed.
 
-![ls-l command](/images/03_ls-l.png?classes=border,shadow)
+![ls-l command](../images/03_ls-l.png?classes=border,shadow)
 
 ### What information is being displayed?
 
@@ -37,7 +37,7 @@ mv Documents/ Desktop/
 
 Now type in "ls -l" one more time and look at the output.
 
-![ls-l command](/images/03_ls-l_after_move.png?classes=border,shadow)
+![ls-l command](../images/03_ls-l_after_move.png?classes=border,shadow)
 
 You should see that the directory Documents no longer appears, because it was moved into the Desktop directory. Lets practice mv one more time by moving it back. 
 
@@ -45,4 +45,4 @@ Type in mv Desktop/Documents/ .
 
 This moves Documents from Desktop, back to our current directory, denoted by "." The period, or dot, is used in commands to denote the current directory. Typing "ls -l" one more time shows Documents has returned to this directory. 
 
-![ls-l command](/images/03_ls-l.png?classes=border,shadow)
+![ls-l command](../images/03_ls-l.png?classes=border,shadow)
