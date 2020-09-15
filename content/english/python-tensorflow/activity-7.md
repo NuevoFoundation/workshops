@@ -44,7 +44,7 @@ np.argmax(predictions_single[0]) #Verifying the index value with highest probabi
 {{% notice tip %}}
 ### Question 1
 
-In the first code segment of this activity, change the index value for the test_images array to any number of your choice.
+In the first code segment of this activity, change the index value for the `test_images` array to any number of your choice.
 
 {{% /notice %}}
 
