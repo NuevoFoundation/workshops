@@ -51,7 +51,6 @@ Feel free to use any variable you like, but keep in mind that we will be using t
 
 
 Your supervisor gives you the categories of apparel that the warehourse processes. This will be created under the variable `class_names`. 
-Feel free to use any variable you like, but keep in mind that we will be using this name for future activities.
 
 {{% notice tip %}}
 ### Question 1
