@@ -54,7 +54,7 @@ Your supervisor gives you the categories of apparel that the warehourse processe
 
 {{% notice tip %}}
 ### Question 1
-Write the following class names in an array class_names:
+Write the following class names in an array `class_names`:
 
 T-shirt/top
 
