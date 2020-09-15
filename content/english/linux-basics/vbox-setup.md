@@ -35,15 +35,26 @@ If you are using Mac:
     Select "OS X hosts"  
 If you are using something else, we recommend using Windows or Mac for this workshop. Anything else is beyond the scope for this workshop.  
 
-![virtual box download page](../images/vbox-dlpage-update.JPG?classes=border,shadow)
+![virtual box download page](../images/vbox-dlpage-update.PNG?classes=border,shadow)
 
 Next run the installer that just downloaded.
 
 The default options will be good enough for today!  
 Just keep clicking "Next" on the installer.
 
+{{% notice tip %}}
 Note some option selections are on the third page.
-![virtual box install options](../images/vbox-install-03.JPG?classes=border,shadow)
+![virtual box install options](../images/vbox-install-03.PNG?classes=border,shadow)
+{{% /notice %}}
 
+{{% notice tip %}}
+If you see this warning, do not worry, this is expected. 
+![virtual box network warning](../images/vbox-install-04.PNG?classes=border,shadow)
+{{% /notice %}}
+
+Once you arrive at this page click "install" to finish the setup.
+![virtual box install](../images/vbox-install-05.PNG?classes=border,shadow)
+
+Now the installation is complete!  
 Finally, you can keep the checkbox selected to start VirtualBox after installing.
-![virtual box launch after install](../images/vbox-install-06.JPG?classes=border,shadow)
+![virtual box launch after install](../images/vbox-install-06.PNG?classes=border,shadow)
