@@ -8,7 +8,7 @@ draft: false
 {{% notice info %}}
 If you would like to test all the code given in the answer key, visit <a href="https://colab.research.google.com/drive/1NtI1_iiNvq1J9rQsEaKEbiFsotkL_C0T?usp=sharing" target="_blank">this link</a> 
 
-Keep in mind, you will only be able to run the code blocks only one at a time, and would not be able to use the 'Run all' feature.
+Keep in mind, you will only be able to run the code blocks one at a time, and would not be able to use the 'Run all' feature.
 
 To prevent this and edit this code, click on the 'Copy to Drive' button to make a copy. Make sure you are logged in to your Google account.
 ![](https://i.imgur.com/jOCZnCu.png)
