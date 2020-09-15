@@ -1,9 +1,9 @@
 ---
-title: "Use Comparators"
+title: "Activity 6: Use Comparators"
 description: "Use Comparators"
 date: 2020-07-11
 prereq: "SELECT Command, WHERE Command"
-difficulty: "Beginner"
+difficulty: "Intermediate"
 draft: false
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->
@@ -33,13 +33,19 @@ To help you out, the Galactic Federation has sent you a brief tutorial on how to
 ![Example](assets/Example.png)
 
 {{%notice note%}}
-There are different versions of databases and the one you are using needs the value being compared to be inside single quotation marks! 
+* In example 2, the `!=` symbols could be used instead of `<>` to give the same output.
+* There are different versions of databases and the one you are using needs the value being compared to be inside single quotation marks! 
 {{%/notice%}}
 
-### Using the database 'items' with the column 'date_created', find out which artifact is the Legendary Totem of Fun: Confetti Cannon
+### Using the database called 'items' with the column labeled 'date_created', find out which artifact is the Legendary Totem of Fun: Confetti Cannon
 
 {{%notice tip%}}
-Hint: The artifact is created on '1738-09-12' (Use single quotation marks).
+* Hint 1: The artifact is created on '1738-09-12' (Use single quotation marks around the date).
+* Hint 2: What comparator do you need to use to find an exact match?
+* Hint 3: The correct command follows closely to the example above.
+* Hint 4: You do not need single quotation marks around the column or database names in this command.
+* Hint 5: What symbol do you need at the end of a SQL command?
+
 {{%/notice%}}
 
 <!-- SQL Type In Activity -->
@@ -68,4 +74,12 @@ Hint: The artifact is created on '1738-09-12' (Use single quotation marks).
 
   <!-- Unhide the Confetti Cannon -->
   <img id="cannon" alt="cannon" style="visibility:hidden"/>
+  
+  <!-- Tells User to continue mission -->
+  <div class="resume_plot" id="resume_plot" style="visibility:hidden">
+    <div class="alert">
+      <span id="check">&#10003;</span>
+      You've completed the task! Continue to the next mission!
+    </div>
+  </div>
 {{< /rawhtml >}}

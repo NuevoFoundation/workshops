@@ -1,5 +1,5 @@
 ---
-title: "Learn the COUNT Command"
+title: "Activity 3: Learn the COUNT Command"
 description: "Learn the COUNT command"
 date: 2020-07-14
 prereq: "SELECT Command"
@@ -22,24 +22,28 @@ You have successfully arrived on the Planet of Fun! The Galactic Federation has 
 ![db](assets/planet_db.PNG)
 
 ## Task 3: Talk to the inhabitants
-You need to talk to the inhabitants of the Planet of Fun to discover what the problem is. Find out how many cities there are on the planet using the "COUNT()" command!
+You need to talk to the inhabitants of the Planet of Fun to discover what the problem is. Find out how many cities there are on the planet using the `COUNT()` command!
 
 {{%notice info%}}
-When we use the `SELECT * FROM planet;` command, this table is displayed. But in order to check the number of cities, we can use the COUNT command.
+When we use the `SELECT * FROM planet;` command, the table above is displayed. But in order to check the number of cities, we can use the `COUNT()` command.
 {{%/notice%}}
 
 ![count](assets/count.png)
 
 {{%notice note%}}
-If you want to count the number of rows of a specific column, use the column name instead of the asterix.
+If you want to count the number of rows of a specific column, use the column name instead of the asterix inside the parenthesis.
 {{%/notice%}}
 
 
-### Question: Using "COUNT()", what command will display the number of cities on the Planet of Fun?
+### Question: Using `COUNT()`, what command will display the number of cities on the Planet of Fun?
 
 {{%notice tip%}}
+
+Press the Enter button on the terminal to check if you have the correct command. Use the Reset button to start over.
+
 * Hint 1: The Galactic Federation gave you the name of this database at the beginning of this activity
 * Hint 2: You can use either the asterix (*) or a column name
+* Hint 3: Don't forget the semicolon (;)
 
 {{%/notice%}}
 
@@ -69,4 +73,13 @@ If you want to count the number of rows of a specific column, use the column nam
     </tr>
   </table>
   <h4 id="story"></h4>
+  
+  <!-- Tells User to continue mission -->
+  <div class="resume_plot" id="resume_plot" style="visibility:hidden">
+    <p>You found the correct command to display the entire database! This is handy when you want to see all the information at the tip of your fingers!</p>
+    <div class="alert">
+      <span id="check">&#10003;</span>
+      You've completed the task! Continue to the next mission!
+    </div>
+  </div>
 {{< /rawhtml >}}

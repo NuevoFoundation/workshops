@@ -204,8 +204,9 @@ jQuery(document).ready(function() {
             location.href = jQuery(this).attr('href');
         });
     });
-
-    jQuery(document).keydown(function(e) {
+    
+    // Commented out to prevent the left/right arrow keys from moving to the left/right pages
+    /*jQuery(document).keydown(function(e) {
       // prev links - left arrow key
       if(e.which == '37') {
         jQuery('.nav.nav-prev').click();
@@ -215,7 +216,7 @@ jQuery(document).ready(function() {
       if(e.which == '39') {
         jQuery('.nav.nav-next').click();
       }
-    });
+    });*/
 
     $('#top-bar a:not(:has(img)):not(.btn)').addClass('highlight');
     $('article a:not(:has(img)):not(.btn)').addClass('highlight');

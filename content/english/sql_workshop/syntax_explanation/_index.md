@@ -1,5 +1,5 @@
 ---
-title: "Explain Syntax"
+title: "Tutorial 2: Explain Syntax"
 description: "Explain Syntax"
 date: 2020-07-15
 prereq: "SELECT Command, conditions (WHERE command)"
@@ -36,6 +36,11 @@ As per the Space Explorer Guidelines, we will now debrief you on the core struct
 command in hopes that you will be able to overcome challenges that have yet to come.
 
 ![Syntax](assets/Tutorial.png)
+
+{{%notice warning%}}
+* Column and database names are **case sensitive**, this means that if the names are all lower-case, please make sure they are lower-case when you type them!
+* Please don't forget the semicolon at the end of a SQL command!
+{{%/notice%}}
 
 Hopefully our advice will help you along your journey. Good luck Space Cadet!
 

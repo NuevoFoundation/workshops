@@ -1,11 +1,20 @@
-function drop(ev) {
+function drop(ev) 
+{
   ev.preventDefault();
   var data = ev.dataTransfer.getData("content");
-  ev.target.appendChild(document.getElementById(data));
   var div_num = ev.currentTarget.id;
+  var current = document.getElementById(div_num);
+  
+  /* If drop div already has a block, don't replace image block */
+  var inDivs = current.getElementsByTagName("img");
+  if(inDivs.length == 0 && data == "drag1") 
+  {
+    ev.target.appendChild(document.getElementById(data));
+  }
  
 
-  if(div_num == "div4" && data == "drag1") {
+  if(div_num == "div4" && data == "drag1") 
+  {
     alert("Congrats! You found the correct key!");
   
     //Display next mission prompt
@@ -17,14 +26,26 @@ function drop(ev) {
     display2.src = "assets/confetti.png";
     display2.setAttribute("style","visibility:visible");
   
-  //Turn box green
-  var box = document.getElementById("div4");
-  box.setAttribute("style","border:5px solid lime");
+    //Turn box green
+    var box = document.getElementById("div4");
+    box.setAttribute("style","border:5px solid lime");
+    
+    //Disable dragging keys
+    var img1 = document.getElementById('drag1');
+    img1.setAttribute('draggable', false);
+    var img2 = document.getElementById('drag2');
+    img2.setAttribute('draggable', false);
+    var img3 = document.getElementById('drag3');
+    img3.setAttribute('draggable', false);
+    
+    //Display the checkmark
+    var checkmark = document.getElementById("resume_plot");
+    checkmark.setAttribute("style","visibility:visible");
   }
-  else if(div_num == "div4") {
+  else if(div_num == "div4") 
+  {
     alert("Try again Space Cadet!");
   }
-  
 }
 
 function sql() 
@@ -34,7 +55,7 @@ function sql()
   document.getElementById("sqlcommand").style.visibility="visible";
 
   var user = document.getElementById("commands").innerHTML;
-  debug(user.toLowerCase(),"select min(height) from items where object in ('key');");
+  debug(user.toLowerCase(),"select min(height) from items where object in('key');", "select * from items where object in('key');");
   var array = alasql("MATRIX OF " + user);
   var ans = JSON.stringify(alasql(user));
 
@@ -53,20 +74,19 @@ function sql()
   sqlToTable(headArr, array);
   
   /*change answer here */
-  var ans1 = "select min(height) from items where object in ('key');";
-  var ans2 = "select min(height) from items where object in ('key')";
-  var ans3 = "select * from items where object in ('key')";
-  var ans4 = "select * from items where object in ('key');";
+  var ans1 = "select min(height) from items where object in('key');";
+  var ans2 = "select * from items where object in('key');";
   
   //Change string to lower case
   var input = user.toLowerCase();
   
-  if(input == ans1 || input == ans2 || input == ans3 || input == ans4)
+  if(input == ans1 || input == ans2)
   {
-    document.getElementById("story").innerHTML = "Amazing work as always, space cadet! You found the key!";
-  }
-  else
-  {
-    document.getElementById("story").innerHTML = "Not quite the right command. Keep trying!";
+    green();
+    document.getElementById("story").innerHTML = "Amazing work as always, Space Cadet! You found the key!";
+    
+    /* Changes terminal screen */
+    var screen = document.getElementById("terminal_div");
+    screen.style.backgroundImage = "url('../media/green.png')"
   }
 }

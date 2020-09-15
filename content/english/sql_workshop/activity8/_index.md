@@ -1,5 +1,5 @@
 ---
-title: "Learn LIKE Command"
+title: "Activity 8: Learn the LIKE Command"
 description: "Learn LIKE Command"
 date: 2020-07-09
 prereq: "SELECT Command, WHERE Command"
@@ -29,7 +29,7 @@ This Totem was created a month after the previous artifact:
 the Confetti Cannon (reminder: the Confetti Cannon was created on 1738-09-12).
 {{%/notice%}}
 
-**The Galactic Federation has sent you a brief tutorial on a handy command: LIKE**
+**The Galactic Federation has sent you a brief tutorial on a handy command: `LIKE`**
 
 ![Explain](assets/like_explain.png)
 ![Ex](assets/like.png)
@@ -67,8 +67,15 @@ the Confetti Cannon (reminder: the Confetti Cannon was created on 1738-09-12).
 
 <br>
 
-<!-- Unhide the Confetti Cannon -->
+<!-- Unhide the buffet table location -->
 <img id="gps" alt="gps" style="visibility:hidden; pointer-events: none;"/>
 
+<!-- Tells User to continue mission -->
+<div class="resume_plot" id="resume_plot" style="visibility:hidden">
+  <div class="alert">
+    <span id="check">&#10003;</span>
+    You've completed the task! Continue to the next mission!
+  </div>
+</div>
 
 {{< /rawhtml >}}

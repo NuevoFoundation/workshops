@@ -1,6 +1,6 @@
 ---
-title: "Learn Cadet Basics"
-description: "Learn what a database and SQl are"
+title: "Tutorial 1: Learn Cadet Basics"
+description: "Learn what a database and SQL are"
 date: 2020-07-26
 prereq: "none"
 difficulty: "Beginner"

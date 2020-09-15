@@ -1,5 +1,5 @@
 ---
-title: "Select Multiple Info"
+title: "Activity 4: Select Multiple Info"
 description: "Select Multiple Info"
 date: 2020-07-13
 prereq: "SELECT Command"
@@ -43,7 +43,9 @@ To do so, lets take a look at how to select multiple columns in a database.
 {{%/notice%}}
 
 ### Question: Using the 'galaxy' database, how do you display the planets and their leader?
-
+{{%notice warning%}}
+Don't forget the semicolon at the end!
+{{%/notice%}}
 
 <!-- SQL Type In Activity -->
 {{< rawhtml >}}
@@ -64,4 +66,14 @@ To do so, lets take a look at how to select multiple columns in a database.
     </tr>
   </table>
   <h4 id="story"></h4>
+  
+  <!-- Tells User to continue mission -->
+  <div class="resume_plot" id="resume_plot" style="visibility:hidden">
+    <p>You found the correct command to display all the planets and their leaders!</p>
+    <div class="alert">
+      <span id="check">&#10003;</span>
+      You've completed the task! Continue to the next mission!
+    </div>
+  </div>
+  
 {{< /rawhtml >}}

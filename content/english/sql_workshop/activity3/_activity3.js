@@ -24,15 +24,23 @@ function sql()
   sqlToTable(headArr, array);
 
   var ans1 = "select count(*) from planet;";
-  var ans2 = "select count(*) from planet";
-  var ans3 = "select count(city_number) from planet;";
+  var ans2 = "select count(city_number) from planet;";
   user = user.toLowerCase();
 
   
-  if(user == ans1 || user == ans2 || user == ans3)
+  if(user == ans1 || user == ans2)
   {
+    green();
     document.getElementById("commands").innerHTML = "<span class='right'>" + user + " </span>";
-    alert("You found the correct command!");
+    
+    /* Changes terminal screen */
+    var screen = document.getElementById("terminal_div");
+    screen.style.backgroundImage = "url('../media/green.png')"
+    
+    //Display the checkmark
+    var checkmark = document.getElementById("resume_plot");
+    checkmark.setAttribute("style","visibility:visible");
+    
     document.getElementById("story").innerHTML = "Oh no! You discover that the inhabitants are being invaded by the aliens from the planet Boredom. Press next to continue.";
   }
   else

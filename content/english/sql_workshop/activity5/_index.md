@@ -1,9 +1,9 @@
 ---
-title: "Learn MAX/MIN Command"
-description: "Learn MAX/MIN Command"
+title: "Activity 5: Learn the MAX/MIN Command"
+description: "Learn the MAX/MIN Command"
 date: 2020-07-12
 prereq: "SELECT Command, WHERE Command"
-difficulty: "Beginner"
+difficulty: "Intermediate"
 draft: false
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->
@@ -20,8 +20,7 @@ draft: false
 
 ## Task 5: Find the Tallest Ladder To Get To Their Dear Leader
 
-You have discovered that the planet's leader
-is in a hut on the tallest hill but to get to it, you need to find the largest ladder in the Capital of Fun!
+You have discovered that the planet's leader is in a hut on the tallest hill but to get to it, you need to find the largest ladder in the Capital of Fun!
 
 The Galactic Federation has sent you four new SQL commands to play around with! Lets take a look at them!
 
@@ -34,7 +33,7 @@ The Galactic Federation has sent you four new SQL commands to play around with! 
 
 {{%notice info%}}
 Column Property:
-'MAX()' is used to look for the largest value in a column. 'MIN()' is the opposite of max and will look for the smallest value in a column.
+`MAX()` is used to look for the largest value in a column. `MIN()` is the opposite of `MAX()` and will look for the smallest value in a column.
 You can replace any word inside the parenthesis with another column name to get the largest or smallest value of that column.
 {{%/notice%}}
 
@@ -42,24 +41,29 @@ You can replace any word inside the parenthesis with another column name to get 
 ![NOT](assets/not.png)
 
 {{%notice info%}}
-Condition:
-* 'IN()' and 'NOT IN()' are used hand in hand with the WHERE command we learned in activity 2. IN() is part of the condition of a SQL command and is helpful when you want to show some columns but not all of them.
+Notice how the items specified inside `IN()` and `NOT IN()` are surrounded by single quotation marks but the ones inside `MAX()` and `MIN()` are not.
 
-* 'NOT IN()' is the opposite of 'IN()'. Instead of choosing what to show like 'IN()', 'NOT IN()' will show all the columns you did not choose inside the parenthesis.
+<br>
+
+Condition:
+* `IN()` and `NOT IN()` are used hand in hand with the `WHERE` command we learned in activity 2. `IN()` is part of the condition of a SQL command and is helpful when you want to show some columns but not all of them.
+
+* `NOT IN()` is the opposite of `IN()`. Instead of choosing what to show like `IN()`, `NOT IN()` will show all the columns you did not choose inside the parenthesis.
 
 * You can use commas inside the parenthesis to choose more than one column to show or not show.
 {{%/notice%}}
-<br/>
 
 ### Now use what you learned! Using the database called 'items' with a column labeled 'object', find the tallest 'ladder'.
 {{%notice tip%}}
 * Hint 1: Remember the advice from the Galactic Federation: `SELECT [column/column property] FROM [database] [optional condition];`
 
-* Hint 2: Column property: Do you need to use 'MAX()' or 'MIN()' to find the tallest ladder?
+* Hint 2: Column property: Do you need to use `MAX()` or `MIN()` to find the tallest ladder?
 
 * Hint 3: Condition: `WHERE [column_name] [IN/NOT IN];`
 
-* Hint 4: Do you need to use 'IN()' or 'NOT IN()' to show the 'ladder'?
+* Hint 4: Do you need to use `IN()` or `NOT IN()` to show the 'ladder'?
+
+* Hint 5: What symbol do you need at the end of a SQL command?
 {{%/notice%}}
 <!-- SQL Type In Activity -->
 
@@ -96,7 +100,7 @@ Condition:
 ### Choose and drag the correct ladder onto the hill to continue your adventure!
 
 {{%notice note%}}
-The correct ladder will highlight green
+The correct ladder will be highlighted in green.
 {{%/notice%}}
 
 {{< rawhtml >}}
@@ -131,5 +135,12 @@ The correct ladder will highlight green
   You must find the Totems of Fun in order to save the planet! </p>
 </div>
 
+<!-- Tells User to continue mission -->
+<div class="resume_plot" id="resume_plot" style="visibility:hidden">
+  <div class="alert">
+    <span id="check">&#10003;</span>
+    You've completed the task! Continue to the next mission!
+  </div>
+</div>
 
 {{< /rawhtml >}}

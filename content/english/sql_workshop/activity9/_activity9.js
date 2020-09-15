@@ -63,20 +63,34 @@ function confirm() {
     var display2 = document.getElementById("buffet");
     display2.src="assets/Buffet.png";
     display2.setAttribute("style","visibility:visible");
+    
+    /* Display the checkmark */
+    var checkmark = document.getElementById("resume_plot");
+    checkmark.setAttribute("style","visibility:visible");
   }
   else {
     alert("Try Again, Space Explorer!");
   }
   
   //Turn box green if correct
-  
   if(first == 4) {  
     var box = document.getElementById("lock1");
     box.setAttribute("style","border:10px solid lime");
+    
+    //Disable button clicking
+    var a1 = document.getElementById("first_up");
+    a1.setAttribute('onclick', false);
+    var a3 = document.getElementById("first_down");
+    a3.setAttribute('onclick', false);
+    
   }
   if(second == 0) {
     var box = document.getElementById("lock2");
     box.setAttribute("style","border:10px solid lime");
+    var a2 = document.getElementById("sec_up");
+    a2.setAttribute('onclick', false);
+    var a4 = document.getElementById("sec_down");
+    a4.setAttribute('onclick', false);
   }
 }
 
@@ -107,17 +121,17 @@ function sql()
   
   /*change answer here */
   var ans1 = "select avg(population) from planet;";
-  var ans2 = "select avg(population) from planet";
   
   //Change string to lower case
   var input = user.toLowerCase();
   
-  if(input == ans1 || input == ans2)
+  if(input == ans1)
   {
+    green();
     document.getElementById("story").innerHTML = "Nice work Space Cadet! You found the average population size!";
-  }
-  else
-  {
-    document.getElementById("story").innerHTML = "Not quite the right command. Keep trying!";
+    
+    /* Changes terminal screen */
+    var screen = document.getElementById("terminal_div");
+    screen.style.backgroundImage = "url('../media/green.png')"
   }
 }

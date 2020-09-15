@@ -68,3 +68,7 @@ tr:hover
 tr:first-child {
   font-weight: bold;
 }
+
+[contenteditable] {
+  outline: 0px solid transparent;
+}

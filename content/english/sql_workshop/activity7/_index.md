@@ -1,5 +1,5 @@
 ---
-title: "Use MIN Command"
+title: "Activity 7: Use the MIN Command"
 description: "Use MIN Command"
 date: 2020-07-10
 prereq: "SELECT Command, WHERE Command, MAX/MIN Command"
@@ -25,7 +25,7 @@ draft: false
 You found the location of the Legendary Confetti Cannon but it is locked away behind a door made of titanium 
 and can only be unlocked with the smallest key on the planet! 
 
-**To help you out, the Galactic Federation has sent you a reminder on how to use 'MIN()' from a previous activity.**
+**To help you out, the Galactic Federation has sent you a reminder on how to use `MIN()` from a previous activity.**
 
 ![Explain](../activity5/assets/max_min.png)
 
@@ -33,9 +33,9 @@ and can only be unlocked with the smallest key on the planet!
 {{%notice tip%}}
 * Hint 1: Remember the advice from the Galactic Federation: `SELECT [column/column property] FROM [database] [optional condition];`
 
-* Hint 2: Condition: `WHERE [column_name] ['IN()'/'NOT IN()'];` 
+* Hint 2: Condition: `WHERE [column_name] [IN()/NOT IN()];` 
 
-* Hint 3: Do you need to use 'IN()' or 'NOT IN()' to show the 'key'?
+* Hint 3: Do you need to use `IN()` or `NOT IN()` to show the 'key'?
 {{%/notice%}}
 <!-- SQL Type In Activity -->
 
@@ -63,10 +63,9 @@ and can only be unlocked with the smallest key on the planet!
 <br>
 {{< /rawhtml >}}
 
-
 ### Choose and drag the correct key onto the lock to continue your adventure!
 {{%notice note%}}
-The correct key will be highlighted in green
+The height corresponds to the number of loops at the base of the key. The correct key will be highlighted in green.
 {{%/notice%}}
 
 {{< rawhtml >}}
@@ -104,4 +103,12 @@ The correct key will be highlighted in green
 
 <!-- Unhide the Confetti Cannon -->
 <img id="cannon" alt="cannon" style="visibility:hidden"/>
+
+<!-- Tells User to continue mission -->
+<div class="resume_plot" id="resume_plot" style="visibility:hidden">
+  <div class="alert">
+    <span id="check">&#10003;</span>
+    You've completed the task! Continue to the next mission!
+  </div>
+</div>
 {{< /rawhtml >}}

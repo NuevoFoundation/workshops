@@ -1,5 +1,5 @@
 ---
-title: "Learn AVG Command"
+title: "Activity 9: Learn the AVG Command"
 description: "Learn AVG Command"
 date: 2020-07-08
 prereq: "SELECT Command, WHERE Command"
@@ -29,15 +29,15 @@ will only unlock if you find the secret number.
 Your only clue is that the combination is the first two digits of the average city population.
 {{%/notice%}}
 
-**Lets look at the 'AVG()' command!**
+**Lets look at the `AVG()` command!**
 
 ![Explain](assets/AVG.png)
 
-#### Using the database 'planet' and the 'AVG()' command, find the first two digits of the average city 'population'!
+#### Using the database 'planet' and the `AVG()` command, find the first two digits of the average city 'population'!
 {{%notice tip%}}
 * Hint 1: The command follows very closely to the example.
 
-* Hint 2: How do you use 'population' with the 'AVG()' command?
+* Hint 2: How do you use 'population' with the `AVG()` command?
 {{%/notice%}}
 <!-- SQL Type In Activity -->
 
@@ -70,6 +70,7 @@ The clue to the combination is at the top of this page!
 
 <div class="vault_div" id="vault_div">
 
+  <div id="left_div">
   <button class="button first_up" id = "first_up" onclick="add(1)"> + </button>
   <button class="button sec_up" id = "sec_up" onclick="add(2)"> + </button> 
   
@@ -77,11 +78,14 @@ The clue to the combination is at the top of this page!
   
   <textarea class="lock" id="lock1" readonly>0</textarea>
   <textarea class="lock" id="lock2" readonly>0</textarea>
-  <button class="button vault_button" id = "vault_button" onclick="confirm()"> Check </button>
   
   <button class="button first_down" id = "first_down" onclick="subtract(-1)" style="clear:left;"> - </button>
   <button class="button sec_down" id = "sec_down" onclick="subtract(-2)"> - </button>
+  </div>
 
+  <div id="right_div">
+  <button class="button vault_button" id = "vault_button" onclick="confirm()"> Check </button>
+  </div>
   
   <div style="clear: both;"></div> 
 
@@ -94,5 +98,12 @@ The clue to the combination is at the top of this page!
 <!-- Unhide the Infinite Buffet Table -->
 <img id="buffet" alt="buffet" style="visibility:hidden"/>
 
+<!-- Tells User to continue mission -->
+<div class="resume_plot" id="resume_plot" style="visibility:hidden">
+  <div class="alert">
+    <span id="check">&#10003;</span>
+    You've completed the task! Continue to the next mission!
+  </div>
+</div>
 
 {{< /rawhtml >}}
