@@ -52,7 +52,7 @@ In the first code segment of this activity, change the index value for the `test
 {{% notice tip %}}
 
 ### Question 2
-In the plot_value_array, change the first parameter to the same index number used previously. What class name has the highest probability?
+In the `plot_value_array`, change the first parameter to the same index number used previously. What class name has the highest probability?
 
 {{% /notice %}}
 
