@@ -6,16 +6,16 @@ weight: 13
 translationKey: "linux-basics-activity-10"
 ---
 
-***Great, now that the bad one won't cause us any more headaches, let's replace the old file so things will run smoothly again.***
+*Great, now that the bad one won't cause us any more headaches, let's replace the old file so things will run smoothly again.*
 
-**How to fix the  secret-message**
+### How to fix the  secret-message
 
 The command mv replaces the destination file with the source file.
 mv [source filename] [destination name]
 
 Replace the messed up secret message with the old copy.
 
-**Make a copy of the secret message**
+### Make a copy of the secret message
 
 cp is a command that copies a file from one location to another.
 cp [source filename] [destination name]
