@@ -20,7 +20,7 @@ The following videos will go over all the code and activities, so we recommend d
 
 
 ## Getting Started with Google Colab
-Visit [Google Colab](https://colab.research.google.com/), an online programming enviornment similar to Google Docs but for running code. After signing into your Google account, click the option to create a "New Notebook". To run the code you complete while working through this workshop, click on the "play" button on the left. 
+Visit [Google Colab](https://colab.research.google.com/), an online programming environment similar to Google Docs but for running code. After signing into your Google account, click the option to create a "New Notebook". To run the code you complete while working through this workshop, click on the "play" button on the left. 
 
 We recommend that you organize your code by creating a new block of code for every segment of code used in the activities throughout the workshop. Also, make sure to read the comments in the code blocks to better understand what each code segment does.
 
