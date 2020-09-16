@@ -21,9 +21,9 @@ We should keep using that command to check if we changed the permissions as expe
 
 Try it:
 
-'''
+```
 chmod u=rwx g=rx o=x [insert filename]
-'''
+```
 
 chmod is a command used to modify the permissions of your files for the following 3 different groups of users: the **u**ser and owner of the file, the **g**roup and the members of the group of people with access to the file, and **o**thers or anyone else. These groups can be modified to have permissions to **r**ead, **w**rite, or e**x**ecute. 
 
