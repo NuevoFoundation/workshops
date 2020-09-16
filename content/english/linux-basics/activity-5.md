@@ -22,7 +22,7 @@ We should keep using that command to check if we changed the permissions as expe
 Try it:
 
 ```
-chmod u=rwx g=rx o=x [insert filename]
+chmod u=rwx g=rx o=x file1
 ```
 
 `chmod` is a command used to modify the permissions of your files for the following 3 different groups of users: 
@@ -46,9 +46,9 @@ Now, let's try to change the permissions of our files. We want anyone outside of
 
 chmod can also be used with simple number commands. These commands are written like:  
 
-'''
+```
 chmod 751 [insert filename]
-'''
+```
 
 The values can be understood as 7 is the combination of 4, 2, and 1. Thus, it gives users the permission to read, write, and execute.  
 What permissions do the other two values give?  
