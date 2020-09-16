@@ -6,7 +6,7 @@ weight: 12
 translationKey: "linux-basics-activity-9"
 ---
 
-*So this one is definitely a bad file, so we should probably remove it and the directory holding it!*
+*So `malware.sh` is definitely a bad file, so we should probably remove it and the directory holding it!*
 
 ### Remove the bad file!
 
