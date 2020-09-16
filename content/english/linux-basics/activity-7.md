@@ -28,7 +28,7 @@ Try to look at the first 5 lines of `malware.sh`!
 
 ### How can we look at the last lines of the file?
 
-Sometimes you just need to look at the end of the file. The command tail shows the bottom of a file.  
+Sometimes you just need to look at the end of the file. The command `tail` shows the bottom of a file.  
 The format is: `tail [Filename]`
 
 {{% notice tip %}} 
@@ -55,14 +55,14 @@ Less and more are commands similar to cat.
 
 #### MORE
 
-`more` is a command meant for larger files. It shows as many lines as possible and then you press enter to see the next section of the file.  
+`more` is a command meant for larger files. It shows as many lines as possible and then you press enter to see the next section of the file until you reach the end of the file.  
 The format is: `more [filename]`
 
 [Image of more of the file without the command]
 
 #### LESS
 
-`less` is a command helpful for going up and down through sections of a file. It work similarly to more, but you use the up and down arrow keys to move from one section of the file to the next.  
+`less` is a command helpful for going back and forth through sections of a file. It work similarly to more, but you use the up and down arrow keys to move from one section of the file to the next.  
 The format is: `less [filename]`
 
 [Image of less of the file without the command]
