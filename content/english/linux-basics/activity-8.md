@@ -8,7 +8,7 @@ translationKey: "linux-basics-activity-8"
 
 *Let's look at the secret-message to make sure this weird `malware.sh` file hasn't done anything to it!*
 
-Do we know a command that can help us find the location of the `secret-message.txt` file?
+### Do we know a command that can help us find the location of the `secret-message.txt` file?
 
 [Image of result with command blocked out]
 
