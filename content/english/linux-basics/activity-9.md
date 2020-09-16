@@ -6,9 +6,9 @@ weight: 12
 translationKey: "linux-basics-activity-9"
 ---
 
-***So this one is definitely a bad file, so we should probably remove it and the directory holding it!***
+*So this one is definitely a bad file, so we should probably remove it and the directory holding it!*
 
-**Remove the bad file!**
+### Remove the bad file!
 
 rm is a command that removes files.
 rm [filenames]
@@ -17,7 +17,7 @@ Remove the file we have decided is causing our problems. Then let's try to use o
 
 ----
 
-**But what if we need to remove a directory?**
+### But what if we need to remove a directory?
 
 rmdir is a command that can remove an empty directory.
 rmdir [directoryName]
