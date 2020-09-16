@@ -50,7 +50,7 @@ chmod can also be used with simple number commands. These commands are written l
 chmod 751 [insert filename]
 ```
 
-The values can be understood as 7 is the combination of 4, 2, and 1. Thus, it gives users the permission to read, write, and execute.  
+The values can be understood as 7 is the combination of 4, 2, and 1. Thus, it gives <b>u</b>sers the permission to read, write, and execute.  
 What permissions do the other two values give?  
 | KEY |
 | :--- |
