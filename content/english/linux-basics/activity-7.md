@@ -71,4 +71,4 @@ The format is: `less [filename]`
 
 Let's look at the entire contents of `malware.sh`!
 
-What do you think malware.sh does? Add it to your message to Nuvee!
+What do you think `malware.sh` does? Add it to your message to Nuvee!
