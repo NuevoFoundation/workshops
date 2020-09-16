@@ -25,7 +25,14 @@ Try it:
 chmod u=rwx g=rx o=x [insert filename]
 ```
 
-`chmod` is a command used to modify the permissions of your files for the following 3 different groups of users: the <b>u</b>ser and owner of the file, the <b>g</b>roup and the members of the group of people with access to the file, and <b>o</b>thers or anyone else. These groups can be modified to have permissions to <b>r</b>ead, <b>w</b>rite, or e<b>x</b>ecute. 
+`chmod` is a command used to modify the permissions of your files for the following 3 different groups of users: 
+- the <b>u</b>ser and owner of the file
+- the <b>g</b>roup and the members of the group of people with access to the file
+- the <b>o</b>thers or anyone else
+These groups can be modified to have permissions to 
+- <b>r</b>ead
+- <b>w</b>rite
+- e<b>x</b>ecute. 
 
 ### Try It
 
