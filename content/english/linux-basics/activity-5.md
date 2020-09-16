@@ -29,7 +29,9 @@ chmod u=rwx g=rx o=x [insert filename]
 - the <b>u</b>ser and owner of the file
 - the <b>g</b>roup and the members of the group of people with access to the file
 - the <b>o</b>thers or anyone else
-These groups can be modified to have permissions to 
+
+These groups can be modified to have permissions to do the following:
+
 - <b>r</b>ead
 - <b>w</b>rite
 - e<b>x</b>ecute. 
