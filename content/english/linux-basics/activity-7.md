@@ -62,7 +62,7 @@ The format is: `more [filename]`
 
 #### LESS
 
-`less` is a command helpful for going back and forth through sections of a file. It work similarly to more, but you use the up and down arrow keys to move from one section of the file to the next.  
+`less` is a command helpful for going back and forth through sections of a file. It work similarly to more, but you use the up and down arrow keys to move from one section of the file to the next. The way to exit is by pressing 'q'.  
 The format is: `less [filename]`
 
 [Image of less of the file without the command]
