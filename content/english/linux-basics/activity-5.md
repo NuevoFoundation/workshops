@@ -17,6 +17,8 @@ Feel free to go back if you need to!
 
 We should keep using that command to check if we changed the permissions as expected.
 
+---
+
 ### How do we secure the files then?
 
 Try it:
@@ -35,6 +37,8 @@ These groups can be modified to have permissions to do the following:
 - <b>r</b>ead
 - <b>w</b>rite
 - e<b>x</b>ecute. 
+
+---
 
 ### Try It
 
