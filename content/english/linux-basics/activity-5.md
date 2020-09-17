@@ -13,7 +13,7 @@ translationKey: "linux-basics-activity-5"
 Is there a command that we have learned so far that can show us how secure our files are?  
 Feel free to go back if you need to!
 
-[Image of results with the command blocked out!]
+![ls -l command](../images/Act5.1.PNG?classes=border,shadow)
 
 We should keep using that command to check if we changed the permissions as expected.
 
@@ -41,6 +41,8 @@ These groups can be modified to have permissions to do the following:
 ### Try it on your own!
 
 Now, let's try to change the permissions of our files. We want anyone outside of our group and aside from ourselves to have no permissions for the file1. How do we do that?
+
+![pwd command](../images/Act5.2.PNG?classes=border,shadow)
 
 {{% notice tip %}}
 
