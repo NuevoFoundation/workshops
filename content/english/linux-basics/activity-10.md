@@ -29,6 +29,6 @@ Let's move the file into the new directory that we made.
 `cp` is a command that copies a file from one location to another.
 The format is: `cp [source filename] [destination name]`.
 
-Make a copy of the file you made and the secret message.
+Make a copy of the file you made and the `secret-message.txt`.
 
 [Image of result]
