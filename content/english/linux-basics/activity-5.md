@@ -13,15 +13,13 @@ translationKey: "linux-basics-activity-5"
 Is there a command that we have learned so far that can show us how secure our files are?  
 Feel free to go back if you need to!
 
-[Image of results with the command blocked out!]
+![ls -l command](../images/Act5.1.PNG?classes=border,shadow)
 
 We should keep using that command to check if we changed the permissions as expected.
 
 ---
 
 ### How do we secure the files then?
-
-Try it:
 
 ```
 chmod u=rwx g=rx o=x file1
@@ -40,21 +38,23 @@ These groups can be modified to have permissions to do the following:
 
 ---
 
-### Try It
+### Try it on your own!
 
-Now, let's try to change the permissions of our files. We want anyone outside of our group and aside from ourselves to have no permissions for the file1. How do we do that?
+Now, let's try to change the permissions of our files. We want anyone outside of our group and aside from ourselves to have no permissions for `file1`. How do we do that?
+
+![chmod command](../images/Act5.2.PNG?classes=border,shadow)
 
 {{% notice tip %}}
 
 #### Shortcut!
 
-chmod can also be used with simple number commands. These commands are written like:  
+`chmod` can also be used with simple number commands. These commands are written like:  
 
 ```
 chmod 751 [insert filename]
 ```
 
-The values can be understood as 7 is the combination of 4, 2, and 1. Thus, it gives <b>u</b>sers the permission to read, write, and execute.  
+The values can be understood as 7 is the combination of 4, 2, and 1. Thus, it gives users the permission to read, write, and execute.  
 What permissions do the other two values give?  
 
 | Number | Meaning |

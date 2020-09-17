@@ -24,7 +24,7 @@ The format is: `head -n [# of lines] [Filename]`
 
 Try to look at the first 5 lines of `malware.sh`!
 
-[Image of the first 5 lines of the file without the command]
+![head command](../images/Act7.1.PNG?classes=border,shadow)
 
 ### How can we look at the last lines of the file?
 
@@ -40,7 +40,7 @@ The format is: `tail -n [# of lines] [Filename]`
 
 Try to look at the last 5 lines of `malware.sh`!
 
-[Image of the last 5 lines of the file without the command]
+![tail command](../images/Act7.2.PNG?classes=border,shadow)
 
 ### How can we look at the whole file?
 
@@ -58,14 +58,14 @@ Less and more are commands similar to cat.
 `more` is a command meant for larger files. It shows as many lines as possible and then you press enter to see the next section of the file until you reach the end of the file.  
 The format is: `more [filename]`
 
-[Image of more of the file without the command]
+![more command](../images/Act7.3.PNG?classes=border,shadow)
 
 #### LESS
 
 `less` is a command helpful for going back and forth through sections of a file. It work similarly to more, but you use the up and down arrow keys to move from one section of the file to the next. The way to exit is by pressing 'q'.  
 The format is: `less [filename]`
 
-[Image of less of the file without the command]
+![less command](../images/Act7.4.PNG?classes=border,shadow)
 
 {{% /notice %}}
 

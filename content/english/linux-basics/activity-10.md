@@ -20,7 +20,7 @@ The format is: `mv [source filename] [destination name]`.
 Replace the messed up secret message with the backup that we found earlier.  
 Let's move the file into the new directory that we made.
 
-[image of the command]
+![mv command](../images/Act10.1.PNG?classes=border,shadow)
 
 {{% notice tip %}}
 
@@ -28,6 +28,8 @@ The command `mv` can also be used to change the name of a file.
 The format is: `mv [old filename] [new name]`.
 
 {{% /notice %}}
+
+Try changing the name of the file you created!
 
 ---
 
@@ -40,4 +42,4 @@ The format is: `cp [source filename] [destination name]`.
 
 Make a copy of the file you made and the `secret-message.txt`.
 
-[Image of result]
+![cp command](../images/Act10.2.PNG?classes=border,shadow)
