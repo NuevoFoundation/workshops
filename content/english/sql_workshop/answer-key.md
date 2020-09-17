@@ -52,7 +52,7 @@ Two Valid Answers: `SELECT MIN(height) FROM items WHERE object IN (‘key’);` 
 Drag and Drop: The height corresponds to the number of loops on the base of the key. The smallest key (height of 1) is the correct key to drag and drop (rightmost key).
 
 ### Activity 8: Learn the LIKE Command (Type-In)
-Answer: `SELECT * FROM items WHERE date_created LIKE ‘%-10-%’;`
+Two Valid Answers: `SELECT * FROM items WHERE date_created LIKE ‘%-10-%’;` OR `select * from items where date_created like '1738-10-%';`
 
 ### Activity 9: Learn the AVG Command (Type-In)
 Answer: `SELECT AVG(population) FROM planet;`

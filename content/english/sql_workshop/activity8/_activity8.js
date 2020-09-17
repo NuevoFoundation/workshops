@@ -5,7 +5,7 @@ function sql()
   document.getElementById("sqlcommand").style.visibility="visible";
 
   var user = document.getElementById("commands").innerHTML;
-  debug(user.toLowerCase(),"select * from items where date_created like '%-10-%';");
+  debug(user.toLowerCase(),"select * from items where date_created like '%-10-%';", "select * from items where date_created like '1738-10-%';");
   var array = alasql("MATRIX OF " + user);
   var ans = JSON.stringify(alasql(user));
 
@@ -25,11 +25,12 @@ function sql()
   
   /*change answer here */
   var ans1 = "select * from items where date_created like '%-10-%';";
+  var ans2 = "select * from items where date_created like '1738-10-%';";
   
   //Change string to lower case
   var input = user.toLowerCase();
   
-  if(input == ans1)
+  if(input == ans1 || input == ans2)
   {
     green();
     document.getElementById("story").innerHTML = "Amazing work as always, space cadet! The Legendary Totem of Fun: Infinite Buffet Table is in Fun Capital!";

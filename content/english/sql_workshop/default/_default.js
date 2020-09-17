@@ -5,8 +5,12 @@ var p3 = null;
 var p4 = null;
 var p5 = null;
 
+//Used to keep track of duplicates and answer places (drop boxes)
+var place = [p1, p2, p3, p4, p5];
 var prev = [null, null, null, null, null];
 var bools = [null, null, null, null, null];
+
+//Used to hide boxes after correct command is used
 var div_array = ['div1','div2','div3','div4','div5','div6','div7','div8','div9','div10'];
 var ans_array = ['answer1', 'answer2','answer3','answer4','answer5'];
 
@@ -20,9 +24,39 @@ function drag(ev) {
 
 function drop(ev) {
   ev.preventDefault();
-  var data = ev.dataTransfer.getData("content");
-  var target = ev.currentTarget.id;
+  var data = ev.dataTransfer.getData("content"); //answer2
+  var target = ev.currentTarget.id; //Div#
   var current = document.getElementById(target);
+  
+  /* If any rectangles are red without a block, change to white */
+  var q = 0;
+  for(q; q < place.length; q++) {
+    
+    var temp_num = place[q];
+    var temp_div = null;
+    switch(q) {
+      case 0:
+        temp_div = document.getElementById("div6");
+        break;
+      case 1:
+        temp_div = document.getElementById("div7");
+        break;
+      case 2:
+        temp_div = document.getElementById("div8");
+        break;
+      case 3:
+        temp_div = document.getElementById("div9");
+        break;
+      case 4:
+        temp_div = document.getElementById("div10");
+        break;
+      default:
+        break;
+    }
+    if(temp_div.style.borderColor != "green") {
+      temp_div.style.borderColor = "white";
+    }
+  }
   
   prev[0] = p1;
   prev[1] = p2;  
@@ -86,57 +120,33 @@ function drop(ev) {
 
     bools[index] = null;
   } 
-    p1 = bools[0];
-    p2 = bools[1];
-    p3 = bools[2];
-    p4 = bools[3];
-    p5 = bools[4];
+  
+  //If block is returned to word bank, remove answer placeholder from drop block
+  if(target == "div1" || target == "div2" || target == "div3" || target == "div4" || target == "div5") {
+    var count = 0;
+    for(count; count < bools.length; count++) {
+      if(bools[count] == data) {
+        bools[count] = null;
+      }
+    }
+  }
+  
+  p1 = bools[0];
+  p2 = bools[1];
+  p3 = bools[2];
+  p4 = bools[3];
+  p5 = bools[4];
 }
 
 function check(){
-
+  
   //Highlight the correct answers in green and disable drag
-  if(p1 == "answer1") {
-    var a1 = document.getElementById('div6');
-    a1.style.borderWidth = "thick";
-    a1.style.borderColor = "green";
-    a1.setAttribute('ondrop', false);
-    var img1 = document.getElementById('answer1');
-    img1.setAttribute('draggable', false);
-  }
-  if(p2 == "answer2") {
-    var a2 = document.getElementById('div7');
-    a2.style.borderWidth = "thick";
-    a2.style.borderColor = "green";
-    a2.setAttribute('ondrop', false);
-    var img2 = document.getElementById('answer2');
-    img2.setAttribute('draggable', false);
-  }
-  if(p3 == "answer3") {
-    var a3 = document.getElementById('div8');
-    a3.style.borderWidth = "thick";
-    a3.style.borderColor = "green";
-    a3.setAttribute('ondrop', false);
-    var img3 = document.getElementById('answer3');
-    img3.setAttribute('draggable', false);
-  }
-  if(p4 == "answer4") {
-    var a4 = document.getElementById('div9');
-    a4.style.borderWidth = "thick";
-    a4.style.borderColor = "green";
-    a4.setAttribute('ondrop', false);
-    var img4 = document.getElementById('answer4');
-    img4.setAttribute('draggable', false);
-  }
-  if(p5 == "answer5") {
-    var a5 = document.getElementById('div10');
-    a5.style.borderWidth = "thick";
-    a5.style.borderColor = "green";
-    a5.setAttribute('ondrop', false);
-    var img5 = document.getElementById('answer5');
-    img5.setAttribute('draggable', false);
-  }
-
+  change_color('div6', p1, "answer1");
+  change_color('div7', p2, "answer2");
+  change_color('div8', p3, "answer3");
+  change_color('div9', p4, "answer4");
+  change_color('div10', p5, "answer5");
+  
   //Check if all the answers are correct
   if(p1 == "answer1" && p2 == "answer2" && p3 == "answer3" &&
      p4 == "answer4" && p5 == "answer5") {
@@ -159,6 +169,27 @@ function check(){
     document.getElementById("database").src="assets/Database.png";
   } else {
     alert("Try Again, Space Cadet!"); /* If incorrect, give alert */
+  }
+}
+
+/* Changes block color on enter click */
+function change_color(div_num, block, answer) {
+  
+  var a1 = document.getElementById(div_num);
+  if(block == answer) {
+    a1.style.borderWidth = "thick";
+    a1.style.borderColor = "green";
+    a1.setAttribute('ondrop', false);
+    var img1 = document.getElementById(answer);
+    img1.setAttribute('draggable', false);
+  } 
+  //If block is in incorrect spot, highlight in red
+  else if(block != null) {
+    a1.style.borderColor = "red";
+  } 
+  //If no block is placed (but was previously red), change back to white
+  else {
+    a1.style.borderColor = "white";
   }
 }
 

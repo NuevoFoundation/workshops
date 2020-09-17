@@ -6,12 +6,12 @@ alasql("INSERT INTO galaxy VALUES (2,'Planet of Mold','Lucy Stewart',90000,3)");
 alasql("INSERT INTO galaxy VALUES (3,'Ice Cream Freezer Land','James Dunkeld',20000,5)");
 alasql("INSERT INTO galaxy VALUES (4,'Planet of Fun','Olivia Windsor',20000,6)");
 alasql("INSERT INTO galaxy VALUES (5,'Desert Quadrant','Chloe Canmore',60000,7)");
-alasql("INSERT INTO galaxy VALUES (6,'Planet of Boredom',' ',90000,8)");
+alasql("INSERT INTO galaxy VALUES (6,'Planet of Boredom','N/A',90000,8)");
 alasql("INSERT INTO galaxy VALUES (7,'Nebula Planet','Harry Windsor',60000,9)");
 alasql("INSERT INTO galaxy VALUES (8,'Ocean World','Oliver Stuart',10000,10)");
-alasql("INSERT INTO galaxy VALUES (9,'Space Zone','',0,11)");
+alasql("INSERT INTO galaxy VALUES (9,'Space Zone','N/A',0,11)");
 alasql("INSERT INTO galaxy VALUES (10,'Eeh-Eeh','Amelia Tudor',90000,24)");
-alasql("INSERT INTO galaxy VALUES (11,'Planet of Pizza','',10000,27)");
+alasql("INSERT INTO galaxy VALUES (11,'Planet of Pizza','N/A',10000,27)");
 alasql("INSERT INTO galaxy VALUES (12,'Planet of Tacos','Jack Planta',900,60)");  
 
 // Planet database

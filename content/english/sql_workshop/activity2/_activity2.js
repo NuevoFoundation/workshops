@@ -5,12 +5,46 @@ bools.push(null);
 div_array.push('div11');
 div_array.push('div12');
 ans_array.push('answer6');
+place.push(p6);
 
 function drop(ev) {
   ev.preventDefault();
   var data = ev.dataTransfer.getData("content");
   var target = ev.currentTarget.id;
   var current = document.getElementById(target);
+  
+  /* If any rectangles are red without a block, change to white */
+  var q = 0;
+  for(q; q < place.length; q++) {
+    
+    var temp_num = place[q];
+    var temp_div = null;
+    switch(q) {
+      case 0:
+        temp_div = document.getElementById("div7");
+        break;
+      case 1:
+        temp_div = document.getElementById("div8");
+        break;
+      case 2:
+        temp_div = document.getElementById("div9");
+        break;
+      case 3:
+        temp_div = document.getElementById("div10");
+        break;
+      case 4:
+        temp_div = document.getElementById("div11");
+        break;
+      case 5:
+        temp_div = document.getElementById("div12");
+        break;
+      default:
+        break;
+    }
+    if(temp_div.style.borderColor != "green") {
+      temp_div.style.borderColor = "white";
+    }
+  }
   
   prev[0] = p1;
   prev[1] = p2;  
@@ -78,6 +112,17 @@ function drop(ev) {
 
     bools[index] = null;
   } 
+  
+  //If block is returned to word bank, remove answer placeholder from drop block
+  if(target == "div1" || target == "div2" || target == "div3" || target == "div4" || target == "div5" || target == "div6") {
+    var count = 0;
+    for(count; count < bools.length; count++) {
+      if(bools[count] == data) {
+        bools[count] = null;
+      }
+    }
+  }
+  
     p1 = bools[0];
     p2 = bools[1];
     p3 = bools[2];
@@ -89,54 +134,12 @@ function drop(ev) {
 function check(){
 
   //Highlight the correct answers in green
-  if(p1 == "answer1") {
-    var a1 = document.getElementById('div7');
-    a1.style.borderWidth = "thick";
-    a1.style.borderColor = "green";
-    a1.setAttribute('ondrop', false);
-    var img1 = document.getElementById('answer1');
-    img1.setAttribute('draggable', false);
-  }
-  if(p2 == "answer2") {
-    var a2 = document.getElementById('div8');
-    a2.style.borderWidth = "thick";
-    a2.style.borderColor = "green";
-    a2.setAttribute('ondrop', false);
-    var img2 = document.getElementById('answer2');
-    img2.setAttribute('draggable', false);
-  }
-  if(p3 == "answer3") {
-    var a3 = document.getElementById('div9');
-    a3.style.borderWidth = "thick";
-    a3.style.borderColor = "green";
-    a3.setAttribute('ondrop', false);
-    var img3 = document.getElementById('answer3');
-    img3.setAttribute('draggable', false);
-  }
-  if(p4 == "answer4") {
-    var a4 = document.getElementById('div10');
-    a4.style.borderWidth = "thick";
-    a4.style.borderColor = "green";
-    a4.setAttribute('ondrop', false);
-    var img4 = document.getElementById('answer4');
-    img4.setAttribute('draggable', false);
-  }
-  if(p5 == "answer5") {
-    var a5 = document.getElementById('div11');
-    a5.style.borderWidth = "thick";
-    a5.style.borderColor = "green";
-    a5.setAttribute('ondrop', false);
-    var img5 = document.getElementById('answer5');
-    img5.setAttribute('draggable', false);
-  }
-  if(p6 == "answer6") {
-    var a6 = document.getElementById('div12');
-    a6.style.borderWidth = "thick";
-    a6.style.borderColor = "green";
-    a6.setAttribute('ondrop', false);
-    var img6 = document.getElementById('answer6');
-    img6.setAttribute('draggable', false);
-  }
+  change_color('div7', p1, "answer1");
+  change_color('div8', p2, "answer2");
+  change_color('div9', p3, "answer3");
+  change_color('div10', p4, "answer4");
+  change_color('div11', p5, "answer5");
+  change_color('div12', p6, "answer6");
 
   //Check if all the answers are correct
   if(p1 == "answer1" && p2 == "answer2" && p3 == "answer3" &&
@@ -164,5 +167,7 @@ function check(){
 
     document.getElementById("planet").src="assets/Show_Planet.png";
     document.getElementById("gps").src="assets/GPS.png";
+  } else {
+    alert("Try Again, Space Cadet!");
   }
 }
