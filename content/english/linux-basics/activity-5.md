@@ -54,7 +54,7 @@ Now, let's try to change the permissions of our files. We want anyone outside of
 chmod 751 [insert filename]
 ```
 
-The values can be understood as 7 is the combination of 4, 2, and 1. Thus, it gives <b>u</b>sers the permission to read, write, and execute.  
+The values can be understood as 7 is the combination of 4, 2, and 1. Thus, it gives users the permission to read, write, and execute.  
 What permissions do the other two values give?  
 
 | Number | Meaning |
