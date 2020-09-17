@@ -43,7 +43,7 @@ for i in range(width):
                 newimg.putpixel((i,j),color)# else stays the same
 newimg.save("nuevopink.png")
 ```
-Wow! This is our new nuevo after changing the background.
+Wow! This is our new Nuvi after changing the background.
 <img src="../../media/nuevopink.png" width=25%>
 <hr/>
 
