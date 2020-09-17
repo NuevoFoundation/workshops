@@ -20,7 +20,7 @@ Before starting this section, it is recommended that you review the following se
 <hr/>
 
 #### Example - Change background color
-Let us change the background color of nuevo into pink
+Let us change the background color of Nuvi into pink
 <img src="../../media/nuevo.png" width=25%>
 
 ```python
