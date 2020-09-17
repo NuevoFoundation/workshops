@@ -82,7 +82,7 @@ function oven_reset() {
 
 /* Turns correct buttons green */
 function green_button(current_button) {
-  
+
   var current = document.getElementById(current_button);
   if(current.getAttribute("style", "border") == "border:3px solid blue;" && current_button != "cake_button" && current_button != "ic_button") {
     current.setAttribute("style","border:3px solid lime;");

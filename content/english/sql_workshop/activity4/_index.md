@@ -43,6 +43,7 @@ To do so, let's take a look at how to select multiple columns in a database.
 {{%/notice%}}
 
 ### Question: Using the 'galaxy' database, how do you display only the _names of the_ planets and their leader?
+
 {{%notice warning%}}
 Don't forget the semicolon at the end!
 {{%/notice%}}

@@ -4,17 +4,34 @@ draft: false
 weight: 2
 ---
 
-### Pixels
+### <b> Pixels </b>
+<hr/>
 
-**Pixels** is a small area of color on a display screen. Images are formed by pixels on the screen. We can manipulating pixels by changing the **RGB Value**, which are essentially changing the value of red, green and blue color on each pixels.
-<br/><br/>
+**Pixels** is a small area of color on a display screen. Images are formed by pixels on the screen. We can manipulating pixels by changing the **RGB Value**, which are essentially changing the value of red, green and blue color on each pixels. When we see the an image on the screen, it is made of huge numbers of tiny pixel. Each tiny pixels has its only unique position and color it displays.
+
+<div style="width:80%;padding-left:20%;">
+    <table>
+        <td>
+            <img src="../../media/nuvi.png" width=100%>
+        </td>
+        <td>
+            <img src="../../media/pixel-nuvi.png" width=100%>
+        </td>
+    </table>
+</div>
 
 For information about how to open and save images in Python. <br/>
 See more on these pages: <br/>
 <a href="../../../image-manipulation/project-overview/" target="blank">Import PIL</a><br/>
 <a href="../../../image-manipulation/open-image/" target="blank">Open an Image</a>
 <br/><br/>
-#### Making image using pixels
+<br/><br/>
+
+
+
+#### <b> Making image using pixels </b>
+<hr/>
+
 ```python
 # Remember to import Image
 from PIL import Image
@@ -43,7 +60,17 @@ img.save('pil_black.png')
 output:
 ![alt text](../../media/black.png "image showing pixels second example")
 
-#### Changing a pixel in image
+<br/><br/>
+<br/><br/>
+
+#### <b> Changing a pixel in image </b>
+<hr/>
+
+`img.putpixel( (x,y), (r, g, b))` put a new pixel with the given position and color. Position is a `(width, height)` value of that pixel. Color is the RGB Color of that pixel. 
+<br/><br/>
+
+#### Let's see an example
+
 ```python
 # Remember to import Image
 from PIL import Image
@@ -53,4 +80,6 @@ img.save('pil_black-dot.png')
 ```
 output:
 ![alt text](../../media/black-dot.png "image showing pixels third example")
-You can see a tiny small dot in the middle of this yellow block, this is one small pixel.
+You can see a tiny small dot in the middle of this yellow block, this is one small pixel. You can how small a pixel is.
+
+
