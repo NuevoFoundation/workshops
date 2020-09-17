@@ -8,8 +8,8 @@ translationKey: "linux-basics-activity-6"
 
 ### Searching for a pattern in a file?
 
-`grep` is a command used to search for a pattern of `chars`. There are different flags or options that can change how it is used.
-
+`grep` is a command used to search for a pattern of `chars`. There are different flags or options that can change how it is used.  
+The format is: `grep [flag] “[pattern]” [filename]`.
 {{% notice tip %}}
 
 A `char` is any letter, symbol, or number. Examples include `!`, `h`, `2`, etc.
@@ -23,8 +23,6 @@ A `char` is any letter, symbol, or number. Examples include `!`, `h`, `2`, etc.
 | -i | To make the search case-insensitive. “uNiX” is the same as “unix” |
 | -n | To return matched lines and their line numbers. |
 | -R | Search all files in current directory. |
-
-The format is: `grep [flag] “[pattern]” [filename]`.
 
 *Let's practice this command to find Nuvi's secret-message.txt! Let's try the following command:*
 
