@@ -11,7 +11,7 @@ draft: false
 <hr/>
 
 #### Example 1
-make a <b>diagonal</b> on your color board.
+Make a <b>diagonal</b> on your color board.
 ```python
 #This creates the original colorboard.
 from PIL import Image
