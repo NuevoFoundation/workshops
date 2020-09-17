@@ -43,10 +43,10 @@ at it.*
 `find` is a command used to search for a file with certain parameters within a directory or region of files. It can be used in multiple ways including:
 
 - Searching for a specific File Name:
-  file [directory] -name [filename]
+  The format is: `find [directory] -name [filename]`
 - Searching for all text files (Files that end with .txt):
-  file [directory] -name *.txt 
+  The format is: `find [directory] -name *.txt`
 
-Use the find command to search for the file within the current directory. Is there a command we can use to figure out what the current directory is?
+Use the `find` command to search for the file within the current directory. Is there a command we can use to figure out what the current directory is?
 
 [Example find command usage]
