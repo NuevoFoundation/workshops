@@ -48,7 +48,7 @@ Wow! This is our new Nuvi after changing the background.
 <hr/>
 
 #### Challenge - Change background based on your choice
-It's now your turn to change whichever color you want on the nuevo! Exciting！
+It's now your turn to change whichever color you want on Nuvi! Exciting！
 {{% notice warning %}}
 **Be careful:** In order to see your image, please click on top left corner (which says 'Files'), and then click on the image file to see the result.
 {{% /notice %}}
