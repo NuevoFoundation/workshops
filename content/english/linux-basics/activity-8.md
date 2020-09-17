@@ -42,7 +42,7 @@ Fun Fact: The `-u` flag puts the output in unified mode. You can change the `u` 
 
 {{% /notice %}}
 
-Check the difference between the two files. How many differences did you find? Put it in your file!
+Check the difference between the two files. How many differences did you find? Put it in the file you made!
 
 {{% notice tip %}}
 
