@@ -13,6 +13,12 @@ translationKey: "linux-basics-activity-11"
 `tar` is a command that creates and extracts archived files.  
 The format is: `tar [filenames]`.
 
+{{% notice info %}}
+
+An archive is a collection of archive files. An archive file holds the compressed data of one or more files.
+
+{{% /notice %}}
+
 | flags | Uses |
 | :--- | :--- |
 | -c | creates archive |
