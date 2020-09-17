@@ -37,7 +37,7 @@ grep -R "Do. Or do not. There is no try."
 
 ### Why does the secret-message file look like that?
 
-*Remember that file we saw with the strange name? It was called `Malware.sh`. We should go find it again and take a closer look 
+*Remember that file we saw with the strange name? It was called `malware.sh`. We should go find it again and take a closer look 
 at it.*
 
 `find` is a command used to search for a file with certain parameters within a directory or region of files. It can be used in multiple ways including:

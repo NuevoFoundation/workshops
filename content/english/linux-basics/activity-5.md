@@ -56,11 +56,12 @@ chmod 751 [insert filename]
 
 The values can be understood as 7 is the combination of 4, 2, and 1. Thus, it gives <b>u</b>sers the permission to read, write, and execute.  
 What permissions do the other two values give?  
-| KEY |
-| :--- |
-| 4 = read |
-| 2 = write |
-| 1 = execute |
-| 0 = no permission |
+
+| Number | Meaning |
+| :---: | :---: |
+| 4 | read |
+| 2 | write |
+| 1 | execute |
+| 0 | no permission |
 
 {{% /notice %}}

@@ -11,7 +11,7 @@ This activity will show you how to determine your current location.
 
 ### Where in the file system are you?
 
-The Linux command “pwd” will display your current location. This stands for Print Working Directory
+The Linux command `pwd` will display your current location. This stands for Print Working Directory
 
 Try it:
 ```
@@ -20,7 +20,7 @@ pwd
 
 ![pwd command](../images/02_pwd.png?classes=border,shadow)
 
-The output above is "/home/nuvi" and its meaning is explained below:
+The output above is `/home/nuvi` and its meaning is explained below:
 - /    : This denotes the root directory, which is the beginning of the Linux file system.
 - home: This denotes the home directory, which is located within the root directory.
 - /nuvi: This denotes the nuvi directory, which is located within the home directory. The output stops here, meaning nuvi is current working directory where we are located.
@@ -29,22 +29,22 @@ The output above is "/home/nuvi" and its meaning is explained below:
 
 ### How do I move around the file system?
 
-To move to a different directory, use the command "cd" This stands for change directory. The format of this command is cd directory_name.
+To move to a different directory, use the command `cd` This stands for change directory. The format of this command is cd directory_name.
 
 Try it:
 ```
 cd Desktop
 ```
-![cd command](../images/02_cd.png?classes=border,shadow)
+![cd command](../images/02_cd.PNG?classes=border,shadow)
 
-In the output above, you can see that when we type "pwd" again, the working directory we are in is now Desktop. 
+In the output above, you can see that when we type `pwd` again, the working directory we are in is now Desktop. 
 
 Try one more example of cd below:
 ```
 cd ..
 ```
-![cd command](../images/02_cdDotDot.png?classes=border,shadow)
+![cd command](../images/02_cdDotDot.PNG?classes=border,shadow)
 
-The ".." after the cd command takes you one level up the filesystem tree. The output of "pwd" now shows we are back where we started. We began in the nuvi directory, moved down the tree into Desktop with "cd Desktop", and then moved up the tree with "cd .."
+The `..` after the cd command takes you one level up the filesystem tree. The output of `pwd` now shows we are back where we started. We began in the nuvi directory, moved down the tree into Desktop with `cd Desktop`, and then moved up the tree with `cd ..`.
 
 Great job, next we'll look at how to explore the directories themselves.
