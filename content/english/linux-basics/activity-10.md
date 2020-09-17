@@ -22,6 +22,13 @@ Let's move the file into the new directory that we made.
 
 [image of the command]
 
+{{% notice tip %}}
+
+The command `mv` can also be used to change the name of a file.  
+The format is: `mv [old filename] [new name]`.
+
+{{% /notice %}}
+
 ---
 
 ### Backup your files
