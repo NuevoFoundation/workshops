@@ -35,7 +35,7 @@ This is the picture after changing.
 <hr/>
 
 #### Example 2
-make a <b>rectangle</b> on your color board.
+Make a <b>rectangle</b> on your color board.
 
 ```python
 #This creates the original colorboard.
