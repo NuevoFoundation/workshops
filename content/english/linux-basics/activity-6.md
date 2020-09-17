@@ -10,6 +10,7 @@ translationKey: "linux-basics-activity-6"
 
 `grep` is a command used to search for a pattern of `chars`. There are different flags or options that can change how it is used.  
 The format is: `grep [flag] “[pattern]” [filename]`.
+
 {{% notice tip %}}
 
 A `char` is any letter, symbol, or number. Examples include `!`, `h`, `2`, etc.
