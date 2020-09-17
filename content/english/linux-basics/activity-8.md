@@ -10,11 +10,11 @@ translationKey: "linux-basics-activity-8"
 
 ### Do we know a command that can help us find the location of the `secret-message.txt` file?
 
-[Image of result with command blocked out]
+![find command](../images/Act8.1.PNG?classes=border,shadow)
 
 Move into that directory and let's check for the quote "Do. Or do not. There is no try." from earlier. Do you remember what command can help us check?  
 
-[Image of result]
+![grep command](../images/Act8.2.PNG?classes=border,shadow)
 
 *This file is usually a good file, but there seems to be some changes to it. Should we compare it to a known good version?*
 
