@@ -24,6 +24,12 @@ Remove the file we have decided is causing our problems. How can we check that t
 `rmdir` is a command that can remove an empty directory.
 The format is: `rmdir [directoryName]`.
 
+{{% notice warning %}}
+
+'rmdir' permanantly removes the directory.
+
+{{% /notice %}}
+
 How can you remove the directory that the bad file was in?
 
 [Image of result]
