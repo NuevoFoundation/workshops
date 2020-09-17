@@ -40,7 +40,7 @@ These groups can be modified to have permissions to do the following:
 
 ### Try it on your own!
 
-Now, let's try to change the permissions of our files. We want anyone outside of our group and aside from ourselves to have no permissions for the file1. How do we do that?
+Now, let's try to change the permissions of our files. We want anyone outside of our group and aside from ourselves to have no permissions for `file1`. How do we do that?
 
 ![chmod command](../images/Act5.2.PNG?classes=border,shadow)
 
@@ -48,7 +48,7 @@ Now, let's try to change the permissions of our files. We want anyone outside of
 
 #### Shortcut!
 
-chmod can also be used with simple number commands. These commands are written like:  
+`chmod` can also be used with simple number commands. These commands are written like:  
 
 ```
 chmod 751 [insert filename]
