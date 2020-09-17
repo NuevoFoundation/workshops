@@ -23,7 +23,6 @@ Use tar to secure your directory of files!
 
 [Image of result]
 
-----
 {{% notice info %}}
 
 zip is a command that compresses a set of files.  
