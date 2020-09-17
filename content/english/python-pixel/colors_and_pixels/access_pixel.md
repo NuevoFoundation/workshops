@@ -1,5 +1,5 @@
 ---
-title: "Access pixels on image "
+title: "Access pixels on image"
 draft: false
 weight: 3
 ---
