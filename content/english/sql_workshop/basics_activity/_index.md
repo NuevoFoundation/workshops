@@ -27,6 +27,11 @@ you need. A SQL command is like a sentence you say to the database.
 
 ![SQL](assets/SQL.png)
 
+## What is a Table?
+
+A table can be a database.
+![Table](assets/Table.png)
+
 Now that you have some knowledge of what databases and SQL commands are, you will be
  learning how to use these on your missions! Continue to start your first official 
  space adventure!

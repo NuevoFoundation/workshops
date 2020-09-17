@@ -81,7 +81,7 @@ function oven_reset() {
 }
 
 /* Turns correct buttons green */
-function green(current_button) {
+function green_button(current_button) {
   
   var current = document.getElementById(current_button);
   if(current.getAttribute("style", "border") == "border:3px solid blue;" && current_button != "cake_button" && current_button != "ic_button") {
@@ -134,22 +134,22 @@ function confirm() {
     /* Highlights correct buttons in green */
     switch(current) {
       case "hd_button":
-        green(current);
+        green_button(current);
         break;
       case "burger_button":
-        green(current);
+        green_button(current);
         break;      
       case "pizza_button":
-        green(current);
+        green_button(current);
         break;
       case "taco_button":
-        green(current);
+        green_button(current);
         break;         
       case "cake_button":
-        green(current);
+        green_button(current);
         break;
       case "ic_button":
-        green(current);
+        green_button(current);
         break;
       default:
         break;

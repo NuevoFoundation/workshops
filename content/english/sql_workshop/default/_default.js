@@ -9,6 +9,7 @@ var prev = [null, null, null, null, null];
 var bools = [null, null, null, null, null];
 var div_array = ['div1','div2','div3','div4','div5','div6','div7','div8','div9','div10'];
 var ans_array = ['answer1', 'answer2','answer3','answer4','answer5'];
+var bank = [null, null, null, null, null];
 
 function allowDrop(ev) {
   ev.preventDefault();
@@ -157,6 +158,8 @@ function check(){
     hide_boxes();
     
     document.getElementById("database").src="assets/Database.png";
+  } else {
+    alert("Try Again, Space Cadet!");
   }
 }
 

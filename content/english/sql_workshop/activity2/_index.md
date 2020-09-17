@@ -105,7 +105,7 @@ The `WHERE` command allows you to only show data that you want.
 <img src="" id="planet">
 
 <div id="text" style="visibility:hidden">
-<h3> Now that you know where the Planet of Fun is, we can find more information about it and ignore the other planets. Lets go to the Planet of Fun! </h3>
+<h3> Now that you know where the Planet of Fun is, we can find more information about it and ignore the other planets. Let's go to the Planet of Fun! </h3>
 </div>
 
 <img src="" id="gps">

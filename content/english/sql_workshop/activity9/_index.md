@@ -29,7 +29,7 @@ will only unlock if you find the secret number.
 Your only clue is that the combination is the first two digits of the average city population.
 {{%/notice%}}
 
-**Lets look at the `AVG()` command!**
+**Let's look at the `AVG()` command!**
 
 ![Explain](assets/AVG.png)
 
