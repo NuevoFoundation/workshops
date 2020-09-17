@@ -10,11 +10,16 @@ Welcome! This activity will show you how to find out which user account you are 
 
 ### What are user accounts?
 
-Every user in Linux has a user account. These are used to uniquely identify users. Let's find out which user account we are currently using.
+Every user in Linux has a user account. These are used to uniquely identify each user.
 
 ### How do I find out which account I am using?
 
-Type in the Linux command, “whoami” to display the name on the current account.
+The Linux command "whoami" will tell you which account you are using.
+
+Try it:
+```
+whoami
+```
 
 ![home directory](../images/01_whoami.png?classes=border,shadow)
 
