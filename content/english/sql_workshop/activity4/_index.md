@@ -20,7 +20,7 @@ draft: false
 ## Task 4: Find Their Dear Leader
 
 After going to the Capital of Fun, you are told by the inhabitants to talk to their Dear Leader. Find out which inhabitant is the Dear Leader.
-To do so, lets take a look at how to select multiple columns in a database.
+To do so, let's take a look at how to select multiple columns in a database.
 
 ![Commas](assets/Commas.png)
 
@@ -42,7 +42,8 @@ To do so, lets take a look at how to select multiple columns in a database.
 **Hint: Only two columns are needed.**
 {{%/notice%}}
 
-### Question: Using the 'galaxy' database, how do you display the planets and their leader?
+### Question: Using the 'galaxy' database, how do you display only the _names of the_ planets and their leader?
+
 {{%notice warning%}}
 Don't forget the semicolon at the end!
 {{%/notice%}}

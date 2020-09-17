@@ -30,10 +30,14 @@ When we use the `SELECT * FROM planet;` command, the table above is displayed. B
 
 ![count](assets/count.png)
 
-{{%notice note%}}
-If you want to count the number of rows of a specific column, use the column name instead of the asterix inside the parenthesis.
-{{%/notice%}}
+### Question: Using `COUNT()`, what command will display the number of cities on the Planet of Fun?
 
+{{%notice tip%}}
+Press the Enter button on the terminal to check if you have the correct command. Use the Reset button to start over.
+
+* Hint 1: The Galactic Federation gave you the name of this database at the beginning of this activity
+* Hint 2: You can use either the asterisk (*) or a column name
+{{%/notice%}}
 
 ### Question: Using `COUNT()`, what command will display the number of cities on the Planet of Fun?
 

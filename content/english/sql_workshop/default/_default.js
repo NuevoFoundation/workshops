@@ -157,6 +157,8 @@ function check(){
     hide_boxes();
     
     document.getElementById("database").src="assets/Database.png";
+  } else {
+    alert("Try Again, Space Cadet!"); /* If incorrect, give alert */
   }
 }
 
