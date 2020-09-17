@@ -12,7 +12,7 @@ translationKey: "linux-basics-activity-10"
 
 {{% notice tip %}}
 
-The command `mv` can also be used to replace the destination file with the source file.
+The command `mv` can also be used to replace the destination file with the source file.  
 The format is: `mv [source filename] [destination name]`.
 
 {{% /notice %}}
@@ -28,7 +28,7 @@ Let's move the file into the new directory that we made.
 
 *That backup file earlier came in handy to fix the bugged file. Let's backup the files in our directory*
 
-`cp` is a command that copies a file from one location to another.
+`cp` is a command that copies a file from one location to another.  
 The format is: `cp [source filename] [destination name]`.
 
 Make a copy of the file you made and the `secret-message.txt`.
