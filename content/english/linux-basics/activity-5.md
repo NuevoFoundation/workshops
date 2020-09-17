@@ -42,7 +42,7 @@ These groups can be modified to have permissions to do the following:
 
 Now, let's try to change the permissions of our files. We want anyone outside of our group and aside from ourselves to have no permissions for the file1. How do we do that?
 
-![pwd command](../images/Act5.2.PNG?classes=border,shadow)
+![chmod command](../images/Act5.2.PNG?classes=border,shadow)
 
 {{% notice tip %}}
 
