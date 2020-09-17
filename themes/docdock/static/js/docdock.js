@@ -205,6 +205,7 @@ jQuery(document).ready(function() {
         });
     });
     
+    // Commented out to prevent the left/right arrow keys from moving to the left/right pages
     /*jQuery(document).keydown(function(e) {
       // prev links - left arrow key
       if(e.which == '37') {
