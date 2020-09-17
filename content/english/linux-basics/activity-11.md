@@ -26,7 +26,7 @@ Use tar to secure your directory of files!
 {{% notice info %}}
 
 zip is a command that compresses a set of files.  
-Zip [name of zip file] [filenames to be zipped]
+The format is: `zip [name of zip file] [filenames to be zipped]`
 
 {{% /notice %}}
 
