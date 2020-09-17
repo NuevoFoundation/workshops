@@ -15,14 +15,6 @@ translationKey: "linux-basics-activity-10"
 The command `mv` can also be used to change the name of a file.  
 The format is: `mv [old filename] [new name]`.
 
-{{% /notice %}}
-
-Try to rename `.secret-message.old` to `secret-message.txt`!
-
-[Image of the result]
-
-{{% notice tip %}}
-
 The command `mv` can also be used to replace the destination file with the source file.  
 The format is: `mv [source filename] [destination name]`.
 
@@ -31,7 +23,7 @@ The format is: `mv [source filename] [destination name]`.
 Replace the messed up secret message with the backup that we found earlier.  
 Let's move the file into the new directory that we made.
 
-[image of the command]
+[image of the result]
 
 ---
 
