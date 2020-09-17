@@ -10,16 +10,8 @@ translationKey: "linux-basics-activity-11"
 
 ### Secure your files, so they don't get tampered with again
 
-zip is a command that compresses a set of files.
-Zip [name of zip file] [filenames to be zipped]
-
-You did it! Thanks for your help and Nuvi really appreciates all of the advice and tips you gave him!
-
-----
-
-### tar
-
 tar is a command that creates and extracts archived files.
+The format is: `tar [filenames]`.
 
 | flags | Uses |
 | :--- | :--- |
@@ -27,4 +19,14 @@ tar is a command that creates and extracts archived files.
 | -x | extracts archive |
 | -f | creates archive with given filename |
 
-tar [filenames] 
+Use tar to secure your directory of files!
+
+----
+{{% notice info %}}
+
+zip is a command that compresses a set of files.  
+Zip [name of zip file] [filenames to be zipped]
+
+{{% /notice %}}
+
+You did it! Thanks for your help and Nuvi really appreciates all of the advice and tips you gave him!
