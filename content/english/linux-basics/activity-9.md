@@ -10,7 +10,7 @@ translationKey: "linux-basics-activity-9"
 
 ### Remove the bad file!
 
-`rm` is a command that removes files.
+`rm` is a command that removes files.  
 The format is: `rm [filenames]`.
 
 Remove the file we have decided is causing our problems. How can we check that the file was fully removed?
@@ -21,7 +21,7 @@ Remove the file we have decided is causing our problems. How can we check that t
 
 ### But what if we need to remove a directory?
 
-`rmdir` is a command that can remove an empty directory.
+`rmdir` is a command that can remove an empty directory.  
 The format is: `rmdir [directoryName]`.
 
 {{% notice warning %}}
