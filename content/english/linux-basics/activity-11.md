@@ -21,7 +21,7 @@ The format is: `tar [filenames]`.
 
 Use `tar` to secure your directory of `files`! You are going to want to create an archive with the name `files.tar.gz`.
 
-[Image of result]
+![tar command](../images/Act11.PNG?classes=border,shadow)
 
 {{% notice info %}}
 
