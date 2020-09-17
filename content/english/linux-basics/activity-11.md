@@ -10,7 +10,7 @@ translationKey: "linux-basics-activity-11"
 
 ### Secure your files, so they don't get tampered with again
 
-tar is a command that creates and extracts archived files.
+tar is a command that creates and extracts archived files.  
 The format is: `tar [filenames]`.
 
 | flags | Uses |
