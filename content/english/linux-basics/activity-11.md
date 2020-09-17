@@ -21,6 +21,8 @@ The format is: `tar [filenames]`.
 
 Use tar to secure your directory of files!
 
+[Image of result]
+
 ----
 {{% notice info %}}
 
