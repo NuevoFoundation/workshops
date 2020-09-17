@@ -1,5 +1,5 @@
 ---
-title: "Python: Colors"
+title: "Python: Colors and Pixels"
 icon: "fab fa-python"
 draft: false
 weight: 1
