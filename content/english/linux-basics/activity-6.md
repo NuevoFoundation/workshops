@@ -32,7 +32,7 @@ cd
 grep -R "Do. Or do not. There is no try."
 ```
 
-[insert image of grep command]
+![grep command](../images/Act6.1.PNG?classes=border,shadow)
 
 --------------------------
 
@@ -50,4 +50,4 @@ at it.*
 
 Use the `find` command to search for the file within the current directory. Is there a command we can use to figure out what the current directory is?
 
-[Example find command usage]
+![find command](../images/Act6.2.PNG?classes=border,shadow)
