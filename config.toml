@@ -31,7 +31,8 @@ editURL = "https://github.com/NuevoFoundation/workshops/tree/master/content/"
 showVisitedLinks = true # default is false
 themeStyle = "flex" # "original" or "flex" # default "flex"
 themeVariant = "" # choose theme variant "green", "gold" , "gray", "blue" (default)
-ordersectionsby = "weight" # ordersectionsby = "title"
+orderSectionsBy = "title"
+orderPagesBy = "weight"
 disableHomeIcon = true # default is false
 disableSearch = false # default is false
 disableNavChevron = false # set true to hide next/prev chevron, default is false

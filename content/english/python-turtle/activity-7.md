@@ -3,7 +3,6 @@ title: "Activity 7 - Drawing a figure 8"
 date: 2019-07-25T13:24:17-07:00
 weight: 10
 draft: false
-translationKey: "python-turtle-activity-7"
 ---
 
 ![drawing a figure 8](https://paper-attachments.dropbox.com/s_6DE744F5F42D9843D8BF3A4073281FC6AA4B5E70B001CCD7879563112D6136E1_1563992981796_figure8.PNG)
