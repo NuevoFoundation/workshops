@@ -1,5 +1,5 @@
 ---
-title: "Activity 10: Chanllege: Make your own image"
+title: "Activity 10: Challenge: Make your own image"
 date: 2020-09-08T00:00:00Z
 weight: 8
 draft: false
