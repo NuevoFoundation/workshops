@@ -13,7 +13,7 @@ To code music, we need to learn a little Python. Don't worry, it won't bite you.
 If you want to jump to a specific Python section, click on the topic
 below:
 
-- <a href="../../python-basics/python-console" target="_blank">Python Console</a>
-- <a href="../../python-basics/comments" target="_blank">Comments</a>
-- <a href="../../python-basics/functions" target="_blank">Functions</a>
+- [Print](../../python-basics/1-print)
+- [Comments](../../python-basics/2-comments)
+- [Functions](../../python-basics/3-functions)
 

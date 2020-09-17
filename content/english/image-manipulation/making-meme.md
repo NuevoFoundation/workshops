@@ -3,8 +3,6 @@ title: "Making a meme!"
 date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 22
-prereq: "Python Basics: Repl.it, Writing to Console (Print), Comments, Data Types - Strings, Numbers, Booleans, Variables, Reading from Console, Functions"
-difficulty: Intermediate
 --- 
 
 So now that my image looks how I want it to look, I want to add some text. We can do that by utilizing the <b>Pillow ImageDraw</b> module. Let’s import that at the top of our file along with our other import statements.

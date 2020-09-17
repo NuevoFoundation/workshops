@@ -2,11 +2,12 @@
 title: "Python: Choose Your Own Adventure Game"
 description: "An introductory guide on how to make a Choose Your Own Adventure Game in Python"
 date: 2019-07-23T11:45:38-07:00
-difficulty: Intermediate
-prereq: "Python Basics - Writing to Console (Print), Reading from Console, Strings, Variables, Conditional statements"
+prereq: "None"
+difficulty: "Intermediate"
 download: ""
 draft: false
 icon: "fab fa-python"
+weight: 11
 ---
 
 # Part 1 – Welcome!
@@ -32,9 +33,3 @@ Let’s try it out!
  src="https://repl.it/@nuevofoundation/PythonGuessAdventureFullSample?lite=true&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 What did you all think? We’re now going to learn some cool skills that will allow us to create our own stories.
-
-## Table of Contents
-<details>
-<summary>Sections</summary>
-{{% children %}}
-</details>

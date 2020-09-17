@@ -3,8 +3,6 @@ title: "Project Overview"
 date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 18
-prereq: "Python Basics: Repl.it, Writing to Console (Print), Comments, Data Types - Strings, Numbers, Booleans, Variables, Reading from Console, Functions"
-difficulty: Intermediate
 --- 
 
 Applications like Instagram and Snapchat allow its users to modify their images. For example, you can rotate your image and make it black and white. Ever wondered how these apps do it? The answer is using code!

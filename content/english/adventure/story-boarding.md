@@ -2,9 +2,7 @@
 title: "Section 1: Story Boarding"
 date: 2019-07-23T11:45:38-07:00
 draft: false
-weight: 2
-difficulty: Intermediate
-prereq: "Python Basics - Writing to Console (Print), Reading from Console, Strings, Variables, Conditional statements"
+weight: 7
 ---
 
 To get started, pull out a piece a paper and start "story boarding". What does that mean? In order to develop a great story that allows the reader to choose between options, one can outline the flow of their story. This is a great planning step, that will you help you tremendously once you start coding!

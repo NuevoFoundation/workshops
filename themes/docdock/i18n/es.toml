@@ -1,48 +1,26 @@
-# body-beforecontent.html
-[navigation]
-other = "Navegación:"
+[Search-placeholder]
+other = "Buscar..."
 
-# custom-footer.html
-[join-social-media]
-other = "Únete a la conversación en las redes sociales."
+[Clear-History]
+other = "Limpiar historial"
 
-[copyright-footer]
-other = "© Copyright 2019, Todos los derechos reservados por Nuevo Foundation, una organización sin fines de lucro de acuerdo con la disposición 501(c)(3)."
+[Attachments-label]
+other = "Adjuntos"
 
-# header.html
-[donate]
-other = "Donar"
+[title-404]
+other = "Error"
 
-[what-we-do]
-other = "Lo que hacemos"
+[message-404]
+other = "Woops. Parece que esta página no existe ¯\\_(ツ)_/¯."
 
-[workshops]
-other = "Tallers"
+[Go-to-homepage]
+other = "Ir a la home"
 
-[get-involved]
-other = "Involucrarse"
+[Edit-this-page]
+other = "Edita esta página"
 
-[support-us]
-other = "Apoyanos"
+[Shortcuts-Title]
+other = "Más"
 
-[event-blog]
-other = "Blog de eventos"
-
-[our-team]
-other = "Nuestro equipo"
-
-[contact-us]
-other = "Contactanos"
-
-# Metadata.html
-[workshop-resources]
-other = "Recursos del tallers"
-
-[pre-requisite]
-other = "Requisito previo:"
-
-[difficulty]
-other = "Dificultad:"
-
-[download]
-other = "Descargar:"
+[Expand-title]
+other = "Expándeme..."

@@ -1,5 +1,5 @@
 {{- $currentNode := . }}
-{{- if eq .Site.Params.orderSectionsBy "title"}}
+{{- if eq .Site.Params.ordersectionsby "title"}}
 {{- range .Site.Home.Sections.ByTitle}}
 {{- template "menu-nav" dict "sect" . "currentnode" $currentNode "level" 1}}
 {{- end}}
@@ -31,7 +31,7 @@
 {{- end}}
 {{- $pages := (.Scratch.Get "pages") }}
 
-{{- if eq .Site.Params.orderPagesBy "title"}}
+{{- if eq .Site.Params.ordersectionsby "title"}}
 {{- range $pages.ByTitle }}
 {{- if and .Params.hidden (not $.showhidden) }}
 {{- else}}

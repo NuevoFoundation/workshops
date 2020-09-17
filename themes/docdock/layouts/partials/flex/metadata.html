@@ -1,22 +1,22 @@
 <div class="panel panel-primary">
-    <div class="panel-heading">{{ i18n "workshop-resources" }}</div>
+    <div class="panel-heading">Workshop Resources</div>
     <div class="panel-body">
         {{ with .Param "prereq" }}
         <div class="metadata-row">
-            <span class="metadata-label">{{ i18n "pre-requisite" }}</span>
+            <span class="metadata-label">Pre-requisite: </span>
             <span class="metadata-value">{{ . }} </span>
         </div>
         {{ end }}
         {{ with .Param "difficulty" }}
         <div class="metadata-row">
-            <span class="metadata-label">{{ i18n "difficulty" }}</span>
-            <span class="metadata-value">{{ . }}</span>
+            <span class="metadata-label">Difficulty: </span>
+            <span class="metadata-value">{{ . }} </span>
         </div>
         {{ end }}
         {{ with .Param "download" }}
         <div class="metadata-row">
-            <span class="metadata-label">{{ i18n "download" }}</span>
-            <span class="metadata-value"><a href="{{ . }}">{{ i18n "download" }}</a></span>
+            <span class="metadata-label">Download: </span>
+            <span class="metadata-value"><a href="{{ . }}">Download</a> </span>
         </div>
         {{ end }}
     </div>

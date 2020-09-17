@@ -3,8 +3,6 @@ title: "Image Filters"
 date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 21
-prereq: "Python Basics: Repl.it, Writing to Console (Print), Comments, Data Types - Strings, Numbers, Booleans, Variables, Reading from Console, Functions"
-difficulty: Intermediate
 --- 
 
 I want to turn my cat black and white! Let's do this by using the <b>Pillow ImageFilter</b> function <b>filter()</b> & <b>convert()</b>.

@@ -2,12 +2,10 @@
 title: "Activity 1 - Set tempo & add sounds"
 description: "Setting up headphones"
 prereq: "Python Basics: Print, Comments, Functions"
-difficulty: "Intermediate"
+difficulty: "Beginner"
 weight: 5
 draft: false
 ---
-
-<iframe width="100%" height="600px" src="https://www.youtube.com/embed/3OpCc7sKcpM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Let's take a closer look at the pre-existing code and understand what it means. ![annotated screenshot cannot be displayed](../img/annotated-screenshot-overview.png) We will be placing our new code between the `setTempo()` and `finish()` functions. The `setTempo()` function allows you to set the overall project tempo.
 
@@ -16,7 +14,6 @@ Let's take a closer look at the pre-existing code and understand what it means. 
 between 45-220. 
 ![](../img/img-tempo1.png)
 {{% /notice %}}
-
 
 1. Now that our tempo is set, it is time to add sounds. To do so, we must utilize the `fitMedia()` function.
 2. Make sure the cursor in your program is between `setTempo()` and `finish()` functions.
