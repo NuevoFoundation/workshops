@@ -22,6 +22,8 @@ Let's move the file into the new directory that we made.
 
 [image of the command]
 
+---
+
 ### Backup your files
 
 *That backup file earlier came in handy to fix the bugged file. Let's backup the files in our directory*
