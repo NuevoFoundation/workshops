@@ -21,8 +21,6 @@ We should keep using that command to check if we changed the permissions as expe
 
 ### How do we secure the files then?
 
-Try it:
-
 ```
 chmod u=rwx g=rx o=x file1
 ```
@@ -40,7 +38,7 @@ These groups can be modified to have permissions to do the following:
 
 ---
 
-### Try It
+### Try it on your own!
 
 Now, let's try to change the permissions of our files. We want anyone outside of our group and aside from ourselves to have no permissions for the file1. How do we do that?
 
