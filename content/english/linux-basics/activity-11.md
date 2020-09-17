@@ -29,5 +29,3 @@ Use `tar` to secure your directory of `files`! You are going to want to create a
 The format is: `zip [name of zip file] [filenames to be zipped]`
 
 {{% /notice %}}
-
-You did it! Thanks for your help and Nuvi really appreciates all of the advice and tips you gave him!
