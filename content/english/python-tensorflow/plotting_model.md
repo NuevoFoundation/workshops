@@ -10,7 +10,7 @@ Now that we are able to classify the category of an individual piece of clothing
 <iframe width="100%" height="600px" src="https://www.youtube.com/embed/FrO66fkSU7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-## Write the following code in Colab:
+## Copy the following code into Colab:
 
 {{% notice note %}}
 
@@ -66,7 +66,7 @@ plt.subplot(1,2,2)
 plot_value_array(i, predictions[i],  test_labels)
 plt.show()
 ```
-![](https://i.imgur.com/yZRrkr4.png)
+![Plotting Model Figure 1](../media/Plotting_fig1.png)
 
 Not all models are perfect, and this can be seen with this image classification model.
 ```python
@@ -78,9 +78,10 @@ plt.subplot(1,2,2)
 plot_value_array(i, predictions[i],  test_labels)
 plt.show()
 ```
-![](https://i.imgur.com/nuQUwZi.png)
+![Plotting Model Figure 2](../media/Plotting_fig2.png)
 
-Plot the first X test images, their predicted labels, and the true labels.
+
+Plot the first 25 test images, their predicted labels, and the true labels.
 Color correct predictions in blue and incorrect predictions in red.
 ```python
 num_rows = 5
@@ -95,3 +96,5 @@ for i in range(num_images):
 plt.tight_layout()
 plt.show()
 ```
+
+![Plotting Model Figure 3](../media/Plotting_fig3.png)

@@ -9,6 +9,7 @@ draft: false
 icon: "fab fa-python"
 ---
 
+
 # Welcome to Tensorflow!
 In this workshop we will be using the Tensorflow Python library to train a neural network model to recognize and classify different types of clothing. We will take a look at the steps which allow the model to make a prediction for the best fit category for a specified image.
 
@@ -26,7 +27,7 @@ We recommend that you organize your code by creating a new block of code for eve
 
 {{% notice note %}}
 When running your code for the first time, make sure to run your code by clicking on _Runtime -> Run all_ in the Menu bar to execute all your code snippets sequentially. This is to make sure that you don't accidentally execute functions without importing the libraries first!
-![](https://i.imgur.com/Y3bZgtg.png)
+![Colab intro](media/colab_intro.png)
 
 {{% /notice %}}
 

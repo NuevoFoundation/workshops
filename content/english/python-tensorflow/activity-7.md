@@ -7,6 +7,7 @@ draft: false
 
 <iframe width="100%" height="600px" src="https://www.youtube.com/embed/pwZDPj4yIsM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Copy and Paste the following code into Google Colab:
 ```python
 # Grab an image from the test dataset. This shows the resolution of the image. 
 

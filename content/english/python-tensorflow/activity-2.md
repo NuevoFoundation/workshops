@@ -24,7 +24,7 @@ plt.show() #displays the entire plot
 ### Question 1
 
 Change the index of the “train_images[x]” and look at the color bar on the right, what is the max pixel value?
-![](https://imgur.com/vJd5F1H.png )
+![A2 Q1](../media/a2q1.png)
 {{% /notice %}}
 
 {{% notice tip %}}
@@ -33,8 +33,9 @@ Change the index of the “train_images[x]” and look at the color bar on the r
 After analyzing the shoe, you now take another clothing item from your sample and do the same thing. Change the index value to whatever you like so you have a different item. 
 Save this value for later as you will use this in Activity 6. 
 
-For example, if you input the index value as 6, you get the following item:
-![](https://i.imgur.com/3DSX5Ar.png )
+For example, if you input the index value as 7, you get the following item:
+![Shirt](../media/a2progress2.png)
+
 {{% /notice %}}
 
 
