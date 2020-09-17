@@ -3,7 +3,6 @@ title: "Activity 8 - What's different?"
 description: "Use Linux commands to compare files."
 date: 2020-08-10
 weight: 11
-translationKey: "linux-basics-activity-8"
 ---
 
 *Let's look at the secret-message to make sure this weird `malware.sh` file hasn't done anything to it!*
@@ -18,7 +17,7 @@ Move into that directory and let's check for the quote "Do. Or do not. There is 
 
 *This file is usually a good file, but there seems to be some changes to it. Should we compare it to a known good version?*
 
-Lets see if there might be any backups of the secret message within its directory. Go to the Document directory and try:
+Let's see if there might be any backups of the secret message within its directory. Go to the Document directory and try:
 
 ```
 ls -la

@@ -1,9 +1,8 @@
 ---
-title: "Activity 10 - Lets move and replace."
+title: "Activity 10 - Let's move and replace"
 description: "Use Linux commands to move and copy files."
 date: 2020-07-08
 weight: 13
-translationKey: "linux-basics-activity-10"
 ---
 
 *Great, now that the bad one won't cause us any more headaches, let's replace the old file so things will run smoothly again.*

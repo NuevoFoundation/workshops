@@ -3,7 +3,6 @@ title: "Activity 3 - Explore Current Directory"
 description: "Use Linux commands to view the contents of the current directory"
 date: 2020-07-08
 weight: 6
-translationKey: "linux-basics-activity-3"
 ---
 
 Now that we know who and where we are, let's take a look around. We will explore another aspect of the Linux user account: user file permissions.
@@ -23,7 +22,7 @@ The `-l` flag in the above command tells ls to list long form information.
 
 ### What information is being displayed?
 
-Lets examine the top line of the example above from left to right, for the directory `Desktop`:
+Let's examine the top line of the example above from left to right, for the directory `Desktop`:
 
 drwxr-xr-x 2 nuvi nuvi 4096 Aug 10 23:50 Desktop
 
@@ -48,7 +47,7 @@ Now type in `ls -l` one more time and look at the output.
 
 ![ls-l after move](../images/03_ls-l_after_move.PNG?classes=border,shadow)
 
-You should see that the directory Documents no longer appears, because it was moved into the Desktop directory. Lets practice mv one more time by moving it back. 
+You should see that the directory `Documents` no longer appears, because it was moved into the `Desktop` directory. Let's practice mv one more time by moving it back. 
 
 Try it:
 ```

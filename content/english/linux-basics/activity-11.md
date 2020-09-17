@@ -1,9 +1,8 @@
 ---
-title: " Activity 11 - Store and protect files."
+title: " Activity 11 - Store and protect files"
 description: "Use Linux commands to compress and archive files."
 date: 2020-07-08
 weight: 14
-translationKey: "linux-basics-activity-11"
 ---
 
 *Thanks so much for helping us fix the machine! Now let's get everything up into one nice package.*
@@ -11,6 +10,7 @@ translationKey: "linux-basics-activity-11"
 ### Secure your files, so they don't get tampered with again
 
 `tar` is a command that creates and extracts archived files.  
+# TODO what is an archive file?
 The format is: `tar [filenames]`.
 
 | flags | Uses |

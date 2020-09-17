@@ -3,7 +3,6 @@ title: "Starting up the Virtual Machine"
 description: "Continuing the introductory guide to using virtual machines."
 date: 2020-09-10
 weight: 3
-translationKey: "linux-basics-launch-kali"
 ---
 
 Now that everything is installed, let's launch the virtual machine!

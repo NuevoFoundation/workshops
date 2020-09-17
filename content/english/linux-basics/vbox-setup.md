@@ -3,7 +3,6 @@ title: "Using Virtual Machines Part 1"
 description: "An introductory guide to using virtual machines."
 date: 2020-08-05
 weight: 1
-translationKey: "linux-basics-vbox-setup"
 ---
 
 *We are providing you with a copy of an image to work with.*

@@ -3,7 +3,6 @@ title: "Activity 2 - Determine User Location"
 description: "Use a Linux command to determine what directory you are currently in"
 date: 2020-07-08
 weight: 5
-translationKey: "linux-basics-activity-2"
 ---
 
 At any given time in Linux, each user is in a directory within the Linux filesystem.
@@ -21,9 +20,9 @@ pwd
 ![pwd command](../images/02_pwd.png?classes=border,shadow)
 
 The output above is `/home/nuvi` and its meaning is explained below:
-- /    : This denotes the root directory, which is the beginning of the Linux file system.
-- home: This denotes the home directory, which is located within the root directory.
-- /nuvi: This denotes the nuvi directory, which is located within the home directory. The output stops here, meaning nuvi is current working directory where we are located.
+- `/`: This denotes the root directory, which is the beginning of the Linux file system.
+- `home`: This denotes the home directory, which is located within the root directory.
+- `/nuvi`: This denotes the nuvi directory, which is located within the home directory. The output stops here, meaning nuvi is current working directory where we are located.
 - This process of heading down the filesystem tree, branching at a new directory can go on for many more steps in some cases. 
 - The path shown and described above is called the <b>absolute path</b>, because it is the path given from the current directory all the way up to the root directory.
 

@@ -8,7 +8,6 @@ download: ""
 draft: true
 icon: "fas fa-microchip"
 weight: 1
-translationKey: "linux-basics-main"
 ---
 
 # Welcome

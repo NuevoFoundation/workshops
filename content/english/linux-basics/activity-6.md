@@ -3,7 +3,6 @@ title: "Activity 6 - A BAD File"
 description: "Use Linux commands to search"
 date: 2020-07-08
 weight: 9
-translationKey: "linux-basics-activity-6"
 ---
 
 ### Searching for a pattern in a file?

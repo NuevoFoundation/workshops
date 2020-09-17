@@ -3,7 +3,6 @@ title: "Using Virtual Machines Part 2"
 description: "Continuing the introductory guide to using virtual machines."
 date: 2020-08-05
 weight: 2
-translationKey: "linux-basics-kali-setup"
 ---
 
 *Now that we have the host environment ready, we can load the image as a VM.*

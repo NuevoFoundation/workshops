@@ -3,7 +3,6 @@ title: "Closing"
 description: "The last screen after activities have been completed"
 date: 2020-07-08
 weight: 15
-translationKey: "linux-basics-activity-12"
 ---
 
 ### Congratulations! 
