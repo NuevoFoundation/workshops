@@ -26,7 +26,7 @@ The format is: `rmdir [directoryName]`.
 
 {{% notice warning %}}
 
-'rmdir' permanantly removes the directory.
+`rmdir` permanantly removes the directory.
 
 {{% /notice %}}
 
