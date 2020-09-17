@@ -29,6 +29,8 @@ The format is: `mv [old filename] [new name]`.
 
 {{% /notice %}}
 
+Try changing the name of the file you created!
+
 ---
 
 ### Backup your files
