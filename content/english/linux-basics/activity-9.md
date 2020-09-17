@@ -15,7 +15,7 @@ The format is: `rm [filenames]`.
 
 Remove the file we have decided is causing our problems. How can we check that the file was fully removed?
 
-[Image of result]
+![rm command](../images/Act9.1.PNG?classes=border,shadow)
 
 ----
 
@@ -32,10 +32,10 @@ The format is: `rmdir [directoryName]`.
 
 How can you remove the directory that the bad file was in?
 
-[Image of result]
+![rmdir command](../images/Act9.2.PNG?classes=border,shadow)
 
 Do you remember the command to remake the directory that we deleted?
 
-[Image of result]
+![mkdir command](../images/Act9.3.PNG?classes=border,shadow)
 
 Now let's go check if we know a command to fix the secret-message.txt...
