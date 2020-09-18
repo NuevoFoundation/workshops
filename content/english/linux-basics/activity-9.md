@@ -37,6 +37,10 @@ How can you remove the directory that the bad file was in?
 
 ![rmdir command](../images/Act9.2.png?classes=border,shadow)
 
+{{% notice warning %}}
+Removing files can be a dangerous operation, especially on Linux. Make sure that you are 100% certain the file you want to delete is safe to remove. By removing the wrong file, it would ruin your computer.
+{{% /notice %}}
+
 Do you remember the command to remake the directory that we deleted?
 
 ![mkdir command](../images/Act9.3.png?classes=border,shadow)
