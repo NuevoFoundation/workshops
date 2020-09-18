@@ -5,16 +5,20 @@ date: 2020-07-08
 weight: 12
 ---
 
-*So `malware.sh` is definitely a bad file, so we should probably remove it and the directory holding it!*
+*So `malware.sh` is definitely a bad file left by the hackers. We need to remove it and the directory holding it!*
 
 ### Remove the bad file!
 
 `rm` is a command that removes files.  
 The format is: `rm [filenames]`.
 
+{{% notice warning %}}
+`rm` permanantly removes the file.
+{{% /notice %}}
+
 Remove the file we have decided is causing our problems. How can we check that the file was fully removed?
 
-![rm command](../images/Act9.1.PNG?classes=border,shadow)
+![rm command](../images/Act9.1.png?classes=border,shadow)
 
 ----
 
@@ -24,17 +28,15 @@ Remove the file we have decided is causing our problems. How can we check that t
 The format is: `rmdir [directoryName]`.
 
 {{% notice warning %}}
-
 `rmdir` permanantly removes the directory.
-
 {{% /notice %}}
 
 How can you remove the directory that the bad file was in?
 
-![rmdir command](../images/Act9.2.PNG?classes=border,shadow)
+![rmdir command](../images/Act9.2.png?classes=border,shadow)
 
 Do you remember the command to remake the directory that we deleted?
 
-![mkdir command](../images/Act9.3.PNG?classes=border,shadow)
+![mkdir command](../images/Act9.3.png?classes=border,shadow)
 
-Now let's go check if we know a command to fix the `secret-message.txt`...
+*Now let's go check if we know a command to restore the `secret-message.txt`...*

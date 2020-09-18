@@ -5,14 +5,14 @@ date: 2020-07-08
 weight: 8
 ---
 
-*Oh no. Some of our files might have been messed with! Let’s secure our files…*
+*Oh no. Some of our files might have been messed with! Let’s secure our notes, file1. We don't want a hacker to mess with these!*
 
 ### But, How do we know how secure our files are?
 
 Is there a command that we have learned so far that can show us how secure our files are?  
 Feel free to go back if you need to!
 
-![ls -l command](../images/Act5.1.PNG?classes=border,shadow)
+![ls -l command](../images/Act5.1.png?classes=border,shadow)
 
 We should keep using that command to check if we changed the permissions as expected.
 
@@ -41,10 +41,9 @@ These groups can be modified to have permissions to do the following:
 
 Now, let's try to change the permissions of our files. We want anyone outside of our group and aside from ourselves to have no permissions for `file1`. How do we do that?
 
-![chmod command](../images/Act5.2.PNG?classes=border,shadow)
+![chmod command](../images/Act5.2.png?classes=border,shadow)
 
 {{% notice tip %}}
-
 #### Shortcut!
 
 `chmod` can also be used with simple number commands. These commands are written like:  

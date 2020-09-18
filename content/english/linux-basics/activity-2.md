@@ -5,8 +5,7 @@ date: 2020-07-08
 weight: 5
 ---
 
-At any given time in Linux, each user is in a directory within the Linux filesystem.
-This activity will show you how to determine your current location.
+*So before we can stop the hackers, we need to learn to navigate the Linux filesystem.*
 
 ### Where in the file system are you?
 
@@ -32,11 +31,11 @@ To move to a different directory, use the command `cd` This stands for change di
 
 Try it:
 ```
-cd Desktop
+cd Downloads
 ```
 ![cd command](../images/02_cd.PNG?classes=border,shadow)
 
-In the output above, you can see that when we type `pwd` again, the working directory we are in is now Desktop. 
+In the output above, you can see that when we type `pwd` again, the working directory we are in is now Downloads. 
 
 Try one more example of cd below:
 ```
@@ -44,6 +43,6 @@ cd ..
 ```
 ![cd command](../images/02_cdDotDot.PNG?classes=border,shadow)
 
-The `..` after the cd command takes you one level up the filesystem tree. The output of `pwd` now shows we are back where we started. We began in the nuvi directory, moved down the tree into Desktop with `cd Desktop`, and then moved up the tree with `cd ..`.
+The `..` after the cd command takes you one level up the filesystem tree. The output of `pwd` now shows we are back where we started. We began in the nuvi directory, moved down the tree into `Downloads` with `cd Downloads`, and then moved up the tree with `cd ..`.
 
-Great job, next we'll look at how to explore the directories themselves.
+*Great job, next we'll look at how to explore the directories themselves.*

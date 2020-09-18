@@ -5,6 +5,8 @@ date: 2020-07-08
 weight: 9
 ---
 
+*I know I had a file `secret-message.txt` with one of my favorite quotes in it. "Do. Or do not. There is no try." Can you help me find it?*
+
 ### Searching for a pattern in a file?
 
 `grep` is a command used to search for a pattern of `chars`. There are different flags or options that can change how it is used.  
@@ -24,21 +26,20 @@ A `char` is any letter, symbol, or number. Examples include `!`, `h`, `2`, etc.
 | -n | To return matched lines and their line numbers. |
 | -R | Search all files in current directory. |
 
-*Let's practice this command to find Nuvi's secret-message.txt! Let's try the following command:*
+*Let's practice this command to find my secret-message.txt! Let's try the following command:*
 
 ```
 cd
 grep -R "Do. Or do not. There is no try."
 ```
 
-![grep command](../images/Act6.1.PNG?classes=border,shadow)
+![grep command](../images/Act6.1.png?classes=border,shadow)
 
 --------------------------
 
 ### Why does the secret-message file look like that?
 
-*Remember that file we saw with the strange name? It was called `malware.sh`. We should go find it again and take a closer look 
-at it.*
+*Remember that file we saw with the strange name? It was called `malware.sh`. We should go find it again and take a closer look at it. I think this was left by the hackers!*
 
 `find` is a command used to search for a file with certain parameters within a directory or region of files. It can be used in multiple ways including:
 
@@ -49,4 +50,4 @@ at it.*
 
 Use the `find` command to search for the file within the current directory. Is there a command we can use to figure out what the current directory is?
 
-![find command](../images/Act6.2.PNG?classes=border,shadow)
+![find command](../images/Act6.2.png?classes=border,shadow)

@@ -5,9 +5,9 @@ date: 2020-07-08
 weight: 6
 ---
 
-Now that we know who and where we are, let's take a look around. We will explore another aspect of the Linux user account: user file permissions.
+*Now that we know who and where we are, let's take a look around for signs of the hackers.*
 
-### Files and permissions
+### How do you explore the directory?
 
 To see the Files in the current directory, we use the `ls` command.
 
@@ -58,4 +58,4 @@ This moves Documents from Desktop, back to our current directory, denoted by `.`
 
 ![ls-l command](../images/03_ls-l.png?classes=border,shadow)
 
-Great job, you now know how to move files around. We will use this knowledge in a future activity with a file called `malware.sh`.
+*Great job, you now know how to move files around. We will use this knowledge soon to recover from the hack.*

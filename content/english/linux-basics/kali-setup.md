@@ -5,7 +5,7 @@ date: 2020-08-05
 weight: 2
 ---
 
-*Now that we have the host environment ready, we can load the image as a VM.*
+*Good work on getting the host environment ready! Now let's load the image of the hacked computer as a vm.*
 
 {{% notice info %}}
 ## What is an image
