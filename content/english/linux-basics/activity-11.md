@@ -1,7 +1,9 @@
 ---
 title: " Activity 11 - Store and protect files"
 description: "Use Linux commands to compress and archive files."
-date: 2020-07-08
+date: 2020-09-17
+prereq: "None"
+difficulty: "Intermediate"
 weight: 14
 ---
 
@@ -28,8 +30,6 @@ Use `tar` to secure your directory of `files`! You are going to want to create a
 ![tar command](../images/Act11.png?classes=border,shadow)
 
 {{% notice info %}}
-
 `zip` is a command that compresses a set of files.  
 The format is: `zip [name of zip file] [filenames to be zipped]`
-
 {{% /notice %}}

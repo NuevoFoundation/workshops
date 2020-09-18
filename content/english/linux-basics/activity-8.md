@@ -1,7 +1,9 @@
 ---
 title: "Activity 8 - What's different?"
 description: "Use Linux commands to compare files."
-date: 2020-08-10
+date: 2020-09-17
+prereq: "None"
+difficulty: "Intermediate"
 weight: 11
 ---
 

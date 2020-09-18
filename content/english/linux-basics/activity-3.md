@@ -1,7 +1,9 @@
 ---
 title: "Activity 3 - Explore Current Directory"
 description: "Use Linux commands to view the contents of the current directory"
-date: 2020-07-08
+date: 2020-09-17
+prereq: "None"
+difficulty: "Intermediate"
 weight: 6
 ---
 

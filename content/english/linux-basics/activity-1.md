@@ -1,7 +1,9 @@
 ---
 title: "Activity 1 - Determine User Account"
 description: "Use a Linux command to determine what user you are"
-date: 2020-08-10
+date: 2020-09-17
+prereq: "None"
+difficulty: "Intermediate"
 weight: 4
 ---
 

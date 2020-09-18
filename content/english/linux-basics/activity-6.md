@@ -1,7 +1,9 @@
 ---
 title: "Activity 6 - A BAD File"
 description: "Use Linux commands to search"
-date: 2020-07-08
+date: 2020-09-17
+prereq: "None"
+difficulty: "Intermediate"
 weight: 9
 ---
 
@@ -13,9 +15,7 @@ weight: 9
 The format is: `grep [flag] “[pattern]” [filename]`.
 
 {{% notice tip %}}
-
 A `char` is any letter, symbol, or number. Examples include `!`, `h`, `2`, etc.
-
 {{% /notice %}}
 
 

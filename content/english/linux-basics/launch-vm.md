@@ -1,7 +1,9 @@
 ---
 title: "Starting up the Virtual Machine"
 description: "Continuing the introductory guide to using virtual machines."
-date: 2020-09-10
+date: 2020-09-17
+prereq: "Completed the Virtual Box set up."
+difficulty: "Intermediate"
 weight: 3
 ---
 
@@ -28,6 +30,12 @@ First you will need to log in. Use these *credentials* to get started!
 {{% notice warning %}}
 The above is not good password security! It is simple just for this workshop.  
 Please do not use simple passwords like this for your accounts!
+
+Learn more about passwords in the security workshop!
+
+<a class="my-2 mx-4 btn btn-info" href="https://workshops.nuevofoundation.org/security/">
+Security Workshop link
+</a>
 {{% /notice %}}
 
 ![kali sign in page](../images/start-03.PNG?classes=border,shadow)

@@ -1,8 +1,8 @@
 ---
 title: "Linux Basics"
 description: "An introductory guide to using the Linux command line."
-date: 2020-07-08
-prereq: "None"
+date: 2020-09-17
+prereq: "None."
 difficulty: "Intermediate"
 download: ""
 draft: true

@@ -1,7 +1,9 @@
 ---
 title: "Activity 10 - Let's move and replace"
 description: "Use Linux commands to move and copy files."
-date: 2020-07-08
+date: 2020-09-17
+prereq: "None"
+difficulty: "Intermediate"
 weight: 13
 ---
 

@@ -1,7 +1,9 @@
 ---
 title: "Activity 5 - Secure User Permissions"
 description: "Use a Linux command to secure your files"
-date: 2020-07-08
+date: 2020-09-17
+prereq: "None"
+difficulty: "Intermediate"
 weight: 8
 ---
 
@@ -61,5 +63,4 @@ What permissions do the other two values give?
 | 2 | write |
 | 1 | execute |
 | 0 | no permission |
-
 {{% /notice %}}

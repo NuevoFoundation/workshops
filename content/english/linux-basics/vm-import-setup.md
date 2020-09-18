@@ -1,7 +1,9 @@
 ---
 title: "Using Virtual Machines Part 2"
 description: "Continuing the introductory guide to using virtual machines."
-date: 2020-08-05
+date: 2020-09-17
+prereq: "None"
+difficulty: "Intermediate"
 weight: 2
 ---
 
