@@ -2,7 +2,7 @@
 title: "Activity 2 - Determine User Location"
 description: "Use a Linux command to determine what directory you are currently in"
 date: 2020-09-17
-prereq: "None"
+prereq: "None."
 difficulty: "Intermediate"
 weight: 5
 ---
@@ -33,11 +33,11 @@ To move to a different directory, use the command `cd` This stands for change di
 
 Try it:
 ```
-cd Downloads
+cd Desktop
 ```
 ![cd command](../images/02_cd.PNG?classes=border,shadow)
 
-In the output above, you can see that when we type `pwd` again, the working directory we are in is now Downloads. 
+In the output above, you can see that when we type `pwd` again, the working directory we are in is now Desktop. 
 
 Try one more example of cd below:
 ```
@@ -45,6 +45,6 @@ cd ..
 ```
 ![cd command](../images/02_cdDotDot.PNG?classes=border,shadow)
 
-The `..` after the cd command takes you one level up the filesystem tree. The output of `pwd` now shows we are back where we started. We began in the nuvi directory, moved down the tree into `Downloads` with `cd Downloads`, and then moved up the tree with `cd ..`.
+The `..` after the cd command takes you one level up the filesystem tree. The output of `pwd` now shows we are back where we started. We began in the nuvi directory, moved down the tree into `Desktop` with `cd Desktop`, and then moved up the tree with `cd ..`.
 
 *Great job, next we'll look at how to explore the directories themselves.*

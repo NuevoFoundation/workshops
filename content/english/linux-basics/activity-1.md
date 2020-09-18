@@ -2,7 +2,7 @@
 title: "Activity 1 - Determine User Account"
 description: "Use a Linux command to determine what user you are"
 date: 2020-09-17
-prereq: "None"
+prereq: "Launched VM and opened the terminal."
 difficulty: "Intermediate"
 weight: 4
 ---

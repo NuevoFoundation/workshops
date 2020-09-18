@@ -2,7 +2,7 @@
 title: "Activity 4 - Note Taking Practice"
 description: "Use Linux commands to view the contents of the current directory"
 date: 2020-09-17
-prereq: "None"
+prereq: "None."
 difficulty: "Intermediate"
 weight: 7
 ---

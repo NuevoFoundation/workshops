@@ -2,7 +2,7 @@
 title: "Activity 6 - A BAD File"
 description: "Use Linux commands to search"
 date: 2020-09-17
-prereq: "None"
+prereq: "None."
 difficulty: "Intermediate"
 weight: 9
 ---

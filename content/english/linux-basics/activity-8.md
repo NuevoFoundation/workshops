@@ -2,7 +2,7 @@
 title: "Activity 8 - What's different?"
 description: "Use Linux commands to compare files."
 date: 2020-09-17
-prereq: "None"
+prereq: "None."
 difficulty: "Intermediate"
 weight: 11
 ---
@@ -17,7 +17,7 @@ Move into that directory and let's check for the quote "Do. Or do not. There is 
 
 ![grep command](../images/Act8.2.png?classes=border,shadow)
 
-*This file usually a good and fun quotes, but there seems to be lots of changes. Should we compare it to a known good version?*
+*This file usually has good and fun quotes, but there seems to be lots of changes. Should we compare it to a known good version?*
 
 Let's see if there might be any backups of the secret message within its directory. Go to the Document directory and try:
 

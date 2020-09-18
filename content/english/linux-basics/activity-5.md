@@ -2,7 +2,7 @@
 title: "Activity 5 - Secure User Permissions"
 description: "Use a Linux command to secure your files"
 date: 2020-09-17
-prereq: "None"
+prereq: "None."
 difficulty: "Intermediate"
 weight: 8
 ---

@@ -2,7 +2,7 @@
 title: "Using Virtual Machines Part 2"
 description: "Continuing the introductory guide to using virtual machines."
 date: 2020-09-17
-prereq: "None"
+prereq: "Completed Virtual Box set up and imported the Nuevo Linux Basics Virtual Machine."
 difficulty: "Intermediate"
 weight: 2
 ---

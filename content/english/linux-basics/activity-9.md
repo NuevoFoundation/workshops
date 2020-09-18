@@ -2,7 +2,7 @@
 title: "Activity 9 - Remove the Bad File"
 description: "Use Linux commands to remove the bad file and directory."
 date: 2020-09-17
-prereq: "None"
+prereq: "None."
 difficulty: "Intermediate"
 weight: 12
 ---
