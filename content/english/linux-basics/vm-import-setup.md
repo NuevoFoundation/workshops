@@ -22,7 +22,7 @@ Don't worry though, this won't hurt your computer!
 
 ### Downloading the image
 
-Images files make it easy to send exact copies of computers.  
+**Images** files make it easy to send exact copies of computers.  
 VirtualBox uses the .ova for their machine images.
 
 Let's download our copy of the computer! Click the link below to download.  
