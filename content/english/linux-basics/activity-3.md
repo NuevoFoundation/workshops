@@ -52,7 +52,7 @@ Now type in `ls -l` one more time and look at the output.
 You should see that the directory `Documents` no longer appears, because it was moved into the `Downloads` directory.
 
 {{% notice tip %}}
-We can it moved into `Downloads` by using the `ls` command with an added directory path.
+We can see that it moved into `Downloads` by using the `ls` command with an added directory path.
 ```
 ls -l Downloads/
 ```
