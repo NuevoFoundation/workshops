@@ -38,7 +38,7 @@ drwxr-xr-x 2 nuvi nuvi 4096 Aug 10 23:50 Desktop
 
 ### What can you do with these files?
 
-One example of how you can manipulate a file or directory is by moving it to another location. This is accomplished by the move command, `mv` Lets practice by moving the Documents directory into the Downloads directory. 
+One example of how you can manipulate a file or directory is by moving it to another location. This is accomplished by the move command, `mv`. Let's practice by moving the `Documents` directory into the `Downloads` directory. 
 
 Type in the command listed below:
 ```
@@ -58,14 +58,14 @@ ls -l Downloads/
 ```
 {{% /notice %}}
 
-Let's practice mv one more time by moving it back. 
+Let's practice `mv` one more time by moving it back. 
 
 Try it:
 ```
 mv Downloads/Documents/ .
 ```
 
-This moves Documents from Downloads, back to our current directory, denoted by `.` The period, or dot, is used in commands to denote the current directory. Typing `ls -l` one more time shows Documents has returned to this directory. 
+This moves the `Documents` directory from the `Downloads` directory, back to our current directory, denoted by `.` The period, or dot, is used in commands to denote the current directory. Typing `ls -l` one more time shows `Documents` has returned to this directory. 
 
 ![ls-l command](../images/03_ls-l.png?classes=border,shadow)
 

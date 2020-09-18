@@ -7,7 +7,7 @@ difficulty: "Intermediate"
 weight: 13
 ---
 
-*Great, now that the hackers' malicious file won't cause us any more headaches! Let's restore the old file so things will run smoothly again.*
+*Great, now that the hackers' malicious file won't cause us any more headaches, let's restore the old file so things will run smoothly again.*
 
 ### How to fix the secret-message
 

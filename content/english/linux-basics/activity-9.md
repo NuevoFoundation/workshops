@@ -15,7 +15,7 @@ weight: 12
 The format is: `rm [filenames]`.
 
 {{% notice warning %}}
-`rm` permanantly removes the file.
+`rm` permanently removes the file.
 {{% /notice %}}
 
 Remove the file we have decided is causing our problems. How can we check that the file was fully removed?
@@ -30,7 +30,7 @@ Remove the file we have decided is causing our problems. How can we check that t
 The format is: `rmdir [directoryName]`.
 
 {{% notice warning %}}
-`rmdir` permanantly removes the directory.
+`rmdir` permanently removes the directory.
 {{% /notice %}}
 
 How can you remove the directory that the bad file was in?

@@ -16,7 +16,7 @@ weight: 1
 
 ![nuvi picture](images/nuvi.PNG?classes=border,shadow)
 
-An Operating System (OS) is a software which acts as an interface between you and the computer hardware. Every computer must have at least one OS to run other programs. The OS helps you to communicate with the computer without knowing how to speak the computer's language.
+An **Operating System** (OS) is a software which acts as an interface between you and the computer hardware. Every computer must have at least one OS to run other programs. The OS helps you to communicate with the computer without knowing how to speak the computer's language.
 
 Windows is the OS you are probably most familiar with using at home. There are many options out there, but today we will using a Linux based OS, called Kali Linux. It is a popular OS for security experts and hackers!
 

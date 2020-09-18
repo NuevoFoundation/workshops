@@ -33,7 +33,7 @@ Please do not use simple passwords like this for your accounts!
 
 Learn more about passwords in the security workshop!
 
-<a class="my-2 mx-4 btn btn-info" href="https://workshops.nuevofoundation.org/security/">
+<a class="my-2 mx-4 btn btn-info" target="_blank" href="https://workshops.nuevofoundation.org/security/">
 Security Workshop link
 </a>
 {{% /notice %}}
@@ -41,9 +41,9 @@ Security Workshop link
 ![kali sign in page](../images/start-03.PNG?classes=border,shadow)
 
 ### The Terminal
-All our activities will be practicing `command-line interface` (CLI) skills.  
+All our activities will be practicing **command-line interface** (CLI) skills.  
 It is good to learn the CLI because it can be faster and more efficient than using a GUI.
-GUI is the `graphical user interface`, which is probably what you are most used to using.
+GUI is the **graphical user interface**, which is probably what you are most used to using.
 Go ahead and open up the terminal, another name for the CLI.
 In Kali this application is called "Terminal Emulator".
 

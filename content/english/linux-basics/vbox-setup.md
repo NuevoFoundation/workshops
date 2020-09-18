@@ -11,7 +11,7 @@ weight: 1
 
 {{% notice info %}}
 ## What is a virtual machine
-A `virtual machine` (commonly called a vm) is a computer file (called an `image`), that behaves like an actual computer.  
+A **virtual machine** (commonly called a vm) is a computer file (called an `image`), that behaves like an actual computer.  
 In other words, creating a computer within a computer. It runs in a window, much like any other program.  
 This gives you the same experience on a vm as you would on a regular computer.
 
