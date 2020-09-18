@@ -26,7 +26,9 @@ The `-l` flag in the above command tells ls to list long form information.
 
 Let's examine the top line of the example above from left to right, for the directory `Desktop`:
 
+```
 drwxr-xr-x 2 nuvi nuvi 4096 Aug 10 23:50 Desktop
+```
 
 - drwxr-xr-x: The first character `d` denotes that Desktop is a directory. If it were a `-` it would mean that Desktop was a file.
 - 2: The number of links for this file
