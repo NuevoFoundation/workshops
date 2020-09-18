@@ -43,9 +43,9 @@ grep -R "Do. Or do not. There is no try."
 
 `find` is a command used to search for a file with certain parameters within a directory or region of files. It can be used in multiple ways including:
 
-- Searching for a specific File Name  
+- Searching for a file with a specific file name  
  The format is: `find [directory] -name [filename]`
-- Searching for all text files (Files that end with .txt)  
+- Searching for all files with a specific file extension (for example, text files, ending with .txt)  
  The format is: `find [directory] -name *.txt`
 
 Use the `find` command to search for the file within the current directory. Is there a command we can use to figure out what the current directory is?
