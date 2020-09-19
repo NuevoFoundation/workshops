@@ -47,7 +47,7 @@ function sql()
   document.getElementById("sqlcommand").style.visibility="visible";
 
   var user = document.getElementById("commands").innerHTML;
-  debug(user.toLowerCase(),"select max(height) from items where object in ('ladder');");
+  debug(user.toLowerCase(),"select max(height) from items where object in ('ladder');", "select * from items where object in('ladder');");
   var array = alasql("MATRIX OF " + user);
   var ans = JSON.stringify(alasql(user));
 

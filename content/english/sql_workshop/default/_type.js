@@ -1,5 +1,3 @@
-var no_highlight = null;
-
 function sqlToTable(headers, data) 
 {
   var tbl = document.getElementById("table");
@@ -36,11 +34,7 @@ function clearTable()
 
 
 function debug(input, ans, ans2)
-{
-  
-  no_highlight = document.getElementById("commands").innerHTML;
-  console.log(no_highlight);
-  
+{ 
   var actual2 = null;
   if(ans2 == null) 
   {
