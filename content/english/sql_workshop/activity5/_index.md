@@ -22,7 +22,7 @@ draft: false
 
 You have discovered that the planet's leader is in a hut on the tallest hill but to get to it, you need to find the largest ladder in the Capital of Fun!
 
-The Galactic Federation has sent you four new SQL commands to play around with! Lets take a look at them!
+The Galactic Federation has sent you four new SQL commands to play around with! Let's take a look at them!
 
 
 ### What the commands do:
@@ -53,8 +53,10 @@ Condition:
 * You can use commas inside the parenthesis to choose more than one column to show or not show.
 {{%/notice%}}
 
-### Now use what you learned! Using the database called 'items' with a column labeled 'object', find the tallest 'ladder'.
+### Now use what you learned! Using the database called 'items' with columns labeled 'object' and 'height', find the tallest 'ladder'.
 {{%notice tip%}}
+You can display the database using the command from activity 1.
+
 * Hint 1: Remember the advice from the Galactic Federation: `SELECT [column/column property] FROM [database] [optional condition];`
 
 * Hint 2: Column property: Do you need to use `MAX()` or `MIN()` to find the tallest ladder?
@@ -67,7 +69,7 @@ Condition:
 {{%/notice%}}
 
 {{%notice info%}}
-* BONUS: try to use multiple inputs inside `IN()` or `NOT IN()` when searching for the ladder
+* BONUS: Try to use multiple inputs inside `IN()` or `NOT IN()` when searching for the ladder
 * This command is very powerful in searching multiple types of objects
 {{%/notice%}}
 <!-- SQL Type In Activity -->
@@ -76,10 +78,12 @@ Condition:
 
   <div class="terminal_div" id="terminal_div">
     <div class = "outer">
-      <h3 id = "commands" contenteditable="true" onclick="document.getElementById('commands').innerHTML = ''"> Type command here!<h3>
+      <h3 id = "commands" contenteditable="true" onclick="document.getElementById('commands').innerHTML = ''"> Type command here!</h3>
+    </div>
+    <div class = "prev">
+      <h3 id = "prev"></h3>
     </div>
     <div style="clear: both;"></div> 
-    </br></br></br></br></br></br>
     <button class="button button1" onclick="sql()"> Enter </button>
     <div style="clear: both;"></div> 
     <button class = "button reset" onclick="document.getElementById('commands').innerHTML = ''">Reset</button>

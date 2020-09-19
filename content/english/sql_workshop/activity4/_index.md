@@ -27,7 +27,9 @@ To do so, let's take a look at how to select multiple columns in a database.
 #### Now use what you learned to find out who is the leader of the Planet of Fun!
 
 {{%notice tip%}}
-**The Galactic Federation sends you a reminder that the 'galaxy' database holds the following columns:**
+You can view the entire database using the `SELECT * FROM [database_name];` command that you learned in activity 1.
+
+**The Galactic Federation also sends you a reminder that the 'galaxy' database holds the following columns:**
 
 * planet_number: What order the planets show up in the database.
 
@@ -40,6 +42,7 @@ To do so, let's take a look at how to select multiple columns in a database.
 * coordinate: The location of the planet in the galaxy.
 
 **Hint: Only two columns are needed.**
+
 {{%/notice%}}
 
 ### Question: Using the 'galaxy' database, how do you display only the _names of the_ planets and their leader?
@@ -52,10 +55,12 @@ Don't forget the semicolon at the end!
 {{< rawhtml >}}
   <div class="terminal_div" id="terminal_div">
     <div class = "outer">
-      <h3 id = "commands" contenteditable="true" onclick="document.getElementById('commands').innerHTML = ''"> Type command here!<h3>
+      <h3 id = "commands" contenteditable="true" onclick="document.getElementById('commands').innerHTML = ''"> Type command here!</h3>
     </div>
-        <div style="clear: both;"></div> 
-        </br></br></br></br></br></br>
+    <div class = "prev">
+      <h3 id = "prev"></h3>
+    </div>
+      <div style="clear: both;"></div> 
     <button class="button button1" onclick="sql()"> Enter </button>
     <div style="clear: both;"></div> 
     <button class = "button reset" onclick="document.getElementById('commands').innerHTML = ''">Reset</button>

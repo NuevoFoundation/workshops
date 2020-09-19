@@ -36,10 +36,12 @@ BONUS: Combine the `COUNT()` and `GROUP BY` commands to show the number of citie
 {{< rawhtml >}}
 <div class="terminal_div" id="terminal_div">
     <div class = "outer">
-      <h3 id = "commands" contenteditable="true" onclick="document.getElementById('commands').innerHTML = ''"> Type command here!<h3>
+      <h3 id = "commands" contenteditable="true" onclick="document.getElementById('commands').innerHTML = ''"> Type command here!</h3>
+    </div>
+    <div class = "prev">
+      <h3 id = "prev"></h3>
     </div>
     <div style="clear: both;"></div> 
-    </br></br></br></br></br></br>
     <button class="button button1" onclick="sql()"> Enter </button>
     <div style="clear: both;"></div> 
     <button class = "button reset" onclick="document.getElementById('commands').innerHTML = ''">Reset</button>
@@ -66,7 +68,7 @@ BONUS: Combine the `COUNT()` and `GROUP BY` commands to show the number of citie
 
 <br>
 
-<h5 id="plot" style="visibility:hidden"> You did it Space Cadet! Now the inhabitants can finally begin the party! </h5> 
+<h4 id="plot" style="visibility:hidden"> You did it Space Cadet! Now the inhabitants can finally begin the party! </h4> 
 
 <!-- Tells User to continue mission -->
 <div class="resume_plot" id="resume_plot" style="visibility:hidden">

@@ -31,7 +31,7 @@ function sql()
   
   if(input == ans1)
   {
-    document.getElementById("story").innerHTML = "That's the correct command! Did you figure out who the inventor is?";
+    document.getElementById("story").innerHTML = "That's the correct command to show all the attendees!";
     green();
     
     /* Changes terminal screen */

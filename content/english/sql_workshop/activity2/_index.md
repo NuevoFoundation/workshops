@@ -19,8 +19,10 @@ draft: false
 You need to program your rocket ship GPS to go to the Planet of Fun by rearranging the code blocks. To find the coordinates,
 the Galactic Federation has given you the next SQL command: `WHERE`!
 
+{{%notice info%}}
 ### What the command does:
 The `WHERE` command allows you to only show data that you want.
+{{%/notice%}}
 
 ![Explain](assets/Where_Explain.png)
 

@@ -35,9 +35,11 @@ Let's go over the `SUM` Command!
 
 ![Explain](assets/sum.png)
 
-#### Using the database 'planet' and the `SUM()` command, find the total guests for this amazing party!
+#### Using the database 'planet' and the `SUM()` command, find the total number of guests that will attend this amazing party!
 
 {{%notice tip%}}
+Use the command from activity 1 to display the entire database.
+
 * Hint 1: The command follows very closely to the example and the `AVG()` example (previous task).
 * Hint 2: The 'population' column holds information on the number of individuals per city.
 {{%/notice%}}
@@ -47,10 +49,12 @@ Let's go over the `SUM` Command!
 {{< rawhtml >}}
 <div class="terminal_div" id="terminal_div">
     <div class = "outer">
-      <h3 id = "commands" contenteditable="true" onclick="document.getElementById('commands').innerHTML = ''"> Type command here!<h3>
+      <h3 id = "commands" contenteditable="true" onclick="document.getElementById('commands').innerHTML = ''"> Type command here!</h3>
+    </div>
+    <div class = "prev">
+      <h3 id = "prev"></h3>
     </div>
     <div style="clear: both;"></div>
-    </br></br></br></br></br></br>
     <button class="button button1" onclick="sql()"> Enter </button>
     <div style="clear: both;"></div> 
     <button class = "button reset" onclick="document.getElementById('commands').innerHTML = ''">Reset</button>

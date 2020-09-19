@@ -40,13 +40,15 @@ To help you out, the Galactic Federation has sent you a brief tutorial on how to
 ### Using the database called 'items' with the column labeled 'date_created', find out which artifact is the Legendary Totem of Fun: Confetti Cannon
 
 {{%notice tip%}}
+You can display the database using the command from activity 1.
+
 * Hint 1: The artifact is created on '1738-09-12' (Use single quotation marks around the date).
 * Hint 2: What comparator do you need to use to find an exact match?
 * Hint 3: The correct command follows closely to the example above.
 * Hint 4: You do not need single quotation marks around the column or database names in this command.
 * Hint 5: What symbol do you need at the end of a SQL command?
 
-* BONUS: Display all items created on and after '1738-09-12' as well
+* BONUS: Display all items created on and after '1738-09-12' as well!
 {{%/notice%}}
 
 <!-- SQL Type In Activity -->
@@ -54,10 +56,12 @@ To help you out, the Galactic Federation has sent you a brief tutorial on how to
 
   <div class="terminal_div" id="terminal_div">
     <div class = "outer">
-      <h3 id = "commands" contenteditable="true" onclick="document.getElementById('commands').innerHTML = ''"> Type command here!<h3>
+      <h3 id = "commands" contenteditable="true" onclick="document.getElementById('commands').innerHTML = ''"> Type command here!</h3>
+    </div>
+    <div class = "prev">
+      <h3 id = "prev"></h3>
     </div>
     <div style="clear: both;"></div> 
-    </br></br></br></br></br></br>
     <button class="button button1" onclick="sql()"> Enter </button>
     <div style="clear: both;"></div> 
     <button class = "button reset" onclick="document.getElementById('commands').innerHTML = ''">Reset</button>
