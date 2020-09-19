@@ -10,6 +10,9 @@ While going through all kinds of pictures online, have you ever questioned how d
 ### RGB format
 In python, we follow a specific format while defining colors:
 (R, G, B), where "R", "G", and "B" are all integers. "R" represents some amount of red, "G" represents some amount of green, and "B" represents some amount of blue. (Think of the abbreviations for red, blue and green. The color represents by (R, G, B) is what we get from "the mix of" different amount of red, green and blue.
+You can click the line below and choose the colors you want on the color borad to observe their RGB values.
+<input type="color">
+
 #### Notes:
 1. Let us ask ourselves what do we mean by "the mix of color"? Here we are using different amount of red, green and blue light to get a new color of light. Just like we use different amount of pigments while painting. But remember, we are mixing lights but not pigments, and red, green and blue are three primary color in light. (Red, yellow and blue are three primary color of pigments.)
 <br/><br/>

@@ -1,21 +1,17 @@
 ---
 title: "Activity 8: Flip your image"
 date: 2020-09-08T00:00:00Z
+prereq: "Python Basics, Python Pixels: Colors and Pixels, Python Image manipulation: Open an image"
+difficulty: "Intermediate"
 weight: 8
 draft: false
 ---
 
-<hr/>
 In this section, we will start to learn how to flip your image using pixels.
-Before starting this section, it is recommended that you review the following sections:
-<br/>
-- <a href="../../colors_and_pixels/pixel-on-image" target="blank">Pixel on image</a>
-<br/>
-- <a href="../../../python-basics/conditional-statements-loops" target="blank">Conditions and Loops</a>
-<br/>
+
+### Example - Flip your image up-side-down
 <hr/>
 
-#### Example - Flip your image up-side-down
 Let us flip the cute cat up side down.
 <img src="../../media/cat.png" width=50%>
 {{% notice note %}}
@@ -75,8 +71,10 @@ For example, try to apply these pieces of code on the following 4x4 letter group
 
 Then create the symmetrical output with respect to horizontal central line and compare it with the previous output. Are they the same?
 {{% /notice %}}
+<hr/>
 
-#### Challenge - Flip your cat from left to right
+### Challenge - Flip your cat from left to right
+<hr/>
 It's now your turn to flip your cat from left to right! Exciting！
 {{% notice note %}}
 
@@ -86,8 +84,5 @@ Pay attention to variable widthNew and think carefully about how to get it.
 
 {{% /notice %}}
 
-{{% notice warning %}}
-**Be careful:** In order to see your image, please click on top left corner (which says 'Files'), and then click on the image file to see the result.
-{{% /notice %}}
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Python-Pixel-Activity8?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 <br/><br/>

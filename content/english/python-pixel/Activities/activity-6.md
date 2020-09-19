@@ -1,23 +1,18 @@
 ---
 title: "Activity 6: Crop Image"
+prereq: "Python Basics, Python Image Manipulation: Open an Image, Python Pixel: Colors and Pixels"
+difficulty: "Intermediate"
 date: 2020-09-08T00:00:00Z
 weight: 6
 draft: false
 ---
 
-<hr/>
+
 In this section, we will start to learn how to crop your image.
-Before starting this section, it is recommended that you review the following sections:
-<br/>
-- <a href="../../colors_and_pixels/basic-of-colors" target="blank">Basic of colors</a>
-<br/>
-- <a href="../../colors_and_pixels/pixel-on-image" target="blank">Pixel on image</a>
-<br/>
-- <a href="../../activities/activity-4" target="blank">Filters</a>
-<br/><br/>
+
+### Example - Crop cat into half 
 <hr/>
 
-#### Example - Crop cat into half 
 Now, let us crop out the right half of the cat image
 <img src="../../media/cat.png" width=50%>
 
@@ -39,9 +34,11 @@ newimg.save("Mycat.png")
 ```
 Wow! This is our cat after the filter. We only filtered one-forth of the cat on the upper left corner！
 <img src="../../media/halfcat.png" width=25%>
+
+
+### Example - Crop out the central piece
 <hr/>
 
-#### Example - Crop out the central piece
 Let us crop the cat image to have only the center part!
 <img src="../../media/cat.png" width=50%>
 
@@ -65,10 +62,9 @@ Wow! This is our cat after cropping.
 <img src="../../media/cropcat.png" width=25%>
 <hr/>
 
-#### Challenge - Crop image based on your own choice
+### Challenge - Crop image based on your own choice
+<hr/>
+
 It's now your turn to crop whichever part you want on the cute cat! Exciting！
-{{% notice warning %}}
-**Be careful:** In order to see your image, please click on top left corner (which says 'Files'), and then click on the image file to see the result.
-{{% /notice %}}
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Python-Pixel-Activity6?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 <br/><br/>

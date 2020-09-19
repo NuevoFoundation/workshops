@@ -1,17 +1,15 @@
 ---
 title: "Activity 2: Modify your color board"
 date: 2020-07-11T00:00:00Z
+prereq: "Python Basics, Python Pixels: Colors and Pixels, Python Image manipulation: Open an image"
+difficulty: "Intermediate"
 weight: 2
 draft: false
 ---
 
+### Example one: Make a <b>diagonal</b>
 <hr/>
 
-### Examples for modifying colorboard
-<hr/>
-
-#### Example 1
-Make a <b>diagonal</b> on your color board.
 ```python
 #This creates the original colorboard.
 from PIL import Image
@@ -32,10 +30,10 @@ This is the picture before changing.
 This is the picture after changing.
 ![alt text](../../media/whileloopafter.png "image showing while loop first example")
 <br/><br/>
-<hr/>
 
-#### Example 2
-Make a <b>rectangle</b> on your color board.
+
+### Example two: Make a <b>rectangle</b>.
+<hr/>
 
 ```python
 #This creates the original colorboard.
@@ -58,11 +56,38 @@ This is the picture after changing.
 <hr/>
 
 ### Modifying your own colorboard!
-
 <hr/>
 
-{{% notice warning %}}
-**Be careful:** In order to see your image, please click on top left corner (which says 'Files'), and then click on the image file to see the result.
-{{% /notice %}}
+Here are two templates to assist your colorboard modifying.
+
+#### Template One: Adding a line
+```python
+#Template for adding a line
+initial_position_x = 0 #make change here
+initial_position_y = 0 #make change here
+width = 0 #make change here
+height = 0 #make change here
+color = (0,0,0) #make change here
+while initial_position_x < width:
+    while initial_position_y < height:
+        img.putpixel( (x,y), color)
+        initial_position_x += 1
+        initial_position_y += 1
+img.save('pixel-activity2.png')
+```
+
+#### Template Two: Adding a rectangle
+```python
+initial_position_x = 0 #make change here
+initial_position_y = 0 #make change here
+width = 0 #make change here
+height = 0 #make change here
+color = (0,0,0) #make change here
+for x in range(initial_position_x, width+initial_position_x):
+  for y in range(initial_position_y, height+initial_position_y):
+    img.putpixel( (x,y), color)
+img.save('pixel-activity2.png')
+```
+<br/><br/>
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Python-Pixel-Activity2?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
