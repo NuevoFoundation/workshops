@@ -46,6 +46,7 @@ To help you out, the Galactic Federation has sent you a brief tutorial on how to
 * Hint 4: You do not need single quotation marks around the column or database names in this command.
 * Hint 5: What symbol do you need at the end of a SQL command?
 
+* BONUS: Display all items created on and after '1738-09-12' as well
 {{%/notice%}}
 
 <!-- SQL Type In Activity -->

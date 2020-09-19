@@ -3,7 +3,7 @@ function sql()
   clearTable();
   document.getElementById("sqlcommand").innerHTML = "ERROR INVALID INPUT";
   document.getElementById("sqlcommand").style.visibility="visible";
-
+  
   var user = document.getElementById("commands").innerHTML;
   debug(user.toLowerCase(),"select count(*) from planet;");
   var array = alasql("MATRIX OF " + user);

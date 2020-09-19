@@ -12,7 +12,7 @@ draft: false
 <script type="text/javascript" src="../default/_default.js">
 </script>
 
-# Mission 1: Save the Planet of Fun From Boredom!
+# Mission 1: Save the Planet of Fun from Boredom!
 Your first mission is to go to the Planet of Fun and save them from boredom! 
 You are sent a database about the planet and you need to learn how to use SQL 
 commands to help save the Planet of Fun!

@@ -40,7 +40,7 @@ function debug(input, ans, ans2)
   {
     var ans2 = "temp";
   }
-  var display = document.getElementById("commands");
+  var display = document.getElementById("prev");
   var output = "";
   var inputText = input.split(" ");
   var actual = ans.split(" ");
@@ -69,4 +69,22 @@ function green()
   var display = document.getElementById("commands");
   console.log("display is " + display.innerHTML);
   display.innerHTML = "<span class='right'>" + display.innerHTML + "</span>";
+}
+
+//clears placeholder
+function placeholder()
+{
+  var display = document.getElementById("commands");
+  if(display.innerHTML == "Type command here!")
+  {
+    display.innerHTML = "";
+  }
+}
+
+function reset()
+{
+  clearTable();
+  document.getElementById('commands').innerHTML = '';
+  document.getElementById("sqlcommand").innerHTML = "ERROR INVALID INPUT";
+  document.getElementById("sqlcommand").style.visibility="hidden";
 }

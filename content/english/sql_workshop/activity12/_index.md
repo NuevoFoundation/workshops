@@ -52,7 +52,6 @@ Everyone is having a good time at the party! The inventor has also arrived, now 
 <table id="table">
 	<tr></tr>
 </table>
-<h4 id="story"></h4>
 
 <div class = "inventor_div" id="inventor_div">
   <div class = "box_half" id = "box_half">

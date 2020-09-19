@@ -65,6 +65,11 @@ Condition:
 
 * Hint 5: What symbol do you need at the end of a SQL command?
 {{%/notice%}}
+
+{{%notice info%}}
+* BONUS: try to use multiple inputs inside `IN()` or `NOT IN()` when searching for the ladder
+* This command is very powerful in searching multiple types of objects
+{{%/notice%}}
 <!-- SQL Type In Activity -->
 
 {{< rawhtml >}}

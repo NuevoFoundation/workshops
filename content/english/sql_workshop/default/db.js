@@ -23,7 +23,7 @@ alasql("INSERT INTO planet VALUES (4,'Fun Capital',9500,'Hamburger')");
 alasql("INSERT INTO planet VALUES (5,'Seriously Fun',2000,'Taco')");
 
 // Items database
-alasql("CREATE TABLE items(object STRING, date_created STRING, location STRING, color STRING, height INT, short_description STRING)");
+alasql("CREATE TABLE items(object STRING, date_created DATE, location STRING, color STRING, height INT, short_description STRING)");
 
 alasql("INSERT INTO items VALUES ('totem','1738-09-12','City of Fun', 'sprinkles',10,'Confetti Cannon')");
 alasql("INSERT INTO items VALUES ('totem','1738-10-12','Fun Capital','blue',10,'Infinite Buffet Table')");

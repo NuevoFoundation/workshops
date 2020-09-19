@@ -21,8 +21,27 @@
   margin: 0 auto;
   text-align: left;
   color: #228B22;
-
 }
+
+.prev {
+  float: left;
+  background-color: transparent;
+  width: 45vw;
+  height: 3.5vw;
+  resize: none;
+  background-color: #ffffff;  
+  border: 1px solid black;
+  opacity: 0.7;
+  padding: 1vw 0;
+}
+
+.prev h3 {
+  margin: 0 auto;
+  text-align: left;
+  color: #228B22;
+}
+
+
 .text-area {
   float: left;
   background-color: transparent;
