@@ -1,0 +1,62 @@
+<header>
+  <!-- Page Logo-->
+  {{ partial "header.html" . }}
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+      {{- if not .Site.Params.disableHomeIcon}}
+      <li data-nav-id="{{"/" | relLangURL}}" class="dd-item">
+        <a href="{{"/" | relLangURL}}">
+          <i class="fa fa-fw fa-home"></i>
+        </a>
+      </li>
+      {{- end}}
+      {{- partial "menu.html" . }}
+    </ul>
+
+    <section>
+      {{- partial "menu-footer.html" . }}
+    </section>
+  </aside>
+  <section class="page">
+    <div align="right">
+      {{- partial "language-selector.html" . }}
+    </div>
+
+    <div class="nav-select">
+      {{ i18n "navigation" }}&nbsp;
+      <select onchange="javascript:location.href = this.value;">
+        {{partial "flex/selectnavigation.html" .}}
+      </select>
+
+    </div>
+    <!-- No search
+    {{- if not .Site.Params.disableSearch}}
+    <div>
+      <div class="searchbox">
+        <input data-search-input id="search-by" type="text" placeholder="{{T "Search-placeholder"}}">
+      </div>
+      <script type="text/javascript" src="{{"js/lunr.min.js" | relURL}}"></script>
+      <script type="text/javascript" src="{{"js/auto-complete.js" | relURL}}"></script>
+      <link href="{{"css/auto-complete.css" | relURL}}" rel="stylesheet">
+      <script type="text/javascript">
+        { { - if .Site.IsMultiLingual } }
+        var baseurl = "{{.Site.BaseURL}}{{.Site.LanguagePrefix}}";
+        { { - else } }
+        var baseurl = "{{.Site.BaseURL}}";
+        { { end } }
+      </script>
+      <script type="text/javascript" src="{{"js/search.js" | relURL}}"></script>
+    </div>
+    {{- end}} -->
+
+    {{if not .IsHome}}<h1>{{.Title}}</h1>{{end}}
+
+    {{ if isset .Params "difficulty" }}
+    {{- partial "flex/metadata.html" . }}
+    {{else}}
+
+    {{ end }}
+
+    <!-- {{- partial "flex/metadata.html" . }} -->

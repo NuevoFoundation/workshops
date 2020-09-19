@@ -1,0 +1,7 @@
+<footer class=" footline">
+	{{with .Params.LastModifierDisplayName}}
+	<i class='fa fa-user'></i> <a href="mailto:{{ $.Params.LastModifierEmail }}">{{ . }}</a> {{with $.Date}} <i
+		class='fa fa-calendar'></i> {{ .Format "Mon, 02 Jan 2006 15:04:05 PST" }}{{end}}
+	</div>
+	{{end}}
+</footer>

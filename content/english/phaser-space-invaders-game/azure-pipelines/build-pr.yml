@@ -1,0 +1,16 @@
+# Production: https://workshops.nuevofoundation.org/
+
+# This pipeline builds Hugo and copies the result to Azure Blob Storage
+# NOTE: This will *not* run on check-ins, it only runs when manually triggered.
+# NOTE: Requires setting up variable values in Azure Pipelines using account and key.
+
+trigger:
+  - none
+
+pool:
+  vmImage: "ubuntu-latest"
+
+steps:
+  - template: hugo-build.yml
+    parameters:
+      hugo_config_baseUrl: "$(PRODUCTION_URL)"

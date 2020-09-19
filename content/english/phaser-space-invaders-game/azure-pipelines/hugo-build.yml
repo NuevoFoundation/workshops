@@ -1,0 +1,17 @@
+# Downloads Hugo and runs to build content, minified content added to folder: public
+# Source: https://www.andrewconnell.com/blog/automated-hugo-releases-with-azure-pipelines/
+# Source: https://github.com/peaceiris/actions-hugo
+
+parameters:
+  hugo_config_baseUrl: ""
+
+steps:
+  # 1. Downloads specified version of Hugo executable
+  - script: wget https://github.com/gohugoio/hugo/releases/download/v0.63.2/hugo_0.63.2_Linux-64bit.deb -O '$(Pipeline.Workspace)/hugo_0.63.2_Linux-64bit.deb'
+    displayName: Download Hugo 0.63.2 Linux x64
+    # 2. Installs Hugo executable
+  - script: sudo dpkg -i $(Pipeline.Workspace)/hugo*.deb
+    displayName: Install Hugo
+    # 3. Executes Hugo to build site with specified arguments
+  - script: hugo --baseUrl '${{ parameters.hugo_config_baseUrl }}' --minify
+    displayName: Run Hugo

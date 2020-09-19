@@ -1,0 +1,44 @@
+baseURL = "/"
+
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+title = "Nuevo Foundation Workshops"
+theme = "docdock"
+# themesdir = "themes/"
+pygmentsCodeFences = true
+pygmentsStyle = "monokailight"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir= false
+enableMissingTranslationPlaceholders = false
+
+[Languages]
+[Languages.en]
+weight = 1
+languageName = "English"
+contentDir = "content/english"
+
+[Languages.es]
+weight = 2
+languageName = "Español"
+contentDir = "content/espanol"
+
+[params]
+editURL = "https://github.com/NuevoFoundation/workshops/tree/master/content/"
+showVisitedLinks = true # default is false
+themeStyle = "flex" # "original" or "flex" # default "flex"
+themeVariant = "" # choose theme variant "green", "gold" , "gray", "blue" (default)
+orderSectionsBy = "title"
+orderPagesBy = "weight"
+disableHomeIcon = true # default is false
+disableSearch = false # default is false
+disableNavChevron = false # set true to hide next/prev chevron, default is false
+highlightClientSide = false # set true to use highlight.pack.js instead of the default hugo chroma highlighter
+menushortcutsnewtab = false # set true to open shortcuts links to a new tab/window
+enableGitInfo = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]

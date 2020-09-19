@@ -1,0 +1,52 @@
+@media (max-width: 1024px) {
+  section {
+    margin-right: 0;
+  }
+
+  section > .toc {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  article {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  article > aside {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+
+  article > section.page {
+    margin: 0 0;
+    padding: 1rem;
+  }
+  article > section.page #navigation label {
+    display: none;
+  }
+
+  section {
+    margin: 0;
+    padding: 1rem 2rem;
+  }
+
+  .nav-select {
+    display: flex;
+    justify-content: center;
+  }
+  .nav-select select {
+    margin-left: 5px;
+    display: block;
+  }
+
+  article img {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+}
