@@ -74,8 +74,7 @@ function sql()
   
   if(input == ans1 || input == ans2)
   {
-    green();
-    document.getElementById("commands").innerHTML = "<span class='right'>" + user + " </span>";
+    document.getElementById("commands").innerHTML = user;
     document.getElementById("story").innerHTML = "Excellent work Space Cadet! Now you need to figure out a way to get to the Dear Leader!";
     
     /* Changes terminal screen */

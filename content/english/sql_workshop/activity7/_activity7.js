@@ -82,7 +82,7 @@ function sql()
   
   if(input == ans1 || input == ans2)
   {
-    green();
+    document.getElementById("commands").innerHTML = input;
     document.getElementById("story").innerHTML = "Amazing work as always, Space Cadet! You found the key!";
     
     /* Changes terminal screen */

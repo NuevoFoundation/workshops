@@ -1,3 +1,5 @@
+var no_highlight = null;
+
 function sqlToTable(headers, data) 
 {
   var tbl = document.getElementById("table");
@@ -35,6 +37,10 @@ function clearTable()
 
 function debug(input, ans, ans2)
 {
+  
+  no_highlight = document.getElementById("commands").innerHTML;
+  console.log(no_highlight);
+  
   var actual2 = null;
   if(ans2 == null) 
   {
@@ -61,14 +67,6 @@ function debug(input, ans, ans2)
     output += "<span class='right'>" + " " + "</span>";
   }
   display.innerHTML = output;
-}
-
-//highlights user input in green
-function green()
-{
-  var display = document.getElementById("commands");
-  console.log("display is " + display.innerHTML);
-  display.innerHTML = "<span class='right'>" + display.innerHTML + "</span>";
 }
 
 //clears placeholder

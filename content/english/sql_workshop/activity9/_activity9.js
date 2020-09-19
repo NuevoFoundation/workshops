@@ -127,7 +127,7 @@ function sql()
   
   if(input == ans1)
   {
-    green();
+    document.getElementById("commands").innerHTML = input;
     document.getElementById("story").innerHTML = "Nice work Space Cadet! You found the average population size!";
     
     /* Changes terminal screen */

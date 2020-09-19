@@ -70,7 +70,7 @@ function sql()
 
   if(input == ans1)
   {
-    green();
+    document.getElementById("commands").innerHTML = input;
     document.getElementById("story").innerHTML = "Nice job! You found the location of the Legendary Totem of Fun: Confetti Cannon!";
     check();
   }
