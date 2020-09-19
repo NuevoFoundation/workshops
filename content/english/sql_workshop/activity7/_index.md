@@ -29,7 +29,7 @@ and can only be unlocked with the smallest key on the planet!
 
 ![Explain](../activity5/assets/max_min.png)
 
-#### Using the database called 'items' with a column labeled 'object', find the 'key' with the smallest height.
+#### Using the database called 'items' with columns labeled 'object' and 'height', find the 'key' with the smallest height.
 {{%notice tip%}}
 You can display the entire database using the command from activity 1.
 

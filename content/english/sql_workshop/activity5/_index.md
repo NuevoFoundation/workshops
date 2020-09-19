@@ -51,6 +51,10 @@ Condition:
 * `NOT IN()` is the opposite of `IN()`. Instead of choosing what to show like `IN()`, `NOT IN()` will show all the columns you did not choose inside the parenthesis.
 
 * You can use commas inside the parenthesis to choose more than one column to show or not show.
+
+* Using only 1 input inside `IN()` is equivalent to using `=`: 
+
+Ex. `column_name IN('obejct_in_column');` is the same as `column_name = 'obejct_in_column';`
 {{%/notice%}}
 
 ### Now use what you learned! Using the database called 'items' with columns labeled 'object' and 'height', find the tallest 'ladder'.
