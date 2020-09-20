@@ -1,14 +1,15 @@
 ---
 title: "Activity 3 - Explore Current Directory"
 description: "Use Linux commands to view the contents of the current directory"
-date: 2020-07-08
+date: 2020-09-17
+prereq: "None."
+difficulty: "Intermediate"
 weight: 6
-translationKey: "linux-basics-activity-3"
 ---
 
-Now that we know who and where we are, let's take a look around. We will explore another aspect of the Linux user account: user file permissions.
+*Now that we know who and where we are, let's take a look around for signs of the hackers.*
 
-### Files and permissions
+### How do you explore the directory?
 
 To see the Files in the current directory, we use the `ls` command.
 
@@ -23,9 +24,11 @@ The `-l` flag in the above command tells ls to list long form information.
 
 ### What information is being displayed?
 
-Lets examine the top line of the example above from left to right, for the directory `Desktop`:
+Let's examine the top line of the example above from left to right, for the directory `Desktop`:
 
+```
 drwxr-xr-x 2 nuvi nuvi 4096 Aug 10 23:50 Desktop
+```
 
 - drwxr-xr-x: The first character `d` denotes that Desktop is a directory. If it were a `-` it would mean that Desktop was a file.
 - 2: The number of links for this file
@@ -37,26 +40,35 @@ drwxr-xr-x 2 nuvi nuvi 4096 Aug 10 23:50 Desktop
 
 ### What can you do with these files?
 
-One example of how you can manipulate a file or directory is by moving it to another location. This is accomplished by the move command, `mv` Lets practice by moving the Documents directory into the Desktop directory. 
+One example of how you can manipulate a file or directory is by moving it to another location. This is accomplished by the move command, `mv`. Let's practice by moving the `Documents` directory into the `Downloads` directory. 
 
 Type in the command listed below:
 ```
-mv Documents/ Desktop/
+mv Documents/ Downloads/
 ```
 
 Now type in `ls -l` one more time and look at the output.
 
 ![ls-l after move](../images/03_ls-l_after_move.PNG?classes=border,shadow)
 
-You should see that the directory Documents no longer appears, because it was moved into the Desktop directory. Lets practice mv one more time by moving it back. 
+You should see that the directory `Documents` no longer appears, because it was moved into the `Downloads` directory.
+
+{{% notice tip %}}
+We can see that it moved into `Downloads` by using the `ls` command with an added directory path.
+```
+ls -l Downloads/
+```
+{{% /notice %}}
+
+Let's practice `mv` one more time by moving it back. 
 
 Try it:
 ```
-mv Desktop/Documents/ .
+mv Downloads/Documents/ .
 ```
 
-This moves Documents from Desktop, back to our current directory, denoted by `.` The period, or dot, is used in commands to denote the current directory. Typing `ls -l` one more time shows Documents has returned to this directory. 
+This moves the `Documents` directory from the `Downloads` directory, back to our current directory, denoted by `.` The period, or dot, is used in commands to denote the current directory. Typing `ls -l` one more time shows `Documents` has returned to this directory. 
 
 ![ls-l command](../images/03_ls-l.png?classes=border,shadow)
 
-Great job, you now know how to move files around. We will use this knowledge in a future activity with a file called `malware.sh`.
+*Great job, you now know how to move files around. We will use this knowledge soon to recover from the hack.*

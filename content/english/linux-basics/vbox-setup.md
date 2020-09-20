@@ -1,16 +1,17 @@
 ---
 title: "Using Virtual Machines Part 1"
 description: "An introductory guide to using virtual machines."
-date: 2020-08-05
+date: 2020-09-17
+prereq: "Permissions to install software on the computer."
+difficulty: "Intermediate"
 weight: 1
-translationKey: "linux-basics-vbox-setup"
 ---
 
-*We are providing you with a copy of an image to work with.*
+*So you can help us, we are providing you with a copy of the hacked computer as a virtual machine.*
 
 {{% notice info %}}
 ## What is a virtual machine
-A `virtual machine` (commonly called a vm) is a computer file (called an image), that behaves like an actual computer.  
+A **virtual machine** (commonly called a vm) is a computer file (called an `image`), that behaves like an actual computer.  
 In other words, creating a computer within a computer. It runs in a window, much like any other program.  
 This gives you the same experience on a vm as you would on a regular computer.
 

@@ -1,12 +1,13 @@
 ---
 title: "Using Virtual Machines Part 2"
 description: "Continuing the introductory guide to using virtual machines."
-date: 2020-08-05
+date: 2020-09-17
+prereq: "Completed Virtual Box set up and imported the Nuevo Linux Basics Virtual Machine."
+difficulty: "Intermediate"
 weight: 2
-translationKey: "linux-basics-kali-setup"
 ---
 
-*Now that we have the host environment ready, we can load the image as a VM.*
+*Good work on getting the host environment ready! Now let's load the image of the hacked computer as a vm.*
 
 {{% notice info %}}
 ## What is an image
@@ -21,7 +22,7 @@ Don't worry though, this won't hurt your computer!
 
 ### Downloading the image
 
-Images files make it easy to send exact copies of computers.  
+**Images** files make it easy to send exact copies of computers.  
 VirtualBox uses the .ova for their machine images.
 
 Let's download our copy of the computer! Click the link below to download.  

@@ -1,12 +1,13 @@
 ---
 title: "Activity 1 - Determine User Account"
 description: "Use a Linux command to determine what user you are"
-date: 2020-08-10
+date: 2020-09-17
+prereq: "Launched VM and opened the terminal."
+difficulty: "Intermediate"
 weight: 4
-translationKey: "linux-basics-activity-1"
 ---
 
-Welcome! This activity will show you how to find out which user account you are currently using. 
+*Now we are at the command line. Let's test a simple command to show us the user account.*
 
 ### What are user accounts?
 
@@ -24,4 +25,5 @@ whoami
 ![home directory](../images/01_whoami.png?classes=border,shadow)
 
 In our example above, the terminal output is the name of our user, `nuvi`. 
-Now that we know who we are, we will use the next activity to find out where we are.
+
+*Now that we checked who we are, next let's find out where we are.*

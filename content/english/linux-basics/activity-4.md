@@ -1,12 +1,13 @@
 ---
 title: "Activity 4 - Note Taking Practice"
 description: "Use Linux commands to view the contents of the current directory"
-date: 2020-07-08
+date: 2020-09-17
+prereq: "None."
+difficulty: "Intermediate"
 weight: 7
-translationKey: "linux-basics-activity-4"
 ---
 
-While we work, as a cybersecurity engineer, it is important to take a lot of notes and screenshots. These are helpful for future reference and might be needed by the police when trying to understand what crimes might have happened. Let's step up our workspace!
+*As a cybersecurity engineer, it is important to take a lot of notes. These are helpful for future reference to understand how the hack happened. Let's step up our workspace!*
 
 ### What if I want to create a new directory?
 
@@ -62,4 +63,4 @@ Type in the following command:
 mv file1 files
 ```
 
-Congratulations, you have created and edited and moved  your first file!
+*Congratulations, you have created, edited, and moved your first file! Now let's secure our system!*
