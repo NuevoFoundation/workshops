@@ -30,7 +30,6 @@ function sql()
   
   if(user == ans1 || user == ans2)
   {
-    document.getElementById("commands").innerHTML = user;
     
     /* Changes terminal screen */
     var screen = document.getElementById("terminal_div");

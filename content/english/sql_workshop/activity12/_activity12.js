@@ -31,7 +31,6 @@ function sql()
   
   if(input == ans1)
   {
-    document.getElementById("commands").innerHTML = input;
     document.getElementById("story").innerHTML = "That's the correct command to show all the attendees!";
     
     /* Changes terminal screen */

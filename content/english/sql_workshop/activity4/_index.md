@@ -55,7 +55,7 @@ Don't forget the semicolon at the end!
 {{< rawhtml >}}
   <div class="terminal_div" id="terminal_div">
     <div class = "outer">
-      <h3 id = "commands" contenteditable="true" onclick="document.getElementById('commands').innerHTML = ''"> Type command here!</h3>
+      <h3 id = "commands" contenteditable="true" onclick="placeholder()">Type command here!</h3>
     </div>
     <div class = "prev">
       <h3 id = "prev"></h3>

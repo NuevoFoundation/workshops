@@ -33,7 +33,6 @@ function sql()
   if(input == ans1 || input == ans2)
   {
     green(input);
-    document.getElementById("commands").innerHTML = input;
     document.getElementById("story").innerHTML = "Nice job! The citizens on the planet of fun use a food-maker-izer to instantly cook food! Select the correct food items that match the inhabitant's favorite foods!"; 
     
     /* Changes terminal screen */

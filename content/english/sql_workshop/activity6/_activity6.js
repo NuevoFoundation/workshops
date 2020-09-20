@@ -73,7 +73,6 @@ console.log(input);
   if(input == ans1 || input == ans2)
   {
     green(input);
-    document.getElementById("commands").innerHTML = input;
     document.getElementById("story").innerHTML = "Nice job! You found the location of the Legendary Totem of Fun: Confetti Cannon!";
     check();
   }

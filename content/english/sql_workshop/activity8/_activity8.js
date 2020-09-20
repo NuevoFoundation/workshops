@@ -32,7 +32,6 @@ function sql()
   
   if(input == ans1 || input == ans2)
   {
-    document.getElementById("commands").innerHTML = input;
     document.getElementById("story").innerHTML = "Amazing work as always, space cadet! The Legendary Totem of Fun: Infinite Buffet Table is in Fun Capital!";
     var display_legend = document.getElementById("legend");
     display_legend.setAttribute("style","visibility:visible");

@@ -88,7 +88,6 @@ function sql()
   if(input == ans1 || input == ans2 || input == ans3 || input == ans4 || input == ans5 || input == ans6 || input == ans7)
   {
     green(input);
-    document.getElementById("commands").innerHTML = input;
     document.getElementById("story").innerHTML = "Amazing work as always, Space Cadet! You found the key!";
     
     /* Changes terminal screen */
