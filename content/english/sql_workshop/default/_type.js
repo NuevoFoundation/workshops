@@ -63,6 +63,13 @@ function debug(input, ans, ans2)
   display.innerHTML = output;
 }
 
+//highlights user input in green
+function green(input)
+{
+  var display = document.getElementById("prev");
+  display.innerHTML = "<span class='right'>" + input + "</span>";
+}
+
 //clears placeholder
 function placeholder()
 {

@@ -21,7 +21,7 @@ draft: false
 
 You are tasked to choose which food to serve at the party! Each city has their own favorite food and you need to decide which ones to have at the party! Let's use the `GROUP BY` command to figure out what to bring.
 
-### What the `GROUP BY` command does
+### What the `GROUP BY` command does:
 
 ![Explain](assets/group.png)
 
@@ -29,7 +29,8 @@ You are tasked to choose which food to serve at the party! Each city has their o
 {{%notice tip%}}
 Hint: The command follows closely to the example above.
 
-BONUS: Combine the `COUNT()` and `GROUP BY` commands to show the number of cities that like each food
+BONUS: Combine the `COUNT()` and `GROUP BY` commands to show the number of cities that like each food.
+(Review activity 3 and activity 4 for help)
 
 {{%/notice%}}
 

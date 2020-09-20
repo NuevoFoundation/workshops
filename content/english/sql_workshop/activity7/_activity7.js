@@ -76,12 +76,18 @@ function sql()
   /*change answer here */
   var ans1 = "select min(height) from items where object in('key');";
   var ans2 = "select * from items where object in('key');";
+  var ans3 = "select min(height) from items where object = 'key';";
+  var ans4 = "select * from items where object = 'key';";
+  var ans5 = "select min(height) from items where object not in('totem', 'ladder');";
+  var ans6 = "select min(height) from items where object not in('totem');";
+  var ans7 = "select min(height) from items where object not in('ladder');";
   
   //Change string to lower case
   var input = user.toLowerCase();
   
-  if(input == ans1 || input == ans2)
+  if(input == ans1 || input == ans2 || input == ans3 || input == ans4 || input == ans5 || input == ans6 || input == ans7)
   {
+    green(input);
     document.getElementById("commands").innerHTML = input;
     document.getElementById("story").innerHTML = "Amazing work as always, Space Cadet! You found the key!";
     

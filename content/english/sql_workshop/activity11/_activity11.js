@@ -5,7 +5,7 @@ function sql()
   document.getElementById("sqlcommand").style.visibility="visible";
 
   var user = document.getElementById("commands").innerHTML;
-  debug(user.toLowerCase(),"select * from planet group by favorite_food;");
+  debug(user.toLowerCase(),"select * from planet group by favorite_food;", "select count(*), favorite_food from planet group by favorite_food;");
   var array = alasql("MATRIX OF " + user);
   var ans = JSON.stringify(alasql(user));
 
@@ -25,12 +25,14 @@ function sql()
   
   /*change answer here */
   var ans1 = "select * from planet group by favorite_food;";
+  var ans2 = "select count(*), favorite_food from planet group by favorite_food;"
   
   //Change string to lower case
   var input = user.toLowerCase();
   
-  if(input == ans1)
+  if(input == ans1 || input == ans2)
   {
+    green(input);
     document.getElementById("commands").innerHTML = input;
     document.getElementById("story").innerHTML = "Nice job! The citizens on the planet of fun use a food-maker-izer to instantly cook food! Select the correct food items that match the inhabitant's favorite foods!"; 
     

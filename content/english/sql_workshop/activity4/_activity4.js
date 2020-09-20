@@ -29,6 +29,7 @@ function sql()
   
   if(user == ans1 || user == ans2)
   {
+    green(user);
     document.getElementById("commands").innerHTML = user;
     
     /* Changes terminal screen */

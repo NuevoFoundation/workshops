@@ -5,7 +5,7 @@ function sql()
   document.getElementById("sqlcommand").style.visibility="visible";
   
   var user = document.getElementById("commands").innerHTML;
-  debug(user.toLowerCase(),"select count(*) from planet;");
+  debug(user.toLowerCase(),"select count(*) from planet;", "select count(city_number) from planet;");
   var array = alasql("MATRIX OF " + user);
   var ans = JSON.stringify(alasql(user));
 
