@@ -3,18 +3,9 @@ title: "Answer Key"
 date: 2020-09-14T16:19:17-07:00
 weight: 14
 draft: false
+hidden: false
 ---
 
-{{% notice info %}}
-If you would like to test all the code given in the answer key, visit <a href="https://colab.research.google.com/drive/1NtI1_iiNvq1J9rQsEaKEbiFsotkL_C0T?usp=sharing" target="_blank">this link</a> 
-
-Keep in mind, you will only be able to run the code blocks one at a time, and would not be able to use the 'Run all' feature.
-
-To prevent this and edit this code, click on the 'Copy to Drive' button to make a copy. Make sure you are logged in to your Google account.
-![](https://i.imgur.com/jOCZnCu.png)
-
-
-{{% /notice %}}
 
 {{% notice info %}}
 ## Activity 1
@@ -370,6 +361,3 @@ Yes, this is consistent with the previous question.
 
 {{% /notice %}}
 
-{{% notice info %}}
-#### Thank you for doing this workshop! We hope you enjoyed it and learned the basics of Machine Learning!
-{{% /notice %}}

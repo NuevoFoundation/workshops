@@ -28,12 +28,11 @@ import matplotlib.pyplot as plt
 
 These libraries are essential as they are a collection of precompiled methods and functions that and importing them into our program allows us to access these methods without having to rewrite these entire libraries. For example, we import the methods and functions to TensorFlow and Numpy to avoid having to write the entirety of these program within our own program.
 
-If you are interested in learning more about these libraries, we will link some websites that explain them in more detail.
 
 <br>
 
 
- Now, we want to load the Fashion NMIST dataset, which has the collection of all the images of clothing we need for your model. 
+ Now, we want to load the Fashion MNIST dataset, which has the collection of all the images of clothing we need for your model. 
 
 ```python
 #This variable is declared from the fashion_mist library of the datasets section
@@ -52,10 +51,6 @@ fashion_mnist = keras.datasets.fashion_mnist
 
 The next step is to create a list of categories under the variable `class_names`. 
 
-{{% notice note %}}
-Feel free to use any variable you like, but keep in mind that we will be using this name for future activities.
-{{% /notice  %}}
-
 
 Your supervisor gives you the categories of apparel that the warehourse processes. This will be created under the variable `class_names`. 
 
@@ -64,9 +59,6 @@ Your supervisor gives you the categories of apparel that the warehourse processe
 <a href="https://workshops.nuevofoundation.org/python-basics/data-structures/lists/" target="_blank">Not sure how to create a list in python?</a>
 
 ### Question 1
-<<<<<<< Updated upstream
-Write the following class names in an array `class_names`:
-=======
 Write the following class names in the list `class_names`:
 
 - T-shirt/top
@@ -79,10 +71,13 @@ Write the following class names in the list `class_names`:
 - Sneaker 
 - Bag
 - Ankle boot
->>>>>>> Stashed changes
 
 {{% /notice %}}
 
+
+{{% notice info %}}
+#### Optional Reading
+If you are interested in learning about these libraries in more detail, feel free to visit the following websites. 
 
 <a href="https://www.tensorflow.org/overview" target="_blank">Learn about Tensorflow</a>
 
@@ -90,6 +85,7 @@ Write the following class names in the list `class_names`:
 
 <a href="https://matplotlib.org/" target="_blank">Learn about Matplotlib</a>
 
+{{% /notice %}}
 
 
 
@@ -97,8 +93,3 @@ Write the following class names in the list `class_names`:
 
 
 
-
-<<<<<<< Updated upstream
-<a href="https://workshops.nuevofoundation.org/python-basics/data-structures/lists/" target="_blank">Not sure how to create a list in python?</a>
-=======
->>>>>>> Stashed changes

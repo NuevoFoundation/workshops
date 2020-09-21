@@ -5,19 +5,24 @@ weight: 4
 draft: false
 ---
 
-In order to maintain consistency between the training and testing set data, we will divide these values by 255.
-```python
-#the train_images and test_images range between values from 0 to 255. 
-#To maintain consistency between the training and testing set, we will divide train_images and test_images by 255
 
-train_images = train_images / 255.0 
+{{% notice info %}}
 
-test_images = test_images / 255.0
-```
+If you would like to test the following code, visit <a href="https://colab.research.google.com/drive/1ndj0W1P_3uAG-L2a6LwxdJPSHbSK5WE6?usp=sharing" target="_blank">this link</a> 
+
+To edit this code, click on the 'Copy to Drive' button to make a personal copy of this notebook. Make sure you are logged in to your Google account.
+![](../media/colab_copy.png)
+
+{{% notice warning %}}
+### If you are using a Nuevo Google account temporarily
+Once you make a copy, please make sure to replace the "Copy of" with your name, along with the file name. This will be on the top left corner of your notebook.
+{{% /notice%}}
+
+{{% /notice %}}
 
 
 {{% notice tip %}}
-Before moving on, please check your Google Colab notebook against the picture below:
+Before moving on, please check your Google Colab notebook against the code below:
 
 ```python
 # Importing TensorFlow and tf.keras libraries

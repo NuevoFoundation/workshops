@@ -25,6 +25,15 @@ Visit [Google Colab](https://colab.research.google.com/), an online programming 
 
 We recommend that you organize your code by creating a new block of code for every segment of code used in the activities throughout the workshop. Also, make sure to read the comments in the code blocks to better understand what each code segment does.
 
+{{% notice warning %}}
+### Google account required
+In order to use Google Colab to edit and run code, you need to be logged in to your Google account (or school account with access to Google services/ Google Drive). 
+
+### Don't have a Google account?
+If you do not have a Google account and are not able to create one, please contact any of the admins of Nuevo Foundation to get temporary access to a Nuevo account for this workshop only. Please keep in mind that Google Colab is required for this workshop so that you can run all the code.
+
+{{% /notice %}}
+
 {{% notice note %}}
 When running your code for the first time, make sure to run your code by clicking on _Runtime -> Run all_ in the Menu bar to execute all your code snippets sequentially. This is to make sure that you don't accidentally execute functions without importing the libraries first!
 ![Colab intro](media/colab_intro.png)
@@ -36,4 +45,8 @@ When running your code for the first time, make sure to run your code by clickin
 <summary>Sections</summary>
 {{% children %}}
 </details>
+
+<br>
+
+<a href="https://www.tensorflow.org/tutorials/keras/classification" target="_blank">Works Cited</a>
 

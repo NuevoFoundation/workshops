@@ -38,5 +38,17 @@ For example, if you input the index value as 7, you get the following item:
 
 {{% /notice %}}
 
+## Copy the following code onto Google Colab:
+In order to maintain consistency between the training and testing set data, we will divide these values by 255.
+```python
+#the train_images and test_images range between values from 0 to 255. 
+#To maintain consistency between the training and testing set, we will divide train_images and test_images by 255
+
+train_images = train_images / 255.0 
+
+test_images = test_images / 255.0
+```
+
+
 
 

@@ -9,15 +9,32 @@ Great job! You are now able to successfully identify which category an image mos
 
 To verify that your code is correct up to this checkpoint, please compare your code against the example code provided below.
 
-The outputs of the code may vary.
+{{% notice warning %}}
+The outputs of the code may vary. You only need to copy the code blocks, and __not__ the output blocks, as they will be generated automatically in your notebook.
+
+{{% /notice %}}
 
 {{% notice note %}}
 ```python
-These blocks contain python code
+These lighter shaded blocks contain python code
 ```
 ```
-These blocks contain the output
+These darker shaded blocks contain the output
 ```
+{{% /notice %}}
+
+{{% notice info %}}
+
+If you would like to test the following code, visit <a href="https://colab.research.google.com/drive/1knoCeFRtcUbp1HyKKEQgYw9tgZsUeDk0?usp=sharing" target="_blank">this link</a> 
+
+To edit this code, click on the 'Copy to Drive' button to make a personal copy of this notebook. Make sure you are logged in to your Google account.
+
+{{% notice warning %}}
+### If you are using a Nuevo Google account temporarily
+Once you make a copy, please make sure to replace the "Copy of" with your name, along with the file name. This will be on the top left corner of your notebook.
+{{% /notice%}}
+
+
 {{% /notice %}}
 
 ```python
