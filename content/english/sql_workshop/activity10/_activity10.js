@@ -31,7 +31,7 @@ function sql()
   
   if(input == ans1)
   {
-    green();
+    green(input);
     document.getElementById("story").innerHTML = "Now we know how many guests will be attending! Let's choose what food to bring to the party!"; 
     
     /* Changes terminal screen */

@@ -17,20 +17,11 @@ draft: false
 <script type="text/javascript" src="_activity12.js"></script>
 <!-- Embed YouTube Video Link here when ready -->
 
-## All the guests are here! We need to find the Inventor before it's too late!
+### All the guests are here! We need to find the Inventor before it's too late!
 
 Everyone is having a good time at the party! The inventor has also arrived, now we need to figure out who the inventor is! No one knows what the inventor looks like, but the Dear Leader has given you hints on how to find the inventor!
 
-### The Information You Are Given:
-{{%notice info%}}
-* The Inventor's favorite food is Pizza.
-
-* The Inventor's favorite subject is Math.
-
-* The Inventor's favorite movie is "Big Hero 6".
-{{%/notice%}}
-
-### Task 12: Using the database called "people", figure out who the inventor is!
+### Task 12: Display the entire database called "people" so we can look at all the attendees.
 {{%notice tip%}}
 * Hint 1: The command you use should display the entire "people" database.
 * Hint 2: The command is similar to the one in activity 1 (Learn the `SELECT` command).
@@ -39,21 +30,34 @@ Everyone is having a good time at the party! The inventor has also arrived, now 
 {{< rawhtml >}}
 <div class="terminal_div" id="terminal_div">
 	<div class = "outer">
-		<h3 id = "commands" contenteditable="true" onclick="document.getElementById('commands').innerHTML = ''"> Type command here!<h3>
+		<h3 id = "commands" contenteditable="true" onclick="placeholder()">Type command here!</h3>
 	</div>
+  <div class = "prev">
+      <h3 id = "prev"></h3>
+    </div>
 	<div style="clear: both;"></div> 
-	</br></br></br></br></br></br>
 	<button class="button button1" onclick="sql()"> Enter </button>
 	<div style="clear: both;"></div> 
-	<button class = "button reset" onclick="document.getElementById('commands').innerHTML = ''">Reset</button>
+    <button class = "button reset" onclick="reset()">Reset</button>
 </div>
 <div style="clear: both;"></div> 
 <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
 <table id="table">
 	<tr></tr>
 </table>
-<h4 id="story"></h4>
+<h3 id="story"></h3>
+{{< /rawhtml >}}
 
+### Here are some hints to figure out who the "Inventor" is:
+{{%notice info%}}
+* The Inventor's favorite food is Pizza.
+
+* The Inventor's favorite subject is Math.
+
+* The Inventor's favorite movie is "Big Hero 6".
+{{%/notice%}}
+
+{{< rawhtml >}}
 <div class = "inventor_div" id="inventor_div">
   <div class = "box_half" id = "box_half">
 	  <div class = "text_box">

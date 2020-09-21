@@ -3,9 +3,9 @@ function sql()
   clearTable();
   document.getElementById("sqlcommand").innerHTML = "ERROR INVALID INPUT";
   document.getElementById("sqlcommand").style.visibility="visible";
-
+  
   var user = document.getElementById("commands").innerHTML;
-  debug(user.toLowerCase(),"select count(*) from planet;");
+  debug(user.toLowerCase(),"select count(*) from planet;", "select count(city_number) from planet;");
   var array = alasql("MATRIX OF " + user);
   var ans = JSON.stringify(alasql(user));
 
@@ -30,8 +30,6 @@ function sql()
   
   if(user == ans1 || user == ans2)
   {
-    green();
-    document.getElementById("commands").innerHTML = "<span class='right'>" + user + " </span>";
     
     /* Changes terminal screen */
     var screen = document.getElementById("terminal_div");

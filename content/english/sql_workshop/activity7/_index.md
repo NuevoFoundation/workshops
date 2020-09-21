@@ -29,8 +29,10 @@ and can only be unlocked with the smallest key on the planet!
 
 ![Explain](../activity5/assets/max_min.png)
 
-#### Using the database called 'items' with a column labeled 'object', find the 'key' with the smallest height.
+#### Using the database called 'items' with columns labeled 'object' and 'height', find the 'key' with the smallest height.
 {{%notice tip%}}
+You can display the entire database using the command from activity 1.
+
 * Hint 1: Remember the advice from the Galactic Federation: `SELECT [column/column property] FROM [database] [optional condition];`
 
 * Hint 2: Condition: `WHERE [column_name] [IN()/NOT IN()];` 
@@ -43,13 +45,15 @@ and can only be unlocked with the smallest key on the planet!
 
 <div class="terminal_div" id="terminal_div">
     <div class = "outer">
-      <h3 id = "commands" contenteditable="true" onclick="document.getElementById('commands').innerHTML = ''"> Type command here!<h3>
+      <h3 id = "commands" contenteditable="true" onclick="placeholder()">Type command here!</h3>
+    </div>
+    <div class = "prev">
+      <h3 id = "prev"></h3>
     </div>
     <div style="clear: both;"></div> 
-    </br></br></br></br></br></br>
     <button class="button button1" onclick="sql()"> Enter </button>
     <div style="clear: both;"></div> 
-    <button class = "button reset" onclick="document.getElementById('commands').innerHTML = ''">Reset</button>
+    <button class = "button reset" onclick="reset()">Reset</button>
   </div>
   <div style="clear: both;"></div> 
   <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
@@ -98,7 +102,7 @@ The height corresponds to the number of loops at the base of the key. The correc
 
 <!-- Next mission text displays -->
 <div id="text1" style="visibility:hidden">
-  <p> You found the Legendary Totem of Fun: Confetti Cannon! </p>
+  <h3> You found the Legendary Totem of Fun: Confetti Cannon! </h3>
 </div>
 
 <!-- Unhide the Confetti Cannon -->

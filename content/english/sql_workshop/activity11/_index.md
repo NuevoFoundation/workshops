@@ -21,25 +21,31 @@ draft: false
 
 You are tasked to choose which food to serve at the party! Each city has their own favorite food and you need to decide which ones to have at the party! Let's use the `GROUP BY` command to figure out what to bring.
 
-### What the `GROUP BY` command does
+### What the `GROUP BY` command does:
 
 ![Explain](assets/group.png)
 
 ### Task 11: Using the database called 'planet' with the column 'favorite_food', find out what to bring to the party!
 {{%notice tip%}}
 Hint: The command follows closely to the example above.
+
+BONUS: Combine the `COUNT()` and `GROUP BY` commands to show the number of cities that like each food.
+(Review activity 3 and activity 4 for help)
+
 {{%/notice%}}
 
 {{< rawhtml >}}
 <div class="terminal_div" id="terminal_div">
     <div class = "outer">
-      <h3 id = "commands" contenteditable="true" onclick="document.getElementById('commands').innerHTML = ''"> Type command here!<h3>
+      <h3 id = "commands" contenteditable="true" onclick="placeholder()">Type command here!</h3>
+    </div>
+    <div class = "prev">
+      <h3 id = "prev"></h3>
     </div>
     <div style="clear: both;"></div> 
-    </br></br></br></br></br></br>
     <button class="button button1" onclick="sql()"> Enter </button>
     <div style="clear: both;"></div> 
-    <button class = "button reset" onclick="document.getElementById('commands').innerHTML = ''">Reset</button>
+    <button class = "button reset" onclick="reset()">Reset</button>
   </div>
   <div style="clear: both;"></div> 
   <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
@@ -63,7 +69,7 @@ Hint: The command follows closely to the example above.
 
 <br>
 
-<h5 id="plot" style="visibility:hidden"> You did it Space Cadet! Now the inhabitants can finally begin the party! </h5> 
+<h4 id="plot" style="visibility:hidden"> You did it Space Cadet! Now the inhabitants can finally begin the party! </h4> 
 
 <!-- Tells User to continue mission -->
 <div class="resume_plot" id="resume_plot" style="visibility:hidden">

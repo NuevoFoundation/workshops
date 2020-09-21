@@ -44,7 +44,7 @@ function sql()
     user = tempReplace;
   } 
   
-  debug(user.toLowerCase(),"select * from items where date_created = '1738-09-12';");
+  debug(user.toLowerCase(),"select * from items where date_created = '1738-09-12';", "select * from items where date_created >= '1738-09-12';");
   var array = alasql("MATRIX OF " + user);
   var ans = JSON.stringify(alasql(user));
 
@@ -64,13 +64,15 @@ function sql()
   
   /*change answer here */
   var ans1 = "select * from items where date_created = '1738-09-12';";
+  var ans2 = "select * from items where date_created >= '1738-09-12';";
   
   //Change string to lower case
   var input = user.toLowerCase();
 
-  if(input == ans1)
+console.log(input);
+  if(input == ans1 || input == ans2)
   {
-    green();
+    green(input);
     document.getElementById("story").innerHTML = "Nice job! You found the location of the Legendary Totem of Fun: Confetti Cannon!";
     check();
   }

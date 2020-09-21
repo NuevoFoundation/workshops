@@ -22,7 +22,7 @@ draft: false
 
 You have discovered that the planet's leader is in a hut on the tallest hill but to get to it, you need to find the largest ladder in the Capital of Fun!
 
-The Galactic Federation has sent you four new SQL commands to play around with! Lets take a look at them!
+The Galactic Federation has sent you four new SQL commands to play around with! Let's take a look at them!
 
 
 ### What the commands do:
@@ -51,10 +51,16 @@ Condition:
 * `NOT IN()` is the opposite of `IN()`. Instead of choosing what to show like `IN()`, `NOT IN()` will show all the columns you did not choose inside the parenthesis.
 
 * You can use commas inside the parenthesis to choose more than one column to show or not show.
+
+* Using only 1 input inside `IN()` is equivalent to using `=`: 
+
+Ex. `column_name IN('obejct_in_column');` is the same as `column_name = 'obejct_in_column';`
 {{%/notice%}}
 
-### Now use what you learned! Using the database called 'items' with a column labeled 'object', find the tallest 'ladder'.
+### Now use what you learned! Using the database called 'items' with columns labeled 'object' and 'height', find the tallest 'ladder'.
 {{%notice tip%}}
+You can display the database using the command from activity 1.
+
 * Hint 1: Remember the advice from the Galactic Federation: `SELECT [column/column property] FROM [database] [optional condition];`
 
 * Hint 2: Column property: Do you need to use `MAX()` or `MIN()` to find the tallest ladder?
@@ -65,19 +71,26 @@ Condition:
 
 * Hint 5: What symbol do you need at the end of a SQL command?
 {{%/notice%}}
+
+{{%notice info%}}
+* BONUS: Try to use multiple inputs inside `IN()` or `NOT IN()` when searching for the ladder
+* This command is very powerful in searching multiple types of objects
+{{%/notice%}}
 <!-- SQL Type In Activity -->
 
 {{< rawhtml >}}
 
-  <div class="terminal_div" id="terminal_div">
+ <div class="terminal_div" id="terminal_div">
     <div class = "outer">
-      <h3 id = "commands" contenteditable="true" onclick="document.getElementById('commands').innerHTML = ''"> Type command here!<h3>
+      <h3 id = "commands" contenteditable="true" onclick="placeholder()">Type command here!</h3>
     </div>
-    <div style="clear: both;"></div> 
-    </br></br></br></br></br></br>
+    <div class = "prev">
+      <h3 id = "prev"></h3>
+    </div>
+      <div style="clear: both;"></div> 
     <button class="button button1" onclick="sql()"> Enter </button>
     <div style="clear: both;"></div> 
-    <button class = "button reset" onclick="document.getElementById('commands').innerHTML = ''">Reset</button>
+    <button class = "button reset" onclick="reset()">Reset</button>
   </div>
   <div style="clear: both;"></div> 
   <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>

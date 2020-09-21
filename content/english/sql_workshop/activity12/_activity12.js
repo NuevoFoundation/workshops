@@ -31,16 +31,11 @@ function sql()
   
   if(input == ans1)
   {
-    document.getElementById("story").innerHTML = "That's the correct command! Did you figure out who the inventor is?";
-    green();
+    document.getElementById("story").innerHTML = "That's the correct command to show all the attendees!";
     
     /* Changes terminal screen */
     var screen = document.getElementById("terminal_div");
     screen.style.backgroundImage = "url('../media/green.png')"
-  }
-  else
-  {
-    document.getElementById("story").innerHTML = "Not quite the right command. Keep trying!";
   }
 }
 

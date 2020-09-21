@@ -36,6 +36,8 @@ the Confetti Cannon (reminder: the Confetti Cannon was created on 1738-09-12).
 
 #### Using the database called 'items' with a column labeled 'date_created', find the Infinite Buffet Table!
 {{%notice tip%}}
+You can use the command in activity 1 to display the entire database.
+
 * Hint 1: The format for the date is Year-Month-Day.
 * Hint 2: This Totem was created a month AFTER the Confetti Cannon (1738-09-12).
 * Hint 3: What is the pattern? Do you need to look for the month at the beginning, end, or anywhere of the value?
@@ -46,13 +48,15 @@ the Confetti Cannon (reminder: the Confetti Cannon was created on 1738-09-12).
 
 <div class="terminal_div" id="terminal_div">
     <div class = "outer">
-      <h3 id = "commands" contenteditable="true" onclick="document.getElementById('commands').innerHTML = ''"> Type command here!<h3>
+      <h3 id = "commands" contenteditable="true" onclick="placeholder()">Type command here!</h3>
+    </div>
+    <div class = "prev">
+      <h3 id = "prev"></h3>
     </div>
     <div style="clear: both;"></div> 
-    </br></br></br></br></br></br>
     <button class="button button1" onclick="sql()"> Enter </button>
     <div style="clear: both;"></div> 
-    <button class = "button reset" onclick="document.getElementById('commands').innerHTML = ''">Reset</button>
+    <button class = "button reset" onclick="reset()">Reset</button>
   </div>
   <div style="clear: both;"></div> 
   <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
@@ -62,7 +66,7 @@ the Confetti Cannon (reminder: the Confetti Cannon was created on 1738-09-12).
   <h4 id="story"></h4>
 
 <div id="legend" style="visibility:hidden">
-  <p> You found the location of the Legendary Totem of Fun: Infinite Buffet Table! Now we will travel to Fun Capital!</p>
+  <h4> You found the location of the Legendary Totem of Fun: Infinite Buffet Table! Now we will travel to Fun Capital!</h4>
 </div>
 
 <br>

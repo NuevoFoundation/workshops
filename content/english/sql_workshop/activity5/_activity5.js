@@ -47,7 +47,7 @@ function sql()
   document.getElementById("sqlcommand").style.visibility="visible";
 
   var user = document.getElementById("commands").innerHTML;
-  debug(user.toLowerCase(),"select max(height) from items where object in ('ladder');");
+  debug(user.toLowerCase(),"select max(height) from items where object in('ladder');");    
   var array = alasql("MATRIX OF " + user);
   var ans = JSON.stringify(alasql(user));
 
@@ -68,21 +68,25 @@ function sql()
   /*change answer here */
   var ans1 = "select max(height) from items where object in('ladder');";
   var ans2 = "select * from items where object in('ladder');";
+  var ans3 = "select max(height) from items where object = 'ladder';";
+  var ans4 = "select * from items where object = 'ladder';";
+  var ans5 = "select max(height) from items where object not in('totem', 'key');";
+  var ans6 = "select max(height) from items where object not in('totem');";
+  var ans7 = "select max(height) from items where object not in('key');";
   
   //Change string to lower case
   var input = user.toLowerCase();
   
-  if(input == ans1 || input == ans2)
+if(input == ans1 || input == ans2 || input == ans3 || input == ans4 || input == ans5 || input == ans6 || input == ans7)
   {
-    green();
-    document.getElementById("commands").innerHTML = "<span class='right'>" + user + " </span>";
+    green(input);
     document.getElementById("story").innerHTML = "Excellent work Space Cadet! Now you need to figure out a way to get to the Dear Leader!";
     
     /* Changes terminal screen */
     var screen = document.getElementById("terminal_div");
     screen.style.backgroundImage = "url('../media/green.png')"
     
-    if(input == ans1)
+    if(input == ans1 || input == ans3)
     {
       var display_legend = document.getElementById("legend");
       display_legend.setAttribute("style","visibility:visible");

@@ -33,15 +33,6 @@ When we use the `SELECT * FROM planet;` command, the table above is displayed. B
 ### Question: Using `COUNT()`, what command will display the number of cities on the Planet of Fun?
 
 {{%notice tip%}}
-Press the Enter button on the terminal to check if you have the correct command. Use the Reset button to start over.
-
-* Hint 1: The Galactic Federation gave you the name of this database at the beginning of this activity
-* Hint 2: You can use either the asterisk (*) or a column name
-{{%/notice%}}
-
-### Question: Using `COUNT()`, what command will display the number of cities on the Planet of Fun?
-
-{{%notice tip%}}
 
 Press the Enter button on the terminal to check if you have the correct command. Use the Reset button to start over.
 
@@ -53,20 +44,16 @@ Press the Enter button on the terminal to check if you have the correct command.
 
 {{< rawhtml >}}
   <div class="terminal_div" id="terminal_div">
-  
     <div class = "outer">
-      <h3 id = "commands" contenteditable="true" onclick="document.getElementById('commands').innerHTML = ''"> Type command here!<h3>
+      <h3 id = "commands" contenteditable="true" onclick="placeholder()">Type command here!</h3>
     </div>
-    
-    <div style="clear: both;"></div>
-    
-    </br></br></br></br></br></br> 
-    
-    <button class="button button1" onclick="sql()"> Enter </button>
-    
+    <div class = "prev">
+      <h3 id = "prev"></h3>
+    </div>
     <div style="clear: both;"></div> 
-    
-    <button class = "button reset" onclick="document.getElementById('commands').innerHTML = ''">Reset</button>
+    <button class="button button1" onclick="sql()"> Enter </button>
+    <div style="clear: both;"></div> 
+    <button class = "button reset" onclick="reset()">Reset</button>
   </div>
   
   <div style="clear: both;"></div> 

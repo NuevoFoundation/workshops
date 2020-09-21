@@ -34,13 +34,13 @@ function clearTable()
 
 
 function debug(input, ans, ans2)
-{
+{ 
   var actual2 = null;
   if(ans2 == null) 
   {
     var ans2 = "temp";
   }
-  var display = document.getElementById("commands");
+  var display = document.getElementById("prev");
   var output = "";
   var inputText = input.split(" ");
   var actual = ans.split(" ");
@@ -64,9 +64,27 @@ function debug(input, ans, ans2)
 }
 
 //highlights user input in green
-function green()
+function green(input)
+{
+  var display = document.getElementById("prev");
+  display.innerHTML = "<span class='right'>" + input + "</span>";
+}
+
+//clears placeholder
+function placeholder()
 {
   var display = document.getElementById("commands");
-  console.log("display is " + display.innerHTML);
-  display.innerHTML = "<span class='right'>" + display.innerHTML + "</span>";
+  if(display.innerHTML == "Type command here!")
+  {
+    display.innerHTML = "";
+  }
+}
+
+function reset()
+{
+  clearTable();
+  document.getElementById('commands').innerHTML = '';
+  document.getElementById("sqlcommand").innerHTML = "ERROR INVALID INPUT";
+  document.getElementById("sqlcommand").style.visibility="hidden";
+  document.getElementById('prev').innerHTML = '';
 }
