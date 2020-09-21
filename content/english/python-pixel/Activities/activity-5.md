@@ -9,7 +9,7 @@ draft: false
 
 In the last section, we saw an example on creating a blue filter and thought about how to create the grey filter. Now, let us create our grey filter together.
 
-### Example One - Create a grey filter
+### Example - Create a grey filter
 <hr/>
 
 Let us change the origin cat below with our grey filter together!!!
