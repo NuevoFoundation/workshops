@@ -5,8 +5,7 @@ date: 2020-02-217T11:45:38-07:00
 prereq: "None"
 difficulty: "Beginner"
 draft: false
-hidden: true
-icon: "fas fa-microchip"
+icon: "fas fa-user-secret"
 ---
 
 ## Table of Contents
