@@ -7,10 +7,11 @@ weight: 6
 draft: false
 ---
 
+<iframe width="100%" height="600px" src="https://www.youtube.com/embed/X2AoHSdQOLo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 In this section, we will start to learn how to crop your image.
 
-### Example - Crop cat into half 
+### Example - Crop cat into half
 <hr/>
 
 Now, let us crop out the right half of the cat image
@@ -32,7 +33,7 @@ for i in range(width//2):
             newimg.putpixel((i,j),color)# put the color into new image
 newimg.save("Mycat.png")
 ```
-Wow! This is our cat after the filter. We only filtered one-forth of the cat on the upper left corner！
+Wow! This is our cat after the cropping. We cropped one-forth of the cat on the upper left corner！
 <img src="../../media/halfcat.png" width=25%>
 
 

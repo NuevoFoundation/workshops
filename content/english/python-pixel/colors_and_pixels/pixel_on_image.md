@@ -4,6 +4,8 @@ draft: false
 weight: 2
 ---
 
+<iframe width="100%" height="600px" src="https://www.youtube.com/embed/WvDHBwyM6_U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### <b> Pixels </b>
 <hr/>
 
@@ -66,7 +68,7 @@ output:
 #### <b> Changing a pixel in image </b>
 <hr/>
 
-`img.putpixel( (x,y), (r, g, b))` put a new pixel with the given position and color. Position is a `(width, height)` value of that pixel. Color is the RGB Color of that pixel. 
+`img.putpixel( (x,y), (r, g, b))` put a new pixel with the given position and color. Position is a `(width, height)` value of that pixel. Color is the RGB Color of that pixel.
 <br/><br/>
 
 #### Let's see an example
@@ -81,5 +83,3 @@ img.save('pil_black-dot.png')
 output:
 ![alt text](../../media/black-dot.png "image showing pixels third example")
 You can see a tiny small dot in the middle of this yellow block, this is one small pixel. You can how small a pixel is.
-
-

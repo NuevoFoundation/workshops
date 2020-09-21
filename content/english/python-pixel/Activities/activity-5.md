@@ -7,6 +7,8 @@ weight: 5
 draft: false
 ---
 
+<iframe width="100%" height="600px" src="https://www.youtube.com/embed/deYXkPt58co" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 In the last section, we saw an example on creating a blue filter and thought about how to create the grey filter. Now, let us create our grey filter together.
 
 ### Example - Create a grey filter

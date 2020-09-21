@@ -7,7 +7,9 @@ weight: 3
 draft: false
 ---
 
-Reviewing details in how to use loops, you can actually design your own elements on the colorboard. You can design your own logo or anything you want on this color board. Here is an example we provided for you. 
+<iframe width="100%" height="600px" src="https://www.youtube.com/embed/YkxNH1TWjR0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Reviewing details in how to use loops, you can actually design your own elements on the colorboard. You can design your own logo or anything you want on this color board. Here is an example we provided for you.
 
 
 ### Example: make an N.
@@ -44,7 +46,7 @@ output:
 <hr/>
 
 {{% notice tip %}}
-You can actually design some easy letters, such as H, K, T and etc. You can change the color of certain part of those letters in order to make it prettier. 
+You can actually design some easy letters, such as H, K, T and etc. You can change the color of certain part of those letters in order to make it prettier.
 {{% /notice %}}
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Python-Pixel-Activity3?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
