@@ -10,7 +10,7 @@ draft: false
 Reviewing details in how to use loops, you can actually design your own elements on the colorboard. You can design your own logo or anything you want on this color board. Here is an example we provided for you. 
 
 
-### Example: make A N.
+### Example: make an N.
 
 <hr/>
 
