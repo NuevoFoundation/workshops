@@ -1,6 +1,8 @@
 ---
 title: "Progress Update 3"
 date: 2020-09-09T16:19:17-07:00
+prereq: "Python Basics: Functions- Built in Functions, Functions from libraries; Data Types- Strings, Numbers, Reading from Console; Data Structures- Lists, Tuples, Sets; Loops- For Loops"
+difficulty: Intermediate
 weight: 13
 draft: false
 ---
@@ -175,7 +177,7 @@ plt.show()
 #### Thank you for doing this workshop! We hope you enjoyed it and learned the basics of Machine Learning!
 {{% /notice %}}
 
-{{% notice info %}}
+{{% notice warning %}}
 #### Are you stuck anywhere in this workshop or want to check your work? 
 Feel free to refer to this <a href="#" target="_blank">Answer Key</a>
 
