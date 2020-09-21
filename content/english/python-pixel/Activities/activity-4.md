@@ -7,6 +7,8 @@ weight: 4
 draft: false
 ---
 
+<iframe width="100%" height="600px" src="https://www.youtube.com/embed/jA6xNqAhb1o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 We have already talked about that the image on the screen is made of pixels. Now we can start to learn how to design your own filter on the image. Let us see some examples on how to design a basic filter on your image.
 
 ### Example for blue filter

@@ -7,7 +7,9 @@ weight: 10
 draft: false
 ---
 
-In this section, we will use all kinds of methods to make your own picture. In this section, you are free to make any combinations of basic colorboard, drawing elements, filters, cropping, flipping or changing colors. 
+<iframe width="100%" height="600px" src="https://www.youtube.com/embed/KWL3b4xY8dA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+In this section, we will use all kinds of methods to make your own picture. In this section, you are free to make any combinations of basic colorboard, drawing elements, filters, cropping, flipping or changing colors.
 
 <hr/>
 
