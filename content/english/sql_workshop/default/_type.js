@@ -86,4 +86,5 @@ function reset()
   document.getElementById('commands').innerHTML = '';
   document.getElementById("sqlcommand").innerHTML = "ERROR INVALID INPUT";
   document.getElementById("sqlcommand").style.visibility="hidden";
+  document.getElementById('prev').innerHTML = '';
 }

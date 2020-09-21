@@ -47,6 +47,7 @@ function sql()
   document.getElementById("sqlcommand").style.visibility="visible";
 
   var user = document.getElementById("commands").innerHTML;
+  debug(user.toLowerCase(),"select max(height) from items where object in('ladder');");    
   var array = alasql("MATRIX OF " + user);
   var ans = JSON.stringify(alasql(user));
 
@@ -90,9 +91,5 @@ if(input == ans1 || input == ans2 || input == ans3 || input == ans4 || input == 
       var display_legend = document.getElementById("legend");
       display_legend.setAttribute("style","visibility:visible");
     }
-  }
-else 
-  {
-  debug(user.toLowerCase(),"select max(height) from items where object in ('ladder');", "select * from items where object in('ladder');");    
   }
 }
