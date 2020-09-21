@@ -48,3 +48,7 @@ alasql("INSERT INTO people VALUES ('Dr. Phi','Pizza','Playground City', 'math','
 alasql("INSERT INTO people VALUES ('Caroline Jones','Hotdog','City of Games', 'technology','Meet the Robinsons')");
 alasql("INSERT INTO people VALUES ('Eve Dragonheart','Taco','Seriously Fun', 'science','WALL-E')");
 alasql("INSERT INTO people VALUES ('Duchess Leia','Pizza','Playground City', 'engineering','Star Wars')");
+
+alasql("CREATE TABLE command_center(name STRING)");
+alasql("INSERT INTO command_center VALUES ('Kim')");
+alasql("INSERT INTO command_center VALUES ('Justin')");
