@@ -1,35 +1,40 @@
 ---
 title: "Activity 3: Challenge: Design new elements"
+prereq: "Python Basics, Python Image Manipulation: Open an Image, Python Pixels: Colors and Pixels"
+difficulty: "Intermediate"
 date: 2020-09-08T00:00:00Z
 weight: 3
 draft: false
 ---
 
-<hr/>
 Reviewing details in how to use loops, you can actually design your own elements on the colorboard. You can design your own logo or anything you want on this color board. Here is an example we provided for you. 
 
+
+### Example: make an N.
+
 <hr/>
 
-#### Example 1
-make a <b>N</b> on your color board.
 ```python
 #This creates the original colorboard.
 from PIL import Image
 img = Image.new('RGB', (60, 30), 'white')
 #This uses nested while loop to change the colorboard.
+#Left vertical line
 for x in range(10, 15):
   for y in range(5, 25):
     img.putpixel( (x,y), (0, 0, 0))
+#Right vertical line
 for x in range(30, 35):
   for y in range(5, 25):
     img.putpixel( (x,y), (0, 0, 0))
+#Central diagonal line
 for y in range(5, 25):
   for x in range(10+(y-5), 15+(y-5)):
     img.putpixel( (x,y), (255, 211, 0))
-img.save('pixel-activity2.png')
+img.save('pixel-activity3.png')
 ```
 output:
-![alt text](../../media/Activity3_ex.png "image showing activity3 example")
+![alt text](../../media/activity3_ex.png "image showing activity3 example")
 <br/><br/>
 
 <hr/>
@@ -38,8 +43,8 @@ output:
 
 <hr/>
 
-{{% notice warning %}}
-**Be careful:** In order to see your image, please click on top left cornor (which says 'Files'), and then click on the image file to see the result.
+{{% notice tip %}}
+You can actually design some easy letters, such as H, K, T and etc. You can change the color of certain part of those letters in order to make it prettier. 
 {{% /notice %}}
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Python-Pixel-Activity3?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
