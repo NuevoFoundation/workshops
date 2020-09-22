@@ -16,7 +16,7 @@ draft: false
 <script type="text/javascript" src="../default/alasql.js"></script>
 <script type="text/javascript" src="../default/db.js"></script>
 
-<!-- Embed YouTube Video Link here when ready -->
+{{< youtube VPMZedGI-Ww >}}
 
 ## Task 5: Find the Tallest Ladder To Get To Their Dear Leader
 

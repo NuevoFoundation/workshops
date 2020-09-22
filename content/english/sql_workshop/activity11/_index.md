@@ -15,7 +15,8 @@ draft: false
 <script type="text/javascript" src="../default/db.js"></script>
 <link rel="stylesheet" href="_activity11.css" type="text/css"></link>
 <script type="text/javascript" src="_activity11.js"></script>
-<!-- Embed YouTube Video Link here when ready -->
+
+{{< youtube WXoQP79SPsg >}}
 
 ## Party with the Inhabitants! 
 

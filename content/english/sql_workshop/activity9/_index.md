@@ -17,7 +17,7 @@ draft: false
 <script type="text/javascript" src="_activity9.js"></script>
 <link rel="stylesheet" href="_activity9.css" type="text/css"></link>
 
-<!-- Embed YouTube Video Link here when ready -->
+{{< youtube XLm2T6XBltg >}}
 
 
 ## Task 9: Unlock the Infinite Buffet Table:

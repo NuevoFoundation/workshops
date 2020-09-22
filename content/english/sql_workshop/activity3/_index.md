@@ -14,6 +14,7 @@ draft: false
 <script type="text/javascript" src="../default/db.js"></script>
 <script type="text/javascript" src="_activity3.js"></script>
 
+{{< youtube Rvhy5DOuWHQ >}}
 
 After receiving the message from the Galactic Federation, you continue your adventure.
 

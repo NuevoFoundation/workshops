@@ -17,7 +17,7 @@ draft: false
 <script type="text/javascript" src="../default/db.js"></script>
 <script type="text/javascript" src="_activity7.js"></script>
 
-<!-- Embed YouTube Video Link here when ready -->
+{{< youtube H9BWcnE2a6k >}}
 
 
 ## Task 7: Find the Key to Get to the Confetti Cannon!

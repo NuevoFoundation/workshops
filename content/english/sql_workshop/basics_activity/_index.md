@@ -7,6 +7,7 @@ difficulty: "Beginner"
 icon: ""
 draft: false
 ---
+{{< youtube l5BDCMyFHVI >}}
 # Cadet Training!
 As a new honorary space explorer, let's go over some basics!
 
