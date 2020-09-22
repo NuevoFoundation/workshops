@@ -9,7 +9,7 @@ prereq: "Python Basics - Writing to Console (Print), Reading from Console, Strin
 
 It’s time to open repl.it. Now it is time to create, let’s get creative!
 
-You can continue working off Nuevo’s story line:
+You can continue working off Nuvi’s story line:
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonGuessAdventureNuevoSample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 

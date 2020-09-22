@@ -1,25 +1,19 @@
 ---
 title: "Activity 7: Change the background of image"
+prereq: "Python Basics, Python Image Manipulation: Open an Image, Python Pixel: Colors and Pixels"
+difficulty: "Intermediate"
 date: 2020-09-08T00:00:00Z
 weight: 7
 draft: false
 ---
 
-<hr/>
+<iframe width="100%" height="600px" src="https://www.youtube.com/embed/zdi2R_EK6QA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 In this section, we will start to learn how to change the simple background of your image using pixels.
-Before starting this section, it is recommended that you review the following sections:
-<br/>
-- <a href="../../colors_and_pixels/basic-of-colors" target="blank">Basic of colors</a>
-<br/>
-- <a href="../../colors_and_pixels/pixel-on-image" target="blank">Pixel on image</a>
-<br/>
-- <a href="../../../python-basics/conditional-statements-loops" target="blank">Conditions and Loops</a>
-<br/>
-- <a href="../../activities/activity-4" target="blank">Filters</a>
-<br/><br/>
+
+### Example - Change background color
 <hr/>
 
-#### Example - Change background color
 Let us change the background color of Nuvi into pink
 <img src="../../media/nuevo.png" width=25%>
 
@@ -47,7 +41,9 @@ Wow! This is our new Nuvi after changing the background.
 <img src="../../media/nuevopink.png" width=25%>
 <hr/>
 
-#### Challenge - Change background based on your choice
+### Challenge - Change background based on your choice
+<hr/>
+
 It's now your turn to change whichever color you want on Nuvi! Exciting！
 {{% notice warning %}}
 **Be careful:** In order to see your image, please click on top left corner (which says 'Files'), and then click on the image file to see the result.

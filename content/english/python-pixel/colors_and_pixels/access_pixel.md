@@ -4,9 +4,11 @@ draft: false
 weight: 3
 ---
 
+<iframe width="100%" height="600px" src="https://www.youtube.com/embed/ydP3GVHLGR0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <hr/>
 
-We have already learned how to make an pure color image using pixels and change a pixel on the image. Then, we will learn how to make additions based on the existing images. 
+We have already learned how to make an pure color image using pixels and change a pixel on the image. Then, we will learn how to make additions based on the existing images.
 
 * For information about how to use lists and tuples in Python. See more on these pages: <br/>
 <a href="../../../python-basics/data-structures/" target="blank">Data Structure</a><br/>
@@ -47,7 +49,7 @@ output:<br/>
 #### <b> Get pixel on image </b>
 <hr/>
 
-`img.getpixel(x,y)` get a Color value at a certain position. Position is a `(width, height)` value of that pixel. Color is the RGB Color of that pixel. 
+`img.getpixel(x,y)` get a Color value at a certain position. Position is a `(width, height)` value of that pixel. Color is the RGB Color of that pixel.
 <br/><br/>
 
 #### Let's see an example
