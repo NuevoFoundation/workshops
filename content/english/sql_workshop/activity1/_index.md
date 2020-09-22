@@ -11,6 +11,7 @@ draft: false
 <link rel="stylesheet" href="_activity1.css" type="text/css"></link>
 <script type="text/javascript" src="../default/_default.js">
 </script>
+{{< youtube hUTKI3AHJ1s >}}
 
 # Mission 1: Save the Planet of Fun from Boredom!
 Your first mission is to go to the Planet of Fun and save them from boredom! 

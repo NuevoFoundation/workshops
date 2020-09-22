@@ -16,7 +16,7 @@ draft: false
 <script type="text/javascript" src="_activity6.js"></script>
 <script type="text/javascript" src="../default/db.js"></script>
 
-<!-- Embed YouTube Video Link here when ready -->
+{{< youtube WeTYg1YnbHA >}}
 
 
 ## Task 6: Find the Legendary Totem of Fun: Confetti Cannon 

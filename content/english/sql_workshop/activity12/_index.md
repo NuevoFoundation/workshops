@@ -15,7 +15,8 @@ draft: false
 <script type="text/javascript" src="../default/db.js"></script>
 <link rel="stylesheet" href="_activity12.css" type="text/css"></link>
 <script type="text/javascript" src="_activity12.js"></script>
-<!-- Embed YouTube Video Link here when ready -->
+
+{{< youtube WocJGw2yd40 >}}
 
 ### All the guests are here! We need to find the Inventor before it's too late!
 

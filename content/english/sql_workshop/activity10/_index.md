@@ -16,7 +16,8 @@ draft: false
 <link rel="stylesheet" href="_activity10.css" type="text/css"></link>
 <script type="text/javascript" src="_activity10.js"></script>
 
-<!-- Embed YouTube Video Link here when ready -->
+{{< youtube UCxPAE0xw3I >}}
+
 ## Return the Legendary Totems of Fun to The Dear Leader
 
 You have successfully found both Legendary Totems of Fun! The Dear Leader thanks you for finding their lost treasure.

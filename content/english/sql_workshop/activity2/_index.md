@@ -12,7 +12,7 @@ draft: false
 <script type="text/javascript" src="../default/_default.js"></script>
 <script type="text/javascript" src="_activity2.js"></script>
 
-<!-- Embed YouTube Video Link here when ready -->
+{{< youtube FZnnkNVn0Ok >}}
 
 ## Task 2: Travel to the Planet of Fun!
 

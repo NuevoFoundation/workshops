@@ -16,7 +16,7 @@ draft: false
 <link rel="stylesheet" href="_activity8.css" type="text/css"></link>
 <script type="text/javascript" src="_activity8.js"></script>
 
-<!-- Embed YouTube Video Link here when ready -->
+{{< youtube dPk644r21e0 >}}
 
 
 ## Task 8: Find the Legendary Totem of Fun: Infinite Buffet Table

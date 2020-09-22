@@ -7,7 +7,7 @@ difficulty: "Beginner"
 draft: false
 ---
 
-<!-- Embed YouTube Video Link here when ready -->
+{{< youtube wSv5FzbtkjQ >}}
 
 # An Email from the Galactic Federation?
 In the middle of your journey, you suddenly receive a message from the Galactic Federation. What did they send you?

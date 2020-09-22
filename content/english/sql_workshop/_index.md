@@ -8,6 +8,7 @@ draft: false
 icon: "fas fa-database"
 weight: 130
 ---
+{{< youtube oFfaxcxBkUQ >}}
 
 # Introduction: Learn SQL by Saving the Galaxy!
 

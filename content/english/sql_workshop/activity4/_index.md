@@ -14,8 +14,7 @@ draft: false
 <script type="text/javascript" src="../default/db.js"></script>
 <script type="text/javascript" src="../default/_type.js"></script>
 
-
-<!-- Embed YouTube Video Link here when ready -->
+{{< youtube UySfZlYMd6M >}}
 
 ## Task 4: Find Their Dear Leader
 
