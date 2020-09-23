@@ -32,7 +32,7 @@ img.save('pil_red.png')
 
 Choose your favorite and make a color board to play with! Here are some example colors you can choose from, you can also find your own color.
 
-<img src="../../media/color-chart.png" width=30%>
+<img src="../../media/Color-chart.png" width=30%>
 
 Also you can use color picker to choose a color.
 <input type="color">

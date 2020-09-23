@@ -36,7 +36,7 @@ for y in range(5, 25):
 img.save('pixel-activity3.png')
 ```
 output:
-![alt text](../../media/activity3_ex.png "image showing activity3 example")
+![alt text](../../media/Activity3_ex.png "image showing activity3 example")
 <br/><br/>
 
 <hr/>
