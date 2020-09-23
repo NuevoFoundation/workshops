@@ -5,7 +5,8 @@ date: 2020-09-17
 prereq: "None."
 difficulty: "Intermediate"
 download: ""
-draft: true
+draft: false
+hidden: true
 icon: "fas fa-microchip"
 weight: 1
 ---

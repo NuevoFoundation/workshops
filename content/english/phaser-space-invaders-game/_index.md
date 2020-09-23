@@ -5,6 +5,7 @@ date: 2020-08-20T11:45:38-07:00
 difficulty: "Intermediate"
 prereq: "JavaScript: Basics"
 draft: false
+hidden: true
 ---
 
 # Introduction
