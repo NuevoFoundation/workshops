@@ -44,22 +44,9 @@ From a list of passwords used by our `Nuvi` select the strongest password which 
   <label for="notify-off">No</label>
 </fieldset> 
 
-<!--
-<script>
-var button1 = document.getElementById("notify-on1");
-var button2 = document.getElementById("notify-off1");
-if (button1.checked){
-    alert("radio1 selected");
-}else if (button2.checked) {
-    alert("radio2 selected");
-}
-</script> -->
-
 #### CONGRATS! You did it. See the answers by clicking the button below.
 
-
-
-{{< button href="/security/5-summary/" theme="success" >}} Done {{< /button >}}
+{{< button href="../summary" theme="success" >}} Done {{< /button >}}
 
 
 
