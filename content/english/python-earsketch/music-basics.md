@@ -10,7 +10,6 @@ weight: 2
 <iframe width="100%" height="600px" src="https://www.youtube.com/embed/g0u1CkbpUWQ?start=134" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Basics first. A few things about music.
-![Image of music notes](../img/music-notes.jpg)
 
 ## What is Music?
 [Music](https://en.wikiversity.org/wiki/Introduction_to_music) is the chronological organisation of sounds; that is, making certain sounds at certain times, which make melodic, rhythmic and harmonic sense. The first, most basic concept, is keeping the sounds "in time". This leads us to some of the first few musical concepts: beat, rhythm, duration & tempo.

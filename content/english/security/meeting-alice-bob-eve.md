@@ -7,14 +7,14 @@ weight: 1
 
 ![Cannot load image](../img/Bob.png?height=250px)
 
-Meet our friend **Bob**. **Bob** has a secret that he doesn’t want to share, he 
+Meet our friend <b>Bob</b>. **Bob** has a secret that he doesn’t want to share, he 
 would like to keep it secured. He has the secret locked somewhere safe. Only 
 Bob has the `key` to the lock to make sure that no one can get to his secret
 but him.
 
 ![Cannot load image](../img/Eve.png?height=250px)
 
-Meet our not so good friend **Eve**. **Eve** wants access to **Bob**’s secret.
+Meet our not so good friend <b>Eve</b>. **Eve** wants access to **Bob**’s secret.
 
 **Eve** realizes that to get to **Bob**'s secret, they need to first get past
 **Bob**'s lock. **Eve** can't break the lock, but maybe she can figure out the
@@ -31,5 +31,5 @@ know where to start.
 
 ![Cannot load image](../img/Alice.png?height=250px)
 
-Luckily for **Bob**, his good friend Secret Agent **Alice** arrives to help
+Luckily for **Bob**, his good friend Secret Agent <b>Alice</b> arrives to help
 him out with his situation. Let's see what **Alice** has to say...
