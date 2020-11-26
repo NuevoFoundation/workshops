@@ -1,19 +1,16 @@
 ---
-title: "Microbit: Codificación con mini computadoras"
+title: "MicroBit: Codificación con mini computadoras"
 description: "Usando MicroBits para enseñar a los estudientes JavaScript y hardware"
-date: 2020-07-30T14:54:53-07:00
-difficulty: "Principiante a Intermedio"
-download: "https://github.com/NuevoFoundation/workshops/tree/master/content/espanol/microbit"
+date: 2020-11-25T14:54:53-07:00
+difficulty: "Principiante a intermedio"
+download: "https://github.com/NuevoFoundation/workshops/tree/master/content/microbit"
 draft: false
-hidden: true
 icon: "fas fa-microchip"
 ---
 
 ### Una introducción a JavaScript y hardware mediante [Micro:Bits](https://microbit.org/guide/)
 
-[logo]: https://media.giphy.com/media/1nOL7s74KmSk0zDlDD/giphy.gif
-
-![alt text][logo]
+<p style="text-align: center; "><img src="https://media.giphy.com/media/1nOL7s74KmSk0zDlDD/giphy.gif" alt="Nuvi logo" width="350"/></p>
 
 # Lo básico
 
@@ -28,7 +25,6 @@ Las variables son contenedores en el código que pueden contener un solo número
 Con algunas excepciones, las variables se pueden identificar con cualquier letra, dígito, ora inferior o signo de dólar. PERO pase lo que pase, no pueden tener espacios y siempre deben empezar con una letra.
 
 Las variables pueden contener diferentes tipos de datos. Vamos a repasar lo básico.
-
 
 ## Tipos de Datos
 
@@ -219,7 +215,7 @@ Tu Micro:Bit tiene las siguientes características físicas:
 - Comunicación inalámbrica a través de bluetooth y radio
 - Interfaz USB
 
-![alt-text](resources/images/microbit-hardware-access-spanish.jpg)
+<p style="text-align: center; "><img src="resources/images/microbit-hardware-access-spanish.jpg" alt="MicroBit explicado" width="1000"/></p>
 
 Si deseas aprender más acerca de cada componente individual y todas las características que vienen con tu Micro:Bit puedes hacer clic [aquí](https://microbit.org/guide/features/).
 
@@ -231,7 +227,7 @@ Continúa y conecta tu Micro:Bit a tu computadora usando el cable USB. No necesi
 
 Una vez que conectes el Micro:Bit a tu computadora, se mostrará en tu computadora como una unidad llamada 'MICROBIT'. Si abres el explorador de archivos, deberías ver algo similar a la imagen de abajo.
 
-![alt-text](resources/images/microbit-drive-file-explorer-example.jpg)
+<p style="text-align: center; "><img src="resources/images/microbit-drive-file-explorer-example.jpg" alt="Desktop explicado" width="250"/></p>
 
 ¡He codificado un juego para darte un ejemplo de lo que puedes hacer! Sigue adelante y descarga mi juego haciendo clic en la siguiente liga.
 
