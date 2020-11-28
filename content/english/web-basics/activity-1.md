@@ -1,5 +1,5 @@
 ---
-title: "Activity 1"
+title: "Activity 1 - Familiarize with online editor"
 date: 2019-09-03T17:53:41-07:00
 draft: false
 weight: 4

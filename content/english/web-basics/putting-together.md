@@ -12,7 +12,7 @@ For your browser to understand what each element of your site is, we need to lab
 
 Tags can also be used to organize your webpage! The image below outlines the structure of a basic webpage. The head usually contains the additional libraries used and the page title, while the body contains most of the displayed content.
 
-![alt text](../media/htmlTagStructure.png "html tag structure")
+<p style="text-align: center; "><img src="../media/htmlTagStructure.png" alt="html tag structure" width="500"/></p>
 
 Most tags need an opening tag and a closing tag. For example, you will see all pages have an `<html>` opening tag at the top, and a closing `</html>` tag at the end. This tells the browser where the HTML elements start and where they end. Think of tags like quotation marks; for example, the computer will understand that everything in between the tags `<html>` and `</html>` is part of an HTML website.
 
