@@ -20,7 +20,7 @@ See this example below:
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 <b>Click the "HTML" tab on the top left corner to see the HTML code, and the "CSS" tab to see the CSS code.</b>
 
-Let's take a look at the HTML code. Try to find a &lt;div&gt; tag with the attribute <code>"info"</code>. It looks like <code>&lt;div id="info"&gt;</code>. By giving this div an id, we can then use CSS to specify styling for this specific element. 
+Let's take a look at the HTML code. Try to find a &lt;div&gt; tag with the attribute <code>"info"</code>. It looks like <code>&lt;div id="info"&gt;</code>. By giving this div an id, we can then use CSS to specify styling for this specific element.
 
 Switch over to the CSS file. We can also give styling to all elements of a specific type - for example, we could use CSS give all &lt;p&gt; elements the same style. In the header block, we tell the browser to color all the headers #0097A7 (which is the teal color).
 
@@ -55,7 +55,7 @@ As you might know, there are multiple fonts that you can use. This part will sho
 ## Acivity 2 - Adding attributes and style
 
 1. Open the web editor (click the "Try it yourself!" button below)
-2. Add an id attribute to one of the header tag. For example, 
+2. Add an id attribute to one of the header tag. For example,
 <font color="red">`<header id="page-title">`</font>
 
 3. Toggle to the CSS tab

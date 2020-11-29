@@ -6,9 +6,9 @@ prereq: "Ninguno"
 difficulty: "Principiante"
 ---
 
-# Python con tortuga
+## Python con tortuga
 
-# Introducción
+## Introducción
 
 Bienvenidos al mundo de Nueva Colmena! Llegaste justo a tiempo para ayudar a nuestra abeja bebé Alex.
 

@@ -5,7 +5,7 @@ weight: 10
 draft: false
 ---
 
-![drawing a figure 8](https://paper-attachments.dropbox.com/s_6DE744F5F42D9843D8BF3A4073281FC6AA4B5E70B001CCD7879563112D6136E1_1563992981796_figure8.PNG)
+![alt text width="70%"](../media/figure-8.png "drawing a figure 8")
 
 ¡Excelente! Ahora hagamos la figura de un 8 como primer paso para hacer una flor de mandala! Una figura de un 8 son solo dos círculos opuestos entre sí. 
 Para hacer esto podemos hacer uso del método `turtle.circle(x)`, el cual toma un entero `x` como el radio del círculo. (Puede recordar que `radio * 2` es que tan ancho es el circulo.) Tener el radio como un **argumento** significa que podemos decidir qué tan grande o pequeño debe ser el círculo.

@@ -16,7 +16,8 @@ Ahora que aprendimos a usar funciones, vamos a tratar de usarlas para organizar 
 3. Trate de hacer varias secciones de una canción (verso, coro, introducción, etc.) y definirlos con sus funciones. Si no lo hace, y solo utiliza varias llamadas `fitMedia`, notará que su programa será largo y difícil de entender. Para ayudar a evitar tener un archivo de proyecto grande, ¡utilice funciones!
 
 Tu código debería parecerse a este:
-    
+
+```python
     from earsketch import *
 
     init()
@@ -42,3 +43,4 @@ Tu código debería parecerse a este:
     sectionA(17, 25)
 
     finish()
+```

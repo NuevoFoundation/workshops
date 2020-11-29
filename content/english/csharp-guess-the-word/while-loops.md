@@ -5,7 +5,7 @@ draft: false
 weight: 16
 ---
 
-# While loops
+## While loops
 
 `while` loops are an easy way to repeat the execution of lines without having to reuse a line many times. For example, to print `Hello World` five times in a row, you can do:
 
@@ -20,7 +20,7 @@ while (counter <= 5)
 
 Like an `if` statement, inside the `()` beside `while`, you should specify a boolean expression. If the expression is `true`, the code inside the curly braces `{ }` is executed. However, after everything inside the curly braces is executed, we go back to the top of the `while` loop and check the boolean expression again. If the boolean expression continues to be `true`, the loop will be repeated.
 
-![While 1](../media/while-1.png)
+![alt text height="600px" width="70%"](../media/while-1.png "While 1")
 
 You can also place `if` statements in `while` loops to do some interesting behavior:
 
@@ -40,7 +40,7 @@ while (counter <= 10)
 }
 ```
 
-![While 2](../media/while-2.png)
+![alt text height="600px" width="70%"](../media/while-2.png "While 2")
 
 Here is an example of an infinite loop - do you see what's wrong? What can you do so that the following piece of code prints `Spam!` only 100 times?
 

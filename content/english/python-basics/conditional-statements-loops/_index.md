@@ -1,7 +1,7 @@
 ---
 title: "Conditional statements and loops"
 draft: false
-weight: 1
+weight: 2
 ---
 
 <details open>

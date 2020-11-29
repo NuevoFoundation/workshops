@@ -4,7 +4,7 @@ draft: false
 weight: 7
 ---
 
-# Números
+## Números
 
 La computadora también puede hacer operaciones matemáticas, como las que tú haces en la escuela. Usa `Console.WriteLine` para imprimir el resultado de las expresiones matemáticas. No es necesario incluir comillas para los números.
 
@@ -13,8 +13,7 @@ Console.WriteLine(5 + 4);
 Console.WriteLine(6 * (9 - 7) / 3);
 ```
 
-![Printing numbers](../media/numbers-intro.png)
-
+![alt text height="600px" width="70%"](../media/numbers-intro.png "Printing numbers")
 
 Aquí está una lista de los símbolos matemáticos que puedes usar:
 

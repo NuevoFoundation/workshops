@@ -1,10 +1,10 @@
 ---
-title: "Actividad 3"
+title: "Actividad 3 - Declara tus variables"
 draft: false
 weight: 11
 ---
 
-# Actividad 3
+## Actividad 3
 
 Esta actividad viene en dos partes y examinará tu conocimiento de los variables. Antes de empezar, busca `HINT (ACTIVITY 3)` (CONSEJO (ACTIVIDAD 3)) en el código, donde declaramos un variable llamado vidas que contiene el número de vidas del jugador. Usa este variable para imprimir el número de vidas del jugador al inicio del juego. 
 

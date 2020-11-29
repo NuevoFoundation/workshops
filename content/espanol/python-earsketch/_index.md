@@ -21,4 +21,4 @@ Para ir a alguna actividad en específico, darle clic a cualquier sección.
 {{% children %}}
 </details>
 
-<p style="text-align: center; "><img src="img/screenshot-overview.png?classes=border,shadow" alt="Earsketch-play-overview" width="700"/></p>
+![alt text height="600px" width="50%"](img/screenshot-overview.png "Earsketch-play-overview")

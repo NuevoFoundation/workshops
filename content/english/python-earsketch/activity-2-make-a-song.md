@@ -28,4 +28,5 @@ Your code should now look something like this:
     fitMedia(YG_TRAP_ELECTRIC_PIANO_FILTERED_1, 3, 1, 17) 
     fitMedia(YG_TRAP_BASS_9, 4, 1, 9)\
     finish()
+
     {{% /notice %}}

@@ -63,7 +63,7 @@ Hay varios tipos de tipografía o letra. Esta parte del taller te muestra como i
   styling here...
 }`
 </font>
-4. 4.	Cambia el color del título agregándole color: yellow (o amarillo); dentro de las llaves {}
-5. 5.	Cambia el color de la tipografía añadiendo font-family: 'Roboto Mono', monospace; dentro de las llaves y agregando <span style="color:purple">@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');</span> en la parte de arriba de la pestaña CSS
+4. Cambia el color del título agregándole color: yellow (o amarillo); dentro de las llaves {}
+5. Cambia el color de la tipografía añadiendo font-family: 'Roboto Mono', monospace; dentro de las llaves y agregando <span style="color:purple">@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');</span> en la parte de arriba de la pestaña CSS
 
 <a class="my-2 mx-4 btn btn-info" href="https://codepen.io/Sunny-Dee/pen/qgvpQE" target="_blank">Inténtalo tu mism@!</a>

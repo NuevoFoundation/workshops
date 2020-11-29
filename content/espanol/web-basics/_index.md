@@ -16,6 +16,6 @@ Benji nació en Houston, Texas. Poco después de que Benji naciera, un huracán 
 ## Tabla de contenido
 
 <details>
-<summary>Sección</summary>
+<summary>Secciones</summary>
 {{% children %}}
 </details>

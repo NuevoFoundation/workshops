@@ -35,31 +35,33 @@ Esta versión de `setEffect` nos permite realizar *automatización* en una pieza
 
 Tu código debería parecerse a este:
 
+```python
     from earsketch import *
-    
+
     init()
     setTempo(120)
-    
+
     fitMedia(HOUSE_DEEP_CRYSTALCHORD_001, 3, 1, 5)
     fitMedia(HOUSE_DEEP_CRYSTALCHORD_002, 3, 5, 9)
-    
+
     # Section A
     def sectionA(startMeasure, endMeasure):
         fitMedia(RD_UK_HOUSE__AIRYPAD_1, 1, startMeasure, endMeasure)
         fitMedia(HOUSE_MAIN_BEAT_002, 4, startMeasure, endMeasure)
         fitMedia(HOUSE_ROADS_BASS_001, 5, startMeasure, endMeasure)
-    
+
     # Section B
     def sectionB(startMeasure, endMeasure): 
         fitMedia(Y37_ORGAN_1, 2, startMeasure, endMeasure)
         fitMedia(HOUSE_ROADS_BASS_001, 5, startMeasure, endMeasure)
         fitMedia(RD_UK_HOUSE__ARPLEAD_1, 6, startMeasure, endMeasure)
-    
+
     sectionA(1, 9)
     sectionB(9, 17)
     sectionA(17, 25)
     setEffect(2, DELAY, DELAY_FEEDBACK, -6.0)
     setEffect(2, DELAY, DELAY_TIME, 1200.0)
     setEffect(0, VOLUME, GAIN, -60, 1, 0, 3)
-    
+
     finish()
+```

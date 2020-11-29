@@ -10,7 +10,6 @@ weight: 4
 3. If you have time: write a list of Benji's favorite treats: turkey, peanut butter, and string cheese 
 
 <a class="my-2 mx-4 btn btn-info" href="https://codepen.io/Sunny-Dee/pen/exxyYL" target="_blank">Try it yourself!</a>
-                                
 
 Use this reference chart to try some html tags on your own.
 

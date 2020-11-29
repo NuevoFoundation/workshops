@@ -15,11 +15,11 @@ turtle.pendown()
 
 `turtle.penup()` le dice a la tortuga que levante su pluma para que no dibuje mientras se mueve. Entonces, con `turtle.goto(x,y)`, le estamos diciendo a la tortuga la posición donde debe moverse. Después de eso le decimos a la tortuga que vuelva a bajar su pluma usando `turtle.pendown()` para que pueda comenzar a dibujar nuevamente. 
 
-<!--TODO: Add a picture of a graph with the x and y coordinates.-->
+![alt text height="600px" width="50%"](../media/graph.png "Graph")
 
 {{% notice info %}}
 
-### Pista
+## Pista
 
 La `x` y la `y` en el método `turtle.goto()` son las coordenadas `x` y `y` de la tortuga. Queremos cambiar las coordenadas `x`, `y` de la tortuga desde `(0, 0)` que es el centro de la imagen, a algún lugar un poco mas lejos para que la flor de mandala no cubra parte de la colmena.
 

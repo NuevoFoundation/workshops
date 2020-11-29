@@ -5,7 +5,7 @@ draft: false
 weight: 7
 ---
 
-# Numbers
+## Numbers
 
 The computer can also do regular math that you see in school. Use `Console.WriteLine` to print out the result from the math expressions. No quotation marks are needed for numbers!
 
@@ -14,7 +14,7 @@ Console.WriteLine(5 + 4);
 Console.WriteLine(6 * (9 - 7) / 3);
 ```
 
-![Printing numbers](../media/numbers-intro.png)
+![alt text height="600px" width="70%"](../media/numbers-intro.png "Printing numbers")
 
 Here is the full list of math symbols that you can use:
 

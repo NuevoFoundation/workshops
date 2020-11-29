@@ -9,7 +9,7 @@ Ya dibujamos un hexágono. Pero es sólo uno de los muchos que necesita para con
 
 {{% notice tip %}}
 
-### Funciones
+## Funciones
 
 Una función es una manera de agrupar líneas de código para hacer algo. Por ejemplo, `turtle.forward(50)` mueve la tortuga hacia delante 50 paso y `turtle.left(120)` gira la tortuga 120 grados hacia la izquierda. ¿Y qué pasaría si siempre quisieramos hacer esas dos cosas juntas? Podríamos ponerlas en una función que se llame  `draw_line()` para que cada que mandemos llamar a esa función esas dos acciones juntas sucedan. 
 
@@ -26,10 +26,9 @@ def draw_line():
 
 La primera línea se llama **cabecera** o **header**. La palabra `def` le dice a la computadora que estamos definiendo una función. Después le pone a la función un nombre, en este caso `draw_line`. Finalmente, no olvidemos esto que va al final: `():`, que le dice a la computadora que estamos empezando el **cuerpo** de la función.
 
-
 {{% notice tip %}}
 
-### Material extra : Parámetros  
+## Material extra : Parámetros  
 
 Dentro de los paréntesis `()` solemos poner los **parámetros** de la función. Un parámetro es un dato de entrada que le damos a la función para que esta la use para generar una salida. Por ejemplo, para hacer una suma necesitamos dos dígitos. Cada uno de estos dígitos sería un parámetro. En nuestro ejemplo no vamos a usar parámetros así que vamos a dejar los paréntesis en blanco.
 
@@ -38,7 +37,6 @@ Dentro de los paréntesis `()` solemos poner los **parámetros** de la función.
 Similar a un ciclo for, lo que sea que queramos que la función ejecute debe tener un tab el inicio.
 
 Pero no basta sólo con crearla sino que hay que mandarla llamar. Esto se hace escribiendo el nombre de la función seguido de paréntesis:
-
 
 ```
 def draw_line():
@@ -54,7 +52,7 @@ Si nos imaginamos la función como una recete, una llamada a una función es com
 
 {{% notice info %}}
 
-### Tips
+## Tips
 
 1. Siempre asegúrate de que los nombres de tus funciones sean descriptivos. Es decir que digan qué hace la función.
 2. Las llamadas a tu función siempre deben estar escritas más abajo que la definición de tu función.
@@ -63,7 +61,7 @@ Si nos imaginamos la función como una recete, una llamada a una función es com
 
 {{% notice warning %}}
 
-### La sintaxis "tricky" de Python - Parte 2
+## La sintaxis "tricky" de Python - Parte 2
 
 Notemos que las funciones usan una sintaxis similar a la que usan los ciclos `for`: tienes que poner el símbolo `:` al final de la línea donde se declara la función y todas las líneas que estén dentro de la función deben empezar con dos espacios.
 

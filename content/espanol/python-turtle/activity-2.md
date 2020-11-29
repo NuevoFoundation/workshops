@@ -19,7 +19,7 @@ Intentemos entender lo que hace este código. `for i in range(3):` esta sentenci
 
 {{% notice warning %}}
 
-### La sintaxis "tricky" de Python - Parte 1
+## La sintaxis "tricky" de Python - Parte 1
 
 La **Sintaxis** es la forma en que escribimos los programas para hacerlos entendibles. Cuando hablamos español tenemos reglas (ortografía, gramática, etc) para podernos entender. El lenguaje Python tiene algo parecido para que la computadora pueda entender el código que escribimos.
 
@@ -38,7 +38,6 @@ turtle.left(120)
 ```
 
 {{% /notice %}}
-
 
 Bueno, ahora tomemos el código que teníamos y modifiquemoslo un poco para dibujar un cuadrado en vez de un triángulo. Como pista, puedes volver a revisar lo que hicimos en la Avtividad 2.
 

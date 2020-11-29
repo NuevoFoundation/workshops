@@ -5,9 +5,9 @@ weight: 13
 draft: false
 ---
 
-![mandala flower with random color petals](https://paper-attachments.dropbox.com/s_F078714AB8FA59FD292476DB5E3304D54CD817148B6A8087A90D63D6C59A7C0D_1563989900782_mandala+colors.PNG)
+![alt text width="70%"](../media/mandala-color.png "mandala flower with random color pedals")
 
-Hemos establecido con éxito el color de la flor de mandala en un valor RGB. Ahora, exploremos cambiar el color de los pétalos individuales de la flor de mandala 
+Hemos establecido con éxito el color de la flor de mandala en un valor RGB. Ahora, exploremos cambiar el color de los pétalos individuales de la flor de mandala.
 
 Haremos uso de la biblioteca `random` de python. El método `random.randint()` nos permite elegir un valor aleatorio para cada uno de los valores rojo, verde o azul. Para elegir un valor que esté entre 0 inclusivo y 256 exclusivo (en otras palabras, entre 0 y 255 inclusivo), necesitamos usar `random.randint(0, 256)`.
 

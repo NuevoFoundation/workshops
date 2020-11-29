@@ -21,4 +21,4 @@ Welcome to this introductory guide on how to make music using
 {{% children %}}
 </details>
 
-![Cannot load image: earsketch-play-overview](img/screenshot-overview.png?classes=border,shadow)
+![alt text height="600px" width="50%"](img/screenshot-overview.png "Earsketch-play-overview")

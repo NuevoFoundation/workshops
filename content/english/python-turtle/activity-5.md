@@ -5,7 +5,7 @@ weight: 7
 draft: false
 ---
 
-![Honeycomb drawing](../media/turtle-honeycomb.png)
+![alt text height="600px" width="30%"](../media/turtle-honeycomb.png "Honeycomb drawing")
 
 This is the finale! Let's create the honeycomb that Alex will live in. Fortunately, a honeycomb is simply 6 hexagons, so let's combine our knowledge of functions and loops to make our honeycomb! 
 
