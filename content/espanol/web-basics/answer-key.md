@@ -7,11 +7,13 @@ weight: 15
 ---
 
 ### Special note:
+
 This curriculum allows students to be creative. The below is just an example of what they can do, please use your best judgement and ask for guidance if needed. The answer key provided here is fairly long because we are including snippets of full HTML for context.
 
 When a student clicks on the 'Try it yourself!' it'll open a new tab with some of the HTML code (and CSS code) already scaffolded. 
 
-## Challenge 1 
+## Challenge 1
+
 Solution should have:
 1. Header tags to add a title and the paragraph tags to write a paragraph about Benji.
 2. (optional) A list of Benji’s favorite treats: turkey, peanut butter, and string cheese
@@ -37,7 +39,9 @@ Solution should have:
 ```
 
 ## Challenge 2
+
 Solution should have:
+
 1. HTML: An id attribute to one of the header tag. For example, ```<header id="page-title">```
 2. CSS: A different title color by adding ```color: yellow;``` inside the curly braces
 3. CSS: A different font by adding ```font-family: ‘Roboto Mono’, monospace;``` inside the curly braces and adding @import url(‘https://fonts.googleapis.com/css?family=Roboto+Mono'); at the top of the CSS tab
@@ -61,13 +65,13 @@ Solution should have:
 
     <div id="info">
       <h2>Information:</h2>
-      <ul>      
+      <ul>
         <li>I'm a Lab/Great Pyreneese mix</li>
         <li>I'm 1 year old</li>
         <li>I eat peanut butter you don't want</li>
         <li>I will protect you from squirrels</li>
       </ul>
-    </div>    
+    </div>
     <h3>I hope we get to play soon!</h3> 
     <img id="dog" src="https://aka.ms/Benji-the-dog">
   </body>
@@ -85,16 +89,19 @@ Solution should have:
 ```
 
 ## Challenge 3
+
 Nuevo Foundation GIFs: https://giphy.com/nuevofoundation 
 1. Click on 'embed' and copy the GIF embed code.
 2. Paste the GIF embed code anywhere in the ```<body>``` tag
 
 Example iframe code:
+
 ```HTML
 <iframe src="https://giphy.com/embed/oywrR92C9YBlrSuUKP" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/nuevofoundation-rockstar-nuvi-oywrR92C9YBlrSuUKP">via GIPHY</a></p>
 ```
 
 Integrated into sample 'Try it yourself code!':
+
 ```HTML
 <!doctype html>
 <html lang="en">
@@ -113,13 +120,13 @@ Integrated into sample 'Try it yourself code!':
 
     <div id="info">
       <h2>Information:</h2>
-      <ul>      
+      <ul>
         <li>I'm a Lab/Great Pyreneese mix</li>
         <li>I'm 1 year old</li>
         <li>I eat peanut butter you don't want</li>
         <li>I will protect you from squirrels</li>
       </ul>
-    </div>    
+    </div>
     <h3>I hope we get to play soon!</h3> 
 
     <!-- Challenge 3: Paste your code here! -->
@@ -129,6 +136,7 @@ Integrated into sample 'Try it yourself code!':
 ```
 
 ## Challenge 4
+
 The contact form is already added for the students. They will simply need to modify their email in the email section and then alter any styling they want!
 
 ```HTML
@@ -148,14 +156,14 @@ The contact form is already added for the students. They will simply need to mod
 
     <div id="info">
       <h2>Information:</h2>
-      <ul>      
+      <ul>
         <li>I'm a Lab/Great Pyreneese mix</li>
         <li>I'm 1 year old</li>
         <li>I eat peanut butter you don't want</li>
         <li>I will protect you from squirrels</li>
       </ul>
-    </div>    
-   
+    </div>
+
    <!-- Challenge 4: Contact Form -->
     <div class="contact-section">
       <h3>Contact me</h3> 
@@ -169,7 +177,7 @@ The contact form is already added for the students. They will simply need to mod
         <input type="submit" value="Hi!">
       </form>
     </div>
-    
+
     <h3>I hope we get to play soon!</h3> 
     <img id="dog" src="https://aka.ms/Benji-the-dog">
   </body>
@@ -187,8 +195,9 @@ The contact form is already added for the students. They will simply need to mod
 ```
 
 ## Challenge 5
+
 No solution here - the students are creating their own sites based on what they learned. A few notes:
 1. Encourage students to use all of the different things they learned (ie. CSS, form, GIF)
 2. Encourage students to create something they would want to show other people. 
 
-Have fun! 
+Have fun!
