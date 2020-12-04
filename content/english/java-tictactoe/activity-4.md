@@ -2,6 +2,8 @@
 title: "4. Check the winner"
 description: "write method to check the winner with an input board"
 date: 2020-07-23T00:00:00Z
+prereq: "Set up the Board!, Read and Process Input, Update the Game Board"
+difficulty: "Intermediate"
 weight: 5
 ---
 

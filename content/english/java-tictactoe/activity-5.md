@@ -3,7 +3,8 @@ title: "5. (Optional) AI Move"
 description: "Use Minimax algorithm to pick move for the computer"
 date: 2020-07-23T00:00:00Z
 weight: 6
-difficulty: "Intermediate"
+prereq: "Set up the Board!, Read and Process Input, Update the Game Board, Check the winner"
+difficulty: "Advanced"
 hidden: false
 ---
 {{% notice tip %}}

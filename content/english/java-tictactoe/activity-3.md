@@ -2,11 +2,14 @@
 title: "3. Update the Game Board"
 description: "learn to generate a move for computer and update the board"
 date: 2020-07-23T00:00:00Z
+prereq: "Set up the Board!, Read and Process Input"
+difficulty: "Intermediate"
 weight: 4
 ---
 
 {{% notice tip %}}
 #### Prerequisites (from Java: Basics) 
+- activity-1: <a href="../../java-basics/activity-1" target="_blank">Print Statements and Comments</a>
 - activity-2: <a href="../../java-basics/activity-2" target="_blank">Variables and Types</a>
 - activity-4: <a href="../../java-basics/activity-4" target="_blank">Control Structures</a>
 - activity-5: <a href="../../java-basics/activity-5" target="_blank">Methods</a>
@@ -14,6 +17,8 @@ weight: 4
 - activity-7: <a href="../../java-basics/activity-7" target="_blank">Data Structures (Array & ArrayList)</a>
 
 These are the concepts from the `Java: Basics` workshop that we will use in this activity. Please refer to these activity to review or learn the concepts before continuing!
+
+#### Prerequisites 
 {{% /notice %}}
 
 In the last exercise, we have a program that prints out the board and prompt `Enter your move (1-9): ` to user with each valid move. However, the board stayed empty(shown below). In this exercise, we will learn how to update board and generate a random move for the computer.

@@ -1,5 +1,5 @@
 ---
-title: "Java: TicTacTow - Answer Key"
+title: "Java: TicTacToe - Answer Key"
 date: 2020-07-23T00:00:00Z
 weight: 15
 draft: false
