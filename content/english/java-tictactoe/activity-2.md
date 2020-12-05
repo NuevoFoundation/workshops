@@ -20,12 +20,14 @@ draft: false
 These are the concepts from the `Java: Basics` workshop that we will use in this activity. Please refer to these activity to review or learn the concepts before continuing!
 {{% /notice %}}
 
-1. In Java, an efficient way to obtain user input is to use the `Scanner` class in `java.util package`. To use this class and all its methods, we need to `import` the class with the following line of code on the top of the file.
+## 1. Importing Packages
+In Java, an efficient way to obtain user input is to use the `Scanner` class in `java.util package`. To use this class and all its methods, we need to `import` the class with the following line of code on the top of the file.
 ```java
 import java.util.Scanner;
 ``` 
 
-2. In `main()`, we need to first create a `Scanner` object called `sc` by calling its constructor (shown below).
+## 2. Using the Scanner Class
+In `main()`, we need to first create a `Scanner` object called `sc` by calling its constructor (shown below).
 
    We want to `Scanner` to read our input from the standard input stream. To do that we need to pass in `System.in`(the standard input stream object).
 ```java
@@ -33,14 +35,16 @@ import java.util.Scanner;
 public Scanner(InputStream source);
 ```
 
-3. In the previous activity, we prompt the user to enter numbers from 1 - 9. Hence, we will be expecting an `int` from the input stream. 
+## 3. Obtaining User Input
+In the previous activity, we prompt the user to enter numbers from 1 - 9. Hence, we will be expecting an `int` from the input stream. 
    
    To obtain the `int` the `Scanner` object stores, we call the method `nextInt()` on `sc`, the `Scanner` object.
 ```java
 public int nextInt();
 ```
 
-4. (optional) To test your program, add a print statement to prints out the value you store from `nextInt()`. 
+## 4. (optional) Test Your Program
+To test your program, add a print statement to prints out the value you store from `nextInt()`. 
 
    Try to run your program, and type in some numbers and click `enter`. You should see your number being correctly printed out. For example: 
 
@@ -76,7 +80,8 @@ Exception in thread "main" java.util.InputMismatchException      <------ tells y
 Also, note that number inputs that are not in the range 1 - 9 wouldn't crash the program, but these are also inputs we don't want.
 {{% /notice %}}
 
-5. In Java, we can deal with potential errors by putting the code that might cause an error in an `try-catch` block. 
+## 5. Error Handling
+In Java, we can deal with potential errors by putting the code that might cause an error in an `try-catch` block. 
 
    In the `try` block, we put the block of code that might cause an error.
 
@@ -92,7 +97,8 @@ Also, note that number inputs that are not in the range 1 - 9 wouldn't crash the
    ```
    Run your program and type in non-number inputs. Your program should not fail now!
 
-6. In the `try` block, we get number inputs from users. However, not all the inputs are valid as we should only accept available spots on the board.
+## 6. The Try Block
+In the `try` block, we get number inputs from users. However, not all the inputs are valid as we should only accept available spots on the board.
 
 Use if statement(s) to check whether the number input is valid. (Hint: access the `board` array to check if the input is valid).
 
@@ -109,11 +115,14 @@ boolean b2 = s1.equals("HI"); // this is false
 ```
 {{% /notice %}}
 
-7. In the `catch` block, we know the player enters a non-number input. First, we need to ignore this invalid input by erasing this input from the `Scanner`. We do so by calling the method `next()` on the `Scanner` object we created. After, we should also print the statement to inform the player to re-enter a move `Invalid Position; re-enter your move (1-9):`.
+## 7. The Catch Block
+In the `catch` block, we know the player enters a non-number input. First, we need to ignore this invalid input by erasing this input from the `Scanner`. We do so by calling the method `next()` on the `Scanner` object we created. After, we should also print the statement to inform the player to re-enter a move `Invalid Position; re-enter your move (1-9):`.
 
-8. (optional) Test your program by clicking `Run`, you should see the message `Invalid Position; re-enter your move (1-9):` if you entered a non-number input, or a number that isn't between 1 through 9.
+## 8. (optional) Test Your Program 
+Test your program by clicking `Run`, you should see the message `Invalid Position; re-enter your move (1-9):` if you entered a non-number input, or a number that isn't between 1 through 9.
 
-9. Now we have a program that takes in one input and evaluates if it's valid, we want to ask the player to do it again until the game ends.
+## 9. Taking Multiple Inputs
+Now we have a program that takes in one input and evaluates if it's valid, we want to ask the player to do it again until the game ends.
 
 To continue prompting the user to enter his/her next move, we put the whole `try-catch` block in a `while loop`. This `while loop` takes in an argument of `true` meaning the program will continuing looping until instructed to stop. 
 
@@ -127,7 +136,8 @@ while(true){
 }
 ```
 
-10. When a user enters an invalid input, we do not what the program to call `printBoard(board)` and print `Enter your move (1-9): `. 
+## 10. Handling Invalid Input
+When a user enters an invalid input, we do not what the program to call `printBoard(board)` and print `Enter your move (1-9): `. 
 
 In other words, we want to program to `continue` on to the next iteration of in the `while` loop. 
 

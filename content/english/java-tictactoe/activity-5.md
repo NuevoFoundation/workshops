@@ -39,7 +39,7 @@ Minimax is an algorithm that is used in two-player games to make optimal decisio
 - Since we want the computer to win with the fewest steps possible, we design the score for the game boards as the following: 
 
     - If computer wins, calculate the score with the formula `1 * (number of available spots on the board + 1)`.
-    - If the player wins, calculate the score with the formula `-1 * (number of spots left + 1)`.
+    - If the player wins, calculate the score with the formula `-1 * (number of available spots on the board + 1)`.
     - If there is a tie, the score is `0`.
     - Note that by giving larger scores to game states where the computer can win with fewer steps, we are teaching our code to pick the optimal move for the computer. 
 
@@ -90,15 +90,17 @@ int minimax(String[] curBoard, boolean isMaximizing){
 - Have a variable called `bestScore` that stores the current best score and have an initial value of `Integer.MIN_VALUE` (minimum value of an integer).
 - This is an useful way to find the maximum value in a data structure. For example:
 ```java
-// the following code find the maximum value in the array "nums"
-int[] nums = {3, 5, -2, 10};
-int largestNum = Integer.MIN_VALUE;
-for(int i = 0; i < nums.length; i++){
-    if(nums[i] > largestNum){
-        largestNum = nums[i];
+public int getLargestNum() {
+    // the following code find the maximum value in the array "nums"
+    int[] nums = {3, 5, -2, 10};
+    int largestNum = Integer.MIN_VALUE;
+    for(int i = 0; i < nums.length; i++){
+        if(nums[i] > largestNum){
+            largestNum = nums[i];
+        }
     }
+    return largestNum;
 }
-return largestNum;
 ```
 {{% /notice %}}
 
@@ -107,15 +109,17 @@ As we discussed above, the `minimax()` method has the header `int minimax(String
 
 1. Call `getWinner()` on the board to check if there is a winner. If so, return the corresponding score 
     
-    (Score: computer wins (`1 * number of spots left + 1`), player wins (`-1 * number of spots left + 1`), tie (`0`)).
+    (Score: computer wins (`1 * number of available spots on the board + 1`), player wins (`-1 * number of available spots on the board + 1`), tie (`0`)).
 
-2-1. If it's maximizer's turn (`"O"`), for each available spot on the game board, place `"O"` at that spot and get the score for that board by calling `minimax()`.
+2. Get Minimax Score
+- If it's maximizer's turn (`"O"`), for each available spot on the game board, place `"O"` at that spot and get the score for that board by calling `minimax()`.
 
-2-2. If it's minimizer's turn (`"X"`), for each available spot on the game board, place `"X"` at that spot and get the score for that board by calling `minimax()`.
+- If it's minimizer's turn (`"X"`), for each available spot on the game board, place `"X"` at that spot and get the score for that board by calling `minimax()`.
 
-3-1. If it's maximizer's turn (`"O"`), track the largest score and the corresponding position at each iteration, and return that score.
+3. Return Largest Score
+- If it's maximizer's turn (`"O"`), track the largest score and the corresponding position at each iteration, and return that score.
 
-3-2. If it's minimizer's turn (`"X"`), track the smallest score and the corresponding position at each iteration, and return that score.
+- If it's minimizer's turn (`"X"`), track the smallest score and the corresponding position at each iteration, and return that score.
 
 ### Test your methods
 Copy and paste your two methods below `main()`. 
@@ -124,6 +128,10 @@ Click `Run` to test around your methods. We provided a given test of the example
 
 You can plug in different boards to test if you get a desirable output.
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaTicTacToeminimax?lite=true#Winner.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+{{% notice tip %}}
+Remember to test your methods!
+{{% /notice %}}
 
 ### Update the Program
 After testing the methods, update all the method calls of `getComputerMove()` to `getComputerMoveAI()` in your TicTacToe program. 
