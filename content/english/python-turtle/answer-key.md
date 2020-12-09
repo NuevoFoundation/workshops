@@ -15,12 +15,14 @@ turtle.shape("turtle")
 ```
 
 ### Introduction Activity
+
 ```python
 turtle.color("orange")
 turtle.forward(50)
 ```
 
 ### Activity 1
+
 ```python
 turtle.forward(50)
 turtle.left(90)
@@ -33,6 +35,7 @@ turtle.left(90)
 ```
 
 ### Activity 2
+
 ```python
 for i in range(4):
   turtle.forward(50)
@@ -40,6 +43,7 @@ for i in range(4):
 ```
 
 ### Activity 3
+
 ```python
 for i in range(6):
   turtle.forward(50)
@@ -47,6 +51,7 @@ for i in range(6):
 ```
 
 ### Activity 4
+
 ```python
 def draw_hexagon():
   for i in range(6):
@@ -57,6 +62,7 @@ draw_hexagon()
 ```
 
 ### Activity 5
+
 ```python
 def draw_honeycomb():
   for i in range(6):
@@ -68,6 +74,7 @@ draw_honeycomb()
 ```
 
 ### Activity 6
+
 ```python
 turtle.penup()
 turtle.goto(300, 300)
@@ -75,6 +82,7 @@ turtle.pendown()
 ```
 
 ### Activity 7
+
 ```python
 def figure_8():
   turtle.circle(50)
@@ -84,6 +92,7 @@ figure_8()
 ```
 
 ### Activity 8
+
 ```python
 def mandala_flower():
   for i in range(35):
@@ -94,6 +103,7 @@ mandala_flower()
 ```
 
 ### Activity 9
+
 ```python
 def mandala_flower():
   turtle.color(30, 100, 160)
@@ -105,6 +115,7 @@ mandala_flower()
 ```
 
 ### Activity 10
+
 ```python
 def mandala_flower():
   for i in range(35):

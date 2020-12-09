@@ -4,7 +4,8 @@ date: 2019-07-23T11:45:38-07:00
 draft: false
 weight: 8
 ---
-# Booleans
+
+## Booleans
 
 **Booleans** are `true` or `false` statements. Unlike strings or numbers, booleans store statements of truth: is what I am saying true or false? For example, if I ask, "Are you a robot?", this question produces a `true` or `false` result, which we call a **Boolean**. In this case, since you are not a robot (hopefully!), we would produce `false`.
 
@@ -23,7 +24,7 @@ Console.WriteLine(10 < 8);
 Console.WriteLine((3 * 6) == (32 - 14));
 ```
 
-![Printing booleans](../media/booleans-intro.png)
+![alt text height="600px" width="70%"](../media/booleans-intro.png "Printing booleans")
 
 {{% notice tip %}}
 

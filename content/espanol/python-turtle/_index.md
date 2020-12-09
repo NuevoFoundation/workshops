@@ -6,13 +6,13 @@ prereq: "Ninguno"
 difficulty: "Principiante"
 ---
 
-# Python con tortuga
+## Python con tortuga
 
-# Introducción
+## Introducción
 
 Bienvenidos al mundo de Nueva Colmena! Llegaste justo a tiempo para ayudar a nuestra abeja bebé Alex.
 
-![animation of baby bee Alex](https://media1.giphy.com/media/ozjz5omKqJYex8CaDV/giphy.gif)
+![Animacion de la abeja Alex](https://media1.giphy.com/media/ozjz5omKqJYex8CaDV/giphy.gif)
 
 Alex vive en un país llamado Isla Tortuga. Los habitantes de Isla Tortuga hablan un lenguaje llamado **Python**.  Vamos a usar este lenguaje para enseñar a Alex cómo vivir en una colmena. ¿Estás listo para jugar?
 

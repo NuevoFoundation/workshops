@@ -4,7 +4,8 @@ date: 2019-07-23T11:45:38-07:00
 draft: false
 weight: 10
 ---
-# Variables
+
+## Variables
 
 Variables are simply names that we can give to values such as strings, numbers and booleans. We use variables to store information that the computer can keep track of.
 
@@ -16,9 +17,9 @@ var x = 88;
 var happy = true;
 ```
 
-Press **run**. Note that variables are not printed out to the console. Instead, the variable simply stores the string or number or boolean into the computer's memory. 
+Press **run**. Note that variables are not printed out to the console. Instead, the variable simply stores the string or number or boolean into the computer's memory.
 
-![Variables introduction](../media/variables-intro.png)
+![alt text height="600px" width="70%"](../media/variables-intro.png "Variables introduction")
 
 We can use these variables in other statements. For example, the following code would print `Hello Nuevo Foundation` to the console:
 
@@ -28,7 +29,7 @@ var str2 = "Nuevo Foundation";
 Console.WriteLine(str1 + " " + str2);
 ```
 
-![Variables with strings](../media/variables-strings.png)
+![alt text height="600px" width="70%"](../media/variables-strings.png "Variables with strings")
 
 You can change the value of a variable at any time by using the `=` operator again. If you're changing a value of a variable, you don't need to use `var` again. In the following example, `Hola` will be printed instead of `Hello`.
 
@@ -38,7 +39,7 @@ str = "Hola";
 Console.WriteLine(str);
 ```
 
-![Variables replacing values](../media/variables-replace.png)
+![alt text height="600px" width="70%"](../media/variables-replace.png "Variables replacing values")
 
 Here's another example: `10` will be printed instead of `9`.
 
@@ -48,7 +49,7 @@ num = num + 1;
 Console.WriteLine(num);
 ```
 
-![Variables with numbers](../media/variables-numbers.png)
+![alt text height="600px" width="70%"](../media/variables-numbers.png "Variables with numbers")
 
 Note that you CANNOT replace a string variable with a number or a boolean, and similarly for other combinations. The following example code will NOT work:
 
@@ -57,7 +58,7 @@ var happy = "Hello";
 happy = 9;
 ```
 
-![Variables invalid](../media/variables-invalid.png)
+![alt text height="600px" width="70%"](../media/variables-invalid.png "Variables invalid")
 
 Another way to declare variables is to replace var with the type (`string`, `int`, `bool`) of variable you are creating. By declaring the type explicitly, you avoid the problem that we see above. For example:
 

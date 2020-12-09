@@ -1,8 +1,8 @@
 ---
-title: "Activity 5"
+title: "Activity 5 - The final excercise"
 date: 2019-09-03T17:53:41-07:00
 draft: false
-weight: 12
+weight: 10
 ---
 
 Using what you've learned, let's try to create a site that describes you! Try and use some or all of the following:

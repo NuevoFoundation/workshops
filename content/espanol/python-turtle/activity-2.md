@@ -19,15 +19,13 @@ Intentemos entender lo que hace este código. `for i in range(3):` esta sentenci
 
 {{% notice warning %}}
 
-### La sintaxis "tricky" de Python - Parte 1
+## La sintaxis "tricky" de Python - Parte 1
 
 La **Sintaxis** es la forma en que escribimos los programas para hacerlos entendibles. Cuando hablamos español tenemos reglas (ortografía, gramática, etc) para podernos entender. El lenguaje Python tiene algo parecido para que la computadora pueda entender el código que escribimos.
 
 Primero, notemos que al final de la línea que empieza con `for` agregamos dos punts (`:`); esto significa que la siguiente línea será parte del ciclo `for`. Si no ponemos los dos puntos, la computadora no sabrá qué hacer.
 
-Fíjate que la siguiente línea tiene unos espacios en blanco, un "tab" le llamamos. Este tab le dice a la computadora que las sentencias deben de considerarse dentro del ciclo.
-
-As well, we added a tab in front of some lines of code in the example above. The tab tells the computer these statements are considered a part of the `for` loop. 
+Fíjate que la siguiente línea tiene unos espacios en blanco, un "tab" le llamamos. Este tab le dice a la computadora que considere que forma parte del `for` loop y que no.
 
 Para dar en ejemplo de lo improtante que es poner el tab, veamos el siguiente código. Podemos ver que le quitamos el tab a la línea `turtle.left(120)` así que el código no funcionará como esperamos. El código repetirá la línea  `turtle.forward(50)` tres veces y obteneremos una larga línea recta.
 
@@ -38,7 +36,6 @@ turtle.left(120)
 ```
 
 {{% /notice %}}
-
 
 Bueno, ahora tomemos el código que teníamos y modifiquemoslo un poco para dibujar un cuadrado en vez de un triángulo. Como pista, puedes volver a revisar lo que hicimos en la Avtividad 2.
 

@@ -2,19 +2,19 @@
 title: "Media Elements"
 date: 2019-09-03T17:53:41-07:00
 draft: false
-weight: 8
+weight: 7
 ---
 
-# Media elements
-
 ## Add a GIF
+
 GIF stands for <b>Graphic Interchange Format</b>, but all you need to know is that it's just another type of image file. The only difference is that the file has many images. When displayed in the browser, the images are played in sequence, similar to the frames of a movie. Think of it like one of those flip books that seem like the image is animated when you flip it.
 
 ![alt text](../media/flipbook.gif "gif of a flipbook")
 
 ---
 
-# Add a video
+## Add a video
+
 Aside from text and images, one of the most common things we like to add to websites are videos. Video files are very large, so it’s best to use a service to upload and display the video such as YouTube. Once uploaded to YouTube, how do we get it to play on our website? We use a special tag called an <b>iframe</b>
 
 Iframes display HTML from other websites inside our own. It’s like a window, where you can see what is happening outside on the internet from inside the current website. This process is called embedding.

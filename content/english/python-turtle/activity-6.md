@@ -15,7 +15,7 @@ turtle.pendown()
 
 `turtle.penup()` tells the turtle to pick up its pen so it doesn’t draw while it is moving. Then, with `turtle.goto(x,y)`, we are telling the turtle the position where the turtle moves to. After that we tell the turtle to put its pen back down using `turtle.pendown()` so it can start drawing again. 
 
-![Graph](../media/graph.png)
+![alt text height="600px" width="50%"](../media/graph.png "Graph")
 
 {{% notice info %}}
 

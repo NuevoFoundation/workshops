@@ -4,7 +4,7 @@ draft: false
 weight: 3
 ---
 
-# Comentarios
+## Comentarios
 
 Desarrollador@s frecuentemente tienen que colaborar con otr@s desarrollador@s. Escribiendo comentarios es una manera fácil que desarrollador@s usan para comunicarse. La computadora ignora los comentarios, entonces comentarios también son una manera fácil para decirle a la computadora que no debe ejecutar alguna línea de código. Hay dos maneras de crear comentarios:
 

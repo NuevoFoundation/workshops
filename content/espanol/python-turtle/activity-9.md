@@ -5,7 +5,7 @@ weight: 12
 draft: false
 ---
 
-![mandala flower with blue pedals](https://paper-attachments.dropbox.com/s_F078714AB8FA59FD292476DB5E3304D54CD817148B6A8087A90D63D6C59A7C0D_1563989987816_mandala+one+color.PNG)
+![alt text width="70%"](../media/mandala-blue.png "mandala flower with blue pedals")
 
 Ahora que ya tenemos la forma de una flor de mandala, ¡es momento de colorearla! Aun vamos a utilizar el método `turtle.color()`; sin embargo esta vez vamos a utilizar un valor RGB en lugar un valor de color en cadena de texto, así que podemos producir una gran variedad de colores.
 

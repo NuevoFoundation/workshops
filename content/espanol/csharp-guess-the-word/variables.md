@@ -3,7 +3,8 @@ title: "Variables"
 draft: false
 weight: 10
 ---
-# Variables
+
+## Variables
 
 Variables simplemente son los nombres que le damos a ciertas cosas, como strings, números, y booleans. Usamos los variables para archivar información que la computadora puede encontrar.
 
@@ -17,7 +18,7 @@ var happy = true;
 
 Presiona **run**. Nota que los variables no se impriman a la consola. Si no, el variable simplemente representa la información archivada a la memoria de la computadora usando el variable, como un string, número, o boolean.
 
-![Variables introduction](../media/variables-intro.png)
+![alt text height="600px" width="70%"](../media/variables-intro.png "Variables introduction")
 
 Podemos usar estos variables en otras expresiones. Por ejemplo, el siguiente código imprimiría  `Hello Nuevo Foundation` a la consola:
 
@@ -27,7 +28,7 @@ var str2 = "Nuevo Foundation";
 Console.WriteLine(str1 + " " + str2);
 ```
 
-![Variables with strings](../media/variables-strings.png)
+![alt text height="600px" width="70%"](../media/variables-strings.png "Variables with strings")
 
 Puedes cambiar el contenido de un variable en cualquier momento usando el = operador otra vez. Si estás cambiando el contenido de un variable, no necesitas usar var otra vez. En el siguiente ejemplo, vamos a imprimir `Hola` en vez de `Hello`.
 
@@ -37,7 +38,7 @@ str = "Hola";
 Console.WriteLine(str);
 ```
 
-![Variables replacing values](../media/variables-replace.png)
+![alt text height="600px" width="70%"](../media/variables-replace.png "Variables replacing values")
 
 Aquí tenemos otro ejemplo: `10` se va a imprimir en vez de `9`.
 
@@ -47,7 +48,7 @@ num = num + 1;
 Console.WriteLine(num);
 ```
 
-![Variables with numbers](../media/variables-numbers.png)
+![alt text height="600px" width="70%"](../media/variables-numbers.png "Variables with numbers")
 
 Nota que NO PUEDES reemplazar un variable de string con un número o un boolean, o cualquier otra combinación. El siguiente código no funcionará:
 
@@ -56,7 +57,7 @@ var happy = "Hello";
 happy = 9;
 ```
 
-![Variables invalid](../media/variables-invalid.png)
+![alt text height="600px" width="70%"](../media/variables-invalid.png "Variables invalid")
 
 Otra manera de declarar variables es reemplazando `var` con el tipo  (`string`, `int`, `bool`) de variable que quieres crear. Declarando el tipo de variable explícitamente, evitas el problema que vimos arriba. Por ejemplo:
 

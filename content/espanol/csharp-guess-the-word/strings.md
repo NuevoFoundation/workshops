@@ -4,7 +4,7 @@ draft: false
 weight: 5
 ---
 
-# Strings
+## Strings
 
 Cualquier cosa que esté entre comillas se llama un string. Así se representan palabras o frases en las computadoras. Por ejemplo,`"a"`, `"2"`, `"banana!"`, y `"Hello World"` son strings, pero `Hello World` y `2` no son strings, porque no están entre comillas.
 
@@ -18,7 +18,7 @@ Console.WriteLine("Manzana" + "Piña");
 Console.WriteLine("Nuevo" + " " + "Foundation");
 ```
 
-![Combining strings with +](../media/strings-intro.png)
+![alt text height="600px" width="70%"](../media/strings-intro.png "Combining strings with +")
 
 {{% notice tip %}}
 

@@ -4,7 +4,7 @@ draft: false
 weight: 9
 ---
 
-# Operadores para Booleans
+## Operadores para Booleans
 
 Puedes conectar expresiones de booleans usando `&&` (Y) y `||` (O) operator. "¿Eres un ser humano, y es Nuvi un robot? La palabra “y” conecta dos preguntas de verdadero/falso. En este caso, porque es verdad que tú eres en ser humano, y también es verdad que Nuvi es un robot, el resultado total es `true` (verdad).
 
@@ -25,7 +25,7 @@ Aquí tenemos unos ejemplos más:
 - `(8 <= 2) || ("h" + "e" == "he")` produce `true` (verdad) porque  `"h" + "e"` resulta en `"he"`, aunque `8` no es igual a o menos que `2`.
 - `(6 != 2 * 3) || (8 < 2 * 4)` produce `false` (falso) porque `6` no es igual a `2 * 3`, y `8` no es menos que`2 * 4`. Entonces, la expresión se puede simplificar a `false` (falso).
 
-![Combining booleans](../media/booleans-advanced.png)
+![alt text height="600px" width="70%"](../media/booleans-advanced.png "Combining booleans")
 
 {{% notice tip %}}
 

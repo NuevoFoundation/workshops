@@ -28,6 +28,7 @@ The first line is called the function definition **header**. The `def` keyword t
 {{% notice tip %}}
 
 ## Extra material - parameters
+
 Inside the parentheses `()` we would normally define **parameters** for the function. Parameters are inputs that we can give into the function, which the function can use to produce its output. For example, we must have two numbers to add them together and produce a result - the two numbers we used can be considered **parameters**. Today, we will not use parameters, and leave it as `()`. 
 
 {{% /notice %}}
@@ -43,7 +44,7 @@ def draw_line():    # Function definition
 
 draw_line()         # Function call
 ```
- 
+
 This is called a **function call** for the `draw_line()` function. A function call runs the code that’s defined in the function with the same name. With the recipe analogy, think of it as actually performing the recipe.
 
 {{% notice info %}}
