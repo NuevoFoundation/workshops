@@ -8,9 +8,9 @@ draft: false
 icon: "fas fa-microchip"
 ---
 
-### Una introducción a JavaScript y hardware mediante [Micro:Bits](https://microbit.org/guide/)
+#### Una introducción a JavaScript y hardware mediante [Micro:Bits](https://microbit.org/guide/)
 
-![alt text width="5%"](https://media.giphy.com/media/1nOL7s74KmSk0zDlDD/giphy.gif "Logo de Nuevo - Nuvi")
+<p style="text-align: center; "><img src="https://media.giphy.com/media/1nOL7s74KmSk0zDlDD/giphy.gif" alt="Logo de Nuevo - Nuvi" width="350"/></p>
 
 ## Lo básico
 
