@@ -1,6 +1,6 @@
 ---
 title: "Conceptos básicos de Python"
-description: "basics of python"
+description: "Conceptos básicos de Python"
 weight: 3
 prereq: "Python Basico"
 difficulty: "Principiante"

@@ -6,6 +6,7 @@ hidemetadata: true
 ---
 
 ## Proyectos
+
 {{< workshop-list style="card" depth="1" showhidden="false" description="true"  />}}
 
 ## Pautas para colaboradores (en inglés)

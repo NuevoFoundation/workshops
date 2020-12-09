@@ -10,9 +10,9 @@ icon: "fas fa-microchip"
 
 ### An introduction to JavaScript and hardware using [MicroBits](https://microbit.org/guide/)
 
-<p style="text-align: center; "><img src="https://media.giphy.com/media/1nOL7s74KmSk0zDlDD/giphy.gif" alt="Nuvi logo" width="350"/></p>
+![alt text width="5%"](https://media.giphy.com/media/1nOL7s74KmSk0zDlDD/giphy.gif "Logo de Nuevo - Nuvi")
 
-# The Basics
+## The Basics
 
 ## What is JavaScript?
 

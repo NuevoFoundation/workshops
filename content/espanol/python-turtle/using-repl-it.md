@@ -7,11 +7,9 @@ draft: false
 
 Para que Alex pueda vivir en una colmena, necesita aprender a construir un panal. Vamos a usar una biblioteca de Python que se llama `turtle` (tortuga) para dibujar el panal.
 
-
 ## Usando Repl.it
 
 Vamos a utilizar la herramienta Repl.it para jugar con nuestros códigos Python. Este es un ejemplo de una ventana interactiva como las que usaremos en todo el tutorial:
-
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonWithTurtleIntroduction?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
@@ -21,18 +19,15 @@ Ahora explicaremos parte del código que tenemos en el archivo `main.py`
 
 {{% notice tip %}}
 
+### Bibliotecas (Library) e instrucciones "import"
 
-### Bibliotecas (Library) e instrucciones "import" 
-
-Mira el inicio del código. Ahí puedes ver la siguiente línea
-
+Mira el inicio del código. Ahí puedes ver la siguiente línea:
 
 ```
 import turtle
 ```
 
 Esta instrucción nos permite toda la funcionalidad para dibujar que proporciona la biblioteca `turtle`. Una **biblioteca** es el lugar donde se agrupan en Python las instrucciones relacionadas a un tema en particular. Hay bibliotecas para hacer documentos, otras para conectarse a internet, otras para hacer operaciones matemáticas. `turtle` es una biblioteca para dibujar y que podemos controlar a través de las instrucciones que le demos.
-
 
 ### Comentarios (Comments)
 

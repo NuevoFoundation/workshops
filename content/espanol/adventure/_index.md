@@ -8,7 +8,7 @@ draft: false
 icon: "fab fa-python"
 ---
 
-# Parte 1 – ¡Bienvenido!
+## Parte 1 – ¡Bienvenido!
 
 ## El Poder de las historias
 

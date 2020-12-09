@@ -15,7 +15,7 @@ turtle.pendown()
 
 `turtle.penup()` le dice a la tortuga que levante su pluma para que no dibuje mientras se mueve. Entonces, con `turtle.goto(x,y)`, le estamos diciendo a la tortuga la posición donde debe moverse. Después de eso le decimos a la tortuga que vuelva a bajar su pluma usando `turtle.pendown()` para que pueda comenzar a dibujar nuevamente. 
 
-![alt text height="600px" width="50%"](../media/graph.png "Graph")
+![alt text height="600px" width="50%"](../media/graph.png "Grafica")
 
 {{% notice info %}}
 

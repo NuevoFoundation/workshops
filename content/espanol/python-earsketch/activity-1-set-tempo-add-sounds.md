@@ -24,17 +24,11 @@ Colocaremos nuestro nuevo código entre las funciones `setTempo()` y `finish()`.
 ## Actividad 1
 
 1. Ahora que nuestro tempo está ajustado, es hora de añadir sonidos. Para ello, debemos utilizar la función `fitMedia()`.
-
 2. Asegúrese de que el cursor del programa está entre las funciones `setTempo()` y `finish()`.
-
     ![](../img/annotated-screenshot-cursor.png)
-
 3. Navegue hasta el icono en el menú del lado izquierdo donde dice **Api Browser**. Desplácese por la lista hasta la función `fitMedia()`.
-
 4. Haga clic en pegar (copy/paste) en el icono de la esquina derecha de `fitMedia()` para insertar la función entre las funciones `setTempo` y `finish`.
-
 5. Usted puede notar que cuando pega la función, Earsketch produce algunos textos de marcador de posición que necesitaremos reemplazar más adelante. Estos textos de marcador de posición también se conocen como `parámetros` (o `parameters`).
-
     ![](../img/annotated-screenshot-fitmedia.png)
 
 Puede especificar sus propios valores para lo siguiente:
@@ -59,7 +53,7 @@ Tu código ahora debe parecerse a esto:
 {{% notice warning %}} Tenga cuidado: asegúrese de que la mayúscula de la llamada al método es correcta. La mayoría de los lenguajes de programación, incluidos Python, distinguen entre mayúsculas y minúsculas. Esto significa que agregar letras mayúsculas puede llamar a una función diferente de la esperada. Por ejemplo: `fitMedia()` no es lo mismo que `FitMedia()`.
 {{% /notice %}}
 
-6. Una vez que haya introducido sus propios parámetros, pulse ejecutar. Luego haga clic en la reproducción para escuchar su clip de audio. 
+6. Una vez que haya introducido sus propios parámetros, pulse ejecutar. Luego haga clic en la reproducción para escuchar su clip de audio.
 
     - Si ve algún texto rojo, ¡haz encontrado algunos errores! Pide ayuda o intenta reconocer que puede estar faltando en tu código puede ser un espacio o una palabra mal escrita. La función `fitMedia()` es la columna vertebral para hacer música en Earsketch. Vamos a utilizar esta función mucho, así que, si tienes alguna pregunta con respecto a su uso, pregunta.
 

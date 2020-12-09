@@ -5,7 +5,7 @@ weight: 13
 draft: false
 ---
 
-![alt text width="70%"](../media/mandala-color.png "mandala flower with random color pedals")
+![alt text width="70%"](../media/mandala-color.png "Flor de mandala con petalos de colores aleatorios")
 
 Hemos establecido con éxito el color de la flor de mandala en un valor RGB. Ahora, exploremos cambiar el color de los pétalos individuales de la flor de mandala.
 
@@ -17,4 +17,4 @@ Usa `random.randint(0, 256)` tres veces para generar tres valores aleatorios y u
 
 ¡Felicidades! ¡Ayudaste a Alex a hacer un panal y una flor! ¡Ahora puede vivir feliz en su colmena y hacer mucha miel! Su imagen final debería verse así:
 
-![final product](https://paper-attachments.dropbox.com/s_6DE744F5F42D9843D8BF3A4073281FC6AA4B5E70B001CCD7879563112D6136E1_1563991731125_final_image.png)
+![Producto final](https://paper-attachments.dropbox.com/s_6DE744F5F42D9843D8BF3A4073281FC6AA4B5E70B001CCD7879563112D6136E1_1563991731125_final_image.png)

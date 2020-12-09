@@ -5,7 +5,7 @@ weight: 7
 draft: false
 ---
 
-![alt text height="600px" width="30%"](../media/turtle-honeycomb.png "Honeycomb drawing")
+![alt text height="600px" width="30%"](../media/turtle-honeycomb.png "Dibujando una colmena")
 
 ¡Llegamos a la prueba final! Vamos a crear la colmena para que Alex viva en ella. Afortunadamente una colmena es cimplemente 6 hexágonos así que podemos usar lo que ya aprendimos sobre funciones y ciclos para crear la colmena.
 

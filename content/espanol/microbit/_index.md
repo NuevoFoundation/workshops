@@ -10,9 +10,9 @@ icon: "fas fa-microchip"
 
 ### Una introducción a JavaScript y hardware mediante [Micro:Bits](https://microbit.org/guide/)
 
-<p style="text-align: center; "><img src="https://media.giphy.com/media/1nOL7s74KmSk0zDlDD/giphy.gif" alt="Nuvi logo" width="350"/></p>
+![alt text width="5%"](https://media.giphy.com/media/1nOL7s74KmSk0zDlDD/giphy.gif "Logo de Nuevo - Nuvi")
 
-# Lo básico
+## Lo básico
 
 ## ¿Qué es JavaScript?
 
@@ -237,7 +237,7 @@ Una vez que se descarga, deberás mirar el archivo ‘HEX’ dentro de tu carpet
 
 Para jugar el juego tendrás que copiar este archivo a tu Micro:Bit. Para ello puedes simplemente copiar y pegar el archivo en el directorio de Micro:Bit pero encontré otro método mucho más fácil. Simplemente haz clic con el botón derecho en el archivo y luego haz clic en **Enviar A** (o **Sent To**) y luego selecciona **MICROBIT**
 
-![alt-text](resources/images/windows-sendto.gif)
+![Pantalla de Windows para mandar a algun lado](resources/images/windows-sendto.gif)
 
 Si lo hiciste correctamente, notarás que los LEDs de tu Micro:Bit se detendrán durante un rato y el LED amarillo de la parte de atrás parpadea mientras el Micro:Bit descarga el código. Si no ves esto, no te preocupes y pídenos ayuda.
 
@@ -245,7 +245,7 @@ Si lo hiciste correctamente, notarás que los LEDs de tu Micro:Bit se detendrán
 
 ### Protege tu nave espacial
 
-![alt-text](resources/images/space-invaders.gif)
+![Animacion de invacion del espacio](resources/images/space-invaders.gif)
 
 ¿Listo para jugar? Esta es la lista de controles:
 

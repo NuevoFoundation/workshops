@@ -28,7 +28,7 @@ Hablemos ahora de la sintaxis (o la forma de escribir) para CSS. Primero, tienes
 
 Hay muchos elementos de estilo para verlos todos en este tutorial. Si, en el boceto que has hecho anteriormente, no estás seguro de cómo usar CSS para conseguir el estilo deseado, intenta hacer una búsqueda online.
 
-![alt text](../media/web-search.gif "gif of web searching css")
+![alt text](../media/web-search.gif "Gif de como buscar sobre CSS")
 
 {{% notice tip %}}
 
@@ -44,7 +44,7 @@ Hay varios tipos de tipografía o letra. Esta parte del taller te muestra como i
 `@import url('https://fonts.googleapis.com/css?family=Heebo|Open+Sans');`
 - Luego la asignamos a la etiqueta body. Como esta etiqueta va a contener todos los demás elementos HTML, nuestra selección de tipografía se va a usar en todos los elementos.
 
-![alt text](../media/bodytag.PNG "body tag example")
+![alt text](../media/bodytag.PNG "Ejemplo de body tag")
 
 - Fíjate que el formato dentro de las llaves es: `name: value;`
   - <span style="color:purple">@import url('https://fonts.googleapis.com/css?family=Roboto+Mono'); </span><br> `font-family: 'Roboto Mono', monospace;`

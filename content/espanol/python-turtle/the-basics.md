@@ -68,7 +68,7 @@ turtle.forward(50)
 
 Copia las líneas de arriba, pégalas en el archivo `main.py` que teníamos al inicio, y dale click en Run.
 
-![alt text height="600px" width="70%"](../media/basics-replit.png "Repl.it window")
+![alt text height="600px" width="70%"](../media/basics-replit.png "Ventana de Repl.it")
 
 Como ejercicio, trata de entender que hace la siguiente línea de código. Después pégala al final del archivo `main.py` y vuélvelo a correr.
 

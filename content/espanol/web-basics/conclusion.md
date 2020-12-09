@@ -5,6 +5,6 @@ draft: false
 weight: 12
 ---
 
-![alt text](../media/benji-and-me-sm.png "drawing of Benji and me")
+![alt text](../media/benji-and-me-sm.png "Dibuje de Benji y Dee")
 
 Puede que estés preocupado por Benji, pero estamos encantados de decirte que ha encontrado su hogar a través de una página web como la que estás creando. Benji es ahora un buen chico a tiempo completo y trabaja mucho en sus trucos para conseguir golosinas.

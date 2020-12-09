@@ -9,7 +9,7 @@ weight: 7
 
 Las siglas GIF significan **Graphic Interchange Format**, pero todo lo que debes saber es que es un tipo de imagen. La única diferencia es que este archivo contiene varias imágenes. Cuando se muestra en el navegador, las imágenes se reproducen de forma secuencial, similar a los frames (o marcos) de una película. Piensa en ellos como uno de esos cuadernos donde se ve una imagen animada según se van pasando las páginas.
 
-![alt text](../media/flipbook.gif "gif of a flipbook")
+![alt text](../media/flipbook.gif "Gif de flipbook")
 
 ---
 

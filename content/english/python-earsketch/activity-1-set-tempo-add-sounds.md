@@ -22,17 +22,11 @@ Let's take a closer look at the pre-existing code and understand what it means. 
 ## Activity 1
 
 1. Now that our tempo is set, it is time to add sounds. To do so, we must utilize the `fitMedia()` function.
-
 2. Make sure the cursor in your program is between `setTempo()` and `finish()` functions.
-
     ![](../img/annotated-screenshot-cursor.png)
-
 3. Navigate to the **Api Browser** icon on the left side menu. Scroll through the list to the `fitMedia()` function.
-
 4. Click on **Paste** icon on the right corner of `fitMedia()` to insert the function between the `setTemp` and `finish` functions.
-
 5. You may notice that when you paste the function, Earsketch produces some placeholder texts that we will need to replace later. These placeholder texts are also known as `parameters`.
-
     ![](../img/annotated-screenshot-fitmedia.png)
 
 You can specify your own values for the following:
