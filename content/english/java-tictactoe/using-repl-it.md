@@ -5,6 +5,9 @@ weight: 1
 draft: false
 ---
 
+## Tic Tac Toe Summary
+<img src="../images/code.png" height="500"/> 
+
 ## Using Repl.it
 
 Today you will be using Repl.it to code in Java. Here is the starter code you will use today:

@@ -51,7 +51,7 @@ Enter your move (1-9):
 </br>
 
 ## 1. Displaying User Moves
-After the `try-catch` block, before the method call `printBoard(board)`, update the `board` array with user's input at the corresponding index. 
+Inside the `hasNextInt()` if statement, before the method call `printBoard(board)`, update the `board` array with user's input at the corresponding index. 
 
 Note that the player is represented by `"X"` on the game board. 
 

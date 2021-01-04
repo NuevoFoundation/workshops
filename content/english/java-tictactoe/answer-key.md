@@ -46,7 +46,7 @@ public class TicTacToe_Nuevo {
 
         while(true){
             int move;
-			try {
+			if(sc.hasNextInt()) {
                 // get integer input
 				move = sc.nextInt();
                 // check if the integer is between 1, 9. check if the position is empty
@@ -54,7 +54,7 @@ public class TicTacToe_Nuevo {
 					System.out.print("Invalid Position; re-enter your move (1-9): ");
 					continue;
 				}
-			} catch (Exception e) {
+			} else {
                 // clear the Scanner
                 sc.next();
 				System.out.print("Invalid Input; re-enter your move (1-9): ");

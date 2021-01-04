@@ -66,5 +66,5 @@ You should now have a functioning TicTacToe game! I am so proud of you to finish
 
 </br>
 
-#### As an overview, this should be the structure of your code:
+##### As an overview, this should be the structure of your code:
 <img src="../images/code.png" height="500"/> 
