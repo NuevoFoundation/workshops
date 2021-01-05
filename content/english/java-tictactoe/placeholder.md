@@ -1,3 +1,9 @@
+# Read and Process Input
+In Java, an efficient way to obtain user input is to use the `Scanner` class in `java.util package`. To use this class and all its methods, we need to `import` the class with the following line of code on the top of the file.
+```java
+import java.util.Scanner;
+``` 
+
 
 
 ## 5. Error Handling

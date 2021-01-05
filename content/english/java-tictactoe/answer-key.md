@@ -93,17 +93,18 @@ public class TicTacToe_Nuevo {
 
         while(true){
             /*int move;
-			try {
-				move = sc.nextInt();
+            if (sc.hasNextInt()) {
+                move = sc.nextInt();
 				if (!(move > 0 && move <= 9) || ! board[move -1].equals(" ")) {
 					System.out.print("Invalid Position; re-enter your move (1-9): ");
 					continue;
 				}
-			} catch (Exception e) {
+            } else {
                 sc.next();
 				System.out.print("Invalid Input; re-enter your move (1-9): ");
 				continue;
-            }*/
+            }
+            */
 
             // update the board with user's move
             board[move - 1] = "X";
@@ -152,13 +153,13 @@ public class TicTacToe_Nuevo {
 
         while(true){
             /*int move;
-			try {
-				move = sc.nextInt();
+			if (sc.hasNextInt()) {
+                move = sc.nextInt();
 				if (!(move > 0 && move <= 9) || ! board[move -1].equals(" ")) {
 					System.out.print("Invalid Position; re-enter your move (1-9): ");
 					continue;
 				}
-			} catch (Exception e) {
+            } else {
                 sc.next();
 				System.out.print("Invalid Input; re-enter your move (1-9): ");
 				continue;
@@ -325,13 +326,13 @@ public class TicTacToe_Nuevo {
 
         while(true){
             int move;
-			try {
-				move = sc.nextInt();
+			if (sc.hasNextInt()) {
+                move = sc.nextInt();
 				if (!(move > 0 && move <= 9) || ! board[move -1].equals(" ")) {
 					System.out.print("Invalid Position; re-enter your move (1-9): ");
 					continue;
 				}
-			} catch (Exception e) {
+            } else {
                 sc.next();
 				System.out.print("Invalid Input; re-enter your move (1-9): ");
 				continue;
@@ -415,52 +416,52 @@ public class TicTacToe_Nuevo {
         return pos;
     }
 
-        // AI: computer move
-        public static int getComputerMoveAI(String[] curBoard){
-            int pos = 0;
-            int bestScore = Integer.MIN_VALUE;
-            for(int i = 0; i < 9; i++){
-                if(curBoard[i].equals(" ")){
-                    curBoard[i] = "O";
-                    int score = minimax(curBoard, false);
-                    curBoard[i] = " ";
-                    if(score > bestScore){
-                        bestScore = score;
-                        pos = i;
-                    }
+    // AI: computer move
+    public static int getComputerMoveAI(String[] curBoard){
+        int pos = 0;
+        int bestScore = Integer.MIN_VALUE;
+        for(int i = 0; i < 9; i++){
+            if(curBoard[i].equals(" ")){
+                curBoard[i] = "O";
+                int score = minimax(curBoard, false);
+                curBoard[i] = " ";
+                if(score > bestScore){
+                    bestScore = score;
+                    pos = i;
                 }
             }
-            return pos;
         }
-    
-        public static int minimax(String[] curBoard, boolean isMaximizing){
-            String result = getWinner(curBoard);
-    
-            int factor = getFactor(curBoard);
+        return pos;
+    }
 
-            // terminating state return score
-            if(result.contains("TIE")) return 0;
-            if(result.contains("won")) return -1 * factor;
-            if(result.contains("lost")) return 1 * factor;
-                    
-            // recurrence case
-            int bestScore = (isMaximizing)? Integer.MIN_VALUE : Integer.MAX_VALUE;
-            String symbol = (isMaximizing)? "O" : "X";
-            for(int i = 0; i <9; i++){
-                if(curBoard[i].equals(" ")){
-                    curBoard[i] = symbol;
-                    int score = minimax(curBoard, !isMaximizing);
-                    curBoard[i] = " ";
-                    if(isMaximizing) {
-                        bestScore = Math.max(score, bestScore);
-                    }else{
-                        bestScore = Math.min(score, bestScore);
-                    }
+    public static int minimax(String[] curBoard, boolean isMaximizing){
+        String result = getWinner(curBoard);
+
+        int factor = getFactor(curBoard);
+
+        // terminating state return score
+        if(result.contains("TIE")) return 0;
+        if(result.contains("won")) return -1 * factor;
+        if(result.contains("lost")) return 1 * factor;
+                
+        // recurrence case
+        int bestScore = (isMaximizing)? Integer.MIN_VALUE : Integer.MAX_VALUE;
+        String symbol = (isMaximizing)? "O" : "X";
+        for(int i = 0; i <9; i++){
+            if(curBoard[i].equals(" ")){
+                curBoard[i] = symbol;
+                int score = minimax(curBoard, !isMaximizing);
+                curBoard[i] = " ";
+                if(isMaximizing) {
+                    bestScore = Math.max(score, bestScore);
+                }else{
+                    bestScore = Math.min(score, bestScore);
                 }
             }
-    
-            return bestScore;
         }
+
+        return bestScore;
+    }
 
     // return number of spots available + 1
     public static int getFactor(String[] curBoard){
