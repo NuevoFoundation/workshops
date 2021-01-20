@@ -30,6 +30,7 @@ This theme includes a number of options to customize the look and feel of your s
 
 #### Warning
 
+```suggestion
     {{%/* alert theme="warning" */%}}**Be carefull** is a warning{{%/* /alert */%}}
 
 {{% alert theme="warning" %}}**Be carefull** is a warning{{% /alert %}}
