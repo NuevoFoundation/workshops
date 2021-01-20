@@ -77,7 +77,7 @@ Once you've followed the Code instructions above you'll have a local copy of the
 
 ### Create a topic branch
 
-Make sure your fork is updated before doing this
+Make sure your fork is updated before doing this:
 
 ```
 \workshops> git checkout master
