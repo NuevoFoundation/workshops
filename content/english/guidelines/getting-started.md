@@ -102,7 +102,7 @@ I simply want you to add two exclamation points to the word "Welcome!"
 
 ### Commit the change 
 
-Running git status should provide you with all the changes you've made and all the file names. You'll want to stage them by using git add and then commit and push them. Here's the commands to do that.
+Running `git status` should provide you with all the changes you've made and all the file names. You'll want to stage them by using git add and then commit and push them. Here's the commands to do that.
 
 ```
 \workshops> git status
