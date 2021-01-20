@@ -18,9 +18,9 @@ This theme includes a number of options to customize the look and feel of your s
 
 #### Info
 
-    {{%/* alert theme="info" */%}}**this** is an info {{%/* /alert */%}}
+    {{%/* alert theme="info" */%}}**This** is an info {{%/* /alert */%}}
 
-{{% alert theme="info"%}}**this** is an info{{% /alert %}}
+{{% alert theme="info"%}}**This** is an info{{% /alert %}}
 
 #### Success
 
