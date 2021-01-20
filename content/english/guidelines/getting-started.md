@@ -73,7 +73,7 @@ Before creating a new branch you should fetch the changes and push them to your 
 
 ### Follow instructions above
 
-Once you've followed the Code instructions above you'll have a local copy of the workshops repo
+Once you've followed the Code instructions above you'll have a local copy of the workshops repo.
 
 ### Create a topic branch
 
