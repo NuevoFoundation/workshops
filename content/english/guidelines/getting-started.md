@@ -53,12 +53,12 @@ In order to build and test your changes you'll want to use hugo. If you've follo
 
 This'll output some build information but the most important line is going to be along the lines of: `Web Server is available at //localhost:1313/ (bind address 127.0.0.1)`
 
-You can now launch your favorite web browser and open up //localhost:1313/ and should see the site up
+You can now launch your favorite web browser and open up //localhost:1313/ and should see the site up.
 
 ## Updating your fork
 
 In order to keep yourself up to date you'll want to maintain your fork updated as much as possible.
-Before creating a new branch you should fetch the changes and push them to your fork. Here's how to do it (if you need another branch just use that instead of master)
+Before creating a new branch you should fetch the changes and push them to your fork. Here's how to do it (if you need another branch just use that instead of master).
 
 ```
 \workshops> git fetch --all --prune
@@ -87,7 +87,7 @@ Make sure your fork is updated before doing this:
 
 ### Open the repo using VS Code
 
-When you launch VS Code you can Open Folder... Navigate to the workshop folder and select open
+When you launch VS Code you can Open Folder... Navigate to the workshop folder and select open.
 
 ### Navigate to file and modify it
 
@@ -126,4 +126,4 @@ If you don't, just navigate to Pull Requests -> New pull request
 
 The most important aspect here is to make sure you're chosing your branches correctly (your base and your head).
 
-You can now hit the Create pull request button, give it a description and good title and wait for a review to merge it.
+You can now hit the Create pull request button, give it a description and good title and wait for a reviewer to approve so it can be merged.
