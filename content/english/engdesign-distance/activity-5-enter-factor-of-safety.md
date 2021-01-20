@@ -3,6 +3,7 @@ title: "Activity 5 - Enter Factor of Safety"
 difficulty: "Beginner"
 weight: 5
 draft: true
+hidden: true
 ---
 [insert image]
 
