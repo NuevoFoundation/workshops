@@ -4,7 +4,8 @@ date: 2019-07-23T11:45:38-07:00
 draft: false
 weight: 5
 ---
-# Strings
+
+## Strings
 
 Anything that is surrounded in quotation marks is called a string. This is how a computer represents words or sentences. For example, `"a"`, `"2"`, `"banana!"`, and `"Hello World"` are strings, but `Hello World` and `2` are not strings, because the quotation marks are missing.
 
@@ -18,7 +19,7 @@ Console.WriteLine("Apple" + "Pineapple");
 Console.WriteLine("Nuevo" + " " + "Foundation");
 ```
 
-![Combining strings with +](../media/strings-intro.png)
+![alt text height="600px" width="70%"](../media/strings-intro.png "Combining strings with +")
 
 {{% notice tip %}}
 

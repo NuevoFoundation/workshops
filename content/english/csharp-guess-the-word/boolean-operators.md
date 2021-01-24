@@ -5,7 +5,7 @@ draft: false
 weight: 9
 ---
 
-# Booleans Operators
+## Booleans Operators
 
 You can also connect boolean expressions together using the `&&` (AND) and the `||` (OR) operator. For example, suppose I ask: "Are you a human, and is Nuvi a robot?" The word "and" connects the two true-false questions together. In this case, since it is true that you are a human, and it is also true that Nuvi is a robot, then the overall result is `true`.
 
@@ -24,7 +24,7 @@ To summarize, `&&` requires both Boolean expressions to be true, while `||` only
 - `(8 <= 2) || ("h" + "e" == "he")` produces `true` since `"h" + "e"` results in `"he"`, even though `8` is not less than or equal to `2`.
 - `(6 != 2 * 3) || (8 < 2 * 4)` produces `false` since both `6` not equal to `2 * 3`, and `8` not being less than `2 * 4`, produce `false`.
 
-![Combining booleans](../media/booleans-advanced.png)
+![alt text height="600px" width="70%"](../media/booleans-advanced.png "Combining booleans")
 
 {{% notice tip %}}
 

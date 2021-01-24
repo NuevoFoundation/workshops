@@ -5,7 +5,7 @@ draft: false
 weight: 14
 ---
 
-# If-else statements
+## If-else statements
 
 You can use `if` statements to **run** code statement only if certain conditions are met. Here is an example:
 
@@ -19,7 +19,7 @@ if (myNum == 11)
 
 Inside the `()` beside `if`, you should specify a boolean expression. If the expression is `true`, the code inside `{ }` is executed. In this case, since `myNum` is equal to `11`, `They are equal!` is printed.
 
-![If-else true case](../media/if-true.png)
+![alt text height="600px" width="70%"](../media/if-true.png "If-else true case")
 
 If the condition is `false`, nothing happens! For example, since `10` is not greater than `11`, `Print me!` will not show up to the console.
 
@@ -31,7 +31,7 @@ if (happy > 11)
 }
 ```
 
-![If-else false case](../media/if-false.png)
+![alt text height="600px" width="70%"](../media/if-false.png "If-else false case")
 
 Use `else` to tell the computer what to do if the condition is false. In this example, `now I got printed instead!` will be printed to the console.
 
@@ -47,7 +47,7 @@ else
 }
 ```
 
-![If-else](../media/if-else.png)
+![alt text height="600px" width="70%"](../media/if-else.png "If-else")
 
 You can chain many cases together using `else if`. Note that when using `else if`, only the first case will be evaluated. For example, in the following code snippet, `Statement` 1 will be printed. We will skip the check that `sad == 4` and `Statement 2` will not be printed, even though `sad == 4` is `true`.
 
@@ -67,7 +67,7 @@ else
 }
 ```
 
-![If-else three statements](../media/if-three.png)
+![alt text height="600px" width="70%"](../media/if-three.png "If-else three statements")
 
 You can also place `if` statements inside other `if` statements for some interesting behavior:
 
@@ -87,7 +87,7 @@ if (num1 < num2)
 }
 ```
 
-![If-else nested](../media/if-nested.png)
+![alt text height="600px" width="70%"](../media/if-nested.png "If-else nested")
 
 {{% notice tip %}}
 

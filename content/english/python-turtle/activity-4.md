@@ -3,7 +3,6 @@ title: "Activity 4 - Simplifying code with functions"
 date: 2019-07-25T13:24:17-07:00
 weight: 6
 draft: false
-translationKey: "python-turtle-activity-4"
 ---
 
 We drew one hexagon. But this is just one of many hexagons Alex needs to build his honeycomb. Once again, it seems that we would have to repeat the code many times to draw multiple hexagons. Fortunately, we don't have to! Functions to the rescue!
@@ -29,6 +28,7 @@ The first line is called the function definition **header**. The `def` keyword t
 {{% notice tip %}}
 
 ## Extra material - parameters
+
 Inside the parentheses `()` we would normally define **parameters** for the function. Parameters are inputs that we can give into the function, which the function can use to produce its output. For example, we must have two numbers to add them together and produce a result - the two numbers we used can be considered **parameters**. Today, we will not use parameters, and leave it as `()`. 
 
 {{% /notice %}}
@@ -44,7 +44,7 @@ def draw_line():    # Function definition
 
 draw_line()         # Function call
 ```
- 
+
 This is called a **function call** for the `draw_line()` function. A function call runs the code that’s defined in the function with the same name. With the recipe analogy, think of it as actually performing the recipe.
 
 {{% notice info %}}

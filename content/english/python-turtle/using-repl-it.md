@@ -3,8 +3,9 @@ title: "Using Repl.It"
 date: 2019-07-25T13:24:17-07:00
 weight: 1
 draft: false
-translationKey: "python-turtle-repl-it"
 ---
+
+<p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/_DbRac3d0lo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 To help Alex live in a beehive, he needs to learn how to create a honeycomb! We will use Python's `turtle` library to draw a honeycomb for Alex.
 
@@ -35,4 +36,3 @@ This statement allows us to import all of the drawing functionality provided by 
 The gray line that starts with `#` is called a **comment**. These are notes in the code that helps to explain what is happening in plain English. As they are ignored by the computer, they are often used so that when other developers work on the same code, they will have an easier time reading and understanding what is going on.
 
 {{% /notice %}}
-

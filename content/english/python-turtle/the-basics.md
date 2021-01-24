@@ -3,8 +3,9 @@ title: "The Basics - Drawing a colored line"
 date: 2019-07-25T13:24:17-07:00
 weight: 2
 draft: false
-translationKey: "python-turtle-basics"
 ---
+
+<p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/uSQGtnlot2s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 Before Alex can learn how to create a beehive, he must first learn how to draw a colored line. We will add code to the below repl.it window, and we will do this in two parts.
 
@@ -68,7 +69,7 @@ turtle.forward(50)
 
 Now that we have completed our code, press **run**. You should see the following in the result screen:
 
-![Repl.it window](../media/basics-replit.png)
+![alt text height="600px" width="70%"](../media/basics-replit.png "Repl.it window")
 
 If so, great! If not, please ask for help.
 

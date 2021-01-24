@@ -5,7 +5,7 @@ draft: false
 weight: 2
 ---
 
-# Writing to Console
+## Writing to Console
 
 `Console.WriteLine` means to tell the computer to print the sentence enclosed within the parentheses `()` out onto the console.
 

@@ -2,7 +2,7 @@
 title: "Numbers"
 date: 2020-02-10T13:24:17-07:00
 draft: false
-weight: 8
+weight: 2
 ---
 
 The computer can also do your regular math that you do in school. Use print to print out the result from the math expressions. No quotation marks are needed for numbers! Unlike strings, you can do math on numbers.
