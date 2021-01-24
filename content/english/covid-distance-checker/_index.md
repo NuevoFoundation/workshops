@@ -7,7 +7,6 @@ difficulty: "Beginner"
 download: ""
 draft: true
 icon: "fas fa-microchip"
-weight: 7
 translationKey: "microbit-distancing"
 ---
 
