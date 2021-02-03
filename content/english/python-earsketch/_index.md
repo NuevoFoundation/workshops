@@ -8,7 +8,7 @@ download: ""
 draft: false
 icon: "fab fa-python"
 ---
-<iframe width="100%" height="600px" src="https://www.youtube.com/embed/g0u1CkbpUWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/g0u1CkbpUWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ### Let's make some music!
 
@@ -21,6 +21,4 @@ Welcome to this introductory guide on how to make music using
 {{% children %}}
 </details>
 
-![Cannot load image: earsketch-play-overview](img/screenshot-overview.png?classes=border,shadow)
-
-
+![alt text height="600px" width="50%"](img/screenshot-overview.png "Earsketch-play-overview")

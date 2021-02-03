@@ -8,7 +8,7 @@ draft: false
 icon: "fas fa-code"
 ---
 
-# Welcome
+## Welcome
 
 The goal of today's activity is to learn C# skills and incorporate your new-found knowledge to create a Guess The Word game!
 

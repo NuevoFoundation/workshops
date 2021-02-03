@@ -9,9 +9,11 @@ draft: false
 icon: "fab fa-python"
 ---
 
-# Introduction
+## Introduction
 
-Welcome to the Nuevo Beehive! You are right on time to help our new baby bee Alex. 
+<p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/uw8_cEooILM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+Welcome to the Nuevo Beehive! You are right on time to help our new baby bee Alex.
 
 ![animation of baby bee Alex](https://media1.giphy.com/media/ozjz5omKqJYex8CaDV/giphy.gif)
 
@@ -22,4 +24,3 @@ Alex lives in a country named the Turtle Islands. Residents of the Turtle Island
 <summary>Sections</summary>
 {{% children %}}
 </details>
-

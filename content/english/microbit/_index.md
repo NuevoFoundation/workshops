@@ -10,11 +10,9 @@ icon: "fas fa-microchip"
 
 ### An introduction to JavaScript and hardware using [MicroBits](https://microbit.org/guide/)
 
-[logo]: https://media.giphy.com/media/1nOL7s74KmSk0zDlDD/giphy.gif
+![alt text width="5%"](https://media.giphy.com/media/1nOL7s74KmSk0zDlDD/giphy.gif "Logo de Nuevo - Nuvi")
 
-![alt text][logo]
-
-# The Basics
+## The Basics
 
 ## What is JavaScript?
 
@@ -213,7 +211,7 @@ Your Micro:Bit has the following physical features:
 - Wireless communication via bluetooth and radio
 - USB interface
 
-![alt-text](resources/images/microbit-hardware-access.jpg)
+<p style="text-align: center; "><img src="resources/images/microbit-hardware-access.jpg" alt="MicroBit explicado" width="1000"/></p>
 
 If you want to learn more about each individual component and all the features that come with your Micro:Bit, you can click [here](https://microbit.org/guide/features/).
 
@@ -225,7 +223,7 @@ Go ahead and plug in your Micro:Bit to your computer using the USB cable. You wo
 
 Once you plug in the Micro:Bit to your computer, it will show up on your computer as a drive called 'MICROBIT'. If you open file explorer you should see something similar to the picture below.
 
-![alt-text](resources/images/microbit-drive-file-explorer-example.jpg)
+<p style="text-align: center; "><img src="resources/images/microbit-drive-file-explorer-example.jpg" alt="Desktop explicado" width="250"/></p>
 
 I've coded up a game to give you an example of what you can make! Go ahead and download my game by clicking the link below.
 

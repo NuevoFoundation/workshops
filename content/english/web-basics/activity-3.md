@@ -2,7 +2,7 @@
 title: "Activity 3 - Adding a GIF of Nuvi"
 date: 2019-09-03T17:53:41-07:00
 draft: false
-weight: 9
+weight: 8
 ---
 
 1. <a href="https://giphy.com/nuevofoundation" target="_blank">Follow this link</a> to see the available GIFs

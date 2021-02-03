@@ -7,6 +7,7 @@ weight: 18
 ---
 
 ### Activity 1:
+
 ```c#
 using System;
 	
@@ -19,6 +20,7 @@ class MainClass {
 ```
 
 ### Activity 2:
+
 ```c#
 using System;
 	
@@ -32,6 +34,7 @@ class MainClass {
 ```
 
 ### Activity 3:
+
 ```c#
 class MainClass {
 	public static void Main(string[] args) {
@@ -43,6 +46,7 @@ class MainClass {
 ```
 
 ### Activity 4:
+
 ```c#
 class MainClass {
 	public static void Main(string[] args) {
@@ -57,6 +61,7 @@ class MainClass {
 ```
 
 ### Activity 5:
+
 ```c#
 using System;
 
@@ -75,6 +80,7 @@ class MainClass {
 ```
 
 ### Activity 6:
+
 ```c#
 using System;
 
@@ -88,4 +94,3 @@ class MainClass {
     }
 }
 ```
-

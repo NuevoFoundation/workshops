@@ -5,7 +5,8 @@ draft: false
 weight: 5
 ---
 
-# HTML Attributes 
+# HTML Attributes
+
 Each tag can also have additional information like style attributes that can change the properties of an element. There are attributes that we can use to change the visual appearance of an element, such as the size, the color, and the text font.
 
 All attributes are formatted as: `attribute-name="value in quotes"`. For example, we can change the color of a paragraph to red with this code: `<p style="color:red">This text is red</p>`.

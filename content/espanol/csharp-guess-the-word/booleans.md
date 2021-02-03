@@ -3,7 +3,8 @@ title: "Booleans"
 draft: false
 weight: 8
 ---
-# Booleans
+
+## Booleans
 
 Un **boolean** es una frase que puede ser `true` (verdadero) o `false` (falso). Diferente a los strings o los números, los Booleans archivan una declaración de la verdad: ¿es lo que yo digo verdadero o falso? Por ejemplo, so yo pregunto, ¿“Eres un robot” ?, esta pregunta produce un resultado `true` o `false`, lo que llamamos un **boolean**. En este caso, porque tú no eres un robot (¡esperadamente!), esta pregunta produce el resultado `false`. 
 
@@ -23,7 +24,7 @@ Console.WriteLine(10 < 8);
 Console.WriteLine((3 * 6) == (32 - 14));
 ```
 
-![Printing booleans](../media/booleans-intro.png)
+![alt text height="600px" width="70%"](../media/booleans-intro.png "Printing booleans")
 
 {{% notice tip %}}
 

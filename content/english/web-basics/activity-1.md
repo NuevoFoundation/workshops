@@ -1,5 +1,5 @@
 ---
-title: "Activity 1"
+title: "Activity 1 - Familiarize with online editor"
 date: 2019-09-03T17:53:41-07:00
 draft: false
 weight: 4
@@ -10,7 +10,6 @@ weight: 4
 3. If you have time: write a list of Benji's favorite treats: turkey, peanut butter, and string cheese 
 
 <a class="my-2 mx-4 btn btn-info" href="https://codepen.io/Sunny-Dee/pen/exxyYL" target="_blank">Try it yourself!</a>
-                                
 
 Use this reference chart to try some html tags on your own.
 

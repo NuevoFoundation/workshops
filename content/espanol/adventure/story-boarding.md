@@ -8,7 +8,7 @@ prereq: "Conceptos básicos de Python - Escritura en consola (imprimir), Lectura
 
 Para empezar, saque un pedazo de un papel y comience a "diseñar el guion". ¿Qué significa eso? Con el fin de desarrollar una gran historia que permite al lector elegir entre opciones, uno puede esbozar el flujo de su historia. ¡Este es un gran paso de planificación, que le ayudará tremendamente una vez que comience a codificar! Empezaría con las 3 o 4 decisiones principales que tu protagonista va a tomar en la historia. A partir de ahí dibuja flechas para saber cómo las diferentes elecciones que hace tu protagonista afectan la historia.
 
-# Ejemplo de Nuvi
+## Ejemplo de Nuvi
 
 ¡Aquí un ejemplo de cómo diseñar el guion! 
 Las 4 opciones principales que tomará el protagonista son:
