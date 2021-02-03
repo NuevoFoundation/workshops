@@ -18,6 +18,12 @@ img.save('pixel-activity1.png')
 ## Activity2
 This is the sample answer to draw a line from the middle of the color board from Activity1 to its bottom right corner.
 ```python
+#Create your color board
+from PIL import Image
+
+# setup image first
+img = Image.new('RGB', (60, 30), 'red')
+
 initial_position_x = 50
 initial_position_y = 50
 width = 100

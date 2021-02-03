@@ -22,3 +22,5 @@ Welcome to this introductory guide on how to make music using
 </details>
 
 ![Cannot load image: earsketch-play-overview](img/screenshot-overview.png?classes=border,shadow)
+
+
