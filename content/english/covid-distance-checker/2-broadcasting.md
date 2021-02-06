@@ -15,4 +15,4 @@ Today we'll be using the Bluetooth radio on your micro:bit to figure out how far
 ## Broadcasting a Signal
 Now that our micro:bits are set up to listen, we need to send out a signal for them to pick up. Click on the Radio section again. This time drag the "radio send number 0" block into the blue "forever" block in your workspace. This will make your micro:bit continuously send that number to any device listening in the same group.
 
-![MakeCode wokspace showing the "radio send number" block in the "forever" block](img/radioSendNumber.png)
+![MakeCode workspace showing the "radio send number" block in the "forever" block](img/radioSendNumber.png)
