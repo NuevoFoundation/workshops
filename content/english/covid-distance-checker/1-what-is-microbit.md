@@ -1,9 +1,8 @@
 ---
-title: "What Is a micro:bit?"
+title: "What is a micro:bit?"
 date: 2019-07-25T13:24:17-07:00
 weight: 1
 draft: false
-translationKey: "microbit-what-is"
 ---
 
 ## What is a micro:bit?

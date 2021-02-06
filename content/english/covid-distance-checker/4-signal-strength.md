@@ -3,10 +3,8 @@ title: "Interpreting Signal Strength"
 date: 2019-07-25T13:24:17-07:00
 weight: 4
 draft: false
-translationKey: "microbit-signal-strength"
 ---
 
-## Interpreting Signal Strength
 Now that our micro:bit knows how strong the signal it got is, we need to use that to figure out how close we are. Click on the Logic section and grab the "if true then / else" block. Drag that inside the radio received block, just under where we set the strength variable. Go back into the Logic section and drag the 0 = 0 comparison on top of the true on the "if true then" line. You code should now look like this:
 
 ![Workspace with if/then/else statement added to event block](img/addedLogic.png)

@@ -3,7 +3,6 @@ title: "Broadcasting a Signal"
 date: 2019-07-25T13:24:17-07:00
 weight: 2
 draft: false
-translationKey: "microbit-broadcasting"
 ---
 
 ## Turning On the Radio

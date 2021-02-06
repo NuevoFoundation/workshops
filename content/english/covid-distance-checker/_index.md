@@ -1,13 +1,12 @@
 ---
 title: "micro:bit — Wireless Social Distancing"
-description: "A guide to keeping at least 2 m apart with Bluetooth"
+description: "A guide to keeping at least 2m apart with Bluetooth"
 date: 2020-07-297T08:45:08-07:00
 prereq: "None"
 difficulty: "Beginner"
 download: ""
 draft: true
 icon: "fas fa-microchip"
-translationKey: "microbit-distancing"
 ---
 
 # micro:bit - Wireless Social Distancing
