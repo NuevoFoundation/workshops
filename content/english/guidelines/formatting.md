@@ -2,6 +2,7 @@
 title: "Formatting"
 date: 2020-07-29T14:08:32-07:00
 draft: false
+weight: 5
 hidden: true
 ---
 
@@ -30,10 +31,9 @@ This theme includes a number of options to customize the look and feel of your s
 
 #### Warning
 
-```suggestion
-    {{%/* alert theme="warning" */%}}**Be carefull** is a warning{{%/* /alert */%}}
+    {{%/* alert theme="warning" */%}}**Be careful** is a warning{{%/* /alert */%}}
 
-{{% alert theme="warning" %}}**Be carefull** is a warning{{% /alert %}}
+{{% alert theme="warning" %}}**Be careful** is a warning{{% /alert %}}
 
 #### Danger
 
@@ -79,19 +79,23 @@ This theme includes a number of options to customize the look and feel of your s
 
 ### Expand
 
-    {{%/*expand*/%}}Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    {{%/*expand*/%}}
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.{{%/* /expand*/%}}
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    {{%/* /expand*/%}}
 
-{{% expand %}}Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+{{% expand %}}
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.{{% /expand %}}
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+{{% /expand %}}
 
 ### Notices
 

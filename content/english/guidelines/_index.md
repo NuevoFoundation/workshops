@@ -11,7 +11,6 @@ We welcome contributions. Great ways to contribute include trying things out, fi
 
 For additional information, see the following:
 
-{{% children %}}
 - [Getting Started](getting-started/)
 - [New Workshop Guidelines](new-workshops/)
 - [How the site is built](site-architecture/)

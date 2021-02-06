@@ -11,5 +11,4 @@ hidemetadata: true
 ## Contributor guidelines
 
 - [Contributor guidelines](guidelines/)
-{{% children %}}
 - [Workshop website developer guidelines](guidelines/web-developer)

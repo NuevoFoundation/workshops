@@ -2,6 +2,7 @@
 title: "Getting Started"
 date: 2020-07-29T14:08:32-07:00
 draft: false
+weight: 1
 hidden: true
 ---
 
@@ -20,7 +21,7 @@ To get started:
 
 1. Fork the repo by clicking Fork in the top right corner:
 
-![image](media/fork.PNG)
+![image](../media/fork.png)
 
 2. From git bash, run (replacing _[user-name]_ with your GitHub user name):
 
@@ -51,7 +52,7 @@ In order to build and test your changes you'll want to use hugo. If you've follo
 \workshops> hugo -D server
 ```
 
-This'll output some build information but the most important line is going to be along the lines of: `Web Server is available at //localhost:1313/ (bind address 127.0.0.1)`
+This will output some build information but the most important line is going to be along the lines of: `Web Server is available at //localhost:1313/ (bind address 127.0.0.1)`
 
 You can now launch your favorite web browser and open up //localhost:1313/ and should see the site up.
 
@@ -107,7 +108,7 @@ Running `git status` should provide you with all the changes you've made and all
 ```
 \workshops> git status
 \workshops> git add content/english/guidelines/getting-started.md
-\workshops> git commit -m "Added exlamations"
+\workshops> git commit -m "Added exclamations"
 \workshops> git push
 ```
 
@@ -118,12 +119,12 @@ Congratulations, you've now made all the necessary changes and the last step is 
 
 If you navigate to your fork on github.com you will most likely see a suggestion to create a Pull Request based on your latest push.
 
-![image](media/compare-and-pull.png)
+![image](../media/compare-and-pull.png)
 
 If you don't, just navigate to Pull Requests -> New pull request
 
-![image](media/create-new-pr.png)
+![image](../media/create-new-pr.png)
 
-The most important aspect here is to make sure you're chosing your branches correctly (your base and your head).
+The most important aspect here is to make sure you're choosing your branches correctly (your base and your head).
 
 You can now hit the Create pull request button, give it a description and good title and wait for a reviewer to approve so it can be merged.
