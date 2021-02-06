@@ -85,7 +85,7 @@ The Scanner class provides methods which check for valid or invalid inputs. For 
 ```java
 public boolean hasNextInt();
 ```
-will check if the value of the user's input is an integer and returns true or false. This method can be used to ensure that the user's input is valid. 
+will check if the value of the user's input is an integer and returns `true` or `false`. This method can be used to ensure that the user's input is valid. 
 
 ## 8. Test Your Program (optional)
 Test your program by clicking `Run`, you should see the message `Invalid Position; re-enter your move (1-9):` if you entered a non-number input, or a number that isn't between 1 through 9.
