@@ -17,8 +17,6 @@ weight: 4
 - activity-7: <a href="../../java-basics/activity-7" target="_blank">Data Structures (Array & ArrayList)</a>
 
 These are the concepts from the `Java: Basics` workshop that we will use in this activity. Please refer to these activity to review or learn the concepts before continuing!
-
-#### Prerequisites 
 {{% /notice %}}
 
 In the last exercise, we have a program that prints out the board and prompt `Enter your move (1-9): ` to user with each valid move. However, the board stayed empty(shown below). In this exercise, we will learn how to update board and generate a random move for the computer.

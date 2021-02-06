@@ -5,7 +5,7 @@ date: 2020-07-297T08:45:08-07:00
 prereq: "None"
 difficulty: "Beginner"
 download: ""
-draft: true
+draft: false
 icon: "fas fa-microchip"
 ---
 
