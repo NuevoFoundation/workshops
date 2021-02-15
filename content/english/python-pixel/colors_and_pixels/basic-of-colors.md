@@ -1,7 +1,7 @@
 ---
 title: "Basics of colors"
 draft: false
-weight: 1
+weight: 3
 ---
 
 <iframe width="100%" height="600px" src="https://www.youtube.com/embed/-ior2GcSYa4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

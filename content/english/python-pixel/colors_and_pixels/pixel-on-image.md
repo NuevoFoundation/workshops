@@ -1,7 +1,7 @@
 ---
 title: "Pixels on an Image"
 draft: false
-weight: 2
+weight: 4
 ---
 
 <iframe width="100%" height="600px" src="https://www.youtube.com/embed/WvDHBwyM6_U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -21,12 +21,7 @@ Pixels are a small area of color on a display screen. Images are formed by pixel
     </table>
 </div>
 
-
-For information about how to open and save images in Python, see more on these pages: 
-
-<a href="../../../image-manipulation/project-overview/" target="blank">Import PIL</a><br/>
-<a href="../../../image-manipulation/open-image/" target="blank">Open an Image</a>
-
+Let's jump into making images.  Don't forget, we learned how to open and save images in Python using the Pillow module in the earlier sections!
 
 ## Making images using pixels
 

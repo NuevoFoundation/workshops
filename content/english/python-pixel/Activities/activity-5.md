@@ -78,3 +78,34 @@ Wow! This is our cat after the filter. We only filtered one-forth of the cat on 
 It's now your turn to filter whichever part you want with different kinds of filters on the cute cat! Exciting！
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Python-Pixel-Activity5?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+{{% showanswer Advanced %}}
+
+Wouldn't it be nice if we could take the steps above and make it simpler?  Let's do this by using the <b>Pillow ImageFilter</b> function <b>filter()</b> & <b>convert()</b>.
+
+To use the <b>filter()</b> function, you can specify the ImageFilter type within the parentheses. For example, <b>image.filter(ImageFilter.BLUR) </b> will make the image blurry. Or, if you use <b>ImageFilter.CONTOUR</b> instead, it will add a ‘sketch’ type effect to your image.
+
+For example, for the 'img' above:
+
+<pre>
+    blurredImage = img.filter(ImageFilter.BLUR) 
+    blurredImage.save("myCatBlurred.jpg")
+</pre>
+
+You should see the saved cat image is blurred. Try this with a few other image filters until you find one you like!
+
+Additionally, we can use the convert() function to set our image to black & white. To use this function, you can specify the mode you want to convert your image to. The most common ones are "L", which converts an image to greyscale, and “RGB” which converts an image to its true color.
+
+Let’s try it out like this:
+
+<pre>
+    greyscaleImage = img.convert("L")
+    greyscaleImage.save("myCatBW.jpg")
+</pre>
+
+If you combine the blurred function and the black and white convert function, you'll get something like this – purrfect!
+
+<img src="../../media/bw_upside_down.png" alt="blurred black and white cat upside down" width=50%>
+</br>
+{{% /showanswer %}}
+

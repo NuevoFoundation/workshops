@@ -63,3 +63,37 @@ Then rotate it 180 degree clockwise and compare it with the previous output. Are
 It's now your turn to rotate your cat 90 degrees counter-clockwise! 
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Python-Pixel-Activity9?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+{{% showanswer Advanced %}}
+
+The Pillow module has functions here that can help simplify the steps above! To do that, let’s look at the <b>Pillow Image</b> function <b>rotate()</b>.
+
+The rotate image works using angles. For example, <b>rotate(45)</b> will tilt your picture sideways by 45 degrees. Using <b>rotate(90)</b> will turn your picture sideways.
+
+Let’s give that a try! Let’s rotate the image before we save it:
+
+<pre>
+    image = Image.<font color="blue">open</font>("cat.jpg")
+    image.rotate(90)
+    image.save("myCat.jpg")
+</pre>
+
+Hmm, the picture didn’t seem to rotate. Why? Well, the image we opened is saved in the image variable. When we rotate the picture, we don’t save the rotated picture in any variable, so our code doesn’t save the rotated image.
+
+Let’s do this instead:
+
+<pre>
+    image = Image.<font color="blue">open</font>("cat.jpg")
+    image = image.rotate(90)
+    image.save("myCat.jpg")
+</pre>
+
+Challenge: can you turn this image all the way around? Can you turn the image 3/4ths of the
+way around without using an angle > 180? (Hint: try using negative angle numbers!)
+
+Rotated all the way around, my image looks like this:
+
+<img src="../../media/upside_down.png" alt="cat upside down" width=50%>
+</br>
+{{% /showanswer %}}
+
