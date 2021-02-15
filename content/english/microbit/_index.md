@@ -4,7 +4,7 @@ description: "Using MicroBits to learn about JavaScript and hardware"
 date: 2019-07-23T14:54:53-07:00
 difficulty: "Beginner to Intermediate"
 download: "https://github.com/NuevoFoundation/workshops/tree/master/content/microbit"
-draft: false
+draft: true
 icon: "fas fa-microchip"
 ---
 

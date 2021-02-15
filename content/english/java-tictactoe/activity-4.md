@@ -2,6 +2,8 @@
 title: "4. Check the winner"
 description: "write method to check the winner with an input board"
 date: 2020-07-23T00:00:00Z
+prereq: "Set up the Board!, Read and Process Input, Update the Game Board"
+difficulty: "Intermediate"
 weight: 5
 ---
 
@@ -18,7 +20,8 @@ weight: 5
 These are the concepts from the `Java: Basics` workshop that we will use in this activity. Please refer to these activity to review or learn the concepts before continuing!
 {{% /notice %}}
 
-1. Write a method `getWinner(String[] curBoard)` that returns the winner in a `String` with an `array` input of the current game board. 
+## 1. Displaying a Winner
+Write a method `getWinner(String[] curBoard)` that returns the winner in a `String` with an `array` input of the current game board. 
 
 - If the player wins, return `"Congratulations! \nYou won the Game :)"`.
 - If the computer wins, return `"Game Over! \nYou lost the Game :("`.
@@ -37,7 +40,8 @@ Give it a try in the following repl.it first; it will tell you if your method is
 - If all the spots in the array is filled (a `for loop` can be helpful) and there is no winner, the game ends in a tie.
 {{% /notice %}}
 
-2. In `main()`, call the method `gerWinner()` after the line of code where you place the player's move, `"X"`. 
+## 2. Calling the Winner Method 
+In `main()`, call the method `getWinner()` after the line of code where you place the player's move, `"X"`. 
 
 Check if the game should continue (when there is no winner or a tie). 
 
@@ -45,19 +49,22 @@ If there is a winner or a tie, print out the final board and the game result! An
 
 </br>
 
-3. In `main()`, repeats the code in step 2 (check winner and print result if needed) after you place the computer's move, `"O"`.
+## 3. Repeat Step Two
+In `main()`, repeat the code in step 2 (check winner and print result if needed) after you place the computer's move, `"O"`.
 
 </br>
 
-4. Outside of the while loop, add the code `sc.close()` to close the `Scanner` object from reading any new inputs. 
+## 4. Close the Scanner Object
+Outside of the while loop, add the code `sc.close()` to close the `Scanner` object from reading any new inputs. 
 
 It is good practice to close the `Scanner` object if we won't be getting any more inputs after we `break` from the `while` loop!
 
 </br>
 
-5. You should now have a functioning TicTacToe game! I am so proud of you to finish this workshop! Good Job 👍!
+## 5. All Done :) !
+You should now have a functioning TicTacToe game! I am so proud of you to finish this workshop! Good Job 👍!
 
 </br>
 
-#### As an overview, this should be the structure of your code:
+##### As an overview, this should be the structure of your code:
 <img src="../images/code.png" height="500"/> 

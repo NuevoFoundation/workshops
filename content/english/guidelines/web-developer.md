@@ -2,6 +2,7 @@
 title: "Web Developer Guidelines"
 date: 2019-07-22T14:08:32-07:00
 draft: false
+weight: 4
 hidden: true
 ---
 
@@ -9,7 +10,7 @@ This document is for **website developers only** for changing the [Nuevo Foundat
 
 ## Before getting started
 
-Before adding/updating the website, ensure you have sync'd with the project team and the existing work in the [Project Backlog](https://github.com/NuevoFoundation/workshops/projects/1).
+Before adding/updating the website, ensure you have synced with the project team and the existing work in the [Project Backlog](https://github.com/NuevoFoundation/workshops/projects/1).
 
 ## Setup
 
@@ -40,5 +41,5 @@ You can change the `baseURL` when building content instead of changing the confi
 ## Tips and Tricks
 
 - **Ignore Public**: By default, running `hugo` with no parameters will build the site to the public directory. Make sure you do not add the public directory to source control (it's in gitignore now).
-- **Left Nav**: You can hide content from the left nav by settting metadata on the file hidden: true (like this page's markdown!)
-- **Partials**: For resuable components to a page, create a new partial under `/themes/docdock/layouts/partials/flex/`.
+- **Left Nav**: You can hide content from the left nav by setting metadata on the file hidden: true (like this page's markdown!)
+- **Partials**: For reusable components to a page, create a new partial under `/themes/docdock/layouts/partials/flex/`.
