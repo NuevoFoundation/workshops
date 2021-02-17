@@ -25,7 +25,7 @@ img = Image.open("cat.png")
 
 # Let's add the blue filter
 for i in range(img.size[0]): # For every column
-    for j in range(img.size[1]): W# For every row
+    for j in range(img.size[1]): # For every row
         color = img.getpixel( (i,j) )
         img.putpixel((i,j),(0, 0, color[2])) # Set the color accordingly
 

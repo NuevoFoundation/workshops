@@ -66,27 +66,27 @@ It's now your turn to rotate your cat 90 degrees counter-clockwise!
 
 {{% showanswer Advanced %}}
 
-The Pillow module has functions here that can help simplify the steps above! To do that, let’s look at the <b>Pillow Image</b> function <b>rotate()</b>.
+The Pillow module has functions here that can help simplify the steps above! To do that, let’s look at the `Pillow Image` function `rotate()`.
 
-The rotate image works using angles. For example, <b>rotate(45)</b> will tilt your picture sideways by 45 degrees. Using <b>rotate(90)</b> will turn your picture sideways.
+The rotate image works using angles. For example, `rotate(45)` will tilt your picture sideways by 45 degrees. Using `rotate(90)` will turn your picture sideways.
 
 Let’s give that a try! Let’s rotate the image before we save it:
 
-<pre>
-    image = Image.<font color="blue">open</font>("cat.jpg")
+```python
+    image = Image.open("cat.jpg")
     image.rotate(90)
     image.save("myCat.jpg")
-</pre>
+```
 
 Hmm, the picture didn’t seem to rotate. Why? Well, the image we opened is saved in the image variable. When we rotate the picture, we don’t save the rotated picture in any variable, so our code doesn’t save the rotated image.
 
 Let’s do this instead:
 
-<pre>
-    image = Image.<font color="blue">open</font>("cat.jpg")
+```python
+    image = Image.open("cat.jpg")
     image = image.rotate(90)
     image.save("myCat.jpg")
-</pre>
+```
 
 Challenge: can you turn this image all the way around? Can you turn the image 3/4ths of the
 way around without using an angle > 180? (Hint: try using negative angle numbers!)

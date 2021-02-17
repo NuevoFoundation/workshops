@@ -89,7 +89,7 @@ It's now your turn to flip your cat from left to right!
 
 Flip the image from left to right is same as creating a symmetrical image with respect to the `vertical central line`.
 
-Pay attention to the variable widthNew and think carefully about how to set it.
+Pay attention to the variable `widthNew` and think carefully about how to set it.
 
 {{% /notice %}}
 

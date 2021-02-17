@@ -75,7 +75,8 @@ Each RGB color gives a tuple value `(red, green, blue)` of a pixel. `Color[0]` g
 from PIL import Image
 img=Image.new('RGB', (200,100),"yellow")
 color=img.getpixel((100,50))
-# Let's pring out the RGB value of a pixel
+
+# Let's print out the RGB value of a pixel
 print(color[0])
 print(color[1])
 print(color[2])

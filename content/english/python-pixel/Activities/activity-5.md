@@ -81,16 +81,16 @@ It's now your turn to filter whichever part you want with different kinds of fil
 
 {{% showanswer Advanced %}}
 
-Wouldn't it be nice if we could take the steps above and make it simpler?  Let's do this by using the <b>Pillow ImageFilter</b> function <b>filter()</b> & <b>convert()</b>.
+Wouldn't it be nice if we could take the steps above and make it simpler?  Let's do this by using the `Pillow ImageFilter` function `filter()` & `convert()`.
 
-To use the <b>filter()</b> function, you can specify the ImageFilter type within the parentheses. For example, <b>image.filter(ImageFilter.BLUR) </b> will make the image blurry. Or, if you use <b>ImageFilter.CONTOUR</b> instead, it will add a ‘sketch’ type effect to your image.
+To use the `filter()` function, you can specify the ImageFilter type within the parentheses. For example, `image.filter(ImageFilter.BLUR)` will make the image blurry. Or, if you use `ImageFilter.CONTOUR` instead, it will add a ‘sketch’ type effect to your image.
 
 For example, for the 'img' above:
 
-<pre>
+```python
     blurredImage = img.filter(ImageFilter.BLUR) 
     blurredImage.save("myCatBlurred.jpg")
-</pre>
+```
 
 You should see the saved cat image is blurred. Try this with a few other image filters until you find one you like!
 
@@ -98,10 +98,10 @@ Additionally, we can use the convert() function to set our image to black & whit
 
 Let’s try it out like this:
 
-<pre>
+```python
     greyscaleImage = img.convert("L")
     greyscaleImage.save("myCatBW.jpg")
-</pre>
+```
 
 If you combine the blurred function and the black and white convert function, you'll get something like this – purrfect!
 
