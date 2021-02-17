@@ -9,10 +9,9 @@ draft: false
 
 <iframe width="100%" height="600px" src="https://www.youtube.com/embed/Nz3Uz4kBoUU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Example for basic colorboard
-<hr/>
+## Example for basic colorboard
 
-Here is an example of how to make a color board with color red, width of 60, length of 30.
+Here is an example of how to make a color board with the color red, a width of 60, and a length of 30.
 
 ```python
 #This is the example for creating a colorboard.
@@ -22,23 +21,18 @@ img.save('pil_red.png')
 ```
 ![alt text](../../media/whileloopbefore.png "image showing activity one first example")
 
-<br/><br/>
+## Create your own colorboard!
 
-<hr/>
-
-### Create your own colorboard!
-
-<hr/>
-
-Choose your favorite and make a color board to play with! Here are some example colors you can choose from, you can also find your own color.
+Choose your favorite color and make a color board to play with! Here are some example colors you can choose from, but you can also pick your own color.
 
 <img src="../../media/Color-chart.png" width=30%>
 
-Also you can use color picker to choose a color.
-<input type="color">
+<!-- For accessibility, use this label HTML -->
+<label for="colorpicker">You can use color picker to choose a color:</label>
+<input type="color" id="colorpicker">
 
 {{% notice warning %}}
-**Be careful:** In order to see your image, please click on top left corner (which says 'Files'), and then click on the image file to see the result.
+ In order to see your image, please click on top left corner (which says 'Files'), and then click on the image file to see the result.
 <div style="width:100%">
     <table>
         <td>

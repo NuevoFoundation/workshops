@@ -1,24 +1,39 @@
 ---
-title: "Activity 10: Challenge: Make your own image"
-prereq: "Python Basics, Python Image Manipulation: Open an Image, Python Pixel: Colors and Pixels"
-difficulty: "Intermediate"
-date: 2020-09-08T00:00:00Z
-weight: 10
+title: "Activity 10: Making a meme!"
+date: 2020-02-10T13:24:17-07:00
 draft: false
----
+weight: 10
+prereq: "Python Basics, Python Pixels: Colors and Pixels, Python Image manipulation: Open an image"
+difficulty: "Intermediate"
+--- 
 
-<iframe width="100%" height="600px" src="https://www.youtube.com/embed/KWL3b4xY8dA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+One other thing we can do to enhance our image is to add text. We can do that by utilizing the `Pillow ImageDraw` module. Let’s import that at the top of our file along with our other import statements.
 
-In this section, we will use all kinds of methods to make your own picture. In this section, you are free to make any combinations of basic colorboard, drawing elements, filters, cropping, flipping or changing colors.
+```python
+    from PIL import Image
+    from PIL import ImageFilter
+    from PIL import ImageDraw
+```
 
-<hr/>
+To allow us to add text, we must redraw the same image we used earlier. Let’s do that using the `draw()` function, which takes in an image object. Once the image is drawn, we can then add text to it by using the `text()` method to set the text of the image. The text is drawn based on coordinates provided. The function takes in two mandatory parameters: the xy coordinates and the text needed.
 
-### Challenge - Make your own image
-<hr/>
+For example:
 
-In the following repl.it, we provide you some images you can play around with, you are also welcomed to add your own images.
-{{% notice warning %}}
-**Be careful:** In order to see your image, please click on top left corner (which says 'Files'), and then click on the image file to see the result.
+```python
+    drawnImage = ImageDraw.Draw(img)
+    drawnImage.text((200,20), "When you realize you learned python in an hour.")
+    drawnImage.save("myCatWithText.jpg")
+```
+
+
+My image now looks like this:
+<img src="../../media/meme.png" alt="blurred black and white cat upside down with text that says `when you realize you learned python in an hour.`" width=50%>
+
+### Challenge - Change the font
+You can see that the text in the image created above is in a small, default font. There are other parameters within the `text()` method you can use. Take a look at the [documentation](https://pillow.readthedocs.io/en/stable/reference/ImageDraw.html#PIL.ImageDraw.PIL.ImageDraw.ImageDraw.text) and see if you can change the font and the font size, as well as the color of the text! 
+
+{{% notice note %}}
+
+This will require downloading a .ttf (aka a font file) from online! Ask for help if you have any questions.
+
 {{% /notice %}}
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Python-Pixel-Activity10?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-<br/><br/>

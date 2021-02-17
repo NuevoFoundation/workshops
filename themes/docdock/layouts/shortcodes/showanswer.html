@@ -1,0 +1,48 @@
+<style>
+    details summary::-webkit-details-marker {
+        display: none;
+    }
+
+    details summary {
+        width: 100%;
+	    padding: .5rem 1rem .5rem 2.5rem;
+        color: #fff;
+        position: relative;
+        cursor: pointer;
+        background:#6bb1e0;
+    }
+
+    details summary:before {
+        content: "+";
+        color: #fff;
+        position: absolute;
+        line-height: 0;
+        margin-top: 1rem;
+        left: 1rem;
+        font-weight: 200;
+        transform-origin: center;
+        transition: 200ms linear;
+    }
+
+    details[open] summary:before {
+        transform: rotate(45deg);
+        font-size: 2rem;
+    }
+
+    details {
+        margin: 2rem 0;
+        position: relative;
+        /* border-radius: .2rem; */
+        /* color: #000; */
+        padding: 0px;
+        display: block;
+        background: #e6f3fb;
+	    color: rgba(47, 103, 141, 0.995) !important
+    }
+</style>
+
+
+<details>
+    <summary>{{ .Get 0 }}</summary>
+    {{.Inner}}
+</details>

@@ -9,15 +9,15 @@ draft: false
 
 <iframe width="100%" height="600px" src="https://www.youtube.com/embed/WkI5ij6pTWI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Example one: Make a <b>diagonal</b>
-<hr/>
+
+## Example one: Make a diagonal
 
 ```python
 #This creates the original colorboard.
 from PIL import Image
 img = Image.new('RGB', (60, 30), 'red')
 img.save('pil_red.png')
-#This uses nested while loop to change the picture.
+#This uses a nested while loop to change the picture.
 x = 0
 y = 0
 while x < 10:
@@ -27,15 +27,14 @@ while x < 10:
    y += 1
 img.save('pil_red.png')
 ```
+
 This is the picture before changing.
 ![alt text](../../media/whileloopbefore.png "image showing while loop first example")
+
 This is the picture after changing.
 ![alt text](../../media/whileloopafter.png "image showing while loop first example")
-<br/><br/>
 
-
-### Example two: Make a <b>rectangle</b>.
-<hr/>
+## Example two: Make a rectangle.
 
 ```python
 #This creates the original colorboard.
@@ -48,23 +47,21 @@ for x in range(10, 30):
     img.putpixel( (x,y), (0, 0, 0))
 img.save('pil_redmodified.png')
 ```
+
 This is the picture before changing.
 ![alt text](../../media/whileloopbefore.png "image showing for loop first example")
+
 This is the picture after changing.
 ![alt text](../../media/forloopafter.png "image showing for loop first example")
 
-<br/><br/>
+## Modifying your own colorboard!
 
-<hr/>
-
-### Modifying your own colorboard!
-<hr/>
-
-Here are two templates to assist your colorboard modifying.
+Here are two templates to assist your colorboard modifications.
 
 #### Template One: Adding a line
+
 ```python
-#Template for adding a line
+# Template for adding a line
 initial_position_x = 0 #make change here
 initial_position_y = 0 #make change here
 width = 0 #make change here
@@ -79,7 +76,9 @@ img.save('pixel-activity2.png')
 ```
 
 #### Template Two: Adding a rectangle
+
 ```python
+# Template for adding a rectangle
 initial_position_x = 0 #make change here
 initial_position_y = 0 #make change here
 width = 0 #make change here
@@ -90,6 +89,5 @@ for x in range(initial_position_x, width+initial_position_x):
     img.putpixel( (x,y), color)
 img.save('pixel-activity2.png')
 ```
-<br/><br/>
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Python-Pixel-Activity2?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
