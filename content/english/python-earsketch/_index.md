@@ -6,6 +6,7 @@ prereq: "Python Basics: Print, Comments, Functions"
 difficulty: "Intermediate"
 download: ""
 draft: false
+hidden: true
 icon: "fab fa-python"
 ---
 <p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/g0u1CkbpUWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>

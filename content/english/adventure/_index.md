@@ -6,6 +6,7 @@ difficulty: Intermediate
 prereq: "Python Basics - Writing to Console (Print), Reading from Console, Strings, Variables, Conditional statements"
 download: ""
 draft: false
+hidden: true
 icon: "fab fa-python"
 ---
 

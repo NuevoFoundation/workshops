@@ -2,8 +2,7 @@
 title: "Engineering Design - DISTANCE"
 description: "An introduction to engineering design"
 difficulty: "Beginner"
-draft: true
-hidden: true
+draft: false
 icon: "fas fa-car"
 ---
 

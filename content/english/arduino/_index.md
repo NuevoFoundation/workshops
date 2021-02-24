@@ -5,7 +5,7 @@ date: 2020-07-27T14:04:59.61-07:00
 difficulty: "Intermediate"
 icon: "fas fa-microchip"
 draft: false
-hidden: false
+hidden: true
 ---
 
 ## Introduction - Building with Arduino

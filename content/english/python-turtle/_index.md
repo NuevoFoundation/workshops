@@ -6,6 +6,7 @@ prereq: "Python Basics"
 difficulty: "Beginner"
 image: ""
 draft: false
+hidden: true
 icon: "fab fa-python"
 ---
 

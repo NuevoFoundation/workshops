@@ -5,6 +5,7 @@ date: 2019-07-23T11:45:38-07:00
 prereq: "None"
 difficulty: "Intermediate"
 draft: false
+hidden: true
 icon: "fas fa-code"
 ---
 

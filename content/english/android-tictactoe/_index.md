@@ -7,7 +7,6 @@ difficulty: "Intermediate"
 download: "resources/_gen/files/TicTacToe.zip"
 icon: "fab fa-android"
 draft: false
-hidden: false
 ---
 
 ## Welcome

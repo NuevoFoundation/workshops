@@ -5,7 +5,6 @@ date: 2019-07-29T13:24:17-07:00
 prereq: "Python Basics"
 difficulty: "Intermediate"
 draft: false
-hidden: true
 icon: "fab fa-python"
 ---
 
