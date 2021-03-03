@@ -3,7 +3,7 @@ title: "Activity 2 - Design your Driveshaft"
 difficulty: "Beginner"
 weight: 2
 draft: true
-hidden: true
+hidden: false
 ---
 Your task is to design a driveshaft for your racing car. Design means to create something or an idea by following a series of steps. Your team is asking you to design a driveshaft with a specific diameter size, meaning with a specific thickness. A remaining question is what makes a good shaft thickness?
 

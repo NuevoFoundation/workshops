@@ -3,7 +3,7 @@ title: "Activity 4 - Structure of the code"
 difficulty: "Beginner"
 weight: 4
 draft: true
-hidden: true
+hidden: false
 ---
 Recalling that the main structure of any code is to follow a series of steps to get a solution. Our steps include plugging in certain number values, selecting a choice from a given number of options, etc. Whatever decision you make for each step will have significant results at the end of the code. Every step will be incorporated into a calculation, which will then spit out the diameter size based on your choices. Additionally, our solution is to get a diameter for our driveshaft and then check afterwards if our diameter size is a good design choice.
 

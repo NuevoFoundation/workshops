@@ -3,7 +3,7 @@ title: "Activity 11 - Grading criteria"
 difficulty: "Beginner"
 weight: 11
 draft: true
-hidden: true
+hidden: false
 ---
 [insert table]
 

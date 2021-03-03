@@ -3,7 +3,7 @@ title: "Activity 1 - Driveshaft Background"
 difficulty: "Beginner"
 weight: 1
 draft: true
-hidden: true
+hidden: false
 ---
 
 In this activity, the student’s task is to design a driveshaft for the transmission. The Design Process will be utilized through a MATLAB **(TO FIX)** program, where the program will output the recommended size of the shaft depending on what parameters the students input.
