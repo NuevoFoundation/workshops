@@ -3,7 +3,7 @@ title: "Activity 1: FIFA Linear Regression"
 description: "Basics of Machine Learning"
 prereq: "none"
 difficulty: "Beginner"
-draft: true
+draft: false
 ---
 
 # Let's learn some machine learning to evaluate player overall ratings in FIFA video game

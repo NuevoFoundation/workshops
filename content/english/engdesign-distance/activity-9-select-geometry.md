@@ -2,7 +2,7 @@
 title: "Activity 9 - Select Geometry"
 difficulty: "Beginner"
 weight: 9
-draft: true
+draft: false
 hidden: false
 ---
 There are two types of geometry here, one contains square and one contains fillet. Why is it so important? There’s a phenomenon called stress concentrations, areas on an object where forces are far greater than the other parts of the object. Sharp edges on objects have higher stress concentrations when forces are distributed on them, compared to rounded edges. A famous example is why airplanes use rounded windows versus rectangular windows. The red lines below represent forces across the objects, notice how much more dense the red lines are around the rectangular corners compared to the rounded corners.

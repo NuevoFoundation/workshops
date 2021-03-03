@@ -2,7 +2,7 @@
 title: "Activity 8 - Input Loading parameters"
 difficulty: "Beginner"
 weight: 8
-draft: true
+draft: false
 hidden: false
 ---
 A driveshaft will experience two types of loading when a car is running, torque and moment. Torque is a measure of the force that can cause an object to rotate about its axis.

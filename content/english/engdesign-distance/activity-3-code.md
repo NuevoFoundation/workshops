@@ -2,7 +2,7 @@
 title: "Activity 3 - Code - TO FIX"
 difficulty: "Beginner"
 weight: 3
-draft: true
+draft: false
 hidden: false
 ---
 ## MATLAB Introduction

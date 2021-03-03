@@ -2,7 +2,7 @@
 title: "Activity 6 - Select Material"
 difficulty: "Beginner"
 weight: 6
-draft: true
+draft: false
 hidden: false
 ---
 [insert image]
