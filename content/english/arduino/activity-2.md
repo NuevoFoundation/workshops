@@ -1,7 +1,6 @@
 ---
 title: "Activity 2 -  Joystick with Serial Output"
 draft: false
-hidden: false
 weight: 5
 ---
 

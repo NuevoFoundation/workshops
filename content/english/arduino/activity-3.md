@@ -1,7 +1,6 @@
 ---
 title: "Activity 3 - Joystick & LEDs"
 draft: false
-hidden: false
 weight: 6
 ---
 

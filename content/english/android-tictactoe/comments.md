@@ -2,8 +2,7 @@
 title: "Comments"
 date: 2021-03-13T14:17:07.42-07:00
 draft: false
-hidden: false
-weight: 7
+weight: 6
 ---
 Developers often need to collaborate with other developers. Comments are an easy way for developers to write notes in the code and communicate with others. Comments are ignored by the computer; thus, they are also an easy way to tell the computer to not run certain lines of code. There are two ways to create comments:
 

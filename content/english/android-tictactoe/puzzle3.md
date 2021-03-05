@@ -2,8 +2,7 @@
 title: "Puzzle 3"
 date: 2021-03-13T14:17:07.42-07:00
 draft: false
-hidden: false
-weight: 12
+weight: 11
 ---
 
 ## Puzzle 3a

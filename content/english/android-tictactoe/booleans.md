@@ -2,8 +2,7 @@
 title: "Booleans"
 date: 2021-03-13T14:17:07.42-07:00
 draft: false
-hidden: false
-weight: 10
+weight: 9
 ---
 Booleans are true or false statements. Unlike strings or numbers, booleans store statements of truth: is what I am saying true or false? For example, if I ask, "Are you a robot?", this question produces a true or false result, which we call a Boolean. In this case, since you are not a robot (hopefully!), we would produce false. We can also use math operators to create boolean expressions. Here are some examples; however, notice the unusual symbols for "equal to" and "not equal to":
 
