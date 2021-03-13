@@ -10,7 +10,7 @@ weight: 3
 Press the play button button (►) at the top of Android Studio to start the game.
 <img src="../resources/_gen/images/run_app.png" height="40%" width="40%" title="Run app button" alt="Run app button"/>
 
-You'll see that the title at the top of the app says Toe-Tac-Tic (that doesn't seem right!), let's change it to Tic-Tac-Toe.
+You'll see that the title at the top of the app says Toe-Tac-Tic (that doesn't seem right!); let's change it to Tic-Tac-Toe.
 
 ## Solve the Puzzle
 Double-click the `strings.xml` file under app &rarr; res &rarr; values:
