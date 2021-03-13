@@ -11,7 +11,7 @@ Press the play button button (►) at the top of Android Studio and you’ll see
 
 # Solve the Puzzle
 Double-click the ```strings.xml``` file under res --> values:
-![Strings.xml location](../resources/_gen/images/puzzle1.png)
+![Strings.xml location width="30%"](../resources/_gen/images/puzzle1.png "Image showing how to navigate toe strings.xml in Android Studio")
 
 How can you modify this file to say Tic-Tac-Toe?
-![Strings.xml content](../resources/_gen/images/puzzle1_stringsxml.png)
+![Strings.xml content width="40%"](../resources/_gen/images/puzzle1_stringsxml.png "Image showing how to modify the app name string to say Tic Tac Toe")

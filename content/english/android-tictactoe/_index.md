@@ -14,7 +14,7 @@ hidden: true
 ![alt text](https://media.giphy.com/media/1nOL7s74KmSk0zDlDD/giphy.gif)
 
 ### Start your Android Game Adventure
-![Android Tic-Tac-Toe Game](resources/_gen/images/game_play.png)
+![Android Tic-Tac-Toe Game width="40%"](resources/_gen/images/game_play.png "Android Tic-Tac-Toe Game")
 
 ## Adventure Checklist
 

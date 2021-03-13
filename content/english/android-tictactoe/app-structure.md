@@ -8,14 +8,14 @@ weight: 3
 
 # Back to Foundations
 Now that the game has the right title, let's dive deeper into all these files in the game folder. What do they all mean? How does it contribute to the game?
-![Expanded view of application files](../resources/_gen/images/app_structure_files.png)
+![Expanded view of application files width="30%"](../resources/_gen/images/app_structure_files.png "App files shown in Android Studio")
 
 ## AndroidManifest.xml
 Every project in Android includes a manifest file. For your game, this is the ```AndroidManifest.xml``` file. The manifest file defines the metadata for your game, for instance, it can define the icon and the overall theme for your game application.
 
 ## activity_main.xml
 This file is located under the "layout" folder. As the folder name states, files in this folder define how your application looks. If you look at the code for ```activity_main.xml```, you will see keywords such as ```TableLayout``` or ```TableRow```. The combination of keywords in the ```activity_main.xml``` file create the layout for the game chooser buttons (Player vs Player or Player vs Computer), the tic-tac-toe board, and the reset button. The ```TableLayout``` keyword says the layout will be aligned to a table style, which includes columns and rows. ```TableRow``` keyword creates a new row in the layout, with each additional element corresponding to a spot in that row:
-![Game board layout in rows](../resources/_gen/images/activity_main.png)
+![Game board layout in rows width="40%"](../resources/_gen/images/activity_main.png "Tic-Tac-Toe board with 5 rows. The first row includes the two game chooser buttons, followed by 3 rows by 3 columns for the Tic-Tac-Toe grid, and finally the fifth row with the restart button")
 
 ## MainActivity.kt
 This file is located under the "java" folder. The file contains the code and logic for your application.
