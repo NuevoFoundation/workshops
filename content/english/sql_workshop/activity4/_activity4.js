@@ -39,7 +39,7 @@ function sql()
     var checkmark = document.getElementById("resume_plot");
     checkmark.setAttribute("style","visibility:visible");
     
-    document.getElementById("story").innerHTML = "Amazing work as always, space cadet! You discovered that the Planet of Fun's Dear Leader is Olivia Windsor! Now you need to figure out a way to get to them!";
+    document.getElementById("story").innerHTML = "Amazing work as always, space cadet! You discovered that the Planet of Fun's Leader is Olivia Windsor! Now you need to figure out a way to get to them!";
   }
   else
   {

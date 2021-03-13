@@ -12,7 +12,7 @@ function drop(ev) {
   
   // Check if correct ladder is chosen
   if(div_num == "div4" && data == "drag1") {
-    alert("You found the correct ladder! Go talk to the Dear Leader!");
+    alert("You found the correct ladder! Go talk to the Leader!");
   
     //Display next mission prompt
     var display1 = document.getElementById("text1");
@@ -80,7 +80,7 @@ function sql()
 if(input == ans1 || input == ans2 || input == ans3 || input == ans4 || input == ans5 || input == ans6 || input == ans7)
   {
     green(input);
-    document.getElementById("story").innerHTML = "Excellent work Space Cadet! Now you need to figure out a way to get to the Dear Leader!";
+    document.getElementById("story").innerHTML = "Excellent work Space Cadet! Now you need to figure out a way to get to the Leader!";
     
     /* Changes terminal screen */
     var screen = document.getElementById("terminal_div");
