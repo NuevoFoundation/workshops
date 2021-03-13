@@ -2,13 +2,11 @@
 title: "Printing to Console"
 date: 2020-07-27T14:17:07.42-07:00
 draft: false
-hidden: true
+hidden: false
 weight: 4
 ---
-
-# Printing to Console
 Sometimes the game or application might not work the way you expect it to or you want to write something to console for logging purposes. Outside of debugging the application, you can use ```System.out.println()``` to write your message. Lookout for your messages in the "logcat" window at the bottom of Android Studio:
-![System.out.println width="70%"](../resources/_gen/images/println.png "Logcat window in Android Studio showing messages created using the System.out.printIn logging function")
+<img src="../resources/_gen/images/println.png" height="70%" width="70%" title="System.out.println()" alt="Logcat window in Android Studio showing messages created using the System.out.printIn logging function"/>
 
 {{% notice tip %}}
 ## Working Together
@@ -31,5 +29,5 @@ If you see any red text, you have encountered some errors! Please ask for help o
 
 {{% /notice %}}
 
-`System.out.println` is helpful when you want to fix bugs in code, but your user (the person using the app) can’t see text printed with this function. But we can do this with toasts! A toast is a quick, small text that we make visible to the user. Here’s how to make a toast:
-![Toast Example width="50%"](../resources/_gen/images/toast_example.png "toast example. You can use the toast.makeText function with arguments context, the message string, and Toast.LENGTH_LONG or Toast.LENGTH_SHORT to display a welcom message, such as Welcome to Tic-Tac-Toe")
+`System.out.println` is helpful when you want to fix bugs in code, but your user (the person using the app) can't see text printed with this function. But we can do this with toasts! A toast is a quick, small text that we make visible to the user. Here's how to make a toast:
+<img src="../resources/_gen/images/toast_example.png" height="70%" width="70%" title="Toast Example" alt="toast example. You can use the toast.makeText function with arguments context, the message string, and Toast.LENGTH_LONG or Toast.LENGTH_SHORT to display a welcome message, such as Welcome to Tic-Tac-Toe"/>

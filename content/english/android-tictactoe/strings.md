@@ -2,12 +2,9 @@
 title: "Strings"
 date: 2020-07-27T14:17:07.42-07:00
 draft: false
-hidden: true
+hidden: false
 weight: 7
 ---
-
-# Strings
-
 Anything that is surrounded in quotation marks is called a string. This is how a computer represents words or sentences. For example, `"a"`, `"2"`, `"banana!"`, and `"Hello World"` are strings, but `Hello World` and `2` are not strings, because the quotation marks are missing. You can combine many strings together using the + operator. For example:
 
 - `"Apple" + "Pineapple"` produces the string `"ApplePineapple"`.

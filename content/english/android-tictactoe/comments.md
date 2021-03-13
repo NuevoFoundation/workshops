@@ -2,12 +2,9 @@
 title: "Comments"
 date: 2020-07-27T14:17:07.42-07:00
 draft: false
-hidden: true
+hidden: false
 weight: 6
 ---
-
-# Comments
-
 Developers often need to collaborate with other developers. Comments are an easy way for developers to write notes in the code and communicate with others. Comments are ignored by the computer; thus, they are also an easy way to tell the computer to not run certain lines of code. There are two ways to create comments:
 
 1. To comment out one line, place `//` in front of a line of code. For example:

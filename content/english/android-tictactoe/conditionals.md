@@ -2,12 +2,9 @@
 title: "Conditionals"
 date: 2020-07-27T14:17:07.42-07:00
 draft: false
-hidden: true
+hidden: false
 weight: 10
 ---
-
-# Conditionals
-
 We can use if statements to run a code statement only if certain conditions are met.
 
 For example:
