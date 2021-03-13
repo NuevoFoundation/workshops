@@ -1,7 +1,7 @@
 ---
-title: "Arduino - Activity 1"
+title: "Activity 1: Blinking LED"
 draft: false
-hidden: true
+hidden: false
 weight: 4
 ---
 
@@ -26,4 +26,3 @@ Change that number (don’t forget to hit the upload button again).
 Notice a difference? Why do you think 1000 is 1 second? How long would 10 minutes be? Why?
 
 ![Cannot load image](../img/img7.png)
-![Cannot load image](../img/img8.png)

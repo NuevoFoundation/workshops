@@ -1,11 +1,13 @@
 ---
-title: "Arduino - Activity 2"
+title: "Activity 2 -  Joystick with Serial Output"
 draft: false
-hidden: true
+hidden: false
 weight: 5
 ---
 
 ### Activity 2 - Joystick with serial output
+![Cannot load image](../img/img11.png)
+
 Now that you understand how we can get the system to provide signals from the program (outputs) and use those to control LEDs, let’s look at how we can get dynamic inputs into the system. For this activity we will use a joystick input, similar to those used in video game consoles.
 1.	Attach one end of a jumper wire to GND on the joystick and the other to GND on the Elegoo.
 2.	Attach one end of a jumper wire to +5V on the joystick and the other to 5V on the Elegoo.
@@ -14,7 +16,7 @@ Now that you understand how we can get the system to provide signals from the pr
 5.	Attach one end of a jumper wire to SW on the joystick and the other to 2 on the Elegoo.
 6.	Plug in the Arduino board via USB to your PC and open the Arduino IDE application.
 
-CODE:
+### The Code
 ```
 //www.elegoo.com
 //2016.12.09
@@ -43,13 +45,7 @@ void loop() {
   delay(500); 
 }
 ```
-![Cannot load image](../img/img10.png)
-
 7.	Now click the upload button to deploy the program to the Arduino.
 8.	Click on the “Serial Monitor” button on the top right of the screen to display the console.
-
-![Cannot load image](../img/img11.png)
-
+![Cannot load image](../img/img10.png)
 9.	Notice how the X and Y values change when you move the joystick around.
-
-![Cannot load image](../img/img12.png)

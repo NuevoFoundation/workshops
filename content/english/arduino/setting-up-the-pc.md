@@ -1,15 +1,15 @@
 ---
 title: "Setting up the PC"
 draft: false
-hidden: true
-weight: 3
+hidden: false
+weight: 1
 ---
 
-# Setting up the PC
+## Getting to know the Arduino IDE
 
 Download and install the Arduino IDE from:
 * the Microsoft Store (quicker install) - https://www.microsoft.com/store/productId/9NBLGGH4RSD8
-* or from the Arduino website https://www.arduino.cc/en/Main/Software (current version is 1.8.9)
+* or from the Arduino website https://www.arduino.cc/en/Main/Software (current version is 1.8.13)
 
 Once the software has been installed on your computer, go ahead and open it up. This is the Arduino IDE and is the place where all the programming will happen. Take some time to look around and get comfortable with it.
 
