@@ -39,10 +39,10 @@ Once installed, open Android Studio to work on the app.
 {{% notice tip %}}
 There are multiple ways to start the Android Studio application on your Windows computer. Here are two methods:
 #### Method 1
-1. Click the Windows icon in the lower left hand corner of your computer
-2. Scroll through the list until you see the `Android Studio` folder
-3. Click the `Android Studio` folder to expand it
-4. Click the `Android Studio` application in the folder to start Android Studio
+1. Click the Windows icon in the lower left hand corner of your computer.
+2. Scroll through the list until you see the `Android Studio` folder.
+3. Click the `Android Studio` folder to expand it.
+4. Click the `Android Studio` application in the folder to start Android Studio.
 
 #### Method 2
 1. In the search box on the bottom left of the screen, type in `Android Studio`
