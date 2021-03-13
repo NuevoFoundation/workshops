@@ -15,7 +15,7 @@ Find `// TODO (ACTIVITY 2)` in the code. Modify the `COLOR` attribute of `Pong` 
 
 {{% notice tip %}}
 
-<h5>Try using different RGB values to see the effect of color changes on the game's objects.</h5>
+Try using different RGB values to see the effect of color changes on the game's objects.
 
 {{% /notice %}}
 
