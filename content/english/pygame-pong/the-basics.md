@@ -64,7 +64,7 @@ class Paddle(pygame.Rect):
 ```
 ## Add methods
 
-`move_paddle()` is a **method.**  We use this method to get paddle to perform move actions. In this case, `move_paddle()` is helping move paddle upward or downward depending on the key we press for respective direction at a certain speed.
+`move_paddle()` is a **method.**  We use this method to get paddle to perform move actions. In this case, `move_paddle()` moves the paddle upward or downward depending on the key we pressed, and at a certain speed.
 
 ```python
 def move_paddle(self, board_height):
