@@ -8,7 +8,7 @@ draft: false
 # Activity 4
 Now you know how to change key assignments to control a paddle's movement. Great work!
 
-Can you apply the knowledge about Paddle object and its attributes that influence its movement on screen to change the key assignment for the right paddle? 
+We have added movement for the left paddle. Can you apply the knowledge about the `Paddle` object and its attributes that influence its movement on screen to change the key assignment for the right paddle? 
 
 Find `// TODO (ACTIVITY 4)` in the code. Modify the appropriate attribute value for the right paddle so it accepts 'UP' key for upward movement of the right paddle. 
 
