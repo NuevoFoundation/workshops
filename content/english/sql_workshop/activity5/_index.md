@@ -18,7 +18,7 @@ draft: false
 
 {{< youtube VPMZedGI-Ww >}}
 
-## Task 5: Find the Tallest Ladder To Get To Their Dear Leader
+## Task 5: Find the Tallest Ladder To Get To Their Leader
 
 You have discovered that the planet's leader is in a hut on the tallest hill but to get to it, you need to find the largest ladder in the Capital of Fun!
 
@@ -97,10 +97,11 @@ You can display the database using the command from activity 1.
   <table id="table">
     <tr></tr>
   </table>
+  
   <h4 id="story"></h4>
 
   <div id="legend" style="visibility:hidden">
-    <br/>
+     <br/>
     <p style="color:red;"> RED Ladder = 100 </p>
     <p style="color:blue;"> BLUE Ladder = 60 </p>
     <p style="color:brown;"> BROWN Ladder = 20 </p>
@@ -144,7 +145,7 @@ The correct ladder will be highlighted in green.
 
 <!-- Next mission text displays -->
 <div id="text1" style="visibility:hidden">
-  <p> You made it! The Dear Leader tells you that the Planet of Fun is in danger of being invaded by the aliens from the Planet of Boredom!
+  <p> You made it! The Leader tells you that the Planet of Fun is in danger of being invaded by the aliens from the Planet of Boredom!
   You must find the Totems of Fun in order to save the planet! </p>
 </div>
 

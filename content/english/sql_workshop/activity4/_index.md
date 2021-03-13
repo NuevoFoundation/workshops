@@ -16,7 +16,7 @@ draft: false
 
 {{< youtube UySfZlYMd6M >}}
 
-## Task 4: Find Their Dear Leader
+## Task 4: Find Their Leader
 
 After going to the Capital of Fun, you are told by the inhabitants to talk to their Dear Leader. Find out which inhabitant is the Dear Leader.
 To do so, let's take a look at how to select multiple columns in a database.
