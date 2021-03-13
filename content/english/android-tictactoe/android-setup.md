@@ -34,7 +34,7 @@ We strongly recommend that you restart your computer now for Android Studio to o
 {{% /notice %}}
 
 ## Start Android Studio
-Once installed, open Android Studio to working on the app.
+Once installed, open Android Studio to work on the app.
 
 {{% notice tip %}}
 There are multiple ways to start the Android Studio application on your Windows computer, here are two methods:
