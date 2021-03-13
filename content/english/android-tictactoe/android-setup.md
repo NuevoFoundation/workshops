@@ -15,7 +15,7 @@ These steps have examples for installing on Windows computers. However, the step
 
 
 ## Set the JAVA_HOME environment variable
-Android Studio comes with a version of Java needed for certain parts of the application to run. Follow the steps below to set the JAVA_HOME environment variable on your computer, which tells these tools where to find Java:
+Android Studio comes with a version of Java needed for certain parts of the application to run. Follow the steps below to set the `JAVA_HOME` environment variable on your computer, which tells these tools where to find Java:
 1. In the search box on the bottom left of the screen, type in `env`.
 2. Select the "Best Match" program `Edit the system environment variables`.
 <img src="../resources/_gen/images/edit_env_variable.png" height="30%" width="30%" title="Edit system environment variables" alt="Edit system environment variables"/>
