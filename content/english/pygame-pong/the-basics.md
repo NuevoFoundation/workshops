@@ -52,7 +52,7 @@ This is how you name the class `"Paddle"`. Now, notice the `pygame.Rect` inside 
 
 Don't worry about `args` and `kwargs` for now and focus on core attributes of `Paddle` class. 
 
-`__init__` function allows you to setup the class with attributes you need to see in objects. You can define additional attributes here on top of what you already get from `Rectangle` class. Lets add attributes like `velocity`, `up_key`, `down_key` to represent the speed at which paddle can move, and the keys needed for upward and downward movement of paddle. 
+`__init__` function allows you to setup the class with attributes you need to see in objects. You can define additional attributes here on top of what you already get from `Rectangle` class. Let's add attributes like `velocity`, `up_key`, `down_key` to represent the speed at which paddle can move, and the keys needed for upward and downward movement of the paddle. 
 
 ```python
 class Paddle(pygame.Rect):
