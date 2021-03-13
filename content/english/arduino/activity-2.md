@@ -5,18 +5,21 @@ hidden: false
 weight: 5
 ---
 
-### Activity 2 - Joystick with serial output
-![Cannot load image](../img/img11.png)
-
+### Wiring the Joystick
 Now that you understand how we can get the system to provide signals from the program (outputs) and use those to control LEDs, let’s look at how we can get dynamic inputs into the system. For this activity we will use a joystick input, similar to those used in video game consoles.
+
+![Cannot load image](../img/act2_Joystick.png)
+
 1.	Attach one end of a jumper wire to GND on the joystick and the other to GND on the Elegoo.
 2.	Attach one end of a jumper wire to +5V on the joystick and the other to 5V on the Elegoo.
-3.	Attach one end of a jumper wire to VRx on the joystick and the other to A0 on the Elegoo.
-4.	Attach one end of a jumper wire to VRy on the joystick and the other to GND on the Elegoo.
-5.	Attach one end of a jumper wire to SW on the joystick and the other to 2 on the Elegoo.
+3.	Attach one end of a jumper wire to VRx on the joystick and the other to A0 (analog pin 0) on the Elegoo.
+4.	Attach one end of a jumper wire to VRy on the joystick and the other to A1 (analog pin 1) on the Elegoo.
+4.	Attach one end of a jumper wire to VRy on the joystick and the other to A1 (analog pin 1) on the Elegoo.
+5.	Attach one end of a jumper wire to SW on the joystick and the other to 2 (digital pin 2) on the Elegoo.
 6.	Plug in the Arduino board via USB to your PC and open the Arduino IDE application.
 
-### The Code
+### Recognizing and printing Analog Inputs
+We will again use sample code for our programs. This time from the elegoo website itself. Copy the following into your Arduino IDE.
 ```
 //www.elegoo.com
 //2016.12.09
