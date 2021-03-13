@@ -14,7 +14,7 @@ Find `// TODO (ACTIVITY 6)` in the code. We introduced an `'if'` block on purpos
 
 {{% notice tip %}}
 
-You may need to check the boundary value for horizontal position (represented by 'X' axis) of the ball when the right paddle misses it. Can you guess what value it should be? Press **run** to confirm the result.
+You may need to check the boundary value for the horizontal position (represented by 'X' axis) of the ball when the right paddle misses it. Can you guess what value it should be? Press **run** to confirm the result.
 
 {{% /notice %}}
 
