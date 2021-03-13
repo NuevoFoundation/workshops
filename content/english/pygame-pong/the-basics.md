@@ -45,7 +45,7 @@ Let's try to understand the code in more detail.
 ## Name the class
 `class Paddle(pygame.Rect)`
 
-This is how you name the class `"Paddle"`. Now, notice the `pygame.Rect` inside `()`. You might have already imagined that in order to draw the paddle on a computer screen you need to draw it like a rectangle then define its dimensions and position on screen to make it look like a paddle. The `(pygame.Rect)` statement would allow us to tell Python compiler to have this object draw like a rectangle and provide all rectangle's attributes to it like `WIDTH` and `HEIGHT`. This helps us make use of all attributes available to the `Rectangle` class in Pygame library. 
+This is how you name the class `"Paddle"`. Now, notice the `pygame.Rect` inside `()`. You might have already imagined that in order to draw the paddle on a computer screen you need to draw it like a rectangle, then define its dimensions and position on screen to make it look like a paddle. The `(pygame.Rect)` statement allows us to tell the Python compiler to draw this object like a rectangle and provide all rectangle's attributes to it like `WIDTH` and `HEIGHT`. This helps us make use of all attributes available to the `Rectangle` class in the Pygame library. 
 
 ## Add attributes
 `def __init__(self, velocity, up_key, down_key, *args, **kwargs):`
