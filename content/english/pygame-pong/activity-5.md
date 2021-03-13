@@ -9,7 +9,7 @@ draft: false
 # Activity 5
 Great progress so far! Now let's make use of a variable to change the font of the text in the game.
 
-In this activity, you need to apply the knowledge about variables you learnt in Python basics. 
+In this activity, you need to apply the knowledge about variables you learned in Python basics. 
 
 Find `// TODO (ACTIVITY 5)` in the code. Declare the variable `font_label`, assign it the value `'arial'`. Now take a look at this statement in code `font_name = pygame.font.match_font('arial')`. Can you figure out the place in this statement where you should use this new variable to control the font displayed on screen? 
 
