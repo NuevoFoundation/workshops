@@ -30,7 +30,7 @@ Two Valid Answers:
 `SELECT COUNT(*) FROM planet;` OR `SELECT COUNT(city_number) FROM planet;`
 
 ### Activity 4: Select Multiple Info (Type-in)
-Two Valid Answers: `SELECT planet, leader FROM galaxy;` OR `SELECT leader, planet FROM galaxy;`
+Two Valid Answers: `SELECT planet_name, leader_name FROM galaxy;` OR `SELECT leader_name, planet_name FROM galaxy;`
 
 The only difference between the two answers is the order of columns displayed, therefore both answers are valid.
 

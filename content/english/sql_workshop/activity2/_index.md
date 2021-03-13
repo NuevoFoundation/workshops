@@ -8,8 +8,13 @@ draft: false
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->
 <link rel="stylesheet" href="../default/_default.css" type="text/css"></link>
+<link rel="stylesheet" href="../default/_type.css" type="text/css"></link>
 <link rel="stylesheet" href="_activity2.css" type="text/css"></link>
+
+<script type="text/javascript" src="../default/alasql.js"></script>
+<script type="text/javascript" src="../default/db.js"></script>
 <script type="text/javascript" src="../default/_default.js"></script>
+<script type="text/javascript" src="../default/_type.js"></script>
 <script type="text/javascript" src="_activity2.js"></script>
 
 {{< youtube FZnnkNVn0Ok >}}
@@ -48,7 +53,7 @@ The `WHERE` command allows you to only show data that you want.
 7. Semicolons act as the end of a SQL command, like a period at the end of a sentence.
 {{%/notice%}}
 
-#### Using the database called 'galaxy' that has a column labeled 'name', find the coordinates for the Planet of Fun!
+#### Using the database called 'galaxy' that has a column labeled 'planet', find the coordinates for the Planet of Fun!
 
 <!-- rearrange code blocks on terminal to get coordinate block -->
 
@@ -77,7 +82,7 @@ The `WHERE` command allows you to only show data that you want.
 </div>
 
 <div id="div3" class="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
-  <img class="img" img id="answer4" src="assets/Name_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag3">
+  <img class="img" img id="answer4" src="assets/Planet_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag3">
 </div>
 
 <div id="div4" class="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
@@ -103,8 +108,11 @@ The `WHERE` command allows you to only show data that you want.
 <button class="button button1" onclick="check()"> Enter </button>
 </div>
 
-
-<img src="" id="planet">
+<table id="planet" style="visibility:hidden">
+  <tr>
+  </tr>
+  <script>displaytable("galaxy where planet_name = 'Planet of Fun'", "planet");</script>
+</table>
 
 <div id="text" style="visibility:hidden">
 <h3> Now that you know where the Planet of Fun is, we can find more information about it and ignore the other planets. Let's go to the Planet of Fun! </h3>

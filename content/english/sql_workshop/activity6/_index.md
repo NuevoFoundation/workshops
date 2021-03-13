@@ -62,7 +62,7 @@ You can display the database using the command from activity 1.
       <h3 id = "prev"></h3>
     </div>
     <div style="clear: both;"></div> 
-    <button class="button button1" onclick="sql()"> Enter </button>
+    <button class="button button1" onclick="sql()">Enter</button>
     <div style="clear: both;"></div> 
     <button class = "button reset" onclick="reset()">Reset</button>
   </div>

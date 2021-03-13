@@ -42,7 +42,7 @@ Everyone is having a good time at the party! The inventor has also arrived, now 
     <button class = "button reset" onclick="reset()">Reset</button>
 </div>
 <div style="clear: both;"></div> 
-<h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
+<h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT</strong></h1>
 <table id="table">
 	<tr></tr>
 </table>

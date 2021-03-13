@@ -20,7 +20,13 @@ After receiving the message from the Galactic Federation, you continue your adve
 
 You have successfully arrived on the Planet of Fun! The Galactic Federation has sent you a database about this planet.
 
-![db](assets/planet_db.PNG)
+{{< rawhtml >}}
+  <table id="planettable">
+    <tr>
+    </tr>
+    <script>displaytable("planet", "planettable");</script>
+  </table>
+{{< /rawhtml >}}
 
 ## Task 3: Talk to the inhabitants
 You need to talk to the inhabitants of the Planet of Fun to discover what the problem is. Find out how many cities there are on the planet using the `COUNT()` command!
@@ -58,14 +64,14 @@ Press the Enter button on the terminal to check if you have the correct command.
   </div>
   
   <div style="clear: both;"></div> 
-  
+
   <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
   <table id="table">
     <tr>
     </tr>
   </table>
   <h4 id="story"></h4>
-  
+
   <!-- Tells User to continue mission -->
   <div class="resume_plot" id="resume_plot" style="visibility:hidden">
     <p>You found the correct command to display the entire database! This is handy when you want to see all the information at the tip of your fingers!</p>

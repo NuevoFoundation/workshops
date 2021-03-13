@@ -21,7 +21,7 @@ function sql()
     headArr.push(ansArr[i].substring( ansArr[i].indexOf('"') + 1, ansArr[i].indexOf('":')));
   }
 
-  sqlToTable(headArr, array);
+  sqlToTable(headArr, array, "table");
   
   /*change answer here */
   var ans1 = "select * from planet group by favorite_food;";

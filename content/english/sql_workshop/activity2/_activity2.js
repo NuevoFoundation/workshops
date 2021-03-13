@@ -166,7 +166,7 @@ function check(){
     hide_boxes();
 
     document.getElementById("planet").src="assets/Show_Planet.png";
-    document.getElementById("gps").src="assets/GPS.png";
+    document.getElementById("gps").src="assets/GPS.jpg";
   } else {
     alert("Try Again, Space Cadet!");
   }

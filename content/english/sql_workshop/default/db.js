@@ -1,5 +1,5 @@
 // Galaxy database
-alasql("CREATE TABLE galaxy(planet_number INT, planet STRING, leader STRING, population INT, coordinates INT)");
+alasql("CREATE TABLE galaxy(planet_number INT, planet_name STRING, leader_name STRING, population INT, coordinates INT)");
 
 alasql("INSERT INTO galaxy VALUES (1,'Puzzle Land','Thomas Stewart',10000,1)");
 alasql("INSERT INTO galaxy VALUES (2,'Planet of Mold','Lucy Stewart',90000,3)");
