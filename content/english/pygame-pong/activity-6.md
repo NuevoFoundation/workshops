@@ -8,7 +8,7 @@ draft: false
 # Activity 6
 You have come a long way; we hope you are enjoying this workshop!
 
-In this activity, you need to apply your knowledge of 'if' control structures you learnt in the Python basics workshop. 
+In this activity, you need to apply your knowledge of 'if' control structures you learned in the Python basics workshop. 
 
 Find `// TODO (ACTIVITY 6)` in the code. We introduced an `'if'` block on purpose that has the wrong condition for tracking the score when the right paddle misses the ball. This not only causes the wrong score to be displayed on screen; it causes the ball to move in an erratic manner. Can you figure out what 'condition' the `'if;` block should check for when the right paddle misses the ball? Ask the person beside you, or the workshop staff, if you need help.
 
