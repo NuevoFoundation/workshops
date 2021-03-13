@@ -14,7 +14,7 @@ Find `// TODO (ACTIVITY 4)` in the code. Modify the appropriate attribute value 
 
 {{% notice tip %}}
 
-<h5>Press <b>run</b> to confirm the result.</h5>
+Press <b>run</b> to confirm the result.
 
 {{% /notice %}}
 
