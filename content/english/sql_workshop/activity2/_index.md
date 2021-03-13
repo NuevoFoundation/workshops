@@ -82,7 +82,7 @@ The `WHERE` command allows you to only show data that you want.
 </div>
 
 <div id="div3" class="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
-  <img class="img" img id="answer4" src="assets/Planet_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag3">
+  <img class="img" img id="answer4" src="assets/Planet_Name_Block.png" draggable="true" ondragstart="drag(event)" id="drag3">
 </div>
 
 <div id="div4" class="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
