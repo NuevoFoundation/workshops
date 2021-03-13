@@ -3,11 +3,11 @@ title: "Numbers"
 date: 2020-07-27T14:17:07.42-07:00
 draft: false
 hidden: false
-weight: 8
+weight: 9
 ---
 The computer can also do regular math that you see in school. Use `System.out.println` to print out the result from the math expressions.
 
-```java
+```kotlin
 System.out.println(5 + 4);
 System.out.println(6 * (9 - 7) / 3);
 ```

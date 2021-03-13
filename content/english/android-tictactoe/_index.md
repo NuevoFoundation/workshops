@@ -14,7 +14,7 @@ hidden: false
 <img src="https://media.giphy.com/media/1nOL7s74KmSk0zDlDD/giphy.gif" width="70%" height="70%" alt="Nuevo Foundation"/>
 
 ### Start your Android Game Adventure
-<img src="resources/_gen/images/game_play.png" height="40%" width="40%" title="Android Tic-Tac-Toe Game" alt="Android Tic-Tac-Toe Game"/>
+<img src="resources/_gen/images/game_play.gif" height="40%" width="40%" title="Android Tic-Tac-Toe Game" alt="Android Tic-Tac-Toe Game"/>
 
 ## Adventure Checklist
 
