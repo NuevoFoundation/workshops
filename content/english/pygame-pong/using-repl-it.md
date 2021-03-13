@@ -11,7 +11,7 @@ To build our game, we will use the Pygame library, which provides a set of ready
 
 Today, you will be using Repl.it to build the Pong game.
 
-If you would like a re-cap on how to use Repl.it, checkout the following Python basics [tutorial](https://workshops.nuevofoundation.org/python-basics/repl-it/)
+If you would like a re-cap on how to use Repl.it, check out the following Python basics [tutorial](https://workshops.nuevofoundation.org/python-basics/repl-it/)
 
 Next, let's explain further some of the code that has been provided to you in the `main.py` file.
 
@@ -33,4 +33,3 @@ The gray line that starts with `#` is called a **comment**. These are notes in t
 In `main.py` we use comments to indicate where we need you to make changes to the code.
 
 {{% /notice %}}
-

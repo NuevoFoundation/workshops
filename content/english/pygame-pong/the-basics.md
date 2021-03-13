@@ -45,14 +45,14 @@ Let's try to understand the code in more detail.
 ## Name the class
 `class Paddle(pygame.Rect)`
 
-This is how you name the class `"Paddle"`. Now, notice the `pygame.Rect` inside `()`. You might have already imagined that in order to draw the paddle on a computer screen you need to draw it like a rectangle then define its dimensions and position on screen to make it look like a paddle. The `(pygame.Rect)` statement would allow us to tell Python compiler to have this object draw like a rectangle and provide all rectangle's attributes to it like `WIDTH` and `HEIGHT`. This helps us make use of all attributes available to the `Rectangle` class in Pygame library. 
+This is how you name the class `"Paddle"`. Now, notice the `pygame.Rect` inside `()`. You might have already imagined that in order to draw the paddle on a computer screen you need to draw it like a rectangle, then define its dimensions and position on screen to make it look like a paddle. The `(pygame.Rect)` statement allows us to tell the Python compiler to draw this object like a rectangle and provide all rectangle's attributes to it like `WIDTH` and `HEIGHT`. This helps us make use of all attributes available to the `Rectangle` class in the Pygame library. 
 
 ## Add attributes
 `def __init__(self, velocity, up_key, down_key, *args, **kwargs):`
 
 Don't worry about `args` and `kwargs` for now and focus on core attributes of `Paddle` class. 
 
-`__init__` function allows you to setup the class with attributes you need to see in objects. You can define additional attributes here on top of what you already get from `Rectangle` class. Lets add attributes like `velocity`, `up_key`, `down_key` to represent the speed at which paddle can move, and the keys needed for upward and downward movement of paddle. 
+`__init__` function allows you to setup the class with attributes you need to see in objects. You can define additional attributes here on top of what you already get from `Rectangle` class. Let's add attributes like `velocity`, `up_key`, `down_key` to represent the speed at which paddle can move, and the keys needed for upward and downward movement of the paddle. 
 
 ```python
 class Paddle(pygame.Rect):
@@ -64,7 +64,7 @@ class Paddle(pygame.Rect):
 ```
 ## Add methods
 
-`move_paddle()` is a **method.**  We use this method to get paddle to perform move actions. In this case, `move_paddle()` is helping move paddle upward or downward depending on the key we press for respective direction at a certain speed.
+`move_paddle()` is a **method.**  We use this method to get paddle to perform move actions. In this case, `move_paddle()` moves the paddle upward or downward depending on the key we pressed, and at a certain speed.
 
 ```python
 def move_paddle(self, board_height):
