@@ -16,6 +16,8 @@ draft: false
 
 {{< youtube Rvhy5DOuWHQ >}}
 
+<br>
+
 After receiving the message from the Galactic Federation, you continue your adventure.
 
 You have successfully arrived on the Planet of Fun! The Galactic Federation has sent you a database about this planet.
