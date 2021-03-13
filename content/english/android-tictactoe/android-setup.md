@@ -30,7 +30,7 @@ C:\Program Files\Android\Android Studio\jre
 <img src="../resources/_gen/images/set_java_home.gif" height="60%" width="60%" title="Setting JAVA_HOME" alt="shows steps to set the JAVA_HOME environment variable"/>
 
 {{% notice tip %}}
-We strongly recommend that you restart your computer now for Android Studio to open correctly
+We strongly recommend that you restart your computer now for Android Studio to open correctly.
 {{% /notice %}}
 
 ## Start Android Studio
