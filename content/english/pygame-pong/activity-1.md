@@ -6,7 +6,7 @@ draft: false
 ---
 
 # Activity 1
-You can adjust the boundary of pong game by adjusting the height and width of the rectangle that represents the boundary. 
+You can adjust the boundary of the Pong game by adjusting the height and width of the rectangle that represents the boundary. 
 
 Go to the code containing the Pong game. Press **run**. Notice that the game's boundary doesn't look right - see the image below. Let's fix this in this activity, so the game boundary looks good.
 
