@@ -46,7 +46,7 @@ There are multiple ways to start the Android Studio application on your Windows 
 2. Look for the location where you downloaded the project files
 3. Select the 'TicTacToe' folder inside of the 'TicTacToe' folder that you unzipped earlier. 
    - The 'TicTacToe' folder to select should have a green Android icon next to it, indicating it is an Android project folder
-4. You may get a box that pops up asking if you want to open the project in `This Window` or a `New Window`. Click `This Window` to load the project in your current `Android Studio`. Click `New Window` to start another `Android Studio` with your project files. If you don't want to open the project files, you can click `Cancel`.
+<img src="../resources/_gen/images/open_android_project.gif" height="60%" width="60%" title="Open TicTacToe project" alt="Shows how to open the TicTacToe project in Android Studio"/>
 
 
 Run Android Studio and open the project. Your view will look similar to this:
