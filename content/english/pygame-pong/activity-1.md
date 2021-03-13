@@ -16,7 +16,7 @@ Find `// TODO (ACTIVITY 1)` in the code. Modify the `WIDTH` attribute of `Pong` 
 
 {{% notice tip %}}
 
-<h5>Try changing the values for height and width to see the effects of different values on the game's boundary.</h5>
+Try changing the values for height and width to see the effects of different values on the game's boundary.
 
 {{% /notice %}}
 
