@@ -10,7 +10,7 @@ Time for the final activity in this workshop; yay! You have done an awesome job 
 
 In this activity, you need to change the way the game exits anytime a given key combination is pressed. 
 
-Find `// TODO (ACTIVITY 7)` in the code. Pygame library gives you a handy way by using `event` to detect what keystrokes are being pressed anytime during the life of program. 
+Find `// TODO (ACTIVITY 7)` in the code. The Pygame library gives you a handy way by using `event` to detect what keystrokes are being pressed anytime during the life of program. 
 Currently the game exits by pressing the `'BACKSPACE'` key. Change it so the game exits when the  `'ESC'` key is pressed on the keyboard.
 
 {{% notice tip %}}
