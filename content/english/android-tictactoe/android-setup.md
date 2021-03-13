@@ -60,7 +60,7 @@ Run Android Studio and open the project. Your view will look similar to this:
 <img src="../resources/_gen/images/android_studio.png" height="70%" width="70%" title="Android Studio IDE" alt="Example of Android Studio IDE"/>
 
 ## Accept Licenses
-Before you can run the code, you'll need to accept Android licenses, following the steps below:
+Before you can run the code, you'll need to accept the Android licenses by following the steps below:
 1. Click the `Terminal` button at the bottom of the Android Studio window
 2. Type the command below, replacing '<USER_NAME>' with your computer's user name
 ```
