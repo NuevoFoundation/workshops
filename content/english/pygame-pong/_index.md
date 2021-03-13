@@ -11,11 +11,11 @@ icon: "fab fa-python"
 
 # Introduction
 
-You may already know how to play Pong game in real life. How about building the game to be played on a computer? In this tutorial we will learn to use Python's Pygame library to build the Pong game. Sounds interesting, already?
+You may already know how to play Pong in real life. How about building your own version of Pong on your own computer? In this tutorial, we will learn to use Python's Pygame library to build Pong. Sound interesting?
 
 ![animation of pong game](https://media.giphy.com/media/xThuWtNFKZWG6fUFe8/giphy.gif)
 
-The goal of this activity is to use your Python knowledge to fix the code that we have provided at various places to make the game working and learn about Pygame library and its functions along the way. 
+The goal of this workshop is to use your Python knowledge to fix the code where indicated to make the game work and learn about Pygame library and its functions along the way. 
 
 ## Table of Contents
 

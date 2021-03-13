@@ -6,19 +6,17 @@ draft: false
 ---
 
 # Activity 6
-You have come a long way, we hope you are enjoying!
+You have come a long way; we hope you are enjoying this workshop!
 
-In this activity you need to apply the knowledge about 'if' control structure you learnt in Python basics. 
+In this activity, you need to apply your knowledge of 'if' control structures you learned in the Python basics workshop. 
 
-Find `// TODO (ACTIVITY 6)` in the code. We have on purpose introduced an `'if'` block that is checking for wrong condition for tracking the score when right paddle miss the ball. This not only causing the wrong score to be displayed on screen , as well as it causing the ball to move in erratic manner. Can you figure out what 'condition' it should check for when right paddle miss the ball ? Feel free to ask if you need help in getting this right. 
+Find `// TODO (ACTIVITY 6)` in the code. We introduced an `'if'` block on purpose that has the wrong condition for tracking the score when the right paddle misses the ball. This not only causes the wrong score to be displayed on screen; it causes the ball to move in an erratic manner. Can you figure out what 'condition' the `'if` block should check for when the right paddle misses the ball? Ask the person beside you, or the workshop staff, if you need help.
 
 {{% notice tip %}}
 
-You may need to check the boundary value for horizontal position (represented by 'X' axis) of ball when right paddle misses it. Can you guess what value it should be ? 
-Confirm the result after pressing **run**.
+You may need to check the boundary value for the horizontal position (represented by 'X' axis) of the ball when the right paddle misses it. Can you guess what value it should be? Press **run** to confirm the result.
 
 {{% /notice %}}
 
-
 ## Takeaway 
-You have just fixed a condition for checking boundary values when ball moves horizontally out of boundary of game.
+You have just fixed a condition for checking boundary values when ball moves horizontally out of the game boundary.
