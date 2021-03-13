@@ -7,7 +7,7 @@ weight: 2
 ---
 Follow the steps below to get Android Studio installed on your computer. If you already have Android Studio installed, open it up and skip to the next step!
 
-These steps have examples for installing on Windows computers, however the steps are similar for other types of computers as well.
+These steps have examples for installing on Windows computers. However, the steps are similar for other types of computers as well.
 
 ## Download and Install Android Studio
 1. [Download Android Studio](https://developer.android.com/studio/) for your operating system.
