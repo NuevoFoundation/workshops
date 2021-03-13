@@ -11,7 +11,7 @@ Press the play button button (►) at the top of Android Studio and you’ll see
 
 # Solve the Puzzle
 Double-click the ```strings.xml``` file under res --> values:
-![Strings.xml location](../resources/_gen/images/puzzle1.PNG)
+![Strings.xml location](../resources/_gen/images/puzzle1.png)
 
 How can you modify this file to say Tic-Tac-Toe?
-![Strings.xml content](../resources/_gen/images/puzzle1_stringsxml.PNG)
+![Strings.xml content](../resources/_gen/images/puzzle1_stringsxml.png)

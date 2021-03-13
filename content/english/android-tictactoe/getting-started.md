@@ -41,4 +41,4 @@ There are multiple ways to start the Android Studio application on your Windows 
 {{% /notice %}}
 
 Run Android Studio and open the project. Your view will look similar to this:
-![Android Studio IDE](../resources/_gen/images/android_studio.PNG)
+![Android Studio IDE](../resources/_gen/images/android_studio.png)

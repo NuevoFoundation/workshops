@@ -8,7 +8,7 @@ weight: 3
 
 # Back to Foundations
 Now that the game has the right title, let's dive deeper into all these files in the game folder. What do they all mean? How does it contribute to the game?
-![Expanded view of application files](../resources/_gen/images/app_structure_files.PNG)
+![Expanded view of application files](../resources/_gen/images/app_structure_files.png)
 
 ## AndroidManifest.xml
 Every project in Android includes a manifest file. For your game, this is the ```AndroidManifest.xml``` file. The manifest file defines the metadata for your game, for instance, it can define the icon and the overall theme for your game application.

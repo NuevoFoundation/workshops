@@ -8,7 +8,7 @@ weight: 4
 
 # Printing to Console
 Sometimes the game or application might not work the way you expect it to or you want to write something to console for logging purposes. Outside of debugging the application, you can use ```System.out.println()``` to write your message. Lookout for your messages in the "logcat" window at the bottom of Android Studio:
-![System.out.println](../resources/_gen/images/println.PNG)
+![System.out.println](../resources/_gen/images/println.png)
 
 {{% notice tip %}}
 ## Working Together
