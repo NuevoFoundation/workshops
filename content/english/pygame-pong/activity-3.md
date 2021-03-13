@@ -14,7 +14,7 @@ Find `// TODO (ACTIVITY 3)` in the code. Modify the appropriate attribute value 
 
 {{% notice tip %}}
 
-<h5>Try swapping the UP key with a different key. Press <b>run</b> to test your changes.</h5>
+Try swapping the UP key with a different key. Press <b>run</b> to test your changes.
 
 {{% /notice %}}
 
