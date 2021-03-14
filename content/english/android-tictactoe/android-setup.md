@@ -26,7 +26,7 @@ Android Studio comes with a version of Java needed for certain parts of the appl
 ```
 C:\Program Files\Android\Android Studio\jre
 ```
-7. Click OK
+7. Click OK.
 <img src="../resources/_gen/images/set_java_home.gif" height="60%" width="60%" title="Setting JAVA_HOME" alt="shows steps to set the JAVA_HOME environment variable"/>
 
 {{% notice tip %}}
