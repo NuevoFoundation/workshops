@@ -1,6 +1,6 @@
 ---
 title: "Variables"
-date: 2020-07-27T14:17:07.42-07:00
+date: 2021-03-13T14:17:07.42-07:00
 draft: false
 hidden: false
 weight: 11
@@ -19,8 +19,8 @@ Look at the variables at the top of of `MainActivity.kt`.
     var colorGreen = Color.BLACK
 ```
 
-- `Player1` holds the values of Player 1's moves in the game
-- `Player2` holds the values of Player 2's moves in the game
-- `ActivePlayer` keeps track of whose turn it is
-- `setPlayer` holds the value for whether the game is Player vs Player or Player vs Computer
-- `colorBlue` and `colorGreen` hold the values for the player colors
+- `Player1` holds the values of Player 1's moves in the game.
+- `Player2` holds the values of Player 2's moves in the game.
+- `ActivePlayer` keeps track of whose turn it is.
+- `setPlayer` holds the value for whether the game is Player vs Player or Player vs Computer.
+- `colorBlue` and `colorGreen` hold the values for the player colors.

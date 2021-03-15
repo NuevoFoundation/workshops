@@ -1,6 +1,6 @@
 ---
 title: "Game Application Structure"
-date: 2020-07-27T14:17:07.42-07:00
+date: 2021-03-13T14:17:07.42-07:00
 draft: false
 hidden: false
 weight: 4
@@ -24,4 +24,4 @@ This file is located under the "java" folder. The file contains the code and log
 These files are located under the "values" folder. The files contain values that can be referenced by other XML files and application code.
 
 ## Putting it Together
-All these files work together to create your game. The `activity_main.xml` file decides what is shown to you. When you click on the buttons, events are sent from the `activity_main.xml` to the `MainActivity.kt` to determine what happens on that button click. For repeatable values, `activity_main.xml` and `MainActivity.kt` can reach out to `colors.xml, strings.xml, or styles.xml` to use those values from one convenient location.
+All these files work together to create your game. The `activity_main.xml` file decides what is shown to you. When you click on the buttons, events are sent from the `activity_main.xml` to the `MainActivity.kt` to determine what happens on that button click. For repeatable values, `activity_main.xml` and `MainActivity.kt` can reach out to `colors.xml`, `strings.xml`, or `styles.xml` to use those values from one convenient location.

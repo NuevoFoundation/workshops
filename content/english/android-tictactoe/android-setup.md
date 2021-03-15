@@ -1,6 +1,6 @@
 ---
 title: "Android Setup"
-date: 2020-07-27T14:17:07.42-07:00
+date: 2021-03-13T14:17:07.42-07:00
 draft: false
 hidden: false
 weight: 2
@@ -45,15 +45,15 @@ There are multiple ways to start the Android Studio application on your Windows 
 4. Click the `Android Studio` application in the folder to start Android Studio.
 
 #### Method 2
-1. In the search box on the bottom left of the screen, type in `Android Studio`
-2. In the results window, if "Best Match" highlights `Android Studio`, either click the `Android Studio` application or press `ENTER` on your keyboard
+1. In the search box on the bottom left of the screen, type in `Android Studio`.
+2. In the results window, if "Best Match" highlights `Android Studio`, either click the `Android Studio` application or press `ENTER` on your keyboard.
 {{% /notice %}}
 
 ## Open Project Files
-1. Click on `Open an Existing Project` on the start screen of Android Studio
-2. Look for the location where you downloaded the project files
+1. Click on `Open an Existing Project` on the start screen of Android Studio.
+2. Look for the location where you downloaded the project files.
 3. Select the 'TicTacToe' folder inside of the 'TicTacToe' folder that you unzipped earlier. 
-   - The 'TicTacToe' folder to select should have a green Android icon next to it, indicating it is an Android project folder
+   - The 'TicTacToe' folder to select should have a green Android icon next to it, indicating it is an Android project folder.
 <img src="../resources/_gen/images/open_android_project.gif" height="60%" width="60%" title="Open TicTacToe project" alt="Shows how to open the TicTacToe project in Android Studio"/>
 
 Run Android Studio and open the project. Your view will look similar to this:
@@ -61,10 +61,10 @@ Run Android Studio and open the project. Your view will look similar to this:
 
 ## Accept Licenses
 Before you can run the code, you'll need to accept the Android licenses by following the steps below:
-1. Click the `Terminal` button at the bottom of the Android Studio window
-2. Type the command below, replacing '<USER_NAME>' with your computer's user name
+1. Click the `Terminal` button at the bottom of the Android Studio window.
+2. Type the command below, replacing '<USER_NAME>' with your computer's user name.
 ```
 C:\Users\<USER_NAME>\AppData\Local\Android\Sdk\tools\bin\sdkmanager --licenses
 ```
-3. Type `y` and press `ENTER` at the prompts, to accept the licenses. This will be needed multiple times
+3. Type `y` and press `ENTER` at the prompts, to accept the licenses. This will be needed multiple times.
 <img src="../resources/_gen/images/accept_licenses.gif" height="70%" width="70%" title="Accepting Android licenses" alt="shows the steps needed to accept Android licenses"/>

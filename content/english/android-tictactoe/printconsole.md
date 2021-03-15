@@ -1,6 +1,6 @@
 ---
 title: "Printing to Console"
-date: 2020-07-27T14:17:07.42-07:00
+date: 2021-03-13T14:17:07.42-07:00
 draft: false
 hidden: false
 weight: 5
@@ -20,14 +20,17 @@ Sometimes the game or application might not work the way you expect it to or you
 {{% notice warning %}}
 ## HELP! I got a lot of red text!
 
-If you see any red text, you have encountered some errors! Please ask for help or check the debugging page at the end of this tutorial. Beware of the following when coding in C#:
+If you see any red text, you have encountered some errors! Please ask for help. Beware of the following when coding in Android:
 
-1. `out` and `println` start with a lowercase letter
-2. `System` starts with an uppercase letter
-2. Make sure the sentence you wish to print is surrounded in quotation marks, and that the sentence is between the parentheses
-3. Do not delete any curly braces `{` or `}`
+1. `out` and `println` start with a lowercase letter.
+2. `System` starts with an uppercase letter.
+2. Make sure the sentence you wish to print is surrounded in quotation marks, and that the sentence is between the parentheses.
+3. Do not delete any curly braces `{` or `}`.
 
 {{% /notice %}}
 
 `System.out.println` is helpful when you want to fix bugs in code, but your user (the person using the app) can't see text printed with this function. But we can do this with toasts! A toast is a quick, small text that we make visible to the user. Here's how to make a toast:
+```kotlin
+Toast.makeText(this, "Text we want to show", Toast.LENGTH_SHORT).show()
+```
 <img src="../resources/_gen/images/toast_example.png" height="70%" width="70%" title="Toast Example" alt="toast example. You can use the toast.makeText function with arguments context, the message string, and Toast.LENGTH_LONG or Toast.LENGTH_SHORT to display a welcome message, such as Welcome to Tic-Tac-Toe"/>
