@@ -5,10 +5,10 @@ hidden: false
 weight: 5
 ---
 
-### Wiring the Joystick
+## Wiring the Joystick
 Now that you understand how we can get the system to provide signals from the program (outputs) and use those to control LEDs, let’s look at how we can get dynamic inputs into the system. For this activity we will use a joystick input, similar to those used in video game consoles.
 
-![Cannot load image](../img/act2_Joystick.png)
+![Alt Text: Wiring Diagram for Joystick module](../img/act2_Joystick.png)
 
 1.	Attach one end of a jumper wire to GND on the joystick and the other to GND on the Elegoo.
 2.	Attach one end of a jumper wire to +5V on the joystick and the other to 5V on the Elegoo.
@@ -18,8 +18,8 @@ Now that you understand how we can get the system to provide signals from the pr
 5.	Attach one end of a jumper wire to SW on the joystick and the other to 2 (digital pin 2) on the Elegoo.
 6.	Plug in the Arduino board via USB to your PC and open the Arduino IDE application.
 
-### Recognizing and printing Analog Inputs
-We will again use sample code for our programs. This time from the elegoo website itself. Copy the following into your Arduino IDE.
+## Recognizing and printing Analog Inputs
+We will again use sample code for our programs. This time we'll get it from the elegoo website itself. Copy the following into your Arduino IDE.
 ```
 //www.elegoo.com
 //2016.12.09
@@ -50,5 +50,5 @@ void loop() {
 ```
 7.	Now click the upload button to deploy the program to the Arduino.
 8.	Click on the “Serial Monitor” button on the top right of the screen to display the console.
-![Cannot load image](../img/img10.png)
+![Atl Text: Screen Shot of Arduino IDE showing the location of the serial monitor button](../img/SerialMonitor-button.png)
 9.	Notice how the X and Y values change when you move the joystick around.

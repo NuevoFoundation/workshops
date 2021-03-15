@@ -9,11 +9,11 @@ weight: 1
 
 Download and install the Arduino IDE from:
 * the Microsoft Store (quicker install) - https://www.microsoft.com/store/productId/9NBLGGH4RSD8
-* or from the Arduino website https://www.arduino.cc/en/Main/Software (current version is 1.8.13)
+* or from the Arduino website https://www.arduino.cc/en/Main/Software (pick the latest version)
 
 Once the software has been installed on your computer, go ahead and open it up. This is the Arduino IDE and is the place where all the programming will happen. Take some time to look around and get comfortable with it.
 
-![Cannot load image](../img/img3.png)
+![Alt Text: Labeled picture of the Arduino IDE](../img/ArduinoIDE-labeled.png)
 *https://www.makerspaces.com/simple-arduino-projects-beginners/*
 
 1.	Menu Bar:  Gives you access to the tools needed for creating and saving Arduino sketches.
@@ -29,15 +29,15 @@ Once the software has been installed on your computer, go ahead and open it up. 
 11.	Text Console: Shows the details of an error messages, size of the program that was compiled and additional info.
 12.	Board and Serial Port: Tells you what board is being used and what serial port it’s connected to.
 
-## Connect your Arduino Uno
+## Connect your Arduino
 At this point you are ready to connect your Arduino to your computer.  Plug one end of the USB cable to the Arduino Uno and then the other end of the USB to your computer’s USB port.
 
 Once the board is connected, you will need to go to Tools then Board then finally select Arduino Uno.
 
-![Cannot load image](../img/img4.png)
+![Alt Text: Screenshot of Arduino IDE showing how to select our board type](../img/board-select.png)
 
 Next, you must tell the Arduino which port you are using on your computer.
 
 To select the port, go to Tools then Port then select the port that says Arduino.
 
-![Cannot load image](../img/img5.png)
+![Alt Text: Screenshot of Arduino IDE showing how to select the COMM port](../img/COMM-port.png)

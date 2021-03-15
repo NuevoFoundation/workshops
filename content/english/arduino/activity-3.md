@@ -5,9 +5,9 @@ hidden: false
 weight: 6
 ---
 
-### Activity 3 - Joystick + LEDs
+## Activity 3 - Joystick + LEDs
 
-![Cannot load image](../img/act3_joy+led.png))
+![Alt Text: Wiring Diagram For Connecting Joystick and 5 LEDs](../img/act3_joy+led.png)
 
 Let’s combine activity 1 and activity 2. Let’s control LEDs based on the input from the joystick.
 1.	Attach one end of a jumper wire to GND on the joystick and the other to 7X on the Breadboard.
@@ -36,7 +36,7 @@ Let’s combine activity 1 and activity 2. Let’s control LEDs based on the inp
 24. Attach one end of a jumper wire to the +5V on the Elegoo and the other anywhere on one of the red [+] lines.
 25. Attach one end of a jumper wire to the GND on the Elegoo and the other anywhere on one of the blue [-] lines.
 
-### The Code
+## The Code
 
 ```
 int button=2;

@@ -5,11 +5,11 @@ hidden: false
 weight: 4
 ---
 
-### Wiring Our Blinking LED
+## Wiring Our Blinking LED
 
 For your introduction to this system, we're going to turn an LED on and OFF. From this we can get the basics of circuitry and how our program can run and manipulate components.
 
-![Wiring help](../img/act1_LED1.png)
+![Alt Text: Wiring Diagram for the LED](../img/act1_LED1.png)
 1.	Attach the long lead (anode) of your LED to pin 25J and the short lead (cathode) anywhere in the blue [-] line.
 2.	Attach a 220 resistor with one leg in 25H and the other anywhere in the red [+] line.
 3.	Attach one end of a jumper wire to anywhere in the same red [+] line on the Breadboard as Step 2 and the other to 5V on the Elegoo.
@@ -20,11 +20,11 @@ For your introduction to this system, we're going to turn an LED on and OFF. Fro
  Color-coding wires is common and really helpful! Here we used red for positive charge and black for negative charge but the color doesn’t matter so long as you can remember what is what.
  {{% /notice %}}
 
-### Opening LED Sample Code
+## Opening LED Sample Code
 6.	Click on File -> Examples -> 01.Basics -> Blink
 
 
-![Cannot load image](../img/img6.png)
+![Alt Text: Picture showing how to find Blink sample code](../img/Blink-sample-code.png)
 
 7.	Now click the upload button to deploy the program to the Arduino.
 
