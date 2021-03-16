@@ -16,7 +16,6 @@ Today we will work on a few activities to show you some of the capabilities of t
 
 ![Picture of an Arduino](./img/Arduino.png)
 
-
 ## Table of Contents
 <details>
 <summary>Sections</summary>
