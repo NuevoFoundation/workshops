@@ -1,66 +1,66 @@
 ---
 title: "Variables and Types"
-description: "Introduce types and variables in Java."
+description: "Introducción a types y variables en Java."
 date: 2020-07-08T00:00:00Z
 weight: 3
 ---
 
-### 1. Variables: Name It!
-In the last exercise, we learn to print different statements with `System.out.print()`. 
+### 1. Variables: Define un Nombre
+En el último ejercisio, aprendimos como imprimir distintas delcaraciones con el método `System.out.print()`. 
 
-While it's great to print out a number or a sentence, we haven't given them a meaning. 
+Está genial saber como imprimir números y oraciones. Pero todavía no les hemos dado un significado más profundo.
 
-In Java, we introduce the idea of a <b>variable</b> for data. A variable is like a box that stores a piece of data with a name. 
+En Java, ahora vamos a introducir el concepto de una <b>variable</b> for data. Una variable es como una caja donde guardas un pedazo de data o información con un nombre.
 
-For example, there can be a variable called `myName` that stored `"Patrick"`, another variable called `loveMusic` that stored `true`, and another variable called `age` that stored `3`. Just like the image below:
+Por ejemplo, pueden haber una variable llamada  `myName` que guarda la información `"Patrick"`, y otra variable llamada `loveMusic` que guarda el valor de `true`, y otra variable llamada `age` que guarda el valor `3`. Como puedes ver en la siguiente imagen:
 
 <img src="../images/variable.png" height="200"/> 
 
-### 2. What the Type! 
+### 2. Qué Type 
 
-So how do we create these boxes or variables in Java to store data?
+Entonces, cómo podemos crear estas cajas o variables en Java para guardar data?
 
-Before learning that we need to learn the concept of <b>type</b> in Java. Each variable has its own type that restrict it to store a specific kind of data.
+Antes de aprender cómo, tenemos que aprender sobre el concepto de un <b>type</b> en Java. Cada variable tiene su propio type que especifica el tipo de data que se puede guardar en esa variable.
 
-For example, the variable called `age` that store the number `3` should contain contain integers, not sentences or symbols. 
+Por ejemplo, la variable llamada `age` guarda el número `3` debería contener <b>integers</b>, y no oraciones ni símbolos. 
 
-In Java, for a variable to store whole numbers, it is type `int`. And, we declare a `int` variable called `age` with data `3` with the line of code:
+Cuando usamos Java, para que una variable pueda guardar números enteros, la variable tiene que ser type <b>int</b>. Así podemos declarar una variable `int` llamada `age` con data `3` para guardar, con la siguient línea the código:
 ```java
 int age = 3;
 ```
 
-In general, to declare a variable we write them in the format: `[data type] [variable name] = [data];`.
+Por lo general, para declarar una variable, se utiliza el siguiente formato: `[data type] [variable name] = [data];`.
 {{% notice note %}}
-The following are the important data types that have been built-in in Java:
+Los siguientes son distintos tipos de variables ya disponible en Java:
 
-- `int` type: an integer (i.e. `20`, `30`, `35`).
+- `int` type: un número entero (i.e. `20`, `30`, `35`).
 
-- `char` type: a character such as a symbol or single alphabet letter (i.e. `'A'`, `'b'`, `'('`, `']'`). 
+- `char` type: un caracter sea símbolo or letra individual del abecedario (i.e. `'A'`, `'b'`, `'('`, `']'`). 
 
-- `String` type: a sequence of `char` (i.e. `"Hello"`, `"Bonjour"`, `"Hola"`).
+- `String` type: una secuencia de caracteres de tipo `char` (i.e. `"Hello"`, `"Bonjour"`, `"Hola"`).
 
-- `boolean` type: a type that is either the value `true` or `false`.
+- `boolean` type: una variable que solo puede tener valor de cierto o falso `true` or `false`.
 
-- `double` type: type that store fractional numbers (i.e. `2.0`, `3.14`, `9.33`).
+- `double` type: un número que puede guardar fraciones (i.e. `2.0`, `3.14`, `9.33`).
 {{% /notice %}}
 
-Let's revisit the three variables we talked about and identify their data types. 
+Repasemos las trés variables que aprendimos. 
 
 <img src="../images/dataType.png" height="200"/> 
 
-To declare these variables in Java, we type the following:
+Para declarar estas variables en Java, escribimos lo siguiente:
 ```java
 String name = "Patrick";
 int age = 10;
 boolean loveMusic = true;
 ```
 
-### 3. What the Type -- Help Patrick! 
-Patrick 🐥 isn't a master of data types! He often mixed them up when declaring variables. Let's help him fix his mistake:
+### 3. Cuál es el Type -- Ayuda a Patrick
+Patrick 🐥 no es un experto en tipos de data. Frecuentemente los confunde cuando intenta declarar una variable. Vamos a ayudarlo a corregir sus errores:
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsDataType?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 {{% notice tip %}}
-By storing data in variables, you can use that data later or change it by assigning it to a different data of the same type. For example:
+Luego de Guardar data en una variable, uno puede usar la data guardada en esa variable o modificarla al asignarle un nuevo valor del mismo tipo. Por ejemplo:
 
 ```java
 int age = 10;
@@ -70,8 +70,8 @@ System.out.println(age); // prints out 11
 ```
 {{% /notice %}}
 
-### 4. What the Type -- Track Numbers! 
-Now consider the following code. What do you think the output is? Track the values of each variable by yourself then test it out below!
+### 4. Cuál es el Type -- Imrpime los Valores 
+Primero considera el siguiente código. Qué crees que será su resultado? Imprime los valores de cada variable 
 
 ```java
 double x = 2.3;
