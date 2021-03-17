@@ -5,6 +5,8 @@ date: 2020-07-13T00:00:00Z
 weight: 4
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wP8-F1nBPcg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### 1. Let's do Math: Arithmetic Operator
 In the last exercise, we learn about variables any how we can assign values to a variable of a specific type, such as:
 ```java

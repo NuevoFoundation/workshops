@@ -5,6 +5,8 @@ date: 2020-07-13T00:00:00Z
 weight: 5
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/X8HzOuCel9A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### 1. Make a Decision: If-Statement
 Patrick 🐥 is a very polite duck who likes to greet everyone he meets with "Good Morning," "Good Afternoon," or "Good Night" depends on the current time.
 

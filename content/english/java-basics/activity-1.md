@@ -5,6 +5,8 @@ date: 2020-07-08T00:00:00Z
 weight: 2
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uYoq-4juYBY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### 1. Let the Program Speak! 
 
 Let’s try to write a program that says `Hello World` out by typing the line of code `System.out.print("Hello World");` 
