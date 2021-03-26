@@ -1,35 +1,35 @@
 ---
 title: "Answer Key - Android Tic-Tac-Toe"
-date: 2020-07-27T14:17:07.42-07:00
+date: 2021-03-13T14:17:07.42-07:00
 draft: true
-hidden: true
-weight: 13
+hidden: false
+weight: 14
 ---
 
 ### Puzzle 1
-```java
+```xml
 <resources>
     <string name="app_name">Tic-Tac-Toe</string>
 </resources>
 ```
 
 ### Puzzle 2
-```java
+```kotlin
 Toast.makeText(this, "Welcome to Tic-Tac-Toe", Toast.LENGTH_LONG).show()
 ```
 
 ### Puzzle 3
 #### Puzzle 3a
-```java
+```kotlin
 var colorGreen = Color.GREEN
 ```
 #### Puzzle 3b
-```java
+```kotlin
 var winner = -1
 ```
 
 ### Final Puzzle
-```java
+```kotlin
 //cross1
 if (Player1.contains(1) && Player1.contains(5) && Player1.contains(9))
 {

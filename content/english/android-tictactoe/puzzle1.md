@@ -1,17 +1,20 @@
 ---
 title: "Puzzle 1"
-date: 2020-07-27T14:17:07.42-07:00
+date: 2021-03-13T14:17:07.42-07:00
 draft: false
-hidden: true
-weight: 2
+hidden: false
+weight: 3
 ---
 
-# Run the Game
-Press the play button button (►) at the top of Android Studio and you’ll see that the title at the top of the app says Toe-Tac-Tic (that doesn't seem right!), let's change it to Tic-Tac-Toe.
+## Run the Game
+Press the play button button (►) at the top of Android Studio to start the game.
+<img src="../resources/_gen/images/run_app.png" height="40%" width="40%" title="Run app button" alt="Run app button"/>
 
-# Solve the Puzzle
-Double-click the ```strings.xml``` file under res --> values:
-![Strings.xml location](../resources/_gen/images/puzzle1.PNG)
+You'll see that the title at the top of the app says Toe-Tac-Tic (that doesn't seem right!); let's change it to Tic-Tac-Toe.
+
+## Solve the Puzzle
+Double-click the `strings.xml` file under app &rarr; res &rarr; values:
+<img src="../resources/_gen/images/open_strings_file.gif" height="40%" width="40%" title="Strings.xml location" alt="Shows how to navigate toe strings.xml in Android Studio"/>
 
 How can you modify this file to say Tic-Tac-Toe?
-![Strings.xml content](../resources/_gen/images/puzzle1_stringsxml.PNG)
+<img src="../resources/_gen/images/puzzle1_stringsxml.png" height="40%" width="40%" title="Strings.xml content" alt="Image showing how to modify the app name string to say Tic Tac Toe"/>

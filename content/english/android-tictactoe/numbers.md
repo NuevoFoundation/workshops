@@ -1,16 +1,13 @@
 ---
 title: "Numbers"
-date: 2020-07-27T14:17:07.42-07:00
+date: 2021-03-13T14:17:07.42-07:00
 draft: false
-hidden: true
-weight: 8
+hidden: false
+weight: 9
 ---
-
-# Numbers
-
 The computer can also do regular math that you see in school. Use `System.out.println` to print out the result from the math expressions.
 
-```java
+```kotlin
 System.out.println(5 + 4);
 System.out.println(6 * (9 - 7) / 3);
 ```
