@@ -5,6 +5,8 @@ date: 2020-07-16T00:00:00Z
 weight: 7
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ejXgw0qchDg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### 1. Creating a Class!
 Java is an <b>object-oriented</b> programming language, which means everything in Java is associated with an <b>object</b> and a <b>class</b> (the blueprint for the object).
 

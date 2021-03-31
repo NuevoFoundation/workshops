@@ -5,6 +5,8 @@ date: 2020-07-08T00:00:00Z
 weight: 3
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KE0fNb-hTKE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### 1. Variables: Name It!
 In the last exercise, we learn to print different statements with `System.out.print()`. 
 

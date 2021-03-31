@@ -5,6 +5,8 @@ date: 2020-07-13T00:00:00Z
 weight: 6
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mO6S9Yq_K4I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### 1. What is A Method?
 So far, we've learned about how to store data in variables, print data and sentences, and make decisions with if-statement, for-loop, and while-loop. 
 
