@@ -22,6 +22,8 @@ From a list of images given below choose whether you think it's phishy or not?
   <label for="notify-off">No</label>
 </fieldset>
 
+<!--
+
 ![Cannot load image](legit_email_1.png?classes=border,shadow)
 
 <fieldset>  
@@ -31,6 +33,7 @@ From a list of images given below choose whether you think it's phishy or not?
   <input type="radio" id="notify-off1" name="notify1" value="off">
   <label for="notify-off">No</label>
 </fieldset>
+-->
 
 ![Cannot load image](linkedIn.png?classes=border,shadow)
 
@@ -73,7 +76,7 @@ From a list of images given below choose whether you think it's phishy or not?
   <label for="notify-off">No</label>
 </fieldset>
 
-
+<!--
 
 ![Cannot load image](legit_email_2.png?classes=border,shadow)
 
@@ -83,4 +86,7 @@ From a list of images given below choose whether you think it's phishy or not?
   <label for="notify-on">Yes</label>
   <input type="radio" id="notify-off1" name="notify1" value="off">
   <label for="notify-off">No</label>
-</fieldset>
+</fieldset> -->
+
+<br>
+{{< button href="/security-phishing/6-summary/" theme="success" >}} Check answers! {{< /button >}}

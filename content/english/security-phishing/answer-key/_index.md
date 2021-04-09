@@ -7,6 +7,11 @@ weight: 5
 ---
 
 ### Solution
-In our *What's Phishy* activity the passwords "Ilovesoccer" and "12345678" are weak and can be easily hacked/guessed by a malicious person.
+
+In the activity "What's Phishy" the following emails and texts were potential phishing attempts:
+1. The email from spotifyaccounts.
+2. The linkedIn banner.
+3. The text from amazon for free airpods.
+4. A voice notification email. 
 
 

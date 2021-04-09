@@ -14,13 +14,12 @@ A smishing text, for example, attempts to entice a victim into revealing persona
 via a link that leads to a phishing website.
 ![Cannot load image](SMS.JPG?classes=border,shadow)
 In the above image, an unknown sender texts you about free deals on iPads and lures you into
-clicking a maclicios link.  
+clicking a malicious link.  
 
 ## Malvertising
 
 Malvertising is malicious advertising that contains active scripts designed to download malware 
 or force unwanted content onto your computer. 
-Exploits in Adobe PDF and Flash are the most common methods used in malvertisements.
 
 ![Cannot load image](malvertising.png?classes=border,shadow)
 In the above image, a maladvertisment blends into a genuine website. It encourages you to click on the

@@ -19,6 +19,3 @@ A strong password is hard to guess, but it should be easy for you to remember - 
 ### Solution
 
 In the Spy Game the passwords "Ilovesoccer" and "12345678" are weak and can be easily hacked by a malicious person.
-
-
-

@@ -17,14 +17,17 @@ translationKey: "security-6"
 `Example:  mail@g00gle.com instead of mail@google.com`
 6. Email attachments with random file name or extensions. 
 
-## Finally, be careful about what you upload to or download from internet.
 
 
 
-<!--
+
+
 ### Solution
 
-In the activity "What's Phishy" the passwords "Ilovesoccer" and "12345678" are weak and can be easily hacked by a malicious person.
-*/-->
+In the activity "What's Phishy" the following emails and texts were potential phishing attempts:
+1. The email from spotifyaccounts.
+2. The text from amazon for free airpods.
+3. A voice notification email. 
 
 
+### Finally, be careful about what you upload to or download from internet.

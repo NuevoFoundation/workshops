@@ -26,7 +26,7 @@ meet his good friend **Alice**.
 
 
 **Bob** told **Alice** all about the email,
-the trip to Bahama, his new clothes and how he cannot wait to go fishing. 
+the trip to Bahamas, his new clothes and how he cannot wait to go fishing. 
 **Alice** being a secret agent was suspicious, and asked **Bob** to show her 
 the email. 
 
