@@ -36,7 +36,7 @@ other = "Contactanos"
 
 # Metadata.html
 [workshop-resources]
-other = "Recursos del tallers"
+other = "Recursos del taller"
 
 [pre-requisite]
 other = "Requisito previo:"
