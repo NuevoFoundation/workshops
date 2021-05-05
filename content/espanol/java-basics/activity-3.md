@@ -1,74 +1,75 @@
 ---
-title: "Operators"
-description: "Introduce operators and perform operations on variables in Java."
+title: "Operadores"
+description: "Introduccíon a operadores y cómo realizar operaciones a variables en Java."
 date: 2020-07-13T00:00:00Z
 weight: 4
 ---
 
-### 1. Let's do Math: Arithmetic Operator
-In the last exercise, we learn about variables any how we can assign values to a variable of a specific type, such as:
+### 1. Matemática : Operadores de Artimétic
+En el último ejercisio, aprendimos sobre distintos tipos de variables y cómo podemos aignarles un valor. Por ejemplo:
+
 ```java
-int age = 3;  // declare variable age of type int with value 3
-age = 4;      // assign 4 to the variable age
+int age = 3;  // declara la variable age de type int con valor de 3
+age = 4;      // asingnale el valor de 4 a la variable age
 ```
 
-Looking at the code above, it essentially add 1 to the value of the variable `age`. 
+El código de arriba le suma 1 a la variable `age`. 
 
-And, in Java, we can perform math operations on variables directly with <b>arithmetic operators</b>: `+`, `-`, `*`, `/`, `%`.
-For example, we can use the add operator `+` to add 1 to `age`:
+Y en Java, podmeos realizar operaciones matemáticas directamente con las variables y los siguientes <b>opereadores aritméticos</b>: `+`, `-`, `*`, `/`, `%`.
+Por ejemplo, podemos usar el operator de suma `+` para sumarle 1 a la variable `age`:
 ```java
-int age = 3;  // declare variable age of type int with value 3
-age = age + 1;// add 1 to age
+int age = 3;  // declara la variable age de type int con valor de 3
+age = age + 1;// suma 1 a la variable age
 ```
 {{% notice note %}}
-The following are the arithmetic operators in Java:
+List de operadores de aritmética en Java:
 
-- `+`: addition.
+- `+`: suma.
 
-- `-`: subtraction. 
+- `-`: resta. 
 
-- `*`: multiplication.
+- `*`: multiplicación.
 
-- `/`: (regular real) division. <b>Note</b>: `10 / 4` returns 2, not 2.5 since we throw away the remainder.
+- `/`: (regural) división. <b>Note</b>: `10 / 4` resulta 2, en vez de 2.5 ya que se descarta el resto de la división.
 
-- `%`: mod/remainder. <b>Note</b>: `10 / 4` returns 2. This operation get the remainder of the division.
+- `%`: modulo. <b>Note</b>: `10 / 4` resulta 2. Esta operación resulta en el resto de una división.
 {{% /notice %}}
 
 {{% notice tip %}}
-Add (`+`) is used on String as concatenation operator. For example:
+Suma (`+`) se usa en String como uno operador de unificación. Por ejemplo:
 
-`String name = "Patric" + "k";` is same as `String name = "Patrick";`
+`String name = "Patric" + "k";` es igual que `String name = "Patrick";`
 {{% /notice %}}
 
-### 2. Comparisons: Relational Operator
-Next, let's learn how to compare numbers. Let me introduce the <b>relational operators</b>.
+### 2. Comparación: Operador Relacional
+Ahora vamos aprender como compara números. Para eso necesitaremos el <b>operador relacional</b>.
 
-Just like in math, we can compare numbers using `>`, `<`, `>=`, `<=`. For example: `(3 > 2)` is `true`, a boolean value.
+Al igual que en matemáticas, podemos comparar variables usando estos operadores `>`, `<`, `>=`, `<=`. Por ejemplo: `(3 > 2)` resulta en el valor `true`, un valor boolean.
 
 {{% notice note %}}
-The following are the relational operators in Java:
+Estos son los operadores relacionale en Java:
 
-- `==`: equal to. (i.e. `(3 == 3)` is `true`)
+- `==`: igual a. (i.e. `(3 == 3)` is `true`)
 
-- `!=`: not equal to. (i.e. `(3 != 3)` is `false`)
+- `!=`: no igual a. (i.e. `(3 != 3)` is `false`)
 
-- `>`: greater than.
+- `>`: mayor a.
 
-- `<`: less than.
+- `<`: menor a.
 
-- `>=`: greater than or equal to.
+- `>=`: mayor a o igual a.
 
-- `<=`: less than or equal to.
+- `<=`: menor a o igual a.
 
-Note: you can use `==` and `!=` on 2 pieces of data of the same type.
+Note: puedes usar  `==` y `!=` en dos variables con data del mismo tipo.
 {{% /notice %}}
 
-### 3. Exam Statistic! 
-Patrick 🐥 and 4 of his classmates just had a music exam in this class. These are the grades of their exams: Patrick(88), Tom(89), Mary(95), Chris(84), Jen(92).
+### 3. Estadística de examen 
+Patrick 🐥 y 4 alumnos acaban de tener un examen de música. Los resultados de sus exámenes: Patrick(88), Tom(89), Mary(95), Chris(84), Jen(92).
 
-We want to produce a grade statistic report of the whole class. 
+Queremos producir un reporte para estádisticas de examen de la clase de música. 
 
-This report list of students grade, class average score, and whether class average is over 60, 70, 80, 90 (`true` or `false`), like the following:
+Este reporte contiene los resultados de cada estudiante, el promedio de la clase, y si el promedio de la clase está sobre 60, 70, 80, 90 (`true` or `false`):
 ```
 ---------------------------
      Music Grade Report    
@@ -85,22 +86,21 @@ Class Average: ...
 - Average Over 80: ...
 - Average Over 90: ...
 ```
-Let's write it with the help of operators 🎵!
+Ahora vamos a escribir el programa usando operadores relacionales 🎵
 
 {{% notice note %}}
-#### Instructions:
+#### Instrucciones:
 
-1. Identify all the variables in the print statements and declare them starting on line 12 with the correct data type and value. Note that there are 10 variables in total, and `average` has been declared for you).
+1. Identifique todas las variables en las declaraciones de <b>print</b> y declaralas empezando en la línea 12 con el  valor y tipo de data correcto. (Note que hay 10 variables en total, y la variable `average` ya ha sido declarada).
+   Hint: Por ejemplo, la variable `patrickGrade` debería ser declarada y asignada en la línea 13 como `int patrickGrade = 88;`.
 
-   Hint: for example, the variable `patrickGrade` should be declared and assigned on line 13 as `int patrickGrade = 88;`.
+2. Calcule el promedio correcto para la clase y asignale el valor a la variable `average` usando <b>operadores aritméticos</b> como `+`, `-`, `*`, `/`, `%`.
 
-2. Calculate the correct class average and assign it to variable `average` using <b>arithmetic operators</b> such as `+`, `-`, `*`, `/`, `%`.
+   Note que el promedio es `(total points)`/`(number of students)`.
 
-   Note that an average score is `(total points)`/`(number of students)`.
+3. Asigna las variables `over60`, `over70`, `over80`, `over90` con los valores correctos usando <b>operadores relacionales</b> como `>`, `<`, `>=`, `<=`.
 
-3. Assign variables `over60`, `over70`, `over80`, `over90` with the correct value using <b>relational operators</b> such as `>`, `<`, `>=`, `<=`.
-
-4. Run the program and see the report printed!
+4. Ejecuta el código de tu programa y be el reported impreso.
 
 {{% /notice %}}
 

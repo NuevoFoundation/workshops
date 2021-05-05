@@ -1,28 +1,28 @@
 ---
 title: "Control Structures"
-description: "Introduce if-else, for, and while loops in Java."
+description: "Introducción a if-else, for, y while loops en Java."
 date: 2020-07-13T00:00:00Z
 weight: 5
 ---
 
-### 1. Make a Decision: If-Statement
-Patrick 🐥 is a very polite duck who likes to greet everyone he meets with "Good Morning," "Good Afternoon," or "Good Night" depends on the current time.
+### 1. Tomanndo Una Decision: If-Statement
+Patrick 🐥 es un pato muy cordial que le gusta saludar a todo el que conoce con "Good Morning," "Good Afternoon," o "Good Night" dependiendo del tiempo del día.
 
 ![animation of duck Patrick](https://media.giphy.com/media/hpWrLS1RDBd5pwkgjy/giphy.gif) 
 <p style="text-align: center;">(image by National Geographic: giphy.com/natgeochannel)</p>
 
-As we learned before, we can print these statements as below:
+Como aprendimos antes, podemos imprimir las siguientes oraciones:
 ```java
-System.out.println("Good Morning");   // say it between 0:00 - 11:59
-System.out.println("Good Afternoon"); // say it between 12:00 - 19:59
-System.out.println("Good Night");     // say it between 20:00 - 23:59
+System.out.println("Good Morning");   // se dice entre 0:00 - 11:59
+System.out.println("Good Afternoon"); // se dice entre 12:00 - 19:59
+System.out.println("Good Night");     // se dice entre 20:00 - 23:59
 ```
 
-However, we also know Patrick 🐥 should only decide to say one of these statements depends on the time. 
+Sin embargo, también sabemos que Patrick 🐥 solo puede decidir que decir dependiendo la hora.
 
-In other words, we need to write code that makes a decision on what to print depend on a situation.
+En otras palabras, tenemos que escribir código que tome la decisión sobre que imprimir dependiendo la situación.
 
-In Java, we make a decision by using <b>if statement</b> or <b>if...else statement</b>. Read the notes below:
+En Java, podemos tomar una decisión usando el <b>if statement</b> o <b>if...else statement</b>:
 
 {{% notice note %}}
 #### If Statement
@@ -31,7 +31,8 @@ if(boolean expression){
     statement(s)
 }
 ```
-An <b>if statement</b> follows the structure shown above. The statement in the block will only be executed if the boolean expression is `true`. Otherwise, the program will skip to the statement after the block.
+Un <b>if statement</b> tiene la siguiente esctructura mostrada arriba. Este método ejecutará el código dentro del bloque solo si la expresión boolean iguala a `true`. Si no, el programa salta el bloque de código.
+
 #### If-Else Statement
 ```
 if(boolean expression){
@@ -40,8 +41,8 @@ if(boolean expression){
     statement(s) B
 }
 ```
-An <b>if-else statement</b> follows the structure shown above. If the boolean expression is `true`, the program will execute the if-block with `statement(s) A`. Otherwise, the program executes only the else-block with `statement(s) B`.
-#### Example
+Un <b>if-else statement</b> tiene la siguiente esctructura mostrada arriba. Este método ejecutará el código de `statement(s) A` del bloque solo si la expresión boolean iguala a `true`. Si no, el programa ejecutará el código de `statement(s) B` dentro del else-block.
+#### Ejemplo
 ```java
 boolean likeMusic = true;
 if(likeMusic == true){
@@ -50,28 +51,28 @@ if(likeMusic == true){
     System.out.println("I don't like Music");
 }
 ```
-The code above will print the statement `I like Music` because the boolean expression, `likeMusic == true`, is true.
+El código imprimirá `I like Music` porque la expresión boolean, `likeMusic == true`, es igual al valor de true.
 {{% /notice %}}
 
-Let's revisit the greating example above, and make decision for Patrick on whether to say "Good Morning," "Good Afternoon," "Good Night". 
+Repasa el ejemplo de arriba, y toma una decisión si Patrick debe decir "Good Morning," "Good Afternoon," o "Good Night". 
 
-Patrick should say "Good Morning" between 0:00 - 11:59, "Good Afternoon" between 12:00 - 19:59, and "Good Night" between 20:00 - 23:59.
+Patrick debería decir "Good Morning" entre 0:00 - 11:59, "Good Afternoon" entre 12:00 - 19:59, y "Good Night" entre 20:00 - 23:59.
 
-1. We have a variable `currentHour` that stores the current hour. 
-2. Fill out the correct `boolean expression A` and `boolean expression B` to complete the program. 
-3. Test your result by assigning the variable `currentHour` to numbers from 0 to 23:
+1. Tenemos la variable `currentHour` que guarda la hora actual. 
+2. Llene la correcta `boolean expression A` y `boolean expression B` para completar su programa. 
+3. Pruebe su resultado asignando la variable `currentHour` a un número entre 0 y 23:
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsIfStatement?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-### 2. Repeat It Again: For-Loop, While-Loop
-In math class, Patrick's 🐥 teacher ask the class to solve a math challenge, and he might need some help. 
+### 2. Repítalo de nuevo: For-Loop, While-Loop
+En clase de Matemáticas, la maestra de Patrick 🐥 le pregunta a la clase que solucione un problema, y tal vez Patrick necesite ayuda:
 
-The teacher asks them to find the <b>sum of 1, 2, 3, ...., 100</b>. That is what is <b>1 + 2 + 3 + 4 ... + 99 + 100</b>?
+La maestra les pide que encuentren la suma de <b>sum of 1, 2, 3, ...., 100</b>. Es decir, que sumen <b>1 + 2 + 3 + 4 ... + 99 + 100</b>?
 
-While we can plug this in to a calculator, that is gonna take a while. Thankfully, in Java, you can easily calculate this in 3 lines with the help of a <b>for loop</b> or <b>while loop</b>.
+Meintras se puede usar la calculadora, eso tomaría demasiado tiempro. Por suerte, en Java, podemos facilmente calcular esta suma con solo 3 líneas de código usando un <b>for loop</b> o <b>while loop</b>.
 
 {{% notice note %}}
-<b>For loop</b> and <b>While loop</b> are control structures in Java that allow you to execute blocks of code multiples times.
+<b>For loop</b> u <b>While loop</b> son estructuras de control en Java que te permitem ejecutar bloques de código multiples veces.
 
 #### While Loop
 ```
@@ -79,30 +80,30 @@ while(boolean expression){
     statement(s)
 }
 ```
-`statement(s)` in the while block will be executed as long as the `boolean expression` is true. 
+`statement(s)` en el bloque de while serán ejecutados siempre y cuando el valor de el `boolean expression` sea true. 
 
-The following is an example that prints out 1 through 10:
+El siguiente ejemplo imprime los números del 1 al 10:
 ```java
 int number = 1;
 while(number <= 10){
     System.out.println(number);
-    number = number + 1;        // number is incremented by 1
+    number = number + 1;        // número incrementado por 1
 }
 ```
-In the while loop above, the program will print out the value of `number` and increment `number`. This step will be performed as long as `number <= 10`, and in this case the loop terminates when `number` is 11.
+En el while loop del ejemplo arriba, el programa imprimirá el valor de `number` e incrementa el valor de `number`. Este paso será ejecutado siempre y cuando la variable `number <= 10`, y en este caso el loop termina cuando `number` sea 11.
 #### For Loop
 ```
 for(initialization; termination condition; update statement){
     statement(s)
 }
 ```
-In a for loop, there are three parts the in condition block: `initialization`, `termination condition`, and `update statement`.
-1. When executing a for loop, the program will execute the `initialization` part. An example is, `int number = 1`.
-2. Next, the program checks for `termination condition`. An example is `number <= 10`.
-3. If it is `true`, execute the `statement(s)` and the `update statement` (an example is `number = number + 1`) then repeat step 2.
-   If it is `false`, exit the for loop.
+En un for loop, hay tres partes en el bloque de condiciones: `initialization`, `termination condition`, y `update statement`.
+1. Cuando se ejecuta un for loop, el programa primero corre la parte de `initialization`. Un ejemplo es, `int number = 1`.
+2. Luego, el programa chequea `termination condition`. Un ejemplo es `number <= 10`.
+3. Si es igual a `true`, ejecuta los `statement(s)` y el `update statement` (un ejemplo es `number = number + 1`) después repite el paso 2.
+   Si es `false`, se termina el for loop.
 
-The following is an example that prints out 1 through 10:
+Lo siguiente es un ejemplo que imprime los números entre el 1 y el 10:
 ```java
 for(int number = 1; number <= 10; number = number + 1){
     System.out.println(number);
@@ -110,14 +111,14 @@ for(int number = 1; number <= 10; number = number + 1){
 ```
 {{% /notice %}}
 
-After learning about for loop and while loop, let's see how do we help Patrick 🐥 and calculate <b>1 + 2 + 3 + 4 ... + 99 + 100</b> easily?
+Luego de aprender sobre el for loop y el while loop, vamos a ver si Patrick 🐥 ouede calcular calculate <b>1 + 2 + 3 + 4 ... + 99 + 100</b> fácilmente?
 
-Let's try to do it in a while loop: 
-1. We have a variable called `total` that tracks the total addition sum we get so far.
-2. We have a variable called `num` that tracks the next number to be added to `total`.
-3. Write out the appropriate `boolean expression` and write out the while loop.
+Ahora intenetemos lograr la sumatoria usando un while loop: 
+1. Tenemos una variable llamada `total` que guarda el total de la sumatoria.
+2. Tenemos una variable llamada `num` que guarda el próximo número que será sumado a `total`.
+3. Declara un `boolean expression` e imprimelo dentro del while loop.
 
-By following those step we will get a while loop like this:
+Luego de seguir estos pasos, terminamos con el siguiente código:
 ```java
 int total = 0;
 int num = 1;
@@ -127,6 +128,6 @@ while(num <= 100){
 }
 System.out.println("Answer calculated in a while loop: " + total);
 ```
-Test this out below by clicking `Run` and write a for loop version that calculates the same thing! You should get the same answer!
+Pruebe esto presionando `Run` y escribe una versión del programa usando for loop que calcule lo mismo. Ambos programas deberían resultar en el mismo valor. 
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsForWhile?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>

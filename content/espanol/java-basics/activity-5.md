@@ -1,14 +1,14 @@
 ---
-title: "Methods"
-description: "Introduce methods in Java."
+title: "Métodos"
+description: "Introducción a métodos en Java."
 date: 2020-07-13T00:00:00Z
 weight: 6
 ---
 
-### 1. What is A Method?
-So far, we've learned about how to store data in variables, print data and sentences, and make decisions with if-statement, for-loop, and while-loop. 
+### 1. Qué Son Métodos?
+Ya aprendimos como guardar data en variables, imprimir data, imprimir oraciones, y como tomar decisiones con los if-statement, for-loop, y while-loop. 
 
-From the last exercise, we know the following block of code calculates the sum from 1 to 100:
+En nuestro último ejemplo, aprendimos que el siguiente código calcula la suma del 1 al 100:
 ```java
 int total = 0;
 int num = 1;
@@ -18,26 +18,26 @@ while(num <= 100){
 }
 System.out.println("Sum: " + total);
 ```
-But what if we want to calculate the sum from 1 to 77 instead? How do we do it without writing the whole blocks of code again?
+Pero si en vez queremos calcular la suma del 1 al 77? Cómo podemos lograr eso sin tener que reescribir el mismo código?
 
-We want to create a ✨ magic box ✨ in code that does the calculation for us no matter which 2 numbers we want to create a sum for!
+Queremos crear un ✨ magic box ✨ en el código sin importar para qué dos números queremos para la suma.
 <img src="../images/method.png" height="250"/> 
 
-In Java, a <b>method</b> is like the magic box that performs a specfic task by running a block of code using user inputs. 
+En Java, un <b>method</b> es como un magic box que ejecuta ciertos pasos al ejecutar un código usando los valores que ingrese un usuario.
 
-There are 2 parts in a method: header and body:
+Hay 2 partes en un method: header y body:
 
 {{% notice note %}}
 #### Method Header
-To define a method, we need to first write out its <b>method header</b>. A method header has four main parts:
+Para definir un method, primero escribimos el <b>method header</b>. Un method header tiene cuatro partes:
 
-1. <b>access specifier</b>. `public` tells the computer that anyone can use this method. `private` if it can only be called within a class. (We'll learn about classes on the next page!)
+1. <b>access specifier</b>. `public` le deja saber a la computadora que cualquira puede usar ese method. `private` si solamente se puede accesar dentro de la misma clase donde se declara.
 
-2. <b>return type</b>. `void` means the method doesn't return anything.
+2. <b>return type</b>. `void` significa que el método no retorna nada.
 
 3. <b>method name</b>. 
 
-4. <b>list of parameters</b>/ user inputs in the format of (`type` `input name`, `type` `input name`, ... ).
+4. <b>list of parameters</b>/ formate de input del usuario (`type` `input name`, `type` `input name`, ... ).
 
 ```
 // an example
@@ -47,11 +47,11 @@ public void sing (String songName)
 <br />
 
 #### Method Body
-Next, we put the block of code associated with the method in the <b>method body</b>, which is between `{` and `}` after the method header.
+Ahora ponemos el bloque de código asociado con el método en el <b>method body</b>, que es entre medio de `{` and `}` después del method header.
 
-To return some data, we put the keyword `return` followed by a variable name or a value to be returned. 
+Para retornar data, usamos la palabra clave `return` seguida por la variable name o un valor para ser retornado. 
 
-This is an example of how to define a method that sum of numbers from `numA` through `numB`:
+Esto es un ejemplo de como definir un método que suma números del `numA` al `numB`:
 ```java
 /* Method Name: sumNum
  * Input/Parameter: 2 numbers of type int
@@ -59,20 +59,21 @@ This is an example of how to define a method that sum of numbers from `numA` thr
  */
 public int sumNum(int numA, int numB){
     int total = 0;
-    int num = numA;      // we access the first input with the name numA
-    while(num <= numB){  // we access the first input with the name numB
+    int num = numA;      // accesamos la primera entrada llamada numA  
+    while(num <= numB){  // accesamos la primera entrada llamada numB
         total = total + num;
         num = num + 1;
     }
-    return total; // return statement
+    return total; // valor de la variable llamada total
 }
 ```
 <br />
 
 #### Method Call
-Lastly, to execute a method in your code, we need to make a <b>method call</b>. We write out the method name with appropriate input. For example:
+Por último, para ejecutar un método in tu código, tenemos que asegura llamar el método via un <b>method call</b>. Lo gramos este escribiendo el nombré del método con las entrada requeridas. Por ejemplo:
+
 ```java
-sumNum(1, 3); // one line of code that calls method sumNum() with the return value 6
+sumNum(1, 3); // una línea que llama el método sumNum() resultando en el valor de  6
 ```
 Knowing `sumNum(1, 3)` returns an `int` with the sum from 1 to 3, we can do the following to store the value:
 ```java
