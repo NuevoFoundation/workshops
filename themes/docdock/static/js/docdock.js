@@ -103,7 +103,7 @@ jQuery(document).ready(function() {
     baseurl = baseurl.endsWith('/')?baseurl:baseurl+'/';
 
     jQuery('#sidebar .category-icon').on('click', function() {
-        $( this ).toggleClass("fa-angle-down fa-angle-right") ;
+        $( this ).toggleClass("fa-angle-down fa-angle-up") ;
         $( this ).parent().parent().children('ul').toggle() ;
         return false;
     });
