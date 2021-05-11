@@ -28,7 +28,7 @@ En Java, un <b>method</b> es como un magic box que ejecuta ciertos pasos al ejec
 Hay 2 partes en un method: header y body:
 
 {{% notice note %}}
-#### Method Header
+#### Header de un Método
 Para definir un method, primero escribimos el <b>method header</b>. Un method header tiene cuatro partes:
 
 1. <b>access specifier</b>. `public` le deja saber a la computadora que cualquira puede usar ese method. `private` si solamente se puede accesar dentro de la misma clase donde se declara.
@@ -46,7 +46,7 @@ public void sing (String songName)
 ```
 <br />
 
-#### Method Body
+#### Composición de un Método
 Ahora ponemos el bloque de código asociado con el método en el <b>method body</b>, que es entre medio de `{` and `}` después del method header.
 
 Para retornar data, usamos la palabra clave `return` seguida por la variable name o un valor para ser retornado. 
@@ -69,30 +69,30 @@ public int sumNum(int numA, int numB){
 ```
 <br />
 
-#### Method Call
+#### Llamado de un Método
 Por último, para ejecutar un método in tu código, tenemos que asegura llamar el método via un <b>method call</b>. Lo gramos este escribiendo el nombré del método con las entrada requeridas. Por ejemplo:
 
 ```java
 sumNum(1, 3); // una línea que llama el método sumNum() resultando en el valor de  6
 ```
-Knowing `sumNum(1, 3)` returns an `int` with the sum from 1 to 3, we can do the following to store the value:
+Sabiendo que `sumNum(1, 3)` resulta en `int` con la suma del 1 al 3, podemos guardar el valor resultanteen una variable:
 ```java
 int sum1to3 = sumNum(1, 3); 
 ```
 {{% /notice %}}
 
-### 2. Count the Pyramid!🔺
+### 2. Cuenta la Pirámide!🔺
 <img src="../images/pyramid.png" height="250"/> 
 <p style="text-align: center;">(photo credit: aliexpress.com/item/32306945847.html)</p>
 
-The above is an image of square-number pyramid where each level is a perfect square of the number of current level counting from the top. 
+La imagen de arriba es de una pirámide de números cuadrados donde cada nivel es una raíz cuadrada perfecta del número del nivel actual desde el tope.
 
-That is the top level has `1 * 1` bead, the 2nd level has `2 * 2` beads.
+Es decir, el nivel del tope tiene `1 * 1` beads, el segundo nivel tiene `2 * 2` beads.
 
 <br />
-Let's write a method that takes in the number of total levels and output the total number of beads in the pyramid!
+Vamos a escribir un método que toma el número total de niveles y resulta el número total de beads in la pirámide!
 
-Once you solved the challenge, you will see the following message:
+Luego de finalizar el ejercisio, verás el siguiente mensaje:
 ```
 Congratulations! Challenge Solved!
 ```
