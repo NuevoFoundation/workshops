@@ -1,40 +1,40 @@
 ---
-title: "Object and Classes"
-description: "Introduce object and class in Java."
+title: "Objetos y Clases"
+description: "Introducción a objetos y clases en Java."
 date: 2020-07-16T00:00:00Z
 weight: 7
 ---
 
-### 1. Creating a Class!
-Java is an <b>object-oriented</b> programming language, which means everything in Java is associated with an <b>object</b> and a <b>class</b> (the blueprint for the object).
+### 1. Creando una Clase
+Java es un lenguaje de programación <b>orientado a objetos</b>, cual significa que todo en Java está asociado con un <b>objeto</b> y una <b>clase</b> (el plano para un objeto).
 
-For starters, the line of code that we used to print statements from activity 1 is actually a method call from a predefined class called `System`!
+Por ejemplo, la línea de código que usamos en la actividad 1 es una llamada de un método de una clase pre definida llamada `System`.
 ```java
 System.out.println("Hello World");
 ```
-1. `System` is a class that deals with user input and outputs.
-2. `out` is a variable in class `System` of the class/type `PrintStream`.
-3. `println()` is a method defined in the class `PrintStream`.
+1. `System` es una clase que se usa para manejar entradas y salidas del usuario.
+2. `out` es una variable en la clase `System` de clas/tipo `PrintStream`.
+3. `println()` es un método pre definido en la clase `PrintStream`.
 
 <br />
-Another class we have interacted with in the previous exercises is `String`. The `String` class defines a set of rules on how a list of characters should behave.
+Otra clase con la cual hemos interactuados en ejercisios previos es `String`. La clase `String` defines un par de reglas que determinan como una lista de caracteres deberían comportarse.
 
-With following line of code, we created a `String` object called `name` using the rules defined in the `String` class:
+Con el siguiente código, creamos un objeto `String` llamado `name` usando las reglas definidas en la clase `String`:
 ```java
 String name = "Patrick";
 ```
 <br />
-`System`, `PrintStream`, and `String` are predefined classes in Java. However, we are not limited to these predefined classes, and we can actually create our own data type by writing a class! This is useful for coders to create specific objects to have certain attributes and behaviors. Having access to these user-defined types allows us to build distinct programs. 
+`System`, `PrintStream`, y `String` son clases pre definidas en Java. SIn embargo, no estamos limitados a solo usar ls clases pre definidas, y podemos crear nuestros propios tipos de data creando una clase. Esto es muy útil para que programadores puedan crear objectos específicos con ciertos atributos y comportamientos. Teniendo acceso a tipos de data definidos por el usuario nos permite crear distintos programas.
 
-Let's learn about the different parts in a class below:
+Vamos a aprender sobre las distintas partes de una clase:
 
 {{% notice note %}}
-#### Class
-A class is a blueprint or prototype of a new type of object. In general, a class contains three important parts: (1) data fields/instance variables (2) constructor (3) methods. 
+#### Clase
+Una clase es un plano o prototipo de un objeto nuevo. Por lo general, una clase contiene tres partes importantesÑ (1) campos de data/variables de instancia (2) constructor (3) métodos. 
 
 <img src="../images/class.png" height="400"/> 
 
-1. <b>data fields/instance variables</b>: These are the variables an object of this class has access to. For example: A `Car` class may have the field `tire` of class `Tire`.
+1. <b>campos de data/variables de instancia</b>: Estas son las variables que un objeto de esta clase tiene acceso a. Por ejemplo: A `Car` class may have the field `tire` of class `Tire`.
 
 2. <b>constructor</b>: This is a method we call to create an object of this Class.
 
