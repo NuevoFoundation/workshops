@@ -34,11 +34,11 @@ Una clase es un plano o prototipo de un objeto nuevo. Por lo general, una clase 
 
 <img src="../images/class.png" height="400"/> 
 
-1. <b>campos de data/variables de instancia</b>: Estas son las variables que un objeto de esta clase tiene acceso a. Por ejemplo: A `Car` class may have the field `tire` of class `Tire`.
+1. <b>campos de data/variables de instancia</b>: Estas son las variables que un objeto de esta clase tiene acceso a. Por ejemplo: Una clase llamada `Car` puede tener variables `tire` de la clase `Tire`.
 
-2. <b>constructor</b>: This is a method we call to create an object of this Class.
+2. <b>constructor</b>: un método para crear un objeto de esa Clase.
 
-3. <b>methods</b>: These are methods an object of this class will be able to call to perform certain tasks.
+3. <b>métodos</b>: Los métodos de un objeto dentro de una clase.
 
 For example:
 ```java
