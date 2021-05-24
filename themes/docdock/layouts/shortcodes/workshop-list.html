@@ -43,34 +43,40 @@
 {{- if .Params.hidden }}
 {{- else}}
 
-<span>
+<span class="workshop-button" onclick="location.href='{{.URL}}'">
 	{{- if hasPrefix $.style "h"}}
-	{{- $num := sub ( int (trim $.style "h") ) 1 }}
-	{{- $numn := add $num $.count }}
+		{{- $num := sub ( int (trim $.style "h") ) 1 }}
+		{{- $numn := add $num $.count }}
 
-	{{- (printf "<h%d>" $numn)|safeHTML}}
+		{{- (printf "<h%d>" $numn)|safeHTML}}
 
-	<a href="{{.URL}}">{{ .Title }}</a>
-	{{- (printf "</h%d>" $numn)|safeHTML}}
+		<a href="{{.URL}}">{{ .Title }}</a>
+		{{- (printf "</h%d>" $numn)|safeHTML}}
 	{{- else}}
-	{{- (printf "<%s>" $.style)|safeHTML}}
-	<!-- icon -->
-	{{- with .Params.icon}}
-	<span><i aria-hidden="true" style="margin-right:2px" focusable="false" class="fab {{ . }}"></i></span>
-	{{- else }}
-	<span><i aria-hidden="true" style="margin-right:2px" focusable="false" class="fas fa-code"></i></span>
+		<div>	
+			<div>
+				<!-- icon -->
+				{{- with .Params.icon}}
+					<i aria-hidden="true" style="margin-right:2px" focusable="false" class="fab {{ . }}"></i>
+				{{- else }}
+					<i aria-hidden="true" style="margin-right:2px" focusable="false" class="fas fa-code"></i>
+				{{- end}}
+			</div>
+			<div class="workshop-button-title"><a href="{{.URL}}">{{ .Title }}</a></div>
+	    </div>
 	{{- end}}
-	<a href="{{.URL}}">{{ .Title }}</a>
-	{{- (printf "</%s>" $.style)|safeHTML}}
-	{{- end}}
+
+	<div class="workshop-button-divider"></div>
 
 	{{- if $.description}}
-	{{- if .Description}}
-	<p>{{.Description}}</p>
-	{{- else}}
-	<p>{{.Summary}}</p>
+		{{- if .Description}}
+			<p>{{.Description}}</p>
+		{{- else}}
+			<p>{{.Summary}}</p>
+		{{- end}}
 	{{- end}}
-	{{- end}}
+
+	<div class="workshop-button-divider-2"></div>
 </span>
 
 
