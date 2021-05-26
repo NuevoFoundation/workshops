@@ -24,7 +24,7 @@ Con el siguiente código, creamos un objeto `String` llamado `name` usando las r
 String name = "Patrick";
 ```
 <br />
-`System`, `PrintStream`, y `String` son clases pre definidas en Java. SIn embargo, no estamos limitados a solo usar ls clases pre definidas, y podemos crear nuestros propios tipos de data creando una clase. Esto es muy útil para que programadores puedan crear objectos específicos con ciertos atributos y comportamientos. Teniendo acceso a tipos de data definidos por el usuario nos permite crear distintos programas.
+`System`, `PrintStream`, y `String` son clases pre definidas en Java. Sin embargo, no estamos limitados a solo usar ls clases pre definidas, y podemos crear nuestros propios tipos de data creando una clase. Esto es muy útil para que programadores puedan crear objectos específicos con ciertos atributos y comportamientos. Teniendo acceso a tipos de data definidos por el usuario nos permite crear distintos programas.
 
 Vamos a aprender sobre las distintas partes de una clase:
 
@@ -40,58 +40,58 @@ Una clase es un plano o prototipo de un objeto nuevo. Por lo general, una clase 
 
 3. <b>métodos</b>: Los métodos de un objeto dentro de una clase.
 
-For example:
+Por ejemplo:
 ```java
 public class SampleClass{
-    // (1) data fields/instance variables
-    private String name; // example
+    // (1) campos de data/variables de instancia
+    private String name; // ejemplo
 
     // (2) constructor
     public SampleClass(){
         name = "example";
     }
-    // (3) methods
+    // (3) métodos
     public sampleMethod(){}
 }
 ```
 {{% /notice %}}
 
-### 2. Try it Out 🐥!
-Let's make a `Bird` class to represent Patrick 🐥 and all of his Bird friends by following the steps below!
+### 2. Vamos a Intentarlo 🐥
+Vamos a crea una clase `Bird` para representar a Patrick 🐥 y todos sus amigos pájaros siguiendo los siguientes pasos.
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsBird?lite=true#Bird.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-#### First, we start by defining the class name in the format `public` `class` `name`.
+#### Primero, empezamos definiendo el nombre de la clase usando el formato `public` `class` `name`.
 ```java
 public class Bird{}
 ```
 <br />
 
-####  Second, let's declare all the fields of the Bird class: species, name, hobby, age, loveMusic.
-Each field is declared in the format: `private` `data type` `name` `;`.
-1. We declare all 5 fields as `private` in the class `Bird`. This ensures these data can only be accessed within this class.
+####  Segundo, declaremos todos los campos de data que necesitaremos para la clase Bird: species, name, hobby, age, loveMusic.
+Cada campo de data esta declarado en el formato: `private` `data type` `name` `;`.
+1. Declaramos los 5 campos como `private` en la clase `Bird`. Nos ayuda a asegurarnos que la data solo pueda ser accesada dentro de su misma clase.
 
-2. Let's identify the appropriate type for each field:
-- `species` should be a `String` that stores for exmaple: "duck", "swan", "owl".
-- `name` should be a `String` that stores for example: "Patrick".
-- `hobby` should be a `String` that stores for example: "play basketball".
-- `age` should be an `int` that stores for example: 25.
-- `loveMusic` should be a `boolean` that stores either true or false.
+2. Identifiquemos un tipo de data adecuado para cada campo:
+- `species` debería ser `String` que guarde por ejemplo: "duck", "swan", "owl".
+- `name` debería ser `String` que guarde por ejemplo: "Patrick".
+- `hobby` debería ser `String` que guarde por ejemplo: "play basketball".
+- `age` debería ser `int` que guarde por ejemplo: 25.
+- `loveMusic` debería ser `boolean` que guarde el valor true o false.
 
-For example, to declare `species` as a private field of class `Bird`, you would put `private String species;` .
+Por ejemplo, para declarar `species` como una clase privada `Bird`, usaríamos `private String species;` .
 
-3. Finish creating the other 4 fields of the Bird class!
+3. Termina de crear los 4 campos de data de la clase Bird.
 
 <br />
 
-#### Third, let's create the constructor for the class `Bird`. 
-Usually, constructor is the method that initialializes value to all the fields in a class. It has the format `public` `class name` `(parameter)`. Since we have 5 fields in this class, the constructor will take in 5 parameter/inputs.
+#### Tercero, vamos a crear el constructor de la clase `Bird`. 
+Usualmente, un constructor es un método que inicializa el valor de todos los campos. Teine el formato `public` `class name` `(parameter)`. Tenemos 5 campos de data en la clase, y por eso tenemos 5 parametros/entradas en el constructor.
 ```java
 public Bird(String speciesInput, String nameInput, String hobbyInput, int ageInput, boolean loveMusicInput){
-    // constructor body
+    // cuerpo del constructor
 }
 ```
-In the constructor body, we need to initialize all the instance variables, by assign each variables to its initial values:
+En el cuerpo del constructor, necesitamos inicializar todas las variables de instancia, asignandole a cada campo de data un valor inicial:
 ```java
 species = speciesInput;
 name = nameInput;
@@ -101,16 +101,16 @@ loveMusic = loveMusicinput;
 ```
 <br />
 
-#### Lastly, let's create some methods for the class `Bird`.
-We are gonna create 6 methods for this class!
--  getSpecies();   // return species of the bird
--  getName();      // return name of the bird
--  getHobby();     // return hobby of the bird
--  getAge();       // return age of the bird
--  getLoveMusic(); // return whether the bird loves music
--  toString();     // return information in a String
+#### Por último, vamos a crear unos métodos para la clase `Bird`.
+Vamos a crear 6 métodos para esta clase.
+-  getSpecies();   // retorna la especie de un pájaro
+-  getName();      // retorna el nombre de un pájaro
+-  getHobby();     // retorna el pasa tiempo de un pájaro
+-  getAge();       // retorna la edad de un pájaro
+-  getLoveMusic(); // retorna si al pájaro ama la música
+-  toString();     // retorna la information como un string
 
-Try to write out the first 5 methods with what you learned from the previous exercise about writing methods!
+Intente escribir los primeros 5 métodos con lo que ha aprendido en los ejercisios previos.
 
 <br />
 After, let's write the `toString()` method together!
