@@ -12,53 +12,53 @@ Mientras un array es un estructura de data de tamaño fijo, ArrayList es una est
 Empecemos con arrays.
 
 ### 1. Array
-Let's say we want to store Patrick's 🐥 top 5 favorite movies. Instead of creating 5 variables, we can store all 5 pieces of data in an array, our first data structure!
+Digamos que queremos guardar la 5 películas favoritas de Patrick 🐥. En vez de crear 5 variables, podemos guardar las 5 pedazos de data en una array, nuestra primera estructura de dato.
 
-To store data in an array, we do the following:
+Para guardar data en un array, hacemos lo siguiente:
 
-1. We first declare an array by specifying a data type and size (number of data can be stored).
+1. Primero declaramos un array especificando el tipo de data y su tamaño (cantidad de data que puede ser guardada).
 ```java
-String topMovies[] = new String[5]; // create an array of Strings of size 5.
+String topMovies[] = new String[5]; // crea un array de tipo Strings de tamaño 5.
 ```
-2. We iterate through the array (go through all the data spots) and assign the data to a spot in the array. 
+2. Vamos a iterar por el array (pasar por todos sus espacios) y asignarlo un pedazo de data a cada espacio en el array. 
 
-Note that we access the array with its name and an index (`0` to access the 1st element, `1` for the 2nd ... ).
+Note que tenemos acceso el espacio usando el nombre del array y una índice (`0` para accesar el primero espacio, `1` para el segundo ... ).
 ```java
 topMovies[0] = "Birds Of Prey";
 topMovies[1] = "The Birds";
 topMovies[2] = "Angry Birds";
 topMovies[3] = "Bird Box";
 topMovies[4] = "The Secret Life of Pets";
-// the array topMovies now store "Birds Of Prey", "The Birds", "Angry Birds", "Bird Box", "The Secret Life of Pets" in order
+// el array topMovies ahora guarda "Birds Of Prey", "The Birds", "Angry Birds", "Bird Box", "The Secret Life of Pets" en ese orden
 ```
 {{% notice info %}}
-#### Why is array indexing in Java start with 0?
-It's tempting and reasonable to think to access the element of an array at the first index, we should start at index 1.
+#### Por qué el índice de un array cominezo en 0?
+Es razonable pensar que para accesar el primer espacio de un array, usaríamos un índice 1.
 
-However, when the computer read the code `arr[1]`, it doesn't think to get the `1st` element from `arr`. 
+Sin embargo, cuando la computadora lee `arr[1]`, no piensa en ver el `1er` espacio de `arr`. 
 
-It actually reads `arr[1]` as to get the element `1` distance from the start of the array.
+En realidad, de la manera que la computadora lo piensa es `arr[1]` significa ver el espacio a `1` distancia del principo del array.
 
-In other words, the index is actually a memory offset. To access the 1st element, we should get the element of `0` offset from the start of the array (i.e. `arr[0]`).
+En otras palabras, el índice de hecho es desplazamiento de memoria. Para accesar el primer elemento debemos conseguir el elemento que está a una distancia de `0` desde el principio del array (i.e. `arr[0]`).
 {{% /notice %}}
 
 {{% notice tip %}}
-#### An alternating way to create an array:
-If we know all pieces of data for an array in advance, we can create the array in one line by listing all the data between `{` and `}`. 
+#### Una alternativa para crear un array:
+Si sabemos que todos los pedazos de data para un array de por adelantado, podemos crear un array en una línea al listar la data entre `{` y `}`. 
 
-For example:
+Por ejemplo:
 ```java
 String topMovies[] = {"Birds Of Prey", "The Birds", "Angry Birds", "Bird Box", "The Secret Life of Pets"};
 ```
-Just like how we initialize data with its index, we can access/modify each data with its index as well. 
+Al giaul que podemos accesar la data con un índice, también podemos accesar y modificar cada pedazo de data con su índice correspondiente. 
 
-For example:
+Por ejemplo:
 ```java
-String movie1 = topMovies[0]; // movie1 has value "Birds Of Prey"
+String movie1 = topMovies[0]; // movie1 tiene el valor de "Birds Of Prey"
 ```
 {{% /notice %}}
 
-It is often useful to know how many elements is in an array after creating it (to access the last element in the array for example). And, we can get the number of elements in the array from the `length` field of the array, typing `array_name.length`. 
+Es útil saber cuantos espaciosa habrán en un array luego de crearse (to access the last element in the array for example). And, we can get the number of elements in the array from the `length` field of the array, typing `array_name.length`. 
 
 For example:
 ```java
