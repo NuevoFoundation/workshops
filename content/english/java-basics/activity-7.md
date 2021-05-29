@@ -57,7 +57,7 @@ String movie1 = topMovies[0]; // movie1 has value "Birds Of Prey"
 ```
 {{% /notice %}}
 
-It is often useful to know how many elements is in an array after creating it (to access the last element in the array for example). And, we can get the number of elements in the array from the `length` field of the array, typing `array_name.length`. 
+It is often useful to know how many elements are an array after creating it (to access the last element in the array for example). And, we can get the number of elements in the array from the `length` field of the array, typing `array_name.length`. 
 
 For example:
 ```java
