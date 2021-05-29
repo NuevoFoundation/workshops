@@ -158,26 +158,26 @@ Definimos la clase `Bird` para tener los siguientes atributos (variables de inst
 <img src="../images/bird_class.png" height="450"/> 
 
 
-To create a new object of a particular class, we call the constructor of that class in the format `class name` `variable name` `=` `new` `constructor call`.
+Para crear un objeto nuevo de una clase en particular, llamamos al de esa clase en el siguiente formato `class name` `variable name` `=` `new` `constructor call`.
 
-Recall that the constructor of `Bird` class is the following:
+Recuerda que un constructor de la clase `Bird` es lo siguiente:
 ```java
 public Bird(String speciesInput, String nameInput, String hobbyInput, int ageInput, boolean loveMusicInput);
 ```
 
-Hence, we can create a Bird with these attributes (species - duck; name - Patrick; hobby - hangout with friends; age - 15; loveMusic - true) with this line of code.
+Por esto, podemos crear un Bird con los siguientes atributos (species - duck; name - Patrick; hobby - hangout with friends; age - 15; loveMusic - true) con esta línea de codigo.
 ```java
 Bird patrick = new Bird("duck", "Patrick", "hangout with friends", 15, true);
 ```
-Try it out yourself and create multiple Birds of different species 🐦🐤🐔🐧!
+Intenta crear multiples pájaros de distintas especies usando la clase Bird 🐦🐤🐔🐧
 
 <br />
-Next, let's call the `toString()` method on these `Bird` objects we created to print the information of our friends. You can do either of the following:
+Próximo, usaremos el método `toString()` en los objetos de tipo `Bird` para imprimir la información de nuestros amigos. Puedes hacer una de las siguientes:
 
-1. Print the return value of `toString()` method. (i.e. `System.out.println(patrick.toString());`)
-2. Directly print the `Bird` object, which prompt `toString()` to be called in the background. (i.e. `System.out.println(patrick);`).
+1. Imprimir el valor que retorna el método `toString()`. (i.e. `System.out.println(patrick.toString());`)
+2. Imprimir el objecto `Bird` quen en cambio llama el método `toString()` (i.e. `System.out.println(patrick);`).
 
-Try it out and print out all the information of the bird friends you created 🐦🐤🐔🐧!
+Intante imprimir la informacíon de todos sus amigos pájaros 🐦🐤🐔🐧
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsBirdMain?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
