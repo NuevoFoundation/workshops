@@ -113,48 +113,48 @@ Vamos a crear 6 métodos para esta clase.
 Intente escribir los primeros 5 métodos con lo que ha aprendido en los ejercisios previos.
 
 <br />
-After, let's write the `toString()` method together!
+Luego, vamos a escribir el método `toString()` juntos.
 
-`toString()` is a method that returns the `String` representation of the object. 
+`toString()` es un método que va a retornar un objeto de tipo `String`. 
 
-We will return a String that include all fields of the `Bird`: name, age, species, hobby, loveMusic by calling the 5 methods you just implemented!
+Vamos a retornar un String que incluye todos los campos de la clase `Bird`: name, age, species, hobby, loveMusic llamando los 5 métodos que implementaste.
 ```java
 public String toString(){
-    // initialize variable info to have empty String
+    // inicializa la variable info a un String vacío.
     String info = "";
 
-    // append information to the String in the format: 
+    // agrega información al objetor String en el siguiente formato: 
     // Hi, my name is [name]. I am a [age] year old [species] who likes to [hobby].
     info = info + "Hi, my name is " + getName() + 
            ". I am a " + getAge() + " year old " + getSpecies() + 
            " who likes to " + getHobby() + ". ";
 
-    // if the Bird likes music, append the String "I also like music very much!" to info
+    // si al pájaro le gusta la música, appen the Bird likes music, append the String "I also like music very much!" to info
     if(getLoveMusic()){
         info = info + "I also like music very much!";
     }else{        
         info = info + "However, I do not like music!";
     }
 
-    // return the full String
+    // retorna el valor de la variable info
     return info;
 }
 ```
 {{% notice warning %}}
-If you correctly implemented the `Bird` class, you will see the following message when you click `Run`:
+Si implementaste corectamente la clase`Bird`, verás el siguiente mensaje luego de hacer click a `Run`:
 ```
 Congratulations! You correctly implemented the Bird Class :)
 ```
 
-If there is still something incomplete or incorrect when you click `Run`:
-- You might get an error such as `Main.java:3: error: cannot access Bird`.
-- Or, you will see the message, `Something is still not quite right!`.
+Si hay algo incompleto o incorrecto cuando oprimas `Run`:
+- Tal vez te salga el error `Main.java:3: error: cannot access Bird`.
+- O si no, el mensaje, `Something is still not quite right!`.
 {{% /notice %}}
 
-### 3. Creating Birds 🐥!
-Congratulations! You just wrote you first Java class `Bird` class. Now let's learn to write a program that uses `Bird` objects!
+### 3. Creando Pájaros 🐥
+Felicitaciones! Has escrito su primera clase en Java. `Bird` class. Ahora vamos a escribir un programa que utilice la clase para crea objectos de tipo `Bird`.
 
-We defined the `Bird` class to have the following attributes (instance variables) and bahaviors (methods):
+Definimos la clase `Bird` para tener los siguientes atributos (variables de instancia) and y comportamientos (métodos):
 <img src="../images/bird_class.png" height="450"/> 
 
 
