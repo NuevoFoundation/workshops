@@ -58,81 +58,81 @@ String movie1 = topMovies[0]; // movie1 tiene el valor de "Birds Of Prey"
 ```
 {{% /notice %}}
 
-Es útil saber cuantos espaciosa habrán en un array luego de crearse (to access the last element in the array for example). And, we can get the number of elements in the array from the `length` field of the array, typing `array_name.length`. 
+Es útil saber cuantos espaciosa habrán en un array luego de crearse (por ejemplo, para accesar el último espacio en un array). También podemos conseguir el número de espacios en un array con `length` al escribir `array_name.length`. 
 
-For example:
+Por ejemplo:
 ```java
-int numOfMovie = topMovies.length; // numOfMovie has value 5
+int numOfMovie = topMovies.length; // numOfMovie tiene un valor de 5
 ```
 <br />
 
-#### Exercise: Write a method `printArr()` that takes an array input and prints out all the elements in that array in order 
-(Hint: utilize for loop and `.length` to help you).
+#### Ejercisio: Esriber un método `printArr()` que tome un array como entrada e imprima todos los elementos en el array en orden 
+(Sugerencia: Utilice un for loop y `.length`).
 
-After clicking `Run`, the program should print the following:
+Luego de `Run`, su programa debe imprimir lo siguiente:
 ```
 Birds Of Prey, The Birds, Angry Birds, Bird Box, The Secret Life of Pets
 ```
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsArray?lite=true#Bird.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### 2. ArrayList
-ArrayList is another popular data structure in Java. `ArrayList` is a class that was implemented using arrays. It is similiar to an array that user access, store, and modify data by an index.
+ArrayList es otra estructura e data popular en Java. `ArrayList` es una clase que fue implementada usando arrays. Es similar a un array en cuanto a que un usuario puede accesar, guardar y modificar data usando un índice.
 
-You create an ArrayList by specifying a name and the type between `<` and `>`. 
-For example:
+Creas un ArrayList especificando su nombre y tipo entre `<` y `>`. 
+Por ejemplo:
 ```java
 ArrayList<String> topMoviesList = new ArrayList<String>();
 ```
 
-To add elements, we call the method `add()` on the ArrayList. 
-For example:
+Para añadir elementos nuevos, llamamos al método `add()` en el ArrayList. 
+Por ejemplo:
 ```java
 topMoviesList.add("Birds Of Prey");
 topMoviesList.add("The Birds");
 topMoviesList.add("Angry Birds");
 topMoviesList.add("Bird Box");
 topMoviesList.add("The Secret Life of Pets");
-// the ArrayList now store "Birds Of Prey", "The Birds", "Angry Birds", "Bird Box", "The Secret Life of Pets" in order
+// el ArrayList ahora guarda "Birds Of Prey", "The Birds", "Angry Birds", "Bird Box", "The Secret Life of Pets" en orden
 ```
 
-To access an element at a particular index, we call the method `get()`. Note that Java use 0-based indexing, so to get the first element in an ArrayList we make a method call `get(0)`. For example:
+Para accesar un espacio en específico, llamamos el método `get()`. Note Java usa índices empezando en el número 0, asi que para accesr el primer elemento en un ArrayList llamamos el método `get(0)`. Por ejemplo:
 ```java
-String movie1 = topMoviesList.get(0); // movie1 has value "Birds Of Prey"
+String movie1 = topMoviesList.get(0); // movie1 tiene el valor "Birds Of Prey"
 ```
 
-And, to get the number of elements in the ArrayList, we call the method `size()`.
+Y para conseguir el número de elementos (espacios) en un ArrayList, llamamos el método `size()`.
 For example:
 ```java
-int numOfMovie2 = topMoviesList.size(); // numOfMovie2 has value 5
+int numOfMovie2 = topMoviesList.size(); // numOfMovie2 tiene el valor 5
 ```
 <br />
 
-As we briefly mentioned above, the critical difference between array and ArrayList is that you need to know number of elements to store in an array upfront, but you do not for an ArrayList.
+La diferencia más importante entre array y ArrayList es que necesitas saber el número de espacios que vas a necesitar para un array desde el principio antes de crearse, pero no para un ArrayList.
 
-- With the line of code `String topMovies[] = new String[5]` the array `topMovies` will forever have length 5. As a result, you can't store more than 5 Strings in `topMovies` after creating it.
+- Con la línea de código `String topMovies[] = new String[5]` el array `topMovies` siempre tendrá un tamaño de 5. No puedes guardar más de 5 Strings en `topMovies` luego de crearse.
 
-- However, with the line of code `ArrayList<String> topMoviesList = new ArrayList<String>()`, the ArrayList starts with 0 element and can be infinitely added to or remove from.
+- Sin embargo, con la línea de código `ArrayList<String> topMoviesList = new ArrayList<String>()`, el ArrayList empieza con 0 elementos a la cual se le puede añadir infinitamente o remover elementos del mismo.
 
-To remove an element from an ArrayList, we call the method `remove()`. 
-For example:
+Para remover un elemento de un ArrayList, llamamos el método `remove()`. 
+Por ejemplo:
 ```java
-System.out.print(topMoviesList.size()); // prints out 5
+System.out.print(topMoviesList.size()); // imprime 5
 topMoviesList.remove("Birds Of Prey");
-System.out.print(topMoviesList.size()); // prints out 4
+System.out.print(topMoviesList.size()); // imprime 4
 ```
 <br />
 
-#### Exercise: Write a method `printList()` that takes an ArrayList as input and prints out all the elements in that ArrayList in order 
-(Hint: utilize for loop and `size()` to help you).
+#### Ejercisio: Escriba un método `printList()` que tome un ArrayList como entrada e imprime todos los elementos del ArryList en orden 
+(Hint: Utilize for loop y `size()`).
 
-After clicking `Run`, the program should print the following:
+Luego de `Run`, el programa debe imprimir lo siguiente:
 ```
 Birds Of Prey, The Birds, Angry Birds, Bird Box, The Secret Life of Pets
 ```
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsList?lite=true#Bird.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-### End Of Workshop 🐥 
-<b>Patrick</b> 🐥 thank you for participating! Hope you learned a lot from this course :)
+### Fin de Workshop 🐥 
+<b>Patrick</b> 🐥 gracias por participar. Esperamos que haya aprendido mucho con este curso :)
 ![animation of duck Patrick](https://media.giphy.com/media/l49JKwmJLChtS6d44/giphy.gif) 
 
 <p style="text-align: center;">(image created by Molang: giphy.com/molangofficialpage)</p>
