@@ -4,11 +4,12 @@ description: "Introduce basic data structures in Java."
 date: 2020-07-16T00:00:00Z
 weight: 8
 ---
-In previous exercises, we learned that variables allow us to access and store a piece data. But, what if we want to store a bunch of similiar data? Is there a good way to organize them without declaring multiple variables?
+En los últimos ejercisios, aprendimos sobre varilables que nos permiten accesar y guardar un pedazo de data. Pero, y si quereos guardar mucha data parecida? Habrá una manera buena de organizarlas sin declarar multiples variables?
 
-In programming, <b>data structures</b> are structures that allowed coders to store multiple pieces of data of the same type. Using data structures is an efficient way to store and access large pieces of data. In this exercise, we will learn about 2 data structures used in Java: <b>array</b> and <b>ArrayList</b>.
+En programación, <b>estructuras de dato</b> son escructuras que permiten que programadores guarden multiples pedazos de data del mismo tipo. Usando estructuras de data es una manera eficiente de guardar y accesar pedazos grandes de data. En este ejercisio, aprederemos sobre 2 estructucas de data usadas en Java: <b>array</b> y <b>ArrayList</b>.
 
-While array is a fixed length data structure, ArrayList is a variable lengthed where you can change the size of the data structure. Let's start by looking at arrays!
+Mientras un array es un estructura de data de tamaño fijo, ArrayList es una estructura de data de tamaño variable donde uno puede cambiar el tamaño de la estructura de dato. 
+Empecemos con arrays.
 
 ### 1. Array
 Let's say we want to store Patrick's 🐥 top 5 favorite movies. Instead of creating 5 variables, we can store all 5 pieces of data in an array, our first data structure!
