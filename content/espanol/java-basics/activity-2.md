@@ -63,14 +63,14 @@ Patrick 🐥 no es un experto en tipos de data. Frecuentemente los confunde cuan
 Luego de Guardar data en una variable, uno puede usar la data guardada en esa variable o modificarla al asignarle un nuevo valor del mismo tipo. Por ejemplo:
 
 ```java
-int age = 10;
-System.out.println(age); // prints out 10
-age = 11; // assign data 11 to the variable age
-System.out.println(age); // prints out 11
+int age = 10; // crea una variable age con el valor de 11
+System.out.println(age); // imprime 10
+age = 11; // asigna el valor de 11 a la variable age
+System.out.println(age); // imprime 11
 ```
 {{% /notice %}}
 
-### 4. Cuál es el Type -- Imrpime los Valores 
+### 4. Cuál es el Tipo -- Imrpime los Valores 
 Primero considera el siguiente código. Qué crees que será su resultado? Imprime los valores de cada variable 
 
 ```java
