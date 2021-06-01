@@ -54,13 +54,15 @@
 		{{- (printf "</h%d>" $numn)|safeHTML}}
 	{{- else}}
 		<div>	
-			<div>
+			<div class="workshop-button-subtitle">
 				<!-- icon -->
 				{{- with .Params.icon}}
 					<i aria-hidden="true" style="margin-right:2px" focusable="false" class="fab {{ . }}"></i>
 				{{- else }}
 					<i aria-hidden="true" style="margin-right:2px" focusable="false" class="fas fa-code"></i>
 				{{- end}}
+				<!-- name of skill to be learned, such as programming language or platform -->
+				<span class="workshop-button-skill-name">{{ .Params.skillName }}</span>
 			</div>
 			<div class="workshop-button-title"><a href="{{.URL}}">{{ .Title }}</a></div>
 	    </div>

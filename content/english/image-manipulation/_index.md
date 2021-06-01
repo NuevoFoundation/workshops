@@ -1,5 +1,6 @@
 ---
-title: "Python: Image Manipulation"
+title: "Image Manipulation"
+skillName: "Python"
 description: "An introduction to manipulating images in Python"
 date: 2020-02-10T13:24:17-07:00
 difficulty: "Beginner"

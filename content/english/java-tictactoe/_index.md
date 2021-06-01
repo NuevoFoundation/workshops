@@ -1,5 +1,6 @@
 ---
-title: "Java: TicTacToe"
+title: "TicTacToe"
+skillName: "Java"
 description: "Learn how to make a console based TicTacToe game in Java"
 date: 2020-07-23T00:00:00Z
 prereq: "Java: Basics"

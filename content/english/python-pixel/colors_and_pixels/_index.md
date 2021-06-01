@@ -1,5 +1,6 @@
 ---
-title: "Python: Colors and Pixels"
+title: "Colors and Pixels"
+skillName: "Python"
 icon: "fab fa-python"
 draft: false
 weight: 1

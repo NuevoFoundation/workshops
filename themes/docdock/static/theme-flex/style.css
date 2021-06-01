@@ -45,13 +45,20 @@
 }
 @font-face {
   font-family: "Lato";
-  font-weight: 400;
+  /* normal is an alias for 400 */
+  font-weight: normal;
   src: local("Lato Regular"), local("Lato-Regular"),
     url("../fonts/Lato-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Lato";
-  font-weight: 700;
+  font-weight: 600;
+  src: local("Lato Semibold"), url("../fonts/Lato-Semibold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lato";
+  /* bold is an alias for 700 */
+  font-weight: bold;
   src: local("Lato Bold"), local("Lato-Bold"),
     url("../fonts/Lato-Bold.ttf") format("truetype");
 }
@@ -324,7 +331,7 @@ article section.page {
 }
 article section.page h1:first-of-type {
   margin: 3rem 0rem;
-  font-family: "lato-semibold", "Helvetica", "Tahoma", "Geneva", "Arial",
+  font-family: "Lato", "Helvetica", "Tahoma", "Geneva", "Arial",
     sans-serif;
   text-align: center;
   color: #060606;
@@ -756,7 +763,7 @@ ul.children.children-card > .workshop-button {
   width: 20%;
   min-width: 250px;
   margin: 1.2rem 1.2rem;
-  padding: 1.5rem 1.5rem 4rem 1.5rem;
+  padding: 1.5rem 1.5rem 3.5rem 1.5rem;
   border: 0.3rem solid #000;
   border-radius: 5px;
 }
@@ -777,10 +784,9 @@ ul.children.children-card > .workshop-button:active {
 }
 
 ul.children.children-card > .workshop-button .workshop-button-title {
-  padding-top: 0px;
-  padding-bottom: 10px;
+  padding-top: 7px;
   font-size: 20px;
-  font-family: "Lato", sans-serif;
+  /* black (heavy) */
   font-weight: 900;
 }
 
@@ -790,14 +796,26 @@ ul.children.children-card > .workshop-button .workshop-button-title a {
 }
 
 ul.children.children-card > .workshop-button i {
-  font-size: 24px;
+  font-size: 20px;
   color: #000;
+}
+
+ul.children.children-card > .workshop-button .workshop-button-subtitle {
+  display: flex;
+  align-items: center;
+}
+
+ul.children.children-card > .workshop-button .workshop-button-skill-name {
+  font-family: "Space Mono", monospace;
+  color: #5c5c5c;
+  margin-left: 5px;
 }
 
 ul.children.children-card > .workshop-button .workshop-button-divider {
   width: 48px;
-  height: 3px;
+  height: 4px;
   background-color: #000;
+  margin: 17px 0 25px 3px;
 }
 
 ul.children.children-card > .workshop-button .workshop-button-divider-2 {
@@ -810,10 +828,8 @@ ul.children.children-card > .workshop-button .workshop-button-divider-2 {
 }
 
 ul.children.children-card > .workshop-button > p {
-  margin-top: 12px;
   font-size: 16px;
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
+  font-weight: normal;
 }
 
 @media (max-width: 1024px) {

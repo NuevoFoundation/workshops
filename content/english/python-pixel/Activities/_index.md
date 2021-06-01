@@ -1,5 +1,6 @@
 ---
-title: "Python: Pixel Activties"
+title: "Pixel Activties"
+skillName: "Python"
 icon: "fab fa-python"
 draft: false
 weight: 3
