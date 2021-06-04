@@ -5,7 +5,6 @@ date: 2019-07-25T13:24:17-07:00
 prereq: "None"
 difficulty: "Beginner"
 draft: false
-hidden: true
 icon: "fas fa-database"
 weight: 130
 ---
