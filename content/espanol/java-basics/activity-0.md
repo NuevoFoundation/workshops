@@ -5,7 +5,7 @@ weight: 1
 draft: false
 ---
 
-## Using Repl.it
+## Usando Repl.it
 
 Hoy estaremos usando Repl.it para aprender como programar en Java. Aquí está un ejemplo del portal interactivo que estaremos usando hoy:
 
