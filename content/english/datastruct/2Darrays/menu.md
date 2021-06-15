@@ -1,0 +1,23 @@
+---
+title: "The Menu"
+draft: false
+weight: 2
+---
+
+![2dintro](../../img/2dintro.png)
+<link rel="stylesheet" href="../../style.css">
+<hr>
+
+Let's recall the restaurant array that we made earlier in the array section. 
+
+![restaurant](../../img/restaurant.png)
+
+As you can see, this array holds all the different restaurants for our app. Now, let's try to make each restaurant contain an array of all of its menu items. If done correctly, the `0`th element of our array, "Burger King", should now hold its respective menu items. It might look something like this:
+
+![burkerkingarray](../../img/burgerkingarray.png)
+
+As you can see, the 0th element should be our Burger King Array. Just like our 1D arrays, we zero index the items of our array. If we wanted to place an order for a Whopper, we would simply call `Restaurant[0][0]`. This would call our Burger King Array and the first element at that array, which is a whopper. If we wanted fries in our array, then we would call `Restaurant [0][2]`. 
+
+Question: If we wanted to order some orange chicken and orange chicken was the 10th element of our Panda Express array, how could we access that element?
+
+If you answered `Restaurant[2][9]`, then you are correct! Panda Express is the third array [2], and orange chicken is the tenth element [9].

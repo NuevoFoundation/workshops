@@ -6,43 +6,58 @@ weight: 3
 --- 
 <link rel="stylesheet" href="../style.css">
 
-<h1>Task 1: Clearing Queue for New Orders</h1>
+## Task 1: Clearing the Queue
 
-<p>A new restraunt has been added into Neuvo Eats! New orders have been flooding in and the Queue is flooded with orders! The popularity of the different tacos grew fast and the restraunt is overloaded. Look for a way to clear all elements to save the restraunt!</p>
+<p>A new restaurant has been added into Nuevo Eats! New orders have been flooding in and the Queue is flooded with orders! The popularity of the different tacos grew fast and the restaurant is overloaded. Look for a way to clear all elements to save the restaurant!</p>
 
 
 {{%notice tip%}}
 1. How can you iterate through the list?
 2. Try to clear the Queue as you go through it!
-3. Look at the example menu!
+3. What method can help clear a queue?
 {{%/notice%}}
 
-```js javascript
+```java
 	
-	//this uses a list as the organizer of the queue.
-     Queue<String> orders = new LinkedList<>();
-
+	   //this uses a list as the organizer of the queue.
+        PriorityQueue<String> orders = new PriorityQueue<String>();
      	orders.add("Fish Taco");
      	orders.add("Beef Taco");
      	orders.add("Chicken Taco");
      	orders.add("Fish Taco");
      	orders.add("Beef Taco");
 
+        clear(pQueue);
+        //After calling clear, orders should now be empty!
+
 ```
-<iframe height="800px" width="100%" src="https://replit.com/@nuevofoundation/ClearningQ?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@nuevofoundation/Clear?lite=true"></iframe>
 
-<h1>Task 2: Using Priority Queue to find meadian price</h1>
 
-<p>A restruant has been using Arrays to hold their list of prices and has a hard time organizing it. They want to switch to a priority queue to make finding the median easier. Turn this array into a priority queue! Then find the median price.</p>
+## Task 2: Finding the Kth Least Element
+
+<p>Our restaurant wants our customers to find items based on their prices. What if a customer wanted the 4th least expensive item? Well it's up to you to decide how they could find out!</p>
 
 {{%notice tip%}}
-1. How do you initialize a priorty queue?
-2. How do you find the median?
+1. Think about how a queue is ordered!
+2. What happens if multiple items in a row are the same price?
 {{%/notice%}}
 
-```js javascript
+```java
 	
-	String[] prices = {1,5,6,14,7,9,11,2,3}
+Given an integer k of range 1...k, return the kth least element of the queue @return the kth minimum element
+Example: 
+        pQueue.add(60);
+        pQueue.add(30);
+        pQueue.add(50);
+        pQueue.add(50);
+        pQueue.add(40);
+        pQueue.add(40);
+        pQueue.add(10);
+        pQueue.add(10);
+        pQueue.add(10);
+
+        minList(pQueue, 4) should return 50 since 50 is the fourth smallest element
 
 ```
-<iframe height="800px" width="100%" src="https://replit.com/@nuevofoundation/PriorityQ?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@nuevofoundation/Min?lite=true"></iframe>
