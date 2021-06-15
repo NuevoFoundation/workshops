@@ -1,5 +1,6 @@
 ---
-title: "Java: Basics"
+title: "Java Basics"
+skillName: "Java"
 description: "An introduction to the basics of Java programming language."
 date: 2020-07-07T00:00:00Z
 prereq: "none"

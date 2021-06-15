@@ -1,5 +1,6 @@
 ---
-title: "JS: JSappyBird"
+title: "JSappyBird"
+skillName: "JavaScript"
 description: "Create Your Own JSappyBird Game"
 date: 2020-07-28T10:45:38-07:00
 prereq: "none"

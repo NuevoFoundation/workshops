@@ -43,3 +43,4 @@ You can change the `baseURL` when building content instead of changing the confi
 - **Ignore Public**: By default, running `hugo` with no parameters will build the site to the public directory. Make sure you do not add the public directory to source control (it's in gitignore now).
 - **Left Nav**: You can hide content from the left nav by setting metadata on the file hidden: true (like this page's markdown!)
 - **Partials**: For reusable components to a page, create a new partial under `/themes/docdock/layouts/partials/flex/`.
+- **Disable Cache**: In Chrome developer tools, check the box for "Disable cache" under the Network tab.
