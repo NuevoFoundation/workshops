@@ -1,5 +1,6 @@
 ---
-title: "Python: Machine Learning Basics using Tensorflow"
+title: "Machine Learning Basics using Tensorflow"
+skillName: "Python"
 description: "Learn basic image classification and train ML models with Tensorflow"
 date: 2020-09-09T16:19:17-07:00
 prereq: "Python Basics"

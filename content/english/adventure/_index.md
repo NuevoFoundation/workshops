@@ -1,5 +1,6 @@
 ---
-title: "Python: Choose Your Own Adventure Game"
+title: "Choose Your Own Adventure Game"
+skillName: "Python"
 description: "An introductory guide on how to make a Choose Your Own Adventure Game in Python"
 date: 2019-07-23T11:45:38-07:00
 difficulty: Intermediate

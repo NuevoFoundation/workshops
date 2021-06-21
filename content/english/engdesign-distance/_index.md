@@ -1,5 +1,6 @@
 ---
 title: "Engineering Design - DISTANCE"
+skillName: "Engineering"
 description: "An introduction to engineering design"
 difficulty: "Beginner"
 draft: true

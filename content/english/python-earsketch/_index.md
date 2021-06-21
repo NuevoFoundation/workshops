@@ -1,5 +1,6 @@
 ---
-title: "Python: Create music with EarSketch"
+title: "Create music with EarSketch"
+skillName: "Python"
 description: "Create music using Python and EarSketch"
 date: 2019-07-23T11:45:38-07:00
 prereq: "Python Basics: Print, Comments, Functions"

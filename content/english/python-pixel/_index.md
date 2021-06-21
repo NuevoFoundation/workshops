@@ -1,5 +1,6 @@
 ---
-title: "Python: Pixels"
+title: "Pixels"
+skillName: "Python"
 description: "Pixels and Colors in Python"
 prereq: "Python Basics"
 difficulty: "Intermediate"
