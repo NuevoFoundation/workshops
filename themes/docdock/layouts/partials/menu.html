@@ -26,6 +26,11 @@
         {{- if ne $numberOfPages 0 }} haschildren{{end}}
         ">
       <div>
+        {{- with .Params.icon}}
+          <span><i aria-hidden="true" style="margin-right:2px" focusable="false" class="fab {{ . }}"></i></span>
+        {{- else }}
+          <span><i aria-hidden="true" style="margin-right:2px" focusable="false" class="fas fa-code"></i></span>
+        {{- end}}
       <a href="{{ .RelPermalink}}">{{safeHTML .Params.Pre}}{{.Title}}{{safeHTML .Params.Post}}</a>
         
         {{- if ne $numberOfPages 0 }}
