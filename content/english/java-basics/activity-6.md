@@ -156,7 +156,7 @@ If there is still something incomplete or incorrect when you click `Run`:
 ### 3. Creating Birds 🐥!
 Congratulations! You just wrote you first Java class `Bird` class. Now let's learn to write a program that uses `Bird` objects!
 
-We defined the `Bird` class to have the following attributes (instance variables) and bahaviors (methods):
+We defined the `Bird` class to have the following attributes (instance variables) and behaviors (methods):
 <img src="../images/bird_class.png" height="450"/> 
 
 
