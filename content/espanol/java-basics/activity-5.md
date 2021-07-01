@@ -5,7 +5,7 @@ date: 2020-07-13T00:00:00Z
 weight: 6
 ---
 
-### 1. Qué Son Métodos?
+### 1. Qué son los métodos?
 Ya aprendimos como guardar data en variables, imprimir data, imprimir oraciones, y como tomar decisiones con los if-statement, for-loop, y while-loop. 
 
 En nuestro último ejemplo, aprendimos que el siguiente código calcula la suma del 1 al 100:
@@ -20,7 +20,7 @@ System.out.println("Sum: " + total);
 ```
 Pero si en vez queremos calcular la suma del 1 al 77? Cómo podemos lograr eso sin tener que reescribir el mismo código?
 
-Queremos crear un ✨ magic box ✨ en el código sin importar para qué dos números queremos para la suma.
+Queremos crear un ✨ magic box ✨ ( o caja magica) en el código sin importar los dos números que queremos sumar.
 <img src="../images/method.png" height="250"/> 
 
 En Java, un <b>method</b> es como un magic box que ejecuta ciertos pasos al ejecutar un código usando los valores que ingrese un usuario.
@@ -28,7 +28,7 @@ En Java, un <b>method</b> es como un magic box que ejecuta ciertos pasos al ejec
 Hay 2 partes en un method: header y body:
 
 {{% notice note %}}
-#### Header de un Método
+#### Header (o cabecero) de un Método
 Para definir un method, primero escribimos el <b>method header</b>. Un method header tiene cuatro partes:
 
 1. <b>access specifier</b>. `public` le deja saber a la computadora que cualquira puede usar ese method. `private` si solamente se puede accesar dentro de la misma clase donde se declara.
@@ -90,11 +90,11 @@ La imagen de arriba es de una pirámide de números cuadrados donde cada nivel e
 Es decir, el nivel del tope tiene `1 * 1` beads, el segundo nivel tiene `2 * 2` beads.
 
 <br />
-Vamos a escribir un método que toma el número total de niveles y resulta el número total de beads in la pirámide!
+Vamos a escribir un método que toma el número total de niveles y resulta el número total de beads (o pepitas) en la pirámide!
 
-Luego de finalizar el ejercisio, verás el siguiente mensaje:
+Luego de finalizar el ejercicio, verás el siguiente mensaje:
 ```
-Congratulations! Challenge Solved!
+Felicidades! Haz resuelto el desafío!
 ```
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsPyramid?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>

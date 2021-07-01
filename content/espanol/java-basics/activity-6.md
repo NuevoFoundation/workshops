@@ -17,7 +17,7 @@ System.out.println("Hello World");
 3. `println()` es un método pre definido en la clase `PrintStream`.
 
 <br />
-Otra clase con la cual hemos interactuados en ejercisios previos es `String`. La clase `String` defines un par de reglas que determinan como una lista de caracteres deberían comportarse.
+Otra clase con la cual hemos interactuados en ejercicios previos es `String`. La clase `String` define un par de reglas que determinan como una lista de caracteres deberían comportarse.
 
 Con el siguiente código, creamos un objeto `String` llamado `name` usando las reglas definidas en la clase `String`:
 ```java
@@ -110,7 +110,7 @@ Vamos a crear 6 métodos para esta clase.
 -  getLoveMusic(); // retorna si al pájaro ama la música
 -  toString();     // retorna la information como un string
 
-Intente escribir los primeros 5 métodos con lo que ha aprendido en los ejercisios previos.
+Intente escribir los primeros 5 métodos con lo que ha aprendido en los ejercicios previos.
 
 <br />
 Luego, vamos a escribir el método `toString()` juntos.
@@ -141,9 +141,9 @@ public String toString(){
 }
 ```
 {{% notice warning %}}
-Si implementaste corectamente la clase`Bird`, verás el siguiente mensaje luego de hacer click a `Run`:
+Si implementaste corectamente la clase `Bird`, verás el siguiente mensaje luego de hacer click en `Run`:
 ```
-Congratulations! You correctly implemented the Bird Class :)
+Felicidades! Haz implementado la clase Bird de forma correcta :)
 ```
 
 Si hay algo incompleto o incorrecto cuando oprimas `Run`:
@@ -151,12 +151,11 @@ Si hay algo incompleto o incorrecto cuando oprimas `Run`:
 - O si no, el mensaje, `Something is still not quite right!`.
 {{% /notice %}}
 
-### 3. Creando Pájaros 🐥
-Felicitaciones! Has escrito su primera clase en Java. `Bird` class. Ahora vamos a escribir un programa que utilice la clase para crea objectos de tipo `Bird`.
+### 3. Usando la clase Bird 🐥
+Felicitaciones! Haz escrito su primera clase en Java, `Bird` class. Ahora vamos a escribir un programa que utilice la clase para crea objectos de tipo `Bird`.
 
 Definimos la clase `Bird` para tener los siguientes atributos (variables de instancia) and y comportamientos (métodos):
 <img src="../images/bird_class.png" height="450"/> 
-
 
 Para crear un objeto nuevo de una clase en particular, llamamos al de esa clase en el siguiente formato `class name` `variable name` `=` `new` `constructor call`.
 
@@ -177,7 +176,6 @@ Próximo, usaremos el método `toString()` en los objetos de tipo `Bird` para im
 1. Imprimir el valor que retorna el método `toString()`. (i.e. `System.out.println(patrick.toString());`)
 2. Imprimir el objecto `Bird` quen en cambio llama el método `toString()` (i.e. `System.out.println(patrick);`).
 
-Intante imprimir la informacíon de todos sus amigos pájaros 🐦🐤🐔🐧
+Intenta imprimir la informacíon de todos sus amigos pájaros 🐦🐤🐔🐧
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsBirdMain?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-

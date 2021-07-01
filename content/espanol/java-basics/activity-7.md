@@ -4,7 +4,7 @@ description: "Introduce basic data structures in Java."
 date: 2020-07-16T00:00:00Z
 weight: 8
 ---
-En los últimos ejercisios, aprendimos sobre varilables que nos permiten accesar y guardar un pedazo de data. Pero, y si quereos guardar mucha data parecida? Habrá una manera buena de organizarlas sin declarar multiples variables?
+En los últimos ejercicios, aprendimos sobre varilables que nos permiten accesar y guardar un pedazo de data. Pero, y si quereos guardar mucha data parecida? Habrá una manera buena de organizarlas sin declarar multiples variables?
 
 En programación, <b>estructuras de dato</b> son escructuras que permiten que programadores guarden multiples pedazos de data del mismo tipo. Usando estructuras de data es una manera eficiente de guardar y accesar pedazos grandes de data. En este ejercisio, aprederemos sobre 2 estructucas de data usadas en Java: <b>array</b> y <b>ArrayList</b>.
 
@@ -32,7 +32,7 @@ topMovies[4] = "The Secret Life of Pets";
 // el array topMovies ahora guarda "Birds Of Prey", "The Birds", "Angry Birds", "Bird Box", "The Secret Life of Pets" en ese orden
 ```
 {{% notice info %}}
-#### Por qué el índice de un array cominezo en 0?
+#### Por qué el índice de un array comineza en 0?
 Es razonable pensar que para accesar el primer espacio de un array, usaríamos un índice 1.
 
 Sin embargo, cuando la computadora lee `arr[1]`, no piensa en ver el `1er` espacio de `arr`. 
@@ -43,7 +43,7 @@ En otras palabras, el índice de hecho es desplazamiento de memoria. Para accesa
 {{% /notice %}}
 
 {{% notice tip %}}
-#### Una alternativa para crear un array:
+#### Alternativa para crear un array:
 Si sabemos que todos los pedazos de data para un array de por adelantado, podemos crear un array en una línea al listar la data entre `{` y `}`. 
 
 Por ejemplo:
@@ -58,7 +58,7 @@ String movie1 = topMovies[0]; // movie1 tiene el valor de "Birds Of Prey"
 ```
 {{% /notice %}}
 
-Es útil saber cuantos espaciosa habrán en un array luego de crearse (por ejemplo, para accesar el último espacio en un array). También podemos conseguir el número de espacios en un array con `length` al escribir `array_name.length`. 
+Es útil saber cuantos espacios habrán en un array luego de crearse (por ejemplo, para accesar el último espacio en un array). También podemos conseguir el número de espacios en un array con `length` al escribir `array_name.length`. 
 
 Por ejemplo:
 ```java
@@ -66,7 +66,7 @@ int numOfMovie = topMovies.length; // numOfMovie tiene un valor de 5
 ```
 <br />
 
-#### Ejercisio: Esriber un método `printArr()` que tome un array como entrada e imprima todos los elementos en el array en orden 
+#### Ejercicio: Esriber un método `printArr()` que tome un array como entrada e imprima todos los elementos en el array en orden 
 (Sugerencia: Utilice un for loop y `.length`).
 
 Luego de `Run`, su programa debe imprimir lo siguiente:
@@ -122,7 +122,7 @@ System.out.print(topMoviesList.size()); // imprime 4
 ```
 <br />
 
-#### Ejercisio: Escriba un método `printList()` que tome un ArrayList como entrada e imprime todos los elementos del ArryList en orden 
+#### Ejercicio: Escriba un método `printList()` que tome un ArrayList como entrada e imprime todos los elementos del ArryList en orden 
 (Hint: Utilize for loop y `size()`).
 
 Luego de `Run`, el programa debe imprimir lo siguiente:
@@ -131,8 +131,8 @@ Birds Of Prey, The Birds, Angry Birds, Bird Box, The Secret Life of Pets
 ```
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsList?lite=true#Bird.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-### Fin de Workshop 🐥 
-<b>Patrick</b> 🐥 gracias por participar. Esperamos que haya aprendido mucho con este curso :)
+### Fin del Workshop 🐥 
+<b>Patrick</b> 🐥 gracias por participar. Esperamos que hayas aprendido mucho en este curso :)
 ![animation of duck Patrick](https://media.giphy.com/media/l49JKwmJLChtS6d44/giphy.gif) 
 
 <p style="text-align: center;">(image created by Molang: giphy.com/molangofficialpage)</p>

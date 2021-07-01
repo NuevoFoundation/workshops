@@ -51,7 +51,7 @@ if(likeMusic == true){
     System.out.println("I don't like Music");
 }
 ```
-El código imprimirá `I like Music` porque la expresión boolean, `likeMusic == true`, es igual al valor de true.
+El código imprimirá `I like Music` (o 'me gusta la musica') porque la expresión boolean, `likeMusic == true`, es igual al valor de true.
 {{% /notice %}}
 
 Repasa el ejemplo de arriba, y toma una decisión si Patrick debe decir "Good Morning," "Good Afternoon," o "Good Night". 
@@ -65,7 +65,7 @@ Patrick debería decir "Good Morning" entre 0:00 - 11:59, "Good Afternoon" entre
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsIfStatement?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### 2. Repítalo de nuevo: For-Loop, While-Loop
-En clase de Matemáticas, la maestra de Patrick 🐥 le pregunta a la clase que solucione un problema, y tal vez Patrick necesite ayuda:
+En clase de matemáticas, la maestra de Patrick 🐥 le pregunta a la clase que solucione un problema, y tal vez Patrick necesite ayuda:
 
 La maestra les pide que encuentren la suma de <b>sum of 1, 2, 3, ...., 100</b>. Es decir, que sumen <b>1 + 2 + 3 + 4 ... + 99 + 100</b>?
 
@@ -111,7 +111,7 @@ for(int number = 1; number <= 10; number = number + 1){
 ```
 {{% /notice %}}
 
-Luego de aprender sobre el for loop y el while loop, vamos a ver si Patrick 🐥 ouede calcular calculate <b>1 + 2 + 3 + 4 ... + 99 + 100</b> fácilmente?
+Luego de aprender sobre el for loop y el while loop, vamos a ver si Patrick 🐥 puede calcular <b>1 + 2 + 3 + 4 ... + 99 + 100</b> fácilmente?
 
 Ahora intenetemos lograr la sumatoria usando un while loop: 
 1. Tenemos una variable llamada `total` que guarda el total de la sumatoria.
