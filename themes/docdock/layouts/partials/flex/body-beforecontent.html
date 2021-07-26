@@ -3,34 +3,22 @@
   {{ partial "header.html" . }}
 </header>
 <article>
-  <aside>
-    <ul class="menu">
-      {{- if not .Site.Params.disableHomeIcon}}
-      <li data-nav-id="{{"/" | relLangURL}}" class="dd-item">
-        <a href="{{"/" | relLangURL}}">
-          <i class="fa fa-fw fa-home"></i>
-        </a>
-      </li>
-      {{- end}}
-      {{- partial "menu.html" . }}
-    </ul>
-
-    <section>
-      {{- partial "menu-footer.html" . }}
-    </section>
-  </aside>
   <section class="page">
-    <div align="right">
-      {{- partial "language-selector.html" . }}
-    </div>
+    <aside>
+      <ul class="menu">
+        {{- if not .Site.Params.disableHomeIcon}}
+        <li data-nav-id="{{"/" | relLangURL}}" class="dd-item">
+          <a href="{{"/" | relLangURL}}">
+            <i class="fa fa-fw fa-home"></i>
+          </a>
+        </li>
+        {{- end}}
+        {{- partial "menu.html" . }}
+      </ul>
+  
 
-    <div class="nav-select">
-      {{ i18n "navigation" }}&nbsp;
-      <select onchange="javascript:location.href = this.value;">
-        {{partial "flex/selectnavigation.html" .}}
-      </select>
-
-    </div>
+    </aside>
+    
     <!-- No search
     {{- if not .Site.Params.disableSearch}}
     <div>
