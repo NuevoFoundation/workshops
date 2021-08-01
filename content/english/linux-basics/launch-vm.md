@@ -1,26 +1,24 @@
 ---
 title: "Starting up the Virtual Machine"
-description: "Continuing the introductory guide to using virtual machines."
+description: "Continuing the introductory guide to using virtual machines"
 date: 2020-09-17
-prereq: "Completed the Virtual Box set up."
 difficulty: "Intermediate"
 weight: 3
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eqHr7UeKs70" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 *Now that everything is installed, let's launch the virtual machine!*
 
-### Starting the vm
-
-This is pretty simple using VirtualBox. Just double click on the vm that we created in the previous step and off you go!
-
+### Starting the VM
+This is pretty simple using VirtualBox. Just double click on the VM that we created in the previous step and off you go!
 ![virtual box launch kali](../images/start-01.PNG?classes=border,shadow)
 
 As the virtual machine is getting started there may pop up some warnings like in this image. It is safe to ignore these.
 
 ![virtual box kali warnings](../images/start-02.PNG?classes=border,shadow)
 
-### Sign into the vm
-
+### Sign into the VM
 First you will need to log in. Use these *credentials* to get started!
 
 | Username | Password |
