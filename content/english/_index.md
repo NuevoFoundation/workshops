@@ -8,7 +8,5 @@ hidemetadata: true
 ## Workshop Projects
 {{< workshop-list style="card" depth="1" showhidden="false" description="true"  />}}
 
-## Contributor guidelines
-
-- [Contributor guidelines](guidelines/)
-- [Workshop website developer guidelines](guidelines/web-developer)
+## Contributing
+Want to help improve our workshops or our website? See [Contributor Guidelines](guidelines/)!
