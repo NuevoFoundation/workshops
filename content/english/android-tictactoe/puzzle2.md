@@ -9,7 +9,7 @@ Let's add a welcome message that the user can see when they start your app!
 
 Go to **MainActivity.kt** and find `// PUZZLE 2` in the code and write a toast that welcomes the user to your game with "Welcome to Tic-Tac-Toe!”. Now press the play button (►) at the top of Android Studio and your app should look like this:
 
-<img src="../resources/_gen/images/toast_success.png" height="40%" width="40%" title="Successful Toast" alt="Example of game with successful welcome to Tic Tac Toe text displayed using toast"/>
+<img src="../resources/_gen/images/toast_success.png" height="20%" width="20%" title="Successful Toast" alt="Example of game with successful welcome to Tic Tac Toe text displayed using toast"/>
 
 {{% notice warning %}}
 ## HELP! I got a lot of red text!

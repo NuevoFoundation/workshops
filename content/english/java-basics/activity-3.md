@@ -5,10 +5,12 @@ date: 2020-07-13T00:00:00Z
 weight: 4
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wP8-F1nBPcg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/wP8-F1nBPcg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ### 1. Let's do Math: Arithmetic Operator
+
 In the last exercise, we learn about variables any how we can assign values to a variable of a specific type, such as:
+
 ```java
 int age = 3;  // declare variable age of type int with value 3
 age = 4;      // assign 4 to the variable age
@@ -18,16 +20,18 @@ Looking at the code above, it essentially add 1 to the value of the variable `ag
 
 And, in Java, we can perform math operations on variables directly with <b>arithmetic operators</b>: `+`, `-`, `*`, `/`, `%`.
 For example, we can use the add operator `+` to add 1 to `age`:
+
 ```java
 int age = 3;  // declare variable age of type int with value 3
 age = age + 1;// add 1 to age
 ```
+
 {{% notice note %}}
 The following are the arithmetic operators in Java:
 
 - `+`: addition.
 
-- `-`: subtraction. 
+- `-`: subtraction.
 
 - `*`: multiplication.
 
@@ -43,6 +47,7 @@ Add (`+`) is used on String as concatenation operator. For example:
 {{% /notice %}}
 
 ### 2. Comparisons: Relational Operator
+
 Next, let's learn how to compare numbers. Let me introduce the <b>relational operators</b>.
 
 Just like in math, we can compare numbers using `>`, `<`, `>=`, `<=`. For example: `(3 > 2)` is `true`, a boolean value.
@@ -65,12 +70,14 @@ The following are the relational operators in Java:
 Note: you can use `==` and `!=` on 2 pieces of data of the same type.
 {{% /notice %}}
 
-### 3. Exam Statistic! 
+### 3. Exam Statistic!
+
 Patrick 🐥 and 4 of his classmates just had a music exam in this class. These are the grades of their exams: Patrick(88), Tom(89), Mary(95), Chris(84), Jen(92).
 
 We want to produce a grade statistic report of the whole class. 
 
 This report list of students grade, class average score, and whether class average is over 60, 70, 80, 90 (`true` or `false`), like the following:
+
 ```
 ---------------------------
      Music Grade Report    
@@ -87,9 +94,11 @@ Class Average: ...
 - Average Over 80: ...
 - Average Over 90: ...
 ```
+
 Let's write it with the help of operators 🎵!
 
 {{% notice note %}}
+
 #### Instructions:
 
 1. Identify all the variables in the print statements and declare them starting on line 12 with the correct data type and value. Note that there are 10 variables in total, and `average` has been declared for you).

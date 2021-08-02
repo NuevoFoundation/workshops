@@ -9,33 +9,41 @@ Now, we we want to add one of the most important parts of the game - shooting th
 
 We will start with some basic stuff - loading a spritesheet and animation in Scene 1 for the player's beams:
 
-![scene1_preload](../media/8/scene1_preload.png)
+<!--- ![scene1_preload](../media/8/scene1_preload.png)--->
+<img src="../media/8/scene1_preload.png" alt="scene1_preload" style="width:950px;"/>
 
 The location of the spritesheet is `assets/beam.png` and the frame width and height is 32:
 
-![scene1_create](../media/8/scene1_create.png)
+<!--- ![scene1_create](../media/8/scene1_create.png)--->
+<img src="../media/8/scene1_create.png" alt="scene1_create" style="width:950px;"/>
 
 Now in Scene 2, we will do something similar to what we did with the enemies and create a group for the beams so that we can easily manipulate them. Create a group and name it "projectiles":
 
-![projectiles](../media/8/projectiles_step1.png)
+<!--- ![projectiles](../media/8/projectiles_step1.png)--->
+<img src="../media/8/projectiles_step1.png" alt="projectiles" style="width:950px;"/>
 
 Now go to `playerBeam.js`：
 
-![constructor_xy](../media/8/constructor_xy.png)
+<!--- ![constructor_xy](../media/8/constructor_xy.png)--->
+<img src="../media/8/constructor_xy.png" alt="constructor_xy" style="width:950px;"/>
+
 
 Notice that, like `Explosion.js`, it extends Phaser.GameObjects.Sprite and uses the `super()` keyword in its constructor. Complete the code in the constructor. This will require that you play the beam's animation, enable the body, and set the beam's y-velocity to whatever speed you want your beam to travel.
 
 Now that we have the basics of the beam down, let’s allow the player to shoot it when they click the spacebar. Similar to how we created a variable to process pointer keys for player movement, we will create another variable to process when the player presses the space bar:
 
-![control_space](../media/8/control_space.png)
+<!--- ![control_space](../media/8/control_space.png)--->
+<img src="../media/8/control_space.png" alt="control_space" style="width:950px;"/>
 
 We will now create a playerShoot() method:
 
-![player_shoot](../media/8/player_shoot.png)
+<!--- ![player_shoot](../media/8/player_shoot.png)--->
+<img src="../media/8/player_shoot.png" alt="player_shoot" style="width:950px;"/>
 
 and call it in the update() method like we did for the movePlayer():
 
-![update_player_shoot](../media/8/update_player_shoot.png)
+<!--- ![update_player_shoot](../media/8/update_player_shoot.png)--->
+<img src="../media/8/update_player_shoot.png" alt="update_player_shoot" style="width:950px;"/>
 
 The playerShoot method will check if the spacebar has been pressed and fire a beam if it has. "Firing a beam", in this case, means creating a playerBeam object and adding it to the projectiles group if the player is active (still alive).
 
@@ -55,11 +63,14 @@ for(var i = 0; i < this.projectiles.getChildren().length; i++) {
 
 you can fill it into this location:
 
-![update_projectiles](../media/8/update_projectiles.png)
+<!--- ![update_projectiles](../media/8/update_projectiles.png)--->
+<img src="../media/8/update_projectiles.png" alt="update_projectiles" style="width:950px;"/>
+
 
 Now, to test this, we can simply change the height value that the beam self-destructs to one that is on the screen:
 
-![player_bullet_update](../media/8/player_bullet_update.png)
+<!--- ![player_bullet_update](../media/8/player_bullet_update.png)--->
+<img src="../media/8/player_bullet_update.png" alt="player_bullet_update" style="width:950px;"/>
 
 The code is working correctly if the beam disappears at the specific height. After we test that the code works, we can simply change this value to one that is above the screen.
 
@@ -69,13 +80,17 @@ You can see in this gif that the beam is disappearing once it hits a specified h
 
 Now, lets make the enemy be destroyed if they’re hit with a beam! We can actually just do this with a similar overlap detection that we did to check if the player is touching the enemy:
 
-![overlap](../media/8/projectiles_step2.png)
+<!--- ![overlap](../media/8/projectiles_step2.png)--->
+<img src="../media/8/projectiles_step2.png" alt="overlap projectiles" style="width:950px;"/>
+
 
 Create a line of code that uses the same syntax as the line we used for detecting whether the player and enemy have collided, but this time check if the enemy and beam have collided.
 
 However, we can’t use the hurtPlayer() method because the player isn’t being hurt and we don’t want the player to respawn when the enemy is hit. We will create a new function called `hitEnemy()`:
 
-![hit_enemy](../media/8/hit_enemy.png)
+<!--- ![hit_enemy](../media/8/hit_enemy.png)--->
+<img src="../media/8/hit_enemy.png" alt="hit_enemy" style="width:950px;"/>
+
 
 Add code to the `hitEnemy()` so that it creates an explosion at the enemy’s location and removes the beam and the enemy.
 

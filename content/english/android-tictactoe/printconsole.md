@@ -6,9 +6,10 @@ hidden: false
 weight: 5
 ---
 Sometimes the game or application might not work the way you expect it to or you want to write something to the console for logging purposes. Outside of debugging the application, you can use `System.out.println()` to write your message. Lookout for your messages in the "logcat" window at the bottom of Android Studio:
-<img src="../resources/_gen/images/println.gif" height="70%" width="70%" title="System.out.println()" alt="Logcat window in Android Studio showing messages created using the System.out.printIn logging function"/>
+<img src="../resources/_gen/images/println.gif" height="60%" width="60%" title="System.out.println()" alt="Logcat window in Android Studio showing messages created using the System.out.printIn logging function"/>
 
 {{% notice tip %}}
+
 ## Working Together
 
 1. Without removing the quotation marks, try changing `"Restarting the Tac-Tic-Toe Game!"` to `"Restarting the Tic-Tac-Toe Game!"` or any other sentence you like. Press run to see if anything changes.
@@ -33,4 +34,4 @@ If you see any red text, you have encountered some errors! Please ask for help. 
 ```kotlin
 Toast.makeText(this, "Text we want to show", Toast.LENGTH_SHORT).show()
 ```
-<img src="../resources/_gen/images/toast_example.png" height="70%" width="70%" title="Toast Example" alt="toast example. You can use the toast.makeText function with arguments context, the message string, and Toast.LENGTH_LONG or Toast.LENGTH_SHORT to display a welcome message, such as Welcome to Tic-Tac-Toe"/>
+<img src="../resources/_gen/images/toast_example.png" height="60%" width="60%" title="Toast Example" alt="toast example. You can use the toast.makeText function with arguments context, the message string, and Toast.LENGTH_LONG or Toast.LENGTH_SHORT to display a welcome message, such as Welcome to Tic-Tac-Toe"/>

@@ -5,9 +5,9 @@ date: 2020-07-08T00:00:00Z
 weight: 2
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uYoq-4juYBY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/uYoq-4juYBY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-### 1. Let the Program Speak! 
+### 1. Let the Program Speak!
 
 Let’s try to write a program that says `Hello World` out by typing the line of code `System.out.print("Hello World");` 
 
@@ -19,8 +19,9 @@ After, add more statements to print numbers by putting numbers in the parenthesi
 
 {{% notice tip %}}
 #### Do you notice that all the statements you typed end up printing everything in one line?
-Sometimes we want to enter a new line when typing. 
-And, to do that, we type a slightly different code `System.out.println();` 
+
+Sometimes we want to enter a new line when typing.
+And, to do that, we type a slightly different code `System.out.println();`
 
 (Note: we type `println` instead of `print` to create a new line after)
 
@@ -29,6 +30,7 @@ Give it a try and make all the statements in different lines above!
 
 {{% notice tip %}}
 #### How to print multiple symbols in one line of code?
+
 We learned that to print symbols we put them around 2 single quotes `'`, but how do we print multiple symbols in one line?
 
 We can simple put them between 2 double quotes `"` (i.e. `System.out.print("@ , - h A #");`)
@@ -37,9 +39,10 @@ We can simple put them between 2 double quotes `"` (i.e. `System.out.print("@ , 
 
 {{% notice tip %}}
 #### !! Important !! Sometimes you can't just put characters in between " "
+
 When putting characters in between `" "` in a print statement, sometimes it's easy to confuse the computer on what characters to print.
 
-For example, how do we tell computer to print `"`? 
+For example, how do we tell computer to print `"`?
 
 If you type `System.out.print(""");`, you will get an error! because the computer can't identify where the text ends!
 
@@ -51,6 +54,7 @@ Other characters that needs to be escaped in Java includes: `'`, `"`, `\`.
 {{% /notice %}}
 
 ### 2. Print an Owl
+
 Let's meet 🐥 Patrick's first friend, the owl Minerva 🦉!
 
 Use what you just learn and recreate this owl below using just 4 lines of code! (Art credit: asciiart.eu/animals/birds-land)
@@ -72,7 +76,8 @@ Revisit the thrid tip above to see how to escape characters in a print statement
 {{% /notice %}}
 
 ### 3. Make a Comment
-When creating a Java program, we can jot down some notes by adding one line comment using `//` or multi-line comment using `/*` and `*/` (Note: The instructions in the previous activities were written as comments). 
+
+When creating a Java program, we can jot down some notes by adding one line comment using `//` or multi-line comment using `/*` and `*/` (Note: The instructions in the previous activities were written as comments).
 
 Also, adding comments will not affect the program whatsoever. So, you can add any notes with comments throughout your code!
 

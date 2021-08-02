@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Starting Up
+## Starting Up
 
 To begin, open your preferred internet browser (such as Edge, Firefox, Google Chrome, Internet Explorer), and go to <a href="https://repl.it/@nuevofoundation/Phaser-Space-Invaders#index.html" target="_blank">https://repl.it/@nuevofoundation/Phaser-Space-Invaders</a>. Your screen should look like this:
 
@@ -16,5 +16,3 @@ For now, we will ignore the content of the project (the code), and we will inste
 If you press run now, you will only see a black screen. This is because the code is not yet completed - this will be your job!
 
 Click the fork button to create a copy of the code for yourself to work on. Any activities under the Activity sections will be done in this browser tab.
-
-

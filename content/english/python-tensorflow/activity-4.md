@@ -9,13 +9,14 @@ draft: false
 
 <iframe width="100%" height="600px" src="https://www.youtube.com/embed/o0o9JTm2xIg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
 The following code determines how many times model is trained. It is normal for this segment of code to take longer than usual to run.
+
 ```python
 model.fit(train_images, train_labels, epochs=10) 
 ```
 
 The following code prints out the overall test accuracy.
+
 ```python
 test_loss, test_acc = model.evaluate(test_images,  test_labels, verbose=2)
 

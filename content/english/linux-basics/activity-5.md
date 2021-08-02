@@ -19,7 +19,6 @@ Feel free to go back if you need to!
 We should keep using that command to check if we changed the permissions as expected.
 
 ---
-
 ### How do we secure the files then?
 
 ```
@@ -45,8 +44,7 @@ Now, let's try to change the permissions of our files. We want anyone outside of
 
 ![chmod command](../images/Act5.2.png?classes=border,shadow)
 
-{{% notice tip %}}
-#### Shortcut!
+### Shortcut!
 
 `chmod` can also be used with simple number commands. These commands are written like:  
 
@@ -63,4 +61,3 @@ What permissions do the other two values give?
 | 2 | write |
 | 1 | execute |
 | 0 | no permission |
-{{% /notice %}}

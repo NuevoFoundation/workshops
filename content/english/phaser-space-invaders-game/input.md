@@ -5,11 +5,11 @@ draft: false
 weight: 9
 ---
 
-# User Inputs
+## User Inputs
 
 Inputs are essential because without the user inputting things with controls, our game isn't really much of a game. Although Phaser supports a variety of different input options, we are going to go over three that you will use in the Space Invaders Game.
 
-# Arrow Keys
+## Arrow Keys
 
 Let's start with one of the most important controls: arrow keys. First, we will create a variable that is able to detect when the player presses an arrow key.
 
@@ -17,27 +17,18 @@ Let's start with one of the most important controls: arrow keys. First, we will 
 this.cursors = this.input.keyboard.createCursorKeys();
 ```
 
-In order to use this variable, you must pick between 4 boolean statements.
+To use this variable, you must pick between 4 boolean statements.
 
 ```javascript
 this.cursors.up.isDown
-```
-
-```javascript
 this.cursors.down.isDown
-```
-
-```javascript
 this.cursors.left.isDown
-```
-
-```javascript
 this.cursors.right.isDown
 ```
 
 Each of these boolean statements will equal true if the associated key is pressed and false if it is not.
 
-# Space Bar
+## Space Bar
 
 To add a space bar input, the process will be very similar to the arrow keys. First we will create a variable that detects the space bar being pressed.
 
@@ -51,7 +42,7 @@ Then we can use a boolean statement to check whether the input has been pressed.
 Phaser.Input.Keyboard.JustDown(this.spacebar)
 ```
 
-# Single Click
+## Single Click
 
 You can also use the same process that we used to add arrow key and space bar inputs for clicks, but we will go over a slightly different method here because it is something you will likely use in the Space Invaders game.
 

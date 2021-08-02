@@ -9,7 +9,9 @@ weight: 11
 
 *Let's look at the secret message to make sure this weird `malware.sh` file hasn't done anything to it!*
 
-### Do we know a command that can help us find the location of the `secret-message.txt` file?
+## Differences
+
+Do we know a command that can help us find the location of the `secret-message.txt` file?
 
 ![find command](../images/Act8.1.png?classes=border,shadow)
 
@@ -30,7 +32,7 @@ The `-a` flag gives all entries including hidden files.
 
 *Did you find any new files? Put that in your report!*
 
-### Compare the secret-message.txt file to the backup file
+## Compare the secret-message.txt file to the backup file
 
 `diff` is a command used to compare two files to get what has been added, changed, and deleted to the file.  
 The format is: `diff -u [filename] [Filename of Comparison File]`
@@ -42,7 +44,7 @@ Fun Fact: The `-u` flag puts the output in unified mode. You can change the `u` 
 Check the difference between the two files. How many differences did you find? Put it in the file you made!
 
 {{% notice tip %}}
-### A better way to see the differences
+## A better way to see the differences
 
 `vimdiff` is a command that opens a window with the files in separate tabs highlighting the differences.
 

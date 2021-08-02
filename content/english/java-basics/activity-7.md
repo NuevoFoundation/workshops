@@ -5,7 +5,7 @@ date: 2020-07-16T00:00:00Z
 weight: 8
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/x2hcvJjiH_g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/x2hcvJjiH_g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 In previous exercises, we learned that variables allow us to access and store a piece data. But, what if we want to store a bunch of similiar data? Is there a good way to organize them without declaring multiple variables?
 
@@ -19,9 +19,11 @@ Let's say we want to store Patrick's 🐥 top 5 favorite movies. Instead of crea
 To store data in an array, we do the following:
 
 1. We first declare an array by specifying a data type and size (number of data can be stored).
+
 ```java
 String topMovies[] = new String[5]; // create an array of Strings of size 5.
 ```
+
 2. We iterate through the array (go through all the data spots) and assign the data to a spot in the array. 
 
 Note that we access the array with its name and an index (`0` to access the 1st element, `1` for the 2nd ... ).
@@ -49,45 +51,56 @@ In other words, the index is actually a memory offset. To access the 1st element
 If we know all pieces of data for an array in advance, we can create the array in one line by listing all the data between `{` and `}`. 
 
 For example:
+
 ```java
 String topMovies[] = {"Birds Of Prey", "The Birds", "Angry Birds", "Bird Box", "The Secret Life of Pets"};
 ```
+
 Just like how we initialize data with its index, we can access/modify each data with its index as well. 
 
 For example:
+
 ```java
 String movie1 = topMovies[0]; // movie1 has value "Birds Of Prey"
 ```
+
 {{% /notice %}}
 
-It is often useful to know how many elements are an array after creating it (to access the last element in the array for example). And, we can get the number of elements in the array from the `length` field of the array, typing `array_name.length`. 
+It is often useful to know how many elements are an array after creating it (to access the last element in the array for example). And, we can get the number of elements in the array from the `length` field of the array, typing `array_name.length`.
 
 For example:
+
 ```java
 int numOfMovie = topMovies.length; // numOfMovie has value 5
 ```
+
 <br />
 
 #### Exercise: Write a method `printArr()` that takes an array input and prints out all the elements in that array in order 
 (Hint: utilize for loop and `.length` to help you).
 
 After clicking `Run`, the program should print the following:
+
 ```
 Birds Of Prey, The Birds, Angry Birds, Bird Box, The Secret Life of Pets
 ```
+
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsArray?lite=true#Bird.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### 2. ArrayList
+
 ArrayList is another popular data structure in Java. `ArrayList` is a class that was implemented using arrays. It is similiar to an array that user access, store, and modify data by an index.
 
 You create an ArrayList by specifying a name and the type between `<` and `>`. 
 For example:
+
 ```java
 ArrayList<String> topMoviesList = new ArrayList<String>();
 ```
 
 To add elements, we call the method `add()` on the ArrayList. 
 For example:
+
 ```java
 topMoviesList.add("Birds Of Prey");
 topMoviesList.add("The Birds");
@@ -97,16 +110,20 @@ topMoviesList.add("The Secret Life of Pets");
 // the ArrayList now store "Birds Of Prey", "The Birds", "Angry Birds", "Bird Box", "The Secret Life of Pets" in order
 ```
 
-To access an element at a particular index, we call the method `get()`. Note that Java use 0-based indexing, so to get the first element in an ArrayList we make a method call `get(0)`. For example:
+To access an element at a particular index, we call the method `get()`. Note that Java use 0-based indexing, so to get the first element in an ArrayList we make a method call `get(0)`. 
+For example:
+
 ```java
 String movie1 = topMoviesList.get(0); // movie1 has value "Birds Of Prey"
 ```
 
 And, to get the number of elements in the ArrayList, we call the method `size()`.
 For example:
+
 ```java
 int numOfMovie2 = topMoviesList.size(); // numOfMovie2 has value 5
 ```
+
 <br />
 
 As we briefly mentioned above, the critical difference between array and ArrayList is that you need to know number of elements to store in an array upfront, but you do not for an ArrayList.
@@ -117,20 +134,25 @@ As we briefly mentioned above, the critical difference between array and ArrayLi
 
 To remove an element from an ArrayList, we call the method `remove()`. 
 For example:
+
 ```java
 System.out.print(topMoviesList.size()); // prints out 5
 topMoviesList.remove("Birds Of Prey");
 System.out.print(topMoviesList.size()); // prints out 4
 ```
+
 <br />
 
 #### Exercise: Write a method `printList()` that takes an ArrayList as input and prints out all the elements in that ArrayList in order 
+
 (Hint: utilize for loop and `size()` to help you).
 
 After clicking `Run`, the program should print the following:
+
 ```
 Birds Of Prey, The Birds, Angry Birds, Bird Box, The Secret Life of Pets
 ```
+
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsList?lite=true#Bird.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### End Of Workshop 🐥 

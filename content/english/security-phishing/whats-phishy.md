@@ -10,7 +10,6 @@ From our last section we learned about different types of phishing methods and h
 
 From a list of images given below choose whether you think it's phishy or not?
 
-
 ![Spotify email](../media/Spotify_email.jpg?classes=border,shadow)
 
 <fieldset>  
@@ -34,7 +33,7 @@ From a list of images given below choose whether you think it's phishy or not?
 </fieldset>
 -->
 
-![LinkedIn learning](../media/linkedIn.png?classes=border,shadow)
+![LinkedIn learning](../media/linkedIn.png)
 
 <fieldset>  
 <legend>Does this banner look phishy?</legend>
@@ -87,5 +86,4 @@ From a list of images given below choose whether you think it's phishy or not?
   <label for="notify-off">No</label>
 </fieldset> -->
 
-<br>
 {{< button href="/security-phishing/6-summary/" theme="success" >}} Check answers! {{< /button >}}
