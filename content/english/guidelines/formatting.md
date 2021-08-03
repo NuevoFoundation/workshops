@@ -80,7 +80,7 @@ This theme includes a number of options to customize the look and feel of your s
 
 ### Expand
 
-    {{%/*expand "Click here to expand!"*/%}}
+    {{</*expand "Click here to expand!"*/>}}
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo

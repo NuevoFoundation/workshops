@@ -7,7 +7,7 @@ hidden: true
 
 ¡Bienvenido! Estas pautas son para crear o editar un Taller de Nuevo Foundation.
 
-* [Aplicando formatos al texto"](formatting/)
+* [Aplicando formatos al texto](formatting/)
 
 ## Próximamente
 

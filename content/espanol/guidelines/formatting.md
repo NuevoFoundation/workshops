@@ -9,8 +9,8 @@ Al crear o editar talleres, los redactarás usando sintaxis Markdown estándar, 
 
 ## Referencia de formateo
 
-- [Hoja de trucos para Markdown Estándar](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-- [Opciones de formato personalizado mediante “shortcodes”](shortcodes/)
+- [Hoja de trucos para Markdown Estándar](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) (en inglés)
+- [Opciones de formato personalizado mediante “shortcodes”](/guidelines/shortcodes/) (en inglés)
 
 ## Ejemplos de formato
 
