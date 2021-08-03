@@ -3,4 +3,4 @@
 {{else}}
 	{{with .Get 0 }}alert-{{.}}{{else}}alert-info{{end}}"
 {{end}} 
-role="alert">{{.Inner}}</div>
+role="alert">{{.Inner | markdownify}}</div>

@@ -5,14 +5,20 @@ draft: false
 hidden: true
 ---
 
-# Contributing
+We welcome contributions. Great ways to contribute include trying things out, filing bugs, creating, and adding new workshops.
 
-We welcome contributions. Great ways to contribute include trying things out, filing bugs, creating, and adding new workshops. If you're looking at places to contribute, take a look at our [help wanted issues](https://github.com/dotnet/project-system/issues?q=is%3Aopen+is%3Aissue+label%3A%22Help+Wanted%22).
+## Start here
+Just reporting a typo or bug? You can <a target="_blank" href="https://github.com/NuevoFoundation/workshops/issues">file it as a GitHub issue</a>.
 
-For additional information, see the following:
+Looking to contribute more? Take a look at our <a target="_blank" href="https://github.com/NuevoFoundation/workshops/labels/help%20wanted">help wanted issues</a> to find areas to contribute to. Then, to start contributing, follow these guides:
+  - [Getting Started](getting-started/)
+  - [How the site is built](site-architecture/)
 
-- [Getting Started](getting-started/)
-- [New Workshop Guidelines](new-workshops/)
-- [How the site is built](site-architecture/)
-- [Web Developer Guidelines](web-developer/)
-- [Formatting](formatting/)
+## For content creators
+Interested in creating or modifying workshops? Follow the "Start here" guides above, then the following:
+  - [Formatting](formatting/)
+  - [New Workshop Guidelines](new-workshops/)
+
+## For web developers
+Interested in improving this website? Follow the "Start here" guides above, then the following:
+  - [Web Developer Guidelines](web-developer/)
