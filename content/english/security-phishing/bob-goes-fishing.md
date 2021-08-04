@@ -11,15 +11,10 @@ Meet our friend **Bob**. **Bob** is a nice and jolly gentleman. His hobbies are 
 
 ![Bob is preparing for his fishing trip to the Bahamas](../media/nuvi_phish_reduced.png?height=250px)
 
-However, 24 hours later, he still didn't receive a confirmation 
-for his trip. Another day passed and still nothing. The next day, he decided to go
-meet his good friend **Alice**. 
+However, 24 hours later, he still didn't receive a confirmation for his trip. Another day passed and still nothing. The next day, he decided to go meet his good friend **Alice**. 
 ![Secret Agent Alice](../media/Alice_reduced.png?height=250px)
 
 
-**Bob** told **Alice** all about the email,
-the trip to Bahamas, his new clothes and how he cannot wait to go fishing. 
-**Alice**, being a secret agent was suspicious, and asked **Bob** to show her 
-the email.
+**Bob** told **Alice** all about the email, the trip to Bahamas, his new clothes and how he cannot wait to go fishing. **Alice**, being a secret agent was suspicious, and asked **Bob** to show her the email.
 
 On reading the email **Alice** sighed, "Bob you have been `phished`!"

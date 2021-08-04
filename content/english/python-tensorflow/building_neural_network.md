@@ -25,17 +25,17 @@ And why is this called a sneaker? Everyone at some point has collectively agreed
 
 How is this relevant to what we are doing next? We will need to tell the computer that these types of images are sneakers. We cannot just hard code these two images as sneakers because this would be ineffective when predicting future inputs using this model.
 
-Moreover, we don't have to stop with only sneakers to categorize images- we can use multiple categories to classify images (Recall creating the list of different clothing categories in Activity 1). In the end, these are the categories we are using to sort all the clothing apparel.
+Moreover, we don't have to stop with only sneakers to categorize images - we can use multiple categories to classify images (recall creating the list of different clothing categories in Activity 1). In the end, these are the categories we are using to sort all the clothing apparel.
 
-### What is a Neural Network?
+### What is a neural network?
 
-The concept of the Neural Network originated from the idea of replicating the human brain, more specifically its ability to recognize patterns. In fact word 'neural' is a derivation of the word 'neuron', which are receptors in the brain that fire off, for example, when it sees an image or an object it recognizes.
+The concept of a **neural network** originated from the idea of replicating the human brain, more specifically its ability to recognize patterns. In fact, the word 'neural' is a derivation of the word 'neuron', which are receptors in the brain that fire off when, for example, it sees an image or an object it recognizes.
 
 In this case, we are training the computer to recognize what each image is (whether its a shoe, a shirt, a bag, etc.), so our main goal of utilizing the neural network in this workshop is to give the computer the ability to classify  images from the dataset into different categories.
 
 The image below shows a simple implementation of a neural network.
 - The input layer is reponsible to feed data into the system, pointing to different neurons to train the model.
-- The hidden layer constitutions of many neurons, which are responsible for recognizing the different patterns from the input data. These nodes then point to the output layer.
+- The hidden layer consists of many neurons, which are responsible for recognizing the different patterns from the input data. These nodes then point to the output layer.
 - The output layer consists of a single node or multiple nodes that return an output value which the model predicts.
 
 ![Neural Network Diagram](../media/neural_network.png)
@@ -45,16 +45,16 @@ Simply put, a neural network is a system, or an algorithm, that trains the compu
 ### How is related to what we are doing?
 
 {{%notice note%}}
-We would recommend looking at the first code block below and the Neural Network diagram to better understand the relationship between them and the following points.
+We would recommend looking at the first code block below and the neural network diagram to better understand the relationship between them and the following points.
 {{%/notice%}}
 
 - The input layer takes the different types of images from the dataset and feeds it into the neurons (the hidden layer).
 - The neurons (128 of them) then recognize different patterns in the images by observing different features and the relationships between them and the predetermined categories. This layer gives the computer the ability to categorize images on its own.
-- The output layer consists of 10 different nodes, representing the 10 different categories we would sort the images by. Depending on the specific image and the way the computer was trained by the neurons, The output will be the highest predicted category for that particular image.
+- The output layer consists of 10 different nodes, representing the 10 different categories we would sort the images by. Depending on the specific image and the way the computer was trained by the neurons, the output will be the highest predicted category for that particular image.
 
 Optional:
 
-If you are interested in reading more about Neural Networks, you can check out <a href="https://news.mit.edu/2017/explained-neural-networks-deep-learning-0414" target="_blank">this website</a> by MIT News.
+If you are interested in reading more about neural networks, you can check out <a href="https://news.mit.edu/2017/explained-neural-networks-deep-learning-0414" target="_blank">this website</a> by MIT News.
  
 <a href="https://en.wikipedia.org/wiki/Neural_network#/media/File:Neural_network_example.svg" target="_blank">Image Source</a>
 

@@ -14,8 +14,9 @@ use different types of bait to steal personal information from unsuspecting peop
 
 Phishing is a type of social engineering attack which is used to steal sensitive data, including login credentials, banking and credit card details.
 
-It occurs when a **Hacker**, posing as a trusted entity, lures an individual using email, text message, or phone.<br> The recipient is then tricked into clicking a malicious link, which can lead to the installation of a malicious
-software, or revealing of sensitive data.
+It occurs when a **Hacker**, posing as a trusted entity, lures an individual using email, text message, or phone.
+
+The recipient is then tricked into clicking a malicious link, which can lead to the installation of a malicious software, or revealing of sensitive data.
 
 ## What went wrong?
 

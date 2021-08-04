@@ -8,7 +8,7 @@ weight: 5
  
 From our last section we learned about different types of phishing methods and how to recognize them. Now it's time to play a game called `What's phishy`?
 
-From a list of images given below choose whether you think it's phishy or not?
+Which images from the list given below do you think are phishy?
 
 ![Spotify email](../media/Spotify_email.jpg?classes=border,shadow)
 

@@ -30,4 +30,4 @@ Some phishing scams involve search engines where the user is directed to product
 
 ![An example of search engine Ad](../media/search_engine.png?height=450px)
 
-Many search engines priortize advertisement links for a search query. Make sure to verify the link before clicking on it so you avoid going to a malicious website as highlighted in the above image.
+Many search engines prioritize advertisement links for a search query. Make sure to verify the link before clicking on it so you avoid going to a malicious website as highlighted in the above image.

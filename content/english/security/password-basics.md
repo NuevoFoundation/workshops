@@ -9,7 +9,7 @@ Our Secret Agent Alice solves the case by explaining Bob about Passwords!!!
 ## What is a Password?
 
 Passwords are the key to the lock to your virtual world.
-Just like your secret is kept safe in a secure room using a lock and a key similarly your personal information on the internet is secured by your login password and username.
+Just like your secret is kept safe in a secure room using a lock and a key, your personal information on the internet is secured by your login password and username.
 
 The secure room is only as secure as the key to the lock on the door. We need stronger passwords to protect our online data and identity from bad people known as <b>Hackers</b>.
 
