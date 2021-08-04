@@ -71,11 +71,16 @@ You can display the database using the command from activity 1.
 
 * Hint 5: What symbol do you need at the end of a SQL command?
 {{%/notice%}}
-
+ 
 {{%notice info%}}
 * BONUS: Try to use multiple inputs inside `IN()` or `NOT IN()` when searching for the ladder
 * This command is very powerful in searching multiple types of objects
 {{%/notice%}}
+
+{{%notice tip%}}
+Remember: You can query the database multiple times using everything you have learnt till now to find out the color of the tallest ladder.
+{{%/notice%}}
+
 <!-- SQL Type In Activity -->
 
 {{< rawhtml >}}
@@ -103,13 +108,12 @@ You can display the database using the command from activity 1.
   <div id="legend" style="visibility:hidden">
      <br/>
     <p style="color:red;"> RED Ladder = 100 </p>
-    <p style="color:blue;"> BLUE Ladder = 60 </p>
-    <p style="color:brown;"> BROWN Ladder = 20 </p>
+    <p style="color:#00e500;"> GREEN Ladder = 60 </p>
+    <p style="color:#ffb972;"> YELLOW Ladder = 20 </p>
     </br>
   </div>
 
 {{< /rawhtml >}}
-
 
 ### Choose and drag the correct ladder onto the hill to continue your adventure!
 
@@ -132,11 +136,11 @@ The correct ladder will be highlighted in green.
 </div>
 
 <div id="div2" class ="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
-  <img class="img" src="assets/ladder_blue.png" draggable="true" ondragstart="drag(event)" id="drag2">
+  <img class="img" src="assets/ladder_green.png" draggable="true" ondragstart="drag(event)" id="drag2">
 </div>
 
 <div id="div3" class ="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
-  <img class="img" src="assets/ladder_brown.png" draggable="true" ondragstart="drag(event)" id="drag3">
+  <img class="img" src="assets/ladder_yellow.png" draggable="true" ondragstart="drag(event)" id="drag3">
 </div>
 
 </div>

@@ -31,8 +31,8 @@ alasql("INSERT INTO items VALUES ('totem','1738-11-02','Playground City','red',1
 alasql("INSERT INTO items VALUES ('totem','1729-01-03','UNKNOWN','gold',30,'UNKNOWN')");
 
 alasql("INSERT INTO items VALUES ('ladder','1738-09-01','Fun Capital','red',100,'Tall ladder')");
-alasql("INSERT INTO items VALUES ('ladder','1738-09-02','Fun Capital','blue',60,'Medium ladder')");
-alasql("INSERT INTO items VALUES ('ladder','1738-09-03','Fun Capital','brown',20,'Short ladder')");
+alasql("INSERT INTO items VALUES ('ladder','1738-09-02','Fun Capital','green',60,'Medium ladder')");
+alasql("INSERT INTO items VALUES ('ladder','1738-09-03','Fun Capital','yellow',20,'Short ladder')");
 
 alasql("INSERT INTO items VALUES ('key','1738-09-04','Fun Capital','gold',3,'3 loops key')");
 alasql("INSERT INTO items VALUES ('key','1738-09-05','Fun Capital','gold',2,'2 loops key')");

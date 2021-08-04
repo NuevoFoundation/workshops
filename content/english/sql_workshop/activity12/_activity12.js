@@ -24,10 +24,10 @@ function sql()
   sqlToTable(headArr, array, "table");
   
   /*change answer here */
-  var ans1 = "select * from people;";
+  var ans1 = "select * from people;".replace(/\s+/g, '');
   
-  //Change string to lower case
-  var input = user.toLowerCase();
+  // Change string to lower case
+  var input = user.toLowerCase().replace(/\s+/g, '');
   
   if(input == ans1)
   {
@@ -41,9 +41,10 @@ function sql()
 
 function check()
 {
-   var potential = document.getElementById("person").innerHTML;
-   potential = potential.toLowerCase();
-   if (potential == "dr. phi" || potential == "dr.phi")
+   let potential = document.getElementById("person").innerHTML.trim().replace(/&nbsp;/g, '');
+   let trimmedPotential = potential.toLowerCase().replace(/\s+/g,'');
+
+   if (trimmedPotential == "dr.phi")
    {
     document.getElementById("answer").innerHTML = "You found the inventor! Now he can combine the Legendary Totems of Fun into a more powerful Totem! This Totem unleashes a force field around the Planet of Fun! The planet is saved from the invaders!";
     document.getElementById("plot").src="assets/Planet_Fun.png";

@@ -64,32 +64,30 @@ function sql()
   }
 
   sqlToTable(headArr, array, "table");
+
+  // white spaces have been removed from the answers because sometimes they cause errors when there are multiple white spaces
+  var ans1 = "select max(height) from items where object in ('ladder');".replace(/\s+/g, '');
+  var ans2 = "select * from items where object in ('ladder');".replace(/\s+/g, '');
+  var ans3 = "select max(height) from items where object = 'ladder';".replace(/\s+/g, '');
+  var ans4 = "select * from items where object = 'ladder';".replace(/\s+/g, '');
+  var ans5 = "select max(height) from items where object not in('totem', 'key');".replace(/\s+/g, '');
+  var ans6 = "select max(height) from items where object not in('totem');".replace(/\s+/g, '');
+  var ans7 = "select max(height) from items where object not in('key');".replace(/\s+/g, '');
   
-  /*change answer here */
-  var ans1 = "select max(height) from items where object in('ladder');";
-  var ans2 = "select * from items where object in('ladder');";
-  var ans3 = "select max(height) from items where object = 'ladder';";
-  var ans4 = "select * from items where object = 'ladder';";
-  var ans5 = "select max(height) from items where object not in('totem', 'key');";
-  var ans6 = "select max(height) from items where object not in('totem');";
-  var ans7 = "select max(height) from items where object not in('key');";
-  
-  //Change string to lower case
-  var input = user.toLowerCase();
-  
+  // Change string to lower case
+  var input = user.toLowerCase().replace(/\s+/g, '');
+
 if(input == ans1 || input == ans2 || input == ans3 || input == ans4 || input == ans5 || input == ans6 || input == ans7)
   {
-    green(input);
+    green(user);
     document.getElementById("story").innerHTML = "Excellent work Space Cadet! Now you need to figure out a way to get to the Leader!";
     
-    /* Changes terminal screen */
+    // Changes terminal screen
     var screen = document.getElementById("terminal_div");
     screen.style.backgroundImage = "url('../media/green.png')"
-    
-    if(input == ans1 || input == ans3)
-    {
-      var display_legend = document.getElementById("legend");
-      display_legend.setAttribute("style","visibility:visible");
-    }
+
+    // Display legend this in all successful answers intead of only ans1 and ans3.
+    var display_legend = document.getElementById("legend");
+    display_legend.setAttribute("style","visibility:visible");
   }
 }

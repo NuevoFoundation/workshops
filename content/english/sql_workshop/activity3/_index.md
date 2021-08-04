@@ -43,7 +43,7 @@ When we use the `SELECT * FROM planet;` command, the table above is displayed. B
 
 {{%notice tip%}}
 
-Press the Enter button on the terminal to check if you have the correct command. Use the Reset button to start over.
+Remember to type in the answer and not copy and paste the command. Press the Enter button on the terminal to check if you have the correct command. Use the Reset button to start over.
 
 * Hint 1: The Galactic Federation gave you the name of this database at the beginning of this activity
 * Hint 2: You can use either the asterix (*) or a column name

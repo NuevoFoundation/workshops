@@ -34,7 +34,13 @@ To help you out, the Galactic Federation has sent you a brief tutorial on how to
 
 {{%notice note%}}
 * In example 2, the `!=` symbols could be used instead of `<>` to give the same output.
-* There are different versions of databases and the one you are using needs the value being compared to be inside single quotation marks! 
+* Notice the value in `[value to compare]` in `SELECT * FROM [database] WHERE [column_name] [Comparator] [value to compare];` Note that numbers do not need single quotation marks around them but date/words need to be inside single quotation marks! If Transportation had 2 more columns called "Name" that stored name of the vehicle and "Date" that stored the date of manufacture of the vehicle, we would query them like this:
+
+    `SELECT * FROM Transportation WHERE Fuel > 20;`
+
+    `SELECT * FROM Transportation WHERE Name = 'myrocket';`
+
+    `SELECT * FROM Transportation WHERE Date > '2021-01-01';`
 {{%/notice%}}
 
 ### Using the database called 'items' with the column labeled 'date_created', find out which artifact is the Legendary Totem of Fun: Confetti Cannon

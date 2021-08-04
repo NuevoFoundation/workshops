@@ -38,9 +38,7 @@ The `WHERE` command allows you to only show data that you want.
 {{%notice info%}}
 1. The `SELECT * FROM` database block that we learned from the previous activity allows us to choose a database to look through.
 
-2. The `WHERE` command allows us to narrow down what data is displayed depending on the condition (the green blocks in the image below).
-
-**A condition is a requirement you are looking for. Conditions do not have to follow the example above, but the most common use of conditions are looking for rows that contain specific information.**
+2. The `WHERE` command allows us to narrow down what data is displayed depending on the condition (the green blocks in the image below). A condition is a requirement you are looking for. Conditions do not have to follow the example above, but the most common use of conditions are looking for rows that contain specific information.
 
 3. The name of the column we wish to look for information in.
  
