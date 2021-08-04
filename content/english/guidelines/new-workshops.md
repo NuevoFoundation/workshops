@@ -1,7 +1,7 @@
 ---
 title: "New Workshop Guidelines"
 date: 2020-07-29T14:08:32-07:00
-draft: true
+draft: false
 weight: 2
 hidden: true
 ---

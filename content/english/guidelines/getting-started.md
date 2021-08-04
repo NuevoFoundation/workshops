@@ -6,12 +6,10 @@ weight: 1
 hidden: true
 ---
 
-# Getting Started
-
-#### Prerequisites
+## Prerequisites
 - [Visual Studio Code](https://code.visualstudio.com/download)
 - [Hugo](https://gohugo.io/getting-started/installing/)
-- [Git](https://git-scm.com/downloads) and you can get some experience here: https://try.github.io/
+- [Git](https://git-scm.com/downloads). Learn more about Git and GitHub in their [Quickstart](https://docs.github.com/en/get-started/quickstart) guide.
 
 ## Code
 
@@ -19,7 +17,7 @@ Contribution to this repository is via the [fork model](https://help.github.com/
 
 To get started:
 
-1. Fork the repo by clicking Fork in the top right corner:
+1. Fork <a target="_blank" href="https://github.com/nuevoFoundation/workshops">the repo</a> by clicking Fork in the top right corner:
 
 ![image](../media/fork.png)
 

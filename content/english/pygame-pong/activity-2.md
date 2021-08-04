@@ -19,7 +19,7 @@ Find `// TODO (ACTIVITY 2)` in the code. Modify the `COLOR` attribute of `Pong` 
 Try using different RGB values to see the effect of color changes on the game's objects.
 
 {{% /notice %}}
-
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/PongLessonStudent?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ## Takeaway 
 You have just modified the `COLOR` attribute in the `Pong` class to influence how the objects will look on screen. You learnt how to modify RGB values to get your desired color!

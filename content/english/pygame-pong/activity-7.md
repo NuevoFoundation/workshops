@@ -19,6 +19,6 @@ If the value of `'BACKSPACE`' key in Pygame library is `K_BACKSPACE`, then can y
 Press **run** to confirm the result.
 
 {{% /notice %}}
-
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/PongLessonStudent?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 ## Takeaway 
 You have just changed the way game exits by listening for a specific key press.
