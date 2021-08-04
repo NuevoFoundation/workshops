@@ -10,7 +10,7 @@ draft: false
 
 <iframe width="100%" height="600px" src="https://www.youtube.com/embed/OxDn2xDXWi4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-The first thing we have to do is to import the tensorflow library in order to use functions that will allow us to train your model.
+The first thing we have to do is to import the TensorFlow library in order to use functions that will allow us to train your model.
 
 We will also be implementing plots to visualize the prediction of our model, so for that we need to import the following libraries:
 

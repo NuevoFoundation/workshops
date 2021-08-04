@@ -41,7 +41,7 @@ We will make levels pretty simple: whenever the player destroys all of the enemi
 
 With this setup, by changing the difficulty variable, we change how often the enemies shoot. A lower difficulty will make the game harder because it will make the probability that an enemy shoots harder.
 
-Now to make the level update when the player destroys all of the enemies, we will create a `levelClear()` method that will update the difficulty variable, reset the enemytimer, create new enemies (by calling createEnemies()), and update the level text on screen :
+Now to make the level update when the player destroys all of the enemies, we will create a `levelClear()` method that will update the difficulty variable, reset the enemy timer, create new enemies (by calling `createEnemies()`), and update the level text on screen :
 
 <!--- ![level_clear](../media/10/level_clear.png)--->
 <img src="../media/10/level_clear.png" alt="level_clear" style="width:950px;"/>
@@ -63,19 +63,19 @@ Now, in order to lose a life whenever you get hit, now let’s add this code to 
 <!--- ![hurt_player](../media/10/hurt_player.png)--->
 <img src="../media/10/hurt_player.png" alt="hurt_player" style="width:950px;"/>
 
-However, in order for the lives to mean anything, let’s make it a Game Over when the player. We will start by making some text that’s invisible on the screen in the create() method:
+However, in order for the lives to mean anything, let’s make it a Game Over when the player. We will start by making some text that’s invisible on the screen in the `create()` method:
 
 <!--- ![create_game_over](../media/10/create_game_over.png)--->
 <img src="../media/10/create_game_over.png" alt="create_game_over" style="width:950px;"/>
 
-We will make this text visible when it is a game over. We will do this in the hurtPlayer() method:
+We will make this text visible when it is a game over. We will do this in the `hurtPlayer()` method:
 
 <!--- ![hurt_player_restart](../media/10/hurt_player_restart.png)--->
 <img src="../media/10/hurt_player_restart.png" alt="hurt_player_restart" style="width:950px;"/>
 
 This makes the character not spawn, show the game over text, and restart the game if the player clicks on the screen.
 
-Only thing now is that we need to create the restart() method that this code refers to:
+Only thing now is that we need to create the `restart()` method that this code refers to:
 
 <!--- ![restart_function](../media/10/restart_function.png)--->
 <img src="../media/10/restart_function.png" alt="restart_function" style="width:950px;"/>

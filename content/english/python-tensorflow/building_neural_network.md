@@ -21,7 +21,7 @@ Take a look at these two images.
 
 As we can see from these images, we have two sneakers. How do we know this, even though the images themselves and their pixel values vary significantly? Our brain interprets these images by looking at patterns we observed before and says "That is a sneaker!"
 
-And why is this called a sneaker? Everyone at some point has collectively agreed that this is different from other types of shoes because sneakers have laces, long snouts, thick rubber soles, and cover your feet upto your ankles. This is what we were probably told as kids- to identify these types of shoes as sneakers.
+And why is this called a sneaker? Everyone at some point has collectively agreed that this is different from other types of shoes because sneakers have laces, long snouts, thick rubber soles, and cover your feet up to your ankles. This is what we were probably told as kids- to identify these types of shoes as sneakers.
 
 How is this relevant to what we are doing next? We will need to tell the computer that these types of images are sneakers. We cannot just hard code these two images as sneakers because this would be ineffective when predicting future inputs using this model.
 

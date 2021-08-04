@@ -13,7 +13,7 @@ To add some life to our game, let’s get things moving around! Animate the play
 <!--- ![play_animation](../media/4/play_animation.png) --->
 <img src="../media/4/play_animation.png" alt="play_animation" style="width:950px;"/>
 
-Once your ship is animated, it should look like this. Notice the flames coming out of the ship's engine! (although it may be faster or slower depending on the frame rate that you picked)
+Once your ship is animated, it should look like this. Notice the flames coming out of the ship's engine! (Although it may be faster or slower depending on the frame rate that you picked).
 
 <!--- ![animation](../media/4/animation-ship.gif) --->
 <img src="../media/4/animation-ship.gif" alt="animation" style="width:300px;"/>
@@ -26,7 +26,7 @@ this.background = this.add.tileSprite(0, 0, config.width, config.height, "backgr
 this.background.setOrigin(0, 0);
 ```
 
-TileSprites will allow our background to move even though it's not a spritesheet because it is a type of Sprite with repeating texture, so it can be scrolled through Phaser's infinite Canvas.
+`TileSprites` will allow our background to move even though it's not a spritesheet because it is a type of Sprite with repeating texture, so it can be scrolled through Phaser's infinite Canvas.
 
 <!--- ![move_background](../media/4/move_background.png) --->
 <img src="../media/4/move_background.png" alt="move_background" style="width:950px;"/>

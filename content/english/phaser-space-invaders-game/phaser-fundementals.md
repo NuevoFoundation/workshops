@@ -41,7 +41,7 @@ Now, let's finally talk about scenes a little bit. A scene is essentially a game
 
 Let's take the famous game franchise, Pokemon. When you play, you'll often be roaming around the world. When you encounter a trainer or a wild Pokemon in the tall grass, you enter a different scene so that you can battle. After you finish the battle, you may pull up your map to see where you need to go - this is also opening a different scene. These three scenes function completely different and have their own mechanics attached. When you log out of the map, the game switches scenes to the world where you roam as the player. And once you get into battle, you switch to the battle scene. You can see how creating these three game states would be completely different - the battle requires a menu, the world requires a 2D space and a player, and the map is essentially an interactive chart. We separate these into scenes because they all have to be created completely differently.
 
-You can think of the user as moving amongst scenes as they play the game. They only use one scene at a time, and each one is almost like it's own mini-game (although there will usually be one main one that isn't quite "mini").
+You can think of the user as moving amongst scenes as they play the game. They only use one scene at a time, and each one is almost like its own mini-game (although there will usually be one main one that isn't quite "mini").
 
 {{% notice info %}}
 
@@ -58,4 +58,4 @@ This is exactly what we're going to be doing. Scene 1 will contain a title scree
 
 # Part 3: Infinite Canvas
 
-When you start up the game on the repl, you can see a blank canvas on your screen where you will eventually place things onto. However, you are only seeing a part of the total canvas - actually, the canvas is infinite in all directions. The canvas behaves the same way in all sections - this means that objects can move and be placed into parts of the canvas that the user cannot see. This will become important because for our game, we don't want things really going out of the screen very much, so we need to bind our objects within the screen or delete them if they exit.
+When you start up the game on the repl.it, you can see a blank canvas on your screen where you will eventually place things onto. However, you are only seeing a part of the total canvas - actually, the canvas is infinite in all directions. The canvas behaves the same way in all sections - this means that objects can move and be placed into parts of the canvas that the user cannot see. This will become important because for our game, we don't want things really going out of the screen very much, so we need to bind our objects within the screen or delete them if they exit.

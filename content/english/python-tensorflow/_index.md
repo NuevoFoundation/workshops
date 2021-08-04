@@ -28,7 +28,7 @@ We recommend that you organize your code by creating a new block of code for eve
 {{% notice warning %}}
 ## Google account required
 
-In order to use Google Colab to edit and run code, you need to be logged in to your Google account (or school account with access to Google services/ Google Drive). 
+In order to use Google Colab to edit and run code, you need to be logged in to your Google account (or school account with access to Google services/Google Drive). 
 
 ## Don't have a Google account?
 If you do not have a Google account and are not able to create one, please contact any of the admins of Nuevo Foundation to get temporary access to a Nuevo account for this workshop only. Please keep in mind that Google Colab is required for this workshop so that you can run all the code.

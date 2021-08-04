@@ -44,7 +44,7 @@ player.disableBody(true, true);
 
 This makes both the enemy and player disappear (the enemy has been deleted, but the player is just invisible and not interactive). Now let's make the player revive after a short pause (the pause allows the player some time to react to the damage). For this pause, we will another timer (like we did for changing the enemy direction) by `step 7`. The syntax will be the same, but we will call the resetPlayer() function, have a shorter delay, and also not loop the timer.
 
-Once you have the timer created, let's work on the resetPlayer() method:
+Once you have the timer created, let's work on the `resetPlayer()` method:
 
 <!--- ![reset_player](../media/7/resetPlayer.png)--->
 <img src="../media/7/resetPlayer.png" alt="reset_player" style="width:950px;"/>
