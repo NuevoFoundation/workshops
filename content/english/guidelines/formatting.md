@@ -87,7 +87,7 @@ This theme includes a number of options to customize the look and feel of your s
     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    {{%/* /expand*/%}}
+    {{</* /expand*/>}}
 
 {{< expand "Click here to expand!" >}}
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
