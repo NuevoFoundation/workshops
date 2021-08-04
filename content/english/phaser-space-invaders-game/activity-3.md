@@ -23,7 +23,7 @@ Now, go to the `movePlayer()` method, and write code that will check for movemen
 
 * We would recommend a movement speed of 200
 * Use an if statement
-* After you've made the if statements, you may find that your player is continuing to move even after you've stopped pressing on the keyboard. To fix this, think: when the player is not pressing the keyboard, what should the ship be doing?
+* After you've made the `if` statements, you may find that your player is continuing to move even after you've stopped pressing on the keyboard. To fix this, think: when the player is not pressing the keyboard, what should the ship be doing?
 
 {{% /notice %}}
 

@@ -81,7 +81,7 @@ while(true){
 
 ## Handling Invalid Input
 
-When a user enters an invalid input, we do not what the program to call `printBoard(board)` and print `Enter your move (1-9): `. 
+When a user enters an invalid input, we do not want the program to call `printBoard(board)` and print `Enter your move (1-9): `. 
 
 In other words, we want to program to `continue` on to the next iteration of in the `while` loop.
 

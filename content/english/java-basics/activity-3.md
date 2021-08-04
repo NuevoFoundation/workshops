@@ -70,7 +70,7 @@ The following are the relational operators in Java:
 Note: you can use `==` and `!=` on 2 pieces of data of the same type.
 {{% /notice %}}
 
-### 3. Exam Statistic!
+### 3. Exam Statistics!
 
 Patrick 🐥 and 4 of his classmates just had a music exam in this class. These are the grades of their exams: Patrick(88), Tom(89), Mary(95), Chris(84), Jen(92).
 

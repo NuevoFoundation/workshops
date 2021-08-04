@@ -7,7 +7,7 @@ difficulty: "Intermediate"
 weight: 4
 ---
 
-In the last exercise, we have a program that prints out the board and prompt `Enter your move (1-9): ` to user with each valid move. However, the board stayed empty(shown below). In this exercise, we will learn how to update board and generate a random move for the computer.
+In the last exercise, we have a program that prints out the board and prompt `Enter your move (1-9): ` to user with each valid move. However, the board stayed empty (shown below). In this exercise, we will learn how to update board and generate a random move for the computer.
 
 ```
 <<<~  Tic  Tac  Toe  ~>>>
@@ -68,7 +68,7 @@ Call the method `int nextInt(int num)` on the `Random` object you created to gen
 
 A method call to `int nextInt(int num)` will return a random number from 0 to `num-1`.
 
-## Checking for Valid Mood
+## Checking for Valid Move
 
 After having a random number from 1 to 9, we need to check if the spot is available. 
 

@@ -10,7 +10,7 @@ weight: 6
 *Now that we know who and where we are, let's take a look around for signs of the hackers.*
 ## How do you explore the directory?
 
-To see the Files in the current directory, we use the `ls` command. Try `ls -l`.
+To see the files in the current directory, we use the `ls` command. Try `ls -l`.
 
 <!---![ls-l command](../images/03_ls-l.png?classes=border,shadow) --->
 <img src="../images/03_ls-l.png" alt="ls-l command" style="width:600px;"/>

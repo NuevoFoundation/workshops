@@ -37,9 +37,9 @@ Check if the game should continue (when there is no winner or a tie).
 
 If there is a winner or a tie, print out the final board and the game result! And, add the line of code `break;`, which prompts the program to break out from the `while` loop!
 
-## Repeat Step above
+## Repeat Step Above
 
-In `main()`, repeat the code in step 2 (check winner and print result if needed) after you place the computer's move, `"O"`.
+In `main()`, repeat the code in the previous step (check winner and print result if needed) after you place the computer's move, `"O"`.
 
 ## Close the Scanner Object
 
