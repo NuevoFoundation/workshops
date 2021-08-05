@@ -60,7 +60,7 @@ function sql()
     headArr.push(ansArr[i].substring( ansArr[i].indexOf('"') + 1, ansArr[i].indexOf('":')));
   }
 
-  sqlToTable(headArr, array);
+  sqlToTable(headArr, array, "table");
   
   /*change answer here */
   var ans1 = "select * from items where date_created = '1738-09-12';";
