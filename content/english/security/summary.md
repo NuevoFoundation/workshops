@@ -5,7 +5,7 @@ draft: false
 weight: 4
 ---
 
-#### Remember the characteristics of a strong password are:
+## Remember the characteristics of a strong password are:
 
 1. At least 8 characters - the more characters, the better
 2. A mixture of letters and numbers
@@ -14,10 +14,6 @@ weight: 4
 
 A strong password is hard to guess, but it should be easy for you to remember - a password that has to be written down is not strong, no matter how many of the above characteristics are employed.
 
-
-### Solution
+## Solution
 
 In the Spy Game the passwords "Ilovemypet" and "12345678" are weak and can be easily hacked by a malicious person.
-
-
-

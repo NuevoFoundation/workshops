@@ -18,7 +18,6 @@ The format is: `grep [flag] “[pattern]” [filename]`.
 A `char` is any letter, symbol, or number. Examples include `!`, `h`, `2`, etc.
 {{% /notice %}}
 
-
 |flags | Uses |
 | :--- | :---- |
 | -c | To get the number of files with the pattern. |

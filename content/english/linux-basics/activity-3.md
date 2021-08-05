@@ -8,21 +8,16 @@ weight: 6
 ---
 
 *Now that we know who and where we are, let's take a look around for signs of the hackers.*
+## How do you explore the directory?
 
-### How do you explore the directory?
+To see the files in the current directory, we use the `ls` command. Try `ls -l`.
 
-To see the Files in the current directory, we use the `ls` command.
-
-Try it:
-```
-ls -l
-```
-
-![ls-l command](../images/03_ls-l.png?classes=border,shadow)
+<!---![ls-l command](../images/03_ls-l.png?classes=border,shadow) --->
+<img src="../images/03_ls-l.png" alt="ls-l command" style="width:600px;"/>
 
 The `-l` flag in the above command tells ls to list long form information.
 
-### What information is being displayed?
+## What information is being displayed?
 
 Let's examine the top line of the example above from left to right, for the directory `Desktop`:
 
@@ -38,9 +33,9 @@ drwxr-xr-x 2 nuvi nuvi 4096 Aug 10 23:50 Desktop
 - Aug 10 23:50: Date and time the file was created
 - Desktop: name of the directory
 
-### What can you do with these files?
+## What can you do with these files?
 
-One example of how you can manipulate a file or directory is by moving it to another location. This is accomplished by the move command, `mv`. Let's practice by moving the `Documents` directory into the `Downloads` directory. 
+One example of how you can manipulate a file or directory is by moving it to another location. This is accomplished by the move command, `mv`. Let's practice by moving the `Documents` directory into the `Downloads` directory.
 
 Type in the command listed below:
 ```
@@ -49,7 +44,8 @@ mv Documents/ Downloads/
 
 Now type in `ls -l` one more time and look at the output.
 
-![ls-l after move](../images/03_ls-l_after_move.PNG?classes=border,shadow)
+<!---![ls-l after move](../images/03_ls-l_after_move.PNG?classes=border,shadow) --->
+<img src="../images/03_ls-l_after_move.PNG" alt="ls-l after move" style="width:600px;"/>
 
 You should see that the directory `Documents` no longer appears, because it was moved into the `Downloads` directory.
 
@@ -60,15 +56,8 @@ ls -l Downloads/
 ```
 {{% /notice %}}
 
-Let's practice `mv` one more time by moving it back. 
+Let's practice `mv` one more time by moving it back. Try `mv Downloads/Documents/ .`
 
-Try it:
-```
-mv Downloads/Documents/ .
-```
-
-This moves the `Documents` directory from the `Downloads` directory, back to our current directory, denoted by `.` The period, or dot, is used in commands to denote the current directory. Typing `ls -l` one more time shows `Documents` has returned to this directory. 
-
-![ls-l command](../images/03_ls-l.png?classes=border,shadow)
+This moves the `Documents` directory from the `Downloads` directory, back to our current directory, denoted by `.` The period, or dot, is used in commands to denote the current directory. Typing `ls -l` one more time shows `Documents` has returned to this directory.
 
 *Great job, you now know how to move files around. We will use this knowledge soon to recover from the hack.*

@@ -13,8 +13,11 @@ icon: "fas fa-code"
 The goal of today's activity is to learn C# skills and incorporate your new-found knowledge to create a Guess The Word game!
 
 ## Table of Contents
-<details>
-<summary>Sections</summary>
-{{% children %}}
-</details>
 
+<details>
+
+<summary>Sections</summary>
+
+{{% children %}}
+
+</details>

@@ -108,6 +108,7 @@ for i in range(num_images):
 plt.tight_layout()
 plt.show()
 ```
+
 ![Plotting 25 images](../media/Plotting_fig3.png)
 
 ```python
@@ -118,6 +119,7 @@ img = test_images[7]
 
 print(img.shape)
 ```
+
 ```
 (28, 28)
 ```
@@ -128,6 +130,7 @@ img = (np.expand_dims(img,0))
 
 print(img.shape)
 ```
+
 ```
 (1, 28, 28)
 ```
@@ -137,6 +140,7 @@ predictions_single = probability_model.predict(img)
 
 print(predictions_single)
 ```
+
 ```
 [[3.5166083e-06 5.8611553e-12 7.3947426e-04 3.9665074e-06 2.8206140e-03
   9.7541879e-08 9.9643230e-01 8.2940162e-11 1.2411914e-07 2.7266043e-09]]
@@ -146,6 +150,7 @@ print(predictions_single)
 plot_value_array(7, predictions_single[0], test_labels)  #plot the graph containing all the class names
 _ = plt.xticks(range(10), class_names, rotation=45)
 ```
+
 ![Classification Plot](../media/PU3_graph.png)
 
 ```python
@@ -188,6 +193,5 @@ If you would like to test the finished code, visit <a href="https://colab.resear
 
 To edit this code, click on the 'Copy to Drive' button to make a personal copy of this notebook. Make sure you are logged in to your Google account.
 ![](../media/colab_copy.png)
-
 
 {{% /notice %}}

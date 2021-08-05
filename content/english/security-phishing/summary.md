@@ -5,7 +5,8 @@ draft: false
 weight: 6
 ---
 	
-### Conclusion
+## Conclusion
+
 In conclusion, the common features found in Phishing scams have at least one of the following properties:
 
 1. Lucrative offers or attention grabbing statements.
@@ -17,17 +18,11 @@ In conclusion, the common features found in Phishing scams have at least one of 
 `Example:  mail@g00gle.com instead of mail@google.com`
 6. Email attachments with random file name or extensions. 
 
-
-
-
-
-
-### Solution
+## Solution
 
 In the activity "What's Phishy" the following emails and texts were potential phishing attempts:
 1. The email from spotifyaccounts.
 2. The text from Amazon for free Airpods.
-3. A voice notification email. 
+3. A voice notification email.
 
-
-### Finally, be careful about what you upload to or download from internet.
+<b>Remember to be careful about what you upload or download from the internet.</b>

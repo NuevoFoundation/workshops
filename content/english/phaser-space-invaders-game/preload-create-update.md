@@ -5,21 +5,20 @@ draft: false
 weight: 4
 ---
 
-# The Preload, Create, and Update methods
+## The Preload, Create, and Update methods
 
-So now let's look at our scenes, which will eventually hold the code for our game. If you scroll through, you will see that each scene has a constructor (because it is a class), and also three large methods: preload(), create(), update(). There are also a number of helper functions in Scene 2, but we will talk about the aforementioned three methods because they are integral to understanding Phaser.
+So now let's look at our scenes, which will eventually hold the code for our game. If you scroll through, you will see that each scene has a constructor (because it is a class), and also three large methods: `preload()`, `create()`, `update()`. There are also a number of helper functions in Scene 2, but we will talk about the aforementioned three methods because they are integral to understanding Phaser.
 
 With the way we've set up the scenes, preload() and create() are in Scene 1 and create() and update() are in Scene 2. These three functions are the main tools that any game using Phaser will utilize.
-
-# Preload()
+## Preload()
 
 Let's start by describing preload() - this function essentially loads things into our game. This can be images, variables, and pretty much anything else that you want to define for your game to use. Things loaded up into the game with preload() are NOT actually used or put anywhere in the game until you use it later. You can think of this method like a storage space that is filled once before the game starts. Most things have to be put into preload() before they are used anywhere in the game.
 
-# Create()
+## Create()
 
 Next is create(). This function is also relatively straightforward - it runs once at the beginning of the game and allows the user to place the things that they've preloaded with preload() and create objects within our game such as animations, collision detectors, text, groups, and much more.
 
-# Update()
+## Update()
 
 Finally, the last function is update(). While preload() and create() run only once at the start of the game, update() runs constantly.
 

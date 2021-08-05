@@ -26,7 +26,7 @@ Android Studio comes with a version of Java needed for certain parts of the appl
 C:\Program Files\Android\Android Studio\jre
 ```
 7. Click OK.
-<img src="../resources/_gen/images/set_java_home.gif" height="60%" width="60%" title="Setting JAVA_HOME" alt="shows steps to set the JAVA_HOME environment variable"/>
+<img src="../resources/_gen/images/set_java_home.gif" height="40%" width="40%" title="Setting JAVA_HOME" alt="shows steps to set the JAVA_HOME environment variable"/>
 
 {{% notice tip %}}
 We strongly recommend that you restart your computer now for Android Studio to open correctly.
@@ -53,10 +53,10 @@ There are multiple ways to start the Android Studio application on your Windows 
 2. Look for the location where you downloaded the project files.
 3. Select the 'TicTacToe' folder inside of the 'TicTacToe' folder that you unzipped earlier. 
    - The 'TicTacToe' folder to select should have a green Android icon next to it, indicating it is an Android project folder.
-<img src="../resources/_gen/images/open_android_project.gif" height="60%" width="60%" title="Open TicTacToe project" alt="Shows how to open the TicTacToe project in Android Studio"/>
+<img src="../resources/_gen/images/open_android_project.gif" height="40%" width="40%" title="Open TicTacToe project" alt="Shows how to open the TicTacToe project in Android Studio"/>
 
 Run Android Studio and open the project. Your view will look similar to this:
-<img src="../resources/_gen/images/android_studio.png" height="70%" width="70%" title="Android Studio IDE" alt="Example of Android Studio IDE"/>
+<img src="../resources/_gen/images/android_studio.png" height="60%" width="60%" title="Android Studio IDE" alt="Example of Android Studio IDE"/>
 
 ## Accept Licenses
 Before you can run the code, you'll need to accept the Android licenses by following the steps below:
@@ -66,4 +66,4 @@ Before you can run the code, you'll need to accept the Android licenses by follo
 C:\Users\<USER_NAME>\AppData\Local\Android\Sdk\tools\bin\sdkmanager --licenses
 ```
 3. Type `y` and press `ENTER` at the prompts, to accept the licenses. This will be needed multiple times.
-<img src="../resources/_gen/images/accept_licenses.gif" height="70%" width="70%" title="Accepting Android licenses" alt="shows the steps needed to accept Android licenses"/>
+<img src="../resources/_gen/images/accept_licenses.gif" height="60%" width="60%" title="Accepting Android licenses" alt="shows the steps needed to accept Android licenses"/>

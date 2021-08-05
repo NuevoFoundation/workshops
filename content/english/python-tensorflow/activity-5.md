@@ -37,10 +37,11 @@ np.argmax(predictions[0])
 ```python
 test_labels[0]
 ```
-<br>
+
 In the `class_names` array, what category does this index correspond to? (Hint: Given the index of the maximum probability value, what index should you look for?)
 
 Verify what category this image falls under using this code. Is it correct?
+
 ```python
 class_names[9]
 ```
