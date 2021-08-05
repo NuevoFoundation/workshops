@@ -6,7 +6,6 @@ prereq: "Python Basics"
 difficulty: "Intermediate"
 icon: "fab fa-python"
 draft: false
-hidden: true
 ---
 
 In this activity, you will be creating a simple game that incorporates some of the things you learned in the Python Basics section.

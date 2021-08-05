@@ -5,7 +5,6 @@ date: 2020-07-23T00:00:00Z
 weight: 6
 prereq: "Set up the Board!, Read and Process Input, Update the Game Board, Check the winner"
 difficulty: "Advanced"
-hidden: false
 ---
 {{% notice tip %}}
 #### This is a bonus activity!

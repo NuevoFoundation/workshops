@@ -2,8 +2,7 @@
 title: "Activity 7 - Select conditions of your shaft"
 difficulty: "Beginner"
 weight: 7
-draft: false
-hidden: false
+draft: true
 ---
 [insert image]
 Let us continue to step 3 where you select a variety of conditions.

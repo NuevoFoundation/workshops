@@ -2,8 +2,7 @@
 title: "Activity 10 - Check your diameter size"
 difficulty: "Beginner"
 weight: 10
-draft: false
-hidden: false
+draft: true
 ---
 [insert image]
 

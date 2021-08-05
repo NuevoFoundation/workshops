@@ -3,7 +3,6 @@ title: "Formatting"
 date: 2020-07-29T14:08:32-07:00
 draft: false
 weight: 5
-hidden: true
 ---
 When creating or modifying workshops, you'll write them using standard Markdown syntax, plus some additional custom syntax. This page explains what syntax to use to add specific formats to a workshop.
 

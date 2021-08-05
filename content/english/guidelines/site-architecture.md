@@ -3,7 +3,6 @@ title: "How the site is built"
 date: 2020-07-29T14:08:32-07:00
 draft: false
 weight: 3
-hidden: true
 ---
 
 # How the site is built

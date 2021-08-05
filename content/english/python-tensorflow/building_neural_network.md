@@ -26,7 +26,7 @@ As we can see from these images, we have two sneakers. How do we know this, even
 
 And why is this called a sneaker? Everyone at some point has collectively agreed that this is different from other types of shoes because sneakers have laces, long snouts, thick rubber soles, and cover your feet upto your ankles. This is what we were probably told as kids - to identify these types of shoes as sneakers.
 
-How is this relevant to what we are doing next? We will need to tell the computer that these types of images are sneakers. We cannot just hard code these two images as sneakers because this would be ineffective when predicting future inputs using this model. 
+How is this relevant to what we are doing next? We will need to tell the computer that these types of images are sneakers. We cannot just mark these two images as sneakers because this would be ineffective when predicting future inputs using this model. 
 
 Moreover, we don't have to stop with only sneakers to categorize images - we can use multiple categories to classify images (Recall creating the list of different clothing categories in Activity 1). In the end, these are the categories we are using to sort all the clothing apparel.
 
