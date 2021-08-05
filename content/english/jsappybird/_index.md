@@ -6,7 +6,6 @@ prereq: "none"
 difficulty: "Beginner"
 icon: "fab fa-html5"
 draft: false
-hidden: true
 ---
 
 # JSappyBird

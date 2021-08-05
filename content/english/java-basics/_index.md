@@ -6,7 +6,6 @@ prereq: "none"
 difficulty: "Beginner"
 icon: "fab fa-java"
 draft: false
-hidden: false
 ---
 
 <p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/udEaocEYlpc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>

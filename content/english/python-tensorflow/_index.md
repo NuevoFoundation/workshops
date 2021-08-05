@@ -1,6 +1,6 @@
 ---
-title: "Python: Machine Learning Basics using Tensorflow"
-description: "Learn basic image classification and train ML models with Tensorflow"
+title: "Python: Machine Learning Basics using TensorFlow"
+description: "Learn basic image classification and train ML models with TensorFlow"
 date: 2020-09-09T16:19:17-07:00
 prereq: "Python Basics"
 difficulty: "Intermediate"

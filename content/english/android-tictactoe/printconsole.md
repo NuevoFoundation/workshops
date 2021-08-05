@@ -2,8 +2,7 @@
 title: "Printing to Console"
 date: 2021-03-13T14:17:07.42-07:00
 draft: false
-hidden: false
-weight: 5
+weight: 4
 ---
 Sometimes the game or application might not work the way you expect it to or you want to write something to the console for logging purposes. Outside of debugging the application, you can use `System.out.println()` to write your message. Lookout for your messages in the "logcat" window at the bottom of Android Studio:
 <img src="../resources/_gen/images/println.gif" height="60%" width="60%" title="System.out.println()" alt="Logcat window in Android Studio showing messages created using the System.out.printIn logging function"/>

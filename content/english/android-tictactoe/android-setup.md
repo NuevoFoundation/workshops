@@ -2,7 +2,6 @@
 title: "Android Setup"
 date: 2021-03-13T14:17:07.42-07:00
 draft: false
-hidden: false
 weight: 2
 ---
 Follow the steps below to get Android Studio installed on your computer. If you already have Android Studio installed, open it up and skip to the next step!
