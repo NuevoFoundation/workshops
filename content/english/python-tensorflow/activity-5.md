@@ -24,18 +24,11 @@ The following code gives a list of probabilities that an image fits in a specifi
 predictions[0] #Returns the index with highest probability, depends on the index value.
 ```
 
-{{% notice tip %}}
 ### Question 1
-
 The array of values represents the confidence level that an image belongs to a specific category. What index has the most confidence value, and what has the least confidence value?
 
-{{% /notice %}}
-
-{{% notice tip %}}
 ### Question 2
-
 Verify your answer to the highest probability value by running the code below:
-
 
 ```python
 np.argmax(predictions[0])
@@ -51,5 +44,3 @@ Verify what category this image falls under using this code. Is it correct?
 ```python
 class_names[9]
 ```
-
-{{% /notice %}}

@@ -1,8 +1,7 @@
 ---
 title: "Answer Key - Android Tic-Tac-Toe"
 date: 2021-03-13T14:17:07.42-07:00
-draft: true
-hidden: false
+hidden: true
 weight: 14
 ---
 

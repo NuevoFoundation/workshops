@@ -15,6 +15,10 @@ The following code determines how many times model is trained. It is normal for 
 model.fit(train_images, train_labels, epochs=10) 
 ```
 
+{{% notice note %}}
+Epochs represent the number of times the model processes all the training data. 
+{{%/notice%}}
+
 The following code prints out the overall test accuracy.
 ```python
 test_loss, test_acc = model.evaluate(test_images,  test_labels, verbose=2)
@@ -22,30 +26,14 @@ test_loss, test_acc = model.evaluate(test_images,  test_labels, verbose=2)
 print('\nTest accuracy:', test_acc)
 ```
 
-{{% notice tip %}}
 ### Question 1
-
 Set the value of epochs equal to 2. What is the accuracy of the last epoch? What is the test accuracy when the trained model is compared to the test dataset?
 
-{{% /notice %}}
-
-{{% notice tip %}}
 ### Question 2
-
 Set the value of epochs equal to 10. Repeat Question 1.
 
-{{% /notice %}}
-
-{{% notice tip %}}
 ### Question 3
-
 Set the value of epochs equal to 20. Repeat Question 1.
 
-{{% /notice %}}
-
-{{% notice tip %}}
 ### Question 4
-
 What correlation do you see when you increase the number of epochs? Does the accuracy increase or decrease?
-
-{{% /notice %}}

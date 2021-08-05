@@ -1,7 +1,6 @@
 ---
 title: "Activity 1: Blinking LED"
 draft: false
-hidden: false
 weight: 4
 ---
 

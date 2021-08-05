@@ -2,8 +2,7 @@
 title: "Puzzle 2"
 date: 2021-03-13T14:17:07.42-07:00
 draft: false
-hidden: false
-weight: 6
+weight: 5
 ---
 Let's add a welcome message that the user can see when they start your app!
 

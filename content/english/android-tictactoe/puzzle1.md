@@ -2,8 +2,7 @@
 title: "Puzzle 1"
 date: 2021-03-13T14:17:07.42-07:00
 draft: false
-hidden: false
-weight: 3
+weight: 2
 ---
 
 ## Run the Game

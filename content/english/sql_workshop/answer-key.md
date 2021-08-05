@@ -10,7 +10,9 @@ Note: Do not use Firefox Browser for this workshop!
 
 For Drag and Drop Activities: Correctly chosen blocks will have a green highlight around them while incorrect blocks will highlight in red until the player moves the block.
 
-For Type-In Activities: Correct words/commands will be highlighted in green in the Previous Command Box, incorrectly placed or misused words will be highlighted in red. If the command players write matches the answer key and it still highlights in red, make sure there are no extra spaces at the end or beginning of the command! Make sure players have a semicolon at the end of the command (The last word in the SQL command will highlight red if there is no semicolon)!
+For Type-In Activities: Correct words/commands will be highlighted in green in the Previous Command Box, incorrectly placed or misused words will be highlighted in red. If the command players write matches the answer key and it still highlights in red, make sure there are no extra spaces at the end or beginning of the command! Make sure players have a semicolon at the end of the command (The last word in the SQL command will highlight red if there is no semicolon)! Note that some of the kids copy a sample command from the workshop and paste it in the terminal to run - this will not work! Please ask them to refresh the page and manually type in the command.
+
+SQL keywords (reserved words) in the commands are case insensitive (SELECT, FROM, WHERE, COUNT, MAX, IN, etc.), but are often written in caps to differentiate from non-keywords. "select * from planet" is same as "SELECT * FROM planet".
 {{%/notice%}}
 
 ### Learn Cadet Basics
@@ -30,7 +32,7 @@ Two Valid Answers:
 `SELECT COUNT(*) FROM planet;` OR `SELECT COUNT(city_number) FROM planet;`
 
 ### Activity 4: Select Multiple Info (Type-in)
-Two Valid Answers: `SELECT planet, leader FROM galaxy;` OR `SELECT leader, planet FROM galaxy;`
+Two Valid Answers: `SELECT planet_name, leader_name FROM galaxy;` OR `SELECT leader_name, planet_name FROM galaxy;`
 
 The only difference between the two answers is the order of columns displayed, therefore both answers are valid.
 

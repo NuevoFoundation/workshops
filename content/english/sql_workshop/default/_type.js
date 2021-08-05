@@ -1,6 +1,34 @@
-function sqlToTable(headers, data) 
+/* Display table in the id specified
+ Function requires tablename that is appended after "select * from "
+ and identifier where the table will be displayed.
+*/
+function displaytable(tablename, id) 
 {
-  var tbl = document.getElementById("table");
+  clearTable(id);
+
+  var command = "select * from " + tablename + ";";
+  var array = alasql("MATRIX OF " + command)
+  var results = JSON.stringify(alasql(command));
+
+  results = results.substring(results.indexOf("{") + 1, results.indexOf("}"));
+  
+  var resultsArr = results.split(',');
+  var headArr = [];
+  var i;
+  for( i = 0; i < resultsArr.length; i++)
+  {
+    headArr.push(resultsArr[i].substring( resultsArr[i].indexOf('"') + 1, resultsArr[i].indexOf('":')));
+  }
+
+  sqlToTable(headArr, array, id);
+}
+
+/* Pushes results passed as data to this function 
+to the specified id as a table.
+*/
+function sqlToTable(headers, data, id="table") 
+{
+  var tbl = document.getElementById(id);
   var row;
   var cell;
   var i;
@@ -26,9 +54,9 @@ function sqlToTable(headers, data)
   }
 }
 
-function clearTable()
+function clearTable(id="table")
 {
-  var clear = document.getElementById("table");
+  var clear = document.getElementById(id);
   clear.innerHTML = "";
 }
 

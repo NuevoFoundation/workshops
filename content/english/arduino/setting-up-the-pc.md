@@ -1,8 +1,7 @@
 ---
 title: "Setting up the PC"
 draft: false
-hidden: false
-weight: 1
+weight: 3
 ---
 
 ## Getting to know the Arduino IDE

@@ -6,7 +6,6 @@ prereq: "Java: Basics"
 difficulty: "Intermediate"
 icon: "fab fa-java"
 draft: false
-hidden: false
 ---
 
 ## Overview

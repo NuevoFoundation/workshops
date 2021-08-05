@@ -21,7 +21,7 @@ function sql()
     headArr.push(ansArr[i].substring( ansArr[i].indexOf('"') + 1, ansArr[i].indexOf('":')));
   }
 
-  sqlToTable(headArr, array);
+  sqlToTable(headArr, array, "table");
 
   var ans1 = "select count(*) from planet;";
   var ans2 = "select count(city_number) from planet;";

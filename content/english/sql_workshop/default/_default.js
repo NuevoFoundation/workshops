@@ -138,40 +138,6 @@ function drop(ev) {
   p5 = bools[4];
 }
 
-function check(){
-  
-  //Highlight the correct answers in green and disable drag
-  change_color('div6', p1, "answer1");
-  change_color('div7', p2, "answer2");
-  change_color('div8', p3, "answer3");
-  change_color('div9', p4, "answer4");
-  change_color('div10', p5, "answer5");
-  
-  //Check if all the answers are correct
-  if(p1 == "answer1" && p2 == "answer2" && p3 == "answer3" &&
-     p4 == "answer4" && p5 == "answer5") {
-
-    //Display the database
-    var display = document.getElementById("database");
-    display.src = "assets/Database.png";
-    display.setAttribute("style","visibility:visible");
-    
-    //Display the checkmark
-    var checkmark = document.getElementById("resume_plot");
-    checkmark.setAttribute("style","visibility:visible");
-    
-    /* Changes terminal screen */
-    var screen = document.getElementById("terminal_div");
-    screen.style.backgroundImage = "url('../media/Accept.png')"
-    
-    hide_boxes();
-    
-    document.getElementById("database").src="assets/Database.png";
-  } else {
-    alert("Try Again, Space Cadet!"); /* If incorrect, give alert */
-  }
-}
-
 /* Changes block color on enter click */
 function change_color(div_num, block, answer) {
   

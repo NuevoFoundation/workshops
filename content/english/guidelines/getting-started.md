@@ -3,7 +3,6 @@ title: "Getting Started"
 date: 2020-07-29T14:08:32-07:00
 draft: false
 weight: 1
-hidden: true
 ---
 
 ## Prerequisites

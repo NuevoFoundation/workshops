@@ -8,9 +8,14 @@ draft: false
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->
 <link rel="stylesheet" href="../default/_default.css" type="text/css"></link>
+<link rel="stylesheet" href="../default/_type.css" type="text/css"></link>
 <link rel="stylesheet" href="_activity1.css" type="text/css"></link>
-<script type="text/javascript" src="../default/_default.js">
-</script>
+
+<script type="text/javascript" src="../default/alasql.js"></script>
+<script type="text/javascript" src="../default/db.js"></script>
+<script type="text/javascript" src="../default/_default.js"></script>
+<script type="text/javascript" src="../default/_type.js"></script>
+<script type="text/javascript" src="_activity1.js"></script>
 {{< youtube hUTKI3AHJ1s >}}
 
 # Mission 1: Save the Planet of Fun from Boredom!
@@ -75,11 +80,15 @@ The `SELECT` command allows you to choose what data to show from a database.
 <div style="clear: both;"></div> 
 
 <!-- Enter button -->
-<button class="button button1" onclick="check()" > Enter </button>
+<button class="button button1" onclick="check()">Enter</button>
 </div>
 
 <!-- Hidden SQL database will appear once correct sequence is placed -->
-<img src="" id="database">
+<div style="clear: both;"></div> 
+<h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT</strong></h1>
+<table id="table">
+  <tr></tr>
+</table>
 
 <!-- Tells User to continue mission -->
 <div class="resume_plot" id="resume_plot" style="visibility:hidden">

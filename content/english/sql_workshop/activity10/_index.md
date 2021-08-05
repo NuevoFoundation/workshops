@@ -18,11 +18,11 @@ draft: false
 
 {{< youtube UCxPAE0xw3I >}}
 
-## Return the Legendary Totems of Fun to The Dear Leader
+## Return the Legendary Totems of Fun to The Leader
 
-You have successfully found both Legendary Totems of Fun! The Dear Leader thanks you for finding their lost treasure.
+You have successfully found both Legendary Totems of Fun! The Leader thanks you for finding their lost treasure.
 
-### The Dear Leader also reveals a secret:
+### The Leader also reveals a secret:
 {{%notice info%}}
 The Legendary Totems of Fun cannot unleash their full potential until they are merged together. They can only be merged together by the "Inventor".
 

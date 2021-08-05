@@ -2,8 +2,7 @@
 title: "Numbers"
 date: 2021-03-13T14:17:07.42-07:00
 draft: false
-hidden: false
-weight: 9
+weight: 8
 ---
 The computer can also do regular math that you see in school. Use `System.out.println` to print out the result from the math expressions.
 
