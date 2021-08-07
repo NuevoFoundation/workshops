@@ -42,11 +42,8 @@ From a list of passwords used by our `Nuvi` select the strongest password which 
   <label for="notify-on">Yes</label>
   <input type="radio" id="notify-off4" name="notify4" value="off">
   <label for="notify-off">No</label>
-</fieldset> 
+</fieldset>
 
 #### CONGRATS! You did it. See the answers by clicking the button below.
 
 {{< button href="../summary" theme="success" >}} Done {{< /button >}}
-
-
-

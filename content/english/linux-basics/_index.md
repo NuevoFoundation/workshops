@@ -10,11 +10,11 @@ icon: "fas fa-microchip"
 weight: 1
 ---
 
-# Welcome
+## Welcome
 
 *Thank goodness you're here! I am Nuvi, an agent from the Secret Hub Headquarters (SHH). We just got word that someone might have hacked my computer. We need your help to find out what is going on. We're afraid that our secret message might have been leaked!*
 
-![nuvi picture](images/nuvi.PNG?classes=border,shadow)
+<img src="images/nuvi.PNG?classes=border,shadow" width="380" height="380" />
 
 An **Operating System** (OS) is a software which acts as an interface between you and the computer hardware. Every computer must have at least one OS to run other programs. The OS helps you to communicate with the computer without knowing how to speak the computer's language.
 
@@ -23,8 +23,6 @@ Microsoft Windows is the OS you are probably most familiar with using at home. A
 Linux is a free and open source operating system based on Unix standards which provides a programming interface as well as user interface compatibility. Kali adds to Linux a variety of applications that are used in computer security.
 
 The biggest differnce between Windows and Linux is what they are best at doing. Windows is really good for multimedia and games! Mac OS falls between Windows and Linux. It is great for multimedia too, but cannot play all the games. Linux is usually better for programming and hosting servers.
-
-
 
 ## Table of Contents
 

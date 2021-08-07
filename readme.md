@@ -1,4 +1,4 @@
-# Nuevo Foundation Workshop
+# Nuevo Foundation Workshops
 
 This repo contains all of the code and content for the [Nuevo Foundation Workshop website](https://workshops.nuevofoundation.org). 
 

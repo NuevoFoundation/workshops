@@ -16,9 +16,11 @@ enemy.body.velocity.x = -90;
 
 Place in our createEnemies() method:
 
-![move](../media/6/move_enemies.png)
+<!--- ![move enemies](../media/6/move_enemies.png)--->
+<img src="../media/6/move_enemies.png" alt="move enemies" style="width:950px;"/>
 
-But if you test out the code now, we can see that the enemies just keep going to the left infinitely because of Phaser’s infinite canvas. Let’s make them change direction before they go out of the screen. We can do this with a timer, a tool that lets us call a function after a certain period of time. The function that the timer calls will change the enemy's direction. We can also make the timer run infinitely so that it continues to run the function after each time interval (which we are going to do here). Put this timer:
+
+But if you test out the code now, we can see that the enemies just keep going to the left infinitely because of Phaser’s infinite canvas. Let’s make them change direction before they go out of the screen. We can do this with a timer, a tool that lets us call a function after a certain period of time. The function that the timer calls will change the enemy's direction. We can also make the timer run infinitely so that it continues to run the function after each time interval (which we are going to do here). Put the below timer at the end of the `createEnemy()` method.
 
 ```javascript
 this.enemyTimer = this.time.addEvent({
@@ -29,13 +31,13 @@ this.enemyTimer = this.time.addEvent({
 });
 ```
 
-at the end of the createEnemy() method:
+<!--- ![timer_function](../media/6/timer_function.png)--->
+<img src="../media/6/timer_function.png" alt="timer_function" style="width:950px;"/>
 
-![timer_function](../media/6/timer_function.png)
+This is a timer that continuously calls the `changeEnemyDirection()` method after a certain time interval. However, we haven’t put any content in it yet. Let's do that now: put code in the `changeEnemyDirection()` method that will change the direction of every enemy in the enemies group (this is one of the reasons we made a group!):
 
-This is a timer that continuously calls the changeEnemyDirection() method after a certain time interval. However, we haven’t put any content in it yet. Let's do that now: put code in the changeEnemyDirection() method that will change the direction of every enemy in the enemies group (this is one of the reasons we made a group!):
-
-![change_direction](../media/6/change_direction.png)
+<!--- ![change_direction](../media/6/change_direction.png)--->
+<img src="../media/6/change_direction.png" alt="change_direction" style="width:950px;"/>
 
 {{% notice hint %}}
 

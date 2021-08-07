@@ -15,15 +15,11 @@ Every user in Linux has a user account. These are used to uniquely identify each
 
 ### How do I find out which account I am using?
 
-The Linux command `whoami` will tell you which account you are using.
+The Linux command `whoami` will tell you which account you are using. Try it!
 
-Try it:
-```
-whoami
-```
+<!---![home directory](../images/01_whoami.png?classes=border,shadow) --->
+<img src="../images/01_whoami.png" alt="home directory" style="width:600px;"/>
 
-![home directory](../images/01_whoami.png?classes=border,shadow)
-
-In our example above, the terminal output is the name of our user, `nuvi`. 
+In our example above, the terminal output is the name of our user, `nuvi`.
 
 *Now that we checked who we are, next let's find out where we are.*

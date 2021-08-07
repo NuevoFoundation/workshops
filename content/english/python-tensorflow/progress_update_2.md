@@ -53,7 +53,6 @@ plt.show() #shows images with their labels
 ```
 ![images 5x5](../media/PU2_25images.png)
 
-
 ```python
 #Building the Neural Network
 model = keras.Sequential([ 
@@ -69,6 +68,7 @@ model.compile(optimizer='adam',
               metrics=['accuracy'])
 
 ```
+
 ```python
 model.fit(train_images, train_labels, epochs=10) 
 ```
@@ -102,6 +102,7 @@ test_loss, test_acc = model.evaluate(test_images,  test_labels, verbose=2)
 
 print('\nTest accuracy:', test_acc)
 ```
+
 ```
 313/313 - 0s - loss: 0.3358 - accuracy: 0.8825
 
@@ -111,12 +112,15 @@ Test accuracy: 0.8824999928474426
 ```python
 probability_model = tf.keras.Sequential([model, tf.keras.layers.Softmax()])
 ```
+
 ```python
 predictions = probability_model.predict(test_images)
 ```
+
 ```python
 predictions[7] #Returns the index with highest probability, depends on the index value.
 ```
+
 ```
 array([3.5166186e-06, 5.8611111e-12, 7.3947496e-04, 3.9665038e-06,
        2.8206115e-03, 9.7542063e-08, 9.9643230e-01, 8.2940481e-11,
@@ -126,6 +130,7 @@ array([3.5166186e-06, 5.8611111e-12, 7.3947496e-04, 3.9665038e-06,
 ```python
 np.argmax(predictions[7]) # This returns the index value with the highest predictions
 ```
+
 ```
 6
 ```
@@ -134,6 +139,7 @@ np.argmax(predictions[7]) # This returns the index value with the highest predic
 test_labels[7]  # This is the index value returned by the test dataset
                 # (That we are comparing against)
 ```
+
 ```
 6
 ```
@@ -141,10 +147,11 @@ test_labels[7]  # This is the index value returned by the test dataset
 ```python
 class_names[6] # This is the category name of the image that has the highest probability
 ```
+
 ```
 'Shirt'
 ```
 
 {{% notice info %}}
-Now that we are able to classify the category of an individual piece of clothing using your model, we will now visualize these predictions by creating a bar plot for a specified image. 
+Now that we are able to classify the category of an individual piece of clothing using your model, we will now visualize these predictions by creating a bar plot for a specified image.
 {{% /notice %}}
