@@ -9,9 +9,12 @@ weight: 2
 - [Hugo](https://gohugo.io/getting-started/installing/)
 - [Git](https://git-scm.com/downloads). Learn more about Git and GitHub in their [Quickstart](https://docs.github.com/en/get-started/quickstart) guide.
 
+## Reference Links
+- [Github repo](https://github.com/NuevoFoundation/workshops)
+- [Workshops website](https://workshops.nuevofoundation.org/)
+
 ## Walkthrough Videos
 - [Workshops Github repository development cycle](https://youtu.be/LpjucoAVviI)
-
 - [Workshops Github repository structure](https://youtu.be/cygmE6LGcOw)
 
 ## Code
