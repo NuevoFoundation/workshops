@@ -13,7 +13,7 @@ Before adding/updating the website, ensure you have synced with the project team
 
 ## Setup
 
-Follow the instructions in the Project readme.md to install Git and Hugo to test the project locally.
+Follow the instructions in the [Getting Started](../getting-started/) to install Git and Hugo to test the project locally.
 
 ## Web design styles and structure
 

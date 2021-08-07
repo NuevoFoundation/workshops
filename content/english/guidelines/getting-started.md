@@ -2,16 +2,19 @@
 title: "Getting Started"
 date: 2020-07-29T14:08:32-07:00
 draft: false
-weight: 1
+weight: 2
 ---
-
 ## Prerequisites
 - [Visual Studio Code](https://code.visualstudio.com/download)
 - [Hugo](https://gohugo.io/getting-started/installing/)
 - [Git](https://git-scm.com/downloads). Learn more about Git and GitHub in their [Quickstart](https://docs.github.com/en/get-started/quickstart) guide.
 
-## Code
+## Walkthrough Videos
+- [Workshops Github repository development cycle](https://youtu.be/LpjucoAVviI)
 
+- [Workshops Github repository structure](https://youtu.be/cygmE6LGcOw)
+
+## Code
 Contribution to this repository is via the [fork model](https://help.github.com/articles/fork-a-repo/). Contributors push changes to their own "forked" version of workshops, and then submit a pull request into it requesting those changes be merged.
 
 To get started:
