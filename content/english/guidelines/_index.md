@@ -2,7 +2,7 @@
 title: "Workshop Contributor Guidelines"
 date: 2019-07-22T14:08:32-07:00
 draft: false
-hidden: true
+hidden: false
 ---
 
 We welcome contributions. Great ways to contribute include trying things out, filing bugs, creating, and adding new workshops.
