@@ -5,7 +5,7 @@ draft: false
 weight: 2
 ---
 
-{{< youtube Ju6VRqk2f2I >}}
+<p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/hc_MI3aNF3U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 <link rel="stylesheet" href="../../style.css">
 

@@ -3,7 +3,9 @@ title: "Queues: Receiving the Order"
 weight: 5
 draft: false
 ---
-{{< youtube tm-oeCj5X58 >}}
+
+<p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/aiwY90dS5I8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 <link rel="stylesheet" href="../style.css">
 
 ![queueTitle](../img/queueTitle.png)

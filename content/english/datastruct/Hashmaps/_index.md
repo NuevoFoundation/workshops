@@ -4,7 +4,8 @@ weight: 7
 draft: false
 ---
 
-{{< youtube orimOT21uKI >}}
+<p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/Ems4GIBpoIE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 <link rel="stylesheet" href="../style.css">
 
 ![mapTitle](../img/mapTitle.png)

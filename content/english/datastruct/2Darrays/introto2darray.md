@@ -3,6 +3,9 @@ title: "Introduction"
 draft: false
 weight: 1
 ---
+
+<p style="text-align: center;"><iframe width="60%" height="600px" src="https://youtube.com/embed/DZkUUk64mWM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 ![2dintro](../../img/2dintro.png)
 <link rel="stylesheet" href="../../style.css">
 <hr>

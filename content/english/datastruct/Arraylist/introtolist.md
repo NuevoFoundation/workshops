@@ -3,6 +3,9 @@ title: "Introduction"
 draft: false
 weight: 1
 ---
+
+<p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/2g5lG34rNmY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 <link rel="stylesheet" href="../../style.css">
 
 ![listintro](../../img/listintro.png)

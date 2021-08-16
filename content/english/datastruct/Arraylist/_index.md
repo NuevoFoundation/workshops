@@ -3,7 +3,8 @@ title: "ArrayList: Ordering from the Menu"
 draft: false
 weight: 4
 ---
-{{< youtube UY6-HRakPYY >}}
+
+<p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/rxFgarYdU_g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 <link rel="stylesheet" href="../style.css">
 

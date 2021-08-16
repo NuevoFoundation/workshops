@@ -3,6 +3,9 @@ title: "Problem 1: Example Menu"
 draft: false
 weight: 4
 ---
+
+<p style="text-align: center;"><iframe width="60%" height="600px" src="https://youtube.com/embed/Ppn2kKtRhCA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 <link rel="stylesheet" href="../style.css">
 
 ## Task 1: Sum!

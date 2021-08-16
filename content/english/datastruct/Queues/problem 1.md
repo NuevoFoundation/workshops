@@ -3,7 +3,11 @@ title: "Problem 1: Queue Basics"
 date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 3
---- 
+---
+
+
+<p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/hITmA5t71N0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 <link rel="stylesheet" href="../style.css">
 
 ## Task 1: Clearing the Queue

@@ -5,6 +5,8 @@ date: 2020-07-16T00:00:00Z
 weight: 4
 ---
 
+<p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/7rhufpWhP0Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 ## Task 1: Fill an Array
 
 <p>You are given an array of a random size and it is up to you to input numbers from 1 to n. For an example: </p>
@@ -30,7 +32,7 @@ weight: 4
 
 <iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@nuevofoundation/Problem-5-createArray?lite=true"></iframe>
 
-## Task 1: Average!
+## Task 2: Average!
 
 <p>Find the average values of the numbers in the array.</p>
 

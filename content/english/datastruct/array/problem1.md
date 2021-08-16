@@ -3,6 +3,9 @@ title: "Problem 1: Array Basics"
 draft: false
 weight: 2
 ---
+
+<p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/xpeVUZvKiGc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 <link rel="stylesheet" href="../style.css">
 
 ## Array Task 1: Return Element

@@ -3,6 +3,9 @@ title: "Example"
 draft: false
 weight: 3
 ---
+
+<p style="text-align: center;"><iframe width="60%" height="600px" src="https://youtube.com/embed/gubVurj607A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 ![2dexample](../../img/2dexample.png)
 <link rel="stylesheet" href="../../style.css">
 <hr>

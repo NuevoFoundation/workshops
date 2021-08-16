@@ -4,7 +4,8 @@ weight: 6
 draft: false
 ---
 
-{{< youtube 2oO_TIgNGQI >}}
+<p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/bvZikXeALVY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 <link rel="stylesheet" href="../style.css">
 
 ![stackTitle](../img/stackTitle.png)

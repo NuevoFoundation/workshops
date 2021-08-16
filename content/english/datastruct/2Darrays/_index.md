@@ -4,7 +4,8 @@ draft: false
 weight: 3
 ---
 
-{{< youtube tvX_Sy1N22E >}}
+<p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/n7Px56mgKgY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 <link rel="stylesheet" href="../style.css">
 
 ![2dhead](../img/2dhead.png)
