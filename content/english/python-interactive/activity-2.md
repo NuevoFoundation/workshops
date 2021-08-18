@@ -30,4 +30,4 @@ Go back to the `Repl.it` link from earlier and add in code that will store your 
 Hint: Your price is a Float, and your description is a String.
 
 Pick your 5 favorite foods/drinks to be in your menu
-ex. Creamy Pesto Pasta, Caesar Salad, Pink Lemonade, Root Beer, Iced Tea, Carrot Cake, Spring Rolls
+For example: Creamy Pesto Pasta, Caesar Salad, Pink Lemonade, Root Beer, Iced Tea, Carrot Cake, Spring Rolls
