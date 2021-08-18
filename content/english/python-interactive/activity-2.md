@@ -29,5 +29,5 @@ smallDictionary = {'toy':['an object kids play with', 'noun', 'toi'], 'walk':['a
 Go back to the `Repl.it` link from earlier and add in code that will store your menu in a variable named `dictMenu`. Remember to make `dictMenu` a global variable - don't put it in the main(), rather place it at the top of your code so that it can be accessed by any function.
 Hint: Your price is a Float, and your description is a String.
 
-Pick your 5 favorite foods/drinks to be in your menu
+Pick your 5 favorite foods/drinks to be in your menu.
 For example: Creamy Pesto Pasta, Caesar Salad, Pink Lemonade, Root Beer, Iced Tea, Carrot Cake, Spring Rolls
