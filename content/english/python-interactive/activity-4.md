@@ -25,7 +25,7 @@ When the user has finally entered a valid first order item, add that item into t
 
 Since we've gotten one item successfully, let's find out if the customer wants to order another item, or another two items, or even more. In order to do this, we'll be writing another helper function, `isOrderComplete()`, which will ask the user to input either Yes or No similar to the `orderFromRestaurantYN()` in a specified format until they give us a valid response. If they say Yes, then we return `True` to indicate that they do want to order at least one more item. Otherwise we return `False` since they don't want to order anything else.
 
-Our helper functions are complete! now we just need to call these functions in the else block of the `main()`. The logic for this last part is essentially:
+Our helper functions are complete! Now we just need to call these functions in the `else` block of the `main()` function. The logic for this last part is essentially:
 
 - While `isOrderComplete()` is `True`, continue to ask the customer to enter an item from the menu they'd like to order and the quantity.
 - Within this while loop... After the user gives us an item they want to order, check with `orderItemChecking(item)` to see whether it's a valid input or not. While it's not a valid input, continue to ask the customer to try again until they successfully order another item. Make sure to let them know they gave us an incorrect input.
