@@ -29,7 +29,7 @@ The second function we're going to write is `computePrices(dictItems)` which tak
 
 ### Compute the total price of the order
 The third function we'll create is `computeTotalPrice(dictItemAndPrice)` which takes the dictionary we created in `computePrices(dictItems)` as a parameter and returns the total price of the customer's entire order.
-  - Initialize a variable `totalPrice` to 0 so we can add the prices of each item to it.
+  - Initialize a variable `totalPrice` to `0` so we can add the prices of each item to it.
   - Loop through the dictionary `dictItemAndPrice` and add each of the values to `totalPrice`.
   - Return totalPrice rounded to 2 decimal places by using `round()` and provide 2 as the second value so it rounds to the hundredths place since that's how we want the final price to be displayed.
 
