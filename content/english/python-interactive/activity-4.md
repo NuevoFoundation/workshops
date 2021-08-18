@@ -27,7 +27,7 @@ Since we've gotten one item successfully, let's find out if the customer wants t
 
 Our helper functions are complete! now we just need to call these functions in the else block of the `main()`. The logic for this last part is essentially:
 
-- While `isOrderComplete()` is True, continue to ask the customer to enter an item from the menu they'd like to order and the quantity.
+- While `isOrderComplete()` is `True`, continue to ask the customer to enter an item from the menu they'd like to order and the quantity.
 - Within this while loop... After the user gives us an item they want to order, check with `orderItemChecking(item)` to see whether it's a valid input or not. While it's not a valid input, continue to ask the customer to try again until they successfully order another item. Make sure to let them know they gave us an incorrect input.
 - After the inner while loop terminates, indicating the user entered a correct item and quantity, add this item to the list `listOrderItems` from before.
 
