@@ -2,7 +2,7 @@
 title: "Activity 1 - Create your Restaurant Banner"
 date: 2019-07-25T13:24:17-07:00
 prereq: "Python Basics - Print statements"
-weight: 3
+weight: 2
 draft: false
 ---
 ## Pre-reqs

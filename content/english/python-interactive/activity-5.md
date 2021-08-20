@@ -1,7 +1,7 @@
 ---
 title: "Activity 5 - Analyzing the customer's order"
 date: 2019-07-25T13:24:17-07:00
-weight: 3
+weight: 6
 draft: false
 ---
 ## Pre-reqs
@@ -16,7 +16,7 @@ The first function we'll be writing is `createDictOrderItems(listOrderItems)` an
   - Let's first create an empty dictionary titled `dictItems` that will eventually store this information.
   - Next, write a loop (Hmm, which type of loop do you want to use?) that iterates over all of the orderItems in the list we passed in.
   - In this loop, we want to split each string by the `"-"` that is in between the item name and quantity. If you specified a different format with `" : "` or `" - "` or anything else, specify that here. The first item we receive from splitting the string is the item name. The second item we get is the quantity, convert this to an integer. Store both values in helpfully named variables like `itemName` and `itemQuantity`.
-  - Still within the for loop, we now need to add this to the dictionary `dictItems`. However, remember that since a customer can technically order the same thing multiple times in separate order items, we need to combine that here. For instance, if the customer orders Spring Rolls-2 twice, we want to interpret that as 4 Spring Rolls. To do this, we need to have an if-else block where if the dictionary already contains the item name, then add this new quantity to the quantity already associated with the item name, else create a new key-value pair with the item name and quantity.
+  - Still within the loop, we now need to add this to the dictionary `dictItems`. However, remember that since a customer can technically order the same thing multiple times in separate order items, we need to combine that here. For instance, if the customer orders Spring Rolls-2 twice, we want to interpret that as 4 Spring Rolls. To do this, we need to have an `if`-`else` block where if the dictionary already contains the item name, then add this new quantity to the quantity already associated with the item name, else create a new key-value pair with the item name and quantity.
   - Finally, after this loop ends, remember to return this dictionary!
 
 ### Compute prices from the dictionary  
