@@ -14,6 +14,8 @@ In this project, we're going to create a fun console application that allows the
 
 First step: Open up a new Repl.it document and create a main() function definition and function call.
 
+Note: If you're unfamiliar with Repl.it, take a look at the Python Turtle's Using Repl.it page for more information.
+
 ## Table of Contents
 <details>
 <summary>Sections</summary>
