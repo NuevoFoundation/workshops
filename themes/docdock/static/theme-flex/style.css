@@ -291,9 +291,10 @@ article {
   -ms-flex: 1;
   flex: 1;
   margin-top: 3.5rem;
+  margin-right: auto;
+  margin-left: auto;
   width:100%;
   max-width: 1210px;
-  margin: 0 auto;
 }
 
 article section.page {
