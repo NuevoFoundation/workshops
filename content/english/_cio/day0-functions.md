@@ -7,9 +7,13 @@ difficulty: "Intermediate"
 download: " "
 draft: true
 hidden: false 
+weight: 0
 ---
 
-# Functions
+# Welcome to C!
+It may be the first time you are working with C, so this workshop will guide you through C as we use it for our purposes. 
+
+## Functions
 
 First, let's go over a very useful feature of C: functions. Functions serves two primary purposes: code readability and code reusability. By putting code in a function, you can inform the reader what the code as a whole does. Functions also allow you to execute the code written in a function by *calling* it. In this way, you can call the same function many times, alloying you to run the same code repeatedly.
 
@@ -22,42 +26,59 @@ First, let's go over a very useful feature of C: functions. Functions serves two
 In C, you can define a function like so:
 
 ```c
+    void functionA()
+    {}
+```
+Let's break it down. 
+
+* **void**. This is the *return type* of the function. When we call the function, the function can
+* **functionA**. This is the name of the function. We can use this name to call it.
+* `{}`. The curly braces show where the function definition begins and ends.
+
+We can put our code statements in between the curly braces. For instance:
+
+```c
     int main() 
     {
         return 0;
     }
-
 ```
-Let's break it down. 
-* `int` indicates that the function *returns* an integer. We'll discuss function returning later.
-* `main` is the name of the function. In C, a function named `main` has a special meaning. When a program is run, it starts executing code from inside the `main` function.
-* `()` indicates that there are no *arguments* for this function. Arguments provide extra information to the function. We'll explain what arguments are in detail later.
-* `{` indicates the start of the code block and `}` denotes its end. You can write any number of C *statements* in between the curly braces, which will be executed when the function is called.
-* `return 0;` is a statement that indicates that the function ends at that line and should return the value 0 once the program runs it.
+
+A few things to unpack here. The `main` function is special in C. When a C program starts, it begins running code within the `main` function. For now, the code will run in the order you wrote it, sequentially.
+
+(Image of the flow: Main -> code within main -> Return)
+
 {{% notice note%}}
-    A *statement* in C is hard to define precisely without jumping into nitty-gritty detail. For most programmers, a statement is simply a line of code that does something and ends with a semicolon.
+    A *statement* in C is hard to define precisely without jumping into nitty-gritty detail. For most programmers, a statement is a line of code that does something and ends with a semicolon.
+{{% /notice%}}
+
+{{% notice note%}}
+    Comments are notes that programmers can type next to code. We can start a comment on a line in C by using `//`; any text beyond this will be *commented*.
+    If single line comments aren't enough, you can write comments across multiple lines. Start the comment with `/*`, and end it with `*/`. Any code between them will be commented.
+    You'll see a lot of code snippets with comments that explain the code in this workshop.
 {{% /notice%}}
 
 ## Function Workflow: Calling, Working with Arguments, and Returning
 
 A function can be called by some code. Let's define an example function.
 ```c
-    int generateAZero() {
-        return 0;
+    void functionB() 
+    {
     }
 ```
-This function does nothing but return a 0. We can call it using its name:
+This function does nothing, but we can still call it using its name, like so:
 
 ```c
-    generateAZero();
+    functionB();
 ```
 
 In general, functions are used in the following workflow:
 
-(Image of the flow: Caller -> Function does stuff -> Function returns to caller)
+(Image of the flow 1: Caller -> Function does stuff -> Function returns to caller)
 
-Like mentioned previously, a C program starts within the `main` function. Within this `main` function, we can call other functions.
+Like mentioned previously, a C program starts within the `main` function. Within this `main` function, we can call other functions, and those functions can call other functions as well! We'll talk about what this does in the actual computer, and how the computer tracks who's calling who.
 
-Functions can take extra information using arguments. Arguments are variables, which store data.
+(Image of the flow 2: MAIN -> other functions)
 
-When a function reaches a `return` statement, it stops running. The function returns the value indicated by a return statement.
+Finallly, when a function reaches a `return` statement, or it reaches the end of the function block, it stops running, and execution goes back to where the function was first called.
+
