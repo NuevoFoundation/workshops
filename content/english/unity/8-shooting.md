@@ -1,0 +1,47 @@
+---
+title: "8. Shooting"
+date: 2021-10-06T11:45:38-07:00
+draft: true
+weight: 9
+---
+
+Now that the bullet is all set up, let's get Nuvi shooting those bullets. Make a script called "shootingBehavior", then copy and paste this code:
+
+```csharp
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class shootingBehavior : MonoBehaviour
+{
+
+   public Transform spawn_coor;        //where the bullet will spawn
+   public float bullet_speed;          //how fast bullet will go
+
+   public GameObject bullet_object;    //red bullet sprite
+
+   // Start is called before the first frame update
+   void Start()
+   {
+       bullet_speed = 15f;
+   }      
+
+   // Update is called once per frame
+   void Update()
+   {
+       if(Input.GetButtonDown("Jump")) //space bar will spawn bullet
+       {
+
+           Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+           rb.AddForce(spawn_coor.up * bullet_speed, ForceMode2D.Impulse); //makes bullet move
+       }
+   }
+}
+```
+
+Right now this script doesn't work; we need to tell the game what to spawn when the spacebar is pressed. To do so, add `GameObject bullet = Instantiate(bullet_object, spawn_coor.position, spawn_coor.rotation);` above `Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();`. The Instantiate method indicates what to create, where to create it, and in what direction it should be facing.
+
+Drag and drop this script into Nuvi's inspector. If you were to run the script now, you will notice that nothing changed. This is because there are public variables that have not been assigned yet.
+Head to Nuvi's inspector and scroll down to the Behavior script. Notice that Spawn_coor and Bullet_object are empty. For Spawn_coor, drag and drop the empty GameObject you made in the last lesson that represents where bullets spawn. For Bullet_object, drag and drop the bullet prefab that you also made in the last lesson.
+
+Run the game and notice what you see. We got Nuvi to shoot bullets, but these bullets can't do anything! In the next few lessons, you'll learn how to get them to interact with other objects.
