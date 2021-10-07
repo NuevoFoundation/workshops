@@ -11,7 +11,7 @@ Para ayudar a los reyes, vamos a crear un programa en el lenguaje llamado C++, d
 
 Vamos a utilizar la herramienta Repl.it para jugar con nuestros códigos de C++. Este es un ejemplo de una ventana interactiva como las que usaremos en todo el tutorial:
 
-<iframe height="600px" width="100%" src="https://replit.com/@valufran/UsandoReplit?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/activity-0?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 Antes de empezar, entendamos como funciona esta ventana. El programa `main.cpp` contiene las instrucciones que la computadora va a ejecutar o "correr" (Run en inglés). Al presionar el botón **Run**, le estás diciendo a la computadora que ejecute las instrucciones que están en el programa. Los resultados del programa los puedes ver en la pantalla negra que está debajo, en la pestaña **console**.
 

@@ -17,9 +17,10 @@ Para eso necesitaremos de las **variables**.
 
 Una **variable** es un contenedor que guarda información.
 Hay distintos tipos de variables que dependen en que información guarda. Pueden ser del tipo: 
-1. **String**: guarda una secuencia de caracteres, es decir, de números, letras o símbolos. Por ejemplo `"hola"`, `"1, 2, 3"` son strings. 
-2. **Int**: guarda números enteros (sin decimales) ya sea negativo o positivo, como `1`, `100` y `-250`. 
-3. **Bool**: solo guarda `true` (verdadero) o `false` (falso).
+1. **string**: guarda una secuencia de caracteres, es decir, de números, letras o símbolos. Por ejemplo `"hola"`, `"1, 2, 3"` son strings. 
+2. **int**: guarda números enteros (sin decimales) ya sea negativo o positivo, como `1`, `100` y `-250`. 
+3. **char**: sirve para contener un solo caracter. Por ejemplo `'A'` , `'e'`, `'I'`, etc. Un char siempre va entre comillas simples `''`.
+4. **bool**: solo guarda `true` (verdadero) o `false` (falso).
 
 Para crear una variable, necesitamos declararla de la siguiente manera:
 ```
@@ -99,13 +100,13 @@ Pasos a seguir para esta actividad:
 4. Apretar Run, escribir en la pestaña **console** el nombre del destinatario y presionar enter.
 
 
-<iframe height="600px" width="100%" src="https://replit.com/@valufran/Actividad-2?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/activity-2?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 {{% notice warning %}}
 
 ### ¡AYUDA! 
 
-Si después de presionar el botón **Run**, hay una **x roja** en la pestaña **console**, es porque tienes errores en el código. Pídele ayuda al instructor para revisar tu código.
+Si después de presionar el botón **Run**, está la palabra **error** en rojo en la pestaña **console**, es porque tienes errores en el código. Pídele ayuda al instructor para revisar tu código.
 
 Mientas tanto puedes revisar lo siguiente:
 

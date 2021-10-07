@@ -7,7 +7,7 @@ draft: false
 
 Para que nuestro programa cree mensajes secretos, primero debemos ingresar un mensaje.
 
-<iframe height="600px" width="100%" src="https://replit.com/@valufran/Acticity1?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/activity-1?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 Para eso, vamos a comenzar diciendole a la computadora que muestre en la consola para quien es ese mensaje. Esta es la instrucción que necesitaremos:
 
@@ -39,7 +39,7 @@ Prueba cambiar el contenido del string. Por ejemplo `"Hola mundo"`, `"Para la Re
 
 ### ¡AYUDA! 
 
-Si después de presionar el botón **Run**, hay una **x roja** en la pestaña **console**, es porque tienes errores en el código. Pídele ayuda al instructor para revisar tu código.
+Si después de presionar el botón **Run**, está la palabra **error** en rojo en la pestaña **console**, es porque tienes errores en el código. Pídele ayuda al instructor para revisar tu código.
 
 Mientas tanto puedes revisar lo siguiente:
 
