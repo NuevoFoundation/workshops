@@ -45,6 +45,9 @@ Finally, we've been using `char` to store a number. We can also use it to store 
 ```
 The computer will find the ASCII value of 'a', then store it in `letter`.
 
+## The Int
+In this lesson, we'll be using a data type called `int` a lot. `int` is a data type that can hold a number, and in modern computers is 4 bytes in size. We'll discuss `int` in more detail in lesson 3.
+
 ## Using Variables
 
 ### Modifying
@@ -122,10 +125,72 @@ Another feature of C strings are that they are *zero-terminated*, meaning that a
 ### Arrays and Pointers
 While it seems that arrays are a new concept, in fact array variables are pointers in disguise! Let's try it out with a string.
 
-<!--NOTE THIS SHOULD BE IN REPLIT-->
-
 ```c
     char *str = "Hello!";
 ```
-Indeed, this is valid C code.
+The pointer `str` will point to the first memory address of the array:
 
+<!--Image of memory look-->
+
+# Functions: Arguments and Return Values
+We'll revisit functions again, this time to examine a few features that made functions not very useful.
+
+## Arguments
+Recall that a function has two parentheses. You can declare *arguments* in between the parentheses to pass information to the function.
+
+Here's an example:
+
+```c
+    void aFunction(int x) 
+    {
+        x = 5;
+    }
+
+    int main() 
+    {
+        aFunction(5); //valid
+        int y = 0;
+        aFunction(y); //also valid
+
+        return 0;
+    }
+```
+In `aFunction`, we can pass an integer to it as an argument. You can use these passed in arguments as if they were variables. However, note that any changes you make to the variable will not carry over when the function returns to the caller. So in the function above, `aFunction` will not affect the value of `y`. This is because `x` has its value copied from `y`, and is separate from it. We'll explore how to bypass this using pointers in Exercise 2.
+
+## Scope
+For now, variables will always become inaccessible once it leaves the scope it was declared in. A scope is characterized by the curly braces `{}`. The `{` indicates entering a scope, and `}` indicates leaving the scope. Leaving the scope makes all variables that were declared within unable to be used. Take the following example:
+```c
+
+    int main()
+    {
+        int y = 0;
+        {
+            int z = 6;
+        }
+        z = 4; //z is now out of scope!
+        return 0;
+    }
+```
+`z` is declared within the inner `{}`, so after exiting the scope, it will become inaccessible. Functions have their own scope as indicated with their curly braces. Any variables declared within the function body won't be accessible from the outside. This leaves a problem. What if we want to give information back to the function caller? One way to do this is through return values.
+
+## Return Values
+Return values provide a logical way to pass information back to the caller of a function. The return value type is indicated by the data type next to the name of the function. For instance, the `main` function returns a value that is of type `int`.
+
+On a `return` statement, the function stops executing code. Then, the expression next to the `return` keyword is *returned* to the caller. 
+
+Take the following example:
+
+```c
+    int multiplyBy2(int x)
+    {
+        return x * 2;
+    }
+
+    int main()
+    {
+        int x = 5;
+        int y = multiplyBy2(x); //y will be 10
+        return 0;
+    }
+```
+The code above takes the `int` and multiplies it by 2. It then returns the result to the caller. Notice that `multiplyBy2` is now being used as an expression, and we can set `y` equal to it.

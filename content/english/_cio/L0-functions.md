@@ -11,11 +11,10 @@ weight: 0
 ---
 
 # Welcome to C!
-It may be the first time you are working with C, so this workshop will guide you through C as we use it for our purposes. 
-
-## Functions
-
-First, let's go over a very useful feature of C: functions. Functions serves two primary purposes: code readability and code reusability. By putting code in a function, you can inform the reader what the code as a whole does. Functions also allow you to execute the code written in a function by *calling* it. In this way, you can call the same function many times, alloying you to run the same code repeatedly.
+C is an old programming language. Despite this, it is still often used today as the language of choice for many systems programmers. We will be introducing the C programming a bit out of order compared to traditional teaching methods, and we won't be covering the language in detail; rather, we'll only explain the parts that we'll need to build our file reader and writer.
+<!--Maybe will swap this with L1-->
+## An Introduction to Functions
+First, let's go over a very useful feature of C: functions. Functions serve two primary purposes: code readability and code reusability. By putting code in a function, you can inform the reader what the code as a whole does, and . Functions also allow you to execute the code written in a function by *calling* it. In this way, you can call the same function many times, alloying you to run the same code repeatedly.
 
 {{% notice tip%}}
     In other languages, functions are also called methods or procedures.
@@ -58,7 +57,7 @@ A few things to unpack here. The `main` function is special in C. When a C progr
     You'll see a lot of code snippets with comments that explain the code in this workshop.
 {{% /notice%}}
 
-## Function Workflow: Calling, Working with Arguments, and Returning
+## Function Workflow: Calling and Returning
 
 A function can be called by some code. Let's define an example function.
 ```c
@@ -75,10 +74,6 @@ This function does nothing, but we can still call it using its name, like so:
 In general, functions are used in the following workflow:
 
 (Image of the flow 1: Caller -> Function does stuff -> Function returns to caller)
-
-Like mentioned previously, a C program starts within the `main` function. Within this `main` function, we can call other functions, and those functions can call other functions as well! We'll talk about what this does in the actual computer, and how the computer tracks who's calling who.
-
-(Image of the flow 2: MAIN -> other functions)
 
 Finallly, when a function reaches a `return` statement, or it reaches the end of the function block, it stops running, and execution goes back to where the function was first called.
 
