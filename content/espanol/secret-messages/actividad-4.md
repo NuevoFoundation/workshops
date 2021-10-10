@@ -39,7 +39,7 @@ En el ejemplo, el bloque *else* no se ejecutará porque la condición del *if* e
 
 Para crear condiciones, usualmente usamos los siguientes **operadores lógicos** en los paréntesis `()` de las instrucciones **if**: 
 
-Ejemplo: a=5 y b=3
+Ejemplo: `a=5` y `b=3`
 1. Menor que: `a < b` (¿5 es menor que 3?)
 2. Menor o igual que: `a <= b` (¿5 es menor o igual a 3?)
 3. Mayor que: `a > b` (¿5 es mayor a 3?)
