@@ -5,7 +5,7 @@ draft: false
 weight: 9
 ---
 
-Now that the bullet is all set up, let's get Nuvi shooting those bullets. Make a script called "shootingBehavior", then copy and paste this code:
+Now that the bullet is all set up, let's get Nuvi shooting those bullets. Make a script called "ShootingBehavior", then copy and paste this code:
 
 ```csharp
 using System.Collections;
