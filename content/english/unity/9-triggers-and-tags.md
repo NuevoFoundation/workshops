@@ -1,5 +1,5 @@
 ---
-title: "9. Triggers and Tags"
+title: "Triggers and Tags"
 date: 2021-10-06T11:45:38-07:00
 draft: false
 weight: 10
@@ -10,6 +10,8 @@ weight: 10
 Now, let's stop and think about how we want our bullet to work. A bullet is going to be shot, and then when it hits an enemy it will disappear. ...That's not really physics, is it? Physics can't make an object disappear into thin air, so this disappearing will have to be a custom behavior that we add to the bullet using a script. The disappearing behavior will happen when the bullet touches an enemy.
 
 We do that by making this bullet a trigger. Go into the BoxCollider2D component within the bullet inspector you added, and check the "IsTrigger" box. A trigger will let you know that it touched something, so in your script you can check to see if that interaction happened, then make that custom disappearing behavior occur.
+
+<img src="../img/9_isTrigger.png" alt="drawing" width="400"/>
 
 Note that because this bullet is a trigger, it's not going to work by physics anymore. Unless you add a script to make it disappear, it's going to pass through objects, including the invisible walls you added earlier.
 

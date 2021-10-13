@@ -1,5 +1,5 @@
 ---
-title: "13. Piecing it All Together"
+title: "Piecing it All Together"
 date: 2021-10-06T11:45:38-07:00
 draft: false
 weight: 14
@@ -95,11 +95,11 @@ Next, we want to store the spawn positions we made. What do you think is the bes
 
 One problem we ran into was the end screen appearing despite it being the start of the game. If you took notice of the past two scripts for the Menu and End screen, you may have an idea on how to fix this. Similar to how we set the Menu screen to false, we need to set the End screen to false. To do this, add `winner_screen.SetActive(false);` inside the Start() method.
 
-The final addition we need to make in order for the script to work is in the generate() function. Inside the for loop, we need to find a way to grab the number that the player chose from the slider within the Menu screen. Since we will be referring to the slider as num_of_enemies, we simply need to add `num_of_enemies.value` right after the `<` and before the `;` in the for loop.
+The final addition we need to make in order for the script to work is in the `generate()` function. Inside the for loop, we need to find a way to grab the number that the player chose from the slider within the Menu screen. Since we will be referring to the slider as num_of_enemies, we simply need to add `num_of_enemies.value` right after the `<` and before the `;` in the for loop.
 
 Now, head to the Main Camera inspector and locate the Outline script. Notice that there are a lot of empty variables that we need to fill in. First, drag the num_enemies slider from the hierarchy into the "Num_of_enemies" variable. For "Positions", choose "4". Drag the spawn locations in this order starting from Element 0: PlayerLoc → EnemyLoc2 → EnemyLoc1 → EnemyLoc3. Then, drag the Menu GameObject from the hierarchy into the "Opening_screen" variable and the EndScreen GameObject into the "Winner_screen" variable. Next, from the Prefabs folder in the Project window, drag the "enemy1" prefab into the "Enemy 1" variable and the "Nuvi" prefab into the "Player 1" variable.
 
-Next, we need a way to know when the enemies are killed, so that we can have the End screen pop up when there are no enemies left. To do this, we keep a count of how many enemies there are, and this count should go down when an enemy is killed. In the Outline script add `public int enemies_left;`. For now add `enemies_left = -1;` in the Start() method. Now, let's think of when the enemy gets killed. In what script did we destroy the enemy? If you thought of the "Enemy Behavior" script, then you're right! Open up the "Enemy Behavior" script and add this code above the "OnCollisionEnter2D()" method:
+Next, we need a way to know when the enemies are killed, so that we can have the End screen pop up when there are no enemies left. To do this, we keep a count of how many enemies there are, and this count should go down when an enemy is killed. In the "Outline" script add `public int enemies_left;`. For now add `enemies_left = -1;` in the `Start()` method. Now, let's think of when the enemy gets killed. In what script did we destroy the enemy? If you thought of the "Enemy Behavior" script, then you're right! Open up the "Enemy Behavior" script and add this code above the "OnCollisionEnter2D()" method:
 
 ```csharp
   GameObject cam;

@@ -1,5 +1,5 @@
 ---
-title: "5. Colliders"
+title: "Colliders"
 date: 2021-10-06T11:45:38-07:00
 draft: false
 weight: 6

@@ -1,11 +1,13 @@
 ---
-title: "3. Scripts Explained"
+title: "Scripts Explained"
 date: 2021-10-06T11:45:38-07:00
 draft: false
 weight: 4
 ---
 
-Before we begin with making Nuvi move, let's first explain the structure of a Unity script. An empty Unity Script will look like this:
+Before we begin with making Nuvi move, let's first explain the structure of a Unity script. There are many ways to make Nuvi move within Unity, and one way to do this is to add a Script component onto Nuvi. A Script component is a component that you can make on your own from scratch.
+
+An empty Unity Script will look like this:
 
 ```csharp
 using System.Collections;
@@ -40,4 +42,4 @@ There exists another method we will be using to make Nuvi move called void Fixed
 
 **void FixedUpdate()**: This method is called less frequently than Update(), but is best used when dealing with physics for smoother movement, such as when using Rigidbody.
 
-There will be other functions from the Unity library we will be using later, but for now this is all you need to know!
+There will be other methods from the Unity library we will be using later, but for now this is all you need to know!

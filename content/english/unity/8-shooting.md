@@ -1,5 +1,5 @@
 ---
-title: "8. Shooting"
+title: "Shooting"
 date: 2021-10-06T11:45:38-07:00
 draft: false
 weight: 9

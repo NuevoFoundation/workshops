@@ -1,11 +1,12 @@
 ---
-title: "4. Making Nuvi Move"
+title: "Making Nuvi Move"
 date: 2021-10-06T11:45:38-07:00
 draft: false
 weight: 5
 ---
 
-There are many ways to make Nuvi move within Unity. One way to do this is to add a Script component onto Nuvi. A Script component is a component that you can make on your own from scratch.
+Now that we know what a Script looks like, let's actually make one.
+
 First, we want to create a new folder called "Scripts" in Assets under the Project window, similar to the Drawings folder. We will do this because it is better practice to have all the scripts in an easy to access place. Double click the Scripts folder and create a script by right clicking and selecting "C# Script." You can also go under the "Assets" tab and choose "Create -> C# Script" as shown below.
 
 ![Cannot find image](../img/4_CreateScript.png)
@@ -62,9 +63,9 @@ Looking all good! ...Or is it?
 
 Take a moment to observe how Nuvi moves horizontally/vertically compared to diagonally. Nuvi actually moves a little bit faster diagonally. We should fix this — it's a small detail, but an important one. To understand why, we need to bring in some math.
 
-### Some Math...
+{{<notice info>}}
 
-Recall Pythagorean's Theorem, a2 + b2 = c2. When Nuvi moves diagonally, the horizontal and vertical movements are being merged together. This happens in `movement = new Vector3(move_x, move_y, 0.0f)`.
+Recall Pythagorean's Theorem, a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>. When Nuvi moves diagonally, the horizontal and vertical movements are being merged together. This happens in `movement = new Vector3(move_x, move_y, 0.0f)`.
 
 <img src="../img/4_pythagorean_theorem.png" alt="drawing" width="600"/>
 
@@ -72,11 +73,11 @@ Our game receives "1" as horizontal input when horizontal keys are pressed, and 
 
 If we set a=1 and b=1, then our equation looks like:
 
-a2 + b2 = c2
+a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>
 
-12 + 12 = c2
+12 + 12 = c<sup>2</sup>
 
-2 = c2
+2 = c<sup>2</sup>
 
 √2 = c
 
@@ -84,6 +85,8 @@ a2 + b2 = c2
 
 So, Nuvi is actually moving 1.414 times faster than they do horizontally or vertically.
 
-To fix this, add `movement = movement.normalized;` under `movement = new Vector3(move_x, move_y, 0.0f)`. This line of code will turn Nuvi's diagonal movement distance from 1.414 into 1. Now run the game to see that Nuvi moves at the same speed diagonally.
+To fix this, add `movement = movement.normalized;` under `movement = new Vector3(move_x, move_y, 0.0f)`. This line will turn that 1.414 into a 1. Now run the game to see that Nuvi moves at the same speed diagonally
+
+{{</notice>}}
 
 There's also an important thing that's missing in our game. Do you notice how Nuvi can run off the screen? Now that is a big problem — we don't want Nuvi running off into space, do we? In the next lesson we will thoroughly fix this.

@@ -1,5 +1,5 @@
 ---
-title: "1. Installing Unity"
+title: "Understanding the Unity Interface"
 date: 2021-10-06T11:45:38-07:00
 draft: false
 weight: 2
@@ -39,6 +39,6 @@ This window will show output from the game. You can ignore it for now, but it'll
 
 One last important thing... find the Play button at the very top of the Unity interface. It should look like this:
 ![Cannot find image](../img/1_play.png)
-This is what you're going to use to play your game as you make it. Note that any changes you make to your game while you play will NOT be saved. If you find that you need to make any changes, click on the play button again to stop playing your game.
+This is what you're going to use to play, or "run", your game as you make it. Note that any changes you make to your game while you run will NOT be saved. If you find that you need to make any changes, click on the Play button again to stop playing your game.
 
 That's all you need to know for now! It may look scary, but you'll start to get a better understanding once you start working on your game. The most important thing is that you go in and start working!

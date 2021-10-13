@@ -1,5 +1,5 @@
 ---
-title: "7. Setting up the Bullet and Making it a Prefab"
+title: "Setting up the Bullet and Making it a Prefab"
 date: 2021-10-06T11:45:38-07:00
 draft: false
 weight: 8
