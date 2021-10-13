@@ -9,7 +9,7 @@ weight: 1
 
 Conoce a nuestro amigo **Bob**. **Bob** tiene un secreto que no quiere compartir, 
 le gustaría mantenerlo a salvo. Tiene el secreto guardado en un lugar seguro. Solo 
-**Bob** tiene la `llave` de la cerradura para asegurarse de que nadie más que él pueda 
+**Bob** tiene la `clave` de la cerradura para asegurarse de que nadie más que él pueda 
 llegar a su secreto.
 
 ![Cannot load image](../img/Eva.png?height=250px)
@@ -17,14 +17,14 @@ llegar a su secreto.
 Conoce a nuestra no tan buena amiga **Eva**. **Eva** quiere acceder al secreto de **Bob**.
 
 **Eva** se da cuenta de que para llegar al secreto de **Bob**, primero debe pasar la cerradura. 
-**Eva** no puede romper la cerradura, pero tal vez pueda descubrir la `llave`. Después de
-espiar a **Bob** por un tiempo, **Eva** se da cuenta de que realmente ama a su perro, Max. Esto le 
-da a **Eva** una idea.
+**Eva** no puede romper la cerradura, pero tal vez pueda descubrir la `clave`. Después de
+espiar a **Bob** por un tiempo, **Eva** se da cuenta de que **Bob** realmente ama a su perro, Max. 
+Esto le da a **Eva** una idea.
 
-**Eva** piensa que, como **Bob** ama a su mascota tanto, tal vez decidio hacerlo la `llave` de su
+**Eva** piensa que, como **Bob** ama a su mascota tanto, tal vez decidio hacerlo la `clave` de su
 cerradura. Decide intentarlo y *¡violà!* **Eva** pudo abrir la cerradura de **Bob** y ver su secreto.
 
-¡Esto no es bueno para **Bob**! Quiere saber qué podría haber hecho diferente para que **Eva** no pudiera romper su cerradura tan fácilmente, pero no tiene ni idea como empezar.
+¡Esto no es bueno para **Bob**! Quiere saber qué podría haber hecho diferente para que **Eva** no pudiera superar su cerradura tan fácilmente, pero no tiene ni idea como empezar.
 
 ![Cannot load image](../img/Alicia.png?height=250px)
 
