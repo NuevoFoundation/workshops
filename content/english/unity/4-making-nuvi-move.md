@@ -84,6 +84,6 @@ a2 + b2 = c2
 
 So, Nuvi is actually moving 1.414 times faster than they do horizontally or vertically.
 
-To fix this, add `movement = movement.normalized;` under `movement = new Vector3(move_x, move_y, 0.0f)`. This line will turn that 1.414 into a 1. Now run the game to see that Nuvi moves at the same speed diagonally
+To fix this, add `movement = movement.normalized;` under `movement = new Vector3(move_x, move_y, 0.0f)`. This line of code will turn Nuvi's diagonal movement distance from 1.414 into 1. Now run the game to see that Nuvi moves at the same speed diagonally.
 
 There's also an important thing that's missing in our game. Do you notice how Nuvi can run off the screen? Now that is a big problem — we don't want Nuvi running off into space, do we? In the next lesson we will thoroughly fix this.
