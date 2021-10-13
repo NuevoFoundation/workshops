@@ -11,3 +11,7 @@ draft: false
 Oh no! Aliens have descended onto Earth! Will you help Nuvi the robot in defeating them?
 
 This workshop will take you step-by-step through the creation of a top-down Unity shooter! Hope you enjoy!
+
+## Table of Contents
+
+{{% children %}}
