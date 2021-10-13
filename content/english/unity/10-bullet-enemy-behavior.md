@@ -20,7 +20,7 @@ void OnTriggerEnter2D(Collider2D collision)
 }
 ```
 
-In this function, we want to destroy the bullet if it collides with anything but the player. Inside the quotation mark, what do you think we should add? Within the body of the function, what should we put to make the bullet disappear?
+In this function, we want to destroy the bullet if it collides with anything but the player. Inside the quotation marks, what do you think we should add? Within the body of the function, what should we put to make the bullet disappear?
 
 {{< notice tip >}}
 We can call upon Nuvi's tag in the if-statement!
