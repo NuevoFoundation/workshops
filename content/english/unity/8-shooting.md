@@ -1,7 +1,7 @@
 ---
 title: "8. Shooting"
 date: 2021-10-06T11:45:38-07:00
-draft: true
+draft: false
 weight: 9
 ---
 
@@ -43,5 +43,7 @@ Right now this script doesn't work; we need to tell the game what to spawn when 
 
 Drag and drop this script into Nuvi's inspector. If you were to run the script now, you will notice that nothing changed. This is because there are public variables that have not been assigned yet.
 Head to Nuvi's inspector and scroll down to the Behavior script. Notice that Spawn_coor and Bullet_object are empty. For Spawn_coor, drag and drop the empty GameObject you made in the last lesson that represents where bullets spawn. For Bullet_object, drag and drop the bullet prefab that you also made in the last lesson.
+
+Also, now that Nuvi has everything they need to defend, let's also make Nuvi into a prefab!
 
 Run the game and notice what you see. We got Nuvi to shoot bullets, but these bullets can't do anything! In the next few lessons, you'll learn how to get them to interact with other objects.

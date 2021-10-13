@@ -1,7 +1,7 @@
 ---
 title: "5. Colliders"
 date: 2021-10-06T11:45:38-07:00
-draft: true
+draft: false
 weight: 6
 ---
 
@@ -15,13 +15,13 @@ So, let's use colliders to add invisible walls around our arena. Head over to th
 
 Then, right-click the "Walls" object you just made, and this time choose "3D Object -> Cube". Resize the cube into a rectangular shape so it covers a side of the screen like below:
 
-INSERT IMAGE
+![Cannot find image](../img/5_1stWall.png)
 
 Then, remove the BoxCollider component that the cube has by default, and add a BoxCollider2D component.
 
 Do the same to make 3 more invisible walls that surround Nuvi, like:
 
-INSERT IMAGE
+![Cannot find image](../img/5_all_walls.png)
 
 Now run the game and see what happens. ...Uh-oh, Nuvi still runs off. That's because Nuvi doesn't have a Collider. For two objects to collide, both of those objects need to have a Collider!
 
@@ -36,4 +36,4 @@ If Nuvi hides behind the background image, go into Nuvi's Sprite Renderer compon
 
 Finally, run the game again and make sure things are looking alright. If so, then congratulations! We have successfully helped Nuvi move around in outer space!
 
-INSERT IMAGE
+![Cannot find image](../img/5_done.png)

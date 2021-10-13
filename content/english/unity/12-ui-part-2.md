@@ -1,7 +1,7 @@
 ---
 title: "12. Making the UI: Part 2"
 date: 2021-10-06T11:45:38-07:00
-draft: true
+draft: false
 weight: 13
 ---
 
@@ -9,7 +9,7 @@ weight: 13
 
 Next, we want to make an end screen that will be displayed once Nuvi defeats all the aliens. Most of this process will be very similar to how you made the Menu Screen!
 
-Under "Canvas", create "UI" → "Image" like you did for the starting Menu, and this time rename it to "EndScreen". Resize to the same size as Menu (400 x 300).
+Under "Canvas", create "UI" → "Image" like you did for the starting Menu, and this time rename it to "EndScreen". Resize to the same size as Menu.
 
 Create "UI" → "Text" under EndScreen, rename it "EndMessage", and type in whatever you like — this message is going to be displayed when Nuvi defeats all the aliens and the game ends! In our example, we said: "You defeated all the Aliens and helped Nuvi save the Universe!"
 

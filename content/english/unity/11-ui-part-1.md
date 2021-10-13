@@ -1,7 +1,7 @@
 ---
 title: "11. Making the UI: Part 1"
 date: 2021-10-06T11:45:38-07:00
-draft: true
+draft: false
 weight: 12
 ---
 
@@ -14,7 +14,7 @@ Right click in the hierarchy window and, instead of selecting "Create Empty", we
 Under "Canvas", we want to create "UI" → "Image". Rename "Image" to "Menu". This will be our menu screen. In the Menu inspector, resize the width and height to 400 and 300 respectively.
 We then want to anchor the Menu screen to the middle. This way, even if the size of the window changes, the menu screen will stay in the middle. To do this, click on the squares in the top left corner under Rect Transform in the Menu inspector.
 
-INSERT Image
+<img src="../img/11_anchors.png" alt="drawing" width="400"/>
 
 Hold both shift and alt (on Mac's, hold option instead of alt) and select the middle/center in the Anchor presets. This will set the Menu's pivot to 0 while setting the position to the middle/center.
 
@@ -37,11 +37,11 @@ Repeat the process with "3T" but change the text to "3", anchor it to the middle
 
 Now, let's create a start button. Under Menu in the hierarchy window, create "UI" → "Button" and rename it to "StartButton". Set the anchor position to the bottom/center and tinker with the Pos Y inputs to place it wherever you like! If we look in the hierarchy, there is an arrow attached to the StartButton. Click on it to reveal a Text object. Change the text for that Text object to "Start".
 
-INSERT Image
+<img src="../img/11_buttonUI.png" alt="drawing" width="200"/>
 
 We now have the menu screen all set up! Your menu screen should look a little something like this!
 
-INSERT Image
+<img src="../img/11_result.png" alt="drawing" width="800"/>
 
 But wait! We're not done yet! If we were to run the game and press the Start button, nothing happens! We want the menu screen to disappear.
 To do this, let's make another script in our Scripts folder in the Projects window under Assets and name it "StartButton". Open it up and copy and paste the code below!
@@ -69,6 +69,6 @@ This code makes whatever GameObject that is assigned to pop_up_box disappear whe
 Finally, under "Button" in the StartButton inspector, click on the "+" sign in the "On Click()" box. Drag the "StartButton" from the hierarchy to the box that says "None (Object)".
 Then, pull down the "No Function" bar and hover over "StartButton". Locate the "popDown()" function and select it.
 
-INSERT Image
+<img src="../img/11_popDown.png" alt="drawing" width="600"/>
 
 Now, if we were to run the game and press the Start button, the menu screen disappears!
