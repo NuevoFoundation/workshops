@@ -1,7 +1,7 @@
 ---
 title: "1. Set Up the Board!"
 description: "Using print statements prompt the game rules and board"
-date: 2020-07-23T00:00:00Z
+date: 2021-10-14T00:00:00Z
 weight: 2
 ---
 
@@ -49,13 +49,13 @@ public class Main {
 
 ## Variables and Arrays
 
-In this game, we note that we will have to track the symbol currently in each of the 9 positions on the board.
+In this game, note that we will have to track the symbol currently in each of the 9 positions on the board.
 
-   Hence, we will need to store 9 pieces of data in the program. Let's use an `array`(a data structure) of size 9 to store these information.
+   Hence, we will need to store 9 pieces of data in the program. Let's use an `array` (a data structure) of size 9 to store these.
 
    As stated in the rules, on the game board, `"X"` is the player's move, `"O"` is a computer move, and `" "` is an available spot.
 
-   With these information, let's declare an array `variable` called `board` with the values of 9 `" "` String (i.e `{" ", " ", " ", " ", " ", " ", " ", " ", " "}`).
+   Do do this, let's declare an array `variable` called `board` with the value `" "` String in all 9 positions (i.e `{" ", " ", " ", " ", " ", " ", " ", " ", " "}`).
 
 ## Displaying the board
 
@@ -93,7 +93,7 @@ public static void printBoard(String[] curBoard);
 
 ## Calling Methods
 
-In `main()`, call the `printBoard()`, so it prints the initial board with labelled position. You can do this by creating another `String array` of the content `"1", "2", ..., "9"`.
+In `main()`, call the `printBoard()`, so it prints the initial board with labelled position. You can do this by creating another `String array` with the content `"1", "2", ..., "9"`.
 
 Have a line of code that prints `Enter your move (1-9): `
 

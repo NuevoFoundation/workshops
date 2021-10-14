@@ -1,7 +1,7 @@
 ---
 title: "Java: TicTacToe"
 description: "Learn how to make a console based TicTacToe game in Java"
-date: 2020-07-23T00:00:00Z
+date: 2021-10-14T00:00:00Z
 prereq: "Java: Basics"
 difficulty: "Intermediate"
 icon: "fab fa-java"
@@ -25,11 +25,11 @@ These are the concepts from the `Java: Basics` workshop that we will use in this
 
 In this workshop, you will learn how to create a Tic-Tac-Toe program in Java from start to finish! 
 
-You will need basic Java knowledge from the workshop [Java: Basics](../../java-basics/_index.md) as we will assume you to know about variable, operators, classes, and arrays during the exercises.
+You will need basic Java knowledge from the workshop [Java: Basics](../../java-basics/_index.md) as we will assume you to know about variables, operators, classes, and arrays during the exercises.
 
 There will also be links to the relevant Java topics on each page if you want to review a specific concept!
 
-<img src="https://media.giphy.com/media/YnZPEeeC7q6pQEZw1I/giphy.gif" width="380" height="380" />
+<img src="https://media.giphy.com/media/YnZPEeeC7q6pQEZw1I/giphy.gif" width="380" height="380" alt="Golden Retriever playing tic-tac-toe with dog treats" />
 <p style="text-align: center; ">(image created by ParkerPup: giphy.com/parkerpup)</p>
 
 ## Table of Contents

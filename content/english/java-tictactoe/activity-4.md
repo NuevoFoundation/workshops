@@ -1,7 +1,7 @@
 ---
 title: "4. Check the winner"
 description: "write method to check the winner with an input board"
-date: 2020-07-23T00:00:00Z
+date: 2021-10-14T00:00:00Z
 prereq: "Set up the Board!, Read and Process Input, Update the Game Board"
 difficulty: "Intermediate"
 weight: 5
@@ -49,7 +49,7 @@ It is good practice to close the `Scanner` object if we won't be getting any mor
 
 ## All Done :) !
 
-You should now have a functioning TicTacToe game! I am so proud of you to finish this workshop! Good Job 👍!
+You should now have a functioning TicTacToe game! You should be so proud of yourself for finishing this workshop! Good Job 👍!
 
 ##### As an overview, this should be the structure of your code:
-<img src="../images/code.png" height="500"/> 
+<img src="../images/code.png" height="500" alt="Tic Tac Toe: Your Java Project. void main(String args[]) that reads in player inputs, process inputs, and prompt each round of the game or print the winner of the game. voic printBoard(String[] curBoard) is a method to print the game board. int getComputerMove(String[] curBoard) randomly returns an available move for the computer. String getWinner(String[] curBoard) returns the winner of the game/TIE or '' if the game should continue."/> 

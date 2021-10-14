@@ -1,13 +1,13 @@
 ---
 title: "Introduction"
-date: 2020-07-11T00:00:00Z
+date: 2021-10-14T00:00:00Z
 weight: 1
 draft: false
 ---
 
 ## Tic Tac Toe Summary
 
-<img src="../images/code.png" height="500"/> 
+<img src="../images/code.png" height="500" alt="Tic Tac Toe: Your Java Project. void main(String args[]) that reads in player inputs, process inputs, and prompt each round of the game or print the winner of the game. voic printBoard(String[] curBoard) is a method to print the game board. int getComputerMove(String[] curBoard) randomly returns an available move for the computer. String getWinner(String[] curBoard) returns the winner of the game/TIE or '' if the game should continue." /> 
 
 ## Using Repl.it
 
@@ -17,7 +17,7 @@ Today you will be using Repl.it to code in Java. Here is the starter code you wi
 
 {{% notice info %}}
 
-Before we start, let's first understand how the window works. The `Main.java` file contains code, or instructions for the computer to run. By pressing the <b>run</b> button, you tell the computer to perform the instructions in the code. Any results from running the code will be displayed on the bottom white screen, under the **result** tab.
+Before we start, let's first understand how the window works. The `Main.java` file contains code, or instructions for the computer to run. By pressing the **run** button, you tell the computer to perform the instructions in the code. Any results from running the code will be displayed on the bottom screen, under the **Console** tab.
 
 {{% /notice %}}
 
