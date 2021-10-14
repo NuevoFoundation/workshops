@@ -1,11 +1,18 @@
 ---
 title: "Object and Classes"
 description: "Introduce object and class in Java."
-date: 2020-07-16T00:00:00Z
+date: 2021-10-13T00:00:00Z
 weight: 7
 ---
 
 <p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/ejXgw0qchDg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+### 1. What is an Object and a Class
+An object is an thing (noun) that has certain characteristics and can perform certain tasks. A Class is the blueprint or definition for that object.
+
+An example is a Person. A Person is Class. A person can have certain characteristics that distinguish it from another person. It can have blue eyes, it can be 30 years old, etc. A person can also perform certain tasks. It can walk, it can talk, etc. 
+
+A Java Object is an instance of a Java Class. In this instance "Bea" is a "Person". "Bea" has brown eyes. This is a property (or data field) of "Bea". "Bea" can speak in English. "Bea" can speak in Spanish. These are methods that "Bea" can perform.
 
 ### 1. Creating a Class!
 Java is an <b>object-oriented</b> programming language, which means everything in Java is associated with an <b>object</b> and a <b>class</b> (the blueprint for the object).
@@ -40,13 +47,13 @@ Let's learn about the different parts in a class below:
 #### Class
 A class is a blueprint or prototype of a new type of object. In general, a class contains three important parts: (1) data fields/instance variables (2) constructor (3) methods.
 
-<img src="../images/class.png" height="400"/> 
+<img src="../images/class.png" height="400" alt="A Class blueprint for an object contains instance varialbes/data fields which are data/attributes in the object, constructor which are methods that creates the obejct of the class, and methods, which are behaviors possible for the object."/> 
 
-1. <b>data fields/instance variables</b>: These are the variables an object of this class has access to. For example: A `Car` class may have the field `tire` of class `Tire`.
-
-2. <b>constructor</b>: This is a method we call to create an object of this Class.
-
-3. <b>methods</b>: These are methods an object of this class will be able to call to perform certain tasks.
+**Element** | **Description** | **Example**
+---|---|---
+**data fields/instance variables** | variables an object of this class has access to that describe the object | Person class has fields eyeColor, age, height.
+**constructor** | method called to create an object from this Class | There can be more than one constructor per class
+**methods** | methods an object of this class will be able to call to perform certain tasks | Person class has methods talk and walk.
 
 For example:
 
@@ -68,7 +75,8 @@ public class SampleClass{
 
 ### 2. Try it Out 🐥!
 
-Let's make a `Bird` class to represent Patrick 🐥 and all of his Bird friends by following the steps below!
+Let's make a `Bird` class to represent Patrick 🐥 and all of his Bird friends by following the steps below! 
+**Note:** For this exercise, you will be working in Bird.java instead of Main.java.
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsBird?lite=true#Bird.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
@@ -181,7 +189,7 @@ If there is still something incomplete or incorrect when you click `Run`:
 Congratulations! You just wrote you first Java class `Bird` class. Now let's learn to write a program that uses `Bird` objects!
 
 We defined the `Bird` class to have the following attributes (instance variables) and behaviors (methods):
-<img src="../images/bird_class.png" height="450"/> 
+<img src="../images/bird_class.png" height="450" alt="Bird Class blueprint for a Bird object contains instance variables/data fields which include String species, String name, String hobby, int age, and boolean loveMusic, constructor, which requires all 5 variables to be passed in, and methods, including String getSpecies(), String getName(), String getHobby(), int getAge(), boolean getLoveMusic(), and String toString()." /> 
 
 To create a new object of a particular class, we call the constructor of that class in the format `class name` `variable name` `=` `new` `constructor call`.
 

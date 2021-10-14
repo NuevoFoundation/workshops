@@ -1,7 +1,7 @@
 ---
 title: "Print Statements and Comments"
 description: "Introduce println() methods and comments in Java."
-date: 2020-07-08T00:00:00Z
+date: 2021-10-13T00:00:00Z
 weight: 2
 ---
 
@@ -11,21 +11,21 @@ weight: 2
 
 Let’s try to write a program that says `Hello World` out by typing the line of code `System.out.print("Hello World");` 
 
-The program prints out whatever you typed in the parenthesis of `System.out.print(`. And, each line of code ends with `;`.
+The program prints out whatever you typed in the parenthesis of `System.out.print`. And, each line of code ends with `;`.
 
 After, add more statements to print numbers by putting numbers in the parenthesis (i.e. `System.out.print(2020)`) or a symbol by putting one symbol between 2 single quotes `'` (i.e. `System.out.print('@')`).
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsHelloWorld?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 {{% notice tip %}}
-#### Do you notice that all the statements you typed end up printing everything in one line?
+#### Did you notice that all the statements you typed printed in one line?
 
 Sometimes we want to enter a new line when typing.
-And, to do that, we type a slightly different code `System.out.println();`
+To do that, we type a slightly different code `System.out.println();`
 
 (Note: we type `println` instead of `print` to create a new line after)
 
-Give it a try and make all the statements in different lines above!
+Go back up and give it a try. Make all the statements print on different lines!
 {{% /notice %}}
 
 {{% notice tip %}}
@@ -72,7 +72,7 @@ Use what you just learn and recreate this owl below using just 4 lines of code! 
      Main.java:4: error: reached end of file while parsing
 If you get an error like this such as, it is posible that you forgot to escape chararcters such as `"` and `\`.
 
-Revisit the thrid tip above to see how to escape characters in a print statement!
+Revisit the third tip above to see how to escape characters in a print statement!
 {{% /notice %}}
 
 ### 3. Make a Comment

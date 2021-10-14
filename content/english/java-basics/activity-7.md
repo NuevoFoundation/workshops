@@ -1,7 +1,7 @@
 ---
 title: "Data Structures (Array & ArrayList)"
 description: "Introduce basic data structures in Java."
-date: 2020-07-16T00:00:00Z
+date: 2021-10-13T00:00:00Z
 weight: 8
 ---
 
@@ -9,7 +9,7 @@ weight: 8
 
 In previous exercises, we learned that variables allow us to access and store a piece data. But, what if we want to store a bunch of similiar data? Is there a good way to organize them without declaring multiple variables?
 
-In programming, <b>data structures</b> are structures that allowed coders to store multiple pieces of data of the same type. Using data structures is an efficient way to store and access large pieces of data. In this exercise, we will learn about 2 data structures used in Java: <b>array</b> and <b>ArrayList</b>.
+In programming, <b>data structures</b> are elements that allow coders to store multiple pieces of data of the same type. Using data structures is an efficient way to store and access large pieces of data. In this exercise, we will learn about 2 data structures used in Java: <b>array</b> and <b>ArrayList</b>.
 
 While array is a fixed length data structure, ArrayList is a variable lengthed where you can change the size of the data structure. Let's start by looking at arrays!
 
@@ -89,7 +89,7 @@ Birds Of Prey, The Birds, Angry Birds, Bird Box, The Secret Life of Pets
 
 ### 2. ArrayList
 
-ArrayList is another popular data structure in Java. `ArrayList` is a class that was implemented using arrays. It is similiar to an array that user access, store, and modify data by an index.
+ArrayList is another popular data structure in Java. `ArrayList` is a class that was implemented using arrays. It is similiar to an array in that users access, store, and modify data by an index.
 
 You create an ArrayList by specifying a name and the type between `<` and `>`. 
 For example:
