@@ -37,7 +37,7 @@ The following are the arithmetic operators in Java:
 `/` | division | 9 / 3 = 3
 `%` | modulus/remainder | 10 % 4 = 2
 
-**Note**: If your variable is an integre, `10 / 4` returns 2, not 2.5 since we throw away the remainder.
+**Note**: If both of the operands of division are integers, the result will also be an integer. For example, `10 / 4` returns 2, not 2.5 since we throw away the remainder. If either of the operands is a double, the result will be a double.
 
 **Note**: Modulus operation get the remainder of the division operation.
 {{% /notice %}}
@@ -47,6 +47,11 @@ Add (`+`) is used on String as concatenation operator. For example:
 
 `String name = "Patric" + "k";` is same as `String name = "Patrick";`
 {{% /notice %}}
+
+### Instructions
+1. Use the program below to practice using the arithmetic operators. Change the numbers to see the answers.
+
+<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsOperatorsPractice?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### 2. Comparisons: Relational Operator
 
@@ -83,6 +88,12 @@ age = 3;  // sets the value of age to 3
 age == 3; // checks to see if the value of age is 3
 ```
 {{% /notice %}}
+
+### Comparison Practice
+
+1. Use the program below to practice using the comparison operators. Change the numbers to see the answers.
+
+<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsComparisonPractice?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### 3. Exam Statistics!
 
