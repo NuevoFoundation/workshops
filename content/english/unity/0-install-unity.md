@@ -7,6 +7,17 @@ weight: 1
 
 We need to help Nuvi shoot the aliens, but programming everything from scratch might be a bit too hard for us. Unity is a tool that has some basic parts of game-building simplified for us, so all we need to do is drag and drop some things, and write a bit of simple C# code.
 
+{{< notice info >}}
+#### Why use Unity
+
+...when there are other tools out there?
+
+Well, Unity has some great aspects, especially if you're just starting your game development journey. It's cross-platform (meaning you can develop a game for, say, both computers and phones); its coding is beginner-friendly; and above all, it has a large, supportive community.
+
+Some games developed in Unity include: *Subway Surfers*, *Hearthstone*, *Cytus*, *Pokemon Go*, *Overcooked*, *Cuphead*, *Hollow Knight*, *Among Us*, and *Genshin Impact*.
+Just from this short list, you can notice that there are both indie titles and AAA titles, and there are games for a variety of platforms. Whether you want to develop in a big company or develop on your own, it's a good idea to have some experience with Unity!
+{{< /notice >}}
+
 So, before we can do anything, you need to download and install Unity!
 Even if you already have Unity installed, look through this activity to make sure you have the right version of Unity.
 
