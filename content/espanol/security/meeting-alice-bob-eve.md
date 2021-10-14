@@ -12,7 +12,7 @@ le gustaría mantenerlo a salvo. Tiene el secreto guardado en un lugar seguro. S
 **Bob** tiene la `clave` de la cerradura para asegurarse de que nadie más que él pueda 
 llegar a su secreto.
 
-![Cannot load image](../img/Eva.png?height=250px)
+![Cannot load image](../img/Eve.png?height=250px)
 
 Conoce a nuestra no tan buena amiga **Eva**. **Eva** quiere acceder al secreto de **Bob**.
 
@@ -26,7 +26,7 @@ cerradura. Decide intentarlo y *¡violà!* **Eva** pudo abrir la cerradura de **
 
 ¡Esto no es bueno para **Bob**! Quiere saber qué podría haber hecho diferente para que **Eva** no pudiera superar su cerradura tan fácilmente, pero no tiene ni idea como empezar.
 
-![Cannot load image](../img/Alicia.png?height=250px)
+![Cannot load image](../img/Alice.png?height=250px)
 
 Afortunadamente para **Bob**, su buena amiga, agente secreta **Alicia**, llega para ayudarle con su
 situación. Veamos qué tiene que decir **Alicia**...

@@ -26,4 +26,4 @@ weight: 3
 
 ### ¡Voilà, esa es su nueva contraseña! ¿No parece difícil de romper?
 
-{{< button href="/security/4-spy-game/" theme="success" >}} ¡Éxito! {{< /button >}}
+{{< button href="/es/security/spy-game/" theme="success" >}} ¡Éxito! {{< /button >}}
