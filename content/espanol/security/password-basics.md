@@ -8,11 +8,12 @@ weight: 2
 
 ## ¿Qué es una Contraseña?
 
-Contraseñas son la clave para la cerradura de su mundo virtual. Al igual que su secreto se mantiene a salvo en un lugar seguro usando una llave y un candado, su información personal en Internet está
+Las contraseñas son la clave para la cerradura de su mundo virtual. Al igual que su secreto se mantiene
+a salvo en un lugar seguro usando una llave y un candado, su información personal en Internet está
 protegida por su contraseña y nombre de usuario.
 
 El lugar seguro solamente es tan seguro como la llave para el candado de la puerta. Necesitamos
-contraseñas más seguras para proteger nuesta identidad y informacion en linea de personas malas
+contraseñas más seguras para proteger nuestra identidad e informacion en linea de personas malas
 conocidas como **Hackers**.
 
 ## ¿Qué Salió Mal?
