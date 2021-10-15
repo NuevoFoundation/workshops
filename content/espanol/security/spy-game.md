@@ -6,7 +6,7 @@ weight: 4
 
 De nuestra última actividad aprendimos que una contraseña segura es una combinación de caracteres aleatorios (posiblemente con letras mayúsculas y minúsculas), números y caracteres especiales. ¡Ahora es el momento de jugar Hacked o Seguro! 
 
-De una lista de contraseñas utilizadas por nuestro `Nuvi`, seleccione la contraseña más segura que no pueda ser hacked (o rompida) por **Eva**.
+De una lista de contraseñas utilizadas por nuestro `Nuvi`, seleccione la contraseña más segura que no pueda ser hacked (o rota) por **Eva**.
 
 ![Cannot load image](../img/pwd1.png?height=450px&classes=border,shadow)
 <fieldset>  
