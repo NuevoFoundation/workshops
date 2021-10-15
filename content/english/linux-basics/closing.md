@@ -7,7 +7,9 @@ weight: 15
 
 ### Congratulations!
 
-*You have helped us thwart the hackers evil shenanigans by learning several Linux commands and how to use them. Thanks so much for helping SHH! But don't forget this is all Top Secret!*
+*You have helped us thwart the hackers evil shenanigans by learning several Linux commands and how to use them. Thanks so much for helping SHH!* 
+
+*But don't forget this is all Top Secret!*
 
 <!--![nuvi picture](../images/nuvi.PNG?classes=border,shadow) -->
 <img src="../images/nuvi.PNG?classes=border,shadow" width="380" height="380" />

@@ -1,15 +1,19 @@
 ---
 title: "Using Virtual Machines Part 2"
-description: "Continuing the introductory guide to using virtual machines."
+description: "Continuing the introductory guide to using virtual machines"
 date: 2020-09-17
-prereq: "Completed Virtual Box set up and imported the Nuevo Linux Basics Virtual Machine."
 difficulty: "Intermediate"
 weight: 2
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ffcyyJXEhwY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 *Good work on getting the host environment ready! Now let's load the image of the hacked computer as a vm.*
 
-## What is an image
+{{% notice info %}}
+## What is an image?
+`Images` come in a variety of types. We have photographs, which are images. The images in computers are very similar.
+Both are copies of things from a single point in time.
 
 `Images` come in a variety of types. We have photographs, which are images. The images in computers are similar. Both are copies from a single point in time. This means what we will be working with is a copy of the computer that has been acting weird. Don't worry though, this won't hurt your computer!
 
@@ -17,13 +21,13 @@ weight: 2
 
 ### Downloading the image
 
-**Images** files make it easy to send exact copies of computers.  
+**Image** files make it easy to send exact copies of computers.  
 VirtualBox uses the .ova for their machine images.
 
 Let's download our copy of the computer! Click the link below to download.  
 Most images are big (~8GB), but ours is only ~3GB. The download still might take a few minutes.
 
-<a class="my-2 mx-4 btn btn-info" href="https://nuevofoundation-my.sharepoint.com/:u:/r/personal/beatris_mendezgandica_nuevofoundation_org/Documents/Linux-Workshop/nuevo-linux-basics.ova?csf=1&web=1&e=5sekOO">
+<a class="my-2 mx-4 btn btn-info" href="https://nuevofoundation-my.sharepoint.com/:f:/g/personal/beatris_mendezgandica_nuevofoundation_org/EqwR5wQyp9xEpYoP524regQB6rnwgyJBMULhuGIzyMj_4w?e=yg6rFv" target="_blank">
 Download link
 </a>
 
