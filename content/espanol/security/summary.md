@@ -18,4 +18,4 @@ Una contraseña segura es difícil de adivinar, pero debería ser fácil de reco
 
 ## Solución
 
-En el juego de espías, las contraseñas "Ilovemypet" y "12345678" son débiles y pueden ser rompidas fácilmente por una persona malintencionada.
+En el juego de espías, las contraseñas "Ilovemypet" y "12345678" son débiles y pueden ser rotas fácilmente por una persona malintencionada.
