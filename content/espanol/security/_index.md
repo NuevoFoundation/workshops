@@ -1,6 +1,6 @@
 ---
 title: "Juego de Espías"
-description: "¡Una guía introductoria para aprender sobre contraseñas y cómo crear una segura!"
+description: "¡Guía introductoria para aprender sobre contraseñas y cómo crear una segura!"
 date: 2020-02-217T11:45:38-07:00
 prereq: "Ninguno"
 difficulty: "Principiante"
