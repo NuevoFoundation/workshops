@@ -67,7 +67,7 @@ public class StartButton : MonoBehaviour
 
 This code makes whatever GameObject that is assigned to pop_up_box disappear when the function `popDown()` is called. Save, then drag and drop this script from the Scripts folder into the StartButton inspector. Then drag the Menu from the hierarchy into the empty "Pop_up_box" under the "Start Button (Script)".
 Finally, under "Button" in the StartButton inspector, click on the "+" sign in the "On Click()" box. Drag the "StartButton" from the hierarchy to the box that says "None (Object)".
-Then, pull down the "No Function" bar and hover over "StartButton". Locate the "popDown()" function and select it.
+Then, pull down the "No Function" bar and hover over "StartButton". Locate the `popDown()` function and select it.
 
 <img src="../img/11_popDown.png" alt="drawing" width="600"/>
 
