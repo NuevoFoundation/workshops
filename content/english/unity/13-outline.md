@@ -93,7 +93,7 @@ If we were to try running the game now, it won't let us. One reason is that we u
 
 Next, we want to store the spawn positions we made. What do you think is the best data structure to store these spawn points? If you thought arrays, you are correct! Add the line `public Transform[] positions;` right above `private Transform location;`. This will allow us to store all the spawn points without having to create four individual variables.
 
-One problem we ran into was the end screen appearing despite it being the start of the game. If you took notice of the past two scripts for the Menu and End screen, you may have an idea on how to fix this. Similar to how we set the Menu screen to false, we need to set the End screen to false. To do this, add `winner_screen.SetActive(false);` inside the Start() method.
+One problem we ran into was the end screen appearing despite it being the start of the game. If you took notice of the past two scripts for the Menu and End screen, you may have an idea on how to fix this. Similar to how we set the Menu screen to false, we need to set the End screen to false. To do this, add `winner_screen.SetActive(false);` inside the `Start()` method.
 
 The final addition we need to make in order for the script to work is in the `generate()` function. Inside the for loop, we need to find a way to grab the number that the player chose from the slider within the Menu screen. Since we will be referring to the slider as num_of_enemies, we simply need to add `num_of_enemies.value` right after the `<` and before the `;` in the for loop.
 
