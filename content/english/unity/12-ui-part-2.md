@@ -39,4 +39,4 @@ public class RestartScene : MonoBehaviour
 To reload everything, we use Scenes; but to do so, you need to have `using UnityEngine.SceneManagement;` declared under the usual 3 lines.
 {{< /notice >}}
 
-Drag and drop this script from the Scripts folder into the ReplayButton inspector. In the OnClick() box, click on the "+" and like you did for the StartButton, drag the ReplayButton object into the box saying "None (Object)". Then, find and select the restart() function from the RestartScene script.
+Drag and drop this script from the Scripts folder into the ReplayButton inspector. In the `OnClick()` box, click on the "+" and like you did for the StartButton, drag the ReplayButton object into the box saying "None (Object)". Then, find and select the `restart()` function from the RestartScene script.
