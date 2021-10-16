@@ -26,7 +26,7 @@ public class EmptyScript : MonoBehaviour
 }
 ```
 
-Each new script will have the first 3 lines that start with "using…". These lines are needed for Unity to be able to use this newly created script, so we generally leave these lines of code alone. The next line that starts with "public class 'script_name'" is needed for Unity to access this specific script.
+Each new script will have the first 3 lines that start with `using`. These lines are needed for Unity to be able to use this newly created script, so we generally leave these lines of code alone. The next line that starts with `public class 'script_name'` is needed for Unity to access this specific script.
 
 {{< notice note >}}
 Make sure the name of the script matches the 'script_name'! If you decide to change the name of the script outside the script, it does not update the line of code containing the script name, so make sure to go back in and update it or the game won't run!
