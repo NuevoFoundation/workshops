@@ -8,7 +8,7 @@ weight: 2
 Before you start working on our game, take some time to look at Unity's interface and familiarize yourself with the windows.
 You can move these windows around to customize your workspace layout. If you get stuck in a weird layout, you can always go back to the default layout by doing: Windows -> Layouts -> Default.
 
-![Cannot find image](../img/1_empty_proj_all_windows.png)
+![Overview of windows in Unity's interface](../img/1_empty_proj_all_windows.png)
 
 #### Game
 
@@ -38,7 +38,7 @@ This window shows EVERYTHING you have to make the game, including things you hav
 This window will show output from the game. You can ignore it for now, but it'll be important once you start fixing errors in your game.
 
 One last important thing... find the Play button at the very top of the Unity interface. It should look like this:
-![Cannot find image](../img/1_play.png)
+![Play button](../img/1_play.png)
 This is what you're going to use to play, or "run", your game as you make it. Note that any changes you make to your game while you run will NOT be saved. If you find that you need to make any changes, click on the Play button again to stop playing your game.
 
 That's all you need to know for now! It may look scary, but you'll start to get a better understanding once you start working on your game. The most important thing is that you go in and start working!

@@ -9,7 +9,7 @@ Now that we know what a Script looks like, let's actually make one.
 
 First, we want to create a new folder called "Scripts" in Assets under the Project window, similar to the Drawings folder. We will do this because it is better practice to have all the scripts in an easy to access place. Double click the Scripts folder and create a script by right clicking and selecting "C# Script." You can also go under the "Assets" tab and choose "Create -> C# Script" as shown below.
 
-![Cannot find image](../img/4_CreateScript.png)
+![Creating a C# Script](../img/4_CreateScript.png)
 
 Name this script "PlayerMovement" and drag and drop this script into the Nuvi Inspector window. We can also search for the script name in the Nuvi Inspector like we did for the Rigidbody2D component.
 
@@ -67,7 +67,7 @@ Take a moment to observe how Nuvi moves horizontally/vertically compared to diag
 
 Recall Pythagorean's Theorem, a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>. When Nuvi moves diagonally, the horizontal and vertical movements are being merged together. This happens in `movement = new Vector3(move_x, move_y, 0.0f)`.
 
-<img src="../img/4_pythagorean_theorem.png" alt="drawing" width="600"/>
+<img src="../img/4_pythagorean_theorem.png" alt="Player movement using Pythagorean Theorem" width="600"/>
 
 Our game receives "1" as horizontal input when horizontal keys are pressed, and "1" as vertical input when vertical keys are pressed. But when they're pressed at the same time, our game uses the Pythagorean Theorem to figure out Nuvi's diagonal movement, c.
 

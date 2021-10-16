@@ -42,7 +42,7 @@ If your version of Unity is not 2019.4, then open up the Unity hub and to the le
 
 Now, to start working on a new project, open Unity Hub and click on the blue button that says "NEW". Name your project however you like, and choose a place to create your project folder. Make sure you have "2D" chosen as your project template, as shown in the screenshot.
 
-![Cannot find image](../img/0_new_project_edited.png)
+![Creating a new 2D Unity project](../img/0_new_project_edited.png)
 
 {{< notice note >}}
 For this workshop, we used the version "2019.4.19f1"; however, by the time you're reading this, there may be a more updated version. We will use version "2019.4.10f1" in this workshop (including for screenshots). If you choose to go down the path of game developing in Unity, then don't forget to check out the latest versions! (However, beware that there may be minor changes in the user interface in later versions.)

@@ -11,7 +11,7 @@ Now, let's stop and think about how we want our bullet to work. A bullet is goin
 
 We do that by making this bullet a trigger. Go into the BoxCollider2D component within the bullet inspector you added, and check the "IsTrigger" box. A trigger will let you know that it touched something, so in your script you can check to see if that interaction happened, then make that custom disappearing behavior occur.
 
-<img src="../img/9_isTrigger.png" alt="drawing" width="400"/>
+<img src="../img/9_isTrigger.png" alt="Check IsTrigger box" width="400"/>
 
 Note that because this bullet is a trigger, it's not going to work by physics anymore. Unless you add a script to make it disappear, it's going to pass through objects, including the invisible walls you added earlier.
 

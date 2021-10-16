@@ -11,8 +11,8 @@ To fix this, we will have a script that will dictate how the game should go. Und
 Before we add anything into the "Outline" script, let's first set a few things up. If we were to run the game now, we can still move Nuvi and shoot the pink enemies despite the UI popping up. Let's fix that by setting up spawn points.
 "Create Empty" in the hierarchy window and rename it to "SpawnPoints". Then, Create four more Transforms under "SpawnPoints" and rename them "EnemyLoc1", "EnemyLoc2", "EnemyLoc3", and "PlayerLoc". Reposition them using the Move tool so that they are right on the enemies and players like so:
 
-<img src="../img/13_enemyspawn.png" alt="drawing" width="400"/>
-<img src="../img/13_playerspawn.png" alt="drawing" width="400"/>
+<img src="../img/13_enemyspawn.png" alt="Reposition spawn point for enemy" width="400"/>
+<img src="../img/13_playerspawn.png" alt="Reposition spawn point for Nuvi" width="400"/>
 
 {{< notice tip >}}
 Make sure that the Transforms are on the same Z axis as Nuvi. Otherwise, they might not appear!

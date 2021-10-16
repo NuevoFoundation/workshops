@@ -15,7 +15,7 @@ To be able to see where our empty object is, make sure we are on the Move tool! 
 
 This Transform component will represent where the bullet is going to spawn from. Using the Move tool, let's align the Transform so that it is in front of Nuvi's protruding belly. Rotate the Transform using the Rotate tool to create an image similar to the one below:
 
-<img src="../img/7_bulletSpawn.png" alt="drawing" width="400"/>
+<img src="../img/7_bulletSpawn.png" alt="Reposition and rotate bullet spawn Transform so it is in front of Nuvi" width="400"/>
 
 Now, in the Assets folder within the Project window, locate the "bullet.png" from the Drawings folder. Drag and drop the bullet into the hierarchy. Resize the bullet so it is smaller than Nuvi. Make sure to add a BoxCollider2D and a RigidBody2D with the gravity scale set to 0.
 
