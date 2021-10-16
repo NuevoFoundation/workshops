@@ -45,5 +45,5 @@ Now, to start working on a new project, open Unity Hub and click on the blue but
 ![Cannot find image](../img/0_new_project_edited.png)
 
 {{< notice note >}}
-For this workshop, we used the version "2019.4.19f1"; however, by the time you're reading this, there may be a more updated version. Use "2019.4.10f1" to follow along with this workshop. If you choose to go down the path of game developing in Unity, then don't forget to check out the latest versions!
+For this workshop, we used the version "2019.4.19f1"; however, by the time you're reading this, there may be a more updated version. We will use version "2019.4.10f1" in this workshop (including for screenshots). If you choose to go down the path of game developing in Unity, then don't forget to check out the latest versions! (However, beware that there may be minor changes in the user interface in later versions.)
 {{< /notice >}}
