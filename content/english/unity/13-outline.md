@@ -112,7 +112,7 @@ Next, we need a way to know when the enemies are killed, so that we can have the
   }
 ```
 
-The first line in the Start() method sets the variable "cam" as the "Main Camera" GameObject. The second line grabs the Outline script from "cam" and sets that to the variable "outline". Next, add `outline.enemies_left--;` under `Destroy(gameObject);`. This will subtract 1 from the "enemies_left" variable in the "Outline" script.
+The first line in the `Start()` method sets the variable "cam" as the "Main Camera" GameObject. The second line grabs the Outline script from "cam" and sets that to the variable "outline". Next, add `outline.enemies_left--;` under `Destroy(gameObject);`. This will subtract 1 from the "enemies_left" variable in the "Outline" script.
 
 Finally, all we need to do is remove all the enemies and Nuvi from the Scene window. This is because we want them to spawn only when we press the start button. Right click on them in the hierarchy and select delete.
 
