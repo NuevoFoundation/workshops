@@ -58,7 +58,7 @@ Input Number: 2                          <------- Print statement printed the in
 ```
 
 {{% notice warning %}}
-#### What happens when user type something that's not a number?
+#### What happens when user types something that's not a number?
 
 When writing programs, we can never expect users to type in the correct values even when it's spelled out in the prompt.
 
