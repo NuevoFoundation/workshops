@@ -55,7 +55,7 @@ In this game, note that we will have to track the symbol currently in each of th
 
    As stated in the rules, on the game board, `"X"` is the player's move, `"O"` is a computer move, and `" "` is an available spot.
 
-   Do do this, let's declare an array `variable` called `board` with the value `" "` String in all 9 positions (i.e `{" ", " ", " ", " ", " ", " ", " ", " ", " "}`).
+   To do this, let's declare an array `variable` called `board` with the value `" "` String in all 9 positions (i.e `{" ", " ", " ", " ", " ", " ", " ", " ", " "}`).
 
 ## Displaying the board
 
