@@ -7,7 +7,7 @@ draft: false
 
 ## Tic Tac Toe Summary
 
-<img src="../images/code.png" height="500" alt="Tic Tac Toe: Your Java Project. void main(String args[]) that reads in player inputs, process inputs, and prompt each round of the game or print the winner of the game. voic printBoard(String[] curBoard) is a method to print the game board. int getComputerMove(String[] curBoard) randomly returns an available move for the computer. String getWinner(String[] curBoard) returns the winner of the game/TIE or '' if the game should continue." /> 
+<img src="../images/code.png" height="500" alt="Tic Tac Toe: Your Java Project. void main(String args[]) that reads in player inputs, process inputs, and prompt each round of the game or print the winner of the game. void printBoard(String[] curBoard) is a method to print the game board. int getComputerMove(String[] curBoard) randomly returns an available move for the computer. String getWinner(String[] curBoard) returns the winner of the game/TIE or '' if the game should continue." /> 
 
 ## Using Repl.it
 
