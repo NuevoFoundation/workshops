@@ -48,7 +48,7 @@ if(boolean expression){
 }
 ```
 
-An **if-else statement** follows the structure shown above. If the boolean expression is `true`, the program will execute the `Action(s) to Take A` within the if block. Otherwise, the program executes only `Action(s) to Take B` within the else-block.
+An **if-else statement** follows the structure shown above. If the boolean expression is `true`, the program will execute the `Action(s) to Take A` within the `if` block. Otherwise, the program executes only `Action(s) to Take B` within the `else`-block.
 
 #### Example
 
