@@ -26,7 +26,7 @@ However, we also know Patrick 🐥 should only decide to say one of these statem
 
 In other words, we need to write code that makes a decision on what to print based on the conditions of the situation (conditionally).
 
-In Java, we make a decision by using **if statement** or **if...else statement**. Read the notes below:
+In Java, we make a decision by using an **if statement** or an **if...else statement**. Read the notes below:
 
 {{% notice note %}}
 ### If Statement
@@ -37,8 +37,8 @@ if(boolean expression){
 }
 ```
 
-An **if statement** follows the structure shown above. The actions to take (statements) in the block will only be executed if the boolean expression is `true`. Otherwise, the program will skip to the statement after the block if the Boolean expression is false.
-### If-Else Statement
+An **if statement** follows the structure shown above. The actions to take (statements) in the block will only be executed if the boolean expression is `true`. Otherwise, the program will skip to the statement after the block if the Boolean expression is `false`.
+#### If-Else Statement
 
 ```
 if(boolean expression){
@@ -83,7 +83,7 @@ The teacher asks them to find the **sum of 1, 2, 3, ...., 100**. That is what is
 While we can plug this into a calculator, that is gonna take a while. Thankfully, in Java, you can easily calculate this in 3 lines with the help of a **for loop** or **while loop**.
 
 {{% notice note %}}
-**For loop** and **While loop** are control structures in Java that allow you to execute blocks of code multiples times.
+**For loops** and **While loops** are control structures in Java that allow you to execute blocks of code multiples times.
 
 ### While Loop
 
@@ -107,7 +107,7 @@ while(number <= 10){
 
 In the while loop above, the program will print out the value of `number` and increment `number`. This step will be performed as long as `number <= 10`, and in this case the loop terminates when `number` is 11.
 
-**Note:** For While loops, you must remember to increment the conditional variable, otherwise you will introduce an infinite loop into your program.
+**Note:** For `while` loops, you must remember to increment the conditional variable, otherwise you will introduce an infinite loop into your program.
 
 ### For Loop
 
