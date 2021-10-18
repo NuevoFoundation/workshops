@@ -107,7 +107,7 @@ while(number <= 10){
 
 In the while loop above, the program will print out the value of `number` and increment `number`. This step will be performed as long as `number <= 10`, and in this case the loop terminates when `number` is 11.
 
-**Note:** For While loops, you must remember to increment the conditional variable, otherwise you will introduce an infinite loop into your program.
+**Note:** For `while` loops, you must remember to increment the conditional variable, otherwise you will introduce an infinite loop into your program.
 
 #### For Loop
 
