@@ -19,7 +19,7 @@ Welcome to the course <b>Java: Basics</b>, where you will learn a widely-used hi
 Java is a high-level programming language developed by James Gosling and Sun Microsystems in California in 1995. 
 
 {{% notice info %}}
-A high-level programming language is a programming language with strong abstraction from the details of the computer. In contrast to low-level programming languages, it may use natural language elements, be easier to use, or may automate (or evenhide entirely) significant areas of computing systems (e.g. memory management), making the process of developming a program simpler and more understandable than when using a lower-level language.
+A high-level programming language is called high-level because it is quite a few steps away from the original code run on a computer's Central Processing Unit (CPU). High-level code is meant to be used by humans and is much easier to understand than low-level code. The high-level code is later translated into a low-level language, which can only be perceived and run by a specific CPU. For the code to work, every single line of code written in a high-level language must be translated into machine language before being implemented by the computer.
 {{% /notice %}}
 
 Today, Java is used by developers all over the world. Specifically, Java is used for Android mobile apps, desktop applications, web applications, game development 

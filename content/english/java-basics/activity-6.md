@@ -7,14 +7,14 @@ weight: 7
 
 <p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/ejXgw0qchDg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-### 1. What is an Object and a Class
+## What is an Object and a Class
 An object is an thing (noun) that has certain characteristics and can perform certain tasks. A Class is the blueprint or definition for that object.
 
 An example is a Person. A Person is Class. A person can have certain characteristics that distinguish it from another person. It can have blue eyes, it can be 30 years old, etc. A person can also perform certain tasks. It can walk, it can talk, etc. 
 
 A Java Object is an instance of a Java Class. In this instance "Bea" is a "Person". "Bea" has brown eyes. This is a property (or data field) of "Bea". "Bea" can speak in English. "Bea" can speak in Spanish. These are methods that "Bea" can perform.
 
-### 1. Creating a Class!
+## Creating a Class!
 Java is an <b>object-oriented</b> programming language, which means everything in Java is associated with an <b>object</b> and a <b>class</b> (the blueprint for the object).
 
 For starters, the line of code that we used to print statements from activity 1 is actually a method call from a predefined class called `System`!
@@ -44,7 +44,7 @@ String name = "Patrick";
 Let's learn about the different parts in a class below:
 
 {{% notice note %}}
-#### Class
+### Class
 A class is a blueprint or prototype of a new type of object. In general, a class contains three important parts: (1) data fields/instance variables (2) constructor (3) methods.
 
 <img src="../images/class.png" height="400" alt="A Class blueprint for an object contains instance varialbes/data fields which are data/attributes in the object, constructor which are methods that creates the obejct of the class, and methods, which are behaviors possible for the object."/> 
@@ -73,14 +73,14 @@ public class SampleClass{
 
 {{% /notice %}}
 
-### 2. Try it Out 🐥!
+## Try it Out 🐥!
 
 Let's make a `Bird` class to represent Patrick 🐥 and all of his Bird friends by following the steps below! 
 **Note:** For this exercise, you will be working in Bird.java instead of Main.java.
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsBird?lite=true#Bird.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-#### First, we start by defining the class name in the format `public` `class` `name`.
+### First, we start by defining the class name in the format `public` `class` `name`.
 
 ```java
 public class Bird{}
@@ -88,7 +88,7 @@ public class Bird{}
 
 <br />
 
-####  Second, let's declare all the fields of the Bird class: species, name, hobby, age, loveMusic.
+###  Second, let's declare all the fields of the Bird class: species, name, hobby, age, loveMusic.
 
 Each field is declared in the format: `private` `data type` `name` `;`.
 
@@ -108,7 +108,7 @@ For example, to declare `species` as a private field of class `Bird`, you would 
 
 <br />
 
-#### Third, let's create the constructor for the class `Bird`. 
+### Third, let's create the constructor for the class `Bird`. 
 
 Usually, constructor is the method that initialializes value to all the fields in a class. It has the format `public` `class name` `(parameter)`. Since we have 5 fields in this class, the constructor will take in 5 parameter/inputs.
 
@@ -130,7 +130,7 @@ loveMusic = loveMusicinput;
 
 <br />
 
-#### Lastly, let's create some methods for the class `Bird`.
+### Lastly, let's create some methods for the class `Bird`.
 
 We are gonna create 6 methods for this class!
 -  getSpecies();   // return species of the bird
@@ -184,7 +184,7 @@ If there is still something incomplete or incorrect when you click `Run`:
 - Or, you will see the message, `Something is still not quite right!`.
 {{% /notice %}}
 
-### 3. Creating Birds 🐥!
+## Creating Birds 🐥!
 
 Congratulations! You just wrote you first Java class `Bird` class. Now let's learn to write a program that uses `Bird` objects!
 

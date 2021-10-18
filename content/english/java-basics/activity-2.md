@@ -7,7 +7,7 @@ weight: 3
 
 <p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/KE0fNb-hTKE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-### 1. Variables: Name It!
+## Variables: Name It!
 
 In the last exercise, we learned to print different statements with `System.out.print()`.
 
@@ -19,7 +19,7 @@ For example, there can be a variable called `myName` that stored `"Patrick"`, an
 
 <img src="../images/variable.png" height="200" alt="3 boxes. The first box has white text outside, myName, and white text inside, 'Patrick'. The second box has white text outside, loveMusic, and white text inside, true. The third box has white text outside, age, and white text inside, 3." / > 
 
-### 2. What the Type!
+## What the Type!
 
 So how do we create these boxes or variables in Java to store data?
 
@@ -37,7 +37,7 @@ In general, to declare a variable we write them in the format: `[data type] [var
 {{% notice note %}}
 The following are the important data types that have been built-in in Java:
 
-**Type** | **Description** | **Example**
+**Type** | **Description** | **Examples**
 --------|-----------|----------
 int| integer| 20, 30, 35
 char | character such as a symbol or a single alphabet letter | A, b, (, ]
@@ -59,7 +59,7 @@ int age = 10;
 boolean loveMusic = true;
 ```
 
-### 3. What the Type -- Help Patrick!
+## What the Type -- Help Patrick!
 
 Patrick 🐥 isn't a master of data types! He often mixed them up when declaring variables. Let's help him fix his mistake:
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsDataType?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
@@ -76,7 +76,7 @@ System.out.println(age); // prints out 11
 
 {{% /notice %}}
 
-### 4. What the Type -- Track Numbers!
+## What the Type -- Track Numbers!
 
 Now consider the following code. What do you think the output is? Track the values of each variable by yourself then test it out below!
 

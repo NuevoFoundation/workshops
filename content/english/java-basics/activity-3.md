@@ -7,7 +7,7 @@ weight: 4
 
 <p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/wP8-F1nBPcg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-### 1. Let's do Math: Arithmetic Operator
+## Let's do Math: Arithmetic Operator
 
 In the last exercise, we learned about variables and how we can assign values to a variable of a specific type, such as:
 
@@ -53,7 +53,7 @@ Add (`+`) is used on String as concatenation operator. For example:
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsOperatorsPractice?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-### 2. Comparisons: Relational Operator
+## Comparisons: Relational Operator
 
 Next, let's learn how to compare numbers. Let me introduce the **relational operators**.
 
@@ -95,7 +95,7 @@ age == 3; // checks to see if the value of age is 3
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsComparisonPractice?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-### 3. Exam Statistics!
+## Exam Statistics!
 
 Patrick 🐥 and 4 of his classmates just had a music exam in this class. These are the grades of their exams: Patrick(88), Tom(89), Mary(95), Chris(84), Jen(92).
 
@@ -124,7 +124,7 @@ Let's write it with the help of operators 🎵!
 
 {{% notice note %}}
 
-#### Instructions:
+### Instructions:
 
 1. Identify all the variables in the print statements and declare them starting on line 12 with the correct data type and value. Note that there are 10 variables in total, and `average` has been declared for you).
 

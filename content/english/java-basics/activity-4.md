@@ -7,7 +7,7 @@ weight: 5
 
 <p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/X8HzOuCel9A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-### 1. Make a Decision: If-Statement
+## Make a Decision: If-Statement
 
 Patrick 🐥 is a very polite duck who likes to greet everyone he meets with "Good Morning," "Good Afternoon," or "Good Night" depending on the current time.
 
@@ -29,7 +29,7 @@ In other words, we need to write code that makes a decision on what to print bas
 In Java, we make a decision by using **if statement** or **if...else statement**. Read the notes below:
 
 {{% notice note %}}
-#### If Statement
+### If Statement
 
 ```
 if(boolean expression){
@@ -38,7 +38,7 @@ if(boolean expression){
 ```
 
 An **if statement** follows the structure shown above. The actions to take (statements) in the block will only be executed if the boolean expression is `true`. Otherwise, the program will skip to the statement after the block if the Boolean expression is false.
-#### If-Else Statement
+### If-Else Statement
 
 ```
 if(boolean expression){
@@ -48,9 +48,9 @@ if(boolean expression){
 }
 ```
 
-An **if-else statement** follows the structure shown above. If the boolean expression is `true`, the program will execute the `Action(s) to Take A` within the if block. Otherwise, the program executes only `Action(s) to Take B` within the else-block.
+An **if-else statement** follows the structure shown above. If the boolean expression is `true`, the program will execute the `Action(s) to Take A` within the `if` block. Otherwise, the program executes only `Action(s) to Take B` within the `else`-block.
 
-#### Example
+### Example
 
 ```java
 boolean likeMusic = true;
@@ -74,7 +74,7 @@ Patrick should say "Good Morning" between 0:00 - 11:59, "Good Afternoon" between
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsIfStatement?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-### 2. Repeat It Again: For-Loop, While-Loop
+## Repeat It Again: For-Loop, While-Loop
 
 In math class, Patrick's 🐥 teacher ask the class to solve a math challenge, and he might need some help. 
 
@@ -85,7 +85,7 @@ While we can plug this into a calculator, that is gonna take a while. Thankfully
 {{% notice note %}}
 **For loop** and **While loop** are control structures in Java that allow you to execute blocks of code multiples times.
 
-#### While Loop
+### While Loop
 
 ```
 while(boolean expression){
@@ -93,7 +93,7 @@ while(boolean expression){
 }
 ```
 
-`Action(s) to Take` in the while block will be executed as long as the `boolean expression` is true. 
+`Action(s) to Take` in the while block will be executed as long as the `boolean expression` is `true`. 
 
 The following is an example that prints out 1 through 10:
 
@@ -109,7 +109,7 @@ In the while loop above, the program will print out the value of `number` and in
 
 **Note:** For While loops, you must remember to increment the conditional variable, otherwise you will introduce an infinite loop into your program.
 
-#### For Loop
+### For Loop
 
 ```
 for(initialization; termination condition; update statement){
@@ -117,7 +117,7 @@ for(initialization; termination condition; update statement){
 }
 ```
 
-In a for loop, there are three parts the in condition block: `initialization`, `termination condition`, and `update statement`.
+In a `for` loop, there are three parts the in condition block: `initialization`, `termination condition`, and `update statement`.
 
 1. When executing a for loop, the program will execute the `initialization` part. An example is, `int number = 1`.
 2. Next, the program checks for `termination condition`. An example is `number <= 10`.

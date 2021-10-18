@@ -7,7 +7,7 @@ weight: 6
 
 <p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/mO6S9Yq_K4I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-### 1. What is a Method?
+## What is a Method?
 
 So far, we've learned about how to store data in variables, print data and sentences, and make decisions with if-statement, for-loop, and while-loop. 
 
@@ -33,7 +33,7 @@ In Java, a **method** is like the magic box that performs a specific task by run
 There are 2 parts in a method: header and body:
 
 {{% notice note %}}
-#### Method Header
+### Method Header
 
 To define a method, we need to first write out its <b>method header</b>. A method header has four main parts:
 
@@ -53,7 +53,7 @@ public void sing (String songName)
 
 <br />
 
-#### Method Body
+### Method Body
 
 Next, we put the block of code associated with the method in the **method body**, which is between `{` and `}` after the method header.
 
@@ -81,7 +81,7 @@ public int sumNum(int numA, int numB){
 
 <br />
 
-#### Method Call
+### Method Call
 
 Lastly, to execute a method in your code, we need to make a <b>method call</b>. We write out the method name with appropriate input. 
 For example:
@@ -97,7 +97,7 @@ int sum1to3 = sumNum(1, 3);
 ```
 {{% /notice %}}
 
-### 2. Count the Pyramid!🔺
+## Count the Pyramid!🔺
 
 <img src="../images/pyramid.png" height="250" alt="pyramid with layers of colorful beads. Bottom layer is yellow, next blue, next brown, next white, next pink, next light blue, next orange, next coral, next green, last red" /> 
 <p style="text-align: center;">(photo credit: aliexpress.com/item/32306945847.html)</p>
