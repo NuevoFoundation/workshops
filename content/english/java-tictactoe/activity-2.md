@@ -1,6 +1,6 @@
 ---
 title: "2. Read and Process Input"
-description: "read input with Scanner class and check error case"
+description: "Read input with Scanner class and check error cases"
 date: 2021-10-14T00:00:00Z
 prereq: "Set up the Board!"
 difficulty: "Intermediate"
