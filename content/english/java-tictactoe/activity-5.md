@@ -13,7 +13,7 @@ Previously, we used a `Random` object to randomly generate a move for the comput
 
 In this exercise, we want to increase the difficulty of the game by making optimal decisions for the computer.
 
-We will do so by adding artificial intelligence into our program with the use of the <b>Minimax</b> algorithm (a well-defined procedure that allows computers to solve problems).
+We will do so by adding artificial intelligence into our program with the use of the **Minimax** algorithm (a well-defined procedure that allows computers to solve problems).
 
 ### Minimax Algorithm
 
