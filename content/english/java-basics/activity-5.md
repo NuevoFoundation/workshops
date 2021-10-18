@@ -49,7 +49,7 @@ To define a method, we need to first write out its <b>method header</b>. A metho
 public void sing (String songName)
    1.    2.   3.        4.
 ```
-**Note:** The variable names for the parameters do not have to match the variable nae of the data being passed into the method.
+**Note:** The variable names for the parameters do not have to match the variable name of the data being passed into the method.
 
 <br />
 
