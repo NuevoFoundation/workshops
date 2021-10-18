@@ -55,7 +55,7 @@ Add (`+`) is used on String as concatenation operator. For example:
 
 ### 2. Comparisons: Relational Operator
 
-Next, let's learn how to compare numbers. Let me introduce the **relational operators**.
+Next, let's learn how to compare numbers, using **relational operators**.
 
 Just like in math, we can compare numbers using `>`, `<`, `>=`, `<=`. For example: `(3 > 2)` is `true`, a boolean value.
 
