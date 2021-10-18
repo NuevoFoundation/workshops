@@ -26,7 +26,7 @@ However, we also know Patrick 🐥 should only decide to say one of these statem
 
 In other words, we need to write code that makes a decision on what to print based on the conditions of the situation (conditionally).
 
-In Java, we make a decision by using **if statement** or **if...else statement**. Read the notes below:
+In Java, we make a decision by using an **if statement** or an **if...else statement**. Read the notes below:
 
 {{% notice note %}}
 #### If Statement
