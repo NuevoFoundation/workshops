@@ -7,7 +7,7 @@ weight: 7
 
 <p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/ejXgw0qchDg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-## What is an Object and a Class
+## What is an Object and a Class?
 An object is an thing (noun) that has certain characteristics and can perform certain tasks. A Class is the blueprint or definition for that object.
 
 An example is a Person. A Person is Class. A person can have certain characteristics that distinguish it from another person. It can have blue eyes, it can be 30 years old, etc. A person can also perform certain tasks. It can walk, it can talk, etc. 
