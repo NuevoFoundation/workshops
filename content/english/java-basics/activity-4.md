@@ -83,7 +83,7 @@ The teacher asks them to find the **sum of 1, 2, 3, ...., 100**. That is what is
 While we can plug this into a calculator, that is gonna take a while. Thankfully, in Java, you can easily calculate this in 3 lines with the help of a **for loop** or **while loop**.
 
 {{% notice note %}}
-**For loop** and **While loop** are control structures in Java that allow you to execute blocks of code multiples times.
+**For loops** and **While loops** are control structures in Java that allow you to execute blocks of code multiples times.
 
 #### While Loop
 
