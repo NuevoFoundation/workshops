@@ -37,7 +37,7 @@ if(boolean expression){
 }
 ```
 
-An **if statement** follows the structure shown above. The actions to take (statements) in the block will only be executed if the boolean expression is `true`. Otherwise, the program will skip to the statement after the block if the Boolean expression is false.
+An **if statement** follows the structure shown above. The actions to take (statements) in the block will only be executed if the boolean expression is `true`. Otherwise, the program will skip to the statement after the block if the Boolean expression is `false`.
 #### If-Else Statement
 
 ```
