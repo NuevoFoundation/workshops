@@ -125,7 +125,7 @@ In a `for` loop, there are three parts the in condition block: `initialization`,
     1. execute the `Action(s) to Take` 
     2. execute the `update statement` (an example is `number = number + 1`) 
 4. Repeat step 2 and 3.
-5. If the `termination condition` is `false`, exit the for loop.
+5. If the `termination condition` is `false`, exit the `for` loop.
 
 The following is an example that prints out 1 through 10:
 
