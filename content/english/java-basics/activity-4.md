@@ -93,7 +93,7 @@ while(boolean expression){
 }
 ```
 
-`Action(s) to Take` in the while block will be executed as long as the `boolean expression` is true. 
+`Action(s) to Take` in the while block will be executed as long as the `boolean expression` is `true`. 
 
 The following is an example that prints out 1 through 10:
 
