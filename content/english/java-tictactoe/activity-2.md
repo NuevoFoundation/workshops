@@ -1,6 +1,6 @@
 ---
 title: "2. Read and Process Input"
-description: "read input with Scanner class and check error case"
+description: "Read input with Scanner class and check error cases"
 date: 2021-10-14T00:00:00Z
 prereq: "Set up the Board!"
 difficulty: "Intermediate"
@@ -58,7 +58,7 @@ Input Number: 2                          <------- Print statement printed the in
 ```
 
 {{% notice warning %}}
-#### What happens when user type something that's not a number?
+#### What happens when user types something that's not a number?
 
 When writing programs, we can never expect users to type in the correct values even when it's spelled out in the prompt.
 
