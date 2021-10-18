@@ -31,11 +31,11 @@ The following are the arithmetic operators in Java:
 
 **Operator** | **Description** | **Example**
 ------|------|--------
-`+` | addition | 1 + 1 = 2
-`-` | subtraction | 2 - 1 = 1
-`*` | multiplcation | 3 * 3 = 9
-`/` | division | 9 / 3 = 3
-`%` | modulus/remainder | 10 % 4 = 2
+`+` | addition | `1 + 1 = 2`
+`-` | subtraction | `2 - 1 = 1`
+`*` | multiplication | `3 * 3 = 9`
+`/` | division | `9 / 3 = 3`
+`%` | modulus/remainder | `10 % 4 = 2`
 
 **Note**: If both of the operands of division are integers, the result will also be an integer. For example, `10 / 4` returns 2, not 2.5 since we throw away the remainder. If either of the operands is a double, the result will be a double.
 
