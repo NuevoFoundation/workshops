@@ -95,10 +95,10 @@ System.out.println("x: " + x + " y: " + y + " z: " + z );
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsVariable?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 {{% notice tip %}}
-### Explaining the example
-In lines 1-3 we declare the variables and set the intitial values for x (2.3), y (10.0), and z (4). 
-In line 4, we set x to the value of y (10.0). 
-In line 5, we set y to the value of x, which was just set to 10.0 (10.0). 
-In line 6, we set z to 0.
-In line 7, we set z to the value of z, which is 0 (0).
+#### Explaining the example
+In lines 1-3 we declare the variables and set the initial values for `x` (2.3), `y` (10.0), and `z` (4). 
+In line 4, we set `x` to the value of `y` (10.0). 
+In line 5, we set `y` to the value of `x`, which was just set to 10.0 (10.0). 
+In line 6, we set `z` to 0.
+In line 7, we set `z` to the value of `z`, which is 0 (0).
 {{% /notice %}}
