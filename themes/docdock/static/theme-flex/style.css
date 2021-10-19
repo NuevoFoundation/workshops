@@ -255,11 +255,11 @@ section strong {
   padding: 1rem 0rem;
   display: flex;
   flex-direction: row;
-  align-items: stretch;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 #navigation a {
   width: 50%;
-  flex: 1;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
