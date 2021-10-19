@@ -281,7 +281,7 @@ section strong {
   padding: 1rem 0rem;
   display: flex;
   flex-direction: row;
-  align-items: stretch;
+  align-items: flex-start;
 }
 #navigation a {
   width: 50%;
