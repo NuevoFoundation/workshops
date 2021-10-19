@@ -34,23 +34,10 @@ Primero debe ir el mensaje encriptado o a encriptar, luego un 1, si queremos enc
 
 ¡Crea tus propios mensajes secretos, o desencripta la de tus compañeros!
 
-{{< alert theme="warning" >}}**Ten cuidado**, por ahora, siempre debemos escribir los strings y caracteres en **letra minúscula**.  {{< /alert >}}
+{{< alert theme="warning" >}}**Ten cuidado**, en este programa siempre debemos escribir los strings y caracteres en **letra minúscula**.  {{< /alert >}}
 
 ¡Recuerda que siempre puedes volver a las actividades anteriores para recordar algo!
 
 
 <iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/actividad-7?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-{{% notice warning %}}
-
-### ¡AYUDA! 
-
-Si después de presionar el botón **Run**, está la palabra **error** en rojo en la pestaña **console**, es porque tienes errores en el código. Pídele ayuda al instructor para revisar tu código.
-
-Mientas tanto puedes revisar lo siguiente:
-
-1. No uses letras mayúsculas.
-2. Asegurate que las lineas que escribiste, menos las que tienen llaves `{ }`, tengan al final un punto y coma **`;`**.
-3. Recuerda que solo los strings tiene que ir entre **comillas** "".
-
-{{% /notice %}}

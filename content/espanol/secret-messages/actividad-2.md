@@ -30,7 +30,7 @@ Observemos en detalle esa instrucción:
 
 Primero debemos indicar el tipo de información que va a guardar la variable. En este caso es del tipo `int`. Luego tenemos que escribir el nombre del contenedor, en el ejemplo el nombre es `numero`. Por último, indicamos que es lo que va a guardar. Para eso escribimos el signo igual `=`, luego el contenido (`10`) y como toda instrucción en C++, termina con un punto y coma `;`
 
-Ahora, podemos usar la variable `nuemro` en el programa para hacer referencia al número que guarda esa variable, que sería el 10. Por ejemplo si queremos imprimir la variable, tenemos que usar la siguiente instrucción:
+Ahora, podemos usar la variable `numero` en el programa para hacer referencia al número que guarda esa variable, que sería el 10. Por ejemplo si queremos imprimir la variable, tenemos que usar la siguiente instrucción:
 
 ```
 cout << "El numero es: " << numero << endl;
@@ -76,7 +76,7 @@ Lo que se escribe en la consola tiene que ser guardado en una **variable**.
 
 Entonces para ingresar datos escribimos `cin`, seguidos de dos operadores mayor `>>` (los contrarios a los que se usan con cout), y luego la variable que queremos ingresar.
 
-En el ejmeplo, estamos diciendo que lo que se escriba en la consola, va a ser el contenido de la variable **nombre**.
+En el ejemplo, estamos diciendo que lo que se escriba en la consola, va a ser el contenido de la variable **nombre**.
 
 Entonces, si en la consola se escribiese: 
 ```
@@ -94,10 +94,10 @@ Vamos a empezar con nuestro programa.
 
 Pasos a seguir para esta actividad:
 
-1. Declarar una variable del tipo string
-2. Usar la instrucción `cin` para ingresar en la consola el contenido de esa variable.
-3. Imprimir en la consola "Hola " y la variable ingresada anteriormente.
-4. Apretar Run, escribir en la pestaña **console** el nombre del destinatario y presionar enter.
+1. Declara una variable del tipo string
+2. Usa la instrucción `cin` para ingresar en la consola el contenido de esa variable.
+3. Imprime en la consola "Hola " y la variable ingresada anteriormente.
+4. Apreta Run. Escribie en la pestaña **console** el nombre del destinatario y presiona enter.
 
 
 <iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/activity-2?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>

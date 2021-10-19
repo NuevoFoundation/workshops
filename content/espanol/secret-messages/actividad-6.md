@@ -71,15 +71,15 @@ La variable `numero` tiene este símbolo adelante `&`. Esto significa que si mod
 Vamos a crear 2 funciones. Una para encriptar el mensaje, y la otra para desencriptarlo.
 Para esto, vamos a usar código que ya teníamos, y programaremos algo nuevo también.
 
-1. Declará una función void, igual que la de encriptar, pero para desencriptar el nombre
+1. Declara una función void, igual que la de encriptar, pero para desencriptar el nombre.
 
 2. Copia el contenido de la función encriptar() en la nueva función.
 
-3. En la variable suma, en vez de sumar, realizar una resta del caracter del nombre y del caracter de la palabra clave, y sumar una letra 'a' (no restar) para que el caracter final sea una letra del abecedario y no cualquier caracter.
+3. En la variable suma, en vez de sumar, realiza una resta del carácter del nombre y del carácter de la palabra clave, y suma una letra 'a' (no resta) para que el carácter final sea una letra del abecedario y no cualquier carácter.
 
-4. En la condición para dar la vuelta en el abecedario, cambiar por si la suma es menor a 'a' (no  mayor a 'z'), y sumar 25 a la variable suma (no restar).
+4. Cambia la condición para dar vuelta en el abecedario. En vez de ver si la suma es mayor al carácter 'z', escribe si la suma es menor a 'a', y luego si se cumple esa condición, suma 25 a la variable suma (no resta).
 
-5. En la función main, llamar en la condición si es para encriptar o desencriptar a la función correspondiente.
+5. En la función main, llama a la función correspondiente en la condición si es para encriptar o desencriptar un mensaje.
 
 Cuando termines, puedes apretar **Run** y probar con los siguientes ejemplos:
 ```
@@ -94,25 +94,12 @@ reina
 ```
 ¡También inventa tus propias palabras secretas!
 
-{{< alert theme="warning" >}}**Ten cuidado**, por ahora, siempre debemos escribir los strings y caracteres en **letra minúscula**.  {{< /alert >}}
+{{< alert theme="warning" >}}**Ten cuidado**, en este programa siempre debemos escribir los strings y caracteres en **letra minúscula**.  {{< /alert >}}
 
 Recuerda que siempre puedes volver a las actividades anteriores para recordar algo.
 
 
 <iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/actividad-6?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-{{< alert theme="danger" >}}**Cuidado**. Para pegar algo en la consola, haz click derecho pegar. De otra forma puede no funcionar {{< /alert >}}
+{{< alert theme="danger" >}}**Cuidado**. Para pegar algo en la consola, haz click derecho pegar. De otra forma puede no funcionar. {{< /alert >}}
 
-{{% notice warning %}}
-
-### ¡AYUDA! 
-
-Si después de presionar el botón **Run**, está la palabra **error** en rojo en la pestaña **console**, es porque tienes errores en el código. Pídele ayuda al instructor para revisar tu código.
-
-Mientas tanto puedes revisar lo siguiente:
-
-1. No uses letras mayúsculas.
-2. Asegurate que las lineas que escribiste dentro de las llaves de toda función, tengan al final un punto y coma **`;`**.
-3. Recuerda que solo los strings tiene que ir entre **comillas** "".
-
-{{% /notice %}}

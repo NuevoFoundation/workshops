@@ -9,7 +9,7 @@ draft: false
 
 El rey nos ha pedido que escribamos letra por letra el nombre del destinatario para luego poder cambiarlas mediante alguna forma y así hacer secreto nuestro mensaje.
 
-Para hacer esto tenemos que usar **CICLOS** (o loops en inglés). Un ciclo ejecuta un grupo de instrucciones varias veces. Miremos este ejemplo donde imprimimos números:
+Para hacer esto tenemos que usar **CICLOS** (o loops en inglés). Un ciclo ejecuta un grupo de instrucciones varias veces. Veamos este ejemplo donde imprimimos números:
 
 ```
 for(int i=0; i<3; i++){
@@ -24,8 +24,8 @@ Intentemos entender lo que hace ese código:
 ### Ciclos
 
  `for(int i=0; i<3; i++) { }`. 
-Esta sentencia le dice al programa que las instrucciones que están dentro de sus llaves `{ }` deben correrse dentro de un ciclo. 
-Podemos diferencias 3 partes dentro de los paréntesis: 
+Esta línea le dice al programa que las instrucciones que están dentro de sus llaves `{ }` deben correrse dentro de un ciclo. 
+Podemos diferenciar 3 partes dentro de los paréntesis: 
 1. `int i=0;` está declarando una variable del tipo `int` (numero entero) llamada `i` y esta inicializada en 0. Esta variable llevará la cuenta de cuántas veces hemos recorrido el ciclo.
 2. `i<3;` es la condición que se tiene que cumplir para que el ciclo se siga repitiendo. Entonces, mientras la variable `i` sea menor a 3 (`<`), el ciclo se repetirá.
 3. `i++` le suma 1 a la variable `i` cada vez que el ciclo termina.  
@@ -78,17 +78,3 @@ Bueno, ahora tomemos el código que teníamos y modifiquémoslo un poco para imp
 
 <iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/actividad-3?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-{{% notice warning %}}
-
-### ¡AYUDA! 
-
-Si después de presionar el botón **Run**, está la palabra **error** en rojo en la pestaña **console**, es porque tienes errores en el código. Pídele ayuda al instructor para revisar tu código.
-
-Mientas tanto puedes revisar lo siguiente:
-
-1. No uses letras mayúsculas.
-2. Asegurate que las lineas que escribiste tengan al final un punto y coma **`;`**.
-3. Recuerda que solo los strings tiene que ir entre **comillas** "".
-4. Por ahora, todo el código que escribas tiene que ir dentro de las llaves `{ }` de la funcion  `int main`. 
-
-{{% /notice %}}

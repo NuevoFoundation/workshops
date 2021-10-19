@@ -57,15 +57,15 @@ Por ejemplo, si mi palabra clave es `reina` y el nombre que quiero encriptar es 
 
 Para eso, vamos a reunir parte de lo que ya hicimos, y debemos seguir los siguientes pasos:
 
-1. Crear una variable del tipo string para que sea la palabra clave.
-2. Ingresar su valor por consola.
-3. Declarar una variable tipo int e inicializarla en 0. A esta variable, le sumaremos 1 en cada ciclo del for para recorrer la palabra clave.
-4. En la instrucción for, crear una variable tipo int que sea igual a la suma del caracter del nombre (`nombre[i]`) y el caracter de la palabra clave en la posición del contador (`clave[contador]`). A esta suma le debemos restar una letra minúscula `'a'` para que la suma corresponda a una letra y no otro caracter del código ascii.
-5. Utilizar una instrucción if para determinar si la suma de caracteres corresponde a un caracter mayor a `'z'`. Si es así, a este número se le debe restar 25 (la cantidad de letras del abecedario) para que el número de la vuelta, y comience por la letra `'a'`.
-6. Igualar el caracter `nombre[i]` a la variable int con la suma. Esto cambiará la letra original por el carcater nuevo.
-7. Sumarle 1 al contador que llevamos de la palabra clave.
-8. Programar una condición donde si el contador de la palabra clave, es mayor o igual al largo del string clave, el contador volverá a valer 0.
-9. Por último, luego de la instrucción for, imprimir por consola la variabale nombre.
+1. Crea una variable del tipo string para que sea la palabra clave.
+2. Ingresa su valor por consola.
+3. Declara una variable tipo int e inicializarla en 0. A esta variable, le sumaremos 1 en cada ciclo del for para recorrer la palabra clave.
+4. En la instrucción for, crea una variable tipo int que sea igual a la suma del caracter del nombre (`nombre[i]`) y el caracter de la palabra clave en la posición del contador (`clave[contador]`). A esta suma le debemos restar una letra minúscula `'a'` para que la suma corresponda a una letra y no otro caracter del código ascii.
+5. Utiliza una instrucción if para determinar si la suma de caracteres corresponde a un caracter mayor a `'z'`. Si es así, a este número se le debe restar 25 (la cantidad de letras del abecedario) para que el número de la vuelta, y comience por la letra `'a'`.
+6. Iguala el caracter `nombre[i]` a la variable int con la suma. Esto cambiará la letra original por el carcater nuevo.
+7. Suma 1 al contador que llevamos de la palabra clave.
+8. Programa una condición donde si el contador de la palabra clave, es mayor o igual al largo del string clave, el contador volverá a valer 0.
+9. Por último, luego de la instrucción for, imprime por consola la variabale nombre.
 
 Como ayuda, recuerda que puedes volver a las otras actividades.
 
@@ -74,24 +74,10 @@ Una vez completado los pasos, ¡comienza a jugar y a encriptar tus palabras! Apr
 programador
 reina
 ```
-{{< alert theme="warning" >}}**Ten cuidado**, por ahora, siempre debemos escribir los strings y caracteres en **letra minúscula**.  {{< /alert >}}
+{{< alert theme="warning" >}}**Ten cuidado**, en este programa siempre debemos escribir los strings y caracteres en **letra minúscula**.  {{< /alert >}}
 
 
 <iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/actividad-5?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-{{< alert theme="danger" >}}**Cuidado**. Para pegar algo en la consola, haz click derecho pegar. De otra forma puede no funcionar {{< /alert >}}
+{{< alert theme="danger" >}}**Cuidado**. Para pegar algo en la consola, haz click derecho pegar. De otra forma puede no funcionar. {{< /alert >}}
 
-{{% notice warning %}}
-
-### ¡AYUDA! 
-
-Si después de presionar el botón **Run**, está la palabra **error** en rojo en la pestaña **console**, es porque tienes errores en el código. Pídele ayuda al instructor para revisar tu código.
-
-Mientas tanto puedes revisar lo siguiente:
-
-1. No uses letras mayúsculas.
-2. Asegurate que las lineas que escribiste tengan al final un punto y coma **`;`**.
-3. Recuerda que solo los strings tiene que ir entre **comillas** "".
-4. Por ahora, todo el código que escribas tiene que ir dentro de las llaves `{ }` de la funcion  `int main`. 
-
-{{% /notice %}}

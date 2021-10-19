@@ -7,7 +7,7 @@ draft: false
 
 ¡Muy bien! 
 
-Cada vez estamos más cerca de hacer nuestros mensajes secretos. Pero también, ¡no nos tenemos que olvidar que tenemos que poder descifrar esos mensajes!
+Cada vez estamos más cerca de hacer nuestros mensajes secretos. Pero también, ¡no olvidemos que tenemos que poder descifrar esos mensajes!
 
 Para eso, vamos a ingresar en la consola un 1, si es que queremos encriptar un mensaje, o el número 2, si queremos desencriptarlo.
 
@@ -39,7 +39,7 @@ En el ejemplo, el bloque *else* no se ejecutará porque la condición del *if* e
 
 Para crear condiciones, usualmente usamos los siguientes **operadores lógicos** en los paréntesis `()` de las instrucciones **if**: 
 
-Ejemplo: a=5 y b=3
+Ejemplo: `a=5` y `b=3`
 1. Menor que: `a < b` (¿5 es menor que 3?)
 2. Menor o igual que: `a <= b` (¿5 es menor o igual a 3?)
 3. Mayor que: `a > b` (¿5 es mayor a 3?)
@@ -52,26 +52,12 @@ Ejemplo: a=5 y b=3
 Para la actividad, vamos a usar una condición para saber si lo que queremos es crear un mensaje secreto (encriptarlo) o descifrar un mensaje (desencriptarlo).
 
 Para eso, debemos seguir los siguientes pasos:
-1. Crear una variable del tipo int.
-2. Ingresar por consola el contenido de esa variable.
-3. Crear una condición **if** / **else** para saber si el número ingresado es igual a 1, por lo tanto, queremos encriptar un mensaje, o de lo contrario, queremos desencriptarlo.
-4. Imprimir por consola en cada caso que es lo que queremos hacer. Ej: "Encriptar un mensaje" o "Desencriptar un mensaje".
+1. Crea una variable del tipo int.
+2. Ingresa por consola el contenido de esa variable.
+3. Crea una condición **if** / **else** para saber si el número ingresado es igual a 1, por lo tanto, queremos encriptar un mensaje, o de lo contrario, queremos desencriptarlo.
+4. Imprime por consola en cada caso que es lo que queremos hacer. Ej: "Encriptar un mensaje" o "Desencriptar un mensaje".
 
 Como ayuda, recuerda que puedes volver a las otras actividades.
 
 <iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/actividad-4?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-{{% notice warning %}}
-
-### ¡AYUDA! 
-
-Si después de presionar el botón **Run**, está la palabra **error** en rojo en la pestaña **console**, es porque tienes errores en el código. Pídele ayuda al instructor para revisar tu código.
-
-Mientas tanto puedes revisar lo siguiente:
-
-1. No uses letras mayúsculas.
-2. Asegurate que las lineas que escribiste tengan al final un punto y coma **`;`**.
-3. Recuerda que solo los strings tiene que ir entre **comillas** "".
-4. Por ahora, todo el código que escribas tiene que ir dentro de las llaves `{ }` de la funcion  `int main`. 
-
-{{% /notice %}}
