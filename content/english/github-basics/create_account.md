@@ -5,8 +5,10 @@ draft: false
 weight: 2
 ---
 
+{{% notice info %}}
 ## NOTE:
 If you already have a GitHub account set up, feel free to skip on to the next page!
+{{% /notice %}}
 
 ## Below are the step to creating your own GitHub account!
 

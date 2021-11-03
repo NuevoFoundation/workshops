@@ -2,6 +2,7 @@
 title: "GitHub Basics"
 description: "Learn the basics of using GitHub online and from your computer terminal"
 difficulty: "Beginner"
+prereq: none
 weight: 1
 ---
 
@@ -10,10 +11,6 @@ weight: 1
 <summary>Topics</summary>
 {{% children %}}
 </details>
-
-## Workshop Resources
-**Prerequisites:** None
-**Difficulty:** Beginner
 
 
 ## Overview
