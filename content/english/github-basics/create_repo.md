@@ -22,5 +22,5 @@ Once you have clicked on one of the options above, you will get to the page belo
 
 <img src="../images/repopage.JPG" height="400"/>
 
-Congratulations! You have now created your first repository! Refresh your page, and itt should look like the "test" in the photo below.
+Congratulations! You have now created your first repository! Refresh your page, and it should look like the "test" in the photo below.
 <img src="../images/CreatingRepositoryFinal.png" height="400"/>
