@@ -2,7 +2,7 @@
 title: "Creating Your First GitHub Repository"
 date: 2021-09-10T13:24:17-07:00
 draft: false
-weight: 4
+weight: 3
 ---
 
 A **repository** in GitHub is like a Folder on your computer: it is a place to store all of your files/work for a project.
