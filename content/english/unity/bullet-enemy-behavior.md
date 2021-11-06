@@ -7,7 +7,7 @@ weight: 11
 
 ## Bullet behavior
 
-Now that we know how triggers and tags work, let's set up the bullet behavior! Create a new script within the Scripts folder called "BulletBehavior". Then drag and drop it in the bullet inspector from the bullet in the Scene window and open the script up. Remove the `Start()` and `Update()` function and replace it with this:
+Now that we know how triggers and tags work, let's set up the bullet behavior! Create a new script within the Scripts folder called "BulletBehavior". Then drag and drop it in the bullet inspector from the bullet in the Prefabs folder and open the script up. Remove the `Start()` and `Update()` function and replace it with this:
 
 ```csharp
 void OnTriggerEnter2D(Collider2D collision)
@@ -45,6 +45,8 @@ We can call upon Nuvi's tag in the if-statement!
 {{< /expand >}}
 
 ---
+
+## Enemy behavior
 
 Now let's test by running the game! If we did it correctly, the bullet should disappear upon contact when it touches anything but Nuvi! However, when we shoot the enemy, notice how the bullet disappears, but the enemy does not. To fix this issue, we must create a similar script that revolves around the enemy's behavior.
 To do this, create a new script in the Scripts folder called "Enemy Behavior" and attach it to the Alien_pink's inspector. Similar to how we made the "Bullet Behavior" script, remove the `Start()` and `Update()` function and add this:

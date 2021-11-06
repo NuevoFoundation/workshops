@@ -13,6 +13,8 @@ Oh no! Aliens have descended onto Earth! Will you help Nuvi the robot in defeati
 
 This workshop will take you step-by-step through the creation of a top-down Unity shooter! Hope you enjoy!
 
+![Sample of a working game](./img/unity_game.gif)
+
 ## Table of Contents
 
 {{% children %}}

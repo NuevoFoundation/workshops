@@ -71,7 +71,7 @@ public class Outline : MonoBehaviour
 
    private void generate()
    {
-       for(int x = 1; x < ; x++) //for each number of enemies wanted from the slider
+       for(int x = 1; x <= ; x++) //for each number of enemies wanted from the slider
        {
            location = positions[x];    //since it's an array, take transform from index x
            GameObject enemy = Instantiate(enemy1, location);   //instantiate enemy at chosen location

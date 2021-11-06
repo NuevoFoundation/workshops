@@ -5,7 +5,7 @@ draft: false
 weight: 7
 ---
 
-Now that Nuvi is all set and ready to move, let's have him welcome aliens into the universe! Locate the alien png file called "alien_pink" and drag and drop it into the Drawings folder. Then, drag and drop the alien_pink from the Drawings folder into the hierarchy. Rescale the enemy to match Nuvi's size as it is too large.
+Now that Nuvi is all set and ready to move, let's have them welcome aliens into the universe! Locate the alien png file called "alien_pink" from the Drawings folder. Then, drag and drop the alien_pink into the hierarchy. Rescale the enemy to match Nuvi's size as it is too large.
 
 <img src="../img/6_nuvi_and_enemy.png" alt="Enemy is scaled to match Nuvi's size" width="400"/>
 

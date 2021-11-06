@@ -28,7 +28,7 @@ Now run the game and see what happens. ...Uh-oh, Nuvi still runs off. That's bec
 So, let's go ahead and add a BoxCollider2D component to Nuvi. In that component, click on "Edit Collider", and you should see a green box surrounding Nuvi. Resize this box so it fits snugly around Nuvi.
 Run the game and see that Nuvi won't run off anymore... but now Nuvi starts spinning when they hit a corner of the arena. To stop this, go into Nuvi's Rigidbody2D component, expand "Constraints", and check "Freeze Rotation".
 
-To add a background and get Nuvi working in outer space, drag the "background" png file and drop it into the Drawings folder like you did for Nuvi's image. Then, drag and drop it into the Scene. Resize the background image; looking at the Game window will help you do so.
+To add a background and get Nuvi working in outer space, drag the "background" png file from the Drawings folder like you did for Nuvi's image, and then drop it into the Scene. Resize the background image; looking at the Game window will help you do so.
 
 {{< notice tip >}}
 If Nuvi hides behind the background image, go into Nuvi's Sprite Renderer component, expand "Additional Settings", and change Nuvi's "Order in Layer" to 1 (or any number larger than 0).

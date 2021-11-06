@@ -57,7 +57,7 @@ public class PlayerMovement : MonoBehaviour
 
 If we were to try to run the script now, it would not work because of compiler errors. To fix this, we need to add `public Rigidbody2D rb;` under `public float speed;`. Then save in order to update the script into Unity.
 
-As we can save in the PlayerMovement section in the Nuvi Inspector, the rb variable is empty. We need to drag and drop Nuvi's rigidbody2D from their inspector into the rb variable. Now, try running the game!
+As we can see in the PlayerMovement section in the Nuvi Inspector, the rb variable is empty. We need to drag and drop Nuvi's rigidbody2D from their inspector into the rb variable. Now, try running the game!
 
 Looking all good! ...Or is it?
 
