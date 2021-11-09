@@ -8,7 +8,7 @@ weight: 14
 Now that we have all the UI set, we want the game to function as we intend it to. Right now when we simulate the playable game, we can move Nuvi, but the end screen is already showing.
 To fix this, we will have a script that will dictate how the game should go. Under the Scripts folder in the Projects window, create a new script called "Outline". Drag this script into the "Main Camera" inspector which we can locate under the hierarchy.
 
-Before we add anything into the "Outline" script, let's first set a few things up. If we were to run the game now, we can still move Nuvi and shoot the pink enemies despite the UI popping up. Let's fix that by setting up spawn points.
+Before we add anything into the "Outline" script, let's first set a few things up. If we were to run the game now, we can still move Nuvi and fire at the pink enemies despite the UI popping up. Let's fix that by setting up spawn points.
 "Create Empty" in the hierarchy window and rename it to "SpawnPoints". Then, Create four more Transforms under "SpawnPoints" and rename them "EnemyLoc1", "EnemyLoc2", "EnemyLoc3", and "PlayerLoc". Reposition them using the Move tool so that they are right on the enemies and players like so:
 
 <img src="../img/13_enemyspawn.png" alt="Reposition spawn point for enemy" width="400"/>
@@ -99,7 +99,7 @@ The final addition we need to make in order for the script to work is in the `ge
 
 Now, head to the Main Camera inspector and locate the Outline script. Notice that there are a lot of empty variables that we need to fill in. First, drag the num_enemies slider from the hierarchy into the "Num_of_enemies" variable. For "Positions", choose "4". Drag the spawn locations in this order starting from Element 0: PlayerLoc → EnemyLoc2 → EnemyLoc1 → EnemyLoc3. Then, drag the Menu GameObject from the hierarchy into the "Opening_screen" variable and the EndScreen GameObject into the "Winner_screen" variable. Next, from the Prefabs folder in the Project window, drag the "enemy1" prefab into the "Enemy 1" variable and the "Nuvi" prefab into the "Player 1" variable.
 
-Next, we need a way to know when the enemies are killed, so that we can have the End screen pop up when there are no enemies left. To do this, we keep a count of how many enemies there are, and this count should go down when an enemy is killed. In the "Outline" script add `public int enemies_left;`. For now add `enemies_left = -1;` in the `Start()` method. Now, let's think of when the enemy gets killed. In what script did we destroy the enemy? If you thought of the "Enemy Behavior" script, then you're right! Open up the "Enemy Behavior" script and add this code above the `OnCollisionEnter2D()` method:
+Next, we need a way to know when the enemies are defeated, so that we can have the End screen pop up when there are no enemies left. To do this, we keep a count of how many enemies there are, and this count should go down when an enemy is defeated. In the "Outline" script add `public int enemies_left;`. For now add `enemies_left = -1;` in the `Start()` method. Now, let's think of when the enemy gets defeated. In what script did we destroy the enemy? If you thought of the "EnemyBehavior" script, then you're right! Open up the "EnemyBehavior" script and add this code above the `OnCollisionEnter2D()` method:
 
 ```csharp
   GameObject cam;

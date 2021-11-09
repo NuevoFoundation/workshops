@@ -5,7 +5,7 @@ draft: true
 weight: 3
 ---
 
-To begin setting up our main player, Nuvi, we first need to import the game assets we want to use. You can import your own assets, or [download the provided assets](../files/Unity_game_images.zip). To do import these into Unity, we need to head to the Project window and in the Assets folder, create a new folder and name it Drawings.
+To begin setting up our main player, Nuvi, we first need to import the game assets we want to use. You can import your own assets, or [download the provided assets](../files/Unity_game_images.zip). To do import these into Unity, we need to head to the Project window and in the Assets folder, create a new folder and name it "Drawings".
 
 ![Creating a new folder](../img/2_1.png)
 

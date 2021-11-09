@@ -49,7 +49,7 @@ public class PlayerMovement : MonoBehaviour
        {
            rb.MovePosition(transform.position + speed * movement * Time.deltaTime); //physically moves Nuvi in the direction
            transform.rotation = Quaternion.LookRotation(transform.forward, -movement); //for facing the direction its moving
-           //-movement bc otherwise it will face the opposite direction since transform is facing downwards
+           //-movement because otherwise it will face the opposite direction since transform is facing downwards
        }
    }
 }
@@ -75,7 +75,7 @@ If we set a=1 and b=1, then our equation looks like:
 
 a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>
 
-12 + 12 = c<sup>2</sup>
+1<sup>2</sup> + 1<sup>2</sup> = c<sup>2</sup>
 
 2 = c<sup>2</sup>
 

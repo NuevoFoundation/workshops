@@ -5,7 +5,7 @@ draft: false
 weight: 6
 ---
 
-The reason Nuvi runs off is because there are no colliders.
+The reason Nuvi runs off is because there are no colliders to stop them.
 
 {{< notice info >}}
 Colliders allow two objects to touch each other.

@@ -29,7 +29,7 @@ public class EmptyScript : MonoBehaviour
 Each new script will have the first 3 lines that start with `using`. These lines are needed for Unity to be able to use this newly created script, so we generally leave these lines of code alone. The next line that starts with `public class 'script_name'` is needed for Unity to access this specific script.
 
 {{< notice note >}}
-Make sure the name of the script matches the 'script_name'! If you decide to change the name of the script outside the script, it does not update the line of code containing the script name, so make sure to go back in and update it or the game won't run!
+Make sure the name of the script matches the 'script_name'! If you decide to change the name of the script outside the script, it does not update the line of code containing the script name, so make sure to go back in and update it, or else the game won't run!
 {{< /notice >}}
 
 Each script has two pre-made methods.
@@ -38,7 +38,7 @@ Each script has two pre-made methods.
 
 **void Update()**: This method is called every frame and is usually used when we want to change a game behavior.
 
-There exists another method we will be using to make Nuvi move called void FixedUpdate().
+There exists another method we will be using to make Nuvi move called `void FixedUpdate()`.
 
 **void FixedUpdate()**: This method is called less frequently than Update(), but is best used when dealing with physics for smoother movement, such as when using Rigidbody.
 

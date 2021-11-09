@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-We need to help Nuvi shoot the aliens, but programming everything from scratch might be a bit too hard for us. Unity is a tool that has some basic parts of game-building simplified for us, so all we need to do is drag and drop some things, and write a bit of simple C# code.
+We need to help Nuvi defeat the aliens, but programming everything from scratch might be a bit too hard for us. Unity is a tool that has some basic parts of game-building simplified for us, so all we need to do is drag and drop some things, and write a bit of simple C# code.
 
 {{< notice info >}}
 #### Why use Unity
