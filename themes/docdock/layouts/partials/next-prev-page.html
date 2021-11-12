@@ -4,6 +4,11 @@
 
 {{- template "menu-nextprev" dict "menu" .Site.Home "currentnode" $currentNode -}}
 
+<!--
+    This logic recursively traverses the page tree (pre-order traversal, in ascending order of each page's weight property within a given level)
+    During this iteration, the "menu" property changes to be the item in the iteration, whereas "currentNode" is fixed and
+    represents the current page, where the next and previous buttons will be placed.
+ -->
 {{- define "menu-nextprev" -}}
     {{- $currentNode := .currentnode -}}
     {{- if ne .menu.Params.hidden true -}}
@@ -17,28 +22,34 @@
             {{- end -}}
         {{- end -}}
         {{- $currentNode.Scratch.Set "prevPageTmp" .menu -}}
+        {{- $currentNode.Scratch.Set "pages" .menu.Pages -}}
+        {{- if .menu.IsHome -}}
+            {{- $currentNode.Scratch.Set "pages" .menu.Sections -}}
+        {{- else if .menu.Sections -}}
+            {{- $currentNode.Scratch.Set "pages" (.menu.Pages | union .menu.Sections) -}}
+        {{- end -}}
+        {{- $pages := ($currentNode.Scratch.Get "pages") -}}
 
-            {{- $currentNode.Scratch.Set "pages" .menu.Pages -}}
-            {{- if .menu.IsHome -}}
-                {{- $currentNode.Scratch.Set "pages" .menu.Sections -}}
-            {{- else if .menu.Sections -}}
-                {{- $currentNode.Scratch.Set "pages" (.menu.Pages | union .menu.Sections) -}}
-            {{- end -}}
-            {{- $pages := ($currentNode.Scratch.Get "pages") -}}
-
-            {{- range $pages.ByWeight -}}
-                {{- template "menu-nextprev" dict "menu" . "currentnode" $currentNode -}}
-            {{- end -}}
+        {{- range $pages.ByWeight -}}
+            {{- template "menu-nextprev" dict "menu" . "currentnode" $currentNode -}}
+        {{- end -}}
     {{- end -}}
 {{- end -}}
 
     
 {{- if not $.Site.Params.disableNavChevron -}}
-    {{- with ($.Scratch.Get "prevPage") -}}
-        <a class="nav nav-prev" href="{{.URL}}" title="{{.Title}}"> <i class="fa fa-chevron-left"></i><label>{{.Title}}</label></a>
-    {{ end -}}
-    {{- with ($.Scratch.Get "nextPage") -}}
-        <a class="nav nav-next" href="{{.URL}}" title="{{.Title}}" style="margin-right: 0px;"><label>{{.Title}}</label><i class="fa fa-chevron-right"></i></a>
-    {{- end }}
+    {{ $isFirstPageOfWorkshop := (ne .Section ($.Scratch.Get "prevPage").Section) }}
+    {{ $isLastPageOfWorkshop := (ne .Section ($.Scratch.Get "nextPage").Section) }}
+
+    {{- if (not $isFirstPageOfWorkshop) -}}
+        {{- with ($.Scratch.Get "prevPage") -}}
+            <a class="nav nav-prev" href="{{.URL}}" title="{{.Title}}"> <i class="fa fa-chevron-left"></i><label>{{.Title}}</label></a>
+        {{- end -}}
+    {{- end -}}
+    {{- if (not $isLastPageOfWorkshop) -}}
+        {{- with ($.Scratch.Get "nextPage") -}}
+            <a class="nav nav-next" href="{{.URL}}" title="{{.Title}}" style="margin-right: 0px;"><label>{{.Title}}</label><i class="fa fa-chevron-right"></i></a>
+        {{- end -}}
+    {{- end -}}
 {{- end -}}
 </div>
