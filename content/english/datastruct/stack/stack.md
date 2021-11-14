@@ -12,7 +12,7 @@ weight: 2
 
 <hr>
 
-A stack is eerily similar to a queue. The only difference are the method names and the manner in which we retrive the items.
+A stack is eerily similar to a queue. The only difference are the method names and the manner in which we retrieve the items.
 
 Before we create a stack, we will have to import the stack class. To make life easier, we can use a * instead to import all. It will look something like this.
 

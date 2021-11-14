@@ -1,5 +1,5 @@
 ---
-title: "Setting Up:"
+title: "Setting Up"
 date: 2019-07-23T11:45:38-07:00
 draft: false
 weight: 2
