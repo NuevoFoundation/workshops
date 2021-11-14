@@ -14,7 +14,7 @@ We've already learned plenty about arrays. We know that an array can hold many d
 
 A 2D array has a type such as `int[][]` or `String[][]`, with two pairs of square brackets. The elements of a 2D array are arranged in rows and columns, and the new operator for 2D arrays specifies both the number of rows and the number of columns. For example,
 
-```java
+```js javascript
 {
     int[][] A;
     A = new int[3][4];
@@ -24,8 +24,7 @@ A 2D array has a type such as `int[][]` or `String[][]`, with two pairs of squar
 This creates a 2D array of `int` that has 12 elements arranged in 3 rows and 4 columns. There are also initializers for 2D arrays. For example, this statement creates the 3-by-4 array that is shown in the picture below:
 
 
-```java
-
+```js javascript
 {
     int[][] A = {    
                     {  1,  0, 12, -1 },
@@ -35,9 +34,9 @@ This creates a 2D array of `int` that has 12 elements arranged in 3 rows and 4 c
 }
 ```
 
-An array initializer for a 2D array contains the rows of A, separated by commas and enclosed between braces. Each row, in turn, is a list of values separated by commas and enclosed between braces. There are also 2D array literals with a similar syntax that can be used anywhere, not just in declarations. For example,
+An array initializer for a 2D array contains the rows of `A`, separated by commas and enclosed between braces. Each row, in turn, is a list of values separated by commas and enclosed between braces. There are also 2D array literals with a similar syntax that can be used anywhere, not just in declarations. For example,
 
-```java
+```js javascript
 {
     A  =  new int[][] { 
                          {  1,  0, 12, -1 },

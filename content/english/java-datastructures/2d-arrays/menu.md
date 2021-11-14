@@ -16,7 +16,7 @@ Let's recall the restaurant array that we made earlier in the array section.
 
 As you can see, this array holds all the different restaurants for our app. Now, let's try to make each restaurant contain an array of all of its menu items. If done correctly, the `0`th element of our array, "Burger King", should now hold its respective menu items. It might look something like this:
 
-![burkerkingarray](../../img/burgerkingarray.png)
+![burgerkingarray](../../img/burgerkingarray.png)
 
 As you can see, the 0th element should be our Burger King Array. Just like our 1D arrays, we zero index the items of our array. If we wanted to place an order for a Whopper, we would simply call `Restaurant[0][0]`. This would call our Burger King Array and the first element at that array, which is a whopper. If we wanted fries in our array, then we would call `Restaurant[0][2]`. 
 
