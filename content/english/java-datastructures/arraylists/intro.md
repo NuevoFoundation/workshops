@@ -3,7 +3,8 @@ title: "Introduction"
 draft: false
 weight: 1
 ---
-<link rel="stylesheet" href="../../style.css">
+
+<!--<link rel="stylesheet" href="../../style.css">-->
 
 ![image](../../img/listintro.png)
 <hr>
@@ -30,7 +31,7 @@ public class Main {
 
 As you can see, similar to the array, we have to declare what types of data the `ArrayList` will contain. In this case, we will make it contains `String`s, since menu items will be `String`s. 
 
-To add items to an order, we will use the `add` method. If the customer were ordering from Burger King and wanted to order a combo with a Whopper, chicken nuggets, and fries, your method might look something like this.
+To add items to an order, we will use the `add()` method. If the customer were ordering from Burger King and wanted to order a combo with a Whopper, chicken nuggets, and fries, your method might look something like this.
 
 ```js javascript
 import java.util.ArrayList;
@@ -44,7 +45,7 @@ public class Main {
     }
 }
 ```
-If we wanted to get the first item of an arraylist, you would use the get() method along with the index number of the element like so:
+If we wanted to get the first item of an `ArrayList`, you would use the `get()` method along with the index number of the element like so:
 
 ```js javascript
 import java.util.ArrayList;
@@ -61,4 +62,4 @@ public class Main {
 }
 ```
 
-There are many more methods that you can use on an ArrayList, but this is just the gist of what an arraylist can do. The methods can be found on the next page. 
+There are many more methods that you can use on an `ArrayList`, but this is just the gist of what an `ArrayList` can do. The methods can be found on the next page. 

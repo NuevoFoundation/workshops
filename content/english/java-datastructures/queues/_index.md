@@ -1,9 +1,9 @@
 ---
-title: "Queues: Receiving the Order"
+title: "Queues: Receiving Orders"
 weight: 5
 draft: false
 ---
-<link rel="stylesheet" href="../style.css">
+<!--<link rel="stylesheet" href="../style.css">-->
 
 ![image](../img/queueTitle.png)
 <hr>

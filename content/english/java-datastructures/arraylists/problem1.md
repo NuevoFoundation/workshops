@@ -7,11 +7,11 @@ weight: 3
 
 <p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/unwrTbTILmA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-<link rel="stylesheet" href="../style.css">
+<!--<link rel="stylesheet" href="../../style.css">-->
 
 ## ArrayList Task 1: Inserting
 
-<p>Tacos Truck is now avaiable down the street! New employees are struggling to get keep track of all the different orders. Help them organize all the items using ArrayLists! </p>
+Tacos Truck is now available down the street! New employees are struggling to get keep track of all the different orders. Help them organize all the items using `ArrayList`s!
 
 ```js javascript
     /*
@@ -21,7 +21,7 @@ weight: 3
         -1 order of "pollo"
         -2 orders of "birria"
 
-        Return an arraylist of all of these elements in that order
+        Return an ArrayList of all of these elements in that order
     */
 ```
 
@@ -34,7 +34,7 @@ weight: 3
 
 ## ArrayList Task 2: Getting Element
 
-<p>A restaurant selling Chinese food has just opened nearby. A huge number of orders has just come in and the manager has trouble keeping track of everything, so they have put it all in an `ArrayList`. Help finish the program to return the given string at a given index.</p>
+A restaurant selling Chinese food has just opened nearby. A huge number of orders has just come in and the manager has trouble keeping track of everything, so they have put it all in an `ArrayList`. Help finish the program to return the given string at a given index.
 
 ```js javascript
     ArrayList<String> menu = new ArrayList<>(); 
@@ -60,7 +60,7 @@ weight: 3
 
 ## ArrayList Task 3: Removing Elements
 
-<p>The same Chinese restaurant has a bug in their code! Orders have been duplicated randomly and the `ArrayList` are filled with copies of orders. Help the owner out by writing a program to remove the first `n` occurrences of a given order in the `ArrayList`.</p>
+The same Chinese restaurant has a bug in their code! Orders have been duplicated randomly and the `ArrayList` are filled with copies of orders. Help the owner out by writing a program to remove the first `n` occurrences of a given order in the `ArrayList`.
 
 ```js javascript
     ArrayList<String> menu = new ArrayList<>(); 

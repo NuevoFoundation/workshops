@@ -6,7 +6,7 @@ weight: 5
 
 <p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/QHM7dmhFP64" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-<link rel="stylesheet" href="../../style.css">
+<!--<link rel="stylesheet" href="../../style.css">-->
 
 When you know exactly how many times you want to loop through a block of code, use a `for` loop instead of a `while` loop:
 

@@ -3,7 +3,8 @@ title: "ArrayList: Ordering from the Menu"
 draft: false
 weight: 4
 ---
-<link rel="stylesheet" href="../style.css">
+
+<!--<link rel="stylesheet" href="../../style.css">-->
 
 ![image](../img/listhead.png)
 <hr>

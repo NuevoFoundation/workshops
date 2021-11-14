@@ -1,13 +1,12 @@
 ---
-title: "Example"
+title: "Examples"
 draft: false
 weight: 2
 ---
 
-
 <p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/NQXV586afr8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-<link rel="stylesheet" href="../../style.css">
+<!--<link rel="stylesheet" href="../../style.css">-->
 
 ![array](../../img/example.png)
 
@@ -15,16 +14,16 @@ weight: 2
 
 <br><br>
 
-<center><b><h2 style="font-size:2vw; font-family: sans-serif; font-weight: 600;">Creating an Array</h2></b></center>
+## Creating an array
 
-<p>Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value. To declare an array, define the variable type with square brackets.</p>
+Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value. To declare an array, define the variable type with square brackets.
 
 ```js javascript
 {
     String[] restaurants;
 }
 ```
-<p>We have now declared a variable that holds an array of strings. To insert values to it, we can use an array literal - place the values in a comma-separated list, inside curly braces:</p>
+We have now declared a variable that holds an array of strings. To insert values to it, we can use an array literal - place the values in a comma-separated list, inside curly braces:
 
 ```js javascript
 {
@@ -32,7 +31,7 @@ weight: 2
 }
 ```
 
-<p>To create an array of integers, you could write:</p>
+To create an array of integers, you could write:
 
 ```js javascript
 {
@@ -42,9 +41,9 @@ weight: 2
 <hr>
 <br>
 
-<center><b><h2 style="font-size:2vw; font-family: sans-serif; font-weight: 600;">Accessing Elements of an Array</h2></b></center>
+## Accessing elements of an array
 
-You access an array element by referring to the index number. This statement accesses the value of the first element in restaurants:</p>
+You access an array element by referring to the index number. This statement accesses the value of the first element in restaurants:
 
 ```js javascript
 {
@@ -57,9 +56,9 @@ You access an array element by referring to the index number. This statement acc
 <hr>
 <br>
 
-<center><b><h2 style="font-size:2vw; font-family: sans-serif; font-weight: 600;">Change an Array Element</h2></b></center>
+## Change an array element
 
-<p>To change the value of a specific element, refer to the index number:</p>
+To change the value of a specific element, refer to the index number:
 
 ```js javascript
 {
@@ -75,9 +74,9 @@ You access an array element by referring to the index number. This statement acc
 <hr>
 <br>
 
-<center><b><h2 style="font-size:2vw; font-family: sans-serif; font-weight: 600;">Array Length</h2></b></center>
+## Array length
 
-<p>To find out how many elements an array has, use the `length` property:</p>
+To find out how many elements an array has, use the `length` property:
 
 ```js javascript
 {
@@ -88,9 +87,10 @@ You access an array element by referring to the index number. This statement acc
 ```
 <hr>
 <br>
-<center><b><h2 style="font-size:2vw; font-family: sans-serif; font-weight: 600;">Looping Through an Array</h2></b></center>
 
-<p>You can loop through the array elements with the `for` loop, and use the `length` property to specify how many times the loop should run. The following example outputs all elements in the restaurants array:</p>
+## Looping through an array
+
+You can loop through the array elements with the `for` loop, and use the `length` property to specify how many times the loop should run. The following example outputs all elements in the restaurants array:
 
 ```js javascript
 {

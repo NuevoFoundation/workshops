@@ -3,7 +3,7 @@ title: "Hashmaps: The Delivery"
 weight: 7
 draft: false
 ---
-<link rel="stylesheet" href="../style.css">
+<!--<link rel="stylesheet" href="../../style.css">-->
 
 ![image](../img/mapTitle.png)
 

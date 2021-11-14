@@ -1,11 +1,11 @@
 ---
-title: "Example and teach"
+title: "Examples"
 date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 2
 ---
 
-<link rel="stylesheet" href="../../style.css">
+<!--<link rel="stylesheet" href="../../style.css">-->
 
 ![image](../../img/listex.png)
 <hr>
@@ -26,7 +26,7 @@ public class Main {
     }
 }
 ```
-Using `set`, you can set the element at the index number to a new element.
+Using `set()`, you can set the element at the index number to a new element.
 
 <hr>
 
@@ -46,7 +46,7 @@ public class Main {
     }
 }
 ```
-Similar to `set`, the `remove` method removes an element at an index number.
+Similar to `set()`, the `remove()` method removes an element at an index number.
 
 <hr>
 

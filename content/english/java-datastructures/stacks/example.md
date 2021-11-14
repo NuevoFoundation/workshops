@@ -1,10 +1,10 @@
 ---
-title: "Example and teach"
+title: "Examples"
 date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 1
 --- 
-<link rel="stylesheet" href="../../style.css">
+<!--<link rel="stylesheet" href="../../style.css">-->
 
 ![image](../../img/stackIntro.png)
 

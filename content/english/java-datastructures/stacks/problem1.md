@@ -4,12 +4,11 @@ date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 3
 --- 
-<link rel="stylesheet" href="../style.css">
-
+<!--<link rel="stylesheet" href="../../style.css">-->
 
 ## Task 1: Reversing Using Stack
 
-Oh no! A new intern was hired and messed up the list of restaurants! The inputs of the restaurants are in REVERSE order! Luckily the stack is the perfect data structure for this. Can you create a new stack in the correct order?
+Oh no! A new intern was hired and messed up the list of restaurants! The inputs of the restaurants are in **reverse** order! Luckily the stack is the perfect data structure for this. Can you create a new stack in the correct order?
 
 {{%notice tip%}}
 1. Remember the stack is Last In First Out (LIFO; think of a stack of plates).

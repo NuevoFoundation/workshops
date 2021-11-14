@@ -3,7 +3,7 @@ title: "Stacks: The Driver"
 weight: 6
 draft: false
 ---
-<link rel="stylesheet" href="../style.css">
+<!--<link rel="stylesheet" href="../../style.css">-->
 
 ![image](../img/stackTitle.png)
 <hr>

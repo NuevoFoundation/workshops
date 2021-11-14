@@ -5,7 +5,7 @@ draft: false
 weight: 1
 --- 
 
-<link rel="stylesheet" href="../../style.css">
+<!--<link rel="stylesheet" href="../../style.css">-->
 
 ![image](../../img/mapIntro.png)
 

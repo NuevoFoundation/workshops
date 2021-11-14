@@ -1,4 +1,4 @@
-	---
+---
 draft: false
 weight: 2
 Title: Arrays
@@ -6,7 +6,7 @@ Title: Arrays
 
 <p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/zkQNg1fToSc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-<link rel="stylesheet" href="../style.css">
+<!--<link rel="stylesheet" href="../../style.css">-->
 
 ![array](../img/arrayintro.png)
 

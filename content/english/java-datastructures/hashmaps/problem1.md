@@ -5,8 +5,7 @@ draft: false
 weight: 2
 --- 
 
-<link rel="stylesheet" href="../style.css">
-
+<!--<link rel="stylesheet" href="../../style.css">-->
 
 ## Task 1: Using Hashmap to Organize data
 

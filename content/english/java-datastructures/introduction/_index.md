@@ -6,8 +6,7 @@ weight: 1
 
 <p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/rqehPi2dtXw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-
-<link rel="stylesheet" href="../style.css">
+<!--<link rel="stylesheet" href="../../style.css">-->
 
 ## Before Nuevo Eats...
 
@@ -22,7 +21,6 @@ To begin your training in Nuevo Eats, you first must learn something called **da
 Data structures are awesome and powerful. By using code, we can store lots of information in organized categories for use later! 
 
 Storing items into these structures can let us access everything quickly and effectively - perfect for Nuevo Eats! Restaurants, foods, employees, and locations are just some of the examples we can use Data Structures to our advantage.
-
 
 {{%notice tip%}}
 

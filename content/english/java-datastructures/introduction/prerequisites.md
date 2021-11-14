@@ -7,8 +7,7 @@ weight: 3
 
 <p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/m09C635qvN0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-<link rel="stylesheet" href="../../style.css">
-
+<!--<link rel="stylesheet" href="../../style.css">-->
 
 ## Variables
 

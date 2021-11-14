@@ -5,7 +5,7 @@ draft: false
 weight: 3
 ---
 
-<link rel="stylesheet" href="../style.css">
+<!--<link rel="stylesheet" href="../../style.css">-->
 
 ## Task 1: Making Menu
 

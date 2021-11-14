@@ -7,7 +7,7 @@ weight: 2
 
 <p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/hc_MI3aNF3U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-<link rel="stylesheet" href="../../style.css">
+<!--<link rel="stylesheet" href="../../style.css">-->
 
 ## Setting Up Repl.it!
 
@@ -20,8 +20,3 @@ Before we start, let's first understand how the repl.it works. The `main.java` f
 To learn how to code the data structures, we will be using Repl.it to test your skills. Press run and try completing the following tasks!
 
 <iframe height="800px" width="100%" src="https://repl.it/@waterdud/NuevoIntro?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
-<details open>
-<summary>Topics</summary>
-{{% children %}}
-</details>

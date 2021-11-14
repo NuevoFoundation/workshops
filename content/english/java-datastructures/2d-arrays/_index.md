@@ -3,7 +3,8 @@ title: "2D Arrays: The Menu"
 draft: false
 weight: 3
 ---
-<link rel="stylesheet" href="../style.css">
+
+<!--<link rel="stylesheet" href="../../style.css">-->
 
 ![image](../img/2dhead.png)
 <hr>
