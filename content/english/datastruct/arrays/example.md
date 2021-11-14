@@ -19,31 +19,25 @@ weight: 2
 
 <p>Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value. To declare an array, define the variable type with square brackets.</p>
 
-```java
-
+```js javascript
 {
     String[] restaurants;
 }
-
 ```
 <p>We have now declared a variable that holds an array of strings. To insert values to it, we can use an array literal - place the values in a comma-separated list, inside curly braces:</p>
 
-```java
-
+```js javascript
 {
     String[] restaurants = {"Burger King", "Chipotle", "Panda Express", "Subway"};
 }
-
 ```
 
 <p>To create an array of integers, you could write:</p>
 
-```java
-
+```js javascript
 {
     int[] myNum = {10, 20, 30, 40};
 }
-
 ```
 <hr>
 <br>
@@ -52,14 +46,12 @@ weight: 2
 
 You access an array element by referring to the index number. This statement accesses the value of the first element in restaurants:</p>
 
-```java
-
+```js javascript
 {
     String[] restaurants = {"Burger King", "Chipotle", "Panda Express", "Subway"};
     System.out.println(restaurants[0]);
     //system will output "Burger King"
 }
-
 ```
 
 <hr>
@@ -69,8 +61,7 @@ You access an array element by referring to the index number. This statement acc
 
 <p>To change the value of a specific element, refer to the index number:</p>
 
-```java
-
+```js javascript
 {
     String[] restaurants = {"Burger King", "Chipotle", "Panda Express", "Subway"};
     System.out.println(restaurants[0]);
@@ -79,7 +70,6 @@ You access an array element by referring to the index number. This statement acc
     System.out.println(restaurants[0]);
     //System now outputs "McDonalds"
 }
-
 ```
 
 <hr>
@@ -89,14 +79,12 @@ You access an array element by referring to the index number. This statement acc
 
 <p>To find out how many elements an array has, use the `length` property:</p>
 
-```java
-
+```js javascript
 {
     String[] restaurants = {"Burger King", "Chipotle", "Panda Express", "Subway"};
     System.out.println(restaurants.length);
     //system will output 4
 }
-
 ```
 <hr>
 <br>
@@ -104,8 +92,7 @@ You access an array element by referring to the index number. This statement acc
 
 <p>You can loop through the array elements with the `for` loop, and use the `length` property to specify how many times the loop should run. The following example outputs all elements in the restaurants array:</p>
 
-```java
-
+```js javascript
 {
     String[] restaurants = {"Burger King", "Chipotle", "Panda Express", "Subway"};
     for (int i = 0; i < restaurants.length; i++) {
@@ -116,5 +103,4 @@ You access an array element by referring to the index number. This statement acc
     //Outputs Panda Express
     //Outputs Subway
 }
-
 ```

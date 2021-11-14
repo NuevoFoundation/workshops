@@ -9,44 +9,41 @@ weight: 2
 
 ![image](../../img/mapExample.png)
 
-<h1>Hashmaps</h1>
+## Hashmaps
 
 <hr>
 
-A hashmap can store items in key/value pairs and you can asssign those pairs to different types such as Strings or Integers.
+A hashmap can store items in key/value pairs and you can assign those pairs to different types such as `String`s or `int`s.
 
-As usual, to create a hashmap, you will have to import the HashMap class like so.
-
+As usual, to create a `HashMap`, you will have to import the HashMap class like so.
 
 ```js javascript
-
 import java.util.HashMap; // will import HashMap
-HashMap<String, String> addresses = new HashMap<String, String>();
 
+HashMap<String, String> addresses = new HashMap<String, String>();
 ```
-In this case, we created a hashmap called addresses which holds a key of a String type and a value of String type.
+In this case, we created a `HashMap` called addresses which stores keys of `String` type and values of `String` type.
 
 <hr>
 
-<h1>Adding items to the HashMap</h1>
+### Adding items to the HashMap
 
 To add key/value pairs into the hashmap, use the `put()` method.
 
 ```js javascript
-
 // Import the HashMap class
 import java.util.HashMap;
 
 public class Main {
-  public static void main(String[] args) {
-    // Create a HashMap object called capitalCities
-    HashMap<String, String> addresses = new HashMap<String, String>();
+    public static void main(String[] args) {
+        // Create a HashMap object called capitalCities
+        HashMap<String, String> addresses = new HashMap<String, String>();
 
-    // Add keys and values (Country, City)
-    addresses.put("Melissa", "333 Foster St. Conyers, GA 30012");
-    addresses.put("Jun", "66 E. Wentworth Ave. Annandale, VA 22003");
-    addresses.put("Isabelle", "11 John Ave. Champaign, IL 61821");
-    addresses.put("Tom", "808 Blue Spring Street Colorado Springs, CO 80911");
+        // Add keys and values (Country, City)
+        addresses.put("Melissa", "333 Foster St. Conyers, GA 30012");
+        addresses.put("Jun", "66 E. Wentworth Ave. Annandale, VA 22003");
+        addresses.put("Isabelle", "11 John Ave. Champaign, IL 61821");
+        addresses.put("Tom", "808 Blue Spring Street Colorado Springs, CO 80911");
   }
 }
 
@@ -57,31 +54,31 @@ As you can see, the code above inserts a key/value pair into our hashmap address
 
 <hr>
 
-<h1>Look up an item</h1>
+### Look up an item
 
-To look up an item in a HashMap, use the `get()` method.
+To look up an item in a `HashMap`, use the `get()` method.
+
 ```js javascript
-
 // Import the HashMap class
 import java.util.HashMap;
 
 public class Main {
-  public static void main(String[] args) {
-    // Create a HashMap object called capitalCities
-    HashMap<String, String> addresses = new HashMap<String, String>();
+    public static void main(String[] args) {
+        // Create a HashMap object called addresses
+        HashMap<String, String> addresses = new HashMap<String, String>();
 
-    // Add keys and values (Name, Address)
-    addresses.put("Melissa", "333 Foster St. Conyers, GA 30012");
-    addresses.put("Jun", "66 E. Wentworth Ave. Annandale, VA 22003");
-    addresses.put("Isabelle", "11 John Ave. Champaign, IL 61821");
-    addresses.put("Tom", "808 Blue Spring Street Colorado Springs, CO 80911");
+        // Add keys and values (Name, Address)
+        addresses.put("Melissa", "333 Foster St. Conyers, GA 30012");
+        addresses.put("Jun", "66 E. Wentworth Ave. Annandale, VA 22003");
+        addresses.put("Isabelle", "11 John Ave. Champaign, IL 61821");
+        addresses.put("Tom", "808 Blue Spring Street Colorado Springs, CO 80911");
                                           
-    String junAddress = addresses.get("Jun");
-    System.out.println("Jun's address is: " + junAddress); //outputs Jun's address
-  }
+        String junAddress = addresses.get("Jun");
+        System.out.println("Jun's address is: " + junAddress); //outputs Jun's address
+    }
 }
-
 ```
+
 Using the `get()` method, we call `addresses.get("Jun")` and returns Jun's address.
 ![image](../../img/hashmapgraphic2.png)
 

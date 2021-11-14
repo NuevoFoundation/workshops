@@ -8,19 +8,17 @@ weight: 2
 <link rel="stylesheet" href="../style.css">
 
 
-<h1>Task 1: Using Hashmap to Organize data</h1>
+## Task 1: Using Hashmap to Organize data
 
-<p>Its a party! A customer has a big birthday part for more than 20 people! Everyone has their own order. To keep the mass order organized, you decide to create a hashmap of strings. The birthday girls name is Isabella, but her name is lost in the list. Can you figure out what did Isabella ordered?</p>
-
+It's a party! A customer has a big birthday party for more than 20 people! Everyone has their own order. To keep the mass order organized, you decide to create a hashmap of `String`s. The birthday girl's name is Isabella, but her name is lost in the list. Can you figure out what Isabella ordered?
 
 {{%notice tip%}}
-1. Do you remember the hashmap meathods?
+1. Do you remember the hashmap methods?
 2. Look at example order below!
 {{%/notice%}}
 
 ```js javascript
-
-	//example of current hashmap
+	 //example of current hashmap
      HashMap<String, String> order = new HashMap<String, String, String>();
 
      	//key, value
@@ -30,8 +28,6 @@ weight: 2
     	order.put("Eva", "Coke");
     	order.put("Olivia", "Coke");
     	...
-
-
 ```
 
 <iframe height="800px" width="100%" src="https://replit.com/@nuevofoundation/HashFind?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>

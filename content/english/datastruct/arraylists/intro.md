@@ -36,12 +36,12 @@ To add items to an order, we will use the `add` method. If the customer were ord
 import java.util.ArrayList;
 
 public class Main {
-  public static void main(String[] args) {
-    ArrayList<String> order = new ArrayList<String>();
-    order.add("Whopper");
-    order.add("Chicken Nugget");
-    order.add("Fries");
-  }
+    public static void main(String[] args) {
+        ArrayList<String> order = new ArrayList<String>();
+        order.add("Whopper");
+        order.add("Chicken Nugget");
+        order.add("Fries");
+    }
 }
 ```
 If we wanted to get the first item of an arraylist, you would use the get() method along with the index number of the element like so:
@@ -50,13 +50,13 @@ If we wanted to get the first item of an arraylist, you would use the get() meth
 import java.util.ArrayList;
 
 public class Main {
-  public static void main(String[] args) {
-    ArrayList<String> order = new ArrayList<String>();
-    order.add("Whopper");
-    order.add("Chicken Nugget");
-    order.add("Fries");
-    System.out.println(order.get(0));
-    //outputs whopper
+    public static void main(String[] args) {
+        ArrayList<String> order = new ArrayList<String>();
+        order.add("Whopper");
+        order.add("Chicken Nugget");
+        order.add("Fries");
+        System.out.println(order.get(0));
+        //outputs whopper
   }
 }
 ```

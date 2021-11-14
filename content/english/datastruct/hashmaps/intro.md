@@ -11,12 +11,10 @@ weight: 1
 
 <hr>
 
-A hashmap is very similar to a dictionary. In a dictionary, you might want to look up a definition for a certain word. You simply look up the keyword in the dictionary and by doing so, you can get the definition attached to that keyword.
+A hashmap is a table that holds a collection of key-value pairs. It "maps" numerous keys to their respective values. A hashmap is very similar to a dictionary. In a dictionary, you might want to look up a definition for a certain word. You simply look up the keyword in the dictionary and by doing so, you can get the definition attached to that keyword. The dictionary maps words (the "keys") to their definition (the "values").
 
-Hashmaps are very similar to dictionaries. A hashmap is a hash table that holds a collection of key-value pairs. It "maps" numerous keys to their respective values.
-
-Let's think about how we could use a hashmap to to help our driver find the address he needs to deliver the order. Let's say that he has four customer orders he has to deliver. The way you store a key-value pair is arbitrary but in this case, let's say that the four orders keys are the customer's name and the value that is returned is their address.
+Let's think about how we could use a hashmap to to help our driver find the address he needs to deliver the order. Suppose they have four customer orders to deliver. We can use a hashmap to store this information, where the keys are the customer names and the values are each customer's address.
 
 ![image](../../img/customerName.png)
 
-We want our driver to be able to access the addresses just like how you would look up definitions in a dictionary. By looking up "Melissa", you would return Melissa's address instead. We'll learn how to implement this behavior in the next page.
+We want our driver to be able to access the addresses just like how you would look up definitions in a dictionary. By looking up "Melissa", you would return Melissa's address. We'll learn how to implement this behavior in the next page.

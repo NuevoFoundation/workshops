@@ -9,12 +9,11 @@ weight: 3
 
 <link rel="stylesheet" href="../style.css">
 
-
 ## ArrayList Task 1: Inserting
 
 <p>Tacos Truck is now avaiable down the street! New employees are struggling to get keep track of all the different orders. Help them organize all the items using ArrayLists! </p>
 
-```java
+```js javascript
     /*
     Dan is ordering from his favorite taco shop:
         -2 orders of "carne asada"
@@ -24,7 +23,6 @@ weight: 3
 
         Return an arraylist of all of these elements in that order
     */
-
 ```
 
 {{%notice tip%}}
@@ -38,8 +36,7 @@ weight: 3
 
 <p>A restaurant selling Chinese food has just opened nearby. A huge number of orders has just come in and the manager has trouble keeping track of everything, so they have put it all in an `ArrayList`. Help finish the program to return the given string at a given index.</p>
 
-```java
-
+```js javascript
     ArrayList<String> menu = new ArrayList<>(); 
   
         menu.add("Pizza"); 
@@ -52,7 +49,6 @@ weight: 3
 
     //find will return since it is the 0th item in the menu
     item = "Pizza"
-
 ```
 
 {{%notice tip%}}
@@ -60,15 +56,13 @@ weight: 3
 2. Look at the example menu!
 {{%/notice%}}
 
-
 <iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@nuevofoundation/ListGet?lite=true"></iframe>
 
 ## ArrayList Task 3: Removing Elements
 
 <p>The same Chinese restaurant has a bug in their code! Orders have been duplicated randomly and the `ArrayList` are filled with copies of orders. Help the owner out by writing a program to remove the first `n` occurrences of a given order in the `ArrayList`.</p>
 
-```java
-
+```js javascript
     ArrayList<String> menu = new ArrayList<>(); 
   
         menu.add("Pizza"); 
@@ -83,7 +77,6 @@ weight: 3
 
     //find will remove the first two Pizza orders
     menu = {"Hotdog", "Hamburger", "Pizza", "Hotdog"}
-
 ```
 
 <iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@nuevofoundation/ListRemove?lite=true"></iframe>

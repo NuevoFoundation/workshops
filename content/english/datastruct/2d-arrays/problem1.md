@@ -11,9 +11,9 @@ weight: 4
 ```js javascript
 {
     String[][] menu = {    
-                        {  "Hamburger", "Pasta", "Steak", "Tacos" 	},
-                        {  "Cola", "Sprite", "Pepsi", "Fanta" 		},
-                        {  "Pudding", "Ice Cream", "Mochi", "Cake" 	}
+                        { "Hamburger", "Pasta", "Steak", "Tacos" },
+                        { "Cola", "Sprite", "Pepsi", "Fanta" },
+                        { "Pudding", "Ice Cream", "Mochi", "Cake" }
                       };
 }
 ```
