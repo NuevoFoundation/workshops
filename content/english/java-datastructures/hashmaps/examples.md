@@ -1,5 +1,5 @@
 ---
-title: "Example"
+title: "Examples"
 date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 2
@@ -26,7 +26,7 @@ In this case, we created a `HashMap` called addresses which stores keys of `Stri
 
 <hr>
 
-### Adding items to the HashMap
+## Adding items to the HashMap
 
 To add key/value pairs into the hashmap, use the `put()` method.
 
@@ -46,7 +46,6 @@ public class Main {
         addresses.put("Tom", "808 Blue Spring Street Colorado Springs, CO 80911");
   }
 }
-
 ```
 As you can see, the code above inserts a key/value pair into our hashmap addresses.
 
@@ -54,7 +53,7 @@ As you can see, the code above inserts a key/value pair into our hashmap address
 
 <hr>
 
-### Look up an item
+## Looking up an item in the HashMap
 
 To look up an item in a `HashMap`, use the `get()` method.
 

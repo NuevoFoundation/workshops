@@ -1,5 +1,6 @@
 ---
 title: "Hashmaps: The Delivery"
+date: 2020-02-10T13:24:17-07:00
 weight: 7
 draft: false
 ---

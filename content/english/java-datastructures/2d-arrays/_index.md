@@ -1,5 +1,6 @@
 ---
 title: "2D Arrays: The Menu"
+date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 3
 ---

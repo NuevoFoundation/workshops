@@ -1,5 +1,5 @@
 ---
-title: "Examples"
+title: "Methods"
 date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 2
@@ -82,7 +82,7 @@ public class Main {
         order.add("Chicken Nugget");
         order.add("Fries");
         for (int i = 0; i < order.size(); i++) {
-          System.out.println(order.get(i));
+            System.out.println(order.get(i));
         }
     }
 }

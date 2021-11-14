@@ -1,5 +1,6 @@
 ---
-title: "Examples"
+title: "Array Methods and Examples"
+date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 2
 ---
@@ -11,8 +12,6 @@ weight: 2
 ![array](../../img/example.png)
 
 <hr>
-
-<br><br>
 
 ## Creating an array
 
@@ -39,7 +38,6 @@ To create an array of integers, you could write:
 }
 ```
 <hr>
-<br>
 
 ## Accessing elements of an array
 
@@ -54,9 +52,8 @@ You access an array element by referring to the index number. This statement acc
 ```
 
 <hr>
-<br>
 
-## Change an array element
+## Changing an array element
 
 To change the value of a specific element, refer to the index number:
 
@@ -72,9 +69,8 @@ To change the value of a specific element, refer to the index number:
 ```
 
 <hr>
-<br>
 
-## Array length
+## Finding the length of an array
 
 To find out how many elements an array has, use the `length` property:
 
@@ -86,7 +82,6 @@ To find out how many elements an array has, use the `length` property:
 }
 ```
 <hr>
-<br>
 
 ## Looping through an array
 

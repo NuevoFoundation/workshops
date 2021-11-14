@@ -1,9 +1,10 @@
 ---
 title: "Problem 2: Advanced Arrays"
-description: "Problem 2"
 date: 2020-07-16T00:00:00Z
 weight: 4
 ---
+
+<!--<link rel="stylesheet" href="../../style.css">-->
 
 ## Task 1: Find the average cost!
 

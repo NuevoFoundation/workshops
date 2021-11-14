@@ -1,11 +1,12 @@
 ---
-title: "Problem 1: Array Basics"
+title: "Problem 1: Array basics"
+date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 2
 ---
 <!--<link rel="stylesheet" href="../../style.css">-->
 
-## Array Task 1: Printing
+## Task 1: Printing
 
 We've created an array of existing restaurants in our system! We need your help to print out everything so we do not include the same restaurants.
 
@@ -29,7 +30,7 @@ the answer should print out:
 
 <iframe height="800px" width="100%" src="https://replit.com/@nuevofoundation/Arrays1?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-## Array Task 2: Changing Elements
+## Task 2: Changing Elements
 
 Oh no! McDonalds is out of food! Change the restaurant list before people start ordering from McDonalds, and be disappointed with no food. Luckily "Pizza Hut" is willing to help out! Replace McDonalds with Pizza Hut in the index.
 

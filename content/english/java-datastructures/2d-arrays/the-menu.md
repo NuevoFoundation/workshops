@@ -1,5 +1,6 @@
 ---
 title: "The Menu"
+date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 2
 ---
@@ -24,4 +25,4 @@ As you can see, the 0th element should be our Burger King Array. Just like our 1
 
 Question: If we wanted to order some orange chicken and orange chicken was the 10th element of our Panda Express array, how could we access that element?
 
-If you answered `Restaurant[2][9]`, then you are correct! Panda Express is the third array [2], and orange chicken is the tenth element [9].
+If you answered `Restaurant[2][9]`, then you are correct! Panda Express is the third array `[2]`, and orange chicken is the tenth element `[9]`.
