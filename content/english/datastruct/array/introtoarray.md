@@ -12,7 +12,7 @@ weight: 1
 ![arraywhat](../../img/whatis.png)
 <hr>
 
-<p>Welcome to your first data structure we will be learning about today—<b>arrays</b>! Arrays are a data structure where each of its elements are arranged in a numerical sequence and each item is referenced by its position number. In Java, each of these elements are of one type (String, int, double, etc.) and are zero indexed, which means that the first element in an array starts at 0, the second element with 1, and so on. </p>
+<p>Welcome to your first data structure we will be learning about today—<b>arrays</b>! An array is a data structure where each of its elements are arranged in a numerical sequence and each item is referenced by its position number. In Java, each of these elements are of one type (`String`, `int`, `double`, etc.) and are zero indexed, which means that the first element in an array starts at 0, the second element with 1, and so on. </p>
 
 ![array](../../img/array.png)
 

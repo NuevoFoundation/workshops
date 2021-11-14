@@ -11,7 +11,7 @@ weight: 4
 ## Task 1: Sum!
 
 
-<p>In the 2D array below we have a list of different foods. Each row is the same type. For an example, row 1 is a array of main courses. Row 2 is an array of drinks and row 3 is an array of desserts.</p>
+<p>In the 2D array below we have a list of different foods. Each row is the same type. For example, row 1 is an array of main courses. Row 2 is an array of drinks and row 3 is an array of desserts.</p>
 
 
 ```java
@@ -35,7 +35,7 @@ weight: 4
 
 ## Task 2: Search for an Item!
 
-<p>The manager wants to know if there is a specific item in the menu. Write a program to search for that item and returns true or false if it exist in the menu.</p>
+<p>The manager wants to know if there is a specific item in the menu. Write a program to search for that item and returns `true` or `false` if it exists in the menu.</p>
 
 {{%notice tip%}}
 1. Remember to check every element in the row and column!

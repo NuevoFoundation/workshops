@@ -38,7 +38,7 @@ Output: 1
 
 ## Task 2: Code Breaker
 
-<p>NuevoEats utilizes an encryption system to verify all orders, and you have to find a way to decrypt it. Everyone has a copy of the nums array. However, you are the only one with the target key. The password is a 2 key password. To get this password, you must find the indices of the array that add up to the target. Examples are below for you to better understand the problem. </p>
+<p>NuevoEats utilizes an encryption system to verify all orders, and you have to find a way to decrypt it. Everyone has a copy of the `nums` array. However, you are the only one with the target key. The password is a 2 key password. To get this password, you must find the indices of the array that add up to the target. To better understand the problem, see the following examples below.</p>
 
 
 {{%notice tip%}}

@@ -32,9 +32,9 @@ for (int i = 0; i < 5; i++) {
 ```
 
 
-- Statement 1 sets a variable before the loop starts (int i = 0).
-- Statement 2 defines the condition for the loop to run (i must be less than 5). If the condition is true, the loop will start over again, if it is false, the loop will end.
-- Statement 3 increases a value (i++) each time the code block in the loop has been executed.
+- Statement 1 sets a variable before the loop starts (`int i = 0`).
+- Statement 2 defines the condition for the loop to run (`i` must be less than `5`). If the condition is `true`, the loop will start over again, if it is `false`, the loop will end.
+- Statement 3 increases a value (`i++`) each time the code block in the loop has been executed.
 
 
 This example will only print even values between 0 and 10:

@@ -39,7 +39,7 @@ public class Main {
 
 As you can see, similar to the array, we have to declare what types of data the `ArrayList` will contain. In this case, we will make it contains Strings, since menu items will have strings.
 
-To add items to an order, we will use the add method. If the customer were ordering from Burger King and wanted to order a combo with a Whopper, Chicken Nuggets, and Fries, your method might look something like this.
+To add items to an order, we will use the add method. If the customer were ordering from Burger King and wanted to order a combo with a Whopper, chicken nuggets, and fries, your method might look something like this.
 
 ```java
 import java.util.ArrayList;

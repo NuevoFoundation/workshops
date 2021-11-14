@@ -26,7 +26,7 @@ import java.util.HashMap; // will import HashMap
 HashMap<String, String> addresses = new HashMap<String, String>();
 
 ```
-In this case, we created a hashmap called addresses which holds a key of a `String` type and a value of `String` type.
+In this case, we created a `HashMap` called `addresses` which holds a key of a `String` type and a value of `String` type.
 
 <hr>
 
@@ -87,4 +87,4 @@ public class Main {
 Using the `get()` method, we call `addresses.get("Jun")` and returns Jun's address.
 ![hashmapgraphic](../../img/hashmapgraphic2.png)
 
-Those are some of the most basic methods of the hashmap. Other methods may include the `remove()` method, which removes an item or the `size()` method which returns how many items are in the hashmap. We will give more examples to let you try it out in the next page!
+Those are some of the most basic methods of the `HashMap`. Other methods may include the `remove()` method, which removes an item or the `size()` method which returns how many items are in the `HashMap`. We will give more examples to let you try it out in the next page!

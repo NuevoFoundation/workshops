@@ -17,14 +17,14 @@ weight: 2
 
 A stack is eerily similar to a queue. The only difference are the method names and the manner in which we retrive the items.
 
-Before we create a stack, we will have to import the stack class. To make life easier, we can use a * instead to import all. It will look something like this.
+Before we create a stack, we will have to import the stack class. To make life easier, we can use a `*` instead to import all. It will look something like this.
 
 ```java
 
 import java.util.*; // will import stack
 
 ```
-There are several methods to use on a stack and if you are interested, feel free to google the methods yourself. However, we are only going to talking about the most important methods now: push(), peek(), and pop().
+There are several methods to use on a stack and if you are interested, feel free to google the methods yourself. However, we are only going to talking about the most important methods now: `push()`, `peek()`, and `pop()`.
 
 <hr>
 

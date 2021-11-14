@@ -12,7 +12,7 @@ draft: false
 
 <hr>
 
-Now that the restaurants have finished prepping the order, a driver needs to come to pick up the order and deliver it to the customer. But where should the driver go? He needs an address somehow. We want to link a customer’s name and order to their respective address. We can accomplish this by utilizing a hashmap.
+Now that the restaurants have finished prepping the order, a driver needs to come to pick up the order and deliver it to the customer. But where should the driver go? He or she needs an address somehow. We want to link a customer’s name and order to their respective address. We can accomplish this by utilizing a `HashMap`.
 
 
 ![mapGoals](../img/mapGoals.png)

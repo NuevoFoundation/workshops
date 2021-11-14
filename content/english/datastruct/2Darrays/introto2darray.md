@@ -10,9 +10,9 @@ weight: 1
 <link rel="stylesheet" href="../../style.css">
 <hr>
 
-We've already learned plenty about arrays. We know that an array can hold many different types (ints, Strings, doubles, etc.), but how about an array that holds many arrays?
+We've already learned plenty about arrays. We know that an array can hold many different types (`int`s, `String`s, `double`s, etc.), but how about an array that holds many arrays?
 
-A 2D array has a type such as ```int[][]``` or `String[][]`, with two pairs of square brackets. The elements of a 2D array are arranged in rows and columns, and the new operator for 2D arrays specifies both the number of rows and the number of columns. For example,
+A 2D array has a type such as `int[][]` or `String[][]`, with two pairs of square brackets. The elements of a 2D array are arranged in rows and columns, and the new operator for 2D arrays specifies both the number of rows and the number of columns. For example,
 
 ```java
 

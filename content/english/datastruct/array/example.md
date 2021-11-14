@@ -87,7 +87,7 @@ You access an array element by referring to the index number. This statement acc
 
 <center><b><h2 style="font-size:2vw; font-family: sans-serif; font-weight: 600;">Array Length</h2></b></center>
 
-<p>To find out how many elements an array has, use the length property:</p>
+<p>To find out how many elements an array has, use the `length` property:</p>
 
 ```java
 
@@ -102,7 +102,7 @@ You access an array element by referring to the index number. This statement acc
 <br>
 <center><b><h2 style="font-size:2vw; font-family: sans-serif; font-weight: 600;">Looping Through an Array</h2></b></center>
 
-<p>You can loop through the array elements with the for loop, and use the length property to specify how many times the loop should run. The following example outputs all elements in the restaurants array:</p>
+<p>You can loop through the array elements with the `for` loop, and use the `length` property to specify how many times the loop should run. The following example outputs all elements in the restaurants array:</p>
 
 ```java
 

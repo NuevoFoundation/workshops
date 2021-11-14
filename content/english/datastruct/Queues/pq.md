@@ -15,7 +15,7 @@ weight: 2
 
 <hr>
 
-A `PriorityQueue` is used when the objects are supposed to be processed based on the priority. In this case, we want to sort the queue by the time the customer has been waiting. It is known that a `Queue` follows the First-In-First-Out algorithm, but sometimes the elements of the queue are needed to be processed according to the priority, that’s when the PriorityQueue comes into play. The `PriorityQueue` is based on the priority heap. The elements of the priority queue are ordered according to the natural ordering, or by a `Comparator` provided at queue construction time, depending on which constructor is used. 
+A `PriorityQueue` is used when the objects are supposed to be processed based on the priority. In this case, we want to sort the queue by the time the customer has been waiting. It is known that a `Queue` follows the First-In-First-Out algorithm, but sometimes the elements of the queue are needed to be processed according to some priority. A `PriorityQueue`, based on the priority heap, does the job. The elements of the priority queue are ordered according to the natural ordering, or by a `Comparator` provided at queue construction time, depending on which constructor is used. 
 
 Before we create a queue, we will have to import the queue class. To make life easier, we can use a `*` instead to import all. It will look something like this.
 
@@ -93,7 +93,7 @@ So we have three customer's with varying wait times of 10, 30, and 60. What do y
 
 Let's go ahead and try to digest the code a little bit. For the first line, we call `pQueue.peek()`. What does `peek()` do? Peek simply returns the element at the top. What is at the top? Well since it is already sorted, it should print the smallest element which is 10.
 
-How about `pQueue.poll()`? Well it should do the same exact thing as peek earlier, but now it removes the top element from the queue which is 10.
+How about `pQueue.poll()`? It should do the same exact thing as peek earlier, but now it removes the top element from the queue which is 10.
 
 What if we try to call `peek()` again? Well now that 10 does not exist anymore, it will now be 30.
 

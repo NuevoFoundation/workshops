@@ -12,7 +12,7 @@ weight: 3
 
 ## Task 1: Reversing Using Stack
 
-<p>Oh no! A new intern was hired and messed up the list of restaurants! The inputs of the restraunts are in REVERSE order! Luckily the stack is the perfect data strucutre for this. Can you create a new stack in the correct order?</p>
+<p>Oh no! A new intern was hired and messed up the list of restaurants! The inputs of the restaurants are in REVERSE order! Luckily the stack is the perfect data structure for this. Can you create a new stack in the correct order?</p>
 
 
 {{%notice tip%}}

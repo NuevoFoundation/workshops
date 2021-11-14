@@ -9,19 +9,19 @@ weight: 1
 
 <link rel="stylesheet" href="../style.css">
 
-# Before Nuevo Eats...
+## Before Nuevo Eats...
 
 ----------------------- ------------------------------------
 To begin your training in Nuevo Eats, you first must learn something called Data Structures! Here you will learn everything you need to do know for you to take on your first Nuevo Eats Mission! Let's start with the basics with what they are.
 
 ----------------------------------------------------------------
 
-# Data Structures!
+## Data Structures!
 
 
-Data structures are super awesome and are very powerful. By using code, we can store lots of information in organized categories for use later! 
+Data structures are awesome and powerful. By using code, we can store lots of information in organized categories for use later! 
 
-Storing items into these structures can let us access everything quickly and effectively- perfect for Nuevo Eats! Restaurants, foods, employees, and locations are just some of the examples we can use Data Structures to our advantage.
+Storing items into these structures can let us access everything quickly and effectively - perfect for Nuevo Eats! Restaurants, foods, employees, and locations are just some of the examples we can use Data Structures to our advantage.
 
 
 

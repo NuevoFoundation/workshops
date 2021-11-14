@@ -40,4 +40,4 @@ public static void main(String[] args)
 } 
 ```
 
-As you can see, we create an empty array called `arr`. In it, we have 10 arrays with 20 elements each respectively. To iterate through all the arrays, we do a standard `for`-loop just like how we would a normal array. However, the only difference is that we now need to create a second for loop that iterates through the `i`th array. In this example, we simply set `arr[i][j]` to `num``and `num++`.
+As you can see, we create an empty array called `arr`. In it, we have 10 arrays with 20 elements each respectively. To iterate through all the arrays, we do a standard `for`-loop just like how we would a normal array. However, the only difference is that we now need to create a second for loop that iterates through the `i`th array. In this example, we simply set `arr[i][j]` to `num` and `num++`.

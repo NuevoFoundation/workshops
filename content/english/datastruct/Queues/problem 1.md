@@ -24,14 +24,14 @@ weight: 3
 ```java
 	
 	   //this uses a list as the organizer of the queue.
-        PriorityQueue<String> orders = new PriorityQueue<String>();
+       PriorityQueue<String> orders = new PriorityQueue<String>();
      	orders.add("Fish Taco");
      	orders.add("Beef Taco");
      	orders.add("Chicken Taco");
      	orders.add("Fish Taco");
      	orders.add("Beef Taco");
 
-        clear(pQueue);
+       clear(pQueue);
         //After calling clear, orders should now be empty!
 
 ```
