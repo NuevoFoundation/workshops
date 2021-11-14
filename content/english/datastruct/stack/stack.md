@@ -4,30 +4,33 @@ date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 2
 --- 
+
+<p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/K6PWO0Mn0Jo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 <link rel="stylesheet" href="../../style.css">
 
-![image](../../img/stackExample.png)
+![stackExample](../../img/stackExample.png)
 
-<h1>Stacks</h1>
+## Stacks
 
 <hr>
 
 A stack is eerily similar to a queue. The only difference are the method names and the manner in which we retrieve the items.
 
-Before we create a stack, we will have to import the stack class. To make life easier, we can use a * instead to import all. It will look something like this.
+Before we create a stack, we will have to import the stack class. To make life easier, we can use a `*` instead to import all. It will look something like this.
 
-```js javascript
+```java
 
 import java.util.*; // will import stack
 
 ```
-There are several methods to use on a stack and if you are interested, feel free to google the methods yourself. However, we are only going to talking about the most important methods now: push(), peek(), and pop().
+There are several methods to use on a stack and if you are interested, feel free to google the methods yourself. However, we are only going to talking about the most important methods now: `push()`, `peek()`, and `pop()`.
 
 <hr>
 
-<h1>Creating a Stack</h1>
+## Creating a Stack
     
-```js javascript
+```java
 
 Stack driver = new Stack();
 
@@ -35,27 +38,27 @@ Stack driver = new Stack();
 
 <hr>
 
-<h1>Push()</h1>
+## Push()
 
-Adding Elements: In order to add an element to the stack, we can use the push() method. This push() operation place the element at the top of the stack.
-
-<hr>
-
-<h1>Peek()</h1>
-
-Accessing the Element: To retrieve or fetch the first element of the Stack or the element present at the top of the Stack, we can use peek() method. The element retrieved does not get deleted or removed from the Stack.
+Adding Elements: In order to add an element to the stack, we can use the `push()` method. This `push()` operation places the element at the top of the stack.
 
 <hr>
 
-<h1>pop()</h1>
+## Peek()
 
-Removing Elements: To pop an element from the stack, we can use the pop() method. The element is popped from the top of the stack and is removed from the same.
+Accessing the Element: To retrieve or fetch the first element of the Stack or the element present at the top of the Stack, we can use the `peek()` method. The element retrieved does not get deleted or removed from the Stack.
+
+<hr>
+
+## Pop()
+
+Removing Elements: To pop an element from the stack, we can use the `pop()` method. The element is popped from the top of the stack and is removed from the same.
 
 <hr>
 
 With these three methods in mind, let's go ahead and take a look at an example.
 
-```js javascript
+```java
 import java.util.*;
 public class Driver{
      public static void main(String []args){
@@ -72,9 +75,9 @@ public class Driver{
      }
 }
 ```
-<h1>Output:</h1>
+## Output:
 
-```js javascript
+```java
 [Burger King, Subway, Jack in the Box]
 ```
 

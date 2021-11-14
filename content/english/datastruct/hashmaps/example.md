@@ -5,36 +5,34 @@ draft: false
 weight: 2
 --- 
 
-<p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/tTYzBv-8qRU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-
 <link rel="stylesheet" href="../../style.css">
 
-![mapExample](../../img/mapExample.png)
+![image](../../img/mapExample.png)
 
-## Hashmaps
+<h1>Hashmaps</h1>
 
 <hr>
 
-A hashmap can store items in key/value pairs and you can assign those pairs to different types such as `String`s or `Integer`s.
+A hashmap can store items in key/value pairs and you can asssign those pairs to different types such as Strings or Integers.
 
-As usual, to create a hashmap, you will have to import the `HashMap` class like so.
+As usual, to create a hashmap, you will have to import the HashMap class like so.
 
 
-```java
+```js javascript
 
 import java.util.HashMap; // will import HashMap
 HashMap<String, String> addresses = new HashMap<String, String>();
 
 ```
-In this case, we created a `HashMap` called `addresses` which holds a key of a `String` type and a value of `String` type.
+In this case, we created a hashmap called addresses which holds a key of a String type and a value of String type.
 
 <hr>
 
-## Adding items to the HashMap
+<h1>Adding items to the HashMap</h1>
 
 To add key/value pairs into the hashmap, use the `put()` method.
 
-```java
+```js javascript
 
 // Import the HashMap class
 import java.util.HashMap;
@@ -55,14 +53,14 @@ public class Main {
 ```
 As you can see, the code above inserts a key/value pair into our hashmap addresses.
 
-![mapgraphic](../../img/hashmapgraphic.png)
+![image](../../img/hashmapgraphic.png)
 
 <hr>
 
-## Look up an item
-To look up an item in a HashMap, use the `get()` method.
+<h1>Look up an item</h1>
 
-```java
+To look up an item in a HashMap, use the `get()` method.
+```js javascript
 
 // Import the HashMap class
 import java.util.HashMap;
@@ -85,6 +83,6 @@ public class Main {
 
 ```
 Using the `get()` method, we call `addresses.get("Jun")` and returns Jun's address.
-![hashmapgraphic](../../img/hashmapgraphic2.png)
+![image](../../img/hashmapgraphic2.png)
 
-Those are some of the most basic methods of the `HashMap`. Other methods may include the `remove()` method, which removes an item or the `size()` method which returns how many items are in the `HashMap`. We will give more examples to let you try it out in the next page!
+Those are some of the most basic methods of the hashmap. Other methods may include the `remove()` method, which removes an item or the `size()` method which returns how many items are in the hashmap. We will give more examples to let you try it out in the next page!

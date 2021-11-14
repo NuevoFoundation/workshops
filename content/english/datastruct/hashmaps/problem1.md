@@ -1,0 +1,37 @@
+---
+title: "Problem 1: Hashing"
+date: 2020-02-10T13:24:17-07:00
+draft: false
+weight: 2
+--- 
+
+<link rel="stylesheet" href="../style.css">
+
+
+<h1>Task 1: Using Hashmap to Organize data</h1>
+
+<p>Its a party! A customer has a big birthday part for more than 20 people! Everyone has their own order. To keep the mass order organized, you decide to create a hashmap of strings. The birthday girls name is Isabella, but her name is lost in the list. Can you figure out what did Isabella ordered?</p>
+
+
+{{%notice tip%}}
+1. Do you remember the hashmap meathods?
+2. Look at example order below!
+{{%/notice%}}
+
+```js javascript
+
+	//example of current hashmap
+     HashMap<String, String> order = new HashMap<String, String, String>();
+
+     	//key, value
+    	order.put("Justin", "Sprite");
+    	order.put("George", "Coke");
+    	order.put("Sam", "Fanta");
+    	order.put("Eva", "Coke");
+    	order.put("Olivia", "Coke");
+    	...
+
+
+```
+
+<iframe height="800px" width="100%" src="https://replit.com/@nuevofoundation/HashFind?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>

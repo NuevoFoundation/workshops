@@ -4,14 +4,11 @@ date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 1
 --- 
-
-<p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/KxhJEkzPUU4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-
 <link rel="stylesheet" href="../../style.css">
 
-![queueIntro](../../img/queueIntro.png)
+![image](../../img/queueIntro.png)
 
-## Visualizing a Queue
+<h1>Visualizing a Queue</h1>
 
 <hr>
 

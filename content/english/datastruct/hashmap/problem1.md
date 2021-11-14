@@ -5,33 +5,61 @@ draft: false
 weight: 2
 --- 
 
+<p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/Gii8_e-ydDM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 <link rel="stylesheet" href="../style.css">
 
 
-<h1>Task 1: Using Hashmap to Organize data</h1>
+## Task 1: Find that Code!
 
-<p>Its a party! A customer has a big birthday part for more than 20 people! Everyone has their own order. To keep the mass order organized, you decide to create a hashmap of strings. The birthday girls name is Isabella, but her name is lost in the list. Can you figure out what did Isabella ordered?</p>
-
-
+Every order has a special code. The code appears once when a customer places an order and appears again when the customer receives the order. One of the customers never received their order! Find that special code linked to their order to verify their order!
 {{%notice tip%}}
-1. Do you remember the hashmap meathods?
-2. Look at example order below!
+1. How could you use a hashmap to keep track of the single number?
+2. Remember the hashmap methods!
 {{%/notice%}}
 
-```js javascript
+```java
 
-	//example of current hashmap
-     HashMap<String, String> order = new HashMap<String, String, String>();
+Example 1:
+Input: nums = [2,2,1]
+Output: 1
 
-     	//key, value
-    	order.put("Justin", "Sprite");
-    	order.put("George", "Coke");
-    	order.put("Sam", "Fanta");
-    	order.put("Eva", "Coke");
-    	order.put("Olivia", "Coke");
-    	...
+Example 2:
+Input: nums = [4,1,2,1,2]
+Output: 4
 
+Example 3:
+Input: nums = [1]
+Output: 1
 
 ```
 
-<iframe height="800px" width="100%" src="https://replit.com/@nuevofoundation/HashFind?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@nuevofoundation/SingleNumber?lite=true"></iframe>
+
+## Task 2: Code Breaker
+
+<p>NuevoEats utilizes an encryption system to verify all orders, and you have to find a way to decrypt it. Everyone has a copy of the `nums` array. However, you are the only one with the target key. The password is a 2 key password. To get this password, you must find the indices of the array that add up to the target. To better understand the problem, see the following examples below.</p>
+
+
+{{%notice tip%}}
+1. Do you remember the hashmap methods?
+2. Take a look at the hashmap methods containsKey() or containsValue() online and see how they could be useful here.
+{{%/notice%}}
+
+```java
+
+Example 1:
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Output: Because nums[0] + nums[1] == 9, we return [0, 1].
+
+Example 2:
+Input: nums = [3,2,4], target = 6
+Output: [1,2]
+
+Example 3:
+Input: nums = [3,3], target = 6
+Output: [0,1]
+```
+
+<iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@nuevofoundation/TwoSum?lite=true"></iframe>

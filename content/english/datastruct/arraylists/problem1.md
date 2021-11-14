@@ -5,17 +5,40 @@ draft: false
 weight: 3
 ---
 
-<h1>ArrayList Task 1: Removing Duplicates</h1>
+<p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/unwrTbTILmA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-<p style="margin-center: auto;padding: 1em 1em 1em 1em; margin-left: auto; margin-right: auto; width: 80em; font-size: 1vw; font-family: sans-serif; color:grey; line-height: 200%">In the menu there are numerous items! Customers can order all kinds of foods from Nuevo Eats! However when you look at the list there are duplicates! Help write a function to remove all duplicate items!</p>
+<link rel="stylesheet" href="../style.css">
 
+
+## ArrayList Task 1: Inserting
+
+<p>Tacos Truck is now avaiable down the street! New employees are struggling to get keep track of all the different orders. Help them organize all the items using ArrayLists! </p>
+
+```java
+    /*
+    Dan is ordering from his favorite taco shop:
+        -2 orders of "carne asada"
+        -4 orders of "carnitas"
+        -1 order of "pollo"
+        -2 orders of "birria"
+
+        Return an arraylist of all of these elements in that order
+    */
+
+```
 
 {{%notice tip%}}
-1. How can you iterate through the list?
-2. Look at the example menu!
+1. How can you add items onto the list?
+2. What does Dan want in the order?
 {{%/notice%}}
 
-```js javascript
+<iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@nuevofoundation/ListBasic?lite=true"></iframe>
+
+## ArrayList Task 2: Getting Element
+
+<p>A restaurant selling Chinese food has just opened nearby. A huge number of orders has just come in and the manager has trouble keeping track of everything, so they have put it all in an `ArrayList`. Help finish the program to return the given string at a given index.</p>
+
+```java
 
     ArrayList<String> menu = new ArrayList<>(); 
   
@@ -24,8 +47,45 @@ weight: 3
         menu.add("Hamburger"); 
         menu.add("Hotdog"); 
 
+    //if we run the code
+    item = find(menu, 0);
+
+    //find will return since it is the 0th item in the menu
+    item = "Pizza"
+
 ```
 
-<h1>ArrayList Task 2: Inserting at certain locations</h1>
+{{%notice tip%}}
+1. How can you iterate through the list?
+2. Look at the example menu!
+{{%/notice%}}
 
-<p style="margin-center: auto;padding: 1em 1em 1em 1em; margin-left: auto; margin-right: auto; width: 80em; font-size: 1vw; font-family: sans-serif; color:grey; line-height: 200%"></p>
+
+<iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@nuevofoundation/ListGet?lite=true"></iframe>
+
+## ArrayList Task 3: Removing Elements
+
+<p>The same Chinese restaurant has a bug in their code! Orders have been duplicated randomly and the `ArrayList` are filled with copies of orders. Help the owner out by writing a program to remove the first `n` occurrences of a given order in the `ArrayList`.</p>
+
+```java
+
+    ArrayList<String> menu = new ArrayList<>(); 
+  
+        menu.add("Pizza"); 
+        menu.add("Hotdog"); 
+        menu.add("Hamburger"); 
+        menu.add("Pizza");
+        menu.add("Pizza");
+        menu.add("Hotdog"); 
+
+    //if we run the code
+    item = find(menu,"Pizza", 2);
+
+    //find will remove the first two Pizza orders
+    menu = {"Hotdog", "Hamburger", "Pizza", "Hotdog"}
+
+```
+
+<iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@nuevofoundation/ListRemove?lite=true"></iframe>
+
+
