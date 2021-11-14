@@ -18,6 +18,6 @@ Find `// TODO (ACTIVITY 5)` in the code. Declare the variable `font_label`, assi
 You can get different fonts supported in your system by running `pygame.font.get_fonts()`. Try using a different font than `'arial'`. Which font do you like best? Press **run** to view the result.
 
 {{% /notice %}}
-
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/PongLessonStudent?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 ## Takeaway 
 You have just modified the font parameter by using a variable. If you happen to use the same font at multiple places in your program, you can just modify the variable in one place, and it will take effect everywhere you used the variable!

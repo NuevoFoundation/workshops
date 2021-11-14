@@ -1,7 +1,6 @@
 ---
 title: "Activity 4 - LCD Display"
 draft: false
-hidden: False
 weight: 7
 ---
 

@@ -5,7 +5,7 @@ function sql()
   document.getElementById("sqlcommand").style.visibility="visible";
 
   var user = document.getElementById("commands").innerHTML;
-  debug(user.toLowerCase(),"select planet, leader from galaxy;", "select leader, planet from galaxy;");
+  debug(user.toLowerCase(),"select planet_name, leader_name from galaxy;", "select leader_name, planet_name from galaxy;");
   var array = alasql("MATRIX OF " + user);
   var ans = JSON.stringify(alasql(user));
 
@@ -21,10 +21,10 @@ function sql()
     headArr.push(ansArr[i].substring( ansArr[i].indexOf('"') + 1, ansArr[i].indexOf('":')));
   }
 
-  sqlToTable(headArr, array);
+  sqlToTable(headArr, array, "table");
 
-  var ans1 = "select leader, planet from galaxy;";
-  var ans2 = "select planet, leader from galaxy;";
+  var ans1 = "select leader_name, planet_name from galaxy;";
+  var ans2 = "select planet_name, leader_name from galaxy;";
   user = user.toLowerCase();
   
   if(user == ans1 || user == ans2)
@@ -39,7 +39,7 @@ function sql()
     var checkmark = document.getElementById("resume_plot");
     checkmark.setAttribute("style","visibility:visible");
     
-    document.getElementById("story").innerHTML = "Amazing work as always, space cadet! You discovered that the Planet of Fun's Dear Leader is Olivia Windsor! Now you need to figure out a way to get to them!";
+    document.getElementById("story").innerHTML = "Amazing work as always, space cadet! You discovered that the Planet of Fun's Leader is Olivia Windsor! Now you need to figure out a way to get to them!";
   }
   else
   {

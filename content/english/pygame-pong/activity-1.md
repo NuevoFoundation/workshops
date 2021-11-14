@@ -19,7 +19,7 @@ Find `// TODO (ACTIVITY 1)` in the code. Modify the `WIDTH` attribute of `Pong` 
 Try changing the values for height and width to see the effects of different values on the game's boundary.
 
 {{% /notice %}}
-
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/PongLessonStudent?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ## Takeaway 
 You have just modified one of the attributes in `Pong` class to influence how the game will look on screen. 

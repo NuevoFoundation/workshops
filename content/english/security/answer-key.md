@@ -7,6 +7,4 @@ weight: 5
 ---
 
 ### Solution
-In our *Spy Game* the passwords "Ilovemypet" and "12345678" are weak and can be easily hacked/guessed by a malicious person.
-
-
+In our *Spy Game* the passwords "Ilovemypet" and "12345678" are weak and can be easily hacked/guessed by a malicious person

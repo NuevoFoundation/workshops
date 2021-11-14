@@ -7,14 +7,13 @@ difficulty: "Intermediate"
 download: "resources/_gen/files/TicTacToe.zip"
 icon: "fab fa-android"
 draft: false
-hidden: false
 ---
 
 ## Welcome
-<img src="https://media.giphy.com/media/1nOL7s74KmSk0zDlDD/giphy.gif" width="70%" height="70%" alt="Nuevo Foundation"/>
+<img src="https://media.giphy.com/media/1nOL7s74KmSk0zDlDD/giphy.gif" width="30%" height="30%" alt="Nuevo Foundation"/>
 
 ### Start your Android Game Adventure
-<img src="resources/_gen/images/game_play.gif" height="40%" width="40%" title="Android Tic-Tac-Toe Game" alt="Android Tic-Tac-Toe Game"/>
+<img src="resources/_gen/images/game_play.gif" height="20%" width="20%" title="Android Tic-Tac-Toe Game" alt="Android Tic-Tac-Toe Game"/>
 
 ## Adventure Checklist
 

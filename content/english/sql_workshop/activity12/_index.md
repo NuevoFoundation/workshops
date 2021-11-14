@@ -20,7 +20,7 @@ draft: false
 
 ### All the guests are here! We need to find the Inventor before it's too late!
 
-Everyone is having a good time at the party! The inventor has also arrived, now we need to figure out who the inventor is! No one knows what the inventor looks like, but the Dear Leader has given you hints on how to find the inventor!
+Everyone is having a good time at the party! The inventor has also arrived, now we need to figure out who the inventor is! No one knows what the inventor looks like, but the Leader has given you hints on how to find the inventor!
 
 ### Task 12: Display the entire database called "people" so we can look at all the attendees.
 {{%notice tip%}}
@@ -42,7 +42,7 @@ Everyone is having a good time at the party! The inventor has also arrived, now 
     <button class = "button reset" onclick="reset()">Reset</button>
 </div>
 <div style="clear: both;"></div> 
-<h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
+<h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT</strong></h1>
 <table id="table">
 	<tr></tr>
 </table>

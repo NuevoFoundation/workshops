@@ -2,14 +2,33 @@
 title: "Activity 5 - Secure User Permissions"
 description: "Use a Linux command to secure your files"
 date: 2020-09-17
-prereq: "None."
 difficulty: "Intermediate"
 weight: 8
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D5Y6LH0mBi0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 *Oh no. Some of our files might have been messed with! Let’s secure our notes, file1. We don't want a hacker to mess with these!*
 
-### But, How do we know how secure our files are?
+### How do we limit access to our files? 
+
+By giving users "permissions" on files! 
+
+Permissions are a way for the computer to determine who has access to files and what they can do with those files.
+
+In Linux, there are three common types of access to a file that a user might request: "read", "write", or "execute". 
+
+{{% notice note %}}
+
+"Read" access means that a user may open and read a file. "Read" access is often denoted with a `r` symbol. 
+
+"Write" access means that a user may open and write to a file. This includes renaming and moving a file to a different location in the filesystem. "Write" access is often denoted with a `w` symbol. 
+
+"Execute" access means that a user may attempt to run the file as a program. "Execute" access is often denoted with a `x` symbol. 
+
+{{% /notice %}}
+
+### But how do we know how secure our files are?
 
 Is there a command that we have learned so far that can show us how secure our files are?  
 Feel free to go back if you need to!
@@ -20,7 +39,7 @@ We should keep using that command to check if we changed the permissions as expe
 
 ---
 
-### How do we secure the files then?
+### How do we secure the files with permissions then?
 
 ```
 chmod u=rwx g=rx o=x file1
@@ -45,8 +64,7 @@ Now, let's try to change the permissions of our files. We want anyone outside of
 
 ![chmod command](../images/Act5.2.png?classes=border,shadow)
 
-{{% notice tip %}}
-#### Shortcut!
+#### Fun Fact: Shortcut!
 
 `chmod` can also be used with simple number commands. These commands are written like:  
 
@@ -54,13 +72,16 @@ Now, let's try to change the permissions of our files. We want anyone outside of
 chmod 751 [insert filename]
 ```
 
-The values can be understood as 7 is the combination of 4, 2, and 1. Thus, it gives users the permission to read, write, and execute.  
+The values can be understood as giving users the permission to read, write, and execute.  
 What permissions do the other two values give?  
 
 | Number | Meaning |
 | :---: | :---: |
+| 7 | read + write + execute |
+| 6 | read + write |
+| 5 | read + execute |
 | 4 | read |
+| 3 | execute + write |
 | 2 | write |
 | 1 | execute |
 | 0 | no permission |
-{{% /notice %}}

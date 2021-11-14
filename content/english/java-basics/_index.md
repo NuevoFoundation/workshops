@@ -6,13 +6,13 @@ prereq: "none"
 difficulty: "Beginner"
 icon: "fab fa-java"
 draft: false
-hidden: false
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/udEaocEYlpc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/udEaocEYlpc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ## Overview
 
-<img src="images/logo.png" height="150"/> 
+<img src="images/logo.png" height="150"/>
 
 Welcome to the course <b>Java: Basics</b>, where you will learn a widely used high-level programming language that gives computer instructions to create exciting programs!
 

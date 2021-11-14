@@ -5,7 +5,7 @@ draft: false
 weight: 5
 ---
 
-# Placing Text
+## Placing Text
 
 Now, you will learn how to place things within Phaser. Look at the repl below.
 
@@ -32,11 +32,12 @@ Put this line in your `create()` method at the bottom of the page and see if it 
 {{% notice warning %}}
 
 ### Help! My game window is very small!
+
 Don't worry, it's actually relatively big, but repl minimizes it as default. You can extend your window view by dragging around the bars in between them.
 
 {{% /notice %}}
 
-# Placing a Background
+## Placing a Background
 
 Texts are very simple, but when we want to use our own custom sprites for the game (which you almost always will), you have to first load the sprite in preload() before you specify its location in create().
 
@@ -60,11 +61,12 @@ The coordinate (400, 300) refers to the location where we are placing the center
 
 {{% /notice %}}
 
-# Placing a Character
+## Placing a Character
 
 Next, let's put a character into our world.
 
 The code that goes into your preload() function looks like this:
+
 ```javascript
 this.load.spritesheet('dude', 'assets/dude.png', {
     frameWidth: 32,
@@ -95,8 +97,4 @@ Try adding in the character! Do you see the character on your screen?
 
 {{% /notice %}}
 
-
 <iframe height="800px" width="100%" src="https://repl.it/@nuevofoundation/PhasorPlacingThings?lite=true" scrolling="yes" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
-
-

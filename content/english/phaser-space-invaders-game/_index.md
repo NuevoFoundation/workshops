@@ -5,10 +5,9 @@ date: 2020-08-20T11:45:38-07:00
 difficulty: "Intermediate"
 prereq: "JavaScript: Basics"
 draft: false
-hidden: true
 ---
 
-# Introduction
+## Introduction
 
 The goal of this lesson is to walk you through the creation of a game inspired by Space Shooters like Space Invaders and Galaga. You will also get a small taste of thinking about Object Oriented Programming.
 

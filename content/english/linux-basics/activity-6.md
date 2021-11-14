@@ -2,24 +2,20 @@
 title: "Activity 6 - A BAD File"
 description: "Use Linux commands to search"
 date: 2020-09-17
-prereq: "None."
 difficulty: "Intermediate"
 weight: 9
 ---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OaXi1GN_93U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 *I know I had a file `secret-message.txt` with one of my favorite quotes in it. "Do. Or do not. There is no try." Can you help me find it?*
 
 ### Searching for a pattern in a file?
 
-`grep` is a command used to search for a pattern of `chars`. There are different flags or options that can change how it is used.  
+`grep` is a command used to search for text within files. There are different flags or options that can change how it is used.  
 The format is: `grep [flag] “[pattern]” [filename]`.
 
-{{% notice tip %}}
-A `char` is any letter, symbol, or number. Examples include `!`, `h`, `2`, etc.
-{{% /notice %}}
-
-
-|flags | Uses |
+| flags | Uses |
 | :--- | :---- |
 | -c | To get the number of files with the pattern. |
 | -i | To make the search case-insensitive. “uNiX” is the same as “unix” |

@@ -55,7 +55,6 @@ article > aside {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  left: 0;
   padding: 2rem 0rem 1rem 0rem;
   position: fixed;
   top: 130px;
@@ -208,7 +207,7 @@ section a {
 }
 
 section strong {
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .nav-select {
@@ -292,6 +291,10 @@ article {
   -ms-flex: 1;
   flex: 1;
   margin-top: 3.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  width:100%;
+  max-width: 1210px;
 }
 
 article section.page {

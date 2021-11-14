@@ -5,6 +5,7 @@ date: 2019-07-23T14:54:53-07:00
 difficulty: "Beginner to Intermediate"
 download: "https://github.com/NuevoFoundation/workshops/tree/master/content/microbit"
 draft: true
+hidden: true
 icon: "fas fa-microchip"
 ---
 

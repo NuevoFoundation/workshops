@@ -3,7 +3,6 @@ title: "Web Developer Guidelines"
 date: 2019-07-22T14:08:32-07:00
 draft: false
 weight: 4
-hidden: true
 ---
 
 This document is for **website developers only** for changing the [Nuevo Foundation workshop project](https://github.com/nuevoFoundation/workshops) templates and style.
@@ -14,7 +13,7 @@ Before adding/updating the website, ensure you have synced with the project team
 
 ## Setup
 
-Follow the instructions in the Project readme.md to install Git and Hugo to test the project locally.
+Follow the instructions in the [Getting Started](../getting-started/) page to install Git and Hugo to test the project locally.
 
 ## Web design styles and structure
 
@@ -41,5 +40,5 @@ You can change the `baseURL` when building content instead of changing the confi
 ## Tips and Tricks
 
 - **Ignore Public**: By default, running `hugo` with no parameters will build the site to the public directory. Make sure you do not add the public directory to source control (it's in gitignore now).
-- **Left Nav**: You can hide content from the left nav by setting metadata on the file hidden: true (like this page's markdown!)
+- **Left Nav**: You can hide content from the left nav by setting metadata on the file hidden: true (like this workshop's index.md markdown!)
 - **Partials**: For reusable components to a page, create a new partial under `/themes/docdock/layouts/partials/flex/`.

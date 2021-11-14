@@ -9,7 +9,7 @@ hidemetadata: true
 
 {{< workshop-list style="card" depth="1" showhidden="false" description="true"  />}}
 
-## Pautas para colaboradores (en inglés)
-
+## ¿Cómo contribuir?
+¿Quisieras ayudar a mejorar nuestros talleres o nuestra página web? Aquí explicamos cómo:
 - [Pautas para colaboradores](guidelines/)
-- [Pautas para desarrolladores de sitios web](../guidelines/web-developer)
+- [Pautas para desarrolladores web](../guidelines/web-developer) (en inglés)

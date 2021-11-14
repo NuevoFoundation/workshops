@@ -10,7 +10,7 @@ draft: false
 
 {{% notice info %}}
 
-If you would like to test the following code, visit <a href="https://colab.research.google.com/drive/1ndj0W1P_3uAG-L2a6LwxdJPSHbSK5WE6?usp=sharing" target="_blank">this link</a> 
+If you would like to test the following code, visit <a href="https://colab.research.google.com/drive/1ndj0W1P_3uAG-L2a6LwxdJPSHbSK5WE6?usp=sharing" target="_blank">this link</a>
 
 To edit this code, click on the 'Copy to Drive' button to make a personal copy of this notebook. Make sure you are logged in to your Google account.
 ![](../media/colab_copy.png)
@@ -21,7 +21,6 @@ Once you make a copy, please make sure to replace the "Copy of" with your name, 
 {{% /notice%}}
 
 {{% /notice %}}
-
 
 {{% notice tip %}}
 Before moving on, please check your Google Colab notebook against the code below:
@@ -60,6 +59,7 @@ plt.colorbar() #displays the color bar on the right
 plt.grid(False)
 plt.show() #displays the entire plot
 ```
+
 ![Ankle Boot](../media/a2q1.png)
 
 ```python
@@ -69,6 +69,7 @@ plt.colorbar() #displays the color bar on the right
 plt.grid(False)
 plt.show() #displays the entire plot
 ```
+
 ![Shirt](../media/a2progress2.png)
 
 ```python
