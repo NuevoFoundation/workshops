@@ -35,10 +35,10 @@
     
 {{- if not $.Site.Params.disableNavChevron -}}
     {{- with ($.Scratch.Get "prevPage") -}}
-        <a class="nav nav-prev" href="{{.URL}}" title="{{.Title}}">{{ partial "nextbutton" (dict "subsection" .Title "isNext" false)}}</a>
+        {{ partial "next-prev-button" (dict "subsection" .Title "URL" .URL "isNext" false)}}
     {{ end -}}
     {{- with ($.Scratch.Get "nextPage") -}}
-        <a class="nav nav-next" href="{{.URL}}" title="{{.Title}}">{{ partial "nextbutton" (dict "subsection" .Title "isNext" true)}}</a>
+        {{ partial "next-prev-button" (dict "subsection" .Title "URL" .URL "isNext" true)}}
     {{- end }}
 {{- end -}}
 </div>

@@ -1,14 +1,23 @@
 <style>
-    .nextbutton-border {
-        margin: auto auto auto 0px;
+    @media (max-width: 768px) {
+        .nextprevbutton-desktop-only {
+            display: none;
+        }
+    }
+
+    #navigation a.nav-prev, #navigation a.nav-next {
         width: 340px;
+    }
+
+    .nextprevbutton-border {
+        width: 100%;
 
         background: #FFFFFF;
         border: 4px solid #000000;
         border-radius: 4px; 
     }
 
-    .nextbutton-next-text {
+    .nextprevbutton-next-text {
         margin: 21px auto auto 20px;
 
         text-align: left;
@@ -19,7 +28,7 @@
         color: rgba(0, 0, 0, 0.64);
     }
 
-    .nextbutton-subsection-name {
+    .nextprevbutton-subsection-name {
         margin: 13px auto auto 21px;
 
         text-align: left;
@@ -29,14 +38,14 @@
         line-height: 29px;
     }
 
-    .nextbutton-horizontal-bar {
+    .nextprevbutton-horizontal-bar {
         margin: 26px auto auto 25px;
         width: 48px;
         
         border: 2px solid #000000;
     }
 
-    .nextbutton-part-text {
+    .nextprevbutton-part-text {
         margin: 26px auto auto 21px;
 
         text-align: left;
@@ -55,7 +64,7 @@
 
     .prevbutton-image {
         margin: 15px auto 5px 15px;
-        
+
         font-size: 20px;
         line-height: normal;
         text-align: left;
@@ -63,21 +72,25 @@
 
 </style>
 
-<div class="nextbutton-border">
-    <div class="nextbutton-next-text">
-        Up next:
+<a class='nav {{ cond .isNext "nav-next" "nav-prev" }}' href="{{.URL}}" title="{{.subsection}}">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Up next:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                {{.subsection}}
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        {{if .isNext}}
+        <div class="nextbutton-image">
+            <i class="fa fa-arrow-right"></i>
+        </div>
+        {{else}}
+        <div class="prevbutton-image">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+        {{end}}
     </div>
-    <div class="nextbutton-subsection-name">
-        {{.subsection}}
-    </div>
-    <div class="nextbutton-horizontal-bar"></div>
-    {{if .isNext}}
-    <div class="nextbutton-image">
-        <i class="fa fa-arrow-right"></i>
-    </div>
-    {{else}}
-    <div class="prevbutton-image">
-        <i class="fa fa-arrow-left"></i>
-    </div>
-    {{end}}
-</div>
+</a>
