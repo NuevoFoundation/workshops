@@ -1,12 +1,17 @@
 {{- $currentNode := . }}
+
 {{- if eq .Site.Params.orderSectionsBy "title"}}
-{{- range .Site.Home.Sections.ByTitle}}
-{{- template "menu-nav" dict "sect" . "currentnode" $currentNode "level" 1}}
-{{- end}}
+  {{- range .Site.Home.Sections.ByTitle}}
+    {{- if (or (eq $currentNode .Site.Home) (.IsAncestor $currentNode))}}
+      {{- template "menu-nav" dict "sect" . "currentnode" $currentNode "level" 1}}
+    {{- end}}
+  {{- end}}
 {{- else}}
-{{- range .Site.Home.Sections.ByWeight}}
-{{- template "menu-nav" dict "sect" . "currentnode" $currentNode "level" 1}}
-{{- end}}
+  {{- range .Site.Home.Sections.ByWeight}}
+    {{- if (or (eq $currentNode .Site.Home) (.IsAncestor $currentNode))}}
+      {{- template "menu-nav" dict "sect" . "currentnode" $currentNode "level" 1}}
+    {{- end}}
+  {{- end}}
 {{- end}}
 
 <!-- templates -->

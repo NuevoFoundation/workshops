@@ -3,11 +3,15 @@
 
 {{- if eq .Site.Params.orderSectionsBy "title"}}
   {{- range .Site.Home.Sections.ByTitle}}
-  {{- template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks}}
+    {{- if (or (eq $currentNode .Site.Home) (.IsAncestor $currentNode))}}
+      {{- template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks}}
+    {{- end}}
   {{- end}}
 {{- else}}
   {{- range .Site.Home.Sections.ByWeight}}
-  {{- template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks}}
+    {{- if (or (eq $currentNode .Site.Home) (.IsAncestor $currentNode))}}
+      {{- template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks}}
+    {{- end}}
   {{- end}}
 {{- end}}
 
