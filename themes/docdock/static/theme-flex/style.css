@@ -294,7 +294,8 @@ article {
   margin-right: auto;
   margin-left: auto;
   width:100%;
-  max-width: 1210px;
+  /* Re-enable max-width after #259 is fixed (https://github.com/NuevoFoundation/workshops/issues/259) */
+  /* max-width: 1210px; */
 }
 
 article section.page {
