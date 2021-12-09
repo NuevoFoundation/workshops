@@ -278,6 +278,68 @@ section strong {
 #navigation a.nav-next {
   text-align: right;
 }
+@media (max-width: 768px) {
+  .nextprevbutton-desktop-only {
+      display: none;
+  }
+}
+#navigation a.nav-prev, #navigation a.nav-next {
+  width: 340px;
+}
+#navigation .nextprevbutton-border {
+  width: 100%;
+
+  background: #FFFFFF;
+  border: 4px solid #000000;
+  border-radius: 4px; 
+}
+#navigation .nextprevbutton-next-text {
+  margin: 21px auto auto 20px;
+
+  text-align: left;
+  font-family: Space Mono, monospace;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.64);
+}
+#navigation .nextprevbutton-subsection-name {
+  margin: 13px auto auto 21px;
+
+  text-align: left;
+  font-family: Lato, monospace;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+}
+#navigation .nextprevbutton-horizontal-bar {
+  margin: 26px auto auto 25px;
+  width: 48px;
+  height: 4px;
+  background-color: black;
+}
+#navigation .nextprevbutton-part-text {
+  margin: 26px auto auto 21px;
+
+  text-align: left;
+  font-family: Lato, monospace;
+  font-size: 18px;
+  line-height: 22px;
+}
+#navigation .nextbutton-image {
+  margin: 15px 15px 5px auto;
+
+  font-size: 20px;
+  line-height: normal;
+  text-align: right;
+}
+#navigation .prevbutton-image {
+  margin: 15px auto 5px 15px;
+
+  font-size: 20px;
+  line-height: normal;
+  text-align: left;
+}
 
 .burger {
   display: none;
