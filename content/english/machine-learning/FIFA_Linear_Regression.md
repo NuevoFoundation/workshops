@@ -23,14 +23,14 @@ We know the *input* which consists of player attributes and the *output* which i
 </p>
 <p>
 Today, we are going to use a simple model called Linear Regression. 
-Let assume the formula that calculates the overall ratings of soccer player $ y = f(x)$ is
+Let assume the formula that calculates the overall ratings of soccer player \( y = f(x)\) is
 \[
     f(x) = ax + b
 \]
-The linear regression aims to figure out $a$ and $b$. The formula $f(x)$ is called "model" in machine learning, and the process of solve/estimate the model is called "training" the model. Once we trained the model, we can use it to predict target $y$ of new data.
+The linear regression aims to figure out \(a\) and \(b\). The formula \(f(x)\) is called "model" in machine learning, and the process of solve/estimate the model is called "training" the model. Once we trained the model, we can use it to predict target \(y\) of new data.
 </p>
 <p>   
-Back to our story, if we only have 1 variable $x$, estimate $f(x)$ should be easy. Everyone should be able to solve it with a pen and a piece of paper. However, when $x$ is a long list of attributes of soccer players like speed, power, passing, tackling, it becomes complicated. The formula should be rewritten into
+Back to our story, if we only have 1 variable \(x\), estimate \(f(x)\) should be easy. Everyone should be able to solve it with a pen and a piece of paper. However, when \(x\) is a long list of attributes of soccer players like speed, power, passing, tackling, it becomes complicated. The formula should be rewritten into
 \[
     f(x_1, x_2, ..., x_n) = a_1 * x_1 + a_2 * x_2 + ... + a_n * x_n + b
 \]
@@ -181,7 +181,7 @@ print("The # of testing data is " + str(len(test_data)))
 
 # Step 5: feature selection
 
-Our next step is selecting proper features. Feature selection is a term in machine learning to describe the method and process of choosing relevant features for the model. A feature is one $x$ in the formula. In our story, it is an attribute of a soccer player.
+Our next step is selecting proper features. Feature selection is a term in machine learning to describe the method and process of choosing relevant features for the model. A feature is one \(x\) in the formula. In our story, it is an attribute of a soccer player.
 
 Since we are using the linear regression model, how attribute correlated to the target ("Overall") becomes the criteria to choose the right features.
 
