@@ -1,4 +1,25 @@
-<div id="navigation">
+<style>
+    .workshop-complete-image {
+        margin: 40px auto 50px auto;
+        width: 340.8px;
+    }
+    
+    .workshop-complete-words {
+        font-family: Space Mono, monospace;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        text-align: center;
+    }
+    
+    .horizontal-bar {
+        background-color: #000000;
+        width: 120px;
+        height: 12px;
+        margin: 80px auto 0 auto;
+    }
+</style>
+
 <!-- Next prev page -->
 {{- $currentNode := . -}}
 
@@ -41,6 +62,22 @@
     {{ $isFirstPageOfWorkshop := (ne .Section ($.Scratch.Get "prevPage").Section) }}
     {{ $isLastPageOfWorkshop := (ne .Section ($.Scratch.Get "nextPage").Section) }}
 
+    {{- if $isLastPageOfWorkshop -}}
+    <div>
+        <hr/>
+        <div class="workshop-complete-image">
+            <img src="\images\NF_mascot.jpg">
+        </div>
+        <div class="workshop-complete-words">
+            <p>
+                You did it! 
+                <br> Workshop complete
+            </p>
+        </div>
+    </div>
+    {{- end -}}     
+
+    <div id="navigation">
     {{- if (not $isFirstPageOfWorkshop) -}}
         {{- with ($.Scratch.Get "prevPage") -}}
             <a class="nav nav-prev" href="{{.URL}}" title="{{.Title}}"> <i class="fa fa-chevron-left"></i><label>{{.Title}}</label></a>
@@ -51,5 +88,5 @@
             <a class="nav nav-next" href="{{.URL}}" title="{{.Title}}" style="margin-right: 0px;"><label>{{.Title}}</label><i class="fa fa-chevron-right"></i></a>
         {{- end -}}
     {{- end -}}
+    </div>
 {{- end -}}
-</div>
