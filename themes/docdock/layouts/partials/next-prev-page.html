@@ -62,11 +62,11 @@
     {{ $isFirstPageOfWorkshop := (ne .Section ($.Scratch.Get "prevPage").Section) }}
     {{ $isLastPageOfWorkshop := (ne .Section ($.Scratch.Get "nextPage").Section) }}
 
-    {{- if $isLastPageOfWorkshop -}}
+    {{- if and ($isLastPageOfWorkshop) (not $.IsHome) -}}
     <div>
         <hr/>
         <div class="workshop-complete-image">
-            <img src="\images\NF_mascot.jpg">
+            <img src="/images/NF_mascot.jpg">
         </div>
         <div class="workshop-complete-words">
             <p>
