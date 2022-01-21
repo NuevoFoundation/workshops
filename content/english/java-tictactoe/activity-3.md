@@ -1,7 +1,7 @@
 ---
 title: "3. Update the Game Board"
 description: "learn to generate a move for computer and update the board"
-date: 2020-07-23T00:00:00Z
+date: 2021-10-14T00:00:00Z
 prereq: "Set up the Board!, Read and Process Input"
 difficulty: "Intermediate"
 weight: 4
@@ -41,7 +41,11 @@ Inside the `hasNextInt()` if statement, before the method call `printBoard(board
 
 Note that the player is represented by `"X"` on the game board. 
 
-(Reminder: Java uses 0-indexing and the player was prompted to enter number from 1 to 9).
+{{% notice tip %}}
+### Reminders
+- Java uses 0-indexing and the player was prompted to enter number from 1 to 9).
+- To access an element of an array, you use index notation: `myVariable[indexNumber]`.
+{{% /notice %}}
 
 ## Setting Up Computer Moves
 
@@ -62,11 +66,19 @@ import java.util.Random;
 
 Create a `Random` object by calling the constructor `Random()`.
 
+```java
+Random rand = new Random();
+```
+
 ## Generating Random Numbers
 
 Call the method `int nextInt(int num)` on the `Random` object you created to generate a number from 1 to 9 randomly.
 
 A method call to `int nextInt(int num)` will return a random number from 0 to `num-1`.
+
+```java
+int position = rand.nextInt(9);
+```
 
 ## Checking for Valid Move
 
@@ -76,6 +88,13 @@ Use a `while` loop to generate a valid move for the computer, if the previously 
 
 Return the number once we find a valid move for the computer.
 
+```java
+while (!curBoard[position].equals(" ")){
+   position = rand.nextInt(9);
+}
+return position;
+```
+
 ## Update the Board Array
 
 Just like step one, we should update the `board` array for the computer before the method call `printBoard(board)`.
@@ -84,6 +103,10 @@ Randomly generate a move by calling `getComputerMove()`!
 
 Note that the computer is represented by `"O"` on the game board. 
 
+```java
+board[getComputerMove(board)] = "O"; //getComputerMove returns the integer 0-8 that is the proper position in the array
+printBoard(board);
+```
 ## Run the Program
 
 `Run` the program now! The board should update both the player and computer's move correctly with each input as shown below:
