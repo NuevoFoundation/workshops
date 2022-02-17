@@ -278,13 +278,25 @@ section strong {
 #navigation a.nav-next {
   text-align: right;
 }
-@media (max-width: 768px) {
+#navigation a.nav-prev, #navigation a.nav-next {
+  width: 340px;
+}
+@media (max-width: 985px) {
   .nextprevbutton-desktop-only {
       display: none;
   }
-}
-#navigation a.nav-prev, #navigation a.nav-next {
-  width: 340px;
+  #navigation a.nav-prev, #navigation a.nav-next {
+    width: 100%;
+  }
+  #navigation a.nav-prev {
+    padding-right: 25px;
+  }
+  #navigation a.nav-next {
+    padding-left: 25px;
+  }
+  #navigation .next-prev-wrapper-div {
+    flex: 1;
+  }
 }
 #navigation .nextprevbutton-border {
   width: 100%;

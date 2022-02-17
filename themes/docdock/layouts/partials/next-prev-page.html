@@ -41,15 +41,19 @@
     {{ $isFirstPageOfWorkshop := (ne .Section ($.Scratch.Get "prevPage").Section) }}
     {{ $isLastPageOfWorkshop := (ne .Section ($.Scratch.Get "nextPage").Section) }}
 
+    <div class="next-prev-wrapper-div">
     {{- if (not $isFirstPageOfWorkshop) -}}
         {{- with ($.Scratch.Get "prevPage") -}}
             {{ partial "next-prev-button" (dict "subsection" .Title "URL" .URL "isNext" false)}}
         {{- end -}}
     {{- end -}}
+    </div>
+    <div class="next-prev-wrapper-div">
     {{- if (not $isLastPageOfWorkshop) -}}
         {{- with ($.Scratch.Get "nextPage") -}}
             {{ partial "next-prev-button" (dict "subsection" .Title "URL" .URL "isNext" true)}} 
         {{- end -}}
     {{- end -}}
+    </div>  
 {{- end -}}
 </div>
