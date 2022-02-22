@@ -2,7 +2,7 @@
 title: "Actividad 1 - Output"
 date: 2019-07-25T13:24:17-07:00
 weight: 2
-draft: false
+draft: true
 ---
 
 Para que nuestro programa cree mensajes secretos, primero debemos ingresar un mensaje.
