@@ -2,7 +2,7 @@
 title: "Usando Repl.It"
 date: 2019-07-25T13:24:17-07:00
 weight: 1
-draft: false
+draft: true
 ---
 
 Para ayudar a los reyes, vamos a crear un programa en el lenguaje llamado C++, donde podamos ingresar un mensaje, y el programa lo modifique de una manera determinada para hacerlo secreto.
