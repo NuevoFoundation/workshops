@@ -2,7 +2,7 @@
 title: "Actividad 2 - Input y Variables"
 date: 2019-07-25T13:24:17-07:00
 weight: 3
-draft: false
+draft: true
 ---
 
 ¡Muy bien! Ahora demos un paso más. 
