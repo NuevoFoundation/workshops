@@ -1,83 +1,72 @@
 ---
-title: "Actividad 5 - Código Ascii"
-date: 2019-07-25T13:24:17-07:00
+title: "Activity 5 - Ascii Code"
+date: 2022-02-23
 weight: 4
 draft: true
 ---
 
-¡Genial! 
+That's great!
 
-En esta actividad vamos a encriptar (hacer secreto) el nombre del destinatario.
+In this activity we will encrypt (make secret) the name of the recipient.
 
-Vamos a utilizar el **Código Ascii**
+Let's use the Ascii Code
 
 {{% notice tip %}}
 
+Ascii Code
+The Ascii code shows that each character has a numeric value. For example, the character is the number 65, the is the 66, the 67, etc.ABC
 
-### Código Ascii
+The following list shows the value of the most commonly used characters:
 
-El código Ascii muestra que cada caracter tiene un valor numérico. Por ejemplo, el caracter `A` es el número 65, el `B` es el 66, el `C` el 67, etc.
+Lista del código ASCII
 
-La siguiente lista muestra el valor de los caracteres más usados:
+That each character has a value, will serve us to add or subtract letters, and thus change the order of them in a certain way. It allows us to convert characters () into numbers () and vice versa.charint
 
-![Lista del código ASCII](../media/ascii.PNG)
+Example
 
-Que cada caracter tenga un valor, nos servirá para sumar o restar letras, y así cambiar el orden de ellas de una manera determinada. Nos permite convertir caracteres (`char`) en números (`int`) y viceversa.
-
-Ejemplo
-
-```
 char letra = 'A';
 int valor_letra = letra;
 
 cout << letra << " = " << valor_letra << endl;
-```
-Esto imprimirá:
-```
+This will print:
+
 A = 65
-```
+In this example, we save the character in a variable type char. Then, in an int type variable we save the char type variabale, but since the second variable saves numbers, it will convert the character into its numerical value according to the ascii code.A
 
-En este ejemplo, guardamos el caracter `A` en una variable tipo **char**. Luego, en una variable tipo **int** guardamos la variabale tipo char, pero como la segunda variable guarda números, convertirá el caracter en su valor numérico según el código ascii.
+In this way, we could do the opposite, for example:
 
-De esta manera, podríamos hacer lo contrario, por ejemplo:
-```
 int valor_letra = 67;
 char letra = valor_letra;
 cout << valor_letra << " = " << letra << endl;
-```
-Esto imprimirá:
-```
+This will print:
+
 67 = C
-```
 {{% /notice %}}
 
-Para crear el mensaje secreto usaremos una palabra clave, a partir de la cual codificaremos el nombre. La idea es recorrer cada caracter del nombre con una instrucción **for**, y al mismo tiempo recorrer cada caracter de la palabra clave. Entonces sumaremos el valor del caracter del nombre y de la palabra clave, y el resultado será un caracter nuevo, que hará que el mensaje esté encriptado.
+To create the secret message we will use a keyword, from which we will encode the name. The idea is to go through each character of the name with a for statement, and at the same time go through each character of the keyword. Then we will add the value of the character of the name and the keyword, and the result will be a new character, which will make the message encrypted.
 
-Por ejemplo, si mi palabra clave es `reina` y el nombre que quiero encriptar es `programador`, el programa tiene que sumar primero la `'r'` y la `'p'`, y el resultado guardarlo en lugar de la 'p' en el string "programador". Luego sumaría la `'r'` y la `'e'`, la `'o'` y la `'i'`, etc. Cuando estemos en el caracter 5 del string programador (contado el primero como 0), tendremos que dar la vuelta en el string reina y comenzar en el caracter 0 devuelta, es decir, la letra `'r'`, ya que el string reina no tiene más caracteres.
+For example, if my keyword is and the name I want to encrypt is , the program has to add the and the , and the result save it instead of the 'p' in the string "programmer". Then I would add the and the , the and the , etc. When we are in character 5 of the programmer string (counted the first as 0), we will have to turn around in the queen string and start in the returned character 0, that is, the letter , since the queen string has no more characters.reinaprogramador'r''p''r''e''o''i''r'
 
-Para eso, vamos a reunir parte de lo que ya hicimos, y debemos seguir los siguientes pasos:
+For that, we are going to gather part of what we have already done, and we must follow the following steps:
 
-1. Crea una variable del tipo string para que sea la palabra clave.
-2. Ingresa su valor por consola.
-3. Declara una variable tipo int e inicializarla en 0. A esta variable, le sumaremos 1 en cada ciclo del for para recorrer la palabra clave.
-4. En la instrucción for, crea una variable tipo int que sea igual a la suma del caracter del nombre (`nombre[i]`) y el caracter de la palabra clave en la posición del contador (`clave[contador]`). A esta suma le debemos restar una letra minúscula `'a'` para que la suma corresponda a una letra y no otro caracter del código ascii.
-5. Utiliza una instrucción if para determinar si la suma de caracteres corresponde a un caracter mayor a `'z'`. Si es así, a este número se le debe restar 25 (la cantidad de letras del abecedario) para que el número de la vuelta, y comience por la letra `'a'`.
-6. Iguala el caracter `nombre[i]` a la variable int con la suma. Esto cambiará la letra original por el carcater nuevo.
-7. Suma 1 al contador que llevamos de la palabra clave.
-8. Programa una condición donde si el contador de la palabra clave, es mayor o igual al largo del string clave, el contador volverá a valer 0.
-9. Por último, luego de la instrucción for, imprime por consola la variabale nombre.
+Creates a variable of type string to be the keyword.
+Enter its value per console.
+Declares a variable type int and initializes it to 0. To this variable, we will add 1 in each cycle of the for to go through the keyword.
+In the for statement, create an int variable that is equal to the sum of the name character () and the keyword character at the counter position (). From this sum we must subtract a lowercase letter so that the sum corresponds to a letter and not another character of the ascii code.nombre[i]clave[contador]'a'
+Uses an if statement to determine whether the sum of characters corresponds to a character greater than . If so, this number must be subtracted from 25 (the number of letters of the alphabet) so that the number of the turn, and begin with the letter .'z''a'
+Equalizes the character to the variable int with the sum. This will change the original letter to the new carcater.nombre[i]
+Add 1 to the counter we carry from the keyword.
+Schedule a condition where if the keyword counter is greater than or equal to the length of the key string, the counter will be worth 0 again.
+Finally, after the for statement, print the various name by console.
+To help, remember that you can go back to the other activities.
 
-Como ayuda, recuerda que puedes volver a las otras actividades.
+Once the steps are complete, start playing and encrypting your words! Press Run and type in the console the keyword followed by the enter key, and then the name or word to encrypt, followed also by a enter. For example, you can copy and paste the following into your console:
 
-Una vez completado los pasos, ¡comienza a jugar y a encriptar tus palabras! Apretá **Run** y escribe en la consola la palabra clave seguida por la tecla enter, y luego el nombre o palabra a encriptar, seguido también de un enter. Por ejemplo, puedes copiar y pegar lo siguiente en la consola:
-```
-programador
+programmmer
 reina
-```
-{{< alert theme="warning" >}}**Ten cuidado**, en este programa siempre debemos escribir los strings y caracteres en **letra minúscula**.  {{< /alert >}}
 
+{{< alert theme="warning" >}} Be careful, in this program we must always write the strings and characters in lowercase letter. {{< /alert >}}
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/actividad-5?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
-{{< alert theme="danger" >}}**Cuidado**. Para pegar algo en la consola, haz click derecho pegar. De otra forma puede no funcionar. {{< /alert >}}
-
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/actividad-5?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin-scripts allow-modals"></iframe>
+{{< alert theme="danger" >}} Be careful. To paste something into the console, right-click paste. Otherwise it may not work. {{< /alert >}}
+© 2022 GitHub, Inc.
