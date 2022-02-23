@@ -1,63 +1,55 @@
 ---
-title: "Actividad 4 - Condiciones"
-date: 2019-07-25T13:24:17-07:00
+title: "Actividad 4 - Conditions"
+date: 2022-2-23
 weight: 4
 draft: true
 ---
 
-¡Muy bien! 
+Very well!
 
-Cada vez estamos más cerca de hacer nuestros mensajes secretos. Pero también, ¡no olvidemos que tenemos que poder descifrar esos mensajes!
+We are getting closer and closer to making our secret messages. But also, let's not forget that we have to be able to decipher those messages!
 
-Para eso, vamos a ingresar en la consola un 1, si es que queremos encriptar un mensaje, o el número 2, si queremos desencriptarlo.
+For that, we are going to enter in the console a 1, if we want to encrypt a message, or the number 2, if we want to decrypt it.
 
-Para esto necesitaremos de las **CONDICIONES**.
+For this we will need the CONDITIONS.
 
 {{% notice tip %}}
 
+Conditions if / else
+A condition in programming is an instruction or a group of instructions, which can be executed or not, based on whether a condition is true. It would look something like this: IF (if) this happens, execute these instructions, IF NOT (else), execute these other instructions.
 
-### Condiciones if / else
+Example
 
-Una condición en programación es una instrucción o un grupo de instrucciones, que pueden ejecutarse o no, en base a si una condición es verdadera. Sería algo así: **SI** (if) pasa esto, ejecuta estas instrucciones, **SI NO** (else), ejecuta estas otras instrucciones.
-
-Ejemplo
-
-```
 if(3 > 1){
   cout << "3 es mayor que 1" << endl;
 }else{
   cout << "3 no es mayor que 1" << endl;
 }
-```
-El programa imprimirá: 
-```
+The program will print:
+
 3 es mayor que 1
-```
+There we are indicating that if the number 3 is greater than 1, let what is between its keys be executed. And otherwise, let what is in the block be executed. In the example, the else block will not run because the if condition is true, since 3 is greater than 1.if(3>1){ }else
 
-Ahí estamos indicando que si `if` el número 3 es mayor a 1 `(3>1)`, que se ejecute lo que está entre sus llaves `{ }`. Y de lo contrario, que se ejecute lo que está en el bloque `else`. 
-En el ejemplo, el bloque *else* no se ejecutará porque la condición del *if* es verdadera, ya que 3 es mayor que 1.
+To create conditions, we usually use the following logical operators in the parentheses of the if statements:()
 
-Para crear condiciones, usualmente usamos los siguientes **operadores lógicos** en los paréntesis `()` de las instrucciones **if**: 
+Example: and a=5b=3
 
-Ejemplo: `a=5` y `b=3`
-1. Menor que: `a < b` (¿5 es menor que 3?)
-2. Menor o igual que: `a <= b` (¿5 es menor o igual a 3?)
-3. Mayor que: `a > b` (¿5 es mayor a 3?)
-4. Mayor o igual que: `a >= b`(¿5 es mayor o igual a 3?)
-5. Igual que: `a == b` (¿5 es igual a 3?)
-6. distinto que : `a != b` (¿5 es distinto que 3?)
-
+Less than: (5 is less than 3?)a < b
+Less than or equal to: (is 5 less than or equal to 3?)a <= b
+Greater than: (5 is greater than 3?)a > b
+Greater than or equal to: (is 5 greater than or equal to 3?)a >= b
+Same as: (5 equals 3?)a == b
+other than : (5 is different than 3?)a != b
 {{% /notice %}}
 
-Para la actividad, vamos a usar una condición para saber si lo que queremos es crear un mensaje secreto (encriptarlo) o descifrar un mensaje (desencriptarlo).
+For the activity, we are going to use a condition to know if what we want is to create a secret message (encrypt it) or decrypt a message (decrypt it).
 
-Para eso, debemos seguir los siguientes pasos:
-1. Crea una variable del tipo int.
-2. Ingresa por consola el contenido de esa variable.
-3. Crea una condición **if** / **else** para saber si el número ingresado es igual a 1, por lo tanto, queremos encriptar un mensaje, o de lo contrario, queremos desencriptarlo.
-4. Imprime por consola en cada caso que es lo que queremos hacer. Ej: "Encriptar un mensaje" o "Desencriptar un mensaje".
+For that, we must follow the following steps:
 
-Como ayuda, recuerda que puedes volver a las otras actividades.
+Creates a variable of type int.
+Enter the contents of that variable by console.
+It creates an if/else condition to know if the number entered is equal to 1, therefore, we want to encrypt a message, or else, we want to decrypt it.
+Print by console in each case which is what we want to do. Ex: "Encrypt a message" or "Decrypt a message".
+To help, remember that you can go back to the other activities.
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/actividad-4?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/actividad-4?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin-allow-scripts allow-modals"></iframe>
