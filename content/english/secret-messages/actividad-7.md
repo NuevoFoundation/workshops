@@ -1,43 +1,36 @@
 ---
-title: "Actividad 7 - Input line"
-date: 2019-07-25T13:24:17-07:00
+title: "Activity 7 - Input line"
+date: 2022-02-23
 weight: 4
 draft: true
 ---
 
-¡Felicitaciones!
+Congratulations!
 
-Estás muy cerca de salvar por completo a la nación.
+You are very close to completely saving the nation.
 
-¡Solo falta poder ingresar una frase completa!
+All that remains is to be able to enter a complete sentence!
 
-Para esto solo tenemos que hacer unos pequeños cambios.
+For this we only have to make a few small changes.
 
-Primero, debes usar la instrucción `getline()` para ingresar el string: 
+First, you need to use the statement to enter the string:getline()
 
-```
-string frase;
-getline(cin, frase);
-```
-De esta manera, en la consola podemos ingresar un mensaje completo, no una sola palabra.
+string phrase;
+getline(cin, phrase);
+In this way, on the console we can enter a complete message, not a single word.
 
+Follow these steps, and end the program to save the Kingdom:
 
-**Sigue estos pasos**, y finaliza el programa para salvar al Reino:
+In the main function, change the statement to .cin >> name; getline(cin, name)
 
-1. En la función main, cambia la instrucción `cin >> nombre; ` por `getline(cin, nombre)`.
+In both functions, add an if condition in the for cycle, so that if the character we are visiting is greater than or equal to the character and less than or equal to the character, then let everything we had within the cycle be executed. This will serve not to encrypt exclamation points, commas, or spaces.>=a<='z'
 
-2. En ambas funciones, agrega una condición if en el ciclo for, para que si el caracter que estamos visitando es mayor o igual `>=` al caracter `a` y menor o igual`<=` al caracter `'z'`, entonces que se ejecute todo lo que teníamos dentro del ciclo. Esto servirá para no encriptar signos de admiración, comas, o espacios.
+As an example, remember the structure of the input: First the message must go encrypted or encrypted, then a 1, if we want to encrypt the message, or 2, if we want to decrypt it. Finally, the keyword must go.
 
-Como ejemplo recuerda la estructura de la entrada:
-Primero debe ir el mensaje encriptado o a encriptar, luego un 1, si queremos encriptar el mensaje, o 2, si queremos desencriptarlo. Por último, debe ir la palabra clave.
+Create your own secret messages, or decrypt those of your peers!
 
+{{< alert theme="warning" >}} Be careful, in this program we must always write the strings and characters in lowercase letter. {{< /alert >}}
 
-¡Crea tus propios mensajes secretos, o desencripta la de tus compañeros!
+Remember that you can always go back to the previous activities to remember something!
 
-{{< alert theme="warning" >}}**Ten cuidado**, en este programa siempre debemos escribir los strings y caracteres en **letra minúscula**.  {{< /alert >}}
-
-¡Recuerda que siempre puedes volver a las actividades anteriores para recordar algo!
-
-
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/actividad-7?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/actividad-7?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin-allow-scripts allow-modals"></iframe>
