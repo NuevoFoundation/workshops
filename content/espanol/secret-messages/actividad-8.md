@@ -5,7 +5,7 @@ weight: 4
 draft: false
 ---
 
-¡Muchas Felicitaciones!
+¡Muchas Felicitaciones!!
 
 Has hecho un gran trabajo para llegar hasta acá. Lo lograste. Has salvado al reino y además aprendiste a programar.
 
