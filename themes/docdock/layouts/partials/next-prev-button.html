@@ -2,7 +2,7 @@
     <div class="nextprevbutton-border">
         <div class="nextprevbutton-desktop-only">
             <div class="nextprevbutton-next-text">
-                {{ cond .isNext "Up next:" "Previous:" }}
+                {{ cond .isNext (i18n "up-next") (i18n "previous") }}
             </div>
             <div class="nextprevbutton-subsection-name">
                 {{.subsection}}
