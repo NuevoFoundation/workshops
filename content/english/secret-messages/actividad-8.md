@@ -1,23 +1,23 @@
 ---
-title: "Fin"
+title: "End"
 date: 2019-07-25T13:24:17-07:00
 weight: 4
 draft: true
 ---
 
-¡Muchas Felicitaciones! :)
+Congratulations!
 
-Has hecho un gran trabajo para llegar hasta acá. Lo lograste. Has salvado al reino y además aprendiste a programar.
+You have made an amazing job.  You have made it.  You have saved the kingdom and while doing that you learned C++ programming :)
 
-Usaste la **consola** para ingresar y enviar mensajes encriptados o desencriptados.
-Las **variables** te fueron de gran ayuda para guardar los mensajes que se querían enviar.
-Usaste los **ciclos** para analizar letra por letra el mensaje.
-Las **condiciones** fueron útiles para saber si se quería encriptar o desencriptar, y tomar una decisión en base a ello.
-Y por último, el **código ascii** te permitió saber el valor de cada caracter, y así poder hacer secreto los mensajes.
+You have used the **console** to input and send encrypted or decrypted messages.
+The **variables** were super helpful to store the messages that were going to be sent out.
+You used **loops** to analyze each one of the letters in the messages.
+**conditionals** were really useful o determine if encryption or decryption was needed.
+The **ASCII code** helped you know the value of each character for you to be able to make it secret. 
 
-El rey te ha enviado un mensaje encriptado de especial agradecimiento, aquí te lo dejamos para que utilices tu programa para desencriptarlo y poder leerlo:
+The king has sent you a special encrypted thank you message.  Here you have it for you to be able to decrypt it and read it with the help of your C++ program:
 ```
-tkioeapo sggvjosrdbr, hz jtzcu ke qnfdfjjohr ez guof fvzoxrb. lrh hxjozrs cugwvhgc rvee mxqyek bkfsmjhh vdlgk da eelcr o qd, vvrb guotxrh g lu srdc romrg, vl eelcg tkig r smlyd. wkzhzv ex sxevhysxge pe hhlp foizoz. txh ypswrzdmdhh teed vjosrdbrsgg ygn nrlzdpfikk, sun gjup ls kkpqrd jf vjot wuguud, uefrk kesuuoetfik ryhddgri r bbthbs pok tf hbk peoezvcrh. zmvusws md xggf y pevirrrprv dqshbhtñg. zg wayiowr hvor q tbdr sd fmshdo qswo vjvgtrmqnws rvjojvcudr qgd ndy. wexifwlptwufef. hrn  lxvckk qhe iskjvxgj, pbrtjv pussrs pe vodlrgtgs, tav ohhvcjzdb uqo ypswrzdmd lbhejigftífipo ikv ik keevlgr cmqng, hms dejtfrouo m pudxhrbgj. efphgg lgzcvr m eqqgdlggjnbs hc vb wjzmrb. qxsue r hb uifprhzrzóc. gleztdbvdls, kd rqy.
+svox hrbguoecvg, zye wiquuee lgk iz a jgvpl rgfgqr. wvv fzggls ooxzu hvoj eazy pskirukk bqtzsvd lvk iuqeq ofs I sjz lhmnnh le qdbj hqls, iyt cwtx if nrl kpns.  fgu mrh iyt kjvvr teudv ew inzs zawwgd. qdbj peojgrcesx kkuloh rhv osrzunj. o shzzrzazt ijlkjs goautv ngk, ovkje rou hmhv num wulo vrlv inv ocprglkfwzq tb hhzh crcf eoee ssgfds. fgue phgwejbgfcq wdh gklhzrnpiqu. lwv guqax fdbzbq otu axl rjj fvdvde mrh ujplslml rousntj lolh lox. qgdxggluxawwgdk. cuo ybu kont ld ivlqbuolt ssirufe eskxusy kaiiqu mi qdb yaie osrhfsj rn umsdjjrcz kkulo iypl lodl ne ysjo ysrhfhl lc qemg lmthrh, ngk yocv lqaucvs hguxrmmpwfv. I ydvv I cmn psvj qdb rgmiq wf jys lmthrh. Swfrvgody mng yzduzf, lhq klcx
 2
 programador
 ```
@@ -25,4 +25,4 @@ programador
 
 <iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/actividad-8?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-{{< alert theme="danger" >}}**Cuidado**. Para pegar algo en la consola, haz click derecho pegar. De otra forma puede no funcionar. {{< /alert >}}
+{{< alert theme="danger" >}}**Important hint**. To paste in the console, do a right click, select that action and click on it. Otherwise the paste operation may not work. {{< /alert >}}
