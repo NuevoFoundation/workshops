@@ -1,27 +1,27 @@
 --- 
-title: "Mensajes secretos con C++"
-description: "Aprende C++ y crea tus propios mensajes secretos"
+title: "Secret messages with C++"
+description: "Learn C++ and create your own secret messages"
 date: 2021-08-10T23:26:18-05:00
-prereq: "Ninguno"
-difficulty: "Principiante"
+prereq: "None"
+difficulty: "Beginner"
 ---
 
-## Mensajes Secretos con C++
+## Secret Messages with C++
 
-## Introducción
+## Intro
 
-Bienvenido a la corte! 
+Welcome to the court! 
 
 ![Imagen Rey Nuevo foundation](media/Rey_nuvi1.jpg)
 
-En un reino no muy lejano, todos los días el rey le envía mensajes a la reina, la cual se encuentra en otra tierra presenciando una coronación. Su estadía se alargó un poco, ya que están haciendo acuerdos de alta importancia para sus naciones. ¡Pero sus mensajes han sido intervenidos! ¡Los reyes se enteraron que sus mayores enemigos, los piratas, lograron leer todos esos mensajes! 
+In a kingdom not very far away, every day the King messages the Queen who is in a different land witnessing a coronation. Her presence there has come to an extend since she is doing important negotiations for the nation. But their messages have been compromised! Both Queen and King realized that their most vicious enemies, the Pirates, have been reeding each and every single message they´d exchange.
 
-Por eso, pensaron en un sistema para que los piratas no entiendan sus conversaciones, pero necesitan ayuda para llevarlo a cabo. 
+They have come with a plan on creating a system for the Pirates to not being able to understand their conversations, but they need help to do this.
 
-El Rey ha pensado en ti, el nuevo programador de la corte, para que desarrolles un sistema que le permitan a él y a la reina intercambiar mensajes camuflados y que los piratas no puedan entenderlos. ¿Te animas a ayudarlo? ¿Podrás con esta gran misión? El futuro del reino esta en tus manos. Los piratas ya están entrando por la costa. ¿Que le querrá decir el rey a la reina?
+You´ve been selected by the King to be the next Court Developer, and create and encryption system that would allow both him and the Queen to communicate without being intercepted by the Pirates. Will you help the King? The kingdom´s future is at your hands.
 
-## Contenido
+## Content
 <details>
-<summary>Secciones</summary>
+<summary>Sections</summary>
 {{% children %}}
 </details>
