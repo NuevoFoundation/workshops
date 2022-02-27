@@ -6,7 +6,7 @@ draft: true
 hidden: true
 ---
 
-Las siguientes 5 líneas son necesarias para todas las actividades.
+The following 5 lines are needed for all the activities.
 
 ```
 #include <iostream>
@@ -18,123 +18,123 @@ int main() {
 }
 ```
 
-### Actividad 1
+### Activity 1
 
 ```
-cout << "Hola programador!" << endl;
+cout << "Hello programmer!" << endl;
 ```
 
-### Actividad 2
+### Activity 2
 
 ```
-  string nombre;
-  cin >> nombre;
-  cout << "Hola " << nombre << endl;
+  string name;
+  cin >> name;
+  cout << "Hello " << name << endl;
 ```
 
-### Actividad 3
+### Activity 3
 
 ```
-string nombre;
-cin >> nombre;
-for(int i=0; i<nombre.size(); i++){
-  cout << nombre[i] << endl;
+string name;
+cin >> name;
+for(int i=0; i<name.size(); i++){
+  cout << name[i] << endl;
 }
 ```
 
-### Actividad 4
+### Activity 4
 
 ```
-int numero;
-cin >> numero;
-if(numero == 1){
-  cout << "Encriptar un mensaje" << endl;
+int number;
+cin >> number;
+if(number == 1){
+  cout << "Encrypt a message" << endl;
 }else{
-  cout << "Desencriptar un mensaje" << endl;
+  cout << "Decrypt a message" << endl;
 }
 ```
 
-### Actividad 5
+### Activity 5
 
 ```
 #include <iostream>
 using namespace std;
 
 int main() {
-  string clave;
-  string nombre;
-  cin >> clave;
-  cin >> nombre;
-  int contador = 0;
-  for(int i=0; i<nombre.size(); i++){
-    int suma = nombre[i]+clave[contador]-'a';
-    if(suma > 'z'){
-     suma-=25;
+  string code;
+  string name;
+  cin >> code;
+  cin >> name;
+  int counter = 0;
+  for(int i=0; i<name.size(); i++){
+    int sum = name[i]+code[counter]-'a';
+    if(sum > 'z'){
+     sum-=25;
     }
-    nombre[i]=suma;
-    contador+=1;
-    if(contador >= clave.size()){
-      contador=0;
+    name[i]=sum;
+    counter+=1;
+    if(counter >= code.size()){
+      counter=0;
     }
   }
-  cout << "Mensaje encriptado: " << endl;
-  cout << nombre << endl;
+  cout << "Encrypted message: " << endl;
+  cout << name << endl;
   return 0;
 }
 ```
 
 
-### Actividad 6
+### Activity 6
 
 ```
 #include <iostream>
 using namespace std;
 
-void encriptar (string &nombre, string clave){
-  int contador = 0;
-  for(int i=0; i<nombre.size(); i++){
-    int suma = nombre[i]+clave[contador]-'a';
-    if(suma > 'z'){
-     suma-=25;
+void encrypt (string &name, string code){
+  int counter = 0;
+  for(int i=0; i<name.size(); i++){
+    int sum = name[i]+code[counter]-'a';
+    if(sum > 'z'){
+     sum-=25;
     }
-    nombre[i]=suma;
-    contador+=1;
-    if(contador >= clave.size()){
-      contador=0;
+    name[i]=sum;
+    counter+=1;
+    if(counter >= code.size()){
+      counter=0;
     }
   }
 }
 
-void desencriptar (string &nombre, string clave){
-  int contador = 0;
-  for(int i=0; i<nombre.size(); i++){
-    int suma = nombre[i]-clave[contador]+'a';
-    if(suma < 'a'){
-     suma+=25;
+void decrypt (string &name, string code){
+  int counter = 0;
+  for(int i=0; i<name.size(); i++){
+    int sum = name[i]-code[counter]+'a';
+    if(sum < 'a'){
+     sum+=25;
     }
-    nombre[i]=suma;
-    contador+=1;
-    if(contador >= clave.size()){
-      contador=0;
+    name[i]=sum;
+    counter+=1;
+    if(counter >= code.size()){
+      counter=0;
     }
   }
 }
 
 int main() {
-  string clave;
-  string nombre;
-  int numero;
-  cin >> numero;
-  cin >> clave;
-  cin >> nombre;
-  if(numero == 1){
-      cout << "Mensaje encriptado: " << endl;
-      encriptar(nombre, clave);
-      cout << nombre << endl;
+  string code;
+  string name;
+  int number;
+  cin >> number;
+  cin >> code;
+  cin >> name;
+  if(number == 1){
+      cout << "Encrypted message: " << endl;
+      encrypt(name, code);
+      cout << name << endl;
   }else{
-    cout << "Mensaje desencriptado: " << endl;
-    desencriptar(nombre, clave);
-    cout << nombre << endl;
+    cout << "Decrypted message: " << endl;
+    decrypt(name, code);
+    cout << name << endl;
   }
   return 0;
 }
@@ -142,61 +142,61 @@ int main() {
 
 
 
-### Actividad 7
+### Activity 7
 
 ```
 #include <iostream>
 using namespace std;
 
-void encriptar (string &nombre, string clave){
-  int contador = 0;
-  for(int i=0; i<nombre.size(); i++){
-    if(nombre[i]!=' '){
-      int suma = nombre[i]+clave[contador]-'a';
-      if(suma > 'z'){
-      suma-=25;
+void encrypt (string &name, string code){
+  int counter = 0;
+  for(int i=0; i<name.size(); i++){
+    if(name[i]!=' '){
+      int sum = name[i]+code[counter]-'a';
+      if(sum > 'z'){
+      sum-=25;
       }
-      nombre[i]=suma;
-      contador+=1;
-      if(contador >= clave.size()){
-        contador=0;
+      name[i]=sum;
+      counter+=1;
+      if(counter >= code.size()){
+        counter=0;
       }
     }
   }
 }
 
-void desencriptar (string &nombre, string clave){
-  int contador = 0;
-  for(int i=0; i<nombre.size(); i++){
-    if(nombre[i]!=' '){
-      int suma = nombre[i]-clave[contador]+'a';
-      if(suma < 'a'){
-      suma+=25;
+void decrypt (string &name, string code){
+  int counter = 0;
+  for(int i=0; i<name.size(); i++){
+    if(name[i]!=' '){
+      int sum = name[i]-code[counter]+'a';
+      if(sum < 'a'){
+      sum+=25;
       }
-      nombre[i]=suma;
-      contador+=1;
-      if(contador >= clave.size()){
-        contador=0;
+      name[i]=sum;
+      counter+=1;
+      if(counter >= code.size()){
+        counter=0;
       }
     }
   }
 }
 
 int main() {
-  string clave;
-  string nombre;
-  int numero;
-  cin >> numero;
-  cin >> clave;
-  getline(cin, nombre);
-  if(numero == 1){
-      cout << "Mensaje encriptado: " << endl;
-      encriptar(nombre, clave);
-      cout << nombre << endl;
+  string code;
+  string name;
+  int number;
+  cin >> number;
+  cin >> code;
+  getline(cin, name);
+  if(number == 1){
+      cout << "Encrypted message: " << endl;
+      encrypt(name, code);
+      cout << name << endl;
   }else{
-    cout << "Mensaje desencriptado: " << endl;
-    desencriptar(nombre, clave);
-    cout << nombre << endl;
+    cout << "Decrypted message: " << endl;
+    decrypt(name, code);
+    cout << name << endl;
   }
   return 0;
 }
