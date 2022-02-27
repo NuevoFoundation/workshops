@@ -5,17 +5,17 @@ weight: 4
 draft: false
 ---
 
-¡Muchas Felicitaciones!!
+¡Muchas Felicitaciones!
 
 Has hecho un gran trabajo para llegar hasta acá. Lo lograste. Has salvado al reino y además aprendiste a programar.
 
 Usaste la **consola** para ingresar y enviar mensajes encriptados o desencriptados.
 Las **variables** te fueron de gran ayuda para guardar los mensajes que se querían enviar.
-Usaste los **ciclos** para analizar letra por letra el mensaje.
+Usaste los **ciclos** para analizar letra por letra del mensaje.
 Las **condiciones** fueron útiles para saber si se quería encriptar o desencriptar, y tomar una decisión en base a ello.
-Y por último, el **código ascii** te permitió saber el valor de cada caracter, y así poder hacer secreto los mensajes.
+Y por último, el **código ascii** te permitió saber el valor de cada caracter, y así poder hacer secretos los mensajes.
 
-El rey te ha enviado un mensaje encriptado de especial agradecimiento, aquí te lo dejamos para que utilices tu programa para desencriptarlo y poder leerlo:
+El rey te ha enviado un mensaje encriptado de especial agradecimiento. Aquí te lo dejamos para que utilices tu programa para desencriptarlo y poder leerlo:
 ```
 tkioeapo sggvjosrdbr, hz jtzcu ke qnfdfjjohr ez guof fvzoxrb. lrh hxjozrs cugwvhgc rvee mxqyek bkfsmjhh vdlgk da eelcr o qd, vvrb guotxrh g lu srdc romrg, vl eelcg tkig r smlyd. wkzhzv ex sxevhysxge pe hhlp foizoz. txh ypswrzdmdhh teed vjosrdbrsgg ygn nrlzdpfikk, sun gjup ls kkpqrd jf vjot wuguud, uefrk kesuuoetfik ryhddgri r bbthbs pok tf hbk peoezvcrh. zmvusws md xggf y pevirrrprv dqshbhtñg. zg wayiowr hvor q tbdr sd fmshdo qswo vjvgtrmqnws rvjojvcudr qgd ndy. wexifwlptwufef. hrn  lxvckk qhe iskjvxgj, pbrtjv pussrs pe vodlrgtgs, tav ohhvcjzdb uqo ypswrzdmd lbhejigftífipo ikv ik keevlgr cmqng, hms dejtfrouo m pudxhrbgj. efphgg lgzcvr m eqqgdlggjnbs hc vb wjzmrb. qxsue r hb uifprhzrzóc. gleztdbvdls, kd rqy.
 2
