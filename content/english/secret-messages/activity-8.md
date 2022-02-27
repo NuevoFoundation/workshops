@@ -12,7 +12,7 @@ You have made an amazing job.  You have made it.  You have saved the kingdom and
 You have used the **console** to input and send encrypted or decrypted messages.
 The **variables** were super helpful to store the messages that were going to be sent out.
 You used **loops** to analyze each one of the letters in the messages.
-**conditionals** were really useful o determine if encryption or decryption was needed.
+**conditionals** were really useful to determine if encryption or decryption was needed.
 The **ASCII code** helped you know the value of each character for you to be able to make it secret. 
 
 The king has sent you a special encrypted thank you message.  Here you have it for you to be able to decrypt it and read it with the help of your C++ program:
