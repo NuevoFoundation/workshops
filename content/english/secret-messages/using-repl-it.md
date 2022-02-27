@@ -1,55 +1,51 @@
 ---
-title: "Usando Repl.It"
+title: "Using Repl.It"
 date: 2019-07-25T13:24:17-07:00
 weight: 1
 draft: true
 ---
 
-Para ayudar a los reyes, vamos a crear un programa en el lenguaje llamado C++, donde podamos ingresar un mensaje, y el programa lo modifique de una manera determinada para hacerlo secreto.
+In order to help the kings, we will develop a program, in a programming language named C++.  With that program we will be able to input a message, and the program will modify it to make it secret.
 
-## Usando Repl.it
+## Using Repl.it
 
-Vamos a utilizar la herramienta Repl.it para jugar con nuestros códigos de C++. Este es un ejemplo de una ventana interactiva como las que usaremos en todo el tutorial:
+To be able to run our C++ programs we will use a tool named Repl.it that will allow us to build and run C++ code in an interactive window like the one below.  We will use that tool throughout the entire tutorial.
 
 <iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/activity-0?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-Antes de empezar, entendamos como funciona esta ventana. El programa `main.cpp` contiene las instrucciones que la computadora va a ejecutar o "correr" (Run en inglés). Al presionar el botón **Run**, le estás diciendo a la computadora que ejecute las instrucciones que están en el programa. Los resultados del programa los puedes ver en la pantalla negra que está debajo, en la pestaña **console**.
+Before getting any further let's understand how this windows works. The file `main.cpp` contains the instructions the computer will understand and run.  Clicking on **Run** will command the computer to execute the instructions in that file.  The results can be seeing in the **console** tab, in the lower area of Repl.it. 
 
-Ahora explicaremos el código que tenemos en el archivo `main.cpp` 
+We will explain now the code that we have in `main.cpp` 
 
 {{% notice tip %}}
 
-### Bibliotecas (Library) e instrucciones "#include"
+### Libraries and "#include"
 
-Mira el inicio del código. Ahí puedes ver la siguiente línea:
+Go to the beginning of `main.cpp`. You will find there the following line:
 
 ```
 #include <iostream>
 ```
 
-Esta instrucción nos permite agregar la biblioteca `iostream` a nuestro programa. Una **biblioteca** es el lugar donde se agrupan en C++ las funciones (o instrucciones) relacionadas a un tema en particular. Hay bibliotecas para dibujar, otras para conectarse a internet, otras para hacer operaciones matemáticas. `iostream` es una biblioteca básica para ingresar datos a nuestro programa y generar mensajes de salida. 
+This directive or instruction allows us to refer the `iostream` library.  A **library** is a common place where a set of C++ functions, typically related to a particular common problem or topic, are grouped together. There are libraries to draw, to create and manage internet connections, to perform mathematical operations and for several many other purposes. `iostream` is a very basic library that allows us to receive or print out messages from and to the console.
 
-### Comentarios (Comments)
+### Comments
 
-La línea gris que empieza con `//` se llama **comentario**. Estos son notas en el código que nos ayudan a explicar qué está pasando. Como los comentarios son ignorados por la computadora, suelen ser usados para que otros puedan entender lo que nuestro código está haciendo.
+The gray out line(s) in `main.cpp` starts with `//`. This is known as a comment.  Comments are useful in our C++ programs as a way to document them better, and explain in more detail what the goal of the instructions is. Comments are not instructions and are actually ignored by the computer. In other words they command nothing to the computer. 
 
 ### Namespace std
 ```
 using namespace std;
 ```
-Esta linea nos da acceso a algunas palabras reservadas de C++. Una **palabra reservada** es una palabra que tiene un significado específico en el lenguaje de programación, por lo que no podemos usar esa misma palabra para identificar o nombrar otra cosa.
-En este caso, estamos usando las palabras reservadas **std**, que quiere decir las palabras reservadas estándar, que son las que casi todo programa usa, por lo que es importante incluir esta instrucción.
- `using` indica que estamos usando el `namespace` (el espacio en el que se guardan las palabras reservadas) llamado `std` (estándar). 
+This specific line allows us to access a few already reserved C++ words.  A **reserved word**, is a word that has already been used in the specific programming language, has been given a specific meaning and due to that, it cannot be reused for any other purpose. In this case we are making reference to the reserved word **std** which means we want to use lots of already well designed and developed stuff that is part of the C++ standard. `using namespace std` means we want to make reference to the standard namespace.
 
-### Función Main
+### Main Function
 ```
 int main(){
     
     return 0;
 }
 ```
-**main** es la función que tiene que estar siempre en los programas de C++. Adentro de sus llaves `{ ... }` estará el código que se correrá al poner run.   
-`return 0;` indica el fin del programa. Si escribiésemos instrucciones después de esta línea, el programa no las ejecutará.
-{{% /notice %}}
+**main** is a mandatory function in any C++ program. It is actually the entry point of our program.  Within the open and closing braces `{ ... }` all the instructions that will command the computer what to do will be placed. After clicking **Run** the computer will execute those instructions. `return 0;` indicates the program has finished successfully its execution.  If instructions were placed after that line, the computer would not execute them. {{% /notice %}}
 
-{{< alert theme="warning" >}}Toda instrucción de C++ debe terminar con un **punto y coma** `;` {{< /alert >}}
+{{< alert theme="warning" >}}All the C++ instructions must end with a **semicolon** `;` {{< /alert >}}
