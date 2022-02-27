@@ -1,49 +1,47 @@
 ---
-title: "Actividad 1 - Output"
+title: "Activity 1 - Output"
 date: 2019-07-25T13:24:17-07:00
 weight: 2
 draft: true
 ---
 
-Para que nuestro programa cree mensajes secretos, primero debemos ingresar un mensaje.
+We first need to enter a message, for our program to be able to create secret messages.
 
 <iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/activity-1?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-Para eso, vamos a comenzar diciendole a la computadora que muestre en la consola para quien es ese mensaje. Esta es la instrucción que necesitaremos:
+To do that we are going to start by telling the computer to show in console for whom is that message. This is the command that we will be using.
 
 ```
-cout << "Hola programador!" << endl;
+cout << "Hello Developer!" << endl;
 ```
 
-Intentemos entender esta línea de código en más detalle.
+Lets get into detail with this line of code, shall we?
 
 {{% notice tip %}}
 
-### Cadenas (Strings)
+### Strings
 
-Todo lo que veas entre **comillas ""** se llama **cadena o string**. Un string es solo una secuencia de caracteres, es decir, de números, letras o símbolos.
+Everything that we see wrapped in quotation marks ("") will be called a String. A String is sequence of characters, numbers, letters or symbols.
 
-En el código que escribimos arriba `"Hola programador!"` es un string. Otros ejemplos de string pueden ser `"123"`, `"abc!"` o `"Hola"`. ¡Ojo!, `123`, `abc!` y `buen día` NO son strings ¡porque no tienen comillas!
+`"Hello Developer!"` is the String in the line of code that we wrote before. Other String examples could be `"123"`, `"abc!"` or `"Hello"`. Please note that `123`, `abc!` or `Hello!` Are no Strings since they are not wrapped between quotation marks.
 
-### Imprimir en consola
+### Print to Console
 
-`cout` lo usamos para mostrar algo en la consola. En este caso, si apretamos Run, mostrará `Hola programador!`, ya que es el string que le indicamos.
-Siempre la instrucción `cout` está acompañado de los signos `<<`. Luego del string, los volvemos a poner acompañado de `endl`, que significa que es el fin de la linea, por lo que la computadora va a hacer un salto de linea (enter) en la consola.
+To print into console we use `cout`. If we hit Run, `Hello Developer!` will be shown, since is the String wrapped inside the command line. Every `cout` will be followed by `<<` and `endl` that means the end of the line.
 
 {{% /notice %}}
 
-Copia la línea de arriba, pégala en el archivo `main.cpp` que teníamos al inicio, y dale click en Run. 
-Prueba cambiar el contenido del string. Por ejemplo `"Hola mundo"`, `"Para la Reina"`, etc.
+Copy the above line and paste it in the `main.cpp` file that we had at the beginning, Run and see what happens. Try changing the String to `"Hello world!"` or `"For the queen"`.
 
 {{% notice warning %}}
 
-### ¡AYUDA! 
+### Help! 
 
-Si después de presionar el botón **Run**, está la palabra **error** en rojo en la pestaña **console**, es porque tienes errores en el código. Pídele ayuda al instructor para revisar tu código.
+In case that after clicking the Run button, an error message in red shows, it means that there is something wrong with your code. Please ask for help to your instructor.
 
-Mientas tanto puedes revisar lo siguiente:
+In the meantime you could check for:
 
-1. No uses letras mayúsculas.
-2. Asegúrate que las líneas que escribiste tengan al final un punto y coma **`;`**.
+1- Do not use caps.
+2- Make sure that you add a semicolon after each line of code. 
 
 {{% /notice %}}
