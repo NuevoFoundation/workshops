@@ -81,3 +81,5 @@ reina
 
 {{< alert theme="danger" >}}**Cuidado**. Para pegar algo en la consola, haz click derecho pegar. De otra forma puede no funcionar. {{< /alert >}}
 
+Vídeo: https://www.youtube.com/watch?v=I2eaDpwc7kg&list=PLfj0ilPGpPyHCGGYT5zMm3CuWYtyL6tCg&index=6
+
