@@ -29,7 +29,7 @@ cout << "Hello programmer!" << endl;
 ```
   string name;
   cin >> name;
-  cout << "Hello " << name << endl;
+  cout << "Hello :)" << name << endl;
 ```
 
 ### Activity 3
