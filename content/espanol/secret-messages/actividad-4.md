@@ -59,6 +59,6 @@ Para eso, debemos seguir los siguientes pasos:
 
 Como ayuda, recuerda que puedes volver a las otras actividades.
 
-<iframe height="600px" width="100%" src="" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/actividad-4?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 Vídeo: https://www.youtube.com/watch?v=a7zfuGM80QU&list=PLfj0ilPGpPyHCGGYT5zMm3CuWYtyL6tCg&index=5
