@@ -103,3 +103,4 @@ Recuerda que siempre puedes volver a las actividades anteriores para recordar al
 
 {{< alert theme="danger" >}}**Cuidado**. Para pegar algo en la consola, haz click derecho pegar. De otra forma puede no funcionar. {{< /alert >}}
 
+Vídeo:https://www.youtube.com/watch?v=NvD_aP73dqI&list=PLfj0ilPGpPyHCGGYT5zMm3CuWYtyL6tCg&index=7
