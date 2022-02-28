@@ -1,80 +1,73 @@
 ---
-title: "Actividad 3 - Ciclos"
+title: "Activity 3 - Loops"
 date: 2019-07-25T13:24:17-07:00
 weight: 4
 draft: true
 ---
 
-¡Genial! 
+Great! 
 
-El rey nos ha pedido que escribamos letra por letra el nombre del destinatario para luego poder cambiarlas mediante alguna forma y así hacer secreto nuestro mensaje.
+The King has now requested that we input our message later by later so that we can change them afterwords.
 
-Para hacer esto tenemos que usar **CICLOS** (o loops en inglés). Un ciclo ejecuta un grupo de instrucciones varias veces. Veamos este ejemplo donde imprimimos números:
+To do this we need something called loops. Loops execute a bunch of code however times it is required. Lets see the below example to print out numbers.
 
 ```
 for(int i=0; i<3; i++){
   cout << i << endl;
 }
 ```
-Intentemos entender lo que hace ese código:
+Lets try understanding what this code does.
 
 {{% notice tip %}}
 
 
-### Ciclos
+### Loops
 
  `for(int i=0; i<3; i++) { }`. 
-Esta línea le dice al programa que las instrucciones que están dentro de sus llaves `{ }` deben correrse dentro de un ciclo. 
-Podemos diferenciar 3 partes dentro de los paréntesis: 
-1. `int i=0;` está declarando una variable del tipo `int` (numero entero) llamada `i` y esta inicializada en 0. Esta variable llevará la cuenta de cuántas veces hemos recorrido el ciclo.
-2. `i<3;` es la condición que se tiene que cumplir para que el ciclo se siga repitiendo. Entonces, mientras la variable `i` sea menor a 3 (`<`), el ciclo se repetirá.
-3. `i++` le suma 1 a la variable `i` cada vez que el ciclo termina.  
+This tells the program that the instructions that are held within the brackets `{}` are supposed to be executed in a loop. 
+We can identify three different parts inside this command:
+1. `int i=0;` this declares an int variable called `i` which will be initialized in 0. This variable will work as a counter of how many times we´ve been in the loop.
+2. `1<3;` is the condition that needs to be met for the loop to continue working. While variable `i` is lower to 3, the loop will continue executing.
+3. `i++` this will ad 1 to the variable `i` on each loop.
 
 {{% /notice %}}
 
-Una propiedad que tienen las variables **strings**, es que podemos acceder a cada carácter que lo compone y a la cantidad de estos.
+A property of **string** variables is that we can count the amount of character that it is made from. 
 
 {{% notice tip %}}
 
-### Acceder a cada carácter de un string
+### Count characters from a string
 
-Cada carácter de una variable string, es un char.
-Podemos acceder a cada char de un string mediante el número de su posición dentro del string.
-Imaginémoslo como una fila de caracteres.
-El primer carácter va a ser el número 0, el que le sigue el 1, el que le sigue el 2, y así sucesivamente.
+Each character from a string variable is called a char. We can access this char by the position that holds inside the string. Lest picture it as queue of characters. The first character will be then the number 0, the second one the 1, and the next one the 2…
 
-Entonces, para acceder a cada uno de ellos, debemos usar esta instrucción:
+That being said, we would need the following code to access each:
 
 ```
-string palabra = "hola";
-char letra = palabra[0];
-cout << "La primera letra es: " << letra << endl;
+string word = "hello";
+char letter = word[0];
+cout << "The first letter is: " << letter << endl;
 ```
-Esto imprimirá: 
+This would print: 
 ```
-La primera letra es: h
+The first letter is h
 ```
 
-Para obtener un caracter, debemos usar el nombre de la variable seguidas de corchetes `[ ]`, y dentro de ellos, la posición de la letra que queremos.
+### String size:
 
-### Tamaño de un string
-
-Además de poder acceder a cada caracter de un string, con la siguiente instrucción podemos saber cuál es la cantidad de caracteres que tiene.
+Apart from accessing to each individual character in a string, we can also know how long it is by using the following lines of code:
 
 ```
-string palabra = "hola";
-int tamaño = palabra.size();
-cout << "El tamaño es: " << tamaño << endl;
+string word = "hello";
+int wordSize = word.size();
+cout << "The size is: " << wordSize << endl;
 ```
-Imprimirá: 
+This would print:
 ```
-El tamaño es: 4
+The size is: 5
 ```
-Debemos escribir el nombre de la variable, seguidos de ` .size()` para obtener el tamaño. Esto devolverá un número entero, por lo que lo podemos guardar en una variable del tipo int.
-
 {{% /notice %}}
 
-Bueno, ahora tomemos el código que teníamos y modifiquémoslo un poco para imprimir cada letra del nombre en vez de un "Hola" y el nombre.
+Now we modify the code we had to print each letter of the name instead of a hello.
 
 <iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/actividad-3?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
