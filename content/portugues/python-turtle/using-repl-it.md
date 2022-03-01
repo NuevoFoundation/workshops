@@ -5,7 +5,7 @@ weight: 1
 draft: false
 ---
 
-Para que Alex possa viver numa colméia, ele precisa aprender a construir um favo de mel. Vamos usar uma biblioteca do Python chamada `turtle` (tartaruga) para desenhar o favo de mel.
+Para que Alex possa viver numa colmeia, ele precisa aprender a construir um favo de mel. Vamos usar uma biblioteca do Python chamada `turtle` (tartaruga) para desenhar o favo de mel.
 
 ## Usando Repl.it
 
@@ -31,6 +31,6 @@ Esta instrução nos permite importar toda a funcionalidade de desenho proporcio
 
 ### Comentários
 
-A linha cinza que começa com `#` se chama **comentário**. Comentários são anotações no código que ajudam a explicar o que está acontencendo. Como os comentários são ignorados pelo computador, eles geralmente são usados para que outras pessoas entendam o que o nosso código está fazendo.
+A linha cinza que começa com `#` se chama **comentário**. Comentários são anotações no código que ajudam a explicar o que está acontecendo. Como os comentários são ignorados pelo computador, eles geralmente são usados para que outras pessoas entendam o que o nosso código está fazendo.
 
 {{% /notice %}}
