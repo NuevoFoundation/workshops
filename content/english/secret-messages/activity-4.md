@@ -19,32 +19,32 @@ For this we will need the CONDITIONS.
 A condition in programming is an instruction or a group of instructions, which can be executed or not, based on whether a condition is true. It would look something like this: **IF**(if) this happens, execute these instructions, **IF NOT** (else), execute these other instructions.
 
 Example
-...
+```
 if(3 > 1){
-  cout << "3 es mayor que 1" << endl;
+  cout << "3 is grater than 1" << endl;
 }else{
-  cout << "3 no es mayor que 1" << endl;
+  cout << "3 is not grater than 1" << endl;
 }
-...
+```
 The program will print:
-...
-3 es mayor que 1
-...
+```
+3 is grater than 1
+```
 
 
-There we are indicating that if the number 3 is greater than 1 '(3>1)', let what is between its keys be executed '{}'. And otherwise, let what is in the block be executed as 'else'. 
+There we are indicating that `if` the number 3 is greater than 1 `(3>1)`, let what is between its keys be executed `{}`. And otherwise, let what is in the block be executed as `else`. 
 In the example, the *else* block will not run because the *if* condition is true, since 3 is greater than 1.
 
-To create conditions, we usually use the following **logical operators** in the parentheses '()' of the if statements **if**:
+To create conditions, we usually use the following **logical operators** in the parentheses `()` of the if statements **if**:
 
-Example: 'a=5' and 'b=3'
+Example: `a=5` and `b=3`
 
-1. Less than: a < b (5 is less than 3?)
-2. Less than or equal to: a <= b (is 5 less than or equal to 3?)
-3. Greater than: a > b (5 is greater than 3?)
-4. Greater than or equal to: a >= b (is 5 greater than or equal to 3?)
-5. Same as: a == b (5 equals 3?)
-6. other than : a != b (5 is different than 3?)
+1. Less than: `a < b` (5 is less than 3?)
+2. Less than or equal to: `a <= b` (is 5 less than or equal to 3?)
+3. Greater than: `a > b` (5 is greater than 3?)
+4. Greater than or equal to: `a >= b` (is 5 greater than or equal to 3?)
+5. Same as: `a == b` (5 equals 3?)
+6. other than : `a != b` (5 is different than 3?)
 
 {{% /notice %}}
 
