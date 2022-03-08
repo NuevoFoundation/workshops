@@ -56,10 +56,13 @@ article > aside {
   -ms-flex-direction: column;
   flex-direction: column;
   padding: 2rem 0rem 1rem 0rem;
-  position: fixed;
-  top: 130px;
   width: 20rem;
+  max-height:100vh;
   overflow-y: auto;
+  /* align-self: flex-start is needed so that position: sticky works  */
+  align-self: flex-start;
+  position: sticky;
+  top: 0px;
 }
 article > aside .menu {
   line-height: 2rem;
@@ -316,7 +319,7 @@ section strong {
   color: rgba(0, 0, 0, 0.64);
 }
 #navigation .nextprevbutton-subsection-name {
-  margin: 13px auto auto 21px;
+  margin: 13px 21px auto 21px;
 
   text-align: left;
   font-family: Lato, monospace;
@@ -360,7 +363,7 @@ section strong {
 article {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  display: flex !important;
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -377,7 +380,7 @@ article section.page {
   -ms-flex: 1;
   flex: 1;
   box-sizing: border-box;
-  margin: 0 1rem 0 20rem;
+  margin: 0 1rem 0 1rem;
   overflow-y: auto;
   padding: 2rem 4rem;
 }
