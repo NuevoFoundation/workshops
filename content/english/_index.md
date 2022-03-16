@@ -5,7 +5,7 @@ draft: false
 hidemetadata: true
 ---
 
-## Workshop Projects
+## Workshops
 {{< workshop-list style="card" depth="1" showhidden="false" description="true"  />}}
 
 ## Contributor guidelines

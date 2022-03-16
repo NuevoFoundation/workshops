@@ -7,7 +7,6 @@ prereq: "None."
 difficulty: "Intermediate"
 download: ""
 draft: false
-hidden: true
 icon: "fas fa-microchip"
 weight: 1
 ---
