@@ -2,6 +2,13 @@
 [navigation]
 other = "Navegación:"
 
+# next-prev-button.html
+[up-next]
+other = "A continuación:"
+
+[previous]
+other = "Anterior:"
+
 # custom-footer.html
 [join-social-media]
 other = "Únete a la conversación en las redes sociales."

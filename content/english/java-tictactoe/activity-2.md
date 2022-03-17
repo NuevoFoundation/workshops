@@ -1,7 +1,7 @@
 ---
 title: "2. Read and Process Input"
-description: "read input with Scanner class and check error case"
-date: 2020-07-23T00:00:00Z
+description: "Read input with Scanner class and check error cases"
+date: 2021-10-14T00:00:00Z
 prereq: "Set up the Board!"
 difficulty: "Intermediate"
 weight: 3
@@ -23,8 +23,8 @@ In `main()`, we need to first create a `Scanner` object called `sc` by calling i
 We want to `Scanner` to read our input from the standard input stream. To do that we need to pass in `System.in`(the standard input stream object).
 
 ```java
-// Scanner class constructor
-public Scanner(InputStream source);
+// Create a Scanner object
+Scanner sc = new Scanner(System.in);
 ```
 
 ## Obtaining User Input
@@ -34,12 +34,12 @@ In the previous activity, we prompt the user to enter numbers from 1 - 9. Hence,
 To obtain the `int` the `Scanner` object stores, we call the method `nextInt()` on `sc`, the `Scanner` object.
 
 ```java
-public int nextInt();
+int input = sc.nextInt();
 ```
 
 ## Test Your Program (optional)
 
-To test your program, add a print statement to prints out the value you store from `nextInt()`.
+To test your program, add a print statement to print out the value you store from `nextInt()`.
 
 Try to run your program, and type in some numbers and click `enter`. You should see your number being correctly printed out. For example:
 
@@ -58,13 +58,11 @@ Input Number: 2                          <------- Print statement printed the in
 ```
 
 {{% notice warning %}}
-#### What happens when user type something that's not a number?
+#### What happens when user types something that's not a number?
 
-When writing programs, we can never expect user to type in the correct values even when it's spelled out in the prompt.
+When writing programs, we can never expect users to type in the correct values even when it's spelled out in the prompt.
 
-So, since our program only expects an `int` input.
-
-The program will crash when you type in anything that's not a number, such as: `hi`, `$`, `20.1`. You will see an error message like the following:
+Since our program only expects an `int` input, the program will crash when you type in anything that is not an integer, such as: `hi`, `$`, `20.1`. You will see an error message like the following:
 
 ```
 Exception in thread "main" java.util.InputMismatchException      <------ tells you what error it is
@@ -80,10 +78,20 @@ Also, note that number inputs that are not in the range 1 - 9 wouldn't crash the
 
 ## Handling Invalid Inputs with Scanner
 
-The Scanner class provides methods which check for valid or invalid inputs. For example, the method `hasNextInt` will check if the value of the user's input is an integer and returns `true` or `false`. This method can be used to ensure that the user's input is valid.
+The Scanner class provides methods that check for valid or invalid inputs. For example, the method `hasNextInt` will check if the value of the user's input is an integer and returns `true` or `false`. This method can be used to ensure that the user's input is valid.
+
+Use control structures to validate the users input. If the input is not valid, request for the valid input again. 
 
 ```java
-public boolean hasNextInt();
+if(sc.hasNextInt()) { //was an integer entered
+	move = sc.nextInt(); // get integer input
+   if (!(move > 0 && move <= 9)) { //is the integer between 1 and 9
+		System.out.print("Invalid Position; re-enter your move (1-9): ");
+   }
+} else { // if an integer wasn't entered
+   sc.next(); // clear the Scanner
+	System.out.print("Invalid Input; re-enter your move (1-9): ");
+}
 ```
 
 ## Test Your Program (optional)

@@ -1,0 +1,22 @@
+<a class='nav {{ cond .isNext "nav-next" "nav-prev" }}' href="{{.URL}}" title="{{.subsection}}">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                {{ cond .isNext (i18n "up-next") (i18n "previous") }}
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                {{.subsection}}
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        {{if .isNext}}
+        <div class="nextbutton-image">
+            <i class="fa fa-arrow-right"></i>
+        </div>
+        {{else}}
+        <div class="prevbutton-image">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+        {{end}}
+    </div>
+</a>

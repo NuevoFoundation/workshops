@@ -56,10 +56,13 @@ article > aside {
   -ms-flex-direction: column;
   flex-direction: column;
   padding: 2rem 0rem 1rem 0rem;
-  position: fixed;
-  top: 130px;
   width: 20rem;
+  max-height:100vh;
   overflow-y: auto;
+  /* align-self: flex-start is needed so that position: sticky works  */
+  align-self: flex-start;
+  position: sticky;
+  top: 0px;
 }
 article > aside .menu {
   line-height: 2rem;
@@ -255,11 +258,11 @@ section strong {
   padding: 1rem 0rem;
   display: flex;
   flex-direction: row;
-  align-items: stretch;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 #navigation a {
   width: 50%;
-  flex: 1;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -278,6 +281,80 @@ section strong {
 #navigation a.nav-next {
   text-align: right;
 }
+#navigation a.nav-prev, #navigation a.nav-next {
+  width: 340px;
+}
+@media (max-width: 985px) {
+  .nextprevbutton-desktop-only {
+      display: none;
+  }
+  #navigation a.nav-prev, #navigation a.nav-next {
+    width: 100%;
+  }
+  #navigation a.nav-prev {
+    padding-right: 25px;
+  }
+  #navigation a.nav-next {
+    padding-left: 25px;
+  }
+  #navigation .next-prev-wrapper-div {
+    flex: 1;
+  }
+}
+#navigation .nextprevbutton-border {
+  width: 100%;
+
+  background: #FFFFFF;
+  border: 4px solid #000000;
+  border-radius: 4px; 
+}
+#navigation .nextprevbutton-next-text {
+  margin: 21px auto auto 20px;
+
+  text-align: left;
+  font-family: Space Mono, monospace;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.64);
+}
+#navigation .nextprevbutton-subsection-name {
+  margin: 13px 21px auto 21px;
+
+  text-align: left;
+  font-family: Lato, monospace;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+}
+#navigation .nextprevbutton-horizontal-bar {
+  margin: 26px auto auto 25px;
+  width: 48px;
+  height: 4px;
+  background-color: black;
+}
+#navigation .nextprevbutton-part-text {
+  margin: 26px auto auto 21px;
+
+  text-align: left;
+  font-family: Lato, monospace;
+  font-size: 18px;
+  line-height: 22px;
+}
+#navigation .nextbutton-image {
+  margin: 15px 15px 5px auto;
+
+  font-size: 20px;
+  line-height: normal;
+  text-align: right;
+}
+#navigation .prevbutton-image {
+  margin: 15px auto 5px 15px;
+
+  font-size: 20px;
+  line-height: normal;
+  text-align: left;
+}
 
 .burger {
   display: none;
@@ -286,7 +363,7 @@ section strong {
 article {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  display: flex !important;
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -303,7 +380,7 @@ article section.page {
   -ms-flex: 1;
   flex: 1;
   box-sizing: border-box;
-  margin: 0 1rem 0 20rem;
+  margin: 0 1rem 0 1rem;
   overflow-y: auto;
   padding: 2rem 4rem;
 }

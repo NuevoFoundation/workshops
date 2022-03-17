@@ -1,7 +1,7 @@
 ---
 title: "Data Structures (Array & ArrayList)"
 description: "Introduce basic data structures in Java."
-date: 2020-07-16T00:00:00Z
+date: 2021-10-13T00:00:00Z
 weight: 8
 ---
 
@@ -9,11 +9,11 @@ weight: 8
 
 In previous exercises, we learned that variables allow us to access and store a piece data. But, what if we want to store a bunch of similiar data? Is there a good way to organize them without declaring multiple variables?
 
-In programming, <b>data structures</b> are structures that allowed coders to store multiple pieces of data of the same type. Using data structures is an efficient way to store and access large pieces of data. In this exercise, we will learn about 2 data structures used in Java: <b>array</b> and <b>ArrayList</b>.
+In programming, **data structures** are elements that allow coders to store multiple pieces of data of the same type. Using data structures is an efficient way to store and access large pieces of data. In this exercise, we will learn about 2 data structures used in Java: **array** and **ArrayList**.
 
 While array is a fixed length data structure, ArrayList is a variable lengthed where you can change the size of the data structure. Let's start by looking at arrays!
 
-### 1. Array
+## Array
 Let's say we want to store Patrick's 🐥 top 5 favorite movies. Instead of creating 5 variables, we can store all 5 pieces of data in an array, our first data structure!
 
 To store data in an array, we do the following:
@@ -36,7 +36,7 @@ topMovies[4] = "The Secret Life of Pets";
 // the array topMovies now store "Birds Of Prey", "The Birds", "Angry Birds", "Bird Box", "The Secret Life of Pets" in order
 ```
 {{% notice info %}}
-#### Why is array indexing in Java start with 0?
+### Why is array indexing in Java start with 0?
 It's tempting and reasonable to think to access the element of an array at the first index, we should start at index 1.
 
 However, when the computer read the code `arr[1]`, it doesn't think to get the `1st` element from `arr`. 
@@ -47,7 +47,7 @@ In other words, the index is actually a memory offset. To access the 1st element
 {{% /notice %}}
 
 {{% notice tip %}}
-#### An alternating way to create an array:
+### An alternating way to create an array:
 If we know all pieces of data for an array in advance, we can create the array in one line by listing all the data between `{` and `}`. 
 
 For example:
@@ -76,7 +76,7 @@ int numOfMovie = topMovies.length; // numOfMovie has value 5
 
 <br />
 
-#### Exercise: Write a method `printArr()` that takes an array input and prints out all the elements in that array in order 
+### Exercise: Write a method `printArr()` that takes an array input and prints out all the elements in that array in order 
 (Hint: utilize for loop and `.length` to help you).
 
 After clicking `Run`, the program should print the following:
@@ -87,9 +87,9 @@ Birds Of Prey, The Birds, Angry Birds, Bird Box, The Secret Life of Pets
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsArray?lite=true#Bird.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-### 2. ArrayList
+## ArrayList
 
-ArrayList is another popular data structure in Java. `ArrayList` is a class that was implemented using arrays. It is similiar to an array that user access, store, and modify data by an index.
+ArrayList is another popular data structure in Java. `ArrayList` is a class that was implemented using arrays. It is similiar to an array in that users access, store, and modify data by an index.
 
 You create an ArrayList by specifying a name and the type between `<` and `>`. 
 For example:
@@ -143,7 +143,7 @@ System.out.print(topMoviesList.size()); // prints out 4
 
 <br />
 
-#### Exercise: Write a method `printList()` that takes an ArrayList as input and prints out all the elements in that ArrayList in order 
+### Exercise: Write a method `printList()` that takes an ArrayList as input and prints out all the elements in that ArrayList in order 
 
 (Hint: utilize for loop and `size()` to help you).
 
@@ -155,7 +155,7 @@ Birds Of Prey, The Birds, Angry Birds, Bird Box, The Secret Life of Pets
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsList?lite=true#Bird.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-### End Of Workshop 🐥 
+## End Of Workshop 🐥 
 <b>Patrick</b> 🐥 thank you for participating! Hope you learned a lot from this course :)
 ![animation of duck Patrick](https://media.giphy.com/media/l49JKwmJLChtS6d44/giphy.gif) 
 

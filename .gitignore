@@ -31,6 +31,10 @@ public/
 *.sql
 *.sqlite
 
+# Lockfiles #
+#############
+.hugo_build.lock
+
 # OS generated files #
 ######################
 .DS_Store

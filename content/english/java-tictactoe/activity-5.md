@@ -1,7 +1,7 @@
 ---
 title: "5. (Optional) AI Move"
 description: "Use Minimax algorithm to pick move for the computer"
-date: 2020-07-23T00:00:00Z
+date: 2021-10-14T00:00:00Z
 weight: 6
 prereq: "Set up the Board!, Read and Process Input, Update the Game Board, Check the winner"
 difficulty: "Advanced"
@@ -9,11 +9,11 @@ difficulty: "Advanced"
 
 ### Let's make the computer think
 
-Previously, we use a `Random` object to randomly generate a move for the computer. As a result, the competitiveness of the computer is fairly low.
+Previously, we used a `Random` object to randomly generate a move for the computer. As a result, the competitiveness of the computer is fairly low.
 
 In this exercise, we want to increase the difficulty of the game by making optimal decisions for the computer.
 
-We will do so by adding artificial intelligence into our program with the use the <b>Minimax</b> algorithm (a well-defined procedure that allows computers to solve problems).
+We will do so by adding artificial intelligence into our program with the use of the **Minimax** algorithm (a well-defined procedure that allows computers to solve problems).
 
 ### Minimax Algorithm
 
@@ -35,7 +35,7 @@ Minimax is an algorithm that is used in two-player games to make optimal decisio
 
 Let's look at an example below:
 
-<img src="../images/minimax.png" height="500"/> 
+<img src="../images/minimax.png" height="500" alt="example of possible options for winning tic-tac-toe as desribed in the text below." /> 
 
 1. In the first row, we considered the 3 possible moves for the computer `"O"`, who is the maximizer.
 2. We examine all the game states until all the moves end will a computer win, player win, or a tie. We then give them their corresponding score.
