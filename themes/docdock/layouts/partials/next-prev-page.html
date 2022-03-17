@@ -62,6 +62,7 @@
     {{ $isFirstPageOfWorkshop := (ne .Section ($.Scratch.Get "prevPage").Section) }}
     {{ $isLastPageOfWorkshop := (ne .Section ($.Scratch.Get "nextPage").Section) }}
 
+<<<<<<< HEAD
     {{- if and ($isLastPageOfWorkshop) (not $.IsHome) -}}
     <div>
         <hr/>
@@ -92,4 +93,20 @@
         {{- end -}}
         </div>
     </div>
+=======
+    <div class="next-prev-wrapper-div">
+    {{- if (not $isFirstPageOfWorkshop) -}}
+        {{- with ($.Scratch.Get "prevPage") -}}
+            {{ partial "next-prev-button" (dict "subsection" .Title "URL" .URL "isNext" false)}}
+        {{- end -}}
+    {{- end -}}
+    </div>
+    <div class="next-prev-wrapper-div">
+    {{- if (not $isLastPageOfWorkshop) -}}
+        {{- with ($.Scratch.Get "nextPage") -}}
+            {{ partial "next-prev-button" (dict "subsection" .Title "URL" .URL "isNext" true)}} 
+        {{- end -}}
+    {{- end -}}
+    </div>  
+>>>>>>> origin
 {{- end -}}
