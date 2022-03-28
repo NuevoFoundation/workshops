@@ -5,6 +5,8 @@ weight: 4
 draft: false
 ---
 
+{{< youtube w0dp9AnGltQ >}}
+
 ¡Felicitaciones!
 
 Estás muy cerca de salvar por completo a la nación.
@@ -40,5 +42,3 @@ Primero debe ir el mensaje encriptado o a encriptar, luego un 1, si queremos enc
 
 
 <iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/actividad-7?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
-Vídeo: https://www.youtube.com/watch?v=w0dp9AnGltQ&list=PLfj0ilPGpPyHCGGYT5zMm3CuWYtyL6tCg&index=8

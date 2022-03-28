@@ -5,6 +5,8 @@ weight: 4
 draft: false
 ---
 
+{{< youtube I2eaDpwc7kg >}}
+
 ¡Genial! 
 
 En esta actividad vamos a encriptar (hacer secreto) el nombre del destinatario.
@@ -80,6 +82,4 @@ reina
 <iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/actividad-5?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 {{< alert theme="danger" >}}**Cuidado**. Para pegar algo en la consola, haz click derecho pegar. De otra forma puede no funcionar. {{< /alert >}}
-
-Vídeo: https://www.youtube.com/watch?v=I2eaDpwc7kg&list=PLfj0ilPGpPyHCGGYT5zMm3CuWYtyL6tCg&index=6
 
