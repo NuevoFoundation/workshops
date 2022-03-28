@@ -94,6 +94,6 @@ Also make up your own secret words!
 
 Remember that you can always go back to previous activities to remember something.
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/actividad-6?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/activity-6-english?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 {{< alert theme="danger" >}} **Be careful**. To paste something into the console, right-click paste. Otherwise it may not work. {{< /alert >}}

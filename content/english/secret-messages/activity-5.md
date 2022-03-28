@@ -19,7 +19,7 @@ The Ascii code shows that each character has a numeric value. For example, the c
 
 The following list shows the value of the most commonly used characters:
 
-![ASCII Code Lost](../media/ascii.PNG)
+![ASCII Code Lost](../media/ascii-english.png)
 
 That each character has a value, will serve us to add or subtract letters, and thus change the order of them in a certain way. It allows us to convert characters (`char`) into numbers (`int`) and vice versa.
 
@@ -74,7 +74,7 @@ queen
 ```
 {{< alert theme="warning" >}} **Be careful**, in this program we must always write the strings and characters in **lowercase letter**. {{< /alert >}}
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/actividad-5?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/activity-5-english?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 {{< alert theme="danger" >}} **Be careful**. To paste something into the console, right-click paste. Otherwise it may not work. {{< /alert >}}
 © 2022 GitHub, Inc.
