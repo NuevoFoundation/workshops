@@ -1,6 +1,6 @@
 ---
 title: "Activity 7 - Input line"
-date: 2022-02-23
+date: 2019-07-25T13:24:17-07:00
 weight: 4
 draft: true
 ---
