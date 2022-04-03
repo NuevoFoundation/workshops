@@ -8,7 +8,9 @@ difficulty: Intermediate
 --- 
 
 To change an image, we must open an image. We can use the <b>Pillow Image</b> module we just imported in the setup.
-Let’s first find some images to open. Find an image of your choice and download it. Once you have downloaded it, navigate back to your repl.it window and upload your image by clicking on the three dots and selecting ‘upload file’.
+Let’s first find some images to open. Find an image of your choice and download it. You can also use the one we use in this workshop: <a href="../media/cat.jpg" download>Click to download.</a>
+
+Once you have downloaded it, navigate back to your replit window and upload your image by clicking on the three dots and selecting ‘upload file’.  
 
 For example, to upload the cat.jpg file:
 
@@ -20,13 +22,14 @@ Next step is to open that image within code. There are functions within the <b>P
 
 To open and show the image you downloaded, do the following:
 
-<pre>
-    image = Image.<font color="blue">open</font>("cat.jpg")
-    image.save("myCat.jpg")
-</pre>
+```python
+image = Image.open("cat.jpg")
+image.save("myCat.jpg")
+```
 
 If you are using a different image, then make sure you put the name of the file within the quotes. The code above opens the JPG image and stores that image in the variable image. To check that the image variable has the image, we can then save it as a new image. This way the image will show in the window.
 
 Hit run and see your image appear! My image looks like this:
 
-![alt text](../media/cat.png "cat")
+<!-- ![alt text](../media/cat.jpg "cat") -->
+<img src="../media/cat.jpg" alt="cat" style="width:50%"/>

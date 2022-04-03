@@ -17,11 +17,10 @@ To get started let’s start with importing a module. What does that mean? To do
 
 Firstly, let’s delete everything in the main.py file. Then, add the following statements:
 
-<pre>
-    <font color="blue">from</font> PIL <font color="blue">import</font> Image
-    <font color="blue">from</font> PIL <font color="blue">import</font> ImageFilter
-</pre>
-
+```python
+from PIL import Image
+from PIL import ImageFilter
+```
 
 Once you hit run, you should see the module being installed in the console:
 

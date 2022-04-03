@@ -13,21 +13,21 @@ The rotate image works using angles. For example, <b>rotate(45)</b> will tilt yo
 
 Let’s give that a try! Let’s rotate the image before we save it:
 
-<pre>
-    image = Image.<font color="blue">open</font>("cat.jpg")
-    image.rotate(90)
-    image.save("myCat.jpg")
-</pre>
+```python
+image = Image.open("cat.jpg")
+image.rotate(90)
+image.save("myCat.jpg")
+```
 
 Hmm, the picture didn’t seem to rotate. Why? Well, the image we opened is saved in the image variable. When we rotate the picture, we don’t save the rotated picture in any variable, so our code doesn’t save the rotated image.
 
 Let’s do this instead:
 
-<pre>
-    image = Image.<font color="blue">open</font>("cat.jpg")
-    image = image.rotate(90)
-    image.save("myCat.jpg")
-</pre>
+```python
+image = Image.open("cat.jpg")
+image = image.rotate(90)
+image.save("myCat.jpg")
+```
 
 #### Challenge
 
@@ -36,6 +36,6 @@ way around without using an angle > 180? (Hint: try using negative angle numbers
 
 Rotated all the way around, my image looks like this:
 
-![alt text](../media/upside_down.png "cat upside down")
-
+<!-- ![alt text](../media/upside_down.jpg "cat upside down") -->
+<img src="../media/upside_down.jpg" alt="cat upside down" style="width:50%"/>
 
