@@ -7,9 +7,9 @@ prereq: "Python Basics: Repl.it, Writing to Console (Print), Comments, Data Type
 difficulty: Intermediate
 --- 
 
-Now that we have the image in our code, let’s turn it in different directions. To do that, let’s look at the <b>Pillow Image</b> function <b>rotate()</b>.
+Now that we have the image in our code, let’s turn it in different directions. To do that, let’s look at the `Pillow Image` function `rotate()`.
 
-The rotate image works using angles. For example, <b>rotate(45)</b> will tilt your picture sideways by 45 degrees. Using <b>rotate(90)</b> will turn your picture sideways.
+The rotate image works using angles. For example, `rotate(45)` will tilt your picture sideways by 45 degrees. Using `rotate(90)` will turn your picture sideways.
 
 Let’s give that a try! Let’s rotate the image before we save it:
 
@@ -19,7 +19,7 @@ image.rotate(90)
 image.save("myCat.jpg")
 ```
 
-Hmm, the picture didn’t seem to rotate. Why? Well, the image we opened is saved in the image variable. When we rotate the picture, we don’t save the rotated picture in any variable, so our code doesn’t save the rotated image.
+Hmm, the picture didn’t seem to rotate. Why? Well, the image we opened is saved in the `image` variable. When we rotate the picture, we don’t save the rotated picture in any variable, so our code doesn’t save the rotated image.
 
 Let’s do this instead:
 
@@ -36,6 +36,5 @@ way around without using an angle > 180? (Hint: try using negative angle numbers
 
 Rotated all the way around, my image looks like this:
 
-<!-- ![alt text](../media/upside_down.jpg "cat upside down") -->
 <img src="../media/upside_down.jpg" alt="cat upside down" style="width:50%"/>
 
