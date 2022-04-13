@@ -36,7 +36,8 @@ BONUS: Combine the `COUNT()` and `GROUP BY` commands to show the number of citie
 {{%/notice%}}
 
 {{< rawhtml >}}
-<div class="terminal_div" id="terminal_div">
+<div class="content_scaler">
+  <div class="terminal_div" id="terminal_div">
     <div class = "outer">
       <h3 id = "commands" contenteditable="true" onclick="placeholder()">Type command here!</h3>
     </div>
@@ -47,26 +48,29 @@ BONUS: Combine the `COUNT()` and `GROUP BY` commands to show the number of citie
     <button class="button button1" onclick="sql()"> Enter </button>
     <div style="clear: both;"></div> 
     <button class = "button reset" onclick="reset()">Reset</button>
-  </div>
-  <div style="clear: both;"></div> 
-  <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
-  <table id="table">
-    <tr></tr>
-  </table>
-  <h4 id="story"></h4>
+  </div> <!-- terminal_div -->
+</div> <!-- content_scaler -->
+<div style="clear: both;"></div> 
+<h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
+<table id="table">
+  <tr></tr>
+</table>
+<h4 id="story"></h4>
 
-<div class="vendor_div" id="vendor_div">
-  <button class="button cake" id = "cake_button" onclick="highlight('cake_button')"></button>
-  <button class="button ice_cream" id = "ic_button" onclick="highlight('ic_button')"></button> 
-  <button class="button hot_dog" id = "hd_button" onclick="highlight('hd_button')"></button> 
-  <button class="button vendor_reset" id = "vendor_reset" onclick="oven_reset()"> Clear </button> 
-  <div style="clear: both;"></div>  
-  <button class="button burger" id = "burger_button" onclick="highlight('burger_button')"></button>
-  <button class="button pizza" id = "pizza_button" onclick="highlight('pizza_button')"></button>
-  <button class="button taco" id = "taco_button" onclick="highlight('taco_button')"></button>
-  <button class="button vendor_button" id = "vendor_button" onclick="confirm()"> Cook! </button>  
-  <div style="clear: both;"></div> 
-</div>
+<div class="content_scaler">
+  <div class="vendor_div" id="vendor_div">
+    <button class="button cake" id = "cake_button" onclick="highlight('cake_button')"></button>
+    <button class="button ice_cream" id = "ic_button" onclick="highlight('ic_button')"></button> 
+    <button class="button hot_dog" id = "hd_button" onclick="highlight('hd_button')"></button> 
+    <button class="button vendor_reset" id = "vendor_reset" onclick="oven_reset()"> Clear </button> 
+    <div style="clear: both;"></div>  
+    <button class="button burger" id = "burger_button" onclick="highlight('burger_button')"></button>
+    <button class="button pizza" id = "pizza_button" onclick="highlight('pizza_button')"></button>
+    <button class="button taco" id = "taco_button" onclick="highlight('taco_button')"></button>
+    <button class="button vendor_button" id = "vendor_button" onclick="confirm()"> Cook! </button>  
+    <div style="clear: both;"></div> 
+  </div> <!-- vendor_div -->
+</div> <!-- content_scaler -->
 
 <br>
 

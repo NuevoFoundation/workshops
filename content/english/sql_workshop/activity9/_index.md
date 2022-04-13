@@ -44,18 +44,20 @@ Use the command from activity 1 to view the entire database.
 <!-- SQL Type In Activity -->
 
 {{< rawhtml >}}
-<div class="terminal_div" id="terminal_div">
-    <div class = "outer">
-      <h3 id = "commands" contenteditable="true" onclick="placeholder()">Type command here!</h3>
-    </div>
-    <div class = "prev">
-      <h3 id = "prev"></h3>
-    </div>
-    <div style="clear: both;"></div> 
-    <button class="button button1" onclick="sql()"> Enter </button>
-    <div style="clear: both;"></div> 
-    <button class = "button reset" onclick="reset()">Reset</button>
-  </div>
+  <div class="content_scaler">
+    <div class="terminal_div" id="terminal_div">
+      <div class = "outer">
+        <h3 id = "commands" contenteditable="true" onclick="placeholder()">Type command here!</h3>
+      </div>
+      <div class = "prev">
+        <h3 id = "prev"></h3>
+      </div>
+      <div style="clear: both;"></div> 
+      <button class="button button1" onclick="sql()"> Enter </button>
+      <div style="clear: both;"></div> 
+      <button class = "button reset" onclick="reset()">Reset</button>
+    </div> <!-- terminal_div -->
+  </div> <!-- content_scaler -->
   <div style="clear: both;"></div> 
   <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
   <table id="table">
@@ -72,28 +74,30 @@ The clue to the combination is at the top of this page!
 
 {{< rawhtml >}}
 
-<div class="vault_div" id="vault_div">
+<div class="content_scaler">
+  <div class="vault_div" id="vault_div">
 
-  <div id="left_div">
-  <button class="button first_up" id = "first_up" onclick="add(1)"> + </button>
-  <button class="button sec_up" id = "sec_up" onclick="add(2)"> + </button> 
-  
-  <div style="clear: both;"></div> 
-  
-  <textarea class="lock" id="lock1" readonly>0</textarea>
-  <textarea class="lock" id="lock2" readonly>0</textarea>
-  
-  <button class="button first_down" id = "first_down" onclick="subtract(-1)" style="clear:left;"> - </button>
-  <button class="button sec_down" id = "sec_down" onclick="subtract(-2)"> - </button>
-  </div>
+    <div id="left_div">
+    <button class="button first_up" id = "first_up" onclick="add(1)"> + </button>
+    <button class="button sec_up" id = "sec_up" onclick="add(2)"> + </button> 
+    
+    <div style="clear: both;"></div> 
+    
+    <textarea class="lock" id="lock1" readonly>0</textarea>
+    <textarea class="lock" id="lock2" readonly>0</textarea>
+    
+    <button class="button first_down" id = "first_down" onclick="subtract(-1)" style="clear:left;"> - </button>
+    <button class="button sec_down" id = "sec_down" onclick="subtract(-2)"> - </button>
+    </div>
 
-  <div id="right_div">
-  <button class="button vault_button" id = "vault_button" onclick="confirm()"> Check </button>
-  </div>
-  
-  <div style="clear: both;"></div> 
+    <div id="right_div">
+    <button class="button vault_button" id = "vault_button" onclick="confirm()"> Check </button>
+    </div>
+    
+    <div style="clear: both;"></div> 
 
-</div>
+  </div> <!-- vault_div -->
+</div> <!-- content_scaler -->
 
 <br>
 

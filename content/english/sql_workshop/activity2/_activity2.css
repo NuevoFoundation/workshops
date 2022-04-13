@@ -1,26 +1,26 @@
 /* Positions and style for the code blocks */
 .codeBlocks {
-  margin: 1vw;
-  width: 10vw;
-  height: 6vw;
+  margin: 10px;
+  width: 100px;
+  height: 60px;
 }
 
 /* Positions and style for the drop places */
 .dropClass {
-  width: 8vw;
-  height: 4vw;
+  width: 80px;
+  height: 40px;
   overflow: hidden;
-  margin: 0.3vw;
+  margin: 3.0px;
 }
 
 .terminal_div {  
   background-image: url('assets/Terminal.png');
-  padding-top: 12vw;
-  padding-left: 9vw;
-  padding-bottom: 0vw;
-  padding-right: 4vw;
-  width: 79vw;
-  height: 48vw;
+  padding-top: 120px;
+  padding-left: 90px;
+  padding-bottom: 0px;
+  padding-right: 40px;
+  width: 790px;
+  height: 480px;
   overflow: hidden;
 }
 

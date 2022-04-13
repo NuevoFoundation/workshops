@@ -48,7 +48,8 @@ Use the command from activity 1 to display the entire database.
 <!-- SQL Type In Activity -->
 
 {{< rawhtml >}}
-<div class="terminal_div" id="terminal_div">
+<div class="content_scaler">
+  <div class="terminal_div" id="terminal_div">
     <div class = "outer">
       <h3 id = "commands" contenteditable="true" onclick="placeholder()">Type command here!</h3>
     </div>
@@ -59,7 +60,8 @@ Use the command from activity 1 to display the entire database.
     <button class="button button1" onclick="sql()"> Enter </button>
     <div style="clear: both;"></div> 
     <button class = "button reset" onclick="reset()">Reset</button>
-</div>
+  </div> <!-- terminal_div -->
+</div> <!-- content_scaler -->
 
 <div style="clear: both;"></div> 
   
