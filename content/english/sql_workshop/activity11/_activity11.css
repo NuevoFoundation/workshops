@@ -9,9 +9,9 @@
   padding: 15px 32px;
   text-align: center;
   display: inline-block;
-  margin: 1.5vw;
-  width: 9vw;
-  height: 9vw;
+  margin: 15px;
+  width: 90px;
+  height: 90px;
   background-repeat: no-repeat;
 }
 
@@ -19,7 +19,7 @@
 .ice_cream {
   background: url("assets/ice_cream.png");
   background-repeat: no-repeat;
-  background-size: 5vw 9vw;
+  background-size: 50px 90px;
   background-position-x: center;
   background-color: #fcfcfc;
 }
@@ -27,7 +27,7 @@
 .hot_dog {
   background: url("assets/hot_dog.png");
   background-repeat: no-repeat;
-  background-size: 10vw 10vw;
+  background-size: 100px 100px;
   background-position-x: center;
   background-position-y: center;
   background-color: #fcfcfc;
@@ -36,7 +36,7 @@
 .burger {
   background: url("assets/burger.png");
   background-repeat: no-repeat;
-  background-size: 6vw 6vw;
+  background-size: 60px 60px;
   background-position-x: center;
   background-position-y: center;
   background-color: #fcfcfc;
@@ -45,7 +45,7 @@
 .taco {
   background: url("assets/taco.png");
   background-repeat: no-repeat;
-  background-size: 8vw 5vw;
+  background-size: 80px 50px;
   background-position-x: center;
   background-position-y: center;
   background-color: #fcfcfc;
@@ -54,7 +54,7 @@
 .pizza {
   background: url("assets/pizza.png");
   background-repeat: no-repeat;
-  background-size: 9vw 6vw;
+  background-size: 90px 60px;
   background-position-x: center;
   background-position-y: center;
   background-color: #fcfcfc;
@@ -63,44 +63,44 @@
 
 /* Confirm button */
 .vendor_button {
-  margin: 2vw;
+  margin: 20px;
   float: right;
   text-align: center;
   display: inline-block;
-  font-size: 2vw;
+  font-size: 20px;
   font-family: courier;
   color: solid white;
   font-weight: bold;
   background-color: #4dff4d;
-  height: 7vw;
-  width: 12vw;
+  height: 70px;
+  width: 120px;
 }
 
 /* Reset Vendor Button */
 .vendor_reset {
-  margin: 2vw;
+  margin: 20px;
   float: right;
   text-align: center;
   display: inline-block;
-  font-size: 2vw;
+  font-size: 20px;
   font-family: courier;
   color: solid white;
   font-weight: bold;
   background-color: #FF0000;
-  height: 7vw;
-  width: 12vw;
+  height: 70px;
+  width: 120px;
   
 }
 
 /* Vendor container */
 .vendor_div {
-  padding-top: 1vw;
-  padding-left: 10vw;
-  padding-bottom: 1vw;
-  padding-right: 10vw;
+  padding-top: 10px;
+  padding-left: 100px;
+  padding-bottom: 10px;
+  padding-right: 100px;
   background-image: url('assets/oven.png');
   background-size: contain;
   background-repeat: no-repeat;
-  width: 73vw;
-  height: 55vw;
+  width: 730px;
+  height: 550px;
 }

@@ -57,6 +57,7 @@ The `WHERE` command allows you to only show data that you want.
 
 {{< rawhtml >}}
 
+<div class="content_scaler">
 <div class="terminal_div" id="terminal_div">
 
 <!-- Rectangles to Receive blocks -->
@@ -104,7 +105,8 @@ The `WHERE` command allows you to only show data that you want.
 
 <!-- Press Enter and if correct, unhide coordinate block -->
 <button class="button button1" onclick="check()"> Enter </button>
-</div>
+</div> <!-- terminal_div -->
+</div> <!-- content_scaler -->
 
 <table id="planet" style="visibility:hidden">
   <tr>

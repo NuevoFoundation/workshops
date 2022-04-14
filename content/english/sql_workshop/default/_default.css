@@ -2,34 +2,34 @@
 .codeBlocks {
   display: inline-block;
   float: left;
-  width: 9vw;
-  height: 5vw;
+  width: 90px;
+  height: 50px;
   border: 1px solid green;
-  margin: 0.5vw;
+  margin: 5.0px;
 }
 
 /* Positions and style for the drop places */
 .dropClass {
   display: inline-block;
   float: left;
-  width: 8vw;
-  height: 5vw;
-  margin: 1vw;
+  width: 80px;
+  height: 50px;
+  margin: 10px;
   border: 1px solid white;
   overflow: hidden;
 }
 
 /* Reference position for blocks */
 .terminal_div {
-  padding-top: 13vw;
-  padding-left: 10vw;
-  padding-bottom: 0vw;
-  padding-right: 1vw;
+  padding-top: 130px;
+  padding-left: 100px;
+  padding-bottom: 0px;
+  padding-right: 10px;
   background-image: url('../media/Terminal.png');
   background-size: contain;
   background-repeat: no-repeat;
-  width: 78vw;
-  height: 48vw;
+  width: 780px;
+  height: 480px;
 }
 
 /* Positions for code block images inside rectangles */
@@ -52,8 +52,8 @@
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  height: 6vw;
-  width: 8vw;
+  height: 60px;
+  width: 80px;
 }
 
 /* Style for Enter button */
@@ -62,7 +62,7 @@
   color: white;
   text-align: left;
   display: inline-block;
-  font-size: 1.5vw;
+  font-size: 15.0px;
   margin: 4px 2px;
   border-radius: 25%;
 }
@@ -73,7 +73,7 @@
   color: white;
   text-align: left;
   display: inline-block;
-  font-size: 1.5vw;
+  font-size: 15.0px;
   margin: 4px 2px;
   border-radius: 25%;
 }

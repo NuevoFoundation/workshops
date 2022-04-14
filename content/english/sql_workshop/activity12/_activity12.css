@@ -4,8 +4,8 @@
   background-image: url('assets/find.png');
   background-size: contain;
   background-repeat: no-repeat;
-  max-width: 85%;
-  height: 22vw;
+  width: 615px;
+  height: 220px;
 }
 
 /* The child container of inventor_div, holds the text box insert area */
@@ -20,13 +20,13 @@
 .text_box {
   float: left;
   background-color: transparent;
-  width: 45vw;
-  height: 5vw;
+  width: 450px;
+  height: 50px;
   resize: none;
   background-color: #ffffff;
   border: 1px solid black;
   opacity: 0.7;
-  padding: 1vw 0;
+  padding: 10px 0;
   width: 90%;
   height: 40%;
 }
@@ -44,7 +44,7 @@
   padding-left: 6%;
   padding-right: 1%;
   height: 100%;
-  width: 17vw;
+  width: 170px;
 }
 
 /* Style for the second check button (for the inventor_div) */
@@ -55,7 +55,7 @@
   color: black;
   text-align: center;
   display: inline-block;
-  font-size: 2vw;
+  font-size: 20px;
   border-radius: 25%;
   width: 100%;
   outline: none;

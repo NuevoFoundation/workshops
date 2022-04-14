@@ -1,3 +1,38 @@
+document.addEventListener("DOMContentLoaded", function() {
+  setUpUiRescaling();
+});
+
+// Divs with "content_scaler" class uniformly resize their child element using CSS transforms.
+function setUpUiRescaling() {
+  const DEBOUNCE_TIME_IN_MS = 100;
+  const contentScalerElements = document.getElementsByClassName("content_scaler");
+  for (let scaler of contentScalerElements) {
+    const onResize = (resizeObserverEntries) => {
+      let computedParentStyle = getComputedStyle(scaler.parentElement);
+      let parentWidth = scaler.parentElement.offsetWidth - parseFloat(computedParentStyle.paddingLeft) - parseFloat(computedParentStyle.paddingRight);
+      let scaleFactor = parentWidth / elementToScale.offsetWidth;
+      elementToScale.style.transform = `scale(${scaleFactor})`;
+      elementToScale.style.transformOrigin = "top left";
+      scaler.style.width = "100%";
+      scaler.style.height = elementToScale.offsetHeight * scaleFactor + "px";
+      scaler.style.overflow = "hidden";
+    };
+    const elementToScale = scaler.firstElementChild;
+    const resizeObserver = new ResizeObserver(debounce(onResize, DEBOUNCE_TIME_IN_MS));
+    onResize();
+    resizeObserver.observe(scaler.parentElement);
+  }
+}
+
+// takes a function and returnes a "debounced" version of the function. It's a way of rate-limiting rapid subsequent calls to the function.
+function debounce(func, timeout) {
+  let timer;
+  return (...args) => {
+    clearTimeout(timer);
+    timer = setTimeout(() => { func.apply(this, args); }, timeout);
+  }
+}
+
 //Global variables to keep track of answer places
 var p1 = null;
 var p2 = null;

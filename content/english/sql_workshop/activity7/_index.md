@@ -43,18 +43,20 @@ You can display the entire database using the command from activity 1.
 
 {{< rawhtml >}}
 
-<div class="terminal_div" id="terminal_div">
-    <div class = "outer">
-      <h3 id = "commands" contenteditable="true" onclick="placeholder()">Type command here!</h3>
-    </div>
-    <div class = "prev">
-      <h3 id = "prev"></h3>
-    </div>
-    <div style="clear: both;"></div> 
-    <button class="button button1" onclick="sql()"> Enter </button>
-    <div style="clear: both;"></div> 
-    <button class = "button reset" onclick="reset()">Reset</button>
-  </div>
+  <div class="content_scaler">
+    <div class="terminal_div" id="terminal_div">
+      <div class = "outer">
+        <h3 id = "commands" contenteditable="true" onclick="placeholder()">Type command here!</h3>
+      </div>
+      <div class = "prev">
+        <h3 id = "prev"></h3>
+      </div>
+      <div style="clear: both;"></div> 
+      <button class="button button1" onclick="sql()"> Enter </button>
+      <div style="clear: both;"></div> 
+      <button class = "button reset" onclick="reset()">Reset</button>
+    </div> <!-- terminal_div -->
+  </div> <!-- content_scaler -->
   <div style="clear: both;"></div> 
   <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
   <table id="table">
@@ -74,31 +76,33 @@ The height corresponds to the number of loops at the base of the key. The correc
 
 {{< rawhtml >}}
 
-<!-- Player drags key block to drop block to finish mission -->
-<div class="door_div" id="door_div">
+<div class="content_scaler">
+  <!-- Player drags key block to drop block to finish mission -->
+  <div class="door_div" id="door_div">
 
-<div id="buffer" class = "codeBlocks"></div>
-<div style="clear: both;"></div> 
+    <div id="buffer" class = "codeBlocks"></div>
+    <div style="clear: both;"></div> 
 
 
-<!-- Position of first key -->
-<div id="div1" class ="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
-  <img class="img" src="assets/Key1.png" draggable="true" ondragstart="drag(event)" id="drag1">
-</div> 
+    <!-- Position of first key -->
+    <div id="div1" class ="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <img class="img" src="assets/Key1.png" draggable="true" ondragstart="drag(event)" id="drag1">
+    </div> 
 
-<!-- Drag Block -->
-<div id="div2" class ="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
-  <img class="img" src="assets/Key2.png" draggable="true" ondragstart="drag(event)" id="drag2">
-</div> 
+    <!-- Drag Block -->
+    <div id="div2" class ="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <img class="img" src="assets/Key2.png" draggable="true" ondragstart="drag(event)" id="drag2">
+    </div> 
 
-<div id="div3" class ="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
-  <img class="img" src="assets/Key3.png" draggable="true" ondragstart="drag(event)" id="drag3">
-</div> 
+    <div id="div3" class ="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <img class="img" src="assets/Key3.png" draggable="true" ondragstart="drag(event)" id="drag3">
+    </div> 
 
-<!-- Drop Location -->
-<div id="div4" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
+    <!-- Drop Location -->
+    <div id="div4" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
 
-</div>
+  </div> <!-- door_div -->
+</div> <!-- content_scaler -->
 
 <!-- Next mission text displays -->
 <div id="text1" style="visibility:hidden">
