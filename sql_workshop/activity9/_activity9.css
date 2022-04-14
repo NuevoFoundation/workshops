@@ -6,7 +6,7 @@
   border: 10px solid white;
   border-radius: 5px;
   resize: none;
-  margin: 1.7vw;
+  margin: 17.0px;
   text-align: center;
   font-family: courier;
   font-size: 50px;
@@ -38,10 +38,10 @@
   color: white;
   text-align: center;
   display: inline-block;
-  font-size: 5vw;
-  margin: 1.5vw;
+  font-size: 50px;
+  margin: 15.0px;
   width: 34%;
-  line-height: 2vw;
+  line-height: 20px;
   outline: none;
 }
 
@@ -54,9 +54,9 @@
   text-align: center;
   display: inline-block;
   font-size: 70px;
-  margin: 1.7vw;
+  margin: 17.0px;
   width: 34%;
-  line-height: 2vw;
+  line-height: 20px;
   outline: none;
   
 }
@@ -65,13 +65,13 @@
 .vault_button {
   text-align: left;
   display: inline-block;
-  font-size: 2vw;
+  font-size: 20px;
   font-family: courier;
   color: #43a4e0;
   font-weight: bold;
   background-color: transparent;
   outline: none;
-  width: 10vw;
+  width: 100px;
   
 }
 
@@ -80,8 +80,8 @@
   background-image: url('assets/Vault.png');
   background-size: contain;
   background-repeat: no-repeat;
-  width: 73vw;
-  height: 55vw;
+  width: 730px;
+  height: 550px;
 }
 
 /* Plot text style*/
