@@ -1,7 +1,7 @@
 ---
 title: "Exercise 3 - The Burrows-Wheeler Transform"
 difficulty: "Intermediate"
-weight: 1
+weight: 101
 draft: true
 ---
 # Burrows-Wheeler Transform
@@ -24,13 +24,10 @@ Wait, the suffixes look just like our rotations, and it is sorted the way we wan
 
 (Picture)
 
+# The Implementation
+
 We've implemented the suffix array and with it the Burrows-Wheeler transform. However, we were tired at the time and missed quite a few bugs, so your job is to fix them for us.
 
-All your work should be in `work.c`. What you need to do:
-
-1. Fix all compiler bugs.
-2. Fix any logical errors, so the output is correct.
-3. Fix all memory bugs, such that there are no memory leaks.
 
 Use any tools like gdb and valgrind to your advantage. Good luck!
 
