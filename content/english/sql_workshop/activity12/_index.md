@@ -29,18 +29,20 @@ Everyone is having a good time at the party! The inventor has also arrived, now 
 {{%/notice%}}
 
 {{< rawhtml >}}
-<div class="terminal_div" id="terminal_div">
-	<div class = "outer">
-		<h3 id = "commands" contenteditable="true" onclick="placeholder()">Type command here!</h3>
-	</div>
-  <div class = "prev">
-      <h3 id = "prev"></h3>
+<div class="content_scaler">
+  <div class="terminal_div" id="terminal_div">
+    <div class = "outer">
+      <h3 id = "commands" contenteditable="true" onclick="placeholder()">Type command here!</h3>
     </div>
-	<div style="clear: both;"></div> 
-	<button class="button button1" onclick="sql()"> Enter </button>
-	<div style="clear: both;"></div> 
-    <button class = "button reset" onclick="reset()">Reset</button>
-</div>
+    <div class = "prev">
+        <h3 id = "prev"></h3>
+      </div>
+    <div style="clear: both;"></div> 
+    <button class="button button1" onclick="sql()"> Enter </button>
+    <div style="clear: both;"></div> 
+      <button class = "button reset" onclick="reset()">Reset</button>
+  </div> <!-- terminal_div -->
+</div> <!-- content_scaler -->
 <div style="clear: both;"></div> 
 <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT</strong></h1>
 <table id="table">
@@ -59,16 +61,20 @@ Everyone is having a good time at the party! The inventor has also arrived, now 
 {{%/notice%}}
 
 {{< rawhtml >}}
-<div class = "inventor_div" id="inventor_div">
-  <div class = "box_half" id = "box_half">
-	  <div class = "text_box">
-		  <h3 id = "person" contenteditable="true" onclick="document.getElementById('person').innerHTML = ''">Enter person here!<h3>
-    </div>
-  </div>
-  
-  <div class= "half" id = "half">
-    <button class="button second" onclick="check()"> Check! </button>
-  </div>
+<div style="max-width:600px">
+  <div class="content_scaler">
+    <div class = "inventor_div" id="inventor_div">
+      <div class = "box_half" id = "box_half">
+        <div class = "text_box">
+          <h3 id = "person" contenteditable="true" onclick="document.getElementById('person').innerHTML = ''">Enter person here!<h3>
+        </div>
+      </div>
+      
+      <div class= "half" id = "half">
+        <button class="button second" onclick="check()"> Check! </button>
+      </div>
+    </div> <!-- inventor_div -->
+  </div> <!-- content_scaler -->
 </div>
 
 <h4 id="answer"></h4>

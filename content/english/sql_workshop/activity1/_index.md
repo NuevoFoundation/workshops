@@ -44,6 +44,7 @@ The `SELECT` command allows you to choose what data to show from a database.
 #### Question: What command will display all the columns in the database called "galaxy"?
 
 {{< rawhtml >}}
+<div class="content_scaler">
 <div class="terminal_div" id="terminal_div">
 
 <!-- Rectangles to Receive blocks -->
@@ -81,7 +82,8 @@ The `SELECT` command allows you to choose what data to show from a database.
 
 <!-- Enter button -->
 <button class="button button1" onclick="check()">Enter</button>
-</div>
+</div> <!-- terminal_div -->
+</div> <!-- content_scaler -->
 
 <!-- Hidden SQL database will appear once correct sequence is placed -->
 <div style="clear: both;"></div> 

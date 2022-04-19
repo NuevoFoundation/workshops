@@ -1,20 +1,20 @@
 .terminal_div {
-  padding-top: 16vw;
-  padding-left: 11vw;
-  padding-bottom: 0vw;
-  padding-right: 3vw;
+  padding-top: 160px;
+  padding-left: 110px;
+  padding-bottom: 0px;
+  padding-right: 30px;
 }
 
 .outer {
   float: left;
   background-color: transparent;
-  width: 45vw;
-  height: 5vw;
+  width: 450px;
+  height: 50px;
   resize: none;
   background-color: #ffffff;
   border: 1px solid black;
   opacity: 0.7;
-  padding: 1vw 0;
+  padding: 10px 0;
 }
 
 .outer h3 {
@@ -26,14 +26,14 @@
 .prev {
   float: left;
   background-color: transparent;
-  width: 45vw;
-  height: 3.5vw;
+  width: 450px;
+  height: 35.0px;
   resize: none;
   background-color: #ffffff;  
   border: 1px solid black;
   opacity: 0.7;
-  padding: 1vw 0;
-  margin-top: 7vw;
+  padding: 10px 0;
+  margin-top: 70px;
 }
 
 .prev h3 {
@@ -47,8 +47,8 @@
   float: left;
   background-color: transparent;
   color: green;
-  width: 40vw;
-  height: 13vw;
+  width: 400px;
+  height: 130px;
   font-size: 20px;
   resize: none;
 }
@@ -77,7 +77,7 @@
 
 .table, th, td {
   border: 2px black;
-  font-size: 25px;
+  font-size: 15px;
 }
 
 tr:hover 

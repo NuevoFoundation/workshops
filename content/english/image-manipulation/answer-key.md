@@ -103,7 +103,7 @@ If using Python3, you may need to manually install the image package.  To do thi
 The activities below are already described in the curriculum with the example answers.  Repeated here for ease of access.
 
 ### Activity 1: Open an Image
-The student can pick any image they want as long as it is appropriate.  
+The student can pick any image they want as long as it is appropriate.  They can also use the default cat image provided.
 
 1. Find a picture student likes. 
 2. Download it
@@ -114,8 +114,8 @@ The student can pick any image they want as long as it is appropriate.
 from PIL import Image
 from PIL import ImageFilter
 
-image = Image.open("cat.png")
-image.save("myCat.png")
+image = Image.open("cat.jpg")
+image.save("myCat.jpg")
 ```
 
 The image.save() function allows the student to see the image that they uploaded.  They will see a new file on the left pop up with the image (ie. in this example, 'myCat.png').  
@@ -146,6 +146,7 @@ image.save("myCat.jpg")
 
 # Activity 3
 blurredImage = image.filter(ImageFilter.BLUR) 
+# alt: blurredImage = image.filter(ImageFilter.BoxBlur(15))
 blurredImage.save("myCatBlurred.jpg")
 
 greyscaleImage = blurredImage.convert("L")
@@ -175,4 +176,43 @@ greyscaleImage.save("myCatBW.jpg")
 drawnImage = ImageDraw.Draw(greyscaleImage)
 drawnImage.text((200,20), "When you realize you learned python in an hour.")
 greyscaleImage.save("myCatWithText.jpg")
+```
+
+## Full code:
+```Python
+from PIL import Image
+from PIL import ImageFilter
+from PIL import ImageDraw
+from PIL import ImageFont
+from PIL import ImageChops # extra
+
+image = Image.open("cat.jpg")
+
+# rotation image
+image = image.rotate(180)
+image.save("myCat.jpg")
+
+# filter image
+blurredImage = image.filter(ImageFilter.BoxBlur(15))
+# alt: blurredImage = image.filter(ImageFilter.BLUR)
+blurredImage.save("myCatBlurred.jpg")
+
+# black and white cat
+greyscaleImage = blurredImage.convert("L")
+greyscaleImage.save("bwBlurredCat.jpg")
+
+# add text (no specific font)
+# drawImage = ImageDraw.Draw(greyscaleImage)
+# drawImage.text((400,1200), "Whatchu doing? Coding?")
+# greyscaleImage.save("myCatWithText.jpg")
+
+# add text (with font)
+drawImage = ImageDraw.Draw(greyscaleImage)
+font = ImageFont.truetype(font = 'Roboto-Bold.ttf', size=75)
+drawImage.text((400,1200), "Whatchu doing? Coding?", font=font)
+greyscaleImage.save("myCatWithText.jpg")
+
+# extra: invert image! Another thing they can do if time.
+inv_img = ImageChops.invert(greyscaleImage)
+inv_img.save("invertedImage.jpg")
 ```

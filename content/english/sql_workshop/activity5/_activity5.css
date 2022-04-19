@@ -1,40 +1,40 @@
 /* Positions and style for the code blocks */
 .codeBlocks {
   float: right;
-  margin: 2vw;
-  width: 6vw;
-  height: 11vw;
+  margin: 20px;
+  width: 60px;
+  height: 110px;
   border: 1px solid white;
 }
 
 /* Positions and style for the drop places */
 .dropClass {
-  width: 5vw;
-  height: 9vw;
+  width: 50px;
+  height: 90px;
   overflow: hidden;
-  margin: 0.3vw;
+  margin: 3.0px;
   border: 5px solid white;
 }
 
 
 /* Position for hill placement */
 .hill_div {
-  padding-top: 8vw;
-  padding-left: 14vw;
-  padding-bottom: 0vw;
-  padding-right: 10vw;
+  padding-top: 80px;
+  padding-left: 140px;
+  padding-bottom: 0px;
+  padding-right: 100px;
   background-image: url('assets/Hill.png');
   background-size: contain;
   background-repeat: no-repeat;
-  width: 78vw;
-  height: 36vw;
+  width: 780px;
+  height: 360px;
 }
 
 /* Positions for ladder images inside rectangles */
 .img {
   position: relative;
   display: inline-block;
-  bottom: 2.3vw;
-  height: 10vw;
-  width: 8vw;
+  bottom: 23.0px;
+  height: 100px;
+  width: 80px;
 }

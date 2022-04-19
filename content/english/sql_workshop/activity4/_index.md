@@ -12,6 +12,7 @@ draft: false
 <script type="text/javascript" src="../default/alasql.js"></script>
 <script type="text/javascript" src="_activity4.js"></script>
 <script type="text/javascript" src="../default/db.js"></script>
+<script type="text/javascript" src="../default/_default.js"></script>
 <script type="text/javascript" src="../default/_type.js"></script>
 
 {{< youtube UySfZlYMd6M >}}
@@ -52,18 +53,20 @@ Don't forget the semicolon at the end!
 
 <!-- SQL Type In Activity -->
 {{< rawhtml >}}
-  <div class="terminal_div" id="terminal_div">
-    <div class = "outer">
-      <h3 id = "commands" contenteditable="true" onclick="placeholder()">Type command here!</h3>
-    </div>
-    <div class = "prev">
-      <h3 id = "prev"></h3>
-    </div>
+  <div class="content_scaler">
+    <div class="terminal_div" id="terminal_div">
+      <div class = "outer">
+        <h3 id = "commands" contenteditable="true" onclick="placeholder()">Type command here!</h3>
+      </div>
+      <div class = "prev">
+        <h3 id = "prev"></h3>
+      </div>
+        <div style="clear: both;"></div> 
+      <button class="button button1" onclick="sql()"> Enter </button>
       <div style="clear: both;"></div> 
-    <button class="button button1" onclick="sql()"> Enter </button>
-    <div style="clear: both;"></div> 
-    <button class = "button reset" onclick="reset()">Reset</button>
-  </div>
+      <button class = "button reset" onclick="reset()">Reset</button>
+    </div> <!-- terminal_div -->
+  </div> <!-- content_scaler -->
   <div style="clear: both;"></div> 
   <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
   <table id="table">

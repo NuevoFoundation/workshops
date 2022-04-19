@@ -85,19 +85,21 @@ Remember: You can query the database multiple times using everything you have le
 
 {{< rawhtml >}}
 
- <div class="terminal_div" id="terminal_div">
-    <div class = "outer">
-      <h3 id = "commands" contenteditable="true" onclick="placeholder()">Type command here!</h3>
-    </div>
-    <div class = "prev">
-      <h3 id = "prev"></h3>
-    </div>
+  <div class="content_scaler">
+    <div class="terminal_div" id="terminal_div">
+      <div class = "outer">
+        <h3 id = "commands" contenteditable="true" onclick="placeholder()">Type command here!</h3>
+      </div>
+      <div class = "prev">
+        <h3 id = "prev"></h3>
+      </div>
+        <div style="clear: both;"></div> 
+      <button class="button button1" onclick="sql()"> Enter </button>
       <div style="clear: both;"></div> 
-    <button class="button button1" onclick="sql()"> Enter </button>
-    <div style="clear: both;"></div> 
-    <button class = "button reset" onclick="reset()">Reset</button>
-  </div>
-  <div style="clear: both;"></div> 
+      <button class = "button reset" onclick="reset()">Reset</button>
+    </div> <!-- terminal_div -->
+  </div> <!-- content_scaler -->
+  <div style="clear: both;"></div>
   <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
   <table id="table">
     <tr></tr>
@@ -124,6 +126,7 @@ The correct ladder will be highlighted in green.
 {{< rawhtml >}}
 
 
+<div class="content_scaler">
 <!-- Player drags ladder block to drop block to finish mission -->
 <div class="hill_div" id="hill_div">
 
@@ -143,7 +146,8 @@ The correct ladder will be highlighted in green.
   <img class="img" src="assets/ladder_yellow.png" draggable="true" ondragstart="drag(event)" id="drag3">
 </div>
 
-</div>
+</div> <!-- hill_div -->
+</div> <!-- content_scaler -->
 
 <div style="clear: both;"></div> 
 

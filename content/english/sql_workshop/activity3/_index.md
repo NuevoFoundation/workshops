@@ -10,6 +10,7 @@ draft: false
 <link rel="stylesheet" href="../default/_default.css" type="text/css"></link>
 <link rel="stylesheet" href="../default/_type.css" type="text/css"></link>
 <script type="text/javascript" src="../default/alasql.js"></script>
+<script type="text/javascript" src="../default/_default.js"></script>
 <script type="text/javascript" src="../default/_type.js"></script>
 <script type="text/javascript" src="../default/db.js"></script>
 <script type="text/javascript" src="_activity3.js"></script>
@@ -52,18 +53,20 @@ Remember to type in the answer and not copy and paste the command. Press the Ent
 {{%/notice%}}
 
 {{< rawhtml >}}
-  <div class="terminal_div" id="terminal_div">
-    <div class = "outer">
-      <h3 id = "commands" contenteditable="true" onclick="placeholder()">Type command here!</h3>
-    </div>
-    <div class = "prev">
-      <h3 id = "prev"></h3>
-    </div>
-    <div style="clear: both;"></div> 
-    <button class="button button1" onclick="sql()"> Enter </button>
-    <div style="clear: both;"></div> 
-    <button class = "button reset" onclick="reset()">Reset</button>
-  </div>
+  <div class="content_scaler">
+    <div class="terminal_div" id="terminal_div">
+      <div class = "outer">
+        <h3 id = "commands" contenteditable="true" onclick="placeholder()">Type command here!</h3>
+      </div>
+      <div class = "prev">
+        <h3 id = "prev"></h3>
+      </div>
+      <div style="clear: both;"></div> 
+      <button class="button button1" onclick="sql()"> Enter </button>
+      <div style="clear: both;"></div> 
+      <button class = "button reset" onclick="reset()">Reset</button>
+    </div> <!-- terminal_div -->
+  </div> <!-- content_scaler -->
   
   <div style="clear: both;"></div> 
 
