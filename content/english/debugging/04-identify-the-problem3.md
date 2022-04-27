@@ -9,7 +9,7 @@ draft: true
 
 Debugging code is such a widespread, common problem that people have built entire programs designed to help other programmers debug more efficiently. These are suitably named “debuggers”, and there are plenty of debuggers that work for C. We'll take a look at gdb, a common debugger used on the command line.
 
-GDB(GNU Project Debugger) is a powerful debugger that lets you debug a program from the command line, which is useful in cases where you don’t have access to a GUI. To use GDB, open a console in the replit below. First, compile the program we’ll use with GDB by typing `make examples/quicksort` (see the aside on quicksort). Next, run `gdb examples/out/quicksort`. This should open the GDB command line interface. In general, to debug a program with `gdb` you can use `gdb <name of program>`.
+GDB (GNU Project Debugger) is a powerful debugger that lets you debug a program from the command line, which is useful in cases where you don’t have access to a GUI. To use GDB, open a console in the repl.it below. First, compile the program we’ll use with GDB by typing `make examples/quicksort` (see the aside on quicksort). Next, run `gdb examples/out/quicksort`. This should open the GDB command line interface. In general, to debug a program with `gdb` you can use `gdb <name of program>`.
 
 {{% notice note %}}
 Quicksort is an algorithm that sorts an array by first selecting an element in the array as a pivot. Next, the elements are organized into two groups: elements with a value less than the pivot, and elements with a value greater than the pivot. Finally, the algorithm is recursively run on the two groups. 

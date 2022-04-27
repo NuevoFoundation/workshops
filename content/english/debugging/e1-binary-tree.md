@@ -54,7 +54,7 @@ The third case is tricky to get correct because of the number of edge cases that
 
 ## The Implementation
 
-At the Nuevo team, we've created an implementation for the binary tree. However, the programmer was sloppy and didn't check his work, so there are errors and bugs! For this exercise, you will fix those bugs and errors. **Your goal is to have all tests pass.**
+At the Nuevo team, we've created an implementation for the binary tree. However, the programmer was sloppy and didn't check their work, so there are errors and bugs! For this exercise, you will fix those bugs and errors. **Your goal is to have all tests pass.**
 
 * To debug the code, you can use the command `make debug`. This will regenerate the debug files needed in the `debug/` directory and run `gdb` for you.
 * To use `valgrind`, you can run the command `make valgrind`. This will recompile your code and run `valgrind` with the appropriate arguments.

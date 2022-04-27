@@ -33,7 +33,7 @@ examples/BinarySearch
 The implementation we gave you seems to work. After running the program, try inputting `1`. The program seems to find the answer immediately. However, try inputting `2`. The program stalls!
 
 {{% notice tip %}}
-You can use `Ctl + C` to terminate a running program on the command line. (`⌘ + C` on Mac)
+You can use `Ctrl + C` to terminate a running program on the command line. (`⌘ + C` on Mac)
 {{% /notice %}}
 
 When faced with such a problem, you should ask yourself, what is the behavior of the bug? In this case, it is an infinite loop occuring somewhere in the code. This should quickly narrow down where you need to search for the bug, because there's only one function where infinite looping *can* occur: the recursive `rbin_search()` function.

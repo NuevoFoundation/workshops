@@ -56,7 +56,7 @@ The diagram below shows how a max removal occurs.
 
 In our implementation, we start indexing from `1` to save a bit of computation. So the root of the binary heap is located in `heap.__arr[1]` instead of `heap.__arr[0]`. All the functions have comments about their function in `binary_heap.h`.
 
-The implementation **will** be tested against duplicates, so make sure to handle those. Also, while the heap is fixed in size, the data is stored in the heap. Make sure that the data is free'd! 
+The implementation **will** be tested against duplicates, so make sure to handle those. Also, while the heap is fixed in size, the data is stored in the heap. Make sure that the data is `free`'d! 
 
 {{% notice tip %}}
 The `createHeap` and `heapPrint` functions have already been tested and have been verified to work.

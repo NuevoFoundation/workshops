@@ -10,7 +10,7 @@ draft: false
 
 ## Introduction
 
-So, you’ve learned the basics of a programming language. You’ve probably mastered the art of “Hello World” and have either started a personal project, or followed enough tutorials to be able to turn an idea into code.
+So, you’ve learned the basics of a programming language. You’ve probably mastered the art of `“Hello World”` and have either started a personal project, or followed enough tutorials to be able to turn an idea into code.
 
 However, what happens when your code fails to compile? At first, beginners to programming usually turn to others by posting their errors online, or look online to see if others have encountered the same problem. This is a bit tedious, as you'd need to turn to the internet every single time you ran into a compilation error!
 
