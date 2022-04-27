@@ -67,15 +67,15 @@ Let's understand in detail what we did:
 That's great!
 Let's create 2 functions. One to encrypt the message, and the other to decrypt it. For this, we're going to use code we already had, and we'll program something new as well.
 
-1. Declares a void function, just like encrypting, but to decrypt the name.
+1. First, declare a function of return type `void`, just like encrypting, but to decrypt the name. Name this function `decrypt()`.
 
-2, Copies the contents of the encrypt() function into the new function.
+2. Copy the contents of the `encrypt()` function into the new `decrypt` function.
 
-3. In the sum variable, instead of adding, subtract the character of the name and character of the keyword, and add a letter 'a' (not subtraction) so that the final character is a letter of the alphabet and not any character.
+3. In the `sum` variable, instead of adding, subtract the character of the name and character of the keyword, and add a letter `a` (instead of subtracting) so that the final character is a letter of the alphabet and not some random character.
 
-4. Change the condition to turn in the alphabet. Instead of seeing if the sum is greater than the character 'z', write if the sum is less than 'a', and then if that condition is met, add 25 to the variable addition (not subtraction).
+4. Change the condition to turn in the alphabet. Instead of checking to see if the `sum` is greater than the character `z`, check if the `sum` is less than `a`; if so, add `25` to the variable, instead of subtracting.
 
-5. In the main function, it calls the corresponding function in the condition if it is to encrypt or decrypt a message.
+5. In the `main` function, call the corresponding function in the `if` condition depending on if we want to encrypt or decrypt a message.
 
 When you're done, you can press **Run** and try the following examples:
 ```
