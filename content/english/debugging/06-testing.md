@@ -1,11 +1,9 @@
 ---
 title: "Step 3 - Testing"
 difficulty: "Intermediate"
-weight: 1
+weight: 7
 draft: true
 ---
-
-# Testing
 
 You’ve implemented the fix(es) for your bug(s). Naturally, the first thing you do is recompile your code and run it. If it looks right, you’ve fixed the bug!
 …Or so you’d like to believe. However, in many settings it’s not that simple. You have to make sure that your fix hasn’t introduced new bugs, and that your fix actually works for all cases. To that end, knowing how to test your code is important.
