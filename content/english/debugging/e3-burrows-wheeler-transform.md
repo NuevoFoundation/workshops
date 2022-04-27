@@ -2,7 +2,7 @@
 title: "Exercise 3 - The Burrows-Wheeler Transform"
 difficulty: "Intermediate"
 weight: 101
-draft: true
+draft: false
 ---
 
 The Burrows-Wheeler transform is an algorithm used in data compression. It takes as an input a string, and outputs an encoded string, which usually has similar characters clustered together. 

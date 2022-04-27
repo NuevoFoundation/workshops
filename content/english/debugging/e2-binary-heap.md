@@ -2,7 +2,7 @@
 title: "Exercise 2 - Binary Heap Implementation"
 difficulty: "Intermediate"
 weight: 100
-draft: true
+draft: false
 ---
 
 A binary heap is an important data structure used most often to implement a data type called a priority queue. It is also used conceptually in sorting algorithm called heapsort. Its distinctive feature is its `O(1)` query for the largest or smallest value within its contents, depending on what kind of heap we are talking about.

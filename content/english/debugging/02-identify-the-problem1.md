@@ -2,7 +2,7 @@
 title: "Step 1 - Finding the problem (Part 1)"
 difficulty: "Intermediate"
 weight: 3
-draft: true
+draft: false
 ---
 
 ## Compiler Errors

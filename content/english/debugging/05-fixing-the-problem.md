@@ -2,7 +2,7 @@
 title: "Step 2 - Fixing the problem"
 difficulty: "Intermediate"
 weight: 6
-draft: true
+draft: false
 ---
 
 Once you’ve figured out what’s causing the bug, you can start thinking about how to fix the bug. Compiler errors are easy enough - most of the time, the compiler gives you plenty of hints on how to fix it, and during times you can’t figure it out by compiler output alone, you can turn to the web. Chances are, someone ran into the same problem as you years ago and asked the question already on a forum such as StackOverflow. 

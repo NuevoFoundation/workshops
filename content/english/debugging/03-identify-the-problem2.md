@@ -2,7 +2,7 @@
 title: "Step 1 - Finding the problem (Part 2)"
 difficulty: "Intermediate"
 weight: 4
-draft: true
+draft: false
 ---
 
 ## Print Statements

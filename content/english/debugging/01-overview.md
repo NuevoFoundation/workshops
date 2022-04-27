@@ -2,7 +2,7 @@
 title: "An Overview of Debugging"
 difficulty: "Intermediate"
 weight: 2
-draft: true
+draft: false
 ---
 
 There are many different ways to debug a program. In this guide, we’ll start off with some general steps so that you don’t get lost when you debug a program. There are 3 basic steps to debugging a program:

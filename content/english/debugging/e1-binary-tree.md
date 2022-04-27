@@ -2,7 +2,7 @@
 title: "Exercise 1 - Binary Tree Implementation"
 difficulty: "Intermediate"
 weight: 9
-draft: true
+draft: false
 ---
 
 The binary tree is one of the simplest data structures in computer science and the ideas it uses are very useful. It stores sortable data and boasts an optimal runtime of O(log n) for searching, adding, and removing elements. However, this performance depends heavily on the order in which elements are added or removed, which limits its use to academic discussion.

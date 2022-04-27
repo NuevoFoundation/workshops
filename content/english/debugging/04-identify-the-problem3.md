@@ -2,7 +2,7 @@
 title: "Step 1 - Finding the problem (Part 3)"
 difficulty: "Intermediate"
 weight: 5
-draft: true
+draft: false
 ---
 
 ## Debuggers

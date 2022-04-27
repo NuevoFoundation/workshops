@@ -2,7 +2,7 @@
 title: "Step 3 - Testing"
 difficulty: "Intermediate"
 weight: 7
-draft: true
+draft: false
 ---
 
 You’ve implemented the fix(es) for your bug(s). Naturally, the first thing you do is recompile your code and run it. If it looks right, you’ve fixed the bug!
