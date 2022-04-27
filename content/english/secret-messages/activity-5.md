@@ -1,5 +1,5 @@
 ---
-title: "Activity 5 - Ascii Code"
+title: "Activity 5 - ASCII Code"
 date: 2019-07-25T13:24:17-07:00
 weight: 4
 draft: true
@@ -9,17 +9,17 @@ That's great!
 
 In this activity we will encrypt (make secret) the name of the recipient.
 
-Let's use the **Ascii Code**
+Let's use the **ASCII Code**
 
 {{% notice tip %}}
 
-### Ascii Code
+### ASCII Code
 
-The Ascii code shows that each character has a numeric value. For example, the character `A` is the number 65, `B` is the 66, `C` the 67, etc.
+The ASCII code shows that each character has a numeric value. For example, the character `A` is the number 65, `B` is 66, `C` is 67, etc.
 
 The following list shows the value of the most commonly used characters:
 
-![ASCII Code Lost](../media/ascii-english.png)
+![List of ASCII Codes](../media/ascii-english.png)
 
 That each character has a value, will serve us to add or subtract letters, and thus change the order of them in a certain way. It allows us to convert characters (`char`) into numbers (`int`) and vice versa.
 
@@ -35,7 +35,7 @@ This will print:
 A = 65
 ```
 
-In this example, we save the character in a variable type **char**. Then, in an **int** type variable we save the char type variabale, but since the second variable saves numbers, it will convert the character into its numerical value according to the ascii code.A
+In this example, we save the character in a variable type **char**. Then, in an **int** type variable we save the char type variabale, but since the second variable saves numbers, it will convert the character into its numerical value according to the ASCII code.A
 
 In this way, we could do the opposite, for example:
 ```
@@ -55,26 +55,27 @@ For example, if my keyword is `queen` and the name I want to encrypt is `program
 
 For that, we are going to gather part of what we have already done, and we must follow the following steps:
 
-1. Creates a variable of type string to be the keyword.
-2. Enter its value per console.
-3. Declares a variable type int and initializes it to 0. To this variable, we will add 1 in each cycle of the for to go through the keyword.
-4. In the for statement, create an int variable that is equal to the sum of the name character (`'name[i]'`) and the keyword character at the counter position (`'key[counter]'`). From this sum we must subtract a lowercase letter `'a'` so that the sum corresponds to a letter and not another character of the ascii code.
-5. Uses an if statement to determine whether the sum of characters corresponds to a character greater than `'z'`. If so, this number must be subtracted from 25 (the number of letters of the alphabet) so that the number of the turn, and begin with the letter 'a'.
-6. Equalizes the character `'name[i]'` to the variable int with the sum. This will change the original letter to the new character.
-7. Add 1 to the counter we carry from the keyword.
-8. Schedule a condition where if the keyword counter is greater than or equal to the length of the key string, the counter will be worth 0 again.
-9. Finally, after the for statement, print the various name by console.
+1. First, create a variable of type `string` to be the keyword.
+2. Store the input received from console into this variable. This will be the name.
+3. Repeat the first two steps, but this will store the keyword.
+3. Declare a `for` loop, and use a variable of type `int` initialized to 0. Add `1` to this variable for each cycle of the loop, and continue the loop while the variable is less than the `string` variable's `size`.
+4. In the body of the `for` loop, create an `int` variable that is equal to the sum of the name character (`name[i]`) and the keyword character at the counter position (`key[counter]`). From this sum we must subtract a lowercase letter `'a'` so that the sum corresponds to a letter and not some other random character of the ASCII code.
+5. Use an `if` statement to determine whether the sum of characters corresponds to a character greater than `'z'`. If so, subtract by `25` (the number of letters of the alphabet) to ensure we get a true letter in the alphabet.
+6. Set the character `name[i]` to be the value contained by the `sum` variable. This will change the original letter to the new character.
+7. Add `1` to the counter we carry from the keyword.
+8. Check if the keyword counter is greater than or equal to the length of the `key` string; if so, reset the counter to `0`.
+9. Finally, after the `for` statement, print the encrypted message to the console.
 
-To help, remember that you can go back to the other activities.
+Remember that you can always go back to the previous activities to review anything!
 
 Once the steps are complete, start playing and encrypting your words! Press **Run** and type in the console the keyword followed by the enter key, and then the name or word to encrypt, followed also by a enter. For example, you can copy and paste the following into your console:
 ```
 programmer
 queen
 ```
-{{< alert theme="warning" >}} **Be careful**, in this program we must always write the strings and characters in **lowercase letter**. {{< /alert >}}
+{{< alert theme="warning" >}} **Warning:** in this program we should always write the strings and characters in **lowercase letters**. {{< /alert >}}
 
 <iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/activity-5-english?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-{{< alert theme="danger" >}} **Be careful**. To paste something into the console, right-click paste. Otherwise it may not work. {{< /alert >}}
+{{< alert theme="danger" >}}**Important:** To paste into the console, right click the console and click "Paste". Otherwise, the paste operation may not work correctly. {{< /alert >}}
 © 2022 GitHub, Inc.
