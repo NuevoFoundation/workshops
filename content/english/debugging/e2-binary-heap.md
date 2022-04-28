@@ -64,4 +64,4 @@ The `createHeap` and `heapPrint` functions have already been tested and have bee
 
 Your goal is to run `make test` and have no errors. Use any tools, like `gdb`, `valgrind`, etc. to your advantage. Good luck!
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Debugging-Exercise-2#binary_heap.c"  scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Debugging-Exercise-2?lite=true#binary_heap.c"  scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>

@@ -26,7 +26,7 @@ This workshop assumes that you understand C code, and can write programs in C. T
 
 Let's try using Repl.it to run some code and get more familiar with the command line. In the Repl.it frame below, open the **Shell** tab.
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Debugging-Samples-C#HelloWorld.c" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Debugging-Samples-C?lite=true#HelloWorld.c" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 Type 
 

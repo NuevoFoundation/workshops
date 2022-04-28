@@ -82,5 +82,5 @@ Once again, the implementation does not need to handle duplicates within the tre
 
 Good luck!
 
-<iframe height="500px" width="100%" src="https://replit.com/@nuevofoundation/Debugging-Exercise-1#binary_tree.c" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="500px" width="100%" src="https://replit.com/@nuevofoundation/Debugging-Exercise-1?lite=true#binary_tree.c" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 

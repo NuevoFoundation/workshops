@@ -19,7 +19,7 @@ make CompilerErrors
 
 Note that for this example, we will not be running the program - this program is meant to showcase some common compiler errors that you may encounter.
 
-<iframe height="500px" width="100%" src="https://replit.com/@nuevofoundation/Debugging-Samples-C#CompilerErrors.c" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="500px" width="100%" src="https://replit.com/@nuevofoundation/Debugging-Samples-C?lite=true#CompilerErrors.c" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 The first error should look like this (or similar):
 
