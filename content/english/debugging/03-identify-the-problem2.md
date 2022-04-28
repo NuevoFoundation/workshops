@@ -13,7 +13,7 @@ Compiler errors are one thing, but runtime errors and bugs are another. While th
 
 Let’s look at an example of how you can use print statements effectively to fix a bug. One of the simpler algorithms you will learn or have learned is binary search, which lets you search for an item in a sorted list in logarithmic time. The idea is to check the middle of the sorted list and see if it matches the element we want; if we find the element, the algorithm is finished. If the element is higher, we search the upper half of the list. Otherwise, we search the lower half of the list. The program below tries to implement this algorithm in C.
 
-<iframe height="500px" width="100%" src="https://replit.com/@nuevofoundation/Debugging-Samples-C#binary_search/binary_search.c" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="500px" width="100%" src="https://replit.com/@nuevofoundation/Debugging-Samples-C?lite=true#binary_search/binary_search.c" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 First, we’ll need to understand what the program is doing. 
 1. The main function first waits for the user to type a number.

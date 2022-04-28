@@ -17,7 +17,7 @@ Quicksort is an algorithm that sorts an array by first selecting an element in t
 More information can be found online.
 {{% /notice %}}
 
-<iframe height="500px" width="100%" src="https://replit.com/@nuevofoundation/Debugging-Samples-C#quicksort/quicksort.c" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="500px" width="100%" src="https://replit.com/@nuevofoundation/Debugging-Samples-C?lite=true#quicksort/quicksort.c" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 We can use GDB as an aide in identifying where bugs occur. As usual it is important to understand the program. It runs a recursive implementation of quicksort (see the note for a quick summary). The sorting itself occurs in the `sort` function. The pivot chosen is the far right element for simplicity, and performs comparisons in the array starting from `lo` and ending at the pivot index. Here's a picture for a bit more insight:
 
