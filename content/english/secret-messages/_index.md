@@ -6,19 +6,17 @@ prereq: "None"
 difficulty: "Beginner"
 ---
 
-## Secret Messages with C++
-
 ## Intro
 
 Welcome to the court! 
 
-![Imagen Rey Nuevo foundation](media/Rey_nuvi1.jpg)
+![Image of the King of Nuevo Foundation](media/Rey_nuvi1.jpg)
 
-In a kingdom not very far away, every day the King messages the Queen who is in a different land witnessing a coronation. Her presence there has come to an extend since she is doing important negotiations for the nation. But their messages have been compromised! Both Queen and King realized that their most vicious enemies, the Pirates, have been reeding each and every single message they´d exchange.
+In a kingdom not very far away, the King messages the Queen, who is in a different land witnessing a coronation, every day. Her presence there has come to an end since she is doing important negotiations for the nation. But their messages have been compromised! Both the King and the Queen have realized that their most vicious enemies, the Pirates, have been reading each and every single message they have exchanged.
 
-They have come with a plan on creating a system for the Pirates to not being able to understand their conversations, but they need help to do this.
+Fortunately, they have come up with a plan on creating a system so that the Pirates will be unable to read their conversations, but they need help in doing this.
 
-You´ve been selected by the King to be the next Court Developer, and create and encryption system that would allow both him and the Queen to communicate without being intercepted by the Pirates. Will you help the King? The kingdom´s future is at your hands.
+You've been selected by the King to be the next Court Developer, and create an encryption system that would allow both him and the Queen to communicate without being intercepted by the Pirates. Will you help the King? The kingdom's future is in your hands.
 
 ## Content
 <details>
