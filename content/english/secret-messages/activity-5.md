@@ -1,7 +1,7 @@
 ---
 title: "Activity 5 - ASCII Code"
 date: 2019-07-25T13:24:17-07:00
-weight: 4
+weight: 6
 draft: true
 ---
 
@@ -21,7 +21,7 @@ The following list shows the value of the most commonly used characters:
 
 ![List of ASCII Codes](../media/ascii-english.png)
 
-That each character has a value, will serve us to add or subtract letters, and thus change the order of them in a certain way. It allows us to convert characters (`char`) into numbers (`int`) and vice versa.
+Since each character has a numeric value, we can use this to add or subtract values to these letters, and thus change the order of them in a certain way. It allows us to convert characters (`char`) into numbers (`int`) and vice versa.
 
 Example
 ```
@@ -37,7 +37,7 @@ A = 65
 
 In this example, we save the character in a variable type **char**. Then, in an **int** type variable we save the char type variabale, but since the second variable saves numbers, it will convert the character into its numerical value according to the ASCII code.A
 
-In this way, we could do the opposite, for example:
+We could do the opposite, for example:
 ```
 int letter_value = 67;
 char letter = letter_value;
