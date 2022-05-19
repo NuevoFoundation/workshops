@@ -2,7 +2,7 @@
 title: "Using Repl.It"
 date: 2019-07-25T13:24:17-07:00
 weight: 1
-draft: true
+draft: false
 ---
 
 In order to help the Kin and Queen, we will develop a program, in a programming language called C++.  With that program we will be able to input a message, and the program will modify it to make it secret.

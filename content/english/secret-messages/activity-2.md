@@ -2,7 +2,7 @@
 title: "Activity 2 - Variables and Inputs"
 date: 2019-07-25T13:24:17-07:00
 weight: 3
-draft: true
+draft: false
 ---
 
 Awesome! Now let's go a step further. We will now not only print the message, but input the name of the receiver and make our program say "Hello".
@@ -85,7 +85,7 @@ Now it's time to begin with our program.
 
 These are the steps to follow for this activity:
 
-1. Declare a string variable named `name`
+1. Declare a string variable named `name`.
 2. Use `cin` to request input from the user, and store the inputted data into the `name` variable.
 3. Print to console `"Hello (name)"`, where `(name)` should be replaced by the value of the `name` variable.
 4. Click Run. Type in `"Queen"` as the name of the recipient in the **console** tab, and make sure you get `"Hello Queen"` as output from the console.

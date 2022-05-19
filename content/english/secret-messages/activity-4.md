@@ -2,7 +2,7 @@
 title: "Activity 4 - Conditions"
 date: 2019-07-25T13:24:17-07:00
 weight: 5
-draft: true
+draft: false
 ---
 
 Very well!
@@ -43,7 +43,7 @@ To create conditions, we usually use **logical operators** in the parentheses `(
 2. Less than or equal to: `a <= b` (is 5 less than or equal to 3?)
 3. Greater than: `a > b` (is 5 is greater than 3?)
 4. Greater than or equal to: `a >= b` (is 5 greater than or equal to 3?)
-5. Equals: `a == b` (is 5 equal to3?)
+5. Equals: `a == b` (is 5 equal to 3?)
 6. Not equals: `a != b` (is 5 not equal to 3?)
 
 {{% /notice %}}

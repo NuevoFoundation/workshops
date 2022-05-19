@@ -2,7 +2,7 @@
 title: "Activity 5 - ASCII Code"
 date: 2019-07-25T13:24:17-07:00
 weight: 6
-draft: true
+draft: false
 ---
 
 That's great!
@@ -35,7 +35,7 @@ This will print:
 A = 65
 ```
 
-In this example, we save the character in a variable type **char**. Then, in an **int** type variable we save the char type variabale, but since the second variable saves numbers, it will convert the character into its numerical value according to the ASCII code.A
+In this example, we save the character in a variable type **char**. Then, in an **int** type variable we save the char type variable, but since the second variable saves numbers, it will convert the character into its numerical value according to the ASCII code.
 
 We could do the opposite, for example:
 ```
