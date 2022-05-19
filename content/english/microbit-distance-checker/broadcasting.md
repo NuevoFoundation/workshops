@@ -9,8 +9,8 @@ draft: false
 
 We will be using the Bluetooth radio on your micro:bit to figure out how far away you are from other micro:bits. The first thing we need to do is turn on the radio and tune it to a channel. Click on the section that says Radio. It's the pink section which is fifth from the top. Choose "radio set group 1" and drag it into the blue "on start" block in the workspace. Make sure that you use the same group number as everyone else. If you use different group numbers, your micro:bits won't be able to talk to each other. Your workspace should look like the below after you are done:
 
-![MakeCode menu showing the Radio section selected](../img/radioMenu.png)
-![MakeCode workspace showing the "radio set group" block in the "on start" block](../img/setRadioGroup.png)
+![MakeCode menu showing the Radio section selected](./img/radioMenu.png)
+![MakeCode workspace showing the "radio set group" block in the "on start" block](./img/setRadioGroup.png)
 
 ## Broadcasting a Signal
 
