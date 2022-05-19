@@ -7,16 +7,16 @@ draft: false
 
 ## What is a micro:bit?
 
-A micro:bit is a programmable mini computer! It can be coded from any web browser in various languages like javaScript, Python, Scratch, and Blocks. For our session today, we will be using MakeCode Blocks.
+A micro:bit is a programmable microcontroller! It can be coded from any web browser in various languages like JavaScript, Python, Scratch, and Blocks. For our session today, we will be using MakeCode Blocks.
 
-Your micro:bit has the following physical features:
+Your micro:bit has many different actionable features and sensors including:
 
-- 25 individually-programmable LEDs
-- 2 programmable buttons
-- Physical connection pins
-- Motion sensors (accelerometer and compass)
-- Wireless communication via bluetooth radio
-- USB interface
+- 25 Individually Addressable LEDs
+- 2 Physical Buttons
+- 2 Input/Output (IO) Pins
+- Compass Sensor
+- Accelerometer (Motion Sensor)
+- Bluetooth
 
 <!---![Image of simulated micro:bits with the radio highlighted](../img/simulatorStart.png) --->
 <img src="../img/microbit-hardware-access.jpg" alt="microbit components" style="width:800px;"/>
@@ -39,4 +39,4 @@ If you hover your mouse cursor over this wave-shaped antenna, the actual signal 
 <!---![Image of sad simulator](../img/sadSimulator.png) --->
 <img src="../img/sadSimulator.png" alt="Image of sad simulator" style="width:300px;"/>
 
-Now, let's get coding...
+Now, let's get coding!
