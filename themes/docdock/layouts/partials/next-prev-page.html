@@ -33,7 +33,7 @@
 {{- define "menu-nextprev" -}}
     {{- $currentNode := .currentnode -}}
     {{- if ne .menu.Params.hidden true -}}
-        {{- if hasPrefix $currentNode.URL .menu.URL -}}
+        {{- if hasPrefix $currentNode.Permalink .menu.Permalink -}}
             {{- $currentNode.Scratch.Set "NextPageOK" "OK" -}}
             {{- $currentNode.Scratch.Set "prevPage" ($currentNode.Scratch.Get "prevPageTmp") -}}
         {{- else -}}
@@ -80,14 +80,14 @@
         <div class="next-prev-wrapper-div">
         {{- if (not $isFirstPageOfWorkshop) -}}
             {{- with ($.Scratch.Get "prevPage") -}}
-                {{ partial "next-prev-button" (dict "subsection" .Title "URL" .URL "isNext" false)}}
+                {{ partial "next-prev-button" (dict "subsection" .Title "Permalink" .Permalink "isNext" false)}}
             {{- end -}}
         {{- end -}}
         </div>
         <div class="next-prev-wrapper-div">
         {{- if (not $isLastPageOfWorkshop) -}}
             {{- with ($.Scratch.Get "nextPage") -}}
-                {{ partial "next-prev-button" (dict "subsection" .Title "URL" .URL "isNext" true)}} 
+                {{ partial "next-prev-button" (dict "subsection" .Title "Permalink" .Permalink "isNext" true)}} 
             {{- end -}}
         {{- end -}}
         </div>

@@ -50,7 +50,7 @@
 
 	{{- (printf "<h%d>" $numn)|safeHTML}}
 
-	<a href="{{.URL}}">{{ .Title }}</a>
+	<a href="{{.Permalink}}">{{ .Title }}</a>
 	{{- (printf "</h%d>" $numn)|safeHTML}}
 	{{- else}}
 	{{- (printf "<%s>" $.style)|safeHTML}}
@@ -60,7 +60,7 @@
 	{{- else }}
 	<span><i aria-hidden="true" style="margin-right:2px" focusable="false" class="fas fa-code"></i></span>
 	{{- end}}
-	<a href="{{.URL}}">{{ .Title }}</a>
+	<a href="{{.Permalink}}">{{ .Title }}</a>
 	{{- (printf "</%s>" $.style)|safeHTML}}
 	{{- end}}
 
