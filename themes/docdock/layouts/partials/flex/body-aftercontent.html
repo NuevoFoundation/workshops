@@ -30,7 +30,7 @@
 
     {{ if .Site.Params.editURL }}
     <div class="github-link">
-      <a href="{{ .Site.Params.editURL }}{{ replace .File.Dir "\\" "/" }}{{ .File.LogicalName }}" target="blank"><i
+      <a href="{{ .Site.Params.editURL }}{{ with .File }}{{ replace .Dir "\\" "/" }}{{ .LogicalName }}{{ end }}" target="blank"><i
           class="fa fa-code-fork"></i>
         {{T "Edit-this-page"}}</a>
     </div>
