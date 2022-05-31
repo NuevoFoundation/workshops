@@ -33,7 +33,7 @@
 {{- define "menu-nextprev" -}}
     {{- $currentNode := .currentnode -}}
     {{- if ne .menu.Params.hidden true -}}
-        {{- if hasPrefix $currentNode.URL .menu.URL -}}
+        {{- if hasPrefix $currentNode.Permalink .menu.Permalink -}}
             {{- $currentNode.Scratch.Set "NextPageOK" "OK" -}}
             {{- $currentNode.Scratch.Set "prevPage" ($currentNode.Scratch.Get "prevPageTmp") -}}
         {{- else -}}
@@ -75,21 +75,24 @@
             </p>
         </div>
     </div>
-    {{- end -}}     
-    <div id="navigation">
-        <div class="next-prev-wrapper-div">
-        {{- if (not $isFirstPageOfWorkshop) -}}
-            {{- with ($.Scratch.Get "prevPage") -}}
-                {{ partial "next-prev-button" (dict "subsection" .Title "URL" .URL "isNext" false)}}
+    {{- end -}}
+    {{/* make sure that at least one nav button will be present before rendering the .navigation div to avoid showing its borders with nothing in it. */}}
+    {{- if (or (not $isFirstPageOfWorkshop) (not $isLastPageOfWorkshop)) -}}
+        <div id="navigation">
+            <div class="next-prev-wrapper-div">
+            {{- if (not $isFirstPageOfWorkshop) -}}
+                {{- with ($.Scratch.Get "prevPage") -}}
+                    {{ partial "next-prev-button" (dict "subsection" .Title "Permalink" .Permalink "isNext" false)}}
+                {{- end -}}
             {{- end -}}
-        {{- end -}}
-        </div>
-        <div class="next-prev-wrapper-div">
-        {{- if (not $isLastPageOfWorkshop) -}}
-            {{- with ($.Scratch.Get "nextPage") -}}
-                {{ partial "next-prev-button" (dict "subsection" .Title "URL" .URL "isNext" true)}} 
+            </div>
+            <div class="next-prev-wrapper-div">
+            {{- if (not $isLastPageOfWorkshop) -}}
+                {{- with ($.Scratch.Get "nextPage") -}}
+                    {{ partial "next-prev-button" (dict "subsection" .Title "Permalink" .Permalink "isNext" true)}} 
+                {{- end -}}
             {{- end -}}
-        {{- end -}}
+            </div>
         </div>
-    </div>
+    {{- end -}}
 {{- end -}}
