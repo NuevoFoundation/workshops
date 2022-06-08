@@ -402,7 +402,7 @@ article {
 }
 
 /* Special homepage styling */
-body[data-url="/"] article section.page {
+body#home article section.page {
   background-color: #F1F6F1;
   border-radius: 5px;
 }
@@ -868,7 +868,6 @@ ul.children.children-card > .workshop-button {
 ul.children.children-card > .workshop-button:active {
   box-shadow: none;
   transform: none;
-  background-color: #FCC600;
 }
 
 ul.children.children-card > .workshop-button .workshop-button-title {
