@@ -17,4 +17,4 @@ for i in range(3):
   turtle.left(120)
 ```
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonWithTurtleActivity3?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe src="https://trinket.io/embed/python/e82295e92f" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

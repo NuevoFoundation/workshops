@@ -9,4 +9,4 @@ We’re done creating our first figure 8! We can now use the `figure_8()` functi
 
 Create a new function called `mandala_flower()`. In the loop we will call the `figure_8()` function we wrote earlier to create a figure 8. Then, rotate the turtle either left or right a certain number of degrees (for example, 10 degrees). Repeat these steps many times to make a mandala flower; it’s a good idea to create a loop that repeats at least 35 times. 
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonWithTurtleActivity8?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe src="https://trinket.io/embed/python/b82ce0c14f" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
