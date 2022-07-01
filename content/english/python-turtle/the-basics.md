@@ -7,9 +7,9 @@ draft: false
 
 <p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/uSQGtnlot2s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-Before Alex can learn how to create a beehive, he must first learn how to draw a colored line. We will add code to the below repl.it window, and we will do this in two parts.
+Before Alex can learn how to create a beehive, he must first learn how to draw a colored line. We will add code to the below Trinket window, and we will do this in two parts.
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonWithTurtleIntroduction?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe src="https://trinket.io/embed/python/1363ac22be" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 First, we need tell the turtle what color we want the line to be. To do this, let's type in:
 
@@ -69,7 +69,7 @@ turtle.forward(50)
 
 Now that we have completed our code, press **run**. You should see the following in the result screen:
 
-![alt text height="600px" width="70%"](../media/basics-replit.png "Repl.it window")
+![alt text height="600px" width="70%"](../media/basics-trinket.png "Trinket window")
 
 If so, great! If not, please ask for help.
 

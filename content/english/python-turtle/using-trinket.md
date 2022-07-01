@@ -1,5 +1,5 @@
 ---
-title: "Using Repl.It"
+title: "Using Trinket"
 date: 2019-07-25T13:24:17-07:00
 weight: 1
 draft: false
@@ -9,11 +9,11 @@ draft: false
 
 To help Alex live in a beehive, he needs to learn how to create a honeycomb! We will use Python's `turtle` library to draw a honeycomb for Alex.
 
-## Using Repl.it
+## Using Trinket
 
-Today you will be using Repl.it to learn how to code in Python. Here is an example interactive window that you will use today:
+Today you will be using Trinket to learn how to code in Python. Here is an example interactive window that you will use today:
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonWithTurtleIntroduction?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe src="https://trinket.io/embed/python/1363ac22be" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Before we start, let's first understand how the window works. The `main.py` file contains code, or instructions for the computer to run. By pressing the **run** button, you tell the computer to perform the instructions in the code. Any results from running the code will be displayed on the bottom white screen, under the **result** tab. Today, our results will be an animation of a drawing being created.
 

@@ -7,7 +7,7 @@ draft: false
 
 If there is any time left, try drawing your own shapes and designs! Make your picture interesting using various shapes and colors.
 
-Click [here](https://repl.it/languages/python_turtle) to open a new blank repl.it window to start on your creation.
+Click [here](https://trinket.io/library/trinkets/create?lang=python3) to open a new blank Trinket window to start on your creation.
 
 ## Help, I am stuck!
 
