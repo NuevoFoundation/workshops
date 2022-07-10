@@ -5,9 +5,24 @@ weight: 9
 draft: false
 ---
 
-Our first step is to move the turtle to a new location to draw the flower (we don’t want to draw the flower on top of the beehive!). To do this, we first need to use the following methods:
+Our first step is to draw a smaller beehive so that we can draw both the beehive and the flower on the screen. We have already done this for you - do you see what we have changed in order to draw a smaller beehive?
 
+``` python
+def draw_hexagon():
+  for i in range(6):
+    turtle.forward(20)
+    turtle.left(60)
+
+def draw_honeycomb():
+  for i in range(6):
+    draw_hexagon()
+    turtle.forward(20)
+    turtle.right(60)
 ```
+
+Next, we need to move the turtle to a new location to draw the flower (we don’t want to draw the flower on top of the beehive!). To do this, we first need to use the following methods:
+
+``` python
 turtle.penup() 
 turtle.goto(x,y)
 turtle.pendown()
@@ -25,6 +40,6 @@ The `x` and  `y` in the `turtle.goto()` method are the `x` and `y` coordinates o
 
 {{% /notice %}}
 
-To complete this activity, move the turtle to position (300, 300) on the canvas. This will move it to the top-right corner.
+To complete this activity, move the turtle to position (100, 100) on the canvas. This will move it to the top-right corner.
 
 <iframe src="https://trinket.io/embed/python/dee0f642ce" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
