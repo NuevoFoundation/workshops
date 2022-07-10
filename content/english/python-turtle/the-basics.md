@@ -13,7 +13,7 @@ Before Alex can learn how to create a beehive, he must first learn how to draw a
 
 First, we need tell the turtle what color we want the line to be. To do this, let's type in:
 
-```
+``` python
 turtle.color("orange")
 ```
 
@@ -39,7 +39,7 @@ Arguments are inputs that you pass in to **methods** to use. In our example, `tu
 
 Now that we have picked the color that we want, we can now draw a line! To draw a line there are two **methods** that we can use:
 
-```
+``` python
 turtle.forward(50)
 turtle.backward(50)
 ```
@@ -60,7 +60,7 @@ An integer is just any whole number, whether positive or negative. In this examp
 
 Let's make the turtle go forward, so type in `turtle.forward(50)`. Now your code should look something like this:
 
-```
+``` python
 import turtle
 
 turtle.color("orange")
@@ -75,7 +75,7 @@ If so, great! If not, please ask for help.
 
 As an exercise, try understanding what the following line of code does, and try adding this to your code. What does it do?
 
-```
+``` python
 turtle.shape("turtle")
 ```
 

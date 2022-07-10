@@ -11,7 +11,7 @@ To help you draw a hexagon, think of how many sides a hexagon has. How many degr
 
 As a helpful reminder, this is the code that was used to create a triangle:
 
-```
+``` python
 for i in range(3):
   turtle.forward(50)
   turtle.left(120)
