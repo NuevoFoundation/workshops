@@ -11,7 +11,7 @@ Great! You drew a square. But notice that we are writing the same lines over and
 
 To do this, we need to use loops. Loops run a set of instructions multiple times. To see this in action, here is some example code that draws a triangle:
 
-```
+``` python
 for i in range(3):
   turtle.forward(50)
   turtle.left(120)
@@ -31,7 +31,7 @@ As well, we added a tab in front of some lines of code in the example above. The
 
 To see how big of a difference this makes, take a look at the below code. Because we removed the tab in front of `turtle.left(120)`, the code will no longer work as expected. Now, we only repeat `turtle.forward(50)` three times, and we get a straight line instead!
 
-```
+``` python
 for i in range(3):
   turtle.forward(50)
 turtle.left(120)
@@ -41,4 +41,4 @@ turtle.left(120)
 
 Now, take the example code that we have provided, and modify it slightly so that, instead of drawing a triangle, it draws a square. You can look back at what you did in Activity 1 as a hint. 
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonWithTurtleActivity2?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe src="https://trinket.io/embed/python/892913b49a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
