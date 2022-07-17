@@ -17,7 +17,7 @@ A function is a way to group together lines of code to do something. For instanc
 
 Here is an example of a **function definition**, and how we would use it:
 
-```
+``` python
 def draw_line():
   turtle.forward(50)
   turtle.left(120)
@@ -37,7 +37,7 @@ Similar to a for-loop, anything that we wish to define within the function needs
 
 If you press **run** with just this code, you will notice that you won't see any output! We've only created the functions, but we need to use them. To use the function we created, type in `draw_line()` again, but without the `def`. 
 
-```
+``` python
 def draw_line():    # Function definition
   turtle.forward(50)
   turtle.left(120)
@@ -64,7 +64,7 @@ Notice that functions use similar syntax rules with `for`-loops - you must have 
 
 What happens when you need a `for`-loop inside of a function? Then, you need to combine the rules together! Here is an example on how to properly put a `for`-loop inside of a function.
 
-```
+``` python
 def draw_line():
   for i in range(3):
     turtle.forward(50)
@@ -76,4 +76,4 @@ Notice that `turtle.forward(50)` has 2 tabs in front of it, because it is both i
 
 So, let’s try that out by making our own `draw_hexagon()` function! Remember to include the function definition header, the number of sides a hexagon has, and the angle associated with a hexagon: 60 degrees.
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonWithTurtleActivity4?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe src="https://trinket.io/embed/python/c3ef894658" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

@@ -7,11 +7,11 @@ draft: false
 
 Ante de que Alex pueda aprender a crear una colmena, él debe aprender primero cómo dibujar una línea. Haremos esto en dos partes.
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonWithTurtleIntroduction?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe src="https://trinket.io/embed/python/1363ac22be" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Primero, necesitamos decirle a la tortuga qué color queremos usar para dibujar la línea. Para hacerlo de color naranja (orange in inglés) esta es la instrucción:
 
-```
+``` python
 turtle.color("orange")
 ```
 
@@ -38,7 +38,7 @@ Los argumentos son los valores que le pasamos a los **métodos**. En nuestro eje
 
 Ahora que ya escogimos el color que queremos, ¡ya podemos dibujar la línea! Para dibujar la línea tenemos dos **métodos** que podemos usar:
 
-```
+``` python
 turtle.forward(50)
 turtle.backward(50)
 ```
@@ -59,7 +59,7 @@ Un **integer** es sólo un número, ya sea negativo o positivo. En nuestro ejemp
 
 Para que la tortuga se mueva hacia adelante el código debería verse así:
 
-```
+``` python
 import turtle
 
 turtle.color("orange")
@@ -68,11 +68,11 @@ turtle.forward(50)
 
 Copia las líneas de arriba, pégalas en el archivo `main.py` que teníamos al inicio, y dale click en Run.
 
-![alt text height="600px" width="70%"](../media/basics-replit.png "Ventana de Repl.it")
+![alt text height="600px" width="70%"](../media/basics-trinket.png "Ventana de Trinket")
 
 Como ejercicio, trata de entender que hace la siguiente línea de código. Después pégala al final del archivo `main.py` y vuélvelo a correr.
 
-```
+``` python
 turtle.shape("turtle")
 ```
 

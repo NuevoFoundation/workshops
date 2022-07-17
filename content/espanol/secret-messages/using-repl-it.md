@@ -5,11 +5,13 @@ weight: 1
 draft: false
 ---
 
+{{< youtube zurhvdsyA_U >}}
+
 Para ayudar a los reyes, vamos a crear un programa en el lenguaje llamado C++, donde podamos ingresar un mensaje, y el programa lo modifique de una manera determinada para hacerlo secreto.
 
 ## Usando Repl.it
 
-Vamos a utilizar la herramienta Repl.it para jugar con nuestros códigos de C++. Este es un ejemplo de una ventana interactiva como las que usaremos en todo el tutorial:
+Vamos a utilizar la herramienta Repl.it, con la cual vamos a poder correr nuestro códigos de C++. Este es un ejemplo de una ventana interactiva como las que usaremos durante todo el tutorial:
 
 <iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/activity-0?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
@@ -27,11 +29,11 @@ Mira el inicio del código. Ahí puedes ver la siguiente línea:
 #include <iostream>
 ```
 
-Esta instrucción nos permite agregar la biblioteca `iostream` a nuestro programa. Una **biblioteca** es el lugar donde se agrupan en C++ las funciones (o instrucciones) relacionadas a un tema en particular. Hay bibliotecas para dibujar, otras para conectarse a internet, otras para hacer operaciones matemáticas. `iostream` es una biblioteca básica para ingresar datos a nuestro programa y generar mensajes de salida. 
+Esta instrucción nos permite agregar la biblioteca `iostream` a nuestro programa. Una **biblioteca** es un lugar donde se agrupan funciones de C++ (o instrucciones) relacionadas, a un tema en particular. Hay bibliotecas para dibujar, otras para conectarse a internet, otras para hacer operaciones matemáticas. `iostream` es una biblioteca básica para ingresar datos a nuestro programa y generar mensajes de salida. 
 
 ### Comentarios (Comments)
 
-La línea gris que empieza con `//` se llama **comentario**. Estos son notas en el código que nos ayudan a explicar qué está pasando. Como los comentarios son ignorados por la computadora, suelen ser usados para que otros puedan entender lo que nuestro código está haciendo.
+La línea gris que empieza con `//` se llama **comentario**. Estas son notas en el código que nos ayudan a explicar qué está pasando. Como los comentarios son ignorados por la computadora, suelen ser usados para que otros puedan entender lo que nuestro código está haciendo.
 
 ### Namespace std
 ```
@@ -41,15 +43,15 @@ Esta linea nos da acceso a algunas palabras reservadas de C++. Una **palabra res
 En este caso, estamos usando las palabras reservadas **std**, que quiere decir las palabras reservadas estándar, que son las que casi todo programa usa, por lo que es importante incluir esta instrucción.
  `using` indica que estamos usando el `namespace` (el espacio en el que se guardan las palabras reservadas) llamado `std` (estándar). 
 
-### Función Main
+### Función Main (función principal)
 ```
 int main(){
     
     return 0;
 }
 ```
-**main** es la función que tiene que estar siempre en los programas de C++. Adentro de sus llaves `{ ... }` estará el código que se correrá al poner run.   
-`return 0;` indica el fin del programa. Si escribiésemos instrucciones después de esta línea, el programa no las ejecutará.
+**main** es la función que tiene que estar siempre en los programas de C++ y el punto de entrada a nuestro programa. Adentro de sus llaves `{ ... }` estará el código que se correrá al poner run.   
+`return 0;` indica el fin exitoso del programa. Si escribiésemos instrucciones después de esta línea, el programa no las ejecutaría.
 {{% /notice %}}
 
 {{< alert theme="warning" >}}Toda instrucción de C++ debe terminar con un **punto y coma** `;` {{< /alert >}}

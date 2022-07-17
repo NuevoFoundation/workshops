@@ -43,6 +43,31 @@
   src: local("Roboto Mono Medium"), local("RobotoMono-Medium"),
     url("../fonts/RobotoMono-Medium.ttf") format("truetype");
 }
+@font-face {
+  font-family: "Lato";
+  /* normal is an alias for 400 */
+  font-weight: normal;
+  src: local("Lato Regular"), local("Lato-Regular"),
+    url("../fonts/Lato-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lato";
+  font-weight: 600;
+  src: local("Lato Semibold"), url("../fonts/Lato-Semibold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lato";
+  /* bold is an alias for 700 */
+  font-weight: bold;
+  src: local("Lato Bold"), local("Lato-Bold"),
+    url("../fonts/Lato-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lato";
+  font-weight: 900;
+  src: local("Lato Black"), local("Lato-Black"),
+    url("../fonts/Lato-Black.ttf") format("truetype");
+}
 
 article > aside {
   /* background-color: #f9f9f9; */
@@ -373,6 +398,13 @@ article {
   width:100%;
   /* Re-enable max-width after #259 is fixed (https://github.com/NuevoFoundation/workshops/issues/259) */
   /* max-width: 1210px; */
+  /* background-color: #F1F6F1; */
+}
+
+/* Special homepage styling */
+body#home article section.page {
+  background-color: #F1F6F1;
+  border-radius: 5px;
 }
 
 article section.page {
@@ -386,7 +418,7 @@ article section.page {
 }
 article section.page h1:first-of-type {
   margin: 3rem 0rem;
-  font-family: "lato-semibold", "Helvetica", "Tahoma", "Geneva", "Arial",
+  font-family: "Lato", "Helvetica", "Tahoma", "Geneva", "Arial",
     sans-serif;
   text-align: center;
   color: #060606;
@@ -804,39 +836,78 @@ ul.children.children-card {
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
-ul.children.children-card > span {
+ul.children.children-card > .workshop-button {
+  position:relative;
+  background-color: #fff;
+  cursor: pointer;
+  text-align: left;
+  white-space: normal;
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   min-width: 0;
   min-height: 0;
-  width: 40%;
+  width: 20%;
   min-width: 250px;
-  margin: 1rem 1rem;
-  border: 0.1rem solid #ccc;
-  box-shadow: 1px 0px 13px 0px rgba(0, 0, 0, 0.2),
-    0 6px 5px 0 rgba(0, 0, 0, 0.19);
-  /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); */
-}
-ul.children.children-card > span card {
-  margin: 0px 0px;
-  display: block;
-  padding: 1rem;
-  background-color: #e6a800;
-  font-size: 120%;
-}
-ul.children.children-card > span p {
-  padding: 0rem 1rem;
+  margin: 1.2rem 1.2rem;
+  padding: 1.5rem 1.5rem 2rem 1.5rem;
+  border: 0.3rem solid #000;
+  border-radius: 5px;
 }
 
-ul.children.children-card > span a {
-  font-weight: 800;
-  color: #070f19;
+@media(hover: hover) and (pointer: fine) {
+  /* This media query only triggers on desktop.
+     Only add these on desktop so that mobile users don't need to press the button twice */
+
+  ul.children.children-card > .workshop-button:hover {
+    box-shadow: -5px 5px 0px 0px rgb(0 0 0);
+    transform: translate(5px, -5px);
+  }
 }
 
-ul.children.children-card > span a :hover {
-  font-weight: 600;
+ul.children.children-card > .workshop-button:active {
+  box-shadow: none;
+  transform: none;
+}
+
+ul.children.children-card > .workshop-button .workshop-button-title {
+  padding-top: 7px;
+  font-size: 20px;
+  /* black (heavy) */
+  font-weight: 900;
+}
+
+ul.children.children-card > .workshop-button .workshop-button-title a {
   color: #070f19;
+  text-decoration-style: wavy;
+}
+
+ul.children.children-card > .workshop-button i {
+  font-size: 20px;
+  color: #000;
+}
+
+ul.children.children-card > .workshop-button .workshop-button-subtitle {
+  display: flex;
+  align-items: center;
+}
+
+ul.children.children-card > .workshop-button .workshop-button-skill-name {
+  font-family: "Space Mono", monospace;
+  color: #5c5c5c;
+  margin-left: 5px;
+}
+
+ul.children.children-card > .workshop-button .workshop-button-divider {
+  width: 48px;
+  height: 4px;
+  background-color: #000;
+  margin: 17px 0 25px 3px;
+}
+
+ul.children.children-card > .workshop-button > p {
+  font-size: 16px;
+  font-weight: normal;
 }
 
 @media (max-width: 1024px) {
