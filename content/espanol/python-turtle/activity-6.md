@@ -5,9 +5,23 @@ weight: 9
 draft: false
 ---
 
-Nuestro primer paso es mover la tortuga a una nueva posición para dibujar la flor (¡no queremos dibujar la flor encima de la colmena!). Para hacer esto, primero necesitamos usar los siguientes métodos:
+Nuestro primer paso es dibujar una colmena más pequeña para poder dibujar tanto la colmena como la flor en la pantalla. Ya lo hemos hecho: ¿ves lo que hemos cambiado para dibujar una colmena más pequeña?
 
+``` python
+def draw_hexagon():
+  for i in range(6):
+    turtle.forward(20)
+    turtle.left(60)
+def draw_honeycomb():
+  for i in range(6):
+    draw_hexagon()
+    turtle.forward(20)
+    turtle.right(60)
 ```
+
+Después, necesitamos mover la tortuga a una nueva posición para dibujar la flor (¡no queremos dibujar la flor encima de la colmena!). Para hacer esto, primero necesitamos usar los siguientes métodos:
+
+``` python
 turtle.penup() 
 turtle.goto(x,y)
 turtle.pendown()
@@ -25,6 +39,6 @@ La `x` y la `y` en el método `turtle.goto()` son las coordenadas `x` y `y` de l
 
 {{% /notice %}}
 
-Para completar esta actividad, mueve a la tortuga a la posición (300, 300) sobre el lienzo. Esto la moverá a la esquina superior derecha.
+Para completar esta actividad, mueve a la tortuga a la posición (100, 100) sobre el lienzo. Esto la moverá a la esquina superior derecha.
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonWithTurtleActivity6?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe src="https://trinket.io/embed/python/dee0f642ce" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

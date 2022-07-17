@@ -5,13 +5,17 @@ draft: false
 weight: 4
 ---
 
+## Activity 1 - Creating a basic website
+
+It's now time to start building a basic website. To complete this activity, you will need to complete the following steps:
+
 1. Open the web editor (click the "Try it yourself!" button below)
 2. Use the header tags to add a title, and the paragraph tags to write a paragraph about Benji
 3. If you have time: write a list of Benji's favorite treats: turkey, peanut butter, and string cheese 
 
 <a class="my-2 mx-4 btn btn-info" href="https://codepen.io/Sunny-Dee/pen/exxyYL" target="_blank">Try it yourself!</a>
 
-Use this reference chart to try some html tags on your own.
+Use this reference chart to try some HTML tags on your own.
 
 Tag | Description | Example
 ---|--------------|----------

@@ -13,8 +13,8 @@ En esta actividad primero crearemos una función llamada `draw_honeycomb()`. Den
 
 Dibujar la colmena puede tomar un rato. Para que la tortuga vaya más rápido puedes modificar la velocidad a la que se mueve. Las velocidades van del 1 al 10 donde 1 es la más lenta y 10 la más rápida. Pon el siguiente código justo debajo de donde está la línea que cambia el color de la tortuga.
 
-```
+``` python
   turtle.speed(8)
 ```
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonWithTurtleActivity5?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe src="https://trinket.io/embed/python/d83811c24a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

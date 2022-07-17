@@ -7,7 +7,9 @@ draft: false
 
 If there is any time left, try drawing your own shapes and designs! Make your picture interesting using various shapes and colors.
 
-Click [here](https://trinket.io/library/trinkets/create?lang=python3) to open a new blank Trinket window to start on your creation.
+Click the button below to open a new blank Trinket window to start on your creation.
+
+<a class="my-2 mx-4 btn btn-info" href="https://trinket.io/library/trinkets/create?lang=python3" target="_blank">Click here</a>
 
 ## Help, I am stuck!
 

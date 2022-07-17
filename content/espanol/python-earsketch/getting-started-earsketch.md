@@ -9,7 +9,9 @@ draft: false
 
 [EarSketch](https://en.wikipedia.org/wiki/EarSketch) es un entorno de programación educativa gratuito desarrollado en el Instituto de Tecnología de Georgia. Hoy compondremos música usando EarSketch. 
 
-1. Para hacer música, haga clic en [EarSketch](https://earsketch.gatech.edu/earsketch2/) para abrirlo en una nueva pestaña.
+1. Para hacer música, clic en el botón de abajo para abrir Earsketch en una nueva pestaña.
+
+<a class="my-2 mx-4 btn btn-info" href="https://earsketch.gatech.edu/earsketch2/" target="_blank">Abrir Earsketch</a>
 
 2. Clic donde dice *Scripts* en el menu izquierdo y selecciona `Create a new script`. Cuando te salga que introduzcas el number del script, coloca `myjam` (mis sonidos) y dale click en el buton de `Create`.
 

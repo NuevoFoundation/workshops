@@ -10,7 +10,9 @@ draft: false
 
 [EarSketch](https://en.wikipedia.org/wiki/EarSketch) is a free educational programming environment developed at Georgia Institute of Technology. We will be composing music using EarSketch today.
 
-1. To make music, click on [EarSketch](https://earsketch.gatech.edu/earsketch2/) to open it in a new tab.
+1. To make music, click on the below button to open Earsketch in a new tab.
+
+<a class="my-2 mx-4 btn btn-info" href="https://earsketch.gatech.edu/earsketch2/" target="_blank">Launch Earsketch</a>
 
 2. Now, let's get started. Click on *Scripts* icon on the left menu bar and
 select *Create a new script*. When prompted to enter the script name, enter *myjam* and click on *Create* button. 
