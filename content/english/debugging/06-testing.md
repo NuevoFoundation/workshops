@@ -5,9 +5,9 @@ weight: 7
 draft: false
 ---
 
-You’ve implemented the fix(es) for your bug(s). Naturally, the first thing you do is recompile your code and run it. If it looks right, you’ve fixed the bug!
-…Or so you’d like to believe. However, in many settings it’s not that simple. You have to make sure that your fix hasn’t introduced new bugs, and that your fix actually works for all cases. To that end, knowing how to test your code is important.
-Testing is similar to debugging in that you are still trying to find where bugs happen. However, in testing you already know or have a good idea of where the bug will occur, and so in your tests you’ll want to intentionally run that code. However, going into testing blind won’t help you very much.
+You’ve implemented the fix(es) for your bug(s). Naturally, the first thing you do is recompile your code and run it. If it looks right, you’ve fixed the bug! For smaller projects, this works relatively well. Larger projects might be more difficult since it takes much longer to compile. Typically, they have have automated tests that are run automatically after updates are made to the codebase so programmers don't even need to worry too much about this step (except for the programmers making the tests!).
+
+In testing you already know or have a good idea of where the bug will occur, and so in your tests you’ll want to intentionally run that code to make sure that code is correct. Testing is so important that a whole software development methodology revolves around it (test-based development)!
 
 ### Unit Tests
 Always start small with your tests. This idea is taken from scientific experiments: if you reduce the number of factors (independent variables) that are in play, you can narrow down the cause more easily. These are called unit tests. Rather than testing if the entire program or part works, a unit test looks at a specific part. For instance, a unit test could call one function that does not call other functions to see if it outputs the correct/expected value.
