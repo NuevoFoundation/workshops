@@ -9,4 +9,4 @@ draft: false
 
 Piensa en cuántos lados tiene un hexágono. Si divides los 360° que tiene un círculo entre el número de lados del hexágono, tendrás los grados del ángulo para hacer tu nueva figura.
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonWithTurtleActivity3?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe src="https://trinket.io/embed/python/e82295e92f" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

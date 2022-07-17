@@ -21,4 +21,4 @@ El el método `turtle.color()`, podemos especificar argumentos enteros correspon
 
 Actualiza tu flor de mandala para usar un color de tu preferencia. ¡Siéntete libre de experimentar con colores diferentes!
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonWithTurtleActivity9?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe src="https://trinket.io/embed/python/1f9c80fffe" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
