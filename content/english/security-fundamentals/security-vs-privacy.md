@@ -5,7 +5,7 @@ draft: false
 weight: 3
 ---
 
-Security & privacy are often used interchangeably by many people, but it is important to understand how these two ideas are different. Security refers to protection against the unauthorized access of data regardless of the content. Privacy refers to the right for consumers to be free from unwanted attention or surveillance. Privacy is generally concerned with Personally Identifiable Information (PII). Some examples of PII are email addresses, phone numbers, addresses, birthdays, credit card details, and even your fingerprint.  We put security controls in place to limit who can access information, and we put privacy controls in place to limit the type of information that is accessible in certain places 
+Security & privacy are often used interchangeably by many people, but it is important to understand how these two ideas are different. Security refers to protection against the unauthorized access of data regardless of the content. Privacy refers to the right for consumers to be free from unwanted attention or surveillance. Privacy is generally concerned with Personally Identifiable Information (PII). Some examples of PII are email addresses, phone numbers, addresses, birthdays, credit card details, and even your fingerprint.  We put security controls in place to limit who can access information, and we put privacy controls in place to limit the type of information that is accessible in certain places.
 
 
 Security can be put into practice without privacy, but privacy cannot be put into practice without security. 
