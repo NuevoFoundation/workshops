@@ -12,7 +12,7 @@ weight: 9
 
 ### Searching for a pattern in a file?
 
-`grep` is a command used to search for text within files. There are different flags or options that can change how it is used.  
+`grep` (<b>g</b>lobal search for <b>r</b>egular <b>e</b>xpression and <b>p</b>rint the result) is a command used to search for text within files. There are different flags or options that can change how it is used.  
 The format is: `grep [flag] “[pattern]” [filename]`.
 
 | flags | Uses |
@@ -35,7 +35,7 @@ grep -R "Do. Or do not. There is no try."
 
 ### Why does the secret-message file look like that?
 
-*Remember that file we saw with the strange name? It was called `malware.sh`. We should go find it again and take a closer look at it. I think this was left by the hackers!*
+*Remember that file we saw with the strange name? It was called `malware.sh`. We should go find it again and take a closer look at it. I think that the hackers  left this!*
 
 `find` is a command used to search for a file with certain parameters within a directory or region of files. It can be used in multiple ways including:
 

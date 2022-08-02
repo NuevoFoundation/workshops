@@ -45,7 +45,7 @@ We should keep using that command to check if we changed the permissions as expe
 chmod u=rwx g=rx o=x file1
 ```
 
-`chmod` is a command used to modify the permissions of your files for the following 3 different groups of users: 
+`chmod` is a command used to modify the permissions of your files (it means "Change Mode") for the following 3 different groups of users: 
 - the <b>u</b>ser and owner of the file
 - the <b>g</b>roup and the members of the group of people with access to the file
 - the <b>o</b>thers or anyone else
@@ -60,7 +60,7 @@ These groups can be modified to have permissions to do the following:
 
 ### Try it on your own!
 
-Now, let's try to change the permissions of our files. We want anyone outside of our group and aside from ourselves to have no permissions for `file1`. How do we do that?
+Now, let's try to change the permissions of our files. We want anyone outside of our group and aside from ourselves to not be able to access `file1`. How would we do that?
 
 ![chmod command](../images/Act5.2.png?classes=border,shadow)
 
