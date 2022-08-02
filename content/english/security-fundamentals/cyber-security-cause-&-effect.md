@@ -1,5 +1,5 @@
 ---
-title: "Cyber security: Cause & Effect"
+title: "cyber-security-cause-effect"
 description: ""
 draft: false
 weight: 4
