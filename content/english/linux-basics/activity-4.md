@@ -12,7 +12,7 @@ weight: 7
 
 ### What if I want to create a new directory?
 
-To practice creating a new directory, use the command `mkdir` in the following format: `mkdir new_directory_name`. 
+To practice creating a new directory, use the command `mkdir` (meaning "Make Directory") in the following format: `mkdir new_directory_name`. 
 
 Let's make a directory called `files` by typing the command below:
 

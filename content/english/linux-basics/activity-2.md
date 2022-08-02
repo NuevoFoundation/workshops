@@ -8,7 +8,7 @@ weight: 5
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/v1XLyLuQQyA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-*So before we can stop the hackers, we need to learn to navigate the Linux filesystem.*
+*Before we can stop the hackers, we need to learn to navigate the Linux filesystem.*
 
 ### What is a filesystem? 
 
@@ -20,11 +20,11 @@ Fun fact: filesystems are often described as a "tree". This is because the files
 ![Picture of a filesystem tree](../images/filesystem-tree.png?classes=border,shadow)
 {{% /notice %}}
 
-On a windows computer, you can browse the computer's "C:\" drive filesystem in the "file explorer" like below
+On a Windows computer, you can browse the computer's "C:\" drive filesystem using "File Explorer" like below:
 
 ![Picture of a Windows file explorer](../images/filesystem-windows.png?classes=border,shadow)
 
-On a Mac computer, you can browse the computer's home filesystem in "Finder" like below
+On a Mac, you can browse the computer's home filesystem in "Finder" like below:
 
 ![Picture of the Mac file finder](../images/home-folder-mac.jpg?classes=border,shadow)
 
@@ -33,7 +33,7 @@ On a Mac computer, you can browse the computer's home filesystem in "Finder" lik
 
 We want to find out what our "current working directory" is. This is the location in the filesystem that you are currently at. 
 
-The Linux command `pwd` will display your current location. This stands for Print Working Directory. Try it!
+The Linux command `pwd` will display your current location. This stands for "Print Working Directory". Try it!
 
 <!---!![pwd command](../images/02_pwd.png?classes=border,shadow) --->
 <img src="../images/02_pwd.png" alt="pwd command" style="width:600px;"/>
@@ -48,7 +48,7 @@ The output above is `/home/nuvi` and its meaning is explained below:
 
 ### How do I move around the filesystem?
 
-To move to a different directory, use the command `cd`. This stands for change directory. The format of this command is `cd [directory name]`.
+To move to a different directory, use the command `cd`. This stands for "Change Directory". The format of this command is `cd [directory name]`.
 
 <!---![cd command](../images/02_cd.PNG?classes=border,shadow) --->
 <img src="../images/02_cd.PNG" alt="cd command" style="width:600px;"/>
