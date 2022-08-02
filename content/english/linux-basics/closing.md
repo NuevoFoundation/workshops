@@ -9,12 +9,12 @@ weight: 15
 
 *You have helped us thwart the hackers evil shenanigans by learning several Linux commands and how to use them. Thanks so much for helping SHH!* 
 
-*But don't forget this is all Top Secret!*
+*But don't forget - this is all top secret!*
 
 <!--![nuvi picture](../images/nuvi.PNG?classes=border,shadow) -->
 <img src="../images/nuvi.PNG?classes=border,shadow" alt="A picture of Nuvi" width="380" height="380" />
 
-Click the "Download" button below to receive your honorary certificate!
+Click the "Download" button below to receive your honorary certificate of completion!
 
 <a class="my-2 mx-4 btn btn-info" href="../images/Certificate.pdf">
 Download link</a>
