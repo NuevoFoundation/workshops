@@ -6,7 +6,7 @@ difficulty: "Intermediate"
 weight: 7
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/h9qokQeLREI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h9qokQeLREI" alt="A YouTube video on Linux Basics Activity 4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 *As a cybersecurity engineer, it is important to take a lot of notes. These are helpful for future reference to understand how the hack happened. Let's step up our workspace!*
 
@@ -20,7 +20,7 @@ Let's make a directory called `files` by typing the command below:
 mkdir files
 ```
 <!---![ls-l command](../images/04_mkdir.PNG?classes=border,shadow) --->
-<img src="../images/04_mkdir.PNG" alt="ls-l command" style="width:600px;"/>
+<img src="../images/04_mkdir.PNG" alt="mkdir command" style="width:600px;"/>
 
 As you can see, now when `ls -l` is run, an additional directory named `files` appears
 
@@ -68,7 +68,7 @@ Try the command below to create a file named `file1`:
 touch file1
 ```
 <!---![ls-l command](../images/04_touch.PNG?classes=border,shadow) --->
-<img src="../images/04_touch.PNG" alt="ls-l command" style="width:600px;"/>
+<img src="../images/04_touch.PNG" alt="touch command" style="width:600px;"/>
 
 Now when we type `ls -l` we can see that the file has been created.
 
@@ -83,7 +83,7 @@ vim file1
 ```
 
 <!---![ls-l command](../images/04_vim.PNG?classes=border,shadow) --->
-<img src="../images/04_vim.PNG" alt="ls-l command" style="width:600px;"/>
+<img src="../images/04_vim.PNG" alt="vim command" style="width:600px;"/>
 
 We are now in the Vim editor. Press `i` to enter insert mode. Now type in `nuvi` and press `esc` to exit insert mode. Finally type in `:wq` and press enter. The colon tells Vim you are entering a command. The w and q then tell vim you want to write the changes you made and quit.
 
@@ -94,7 +94,7 @@ To exit `vim`, press `esc` then type `:wq`. You will need this every time you op
 ![ls-l command](../images/04_vim_after.PNG?classes=border,shadow)
 
 <!---![ls-l command](../images/04_vim_after.PNG?classes=border,shadow) --->
-<img src="../images/04_vim_after.PNG" alt="ls-l command" style="width:600px;"/>
+<img src="../images/04_vim_after.PNG" alt="vim after" style="width:600px;"/>
 
 Once again type `ls -l` and you can see that file1 now has 5 bytes of content, instead of 0 when it was blank.
 

@@ -6,7 +6,7 @@ difficulty: "Intermediate"
 weight: 6
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dSsed9cR9QI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dSsed9cR9QI" alt="A YouTube video on Linux Basics Activity 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 *Now that we know who and where we are, let's take a look around for signs of the hackers.*
 ## How do you explore the directory?

@@ -12,7 +12,7 @@ weight: 15
 *But don't forget this is all Top Secret!*
 
 <!--![nuvi picture](../images/nuvi.PNG?classes=border,shadow) -->
-<img src="../images/nuvi.PNG?classes=border,shadow" width="380" height="380" />
+<img src="../images/nuvi.PNG?classes=border,shadow" alt="A picture of Nuvi" width="380" height="380" />
 
 Click the "Download" button below to receive your honorary certificate!
 

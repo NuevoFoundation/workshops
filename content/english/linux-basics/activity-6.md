@@ -6,7 +6,7 @@ difficulty: "Intermediate"
 weight: 9
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OaXi1GN_93U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OaXi1GN_93U" alt="A YouTube video on Linux Basics Activity 6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 *I know I had a file `secret-message.txt` with one of my favorite quotes in it. "Do. Or do not. There is no try." Can you help me find it?*
 

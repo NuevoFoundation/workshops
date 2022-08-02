@@ -6,7 +6,7 @@ difficulty: "Intermediate"
 weight: 12
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mLsJXEIsadE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mLsJXEIsadE" alt="A YouTube video on Linux Basics Activity 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 *So `malware.sh` is definitely a bad file left by the hackers. We need to remove it and the directory holding it!*
 
