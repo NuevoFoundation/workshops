@@ -98,6 +98,3 @@ ls -l
 ```
 tar -f files.tar.gz
 ```
-
-
-

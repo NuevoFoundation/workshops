@@ -45,4 +45,3 @@ drwxr-xr-x 2 nuvi nuvi 4096 Aug 10 23:50 Desktop
 - 4096: The size of the file in bytes
 - Aug 10 23:50: Date and time the file was created
 - Desktop: Name of the directory
-
