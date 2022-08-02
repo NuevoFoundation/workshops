@@ -12,6 +12,6 @@ Not enabling two-factor authentication to log into accounts (social media, banki
 
 This makes it much easier for hackers to crack your password and log in without you knowing. 
 
-Password reuse (using the same password for many sites) 
+2. Password reuse (using the same password for many sites) 
 
 Once your password is discovered, a hacker will likely be able to access more or all your accounts online.
