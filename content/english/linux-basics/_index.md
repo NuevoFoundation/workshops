@@ -28,11 +28,11 @@ This tutorial requires:
 
 <img src="images/nuvi.PNG?classes=border,shadow" alt="A picture of Nuvi" width="380" height="380" />
 
-An **Operating System** (OS) is a software that acts as an interface between you and your computer's hardware. Every computer must have at least one OS to run other programs, like your browser!. The OS helps you to communicate with the computer without knowing how to speak the computer's language.
+An **Operating System** (OS) is a software that acts as an interface between you and your computer's hardware. Every computer must have at least one OS to run other programs, like your browser!. The OS helps you to communicate with your computer without knowing how to speak the computer's language.
 
-Microsoft Windows is the OS you are probably most familiar with using at home. Another common one you may have seen is Apple macOS. Linux is yet another OS! It is widely preferred by developers for its versatility. There are many options out there, but today we will using a Linux-based OS, called Kali Linux. It is a popular OS for security experts and hackers!
+Microsoft Windows is the OS you are probably most familiar with using at home. Another common one you may have seen is Apple macOS. Linux is yet another OS! It is widely preferred by developers for its versatility. There are many options out there, but today we will using a Linux-based OS, called Kali Linux. It is a popular OS among security experts and hackers!
 
-The biggest differences between Windows, macOS, and Linux is what they are good at doing. Windows is perfect for multimedia and games! macOS falls somewhere between Windows and Linux. While it is also excellent for multimedia, it does not support all games. Linux is usually better for programming and hosting servers.
+The biggest differences between Windows, macOS, and Linux is what they are best at doing. Windows is perfect for multimedia and games! macOS falls somewhere between Windows and Linux. While it is also excellent for multimedia, it does not support all games. Linux is usually better for programming and hosting servers.
 
 ## Table of Contents
 
