@@ -27,9 +27,9 @@ The first recorded programming bug was recorded all the way back in 1947 when a 
 
 This workshop assumes that you understand and can write code in the **C** programming language. The examples used in this workshop make use of data structures and algorithms, topics that are usually taught in an introductory computer science course. We'll have a brief explanation of them, but it is intended to be a refresher so you have an idea of what the example code is doing.
 
-## Repl.it and the Command Line
+## Replit and the Command Line
 
-Let's try using Repl.it to run some code and get more familiar with the command line. In the Repl.it frame below, open the **Shell** tab.
+Let's try using Replit to run some code and get more familiar with the command line. In the Replit frame below, open the **Shell** tab.
 
 <iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Debugging-Samples-C?lite=true#HelloWorld.c" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
