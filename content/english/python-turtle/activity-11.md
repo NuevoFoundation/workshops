@@ -13,4 +13,4 @@ Click the button below to open a new blank Trinket window to start on your creat
 
 ## Help, I am stuck!
 
-Stuck? Check the [Answer key](../answer-key.md) for the activity that you are stuck on!
+Stuck? Check the [Answer key](../answer-key) for the activity that you are stuck on!

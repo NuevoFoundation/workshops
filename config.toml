@@ -26,6 +26,16 @@ weight = 2
 languageName = "Español"
 contentDir = "content/espanol"
 
+[Languages.zh-hans]
+weight = 3
+languageName = "简体中文"
+contentDir = "content/simplified-chinese"
+
+[Languages.zh-hant]
+weight = 4
+languageName = "繁體中文"
+contentDir = "content/traditional-chinese"
+
 [params]
 editURL = "https://github.com/NuevoFoundation/workshops/tree/master/content/"
 showVisitedLinks = true # default is false
