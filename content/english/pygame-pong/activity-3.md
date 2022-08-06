@@ -5,8 +5,6 @@ weight: 5
 draft: false
 ---
 
-# Activity 3
-
 Kudos! You not only fixed the game boundary, but you were able to give color to objects too. Now, let's see if you can change the keys for paddle movement.
 
 To do this, we need to modify one of the parameters we passed in when creating the left paddle object. Remember from "The Basics - Class and Object" section, you defined the `Paddle` class with UP and DOWN key assignments as its attributes.

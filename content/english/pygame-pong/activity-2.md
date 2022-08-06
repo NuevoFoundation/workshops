@@ -5,8 +5,6 @@ weight: 4
 draft: false
 ---
 
-## Activity 2
-
 Great! You just fixed the game's boundary. Now, notice how everything inside the game looks black and white? Let's bring it to life by giving it some colors.
 
 To do this, we need to modify the RGB values in the `COLOR` attribute.
