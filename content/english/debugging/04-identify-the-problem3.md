@@ -7,23 +7,31 @@ draft: false
 
 ## Debuggers
 
-Debugging code is such a widespread, common problem that people have built entire programs designed to help other programmers debug more efficiently. These are suitably named “debuggers”, and there are plenty of debuggers that work for C. We'll take a look at gdb, a common debugger used on the command line.
+Debugging code is such a widespread, common problem that people have built entire programs designed to help other programmers debug more efficiently. These are suitably named **debuggers**, and there are plenty of debuggers that work for the C programming language. Let's take a look at `gdb`, a common debugger used on the command line.
 
-GDB (GNU Project Debugger) is a powerful debugger that lets you debug a program from the command line, which is useful in cases where you don’t have access to a GUI. To use GDB, open a console in the repl.it below. First, compile the program we’ll use with GDB by typing `make examples/quicksort` (see the aside on quicksort). Next, run `gdb examples/out/quicksort`. This should open the GDB command line interface. In general, to debug a program with `gdb` you can use `gdb <name of program>`.
+[GDB (GNU Project Debugger)](https://sourceware.org/gdb/) is a powerful debugger that lets you debug programs from the command line, which is useful in cases where you don’t have access to a GUI. Open the **Shell** tab in the Repl.it window below. 
+
+First, let's compile the program:
+
+```bash
+make examples/quicksort
+```
+
+Next, run `gdb examples/quicksort`. This should open the GDB command line interface. In general, to debug a program with `gdb` you can use `gdb <name of program>`.
 
 {{% notice note %}}
-Quicksort is an algorithm that sorts an array by first selecting an element in the array as a pivot. Next, the elements are organized into two groups: elements with a value less than the pivot, and elements with a value greater than the pivot. Finally, the algorithm is recursively run on the two groups. 
+Quicksort is an algorithm that sorts an array by first selecting an element in the array as a `pivot`. Next, the elements are organized into two groups: elements with a value less than the pivot, and elements with a value greater than the pivot. Finally, the algorithm is recursively run on the two groups. 
 
 More information can be found online.
 {{% /notice %}}
 
-<iframe height="500px" width="100%" src="https://replit.com/@nuevofoundation/Debugging-Samples-C?lite=true#quicksort/quicksort.c" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Debugging-Samples-C?lite=true#quicksort/quicksort.c" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-We can use GDB as an aide in identifying where bugs occur. As usual it is important to understand the program. It runs a recursive implementation of quicksort (see the note for a quick summary). The sorting itself occurs in the `sort` function. The pivot chosen is the far right element for simplicity, and performs comparisons in the array starting from `lo` and ending at the pivot index. Here's a picture for a bit more insight:
+We can use GDB as an aide in identifying where bugs occur. As usual, it is important to understand the program. It runs a recursive implementation of quicksort (see the note for a quick summary). The sorting itself occurs in the `sort` function. The pivot chosen is the far right element for simplicity and performs comparisons in the array starting from `lo` and ending at the pivot index.
 
 ![Our Quicksort Algorithm](../resources/w4-05.png)
 
-First, compile the program using the make as usual:
+First, compile the program:
 
 ```bash
 make Quicksort
@@ -35,9 +43,9 @@ gdb examples/Quicksort
 ```
 
 {{% notice note %}}
-When we compile the program, we pass in two flags: `-g` and `-Og`. The first tells the compiler to add *debugging information*, meaning that without that flag, gdb would not be able to debug the program. The second tells the compiler to optimize the program in a way that wouldn't affect the program's run structure. Without `-Og`, the compiler could potentially optimize away some of your code, so a debugger would not be nearly as effective.
+When the program is compiled, we use two flags: `-g` and `-Og`. The first tells the compiler to add **debugging information**, meaning that without that flag, gdb would not be able to debug the program. The second tells the compiler to optimize the program in a way that wouldn't affect the program's run structure. Without `-Og`, the compiler could potentially optimize away some of your code, so a debugger would not be nearly as effective.
 
-It is important to keep note of the second flag. For debugging, you should ALWAYS make sure the compiler makes minimal optimizations to your code, because optimizations could drastically change how the code is run!
+It is important to keep note of the second flag. For debugging, you should ALWAYS make sure the compiler makes minimal optimizations to your code because optimizations could drastically change how the code is run!
 {{% /notice %}}
 
 You should see something like this:
@@ -48,14 +56,14 @@ Make sure that GDB says that it is `Reading symbols from examples/Quicksort...`,
 
 To debug the program, we need to run it from GDB. Enter the command `run` (or `r`). This will execute the program as if you'd run it from the normal command line.
 
-The program first prints the contents of the array to be sorted: an array index along with its corresponding value. This value is used to perform the sort. Next, it runs the sort algorithm, and finally prints out the array sorted along its values. You can see how the array indices are shifted during the sort!
+The program first prints the contents of the array to be sorted: an array index along with its corresponding value. This value is used to perform the sort. Next, it runs the sort algorithm, and finally, prints out the array sorted along its values. You can see how the array indices are shifted during the sort!
 
-However, it seems that there is an array entry out of place! In theory, we can add a print statement somewhere in the `sort`
+However, it seems that there is an array entry out of place! In theory, we can add a print statement somewhere in the `sort`.
 
-From there, you can use one of the most important tools that GDB provides: breakpoints. A breakpoint tells the debugger to pause the program whenever it reaches that line of code as it is executing. This enables you to take a look at what is happening within the program “in real time”. Note that the debugger does not run the line of code the breakpoint is on until after you continue executing the program.
+From there, you can use one of the most important tools that GDB provides: **breakpoints**. A breakpoint tells the debugger to pause the program whenever it reaches that line of code as it is executing. This enables you to take a look at what is happening within the program in real time. Note that the debugger does not run the line of code the breakpoint is on until after you continue executing the program.
 
 To create a breakpoint in GDB, use the following command syntax:
-`break <filename:line>`. For example, to create a breakpoint on line 15 in the quicksort.c file, use the following command:
+`break <filename:line>`. For example, to create a breakpoint on line 15 in the **quicksort.c** file, use the following command:
 ```
 break quicksort.c:15
 ```
@@ -64,20 +72,20 @@ If you try running the program now using `run`, the program will halt when it re
 
 While the program is paused, you can see the values of variables. The print command evaluates an expression and prints it. For instance, `print hi` will print the variable `hi`. You can get more elaborate than that by using entire expressions - `print hi + 2` will evaluate `hi + 2` and print it. 
 
-You can manually step through your code by calling `next` (or `n`), which will tell the debugger to advance to the next line of code *without jumping into a function call*. A related command is `step`, which will move the debugger to the first line of code in a function call. You can try it out by creating a breakpoint within the `quicksort` function, and try either using `next` or `step` to see which line of code you'll land on next.
+You can manually step through your code by calling `next` (or `n`), which will tell the debugger to advance to the next line of code **without jumping into a function call**. A related command is `step`, which will move the debugger to the first line of code in a function call. You can try it out by creating a breakpoint within the `quicksort` function, and try either using `next` or `step` to see which line of code you'll land on next.
 
 If you want to have your code continue running until the next breakpoint, you can use the `continue` (or `c`) command. Finally, to delete a breakpoint, you can use the `delete` (or `d`) command followed by the breakpoint number, which you see when you set the breakpoint.
 
-Another useful command to know is `bt` or `backtrace`. This shows you the calling stack, or which functions were called in order to get to the line of code the program is halted on. This can be helpful in tracking execution order and finding control flow bugs. It also works well to find out how a program crashed by seeing the functions that led up to the crash. 
+Another useful command to know is `bt` or `backtrace`. This shows you the calling stack, or which functions were called to get to the line of code the program is halted on. This can help track the execution order and find control flow bugs. It also works well to find out how a program crashed by seeing the functions that led up to the crash. 
 
-There are plenty of commands GDB offers. We recommend using a cheatsheeet that you can find online. These cheat sheets work:
+There are plenty of commands GDB offers. We recommend using a cheat sheet that you can find online.
 
 * [Reference 1](https://gist.github.com/rkubik/b96c23bd8ed58333de37f2b8cd052c30)
 * [Reference 2](https://cs.brown.edu/courses/cs033/docs/guides/gdb.pdf)
 
 ### Planning Where to Place Breakpoints
 
-For this example, where is all the sorting actually taking place?
+For this example, where is all the sorting taking place?
 {{% expand "*Click to show answer*" %}}
 The sorting takes place within the `for` loop. Here, the elements are being moved around. 
 
