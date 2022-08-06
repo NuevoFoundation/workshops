@@ -6,6 +6,7 @@ draft: false
 ---
 
 # Activity 4
+
 Now you know how to change key assignments to control a paddle's movement. Great work!
 
 We have added movement for the left paddle. Can you apply the knowledge about the `Paddle` object and its attributes that influence its movement on screen to change the key assignment for the right paddle? 
@@ -19,5 +20,6 @@ Press <b>run</b> to confirm the result.
 {{% /notice %}}
 <iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/PongLessonStudent?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-## Takeaway 
+## Takeaway
+
 You have just modified `up_key` attribute in `Paddle` class to influence how the right paddle object should move on screen. 
