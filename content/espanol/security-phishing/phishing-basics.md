@@ -31,4 +31,4 @@ Hay ocasiones en las que necesitas proporcionar información personal a un desti
 
 Sin embargo, proporcionar información personal también puede conducir al phishing. En este taller entenderemos cómo diferenciar entre un correo electrónico legítimo y un correo electrónico fraudulento.
 
-{{% /notice tip %}}
+{{% /notice %}}
