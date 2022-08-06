@@ -5,8 +5,6 @@ draft: false
 weight: 3
 ---
 
-# Putting it together
-
 For your browser to understand what each element of your site is, we need to label them with HTML tags. HTML stands for `Hypertext Markup Language`. Tags are words surrounded by the symbols `<`and`>`. For example, the `<img>` tag tells your browser “this is an image.” The `<button>` tag tells it “this is a button.”
 
 ![alt text](../media/web-tags-sm.png "html tags graphic")

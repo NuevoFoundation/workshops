@@ -1,5 +1,5 @@
 ---
-title: "Activity 5 - The final excercise"
+title: "Activity 5 - The final exercise"
 date: 2019-09-03T17:53:41-07:00
 draft: false
 weight: 10

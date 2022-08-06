@@ -5,6 +5,8 @@ draft: false
 weight: 8
 ---
 
+To complete this activity, you will need to complete the following steps:
+
 1. <a href="https://giphy.com/nuevofoundation" target="_blank">Follow this link</a> to see the available GIFs
 2. Click on the one you like and select "Embed" <br>
     <img src="../media/nuevo-.png"/>

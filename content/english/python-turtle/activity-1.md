@@ -19,7 +19,7 @@ Kudos! You helped Alex draw a line! Now let’s step it up and help Alex draw a 
 
 Remember to use `turtle.forward()` to draw lines. To turn 90 degrees left, you need to pass `90` as the argument to the `turtle.left()` method:
 
-```
+``` python
 turtle.left(90)
 ```
 

@@ -21,7 +21,7 @@ More information can be found online.
 
 We can use GDB as an aide in identifying where bugs occur. As usual it is important to understand the program. It runs a recursive implementation of quicksort (see the note for a quick summary). The sorting itself occurs in the `sort` function. The pivot chosen is the far right element for simplicity, and performs comparisons in the array starting from `lo` and ending at the pivot index. Here's a picture for a bit more insight:
 
-![TODO]()
+![Our Quicksort Algorithm](../resources/w4-05.png)
 
 First, compile the program using the make as usual:
 
@@ -123,7 +123,7 @@ A memory leak happens when your program allocates memory using malloc or calloc 
 Luckily, people have also written programs to help you find memory errors, and one of these programs is `valgrind`. Valgrind is a tool that not only looks for memory errors, but shows you exactly where the errors occur in your code.
 Let’s use valgrind to find where memory errors occur. As an example, we have a rudimentary implementation of a vector in C,  which is the C++ standard library’s version of a dynamically sized array.
 
-<iframe height="500px" width="100%" src="https://replit.com/@nuevofoundation/Debugging-Samples-C#vector/vector.c" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="500px" width="100%" src="https://replit.com/@nuevofoundation/Debugging-Samples-C?lite=true#vector/vector.c" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 First make the program using 
 

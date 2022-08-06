@@ -6,7 +6,7 @@ difficulty: "Intermediate"
 weight: 4
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XAtCQ9S1vSI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XAtCQ9S1vSI" frameborder="0" alt="A YouTube video demonstrating how to create a user account in Linux" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 *Now we are at the command line. Let's test a simple command to show us the user account.*
 
@@ -14,7 +14,7 @@ weight: 4
 
 Every user in Linux has a user account. These are used to uniquely identify each user.
 
-For example, say you and your friend, Nuvi, share a computer. One way to track which files belong to each of you and make sure the other doesn't accidentally edit anything important, you and Nuvi could create separate user accounts. 
+For example, say you and your friend, Nuvi, share a computer. You and Nuvi might create separate user accounts to keep track of which files belong to which of you and to ensure that none of you accidentally changes anything important.
 
 ### How do I find out which account I am using?
 

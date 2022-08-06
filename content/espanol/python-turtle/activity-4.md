@@ -18,7 +18,7 @@ Una función es una manera de agrupar líneas de código para hacer algo. Por ej
 
 Este es un ejemplo de la  **definición de funcion** y cómo se usa
 
-```
+``` python
 def draw_line():
   turtle.forward(50)
   turtle.left(120)
@@ -38,7 +38,7 @@ Similar a un ciclo for, lo que sea que queramos que la función ejecute debe ten
 
 Pero no basta sólo con crearla sino que hay que mandarla llamar. Esto se hace escribiendo el nombre de la función seguido de paréntesis:
 
-```
+``` python
 def draw_line():
   turtle.forward(50)
   turtle.left(120)
@@ -67,7 +67,7 @@ Notemos que las funciones usan una sintaxis similar a la que usan los ciclos `fo
 
 ¿Pero qué pasaría si necesitaramos un ciclo `for` dentro de nuestra función? Entonces hay que combinar las reglas. A continuación hay un ejemplo de cómo poner un ciclo for dentro de una función:
 
-```
+``` python
 def draw_line():
   for i in range(3):
     turtle.forward(50)
@@ -79,4 +79,4 @@ def draw_line():
 
 Intentemos ahora crear nuestra propia función y llamémosla `draw_hexagon()`. Recuerda incluir la cabecera o header dela función, el número de lados que tiene un hexágono y el ángulo que debes usar: 60 grados.
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonWithTurtleActivity4?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe src="https://trinket.io/embed/python/c3ef894658" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

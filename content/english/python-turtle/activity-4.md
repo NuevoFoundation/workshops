@@ -17,7 +17,7 @@ A function is a way to group together lines of code to do something. For instanc
 
 Here is an example of a **function definition**, and how we would use it:
 
-```
+``` python
 def draw_line():
   turtle.forward(50)
   turtle.left(120)
@@ -37,7 +37,7 @@ Similar to a for-loop, anything that we wish to define within the function needs
 
 If you press **run** with just this code, you will notice that you won't see any output! We've only created the functions, but we need to use them. To use the function we created, type in `draw_line()` again, but without the `def`. 
 
-```
+``` python
 def draw_line():    # Function definition
   turtle.forward(50)
   turtle.left(120)
@@ -64,7 +64,7 @@ Notice that functions use similar syntax rules with `for`-loops - you must have 
 
 What happens when you need a `for`-loop inside of a function? Then, you need to combine the rules together! Here is an example on how to properly put a `for`-loop inside of a function.
 
-```
+``` python
 def draw_line():
   for i in range(3):
     turtle.forward(50)
