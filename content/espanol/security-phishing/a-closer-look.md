@@ -25,7 +25,7 @@ Que crees que esta sospechoso en este correo? Analicemos:
 <em>La oferta lucrativa en la línea de asunto sugiere que es demasiado buena para ser verdad.</em></p>
 </div>
 
-![Email Date](../media/date.JPG?classes=border,shadow)
+![Fecha del correo electrónico](../media/date.JPG?classes=border,shadow)
 
 <div style="text-align: center;">
 <p style="color:red">
