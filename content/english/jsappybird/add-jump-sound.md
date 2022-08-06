@@ -23,10 +23,10 @@ In your console you should see a Jsappy bird jumping with sound after you press 
 
 {{% notice note %}}
 
-      What happens if we make gravity stronger?
-      What happens if we make gravity have a negative value?
-      What other wacky ways can the bird jump?
-      How can we make him rotate quicker?
-      What happens if we remove the 'if' around the rotation?
+- What happens if we make gravity stronger?
+- What happens if we make gravity have a negative value?
+- What other wacky ways can the bird jump?
+- How can we make him rotate quicker?
+- What happens if we remove the 'if' around the rotation?
 
 {{% /notice %}}
