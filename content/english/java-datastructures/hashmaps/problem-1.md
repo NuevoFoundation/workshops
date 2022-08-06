@@ -17,16 +17,16 @@ It's a party! A customer has a big birthday party for more than 20 people! Every
 {{%/notice%}}
 
 ```js javascript
-	 //example of current hashmap
-     HashMap<String, String> order = new HashMap<String, String, String>();
+// Example of current hashmap
+HashMap<String, String> order = new HashMap<String, String>();
 
-     //key, value
-     order.put("Justin", "Sprite");
-     order.put("George", "Coke");
-     order.put("Sam", "Fanta");
-     order.put("Eva", "Coke");
-     order.put("Olivia", "Coke");
-     ...
+//key, value
+order.put("Justin", "Sprite");
+order.put("George", "Coke");
+order.put("Sam", "Fanta");
+order.put("Eva", "Coke");
+order.put("Olivia", "Coke");
+...
 ```
 
-<iframe height="800px" width="100%" src="https://replit.com/@nuevofoundation/HashFind?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="800px" width="100%" src="https://replit.com/@nuevofoundation/HashMapGet?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>

@@ -21,7 +21,7 @@ As you can see, this array holds all the different restaurants for our app. Now,
 
 ![burgerkingarray](../../img/burgerkingarray.png)
 
-As you can see, the 0th element should be our Burger King Array. Just like our 1D arrays, we zero index the items of our array. If we wanted to place an order for a Whopper, we would simply call `Restaurant[0][0]`. This would call our Burger King Array and the first element at that array, which is a whopper. If we wanted fries in our array, then we would call `Restaurant[0][2]`. 
+As you can see, the `0`th element should be our Burger King Array. Just like our 1D arrays, we zero index the items of our array. If we wanted to place an order for a Whopper, we would simply call `Restaurant[0][0]`. This would call our Burger King Array and the first element at that array, which is a whopper. If we wanted fries in our array, then we would call `Restaurant[0][2]`. 
 
 Question: If we wanted to order some orange chicken and orange chicken was the 10th element of our Panda Express array, how could we access that element?
 

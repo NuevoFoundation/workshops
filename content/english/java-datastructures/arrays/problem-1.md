@@ -19,16 +19,16 @@ We've created an array of existing restaurants in our system! We need your help 
 If we are given the array below:
 
 ```js javascript
-    String[] restaurants = { "Burger King", "Chipotle", "Panda Express", "McDonalds" };
+String[] restaurants = { "Burger King", "Chipotle", "Panda Express", "McDonalds" };
 ```
 
 the answer should print out:
 
 ```js javascript
-    String answer = "Burger King,Chipotle,Panda Express,McDonalds";
+String answer = "Burger King,Chipotle,Panda Express,McDonalds";
 ```
 
-<iframe height="800px" width="100%" src="https://replit.com/@nuevofoundation/Arrays1?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="800px" width="100%" src="https://replit.com/@nuevofoundation/Problem-1-getRestaurant?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ## Task 2: Changing Elements
 
@@ -41,10 +41,8 @@ Oh no! McDonalds is out of food! Change the restaurant list before people start 
 {{%/notice%}}
 
 ```js javascript
-    String[] restaurants = {"Burger King", "Chipotle", "Panda Express", "McDonalds"};
-
-    //replace "McDonalds" with "Pizza Hut"
-    String[] restaurants = {"Burger King", "Chipotle", "Panda Express", "Pizza Hut"};
+String[] restaurants = {"Burger King", "Chipotle", "Panda Express", "McDonalds"};
+//replace "McDonalds" with "Pizza Hut"
 
 ```
 

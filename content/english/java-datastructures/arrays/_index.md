@@ -16,8 +16,3 @@ weight: 2
 First, our customers need to be able to select the restaurant that they want to order their food from! There may be hundreds of different restaurants in the app and we need some way to store them all inside a data structure. To accomplish this goal, we will use an array.
 
 ![arraygoals](../img/arraygoals.png)
-
-<details open>
-<summary>Topics</summary>
-{{% children %}}
-</details>

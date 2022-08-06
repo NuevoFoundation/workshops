@@ -22,7 +22,7 @@ public class Main {
         order.add("Chicken Nugget");
         order.add("Fries");
         order.set(1, "Coke");
-        //this sets the first element(chicken nuggets) to a coke instead
+        // This sets the first element (chicken nuggets) to a coke instead
     }
 }
 ```
@@ -42,7 +42,7 @@ public class Main {
         order.add("Chicken Nugget");
         order.add("Fries");
         order.remove(2);
-        //removes fries from the arraylist
+        // Removes fries from the arraylist
     }
 }
 ```
@@ -62,7 +62,7 @@ public class Main {
         order.add("Chicken Nugget");
         order.add("Fries");
         System.out.println(order.size());
-        //outputs the size of the arraylist, in this case: 3
+        // Outputs the size of the arraylist, in this case: 3
     }
 }
 ```
@@ -84,6 +84,10 @@ public class Main {
         for (int i = 0; i < order.size(); i++) {
             System.out.println(order.get(i));
         }
+        // Outputs:
+        // Whopper
+        // Chicken Nugget
+        // Fries
     }
 }
 ```

@@ -13,7 +13,7 @@ weight: 2
 
 <hr>
 
-A hashmap can store items in key/value pairs and you can assign those pairs to different types such as `String`s or `int`s.
+A hashmap can store items in key/value pairs and you can assign those pairs to different types such as strings or integers.
 
 As usual, to create a `HashMap`, you will have to import the HashMap class like so.
 
@@ -26,7 +26,7 @@ In this case, we created a `HashMap` called addresses which stores keys of `Stri
 
 <hr>
 
-## Adding items to the HashMap
+## Adding elements
 
 To add key/value pairs into the hashmap, use the `put()` method.
 
@@ -53,7 +53,7 @@ As you can see, the code above inserts a key/value pair into our hashmap address
 
 <hr>
 
-## Looking up an item in the HashMap
+## Looking up elements
 
 To look up an item in a `HashMap`, use the `get()` method.
 

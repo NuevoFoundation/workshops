@@ -12,14 +12,14 @@ weight: 5
 When you know exactly how many times you want to loop through a block of code, use a `for` loop instead of a `while` loop:
 
 ```java
-for (statement 1; statement 2; statement 3) {
+for (initialization; condition; iteration) {
   // code block to be executed
 }
 ```
 
-- Statement 1 is executed (one time) before the execution of the code block.
-- Statement 2 defines the condition for executing the code block.
-- Statement 3 is executed (every time) after the code block has been executed.
+- Initialization is executed (one time) before the execution of the code block.
+- Condition (as the name implies) defines the condition for executing the code block.
+- Iteration is executed (every time) after the code block has been executed.
 
 The example below will print the numbers `0` to `4`:
 
@@ -29,9 +29,9 @@ for (int i = 0; i < 5; i++) {
 }
 ```
 
-- Statement 1 sets a variable before the loop starts (`int i = 0`).
-- Statement 2 defines the condition for the loop to run (`i` must be less than `5`). If the condition is `true`, the loop will start over again, if it is `false`, the loop will end.
-- Statement 3 increases a value (`i++`) each time the code block in the loop has been executed.
+- Initialization sets a variable before the loop starts (`int i = 0`).
+- Condition defines the condition for the loop to run (`i` must be less than `5`). If the condition is `true`, the loop will start over again, if it is `false`, the loop will end.
+- Iteration increases a value (`i++`) each time the code block in the loop has been executed.
 
 This example will only print even values between `0` and `10`:
 
