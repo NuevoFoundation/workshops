@@ -39,7 +39,7 @@ Que crees que esta sospechoso en este correo? Analicemos:
 <em>La urgencia del mensaje.</em></p>
 </div>
 
-![URLs in Email](../media/url.JPG?classes=border,shadow)
+![Las URLs en el correo electrónico](../media/url.JPG?classes=border,shadow)
 
 <div style="text-align: center;">
 <p style="color:red">
