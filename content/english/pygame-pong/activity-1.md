@@ -13,7 +13,7 @@ Go to the ![code](https://replit.com/@nuevofoundation/PongLessonStudent?v=1) con
 
 ![Pong game with incorrect boundary](../media/width-highlight.png)
 
-Find `# TODO (ACTIVITY 1)` in the code. Follow the instructions to modify the `WIDTH` attribute of the `Pong` class. If you did this correctly, the boundary problem will be fixed. Press <b>run</b> and observe the result.
+Find `# TODO (ACTIVITY 1)` in the code. Follow the instructions there to modify the `WIDTH` attribute of the `Pong` class. If you did this correctly, the boundary problem will be fixed. Press <b>run</b> to observe the result.
 
 {{% notice tip %}}
 
