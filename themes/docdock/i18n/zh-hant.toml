@@ -1,74 +1,74 @@
 # body-beforecontent.html
 [navigation]
-other = "Navigation:"
+other = "導航:"
 
 # next-prev-button.html
 [up-next]
-other = "Up Next:"
+other = "下一頁:"
 
 [previous]
-other = "Previous:"
+other = "前一頁:"
 
 # custom-footer.html
 [join-social-media]
-other = "Join the conversation on social media."
+other = "加入社交媒體上的對話."
 
 [copyright-footer]
 other = "© Copyright 2022, All Rights Reserved by Nuevo Foundation, a 501(c)(3) nonprofit."
 
 # header.html
 [donate]
-other = "Donate"
+other = "捐贈"
 
 [what-we-do]
-other = "What We Do"
+other = "我們的工作"
 
 [workshops]
-other = "Workshops"
+other = "研討會"
 
 [get-involved]
-other = "Get Involved"
+other = "參與其中"
 
 [support-us]
-other = "Support us"
+other = "支持我們"
 
 [event-blog]
-other = "Event blog"
+other = "活動博客"
 
 [our-team]
-other = "Our team"
+other = "我們的團隊"
 
 [contact-us]
-other = "Contact us"
+other = "聯係我們"
 
 # Metadata.html
 [workshop-resources]
-other = "Workshop Resources"
+other = "研討會資源"
 
 [pre-requisite]
-other = "Pre-requisite:"
+other = "前提條件:"
 
 [difficulty]
-other = "Difficulty:"
+other = "難度:"
 
 [download]
-other = "Download:"
+other = "下載:"
 
 # notice.html
 [note]
-other = "Note"
+other = "注"
 
 [info]
-other = "Info"
+other = "信息"
 
 [warning]
-other = "Warning"
+other = "警告"
 
 [tip]
-other = "Tip"
+other = "技巧"
 
 [help]
-other = "Help"
+other = "幫助"
 
 [hint]
-other = "Hint"
+other = "暗示"
