@@ -1,12 +1,12 @@
 ---
-title: "Nuevo Foundation Workshops"
+title: "Nuevo Foundation 研討會"
 date: 2019-07-22T12:40:43-07:00
 draft: false
 hidemetadata: true
 ---
 
-## Workshop Projects
+## 研討會
 {{< workshop-list style="card" depth="1" showhidden="false" description="true"  />}}
 
-## Contributing
-Want to help improve our workshops or our website? Click here: **[Workshop Contributor Guidelines](guidelines/)**!
+## 貢獻
+想幫助改進我們的研討會或網站嗎？請點處這裏: **[Workshop Contributor Guidelines](guidelines/)**!
