@@ -20,6 +20,7 @@ Find `# TODO (ACTIVITY 1)` in the code. Follow the instructions there to modify 
 Try changing the values for height and width to see the effects of different values on the game's boundary.
 
 {{% /notice %}}
+
 <iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/PongLessonStudent?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ## Takeaway

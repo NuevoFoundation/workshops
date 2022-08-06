@@ -18,6 +18,7 @@ Find `# TODO (ACTIVITY 4)` in the code. Modify the appropriate attribute value f
 Press <b>run</b> to confirm the result.
 
 {{% /notice %}}
+
 <iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/PongLessonStudent?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ## Takeaway

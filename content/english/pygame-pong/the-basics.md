@@ -7,16 +7,16 @@ draft: false
 
 ## Classes and objects
 
-Before you start building a game, you should know how to draw different objects and modify them as per the way they need to look and move on computer screen. 
+Before you start building a game, you should know how to draw different objects and modify them based on the way they need to look and move on computer screen.
 
-In order to build objects, you first decide how they should look, what role they should perform in your game, and how player can control their movement on screen. You do this by creating a class for each object you want on screen. 
-Before objects are created in a program you must define their class. A class is what tells how an individual object will look and behave. It contains the attributes and methods that its object can use during the lifetime of a program (in this case it is Pong game). You only need to define a class once then you can use that class to create as many objects as you wish. 
+In order to build objects, you need to first decide how they should look, what role they should perform in your game, and how player can control their movement on screen. You can do this by creating a class for each object you want on screen.
+Before objects are created in a program you must define their class. A class is what tells how an individual object will look and behave. It contains the attributes and methods that its object can use while the program is running (in this case it is a Pong game). You only need to define a class once, after which you can use it to create as many objects as you want.
 
-You cannot use a class directly in a program; a class must have an object as its manifestation that is used in program. 
+You cannot use a class directly in a program; a class must have an object as its manifestation that is used in program.
 All aspects related to visuals and movement are called the `"attributes"` of the object that you see on computer screen. 
 All aspects related to control of an object are called `"functions"` of the object. 
 
-## First, define the class for paddle used in game. To do this, type in the following:
+## First, define the class for the paddle used in game. To do this, use the following code:
 
 ```python
 class Paddle(pygame.Rect):
@@ -52,9 +52,9 @@ This is how you name the class `"Paddle"`. Now, notice the `pygame.Rect` inside 
 
 `def __init__(self, velocity, up_key, down_key, *args, **kwargs):`
 
-Don't worry about `args` and `kwargs` for now and focus on core attributes of `Paddle` class. 
+You don't need to worry about `args` and `kwargs` for now - just focus on the core attributes of the `Paddle` class.
 
-`__init__` function allows you to setup the class with attributes you need to see in objects. You can define additional attributes here on top of what you already get from `Rectangle` class. Let's add attributes like `velocity`, `up_key`, `down_key` to represent the speed at which paddle can move, and the keys needed for upward and downward movement of the paddle. 
+The `__init__` function allows you to setup the class with the attributes you want to see in its objects. You can define additional attributes here in addition to what you already get from the `Rectangle` class. Let's add attributes like `velocity`, `up_key`, `down_key` to represent the speed at which paddle can move, and the keys needed for the upward and downward movement of the paddle. 
 
 ```python
 class Paddle(pygame.Rect):
@@ -66,7 +66,7 @@ class Paddle(pygame.Rect):
 ```
 ## Add methods
 
-`move_paddle()` is a **method.**  We use this method to get paddle to perform move actions. In this case, `move_paddle()` moves the paddle upward or downward depending on the key we pressed, and at a certain speed.
+`move_paddle()` is a **method**.  We use this method to get paddle to perform move actions. In this case, `move_paddle()` moves the paddle either upward or downward depending on the key pressed, and at a certain speed.
 
 ```python
 def move_paddle(self, board_height):
@@ -81,4 +81,4 @@ def move_paddle(self, board_height):
 
 {{% /notice %}}
 
-Now that you have defined how a paddle should look and how it should move, feel free to take a look at classes for `Ball` and `Pong`. In the next activities, you will modify certain aspects of these classes to make the Pong game work for you.
+Now that you have defined how the paddle should look and how it should move, feel free to take a look at the `Ball` and `Pong` classes. In the next activities, you will modify certain aspects of these classes to personalize the Pong game to your preferences.

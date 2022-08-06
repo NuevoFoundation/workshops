@@ -20,6 +20,7 @@ Find `# TODO (ACTIVITY 2)` in the code. Modify the `COLOR` attribute of `Pong` c
 Try using different RGB values to see the effect of color changes on the game's objects.
 
 {{% /notice %}}
+
 <iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/PongLessonStudent?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ## Takeaway

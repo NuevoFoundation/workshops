@@ -9,8 +9,8 @@ hidden: true
 ### Activity 1
 
 ```python
-HEIGHT = 600
-WIDTH = 800
+WIDTH = 800 
+# The value of WIDTH was 20 previously
 ```
 
 ### Activity 2

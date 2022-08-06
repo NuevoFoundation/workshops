@@ -18,6 +18,7 @@ Find `# TODO (ACTIVITY 3)` in the code. Modify the appropriate attribute value f
 Try swapping the UP key with a different key. Press <b>Run</b> to test your changes.
 
 {{% /notice %}}
+
 <iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/PongLessonStudent?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ## Takeaway
