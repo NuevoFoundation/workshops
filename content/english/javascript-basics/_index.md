@@ -6,6 +6,7 @@ prereq: "none"
 difficulty: "Beginner"
 icon: "fab fa-js"
 draft: true
+hidden: true
 ---
 
 # JavaScript basics
