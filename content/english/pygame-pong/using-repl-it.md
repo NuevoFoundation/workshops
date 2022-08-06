@@ -11,7 +11,7 @@ To build our game, we will use the Pygame library, which provides a set of ready
 
 Today, we will be using Replit to build the Pong game.
 
-If you would like a recap on how to use Replit, check out our Python basics [tutorial](https://workshops.nuevofoundation.org/python-basics/repl-it/)
+If you would like a recap on how to use Replit, check out our <a href="https://workshops.nuevofoundation.org/python-basics/repl-it/" target="_blank">Python basics tutorial</a>.
 
 Now, let's go through some of the code that has been provided to you in the `main.py` file.
 

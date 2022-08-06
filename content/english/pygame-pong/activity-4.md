@@ -5,8 +5,6 @@ weight: 6
 draft: false
 ---
 
-# Activity 4
-
 Now you know how to change key assignments to control a paddle's movement. Awesome work!
 
 We have added movement for the left paddle. Can you change the key assignment for the right paddle using your knowledge of the `Paddle` object and its attributes that influence its movement on screen?

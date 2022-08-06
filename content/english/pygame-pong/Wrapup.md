@@ -5,9 +5,9 @@ weight: 10
 draft: false
 ---
 
-# Congratulations! You made it!
+## Congratulations! You made it!
 
-**We are excited to see that you made it here! We hope that you had fun working on your game and learning concepts that will help you make even better games. Have fun with your game!**
+We are excited to see that you made it here! We hope that you had fun working on your game and learning concepts that will help you make even better games. Have fun with your game!
 
 ## Now, it's your turn!
 

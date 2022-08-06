@@ -16,7 +16,7 @@ You cannot use a class directly in a program; a class must have an object as its
 All aspects related to visuals and movement are called the `"attributes"` of the object that you see on computer screen. 
 All aspects related to control of an object are called `"functions"` of the object. 
 
-## First, define the class for the paddle used in game. To do this, use the following code:
+First, define the class for the paddle used in game. To do this, use the following code:
 
 ```python
 class Paddle(pygame.Rect):
@@ -42,13 +42,13 @@ Let's try to understand the code in more detail.
 
 {{% notice tip %}}
 
-## Name the class
+### Name the class
 
 `class Paddle(pygame.Rect)`
 
 This is how you name the class `"Paddle"`. Now, notice the `pygame.Rect` inside `()`. You might have already imagined that in order to draw the paddle on a computer screen you need to draw it like a rectangle, then define its dimensions and position on screen to make it look like a paddle. The `(pygame.Rect)` statement allows us to tell the Python compiler to draw this object like a rectangle and provide all rectangle's attributes to it like `WIDTH` and `HEIGHT`. This helps us make use of all attributes available to the `Rectangle` class in the Pygame library. 
 
-## Add attributes
+### Add attributes
 
 `def __init__(self, velocity, up_key, down_key, *args, **kwargs):`
 
@@ -64,7 +64,7 @@ class Paddle(pygame.Rect):
         self.down_key = down_key
         super().__init__(*args, **kwargs)
 ```
-## Add methods
+### Add methods
 
 `move_paddle()` is a **method**.  We use this method to get paddle to perform move actions. In this case, `move_paddle()` moves the paddle either upward or downward depending on the key pressed, and at a certain speed.
 
