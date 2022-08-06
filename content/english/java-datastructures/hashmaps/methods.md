@@ -1,5 +1,5 @@
 ---
-title: "Examples"
+title: "Methods"
 date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 2
@@ -26,7 +26,7 @@ In this case, we created a `HashMap` called addresses which stores keys of `Stri
 
 <hr>
 
-## Adding elements
+## Adding Elements
 
 To add key/value pairs into the hashmap, use the `put()` method.
 
@@ -53,9 +53,9 @@ As you can see, the code above inserts a key/value pair into our hashmap address
 
 <hr>
 
-## Looking up elements
+## Accessing Elements
 
-To look up an item in a `HashMap`, use the `get()` method.
+To access an item in a `HashMap`, use the `get()` method.
 
 ```js javascript
 // Import the HashMap class

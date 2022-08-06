@@ -24,7 +24,7 @@ There are several methods to use on a stack. If you are interested, you may sear
 
 <hr>
 
-### Creating a Stack
+## Creating a Stack
     
 ```js javascript
 Stack driver = new Stack();
@@ -32,7 +32,7 @@ Stack driver = new Stack();
 
 <hr>
 
-### Adding elements
+## Adding Elements
 
 In order to add an element to the stack, we can use the `push()` method. This `push()` operation place the element at the top of the stack.
 
@@ -46,7 +46,7 @@ push(3);
 
 <hr>
 
-### Accessing elements
+## Accessing Elements
 
 To retrieve or fetch the first element of the stack or the element present at the top of the stack, we can use the `peek()` method. The element retrieved does not get deleted or removed from the stack.
 
@@ -59,7 +59,7 @@ stack.peek();
 
 <hr>
 
-### Removing elements 
+## Removing Elements 
 
 To remove an element from the stack, we can use the `pop()` method. The element is popped and removed from the top of the stack.
 

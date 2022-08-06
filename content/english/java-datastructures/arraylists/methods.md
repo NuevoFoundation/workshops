@@ -10,7 +10,7 @@ weight: 2
 ![image](../../img/listex.png)
 <hr>
 
-## Change an Item
+## Modifying Elements
 
 ```js javascript
 import java.util.ArrayList;
@@ -30,7 +30,7 @@ Using `set()`, you can set the element at the index number to a new element.
 
 <hr>
 
-## Remove an Item
+## Removing Elements
 
 ```js javascript
 import java.util.ArrayList;
@@ -50,7 +50,7 @@ Similar to `set()`, the `remove()` method removes an element at an index number.
 
 <hr>
 
-## Size of ArrayList
+## Getting Size of ArrayList
 
 ```js javascript
 import java.util.ArrayList;
@@ -70,7 +70,7 @@ public class Main {
 
 <hr>
 
-## Iterating through an ArrayList
+## Iterating Over Elements
 
 ```js javascript
 import java.util.ArrayList;

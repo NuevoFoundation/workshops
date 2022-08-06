@@ -1,5 +1,5 @@
 ---
-title: "Array Methods and Examples"
+title: "Operations"
 date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 2

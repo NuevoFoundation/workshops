@@ -1,5 +1,5 @@
 ---
-title: "Problem 1: Hashing"
+title: "Problem 1: HashMap Basics"
 date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 2

@@ -1,5 +1,5 @@
 ---
-title: "Problem 2: Making your own menu!"
+title: "Problem 2: Advanced HashMaps"
 date: 2019-07-28T11:45:38-07:00
 draft: false
 weight: 3

@@ -36,11 +36,11 @@ int[][] A = {
 An array initializer for a 2D array contains the rows of `A`, separated by commas and enclosed between braces. Each row, in turn, is a list of values separated by commas and enclosed between braces. There are also 2D array literals with a similar syntax that can be used anywhere, not just in declarations. For example,
 
 ```js javascript
-A  =  new int[][] { 
-                        {  1,  0, 12, -1 },
-                        {  7, -3,  2,  5 },
-                        { -5, -2,  2, -9 }
-                    };
+A = new int[][] { 
+                    {  1,  0, 12, -1 },
+                    {  7, -3,  2,  5 },
+                    { -5, -2,  2, -9 }
+                };
 ```
                   
 All of this extends naturally to three-dimensional, four-dimensional, and even higher-dimensional arrays.

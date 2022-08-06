@@ -24,7 +24,7 @@ There are several methods to use on a Priority Queue and if you are interested, 
 
 <hr>
 
-### Creating a Priority Queue
+## Creating a Priority Queue
     
 ```js javascript
 Queue<Integer> orders = new PriorityQueue<>();
@@ -34,7 +34,7 @@ There are several ways to order the priority queue and it's up to you to decide 
 
 <hr>
 
-### Adding elements
+## Adding Elements
 
 You can add to a queue by using the `add()` method. The PriorityQueue` will automatically sort the elements for you. It's default is by an object's natural order, but you can change it base on what you want.
 
@@ -48,7 +48,7 @@ add(3);
 
 <hr>
 
-### Accessing elements
+## Accessing Elements
 
 `peek()` will return the top element without removing it.
 
@@ -61,7 +61,7 @@ queue.peek();
 
 <hr>
 
-### Removing elements
+## Removing Elements
 
 `poll()` will return the top element and removes it from the queue.
 

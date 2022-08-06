@@ -1,5 +1,5 @@
 ---
-title: "Problem: Insertions, Accesses, and Removals"
+title: "Problem 1: ArrayList Basics"
 date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 3
