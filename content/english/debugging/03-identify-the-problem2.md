@@ -26,7 +26,7 @@ One of the simpler algorithms you will learn or have learned is binary search, w
 
 Our program will ask you to search for a name based on the position they are located at. 
 
-Open the **Shell** on the Repl.it window and compile the program:
+Open the **Shell** on the Replit window and compile the program:
 ``` bash
 make BinarySearch
 ```
