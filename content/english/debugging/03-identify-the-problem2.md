@@ -50,7 +50,7 @@ Segmentation fault errors are usually a sign of one of the following problems:
 - Dereferencing a NULL pointer.
 - Memory / Stack overflows.
 
-For more information check [List of Common Reasons for Segmentation Faults in C](https://www.tutorialspoint.com/List-of-Common-Reasons-for-Segmentation-Faults-in-C-Cplusplus#:~:text=List%20of%20Common%20Reasons%20for%20Segmentation%20Faults%20in,7%20Stack%20overflow%208%20Writing%20to%20read-only%20memory).
+For more information check out a [List of Common Reasons for Segmentation Faults in C](https://www.tutorialspoint.com/List-of-Common-Reasons-for-Segmentation-Faults-in-C-Cplusplus#:~:text=List%20of%20Common%20Reasons%20for%20Segmentation%20Faults%20in,7%20Stack%20overflow%208%20Writing%20to%20read-only%20memory).
 
 Let's take a look at the code that implements the binary search our code:
 
