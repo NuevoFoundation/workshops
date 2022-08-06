@@ -6,7 +6,6 @@ draft: false
 hidden: true
 ---
 
-
 ### Activity 1
 
 ```python

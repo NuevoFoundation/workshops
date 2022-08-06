@@ -3,8 +3,8 @@ title: "The Basics - Class and Object"
 date: 2019-07-29T13:24:17-07:00
 weight: 2
 draft: false
-
 ---
+
 ## Classes and objects
 
 Before you start building a game, you should know how to draw different objects and modify them as per the way they need to look and move on computer screen. 
@@ -15,7 +15,6 @@ Before objects are created in a program you must define their class. A class is 
 You cannot use a class directly in a program; a class must have an object as its manifestation that is used in program. 
 All aspects related to visuals and movement are called the `"attributes"` of the object that you see on computer screen. 
 All aspects related to control of an object are called `"functions"` of the object. 
-
 
 ## First, define the class for paddle used in game. To do this, type in the following:
 
