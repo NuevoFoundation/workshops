@@ -12,7 +12,7 @@ Conoce a nuestro amigo **Bob**. **Bob** es un caballero agradable y alegre. Sus 
 ![Bob is preparing for his fishing trip to the Bahamas](../media/nuvi_phish_reduced.png?height=250px)
 
 Sin embargo, pasaron 24 horas después, y no recibió ninguna confirmación de su viaje. Pasó otro día y todavía nada. Al día siguiente, decidió ir a encontrarse con su buena amiga **Alice**.
-![Secret Agent Alice](../media/Alice_reduced.png?height=250px)
+![Agente secreto Alice](../media/Alice_reduced.png?height=250px)
 
 **Bob** le contó a **Alice** todo sobre el correo electrónico, el viaje a las Bahamas, su ropa nueva y las ganas que tiene de ir a pescar. **Alice**, siendo una agente secreta, sospechaba que algo esta raro y le pidió a **Bob** que le mostrara el correo electrónico.
 
