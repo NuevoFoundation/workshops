@@ -32,7 +32,7 @@ Que crees que esta sospechoso en este correo? Analicemos:
 <em>Recibió un correo electrónico fuera de horario comercial.</em></p>
 </div>
 
-![Urgency in language](../media/urgency.JPG?classes=border,shadow)
+![La urgencia en el lenguaje](../media/urgency.JPG?classes=border,shadow)
 
 <div style="text-align: center;">
 <p style="color:red">
