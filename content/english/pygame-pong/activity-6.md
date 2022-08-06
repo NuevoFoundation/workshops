@@ -15,7 +15,7 @@ Find `# TODO (ACTIVITY 6)` in the code. We introduced an `'if'` block on purpose
 
 {{% notice tip %}}
 
-You may need to check the boundary value for the horizontal position (represented by 'X' axis) of the ball when the right paddle misses it. Can you guess what value it should be? Press **run** to confirm the result.
+You may need to check the boundary value for the horizontal position (represented by 'X' axis) of the ball when the right paddle misses it. Can you guess what value it should be? Press **Run** to confirm the result.
 
 {{% /notice %}}
 <iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/PongLessonStudent?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>

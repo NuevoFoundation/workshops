@@ -17,7 +17,7 @@ Currently the game exits by pressing the `'BACKSPACE'` key. Change it so the gam
 {{% notice tip %}}
 
 If the value of `'BACKSPACE`' key in Pygame library is `K_BACKSPACE`, then can you guess the value of the `'ESC` key? Give it few tries before you ask for help. 
-Press **run** to confirm the result.
+Press **Run** to confirm the result.
 
 {{% /notice %}}
 <iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/PongLessonStudent?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
