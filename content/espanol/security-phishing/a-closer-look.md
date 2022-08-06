@@ -18,7 +18,7 @@ Que crees que esta sospechoso en este correo? Analicemos:
 <em>La dirección de correo electrónico del remitente es sospechosa y tu no conoces personalmente a este remitente de correo electrónico.</em></p>
 </div>
 
-![Email Subject](../media/subject.JPG?classes=border,shadow)
+![Asunto del correo electrónico](../media/subject.JPG?classes=border,shadow)
 
 <div style="text-align: center;">
 <p style="color:red">
