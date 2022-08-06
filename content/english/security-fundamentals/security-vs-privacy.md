@@ -27,6 +27,8 @@ We put security controls in place to limit who can access information, and we pu
 
 Security can be put into practice without privacy, but privacy cannot be put into practice without security. 
 
+![Cannot load image](../img/security-vs-privacy.png?classes=border,shadow)
+
 Here’s an example. You might share personal information with your bank when you open an account. What happens after that? Here are three possible outcomes, all related to your personal information (not to the money in the checking account). 
 
 1. Your privacy and security are maintained.
