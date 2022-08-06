@@ -7,7 +7,7 @@ weight: 3
 
 Bob recibió el siguiente correo electrónico la otra noche.
 
-![Bob's Email](../media/email.png?classes=border,shadow)
+![El correo electrónico de Bob](../media/email.png?classes=border,shadow)
 
 Que crees que esta sospechoso en este correo? Analicemos:
 ![Email address](../media/from_address.JPG?classes=border,shadow)
