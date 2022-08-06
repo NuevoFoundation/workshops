@@ -46,4 +46,4 @@ String[] restaurants = {"Burger King", "Chipotle", "Panda Express", "McDonalds"}
 
 ```
 
-<iframe height="800px" width="100%" src="https://replit.com/@nuevofoundation/Array2?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="800px" width="100%" src="https://replit.com/@nuevofoundation/Problem-2-insertRestaurant?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
