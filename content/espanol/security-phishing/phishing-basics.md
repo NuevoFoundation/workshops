@@ -2,7 +2,7 @@
 title: "Conceptos básicos de phishing"
 description: ""
 draft: false
-weight: 2
+weight: 1
 ---
 
 ¡Nuestra agente secreta Alice le explica a Bob sobre el phishing!!!
@@ -21,17 +21,14 @@ Luego, se engaña al destinatario para que haga click en un enlace malicioso, lo
 
 Bob fue incitado por un correo electrónico de un hacker llamado Eve que le ofrecía un viaje gratis a Bahamas para robar su información personal.
 
-<!--
-#### Different types of phishing
-
-1. Email Phishing scams
-2. Website Phishing scams
-3. Text Phishing scams
-
---->
 ## Miremos mas cerca.
 
 ¡Alice ayuda a Bob a entender las banderas rojas 🚩 (en ingles red flags) en su correo electrónico echando un vistazo con mas detalle!
 
-_Nota: Hay ocasiones en las que necesitas proporcionar información personal a un destinatario de confianza.</br>
-Sin embargo, proporcionar información personal también puede conducir al phishing. En este taller entenderemos cómo diferenciar entre un correo electrónico legítimo y un correo electrónico fraudulento._
+{{% notice tip %}}
+
+Hay ocasiones en las que necesitas proporcionar información personal a un destinatario de confianza.
+
+Sin embargo, proporcionar información personal también puede conducir al phishing. En este taller entenderemos cómo diferenciar entre un correo electrónico legítimo y un correo electrónico fraudulento.
+
+{{% /notice tip %}}

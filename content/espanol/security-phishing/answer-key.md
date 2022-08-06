@@ -1,6 +1,6 @@
 ---
 title: "Answer Key - Security"
-description: "Easy reference answer key for the security curriculum"
+description: "Respuestas para el curriculo de seguridad"
 draft: true
 hidden: true
 weight: 5

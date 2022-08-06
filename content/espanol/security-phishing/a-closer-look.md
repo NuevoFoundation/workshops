@@ -7,39 +7,38 @@ weight: 3
 
 Bob recibió el siguiente correo electrónico la otra noche.
 
-![Bob's Email](../media/email.png?classes=border,shadow)
+![Correo de Bob](../media/email.png?classes=border,shadow)
 
 Que crees que esta sospechoso en este correo? Analicemos:
-![Email address](../media/from_address.JPG?classes=border,shadow)
-
+![Correo electronico](../media/from_address.JPG?classes=border,shadow)
 
 <div style="text-align: center;">
 <p style="color:red">
 <em>La dirección de correo electrónico del remitente es sospechosa y tu no conoces personalmente a este remitente de correo electrónico.</em></p>
 </div>
 
-![Email Subject](../media/subject.JPG?classes=border,shadow)
+![Asunto del correo](../media/subject.JPG?classes=border,shadow)
 
 <div style="text-align: center;">
 <p style="color:red">
 <em>La oferta lucrativa en la línea de asunto sugiere que es demasiado buena para ser verdad.</em></p>
 </div>
 
-![Email Date](../media/date.JPG?classes=border,shadow)
+![Fecha de correo](../media/date.JPG?classes=border,shadow)
 
 <div style="text-align: center;">
 <p style="color:red">
 <em>Recibió un correo electrónico fuera de horario comercial.</em></p>
 </div>
 
-![Urgency in language](../media/urgency.JPG?classes=border,shadow)
+![Lenguage de emergencia](../media/urgency.JPG?classes=border,shadow)
 
 <div style="text-align: center;">
 <p style="color:red">
 <em>La urgencia del mensaje.</em></p>
 </div>
 
-![URLs in Email](../media/url.JPG?classes=border,shadow)
+![URLs en el correo](../media/url.JPG?classes=border,shadow)
 
 <div style="text-align: center;">
 <p style="color:red">
