@@ -9,7 +9,7 @@ Conoce a nuestro amigo **Bob**. **Bob** es un caballero agradable y alegre. Sus 
 
 **Bob** decidió ir de compras para su viaje. Compró ropa nueva y una caña de pescar nueva.
 
-![Bob is preparing for his fishing trip to the Bahamas](../media/nuvi_phish_reduced.png?height=250px)
+![Bob se prepara para su viaje de pesca a las Bahamas](../media/nuvi_phish_reduced.png?height=250px)
 
 Sin embargo, pasaron 24 horas después, y no recibió ninguna confirmación de su viaje. Pasó otro día y todavía nada. Al día siguiente, decidió ir a encontrarse con su buena amiga **Alice**.
 ![Agente secreto Alice](../media/Alice_reduced.png?height=250px)
