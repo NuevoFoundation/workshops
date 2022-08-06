@@ -13,7 +13,7 @@ To do this, we need to modify the RGB values in `COLOR` attribute.
 RGB stands for RED, GREEN, BLUE. In a computer screen, you can modify the color of each pixel by modifying its RGB value. Every color can be represented by combination of different RGB values in it. The values are specified in same order as RGB is written. Use the color picker below to find the RGB values for your favourite color:
 <input type="color" id="colorpicker" style="height:50px;width:50px">
 
-Find `// TODO (ACTIVITY 2)` in the code. Modify the `COLOR` attribute of `Pong` class. If you did this correctly, the objects will acquire the desired color. Press <b>run</b> and confirm the result.
+Find `# TODO (ACTIVITY 2)` in the code. Modify the `COLOR` attribute of `Pong` class. If you did this correctly, the objects will acquire the desired color. Press <b>run</b> and confirm the result.
 
 {{% notice tip %}}
 
