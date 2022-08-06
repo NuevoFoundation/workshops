@@ -13,7 +13,7 @@ There are two kinds of errors: **compiler** and **runtime** errors.
 
 A **compiler** error usually indicates a problem with your syntax. Perhaps you wanted to express an idea in the program but didn't adhere to the rules of the programming language. These are caught when you compile your program. Compiler errors are nice because they are relatively easy to fix. Compilers like `gcc`, usually give a lot of information about what went wrong when the code is compiled. Let’s explore some of these errors. 
 
-Open the **Shell** tab in the Repl.it panel below and run the following command: 
+Open the **Shell** tab in the Replit panel below and run the following command: 
 
 ```bash
 make CompilerErrors
