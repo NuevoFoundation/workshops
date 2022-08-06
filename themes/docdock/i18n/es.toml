@@ -53,3 +53,22 @@ other = "Dificultad:"
 
 [download]
 other = "Descargar:"
+
+# notice.html
+[note]
+other = "Nota"
+
+[info]
+other = "Información"
+
+[warning]
+other = "Advertencia"
+
+[tip]
+other = "Consejo"
+
+[help]
+other = "Ayuda"
+
+[hint]
+other = "Sugerencia"

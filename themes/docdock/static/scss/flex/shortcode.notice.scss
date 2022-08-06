@@ -24,19 +24,8 @@
 	  position: absolute;
 	  top: -27px;
 	  color: #fff;
+	  content: attr(header-value);
 	  left: 2rem; }
-
-	div.notices.info p:first-child:after {
-	  content: 'Info'; }
-
-	div.notices.warning p:first-child:after {
-	  content: 'Warning'; }
-
-	div.notices.note p:first-child:after {
-	  content: 'Note'; }
-
-	div.notices.tip p:first-child:after {
-	  content: 'Tip'; }
 
 	div.notices.note {
 	  border-top: 30px solid #6bb1e0;
