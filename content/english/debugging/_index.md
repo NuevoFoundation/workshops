@@ -39,7 +39,7 @@ First lets compile our code. Within the shell tab, type the following and click 
 make HelloWorld
 ```
 
-After our coded is compiled, we need to run a different command to run it. type the following and click **ENTER**:
+After compiling our code, we need to use a different command to run it. Type the following and click **ENTER**:
 
 ```bash
 ./examples/HelloWorld
