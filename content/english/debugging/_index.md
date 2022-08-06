@@ -33,7 +33,7 @@ Let's try using Replit to run some code and get more familiar with the command l
 
 <iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Debugging-Samples-C?lite=true#HelloWorld.c" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-First lets compile our code. Within the shell tab, type the following and click **ENTER**:
+First let's compile our code. Within the shell tab, type the following and click **ENTER**:
 
 ```bash
 make HelloWorld
