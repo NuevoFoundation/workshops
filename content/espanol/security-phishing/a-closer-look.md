@@ -10,7 +10,7 @@ Bob recibió el siguiente correo electrónico la otra noche.
 ![El correo electrónico de Bob](../media/email.png?classes=border,shadow)
 
 Que crees que esta sospechoso en este correo? Analicemos:
-![Email address](../media/from_address.JPG?classes=border,shadow)
+![Dirección de correo electrónico](../media/from_address.JPG?classes=border,shadow)
 
 
 <div style="text-align: center;">
