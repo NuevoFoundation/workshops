@@ -6,19 +6,21 @@ draft: false
 hidden: true
 ---
 
-
 ### Activity 1
+
 ```python
-HEIGHT = 600
-WIDTH = 800
+WIDTH = 800 
+# The value of WIDTH was 20 previously
 ```
 
 ### Activity 2
+
 ```python
 COLOR = (70, 130, 180)
 ```
 
 ### Activity 3
+
 ```python
 self.paddles.append(Paddle(  # The left paddle
       self.BALL_VELOCITY,
@@ -32,6 +34,7 @@ self.paddles.append(Paddle(  # The left paddle
 ```
 
 ### Activity 4
+
 ```python
  self.paddles.append(Paddle(  # The right paddle
       self.BALL_VELOCITY,
@@ -45,12 +48,14 @@ self.paddles.append(Paddle(  # The left paddle
 ```
 
 ### Activity 5
+
 ```python
 font_label = 'arial'
 font_name = pygame.font.match_font(font_label)
 ```
 
 ### Activity 6
+
 ```python
 if ball.x < 0
     self.RIGHTSCORE = self.RIGHTSCORE + 1
@@ -61,6 +66,7 @@ if ball.x < 0
 ```
 
 ### Activity 7
+
 ```python
 if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
 ```
