@@ -45,7 +45,7 @@ gdb examples/Quicksort
 {{% notice note %}}
 When the program is compiled, we use two flags: `-g` and `-Og`. The first tells the compiler to add **debugging information**, meaning that without that flag, gdb would not be able to debug the program. The second tells the compiler to optimize the program in a way that wouldn't affect the program's run structure. Without `-Og`, the compiler could potentially optimize away some of your code, so a debugger would not be nearly as effective.
 
-It is important to keep note of the second flag. For debugging, you should ALWAYS make sure the compiler makes minimal optimizations to your code because optimizations could drastically change how the code is run!
+It is important to keep note of the second flag. For debugging, you should **ALWAYS** make sure the compiler makes minimal optimizations to your code because optimizations could drastically change how the code is run!
 {{% /notice %}}
 
 You should see something like this:
