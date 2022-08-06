@@ -18,4 +18,7 @@ The goal of this workshop is to use your existing Python knowledge to fix the co
 
 ## Table of Contents
 
+<details>
+<summary>Sections</summary>
 {{% children %}}
+</details>
