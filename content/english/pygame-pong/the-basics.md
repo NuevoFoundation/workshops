@@ -6,6 +6,7 @@ draft: false
 
 ---
 ## Classes and objects
+
 Before you start building a game, you should know how to draw different objects and modify them as per the way they need to look and move on computer screen. 
 
 In order to build objects, you first decide how they should look, what role they should perform in your game, and how player can control their movement on screen. You do this by creating a class for each object you want on screen. 
@@ -43,11 +44,13 @@ Let's try to understand the code in more detail.
 {{% notice tip %}}
 
 ## Name the class
+
 `class Paddle(pygame.Rect)`
 
 This is how you name the class `"Paddle"`. Now, notice the `pygame.Rect` inside `()`. You might have already imagined that in order to draw the paddle on a computer screen you need to draw it like a rectangle, then define its dimensions and position on screen to make it look like a paddle. The `(pygame.Rect)` statement allows us to tell the Python compiler to draw this object like a rectangle and provide all rectangle's attributes to it like `WIDTH` and `HEIGHT`. This helps us make use of all attributes available to the `Rectangle` class in the Pygame library. 
 
 ## Add attributes
+
 `def __init__(self, velocity, up_key, down_key, *args, **kwargs):`
 
 Don't worry about `args` and `kwargs` for now and focus on core attributes of `Paddle` class. 

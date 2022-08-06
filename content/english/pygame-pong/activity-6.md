@@ -6,6 +6,7 @@ draft: false
 ---
 
 # Activity 6
+
 You have come a long way; we hope you are enjoying this workshop!
 
 In this activity, you need to apply your knowledge of 'if' control structures you learned in the Python basics workshop. 

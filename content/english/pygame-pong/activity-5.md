@@ -7,6 +7,7 @@ draft: false
 ---
 
 # Activity 5
+
 Great progress so far! Now let's make use of a variable to change the font of the text in the game.
 
 In this activity, you need to apply the knowledge about variables you learned in Python basics. 

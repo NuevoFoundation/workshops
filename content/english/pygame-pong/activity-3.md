@@ -6,6 +6,7 @@ draft: false
 ---
 
 # Activity 3
+
 Kudos! You not only fixed the game boundary, but you are able to give color to objects too. Now, let's see if you can change the keys for paddle movement.
 
 To do this, we need to modify one of the parameters we passed in when creating the left paddle object. Remember from the basics section, you defined the `Paddle` class with UP and DOWN key assignments as its attributes.
@@ -19,5 +20,6 @@ Try swapping the UP key with a different key. Press <b>run</b> to test your chan
 {{% /notice %}}
 <iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/PongLessonStudent?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-## Takeaway 
+## Takeaway
+
 You have just modified the `down_key` attribute in the `Paddle` class to influence how the left paddle object should move on screen.

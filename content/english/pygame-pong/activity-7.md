@@ -6,6 +6,7 @@ draft: false
 ---
 
 # Activity 7
+
 Time for the final activity in this workshop; yay! You have done an awesome job getting here. You should be proud of yourself!
 
 In this activity, you need to change the way the game exits anytime a given key combination is pressed. 
