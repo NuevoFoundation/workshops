@@ -19,8 +19,8 @@ https://jsappybird-answers--nuevofoundation.repl.co/
 
 ## Starting up
 
-Open the Activity-1 Scaffold URL to do the activity.
-https://repl.it/@nuevofoundation/JSappyBird-Activity-1-Scaffold
+Open [Activity-1](https://repl.it/@nuevofoundation/JSappyBird-Activity-1-Scaffold) to do the activity.
+
 
 When you make changes to the scaffold you will be created as anonymous users.
 
