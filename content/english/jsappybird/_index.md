@@ -10,5 +10,3 @@ draft: false
 
 # JSappyBird
 {{% children %}}
-
-
