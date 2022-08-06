@@ -18,7 +18,7 @@ What happens when your program compiles, but doesn't work the way you expect it 
 
 Going back to fix your code can be a challenge more difficult than writing the code itself. Learning how to navigate these bugs and errors takes skill, patience, and experience. In this workshop, we'll unravel the basic process for debugging your code. Remember that debugging is part of all programming languages.
 
-{{% panel theme="info " header="Why call it a bug?"%}}
+{{% panel theme="info" header="Why call it a bug?"%}}
 The first recorded programming bug was recorded all the way back in 1947 when a moth decided to be in the wrong place. Check out [The World’s First Computer Bug.](https://education.nationalgeographic.org/resource/worlds-first-computer-bug)
 
 {{% /panel %}}
