@@ -12,7 +12,7 @@ draft: false
 
 So, you’ve learned the basics of a programming language. You’ve probably mastered the art of `“Hello World”` and have either started a personal project, or followed enough tutorials to be able to turn an idea into code.
 
-However, what happens when your code fails to compile? Beginners to programming usually search online to see if others have encountered similar problems. This is a bit tedious, as you'd need to turn to the internet every single time you ran into an error. 
+However, what happens when your code fails to compile? Beginners to programming usually search online to see if others have encountered similar problems. This is a bit tedious, as you'd need to turn to the internet every single time you run into an error. 
 
 What happens when your program compiles, but doesn't work the way you expect it to (i.e., you found **a bug? 🪲)**
 
