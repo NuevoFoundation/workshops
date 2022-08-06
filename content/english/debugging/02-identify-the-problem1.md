@@ -7,17 +7,22 @@ draft: false
 
 ## Compiler Errors
 
-Let’s start and take a look at one of the first daunting problems a novice programmer faces: reading and understanding errors.
+Let’s start and take a look at one of the first daunting problems a novice programmer faces: **reading** and **understanding** errors.
 
-There are two kinds of errors: compiler and runtime errors. A compiler error usually indicates a problem with your syntax. Perhaps you wanted to express an idea in the program but didn't adhere to the rules of the programming language. These are caught when you compile your program.
+There are two kinds of errors: **compiler** and **runtime** errors. 
 
-Compiler errors are nice because they are relatively easy to fix. In C, compilers like `gcc` and will usually give a lot of information about what went wrong during compiling. Let’s take a look at some of them. Open the **Shell** in the Repl.it below and run 
+A **compiler** error usually indicates a problem with your syntax. Perhaps you wanted to express an idea in the program but didn't adhere to the rules of the programming language. These are caught when you compile your program. Compiler errors are nice because they are relatively easy to fix. Compilers like `gcc`, usually give a lot of information about what went wrong when the code is compiled. Let’s explore some of these errors. 
+
+Open the **Shell** tab in the Repl.it panel below and run the following command: 
 
 ```bash
 make CompilerErrors
 ```
 
-Note that for this example, we will not be running the program - this program is meant to showcase some common compiler errors that you may encounter.
+{{% panel theme="info" header="Note"%}}
+For this example, we will not be running the program - this program is meant to showcase some common compiler errors that you may encounter.
+
+{{% /panel %}}
 
 <iframe height="500px" width="100%" src="https://replit.com/@nuevofoundation/Debugging-Samples-C?lite=true#CompilerErrors.c" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
@@ -25,9 +30,15 @@ The first error should look like this (or similar):
 
 ![Error 1: Missing Semicolon](../resources/w2-01.png)
 
-A compiler error contains the name of the file (`CompilerErrors.c`) followed by the line it is on (`12`) as well as where on that line (`19`). It then gives a brief name of the error - in this case, the compiler expected a semicolon `;` at the end of the line. The compiler also gives you the line of code and points to where your error actually occurred! You can simply add a semicolon to fix this error.
 
-The other error is complaining that there is an extra `}` when it didn't expect one. The fix for this one is also relatively simple: you can add the corresponding curly brace `{` next to `func()`.
+You'll notice the error contains:
+    - the name of the file we tried to compile (**`CompilerErrors.c`**).
+    - the line where the error was found (**`12`**).
+    - the position on the line where the error is located (**`19`**). 
+
+As you can see, the compiler gives you the line of code and points to where the error actually occurred! It then gives a brief name of the error - in this case, the compiler expected a semicolon (**`;`**) at the end of the line. You can simply add a semicolon to fix this error.
+
+The other error mentions that there is a missing curly brace (**`}`**) when it didn't expect one. The fix for this one is also relatively simple: you can add the corresponding curly brace `{` next to `func()`.
 
 {{% notice warning %}}
 A missing curly brace is often the reason for seemingly extraordinary errors. The compiler is not great at picking up where a curly brace should be, so if you're including a header file with a missing curly brace, it'll blow up in your face. In almost all cases, when the compiler outputs a number errors in code you didn't write, chances are it's a curly brace missing somewhere in your (or perhaps even the library's) code!
