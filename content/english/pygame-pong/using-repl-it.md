@@ -1,5 +1,5 @@
 ---
-title: "Using Repl.It"
+title: "Using Replit"
 date: 2019-07-29T13:24:17-07:00
 weight: 1
 draft: false
@@ -7,11 +7,11 @@ draft: false
 
 To build our game, we will use the Pygame library, which provides a set of readymade functionality that we can use to build Pong and its animations.
 
-## Using Repl.it
+## Using Replit
 
-Today, you will be using Repl.it to build the Pong game.
+Today, you will be using Replit to build the Pong game.
 
-If you would like a re-cap on how to use Repl.it, check out the following Python basics [tutorial](https://workshops.nuevofoundation.org/python-basics/repl-it/)
+If you would like a re-cap on how to use Replit, check out the following Python basics [tutorial](https://workshops.nuevofoundation.org/python-basics/repl-it/)
 
 Next, let's explain further some of the code that has been provided to you in the `main.py` file.
 
