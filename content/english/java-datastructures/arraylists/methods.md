@@ -45,7 +45,7 @@ Similar to `set()`, the `remove()` method removes an element at an index number.
 
 <hr>
 
-## Getting Size of ArrayList
+## Getting the Size of an ArrayList
 
 ```js javascript
 import java.util.ArrayList;
