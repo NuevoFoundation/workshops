@@ -7,12 +7,9 @@ weight: 15
 
 ### Congratulations!
 
-*You have helped us thwart the hackers evil shenanigans by learning several Linux commands and how to use them. Thanks so much for helping SHH!* 
+*You have helped us thwart the hackers evil shenanigans by learning several Linux commands and how to use them. Thanks so much for helping SHH!*
 
 *But don't forget - this is all top secret!*
-
-<!--![nuvi picture](../images/nuvi.PNG?classes=border,shadow) -->
-<img src="../images/nuvi.PNG?classes=border,shadow" alt="A picture of Nuvi" width="380" height="380" />
 
 Click the "Download" button below to receive your honorary certificate of completion!
 

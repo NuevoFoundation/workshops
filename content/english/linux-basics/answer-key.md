@@ -3,7 +3,9 @@ title: "Answer Key - Linux Basics"
 description: "Use a Linux command to determine what directory you are currently in"
 date: 2020-09-17
 difficulty: "Intermediate"
-weight: 5
+hidden: true
+draft: true
+weight: 15
 ---
 
 ### Activity 1

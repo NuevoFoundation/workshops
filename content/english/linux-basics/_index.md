@@ -11,16 +11,16 @@ weight: 1
 ---
 
 {{% notice warning %}}
-This tutorial requires: 
+This tutorial requires:
 
-- A computer that is *not* a Chromebook 
+- A computer that is *not* a Chromebook
 - 3GB of free space on your computer
 - ~10 minutes to download VirtualBox
 - ~30 minutes to download the virtual machine image
 
 {{% /notice %}}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zfdlPZYlgtk" alt="A YouTube video that introduces the Linux Workshop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/zfdlPZYlgtk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ## Welcome!
 
@@ -36,7 +36,7 @@ The biggest differences between Windows, macOS, and Linux is what they are best 
 
 ## Table of Contents
 
-<details open>
-<summary>Sections</summary>
+<details close>
+<summary>Table of Contents</summary>
 {{% children %}}
 </details>

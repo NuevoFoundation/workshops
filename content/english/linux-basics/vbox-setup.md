@@ -6,12 +6,13 @@ difficulty: "Intermediate"
 weight: 1
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zoutwedSLKI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/zoutwedSLKI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 *We are providing you with a copy of the hacked computer as a virtual machine so you can help us.*
 
 {{% notice info %}}
 ### What is a virtual machine?
+
 A **virtual machine** (commonly called a VM) is a computer file (called an `image`), that behaves like an actual computer.  
 In other words, it is a computer inside a computer. It runs in a window, like any other program.  
 This gives you the same experience on a VM as you would on a regular computer.
@@ -24,7 +25,7 @@ This produces an ideal environment for testing other operating systems, accessin
 
 VirtualBox is a virtualization software, also called a `hypervisor`. It allows your computer to host virtual machines.
 
-### Downloading VirtualBox
+## Downloading VirtualBox
 
 You can download VirtualBox using this link:
 

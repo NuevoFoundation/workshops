@@ -1,11 +1,11 @@
 ---
-title: "Starting up with Repl.it"
+title: "Starting up with Replit"
 date: 2020-07-28T13:24:17-07:00
 draft: false
 weight: 1
 ---
 
-Today you will be using Repl.it to build JSappy bird. Here is an example interactive window that you will use today:
+Today you will be using Replit to build JSappy bird. Here is an example interactive window that you will use today:
 
 Open your favorite internet browser (such as Edge, Firefox, Google Chrome, Internet Explorer) and go to [https://repl.it](https://repl.it).
 

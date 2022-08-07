@@ -18,7 +18,7 @@ As you are probably familiar with the Flappy Bird game, this workshop will guide
 
 ## Table of Contents
 
-<details>
-<summary>Sections</summary>
+<details close>
+<summary>Table of Contents</summary>
 {{% children %}}
 </details>

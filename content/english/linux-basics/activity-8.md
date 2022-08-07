@@ -6,7 +6,7 @@ difficulty: "Intermediate"
 weight: 11
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fAI1kyAoVTA" alt="A YouTube video on Linux Basics Activity 8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/fAI1kyAoVTA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 *Let's look at the secret message to make sure this weird `malware.sh` file hasn't done anything to it!*
 
@@ -39,7 +39,7 @@ The `-a` flag gives all entries including hidden files.
 The format is: `diff [filename] [Filename of Comparison File]`
 
 {{% notice info %}}
-Fun Fact: Running `diff --help` will output information on how to use the `diff` tool, including what options can be used with the tool. 
+Fun Fact: Running `diff --help` will output information on how to use the `diff` tool, including what options can be used with the tool.
 {{% /notice %}}
 
 Check the difference between the two files. How many differences did you find? Put it in the file you made!

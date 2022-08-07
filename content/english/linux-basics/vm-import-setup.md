@@ -6,12 +6,12 @@ difficulty: "Intermediate"
 weight: 2
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ffcyyJXEhwY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/ffcyyJXEhwY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 *Excellent work on preparing the host environment! Now let's load the hacked computer's image as a VM.*
 
-{{% notice info %}}
 ## What is an image?
+
 `Images` come in a variety of types. We have photographs, which are images. Computer images are very similar. Both are copies of things from a single point in time. We will be working with a copy of a computer that has been acting weird. Don't worry though, this won't hurt your computer! Remember that the OS will be in a `sandbox`, meaning that it can't affect your computer.
 
 ## Setting up Kali Linux

@@ -6,25 +6,26 @@ difficulty: "Intermediate"
 weight: 8
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/D5Y6LH0mBi0" alt="A YouTube video on Linux Basics Activity 5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/D5Y6LH0mBi0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 *Oh no. Some of our files might have been messed with! Let’s secure our notes, file1. We don't want a hacker to mess with these!*
 
-### How do we limit access to our files? 
+### How do we limit access to our files?
 
-By giving users "permissions" on files! 
+By giving users "permissions" on files!
 
 Permissions are a way for the computer to determine who has access to files and what they can do with those files.
 
-In Linux, there are three common types of access to a file that a user might request: "read", "write", or "execute". 
+In Linux, there are three common types of access to a file that a user might request: "read", "write", or "execute".
 
 {{% notice note %}}
 
-"Read" access means that a user may open and read a file. "Read" access is often denoted with a `r` symbol. 
+"Read" access means that a user may open and read a file. "Read" access is often denoted with a `r` symbol.
 
-"Write" access means that a user may open and write to a file. This includes renaming and moving a file to a different location in the filesystem. "Write" access is often denoted with a `w` symbol. 
+"Write" access means that a user may open and write to a file. This includes renaming and moving a file to a different location in the filesystem. "Write" access is often denoted with a `w` symbol.
 
-"Execute" access means that a user may attempt to run the file as a program. "Execute" access is often denoted with a `x` symbol. 
+"Execute" access means that a user may attempt to run the file as a program. "Execute" access is often denoted with a `x` symbol.
 
 {{% /notice %}}
 

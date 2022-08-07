@@ -6,7 +6,7 @@ difficulty: "Intermediate"
 weight: 13
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LPcQW4oGK6g" alt="A YouTube video on Linux Basics Activity 10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/LPcQW4oGK6g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 *Great, now that the hackers' malicious file won't cause us any more headaches, let's restore the old file so things will run smoothly again.*
 
