@@ -14,7 +14,8 @@ The rules for a binary tree are:
 * nodes to the left are less than the current node
 * nodes to the right are greater than the current node
 
-Here is an example of what a binary tree might look like. Take a look at each of the nodes and check for yourself that they follow the rules!
+The tree we looked at before is an example of a binary tree. Take a look at each of the nodes and check for yourself that they follow the rules!
+![image](../img/tree.png)
 
 ## Searching Elements
 
@@ -30,7 +31,7 @@ See if you can follow along with this example below. This is the same tree as be
 
 Now that we conceptually understand searching for elements, we can see that searching for elements is just repeating the same operation over and over again. This means that if we program the operation correctly, the entire search algorithm is done.
 
-Imagine we have nodes that are defined like below
+Imagine we have nodes that are defined like below:
 ```js javascript
 class Node {
     int value;
