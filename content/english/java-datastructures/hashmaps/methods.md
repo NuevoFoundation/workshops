@@ -18,7 +18,6 @@ HashMap<String, String> addresses = new HashMap<String, String>();
 ```
 In this case, we created a `HashMap` called addresses which stores keys of `String` type and values of `String` type.
 
-<hr>
 
 ## Adding Elements
 
@@ -42,10 +41,6 @@ public class Main {
 }
 ```
 As you can see, the code above inserts a key/value pair into our HashMap addresses.
-
-![image](../../img/hashmapgraphic.png)
-
-<hr>
 
 ## Accessing Elements
 
@@ -73,6 +68,5 @@ public class Main {
 ```
 
 Using the `get()` method, we call `addresses.get("Jun")` and returns Jun's address.
-![image](../../img/hashmapgraphic2.png)
 
 Those are some of the most basic methods of the HashMap. Other methods may include the `remove()` method, which removes an item or the `size()` method which returns how many items are in the HashMap. We will give more examples to let you try it out in the next page!

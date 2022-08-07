@@ -14,3 +14,5 @@ We want to serve our new potential clients in the most efficient way possible fo
 `Queue`s in Java work in a similar way. After we declare our `Queue`, we can add new elements to the back, and remove them from the front.
 
 In fact, most queues we'll encounter in Java work in this First In, First Out manner – often abbreviated to FIFO.
+
+![image](../img/queue.png)

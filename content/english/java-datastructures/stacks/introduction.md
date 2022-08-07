@@ -12,3 +12,5 @@ A stack is very similar to a queue and many of the concepts that you learned abo
 A common example to think about a stack is a stack of plates. Imagine 5 plates stacked on top of one another. If you add a sixth plate onto the top of the stack, your stack of plates is now a stack of 6. However, what if you wanted to remove a plate? Well, you wouldn't reach for the bottom of the stack and take a plate; you would take a plate out from the top.
 
 This Last In, First Out (LIFO) logic applies to stacks in Java as well.
+
+![image](../img/stack.png)

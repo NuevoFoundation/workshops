@@ -11,6 +11,8 @@ weight: 1
 
 We've already learned plenty about arrays. We know that an array can hold many different types (integers, strings, doubles, etc.), but how about an array that holds arrays?
 
+![image](../img/2darray.png)
+
 A 2D array has a type such as `int[][]` or `String[][]`, with two pairs of square brackets. The elements of a 2D array are arranged in rows and columns, and the new operator for 2D arrays specifies both the number of rows and the number of columns. For example,
 
 ```js javascript
