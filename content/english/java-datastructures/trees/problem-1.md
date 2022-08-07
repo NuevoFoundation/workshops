@@ -14,8 +14,6 @@ Now that we know the basics of traversing through a tree, implement binary searc
 
 <iframe height="800px" width="100%" src="https://replit.com/@nuevofoundation/BinarySearch?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-Congrats! If you've made it this far, then you have officially programmed binary search!
-
 {{% showanswer "SPOILER: Click here if you need help with the solution!" %}}
 ```js javascript
 public static Node findValue(Node root, int value) {
@@ -39,3 +37,5 @@ public static Node findValue(Node root, int value) {
 }
 ```
 {{% /showanswer %}}
+
+### Congrats! If you've made it this far, then you have officially programmed binary search!
