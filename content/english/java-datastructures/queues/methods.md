@@ -76,8 +76,7 @@ import java.util.*;
 class PriorityQueueDemo {
    
       // Main Method
-    public static void main(String args[])
-    {
+    public static void main(String args[]) {
         // Creating empty priority queue
         PriorityQueue<Integer> pQueue = new PriorityQueue<Integer>();
  
