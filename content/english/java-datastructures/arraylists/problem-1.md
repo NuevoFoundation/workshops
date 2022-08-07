@@ -44,11 +44,8 @@ menu.add("Hotdog");
 menu.add("Hamburger"); 
 menu.add("Hotdog"); 
 
-// If we run the code
+// Returns "Pizza" since it is the 0th item in the menu
 item = find(menu, 0);
-
-// find() will return since it is the 0th item in the menu
-item = "Pizza"
 ```
 
 {{%notice tip%}}
@@ -72,11 +69,10 @@ menu.add("Pizza");
 menu.add("Pizza");
 menu.add("Hotdog"); 
 
-// If we run the code
+// Remove the first two Pizza orders
 item = remove(menu,"Pizza", 2);
 
-// remove() will remove the first two Pizza orders
-menu = {"Hotdog", "Hamburger", "Pizza", "Hotdog"}
+// Menu will not be the following array: {"Hotdog", "Hamburger", "Pizza", "Hotdog"}
 ```
 
 <iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@nuevofoundation/2DRemove?lite=true"></iframe>
