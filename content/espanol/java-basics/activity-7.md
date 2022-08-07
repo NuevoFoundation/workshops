@@ -73,7 +73,7 @@ Luego de `Run`, su programa debe imprimir lo siguiente:
 ```
 Birds Of Prey, The Birds, Angry Birds, Bird Box, The Secret Life of Pets
 ```
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsArray?lite=true#Bird.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicosArray?lite=true#Bird.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### 2. ArrayList
 ArrayList es otra estructura e data popular en Java. `ArrayList` es una clase que fue implementada usando arrays. Es similar a un array en cuanto a que un usuario puede accesar, guardar y modificar data usando un índice.
@@ -129,7 +129,7 @@ Luego de `Run`, el programa debe imprimir lo siguiente:
 ```
 Birds Of Prey, The Birds, Angry Birds, Bird Box, The Secret Life of Pets
 ```
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsList?lite=true#Bird.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicosList?lite=true#Bird.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### Fin del Workshop 🐥 
 <b>Patrick</b> 🐥 gracias por participar. Esperamos que hayas aprendido mucho en este curso :)

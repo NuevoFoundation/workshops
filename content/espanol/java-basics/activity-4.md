@@ -62,7 +62,7 @@ Patrick debería decir "Good Morning" entre 0:00 - 11:59, "Good Afternoon" entre
 2. Llene la correcta `boolean expression A` y `boolean expression B` para completar su programa. 
 3. Pruebe su resultado asignando la variable `currentHour` a un número entre 0 y 23:
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsIfStatement?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicosIfStatement?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### 2. Repítalo de nuevo: For-Loop, While-Loop
 En clase de matemáticas, la maestra de Patrick 🐥 le pregunta a la clase que solucione un problema, y tal vez Patrick necesite ayuda:
@@ -130,4 +130,4 @@ System.out.println("Answer calculated in a while loop: " + total);
 ```
 Pruebe esto presionando `Run` y escribe una versión del programa usando for loop que calcule lo mismo. Ambos programas deberían resultar en el mismo valor. 
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsForWhile?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicosForWhile?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
