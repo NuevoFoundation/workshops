@@ -27,3 +27,5 @@ Some trees have more specific rules about how data is added to them and how the 
 ## Visualizing Trees
 
 Trees will have what is called a root node, which is the node where the rest of the tree connects to, either directly or indirectly. We call this data structure a tree because nodes seem to branch off of the root node. When you see a tree drawn, you will usually see the root node at the top, but that won't always be the case!
+
+![image](../img/tree.png)

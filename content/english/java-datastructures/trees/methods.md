@@ -22,7 +22,9 @@ Before we look at the implementation of how to search with code, let's look at h
 
 Once we start at the root, we examine the value and ask ourselves "is the value we are looking for less than, equal to, or greater than this value?" If the value is equal, great! We found our answer. If the value we want is less than what we currently have, then we go the left node and ask ourselves the same question. If the value we want is greater than what we currently havbe, then we go to the right node and ask ourselves the same question.
 
-// ADD PICTURES HERE
+See if you can follow along with this example below. This is the same tree as before and we want to find the value 9.
+
+![image](../img/binarysearch.gif)
 
 ## Traverse Elements
 
