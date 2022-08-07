@@ -16,7 +16,6 @@ Now you can plug your USB cable into the computer. You should see some rainbow l
 
 ![Cannot load image](../img/download3.png?classes=border,shadow "Image taken from https://www.adafruit.com/")
 
-
 Once your lights are green, open up a Windows Explorer window if one doesn’t pop up. You should now see a CPLAYBOOT drive. Here it is shown as the D: drive but it could be E:, F:, etc.
 
 ![Cannot load image](../img/download4.png?classes=border,shadow)

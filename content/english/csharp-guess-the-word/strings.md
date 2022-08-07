@@ -25,7 +25,7 @@ Console.WriteLine("Nuevo" + " " + "Foundation");
 
 ## Working Together
 
-In the repl.it window below, we started the code with the line `Console.WriteLine("Nuevo" + " " + "Foundation");`.
+In the Replit window below, we started the code with the line `Console.WriteLine("Nuevo" + " " + "Foundation");`.
 
 Note that there are many ways to combine strings together. For example, another way to print Nuevo Foundation would be to write `Console.WriteLine("Nue" + "vo Fou" + "ndation");`.
 

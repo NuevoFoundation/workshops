@@ -9,9 +9,18 @@ draft: false
 icon: "fas fa-microchip"
 ---
 
+## The Components
+
+The components we will use for the project are listed below. Make sure you have all of these before starting: 
+
+1. One Adafruit
+2. Micro USB to USB cord
+3. 2 alligator clip wires, any colors
+4. Two oranges
+
 ## Table of Contents
 
-<details open>
-<summary>Section</summary>
+<details close>
+<summary>Table of Contents</summary>
 {{% children %}}
 </details>

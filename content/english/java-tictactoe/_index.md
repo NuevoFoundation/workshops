@@ -34,11 +34,13 @@ There will also be links to the relevant Java topics on each page if you want to
 
 ## Table of Contents
 
+<details close>
+<summary>Table of Contents</summary>
 {{% children %}}
+</details>
 
 ## Demo
 
-The following is the program you will create by the end of the workshop! Give it a try by clicking `Run`!
+The following gif shows you the program that you will create by the end of the workshop! Check it out!
 
-<iframe height="600px" width="100%" 
- src="https://repl.it/@nuevofoundation/JavaTicTacToeDemo?lite=true&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<img src="images/tictactoe-demo.gif" height="30%" width="22%" title="Android Tic-Tac-Toe Game" alt="Android Tic-Tac-Toe Game"/>
