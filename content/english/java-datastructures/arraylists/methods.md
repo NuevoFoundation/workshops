@@ -37,7 +37,7 @@ public class Main {
         order.add("Chicken Nugget");
         order.add("Fries");
         order.remove(2);
-        // Removes fries from the arraylist
+        // Removes Fries from the ArrayList
     }
 }
 ```
