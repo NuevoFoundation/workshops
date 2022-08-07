@@ -7,12 +7,6 @@ weight: 2
 
 <p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/NQXV586afr8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-<!--<link rel="stylesheet" href="../../style.css">-->
-
-![array](../../img/example.png)
-
-<hr>
-
 ## Creating an array
 
 Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value. To declare an array, define the variable type with square brackets.

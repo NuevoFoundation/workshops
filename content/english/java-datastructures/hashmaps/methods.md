@@ -5,15 +5,9 @@ draft: false
 weight: 2
 --- 
 
-<!--<link rel="stylesheet" href="../../style.css">-->
-
-![image](../../img/mapExample.png)
-
 ## Hashmaps
 
-<hr>
-
-A hashmap can store items in key/value pairs and you can assign those pairs to different types such as strings or integers.
+A HashMap can store items in key/value pairs and you can assign those pairs to different types such as strings or integers.
 
 As usual, to create a `HashMap`, you will have to import the HashMap class like so.
 
@@ -28,7 +22,7 @@ In this case, we created a `HashMap` called addresses which stores keys of `Stri
 
 ## Adding Elements
 
-To add key/value pairs into the hashmap, use the `put()` method.
+To add key/value pairs into the HashMap, use the `put()` method.
 
 ```js javascript
 // Import the HashMap class
@@ -47,7 +41,7 @@ public class Main {
   }
 }
 ```
-As you can see, the code above inserts a key/value pair into our hashmap addresses.
+As you can see, the code above inserts a key/value pair into our HashMap addresses.
 
 ![image](../../img/hashmapgraphic.png)
 
@@ -81,4 +75,4 @@ public class Main {
 Using the `get()` method, we call `addresses.get("Jun")` and returns Jun's address.
 ![image](../../img/hashmapgraphic2.png)
 
-Those are some of the most basic methods of the hashmap. Other methods may include the `remove()` method, which removes an item or the `size()` method which returns how many items are in the hashmap. We will give more examples to let you try it out in the next page!
+Those are some of the most basic methods of the HashMap. Other methods may include the `remove()` method, which removes an item or the `size()` method which returns how many items are in the HashMap. We will give more examples to let you try it out in the next page!

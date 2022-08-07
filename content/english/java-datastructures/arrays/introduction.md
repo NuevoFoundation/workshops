@@ -4,10 +4,6 @@ date: 2019-07-23T11:45:38-07:00
 draft: false
 weight: 1
 ---
-<!--<link rel="stylesheet" href="../../style.css">-->
-
-![array](../../img/whatis.png)
-<hr>
 
 Arrays are a data structure where each of its elements are arranged in a numerical sequence and each item is referenced by its position number. In Java, each of these elements are of one type (`String`, `int`, `double`, etc.) and are zero indexed, which means that the first element in an array starts at `0`, the second element with `1`, and so on.
 

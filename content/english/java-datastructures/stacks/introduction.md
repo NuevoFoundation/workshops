@@ -4,13 +4,8 @@ date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 1
 --- 
-<!--<link rel="stylesheet" href="../../style.css">-->
-
-![image](../../img/stackIntro.png)
 
 ## Visualizing a Stack
-
-<hr>
 
 A stack is very similar to a queue and many of the concepts that you learned about a queue can be applied on a stack. Unlike the queue with the FIFO logic, a stack is different in that uses the opposite logic, LIFO (Last In, First Out)
 

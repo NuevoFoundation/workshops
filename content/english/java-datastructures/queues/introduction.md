@@ -4,13 +4,8 @@ date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 1
 --- 
-<!--<link rel="stylesheet" href="../../style.css">-->
-
-![image](../../img/queueIntro.png)
 
 ## Visualizing a Queue
-
-<hr>
 
 Imagine that you are designing NuevoEats for a business, and perhaps this business is McDonalds.
 

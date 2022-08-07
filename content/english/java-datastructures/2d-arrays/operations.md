@@ -4,11 +4,6 @@ date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 3
 ---
-![image](../../img/2dexample.png)
-
-<!--<link rel="stylesheet" href="../../style.css">-->
-
-<hr>
 
 2D arrays work very similarly to regular arrays, and many of the ideas or methods that we use on arrays apply to multidimensional arrays as well. As a quick reminder, here is how to initialize a 2D array and access an element:
 

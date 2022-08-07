@@ -5,11 +5,6 @@ draft: false
 weight: 2
 ---
 
-<!--<link rel="stylesheet" href="../../style.css">-->
-
-![image](../../img/listex.png)
-<hr>
-
 ## Modifying Elements
 
 ```js javascript

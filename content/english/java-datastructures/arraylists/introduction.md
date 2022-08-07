@@ -5,11 +5,6 @@ draft: false
 weight: 1
 ---
 
-<!--<link rel="stylesheet" href="../../style.css">-->
-
-![image](../../img/listintro.png)
-<hr>
-
 We've learned about arrays and even ventured into multidimensional arrays. Unfortunately arrays have many limitations and can sometimes be hard to use. One limitation that an array has is its explicit size. If you only have 10 elements of allotted space in that array, you can only store up to 10 elements. `ArrayList`s are a great data structure that has a dynamic size, meaning that you can add or subtract items at any time. There are many more things that `ArrayList`s can do, which is what makes `ArrayList`s such powerful data structures.
 
 Before we create an `ArrayList`, we will have to import the `ArrayList` class. It will look something like this.

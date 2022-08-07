@@ -4,13 +4,8 @@ date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 2
 --- 
-<!--<link rel="stylesheet" href="../../style.css">-->
-
-![image](../../img/stackExample.png)
 
 ## Stacks
-
-<hr>
 
 A stack is similar to a queue. The only difference are the method names and the manner in which we retrieve the items.
 
