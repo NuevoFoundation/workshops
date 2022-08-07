@@ -11,8 +11,7 @@ Now that you have mastered outputting signals to LEDs let’s look at displaying
 ![Alt Text: Wiring Diagram for Elegoo and LCD Display](../img/LCD-wiring.png)
 
 ## The Code:
-
-```
+``` c++
 //www.elegoo.com
 //2016.12.9
 
