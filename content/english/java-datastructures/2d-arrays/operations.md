@@ -8,8 +8,7 @@ weight: 3
 2D arrays work very similarly to regular arrays, and many of the ideas or methods that we use on arrays apply to multidimensional arrays as well. As a quick reminder, here is how to initialize a 2D array and access an element:
 
 ```js javascript
-public static void main(String[] args) 
-{ 
+public static void main(String[] args) { 
     int[][] arr = new int[10][20]; 
     arr[0][0] = 1; 
     System.out.println(arr[0][0]); 
@@ -20,8 +19,7 @@ public static void main(String[] args)
 The only hard part that might not make a whole lot of sense at first is iterating through a 2D array, but this is quite simple as well. Instead of a single `for` loop, we will use two `for` loops instead. Here is a quick example to give you an idea. 
 
 ```js javascript
-public static void main(String[] args) 
-{ 
+public static void main(String[] args) { 
     int[][] arr = new int[10][20]; 
     int num = 0;
 
