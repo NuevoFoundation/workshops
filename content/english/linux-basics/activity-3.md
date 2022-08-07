@@ -14,7 +14,7 @@ weight: 6
 
 To see the files in the current directory, we use the `ls` command. It means "List".
 
-Try it: 
+Try it:
 ```
 ls
 ```
