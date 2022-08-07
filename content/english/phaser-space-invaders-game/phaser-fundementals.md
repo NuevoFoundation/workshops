@@ -50,7 +50,7 @@ Technically, we could use a single scene for all three of these game states if w
 
 Here is another example of a very common way to use scenes: a title screen.
 
-![titleScreen](../media/protectpres-title.png)
+![Outliers game title screen](../media/title-game.png)
 
 The first scene displays simply a title screen that often contains things like settings, loading a save file, and more. Once the player clicks play, they are switched to a different scene, where they'll play the game within.
 

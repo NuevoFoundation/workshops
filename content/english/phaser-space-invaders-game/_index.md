@@ -18,3 +18,10 @@ All sprites in the lesson repl with "dude" are from the Phaser website.
 In the end, your game will look something like this:
 
 ![gameplay](./media/game-demo.gif)
+
+## Table of Contents
+
+<details close>
+<summary>Table of Contents</summary>
+{{% children %}}
+</details>

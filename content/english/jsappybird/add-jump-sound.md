@@ -16,8 +16,7 @@ In the repl.it window below, we started the code with the line `jumpSound.play()
 
 ![alt text](../img/jump_sound.png "image to add sound to the bird")
 
-In your console you should see a Jsappy bird jumping with sound after you press **run**:
-
+In your console you should see a Jsappy bird jumping with sound after you press **run**.
 
 # Bonus activities
 

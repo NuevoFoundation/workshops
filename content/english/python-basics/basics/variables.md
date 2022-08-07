@@ -14,7 +14,7 @@ happy = True
 ```
 Press run. 
 
-![alt text](../../img/variables.png "image of how variables look in repl.it") 
+![alt text](../../img/variables.png "image of how variables look in Replit") 
 
 Note that variables are not printed out to the console. Instead, the variable simply saves the string, number, or boolean into the computer’s memory. We can use these variables in other statements. For example, the following code would print `"Hello Nuevo Foundation"` to the console:
 
@@ -46,10 +46,9 @@ Next, use the variables and what you learned in the previous activities to `prin
     ComputerComputerComputer
     15
 
-
 {{% notice tip %}}
 
-Hint: If you're stuck, consider using the `+` operator. Remember that you can use the variables <b>comp</b> and <b>five</b> multiple times in the same line!
+Hint: If you're stuck, consider using the `+` operator. Remember that you can use the variables **comp** and **five** multiple times in the same line!
 
 {{% /notice %}}
 

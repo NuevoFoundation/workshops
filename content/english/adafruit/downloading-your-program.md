@@ -26,4 +26,4 @@ Once you’ve verified that you can see this CPLAYBOOT, go to the Downloads fold
 
 After you’ve dropped the file in the right place, the green lights will go away to indicate that you’ve successfully programmed your Adafruit!
 
-#### CONGRATS! You’ve done it. Feel free to go back and tweak the sounds or your magic number in the comparisons.
+#### CONGRATS! You’ve done it. Feel free to go back and tweak the sounds or your magic number in the comparisons. 👏🏽👏🏽👏🏽

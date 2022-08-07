@@ -11,7 +11,7 @@ weight: 15
 
 *But don't forget - this is all top secret!*
 
-Click the "Download" button below to receive your honorary certificate of completion!
+Click the "Download" button below to receive your honorary certificate of completion! 👏🏽👏🏽👏🏽
 
 <a class="my-2 mx-4 btn btn-info" href="../images/Certificate.pdf">
 Download link</a>

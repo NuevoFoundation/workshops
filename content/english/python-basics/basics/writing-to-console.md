@@ -4,9 +4,10 @@ date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 2
 ---
-<iframe width="100%" height="600px" src="https://www.youtube.com/embed/NrbQCjlzhYc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Make your program talk to you!
+<p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/NrbQCjlzhYc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+## Make your program talk to you!
 
 **Print** statements are used to print something on the console. Use `print("Hello World")` to print *Hello World* in the output screen. We will later learn that print is a function and we use it to perform a print job. Whatever you pass to the `print` function is printed on the screen.
 Let's start by doing a `print` statement. A `print` statement allows you to take control of the computer and make it print something out! 
@@ -14,7 +15,7 @@ Let's start by doing a `print` statement. A `print` statement allows you to take
 We will use printing a lot in the later lessons, so make sure you understand this before moving on to the next concept!
 
 ### Challenge 1
-To start, write the following text into your Repl.it main.py and click Run.
+To start, write the following text into your Replit main.py and click Run.
 
 ```python
 print("Hello, World!")

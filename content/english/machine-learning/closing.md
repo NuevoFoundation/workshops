@@ -19,4 +19,4 @@ Next, you can play with this dataset a little bit.
 
 In today's class, you learned how to train a linear regression model to estimate the overall ratings of a soccer player. We hope you enjoyed it and have inspired a little.
 
-From now, you can explore the [kaggle](http://kaggle.com) website, try to find another dataset to play. Apply linear regression to predict/estimate the results. You'll be amazed by what you can be done.
+From now, you can explore the [kaggle](http://kaggle.com) website, try to find another dataset to play. Apply linear regression to predict/estimate the results. You'll be amazed by what you can be done. 👏🏽👏🏽👏🏽

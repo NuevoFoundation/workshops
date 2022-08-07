@@ -8,8 +8,9 @@ icon: "fab fa-python"
 draft: false
 ---
 
-# Python basics
+## Python basics
+
 <details open>
-<summary>Topics</summary>
+<summary>Table of Contents</summary>
 {{% children %}}
 </details>

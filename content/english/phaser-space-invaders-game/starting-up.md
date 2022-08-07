@@ -9,7 +9,7 @@ weight: 1
 
 To begin, open your preferred internet browser (such as Edge, Firefox, Google Chrome, Internet Explorer), and go to <a href="https://repl.it/@nuevofoundation/Phaser-Space-Invaders#index.html" target="_blank">https://repl.it/@nuevofoundation/Phaser-Space-Invaders</a>. Your screen should look like this:
 
-![repl.it main screen](../media/1/welcome-screen.PNG)
+![Replit main screen](../media/1/welcome-screen.PNG)
 
 For now, we will ignore the content of the project (the code), and we will instead go over the basics of how to use the website. On the left hand of the screen, you will see a list of files that contain code, or instructions for the computer to run. By pressing the run button, you tell the computer to perform the instructions in the code. Any results from running the code will be displayed on the right side, called the console.
 
