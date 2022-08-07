@@ -17,9 +17,9 @@ for (initialization; condition; iteration) {
 }
 ```
 
-- Initialization is executed (one time) before the execution of the code block.
-- Condition (as the name implies) defines the condition for executing the code block.
-- Iteration is executed (every time) after the code block has been executed.
+- `initialization` is executed (one time) before the execution of the code block.
+- `condition` (as the name implies) defines the condition for executing the code block.
+- `iteration` is executed (every time) after the code block has been executed.
 
 The example below will print the numbers `0` to `4`:
 
