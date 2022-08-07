@@ -16,7 +16,7 @@ Now that we know the basics of traversing through a tree, implement binary searc
 
 Congrats! If you've made it this far, then you have officially programmed binary search!
 
-**SPOILER** If you need a bit of help, click here to open the solution:
+{{% showanswer "SPOILER: Click here if you need help with the solution!" %}}
 ```js javascript
 public static Node findValue(Node root, int value) {
     // We start at the root of the tree
@@ -38,3 +38,4 @@ public static Node findValue(Node root, int value) {
     return current;
 }
 ```
+{{% /showanswer %}}
