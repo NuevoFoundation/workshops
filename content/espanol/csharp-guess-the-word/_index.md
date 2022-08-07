@@ -10,7 +10,7 @@ icon: "fas fa-code"
 
 ## Traducciones de términos comunes
 
-El lado izquierdo del índice abajo contiene términos frecuentemente usados en el mundo de informática en general o en el idioma de C# específicamente. Estos términos están en inglés, y tienen que ser usados en ingles (las computadoras no son bilingües, desafortunadamente). En inglés, son directivos básicos. Hemos dado las traducciones de estos términos para que puedes entenderlos al nivel lingüístico mientras que aprendes durante estas actividades cómo funcionan al nivel programático. 
+El lado izquierdo del índice abajo contiene términos frecuentemente usados en el mundo de informática en general o en el idioma de C# específicamente. Estos términos están en inglés, y tienen que ser usados en ingles (las computadoras no son bilingües, desafortunadamente). En inglés, son directivos básicos. Hemos dado las traducciones de estos términos para que puedes entenderlos al nivel lingüístico mientras que aprendes durante estas actividades cómo funcionan al nivel programático.
 
 | Término    |      Traducción/Significado       |
 |----------|:-------------|
@@ -25,10 +25,11 @@ El lado izquierdo del índice abajo contiene términos frecuentemente usados en 
 | String | Literalmente, una cuerda. En el mundo de la informática ‘string’ se refiere a cualquier grupo de símbolos, números, o letras que la computadora entiende como una palabra o frase. En C#, los strings se indican con comillas `“ ”`. |
 | True | Un Boolean. Verdad, verdadero  |
 
-## ¡Bienvenid@s! 
+## ¡Bienvenid@s!
 
-El objetivo de la actividad de hoy es aprender el lenguaje de C# e incorporar lo que vas a aprender hoy para asi poder crear el juego ¡Adivina la palabra! 
+El objetivo de la actividad de hoy es aprender el lenguaje de C# e incorporar lo que vas a aprender hoy para asi poder crear el juego ¡Adivina la palabra!
 
 ## Secciones
 
 {{% children %}}
+

@@ -1,0 +1,74 @@
+# body-beforecontent.html
+[navigation]
+other = "導航:"
+
+# next-prev-button.html
+[up-next]
+other = "下一頁:"
+
+[previous]
+other = "前一頁:"
+
+# custom-footer.html
+[join-social-media]
+other = "加入社交媒體上的對話."
+
+[copyright-footer]
+other = "© Copyright 2022, All Rights Reserved by Nuevo Foundation, a 501(c)(3) nonprofit."
+
+# header.html
+[donate]
+other = "捐贈"
+
+[what-we-do]
+other = "我們的工作"
+
+[workshops]
+other = "研討會"
+
+[get-involved]
+other = "參與其中"
+
+[support-us]
+other = "支持我們"
+
+[event-blog]
+other = "活動博客"
+
+[our-team]
+other = "我們的團隊"
+
+[contact-us]
+other = "聯係我們"
+
+# Metadata.html
+[workshop-resources]
+other = "研討會資源"
+
+[pre-requisite]
+other = "前提條件:"
+
+[difficulty]
+other = "難度:"
+
+[download]
+other = "下載:"
+
+# notice.html
+[note]
+other = "注"
+
+[info]
+other = "信息"
+
+[warning]
+other = "警告"
+
+[tip]
+other = "技巧"
+
+[help]
+other = "幫助"
+
+[hint]
+other = "暗示"
