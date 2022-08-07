@@ -39,7 +39,7 @@ restaurants.push("Fries");
 restaurants.push("Pizza");
 restaurants.push("Pizza");
 
-// User ordered an extra pizza! how can you undo the recent change?
+// User ordered an extra pizza! How can you undo the recent change?
 
 Stack.undo() // Remove the most recent push
 ```
