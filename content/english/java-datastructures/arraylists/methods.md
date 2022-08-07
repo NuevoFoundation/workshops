@@ -57,7 +57,7 @@ public class Main {
         order.add("Chicken Nugget");
         order.add("Fries");
         System.out.println(order.size());
-        // Outputs the size of the arraylist, in this case: 3
+        // Outputs the size of the ArrayList, in this case: 3
     }
 }
 ```
