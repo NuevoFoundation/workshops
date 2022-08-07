@@ -19,7 +19,7 @@ Now that you understand how we can get the system to provide signals from the pr
 
 ## Recognizing and printing Analog Inputs
 We will again use sample code for our programs. This time we'll get it from the elegoo website itself. Copy the following into your Arduino IDE.
-```
+``` c++
 //www.elegoo.com
 //2016.12.09
 

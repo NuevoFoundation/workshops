@@ -16,4 +16,4 @@ A strong password is hard to guess, but it should be easy for you to remember - 
 
 ## Solution
 
-In the Spy Game the passwords "Ilovemypet" and "12345678" are weak and can be easily hacked by a malicious person.
+In our *Spy Game*, the password "Ilovemypet" does not contain any numbers and special characters, and the password "12345678" is a sequence of numbers; thus, both passwords are weak and can be easily hacked/guessed by a malicious person.

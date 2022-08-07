@@ -37,7 +37,7 @@ Let’s combine activity 1 and activity 2. Let’s control LEDs based on the inp
 
 ## The Code
 
-```
+``` c++
 int button=2;
 int buttonState=0;
 int buttonState1=0;
