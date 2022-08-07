@@ -72,7 +72,7 @@ With these three methods in mind, let's go ahead and take a look at an example.
 ```js javascript
 import java.util.*;
 public class Driver{
-    public static void main(String []args){
+    public static void main(String []args) {
         // Default initialization of Stack 
         Stack stack = new Stack(); 
   
