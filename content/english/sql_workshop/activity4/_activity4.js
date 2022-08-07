@@ -5,7 +5,7 @@ function sql()
   document.getElementById("sqlcommand").style.visibility="visible";
 
   var user = document.getElementById("commands").innerHTML;
-  debug(user.toLowerCase(),"select planet_name, leader_name from galaxy;", "select leader_name, planet_name from galaxy;");
+  debug(user.toLowerCase(),"select planet, leader from galaxy;", "select leader, planet from galaxy;");
   var array = alasql("MATRIX OF " + user);
   var ans = JSON.stringify(alasql(user));
 
@@ -23,8 +23,8 @@ function sql()
 
   sqlToTable(headArr, array, "table");
 
-  var ans1 = "select leader_name, planet_name from galaxy;";
-  var ans2 = "select planet_name, leader_name from galaxy;";
+  var ans1 = "select leader, planet from galaxy;";
+  var ans2 = "select planet, leader from galaxy;";
   user = user.toLowerCase();
   
   if(user == ans1 || user == ans2)

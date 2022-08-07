@@ -31,13 +31,13 @@ Variables can hold different types of data, let's go over the basic ones.
 
 ### Integers
 
-Integer is basically just a fancy name for any real number that is not a decimal. For example, integers are whole numbers like 3, 100, 6,000, -3, and so on!
+Integers are any numbers that do not contain decimals. For example, integers are whole numbers like `3`, `100`, `6000`, `-3`, and so on!
 
 ```javascript
-// this is a comment, these are used to describe what your code does
+// This is a comment, these are used to describe what your code does
 // Below are different examples of variables
 
-//Integer (non decimal number) variables examples:
+// Integer (non decimal number) variables examples:
 
 var a = 5;
 var b = 10;
@@ -46,10 +46,10 @@ var c = 15;
 
 ### Doubles
 
-Doubles are your other "messy" numbers, the ones with that funky decimal. Examples are numbers like 0.5, 1.5, and so on.
+Doubles are numbers that support decimals. Examples are numbers like `0.5`, `1.5`, and so on.
 
 ```javascript
-//Double (decimal number) variable examples:
+// Double (decimal number) variable examples:
 
 var x = 0.5;
 var y = 1.5;
@@ -60,26 +60,26 @@ var z = 2.0;
 
 Strings are just what programmers decided to call words. If it helps remind you that strings are words, think of them as a "string" of characters. Strings can be anything like your name or the name of favorite pet.
 
-Strings are surrounded by "quotation marks"
+Strings are surrounded by "quotation marks".
 
 ```javascript
-//String (one or more words aka a "string" of characters) variable examples:
-//string variable values are surrounded by "quotation marks"
+// String (one or more words aka a "string" of characters) variable examples:
+// string variable values are surrounded by "quotation marks"
 
-var company = "MICROSOFT";
+var company = "My company";
 var course = "Coding with Micro:Bits!";
 var message = "Coding is so fun!";
 ```
 
 ### Characters
 
-Characters are single letters. They are surrounded by 'single quotes'
+Characters are single letters. They are surrounded by 'single quotes'.
 
 ```javascript
-//Character (a single letter) variable example:
-//character variable values are surrounded by 'single quotes'
+// Character (a single letter) variable example:
+// character variable values are surrounded by 'single quotes'
 
-var letter = "A";
+var letter = 'A';
 ```
 
 ### Booleans
@@ -89,7 +89,7 @@ Sometimes programmers want to check if certain conditions are true or false. Thi
 If you're curious about why these are called Booleans, a guy named George Boole is the one that created them.
 
 ```javascript
-//Boolean (true or false) variable example
+// Boolean (true or false) variable example
 
 var canPigsFly = false;
 var codingIsCool = true;
@@ -102,67 +102,77 @@ Ah yes our favorite, computers are essentially calculators so it should be a giv
 ### Addition
 
 ```javascript
-var a = a + b;                //a = 15
-var a += b;                   //a = 25
+var a = 13;
+var b = 10;
+var c = a + b;     // c = 25
+c += a;            // c = 40
+c++;               // c = 41
 ```
 
 ### Subtraction
 
 ```javascript
-var a = a - b;                //a = 15
-var a -= b;                   //a = 5
+var a = 15;
+var b = 10;
+var c = a - b;     // c = 5
+c -= a;            // c = -10
+c--;               // c = -11
 ```
 
 ### Multiplication
 
 ```javascript
-var a = a * b;                //a = 50
-var a *= b;                   //a = 500
+var a = 2;
+var b = 5;
+var c = a * b;     // c = 10
+c *= a;            // c = 20
 ```
 
 ### Division
 
 ```javascript
-var a = a / b;                //a = 50
-var a /= b;                   //a = 5
+var a = 20;
+var b = 2;
+var c = a / b;     // c = 10
+c /= a;            // c = 5
 ```
 
 ### Modulo
 
-Ah yes, the one that sounds scary but actually isn't. Modulus operations just gives you the remainder after division. For example, 10 % 2 = 0 because when you divide 10 by 2, you have no remainder left.
+Ah yes, the one that sounds scary but actually isn't. Modulus operations just gives you the remainder after division. For example, `10 % 2 = 0` because when you divide 10 by 2, you have no remainder left.
 
 ```javascript
-var d = 10 % 2; //d= 0
-var e = 5 % 2; //e= 1
+var d = 10 % 2;   // d = 0
+var e = 5 % 2;    // e = 1
 ```
 
 ### Print Statements
 
-Sometimes you want your computer to actually display some text or the data your variables hold. To do this we use print statements.
+Sometimes you want your computer to actually display some text or the data your variables hold. To do this we use `print` statements.
 
 ```javascript
 console.log("This will show up in the console, but not the webpage");
 alert("This will display as a pop up window");
 
-var userResponse = prompt("Do you want to play a game?");
+var userResponse = prompt("This will display as a pop up window, with an input box for the user to type in");
 ```
 
 ### Conditionals and Logical Operators
 
-Conditionals, most commonly called if-statements, are used to choose what code you want to run depending on the value of your variables or other conditions.
+Conditionals, most commonly called `if`-statements, are used to choose what code you want to run depending on the value of your variables or other conditions.
 
 ```javascript
-//conditionals
+// Conditionals
 if (true) {
-  //this section of code will run
+  // This section of code will run
 }
 if (false) {
-  //this section of code will not run
+  // This section of code will not run
 }
 
 var age = 10;
 if (age < 18) {
-  // if age is less than 10
+  // If age is less than 10
   print("You're not an adult yet! :( ");
 }
 ```
@@ -171,10 +181,10 @@ if (age < 18) {
 
 And last but not least, we have things called loops. These allow you to repeat parts of your code until a certain condition is met.
 
-The alert() function you see in the code snippet below simply displays a pop-up displaying the parameter you pass to it, the parameter is what is inside the parantheses, in this case it is displaying the updated count value.
+The `alert()` function you see used in the code snippets below simply displays a pop-up displaying the parameter you pass to it, the parameter is what is inside the parentheses, in this case it is displaying the updated count value.
 
 ```javascript
-//while loop - counts down from 10
+// while loop - counts down from 10
 var count = 10;
 
 while (count > 0) {
@@ -182,17 +192,17 @@ while (count > 0) {
   count--;
 }
 
-//for loop - counts down from 10
+// for loop - counts down from 10
 for (var i = 10; i > 0; i--) {
   alert(i);
 }
 
-//endless while loop
+// Endless while loop
 while (true) {
-  //this will happen over and over again forever since the condition will never be false. true is always true.
+  // This will happen over and over again forever since the condition will never be false. true is always true.
 }
 
-//break;	//stops a loop immediately and moves to line below the loop
+// break;	// stops a loop immediately and moves to line below the loop
 ```
 
 ## Getting started with Micro:Bits
@@ -247,7 +257,7 @@ Curious about what my game's code looks like? Click [here](https://makecode.micr
 Ready to play? These are the list of controls:
 
 - **A + B:** Shoot lasers to destroy incoming asteroids
-- **Tilt:** Tilt your microbit left or right to move your spaceship
+- **Tilt:** Tilt your MicroBit left or right to move your spaceship
 
 Simple right? We'll see. I've programmed this game to go faster the more asteroids you destroy. Think you have the high score? Show off and let us know! You can see your score by waiting for the game over screen to pass.
 
@@ -265,13 +275,13 @@ We'll be going through this and the "Micro Chat" tutorials.
 
 ### Your Turn
 
-Go ahead and find another tutorial you're interested in, or if you're feeling confident, code your own program from scratch! Have fun!
+If you're feeling confident, code your own program from scratch! Have fun!
 
 ### Resources and Advanced Micro:Bit Cheat Sheet
 
 #### Variables, Printing, and Downloading
 
-- JavaScript variables are the same except the word 'let' is used instead of var
+- JavaScript variables are the same except the word `let` is used instead of `var`
 
   ```javascript
   let variable = "text";

@@ -111,7 +111,7 @@ The `WHERE` command allows you to only show data that you want.
 <table id="planet" style="visibility:hidden">
   <tr>
   </tr>
-  <script>displaytable("galaxy where planet_name = 'Planet of Fun'", "planet");</script>
+  <script>displaytable("galaxy where planet = 'Planet of Fun'", "planet");</script>
 </table>
 
 <div id="text" style="visibility:hidden">
