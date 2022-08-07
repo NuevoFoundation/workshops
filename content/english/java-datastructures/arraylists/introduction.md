@@ -53,7 +53,7 @@ public class Main {
         order.add("Chicken Nugget");
         order.add("Fries");
         System.out.println(order.get(0));
-        // Outputs whopper
+        // Outputs Whopper
   }
 }
 ```
