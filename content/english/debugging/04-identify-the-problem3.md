@@ -9,114 +9,128 @@ draft: false
 
 Debugging code is such a widespread, common problem that people have built entire programs designed to help other programmers debug more efficiently. These are suitably named **debuggers**, and there are plenty of debuggers that work for the C programming language. Let's take a look at `gdb`, a common debugger used with the command line.
 
-[GDB (GNU Project Debugger)](https://sourceware.org/gdb/) is a powerful debugger that lets you debug programs from the command line, which is useful in cases where you don’t have access to a GUI. Open the **Shell** tab in the Replit window below. 
-
-First, let's compile the program:
-
-```bash
-make examples/quicksort
-```
-
-Next, run `gdb examples/quicksort`. This should open the GDB command line interface. In general, to debug a program with `gdb` you can use `gdb <name of program>`.
-
-{{% notice note %}}
-Quicksort is an algorithm that sorts an array by first selecting an element in the array as a `pivot`. Next, the elements are organized into two groups: elements with a value less than the pivot, and elements with a value greater than the pivot. Finally, the algorithm is recursively run on the two groups. 
-
-More information can be found online.
-{{% /notice %}}
-
 <iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Debugging-Samples-C?lite=true#quicksort/quicksort.c" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-We can use GDB as an aide in identifying where bugs occur. As usual, it is important to understand the program. It runs a recursive implementation of quicksort (see the note for a quick summary). The sorting itself occurs in the `sort` function. The pivot chosen is the far right element for simplicity and performs comparisons in the array starting from `lo` and ending at the pivot index.
+For our examples, we will make use of the [Quicksort](https://www.youtube.com/watch?v=SLauY6PpjW4) algorithm.
 
-![Our Quicksort Algorithm](../resources/w4-05.png)
+**Quicksort** is an algorithm that sorts an array by first selecting an element in the array as a `pivot`.
 
-First, compile the program:
+Next, the elements are organized based on one of the following conditions:
+- Elements lower than the pivot.
+- Elements greater than the pivot.
+
+When the sorting is done, the same process is recursively called in the upper and lower partitions of the array, taking the pivot as the middle point.
+
+{{% notice note %}}
+Our version of quicksort assumes the leftmost element is the "greater" element and the rightmost element is the pivot within the partition.
+{{% /notice %}}
+
+|![Quicksort using pivot as the rightmost element.](../resources/debugging_process_quicksort.svg)|
+|:--:|
+|Figure 1: Quicksort using the rightmost element as the pivot and assuming the leftmost element is the "greater" element.|
+
+[GDB (GNU Project Debugger)](https://sourceware.org/gdb/) is a powerful debugger that lets you debug programs from the command line, which is useful in cases where you don’t have access to a GUI.
+
+It is important to understand how the program works to do effective debugging. Our 'quicksort' implementation runs a recursive implementation of quicksort and performs the sorting if the element is lesser than the pivot and assuming the first element is the "greater" element. The sorting itself occurs in the `partition` function.
+
+Open the **Shell** tab and compile the program:
 
 ```bash
 make Quicksort
 ```
 
-Now you can "attach" the program to gdb:
-```bash
-gdb examples/Quicksort
-```
-
 {{% notice note %}}
-When the program is compiled, we use two flags: `-g` and `-Og`. The first tells the compiler to add **debugging information**, meaning that without that flag, gdb would not be able to debug the program. The second tells the compiler to optimize the program in a way that wouldn't affect the program's run structure. Without `-Og`, the compiler could potentially optimize away some of your code, so a debugger would not be nearly as effective.
+When the program is compiled, the flags: `-g` and `-Og` are used. The first one tells the compiler to add **debugging information**, meaning that without that flag, gdb would not be able to debug the program. The second tells the compiler to optimize the program in a way that wouldn't affect the program's run structure. Without `-Og`, the compiler could potentially optimize away some of your code, so a debugger would not be nearly as effective.
 
 It is important to keep note of the second flag. For debugging, you should **ALWAYS** make sure the compiler makes minimal optimizations to your code because optimizations could drastically change how the code is run!
 {{% /notice %}}
 
+Run `gdb examples/Quicksort`. This will open the GDB command line interface. To debug a program with `gdb` you can use `gdb <name of program>`.
+
 You should see something like this:
 
-![GDB Sample Picture](../resources/w4-01.png)
+|![Running GDB on 'Quicksort' file.](../resources/w4-01.png)|
+|:--:|
+|Figure 2: Running GDB on 'Quicksort' file.|
 
-Make sure that GDB says that it is `Reading symbols from examples/Quicksort...`, otherwise you didn't attach the program to GDB. You can exit GDB by entering the command `quit` (or any of its prefixes: `q` works) as if it were the normal shell command line.
+Make sure that GDB says that it is `Reading symbols from ./examples/Quicksort...`, otherwise you didn't attach the program to GDB. You can exit GDB by entering the command `quit` (or any of its prefixes: `q` works) as if it were the normal shell command line.
 
 To debug the program, we need to run it from GDB. Enter the command `run` (or `r`). This will execute the program as if you'd run it from the normal command line.
 
-The program first prints the contents of the array to be sorted: an array index along with its corresponding value. This value is used to perform the sort. Next, it runs the sort algorithm, and finally, prints out the array sorted along its values. You can see how the array indices are shifted during the sort!
+The program first prints the contents of the array to be sorted: an array of unordered numbers. Next, it runs the sort algorithm, and finally, prints out the array sorted array. You can see how the array is shifted during the sort!
 
-However, it seems that there is an array entry out of place! In theory, we can add a print statement somewhere in the `sort`.
+However, it seems that the sorting is not happening as intended.
 
-From there, you can use one of the most important tools that GDB provides: **breakpoints**. A breakpoint tells the debugger to pause the program whenever it reaches that line of code as it is executing. This enables you to take a look at what is happening within the program in real time. Note that the debugger does not run the line of code the breakpoint is on until after you continue executing the program.
+Let's use one of the most important tools debuggers offer: **breakpoints**. A breakpoint tells the debugger to pause the program whenever it reaches that line of code as it is executing. This enables you to take a look at what is happening within the program in real-time. Note that the debugger does not run the line of code the breakpoint is on until after you continue executing the program.
 
 To create a breakpoint in GDB, use the following command syntax:
 `break <filename:line>`. For example, to create a breakpoint on line 15 in the **quicksort.c** file, use the following command:
+```bash
+break quicksort.c:27
 ```
-break quicksort.c:15
-```
 
-If you try running the program now using `run`, the program will halt when it reaches the breakpoint on line 14, and show you some information about the program, such as the line of code it is stopping on.
+If you try running the program now using `run`, the program will halt when it reaches the breakpoint on line 20, and show you some information about the program, such as the line of code it is stopping on.
 
-While the program is paused, you can see the values of variables. The print command evaluates an expression and prints it. For instance, `print hi` will print the variable `hi`. You can get more elaborate than that by using entire expressions - `print hi + 2` will evaluate `hi + 2` and print it. 
+While the program is paused, you can see the values of variables. We can use the `print` command to evaluate an expression and print it.
 
-You can manually step through your code by calling `next` (or `n`), which will tell the debugger to advance to the next line of code **without jumping into a function call**. A related command is `step`, which will move the debugger to the first line of code in a function call. You can try it out by creating a breakpoint within the `quicksort` function, and try either using `next` or `step` to see which line of code you'll land on next.
+For instance, `print high` will print the variable `high`. You can get more elaborate than that by using entire expressions - `print hi + 2` will evaluate `hi + 2` and print it. 
+
+You can manually step through your code by calling `next` (or `n`), which will tell the debugger to advance to the next line of code **without jumping into a function call**. The `step` command will move the debugger to the first line of code in a function call.
+
+You can try it out by creating a breakpoint within the `partition` function, and try either using `next` or `step` to see which line of code you'll land on next.
 
 If you want to have your code continue running until the next breakpoint, you can use the `continue` (or `c`) command. Finally, to delete a breakpoint, you can use the `delete` (or `d`) command followed by the breakpoint number, which you see when you set the breakpoint.
 
-Another useful command to know is `bt` or `backtrace`. This shows you the calling stack, or which functions were called to get to the line of code the program is halted on. This can help track the execution order and find control flow bugs. It also works well to find out how a program crashed by seeing the functions that led up to the crash. 
+Another useful command to know is `bt` or `backtrace`. This shows you the calling stack, or which functions were called to get to the line of code the program is halted on. 
+
+![Call stack of our program.]
+
+This can help track the execution order. It also works well to find out how a program crashed by seeing the functions that led up to the crash. 
 
 There are plenty of commands GDB offers. We recommend using a cheat sheet that you can find online.
 
 * [Reference 1](https://gist.github.com/rkubik/b96c23bd8ed58333de37f2b8cd052c30)
 * [Reference 2](https://cs.brown.edu/courses/cs033/docs/guides/gdb.pdf)
 
-### Planning Where to Place Breakpoints
+### Placing Breakpoints Effectively
 
-For this example, where is all the sorting taking place?
-{{% expand "*Click to show answer*" %}}
-The sorting takes place within the `for` loop. Here, the elements are being moved around. 
-
-Another place the sorting takes place is in the base case - if there are two elements, the function simply swaps the values if they are not sorted. Does the code reflect that?
+First let's identify where all of the element sorting takes place. Do you know where the sorting is happening?
+{{% expand "***Answer***" %}}
+The sorting takes place within the `for` loop and at the end of the process when the pivot is changed with the "greater" element.
 {{% /expand %}}
 <br/>
-You should now insert a breakpoint where much of the sorting takes place (with the `break` command). Next, enter the `run` command, and say 'yes' if GDB asks you to restart the program. The program should stop at your breakpoint.
 
-Here's where the frustrating part happens - you need to find the faulty variables that cause your program to not work as expected. What variables are changing within the loop?
-
-{{% expand "*Click to show answer*" %}}
-`i`, `pivotIdx`, and `tmp` change (technically `tmp` is declared inside the loop though). 
-{{% /expand %}}
-<br/>
-You can make GDB display these variables every time the debugger pauses by using the `disp` command. Run these two commands:
-
+Place a breakpoint inside the `for` loop and run the program:
 ```bash
-disp i
-disp pivotIdx
+(gdb) break quicksort.c:27
+(gdb) run 
 ```
 
-Now, whenever the debugger stops, it'll display the values of `i` and `pivotIdx`.
+You need to find the faulty variables that cause your program to not work as expected. Try and see if you can spot the problem!
 
-At this stage, it is crucial to understand what the implementation is doing. Refer to the picture above to get an idea of the process, then try to match it with the code. Next, run a few iterations of the loop, watching the indices update. If you need a hint, open the expander below.
+{{% expand "***Hint: Keep an eye on how the variables in the loop change.***" %}}
+Since we placed the breakpoint inside the loop, on each iteration we should see the values `p1` and `p2` change.
 
-{{% expand "*Click to show hint*"%}}
-When should `i` be updated - in the loop header, or under certain conditions within the loop body?
+Try printing these variables each time the debugger stops your code.
+
+```bash
+(gdb) disp p1
+(gdb) disp p2
+```
+{{% /expand %}}
+{{% expand "***Answer***" %}}
+The `p1` variable is not being increased when a number lesser than the pivot is found. Remember that our version will assume that each time a lesser element is found the pointer for the greater element must be updated
+
+Add `p1++;` after the `swap` statement in line 27.
+
+|![Fixing our quicksort algorithm.](../resources/debugging_process_fixing_quicksort.svg)|
+|:--:|
+|Figure 3: Fixing our quicksort algorithm.|
+
 {{% /expand %}}
 <br/>
 
-Note that all debuggers should have the same basic concepts: they allow you to step through your code as it runs, in real time. You should almost always use debuggers over print statements. You won't regret it!
+Note that all debuggers should have the same basic concepts: they allow you to step through your code as it runs, in real-time. You should almost always use debuggers over print statements. You won't regret it!
 
 ## Another Type of Bug: Memory Errors
 
