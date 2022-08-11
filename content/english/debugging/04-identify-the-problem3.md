@@ -29,7 +29,7 @@ Our version of quicksort assumes the leftmost element is the "greater" element a
 |:--:|
 |Figure 1: Quicksort using the rightmost element as the pivot and assuming the leftmost element is the "greater" element.|
 
-[GDB (GNU Project Debugger)](https://sourceware.org/gdb/) is a powerful debugger that lets you debug programs from the command line, which is useful in cases where you don’t have access to a GUI.
+[GDB (GNU Project Debugger)](https://sourceware.org/gdb/) is a powerful debugger that lets you debug programs from the command line, which is useful in cases where you don’t have access to a GUI (Graphical User Interface).
 
 It is important to understand how the program works to do effective debugging. Our 'quicksort' implementation runs a recursive implementation of quicksort and performs the sorting if the element is lesser than the pivot and assuming the first element is the "greater" element. The sorting itself occurs in the `partition` function.
 
