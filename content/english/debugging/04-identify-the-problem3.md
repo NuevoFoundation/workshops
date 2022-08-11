@@ -11,7 +11,7 @@ Debugging code is such a widespread, common problem that people have built entir
 
 <iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Debugging-Samples-C?lite=true#quicksort/quicksort.c" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-For our examples, we will make use of the [Quicksort](https://www.youtube.com/watch?v=SLauY6PpjW4) algorithm.
+For our examples, we will make use of the <a href="https://www.youtube.com/watch?v=SLauY6PpjW4" target="_blank">Quicksort</a> algorithm.
 
 **Quicksort** is an algorithm that sorts an array by first selecting an element in the array as a `pivot`.
 
@@ -82,8 +82,6 @@ You can try it out by creating a breakpoint within the `partition` function, and
 If you want to have your code continue running until the next breakpoint, you can use the `continue` (or `c`) command. Finally, to delete a breakpoint, you can use the `delete` (or `d`) command followed by the breakpoint number, which you see when you set the breakpoint.
 
 Another useful command to know is `bt` or `backtrace`. This shows you the calling stack, or which functions were called to get to the line of code the program is halted on. 
-
-![Call stack of our program.]
 
 This can help track the execution order. It also works well to find out how a program crashed by seeing the functions that led up to the crash. 
 
