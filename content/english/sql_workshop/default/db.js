@@ -12,7 +12,7 @@ alasql("INSERT INTO galaxy VALUES (8,'Ocean World','Oliver Stuart',10000,10)");
 alasql("INSERT INTO galaxy VALUES (9,'Space Zone','N/A',0,11)");
 alasql("INSERT INTO galaxy VALUES (10,'Eeh-Eeh','Amelia Tudor',90000,24)");
 alasql("INSERT INTO galaxy VALUES (11,'Planet of Pizza','N/A',10000,27)");
-alasql("INSERT INTO galaxy VALUES (12,'Planet of Tacos','Jack Planta',900,60)");  
+alasql("INSERT INTO galaxy VALUES (12,'Planet of Tacos','Jack Planta',900,60)");
 
 // Planet database
 alasql("CREATE TABLE planet(city_number INT, name STRING, population INT, favorite_food STRING)");

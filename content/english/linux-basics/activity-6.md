@@ -15,12 +15,12 @@ weight: 9
 `grep` (<b>g</b>lobal search for <b>r</b>egular <b>e</b>xpression and <b>p</b>rint the result) is a command used to search for text within files. There are different flags or options that can change how it is used.  
 The format is: `grep [flag] “[pattern]” [filename]`.
 
-| flags | Uses |
-| :--- | :---- |
-| -c | To get the number of files with the pattern. |
-| -i | To make the search case-insensitive. “uNiX” is the same as “unix” |
-| -n | To return matched lines and their line numbers. |
-| -R | Search all files in current directory. |
+| flags | Uses                                                              |
+| :---- | :---------------------------------------------------------------- |
+| -c    | To get the number of files with the pattern.                      |
+| -i    | To make the search case-insensitive. “uNiX” is the same as “unix” |
+| -n    | To return matched lines and their line numbers.                   |
+| -R    | Search all files in current directory.                            |
 
 *Let's practice this command to find my secret-message.txt! Let's try the following command:*
 

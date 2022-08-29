@@ -6,9 +6,7 @@ hidden: true
 weight: 6
 ---
 
-
 One of the common array operations is to iterate over the values and process each one of them in some way. Let's go over and discuss some of the simplest ways to achieve this:
-
 
 # Array.forEach()
 The `forEach()` method calls a function (a callback function. In this case, function named printBr) once for each array element.

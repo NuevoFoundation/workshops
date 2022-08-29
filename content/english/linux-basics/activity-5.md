@@ -75,13 +75,13 @@ chmod 751 [insert filename]
 The values can be understood as giving users the permission to read, write, and execute.  
 What permissions do the other two values give?  
 
-| Number | Meaning |
-| :---: | :---: |
-| 7 | read + write + execute |
-| 6 | read + write |
-| 5 | read + execute |
-| 4 | read |
-| 3 | execute + write |
-| 2 | write |
-| 1 | execute |
-| 0 | no permission |
+| Number |        Meaning         |
+| :----: | :--------------------: |
+|   7    | read + write + execute |
+|   6    |      read + write      |
+|   5    |     read + execute     |
+|   4    |          read          |
+|   3    |    execute + write     |
+|   2    |         write          |
+|   1    |        execute         |
+|   0    |     no permission      |

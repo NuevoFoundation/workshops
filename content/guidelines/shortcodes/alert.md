@@ -8,9 +8,9 @@ The `alert` shortcode allow you to highlight information in your page. They crea
 {{%alert%}}**This is** an alert !{{%/alert%}}
 ## Usage 
 
-| Parameter | Default | Description |
-|:--|:--|:--|
-| theme | `info` | `success`, `info`,`warning`,`danger` |
+| Parameter | Default | Description                          |
+| :-------- | :------ | :----------------------------------- |
+| theme     | `info`  | `success`, `info`,`warning`,`danger` |
 
 {{%alert info%}}
 **Tips :** setting only the theme as argument works too : 

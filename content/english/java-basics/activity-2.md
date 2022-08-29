@@ -37,13 +37,13 @@ In general, to declare a variable we write them in the format: `[data type] [var
 {{% notice note %}}
 The following are the important data types that have been built-in in Java:
 
-**Type** | **Description** | **Examples**
---------|-----------|----------
-`int` | integer | `20`, `30`, `35`
-`char` | character such as a symbol or a single alphabet letter | `'A'`,`'b'`, `'('`, `']'`
-`String` | a sequence of `char` | `"Hello"`, `"Bonjour"`, `"Hola"`
-`boolean` | has a value of either `true` or `false` | `true`, `false`
-double | fractional numbers | `2.0`, `3.14`, `9.33`
+| **Type**  | **Description**                                        | **Examples**                     |
+| --------- | ------------------------------------------------------ | -------------------------------- |
+| `int`     | integer                                                | `20`, `30`, `35`                 |
+| `char`    | character such as a symbol or a single alphabet letter | `'A'`,`'b'`, `'('`, `']'`        |
+| `String`  | a sequence of `char`                                   | `"Hello"`, `"Bonjour"`, `"Hola"` |
+| `boolean` | has a value of either `true` or `false`                | `true`, `false`                  |
+| double    | fractional numbers                                     | `2.0`, `3.14`, `9.33`            |
 
 {{% /notice %}}
 

@@ -10,8 +10,8 @@ Methods represent some action we wish to perform on the array. They can be used 
 
 To make things easier, arrays provide a lot of methods. Let's go over some of the basic ones which would give you an idea of they look like.
 
-
 {{% notice note %}}
+
 
 #### How is it different compared to properties ?
 

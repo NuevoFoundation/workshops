@@ -37,12 +37,12 @@ There are 2 parts in a method: header and body:
 
 To define a method, we need to first write out its <b>method header</b>. A method header has four main parts:
 
-**Part Name** | **Description** | **Examples or possible options**
-----|----|----
-**access specifier** | provides the level of access to the method  | `public` tells the computer that anyone can use this method. `private` tells the computer it can only be called within a class. (We'll learn about classes on the next page!) `protected` tells the computer it can be called by objects of the same class.
-**return type** | data type that is returned to the calling function | use `void` if the method doesn't return anything.
-**method name** | name of the method used to call it | user defined based on what the method does
-**list of parameters** | list of inputs that must be provided when the method is used | format of (`type` `input name`, `type` `input name`, ... ).
+| **Part Name**          | **Description**                                              | **Examples or possible options**                                                                                                                                                                                                                            |
+| ---------------------- | ------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **access specifier**   | provides the level of access to the method                   | `public` tells the computer that anyone can use this method. `private` tells the computer it can only be called within a class. (We'll learn about classes on the next page!) `protected` tells the computer it can be called by objects of the same class. |
+| **return type**        | data type that is returned to the calling function           | use `void` if the method doesn't return anything.                                                                                                                                                                                                           |
+| **method name**        | name of the method used to call it                           | user defined based on what the method does                                                                                                                                                                                                                  |
+| **list of parameters** | list of inputs that must be provided when the method is used | format of (`type` `input name`, `type` `input name`, ... ).                                                                                                                                                                                                 |
 
 ```
 // an example

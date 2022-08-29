@@ -25,9 +25,9 @@ When the sorting is done, the same process is recursively called in the upper an
 Our version of quicksort assumes the leftmost element is the "greater" element and the rightmost element is the pivot within the partition.
 {{% /notice %}}
 
-|![Quicksort using pivot as the rightmost element.](../resources/debugging_process_quicksort.svg)|
-|:--:|
-|Figure 1: Quicksort using the rightmost element as the pivot and assuming the leftmost element is the "greater" element.|
+|             ![Quicksort using pivot as the rightmost element.](../resources/debugging_process_quicksort.svg)             |
+| :----------------------------------------------------------------------------------------------------------------------: |
+| Figure 1: Quicksort using the rightmost element as the pivot and assuming the leftmost element is the "greater" element. |
 
 [GDB (GNU Project Debugger)](https://sourceware.org/gdb/) is a powerful debugger that lets you debug programs from the command line, which is useful in cases where you don’t have access to a GUI (Graphical User Interface).
 
@@ -49,9 +49,9 @@ Run `gdb examples/Quicksort`. This will open the GDB command line interface. To 
 
 You should see something like this:
 
-|![Running GDB on 'Quicksort' file.](../resources/w4-01.png)|
-|:--:|
-|Figure 2: Running GDB on 'Quicksort' file.|
+| ![Running GDB on 'Quicksort' file.](../resources/w4-01.png) |
+| :---------------------------------------------------------: |
+|         Figure 2: Running GDB on 'Quicksort' file.          |
 
 Make sure that GDB says that it is `Reading symbols from ./examples/Quicksort...`, otherwise you didn't attach the program to GDB. You can exit GDB by entering the command `quit` (or any of its prefixes: `q` works) as if it were the normal shell command line.
 
@@ -121,9 +121,9 @@ The `p1` variable is not being increased when a number lesser than the pivot is 
 
 Add `p1++;` after the `swap` statement in line 27.
 
-|![Fixing our quicksort algorithm.](../resources/debugging_process_fixing_quicksort.svg)|
-|:--:|
-|Figure 3: Fixing our quicksort algorithm.|
+| ![Fixing our quicksort algorithm.](../resources/debugging_process_fixing_quicksort.svg) |
+| :-------------------------------------------------------------------------------------: |
+|                        Figure 3: Fixing our quicksort algorithm.                        |
 
 {{% /expand %}}
 <br/>

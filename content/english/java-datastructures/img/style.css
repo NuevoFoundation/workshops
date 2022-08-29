@@ -1,19 +1,19 @@
 p {
-    margin-center: auto;
-    padding: 1em 1em 1em 1em; 
-    margin-left: auto; 
-    margin-right: auto; 
-    width: 80em; 
-    font-size: 1vw; 
-    font-family: sans-serif; 
-    color:grey; 
-    line-height: 200%
+  margin-center: auto;
+  padding: 1em 1em 1em 1em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80em;
+  font-size: 1vw;
+  font-family: sans-serif;
+  color: grey;
+  line-height: 200%
 }
 
 h1 {
-    font-size:2vw; 
-    font-family: sans-serif; 
-    font-weight: 600;
+  font-size: 2vw;
+  font-family: sans-serif;
+  font-weight: 600;
 }
 
 .show-hide-text {
@@ -45,11 +45,11 @@ h1 {
   display: block;
 }
 
-.show-less:target ~ p {
+.show-less:target~p {
   display: block;
   max-height: 100%;
 }
 
-.show-less:target + a {
+.show-less:target+a {
   display: none;
 }

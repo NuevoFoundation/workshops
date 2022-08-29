@@ -18,11 +18,11 @@ Console.WriteLine(6 * (9 - 7) / 3);
 
 Here is the full list of math symbols that you can use:
 
-| Operator | Description | Operator     | Description        |
-| -------- | ----------- | ------------ | ------------------ |
-| `+`      | Add         | `\`          | Divide             | 
-| `-`      | Subtract    | `%`          | Modulo (remainder) |
-| `*`      | Multiply    | `(`,`)`      | Parenthesis        |
+| Operator | Description | Operator | Description        |
+| -------- | ----------- | -------- | ------------------ |
+| `+`      | Add         | `\`      | Divide             |
+| `-`      | Subtract    | `%`      | Modulo (remainder) |
+| `*`      | Multiply    | `(`,`)`  | Parenthesis        |
 
 {{% notice info %}}
 

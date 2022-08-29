@@ -31,9 +31,10 @@
 }
 
 /* Vault buttons (Adding)*/
-.first_up, .sec_up {
+.first_up,
+.sec_up {
   float: left;
-  background-color:#42f56c;
+  background-color: #42f56c;
   border: none;
   color: white;
   text-align: center;
@@ -46,7 +47,8 @@
 }
 
 /* Vault buttons (Subtracting)*/
-.first_down, .sec_down {
+.first_down,
+.sec_down {
   float: left;
   background-color: #FF0000;
   border: none;
@@ -58,7 +60,7 @@
   width: 34%;
   line-height: 20px;
   outline: none;
-  
+
 }
 
 /* Vault confirm button */
@@ -72,7 +74,7 @@
   background-color: transparent;
   outline: none;
   width: 100px;
-  
+
 }
 
 /* Vault container with background image as vault */

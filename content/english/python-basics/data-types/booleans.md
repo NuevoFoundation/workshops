@@ -50,16 +50,16 @@ Try making your own expressions!
 
 You can also connect boolean expressions together using the AND and the OR operator. Here's a chart that describes what happens when we connect booleans together:
 
-Expression  | Result 
-------------|----------
-<font color="blue">True</font> and <font color="blue">True</font>  | <font color="blue">True</font> 
-<font color="blue">True</font>  and <font color="blue">False</font> | <font color="blue">False</font>
-<font color="blue">False</font> and <font color="blue">True</font> | <font color="blue">False</font>
-<font color="blue">False</font> and <font color="blue">False</font> | <font color="blue">False</font>
-<font color="blue">True</font>  or <font color="blue">True</font>  | <font color="blue">True</font> 
-<font color="blue">True</font>  or <font color="blue">False</font> | <font color="blue">True</font> 
-<font color="blue">False</font> or <font color="blue">True</font>  | <font color="blue">True</font> 
-<font color="blue">False</font>  and <font color="blue">False</font> | <font color="blue">False</font>
+| Expression                                                           | Result                          |
+| -------------------------------------------------------------------- | ------------------------------- |
+| <font color="blue">True</font> and <font color="blue">True</font>    | <font color="blue">True</font>  |
+| <font color="blue">True</font>  and <font color="blue">False</font>  | <font color="blue">False</font> |
+| <font color="blue">False</font> and <font color="blue">True</font>   | <font color="blue">False</font> |
+| <font color="blue">False</font> and <font color="blue">False</font>  | <font color="blue">False</font> |
+| <font color="blue">True</font>  or <font color="blue">True</font>    | <font color="blue">True</font>  |
+| <font color="blue">True</font>  or <font color="blue">False</font>   | <font color="blue">True</font>  |
+| <font color="blue">False</font> or <font color="blue">True</font>    | <font color="blue">True</font>  |
+| <font color="blue">False</font>  and <font color="blue">False</font> | <font color="blue">False</font> |
 
 To summarize, AND requires both boolean expressions to be true, while OR only requires one of the two Boolean expressions to be true. Here are some more examples:
 

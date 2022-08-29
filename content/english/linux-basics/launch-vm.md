@@ -22,8 +22,8 @@ As the virtual machine is getting started, it may show some warnings like in the
 First you will need to log in. Use these *credentials* to get started!
 
 | Username | Password |
-| :---: | :---: |
-| nuvi | nuevo123 |
+| :------: | :------: |
+|   nuvi   | nuevo123 |
 
 {{% notice warning %}}
 This is not good password security! It is only intended for the purposes of this workshop.

@@ -29,13 +29,13 @@ age = age + 1;// add 1 to age
 {{% notice note %}}
 The following are the arithmetic operators in Java:
 
-**Operator** | **Description** | **Example**
-------|------|--------
-`+` | addition | `1 + 1 = 2`
-`-` | subtraction | `2 - 1 = 1`
-`*` | multiplication | `3 * 3 = 9`
-`/` | division | `9 / 3 = 3`
-`%` | modulus/remainder | `10 % 4 = 2`
+| **Operator** | **Description**   | **Example**  |
+| ------------ | ----------------- | ------------ |
+| `+`          | addition          | `1 + 1 = 2`  |
+| `-`          | subtraction       | `2 - 1 = 1`  |
+| `*`          | multiplication    | `3 * 3 = 9`  |
+| `/`          | division          | `9 / 3 = 3`  |
+| `%`          | modulus/remainder | `10 % 4 = 2` |
 
 **Note**: If both of the operands of division are integers, the result will also be an integer. For example, `10 / 4` returns 2, not 2.5 since we throw away the remainder. If either of the operands is a double, the result will be a double.
 
@@ -62,14 +62,14 @@ Just like in math, we can compare numbers using `>`, `<`, `>=`, `<=`. For exampl
 {{% notice note %}}
 The following are the relational operators in Java:
 
-**Operator** | **Description** | **Example**
-------| ------| ------
-`==` | equal to | `(3 == 3)` is `true`
-`!=` | not equal to | `(3 != 3)` is `false`
-`>` | greater than | `(3 > 2)` is `true`
-`<` | less than | `(3 < 2)` is `false`
-`>=` | greater than or equal to | `(3 >= 2)` is `true`
-`<=` | less than or equal to | `(2 <= 2)` is `true`
+| **Operator** | **Description**          | **Example**           |
+| ------------ | ------------------------ | --------------------- |
+| `==`         | equal to                 | `(3 == 3)` is `true`  |
+| `!=`         | not equal to             | `(3 != 3)` is `false` |
+| `>`          | greater than             | `(3 > 2)` is `true`   |
+| `<`          | less than                | `(3 < 2)` is `false`  |
+| `>=`         | greater than or equal to | `(3 >= 2)` is `true`  |
+| `<=`         | less than or equal to    | `(2 <= 2)` is `true`  |
 
 Note: `==` and `!=` can only be used on data of the same type. For example:
 ```java

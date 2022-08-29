@@ -35,10 +35,10 @@ That's all !
 
 ### parameters
 
-| Parameter | Default | Description |
-|:--|:--|:--|
-| title | "Attachments" | List's title  |
-| pattern | ".*" | A regular expressions, used to filter the attachments by file name. <br/><br/>{{%alert warning%}}The **pattern** parameter value must be [regular expressions](https://en.wikipedia.org/wiki/Regular_expression).
+| Parameter | Default       | Description                                                                                                                                                                                                       |
+| :-------- | :------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| title     | "Attachments" | List's title                                                                                                                                                                                                      |
+| pattern   | ".*"          | A regular expressions, used to filter the attachments by file name. <br/><br/>{{%alert warning%}}The **pattern** parameter value must be [regular expressions](https://en.wikipedia.org/wiki/Regular_expression). |
 
 For example:
 

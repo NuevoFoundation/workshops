@@ -18,9 +18,9 @@ In smaller applications, we can use print statements in the code to quickly figu
 
 One of the simpler algorithms you will learn or have learned is binary search, which lets you search for an item in a sorted list in logarithmic time. The idea is to check the middle of the sorted list and see if it matches the element we want; if we find the element, the algorithm is finished. If the element is higher, we search the upper half of the list. Otherwise, we search the lower half of the list. We repeat the process until we find the item we are searching for.
 
-|![Searching for number 7 in an ordered list of 10 numbers using Binary Search](../resources/binary_search.svg)|
-|:--:|
-|Searching for number **7** in an ordered list of **10** numbers using Binary Search|
+| ![Searching for number 7 in an ordered list of 10 numbers using Binary Search](../resources/binary_search.svg) |
+| :------------------------------------------------------------------------------------------------------------: |
+|              Searching for number **7** in an ordered list of **10** numbers using Binary Search               |
 
 <iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Debugging-Samples-C?lite=true#binary_search/binary_search.c" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
@@ -38,9 +38,9 @@ Run the program like so:
 
 You should see a list of names and their numbers in a list. Search Emily by typing 6 on the prompt and click `Enter`.
 
-|![Searching for Amy](../resources/debugging_process_searching_for_amy.svg)|
-|:--:|
-|Searching for Amy.|
+| ![Searching for Amy](../resources/debugging_process_searching_for_amy.svg) |
+| :------------------------------------------------------------------------: |
+|                             Searching for Amy.                             |
 
 Now run the program again and search for the number for `Ramona`. The program breaks with a `Segmentation fault (core dumped)` message! 😮
 
@@ -71,9 +71,9 @@ Placing `print` statements across your code is a dirty but sometimes effective w
 
 {{% expand "***Hint 1: What makes the problem we are trying to solve smaller?***" %}} 
 - Try placing the print statement after the `middle` variable on the `rbinary_search` function to see how the `lo`, `hi` and `middle` values are changing. Go ahead and search something. 
-|![Placing print statement to check values "lo", "hi" and "middle".](../resources/debugging_process_print_statement.svg)|
-|:--:|
-|Placing print statement to check values `lo`, `hi` and `middle`.|
+| ![Placing print statement to check values "lo", "hi" and "middle".](../resources/debugging_process_print_statement.svg) |
+| :---------------------------------------------------------------------------------------------------------------------: |
+|                            Placing print statement to check values `lo`, `hi` and `middle`.                             |
 
 - Keep an eye on the values as they get printed.
 {{% /expand %}}
@@ -83,13 +83,13 @@ The recursive call for searching on the lower half of the array is searching on 
 
 To fix it, the `lo` and `hi` arguments of the `rbin_search()` need to be `lo` and `middle-1`.
 
-|![Fixing lower half recursive call.](../resources/debugging_process_fixing_lowerhalf_search.svg)|
-|:--:|
-|Fixing lower half recursive call.|
+| ![Fixing lower half recursive call.](../resources/debugging_process_fixing_lowerhalf_search.svg) |
+| :----------------------------------------------------------------------------------------------: |
+|                                Fixing lower half recursive call.                                 |
 
-|![Looking how the "lo", "hi" and "middle" variables change when searching for Becky.](../resources/debugging_process_searching_for_becky.svg)|
-|:--:|
-|Looking how the "lo", "hi" and "middle" variables change when searching for Becky.|
+| ![Looking how the "lo", "hi" and "middle" variables change when searching for Becky.](../resources/debugging_process_searching_for_becky.svg) |
+| :-------------------------------------------------------------------------------------------------------------------------------------------: |
+|                              Looking how the "lo", "hi" and "middle" variables change when searching for Becky.                               |
 
 Run your program again and search for a number below `5` and see how the `lo`, `hi` and `index` change.
 {{% /expand %}}

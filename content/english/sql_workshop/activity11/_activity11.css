@@ -1,5 +1,10 @@
 /* Food Buttons (Default positions and style) */
-.cake, .ice_cream, .hot_dog, .burger, .taco, .pizza {
+.cake,
+.ice_cream,
+.hot_dog,
+.burger,
+.taco,
+.pizza {
   float: left;
   outline: none;
   background: url("assets/cake.png");
@@ -89,7 +94,7 @@
   background-color: #FF0000;
   height: 70px;
   width: 120px;
-  
+
 }
 
 /* Vendor container */

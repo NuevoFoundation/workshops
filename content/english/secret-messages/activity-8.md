@@ -23,7 +23,6 @@ svox hrbguoecvg, zye wiquuee lgk iz a jgvpl rgfgqr. wvv fzggls ooxzu hvoj eazy p
 programador
 ```
 
-
 <iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/activity-8-english?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 {{< alert theme="danger" >}}**Important:** To paste into the console, right click the console and click "Paste". Otherwise, the paste operation may not work correctly. {{< /alert >}}

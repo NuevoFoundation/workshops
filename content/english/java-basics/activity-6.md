@@ -49,11 +49,11 @@ A class is a blueprint or prototype of a new type of object. In general, a class
 
 <img src="../images/class.png" height="400" alt="A Class blueprint for an object contains instance varialbes/data fields which are data/attributes in the object, constructor which are methods that creates the obejct of the class, and methods, which are behaviors possible for the object."/> 
 
-**Element** | **Description** | **Example**
----|---|---
-**data fields/instance variables** | variables an object of this class has access to that describe the object | Person class has fields eyeColor, age, height.
-**constructor** | method called to create an object from this Class | There can be more than one constructor per class
-**methods** | methods an object of this class will be able to call to perform certain tasks | Person class has methods talk and walk.
+| **Element**                        | **Description**                                                               | **Example**                                      |
+| ---------------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------ |
+| **data fields/instance variables** | variables an object of this class has access to that describe the object      | Person class has fields eyeColor, age, height.   |
+| **constructor**                    | method called to create an object from this Class                             | There can be more than one constructor per class |
+| **methods**                        | methods an object of this class will be able to call to perform certain tasks | Person class has methods talk and walk.          |
 
 For example:
 

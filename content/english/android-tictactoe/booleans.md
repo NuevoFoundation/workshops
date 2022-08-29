@@ -33,12 +33,12 @@ Delete all your `System.out.println` text in your code. Try guessing the answers
 
 You can also connect boolean expressions together using the `&&` (AND) and the `||` (OR) operator. For example, suppose I ask: "Are you a human, and is Nuvi a robot?" The word "and" connects the two true-false questions together. In this case, since it is true that you are a human, and it is also true that Nuvi is a robot, then the overall result is `true`. Here's a chart that describes what happens when we connect booleans together:  
 
-| Expression                  | Result   | Expression                            | Result  |
-| --------------------------- | -------- | ------------------------------------- | ------- |
-| <code>true && true</code>   | `true`   | <code>true &#124;&#124; true</code>   | `true`  |
-| <code>true && false</code>  | `false`  | <code>true &#124;&#124; false</code>  | `true`  |
-| <code>false && true</code>  | `false`  | <code>false &#124;&#124; true</code>  | `true`  |
-| <code>false && false</code> | `false`  | <code>false &#124;&#124; false</code> | `false` | 
+| Expression                  | Result  | Expression                            | Result  |
+| --------------------------- | ------- | ------------------------------------- | ------- |
+| <code>true && true</code>   | `true`  | <code>true &#124;&#124; true</code>   | `true`  |
+| <code>true && false</code>  | `false` | <code>true &#124;&#124; false</code>  | `true`  |
+| <code>false && true</code>  | `false` | <code>false &#124;&#124; true</code>  | `true`  |
+| <code>false && false</code> | `false` | <code>false &#124;&#124; false</code> | `false` |
 
 To summarize, `&&` requires both Boolean expressions to be true, while `||` only requires one of the two Boolean expressions to be true. Here are some more examples:
 

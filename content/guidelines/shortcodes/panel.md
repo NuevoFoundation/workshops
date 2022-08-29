@@ -10,11 +10,11 @@ description = "Allow you to highlight information or put it in a box."
 
 ## Usage 
 
-| Parameter | Default | Description |
-|:--|:--|:--|
-| header | none | The title of the panel. If specified, this title will be displayed in its own header row. |
-| footer | none | the footer of the panel. If specified, this text will be displayed in its own row |
-| theme | `primary` | `default`,`primary`,`info`,`success`,`warning`,`danger` |
+| Parameter | Default   | Description                                                                               |
+| :-------- | :-------- | :---------------------------------------------------------------------------------------- |
+| header    | none      | The title of the panel. If specified, this title will be displayed in its own header row. |
+| footer    | none      | the footer of the panel. If specified, this text will be displayed in its own row         |
+| theme     | `primary` | `default`,`primary`,`info`,`success`,`warning`,`danger`                                   |
 
 ## Basic example
 

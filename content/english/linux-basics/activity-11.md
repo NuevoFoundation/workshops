@@ -22,11 +22,11 @@ An archive is a collection of archive files. An archive file holds the compresse
 
 The format is: `tar [filenames]`.
 
-| flags | Uses |
-| :--- | :--- |
-| -c | creates archive |
-| -x | extracts archive |
-| -f | creates archive with given filename |
+| flags | Uses                                |
+| :---- | :---------------------------------- |
+| -c    | creates archive                     |
+| -x    | extracts archive                    |
+| -f    | creates archive with given filename |
 
 Use `tar` to secure your directory of `files`! You are going to want to create an archive with the name `files.tar.gz`.
 

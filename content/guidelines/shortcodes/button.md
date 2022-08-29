@@ -9,11 +9,11 @@ Display an actionable button in your page.
 
 ## Usage 
 
-| Parameter | Default | Description |
-|:--|:--|:--|
-| href | "" | The location href to link to |
-| align | "center" | horizontal align button on page |
-| theme | `primary` | `default`, `primary` , `success`,`info`,`warning`,`danger` |
+| Parameter | Default   | Description                                                |
+| :-------- | :-------- | :--------------------------------------------------------- |
+| href      | ""        | The location href to link to                               |
+| align     | "center"  | horizontal align button on page                            |
+| theme     | `primary` | `default`, `primary` , `success`,`info`,`warning`,`danger` |
 
 The inner text you place in short code will be displayed as the _button text_
 
