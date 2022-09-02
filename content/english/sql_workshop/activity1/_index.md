@@ -54,7 +54,7 @@ The `SELECT` command allows you to choose what data to show from a database.
 <div id="div9" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
 <div id="div10" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
 
-<div style="clear: both;"></div> 
+<div style="clear: both;"></div>
 
 <br>
 
