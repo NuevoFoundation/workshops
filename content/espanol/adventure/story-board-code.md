@@ -10,7 +10,7 @@ Es hora de abrir repl.it. ¡Ahora es el momento de crear, vamos a ser creativos!
 
 Puedes seguir trabajando en la historia de Nuvi:
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonGuessAdventureNuevoSample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/PythonGuessAdventureNuevoSample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
   ```Python
   #Here is Nuvi's Adventure!
@@ -38,7 +38,7 @@ Puedes seguir trabajando en la historia de Nuvi:
 
 Ahora tu puedes trabajar en tu propio codigo para elegir tu propio juego de 'Elegir tu aventura':
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonGuessAdventureBlank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/PythonGuessAdventureBlank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ```Python
   #Esta es una plantilla para elegir tu propia aventura
@@ -74,4 +74,4 @@ Ahora tu puedes trabajar en tu propio codigo para elegir tu propio juego de 'Ele
     print(choice_4)
   ```
 
-¡O puede empezar de cero y hacerlo suyo! ¡Solo ve a repl.it y empieza a contar historias!
+¡O puede empezar de cero y hacerlo suyo! ¡Solo ve a Replit y empieza a contar historias!

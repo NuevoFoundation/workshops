@@ -36,7 +36,7 @@ You can see that the text in the image created above is in a small, default font
 To start, you can use the font we use in this workshop: <a href="../media/Roboto-Bold.ttf" download>Click to download.</a>
 
 To use this font, you can do the following:
-1. Upload the TTF file to repl.it in the same place as your code. 
+1. Upload the TTF file to Replit in the same place as your code. 
 2. In your `main.py` file, we need to add a few more things to use the font within our meme.  First, at the top of the file, add another `import` line to use the `ImageFont` library.    
 ```python
 from PIL import Image

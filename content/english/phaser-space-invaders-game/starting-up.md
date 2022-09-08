@@ -7,7 +7,7 @@ weight: 1
 
 ## Starting Up
 
-To begin, open your preferred internet browser (such as Edge, Firefox, Google Chrome, Internet Explorer), and go to <a href="https://repl.it/@nuevofoundation/Phaser-Space-Invaders#index.html" target="_blank">https://repl.it/@nuevofoundation/Phaser-Space-Invaders</a>. Your screen should look like this:
+To begin, open your preferred internet browser (such as Edge, Firefox, Google Chrome, Internet Explorer), and go to <a href="https://replit.com/@nuevofoundation/Phaser-Space-Invaders#index.html" target="_blank">https://replit.com/@nuevofoundation/Phaser-Space-Invaders</a>. Your screen should look like this:
 
 ![repl.it main screen](../media/1/welcome-screen.PNG)
 

@@ -15,7 +15,7 @@ For loops iterate over a sequence.  Let's say you wanted to repeat a simple task
 
 The following for loop iterates through each of the numbers in the list [1,2,3,4,5], and assigns the value x to it.  Then, it executes the code within the for loop.
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Loops-forloop-range?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Loops-forloop-range?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 What if you wanted to repeat a task 10 times instead? 100 times? 1000 times??
 
@@ -29,14 +29,14 @@ range(1,11)
 ```
 
 The list in the for loop doesn't just have to be numbers, it can be anything!  Here is another example of what you can do with it:
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/python-forloop-fruits?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/python-forloop-fruits?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### While loops
 
 While loops are similar to for loops, but instead of iterating over a sequence, they repeat for as long as a certain condition is met.
 For example, let's create a while loop that repeates 5 times.
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/python-loops-while?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/python-loops-while?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 As you can see, all of the code below the while loop gets executed as long as the variable count is less than 5.
 
@@ -51,7 +51,7 @@ There is another way to stop running these loops before the end of the list or b
 You can do this with the break statement.  This lets you break out of the loop in either a for loop or while loop.  
 
 Here's an example with a while loop:
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Python-loops-break?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Python-loops-break?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### Challenges
 
@@ -69,7 +69,7 @@ Here's an example with a while loop:
 
 For example, ask the user to enter a number in the console, then write to console if it was found.
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/python-loops-activity?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/python-loops-activity?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### Question
 

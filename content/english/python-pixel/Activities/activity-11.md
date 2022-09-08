@@ -19,4 +19,4 @@ In the following repl.it, we provide you some images you can play around with. Y
  In order to see your image, please click on top left corner (which says 'Files'), and then click on the image file to see the result.
 {{% /notice %}}
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Python-Pixel-Activity10?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Python-Pixel-Activity10?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>

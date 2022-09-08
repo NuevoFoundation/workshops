@@ -9,7 +9,7 @@ In order to help the Kin and Queen, we will develop a program, in a programming 
 
 ## Using Repl.it
 
-To be able to run our C++ programs we will use a tool called Repl.it that will allow us to build and run C++ code in an interactive window like the one below. We will use that tool throughout the entire tutorial.
+To be able to run our C++ programs we will use a tool called Replit that will allow us to build and run C++ code in an interactive window like the one below. We will use that tool throughout the entire tutorial.
 
 <iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/activity-0-english?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 

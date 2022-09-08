@@ -57,7 +57,7 @@ boolean loveMusic = true;
 
 ### 3. Cuál es el Type o Tipo de variable -- Ayuda a Patrick
 Patrick 🐥 no es un experto en tipos de data. Frecuentemente los confunde cuando intenta declarar una variable. Vamos a ayudarlo a corregir sus errores:
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicosDataType?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/JavaBasicosDataType?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 {{% notice tip %}}
 Luego de Guardar data en una variable, uno puede usar la data guardada en esa variable o modificarla al asignarle un nuevo valor del mismo tipo. Por ejemplo:
@@ -84,4 +84,4 @@ z = 0;
 z = z;
 System.out.println("x: " + x + " y: " + y + " z: " + z );
 ```
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicosVariable?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/JavaBasicosVariable?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>

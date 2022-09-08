@@ -41,4 +41,4 @@ There will also be links to the relevant Java topics on each page if you want to
 The following is the program you will create by the end of the workshop! Give it a try by clicking `Run`!
 
 <iframe height="600px" width="100%" 
- src="https://repl.it/@nuevofoundation/JavaTicTacToeDemo?lite=true&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+ src="https://replit.com/@nuevofoundation/JavaTicTacToeDemo?lite=true&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>

@@ -128,7 +128,7 @@ Copy and paste your two methods below `main()`.
 Click `Run` to test around your methods. We provided a given test of the example of the picture above.
 
 You can plug in different boards to test if you get a desirable output.
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaTicTacToeminimax?lite=true#Winner.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/JavaTicTacToeminimax?lite=true#Winner.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 {{% notice tip %}}
 Remember to test your methods!

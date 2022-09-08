@@ -57,7 +57,7 @@ Can you try to find out how x and y values change and explain why?
 
 #### <b>Challenge One</b>
 Try to change the integers in the nested while loop and predict the outputs. Then run the code and observe the outputs. Do they match your predictions?
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Nested-loop-Python?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Nested-loop-Python?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 <br/><br/>
 <hr/>
 
@@ -98,7 +98,7 @@ Can you try to explain the printing pattern?
 Try to change the integers in the nested for loop and predict the outputs.
 Then run the code and observe the outputs. Do they match your predictions?
 <br/><br/>
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Basic-nested-for?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Basic-nested-for?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 <br/><br/>
 <br/><br/>
 
@@ -106,7 +106,7 @@ Then run the code and observe the outputs. Do they match your predictions?
 Try to initialize n and m. Will this change our output from the nested loops and why?
 Then run the code and observe the outputs. Do they match your predictions?
 <br/><br/>
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Nested-for-ex2?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Nested-for-ex2?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 #### <i>Questions</i>
 By the end of this section, let us think about the following questions:

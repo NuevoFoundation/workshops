@@ -15,7 +15,7 @@ Add below command in the file [File: create-game.js]
 
 ## Working Together
 
-In the repl.it window below, we started the code with the line `spaceKey.onDown.add(jump, this);`.
+In the Replit window below, we started the code with the line `spaceKey.onDown.add(jump, this);`.
 
 ![alt text](../img/jump.png "image to add jump down")
 
@@ -26,7 +26,7 @@ In your console you should see a Jsappy bird jumping after you press **run**:
 # Add gravity
 ## Working Together
 
-In the repl.it window below, we started the code with the line `bird.body.gravity.y = 900;`.
+In the Replit window below, we started the code with the line `bird.body.gravity.y = 900;`.
 
 ![alt text](../img/gravity.png "image to add gravity to the bird")
 
