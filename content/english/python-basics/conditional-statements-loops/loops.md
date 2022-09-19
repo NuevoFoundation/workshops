@@ -15,6 +15,11 @@ For loops iterate over a sequence.  Let's say you wanted to repeat a simple task
 
 The following for loop iterates through each of the numbers in the list [1,2,3,4,5], and assigns the value x to it.  Then, it executes the code within the for loop.
 
+```python
+for x in [1,2,3,4,5]:    
+    print("We're on loop number",x)
+```
+
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Loops-forloop-range?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 What if you wanted to repeat a task 10 times instead? 100 times? 1000 times??

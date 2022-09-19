@@ -16,11 +16,11 @@ While writing code, If at any time you wish to write notes to help you understan
 print("Hello, World!)
 ```
 
-![alt text](../../img/comments.png "a picture of how to write comments in python")
+![Screenshot showing the comment This is my first line of code.](../../img/comments.png "a picture of how to write comments in python")
 
 Be careful, if you remove the `#` symbol, your code will not work! 
 
-![alt text](../../img/comments_wrong.png "a picture of a comment done wrong") 
+![Screen shot of the code showing removal of the # before the comment causing an error in the code execution](../../img/comments_wrong.png "a picture of a comment done wrong") 
 
 ### Challenge
 Try adding a comment above your first line of code and press run. You will see that the computer will ignore your comment.

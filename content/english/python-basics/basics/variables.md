@@ -1,6 +1,6 @@
 ---
 title: "Variables"
-date: 2020-02-10T13:24:17-07:00
+date: 2022-09-19T14:45:38-07:00
 draft: false
 weight: 4
 --- 
@@ -14,7 +14,7 @@ happy = True
 ```
 Press run. 
 
-![alt text](../../img/variables.png "image of how variables look in repl.it") 
+![Screenshot of what variables example looks like in repl.it](../../img/variables.png "image of how variables look in repl.it") 
 
 Note that variables are not printed out to the console. Instead, the variable simply saves the string, number, or boolean into the computer’s memory. We can use these variables in other statements. For example, the following code would print `"Hello Nuevo Foundation"` to the console:
 

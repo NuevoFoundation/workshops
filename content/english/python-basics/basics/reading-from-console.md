@@ -23,13 +23,13 @@ print("Hello " + value + "!")
 
 Give this a try! When you hit run, you'll notice that the below image doesn't appear on the console yet.
 
-![alt text](../../img/end_symbol.png "image of the console end symbol")
+![Screenshot of the console end symbol](../../img/end_symbol.png "image of the console end symbol")
 
-![alt text](../../img/console_read_waiting.png "image of how the console looks waiting for user input")
+![Screen shot of the console waiting for user input](../../img/console_read_waiting.png "image of how the console looks waiting for user input")
 
 This is because the program is waiting for you to type something! Enter your name or 'Nuvi' into the console on the right, press Enter, and check that it prints out correctly. 
 
-![alt text](../../img/console_read_input.png "image of how the console looks after it has read user input")
+![Screen shot of the console after the user has given input and the program completed](../../img/console_read_input.png "image of how the console looks after it has read user input")
 
 {{% notice note %}}
 

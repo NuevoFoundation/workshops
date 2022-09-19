@@ -1,6 +1,6 @@
 ---
 title: "Writing to Console (Print statement)"
-date: 2020-02-10T13:24:17-07:00
+date: 2022-09-19T14:45:38-07:00
 draft: false
 weight: 2
 ---
@@ -53,7 +53,7 @@ If you see any red text, you have encountered some errors! Please ask for help. 
 
 1. Make sure the sentence you wish to print is **surrounded in quotation marks** and that the sentence is **inside the parentheses**.
 
-![#Can't find image](../../img/redLine.png)
+![Example showing print statement done wrong (without quotation marks - print(Hello, World!)) and correctly (with quotation marks - print('Hello, World!'))](../../img/redLine.png)
 
 2. Spacing in Python is very important. Make sure you don’t have any unnecessary spaces or tabs at the beginning or at the end of each line, as Python won’t be able to read the code otherwise. For example, don’t put any spaces before `print`, or any spaces after the last parenthesis in `print("Hello, World!)`.
 
