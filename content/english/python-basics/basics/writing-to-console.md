@@ -8,8 +8,8 @@ weight: 2
 
 ### Make your program talk to you!
 
-**Print** statements are used to print something on the console. Use `print("Hello World")` to print *Hello World* in the output screen. We will later learn that print is a function and we use it to perform a print job. Whatever you pass to the `print` function is printed on the screen.
-Let's start by doing a `print` statement. A `print` statement allows you to take control of the computer and make it print something out! 
+**Print** statements are used to write something to the console. Use `print("Hello World")` to print *Hello World* in the output screen. We will later learn that print is a function and we use it to perform a print job. Whatever you pass to the `print` function is printed on the screen.
+Let's start by doing a `print` statement. 
 
 We will use printing a lot in the later lessons, so make sure you understand this before moving on to the next concept!
 
@@ -26,6 +26,13 @@ Watch your console say "Hello, World!" on the screen to the right! `print` tells
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Basics-Print?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
+{{% notice tip %}}
+### Using " with printing
+
+Did you notice that Hello, World! was surrounded by "? Did you try it without the " marks to see that it produced an error? But, if you tried `print(123)`, did you see that it works. That is because text (Strings in programming languages) requires  you specify that it is text by wrapping it in quote marks. But numbers do not require them.
+
+Go back up and give try printing different things!
+{{% /notice %}}
 
 ### Challenge 2
 

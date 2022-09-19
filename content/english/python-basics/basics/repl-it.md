@@ -5,18 +5,20 @@ draft: false
 weight: 1
 ---
 
-Open your favorite internet browser (such as Edge, Firefox, Google Chrome, Internet Explorer) and go to https://repl.it. Scroll to the bottom of the page, look for `languages`, search for Python and click it.
+Today you will be using Repl.it to learn how to code in Python.
 
-![#Can't find image](../../img/replLang.png)
+Open your favorite internet browser (such as Edge, Firefox, Google Chrome) and go to https://repl.it. Scroll to the bottom of the page, look for `languages`, search for Python and click it.
+
+![List of languages to select in Repl.it](../../img/replLang.png)
 
 You should see something like the following screen:
 
-![#Can't find image](../../img/replSU.png)
+![Screenshot of Repl.it showing the main.py and the run buttom](../../img/replSU.png)
 
-We will ignore some of the details on this screen, but we will go over some of the basics that show up. The `main.py` file contains code, or instructions for the computer to run. Anything that results from running the code will be displayed on the right side. This window is called the console.
+Before we start, let’s first understand how the window works. The `main.py` file contains code, or instructions for the computer to run. Anything that results from running the code will be displayed on the right side. This window is called the console.
 
 Hit **run** and watch your console run your code on the screen to the right! In the example below, `print` tells the computer to print the sentence within the parentheses `()` into the console, or the screen on the right. Learn more about `print` in the next lessons.
-![#Can't find image](../../img/helloWorld.png)
+![Screenshot of Repl.it showing print("Hello World") in the main.py file and the result in the console on the right](../../img/helloWorld.png)
 
 Note: The RUN button looks like this:
-![#Can't find image](../../img/run.png)
+![Run button](../../img/run.png)

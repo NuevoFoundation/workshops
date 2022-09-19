@@ -7,13 +7,13 @@ prereq: "Python Basics: Variables"
 difficulty: Intermediate
 --- 
 
-Now that we know the basics about variables, we can ask for input from the user. Use the following line to tell our program to wait until the user types something into the console. Then, the computer takes whatever is typed into the console, and stores it into the variable called <b>value</b>.
+Now that we know the basics about variables, we can ask for input from the user. Use the following line to tell our program to wait until the user types something into the console. Then, the computer takes whatever is typed into the console, and stores it into the variable called **value**.
 
 ```python
-value = input
+value = input()
 ```
 
-Here's and examples of how to use <font color="blue">input</font>() to accept user input:
+Here's and examples of how to use <font color="blue">input()</font> to accept user input:
 
 ```python
 print("What's your name?")
