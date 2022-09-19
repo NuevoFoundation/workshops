@@ -12,6 +12,6 @@ icon: "fas fa-microchip"
 ## Conteúdo
 
 <details open>
-<summary>Section</summary>
+<summary>Seções</summary>
 {{% children %}}
 </details>
