@@ -12,9 +12,9 @@ icon: "fab fa-python"
 ## Introduction
 In this project, we're going to create a fun console application that allows the user to order from a restaurant based on their menu. So go ahead and choose your favorite restaurant/fast-food place and let's get started!
 
-First step: Open up a new Repl.it document and create a `main()` function definition and function call.
+First step: Open up a new Replit document and create a `main()` function definition and function call.
 
-Note: If you're unfamiliar with Repl.it, take a look at the Python Turtle's Using Repl.it page for more information.
+Note: If you're unfamiliar with Repl.it, take a look at the Python Turtle's Using Replit page for more information.
 
 ## Table of Contents
 <details>

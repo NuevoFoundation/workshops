@@ -27,6 +27,6 @@ icon: "fab fa-python"
 ¡Vamos a probarlo!
 
 <iframe height="600px" width="100%" 
- src="https://repl.it/@nuevofoundation/PythonGuessAdventureFullSample?lite=true&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+ src="https://replit.com/@nuevofoundation/PythonGuessAdventureFullSample?lite=true&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ¿Qué pensaron? Ahora vamos a aprender algunas habilidades interesantes que nos permitirán crear nuestras propias historias.
