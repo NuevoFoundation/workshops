@@ -1,6 +1,6 @@
 ---
 title: "Useless box: Silly gadget circuit"
-description: "An guide to build a useless box to learn the basics of circuits and how a battery powers action."
+description: "A guide to build a 'useless box' to learn the basics of circuits and how a battery powers action."
 date: 2020-09-207T11:45:38-07:00
 prereq: "None"
 difficulty: "Beginner"
@@ -19,7 +19,7 @@ This is what it would look like:
 
 When the switch on the top of the box is flipped “ON”, a “finger” comes out of the box, turns the switch “OFF”, and then retracts into the box. 
 
-The goal is to learn the basics of circuits, while having fun making the box open and close.
+The goal is to learn the basics of circuits while having fun making the box open and close.
 
 ## Table of Contents
 
