@@ -27,4 +27,4 @@ Depois de confirmar que você pode ver este CPLAYBOOT, vá para a pasta Download
 
 Depois de soltar o arquivo no lugar certo, as luzes verdes se apagarão, indicando que você programou seu Adafruit com sucesso!
 
-#### PARABÉNS! Você conseguiu terminar o seu projeto. Sinta-se à vontade para voltar e ajustar os sons ou seu número mágico nas comparações.
+#### PARABÉNS! Você conseguiu finalizar o seu projeto! Fique à vontade para voltar e ajustar os sons ou seu número mágico nas comparações.

@@ -1,5 +1,5 @@
 ---
-title: "Criando o Programa"
+title: "Criando o seu programa"
 description: ""
 draft: false
 weight: 3
@@ -51,7 +51,7 @@ Agora vamos adicionar o que estamos comparando. Volte para a seção **VARIABLES
 
 ![Não é possível carregar a imagem](../img/10.png?classes=border,shadow)
 
-Agora podemos escolher nossa música! Clique na seção **MUSIC** e arraste a segunda caixinha ”**play **\_** until done**” para o nosso bloco **If-Then**. Sinta-se à vontade para clicar na seta para baixo e selecionar os sons de sua preferência.
+Agora podemos escolher nossa música! Clique na seção **MUSIC** e arraste a segunda caixinha ”**play sound **\_\_** until done**” para o nosso bloco **If-Then**. Sinta-se à vontade para clicar na seta para baixo e selecionar os sons de sua preferência.
 
 ![Não é possível carregar a imagem](../img/11.png?classes=border,shadow)
 

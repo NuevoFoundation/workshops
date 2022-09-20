@@ -1,6 +1,6 @@
 ---
 title: "Programando Frutas Musicais com Adafruit"
-description: "Um guia introdutório para criar sons usando o Adafruit para aprender sobre hardware"
+description: "Um guia introdutório para criar sons usando o Adafruit e aprender sobre hardware"
 date: 2020-02-217T11:45:38-07:00
 prereq: "Nenhum"
 difficulty: "Iniciante"

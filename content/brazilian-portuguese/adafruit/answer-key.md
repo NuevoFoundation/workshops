@@ -10,8 +10,8 @@ weight: 5
 
 Em resumo:
 
-1. Os dois clipes jacaré devem ser presos na superfície das laranjas.
-2. O outro lado dos clipes deve estar nas entradas A1 e A2 do adafruit.
+1. As duas garras de jacaré devem ser presos na superfície das laranjas.
+2. O outro lado das garras deve estar nas entradas A1 e A2 do adafruit.
 3. O USB deve ser conectado ao adafruit, mas não ao computador.
 
 Após a configuração, as laranjas e adafruit devem ficar assim:

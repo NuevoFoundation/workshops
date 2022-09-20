@@ -7,7 +7,7 @@ weight: 2
 
 ### Ligando as laranjas
 
-Pegue uma laranja e um de seus fios. Abra um dos clipes jacaré e insira a parte inferior na laranja, deixando a parte superior do clipe visível para fora. Será mais fácil de fazer se você inseri-lo no parte central inferior da laranja. O mesmo local onde você começaria a descascar se fosse comer a laranja.
+Pegue uma laranja e um de seus fios. Abra uma das garras jacaré e insira a parte inferior na laranja, deixando a parte superior da garra visível para fora. Será mais fácil de fazer se você inseri-lo no parte central inferior da laranja. O mesmo local onde você começaria a descascar se fosse comer a laranja.
 
 ![Não é possível carregar a imagem](../img/setup1.png?classes=border,shadow)
 ![Não é possível carregar a imagem](../img/setup2.png?classes=border,shadow)
@@ -21,7 +21,7 @@ Conecte uma laranja a entrada A1 e a outra a entrada A2.
 Agora que tudo está conectado, sua laranja ficará assim!
 ![Não é possível carregar a imagem](../img/setup5.png?classes=border,shadow)
 
-Usando o cabo USB, conecte o lado pequeno a placa arduino. Ele ficará conectado a porta prateada.
+Usando o cabo USB, conecte o lado pequeno a placa arduíno. Ele ficará conectado a porta prateada.
 ![Não é possível carregar a imagem](../img/setup6.png?classes=border,shadow)
 
-Agora vamos criar o nosso programa antes de conectar a placa arduino ao computador! Atenção: Certifique-se de que seu computador está MUDO antes de começar.
+Agora vamos criar o nosso programa antes de conectar a placa arduíno ao computador! Atenção: Certifique-se de que seu computador está MUDO antes de começar.
