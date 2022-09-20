@@ -16,15 +16,15 @@ Em resumo:
 
 Após a configuração, as laranjas e adafruit devem ficar assim:
 
-![Não é possível carregar a imagem](../img/setupOverview.png?classes=border,shadow)
+![Não foi possível carregar a imagem](../img/setupOverview.png?classes=border,shadow)
 
 ### Solução
 
-![Não é possível carregar a imagem](../img/adafruit-basic-solution.png?classes=border,shadow)
+![Não foi possível carregar a imagem](../img/adafruit-basic-solution.png?classes=border,shadow)
 
 ### Solução - avançada (com luzes)
 
-![Não é possível carregar a imagem](../img/adafruit-complex-solution.png?classes=border,shadow)
+![Não foi possível carregar a imagem](../img/adafruit-complex-solution.png?classes=border,shadow)
 
 ### Como funciona
 
