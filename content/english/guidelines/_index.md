@@ -12,14 +12,14 @@ We welcome contributions. Great ways to contribute include trying things out, fi
 Just reporting a typo or bug? You can <a target="_blank" href="https://github.com/NuevoFoundation/workshops/issues">file it as a GitHub issue</a>.
 
 Looking to contribute more? Take a look at our <a target="_blank" href="https://github.com/NuevoFoundation/workshops/labels/help%20wanted">help wanted issues</a> to find areas to contribute to. Then, to start contributing, follow these guides:
-  - [How the site is built](site-architecture/)
+  - [How the site is built](site-architecture.md/)
   - [Getting Started](getting-started.md/)
 
 ## For content creators
 Interested in creating or modifying workshops? Follow the "Start here" guides above, then the following:
-  - [Formatting](formatting/)
-  - [New Workshop Guidelines](new-workshops/)
+  - [Formatting](formatting.md/)
+  - [New Workshop Guidelines](new-workshops.md/)
 
 ## For web developers
 Interested in improving this website? Follow the "Start here" guides above, then the following:
-  - [Web Developer Guidelines](web-developer/)
+  - [Web Developer Guidelines](web-developer.md/)
