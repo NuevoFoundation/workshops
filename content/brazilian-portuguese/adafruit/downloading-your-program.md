@@ -5,7 +5,7 @@ draft: false
 weight: 4
 ---
 
-Na parte inferior da sua área de trabalho, ao lado do nome do seu programa, você poderá ver um botão de download em cor rosa-brilhante. Mas antes de baixar o seu programa, vamos nomea-lo primeiro. Você pode nomear à sua preferência. Aqui nós o chamamos de adafruit_musicalfruit. Agora, clique no botão de download.
+Na parte inferior da sua área de trabalho, ao lado do nome do seu programa, você poderá ver um botão de download em cor rosa-brilhante. Mas antes de baixar o seu programa, vamos nomeá-lo primeiro. Você pode nomear à sua preferência. Aqui nós o chamamos de adafruit_musicalfruit. Agora, clique no botão de download.
 
 ![Não é possível carregar a imagem](../img/download1.png?classes=border,shadow)
 
