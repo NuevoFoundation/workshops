@@ -13,7 +13,7 @@ Você verá uma nova janela, perguntando onde deseja salvar o seu arquivo. O pad
 
 ![Não é possível carregar a imagem](../img/download2.png?classes=border,shadow)
 
-Agora você pode conectar o seu cabo USB ao computador. Ao conectar, você verá algumas luzes do arco-íris! Isso significa que a sua placa está ligada e executando o programa padrão. Vamos substitui-lo pelo nosso programa. Clique no pequeno botão de reset no centro da placa. As luzes devem ficar vermelhas e depois verdes. Se as luzes não ficarem verdes, clique duas vezes rapidamente no botão de reinicialização e aguarde alguns segundos.
+Agora você pode conectar o seu cabo USB ao computador. Ao conectar, você verá algumas luzes do arco-íris! Isso significa que a sua placa está ligada e executando o programa padrão. Vamos substituí-lo pelo nosso programa. Clique no pequeno botão de reset no centro da placa. As luzes devem ficar vermelhas e depois verdes. Se as luzes não ficarem verdes, clique duas vezes rapidamente no botão de reinicialização e aguarde alguns segundos.
 
 ![Não é possível carregar a imagem](../img/download3.png?classes=border,shadow "Imagem tirada de https://www.adafruit.com/")
 
