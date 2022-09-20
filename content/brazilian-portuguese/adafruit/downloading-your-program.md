@@ -21,7 +21,7 @@ Quando as luzes estiverem verdes, abra uma janela do Windows Explorer, caso ela 
 
 ![Não é possível carregar a imagem](../img/download4.png?classes=border,shadow)
 
-Depois de confirmar que você pode ver este CPLAYBOOT, vá para a pasta Downloads e encontre o arquivo que você salvou lá. Você precisará clicar e arrastar esse arquivo até passar o mouse sobre CPLAYBOOT. Você verá algum texto pop-up dizendo “--> Move to CPLAYBOOT”, traduzindo, mova para CPLAYBOOT. Solte o arquivo lá para copiá-lo para CPLAYBOOT
+Depois de confirmar que você pode ver este CPLAYBOOT, vá para a pasta Downloads e encontre o arquivo que você salvou lá. Você precisará clicar e arrastar esse arquivo até passar o mouse sobre CPLAYBOOT. Você verá algum texto pop-up dizendo “--> Move to CPLAYBOOT”, traduzindo, mova para CPLAYBOOT. Solte o arquivo lá para copiá-lo para CPLAYBOOT.
 
 ![Não é possível carregar a imagem](../img/download5.png?classes=border,shadow)
 
