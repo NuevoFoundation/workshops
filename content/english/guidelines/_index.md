@@ -13,7 +13,7 @@ Just reporting a typo or bug? You can <a target="_blank" href="https://github.co
 
 Looking to contribute more? Take a look at our <a target="_blank" href="https://github.com/NuevoFoundation/workshops/labels/help%20wanted">help wanted issues</a> to find areas to contribute to. Then, to start contributing, follow these guides:
   - [How the site is built](site-architecture/)
-  - [Getting Started](getting-started/)
+  - [Getting Started](getting-started.md/)
 
 ## For content creators
 Interested in creating or modifying workshops? Follow the "Start here" guides above, then the following:
