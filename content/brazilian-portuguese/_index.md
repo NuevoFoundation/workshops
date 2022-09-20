@@ -11,4 +11,4 @@ hidemetadata: true
 
 ## Colabore conosco
 
-Gostaria de nos ajudar a melhorar nossos minicursos ou nosso site? Clique aqui: **[Guida de contribuição para minicursos](guidelines/)**!
+Gostaria de nos ajudar a melhorar nossos minicursos ou nosso site? Clique aqui: **[Guia de contribuição para minicursos](guidelines/)**!
