@@ -31,13 +31,18 @@ weight = 3
 languageName = "Français"
 contentDir = "content/francais"
 
-[Languages.zh-hans]
+[Languages.pt-br]
 weight = 4
+languageName = "Português Brasileiro"
+contentDir = "content/brazilian-portuguese"
+
+[Languages.zh-hans]
+weight = 5
 languageName = "简体中文"
 contentDir = "content/simplified-chinese"
 
 [Languages.zh-hant]
-weight = 5
+weight = 6
 languageName = "繁體中文"
 contentDir = "content/traditional-chinese"
 

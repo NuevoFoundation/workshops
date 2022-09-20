@@ -11,7 +11,7 @@ weight: 2
 We've created an array of existing restaurants in our system! We need your help to print out everything so we do not include the same restaurants.
 
 {{%notice tip%}}
-1. Use a `for` Loop to print out on repl.it below.
+1. Use a `for` Loop to print out on Replit below.
 2. Use the `length()` method to find the size of the array!
 3. Look at example below!
 {{%/notice%}}

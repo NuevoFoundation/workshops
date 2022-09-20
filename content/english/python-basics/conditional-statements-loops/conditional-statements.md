@@ -48,6 +48,6 @@ A real-life example is if I’m hungry, I’ll eat. Else (in other words, I’m 
 Let’s put it all together! Let’s see if we can create a program that takes prompts the user for their name. The user can write their name into the console. Then the computer can decide if their name is equal to your name, print out a response. Else, print out a different response!
 
 <iframe height="600px" width="100%" 
- src="https://repl.it/@nuevofoundation/python-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+ src="https://replit.com/@nuevofoundation/python-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 Hint: Try talking out the different paths to a computer can take! Make sure to identify what the if and else conditions are.

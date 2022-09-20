@@ -13,12 +13,12 @@ weight: 2
 
 ## Working Together
 
-1.  In the repl.it window below, press **run**. You see that `Hello World` is printed out to the screen on the right.
+1.  In the Replit window below, press **run**. You see that `Hello World` is printed out to the screen on the right.
 2.  Without removing the quotation marks, try changing `"Hello World"` to another sentence. Press **run** to see if anything changes.
 3.  Add another `Console.WriteLine` below the current line to print a second sentence below the first sentence.
 4.  Press **run** to see if two sentences are printed out. If you see any red text, please ask for help.
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/NF-CSharp-WritingToConsole?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/NF-CSharp-WritingToConsole?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 {{% /notice %}}
 
