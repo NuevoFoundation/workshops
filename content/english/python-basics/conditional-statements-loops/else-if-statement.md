@@ -72,10 +72,7 @@ In Example A we will evaluate the first `if` statement (`1==1`) to be `true`. Th
 In Example B we will evaluate the first `if` statement (`1==1`) to be `true`. Then the rest part of `elif` and `else` will not be evaluated since `if` is already correct.
 
 ### Challenge
-#### Challenge
 Let's use the knowledge you learned in Python-Basics-booleans to make your own example for `elif`?
-You may want to review boolean to finish this challenge.
-- <a href="../../python-basics/data-types/booleans"> Booleans </a>
-<br/><br/>
+You may want to [review the boolean section](../../python-basics/data-types/booleans) to finish this challenge.
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Basic-else-if?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Basic-else-if?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
