@@ -11,7 +11,7 @@ draft: false
 
 ## Overview
 
-Welcome to the course <b>Python: Basics</b>, where you will learn a widely-used, high-level programming language that gives computer instructions to create exciting programs!
+Welcome to the course **Python: Basics**, where you will learn a widely-used, high-level programming language that gives computer instructions to create exciting programs!
 
 Python is a high-level programming language created by Guido van Rossum between 1985-1990. 
 
