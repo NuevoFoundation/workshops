@@ -5,16 +5,21 @@ draft: false
 weight: 2
 ---
 
-The computer can also do your regular math that you do in school. Use print to print out the result from the math expressions. No quotation marks are needed for numbers! Unlike strings, you can do math on numbers.
+The computer can also do math. Use print to print out the result from the math expressions. No quotation marks are needed for numbers! Unlike strings, you can do math on numbers.
 
-![alt text](../../img/math.png "sample python code of math with numbers") 
+```python
+print(7-3)  #prints 4
+print(5 * -6 + 7)   #prints -23
+print(24 * (8-3) / 6)   #prints 20.0
+```
 
 {{% notice note %}}
-The computer does division differently from your regular calculator. Computer division will exclude remainders or decimals. 
+The computer does division of integers differently from your regular calculator. Division of integers will exclude remainders or decimals. 
 
 For example, 
 
-`15/4` makes `3` and not `3.75`
+`15/4` makes `3` 
+`15.0/4.0` makes `3.75`
 
 {{% /notice %}}
 
@@ -53,7 +58,7 @@ Using `str(5)` turns the number into the string `"5"`. Converting one type of th
 
 Here is how to print a random number between 1 (inclusive) and 10 (inclusive):
 
-<font color="blue">from</font> random <font color="blue">import</font> randint
+<font color="blue">from</font> random <font color="blue">import</font> randint  <font color="green">#This line imports the library needed</font>
 
 <font color="blue">print</font>(randint(1,10))
 

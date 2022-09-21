@@ -1,7 +1,7 @@
 ---
 title: "Data Structures"
 draft: false
-weight: 3
+weight: 4
 ---
 
 ## Overview
