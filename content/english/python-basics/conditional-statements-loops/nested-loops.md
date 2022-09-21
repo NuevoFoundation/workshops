@@ -142,7 +142,7 @@ By the end of this section, let us think about the following questions:
 
 (**Hint**: What would happen if we change the ranges?)
 
-### Challange Three ###
+### Challenge Three
 
 Using nested `for` loop or `while` loop, try printing the following pattern
 
