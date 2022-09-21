@@ -31,7 +31,7 @@ Para quitar un comentario (o cambiar el comentario a código que la computadora 
 2. Borra el `//` y añade `/*` y `*/` a cada lado de `Console.WriteLine("Hello World");`. Asegúrate que `Hello World` todavía no se imprime a la consola cuando presionas **run**.
 3. Borra `/*` , `*/` y presiona **run**. `Hello World` debe imprimirse en la consola. 
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/NF-CSharp-WritingToConsole?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/NF-CSharp-WritingToConsole?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 Durante las actividades de hoy vas a ver varios comentarios que ocupan varias líneas y unos comentarios `// TODO` comments. Estos comentarios nos guiarán a completar el juego de **Adivina la palabra**, entonces asegúrate que entiendes como cambiar código a un comentario y vise versa.
 

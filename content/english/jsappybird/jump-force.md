@@ -11,7 +11,7 @@ Add the below command in the file [File: create-game.js]
     bird.body.velocity.y = -350;
 ## Working Together
 
-In the repl.it window below, we started the code with the line `bird.body.velocity.y = -350;`.
+In the Replit window below, we started the code with the line `bird.body.velocity.y = -350;`.
 
 ![alt text](../img/jump_force.png "image to add gravity to the bird")
 
@@ -42,7 +42,7 @@ Add below command in the file [File: update-game.js]
 
 ## Working Together
 
-In the repl.it window below, we started the code with the line `bird.angle +=1;`.
+In the Replit window below, we started the code with the line `bird.angle +=1;`.
 
 ![alt text](../img/rotate.png "image to add rotation to the bird")
 

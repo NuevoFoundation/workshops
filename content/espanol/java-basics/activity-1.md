@@ -13,7 +13,7 @@ El programa imprimirá lo que escribas entre los paréntesis de `System.out.prin
 
 Añada más declaraciones para imprimir números, escribiendo los números entre los paréntesis (i.e. `System.out.print(2020)`) o cualquier símbolo, escribiendo el símbolo entre 2 comillas simples `'` (i.e. `System.out.print('@')`).
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicosHelloWorld?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/JavaBasicosHelloWorld?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 {{% notice tip %}}
 #### Te fijaste que todas las declaraciones que escribistes fueron impreses en una línea?
@@ -58,7 +58,7 @@ Con lo que has aprendido, re crea la imágen del búho con solo 4 líneas de có
      /,--"-"- 
 
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicosOwl?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/JavaBasicosOwl?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 {{% notice warning %}}
 #### Tuve un error
 

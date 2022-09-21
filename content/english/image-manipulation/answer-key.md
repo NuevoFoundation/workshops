@@ -108,7 +108,7 @@ The student can pick any image they want as long as it is appropriate.  They can
 1. Find a picture student likes. 
 2. Download it
 3. Save as JPG/PNG with easy name
-4. Upload this as another file in the repl.it window
+4. Upload this as another file in the Replit window
 
 ```Python
 from PIL import Image
