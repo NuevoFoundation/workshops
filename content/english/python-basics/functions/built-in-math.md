@@ -34,7 +34,7 @@ print(x)
 
 ### Challenge
 
-Let’s put it all together! Let’s see if we can create a program that takes 5 numbers from the user and prints the value of minimum of those numbers raised to the power of maximum. For example, given the number 2,7,4,11,9, return 2<sup>11</sup>.
+Let’s put it all together! Let’s see if we can create a program that takes 5 numbers from the user and prints the value of minimum of those numbers raised to the power of maximum. For example, given the number 2,7,4,11,9, return 2<sup>11</sup>. Bonus points if you can break it into functions!
 
 <iframe height="600px" width="100%" 
  src="https://replit.com/@nuevofoundation/python-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
