@@ -46,4 +46,4 @@ def triple(number):
 value = triple(2)
 print(value)
 ```
-`number` is the name of the parameter (input) that we are giving to the function triple. The <font color="blue">return</font> word is only used within functions, and allows the function to output a value. In this case the triple function returns (outputs) number * 3, which then can be stored in a variable and printed. If the function variable. Check that the code above prints out the number 6.
+`number` is the name of the parameter (input) that we are giving to the function triple. The `return` word is only used within functions, and allows the function to output a value. In this case the triple function returns (outputs) `number * 3`, which then can be stored in a variable and printed. If the function variable. Check that the code above prints out the number `6`.
