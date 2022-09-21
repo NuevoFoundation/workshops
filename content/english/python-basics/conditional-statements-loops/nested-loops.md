@@ -7,7 +7,7 @@ weight: 4
 
 
 ### Nested loops
-*Nested loops*, builds off what we learned about for-loops and while loops in the previous exercise. You might want to review <a href="../../../python-basics/loops" target="blank">For-loop and While-loop</a> before we go on.
+*Nested loops*, builds off what we learned about for-loops and while loops in the previous exercise. You might want to review the <a href="../../../python-basics/loops" target="blank">For-loop and While-loop</a> page before we move on.
 
 In this section, we will use one loop inside another, which is called *nested loop*.
 <hr/>
@@ -142,7 +142,7 @@ By the end of this section, let us think about the following questions:
 
 (**Hint**: What would happen if we change the ranges?)
 
-### Challange Three ###
+### Challenge Three
 
 Using nested `for` loop or `while` loop, try printing the following pattern
 

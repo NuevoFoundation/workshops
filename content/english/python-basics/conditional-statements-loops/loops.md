@@ -80,7 +80,7 @@ count = 0
 while True:  #This will make the while loop run forever! unless there is a break statement somewhere in the loop.
     print("count is", count)
     
-    if(count == 10): #This says that i the count is equal to 10, then exit the while loop
+    if (count == 10): #This says that i the count is equal to 10, then exit the while loop
         print("Breaking out of the loop!")
         break
     
@@ -104,7 +104,7 @@ numList = [69, 430, 363, 80, 166, 476, 250, 38, 84, 405, 41, 302, 480, 57, 155, 
 ```
 
 For example, ask the user to enter a number in the console, then write to console if it was found.
-Hint: You will need to convert the information entered by the user into an integer by using int(x).
+Hint: You will need to convert the information entered by the user into an integer by using `int(x)`.
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/python-loops-activity?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 

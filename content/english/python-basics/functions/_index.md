@@ -77,7 +77,7 @@ wherever you want to execute the function. For example, in order to call functio
 sectionA(1,9)
 ```
 
-In this example, sectionA will be called with startMeasure value as 1 and endMeasure value as 9.
+In this example, `sectionA` will be called with `startMeasure` value as `1` and `endMeasure` value as `9`.
 
 {{% notice warning %}}
 **Be careful:** When making a function in Python, you must define the

@@ -13,11 +13,11 @@ def my_function():
     print("My name is Nuvi!")
 ```
 
-Let’s analyze this piece of code. The `def` tells the computer that you are writing a function. We give it a name, in this case, `my_function`. Then, we put a colon (the : symbol) to indicate that the function is starting. The next two lines are <b>two spaces away from the left side of the text editor</b> -- this tells the computer that these lines are part of the function definition. This is <b>very important</b>, so don't miss out on this detail!
+Let’s analyze this piece of code. The `def` tells the computer that you are writing a function. We give it a name, in this case, `my_function`. Then, we put a colon (the `:` symbol) to indicate that the function is starting. The next two lines are **two spaces away from the left side of the text editor** -- this tells the computer that these lines are part of the function definition. This is **very important**, so don't miss out on this detail!
 
 Press run.
 
-You will notice that nothing happens. This is only a function definition - we need to “call” the function to run the code within the function. In other words, the computer understands the instructions, but you need to tell the computer to do the given instructions. You can call my_function() anywhere, as long as it is after the function is defined. Place `my_function()` below the function definition, with no spaces in front. Your code should look like this:
+You will notice that nothing happens. This is only a function definition - we need to “call” the function to run the code within the function. In other words, the computer understands the instructions, but you need to tell the computer to do the given instructions. You can call `my_function()` anywhere, as long as it is after the function is defined. Place `my_function()` below the function definition, with no spaces in front. Your code should look like this:
  
 
 ```python
@@ -46,4 +46,4 @@ def triple(number):
 value = triple(2)
 print(value)
 ```
-`number` is the name of the parameter (input) that we are giving to the function triple. The <font color="blue">return</font> word is only used within functions, and allows the function to output a value. In this case the triple function returns (outputs) number * 3, which then can be stored in a variable and printed. If the function variable. Check that the code above prints out the number 6.
+`number` is the name of the parameter (input) that we are giving to the function triple. The `return` word is only used within functions, and allows the function to output a value. In this case the triple function returns (outputs) `number * 3`, which then can be stored in a variable and printed. If the function variable. Check that the code above prints out the number `6`.

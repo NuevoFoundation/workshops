@@ -26,7 +26,7 @@ my_tuple = ('apple', 1, 4.5)
 
 ### Accessing the elements of a tuple
 
-We can access the elements of a tuple by using indexes inside square bracket `[]` just like list. Also, just like lists, the index starts from 0. 
+We can access the elements of a tuple by using indexes inside square bracket `[]` just like list. Also, just like lists, the index starts from `0`. 
 
 ```python
 #creating a tuple of three elements of String type 

@@ -62,7 +62,7 @@ fruits.append('lemon')
 
 ### Insert an element at a specific index
 
-If you want to control where you place a new element, you can insert an element at specific index by of a list by `list.insert(i, x)` function. Here `list` is the name of the list, `i` is the index where you want to insert and `x` is the element that you want insert. Note: this will shift all of the elements starting at position i over one index.
+If you want to control where you place a new element, you can insert an element at specific index of a list by using the `list.insert(i, x)` function. Here `list` is the name of the list, `i` is the index where you want to insert and `x` is the element that you want insert. Note: this will shift all of the elements starting at position `i` over one index.
 
 
 ```python
@@ -83,7 +83,7 @@ fruits.remove('apple')
 
 `list.remove(x)` throws a value error if the element `x` is not present in the list.
 
-Also, notice that the second instance of 'apple' is still in the list.
+Also, notice that the second instance of `'apple'` is still in the list.
 
 {{% /notice %}}
 
@@ -115,7 +115,7 @@ fruits.reverse()
 
 ### Get the minimum and maximum element of the list
 
-`min(list)` function returns the minimum element of the list and the maximum element can be found by using the `max(list)` function. If your list is a list of numbers, it will return the lowest or highest value number of the list. If your list is strings, it will return the first or last alphabetically.
+`min(list)` function returns the minimum element of the list and the maximum element can be found by using the `max(list)` function. If your list is a list of numbers, it will return the lowest or highest value number of the list. If your list is a list of strings, it will return the first or last value alphabetically.
 
 ```python
 
@@ -127,7 +127,7 @@ print(max(my_list)) ## prints 5, the maximum element of my_list
 ```
 {{% notice note %}}
 
-If your list is a mix of strings and numbers, the min and max functions will return an error.
+If your list is a mix of strings and numbers, the `min` and `max` functions will return an error.
 
 {{% /notice %}}
 
@@ -142,4 +142,4 @@ fruits = ['orange', 'kiwi', 'banana', 'apple', 'mango', 'lemon']
 <iframe height="600px" width="100%" 
  src="https://repl.it/@nuevofoundation/python-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-Hint: You will need to convert the length integer to a string using the `str(int)` function.
+Hint: You will need to convert the `length` integer to a string using the `str(int)` function.
