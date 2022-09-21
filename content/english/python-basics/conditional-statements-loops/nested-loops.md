@@ -7,7 +7,7 @@ weight: 4
 
 
 ### Nested loops
-*Nested loops*, builds off what we learned about for-loops and while loops in the previous exercise. You might want to review <a href="../../../python-basics/loops" target="blank">For-loop and While-loop</a> before we go on.
+*Nested loops*, builds off what we learned about for-loops and while loops in the previous exercise. You might want to review the <a href="../../../python-basics/loops" target="blank">For-loop and While-loop</a> page before we move on.
 
 In this section, we will use one loop inside another, which is called *nested loop*.
 <hr/>
