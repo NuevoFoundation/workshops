@@ -36,8 +36,7 @@ Make sure that the first line of your function always ends with a colon `:`
 
 ### Write the function body
 
-In Python, indentation defines which code is controlled
-by the function. In the example below, in order to call the function SectionA, you must specify 2 parameters, startMeasure and endMeasure. When you call sectionA, the 3 fitMedia function lines are run. The 2 fitMedia function calls at the bottom are outside of SectionA.
+In Python, indentation defines which code is controlled by the function. In the example below, in order to call the function `sectionA`, you must specify 2 parameters, `startMeasure` and `endMeasure`. When you call `sectionA`, the 3 `fitMedia` function lines are run. The 2 `fitMedia` function calls at the bottom are outside of the `sectionA` function body.
 
 ```python
 #Section A
