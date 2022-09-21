@@ -8,7 +8,6 @@ weight: 2
 There are many built-in functions in python that can be used to increase the ease of writing code. Let's discuss a few of them here.
 
 # sort()
-
 This function is used to sort the values in data structures such as arrays and lists.
 ```python
 arr = [8,5,1,4,6]
@@ -17,7 +16,6 @@ print('The sorted arr is :',arr)
 #prints The sorted arr is [1,4,5,6,8]
 ```
 
-
 # find()
 Returns the first occurence of the input(pattern) to the find() provided in the given string.
 ```python
@@ -25,6 +23,7 @@ str1 = "Hello World"
 index = str1.find("World)"
 print(index) #prints 6
 ```
+
 # len()
 `len()` helps in finding out the size of the given data structure.
 ```python
@@ -36,13 +35,13 @@ print(len(arr)) #prints 5
 This function returns `true` if the string passed as an argument consists of only digits; otherwise it returns `false`
 ```python
 s = "123";  
-print str.isdigit() #prints true
+print s.isdigit() #prints true
 
 s = "Hello World";
-print str.isdigit() #prints false
+print s.isdigit() #prints false
 
 s = "123Hello"
-print str.isdigit() #prints false as it has letters along with digits
+print s.isdigit() #prints false as it has letters along with digits
 ```
 
 # reverse()
@@ -52,8 +51,8 @@ arr = [5, 6, 7, 8, 9];
 arr.reverse();
 print(arr) #prints [9,8,7,6,5]
 ```
-# replace()
 
+# replace()
 This function replaces the first argument passed to the function with the second argument in a given string.
 
 ```python
@@ -63,7 +62,6 @@ print(final_str) #prints My name is Potter. Potter is a good boy.
 ```
 
 # append()
-
 This function is used to add a number, character or element of any data type to the end of a list or an array.
 ```python
 arr = [1,2,3,4,5];
@@ -74,6 +72,7 @@ arr = ['Harry','Ram',1,2]
 arr.append("Jenifer")
 print(arr) #prints [Harry,Ram,1,2,Jenifer]
 ```
+
 # remove()
 Removes the first occurence if argument passed for the given object. If you try to remove an element not in list, it would give an exception stating element not in the list.
 ```python
@@ -83,10 +82,9 @@ print(arr) #prints 1,2,3,3
 
 arr.remove(4) #gives an exception stating element not in the list
 ```
+
 ### Challenge 1
  Create an array name`arr`
-
-
 
 - Initialize it to `[1,2,3,4,5]`
 
@@ -103,16 +101,16 @@ arr.remove(4) #gives an exception stating element not in the list
 - Print the length of `arr`,
 
 #### Expected output
-
+```Output
     [1,2,3,4,5,6]
     [6,5,4,3,2,1]
     [1,2,3,4,5,6]
     6
     [1,2,3,4,5]
     5
+```
+
 ### Challenge 2
-
-
 -Initialise a string `s` to "Hello all.Hello people".
 
 -Find the occurence of the word `Hello` in the string `s` and print.
@@ -122,8 +120,10 @@ arr.remove(4) #gives an exception stating element not in the list
 -Find if the string `s` contains only digits and print the verdict.
 
 #### Expected Output
+```Output
     0
     Hi all.Hi people.
     False
+```
 
 <iframe src="https://trinket.io/embed/python/b238d85d0d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

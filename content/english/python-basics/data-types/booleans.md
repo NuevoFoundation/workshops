@@ -16,6 +16,7 @@ What are the boolean answers to these questions about you?
 3. I like cookies. _______
 4. My favorite color is blue. ______
 
+The most common forms of boolean operators are comparisons like less than or greater than. How these are written in python are listed below.
 
 | Operator | Description           | Operator | Description              |
 | -------- | --------------------- | -------- | ------------------------ |
@@ -33,7 +34,7 @@ print((3 + 5) * 6) == (65 - 17)
 
 The first statement should return <font color="blue">False</font>. And the second should return <font color="blue">True</font>. 
 
-![alt text](../../img/booleans.png "image of how booleans are used in python code") 
+![alt text](../../img/booleans.png "image of the above example showing the first is false and the second is true") 
 
 ### Challenge 2
 Try printing out the answers to the following expressions using `print`. If the results for any of these statements don't make sense, please ask for help! 

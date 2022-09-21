@@ -25,7 +25,7 @@ These are the concepts from the `Java: Basics` workshop that we will use in this
 
 In this workshop, you will learn how to create a Tic-Tac-Toe program in Java from start to finish! 
 
-You will need basic Java knowledge from the workshop [Java: Basics](../../java-basics/_index.md) as we will assume you to know about variables, operators, classes, and arrays during the exercises.
+You will need basic Java knowledge from the workshop [Java: Basics](../java-basics) as we will assume you to know about variables, operators, classes, and arrays during the exercises.
 
 There will also be links to the relevant Java topics on each page if you want to review a specific concept!
 

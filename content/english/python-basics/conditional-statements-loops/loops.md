@@ -15,6 +15,11 @@ For loops iterate over a sequence.  Let's say you wanted to repeat a simple task
 
 The following for loop iterates through each of the numbers in the list [1,2,3,4,5], and assigns the value x to it.  Then, it executes the code within the for loop.
 
+```python
+for x in [1,2,3,4,5]:    
+    print("We're on loop number",x)
+```
+
 <iframe src="https://trinket.io/embed/python/ddcca3b818" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 What if you wanted to repeat a task 10 times instead? 100 times? 1000 times??
@@ -23,18 +28,35 @@ It would be difficult to write a list with 1000 numbers [1,2,3,4,5,6,..........,
 
 Here's an example of how to create the list using the `range` function:
 
-The below code creates a list starting at 1 and ending at 10. Try replacing the list [1,2,3,4,5] in the above example with this range function!
+The below code creates a list starting at 1 and ending at 10. 
 ```
 range(1,11)
 ```
+Now try replacing the list [1,2,3,4,5] in the above example with this range function!
 
 The list in the for loop doesn't just have to be numbers, it can be anything!  Here is another example of what you can do with it:
+
+```python
+fruits = ["apple","banana","orange"]
+
+for x in fruits:
+    print(x)
+```
+
 <iframe src="https://trinket.io/embed/python/3fd98a6bf4" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### While loops
 
 While loops are similar to for loops, but instead of iterating over a sequence, they repeat for as long as a certain condition is met.
 For example, let's create a while loop that repeates 5 times.
+
+```python
+count = 0
+
+while count < 5:
+    print("The current count is", count)
+    count += 1  #This is the same thing as count = count + 1
+```
 
 <iframe src="https://trinket.io/embed/python/6d4f0c86f0" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
@@ -48,26 +70,41 @@ You learned earlier that for loops and while loops keep iterating over a sequenc
 
 There is another way to stop running these loops before the end of the list or before a condition is met.
 
-You can do this with the break statement.  This lets you break out of the loop in either a for loop or while loop.  
+You can do this with the `break` statement.  This lets you break out of the loop in either a for loop or while loop.  
 
 Here's an example with a while loop:
+
+```python
+count = 0
+
+while True:  #This will make the while loop run forever! unless there is a break statement somewhere in the loop.
+    print("count is", count)
+    
+    if (count == 10): #This says that i the count is equal to 10, then exit the while loop
+        print("Breaking out of the loop!")
+        break
+    
+    count += 1  # this is equal to count = count + 1
+```
+
 <iframe src="https://trinket.io/embed/python/6cd0debfe5" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### Challenges
 
-1. Using a `for` loop or `while` loop, try printing the following pattern
+1. Given a list of foods, write a program that writes out "I like [name of food]" unless it is the user's least favorite, which you ask them for at the beginning.
 
-    ```
-    1 
-    1 2 
-    1 2 3 
-    1 2 3 4 
-    1 2 3 4 5
-    ```
+```python
+foodList = ["apples", "ice cream", "pizza", "bananas", "carrots", "squash", "cucumbers", "sandwich", "oatmeal", "cookies", "cake", "spinach", "kale"]
+```
 
 2. Given a large list such as the one below, write a program that can find a particular number from this list.
 
+```python
+numList = [69, 430, 363, 80, 166, 476, 250, 38, 84, 405, 41, 302, 480, 57, 155, 17, 350, 87, 313, 36, 191, 367, 163, 167, 185, 93, 131, 314, 444, 452, 47, 457, 28, 21, 405, 350, 241, 121, 411, 152, 244, 207, 199, 371, 193, 4, 286, 482, 496, 283, 23, 466, 8, 84, 47, 231, 112, 329, 328, 85, 208, 161, 42, 251, 277, 207, 496, 3, 137, 138, 436, 447, 442, 313, 479, 464, 191, 19, 78, 333, 480, 36, 378, 232, 438, 451, 139, 444, 392, 75, 245, 151, 225, 50, 369, 49, 73, 325, 430, 335]
+```
+
 For example, ask the user to enter a number in the console, then write to console if it was found.
+Hint: You will need to convert the information entered by the user into an integer by using `int(x)`.
 
 <iframe src="https://trinket.io/embed/python/1beb594e30" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
