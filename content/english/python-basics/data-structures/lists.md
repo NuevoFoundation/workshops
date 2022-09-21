@@ -62,7 +62,7 @@ fruits.append('lemon')
 
 ### Insert an element at a specific index
 
-If you want to control where you place a new element, you can insert an element at specific index by of a list by `list.insert(i, x)` function. Here `list` is the name of the list, `i` is the index where you want to insert and `x` is the element that you want insert. Note: this will shift all of the elements starting at position i over one index.
+If you want to control where you place a new element, you can insert an element at specific index of a list by using the `list.insert(i, x)` function. Here `list` is the name of the list, `i` is the index where you want to insert and `x` is the element that you want insert. Note: this will shift all of the elements starting at position `i` over one index.
 
 
 ```python
