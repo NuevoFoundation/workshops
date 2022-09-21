@@ -24,6 +24,8 @@ Today, Python is used by developers all over the world. Specifically, Python is 
 
 And, in this course, we will cover all the basic features of the language.
 
+If at any time you get stuck or run into problems, access the [Help, I am stuck!](help.md) page for some quick tips and fixes to common mistakes.
+
 <details open>
 <summary>Topics</summary>
 {{% children %}}
