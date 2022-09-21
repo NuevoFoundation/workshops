@@ -13,7 +13,7 @@ Now that we know the basics about variables, we can ask for input from the user.
 value = input()
 ```
 
-Here's and examples of how to use <font color="blue">input()</font> to accept user input:
+Here's and examples of how to use `input()` to accept user input:
 
 ```python
 print("What's your name?")
