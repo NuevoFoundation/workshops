@@ -24,7 +24,7 @@ draft: false
 4.  NameError: global name \'\-\--\' is not defined
     Variables that are defined within a function can only be used within the function. If you try to use a variable from one function in another function, you will receive this error. 
     
-    To make information available to other functions you pass it out of one function with the return statement, possibly assigning it to a variable. Then you pass it into another function using a parameter. See the functions tutorial link in my signature for a detailed explanation.
+    To make information available to other functions you pass it out of one function with the `return` statement, possibly assigning it to a variable. Then you pass it into another function using a parameter. See the functions tutorial link in my signature for a detailed explanation.
 
 5.  Cannot recognize error: spelling mistake?
     You usually receive this when you make a spelling mistake in your keywords. Check all of your keywords.
