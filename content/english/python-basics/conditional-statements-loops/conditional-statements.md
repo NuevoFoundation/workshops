@@ -50,7 +50,7 @@ Now that we know how to use if statements to conditionally execute a single stat
 Sometimes, you need to evaluate a condition in order to act accordingly if it is `true`, but if it `false` we act differently. Here is the simplest form of the `else` statement.
 
 ```python
-if(expr):
+if (expr):
     statement1
 else: 
     statement2
