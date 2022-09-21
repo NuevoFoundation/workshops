@@ -134,7 +134,7 @@ print(indoorGames)
 set(["Table Tennis", "Basketball", "Badminton", "Carrom"])
 ```
 {{% notice note %}}
-If you remove an item that is not present in the set, you won't get any error. On the other hand, if you try to remove an item that is not present in a list, you would get a ValueError!
+If you remove an item that is not present in the set, you won't get any error.s On the other hand, if you try to remove an item that is not present in a list, you would get a `ValueError`!
 {{% /notice %}}
 
 ### Challenge
