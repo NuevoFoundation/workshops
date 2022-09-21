@@ -115,7 +115,7 @@ fruits.reverse()
 
 ### Get the minimum and maximum element of the list
 
-`min(list)` function returns the minimum element of the list and the maximum element can be found by using the `max(list)` function. If your list is a list of numbers, it will return the lowest or highest value number of the list. If your list is strings, it will return the first or last alphabetically.
+`min(list)` function returns the minimum element of the list and the maximum element can be found by using the `max(list)` function. If your list is a list of numbers, it will return the lowest or highest value number of the list. If your list is a list of strings, it will return the first or last value alphabetically.
 
 ```python
 
