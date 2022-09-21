@@ -17,7 +17,7 @@ Let’s analyze this piece of code. The `def` tells the computer that you are wr
 
 Press run.
 
-You will notice that nothing happens. This is only a function definition - we need to “call” the function to run the code within the function. In other words, the computer understands the instructions, but you need to tell the computer to do the given instructions. You can call my_function() anywhere, as long as it is after the function is defined. Place `my_function()` below the function definition, with no spaces in front. Your code should look like this:
+You will notice that nothing happens. This is only a function definition - we need to “call” the function to run the code within the function. In other words, the computer understands the instructions, but you need to tell the computer to do the given instructions. You can call `my_function()` anywhere, as long as it is after the function is defined. Place `my_function()` below the function definition, with no spaces in front. Your code should look like this:
  
 
 ```python
