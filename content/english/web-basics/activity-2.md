@@ -47,10 +47,10 @@ As you might know, there are multiple fonts that you can use. This part will sho
 ![alt text](../media/bodytag.PNG "body tag example")
 
 - Notice that the format inside the curly braces is: `name: value;`
-  - <span style="color:purple">@import url('https://fonts.googleapis.com/css?family=Roboto+Mono'); </span><br> `font-family: 'Roboto Mono', monospace;`
-  - <span style="color:purple"> @import url('https://fonts.googleapis.com/css?family=Indie+Flower');</span><br> `font-family: 'Indie Flower', cursive;`
-  - <span style="color:purple">@import url('https://fonts.googleapis.com/css?family=Pacifico'); </span><br> `font-family: 'Pacifico', cursive;`
-  - <span style="color:purple">@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');</span><br> `font-family: 'Permanent Marker', cursive;`
+  - <span style="color:purple">`@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');` </span><br> `font-family: 'Roboto Mono', monospace;`
+  - <span style="color:purple"> `@import url('https://fonts.googleapis.com/css?family=Indie+Flower');`</span><br> `font-family: 'Indie Flower', cursive;`
+  - <span style="color:purple">`@import url('https://fonts.googleapis.com/css?family=Pacifico');` </span><br> `font-family: 'Pacifico', cursive;`
+  - <span style="color:purple">`@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');`</span><br> `font-family: 'Permanent Marker', cursive;`
 
 ## Activity 2 - Adding attributes and style
 
@@ -67,6 +67,6 @@ It's now time to make our website pretty! To complete this activity, you will ne
 }`
 </font>
 4. Change the title color by adding `color: yellow;` inside the curly braces
-5. Change the font by adding `font-family: 'Roboto Mono', monospace;` inside the curly braces and adding <span style="color:purple">@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');</span> at the top of the CSS tab
+5. Change the font by adding `font-family: 'Roboto Mono', monospace;` inside the curly braces and adding <span style="color:purple">`@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');`</span> at the top of the CSS tab
                             
 <a class="my-2 mx-4 btn btn-info" href="https://codepen.io/Sunny-Dee/pen/qgvpQE" target="_blank">Try it yourself!</a>
