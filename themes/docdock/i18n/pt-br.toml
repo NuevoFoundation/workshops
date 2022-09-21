@@ -1,74 +1,74 @@
 # body-beforecontent.html
 [navigation]
-other = "Navigation:"
+other = "Navegação:"
 
 # next-prev-button.html
 [up-next]
-other = "Up Next:"
+other = "Próximo:"
 
 [previous]
-other = "Previous:"
+other = "Anterior:"
 
 # custom-footer.html
 [join-social-media]
-other = "Join the conversation on social media."
+other = "Siga-nos nas redes sociais."
 
 [copyright-footer]
-other = "© Copyright 2022, All Rights Reserved by Nuevo Foundation, a 501(c)(3) nonprofit."
+other = "© Copyright 2022, Todos os direitos reservados a Nuevo Foundation, uma organização sem fins lucrativos de acordo com a norma 501(c)(3) da lei federal dos Estados Unidos."
 
 # header.html
 [donate]
-other = "Donate"
+other = "Faça uma doação"
 
 [what-we-do]
-other = "What We Do"
+other = "Sobre nós"
 
 [workshops]
-other = "Workshops"
+other = "Minicursos"
 
 [get-involved]
-other = "Get Involved"
+other = "Faça parte"
 
 [support-us]
-other = "Support us"
+other = "Apoie-nos"
 
 [event-blog]
-other = "Event blog"
+other = "Últimos eventos"
 
 [our-team]
-other = "Our team"
+other = "Conheça nosso time"
 
 [contact-us]
-other = "Contact us"
+other = "Fale conosco"
 
 # Metadata.html
 [workshop-resources]
-other = "Workshop Resources"
+other = "Recursos do Minicurso"
 
 [pre-requisite]
-other = "Pre-requisite:"
+other = "Pré-requisito:"
 
 [difficulty]
-other = "Difficulty:"
+other = "Dificuldade:"
 
 [download]
-other = "Download:"
+other = "Baixar:"
 
 # notice.html
 [note]
-other = "Note"
+other = "Observação"
 
 [info]
-other = "Info"
+other = "Informação"
 
 [warning]
-other = "Warning"
+other = "Aviso"
 
 [tip]
-other = "Tip"
+other = "Dica"
 
 [help]
-other = "Help"
+other = "Ajuda"
 
 [hint]
-other = "Hint"
+other = "Sugestão"
