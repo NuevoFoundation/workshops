@@ -29,7 +29,7 @@ Watch your console say "Hello, World!" on the screen to the right! `print` tells
 {{% notice tip %}}
 ### Using " with printing
 
-Did you notice that Hello, World! was surrounded by "? Did you try it without the " marks to see that it produced an error? But, if you tried `print(123)`, did you see that it works. That is because text (Strings in programming languages) requires  you specify that it is text by wrapping it in quote marks. But numbers do not require them.
+Did you notice that Hello, World! was surrounded by `"`? Did you try it without the `"` marks to see that it produced an error? But, if you tried `print(123)`, did you see that it works. That is because text (Strings in programming languages) requires  you specify that it is text by wrapping it in quote marks. But numbers do not require them.
 
 Go back up and give try printing different things!
 {{% /notice %}}

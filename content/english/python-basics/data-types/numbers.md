@@ -5,7 +5,7 @@ draft: false
 weight: 2
 ---
 
-The computer can also do math. Use print to print out the result from the math expressions. No quotation marks are needed for numbers! Unlike strings, you can do math on numbers.
+The computer can also do math. Use `print()` to print out the result from the math expressions. No quotation marks are needed for numbers! Unlike strings, you can do math on numbers.
 
 ```python
 print(7-3)  #prints 4

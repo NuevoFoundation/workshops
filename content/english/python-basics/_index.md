@@ -8,7 +8,6 @@ icon: "fab fa-python"
 draft: false
 ---
 
-# Python basics
 
 ## Overview
 

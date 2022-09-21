@@ -39,7 +39,7 @@ if (x == 10):   #falsy
 
 Let’s break down the example above and decide why some statements are "truthful" or "falsy".
 
-We are given two variables `x` and `y` are they are eached assigned a value. In the first if statement we are testing if the value of `x` is less than the value of `y`. Since `0` is less than `5`, this is true! So, the first `if`- statement will print yes.
+We are given two variables `x` and `y` are they are each assigned a value. In the first if statement we are testing if the value of `x` is less than the value of `y`. Since `0` is less than `5`, this is true! So, the first `if`- statement will print yes.
 
 However, we can see that `y` is not less than `x`, so it evaluates to `false`. The inside of the `if` statement will not be executed then. The same applies for the `if` statement evaluating if `x` is equal to `10`. We see that `x` is equal to `0`, so this expression is `false`, and the inside of the `if` statement won’t be executed.
 
