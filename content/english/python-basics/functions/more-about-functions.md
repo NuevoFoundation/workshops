@@ -13,7 +13,7 @@ def my_function():
     print("My name is Nuvi!")
 ```
 
-Let’s analyze this piece of code. The `def` tells the computer that you are writing a function. We give it a name, in this case, `my_function`. Then, we put a colon (the : symbol) to indicate that the function is starting. The next two lines are <b>two spaces away from the left side of the text editor</b> -- this tells the computer that these lines are part of the function definition. This is <b>very important</b>, so don't miss out on this detail!
+Let’s analyze this piece of code. The `def` tells the computer that you are writing a function. We give it a name, in this case, `my_function`. Then, we put a colon (the `:` symbol) to indicate that the function is starting. The next two lines are **two spaces away from the left side of the text editor** -- this tells the computer that these lines are part of the function definition. This is **very important**, so don't miss out on this detail!
 
 Press run.
 
