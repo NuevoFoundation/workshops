@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning"
+title: "Python: Machine Learning"
 description: "Basics of Machine Learning"
 prereq: "none"
 difficulty: "Beginner"

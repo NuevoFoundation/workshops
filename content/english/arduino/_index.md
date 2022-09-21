@@ -1,5 +1,5 @@
 ---
-title: "Arduino"
+title: "Arduino: Light game"
 description: "Build a Arduino microcontroller"
 date: 2020-07-27T14:04:59.61-07:00
 difficulty: "Intermediate"
@@ -16,6 +16,7 @@ Today we will work on a few activities to show you some of the capabilities of t
 ![Picture of an Arduino](./img/Arduino.png)
 
 ## The Components
+
  The components we will use for the project are shown below. Make sure you have all these components before starting:
 
 ![Alt Text: Picture of Elegoo UNO Starter Kit](img/Elegoo-starter-kit.png)

@@ -1,5 +1,5 @@
 ---
-title: "Linux Basics"
+title: "Linux: Basics"
 description: "An introductory guide to using the Linux command line."
 date: 2020-09-17
 prereq: "None."
