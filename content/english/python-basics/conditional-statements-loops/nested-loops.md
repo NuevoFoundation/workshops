@@ -65,14 +65,14 @@ Go through inner while loop, x is 2 y is 3
 Go through inner while loop, x is 2 y is 4
  ```
 
-#### <i>Questions</i>
+#### Questions
 Can you try to find out how x and y values change and explain why?
-<br/>
-(<b>Hint</b>: How many times do we go through the outer loop and inner loop separately?)
+
+(**Hint**: How many times do we go through the outer loop and inner loop separately?)
 
 <hr/>
 
-### <b>Challenge One</b>
+### Challenge One
 Try to change the integers in the nested while loop and predict the outputs. Then run the code and observe the outputs. Do they match your predictions?
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Nested-loop-Python?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
@@ -112,35 +112,35 @@ This is the output of our example.
 ( 2 , 0 ) ( 2 , 1 ) ( 2 , 2 ) 
 ```
 
-#### <i>Questions</i>
+#### Questions
 Can you try to explain the printing pattern?
-<br/>
-(<b>Hint</b>: How many times do we go through the outer loop and inner loop separately?)
+
+(**Hint**: How many times do we go through the outer loop and inner loop separately?)
 
 <hr/>
 
-### <b>Challenge Two</b>
+### Challenge Two
 Try to change the integers in the nested for loop and predict the outputs.
 Then run the code and observe the outputs. Do they match your predictions?
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Basic-nested-for?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 
-#### <i>Questions</i>
+#### Questions
 Try to initialize n and m. Will this change our output from the nested loops and why?
 Then run the code and observe the outputs. Do they match your predictions?
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Nested-for-ex2?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-#### <i>Questions</i>
+#### Questions
 By the end of this section, let us think about the following questions:
-<i>1</i>. Why initialization will not changing the output?
-<br/>
-(<b>Hint</b>: What does the variable in the for loop represent?)
-<br/>
-<i>2</i>. What should we do if we want start printing from (1, 1)?
-<br/>
-(<b>Hint</b>: What would happen if we change the ranges?)
+*1*. Why initialization will not changing the output?
+
+(**Hint**: What does the variable in the for loop represent?)
+
+*2*. What should we do if we want start printing from (1, 1)?
+
+(**Hint**: What would happen if we change the ranges?)
 
 ### Challange Three ###
 
@@ -154,4 +154,4 @@ Using nested `for` loop or `while` loop, try printing the following pattern
     1 2 3 4 5
     ```
 
-Hint: to print without a new line, you can use `print(x, end=" ")`. And to force a new line you can use `print()`.
+**Hint**: to print without a new line, you can use `print(x, end=" ")`. And to force a new line you can use `print()`.
