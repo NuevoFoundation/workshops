@@ -57,16 +57,15 @@ As you might know, there are multiple fonts that you can use. This part will sho
 It's now time to make our website pretty! To complete this activity, you will need to complete the following steps:
 
 1. Open the web editor (click the "Try it yourself!" button below)
-2. Add an id attribute to one of the header tag. For example,
-<font color="red">`<header id="page-title">`</font>
+2. Add an id attribute to the paragraph tag. For example,
+<font color="red">`<p id="page-subtitle">`</font>
 
-3. Toggle to the CSS tab
-<font color="red">`#page-title
+3. Toggle to the CSS tab and make a new rule
+<font color="red">`#page-subtitle
 {
-  styling here...
 }`
 </font>
-4. Change the title color by adding `color: yellow;` inside the curly braces
+4. Change the subtitle color by adding `color: yellow;` inside the curly braces
 5. Change the font by adding `font-family: 'Roboto Mono', monospace;` inside the curly braces and adding <span style="color:purple">@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');</span> at the top of the CSS tab
                             
 <a class="my-2 mx-4 btn btn-info" href="https://codepen.io/Sunny-Dee/pen/qgvpQE" target="_blank">Try it yourself!</a>
