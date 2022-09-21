@@ -63,7 +63,9 @@ else:
 ```
 Example B will print out:
 
-`1=1`<br/>
+\```
+1 = 1
+\```
 
 In Example A we will evaluate the first `if` statement (`1==1`) to be `true`. The inside of first `if` statement will be executed then. We will then evaluate second `if` statement (`3==3`) to be `true` as well. The inside of second `if` statement will also be executed.
 
