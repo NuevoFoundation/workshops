@@ -70,10 +70,9 @@ Example B will print out:
 In Example A we will evaluate the first `if` statement (`1==1`) to be `true`. The inside of first `if` statement will be executed then. We will then evaluate second `if` statement (`3==3`) to be `true` as well. The inside of second `if` statement will also be executed.
 
 In Example B we will evaluate the first `if` statement (`1==1`) to be `true`. Then the rest part of `elif` and `else` will not be evaluated since `if` is already correct.
-<br/><br/>
+
 #### Challenge
-Can you utilize the knowledge you learnt in Python-Basics-booleans to make your own example for `elif`?
-You may want to review boolean to finish this challenge.
-- <a href="../../python-basics/data-types/booleans"> Booleans </a>
-<br/><br/>
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Basic-else-if?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+Can you utilize the knowledge you learned in Python-Basics-booleans to make your own example for `elif`?
+You may want to [review the boolean lesson](../../python-basics/data-types/booleans) to finish this challenge.
+
+<iframe height="600px" width="100%" src="https://replit.it/@nuevofoundation/Basic-else-if?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>

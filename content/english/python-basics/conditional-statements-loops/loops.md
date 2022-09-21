@@ -73,7 +73,6 @@ There is another way to stop running these loops before the end of the list or b
 You can do this with the `break` statement.  This lets you break out of the loop in either a for loop or while loop.  
 
 Here's an example with a while loop:
-<<<<<<< HEAD
 
 ```python
 count = 0
@@ -89,9 +88,6 @@ while True:  #This will make the while loop run forever! unless there is a break
 ```
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Python-loops-break?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-=======
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Python-loops-break?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
->>>>>>> 2dca5bac6dfbb786cef91f9a4942acb876645df1
 
 ### Challenges
 
