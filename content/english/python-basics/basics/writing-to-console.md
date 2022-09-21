@@ -14,7 +14,7 @@ Let's start by doing a `print` statement.
 We will use printing a lot in the later lessons, so make sure you understand this before moving on to the next concept!
 
 ### Challenge 1
-To start, write the following text into your Repl.it main.py and click Run.
+To start, write the following text into your Replit main.py and click Run.
 
 ```python
 print("Hello, World!")
@@ -24,7 +24,7 @@ Watch your console say "Hello, World!" on the screen to the right! `print` tells
 
 ![alt text](../../img/print.png "hello world in python!")
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Basics-Print?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Basics-Print?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 {{% notice tip %}}
 ### Using " with printing
@@ -41,7 +41,7 @@ Go back up and give try printing different things!
 3. Press **run** to see if two sentences are printed out.
 
 <iframe height="600px" width="100%" 
- src="https://repl.it/@nuevofoundation/Basics-Print?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+ src="https://replit.com/@nuevofoundation/Basics-Print?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 We will use printing a lot in the later lessons, so make sure you understand this before continuing!
 

@@ -10,7 +10,7 @@ difficulty: Intermediate
 To change an image, we must open an image. We can use the `Pillow Image` module we just imported in the setup.
 Let’s first find some images to open. Find an image of your choice and download it. You can also use the one we use in this workshop: <a href="../media/cat.jpg" download>Click to download.</a>
 
-Once you have downloaded it, navigate back to your repl.it window and upload your image by clicking on the three dots and selecting ‘upload file’.  
+Once you have downloaded it, navigate back to your Replit window and upload your image by clicking on the three dots and selecting ‘upload file’.  
 
 For example, to upload the cat.jpg file:
 

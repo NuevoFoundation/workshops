@@ -72,6 +72,6 @@ else:
 Let’s put together everything we've learned so far! Let’s see if we can create a program that prompts the user for their name. The user can write their name into the console. Then the computer can decide if their name is equal to your name and print out a response. Else, print out a different response!
 
 <iframe height="600px" width="100%" 
- src="https://repl.it/@nuevofoundation/python-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+ src="https://replit.com/@nuevofoundation/python-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 Hint: Try talking out the different paths a computer can take! Make sure to identify what the if and else conditions are.

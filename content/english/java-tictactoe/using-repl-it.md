@@ -11,9 +11,9 @@ draft: false
 
 ## Using Repl.it
 
-Today you will be using Repl.it to code in Java. Here is the starter code you will use today:
+Today you will be using Replit to code in Java. Here is the starter code you will use today:
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaTicTacToeStarterCode?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/JavaTicTacToeStarterCode?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 {{% notice info %}}
 

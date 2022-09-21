@@ -25,4 +25,4 @@ Be careful, if you remove the `#` symbol, your code will not work!
 ### Challenge
 Try adding a comment above your first line of code and press run. You will see that the computer will ignore your comment.
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Basics-Comments?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Basics-Comments?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
