@@ -83,7 +83,7 @@ fruits.remove('apple')
 
 `list.remove(x)` throws a value error if the element `x` is not present in the list.
 
-Also, notice that the second instance of 'apple' is still in the list.
+Also, notice that the second instance of `'apple'` is still in the list.
 
 {{% /notice %}}
 
