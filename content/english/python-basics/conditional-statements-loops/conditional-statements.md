@@ -61,7 +61,7 @@ This is really like the `if` statement! However here, if the `if` statement is `
 A real-life example is if I’m hungry, I’ll eat. Else (in other words, I’m not hungry), I won’t eat. Let’s take a look in python code!
 
 ```python
-if(hungry):
+if (hungry):
     eat
 else:
     dont_eat
