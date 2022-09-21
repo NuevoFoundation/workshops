@@ -6,7 +6,7 @@ weight: 2
 
 ## Overview
 
-In programming, data type is an important concept. Variables can store data of different types, and different types can do different things.
+In programming, data types are an important concept. Variables can store data of different types, and different types can do different things.
 
 Python has the following data types built-in by default, in these categories:
 
