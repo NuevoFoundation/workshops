@@ -132,7 +132,7 @@ Then run the code and observe the outputs. Do they match your predictions?
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Nested-for-ex2?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-#### <i>Questions</i>
+#### Questions
 By the end of this section, let us think about the following questions:
 <i>1</i>. Why initialization will not changing the output?
 <br/>
