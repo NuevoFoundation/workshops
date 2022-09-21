@@ -127,7 +127,7 @@ print(max(my_list)) ## prints 5, the maximum element of my_list
 ```
 {{% notice note %}}
 
-If your list is a mix of strings and numbers, the min and max functions will return an error.
+If your list is a mix of strings and numbers, the `min` and `max` functions will return an error.
 
 {{% /notice %}}
 
