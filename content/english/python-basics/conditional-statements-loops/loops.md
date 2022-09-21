@@ -80,7 +80,7 @@ count = 0
 while True:  #This will make the while loop run forever! unless there is a break statement somewhere in the loop.
     print("count is", count)
     
-    if(count == 10): #This says that i the count is equal to 10, then exit the while loop
+    if (count == 10): #This says that i the count is equal to 10, then exit the while loop
         print("Breaking out of the loop!")
         break
     
