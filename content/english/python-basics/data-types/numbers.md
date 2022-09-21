@@ -58,15 +58,17 @@ Using `str(5)` turns the number into the string `"5"`. Converting one type of th
 
 Here is how to print a random number between 1 (inclusive) and 10 (inclusive):
 
- \```python 
+ ```python 
  # This line imports the library needed
  from random import 
  # This line prints a random number between 1 (inclusive) and 10 (inclusive)
  print(randint(1,10))
- \```
+ ```
 
 Want to know more? Ask for help or poke around on the internet! Every coder's best friend is a search engine! 
 
 In particular, try understanding what the <font color="blue">from</font> and the <font color="blue">import</font> words mean. We will come back to these words later during the project. 
 
 {{% /notice %}}
+
+<iframe src="https://trinket.io/embed/python/b238d85d0d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

@@ -75,7 +75,7 @@ Can you try to find out how x and y values change and explain why?
 ### Challenge One
 Try to change the integers in the nested while loop and predict the outputs. Then run the code and observe the outputs. Do they match your predictions?
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Nested-loop-Python?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe src="https://trinket.io/embed/python/386ca3182b" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 <br/><br/>
 <hr/>
 
@@ -124,13 +124,13 @@ Can you try to explain the printing pattern?
 Try to change the integers in the nested for loop and predict the outputs.
 Then run the code and observe the outputs. Do they match your predictions?
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Basic-nested-for?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe src="https://trinket.io/embed/python/8b9effdbd6" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 #### Questions
 Try to initialize n and m. Will this change our output from the nested loops and why?
 Then run the code and observe the outputs. Do they match your predictions?
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Nested-for-ex2?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe src="https://trinket.io/embed/python/1ea8b47667" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 #### Questions
 By the end of this section, let us think about the following questions:

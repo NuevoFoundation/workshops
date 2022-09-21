@@ -5,6 +5,8 @@ draft: false
 weight: 1
 ---
 
+<!-- TODO: Replace with Trinket page -->
+
 Open your favorite internet browser (such as Edge, Firefox, Google Chrome, Internet Explorer) and go to https://replit.com. Scroll to the bottom of the page, look for `languages`, search for Python and click it.
 
 ![List of languages to select in Repl.it](../../img/replLang.png)

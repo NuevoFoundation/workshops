@@ -26,7 +26,6 @@ icon: "fab fa-python"
 
 ¡Vamos a probarlo!
 
-<iframe height="600px" width="100%" 
- src="https://replit.com/@nuevofoundation/PythonGuessAdventureFullSample?lite=true&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe src="https://trinket.io/embed/python/ddbeb74073?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ¿Qué pensaron? Ahora vamos a aprender algunas habilidades interesantes que nos permitirán crear nuestras propias historias.

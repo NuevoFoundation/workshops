@@ -20,7 +20,7 @@ for x in [1,2,3,4,5]:
     print("We're on loop number",x)
 ```
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Loops-forloop-range?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe src="https://trinket.io/embed/python/ddcca3b818" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 What if you wanted to repeat a task 10 times instead? 100 times? 1000 times??
 
@@ -43,7 +43,7 @@ for x in fruits:
     print(x)
 ```
 
-<iframe height="600px" width="100%" src="https://replit.it/@nuevofoundation/python-forloop-fruits?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe src="https://trinket.io/embed/python/3fd98a6bf4" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### While loops
 
@@ -58,7 +58,7 @@ while count < 5:
     count += 1  #This is the same thing as count = count + 1
 ```
 
-<iframe height="600px" width="100%" src="https://replit.it/@nuevofoundation/python-loops-while?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe src="https://trinket.io/embed/python/6d4f0c86f0" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 As you can see, all of the code below the while loop gets executed as long as the variable count is less than 5.
 
@@ -87,7 +87,7 @@ while True:  #This will make the while loop run forever! unless there is a break
     count += 1  # this is equal to count = count + 1
 ```
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Python-loops-break?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe src="https://trinket.io/embed/python/6cd0debfe5" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### Challenges
 
@@ -106,7 +106,7 @@ numList = [69, 430, 363, 80, 166, 476, 250, 38, 84, 405, 41, 302, 480, 57, 155, 
 For example, ask the user to enter a number in the console, then write to console if it was found.
 Hint: You will need to convert the information entered by the user into an integer by using `int(x)`.
 
-<iframe height="600px" width="100%" src="https://replit.it/@nuevofoundation/python-loops-activity?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe src="https://trinket.io/embed/python/1beb594e30" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### Question
 

@@ -139,7 +139,6 @@ Now let's try this yourself. Start with the list of fruits below. Print out the 
 fruits = ['orange', 'kiwi', 'banana', 'apple', 'mango', 'lemon']
 ```
 
-<iframe height="600px" width="100%" 
- src="https://replit.com/@nuevofoundation/python-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe src="https://trinket.io/embed/python/b238d85d0d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Hint: You will need to convert the `length` integer to a string using the `str(int)` function.
