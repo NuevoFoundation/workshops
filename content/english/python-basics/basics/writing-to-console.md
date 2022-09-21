@@ -14,7 +14,7 @@ Let's start by doing a `print` statement. A `print` statement allows you to take
 We will use printing a lot in the later lessons, so make sure you understand this before moving on to the next concept!
 
 ### Challenge 1
-To start, write the following text into your Replit main.py and click Run.
+To start, write the following text into your Trinket main.py and click Run.
 
 ```python
 print("Hello, World!")
@@ -24,8 +24,7 @@ Watch your console say "Hello, World!" on the screen to the right! `print` tells
 
 ![alt text](../../img/print.png "hello world in python!")
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Basics-Print?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
+<iframe src="https://trinket.io/embed/python/ce70252d93" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### Challenge 2
 
@@ -33,8 +32,7 @@ Watch your console say "Hello, World!" on the screen to the right! `print` tells
 2. Add another print below the current line to print a second sentence below the first sentence.
 3. Press **run** to see if two sentences are printed out.
 
-<iframe height="600px" width="100%" 
- src="https://replit.com/@nuevofoundation/Basics-Print?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe src="https://trinket.io/embed/python/ce70252d93" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 We will use printing a lot in the later lessons, so make sure you understand this before continuing!
 

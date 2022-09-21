@@ -8,6 +8,6 @@ icon: "fab fa-python"
 draft: false
 ---
 
-In this activity, you will be creating a simple game that incorporates some of the things you learned in the Python Basics section.
+In this activity, you will be creating a simple game that incorporates some of the things you learned in the Python Basics workshop.
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Python-guessnumber-demo?lite=true&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe src="https://trinket.io/embed/python/63815a963b" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

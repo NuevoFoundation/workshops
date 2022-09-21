@@ -62,3 +62,5 @@ Want to know more? Ask for help or poke around on the internet! Every coder's be
 In particular, try understanding what the <font color="blue">from</font> and the <font color="blue">import</font> words mean. We will come back to these words later during the project. 
 
 {{% /notice %}}
+
+<iframe src="https://trinket.io/embed/python/b238d85d0d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
