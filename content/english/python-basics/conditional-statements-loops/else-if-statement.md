@@ -4,7 +4,7 @@ draft: false
 weight: 2
 ---
 
-In the last exercise, We learned basic if-else conditions.  If you need a quick refresher, you can review <a href="../../python-basics/conditional-statements"> Conditional statements</a>.
+In the last exercise, we learned basic if-else conditions. If you need a quick refresher, you can review <a href="../../python-basics/conditional-statements"> Conditional statements</a>.
 
 In this section, we'll expand to introduce a new condition called "elif".
 
