@@ -63,7 +63,7 @@ Try changing the values for height and width to see the effects of different val
   <img class="img" img id="answer5" src="assets/Semicolon_Block.PNG" draggable="true" ondragstart="drag(event)" id="drag5">
 </div>
 
-<div style="clear: both;"></div> 
+<div style="clear: both;"></div>
 
 <!-- Enter button -->
 <button class="button button1" onclick="check()">Enter</button>
@@ -86,6 +86,7 @@ Try changing the values for height and width to see the effects of different val
   </div>
 </div>
 {{< /rawhtml >}}
+
 
 ## Takeaway
 
