@@ -6,23 +6,17 @@ difficulty: Intermediate
 weight: 13
 draft: false
 ---
+Great job! You've nearly reached the end!
 
 To verify that your code is correct up to this checkpoint, please compare your code against the example code provided below.
 
-{{% notice info %}}
-
-If you would like to test the following code, visit <a href="https://colab.research.google.com/drive/1yrUcfMw8H9XbfJ8USITjErpRpBQrl_Sf?usp=sharing" target="_blank">this link</a> 
-
-To edit this code, click on the 'Copy to Drive' button to make a personal copy of this notebook. Make sure you are logged in to your Google account.
-
 {{% notice warning %}}
-### If you are using a Nuevo Google account temporarily
-Once you make a copy, please make sure to replace the "Copy of" with your name, along with the file name. This will be on the top left corner of your notebook.
-{{% /notice%}}
-
-
+The outputs of the code may vary. You only need to copy the code blocks, and __not__ the output blocks, as they will be generated automatically in your notebook.
 {{% /notice %}}
 
+## Compare Your Code
+
+Before moving on, please check your Google Colab notebook against the code below:
 
 ```python
 def plot_image(i, predictions_array, true_label, img):
@@ -170,6 +164,20 @@ plot_value_array(i, predictions[i],  test_labels)
 plt.show()
 ```
 ![Image and Graph](../media/PU3_shirtandgraph.png)
+
+{{% notice info %}}
+
+If you would like to test the code above, visit <a href="https://colab.research.google.com/drive/1yrUcfMw8H9XbfJ8USITjErpRpBQrl_Sf?usp=sharing" target="_blank">this link</a> 
+
+To edit this code, click on the 'Copy to Drive' button to make a personal copy of this notebook. Make sure you are logged in to your Google account.
+
+{{% notice warning %}}
+### If you are using a Nuevo Google account temporarily
+Once you make a copy, please make sure to replace the "Copy of" with your name, along with the file name. This will be on the top left corner of your notebook.
+{{% /notice%}}
+
+
+{{% /notice %}}
 
 
 {{% notice tip %}}
