@@ -22,13 +22,13 @@ Now, you will need to create a new repository to store the contents of your site
 
 <b>Congratulations!</b> You have created your first repo! Upload all your files and folders that belong to your site here. 
 
-First we need to get our files out of codepen. You need to either sign in or sign up for a codepen account in order to export your files. Starting from the codepen you created in the previous step, click inside the html tab and hit ctrl+s on your keyboard to save. This should trigger a popup asking you to sign in or create an account. <b>Do not</b> use the "Sign up" or "Log in" buttons on the top right as this will cause you to lose your work. 
+First we need to get our files out of Codepen. You need to either sign in or sign up for a Codepen account in order to export your files. Starting from the Codepen you created in the previous step, click inside the html tab and hit ctrl+s on your keyboard to save. This should trigger a popup asking you to sign in or create an account. <b>Do not</b> use the "Sign up" or "Log in" buttons on the top right as this will cause you to lose your work. 
 
 <p style="text-align: center; "><img src="../media/codepenSignup.png" alt="signing up for Codepen account" width="700"/></p>
 
 Once you are signed in, click on "Export" in the bottom right corner and choose "Export .zip". This will download a zip folder to your computer. Go to this folder, right click on the zip and choose "Extract" or "Extract All". This should open a new window with the extracted folder. Click on "exercise-5" folder and then "dist" folder. Here you should see index.html and style.css. These are the files you need to upload to Github. 
 
-<p style="text-align: center; "><img src="../media/codepenZipFiles.png" alt="extracted files from codepen" width="700"/></p>
+<p style="text-align: center; "><img src="../media/codepenZipFiles.png" alt="extracted files from Codepen" width="700"/></p>
 
 From your Github repo, choose "Add file" and then "Upload files". Upload your index.html and style.css files and then click "Commit changes".
 
