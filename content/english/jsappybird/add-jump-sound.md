@@ -10,6 +10,8 @@ Let's add sounds to the bird while it is jumping
 Add the below command in the file [File: create-game.js]
     jumpSound.play();
 
+{{% notice tip %}}
+
 ## Working Together
 
 In the Replit window below, we started the code with the line `jumpSound.play();`.
