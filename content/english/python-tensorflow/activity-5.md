@@ -22,7 +22,7 @@ probability_model = tf.keras.Sequential([model, tf.keras.layers.Softmax()])
 
 {{% notice note %}}
 A softmax layer is a type of neural network layer in a maching learning model. The softmax layer turns our inputs, which theoretically could come from a varied range of data structures, be turned into a probability distribution between 0 to 1.
-{{% notice%}}
+{{%/notice%}}
 
 ```python
 predictions = probability_model.predict(test_images)
