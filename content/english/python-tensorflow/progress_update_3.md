@@ -176,30 +176,4 @@ To edit this code, click on the 'Copy to Drive' button to make a personal copy o
 Once you make a copy, please make sure to replace the "Copy of" with your name, along with the file name. This will be on the top left corner of your notebook.
 {{% /notice%}}
 
-
-{{% /notice %}}
-
-
-{{% notice tip %}}
-#### Congratulations! You and your colleagues are now able to sort 4 times as many returned clothes! 
-#### Your supervisor is impressed by this and chose you as the Employee of the Month!
-
-{{% /notice %}}
-
-{{% notice info %}}
-#### Thank you for doing this workshop! We hope you enjoyed it and learned the basics of Machine Learning!
-{{% /notice %}}
-
-{{% notice warning %}}
-#### Are you stuck anywhere in this workshop or want to check your work? 
-Feel free to refer to this <a href="#" target="_blank">Answer Key</a>
-
-{{% /notice %}}
-
-{{% notice info %}}
-If you would like to test the finished code, visit <a href="https://colab.research.google.com/drive/1NtI1_iiNvq1J9rQsEaKEbiFsotkL_C0T?usp=sharing" target="_blank">this link</a> 
-
-To edit this code, click on the 'Copy to Drive' button to make a personal copy of this notebook. Make sure you are logged in to your Google account.
-![](../media/colab_copy.png)
-
-{{% /notice %}}
+{{% /notice%}}
