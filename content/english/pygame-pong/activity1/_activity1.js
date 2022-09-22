@@ -4,7 +4,7 @@ function check() {
   change_color('div7', p2, "answer2");
   change_color('div8', p3, "answer3");
   change_color('div9', p4, "answer4");
-
+  change_color('div10', p5, "answer5");
   // Check if all the answers are correct
   if (p1 == "answer1" && p2 == "answer2" && p3 == "answer3" &&
     p4 == "answer4") {

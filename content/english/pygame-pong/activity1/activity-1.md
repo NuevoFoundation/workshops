@@ -4,6 +4,16 @@ date: 2019-07-29T13:24:17-07:00
 weight: 3
 draft: false
 ---
+<link rel="stylesheet" href="../default/_default.css" type="text/css"></link>
+<link rel="stylesheet" href="../default/_type.css" type="text/css"></link>
+<link rel="stylesheet" href="_activity1.css" type="text/css"></link>
+
+<script type="text/javascript" src="../default/alasql.js"></script>
+<script type="text/javascript" src="../default/db.js"></script>
+<script type="text/javascript" src="../default/_default.js"></script>
+<script type="text/javascript" src="../default/_type.js"></script>
+<script type="text/javascript" src="_activity1.js"></script>
+{{< youtube hUTKI3AHJ1s >}}
 
 You can adjust the boundary of the Pong game by adjusting the height and width of the rectangle that represents the boundary.
 
@@ -39,7 +49,7 @@ Try changing the values for height and width to see the effects of different val
 <div id="div9" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
 <div id="div10" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
 
-<div style="clear: both;"></div> 
+<div style="clear: both;"></div>
 
 <br>
 
@@ -71,7 +81,7 @@ Try changing the values for height and width to see the effects of different val
 </div> <!-- content_scaler -->
 
 <!-- Hidden SQL database will appear once correct sequence is placed -->
-<div style="clear: both;"></div> 
+<div style="clear: both;"></div>
 <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT</strong></h1>
 <table id="table">
   <tr></tr>
@@ -87,7 +97,5 @@ Try changing the values for height and width to see the effects of different val
 </div>
 {{< /rawhtml >}}
 
-
 ## Takeaway
-
 You have just modified one of the attributes in the `Pong` class to influence how the game will look on-screen.
