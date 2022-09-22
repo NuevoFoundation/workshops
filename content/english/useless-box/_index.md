@@ -6,13 +6,13 @@ prereq: "None"
 difficulty: "Beginner"
 download: ""
 draft: true
-icon: "fas fa-microchip"
+icon: "fa-solid fa-microchip"
 ---
 
 # Can we make a box for Nuvi?
 
-Nuvi is in a bad mood, and it wants to be left alone. You have to make a box for it to have some privacy, but the box needs to be openable with a switch if you need to talk to it.
-Let’s make what’s called a “useless box”. This could also be amusement for little ones, or just a silly gadget that’s fun to play with and pass the time 😊
+Nuvi is in a bad mood and wants to be left alone. You have to build it a house and let it know you're there by pressing the switch. Nuvi doesn't really want to talk right now, so it will let you know that by pushing the switch back.
+Let’s make what’s called a “useless box”. This could also be amusement for little ones, or just a silly gadget that’s fun to play with and pass the time 😊.
 
 This is what it would look like:
 ![useless box picture, clear prism with a switch in the center](../img/uselessbox1.png)
