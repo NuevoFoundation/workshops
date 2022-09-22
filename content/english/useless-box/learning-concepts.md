@@ -7,13 +7,16 @@ weight: 2
 ## How do we make a "useless" box? Let's learn some basic concepts first!
 
 ### What will power the box? Batteries!
-A battery is a chemical pump for electrons(*)! There is a pair of chemical reactions that pump electrons from anode to cathode. 
+A battery is a chemical pump for electrons! There is a pair of chemical reactions that pump electrons from [anode](https://en.wikipedia.org/wiki/Anode) (negative end of the battery) to [cathode](https://en.wikipedia.org/wiki/Cathode) (positive end of the battery). 
 
 The battery **voltage** is the potential energy given to electrons as a result of this pump.  
 
-((\*)An electron is a stable subatomic particle with a charge of negative electricity, found in all atoms and acting as the primary carrier of electricity in solids.)
+{{%notice tip%}}
+An electron is a stable subatomic particle with a charge of negative electricity, found in all atoms and acting as the primary carrier of electricity in solids.)
+{{%/notice%}}
 
-You may be familiar with this type of batteries, that power many of our devices (or toys):
+You may be familiar with AA (double-A) batteries, that power many of our devices (or toys):
+
 ![double AA battery](../img/regularBattery.jpg)
 
 Voltage, measured in "volts", is always a measure of "the difference in potential energy" between two points. For example: charge at the top of the battery have 1.5V higher energy than the bottom.
@@ -24,7 +27,7 @@ What happens when you attach a light to a battery? **Current** flows.
 But what is flowing?
 
 Electrical charge. **Charge** is what makes components electrical. Charge can flow/move in material that conducts electricity, like wires. 
-Moving charge is called **current**. Its unit is the Ampere, usually called amps (A). 
+Moving charge is called **current**. We measure current in Amperes, usually called amps (A). 
 
 ### What triggers the action? Let's talk switches!
 What is a switch? A switch is a component that uses a mechanical motion to change the conductivity between its terminals.
