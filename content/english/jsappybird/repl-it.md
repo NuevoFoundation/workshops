@@ -5,9 +5,7 @@ draft: false
 weight: 1
 ---
 
-Today you will be using Replit to build JSappy bird. Here is an example interactive window that you will use today:
-
-Open your favorite internet browser (such as Edge, Firefox, Google Chrome, Internet Explorer) and go to [https://replit.com](https://replit.com).
+Today you will be using Replit to build JSappy bird. Open your favorite internet browser (such as Edge, Firefox, Google Chrome, Internet Explorer) and go to [https://replit.com](https://replit.com).
 
 You should see something like the following screen:
 
@@ -26,4 +24,4 @@ When you make changes to the scaffold you will be created as anonymous users.
 
 You should see something like the following screen:
 
-![#Can't find image](../img/replactivity1.png)
+![#Can't find image](../img/repl.png)
