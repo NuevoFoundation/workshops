@@ -7,7 +7,7 @@ weight: 2
 ## How do we make a "useless" box? Let's learn some basic concepts first!
 
 ### What will power the box? Batteries!
-A battery is a chemical pump for electrons! There is a pair of chemical reactions that pump electrons from [anode](https://en.wikipedia.org/wiki/Anode) (negative end of the battery) to [cathode](https://en.wikipedia.org/wiki/Cathode) (positive end of the battery). 
+A battery is a chemical pump for electrons! There is a pair of chemical reactions that pump electrons from the [anode](https://en.wikipedia.org/wiki/Anode) (negative end of the battery) to the [cathode](https://en.wikipedia.org/wiki/Cathode) (positive end of the battery). 
 
 The battery **voltage** is the potential energy given to electrons as a result of this pump.  
 
