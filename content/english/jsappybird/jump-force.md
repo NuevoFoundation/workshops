@@ -9,6 +9,9 @@ Let's add force to the bird
 
 Add the below command in the file [File: create-game.js]
     bird.body.velocity.y = -350;
+    
+{{% notice tip %}}
+
 ## Working Together
 
 In the Replit window below, we started the code with the line `bird.body.velocity.y = -350;`.
@@ -39,6 +42,8 @@ Add below command in the file [File: update-game.js]
 
 `If` is a conditional block where we are checking the angle of the bird and if it's less than 50 we are executing the condition.
    -bird.angle+=1;
+
+{{% notice tip %}}
 
 ## Working Together
 
