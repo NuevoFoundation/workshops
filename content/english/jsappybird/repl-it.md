@@ -1,5 +1,5 @@
 ---
-title: "Starting up with Repl.it"
+title: "Starting up with Replit"
 date: 2020-07-28T13:24:17-07:00
 draft: false
 weight: 1
@@ -13,7 +13,7 @@ You should see something like the following screen:
 
 ![#Can't find image](../img/repl.png)
 
-Here is the final output of the game:
+Here is an example of the final game:
 
 https://jsappybird-answers--nuevofoundation.repl.co/
 
