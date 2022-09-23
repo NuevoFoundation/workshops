@@ -23,7 +23,7 @@ while(num <= 100){
 System.out.println("Sum: " + total);
 ```
 
-But what if we want to calculate the sum from 1 to 77 instead? How do we do it without writing the whole blocks of code again?
+But what if we want to calculate the sum from 1 to 77 instead? How do we do it without rewriting lines within our code?
 
 We want to create a ✨ magic box ✨ in code that does the calculation for us no matter which 2 numbers we want to create a sum for!
 <img src="../images/method.png" height="250" alt="Num 1 and Num 2 with arrow pointing into a circle with the words Magic Box and an arrow pointing out of the circle pointing to Sum of Num 1 to Num 2"/> 
@@ -40,13 +40,13 @@ To define a method, we need to first write out its <b>method header</b>. A metho
 **Part Name** | **Description** | **Examples or possible options**
 ----|----|----
 **access specifier** | provides the level of access to the method  | `public` tells the computer that anyone can use this method. `private` tells the computer it can only be called within a class. (We'll learn about classes on the next page!) `protected` tells the computer it can be called by objects of the same class.
-**return type** | data type that is returned to the calling function | use `void` if the method doesn't return anything.
+**return type** | data type that is returned to the calling function | use `void` if the method doesn't return anything, use `int` if you plan on returning an integer
 **method name** | name of the method used to call it | user defined based on what the method does
 **list of parameters** | list of inputs that must be provided when the method is used | format of (`type` `input name`, `type` `input name`, ... ).
 
 ```
 // an example
-public void sing (String songName)
+public void string (String songName)
    1.    2.   3.        4.
 ```
 **Note:** The variable names for the parameters do not have to match the variable name of the data being passed into the method.
@@ -95,6 +95,11 @@ Knowing `sumNum(1, 3)` returns an `int` with the sum from 1 to 3, we can do the 
 ```java
 int sum1to3 = sumNum(1, 3); 
 ```
+{{% /notice %}}
+
+{{% notice tip %}}
+
+Your return type must match the returned variable in your program. Otherwise it will fail. 
 {{% /notice %}}
 
 ## Count the Pyramid!🔺

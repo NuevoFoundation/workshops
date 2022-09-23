@@ -64,9 +64,26 @@ if(likeMusic == true) {
 The code above will print the statement `I like Music` because the boolean expression, `likeMusic == true`, is true.
 {{% /notice %}}
 
+{{% notice tip %}}
+You do not have to check if `likeMusic == true`, a shorthand to the above example can look like this
+
+```java
+boolean likeMusic = true;
+if(likeMusic) {
+    System.out.println("I like Music");
+} else {
+    System.out.println("I don't like Music");
+}
+```
+The program understands that if `likeMusic` is already `true`, it will run the actions found within those braces.
+{{% /notice %}}
+
 Let's revisit the greating example above, and make decision for Patrick on whether to say "Good Morning," "Good Afternoon," "Good Night". 
 
-Patrick should say "Good Morning" between 0:00 - 11:59, "Good Afternoon" between 12:00 - 19:59, and "Good Night" between 20:00 - 23:59.
+Patrick should say 
+* "Good Morning" between 0:00 - 11:59
+* "Good Afternoon" between 12:00 - 19:59
+* "Good Night" between 20:00 - 23:59.
 
 1. We have a variable `currentHour` that stores the current hour. 
 2. Fill out the correct `boolean expression A` and `boolean expression B` to complete the program. 
@@ -74,13 +91,13 @@ Patrick should say "Good Morning" between 0:00 - 11:59, "Good Afternoon" between
 
 <a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsIfStatement" target="_blank">Launch Replit</a>
 
-## Repeat It Again: For-Loop, While-Loop
+## Let's Repeat It Again: For-Loop, While-Loop
 
-In math class, Patrick's 🐥 teacher ask the class to solve a math challenge, and he might need some help. 
+In math class, Patrick's 🐥 teacher asks the class to solve a math challenge, and he might need some help. 
 
-The teacher asks them to find the **sum of 1, 2, 3, ...., 100**. That is what is **1 + 2 + 3 + 4 ... + 99 + 100**?
+The teacher asks them to find the **sum of 1, 2, 3, ...., 100**. What is the sum of **1 + 2 + 3 + 4 ... + 99 + 100**?
 
-While we can plug this into a calculator, that is gonna take a while. Thankfully, in Java, you can easily calculate this in 3 lines with the help of a **for loop** or **while loop**.
+While we can plug this into a calculator, that is gonna take a while. Thankfully, in Java, you can easily calculate this with the help of a **for loop** or **while loop**.
 
 {{% notice note %}}
 **For loops** and **While loops** are control structures in Java that allow you to execute blocks of code multiples times.
@@ -105,9 +122,9 @@ while(number <= 10){
 }
 ```
 
-In the while loop above, the program will print out the value of `number` and increment `number`. This step will be performed as long as `number <= 10`, and in this case the loop terminates when `number` is 11.
+In the while loop above, the program will print out the value of `number` and increment `number` within each iteration. This step will be performed as long as `number <= 10`, and in this case the loop terminates when `number` is 11.
 
-**Note:** For `while` loops, you must remember to increment the conditional variable, otherwise you will introduce an infinite loop into your program.
+**Note:** For `while` loops, you must remember to increment the conditional variable, otherwise you will introduce an infinite loop into your program, meaning your code will never terminate because a terminating condition is never reached.
 
 ### For Loop
 
@@ -134,10 +151,10 @@ for(int number = 1; number <= 10; number = number + 1){
     System.out.println(number);
 }
 ```
-
+Review! What's the shorthand for `number = number + 1` ? 
 {{% /notice %}}
 
-After learning about for loop and while loop, let's see how do we help Patrick 🐥 and calculate **1 + 2 + 3 + 4 ... + 99 + 100**  easily?
+After learning about for loops and while loops, let's see how do we help Patrick 🐥 and calculate **1 + 2 + 3 + 4 ... + 99 + 100**  easily?
 
 Let's try to do it in a while loop:
 

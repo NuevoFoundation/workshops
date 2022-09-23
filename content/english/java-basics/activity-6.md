@@ -8,9 +8,9 @@ weight: 7
 <p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/ejXgw0qchDg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ## What is an Object and a Class?
-An object is an thing (noun) that has certain characteristics and can perform certain tasks. A Class is the blueprint or definition for that object.
+An object is a thing (noun) that has certain characteristics and attributes and associated methods that allow it to perform certain tasks. A Class is the blueprint or definition for that object.
 
-An example is a Person. A Person is Class. A person can have certain characteristics that distinguish it from another person. It can have blue eyes, it can be 30 years old, etc. A person can also perform certain tasks. It can walk, it can talk, etc. 
+An example is a Person. Person can represent a Class. A person can have certain characteristics that distinguish it from another person. It can have blue eyes, it can be 30 years old, etc. A person can also perform certain tasks. It can walk, it can talk, etc. 
 
 A Java Object is an instance of a Java Class. In this instance "Bea" is a "Person". "Bea" has brown eyes. This is a property (or data field) of "Bea". "Bea" can speak in English. "Bea" can speak in Spanish. These are methods that "Bea" can perform.
 
@@ -31,7 +31,7 @@ System.out.println("Hello World");
 
 Another class we have interacted with in the previous exercises is `String`. The `String` class defines a set of rules on how a list of characters should behave.
 
-With following line of code, we created a `String` object called `name` using the rules defined in the `String` class:
+With the following line of code, we created a `String` object called `name` using the rules defined in the `String` class:
 
 ```java
 String name = "Patrick";
@@ -39,7 +39,7 @@ String name = "Patrick";
 
 <br />
 
-`System`, `PrintStream`, and `String` are predefined classes in Java. However, we are not limited to these predefined classes, and we can actually create our own data type by writing a class! This is useful for coders to create specific objects to have certain attributes and behaviors. Having access to these user-defined types allows us to build distinct programs.
+`System`, `PrintStream`, and `String` are predefined classes in Java. However, we are not limited to these predefined classes, and we can actually create our own data type by writing our own class! This is useful for coders to create specific objects to have certain attributes and behaviors. Having access to these user-defined types allows us to build distinct programs.
 
 Let's learn about the different parts in a class below:
 
@@ -110,7 +110,7 @@ For example, to declare `species` as a private field of class `Bird`, you would 
 
 ### Third, let's create the constructor for the class `Bird`. 
 
-Usually, constructor is the method that initialializes value to all the fields in a class. It has the format `public` `class name` `(parameter)`. Since we have 5 fields in this class, the constructor will take in 5 parameter/inputs.
+Usually, constructor is the method that initialializes values to all the fields in a class. It has the format `public` `class name` `(parameter)`. Since we have 5 fields in this class, the constructor will take in 5 parameters/inputs.
 
 ```java
 public Bird(String speciesInput, String nameInput, String hobbyInput, int ageInput, boolean loveMusicInput){
@@ -118,7 +118,7 @@ public Bird(String speciesInput, String nameInput, String hobbyInput, int ageInp
 }
 ```
 
-In the constructor body, we need to initialize all the instance variables, by assign each variables to its initial values:
+In the constructor body, we need to initialize all the instance variables, by assigning each variables to its initial values:
 
 ```java
 species = speciesInput;
@@ -140,6 +140,16 @@ We are gonna create 6 methods for this class!
 -  getLoveMusic(); // return whether the bird loves music
 -  toString();     // return information in a String
 
+{{% notice tip %}}
+
+Java is known for having getter and setter functions. They are used to protect your data when creating classes. A getter such as `getSpecies()` will return its value. Here are some examples of setters, which allow you to set or update a value.
+-  setSpecies();   // update species of the bird
+-  setName();      // update name of the bird
+-  setHobby();     // update hobby of the bird
+-  setAge();       // update age of the bird
+
+{{% /notice %}}
+
 Try to write out the first 5 methods with what you learned from the previous exercise about writing methods!
 
 <br />
@@ -148,6 +158,12 @@ After, let's write the `toString()` method together!
 `toString()` is a method that returns the `String` representation of the object. 
 
 We will return a String that include all fields of the `Bird`: name, age, species, hobby, loveMusic by calling the 5 methods you just implemented!
+
+{{% notice tip %}}
+
+When creating classes in Java, you want to make sure you have a `toString()` method. Without one, your program will return the memory address of your object rather than its actual value. 
+
+{{% /notice %}}
 
 ```java
 public String toString(){

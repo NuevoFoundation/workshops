@@ -56,7 +56,7 @@ isThirsty = isThirsty + isHungry;
 ```
 
 {{% notice tip %}}
-There are some nice arithmetic shorthands worth knowing. Both examples below will return `age` as 4.
+There are some nice arithmetic shorthands worth knowing. `age = age + 1` is the same thing as `age += 1`. `+=` allows us to take the orginal int of a variable and then add another int to it. Both examples below will return `age` as 4.
 ```java
 int age = 3;  // declare variable age of type int with value 3
 age = age + 1;// add 1 to age
@@ -64,6 +64,16 @@ age = age + 1;// add 1 to age
 ```java
 int age = 3;  // declare variable age of type int with value 3
 age += 1;// add 1 to age
+```
+
+Can this also be done with other operators? Yes! Go ahead and see what these lines return below:
+
+```java
+int a = 5;
+a += 1;
+a -= 1;
+a *= 2;
+a /= 2;
 ```
 
 {{% /notice %}}
@@ -152,7 +162,10 @@ Let's write it with the help of operators 🎵!
 
 2. Calculate the correct class average and assign it to variable `average` using **arithmetic operators** such as `+`, `-`, `*`, `/`, `%`.
 
-   Note that an average score is `(total points)`/`(number of students)`.
+   Note that an average score is `(total points)`/`(number of students)`. 
+
+   Hint: Be careful of what type you give average. Should it be an int or a double?
+
 
 3. Assign variables `over60`, `over70`, `over80`, `over90` with the correct value using **relational operators** such as `>`, `<`, `>=`, `<=`.
 
