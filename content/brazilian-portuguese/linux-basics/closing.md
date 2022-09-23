@@ -12,7 +12,7 @@ weight: 16
         <img src="../images/nuvi.PNG?" alt="Uma foto de Nuvi" width="180" height="180" />
     </div>
     <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;width:50%;border:5px solid #2980b9;border-radius:10px;font-weight: bold;">
-        Você frustrou as travessuras os hackers aprendendo sobre os vários comandos do Linux. Muito obrigada por nos ajudar! E não conte a ninguém sobre as suas novas habilidades!
+        Você frustrou as travessuras dos hackers aprendendo sobre os vários comandos do Linux. Muito obrigada por nos ajudar! E não conte a ninguém sobre as suas novas habilidades!
     </div>
 </div>
 
