@@ -1,17 +1,26 @@
 ---
 title: "Using Virtual Machines Part 2"
 description: "Continuing the introductory guide to using virtual machines"
-date: 2020-09-17
+date: 2022-09-23
 difficulty: "Intermediate"
 weight: 2
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ffcyyJXEhwY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/ffcyyJXEhwY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-*Excellent work on preparing the host environment! Now let's load the hacked computer's image as a VM.*
+<div style="margin: 1rem;padding: 2rem 2rem;text-align: center;">
+    <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;">
+        <img src="../images/nuvi.PNG?" alt="Uma foto de Nuvi" width="180" height="180" />
+    </div>
+    <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;width:50%;border:5px solid #2980b9;border-radius:10px;font-weight: bold;">
+        Excellent work on preparing the host environment! Now let's load the hacked computer's image as a VM.
+    </div>
+</div>
 
 {{% notice info %}}
+
 ## What is an image?
+
 `Images` come in a variety of types. We have photographs, which are images. Computer images are very similar. Both are copies of things from a single point in time. We will be working with a copy of a computer that has been acting weird. Don't worry though, this won't hurt your computer! Remember that the OS will be in a `sandbox`, meaning that it can't affect your computer.
 
 ## Setting up Kali Linux
@@ -30,11 +39,11 @@ Download link
 
 ### Importing the Virtual Machine
 
-Now that you have the machine image downloaded, it is time to set it up!  
+Now that you have the machine image downloaded, it is time to set it up!
 
 #### Step 1
 
-In the VirtualBox application, we are able to *import* our images. Let's click on the "Import" button to get started!
+In the VirtualBox application, we are able to _import_ our images. Let's click on the "Import" button to get started!
 
 ![virtual box import button](../images/import-01.PNG?classes=border,shadow)
 
@@ -60,5 +69,13 @@ The last step! In the "Name" field, feel free to give it a new name. It's your o
 Typically this is about 5 minutes, but it might take a little longer depending on your computer.
 
 ![virtual box import screen](../images/import-06.JPG?classes=border,shadow)
+{{% /notice %}}
 
-Now we can launch the virtual machine!
+<div style="margin: 1rem;padding: 2rem 2rem;text-align: center;">
+    <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;">
+        <img src="../images/nuvi.PNG?" alt="Uma foto de Nuvi" width="180" height="180" />
+    </div>
+    <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;width:50%;border:5px solid #2980b9;border-radius:10px;font-weight: bold;">
+        Now we can launch the infected machine and get started in our investigations!
+    </div>
+</div>

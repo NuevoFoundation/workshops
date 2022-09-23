@@ -1,14 +1,21 @@
 ---
 title: "Activity 1 - Determine User Account"
 description: "Use a Linux command to determine what user you are"
-date: 2020-09-17
+date: 2022-09-23
 difficulty: "Intermediate"
 weight: 4
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XAtCQ9S1vSI" frameborder="0" alt="A YouTube video demonstrating how to create a user account in Linux" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/XAtCQ9S1vSI" frameborder="0" alt="A YouTube video demonstrating how to create a user account in Linux" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-*Now we are at the command line. Let's test a simple command to show us the user account.*
+<div style="margin: 1rem;padding: 2rem 2rem;text-align: center;">
+    <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;">
+        <img src="../images/nuvi.PNG?" alt="Uma foto de Nuvi" width="180" height="180" />
+    </div>
+    <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;width:50%;border:5px solid #2980b9;border-radius:10px;font-weight: bold;">
+        Now we are at the command line. Let's test a simple command to show us the user account.
+    </div>
+</div>
 
 ### What are user accounts?
 
@@ -20,9 +27,20 @@ For example, say you and your friend, Nuvi, share a computer. You and Nuvi might
 
 The Linux command `whoami` will tell you which account you are using. Try it!
 
+```
+whoami
+```
+
 <!---![home directory](../images/01_whoami.png?classes=border,shadow) --->
 <img src="../images/01_whoami.png" alt="home directory" style="width:600px;"/>
 
 In our example above, the terminal output is the name of our user, `nuvi`.
 
-*Now that we checked who we are, next let's find out where we are.*
+<div style="margin: 1rem;padding: 2rem 2rem;text-align: center;">
+    <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;">
+        <img src="../images/nuvi.PNG?" alt="Uma foto de Nuvi" width="180" height="180" />
+    </div>
+    <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;width:50%;border:5px solid #2980b9;border-radius:10px;font-weight: bold;">
+        Now that we checked who we are, next let's find out where we are.
+    </div>
+</div>
