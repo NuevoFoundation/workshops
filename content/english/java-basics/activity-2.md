@@ -17,17 +17,19 @@ In Java, we introduce the idea of a **variable** for data. A variable is like a 
 
 For example, there can be a variable called `myName` that stored `"Patrick"`, another variable called `loveMusic` that stored `true`, and another variable called `age` that stored `3`. Just like the image below:
 
-<img src="../images/variable.png" height="200" alt="3 boxes. The first box has white text outside, myName, and white text inside, 'Patrick'. The second box has white text outside, loveMusic, and white text inside, true. The third box has white text outside, age, and white text inside, 3." / > 
+<img src="../images/variable.png" height="200" alt="3 boxes. The first box has white text outside, myName, and white text inside, 'Patrick'. The second box has white text outside, loveMusic, and white text inside, true. The third box has white text outside, age, and white text inside, 3." /> 
+
+These variables have values known as different types. Keep reading to find out what a variable type is!
 
 ## What the Type!
 
 So how do we create these boxes or variables in Java to store data?
 
-Before learning how to create variables, we need to learn the concept of **type** in Java. Type in Java describes what is being stored in the box. If you have an integer box, it will only contain integers, not sentences or symbols. Each variable has its own type that restricts it to store a specific kind of data.
+Before learning how to create variables, we need to learn the concept of **type** in Java. Type in Java describes what is being stored in the box. If you have an integer box, it will only contain integers, not sentences or symbols or decimals. Each variable has its own type that restricts it to store a specific kind of data.
 
-For example, the variable called `age` that stores the number `3` should contain contain integers, not sentences or symbols. 
+For example, the variable called `age` that stores the number `3` should contain contain integers only, not sentences or symbols. 
 
-In Java, for a variable to store whole numbers, it is type `int`. And, we declare an `int` variable called `age` with data `3` with the line of code:
+In Java, for a variable to store integers, it is type `int`. We declare an `int` variable called `age` with data `3` with the following line of code:
 
 ```java
 int age = 3;
@@ -59,6 +61,15 @@ int age = 10;
 boolean loveMusic = true;
 ```
 
+Here's a quick exercise! What are the data types for 
+
+```java
+"10"
+10
+10.56
+0
+```
+
 ## What the Type -- Help Patrick!
 
 Patrick 🐥 isn't a master of data types! He often mixed them up when declaring variables. Let's help him fix his mistake:
@@ -74,7 +85,7 @@ System.out.println(age); // prints out 10
 age = 11; // assign data 11 to the variable age
 System.out.println(age); // prints out 11
 ```
-
+Notice how you did not need to specify the data type of `age` again.
 {{% /notice %}}
 
 ## What the Type -- Track Numbers!

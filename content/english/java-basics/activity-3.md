@@ -48,6 +48,26 @@ Add (`+`) is used on String as concatenation operator. For example:
 `String name = "Patric" + "k";` is same as `String name = "Patrick";`
 {{% /notice %}}
 
+Note that booleans cannot be added together. For example, this will result in an error:
+```java
+boolean isHungry = true;  
+boolean isThirsty = false;      
+isThirsty = isThirsty + isHungry;
+```
+
+{{% notice tip %}}
+There are some nice arithmetic shorthands worth knowing. Both examples below will return `age` as 4.
+```java
+int age = 3;  // declare variable age of type int with value 3
+age = age + 1;// add 1 to age
+```
+```java
+int age = 3;  // declare variable age of type int with value 3
+age += 1;// add 1 to age
+```
+
+{{% /notice %}}
+
 ### Instructions
 1. Use the program below to practice using the arithmetic operators. Change the numbers to see the answers.
 
@@ -141,3 +161,4 @@ Let's write it with the help of operators 🎵!
 {{% /notice %}}
 
 <a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsOperators" target="_blank">Launch Replit</a>
+

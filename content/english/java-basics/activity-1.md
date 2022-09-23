@@ -7,13 +7,24 @@ weight: 2
 
 <p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/uYoq-4juYBY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-## Let the Program Speak!
+## Let's Get to Coding!
+* Let’s try to write some code that returns `Hello World`. 
 
-Let’s try to write a program that says `Hello World` out by typing the line of code `System.out.print("Hello World");` 
+To do so, type in `Main.java`
 
-The program prints out whatever you typed in the parenthesis of `System.out.print`. And, each line of code ends with `;`.
+     System.out.print("Hello World");
 
-After, add more statements to print numbers by putting numbers in the parenthesis (i.e. `System.out.print(2020)`) or a symbol by putting one symbol between 2 single quotes `'` (i.e. `System.out.print('@')`).
+The program prints out whatever you typed in the parenthesis of `System.out.print`. And, each line of code ends with `;`. 
+
+**Ending your statements with a `;` is important for your code to run because it indicates the end of one logical statement. Without this semicolon, your code will not run.** 
+
+To see this in action, give this line a run.
+
+     System.out.print("Hello World")
+
+<br />
+
+* After, add more statements to print numbers by putting numbers in the parenthesis (i.e. `System.out.print(2020)`) or a symbol by putting one symbol between the 2 single quotes (i.e. `System.out.print('@')`).
 
 <a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsHelloWorld" target="_blank">Launch Replit</a>
 
@@ -33,7 +44,7 @@ Go back up and give it a try. Make all the statements print on different lines!
 
 We learned that to print symbols we put them around 2 single quotes `'`, but how do we print multiple symbols in one line?
 
-We can simple put them between 2 double quotes `"` (i.e. `System.out.print("@ , - h A #");`)
+We can simply put them between 2 double quotes `"` (i.e. `System.out.print("@ , - h A #");`)
 
 {{% /notice %}}
 
