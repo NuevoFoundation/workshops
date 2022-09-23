@@ -33,7 +33,7 @@ What is a switch? A switch is a component that uses a mechanical motion to chang
 ![diagram of a switch off (open circuit) and diagram of a switch on (short circuit)](../img/off_onSwitch.png)
 
 Switches in real life can look like this (ex. what turns the light on/off at your house):
-![pictures of 4 different switches, like a light switch, metal switch, button switch and circuit switch](../img/differentTypesOfSwitches.png)
+![pictures of 4 different switches, like a light switch, metal switch, button switch and circuit switch](../img/differentTypesOfSwitches1.png)
 
 Some switches have a default position, so they "connect" when you push them or switch them. Others may go back when you stop pushing them, like a keyboard.
 ![diagram of a switch showing positions "normally connected" and "normally open"](../img/diagramNCNO.png)

@@ -32,7 +32,7 @@ It should look something like this:
 Here's a broader view of the part that has the motor, finger and limit switch attached:
 ![view of piece with motor, finger and limit switch with wires attached](../img/motorFingerAndLimitSwitchPiece.jpg)
 - A **breadboard/protoboard** works by making electrical connections for you! Each row on each side of the vertical divider of the breadboard is connected together.  The middle divider separates the two halves of the board- the two halves are also not connected together, so for example 1A-1E are connected together or 7F-7J. Wires in the same column are not connected together.
-![breadboard](../img/breadBoard.png)
+![breadboard](../img/breadboard1.png)
 Here's a breadboard diagram (which shows that yellow rows are connected):
 
 	![breadboard diagram](../img/breadboardDiagram.png)
