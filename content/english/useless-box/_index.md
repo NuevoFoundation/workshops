@@ -15,7 +15,7 @@ Nuvi is in a bad mood and wants to be left alone. You have to build it a house a
 Let’s make what’s called a “useless box”. This could also be amusement for little ones, or just a silly gadget that’s fun to play with and pass the time 😊.
 
 This is what it would look like:
-![useless box picture, clear prism with a switch in the center](../img/uselessbox1.png)
+<img src="img/uselessbox1.png" width="30%" height="30%" alt="useless box picture, clear prism with a switch in the center"/>
 
 When the switch on the top of the box is flipped “ON”, a “finger” comes out of the box, turns the switch “OFF”, and then retracts into the box. 
 
