@@ -9,32 +9,46 @@ draft: false
 
 <iframe width="100%" height="600px" src="https://www.youtube.com/embed/pwZDPj4yIsM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Copy and Paste the following code into Google Colab:
+## Plotting an Image's Category 
+</br>
+You may remember when we were plotting the models that the x-axis of the graphs were labeled with numbers 1 through 9. These correspond to the categories of items that we defined earlier in the workship, i.e. t-shirt/top, trouser, pullover, dress, coat, sandal, shirt, sneaker, bag, and ankle boot. 
+</br>
+
+![Plotting Model Figure 2](../media/Plotting_fig2.png)
+
+</br>
+We will adjust the labeling of the x-axis so that the data it displays is easier to understand. 
+</br>
+</br>
+Copy and Paste the following code into Google Colab:
 
 ```python
-# Grab an image from the test dataset. This shows the resolution of the image. 
+img = test_images[0] # Grab an image from the test dataset. 
+#NOTE: This index will be changed and its corresponding plot will be displayed in the next few steps
 
-#NOTE: This index will be changed and its corresponding plot would be displayed in the next few steps
-img = test_images[0]
+print(img.shape) # This shows the resolution of the image. 
+```
+
+
+```python
+img = (np.expand_dims(img,0)) # This expands the img array 
 
 print(img.shape)
 ```
 
 ```python
-# Add the image to a batch where it's the only member.
-img = (np.expand_dims(img,0))
-
-print(img.shape)
-```
-
-```python
-predictions_single = probability_model.predict(img)
+predictions_single = probability_model.predict(img) # This gives the 
+# confidence level that the image corresponds with each category. 
+# For examaple the possibility that the image is a T-shirt is 5.2198538e-07
 
 print(predictions_single)
 ```
 
 ```python
-plot_value_array(0, predictions_single[0], test_labels)  #plot the graph containing all the class names
+plot_value_array(0, predictions_single[0], test_labels)  
+
+# Plot the graph and label the x-axis with the class_names 
+# or otherwise known as the categories we made in Activity 1
 _ = plt.xticks(range(10), class_names, rotation=45)
 ```
 
