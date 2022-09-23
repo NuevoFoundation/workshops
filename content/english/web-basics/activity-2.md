@@ -5,6 +5,8 @@ draft: false
 weight: 6
 ---
 
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/2Qm1ffc352o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 ## Style it with CSS
 
 Tags tell the browser what website elements to use. But we also need to tell it how to display the elements, and where to place them. We may want the title on the center or on the right side. We may want a picture on the right and a paragraph on the left. There are two ways we can do this: through HTML attributes or `Cascading Style Sheets`.
