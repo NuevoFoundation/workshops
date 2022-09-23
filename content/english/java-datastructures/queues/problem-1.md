@@ -27,7 +27,7 @@ orders.add("Fish Taco");
 orders.add("Beef Taco");
 ```
 
-<iframe height="800px" width="100%" src="https://replit.com/@nuevofoundation/Clear?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/Clear" target="_blank">Launch Replit</a>
 
 ## Task 2: Using Priority Queue to find minimum price
 
@@ -39,4 +39,4 @@ A restaurant is using a Priority Queue to manager orders. The restaurant wants t
 3. What if they are looking for the 5th minimum (or lowest) price?
 {{%/notice%}}
 
-<iframe height="800px" width="100%" src="https://replit.com/@nuevofoundation/Min?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/Min" target="_blank">Launch Replit</a>

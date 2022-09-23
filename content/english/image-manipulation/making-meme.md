@@ -3,7 +3,7 @@ title: "Making a meme!"
 date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 22
-prereq: "Python Basics: Repl.it, Writing to Console (Print), Comments, Data Types - Strings, Numbers, Booleans, Variables, Reading from Console, Functions"
+prereq: "Python Basics: Replit, Writing to Console (Print), Comments, Data Types - Strings, Numbers, Booleans, Variables, Reading from Console, Functions"
 difficulty: Intermediate
 --- 
 
@@ -68,7 +68,7 @@ Changing the font requires downloading a .ttf (aka a font file) from online. A g
 
 1. Find a font you like (i.e., Roboto). Click the font, and then click "Download Family" at the top right. 
    <img src="../media/googlefont_download.png" alt="google font family download" style="width:80%"/>
-2. A ZIP file will be downloaded locally.  Open or extract the folder, find a font you want to use (i.e., Roboto Bold) and upload that file (TTF) to repl.it.  
+2. A ZIP file will be downloaded locally.  Open or extract the folder, find a font you want to use (i.e., Roboto Bold) and upload that file (TTF) to replit.  
    <img src="../media/googlefont_upload.png" alt="google font family upload" style="width:50%"/>
 
 {{% /notice %}} 

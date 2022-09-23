@@ -24,7 +24,7 @@ restaurants.push("Burger King");
 restaurants.push("Chipotle");
 ```
 
-<iframe height="800px" width="100%" src="https://replit.com/@nuevofoundation/stackReverse?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/stackReverse" target="_blank">Launch Replit</a>
 
 ## Task 2: Keeping History
 
@@ -44,4 +44,4 @@ restaurants.push("Pizza");
 Stack.undo() // Remove the most recent push
 ```
 
-<iframe height="800px" width="100%" src="https://replit.com/@nuevofoundation/stackUndo?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/stackUndo" target="_blank">Launch Replit</a>

@@ -37,6 +37,6 @@ Try guessing the answers to the following expressions. Use `Console.WriteLine` t
 - `"Hello" + "World" == "Hello World"`
 - `false == false`
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/NF-CSharp-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/NF-CSharp-blank" target="_blank">Launch Replit</a>
 
 {{% /notice %}}

@@ -12,12 +12,12 @@ weight: 2
 
 ## Trabajando junt@s
 
-1. En la Replit ventana abajo, presiona **‘run’.** Vea que `Hello World` se imprimió en la ventana a la derecha.
+1. En el programa de Replit abajo, presiona **‘run’.** Vea que `Hello World` se imprimió en la ventana a la derecha.
 2. Sin quitar las comillas, intenta a cambiar `Hello World` a otra frase. Presiona **‘run’** a ver si algo cambia.
 3. Añade otra línea de `Console.WriteLine` debajo de la primera línea para imprimir una segunda frase debajo de la primera frase.
 4. Presiona **‘run’** a ver si las dos frases se imprimen. Si ves cualquier texto rojo, pide ayuda.  
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/NF-CSharp-WritingToConsole?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/NF-CSharp-WritingToConsole" target="_blank">Lanza Replit</a>
 
 {{% /notice %}}
 

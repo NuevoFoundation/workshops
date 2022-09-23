@@ -7,10 +7,8 @@ weight: 4
 
 
 ### Nested loops
-To learn *nested loops*, you need to know simple for-loops and while loops. If you have already learnt them, you can skip to the next part. Otherwise, jump to a specific Python section to learn more about these topics:
+*Nested loops*, builds off what we learned about for-loops and while loops in the previous exercise. You might want to review the <a href="../../../python-basics/loops" target="blank">For-loop and While-loop</a> page before we move on.
 
-- <a href="../../../python-basics/loops" target="blank">For-loop and While-loop</a>
-<br/>
 In this section, we will use one loop inside another, which is called *nested loop*.
 <hr/>
 
@@ -23,8 +21,8 @@ while expressionA:
     statement(A)
 ```
 In the `while` loop above, when expressionA produces `False`, we will skip the whole block. When expressionA produces `True`, we will go to the inner while loop and check expressionB. If expressionB produces `True`, statement(B) will be executed. If expressionB produces `False`, we will skip the inner while loop and go to statement(A).
-<br/>
-In conclusion, if expressionA produces `False`, none of the statements will be executed; statement(A) and statement(B) will both be executed if and only if both expressionA and expressionB produce `True`.
+
+If expressionA produces `False`, none of the statements will be executed; statement(A) and statement(B) will both be executed if and only if both expressionA and expressionB produce `True`.
 
 Let us take a look at one example for nested while loop.
  ```python
@@ -45,19 +43,39 @@ Let us take a look at one example for nested while loop.
      y = 0
  ```
 This is the output of our example.
-<img src="../../img/nestex1.png" width=30%>
-<br/>
 
-#### <i>Questions</i>
+ ```output
+Go through outer while loop, x is 0 y is 0
+Go through inner while loop, x is 0 y is 0
+Go through inner while loop, x is 0 y is 1
+Go through inner while loop, x is 0 y is 2
+Go through inner while loop, x is 0 y is 3
+Go through inner while loop, x is 0 y is 4
+Go through outer while loop, x is 1 y is 0
+Go through inner while loop, x is 1 y is 0
+Go through inner while loop, x is 1 y is 1
+Go through inner while loop, x is 1 y is 2
+Go through inner while loop, x is 1 y is 3
+Go through inner while loop, x is 1 y is 4
+Go through outer while loop, x is 2 y is 0
+Go through inner while loop, x is 2 y is 0
+Go through inner while loop, x is 2 y is 1
+Go through inner while loop, x is 2 y is 2
+Go through inner while loop, x is 2 y is 3
+Go through inner while loop, x is 2 y is 4
+ ```
+
+#### Questions
 Can you try to find out how x and y values change and explain why?
-<br/>
-(<b>Hint</b>: How many times do we went through the outer loop and inner loop separately?)
-<br/><br/>
+
+(**Hint**: How many times do we go through the outer loop and inner loop separately?)
+
 <hr/>
 
-#### <b>Challenge One</b>
+### Challenge One
 Try to change the integers in the nested while loop and predict the outputs. Then run the code and observe the outputs. Do they match your predictions?
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Nested-loop-Python?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+<iframe src="https://trinket.io/embed/python/386ca3182b" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 <br/><br/>
 <hr/>
 
@@ -71,8 +89,11 @@ for variableA in rangeA:
    statements(A)
 ```
 In the `for` loop above, when variableA is not in rangeA, we will skip the whole block. When variableA is in rangeA, we will go to the inner for loop. If variableB is in rangeB, statement(B) will be executed. If variableB is not in rangeB, we will skip the inner for loop and and go to the outer loop.
-<br/>
-In conclusion, if variableA is not in rangeA, none of the statements will be executed; statement(B) and statement(A) will both be executed if and only if variableA is in rangeA and variableB is in rangeB.
+
+If variableA is not in rangeA, none of the statements will be executed; statement(B) and statement(A) will both be executed if and only if variableA is in rangeA and variableB is in rangeB.
+
+Let's look at an example.
+
 ```python
 #This is the example for nested for loop
 #Below is our outer loop
@@ -85,35 +106,52 @@ for n in range(0, 3):
     print("")
 ```
 This is the output of our example.
-![alt text](../../img/nestex2.png "image showing for loop first example")
 
-#### <i>Questions</i>
+```output
+( 0 , 0 ) ( 0 , 1 ) ( 0 , 2 ) 
+( 1 , 0 ) ( 1 , 1 ) ( 1 , 2 ) 
+( 2 , 0 ) ( 2 , 1 ) ( 2 , 2 ) 
+```
+
+#### Questions
 Can you try to explain the printing pattern?
-<br/>
-(<b>Hint</b>: How many times do we went through the outer loop and inner loop separately?)
-<br/><br/>
+
+(**Hint**: How many times do we go through the outer loop and inner loop separately?)
+
 <hr/>
 
-#### <b>Challenge Two</b>
+### Challenge Two
 Try to change the integers in the nested for loop and predict the outputs.
 Then run the code and observe the outputs. Do they match your predictions?
-<br/><br/>
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Basic-nested-for?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-<br/><br/>
-<br/><br/>
 
-#### <i>Questions</i>
+<iframe src="https://trinket.io/embed/python/8b9effdbd6" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+#### Questions
 Try to initialize n and m. Will this change our output from the nested loops and why?
 Then run the code and observe the outputs. Do they match your predictions?
-<br/><br/>
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Nested-for-ex2?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-#### <i>Questions</i>
+<iframe src="https://trinket.io/embed/python/1ea8b47667" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+#### Questions
 By the end of this section, let us think about the following questions:
-<i>1</i>. Why initialization will not changing the output?
-<br/>
-(<b>Hint</b>: What does the variable in the for loop represent?)
-<br/>
-<i>2</i>. What should we do if we want start printing from (1, 1)?
-<br/>
-(<b>Hint</b>: What would happen if we change the ranges?)
+*1*. Why initialization will not changing the output?
+
+(**Hint**: What does the variable in the for loop represent?)
+
+*2*. What should we do if we want start printing from (1, 1)?
+
+(**Hint**: What would happen if we change the ranges?)
+
+### Challenge Three
+
+Using nested `for` loop or `while` loop, try printing the following pattern
+
+    ```
+    1 
+    1 2 
+    1 2 3 
+    1 2 3 4 
+    1 2 3 4 5
+    ```
+
+**Hint**: to print without a new line, you can use `print(x, end=" ")`. And to force a new line you can use `print()`.

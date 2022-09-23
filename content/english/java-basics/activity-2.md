@@ -62,7 +62,8 @@ boolean loveMusic = true;
 ## What the Type -- Help Patrick!
 
 Patrick 🐥 isn't a master of data types! He often mixed them up when declaring variables. Let's help him fix his mistake:
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/JavaBasicsDataType?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsDataType" target="_blank">Launch Replit</a>
 
 {{% notice tip %}}
 By storing data in variables, you can use that data later or change it by assigning it to a different data of the same type. For example:
@@ -92,7 +93,7 @@ z = z;
 System.out.println("x: " + x + " y: " + y + " z: " + z );
 ```
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/JavaBasicsVariable?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsVariable" target="_blank">Launch Replit</a>
 
 {{% notice tip %}}
 #### Explaining the example

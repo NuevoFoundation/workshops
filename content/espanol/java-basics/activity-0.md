@@ -5,11 +5,11 @@ weight: 1
 draft: false
 ---
 
-## Usando Repl.it
+## Usando Replit
 
 Hoy estaremos usando Replit para aprender como programar en Java. Aquí está un ejemplo del portal interactivo que estaremos usando hoy:
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/JavaBasicosIntro?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicosIntro" target="_blank">Lanza Replit</a>
 
 Antes de empezar, primero vamos a repasar y entender cómo funciona el portal. El archivo `Main.java` tiene el codigo, o instrucciones que ejecutará la computadora. Al presionar el botón de <b>run</b>, le dirás a la computadora que ejecute las instrucciones que están en el codigo. Los resultados de la ejecución del codigo se pueden ber al final de la pantalla blanca, debajo de la pestaña de <b>result</b>. 
 

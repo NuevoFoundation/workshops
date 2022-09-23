@@ -7,7 +7,7 @@ weight: 3
 Just like a list, a set is a collection of items. The difference between a set and a list is that a set cannot contain duplicates. So, if you have 5 chocolates and you put them in a set, you'll only be left with 1 chocolate as duplicates will be removed. 😢
 
 <a href = "https://www.youtube.com/watch?v=mLIuHU5Sj5w">
-<img src="../../img/sets_example.jpg" width="500"/>
+<img src="../../img/sets_example.jpg" width="500" alt="Picture of two circles with chess and ping pong in the left circle, soccer and cricket bat in the right circle, and basketball and badminton in both circles where they overlap" />
 </a>
 
 In the image above, the left side represents **<font color="red">Indoor Games</font>** (Chess & Table Tennis) while the right side represents the **<font color="green">Outdoor Games</font>** (Cricket & Football). The middle represents the common part of both these sets. These are the games that can be played Indoors as well as Outdoors (Basketball & Badminton). The middle part is also known as the intersection between two sets.
@@ -134,10 +134,16 @@ print(indoorGames)
 set(["Table Tennis", "Basketball", "Badminton", "Carrom"])
 ```
 {{% notice note %}}
-If you remove an item that is not present in the set, you won't get any error. On the other hand, if you try to remove an item that is not present in a list, you would get a ValueError !
+If you remove an item that is not present in the set, you won't get any error.s On the other hand, if you try to remove an item that is not present in a list, you would get a `ValueError`!
 {{% /notice %}}
 
-## Try it Yourself
+### Challenge
+Let's try the same exercise we just did with Lists and Tuples, but using Sets.  
 
-<iframe height="600px" width="100%" 
- src="https://replit.com/@nuevofoundation/python-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+Start with the list of fruits below. Print out the list of fruits and for each fruit, as the user if they like it. If they like it, keep it. If they do not, remove it from the list. Next, ask the user to add a fruit that is missing from the list. Add it to the list and print out the number of fruits the user likes.
+
+```python
+fruits = ['orange', 'kiwi', 'banana', 'apple', 'mango', 'lemon']
+```
+
+<iframe src="https://trinket.io/embed/python/b238d85d0d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
