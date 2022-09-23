@@ -1,7 +1,6 @@
 ---
 title: "Build the box - circuit design"
 description: ""
-draft: true
 weight: 3
 ---
 

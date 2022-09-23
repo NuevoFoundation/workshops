@@ -1,7 +1,6 @@
 ---
 title: "Preparing the components - teacher/instructor pre-work"
 description: ""
-draft: true
 weight: 5
 ---
 

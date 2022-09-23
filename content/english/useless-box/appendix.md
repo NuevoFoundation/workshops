@@ -1,7 +1,6 @@
 ---
 title: "Build the box"
 description: ""
-draft: true
 weight: 4
 ---
 

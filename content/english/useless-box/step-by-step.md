@@ -1,7 +1,6 @@
 ---
 title: "Building the box - step by step"
 description: ""
-draft: true
 weight: 4
 ---
 

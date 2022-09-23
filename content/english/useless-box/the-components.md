@@ -1,7 +1,6 @@
 ---
 title: "The Components"
 description: ""
-draft: true
 weight: 1
 ---
 
@@ -9,9 +8,9 @@ The components we will use for the project are listed below. Make sure you have 
 ![picture of all the parts](../img/materials.jpg)
 
 1. Previously cut out pieces of Acrylic (3mm) with additional parts attached to pieces #7 and #8. This includes the parts to make the box (sides, top, bottom) and the "finger" 
-	1. Toggle switch (double-pole-double-throw “DPDT”). This is the "Top Switch 6 terminal", which is attached to part #7. Switch looks similar to:
+	1. Toggle switch (double-pole-double-throw ï¿½DPDTï¿½). This is the "Top Switch 6 terminal", which is attached to part #7. Switch looks similar to:
 	![top switch](../img/top-switch.png)
-	2.  Momentary/Limit (single-pole-double-throw “SPDT”) switch. This is the bottom switch, which is attached to part #8. Switch looks similar to:
+	2.  Momentary/Limit (single-pole-double-throw ï¿½SPDTï¿½) switch. This is the bottom switch, which is attached to part #8. Switch looks similar to:
 	![bottom switch](./img/bottom-switch.png)
 2. 2-battery pack/holder (3-battery holder is also fine)
 ![battery holder](../img/2batteryPack.png)

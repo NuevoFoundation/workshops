@@ -1,7 +1,6 @@
 ---
 title: "Learning concepts"
 description: ""
-draft: true
 weight: 2
 ---
 ## How do we make a "useless" box? Let's learn some basic concepts first!
