@@ -18,7 +18,7 @@ String[][] menu = {
 ```
 Use what you have learned to print out the array!
 
-<iframe height="800px" width="100%" src="https://replit.com/@nuevofoundation/2DPrint?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/2DPrint" target="_blank">Launch Replit</a>
 
 ## Task 2: Search for an item
 
@@ -29,4 +29,4 @@ The manager wants to know if there is a specific item in the menu. Build a searc
 2. What value type does this return?
 {{% /notice %}}
 
-<iframe height="800px" width="100%" src="https://replit.com/@nuevofoundation/2DFind?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/2DFind" target="_blank">Launch Replit</a>

@@ -22,11 +22,11 @@ One of the simpler algorithms you will learn or have learned is binary search, w
 |:--:|
 |Searching for number **7** in an ordered list of **10** numbers using Binary Search|
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Debugging-Samples-C?lite=true#binary_search/binary_search.c" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/Debugging-Samples-C" target="_blank">Launch Replit</a>
 
 Our program will ask you to search for a name based on the position they are located at. 
 
-Open the **Shell** on the Replit window and compile the program:
+Open the **Shell** on the Replit program and compile the program:
 ``` bash
 make BinarySearch
 ```

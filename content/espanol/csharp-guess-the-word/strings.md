@@ -24,7 +24,7 @@ Console.WriteLine("Nuevo" + " " + "Foundation");
 
 ## Trabajando junt@s
 
-En la ventana de Replit debajo, empezamos el código con la línea `Console.WriteLine("Nuevo" + " " + "Foundation");`.
+En el programa de Replit debajo, empezamos el código con la línea `Console.WriteLine("Nuevo" + " " + "Foundation");`.
 
 Hay muchas maneras de combinar strings. Por ejemplo, otra manera de imprimir Nuevo Foundation podría ser `Console.WriteLine("Nue" + "vo Fou" + "ndation");`.
 
@@ -36,6 +36,6 @@ Nuevo Foundation
 Nuevo Foundation
 ```
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/NF-CSharp-Strings?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/NF-CSharp-Strings" target="_blank">Lanza Replit</a>
 
 {{% /notice %}}
