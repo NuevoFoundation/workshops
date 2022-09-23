@@ -85,7 +85,7 @@ After clicking `Run`, the program should print the following:
 Birds Of Prey, The Birds, Angry Birds, Bird Box, The Secret Life of Pets
 ```
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsArray?lite=true#Bird.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsArray" target="_blank">Launch Replit</a>
 
 ## ArrayList
 
@@ -153,7 +153,7 @@ After clicking `Run`, the program should print the following:
 Birds Of Prey, The Birds, Angry Birds, Bird Box, The Secret Life of Pets
 ```
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsList?lite=true#Bird.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsList" target="_blank">Launch Replit</a>
 
 ## End Of Workshop 🐥 
 <b>Patrick</b> 🐥 thank you for participating! Hope you learned a lot from this course :)

@@ -1,13 +1,13 @@
 ---
-title: "Starting up with Repl.it"
+title: "Starting up with Replit"
 date: 2020-07-28T13:24:17-07:00
 draft: false
 weight: 1
 ---
 
-Today you will be using Repl.it to build JSappy bird. Here is an example interactive window that you will use today:
+Today you will be using Replit to build JSappy bird. Here is an example interactive window that you will use today:
 
-Open your favorite internet browser (such as Edge, Firefox, Google Chrome, Internet Explorer) and go to [https://repl.it](https://repl.it).
+Open your favorite internet browser (such as Edge, Firefox, Google Chrome, Internet Explorer) and go to [https://replit.com](https://replit.com).
 
 You should see something like the following screen:
 
@@ -19,7 +19,7 @@ https://jsappybird-answers--nuevofoundation.repl.co/
 
 ## Starting up
 
-Open [Activity-1](https://repl.it/@nuevofoundation/JSappyBird-Activity-1-Scaffold) to do the activity.
+Open [Activity-1](https://replit.com/@nuevofoundation/JSappyBird-Activity-1-Scaffold) to do the activity.
 
 
 When you make changes to the scaffold you will be created as anonymous users.

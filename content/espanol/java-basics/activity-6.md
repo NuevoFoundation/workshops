@@ -59,7 +59,7 @@ public class SampleClass{
 ### 2. Vamos a Intentarlo 🐥
 Vamos a crea una clase `Bird` para representar a Patrick 🐥 y todos sus amigos pájaros siguiendo los siguientes pasos.
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicosBird?lite=true#Bird.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicosBird" target="_blank">Lanza Replit</a>
 
 #### Primero, empezamos definiendo el nombre de la clase usando el formato `public` `class` `name`.
 ```java
@@ -178,4 +178,4 @@ Próximo, usaremos el método `toString()` en los objetos de tipo `Bird` para im
 
 Intenta imprimir la informacíon de todos sus amigos pájaros 🐦🐤🐔🐧
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicosBirdMain?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicosBirdMain" target="_blank">Lanza Replit</a>

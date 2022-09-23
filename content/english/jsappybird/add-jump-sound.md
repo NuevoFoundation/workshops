@@ -12,7 +12,7 @@ Add the below command in the file [File: create-game.js]
 
 ## Working Together
 
-In the repl.it window below, we started the code with the line `jumpSound.play();`.
+In the Replit window below, we started the code with the line `jumpSound.play();`.
 
 ![alt text](../img/jump_sound.png "image to add sound to the bird")
 

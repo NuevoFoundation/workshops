@@ -97,4 +97,4 @@ Luego de finalizar el ejercicio, verás el siguiente mensaje:
 Felicidades! Haz resuelto el desafío!
 ```
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicosPyramid?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicosPyramid" target="_blank">Lanza Replit</a>

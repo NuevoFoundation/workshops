@@ -7,13 +7,13 @@ prereq: "Python Basics: Variables"
 difficulty: Intermediate
 --- 
 
-Now that we know the basics about variables, we can ask for input from the user. Use the following line to tell our program to wait until the user types something into the console. Then, the computer takes whatever is typed into the console, and stores it into the variable called <b>value</b>.
+Now that we know the basics about variables, we can ask for input from the user. Use the following line to tell our program to wait until the user types something into the console. Then, the computer takes whatever is typed into the console, and stores it into the variable called **value**.
 
 ```python
-value = input
+value = input()
 ```
 
-Here's and examples of how to use <font color="blue">input</font>() to accept user input:
+Here's and examples of how to use `input()` to accept user input:
 
 ```python
 print("What's your name?")
@@ -23,13 +23,13 @@ print("Hello " + value + "!")
 
 Give this a try! When you hit run, you'll notice that the below image doesn't appear on the console yet.
 
-![alt text](../../img/end_symbol.png "image of the console end symbol")
+![Screenshot of the console end symbol](../../img/end_symbol.png "image of the console end symbol")
 
-![alt text](../../img/console_read_waiting.png "image of how the console looks waiting for user input")
+![Screen shot of the console waiting for user input](../../img/console_read_waiting.png "image of how the console looks waiting for user input")
 
 This is because the program is waiting for you to type something! Enter your name or 'Nuvi' into the console on the right, press Enter, and check that it prints out correctly. 
 
-![alt text](../../img/console_read_input.png "image of how the console looks after it has read user input")
+![Screen shot of the console after the user has given input and the program completed](../../img/console_read_input.png "image of how the console looks after it has read user input")
 
 {{% notice note %}}
 
@@ -58,5 +58,4 @@ This is very similar to the example that we went through together above. Try mak
 
 {{% /notice %}}
 
-<iframe height="600px" width="100%" 
- src="https://repl.it/@nuevofoundation/python-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe src="https://trinket.io/embed/python/b238d85d0d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

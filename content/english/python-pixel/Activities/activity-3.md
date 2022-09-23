@@ -47,4 +47,4 @@ output:
 You can actually design some easy letters, such as H, K, T and etc. You can change the color of a certain part of those letters in order to make it prettier.
 {{% /notice %}}
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Python-Pixel-Activity3?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/Python-Pixel-Activity3" target="_blank">Launch Replit</a>

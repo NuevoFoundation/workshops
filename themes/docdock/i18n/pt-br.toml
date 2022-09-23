@@ -1,0 +1,74 @@
+# body-beforecontent.html
+[navigation]
+other = "Navegação:"
+
+# next-prev-button.html
+[up-next]
+other = "Próximo:"
+
+[previous]
+other = "Anterior:"
+
+# custom-footer.html
+[join-social-media]
+other = "Siga-nos nas redes sociais."
+
+[copyright-footer]
+other = "© Copyright 2022, Todos os direitos reservados a Nuevo Foundation, uma organização sem fins lucrativos de acordo com a norma 501(c)(3) da lei federal dos Estados Unidos."
+
+# header.html
+[donate]
+other = "Faça uma doação"
+
+[what-we-do]
+other = "Sobre nós"
+
+[workshops]
+other = "Minicursos"
+
+[get-involved]
+other = "Faça parte"
+
+[support-us]
+other = "Apoie-nos"
+
+[event-blog]
+other = "Últimos eventos"
+
+[our-team]
+other = "Conheça nosso time"
+
+[contact-us]
+other = "Fale conosco"
+
+# Metadata.html
+[workshop-resources]
+other = "Recursos do Minicurso"
+
+[pre-requisite]
+other = "Pré-requisito:"
+
+[difficulty]
+other = "Dificuldade:"
+
+[download]
+other = "Baixar:"
+
+# notice.html
+[note]
+other = "Observação"
+
+[info]
+other = "Informação"
+
+[warning]
+other = "Aviso"
+
+[tip]
+other = "Dica"
+
+[help]
+other = "Ajuda"
+
+[hint]
+other = "Sugestão"
