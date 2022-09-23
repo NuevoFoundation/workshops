@@ -1,0 +1,74 @@
+# body-beforecontent.html
+[navigation]
+other = "Навигация:"
+
+# next-prev-button.html
+[up-next]
+other = "Кийинки:"
+
+[previous]
+other = "Мурунку:"
+
+# custom-footer.html
+[join-social-media]
+other = "Социалдык тармактардагы кошулуңуз."
+
+[copyright-footer]
+other = "© Copyright 2022, All Rights Reserved by Nuevo Foundation, a 501(c)(3) nonprofit."
+
+# header.html
+[donate]
+other = "Кайрымдуулук кылуу"
+
+[what-we-do]
+other = "Биз эмне кылабыз"
+
+[workshops]
+other = "Воркшоптор"
+
+[get-involved]
+other = "Катышуу"
+
+[support-us]
+other = "Бизди колдо"
+
+[event-blog]
+other = "Блог"
+
+[our-team]
+other = "Биздин команда"
+
+[contact-us]
+other = "Биз менен байланыш"
+
+# Metadata.html
+[workshop-resources]
+other = "Воркшоп ресурстары"
+
+[pre-requisite]
+other = "Алдын ала шарттар:"
+
+[difficulty]
+other = "Кыйынчылык:"
+
+[download]
+other = "Жүктөп алуу:"
+
+# notice.html
+[note]
+other = "Кошумча"
+
+[info]
+other = "Маалымат"
+
+[warning]
+other = "Эскертүү"
+
+[tip]
+other = "Кеңеш"
+
+[help]
+other = "Жардам"
+
+[hint]
+other = "Көрсөткүч"
