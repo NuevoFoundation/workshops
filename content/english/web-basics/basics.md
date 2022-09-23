@@ -5,6 +5,8 @@ draft: false
 weight: 2
 ---
 
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/dSShCrgRMwY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 ## What is a website?
 
 A website is just a page that can be found on the Internet. It is displayed through a browser when you type the address (aka unique name) in the address bar.
