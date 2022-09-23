@@ -75,7 +75,7 @@ queen
 ```
 {{< alert theme="warning" >}} **Warning:** in this program we should always write the strings and characters in **lowercase letters**. {{< /alert >}}
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/activity-5-english?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/activity-5-english" target="_blank">Launch Replit</a>
 
 {{< alert theme="danger" >}}**Important:** To paste into the console, right click the console and click "Paste". Otherwise, the paste operation may not work correctly. {{< /alert >}}
 © 2022 GitHub, Inc.

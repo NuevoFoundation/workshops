@@ -62,7 +62,7 @@ Then rotate it 180 degree clockwise and compare it with the previous output. Are
 
 It's now your turn to rotate your cat 90 degrees counter-clockwise! 
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Python-Pixel-Activity9?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/Python-Pixel-Activity9" target="_blank">Launch Replit</a>
 
 {{% showanswer Advanced %}}
 

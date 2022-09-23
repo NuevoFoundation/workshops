@@ -9,11 +9,11 @@ draft: false
 
 Para ayudar a los reyes, vamos a crear un programa en el lenguaje llamado C++, donde podamos ingresar un mensaje, y el programa lo modifique de una manera determinada para hacerlo secreto.
 
-## Usando Repl.it
+## Usando Replit
 
-Vamos a utilizar la herramienta Repl.it, con la cual vamos a poder correr nuestro códigos de C++. Este es un ejemplo de una ventana interactiva como las que usaremos durante todo el tutorial:
+Vamos a utilizar la herramienta Replit, con la cual vamos a poder correr nuestro códigos de C++. Este es un ejemplo de una ventana interactiva como las que usaremos durante todo el tutorial:
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/activity-0?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/activity-0" target="_blank">Lanza Replit</a>
 
 Antes de empezar, entendamos como funciona esta ventana. El programa `main.cpp` contiene las instrucciones que la computadora va a ejecutar o "correr" (Run en inglés). Al presionar el botón **Run**, le estás diciendo a la computadora que ejecute las instrucciones que están en el programa. Los resultados del programa los puedes ver en la pantalla negra que está debajo, en la pestaña **console**.
 

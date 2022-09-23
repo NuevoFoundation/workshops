@@ -1,5 +1,5 @@
 ---
-title: "Starting up with Repl.it"
+title: "Starting up with Replit"
 date: 2020-07-28T13:24:17-07:00
 draft: false
 weight: 1

@@ -100,7 +100,7 @@ Pasos a seguir para esta actividad:
 4. Apreta Run. Escribie en la pestaña **console** el nombre del destinatario y presiona enter.
 
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/activity-2?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/activity-2" target="_blank">Lanza Replit</a>
 
 {{% notice warning %}}
 

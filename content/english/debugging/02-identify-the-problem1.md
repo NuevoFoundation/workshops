@@ -13,7 +13,7 @@ There are two kinds of errors: **compiler** and **runtime** errors.
 
 A **compiler** error usually indicates a problem with your syntax. Perhaps you wanted to express an idea in the program but didn't adhere to the rules of the programming language. These are caught when you compile your program. Compiler errors are nice because they are relatively easy to fix. Compilers like `gcc`, usually give a lot of information about what went wrong when the code is compiled. Let’s explore some of these errors. 
 
-Open the **Shell** tab in the Replit panel below and run the following command: 
+Open the **Shell** tab in the Replit program below and run the following command: 
 
 ```bash
 make CompilerErrors
@@ -24,7 +24,7 @@ For this example, we will not be running the program - this program is meant to 
 
 {{% /panel %}}
 
-<iframe height="500px" width="100%" src="https://replit.com/@nuevofoundation/Debugging-Samples-C?lite=true#CompilerErrors.c" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/Debugging-Samples-C" target="_blank">Launch Replit</a>
 
 The first error should look like this (or similar):
 

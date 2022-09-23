@@ -97,4 +97,4 @@ Try adding in the character! Do you see the character on your screen?
 
 {{% /notice %}}
 
-<iframe height="800px" width="100%" src="https://replit.com/@nuevofoundation/PhasorPlacingThings?lite=true" scrolling="yes" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/PhasorPlacingThings" target="_blank">Launch Replit</a>
