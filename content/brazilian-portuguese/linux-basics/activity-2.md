@@ -48,7 +48,7 @@ pwd
 A saída esperada para o seu comando pode ser parecida com a nossa abaixo:
 
 <!---!![pwd command](../images/02_pwd.png?classes=border,shadow) --->
-<img src="../images/02_pwd.png" alt="comando pwd" style="width:600px;"/>
+<img src="../images/02_pwd.png" alt="comando pwd" style="width:700px;"/>
 
 Ela mostra o caminho `/home/nuvi`. E o que isso significa? Tentaremos desvendar abaixo:
 
@@ -63,7 +63,7 @@ Ela mostra o caminho `/home/nuvi`. E o que isso significa? Tentaremos desvendar 
 Para mover para um diretório diferente, use o comando `cd`. Isso significa "Alterar diretório". O formato deste comando é `cd [nome do diretório]`.
 
 <!---![cd command](../images/02_cd.PNG?classes=border,shadow) --->
-<img src="../images/02_cd.PNG" alt="comando cd" style="width:600px;"/>
+<img src="../images/02_cd.PNG" alt="comando cd" style="width:700px;"/>
 
 Na saída do terminal acima, podemos observar que quando digitamos `pwd` novamente, o diretório de trabalho em que estamos agora é Desktop. Agora vamos tentar o comando `cd ..`:
 
@@ -71,7 +71,8 @@ Na saída do terminal acima, podemos observar que quando digitamos `pwd` novamen
 cd ..
 ```
 
-![comando cd](../images/02_cdDotDot.PNG?classes=border,shadow)
+<!-- ![comando cd](../images/02_cdDotDot.PNG?classes=border,shadow) -->
+<img src="../images/02_cdDotDot.PNG" alt="comando cd" style="width:700px;"/>
 
 O `..` após o comando `cd` leva você um nível acima na árvore do sistema de arquivos. A saída de `pwd` agora mostra que estamos de volta ao diretório que começamos, ou seja, nós começamos no diretório `nuvi`, depois descemos a árvore para diretório `Desktop` com o comando `cd Desktop`, e então subimos na árvore com o comando `cd ..`.
 
@@ -80,6 +81,6 @@ O `..` após o comando `cd` leva você um nível acima na árvore do sistema de 
         <img src="../images/nuvi.PNG?" alt="Uma foto de Nuvi" width="180" height="180" />
     </div>
     <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;width:50%;border:5px solid #2980b9;border-radius:10px;font-weight: bold;">
-        Excelente! Na proxima atividade, exploraremos os mais sobre diretórios.
+        Excelente! Na próxima atividade, exploraremos os mais sobre diretórios.
     </div>
 </div>

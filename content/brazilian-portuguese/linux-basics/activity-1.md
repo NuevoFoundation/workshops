@@ -44,6 +44,6 @@ A saída esperada para o comando acima é o nome do nosso usuário, `nuvi`, como
         <img src="../images/nuvi.PNG?" alt="Uma foto de Nuvi" width="180" height="180" />
     </div>
     <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;width:50%;border:5px solid #2980b9;border-radius:10px;font-weight: bold;">
-        Agora que verificamos quem somos, na proxima atividade, iremos descobrir onde estamos!
+        Agora que verificamos quem somos, na próxima atividade, iremos descobrir onde estamos!
     </div>
 </div>

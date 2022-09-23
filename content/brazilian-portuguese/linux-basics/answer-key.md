@@ -3,7 +3,7 @@ title: "Resoluções - Curso Básico de Linux"
 description: "Resoluções de todos os exercícios"
 date: 2022-09-22
 difficulty: "Intermediário"
-weight: 5
+weight: 15
 ---
 
 ### Atividade 1
