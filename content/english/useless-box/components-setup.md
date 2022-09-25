@@ -1,6 +1,6 @@
 ---
 title: "Preparing the components - teacher/instructor pre-work"
-date: 2020-09-207T11:45:38-07:00
+date: 2022-09-24T11:45:38-07:00
 description: ""
 weight: 5
 ---
