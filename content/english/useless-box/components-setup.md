@@ -1,11 +1,12 @@
 ---
 title: "Preparing the components - teacher/instructor pre-work"
+date: 2020-09-207T11:45:38-07:00
 description: ""
 weight: 5
 ---
 
 ### Materials:
-- “Useless box” pieces cut from SVG files (recommended: Acrylic 3mm thickness) - this requires a special laser cutter and training. You can look for some \pre-made options, see below, or try a different mechanism to produce similar pieces (see an option below).
+- “Useless box” pieces cut from SVG files (recommended: Acrylic 3mm thickness) - this requires a special laser cutter and training. You can look for some pre-made options, see below, or try a different mechanism to produce similar pieces (see an option below).
     - Each box requires 2 sheets that are 8x10 large [Clear acrylic sheet](https://www.amazon.com/KAITELA-Rectangle-Plexiglass-Painting-Projects/dp/B0987L4WFR/ref=sr_1_3?adgrpid=1330409642782912&hvadid=83150843010174&hvbmt=be&hvdev=c&hvlocphy=71326&hvnetw=o&hvqmt=e&hvtargid=kwd-83150963464972%3Aloc-190&hydadcr=7345_13216502&keywords=acrylic%2Bsheet%2B3mm&qid=1663801887&sr=8-3&th=1)
 - Toggle switch (red switch on top) [5 Pcs ON OFF ON 6 Terminals Double Pole Dual Throw Toggle Switch 6A 125V AC|Switches| - AliExpress)](https://www.aliexpress.com/item/2251832710089207.html?aff_platform=true&aff_short_key=UneMJZVf&isdl=y&src=bing&pdp_npi=2%40dis!USD!1.68!1.66!!!1.97!!%40!65756833234!ppc&msclkid=f50a32c5387211ed8cac8ef02f67670c)
 - Limit switch (black switch on bottom) [Omron Electronic Components - D2F-L-A - Switch, Snap Action, Subminiature, Hinge Lever, 80G Of, Pcb Terminal Right Angle - Allied Electronics & Automation, part of RS Group](https://www.alliedelec.com/product/omron-electronic-components/d2f-l-a/70175825/?gclid=e7c6b77e9caa136d7b6ad456674473a9&gclsrc=3p.ds&msclkid=e7c6b77e9caa136d7b6ad456674473a9&utm_source=bing&utm_medium=cpc&utm_campaign=Search%20%7C%20Parts%20%7C%20US%20%7C%20N-RLSA%20%7C%20Omron%20Electronic%20Components%20%7C%20IMP_EX_GR&utm_term=d2f-l-a&utm_content=Parts%20%7C%20Omron%20%7C%2070175825)
@@ -70,7 +71,7 @@ If you buy this kit, you would not have a breadboard, so you can skip the steps 
 ![limit switch](../img/limitSwitchWithWires.jpg)
 5. Solder the wires to the toggle switch
     1. Follow the below color scheme to ensure it matches with the provided diagrams
-![toggle switch with wires](./img/setup3.jpg)
+![toggle switch with wires](../img/setup3.jpg)
 6.	Using the screws, screw the motor and the limit switch into the middle piece (8)
 ![motor with finger](../img/motorWithFinger.jpg)
 7.	Align the finger pieces (9) and insert them into the motor as seen above
