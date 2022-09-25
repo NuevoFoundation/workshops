@@ -4,6 +4,7 @@ date: 2019-09-03T17:53:41-07:00
 draft: false
 weight: 3
 ---
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/n-bO0ku6QTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 For your browser to understand what each element of your site is, we need to label them with HTML tags. HTML stands for `Hypertext Markup Language`. Tags are words surrounded by the symbols `<`and`>`. For example, the `<img>` tag tells your browser “this is an image.” The `<button>` tag tells it “this is a button.”
 
