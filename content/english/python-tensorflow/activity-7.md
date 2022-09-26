@@ -52,39 +52,25 @@ plot_value_array(0, predictions_single[0], test_labels)
 _ = plt.xticks(range(10), class_names, rotation=45)
 ```
 
-{{% notice note %}}
-To verify the index value with the highest probability, we use
+To verify the index value with the highest probability, we use the following code. 
 
 ```python
-np.argmax(predictions_single[0]) #Verifying the index value with highest probability
+np.argmax(predictions_single[0]) # The output of this tells us what category the clothing item had the highest probability of being a part of 
 ```
 
-{{% /notice %}}
-
-{{% notice tip %}}
-### Question 1
+## Experimenting with Plots
 
 In the first code segment of this activity, change the index value for the `test_images` array to any number of your choice.
 
-{{% /notice %}}
-
-{{% notice tip %}}
-
-### Question 2
+### Question 1
 In the `plot_value_array`, change the first parameter to the same index number used previously. What class name has the highest probability?
-
-{{% /notice %}}
-
-{{% notice tip %}}
-
-### Question 3
 
 Verify your answer by running the code below to display the specified image and the plot of the category that the model predicted.
 
 Is this consistent with the answer from your previous question?
 
 ```python
-i = your_desired_value   #We can see that this image detects the right class name for the image
+i = your_desired_value   # We can see that this image detects the right class name for the image
 plt.figure(figsize=(6,3))
 plt.subplot(1,2,1)
 plot_image(i, predictions[i], test_labels, test_images)
@@ -93,4 +79,3 @@ plot_value_array(i, predictions[i],  test_labels)
 plt.show()
 ```
 
-{{% /notice %}}
