@@ -44,15 +44,6 @@ For example, if you input the index value as 7, you get the following item:
 
 {{% /notice %}}
 
-#### Answer 1:
-```python
-plt.figure()
-plt.imshow(train_images[7]) #Shows the first image in the data set as a plot or different colored pixels
-plt.colorbar() #displays the color bar on the right
-plt.grid(False)
-plt.show() #displays the entire plot
-```
-
 ### Normalize Pixel Values:
 
 The program we're going to write takes an input of values between 0 and 1. However, our pixel values are mostly all greater than 1! In fact, the range of values is 0 through 255. How can we change the range of numbers such that it can be inputted into our program? 
@@ -61,9 +52,6 @@ We will use a process called "normalization," where we transform these values to
 
 #### Question 2: 
 Can you take a guess of what number we will be dividing our values by to normalize the range? 
-
-#### Answer 2: 
-255!
 
 {{% notice tip %}}
 If this is confusing, think of percentages. If you have a test that is graded out of 255 total points and you get 240 points correct on the test, you will divide 240 by 255 in order to get the percent you got correct. We are doing a similar process here. 
