@@ -10,7 +10,7 @@ draft: false
 
 #### Congratulations! 
 
-You and your colleagues are now able to sort 4 times as many returned clothes! Your supervisor is impressed by this and chose you as the Employee of the Month!
+You and your colleagues are now able to sort 4 times as many returned clothes! Your supervisor is impressed by this and chooses you as the Employee of the Month!
 
 Thank you for doing this workshop! We hope you enjoyed it and learned the basics of Machine Learning!
 
