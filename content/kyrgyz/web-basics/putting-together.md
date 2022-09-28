@@ -20,6 +20,6 @@ weight: 3
 Бул жерде бир мисал:
 
  <p class="codepen" data-height="500" data-theme-id="dark" data-default-tab="html,result" data-user="Sunny-Dee" data-slug-hash="ErRraG" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="HTML Basics">
-    <span>See the Pen <a href="https://codepen.io/Sunny-Dee/pen/ErRraG/">HTML негиздери</a> Делиана Эскобариники (<a href="https://codepen.io/Sunny-Dee">@Sunny-Dee</a>)
-    on <a href="https://codepen.io">CodePen</a>.</span>
+    <span>CodePen'деги Делиана Эскобардын (<a href="https://codepen.io/Sunny-Dee">@Sunny-Dee</a>) <a href="https://codepen.io/Sunny-Dee/pen/ErRraG/">HTML негиздерин</a> 
+    <a href="https://codepen.io"> көрүңүз </a>.</span>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>

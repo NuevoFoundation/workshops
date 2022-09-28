@@ -16,11 +16,11 @@ HTML атрибуттары жөнөкөй, бирок алар бат эле б
 CSS файлдары HTML тегдери менен тыгыз байланышкан. Ар бир HTML тегинде ар бир элементти аныктоого жардам берген `class` атрибуту жана/же `id` атрибуту болушу мүмкүн. . Көптөгөн элементтер бир класска ээ болушу мүмкүн, ал эми элементте бир нече класс болушу мүмкүн. Бирок, элементтин бир гана идентификатору болушу мүмкүн жана id элементтер арасында бөлүшүлбөйт. CSS файлы ар бир `class` же `id` үчүн өзгөчө стилди көрсөтүү үчүн бул атрибуттарды колдонот.
 
 Төмөндөгү мисалдарды караңыз:
-<p class="codepen" data-height="426" data-theme-id="dark" data-default-tab="css,result" data-user="Sunny-Dee" data-slug-hash="qgvpQE" style="height: 426px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Styling it up"> Pen бул жерде <a href="https://codepen.io/Sunny-Dee/pen/qgvpQE/"> Стилдөө </a> Делиана Эскобардыкы (<a href="https://codepen.io/Sunny-Dee">@Sunny-Dee</a>) <a href="https://codepen.io">CodePen</a>.</p>
+<p class="codepen" data-height="426" data-theme-id="dark" data-default-tab="css,result" data-user="Sunny-Dee" data-slug-hash="qgvpQE" style="height: 426px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Styling it up"> CodePen'деги Делиана Эскобардын(@sunnydee) (<a href="https://codepen.io/Sunny-Dee">@Sunny-Dee</a>)<a href="https://codepen.io/Sunny-Dee/pen/qgvpQE/">  Pen Стилдөө'сүн көрүңүз </a> <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 <b>HTML кодун көрүү үчүн жогорку сол бурчтагы "HTML" өтмөгүн, ал эми CSS кодун көрүү үчүн "CSS" өтмөгүн басыңыз.</b>
 
-Келгиле, HTML кодун карап көрөлү. &lt;div&gt; <code>"info"</code> атрибуту менен тегти таап көрүңүз. Ал буга <code>&lt;div id="info"&gt;</code> окшош. Бул div-ге id берип, биз андан кийин ушул элемент үчүн стилди көрсөтүүгө CSS-ти колдоно алабыз.
+Келгиле, HTML кодун карап көрөлү. <code>"info"</code> атрибутуна ээ болгон &lt;div&gt;  тегин таап көрүңүз. Ал буга <code>&lt;div id="info"&gt;</code> окшош. Бул div-ге id берип, биз андан кийин ушул элемент үчүн стилди көрсөтүүгө CSS-ти колдоно алабыз.
 
 CSS файлына өтүңүз. Биз белгилүү бир түрдөгү бардык элементтерди стилдей алабыз - мисалы, биз CSS'ди колдонуп &lt;p&gt; элементтерин бирдей стилде кооздосок болот. Баш маалымат блогунда биз браузерге бардык аталыштарды #0097A7 (бул көк түскө) боёсун деп көрсөтөбүз.
 

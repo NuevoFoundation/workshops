@@ -14,7 +14,7 @@ weight: 15
 
 ## Сынак 1
 
-Чечимде:
+Чечимде төмөнкүлөр болушу керек:
 1. Аталышын кошуу үчүн баш тегдер жана Бенжи жөнүндө абзац жазуу үчүн абзац тегдери болуш керек.
 2. (милдеттүү эмес) Бенжинин сүйүктүү тамактарынын тизмеси: үндүк, арахис майы жана жип сыры
 
@@ -40,7 +40,7 @@ weight: 15
 
 ## Сынак 2
 
-Чечимде:
+Чечимде төмөнкүлөр болушу керек:
 
 1. HTML: баш тегинин биринде id атрибут болуш керек. Мисалы, ```<header id="page-title">```
 2. CSS: Башка аталыш түсү тармал кашаанын ичине ```color: yellow;``` кошуу менен
@@ -100,7 +100,7 @@ Nuevo Foundation GIF сүрөттөрү: https://giphy.com/nuevofoundation
 <iframe src="https://giphy.com/embed/oywrR92C9YBlrSuUKP" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/nuevofoundation-rockstar-nuvi-oywrR92C9YBlrSuUKP">via GIPHY</a></p>
 ```
 
-'Код өзүңүз байкап көрүңүз!' үлгүсүнө интеграцияланган:
+Код 'Өзүңүз байкап көрүңүз!' үлгүсүнө интеграцияланган:
 
 ```HTML
 <!doctype html>
@@ -168,7 +168,7 @@ Nuevo Foundation GIF сүрөттөрү: https://giphy.com/nuevofoundation
     <div class="contact-section">
       <h3>Мени менен байланыш</h3> 
       <hr>
-      <!-- Change the following line -->
+      <!-- Төмөнкү сапты өзгөртүңүз -->
        <form action="https://formspree.io/email@nuevofoundation.com" method="POST">
          <label for="name">Ат: </label>
         <input type="text" name="name" placeholder="Бенжиге ким экениңди айт"><br>
