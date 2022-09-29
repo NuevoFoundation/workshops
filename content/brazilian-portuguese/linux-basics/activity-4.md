@@ -129,7 +129,7 @@ Definição: Um **byte** é uma unidade de medida para dados. No nível mais bai
 
 {{% /notice %}}
 
-Agora vamos a ultima etapa da nossa atividade. Vamos mover o nosso novo arquivo `file1` para o nosso novo diretório `files`.
+Agora vamos a última etapa da nossa atividade. Vamos mover o nosso novo arquivo `file1` para o nosso novo diretório `files`.
 
 Digite o seguinte comando:
 
