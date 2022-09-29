@@ -34,7 +34,7 @@ Antes de prosseguirmos, vamos aos requisitos necessários para completar nosso c
     </div>
 </div>
 
-Um **Sistema Operacional** (OS) é um software que atua como uma interface entre você e o hardware do seu computador. Todo computador deve ter pelo menos um sistema operacional para executar outros programas, como o seu navegador preferido!. O sistema operacional ajuda você a se comunicar com seu computador sem saber falar o idioma dos computadores.
+Um **Sistema Operacional** (OS) é um software que atua como uma interface entre você e o hardware do seu computador. Todo computador deve ter pelo menos um sistema operacional para executar outros programas, como o seu navegador preferido! O sistema operacional ajuda você a se comunicar com seu computador sem saber falar o idioma dos computadores.
 
 O Microsoft Windows é o sistema operacional com o qual você provavelmente está mais familiarizado em casa. Outro comum que você pode ter visto é o da Apple, o macOS. Ainda temos o sistema operacional Linux! Este é o favorito dos desenvolvedores por sua versatilidade. Existem muitas outras opções por aí, mas hoje usaremos um sistema operacional baseado em Linux, chamado Kali Linux. É um sistema operacional popular entre especialistas em segurança e hackers!
 
