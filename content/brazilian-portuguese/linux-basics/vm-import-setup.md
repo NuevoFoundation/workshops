@@ -65,7 +65,7 @@ Agora vamos ao último passo! No campo "**Name**", nomeie a nossa imagem para al
 
 ![janela de carregamento de uma imagem para a virtual box](../images/import-05.PNG?classes=border,shadow)
 
-**Observação:** será exibido uma janela informando o tempo necessário para concluir a importação.
+**Observação:** será exibida uma janela informando o tempo necessário para concluir a importação.
 Normalmente, isso leva cerca de 5 minutos, mas pode demorar um pouco mais dependendo do seu computador.
 
 ![janela de carregamento de uma imagem para a virtual box](../images/import-06.JPG?classes=border,shadow)
