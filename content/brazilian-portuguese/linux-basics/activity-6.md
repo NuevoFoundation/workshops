@@ -42,7 +42,6 @@ O formato é: `grep [argumento] “[padrão]” [nome do arquivo]`.
 Vamos tentar o seguinte comando:
 
 ```
-cd
 grep -R "Ser. Ou não ser. Eis a questão."
 ```
 
