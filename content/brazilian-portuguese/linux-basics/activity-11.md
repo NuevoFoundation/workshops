@@ -23,7 +23,7 @@ O comando `tar` permite criar e extrair arquivos compactados.
 {{% notice info %}}
 Um arquivo compactado é uma coleção de arquivos que ocupam menos espaço de armazenamento no seu computador. Eles também podem ser transferidos para outros computadores mais rapidamente do que arquivos não compactados.
 
-O comando `zip` permite compactar um conjunto de arquivos. O formato é: `zip [nome do arquivo compactado] [arquivos a serem compactados]`
+O comando `zip` também permite compactar um conjunto de arquivos. O formato é: `zip [nome do arquivo compactado] [arquivos a serem compactados]`
 
 {{% /notice %}}
 
