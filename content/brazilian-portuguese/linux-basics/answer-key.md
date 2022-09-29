@@ -17,7 +17,7 @@ whoami
 ```
 pwd
 cd Desktop
-cd..
+cd ..
 ```
 
 ### Atividade 3
