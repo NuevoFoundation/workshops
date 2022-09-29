@@ -21,7 +21,7 @@ weight: 2
 
 ## O que é uma imagem?
 
-`Imagens` vêm em uma variedade de tipos. Temos fotografias, que são imagens. E as imagens do nosso computador que também são muito semelhantes. Ambos são cópias de coisas de um único ponto no tempo. Nesse minicurso trabalharemos com uma cópia de um computador que está agindo de forma estranha. Mas não se preocupe, isso não vai prejudicar o seu computador! Lembre-se que o SO estará `isolado`, o que significa que não pode afetar seu computador.
+`Imagens` vêm em uma variedade de tipos. Temos fotografias, que são imagens. E as imagens do nosso computador que também são muito semelhantes. Ambas são cópias de coisas de um único ponto no tempo. Nesse minicurso trabalharemos com uma cópia de um computador que está agindo de forma estranha. Mas não se preocupe, isso não vai prejudicar o seu computador! Lembre-se que o SO estará `isolado`, o que significa que não pode afetar seu computador.
 
 ## Configurando o Kali Linux
 
