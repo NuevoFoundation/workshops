@@ -27,7 +27,7 @@ O comando `rm` remove permanentemente um arquivo.
 {{% /notice %}}
 
 Vamos remover o arquivo corrompido que está nos causando problemas.
-Apos, usaremos o comando `ls -l` para verificar se o arquivo foi totalmente removido.
+Depois, usaremos o comando `ls -l` para verificar se o arquivo foi totalmente removido.
 
 ![comando rm](../images/Act9.1.png?classes=border,shadow)
 
