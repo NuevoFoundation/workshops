@@ -67,7 +67,7 @@ less malware.sh
 
 ```
 find . -name *.txt
-grep -R "Ser. Ou não ser. Eis a questão."
+grep -R "Do. Or do not. There is no try."
 ls -la
 diff malware.sh secret-message.txt
 vimdiff malware.sh secret-message.txt
