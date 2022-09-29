@@ -2,7 +2,7 @@
 title: "Atividade 11 - Guardando e protegendo arquivos"
 description: "Aprendendo sobre os commandos do Linux para compactar e descompactar"
 date: 2022-09-22
-prereq: "Nenhum."
+prereq: "Nenhum"
 difficulty: "Intermediário"
 weight: 14
 ---
