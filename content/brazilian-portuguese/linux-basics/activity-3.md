@@ -50,6 +50,6 @@ Agora vamos examinar os detalhes do comando `ls -l` para o diretório `Videos`:
 2. <span style="color:red">vermelho</span>: exibe o número de _links_ para este arquivo. No nosso exemplo, o diretório **Videos** contem 2 _links_.
 3. <span style="color:purple">roxo</span>: exibe o usuário dono do arquivo. Usuário `nuvi` é dono do diretório **Videos**.
 4. <span style="color:white;background-color:#232b36">branco</span>: exibe o grupo dono do arquivo. No nosso exemplo, o arquivo pertence ao grupo `nuvi`.
-5. <span style="color:#ffc000">amarelo</span>: exibe o tamanho do arquivo em **bytes**. O arquivo **Videos** contém um tamanho de 4096 bytes.
+5. <span style="color:#ffc000">amarelo</span>: exibe o tamanho do arquivo em **bytes**. O diretório **Videos** contém um tamanho de 4096 bytes.
 6. <span style="color:#ed7d31">laranja</span>: exibe a data e a hora em que o arquivo foi criado.
 7. <span style="color:#2e75b6">azul</span>: exibe o nome do arquivo ou diretório.
