@@ -27,7 +27,7 @@ Curiosidade: os sistemas de arquivos são frequentemente descritos como uma "**�
 ![Imagem de uma árvore do sistema de arquivos](../images/filesystem-tree.png?classes=border,shadow)
 {{% /notice %}}
 
-Em um computador Windows, você pode navegar pelo sistema de arquivos da unidade "**C:\\**" deste computador usando o "**Explorador de Arquivos**". Observe a sua estrutura abaixo :
+Em um computador Windows, você pode navegar pelo sistema de arquivos da unidade "**C:\\**" deste computador usando o "**Explorador de Arquivos**". Observe a sua estrutura abaixo:
 
 ![Imagem de um explorador de arquivos do Windows](../images/filesystem-windows.png?classes=border,shadow)
 
