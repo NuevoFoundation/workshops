@@ -22,7 +22,7 @@ weight: 13
 O comando `mv` também pode ser usado para substituir o arquivo de destino pelo arquivo de origem.  
 O formato é: `mv [source filename] [destination name]`.
 
-Agora, vamos Substituir a mensagem secreta corrompida pelo backup que encontramos anteriormente.
+Agora, vamos substituir a mensagem secreta corrompida pelo backup que encontramos anteriormente.
 E também vamos mover o arquivo para o novo diretório que criamos.
 
 ![comando mv](../images/Act10.1.png?classes=border,shadow)
