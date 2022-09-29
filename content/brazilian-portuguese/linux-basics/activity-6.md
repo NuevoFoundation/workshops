@@ -62,10 +62,10 @@ grep -R "Ser. Ou não ser. Eis a questão."
 
 O comando `find` filtra arquivos por parâmetros dentro de um diretório ou região de arquivos. Ele pode ser usado de várias maneiras, incluindo:
 
-- Filtra arquivos com um nome de arquivo específico
+- Filtrar arquivos com um nome específico
   O formato é: `find [diretório] -name [nome do arquivo]`
-- Filtra todos os arquivos com uma extensão de arquivo específica (por exemplo, arquivos de texto, terminando com .txt)
-  The format is: `find [diretório] -name *.txt`
+- Filtrar todos os arquivos com uma extensão específica (por exemplo, arquivos de texto, terminando com .txt)
+  O formato é: `find [diretório] -name *.txt`
 
 Use o comando `find` para filtrar o arquivo dentro do diretório atual. Existe algum comando que podemos usar para descobrir qual é o diretório atual?
 
