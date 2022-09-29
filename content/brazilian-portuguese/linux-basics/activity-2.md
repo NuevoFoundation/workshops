@@ -56,7 +56,7 @@ Ela mostra o caminho `/home/nuvi`. E o que isso significa? Tentaremos desvendar 
 - `/home`: Este é o caminho do diretório `home`, localizado no diretório raiz.
 - `/home/nuvi`: Este é o caminho para o diretório `nuvi`, localizado no diretório `home`. A saída do terminal finaliza aqui, significando que `/home/nuvi` é o diretório de trabalho atual onde estamos localizados.
 - O processo de entrar no sistema de arquivos através de cada diretório pode continuar por muitas outras etapas em alguns casos.
-- O caminho exibido e descrito acima é chamado de **caminho absoluto**, porque é o caminho fornecido do diretório atual até o diretório raiz.
+- O caminho exibido e descrito acima é chamado de **caminho absoluto**, porque é o caminho fornecido do diretório raiz até o diretório atual.
 
 ### Como podemos navegar pelo sistema de arquivos?
 
