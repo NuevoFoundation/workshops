@@ -16,7 +16,7 @@ weight: 16
     </div>
 </div>
 
-Clique em "**Baixar certificado**" abaixo para receber o seu certificado de conclusão do curso Básico de Linux!
+Clique em "**Baixar certificado**" abaixo para receber o seu certificado de conclusão do Minicurso Básico de Linux!
 
 <a class="my-2 mx-4 btn btn-info" href="../images/Certificate.pdf">
 Baixar certificado</a>
