@@ -55,7 +55,7 @@ Vamos analisar o comando `chmod`:
 chmod u=rwx g=rx o=x file1
 ```
 
-Usamos o comando `chmod` para modificar as permissões dos nossos arquivos. Nós "**alteramos o modo**" que esse nossos arquivos são acessados modificando os três grupos de permissões:
+Usamos o comando `chmod` para modificar as permissões dos nossos arquivos. Nós "**alteramos o modo**" que nossos arquivos são acessados modificando os três grupos de permissões:
 
 - o grupo <b>u</b> que representa o usuário e dono do arquivo
 - o grupo <b>g</b> que representa o grupo de usuários que têm acesso permitido naquele arquivo
