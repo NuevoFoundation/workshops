@@ -1,5 +1,5 @@
 ---
-title: "Atividade 8 - Verificando diferenças entre arquivos?"
+title: "Atividade 8 - Verificando diferenças entre arquivos"
 description: "Aprendendo sobre os commandos do Linux  para comparar  arquivos"
 date: 2022-09-22
 difficulty: "Intermediário"
