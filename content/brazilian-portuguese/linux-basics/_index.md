@@ -2,7 +2,7 @@
 title: "Minicurso básico de Linux"
 description: "Um guia introdutório sobre os comandos básicos do Linux."
 date: 2022-09-21
-prereq: "Nenhum."
+prereq: "Nenhum"
 difficulty: "Intermediário"
 download: ""
 draft: false
