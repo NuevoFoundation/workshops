@@ -17,28 +17,28 @@ Notou algo suspeito? Vamos analisar o e-mail:
 <em>O endereço de e-mail do remetente é suspeito e você não o conhece pessoalmente.</em></p>
 </div>
 
-![Email Subject](../media/subject.JPG?classes=border,shadow)
+![Assunto do email](../media/subject.JPG?classes=border,shadow)
 
 <div style="text-align: center;">
 <p style="color:red">
 <em>Oferta grátis no assunto sugere que é bom demais para ser verdade.</em></p>
 </div>
 
-![Email Date](../media/date.JPG?classes=border,shadow)
+![Data do email](../media/date.JPG?classes=border,shadow)
 
 <div style="text-align: center;">
 <p style="color:red">
 <em> Uum e-mail recebido durante a madrugada.</em></p>
 </div>
 
-![Urgency in language](../media/urgency.JPG?classes=border,shadow)
+![Urgência na linguagem](../media/urgency.JPG?classes=border,shadow)
 
 <div style="text-align: center;">
 <p style="color:red">
 <em>Algumas palavras mostram um senso de urgência.</em></p>
 </div>
 
-![URLs in Email](../media/url.JPG?classes=border,shadow)
+![URLs no email](../media/url.JPG?classes=border,shadow)
 
 <div style="text-align: center;">
 <p style="color:red">
