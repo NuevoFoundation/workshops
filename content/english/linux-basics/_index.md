@@ -1,7 +1,7 @@
 ---
 title: "Linux Basics"
 description: "An introductory guide to using the Linux command line."
-date: 2020-09-17
+date: 2022-09-23
 prereq: "None."
 difficulty: "Intermediate"
 download: ""
@@ -11,22 +11,27 @@ weight: 1
 ---
 
 {{% notice warning %}}
-This tutorial requires: 
+This tutorial requires:
 
-- A computer that is *not* a Chromebook 
+- A computer that is _not_ a Chromebook
 - 3GB of free space on your computer
 - ~10 minutes to download VirtualBox
 - ~30 minutes to download the virtual machine image
 
 {{% /notice %}}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zfdlPZYlgtk" alt="A YouTube video that introduces the Linux Workshop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/zfdlPZYlgtk" alt="A YouTube video that introduces the Linux Workshop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Welcome!
 
-*Thank goodness you're here! I am Nuvi, an agent from the Secret Hub Headquarters (SHH). We just got word that someone might have hacked my computer. We need your help to find out what is going on. We're afraid that our secret message might have been leaked!*
-
-<img src="images/nuvi.PNG?classes=border,shadow" alt="A picture of Nuvi" width="380" height="380" />
+<div style="margin: 1rem;padding: 2rem 2rem;text-align: center;">
+    <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;">
+        <img src="images/nuvi.PNG?" alt="Uma foto de Nuvi" width="180" height="180" />
+    </div>
+    <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;width:50%;border:5px solid #2980b9;border-radius:10px;font-weight: bold;">
+        Thank goodness you're here! I am Nuvi, an agent from the Secret Hub Headquarters (SHH). We just got word that someone might have hacked my computer. We need your help to find out what is going on. We're afraid that our secret message might have been leaked!
+    </div>
+</div>
 
 An **Operating System** (OS) is a software that acts as an interface between you and your computer's hardware. Every computer must have at least one OS to run other programs, like your browser!. The OS helps you to communicate with your computer without knowing how to speak the computer's language.
 

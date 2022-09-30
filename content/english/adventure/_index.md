@@ -28,8 +28,7 @@ In Choose Your Own Adventure Games you are the protagonist of the story, and you
 
 Let’s try it out!
 
-<iframe height="600px" width="100%" 
- src="https://replit.com/@nuevofoundation/PythonGuessAdventureFullSample?lite=true&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe src="https://trinket.io/embed/python/ddbeb74073?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 What did you all think? We’re now going to learn some cool skills that will allow us to create our own stories.
 

@@ -4,18 +4,16 @@ draft: false
 weight: 2
 ---
 
-We have already learned some basic if-else conditions from previous workshops, click on the link below if you want to review.
+In the last exercise, we learned basic if-else conditions. If you need a quick refresher, you can review <a href="../../python-basics/conditional-statements"> Conditional statements</a>.
 
-- <a href="../../python-basics/conditional-statements"> Conditional statements </a>
-
-We will introduce a new condition called "elif".
+In this section, we'll expand to introduce a new condition called "elif".
 
 ### Elif Condition
 
-**Elif  Keyword** represents the "else-if" condition. It is used when you want to have if the last `if` condition is not true, try this condition.
+**Elif  Keyword** represents the "else-if" condition. A real world example would be: If I am really hungry, I will eat a cake, else if I am only a little hungry, I will have an apple, else I won't eat anything. You can see it is used when you want to try another condition if the first one is not true.
 
 ```python
-# This is my first line of code
+# This is the basic elif syntax
 if expression:
     statement(s)
 elif expression:
@@ -34,7 +32,8 @@ elif 1 == 3:
 else:
     print('1<3')
 ```
-Since we can see that `1` greater than `3` is false, so it evaluates to `false`. The inside of the `if` statement will not be executed then. Since last `if` statement is `false`, we will then evaluate the `elif` statement if `1` is equal to `3`, so it evaluates to `false`. So what is in `else` will be printed.
+Since we can see that the first statement, `1` greater than `3`, is false, it evaluates to `false`. The inside of the `if` statement will not be executed then. We will then evaluate the `elif` statement, `1` is equal to `3`, which also evaluates to `false`. The inside of the `elif` will not be executed. So what is in `else` will be printed.
+
 ### Warning: `elif` is different from `if`  
 #### Let's see two examples
 #### Example A
@@ -47,9 +46,12 @@ if 3 == 3:
 else:
     print('wrong')
 ```
-Example A will print out:<br/>
-`1=1`<br/>
-`3=3`<br/>
+Example A will print out:
+
+```
+1 = 1
+3 = 3
+```
 
 #### Example B
 ```python
@@ -61,15 +63,20 @@ elif 3 == 3:
 else:
     print('wrong')
 ```
-Example B will print out:<br/>
-`1=1`<br/>
+Example B will print out:
 
-In Example A we will evaluate the first `if` statement (`1==1`) to be `true`. The inside of first `if` statement will be executed then. We will then evaluate second `if` statement (`3==3`) to be `true` as well. The inside of second `if` statement will also be executed.<br/>
+```
+1 = 1
+```
+
+In Example A we will evaluate the first `if` statement (`1==1`) to be `true`. The inside of first `if` statement will be executed then. We will then evaluate second `if` statement (`3==3`) to be `true` as well. The inside of second `if` statement will also be executed.
+
 In Example B we will evaluate the first `if` statement (`1==1`) to be `true`. Then the rest part of `elif` and `else` will not be evaluated since `if` is already correct.
-<br/><br/>
+
 #### Challenge
 Can you utilize the knowledge you learnt in Python-Basics-booleans to make your own example for `elif`?
 You may want to review boolean to finish this challenge.
 - <a href="../../python-basics/data-types/booleans"> Booleans </a>
 <br/><br/>
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Basic-else-if?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+<iframe src="https://trinket.io/embed/python/5292ae7e3a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

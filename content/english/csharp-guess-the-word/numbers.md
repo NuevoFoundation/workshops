@@ -42,7 +42,7 @@ Try printing out the answers to the following to the console. Ensure your bracke
 - `(3 + 5) * 6`
 - `(13 + 5 * 8) / (6 - (3 + 7))`
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/NF-CSharp-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/NF-CSharp-blank" target="_blank">Launch Replit</a>
 
 {{% /notice %}}
 

@@ -4,6 +4,7 @@ date: 2019-09-03T17:53:41-07:00
 draft: false
 weight: 7
 ---
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/tppIJbxknJc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ## Add a GIF
 

@@ -39,4 +39,4 @@ When you make this play statement, the line must be put after dude is placed ont
 {{% /notice %}}
 
 Try animating the dude from the last lesson. Feel free to play around with values and see how they change the end result.
-<iframe height="800px" width="100%" src="https://replit.com/@nuevofoundation/PhasorAnimation?lite=true" scrolling="yes" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/PhasorAnimation" target="_blank">Launch Replit</a>

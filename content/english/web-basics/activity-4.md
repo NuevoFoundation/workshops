@@ -3,6 +3,7 @@ title: "Activity 4 - Try the form and change the style"
 date: 2019-09-03T17:53:41-07:00
 draft: false
 weight: 9
+hidden: true
 ---
 
 ## Adding a Contact Form

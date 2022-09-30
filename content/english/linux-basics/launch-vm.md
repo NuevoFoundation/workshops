@@ -1,16 +1,24 @@
 ---
 title: "Starting up the Virtual Machine"
 description: "Continuing the introductory guide to using virtual machines"
-date: 2020-09-17
+date: 2022-09-23
 difficulty: "Intermediate"
 weight: 3
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eqHr7UeKs70" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/eqHr7UeKs70" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-*Now that everything is installed, let's launch the virtual machine!*
+<div style="margin: 1rem;padding: 2rem 2rem;text-align: center;">
+    <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;">
+        <img src="../images/nuvi.PNG?" alt="Uma foto de Nuvi" width="180" height="180" />
+    </div>
+    <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;width:50%;border:5px solid #2980b9;border-radius:10px;font-weight: bold;">
+        Now that everything is installed, let's launch the virtual machine!
+    </div>
+</div>
 
 ### Starting the VM
+
 This is pretty simple in VirtualBox. Just double-click on the VM that we created in the previous step and off you go!
 ![virtual box launch kali](../images/start-01.PNG?classes=border,shadow)
 
@@ -19,11 +27,12 @@ As the virtual machine is getting started, it may show some warnings like in the
 ![virtual box kali warnings](../images/start-02.PNG?classes=border,shadow)
 
 ### Sign into the VM
-First you will need to log in. Use these *credentials* to get started!
+
+First you will need to log in. Use these _credentials_ to get started!
 
 | Username | Password |
-| :---: | :---: |
-| nuvi | nuevo123 |
+| :------: | :------: |
+|   nuvi   | nuevo123 |
 
 {{% notice warning %}}
 This is not good password security! It is only intended for the purposes of this workshop.

@@ -53,4 +53,4 @@ One final tip: `%` in C is **not** the modulo operator! It is the remainder oper
 
 All functions are documented in `bwt.h`. Use any tools like gdb and valgrind to your advantage. Good luck!
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Debugging-Exercise-3?lite=true#bwt.c"  scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/Debugging-Exercise-3" target="_blank">Launch Replit</a>

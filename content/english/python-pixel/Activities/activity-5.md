@@ -77,7 +77,7 @@ Wow! This is our cat after the filter. We only filtered one-forth of the cat on 
 
 It's now your turn to filter whichever part you want with different kinds of filters on the cute cat! Exciting！
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Python-Pixel-Activity5?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/Python-Pixel-Activity5" target="_blank">Launch Replit</a>
 
 {{% showanswer Advanced %}}
 
