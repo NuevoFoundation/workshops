@@ -23,6 +23,8 @@ In your console you should see a Jsappy bird after you press **run** and then th
 
 ![alt text](../img/loadbird_output.png "bird image in the output")
 
+{{% /notice %}}
+
 # Change the screen text
 
 Let's change the start screen text:
@@ -40,3 +42,5 @@ In the Replit window below, we started the code with the line `var text = game.a
 In your console you should see `Press Space to Start` after you press **run**:
 
 ![alt text](../img/startscreen_output.png "bird image in the output")
+
+{{% /notice %}}
