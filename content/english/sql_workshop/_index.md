@@ -8,7 +8,7 @@ draft: false
 icon: "fas fa-database"
 weight: 130
 ---
-{{/* Link to sql image drive: https://drive.google.com/drive/folders/0ADAbCQbzZCAFUk9PVA */}}
+<!-- Link to sql image drive: https://drive.google.com/drive/folders/0ADAbCQbzZCAFUk9PVA -->
 {{< youtube oFfaxcxBkUQ >}}
 
 # Introduction: Learn SQL by Saving the Galaxy!
