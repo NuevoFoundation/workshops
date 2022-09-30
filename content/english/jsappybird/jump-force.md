@@ -22,6 +22,8 @@ In your console you should see a JSappy bird jumping with force after you press 
 
 ![alt text](../img/jump_output.png "bird jumping with gravity")
 
+{{% /notice %}}
+
 ## Bonus Activity
 
 Let's make the bird jump up and forwards:
@@ -54,3 +56,6 @@ In the Replit window below, we started the code with the line `bird.angle +=1;`.
 In your console you should see a Jsappy bird rotating with an angle after you press **run**:
 
 ![alt text](../img/rotate_output.png "bird rotating")
+
+{{% /notice %}}
+
