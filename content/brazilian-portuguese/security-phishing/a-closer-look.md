@@ -46,4 +46,4 @@ Notou algo suspeito? Vamos analisar o e-mail:
 Esse link tem um erro de ortografia difícil de perceber.</em></p>
 </div>
 
-Ao pedir ajuda a Alice, Bob foi alertado que a segurança das suas credenciais estavam em risco. Alice pediu a Bob para alterar todas as suas senhas da conta bancária. Felizmente, o invasor **Eve** ainda não havia usado as informações fornecidas por Bob e estava este estava seguro.
+Ao pedir ajuda a Alice, Bob foi alertado que a segurança das suas credenciais estavam em risco. Alice pediu a Bob para alterar todas as suas senhas da conta bancária. Felizmente, o invasor **Eve** ainda não havia usado as informações fornecidas por Bob, então ele estava seguro.
