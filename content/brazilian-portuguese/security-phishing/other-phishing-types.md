@@ -13,7 +13,7 @@ Alice continua explicando os diferentes tipos de golpes existentes, além do gol
 
 ![Um exemplo de phishing por SMS](../media/SMS.JPG?classes=border,shadow)
 
-Na imagem acima, um remetente desconhecido envia uma mensagem de texto obre ofertas gratuitas de iPads e o atrai para clicar em um link malicioso.
+Na imagem acima, um remetente desconhecido envia uma mensagem de texto sobre ofertas gratuitas de iPads e o atrai para clicar em um link malicioso.
 
 ## Propaganda maliciosa
 
