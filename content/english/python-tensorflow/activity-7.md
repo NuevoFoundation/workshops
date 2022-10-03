@@ -20,7 +20,7 @@ You may remember that, when we were plotting the models, the x-axis of the graph
 We will adjust the labeling of the x-axis so that the data it displays is easier to understand. 
 </br>
 </br>
-Copy and Paste the following code into Google Colab:
+Copy and paste the following code into your Google Colab notebook:
 
 ```python
 img = test_images[0] # Grab an image from the test dataset. 
