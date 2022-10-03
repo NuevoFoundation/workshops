@@ -11,7 +11,7 @@ Conheça o nosso amigo **Bob**. **Bob** é um cavalheiro simpático e alegre. Se
 
 ![Bob está se preparando para sua viagem de pesca nas Bahamas](../media/nuvi_phish_reduced.png?height=250px)
 
-No entanto, 24 horas depois, ele ainda não tinha recebido a confirmação de sua viagem. Mais um dia se passou e nada. No dia seguinte, ele decidiu então encontrar sua boa amiga **Alice**.
+No entanto, 24 horas depois, ele ainda não tinha recebido a confirmação de sua viagem. Mais um dia se passou e nada. No dia seguinte, ele decidiu então se encontrar com sua boa amiga **Alice**.
 ![Agente Secreta Alice](../media/Alice_reduced.png?height=250px)
 
 **Bob** contou a **Alice** tudo sobre o e-mail, a viagem às Bahamas, suas roupas novas e como ele mal podia esperar para ir pescar. **Alice**, suspeitou da oferta e pediu a **Bob** que mostrasse o e-mail.
