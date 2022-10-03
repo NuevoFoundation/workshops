@@ -9,7 +9,7 @@ Nossa Agente Secreta Alice explica a Bob sobre **Phishing**!!!
 
 ## O que é Phishing?
 
-Assim como na pesca, usa-se uma isca para pegar peixes em uma vara, **hackers** maliciosos
+Assim como na pesca usa-se uma isca para pegar peixes em uma vara, **hackers** maliciosos
 usam diferentes tipos de isca para roubar informações pessoais de pessoas desavisadas.
 
 **Phishing** é um tipo de ataque de engenharia social usado para roubar dados confidenciais, incluindo senhas, dados bancários e de cartão de crédito.
