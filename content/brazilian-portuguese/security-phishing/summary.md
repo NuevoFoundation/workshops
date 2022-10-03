@@ -13,7 +13,7 @@ Concluindo, os sinais comuns encontrados em golpes de phishing têm pelo menos u
 2. Remetente incomum e desconhecido de comportamento ou caráter inesperado.
 3. Senso de urgência, pedindo que você aja rápido por causa de ofertas ou acordos por tempo limitado.
    `Exemplo: Sua senha está prestes a expirar clique aqui para alterá-la imediatamente. `
-4. Links suspeitos: O corretor seria passar o mouse sobre o link para verificar se a URL para o qual você será direcionado é real e confiável.
+4. Links suspeitos: O correto seria passar o mouse sobre o link para verificar se a URL para a qual você será direcionado é real e confiável.
 5. Erros ortográficos ou gramaticais.
    `Exemplo: mail@g00gle.com em vez de mail@google.com`
 6. Anexos de e-mail com extensões ou nome de arquivos aleatórios.
