@@ -27,7 +27,7 @@ plt.show() #displays the entire plot
 
 Notice that the image generated has a color bar on the left. This metric is showing that the shoe uses pixel values from 0 to 255. What are pixel values? 
 
-Pixels are the smallest unit of a graphic (image or display) that a screen can represent. Think of your computer screen! There are millions of tiny colored dots that when combined can create a picture of a boat or the text shown on your screen. 
+**Pixels** are the smallest unit of a graphic (image or display) that a screen can represent. Think of your computer screen! There are millions of tiny colored dots that when combined can create a picture of a boat or the text shown on your screen. 
 
 The color bar shows the range in the color intensity that a pixel can display. 
 ![A2 Q1](../media/a2q1.png)
