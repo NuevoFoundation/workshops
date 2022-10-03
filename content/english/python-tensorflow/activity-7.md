@@ -55,7 +55,9 @@ _ = plt.xticks(range(10), class_names, rotation=45)
 To verify the index value with the highest probability, we use the following code. 
 
 ```python
-np.argmax(predictions_single[0]) # The output of this tells us what category the clothing item had the highest probability of being a part of 
+# The output of this tells us what category the clothing item had the 
+# highest probability of being a part of
+np.argmax(predictions_single[0]) 
 ```
 
 ## Experimenting with Plots
