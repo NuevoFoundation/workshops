@@ -25,7 +25,7 @@ Como podemos observar na imagem acima, uma propaganda maliciosa mistura-se a um 
 
 ## Golpe da ferramenta de busca
 
-Alguns golpes de _phishing_ envolvem ferramentas de busca em que o usuário é direcionado para sites que oferecem produtos ou serviços de baixo custo. Assim, quando o usuário tenta comprar o produto e insere os dados do cartão de crédito, o site golpista coleta esses dados. Existem muitos sites falsos de de bancos e anúncios de produtos falsos que são usados ​​para atrair os usuários a clicar em um link malicioso.
+Alguns golpes de _phishing_ envolvem ferramentas de busca em que o usuário é direcionado para sites que oferecem produtos ou serviços de baixo custo. Assim, quando o usuário tenta comprar o produto e insere os dados do cartão de crédito, o site golpista coleta esses dados. Existem muitos sites falsos de bancos e anúncios de produtos falsos que são usados ​​para atrair os usuários a clicarem em um link malicioso.
 
 ![Um exemplo do golpe da ferramenta de busca](../media/search_engine.png?height=450px)
 
