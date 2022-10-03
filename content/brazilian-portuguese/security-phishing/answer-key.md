@@ -10,6 +10,6 @@ weight: 5
 
 Na atividade "**Você acha isso suspeito?**" os seguintes e-mails e textos foram possíveis tentativas de **phishing**:
 
-1. O e-mail das contas do spotify.
+1. O e-mail das contas do Spotify.
 2. O texto da Amazon para Airpods grátis.
-3. Um e-mail com uma mensagem de voz.
+3. O e-mail com uma mensagem de voz.
