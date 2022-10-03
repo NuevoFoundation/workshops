@@ -28,7 +28,7 @@ Notou algo suspeito? Vamos analisar o e-mail:
 
 <div style="text-align: center;">
 <p style="color:red">
-<em> Uum e-mail recebido durante a madrugada.</em></p>
+<em>Um e-mail recebido durante a madrugada.</em></p>
 </div>
 
 ![Urgência na linguagem](../media/urgency.JPG?classes=border,shadow)
