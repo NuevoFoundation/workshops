@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-Conheça o nosso amigo **Bob**. **Bob** é um cavalheiro simpático e alegre. Seus hobbies são viajar e pescar. Uma bela noite **Bob** recebeu um e-mail dizendo que ganhou uma viagem grátis para as "Bahamas". **Bob** ficou animado. Ele clicou imediatamente no link e inseriu todos os seus dados pessoais. **Bob** estava ansioso na espera da confinação do que seu itinerário de viagem.
+Conheça o nosso amigo **Bob**. **Bob** é um cavalheiro simpático e alegre. Seus hobbies são viajar e pescar. Uma bela noite **Bob** recebeu um e-mail dizendo que ganhou uma viagem grátis para as "Bahamas". **Bob** ficou animado. Ele clicou imediatamente no link e inseriu todos os seus dados pessoais. **Bob** estava ansioso na espera da confirmação do seu itinerário de viagem.
 
 **Bob** ainda ansioso, decidiu fazer compras para sua viagem. Ele comprou roupas novas e uma nova vara de pescar.
 
