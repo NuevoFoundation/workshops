@@ -37,9 +37,9 @@ print(img.shape)
 ```
 
 ```python
-predictions_single = probability_model.predict(img) # This gives the 
-# confidence level that the image corresponds with each category. 
-# For examaple the possibility that the image is a T-shirt is 5.2198538e-07
+# This gives the confidence level that the image corresponds with each category. 
+# For example, the probability that the image is a T-shirt is 5.2198538e-07.
+predictions_single = probability_model.predict(img)
 
 print(predictions_single)
 ```
