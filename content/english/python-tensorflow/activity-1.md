@@ -49,9 +49,8 @@ fashion_mnist = keras.datasets.fashion_mnist
 ```
 
 {{% notice note %}}
-You might notice we are splitting the data into training and testing datasets with their corresponding labels. A training dataset is for our model to learn about the optimal parameters to achieve our tasks, while the test dataset is to validate
-how well our model has learned. This is just like how we learn things: we're being continuously trained and tested to get better!
-{{%/notice%}}
+You might notice we are splitting the data into training and testing datasets with their corresponding labels. A **training dataset** is for our model to learn about the optimal parameters to achieve our tasks, while the **test dataset** is to validate how well our model has learned. This is just like how we learn things: we're being continuously trained and tested to get better!
+{{% /notice %}}
 
 <br>
 
