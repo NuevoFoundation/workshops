@@ -11,7 +11,7 @@ draft: false
 
 ## Plotting an Image's Category 
 </br>
-You may remember when we were plotting the models that the x-axis of the graphs were labeled with numbers 1 through 9. These correspond to the categories of items that we defined earlier in the workship, i.e. t-shirt/top, trouser, pullover, dress, coat, sandal, shirt, sneaker, bag, and ankle boot. 
+You may remember that, when we were plotting the models, the x-axis of the graphs was labeled with the numbers 1 through 9. These correspond to the categories of items that we defined earlier in the workshop, i.e. t-shirt/top, trouser, pullover, dress, coat, sandal, shirt, sneaker, bag, and ankle boot. 
 </br>
 
 ![Plotting Model Figure 2](../media/Plotting_fig2.png)
