@@ -37,5 +37,5 @@ Alice ajuda Bob a entender as consequências do golpe dando uma olhada detalhada
 
 {{% notice warning %}}
 **Observação**: há momentos em que você precisa fornecer informações pessoais a um destinatário confiável.</br>
-No entanto, fornecer informações pessoais também pode levar a cair em golpes de **phishing**. Neste minicurso vamos entender como diferenciar entre um email legítimo e um email fraudulento.
+No entanto, fornecer informações pessoais também pode levar a cair em golpes de **phishing**. Neste minicurso vamos entender como diferenciar um email legítimo de um email fraudulento.
 {{% /notice %}}
