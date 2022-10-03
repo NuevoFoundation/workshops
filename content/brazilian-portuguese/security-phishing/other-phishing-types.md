@@ -9,7 +9,7 @@ Alice continua explicando os diferentes tipos de golpes existentes, além do gol
 
 ## Golpe do SMS
 
-E um golpe realizado via mensagem de celular (SMS). Esse tipo de golpe tenta induzir a vítima a revelar informações pessoais por meio de um link que leva a um site de **phishing**.
+É um golpe realizado via mensagem de celular (SMS). Esse tipo de golpe tenta induzir a vítima a revelar informações pessoais por meio de um link que leva a um site de **phishing**.
 
 ![Um exemplo de phishing por SMS](../media/SMS.JPG?classes=border,shadow)
 
