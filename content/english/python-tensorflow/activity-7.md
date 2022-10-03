@@ -24,7 +24,7 @@ Copy and paste the following code into your Google Colab notebook:
 
 ```python
 img = test_images[0] # Grab an image from the test dataset. 
-#NOTE: This index will be changed and its corresponding plot will be displayed in the next few steps
+# NOTE: This index will be changed and its corresponding plot will be displayed in the next few steps
 
 print(img.shape) # This shows the resolution of the image. 
 ```
