@@ -41,12 +41,6 @@ When running your code for the first time, make sure to run your code by clickin
 
 {{% /notice %}}
 
-## Table of Contents
-<details>
-<summary>Sections</summary>
-{{% children %}}
-</details>
-
 <br>
 
 <a href="https://www.tensorflow.org/tutorials/keras/classification" target="_blank">Works Cited</a>

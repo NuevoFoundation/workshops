@@ -18,8 +18,8 @@ In our scenario, we are using pre-labeled images of clothing to train our model.
 
 Take a look at these two images.
 
-![](../media/NN_sneaker_ex1.png)
-![](../media/NN_sneaker_ex2.png)
+![Black and white sneaker with white sole](../media/NN_sneaker_ex1.png)
+![Black sneaker](../media/NN_sneaker_ex2.png)
 
 As we can see from these images, we have two sneakers. They are both different images and their pixel values vary significantly, but we can still categorize them as sneakers. How do we do this? Our brain interprets these images by looking at patterns that we observed previously and establishes, "That is a sneaker!"
 
@@ -47,15 +47,15 @@ Simply put, a neural network is a system, or an algorithm, that trains the compu
 
 ## How is related to what we are doing?
 
-{{%notice note%}}
+{{% notice note %}}
 We would recommend looking at the first code block below and the neural network diagram to better understand the relationship between them and the following points.
-{{%/notice%}}
+{{% /notice %}}
 
 - The input layer takes the different types of images from the dataset and feeds it into the neurons (the hidden layer).
 - The neurons (128 of them) then recognize different patterns in the images by observing different features and the relationships between them and the predetermined categories. This layer gives the computer the ability to categorize images on its own.
 - The output layer consists of 10 different nodes, representing the 10 different categories we would sort the images by. Depending on the specific image and the way the computer was trained by the neurons, the output will be the highest predicted category for that particular image.
 
-{{%notice note%}}
+{{% notice note %}}
 
 If you are interested in reading more about neural networks, you can check out <a href="https://news.mit.edu/2017/explained-neural-networks-deep-learning-0414" target="_blank">this website</a> by MIT News.
  
@@ -63,7 +63,7 @@ If you are interested in reading more about neural networks, you can check out <
 
 {{% /notice %}}
 
-Copy the following code into Google Colab:
+Copy the following code into your Google Colab Notebook:
 
 ```python
 model = keras.Sequential([ 

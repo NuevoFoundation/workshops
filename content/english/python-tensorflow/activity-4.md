@@ -19,8 +19,8 @@ model.fit(train_images, train_labels, epochs=10)
 ```
 
 {{% notice note %}}
-Epochs represent the number of times the model processes all the training data. 
-{{%/notice%}}
+**Epochs** represent the number of times the model processes all the training data. 
+{{% /notice %}}
 
 The following code prints out the overall test accuracy.
 
