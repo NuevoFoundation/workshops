@@ -12,7 +12,7 @@ draft: false
 This is the first step in building a **neural network**, which is actually a tool that allows us to do **"machine learning"**. With this tool, we are training a program to analyze images or data, otherwise known as **training data**. 
 Then after training, we can ask the program to perform and execute a specific task using what it learned. For example, let's say we train a program with dog and cat pictures, and we provide the program with the correct identification of the images. Once trained, we can ask the computer to identify if a picture of my pet Whiskers is of a cat or dog. 
 
- In our scenario, we are using pre-labeled images of clothing to train our model. Then, we want the program to correctly predict the type of clothing an input may be.
+In our scenario, we are using pre-labeled images of clothing to train our model. Then, we want the program to correctly predict the type of clothing an input may be.
 
 ## Recognizing Patterns and Grouping Items
 
