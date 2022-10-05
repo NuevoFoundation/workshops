@@ -151,6 +151,6 @@ To edit this code, click on the 'Copy to Drive' button to make a personal copy o
 {{% notice warning %}}
 ### If you are using a Nuevo Google account temporarily
 Once you make a copy, please make sure to replace the "Copy of" with your name, along with the file name. This will be on the top left corner of your notebook.
-{{% /notice%}}
+{{% /notice %}}
 
-{{% /notice%}}
+{{% /notice %}}
