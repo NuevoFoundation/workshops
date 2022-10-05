@@ -113,7 +113,7 @@ From this example we see that the model predicted the item to be a sandal with 9
 
 For more examples of the model predictions, plot the first 25 test images, their predicted labels, and the true labels. As before, the correct predictions will be shown in blue and the incorrect predictions in red.
 
-Copy this code into Colab: 
+Copy this code into your Colab notebook: 
 
 ```python
 num_rows = 5
