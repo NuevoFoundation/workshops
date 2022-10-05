@@ -48,7 +48,7 @@ For example, if you input the index value as 7, you get the following item:
 
 The program we're going to write takes an input of values between 0 and 1. However, our pixel values are mostly all greater than 1! In fact, the range of values is 0 through 255. How can we change the range of numbers such that it can be inputted into our program? 
 
-We will use a process called "normalization," where we transform these values to make them fit in the range of 0 to 1. More specifically, we will take all of our data and divide it by a singular value so that the range of values can now fit within 0 and 1. 
+We will use a process called **"normalization"**, where we transform these values to make them fit in the range of 0 to 1. More specifically, we will take all of our data and divide it by a singular value so that the range of values can now fit within 0 and 1. 
 
 #### Question 2: 
 Can you take a guess of what number we will be dividing our values by to normalize the range? 
