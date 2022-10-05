@@ -19,7 +19,7 @@ Now that we are able to classify the category of an individual piece of clothing
 The `plot_image` function displays an image along with its predicted classification, the confidence level of the model for that category, and the actual classification (which is for reference).
 
 {{% notice tip %}}
-A confidence level is used to convey how confident or certain we are in our answer being correct. If you have to predict whether it will rain tomorrow, your possible answers are yes or no. What if you're not totally certain in your answer, though? If the weather man predicted rain for tomorrow, you may say you are 90% confident. This means that you are pretty sure it will rain tomorrow, but it also tells us that you think there is a 10% chance you may be wrong. 
+A **confidence level** is used to convey how confident or certain we are in our answer being correct. If you have to predict whether it will rain tomorrow, your possible answers are yes or no. What if you're not totally certain in your answer, though? If the weather reporter predicted rain for tomorrow, you may say you are 90% confident. This means that you are pretty sure it will rain tomorrow, but it also tells us that you think there is a 10% chance you may be wrong. 
 
 A smaller confidence level indicates you are less certain in your answer being correct, that you are likely to be wrong or incorrect in some capacity. The closer to 100 our confidence level is, the more certain we are in our prediction.
 
