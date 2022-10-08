@@ -14,12 +14,6 @@ You and your colleagues are now able to sort 4 times as many returned clothes! Y
 
 Thank you for doing this workshop! We hope you enjoyed it and learned the basics of Machine Learning!
 
-{{% notice warning %}}
-#### Are you stuck anywhere in this workshop or want to check your work? 
-Feel free to refer to this: <a href="#" target="_blank">Answer Key</a>
-
-{{% /notice %}}
-
 {{% notice info %}}
 If you would like to test the finished code, visit
  <a href="https://colab.research.google.com/drive/1NtI1_iiNvq1J9rQsEaKEbiFsotkL_C0T?usp=sharing" target="_blank">this link</a> 

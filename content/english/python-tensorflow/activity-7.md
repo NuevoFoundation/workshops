@@ -14,7 +14,7 @@ draft: false
 You may remember that, when we were plotting the models, the x-axis of the graphs was labeled with the numbers 1 through 9. These correspond to the categories of items that we defined earlier in the workshop, i.e. t-shirt/top, trouser, pullover, dress, coat, sandal, shirt, sneaker, bag, and ankle boot. 
 </br>
 
-![Plotting Model Figure 2](../media/Plotting_fig2.png)
+![Plotting Model Figure 2 of a sneaker](../media/Plotting_fig2.png)
 
 </br>
 We will adjust the labeling of the x-axis so that the data it displays is easier to understand. 
