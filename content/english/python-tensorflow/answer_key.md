@@ -1,26 +1,33 @@
 ---
 title: "Answer Key"
 date: 2020-09-14T16:19:17-07:00
-weight: 14
+weight: 15
 draft: false
 hidden: true
 ---
 
-
-{{% notice info %}}
 ## Activity 1
+#### Task 1:
+
 ```python
 class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat','Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']  
 ```
-{{% /notice %}}
 
-{{% notice info %}}
 ## Activity 2
+#### Question 1:
+```python
+plt.figure()
+plt.imshow(train_images[7]) #Shows the first image in the data set as a plot or different colored pixels
+plt.colorbar() #displays the color bar on the right
+plt.grid(False)
+plt.show() #displays the entire plot
+```
+#### Question 2: 
+255!
 The max pixel value is 255 for any index used.
-{{% /notice %}}
 
-{{% notice info %}}
 ## Activity 3
+#### Question 1:
 To answer Q1 you would change your code to the following:
 ```python
 plt.figure(figsize=(10,10)) #sets the image size to 10x10 pixels
@@ -35,15 +42,10 @@ plt.show() #shows images with their labels
 ```
 ![images 6x7](../media/PU2_42images.png)
 
-{{% /notice %}}
 
-
-{{% notice info %}}
 ## Activity 4
 Answers may vary, sample answers provided below:
-
-{{% notice tip %}}
-## Question 1
+### Question 1
 
 ```python
 model.fit(train_images, train_labels, epochs=2) #epochs determine how many times a model is trained
@@ -68,10 +70,8 @@ Test accuracy: 0.8604000210762024
 ```
 
 Accuracy of Epoch 2 is .8647 and the test accuracy when the trained model is compared to the test dataset is .8604.
-{{% /notice %}}
 
-{{% notice tip %}}
-## Question 2
+#### Question 2
 ```python
 model.fit(train_images, train_labels, epochs=10) #epochs determine how many times a model is trained
 ```
@@ -110,11 +110,9 @@ Test accuracy: 0.8812000155448914
 ```
 
 Accuracy of Epoch 10 is .9088 and the test accuracy when the trained model is compared to the test dataset is .8812.
-{{% /notice %}}
 
 
-{{% notice tip %}}
-## Question 3
+#### Question 3
 
 ```python
 model.fit(train_images, train_labels, epochs=20) #epochs determine how many times a model is trained
@@ -175,17 +173,10 @@ Test accuracy: 0.88919997215271
 ```
 
 Accuracy of the last epoch, Epoch 20, is .9335 and the test accuracy when the trained model is compared to the test dataset is .8892.
-{{% /notice %}}
 
-{{% notice tip %}}
-## Question 4
+#### Question 4
 We see a positive correlation. As we increase the number of epochs, there is more data to train the model with, so the accuracy increases.
-{{% /notice %}}
 
-{{% /notice %}}
-
-
-{{% notice info %}}
 ## Activity 5
 For this actvity, we will be using this image.
 ```python
@@ -197,8 +188,7 @@ plt.show() #displays the entire plot
 ```
 ![Ankle Boot](../media/a2q1.png)
 
-{{% notice tip %}}
-## Question 1
+#### Question 1
 ```python
 probability_model = tf.keras.Sequential([model, tf.keras.layers.Softmax()])
 ```
@@ -217,10 +207,8 @@ array([1.1623413e-08, 2.3745208e-08, 3.5589391e-08, 1.2773025e-09,
 ![](https://i.imgur.com/td1b4Jk.png)
 
 Index 9 has the highest confidence value, and index 1 has the lowest confidence value.
-{{% /notice %}}
 
-{{% notice tip %}}
-## Question 2
+#### Question 2
 ```python
 np.argmax(predictions[0]) # This returns the index value with the highest predictions
 ```
@@ -247,12 +235,7 @@ class_names[9] # This is the category name of the image that has the highest pro
 ![](https://i.imgur.com/XeZoptk.png)
 
 This corresponds to the 'Ankle Boot' category.
-{{% /notice %}}
 
-{{% /notice %}}
-
-
-{{% notice info %}}
 ## Activity 6
 For this answer, we will be using this image. Feel free to use any picture you want from the dataset, but make sure you are consistent with the values.
 ```python
@@ -264,8 +247,6 @@ plt.show() #displays the entire plot
 ```
 ![Shirt](../media/a2progress2.png)
 
-{{% notice tip %}}
-## Question 1
 ```python
 probability_model = tf.keras.Sequential([model, tf.keras.layers.Softmax()])
 ```
@@ -281,10 +262,7 @@ array([3.5166186e-06, 5.8611111e-12, 7.3947496e-04, 3.9665038e-06,
        1.2411938e-07, 2.7266096e-09], dtype=float32)
 ```
 Index 6 has the confidence value, and index 7 has the lowest confidence value.
-{{% /notice %}}
 
-{{% notice tip %}}
-## Question 2
 ```python
 np.argmax(predictions[7]) # This returns the index value with the highest predictions
 ```
@@ -308,16 +286,10 @@ class_names[6] # This is the category name of the image that has the highest pro
 ```
 
 This corresponds to the 'Shirt' category.
-{{% /notice %}}
 
-{{% /notice %}}
-
-
-{{% notice info %}}
 ## Activity 7
 
-{{% notice tip %}}
-## Question 1
+#### Question 1
 ```python
 # Grab an image from the test dataset. This shows the resolution of the image. 
 
@@ -327,11 +299,6 @@ img = test_images[7]
 print(img.shape)
 ```
 
-{{% /notice %}}
-
-{{% notice tip %}}
-## Question 2
-
 ```python
 plot_value_array(7, predictions_single[0], test_labels)  #plot the graph containing all the class names
 _ = plt.xticks(range(10), class_names, rotation=45)
@@ -339,10 +306,6 @@ _ = plt.xticks(range(10), class_names, rotation=45)
 ![Classification Plot](../media/PU3_graph.png)
 
 
-{{% /notice %}}
-
-{{% notice tip %}}
-## Question 3
 
 ```python
 i = 7   #We can see that this image detects the right class name for the image
@@ -357,7 +320,4 @@ plt.show()
 
 
 Yes, this is consistent with the previous question.
-{{% /notice %}}
-
-{{% /notice %}}
 
