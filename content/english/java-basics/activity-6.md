@@ -132,7 +132,7 @@ loveMusic = loveMusicinput;
 
 <br />
 
-### Lastly, let's create some methods for the class `Bird.`
+### Lastly, let's create some methods for the class `Bird`.
 
 We are gonna create 6 methods for this class!
 - getSpecies();   // return species of the bird
