@@ -41,7 +41,7 @@ There will also be links to the relevant Java topics on each page if you want to
 
 ## Demo
 
-The following gif shows you the program that you will create by the end of the workshop! Check it out!
+The following GIF shows you the program that you will create by the end of the workshop! Check it out!
 
 <<<<<<< HEAD
 <img src="images/tictactoe-demo.gif" height="30%" width="22%" title="Android Tic-Tac-Toe Game" alt="Android Tic-Tac-Toe Game"/>
