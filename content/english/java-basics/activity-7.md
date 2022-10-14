@@ -11,7 +11,7 @@ In previous exercises, we learned that variables allow us to access and store a 
 
 In programming, **data structures** are elements that allow coders to store multiple pieces of data of the same type. Using data structures is an efficient way to store and access large pieces of data. In this exercise, we will learn about 2 data structures used in Java: **array** and **ArrayList**.
 
-While array is a fixed length data structure, ArrayList is a variable length where you can change the size of the data structure. Let's start by looking at arrays!
+While array is a fixed length data structure, ArrayList can be of variable length, where you can change the size of the data structure. Let's start by looking at arrays!
 
 ## Array
 
