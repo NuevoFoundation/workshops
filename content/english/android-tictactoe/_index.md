@@ -27,7 +27,7 @@ Android is currently the most used mobile operating system in the world! Android
 
 In this project we've given you a mostly working Android application that's a game of Tic-Tac-Toe. It needs your help to fix some problems and add a few parts to make it a great game!
 
-## Download the Project Files
+### Download the Project Files
 To get started, download the project files using the steps below:
 1. [Download the project files](../resources/_gen/files/TicTacToe.zip) for your game.
 2. Find the TicTacToe.zip file in your downloads folder.
