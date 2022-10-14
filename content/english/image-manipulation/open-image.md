@@ -14,9 +14,9 @@ Once you have downloaded it, navigate back to your repl.it window and upload you
 
 For example, to upload the cat.jpg file:
 
-![alt text](../media/upload_file.png "image showing how to upload a file")
+![image showing how to upload a file](../media/upload_file.png "image showing how to upload a file")
 
-You should see the JPG file on the left side once you’ve uploaded it. Note, your image may have a different extension. 
+You should see the JPG file on the left side once you’ve uploaded it. Note, your image may have a different extension.
 
 Next step is to open that image within code. There are functions within the `Pillow Image` module we imported that allow us to do this.
 

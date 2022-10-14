@@ -7,11 +7,7 @@ prereq: "Python Basics: Repl.it, Writing to Console (Print), Comments, Data Type
 difficulty: Intermediate
 --- 
 
-Applications like Instagram and Snapchat allow its users to modify their images. For example, you can rotate your image and make it black and white. Ever wondered how these apps do it? The answer is using code!
-
-Today, we’re going to learn how to do some image manipulations using Python!
-
-### Setting up the project
+## Setting up the project
 
 To get started let’s start with importing a module. What does that mean? To do fun stuff with images, we need to unlock some functions to use. To get these functions we need to import a module. In this case if we import the module `Pillow`, we can use some functions that will help us modify images.
 

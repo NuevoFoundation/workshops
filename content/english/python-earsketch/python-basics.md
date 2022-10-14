@@ -16,4 +16,3 @@ below:
 - <a href="../../python-basics/python-console" target="_blank">Python Console</a>
 - <a href="../../python-basics/comments" target="_blank">Comments</a>
 - <a href="../../python-basics/functions" target="_blank">Functions</a>
-

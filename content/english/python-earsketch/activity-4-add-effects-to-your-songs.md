@@ -39,7 +39,7 @@ our song.
 4. For the rest of the effect parameters, click on the eye icon on the `setEffect` API and you will see a link to "Every Effect Explained in Detail". Click on it to open this section on the right side of your window.
 5. You may notice that Earsketch has many different variations of effects. By default, you should see section 30.4 BANDPASS on the right. For now, we will use the DELAY from section 30.4 as `effectType` in our `setEffect` function call.
 6. Now that we have chosen our `effectType`, we need an `effectParameter`. Navigate to section 30.4 on the right to check out different parameters supported for DELAY. Here is a picture of that section. We recommend using the DELAY\_FEEDBACK.
-    ![](../img/screenshot-effect-parameter.png)
+    ![Parameter effect picture](../img/screenshot-effect-parameter.png)
 
 7. For the final parameter, input a valid value. Since we have chosen DELAY\_FEEDBACK, we must specify a number between -120.0 and -1.0 (as shown in the picture above). Example: Use -6.0 as your effect value for DELAY\_FEEDBACK.
 

@@ -18,10 +18,13 @@ You in luck, today is the day, you will get to build your own!
 <img src="resources/_gen/images/game_play.gif" height="30%" width="22%" title="Android Tic-Tac-Toe Game" alt="Android Tic-Tac-Toe Game"/>
 
 ## Getting Started
+
 ## What is Android?
+
 Android is currently the most used mobile operating system in the world! Android Studio lets you create apps that can be used by these Android devices. In fact, if you have an Android phone, then you can even download the app you're making today onto your phone!
 
 ## About this Project
+
 In this project we've given you a mostly working Android application that's a game of Tic-Tac-Toe. It needs your help to fix some problems and add a few parts to make it a great game!
 
 ## Download the Project Files

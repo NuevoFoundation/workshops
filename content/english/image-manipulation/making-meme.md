@@ -7,7 +7,7 @@ prereq: "Python Basics: Repl.it, Writing to Console (Print), Comments, Data Type
 difficulty: Intermediate
 --- 
 
-So now that my image looks how I want it to look, I want to add some text. We can do that by utilizing the `Pillow ImageDraw` module. Let’s import that at the top of our file along with our other import statements.
+Now that my image looks how I want it to look, I want to add some text. We can do that by utilizing the `Pillow ImageDraw` module. Let’s import that at the top of our file along with our other import statements.
 
 ```python
 from PIL import Image
@@ -36,15 +36,17 @@ You can see that the text in the image created above is in a small, default font
 To start, you can use the font we use in this workshop: <a href="../media/Roboto-Bold.ttf" download>Click to download.</a>
 
 To use this font, you can do the following:
-1. Upload the TTF file to repl.it in the same place as your code. 
-2. In your `main.py` file, we need to add a few more things to use the font within our meme.  First, at the top of the file, add another `import` line to use the `ImageFont` library.    
+1. Upload the TTF file to repl.it in the same place as your code.
+2. In your `main.py` file, we need to add a few more things to use the font within our meme.  First, at the top of the file, add another `import` line to use the `ImageFont` library.
+
 ```python
 from PIL import Image
 from PIL import ImageFilter
 from PIL import ImageDraw
 from PIL import ImageFont
 ```
-1. Further down in the code, where you are adding the text to the image, you want to add another line in between to set the font, then pass that font into the `text()`  function.
+
+3. Further down in the code, where you are adding the text to the image, you want to add another line in between to set the font, then pass that font into the `text()`  function.
 
 For example:
 
@@ -60,7 +62,7 @@ Once I rerun my code, my image now looks like this:
 
 {{% notice tip %}}
 
-### Want to pick your own font? 
+### Want to pick your own font?
 
 Take a look at the <a href="https://pillow.readthedocs.io/en/stable/reference/ImageDraw.html#PIL.ImageDraw.PIL.ImageDraw.ImageDraw.text" target="_blank">documentation</a> and see if you can change the font and the font size, as well as the color of the text! 
 
@@ -71,7 +73,7 @@ Changing the font requires downloading a .ttf (aka a font file) from online. A g
 2. A ZIP file will be downloaded locally.  Open or extract the folder, find a font you want to use (i.e., Roboto Bold) and upload that file (TTF) to repl.it.  
    <img src="../media/googlefont_upload.png" alt="google font family upload" style="width:50%"/>
 
-{{% /notice %}} 
+{{% /notice %}}
 
 
 <!-- ### Challenge 
