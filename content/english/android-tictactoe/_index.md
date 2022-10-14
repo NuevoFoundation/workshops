@@ -19,7 +19,7 @@ You in luck, today is the day, you will get to build your own!
 
 ## Getting Started
 
-## What is Android?
+### What is Android?
 
 Android is currently the most used mobile operating system in the world! Android Studio lets you create apps that can be used by these Android devices. In fact, if you have an Android phone, then you can even download the app you're making today onto your phone!
 
