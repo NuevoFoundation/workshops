@@ -13,31 +13,13 @@ To verify that your code is correct up to this checkpoint, please compare your c
 
 {{% notice warning %}}
 The outputs of the code may vary. You only need to copy the code blocks, and __not__ the output blocks, as they will be generated automatically in your notebook.
-
 {{% /notice %}}
 
-{{% notice note %}}
-```python
-These lighter shaded blocks contain python code
-```
-```
-These darker shaded blocks contain the output
-```
-{{% /notice %}}
+## Compare Your Code
 
-{{% notice info %}}
-
-If you would like to test the following code, visit <a href="https://colab.research.google.com/drive/1knoCeFRtcUbp1HyKKEQgYw9tgZsUeDk0?usp=sharing" target="_blank">this link</a> 
-
-To edit this code, click on the 'Copy to Drive' button to make a personal copy of this notebook. Make sure you are logged in to your Google account.
-
-{{% notice warning %}}
-### If you are using a Nuevo Google account temporarily
-Once you make a copy, please make sure to replace the "Copy of" with your name, along with the file name. This will be on the top left corner of your notebook.
-{{% /notice%}}
+Before moving on, please check your Google Colab notebook against the code below:
 
 
-{{% /notice %}}
 
 ```python
 plt.figure(figsize=(10,10)) #sets the image size to 10x10 pixels
@@ -51,7 +33,7 @@ for i in range(25): #displays first 25 images with their class name
 plt.show() #shows images with their labels
 
 ```
-![images 5x5](../media/PU2_25images.png)
+![clothing sample images, 5x5](../media/PU2_25images.png)
 
 ```python
 #Building the Neural Network
@@ -152,6 +134,23 @@ class_names[6] # This is the category name of the image that has the highest pro
 'Shirt'
 ```
 
-{{% notice info %}}
+<br />
+<br />
+
 Now that we are able to classify the category of an individual piece of clothing using your model, we will now visualize these predictions by creating a bar plot for a specified image.
+
+<br />
+<br />
+
+{{% notice info %}}
+
+If you would like to test the code above, visit <a href="https://colab.research.google.com/drive/1knoCeFRtcUbp1HyKKEQgYw9tgZsUeDk0?usp=sharing" target="_blank">this link</a> 
+
+To edit this code, click on the 'Copy to Drive' button to make a personal copy of this notebook. Make sure you are logged in to your Google account.
+
+{{% notice warning %}}
+### If you are using a Nuevo Google account temporarily
+Once you make a copy, please make sure to replace the "Copy of" with your name, along with the file name. This will be on the top left corner of your notebook.
+{{% /notice %}}
+
 {{% /notice %}}

@@ -24,13 +24,7 @@ The road ahead at NuevoEats will not be easy. That’s why we’re looking for p
 
 ![what](img/what.png)
 
-<hr>
-
-![task](img/task.png)
-
-Topics:
-
-<details open>
+<details close>
 <summary>Topics</summary>
 {{% children %}}
 </details>

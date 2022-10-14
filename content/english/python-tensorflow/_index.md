@@ -10,9 +10,9 @@ icon: "fab fa-python"
 ---
 
 
-## Welcome to Tensorflow!
+## Welcome to TensorFlow!
 
-In this workshop we will be using the Tensorflow Python library to train a neural network model to recognize and classify different types of clothing. We will take a look at the steps which allow the model to make a prediction for the best fit category for a specified image.
+In this workshop we will be using the TensorFlow Python library to train a neural network model to recognize and classify different types of clothing. We will take a look at the steps which allow the model to make a prediction for the best fit category for a specified image.
 
 You can also use [this video](https://www.youtube.com/watch?v=FiNglI1wRNk) to follow along with this workshop to help better understand what is covered.
 
@@ -23,7 +23,7 @@ The following videos will go over all the code and activities, so we recommend d
 ## Getting Started with Google Colab
 Visit [Google Colab](https://colab.research.google.com/), an online programming environment similar to Google Docs but for running code. After signing into your Google account, click the option to create a "New Notebook". To run the code you complete while working through this workshop, click on the "play" button on the left. 
 
-We recommend that you organize your code by creating a new block of code for every segment of code used in the activities throughout the workshop. Also, make sure to read the comments in the code blocks to better understand what each code segment does.
+We recommend that you organize your code by creating a new block for every segment of code used in the activities throughout the workshop. Also, make sure to read the comments in the code blocks to better understand what each code segment does.
 
 {{% notice warning %}}
 ## Google account required

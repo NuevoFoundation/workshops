@@ -8,24 +8,31 @@ weight: 2
 First of all let's load Flappy and put it on the screen.
 
 Add below command in the file [File: load-sprites.js]
-       game.load.image('bird','assets/bird.png');
-
+      ```
+      game.load.image('bird','assets/bird.png');
+       ```
+       
+{{% notice tip %}} 
 ## Working Together
 
 In the Replit window below, we started the code with the line `game.load.image('bird', 'assets/bird.png');`.
 
 ![alt text](../img/loadbird.png "image to add the bird in the file")
 
-In your console you should see a Jsappy bird after you press **run**:
+In your console you should see a Jsappy bird after you press **run** and then the space bar:
 
 ![alt text](../img/loadbird_output.png "bird image in the output")
 
-## Change the screen text
+{{% /notice %}}
+
+# Change the screen text
 
 Let's change the start screen text:
 
 Add below command in the file [File: start-screen.js]
      var text = game.add.text(0, 0, "Press Space to Start", textOptions);
+     
+{{% notice tip %}} 
 ## Working Together
 
 In the Replit window below, we started the code with the line `var text = game.add.text(0, 0, "Press Space to Start", textOptions);`.
@@ -35,3 +42,5 @@ In the Replit window below, we started the code with the line `var text = game.a
 In your console you should see `Press Space to Start` after you press **run**:
 
 ![alt text](../img/startscreen_output.png "bird image in the output")
+
+{{% /notice %}}

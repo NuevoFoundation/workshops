@@ -1,7 +1,7 @@
 ---
 title: "Answer Key - Linux Basics"
-description: "Use a Linux command to determine what directory you are currently in"
-date: 2020-09-17
+description: "Activities answers"
+date: 2022-09-23
 difficulty: "Intermediate"
 hidden: true
 draft: true
@@ -78,7 +78,7 @@ vimdiff malware.sh secret-message.txt
 ### Activity 9
 
 ```
-rm Doenloads/malware.sh
+rm Downloads/malware.sh
 rm files
 mkdir files
 ```
@@ -89,7 +89,7 @@ mkdir files
 mv secret-message.txt .
 ls -l
 cp secret-message.txt file1
-ls 
+ls
 cd files
 cp secret-message.txt file1
 ls -l

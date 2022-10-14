@@ -1,8 +1,8 @@
 ---
 title: "Closing"
 description: "The last screen after activities have been completed"
-date: 2020-09-17
-weight: 15
+date: 2022-09-23
+weight: 16
 ---
 
 ### Congratulations!

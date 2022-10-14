@@ -10,11 +10,4 @@ draft: false
 
 In this workshop, you will be creating a simple game that incorporates some of the things you learned in the Python Basics section. Try this demo and see how many tries it takes you until you guess the number!!!
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Python-guessnumber-demo?lite=true&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
-## Table of Contents
-
-<details close>
-<summary>Table of Contents</summary>
-{{% children %}}
-</details>
+<iframe src="https://trinket.io/embed/python/63815a963b?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

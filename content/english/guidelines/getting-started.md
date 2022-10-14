@@ -24,7 +24,7 @@ To get started:
 
 1. Fork <a target="_blank" href="https://github.com/nuevoFoundation/workshops">the repo</a> by clicking Fork in the top right corner:
 
-![image](../media/fork.png)
+![image](https://github.com/NuevoFoundation/workshops/blob/master/content/english/guidelines/media/fork.png)
 
 2. From git bash, run (replacing _[user-name]_ with your GitHub user name):
 
@@ -122,11 +122,11 @@ Congratulations, you've now made all the necessary changes and the last step is 
 
 If you navigate to your fork on github.com you will most likely see a suggestion to create a Pull Request based on your latest push.
 
-![image](../media/compare-and-pull.png)
+![image](https://github.com/NuevoFoundation/workshops/blob/master/content/english/guidelines/media/compare-and-pull.png)
 
 If you don't, just navigate to Pull Requests -> New pull request
 
-![image](../media/create-new-pr.png)
+![image](https://github.com/NuevoFoundation/workshops/blob/master/content/english/guidelines/media/create-new-pr.png)
 
 The most important aspect here is to make sure you're choosing your branches correctly (your base and your head).
 

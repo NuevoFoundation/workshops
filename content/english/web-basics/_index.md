@@ -7,6 +7,8 @@ difficulty: "Beginner"
 icon: "fab fa-html5"
 ---
 
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/Rstw0s7ws4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 ## Let's build a website!
 
 <p style="text-align: center; "><img src="media/meet-benji-sm.jpg?classes=border,shadow" alt="Benji the Dog" width="350"/></p>

@@ -8,7 +8,7 @@ weight: 3
 
 ## Make notes while you are coding
 
-**Comments** are the parts of the code that do not get evaluated. In Python, they are preceded by the `#` symbol. Anything after the `#` symbol is part of the comment and is ignored by your code. Comments are put in the code to tell the readers what the code is doing. They can make maintenance of code easy and can also help in finding bugs.
+When creating a Python program, we can add some notes by adding one line comments using `#`. **Comments** are the parts of the code that do not effect the program. Anything after the `#` symbol is part of the comment and is ignored by your code. Comments are put in the code to tell the readers what the code is doing. They can make maintenance of code easy and can also help in finding bugs. 
 
 While writing code, If at any time you wish to write notes to help you understand the code, use the `#` symbol to create a comment.
 
@@ -17,7 +17,7 @@ While writing code, If at any time you wish to write notes to help you understan
 print("Hello, World!)
 ```
 
-![alt text](../../img/comments.png "a picture of how to write comments in python")
+![Screenshot showing the comment This is my first line of code.](../../img/comments.png "a picture of how to write comments in python")
 
 Be careful, if you remove the `#` symbol, your code will not work!
 
@@ -27,4 +27,4 @@ Be careful, if you remove the `#` symbol, your code will not work!
 
 Try adding a comment above your first line of code and press run. You will see that the computer will ignore your comment.
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Basics-Comments?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe src="https://trinket.io/embed/python/5a33b3c592" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

@@ -21,4 +21,4 @@ Recuerda que debes usar `turtle.forward()` para dibujar líneas. Para girar 90 g
 turtle.left(90)
 ```
 
-<iframe src="https://trinket.io/embed/python/bfe791bb1e" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/fc1b832ceb" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

@@ -11,10 +11,5 @@ weight: 3
 
 ## Variables
 
-Before you start this workshop, you should have some prior knowledge of how Java variables work and how you can create them. [Click here to review Java Basics workshop!](https://workshops.nuevofoundation.org/java-basics/) Don't worry if you still feel a little shaky! We'll slowly introduce you to these topics at hand. However, if you have no idea what variables are, we strongly recommend you to go ahead and finish the java basics workshop beforehand.
-
-## For Loops
-
-If you know what for loops are and how to use them, feel free to skip the next section. 
-
+Before you start this workshop, you should have some prior knowledge of how Java variables work and how you can create them. [Click here to review the Java Basics workshop!](https://workshops.nuevofoundation.org/java-basics/) Don't worry if you still feel a little shaky! We'll slowly introduce you to these topics at hand. However, if you have no idea what variables are, we strongly recommend you to go ahead and finish the java basics workshop beforehand.
 

@@ -13,7 +13,7 @@ Haremos uso de la biblioteca `random` (aleatorio) de python. El método `random.
 
 Usa `random.randint(0, 256)` tres veces para generar tres valores aleatorios y utilizalos en el método `turtle.color()`. ¡Ahora deberías poder ver una flor de mandala multicolor! ¡Esta es definitivamente una flor de la que Alex estaría interesado en recolectar néctar!
 
-<iframe src="https://trinket.io/embed/python/64ab3455ae" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/683a7a6919" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ¡Felicidades! ¡Ayudaste a Alex a hacer un panal y una flor! ¡Ahora puede vivir feliz en su colmena y hacer mucha miel! Su imagen final debería verse así:
 

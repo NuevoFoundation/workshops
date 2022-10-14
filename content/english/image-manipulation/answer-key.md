@@ -98,7 +98,7 @@ print("This should print 4: " + str(value5))
 
 ## Image Manipulation
 ### Debugging
-If using Python3, you may need to manually install the image package.  To do this, go on the left side of repl.it, find the cube ('packages') and search for Pillow 7.1.2 and click the + icon.  This should automatically kick off installation.  When done, try running the import statements below.
+If using Python3, you may need to manually install the image package. To do this, go on the left side of Replit, find the cube ('packages') and search for Pillow 7.1.2 and click the + icon.  This should automatically kick off installation.  When done, try running the import statements below.
 
 The activities below are already described in the curriculum with the example answers.  Repeated here for ease of access.
 
@@ -108,7 +108,7 @@ The student can pick any image they want as long as it is appropriate.  They can
 1. Find a picture student likes. 
 2. Download it
 3. Save as JPG/PNG with easy name
-4. Upload this as another file in the repl.it window
+4. Upload this as another file in the Replit window
 
 ```Python
 from PIL import Image

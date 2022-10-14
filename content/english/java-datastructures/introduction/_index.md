@@ -33,8 +33,3 @@ It can even store different data structures inside data structures!
 There are many different types of data structures, just like there are many ways to organize toys!
 
 Now that you some idea what it is, press next to find out how you can use this to help make Nuevo Eats for everyone!
-
-<details open>
-<summary>Topics</summary>
-{{% children %}}
-</details>

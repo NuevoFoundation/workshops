@@ -7,7 +7,7 @@ draft: false
 
 Para que nuestro programa cree mensajes secretos, primero debemos ingresar un mensaje.
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/activity-1?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/activity-1" target="_blank">Lanza Replit</a>
 
 Para eso, vamos a comenzar diciendole a la computadora que muestre en la consola para quien es ese mensaje. Esta es la instrucción que necesitaremos:
 

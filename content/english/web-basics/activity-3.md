@@ -5,6 +5,8 @@ draft: false
 weight: 8
 ---
 
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/iGyczFjvp1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 To complete this activity, you will need to complete the following steps:
 
 1. <a href="https://giphy.com/nuevofoundation" target="_blank">Follow this link</a> to see the available GIFs

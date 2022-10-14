@@ -1,14 +1,21 @@
 ---
 title: "Starting up the Virtual Machine"
 description: "Continuing the introductory guide to using virtual machines"
-date: 2020-09-17
+date: 2022-09-23
 difficulty: "Intermediate"
 weight: 3
 ---
 
 <p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/eqHr7UeKs70" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-*Now that everything is installed, let's launch the virtual machine!*
+<div style="margin: 1rem;padding: 2rem 2rem;text-align: center;">
+    <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;">
+        <img src="../images/nuvi.PNG?" alt="Uma foto de Nuvi" width="180" height="180" />
+    </div>
+    <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;width:50%;border:5px solid #2980b9;border-radius:10px;font-weight: bold;">
+        Now that everything is installed, let's launch the virtual machine!
+    </div>
+</div>
 
 ## Starting the VM
 
@@ -24,8 +31,8 @@ As the virtual machine is getting started, it may show some warnings like in the
 First you will need to log in. Use these *credentials* to get started!
 
 | Username | Password |
-| :---: | :---: |
-| nuvi | nuevo123 |
+| :------: | :------: |
+|   nuvi   | nuevo123 |
 
 {{% notice warning %}}
 This is not good password security! It is only intended for the purposes of this workshop.

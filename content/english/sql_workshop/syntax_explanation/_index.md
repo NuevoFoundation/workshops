@@ -9,7 +9,7 @@ draft: false
 
 {{< youtube wSv5FzbtkjQ >}}
 
-# An email from the Galactic Federation?
+## An Email from the Galactic Federation?
 In the middle of your journey, you suddenly receive a message from the Galactic Federation. What could it be about?
 
 <br/>
