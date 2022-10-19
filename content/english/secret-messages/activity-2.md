@@ -91,7 +91,7 @@ These are the steps to follow for this activity:
 4. Click Run. Type in `"Queen"` as the name of the recipient in the **console** tab, and make sure you get `"Hello Queen"` as output from the console.
 
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/activity-2-english?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/activity-2-english" target="_blank">Launch Replit</a>
 
 {{% notice warning %}}
 

@@ -18,8 +18,8 @@ Write a method `getWinner(String[] curBoard)` that returns the winner in a `Stri
 
 There are several ways to write this method.
 
-Give it a try in the following repl.it first; it will tell you if your method is correctly written!
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaTicTacToegetWinner?lite=true#Winner.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+Give it a try in the following Replit first; it will tell you if your method is correctly written!
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaTicTacToegetWinner" target="_blank">Launch Replit</a>
 
 {{% notice note %}}
 #### Ideas/Hints for writing the method `getWinner()`

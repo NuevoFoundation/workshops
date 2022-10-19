@@ -5,6 +5,8 @@ draft: false
 weight: 4
 ---
 
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/xuzRE_OHGy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 ## Activity 1 - Creating a basic website
 
 It's now time to start building a basic website. To complete this activity, you will need to complete the following steps:

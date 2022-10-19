@@ -11,7 +11,7 @@ Para que Alex pueda vivir en una colmena, necesita aprender a construir un panal
 
 Vamos a utilizar la herramienta Trinket para jugar con nuestros códigos Python. Este es un ejemplo de una ventana interactiva como las que usaremos en todo el tutorial:
 
-<iframe src="https://trinket.io/embed/python/1363ac22be" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/5453001fb3" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Antes de empezar, entendamos como funciona esta ventana. El programa `main.py` contiene las intrucciones que la computadora va a ejecutar o "correr" (Run en inglés). Al presionar el botón **Run**, le estás diciendo a la computadora que ejecute las instrucciones que están en el programa. Los resultados del programa los puedes ver en la pantalla blanca que está debajo, en la pestaña **result**
 

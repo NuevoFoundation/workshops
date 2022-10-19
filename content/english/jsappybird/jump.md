@@ -5,14 +5,14 @@ draft: false
 weight: 3
 ---
 
-## What should we do with the bird?
+### What should we do with the bird?
 
 Let's make him jump:
 
 Add below command in the file [File: create-game.js]
      spaceKey.onDown.add(jump, this);
 
-## Working Together
+### Working Together
 
 In the Replit window below, we started the code with the line `spaceKey.onDown.add(jump, this);`.
 
@@ -22,9 +22,8 @@ In your console you should see a Jsappy bird jumping after you press **run**:
 
 ![alt text](../img/jump_output.png "Image of jumping bird")
 
-# Add gravity
-
-## Working Together
+## Add gravity
+### Working Together
 
 In the Replit window below, we started the code with the line `bird.body.gravity.y = 900;`.
 
@@ -33,3 +32,4 @@ In the Replit window below, we started the code with the line `bird.body.gravity
 In your console you should see a JSappy bird jumping with gravity after you press **run**:
 
 ![alt text](../img/jump_output.png "bird jumping with gravity")
+

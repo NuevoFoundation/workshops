@@ -1,14 +1,21 @@
 ---
 title: "Using Virtual Machines Part 2"
 description: "Continuing the introductory guide to using virtual machines"
-date: 2020-09-17
+date: 2022-09-23
 difficulty: "Intermediate"
 weight: 2
 ---
 
 <p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/ffcyyJXEhwY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-*Excellent work on preparing the host environment! Now let's load the hacked computer's image as a VM.*
+<div style="margin: 1rem;padding: 2rem 2rem;text-align: center;">
+    <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;">
+        <img src="../images/nuvi.PNG?" alt="Uma foto de Nuvi" width="180" height="180" />
+    </div>
+    <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;width:50%;border:5px solid #2980b9;border-radius:10px;font-weight: bold;">
+        Excellent work on preparing the host environment! Now let's load the hacked computer's image as a VM.
+    </div>
+</div>
 
 ## What is an image?
 
@@ -30,11 +37,11 @@ Download link
 
 ### Importing the Virtual Machine
 
-Now that you have the machine image downloaded, it is time to set it up!  
+Now that you have the machine image downloaded, it is time to set it up!
 
 #### Step 1
 
-In the VirtualBox application, we are able to *import* our images. Let's click on the "Import" button to get started!
+In the VirtualBox application, we are able to _import_ our images. Let's click on the "Import" button to get started!
 
 ![virtual box import button](../images/import-01.PNG?classes=border,shadow)
 
@@ -60,5 +67,13 @@ The last step! In the "Name" field, feel free to give it a new name. It's your o
 Typically this is about 5 minutes, but it might take a little longer depending on your computer.
 
 ![virtual box import screen](../images/import-06.JPG?classes=border,shadow)
+{{% /notice %}}
 
-Now we can launch the virtual machine!
+<div style="margin: 1rem;padding: 2rem 2rem;text-align: center;">
+    <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;">
+        <img src="../images/nuvi.PNG?" alt="Uma foto de Nuvi" width="180" height="180" />
+    </div>
+    <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;width:50%;border:5px solid #2980b9;border-radius:10px;font-weight: bold;">
+        Now we can launch the infected machine and get started in our investigations!
+    </div>
+</div>

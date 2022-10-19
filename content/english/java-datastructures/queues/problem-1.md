@@ -11,35 +11,32 @@ weight: 3
 A new restaurant has been added into Nuevo Eats! New orders have been flooding in and the Queue is flooded with orders! The popularity of the different tacos grew fast and the restaurant is overloaded. Look for a way to clear all elements to save the restaurant!
 
 {{%notice tip%}}
-1. How can you iterate through the list?
+1. How can you iterate through the Queue?
 2. Try to clear the Queue as you go through it!
 3. Look at the example menu!
 {{%/notice%}}
 
 ```js javascript
-	//this uses a list as the organizer of the queue.
-	Queue<String> orders = new LinkedList<>();
+// This uses a list as the organizer of the queue.
+Queue<String> orders = new PriorityQueue<>();
 
-	orders.add("Fish Taco");
-	orders.add("Beef Taco");
-	orders.add("Chicken Taco");
-	orders.add("Fish Taco");
-	orders.add("Beef Taco");
+orders.add("Fish Taco");
+orders.add("Beef Taco");
+orders.add("Chicken Taco");
+orders.add("Fish Taco");
+orders.add("Beef Taco");
 ```
 
-<iframe height="800px" width="100%" src="https://replit.com/@nuevofoundation/ClearningQ?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/Clear" target="_blank">Launch Replit</a>
 
-## Task 2: Using Priority Queue to find median price
+## Task 2: Using Priority Queue to find minimum price
 
-A restaurant has been using `Array`s to hold their list of prices and has a hard time organizing it. They want to switch to a priority queue to make finding the median easier (recall that the median of a list is its middle value). Turn this array into a priority queue! Then find the median price.
+A restaurant is using a Priority Queue to manager orders. The restaurant wants to be able to look at orders based on their prices to better prepare what meals they are making. Specifically, they would like to be able to find the nth minimum price currently in their list. Write a function that looks at their queue of orders and returns the nth minimum price.
 
 {{%notice tip%}}
-1. How do you initialize a priority queue?
-2. How do you find the median?
+1. How will you make sure the list is in order?
+2. What makes it easiest to find the minimum price?
+3. What if they are looking for the 5th minimum (or lowest) price?
 {{%/notice%}}
 
-```js javascript
-	String[] prices = {1,5,6,14,7,9,11,2,3}
-```
-
-<iframe height="800px" width="100%" src="https://replit.com/@nuevofoundation/PriorityQ?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/Min" target="_blank">Launch Replit</a>

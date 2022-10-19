@@ -76,5 +76,5 @@ Debemos escribir el nombre de la variable, seguidos de ` .size()` para obtener e
 
 Bueno, ahora tomemos el código que teníamos y modifiquémoslo un poco para imprimir cada letra del nombre en vez de un "Hola" y el nombre.
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/actividad-3?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/actividad-3" target="_blank">Lanza Replit</a>
 

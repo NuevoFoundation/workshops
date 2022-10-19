@@ -10,7 +10,7 @@ draft: false
 
 ## Introduction
 
-Welcome to JSappyBird where you will get to make your own version of Flappy Bird with code! Are you up for the challenge?
+You may be familiar with the Flappy Bird game. This workshop will guide you through making your own version of the game using the JavaScript language! Are you up for the challenge?
 
 <p style="text-align: center;"><iframe src="https://giphy.com/embed/euuaA2cwLEUuI" width="350" height="350" frameBorder="0" class="giphy-embed"></iframe>
 

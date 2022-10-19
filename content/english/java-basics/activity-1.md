@@ -15,7 +15,7 @@ The program prints out whatever you typed in the parenthesis of `System.out.prin
 
 After, add more statements to print numbers by putting numbers in the parenthesis (i.e. `System.out.print(2020)`) or a symbol by putting one symbol between 2 single quotes `'` (i.e. `System.out.print('@')`).
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsHelloWorld?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsHelloWorld" target="_blank">Launch Replit</a>
 
 {{% notice tip %}}
 ### Did you notice that all the statements you typed printed in one line?
@@ -65,7 +65,8 @@ Use what you just learn and recreate this owl below using just 4 lines of code! 
      /,--"-"- 
 
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsOwl?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsOwl" target="_blank">Launch Replit</a>
+
 {{% notice warning %}}
 #### I got an error!
 

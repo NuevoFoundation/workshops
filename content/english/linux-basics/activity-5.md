@@ -1,7 +1,7 @@
 ---
 title: "Activity 5 - Secure User Permissions"
 description: "Use a Linux command to secure your files"
-date: 2020-09-17
+date: 2022-09-23
 difficulty: "Intermediate"
 weight: 8
 ---
@@ -9,7 +9,14 @@ weight: 8
 
 <p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/D5Y6LH0mBi0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-*Oh no. Some of our files might have been messed with! Let’s secure our notes, file1. We don't want a hacker to mess with these!*
+<div style="margin: 1rem;padding: 2rem 2rem;text-align: center;">
+    <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;">
+        <img src="../images/nuvi.PNG?" alt="Uma foto de Nuvi" width="180" height="180" />
+    </div>
+    <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;width:50%;border:5px solid #2980b9;border-radius:10px;font-weight: bold;">
+        Oh no. Some of our files might have been messed with! Let’s secure our notes, file1. We don't want a hacker to mess with these!
+    </div>
+</div>
 
 ### How do we limit access to our files?
 
@@ -46,7 +53,8 @@ We should keep using that command to check if we changed the permissions as expe
 chmod u=rwx g=rx o=x file1
 ```
 
-`chmod` is a command used to modify the permissions of your files (it means "Change Mode") for the following 3 different groups of users: 
+`chmod` is a command used to modify the permissions of your files (it means "Change Mode") for the following 3 different groups of users:
+
 - the <b>u</b>ser and owner of the file
 - the <b>g</b>roup and the members of the group of people with access to the file
 - the <b>o</b>thers or anyone else
@@ -55,7 +63,7 @@ These groups can be modified to have permissions to do the following:
 
 - <b>r</b>ead
 - <b>w</b>rite
-- e<b>x</b>ecute. 
+- e<b>x</b>ecute.
 
 ---
 
@@ -67,22 +75,22 @@ Now, let's try to change the permissions of our files. We want anyone outside of
 
 #### Fun Fact: Shortcut!
 
-`chmod` can also be used with simple number commands. These commands are written like:  
+`chmod` can also be used with simple number commands. These commands are written like:
 
 ```
 chmod 751 [insert filename]
 ```
 
 The values can be understood as giving users the permission to read, write, and execute.  
-What permissions do the other two values give?  
+What permissions do the other two values give?
 
-| Number | Meaning |
-| :---: | :---: |
-| 7 | read + write + execute |
-| 6 | read + write |
-| 5 | read + execute |
-| 4 | read |
-| 3 | execute + write |
-| 2 | write |
-| 1 | execute |
-| 0 | no permission |
+| Number |        Meaning         |
+| :----: | :--------------------: |
+|   7    | read + write + execute |
+|   6    |      read + write      |
+|   5    |     read + execute     |
+|   4    |          read          |
+|   3    |    execute + write     |
+|   2    |         write          |
+|   1    |        execute         |
+|   0    |     no permission      |
