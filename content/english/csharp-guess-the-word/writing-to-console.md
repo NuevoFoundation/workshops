@@ -2,7 +2,7 @@
 title: "Writing to Console"
 date: 2019-07-23T11:45:38-07:00
 draft: false
-weight: 2
+weight: 1
 ---
 
 ## Writing to Console
@@ -13,10 +13,10 @@ weight: 2
 
 ## Working Together
 
-1.  In the Replit program below, press **run**. You see that `Hello World` is printed out to the screen on the right.
-2.  Without removing the quotation marks, try changing `"Hello World"` to another sentence. Press **run** to see if anything changes.
-3.  Add another `Console.WriteLine` below the current line to print a second sentence below the first sentence.
-4.  Press **run** to see if two sentences are printed out. If you see any red text, please ask for help.
+1. In the Replit program below, press **run**. You see that `Hello World` is printed out to the screen on the right.
+2. Without removing the quotation marks, try changing `"Hello World"` to another sentence. Press **run** to see if anything changes.
+3. Add another `Console.WriteLine` below the current line to print a second sentence below the first sentence.
+4. Press **run** to see if two sentences are printed out. If you see any red text, please ask for help.
 
 <a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/NF-CSharp-WritingToConsole" target="_blank">Launch Replit</a>
 

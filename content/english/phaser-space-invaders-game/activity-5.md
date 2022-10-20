@@ -19,7 +19,6 @@ Place in our createEnemies() method:
 <!--- ![move enemies](../media/6/move_enemies.png)--->
 <img src="../media/6/move_enemies.png" alt="move enemies" style="width:950px;"/>
 
-
 But if you test out the code now, we can see that the enemies just keep going to the left infinitely because of Phaser’s infinite canvas. Let’s make them change direction before they go out of the screen. We can do this with a timer, a tool that lets us call a function after a certain period of time. The function that the timer calls will change the enemy's direction. We can also make the timer run infinitely so that it continues to run the function after each time interval (which we are going to do here). Put the below timer at the end of the `createEnemy()` method.
 
 ```javascript

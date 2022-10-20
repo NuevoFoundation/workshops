@@ -9,8 +9,6 @@ draft: false
 icon: "fab fa-python"
 ---
 
-# Part 1 – Welcome!
-
 ## Power of Stories
 
 Hi everyone! Today we are going to be using our engineering superpowers to be the best storytellers. Stories are a great way to connect people, share traditions, and learn new things!

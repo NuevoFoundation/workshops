@@ -27,7 +27,6 @@ Now go to `playerBeam.js`：
 <!--- ![constructor_xy](../media/8/constructor_xy.png)--->
 <img src="../media/8/constructor_xy.png" alt="constructor_xy" style="width:950px;"/>
 
-
 Notice that, like `Explosion.js`, it extends Phaser.GameObjects.Sprite and uses the `super()` keyword in its constructor. Complete the code in the constructor. This will require that you play the beam's animation, enable the body, and set the beam's y-velocity to whatever speed you want your beam to travel.
 
 Now that we have the basics of the beam down, let’s allow the player to shoot it when they click the spacebar. Similar to how we created a variable to process pointer keys for player movement, we will create another variable to process when the player presses the space bar:
@@ -61,7 +60,7 @@ for(var i = 0; i < this.projectiles.getChildren().length; i++) {
 }
 ```
 
-you can fill it into this location:
+You can fill it into this location:
 
 <!--- ![update_projectiles](../media/8/update_projectiles.png)--->
 <img src="../media/8/update_projectiles.png" alt="update_projectiles" style="width:950px;"/>
@@ -83,14 +82,12 @@ Now, lets make the enemy be destroyed if they’re hit with a beam! We can actua
 <!--- ![overlap](../media/8/projectiles_step2.png)--->
 <img src="../media/8/projectiles_step2.png" alt="overlap projectiles" style="width:950px;"/>
 
-
 Create a line of code that uses the same syntax as the line we used for detecting whether the player and enemy have collided, but this time check if the enemy and beam have collided.
 
 However, we can’t use the hurtPlayer() method because the player isn’t being hurt and we don’t want the player to respawn when the enemy is hit. We will create a new function called `hitEnemy()`:
 
 <!--- ![hit_enemy](../media/8/hit_enemy.png)--->
 <img src="../media/8/hit_enemy.png" alt="hit_enemy" style="width:950px;"/>
-
 
 Add code to the `hitEnemy()` so that it creates an explosion at the enemy’s location and removes the beam and the enemy.
 

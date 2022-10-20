@@ -8,14 +8,16 @@ Open your favorite internet browser (such as Edge, Firefox, Google Chrome, Inter
 
 ![Cannot load image](../img/adafruit.png?classes=border,shadow)
 
-### Defining the Variables 
+## Defining the Variables
+
 Today we are going to be using oranges to tell our Adafruit when to make noise. The first thing we need to do is give the computer a name for each orange and where to look for what they are saying. We do the first part by defining a variable. Click on the section that says VARIABLES, it is salmon colored and 7th from the top. Then define a variable by clicking on Make a Variable and giving it a name. Do this twice, here we define ours as analog1 and analog2 but you can call them whatever you want.
 
 ![Cannot load image](../img/1.png?classes=border,shadow)
 ![Cannot load image](../img/2.png?classes=border,shadow)
 ![Cannot load image](../img/3.png?classes=border,shadow)
 
-### Interpreting out Inputs
+## Interpreting out Inputs
+
 Now that we have a name that our computer knows for our oranges, we must let our Adafruit know how to understand them. There are two kinds of inputs, digital and analog. Light switches and power buttons are examples of digital inputs. They are either on or off, 1’s or 0’s. Analog inputs are like a light dimmer or a volume button. They have more options for values. Our oranges are going to be analog inputs and how much we are touching or squeezing them will change the value they report to the Adafruit.
 
 Click again on the Variables section. This time you should see a few more options now that we’ve defined our two variables. Drag one of the “set ___ to __” blocks into the green “forever” block in our workspace. Using the white down arrow, change the first blank to “analog1”.
@@ -30,7 +32,8 @@ Next, click on the down arrow by ADVANCED then click on PINS. Look for the “an
 Once you’ve done that, your workspace should look like the above picture. Repeat this process again but this time use the white down arrows to select analog2 and A2. See below to verify you’ve done this correctly.
 ![Cannot load image](../img/7.png?classes=border,shadow)
 
-### Creating our Loops
+## Creating our Loops
+
 Now that our computer knows what to call our oranges, and how to understand what they are saying, let’s create a loop that will check for when we are holding our orange. Click on the LOGIC section and drag the “If ____ then” block out to put it under your variable blocks.
 
 ![Cannot load image](../img/8.png?classes=border,shadow)
@@ -53,7 +56,8 @@ Now we want to repeat these last few steps for analog2. Once you do this, your w
 
 ![Cannot load image](../img/12.png?classes=border,shadow)
 
-### Added Fun With Lights (Time Permitting)
+## Added Fun With Lights (Time Permitting)
+
 The Adafruit chip has a lot of lights on it! They’re super fun to play with so let’s add a bit of color to our sounds so we can both see and hear the difference when we touch our oranges. Click on the LIGHT section and drag the “Set all Pixels to ___” block into our two If-Then chunks. You’ll want to drop them in right before we play a sound. You can click on the color portion to change which color you want to display.
 
 ![Cannot load image](../img/13.png?classes=border,shadow)

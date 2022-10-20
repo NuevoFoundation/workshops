@@ -28,7 +28,7 @@ But what if we want to calculate the sum from 1 to 77 instead? How do we do it w
 We want to create a ✨ magic box ✨ in code that does the calculation for us no matter which 2 numbers we want to create a sum for!
 <img src="../images/method.png" height="250" alt="Num 1 and Num 2 with arrow pointing into a circle with the words Magic Box and an arrow pointing out of the circle pointing to Sum of Num 1 to Num 2"/> 
 
-In Java, a **method** is like the magic box that performs a specific task by running a block of code that can use user inputs. 
+In Java, a **method** is like the magic box that performs a specific task by running a block of code that can use user inputs.
 
 There are 2 parts in a method: header and body:
 

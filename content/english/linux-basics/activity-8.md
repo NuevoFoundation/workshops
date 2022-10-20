@@ -6,7 +6,7 @@ difficulty: "Intermediate"
 weight: 11
 ---
 
-<iframe style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/fAI1kyAoVTA" alt="A YouTube video on Linux Basics Activity 8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/fAI1kyAoVTA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 <div style="margin: 1rem;padding: 2rem 2rem;text-align: center;">
     <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;">

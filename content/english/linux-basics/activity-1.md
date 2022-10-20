@@ -6,7 +6,7 @@ difficulty: "Intermediate"
 weight: 4
 ---
 
-<iframe style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/XAtCQ9S1vSI" frameborder="0" alt="A YouTube video demonstrating how to create a user account in Linux" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/XAtCQ9S1vSI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 <div style="margin: 1rem;padding: 2rem 2rem;text-align: center;">
     <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;">
@@ -17,13 +17,13 @@ weight: 4
     </div>
 </div>
 
-### What are user accounts?
+## What are user accounts?
 
 Every user in Linux has a user account. These are used to uniquely identify each user.
 
 For example, say you and your friend, Nuvi, share a computer. You and Nuvi might create separate user accounts to keep track of which files belong to which of you and to ensure that none of you accidentally changes anything important.
 
-### How do I find out which account I am using?
+## How do I find out which account I am using?
 
 The Linux command `whoami` will tell you which account you are using. Try it!
 

@@ -6,11 +6,11 @@ difficulty: "Intermediate"
 weight: 8
 ---
 
-<iframe style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/D5Y6LH0mBi0" alt="A YouTube video on Linux Basics Activity 5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/D5Y6LH0mBi0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 <div style="margin: 1rem;padding: 2rem 2rem;text-align: center;">
     <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;">
-        <img src="../images/nuvi.PNG?" alt="Uma foto de Nuvi" width="180" height="180" />
+        <img src="../images/nuvi.PNG?" alt="A photo of Nuvi" width="180" height="180" />
     </div>
     <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;width:50%;border:5px solid #2980b9;border-radius:10px;font-weight: bold;">
         Oh no. Some of our files might have been messed with! Let’s secure our notes, file1. We don't want a hacker to mess with these!

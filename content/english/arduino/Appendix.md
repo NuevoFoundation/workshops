@@ -30,5 +30,6 @@ The Light Emitting Diode (or LED for short) is a small light that turns on when 
 The resistor is a small piece of ceramic material that slows down the flow of electricity. 
 
 + A resistor has 2 leads, but it is omnidirectional. In other words, it doesn’t matter which lead you attach to the higher voltage. 
-+ Most electronics can only handle a certain amount of electricity before they break, so resistors protect the other components in our game by keeping the electricity low. 
++ Most electronics can only handle a certain amount of electricity before they break, so resistors protect the other components in our game by keeping the electricity low.
+
 ![Alt Text: Picture of a resistor](../img/resistor.png)

@@ -9,7 +9,7 @@ weight: 16
 
 <div style="margin: 1rem;padding: 2rem 2rem;text-align: center;">
     <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;">
-        <img src="../images/nuvi.PNG?" alt="Uma foto de Nuvi" width="180" height="180" />
+        <img src="../images/nuvi.PNG?" alt="A photo of Nuvi" width="180" height="180" />
     </div>
     <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;width:50%;border:5px solid #2980b9;border-radius:10px;font-weight: bold;">
         You have helped us thwart the hackers evil shenanigans by learning several Linux commands and how to use them. Thanks so much for helping SHH! But don't forget - this is all top secret!

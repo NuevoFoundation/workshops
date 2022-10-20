@@ -1,5 +1,5 @@
 ---
-title: "Placing Things into Phaser"
+title: "Placing things into Phaser"
 date: 2020-08-20T11:45:38-07:00
 draft: false
 weight: 5

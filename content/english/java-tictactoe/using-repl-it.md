@@ -43,4 +43,4 @@ Before we start, let's first understand how the window works. The `Main.java` fi
 
 {{% /notice %}}
 
-Click the icon next to the `Run` button that says `open in replit`. This will be the window where you will type all the code for the TicTacToe program. Have fun!
+Click the icon next to the `Run` button that says `open in Replit`. This will be the window where you will type all the code for the TicTacToe program. Have fun!

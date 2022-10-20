@@ -8,7 +8,7 @@ draft: false
 ---
 <p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/ENPl4QnJg1I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-In Earsketch, functions are mostly used to organize different sections of a song. The most common musical form is A-B-A where each section is
+In EarSketch, functions are mostly used to organize different sections of a song. The most common musical form is A-B-A where each section is
 four measures in length, and the A sections sound different from the B section.
 
 Now that we learned how to use functions, let's try to use them to organize our songs better.

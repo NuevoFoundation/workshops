@@ -6,7 +6,7 @@ difficulty: "Intermediate"
 weight: 5
 ---
 
-<iframe style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/v1XLyLuQQyA" alt="A YouTube video on Linux Basics Activity 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/v1XLyLuQQyA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 <div style="margin: 1rem;padding: 2rem 2rem;text-align: center;">
     <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;">
@@ -17,14 +17,15 @@ weight: 5
     </div>
 </div>
 
-### What is a filesystem?
+## What is a filesystem?
 
 A filesystem is a structured collection of files and data on a computer disk or drive. The highest level of a filesystem is referred to as the "root". You can think of it as the beginning of the filesystem.
 
 {{% notice tip %}}
 Fun fact: filesystems are often described as a "tree". This is because the filesystem looks like an upside down tree with each folder as a branch or leaf. For example, your filesystem may look like the below.
 
-![Picture of a filesystem tree](../images/filesystem-tree.png?classes=border,shadow)
+<img src="../images/filesystem-tree.png" height="500" alt="Picture of a filesystem tree"/>
+
 {{% /notice %}}
 
 On a Windows computer, you can browse the computer's "C:\" drive filesystem using "File Explorer" like below:
@@ -35,7 +36,7 @@ On a Mac, you can browse the computer's home filesystem in "Finder" like below:
 
 ![Picture of the Mac file finder](../images/home-folder-mac.jpg?classes=border,shadow)
 
-### Where in the filesystem are you?
+## Where in the filesystem are you?
 
 We want to find out what our "current working directory" is. This is the location in the filesystem that you are currently at.
 
@@ -56,7 +57,7 @@ The output above is `/home/nuvi` and its meaning is explained below:
 - This process of going into the filesystem through each folder can go on for many more steps in some cases.
 - The path shown and described above is called the <b>absolute path</b>, because it is the path given from the current directory all the way up to the root directory.
 
-### How do I move around the filesystem?
+## How do I move around the filesystem?
 
 To move to a different directory, use the command `cd`. This stands for "Change Directory". The format of this command is `cd [directory name]`.
 

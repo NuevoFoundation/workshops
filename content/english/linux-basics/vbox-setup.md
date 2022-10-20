@@ -6,7 +6,7 @@ difficulty: "Intermediate"
 weight: 1
 ---
 
-<iframe style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/zoutwedSLKI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/zoutwedSLKI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 <div style="margin: 1rem;padding: 2rem 2rem;text-align: center;">
     <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;">
@@ -33,7 +33,7 @@ This produces an ideal environment for testing other operating systems, accessin
 
 VirtualBox is a virtualization software, also called a `hypervisor`. It allows your computer to host virtual machines.
 
-### How can I download VirtualBox?
+## Downloading VirtualBox
 
 You can download VirtualBox using this link:
 

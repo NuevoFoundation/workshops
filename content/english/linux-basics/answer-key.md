@@ -3,6 +3,8 @@ title: "Answer Key - Linux Basics"
 description: "Activities answers"
 date: 2022-09-23
 difficulty: "Intermediate"
+hidden: true
+draft: true
 weight: 15
 ---
 

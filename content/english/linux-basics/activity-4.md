@@ -6,7 +6,7 @@ difficulty: "Intermediate"
 weight: 7
 ---
 
-<iframe style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/h9qokQeLREI" alt="A YouTube video on Linux Basics Activity 4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/h9qokQeLREI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 <div style="margin: 1rem;padding: 2rem 2rem;text-align: center;">
     <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;">
@@ -67,7 +67,7 @@ mv Documents/Music/ .
 
 This moves the `Music` directory from the `Documents` directory, back to our current directory, denoted by `.` The period, or dot, is used in commands to denote the current directory. Typing `ls -l` one more time shows `Music` has returned to this directory.
 
-![ls-l command](../images/03_ls-l.png?classes=border,shadow)
+<img src="../images/../images/03_ls-l.png" height="500" alt="ls -l command"/>
 
 <div style="margin: 1rem;padding: 2rem 2rem;text-align: center;">
     <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;">
@@ -105,7 +105,8 @@ vim file1
 ```
 
 <!---![ls-l command](../images/04_vim.PNG?classes=border,shadow) --->
-<img src="../images/04_vim.PNG" alt="vim command" style="width:600px;"/>
+<img src="../images/../images/04_vim.PNG" height="500" alt="vim command"/>
+
 
 We are now in the Vim editor. Press `i` to enter insert mode. Now type in `nuvi` and press `esc` to exit insert mode. Finally type in `:wq` and press enter. The colon tells Vim you are entering a command. The w and q then tell vim you want to write the changes you made and quit.
 
@@ -115,7 +116,6 @@ To exit `vim`, press `esc` then type `:wq`. You will need this every time you op
 
 ![ls-l command](../images/04_vim_after.PNG?classes=border,shadow)
 
-<!---![ls-l command](../images/04_vim_after.PNG?classes=border,shadow) --->
 <img src="../images/04_vim_after.PNG" alt="vim after" style="width:600px;"/>
 
 Once again type `ls -l` and you can see that file1 now has 5 bytes of content, instead of 0 when it was blank.

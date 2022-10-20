@@ -27,7 +27,7 @@ Give this a try! When you hit run, you'll notice that the below image doesn't ap
 
 ![Screen shot of the console waiting for user input](../../img/console_read_waiting.png "image of how the console looks waiting for user input")
 
-This is because the program is waiting for you to type something! Enter your name or 'Nuvi' into the console on the right, press Enter, and check that it prints out correctly. 
+This is because the program is waiting for you to type something! Enter your name or 'Nuvi' into the console on the right, press Enter, and check that it prints out correctly.
 
 ![Screen shot of the console after the user has given input and the program completed](../../img/console_read_input.png "image of how the console looks after it has read user input")
 
@@ -37,8 +37,7 @@ Even if we type in a number, such as `8`, the variable value will contain the st
 
 {{% /notice %}}
 
-
-### Challenge
+## Challenge
 
 Let’s see if we can write a program that first prints the following two lines to console:
 

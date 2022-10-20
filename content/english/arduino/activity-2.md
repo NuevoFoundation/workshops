@@ -5,6 +5,7 @@ weight: 5
 ---
 
 ## Wiring the Joystick
+
 Now that you understand how we can get the system to provide signals from the program (outputs) and use those to control LEDs, let’s look at how we can get dynamic inputs into the system. For this activity we will use a joystick input, similar to those used in video game consoles.
 
 ![Alt Text: Wiring Diagram for Joystick module](../img/act2_Joystick.png)

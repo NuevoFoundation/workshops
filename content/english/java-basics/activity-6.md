@@ -8,13 +8,15 @@ weight: 7
 <p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/ejXgw0qchDg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ## What is an Object and a Class?
+
 An object is an thing (noun) that has certain characteristics and can perform certain tasks. A Class is the blueprint or definition for that object.
 
-An example is a Person. A Person is Class. A person can have certain characteristics that distinguish it from another person. It can have blue eyes, it can be 30 years old, etc. A person can also perform certain tasks. It can walk, it can talk, etc. 
+An example is a Person. A Person is Class. A person can have certain characteristics that distinguish it from another person. It can have blue eyes, it can be 30 years old, etc. A person can also perform certain tasks. It can walk, it can talk, etc.
 
 A Java Object is an instance of a Java Class. In this instance "Bea" is a "Person". "Bea" has brown eyes. This is a property (or data field) of "Bea". "Bea" can speak in English. "Bea" can speak in Spanish. These are methods that "Bea" can perform.
 
 ## Creating a Class!
+
 Java is an <b>object-oriented</b> programming language, which means everything in Java is associated with an <b>object</b> and a <b>class</b> (the blueprint for the object).
 
 For starters, the line of code that we used to print statements from activity 1 is actually a method call from a predefined class called `System`!
@@ -88,7 +90,7 @@ public class Bird{}
 
 <br />
 
-###  Second, let's declare all the fields of the Bird class: species, name, hobby, age, loveMusic.
+### Second, let's declare all the fields of the Bird class: species, name, hobby, age, loveMusic.
 
 Each field is declared in the format: `private` `data type` `name` `;`.
 
@@ -106,7 +108,7 @@ For example, to declare `species` as a private field of class `Bird`, you would 
 
 3. Finish creating the other 4 fields of the Bird class!
 
-<br />
+<br/>
 
 ### Third, let's create the constructor for the class `Bird`. 
 
@@ -130,15 +132,15 @@ loveMusic = loveMusicinput;
 
 <br />
 
-### Lastly, let's create some methods for the class `Bird`.
+### Lastly, let's create some methods for the class `Bird.`
 
 We are gonna create 6 methods for this class!
--  getSpecies();   // return species of the bird
--  getName();      // return name of the bird
--  getHobby();     // return hobby of the bird
--  getAge();       // return age of the bird
--  getLoveMusic(); // return whether the bird loves music
--  toString();     // return information in a String
+- getSpecies();   // return species of the bird
+- getName();      // return name of the bird
+- getHobby();     // return hobby of the bird
+- getAge();       // return age of the bird
+- getLoveMusic(); // return whether the bird loves music
+- toString();     // return information in a String
 
 Try to write out the first 5 methods with what you learned from the previous exercise about writing methods!
 

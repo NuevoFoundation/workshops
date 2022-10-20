@@ -6,16 +6,7 @@ difficulty: "Intermediate"
 weight: 6
 ---
 
-<iframe style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/dSsed9cR9QI" alt="A YouTube video on Linux Basics Activity 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<div style="margin: 1rem;padding: 2rem 2rem;text-align: center;">
-    <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;">
-        <img src="../images/nuvi.PNG?" alt="Uma foto de Nuvi" width="180" height="180" />
-    </div>
-    <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;width:50%;border:5px solid #2980b9;border-radius:10px;font-weight: bold;">
-        Now that we know who and where we are, let's take a look around for signs of the hackers.
-    </div>
-</div>
+<p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/dSsed9cR9QI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ## How do you explore the directory?
 
@@ -36,8 +27,7 @@ Try it:
 ```
 ls -l
 ```
-
-![ls -l command](../images/03_ls-l.png?classes=border,shadow)
+<img src="../images/../images/03_ls-l.png" height="500" alt="ls -l command"/>
 
 The `-l` flag in the above command tells `ls` to list long form information.
 

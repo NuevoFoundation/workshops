@@ -6,7 +6,7 @@ difficulty: "Intermediate"
 weight: 9
 ---
 
-<iframe style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/OaXi1GN_93U" alt="A YouTube video on Linux Basics Activity 6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/OaXi1GN_93U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 <div style="margin: 1rem;padding: 2rem 2rem;text-align: center;">
     <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;">
@@ -19,7 +19,8 @@ weight: 9
 
 ### Searching for a pattern in a file?
 
-`grep` (<b>g</b>lobal search for <b>r</b>egular <b>e</b>xpression and <b>p</b>rint the result) is a command used to search for text within files. There are different flags or options that can change how it is used.  
+`grep` (**g**lobal search for **r**egular **e**xpression and **p**rint the result) is a command used to search for text within files. There are different flags or options that can change how it is used.
+
 The format is: `grep [flag] “[pattern]” [filename]`.
 
 | flags | Uses                                                              |

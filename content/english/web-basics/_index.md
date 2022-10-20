@@ -15,9 +15,9 @@ icon: "fab fa-html5"
 
 Benji was born in Houston, Texas. Soon after Benji was born, a devastating hurricane hit Houston. Hurricane Harvey displaced more than 30,000 people, including Benji’s family. Benji can’t speak human so we don’t know the details. All we know is that Benji is looking for a home and is committed to be a good boy wherever he goes. Let’s make a website so we can share his information, and find his forever home!
 
-## Table of contents
+## Table of Contents
 
-<details>
-<summary>Section</summary>
+<details close>
+<summary>Table of Contents</summary>
 {{% children %}}
 </details>

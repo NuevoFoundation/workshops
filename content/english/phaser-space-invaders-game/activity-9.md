@@ -15,17 +15,16 @@ this.scoreText = this.add.text(20, 10, "Score: " + this.score, {
 ```
 
 {{% notice hint %}}
-this line print score variable at the top left of the screen.
+This line print score variable at the top left of the screen.
 
 * `20` and `10` is the x and y value
 * `"score" + this.score` is the text value
 {{% /notice %}}
 
-you can fill this line to this location after you create score value:
+You can fill this line to this location after you create score value:
 
 <!--- ![create_score](../media/10/create_score.png)--->
 <img src="../media/10/create_score.png" alt="create_score" style="width:950px;"/>
-
 
 Just add a score variable and some text to the screen that displays "Score: 'score variable'". We will update the `hitEnemy()` function so that the player will earn points to their score if they defeat an enemy:
 

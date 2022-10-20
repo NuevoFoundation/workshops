@@ -1,5 +1,5 @@
 ---
-title: "SQL Workshop"
+title: "SQL: Saving the Galaxy"
 description: "Learning Basic SQL Commands"
 date: 2019-07-25T13:24:17-07:00
 prereq: "None"

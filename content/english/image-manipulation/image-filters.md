@@ -32,5 +32,5 @@ greyscaleImage = image.convert("L")
 greyscaleImage.save("bwBlurredCat.jpg")
 ```
 
-My cat now looks something like this – purrfect!
+My cat now looks something like this – **purrfect!**
 <img src="../media/bw_upside_down.jpg" alt="blurred black and white cat upside down" style="width:50%"/>

@@ -4,9 +4,10 @@ date: 2022-09-19T14:45:38-07:00
 draft: false
 weight: 2
 ---
-<iframe width="100%" height="600px" src="https://www.youtube.com/embed/NrbQCjlzhYc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Make your program talk to you!
+<p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/NrbQCjlzhYc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+## Make your program talk to you!
 
 **Print** statements are used to write something to the console. Use `print("Hello World")` to print *Hello World* in the output screen. We will later learn that print is a function and we use it to perform a print job. Whatever you pass to the `print` function is printed on the screen.
 Let's start by doing a `print` statement. 
