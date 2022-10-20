@@ -67,7 +67,6 @@ The last step! In the "Name" field, feel free to give it a new name. It's your o
 Typically this is about 5 minutes, but it might take a little longer depending on your computer.
 
 ![virtual box import screen](../images/import-06.JPG?classes=border,shadow)
-{{% /notice %}}
 
 <div style="margin: 1rem;padding: 2rem 2rem;text-align: center;">
     <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;">
