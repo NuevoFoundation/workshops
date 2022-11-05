@@ -26,7 +26,7 @@ Consider an example where there is only one independent variable and we need to 
 
 # Let's write some code!
 
-Navigate here to access the Jupyter notebook and play with the documents: [Nuevo Foundation - Simple Linear Regression](https://linearregression.nuevofoundation.repl.co/)
+Navigate here to access the Replit panel and play with the documents: [Nuevo Foundation - Simple Linear Regression](https://linearregression.nuevofoundation.repl.co/)
 
 [image 1]()
 
