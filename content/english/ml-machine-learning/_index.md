@@ -1,7 +1,8 @@
 ---
-title: "Machine Learning"
-description: "Make computers learn to predict outcomes."
-prereq: "none"
+title: "Machine Learning: Linear Regression"
+description: "Understanding how to predict things."
+difficulty: "Advanced"
+prereq: "Python"
 icon: ""
 draft: false
 ---
@@ -17,5 +18,4 @@ Repetition. Always remember, "practice makes perfect". Similar to us, machines c
 {{% /expand %}}
 
 ## Table of Contents
-
 {{% children %}}

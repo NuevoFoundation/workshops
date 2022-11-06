@@ -1,9 +1,10 @@
 ---
-title: "Linear Regression"
+title: "What is regression?"
 description: "Make computers learn to predict outcomes."
-prereq: "none"
+prereq: "Python"
 icon: ""
 draft: false
+weight: 1
 ---
 
 # What is regression?
@@ -15,7 +16,7 @@ Regression gives a line or a curve by plotting dependent and independent variabl
 |:--:|
 |Regression|
 
-When we apply regression, we need to come up with a matematical model that is able to fit the regression.
+When we apply regression, we need to come up with a mathematical model that can fit the regression.
 
 ## Example 1: Predicting the Weather Temperature
 For example, say you need to predict the temperature of a place. What do you need?
@@ -45,29 +46,8 @@ Now suppose that you want to know the type of shapes based on the area of the sh
 No, as you can quickly guess no relation will let us know the type of shape based on the area.
 {{% /expand %}}
 
-You always need to make sure that your models fits what you are working on, otherwise you might have one of two issues:
+You always need to make sure that your models fit what you are working on. Otherwise, you might have one of two issues:
 
 **Underfitting** &rarr; when you are unable to find a relationship in the data you have been given. This often happens when there is not much data to use.
 
-**Overfitting** &rarr; when you are trying to accomodate every value in your data. By doing this you might be choosing values that are **outliers** and do not represent the reality of things.
-
-# Simple Linear Regression
-Consider an example where there is only one independent variable and we need to predict a value, the dependent variable. If we wanted to represent this mathematically it would be done as a linear function. As you may have expected by the name, the function is just a straight line:
-
-<h1>
-\[
-    y = f(x) = ax + b
-\]
-</h1>
-
-- X is the independent variable.
-- A is the "weight" of the dependent variable.
-- B is the intercept. This is obtained when the value of the independent variable is 0.
-
-# Let's write some code!
-
-Navigate here to access the Replit panel and play with the documents: [Nuevo Foundation - Simple Linear Regression](https://linearregression.nuevofoundation.repl.co/)
-
-[image 1]()
-
-
+**Overfitting** &rarr; when you are trying to accommodate every value in your data. By doing this you might be choosing values that are **outliers** and do not represent the reality of things.
