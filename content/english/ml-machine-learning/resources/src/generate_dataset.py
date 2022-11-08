@@ -22,12 +22,10 @@ for idx, curr_exp in enumerate(experience):
     next_salary = salary[idx + 1]
 
     # Create random records
-    for e in range(0,101):
+    for e in range(0,501):
         random_exp = random.uniform(curr_exp[0], next_exp)
         random_salary = 0
         randmon_error = 100 * np.random.randn(10,1)
-        print(randmon_error)
-
         if(curr_salary > next_salary):
             random_salary = random.uniform(next_salary, curr_salary) + randmon_error[0][0]
         else:

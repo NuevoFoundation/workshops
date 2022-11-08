@@ -11,8 +11,8 @@ model0 = linear_model.LinearRegression()
 model0.fit(x0,y0)
 
 # Fir model to new sample
-
-random_sample = pd.read_csv("Experience_vs_Salary-More_Data.csv").sample(n=30)
+sample_size = 30
+random_sample = pd.read_csv("Experience_vs_Salary-More_Data.csv").sample(n=sample_size)
 x1 = random_sample.iloc[:, :-1].values
 y1 = random_sample.iloc[:, 1].values
 model1 = linear_model.LinearRegression()
