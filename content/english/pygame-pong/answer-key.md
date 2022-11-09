@@ -9,7 +9,7 @@ hidden: true
 ### Activity 1
 
 ```python
-WIDTH = 800 
+WIDTH = 800
 # The value of WIDTH was 20 previously
 ```
 
@@ -23,28 +23,28 @@ COLOR = (70, 130, 180)
 
 ```python
 self.paddles.append(Paddle(  # The left paddle
-      self.BALL_VELOCITY,
-      pygame.K_w,
-      pygame.K_s,
-      0,
-      self.HEIGHT / 2 - self.PADDLE_HEIGHT / 2,
-      self.PADDLE_WIDTH,
-      self.PADDLE_HEIGHT
-      ))
+    self.BALL_VELOCITY,
+    pygame.K_w,
+    pygame.K_s,
+    0,
+    self.HEIGHT / 2 - self.PADDLE_HEIGHT / 2,
+    self.PADDLE_WIDTH,
+    self.PADDLE_HEIGHT
+))
 ```
 
 ### Activity 4
 
 ```python
  self.paddles.append(Paddle(  # The right paddle
-      self.BALL_VELOCITY,
-      pygame.K_UP,
-      pygame.K_DOWN,
-      self.WIDTH - self.PADDLE_WIDTH,
-      self.HEIGHT / 2 - self.PADDLE_HEIGHT / 2,
-      self.PADDLE_WIDTH,
-      self.PADDLE_HEIGHT
-      ))
+    self.BALL_VELOCITY,
+    pygame.K_UP,
+    pygame.K_DOWN,
+    self.WIDTH - self.PADDLE_WIDTH,
+    self.HEIGHT / 2 - self.PADDLE_HEIGHT / 2,
+    self.PADDLE_WIDTH,
+    self.PADDLE_HEIGHT
+))
 ```
 
 ### Activity 5

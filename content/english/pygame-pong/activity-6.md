@@ -7,17 +7,22 @@ draft: false
 
 You have come a long way - we hope that you are enjoying this workshop!2
 
-In this activity, you need to apply your knowledge of 'if' control structures you learned in the Python basics workshop. 
+In this activity, you need to apply your knowledge of 'if' control structures you learned in the Python basics workshop.
 
-Find `# TODO (ACTIVITY 6)` in the code. We have created an `'if'` block with a wrong condition for tracking the score when the right paddle misses the ball on purpose. This not only causes the wrong score to be displayed on screen - it also causes the ball to move in an erratic manner. Can you figure out what condition the `'if'` block should check for when the right paddle misses the ball? Ask the person next to you or the workshop staff if you need help.
+Find `# TODO (ACTIVITY 6)` in the code. We have created an `'if'` block with a wrong condition for tracking the score
+when the right paddle misses the ball on purpose. This not only causes the wrong score to be displayed on screen - it
+also causes the ball to move in an erratic manner. Can you figure out what condition the `'if'` block should check for
+when the right paddle misses the ball? Ask the person next to you or the workshop staff if you need help.
 
 {{% notice tip %}}
 
-You may need to check the boundary value for the horizontal position (represented by the x-axis) of the ball when the right paddle misses it. Can you guess what value it should be? Press **Run** to check your guess.
+You may need to check the boundary value for the horizontal position (represented by the x-axis) of the ball when the
+right paddle misses it. Can you guess what value it should be? Press **Run** to check your guess.
 
 {{% /notice %}}
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/PongLessonStudent" target="_blank">Launch Replit</a>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/PongLessonStudent" target="_blank">Launch
+Replit</a>
 
 ## Takeaway
 
