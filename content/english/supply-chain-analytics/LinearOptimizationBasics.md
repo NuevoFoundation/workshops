@@ -34,7 +34,7 @@ These are the variables you want to optimize (such as number of eggs). The compu
 
 This is the equation that describes what your goal is. For example, you may want to maximize the amount of money you make in your bakery. How do you calculate the amount of money you will make? It’s the profit of each cookie multiplied by the number of cookies you will make (this is where the decision variables come into play!)
  
-![Image that shows the calculation of the objective function using the pictures of the cookies and the pictures of money](img/objective%20function.jpg)
+![Image that shows the calculation of the objective function using the pictures of the cookies and the pictures of money](img/objective_function.jpg)
 
 ## Constraints 
 
