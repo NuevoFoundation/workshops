@@ -30,7 +30,7 @@ How do you calculate profit?
 
 Here’s the catch- you only have a limited number of common ingredients that you have to share between both of the cookies. But each batch requires a different amount. To make it simple, I’ve only included 3 of the main ingredients: eggs, flour, and sugar. 
 
-![Table view of all constraints](img/constrained%20ingredients.jpg)
+![Table view of all constraints](img/constraints_chart.jpg)
 
 You want to make the most amount of money selling the cookies with the ingredients you have. So how do you calculate that?
 
