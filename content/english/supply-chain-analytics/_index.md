@@ -30,7 +30,7 @@ Example: Your parents pack you a yummy sandwich to take to school for lunch the 
 
 This might sound simple. After all, when you’re craving cookies, all you have to do as the customer is go to the grocery store and pick up the cookies from the shelf. You might not think of all the things that go on behind the scene - and there’s a lot of them. Here’s some examples of roles: 
 
-![Image that shows icons of different jobs such as manufacturing, sales, and delivery that are needed to make a supply chain run](img/supply%20chain%20jobs.jpg)
+![Image that shows icons of different jobs such as manufacturing, sales, and delivery that are needed to make a supply chain run](img/jobs.jpg)
 
 Nowadays, technology plays a super big part in how supply chains work. Today, I’m going to show you how you can use technology and math to help run your supply chain!
 
