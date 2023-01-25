@@ -8,7 +8,7 @@ weight: 5
 
 One of the fences have broken loose in the farm and all the chickens and hens escaped! Because of this, we’re short on eggs and we now have to change the maximum capacity of eggs from 24 to 15. ☹ 
 
-Can you calculate what the new cookie quantities should be? How much did your profit change due to the shortage? 
+Can you calculate what the new optimal cookie quantities should be? How much did your profit change due to the shortage? 
 
 {{% notice hint %}}
 
