@@ -8,7 +8,7 @@ download: ""
 icon: "fab fa-link"
 draft: false
 ---
-First thing's first... what is a supply chain? 
+First things first... what is a supply chain? 
 
 {{% notice note %}}
 ## What is a Supply Chain?
