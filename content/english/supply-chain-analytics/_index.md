@@ -13,7 +13,7 @@ First things first... what is a supply chain?
 {{% notice note %}}
 ## What is a Supply Chain?
 
-“A supply chain moves a product or service from supplier to customer. It is the people, activities, information, and resources which move the product.” 
+> A supply chain moves a product or service from supplier to customer. It is the people, activities, information, and resources which move the product.
 
 {{% /notice %}}
 
