@@ -28,7 +28,7 @@ There are 3 main parts you need to learn: decision variables, objective function
 
 These are the variables you want to optimize (such as number of eggs). The computer will solve this for you and recommend the optimal quantity. 
  
-![Image showing the two types of cookies with #1 and #2 written](img/decision%20var.jpg)
+![Image showing the two types of cookies with #1 and #2 written](img/decision_var.jpg)
 
 ## Objective Function
 
