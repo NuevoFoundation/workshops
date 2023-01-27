@@ -28,17 +28,17 @@ There are 3 main parts you need to learn: decision variables, objective function
 
 These are the variables you want to optimize (such as number of eggs). The computer will solve this for you and recommend the optimal quantity. 
  
-![Image showing the two types of cookies with #1 and #2 written](img/decision_var.jpg)
+![Image showing the two types of cookies with #1 and #2 written](../img/decision_var.jpg)
 
 ## Objective Function
 
 This is the equation that describes what your goal is. For example, you may want to maximize the amount of money you make in your bakery. How do you calculate the amount of money you will make? It’s the profit of each cookie multiplied by the number of cookies you will make (this is where the decision variables come into play!)
  
-![Image that shows the calculation of the objective function using the pictures of the cookies and the pictures of money](img/objective_function.jpg)
+![Image that shows the calculation of the objective function using the pictures of the cookies and the pictures of money](../img/objective_function.jpg)
 
 ## Constraints 
 
 These are the limitations you have. For example, if you have a limited number of eggs, you want to make sure the total eggs you use is less than the number of eggs you have in stock. That is how you form your equation. 
 
-![Image that shows the constraint function in terms of pictures of cookies and pictures of eggs](img/constraint.jpg)
+![Image that shows the constraint function in terms of pictures of cookies and pictures of eggs](../img/constraint.jpg)
  
