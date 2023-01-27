@@ -16,12 +16,12 @@ You can find your solver add-in by clicking on “data” and then “solver” 
 
 ![Screenshot of where to find "Solver" add in on the header bar](../img/solver.jpg)
 
-Next, please download the following [template].(Cookie_Bakery_Optimization_Template.xlsx)
+Next, please download the following [template](../Cookie_Bakery_Optimization_Template.xlsx).
 
 Follow along in the template to help set up your problem. When using “Solver” you just need to select the cell number and the appropriate relationship between the cells. Your instructor can help you with this if you’re unfamiliar with Excel. 
 
 You can use the “answers” Excel to check your answers. There is also a screenshot of the correct way to set up your Solver.
 
-[Answers](Cookie_Bakery_Optimization_Answers.xlsx)
+[Answers](../Cookie_Bakery_Optimization_Answers.xlsx)
 
 Good luck!
