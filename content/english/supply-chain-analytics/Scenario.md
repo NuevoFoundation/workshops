@@ -14,7 +14,6 @@ Each batch of cookies is 12 cookies. You can sell one batch of chocolate chip co
 
 ![Picture of chocolate chip cookie that says $20, and a picture of a sugar cookie that says $15](../img/cookie_price.jpg)
 
-
 You need to buy the ingredients to make the cookies. In supply chain, these are known as “raw materials”. When you did the math, you found that since chocolate chip cookies use more ingredients than sugar cookies, each batch will cost you $10 in raw materials. Each batch of sugar cookies will only cost $7. 
 
 The cookie business is very competitive. To stay in business, you need to make a profit, which means you make more money than you spend. 
