@@ -24,6 +24,7 @@ Learn Cybersecurity using real threat data.
 >KC7 simulates an intrusion by multiple cyber threat actors against a fictitious company that teaches you to identify adversary activity across all seven phases of the Cyber Kill Chain using realistic data.
 
 [//]: #![killchain](../Kusto-KC7/Images/KillChain.jpg)
+[//]: #![alt](https://www.oceanpointins.com/wp-content/uploads/2020/02/canstockphoto26807912.jpg)
 
 
 By the end of your first day on the job, you should be able to: 

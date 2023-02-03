@@ -21,9 +21,6 @@ Let’s get you logged in and started with ADX:
 
 ![Alt text](Images/ADX1.png)
 
-![ADX](../Kusto-KC7/Images/ADX1.png)
-![Alt text](Images/KC7Logo.png)
-
 Data in ADX is organized in a hierarchical structure which consists of **clusters, databases, 
 and tables**. Security logs are stored in a single cluster. You’ll need to 
 add this cluster to your ADX interface so you can start looking at the log data. 

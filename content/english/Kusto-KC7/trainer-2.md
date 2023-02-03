@@ -1,47 +1,75 @@
 ---
-title: "KC7: Cyber Defender Game"
-description: "KC7 is a game that teaches you real world cybersecurity skills used by professional Cyber Defenders"
-date: 2023-02-1T13:24:17-07:00
-prereq: "None"
-difficulty: "Advanced"
+title: "T3: Schedule & Logistics"
+description: ""
 draft: false
-icon: "fas fa-database"
-weight: 131
+weight: 3
 ---
 
 
-# Introduction: Learn Kusto Query Language (KQL) to catch the hacker!
+# Example Session Schedule
 
-![Threat](../Kusto-KC7/Images/KC7Logo.png)
+### Pre-Requirements [10 min]
 
-## Welcome new Cyber Defenders! 
+[10 min] Gain access to cluster and add it to ADX
+- Send out setup instructions ahead of session
 
-*---Threat intel is for everyone*
-Learn Cybersecurity using real threat data.
+### Part 1: Understanding the environment and how to navigate it [1.5 hrs]
 
-**KC7 is a game that teaches you real world cybersecurity skills**
+[5 min] Intro to MSTIC and discussion of consequences of TI work 
+- How we do it at MSTIC 
+- How does TI affect “normal” organizations? 
+- Inform detections/IR 
+- Threat modeling 
 
->KC7 simulates an intrusion by multiple cyber threat actors against a fictitious company that teaches you all 7 steps of the Cyber Kill Chain.
+[5 min] Briefly mention attribution tools and techniques 
+- Diamond Model 
+- Steps of the Kill Chain 
 
-![killchain](../Kusto-KC7/Images/KillChain.jpg)
+[20 min] Basic understanding of KQL commands and syntax
+- databases 
+- tables
+- where (has, contains, has_any, ==, etc…) 
+- count 
+- take 
+- let 
+
+[45 mins] Applying KQL to cyber investigations 
+- Introduce Scenario 1
+- Start with investigating malicious activity (i.e. email threat) 
+- Free hunting for studentsto answer sample questions
+
+[5 min] How to cluster observed adversary activity 
+- How do you decide whether the next piece is associated with your actor? 
+- Mapping knowledge of actor to diamond model 
+- How do you know when you’re done? 
+- Gotchas of clustering (misattribution) 
+
+[10 min] Debrief
+- Show answers and how to find them
+- Brief Q&A
 
 
-By the end of your first day on the job, you should be able to: 
- 
-✓	Use Azure Data Explorer (web version)   
-✓	Use multiple data sets to answer targeted questions  
-✓	Find cyber activity in logs including: email, web traffic, and server logs  
-✓	Use multiple techniques to track the activity of APTs (Advanced Persistent Threats)  
-✓	Use third party data sets to discover things about your attackers   
-✓	Build a threat intelligence report    
-✓	Make recommendations on what actions a company can take to protect themselves    
+### **Break [10 min]**
 
-</mark>If you are a trainer please start with the next block **T3: Know Your Why**. If you are a student please skip ahead to **Tutorial 1: Azure Data Explorer (ADX) Basics**</mark>.
 
-{{%notice warning%}}
-Please do not use the Firefox browser for this workshop.
-{{%/notice%}}
+### Part 2: KC7 Capture the Flag Game [1.5 hrs]
 
-## Table of Contents
+[10 mins] Introduce Scenario 2: Capture the Flag Game
+- Review the initial IOC (Indicators of Compromise) / where to start investigating
+- Talk through pivots, how to decide if it’s a good pivot, where to go next? 
 
-{{% children %}}
+[30 mins] Free Hunting Time 
+
+[10 mins] Go over how to find some answers and allow time for questions before continuing the hunt 
+
+[5 mins] Introduce Scenario 3 
+
+[25 mins] Free Time to Hunt/Analyze Blog 
+
+[10 mins] Debrief
+- Show students where they can continue learning more
+
+
+
+
+
