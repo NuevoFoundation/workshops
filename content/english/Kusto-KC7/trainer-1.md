@@ -13,6 +13,8 @@ weight: 1
 *[Check out our interview on the SANS podcast.]*
 ## Know Your Why
 
+![alt](./Images/KC7Logo.png)
+
 In order to effectively teach this course, it is important for you to *know your why*. For us, it's that we know that luck played a big part in each of us being exposed to threat hunting in a way that made it a viable career choice. Someone in our lives introduced us to cybersecurity and opened doors that led to us gaining the right skills to land a threat hunting job. There are so many people out there with just as much potential who are never introduced to it, we want to change that.
 As the volume and sophistication of cyberattacks continues to grow, cybersecurity has become an increasingly important career field. The US Bureau of Labor Statistics cites that employment of information security analysts is projected to grow 35% from 2021 to 2031, which is much faster than the average for all occupations (5%). 
 Threat intelligence (TI) is a facet of cybersecurity that focuses specifically on tracking and understanding the adversaries who are responsible for cyber attacks. TI has traditionally been inaccessible to students and entry-level professionals, since it requires a very specific set of skills. These skills are hard to develop, since they can only be learned by practicing using cybersecurity data; but often it’s impossible to get access to cybersecurity data without a job in the field.  
