@@ -14,7 +14,7 @@ Okay Cyber Defenders! The first thing you need to do is set up the environment i
 - The Scoreboard : https://aka.ms/kc7scoreboard 
 - (Optional) PDF Guide of This Workshop : https://aka.ms/kc7guide
 
-![resource](./Images/Resources.png)
+<!-- ![resource](../kusto-kc7/Images/Resources.png) -->
 
 ### Setting Up Azure Data Explorer (ADX)
 
@@ -38,10 +38,10 @@ Data in ADX is organized in a hierarchical structure which consists of **cluster
 
 <img src="https://raw.githubusercontent.com/bgrant34/workshops/137dc797c120e1d7e59e5589815ffecb8eb6244c/content/english/Kusto-KC7/Images/ADX3.png" alt= “” width="40%" height="value">
 
-4.	Select your database
-•	Expand the dropdown arrow next to your cluster. You should then see one database, called SecurityLogs2 inside it. 
-•	Expend the dropdown arrow next to the SecurityLogs2 database. 
-•	Click on the SecurityLogs2 database. Once you’ve done this, you should see the database highlighted- this means you’ve selected the database and are ready to query the tables inside.
+4.	Select your database     
+•	Expand the dropdown arrow next to your cluster. You should then see one database, called SecurityLogs2 inside it.     
+•	Expend the dropdown arrow next to the SecurityLogs2 database.     
+•	Click on the SecurityLogs2 database. Once you’ve done this, you should see the database highlighted- this means you’ve selected the database and are ready to query the tables inside.      
 
 <img src="https://raw.githubusercontent.com/bgrant34/workshops/137dc797c120e1d7e59e5589815ffecb8eb6244c/content/english/Kusto-KC7/Images/ADX4.png" alt= “” width="30%" height="value">
 
@@ -51,6 +51,10 @@ The big blank space to the right of your cluster list is the query workspace. Th
 
 ### Scoreboard Setup
 
+1.  After going to the Scoreboard website (https://aka.ms/kc7scoreboard), create a user account. Be sure to use a username and password you can remember as it will then immediately ask you to login.
+2.  Once you're in, enter event code: **jan27**
+
+You should see the scoreboard now. We'll need this later in the training so feel free to minimize the Scoreboard but keep it ready to use.
 
 
 {{< alert theme="info" >}} Done! Now that you're set up it's time to get your hands on the data. {{< /alert >}}
