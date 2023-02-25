@@ -1,0 +1,56 @@
+---
+title: "Activity 0: Login & Setup of the Cyber Environment"
+description: ""
+draft: false
+weight: 4
+---
+
+{{< youtube aHJxEHIHq0k >}}
+
+# Getting Started
+
+Okay Cyber Defenders! The first thing you need to do is set up the environment in which you will be hunting hackers. In order to do that, open the links below and follow the directions on first setting up Azure Data Explorer (ADX) and then logging into the Scoreboard session.
+- Azure Data Explorer : https://dataexplorer.azure.com/ 
+- The Scoreboard : https://aka.ms/kc7scoreboard 
+- (Optional) PDF Guide of This Workshop : https://aka.ms/kc7guide
+
+![resource](./Images/Resources.png)
+
+### Setting Up Azure Data Explorer (ADX)
+
+ADX is the primary tool used by some cyber defenders for data exploration and analysis. The great thing about ADX is that it is used by cyber analysts at many of the smallest and largest organizations in the world. 
+
+Let’s get you logged in and started with ADX:
+
+1.	Go to https://dataexplorer.azure.com/ and login with your Microsoft account 
+2.	Click the Query tab on the left side of the screen.
+
+<img src="https://raw.githubusercontent.com/bgrant34/workshops/137dc797c120e1d7e59e5589815ffecb8eb6244c/content/english/Kusto-KC7/Images/ADX1.png" alt= “” width="30%" height="value">
+
+
+Data in ADX is organized in a hierarchical structure which consists of **clusters, databases, and tables**. All of Envolve Labs’s security logs are stored in a single cluster. You’ll need to add this cluster to your ADX interface so you can start looking at the log data
+
+<img src="https://raw.githubusercontent.com/bgrant34/workshops/137dc797c120e1d7e59e5589815ffecb8eb6244c/content/english/Kusto-KC7/Images/ADX2.png" alt= “” width="40%" height="value">
+
+3.	Add a new cluster using the cluster URI provided by your instructor
+•	Click add cluster
+•	Enter Connection URI: mstictraining.eastus
+
+<img src="https://raw.githubusercontent.com/bgrant34/workshops/137dc797c120e1d7e59e5589815ffecb8eb6244c/content/english/Kusto-KC7/Images/ADX3.png" alt= “” width="40%" height="value">
+
+4.	Select your database
+•	Expand the dropdown arrow next to your cluster. You should then see one database, called SecurityLogs2 inside it. 
+•	Expend the dropdown arrow next to the SecurityLogs2 database. 
+•	Click on the SecurityLogs2 database. Once you’ve done this, you should see the database highlighted- this means you’ve selected the database and are ready to query the tables inside.
+
+<img src="https://raw.githubusercontent.com/bgrant34/workshops/137dc797c120e1d7e59e5589815ffecb8eb6244c/content/english/Kusto-KC7/Images/ADX4.png" alt= “” width="30%" height="value">
+
+The big blank space to the right of your cluster list is the query workspace. That’s where you will use KQL code to write what we call queries, which are used to interact with our log data. 
+
+<img src="https://raw.githubusercontent.com/bgrant34/workshops/137dc797c120e1d7e59e5589815ffecb8eb6244c/content/english/Kusto-KC7/Images/ADX5.png" alt= “” width="80%" height="value">
+
+### Scoreboard Setup
+
+
+
+{{< alert theme="info" >}} Done! Now that you're set up it's time to get your hands on the data. {{< /alert >}}

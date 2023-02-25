@@ -10,7 +10,8 @@ weight: 131
 ---
 
 # Introduction: Learn Kusto Query Language (KQL) to catch the hacker!
-![logo](../Kusto-KC7/Images/KC7Logo.png)
+
+![logo](./Images/KC7Logo.png)
 
 ## Welcome new Cyber Defenders! 
 *---Threat intel is for everyone*
