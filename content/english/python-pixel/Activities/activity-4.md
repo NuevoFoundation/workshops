@@ -7,7 +7,7 @@ weight: 4
 draft: false
 ---
 
-<iframe width="100%" height="600px" src="https://www.youtube.com/embed/jA6xNqAhb1o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jA6xNqAhb1o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Now that we understand more about pixels and images, we can start to learn how to design your own filter on the image. Let us see some examples on how to design a basic filter on your image.
 

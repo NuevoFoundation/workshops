@@ -6,7 +6,7 @@ prereq: "None"
 difficulty: "Beginner"
 draft: false
 ---
-<p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/apUsNWZ9wIE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/apUsNWZ9wIE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 [EarSketch](https://en.wikipedia.org/wiki/EarSketch) is a free educational programming environment developed at Georgia Institute of Technology. We will be composing music using EarSketch today.
 
