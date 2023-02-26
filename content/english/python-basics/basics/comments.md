@@ -4,7 +4,7 @@ draft: false
 weight: 3
 ---
 
-<p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/NE9IEUi1Eqk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/NE9IEUi1Eqk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 When creating a Python program, we can add some notes by adding one line comments using `#`. **Comments** are the parts of the code that do not effect the program. Anything after the `#` symbol is part of the comment and is ignored by your code. Comments are put in the code to tell the readers what the code is doing. They can make maintenance of code easy and can also help in finding bugs. 
 

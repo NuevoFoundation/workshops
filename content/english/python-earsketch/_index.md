@@ -8,14 +8,14 @@ download: ""
 draft: false
 icon: "fab fa-python"
 ---
-<p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/g0u1CkbpUWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/g0u1CkbpUWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ### Let's make some music!
 
 Welcome to this introductory guide on how to make music using
 [EarSketch](https://en.wikipedia.org/wiki/EarSketch) & Python. To jump to a particular activity, click on the section link below:
 
-<!--- LEAVING THIS VIDEO HERE IN CASE IT IS NEEDED <p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/g0u1CkbpUWQ?start=79" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p> --->
+<!--- LEAVING THIS VIDEO HERE IN CASE IT IS NEEDED <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/g0u1CkbpUWQ?start=79" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p> --->
 
 ### Meet DJ Nuevo
 
