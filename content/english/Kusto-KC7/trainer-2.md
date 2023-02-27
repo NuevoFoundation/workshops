@@ -13,7 +13,7 @@ weight: 2
 <img src="https://github.com/kkneomis/kc7/raw/master/readme_assets/example.png" alt= “” width="80%" height="value">
 
 # Choosing the right event for you
-![alt](./Images/Resources.png)
+
 
 ### Audiences
 There are several audiences that can benefit from playing KC7.  You should first identify your intended audience, then you will want to adjust how you configure the game to make sure they get the most out of it 
