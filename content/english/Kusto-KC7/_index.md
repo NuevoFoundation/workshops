@@ -37,6 +37,7 @@ If you are a trainer please start with the next block **T3: Know Your Why**. If 
 Please do not use the Firefox browser for this workshop.
 {{%/notice%}}
 
+
 <summary>Table of Contents</summary>
 {{% children %}}
 </details>

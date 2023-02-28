@@ -6,8 +6,7 @@ weight: 8
 ---
 
 <!-- Insert What is Whodunit video with intro trivia about hactivist/cybercrime/nation sponsored-->
-{{< youtube ygHwgzXuF30 >}}
-
+{{< youtube 1NIKg55GwLI >}}
 
 
 {{< rawhtml >}}
@@ -103,7 +102,7 @@ Although it is a key part of cybersecurity, attribution can be challenging to do
 - Geographical Pattern of Attack - Are organizations in a particular country predominantly being targeted? Transversly, is an entity targetting organizations all over the world EXCEPT one country....potentially their own?
 
 The difficulty level of cyber attribution makes it an attractive method of attack for groups with the knowledge, resources, and motivation to attempt it while hiding traces of their involvement. With that in mind, our mission is to help raise the next generation of Cyber Defenders to combat cyber attacks. As difficult as it can be, this type of work has real world impact. Check out some examples of success storries below.
-- Insert articles
+- Exposing POLONIUM activity and infrastructure targeting Israeli organizations: https://vulners.com/mssecure/MSSECURE:A2F131E46442125176E4853C860A816C 
 
 ### Classifications of Adversaries
 
