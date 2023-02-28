@@ -31,7 +31,7 @@ By the end of your first day on the job, you should be able to:
 {{<icon name="ok" size="large">}} Build a threat intelligence report    
 {{<icon name="ok" size="large">}} Make recommendations on what actions a company can take to protect themselves    
 
-If you are a trainer please start with the next block **T3: Know Your Why**. If you are a student please skip ahead to **Tutorial 1: Azure Data Explorer (ADX) Basics**
+If you are a trainer please start with the next block **T3: Train-the-Trainer Intro**. If you are a student please skip ahead to **Activity 0: Login & Setup of the Cyber Environment**
 
 {{%notice warning%}}
 Please do not use the Firefox browser for this workshop.

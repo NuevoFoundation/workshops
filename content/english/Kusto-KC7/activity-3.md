@@ -33,7 +33,7 @@ We currently have eight types of log data. As you’ll see in ADX, each log type
 
 
 
-{{< alert theme="info" >}}
-🎯**Key Point – Over the Horizon (OTH) data:** One of the tables listed above is not like the others – **PassiveDns**. Rather than being an internal security log, **PassiveDns** is a data source that we’ve purchased from a 3rd party vendor. Not all malicious cyber activity happens within our company network, so sometimes we depend on data from other sources to complete our investigations. {{< /alert >}}
+{{< notice note >}}
+🎯**Key Point – Over the Horizon (OTH) data:** One of the tables listed above is not like the others – **PassiveDns**. Rather than being an internal security log, **PassiveDns** is a data source that we’ve purchased from a 3rd party vendor. Not all malicious cyber activity happens within our company network, so sometimes we depend on data from other sources to complete our investigations. {{< /notice >}}
 
 You’ll learn more about how to use each of these datasets in just a minute. First, let’s just run some queries so you can practice using KQL and ADX.
