@@ -10,7 +10,7 @@ weight: 2
 
 # Eample Scenario
 
-<img src="https://github.com/kkneomis/kc7/raw/master/readme_assets/example.png" alt= “” width="80%" height="value">
+<img src="https://github.com/kkneomis/kc7/raw/master/readme_assets/example.png" alt= “” width="70%" height="value">
 
 # Choosing the right event for you
 

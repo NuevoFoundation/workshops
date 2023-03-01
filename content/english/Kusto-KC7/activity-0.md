@@ -14,6 +14,8 @@ Okay Cyber Defenders! The first thing you need to do is set up the environment i
 - The Scoreboard : https://aka.ms/kc7scoreboard 
 - (Optional) PDF Guide of This Workshop : https://aka.ms/kc7guide
 
+
+
 <!-- ![resource](../kusto-kc7/Images/Resources.png) -->
 <img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/Resources.png?raw=true" alt= “” width="80%" height="value">
 

@@ -6,7 +6,14 @@ weight: 12
 ---
 {{< youtube wWgPEGF5XOI >}}
 
-## KQL 101
+
+{{< notice tip >}} This is where we want you to pull up the Scoreboard and ADX viewer from earlier in seperate windows to complete the remaining exercises. If you can't or don't want to use the Scoreboard, all questions for this section are listed below.  
+
+*Remember any page with a video duplicates the lesson in both video and written form. You can follow one or the other depending on what type of learner you are.* {{< /notice >}}
+
+## KQL 101  
+
+**Be sure you use the SecurityLogs database for this exercise.**
 
 Type the following query in the workspace to view the first rows in the **Employees** table. Press “run” or “shift + enter” to execute the query. All KQL code blocks for this workshop will be outlined in grey like the one below.
 
@@ -129,3 +136,53 @@ Although domain names like “google.com” are easy for humans to remember, com
 
 
 {{< notice note >}} 🎯**Key Point – Practice Good OPSEC**: If we want to find out which IP address a particular domain resolves to, we could just browse to it. But, if the domain is a malicious one, you could download malicious files to your corporate analysis system or tip off the attackers that you know about their infrastructure. As cybersecurity analysts, we must follow procedures and safeguards that protect our ability to track threats. These practices are generally called operational security, or OPSEC. {{< /notice >}}
+
+To eliminate the need to actively resolve (that is- directly browse to or interact with a domain to find it’s related IP address) every domain we’re interested in, we can rely on passive DNS data. Passive DNS data allows us to safely explore domain-to-IP relationships, so we can answer questions like:
+
+- Which IP address does this domain resolve to?      
+- Which domains are hosted on this IP address?      
+- How many other IPs have this domain resolved to?     
+
+These domain-to-IP relationships are stored in our **PassiveDns** table. 
+{{< alert theme="success" >}}
+*Question 7.	🤔 How many domains in the **PassiveDns** records contain the word “vaccine”? (hint: use the <span style="color:blue">**contains**</span> operator instead of <span style="color:blue">**has**</span>. If you get stuck, do a <span style="color:red">**take**</span> 10 on the table to see what fields are available.)*
+
+*Question 8.	🤔 What IPs did the domain “biotechenvolv.science” resolve to?*{{< /alert >}}
+
+🤯**Let statements – making your life a bit easier:**
+
+Sometimes we need to use the output of one query as the input for a second query.  The first way we can do this is by manually typing the results into next query.
+
+- For example, what if we want to look at all the web browsing activity from employees named “Linda”?     
+- First, you would need to go into the **Employees** table and find the IP addresses used by these employees.     
+
+<img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/KQL6.png?raw=true" alt= “” width="value" height="value">
+
+Then, you could manually copy and paste these IPs into a query against the **OutboundBrowsing** table. Note that we can use the in operator to choose all rows that have a value matching any value from a list of possible values. In other words, the == (comparison) operator looks for an exact match, while the in operator checks for any values from the list.
+
+<img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/KQL7.png?raw=true" alt= “” width="value" height="value">
+
+Although this is a valid way to get the information you need, it may not be as elegant (or timely) if you had 100 or even 1000 employees named “Linda.”
+
+We can accomplish this in a more elegant way by using a [let statement](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/letstatement), which allows us to assign a name to an expression or a function. We can use a <span style="color:blue">**let**</span> statement here to save and give a name to the results of the first query so that the values can be re-used later. That means we don’t have to manually type or copy and paste the results repeatedly.
+
+<img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/KQL8.png?raw=true" alt= “” width="value" height="value">
+
+On the left of the <span style="color:blue">**let**</span> statement is the variable name (“linda_ips” in this case). The variable name can be whatever we want, but it is helpful to make it something meaningful that can help us remember what values it is storing. 
+
+<img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/KQL9.png?raw=true" alt= “” width="value" height="value">
+
+On the right side of the <span style="color:blue">**let**</span> statement in the expression you are storing. In this case, we use the <span style="color:red">**distinct**</span> operator to select values from only one column – so they are stored in an array – or list of values. 
+
+<img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/KQL10.png?raw=true" alt= “” width="value" height="value">
+
+The <span style="color:blue">**let**</span> statement is concluded by a semi-colon.
+
+After we store the value of a query into a variable using the <span style="color:blue">**let**</span> statement, we can refer to it as many times as we like in the rest of the query. The stored query does not show any output. Remember, however, that your KQL query must have a tabular statement – which means that you must have another query following your <span style="color:blue">**let**</span> statement. 
+{{< alert theme="success" >}}
+*Question 9.	🤔 How many unique URLs were browsed by employees named “Karen”?*{{< /alert >}}
+
+
+{{< notice note >}}🎯**Key Point – Pivoting**: Part of being a great cyber analyst is learning how to use multiple data sources to tell a more complete story of what an attacker has done. We call this “pivoting.” We pivot by taking one known piece of data in one dataset and looking in a different dataset to learn something we didn’t already know. You practiced this here when we started in one dataset – the Employees table – and used knowledge from there to find related data in another source – **OutboundBrowsing**. {{< /notice >}}
+
+
