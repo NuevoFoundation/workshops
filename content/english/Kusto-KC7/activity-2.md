@@ -90,9 +90,10 @@ function checkAnswer(quizForm,
 ### What is Attribution?
 
 One key topic in the world of cybersecurity you'll come across is called **attribution**. Attribution in cybersecurity refers to the process of tracking, identifying, and generally attributing blame on the perpatrator of a cyber attack. Cyber attacks, also known commonly as *hacking*, are an attempt by an adversary to gain access to systems for the purpose of altering, stealing, destroying, or exposing information. Examples of methods to carry out a cyber attack include:
-- Malware - Short for malicious software, is any code created with intent to do harm like a virus or a worm
-- Phishing - An attack that uses email, text messaging (SMS), or social media to entice a victim to share sensitive information or to download a malicious file, this is much like catfishing
-- Ransomware - Malicious code intended to lock victims out of their own systems with in order to exact a ransom, usually money, from the victim in exchange for regaining access to their locked systems or data
+- **Malware** - Short for malicious software, is any code created with intent to do harm like a virus or a worm
+- **Phishing** - An attack that uses email, text messaging (SMS), or social media to entice a victim to share sensitive information or to download a malicious file, this is much like catfishing
+- **Ransomware** - Malicious code intended to lock victims out of their own systems with in order to exact a ransom, usually money, from the victim in exchange for regaining access to their locked systems or data
+- **Password Spray#** - An attacker aquires a list of usernames, and then tries logging in across all usernames using the same password, and then repeats the process with new passwords until they gain system access.
 
 ### Challenges to Attribution
 

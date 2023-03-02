@@ -93,6 +93,6 @@ You will also need to add questions or challenges for the game participants to a
 
 ### Additional Resources
 
-Github Repo: https://github.com/kkneomis/kc7 
-KC7 Website: https://kc7cyber.com/#demos 
+Github Repo: https://github.com/kkneomis/kc7       
+KC7 Website: https://kc7cyber.com/#demos      
 

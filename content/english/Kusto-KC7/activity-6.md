@@ -1,16 +1,18 @@
 ---
-title: "Activity 5: Capture the Flag (Part 1)"
+title: "Activity 5: Catch the Hacker"
 description: ""
 draft: false
 weight: 16
 ---
 
-{{< notice note >}}This is a much shorter section, we're just going to explain the scenario and let you go for free hunting time. You can take however much time you'd like to on this portion, but for live sessions we generally give participants ~30 minutes before moving on.
+
+{{< notice note >}}This is a much shorter section, we're just going to explain the scenario and let you go for free hunting time. You can take however much time you'd like to on this portion, but for live sessions we generally give participants 30-40 minutes before moving on.
 
  **Happy Hunting!**{{< /notice >}}
-vid
 
-## Introducing the Hackers
+{{< youtube iXvwu-enXLs >}}
+
+### Introducing the Hackers
 
 Now that you’ve completed your initial round of training, you are ready to work your first case in the SOC!
 
