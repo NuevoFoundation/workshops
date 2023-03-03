@@ -12,7 +12,7 @@ weight: 4
 Okay Cyber Defenders! The first thing you need to do is set up the environment in which you will be hunting hackers. In order to do that, open the links below and follow the directions on first setting up Azure Data Explorer (ADX) and then logging into the Scoreboard session.
 - Azure Data Explorer : https://dataexplorer.azure.com/ 
 - The Scoreboard : https://aka.ms/kc7scoreboard 
-- (Optional) PDF Guide of This Workshop : https://aka.ms/kc7guide
+- (Optional) PDF Guide of This Workshop : https://kc7cyber.com/guide1 
 
 
 

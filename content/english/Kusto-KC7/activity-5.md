@@ -7,6 +7,7 @@ weight: 14
 
 {{< youtube 3ymQy0pFZPQ >}}
 
+
 *View the video above for a walkthrough of how to get to the answers for the last section. If you feel like you have a good grasp on most of the answers (i.e. greened up your KQL 101 Scoreboard) then feel free to move on to the next section or skip through this video for specific answers.*
 
 

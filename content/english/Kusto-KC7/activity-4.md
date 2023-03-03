@@ -4,7 +4,7 @@ description: ""
 draft: false
 weight: 12
 ---
-{{< youtube wWgPEGF5XOI >}}
+{{< youtube VH8NAJjlPa4 >}}
 
 
 {{< notice tip >}} This is where we want you to pull up the Scoreboard and ADX viewer from earlier in seperate windows to complete the remaining exercises. If you can't or don't want to use the Scoreboard, all questions for this section are listed below.  
