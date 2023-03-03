@@ -13,6 +13,7 @@ weight: 16
 {{< youtube iXvwu-enXLs >}}
 
 ### Introducing the Hackers
+**[Be sure you use the SecurityLogs2 database for this exercise.]**
 
 Now that you’ve completed your initial round of training, you are ready to work your first case in the SOC!
 

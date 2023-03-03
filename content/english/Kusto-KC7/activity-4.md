@@ -13,7 +13,7 @@ weight: 12
 
 ## KQL 101  
 
-**Be sure you use the SecurityLogs database for this exercise.**
+**[Be sure you use the SecurityLogs database for this exercise.]**
 
 Type the following query in the workspace to view the first rows in the **Employees** table. Press “run” or “shift + enter” to execute the query. All KQL code blocks for this workshop will be outlined in grey like the one below.
 

@@ -39,12 +39,12 @@ weight: 3
 
 ### Break [10 min]
  
-### Part 2: Capture the Flag [1.5 hrs]
+### Part 2: Catch the Hacker [1.5 hrs]
 
 [5 min] Introduction and High Level Overview of Workshop 
  - Additional Threat Intelligence (TI) threat hunting tools & techniques to pass on before diving back in
 
-[30 min] Scenario 2: Capture the Flag
+[30 min] Scenario 2: Catch the Hacker
  - Release the scoreboard and introduce scenario
  - Facilitate free hunting time
  - Monitor chat
@@ -52,7 +52,16 @@ weight: 3
 [10 min] Debrief
  - Select a few questions to show path to solving
 
-[5 min] Introduce Blog + Give Prompts 
+**Option 1**         
+[5 min] Phishy Activity
+
+[30 min] Scenario 3: Hackers Sending0 Malware docs
+ - Free Time to Hunt
+
+[10 min] Debrief & Close Session
+
+**Option 2**         
+[5 min] Introduce Blog Analysis *(for more advanced audiences)*
 
 [30 min] Scenario 3: Real or Fake?
  - Free Time to Hunt & Analyze Blog 

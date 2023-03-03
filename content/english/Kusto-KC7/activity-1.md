@@ -8,6 +8,17 @@ weight: 6
 <!-- Insert What is KC7 video explaining game and purpose for creating it-->
 {{< youtube V7GSmgKLl3Y >}}
 {{< notice note >}} As you step through this workshop, you'll notice that each page with a video duplicates the lesson in both video and written form. You can follow one or the other depending on what type of learner you are.{{< /notice >}}
+# What is Threat Intelligence?
+
+**Threat Intelligence Analysts**:
+
+{{<icon name="user" size="large">}} Learn about adversaries ... and share knowledge with public/private sector partners
+
+{{<icon name="time" size="large">}} Track adversaries over time ... to understand the changing threat landscape
+
+{{<icon name="lock" size="large">}} Implement defenses ... and work with product development teams to protect costomers
+
+Data alone does not equal intelligence. Security logs on their own don't tell you anything impactful until you process them. Once a threat intellicence analyst processes the data and information, with the context of the adversaries they track and the context of the changing of the threat landscape, they can begin coming up with a story and timeline of what my have happened. To understand what those threats mean, why they have occured, and how it has affected your company ... that is true threat intelligence.
 
 # What is the Cyber Kill Chain?
 

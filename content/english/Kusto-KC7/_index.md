@@ -9,7 +9,7 @@ icon: "fas fa-database"
 weight: 131
 ---
 
-# Introduction: Learn Kusto Query Language (KQL) to catch the hacker!
+# Introduction: Learn Kusto Query Language (KQL) to Catch the Hacker!
 
 ![logo](./Images/KC7Logo.png)
 
@@ -41,3 +41,4 @@ Please do not use the Firefox browser for this workshop.
 <summary>Table of Contents</summary>
 {{% children %}}
 </details>
+s

@@ -5,7 +5,7 @@ draft: false
 weight: 4
 ---
 
-{{< youtube aHJxEHIHq0k >}}
+{{< youtube VL7fJr54CG0 >}}
 
 # Getting Started
 
@@ -54,7 +54,8 @@ The big blank space to the right of your cluster list is the query workspace. Th
 ### Scoreboard Setup
 
 1.  After going to the Scoreboard website (https://aka.ms/kc7scoreboard), create a user account. Be sure to use a username and password you can remember as it will then immediately ask you to login.
-2.  Once you're in, enter event code: **jan27**
+2.  Click the green button **"Join a new game"**
+3.  Once you're in, enter session password: **GAMEON**
 
 You should see the scoreboard now. We'll need this later in the training so feel free to minimize the Scoreboard but keep it ready to use.
 
