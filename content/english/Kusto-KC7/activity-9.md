@@ -11,25 +11,17 @@ weight: 22
 
 *For this scenario, we'd like you to take a look at the blog post below and see if you can find evidence that supports or disproves the information posted.*
 
+------------------------------------------------------
 <img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/blog1.png?raw=true" alt= “” width="value" height="value">
 
 
-VulnerableArray Security Intelligence (VSI) discovered a new APT group named ITINIUM. ITINIUM likely operates from Urzikstan and primarily targets pharmaceutical companies in Europe and North America. 
- 
-Beginning in late 2022, ITINIUM launched a targeted phishing campaign in which it delivered emails containing malicious links. The resulting files led to implants from one new malware family that VSI calls UnhelpfulDesk. VulnerableArray Security Intelligence assesses with a high degree of confidence that the UnhelpfulDesk malware is custom-developed and use exclusively by ITINIUM.  
- 
-ITINIUM uses UnhelpfulDesk in order to gain access to victim systems and encrypt their files.  
-
-
-(pic)
-
-**UnhelpfulDesk** 
+**What is UnhelpfulDesk?** 
  
 UnhelpfulDesk malware implants are dropped by files with names that resemble legitimate IT functions, such as software updates or password resets, or medical research topics, such as vaccine research. These files are delivered to victims via malicious emails containing links to download the files.  
  
  
  
-**UnhelpfulDesk droppers:** 
+**UnhelpfulDesk Droppers** 
  
 | Filename 	| Sha256     |
 | --------------- | ------------------------------------------------------- |
@@ -38,7 +30,7 @@ UnhelpfulDesk malware implants are dropped by files with names that resemble leg
 |Software_Update.rar |	2f2e5f20a726e9710b9c5c7c681e66240f854acd 48107e5cd193d6133297b72f    |
 |IT_PASSWORD_RESET_TOOL.rar |	fe04d68b163bbf432196c0d7bb184176a42606 30374c93c916cc6b52fc9855f7 |
  
-**Dropped implants:** 
+**Dropped Implants** 
  
 |Filename 	| Sha256 |
 | --- | --- | 
@@ -67,30 +59,35 @@ Other IOCs
 65.69.253[.]41 199.57.49[.]250 install-notice[.]com remarkablevirus[.]tech noreply_info[@]hotmail.com 
 vaccinejournal[@]yahoo.com 
 
+*[End Blog Post]*
+
+-----------------------------------------------------
 
 ## Now it’s up to you… 
  
 Our CISO has asked you to evaluate this report from VulnerableArray and determine whether it is accurate. While making your assessment, consider the following questions: 
+
+{{< alert theme="success" >}} 
+*Question 1.	Do all the reported indicators belong to the same cluster of activity? How do you know?*
+ {{< notice note >}}
+  **Hint:** Use the Diamond Model (Adversary, Victim, Infrastructure, Capabilities) to help you think about clustering distinct groups of activity. It Look for similarities and differences in each of the four Diamond Model vertices.  {{< /notice >}}
  
-1.	Do all the reported indicators belong to the same cluster of activity? How do you know? 
+*Question 2.	The report claims that the UnhelpfulDesk malware is to ultimately deploy ransomware and encrypt files on an infected system. Do you agree with this assessment? Or do you see evidence of alternative actions on objectives?*
+ {{< notice note >}}
+  **Hint:** Try looking for activity related to the malware-based indicators shared in the blog, then identify a few compromised systems. Do you see post-compromise activity on any of these systems that’s different from the ransomware described in the blog? {{< /notice >}}
  
-  Hint: Use the Diamond Model (Adversary, Victim, Infrastructure, Capabilities) to help you think about clustering distinct groups of activity. It Look for similarities and differences in each of the four Diamond Model vertices.  
- 
-2.	The report claims that the UnhelpfulDesk malware is to ultimately deploy ransomware and encrypt files on an infected system. Do you agree with this assessment? Or do you see evidence of alternative actions on objectives? 
- 
-  Hint: Try looking for activity related to the malware-based indicators shared in the blog, then identify a few compromised systems. Do you see post-compromise activity on any of these systems that’s different from the ransomware described in the blog? 
- 
-3.	What analytical mistakes, if any, were made by the authors of the blog? 
- 
-  Hint: Some processes are executed automatically by the malware upon execution. Other processes are run manually (hand-on-keyboard) by the operator after the command and control channel is establish. 
+*Question 3.	What analytical mistakes, if any, were made by the authors of the blog?* 
+ {{< notice note >}}
+  **Hint:** Some processes are executed automatically by the malware upon execution. Other processes are run manually (hand-on-keyboard) by the operator after the command and control channel is establish. {{< /notice >}}
  
  
-4.	Is the UnhelpfulDesk malware unique to the ITINIUM actor? How do you know? 
+*Question 4.	Is the UnhelpfulDesk malware unique to the ITINIUM actor? How do you know?* 
+ {{< notice note >}}
+  **Hint:** The updater.dll implants appear to be dropped from files with two separate themes (IT and research). Think about why that might be the case.  {{< /notice >}}
  
-  Hint: The updater.dll implants appear to be dropped from files with two separate themes (IT and research). Think about why that might be the case.  
+*Question 5.	Are there multiple actors targeting Envolve Labs? If so, can you describe the Tactics, Techniques, and Procedures (TTPs) of each of them? How are they similar? How are they different?* 
+{{< notice note >}}
+  **Hint:** Compare and contrast the diamond model for each of the observed clusters of activity. {{< /notice >}}
  
-5.	Are there multiple actors targeting Envolve Labs? If so, can you describe the Tactics, Techniques, and Procedures (TTPs) of each of them? How are they similar? How are they different? 
-6.  
-  Hint: Compare and contrast the diamond model for each of the observed clusters of activity. 
- 
-7. How might gaps in visibility have contributed to the conclusions of the blog author(s)? How might they contribute to your own analytical assessments? 
+*Question 6. How might gaps in visibility have contributed to the conclusions of the blog author(s)? How might they contribute to your own analytical assessments?*
+{{< /alert >}}
