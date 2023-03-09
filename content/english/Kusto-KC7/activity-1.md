@@ -5,8 +5,9 @@ draft: false
 weight: 6
 ---
 
-<!-- Insert What is KC7 video explaining game and purpose for creating it-->
+
 {{< youtube V7GSmgKLl3Y >}}
+
 {{< notice note >}} As you step through this workshop, you'll notice that each page with a video duplicates the lesson in both video and written form. You can follow one or the other depending on what type of learner you are.{{< /notice >}}
 # What is Threat Intelligence?
 

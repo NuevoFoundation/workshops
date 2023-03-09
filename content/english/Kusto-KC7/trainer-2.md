@@ -2,7 +2,7 @@
 title: "T3: Choosing the Right Event Style"
 description: ""
 draft: false
-weight: 2
+weight: 26
 ---
 # How It Works
 <!--![alt](https://github.com/kkneomis/kc7/blob/master/readme_assets/how.png?raw=true)-->

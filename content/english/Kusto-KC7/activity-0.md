@@ -53,7 +53,7 @@ The big blank space to the right of your cluster list is the query workspace. Th
 
 ### Scoreboard Setup
 
-1.  After going to the Scoreboard website (https://aka.ms/kc7scoreboard), create a user account. Be sure to use a username and password you can remember as it will then immediately ask you to login.
+1.  After going to the Scoreboard website ( https://aka.ms/kc7scoreboard ), create a user account. Be sure to use a username and password you can remember as it will then immediately ask you to login.
 2.  Click the green button **"Join a new game"**
 3.  Once you're in, enter session password: **GAMEON**
 

@@ -2,7 +2,7 @@
 title: "T3: Train-the-Trainer Intro"
 description: ""
 draft: false
-weight: 1
+weight: 24
 ---
 # Welcome New Trainers!   
  

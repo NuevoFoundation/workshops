@@ -22,10 +22,10 @@ Learn Cybersecurity using real threat data.
 <!--![alt](https://www.oceanpointins.com/wp-content/uploads/2020/02/canstockphoto26807912.jpg)-->
 
 By the end of your first day on the job, you should be able to: 
- 
-{{<icon name="ok" size="large">}} Use Azure Data Explorer (web version)   
-{{<icon name="ok" size="large">}} Use multiple data sets to answer targeted questions  
-{{<icon name="ok" size="large">}} Find cyber activity in logs including: email, web traffic, and server logs  
+ (change to bullets)
+-  Use Azure Data Explorer (web version)   
+-  Use multiple data sets to answer targeted questions  
+-  Find cyber activity in logs including: email, web traffic, and server logs  
 {{<icon name="ok" size="large">}} Use multiple techniques to track the activity of APTs (Advanced Persistent Threats)  
 {{<icon name="ok" size="large">}} Use third party data sets to discover things about your attackers   
 {{<icon name="ok" size="large">}} Build a threat intelligence report    

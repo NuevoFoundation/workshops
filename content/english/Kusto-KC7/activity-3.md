@@ -5,9 +5,9 @@ draft: false
 weight: 10
 ---
 
-## Introduction: Welcome to Envolve Labs
+## Introduction: Welcome to EnvolveLabs
 
-Welcome to Envolve Labs Corporation! 🥳 Today is your first day as a Junior Security Operations Center (SOC) Analyst with our company. Your primary job responsibility is to defend Envolve Labs and its employees from malicious cyber actors. 
+Welcome to EnvolveLabs Corporation! 🥳 Today is your first day as a Junior Security Operations Center (SOC) Analyst with our company. Your primary job responsibility is to defend Envolve Labs and its employees from malicious cyber actors. 
 
 <img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/EnvolveLabLogo.png?raw=true" alt= “” width="80%" height="value">
 

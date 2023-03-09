@@ -2,7 +2,7 @@
 title: "T3: Event Schedule & Logistics"
 description: ""
 draft: false
-weight: 3
+weight: 28
 ---
 # Schedule
 
