@@ -7,7 +7,7 @@ weight: 3
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-ior2GcSYa4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Basics of Colors
-While going through all kinds of pictures online, have you ever questioned how  those pictures get their colors? Actually, computers have *RGB* *mode* to represent colors.
+While going through all kinds of pictures online, have you ever questioned how those pictures got their colors? Actually, computers have *RGB* *mode* to represent colors.
 
 ## RGB format
 In Python, we follow a specific format when defining colors:
@@ -27,7 +27,7 @@ Here we are using different amounts of red, green and blue light to get a new co
 This picture represents very approximately how colors mix up:
 ![alt text iframe height="600px" width="40%"](../../media/colors.svg.png "color representation")
 
-Just as we should not use too much pigments, there is also limitation for represent colors. The maximum integer we can use to represent each amount of color is 255 and the minimum integer we can use to represent each amount of color is 0. This is defined in RGB mode.
+Just as we should not use too much pigment, there is also limitation for representing colors. The maximum integer we can use to represent each amount of color is 255 and the minimum integer we can use to represent each amount of color is 0. This is defined in RGB mode.
 
 In all the following materials, "color" means "the color of the light".
 {{% /notice %}}
