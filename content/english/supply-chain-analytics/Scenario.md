@@ -11,27 +11,25 @@ To start off, you’re just going to sell 2 cookies. After polling your friends,
 
 Each batch of cookies is 12 cookies. You can sell one batch of chocolate chip cookies for $20 and one batch of sugar cookies for $15.
 
-
-![Picture of chocolate chip cookie that says $20, and a picture of a sugar cookie that says $15](../img/cookie_price.jpg)
+<img src= ../img/cookie_price.jpg alt="Picture of chocolate chip cookie that says $20, and a picture of a sugar cookie that says $15" width="700" height="300">
 
 You need to buy the ingredients to make the cookies. In supply chain, these are known as “raw materials”. When you did the math, you found that since chocolate chip cookies use more ingredients than sugar cookies, each batch will cost you $10 in raw materials. Each batch of sugar cookies will only cost $7. 
 
 The cookie business is very competitive. To stay in business, you need to make a profit, which means you make more money than you spend. 
 
-{{% notice tip %}}
+{{% panel theme="info" header="How do you calculate profit?"%}}
+Profit = Revenue - Cost
+<br /> <br />
+Revenue is the total money you make selling cookies. When you subtract the cost of the ingredients that were used to make those cookies, you are left with the profit!
 
-How do you calculate profit?
-## Profit = Revenue - Cost
-
-![Image with example of profit in terms of revenue and costs](../img/profit.jpg)
-
-{{% /notice %}}
+{{% /panel %}}
 
 Here’s the catch- you only have a limited number of common ingredients that you have to share between both of the cookies. But each batch requires a different amount. To make it simple, I’ve only included 3 of the main ingredients: eggs, flour, and sugar. 
 
-![Table view of all constraints](../img/constraints_chart.jpg)
+<img src= ../img/constraints_chart.jpg alt="Table view of all constraints" width="750" height="200">
 
-You want to make the most amount of money selling the cookies with the ingredients you have. So how do you calculate that?
+
+You want to make the most amount of money selling the cookies with the ingredients you have. So what can we do?
 
 
 
