@@ -13,7 +13,7 @@ icon: "fab fa-python"
 ### Let's make some music!
 
 Welcome to this introductory guide on how to make music using
-[EarSketch](https://en.wikipedia.org/wiki/EarSketch) & Python. To jump to a particular activity, click on the section link below:
+[EarSketch](https://en.wikipedia.org/wiki/EarSketch) & Python. To jump to a particular activity, you can click on the section link on the navigation bar on the left of the page.
 
 <!--- LEAVING THIS VIDEO HERE IN CASE IT IS NEEDED <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/g0u1CkbpUWQ?start=79" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p> --->
 
@@ -29,7 +29,7 @@ Before we start, make sure that your headphones are working. Try playing the fol
 <figure>
     <audio
         controls
-        src="../audio/good-enough.mp3">
+        src="./audio/good-enough.mp3">
             Test audio to see if your browser supports the audio element. If you cannot play the audio, it likely means your browser does not support this. 
             <code>audio</code> element.
     </audio>
