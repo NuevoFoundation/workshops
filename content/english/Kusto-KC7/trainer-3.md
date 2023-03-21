@@ -1,10 +1,9 @@
 ---
 title: "T3: Event Schedule & Logistics"
-description: ""
 draft: false
 weight: 28
 ---
-# Schedule
+## Schedule
 
 *[PREREQ, 10 min] Gain access to cluster and add it to ADX*
 
@@ -69,7 +68,7 @@ weight: 28
 [10 min] Debrief & Close Session
 
 ---------
-# Logistics
+## Logistics
 
 ### Checklist
 

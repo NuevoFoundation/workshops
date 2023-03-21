@@ -1,18 +1,17 @@
 ---
 title: "T3: Choosing the Right Event Style"
-description: ""
 draft: false
 weight: 26
 ---
-# How It Works
+## How It Works
 <!--![alt](https://github.com/kkneomis/kc7/blob/master/readme_assets/how.png?raw=true)-->
-<img src="https://github.com/kkneomis/kc7/blob/master/readme_assets/how.png?raw=true" alt= “” width="80%" height="value">
+<img src="https://github.com/kkneomis/kc7/blob/master/readme_assets/how.png?raw=true" alt= “GameDiagram” width="80%" height="value">
 
-# Eample Scenario
+## Eample Scenario
 
-<img src="https://github.com/kkneomis/kc7/raw/master/readme_assets/example.png" alt= “” width="70%" height="value">
+<img src="https://github.com/kkneomis/kc7/raw/master/readme_assets/example.png" alt= “HowItWorks” width="70%" height="value">
 
-# Choosing the right event for you
+## Choosing the right event for you
 
 
 ### Audiences
