@@ -14,8 +14,8 @@ After digging for a bit on the phishing activity, you come across another tweet 
 
 {{< notice note >}}
 🤔 Use the tweet to begin your hunt. Let the questions help you pivot through the data to figure out what's going on.     
-- Submit your answers to the Scoreboard at https://kc7cyber.azurewebsites.net/ to get feedback and earn points. Questions below are reflected in the Scoreboard for this section. **There is no master answer key for this section other than the Scoreboard.**
-- **Be sure you use the SecurityLogs2 database for this exercise.**{{< /notice >}}
+- Submit your answers to the "Hackers Sending0 Malware Docs" challenge on the Scoreboard at https://kc7cyber.azurewebsites.net/ to get feedback and earn points. Questions below are reflected in the Scoreboard for this section. **There is no master answer key for this section other than the Scoreboard.**
+- **Be sure you use the SecurityLogs database for this exercise.**{{< /notice >}}
 {{< alert theme="success" >}}
 *Question 1.	How many emails contained the domain notice[.]io?*
 

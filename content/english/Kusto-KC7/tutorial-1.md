@@ -24,7 +24,7 @@ Data alone does not equal intelligence. Security logs on their own don't tell yo
 The Cyber Kill Chain, originally developed by Lockheed Martin, is a framework for identifying and preventing cyber attacks. This framework identifies 7 steps that adversaries must complete in order to achieve their objective.
 - https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html 
 
-<img src= "https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/photo/cyber/THE-CYBER-KILL-CHAIN-body.png.pc-adaptive.1280.medium.png" alt= “CyberKillChain” width="80%" height="value">
+<img src= "https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/photo/cyber/THE-CYBER-KILL-CHAIN-body.png.pc-adaptive.1280.medium.png" alt= “CyberKillChain” width="60%" height="value">
 
 
 ## Understanding the Diamond Model
@@ -32,7 +32,7 @@ The Cyber Kill Chain, originally developed by Lockheed Martin, is a framework fo
 The Diamond Model of Intrusion Analysis provides a method for analyzing the characteristics of cyber attacks. This model emphasizes the relationships between 4 components: **the adversary, capabilities, infrastructure, and victims**. The theory this is based on is that for every cyber attack, there exists "an **adversary** taking a step toward an intended goal by using a **capability** over **infrastructure** against a **victim** to produce a result."
 - https://www.recordedfuture.com/diamond-model-intrusion-analysis 
 
-<img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/diamondmodel.png?raw=true" alt= “DiamondModel” width="70%" height="value">
+<img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/diamondmodel.png?raw=true" alt= “DiamondModel” width="40%" height="value">
 
 ## What is KC7?
 

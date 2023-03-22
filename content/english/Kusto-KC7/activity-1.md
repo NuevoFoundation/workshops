@@ -11,7 +11,7 @@ weight: 4
 Okay Cyber Defenders! The first thing you need to do is set up the environment in which you will be hunting hackers. In order to do that, open the links below and follow the directions on first setting up Azure Data Explorer (ADX) and then logging into the Scoreboard session.
 
 
-<img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/Resources.png?raw=true" alt= “Resources” width="80%" height="value">
+<img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/Resources.png?raw=true" alt= “Resources” width="60%" height="value">
 
 ### Setting Up Azure Data Explorer (ADX)
 
@@ -23,7 +23,7 @@ Let’s get you logged in and started with ADX:
     - If you don't have a Microsoft account already, create one now (they are free to make)
 2.	Click the Query tab on the left side of the screen.
 
-<img src="https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/ADX1.png?raw=true" alt= “ADX1” width="30%" height="value">
+<img src="https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/ADX1.png?raw=true" alt= “ADX1” width="20%" height="value">
 
 Data in ADX is organized in a hierarchical structure which consists of **clusters, databases, and tables**. All of Envolve Labs’s security logs are stored in a single cluster. You’ll need to add this cluster to your ADX interface so you can start looking at the log data
 
@@ -40,7 +40,7 @@ Data in ADX is organized in a hierarchical structure which consists of **cluster
     - Expand the dropdown arrow next to the **SecurityLogs** database.     
     - Click on the **SecurityLogs** database. Once you’ve done this, you should see the database highlighted- this means you’ve selected the database and are ready to query the tables inside.      
 
-<img src="https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/ADX4.png?raw=true" alt= “ADX4” width="30%" height="value">
+<img src="https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/ADX4_updated.png?raw=true" alt= “ADX4_updated” width="30%" height="value">
 
 The big blank space to the right of your cluster list is the query workspace. That’s where you will use KQL code to write what we call queries, which are used to interact with our log data. 
 
@@ -52,8 +52,8 @@ The big blank space to the right of your cluster list is the query workspace. Th
 2.  Click on the green button **"Join a new game"**
 3.  Once you're in, enter the session password: **GAMEON**
 
-You should see the scoreboard now. We'll need this later in the training so feel free to minimize the Scoreboard but keep it ready to use.
-
+You should see the Scoreboard now, when you go to the challenges tab, you should see a list like in the image below. We'll need this later in the training so feel free to minimize the Scoreboard but keep it ready to use.
+<img src="https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/Scoreboard.png?raw=true" alt= “ADX3” width="value" height="value">
 
 {{< alert theme="info" >}} Done! Now that you're set up it's time to get your hands on the data. {{< /alert >}}
 
