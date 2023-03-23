@@ -35,7 +35,7 @@ If you are a trainer please start with the block **T3: Train-the-Trainer Intro**
 Please do not use the Firefox browser for this workshop.
 {{%/notice%}}
 
-
+<details>
 <summary>Table of Contents</summary>
 {{% children %}}
 </details>
