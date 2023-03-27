@@ -4,7 +4,7 @@ draft: false
 weight: 6
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/V7GSmgKLl3Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/F6qFmiV6Alc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 {{< notice note >}} As you step through this workshop, you'll notice that each page with a video duplicates the lesson in both video and written form. You can follow one or the other depending on what type of learner you are.{{< /notice >}}
 ## What is Threat Intelligence?
