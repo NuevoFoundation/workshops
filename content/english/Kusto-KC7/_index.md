@@ -11,16 +11,15 @@ weight: 131
 
 ## Introduction: Learn to Catch the Hacker!
 
-![logo](./Images/KC7Logo.png)
+![logo](Images/KC7Logo.png)
 
 ### Welcome new Cyber Defenders! 
-*---Threat intel is for everyone*
+*--- Threat intel is for everyone*
 Learn Cybersecurity using real threat data.
 **KC7 is a game that teaches you real world cybersecurity skills**
 >KC7 simulates an intrusion by multiple cyber threat actors against a fictitious company that teaches you to identify adversary activity across all seven phases of the Cyber Kill Chain using realistic data.
 
 By the end of your first day on the job, you should be able to: 
- (change to bullets)
 -  Use Kusto Query Language (KQL) to manipulate data in Azure Data Explorer (ADX)  
 -  Use multiple data sets to answer targeted questions  
 -  Find cyber activity in logs including: email, web traffic, and server logs  
@@ -33,6 +32,11 @@ If you are a trainer please start with the block **T3: Train-the-Trainer Intro**
 
 {{%notice warning%}}
 Please do not use the Firefox browser for this workshop.
+{{%/notice%}}
+
+
+{{%notice warning%}}
+Note that KQL, much like every other coding language, is case-sensitive. So keep that in mind when working in Azure Data Explorer (ADX). However, the Cyber Defender Game Scoreboard is NOT case-sensitive.
 {{%/notice%}}
 
 <details>

@@ -19,7 +19,7 @@ ADX is the primary tool used by some cyber defenders for data exploration and an
 
 Let’s get you logged in and started with ADX:
 
-1.	Go to [Azure Data Explorer] https://dataexplorer.azure.com/ and login with your Microsoft account 
+1.	Go to [Azure Data Explorer] (https://dataexplorer.azure.com/) and login with your Microsoft account 
     - If you don't have a Microsoft account already, create one now (they are free to make)
 2.	Click the Query tab on the left side of the screen.
 
@@ -48,7 +48,7 @@ The big blank space to the right of your cluster list is the query workspace. Th
 
 ### Scoreboard Setup
 
-1.  After going to the [Scoreboard website] ( https://aka.ms/kc7scoreboard ), create a user account. Be sure to use a username and password you can remember as it will then immediately ask you to login.
+1.  After going to the [Scoreboard website] https://aka.ms/kc7scoreboard, create a user account. Be sure to use a username and password you can remember as it will then immediately ask you to login.
 2.  Click on the green button **"Join a new game"**
 3.  Once you're in, enter the session password: **GAMEON**
 
