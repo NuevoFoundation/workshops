@@ -5,7 +5,7 @@ weight: 4
 draft: false
 ---
 
-{{< youtube a7zfuGM80QU >}}
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/a7zfuGM80QU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ¡Muy bien! 
 

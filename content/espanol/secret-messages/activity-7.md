@@ -5,7 +5,7 @@ weight: 4
 draft: false
 ---
 
-{{< youtube w0dp9AnGltQ >}}
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/w0dp9AnGltQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ¡Felicitaciones!
 
