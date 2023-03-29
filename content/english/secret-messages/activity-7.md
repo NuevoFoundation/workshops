@@ -5,6 +5,8 @@ weight: 8
 draft: false
 ---
 
+{{< youtube xLAq5HggT6E >}}
+
 Congratulations!
 
 You are very close to completely saving the nation. All that remains is to be able to enter a complete sentence! For this we only have to make a few small changes. First, you need to use the statement to enter the `string:getline()`.

@@ -5,6 +5,8 @@ weight: 3
 draft: false
 ---
 
+{{< youtube umCdJDmdf3s >}}
+
 Awesome! Now let's go a step further. We will now not only print the message, but input the name of the receiver and make our program say "Hello".
 
 To do that we will need **variables**.
