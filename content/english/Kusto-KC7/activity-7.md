@@ -5,7 +5,7 @@ weight: 24
 ---
 <p style="text-align: center;"><iframe src="https://giphy.com/embed/1vZaAcldbX8Xh6lMlV" width="480" height="267" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/jeopardy-the-jeopardy-you-know-1vZaAcldbX8Xh6lMlV">via GIPHY</a></p>
 
-## Let's Play A Round of Jeopardy!
+## Let's Play a Round of Jeopardy!
 
 Greetings Cyber Defenders!
 

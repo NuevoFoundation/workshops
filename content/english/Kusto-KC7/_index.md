@@ -11,7 +11,7 @@ weight: 131
 
 ## Introduction: Learn to Catch the Hacker!
 
-![logo](Images/KC7Logo.png)
+<img src="https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/KC7Logo.png?raw=true" alt="logo" height="20%">
 
 ### Welcome new Cyber Defenders! 
 *--- Threat intel is for everyone*

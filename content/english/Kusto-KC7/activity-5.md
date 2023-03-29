@@ -5,7 +5,7 @@ weight: 20
 ---
 
 
-## Hackers Sending0 Malware Docs
+## Hackers Sending Malware Docs
 
 After digging for a bit on the phishing activity, you come across another tweet from a threat intelligence vendor SolitaryStrike:
 
