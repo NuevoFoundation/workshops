@@ -5,7 +5,7 @@ weight: 4
 draft: false
 ---
 
-{{< youtube NvD_aP73dqI >}}
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/NvD_aP73dqI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ¡Muy bien! 
 
