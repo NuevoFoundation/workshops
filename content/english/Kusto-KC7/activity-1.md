@@ -44,7 +44,7 @@ Data in ADX is organized in a hierarchical structure which consists of **cluster
 
 The big blank space to the right of your cluster list is the query workspace. That’s where you will use KQL code to write what we call queries, which are used to interact with our log data. 
 
-<img src="https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/ADX5.png?raw=true" alt= “ADX5” width="80%" height="value">
+<img src="https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/ADX5.png?raw=true" alt= “ADX5” width="60%" height="value">
 
 ### Scoreboard Setup
 

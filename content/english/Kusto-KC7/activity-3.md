@@ -95,7 +95,7 @@ Email
 
 We can use the distinct operator to find unique values in a particular column. We can use the following query to determine how many of the organization’s users sent emails.
 
-<img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/KQL5.png?raw=true" alt= “KWL5” width="50%" height="value">
+<img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/KQL5.png?raw=true" alt= “KQL5” width="50%" height="value">
 
 This is our first time using a multi-line query with multiple operators, so let’s break it down:
 
@@ -155,11 +155,11 @@ Sometimes we need to use the output of one query as the input for a second query
 - For example, what if we want to look at all the web browsing activity from employees named “Linda”?     
 - First, you would need to go into the **Employees** table and find the IP addresses used by these employees.     
 
-<img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/KQL6.png?raw=true" alt= “KQL6” width="value" height="value">
+<img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/KQL6.png?raw=true" alt= “KQL6” width="80%" height="value">
 
 Then, you could manually copy and paste these IPs into a query against the **OutboundBrowsing** table. Note that we can use the in operator to choose all rows that have a value matching any value from a list of possible values. In other words, the == (comparison) operator looks for an exact match, while the in operator checks for any values from the list.
 
-<img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/KQL7.png?raw=true" alt= “KQL7” width="value" height="value">
+<img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/KQL7.png?raw=true" alt= “KQL7” width="90%" height="value">
 
 Although this is a valid way to get the information you need, it may not be as elegant (or timely) if you had 100 or even 1000 employees named “Linda.”
 

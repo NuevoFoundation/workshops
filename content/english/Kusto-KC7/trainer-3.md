@@ -3,7 +3,9 @@ title: "T3: Event Schedule & Logistics"
 draft: false
 weight: 28
 ---
+{{< alert theme="success" >}}
 ## Schedule
+{{< /alert >}}
 
 *[PREREQ, 10 min] Gain access to cluster and add it to ADX*
 
@@ -25,7 +27,7 @@ weight: 28
  - How do you decide whether the next piece is associated with your actor? 
  - Mapping knowledge of actor to diamond model 
  - How do you know when you’re done? 
- - Gotchas of clustering (misattribution) 
+ - Gotchas of clustering (misattribution)    
 
 [45 min] Scenario 1: Cyber Investigation Introduction
  - Investigating malicious activity (i.e. email threat)
@@ -38,7 +40,7 @@ weight: 28
 
 ### Break [10 min]
  
-### Part 2: Catch the Hacker [1.5 hrs]
+### Part 2: Catch the Hacker [1.5 hrs Including One Bonus Activity]
 
 [5 min] Introduction and High Level Overview of Workshop 
  - Additional Threat Intelligence (TI) threat hunting tools & techniques to pass on before diving back in
@@ -51,24 +53,42 @@ weight: 28
 [10 min] Debrief
  - Select a few questions to show path to solving
 
-**Option 1**         
-[5 min] Phishy Activity
+*(Choose one bonus activity to finish session if time allows)*    
 
-[30 min] Scenario 3: Hackers Sending0 Malware docs
+{{%showanswer "Option 1: Phishy Activity"%}}	
+**Option 1**         
+[5 min] Bonus 1: Phishy Activity
+
+[30 min] Scenario 3: Hackers Sending Malware Docs
  - Free Time to Hunt
 
-[10 min] Debrief & Close Session
+[10 min] Debrief & Close Session {{%/showanswer%}}
 
+{{%showanswer "Option 2: Truth or Misinformation"%}}	
 **Option 2**         
 [5 min] Introduce Blog Analysis *(for more advanced audiences)*
 
-[30 min] Scenario 3: Real or Fake?
+[30 min] Scenario 3: Truth or Misinformation
  - Free Time to Hunt & Analyze Blog 
 
 [10 min] Debrief & Close Session
+{{%/showanswer%}}
 
----------
+{{%showanswer "Option 3: Security Jeopardy"%}}	
+**Option 3**         
+[5 min] Introduce Security Jeopardy 
+[30 min] Play game
+ - Up to instructor on what format to do this in. Could have students play in Scoreboard on their computers and set a timer to see who has the highest points at the end, this would be an 'open internet' quiz. Or use a jeopardy generator to feed in questions for a more knowlegable audience, keep in mind though the other parts of this workshop do not teach these terms already *(best to play with an audience that has prior knowledge of cybersecurity terms in a live session)*
+.
+
+[10 min] Debrief & Close Session
+{{%/showanswer%}}
+
+
+
+{{< alert theme="success" >}}
 ## Logistics
+{{< /alert >}}
 
 ### Checklist
 
@@ -101,6 +121,6 @@ You will also need to add questions or challenges for the game participants to a
 
 ### Additional Resources
 
-Github Repo: https://github.com/kkneomis/kc7       
+KC7 Github Repo: https://github.com/kkneomis/kc7       
 KC7 Website: https://kc7cyber.com/#demos      
 

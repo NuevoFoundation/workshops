@@ -15,7 +15,8 @@ weight: 26
 
 
 ### Audiences
-There are several audiences that can benefit from playing KC7.  You should first identify your intended audience, then you will want to adjust how you configure the game to make sure they get the most out of it 
+There are several audiences that can benefit from playing KC7.  You should first identify your intended audience, then you will want to adjust how you configure the game to make sure they get the most out of it.
+
 | Audience  | Goal  | Needs/Benefits |
 |------ | ------ | ------------------------- |
 | Middle and High School Students | Get excited | No experience with cybersecurity. You can use KC7 to give them excited about cybersecurity and get them exposure to the field. The focus is on making sure they have fun and maybe learn something new. |

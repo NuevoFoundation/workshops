@@ -23,7 +23,7 @@ A security researcher tweeted that the domain *“immune.tech”* was being used
 <img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/CTF1.png?raw=true" alt= “CTF1” width="value" height="value">
 
 {{< alert theme="warning" >}}
-⚠️NOTE! This domain and others encountered in this game are fictional and are not representative of actual malicious activity. It is a commonly used safety protocol to use the format immune[.]tech or domain[.]com when mentioning potentially malicious links online. Adding these brackets around the dot prevents the creation of a clickable link. When searching logs, be sure to remove the brackets from the domain name. {{< /alert >}}
+⚠️NOTE! It is a commonly used safety protocol to use the format immune[.]tech or domain[.]com when mentioning potentially malicious links online. Adding these brackets around the dot prevents the creation of a clickable link. When searching logs, be sure to remove the brackets from the domain name. {{< /alert >}}
 
 According to OSINT research your colleagues conducted, this domain may be used as part of a phishing campaign with the following stages:
 

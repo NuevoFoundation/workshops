@@ -3,18 +3,29 @@ title: "Tutorial 2: New Employee Orientation"
 draft: false
 weight: 10
 ---
+{{%showanswer "DISCLAIMER: All domains, data, and names used in this document, website, or any other materials are fictitious ... (cont.)"%}}
+*DISCLAIMER: All domains, data, and names used in this document, website, or any other materials are fictitious and have been created solely for illustrative and educational purposes. They do not represent any real individuals, companies, or organizations.*
+
+*This document, website, or any other materials, including but not limited to texts, images, graphics, logos, and software, are provided "as is" without warranty of any kind, either express or implied, including but not limited to the implied warranties of merchantability and fitness for a particular purpose.*
+
+*In no event shall the creators or owners of this document, website, or any other materials be liable for any damages, including but not limited to direct, indirect, special, incidental, or consequential damages, arising out of or in connection with the use or inability to use this document, website, or any other materials, even if advised of the possibility of such damages.*
+
+*The creators or owners of this document, website, or any other materials reserve the right to make changes to the content at any time and without notice.*
+ 
+*By accessing or using this document, website, or any other materials, you agree to be bound by the terms and conditions set forth in this disclaimer. If you do not agree to these terms and conditions, you should not access or use this document, website, or any other materials.*
+{{%/showanswer%}}
 
 ## Introduction: Welcome to EnvolveLabs
 
-Welcome to EnvolveLabs Corporation! 🥳 Today is your first day as a Junior Security Operations Center (SOC) Analyst with our company. Your primary job responsibility is to defend Envolve Labs and its employees from malicious cyber actors. 
+Welcome to EnvolveLabs Corporation! 🥳 Today is your first day as a Junior Security Operations Center (SOC) Analyst with our company. Your primary job responsibility is to defend EnvolveLabs and its employees from malicious cyber actors. 
 
 <img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/EnvolveLabLogo.png?raw=true" alt= “” width="50%" height="value">
 
-Envolve Labs is a med-tech startup based in the United States that was founded in 2012. Our mission is to develop a new type of flexible vaccine technology that covers many different viral strains and offers long-lasting immunity (which means no more boosters!) Our initial research has proven this technology is highly effective – we’re planning to start production in Q1 2023. 
+EnvolveLabs is a med-tech startup based in the United States that was founded in 2012. Our mission is to develop a new type of flexible vaccine technology that covers many different viral strains and offers long-lasting immunity. Which would eliminate the need to get booster shots during regular intervals and make vaccinations more accessible. Our initial research has proven this technology is highly effective – we’re planning to start production in Q1 2024. 
 
-EnvolveLabs has a series of key partners who contribute to the success of our business:
+EnvolveLabs has a series of key partners who contribute to the success of our business. As such, we expect our employees to have regular communication with these key partners:
 
-<img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/Envolve2.png?raw=true" alt= “” width="60%" height="value">
+<img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/Envolve1.png?raw=true" alt= “” width="60%" height="value">
 
 Until now, we’ve been laser focused on medical research and meeting production goals. But, as our work becomes more important and successful, we’ve realized the need to invest more in cybersecurity efforts. That’s why we’ve hired you! 
 

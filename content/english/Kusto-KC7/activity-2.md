@@ -138,7 +138,9 @@ Nation Sponsored are actors operating on behalf of their government. Many govern
 
 ### It's time to play a game of Whodunit, where we throw out some scenarios and you try to your hand at attribution!
 
-Question 1:
+<br/>
+
+#### Question 1:
 <img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/WhodunitQ1.png?raw=true" alt= “WhodunitQ1” width="80%" height="value">
 
 #### Which type of adversary do you think did it?
@@ -160,8 +162,9 @@ C. Nation Sponsored<BR>
 <INPUT TYPE="SUBMIT" VALUE="Submit Answer">
 
 </FORM>
+<br/>
 
-Question 2:
+#### Question 2:
 <img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/WhodunitQ2.png?raw=true" alt= “WhodunitQ2” width="80%" height="value">
 
 #### Which type of adversary do you think did it?
@@ -184,7 +187,9 @@ C. Nation Sponsored<BR>
 
 </FORM>
 
-Question 3:
+<br/>
+
+#### Question 3:
 <img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/WhodunitQ3.png?raw=true" alt= “WhodunitQ3” width="80%" height="value">
 
 #### Which type of adversary do you think did it?
