@@ -3,7 +3,7 @@ title: "T3: Event Schedule & Logistics"
 draft: false
 weight: 28
 ---
-{{< alert theme="success" >}}
+{{< alert theme="info" >}}
 ## Schedule
 {{< /alert >}}
 

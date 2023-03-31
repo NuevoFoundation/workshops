@@ -20,7 +20,9 @@ After digging for a bit on the phishing activity, you come across another tweet 
 🤔 **Consider the following questions related to this tip to help you think through the hunt. Some hints are included in the questions below:**
 
 {{%showanswer "Question 1"%}}	
-*How many emails contained the domain notice[.]io?* {{%/showanswer%}}
+*How many emails contained the domain notice[.]io?* 
+
+🤫**Hint:** In which table under the SecurityLogs database might a column contain evidence of this suspicious website/domain name? {{%/showanswer%}}
 
 {{%showanswer "Question 2"%}}	
 *What email address sent the domain notice[.]io* {{%/showanswer%}}
@@ -32,10 +34,14 @@ After digging for a bit on the phishing activity, you come across another tweet 
 *What is the name of the user who clicked on the notice[.]io link?* {{%/showanswer%}}
 
 {{%showanswer "Question 5"%}}	
-*At what timestamp did the user above download the file: "Critical_Security_Path.docx"?* {{%/showanswer%}}
+*At what timestamp did the user above download the file: "Critical_Security_Path.docx"?*    
+
+🤫**Hint:** Files that are created on employees’ devices are captured in the FileCreationEvents log. Try looking there to see which employees downloaded this file. {{%/showanswer%}}
 
 {{%showanswer "Question 6"%}}	
-*How many emails were sent to your organization on January 9th by users at wesellbeakers.com?* {{%/showanswer%}}
+*How many emails were sent to your organization on January 9th by users at wesellbeakers.com?* 
+
+🤫**Hint:** If you don't recall the date/time format for the Email logs, do another 'take 10' query and observe. Will help you in writing your query for this question. {{%/showanswer%}}
 
 {{%showanswer "Question 7"%}}	
 *What other domains are hosted on the same IPs as notice[.]io?* {{%/showanswer%}}

@@ -89,26 +89,26 @@ function checkAnswer(quizForm,
 ### What is Attribution?
 
 One key topic in the world of cybersecurity you'll come across is called **attribution**. Attribution in cybersecurity refers to the process of tracking, identifying, and generally attributing blame on the perpetrator of a cyber attack. Cyber attacks, also known commonly as *hacking*, are an attempt by an adversary to gain access to systems for the purpose of altering, stealing, destroying, or exposing information. Examples of methods to carry out a cyber attack include:
-- **Malware** - Short for malicious software, is any code created with intent to do harm like a virus or a worm
-- **Phishing** - An attack that uses email, text messaging (SMS), or social media to entice a victim to share sensitive information or to download a malicious file, this is much like catfishing
-- **Ransomware** - Malicious code intended to lock victims out of their own systems with in order to exact a ransom, usually money, from the victim in exchange for regaining access to their locked systems or data
+- **Malware** - Short for malicious software, is any code created with intent to do harm like a virus or a worm.
+- **Phishing** - An attack that uses email, text messaging (SMS), or social media to entice a victim to share sensitive information or to download a malicious file, this is much like catfishing.
+- **Ransomware** - Malicious code intended to lock victims out of their own systems with in order to exact a ransom, usually money, from the victim in exchange for regaining access to their locked systems or data.
 - **Password Spray** - An attacker acquires a list of usernames, and then tries logging in across all usernames using the same password, and then repeats the process with new passwords until they gain system access.
 
 ### Challenges to Attribution
 
-Although it is a key part of cybersecurity, attribution can be challenging to do, even for cybersecurity experts. Experts often have to conduct extensive forensic investigations and analyze lots of data looking for ways to prove who could be responsible for attacks. Some things experts look at to help with this are:
-- Historical Data - Are there repeated patterns used across multiple cyber attacks over time that could indicate which malicious actor(s) could be behind this?
-- Intent or Motives - Are there attacks specifically targeting educational institutions, for example? Could a cyber attack coincide with a publicly observable political conflict between countries that cannot afford to be caught shooting missiles, sending military troops, or otherwise engaging in **kinetic warfare** with another country?
-- Geographical Pattern of Attack - Are organizations in a particular country predominantly being targeted? Transversely, is an entity targeting organizations all over the world EXCEPT one country....potentially their own?
+Although it is a key part of cybersecurity, attribution can be challenging to do, even for cybersecurity experts. Experts often must conduct extensive forensic investigations and analyze lots of data looking for ways to prove who could be responsible for attacks. Some things experts look at to help with this are:
+- **Historical Data** - Are there repeated patterns used across multiple cyber attacks over time that could indicate which malicious actor(s) could be behind this?
+- **Intent or Motives** - Are there attacks specifically targeting educational institutions, for example? Could a cyber attack coincide with a publicly observable political conflict between countries that cannot afford to be caught shooting missiles, sending military troops, or otherwise engaging in what is called **kinetic warfare** with another country?
+- **Geographical Pattern of Attack** - Are organizations in a particular country predominantly being targeted? Transversely, is an entity targeting organizations all over the world EXCEPT one country....potentially their own?
 
-The difficulty level of cyber attribution makes it an attractive method of attack for groups with the knowledge, resources, and motivation to attempt it while hiding traces of their involvement. With that in mind, our mission is to help raise the next generation of Cyber Defenders to combat cyber attacks. As difficult as it can be, this type of work has real world impact. Check out some examples of success stories below.
+The difficulty level of cyber attribution makes it an attractive method of attack for groups with the knowledge, resources, and motivation to attempt it while hiding traces of their involvement. With that in mind, our mission is to help raise the next generation of Cyber Defenders to combat cyber attacks. As difficult as it can be, this type of work has real world impact. Check this story below that demonstrates the level of impact Cyber Defenders can have:
 - Exposing POLONIUM activity and infrastructure targeting Israeli organizations: https://vulners.com/mssecure/MSSECURE:A2F131E46442125176E4853C860A816C 
 
 ### Classifications of Adversaries
 
-There are 3 main categories we use to classify adversaries: **hacktavists, cyber criminals, and nation sponsored actors**.
+There are 3 main categories we use to classify adversaries: **hacktivists, cyber criminals, and nation sponsored actors**.
 
-Hacktavists are people who aren't affiliated with a specific government and they're not in it for money typically. They believe passionately in some sort of ideal and use cyber attacks to further their mission.
+Hacktivists are people who aren't affiliated with a specific government and they're not in it for money typically. They believe passionately in some sort of ideal and use cyber attacks to further their mission.
 Key Traits
 - Hacking to spread idealism
 - Seek political or social change

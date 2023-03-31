@@ -8,9 +8,11 @@ weight: 22
 
 ## Cyber Blog Analysis
 
-*For this scenario, we'd like you to take a look at the blog post below and see if you can find evidence that supports or disproves the information posted.*
+For this scenario, we'd like you to take a look at the blog post below and see if you can find evidence in **SecurityLogs2** that supports or disproves the information posted.
 
 ------------------------------------------------------
+*[Start Blog Post]*
+
 <img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/blog1.png?raw=true" alt= “Blog1” width="value" height="value">
 
 
@@ -41,21 +43,27 @@ UnhelpfulDesk malware implants are dropped by files with names that resemble leg
  
  
  
-** Samples of the UnhelpfulDesk implant files detected by VulnerableArray researchers are available on VirusTotal. 
+Note: *Samples of the UnhelpfulDesk implant files detected by VulnerableArray researchers are available on VirusTotal.*
  
 Once successfully deployed, the UnhelpfulDesk implant executes reconnaissance via the following commands: 
- 
-ping 8.8.8.8 whoami 
-net user Administratr 
- 
+ ```
+  ping 8.8.8.8    
+  whoami    
+  net user Administratr 
+ ```
 Following this, the malware will encrypt files on the machine and demand a ransom to decrypt the files. The ransom note is pulled down from Pastebin as shown below: 
+```
+curl https://pastebin[.]com/HOW%20TO%20RECOVER%20YOUR%20FILES.txt 
+```
+
+**Other Indicators of Compromise (IOCs)**
  
-curl https://pastebin.com/HOW%20TO%20RECOVER%20YOUR%20FILES.txt 
- 
-Other IOCs 
- 
-214.217.73[.]146 
-65.69.253[.]41 199.57.49[.]250 install-notice[.]com remarkablevirus[.]tech noreply_info[@]hotmail.com 
+214.217.73[.]146     
+65.69.253[.]41     
+199.57.49[.]250     
+install-notice[.]com      
+remarkablevirus[.]tech        
+noreply_info[@]hotmail.com      
 vaccinejournal[@]yahoo.com 
 
 *[End Blog Post]*
@@ -64,7 +72,9 @@ vaccinejournal[@]yahoo.com
 
 ## Now it’s up to you… 
  
-Our CISO has asked you to evaluate this report from VulnerableArray and determine whether it is accurate. While making your assessment, consider the following questions: 
+Our Chief Information Security Officer (CISO) has asked you to evaluate this report from VulnerableArray and determine whether it is accurate using the logs from the **SecurityLogs2** database.     
+
+🤔  While making your assessment, consider the following questions: 
 
 {{< alert theme="success" >}} 
 *Question 1.	Do all the reported indicators belong to the same cluster of activity? How do you know?*

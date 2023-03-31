@@ -15,7 +15,7 @@ weight: 26
 
 
 ### Audiences
-There are several audiences that can benefit from playing KC7.  You should first identify your intended audience, then you will want to adjust how you configure the game to make sure they get the most out of it.
+There are several audiences that can benefit from playing KC7.  You should first identify your intended audience, then adjust how you configure the game to make sure they get the most out of it.
 
 | Audience  | Goal  | Needs/Benefits |
 |------ | ------ | ------------------------- |

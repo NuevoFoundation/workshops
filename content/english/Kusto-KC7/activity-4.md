@@ -18,7 +18,7 @@ weight: 16
 
 Now that you’ve completed your initial round of training, you are ready to work your first case in the SOC!
 
-A security researcher tweeted that the domain *“immune.tech”* was being used by hackers. Apparently the hackers are sending this domain inside credential phishing emails.
+A security researcher tweeted that the domain *“immune[.]tech”* was being used by hackers. Apparently the hackers are sending credential (logins, passwords, etc) phishing emails from inside this domain.
 
 <img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/CTF1.png?raw=true" alt= “CTF1” width="value" height="value">
 
