@@ -13,7 +13,7 @@ In this section, we will start to learn how to crop your image.
 
 ### Example - Crop cat into half
 
-Now, let us crop out the right half of the cat image
+Now, let us crop out the right half of the cat image.
   
 <img src="../../media/cat.png" width=50%>
 
@@ -38,7 +38,7 @@ for i in range(width // 2):
 newimg.save("Mycat.png")
 ```
 
-Wow! This is our cat after the cropping. We cropped right half of the image!
+Wow! This is our cat after the cropping. We cropped the right half of the image!
 
 <img src="../../media/halfcat.png" width=25%>
 
