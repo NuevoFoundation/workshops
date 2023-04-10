@@ -9,6 +9,8 @@ draft: false
 
 To help Alex live in a beehive, he needs to learn how to create a honeycomb! We will use Python's `turtle` library to draw a honeycomb for Alex.
 
+![alt text height="600px" width="30%"](../media/turtle_honeycomb.png "Turtle honeycomb")
+
 ## Using Trinket
 
 Today you will be using Trinket to learn how to code in Python. Here is an example interactive window that you will use today:

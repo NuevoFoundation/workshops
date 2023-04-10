@@ -5,6 +5,8 @@ weight: 3
 draft: false
 ---
 
+![alt text height="600px" width="30%"](../media/bee_square.png "Bee imagining square")
+
 <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/CRJf-LbXAx4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 Kudos! You helped Alex draw a line! Now let’s step it up and help Alex draw a square. To draw a square, we need to follow these steps:
