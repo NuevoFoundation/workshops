@@ -28,6 +28,8 @@ of the two `setEffect` functions:
 - `effectParameter`: The setting for the effect being used
 - `effectValue`: The value applied to the effectParameter
 
+![alt text height="600px" width="30%"](../img/Robot_2_Pink.PNG)
+
 ## Add setEffect function to your song
 
 Since we are more familiar with using effects, let's add an effect to

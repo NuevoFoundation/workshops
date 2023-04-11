@@ -30,3 +30,5 @@ Your code should now look something like this:
     finish()
 
     {{% /notice %}}
+
+![Robot making a song](https://media.giphy.com/media/9RJRzvIuKGrL3tAchc/giphy.gif)
