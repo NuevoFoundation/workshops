@@ -31,6 +31,7 @@ db, it will sound like our song is fading in over time. To adjust the
 starting point and length of the effect, specify the
 `effectStartLocation` and `effectEndLocation`.
 
+![DJ Nuvi](https://media.giphy.com/media/OTk8FTCvQ5WQQfJqVf/giphy.gif)
 ## Add another setEffect function to your song
 
 1. Add another `setEffect` function call into your code, but ensure all 7 parameters are present in the call.

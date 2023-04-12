@@ -17,9 +17,10 @@ Welcome to this introductory guide on how to make music using
 
 <!--- LEAVING THIS VIDEO HERE IN CASE IT IS NEEDED <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/g0u1CkbpUWQ?start=79" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p> --->
 
-### Meet DJ Nuevo
+### Meet DJ Nuvi
+![DJ Nuvi](https://media.giphy.com/media/OTk8FTCvQ5WQQfJqVf/giphy.gif)
 
-### Nuevo has new headphones! Can you find yours?
+### Nuvi has new headphones! Can you find yours?
 
 You got contacted to make Nuvi's next hit mixtape, but when you get to the studio, Nuvi says their next project is going to be produced all in code. This is something that hasn't been done before, are you up to the challenge? Look around yourself to find your headphones and get ready to
 join him!
