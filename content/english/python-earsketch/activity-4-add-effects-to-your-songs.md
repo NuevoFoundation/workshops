@@ -27,8 +27,35 @@ of the two `setEffect` functions:
 - `effectType`: The specific effect being used
 - `effectParameter`: The setting for the effect being used
 - `effectValue`: The value applied to the effectParameter
+<style>
+* {
+  box-sizing: border-box;
+}
 
-![alt text height="600px" width="30%"](../img/Robot_2_Pink.PNG)
+.column {
+  float: left;
+  width: 33.3%;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+<div class="row">
+  <div class="column">
+    <img src="../img/Robot_2_Pink.PNG" width="400" height="400">
+  </div>
+  <div class="column">
+    <img src="../img/Robot_1_Green.PNG" width="400" height="400">
+  </div>
+  <div class="column">
+    <img src="../img/Robot_2_Blue.PNG" width="400" height="400">
+  </div>
+</div>
 
 ## Add setEffect function to your song
 
