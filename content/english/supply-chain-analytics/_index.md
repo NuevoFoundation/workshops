@@ -8,16 +8,17 @@ download: ""
 icon: "fab fa-link"
 draft: false
 ---
-First things first... what is a supply chain? 
 
-{{% notice note %}}
 ## What is a Supply Chain?
 
 > A supply chain moves a product or service from supplier to customer. It is the people, activities, information, and resources which move the product.
 
-{{% /notice %}}
+<figure>
+<img src= img/sandwich.png alt="Diagram that illustrates the various steps in the suppy chain to make a sandwich including farm, factory, and delivery" width="700" height="450">
+<figcaption align = "center"><b>https://newsela.com/read/supply-chain-shortages-holidays/id/2001025129/</b></figcaption>
+</figure>
 
-![Diagram that illustrates the various steps in the suppy chain to make a sandwich including farm, factory, and delivery](img/sandwich.png)
+<br /><br />
 
 Example: Your parents pack you a yummy sandwich to take to school for lunch the next day. Here’s what it takes to make that happen:
 1.	Farm grows the wheat
@@ -25,12 +26,18 @@ Example: Your parents pack you a yummy sandwich to take to school for lunch the 
 3.	A factory bakes that flour into bread
 4.	A delivery truck will take that bread from the factory and deliver it to the sandwich shop.
 5.	A chef makes the sandwich for you using that bread
-6.	You as the customer goes and buys that bread!
+6.	You (the customer) goes and buys that sandwich!
 
 
-This might sound simple. After all, when you’re craving cookies, all you have to do as the customer is go to the grocery store and pick up the cookies from the shelf. You might not think of all the things that go on behind the scene - and there’s a lot of them. Here’s some examples of roles: 
+This might sound simple. After all, when you’re craving a sandwich, all you have to do as the customer is go to the store and pick one off the shelf. You might not think of all the things that go on behind the scene - and there’s a lot of them. Here’s some examples of roles: 
 
-![Image that shows icons of different jobs such as manufacturing, sales, and delivery that are needed to make a supply chain run](img/jobs.jpg)
+<figure>
+<<img src= img/jobs.jpg alt="Image that shows icons of different jobs such as manufacturing, sales, and delivery that are needed to make a supply chain run" width="700" height="300">>
+<figcaption align = "center"><b>Types of jobs: forecasting, manufacturing, sourcing, negotation, warehouse management, delivery <br /><br />
+https://creativemarket.com/falara/</b></figcaption>
+</figure>
+
+<br /><br />
 
 Nowadays, technology plays a super big part in how supply chains work. Today, I’m going to show you how you can use technology and math to help run your supply chain!
 
