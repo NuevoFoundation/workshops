@@ -5,7 +5,7 @@ weight: 1
 draft: false
 ---
 
-{{< youtube zurhvdsyA_U >}}
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/zurhvdsyA_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 Para ayudar a los reyes, vamos a crear un programa en el lenguaje llamado C++, donde podamos ingresar un mensaje, y el programa lo modifique de una manera determinada para hacerlo secreto.
 

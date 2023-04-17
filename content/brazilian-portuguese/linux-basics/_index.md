@@ -21,7 +21,7 @@ Antes de prosseguirmos, vamos aos requisitos necessários para completar nosso c
 
 {{% /notice %}}
 
-<iframe style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/zfdlPZYlgtk" alt="Um vídeo do YouTube que apresenta o Minicurso de Linux" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zfdlPZYlgtk" alt="Um vídeo do YouTube que apresenta o Minicurso de Linux" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Nossas boas-vindas!
 

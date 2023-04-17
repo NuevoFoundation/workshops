@@ -7,7 +7,7 @@ weight: 5
 draft: false
 ---
 
-<p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/3OpCc7sKcpM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/3OpCc7sKcpM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 Let's take a closer look at the pre-existing code and understand what it means. ![annotated screenshot cannot be displayed](../img/annotated-screenshot-overview.png) We will be placing our new code between the `setTempo()` and `finish()` functions. The `setTempo()` function allows you to set the overall project tempo.
 

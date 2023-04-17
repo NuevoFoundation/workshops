@@ -6,7 +6,7 @@ prereq: "Python Basics: Print, Comments, Functions"
 difficulty: "Intermediate"
 draft: false
 ---
-<p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/R_eo0B8qDW0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/R_eo0B8qDW0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ## Effects in EarSketch
 
@@ -27,6 +27,35 @@ of the two `setEffect` functions:
 - `effectType`: The specific effect being used
 - `effectParameter`: The setting for the effect being used
 - `effectValue`: The value applied to the effectParameter
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+<div class="row">
+  <div class="column">
+    <img src="../img/Robot_2_Pink.PNG" width="400" height="400">
+  </div>
+  <div class="column">
+    <img src="../img/Robot_1_Green.PNG" width="400" height="400">
+  </div>
+  <div class="column">
+    <img src="../img/Robot_2_Blue.PNG" width="400" height="400">
+  </div>
+</div>
 
 ## Add setEffect function to your song
 

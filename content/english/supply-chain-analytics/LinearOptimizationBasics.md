@@ -25,7 +25,7 @@ There are 3 main parts you need to learn: decision variables, objective function
 
 These are the variables you want to optimize (such as number of eggs). The computer will solve this for you and recommend the optimal quantity. 
  
- <img src= ../img/decision_var.jpg alt="Image showing the two types of cookies with #1 and #2 written" width="600" height="300">
+<img src= ../img/decision_var.jpg alt="Image showing the two types of cookies with #1 and #2 written" width="600" height="300">
 
 ## Objective Function
 
@@ -37,5 +37,5 @@ This is the equation that describes what your goal is. For example, you may want
 
 These are the limitations you have. For example, if you have a limited number of eggs, you want to make sure the total eggs you use is less than or equal to the number of eggs you have available. That is how you form your equation. 
 
+
 ![Image that shows the constraint function in terms of pictures of cookies and pictures of eggs](../img/constraint_equation.jpg)
- 

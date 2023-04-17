@@ -22,6 +22,7 @@ Profit = Revenue - Cost
 <br /> <br />
 Revenue is the total money you make selling cookies. When you subtract the cost of the ingredients that were used to make those cookies, you are left with the profit!
 
+
 {{% /panel %}}
 
 Here’s the catch- you only have a limited number of common ingredients that you have to share between both of the cookies. But each batch requires a different amount. To make it simple, I’ve only included 3 of the main ingredients: eggs, flour, and sugar. 
@@ -30,8 +31,4 @@ Here’s the catch- you only have a limited number of common ingredients that yo
 
 
 You want to make the most amount of money selling the cookies with the ingredients you have. So what can we do?
-
-
-
-
 

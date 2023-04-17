@@ -7,9 +7,9 @@ weight: 1
 
 ### Setting up the project
 
-To get started let’s start with importing a module. What does that mean? To do fun stuff with images, we need to unlock some functions to use. To get these functions we need to import a module. In this case if we import the module <b>Pillow</b>, we can use some functions that will help us modify images.
+To do fun stuff with images, we need to unlock some useful functions. To get these functions, we need to import a module. In this case, if we import the module <b>Pillow</b>, we can use some functions that will help us modify images.
 
-Firstly, let’s delete everything in the main.py file. Then, add the following statements:
+First, let’s delete everything in the main.py file. Then, add the following statements:
 
 <pre>
     <font color="blue">from</font> PIL <font color="blue">import</font> Image

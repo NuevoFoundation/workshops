@@ -7,7 +7,7 @@ weight: 11
 draft: false
 ---
 
-<iframe width="100%" height="600px" src="https://www.youtube.com/embed/KWL3b4xY8dA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KWL3b4xY8dA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 In this section, we will take what you have learned so far to create and change your own picture! In this section, you are free to make any combination of basic colorboards, drawing elements, filters, cropping, flipping, changing colors or text. 
 

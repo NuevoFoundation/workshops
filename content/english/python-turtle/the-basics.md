@@ -5,7 +5,7 @@ weight: 2
 draft: false
 ---
 
-<p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/uSQGtnlot2s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/uSQGtnlot2s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 Before Alex can learn how to create a beehive, he must first learn how to draw a colored line. We will add code to the below Trinket window, and we will do this in two parts.
 

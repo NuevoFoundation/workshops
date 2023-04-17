@@ -4,11 +4,11 @@ draft: false
 weight: 4
 ---
 
-<iframe width="100%" height="600px" src="https://www.youtube.com/embed/WvDHBwyM6_U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WvDHBwyM6_U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Pixels 
 
-Pixels are a small area of color on a display screen. Images are formed by pixels on the screen. We can manipulate pixels by changing the **RGB Value**, which are essentially changing the value of red, green and blue color on each pixels. When we see the an image on the screen, it is made of huge numbers of tiny pixel. Each tiny pixels has its only unique position and color it displays.
+Pixels are a small area of color on a display screen. Images are formed by pixels on the screen. We can manipulate pixels by changing the **RGB Value**, which are essentially changing the value of red, green and blue color on each pixels. When we see an image on a screen, it is made of a ton of tiny pixels in many colors all next to each other. However, each tiny pixel has a single color at a unique position in the image.
 
 <div style="width:80%;padding-left:20%;">
     <table>
@@ -73,7 +73,7 @@ img.putpixel( (100,50), (0, 0, 0))
 img.save('pil_black-dot.png')
 ```
 
-After creating a 200x100 yellow image, the `putpixel` function puts a tiny small dot in the middle of this yellow block.  This is one small pixel - in fact, it's so small you may have to expand the image to actually see it!
+After creating a 200x100 yellow image, the `putpixel` function puts a tiny small dot in the middle of this yellow block. This is one small pixel - in fact, it's so small you may have to expand the image to actually see it!
 
 ![alt text](../../media/black-dot.png "image showing pixels third example")
 

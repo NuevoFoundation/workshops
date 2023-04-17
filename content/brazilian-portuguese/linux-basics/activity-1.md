@@ -9,7 +9,7 @@ output:
     css: "../content.css"
 ---
 
-<iframe style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/XAtCQ9S1vSI" frameborder="0" alt="Um vídeo do YouTube explicando como criar uma conta de usuário no Linux" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XAtCQ9S1vSI" frameborder="0" alt="Um vídeo do YouTube explicando como criar uma conta de usuário no Linux" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <div style="margin: 1rem;padding: 2rem 2rem;text-align: center;">
     <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;">
