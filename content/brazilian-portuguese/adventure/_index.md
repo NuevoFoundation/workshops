@@ -1,37 +1,38 @@
 ---
-title: "Python: Choose Your Own Adventure Game"
-description: "An introductory guide on how to make a Choose Your Own Adventure Game in Python"
+title: "Python: Escolha seu próprio jogo de aventura"
+description: "Um guia introdutório sobre como fazer um jogo de aventura em Python"
 date: 2019-07-23T11:45:38-07:00
-difficulty: Intermediate
-prereq: "Python Basics - Writing to Console (Print), Reading from Console, Strings, Variables, Conditional statements"
+difficulty: Intermediário
+prereq: "Noções básicas de Python - Gravando no Console (Imprimir), Lendo do Console, Strings, Variáveis, Instruções condicionais"
 download: ""
 draft: false
 icon: "fab fa-python"
 ---
 
-## Power of Stories
+## O poder das histórias
 
-Hi everyone! Today we are going to be using our engineering superpowers to be the best storytellers. Stories are a great way to connect people, share traditions, and learn new things!
+Olá a todos! Hoje, vamos usar nossos superpoderes de engenharia para nos tornarmos contadores de histórias excepcionais. As histórias são uma maneira incrível de conectar pessoas, compartilhar tradições e adquirir novos conhecimentos!
 
-Turn to your neighbor and share your favorite story! It can be a story that your family members have shared. Your favorite story line from a Marvel movie or your favorite novel.
+Vire-se para o seu vizinho e compartilhe sua história favorita! Pode ser uma história que foi transmitida por sua família, seu enredo favorito de um filme da Marvel ou seu romance predileto.
 
-Now through code, we get the chance to create or re-tell amazing stories and spread our ideas further!
+Agora, com o poder do código, temos a oportunidade de criar ou recontar histórias incríveis e disseminar ainda mais nossas ideias!
 
-## Choose Your Own Adventure Games!
+## Escolha seus próprios jogos de aventura!
 
-Today you will be choosing and designing the plot of the stories that you are being told!
-In Choose Your Own Adventure Games you are the protagonist of the story, and you get to choose the actions that the characters are taking and the outcomes of those actions. You have control!
+Hoje, você terá a oportunidade de escolher e desenhar o enredo das histórias que estão sendo contadas! Nos jogos Choose Your Own Adventure, você é o protagonista da história e pode escolher as ações que os personagens tomam e os resultados dessas ações. Isso lhe dá controle sobre a narrativa!
+
 
 ## Demo
 
-Let’s try it out!
+Vamos experimentar!
 
 <iframe src="https://trinket.io/embed/python/ddbeb74073?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-What did you all think? We’re now going to learn some cool skills that will allow us to create our own stories.
+O que vocês acharam? Agora, vamos aprender algumas habilidades interessantes que nos permitirão criar nossas próprias histórias de maneira criativa e envolvente.
 
-## Table of Contents
+
+## Índice
 <details>
-<summary>Sections</summary>
+<summary>Seções</summary>
 {{% children /%}}
 </details>

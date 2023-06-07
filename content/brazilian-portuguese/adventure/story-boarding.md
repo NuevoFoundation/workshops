@@ -1,38 +1,39 @@
 ---
-title: "Section 1: Story Boarding"
+title: "Seção 1: Roteirização"
 date: 2019-07-23T11:45:38-07:00
 draft: false
 weight: 1
-difficulty: Intermediate
-prereq: "Python Basics - Writing to Console (Print), Reading from Console, Strings, Variables, Conditional statements"
+difficulty: Intermediário
+prereq: "Noções básicas de Python - Gravando no Console (Print), Lendo do Console, Strings, Variáveis, Instruções condicionais"
 ---
 
-## Time to Create
+## Hora de criar
 
-It’s time to start creating our own stories with all the skills we’ve learned today! The question that we are tackling today is how to get the audience involved with the story line, and the answer to this is CODE!
+É hora de começar a criar nossas próprias histórias com todas as habilidades que aprendemos hoje! A questão que estamos abordando hoje é como envolver o público com o enredo, e a resposta para isso é CÓDIGO!
 
-To get started, pull out a piece a paper and start "story boarding". What does that mean? In order to develop a great story that allows the reader to choose between options, one can outline the flow of their story. This is a great planning step, that will you help you tremendously once you start coding!
+Para começar, puxe um pedaço de papel e comece a "storyboarding". O que isso significa? A fim de desenvolver uma grande história que permita ao leitor escolher entre opções, pode-se delinear o fluxo de sua história. Esta é uma ótima etapa de planejamento, que irá ajudá-lo tremendamente quando começar a codificar!
 
-I would start with the 3 or 4 main choices your protagonist is going to make in the story. From there draw arrows for how the different choices your protagonist makes effects the story.
+Eu começaria com as 3 ou 4 principais escolhas que seu protagonista vai fazer na história. A partir daí, desenhe setas para saber como as diferentes escolhas que seu protagonista faz afetam a história.
 
-## Nuvi’s Example
 
-Here an example of how to story board!
-The 4 main choices the protagonist will make is:
+## Exemplo da Nuvi
 
-1. Will it walk home from Robotics practice?
-2. Will it ride a bicycle home from Robotics practice?
-3. Will it play soccer with her friends at home?
-4. Will it go swimming with her friends at home?
+Aqui um exemplo de como fazer storyboard!
+As 4 principais escolhas que o protagonista fará são:
 
-Here is the resulting story board:
+1. Vai voltar para casa a partir da prática de Robótica?
+2. Vai andar de bicicleta para casa a partir da prática de Robótica?
+3. Vai jogar futebol com os amigos em casa?
+4. Vai nadar com os amigos em casa?
+
+Aqui está o storyboard resultante:
 
 ![#Can't find image](../img/story.png)
 
-Now, it’s great to mark up the different section of story board to match with different coding concepts that we’ve learned. If our story needs to make decision, our code we use `if`-`else` statements. If we are asking the audience to give us input to make decisions in our story, we will use **user input**. The actual story that the audience will be reading is **string variables**!
+Agora, é ótimo marcar as diferentes seções do storyboard para corresponder aos diferentes conceitos de codificação que aprendemos. Se nossa história precisa tomar decisões, nosso código usará instruções `if`-`else`. Se estamos pedindo ao público para nos dar informações para tomar decisões em nossa história, usaremos **entrada do usuário**. A história real que o público estará lendo são **variáveis de string**!
 
-Let’s mark it up on the story board! Here is what it looks like:
+Vamos marcá-lo no storyboard! Aqui está como fica:
 
 ![#Can't find image](../img/annotated.png)
 
-It’s really helpful to annotate your story board so you know what code related topics we can use! We see that the story line will be comprised off text or `string` variables. The user-input can be the reader typing whether they want to "walk" or "bike" or choose "soccer" or "swim". The user can choose their story based off the input they give to the computer! The different paths that Nuvi can take are a series of decisions. Luckily, we learned how to use `if`–`else` statements, so the Nuvi can easily choose different paths the story can take!
+É realmente útil anotar seu storyboard para saber quais tópicos relacionados ao código podemos usar! Vemos que a linha da história será composta por texto ou variáveis `string`. A entrada do usuário pode ser o leitor digitando se querem "caminhar" ou "andar de bicicleta" ou escolher "futebol" ou "nadar". O usuário pode escolher sua história com base na entrada que dá ao computador! Os diferentes caminhos que Nuvi pode tomar são uma série de decisões. Felizmente, aprendemos como usar instruções `if`-`else`, então Nuvi pode facilmente escolher diferentes caminhos que a história pode tomar!
