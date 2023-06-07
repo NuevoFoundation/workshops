@@ -27,4 +27,4 @@ Please do not use the Firefox browser for this workshop.
 
 ## Table of Contents
 
-{{% children %}}
+{{% children /%}}

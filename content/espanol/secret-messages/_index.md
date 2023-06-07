@@ -23,5 +23,5 @@ El Rey ha pensado en ti, el nuevo programador de la corte, para que desarrolles 
 ## Contenido
 <details>
 <summary>Secciones</summary>
-{{% children %}}
+{{% children /%}}
 </details>

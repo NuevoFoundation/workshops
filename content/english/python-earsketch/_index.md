@@ -42,5 +42,5 @@ Before we start, make sure that your headphones are working. Try playing the fol
 
 <details close>
 <summary>Table of Contents</summary>
-{{% children %}}
+{{% children /%}}
 </details>

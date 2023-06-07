@@ -40,5 +40,5 @@ On this adventure, you will need to solve the puzzles marked with `PUZZLE` tags 
 
 <details close>
 <summary>Table of Contents</summary>
-{{% children %}}
+{{% children /%}}
 </details>

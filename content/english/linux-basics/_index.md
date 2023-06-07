@@ -43,5 +43,5 @@ The biggest differences between Windows, macOS, and Linux is what they are best 
 
 <details close>
 <summary>Table of Contents</summary>
-{{% children %}}
+{{% children /%}}
 </details>

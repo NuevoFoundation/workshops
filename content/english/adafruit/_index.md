@@ -22,5 +22,5 @@ The components we will use for the project are listed below. Make sure you have 
 
 <details close>
 <summary>Table of Contents</summary>
-{{% children %}}
+{{% children /%}}
 </details>

@@ -27,4 +27,4 @@ En este curso, seguiremos el ejemplo de nuestro pato amarillo, amante a la músi
 
 ## Contenido
 
-{{% children %}}
+{{% children /%}}

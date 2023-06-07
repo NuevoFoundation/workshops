@@ -11,4 +11,4 @@ icon: "fas fa-user-secret"
 
 ## Conteúdo
 
-{{% children %}}
+{{% children /%}}

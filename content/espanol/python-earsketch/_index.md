@@ -18,7 +18,7 @@ Para ir a alguna actividad en específico, darle clic a cualquier sección.
 <details>
 <summary>Secciones</summary>
 <br>
-{{% children %}}
+{{% children /%}}
 </details>
 
 ![alt text height="600px" width="50%"](img/screenshot-overview.png "Earsketch-play-overview")

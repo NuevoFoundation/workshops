@@ -28,5 +28,5 @@ Al leer el correo electrónico, **Alice** suspiró: "¡Bob, has sido `phished`!"
 
 <details>
 <summary>Sections</summary>
-{{% children %}}
+{{% children /%}}
 </details>

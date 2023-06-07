@@ -41,5 +41,5 @@ Note that KQL, much like every other coding language, is case-sensitive. So keep
 
 <details>
 <summary>Table of Contents</summary>
-{{% children %}}
+{{% children /%}}
 </details>

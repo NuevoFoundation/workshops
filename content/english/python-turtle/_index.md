@@ -22,5 +22,5 @@ Alex lives in a country named the Turtle Islands. Residents of the Turtle Island
 ## Table of Contents
 <details>
 <summary>Sections</summary>
-{{% children %}}
+{{% children /%}}
 </details>

@@ -26,5 +26,5 @@ If at any time you get stuck or run into problems, access the [Help, I am stuck!
 
 <details open>
 <summary>Topics</summary>
-{{% children %}}
+{{% children /%}}
 </details>
