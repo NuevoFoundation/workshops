@@ -1,20 +1,22 @@
 ---
-title: "Putting it together"
-date: 2019-09-03T17:53:41-07:00
+title: "Create a basic website"
+date: 2023-07-06T17:53:41-07:00
 draft: false
 weight: 3
 ---
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/n-bO0ku6QTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+## How does a programmer see your website?
 
-For your browser to understand what each element of your site is, we need to label them with HTML tags. HTML stands for `Hypertext Markup Language`. Tags are words surrounded by the symbols `<`and`>`. For example, the `<img>` tag tells your browser “this is an image.” The `<button>` tag tells it “this is a button.”
+For your browser to understand what each element of your site is, we need to label them with HTML tags. HTML stands for `Hypertext Markup Language`.
 
-![alt text](../media/web-tags-sm.png "html tags graphic")
-
-Tags can also be used to organize your webpage! The image below outlines the structure of a basic webpage. The head usually contains the additional libraries used and the page title, while the body contains most of the displayed content.
+We can use these HTML tags to organize your website! This picture outlines the structure of a basic webpage. The head usually contains the additional libraries used and the page title, while the body contains most of the displayed content.
 
 <p style="text-align: center; "><img src="../media/htmlTagStructure.png" alt="html tag structure" width="500"/></p>
 
 Most tags need an opening tag and a closing tag. For example, you will see all pages have an `<html>` opening tag at the top, and a closing `</html>` tag at the end. This tells the browser where the HTML elements start and where they end. Think of tags like quotation marks; for example, the computer will understand that everything in between the tags `<html>` and `</html>` is part of an HTML website.
+
+### Where's the header tag used on this Nuevo Foundation page?
+
+### Can you find an example of where the paragraph tag is used?
 
 There are also a few tags, like the image tag `<img>`, that are self-closing, meaning that they only need an opening tag, and do not need a closing tag.
 
