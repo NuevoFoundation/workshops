@@ -14,7 +14,7 @@ weight: 1
 
 
 ## Overview
-<img src="../images/GitHub.png" height="200"/>
+<img alt="GitHub logo" src="../images/GitHubLogo.png" height="200"/>
 
 Imagine... you are working on a group project with 2 people named Maria and Kyle. Since all three of you live in different parts of the world with different time zones, it is hard to find time to work with each other. Although you could send your files to each other through Discord, Teams, or Email, it is hard to keep track of all the changes in your work!
 
