@@ -78,7 +78,7 @@ Colocar instruções de `impressão` em seu código é uma maneira suja, mas às
 - Fique de olho nos valores à medida que são impressos.
 {{% /expand %}}
 
-{{% expandir "**Clique para mostrar a resposta**" %}} 
+{{% expand "**Clique para mostrar a resposta**" %}} 
 A chamada recursiva para pesquisa na metade inferior da matriz está pesquisando na metade superior. 
 
 Para corrigi-lo, os argumentos `lo` e `hi` do `rbin_search()` precisam ser `lo` e `middle-1`.
