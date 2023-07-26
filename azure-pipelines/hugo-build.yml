@@ -13,5 +13,5 @@ steps:
   - script: sudo dpkg -i $(Pipeline.Workspace)/hugo*.deb
     displayName: Install Hugo
     # 3. Executes Hugo to build site with specified arguments
-  - script: hugo --baseUrl '${{ parameters.hugo_config_baseUrl }}' --minify
+  - script: hugo --baseURL '${{ parameters.hugo_config_baseUrl }}' --minify
     displayName: Run Hugo
