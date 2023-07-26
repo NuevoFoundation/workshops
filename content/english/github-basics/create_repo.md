@@ -5,7 +5,7 @@ draft: false
 weight: 3
 ---
 
-A **repository** in GitHub is like a Folder on your computer: it is a place to store all of your files/work for a project.
+A **repository** in GitHub is like a Folder on your computer: it is a place to store all of your files/work for a project. Think of them as treasure chests holding all your project files. With Git, everyone on your team can work on their copy of the project and merge their discoveries later!
 
 There are two different ways to create a repository in GitHub:
 1. Click on the plus sign on the top right corner of the page, then select "New Repository":
