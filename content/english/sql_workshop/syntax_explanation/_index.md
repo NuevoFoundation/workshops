@@ -37,10 +37,10 @@ command in hopes that you will be able to overcome the challenges that have yet 
 
 ![Syntax](assets/Tutorial.png)
 
-<!--{{%notice warning%}}
+<!--{{% notice warning %}}
 * Column and database names are **case sensitive**, this means that if the names are all lower-case, please make sure they are lower-case when you type them!
 * Please don't forget the semicolon at the end of a SQL command!
-{{%/notice%}}-->
+{{% /notice%}}-->
 
 Hopefully our advice will help you in your journey. Good Luck, Space Cadet!
 

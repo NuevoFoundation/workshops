@@ -8,10 +8,10 @@ You can change the style and behavior of the theme without touching it.
 * inject your own html,  css or js into the page
 * overide existing css or js with your own files
 
-{{%notice note %}}
+{{% notice note  %}}
 No needs to copy the entire theme to customize some parts 
 Bellow are solutions to avoid copying the entire theme into your own codebase.
-{{%/notice%}}
+{{% /notice%}}
 
 ## Add custom CSS and JS or HTML into the \<head\> part of each page :
 

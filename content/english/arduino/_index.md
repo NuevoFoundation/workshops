@@ -45,5 +45,5 @@ Today we will work on a few activities to show you some of the capabilities of t
 
 <details close>
 <summary>Table of Contents</summary>
-{{% children %}}
+{{% children /%}}
 </details>

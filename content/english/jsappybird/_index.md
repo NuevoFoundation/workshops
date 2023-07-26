@@ -52,5 +52,5 @@ Any activities under the **Activity** sections will be done in this browser tab.
 
 <details close>
 <summary>Table of Contents</summary>
-{{% children %}}
+{{% children /%}}
 </details>

@@ -57,4 +57,4 @@ The examples were written on a single Replit. We'll be providing all the command
 
 ## Workshop Contents
 
-{{% children %}}
+{{% children /%}}

@@ -34,15 +34,15 @@ You have successfully arrived on the Planet of Fun! The Galactic Federation has 
 ## Task 3: Talk to the inhabitants
 You need to talk to the inhabitants of the Planet of Fun to discover what the problem is. Find out how many cities there are on the planet using the `COUNT()` command!
 
-{{%notice info%}}
+{{% notice info %}}
 When we use the `SELECT * FROM planet;` command, the table above is displayed. But in order to check the number of cities, we can use the `COUNT()` command.
-{{%/notice%}}
+{{% /notice%}}
 
 ![count](assets/count.png)
 
 ### Question: Using `COUNT()`, what command will display the number of cities on the Planet of Fun?
 
-{{%notice tip%}}
+{{% notice tip %}}
 
 Remember to type in the answer and not copy and paste the command. Press the Enter button on the terminal to check if you have the correct command. Use the Reset button to start over.
 
@@ -50,7 +50,7 @@ Remember to type in the answer and not copy and paste the command. Press the Ent
 * Hint 2: You can use either the asterix (*) or a column name
 * Hint 3: Don't forget the semicolon (;)
 
-{{%/notice%}}
+{{% /notice%}}
 
 {{< rawhtml >}}
   <div class="content_scaler">

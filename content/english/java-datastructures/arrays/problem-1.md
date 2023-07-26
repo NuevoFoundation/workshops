@@ -10,11 +10,11 @@ weight: 2
 
 We've created an array of existing restaurants in our system! We need your help to print out everything so we do not include the same restaurants.
 
-{{%notice tip%}}
+{{% notice tip %}}
 1. Use a `for` Loop to print out the contents of the array.
 2. Use the `length()` method to find the size of the array.
 3. Look at the example below.
-{{%/notice%}}
+{{% /notice%}}
 
 If we are given the array below:
 
@@ -34,12 +34,12 @@ String answer = "Burger King,Chipotle,Panda Express,McDonalds";
 
 Oh no! McDonalds is out of food! Change the restaurant list before people start ordering from McDonalds, and be disappointed with no food. Luckily "Pizza Hut" is willing to help out! Replace McDonalds with Pizza Hut in the index.
 
-{{%notice tip%}}
+{{% notice tip %}}
 1. Launch 
 1. Find the index of McDonalds first
 2. Remember quotes around `"Pizza Hut"`
 3. Look at the example below!
-{{%/notice%}}
+{{% /notice%}}
 
 ```js javascript
 String[] restaurants = {"Burger King", "Chipotle", "Panda Express", "McDonalds"};

@@ -17,5 +17,5 @@ In this workshop, we'll be using the wireless Bluetooth radio on a micro:bit to 
 
 <details close>
 <summary>Table of Contents</summary>
-{{% children %}}
+{{% children /%}}
 </details>

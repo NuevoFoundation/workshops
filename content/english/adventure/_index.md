@@ -33,5 +33,5 @@ What did you all think? We’re now going to learn some cool skills that will al
 ## Table of Contents
 <details>
 <summary>Sections</summary>
-{{% children %}}
+{{% children /%}}
 </details>

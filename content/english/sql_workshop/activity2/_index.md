@@ -24,10 +24,10 @@ draft: false
 You need to program your rocket ship GPS to go to the Planet of Fun by rearranging the code blocks. To find the coordinates,
 the Galactic Federation has given you the next SQL command: `WHERE`!
 
-{{%notice info%}}
+{{% notice info %}}
 ### What the command does:
 The `WHERE` command allows you to only show data that you want.
-{{%/notice%}}
+{{% /notice%}}
 
 ![Explain](assets/Where_Explain.png)
 
@@ -35,7 +35,7 @@ The `WHERE` command allows you to only show data that you want.
 
 ![Ex](assets/Where_Ex.png)
 
-{{%notice info%}}
+{{% notice info %}}
 1. The `SELECT * FROM` database block that we learned from the previous activity allows us to choose a database to look through.
 
 2. The `WHERE` command allows us to narrow down what data is displayed depending on the condition (the green blocks in the image below). A condition is a requirement you are looking for. Conditions do not have to follow the example above, but the most common use of conditions are looking for rows that contain specific information.
@@ -49,7 +49,7 @@ The `WHERE` command allows you to only show data that you want.
 6. You can replace 'text' with any word you are looking for in the database.
 
 7. Semicolons act as the end of a SQL command, like a period at the end of a sentence.
-{{%/notice%}}
+{{% /notice%}}
 
 #### Using the database called 'galaxy' that has a column labeled 'planet', find the coordinates for the Planet of Fun!
 

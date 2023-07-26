@@ -27,13 +27,13 @@ You are tasked to choose which food to serve at the party! Each city has their o
 ![Explain](assets/group.png)
 
 ### Task 11: Using the database called 'planet' with the column 'favorite_food', find out what to bring to the party!
-{{%notice tip%}}
+{{% notice tip %}}
 Hint: The command follows closely to the example above.
 
 BONUS: Combine the `COUNT()` and `GROUP BY` commands to show the number of cities that like each food.
 (Review activity 3 and activity 4 for help)
 
-{{%/notice%}}
+{{% /notice%}}
 
 {{< rawhtml >}}
 <div class="content_scaler">

@@ -26,7 +26,7 @@ Visit the [theme documentation](http://docdock.netlify.com/) to see what is goin
 
 ## Installation
 
-Check that your Hugo version is minimum `0.30` with `hugo version`. We assume that all changes to Hugo content and customizations are going to be tracked by git (GitHub, Bitbucket etc.). Develop locally, build on remote system.
+Check that your Hugo version is minimum `0.115` with `hugo version`. We assume that all changes to Hugo content and customizations are going to be tracked by git (GitHub, Bitbucket etc.). Develop locally, build on remote system.
 
 To start real work:
 

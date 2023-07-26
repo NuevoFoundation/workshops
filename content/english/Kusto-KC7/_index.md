@@ -30,16 +30,16 @@ By the end of your first day on the job, you should be able to:
 
 If you are a trainer please start with the block **T3: Train-the-Trainer Intro** before going through the workshop. If you are a student please continue on to **Activity 1: Login & Setup of the Cyber Environment**
 
-{{%notice warning%}}
+{{% notice warning %}}
 Please do not use the Firefox browser for this workshop.
-{{%/notice%}}
+{{% /notice%}}
 
 
-{{%notice warning%}}
+{{% notice warning %}}
 Note that KQL, much like every other coding language, is case-sensitive. So keep that in mind when working in Azure Data Explorer (ADX). However, the Cyber Defender Game Scoreboard is NOT case-sensitive.
-{{%/notice%}}
+{{% /notice%}}
 
 <details>
 <summary>Table of Contents</summary>
-{{% children %}}
+{{% children /%}}
 </details>

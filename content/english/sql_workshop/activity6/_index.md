@@ -24,15 +24,15 @@ draft: false
 You need to explore the planet and find the first Legendary Totem of Fun - The Confetti Cannon of Fun. 
 Legends say that this cannon will never stop shooting confetti and it is a symbol of never-ending peace and entertainment. 
 
-{{%notice info%}}
+{{% notice info %}}
 **Your only hint is that the artifact is created on 1738-09-12.**
-{{%/notice%}}
+{{% /notice%}}
 To help you out, the Galactic Federation has sent you a brief tutorial on how to compare numbers in the database.
 
 ![Explain](assets/Comparator.png)
 ![Example](assets/Example.png)
 
-{{%notice note%}}
+{{% notice note %}}
 * In example 2, the `!=` symbols could be used instead of `<>` to give the same output.
 * Notice the value in `[value to compare]` in `SELECT * FROM [database] WHERE [column_name] [Comparator] [value to compare];` Note that numbers do not need single quotation marks around them but date/words need to be inside single quotation marks! If Transportation had 2 more columns called "Name" that stored name of the vehicle and "Date" that stored the date of manufacture of the vehicle, we would query them like this:
 
@@ -41,11 +41,11 @@ To help you out, the Galactic Federation has sent you a brief tutorial on how to
     `SELECT * FROM Transportation WHERE Name = 'myrocket';`
 
     `SELECT * FROM Transportation WHERE Date > '2021-01-01';`
-{{%/notice%}}
+{{% /notice%}}
 
 ### Using the database called 'items' with the column labeled 'date_created', find out which artifact is the Legendary Totem of Fun: Confetti Cannon
 
-{{%notice tip%}}
+{{% notice tip %}}
 You can display the database using the command from activity 1.
 
 * Hint 1: The artifact is created on '1738-09-12' (Use single quotation marks around the date).
@@ -55,7 +55,7 @@ You can display the database using the command from activity 1.
 * Hint 5: What symbol do you need at the end of a SQL command?
 
 * BONUS: Display all items created on and after '1738-09-12' as well!
-{{%/notice%}}
+{{% /notice%}}
 
 <!-- SQL Type In Activity -->
 {{< rawhtml >}}

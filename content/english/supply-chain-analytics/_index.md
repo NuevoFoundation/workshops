@@ -45,5 +45,5 @@ Nowadays, technology plays a super big part in how supply chains work. Today, Iâ
 
 <details close>
 <summary>Table of Contents</summary>
-{{% children %}}
+{{% children /%}}
 </details>

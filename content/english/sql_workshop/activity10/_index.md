@@ -23,11 +23,11 @@ draft: false
 You have successfully found both Legendary Totems of Fun! The Leader thanks you for finding their lost treasure.
 
 ### The Leader also reveals a secret:
-{{%notice info%}}
+{{% notice info %}}
 The Legendary Totems of Fun cannot unleash their full potential until they are merged together. They can only be merged together by the "Inventor".
 
 Your next step is to find the person who can combine both Legendary Totems of Fun. The "Inventor" will only appear if you throw a huge party!
-{{%/notice%}}
+{{% /notice%}}
 
 ## Task 10: Help the inhabitants set up for the party!
 The whole planet is invited! Help the citizens prepare for the party by finding out how many guests will be attending!
@@ -38,12 +38,12 @@ Let's go over the `SUM` Command!
 
 #### Using the database 'planet' and the `SUM()` command, find the total number of guests that will attend this amazing party!
 
-{{%notice tip%}}
+{{% notice tip %}}
 Use the command from activity 1 to display the entire database.
 
 * Hint 1: The command follows very closely to the example and the `AVG()` example (previous task).
 * Hint 2: The 'population' column holds information on the number of individuals per city.
-{{%/notice%}}
+{{% /notice%}}
 
 <!-- SQL Type In Activity -->
 

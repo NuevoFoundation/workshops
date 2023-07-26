@@ -23,10 +23,10 @@ draft: false
 Everyone is having a good time at the party! The inventor has also arrived, now we need to figure out who the inventor is! No one knows what the inventor looks like, but the Leader has given you hints on how to find the inventor!
 
 ### Task 12: Display the entire database called "people" so we can look at all the attendees.
-{{%notice tip%}}
+{{% notice tip %}}
 * Hint 1: The command you use should display the entire "people" database.
 * Hint 2: The command is similar to the one in activity 1 (Learn the `SELECT` command).
-{{%/notice%}}
+{{% /notice%}}
 
 {{< rawhtml >}}
 <div class="content_scaler">
@@ -52,13 +52,13 @@ Everyone is having a good time at the party! The inventor has also arrived, now 
 {{< /rawhtml >}}
 
 ### Here are some hints to figure out who the "Inventor" is:
-{{%notice info%}}
+{{% notice info %}}
 * The Inventor's favorite food is Pizza.
 
 * The Inventor's favorite subject is Math.
 
 * The Inventor's favorite movie is "Big Hero 6".
-{{%/notice%}}
+{{% /notice%}}
 
 {{< rawhtml >}}
 <div style="max-width:600px">
