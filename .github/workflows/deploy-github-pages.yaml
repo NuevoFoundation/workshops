@@ -19,7 +19,7 @@ jobs:
           hugo-version: '0.115.4'
 
       - name: Build
-        run: hugo --baseUrl "https://nuevofoundation.github.io/workshops/" --minify
+        run: hugo --baseURL "https://nuevofoundation.github.io/workshops/" --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
