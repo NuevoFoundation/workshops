@@ -10,10 +10,10 @@ weight: 4
 
 Suppose we have an array containing the costs of various foods. Find the average cost of the food!
 
-{{%notice tip%}}
+{{% notice tip %}}
 1. You can use a `for` loop to go through the array!
 2. Remember, the average of a list is the total divided by the number of items
-{{%/notice%}}
+{{% /notice%}}
 
 <a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/Problem-4-averageRestaurant" target="_blank">Launch Replit</a>
 
@@ -21,10 +21,10 @@ Suppose we have an array containing the costs of various foods. Find the average
 
 The cost of each item in the menu is all over the place! Help us sort the array from least to greatest.
 
-{{%notice tip%}}
+{{% notice tip %}}
 1. Think of a way to sort the array (there are many different ways to do so)!
 2. Look at the example!
-{{%/notice%}}
+{{% /notice%}}
 
 If we are given this array below, 
 ```js javascript

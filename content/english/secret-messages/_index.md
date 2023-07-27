@@ -21,5 +21,5 @@ You've been selected by the King to be the next Court Developer, and create an e
 ## Content
 <details>
 <summary>Sections</summary>
-{{% children %}}
+{{% children /%}}
 </details>

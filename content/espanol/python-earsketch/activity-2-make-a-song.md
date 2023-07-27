@@ -16,7 +16,7 @@ Ahora que has aprendido a añadir sonidos a Earsketch, vamos a tratar de hacer u
 5. Repite estos pasos hasta que tenga cuatro sonidos de audio diferentes en su canción
 
 Tu código debe parecerse a este::
-    {{% notice %}}
+    {{% notice info %}}
 
     from earsketch import *\
     init()

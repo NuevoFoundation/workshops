@@ -34,5 +34,5 @@ In this course, we will follow the lead of a music-loving yellow duck named <b>P
 
 <details close>
 <summary>Table of Contents</summary>
-{{% children %}}
+{{% children /%}}
 </details>

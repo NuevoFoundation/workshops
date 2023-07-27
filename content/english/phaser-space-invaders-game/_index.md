@@ -23,5 +23,5 @@ In the end, your game will look something like this:
 
 <details close>
 <summary>Table of Contents</summary>
-{{% children %}}
+{{% children /%}}
 </details>

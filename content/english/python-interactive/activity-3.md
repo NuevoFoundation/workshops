@@ -7,7 +7,7 @@ draft: false
 ## Welcome Customer to your Restaurant & Display Menu
 Now that we have both a restaurant banner to display to the customer and a menu stored in your Python Program, let's display your menu to the customer and welcome them in. In this activity, we're going to write 2 helper functions to accomplish this.
 
-{{% notice %}}
+{{% notice info %}}
 ## Helper Functions
 Helper functions are functions that get called in a main function that runs all of the code for this program. Each of these helper functions works toward one simple goal.
 {{% /notice %}}

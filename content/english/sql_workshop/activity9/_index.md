@@ -17,7 +17,7 @@ draft: false
 <script type="text/javascript" src="_activity9.js"></script>
 <link rel="stylesheet" href="_activity9.css" type="text/css"></link>
 
-{{< youtube XLm2T6XBltg >}}
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/XLm2T6XBltg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 
 ## Task 9: Unlock the Infinite Buffet Table:
@@ -25,22 +25,22 @@ draft: false
 You discovered the location of the Legendary Infinite Buffet Table! However, it is locked behind a door that 
 will only unlock if you find the secret number. 
 
-{{%notice info%}}
+{{% notice info %}}
 Your only clue is that the combination is the first two digits of the average city population.
-{{%/notice%}}
+{{% /notice%}}
 
 **Let's look at the `AVG()` command!**
 
 ![Explain](assets/AVG.png)
 
 #### Using the database 'planet' and the `AVG()` command, find the first two digits of the average city 'population'!
-{{%notice tip%}}
+{{% notice tip %}}
 Use the command from activity 1 to view the entire database.
 
 * Hint 1: The command follows very closely to the example.
 
 * Hint 2: How do you use 'population' with the `AVG()` command?
-{{%/notice%}}
+{{% /notice%}}
 <!-- SQL Type In Activity -->
 
 {{< rawhtml >}}
@@ -68,9 +68,9 @@ Use the command from activity 1 to view the entire database.
 {{< /rawhtml >}}
 
 ### Figure out the combination to unlock the vault!
-{{%notice info%}}
+{{% notice info %}}
 The clue to the combination is at the top of this page!
-{{%/notice%}}
+{{% /notice%}}
 
 {{< rawhtml >}}
 

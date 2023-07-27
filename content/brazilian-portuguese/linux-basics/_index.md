@@ -44,5 +44,5 @@ Existem diferenças e particularidades entre Windows, macOS e Linux. O Windows �
 
 <details open>
 <summary>Seções</summary>
-{{% children %}}
+{{% children /%}}
 </details>

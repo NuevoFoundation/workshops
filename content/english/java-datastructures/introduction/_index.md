@@ -23,12 +23,12 @@ Data structures are awesome and powerful. By using code, we can store lots of in
 
 Storing items into these structures can let us access everything quickly and effectively - perfect for Nuevo Eats! Restaurants, foods, employees, and locations are just some of the examples we can use Data Structures to our advantage.
 
-{{%notice tip%}}
+{{% notice tip %}}
 
 Data structures can store **anything**, much more than what we mentioned above!
 It can even store different data structures inside data structures!
 
-{{%/notice%}}
+{{% /notice%}}
 
 There are many different types of data structures, just like there are many ways to organize toys!
 

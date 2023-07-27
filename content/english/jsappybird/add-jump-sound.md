@@ -20,6 +20,8 @@ In the Replit window below, we started the code with the line `jumpSound.play();
 
 In your console you should see a Jsappy bird jumping with sound after you press **run**.
 
+{{% /notice %}}
+
 # Bonus activities
 
 {{% notice note %}}

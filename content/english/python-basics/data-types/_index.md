@@ -25,5 +25,5 @@ In this section, we're going to focus on strings, numbers, and booleans. Let's g
 
 <details open>
 <summary>Topics</summary>
-{{% children %}}
+{{% children /%}}
 </details>

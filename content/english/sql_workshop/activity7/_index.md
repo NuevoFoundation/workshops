@@ -17,7 +17,7 @@ draft: false
 <script type="text/javascript" src="../default/db.js"></script>
 <script type="text/javascript" src="_activity7.js"></script>
 
-{{< youtube H9BWcnE2a6k >}}
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/H9BWcnE2a6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 
 ## Task 7: Find the Key to Get to the Confetti Cannon!
@@ -30,7 +30,7 @@ and can only be unlocked with the smallest key on the planet!
 ![Explain](../activity5/assets/max_min.png)
 
 #### Using the database called <i>'items'</i> with columns labeled <i>'object'</i> and <i>'height'</i>, find the <i>'key'</i> with the smallest height.
-{{%notice tip%}}
+{{% notice tip %}}
 You can display the entire database using the command from activity 1.
 
 * Hint 1: Remember the advice from the Galactic Federation: `SELECT [column/column property] FROM [database] [optional condition];`
@@ -38,7 +38,7 @@ You can display the entire database using the command from activity 1.
 * Hint 2: Condition: `WHERE [column_name] [IN()/NOT IN()];` 
 
 * Hint 3: Do you need to use `IN()` or `NOT IN()` to show the 'key'?
-{{%/notice%}}
+{{% /notice%}}
 <!-- SQL Type In Activity -->
 
 {{< rawhtml >}}
@@ -70,9 +70,9 @@ You can display the entire database using the command from activity 1.
 {{< /rawhtml >}}
 
 ### Choose and drag the correct key onto the lock to continue your adventure!
-{{%notice note%}}
+{{% notice note %}}
 The height corresponds to the number of loops at the base of the key. The correct key will be highlighted in green.
-{{%/notice%}}
+{{% /notice%}}
 
 {{< rawhtml >}}
 
