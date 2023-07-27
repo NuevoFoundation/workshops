@@ -16,7 +16,7 @@ draft: false
 <link rel="stylesheet" href="_activity10.css" type="text/css"></link>
 <script type="text/javascript" src="_activity10.js"></script>
 
-{{< youtube UCxPAE0xw3I >}}
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/UCxPAE0xw3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ## Return the Legendary Totems of Fun to The Leader
 

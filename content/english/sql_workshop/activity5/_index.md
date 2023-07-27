@@ -16,7 +16,7 @@ draft: false
 <script type="text/javascript" src="../default/alasql.js"></script>
 <script type="text/javascript" src="../default/db.js"></script>
 
-{{< youtube VPMZedGI-Ww >}}
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/VPMZedGI-Ww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ## Task 5: Find the Tallest Ladder To Get To Their Leader
 

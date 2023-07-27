@@ -15,7 +15,7 @@ draft: false
 <script type="text/javascript" src="../default/_default.js"></script>
 <script type="text/javascript" src="../default/_type.js"></script>
 
-{{< youtube UySfZlYMd6M >}}
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/UySfZlYMd6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ## Task 4: Find Their Leader
 

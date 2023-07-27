@@ -17,7 +17,7 @@ draft: false
 <script type="text/javascript" src="../default/_type.js"></script>
 <script type="text/javascript" src="_activity2.js"></script>
 
-{{< youtube FZnnkNVn0Ok >}}
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/FZnnkNVn0Ok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ## Task 2: Travel to the Planet of Fun!
 
