@@ -2,7 +2,7 @@
 title: "Navigating with GitHub Issues"
 date: 2023-08-10T11:00:00-07:00
 draft: false
-weight: 3
+weight: 6
 ---
 
 ## Navigating with GitHub Issues: Building Your Coding Boat

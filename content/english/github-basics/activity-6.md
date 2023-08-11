@@ -2,7 +2,7 @@
 title: "Sailing Smoothly with GitHub Actions and CI"
 date: 2023-08-10T13:00:00-07:00
 draft: false
-weight: 4
+weight: 7
 ---
 
 ## Sailing Smoothly with GitHub Actions and Continuous Integration

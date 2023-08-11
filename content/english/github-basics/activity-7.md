@@ -2,7 +2,7 @@
 title: "Collaborative Expeditions: Navigating GitHub's Ecosystem"
 date: 2023-08-10T16:00:00-07:00
 draft: false
-weight: 6
+weight: 8
 ---
 
 ## Collaborative Expeditions: Navigating GitHub's Ecosystem

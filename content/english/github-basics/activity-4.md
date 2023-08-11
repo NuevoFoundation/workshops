@@ -2,7 +2,7 @@
 title: "Branching Out in GitHub"
 date: 2023-08-10T09:00:00-07:00
 draft: false
-weight: 2
+weight: 5
 ---
 
 {{% notice info %}}
