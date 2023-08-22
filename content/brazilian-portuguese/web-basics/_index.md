@@ -9,15 +9,15 @@ icon: "fab fa-html5"
 
 <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/Rstw0s7ws4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-## Let's build a website!
+## Vamos construir um site!
 
 <p style="text-align: center; "><img src="media/meet-benji-sm.jpg?classes=border,shadow" alt="Benji the Dog" width="350"/></p>
 
 Benji nasceu em Houston, Texas. Logo após o nascimento de Benji, um furacão devastador atingiu Houston. O furacão Harvey deslocou mais de 30.000 pessoas, incluindo a família de Benji. Benji não fala humano, então não sabemos os detalhes. Tudo o que sabemos é que Benji está procurando um lar e está empenhado em ser um bom menino onde quer que vá. Vamos fazer um site para que possamos compartilhar suas informações e encontrar seu lar para sempre!
 
-## Table of Contents
+## Índice
 
 <details close>
-<summary>Table of Contents</summary>
+<summary>Índice</summary>
 {{% children /%}}
 </details>
