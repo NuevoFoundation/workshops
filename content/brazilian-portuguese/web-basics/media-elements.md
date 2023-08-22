@@ -28,7 +28,7 @@ Muitos sites oferecem iframes para incorporar em seu site. Como exemplo, veja co
 
 ![alt text](../media/get-iframe.gif "example embedding with iframes")
 
-### Here is a sample iframe
+### Aqui está um exemplo de iframe 
 Copie o seguinte código:
 `<iframe width="560" height="315" src="https://www.youtube.com/embed/lQsqEBSGdyc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>`
 
