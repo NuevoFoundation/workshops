@@ -17,5 +17,5 @@ Note: If you're unfamiliar with Trinket, take a look at the [Python Turtle works
 ## Table of Contents
 <details>
 <summary>Sections</summary>
-{{% children %}}
+{{% children /%}}
 </details>

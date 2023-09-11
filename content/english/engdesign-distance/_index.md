@@ -19,6 +19,6 @@ Of course, building a car from scratch consists of many components: body, engine
 
 ## Table of Contents
 
-{{% children %}}
+{{% children /%}}
 
 

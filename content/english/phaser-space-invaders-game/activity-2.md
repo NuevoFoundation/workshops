@@ -18,7 +18,6 @@ Once your ship is animated, it should look like this. Notice the flames coming o
 <!--- ![animation](../media/4/animation-ship.gif) --->
 <img src="../media/4/animation-ship.gif" alt="animation" style="width:300px;"/>
 
-
 We will make one final touch to the animation - we will move the background as well. Change the background from a regular image to a TileSprite like this:
 
 ```javascript

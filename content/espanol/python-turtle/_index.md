@@ -19,5 +19,5 @@ Alex vive en un país llamado Isla Tortuga. Los habitantes de Isla Tortuga habla
 ## Contenido
 <details>
 <summary>Secciones</summary>
-{{% children %}}
+{{% children /%}}
 </details>

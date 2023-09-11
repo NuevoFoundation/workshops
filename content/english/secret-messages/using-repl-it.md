@@ -5,6 +5,8 @@ weight: 1
 draft: false
 ---
 
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/sdO27-l4aqM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 In order to help the Kin and Queen, we will develop a program, in a programming language called C++.  With that program we will be able to input a message, and the program will modify it to make it secret.
 
 ## Using Replit

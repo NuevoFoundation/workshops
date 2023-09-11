@@ -8,7 +8,6 @@ icon: "fab fa-python"
 draft: false
 ---
 
-
 ## Overview
 
 Welcome to the course **Python: Basics**, where you will learn a widely-used, high-level programming language that gives computer instructions to create exciting programs!
@@ -27,5 +26,5 @@ If at any time you get stuck or run into problems, access the [Help, I am stuck!
 
 <details open>
 <summary>Topics</summary>
-{{% children %}}
+{{% children /%}}
 </details>

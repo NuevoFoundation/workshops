@@ -16,4 +16,3 @@ Next is `Game.js`. This is the file that essentially represents our game. Within
 `PlayerBullet.js`, `EnemyBullet.js`, and `Explosion.js` are files that create specific objects for our game.
 
 Finally, the `assets` folder contains all of the images that our game uses.
-

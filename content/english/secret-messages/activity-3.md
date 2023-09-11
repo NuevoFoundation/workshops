@@ -5,6 +5,8 @@ weight: 4
 draft: false
 ---
 
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/zEQkGgS779g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 Great! 
 
 The King has now requested that we input our message letter by letter so that we can change them afterwards.

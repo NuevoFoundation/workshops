@@ -16,7 +16,7 @@ draft: false
 <script type="text/javascript" src="../default/_default.js"></script>
 <script type="text/javascript" src="../default/_type.js"></script>
 <script type="text/javascript" src="_activity1.js"></script>
-{{< youtube hUTKI3AHJ1s >}}
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/hUTKI3AHJ1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 # Mission 1: Save the Planet of Fun from Boredom!
 Your first mission is to go to the Planet of Fun and save them from boredom! 
@@ -27,19 +27,19 @@ commands to help save the Planet of Fun!
 You are given information about the Galaxy and want to look for the Planet of Fun. To do this,
  the Galactic Federation has given you your first SQL command: `SELECT`. 
 
-{{%notice info%}}
+{{% notice info %}}
 ### What the command does: 
 The `SELECT` command allows you to choose what data to show from a database.
-{{%/notice%}}
+{{% /notice%}}
 
 ### Example:
 
 ![Select](assets/Select.PNG)
 
 ### Now use what you learned! 
-{{%notice tip%}}
+{{% notice tip %}}
 **Drag the blocks into the terminal and rearrange them to answer the question below!**
-{{%/notice%}}
+{{% /notice%}}
 
 #### Question: What command will display all the columns in the database called "galaxy"?
 

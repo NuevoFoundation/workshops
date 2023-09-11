@@ -2,7 +2,7 @@
 title: "Comments"
 date: 2019-07-23T11:45:38-07:00
 draft: false
-weight: 3
+weight: 2
 ---
 
 ## Comments

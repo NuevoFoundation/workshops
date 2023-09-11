@@ -26,5 +26,5 @@ The road ahead at NuevoEats will not be easy. That’s why we’re looking for p
 
 <details close>
 <summary>Topics</summary>
-{{% children %}}
+{{% children /%}}
 </details>

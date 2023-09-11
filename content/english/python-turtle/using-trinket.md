@@ -5,9 +5,11 @@ weight: 1
 draft: false
 ---
 
-<p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/_DbRac3d0lo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/_DbRac3d0lo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 To help Alex live in a beehive, he needs to learn how to create a honeycomb! We will use Python's `turtle` library to draw a honeycomb for Alex.
+
+![alt text height="600px" width="30%"](../media/turtle_honeycomb.png "Turtle honeycomb")
 
 ## Using Trinket
 

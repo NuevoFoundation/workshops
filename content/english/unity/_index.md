@@ -19,4 +19,4 @@ Hope you enjoy!
 
 ## Table of Contents
 
-{{% children %}}
+{{% children /%}}

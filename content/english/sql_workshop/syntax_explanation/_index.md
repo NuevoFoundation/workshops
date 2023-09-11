@@ -7,9 +7,9 @@ difficulty: "Beginner"
 draft: false
 ---
 
-{{< youtube wSv5FzbtkjQ >}}
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/wSv5FzbtkjQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-# An email from the Galactic Federation?
+## An Email from the Galactic Federation?
 In the middle of your journey, you suddenly receive a message from the Galactic Federation. What could it be about?
 
 <br/>
@@ -37,10 +37,10 @@ command in hopes that you will be able to overcome the challenges that have yet 
 
 ![Syntax](assets/Tutorial.png)
 
-<!--{{%notice warning%}}
+<!--{{% notice warning %}}
 * Column and database names are **case sensitive**, this means that if the names are all lower-case, please make sure they are lower-case when you type them!
 * Please don't forget the semicolon at the end of a SQL command!
-{{%/notice%}}-->
+{{% /notice%}}-->
 
 Hopefully our advice will help you in your journey. Good Luck, Space Cadet!
 

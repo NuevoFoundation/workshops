@@ -33,4 +33,4 @@ If you see any red text, you have encountered some errors! Please ask for help. 
 ```kotlin
 Toast.makeText(this, "Text we want to show", Toast.LENGTH_SHORT).show()
 ```
-<img src="../resources/_gen/images/toast_example.png" height="60%" width="60%" title="Toast Example" alt="toast example. You can use the toast.makeText function with arguments context, the message string, and Toast.LENGTH_LONG or Toast.LENGTH_SHORT to display a welcome message, such as Welcome to Tic-Tac-Toe"/>
+<img src="../resources/_gen/images/toast_example.png" title="Toast Example" alt="toast example. You can use the toast.makeText function with arguments context, the message string, and Toast.LENGTH_LONG or Toast.LENGTH_SHORT to display a welcome message, such as Welcome to Tic-Tac-Toe"/>

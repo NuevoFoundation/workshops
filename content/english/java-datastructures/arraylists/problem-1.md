@@ -5,7 +5,7 @@ draft: false
 weight: 3
 ---
 
-<p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/unwrTbTILmA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/unwrTbTILmA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 <!--<link rel="stylesheet" href="../../style.css">-->
 
@@ -25,10 +25,10 @@ Dan is ordering from his favorite taco shop:
 */
 ```
 
-{{%notice tip%}}
+{{% notice tip %}}
 1. How can you add items onto the list?
 2. What does Dan want in the order?
-{{%/notice%}}
+{{% /notice %}}
 
 <iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@nuevofoundation/2DInsert?lite=true"></iframe>
 
@@ -48,10 +48,10 @@ menu.add("Hotdog");
 item = find(menu, 0);
 ```
 
-{{%notice tip%}}
+{{% notice tip %}}
 1. How can you iterate through the list?
 2. Look at the example menu!
-{{%/notice%}}
+{{% /notice%}}
 
 <iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@nuevofoundation/2DFind?lite=true"></iframe>
 

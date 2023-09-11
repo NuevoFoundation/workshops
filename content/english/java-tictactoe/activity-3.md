@@ -7,7 +7,7 @@ difficulty: "Intermediate"
 weight: 4
 ---
 
-In the last exercise, we have a program that prints out the board and prompt `Enter your move (1-9): ` to user with each valid move. However, the board stayed empty (shown below). In this exercise, we will learn how to update board and generate a random move for the computer.
+In the last exercise, we have a program that prints out the board and prompt `Enter your move (1-9):` to user with each valid move. However, the board stayed empty (shown below). In this exercise, we will learn how to update board and generate a random move for the computer.
 
 ```
 <<<~  Tic  Tac  Toe  ~>>>
@@ -43,6 +43,7 @@ Note that the player is represented by `"X"` on the game board.
 
 {{% notice tip %}}
 ### Reminders
+
 - Java uses 0-indexing and the player was prompted to enter number from 1 to 9).
 - To access an element of an array, you use index notation: `myVariable[indexNumber]`.
 {{% /notice %}}
@@ -53,7 +54,8 @@ Create a new method `getComputerMove(String[] curBoard)` that produce a valid mo
 
 Follow next step to implement the method.
 
-## 3. Implementing the Computer's Movement
+## Implementing the Computer's Movement
+
 In `getComputerMove()`, we will randomly generate a number between 1 and 9 for the computer.
 
 We will do so with the help of the class `Random` which is often used in Java to generate random numbers.

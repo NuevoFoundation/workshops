@@ -9,10 +9,10 @@ weight: 3
 
 It's a party! A customer has a big birthday party for more than 20 people! Everyone has their own order. To keep the mass order organized, you decide to create a hashmap of `String`s. The birthday girl's name is Isabella, but her name is lost in the list. Can you figure out what Isabella ordered?
 
-{{%notice tip%}}
+{{% notice tip %}}
 1. Do you remember the hashmap methods?
 2. Look at example order below!
-{{%/notice%}}
+{{% /notice%}}
 
 ```js javascript
 // Example of current hashmap

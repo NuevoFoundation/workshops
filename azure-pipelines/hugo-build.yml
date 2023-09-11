@@ -7,11 +7,11 @@ parameters:
 
 steps:
   # 1. Downloads specified version of Hugo executable
-  - script: wget https://github.com/gohugoio/hugo/releases/download/v0.63.2/hugo_0.63.2_Linux-64bit.deb -O '$(Pipeline.Workspace)/hugo_0.63.2_Linux-64bit.deb'
-    displayName: Download Hugo 0.63.2 Linux x64
+  - script: wget https://github.com/gohugoio/hugo/releases/download/v0.115.4/hugo_0.115.4_linux-amd64.deb -O '$(Pipeline.Workspace)/hugo_0.115.4_linux-amd64.deb'
+    displayName: Download Hugo 0.115.4 Linux x64
     # 2. Installs Hugo executable
   - script: sudo dpkg -i $(Pipeline.Workspace)/hugo*.deb
     displayName: Install Hugo
     # 3. Executes Hugo to build site with specified arguments
-  - script: hugo --baseUrl '${{ parameters.hugo_config_baseUrl }}' --minify
+  - script: hugo --baseURL '${{ parameters.hugo_config_baseUrl }}' --minify
     displayName: Run Hugo

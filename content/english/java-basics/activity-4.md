@@ -5,7 +5,7 @@ date: 2021-10-13T00:00:00Z
 weight: 5
 ---
 
-<p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/X8HzOuCel9A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/X8HzOuCel9A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ## Make a Decision: If-Statement
 
@@ -38,7 +38,7 @@ if(boolean expression){
 ```
 
 An **if statement** follows the structure shown above. The actions to take (statements) in the block will only be executed if the boolean expression is `true`. Otherwise, the program will skip to the statement after the block if the Boolean expression is `false`.
-#### If-Else Statement
+### If-Else Statement
 
 ```
 if(boolean expression){
@@ -69,7 +69,7 @@ Let's revisit the greating example above, and make decision for Patrick on wheth
 Patrick should say "Good Morning" between 0:00 - 11:59, "Good Afternoon" between 12:00 - 19:59, and "Good Night" between 20:00 - 23:59.
 
 1. We have a variable `currentHour` that stores the current hour. 
-2. Fill out the correct `boolean expression A` and `boolean expression B` to complete the program. 
+2. Fill out the correct `boolean expression A` and `boolean expression B` to complete the program.
 3. Test your result by assigning the variable `currentHour` to numbers from 0 to 23:
 
 <a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsIfStatement" target="_blank">Launch Replit</a>

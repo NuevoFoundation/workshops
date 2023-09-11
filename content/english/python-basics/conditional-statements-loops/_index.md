@@ -12,5 +12,5 @@ Let's get started!
 
 <details open>
 <summary>Topics</summary>
-{{% children %}}
+{{% children /%}}
 </details>

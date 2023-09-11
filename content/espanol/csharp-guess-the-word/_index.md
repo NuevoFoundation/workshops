@@ -31,5 +31,5 @@ El objetivo de la actividad de hoy es aprender el lenguaje de C# e incorporar lo
 
 ## Secciones
 
-{{% children %}}
+{{% children /%}}
 

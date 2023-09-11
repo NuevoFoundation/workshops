@@ -1,5 +1,5 @@
 ---
-title: "The Debugging Process"
+title: "C: The Debugging Process"
 description: "An introduction to debugging programs"
 date: 2021-10-13T00:00:00Z
 difficulty: "Intermediate"
@@ -57,4 +57,4 @@ The examples were written on a single Replit. We'll be providing all the command
 
 ## Workshop Contents
 
-{{% children %}}
+{{% children /%}}

@@ -18,5 +18,5 @@ The goal of this workshop is to use your existing Python knowledge to fix the co
 
 <details>
 <summary>Sections</summary>
-{{% children %}}
+{{% children /%}}
 </details>

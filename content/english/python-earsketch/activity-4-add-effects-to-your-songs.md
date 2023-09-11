@@ -6,7 +6,7 @@ prereq: "Python Basics: Print, Comments, Functions"
 difficulty: "Intermediate"
 draft: false
 ---
-<p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/R_eo0B8qDW0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/R_eo0B8qDW0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ## Effects in EarSketch
 
@@ -27,6 +27,35 @@ of the two `setEffect` functions:
 - `effectType`: The specific effect being used
 - `effectParameter`: The setting for the effect being used
 - `effectValue`: The value applied to the effectParameter
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+<div class="row">
+  <div class="column">
+    <img src="../img/Robot_2_Pink.PNG" width="400" height="400">
+  </div>
+  <div class="column">
+    <img src="../img/Robot_1_Green.PNG" width="400" height="400">
+  </div>
+  <div class="column">
+    <img src="../img/Robot_2_Blue.PNG" width="400" height="400">
+  </div>
+</div>
 
 ## Add setEffect function to your song
 
@@ -39,7 +68,7 @@ our song.
 4. For the rest of the effect parameters, click on the eye icon on the `setEffect` API and you will see a link to "Every Effect Explained in Detail". Click on it to open this section on the right side of your window.
 5. You may notice that Earsketch has many different variations of effects. By default, you should see section 30.4 BANDPASS on the right. For now, we will use the DELAY from section 30.4 as `effectType` in our `setEffect` function call.
 6. Now that we have chosen our `effectType`, we need an `effectParameter`. Navigate to section 30.4 on the right to check out different parameters supported for DELAY. Here is a picture of that section. We recommend using the DELAY\_FEEDBACK.
-    ![](../img/screenshot-effect-parameter.png)
+    ![Parameter effect picture](../img/screenshot-effect-parameter.png)
 
 7. For the final parameter, input a valid value. Since we have chosen DELAY\_FEEDBACK, we must specify a number between -120.0 and -1.0 (as shown in the picture above). Example: Use -6.0 as your effect value for DELAY\_FEEDBACK.
 

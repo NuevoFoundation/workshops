@@ -2,10 +2,10 @@
 title: "Building the DJ station"
 description: ""
 draft: false
-weight: 2
+weight: 1
 ---
 
-### Hooking up the oranges 
+## Hooking up the oranges 
 Grab an orange and one of your wires. Open up one of the alligator clips and insert the bottom half into the orange, leaving the top part of the clip on the outside. This is easiest to do if you insert it in the middle of the bottom of the orange. The same spot where you’d start peeling if you were going to eat the orange.
 
 ![Cannot load image](../img/setup1.png?classes=border,shadow)

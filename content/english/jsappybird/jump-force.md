@@ -9,6 +9,9 @@ Let's add force to the bird
 
 Add the below command in the file [File: create-game.js]
     bird.body.velocity.y = -350;
+    
+{{% notice tip %}}
+
 ## Working Together
 
 In the Replit window below, we started the code with the line `bird.body.velocity.y = -350;`.
@@ -18,6 +21,8 @@ In the Replit window below, we started the code with the line `bird.body.velocit
 In your console you should see a JSappy bird jumping with force after you press **run**:
 
 ![alt text](../img/jump_output.png "bird jumping with gravity")
+
+{{% /notice %}}
 
 ## Bonus Activity
 
@@ -40,6 +45,8 @@ Add below command in the file [File: update-game.js]
 `If` is a conditional block where we are checking the angle of the bird and if it's less than 50 we are executing the condition.
    -bird.angle+=1;
 
+{{% notice tip %}}
+
 ## Working Together
 
 In the Replit window below, we started the code with the line `bird.angle +=1;`.
@@ -49,3 +56,6 @@ In the Replit window below, we started the code with the line `bird.angle +=1;`.
 In your console you should see a Jsappy bird rotating with an angle after you press **run**:
 
 ![alt text](../img/rotate_output.png "bird rotating")
+
+{{% /notice %}}
+

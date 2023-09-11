@@ -1,5 +1,5 @@
 ---
-title: "Juego de Espías"
+title: "Seguridad: Juego de Espías"
 description: "¡Guía introductoria para aprender sobre contraseñas y cómo crear una segura!"
 date: 2020-02-217T11:45:38-07:00
 prereq: "Ninguno"
@@ -10,4 +10,4 @@ icon: "fas fa-user-secret"
 
 ## Tabla de contenidos
 
-{{% children %}}
+{{% children /%}}

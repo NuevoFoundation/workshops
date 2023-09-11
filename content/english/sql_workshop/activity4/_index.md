@@ -15,7 +15,7 @@ draft: false
 <script type="text/javascript" src="../default/_default.js"></script>
 <script type="text/javascript" src="../default/_type.js"></script>
 
-{{< youtube UySfZlYMd6M >}}
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/UySfZlYMd6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ## Task 4: Find Their Leader
 
@@ -26,7 +26,7 @@ To do so, let's take a look at how to select multiple columns in a database.
 
 #### Now use what you learned to find out who is the leader of the Planet of Fun!
 
-{{%notice tip%}}
+{{% notice tip %}}
 You can view the entire database using the `SELECT * FROM [database_name];` command that you learned in activity 1.
 
 **The Galactic Federation also sends you a reminder that the 'galaxy' database holds the following columns:**
@@ -43,13 +43,13 @@ You can view the entire database using the `SELECT * FROM [database_name];` comm
 
 **Hint: Only two columns are needed.**
 
-{{%/notice%}}
+{{% /notice%}}
 
 ### Question: Using the 'galaxy' database, how do you display only the _names of the_ planets and their leader?
 
-{{%notice warning%}}
+{{% notice warning %}}
 Don't forget the semicolon at the end!
-{{%/notice%}}
+{{% /notice%}}
 
 <!-- SQL Type In Activity -->
 {{< rawhtml >}}

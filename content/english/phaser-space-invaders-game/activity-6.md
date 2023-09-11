@@ -49,7 +49,6 @@ Once you have the timer created, let's work on the `resetPlayer()` method:
 <!--- ![reset_player](../media/7/resetPlayer.png)--->
 <img src="../media/7/resetPlayer.png" alt="reset_player" style="width:950px;"/>
 
-
 First, choose a respawn coordiate and change the player's (X, Y) value to this location (we can still change the ship's location like this because it still exists, it's just disabled). Then, enable the player with this line:
 
 ```javascript

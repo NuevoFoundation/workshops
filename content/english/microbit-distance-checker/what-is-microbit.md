@@ -23,7 +23,7 @@ Your micro:bit has the following physical features:
 
 If you want to learn more about each individual component and all the features that come with your micro:bit, you can click [here](https://micro:bit.org/guide/features/).
 
-Go ahead and take out the the micro:bit and the rest of the components from the bag. You should have one micro:bit, 2 batteries, a micro USB cable, and the battery holder (the black box with the red and black wires coming out of it). If you're missing anything or need help feel free to ask one of the instructors!
+Go ahead and take out the micro:bit and the rest of the components from the bag. You should have one micro:bit, 2 batteries, a micro USB cable, and the battery holder (the black box with the red and black wires coming out of it). If you're missing anything or need help feel free to ask one of the instructors!
 
 ## Using the Simulator
 

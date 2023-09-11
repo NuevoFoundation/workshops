@@ -16,10 +16,10 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.63.2'
+          hugo-version: '0.115.4'
 
       - name: Build
-        run: hugo --baseUrl "https://nuevofoundation.github.io/workshops/" --minify
+        run: hugo --baseURL "https://nuevofoundation.github.io/workshops/" --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

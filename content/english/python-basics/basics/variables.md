@@ -67,7 +67,6 @@ Next, use the variables and what you learned in the previous activities to `prin
     ComputerComputerComputer
     15
 
-
 {{% notice tip %}}
 
 Hint: If you're stuck, consider using the `+` operator. Remember that you can use the variables **comp** and **five** multiple times in the same line!
