@@ -1,22 +1,22 @@
 ---
-title: "Puzzle 2 - Welcome user"
+title: "Quebra-cabeça 2 - Bem-vindo usuário"
 date: 2021-03-13T14:17:07.42-07:00
 draft: false
 weight: 5
 ---
-Let's add a welcome message that the user can see when they start your app!
+Vamos adicionar uma mensagem de boas-vindas que o usuário poderá ver quando iniciar seu aplicativo!
 
-Go to **MainActivity.kt** and find `// PUZZLE 2` in the code and write a toast that welcomes the user to your game with "Welcome to Tic-Tac-Toe!”. Now press the play button (►) at the top of Android Studio and your app should look like this:
+Vá para **MainActivity.kt** e encontre `// PUZZLE 2` no código e escreva um brinde que dá as boas-vindas ao usuário ao seu jogo com "Bem-vindo ao Tic-Tac-Toe!". Agora pressione o botão play (► ) na parte superior do Android Studio e seu aplicativo deverá ficar assim:
 
-<img src="../resources/_gen/images/toast_success.png" height="35%" width="27%" title="Successful Toast" alt="Example of game with successful welcome to Tic Tac Toe text displayed using toast"/>
+<img src="../resources/_gen/images/toast_success.png" height="35%" width="27%" title="Brinde de sucesso" alt="Exemplo de jogo com texto de boas-vindas bem-sucedido ao Tic Tac Toe exibido usando brinde"/>
 
 {{% notice warning %}}
-## HELP! I got a lot of red text!
+## AJUDA! Recebi muito texto em vermelho!
 
-If you see any red text, you have encountered some errors! Please ask for help. Beware of the following when coding in Android:
+Se você vir algum texto em vermelho, você encontrou alguns erros! Por favor, peça ajuda. Cuidado com o seguinte ao codificar no Android:
 
-1. The `t` in `Toast` is capitalized.
-2. Make sure the sentence you wish to show is surrounded in quotation marks, and that the parantheses are in the right place.
-3. Do not delete any curly braces `{` or `}`.
+1. O `t` em `Toast` está em maiúscula.
+2. Certifique-se de que a frase que deseja mostrar esteja entre aspas e que os parênteses estejam no lugar certo.
+3. Não exclua chaves `{` ou `}`.
 
 {{% /notice %}}

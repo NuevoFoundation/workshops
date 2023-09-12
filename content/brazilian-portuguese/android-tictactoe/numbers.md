@@ -1,47 +1,47 @@
 ---
-title: "Numbers"
+title: "Números"
 date: 2021-03-13T14:17:07.42-07:00
 draft: false
 weight: 8
 ---
-The computer can also do regular math that you see in school. Use `System.out.println` to print out the result from the math expressions.
+O computador também pode fazer contas regulares que você vê na escola. Use `System.out.println` para imprimir o resultado das expressões matemáticas.
 
 ```kotlin
 System.out.println(5 + 4);
 System.out.println(6 * (9 - 7) / 3);
 ```
 
-Here is the full list of math symbols that you can use:
+Aqui está a lista completa de símbolos matemáticos que você pode usar:
 
 <table class="table">
             <tr>
                 <td><code class="language-cs">+</code></td>
-                <td>Add</td>
+                <td>Adicionar</td>
                 <td><code class="language-cs">\</code></td>
-                <td>Divide</td>
+                <td>Dividir</td>
             </tr>
             <tr>
                 <td><code class="language-cs">-</code></td>
-                <td>Subtract</td>
+                <td>Subtrair</td>
                 <td><code class="language-cs">%</code></td>
-                <td>Modulo (remainder)</td>
+                <td>Modulo (resto)</td>
             </tr>
             <tr>
                 <td><code class="language-cs">*</code></td>
-                <td>Multiply</td>
+                <td>Multiplicar</td>
                 <td><code class="language-cs">(</code>,<code class="language-cs">)</code></td>
-                <td>Parenthesis</td>
+                <td>Parênteses</td>
             </tr>
         </table>
 
-**_Fun Fact: Computer Division_**
+**_Curiosidade: Divisão de Informática_**
 
-The computer does division differently from your regular calculator. Computer division will exclude remainders or decimals. For example, 15 / 4 produces 3, and not 3.75.
+O computador faz a divisão de maneira diferente da calculadora normal. A divisão computacional excluirá restos ou decimais. Por exemplo, 15/4 produz 3, e não 3,75.
 
 {{% notice tip %}}
 ## Working Together
 
-Try printing out the answers to the following to the console. Ensure your brackets are matched. Use a calculator (or mental math) to verify the computer produced the correct answer.
+Tente imprimir as respostas a seguir no console. Certifique-se de que seus colchetes correspondam. Use uma calculadora (ou matemática mental) para verificar se o computador produziu a resposta correta.
 
 - 2 - 19
 - (3 + 5) \* 6
