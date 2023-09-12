@@ -50,6 +50,6 @@ Once completed, save your file via the “File” drop-down menu.
 <p style="text-align: center;"><img src="../img/pandorabots_6.png" alt="adding a new file on pandorabots" width="1000"/></p>
 
 ## Testing your bot
-The Chat Widget allows you to talk to your bot. Click on the "chat bubbles" icon in the bottom right corner to start talking to your bot. Type Hi (or “hi” or “HI” since pattern matching is case-insensitive) and you should receive the response you just coded, “Hello, world!”
+The Chat Widget allows you to talk to your bot. Click on the "chat bubbles" icon in the bottom right corner to start talking to your bot. Type Hello and you should receive the response you just coded, “Hello, world!”
 
 <p style="text-align: center;"><img src="../img/pandorabots_7.png" alt="adding a new file on pandorabots" width="1000"/></p>
