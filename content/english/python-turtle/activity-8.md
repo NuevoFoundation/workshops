@@ -5,7 +5,7 @@ weight: 11
 draft: false
 ---
 
-![alt text height="600px" width="30%"](../media/bee_happy.png "Bee happy")
+<img src="../media/bee_happy.png" alt="Bee happy" width="25%"/>
 
 We’re done creating our first figure 8! We can now use the `figure_8()` function to create a mandala flower! A mandala flower is many figure 8s placed on top of each other at different angles. So, to do this we need to use a... you guessed it, a loop!
 

@@ -5,7 +5,7 @@ weight: 8
 draft: false
 ---
 
-![mandala flower with random color petals](../media/bee_mandala.png)
+<img src="../media/bee_mandala.png" alt="mandala flower with random color petals" width="25%"/>
 
 Great job! You finished building a honeycomb for Alex’s beehive, but Alex needs to also get his pollen from flowers! Wouldn’t it be nice to add a flower to the picture as well? In part 2, we will be creating a mandala flower!
 
