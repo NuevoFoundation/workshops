@@ -36,7 +36,7 @@ Before we start, make sure that your headphones are working. Try playing the fol
     </audio>
 </figure>
 
-<img src="img/screenshot-overview.png?" alt="Earsketch-play-overview" width="25%"/>
+<img src="img/screenshot-overview.png" alt="Earsketch-play-overview" width="25%"/>
 
 ## Table of Contents
 

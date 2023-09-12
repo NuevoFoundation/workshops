@@ -5,7 +5,7 @@ weight: 7
 draft: false
 ---
 
-<img src="../media/bee_honeycomb.png?" alt="Honeycomb drawing" width="25%" />
+<img src="../media/bee_honeycomb.png" alt="Honeycomb drawing" width="25%" />
 
 This is the finale! Let's create the honeycomb that Alex will live in. Fortunately, a honeycomb is simply 6 hexagons, so let's combine our knowledge of functions and loops to make our honeycomb! 
 

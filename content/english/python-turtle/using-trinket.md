@@ -9,7 +9,7 @@ draft: false
 
 To help Alex live in a beehive, he needs to learn how to create a honeycomb! We will use Python's `turtle` library to draw a honeycomb for Alex.
 
-<img src="../media/turtle_honeycomb.png?" alt="A photo of a honeycomb" width="25%" />
+<img src="../media/turtle_honeycomb.png" alt="A photo of a honeycomb" width="25%" />
 
 ## Using Trinket
 
