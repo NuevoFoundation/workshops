@@ -45,7 +45,7 @@ Para definir um método, precisamos primeiro escrever o <b>cabeçalho do método
 **lista de parâmetros** | lista de entradas que devem ser fornecidas quando o método é usado | formato de (`type` `nome de entrada`, `type` `nome de entrada`, ...).
 
 ```
-// an example
+// um exemplo
 public void sing (String songName)
    1.    2.   3.        4.
 ```
