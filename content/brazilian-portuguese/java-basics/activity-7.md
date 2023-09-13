@@ -13,7 +13,7 @@ Na programação, **estruturas de dados** são elementos que permitem aos codifi
 
 Embora um vetor (array) seja uma estrutura de dados de comprimento fixo, Lista de Vetores (ArrayList) é um comprimento variável onde você pode alterar o tamanho da estrutura de dados. Vamos começar examinando vetores (arrays)!
 
-## Array
+## Vetores (Array)
 
 Digamos que queremos armazenar os 5 melhores filmes favoritos de Patrick. Em vez de criar 5 variáveis, podemos armazenar todos os 5 dados em um array, nossa primeira estrutura de dados!
 
