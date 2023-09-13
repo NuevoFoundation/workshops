@@ -100,7 +100,7 @@ int sum1to3 = sumNum(1, 3);
 ## Conte a pirâmide!🔺
 
 <img src="../images/pyramid.png" height="250" alt="pyramid with layers of colorful beads. Bottom layer is yellow, next blue, next brown, next white, next pink, next light blue, next orange, next coral, next green, last red" /> 
-<p style="text-align: center;">(photo credit: aliexpress.com/item/32306945847.html)</p>
+<p style="text-align: center;">(crédito da foto: aliexpress.com/item/32306945847.html)</p>
 
 A imagem acima é uma imagem de uma pirâmide de números quadrados onde cada nível é um quadrado perfeito do número do nível atual contado de cima para baixo.
 
