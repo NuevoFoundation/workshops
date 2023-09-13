@@ -14,7 +14,9 @@ In activity 4, we used `setEffect` function to apply an effect to a specific tra
 for the entire duration of the song, but what if you only want a
 specific section of your song to have an effect? Use the `setEffect`
 function with more parameters!
-![](../img/screenshot-seteffect2.png)
+
+<img src="../img/screenshot-seteffect2.png" alt="Code snippet" width="60%"/>
+
 
 - `effectStartValue`: The starting value applied to the parameter
 - `effectStartLocation`: The measure at which the starting value is set
@@ -32,6 +34,7 @@ starting point and length of the effect, specify the
 `effectStartLocation` and `effectEndLocation`.
 
 ![DJ Nuvi](https://media.giphy.com/media/OTk8FTCvQ5WQQfJqVf/giphy.gif)
+
 ## Add another setEffect function to your song
 
 1. Add another `setEffect` function call into your code, but ensure all 7 parameters are present in the call.
