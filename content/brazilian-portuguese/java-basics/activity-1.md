@@ -73,7 +73,7 @@ Use o que você acabou de aprender e recrie a coruja abaixo usando apenas 4 linh
      Main.java:4: error: reached end of file while parsing
 Se você receber um erro como este, é possível que você tenha esquecido de escapar de caracteres como `"` e `\`.
 
-Releia a terceira dica acima para ver como escapar caracteres em uma instrução print!
+Leia novamente a terceira dica acima para ver como escapar caracteres em uma instrução print!
 {{% /notice %}}
 
 ## Faça um comentário
