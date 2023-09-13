@@ -37,5 +37,5 @@ Then we have to feed the model with a lot of high-quality data to make the model
 
 <details close>
 <summary>Table of Contents</summary>
-{{% children %}}
+{{% children /%}}
 </details>

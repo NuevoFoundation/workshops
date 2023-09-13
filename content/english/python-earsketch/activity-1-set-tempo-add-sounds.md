@@ -40,7 +40,7 @@ If you are not sure what values to choose, try this:
 - `fitMedia(YG_TRAP_ELECTRIC_PIANO_FILTERED_1, 3, 1, 17)`
 
 Your code should now look something like this:
-    {{% notice %}}
+    {{% notice info %}}
     from earsketch import *
         init()
         setTempo(120)

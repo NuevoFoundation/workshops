@@ -13,7 +13,7 @@ hidden: true
 
 <details close>
 <summary>Table of Contents</summary>
-{{% children %}}
+{{% children /%}}
 </details>
 
 ## JavaScript Basics

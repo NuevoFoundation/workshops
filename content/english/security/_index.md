@@ -10,4 +10,4 @@ icon: "fas fa-user-secret"
 
 ## Table of Contents
 
-{{% children %}}
+{{% children /%}}

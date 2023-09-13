@@ -17,5 +17,5 @@ Benji出生於德克薩斯州休斯頓。 Benji出生後不久，毀滅性的颶
 
 <details>
 <summary>科目</summary>
-{{% children %}}
+{{% children /%}}
 </details>

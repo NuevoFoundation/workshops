@@ -24,7 +24,7 @@ To get started:
 
 1. Fork <a target="_blank" href="https://github.com/nuevoFoundation/workshops">the repo</a> by clicking Fork in the top right corner:
 
-![image](https://github.com/NuevoFoundation/workshops/blob/master/content/english/guidelines/media/fork.png)
+![image](../media/fork.png)
 
 2. From git bash, run (replacing _[user-name]_ with your GitHub user name):
 
@@ -95,7 +95,7 @@ When you launch VS Code you can Open Folder... Navigate to the workshop folder a
 
 ### Navigate to file and modify it
 
-Depending on what you're modifying you'll want to get a better understanding of [how the site is built](site-architecture.md)
+Depending on what you're modifying you'll want to get a better understanding of [how the site is built](site-architecture)
 
 In our case you want to modify this file so go to content\english\guidelines\getting-started.md
 I simply want you to add two exclamation points to the word "Welcome!"
@@ -122,11 +122,11 @@ Congratulations, you've now made all the necessary changes and the last step is 
 
 If you navigate to your fork on github.com you will most likely see a suggestion to create a Pull Request based on your latest push.
 
-![image](https://github.com/NuevoFoundation/workshops/blob/master/content/english/guidelines/media/compare-and-pull.png)
+![image](../media/compare-and-pull.png)
 
 If you don't, just navigate to Pull Requests -> New pull request
 
-![image](https://github.com/NuevoFoundation/workshops/blob/master/content/english/guidelines/media/create-new-pr.png)
+![image](../media/create-new-pr.png)
 
 The most important aspect here is to make sure you're choosing your branches correctly (your base and your head).
 

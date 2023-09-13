@@ -13,5 +13,5 @@ icon: "fas fa-microchip"
 
 <details open>
 <summary>Seções</summary>
-{{% children %}}
+{{% children /%}}
 </details>

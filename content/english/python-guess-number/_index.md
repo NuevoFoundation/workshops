@@ -16,5 +16,5 @@ In this workshop, you will be creating a simple game that incorporates some of t
 
 <details close>
 <summary>Table of Contents</summary>
-{{% children %}}
+{{% children /%}}
 </details>

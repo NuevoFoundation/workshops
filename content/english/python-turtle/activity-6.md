@@ -5,7 +5,7 @@ weight: 9
 draft: false
 ---
 
-![alt text height="600px" width="30%"](../media/bee_turtle_chat.png "Bee turtle chat")
+<img src="../media/bee_turtle_chat.png" alt="Bee turtle chat" width="25%"/>
 
 Our first step is to draw a smaller beehive so that we can draw both the beehive and the flower on the screen. We have already done this for you - do you see what we have changed in order to draw a smaller beehive?
 
@@ -32,7 +32,8 @@ turtle.pendown()
 
 `turtle.penup()` tells the turtle to pick up its pen so it doesn’t draw while it is moving. Then, with `turtle.goto(x,y)`, we are telling the turtle the position where the turtle moves to. After that we tell the turtle to put its pen back down using `turtle.pendown()` so it can start drawing again. 
 
-![alt text height="600px" width="50%"](../media/graph.png "Graph")
+<img src="../media/graph.png" alt="Graph" width="50%"/>
+
 
 {{% notice info %}}
 

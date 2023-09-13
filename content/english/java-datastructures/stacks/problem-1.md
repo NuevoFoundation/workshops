@@ -9,10 +9,10 @@ weight: 3
 
 Oh no! A new intern was hired and messed up the list of restaurants! The inputs of the restaurants are in **reverse** order! Luckily the stack is the perfect data structure for this. Can you create a new stack in the correct order?
 
-{{%notice tip%}}
+{{% notice tip %}}
 1. Remember the stack is Last In First Out (LIFO; think of a stack of plates).
 2. How does the original stack look like?
-{{%/notice%}}
+{{% /notice%}}
 
 ```js javascript
 // Example of current stack

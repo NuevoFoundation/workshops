@@ -18,7 +18,7 @@ songs are made up of various instruments, so we need to add more audio clips.
 5. Repeat these steps until you have four different audio sounds in your song.
 
 Your code should now look something like this:
-    {{% notice %}}
+    {{% notice info %}}
 
     from earsketch import *\
     init()

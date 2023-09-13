@@ -47,13 +47,13 @@ of the two `setEffect` functions:
 
 <div class="row">
   <div class="column">
-    <img src="../img/Robot_2_Pink.PNG" width="400" height="400">
+    <img src="../img/Robot_2_Pink.PNG" width="45%">
   </div>
   <div class="column">
-    <img src="../img/Robot_1_Green.PNG" width="400" height="400">
+    <img src="../img/Robot_1_Green.PNG" width="45%">
   </div>
   <div class="column">
-    <img src="../img/Robot_2_Blue.PNG" width="400" height="400">
+    <img src="../img/Robot_2_Blue.PNG" width="45%">
   </div>
 </div>
 

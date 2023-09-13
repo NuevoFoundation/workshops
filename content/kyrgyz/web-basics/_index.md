@@ -17,5 +17,5 @@ icon: "fab fa-html5"
 
 <details>
 <summary>Бөлүм</summary>
-{{% children %}}
+{{% children /%}}
 </details>

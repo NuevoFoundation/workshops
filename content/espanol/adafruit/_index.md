@@ -11,5 +11,5 @@ draft: false
 ## Contenido
 <details open>
 <summary>Secciones</summary>
-{{% children %}}
+{{% children /%}}
 </details>

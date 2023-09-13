@@ -9,7 +9,7 @@ icon: "fas fa-database"
 weight: 130
 ---
 <!-- Link to sql image drive: https://drive.google.com/drive/folders/0ADAbCQbzZCAFUk9PVA -->
-{{< youtube oFfaxcxBkUQ >}}
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/oFfaxcxBkUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 # Introduction: Learn SQL by Saving the Galaxy!
 
@@ -21,10 +21,10 @@ You are a space adventurer who travels the galaxy in your speedy rocket ship whi
  
 You’ve been approved as an honorary space explorer by the Galactic Federation! You will be given missions to help make the galaxy a safe and fun place for everyone!
 
-{{%notice warning%}}
+{{% notice warning %}}
 Please do not use the Firefox browser for this workshop.
-{{%/notice%}}
+{{% /notice%}}
 
 ## Table of Contents
 
-{{% children %}}
+{{% children /%}}

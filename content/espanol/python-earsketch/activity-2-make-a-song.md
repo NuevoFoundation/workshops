@@ -16,7 +16,7 @@ Ahora que has aprendido a añadir sonidos a Earsketch, vamos a tratar de hacer u
 5. Repite estos pasos hasta que tenga cuatro sonidos de audio diferentes en su canción
 
 Tu código debe parecerse a este::
-    {{% notice %}}
+    {{% notice info %}}
 
     from earsketch import *\
     init()
@@ -27,3 +27,5 @@ Tu código debe parecerse a este::
     fitMedia(YG_TRAP_BASS_9, 4, 1, 9)\
     finish()
     {{% /notice %}}
+
+![Robot tocando musica](https://media.giphy.com/media/9RJRzvIuKGrL3tAchc/giphy.gif)

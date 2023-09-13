@@ -11,5 +11,5 @@ In the previous section, you learned about conditional statements and loops. In 
 Let's get started!
 <details open>
 <summary>Topics</summary>
-{{% children %}}
+{{% children /%}}
 </details>

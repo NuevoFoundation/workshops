@@ -8,7 +8,7 @@ weight: 24
 >*First off, we are excited that you have decided to join us in our goal to make cybersecurity more diverse. Thank you for helping us with our goal of making cybersecurity more accessible by putting KC7 within reach of every high school and university student in the world!*           
             - KC7 Architects         
             Simeon Kakpovi, Greg Schloemer, & Emily Hacker
-<!--{{< youtube b82yaK15kfQ >}}-->
+<!--<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/b82yaK15kfQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>-->
 <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/b82yaK15kfQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 *[Check out our interview on the SANS podcast.]*

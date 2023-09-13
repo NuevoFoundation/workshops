@@ -36,7 +36,7 @@ There will also be links to the relevant Java topics on each page if you want to
 
 <details close>
 <summary>Table of Contents</summary>
-{{% children %}}
+{{% children /%}}
 </details>
 
 ## Demo

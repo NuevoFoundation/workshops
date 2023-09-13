@@ -10,11 +10,11 @@ weight: 3
 
 A new restaurant has been added into Nuevo Eats! New orders have been flooding in and the Queue is flooded with orders! The popularity of the different tacos grew fast and the restaurant is overloaded. Look for a way to clear all elements to save the restaurant!
 
-{{%notice tip%}}
+{{% notice tip %}}
 1. How can you iterate through the Queue?
 2. Try to clear the Queue as you go through it!
 3. Look at the example menu!
-{{%/notice%}}
+{{% /notice%}}
 
 ```js javascript
 // This uses a list as the organizer of the queue.
@@ -33,10 +33,10 @@ orders.add("Beef Taco");
 
 A restaurant is using a Priority Queue to manager orders. The restaurant wants to be able to look at orders based on their prices to better prepare what meals they are making. Specifically, they would like to be able to find the nth minimum price currently in their list. Write a function that looks at their queue of orders and returns the nth minimum price.
 
-{{%notice tip%}}
+{{% notice tip %}}
 1. How will you make sure the list is in order?
 2. What makes it easiest to find the minimum price?
 3. What if they are looking for the 5th minimum (or lowest) price?
-{{%/notice%}}
+{{% /notice%}}
 
 <a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/Min" target="_blank">Launch Replit</a>

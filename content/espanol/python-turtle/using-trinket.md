@@ -7,6 +7,8 @@ draft: false
 
 Para que Alex pueda vivir en una colmena, necesita aprender a construir un panal. Vamos a usar una biblioteca de Python que se llama `turtle` (tortuga) para dibujar el panal.
 
+<img src="../media/turtle_honeycomb.png" alt="Foto de una colmena" width="25%" />
+
 ## Usando Trinket
 
 Vamos a utilizar la herramienta Trinket para jugar con nuestros códigos Python. Este es un ejemplo de una ventana interactiva como las que usaremos en todo el tutorial:

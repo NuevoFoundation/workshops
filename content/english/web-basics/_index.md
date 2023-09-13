@@ -19,5 +19,5 @@ Benji was born in Houston, Texas. Soon after Benji was born, a devastating hurri
 
 <details close>
 <summary>Table of Contents</summary>
-{{% children %}}
+{{% children /%}}
 </details>
