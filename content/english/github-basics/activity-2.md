@@ -1,5 +1,5 @@
 ---
-title: "Creating Your First GitHub Repository"
+title: "Activity 2: Create a GitHub Repository"
 date: 2021-09-10T13:24:17-07:00
 draft: false
 weight: 3

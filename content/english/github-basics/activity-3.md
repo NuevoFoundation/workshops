@@ -1,5 +1,5 @@
 ---
-title: "Adding Files to Your GitHub Repository"
+title: "Activity 3: Adding Files to Your Repository"
 date: 2021-09-10T13:24:17-07:00
 draft: false
 weight: 4

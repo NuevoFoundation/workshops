@@ -2,7 +2,7 @@
 title: "GitHub Basics"
 description: "Learn the basics of using GitHub online and from your computer terminal"
 difficulty: "Beginner"
-prereq: none
+prereq: "Email account"
 weight: 1
 ---
 
@@ -14,7 +14,7 @@ weight: 1
 
 
 ## Overview
-<img alt="GitHub logo" src="../images/GitHubLogo.png" height="200"/>
+<img alt="GitHub logo" src="./images/GitHubLogo.png" height="200"/>
 
 Imagine that you're on a thrilling adventure, working on an exciting group project with two fellow explorers named Maria and Kyle. But here's the twist – you all live in different corners of the world, with time zones as diverse as the ecosystems you're exploring! 🌍🌏🌎
 

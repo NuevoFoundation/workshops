@@ -1,5 +1,5 @@
 ---
-title: "Sailing Smoothly with GitHub Actions and CI"
+title: "Activity 6: Sailing Smoothly with GitHub Actions"
 date: 2023-08-10T13:00:00-07:00
 draft: false
 weight: 7

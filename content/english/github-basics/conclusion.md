@@ -1,5 +1,5 @@
 ---
-title: "The Journey Continues: Embracing GitHub's Horizons"
+title: "Conclusion: Embracing GitHub's Horizons"
 date: 2023-08-10T17:00:00-07:00
 draft: false
 weight: 9
