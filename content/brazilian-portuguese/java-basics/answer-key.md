@@ -1,48 +1,48 @@
 ---
-title: "Java: Basics - Answer Key"
+title: "Java: Fundamentos - Palavra chave"
 date: 2020-07-09T00:00:00Z
 weight: 15
 draft: false
 hidden: true
 ---
 
-# activity-1: Print Statements and Comments
-## Hello World
+# activity-1: Imprimir declarações e comentários
+## Olá Mundo
 ```java
 class Main {
   public static void main(String[] args) {
-    System.out.print("Hello World");
+    System.out.print("Olá Mundo");
     System.out.print(2020);
     System.out.print('@'); 
   }
 }
 ```
-Output: 
+Saída: 
 
-    Hello World2020@
+    Olá Mundo2020@
 
-## Owl
+## Coruja
 ```java
 class Main {
   public static void main(String[] args) {
-    System.out.println("Hello world!");
-    System.out.println("    ​, ___    / ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ \\");
-    System.out.println("​`\\/{o,o}  <   Hi, I am Minerva. Patrick's friend!  |");
-    System.out.println("​ ​/ /)  )    \\ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ /");
+    System.out.println("Olá Mundo!");
+    System.out.println("    ​, ___    / ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ \\");
+    System.out.println("​`\\/{o,o}  <   Oi, Eu sou Minerva. Amiga do Patrick!  |");
+    System.out.println("​ ​/ /)  )    \\ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ /");
     System.out.println("​/,--\"-\"- ");
   }
 }
 ```
-Output:
+Saída:
 
-        , ___    / ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ \
-     `\/{o,o}  <   Hi, I am Minerva. Patrick's friend!  |
-      / /)  )    \ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ /
+        , ___    / ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ \
+     `\/{o,o}  <   Oi, Eu sou Minerva. Amiga do Patrick!  |
+      / /)  )    \ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ /
      /,--"-"- 
 
-# activity-2: Types and Variables
+# activity-2: Tipos e Variáveis
 
-## DataType
+## Tipos de Dados
 ```java
 class Main {
   public static void main(String[] args) {
@@ -55,14 +55,14 @@ class Main {
 }
 ```
 
-## Variable
-Output:
+## Variável
+Saída:
 
 ```
 x: 2.3 y: 2.3 z: 0
 ```
 
-# activity-3: Operators
+# activity-3: Operadores
 
 ```java
         int patrickGrade = 88;
@@ -71,40 +71,40 @@ x: 2.3 y: 2.3 z: 0
         int chrisGrade = 84;
         int jenGrade = 92;
 
-        average = (patrickGrade + tomGrade + maryGrade + chrisGrade + jenGrade)/5;
+        média = (patrickGrade + tomGrade + maryGrade + chrisGrade + jenGrade)/5;
 
         boolean over60 = (average > 60);
         boolean over70 = (average > 70);
         boolean over80 = (average > 80);
         boolean over90 = (average > 90);
 ```
-Output:
+Saída:
 
 ```
 ---------------------------
-     Music Grade Report    
+    Relatório de notas    
 ---------------------------
 
-Student Grades:          
+Notas dos alunos:          
 - Patrick: 88
 - Tom: 89
 - Mary: 95
 - Chris: 84
 - Jen: 92
 
-Class Average: 89.0
-- Average Over 60: true
-- Average Over 70: true
-- Average Over 80: true
-- Average Over 90: false
+Média da turma: 89.0
+- Média acima de 60: true
+- Média acima de 70: true
+- Média acima de 80: true
+- Média acima de 90: false
 ```
 
 
-# activity-4: Control Structures
+# activity-4: Estruturas de Controle
 
-## If statement
+## Declaração If
 ```java
-int currentHour = ... ; // variable that stores current hour between 0 - 23
+int currentHour = ... ; // variável que armazena a hora atual entre 0 - 23
 if(currentHour < 12){
     System.out.println("Good Morning");
 }else if(currentHour < 20){
@@ -114,23 +114,23 @@ if(currentHour < 12){
 }
 ```
 
-## While Loop
+## Laço While (Loop While)
 ```java
     int myTotal = 0;
     for(int num2 = 1; num2 <= 100; num2++){
         myTotal += num2;
     }
 ```
-Output:
+Saída:
 
 ```
-Answer calculated in a while loop: 5050
-Answer calculated in a for loop: 5050
+Resposta calculada em um loop while: 5050
+Resposta calculada em um lopp for: 5050
 ```
 
-# activity-5: Methods
+# activity-5: Métodos
 
-## Pyramid
+## Pirâmide
 ```java
   public static int pyramidCount(int level){
       int total = 0;
@@ -141,25 +141,25 @@ Answer calculated in a for loop: 5050
   }
 ```
 
-Output:
+Saída:
 
 ```
-Congratulations! Challenge Solved!
+Parabéns! Desafio solucionado!
 ```
 
-# activity-6: Object and Classes
+# activity-6: Objeto e Classes
 
-## Bird Class
+## Categoria de Pássaros
 ```java
 public class Bird{
-  // instance variables
+  // variáveis ​​de instância
   private String species;
   private String name;
   private String hobby;
   private int age;
   private boolean loveMusic;
 
-  // constructor
+  // construtor
   public Bird(String species_input, String name_input, String hobby_input, int age_input, boolean loveMusic_input){
     species = species_input;
     name = name_input;
@@ -190,13 +190,13 @@ public class Bird{
 
   public String toString(){
     String info = "";
-    info = info + "Hi, my name is " + getName() + 
-           ". I am a " + getAge() + "year old " + getSpecies() + 
-           " who likes to " + getHobby() + ". ";
+    info = info + "Oi, meu nome é " + getName() + 
+           ". Eu tenho " + getAge() + " anos de idade, sou um " + getSpecies() + 
+           " que gosta de " + getHobby() + ". ";
     if(getLoveMusic()){
-        info = info + "I also like music very much!";
+        info = info + "Eu gosto muito de música!";
     }else{        
-        info = info + "However, I do not like music!";
+        info = info + "Entretanto, eu não gosto de música!";
     }
     return info;
   }
@@ -204,52 +204,52 @@ public class Bird{
 }
 ```
 
-## main() Implementation: No correct answer just an exercise
+## main() Implementação: Nenhuma resposta correta, apenas um exercício
 ```java
 public static void main(String[] args) {
-    Bird patrick = new Bird("duck", "Patrick", "hangout with friends", 15, true);
+    Bird patrick = new Bird("pato", "Patrick", "sair com amigos", 15, true);
     System.out.print(patrick);
 }
 ```
 
-Output:
+Saída:
 
 ```
-Hi, my name is Patrick. I am a 15year old duck who likes to hangout with friends. I also like music very much!
+Oi, meu nome é Patrick. Eu tenho 15 anos de idade, sou um pato que gosta de sair com amigos. Eu gosto muito de música!
 ```
 
-# activity-7: Data Structure (Array & ArrayList)
+# activity-7: Estruturas de dados (Array & ArrayList)
 
-## Array
+## Vetor (Array)
 ```java
   public static void printArr(String[] arr){
     for(int i = 0; i < arr.length - 1; i++){
-      // iterate through each element(not the last one) in the array and add ", " after each element
+      // repete através de cada elemento (não o último) no vetor (array) e adicione "," após cada elemento
       System.out.print(arr[i] + ", ");
     }
-    // print last element and newline character
+    // imprime o último elemento e o caractere de nova linha
     System.out.println(arr[arr.length -1]);
   }
 ```
 
-Output:
+Saída:
 ```
 Birds Of Prey, The Birds, Angry Birds, Bird Box, The Secret Life of Pets
 ```
-## ArrayList
+## Lista de Vetores (ArrayList)
 ```java
   public static void printList(ArrayList<String> list){
-    // type here
+    // digite aqui
     for(int i = 0; i < list.size() - 1; i++){
-      // iterate through each element(not the last one) in the array and add ", " after each element
+      // repete através de cada elemento (não o último) na matriz e adicione "," após cada elemento
       System.out.print(list.get(i) + ", ");
     }
-    // print last element and newline character
+    // imprimir o último elemento e o caractere de nova linha
     System.out.println(list.get(list.size() -1));
   }
 ```
 
-Output:
+Saída:
 ```
 Birds Of Prey, The Birds, Angry Birds, Bird Box, The Secret Life of Pets
 ```
