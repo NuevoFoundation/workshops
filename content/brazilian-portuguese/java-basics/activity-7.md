@@ -11,7 +11,7 @@ Nos exercícios anteriores, aprendemos que variáveis ​​nos permitem acessar
 
 Na programação, **estruturas de dados** são elementos que permitem aos codificadores armazenar vários dados do mesmo tipo. Usar estruturas de dados é uma maneira eficiente de armazenar e acessar grandes volumes de dados. Neste exercício, aprenderemos sobre 2 estruturas de dados usadas em Java: **array** e **ArrayList**.
 
-Embora array seja uma estrutura de dados de comprimento fixo, ArrayList é um comprimento variável onde você pode alterar o tamanho da estrutura de dados. Vamos começar examinando arrays!
+Embora um vetor (array) seja uma estrutura de dados de comprimento fixo, Lista de Vetores (ArrayList) é um comprimento variável onde você pode alterar o tamanho da estrutura de dados. Vamos começar examinando vetores (arrays)!
 
 ## Array
 
