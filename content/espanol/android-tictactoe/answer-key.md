@@ -1,18 +1,18 @@
 ---
-title: "Answer Key - Android Tic-Tac-Toe"
+title: "Respuestas - Android Gato"
 date: 2021-03-13T14:17:07.42-07:00
 hidden: true
 weight: 14
 ---
 
-### Puzzle 1
+### Acertijo 1
 ```xml
 <resources>
     <string name="app_name">Tic-Tac-Toe</string>
 </resources>
 ```
 
-### Puzzle 2
+### Acertijo 2
 ```kotlin
 Toast.makeText(this, "Welcome to Tic-Tac-Toe", Toast.LENGTH_LONG).show()
 ```

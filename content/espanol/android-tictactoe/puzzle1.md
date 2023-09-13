@@ -1,19 +1,19 @@
 ---
-title: "Puzzle 1 - Run the game and solve it"
+title: "Acertijo 1 - Ejecuta el juego y resuélvelo"
 date: 2021-03-13T14:17:07.42-07:00
 draft: false
 weight: 2
 ---
 
-## Run the Game
-Press the play button button (►) at the top of Android Studio to start the game.
+## Ejecuta el juego
+Presiona el botón de reproducción (►) en la parte superior de Android Studio para iniciar el juego.
 <img src="../resources/_gen/images/run_app.png" height="30%" width="30%" title="Run app button" alt="Run app button"/>
 
-You'll see that the title at the top of the app says Toe-Tac-Tic (that doesn't seem right!); let's change it to Tic-Tac-Toe.
+Verás que el título en la parte superior de la aplicación dice Toe-Tac-Tic (¡eso no parece correcto!); cambiémoslo a Tic-Tac-Toe.
 
-## Solve the Puzzle
-Double-click the `strings.xml` file under app &rarr; res &rarr; values:
+## Resuelve el Acertijo
+Haga doble clic en el archivo `strings.xml` en los valores de → de → de la aplicación:
 <img src="../resources/_gen/images/open_strings_file.gif" height="30%" width="30%" title="Strings.xml location" alt="Shows how to navigate toe strings.xml in Android Studio"/>
 
-How can you modify this file to say Tic-Tac-Toe?
+¿Cómo puedes modificar este archivo para que diga Tic-Tac-Toe?
 <img src="../resources/_gen/images/puzzle1_stringsxml.png" height="30%" width="30%" title="Strings.xml content" alt="Image showing how to modify the app name string to say Tic Tac Toe"/>
