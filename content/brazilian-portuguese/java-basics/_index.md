@@ -26,11 +26,11 @@ E, neste curso, abordaremos todos os recursos básicos da linguagem.
 
 ![Cartoon, yellow duck named Patrick playing a pink trumpet](https://media.giphy.com/media/l49JKwmJLChtS6d44/giphy.gif) 
 
-<p style="text-align: center;">(image created by Molang: giphy.com/molangofficialpage)</p>
+<p style="text-align: center;">(imagem criada por Molang: giphy.com/molangofficialpage)</p>
 
 Neste curso, seguiremos o exemplo de um pato amarelo amante da música chamado <b>Patrick</b> 🐥 para aprender tudo sobre Java e fazer amigos pelo caminho!
 
-## Table of Contents
+## Índice
 
 <details close>
 <summary>Table of Contents</summary>
