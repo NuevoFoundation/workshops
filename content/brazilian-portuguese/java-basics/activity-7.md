@@ -1,6 +1,6 @@
 ---
 title: "Estruturas de dados (Array & ArrayList)"
-description: "Apresente estruturas de dados básicas em Java."
+description: "Apresentando estruturas de dados básicas em Java."
 date: 2021-10-13T00:00:00Z
 weight: 8
 ---
