@@ -1,6 +1,6 @@
 ---
 title: "Variáveis ​​e Tipos"
-description: "Apresente tipos e variáveis ​​em Java."
+description: "Apresentando tipos e variáveis ​​em Java."
 date: 2021-10-13T00:00:00Z
 weight: 3
 ---
