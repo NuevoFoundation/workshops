@@ -4,7 +4,7 @@ description: "Setting up headphones"
 date: 2019-07-23T11:45:38-07:00
 weight: 12
 prereq: "None"
-difficulty: "Beginner"
+difficulty: "初学者"
 draft: false
 ---
 ##### 别担心！看看以下的信息是否有帮助，如果没有，随时联系我们之一，我们会提供更多帮助。
