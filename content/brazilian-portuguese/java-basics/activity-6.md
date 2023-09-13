@@ -49,7 +49,7 @@ Vamos aprender sobre as diferentes partes de uma aula abaixo:
 ### Aula
 Uma classe é um projeto ou protótipo de um novo tipo de objeto. Em geral, uma classe contém três partes importantes: (1) campos de dados/variáveis ​​de instância (2) construtor (3) métodos.
 
-<img src="../images/class.png" height="400" alt="A Class blueprint for an object contains instance varialbes/data fields which are data/attributes in the object, constructor which are methods that creates the obejct of the class, and methods, which are behaviors possible for the object."/> 
+<img src="../images/class.png" height="400" alt="Um blueprint de classe para um objeto contém variáveis ​​de instância/campos de dados que são dados/atributos no objeto, construtor que são métodos que criam o objeto da classe e métodos, que são comportamentos possíveis para o objeto."/> 
 
 **Elemento** | **Descrição** | **Exemplo**
 ---|---|---
@@ -77,7 +77,7 @@ public class SampleClass{
 
 ## Experimente 🐥!
 
-Vamos fazer uma aula `Bird` para representar Patrick 🐥 e todos os seus amigos Bird (pássaros) seguindo os passos abaixo!
+Vamos fazer uma categoria (class) de pássaros `(Bird)` para representar Patrick 🐥 e todos os seus amigos Bird (pássaros) seguindo os passos abaixo!
 **Nota:** Para este exercício, você trabalhará em Bird.java em vez de Main.java.
 
 <a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsBird" target="_blank">Launch Replit</a>
@@ -98,7 +98,7 @@ Cada campo é declarado no formato: `private` `data type` `name` `;`.
 
 2. Vamos identificar o tipo apropriado para cada campo:
 
-- `species` deve ser uma `String` que armazena por exemplo: "duck", "swan", "owl" ("pato", "cisne", "coruja").
+- `species` deve ser uma `String` que armazena por exemplo: "pato", "cisne", "coruja".
 - `name` deve ser uma `String` que armazena por exemplo: "Patrick".
 - `hobby` deve ser uma `String` que armazena por exemplo: "jogar basquete".
 - `age` deve ser um `int` que armazena por exemplo: 25.
@@ -158,15 +158,15 @@ public String toString(){
 
     // anexe informações à String no formato:
     // Olá, meu nome é [nome]. Eu sou uma [espécie] de [idade] que gosta de [hobby].
-    info = info + "Hi, my name is " + getName() + 
-           ". I am a " + getAge() + " year old " + getSpecies() + 
-           " who likes to " + getHobby() + ". ";
+    info = info + "Oi, meu nome é " + getName() + 
+           ". Eu tenho " + getAge() + " anos de idade, sou um " + getSpecies() + 
+           " que gosta de " + getHobby() + ". ";
 
-    // se o pássaro gosta de música, acrescente a string "I also like music very much!" para informações
+    // se o pássaro gosta de música, acrescente a string "Eu gosto muito de música!" às informações
     if(getLoveMusic()){
-        info = info + "I also like music very much!";
+        info = info + "Eu gosto muito de música!";
     }else{        
-        info = info + "However, I do not like music!";
+        info = info + "Entretanto, eu não gosto de música!";
     }
 
     // retornar a String completa
@@ -191,7 +191,7 @@ Se ainda houver algo incompleto ou incorreto ao clicar em `Executar`:
 Parabéns! Você acabou de escrever sua primeira classe Java, classe `Bird`. Agora vamos aprender a escrever um programa que use objetos `Bird`!
 
 Definimos a classe `Bird` para ter os seguintes atributos (variáveis ​​de instância) e comportamentos (métodos):
-<img src="../images/bird_class.png" height="450" alt="Bird Class blueprint for a Bird object contains instance variables/data fields which include String species, String name, String hobby, int age, and boolean loveMusic, constructor, which requires all 5 variables to be passed in, and methods, including String getSpecies(), String getName(), String getHobby(), int getAge(), boolean getLoveMusic(), and String toString()." /> 
+<img src="../images/bird_class.png" height="450" alt="O blueprint da classe Bird para um objeto Bird contém variáveis ​​de instância/campos de dados que incluem String de espécies, String de nome, String de hobby, int de idade e booleano de loveMusic, construtor, que requer que todas as 5 variáveis ​​sejam passadas, e métodos, incluindo String getSpecies( ), String getName(), String getHobby(), int getAge(), boolean getLoveMusic() e String toString()." /> 
 
 Para criar um novo objeto de uma classe específica, chamamos o construtor dessa classe no formato `class name` `variable name` `=` `new` `constructor call`.
 
@@ -201,10 +201,10 @@ Lembre-se de que o construtor da classe `Bird` é o seguinte:
 public Bird(String speciesInput, String nameInput, String hobbyInput, int ageInput, boolean loveMusicInput);
 ```
 
-Assim, podemos criar um Bird com estes atributos (espécie - duck; nome - Patrick; hobby - ponto de encontro com amigos; idade - 15; loveMusic - verdadeiro) com esta linha de código.
+Assim, podemos criar um Bird com estes atributos (espécie - pato; nome - Patrick; hobby - encontrar com amigos; idade - 15; loveMusic - true) com esta linha de código.
 
 ```java
-Bird patrick = new Bird("duck", "Patrick", "hangout with friends", 15, true);
+Bird patrick = new Bird("pato", "Patrick", "sair com amigos", 15, true);
 ```
 
 Experimente você mesmo e crie vários pássaros de espécies diferentes 🐦🐤🐔🐧!
