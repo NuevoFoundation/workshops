@@ -21,7 +21,7 @@ First, go into your new repository, click on the "Add file" button, and select "
 
 <img alt="File upload options in the GitHub repository" src="../images/UploadNewFile.png" height="400"/>
 
-# Your GitHub Repository Blooms! 🌱🏞️
+## Your GitHub Repository Blooms! 🌱🏞️
 
 With your newfound abilities, your GitHub repository will flourish, each file a magical blossom in your coding garden! 🌷🌼
 
