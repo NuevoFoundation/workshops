@@ -157,6 +157,6 @@ while(num <= 100){
 System.out.println("Resposta calculada em um while loop: " + total);
 ```
 
-TFaça isso abaixo clicando em `Run` e escreva uma versão do for loop que calcule a mesma coisa! Você deve obter a mesma resposta!
+Faça isso abaixo clicando em `Run` e escreva uma versão do for loop que calcule a mesma coisa! Você deve obter a mesma resposta!
 
 <a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsForWhile" target="_blank">Launch Replit</a>
