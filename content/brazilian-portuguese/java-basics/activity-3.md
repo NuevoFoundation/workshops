@@ -1,6 +1,6 @@
 ---
 title: "Operadores"
-description: "Apresente operadores e execute operações em variáveis ​​em Java."
+description: "Apresentando operadores e fazendo operações em variáveis ​​em Java."
 date: 2021-10-13T00:00:00Z
 weight: 4
 ---
