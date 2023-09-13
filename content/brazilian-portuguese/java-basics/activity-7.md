@@ -17,7 +17,7 @@ Embora um vetor (array) seja uma estrutura de dados de comprimento fixo, Lista d
 
 Digamos que queremos armazenar os 5 melhores filmes favoritos de Patrick. Em vez de criar 5 variáveis, podemos armazenar todos os 5 dados em um vetor (array), nossa primeira estrutura de dados!
 
-Para armazenar dados em um array, fazemos o seguinte:
+Para armazenar dados em um vetor (array), fazemos o seguinte:
 
 1. Primeiro declaramos um array especificando um tipo e tamanho de dados (número de dados que podem ser armazenados).
 
