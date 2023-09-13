@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nuevo Foundation Workshops</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+<meta name="theme-color" content="#000000" />
+<meta name="revised" content="2023-09-13T15:47:31 PDT">
+<meta name="application-name" content=" " />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+<title>Introducción a EarSketch :: Nuevo Foundation Workshops</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+
+<link rel="shortcut icon" href="https://www.nuevofoundation.org/favicons/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57"
+      href="https://www.nuevofoundation.org/favicons//apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120"
+      href="https://www.nuevofoundation.org/favicons/pple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-128.png" sizes=" 128x128" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="/css/nuevoweb.css" />
+<link rel="stylesheet" href="/css/chunk.css" />
+<link rel="stylesheet" href="/css/data-style.css" />
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+
+<script lang="JavaScript">
+
+      function toggleVisibility() {
+
+            
+            const menu = document.getElementById("mobile-nav-menu");
+            if (menu.style.display == 'none') {
+                  menu.classList.replace("transition-out", "transition-in")
+                  menu.style.display = 'block';
+            }
+            else if (menu.style.display == 'block') {
+                  menu.classList.replace("transition-in", "transition-out")
+                  menu.style.display = 'none';
+            }
+      }
+</script>
+<meta
+  name="description"
+  content="
+
+    Introducción a EarSketch
+"
+/>
+
+
+    
+  </head>
+  <body data-url="/es/python-earsketch/getting-started-earsketch/" >
+    
+      <header>
+  
+  <div id="mobile-nav-menu" class="transition-out" style="display: none;">
+    <div class="close-btn" onclick="toggleVisibility();">
+        <i aria-hidden="true" focusable="false" style="cursor: pointer;" class="fa fa-times fa-w-11 fa-sm"></i>
+    </div>
+    <div>
+        <div class="sc-dNLxif ecnYUM">
+            <a href="/support-us"><button class="sc-jbKcbu sedGx"
+                    style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: 4px solid rgb(0, 0, 0); border-radius: 4px;">
+                    Donar
+                </button></a>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/what-we-do">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Lo que hacemos</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/get-involved">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Involucrarse</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/support-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Apoyanos</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/blog">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Blog de eventos</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/about-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Nuestro equipo</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/contact">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Contactanos</li>
+            </ul>
+        </a>
+    </div>
+</div>
+<div>
+    <div class="sc-gGBfsJ iKkPGj">
+        <div class="container-fluid">
+            <div id="toprow" class="row">
+                <div class="col-xs-12">
+                    <div class="sc-EHOje fJMnSm">
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.instagram.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation Instagram" class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://twitter.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation Twitter" class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Facebook" class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.linkedin.com/company/nuevofoundation">
+                                <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://www.youtube.com/nuevofoundation?sub_confirmation=1n">
+                                <i aria-label="Nuevo Foundation YouTube" class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://github.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Github" class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" rel="noopener noreferrer"
+                                href="https://nuevofoundation.org/support-us">Donar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="secondrow" class="row">
+                <div class="col-sm-12 hidden-xs">
+                    <div class="sc-htoDjs kjtfZK">
+                        <a class="sc-fjdhpX izNzAG active" aria-current="page" href="https://nuevofoundation.org">
+                            <img alt="Nuevo Foundation Logo" src="/images/Logo_long.0f097b90.svg"
+                                height="60px" />
+                        </a>
+                        <ul class="sc-iwsKbI bUOvG">
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/what-we-do">
+                                <li class="sc-gZMcBi Bomeo">Lo que hacemos</li>
+                            </a>
+                            <a class="izNzAG" href="/">
+                                <li class="sc-gZMcBi Bomeo-selected jgBGVn">Talleres<span></span></li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/get-involved">
+                                <li class="sc-gZMcBi Bomeo">Involucrarse</li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/support-us">
+                                <li class="sc-gZMcBi Bomeo">Apoyanos</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/blog">
+                                <li class="sc-gZMcBi Bomeo">Blog de eventos</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/about-us">
+                                <li class="sc-gZMcBi Bomeo">Nuestro equipo</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/contact">
+                                <li class="sc-gZMcBi Bomeo">Contactanos</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <a class="sc-fjdhpX izNzAG active" aria-current="page" href="/">
+                                <img alt="Nuevo Foundation Logo" class="sc-dnqmqq emolVn"
+                                    src="/images/Logo_long.0f097b90.svg" height="60%" /></a>
+                        </div>
+                        <div class="col-xs-2" onclick="toggleVisibility();"
+                            style="padding-top: 4%; padding-left: 4%; cursor: pointer;">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                                class="svg-inline--fa fa-bars fa-w-14 fa-lg" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/es/python-earsketch/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/es/python-earsketch/">Python: Hagamos música con EarSketch</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/es/python-earsketch/music-basics/" class="dd-item">
+        <div>
+          <a href="/es/python-earsketch/music-basics/">
+            Música Basica
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/es/python-earsketch/python-basics/" class="dd-item">
+        <div>
+          <a href="/es/python-earsketch/python-basics/">
+            Conceptos básicos de Python
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/es/python-earsketch/getting-started-earsketch/" class="dd-item active">
+        <div>
+          <a href="/es/python-earsketch/getting-started-earsketch/">
+            Introducción a EarSketch
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/es/python-earsketch/activity-1-set-tempo-add-sounds/" class="dd-item">
+        <div>
+          <a href="/es/python-earsketch/activity-1-set-tempo-add-sounds/">
+            Actividad 1 - Establecer tempo y añadir sonidos
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/es/python-earsketch/activity-2-make-a-song/" class="dd-item">
+        <div>
+          <a href="/es/python-earsketch/activity-2-make-a-song/">
+            Actividad 2 – Haz tu propia canción!
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/es/python-earsketch/activity-3-organize-songs-using-functions/" class="dd-item">
+        <div>
+          <a href="/es/python-earsketch/activity-3-organize-songs-using-functions/">
+            Actividad 3 - Organiza tus canciones usando funciones
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/es/python-earsketch/activity-4-add-effects-to-your-songs/" class="dd-item">
+        <div>
+          <a href="/es/python-earsketch/activity-4-add-effects-to-your-songs/">
+            Actividad 4 - Añadir efectos a tu canción
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/es/python-earsketch/activity-5-use-effects-to-fade-in/" class="dd-item">
+        <div>
+          <a href="/es/python-earsketch/activity-5-use-effects-to-fade-in/">
+            Actividad 5 - Usar efecto de Fade in
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+    </ul>
+
+    <section>
+    </section>
+  </aside>
+  <section class="page">
+    <div align="right">
+<select id="select-language" onchange="location = this.value;">
+	
+	
+	
+	  
+	  
+	    
+	      
+	        <option id="en" value="/python-earsketch/getting-started-earsketch/">English</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	      
+	        <option id="es" value="/es/python-earsketch/getting-started-earsketch/" selected>Español</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+</select>
+    </div>
+
+    <div class="nav-select">
+      Navegación:&nbsp;
+      <select onchange="javascript:location.href = this.value;">
+        
+<option value="/es/python-earsketch/" >
+   Python: Hagamos música con EarSketch</option>
+
+<option value="/es/python-earsketch/music-basics/" >- Música Basica</option>
+<option value="/es/python-earsketch/python-basics/" >- Conceptos básicos de Python</option>
+<option value="/es/python-earsketch/getting-started-earsketch/"  selected>- Introducción a EarSketch</option>
+<option value="/es/python-earsketch/activity-1-set-tempo-add-sounds/" >- Actividad 1 - Establecer tempo y añadir sonidos</option>
+<option value="/es/python-earsketch/activity-2-make-a-song/" >- Actividad 2 – Haz tu propia canción!</option>
+<option value="/es/python-earsketch/activity-3-organize-songs-using-functions/" >- Actividad 3 - Organiza tus canciones usando funciones</option>
+<option value="/es/python-earsketch/activity-4-add-effects-to-your-songs/" >- Actividad 4 - Añadir efectos a tu canción</option>
+<option value="/es/python-earsketch/activity-5-use-effects-to-fade-in/" >- Actividad 5 - Usar efecto de Fade in</option>
+
+
+
+      </select>
+
+    </div>
+    
+
+    <h1>Introducción a EarSketch</h1>
+
+    <div class="panel panel-primary">
+    <div class="panel-heading">Recursos del taller</div>
+    <div class="panel-body">
+        
+        <div class="metadata-row">
+            <span class="metadata-label">Requisito previo:</span>
+            <span class="metadata-value">None </span>
+        </div>
+        
+        
+        <div class="metadata-row">
+            <span class="metadata-label">Dificultad:</span>
+            <span class="metadata-value">Principiante</span>
+        </div>
+        
+        
+    </div>
+</div>
+    
+
+    
+    
+    
+    
+    <p><a href="https://en.wikipedia.org/wiki/EarSketch" target="_blank">EarSketch<sup><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></sup></a>
+ es un entorno de programación educativa gratuito desarrollado en el Instituto de Tecnología de Georgia. Hoy compondremos música usando EarSketch.</p>
+<ol>
+<li>Para hacer música, clic en el botón de abajo para abrir Earsketch en una nueva pestaña.</li>
+</ol>
+<p><a class="my-2 mx-4 btn btn-info" href="https://earsketch.gatech.edu/earsketch2/" target="_blank">Abrir Earsketch</a></p>
+<ol start="2">
+<li>Clic donde dice <em>Scripts</em> en el menu izquierdo y selecciona <code>Create a new script</code>. Cuando te salga que introduzcas el number del script, coloca <code>myjam</code> (mis sonidos) y dale click en el buton de <code>Create</code>.</li>
+</ol>
+<img src="../gif/createanewscript.gif" alt="Demo" width="50%"/>
+<ol start="3">
+<li>¡No borrar ningún código que ya este escrito! Colocaremos nuestro código en estas líneas.</li>
+</ol>
+<div class="notices info" >
+    <p header-value="Información"><h2 id="resumen-de-earsketch">Resumen de EarSketch</h2>
+<p>Es importante que entiendas como funciona EarSketch antes de que comiences la clase. De esta manera podrás navegar la interfaz adecuadamente.</p>
+<p>La <code>barra de navegación</code> en el lado izquierdo de la pantalla es su base de operaciones para navegar a través de todo lo que EarSketch tiene para ofrecer.</p>
+<ol>
+<li>
+<p>El primer elemento de la barra de navegación es la colección de <code>sonidos</code> (o <code>Sounds</code>). Es la ubicación central para todos los sonidos precargados que earsketch tiene para ofrecer. En el navegador de sonido, puede filtrar qué sonidos aparecen en función de los artistas, el género o los instrumentos.</p>
+<p><img src="../img/screenshot-navigation-sound-browser.png" alt=""></p>
+</li>
+<li>
+<p>El siguiente icono de la barra de navegación es el panel que dice <code>Scripts</code>. Aquí es donde escribiremos nuestro código.</p>
+<p><img src="../img/screenshot-navigation-script.png" alt=""></p>
+</li>
+<li>
+<p>El siguiente icono (tercero desde la parte superior) es la sección de <code>Compartir</code> (o <code>Share</code>). Puedes usar esto para guardar tu código, descargarlo o compartirlo con tus amigos. Omitiremos esta sección para este ejercicio.</p>
+</li>
+<li>
+<p>Los dos últimos iconos de la barra de navegación son el navegador <code>API Browser</code> y las guías de currículo (o <code>Curriculum</code>).</p>
+<p><img src="../img/screenshot-navigation-api-curriculum.png" alt=""></p>
+</li>
+</ol>
+<p>Usaremos el  <code>API browser</code> para hacer música. ¡Una interfaz de programación de aplicaciones (por sus siglas en ingles <em>Application Programming Interface</em>) o <em>API</em> es un conjunto de código que está listo para su uso de inmediato! Puede observar dos iconos a la derecha de cada API. El primer icono proporciona una descripción de la API y un ejemplo sobre cómo utilizar la API. ¡El segundo icono copia y pega la API en el editor de código, por lo que ni siquiera es necesario escribirlo! Usaremos un par de estos en las próximas secciones.</p>
+<p>El último icono de la imagen anterior muestra la guía de guías de currículo (o <code>Curriculum</code>) plan de estudios. Si desea saber más sobre EarSketch, puede explorar la sección que aparece en el lado derecho de la ventana al hacer clic en ella. Omitiremos esta sección para este ejercicio.</p>
+</p>
+</div>
+
+    
+    
+      <div class="chevrons">
+  <style>
+    .workshop-complete-image {
+        margin: 40px auto 50px auto;
+        width: 340.8px;
+    }
+    
+    .workshop-complete-words {
+        font-family: Space Mono, monospace;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        text-align: center;
+    }
+    
+    .horizontal-bar {
+        background-color: #000000;
+        width: 120px;
+        height: 12px;
+        margin: 80px auto 0 auto;
+    }
+</style>
+
+
+    <div id="navigation">
+            <div class="next-prev-wrapper-div"><a class='nav nav-prev' href="/es/python-earsketch/python-basics/" title="Conceptos básicos de Python">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Anterior:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Conceptos básicos de Python
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="prevbutton-image">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+        
+    </div>
+</a></div>
+            <div class="next-prev-wrapper-div"><a class='nav nav-next' href="/es/python-earsketch/activity-1-set-tempo-add-sounds/" title="Actividad 1 - Establecer tempo y añadir sonidos">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                A continuación:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Actividad 1 - Establecer tempo y añadir sonidos
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="nextbutton-image">
+            <i class="fa fa-arrow-right"></i>
+        </div>
+        
+    </div>
+</a></div>
+        </div>
+</div>
+
+</section>
+</article>
+
+<footer>
+  <div class="footline">
+    
+
+    
+
+    
+
+    
+    <div class="github-link">
+      <a href="https://github.com/NuevoFoundation/workshops/tree/master/content/python-earsketch/getting-started-earsketch.md" target="blank"><i
+          class="fa fa-code-fork"></i>
+        </a>
+    </div>
+    
+  </div>
+
+
+  <div>
+    
+    
+    
+    
+    
+    
+
+
+  </div>
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+    
+
+    
+    
+
+    <div id="footer" class="row">
+    <div class="col-xs-12">
+        <div class="App-footer">
+            <div class="App-footer-big">
+                Únete a la conversación en las redes sociales.
+            </div>
+            <div class="social-images">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Instagram" class="fab fa-2x fa-instagram"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Twitter" class="fab fa-2x fa-twitter"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Facebook" class="fab fa-2x fa-1x fa-facebook-f"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-2x fa-linkedin"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/nuevofoundation?sub_confirmation=1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation YouTube" class="fab fa-2x fa-youtube"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Github" class="fab fa-2x fa-github"></i>
+                </a>
+            </div>
+            <div class="App-footer-small">
+                © Copyright 2022, Todos los derechos reservados por Nuevo Foundation, una organización sin fines de lucro de acuerdo con la disposición 501(c)(3).
+            </div>
+        </div>
+    </div>
+</div>
+
+  </body>
+</html>

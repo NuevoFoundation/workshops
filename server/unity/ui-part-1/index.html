@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nuevo Foundation Workshops</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+<meta name="theme-color" content="#000000" />
+<meta name="revised" content="2023-09-13T15:47:29 PDT">
+<meta name="application-name" content=" " />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+<title>Making the UI: Part 1 :: Nuevo Foundation Workshops</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+
+<link rel="shortcut icon" href="https://www.nuevofoundation.org/favicons/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57"
+      href="https://www.nuevofoundation.org/favicons//apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120"
+      href="https://www.nuevofoundation.org/favicons/pple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-128.png" sizes=" 128x128" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="/css/nuevoweb.css" />
+<link rel="stylesheet" href="/css/chunk.css" />
+<link rel="stylesheet" href="/css/data-style.css" />
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+
+<script lang="JavaScript">
+
+      function toggleVisibility() {
+
+            
+            const menu = document.getElementById("mobile-nav-menu");
+            if (menu.style.display == 'none') {
+                  menu.classList.replace("transition-out", "transition-in")
+                  menu.style.display = 'block';
+            }
+            else if (menu.style.display == 'block') {
+                  menu.classList.replace("transition-in", "transition-out")
+                  menu.style.display = 'none';
+            }
+      }
+</script>
+<meta
+  name="description"
+  content="
+
+    
+"
+/>
+
+
+    
+  </head>
+  <body data-url="/unity/ui-part-1/" >
+    
+      <header>
+  
+  <div id="mobile-nav-menu" class="transition-out" style="display: none;">
+    <div class="close-btn" onclick="toggleVisibility();">
+        <i aria-hidden="true" focusable="false" style="cursor: pointer;" class="fa fa-times fa-w-11 fa-sm"></i>
+    </div>
+    <div>
+        <div class="sc-dNLxif ecnYUM">
+            <a href="/support-us"><button class="sc-jbKcbu sedGx"
+                    style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: 4px solid rgb(0, 0, 0); border-radius: 4px;">
+                    Donate
+                </button></a>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/what-we-do">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>What We Do</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/get-involved">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Get Involved</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/support-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Support us</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/blog">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Event blog</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/about-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Our team</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/contact">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Contact us</li>
+            </ul>
+        </a>
+    </div>
+</div>
+<div>
+    <div class="sc-gGBfsJ iKkPGj">
+        <div class="container-fluid">
+            <div id="toprow" class="row">
+                <div class="col-xs-12">
+                    <div class="sc-EHOje fJMnSm">
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.instagram.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation Instagram" class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://twitter.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation Twitter" class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Facebook" class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.linkedin.com/company/nuevofoundation">
+                                <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://www.youtube.com/nuevofoundation?sub_confirmation=1n">
+                                <i aria-label="Nuevo Foundation YouTube" class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://github.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Github" class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" rel="noopener noreferrer"
+                                href="https://nuevofoundation.org/support-us">Donate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="secondrow" class="row">
+                <div class="col-sm-12 hidden-xs">
+                    <div class="sc-htoDjs kjtfZK">
+                        <a class="sc-fjdhpX izNzAG active" aria-current="page" href="https://nuevofoundation.org">
+                            <img alt="Nuevo Foundation Logo" src="/images/Logo_long.0f097b90.svg"
+                                height="60px" />
+                        </a>
+                        <ul class="sc-iwsKbI bUOvG">
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/what-we-do">
+                                <li class="sc-gZMcBi Bomeo">What We Do</li>
+                            </a>
+                            <a class="izNzAG" href="/">
+                                <li class="sc-gZMcBi Bomeo-selected jgBGVn">Workshops<span></span></li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/get-involved">
+                                <li class="sc-gZMcBi Bomeo">Get Involved</li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/support-us">
+                                <li class="sc-gZMcBi Bomeo">Support us</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/blog">
+                                <li class="sc-gZMcBi Bomeo">Event blog</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/about-us">
+                                <li class="sc-gZMcBi Bomeo">Our team</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/contact">
+                                <li class="sc-gZMcBi Bomeo">Contact us</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <a class="sc-fjdhpX izNzAG active" aria-current="page" href="/">
+                                <img alt="Nuevo Foundation Logo" class="sc-dnqmqq emolVn"
+                                    src="/images/Logo_long.0f097b90.svg" height="60%" /></a>
+                        </div>
+                        <div class="col-xs-2" onclick="toggleVisibility();"
+                            style="padding-top: 4%; padding-left: 4%; cursor: pointer;">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                                class="svg-inline--fa fa-bars fa-w-14 fa-lg" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/unity/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/unity/">Unity: Top-Down Nuvi Space Game</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/unity/install-unity/" class="dd-item">
+        <div>
+          <a href="/unity/install-unity/">
+            Installing Unity
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/unity/understanding-unity-interface/" class="dd-item">
+        <div>
+          <a href="/unity/understanding-unity-interface/">
+            Understanding the Unity Interface
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/unity/scripts-explained/" class="dd-item">
+        <div>
+          <a href="/unity/scripts-explained/">
+            Scripts Explained
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/unity/making-nuvi-move/" class="dd-item">
+        <div>
+          <a href="/unity/making-nuvi-move/">
+            Making Nuvi Move
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/unity/colliders/" class="dd-item">
+        <div>
+          <a href="/unity/colliders/">
+            Colliders
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/unity/setting-up-enemies/" class="dd-item">
+        <div>
+          <a href="/unity/setting-up-enemies/">
+            Setting up the Enemies
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/unity/setup-projectile-and-prefab/" class="dd-item">
+        <div>
+          <a href="/unity/setup-projectile-and-prefab/">
+            Setting up the Projectile and Making it a Prefab
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/unity/firing/" class="dd-item">
+        <div>
+          <a href="/unity/firing/">
+            Firing
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/unity/triggers-and-tags/" class="dd-item">
+        <div>
+          <a href="/unity/triggers-and-tags/">
+            Triggers and Tags
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/unity/projectile-enemy-behavior/" class="dd-item">
+        <div>
+          <a href="/unity/projectile-enemy-behavior/">
+            Projectile/Enemy Behavior
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/unity/ui-part-1/" class="dd-item active">
+        <div>
+          <a href="/unity/ui-part-1/">
+            Making the UI: Part 1
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/unity/ui-part-2/" class="dd-item">
+        <div>
+          <a href="/unity/ui-part-2/">
+            Making the UI: Part 2
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/unity/outline/" class="dd-item">
+        <div>
+          <a href="/unity/outline/">
+            Piecing it All Together
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/unity/build-and-run/" class="dd-item">
+        <div>
+          <a href="/unity/build-and-run/">
+            Building and Running your Game
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+    </ul>
+
+    <section>
+    </section>
+  </aside>
+  <section class="page">
+    <div align="right">
+<select id="select-language" onchange="location = this.value;">
+	
+	
+	
+	  
+	  
+	    
+	      
+	        <option id="en" value="/unity/ui-part-1/" selected>English</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+</select>
+    </div>
+
+    <div class="nav-select">
+      Navigation:&nbsp;
+      <select onchange="javascript:location.href = this.value;">
+        
+<option value="/unity/" >
+   Unity: Top-Down Nuvi Space Game</option>
+
+<option value="/unity/install-unity/" >- Installing Unity</option>
+<option value="/unity/understanding-unity-interface/" >- Understanding the Unity Interface</option>
+<option value="/unity/scripts-explained/" >- Scripts Explained</option>
+<option value="/unity/making-nuvi-move/" >- Making Nuvi Move</option>
+<option value="/unity/colliders/" >- Colliders</option>
+<option value="/unity/setting-up-enemies/" >- Setting up the Enemies</option>
+<option value="/unity/setup-projectile-and-prefab/" >- Setting up the Projectile and Making it a Prefab</option>
+<option value="/unity/firing/" >- Firing</option>
+<option value="/unity/triggers-and-tags/" >- Triggers and Tags</option>
+<option value="/unity/projectile-enemy-behavior/" >- Projectile/Enemy Behavior</option>
+<option value="/unity/ui-part-1/"  selected>- Making the UI: Part 1</option>
+<option value="/unity/ui-part-2/" >- Making the UI: Part 2</option>
+<option value="/unity/outline/" >- Piecing it All Together</option>
+<option value="/unity/build-and-run/" >- Building and Running your Game</option>
+
+
+
+      </select>
+
+    </div>
+    
+
+    <h1>Making the UI: Part 1</h1>
+
+    
+
+    
+
+    
+    
+    
+    
+    <h2 id="menu-screen">Menu Screen</h2>
+<p>We&rsquo;re almost done! To complete this game, we need to do two more things: add a UI and an Outline script to piece everything together. Let&rsquo;s start with the UI.</p>
+<p>Right click in the hierarchy window and, instead of selecting &ldquo;Create Empty&rdquo;, we want to create a canvas. Look for &ldquo;UI&rdquo; → &ldquo;Canvas&rdquo;. This is where all of our UI elements will be under.</p>
+<p>Under &ldquo;Canvas&rdquo;, we want to create &ldquo;UI&rdquo; → &ldquo;Image&rdquo;. Rename &ldquo;Image&rdquo; to &ldquo;Menu&rdquo;. This will be our menu screen. In the Menu inspector, resize the width and height to 400 and 300 respectively.
+We then want to anchor the Menu screen to the middle. This way, even if the size of the window changes, the menu screen will stay in the middle. To do this, click on the squares in the top left corner under Rect Transform in the Menu inspector.</p>
+<img src="../img/11_anchors.png" alt="Anchor tool" width="400"/>
+<p>Hold both shift and alt (on Mac&rsquo;s, hold option instead of alt) and select the middle/center in the Anchor presets. This will set the Menu&rsquo;s pivot to 0 while setting the position to the middle/center.</p>
+<p>Now under Menu, create a &ldquo;UI&rdquo; → &ldquo;Text&rdquo; and rename it to &ldquo;Title&rdquo;. Change the text to whatever you would like to name your game under Text in the &ldquo;Title&rdquo; inspector! Let your creativity flow! We can also change the font size to whatever you like.</p>
+<div class="notices tip" >
+    <p header-value="Tip">If the text disappears, use the rect tool to increase the size of the text box in the Scene window!</p>
+</div>
+<p>Change the anchor preset to the top/center. Tinker with the Pos Y input until you like the placement of your text!</p>
+<p>Make another &ldquo;UI&rdquo; → &ldquo;Text&rdquo; under Menu in the hierarchy and rename that to &ldquo;NumEnemyT&rdquo;. Change the text to &ldquo;# of Enemies&rdquo; and change the font to a few sizes smaller than the Title. Make sure to set the anchor position to top/center as well and tinker with the Pos Y input!</p>
+<p>Now, let&rsquo;s create a way for the player to choose how many enemies they want! There are many ways to do this, but in this tutorial, we will be using a slider.
+To create a slider, right click under Menu and select &ldquo;UI&rdquo; → &ldquo;Slider&rdquo; and rename it to &ldquo;EnemySlider&rdquo;. Set the anchor position to the top/center as well and tinker with the Pos Y input so that it is right under the &ldquo;# of Enemies&rdquo; text. In the slider inspector under Slider, change the &ldquo;Min Value&rdquo; to &ldquo;1&rdquo; and &ldquo;Max Value&rdquo; to &ldquo;3&rdquo;. Also check the &ldquo;Whole Number&rdquo; box as we cannot have 1.5 enemies on the field!</p>
+<p>Now that we have a slider, we need a visual key for the players to know how many enemies they can make!
+Make 2 more text boxes under Menu and name them &ldquo;1T&rdquo; and &ldquo;3T&rdquo; respectively. Change the &ldquo;1T&rdquo; text to &ldquo;1&rdquo; and set the anchor position to the middle/left. Tinker with the Pos X and Pos Y inputs under Rect Transform so that it lines up with the left side of the slider.
+Repeat the process with &ldquo;3T&rdquo; but change the text to &ldquo;3&rdquo;, anchor it to the middle/right, and line it up with the right side of the slider.</p>
+<p>Now, let&rsquo;s create a start button. Under Menu in the hierarchy window, create &ldquo;UI&rdquo; → &ldquo;Button&rdquo; and rename it to &ldquo;StartButton&rdquo;. Set the anchor position to the bottom/center and tinker with the Pos Y inputs to place it wherever you like! If we look in the hierarchy, there is an arrow attached to the StartButton. Click on it to reveal a Text object. Change the text for that Text object to &ldquo;Start&rdquo;.</p>
+<img src="../img/11_buttonUI.png" alt="Overview of Menu hierarchy" width="200"/>
+<p>We now have the menu screen all set up! Your menu screen should look a little something like this!</p>
+<img src="../img/11_result.png" alt="Example Menu screen" width="800"/>
+<p>But wait! We&rsquo;re not done yet! If we were to run the game and press the Start button, nothing happens! We want the menu screen to disappear.
+To do this, let&rsquo;s make another script in our Scripts folder in the Projects window under Assets and name it &ldquo;StartButton&rdquo;. Open it up and copy and paste the code below!</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#00a8c8">using</span> <span style="color:#111">System.Collections</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">using</span> <span style="color:#111">System.Collections.Generic</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">using</span> <span style="color:#111">UnityEngine</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">public</span> <span style="color:#00a8c8">class</span> <span style="color:#75af00">StartButton</span> <span style="color:#111">:</span> <span style="color:#111">MonoBehaviour</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>   <span style="color:#00a8c8">public</span> <span style="color:#111">GameObject</span> <span style="color:#111">pop_up_box</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>   <span style="color:#00a8c8">public</span> <span style="color:#00a8c8">void</span> <span style="color:#111">popDown</span><span style="color:#111">()</span>
+</span></span><span style="display:flex;"><span>   <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>       <span style="color:#111">pop_up_box</span><span style="color:#111">.</span><span style="color:#111">SetActive</span><span style="color:#111">(</span><span style="color:#00a8c8">false</span><span style="color:#111">);</span>
+</span></span><span style="display:flex;"><span>   <span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span></code></pre></div><p>This code makes whatever GameObject that is assigned to pop_up_box disappear when the function <code>popDown()</code> is called. Save, then drag and drop this script from the Scripts folder into the StartButton inspector. Then drag the Menu from the hierarchy into the empty &ldquo;Pop_up_box&rdquo; under the &ldquo;Start Button (Script)&rdquo;.
+Finally, under &ldquo;Button&rdquo; in the StartButton inspector, click on the &ldquo;+&rdquo; sign in the &ldquo;On Click()&rdquo; box. Drag the &ldquo;StartButton&rdquo; from the hierarchy to the box that says &ldquo;None (Object)&rdquo;.
+Then, pull down the &ldquo;No Function&rdquo; bar and hover over &ldquo;StartButton&rdquo;. Locate the <code>popDown()</code> function and select it.</p>
+<img src="../img/11_popDown.png" alt="Selecting popDown() function to activate when StartButton is clicked" width="600"/>
+<p>Now, if we were to run the game and press the Start button, the menu screen disappears!</p>
+
+
+    
+    
+      <div class="chevrons">
+  <style>
+    .workshop-complete-image {
+        margin: 40px auto 50px auto;
+        width: 340.8px;
+    }
+    
+    .workshop-complete-words {
+        font-family: Space Mono, monospace;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        text-align: center;
+    }
+    
+    .horizontal-bar {
+        background-color: #000000;
+        width: 120px;
+        height: 12px;
+        margin: 80px auto 0 auto;
+    }
+</style>
+
+
+    <div id="navigation">
+            <div class="next-prev-wrapper-div"><a class='nav nav-prev' href="/unity/projectile-enemy-behavior/" title="Projectile/Enemy Behavior">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Previous:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Projectile/Enemy Behavior
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="prevbutton-image">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+        
+    </div>
+</a></div>
+            <div class="next-prev-wrapper-div"><a class='nav nav-next' href="/unity/ui-part-2/" title="Making the UI: Part 2">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Up Next:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Making the UI: Part 2
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="nextbutton-image">
+            <i class="fa fa-arrow-right"></i>
+        </div>
+        
+    </div>
+</a></div>
+        </div>
+</div>
+
+</section>
+</article>
+
+<footer>
+  <div class="footline">
+    
+
+    
+
+    
+    <div class="date">
+      <i class='fa fa-calendar'></i> 
+      Wed, 06 Oct 2021 11:45:38 PDT
+    </div>
+    
+
+    
+    <div class="github-link">
+      <a href="https://github.com/NuevoFoundation/workshops/tree/master/content/unity/ui-part-1.md" target="blank"><i
+          class="fa fa-code-fork"></i>
+        </a>
+    </div>
+    
+  </div>
+
+
+  <div>
+    
+    
+    
+    
+    
+    
+
+
+  </div>
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+    
+
+    
+    
+
+    <div id="footer" class="row">
+    <div class="col-xs-12">
+        <div class="App-footer">
+            <div class="App-footer-big">
+                Join the conversation on social media.
+            </div>
+            <div class="social-images">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Instagram" class="fab fa-2x fa-instagram"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Twitter" class="fab fa-2x fa-twitter"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Facebook" class="fab fa-2x fa-1x fa-facebook-f"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-2x fa-linkedin"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/nuevofoundation?sub_confirmation=1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation YouTube" class="fab fa-2x fa-youtube"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Github" class="fab fa-2x fa-github"></i>
+                </a>
+            </div>
+            <div class="App-footer-small">
+                © Copyright 2022, All Rights Reserved by Nuevo Foundation, a 501(c)(3) nonprofit.
+            </div>
+        </div>
+    </div>
+</div>
+
+  </body>
+</html>

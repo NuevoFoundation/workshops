@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nuevo Foundation Workshops</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+<meta name="theme-color" content="#000000" />
+<meta name="revised" content="2023-09-13T15:47:30 PDT">
+<meta name="application-name" content=" " />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+<title>Activity 5: Learn the MAX/MIN Command :: Nuevo Foundation Workshops</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+
+<link rel="shortcut icon" href="https://www.nuevofoundation.org/favicons/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57"
+      href="https://www.nuevofoundation.org/favicons//apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120"
+      href="https://www.nuevofoundation.org/favicons/pple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-128.png" sizes=" 128x128" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="/css/nuevoweb.css" />
+<link rel="stylesheet" href="/css/chunk.css" />
+<link rel="stylesheet" href="/css/data-style.css" />
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+
+<script lang="JavaScript">
+
+      function toggleVisibility() {
+
+            
+            const menu = document.getElementById("mobile-nav-menu");
+            if (menu.style.display == 'none') {
+                  menu.classList.replace("transition-out", "transition-in")
+                  menu.style.display = 'block';
+            }
+            else if (menu.style.display == 'block') {
+                  menu.classList.replace("transition-in", "transition-out")
+                  menu.style.display = 'none';
+            }
+      }
+</script>
+<meta
+  name="description"
+  content="
+
+    Learn the MAX/MIN Command
+"
+/>
+
+
+    
+  </head>
+  <body data-url="/sql_workshop/activity5/" >
+    
+      <header>
+  
+  <div id="mobile-nav-menu" class="transition-out" style="display: none;">
+    <div class="close-btn" onclick="toggleVisibility();">
+        <i aria-hidden="true" focusable="false" style="cursor: pointer;" class="fa fa-times fa-w-11 fa-sm"></i>
+    </div>
+    <div>
+        <div class="sc-dNLxif ecnYUM">
+            <a href="/support-us"><button class="sc-jbKcbu sedGx"
+                    style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: 4px solid rgb(0, 0, 0); border-radius: 4px;">
+                    Donate
+                </button></a>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/what-we-do">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>What We Do</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/get-involved">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Get Involved</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/support-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Support us</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/blog">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Event blog</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/about-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Our team</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/contact">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Contact us</li>
+            </ul>
+        </a>
+    </div>
+</div>
+<div>
+    <div class="sc-gGBfsJ iKkPGj">
+        <div class="container-fluid">
+            <div id="toprow" class="row">
+                <div class="col-xs-12">
+                    <div class="sc-EHOje fJMnSm">
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.instagram.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation Instagram" class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://twitter.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation Twitter" class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Facebook" class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.linkedin.com/company/nuevofoundation">
+                                <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://www.youtube.com/nuevofoundation?sub_confirmation=1n">
+                                <i aria-label="Nuevo Foundation YouTube" class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://github.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Github" class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" rel="noopener noreferrer"
+                                href="https://nuevofoundation.org/support-us">Donate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="secondrow" class="row">
+                <div class="col-sm-12 hidden-xs">
+                    <div class="sc-htoDjs kjtfZK">
+                        <a class="sc-fjdhpX izNzAG active" aria-current="page" href="https://nuevofoundation.org">
+                            <img alt="Nuevo Foundation Logo" src="/images/Logo_long.0f097b90.svg"
+                                height="60px" />
+                        </a>
+                        <ul class="sc-iwsKbI bUOvG">
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/what-we-do">
+                                <li class="sc-gZMcBi Bomeo">What We Do</li>
+                            </a>
+                            <a class="izNzAG" href="/">
+                                <li class="sc-gZMcBi Bomeo-selected jgBGVn">Workshops<span></span></li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/get-involved">
+                                <li class="sc-gZMcBi Bomeo">Get Involved</li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/support-us">
+                                <li class="sc-gZMcBi Bomeo">Support us</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/blog">
+                                <li class="sc-gZMcBi Bomeo">Event blog</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/about-us">
+                                <li class="sc-gZMcBi Bomeo">Our team</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/contact">
+                                <li class="sc-gZMcBi Bomeo">Contact us</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <a class="sc-fjdhpX izNzAG active" aria-current="page" href="/">
+                                <img alt="Nuevo Foundation Logo" class="sc-dnqmqq emolVn"
+                                    src="/images/Logo_long.0f097b90.svg" height="60%" /></a>
+                        </div>
+                        <div class="col-xs-2" onclick="toggleVisibility();"
+                            style="padding-top: 4%; padding-left: 4%; cursor: pointer;">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                                class="svg-inline--fa fa-bars fa-w-14 fa-lg" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/sql_workshop/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/sql_workshop/">SQL: Saving the Galaxy</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/sql_workshop/basics_activity/" class="dd-item
+        ">
+      <div>
+      <a href="/sql_workshop/basics_activity/">Tutorial 1: Learn Cadet Basics</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/sql_workshop/activity1/" class="dd-item
+        ">
+      <div>
+      <a href="/sql_workshop/activity1/">Activity 1: Learn the SELECT Command</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/sql_workshop/activity2/" class="dd-item
+        ">
+      <div>
+      <a href="/sql_workshop/activity2/">Activity 2: Learn the WHERE Command</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/sql_workshop/syntax_explanation/" class="dd-item
+        ">
+      <div>
+      <a href="/sql_workshop/syntax_explanation/">Tutorial 2: Explain Syntax</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/sql_workshop/activity3/" class="dd-item
+        ">
+      <div>
+      <a href="/sql_workshop/activity3/">Activity 3: Learn the COUNT Command</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/sql_workshop/activity4/" class="dd-item
+        ">
+      <div>
+      <a href="/sql_workshop/activity4/">Activity 4: Select Multiple Info</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/sql_workshop/activity5/" class="dd-item active
+        ">
+      <div>
+      <a href="/sql_workshop/activity5/">Activity 5: Learn the MAX/MIN Command</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/sql_workshop/activity6/" class="dd-item
+        ">
+      <div>
+      <a href="/sql_workshop/activity6/">Activity 6: Use Comparators</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/sql_workshop/activity7/" class="dd-item
+        ">
+      <div>
+      <a href="/sql_workshop/activity7/">Activity 7: Use the MIN Command</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/sql_workshop/activity8/" class="dd-item
+        ">
+      <div>
+      <a href="/sql_workshop/activity8/">Activity 8: Learn the LIKE Command</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/sql_workshop/activity9/" class="dd-item
+        ">
+      <div>
+      <a href="/sql_workshop/activity9/">Activity 9: Learn the AVG Command</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/sql_workshop/activity10/" class="dd-item
+        ">
+      <div>
+      <a href="/sql_workshop/activity10/">Activity 10: Learn the SUM command</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/sql_workshop/activity11/" class="dd-item
+        ">
+      <div>
+      <a href="/sql_workshop/activity11/">Activity 11: Learn the GROUP BY command</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/sql_workshop/activity12/" class="dd-item
+        ">
+      <div>
+      <a href="/sql_workshop/activity12/">Activity 12: Find the Inventor!</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+    </ul>
+
+    <section>
+    </section>
+  </aside>
+  <section class="page">
+    <div align="right">
+<select id="select-language" onchange="location = this.value;">
+	
+	
+	
+	  
+	  
+	    
+	      
+	        <option id="en" value="/sql_workshop/activity5/" selected>English</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+</select>
+    </div>
+
+    <div class="nav-select">
+      Navigation:&nbsp;
+      <select onchange="javascript:location.href = this.value;">
+        
+<option value="/sql_workshop/" >
+   SQL: Saving the Galaxy</option>
+
+<option value="/sql_workshop/basics_activity/" >
+  -
+   Tutorial 1: Learn Cadet Basics</option>
+<option value="/sql_workshop/activity1/" >
+  -
+   Activity 1: Learn the SELECT Command</option>
+<option value="/sql_workshop/activity2/" >
+  -
+   Activity 2: Learn the WHERE Command</option>
+<option value="/sql_workshop/syntax_explanation/" >
+  -
+   Tutorial 2: Explain Syntax</option>
+<option value="/sql_workshop/activity3/" >
+  -
+   Activity 3: Learn the COUNT Command</option>
+<option value="/sql_workshop/activity4/" >
+  -
+   Activity 4: Select Multiple Info</option>
+<option value="/sql_workshop/activity5/"  selected>
+  -
+   Activity 5: Learn the MAX/MIN Command</option>
+<option value="/sql_workshop/activity6/" >
+  -
+   Activity 6: Use Comparators</option>
+<option value="/sql_workshop/activity7/" >
+  -
+   Activity 7: Use the MIN Command</option>
+<option value="/sql_workshop/activity8/" >
+  -
+   Activity 8: Learn the LIKE Command</option>
+<option value="/sql_workshop/activity9/" >
+  -
+   Activity 9: Learn the AVG Command</option>
+<option value="/sql_workshop/activity10/" >
+  -
+   Activity 10: Learn the SUM command</option>
+<option value="/sql_workshop/activity11/" >
+  -
+   Activity 11: Learn the GROUP BY command</option>
+<option value="/sql_workshop/activity12/" >
+  -
+   Activity 12: Find the Inventor!</option>
+
+
+
+      </select>
+
+    </div>
+    
+
+    <h1>Activity 5: Learn the MAX/MIN Command</h1>
+
+    <div class="panel panel-primary">
+    <div class="panel-heading">Workshop Resources</div>
+    <div class="panel-body">
+        
+        <div class="metadata-row">
+            <span class="metadata-label">Pre-requisite:</span>
+            <span class="metadata-value">SELECT Command, WHERE Command </span>
+        </div>
+        
+        
+        <div class="metadata-row">
+            <span class="metadata-label">Difficulty:</span>
+            <span class="metadata-value">Intermediate</span>
+        </div>
+        
+        
+    </div>
+</div>
+    
+
+    
+    
+    
+    
+
+<!-- Links for javascript and CSS needed for drop down logic -->
+<link rel="stylesheet" href="../default/_default.css" type="text/css"></link>
+<link rel="stylesheet" href="../default/_type.css" type="text/css"></link>
+<link rel="stylesheet" href="_activity5.css" type="text/css"></link>
+<script type="text/javascript" src="../default/_default.js"></script>
+<script type="text/javascript" src="../default/_type.js"></script>
+<script type="text/javascript" src="_activity5.js"></script>
+<script type="text/javascript" src="../default/alasql.js"></script>
+<script type="text/javascript" src="../default/db.js"></script>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/VPMZedGI-Ww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<h2 id="task-5-find-the-tallest-ladder-to-get-to-their-leader">Task 5: Find the Tallest Ladder To Get To Their Leader</h2>
+<p>You have discovered that the planet&rsquo;s leader is in a hut on the tallest hill but to get to it, you need to find the largest ladder in the Capital of Fun!</p>
+<p>The Galactic Federation has sent you four new SQL commands to play around with! Let&rsquo;s take a look at them!</p>
+<h3 id="what-the-commands-do">What the commands do:</h3>
+<p><img src="assets/max_min.png" alt="Explain"></p>
+<br/>
+<div class="notices info" >
+    <p header-value="Info">Column Property:
+<code>MAX()</code> is used to look for the largest value in a column. <code>MIN()</code> is the opposite of <code>MAX()</code> and will look for the smallest value in a column.
+You can replace any word inside the parenthesis with another column name to get the largest or smallest value of that column.</p>
+</div>
+<p><img src="assets/In.png" alt="IN">
+<img src="assets/not.png" alt="NOT"></p>
+<div class="notices info" >
+    <p header-value="Info"><p>Notice how the items specified inside <code>IN()</code> and <code>NOT IN()</code> are surrounded by single quotation marks but the ones inside <code>MAX()</code> and <code>MIN()</code> are not.</p>
+<br>
+<p>Condition:</p>
+<ul>
+<li>
+<p><code>IN()</code> and <code>NOT IN()</code> are used hand in hand with the <code>WHERE</code> command we learned in activity 2. <code>IN()</code> is part of the condition of a SQL command and is helpful when you want to show some columns but not all of them.</p>
+</li>
+<li>
+<p><code>NOT IN()</code> is the opposite of <code>IN()</code>. Instead of choosing what to show like <code>IN()</code>, <code>NOT IN()</code> will show all the columns you did not choose inside the parenthesis.</p>
+</li>
+<li>
+<p>You can use commas inside the parenthesis to choose more than one column to show or not show.</p>
+</li>
+<li>
+<p>Using only 1 input inside <code>IN()</code> is equivalent to using <code>=</code>:</p>
+</li>
+</ul>
+<p>Ex. <code>column_name IN('obejct_in_column');</code> is the same as <code>column_name = 'obejct_in_column';</code></p>
+</p>
+</div>
+<h3 id="now-use-what-you-learned-using-the-database-called-items-with-columns-labeled-object-and-height-find-the-tallest-ladder">Now use what you learned! Using the database called &lsquo;items&rsquo; with columns labeled &lsquo;object&rsquo; and &lsquo;height&rsquo;, find the tallest &rsquo;ladder&rsquo;.</h3>
+<div class="notices tip" >
+    <p header-value="Tip"><p>You can display the database using the command from activity 1.</p>
+<ul>
+<li>
+<p>Hint 1: Remember the advice from the Galactic Federation: <code>SELECT [column/column property] FROM [database] [optional condition];</code></p>
+</li>
+<li>
+<p>Hint 2: Column property: Do you need to use <code>MAX()</code> or <code>MIN()</code> to find the tallest ladder?</p>
+</li>
+<li>
+<p>Hint 3: Condition: <code>WHERE [column_name] [IN/NOT IN];</code></p>
+</li>
+<li>
+<p>Hint 4: Do you need to use <code>IN()</code> or <code>NOT IN()</code> to show the &rsquo;ladder'?</p>
+</li>
+<li>
+<p>Hint 5: What symbol do you need at the end of a SQL command?</p>
+</li>
+</ul>
+</p>
+</div>
+<div class="notices info" >
+    <p header-value="Info"><ul>
+<li>BONUS: Try to use multiple inputs inside <code>IN()</code> or <code>NOT IN()</code> when searching for the ladder</li>
+<li>This command is very powerful in searching multiple types of objects</li>
+</ul>
+</p>
+</div>
+<div class="notices tip" >
+    <p header-value="Tip">Remember: You can query the database multiple times using everything you have learnt till now to find out the color of the tallest ladder.</p>
+</div>
+<!-- SQL Type In Activity -->
+
+
+
+  <div class="content_scaler">
+    <div class="terminal_div" id="terminal_div">
+      <div class = "outer">
+        <h3 id = "commands" contenteditable="true" onclick="placeholder()">Type command here!</h3>
+      </div>
+      <div class = "prev">
+        <h3 id = "prev"></h3>
+      </div>
+        <div style="clear: both;"></div> 
+      <button class="button button1" onclick="sql()"> Enter </button>
+      <div style="clear: both;"></div> 
+      <button class = "button reset" onclick="reset()">Reset</button>
+    </div> <!-- terminal_div -->
+  </div> <!-- content_scaler -->
+  <div style="clear: both;"></div>
+  <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
+  <table id="table">
+    <tr></tr>
+  </table>
+  
+  <h4 id="story"></h4>
+
+  <div id="legend" style="visibility:hidden">
+     <br/>
+    <p style="color:red;"> RED Ladder = 100 </p>
+    <p style="color:#00e500;"> GREEN Ladder = 60 </p>
+    <p style="color:#ffb972;"> YELLOW Ladder = 20 </p>
+    </br>
+  </div>
+
+
+<h3 id="choose-and-drag-the-correct-ladder-onto-the-hill-to-continue-your-adventure">Choose and drag the correct ladder onto the hill to continue your adventure!</h3>
+<div class="notices note" >
+    <p header-value="Note">The correct ladder will be highlighted in green.</p>
+</div>
+
+
+
+
+<div class="content_scaler">
+<!-- Player drags ladder block to drop block to finish mission -->
+<div class="hill_div" id="hill_div">
+
+<!-- Drop Location -->
+<div id="div4" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
+
+<!-- Drag Block -->
+<div id="div1" class ="codeBlocks" style="clear: left;" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img class="img" src="assets/ladder.png" draggable="true" ondragstart="drag(event)" id="drag1">
+</div>
+
+<div id="div2" class ="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img class="img" src="assets/ladder_green.png" draggable="true" ondragstart="drag(event)" id="drag2">
+</div>
+
+<div id="div3" class ="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img class="img" src="assets/ladder_yellow.png" draggable="true" ondragstart="drag(event)" id="drag3">
+</div>
+
+</div> <!-- hill_div -->
+</div> <!-- content_scaler -->
+
+<div style="clear: both;"></div> 
+
+<!-- Next mission text displays -->
+<div id="text1" style="visibility:hidden">
+  <p> You made it! The Leader tells you that the Planet of Fun is in danger of being invaded by the aliens from the Planet of Boredom!
+  You must find the Totems of Fun in order to save the planet! </p>
+</div>
+
+<!-- Tells User to continue mission -->
+<div class="resume_plot" id="resume_plot" style="visibility:hidden">
+  <div class="alert">
+    <span id="check">&#10003;</span>
+    You've completed the task! Continue to the next mission!
+  </div>
+</div>
+
+
+
+
+
+    
+    
+      <div class="chevrons">
+  <style>
+    .workshop-complete-image {
+        margin: 40px auto 50px auto;
+        width: 340.8px;
+    }
+    
+    .workshop-complete-words {
+        font-family: Space Mono, monospace;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        text-align: center;
+    }
+    
+    .horizontal-bar {
+        background-color: #000000;
+        width: 120px;
+        height: 12px;
+        margin: 80px auto 0 auto;
+    }
+</style>
+
+
+    <div id="navigation">
+            <div class="next-prev-wrapper-div"><a class='nav nav-prev' href="/sql_workshop/activity4/" title="Activity 4: Select Multiple Info">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Previous:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Activity 4: Select Multiple Info
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="prevbutton-image">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+        
+    </div>
+</a></div>
+            <div class="next-prev-wrapper-div"><a class='nav nav-next' href="/sql_workshop/activity6/" title="Activity 6: Use Comparators">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Up Next:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Activity 6: Use Comparators
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="nextbutton-image">
+            <i class="fa fa-arrow-right"></i>
+        </div>
+        
+    </div>
+</a></div>
+        </div>
+</div>
+
+</section>
+</article>
+
+<footer>
+  <div class="footline">
+    
+
+    
+
+    
+    <div class="date">
+      <i class='fa fa-calendar'></i> 
+      Sun, 12 Jul 2020 00:00:00 PDT
+    </div>
+    
+
+    
+    <div class="github-link">
+      <a href="https://github.com/NuevoFoundation/workshops/tree/master/content/sql_workshop/activity5/_index.md" target="blank"><i
+          class="fa fa-code-fork"></i>
+        </a>
+    </div>
+    
+  </div>
+
+
+  <div>
+    
+    
+    
+    
+    
+    
+
+
+  </div>
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+    
+
+    
+    
+
+    <div id="footer" class="row">
+    <div class="col-xs-12">
+        <div class="App-footer">
+            <div class="App-footer-big">
+                Join the conversation on social media.
+            </div>
+            <div class="social-images">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Instagram" class="fab fa-2x fa-instagram"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Twitter" class="fab fa-2x fa-twitter"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Facebook" class="fab fa-2x fa-1x fa-facebook-f"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-2x fa-linkedin"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/nuevofoundation?sub_confirmation=1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation YouTube" class="fab fa-2x fa-youtube"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Github" class="fab fa-2x fa-github"></i>
+                </a>
+            </div>
+            <div class="App-footer-small">
+                © Copyright 2022, All Rights Reserved by Nuevo Foundation, a 501(c)(3) nonprofit.
+            </div>
+        </div>
+    </div>
+</div>
+
+  </body>
+</html>

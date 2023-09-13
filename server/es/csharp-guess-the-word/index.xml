@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C#: Adivina la palabra on Nuevo Foundation Workshops</title>
+    <link>/es/csharp-guess-the-word/</link>
+    <description>Recent content in C#: Adivina la palabra on Nuevo Foundation Workshops</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language><atom:link href="/es/csharp-guess-the-word/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Empezando</title>
+      <link>/es/csharp-guess-the-word/starting-up/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/csharp-guess-the-word/starting-up/</guid>
+      <description>Empezando La meta de la actividad de hoy es aprender C# y usar tus nuevas habilidades a crear un juego de Adivina la palabra. Empezamos a configurar el juego.
+Abre tu browser favorito (como Edge, Firefox, Google Chrome, Internet Explorer), y navega a https://aka.ms/nuevoguesstheword. Tu pantalla debe aparecer así:
+Vamos a ignorar unos de los detalles en esta pantalla, pero examinemos unos elementos básicos que se ven aquí. El archivo principal main.</description>
+    </item>
+    
+    <item>
+      <title>Escribiendo a la consola</title>
+      <link>/es/csharp-guess-the-word/writing-to-console/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/csharp-guess-the-word/writing-to-console/</guid>
+      <description>Escribiendo a la consola Console.WriteLine le dice a la computadora que debe imprimir la frase dentro de los paréntesis () a la consola..
+Trabajando junt@s En el programa de Replit abajo, presiona ‘run’. Vea que Hello World se imprimió en la ventana a la derecha. Sin quitar las comillas, intenta a cambiar Hello World a otra frase. Presiona ‘run’ a ver si algo cambia. Añade otra línea de Console.WriteLine debajo de la primera línea para imprimir una segunda frase debajo de la primera frase.</description>
+    </item>
+    
+    <item>
+      <title>Comentarios</title>
+      <link>/es/csharp-guess-the-word/comments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/csharp-guess-the-word/comments/</guid>
+      <description>Comentarios Desarrollador@s frecuentemente tienen que colaborar con otr@s desarrollador@s. Escribiendo comentarios es una manera fácil que desarrollador@s usan para comunicarse. La computadora ignora los comentarios, entonces comentarios también son una manera fácil para decirle a la computadora que no debe ejecutar alguna línea de código. Hay dos maneras de crear comentarios:
+Para comentar una línea, añade // al inicio de la línea. Por ejemplo: // Esto es una sola línea de comentario.</description>
+    </item>
+    
+    <item>
+      <title>Activitdad 1 - Escribe en la consola</title>
+      <link>/es/csharp-guess-the-word/activity-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/csharp-guess-the-word/activity-1/</guid>
+      <description>Actividad 1 Navega al código que contiene el juego GuessTheWord o Adivina la Palabra. Fíjate que Press &#39;run&#39; on the top of the screen to play again. es la única cosa que se imprime a la consola. Agreguemos un mensaje de bienvenido para que el jugador sepa que esté jugando GuessTheWord o Adivina la Palabra.
+Encuentra // TODO (ACTIVITY 1) en el código. Añade una línea de código para imprimir Welcome to C# GuessTheWord o &amp;quot;Bienvenido al juego de C# AdivinaLaPalabra&amp;quot; a la consola.</description>
+    </item>
+    
+    <item>
+      <title>Strings</title>
+      <link>/es/csharp-guess-the-word/strings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/csharp-guess-the-word/strings/</guid>
+      <description>Strings Cualquier cosa que esté entre comillas se llama un string. Así se representan palabras o frases en las computadoras. Por ejemplo,&amp;quot;a&amp;quot;, &amp;quot;2&amp;quot;, &amp;quot;banana!&amp;quot;, y &amp;quot;Hello World&amp;quot; son strings, pero Hello World y 2 no son strings, porque no están entre comillas.
+Puedes combinar varios strings usando el operador de +. Por ejemplo::
+&amp;quot;Manzana&amp;quot; + &amp;quot;Piña&amp;quot; produce el string &amp;quot;ManzanaPiña&amp;quot;. &amp;quot;Nuevo&amp;quot; + &amp;quot; &amp;quot; + &amp;quot;Foundation&amp;quot; produce el string &amp;quot;Nuevo Foundation&amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title>Actividad 2 - Agregar al banco de palabras</title>
+      <link>/es/csharp-guess-the-word/activity-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/csharp-guess-the-word/activity-2/</guid>
+      <description>Actividad 2 Encuentra // TODO (ACTIVITY 2) en el código de GuessTheWord. Para el juego de Guess the Word game o Adivina la palabra, , vamos a dar la computadora un banco de palabras, y la computadora va a escoger una palabra al azar para el juego. Aunque ya hemos añadido las palabras &amp;quot;Hello&amp;quot; y &amp;quot;World&amp;quot; tal banco de palabras, ¡un juego de Adivina la palabra no es divertido con solo dos palabras!</description>
+    </item>
+    
+    <item>
+      <title>Números</title>
+      <link>/es/csharp-guess-the-word/numbers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/csharp-guess-the-word/numbers/</guid>
+      <description>Números La computadora también puede hacer operaciones matemáticas, como las que tú haces en la escuela. Usa Console.WriteLine para imprimir el resultado de las expresiones matemáticas. No es necesario incluir comillas para los números.
+Console.WriteLine(5 + 4); Console.WriteLine(6 * (9 - 7) / 3); Aquí está una lista de los símbolos matemáticos que puedes usar:
+Operador Descripción Operador Descripción + Adición \ División - Sustracción % Modulo (Remanente) * Multiplicación (,) Paréntesis Ojo: División en la computadora La computadora divide los números de una manera diferente comparado con una calculadora.</description>
+    </item>
+    
+    <item>
+      <title>Booleans</title>
+      <link>/es/csharp-guess-the-word/booleans/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/csharp-guess-the-word/booleans/</guid>
+      <description>Booleans Un boolean es una frase que puede ser true (verdadero) o false (falso). Diferente a los strings o los números, los Booleans archivan una declaración de la verdad: ¿es lo que yo digo verdadero o falso? Por ejemplo, so yo pregunto, ¿“Eres un robot” ?, esta pregunta produce un resultado true o false, lo que llamamos un boolean. En este caso, porque tú no eres un robot (¡esperadamente!), esta pregunta produce el resultado false.</description>
+    </item>
+    
+    <item>
+      <title>Operadores para booleans</title>
+      <link>/es/csharp-guess-the-word/booleans-operators/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/csharp-guess-the-word/booleans-operators/</guid>
+      <description>Operadores para Booleans Puedes conectar expresiones de booleans usando &amp;amp;&amp;amp; (Y) y || (O) operator. &amp;ldquo;¿Eres un ser humano, y es Nuvi un robot? La palabra “y” conecta dos preguntas de verdadero/falso. En este caso, porque es verdad que tú eres en ser humano, y también es verdad que Nuvi es un robot, el resultado total es true (verdad).
+Aquí describimos lo que pasa cuando combinas expresiones de booleans:
+Expresión Resultado Expresión Resultado true &amp;amp;&amp;amp; true true true || true true true &amp;amp;&amp;amp; false false true || false true false &amp;amp;&amp;amp; true false false || true true false &amp;amp;&amp;amp; false false false || false false Recuerda que true es verdadero y false es falso.</description>
+    </item>
+    
+    <item>
+      <title>Variables</title>
+      <link>/es/csharp-guess-the-word/variables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/csharp-guess-the-word/variables/</guid>
+      <description>Variables Variables simplemente son los nombres que le damos a ciertas cosas, como strings, números, y booleans. Usamos los variables para archivar información que la computadora puede encontrar.
+Esto es cómo declarar un variable que se llama str. Digamos que str contiene &amp;quot;Hello World&amp;quot;. ¿Puedes describir qué significan las siguientes variables?
+var str = &amp;#34;Hello World&amp;#34;; var x = 88; var happy = true; Presiona run. Nota que los variables no se impriman a la consola.</description>
+    </item>
+    
+    <item>
+      <title>Actividad 3 - Declara tus variables</title>
+      <link>/es/csharp-guess-the-word/activity-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/csharp-guess-the-word/activity-3/</guid>
+      <description>Actividad 3 Esta actividad viene en dos partes y examinará tu conocimiento de los variables. Antes de empezar, busca HINT (ACTIVITY 3) (CONSEJO (ACTIVIDAD 3)) en el código, donde declaramos un variable llamado vidas que contiene el número de vidas del jugador. Usa este variable para imprimir el número de vidas del jugador al inicio del juego.
+Activity 3.1 Al inicio del juego, debemos decirle al jugador cuántas letras hay en la palabra que están adivinando.</description>
+    </item>
+    
+    <item>
+      <title>Leyendo la consola</title>
+      <link>/es/csharp-guess-the-word/reading-from-console/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/csharp-guess-the-word/reading-from-console/</guid>
+      <description>Leyendo la consola Ya que sabemos lo básico de los variables, podemos aceptar entradas del usuario. Usa la línea siguiente para decirle a la consola que debe esperar hasta que el usuario entra algo en la consola. Después, la computadora archivará lo que el usuario entró en un variable llamado input.
+var input = Console.ReadLine(); Aquí tenemos un ejemplo de cómo usar Console.ReadLine para aceptar entradas de usuario:
+Console.WriteLine(&amp;#34;Escribe algo:&amp;#34;); var input = Console.</description>
+    </item>
+    
+  </channel>
+</rss>

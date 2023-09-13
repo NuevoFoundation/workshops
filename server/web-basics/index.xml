@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HTML &amp; CSS: Web Basics on Nuevo Foundation Workshops</title>
+    <link>/web-basics/</link>
+    <description>Recent content in HTML &amp; CSS: Web Basics on Nuevo Foundation Workshops</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 03 Sep 2019 17:53:41 -0700</lastBuildDate><atom:link href="/web-basics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Basics</title>
+      <link>/web-basics/basics/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      
+      <guid>/web-basics/basics/</guid>
+      <description>What is a website? A website is just a page that can be found on the Internet. It is displayed through a browser when you type the address (aka unique name) in the address bar.
+Parts of a website Common website elements include navigation bars, footers, search bars, and contact forms.
+Website design The first step in making a website is to decide which elements we want, and how they will look.</description>
+    </item>
+    
+    <item>
+      <title>Putting it together</title>
+      <link>/web-basics/putting-together/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      
+      <guid>/web-basics/putting-together/</guid>
+      <description>For your browser to understand what each element of your site is, we need to label them with HTML tags. HTML stands for Hypertext Markup Language. Tags are words surrounded by the symbols &amp;lt;and&amp;gt;. For example, the &amp;lt;img&amp;gt; tag tells your browser “this is an image.” The &amp;lt;button&amp;gt; tag tells it “this is a button.”
+Tags can also be used to organize your webpage! The image below outlines the structure of a basic webpage.</description>
+    </item>
+    
+    <item>
+      <title>Activity 1 - Familiarize with online editor</title>
+      <link>/web-basics/activity-1/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      
+      <guid>/web-basics/activity-1/</guid>
+      <description>Activity 1 - Creating a basic website It&amp;rsquo;s now time to start building a basic website. To complete this activity, you will need to complete the following steps:
+Open the web editor (click the &amp;ldquo;Try it yourself!&amp;rdquo; button below) Use the header tags to add a title, and the paragraph tags to write a paragraph about Benji If you have time: write a list of Benji&amp;rsquo;s favorite treats: turkey, peanut butter, and string cheese Try it yourself!</description>
+    </item>
+    
+    <item>
+      <title>HTML Attributes</title>
+      <link>/web-basics/html-attributes/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      
+      <guid>/web-basics/html-attributes/</guid>
+      <description>Each tag can also have additional information like style attributes that can change the properties of an element. There are attributes that we can use to change the visual appearance of an element, such as the size, the color, and the text font.
+All attributes are formatted as: attribute-name=&amp;quot;value in quotes&amp;quot;. For example, we can change the color of a paragraph to red with this code: &amp;lt;p style=&amp;quot;color:red&amp;quot;&amp;gt;This text is red&amp;lt;/p&amp;gt;.</description>
+    </item>
+    
+    <item>
+      <title>Activity 2 - CSS</title>
+      <link>/web-basics/activity-2/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      
+      <guid>/web-basics/activity-2/</guid>
+      <description>Style it with CSS Tags tell the browser what website elements to use. But we also need to tell it how to display the elements, and where to place them. We may want the title on the center or on the right side. We may want a picture on the right and a paragraph on the left. There are two ways we can do this: through HTML attributes or Cascading Style Sheets.</description>
+    </item>
+    
+    <item>
+      <title>Media Elements</title>
+      <link>/web-basics/media-elements/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      
+      <guid>/web-basics/media-elements/</guid>
+      <description>Add a GIF GIF stands for Graphic Interchange Format, but all you need to know is that it&amp;rsquo;s just another type of image file. The only difference is that the file has many images. When displayed in the browser, the images are played in sequence, similar to the frames of a movie. Think of it like one of those flip books that seem like the image is animated when you flip it.</description>
+    </item>
+    
+    <item>
+      <title>Activity 3 - Adding a GIF of Nuvi</title>
+      <link>/web-basics/activity-3/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      
+      <guid>/web-basics/activity-3/</guid>
+      <description>
+To complete this activity, you will need to complete the following steps:
+Follow this link to see the available GIFs Click on the one you like and select &amp;ldquo;Embed&amp;rdquo; Copy the code from the white box below &amp;ldquo;GIF Embed Code&amp;rdquo;
+Paste the code anywhere in your page as long as it&amp;rsquo;s inside the &amp;lt;body&amp;gt; tags.
+Try it yourself! </description>
+    </item>
+    
+    <item>
+      <title>Activity 4 - Try the form and change the style</title>
+      <link>/web-basics/activity-4/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      
+      <guid>/web-basics/activity-4/</guid>
+      <description>Adding a Contact Form Finally, we will add a contact form to let people reach us if they are interested in Benji.
+Most browsers do not support sending emails directly from the contact form because it&amp;rsquo;s an easy way for trouble makers to send spam to users. Spam is an irrelevant or inappropriate message sent over the internet. Therefore, to send a form, we will use a free service called FormSpree.</description>
+    </item>
+    
+    <item>
+      <title>Activity 4 - The final exercise</title>
+      <link>/web-basics/activity-5/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      
+      <guid>/web-basics/activity-5/</guid>
+      <description>Using what you&amp;rsquo;ve learned, let&amp;rsquo;s try to create a site that describes you! Try and use some or all of the following:
+A heading &amp;amp; paragraph tag Different fonts Different colors Add an image to your site A list Embed a gif or video Show your style!</description>
+    </item>
+    
+    <item>
+      <title>Hosting your website</title>
+      <link>/web-basics/hosting/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      
+      <guid>/web-basics/hosting/</guid>
+      <description>Host your site on the internet! Now that you&amp;rsquo;ve created your own personal website, let&amp;rsquo;s host it on the internet so everyone can access it! You will need a GitHub account to do so. If you don&amp;rsquo;t have one, create one here.
+Once you have created your account and verified your email address, you will land on this page.
+Now, you will need to create a new repository to store the contents of your site!</description>
+    </item>
+    
+    <item>
+      <title>In case you were wondering</title>
+      <link>/web-basics/conclusion/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      
+      <guid>/web-basics/conclusion/</guid>
+      <description>You might be concerned about Benji, but we are happy to tell you that he found his home through a website just like the one you are building. Benji is now a full time good boy working hard on his tricks to earn treats.</description>
+    </item>
+    
+    <item>
+      <title>Answer Key - Web Basics</title>
+      <link>/web-basics/answer-key/</link>
+      <pubDate>Sat, 28 Mar 2020 12:53:41 -0700</pubDate>
+      
+      <guid>/web-basics/answer-key/</guid>
+      <description>Special note: This curriculum allows students to be creative. The below is just an example of what they can do, please use your best judgement and ask for guidance if needed. The answer key provided here is fairly long because we are including snippets of full HTML for context.
+When a student clicks on the &amp;lsquo;Try it yourself!&amp;rsquo; it&amp;rsquo;ll open a new tab with some of the HTML code (and CSS code) already scaffolded.</description>
+    </item>
+    
+  </channel>
+</rss>

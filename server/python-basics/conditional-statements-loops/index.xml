@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conditional statements and loops on Nuevo Foundation Workshops</title>
+    <link>/python-basics/conditional-statements-loops/</link>
+    <description>Recent content in Conditional statements and loops on Nuevo Foundation Workshops</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 19 Sep 2022 14:45:38 -0700</lastBuildDate><atom:link href="/python-basics/conditional-statements-loops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conditional statements</title>
+      <link>/python-basics/conditional-statements-loops/conditional-statements/</link>
+      <pubDate>Mon, 19 Sep 2022 14:45:38 -0700</pubDate>
+      
+      <guid>/python-basics/conditional-statements-loops/conditional-statements/</guid>
+      <description>Now that we know the basics of print statements, variables, and reading in input from the user – we can combine all these awesome skills with conditional statements. Conditional statements allow the computer to make decisions based off the value of an expression. In the real world, we use conditional statements all the time to make decisions! For example, if it is raining outside, then I use an umbrella. In this example, the I evaluated the weather outside and because it was raining, I made the sequential decision to use an umbrella.</description>
+    </item>
+    
+    <item>
+      <title>Else-if Condition</title>
+      <link>/python-basics/conditional-statements-loops/else-if-statement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/python-basics/conditional-statements-loops/else-if-statement/</guid>
+      <description>In the last exercise, we learned basic if-else conditions. If you need a quick refresher, you can review Conditional statements.
+In this section, we&amp;rsquo;ll expand to introduce a new condition called &amp;ldquo;elif&amp;rdquo;.
+Elif Condition Elif Keyword represents the &amp;ldquo;else-if&amp;rdquo; condition. A real world example would be: If I am really hungry, I will eat a cake, else if I am only a little hungry, I will have an apple, else I won&amp;rsquo;t eat anything.</description>
+    </item>
+    
+    <item>
+      <title>Loops</title>
+      <link>/python-basics/conditional-statements-loops/loops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/python-basics/conditional-statements-loops/loops/</guid>
+      <description>Loops in Python If you want to repeat a task multiple times, Python has a way to do that easily using loops. There are two types of basic loops in python: for loops and while loops.
+For loops For loops iterate over a sequence. Let&amp;rsquo;s say you wanted to repeat a simple task 5 times. Here is how you would do it.
+The following for loop iterates through each of the numbers in the list [1,2,3,4,5], and assigns the value x to it.</description>
+    </item>
+    
+    <item>
+      <title>Nested loops</title>
+      <link>/python-basics/conditional-statements-loops/nested-loops/</link>
+      <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/python-basics/conditional-statements-loops/nested-loops/</guid>
+      <description>Nested loops Nested loops, builds off what we learned about for-loops and while loops in the previous exercise. You might want to review the For-loop and While-loop page before we move on.
+In this section, we will use one loop inside another, which is called nested loop.
+Nested while loop #This is the format for nested while loop while expressionA: while expressionB: statement(B) statement(A) In the while loop above, when expressionA produces False, we will skip the whole block.</description>
+    </item>
+    
+  </channel>
+</rss>

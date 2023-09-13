@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blocks: Programando Frutas Musicales con Adafruit on Nuevo Foundation Workshops</title>
+    <link>/es/adafruit/</link>
+    <description>Recent content in Blocks: Programando Frutas Musicales con Adafruit on Nuevo Foundation Workshops</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language><atom:link href="/es/adafruit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Los Componentes</title>
+      <link>/es/adafruit/the-components/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/adafruit/the-components/</guid>
+      <description>Los componentes que utilizaremos para el proyecto se listan a continuación. Asegúrate de tener todo esto antes de comenzar:
+Una Adafruit Un cable Micro USB a USB Dos cables de pinza cocodrilo de cualquier color Dos naranjas </description>
+    </item>
+    
+    <item>
+      <title>Construyendo la estación de DJ</title>
+      <link>/es/adafruit/building-the-dj-station/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/adafruit/building-the-dj-station/</guid>
+      <description>Conectando las naranjas Toma una naranja y uno de tus cables. Abre una de las pinzas de cocodrilo e inserta la mitad inferior en la naranja, dejando la parte superior de la pinza en el exterior. Esto es más fácil de hacer si lo insertas a la mitad de la parte inferior de la naranja. En ll mismo lugar donde comenzarías a pelar si fueras a comer la naranja.
+Repite la operacion con la segunda naranja y tu otro cable.</description>
+    </item>
+    
+    <item>
+      <title>Creando el programa</title>
+      <link>/es/adafruit/creating-the-program/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/adafruit/creating-the-program/</guid>
+      <description>Abre tu navegador de internet favorito (como Edge, Firefox, Google Chrome, Internet Explorer) y entra a https://aka.ms/oranges.
+Tu pantalla debería verse así:
+Definiendo las variables Hoy vamos a usar naranjas para decirle a nuestra Adafruit cuándo hacer ruido. Lo primero que debemos hacer es darle a la computadora un nombre para cada naranja y dónde buscar lo que están diciendo. Hacemos la primera parte definiendo una variable. Haz clic en la sección que dice VARIABLES, es de color salmón y es el séptimo si cuentas desde la parte superior.</description>
+    </item>
+    
+    <item>
+      <title>Descargando el Programa</title>
+      <link>/es/adafruit/downloading-your-program/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/adafruit/downloading-your-program/</guid>
+      <description>En la parte inferior de tu espacio de trabajo, debería ver este botón rosado de descarga al lado del nombre de tu programa. Puedes asignarle un nombre a tu programa, aquí se llama adafruit_musicalfruit. Haz clic en el botón de descarga.
+Debe apareceruna ventana emergente, preguntando dónde guardar tu archivo. Lo usual es que abra apuntando a la carpeta Descargas; de lo contrario, ve a tu carpeta de descargas y guarda el archivo allí.</description>
+    </item>
+    
+  </channel>
+</rss>

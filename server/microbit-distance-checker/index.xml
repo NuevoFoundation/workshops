@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blocks: micro:bit Wireless Social Distancing on Nuevo Foundation Workshops</title>
+    <link>/microbit-distance-checker/</link>
+    <description>Recent content in Blocks: micro:bit Wireless Social Distancing on Nuevo Foundation Workshops</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 25 Jul 2019 13:24:17 -0700</lastBuildDate><atom:link href="/microbit-distance-checker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is a micro:bit?</title>
+      <link>/microbit-distance-checker/what-is-microbit/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/microbit-distance-checker/what-is-microbit/</guid>
+      <description>What is a micro:bit? A micro:bit is a programmable mini computer! It can be coded from any web browser in various languages like javaScript, Python, Scratch, and Blocks. For our session today, we will be using MakeCode Blocks.
+Your micro:bit has the following physical features:
+25 individually-programmable LEDs 2 programmable buttons Physical connection pins Motion sensors (accelerometer and compass) Wireless communication via bluetooth radio USB interface If you want to learn more about each individual component and all the features that come with your micro:bit, you can click here.</description>
+    </item>
+    
+    <item>
+      <title>Broadcasting a Signal</title>
+      <link>/microbit-distance-checker/broadcasting/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/microbit-distance-checker/broadcasting/</guid>
+      <description>Turning On the Radio Today we&amp;rsquo;ll be using the Bluetooth radio on your micro:bit to figure out how far away you are from other micro:bits. The first thing we need to do is turn on the radio and tune it to a channel. Click on the section that says Radio. It&amp;rsquo;s the pink section which is fifth from the top. Choose &amp;ldquo;radio set group 1&amp;rdquo; and drag it into the blue &amp;ldquo;on start&amp;rdquo; block in the workspace.</description>
+    </item>
+    
+    <item>
+      <title>Receiving a Message</title>
+      <link>/microbit-distance-checker/receiving/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/microbit-distance-checker/receiving/</guid>
+      <description>Now that we&amp;rsquo;re sending messages and listening for them, we need to use that information to find out how close together or far apart our micro:bits are. To do that, we need to know how strong the signal we&amp;rsquo;re receiving is. Go back into the Radio section and this time drag the &amp;ldquo;on radio received (receivedNumber)&amp;rdquo; block and drag it to an empty spot on your workspace. It should not be inside of any other block.</description>
+    </item>
+    
+    <item>
+      <title>Interpreting Signal Strength</title>
+      <link>/microbit-distance-checker/signal-strength/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/microbit-distance-checker/signal-strength/</guid>
+      <description>Now that our micro:bit knows how strong the signal it got is, we need to use that to figure out how close we are. Click on the Logic section and grab the &amp;ldquo;if true then / else&amp;rdquo; block. Drag that inside the radio received block, just under where we set the strength variable. Go back into the Logic section and drag the 0 = 0 comparison on top of the true on the &amp;ldquo;if true then&amp;rdquo; line.</description>
+    </item>
+    
+    <item>
+      <title>Lighting it up</title>
+      <link>/microbit-distance-checker/light-it-up/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/microbit-distance-checker/light-it-up/</guid>
+      <description>We have all our logic written, but no way to tell if we&amp;rsquo;re more than 6 feet apart. Now we&amp;rsquo;ll add some lights so we can actually see when we&amp;rsquo;re far enough apart. Click the Basic section at the top and drag a &amp;ldquo;show icon&amp;rdquo; block into the if part of our logic block. Click on the icon to see a list of other icons and choose the sad, frowning face.</description>
+    </item>
+    
+    <item>
+      <title>Downloading the code and trying it out</title>
+      <link>/microbit-distance-checker/running-code/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/microbit-distance-checker/running-code/</guid>
+      <description>Now that our code has been written, it&amp;rsquo;s time to try it all out. First, we have to pair the micro:bit with a computer. Find your USB cable and connect the smaller side to the silver USB port on the top of your micro:bit. Connect the other, larger end to a USB port on your computer. On the MakeCode workspace, click the ellipsis (&amp;hellip;) next to the Download button to make a small menu pop up.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C&#43;&#43;: Secret messages on Nuevo Foundation Workshops</title>
+    <link>/secret-messages/</link>
+    <description>Recent content in C&#43;&#43;: Secret messages on Nuevo Foundation Workshops</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 10 Aug 2021 23:26:18 -0500</lastBuildDate><atom:link href="/secret-messages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Repl.It</title>
+      <link>/secret-messages/using-repl-it/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/secret-messages/using-repl-it/</guid>
+      <description>In order to help the Kin and Queen, we will develop a program, in a programming language called C++. With that program we will be able to input a message, and the program will modify it to make it secret.
+Using Replit Today you will be using Replit. Before starting, you will need to sign up for a Replit account, if you do not yet have one.
+Click the button below to sign up for a Replit account - you will need an email account in order to sign up.</description>
+    </item>
+    
+    <item>
+      <title>Activity 1 - Output</title>
+      <link>/secret-messages/activity-1/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/secret-messages/activity-1/</guid>
+      <description>We first need to enter a message for our program to be able to create secret messages.
+Launch Replit
+To do that we are going to start by telling the computer to show in console for whom is that message. This is the command that we will be using.
+cout &amp;lt;&amp;lt; &amp;#34;Hello Developer!&amp;#34; &amp;lt;&amp;lt; endl; Let&amp;rsquo;s learn more about this line of code, shall we?
+Strings Everything that we see wrapped in quotation marks (&amp;quot;&amp;quot;) are called strings.</description>
+    </item>
+    
+    <item>
+      <title>Activity 2 - Variables and Inputs</title>
+      <link>/secret-messages/activity-2/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/secret-messages/activity-2/</guid>
+      <description>Awesome! Now let&amp;rsquo;s go a step further. We will now not only print the message, but input the name of the receiver and make our program say &amp;ldquo;Hello&amp;rdquo;.
+To do that we will need variables.
+Variables A variable is a container that stores information. There are many kinds of variables, each storing different types of information:
+string: represents a sequence of characters, letters, numbers, and symbols. strings are always wrapped in double quotes.</description>
+    </item>
+    
+    <item>
+      <title>Activity 3 - Loops</title>
+      <link>/secret-messages/activity-3/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/secret-messages/activity-3/</guid>
+      <description>Great!
+The King has now requested that we input our message letter by letter so that we can change them afterwards.
+To do this we need something called loops. Loops allow us to execute a block of code multiple times. Let&amp;rsquo;s see the below example which uses a loop to print out some numbers.
+for(int i=0; i&amp;lt;3; i++){cout &amp;lt;&amp;lt; i &amp;lt;&amp;lt; endl;} Let&amp;rsquo;s try to understand what this line of code does.</description>
+    </item>
+    
+    <item>
+      <title>Activity 4 - Conditions</title>
+      <link>/secret-messages/activity-4/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/secret-messages/activity-4/</guid>
+      <description>Very well!
+We are getting closer and closer to making our secret messages. But let&amp;rsquo;s also not forget that we have to be able to decipher these messages!
+For that, we are going to enter in the console a 1, if we want to encrypt a message, or the number 2, if we want to decrypt it.
+For this we will need conditions.
+Conditions if / else A condition in programming is an instruction or a group of instructions, which can be executed or not, based on whether a condition is true.</description>
+    </item>
+    
+    <item>
+      <title>Activity 5 - ASCII Code</title>
+      <link>/secret-messages/activity-5/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/secret-messages/activity-5/</guid>
+      <description>That&amp;rsquo;s great!
+In this activity we will encrypt (make secret) the name of the recipient.
+Let&amp;rsquo;s use the ASCII Code
+ASCII Code The ASCII code shows that each character has a numeric value. For example, the character A is the number 65, B is 66, C is 67, etc.
+The following list shows the value of the most commonly used characters:
+Since each character has a numeric value, we can use this to add or subtract values to these letters, and thus change the order of them in a certain way.</description>
+    </item>
+    
+    <item>
+      <title>Activity 6 - Functions</title>
+      <link>/secret-messages/activity-6/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/secret-messages/activity-6/</guid>
+      <description>Very well!
+You&amp;rsquo;ve already done a lot of the program!
+In this activity we will use functions to group sections of the code.
+Functions Functions allow us to divide the work of a program into smaller tasks separate from the main section, that is, from the main function.
+We can think of functions as a machine such that when we turn it on, it executes instructions to return a final result.</description>
+    </item>
+    
+    <item>
+      <title>Activity 7 - Input line</title>
+      <link>/secret-messages/activity-7/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/secret-messages/activity-7/</guid>
+      <description>Congratulations!
+You are very close to completely saving the nation. All that remains is to be able to enter a complete sentence! For this we only have to make a few small changes. First, you need to use the statement to enter the string:getline().
+string phrase;getline(cin, phrase); By doing it this way, the console will be able to accept a complete message, not just a single word.
+Follow these steps, and complete the program to save the kingdom:</description>
+    </item>
+    
+    <item>
+      <title>Conclusion</title>
+      <link>/secret-messages/activity-8/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/secret-messages/activity-8/</guid>
+      <description>Congratulations!
+You have done an amazing job. You have saved the kingdom and while doing that you learned C++ programming as well! :)
+Let&amp;rsquo;s review what you learned:
+You have used the console to input and send encrypted or decrypted messages. You usedvariables to store the messages that were going to be sent out. You used loops to analyze each letter in the messages. You used conditionals to determine if encryption or decryption was needed.</description>
+    </item>
+    
+    <item>
+      <title>C&#43;&#43; Secret Messages - Answer Key</title>
+      <link>/secret-messages/answer-key/</link>
+      <pubDate>Fri, 27 Mar 2020 20:24:33 -0700</pubDate>
+      
+      <guid>/secret-messages/answer-key/</guid>
+      <description>The following 5 lines are needed for all the activities.
+#include &amp;lt;iostream&amp;gt;using namespace std;int main() {return 0;} Activity 1 cout &amp;lt;&amp;lt; &amp;#34;Hello programmer!&amp;#34; &amp;lt;&amp;lt; endl; Activity 2 string name;cin &amp;gt;&amp;gt; name;cout &amp;lt;&amp;lt; &amp;#34;Hello &amp;#34; &amp;lt;&amp;lt; name &amp;lt;&amp;lt; endl; Activity 3 string name;cin &amp;gt;&amp;gt; name;for(int i=0; i&amp;lt;name.size(); i++){cout &amp;lt;&amp;lt; name[i] &amp;lt;&amp;lt; endl;} Activity 4 int number;cin &amp;gt;&amp;gt; number;if(number == 1){cout &amp;lt;&amp;lt; &amp;#34;Encrypt a message&amp;#34; &amp;lt;&amp;lt; endl;}else{cout &amp;lt;&amp;lt; &amp;#34;Decrypt a message&amp;#34; &amp;lt;&amp;lt; endl;} Activity 5 #include &amp;lt;iostream&amp;gt;using namespace std;int main() {string code;string name;cin &amp;gt;&amp;gt; code;cin &amp;gt;&amp;gt; name;int counter = 0;for(int i=0; i&amp;lt;name.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JS: JSappyBird on Nuevo Foundation Workshops</title>
+    <link>/jsappybird/</link>
+    <description>Recent content in JS: JSappyBird on Nuevo Foundation Workshops</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 07 Jul 2022 10:45:38 -0700</lastBuildDate><atom:link href="/jsappybird/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Load the bird image &amp; change the screen text</title>
+      <link>/jsappybird/load-the-bird/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      
+      <guid>/jsappybird/load-the-bird/</guid>
+      <description>First of all let&amp;rsquo;s load Flappy and put it on the screen.
+Add below command in the file [File: load-sprites.js] game.load.image(&#39;bird&#39;,&#39;assets/bird.png&#39;);Working Together In the Replit window below, we started the code with the line game.load.image(&#39;bird&#39;, &#39;assets/bird.png&#39;);.
+In your console you should see a Jsappy bird after you press run and then the space bar:
+Change the screen text Let&amp;rsquo;s change the start screen text:
+Add below command in the file [File: start-screen.</description>
+    </item>
+    
+    <item>
+      <title>Make the bird jump &amp; add gravity</title>
+      <link>/jsappybird/jump/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      
+      <guid>/jsappybird/jump/</guid>
+      <description>What should we do with the bird? Let&amp;rsquo;s make him jump:
+Add below command in the file [File: create-game.js] spaceKey.onDown.add(jump, this);
+Working Together In the Replit window below, we started the code with the line spaceKey.onDown.add(jump, this);.
+In your console you should see a Jsappy bird jumping after you press run:
+Add gravity Working Together In the Replit window below, we started the code with the line bird.body.gravity.y = 900;.</description>
+    </item>
+    
+    <item>
+      <title>Make the bird jump with force &amp; falling with rotation</title>
+      <link>/jsappybird/jump-force/</link>
+      <pubDate>Wed, 29 Jul 2020 13:24:17 -0700</pubDate>
+      
+      <guid>/jsappybird/jump-force/</guid>
+      <description>Let&amp;rsquo;s add force to the bird
+Add the below command in the file [File: create-game.js] bird.body.velocity.y = -350;
+Working Together In the Replit window below, we started the code with the line bird.body.velocity.y = -350;.
+In your console you should see a JSappy bird jumping with force after you press run:
+Bonus Activity Let&amp;rsquo;s make the bird jump up and forwards:
+Add below command in the file [File: create-game.js] bird.body.velocity.x = 100;</description>
+    </item>
+    
+    <item>
+      <title>Add sound while the bird is jumping &amp; bonus</title>
+      <link>/jsappybird/add-jump-sound/</link>
+      <pubDate>Wed, 29 Jul 2020 13:24:17 -0700</pubDate>
+      
+      <guid>/jsappybird/add-jump-sound/</guid>
+      <description>Let&amp;rsquo;s add sounds to the bird while it is jumping
+Add the below command in the file [File: create-game.js] jumpSound.play();
+Working Together In the Replit window below, we started the code with the line jumpSound.play();.
+In your console you should see a Jsappy bird jumping with sound after you press run.
+Bonus activities What happens if we make gravity stronger? What happens if we make gravity have a negative value? What other wacky ways can the bird jump?</description>
+    </item>
+    
+  </channel>
+</rss>

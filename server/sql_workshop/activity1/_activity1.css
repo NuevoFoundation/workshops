@@ -1,0 +1,8 @@
+/* Reference position for blocks */
+.terminal_div {
+  padding-top: 150px;
+  padding-left: 100px;
+  padding-bottom: 0px;
+  padding-right: 20px;
+  background-image: url('../media/Terminal_old.png');
+}

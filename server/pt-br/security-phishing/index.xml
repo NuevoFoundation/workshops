@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Segurança: Reconhecendo Golpes de Phishing on Nuevo Foundation Workshops</title>
+    <link>/pt-br/security-phishing/</link>
+    <description>Recent content in Segurança: Reconhecendo Golpes de Phishing on Nuevo Foundation Workshops</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language><atom:link href="/pt-br/security-phishing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bob vai pescar!</title>
+      <link>/pt-br/security-phishing/bob-goes-fishing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pt-br/security-phishing/bob-goes-fishing/</guid>
+      <description>Conheça o nosso amigo Bob. Bob é um cavalheiro simpático e alegre. Seus hobbies são viajar e pescar. Uma bela noite Bob recebeu um e-mail dizendo que ganhou uma viagem grátis para as &amp;ldquo;Bahamas&amp;rdquo;. Bob ficou animado. Ele clicou imediatamente no link e inseriu todos os seus dados pessoais. Bob estava ansioso na espera da confirmação do seu itinerário de viagem.
+Bob ainda ansioso, decidiu fazer compras para sua viagem. Ele comprou roupas novas e uma nova vara de pescar.</description>
+    </item>
+    
+    <item>
+      <title>Guia básico sobre Phishing</title>
+      <link>/pt-br/security-phishing/phishing-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pt-br/security-phishing/phishing-basics/</guid>
+      <description>Nossa Agente Secreta Alice explica a Bob sobre Phishing!!!
+O que é Phishing? Assim como na pesca usa-se uma isca para pegar peixes em uma vara, hackers maliciosos usam diferentes tipos de isca para roubar informações pessoais de pessoas desavisadas.
+Phishing é um tipo de ataque de engenharia social usado para roubar dados confidenciais, incluindo senhas, dados bancários e de cartão de crédito.
+Ocorre quando um Hacker, se passando por uma empresa ou pessoa confiável, atrai um indivíduo usando e-mail, mensagem de texto ou telefone.</description>
+    </item>
+    
+    <item>
+      <title>Um olhar atento</title>
+      <link>/pt-br/security-phishing/a-closer-look/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pt-br/security-phishing/a-closer-look/</guid>
+      <description>Bob recebeu o seguinte e-mail na noite passada.
+Notou algo suspeito? Vamos analisar o e-mail: O endereço de e-mail do remetente é suspeito e você não o conhece pessoalmente.
+Oferta grátis no assunto sugere que é bom demais para ser verdade.
+Um e-mail recebido durante a madrugada.
+Algumas palavras mostram um senso de urgência.
+O remetente pede para que você clique em um link ou abra um anexo desconhecido.Esse link tem um erro de ortografia difícil de perceber.</description>
+    </item>
+    
+    <item>
+      <title>Descobrindo mais sobre phishing</title>
+      <link>/pt-br/security-phishing/other-phishing-types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pt-br/security-phishing/other-phishing-types/</guid>
+      <description>Alice continua explicando os diferentes tipos de golpes existentes, além do golpe de phishing por e-mail.
+Golpe do SMS É um golpe realizado via mensagem de celular (SMS). Esse tipo de golpe tenta induzir a vítima a revelar informações pessoais por meio de um link que leva a um site de phishing.
+Na imagem acima, um remetente desconhecido envia uma mensagem de texto sobre ofertas gratuitas de iPads e o atrai para clicar em um link malicioso.</description>
+    </item>
+    
+    <item>
+      <title>Você acha isso suspeito?</title>
+      <link>/pt-br/security-phishing/whats-phishy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pt-br/security-phishing/whats-phishy/</guid>
+      <description>Em nossa última seção, aprendemos sobre diferentes tipos de golpes de phishing e como reconhecê-los. Agora é hora de jogar um jogo chamado Você acha isso suspeito?
+Quais imagens da lista abaixo você acha que são golpes de phishing?
+Este e-mail parece suspeito?SimNãoEste banner parece suspeito?SimNãoEsta mensagem de texto parece suspeita?SimNãoEsta mensagem de texto parece suspeita?SimNãoEste e-mail parece suspeito?</description>
+    </item>
+    
+    <item>
+      <title>Resumindo</title>
+      <link>/pt-br/security-phishing/summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pt-br/security-phishing/summary/</guid>
+      <description>Conclusão Concluindo, os sinais comuns encontrados em golpes de phishing têm pelo menos uma das seguintes propriedades:
+Oferta grátis ou prêmios que chamam a atenção. Remetente incomum e desconhecido de comportamento ou caráter inesperado. Senso de urgência, pedindo que você aja rápido por causa de ofertas ou acordos por tempo limitado. Exemplo: Sua senha está prestes a expirar clique aqui para alterá-la imediatamente. Links suspeitos: O correto seria passar o mouse sobre o link para verificar se a URL para a qual você será direcionado é real e confiável.</description>
+    </item>
+    
+  </channel>
+</rss>

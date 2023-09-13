@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Supply Chain Analytics on Nuevo Foundation Workshops</title>
+    <link>/supply-chain-analytics/</link>
+    <description>Recent content in Supply Chain Analytics on Nuevo Foundation Workshops</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 19 Jan 2022 14:04:59 -0700</lastBuildDate><atom:link href="/supply-chain-analytics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting the Scene</title>
+      <link>/supply-chain-analytics/scenario/</link>
+      <pubDate>Sat, 13 Mar 2021 14:17:07 -0700</pubDate>
+      
+      <guid>/supply-chain-analytics/scenario/</guid>
+      <description>The new Xbox 1000 has just come out, and you NEED to get it. But to do so you’ll need to start saving a lot more than the money. After all the kids in school loved the cookies your mom baked for the school fundraiser, you had the genius idea to start up a bakery with her and split the profits 50-50!
+To start off, you’re just going to sell 2 cookies.</description>
+    </item>
+    
+    <item>
+      <title>Linear Optimization - The Basics</title>
+      <link>/supply-chain-analytics/linearoptimizationbasics/</link>
+      <pubDate>Sat, 13 Mar 2021 14:17:07 -0700</pubDate>
+      
+      <guid>/supply-chain-analytics/linearoptimizationbasics/</guid>
+      <description>What is optimization? Official definition: A mathematical optimization model consists of an objective function and a set of constraints in the form of a system of equations or inequalities.
+Linear optimization may sound really complicated- and it can be. But to start off, you only really need to understand a few things.
+Optimization Optimization is how you make the most efficient decision when you have limited resources. For example, when you only have a limited amount of time you’re allowed to play on your Xbox, you want to make sure you’re playing your favorite game for the majority of that time so you’re using your time efficiently.</description>
+    </item>
+    
+    <item>
+      <title>Solving Your Problem</title>
+      <link>/supply-chain-analytics/solverandsolving/</link>
+      <pubDate>Sat, 13 Mar 2021 14:17:07 -0700</pubDate>
+      
+      <guid>/supply-chain-analytics/solverandsolving/</guid>
+      <description>To run an optimization problem in Excel, you need to enable the add-on called “Solver.” Follow the link below for details or see the image below.
+Click herefor more help if you are having trouble.
+You can find your solver add-in by clicking on “data” and then “solver” in the header.
+Next, please download the following templateFollow along in the template to help set up your problem. When using “Solver” you just need to select the cell number and the appropriate relationship between the cells.</description>
+    </item>
+    
+    <item>
+      <title>Extra Challenge</title>
+      <link>/supply-chain-analytics/challenge/</link>
+      <pubDate>Sat, 13 Mar 2021 14:17:07 -0700</pubDate>
+      
+      <guid>/supply-chain-analytics/challenge/</guid>
+      <description>One of the fences have broken loose in the farm and all the chickens and hens escaped! Because of this, we’re short on eggs and we now have to change the maximum capacity of eggs from 24 to 15. ☹
+Can you calculate what the new optimal cookie quantities should be? How much did your profit change due to the shortage?
+Change the cell that has the capacity constraint for the eggs from 24 to 15, and then re-run the Solver!</description>
+    </item>
+    
+  </channel>
+</rss>

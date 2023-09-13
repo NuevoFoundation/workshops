@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python: Machine Learning on Nuevo Foundation Workshops</title>
+    <link>/machine-learning/</link>
+    <description>Recent content in Python: Machine Learning on Nuevo Foundation Workshops</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Step 1: Get Dataset</title>
+      <link>/machine-learning/get-dataset/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/machine-learning/get-dataset/</guid>
+      <description>FIFA 2019 is a video soccer game. All the players in this game have an overall rating as well as a lot of attributes such as crossing, finishing, etc.
+We are heading to the website called kaggle.com to get our dataset.
+FIFA19 dataset*Note: you may need to sign up to get the download link*.On this page, you can find a lot of information about this dataset, take some time to browse it and familiarize the dataset.</description>
+    </item>
+    
+    <item>
+      <title>Step 2: Start the project</title>
+      <link>/machine-learning/start-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/machine-learning/start-project/</guid>
+      <description>Open jupyter notebook, new notebook &amp;gt; python 3
+At the beginning of the file, let&amp;rsquo;s import some necessary packages.
+# Importing necessary packages import pandas as pd import numpy as np import matplotlib.pyplot as plt from sklearn.linear_model import LinearRegression from sklearn.model_selection import train_test_split ---------------------------------------------------------------------------ImportError Traceback (most recent call last)&amp;lt;ipython-input-2-122d997e4faf&amp;gt; in &amp;lt;module&amp;gt;()1 # Importing necessary packages----&amp;gt; 2 import pandas as pd3 import numpy as np4 import matplotlib.</description>
+    </item>
+    
+    <item>
+      <title>Step 3: Load dataset</title>
+      <link>/machine-learning/load-dataset/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/machine-learning/load-dataset/</guid>
+      <description>Change mypath to the folder you extract the dataset file (i.e., C:\fifa_dataset\). To verify we loaded it successfully, we use a function called describe() to print its statistics.
+# load datasets mypath = &amp;#34;C:/Users/ruilliu/Documents/nuevo_lr_fifa/&amp;#34; # change it to your own path fifa_data = pd.read_csv(mypath+&amp;#34;data.csv&amp;#34;) fifa_data.describe() ---------------------------------------------------------------------------NameError Traceback (most recent call last)&amp;lt;ipython-input-3-f099c0f24a52&amp;gt; in &amp;lt;module&amp;gt;()1 # load datasets2 mypath = &amp;quot;C:/Users/ruilliu/Documents/nuevo_lr_fifa/&amp;quot; # change it to your own path----&amp;gt; 3 fifa_data = pd.</description>
+    </item>
+    
+    <item>
+      <title>Step 4: Pre-process data</title>
+      <link>/machine-learning/preprocess-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/machine-learning/preprocess-data/</guid>
+      <description>By now, we have imported our dataset. In real life, each soccer player has a specific position. Different positions require strength in different attributes. So let&amp;rsquo;s narrow down the scope to the striker.
+First, let&amp;rsquo;s list all the positions. This statement looks a little bit longer, but it does the work. The fifa_data[&#39;position&#39;] selects position column of the fifa_data, the dropna() eliminates cells that are blank, and unique() remove all duplicated items for us.</description>
+    </item>
+    
+    <item>
+      <title>Step 5: Feature selection</title>
+      <link>/machine-learning/feature-selection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/machine-learning/feature-selection/</guid>
+      <description>Our next step is selecting proper features. Feature selection is a term in machine learning to describe the method and process of choosing relevant features for the model. A feature is one (x) in the formula. In our story, it is an attribute of a soccer player.
+Since we are using the linear regression model, how attribute correlated to the target (&amp;ldquo;Overall&amp;rdquo;) becomes the criteria to choose the right features.</description>
+    </item>
+    
+    <item>
+      <title>Step 6: Train the model</title>
+      <link>/machine-learning/train-model/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/machine-learning/train-model/</guid>
+      <description>Now we are ready to train the model. we use &amp;lsquo;LinearRegression().fit()&amp;rsquo; to train it. and this model object has a score() function to return the score of the model, which is the coefficient of determination R^2 of the prediction. For now you only need to know the higher the better.
+# prepare training data x_train = train_data[features] y_train = train_data[target] # Applying Linear regression # fit() is the method to train the model model = LinearRegression().</description>
+    </item>
+    
+    <item>
+      <title>Step 7: Try the model on testing data</title>
+      <link>/machine-learning/model-testing-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/machine-learning/model-testing-data/</guid>
+      <description>Now we are using the trained model to estimate players in test_data. Similar to what we do to the train_data, we create x_test and y_test.
+model.predict() will generate a list of predicted results.
+# we would like to sort test data on target value (&amp;#34;Overall&amp;#34;) test_data = test_data.sort_values([target], ascending=False) x_test = test_data[features] y_test = test_data[target] y_pred = model.predict(x_test) Let&amp;rsquo;s compare with the actual overall ratings
+# add a new column of predicted overall to test_data test_data[&amp;#39;Predicted Overall&amp;#39;] = y_pred.</description>
+    </item>
+    
+    <item>
+      <title>Closing</title>
+      <link>/machine-learning/closing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/machine-learning/closing/</guid>
+      <description>Well done! You did it!
+Next, you can play with this dataset a little bit.
+Try to select players in another position, i.e., goalkeeper (&amp;ldquo;GK&amp;rdquo;), what features will be the top correlated ones? what will be the features you selected? Change the features you selected, will it change the model prediction results? Change the ratio of training/testing data, see what will happen. Change the target variable, for example, &amp;lsquo;Value&amp;rsquo; or &amp;lsquo;Wage&amp;rsquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

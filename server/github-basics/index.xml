@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GitHub Basics on Nuevo Foundation Workshops</title>
+    <link>/github-basics/</link>
+    <description>Recent content in GitHub Basics on Nuevo Foundation Workshops</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 10 Aug 2023 17:00:00 -0700</lastBuildDate><atom:link href="/github-basics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create Your GitHub Account</title>
+      <link>/github-basics/activity-1/</link>
+      <pubDate>Fri, 10 Sep 2021 13:24:17 -0700</pubDate>
+      
+      <guid>/github-basics/activity-1/</guid>
+      <description>NOTE: If you already have a GitHub account set up, feel free to skip on to the next page!
+Below are the step to creating your own GitHub account! To create an account, first go to the GitHub website: [GitHub Website] (https://github.com/)
+When you get to the website, it should look like the photo below: On the top right corner of the website, you should see two buttons: &amp;ldquo;Sign In&amp;rdquo; and &amp;ldquo;Sign Up&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Creating Your First GitHub Repository</title>
+      <link>/github-basics/activity-2/</link>
+      <pubDate>Fri, 10 Sep 2021 13:24:17 -0700</pubDate>
+      
+      <guid>/github-basics/activity-2/</guid>
+      <description>A repository in GitHub is like a Folder on your computer: it is a place to store all of your files/work for a project. Think of them as treasure chests holding all your project files. With Git, everyone on your team can work on their copy of the project and merge their discoveries later!
+There are two different ways to create a repository in GitHub:
+Click on the plus sign on the top right corner of the page, then select &amp;ldquo;New Repository&amp;rdquo;: Or, on the left side of your page, there is a little green button with a small drawing of a book, next to the word &amp;ldquo;New&amp;rdquo;: Once you have clicked on one of the options above, you will get to the page below:</description>
+    </item>
+    
+    <item>
+      <title>Adding Files to Your GitHub Repository</title>
+      <link>/github-basics/activity-3/</link>
+      <pubDate>Fri, 10 Sep 2021 13:24:17 -0700</pubDate>
+      
+      <guid>/github-basics/activity-3/</guid>
+      <description>Congratulations, brave coders! You&amp;rsquo;ve successfully set up your GitHub repository – the headquarters for your coding expedition with Maria and Kyle. 🎉🏰
+Now, it&amp;rsquo;s time to stock your repository with precious files and enchanted code! Let&amp;rsquo;s learn the two ways to add files to it! ✨📂
+First, go into your new repository, click on the &amp;ldquo;Add file&amp;rdquo; button, and select &amp;ldquo;Create new file&amp;rdquo;.
+Now you can name your new file and start coding!</description>
+    </item>
+    
+    <item>
+      <title>Branching Out in GitHub</title>
+      <link>/github-basics/activity-4/</link>
+      <pubDate>Thu, 10 Aug 2023 09:00:00 -0700</pubDate>
+      
+      <guid>/github-basics/activity-4/</guid>
+      <description>NOTE: Before you dive into branching, make sure you have a GitHub account set up. If you don&amp;rsquo;t, follow the steps to create one here!
+Branching Out in GitHub When you&amp;rsquo;re working on a coding expedition with your team, GitHub&amp;rsquo;s branching feature becomes your trusty compass. Imagine each branch as a separate path, allowing you to explore new ideas without disturbing the main project.
+Why Branches Matter Just like exploring diverse ecosystems, branches in GitHub offer several benefits:</description>
+    </item>
+    
+    <item>
+      <title>Navigating with GitHub Issues</title>
+      <link>/github-basics/activity-5/</link>
+      <pubDate>Thu, 10 Aug 2023 11:00:00 -0700</pubDate>
+      
+      <guid>/github-basics/activity-5/</guid>
+      <description>Navigating with GitHub Issues: Building Your Coding Boat Imagine you and your team are setting sail on a coding adventure across a vast digital ocean. Your goal is to build a sturdy and innovative coding boat that can weather challenges and reach new horizons. But every voyage encounters storms and rough waters. This is where GitHub Issues come in – they&amp;rsquo;re your tools for crafting and repairing your coding boat as you navigate the digital waves.</description>
+    </item>
+    
+    <item>
+      <title>Sailing Smoothly with GitHub Actions and CI</title>
+      <link>/github-basics/activity-6/</link>
+      <pubDate>Thu, 10 Aug 2023 13:00:00 -0700</pubDate>
+      
+      <guid>/github-basics/activity-6/</guid>
+      <description>Sailing Smoothly with GitHub Actions and Continuous Integration As you continue your coding voyage, you&amp;rsquo;ll want to ensure your coding boat (project) stays seaworthy at all times. GitHub Actions and Continuous Integration (CI) serve as your diligent crewmates, keeping your boat in top shape by automating testing, building, and deployment processes.
+What is GitHub Actions? Imagine GitHub Actions as your crew of experts working around the clock. They automatically carry out tasks whenever specific events occur, ensuring your coding boat is well-maintained.</description>
+    </item>
+    
+    <item>
+      <title>Collaborative Expeditions: Navigating GitHub&#39;s Ecosystem</title>
+      <link>/github-basics/activity-7/</link>
+      <pubDate>Thu, 10 Aug 2023 16:00:00 -0700</pubDate>
+      
+      <guid>/github-basics/activity-7/</guid>
+      <description>Collaborative Expeditions: Navigating GitHub&amp;rsquo;s Ecosystem Just as your coding journey began with a thrilling adventure, collaboration on GitHub is an expedition of its own. Imagine your project as an ecosystem where ideas flourish, and GitHub provides the terrain, tools, and guidance for successful teamwork.
+The Expedition&amp;rsquo;s Base Camp Think of your repository as the base camp for your collaborative expedition. It&amp;rsquo;s where adventurers (contributors) gather to plan, share ideas, and embark on their coding journey.</description>
+    </item>
+    
+    <item>
+      <title>The Journey Continues: Embracing GitHub&#39;s Horizons</title>
+      <link>/github-basics/conclusion/</link>
+      <pubDate>Thu, 10 Aug 2023 17:00:00 -0700</pubDate>
+      
+      <guid>/github-basics/conclusion/</guid>
+      <description>The Journey Continues: Embracing GitHub&amp;rsquo;s Horizons As your exploration of GitHub&amp;rsquo;s essentials draws to a close, remember that your coding journey is a continuous adventure, full of innovation, collaboration, and growth. Just like explorers charting new territories, you have the power to shape the digital landscape through your coding endeavors.
+Your GitHub Toolbox Throughout this expedition, you&amp;rsquo;ve gathered valuable tools for your coding toolkit:
+GitHub Basics: You&amp;rsquo;ve learned to navigate GitHub&amp;rsquo;s platform, setting the stage for your journey.</description>
+    </item>
+    
+  </channel>
+</rss>

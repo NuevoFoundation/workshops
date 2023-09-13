@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Structures on Nuevo Foundation Workshops</title>
+    <link>/python-basics/data-structures/</link>
+    <description>Recent content in Data Structures on Nuevo Foundation Workshops</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="/python-basics/data-structures/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lists</title>
+      <link>/python-basics/data-structures/lists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/python-basics/data-structures/lists/</guid>
+      <description>Lists are the ordered collection of items and can be written as comma separated values inside square bracket []. As we saw in our loops lesson, lists can be of any data type, for example strings or integers.
+#Creating a list of 5 fruits fruits = [&amp;#39;orange&amp;#39;, &amp;#39;apple&amp;#39;, &amp;#39;banana&amp;#39;, &amp;#39;apple&amp;#39;, &amp;#39;mango&amp;#39;] If you want to refer to a specific element of a list, you can do so by using indexes (position) inside square bracket.</description>
+    </item>
+    
+    <item>
+      <title>Tuples</title>
+      <link>/python-basics/data-structures/tuples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/python-basics/data-structures/tuples/</guid>
+      <description>A Tuple is also an ordered collection of elements just like lists, but tuples are immutable. So you can not change the elements of a tuple after it is assigned (unlike lists where you are allowed to do so). This immutable nature makes tuples very useful when you don&amp;rsquo;t want your data to be mutated through out the program. Along with this, tuples are generally used to store elements of different data types.</description>
+    </item>
+    
+    <item>
+      <title>Sets</title>
+      <link>/python-basics/data-structures/sets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/python-basics/data-structures/sets/</guid>
+      <description>Just like a list, a set is a collection of items. The difference between a set and a list is that a set cannot contain duplicates. So, if you have 5 chocolates and you put them in a set, you&amp;rsquo;ll only be left with 1 chocolate as duplicates will be removed. 😢
+In the image above, the left side represents Indoor Games (Chess &amp;amp; Table Tennis) while the right side represents the Outdoor Games (Cricket &amp;amp; Football).</description>
+    </item>
+    
+  </channel>
+</rss>

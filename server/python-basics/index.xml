@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python: Basics on Nuevo Foundation Workshops</title>
+    <link>/python-basics/</link>
+    <description>Recent content in Python: Basics on Nuevo Foundation Workshops</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 19 Sep 2022 14:45:38 -0700</lastBuildDate><atom:link href="/python-basics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Help, I am stuck!</title>
+      <link>/python-basics/help/</link>
+      <pubDate>Tue, 23 Jul 2019 11:45:38 -0700</pubDate>
+      
+      <guid>/python-basics/help/</guid>
+      <description>No worries! See if any of the following helps you, if not, feel free to reach out to one of us, and we will help you. Indentation is very important when you are working in Python. Be careful of spaces &amp;amp; tabs in your code, because indentation errors can sometimes be pretty difficult to spot.
+However on the positive side, strict formatting makes Python code very clean and organized. Are all your variables, functions indented properly as instructed?</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -46,5 +46,3 @@ Collaboration on GitHub is more than a mere exchange of code – it's an interco
 Collaborating on GitHub is an expedition of its own, navigating challenges, sharing insights, and reaching new coding horizons. Just like successful explorers working in harmony, your collaborative ecosystem flourishes through GitHub's tools and the collective efforts of your coding companions.
 
 So, embrace the collaborative spirit, set out on your GitHub expedition, and let the coding adventure continue!
-
-{{< children >}}

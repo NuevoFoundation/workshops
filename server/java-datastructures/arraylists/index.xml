@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ArrayList: Ordering from the Menu on Nuevo Foundation Workshops</title>
+    <link>/java-datastructures/arraylists/</link>
+    <description>Recent content in ArrayList: Ordering from the Menu on Nuevo Foundation Workshops</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 10 Feb 2020 13:24:17 -0700</lastBuildDate><atom:link href="/java-datastructures/arraylists/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>/java-datastructures/arraylists/introduction/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      
+      <guid>/java-datastructures/arraylists/introduction/</guid>
+      <description>We&amp;rsquo;ve learned about arrays and even ventured into multidimensional arrays. Unfortunately arrays have many limitations and can sometimes be hard to use. One limitation that an array has is its explicit size. If you only have 10 elements of allotted space in that array, you can only store up to 10 elements. ArrayLists are a great data structure that has a dynamic size, meaning that you can add or subtract items at any time.</description>
+    </item>
+    
+    <item>
+      <title>Methods</title>
+      <link>/java-datastructures/arraylists/methods/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      
+      <guid>/java-datastructures/arraylists/methods/</guid>
+      <description>Modifying Elements import java.util.ArrayList; public class Main { public static void main(String[] args) { ArrayList&amp;lt;String&amp;gt; order = new ArrayList&amp;lt;String&amp;gt;(); order.add(&amp;#34;Whopper&amp;#34;); order.add(&amp;#34;Chicken Nugget&amp;#34;); order.add(&amp;#34;Fries&amp;#34;); order.set(1, &amp;#34;Coke&amp;#34;); // This sets the first element (chicken nuggets) to a coke instead } } Using set(), you can set the element at the index number to a new element.
+Removing Elements import java.util.ArrayList; public class Main { public static void main(String[] args) { ArrayList&amp;lt;String&amp;gt; order = new ArrayList&amp;lt;String&amp;gt;(); order.</description>
+    </item>
+    
+    <item>
+      <title>Problem 1: ArrayList Basics</title>
+      <link>/java-datastructures/arraylists/problem-1/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      
+      <guid>/java-datastructures/arraylists/problem-1/</guid>
+      <description>Task 1: Insertion Tacos Truck is now available down the street! New employees are struggling to get keep track of all the different orders. Help them organize all the items using ArrayLists!
+/* Dan is ordering from his favorite taco shop: - 2 orders of &amp;#34;carne asada&amp;#34; - 4 orders of &amp;#34;carnitas&amp;#34; - 1 order of &amp;#34;pollo&amp;#34; - 2 orders of &amp;#34;birria&amp;#34; Return an ArrayList of all of these elements in that order */ How can you add items onto the list?</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java: Tic-Tac-Toe on Nuevo Foundation Workshops</title>
+    <link>/android-tictactoe/</link>
+    <description>Recent content in Java: Tic-Tac-Toe on Nuevo Foundation Workshops</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 13 Mar 2021 14:04:59 -0700</lastBuildDate><atom:link href="/android-tictactoe/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Android Setup</title>
+      <link>/android-tictactoe/android-setup/</link>
+      <pubDate>Sat, 13 Mar 2021 14:17:07 -0700</pubDate>
+      
+      <guid>/android-tictactoe/android-setup/</guid>
+      <description>Follow the steps below to get Android Studio installed on your computer. If you already have Android Studio installed, open it up and skip to the next step!
+These steps have examples for installing on Windows computers. However, the steps are similar for other types of computers as well.
+Download and Install Android Studio Download Android Studiofor your operating system. Follow these stepsto install Android Studio. Set the JAVA_HOME environment variable Android Studio comes with a version of Java needed for certain parts of the application to run.</description>
+    </item>
+    
+    <item>
+      <title>Puzzle 1 - Run the game and solve it</title>
+      <link>/android-tictactoe/puzzle1/</link>
+      <pubDate>Sat, 13 Mar 2021 14:17:07 -0700</pubDate>
+      
+      <guid>/android-tictactoe/puzzle1/</guid>
+      <description>Run the Game Press the play button button (►) at the top of Android Studio to start the game. You&amp;rsquo;ll see that the title at the top of the app says Toe-Tac-Tic (that doesn&amp;rsquo;t seem right!); let&amp;rsquo;s change it to Tic-Tac-Toe.
+Solve the Puzzle Double-click the strings.xml file under app → res → values: How can you modify this file to say Tic-Tac-Toe? </description>
+    </item>
+    
+    <item>
+      <title>Game Application Structure</title>
+      <link>/android-tictactoe/app-structure/</link>
+      <pubDate>Sat, 13 Mar 2021 14:17:07 -0700</pubDate>
+      
+      <guid>/android-tictactoe/app-structure/</guid>
+      <description>Back to Foundations Now that the game has the right title, let&amp;rsquo;s dive deeper into all these files in the game folder. What do they all mean? How does it contribute to the game? AndroidManifest.xml Every project in Android includes a manifest file. For your game, this is the AndroidManifest.xml file. The manifest file defines the metadata for your game, for instance, it can define the icon and the overall theme for your game application.</description>
+    </item>
+    
+    <item>
+      <title>Printing to Console</title>
+      <link>/android-tictactoe/printconsole/</link>
+      <pubDate>Sat, 13 Mar 2021 14:17:07 -0700</pubDate>
+      
+      <guid>/android-tictactoe/printconsole/</guid>
+      <description>Sometimes the game or application might not work the way you expect it to or you want to write something to the console for logging purposes. Outside of debugging the application, you can use System.out.println() to write your message. Lookout for your messages in the &amp;ldquo;logcat&amp;rdquo; window at the bottom of Android Studio: Working Together Without removing the quotation marks, try changing &amp;quot;Restarting the Tac-Tic-Toe Game!&amp;quot; to &amp;quot;Restarting the Tic-Tac-Toe Game!</description>
+    </item>
+    
+    <item>
+      <title>Puzzle 2 - Welcome user</title>
+      <link>/android-tictactoe/puzzle2/</link>
+      <pubDate>Sat, 13 Mar 2021 14:17:07 -0700</pubDate>
+      
+      <guid>/android-tictactoe/puzzle2/</guid>
+      <description>Let&amp;rsquo;s add a welcome message that the user can see when they start your app!
+Go to MainActivity.kt and find // PUZZLE 2 in the code and write a toast that welcomes the user to your game with &amp;ldquo;Welcome to Tic-Tac-Toe!”. Now press the play button (►) at the top of Android Studio and your app should look like this:
+HELP! I got a lot of red text! If you see any red text, you have encountered some errors!</description>
+    </item>
+    
+    <item>
+      <title>Comments</title>
+      <link>/android-tictactoe/comments/</link>
+      <pubDate>Sat, 13 Mar 2021 14:17:07 -0700</pubDate>
+      
+      <guid>/android-tictactoe/comments/</guid>
+      <description>Developers often need to collaborate with other developers. Comments are an easy way for developers to write notes in the code and communicate with others. Comments are ignored by the computer; thus, they are also an easy way to tell the computer to not run certain lines of code. There are two ways to create comments:
+To comment out one line, place // in front of a line of code. For example: // This is a single-line comment.</description>
+    </item>
+    
+    <item>
+      <title>Strings</title>
+      <link>/android-tictactoe/strings/</link>
+      <pubDate>Sat, 13 Mar 2021 14:17:07 -0700</pubDate>
+      
+      <guid>/android-tictactoe/strings/</guid>
+      <description>Anything that is surrounded in quotation marks is called a string. This is how a computer represents words or sentences. For example, &amp;quot;a&amp;quot;, &amp;quot;2&amp;quot;, &amp;quot;banana!&amp;quot;, and &amp;quot;Hello World&amp;quot; are strings, but Hello World and 2 are not strings, because the quotation marks are missing. You can combine many strings together using the + operator. For example:
+&amp;quot;Apple&amp;quot; + &amp;quot;Pineapple&amp;quot; produces the string &amp;quot;ApplePineapple&amp;quot;. &amp;quot;Nuevo&amp;quot; + &amp;quot; &amp;quot; + &amp;quot;Foundation&amp;quot; produces the string &amp;quot;Nuevo Foundation&amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title>Numbers</title>
+      <link>/android-tictactoe/numbers/</link>
+      <pubDate>Sat, 13 Mar 2021 14:17:07 -0700</pubDate>
+      
+      <guid>/android-tictactoe/numbers/</guid>
+      <description>The computer can also do regular math that you see in school. Use System.out.println to print out the result from the math expressions.
+System.out.println(5 + 4); System.out.println(6 * (9 - 7) / 3); Here is the full list of math symbols that you can use:
++Add\Divide-Subtract%Modulo (remainder)*Multiply(,)ParenthesisFun Fact: Computer Division
+The computer does division differently from your regular calculator.</description>
+    </item>
+    
+    <item>
+      <title>Booleans</title>
+      <link>/android-tictactoe/booleans/</link>
+      <pubDate>Sat, 13 Mar 2021 14:17:07 -0700</pubDate>
+      
+      <guid>/android-tictactoe/booleans/</guid>
+      <description>Booleans are true or false statements. Unlike strings or numbers, booleans store statements of truth: is what I am saying true or false? For example, if I ask, &amp;ldquo;Are you a robot?&amp;rdquo;, this question produces a true or false result, which we call a Boolean. In this case, since you are not a robot (hopefully!), we would produce false. We can also use math operators to create boolean expressions. Here are some examples; however, notice the unusual symbols for &amp;ldquo;equal to&amp;rdquo; and &amp;ldquo;not equal to&amp;rdquo;:</description>
+    </item>
+    
+    <item>
+      <title>Conditionals</title>
+      <link>/android-tictactoe/conditionals/</link>
+      <pubDate>Sat, 13 Mar 2021 14:17:07 -0700</pubDate>
+      
+      <guid>/android-tictactoe/conditionals/</guid>
+      <description>We can use if statements to run a code statement only if certain conditions are met.
+For example:
+if (isRainingOutside == true) { takeUmbrella = true; } else { takeUmbrella = false; } For our game, we should use if statements to determine if a player has 3 vertical, horizontal, or diagonal matches.
+Inside the () beside if, you should specify a Boolean expression. Booleans are true or false statements. We can utilize this in our if statement.</description>
+    </item>
+    
+    <item>
+      <title>Variables</title>
+      <link>/android-tictactoe/variables/</link>
+      <pubDate>Sat, 13 Mar 2021 14:17:07 -0700</pubDate>
+      
+      <guid>/android-tictactoe/variables/</guid>
+      <description>Variables are simply names that we can give to values such as strings, numbers, and booleans. We use variables to store information so the computer can keep track of it. Variables are created by using the type of the variable and the name of the variable. Then you can assign that variable to the information that you want to store by using = and the content.
+Look at the variables at the top of of MainActivity.</description>
+    </item>
+    
+    <item>
+      <title>Puzzle 3 - The final test</title>
+      <link>/android-tictactoe/puzzle3/</link>
+      <pubDate>Sat, 13 Mar 2021 14:17:07 -0700</pubDate>
+      
+      <guid>/android-tictactoe/puzzle3/</guid>
+      <description>Puzzle 3a This puzzle will test your knowledge about variables. There is something strange with one of the player&amp;rsquo;s color on the board.
+Find // PUZZLE 3a in the MainActivity.kt file and update the colorGreen variable to show green colored pieces on the board.
+Puzzle 3b Why does Player 2 always win on the first move?! This doesn&amp;rsquo;t make any sense, solve puzzle 3b to fix the game.
+Find // PUZZLE 3b in the MainActivity.</description>
+    </item>
+    
+    <item>
+      <title>Answer Key - Android Tic-Tac-Toe</title>
+      <link>/android-tictactoe/answer-key/</link>
+      <pubDate>Sat, 13 Mar 2021 14:17:07 -0700</pubDate>
+      
+      <guid>/android-tictactoe/answer-key/</guid>
+      <description>Puzzle 1 &amp;lt;resources&amp;gt; &amp;lt;string name=&amp;#34;app_name&amp;#34;&amp;gt;Tic-Tac-Toe&amp;lt;/string&amp;gt; &amp;lt;/resources&amp;gt; Puzzle 2 Toast.makeText(this, &amp;#34;Welcome to Tic-Tac-Toe&amp;#34;, Toast.LENGTH_LONG).show() Puzzle 3 Puzzle 3a var colorGreen = Color.GREEN Puzzle 3b var winner = -1 Final Puzzle //cross1 if (Player1.contains(1) &amp;amp;&amp;amp; Player1.contains(5) &amp;amp;&amp;amp; Player1.contains(9)) { winner = 1 } if (Player2.contains(1) &amp;amp;&amp;amp; Player2.contains(5) &amp;amp;&amp;amp; Player2.contains(9)) { winner = 2 } //cross2 if (Player1.contains(3) &amp;amp;&amp;amp; Player1.contains(5) &amp;amp;&amp;amp; Player1.contains(7)) { winner = 1 } if (Player2.contains(3) &amp;amp;&amp;amp; Player2.contains(5) &amp;amp;&amp;amp; Player2.contains(7)) { winner = 2 } </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,55 @@
+p {
+    margin-center: auto;
+    padding: 1em 1em 1em 1em; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 80em; 
+    font-size: 1vw; 
+    font-family: sans-serif; 
+    color:grey; 
+    line-height: 200%
+}
+
+h1 {
+    font-size:2vw; 
+    font-family: sans-serif; 
+    font-weight: 600;
+}
+
+.show-hide-text {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.show-hide-text a {
+  order: 2;
+}
+
+.show-hide-text p {
+  position: relative;
+  overflow: hidden;
+  max-height: 60px; // The Height of 3 rows
+}
+
+.show-hide-text p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; // 3 Rows of text
+  -webkit-box-orient: vertical;
+}
+
+.show-less {
+  display: none;
+}
+
+.show-less:target {
+  display: block;
+}
+
+.show-less:target ~ p {
+  display: block;
+  max-height: 100%;
+}
+
+.show-less:target + a {
+  display: none;
+}

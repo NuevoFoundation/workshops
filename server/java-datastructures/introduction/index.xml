@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction to Data Structures on Nuevo Foundation Workshops</title>
+    <link>/java-datastructures/introduction/</link>
+    <description>Recent content in Introduction to Data Structures on Nuevo Foundation Workshops</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 10 Feb 2020 13:24:17 -0700</lastBuildDate><atom:link href="/java-datastructures/introduction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting Up</title>
+      <link>/java-datastructures/introduction/setting-up/</link>
+      <pubDate>Tue, 23 Jul 2019 11:45:38 -0700</pubDate>
+      
+      <guid>/java-datastructures/introduction/setting-up/</guid>
+      <description>Setting Up Replit! Today you will be using Replit to learn about data structures with Java. Before starting, you will need to sign up for a Replit account, if you do not yet have one.
+Click the button below to sign up for a Replit account - you will need an email account in order to sign up. If you already have a Replit account, you can login to your account using the below button as well.</description>
+    </item>
+    
+    <item>
+      <title>Prerequisites</title>
+      <link>/java-datastructures/introduction/prerequisites/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      
+      <guid>/java-datastructures/introduction/prerequisites/</guid>
+      <description>Variables Before you start this workshop, you should have some prior knowledge of how Java variables work and how you can create them. Click here to review the Java Basics workshop!Don&amp;rsquo;t worry if you still feel a little shaky! We&amp;rsquo;ll slowly introduce you to these topics at hand. However, if you have no idea what variables are, we strongly recommend you to go ahead and finish the java basics workshop beforehand.</description>
+    </item>
+    
+    <item>
+      <title>For Loops</title>
+      <link>/java-datastructures/introduction/for-loops/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      
+      <guid>/java-datastructures/introduction/for-loops/</guid>
+      <description>When you know exactly how many times you want to loop through a block of code, use a for loop instead of a while loop:
+for (initialization; condition; iteration) { // code block to be executed } initialization is executed (one time) before the execution of the code block. condition (as the name implies) defines the condition for executing the code block. iteration is executed (every time) after the code block has been executed.</description>
+    </item>
+    
+  </channel>
+</rss>

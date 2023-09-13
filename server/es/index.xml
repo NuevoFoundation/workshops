@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nuevo Foundation Workshops</title>
+    <link>/es/</link>
+    <description>Recent content on Nuevo Foundation Workshops</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 22 Jul 2019 12:40:43 -0700</lastBuildDate><atom:link href="/es/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Usando Repl.It</title>
+      <link>/es/java-basics/activity-0/</link>
+      <pubDate>Sat, 11 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/es/java-basics/activity-0/</guid>
+      <description>Usando Replit Hoy estaremos usando Replit para aprender como programar en Java. Aquí está un ejemplo del portal interactivo que estaremos usando hoy:
+Lanza Replit
+Antes de empezar, primero vamos a repasar y entender cómo funciona el portal. El archivo Main.java tiene el codigo, o instrucciones que ejecutará la computadora. Al presionar el botón de run, le dirás a la computadora que ejecute las instrucciones que están en el codigo. Los resultados de la ejecución del codigo se pueden ber al final de la pantalla blanca, debajo de la pestaña de result.</description>
+    </item>
+    
+    <item>
+      <title>Usando Repl.It</title>
+      <link>/es/secret-messages/using-repl-it/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/es/secret-messages/using-repl-it/</guid>
+      <description>Para ayudar a los reyes, vamos a crear un programa en el lenguaje llamado C++, donde podamos ingresar un mensaje, y el programa lo modifique de una manera determinada para hacerlo secreto.
+Usando Replit Vamos a utilizar la herramienta Replit, con la cual vamos a poder correr nuestro códigos de C++. Este es un ejemplo de una ventana interactiva como las que usaremos durante todo el tutorial:
+Lanza Replit</description>
+    </item>
+    
+    <item>
+      <title>Usando Trinket</title>
+      <link>/es/python-turtle/using-trinket/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/es/python-turtle/using-trinket/</guid>
+      <description>Para que Alex pueda vivir en una colmena, necesita aprender a construir un panal. Vamos a usar una biblioteca de Python que se llama turtle (tortuga) para dibujar el panal.
+Usando Trinket Vamos a utilizar la herramienta Trinket para jugar con nuestros códigos Python. Este es un ejemplo de una ventana interactiva como las que usaremos en todo el tutorial:
+Antes de empezar, entendamos como funciona esta ventana. El programa main.</description>
+    </item>
+    
+    <item>
+      <title>Conceptos básicos de phishing</title>
+      <link>/es/security-phishing/phishing-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/security-phishing/phishing-basics/</guid>
+      <description>¡Nuestra agente secreta Alice le explica a Bob sobre el phishing!!!
+¿Qué es el phishing? Al igual que cuando se pesca, uno usa un carnada para atrapar peces en una caña de pescar, los hackers maliciosos usan diferentes tipos de carnadas para robar o atrapar información personal de personas desprevenidas.
+El phishing es un tipo de ataque de ingeniería social que se utiliza para robar datos confidenciales. Como por ejemplo: credenciales de inicio de sesión, detalles bancarios y números tarjetas de crédito.</description>
+    </item>
+    
+    <item>
+      <title>Conociendo a Alicia, Bob y Eva</title>
+      <link>/es/security/meeting-alice-bob-eve/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/security/meeting-alice-bob-eve/</guid>
+      <description>Conoce a nuestro amigo Bob. Bob tiene un secreto que no quiere compartir, le gustaría mantenerlo a salvo. Tiene el secreto guardado en un lugar seguro. Solo Bob tiene la clave de la cerradura para asegurarse de que nadie más que él pueda llegar a su secreto.
+Conoce a nuestra no tan buena amiga Eva. Eva quiere acceder al secreto de Bob.
+Eva se da cuenta de que para llegar al secreto de Bob, primero debe pasar la cerradura.</description>
+    </item>
+    
+    <item>
+      <title>Empezando</title>
+      <link>/es/csharp-guess-the-word/starting-up/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/csharp-guess-the-word/starting-up/</guid>
+      <description>Empezando La meta de la actividad de hoy es aprender C# y usar tus nuevas habilidades a crear un juego de Adivina la palabra. Empezamos a configurar el juego.
+Abre tu browser favorito (como Edge, Firefox, Google Chrome, Internet Explorer), y navega a https://aka.ms/nuevoguesstheword. Tu pantalla debe aparecer así:
+Vamos a ignorar unos de los detalles en esta pantalla, pero examinemos unos elementos básicos que se ven aquí. El archivo principal main.</description>
+    </item>
+    
+    <item>
+      <title>Hora de crear</title>
+      <link>/es/adventure/time-to-create/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/adventure/time-to-create/</guid>
+      <description>¡Es hora de empezar a crear nuestras propias historias con todas las habilidades que hemos aprendido hoy! ¡La pregunta que estamos abordando hoy es cómo involucrar a la audiencia con la historia, y la respuesta es con código!</description>
+    </item>
+    
+    <item>
+      <title>Los Componentes</title>
+      <link>/es/adafruit/the-components/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/adafruit/the-components/</guid>
+      <description>Los componentes que utilizaremos para el proyecto se listan a continuación. Asegúrate de tener todo esto antes de comenzar:
+Una Adafruit Un cable Micro USB a USB Dos cables de pinza cocodrilo de cualquier color Dos naranjas </description>
+    </item>
+    
+    <item>
+      <title>Conceptos Básicos</title>
+      <link>/es/web-basics/basics/</link>
+      <pubDate>Fri, 27 Nov 2020 17:53:41 -0700</pubDate>
+      
+      <guid>/es/web-basics/basics/</guid>
+      <description>¿Qué es un sitio web? Un sitio web es solo una página que se puede encontrar en Internet. Se ve a través de un navegador cuando introduces la dirección (o nombre único) en la barra de direcciones.
+Partes de un sitio web Existen varios elementos comunes para un sitio web incluyendo barras de navegación, pie de página, barras de búsqueda y formularios de contacto.
+Diseño de una página web El primer para crear una página web es decidir qué elementos queremos y cómo queremos que se vean.</description>
+    </item>
+    
+    <item>
+      <title>Música Basica</title>
+      <link>/es/python-earsketch/music-basics/</link>
+      <pubDate>Wed, 25 Nov 2020 11:45:38 -0700</pubDate>
+      
+      <guid>/es/python-earsketch/music-basics/</guid>
+      <description>Lo básico primero. Algunas cosas sobre la música.
+¿Qué es la música? La músicaes la organización cronológica de los sonidos; es decir, hacer ciertos sonidos en ciertos momentos, que hacen sentido melódico, rítmico y armónico. El primer concepto, más básico, es mantener los sonidos &amp;ldquo;en el tiempo&amp;rdquo;. Esto nos lleva a algunos de los primeros conceptos musicales: beat, ritmo, duración y tempo.
+El beat es el pulso regular que proporciona una línea de tiempo (o timeline) para que el ritmo se ancle a sí mismo.</description>
+    </item>
+    
+    <item>
+      <title>Imprimir Declaraciones y Añadir Comentarios</title>
+      <link>/es/java-basics/activity-1/</link>
+      <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/es/java-basics/activity-1/</guid>
+      <description>1. Deja que el programa hable! Vamos a escribir un programa que diga Hello World luego de escribir la siguiente línea de código System.out.print(&amp;quot;Hello World&amp;quot;);
+El programa imprimirá lo que escribas entre los paréntesis de System.out.print(. Cada línea de código termina con ;.
+Añada más declaraciones para imprimir números, escribiendo los números entre los paréntesis (i.e. System.out.print(2020)) o cualquier símbolo, escribiendo el símbolo entre 2 comillas simples &#39; (i.e. System.out.print(&#39;@&#39;)).</description>
+    </item>
+    
+    <item>
+      <title>Actividad 1 - Output</title>
+      <link>/es/secret-messages/activity-1/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/es/secret-messages/activity-1/</guid>
+      <description>Para que nuestro programa cree mensajes secretos, primero debemos ingresar un mensaje.
+Lanza Replit
+Para eso, vamos a comenzar diciendole a la computadora que muestre en la consola para quien es ese mensaje. Esta es la instrucción que necesitaremos:
+cout &amp;lt;&amp;lt; &amp;#34;Hola programador!&amp;#34; &amp;lt;&amp;lt; endl; Intentemos entender esta línea de código en más detalle.
+Cadenas (Strings) Todo lo que veas entre comillas &amp;ldquo;&amp;rdquo; se llama cadena o string. Un string es solo una secuencia de caracteres, es decir, de números, letras o símbolos.</description>
+    </item>
+    
+    <item>
+      <title>Los basicos - Dibujando una línea de color</title>
+      <link>/es/python-turtle/the-basics/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/es/python-turtle/the-basics/</guid>
+      <description>Ante de que Alex pueda aprender a crear una colmena, él debe aprender primero cómo dibujar una línea. Haremos esto en dos partes.
+Primero, necesitamos decirle a la tortuga qué color queremos usar para dibujar la línea. Para hacerlo de color naranja (orange in inglés) esta es la instrucción:
+turtle.color(&amp;#34;orange&amp;#34;) Intentemos entender esta línea de código en más detalle.
+Cadenas (Strings) Todo lo que veas entre comillas &amp;ldquo;&amp;rdquo; se llama cadena o string.</description>
+    </item>
+    
+    <item>
+      <title>Conceptos Básicos de la Contraseña</title>
+      <link>/es/security/password-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/security/password-basics/</guid>
+      <description>¡Nuestra agente secreta Alicia resuelve el caso explicándole a Bob sobre las contraseñas!
+¿Qué es una Contraseña? Las contraseñas son la clave para la cerradura de su mundo virtual. Al igual que su secreto se mantiene a salvo en un lugar seguro usando una llave y un candado, su información personal en Internet está protegida por su contraseña y nombre de usuario.
+El lugar seguro solamente es tan seguro como la llave para el candado de la puerta.</description>
+    </item>
+    
+    <item>
+      <title>Construyendo la estación de DJ</title>
+      <link>/es/adafruit/building-the-dj-station/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/adafruit/building-the-dj-station/</guid>
+      <description>Conectando las naranjas Toma una naranja y uno de tus cables. Abre una de las pinzas de cocodrilo e inserta la mitad inferior en la naranja, dejando la parte superior de la pinza en el exterior. Esto es más fácil de hacer si lo insertas a la mitad de la parte inferior de la naranja. En ll mismo lugar donde comenzarías a pelar si fueras a comer la naranja.
+Repite la operacion con la segunda naranja y tu otro cable.</description>
+    </item>
+    
+    <item>
+      <title>Escribiendo a la consola</title>
+      <link>/es/csharp-guess-the-word/writing-to-console/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/csharp-guess-the-word/writing-to-console/</guid>
+      <description>Escribiendo a la consola Console.WriteLine le dice a la computadora que debe imprimir la frase dentro de los paréntesis () a la consola..
+Trabajando junt@s En el programa de Replit abajo, presiona ‘run’. Vea que Hello World se imprimió en la ventana a la derecha. Sin quitar las comillas, intenta a cambiar Hello World a otra frase. Presiona ‘run’ a ver si algo cambia. Añade otra línea de Console.WriteLine debajo de la primera línea para imprimir una segunda frase debajo de la primera frase.</description>
+    </item>
+    
+    <item>
+      <title>Sección 1: Diseñando del Guion (Story Boarding)</title>
+      <link>/es/adventure/story-boarding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/adventure/story-boarding/</guid>
+      <description>Para empezar, saque un pedazo de un papel y comience a &amp;ldquo;diseñar el guion&amp;rdquo;. ¿Qué significa eso? Con el fin de desarrollar una gran historia que permite al lector elegir entre opciones, uno puede esbozar el flujo de su historia. ¡Este es un gran paso de planificación, que le ayudará tremendamente una vez que comience a codificar! Empezaría con las 3 o 4 decisiones principales que tu protagonista va a tomar en la historia.</description>
+    </item>
+    
+    <item>
+      <title>Poniendo todo junto</title>
+      <link>/es/web-basics/putting-together/</link>
+      <pubDate>Fri, 27 Nov 2020 17:53:41 -0700</pubDate>
+      
+      <guid>/es/web-basics/putting-together/</guid>
+      <description>Poniendo todo junto Para que el navegador entienda lo que es cada elemento de tu sitio web, necesitamos etiquetarlos con etiquetas HTML. HTML significa Hypertext Markup Language. Las etiquetas son palabras rodeadas por los símbolos &amp;lt; y &amp;gt;. Por ejemplo, la etiqueta &amp;lt;img&amp;gt; le indica al navegador que “esto es una imagen”. La etiqueta &amp;lt;button&amp;gt; le indica que “esto es un botón”.
+¡Las etiquetas (o Tags) también se pueden usar para organizar tu página web!</description>
+    </item>
+    
+    <item>
+      <title>Variables and Types</title>
+      <link>/es/java-basics/activity-2/</link>
+      <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/es/java-basics/activity-2/</guid>
+      <description>1. Variables: Define el nombre En el último ejercicio, aprendimos como imprimir distintas delcaraciones con el método System.out.print().
+Está genial saber como imprimir números y oraciones. Pero todavía no les hemos dado un significado más profundo.
+En Java, ahora vamos a introducir el concepto de una variable. Una variable es como una caja donde guardas un pedazo de data o información con un nombre.
+Por ejemplo, puede haber una variable llamada myName que guarda la información &amp;quot;Patrick&amp;quot;, y otra variable llamada loveMusic que guarda el valor de true, y otra variable llamada age que guarda el valor 3.</description>
+    </item>
+    
+    <item>
+      <title>Actividad 1 - Dibujando un cuadrado</title>
+      <link>/es/python-turtle/activity-1/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/es/python-turtle/activity-1/</guid>
+      <description>¡Muy bien! Has ayudado a Alex a dibujar una línea. Ahora demos un paso más y dibujemos un cuadrado. Para dibujarlo, necesitamos seguir los siguientes pasos:
+Ir hacia adelante 50 pixeles. Girar a la izquierda 90 grados. Ir hacia adelante 50 pixeles. Girar a la izquierda 90 grados. Ir hacia adelante 50 pixeles. Girar a la izquierda 90 grados. Ir hacia adelante 50 pixeles. Recuerda que debes usar turtle.forward() para dibujar líneas.</description>
+    </item>
+    
+    <item>
+      <title>Actividad 2 - Input y Variables</title>
+      <link>/es/secret-messages/activity-2/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/es/secret-messages/activity-2/</guid>
+      <description>¡Muy bien! Ahora demos un paso más. No solo vamos a imprimir para quién es el mensaje, sino que vamos a ingresar el nombre del destinatario, y haremos que nuestro programa lo salude.
+Para eso necesitaremos de las variables.
+Variables Una variable es un contenedor que guarda información. Hay distintos tipos de variables que dependen en que información guarda. Pueden ser del tipo:
+string: guarda una secuencia de caracteres, es decir, de números, letras o símbolos.</description>
+    </item>
+    
+    <item>
+      <title>Actividad</title>
+      <link>/es/security/activity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/security/activity/</guid>
+      <description>¡Juguemos un juego!
+Escriba su oración favorita en el cuadro de texto a continuación. Asegúrese de que tenga al menos cinco palabras. (p. Ej., Me gusta jugar al voleibol en la playa.) Ahora tome la primer letra de cada palabra de su oración y escribalas en el cuadro de texto. (p. Ej.,mgjavelp)Agregue algunos números al texto. Recuerde la posición de los números. (p. Ej., 1mgjavelp8)Finalmente, agreguemos algunos caracteres especiales al texto.</description>
+    </item>
+    
+    <item>
+      <title>Comentarios</title>
+      <link>/es/csharp-guess-the-word/comments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/csharp-guess-the-word/comments/</guid>
+      <description>Comentarios Desarrollador@s frecuentemente tienen que colaborar con otr@s desarrollador@s. Escribiendo comentarios es una manera fácil que desarrollador@s usan para comunicarse. La computadora ignora los comentarios, entonces comentarios también son una manera fácil para decirle a la computadora que no debe ejecutar alguna línea de código. Hay dos maneras de crear comentarios:
+Para comentar una línea, añade // al inicio de la línea. Por ejemplo: // Esto es una sola línea de comentario.</description>
+    </item>
+    
+    <item>
+      <title>Conceptos básicos de Python</title>
+      <link>/es/python-earsketch/python-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/python-earsketch/python-basics/</guid>
+      <description>Python basico Para codificar música, necesitamos aprender un poco de Python. No te preocupes, no te morderá 😊. Python es uno de los lenguajes que usamos para decirle a las computadoras qué hacer. Estos lenguajes se conocen como &amp;ldquo;lenguajes de programación&amp;rdquo;. Aprenderemos conceptos de Python en toda la clase, pero comencemos con una simple instrucción print.
+Si desea saltar a una sección específica de Python, haga clic en el siguiente tema:</description>
+    </item>
+    
+    <item>
+      <title>Creando el programa</title>
+      <link>/es/adafruit/creating-the-program/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/adafruit/creating-the-program/</guid>
+      <description>Abre tu navegador de internet favorito (como Edge, Firefox, Google Chrome, Internet Explorer) y entra a https://aka.ms/oranges.
+Tu pantalla debería verse así:
+Definiendo las variables Hoy vamos a usar naranjas para decirle a nuestra Adafruit cuándo hacer ruido. Lo primero que debemos hacer es darle a la computadora un nombre para cada naranja y dónde buscar lo que están diciendo. Hacemos la primera parte definiendo una variable. Haz clic en la sección que dice VARIABLES, es de color salmón y es el séptimo si cuentas desde la parte superior.</description>
+    </item>
+    
+    <item>
+      <title>Miremos mas cerca que pasa.</title>
+      <link>/es/security-phishing/a-closer-look/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/security-phishing/a-closer-look/</guid>
+      <description>Bob recibió el siguiente correo electrónico la otra noche.
+Que crees que esta sospechoso en este correo? Analicemos: La dirección de correo electrónico del remitente es sospechosa y tu no conoces personalmente a este remitente de correo electrónico.
+La oferta lucrativa en la línea de asunto sugiere que es demasiado buena para ser verdad.
+Recibió un correo electrónico fuera de horario comercial.
+La urgencia del mensaje.
+El remitente le pide que haga click en un enlace o que abra un archivo adjunto que no conoce.</description>
+    </item>
+    
+    <item>
+      <title>Sección 2: ¡Pasar del diseño del guion (Story Board) al código!</title>
+      <link>/es/adventure/story-board-code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/adventure/story-board-code/</guid>
+      <description>Es hora de abrir Trinket. ¡Ahora es el momento de crear, vamos a ser creativos!
+Puedes seguir trabajando en la historia de Nuvi:
+Ahora tu puedes trabajar en tu propio codigo para elegir tu propio juego de &amp;lsquo;Elegir tu aventura&amp;rsquo;:
+¡O puede empezar de cero y hacerlo suyo! ¡Solo ve a Trinket y empieza a contar historias!</description>
+    </item>
+    
+    <item>
+      <title>Actividad  1 - Familiarizarse con editor en linea</title>
+      <link>/es/web-basics/activity-1/</link>
+      <pubDate>Fri, 27 Nov 2020 17:53:41 -0700</pubDate>
+      
+      <guid>/es/web-basics/activity-1/</guid>
+      <description>Instrucciones Abre el editor del navegador (clica en el botón de abajo “Inténtalo tu mism@!”) Usa etiquetas de cabecera para añadir el título y las etiquetas de párrafo para escribir un párrafo sobre Benji Si tienes tiempo: escribe una lista de las golosinas favoritas de Benji: pavo, mantequilla de cacahuetes y queso en hebras Inténtalo tu mism@!
+Usa este gráfico de referencia para probar algunas etiquetas HTML tú mism@.
+Tag Descripción Ejemplo &amp;lt;html&amp;gt;&amp;lt;/html&amp;gt; Describen un documento HTML.</description>
+    </item>
+    
+    <item>
+      <title>Operadores</title>
+      <link>/es/java-basics/activity-3/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/es/java-basics/activity-3/</guid>
+      <description>1. Matemática : Operadores de Artimétic En el último ejercicio, aprendimos sobre distintos tipos de variables y cómo podemos aignarles un valor. Por ejemplo:
+int age = 3; // declara la variable age de type int con valor de 3 age = 4; // asingnale el valor de 4 a la variable age El código de arriba le suma 1 a la variable age.
+Y en Java, podemos realizar operaciones matemáticas directamente en las variables y con los siguientes opereadores aritméticos: +, -, *, /, %.</description>
+    </item>
+    
+    <item>
+      <title>Actividad 2 - Simplificando el código con ciclos (loops)</title>
+      <link>/es/python-turtle/activity-2/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/es/python-turtle/activity-2/</guid>
+      <description>¡Genial! Dibujaste un cuadrado. ¿Pero notas cómo estamos escribiendo las mismas líneas una y otra vez? Tuvimos que repetir las instrucciones para dibujar una línea y dar la vuelta cuatro veces. ¿No sería genial que en vez de dar todas las instrucciones le dijeramos al programa que repita cuatro veces lo qu ele dijimos? ¡Intentémoslo!
+Para hacer esto tenemos que usar CICLOS. Un ciclo ejecuta un grupo de instrucciones varias veces.</description>
+    </item>
+    
+    <item>
+      <title>Actividad 3 - Ciclos</title>
+      <link>/es/secret-messages/activity-3/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/es/secret-messages/activity-3/</guid>
+      <description>¡Genial!
+El rey nos ha pedido que escribamos letra por letra el nombre del destinatario para luego poder cambiarlas mediante alguna forma y así hacer secreto nuestro mensaje.
+Para hacer esto tenemos que usar CICLOS (o loops en inglés). Un ciclo ejecuta un grupo de instrucciones varias veces. Veamos este ejemplo donde imprimimos números:
+for(int i=0; i&amp;lt;3; i++){cout &amp;lt;&amp;lt; i &amp;lt;&amp;lt; endl;} Intentemos entender lo que hace ese código:</description>
+    </item>
+    
+    <item>
+      <title>Actividad 4 - Condiciones</title>
+      <link>/es/secret-messages/activity-4/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/es/secret-messages/activity-4/</guid>
+      <description>¡Muy bien!
+Cada vez estamos más cerca de hacer nuestros mensajes secretos. Pero también, ¡no olvidemos que tenemos que poder descifrar esos mensajes!
+Para eso, vamos a ingresar en la consola un 1, si es que queremos encriptar un mensaje, o el número 2, si queremos desencriptarlo.
+Para esto necesitaremos de las CONDICIONES.
+Condiciones if / else Una condición en programación es una instrucción o un grupo de instrucciones, que pueden ejecutarse o no, en base a si una condición es verdadera.</description>
+    </item>
+    
+    <item>
+      <title>Actividad 5 - Código Ascii</title>
+      <link>/es/secret-messages/activity-5/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/es/secret-messages/activity-5/</guid>
+      <description>¡Genial!
+En esta actividad vamos a encriptar (hacer secreto) el nombre del destinatario.
+Vamos a utilizar el Código Ascii
+Código Ascii El código Ascii muestra que cada caracter tiene un valor numérico. Por ejemplo, el caracter A es el número 65, el B es el 66, el C el 67, etc.
+La siguiente lista muestra el valor de los caracteres más usados:
+Que cada caracter tenga un valor, nos servirá para sumar o restar letras, y así cambiar el orden de ellas de una manera determinada.</description>
+    </item>
+    
+    <item>
+      <title>Actividad 6 - Funciones</title>
+      <link>/es/secret-messages/activity-6/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/es/secret-messages/activity-6/</guid>
+      <description>¡Muy bien!
+¡Ya hiciste gran parte del programa!
+En esta actividad vamos a utilizar las funciones para agrupar partes del código.
+Funciones Las funciones nos permiten dividir el trabajo que hace un programa en tareas más pequeñas separadas de la parte principal, es decir, de la función main.
+Podemos entender a las funciones como una máquina que cuando la prendemos, ejecuta unas instrucciones y procesos, que me devuelven un resultado final.</description>
+    </item>
+    
+    <item>
+      <title>Actividad 7 - Input line</title>
+      <link>/es/secret-messages/activity-7/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/es/secret-messages/activity-7/</guid>
+      <description>¡Felicitaciones!
+Estás muy cerca de salvar por completo a la nación.
+¡Solo falta poder ingresar una frase completa!
+Para esto solo tenemos que hacer unos pequeños cambios.
+Primero, debes usar la instrucción getline() para ingresar el string:
+string frase;getline(cin, frase); De esta manera, en la consola podemos ingresar un mensaje completo, no una sola palabra.
+Sigue estos pasos, y finaliza el programa para salvar al Reino:
+En la función main, cambia la instrucción cin &amp;gt;&amp;gt; nombre; por getline(cin, nombre).</description>
+    </item>
+    
+    <item>
+      <title>Fin</title>
+      <link>/es/secret-messages/activity-8/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/es/secret-messages/activity-8/</guid>
+      <description>¡Muchas Felicitaciones!
+Has hecho un gran trabajo para llegar hasta acá. Lo lograste. Has salvado al reino y además aprendiste a programar.
+Usaste la consola para ingresar y enviar mensajes encriptados o desencriptados. Las variables te fueron de gran ayuda para guardar los mensajes que se querían enviar. Usaste los ciclos para analizar letra por letra del mensaje. Las condiciones fueron útiles para saber si se quería encriptar o desencriptar, y tomar una decisión en base a ello.</description>
+    </item>
+    
+    <item>
+      <title>Activitdad 1 - Escribe en la consola</title>
+      <link>/es/csharp-guess-the-word/activity-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/csharp-guess-the-word/activity-1/</guid>
+      <description>Actividad 1 Navega al código que contiene el juego GuessTheWord o Adivina la Palabra. Fíjate que Press &#39;run&#39; on the top of the screen to play again. es la única cosa que se imprime a la consola. Agreguemos un mensaje de bienvenido para que el jugador sepa que esté jugando GuessTheWord o Adivina la Palabra.
+Encuentra // TODO (ACTIVITY 1) en el código. Añade una línea de código para imprimir Welcome to C# GuessTheWord o &amp;quot;Bienvenido al juego de C# AdivinaLaPalabra&amp;quot; a la consola.</description>
+    </item>
+    
+    <item>
+      <title>Descargando el Programa</title>
+      <link>/es/adafruit/downloading-your-program/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/adafruit/downloading-your-program/</guid>
+      <description>En la parte inferior de tu espacio de trabajo, debería ver este botón rosado de descarga al lado del nombre de tu programa. Puedes asignarle un nombre a tu programa, aquí se llama adafruit_musicalfruit. Haz clic en el botón de descarga.
+Debe apareceruna ventana emergente, preguntando dónde guardar tu archivo. Lo usual es que abra apuntando a la carpeta Descargas; de lo contrario, ve a tu carpeta de descargas y guarda el archivo allí.</description>
+    </item>
+    
+    <item>
+      <title>Introducción a EarSketch</title>
+      <link>/es/python-earsketch/getting-started-earsketch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/python-earsketch/getting-started-earsketch/</guid>
+      <description>EarSketches un entorno de programación educativa gratuito desarrollado en el Instituto de Tecnología de Georgia. Hoy compondremos música usando EarSketch.
+Para hacer música, clic en el botón de abajo para abrir Earsketch en una nueva pestaña. Abrir Earsketch
+Clic donde dice Scripts en el menu izquierdo y selecciona Create a new script. Cuando te salga que introduzcas el number del script, coloca myjam (mis sonidos) y dale click en el buton de Create.</description>
+    </item>
+    
+    <item>
+      <title>Juego de Espías</title>
+      <link>/es/security/spy-game/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/security/spy-game/</guid>
+      <description>De nuestra última actividad aprendimos que una contraseña segura es una combinación de caracteres aleatorios (posiblemente con letras mayúsculas y minúsculas), números y caracteres especiales. ¡Ahora es el momento de jugar Hacked o Seguro!
+De una lista de contraseñas utilizadas por nuestro Nuvi, seleccione la contraseña más segura que no pueda ser hacked (o rota) por Eva.
+¿Se puede romper esta contraseña?SíNo¿Se puede romper esta contraseña?SíNo¿Se puede romper esta contraseña?</description>
+    </item>
+    
+    <item>
+      <title>Otros tipos de phishing</title>
+      <link>/es/security-phishing/other-phishing-types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/security-phishing/other-phishing-types/</guid>
+      <description>Alice continúa explicando los diferentes tipos de estafas/phishing que existen además del phishing por correo electrónico.
+Smishing (SMS Phishing) Smishing es phishing realizado a través de Short Message Service (SMS) o mensaje de texto. Un texto smishing, por ejemplo, intenta atraer a una víctima para que revele información personal a través de un enlace que conduce a un sitio web de phishing.
+En la imagen de arriba, un remitente desconocido le envía un mensaje de texto sobre ofertas gratuitas en iPads y lo atrae a hacer clic en un enlace malicioso.</description>
+    </item>
+    
+    <item>
+      <title>Resumen</title>
+      <link>/es/security/summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/security/summary/</guid>
+      <description>Recuerde que las Características de una Contraseña Segura son: Al menos 8 caracteres: cuantos más caracteres, mejor. Una combinación de letras y números. Inclusión de al menos un carácter especial, p. Ej., ! @ # ? ] Nota: no use &amp;lt; o &amp;gt; en su contraseña, ya que ambos pueden causar problemas en los navegadores web. Una contraseña segura es difícil de adivinar, pero debería ser fácil de recordar - una contraseña que debe escribirse no es segura, sin importar cuántas de las características anteriores se utilicen.</description>
+    </item>
+    
+    <item>
+      <title>Atributos de HTML</title>
+      <link>/es/web-basics/html-attributes/</link>
+      <pubDate>Fri, 27 Nov 2020 17:53:41 -0700</pubDate>
+      
+      <guid>/es/web-basics/html-attributes/</guid>
+      <description>HTML y sus atributos Cada etiqueta también puede tener información adicional como atributos de estilo que pueden cambiar las propiedades de un elemento. Hay atributos que podemos usar para cambiar la apariencia visual de un elemento, como el tamaño, el color y la tipografía.
+Todos los atributos tienen un formato de este tipo: attribute-name=&amp;quot;value in quotes&amp;quot;. Por ejemplo, podemos cambiar el color de un párrafo a rojo con este código: &amp;lt;p style=&amp;quot;color:red&amp;quot;&amp;gt;Este texto es rojo&amp;lt;/p&amp;gt;.</description>
+    </item>
+    
+    <item>
+      <title>Aplicando formatos al texto</title>
+      <link>/es/guidelines/formatting/</link>
+      <pubDate>Wed, 29 Jul 2020 14:08:32 -0700</pubDate>
+      
+      <guid>/es/guidelines/formatting/</guid>
+      <description>Al crear o editar talleres, los redactarás usando sintaxis Markdown estándar, además de unos pocos elementos adicionales. Esta página explica qué sintaxis usar para usar formatos específicos en un taller.
+Referencia de formateo Hoja de trucos para Markdown Estándar(en inglés) Opciones de formato personalizado mediante “shortcodes”(en inglés) Ejemplos de formato Este tema incluye una serie de opciones para personalizar el aspecto de tu página. A continuación, encontrarás varios ejemplos de uso de los mismos, los cuales incluyen la sintaxis que debe usar seguido de lo que se mostrará en la página al usar aquella sintaxis.</description>
+    </item>
+    
+    <item>
+      <title>Control Structures</title>
+      <link>/es/java-basics/activity-4/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/es/java-basics/activity-4/</guid>
+      <description>1. Tomanndo Una Decision: If-Statement Patrick 🐥 es un pato muy cordial que le gusta saludar a todo el que conoce con &amp;ldquo;Good Morning,&amp;rdquo; &amp;ldquo;Good Afternoon,&amp;rdquo; o &amp;ldquo;Good Night&amp;rdquo; dependiendo del tiempo del día.
+(image by National Geographic: giphy.com/natgeochannel)
+Como aprendimos antes, podemos imprimir las siguientes oraciones:
+System.out.println(&amp;#34;Good Morning&amp;#34;); // se dice entre 0:00 - 11:59 System.out.println(&amp;#34;Good Afternoon&amp;#34;); // se dice entre 12:00 - 19:59 System.out.println(&amp;#34;Good Night&amp;#34;); // se dice entre 20:00 - 23:59 Sin embargo, también sabemos que Patrick 🐥 solo puede decidir que decir dependiendo la hora.</description>
+    </item>
+    
+    <item>
+      <title>Actividad 3 - Dibujar un hexágono</title>
+      <link>/es/python-turtle/activity-3/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/es/python-turtle/activity-3/</guid>
+      <description>¡Buen trabajo! Acabas de dibujar tu primera figura con Python y Turtle. Hagamos otros pequeños cambios al código que escribimos para hacer el cuadrado e intentemos hacer un hexágono. Alex es una abeja así que después de todo, él necesita dibujar hexágonos para crear su colmena.
+Piensa en cuántos lados tiene un hexágono. Si divides los 360° que tiene un círculo entre el número de lados del hexágono, tendrás los grados del ángulo para hacer tu nueva figura.</description>
+    </item>
+    
+    <item>
+      <title>¿Qué es phishy?</title>
+      <link>/es/security-phishing/whats-phishy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/security-phishing/whats-phishy/</guid>
+      <description>En nuestra última sección aprendimos sobre diferentes tipos de métodos de phishing y cómo reconocerlos. Ahora es el momento de probar tu conocimiento a través de un juego llamado ¿Qué es phishy??
+¿Qué imágenes de la lista que se da a continuación crees que son phishy?
+¿Te parece que este correo es phishy?SiNo¿Te parece que este banner es phishy?SiNo¿Te parece que este mensaje es phishy?</description>
+    </item>
+    
+    <item>
+      <title>Actividad 1 - Establecer tempo y añadir sonidos</title>
+      <link>/es/python-earsketch/activity-1-set-tempo-add-sounds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/python-earsketch/activity-1-set-tempo-add-sounds/</guid>
+      <description>Echemos un vistazo más de cerca al código preexistente y entendamos lo que significa.
+Colocaremos nuestro nuevo código entre las funciones setTempo() y finish(). La función setTempo() le permite establecer el tempo general del proyecto.
+Dato rápido: Tempo es la velocidad a la que se reproduce una pieza de música. Cambiar el tempo de un proyecto permite crear diferentes estilos de música. ¡Trata de cambiar el tempo de su función setTempo y ver lo que sucede!</description>
+    </item>
+    
+    <item>
+      <title>Strings</title>
+      <link>/es/csharp-guess-the-word/strings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/csharp-guess-the-word/strings/</guid>
+      <description>Strings Cualquier cosa que esté entre comillas se llama un string. Así se representan palabras o frases en las computadoras. Por ejemplo,&amp;quot;a&amp;quot;, &amp;quot;2&amp;quot;, &amp;quot;banana!&amp;quot;, y &amp;quot;Hello World&amp;quot; son strings, pero Hello World y 2 no son strings, porque no están entre comillas.
+Puedes combinar varios strings usando el operador de +. Por ejemplo::
+&amp;quot;Manzana&amp;quot; + &amp;quot;Piña&amp;quot; produce el string &amp;quot;ManzanaPiña&amp;quot;. &amp;quot;Nuevo&amp;quot; + &amp;quot; &amp;quot; + &amp;quot;Foundation&amp;quot; produce el string &amp;quot;Nuevo Foundation&amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title>Activity 2 - CSS</title>
+      <link>/es/web-basics/activity-2/</link>
+      <pubDate>Fri, 27 Nov 2020 17:53:41 -0700</pubDate>
+      
+      <guid>/es/web-basics/activity-2/</guid>
+      <description>Dale estilo con CSS Las etiquetas le indican al navegador qué elementos tiene que utilizar. Pero también le tenemos que decir como mostrar esos elementos, y dónde ponerlos. Puede que queramos el título en el centro o en el lado derecho. Puede que queramos una foto a la derecha y el párrafo a la izquierda. Hay dos formas de hacer esto: usando atributos HTML u hojas de estilo en cascada ( en inglés Cascading Style Sheets).</description>
+    </item>
+    
+    <item>
+      <title>Métodos</title>
+      <link>/es/java-basics/activity-5/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/es/java-basics/activity-5/</guid>
+      <description>1. Qué son los métodos? Ya aprendimos como guardar data en variables, imprimir data, imprimir oraciones, y como tomar decisiones con los if-statement, for-loop, y while-loop.
+En nuestro último ejemplo, aprendimos que el siguiente código calcula la suma del 1 al 100:
+int total = 0; int num = 1; while(num &amp;lt;= 100){ total = total + num; num = num + 1; } System.out.println(&amp;#34;Sum: &amp;#34; + total); Pero si en vez queremos calcular la suma del 1 al 77?</description>
+    </item>
+    
+    <item>
+      <title>Actividad 4 - Simplificando el código con funciones</title>
+      <link>/es/python-turtle/activity-4/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/es/python-turtle/activity-4/</guid>
+      <description>Ya dibujamos un hexágono. Pero es sólo uno de los muchos que necesita para construir su colmena. Una vez más parece we tendríamos que repetir el código varias veces para dibujar muchos hexágonos. Afortunadamente no tenemos qué hacerlo. ¡Las funciones vienen a nuestro rescate!
+Funciones Una función es una manera de agrupar líneas de código para hacer algo. Por ejemplo, turtle.forward(50) mueve la tortuga hacia delante 50 paso y turtle.left(120) gira la tortuga 120 grados hacia la izquierda.</description>
+    </item>
+    
+    <item>
+      <title>Actividad 2 - Agregar al banco de palabras</title>
+      <link>/es/csharp-guess-the-word/activity-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/csharp-guess-the-word/activity-2/</guid>
+      <description>Actividad 2 Encuentra // TODO (ACTIVITY 2) en el código de GuessTheWord. Para el juego de Guess the Word game o Adivina la palabra, , vamos a dar la computadora un banco de palabras, y la computadora va a escoger una palabra al azar para el juego. Aunque ya hemos añadido las palabras &amp;quot;Hello&amp;quot; y &amp;quot;World&amp;quot; tal banco de palabras, ¡un juego de Adivina la palabra no es divertido con solo dos palabras!</description>
+    </item>
+    
+    <item>
+      <title>Actividad 2 – Haz tu propia canción!</title>
+      <link>/es/python-earsketch/activity-2-make-a-song/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/python-earsketch/activity-2-make-a-song/</guid>
+      <description>Ahora que has aprendido a añadir sonidos a Earsketch, vamos a tratar de hacer una canción. Ya debería tener un clip de audio en Earsketch, pero las canciones se componen de varios instrumentos, por lo que necesitamos añadir más clips de audio.
+Añade otra llamada a fitMedia(). Busca un clip de audio que quieras añadir a tu canción actual e insértalo bajo el parámetro de fileName. El parámetro trackNumber debe ser un número único.</description>
+    </item>
+    
+    <item>
+      <title>Resumen</title>
+      <link>/es/security-phishing/summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/security-phishing/summary/</guid>
+      <description>Conclusion En conclusión, las características comunes que se encuentran en las estafas de phishing tienen al menos una de las siguientes propiedades:
+Ofertas lucrativas o declaraciones que llamen la atención. Remitente inusual de comportamiento o carácter inesperado. Sentido de urgencia al pedirle que actúe rápido debido a ofertas u ofertas por tiempo limitado. Ejemplo: Su contraseña está a punto de caducar, haga clic aquí para cambiarla inmediatamente. Links o hipervínculos sospechosos.</description>
+    </item>
+    
+    <item>
+      <title>Elementos multimedia</title>
+      <link>/es/web-basics/media-elements/</link>
+      <pubDate>Fri, 27 Nov 2020 17:53:41 -0700</pubDate>
+      
+      <guid>/es/web-basics/media-elements/</guid>
+      <description>Agregar un GIF Las siglas GIF significan Graphic Interchange Format, pero todo lo que debes saber es que es un tipo de imagen. La única diferencia es que este archivo contiene varias imágenes. Cuando se muestra en el navegador, las imágenes se reproducen de forma secuencial, similar a los frames (o marcos) de una película. Piensa en ellos como uno de esos cuadernos donde se ve una imagen animada según se van pasando las páginas.</description>
+    </item>
+    
+    <item>
+      <title>Objetos y Clases</title>
+      <link>/es/java-basics/activity-6/</link>
+      <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/es/java-basics/activity-6/</guid>
+      <description>1. Creando una Clase Java es un lenguaje de programación orientado a objetos, cual significa que todo en Java está asociado con un objeto y una clase (el plano para un objeto).
+Por ejemplo, la línea de código que usamos en la actividad 1 es una llamada de un método de una clase pre definida llamada System.
+System.out.println(&amp;#34;Hello World&amp;#34;); System es una clase que se usa para manejar entradas y salidas del usuario.</description>
+    </item>
+    
+    <item>
+      <title>Actividad 5 - Dibujar una colmena</title>
+      <link>/es/python-turtle/activity-5/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/es/python-turtle/activity-5/</guid>
+      <description>¡Llegamos a la prueba final! Vamos a crear la colmena para que Alex viva en ella. Afortunadamente una colmena es cimplemente 6 hexágonos así que podemos usar lo que ya aprendimos sobre funciones y ciclos para crear la colmena.
+En esta actividad primero crearemos una función llamada draw_honeycomb(). Dentro del cuerpo de esta función pondremos un ciclo que se repita seis veces. Dentro del ciclo dibujaremos el primer hexágono con la función draw_hexagon() que ya tenemos construida.</description>
+    </item>
+    
+    <item>
+      <title>Actividad 3 - Organiza tus canciones usando funciones</title>
+      <link>/es/python-earsketch/activity-3-organize-songs-using-functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/python-earsketch/activity-3-organize-songs-using-functions/</guid>
+      <description>En Earsketch, las funciones se utilizan principalmente para organizar diferentes secciones de una canción. La forma musical más común es A-B-A donde cada sección tiene cuatro medidas de longitud, y las secciones A suenan diferentes de la sección B.
+Ahora que aprendimos a usar funciones, vamos a tratar de usarlas para organizar mejor nuestras canciones.
+Defina la función con un parámetro startMeasure y un parámetro endMeasure. Coloque los sonidos que desea que la función represente debajo de la definición de la función.</description>
+    </item>
+    
+    <item>
+      <title>Números</title>
+      <link>/es/csharp-guess-the-word/numbers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/csharp-guess-the-word/numbers/</guid>
+      <description>Números La computadora también puede hacer operaciones matemáticas, como las que tú haces en la escuela. Usa Console.WriteLine para imprimir el resultado de las expresiones matemáticas. No es necesario incluir comillas para los números.
+Console.WriteLine(5 + 4); Console.WriteLine(6 * (9 - 7) / 3); Aquí está una lista de los símbolos matemáticos que puedes usar:
+Operador Descripción Operador Descripción + Adición \ División - Sustracción % Modulo (Remanente) * Multiplicación (,) Paréntesis Ojo: División en la computadora La computadora divide los números de una manera diferente comparado con una calculadora.</description>
+    </item>
+    
+    <item>
+      <title>Activity 3 - Adding a GIF of Nuvi</title>
+      <link>/es/web-basics/activity-3/</link>
+      <pubDate>Fri, 27 Nov 2020 17:53:41 -0700</pubDate>
+      
+      <guid>/es/web-basics/activity-3/</guid>
+      <description>Instrucciones Usa este linkpara ver los GIFs disponibles Haz clic sobre uno que te guste y selecciona “Embed” Copia el código del cuadro blanco debajo de “GIF Embed Code&amp;quot;
+Pega el código en cualquier sitio de tu página siempre y cuando esté dentro de las etiquetas &amp;lt;body&amp;gt;.
+Inténtalo tu mism@! </description>
+    </item>
+    
+    <item>
+      <title>Data Structures (Array &amp; ArrayList)</title>
+      <link>/es/java-basics/activity-7/</link>
+      <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/es/java-basics/activity-7/</guid>
+      <description>En los últimos ejercicios, aprendimos sobre varilables que nos permiten accesar y guardar un pedazo de data. Pero, y si quereos guardar mucha data parecida? Habrá una manera buena de organizarlas sin declarar multiples variables?
+En programación, estructuras de dato son escructuras que permiten que programadores guarden multiples pedazos de data del mismo tipo. Usando estructuras de data es una manera eficiente de guardar y accesar pedazos grandes de data. En este ejercisio, aprederemos sobre 2 estructucas de data usadas en Java: array y ArrayList.</description>
+    </item>
+    
+    <item>
+      <title>Parte 2: Construyendo una Flor de Mandala</title>
+      <link>/es/python-turtle/part-2/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/es/python-turtle/part-2/</guid>
+      <description>¡Buen Trabajo! Terminaste de construir un panal para la colmena de Alex, pero ¡Alex también necesita conseguir polen de las flores! ¿No seria agradable también agregar una flor a la imagen? En la parte 2, ¡crearemos una flor de mandala! (Permanece atento - te mostraremos como luce una flor de mandala.)</description>
+    </item>
+    
+    <item>
+      <title>Actividad 4 - Añadir efectos a tu canción</title>
+      <link>/es/python-earsketch/activity-4-add-effects-to-your-songs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/python-earsketch/activity-4-add-effects-to-your-songs/</guid>
+      <description>Efectos en EarSketch Los efectos permiten al productor alterar el sonido del clip de audio en su propio sonido único. De forma similar a como usamos fitMedia() para añadir nuevos clips de audio, debemos utilizar la función setEffect() para definir efectos específicos para cada clip de audio. Es importante tener en cuenta que se pueden colocar múltiples efectos en la misma pista. Esto permite al productor combinar múltiples efectos juntos. Earsketch tiene muchos efectos incorporados.</description>
+    </item>
+    
+    <item>
+      <title>Booleans</title>
+      <link>/es/csharp-guess-the-word/booleans/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/csharp-guess-the-word/booleans/</guid>
+      <description>Booleans Un boolean es una frase que puede ser true (verdadero) o false (falso). Diferente a los strings o los números, los Booleans archivan una declaración de la verdad: ¿es lo que yo digo verdadero o falso? Por ejemplo, so yo pregunto, ¿“Eres un robot” ?, esta pregunta produce un resultado true o false, lo que llamamos un boolean. En este caso, porque tú no eres un robot (¡esperadamente!), esta pregunta produce el resultado false.</description>
+    </item>
+    
+    <item>
+      <title>Actividad 4 - Formulario de contacto</title>
+      <link>/es/web-basics/activity-4/</link>
+      <pubDate>Fri, 27 Nov 2020 17:53:41 -0700</pubDate>
+      
+      <guid>/es/web-basics/activity-4/</guid>
+      <description>Agregar un formulario de contacto Finalmente, vamos a agregar un formulario de contacto para que la gente pueda contactarnos si están interesados en Benji.
+La mayoría de los navegadores no soporta el envío directo de emails desde el formulario de contacto porque es una forma fácil de que personas maliciosas envíen spam a los usuarios. El spam es un mensaje irrelevante o inapropiado que se envía por Internet. Por eso, para enviar un formulario, vamos a usar un servicio gratuito llamado FormSpree.</description>
+    </item>
+    
+    <item>
+      <title>Actividad 6 - Moviendo la tortuga</title>
+      <link>/es/python-turtle/activity-6/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/es/python-turtle/activity-6/</guid>
+      <description>Nuestro primer paso es dibujar una colmena más pequeña para poder dibujar tanto la colmena como la flor en la pantalla. Ya lo hemos hecho: ¿ves lo que hemos cambiado para dibujar una colmena más pequeña?
+def draw_hexagon(): for i in range(6): turtle.forward(20) turtle.left(60) def draw_honeycomb(): for i in range(6): draw_hexagon() turtle.forward(20) turtle.right(60) Después, necesitamos mover la tortuga a una nueva posición para dibujar la flor (¡no queremos dibujar la flor encima de la colmena!</description>
+    </item>
+    
+    <item>
+      <title>Actividad 5 - Usar efecto de Fade in</title>
+      <link>/es/python-earsketch/activity-5-use-effects-to-fade-in/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/python-earsketch/activity-5-use-effects-to-fade-in/</guid>
+      <description>Ahora que tienes un efecto en tu canción, vamos a tratar de desvanecernos en la introducción de nuestra canción.
+En la actividad 4, usamos la función setEffect se utiliza para aplicar un efecto a una pista/canción específica durante toda la duración de la canción, pero ¿qué pasa si solo quieres que una sección específica de tu canción tenga un efecto? ¡Utilice la función setEffect con más parámetros!
+effectStartValue: el valor inicial aplicado al parámetro effectStartLocation: la medida en la que se establece el valor inicial effectEndValue: el valor final del parámetro effectEndLocation: la medida en la que se establece el valor final Esta versión de setEffect nos permite realizar automatización en una pieza específica de nuestra canción.</description>
+    </item>
+    
+    <item>
+      <title>Operadores para booleans</title>
+      <link>/es/csharp-guess-the-word/booleans-operators/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/csharp-guess-the-word/booleans-operators/</guid>
+      <description>Operadores para Booleans Puedes conectar expresiones de booleans usando &amp;amp;&amp;amp; (Y) y || (O) operator. &amp;ldquo;¿Eres un ser humano, y es Nuvi un robot? La palabra “y” conecta dos preguntas de verdadero/falso. En este caso, porque es verdad que tú eres en ser humano, y también es verdad que Nuvi es un robot, el resultado total es true (verdad).
+Aquí describimos lo que pasa cuando combinas expresiones de booleans:
+Expresión Resultado Expresión Resultado true &amp;amp;&amp;amp; true true true || true true true &amp;amp;&amp;amp; false false true || false true false &amp;amp;&amp;amp; true false false || true true false &amp;amp;&amp;amp; false false false || false false Recuerda que true es verdadero y false es falso.</description>
+    </item>
+    
+    <item>
+      <title>Activity 5 - La gran actividad</title>
+      <link>/es/web-basics/activity-5/</link>
+      <pubDate>Fri, 27 Nov 2020 17:53:41 -0700</pubDate>
+      
+      <guid>/es/web-basics/activity-5/</guid>
+      <description>Instrucciones Usando todo lo que has aprendido, vamos a intentar crear un sitio que te describa a ti. Prueba y usa algunas o todas de las siguientes opciones:
+Una etiqueta de cabecera (head) y una de párrafo Diferentes tipografías Diferentes colores Agrega una imagen a tu sitio Una lista Embeber un gif o un video Muestra tu estilo!</description>
+    </item>
+    
+    <item>
+      <title>Actividad 7 - Dibujando una figura 8</title>
+      <link>/es/python-turtle/activity-7/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/es/python-turtle/activity-7/</guid>
+      <description>¡Excelente! Ahora hagamos la figura de un 8 como primer paso para hacer una flor de mandala! Una figura de un 8 son solo dos círculos opuestos entre sí. Para hacer esto podemos hacer uso del método turtle.circle(x), el cual toma un entero x como el radio del círculo. (Puede recordar que radio * 2 es que tan ancho es el circulo.) Tener el radio como un argumento significa que podemos decidir qué tan grande o pequeño debe ser el círculo.</description>
+    </item>
+    
+    <item>
+      <title>Variables</title>
+      <link>/es/csharp-guess-the-word/variables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/csharp-guess-the-word/variables/</guid>
+      <description>Variables Variables simplemente son los nombres que le damos a ciertas cosas, como strings, números, y booleans. Usamos los variables para archivar información que la computadora puede encontrar.
+Esto es cómo declarar un variable que se llama str. Digamos que str contiene &amp;quot;Hello World&amp;quot;. ¿Puedes describir qué significan las siguientes variables?
+var str = &amp;#34;Hello World&amp;#34;; var x = 88; var happy = true; Presiona run. Nota que los variables no se impriman a la consola.</description>
+    </item>
+    
+    <item>
+      <title>Aloja (host) tu sitio web</title>
+      <link>/es/web-basics/hosting/</link>
+      <pubDate>Fri, 27 Nov 2020 17:53:41 -0700</pubDate>
+      
+      <guid>/es/web-basics/hosting/</guid>
+      <description>¡Aloja tu sitio web en Internet! ¡Ahora que has creado tu sitio web personal, vamos a alojarlo en Internet para que todo el mundo pueda acceder a él! Vas a necesitar una cuenta de GitHub para hacerlo. Si no tienes una, la puedes crear aquí.
+Una vez que hayas creado tu cuenta y verificado tu dirección de email, aparecerás en esta página:
+¡Ahora, necesitas crear un nuevo repositorio para guardar los contenidos de tu sitio!</description>
+    </item>
+    
+    <item>
+      <title>Actividad 8 - Creando una flor de mandala</title>
+      <link>/es/python-turtle/activity-8/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/es/python-turtle/activity-8/</guid>
+      <description>Hemos terminado de crear nuestra primera figura de un 8! Ahora podemos usar la función figure_8() para crear una flor de mandala! Una flor de mandala es muchas figuras 8 puestas encima de otras en ángulos diferentes. Entonces, para hacer esto necesitamos usar un&amp;hellip; lo has adivinado, un ciclo!
+Crea una nueva función llamada mandala_flower(). En el ciclo llamaremos la función figure_8() que escribimos anteriormente para crear una figura de un 8.</description>
+    </item>
+    
+    <item>
+      <title>Actividad 3 - Declara tus variables</title>
+      <link>/es/csharp-guess-the-word/activity-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/csharp-guess-the-word/activity-3/</guid>
+      <description>Actividad 3 Esta actividad viene en dos partes y examinará tu conocimiento de los variables. Antes de empezar, busca HINT (ACTIVITY 3) (CONSEJO (ACTIVIDAD 3)) en el código, donde declaramos un variable llamado vidas que contiene el número de vidas del jugador. Usa este variable para imprimir el número de vidas del jugador al inicio del juego.
+Activity 3.1 Al inicio del juego, debemos decirle al jugador cuántas letras hay en la palabra que están adivinando.</description>
+    </item>
+    
+    <item>
+      <title>En caso de que te lo estuvieras preguntando</title>
+      <link>/es/web-basics/conclusion/</link>
+      <pubDate>Fri, 27 Nov 2020 17:53:41 -0700</pubDate>
+      
+      <guid>/es/web-basics/conclusion/</guid>
+      <description>Puede que estés preocupado por Benji, pero estamos encantados de decirte que ha encontrado su hogar a través de una página web como la que estás creando. Benji es ahora un buen chico a tiempo completo y trabaja mucho en sus trucos para conseguir golosinas.</description>
+    </item>
+    
+    <item>
+      <title>Actividad 9 - Coloreando tu flor de mandala</title>
+      <link>/es/python-turtle/activity-9/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/es/python-turtle/activity-9/</guid>
+      <description>Ahora que ya tenemos la forma de una flor de mandala, ¡es momento de colorearla! Aun vamos a utilizar el método turtle.color(); sin embargo esta vez vamos a utilizar un valor RGB en lugar un valor de color en cadena de texto, así que podemos producir una gran variedad de colores.
+Colores RGB (Red-Green-Blue) En la escuela primaria, puede que recuerdes que al mezclar colores, puedes producir nuevos colores. Por ejemplo, la combinación de rojo y azul hace el purpura.</description>
+    </item>
+    
+    <item>
+      <title>Leyendo la consola</title>
+      <link>/es/csharp-guess-the-word/reading-from-console/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/csharp-guess-the-word/reading-from-console/</guid>
+      <description>Leyendo la consola Ya que sabemos lo básico de los variables, podemos aceptar entradas del usuario. Usa la línea siguiente para decirle a la consola que debe esperar hasta que el usuario entra algo en la consola. Después, la computadora archivará lo que el usuario entró en un variable llamado input.
+var input = Console.ReadLine(); Aquí tenemos un ejemplo de cómo usar Console.ReadLine para aceptar entradas de usuario:
+Console.WriteLine(&amp;#34;Escribe algo:&amp;#34;); var input = Console.</description>
+    </item>
+    
+    <item>
+      <title>Actividad 10 - Elejir un color aleatorio para los pétalos de tu flor de mandala</title>
+      <link>/es/python-turtle/activity-10/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/es/python-turtle/activity-10/</guid>
+      <description>Hemos establecido con éxito el color de la flor de mandala en un valor RGB. Ahora, exploremos cambiar el color de los pétalos individuales de la flor de mandala.
+Haremos uso de la biblioteca random (aleatorio) de python. El método random.randint() nos permite elegir un valor aleatorio para cada uno de los valores rojo, verde o azul. Para elegir un valor que esté entre 0 inclusivo y 256 exclusivo (en otras palabras, entre 0 y 255 inclusivo), necesitamos usar random.</description>
+    </item>
+    
+    <item>
+      <title>Actividad 11 - Ahora es tu turno!</title>
+      <link>/es/python-turtle/activity-11/</link>
+      <pubDate>Thu, 25 Jul 2019 13:24:17 -0700</pubDate>
+      
+      <guid>/es/python-turtle/activity-11/</guid>
+      <description>Si queda algo de tiempo, ¡Intenta dibujar tus propias formas y diseños! Has de tu imagen interesante usando varias formas y colores.
+Clic en el botón de abajo para abrir una ventana en blanco Trinket e iniciar tu propia creación.
+Clic aquí
+Ayuda, estoy atascado! ¿Atascado? ¡Compruebe la Clave de respuestaspara ver la actividad en la que está atascado!</description>
+    </item>
+    
+    <item>
+      <title>Java: Basics - Answer Key</title>
+      <link>/es/java-basics/answer-key/</link>
+      <pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/es/java-basics/answer-key/</guid>
+      <description>activity-1: Print Statements and Comments Hello World class Main { public static void main(String[] args) { System.out.print(&amp;#34;Hello World&amp;#34;); System.out.print(2020); System.out.print(&amp;#39;@&amp;#39;); } } Output:
+Hello World2020@Owl class Main { public static void main(String[] args) { System.out.println(&amp;#34;Hello world!&amp;#34;); System.out.println(&amp;#34; ​, ___ / ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ \\&amp;#34;); System.out.println(&amp;#34;​`\\/{o,o} &amp;lt; Hi, I am Minerva. Patrick&amp;#39;s friend! |&amp;#34;); System.out.println(&amp;#34;​ ​/ /) ) \\ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ /&amp;#34;); System.</description>
+    </item>
+    
+    <item>
+      <title>Answer Key - Web Basics</title>
+      <link>/es/web-basics/answer-key/</link>
+      <pubDate>Sat, 28 Mar 2020 12:53:41 -0700</pubDate>
+      
+      <guid>/es/web-basics/answer-key/</guid>
+      <description>Special note: This curriculum allows students to be creative. The below is just an example of what they can do, please use your best judgement and ask for guidance if needed. The answer key provided here is fairly long because we are including snippets of full HTML for context.
+When a student clicks on the &amp;lsquo;Try it yourself!&amp;rsquo; it&amp;rsquo;ll open a new tab with some of the HTML code (and CSS code) already scaffolded.</description>
+    </item>
+    
+    <item>
+      <title>Mensajes secretos con C&#43;&#43; - Puntos claves</title>
+      <link>/es/secret-messages/answer-key/</link>
+      <pubDate>Fri, 27 Mar 2020 20:24:33 -0700</pubDate>
+      
+      <guid>/es/secret-messages/answer-key/</guid>
+      <description>Las siguientes 5 líneas son necesarias para todas las actividades.
+#include &amp;lt;iostream&amp;gt;using namespace std;int main() {return 0;} Actividad 1 cout &amp;lt;&amp;lt; &amp;#34;Hola programador!&amp;#34; &amp;lt;&amp;lt; endl; Actividad 2 string nombre;cin &amp;gt;&amp;gt; nombre;cout &amp;lt;&amp;lt; &amp;#34;Hola &amp;#34; &amp;lt;&amp;lt; nombre &amp;lt;&amp;lt; endl; Actividad 3 string nombre;cin &amp;gt;&amp;gt; nombre;for(int i=0; i&amp;lt;nombre.size(); i++){cout &amp;lt;&amp;lt; nombre[i] &amp;lt;&amp;lt; endl;} Actividad 4 int numero;cin &amp;gt;&amp;gt; numero;if(numero == 1){cout &amp;lt;&amp;lt; &amp;#34;Encriptar un mensaje&amp;#34; &amp;lt;&amp;lt; endl;}else{cout &amp;lt;&amp;lt; &amp;#34;Desencriptar un mensaje&amp;#34; &amp;lt;&amp;lt; endl;} Actividad 5 #include &amp;lt;iostream&amp;gt;using namespace std;int main() {string clave;string nombre;cin &amp;gt;&amp;gt; clave;cin &amp;gt;&amp;gt; nombre;int contador = 0;for(int i=0; i&amp;lt;nombre.</description>
+    </item>
+    
+    <item>
+      <title>Python Turtle - Answer Key</title>
+      <link>/es/python-turtle/answer-key/</link>
+      <pubDate>Fri, 27 Mar 2020 20:24:33 -0700</pubDate>
+      
+      <guid>/es/python-turtle/answer-key/</guid>
+      <description>Las siguientes 3 líneas son necesarias para la actividad de introducción y todas las demás actividades también.
+import turtle turtle.color(&amp;#34;orange&amp;#34;) turtle.shape(&amp;#34;turtle&amp;#34;) Actividad de introducción turtle.color(&amp;#34;orange&amp;#34;) turtle.forward(50) Actividad 1 turtle.forward(50) turtle.left(90) turtle.forward(50) turtle.left(90) turtle.forward(50) turtle.left(90) turtle.forward(50) turtle.left(90) Actividad 2 for i in range(4): turtle.forward(50) turtle.left(90) Actividad 3 for i in range(6): turtle.forward(50) turtle.left(60) Actividad 4 def draw_hexagon(): for i in range(6): turtle.forward(50) turtle.left(60) draw_hexagon() Actividad 5 def draw_honeycomb(): for i in range(6): draw_hexagon() turtle.</description>
+    </item>
+    
+  </channel>
+</rss>

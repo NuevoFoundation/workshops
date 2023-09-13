@@ -65,5 +65,3 @@ When repairs are complete, you're ready to set sail again:
 ### Embark on Your Coding Voyage
 
 GitHub Issues are your toolkit for constructing and maintaining your coding boat. They guide you through challenges and repairs, ensuring your coding voyage is a successful one. So hoist the sails and embrace the power of GitHub Issues in your journey across the digital sea!
-
-{{< children >}}

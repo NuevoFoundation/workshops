@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Seguridad: Phishing on Nuevo Foundation Workshops</title>
+    <link>/es/security-phishing/</link>
+    <description>Recent content in Seguridad: Phishing on Nuevo Foundation Workshops</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language><atom:link href="/es/security-phishing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conceptos básicos de phishing</title>
+      <link>/es/security-phishing/phishing-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/security-phishing/phishing-basics/</guid>
+      <description>¡Nuestra agente secreta Alice le explica a Bob sobre el phishing!!!
+¿Qué es el phishing? Al igual que cuando se pesca, uno usa un carnada para atrapar peces en una caña de pescar, los hackers maliciosos usan diferentes tipos de carnadas para robar o atrapar información personal de personas desprevenidas.
+El phishing es un tipo de ataque de ingeniería social que se utiliza para robar datos confidenciales. Como por ejemplo: credenciales de inicio de sesión, detalles bancarios y números tarjetas de crédito.</description>
+    </item>
+    
+    <item>
+      <title>Miremos mas cerca que pasa.</title>
+      <link>/es/security-phishing/a-closer-look/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/security-phishing/a-closer-look/</guid>
+      <description>Bob recibió el siguiente correo electrónico la otra noche.
+Que crees que esta sospechoso en este correo? Analicemos: La dirección de correo electrónico del remitente es sospechosa y tu no conoces personalmente a este remitente de correo electrónico.
+La oferta lucrativa en la línea de asunto sugiere que es demasiado buena para ser verdad.
+Recibió un correo electrónico fuera de horario comercial.
+La urgencia del mensaje.
+El remitente le pide que haga click en un enlace o que abra un archivo adjunto que no conoce.</description>
+    </item>
+    
+    <item>
+      <title>Otros tipos de phishing</title>
+      <link>/es/security-phishing/other-phishing-types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/security-phishing/other-phishing-types/</guid>
+      <description>Alice continúa explicando los diferentes tipos de estafas/phishing que existen además del phishing por correo electrónico.
+Smishing (SMS Phishing) Smishing es phishing realizado a través de Short Message Service (SMS) o mensaje de texto. Un texto smishing, por ejemplo, intenta atraer a una víctima para que revele información personal a través de un enlace que conduce a un sitio web de phishing.
+En la imagen de arriba, un remitente desconocido le envía un mensaje de texto sobre ofertas gratuitas en iPads y lo atrae a hacer clic en un enlace malicioso.</description>
+    </item>
+    
+    <item>
+      <title>¿Qué es phishy?</title>
+      <link>/es/security-phishing/whats-phishy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/security-phishing/whats-phishy/</guid>
+      <description>En nuestra última sección aprendimos sobre diferentes tipos de métodos de phishing y cómo reconocerlos. Ahora es el momento de probar tu conocimiento a través de un juego llamado ¿Qué es phishy??
+¿Qué imágenes de la lista que se da a continuación crees que son phishy?
+¿Te parece que este correo es phishy?SiNo¿Te parece que este banner es phishy?SiNo¿Te parece que este mensaje es phishy?</description>
+    </item>
+    
+    <item>
+      <title>Resumen</title>
+      <link>/es/security-phishing/summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/security-phishing/summary/</guid>
+      <description>Conclusion En conclusión, las características comunes que se encuentran en las estafas de phishing tienen al menos una de las siguientes propiedades:
+Ofertas lucrativas o declaraciones que llamen la atención. Remitente inusual de comportamiento o carácter inesperado. Sentido de urgencia al pedirle que actúe rápido debido a ofertas u ofertas por tiempo limitado. Ejemplo: Su contraseña está a punto de caducar, haga clic aquí para cambiarla inmediatamente. Links o hipervínculos sospechosos.</description>
+    </item>
+    
+  </channel>
+</rss>

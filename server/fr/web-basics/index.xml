@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HTML &amp; CSS: Les bases du Web on Nuevo Foundation Workshops</title>
+    <link>/fr/web-basics/</link>
+    <description>Recent content in HTML &amp; CSS: Les bases du Web on Nuevo Foundation Workshops</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Tue, 03 Sep 2019 17:53:41 -0700</lastBuildDate><atom:link href="/fr/web-basics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Les bases</title>
+      <link>/fr/web-basics/basics/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      
+      <guid>/fr/web-basics/basics/</guid>
+      <description>Qu&amp;rsquo;est-ce qu&amp;rsquo;un site Web ? Un site Web est simplement une page que l&amp;rsquo;on peut trouver sur l&amp;rsquo;Internet. Elle est affichée par un navigateur lorsque tu tapes l&amp;rsquo;adresse (un nom unique) dans la barre d&amp;rsquo;adresse.
+Parties d&amp;rsquo;un site Web Les éléments courants d&amp;rsquo;un site Web peuvent inclure les barres de navigation, les pieds de page, les barres de recherche et les formulaires de contact.
+Conception de sites Web La première étape de la création d&amp;rsquo;un site Web consiste à décider des éléments qu&amp;rsquo;on veux et de leur apparence.</description>
+    </item>
+    
+    <item>
+      <title>Mise en place</title>
+      <link>/fr/web-basics/putting-together/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      
+      <guid>/fr/web-basics/putting-together/</guid>
+      <description>Pour que ton navigateur comprenne ce qu&amp;rsquo;est chaque élément de ton site, on doit les étiqueter avec des tags (balises) HTML. HTML est l&amp;rsquo;abréviation de &amp;ldquo;Hypertext Markup Language&amp;rdquo; (Langage de Balisage d&amp;rsquo;Hypertexte). Les tags sont des mots entourés des symboles &amp;lt; et &amp;gt;. Par exemple, la tag &amp;lt;img&amp;gt; indique à ton navigateur &amp;ldquo;ceci est une image&amp;rdquo;. La tag &amp;lt;button&amp;gt; lui indique &amp;ldquo;ceci est un bouton&amp;rdquo;.
+Les tags peuvent également être utilisées pour organiser ton page Web !</description>
+    </item>
+    
+    <item>
+      <title>Activité 1 - Se familiariser avec l&#39;éditeur en ligne</title>
+      <link>/fr/web-basics/activity-1/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      
+      <guid>/fr/web-basics/activity-1/</guid>
+      <description>Activité 1 - Créer un site Web de base Il est maintenant le temps de commencer à créer un site Web de base. Pour réaliser cette activité, tu dois suivre les étapes suivantes :
+Ouvrez l&amp;rsquo;éditeur Web (cliquez sur le bouton &amp;ldquo;Essaie toi-même !&amp;rdquo; ci-dessous). Utilisez les tags de header pour ajouter un titre, et les tags de paragraphe pour écrire un paragraphe à propos de Benji. Si tu as le temps, écris une liste des friandises préférées de Benji : du dinde, du beurre de cacahuètes et du fromage à effilocher.</description>
+    </item>
+    
+    <item>
+      <title>Les attributs de HTML</title>
+      <link>/fr/web-basics/html-attributes/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      
+      <guid>/fr/web-basics/html-attributes/</guid>
+      <description>Chaque tag peut également contenir des informations supplémentaires, comme des attributs de style qui permettent de modifier les propriétés d&amp;rsquo;un élément. Il existe des attributs qu&amp;rsquo;on peut utiliser pour modifier l&amp;rsquo;aspect visuel d&amp;rsquo;un élément, comme la taille, la couleur et la police du texte.
+Tous les attributs sont formatés comme : attribut-name=&amp;quot;valeur entre guillemets&amp;quot;. Par exemple, on peut changer la couleur d&amp;rsquo;un paragraphe en rouge avec ce code : &amp;lt;p style=&amp;quot;color:red&amp;quot;&amp;gt;Ce texte est rouge&amp;lt;/p&amp;gt;.</description>
+    </item>
+    
+    <item>
+      <title>Activité 2 - CSS</title>
+      <link>/fr/web-basics/activity-2/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      
+      <guid>/fr/web-basics/activity-2/</guid>
+      <description>Style avec CSS Les tags indiquent au navigateur les éléments du site Web à utiliser. Mais on doit également lui indiquer comment afficher les éléments et où les placer. Le titre peut être placé au centre ou sur le côté droit. On peut vouloir une image sur la droite et un paragraphe sur la gauche. Il y a deux façons de le faire : par les attributs HTML ou les Cascading Style Sheets (les Feuilles de Style en Cascade).</description>
+    </item>
+    
+    <item>
+      <title>Les éléments de média</title>
+      <link>/fr/web-basics/media-elements/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      
+      <guid>/fr/web-basics/media-elements/</guid>
+      <description>Ajouter un GIF GIF signifie Graphic Interchange Format (Format d&amp;rsquo;échange graphique), mais tout ce que tu dois savoir, c&amp;rsquo;est qu&amp;rsquo;il s&amp;rsquo;agit d&amp;rsquo;un autre type de fichier d&amp;rsquo;image. La seule différence est que le fichier comporte de nombreuses images. Lorsqu&amp;rsquo;elles sont affichées dans le navigateur, les images sont lues en séquence, comme les images d&amp;rsquo;un film. Pense-y comme à l&amp;rsquo;un de ces livres à feuillets qui donnent l&amp;rsquo;impression d&amp;rsquo;une image animée lorsque tu le feuilletes.</description>
+    </item>
+    
+    <item>
+      <title>Activité 3 - Ajout d&#39;un GIF de Nuvi</title>
+      <link>/fr/web-basics/activity-3/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      
+      <guid>/fr/web-basics/activity-3/</guid>
+      <description>Pour réaliser cette activité, tu dois suivre les étapes suivantes :
+Suive ce lien pour voir les GIFs disponibles Clique sur celui qui te plaît et sélectionnez &amp;ldquo;Embed&amp;rdquo; (intégrer). Copie le code de la boîte blanche en dessous de &amp;ldquo;GIF Embed Code&amp;rdquo; (Code d&amp;rsquo;intégration de GIF)
+Colle le code n&amp;rsquo;importe où dans ta page, à condition qu&amp;rsquo;il se trouve entre les tags &amp;lt;body&amp;gt;.
+Essaie toi-même ! </description>
+    </item>
+    
+    <item>
+      <title>Activité 4 - Essayez le formulaire et modifiez le style</title>
+      <link>/fr/web-basics/activity-4/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      
+      <guid>/fr/web-basics/activity-4/</guid>
+      <description>Ajouter d&amp;rsquo;un formulaire de contact Enfin, on va ajouter un formulaire de contact pour permettre aux gens de nous joindre s&amp;rsquo;ils sont intéressés par Benji.
+La plupart des navigateurs ne prennent pas en charge l&amp;rsquo;envoi d&amp;rsquo;e-mails directement à partir du formulaire de contact, car c&amp;rsquo;est un moyen facile pour les fauteurs de troubles d&amp;rsquo;envoyer du spam aux utilisateurs. Le spam est un message non pertinent ou inapproprié envoyé sur Internet. Par conséquent, pour envoyer un formulaire, on utilisera un service gratuit appelé [FormSpree] (https://formspree.</description>
+    </item>
+    
+    <item>
+      <title>Activité 5 - L&#39;exercice final</title>
+      <link>/fr/web-basics/activity-5/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      
+      <guid>/fr/web-basics/activity-5/</guid>
+      <description>En utilisant ce que tu as appris, essayez de créer un site Web qui te décrit ! Essaie d&amp;rsquo;utiliser tout ou un partie de ces éléments suivants :
+Une tag de header et de paragraphe Des polices de caractères différentes Des couleurs différentes Ajoute une image à ta site Une liste Intégre un GIF ou une vidéo Montre ton style !</description>
+    </item>
+    
+    <item>
+      <title>Hébergement de votre site web</title>
+      <link>/fr/web-basics/hosting/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      
+      <guid>/fr/web-basics/hosting/</guid>
+      <description>Hébergez votre site sur Internet ! Maintenant que tu as créé votre site web personnel, hébergeons-le sur Internet pour que tout le monde puisse y accéder ! Pour faire ceci, tu aurasez besoin d&amp;rsquo;un compte GitHub. Si tu n&amp;rsquo;en as pas, crée-en un ici.
+Une fois que tu as créé votre compte et vérifié votre adresse électronique, tu arriveras sur cette page.
+Maintenant, tu dois créer un nouveau &amp;ldquo;repository&amp;rdquo; (dépôt) pour stocker le contenu de votre site !</description>
+    </item>
+    
+    <item>
+      <title>Au cas où tu te demanderais</title>
+      <link>/fr/web-basics/conclusion/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      
+      <guid>/fr/web-basics/conclusion/</guid>
+      <description>Tu es peut-être inquiet/ète au sujet de Benji, mais on est heureux de te dire qu&amp;rsquo;il a trouvé son foyer grâce à un site Web comme celui que tu as construit. Benji est maintenant un bon chien à plein temps qui travaille dur sur ses tours pour gagner des friandises.</description>
+    </item>
+    
+    <item>
+      <title>Answer Key - Web Basics</title>
+      <link>/fr/web-basics/answer-key/</link>
+      <pubDate>Sat, 28 Mar 2020 12:53:41 -0700</pubDate>
+      
+      <guid>/fr/web-basics/answer-key/</guid>
+      <description>Special note: This curriculum allows students to be creative. The below is just an example of what they can do, please use your best judgement and ask for guidance if needed. The answer key provided here is fairly long because we are including snippets of full HTML for context.
+When a student clicks on the &amp;lsquo;Try it yourself!&amp;rsquo; it&amp;rsquo;ll open a new tab with some of the HTML code (and CSS code) already scaffolded.</description>
+    </item>
+    
+  </channel>
+</rss>

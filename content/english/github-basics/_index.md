@@ -9,7 +9,7 @@ weight: 1
 # GitHub basics
 <details open>
 <summary>Topics</summary>
-{{% children %}}
+{{% children /%}}
 </details>
 
 

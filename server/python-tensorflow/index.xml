@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python: Machine Learning Basics using TensorFlow on Nuevo Foundation Workshops</title>
+    <link>/python-tensorflow/</link>
+    <description>Recent content in Python: Machine Learning Basics using TensorFlow on Nuevo Foundation Workshops</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 09 Sep 2020 16:19:17 -0700</lastBuildDate><atom:link href="/python-tensorflow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to your new Summer job!</title>
+      <link>/python-tensorflow/welcome/</link>
+      <pubDate>Wed, 09 Sep 2020 16:19:17 -0700</pubDate>
+      
+      <guid>/python-tensorflow/welcome/</guid>
+      <description>Hey there, congratulations! You have been hired at an apparel returns processing warehouse for the summer!
+Your job is to take returns of clothing and sort them based on the type of clothing they are. At orientation, your supervisor shows you the traditional, by-hand method to sorting this clothing. On your first day, you notice it is more time consuming than you expected. Not wanting to do more work than you have to of course, you convince your supervisors that you can devise a more efficient method using machine learning.</description>
+    </item>
+    
+    <item>
+      <title>Activity 1 - Importing the TensorFlow library and datasets</title>
+      <link>/python-tensorflow/activity-1/</link>
+      <pubDate>Wed, 09 Sep 2020 16:19:17 -0700</pubDate>
+      
+      <guid>/python-tensorflow/activity-1/</guid>
+      <description>Import Dependencies Packages The first thing we have to do is to import the TensorFlow library in order to use functions that will allow us to train your model.
+We will also be implementing plots to visualize the prediction of our model, so for that we need to import the following libraries:
+# Importing TensorFlow and tf.keras libraries import tensorflow as tf from tensorflow import keras # Helper libraries for statistics and plotting import numpy as np import matplotlib.</description>
+    </item>
+    
+    <item>
+      <title>Activity 2 - Displaying RGB Color Values for Images</title>
+      <link>/python-tensorflow/activity-2/</link>
+      <pubDate>Wed, 09 Sep 2020 16:19:17 -0700</pubDate>
+      
+      <guid>/python-tensorflow/activity-2/</guid>
+      <description>View Images from the Samples We will now view the image of a shoe from our collection of clothing samples using the code snippet below.
+Go ahead and copy the following code into your Google Colab notebook:
+plt.figure() plt.imshow(train_images[0]) #Shows the first image in the data set as a plot or different colored pixels plt.colorbar() #displays the color bar on the right plt.grid(False) plt.show() #displays the entire plot Notice that the image generated has a color bar on the left.</description>
+    </item>
+    
+    <item>
+      <title>Progress Update 1</title>
+      <link>/python-tensorflow/progress_update_1/</link>
+      <pubDate>Wed, 09 Sep 2020 16:19:17 -0700</pubDate>
+      
+      <guid>/python-tensorflow/progress_update_1/</guid>
+      <description>Compare Your Code Before moving on, please check your Google Colab notebook against the code below:
+# Importing TensorFlow and tf.keras libraries import tensorflow as tf from tensorflow import keras # Helper libraries for statistics and plotting import numpy as np import matplotlib.pyplot as plt #This variable is declared from the fashion_mist library of the datasets section fashion_mnist = keras.datasets.fashion_mnist #This loads four variables from the dataset. #The train_images and train_labels are data that the model uses to learn #The test_images and test_labels are used by the model to compare against.</description>
+    </item>
+    
+    <item>
+      <title>Activity 3 - Displaying Clothing Samples</title>
+      <link>/python-tensorflow/activity-3/</link>
+      <pubDate>Wed, 09 Sep 2020 16:19:17 -0700</pubDate>
+      
+      <guid>/python-tensorflow/activity-3/</guid>
+      <description>Display Samples Now, you will be displaying all of your clothing samples by doing the following:
+Copy the following code into your Colab notebook. This displays a collection of images along with their specific category.
+plt.figure(figsize=(10,10)) #sets the image size to 10x10 inches for i in range(25): #displays first 25 images with their class name plt.subplot(5,5,i+1) plt.xticks([]) plt.yticks([]) plt.grid(False) plt.imshow(train_images[i], cmap=plt.cm.binary) plt.xlabel(class_names[train_labels[i]]) plt.show() #shows images with their labels Question 1 Your supervisor hands you out around 15-20 more clothing samples, which you will have to include in your program.</description>
+    </item>
+    
+    <item>
+      <title>Building the Neural Network</title>
+      <link>/python-tensorflow/building_neural_network/</link>
+      <pubDate>Wed, 09 Sep 2020 16:19:17 -0700</pubDate>
+      
+      <guid>/python-tensorflow/building_neural_network/</guid>
+      <description>This is the first step in building a neural network, which is actually a tool that allows us to do &amp;ldquo;machine learning&amp;rdquo;. With this tool, we are training a program to analyze images or data, otherwise known as training data. Then after training, we can ask the program to perform and execute a specific task using what it learned. For example, let&amp;rsquo;s say we train a program with dog and cat pictures, and we provide the program with the correct identification of the images.</description>
+    </item>
+    
+    <item>
+      <title>Activity 4 - Training the Model</title>
+      <link>/python-tensorflow/activity-4/</link>
+      <pubDate>Wed, 09 Sep 2020 16:19:17 -0700</pubDate>
+      
+      <guid>/python-tensorflow/activity-4/</guid>
+      <description>Parameters for Training The following code determines how many times model is trained. It is normal for this segment of code to take longer than usual to run.
+model.fit(train_images, train_labels, epochs=10) Epochs represent the number of times the model processes all the training data.
+The following code prints out the overall test accuracy.
+test_loss, test_acc = model.evaluate(test_images, test_labels, verbose=2) print(&amp;#39;\nTest accuracy:&amp;#39;, test_acc) Question 1 Set the value of epochs equal to 2.</description>
+    </item>
+    
+    <item>
+      <title>Activity 5 - Testing the Model</title>
+      <link>/python-tensorflow/activity-5/</link>
+      <pubDate>Wed, 09 Sep 2020 16:19:17 -0700</pubDate>
+      
+      <guid>/python-tensorflow/activity-5/</guid>
+      <description>Testing Our Model Now that we have built and trained our model, we want to go ahead and test it against returned clothing items. Let&amp;rsquo;s start off with our first sample item, which was the shoe.
+# Initiate a model object with a softmax layer probability_model = tf.keras.Sequential([model, tf.keras.layers.Softmax()]) A softmax layer is a type of neural network layer in a machine learning model. The softmax layer transforms our inputs, which theoretically could come from a varied range of data structures, into a probability distribution between 0 to 1.</description>
+    </item>
+    
+    <item>
+      <title>Activity 6 - Testing the Model (Again!)</title>
+      <link>/python-tensorflow/activity-6/</link>
+      <pubDate>Wed, 09 Sep 2020 16:19:17 -0700</pubDate>
+      
+      <guid>/python-tensorflow/activity-6/</guid>
+      <description>Let&amp;rsquo;s repeat what we did in Activity 5 with the second clothing sample you chose in Activity 2. Change the index value to the one used for the second image in Activity 2. Then, repeat Activity 5 starting from predictions[your_index_value].</description>
+    </item>
+    
+    <item>
+      <title>Progress Update 2</title>
+      <link>/python-tensorflow/progress_update_2/</link>
+      <pubDate>Fri, 27 Mar 2020 20:24:33 -0700</pubDate>
+      
+      <guid>/python-tensorflow/progress_update_2/</guid>
+      <description>Great job! You are now able to successfully identify which category an image most likely falls under.
+To verify that your code is correct up to this checkpoint, please compare your code against the example code provided below.
+The outputs of the code may vary. You only need to copy the code blocks, and not the output blocks, as they will be generated automatically in your notebook.
+Compare Your Code Before moving on, please check your Google Colab notebook against the code below:</description>
+    </item>
+    
+    <item>
+      <title>Plotting the Model and its Predictions</title>
+      <link>/python-tensorflow/plotting_model/</link>
+      <pubDate>Wed, 09 Sep 2020 16:19:17 -0700</pubDate>
+      
+      <guid>/python-tensorflow/plotting_model/</guid>
+      <description>Now that we are able to classify the category of an individual piece of clothing using our model, we will visualize these predictions by creating a bar plot for a specified image.
+Predicated Classification The plot_image function displays an image along with its predicted classification, the confidence level of the model for that category, and the actual classification (which is for reference).
+A confidence level is used to convey how confident or certain we are in our answer being correct.</description>
+    </item>
+    
+    <item>
+      <title>Activity 7 - Plotting an Image&#39;s predicted Category</title>
+      <link>/python-tensorflow/activity-7/</link>
+      <pubDate>Wed, 09 Sep 2020 16:19:17 -0700</pubDate>
+      
+      <guid>/python-tensorflow/activity-7/</guid>
+      <description>Plotting an Image&amp;rsquo;s Category You may remember that, when we were plotting the models, the x-axis of the graphs was labeled with the numbers 1 through 9. These correspond to the categories of items that we defined earlier in the workshop, i.e. t-shirt/top, trouser, pullover, dress, coat, sandal, shirt, sneaker, bag, and ankle boot. We will adjust the labeling of the x-axis so that the data it displays is easier to understand.</description>
+    </item>
+    
+    <item>
+      <title>Progress Update 3</title>
+      <link>/python-tensorflow/progress_update_3/</link>
+      <pubDate>Wed, 09 Sep 2020 16:19:17 -0700</pubDate>
+      
+      <guid>/python-tensorflow/progress_update_3/</guid>
+      <description>Great job! You&amp;rsquo;ve nearly reached the end!
+To verify that your code is correct up to this checkpoint, please compare your code against the example code provided below.
+The outputs of the code may vary. You only need to copy the code blocks, and not the output blocks, as they will be generated automatically in your notebook.
+Compare Your Code Before moving on, please check your Google Colab notebook against the code below:</description>
+    </item>
+    
+    <item>
+      <title>Workshop Conclusion</title>
+      <link>/python-tensorflow/wrapup/</link>
+      <pubDate>Wed, 09 Sep 2020 16:19:17 -0700</pubDate>
+      
+      <guid>/python-tensorflow/wrapup/</guid>
+      <description>Congratulations! You and your colleagues are now able to sort 4 times as many returned clothes! Your supervisor is impressed by this and chooses you as the Employee of the Month!
+Thank you for doing this workshop! We hope you enjoyed it and learned the basics of Machine Learning!
+If you would like to test the finished code, visit this link
+To edit this code, click on the &amp;lsquo;Copy to Drive&amp;rsquo; button to make a personal copy of this notebook.</description>
+    </item>
+    
+    <item>
+      <title>Answer Key</title>
+      <link>/python-tensorflow/answer_key/</link>
+      <pubDate>Mon, 14 Sep 2020 16:19:17 -0700</pubDate>
+      
+      <guid>/python-tensorflow/answer_key/</guid>
+      <description>Activity 1 Task 1: class_names = [&amp;#39;T-shirt/top&amp;#39;, &amp;#39;Trouser&amp;#39;, &amp;#39;Pullover&amp;#39;, &amp;#39;Dress&amp;#39;, &amp;#39;Coat&amp;#39;,&amp;#39;Sandal&amp;#39;, &amp;#39;Shirt&amp;#39;, &amp;#39;Sneaker&amp;#39;, &amp;#39;Bag&amp;#39;, &amp;#39;Ankle boot&amp;#39;] Activity 2 Question 1: plt.figure() plt.imshow(train_images[7]) #Shows the first image in the data set as a plot or different colored pixels plt.colorbar() #displays the color bar on the right plt.grid(False) plt.show() #displays the entire plot Question 2: 255! The max pixel value is 255 for any index used.
+Activity 3 Question 1: To answer Q1 you would change your code to the following:</description>
+    </item>
+    
+  </channel>
+</rss>

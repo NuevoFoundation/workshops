@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python: Hagamos música con EarSketch on Nuevo Foundation Workshops</title>
+    <link>/es/python-earsketch/</link>
+    <description>Recent content in Python: Hagamos música con EarSketch on Nuevo Foundation Workshops</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 25 Nov 2020 11:45:38 -0700</lastBuildDate><atom:link href="/es/python-earsketch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Música Basica</title>
+      <link>/es/python-earsketch/music-basics/</link>
+      <pubDate>Wed, 25 Nov 2020 11:45:38 -0700</pubDate>
+      
+      <guid>/es/python-earsketch/music-basics/</guid>
+      <description>Lo básico primero. Algunas cosas sobre la música.
+¿Qué es la música? La músicaes la organización cronológica de los sonidos; es decir, hacer ciertos sonidos en ciertos momentos, que hacen sentido melódico, rítmico y armónico. El primer concepto, más básico, es mantener los sonidos &amp;ldquo;en el tiempo&amp;rdquo;. Esto nos lleva a algunos de los primeros conceptos musicales: beat, ritmo, duración y tempo.
+El beat es el pulso regular que proporciona una línea de tiempo (o timeline) para que el ritmo se ancle a sí mismo.</description>
+    </item>
+    
+    <item>
+      <title>Conceptos básicos de Python</title>
+      <link>/es/python-earsketch/python-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/python-earsketch/python-basics/</guid>
+      <description>Python basico Para codificar música, necesitamos aprender un poco de Python. No te preocupes, no te morderá 😊. Python es uno de los lenguajes que usamos para decirle a las computadoras qué hacer. Estos lenguajes se conocen como &amp;ldquo;lenguajes de programación&amp;rdquo;. Aprenderemos conceptos de Python en toda la clase, pero comencemos con una simple instrucción print.
+Si desea saltar a una sección específica de Python, haga clic en el siguiente tema:</description>
+    </item>
+    
+    <item>
+      <title>Introducción a EarSketch</title>
+      <link>/es/python-earsketch/getting-started-earsketch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/python-earsketch/getting-started-earsketch/</guid>
+      <description>EarSketches un entorno de programación educativa gratuito desarrollado en el Instituto de Tecnología de Georgia. Hoy compondremos música usando EarSketch.
+Para hacer música, clic en el botón de abajo para abrir Earsketch en una nueva pestaña. Abrir Earsketch
+Clic donde dice Scripts en el menu izquierdo y selecciona Create a new script. Cuando te salga que introduzcas el number del script, coloca myjam (mis sonidos) y dale click en el buton de Create.</description>
+    </item>
+    
+    <item>
+      <title>Actividad 1 - Establecer tempo y añadir sonidos</title>
+      <link>/es/python-earsketch/activity-1-set-tempo-add-sounds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/python-earsketch/activity-1-set-tempo-add-sounds/</guid>
+      <description>Echemos un vistazo más de cerca al código preexistente y entendamos lo que significa.
+Colocaremos nuestro nuevo código entre las funciones setTempo() y finish(). La función setTempo() le permite establecer el tempo general del proyecto.
+Dato rápido: Tempo es la velocidad a la que se reproduce una pieza de música. Cambiar el tempo de un proyecto permite crear diferentes estilos de música. ¡Trata de cambiar el tempo de su función setTempo y ver lo que sucede!</description>
+    </item>
+    
+    <item>
+      <title>Actividad 2 – Haz tu propia canción!</title>
+      <link>/es/python-earsketch/activity-2-make-a-song/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/python-earsketch/activity-2-make-a-song/</guid>
+      <description>Ahora que has aprendido a añadir sonidos a Earsketch, vamos a tratar de hacer una canción. Ya debería tener un clip de audio en Earsketch, pero las canciones se componen de varios instrumentos, por lo que necesitamos añadir más clips de audio.
+Añade otra llamada a fitMedia(). Busca un clip de audio que quieras añadir a tu canción actual e insértalo bajo el parámetro de fileName. El parámetro trackNumber debe ser un número único.</description>
+    </item>
+    
+    <item>
+      <title>Actividad 3 - Organiza tus canciones usando funciones</title>
+      <link>/es/python-earsketch/activity-3-organize-songs-using-functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/python-earsketch/activity-3-organize-songs-using-functions/</guid>
+      <description>En Earsketch, las funciones se utilizan principalmente para organizar diferentes secciones de una canción. La forma musical más común es A-B-A donde cada sección tiene cuatro medidas de longitud, y las secciones A suenan diferentes de la sección B.
+Ahora que aprendimos a usar funciones, vamos a tratar de usarlas para organizar mejor nuestras canciones.
+Defina la función con un parámetro startMeasure y un parámetro endMeasure. Coloque los sonidos que desea que la función represente debajo de la definición de la función.</description>
+    </item>
+    
+    <item>
+      <title>Actividad 4 - Añadir efectos a tu canción</title>
+      <link>/es/python-earsketch/activity-4-add-effects-to-your-songs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/python-earsketch/activity-4-add-effects-to-your-songs/</guid>
+      <description>Efectos en EarSketch Los efectos permiten al productor alterar el sonido del clip de audio en su propio sonido único. De forma similar a como usamos fitMedia() para añadir nuevos clips de audio, debemos utilizar la función setEffect() para definir efectos específicos para cada clip de audio. Es importante tener en cuenta que se pueden colocar múltiples efectos en la misma pista. Esto permite al productor combinar múltiples efectos juntos. Earsketch tiene muchos efectos incorporados.</description>
+    </item>
+    
+    <item>
+      <title>Actividad 5 - Usar efecto de Fade in</title>
+      <link>/es/python-earsketch/activity-5-use-effects-to-fade-in/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/python-earsketch/activity-5-use-effects-to-fade-in/</guid>
+      <description>Ahora que tienes un efecto en tu canción, vamos a tratar de desvanecernos en la introducción de nuestra canción.
+En la actividad 4, usamos la función setEffect se utiliza para aplicar un efecto a una pista/canción específica durante toda la duración de la canción, pero ¿qué pasa si solo quieres que una sección específica de tu canción tenga un efecto? ¡Utilice la función setEffect con más parámetros!
+effectStartValue: el valor inicial aplicado al parámetro effectStartLocation: la medida en la que se establece el valor inicial effectEndValue: el valor final del parámetro effectEndLocation: la medida en la que se establece el valor final Esta versión de setEffect nos permite realizar automatización en una pieza específica de nuestra canción.</description>
+    </item>
+    
+  </channel>
+</rss>
