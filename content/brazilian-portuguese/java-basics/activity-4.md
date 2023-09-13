@@ -12,7 +12,7 @@ weight: 5
 Patrick 🐥 é um pato muito educado que gosta de cumprimentar a todos que encontra com "Bom Dia", "Boa Tarde" ou "Boa Noite" dependendo do horário.
 
 ![Sun rising rapidly over a mountain](https://media.giphy.com/media/hpWrLS1RDBd5pwkgjy/giphy.gif)
-<p style="text-align: center;">(image by National Geographic: giphy.com/natgeochannel)</p>
+<p style="text-align: center;">(imagem de National Geographic: giphy.com/natgeochannel)</p>
 
 Como aprendemos antes, podemos imprimir essas declarações conforme abaixo:
 
