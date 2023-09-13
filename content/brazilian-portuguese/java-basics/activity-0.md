@@ -37,5 +37,5 @@ Antes de começarmos, vamos primeiro entender como funciona a janela. O arquivo 
 
 No exercício Objetos e Classes, você precisará alternar entre o arquivo `Main.java` e o arquivo `Birds.java`. Você pode fazer isso clicando no ícone à direita que se parece com um documento. Isso abrirá o menu Arquivos e permitirá que você acesse os outros arquivos.
 
-Tente pressionar o botão **run** . Se você vir **Let's learn Java!**, significa que você está pronto. Vamos começar!
+Tente pressionar o botão **run** . Se você ver **Let's learn Java!**, significa que você está pronto. Vamos começar!
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsTest?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
