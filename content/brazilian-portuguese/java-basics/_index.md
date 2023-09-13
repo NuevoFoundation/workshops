@@ -17,7 +17,7 @@ Java é uma linguagem de programação de alto nível desenvolvida por James Gos
 <img src="images/logo.png" height="150" alt="Java Logo of steaming coffee cup with Java written below" />
 
 {{% notice info %}}
-Uma linguagem de programação de alto nível é chamada de alto nível porque está a poucos passos do código original executado na Unidade Central de Processamento (CPU) de um computador. O código de alto nível deve ser usado por humanos e é muito mais fácil de entender do que o código de baixo nível. O código de alto nível é posteriormente traduzido para uma linguagem de baixo nível, que só pode ser percebida e executada por uma CPU específica. Para que o código funcione, cada linha de código escrita em uma linguagem de alto nível deve ser traduzida para linguagem de máquina antes de ser implementada pelo computador.
+Uma linguagem de programação de alto nível é chamada de alto nível porque está a poucos passos do código original executado na Unidade Central de Processamento (CPU) de um computador. O código de alto nível deve ser usado por humanos e é muito mais fácil de entender do que o código de baixo nível. O código de alto nível é posteriormente traduzido para uma linguagem de baixo nível, que só pode ser entendida e executada por uma CPU específica. Para que o código funcione, cada linha de código escrita em uma linguagem de alto nível deve ser traduzida para linguagem de máquina antes de ser implementada pelo computador.
 {{% /notice %}}
 
 Hoje, Java é usado por desenvolvedores em todo o mundo. Especificamente, Java é usado para aplicativos móveis Android, aplicativos de desktop, aplicativos da web, desenvolvimento de jogos 
