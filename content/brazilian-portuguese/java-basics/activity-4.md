@@ -1,6 +1,6 @@
 ---
 title: "Estruturas de Controle"
-description: "Apresente os loops if-else, for e while em Java."
+description: "Apresentando os laços (loops) if-else, for e while em Java."
 date: 2021-10-13T00:00:00Z
 weight: 5
 ---
