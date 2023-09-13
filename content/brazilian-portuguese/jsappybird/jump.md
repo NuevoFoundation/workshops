@@ -10,7 +10,10 @@ weight: 3
 Vamos fazer ele pular:
 
 Escreva o seguinte código no arquivo [Arquivo: create-game.js]
+```js
      spaceKey.onDown.add(jump, this);
+```
+
 
 ### Trabalhando Juntos
 

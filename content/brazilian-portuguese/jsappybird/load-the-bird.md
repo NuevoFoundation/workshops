@@ -8,9 +8,10 @@ weight: 2
 Primeiro, vamos carregar a imagem do Flappy e mostrá-lo na tela.
 
 Escreva o seguinte código no arquivo [Arquivo: load-sprites.js]:
-      ```
+
+```js
       game.load.image('bird','assets/bird.png');
-       ```
+```
        
 ### Trabalhando Juntos
 
@@ -26,8 +27,10 @@ Após clicar em **run** ou executar e depois pressionar a barra de espaço, voc�
 
 Agora, mudaremos o texto da tela inicial:
 
-Escreva o seguinte código no arquivo [File: start-screen.js]
+Escreva o seguinte código no arquivo [Arquivo: start-screen.js]
+```js
      var text = game.add.text(0, 0, "Pressione a barra de espaço para iniciar", textOptions);
+```
      
 ### Trabalhando Juntos
 

@@ -9,17 +9,17 @@ hidden: true
 
 ![alt text](resources/_gen/images/flappy.png "JSappyBird")
 
-1. **Baixe os arquivos necessários.** <link_here>
+1. **Baixe os arquivos necessários.** <link_aqui>
 
 O modelo contém os seguintes arquivos:
 
-- phaser.min.js, a estrutura framework v2.4.3.
-- index.html, onde o jogo será exibido.
-- main.js, o arquivo onde vamos escrever nosso código.
-- assets/, uma pasta com 2 imagens.
-- Atividate 1.js
-- Atividate 2.js
-- Atividate 3.js
+- `phaser.min.js`, a estrutura framework v2.4.3.
+- `index.html`, onde o jogo será exibido.
+- `main.js`, o arquivo onde vamos escrever nosso código.
+- `assets/`, uma pasta com 2 imagens.
+- Atividate `1.js`
+- Atividate `2.js`
+- Atividate `3.js`
 
 O arquivo `index.html` é a página principal do nosso jogo do passarinho e também usa nossos dois arquivos Javascript (.js). O arquivo `phaser.min.js` é a estrutura de jogo que usaremos para fazer jogos no navegador. O outro arquivo é `main.js`, que conterá toda a nossa lógica em Javascript. Os arquivos de atividades vão te ajudar a fazer seu jogo funcionar. As partes que você precisará adicionar estão marcadas com 🐤🐤🐤.
 
@@ -27,7 +27,7 @@ Divirta-se!
 
 ### Variáveis
 
-Variáveis são como etiquetas que damos a valores como textos, números e valores verdadeiros/falsos. Usamos variáveis para guardar informações para que o computador lembre-se delas. Criamos variáveis usando a palavra `var` seguida do nome da variável. Depois, você pode dar um valor a essa variável usando o simbolo `=` e o valor desejado.
+Variáveis são como etiquetas que damos a valores como textos, números e valores verdadeiros/falsos. Usamos variáveis para guardar informações para que o computador lembre-se delas. Criamos variáveis usando a palavra `var` seguida do nome da variável. Depois, você pode dar um valor a essa variável usando o símbolo `=` e o valor desejado.
 
 Por exemplo:
 
@@ -70,11 +70,96 @@ Dentro dos parêntesis - `()` ao lado do `if`, você deve colocar uma _expressã
 
 Também podemos usar expressões de verdadeiro/falso para verificar se um número está em um intervalo específico:
 
-![Operadores de Comparação](https://imgur.com/F9gGHiI.png)
+<table style="width: 100%; border-collapse: collapse; background-color: #FFFFFF;">
+    <caption style="font-weight: bold; margin-bottom: 10px;">Operadores de Comparação</caption>
+    <thead>
+        <tr>
+            <th scope="col" style="text-align: center; color: #000000">Operador</th>
+            <th scope="col" style="text-align: center; color: #000000">Significado</th>
+            <th scope="col" style="text-align: center; color: #000000">Verdadeiro</th>
+            <th scope="col" style="text-align: center; color: #000000">Falso</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="text-align: center; color: #000000;">==</td>
+            <td style="text-align: center; color: #000000;">igual</td>
+            <td style="text-align: center; color: #000000;">2 == 2</td>
+            <td style="text-align: center; color: #000000;">2 == 3</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; color: #000000;">!=</td>
+            <td style="text-align: center; color: #000000;">diferente</td>
+            <td style="text-align: center; color: #000000;">3 != 2</td>
+            <td style="text-align: center; color: #000000;">2 != 2</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; color: #000000;"><</td>
+            <td style="text-align: center; color: #000000;">menor que</td>
+            <td style="text-align: center; color: #000000;">2 < 13</td>
+            <td style="text-align: center; color: #000000;">2 < 2</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; color: #000000;"><=</td>
+            <td style="text-align: center; color: #000000;">menor que ou igual</td>
+            <td style="text-align: center; color: #000000;">2 <= 2</td>
+            <td style="text-align: center; color: #000000;">3 <= 2</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; color: #000000;">></td>
+            <td style="text-align: center; color: #000000;">maior que</td>
+            <td style="text-align: center; color: #000000;">13 > 2</td>
+            <td style="text-align: center; color: #000000;">2 > 13</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; color: #000000;">>=</td>
+            <td style="text-align: center; color: #000000;">maior que ou igual</td>
+            <td style="text-align: center; color: #000000;">3 >= 2</td>
+            <td style="text-align: center; color: #000000;">2 >= 3</td>
+        </tr>
+    </tbody>
+</table>
 
-Você também pode juntar **expressões de verdadeiro/falso** usando `&&` para `E` e `||` para `OU`.
+Você também pode juntar **expressões de verdadeiro/falso** usando `&&` para `E` e `||` para `OU`. Veja dos operadores lógicos abaixo:
 
-![alt text](resources/_gen/images/statements.png "declarações")
+<table style="width: 100%; border-collapse: collapse; background-color: #FFFFFF;">
+    <caption style="font-weight: bold; margin-bottom: 10px;">Resultados dos operadores lógicos</caption>
+    <thead>
+        <tr>
+            <th scope="col" style="text-align: center; color: #000000">Expressão</th>
+            <th scope="col" style="text-align: center; color: #000000">Resultado</th>
+            <th scope="col" style="text-align: center; color: #000000">Expressão</th>
+            <th scope="col" style="text-align: center; color: #000000">Resultado</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="text-align: center; color: #000000;">verdadeiro && verdadeiro</td>
+            <td style="text-align: center; color: #000000;">verdadeiro</td>
+            <td style="text-align: center; color: #000000;">verdadeiro || verdadeiro</td>
+            <td style="text-align: center; color: #000000;">verdadeiro</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; color: #000000;">verdadeiro && falso</td>
+            <td style="text-align: center; color: #000000;">falso</td>
+            <td style="text-align: center; color: #000000;">verdadeiro || falso</td>
+            <td style="text-align: center; color: #000000;">verdadeiro</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; color: #000000;">falso && verdadeiro</td>
+            <td style="text-align: center; color: #000000;">falso</td>
+            <td style="text-align: center; color: #000000;">falso || verdadeiro</td>
+            <td style="text-align: center; color: #000000;">verdadeiro</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; color: #000000;">falso && falso</td>
+            <td style="text-align: center; color: #000000;">falso</td>
+            <td style="text-align: center; color: #000000;">falso || falso</td>
+            <td style="text-align: center; color: #000000;">falso</td>
+        </tr>
+    </tbody>
+</table>
+
 
 `&&` exige que ambas as _expressões de verdadeiro/falso_ sejam verdadeiras, enquanto `||` exige que apenas uma das duas sejam verdadeiras.
 

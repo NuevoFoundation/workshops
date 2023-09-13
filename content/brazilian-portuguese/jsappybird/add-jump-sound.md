@@ -8,7 +8,10 @@ weight: 5
 Vamos adicionar um som toda vez que nosso passarinho pular!
 
 Digite o seguinte código no arquivo [File: create-game.js]
+
+```js
     jumpSound.play();
+```
 
 {{% notice tip %}}
 

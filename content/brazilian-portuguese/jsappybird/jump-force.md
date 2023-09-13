@@ -7,8 +7,11 @@ weight: 4
 
 Vamos adicionar força ao passarinho
 
-Escreva o seguinte código no arquivo [File: create-game.js]
+Escreva o seguinte código no arquivo [Arquivo: create-game.js]
+
+```js
     bird.body.velocity.y = -350;
+```
     
 {{% notice tip %}}
 
@@ -29,21 +32,29 @@ No seu console, você verá um passarinho JSappy pulando com força quando press
 Vamos fazer o passarinho pular para cima e para frente:
 
 Escreva o seguinte código no arquivo [File: create-game.js]
+```js
     bird.body.velocity.x = 100;
+```
 
 # Passarinho caindo rodopiando
 
 Vamos fazer o passarinho rodopiar enquanto cai:
 
 Escreva o seguinte código no arquivo [File: update-game.js]
+
+```js
     if (bird.angle < 50) {
        bird.angle += 1;
     }
+```
 
 ## Comentários:
 
 `If` é um bloco condicional onde verificamos o ângulo do passarinho. Se ele for menor que 50, executamos a condição.
+```js
    -bird.angle+=1;
+```
+
 
 {{% notice tip %}}
 
