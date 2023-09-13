@@ -18,6 +18,7 @@ Welcome to this introductory guide on how to make music using
 <!--- LEAVING THIS VIDEO HERE IN CASE IT IS NEEDED <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/g0u1CkbpUWQ?start=79" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p> --->
 
 ### Meet DJ Nuvi
+
 ![DJ Nuvi](https://media.giphy.com/media/OTk8FTCvQ5WQQfJqVf/giphy.gif)
 
 ### Nuvi has new headphones! Can you find yours?
@@ -35,6 +36,8 @@ Before we start, make sure that your headphones are working. Try playing the fol
             <code>audio</code> element.
     </audio>
 </figure>
+
+## EarSketch overview window
 
 <img src="img/screenshot-overview.png" alt="Earsketch-play-overview" width="25%"/>
 
