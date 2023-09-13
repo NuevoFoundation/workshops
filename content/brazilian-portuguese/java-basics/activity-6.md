@@ -1,6 +1,6 @@
 ---
 title: "Objeto e Classes"
-description: "Apresente objeto e classe em Java."
+description: "Apresentando objeto e classe em Java."
 date: 2021-10-13T00:00:00Z
 weight: 7
 ---
