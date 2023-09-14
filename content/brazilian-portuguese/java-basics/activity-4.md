@@ -5,13 +5,11 @@ date: 2021-10-13T00:00:00Z
 weight: 5
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/X8HzOuCel9A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-
 ## Tome uma decisão: declaração If
 
 Patrick 🐥 é um pato muito educado que gosta de cumprimentar a todos que encontra com "Bom Dia", "Boa Tarde" ou "Boa Noite" dependendo do horário.
 
-![Sun rising rapidly over a mountain](https://media.giphy.com/media/hpWrLS1RDBd5pwkgjy/giphy.gif)
+![Sol nascendo rapidamente atrás de um morro](https://media.giphy.com/media/hpWrLS1RDBd5pwkgjy/giphy.gif)
 <p style="text-align: center;">(imagem de National Geographic: giphy.com/natgeochannel)</p>
 
 Como aprendemos antes, podemos imprimir essas declarações conforme abaixo:
@@ -33,7 +31,7 @@ Em Java, tomamos uma decisão usando uma **declaração if** ou uma **declaraç�
 
 ```
 if(boolean expression){
-    Action(s) to Take
+    Ações a serem tomadas
 }
 ```
 
@@ -42,13 +40,13 @@ Uma **declaração if** segue a estrutura mostrada acima. As ações a serem exe
 
 ```
 if(boolean expression){
-    Action(s) to Take A
+    Ações a serem tomadas A
 }else{
-    Action(s) to Take B
+    Ações a serem tomadas B
 }
 ```
 
-Uma **declaração if-else** segue a estrutura mostrada acima. Se a expressão booleana for `true`, o programa executará a(s) `Ação(ões) para tomar A` dentro do bloco `if`. Caso contrário, o programa executa apenas `Action(s) to Take B` dentro do bloco `else`.
+Uma **declaração if-else** segue a estrutura mostrada acima. Se a expressão booleana for `true`, o programa executará a(s) `Ação(ões) a serem tomadas A` dentro do bloco `if`. Caso contrário, o programa executa apenas `Ações a serem tomadas B` dentro do bloco `else`.
 
 ### Exemplo
 
@@ -68,11 +66,11 @@ Vamos revisitar o exemplo acima e tomar a decisão de Patrick sobre dizer “Bom
 
 Patrick deve dizer "Bom dia" entre 0h e 11h59, "Boa tarde" entre 12h e 19h59 e "Boa noite" entre 20h e 23h59.
 
-1. Temos uma variável `currentHour` que armazena a hora atual.
-2. Preencha a `boolean expression A` e a `boolean expression B` corretas para completar o programa.
+1. Temos uma variável `currentHour` (hora atual) que armazena a hora atual.
+2. Preencha a `boolean expression A` (expressão booleana A) e a `boolean expression B` (expressão booleana B) corretas para completar o programa.
 3. Teste seu resultado atribuindo a variável `currentHour` a números de 0 a 23:
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsIfStatement" target="_blank">Launch Replit</a>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsIfStatement" target="_blank">Iniciar Replit</a>
 
 ## Repetição: For-Loop, While-Loop
 
@@ -89,11 +87,11 @@ Embora possamos conectar isso a uma calculadora, isso vai demorar um pouco. Feli
 
 ```
 while(boolean expression){
-    Action(s) to Take
+    Ações a serem tomadas
 }
 ```
 
-`Ação(ões) a serem executadas` no bloco while serão executadas enquanto a `expressão booleana` for `true`.
+`Ações a serem tomadas` no bloco while serão executadas enquanto a `expressão booleana` for `true`.
 
 A seguir está um exemplo que imprime de 1 a 10:
 
@@ -105,7 +103,7 @@ while(number <= 10){
 }
 ```
 
-No while loop acima, o programa imprimirá o valor de `number` e incrementará `number`. Esta etapa será executada enquanto `número <= 10` e, neste caso, o loop termina quando `número` for 11.
+No while loop acima, o programa imprimirá o valor de `number` (número) e incrementará `number`. Esta etapa será executada enquanto `number <= 10` e, neste caso, o loop termina quando `number` for 11.
 
 **Nota:** Para `while` loops, você deve se lembrar de incrementar a variável condicional, caso contrário você introduzirá um loop infinito em seu programa.
 
@@ -113,7 +111,7 @@ No while loop acima, o programa imprimirá o valor de `number` e incrementará `
 
 ```
 for(initialization; termination condition; update statement){
-    Action(s) to Take
+    Ações a serem tomadas
 }
 ```
 
@@ -121,11 +119,11 @@ Em um `for` loop, existem três partes no bloco de condição: `inicialização`
 
 1. Ao executar um for loop, o programa executará a parte de `inicialização`. Um exemplo é `int número = 1`.
 2. Em seguida, o programa verifica a `condição de término`. Um exemplo é `número <= 10`.
-3. Se for `true`:
-    1. execute as `Ações a serem executadas`
-    2. execute a `instrução de atualização` (um exemplo é `número = número + 1`)
+3. Se for `true` (verdadeiro):
+    1. execute as `Ações a serem tomadas`
+    2. execute a `instrução de atualização` (um exemplo é `number = number + 1`)
 4. Repita as etapas 2 e 3.
-5. Se a `condição de finalização` for `false`, saia do `for` loop.
+5. Se a `condição de finalização` for `false` (falso), saia do `for` loop.
 
 A seguir está um exemplo que imprime de 1 a 10:
 
@@ -143,7 +141,7 @@ Vamos tentar fazer isso em um while loop:
 
 1. Temos uma variável chamada `total` que rastreia a soma total da adição que obtivemos até agora.
 2. Temos uma variável chamada `num` que rastreia o próximo número a ser adicionado ao `total`.
-3. Escreva a `boolean expression` apropriada e escreva o while loop.
+3. Escreva a `boolean expression` (expressão booleana) apropriada e escreva o while loop.
 
 Seguindo essas etapas, obteremos um loop while como este:
 
@@ -159,4 +157,4 @@ System.out.println("Resposta calculada em um while loop: " + total);
 
 Faça isso abaixo clicando em `Run` e escreva uma versão do for loop que calcule a mesma coisa! Você deve obter a mesma resposta!
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsForWhile" target="_blank">Launch Replit</a>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsForWhile" target="_blank">Iniciar Replit</a>
