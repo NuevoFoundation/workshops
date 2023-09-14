@@ -4,7 +4,7 @@ date: 2021-03-13T14:17:07.42-07:00
 draft: false
 weight: 9
 ---
-Los booleanos son declaraciones verdaderas o falsas. A diferencia de las cadenas o los números, los booleanos almacenan declaraciones de verdad: ¿lo que estoy diciendo es verdadero o falso? Por ejemplo, si pregunto: "¿Eres un robot?", Esta pregunta produce un resultado verdadero o falso, que llamamos booleano. En este caso, como no eres un robot (¡con suerte!), produciríamos falso. También podemos usar operadores matemáticos para crear expresiones booleanas. Aquí hay algunos ejemplos; Sin embargo, observe los símbolos inusuales para "igual a" y "no igual a":
+Los booleanos son declaraciones `true` (verdaderas) o `false` (falsas). A diferencia de las cadenas o los números, los booleanos almacenan declaraciones de verdad: ¿lo que estoy diciendo es verdadero o falso? Por ejemplo, si pregunto: "¿Eres un robot?", Esta pregunta produce un resultado verdadero o falso, que llamamos booleano. En este caso, como no eres un robot (¡con suerte!), produciríamos falso. También podemos usar operadores matemáticos para crear expresiones booleanas. Aquí hay algunos ejemplos; Sin embargo, observe los símbolos inusuales para "igual a" y "no igual a":
 
 | Operador | Descripción           | Operador | Descripción              |
 | -------- | --------------------- | -------- | ------------------------ |
