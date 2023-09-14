@@ -8,26 +8,26 @@ weight: 14
 ### Acertijo 1
 ```xml
 <resources>
-    <string name="app_name">Tic-Tac-Toe</string>
+    <string name="app_name">Gato</string>
 </resources>
 ```
 
 ### Acertijo 2
 ```kotlin
-Toast.makeText(this, "Welcome to Tic-Tac-Toe", Toast.LENGTH_LONG).show()
+Toast.makeText(this, "Bienvenido al juego del Gato", Toast.LENGTH_LONG).show()
 ```
 
-### Puzzle 3
-#### Puzzle 3a
+### Acertijo 3
+#### Acertijo 3a
 ```kotlin
 var colorGreen = Color.GREEN
 ```
-#### Puzzle 3b
+#### Acertijo 3b
 ```kotlin
 var winner = -1
 ```
 
-### Final Puzzle
+### Acertijo Final
 ```kotlin
 //cross1
 if (Player1.contains(1) && Player1.contains(5) && Player1.contains(9))
