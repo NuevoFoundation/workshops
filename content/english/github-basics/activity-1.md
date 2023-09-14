@@ -15,7 +15,7 @@ If you already have a GitHub account set up, feel free to skip on to the next pa
 1. To create an account, first go to the [GitHub Website](https://github.com/).
 
 2. When you get to the website, it should look like the photo below:
-<img alt="GitHub.com homepage with the sign up box highlighted" src="../images/CreatingRepositorySignUp.png" height="400"/>
+<img alt="GitHub.com homepage with the sign up box highlighted" src="../images/CreatingRepositorySignUp.png" height="400" style="border-radius: 15px"/>
 
      - On the top right corner of the website, you should see two buttons: "Sign In" and "Sign Up". If you do not have an account, click on the "Sign Up" button and follow the directions given, for example:
 
