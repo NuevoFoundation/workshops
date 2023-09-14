@@ -47,7 +47,7 @@ Before we start, let's first understand how the window works. On the left side y
 
 A few important tips:
 1. Files containing C# code have a **.cs** suffix, such as **main.cs**. 
-1. Each line of code ends with a semicolon `;`
-1. The other files shown in the file list are necessary for our program to run, but not important for this project.
-1. There will be code in the examples that you don't understand.  That is ok, ignore for now and focus on the task you are working on.
+2. Each line of code ends with a semicolon `;`
+3. The other files shown in the file list are necessary for our program to run, but not important for this project.
+4. There will be code in the examples that you don't understand.  That is ok, ignore for now and focus on the task you are working on.
 
