@@ -11,7 +11,7 @@ A veces, es posible que el juego o la aplicación no funcionen de la manera espe
 
 ## Trabajando Juntos
 
-1. Sin quitar las comillas, intente cambiar ""Reiniciando el juego Tac-Tic-Toe!" ` a `"Reiniciando el juego Tic-Tac-Toe!" ` o cualquier otra frase que te guste. Presione ejecutar para ver si algo cambia.
+1. Sin quitar las comillas, intente cambiar `"Reiniciando el juego Tac-Tic-Toe!"` a `"Reiniciando el juego Tic-Tac-Toe!" ` o cualquier otra frase que te guste. Presione ejecutar para ver si algo cambia.
 2. Agregue otro `System.out.println` debajo de la línea actual para imprimir una segunda oración debajo de la primera oración.
 3. Presione ejecutar para ver si se imprimen dos oraciones. Si ves algún texto rojo, pide ayuda.
 
