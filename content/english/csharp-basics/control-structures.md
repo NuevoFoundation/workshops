@@ -98,7 +98,7 @@ while(boolean expression){
 
 The following is an example that prints out 1 through 10:
 
-```java
+```C#
 int number = 1;
 while(number <= 10){
     Console.WriteLine(number);
