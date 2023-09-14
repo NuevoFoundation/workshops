@@ -17,9 +17,11 @@ Launch the repl and fork it. Give it a try by pressing the **run** button.  The 
 
 Note that all your code must be between the two braces:
 
-`public static void Main (string[] args) {`
-**your code here**
-`}`
+```c#
+public static void Main (string[] args) {
+     //your code here
+}
+```
 
 ### Let's write come code!
 
