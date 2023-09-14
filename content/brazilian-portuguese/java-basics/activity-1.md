@@ -45,7 +45,7 @@ Por exemplo, como dizemos ao computador para imprimir `"`?
 
 Se você digitar `System.out.print(""");`, você receberá um erro! porque o computador não consegue identificar onde termina o texto!
 
-Em vez disso, certos caracteres precisam ser  <b>escapados</b> adicionando um `\` na frente deles.
+Em vez disso, certos caracteres precisam ser <b>escapados</b> adicionando um `\` na frente deles.
 
      System.out.print("\"");  // isso imprime "
 
