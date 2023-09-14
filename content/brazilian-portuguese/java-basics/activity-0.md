@@ -11,23 +11,23 @@ Hoje você usará o Replit para aprender como codificar em Java. Antes de começ
 
 Clique no botão abaixo para se inscrever em uma conta Replit - você precisará de uma conta de e-mail para se inscrever. Se você já possui uma conta Replit, também pode fazer login em sua conta usando o botão abaixo.
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/signup" target="_blank">Sign up for Replit</a>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/signup" target="_blank">Cadastre-se no Replit</a>
 
-<img src="../images/replit-signup.png" height="300" alt="Replit sign up form" />
+<img src="../images/replit-signup.png" height="300" alt="Formulário de cadastro no Replit" />
 
 A seguir, inicie o console Replit que usaremos hoje clicando no botão abaixo. Você deverá ver a tela abaixo.
 
 <a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsTest" target="_blank">Launch Replit</a>
 
-<img src="../images/replit-start-screen.png" height="300" alt="The starting screen of a repl" />
+<img src="../images/replit-start-screen.png" height="300" alt="Tela inicial de um repl" />
 
 Agora faremos um fork (bifurcação) do Repl, que significa simplesmente fazer uma cópia do programa, para que possamos fazer nossas próprias alterações nele. Clique no botão "Fork Repl" no canto superior direito e depois no botão "Fork Repl".
 
-<img src="../images/replit-fork.png" height="300" alt="Forking a repl to make a copy of the program" />
+<img src="../images/replit-fork.png" height="300" alt="Forking (bifucrando) um repl para copiar o programa" />
 
 Após bifurcar o Replit, você verá uma janela semelhante a esta abaixo:
 
-<img src="../images/replit-window.png" height="300" alt="Replit window" />
+<img src="../images/replit-window.png" height="300" alt="Janela do Replit" />
 
 {{% notice warning %}}
 Cada vez que você vir o botão "Iniciar Replit", você precisará seguir as etapas acima para bifurcar o repl e concluir uma atividade. Peça ajuda se estiver tendo problemas para bifurcar as respostas!
