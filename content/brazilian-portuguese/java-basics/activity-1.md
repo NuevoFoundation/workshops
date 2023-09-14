@@ -14,7 +14,7 @@ O programa imprime tudo o que você digitou entre parênteses de `System.out.pri
 
 Depois, adicione mais instruções para imprimir números colocando números entre parênteses (ou seja, `System.out.print(2020)`) ou um símbolo colocando um símbolo entre 2 aspas simples `'` (i.e. `System.out.print('@')`).
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsHelloWorld" target="_blank">Launch Replit</a>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsHelloWorld" target="_blank">Iniciar Replit</a>
 
 {{% notice tip %}}
 ### Você notou que todas as afirmações que você digitou foram impressas em uma linha?
@@ -64,7 +64,7 @@ Use o que você acabou de aprender e recrie a coruja abaixo usando apenas 4 linh
      /,--"-"- 
 
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsOwl" target="_blank">Launch Replit</a>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsOwl" target="_blank">Iniciar Replit</a>
 
 {{% notice warning %}}
 #### Eu recebi um erro!
