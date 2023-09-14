@@ -5,8 +5,6 @@ date: 2021-10-13T00:00:00Z
 weight: 6
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/mO6S9Yq_K4I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-
 ## O que é um Método?
 
 Até agora, aprendemos como armazenar dados em variáveis, imprimir dados e sentenças e tomar decisões com declaração if, for loop e while loop.
@@ -26,7 +24,7 @@ System.out.println("Sum: " + total);
 Mas e se quisermos calcular a soma de 1 a 77? Como fazemos isso sem escrever todos os blocos de código novamente?
 
 Queremos criar uma ✨ caixa mágica ✨ em código que faça o cálculo para nós, independentemente dos 2 números para os quais queremos criar uma soma!
-<img src="../images/method.png" height="250" alt="Num 1 and Num 2 with arrow pointing into a circle with the words Magic Box and an arrow pointing out of the circle pointing to Sum of Num 1 to Num 2"/> 
+<img src="../images/method.png" height="250" alt="Num 1 e Num 2 com flecha apontando para um círculo com as palavras Magic Box (Caixa Mágica) e uma flecha saindo do círculo apontando para Sum of Num 1 to Num 2 (Soma de Num 1 com Num 2)"/> 
 
 Em Java, um **método** é como uma caixa mágica que executa uma tarefa específica executando um bloco de código que pode usar entradas do usuário.
 
@@ -81,7 +79,7 @@ public int sumNum(int numA, int numB){
 
 <br />
 
-### Method Call
+### Chamando um Método
 
 Por último, para executar um método no seu código, precisamos fazer uma <b>chamada de método</b>. Escrevemos o nome do método com a entrada apropriada.
 Por exemplo:
@@ -99,7 +97,7 @@ int sum1to3 = sumNum(1, 3);
 
 ## Conte a pirâmide!🔺
 
-<img src="../images/pyramid.png" height="250" alt="pyramid with layers of colorful beads. Bottom layer is yellow, next blue, next brown, next white, next pink, next light blue, next orange, next coral, next green, last red" /> 
+<img src="../images/pyramid.png" height="250" alt="pirâmide com camadas de miçangas coloridas. Camada inferior é amarela, depois azul, depois marrom, depois branco, depois rosa, depois azul claro, depois laranja, depois coral, depois verde, por cima, vermelho." /> 
 <p style="text-align: center;">(crédito da foto: aliexpress.com/item/32306945847.html)</p>
 
 A imagem acima é uma imagem de uma pirâmide de números quadrados onde cada nível é um quadrado perfeito do número do nível atual contado de cima para baixo.
@@ -115,4 +113,4 @@ Depois de resolver o desafio, você verá a seguinte mensagem:
 Parabéns! Desafio resolvido!
 ```
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsPyramid" target="_blank">Launch Replit</a>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsPyramid" target="_blank">Iniciar Replit</a>
