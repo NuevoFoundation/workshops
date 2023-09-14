@@ -55,7 +55,7 @@ Hay varias formas de iniciar la aplicación Android Studio en tu computadora con
 4. Haga clic en la aplicación `Android Studio` en la carpeta para iniciar Android Studio.
 {{% /notice %}}
 
-## Open Project Files
+## Abre los Archivos del Proyecto
 1. Haga clic en `Abrir un proyecto existente` en la pantalla de inicio de Android Studio.
 2. Busque la ubicación donde descargó los archivos del proyecto.
 3. Seleccione la carpeta 'TicTacToe' dentro de la carpeta 'TicTacToe' que descomprimió anteriormente. 
