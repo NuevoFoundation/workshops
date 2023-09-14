@@ -56,7 +56,7 @@ The last varable is an interesting one.  It can only have a value of `true` or `
 
 Let's see what we can do with variables. Launch and fork the repl
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@JimPiquant/CSharpBasicsVariables#main.cs" target="_blank">Launch Replit</a>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/CSharpBasicsVariables" target="_blank">Launch Replit</a>
 
 Try entering these lines and **run**:
 
@@ -72,5 +72,5 @@ We can assign a value to a varable, reference it and then change the value.
 
 Patrick 🐥 isn't a master of data types! He often mixed them up when declaring variables. Let's help him fix his mistakes.
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@JimPiquant/CSharpBasicsDataTypes" target="_blank">Launch Replit</a>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/CSharpBasicsDataTypes" target="_blank">Launch Replit</a>
 

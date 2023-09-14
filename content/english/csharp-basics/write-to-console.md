@@ -13,7 +13,7 @@ Let’s try to run a C# program that prints `Hello World` to the console.  The l
 
 Launch the repl and fork it. Give it a try by pressing the **run** button.  The output will appear on the right. 
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@JimPiquant/CSharpBasicsHelloWorld" target="_blank">Launch Replit</a>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/CSharpBasicsHelloWorld" target="_blank">Launch Replit</a>
 
 Note that all your code must be between the two braces:
 

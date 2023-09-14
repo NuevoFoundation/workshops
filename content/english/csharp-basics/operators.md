@@ -49,7 +49,7 @@ Add (`+`) is used on String as concatenation operator. For example:
 ### Instructions
 1. Use the program below to practice using the arithmetic operators. Change the numbers to see the answers.
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@JimPiquant/CSharpBasicsOperators#main.cs" target="_blank">Launch Replit</a>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/CSharpBasicsOperators" target="_blank">Launch Replit</a>
 
 ## Comparisons: Relational Operator
 
@@ -91,7 +91,7 @@ age == 3; // checks to see if the value of age is 3
 
 1. Use the program below to practice using the comparison operators. Change the numbers to see the answers.
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@JimPiquant/CSharpBasicsRelationalOperators" target="_blank">Launch Replit</a>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/CSharpBasicsRelationalOperators" target="_blank">Launch Replit</a>
 
 ## Exam Statistics!
 
@@ -138,4 +138,4 @@ Let's write it with the help of operators 🎵!
 
 {{% /notice %}}
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@JimPiquant/CSharpBasicsOperatorPractice#main.cs" target="_blank">Launch Replit</a>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/CSharpBasicsOperatorPractice" target="_blank">Launch Replit</a>

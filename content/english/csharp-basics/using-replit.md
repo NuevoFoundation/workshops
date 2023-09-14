@@ -16,7 +16,7 @@ Click the button below to sign up for a Replit account - you will need an email 
 
 Next, launch the Replit console we will use today by clicking the below button. You should see the screen below.
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@JimPiquant/CSharpBasicsTest" target="_blank">Launch Replit</a>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/CSharpBasicsTest" target="_blank">Launch Replit</a>
 
 <img src="../images/replit-start-screen.png" height="300" alt="The starting screen of a repl" />
 
@@ -43,8 +43,11 @@ Before we start, let's first understand how the window works. On the left side y
 
 <img src="../images/replit-overview.png" height="300" alt="Replit Window Layout" />
 
+### Some tips on C#
+
 A few important tips:
-1. Files Containing C# code have a **.cs** suffix, such as **main.cs**. 
+1. Files containing C# code have a **.cs** suffix, such as **main.cs**. 
 1. Each line of code ends with a semicolon `;`
 1. The other files shown in the file list are necessary for our program to run, but not important for this project.
+1. There will be code in the examples that you don't understand.  That is ok, ignore for now and focus on the task you are working on.
 
