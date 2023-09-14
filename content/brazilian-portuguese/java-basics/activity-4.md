@@ -110,7 +110,7 @@ No while loop acima, o programa imprimirá o valor de `number` (número) e incre
 ### For Loop
 
 ```
-for(initialization; termination condition; update statement){
+for(inicialização; condição de encerramento; instrução de atualização){
     Ações a serem tomadas
 }
 ```
