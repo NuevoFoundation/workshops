@@ -54,7 +54,7 @@ The last varable is an interesting one.  It can only have a value of `true` or `
 
 # Play with variables
 
-Let's see what we can do with variables. Launch and fork the repl
+Let's see what we can do with variables. Launch and fork the repl.
 
 <a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/CSharpBasicsVariables" target="_blank">Launch Replit</a>
 
