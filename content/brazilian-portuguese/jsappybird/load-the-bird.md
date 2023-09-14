@@ -36,7 +36,7 @@ Escreva o seguinte código no arquivo [Arquivo: start-screen.js]
 
 Na pagina do Replit, como podemos ver abaixo, começamos o código com `var text = game.add.text(0, 0, "Pressione a barra de espaço para iniciar", textOptions);`.
 
-![alt text](../img/startscreen.png "image to add the bird in the file")
+![alt text](../img/startscreen.png "imagem para adicionar o passarinho no arquivo")
 
 Ao clicar em **run** ou executar, você verá o texto `Pressione a barra de espaço para iniciar` em seu console:
 
