@@ -40,7 +40,7 @@ También puede conectar expresiones booleanas entre sí mediante ´&&´ (AND) y 
 | <code>false && true</code>  | `false`  | <code>false &#124;&#124; true</code>  | `true`  |
 | <code>false && false</code> | `false`  | <code>false &#124;&#124; false</code> | `false` | 
 
-En resumen, ´&&´ requiere que ambas expresiones booleanas sean verdaderas, mientras que ´||´ sólo requiere que una de las dos expresiones booleanas sea verdadera. Aquí hay algunos ejemplos más:
+En resumen, `&&` requiere que ambas expresiones booleanas sean verdaderas, mientras que `||` sólo requiere que una de las dos expresiones booleanas sea verdadera. Aquí hay algunos ejemplos más:
 
-- ´(5 < 8) && (9 != 10)´ produce ´verdadero´ ya que tanto 5 es menor que 8 y 9 no es igual a 10.
-- ´(6 != 2 * 3) || (8 < 2 * 4)´ produce ´falso´ ya que tanto 6 no es igual a 2 * 3, y 8 no siendo menos de 2 * 4 producen ´falso´.
+- `(5 < 8) && (9 != 10)` produce `true` ya que tanto 5 es menor que 8 y 9 no es igual a 10.
+- `(6 != 2 * 3) || (8 < 2 * 4)` produce `false` ya que tanto 6 no es igual a 2 * 3, y 8 no siendo menos de 2 * 4 producen `false`.
