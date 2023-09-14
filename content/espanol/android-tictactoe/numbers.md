@@ -43,9 +43,9 @@ La computadora hace la división de manera diferente a su calculadora regular. L
 
 Intente imprimir las respuestas a lo siguiente en la consola. Asegúrese de que sus soportes coinciden. Use una calculadora (o matemática mental) para verificar que la computadora produjo la respuesta correcta.
 
-- 2 - 19
-- (3 + 5) \* 6
-- (13 + 5 \* 8) / (6 - (3 + 7))
-- 3 % 2
+- `2 - 19`
+- `(3 + 5) \* 6`
+- `(13 + 5 \* 8) / (6 - (3 + 7))`
+- `3 % 2`
 
 {{% /notice %}}
