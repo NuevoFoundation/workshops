@@ -162,7 +162,7 @@ Notice that there's an error called a 'double free'! This is a type of memory ca
 Now instead of using gdb, use valgrind to check how memory is allocated and used. Run the command:
 
 ```bash
-valgrind --tool=memcheck leak-check=full examples/Vector
+valgrind --tool=memcheck --leak-check=full examples/Vector
 ```
 
 It should be apparent valgrind caught some errors, perhaps related to the double free (notice the `ERROR SUMMARY` at the bottom has a few errors detected!).
