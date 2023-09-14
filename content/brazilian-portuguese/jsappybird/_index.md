@@ -42,8 +42,6 @@ Depois de copiar o Replit, você verá uma janela parecida com a que está logo 
 
 <img src="./img/replit-window.png" height="300" alt="Janela do Replit " />
 
-We will ignore some of the details on this screen, but we will go over some of the basics that show up. The `index.html` file, as well as all the files ending with `.js` contain code, or instructions for the computer to run. By pressing the **run** button, you tell the computer to perform the instructions in the code. Any results from running the code will be displayed on the right side, called the **console**.
-
 Vamos ignorar alguns detalhes dessa tela, mas vou te mostrar o básico. O arquivo `index.html` e todos os arquivos terminados em `.js` têm códigos, que são como instruções para o computador. Quando você pressiona o botão executar ou **run**, está pedindo para o computador seguir essas instruções. E aí, qualquer coisa que acontece aparece do lado direito, numa parte que chamamos de **console**.
 
 Se você pressionar executar ou **run** agora, verá que nada acontece! Sua missão é ajudar o **Nuvi** a completar o código deste jogo!
