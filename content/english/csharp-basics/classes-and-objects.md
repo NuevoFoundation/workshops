@@ -130,12 +130,12 @@ loveMusic = loveMusicinput;
 ### Lastly, let's create some methods for the class `Bird.`
 
 We are gonna create 6 methods for this class!
-- getSpecies();   // return species of the bird
-- getName();      // return name of the bird
-- getHobby();     // return hobby of the bird
-- getAge();       // return age of the bird
-- getLoveMusic(); // return whether the bird loves music
-- ToString();     // return information in a string
+- `getSpecies();`   // return species of the bird
+- `getName();`      // return name of the bird
+- `getHobby();`     // return hobby of the bird
+- `getAge();`       // return age of the bird
+- `getLoveMusic();` // return whether the bird loves music
+- `ToString();`     // return information in a string
 
 Try to write out the first 5 methods with what you learned from the previous exercise about writing methods!
 
