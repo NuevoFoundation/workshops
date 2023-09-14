@@ -31,7 +31,7 @@ Elimine todo el texto `System.out.println` en su código. Intenta adivinar las r
 
 ## Operadores Booleanos
 
-También puede conectar expresiones booleanas entre sí mediante ´&&´ (AND) y ´||´ (OR) operador. Por ejemplo, supongamos que pregunto: "¿Eres un humano y Nuvi es un robot?" La palabra "y" conecta las dos preguntas verdadero-falso. En este caso, dado que es cierto que eres un humano, y también es cierto que Nuvi es un robot, entonces el resultado general es "verdadero". Aquí hay una tabla que describe lo que sucede cuando conectamos booleanos:  
+También puede conectar expresiones booleanas entre sí mediante `&&` (AND) y `||` (OR) operador. Por ejemplo, supongamos que pregunto: "¿Eres un humano y Nuvi es un robot?" La palabra "y" conecta las dos preguntas verdadero-falso. En este caso, dado que es cierto que eres un humano, y también es cierto que Nuvi es un robot, entonces el resultado general es "verdadero". Aquí hay una tabla que describe lo que sucede cuando conectamos booleanos:  
 
 | Expresión                   | Resultado  | Expresión                            | Resultado  |
 | --------------------------- | -------- | ------------------------------------- | ------- |
