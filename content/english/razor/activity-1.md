@@ -32,9 +32,9 @@ weight: 2
 
     A label appears when you hover over the icons. You should see the Activity bar buttons shown in the following image:
 
-<img src="media/visual-studio-code-activity-bar-icons.png" alt="Screenshot showing Visual Studio Code Activity bar with labeled icons." />
+<img src="../media/visual-studio-code-activity-bar-icons.png" alt="Screenshot showing Visual Studio Code Activity bar with labeled icons." />
 
-    From top to bottom, the Activity bar icons are: Explorer, Search, Source Control, Run and Debug, Extensions, Accounts, and Manage.
+From top to bottom, the Activity bar icons are: Explorer, Search, Source Control, Run and Debug, Extensions, Accounts, and Manage.
 
 3. On the Activity bar, select Explorer.
 
@@ -56,7 +56,7 @@ weight: 2
 
 8. On the Activity bar, to close the EXTENSIONS Side bar, select Extensions.
 
-*** Examine the top menu options
+### Examine the top menu options
 
 1. To view the File menu options, select File.
 

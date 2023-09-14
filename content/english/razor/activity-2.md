@@ -20,9 +20,9 @@ Now that you're familiar with the Visual Studio Code user interface, your next s
 
 4. In the filtered list of available extensions, select the extension labeled "C# Dev Kit - Official C# extension from Microsoft" that's published by Microsoft.
 
-<img src="media/visual-studio-code-csharp-extension-microsoft.png" alt="Screenshot showing Visual Studio Code C# Dev Kit extension that's published by Microsoft." />
+<img src="../media/visual-studio-code-csharp-extension-microsoft.png" alt="Screenshot showing Visual Studio Code C# Dev Kit extension that's published by Microsoft." />
 
-    There's lots of information about the C# extension that you could read. For now, the important thing to know is that this extension helps you to develop, edit, and debug C# code in Visual Studio Code. You can come back later to read about the extension if you want.
+There's lots of information about the C# extension that you could read. For now, the important thing to know is that this extension helps you to develop, edit, and debug C# code in Visual Studio Code. You can come back later to read about the extension if you want.
 
 5. To install the extension, select Install.
 

@@ -13,7 +13,7 @@ Visual Studio Code is a code editor, with a user interface and layout that's sim
 
 The following diagram shows the six main sections included in the Visual Studio Code user interface.
 
-<img src="media/visual-studio-code-user-interface-labels.png" alt="Screenshot showing 5 areas of the VS Code user interface" />
+<img src="../media/visual-studio-code-user-interface-labels.png" alt="Screenshot showing 5 areas of the VS Code user interface" />
 
 A - The **Activity Bar** is the narrow vertical bar located on the far left-hand side of the window. The Activity bar lets you switch between views (such as Explorer or Extensions) and gives you other context-specific indicators.
 

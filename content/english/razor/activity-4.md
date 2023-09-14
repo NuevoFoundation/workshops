@@ -143,4 +143,4 @@ public class TodoItem
 
 7. Save and Run a new instance of your app so test it out.
 
-<img src="media/new-todo-list.png" alt="Screenshot of completed app" />
+<img src="../media/new-todo-list.png" alt="Screenshot of completed app" />

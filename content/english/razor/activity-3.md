@@ -25,7 +25,7 @@ weight: 7
 
     The app will be created and a **Solution** menu will appear in the Explorer.
 
-    <img src="media/solution-explorer.png" alt="Screenshot of Solution Explorer in VS Code" />
+    <img src="../media/solution-explorer.png" alt="Screenshot of Solution Explorer in VS Code" />
 
 You now have a website!
 ### Review the Razor Pages project structure
@@ -83,7 +83,7 @@ There are several files that are shared across multiple pages. These files deter
 
     This will build and launch your new website.
 
-    <img src="media/website1.png" alt="Screenshot of the website you just created" />
+    <img src="../media/website1.png" alt="Screenshot of the website you just created" />
 
 3. Click on Privacy and Home to navigate around your website.
 

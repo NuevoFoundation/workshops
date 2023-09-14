@@ -23,17 +23,17 @@ Before you get started with C# application development, your first step is to se
 
 2. In the browser window, select Download button.
 
-> Note
-> 
-> The Download page for Visual Studio Code automatically detects your operating system. It displays the version to download for your operating system, such as Linux, macOS, or Windows.
+{{% panel theme="info" header="Note"%}}
+The Download page for Visual Studio Code automatically detects your operating system. It displays the version to download for your operating system, such as Linux, macOS, or Windows.
+{{% /panel %}}
 
 3. Wait for the installer file to finish downloading.
 
 The name of the installer file will be similar to the following (for a Windows PC): VSCodeUserSetup-x64-1.81.0.exe.
 
->  Note
->
-> The file name depends on the current version of Visual Studio Code and your computer’s operating system.
+{{% panel theme="info" header="Note"%}}
+The file name depends on the current version of Visual Studio Code and your computer’s operating system.
+{{% /panel %}}
 
 4. Close your browser window.
 
@@ -44,9 +44,9 @@ The name of the installer file will be similar to the following (for a Windows P
 
     On a Windows PC, you can double-click the installer file to begin the install process. For example, double-click VSCodeUserSetup-x64-1.81.0
 
->Note
-
->You can install Visual Studio Code using either the User Installer or System Installer. The User Installer installs Visual Studio Code just for the current user, while the System Installer installs Visual Studio Code for all users. The User Installer is the recommended option for most users.
+{{% panel theme="info" header="Note"%}}
+You can install Visual Studio Code using either the User Installer or System Installer. The User Installer installs Visual Studio Code just for the current user, while the System Installer installs Visual Studio Code for all users. The User Installer is the recommended option for most users.
+{{% /panel %}}
 
 After a moment, the **Setup - Microsoft Visual Studio Code** dialog window will appear.
 
@@ -60,9 +60,9 @@ After a moment, the **Setup - Microsoft Visual Studio Code** dialog window will 
 
 ### Install .NET SDK
 
-> Note
-> 
-> You can check to see if you already have .NET installed by opening a Terminal window and typing <code>dotnet --version</code> and pressing the Enter key.
+{{% panel theme="info" header="How to check if you have .NET installed"%}}
+You can check to see if you already have .NET installed by opening a Terminal window and typing <code>dotnet --version</code> and pressing the Enter key.
+{{% /panel %}}
 
 1. Open a new Internet browser window.
 
