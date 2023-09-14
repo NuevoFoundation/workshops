@@ -5,8 +5,6 @@ date: 2021-10-13T00:00:00Z
 weight: 8
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/x2hcvJjiH_g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-
 Nos exercícios anteriores, aprendemos que variáveis ​​nos permitem acessar e armazenar dados de uma peça. Mas, e se quisermos armazenar vários dados semelhantes? Existe uma boa maneira de organizá-los sem declarar múltiplas variáveis?
 
 Na programação, **estruturas de dados** são elementos que permitem aos codificadores armazenar vários dados do mesmo tipo. Usar estruturas de dados é uma maneira eficiente de armazenar e acessar grandes volumes de dados. Neste exercício, aprenderemos sobre 2 estruturas de dados usadas em Java: **array** e **ArrayList**.
@@ -87,7 +85,7 @@ Após clicar em `Executar`, o programa deverá imprimir o seguinte:
 Birds Of Prey, The Birds, Angry Birds, Bird Box, The Secret Life of Pets
 ```
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsArray" target="_blank">Launch Replit</a>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsArray" target="_blank">Iniciar Replit</a>
 
 ## Lista de vetores (ArrayList)
 
@@ -155,11 +153,11 @@ Após clicar em `Executar`, o programa deverá imprimir o seguinte:
 Birds Of Prey, The Birds, Angry Birds, Bird Box, The Secret Life of Pets
 ```
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsList" target="_blank">Launch Replit</a>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsList" target="_blank">Iniciar Replit</a>
 
 ## Fim do workshop 🐥
 
 <b>Patrick</b> 🐥 obrigado por participar! Espero que você tenha aprendido muito com este curso :)
-![animation of duck Patrick](https://media.giphy.com/media/l49JKwmJLChtS6d44/giphy.gif)
+![animação do pato Patrick](https://media.giphy.com/media/l49JKwmJLChtS6d44/giphy.gif)
 
-<p style="text-align: center;">(image created by Molang: giphy.com/molangofficialpage)</p>
+<p style="text-align: center;">(imagem criada por Molang: giphy.com/molangofficialpage)</p>
