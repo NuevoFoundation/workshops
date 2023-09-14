@@ -12,7 +12,7 @@ Los booleanos son declaraciones `true` (verdaderas) o `false` (falsas). A difere
 | `<=`     | Menos que ó igual que | `>=`     | Mayor que ó igual que    |
 | `==`     | Igual que             | `!=`     | Diferente que            |
 
-Como de costumbre, use ´System.out.println´ para imprimir sus resultados:
+Como de costumbre, use `System.out.println` para imprimir sus resultados:
 
 ```kotlin
 System.out.println(10 < 8);
