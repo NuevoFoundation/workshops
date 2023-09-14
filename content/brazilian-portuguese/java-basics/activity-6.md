@@ -5,8 +5,6 @@ date: 2021-10-13T00:00:00Z
 weight: 7
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/ejXgw0qchDg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-
 ## O que é um objeto e uma classe?
 
 Um objeto é uma coisa (substantivo) que possui certas características e pode realizar determinadas tarefas. Uma classe é o projeto ou definição desse objeto.
@@ -43,11 +41,11 @@ String name = "Patrick";
 
 `System`, `PrintStream` e `String` são classes predefinidas em Java. No entanto, não estamos limitados a essas classes predefinidas e podemos criar nosso próprio tipo de dados escrevendo uma classe! Isso é útil para codificadores criarem objetos específicos com determinados atributos e comportamentos. Ter acesso a esses tipos definidos pelo usuário nos permite construir programas distintos.
 
-Vamos aprender sobre as diferentes partes de uma aula abaixo:
+Vamos aprender sobre as diferentes partes de uma class (classe) abaixo:
 
 {{% notice note %}}
-### Aula
-Uma classe é um projeto ou protótipo de um novo tipo de objeto. Em geral, uma classe contém três partes importantes: (1) campos de dados/variáveis ​​de instância (2) construtor (3) métodos.
+### Classe
+Uma class (classe) é um blueprint (projeto) ou protótipo de um novo tipo de objeto. Em geral, uma classe contém três partes importantes: (1) campos de dados/variáveis ​​de instância (2) construtor (3) métodos.
 
 <img src="../images/class.png" height="400" alt="Um blueprint de classe para um objeto contém variáveis ​​de instância/campos de dados que são dados/atributos no objeto, construtor que são métodos que criam o objeto da classe e métodos, que são comportamentos possíveis para o objeto."/> 
 
@@ -80,7 +78,7 @@ public class SampleClass{
 Vamos fazer uma categoria (class) de pássaros `(Bird)` para representar Patrick 🐥 e todos os seus amigos Bird (pássaros) seguindo os passos abaixo!
 **Nota:** Para este exercício, você trabalhará em Bird.java em vez de Main.java.
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsBird" target="_blank">Launch Replit</a>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsBird" target="_blank">Iniciar Replit</a>
 
 ### Primeiro, começamos definindo o nome da classe no formato `public` `class` `name`.
 
@@ -90,7 +88,7 @@ public class Bird{}
 
 <br />
 
-### Segundo, vamos declarar todos os campos da classe Bird: espécie, nome, hobby, idade, loveMusic.
+### Segundo, vamos declarar todos os campos da classe Bird: espécie, nome, hobby, idade, loveMusic (amaMusica).
 
 Cada campo é declarado no formato: `private` `data type` `name` `;`.
 
@@ -217,4 +215,4 @@ A seguir, vamos chamar o método `toString()` nesses objetos `Bird` que criamos 
 
 Experimente e imprima todas as informações dos amigos pássaros que você criou 🐦🐤🐔🐧!
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsBirdMain" target="_blank">Launch Replit</a>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsBirdMain" target="_blank">Iniciar Replit</a>
