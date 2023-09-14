@@ -1,26 +1,26 @@
 ---
-title: "Comments"
+title: "Comentarios"
 draft: false
 weight: 3
 ---
 
 <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/NE9IEUi1Eqk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-When creating a Python program, we can add some notes by adding one line comments using `#`. **Comments** are the parts of the code that do not effect the program. Anything after the `#` symbol is part of the comment and is ignored by your code. Comments are put in the code to tell the readers what the code is doing. They can make maintenance of code easy and can also help in finding bugs. 
+Al crear un programa Python, podemos agregar algunas notas añadiendo comentarios de una línea usando `#`. **Comentarios** son las partes del código que no afectan el programa. Cualquier cosa después del símbolo `#` es parte del comentario y el código lo ignora. Los comentarios se añaden al código para informar a los lectores qué está haciendo el código. Los comentarios facilitan el mantenimiento del código y tambien pueden ayudar a encontrar errores.
 
-While writing code, If at any time you wish to write notes to help you understand the code, use the `#` symbol to create a comment.
+Mientras escribe código, si en algun momento desea escribir notas que le ayuden a comprender el código, use el símbolo `#` para crear un comentario.
 
 ```python
-# This is my first line of code
-print("Hello, World!)
+# Está es mi primer línea de código
+print("Hello, World!")
 ```
 
-![Screenshot showing the comment This is my first line of code.](../../img/comments.png "a picture of how to write comments in python")
+![Captura de pantalla mostrando el comentario "Está es mi primer línea de código".](../../img/comments.png "Captura de pantalla mostrando el comentario "Está es mi primer línea de código")
 
-Be careful, if you remove the `#` symbol, your code will not work!
+Tenga cuidado, si quita el símbolo `#`, ¡su código no funcionará!
 
-![Screen shot of the code showing removal of the # before the comment causing an error in the code execution](../../img/comments_wrong.png "a picture of a comment done wrong") 
+![Captura de pantalla mostrando la eliminación del # antes del comentario, lo que provoca un error en la ejecución del código.](../../img/comments_wrong.png "Captura de pantalla mostrando la eliminación del # antes del comentario, lo que provoca un error en la ejecución del código.") 
 
-Try adding a comment above your first line of code and press run. You will see that the computer will ignore your comment.
+Intente añadir un comentario encima de su primera línea de código y presione **run**. Verá que la computadora ignorará su comentario.
 
 <iframe src="https://trinket.io/embed/python/5a33b3c592" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

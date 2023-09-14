@@ -1,16 +1,16 @@
 ---
-title: "Basics"
+title: "Los Fundamentos"
 draft: false
 weight: 1
 ---
 
-## Overview
+## Resumen General
 
-In this section, we will introduce the tool we'll use throughout this course as well as some key concepts that are important to learning python and all programming languages. You will learn about writing to the screen, including notes in your code, storing information, and taking information in from user of your program. 
+En esta sección, presentaremos la aplicacion que usaremos a lo largo de este curso, así como algunos conceptos claves que son importantes para aprender Python y todos los lenguages de programación. Aprenderá a escribir en la pantalla, incluir notas en su código, almacenar información y recibir información del usuario de su programa.
 
-Let's get started!
+¡Empecemos!
 
 <details open>
-<summary>Topics</summary>
+<summary>Temas</summary>
 {{% children /%}}
 </details>

@@ -1,59 +1,61 @@
 ---
-title: "Reading from the Console"
-date: 2020-02-10T13:24:17-07:00
+title: "Leyendo de la Consola"
+date: 2023-09-13T13:24:17-07:00
 draft: false
 weight: 6
-prereq: "Python Basics: Variables"
-difficulty: Intermediate
+prereq: "Python: Conceptos Básicos - Variables"
+difficulty: Intermedio
 --- 
 
-Now that we know the basics about variables, we can ask for input from the user. Use the following line to tell our program to wait until the user types something into the console. Then, the computer takes whatever is typed into the console, and stores it into the variable called **value**.
+Ahora que concocemos los conceptos básicos sobre las variables, podemos solicitar información al usuario. Use la siguiente línea para indicarle a nuestro programa que espere hasta que el usuario escriba algo en la consola. Luego, la computadora toma lo que se escribe en la consola y lo almacena en una variable llamada **value**
 
 ```python
 value = input()
 ```
 
-Here's and examples of how to use `input()` to accept user input:
+Aquí hay algunos ejemplos de cómo usar `input()` para aceptar entradas del usuario:
 
 ```python
-print("What's your name?")
+print("Cómo te llamas?")
 value = input()
-print("Hello " + value + "!")
+print("Hola " + value + "!")
 ```
 
-Give this a try! When you hit run, you'll notice that the below image doesn't appear on the console yet.
+¡Pruébe esto! Cuando presione **run**, notará que la imagen a continuación no aparece en la consola todavía.
 
-![Screenshot of the console end symbol](../../img/end_symbol.png "image of the console end symbol")
+![Captura de pantalla del símbolo de fin de la consola.](../../img/end_symbol.png "Captura de pantalla del símbolo de fin de la consola.")
 
-![Screen shot of the console waiting for user input](../../img/console_read_waiting.png "image of how the console looks waiting for user input")
+![Captural de pantalla de la consola esperando entrada del usuario.](../../img/console_read_waiting.png "Captural de pantalla de la consola esperando entrada del usuario.")
 
-This is because the program is waiting for you to type something! Enter your name or 'Nuvi' into the console on the right, press Enter, and check that it prints out correctly.
+Esto se debe a que el programa está esperando que escriba algo! Ingresa su nombre o `Nuvi` en la consola, presiona Enter y verifica que se imprima correctamente.
 
-![Screen shot of the console after the user has given input and the program completed](../../img/console_read_input.png "image of how the console looks after it has read user input")
+![Captura de pantalla de la consola después de que el usuario ingrese algo y el programa termina.](../../img/console_read_input.png "Captura de pantalla de la consola después de que el usuario ingrese algo y el programa termina.")
 
 {{% notice note %}}
 
-Even if we type in a number, such as `8`, the variable value will contain the string `"8"`. Be careful when attempting to do math on input variables!
+Incluso si escribimos un número, como `8`, el valor de la variable contendrá el string `"8"`. ¡Tenga cuidado al intentar hacer cálculos con variables de entrada!
 
 {{% /notice %}}
 
-## Challenge
+## Reto
 
-Let’s see if we can write a program that first prints the following two lines to console:
+Veamos si podemos escribir un programa que primero imprima las siguientes dos líneas en la consola:
 
     Welcome!
     How can I help you today?
 
 Afterwards, the console waits for user input. After the user types something in the console and presses _Enter_, the computer prints out:
 
+Luego, la consola espera la entrada del usuario. Después de que el usuario escribe algo en la consola y presiona *Enter*, la computadora imprime:
+
     You asked: [input]?
     I don’t know the answer to [input]. Goodbye!
 
-`[input]` should be replaced with whatever the user had typed into the console. For example, if you wanted to ask "How old am I?", the computer will print out that it doesn’t know the answer to that.
+`[input]` debe reemplazarse con lo que el usuario haya escrito en la consola. Por ejemplo, si quisieras preguntar "Cúantos años tengo?", la computadora imprimirá que no sabe la respuesta.
 
 {{% notice tip %}}
 
-This is very similar to the example that we went through together above. Try making some small changes from what we have already given you.
+Esto es muy similar al ejemplo que hicimos juntos anteriormente. Intenta realizar algunos pequeños cambios con respecto a lo que ya le hemos proporcionado.
 
 {{% /notice %}}
 

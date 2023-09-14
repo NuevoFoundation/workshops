@@ -1,22 +1,24 @@
 ---
 title: "Variables"
-date: 2022-09-19T14:45:38-07:00
+date: 2023-09-13T14:45:38-07:00
 draft: false
 weight: 4
 --- 
 
-In a previous exercise, we learned to print different statements with `print("")`. While it is great to print out a number or a sentence, we haven't given them a meaning. Variables are simply names that we can give to values such as strings, numbers, and booleans. Here’s how to make a variable named s in Python. We say s is a string that has the value `"Hello, World!"`. 
+In a previous exercise, we learned to print different statements with `print("")`. While it is great to print out a number or a sentence, we haven't given them a meaning. Variables are simply names that we can give to values such as strings, numbers, and booleans. Here’s how to make a variable named s in Python. We say s is a string that has the value `"Hello, World!"`.
+
+En un ejerciso anterior, aprendimos a imprimir diferentes oraciónes con `print("")`. Si bien es genial imprimir un número o una oración, no les hemos dado un significado. Las variables simplemente son nombres que podemos darle a valores como strings, números, y booleans. Aquí se muestra cómo crear una variable llamada `s` en Python. Decimos que `s` es un string que tiene el valor `"Hello, World!"`.
 
 ```python
 s = "Hello, World!"
 x = 88
 happy = True
 ```
-Press run. 
+Presione **run**. 
 
 ![Screenshot of what variables example looks like in replit](../../img/variables.png "image of how variables look in replit") 
 
-Note that variables are not printed out to the console. Instead, the variable simply saves the string, number, or boolean into the computer’s memory. We can use these variables in other statements. For example, the following code would print `"Hello Nuevo Foundation"` to the console:
+Note que las variables no se imprimen a la consola. En cambio, la variable simplemente guarda el string, número, o boolean en la memoria de la computadora. Podemos usar estas variables en otras declaraciones. Por ejemplo, este código imprimaría `"Hello Nuevo Foundation"` a la consola:
 
 ```python
 str1 = "Hello"
@@ -24,41 +26,42 @@ str2 = "Nuevo Foundation"
 print(str1 + " " + str2)
 ```
 
-You can also do the following to print strings together while adding spaces in between the words.
+Tambiín puede hacer lo siguiente para imprimir strings juntos mientras agrega espacios entre las palabras.
 
 ```python
 str1 = "Hello"
 str2 = "Nuevo Foundation"
 print(str1, str2)
 ```
-## What the Type!
+## ¿Qué tipo?
 
-Before learning how to create variables, we need to learn the concept of **type**. Type describes what is being stored in the box.
+Antes de aprender a crear variables, debemos aprender el concepto de **tipo**. El tipo describe lo que se almacena en la caja.
 
-Python is a dynamically typed language, meaning, unlike languages like Java, you don't have to specify the type of variable it is before you assign a value to it.  And, if you have an integer in the box and then you remove the integer and place a string in the box, python will allow you to do that. But, you must use the variable based on the type.
+Python es lenguage de programación con tipos dínamicos, es decir, a diferencia de lenguages como Java, no necesita especificar el tipo de la variable antes de asignarle un valor. Python tambien deja que el tipo de una variable cambie, puede reemplazar un string con un número sin problema. Ten en cuenta que las operaciones que puede usar con una variable se basen en el tipo.
 
 
 {{% notice note %}}
-The following are the important data types:
+Los siguientes son los tipos importantes:
 
-**Type** | **Description** | **Examples**
+**Tipo** | **Descripción** | **Ejemplos**
 --------|-----------|----------
-`int` | integer | `20`, `30`, `35`
-`char` | character such as a symbol or a single alphabet letter | `'A'`,`'b'`, `'('`, `']'`
-`String` | a sequence of `char` | `"Hello"`, `"Bonjour"`, `"Hola"`
-`boolean` | has a value of either `true` or `false` | `true`, `false`
-double | fractional numbers | `2.0`, `3.14`, `9.33`
+`int` | número entero | `20`, `30`, `35`
+`char` | carácter como un símbolo o una sola letra del alfabeto | `'A'`,`'b'`, `'('`, `']'`
+`String` | una secuencia de `char` | `"Hello"`, `"Bonjour"`, `"Hola"`
+`boolean` | tiene un valor de verdadero o falso | `true`, `false`
+`double` | números fraccionarios | `2.0`, `3.14`, `9.33`
 
 {{% /notice %}}
 
-Let's revisit the three variables we talked about in the first example and identify their data types. `s` is a string, `x` is an int, and `happy` is a boolean.
+Revisemos las tres variables de las que hablamos en el primer ejemplo e identifiquemos sus tipos. `s` es un string, `x` es un int, y `happy` es un boolean.
 
-### Challenge
+### Reto
 
-- Create two new variables: A variable named `comp` that stores the string `"Computer"`.
-- A variable named `five` that stores the number `5`.
+Crea dos variables nuevas: 
+- Una variable llamada `comp` que almacena el string `"Computadora"`.
+- Una variable llamada `cinco` que almacena el número `5`.
 
-Next, use the variables and what you learned in the previous activities to `print` out the following to the console. You _must_ use the variables!
+A continuación, use las variables y lo que aprendió en las actividades anteriores para imprimir (`print`) lo siguiente en la consola. ¡Debes usar las variables!
 
     Computer
     5
@@ -69,7 +72,7 @@ Next, use the variables and what you learned in the previous activities to `prin
 
 {{% notice tip %}}
 
-Hint: If you're stuck, consider using the `+` operator. Remember that you can use the variables **comp** and **five** multiple times in the same line!
+Si está atascado, considere usar el operador `+`. Recuerde que puede usar las variables `comp` y `cinco` varias veces en la misma línea.
 
 {{% /notice %}}
 
