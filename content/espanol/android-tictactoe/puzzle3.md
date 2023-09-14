@@ -21,4 +21,4 @@ Ahora que el Jugador 2 ya no está ganando automáticamente el juego y todas las
 
 Busque `// FINAL PUZZLE` en el archivo `MainActivity.kt`. ¡Resuelve este rompecabezas para completar el juego!
 
-<img src="../resources/_gen/images/game_play.gif" height="30%" width="22%" title="Android Tic-Tac-Toe Game" alt="Android Tic-Tac-Toe Game"/>
+<img src="../resources/_gen/images/game_play.gif" height="30%" width="22%" title="Android juego del Gato" alt="Android juego del Gato"/>

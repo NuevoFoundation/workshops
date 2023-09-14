@@ -15,7 +15,7 @@ draft: false
 
 ¡Estas de suerte, hoy es el día, podrás construir el tuyo!
 
-<img src="resources/_gen/images/game_play.gif" height="30%" width="22%" title="Android Tic-Tac-Toe Game" alt="Android Tic-Tac-Toe Game"/>
+<img src="resources/_gen/images/game_play.gif" height="30%" width="22%" title="Juego del Gato en Android" alt="Juego del Gato en Android"/>
 
 ## ¡Vamos a comenzar!
 

@@ -5,7 +5,7 @@ draft: false
 weight: 4
 ---
 A veces, es posible que el juego o la aplicación no funcionen de la manera esperada o que desee escribir algo en la consola con fines de registro. Además de depurar la aplicación, puede usar `System.out.println()` para escribir su mensaje. Busca tus mensajes en la ventana "logcat" en la parte inferior de Android Studio:
-<img src="../resources/_gen/images/println.gif" height="60%" width="60%" title="System.out.println()" alt="Logcat window in Android Studio showing messages created using the System.out.printIn logging function"/>
+<img src="../resources/_gen/images/println.gif" height="60%" width="60%" title="System.out.println()" alt="Ventana Logcat en Android Studio que muestra los mensajes creados con la función de registro System.out.printIn"/>
 
 {{% notice tip %}}
 
@@ -35,4 +35,4 @@ Si ve algún texto rojo, ¡ha encontrado algunos errores! Por favor, pida ayuda.
 ```kotlin
 Toast.makeText(this, "Texto que se quiera mostrar", Toast.LENGTH_SHORT).show()
 ```
-<img src="../resources/_gen/images/toast_example.png" title="Toast Example" alt="toast example. You can use the toast.makeText function with arguments context, the message string, and Toast.LENGTH_LONG or Toast.LENGTH_SHORT to display a welcome message, such as Welcome to Tic-Tac-Toe"/>
+<img src="../resources/_gen/images/toast_example.png" title="Ejemplo de Toast" alt="Ejemplo de toast. Puede utilizar la función toast.makeText con el contexto de argumentos, la cadena de mensaje y Toast.LENGTH_LONG o Toast.LENGTH_SHORT para mostrar un mensaje de bienvenida, como Bienvenido al juego de Gato"/>

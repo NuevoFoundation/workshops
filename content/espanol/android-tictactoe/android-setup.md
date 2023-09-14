@@ -31,7 +31,7 @@ Android Studio viene con una versión de Java necesaria para que ciertas partes 
 C:\Program Files\Android\Android Studio\jre
 ```
 7. Selecciona OK.
-<img src="../resources/_gen/images/set_java_home.gif" height="40%" width="40%" title="Setting JAVA_HOME" alt="shows steps to set the JAVA_HOME environment variable"/>
+<img src="../resources/_gen/images/set_java_home.gif" height="40%" width="40%" title="Configurando JAVA_HOME" alt="muestra los pasos para configurar JAVA_HOME variable de entorno"/>
 
 {{% notice tip %}}
 Te recomendamos que reinicies tu computadora ahora para que Android Studio se abra correctamente.
@@ -60,10 +60,10 @@ Hay varias formas de iniciar la aplicación Android Studio en tu computadora con
 2. Busca la ubicación donde descargó los archivos del proyecto.
 3. Selecciona la carpeta `TicTacToe` dentro de la carpeta `TicTacToe` que descomprimiste anteriormente. 
    - La carpeta `TicTacToe` para seleccionar debe tener un ícono verde de Android al lado, lo que indica que es una carpeta de proyecto de Android.
-<img src="../resources/_gen/images/open_android_project.gif" height="40%" width="40%" title="Open TicTacToe project" alt="Shows how to open the TicTacToe project in Android Studio"/>
+<img src="../resources/_gen/images/open_android_project.gif" height="40%" width="40%" title="Abre el proyecto del juego del Gato" alt="Muestra como abrir el proyecto del juego del Gato en Android Studio"/>
 
 Inicia Android Studio y abre el proyecto. Deberías ver algo similar a la siguiente captura de pantalla:
-<img src="../resources/_gen/images/android_studio.png" height="60%" width="60%" title="Android Studio IDE" alt="Example of Android Studio IDE"/>
+<img src="../resources/_gen/images/android_studio.png" height="60%" width="60%" title="Android Studio IDE" alt="Ejemplo de Android Studio IDE"/>
 
 ## Aceptar Licencias
 Antes de poder ejecutar el código, deberá aceptar las licencias de Android siguiendo los pasos a continuación:
@@ -74,4 +74,4 @@ Antes de poder ejecutar el código, deberá aceptar las licencias de Android sig
 C:\Users\<USER_NAME>\AppData\Local\Android\Sdk\tools\bin\sdkmanager --licenses
 ```
 3. Escribe `y` y presiona `ENTER` en las indicaciones, para aceptar las licencias. Esto será necesario varias veces.
-<img src="../resources/_gen/images/accept_licenses.gif" height="60%" width="60%" title="Accepting Android licenses" alt="shows the steps needed to accept Android licenses"/>
+<img src="../resources/_gen/images/accept_licenses.gif" height="60%" width="60%" title="Aceptando las licencias de Android" alt="muestra los pasos necesarios para aceptar las licencias de Android"/>
