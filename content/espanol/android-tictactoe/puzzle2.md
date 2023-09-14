@@ -6,7 +6,7 @@ weight: 5
 ---
 Vamos a agregar un mensaje de bienvenida que el usuario pueda ver cuando inicie tu aplicación!
 
-Ve a **MainActivity.kt** y encuentra `// Acertijo 2` en el código y escribe un toast que de la bienvenida al usuario a tu juego con "Bienvenido al juego del Gato". Ahora presiona el botón de inicio (►) en el código y escribe una notificación (toast) del sistema que dé la bienvenida al usuario a tu juego con "Bienvenido al juego del Gato!”. Ahora presiona el botón de inicio (►) en la parte superior de Android Studio y tu app debería tener este aspecto:
+Ve a **MainActivity.kt** y encuentra `// PUZZLE 2` en el código y escribe un toast que de la bienvenida al usuario a tu juego con "Bienvenido al juego del Gato". Ahora presiona el botón de inicio (►) en el código y escribe una notificación (toast) del sistema que dé la bienvenida al usuario a tu juego con "Bienvenido al juego del Gato!”. Ahora presiona el botón de inicio (►) en la parte superior de Android Studio y tu app debería tener este aspecto:
 
 <img src="../resources/_gen/images/toast_success.png" height="35%" width="27%" title="Toast Exitoso" alt="Ejemplo del juego con un mensaje de bienvenida exitoso usando un toast"/>
 
