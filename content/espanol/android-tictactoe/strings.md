@@ -13,7 +13,7 @@ Todo lo que está rodeado de comillas se denomina cadena. Así es como una compu
 ## Trabajando Juntos
 
 
-Elimina todo el texto `System.out.println` en su código. Inicia su código con la línea `System.out.println("Nuevo" + " " + "Foundation");´. Ten en cuenta que hay muchas maneras de combinar cadenas. Por ejemplo, otra forma de mostrar Fundación Nuevo sería escribir ´System.out.println("Nue" + "vo Fou" + "ndation");´. Haremos una lluvia de ideas sobre al menos una forma más de mostrar la cadena ´"Nuevo Foundation"´ usando dos símbolos ´+´ en cada instrucción ´System.out.println´. Verifica que Nuevo Foundation se muestre 3 veces. En otras palabras, la consola debería verse así después de presionar el botón de ejecutar:
+Elimina todo el texto `System.out.println` en su código. Inicia su código con la línea `System.out.println("Nuevo" + " " + "Foundation");`. Ten en cuenta que hay muchas maneras de combinar cadenas. Por ejemplo, otra forma de mostrar Fundación Nuevo sería escribir ´System.out.println("Nue" + "vo Fou" + "ndation");`. Haremos una lluvia de ideas sobre al menos una forma más de mostrar la cadena ´"Nuevo Foundation"´ usando dos símbolos ´+´ en cada instrucción `System.out.println`. Verifica que Nuevo Foundation se muestre 3 veces. En otras palabras, la consola debería verse así después de presionar el botón de ejecutar:
 
         Nuevo Foundation
         Nuevo Foundation
