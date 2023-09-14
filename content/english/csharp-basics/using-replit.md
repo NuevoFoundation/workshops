@@ -5,7 +5,7 @@ weight: 1
 draft: false
 ---
 
-## Sign up and Lauch Replit
+## Sign up and Launch Replit
 
 Today you will be using Replit to learn how to code in C#. Before starting, you will need to sign up for a Replit account, if you do not yet have one. 
 
