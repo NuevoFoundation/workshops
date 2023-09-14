@@ -18,7 +18,7 @@ if (isRainingOutside == true) {
 
 Para nuestro juego, deberíamos usar declaraciones `if` para determinar si un jugador tiene 3 coincidencias verticales, horizontales o diagonales.
 
-Dentro de los `()` al lado de `if`, debes especificar una _expresión booleana_. Los **booleanos** son declaraciones `verdaderas` o `falsas`. Podemos utilizar esto en nuestra declaración `if`. Si la expresión es `verdadera`, se ejecuta el código dentro de `{ }`. Si la expresión es `falsa`, se ejecuta el código dentro de `{ }` después de la declaración `else`.
+Dentro de los `()` al lado de `if`, debes especificar una _expresión booleana_. Los **booleanos** son declaraciones `true` (verdaderas) o `false` (falsas). Podemos utilizar esto en nuestra declaración `if`. Si la expresión es `true`, se ejecuta el código dentro de `{ }`. Si la expresión es `false`, se ejecuta el código dentro de `{ }` después de la declaración `else`.
 
 También puedes conectar **expresiones booleanas** usando el operador `&&` (AND) y el operador `||` (OR).
 
