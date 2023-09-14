@@ -5,7 +5,6 @@ date: 2021-10-13T00:00:00Z
 weight: 2
 ---
 
-
 ## Deixe o programa falar!
 
 Vamos tentar escrever um programa que diga `Hello World` (Olá Mundo) digitando a linha de código `System.out.print("Hello World");` 
