@@ -20,6 +20,6 @@ Para nuestro juego, deberíamos usar declaraciones `if` para determinar si un ju
 
 Dentro de los `()` al lado de `if`, debes especificar una _expresión booleana_. Los **booleanos** son declaraciones `true` (verdaderas) o `false` (falsas). Podemos utilizar esto en nuestra declaración `if`. Si la expresión es `true`, se ejecuta el código dentro de `{ }`. Si la expresión es `false`, se ejecuta el código dentro de `{ }` después de la declaración `else`.
 
-También puedes conectar **expresiones booleanas** usando el operador `&&` (AND) y el operador `||` (OR).
+También puedes conectar **expresiones booleanas** usando el operador `&&` (AND) lo cual significa `y` y el operador `||` (OR), el cual significa `ó`.
 
 Echa un vistazo a la función `CheckWinner()` en `MainActivity.kt` y piensa en lo que están haciendo todas las declaraciones `&&` conectadas.
