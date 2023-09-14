@@ -138,7 +138,7 @@ for(int number = 1; number <= 10; number = number + 1){
 
 {{% /notice %}}
 
-After learning about for loop and while loop, let's see how do we help Patrick 🐥 and calculate **1 + 2 + 3 + 4 ... + 99 + 100**  easily?
+After learning about `for` loops and `while` loops, let's see how do we help Patrick 🐥 and calculate **1 + 2 + 3 + 4 ... + 99 + 100**  easily?
 
 Let's try to do it in a while loop:
 
