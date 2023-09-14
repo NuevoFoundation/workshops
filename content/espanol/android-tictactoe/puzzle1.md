@@ -9,10 +9,10 @@ weight: 2
 Presiona el botón de reproducción (►) en la parte superior de Android Studio para iniciar el juego.
 <img src="../resources/_gen/images/run_app.png" height="30%" width="30%" title="Run app button" alt="Run app button"/>
 
-Verás que el título en la parte superior de la aplicación dice Toe-Tac-Tic (¡eso no parece correcto!); cambiémoslo a Tic-Tac-Toe.
+Verás que el título en la parte superior de la aplicación dice Gota (¡eso no parece correcto!); cambiémoslo a Gato.
 
 ## Resuelve el Acertijo
-Haga doble clic en el archivo `strings.xml` en los valores de → de → de la aplicación:
+Haz doble clic en el archivo `strings.xml` debajo de app → res → values:
 <img src="../resources/_gen/images/open_strings_file.gif" height="30%" width="30%" title="Strings.xml location" alt="Shows how to navigate toe strings.xml in Android Studio"/>
 
 ¿Cómo puedes modificar este archivo para que diga Tic-Tac-Toe?
