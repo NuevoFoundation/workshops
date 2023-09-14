@@ -1,32 +1,32 @@
 ---
-title: "Comments"
+title: "Comentarios"
 date: 2021-03-13T14:17:07.42-07:00
 draft: false
 weight: 6
 ---
-Developers often need to collaborate with other developers. Comments are an easy way for developers to write notes in the code and communicate with others. Comments are ignored by the computer; thus, they are also an easy way to tell the computer to not run certain lines of code. There are two ways to create comments:
+Los desarrolladores a menudo necesitan colaborar con otros desarrolladores. Los comentarios son una forma fácil para que los desarrolladores escriban notas en el código y se comuniquen con otros. Los comentarios son ignorados por la computadora; Por lo tanto, también son una manera fácil de decirle a la computadora que no ejecute ciertas líneas de código. Hay dos formas de crear comentarios:
 
-1. To comment out one line, place `//` in front of a line of code. For example:
-
-```kotlin
-// This is a single-line comment.
-```
-
-2. To comment out multiple lines at once, indicate the start of the comment with `/*` and the end of the comment with `*/`. For example:
+1. Para comentar una línea, coloca `//` al inicio de una línea de código. Por ejemplo:
 
 ```kotlin
-/* This is a multi-line comment.
-This line is also part of the comment. */
+// Este es un comentario de una sola línea.
 ```
 
-To remove a comment (or uncomment a line), simply delete the `//` for a single-line comment, or the `/*` and the `*/` characters for the multi-line comment.
+2. Para comentar varias líneas a la vez, indique el comienzo del comentario con `/*` y al final del comentario con `*/`. Por ejemplo:
+
+```kotlin
+/* Este es un comentario de varias líneas de código.
+Esta línea también es parte del comentario. */
+```
+
+Para eliminar un comentario (o descomentar una línea), simplemente elimine el botón `//` para un comentario de una sola línea, o el `/*` y los `*/` caracteres para el comentario de varias líneas.
 
 {{% notice tip %}}
-## Working Together
+## Trabajando Juntos
 
-1. Type `//` in front of `Toast.makeText(this, "Welcome to Tic-Tac-Toe”, Toast.LENGTH_LONG).show()`. After pressing the play button (►), check to make sure that `Welcome to Tic-Tac-Toe` does not show up on the screen.
-2. Delete the `//` and instead, surround `Toast.makeText(this, "Welcome to Tic-Tac-Toe”, Toast.LENGTH_LONG).show()` with `/*` and `*/`. Check that `Welcome to Tic-Tac-Toe` is still not printed to the console after pressing the play button (►).
-3. Delete both `/*` and `*/`, and press the play button (►). Welcome to Tic-Tac-Toe should now be printed to the console.
-   Throughout today's puzzles, you will see various multi-line comments and `// PUZZLE` comments (like the one for Puzzle 2). These comments will guide us towards completing the Tic-Tac-Toe game, so be sure you understand how to comment and uncomment code.
+1. Escribe `//` al inicio de `Toast.makeText(this, "Welcome to Tic-Tac-Toe”, Toast.LENGTH_LONG).show()`. Después presiona el botón de inicio (►), asegurate de que el texto `Bienvenido al juego del Gato` no se muestre en la pantalla.
+2. Borra `//` y en su lugar, rodea `Toast.makeText(this, "Welcome to Tic-Tac-Toe”, Toast.LENGTH_LONG).show()` con `/*` y `*/`. Revisa que el texto de `Welcome to Tic-Tac-Toe` sigue sin mostrarse en la pantalla después de presionar el botón de inicio (►).
+3. Borra tanto `/*` como `*/`, y presiona el botón de inicio (►). El mensaje de `Welcome to Tic-Tac-Toe` debería de verse en la consola.
+   A lo largo de los rompecabezas de hoy, verá varios comentarios de varias líneas y `// PUZZLE` comentarios (como el del acertijo 2). Estos comentarios nos guiarán para completar el juego del Gato, así que asegúrate de entender cómo comentar y descomentar el código.
 
 {{% /notice %}}

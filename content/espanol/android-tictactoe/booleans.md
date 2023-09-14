@@ -1,46 +1,46 @@
 ---
-title: "Booleans"
+title: "Booleanos"
 date: 2021-03-13T14:17:07.42-07:00
 draft: false
 weight: 9
 ---
-Booleans are true or false statements. Unlike strings or numbers, booleans store statements of truth: is what I am saying true or false? For example, if I ask, "Are you a robot?", this question produces a true or false result, which we call a Boolean. In this case, since you are not a robot (hopefully!), we would produce false. We can also use math operators to create boolean expressions. Here are some examples; however, notice the unusual symbols for "equal to" and "not equal to":
+Los booleanos son declaraciones verdaderas o falsas. A diferencia de las cadenas o los números, los booleanos almacenan declaraciones de verdad: ¿lo que estoy diciendo es verdadero o falso? Por ejemplo, si pregunto: "¿Eres un robot?", Esta pregunta produce un resultado verdadero o falso, que llamamos booleano. En este caso, como no eres un robot (¡con suerte!), produciríamos falso. También podemos usar operadores matemáticos para crear expresiones booleanas. Aquí hay algunos ejemplos; Sin embargo, observe los símbolos inusuales para "igual a" y "no igual a":
 
-| Operator | Description           | Operator | Description              |
+| Operador | Descripción           | Operador | Descripción              |
 | -------- | --------------------- | -------- | ------------------------ |
-| `<`      | Less than             | `>`      | Greater than             |
-| `<=`     | Less than or equal to | `>=`     | Greater than or equal to |
-| `==`     | Equal to              | `!=`     | Not equal to             |
+| `<`      | Menos que             | `>`      | Mayor que                |
+| `<=`     | Menos que ó igual que | `>=`     | Mayor que ó igual que    |
+| `==`     | Igual que             | `!=`     | Diferente que            |
 
-As usual, use `System.out.println` to print out your results:
+Como de costumbre, use ´System.out.println´ para imprimir sus resultados:
 
 ```kotlin
 System.out.println(10 < 8);
 System.out.println((3 * 6) == (32 - 14));
 ```
 {{% notice tip %}}
-## Working Together
+## Trabajando Juntos
 
-Delete all your `System.out.println` text in your code. Try guessing the answers to the following expressions. Use `System.out.println` to check your answers.
+Elimine todo el texto ´System.out.println´ en su código. Intenta adivinar las respuestas a las siguientes expresiones. Utilice ´System.out.println´ para comprobar sus respuestas.
 
 - 54 < (10 + 32)
 - (37 / 5) == 7
-- "Hello" + "World" == "Hello World"
+- "Hola" + "Mundo" == "Hola Mundo"
 - false == false
 {{% /notice %}}
 
-## Booleans Operators
+## Operadores Booleanos
 
-You can also connect boolean expressions together using the `&&` (AND) and the `||` (OR) operator. For example, suppose I ask: "Are you a human, and is Nuvi a robot?" The word "and" connects the two true-false questions together. In this case, since it is true that you are a human, and it is also true that Nuvi is a robot, then the overall result is `true`. Here's a chart that describes what happens when we connect booleans together:  
+También puede conectar expresiones booleanas entre sí mediante ´&&´ (AND) y ´||´ (OR) operador. Por ejemplo, supongamos que pregunto: "¿Eres un humano y Nuvi es un robot?" La palabra "y" conecta las dos preguntas verdadero-falso. En este caso, dado que es cierto que eres un humano, y también es cierto que Nuvi es un robot, entonces el resultado general es "verdadero". Aquí hay una tabla que describe lo que sucede cuando conectamos booleanos:  
 
-| Expression                  | Result   | Expression                            | Result  |
+| Expresión                   | Resultado  | Expresión                            | Resultado  |
 | --------------------------- | -------- | ------------------------------------- | ------- |
 | <code>true && true</code>   | `true`   | <code>true &#124;&#124; true</code>   | `true`  |
 | <code>true && false</code>  | `false`  | <code>true &#124;&#124; false</code>  | `true`  |
 | <code>false && true</code>  | `false`  | <code>false &#124;&#124; true</code>  | `true`  |
 | <code>false && false</code> | `false`  | <code>false &#124;&#124; false</code> | `false` | 
 
-To summarize, `&&` requires both Boolean expressions to be true, while `||` only requires one of the two Boolean expressions to be true. Here are some more examples:
+En resumen, ´&&´ requiere que ambas expresiones booleanas sean verdaderas, mientras que ´||´ sólo requiere que una de las dos expresiones booleanas sea verdadera. Aquí hay algunos ejemplos más:
 
-- `(5 < 8) && (9 != 10)` produces `true` since both 5 is less than 8 and 9 is not equal to 10.
-- `(6 != 2 * 3) || (8 < 2 * 4)` produces `false` since both 6 not equal to 2 * 3, and 8 not being less than 2 * 4 produce `false`.
+- ´(5 < 8) && (9 != 10)´ produce ´verdadero´ ya que tanto 5 es menor que 8 y 9 no es igual a 10.
+- ´(6 != 2 * 3) || (8 < 2 * 4)´ produce ´falso´ ya que tanto 6 no es igual a 2 * 3, y 8 no siendo menos de 2 * 4 producen ´falso´.

@@ -1,22 +1,22 @@
 ---
-title: "Puzzle 2 - Welcome user"
+title: "Puzzle 2 - Bienvenida al usuario"
 date: 2021-03-13T14:17:07.42-07:00
 draft: false
 weight: 5
 ---
-Let's add a welcome message that the user can see when they start your app!
+Vamos a agregar un mensaje de bienvenida que el usuario pueda ver cuando inicie tu aplicación!
 
-Go to **MainActivity.kt** and find `// PUZZLE 2` in the code and write a toast that welcomes the user to your game with "Welcome to Tic-Tac-Toe!”. Now press the play button (►) at the top of Android Studio and your app should look like this:
+Ve a **MainActivity.kt** y encuentra `// PUZZLE 2` en el código y escribe un toast que de la bienvenida al usuario a tu juego con "Bienvenido al juego del Gato". Ahora presiona el botón de inicio (►)  in the code and write a toast that welcomes the user to your game with "Welcome to Tic-Tac-Toe!”. Now press the play button (►) en la parte superior de Android Studio y tu app debería tener este aspecto:
 
 <img src="../resources/_gen/images/toast_success.png" height="35%" width="27%" title="Successful Toast" alt="Example of game with successful welcome to Tic Tac Toe text displayed using toast"/>
 
 {{% notice warning %}}
-## HELP! I got a lot of red text!
+## ¡AYUDA! ¡Tengo un montón de texto rojo!
 
-If you see any red text, you have encountered some errors! Please ask for help. Beware of the following when coding in Android:
+Si ve algún texto rojo, ¡ha encontrado algunos errores! Por favor, pida ayuda. Ten cuidado con lo siguiente al codificar en Android:
 
-1. The `t` in `Toast` is capitalized.
-2. Make sure the sentence you wish to show is surrounded in quotation marks, and that the parantheses are in the right place.
-3. Do not delete any curly braces `{` or `}`.
+1. La `t` en `Toast` es mayúscula.
+2. Asegúrate de que la oración que quieras mostrar este rodeada de comillas, y que los paréntesis estén en el lugar correcto.
+3. No elimines ningún signo de llave `{` ó `}`.
 
 {{% /notice %}}

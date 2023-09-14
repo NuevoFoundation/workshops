@@ -1,12 +1,12 @@
 ---
-title: "Conditionals"
+title: "Condicionales"
 date: 2021-03-13T14:17:07.42-07:00
 draft: false
 weight: 10
 ---
-We can use `if` statements to run a code statement only if certain conditions are met.
+Podemos usar sentencias `if` para ejecutar una instrucción de código solo si se cumplen ciertas condiciones.
 
-For example:
+Por ejemplo:
 
 ```kotlin
 if (isRainingOutside == true) {
@@ -16,10 +16,10 @@ if (isRainingOutside == true) {
 }
 ```
 
-For our game, we should use `if` statements to determine if a player has 3 vertical, horizontal, or diagonal matches.
+Para nuestro juego, deberíamos usar declaraciones `if` para determinar si un jugador tiene 3 coincidencias verticales, horizontales o diagonales.
 
-Inside the `()` beside `if`, you should specify a _Boolean expression_. **Booleans** are `true` or `false` statements. We can utilize this in our `if` statement. If the expression is `true`, the code inside `{ }` is executed. If the expression is `false`, the code inside `{ }` after the `else` statement is executed.
+Dentro de los `()` al lado de `if`, debes especificar una _expresión booleana_. Los **booleanos** son declaraciones `verdaderas` o `falsas`. Podemos utilizar esto en nuestra declaración `if`. Si la expresión es `verdadera`, se ejecuta el código dentro de `{ }`. Si la expresión es `falsa`, se ejecuta el código dentro de `{ }` después de la declaración `else`.
 
-You can also connect **Boolean expressions** together using the `&&` (AND) and the `||` (OR) operator.
+También puedes conectar **expresiones booleanas** usando el operador `&&` (AND) y el operador `||` (OR).
 
-Take a look at the `CheckWinner()` function in `MainActivity.kt` and think about what all the connected `&&` statements are doing.
+Echa un vistazo a la función `CheckWinner()` en `MainActivity.kt` y piensa en lo que están haciendo todas las declaraciones `&&` conectadas.

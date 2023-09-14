@@ -1,24 +1,24 @@
 ---
-title: "Puzzle 3 - The final test"
+title: "Acertijo 3 - La Prueba Final"
 date: 2021-03-13T14:17:07.42-07:00
 draft: false
 weight: 11
 ---
 
-## Puzzle 3a
-This puzzle will test your knowledge about variables. There is something strange with one of the player's color on the board.
+## Acertijo 3a
+Este rompecabezas pondrá a prueba tu conocimiento sobre las variables. Hay algo extraño con uno de los colores del jugador en el tablero.
 
-Find `// PUZZLE 3a` in the `MainActivity.kt` file and update the `colorGreen` variable to show green colored pieces on the board.
+Busque `// PUZZLE 3a` en el archivo `MainActivity.kt` y actualice la variable `colorGreen` para mostrar piezas de color verde en el tablero.
 
-## Puzzle 3b
-Why does Player 2 always win on the first move?! This doesn't make any sense, solve puzzle 3b to fix the game.
+## Acertijo 3b
+¿Por qué el jugador 2 siempre gana en el primer movimiento? Esto no tiene ningún sentido, resuelve el rompecabezas 3b para arreglar el juego.
 
-Find `// PUZZLE 3b` in the `MainActivity.kt` file and update the `winner` variable to ensure a player truly wins.
+Encuentra `// PUZZLE 3b` en el archivo `MainActivity.kt` y actualiza la variable `winner` para asegurarte de que un jugador realmente gane.
 
-## Final Puzzle
+## Acertijo Final
 
-Now that Player 2 is no longer automatically winning the game and all the game pieces look good, there is still one last thing that is weird. Tic-Tac-Toe rules state that a player can win when the player has 3 pieces connected horizontally, vertically, or diagonally. The game works well for detection the horizontal and vertical wins, but something is wrong with the diagonal check.
+Ahora que el Jugador 2 ya no está ganando automáticamente el juego y todas las piezas del juego se ven bien, todavía hay una última cosa que es extraña. Las reglas de Tic-Tac-Toe establecen que un jugador puede ganar cuando el jugador tiene 3 piezas conectadas horizontal, vertical o diagonalmente. El juego funciona bien para detectar las victorias horizontales y verticales, pero algo está mal con la verificación diagonal.
 
-Look for `// FINAL PUZZLE` in the `MainActivity.kt` file. Solve this puzzle to complete the game!
+Busque `// FINAL PUZZLE` en el archivo `MainActivity.kt`. ¡Resuelve este rompecabezas para completar el juego!
 
 <img src="../resources/_gen/images/game_play.gif" height="30%" width="22%" title="Android Tic-Tac-Toe Game" alt="Android Tic-Tac-Toe Game"/>

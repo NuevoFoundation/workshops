@@ -1,5 +1,5 @@
 ---
-title: "Android: Gato"
+title: "Java: Gato"
 description: "Obtén información sobre variables, funciones y condicionales mientras creas una aplicación Gato para Android."
 date: 2021-03-13T14:04:59.61-07:00
 prereq: "Android Studio"
@@ -33,9 +33,9 @@ Para comenzar, descargue los archivos del proyecto siguiendo estos pasos:
 1. [Descarga los archivos de proyecto](../resources/_gen/files/TicTacToe.zip) para tu juego.
 2. Busque el archivo TicTacToe.zip en su carpeta de descargas.
 3. Descomprima el archivo.
-   - En Windows: Haga clic derecho en TicTacToe.zip y seleccione 'Extraer todo...'. Se creará una carpeta llamada 'TicTacToe' que contiene el código del proyecto.
+   - En Windows: Haga clic derecho en TicTacToe.zip y seleccione `Extraer todo...`. Se creará una carpeta llamada `TicTacToe` que contiene el código del proyecto.
 
-¡En esta aventura, tendrás que resolver los rompecabezas marcados con etiquetas 'PUZZLE' para completar el juego!
+¡En esta aventura, tendrás que resolver los rompecabezas marcados con etiquetas `PUZZLE` para completar el juego!
 
 ## Tabla de contenidos
 
