@@ -92,7 +92,7 @@ To call this method you could do this
     Console.WrlineLine(sum); // prints 6
 ```
 
-One of the resons methods are powerful is we can call them more than once:
+One of the reasons methods are powerful is we can call them more than once:
 ```C#
     int sum = 0;
     sum = sumNum(1, 3);
