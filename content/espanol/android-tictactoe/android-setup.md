@@ -18,7 +18,7 @@ Android Studio viene con una versión de Java necesaria para que ciertas partes 
 1. En el cuadro de búsqueda en la parte inferior izquierda de la pantalla, escriba `env`.
 2. Selecciona en "Mejor coincidencia" `Editar las variables de entorno del sistema`.
 
-<img src="../resources/_gen/images/edit_env_variable.png" height="30%" width="30%" title="Edit system environment variables" alt="Edit system environment variables"/>
+<img src="../resources/_gen/images/edit_env_variable.png" height="30%" width="30%" title="Editar variables de entorno del sistema" alt="Editar variables de entorno del sistema"/>
 
 3. Selecciona `Variables de entorno...`.
 
