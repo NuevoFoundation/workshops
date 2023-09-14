@@ -66,7 +66,7 @@ if (estaChovendo == true) {
 }
 ```
 
-Dentro dos parêntesis - `()` ao lado do `if`, você deve colocar uma _expressão de verdadeiro/falso_. Os valores verdadeiros/falsos são declarações representadas pelo Ingles `true` (verdadeiro) ou `false` (falso). Podemos usar isso no nosso commando `if` ou se. Se a expressão for verdadeira - **true**, o código dentro das chaves `{ }` é executado.
+Dentro dos parêntesis - `()` ao lado do `if`, você deve colocar uma _expressão de verdadeiro/falso_. Os valores verdadeiros/falsos são declarações representadas pelo Inglês `true` (verdadeiro) ou `false` (falso). Podemos usar isso no nosso commando `if (se)`. Se a expressão for verdadeira - **true**, o código dentro das chaves `{ }` é executado.
 
 Também podemos usar expressões de verdadeiro/falso para verificar se um número está em um intervalo específico:
 
