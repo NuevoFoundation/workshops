@@ -8,8 +8,6 @@ icon: "fab fa-java"
 draft: false
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/udEaocEYlpc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-
 Bem vindo ao curso <b>Java: Fundamentos</b>, onde você vai aprender uma linguagem de programação amplamente utilizada e de alto nível, que fornece ao computador instruções para criar programas emocionantes!
 
 Java é uma linguagem de programação de alto nível desenvolvida por James Gosling e Sun Microsystems na Califórnia em 1995. 
