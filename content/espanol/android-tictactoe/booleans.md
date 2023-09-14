@@ -21,7 +21,7 @@ System.out.println((3 * 6) == (32 - 14));
 {{% notice tip %}}
 ## Trabajando Juntos
 
-Elimine todo el texto ´System.out.println´ en su código. Intenta adivinar las respuestas a las siguientes expresiones. Utilice ´System.out.println´ para comprobar sus respuestas.
+Elimine todo el texto `System.out.println` en su código. Intenta adivinar las respuestas a las siguientes expresiones. Utilice `System.out.println` para comprobar sus respuestas.
 
 - 54 < (10 + 32)
 - (37 / 5) == 7
