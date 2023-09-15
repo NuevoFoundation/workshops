@@ -1,6 +1,6 @@
 ---
 title: "Nested loops"
-description: "Advanced applications applications for flows"
+description: "Advanced applications for loops"
 date: 2020-07-16T00:00:00Z
 weight: 4
 ---
@@ -20,9 +20,9 @@ while expressionA:
         statement(B)
     statement(A)
 ```
-In the `while` loop above, when expressionA produces `False`, we will skip the whole block. When expressionA produces `True`, we will go to the inner while loop and check expressionB. If expressionB produces `True`, statement(B) will be executed. If expressionB produces `False`, we will skip the inner while loop and go to statement(A).
+In the `while` loop above, when expressionA produces `false`, we will skip the whole block. When expressionA produces `true`, we will go to the inner while loop and check expressionB. If expressionB produces `true`, statement(B) will be executed. If expressionB produces `false`, we will skip the inner while loop and go to statement(A).
 
-If expressionA produces `False`, none of the statements will be executed; statement(A) and statement(B) will both be executed if and only if both expressionA and expressionB produce `True`.
+If expressionA produces `false`, none of the statements will be executed; statement(A) and statement(B) will both be executed if and only if both expressionA and expressionB produce `true`.
 
 Let us take a look at one example for nested while loop.
  ```python

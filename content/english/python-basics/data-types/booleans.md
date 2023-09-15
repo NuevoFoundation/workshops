@@ -5,7 +5,7 @@ draft: false
 weight: 3
 ---
 
-Booleans are <font color="blue">True</font> or <font color="blue">False</font> statements. Unlike strings or numbers, <b>booleans</b> store statements of truth: is what I'm saying true or false? 
+Booleans are <font color="blue">True</font> or <font color="blue">False</font> statements. Unlike strings or numbers, <b>booleans</b> store statements of truth: is what I'm saying true or False? 
 
 For example, if I say, "You are a robot", a boolean can store whether this statement is true. In this case, since you are not a robot (hopefully!), <font color="blue">False</font> would be stored. 
 

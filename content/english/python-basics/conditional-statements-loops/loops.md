@@ -32,7 +32,7 @@ The below code creates a list starting at 1 and ending at 10.
 ```
 range(1,11)
 ```
-Now try replacing the list [1,2,3,4,5] in the above example with this range function!
+Now try replacing the list [1,2,3,4,5] in the above example with this `range` function!
 
 The list in the for loop doesn't just have to be numbers, it can be anything!  Here is another example of what you can do with it:
 
@@ -62,7 +62,7 @@ while count < 5:
 
 As you can see, all of the code below the while loop gets executed as long as the variable count is less than 5.
 
-Be careful! Make sure that the condition becomes False at some point, or the loop will continue infinitely.
+Be careful! Make sure that the condition becomes `false` at some point, or the loop will continue infinitely.
 
 ### Break statements
 
@@ -72,7 +72,7 @@ There is another way to stop running these loops before the end of the list or b
 
 You can do this with the `break` statement.  This lets you break out of the loop in either a for loop or while loop.  
 
-Here's an example with a while loop:
+Here's an example of using `break` within a while loop:
 
 ```python
 count = 0
