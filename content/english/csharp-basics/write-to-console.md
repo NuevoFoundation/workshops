@@ -38,7 +38,7 @@ Let's try printing other things. Add some additional lines of code to:
 {{% notice tip %}}
 ### Did you notice that all the statements you typed printed on different lines?
 
-Sometimes we want to write on the same like.  We use a slightly different code `Console.Write` instead of `Console.WriteLine`.
+Sometimes we want to write on the same like. We use a slightly different code `Console.Write` instead of `Console.WriteLine`.
 
 Add two lines of code:
 ```c#
