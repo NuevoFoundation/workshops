@@ -10,7 +10,7 @@ weight: 5
 
 Em resumo:
 
-1. As duas garras de jacaré devem ser presos na superfície das laranjas.
+1. As duas garras de jacaré devem ser presas na superfície das laranjas.
 2. O outro lado das garras deve estar nas entradas A1 e A2 do adafruit.
 3. O USB deve ser conectado ao adafruit, mas não ao computador.
 
