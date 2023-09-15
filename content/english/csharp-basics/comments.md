@@ -9,13 +9,15 @@ weight: 3
 
 When creating a C# program, we can jot down some notes by adding one line comment using `//` or multi-line comment using `/*` and `*/` (Note: The instructions in the previous activities were written as comments).
 
-Also, adding comments will not affect the program whatsoever. So, you can add any notes with comments throughout your code!
+Also, adding comments will not affect the program whatsoever. So, you can add comments throughout your code to document how it works for you and other coders.
 
+```c#
      // sample one line comment
+
      /* sample
       * multi-line
       * comment */
-
+```
 {{% notice tip %}}
 
 You can comment you code so the computer won't run it.
