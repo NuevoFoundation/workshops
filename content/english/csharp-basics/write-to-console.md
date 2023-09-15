@@ -29,7 +29,7 @@ Add a new line of code below the first line to print "Hello *your name*".  It sh
 
 <img src="../images/Step1.png" height="300" alt="The starting screen of a repl" />
 
-You should see your output on the right side of the screen.  Cool huh?  
+You should see your output on the right side of the screen. Cool huh?  
 
 Let's try printing other things.  Add some addtional lines of code to:
 1. Print numbers by putting numbers in the parenthesis (i.e. `Console.WriteLine(42);`).  No double quotes needed.
