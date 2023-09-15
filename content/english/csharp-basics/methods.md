@@ -7,7 +7,7 @@ weight: 7
 
 ## What is a Method?
 
-So far, we've learned about how to store data in variables, print data and sentences, and make decisions with if-statement, for-loop, and while-loop. 
+So far, we've learned about how to store data in variables, print data and sentences, and make decisions with if-statements, for-loops, and while-loops. 
 
 From the last exercise, we know the following block of code calculates the sum from 1 to 100:
 
@@ -38,7 +38,7 @@ To define a method, we need to first write out its <b>method signature</b>. A si
 **Part Name** | **Description** | **Examples or possible options**
 ----|----|----
 **access specifier** | provides the level of access to the method  | `public` tells the computer that anyone can use this method. `private` tells the computer it can only be called within a class. (We'll learn about classes on the next page!) `protected` tells the computer it can be called by objects of the same class.
-**return type** | data type that is returned to the calling function, technically the return type is not a part of the signaure in C#  | `string` or `int`, use `void` if the method doesn't return anything`.
+**return type** | data type that is returned to the calling function, technically the return type is not a part of the signaure in C#  | `string` or `int`, use `void` if the method doesn't return anything.
 **method name** | name of the method used to call it | a descriptive name you choose based on what the method does.
 **list of parameters** | list of inputs that must be provided when the method is used | can have zero or more parameters in the form of (`type` `input name`, `type` `input name`, ... ).  Use () for no parameters.
 
