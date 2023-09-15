@@ -31,7 +31,7 @@ Add a new line of code below the first line to print "Hello *your name*".  It sh
 
 You should see your output on the right side of the screen. Cool huh?  
 
-Let's try printing other things.  Add some addtional lines of code to:
+Let's try printing other things. Add some additional lines of code to:
 1. Print numbers by putting numbers in the parenthesis (i.e. `Console.WriteLine(42);`). No double quotes needed.
 2. Put some text together (i.e. `Console.WriteLine("Hi " + "Sally");`)
 
