@@ -41,8 +41,10 @@ Let's try printing other things.  Add some addtional lines of code to:
 Sometimes we want to write on the same like.  We use a slightly different code `Console.Write` instead of `Console.WriteLine`.
 
 Add two lines of code:
-`Console.Write("I like to eat ");`
-`Console.Write("apples.");`
+```c#
+Console.Write("I like to eat ");
+Console.Write("apples.");
+```
 
 And give it a try.
 {{% /notice %}}

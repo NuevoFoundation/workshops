@@ -20,9 +20,10 @@ Also, adding comments will not affect the program whatsoever. So, you can add an
 
 You can comment you code so the computer won't run it.
 
-`Console.Write("I like to eat");`
-
-`// Console.Write("apples.");`
+```c#
+Console.Write("I like to eat");
+// Console.Write("apples.");
+```
 
 Will write "I like to eat" to the console but won't write "apples".
 {{% /notice %}}
