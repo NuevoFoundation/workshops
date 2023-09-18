@@ -80,7 +80,7 @@ For example:
 
 7. Notice that the Terminal panel includes a command prompt.
 
-    The Terminal panel can be used to run command line interface (CLI) commands. You'll be using .NET CLI commands later in this module.
+    The Terminal panel can be used to run command line interface (CLI) commands. 
 
 8. In the upper-right corner of the Terminal panel, select X (Close Panel).
 
@@ -101,8 +101,6 @@ For example:
 13. From the bulleted list of interactive activities, select Formatting.
 
 14. Take a minute to read about the formatting options.
-
-    You'll be using code formatting commands during hands-on activities as you learn more about C# programming.
 
 15. Close the Editor Playground document.
 

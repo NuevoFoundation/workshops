@@ -85,7 +85,7 @@ There are several files that are shared across multiple pages. These files deter
 
     <img src="../media/website1.png" alt="Screenshot of the website you just created" />
 
-3. Click on Privacy and Home to navigate around your website.
+3. Click on ***Counter*** and ***Fetch Data*** links to navigate around your website.
 
 ### Customize the landing page
 
@@ -96,7 +96,7 @@ Let's make a few changes to the landing page to make it more relevant to the you
 
 ```C#
 @code {
-TimeSpan timeInBusiness = DateTime.Now - new DateTime(2017, 9, 11);
+TimeSpan timeInBusiness = DateTime.Now - new DateTime(2010, 01, 17);
 }
 ```
 
@@ -104,31 +104,22 @@ The preceding code:
 
 * Calculates the amount of time that has passed since the business opened.
 
-2. Modify the HTML as follows:
+2. Change the ```PageTitle``` element to say "Welcome to my first web page"
 
-* Replace the ```<PageTitle>``` with following code:
+3. Change the ```h1``` to say "Welcome to my first Razor web app"
 
-```HTML
-<PageTitle>Welcome to my first web app</PageTitle>
-```
-* Replace the ```<h1>``` element with the following code:
-
-```HTML
-<h1>Welcome to my first Razor web app</h1>
-```
-
-* Replace the remaining text with the following code:
+4. Replace the remaining text with the following code:
 
 ```CSHTML
 <p class="lead">The best website in town for @Convert.ToInt32(timeInBusiness.TotalDays) days!</p>
 ```
 The preceding code:
 
-* Changes the Page title to "Welcome to my first web app"
-* Changes the heading to "Welcome to my first Razor web app".
-* Displays the number of days that have passed since the business opened.
+* Displays the number of days that have passed since January 17, 2010.
     * The @ character is used to switch from HTML to Razor Syntax.
     * The Convert.ToInt32 method is used to convert the TotalDays property of the timeInBusiness variable to an integer.
-    * The Convert class is part of the System namespace, which is imported automatically by the ```<ImplicitUsings>``` element in the ContosoPizza.csproj file.
+    * The Convert class is part of the System namespace, which is imported automatically by the ```<ImplicitUsings>``` element in the .csproj file.
 
 3. Save the file. Refresh the browser tab with the app to display the changes. 
+
+<img src="../media/end-of-activity-3.png" alt="Screenshot of site after changes from Activity 3" />

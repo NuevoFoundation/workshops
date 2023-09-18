@@ -12,7 +12,7 @@ Understanding how Razor generates code for a view makes it easier to understand 
 
 ```csharp
 @{
-    var quote = "Getting old ain't for wimps! - Anonymous";
+    string quote = "Getting old ain't for wimps! - Anonymous";
 }
 
 <div>Quote of the Day: @quote</div>
@@ -25,7 +25,7 @@ public class _Views_Something_cshtml : RazorPage<dynamic>
 {
     public override async Task ExecuteAsync()
     {
-        var output = "Getting old ain't for wimps! - Anonymous";
+        string output = "Getting old ain't for wimps! - Anonymous";
 
         WriteLiteral("/r/n<div>Quote of the Day: ");
         Write(output);
@@ -138,7 +138,7 @@ The code renders the following HTML:
 <p>Name: <strong>Martin Luther King, Jr.</strong></p>
 ```
 
-#### ```@implements```
+### ```@implements```
 The ```@implements``` directive implements an interface for the generated class.
 
 The following example implements System.```IDisposable``` so that the Dispose method can be called:
@@ -157,7 +157,7 @@ The following example implements System.```IDisposable``` so that the Dispose me
 }
 ```
 
-#### ```@inherits```
+### ```@inherits```
 
 The ```@inherits``` directive provides full control of the class the view inherits:
 
@@ -190,8 +190,7 @@ The code renders the following HTML:
 
 ```html
 <div>
-    Custom text: Gardyloo! - A Scottish warning yelled from a window before dumping
-    a slop bucket on the street below.
+    Custom text: Bumbershoot - Another word for an umbrella.
 </div>
 ```
 
@@ -210,19 +209,18 @@ The following code is an example of a strongly-typed view:
 <div>Custom text: @CustomText</div>
 ```
 
-If "rick@contoso.com" is passed in the model, the view generates the following HTML markup:
+If "jade@nuevofoundation.org" is passed in the model, the view generates the following HTML markup:
 
 ```html
-<div>The Login Email: rick@contoso.com</div>
+<div>The Login Email: jade@nuevofoundation.org</div>
 <div>
-    Custom text: Gardyloo! - A Scottish warning yelled from a window before dumping
-    a slop bucket on the street below.
+    Custom text: Bumbershoot - Another word for an umbrella.
 </div>
 ```
 
 ### ```@inject```
 
-The ```@inject``` directive enables the Razor Page to inject a service from the service container into a view. For more information, see Dependency injection into views.
+The ```@inject``` directive enables the Razor Page to inject a service from the service container into a view. 
 
 ### ```@layout```
 
@@ -260,7 +258,7 @@ Razor exposes a Model property for accessing the model passed to the view:
 
 The ```@model``` directive specifies the type of the Model property. The directive specifies the T in ```RazorPage<T>``` that the generated class that the view derives from. If the ```@model``` directive isn't specified, the Model property is of type dynamic. For more information, see Strongly typed models and the ```@model``` keyword.
 
-#### ```@namespace```
+### ```@namespace```
 
 The ```@namespace``` directive:
 
@@ -295,14 +293,14 @@ If the EvenMorePages folder in the preceding example has an imports file with ``
 |Pages/MorePages/Page.cshtml|	Hello.World.MorePage|
 |Pages/MorePages/EvenMorePages/Page.cshtml|	Another.Planet|
 
-#### ```@page```
+### ```@page```
 
 The ```@page``` directive has different effects depending on the type of the file where it appears. The directive:
 
 * In a .cshtml file indicates that the file is a Razor Page. 
 * Specifies that a Razor component should handle requests directly. 
 
-#### ```@preservewhitespace```
+### ```@preservewhitespace```
 
 This scenario only applies to Razor components (.razor).
 
@@ -312,12 +310,12 @@ When set to false (default), whitespace in the rendered markup from Razor compon
 * Leading or trailing within a RenderFragment parameter. For example, child content passed to another component.
 * It precedes or follows a C# code block, such as ```@if``` or ```@foreach```.
 
-#### ```@section```
+### ```@section```
 This scenario only applies to MVC views and Razor Pages (.cshtml).
 
 The ```@section``` directive is used in conjunction with MVC and Razor Pages layouts to enable views or pages to render content in different parts of the HTML page. 
 
-#### ```@typeparam```
+### ```@typeparam```
 
 This scenario only applies to Razor components (.razor).
 
@@ -333,7 +331,7 @@ Generic types with where type constraints are supported:
 @typeparam TEntity where TEntity : IEntity
 ```
 
-#### ```@using```
+### ```@using```
 
 The ```@using``` directive adds the C# using directive to the generated view:
 
@@ -347,36 +345,47 @@ The ```@using``` directive adds the C# using directive to the generated view:
 
 In Razor components, ```@using``` also controls which components are in scope.
 
-### Directive attributes
+## Directive attributes
 Razor directive attributes are represented by implicit expressions with reserved keywords following the ```@``` symbol. A directive attribute typically changes the way an element is parsed or enables different functionality.
 
-#### ```@attributes```
+### ```@attributes```
 This scenario only applies to Razor components (.razor).
 
 ```@attributes``` allows a component to render non-declared attributes. 
 
-#### ```@bind```
+### ```@bind```
 This scenario only applies to Razor components (.razor).
 
 Data binding in components is accomplished with the ```@bind``` attribute. 
 
-#### ```@bind:culture```
+```html
+<input type="checkbox" @bind="todo.IsDone" />
+```
+This example binds the ```todo``` Object's ```IsDone``` property to the checkbox.
+
+### ```@bind:culture```
 This scenario only applies to Razor components (.razor).
 
 Use the ```@bind:culture``` attribute with the ```@bind``` attribute to provide a ```System.Globalization.CultureInfo``` for parsing and formatting a value.
 
-#### ```@on{EVENT}```
+### ```@on{EVENT}```
 This scenario only applies to Razor components (.razor).
 
 Razor provides event handling features for components.
 
-#### ```@ref```
+```html
+<button @onclick="AddTodo">Add todo</button>
+```
+
+With this code, when someone ***clicks*** the button, it calls the ```AddToDo``` method.
+
+### ```@ref```
 This scenario only applies to Razor components (.razor).
 
 Component references (```@ref```) provide a way to reference a component instance so that you can issue commands to that instance. 
 
-### Razor reserved keywords
-#### Razor keywords
+## Razor reserved keywords
+### Razor keywords
 * page
 * namespace
 * functions
@@ -386,7 +395,7 @@ Component references (```@ref```) provide a way to reference a component instanc
 
 Razor keywords are escaped with ```@(Razor Keyword)``` (for example, ```@(functions)```).
 
-#### C# Razor keywords
+### C# Razor keywords
 * case
 * do
 * default
@@ -404,5 +413,5 @@ Razor keywords are escaped with ```@(Razor Keyword)``` (for example, ```@(functi
 
 C# Razor keywords must be double-escaped with ```@(@C# Razor Keyword)``` (for example, ```@(@case)```). The first ```@``` escapes the Razor parser. The second ```@``` escapes the C# parser.
 
-#### Reserved keywords not used by Razor
+### Reserved keywords not used by Razor
 * class
