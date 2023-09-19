@@ -17,10 +17,10 @@ throughout the program.
 ### Define your function - name & parameters
 
 To make a function in python, we must use the `def` keyword. This keyword tells the code editor where the function is defined. `def` is followed by the name of the function. The name of the function is used to call your function from other parts of the program.
- In order to generalize the function (so that we can use it at multiple places), we might need to send some information to it. This is achieved using parameters. They are placed in between parentheses `()` and follows right after the name of the function. If no parameters are needed, they can be ignored. The function declaration ends with a colon. 
- The statements that run each time the function is called follow on the next lines. Tabs are very important here, so make sure your code is indented properly. Every indented line after the function definition line (with the exception of comments)  will be executed when you call the function.
+In order to generalize the function (so that we can use it at multiple places), we might need to send some information to it. This is achieved using parameters. They are placed in between parentheses `()` and follows right after the name of the function. If no parameters are needed, they can be ignored. The function declaration ends with a colon. 
+The statements that run each time the function is called follow on the next lines. Tabs are very important here, so make sure your code is indented properly. Every indented line after the function definition line (with the exception of comments)  will be executed when you call the function.
 
- Here's what a function looks like:
+Here's what a function looks like:
 
 ```python
 def functionName(parameter1, parameter2, ...):

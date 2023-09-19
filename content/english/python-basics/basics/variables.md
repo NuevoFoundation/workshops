@@ -5,7 +5,7 @@ draft: false
 weight: 4
 --- 
 
-In a previous exercise, we learned to print different statements with `print("")`. While it is great to print out a number or a sentence, we haven't given them a meaning. Variables are simply names that we can give to values such as strings, numbers, and booleans. Here’s how to make a variable named s in Python. We say s is a string that has the value `"Hello, World!"`. 
+In a previous exercise, we learned to print different contents with `print("")`. While it is great to print out a number or a sentence, we haven't given them a meaning. Variables are simply names that we can give to values such as strings, numbers, and booleans. Here’s how to make a variable named s in Python. We say s is a string that has the value `"Hello, World!"`. 
 
 ```python
 s = "Hello, World!"
