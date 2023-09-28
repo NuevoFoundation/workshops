@@ -14,7 +14,6 @@ Now that you understand how we can get the system to provide signals from the pr
 2.	Attach one end of a jumper wire to +5V on the joystick and the other to 5V on the Elegoo.
 3.	Attach one end of a jumper wire to VRx on the joystick and the other to A0 (analog pin 0) on the Elegoo.
 4.	Attach one end of a jumper wire to VRy on the joystick and the other to A1 (analog pin 1) on the Elegoo.
-4.	Attach one end of a jumper wire to VRy on the joystick and the other to A1 (analog pin 1) on the Elegoo.
 5.	Attach one end of a jumper wire to SW on the joystick and the other to 2 (digital pin 2) on the Elegoo.
 6.	Plug in the Arduino board via USB to your PC and open the Arduino IDE application.
 

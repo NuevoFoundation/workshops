@@ -49,7 +49,7 @@ Let's learn about the different parts in a class below:
 ### Class
 A class is a blueprint or prototype of a new type of object. In general, a class contains three important parts: (1) data fields/instance variables (2) constructor (3) methods.
 
-<img src="../images/class.png" height="400" alt="A Class blueprint for an object contains instance varialbes/data fields which are data/attributes in the object, constructor which are methods that creates the obejct of the class, and methods, which are behaviors possible for the object."/> 
+<img src="../images/class.png" height="400" alt="A Class blueprint for an object contains instance variables/data fields which are data/attributes in the object, constructor which are methods that creates the obejct of the class, and methods, which are behaviors possible for the object."/> 
 
 **Element** | **Description** | **Example**
 ---|---|---
