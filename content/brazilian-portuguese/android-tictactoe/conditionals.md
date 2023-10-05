@@ -18,7 +18,7 @@ if (isRainingOutside == true) {
 
 Para o nosso jogo, devemos usar instruções `if` para determinar se um jogador tem 3 correspondências verticais, horizontais ou diagonais.
 
-Dentro do `()` ao lado de `if`, você deve especificar uma _expressão booleana_. **Booleans** são declarações `verdadeiras` ou `falsas`. Podemos utilizar isso em nossa instrução `if`. Se a expressão for `verdadeira`, o código dentro de `{ }` é executado. Se a expressão for `falsa`, o código dentro de `{ }` após a instrução `else` é executado.
+Dentro do `()` ao lado de `if`, você deve especificar uma _expressão booleana_. **Booleans** são declarações `true` ou `false`. Podemos utilizar isso em nossa instrução `if`. Se a expressão for `verdadeira`, o código dentro de `{ }` é executado. Se a expressão for `falsa`, o código dentro de `{ }` após a instrução `else` é executado.
 
 Você também pode conectar **expressões booleanas** usando o operador `&&` (E) e o operador `||` (OU).
 

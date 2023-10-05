@@ -61,7 +61,7 @@ Execute o Android Studio e abra o projeto. Você verá algo parecido com:
 ## Aceite as Licenças
 Antes de poder executar o código, você precisará aceitar as licenças do Android seguindo as etapas abaixo:
 1. Clique no botão `Terminal` na parte inferior da janela do Android Studio.
-2. Digite o comando abaixo, substituindo '<usuário>' pelo nome de usuário do seu computador.
+2. Digite o comando abaixo, substituindo '<USER_NAME>' pelo nome de usuário do seu computador.
 ```
 C:\Users\<USER_NAME>\AppData\Local\Android\Sdk\tools\bin\sdkmanager --licenses
 ```
