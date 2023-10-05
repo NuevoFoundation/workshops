@@ -9,7 +9,7 @@ weight: 2
 Pressione o botão play (►) na parte superior do Android Studio para iniciar o jogo.
 <img src="../resources/_gen/images/run_app.png" height="30%" width="30%" title="Botão Executar aplicativo" alt="Botão Executar aplicativo"/>
 
-Você verá que o título na parte superior do aplicativo diz Toe-Tac-Tic (isso não parece certo!); vamos mudar para Tic-Tac-Toe.
+Você verá que o título na parte superior do aplicativo diz Jogo da Velha (isso não parece certo!); vamos mudar para Jogo da Velha.
 
 ## Resolva o quebra-cabeça
 Clique duas vezes no arquivo `strings.xml` em app &rarr; res &rarr; valores:

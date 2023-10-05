@@ -14,7 +14,7 @@ weight: 14
 
 ### Quebra-cabeça 2
 ```kotlin
-Toast.makeText(this, "Welcome to Tic-Tac-Toe", Toast.LENGTH_LONG).show()
+Toast.makeText(this, "Bem vindo ao Jogo da Velha", Toast.LENGTH_LONG).show()
 ```
 
 ### Quebra-cabeça 3

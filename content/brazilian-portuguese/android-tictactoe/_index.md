@@ -16,16 +16,16 @@ Você já se perguntou como poderia construir seu próprio Jogo da Velha?
 Você está com sorte, hoje é o dia em que você poderá construir o seu próprio!
 
 
-<img src="resources/_gen/images/game_play.gif" height="30%" width="22%" title="Android Tic-Tac-Toe Game" alt="Android Tic-Tac-Toe Game"/>
+<img src="resources/_gen/images/game_play.gif" height="30%" width="22%" title="Android Jogo da Velha" alt="Android Jogo da Velha"/>
 
 ## Começando
 
 ## O que é Android?
-O Android é atualmente o sistema operacional móvel mais usado no mundo! O Android Studio permite que você crie aplicativos que podem ser usados por esses dispositivos Android. Na verdade, se você tiver um telefone Android, poderá até baixar o aplicativo que está criando hoje em seu telefone!
+O Android é atualmente o sistema operacional de celular mais usado no mundo! O Android Studio permite que você crie aplicativos que podem ser usados por esses dispositivos Android. Na verdade, se você tiver um telefone Android, poderá até baixar o aplicativo que está criando hoje em seu telefone!
 
 ## Sobre esse projeto
 
-Neste projeto, fornecemos a você um aplicativo Android quase funcional que é um jogo de Jogo da Velha. Ele precisa de sua ajuda para corrigir alguns problemas e adicionar algumas partes para torná-lo um ótimo jogo!
+Neste projeto, fornecemos a você um aplicativo Android quase funcional. Ele precisa de sua ajuda para corrigir alguns problemas e adicionar algumas partes para torná-lo um ótimo jogo!
 
 ## Baixe os arquivos do projeto
 Para começar, baixe os arquivos do projeto usando as etapas abaixo:

@@ -6,7 +6,7 @@ weight: 2
 ---
 Siga as etapas abaixo para instalar o Android Studio em seu computador. Se você já tiver o Android Studio instalado, abra-o e pule para a próxima etapa!
 
-Essas etapas têm exemplos para instalação em computadores Windows. No entanto, as etapas são semelhantes para outros tipos de computadores também.
+Essas etapas têm exemplos para instalação em computadores Windows. No entanto, as etapas são semelhantes para outros sistemas operacionais de computador também.
 
 ## Baixe e Instale o Android Studio
 1. [Baixe o Android Studio](https://developer.android.com/studio/) para o seu sistema operacional.
@@ -55,7 +55,7 @@ Existem várias maneiras de iniciar o aplicativo Android Studio em seu computado
  - A pasta 'TicTacToe' a ser selecionada deve ter um ícone verde do Android ao lado, indicando que é uma pasta de projeto Android.
 <img src="../resources/_gen/images/open_android_project.gif" height="40%" width="40%" title="Abrir projeto TicTacToe" alt="Mostra como abrir o projeto TicTacToe no Android Studio"/>
 
-Execute o Android Studio e abra o projeto. Sua visão será semelhante a esta:
+Execute o Android Studio e abra o projeto. Você verá algo parecido com:
 <img src="../resources/_gen/images/android_studio.png" height="60%" width="60%" title="IDE do Android Studio" alt="Exemplo da IDE do Android Studio"/>
 
 ## Aceite as Licenças

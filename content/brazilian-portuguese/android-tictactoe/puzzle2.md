@@ -6,7 +6,7 @@ weight: 5
 ---
 Vamos adicionar uma mensagem de boas-vindas que o usuário poderá ver quando iniciar seu aplicativo!
 
-Vá para **MainActivity.kt** e encontre `// PUZZLE 2` no código e escreva um brinde que dá as boas-vindas ao usuário ao seu jogo com "Bem-vindo ao Tic-Tac-Toe!". Agora pressione o botão play (► ) na parte superior do Android Studio e seu aplicativo deverá ficar assim:
+Vá para **MainActivity.kt** e encontre `// PUZZLE 2` no código e escreva um brinde que dá as boas-vindas ao usuário ao seu jogo com "Bem-vindo ao Jogo da Velha!". Agora pressione o botão play (► ) na parte superior do Android Studio e seu aplicativo deverá ficar assim:
 
 <img src="../resources/_gen/images/toast_success.png" height="35%" width="27%" title="Brinde de sucesso" alt="Exemplo de jogo com texto de boas-vindas bem-sucedido ao Tic Tac Toe exibido usando brinde"/>
 
