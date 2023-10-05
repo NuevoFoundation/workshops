@@ -31,7 +31,7 @@ Exclua todo o texto `System.out.println` em seu código. Tente adivinhar as resp
 
 ## Operadores Booleanos
 
-Você também pode conectar expressões booleanas usando o operador `&&` (E) e o operador `||` (OU). Por exemplo, suponha que eu pergunte: "Você é humano e Nuvi é um robô?" A palavra "e" conecta as duas perguntas verdadeiro-falso juntas. Neste caso, como é verdade que você é humano e também é verdade que Nuvi é um robô, então o resultado geral é `verdadeiro`. Aqui está um gráfico que descreve o que acontece quando conectamos booleanos juntos:
+Você também pode conectar expressões booleanas usando o operador `&&` (E) e o operador `||` (OU). Por exemplo, suponha que eu pergunte: "Você é humano e Nuvi é um robô?" A palavra "e" conecta as duas perguntas verdadeiro-falso juntas. Neste caso, como é verdade que você é humano e também é verdade que Nuvi é um robô, então o resultado geral é `true`. Aqui está um gráfico que descreve o que acontece quando conectamos booleanos juntos:
 
 
 | Expressão                   | Resultado   | Expressão                             | Resultado  |
