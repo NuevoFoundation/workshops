@@ -11,7 +11,7 @@ weight: 4
 
 ## Trabalhando juntos
 
-1. Sem remover as aspas, tente alterar `"Reiniciando o jogo Tac-Tac-Toe!"` para `"Reiniciando o jogo Tic-Tac-Toe!"` ou qualquer outra frase que desejar. Pressione executar para ver se alguma coisa muda.
+1. Sem remover as aspas, tente alterar `"Reiniciando o jogo da velha!"` para `"Reiniciando o jogo Tic-Tac-Toe!"` ou qualquer outra frase que desejar. Pressione executar para ver se alguma coisa muda.
 2. Adicione outro `System.out.println` abaixo da linha atual para imprimir uma segunda frase abaixo da primeira frase.
 3. Pressione executar para ver se duas frases foram impressas. Se você vir algum texto em vermelho, peça ajuda.
 
