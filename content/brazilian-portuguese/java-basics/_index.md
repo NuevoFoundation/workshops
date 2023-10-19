@@ -31,6 +31,6 @@ Neste curso, seguiremos o exemplo de um pato amarelo amante da música chamado <
 ## Índice
 
 <details close>
-<summary>Table of Contents</summary>
+<summary>Taela de Conteúdos</summary>
 {{% children /%}}
 </details>
