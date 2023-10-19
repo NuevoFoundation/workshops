@@ -1,5 +1,5 @@
 ---
-title: "Java: Fundamentos - Palavra chave"
+title: "Java: Fundamentos - Chaves de respostas"
 date: 2020-07-09T00:00:00Z
 weight: 15
 draft: false
