@@ -1,6 +1,6 @@
 ---
 title: "Métodos"
-description: "Apresente métodos em Java."
+description: "Métodos em Java."
 date: 2021-10-13T00:00:00Z
 weight: 6
 ---
