@@ -51,9 +51,9 @@ public void sing (String songName)
 
 <br />
 
-### Corpo do Método
+### Escopo do Método
 
-A seguir, colocamos o bloco de código associado ao método no **corpo do método**, que está entre `{` e `}` após o cabeçalho do método.
+A seguir, colocamos o bloco de código associado ao método no **escopo do método**, que está entre `{` e `}` após o cabeçalho do método.
 
 Para retornar alguns dados, colocamos a palavra-chave `return` seguida do nome de uma variável ou de um valor a ser retornado.
 
