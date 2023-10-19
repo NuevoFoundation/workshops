@@ -1,6 +1,6 @@
 ---
 title: "Imprimir declarações e comentários"
-description: "Introduzir métodos println() e comentários em Java."
+description: "Introdução aos métodos println() e comentários em Java."
 date: 2021-10-13T00:00:00Z
 weight: 2
 ---
