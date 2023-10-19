@@ -1,5 +1,5 @@
 ---
-title: "Estruturas de dados vetor (array) e lista de vetores (ArrayList)"
+title: "Estruturas de dados de vetor (array) e lista de vetores (ArrayList)"
 description: "Apresentando estruturas de dados básicas em Java."
 date: 2021-10-13T00:00:00Z
 weight: 8
