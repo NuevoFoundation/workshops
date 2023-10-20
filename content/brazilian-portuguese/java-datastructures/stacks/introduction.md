@@ -13,4 +13,4 @@ Um exemplo comum para pensar em uma stack (pilha) é uma pilha de pratos. Imagin
 
 Essa lógica Last In, First Out (LIFO) também se aplica a pilhas em Java.
 
-![image](../img/stack.png)
+![Temos cinco itens, posicionados verticalmente, os quais são de baixo para cima, [0] [1] [2] [3], onde o item [4] está saindo com a fução Pop() e o item [5] está entrando no lugar do [4] com a função Push()](../img/stack.png)
