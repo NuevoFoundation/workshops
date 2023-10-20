@@ -9,7 +9,7 @@ weight: 1
 
 Já aprendemos muito sobre vetores (arrays). Sabemos que um array pode conter muitos tipos diferentes (integers (inteiros), strings, doubles (duplos) etc.), mas que tal um array que contém arrays?
 
-![image](../img/2darray.png)
+![imagem de uma tabela com colunas denominadas Array de 0 a 4 e linhas denominadas Index de 0 a 4. Na intersecção Array 0 e Index 0 temos [0][0], na Array 1 e Index 0 temos [1][0], na Array 3 e Index 4, temos [3][4] e assim por diante](../img/2darray.png)
 
 Um array 2D tem um tipo como `int[][]` ou `String[][]`, com dois pares de colchetes. Os elementos de um array 2D são organizados em linhas e colunas, e o novo operador para arrays 2D especifica o número de linhas e o número de colunas. Por exemplo,
 
