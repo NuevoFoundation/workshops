@@ -17,7 +17,7 @@ Clique no botão abaixo para se inscrever em uma conta Replit - você precisará
 
 A seguir, inicie o console Replit que usaremos hoje clicando no botão abaixo. Você deverá ver a tela abaixo.
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsTest" target="_blank">Launch Replit</a>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsTest" target="_blank">Iniciar Replit</a>
 
 <img src="../images/replit-start-screen.png" height="300" alt="Tela inicial de um repl" />
 
