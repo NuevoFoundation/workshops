@@ -14,9 +14,9 @@ Tacos Truck já está disponível na rua! Novos funcionários estão lutando par
 ```js javascript
 /*
 Dan está pedindo tacos em sua loja favorita:
-    - 2 pedidos de "carne asada"
+    - 2 pedidos de "carne assada"
     - 4 pedidos de "carnitas"
-    - 1 pedido de "pollo"
+    - 1 pedido de "frango"
     - 2 pedidos de "birria"
 
     Retorne um ArrayList de todos esses elementos nessa ordem
@@ -38,9 +38,9 @@ Um restaurante que vende comida chinesa acaba de abrir nas proximidades. Um gran
 ArrayList<String> menu = new ArrayList<>(); 
 
 menu.add("Pizza"); 
-menu.add("Hotdog"); 
+menu.add("Cachorro Quente"); 
 menu.add("Hamburger"); 
-menu.add("Hotdog"); 
+menu.add("Cachorro Quente"); 
 
 // Retorna "Pizza" pois é o item número 0 do cardápio
 item = find(menu, 0);
@@ -61,16 +61,16 @@ O mesmo restaurante chinês tem um bug no código! Os pedidos foram duplicados a
 ArrayList<String> menu = new ArrayList<>(); 
 
 menu.add("Pizza"); 
-menu.add("Hotdog"); 
+menu.add("Cachorro Quente"); 
 menu.add("Hamburger"); 
 menu.add("Pizza");
 menu.add("Pizza");
-menu.add("Hotdog"); 
+menu.add("Cachorro Quente"); 
 
 // Remova os dois primeiros pedidos de pizza
 item = remove(menu,"Pizza", 2);
 
-// O menu não será o seguinte array: {"Hotdog", "Hamburger", "Pizza", "Hotdog"}
+// O menu não será o seguinte array: {"Cachorro Quente", "Hamburger", "Pizza", "Cachorro Quente"}
 ```
 
 <iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@nuevofoundation/2DRemove?lite=true"></iframe>
