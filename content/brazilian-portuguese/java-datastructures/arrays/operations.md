@@ -75,7 +75,7 @@ for (int i = 0; i < restaurants.length; i++) {
     System.out.println(restaurants[i]);
 }
 
-// Outputs:
+// Saídas:
 // Burger King
 // Chipotle
 // Panda Express
