@@ -9,6 +9,6 @@ Um HashMap é uma tabela que contém uma coleção de pares chave-valor. Ele “
 
 HashMaps pode armazenar muitos tipos diferentes de informações. O abaixo armazena pessoas como chave e seu pedido como valor.
 
-![image](../img/hashmap.png)
+![Tabela com duas colunas e quatro linhas. Na primeira coluna,"Chave", temos na primeira linha "Sam", na segunda "Maria", na terceira "Bea"e na quarta, reticências. Na segunda coluna, "Valor", temos na primeira linha "Coca", na segunda "Fritas", na terceira "Arepas" e na quarta, reticências.](../img/hashmap.png)
 
 Queremos poder acessar diretamente o pedido de alguém da mesma forma que encontraríamos uma definição em um dicionário. Ao procurar “Bea”, o HashMap retorna seu pedido: Arepas. Veremos alguns métodos HashMap comuns na próxima página.
