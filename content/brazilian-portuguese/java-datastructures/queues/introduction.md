@@ -15,4 +15,4 @@ Queremos atender nossos novos clientes potenciais da maneira mais eficiente poss
 
 Na verdade, a maioria das filas que encontraremos em Java funciona da seguinte maneira: Primeiro a entrar, primeiro a sair – geralmente abreviado como FIFO (First In, First Out).
 
-![image](../img/queue.png)
+![Uma fila com itens "< [0] [1] [2] [3] <" onde no primeiro "<" está escrito "Saia da fila aqui" e no segundo "<" está escrito "Entre na fila aqui"](../img/queue.png)
