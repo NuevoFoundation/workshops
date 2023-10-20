@@ -11,9 +11,9 @@ No array 2D abaixo temos uma lista de diferentes alimentos. Cada linha é do mes
 
 ```js javascript
 String[][] menu = {    
-                    { "Hamburger", "Pasta", "Steak", "Tacos" },
-                    { "Cola", "Sprite", "Pepsi", "Fanta" },
-                    { "Pudding", "Ice Cream", "Mochi", "Cake" }
+                    { "Hamburger", "Massa", "Filé", "Tacos" },
+                    { "Coca", "Sprite", "Pepsi", "Fanta" },
+                    { "Pudim", "Sorvete", "Moti", "Bolo" }
                   };
 ```
 Use o que você aprendeu para imprimir o array!
