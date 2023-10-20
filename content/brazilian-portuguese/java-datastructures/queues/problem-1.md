@@ -20,11 +20,11 @@ Um novo restaurante foi adicionado ao Nuevo Eats! Novos pedidos estão chegando 
 // Isso usa uma lista como organizadora da fila.
 Queue<String> orders = new PriorityQueue<>();
 
-orders.add("Fish Taco");
-orders.add("Beef Taco");
-orders.add("Chicken Taco");
-orders.add("Fish Taco");
-orders.add("Beef Taco");
+orders.add("Taco de Peixe");
+orders.add("Taco de Carne");
+orders.add("Taco de Frango");
+orders.add("Taco de Peixe");
+orders.add("Taco de Carne");
 ```
 
 <a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/Clear" target="_blank">Iniciar Replit</a>
