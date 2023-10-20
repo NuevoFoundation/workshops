@@ -20,10 +20,10 @@ HashMap<String, String> order = new HashMap<String, String>();
 
 //chave, valor
 order.put("Justin", "Sprite");
-order.put("George", "Coke");
+order.put("George", "Coca");
 order.put("Sam", "Fanta");
-order.put("Eva", "Coke");
-order.put("Olivia", "Coke");
+order.put("Eva", "Coca");
+order.put("Olivia", "Coca");
 ...
 ```
 
