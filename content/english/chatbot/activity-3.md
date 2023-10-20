@@ -29,4 +29,10 @@ Remember: When writing the pattern, use all caps and avoid using punctuation. So
 
 {{% /notice %}}
 
+{{% notice tip %}}
+
+Remember to save the file whenever you modify the categories and want to interact with the chatbot.
+
+{{% /notice %}}
+
 Try adding these categories to your bot and test them out using the chat widget. At this point, the bot should respond to "Hello", "What is your name?", "What is your favorite color?", and "What is your favorite food?".
