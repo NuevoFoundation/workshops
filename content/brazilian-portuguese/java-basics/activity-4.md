@@ -141,7 +141,7 @@ Vamos tentar fazer isso em um while loop:
 
 1. Temos uma variável chamada `total` que rastreia a soma total da adição que obtivemos até agora.
 2. Temos uma variável chamada `num` que rastreia o próximo número a ser adicionado ao `total`.
-3. Escreva a `boolean expression` (expressão booleana) apropriada e escreva o while loop.
+3. Escreva a `boolean expression` (expressão booleana) apropriada e escreva o `while` loop.
 
 Seguindo essas etapas, obteremos um loop while como este:
 
