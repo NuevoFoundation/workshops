@@ -34,8 +34,8 @@ Outro uso prático da stack é a função de desfazer. Muitos programas hoje em 
 // Exemplo da atual stack
 Stack<String> myOrder = new Stack<>();
 
-restaurants.push("Drink");
-restaurants.push("Fries");
+restaurants.push("Bebida");
+restaurants.push("Batata Frita");
 restaurants.push("Pizza");
 restaurants.push("Pizza");
 
