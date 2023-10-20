@@ -35,7 +35,7 @@ Após bifurcar o Replit, você verá uma janela semelhante a esta abaixo:
 Cada vez que você vir o botão "Iniciar Replit", você precisará seguir as etapas acima para bifurcar o repl e concluir uma atividade. Peça ajuda se estiver tendo problemas para bifurcar as respostas!
 {{%/notice %}}
 
-Antes de começarmos, vamos primeiro entender como funciona o Replit. O arquivo `main.java` contém código ou instruções para o computador funcionar. Ao pressionar o botão **executar**, você instrui o computador a executar as instruções do código. Quaisquer resultados da execução do código serão exibidos na tela branca inferior, na guia **resultado**.
+Antes de começarmos, vamos primeiro entender como funciona o Replit. O arquivo `main.java` contém código ou instruções para o computador funcionar. Ao pressionar o botão **run**, você instrui o computador a executar as instruções do código. Quaisquer resultados da execução do código serão exibidos na tela branca inferior, na guia **resultado**.
 
 Para aprender como codificar as estruturas de dados, usaremos o Replit para testar suas habilidades. Pressione executar e tente completar as seguintes tarefas!
 
