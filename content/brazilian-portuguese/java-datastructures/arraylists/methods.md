@@ -14,10 +14,10 @@ public class Main {
     public static void main(String[] args) {
         ArrayList<String> order = new ArrayList<String>();
         order.add("Whopper");
-        order.add("Chicken Nugget");
-        order.add("Fries");
-        order.set(1, "Coke");
-        // Isso troca o elemento 1, Chicken Nugget (nuggets de frango) para uma Coke (Coca-Cola).
+        order.add("Nuggets");
+        order.add("Batata Frita");
+        order.set(1, "Coca");
+        // Isso troca o elemento 1, Nuggets para uma Coca.
     }
 }
 ```
@@ -34,10 +34,10 @@ public class Main {
     public static void main(String[] args) {
         ArrayList<String> order = new ArrayList<String>();
         order.add("Whopper");
-        order.add("Chicken Nugget");
-        order.add("Fries");
+        order.add("Nuggets");
+        order.add("Batata Frita");
         order.remove(2);
-        // Remove batatas fritas do ArrayList
+        // Remove batata frita do ArrayList
     }
 }
 ```
@@ -54,8 +54,8 @@ public class Main {
     public static void main(String[] args) {
         ArrayList<String> order = new ArrayList<String>();
         order.add("Whopper");
-        order.add("Chicken Nugget");
-        order.add("Fries");
+        order.add("Nuggets");
+        order.add("Batata Frita");
         System.out.println(order.size());
         // Gera o tamanho do ArrayList, neste caso: 3
     }
@@ -74,15 +74,15 @@ public class Main {
     public static void main(String[] args) {
         ArrayList<String> order = new ArrayList<String>();
         order.add("Whopper");
-        order.add("Chicken Nugget");
-        order.add("Fries");
+        order.add("Nuggets");
+        order.add("Batata Frita");
         for (int i = 0; i < order.size(); i++) {
             System.out.println(order.get(i));
         }
         // Saída:
         // Whopper
-        // Chicken Nugget
-        // Fries
+        // Nuggets
+        // Batata Frita
     }
 }
 ```
