@@ -46,7 +46,7 @@ x = 10;
 
 Neste exemplo, a variável `x` é primeiro atribuída a 4 e depois reatribuída a 10.
 
-O código abaixo cria um novo objeto Phaser Game e o armazena em uma variável para usar em nosso jogo.
+O código a seguir irá instanciar um novo objeto do tipo Phaser Game, que será armazenado em uma variável para posterior utilização em nosso jogo.
 
 ```js
 var game = new Phaser.Game(800, 600);
