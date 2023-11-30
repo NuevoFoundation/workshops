@@ -12,7 +12,7 @@ draft: false
 
 1. To make music, click on the below button to open Earsketch in a new tab.
 
-<a class="my-2 mx-4 btn btn-info" href="https://earsketch.gatech.edu/earsketch2/" target=_blank">Launch Earsketch</a>
+<a class="my-2 mx-4 btn btn-info" href="https://earsketch.gatech.edu/earsketch2/" target="_blank">Launch Earsketch</a>
 
 2. Now, let's get started. Click on *Scripts* icon on the left menu bar and
 select *Create a new script*. When prompted to enter the script name, enter *myjam* and click on *Create* button. 
