@@ -85,7 +85,7 @@ Por exemplo:
 
 (1 < 100 &&
   (5!= 10)(
-    // produz verdadeiro, pois pelo menos uma das expressões resulta em verdadeiro
+    // Retorna verdadeiro, pois 5 é tanto menor que 8 e 9 quanto diferente de 10
     5 == 5
   )) ||
   10 > 20;
