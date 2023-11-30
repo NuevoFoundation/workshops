@@ -160,7 +160,7 @@ for (var i = 0; i < 7; i += 1) {
 
 Este código executa a mesma operação, mas usa `i` entre colchetes.
 
-Você pode ver um loop for em ação aqui: <https://codepen.io/nayomitchell/pen/JgNoQe>! Tente alterar os números nas diferentes afirmações.
+Você pode observar um loop for em funcionamento neste link: <https://codepen.io/nayomitchell/pen/JgNoQe>! Experimente modificar os valores nas diversas declarações para ver como isso afeta o comportamento do loop.
 Você consegue descobrir como fazer o loop fazer uma **contagem regressiva**?
 
 ---
