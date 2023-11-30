@@ -5,7 +5,7 @@ weight: 3
 draft: false
 ---
 
-![alt text height="600px" width="30%"](../media/bee_square.png "Bee imagining square")
+<img src="../media/bee_square.png" alt="Bee imagining square" width="25%" />
 
 <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/CRJf-LbXAx4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 

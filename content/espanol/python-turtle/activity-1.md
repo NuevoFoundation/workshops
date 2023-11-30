@@ -5,6 +5,8 @@ weight: 3
 draft: false
 ---
 
+<img src="../media/bee_square.png" alt="Abeja imaginando un cuadrado" width="25%" />
+
 ¡Muy bien! Has ayudado a Alex a dibujar una línea. Ahora demos un paso más y dibujemos un cuadrado. Para dibujarlo, necesitamos seguir los siguientes pasos:
 
 1. Ir hacia adelante 50 pixeles.

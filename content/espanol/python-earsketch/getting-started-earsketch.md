@@ -15,7 +15,7 @@ draft: false
 
 2. Clic donde dice *Scripts* en el menu izquierdo y selecciona `Create a new script`. Cuando te salga que introduzcas el number del script, coloca `myjam` (mis sonidos) y dale click en el buton de `Create`.
 
-![alt text height="600px" width="60%"](../gif/createanewscript.gif "New script demo")
+<img src="../gif/createanewscript.gif" alt="Demo" width="50%"/>
 
 3. ¡No borrar ningún código que ya este escrito! Colocaremos nuestro código en estas líneas.
 

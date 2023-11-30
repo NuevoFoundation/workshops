@@ -27,3 +27,5 @@ Tu código debe parecerse a este::
     fitMedia(YG_TRAP_BASS_9, 4, 1, 9)\
     finish()
     {{% /notice %}}
+
+![Robot tocando musica](https://media.giphy.com/media/9RJRzvIuKGrL3tAchc/giphy.gif)
