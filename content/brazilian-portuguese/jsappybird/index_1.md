@@ -66,7 +66,7 @@ if (isRainingOutside == true) {
 }
 ```
 
-Dentro de `()` ao lado de `if`, você deve especificar uma _expressão booleana_. **Booleanos** são declarações `true` ou `false`. Podemos utilizar isso em nossa declaração if. Se a expressão for `true`, o código dentro de `{ }` será executado.
+Dentro de `()` ao lado de `if`, você deve especificar uma _expressão booleana_. **Booleans** são declarações `true` ou `false`. Podemos utilizar isso em nossa declaração if. Se a expressão for `true`, o código dentro de `{ }` será executado.
 
 Também podemos usar expressões booleanas para verificar se um número está em um intervalo específico:
 
