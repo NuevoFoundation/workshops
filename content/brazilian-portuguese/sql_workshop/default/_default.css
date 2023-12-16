@@ -1,0 +1,96 @@
+/* Posições e estilo para os blocos de código */
+.codeBlocks {
+  display: block;
+  float: left;
+  width: 90px;
+  height: 50px;
+  border: 1px solid green;
+  margin: 5.0px;
+}
+
+/* Posições e estilo para os locais de descarte */
+.dropClass {
+  display: block;
+  float: left;
+  width: 80px;
+  height: 50px;
+  margin: 10px;
+  border: 1px solid white;
+  overflow: hidden;
+}
+
+/* Posição de referência para blocos */
+.terminal_div {
+  padding-top: 130px;
+  padding-left: 100px;
+  padding-bottom: 0px;
+  padding-right: 10px;
+  background-image: url('../media/Terminal.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 780px;
+  height: 480px;
+}
+
+/* Posições para imagens de blocos de código dentro de retângulos */
+.img {
+  position: relative;
+  bottom: 25px;
+  max-height: 90%;
+  max-width: 90%;
+}
+
+/* Formato do botão (padrão) */
+.button {
+  float: right;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height: 60px;
+  width: 80px;
+}
+
+/* Estilo do botão Enter */
+.button1 {
+  background-color: #4dff4d;
+  color: white;
+  text-align: left;
+  display: inline-block;
+  font-size: 15.0px;
+  margin: 4px 2px;
+  border-radius: 25%;
+}
+
+/* Estilo do botão de reset */
+.reset {
+  background-color: #FF0000;
+  color: white;
+  text-align: left;
+  display: inline-block;
+  font-size: 15.0px;
+  margin: 4px 2px;
+  border-radius: 25%;
+}
+
+/* Banner de conclusão */
+.alert {
+  padding: 20px;
+  background-color: #78ff62;
+  color: #008f00;
+  font-size: 18px;
+}
+
+#check {
+  margin-right: 15px;
+  color: #008f00;
+  font-weight: bold;
+  float: left;
+  font-size: 30px;
+  line-height: 20px;
+}
