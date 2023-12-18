@@ -1,63 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Workshop Contributor Guidelines on Nuevo Foundation Workshops</title>
-    <link>/guidelines/</link>
-    <description>Recent content in Workshop Contributor Guidelines on Nuevo Foundation Workshops</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 22 Jul 2019 14:08:32 -0700</lastBuildDate><atom:link href="/guidelines/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>How the site is built</title>
-      <link>/guidelines/site-architecture/</link>
-      <pubDate>Wed, 29 Jul 2020 14:08:32 -0700</pubDate>
-      
-      <guid>/guidelines/site-architecture/</guid>
-      <description>How the site is built The workshops subdomain content is built using the DocDocktheme for Hugo. Hugois a static site generator with a number of benefits:
-Content authors can focus on content using markdown and not on the technical implementation of the site or CSS/page styling. Workshops are automagically added to the left table-of-contents and the workshops home page. Hugo works great locally (ex: on an airplane), and Hugo is the fastest static site generator, building the entire workshop site in &amp;lt;2 seconds.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started</title>
-      <link>/guidelines/getting-started/</link>
-      <pubDate>Wed, 29 Jul 2020 14:08:32 -0700</pubDate>
-      
-      <guid>/guidelines/getting-started/</guid>
-      <description>Prerequisites Visual Studio CodeHugoGit. Learn more about Git and GitHub in their Quickstartguide. Reference Links Github repoWorkshops websiteWalkthrough Videos Workshops Github repository development cycleWorkshops Github repository structureCode Contribution to this repository is via the fork model. Contributors push changes to their own &amp;ldquo;forked&amp;rdquo; version of workshops, and then submit a pull request into it requesting those changes be merged.
-To get started:</description>
-    </item>
-    
-    <item>
-      <title>New Workshop Guidelines</title>
-      <link>/guidelines/new-workshops/</link>
-      <pubDate>Wed, 29 Jul 2020 14:08:32 -0700</pubDate>
-      
-      <guid>/guidelines/new-workshops/</guid>
-      <description>This document is intended to guide you on how to create new workshops for the Nuevo Foundation workshop project.
-Please familiarize yourself with the Site Architectureand the Getting Startedsections.</description>
-    </item>
-    
-    <item>
-      <title>Web Developer Guidelines</title>
-      <link>/guidelines/web-developer/</link>
-      <pubDate>Mon, 22 Jul 2019 14:08:32 -0700</pubDate>
-      
-      <guid>/guidelines/web-developer/</guid>
-      <description>This document is for website developers only for changing the Nuevo Foundation workshop projecttemplates and style.
-Before getting started Before adding/updating the website, ensure you have synced with the project team and the existing work in the Project Backlog.
-Setup Follow the instructions in the Getting Startedpage to install Git and Hugo to test the project locally.
-Web design styles and structure Images: Website images should be themes/images CSS Ignore the SCSS files and just use CSS files in /themes/docdock/static/css/ Make sure to add a reference to the CSS you want to include in the head.</description>
-    </item>
-    
-    <item>
-      <title>Formatting</title>
-      <link>/guidelines/formatting/</link>
-      <pubDate>Wed, 29 Jul 2020 14:08:32 -0700</pubDate>
-      
-      <guid>/guidelines/formatting/</guid>
-      <description>When creating or modifying workshops, you&amp;rsquo;ll write them using standard Markdown syntax, plus some additional custom syntax. This page explains what syntax to use to add specific formats to a workshop.
-Formatting Reference Standard Markdown cheatsheetCustom Formatting Options using shortcodesFormatting Examples This theme includes a number of options to customize the look and feel of your site. Below, you can find several usage examples, which include the syntax to use followed by what is actually shown on a page when you use that syntax.</description>
-    </item>
-    
-  </channel>
-</rss>

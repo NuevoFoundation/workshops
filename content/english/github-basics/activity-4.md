@@ -71,3 +71,5 @@ When your coding exploration is complete, it's time to merge your findings:
 ### Wrapping Up
 
 Branching is your tool for seamless exploration and collaboration on GitHub. So, go forth and conquer coding challenges, just like you, Maria, and Kyle exploring together! 🚀🌟
+
+{{< children >}}

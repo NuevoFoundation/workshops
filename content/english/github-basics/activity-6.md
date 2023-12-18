@@ -50,3 +50,5 @@ Enlisting GitHub Actions and CI as part of your crew offers significant advantag
 ### Smooth Sailing Ahead
 
 With GitHub Actions and CI, you can confidently navigate the digital waters, knowing your coding boat is equipped to weather any storm. Embrace automation as your trusted tool, ensuring your coding voyage remains smooth and productive from start to finish.
+
+{{< children >}}

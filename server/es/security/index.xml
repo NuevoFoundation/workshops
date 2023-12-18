@@ -1,62 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Seguridad: Juego de Espías on Nuevo Foundation Workshops</title>
-    <link>/es/security/</link>
-    <description>Recent content in Seguridad: Juego de Espías on Nuevo Foundation Workshops</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>es</language><atom:link href="/es/security/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Conociendo a Alicia, Bob y Eva</title>
-      <link>/es/security/meeting-alice-bob-eve/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/es/security/meeting-alice-bob-eve/</guid>
-      <description>Conoce a nuestro amigo Bob. Bob tiene un secreto que no quiere compartir, le gustaría mantenerlo a salvo. Tiene el secreto guardado en un lugar seguro. Solo Bob tiene la clave de la cerradura para asegurarse de que nadie más que él pueda llegar a su secreto.
-Conoce a nuestra no tan buena amiga Eva. Eva quiere acceder al secreto de Bob.
-Eva se da cuenta de que para llegar al secreto de Bob, primero debe pasar la cerradura.</description>
-    </item>
-    
-    <item>
-      <title>Conceptos Básicos de la Contraseña</title>
-      <link>/es/security/password-basics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/es/security/password-basics/</guid>
-      <description>¡Nuestra agente secreta Alicia resuelve el caso explicándole a Bob sobre las contraseñas!
-¿Qué es una Contraseña? Las contraseñas son la clave para la cerradura de su mundo virtual. Al igual que su secreto se mantiene a salvo en un lugar seguro usando una llave y un candado, su información personal en Internet está protegida por su contraseña y nombre de usuario.
-El lugar seguro solamente es tan seguro como la llave para el candado de la puerta.</description>
-    </item>
-    
-    <item>
-      <title>Actividad</title>
-      <link>/es/security/activity/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/es/security/activity/</guid>
-      <description>¡Juguemos un juego!
-Escriba su oración favorita en el cuadro de texto a continuación. Asegúrese de que tenga al menos cinco palabras. (p. Ej., Me gusta jugar al voleibol en la playa.) Ahora tome la primer letra de cada palabra de su oración y escribalas en el cuadro de texto. (p. Ej.,mgjavelp)Agregue algunos números al texto. Recuerde la posición de los números. (p. Ej., 1mgjavelp8)Finalmente, agreguemos algunos caracteres especiales al texto.</description>
-    </item>
-    
-    <item>
-      <title>Juego de Espías</title>
-      <link>/es/security/spy-game/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/es/security/spy-game/</guid>
-      <description>De nuestra última actividad aprendimos que una contraseña segura es una combinación de caracteres aleatorios (posiblemente con letras mayúsculas y minúsculas), números y caracteres especiales. ¡Ahora es el momento de jugar Hacked o Seguro!
-De una lista de contraseñas utilizadas por nuestro Nuvi, seleccione la contraseña más segura que no pueda ser hacked (o rota) por Eva.
-¿Se puede romper esta contraseña?SíNo¿Se puede romper esta contraseña?SíNo¿Se puede romper esta contraseña?</description>
-    </item>
-    
-    <item>
-      <title>Resumen</title>
-      <link>/es/security/summary/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/es/security/summary/</guid>
-      <description>Recuerde que las Características de una Contraseña Segura son: Al menos 8 caracteres: cuantos más caracteres, mejor. Una combinación de letras y números. Inclusión de al menos un carácter especial, p. Ej., ! @ # ? ] Nota: no use &amp;lt; o &amp;gt; en su contraseña, ya que ambos pueden causar problemas en los navegadores web. Una contraseña segura es difícil de adivinar, pero debería ser fácil de recordar - una contraseña que debe escribirse no es segura, sin importar cuántas de las características anteriores se utilicen.</description>
-    </item>
-    
-  </channel>
-</rss>

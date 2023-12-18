@@ -1,173 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Minicurso básico de Linux on Nuevo Foundation Workshops</title>
-    <link>/pt-br/linux-basics/</link>
-    <description>Recent content in Minicurso básico de Linux on Nuevo Foundation Workshops</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language>
-    <lastBuildDate>Wed, 21 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="/pt-br/linux-basics/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Usando Máquinas Virtuais - Parte 1</title>
-      <link>/pt-br/linux-basics/vbox-setup/</link>
-      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/pt-br/linux-basics/vbox-setup/</guid>
-      <description>Estamos fornecendo a você uma cópia do nosso computador invadido. Ela é chamada de máquina virtual. Agradecemos a sua ajuda!O que é uma máquina virtual? Uma máquina virtual (também chamada de VM) é um arquivo de computador (chamado de imagem), que se comporta como um computador real. Em outras palavras, é um computador dentro de um computador. Ele é executado em uma janela, como qualquer outro programa. A VM oferece a mesma experiência como se estivéssemos em um computador comum.</description>
-    </item>
-    
-    <item>
-      <title>Usando Máquinas Virtuais - Parte 2</title>
-      <link>/pt-br/linux-basics/vm-import-setup/</link>
-      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/pt-br/linux-basics/vm-import-setup/</guid>
-      <description>Excelente trabalho na preparação do nosso ambiente de trabalho! Agora vamos executar a imagem do nosso computador invadido como uma VM.O que é uma imagem? Imagens vêm em uma variedade de tipos. Temos fotografias, que são imagens. E as imagens do nosso computador que também são muito semelhantes. Ambas são cópias de coisas de um único ponto no tempo. Nesse minicurso trabalharemos com uma cópia de um computador que está agindo de forma estranha.</description>
-    </item>
-    
-    <item>
-      <title>Iniciando uma Máquina Virtual</title>
-      <link>/pt-br/linux-basics/launch-vm/</link>
-      <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/pt-br/linux-basics/launch-vm/</guid>
-      <description>Agora que tudo está instalado, vamos iniciar a nossa máquina virtual!Iniciando uma Máquina Virtual Iniciar uma VM é bem simples no VirtualBox. Basta clicar duas vezes na máquina virtual que criamos na etapa anterior e pronto!
-À medida que a máquina virtual está sendo iniciada, poderemos notar alguns avisos como na imagem a seguir. É seguro ignorá-los.
-Acessando a nossa Máquina Virtual Primeiro precisaremos acessar a nossa máquina virtual.</description>
-    </item>
-    
-    <item>
-      <title>Atividade 1 - Identificando Usuários no Linux</title>
-      <link>/pt-br/linux-basics/activity-1/</link>
-      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/pt-br/linux-basics/activity-1/</guid>
-      <description>Agora que estamos na linha de comando. Vamos testar um comando simples para identificar a conta de usuário!O que são contas de usuário? Cada usuário no Linux tem uma conta de usuário. Eles são usados ​​para identificar exclusivamente cada usuário.
-Por exemplo, digamos que você e seu amigo Nuvi compartilhem o mesmo computador. Você e o Nuvi podem criar contas de usuário separadas e acompanhar quais arquivos pertencem a cada um de vocês.</description>
-    </item>
-    
-    <item>
-      <title>Atividade 2 - Identificando a Localização do Usuário</title>
-      <link>/pt-br/linux-basics/activity-2/</link>
-      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/pt-br/linux-basics/activity-2/</guid>
-      <description>Antes que possamos parar o ataque dos hackers, precisamos aprender a navegar no sistema de arquivos Linux!O que é um sistema de arquivos? Um sistema de arquivos é uma coleção estruturada de arquivos e dados em um disco ou unidade de computador. O nível mais alto de um sistema de arquivos é chamado de &amp;ldquo;raiz&amp;rdquo;. Pense nisso como o início do sistema de arquivos.
-Curiosidade: os sistemas de arquivos são frequentemente descritos como uma &amp;ldquo;árvore&amp;rdquo;.</description>
-    </item>
-    
-    <item>
-      <title>Atividade 3 - Explorando o diretório atual</title>
-      <link>/pt-br/linux-basics/activity-3/</link>
-      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/pt-br/linux-basics/activity-3/</guid>
-      <description>Agora que sabemos quem somos e onde estamos, vamos analisar outras provas em busca de mais evidências dos hackers!Como podemos explorar um diretório? Para listar os arquivos no diretório atual, usamos o comando ls. Esse comando significa &amp;ldquo;Listar&amp;rdquo;. Vamos tentar?
-ls Como podemos obter mais informações sobre os arquivos neste diretório? Vamos começar digitando o comando ls seguido da flag -l:
-ls -l A flag -l que acabamos de testar, auxilia o comando ls a listar o conteúdo do diretório em formato longo apresentado detalhes sobre esses arquivos.</description>
-    </item>
-    
-    <item>
-      <title>Atividade 4 - Praticando anotações</title>
-      <link>/pt-br/linux-basics/activity-4/</link>
-      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/pt-br/linux-basics/activity-4/</guid>
-      <description>Como engenheiro de segurança cibernética, é importante fazer muitas anotações. Elas são úteis para referências futuras e entender como a invasão aconteceu. Vamos registrar nosso trabalho!E se nós quisermos criar um novo diretório? Para criar um novo diretório, use o comando mkdir (que significa &amp;ldquo;Crie um Diretório&amp;rdquo;) no seguinte formato: mkdir minha_pasta
-Vamos criar um diretório chamado files digitando o comando abaixo:
-mkdir files Como podemos observar, quando executamos o comando ls -l, um diretório adicional chamado files aparece na lista de diretórios.</description>
-    </item>
-    
-    <item>
-      <title>Atividade 5 - Protegendo as permissões de usuários</title>
-      <link>/pt-br/linux-basics/activity-5/</link>
-      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/pt-br/linux-basics/activity-5/</guid>
-      <description>Essa não! Parece que alguns de nossos arquivos foram manipulados! Precisamos proteger as nossas anotações urgentemente. Não queremos que um hacker acesse nossos segredos!Como podemos limitar o acesso aos nossos arquivos? A resposta é, podemos dar &amp;ldquo;permissões&amp;rdquo; aos usuários nos próprios arquivos!
-As permissões são uma maneira de determinar como o computador permite aos usuários o acesso aos arquivos e o que eles podem fazer com esses arquivos.</description>
-    </item>
-    
-    <item>
-      <title>Atividade 6 - Um arquivo corrompido</title>
-      <link>/pt-br/linux-basics/activity-6/</link>
-      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/pt-br/linux-basics/activity-6/</guid>
-      <description>Eu sei que tinha um arquivo chamado secret-message.txt com uma das minhas citações favoritas nele. &#34;Ser. Ou não ser. Eis a questão.&#34; Preciso encontrá-la. Você pode me ajudar?Procurando padrões específicos em um arquivo? O comando grep é um comando usado para pesquisar texto em arquivos. O seu significado é: &amp;ldquo;pesquise globalmente por expressão regular e imprima o resultado&amp;rdquo;. Ele ainda possui diferentes argumentos ou opções que podem alterar a forma como ele é usado.</description>
-    </item>
-    
-    <item>
-      <title>Atividade 7 - O que há de errado com o arquivo?</title>
-      <link>/pt-br/linux-basics/activity-7/</link>
-      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/pt-br/linux-basics/activity-7/</guid>
-      <description>Arquivos com vírus podem ser perigosos! Não o abra imediatamente! Em vez disso, vamos usar a linha de comando ao nosso favor para analisar o seu conteúdo.Para arquivos sobre os quais não temos certeza, precisamos primeiro verificar o seu conteúdo para não abrirmos um vírus acidentalmente.
-Mas e como podemos olhar para as primeiras linhas de um arquivo? Às vezes precisamos verificar apenas o início de um arquivo. O comando head mostra a primeira linha de um arquivo.</description>
-    </item>
-    
-    <item>
-      <title>Atividade 8 - Verificando diferenças entre arquivos</title>
-      <link>/pt-br/linux-basics/activity-8/</link>
-      <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/pt-br/linux-basics/activity-8/</guid>
-      <description>Vamos dar uma olhada na nossa mensagem secreta para ter certeza de que esse arquivo estranho chamado malware.sh não fez nada com ela!Verificando diferenças entre arquivos Conhecemos algum comando que pode nos ajudar a encontrar a localização do arquivo secret-message.txt?
-Agora, vamos entrar nesse diretório e verificar a citação &amp;ldquo;Ser. Ou não ser. Eis a questão&amp;rdquo; de antes. Mas qual seria o comando que pode nos ajudar a verificar a mensagem?</description>
-    </item>
-    
-    <item>
-      <title>Atividade 9 - Removendo arquivos maliciosos</title>
-      <link>/pt-br/linux-basics/activity-9/</link>
-      <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/pt-br/linux-basics/activity-9/</guid>
-      <description>Então o arquivo malware.sh é definitivamente um arquivo ruim deixado pelos hackers? Hmm! Até o diretório foi comprometido? Precisamos urgentemente remover esse diretório junto com o arquivo malicioso!Removendo um arquivo corrompido! O comando rm permite remover arquivos.
-O formato é: rm [nome do arquivo].
-O comando rm remove permanentemente um arquivo.
-Vamos remover o arquivo corrompido que está nos causando problemas. Depois, usaremos o comando ls -l para verificar se o arquivo foi totalmente removido.</description>
-    </item>
-    
-    <item>
-      <title>Atividade 10 - Aprendendo a mover e substituir arquivos</title>
-      <link>/pt-br/linux-basics/activity-10/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/pt-br/linux-basics/activity-10/</guid>
-      <description>Excelente! Agora que o arquivo malicioso dos hackers não nos causará mais problemas, vamos restaurar o arquivo antigo para que as coisas voltem a funcionar normalmente.Como corrigir o nosso arquivo secreto O comando mv também pode ser usado para substituir o arquivo de destino pelo arquivo de origem.
-O formato é: mv [source filename] [destination name].
-Agora, vamos substituir a mensagem secreta corrompida pelo backup que encontramos anteriormente. E também vamos mover o arquivo para o novo diretório que criamos.</description>
-    </item>
-    
-    <item>
-      <title>Atividade 11 - Guardando e protegendo arquivos</title>
-      <link>/pt-br/linux-basics/activity-11/</link>
-      <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/pt-br/linux-basics/activity-11/</guid>
-      <description>Muito obrigada por ajudar a recuperar a minha máquina! Agora vamos compactar tudo em um belo pacote.Proteja os seus arquivos, para que eles não sejam adulterados novamente O comando tar permite criar e extrair arquivos compactados.
-Um arquivo compactado é uma coleção de arquivos que ocupam menos espaço de armazenamento no seu computador. Eles também podem ser transferidos para outros computadores mais rapidamente do que arquivos não compactados.</description>
-    </item>
-    
-    <item>
-      <title>Resoluções - Minicurso Básico de Linux</title>
-      <link>/pt-br/linux-basics/answer-key/</link>
-      <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/pt-br/linux-basics/answer-key/</guid>
-      <description>Atividade 1 whoami Atividade 2 pwdcd Desktopcd .. Atividade 3 ls -lmv Documents/ Downloads/ls -l Downloadsmv Downloads/Documents/ . Atividade 4 mkdir filestouch file1vim file1mv file1 files Atividade 5 chmod u=rwx g=rx o=x file1chmod 751 [insert filename] Atividade 6 cdgrep -R &amp;#34;Do. Or do not. There is no try.&amp;#34;find . -name *.sh Atividade 7 head -n 5 malware.shtail -n 5 malware.</description>
-    </item>
-    
-    <item>
-      <title>Finalizando</title>
-      <link>/pt-br/linux-basics/closing/</link>
-      <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/pt-br/linux-basics/closing/</guid>
-      <description>Parabéns! Você frustrou as travessuras dos hackers aprendendo sobre os vários comandos do Linux. Muito obrigada por nos ajudar! E não conte a ninguém sobre as suas novas habilidades!Clique em &amp;ldquo;Baixar certificado&amp;rdquo; abaixo para receber o seu certificado de conclusão do Minicurso Básico de Linux!
-Baixar certificado</description>
-    </item>
-    
-  </channel>
-</rss>
