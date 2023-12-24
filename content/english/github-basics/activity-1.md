@@ -1,35 +1,39 @@
 ---
-title: "Activity 1: Create a GitHub Account"
-date: 2021-09-10T13:24:17-07:00
+title: "Activity 1: Embarking on the Journey"
+date: 2023-12-21T13:24:17-07:00
 draft: false
 weight: 2
 ---
 
 {{% notice info %}}
 ## NOTE:
-If you already have a GitHub account set up, feel free to skip on to the next page!
+If you already have a GitHub account, feel free to proceed to the next activity.
 {{% /notice %}}
 
-## Below are the step to creating your own GitHub account!
+## Steps to Create Your GitHub Account
 
-1. To create an account, first go to the [GitHub Website](https://github.com/).
+### 1. **Visit GitHub**:
+Start by visiting [GitHub's website](https://github.com/).
 
-2. When you get to the website, it should look like the photo below:
-<img alt="GitHub.com homepage with the sign up box highlighted" src="../images/CreatingRepositorySignUp.png" height="400"/>
+### 2. **Sign Up Process**:
+   - On the GitHub homepage, you will see two options in the top right corner: "Sign In" and "Sign Up". 
+   - If you need to create an account, click on "Sign Up".
+   - Follow the instructions for account creation.
 
-     - On the top right corner of the website, you should see two buttons: "Sign In" and "Sign Up". If you do not have an account, click on the "Sign Up" button and follow the directions given, for example:
+     ![Sign Up Process](../images/SignupPage.jpg)
 
-<img alt="GitHub sign up page with email and password entered" src="../images/SignupPage.jpg
-" height="400"/>
+### 3. **Verify Your Account**:
+After you have entered your details, GitHub will send a verification email to the address you provided. Check your email and click on the verification link to activate your account.
 
-3. Congratulations! You now have a GitHub account! Now, let's make sure you can log in...
+### 4. **Test Your Login**:
+   - To ensure that your new account is working, try logging out and then logging back in.
+   - Click on your profile picture in the top right corner, and select "Sign Out".
+   - Return to the GitHub homepage, and this time click "Sign In".
+   - Enter your new account credentials to log in.
 
-    * On the top right corner of the page, you will see a little circle with an arrow next to it:
+    ![Login Page](../images/SignInPage.png)
 
-    <img alt="screenshot of GitHub's top navigation bar with the user's profile picture highlighted" src="../images/GitHubNavBar.png"/>
+### 5. **Begin Exploring GitHub**:
+With your account set up, you're now ready to explore GitHub. Start by familiarizing yourself with the interface, checking out repositories, or even creating your own. The next activity will guide you through these processes.
 
-    * Click on the arrow and go down until you see "Sign Out"; now click on "Sign Out" to log out of your GitHub account.
-    * Now, go back to the GitHub website and instead of clicking "Sign Up", select "Sign In".
-    * Enter your GitHub account username and password when you are asked and log in!
-
-<img alt="GitHub.com's user sign in page with empty fields for email and password" src="../images/SignInPage.png" height="400"/> 
+Congratulations on setting up your GitHub account! You're now ready to delve deeper into the functionalities and collaborative possibilities that GitHub offers.

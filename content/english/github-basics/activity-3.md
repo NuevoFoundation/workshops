@@ -1,31 +1,23 @@
 ---
 title: "Activity 3: Adding Files to Your Repository"
-date: 2021-09-10T13:24:17-07:00
+date: 2023-12-21T13:24:17-07:00
 draft: false
 weight: 4
 ---
 
-Congratulations, brave coders! You've successfully set up your GitHub repository – the headquarters for your coding expedition with Maria and Kyle. 🎉🏰
+Congratulations on setting up your GitHub repository! Now, it's time to start populating it with files. There are a few different methods to add files to your repository:
 
-Now, it's time to stock your repository with precious files and enchanted code! Let's learn the two ways to add files to it! ✨📂
+### 1. **Creating a New File Directly on GitHub**:
+   - Navigate to your repository on GitHub.
+   - Click on the "Add file" button, then select "Create new file".
+   - Enter a name for your file. This can be any type of file, such as a `.txt`, `.md`, or a code file like `.py`.
+   - You can then write or paste your content into the file editor.
+   - Once you're done, scroll down to the bottom of the page.
 
-First, go into your new repository, click on the "Add file" button, and select "Create new file".
-- Now you can name your new file and start coding! Below is a photo of a file created by Maria to say hello to Kyle:
+### 2. **Committing Your Changes**:
+   - At the bottom of the page, you'll find a section to commit your new file.
+   - Enter a commit message, which is a brief description of the changes you've made. This message is important for understanding the history of your project.
+   - Decide if you want to commit directly to the main branch or create a new branch for this commit. For simple additions, committing to the main branch is usually fine.
+   - Click on "Commit new file" to save your changes to the repository.
 
-<img alt="Creating a new file in the GitHub repository named hello_world.py and adding code to it" src="../images/NewFile.png"/>
-
-- After you've finish coding, scroll down to the bottom of the page and you will see this:
-<img alt="Commit options for the new file" src="../images/commit_new.PNG"/>
-
-<img alt="GitHub's repository view with hello_world.py showing in the list of files" src="../images/tempsnip4.png"/>
-
-<img alt="File upload options in the GitHub repository" src="../images/UploadNewFile.png"/>
-
-## Your GitHub Repository Blooms! 🌱🏞️
-
-With your newfound abilities, your GitHub repository will flourish, each file a magical blossom in your coding garden! 🌷🌼
-
-As you and your companions continue your coding quest, remember to add and commit your changes often. This way, you'll be able to go back in time and view your code in the past.
-
-So, let your creativity flow, and watch your GitHub repository bloom with the fruits of your coding adventures! 🚀🌟
-
+Your repository will now contain the files you've added. As you progress with your project, you'll likely add more files and make more commits. Remember, committing regularly helps track changes and maintain a history of your project's development.

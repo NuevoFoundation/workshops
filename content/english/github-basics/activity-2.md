@@ -1,26 +1,26 @@
 ---
-title: "Activity 2: Create a GitHub Repository"
-date: 2021-09-10T13:24:17-07:00
+title: "Activity 2: Creating Your GitHub Repository"
+date: 2023-12-21T13:24:17-07:00
 draft: false
 weight: 3
 ---
 
-A **repository** in GitHub is like a Folder on your computer: it is a place to store all of your files/work for a project. Think of them as treasure chests holding all your project files. With Git, everyone on your team can work on their copy of the project and merge their discoveries later!
+A **repository** in GitHub is a space where you can store and manage your project's files and folders. It's like a directory or folder on your computer, but with version control features.
 
-There are two different ways to create a repository in GitHub:
-1. Click on the plus sign on the top right corner of the page, then select "New Repository":
-<img alt="GitHub.com homepage -> click profile picture -> click New repository" src="../images/CreatingRepositoryProfilePicture.png" height="400"/>
+### Steps to Create a Repository:
 
-2. Or, on the left side of your page, there is a little green button with a small drawing of a book, next to the word "New":
-<img alt="Creating a new repository via the left sidebar through the green button" src="../images/CreatingRepositorySidebar.png" height="400"/>
+1. **Start the Process**:
+   - On the GitHub website, click the plus sign in the top right corner, then select "New Repository".
 
-Once you have clicked on one of the options above, you will get to the page below:
-- Here you can enter a name for the repository and a description of what is in it. Below the description is an option to make your repository "Public" or "Private", meaning you can have other people of GitHub see your repository or just have it to yourself.
-- Lastly, you can add a "README" file if you would like, but you do not need to.
-<img alt="Setting repository name and description with additional settings as mentioned above" src="../images/CreatingRepositoryNameandDescription.png" height="400"/>
-- Now click on the green button "Create repository" to finish.
+2. **Alternate Method**:
+   - Alternatively, on your GitHub dashboard, you can find a "New" button next to a small book icon on the left side.
 
-<img alt="Blank repository view in GitHub with option to upload files" src="../images/repopage.JPG" height="400"/>
+Once you initiate the process, follow these steps:
+- **Name Your Repository**: Enter a name for your repository. Choose a name that reflects the content or purpose of your project.
+- **Add a Description** (Optional): Provide a brief description of your repository.
+- **Set Repository Visibility**: Decide whether to make your repository "Public" (anyone can see it) or "Private" (only you and selected collaborators can access it).
+- **Initialize with README** (Optional): It's a good practice to add a README file, which can include information about your project like the purpose, how to set it up, and how to contribute.
 
-Congratulations! You have now created your first repository! Refresh your page, and it should look like the "test" in the photo below.
-<img alt="Default blank repository view in GitHub" src="../images/CreatingRepositoryFinal.png" height="400"/>
+After filling out these details, finalize the creation of your repository by clicking on the "Create repository" button.
+
+Congratulations! You have now created your GitHub repository. It's ready for you to add files, collaborate with others, and start building your project.
