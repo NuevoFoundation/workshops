@@ -75,23 +75,7 @@ After you were done, you were able to get information from 30 employees:
 |6|2.9|56642|
 |7|3.0|60150|
 |8|3.2|54445|
-|9|3.2|64445|
-|10|3.7|57189|
-|11|3.9|63218|
-|12|4.0|55794|
-|13|4.0|56957|
-|14|4.1|57081|
-|15|4.5|61111|
-|16|4.9|67938|
-|17|5.1|66029|
-|18|5.3|83088|
-|19|5.9|81363|
-|20|6.0|93940|
-|21|6.8|91738|
-|22|7.1|98273|
-|23|7.9|101302|
-|24|8.2|113812|
-|25|8.7|109431|
+|...|...|...|
 |26|9.0|105582|
 |27|9.5|116969|
 |28|9.6|112635|
@@ -100,22 +84,30 @@ After you were done, you were able to get information from 30 employees:
 
 After you had this table, you plotted all these values in a 2D scatter plot.
 
-|![Years of Experience vs Salary](./resources/Years_vs_Salary.png)|
+|![Years of Experience vs Salary](../resources/Years_vs_Salary.png)|
 |:--:|
-|Scatter Plot: Years of Experience vs Salary|
+|Scatter Plot: Years of Experience vs Salary.|
 
 As you can see, the dots somewhat resemble a line. Let's go ahead and draw an imaginary line and see if we can pass through all the dots.
 
-|![Years of Experience vs Salary with Trendline](./resources/Years_vs_Salary_with_trendline.png)|
+|![Years of Experience vs Salary with Trendline](../resources/Years_vs_Salary_with_trendline.png)|
 |:--:|
-|Scatter Plot: Years of Experience vs Salary with Trendline|
+|Scatter Plot: Years of Experience vs Salary with line.|
 
 You can see that in general, the line doesn't pass through ALL the dots, but it's somewhat close. What does this mean? Why in some cases are the dots close or far away from our imaginary line?
+
+So far we know that our data follows a **linear** approach and has only one variable **YEARS OF EXPERIENCE**. This means, that we can **model** our data with an equation like:
+
+<h1>
+\[
+    y = ax + b
+\]
+</h1>
 
 # The Possibility of Errors
 As we mentioned before, data may or may not be always consistent. What this means is that our linear equation needs to consider a possible error. But how do we represent that error in the equation? How can that error be visualized in the scatter plot?
 
-|![Error Lines for Simple Linear Regression](./resources/error-lines.svg)|
+|![Error Lines for Simple Linear Regression](../resources/error-lines.svg)|
 |:--:|
 |Error Lines for Simple Linear Regression|
 
@@ -137,9 +129,9 @@ In our linear equation, let's add that error with the greek letter **ε**.
 
 With the equation like this, we are assuming that "Years of experience explains the salary an employee has".
 
-# Exercise 1: Playing with Scikit Learn
+# Exercise 1: Playing with Scikit-learn
 
-Scikit Learn is a machine-learning library that will help us analyze and use the built-in linear regression model to predict data.
+Scikit-learn is a machine-learning library that will help us analyze and use the built-in linear regression model to predict data.
 
 In the Replit window below, you can run the "02-e2.py" program and see how the code plots the data similar to the images above:
 

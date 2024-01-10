@@ -50,13 +50,13 @@ The previous example teaches us that, when you work with samples, the **intercep
 
 When you run the code from **Exercise 1** several times you can see that sometimes the value of the **coefficient** changes every time but notice how it rarely drops below 9000 or is rarely above 10000. What is the average difference between all the possible **coefficients** we can find running the code multiple times? What is that value? This is known as the **standard error**.
 
-**Standard Error** - explains how different is data is compared to the average of the data.
+**Standard Error** - explains the variation of the data compared to the average of the data.
 
 # Example 2: Finding the Standard Error.
 
 We can use the `StatsModels` package to get all sorts of values from our linear regression. Run the Replit below and you should see an output like so:
 
-|![Statmodels result](./resources/finding_stderror.png)|
+|![Statmodels result](../resources/finding_stderror.png)|
 |:--:|
 |Summary of Statsmodel run|
 
