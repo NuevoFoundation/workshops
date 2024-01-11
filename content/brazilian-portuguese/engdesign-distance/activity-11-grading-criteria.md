@@ -1,5 +1,5 @@
 ---
-title: "Atividade 11 – Critérios de classificação”
+title: "Atividade 11 – Critérios de classificação"
 difficulty: "Iniciante"
 weight: 11
 draft: true
