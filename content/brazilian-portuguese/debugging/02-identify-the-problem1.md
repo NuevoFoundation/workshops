@@ -38,6 +38,7 @@ Você notará que o erro contém:
 
 Como você pode ver, o compilador fornece a linha de código e aponta onde o erro realmente ocorreu! Em seguida, fornece um breve nome do erro - neste caso, o compilador esperava um ponto e vírgula (**`;`**) no final da linha. Você pode simplesmente adicionar um ponto e vírgula para corrigir esse erro.
 
+{{% notice warning %}}
 O outro erro menciona que há uma chave ausente (**`}`**) quando não era esperada. A correção para este também é relativamente simples: você pode adicionar a chave correspondente `{` ao lado de `func()`.
 {{% /notice %}}
 
