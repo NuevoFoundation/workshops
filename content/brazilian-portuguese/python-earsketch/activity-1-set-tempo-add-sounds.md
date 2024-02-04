@@ -11,7 +11,7 @@ Vamos dar uma olhada mais de perto no código pré-existente e entender o que el
 
 {{% notice info %}}
 
-**Quick Fact**: Tempo é a velocidade com que uma peça de música é tocada. Alterar o tempo de um projeto permite que diferentes estilos de música sejam criados. Tente alterar o tempo da sua função `Settempo` e veja o que acontece! Verifique se é um número entre 45-220.
+**Dica**: Tempo é a velocidade com que uma peça de música é tocada. Alterar o tempo de um projeto permite que diferentes estilos de música sejam criados. Tente alterar o tempo da sua função `Settempo` e veja o que acontece! Verifique se é um número entre 45-220.
 
 ![](../img/img-tempo1.png)
 
