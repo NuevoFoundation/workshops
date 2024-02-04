@@ -1,5 +1,5 @@
 ---
-title: "Activity 4 - Add effects to your song"
+title: "Atividade 4 - Adicione efeitos à sua música"
 description: "Configurando fones de ouvido"
 weight: 8
 prereq: "Python: Fundamentos. Impressão, comentários, funções"
