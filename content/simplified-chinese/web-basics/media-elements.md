@@ -29,8 +29,8 @@ iframe会显示其他网站的HTML。这就像一个窗口，你可以在你的�
 复制以下代码： 
 
 ```
-<iframe width="560" height="252" src="https://www.youtube.com/embed/lQsqEBSGdyc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lQsqEBSGdyc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
 ```
 
 将其黏贴到你的CodePen上，它将显示如下:
-<center><iframe width="560" height="252" src="https://www.youtube.com/embed/lQsqEBSGdyc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe></center>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/lQsqEBSGdyc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe></center>

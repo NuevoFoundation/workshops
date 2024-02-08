@@ -7,13 +7,22 @@ weight: 8
 draft: false
 ---
 
-<iframe width="100%" height="600px" src="https://www.youtube.com/embed/3FELV6BYtIo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3FELV6BYtIo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
+
+### Testing Our Model
 
 Now that we have built and trained our model, we want to go ahead and test it against returned clothing items. 
 Let's start off with our first sample item, which was the shoe.
 ```python
+# Initiate a model object with a softmax layer
 probability_model = tf.keras.Sequential([model, tf.keras.layers.Softmax()])
 ```
+
+{{% notice note %}}
+A **softmax layer** is a type of neural network layer in a machine learning model. The softmax layer transforms our inputs, which theoretically could come from a varied range of data structures, into a probability distribution between 0 to 1.
+{{% /notice %}}
 
 ```python
 predictions = probability_model.predict(test_images)

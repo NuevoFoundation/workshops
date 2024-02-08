@@ -63,7 +63,5 @@ Ahora queremos repetir estos últimos pasos para la variable _analog2_. Una vez 
 
 ### Divitiéndonos con Luces (Time Permitting)
 
-The Adafruit chip has a lot of lights on it! They’re super fun to play with so let’s add a bit of color to our sounds so we can both see and hear the difference when we touch our oranges. Click on the LIGHT section and drag the “Set all Pixels to ___” block into our two If-Then chunks. You’ll want to drop them in right before we play a sound. You can click on the color portion to change which color you want to display.
-
 ¡El chip Adafruit tiene muchas luces! Son súper divertidos para jugar, así que agreguemos un poco de color a nuestros sonidos para que podamos ver y escuchar la diferencia cuando tocamos nuestras naranjas. Haz clic en la sección **LIGHT** y arrastre el bloque "**Set all Pixels to ___**" en nuestros dos bloques **If-Then**. Deberás colocarlos justo antes de que reproduzcamos un sonido. Puedes hacer clic en la porción de color para cambiar el color que desea mostrar.
 ![Cannot load image](../img/13.png?classes=border,shadow)

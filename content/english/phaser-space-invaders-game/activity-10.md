@@ -31,4 +31,4 @@ Your screen should look similar like this:
 
 ## Congratulations!
 
-You have now compeleted all the lessons and created your own space invader game! Have fun with it!
+You have now compeleted all the lessons and created your own space invader game! Have fun with it! 👏🏽👏🏽👏🏽

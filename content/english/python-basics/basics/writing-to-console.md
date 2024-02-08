@@ -1,20 +1,21 @@
 ---
 title: "Writing to Console (Print statement)"
-date: 2020-02-10T13:24:17-07:00
+date: 2022-09-19T14:45:38-07:00
 draft: false
 weight: 2
 ---
-<iframe width="100%" height="600px" src="https://www.youtube.com/embed/NrbQCjlzhYc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Make your program talk to you!
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/NrbQCjlzhYc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-**Print** statements are used to print something on the console. Use `print("Hello World")` to print *Hello World* in the output screen. We will later learn that print is a function and we use it to perform a print job. Whatever you pass to the `print` function is printed on the screen.
-Let's start by doing a `print` statement. A `print` statement allows you to take control of the computer and make it print something out! 
+## Make your program talk to you!
+
+**Print** statements are used to write something to the console. Use `print("Hello World")` to print *Hello World* in the output screen. We will later learn that print is a function and we use it to perform a print job. Whatever you pass to the `print` function is printed on the screen.
+Let's start by doing a `print` statement. 
 
 We will use printing a lot in the later lessons, so make sure you understand this before moving on to the next concept!
 
 ### Challenge 1
-To start, write the following text into your Repl.it main.py and click Run.
+To start, write the following text into your Trinket main.py and click Run.
 
 ```python
 print("Hello, World!")
@@ -24,8 +25,15 @@ Watch your console say "Hello, World!" on the screen to the right! `print` tells
 
 ![alt text](../../img/print.png "hello world in python!")
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Basics-Print?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe src="https://trinket.io/embed/python/ce70252d93" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
+{{% notice tip %}}
+### Using " with printing
+
+Did you notice that Hello, World! was surrounded by `"`? Did you try it without the `"` marks to see that it produced an error? But, if you tried `print(123)`, did you see that it works. That is because text (Strings in programming languages) requires  you specify that it is text by wrapping it in quote marks. But numbers do not require them.
+
+Go back up and give try printing different things!
+{{% /notice %}}
 
 ### Challenge 2
 
@@ -33,8 +41,7 @@ Watch your console say "Hello, World!" on the screen to the right! `print` tells
 2. Add another print below the current line to print a second sentence below the first sentence.
 3. Press **run** to see if two sentences are printed out.
 
-<iframe height="600px" width="100%" 
- src="https://repl.it/@nuevofoundation/Basics-Print?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe src="https://trinket.io/embed/python/ce70252d93" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 We will use printing a lot in the later lessons, so make sure you understand this before continuing!
 
@@ -46,7 +53,7 @@ If you see any red text, you have encountered some errors! Please ask for help. 
 
 1. Make sure the sentence you wish to print is **surrounded in quotation marks** and that the sentence is **inside the parentheses**.
 
-![#Can't find image](../../img/redLine.png)
+![Example showing print statement done wrong (without quotation marks - print(Hello, World!)) and correctly (with quotation marks - print('Hello, World!'))](../../img/redLine.png)
 
 2. Spacing in Python is very important. Make sure you don’t have any unnecessary spaces or tabs at the beginning or at the end of each line, as Python won’t be able to read the code otherwise. For example, don’t put any spaces before `print`, or any spaces after the last parenthesis in `print("Hello, World!)`.
 

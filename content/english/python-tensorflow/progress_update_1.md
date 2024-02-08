@@ -7,22 +7,8 @@ weight: 4
 draft: false
 ---
 
+## Compare Your Code
 
-{{% notice info %}}
-
-If you would like to test the following code, visit <a href="https://colab.research.google.com/drive/1ndj0W1P_3uAG-L2a6LwxdJPSHbSK5WE6?usp=sharing" target="_blank">this link</a>
-
-To edit this code, click on the 'Copy to Drive' button to make a personal copy of this notebook. Make sure you are logged in to your Google account.
-![](../media/colab_copy.png)
-
-{{% notice warning %}}
-### If you are using a Nuevo Google account temporarily
-Once you make a copy, please make sure to replace the "Copy of" with your name, along with the file name. This will be on the top left corner of your notebook.
-{{% /notice%}}
-
-{{% /notice %}}
-
-{{% notice tip %}}
 Before moving on, please check your Google Colab notebook against the code below:
 
 ```python
@@ -78,5 +64,17 @@ plt.show() #displays the entire plot
 train_images = train_images / 255.0 
 test_images = test_images / 255.0
 ```
+
+{{% notice info %}}
+
+If you would like to test the code above, visit <a href="https://colab.research.google.com/drive/1ndj0W1P_3uAG-L2a6LwxdJPSHbSK5WE6?usp=sharing" target="_blank">this link</a>
+
+To edit this code, click on the 'Copy to Drive' button to make a personal copy of this notebook. Make sure you are logged in to your Google account.
+![Screenshot of Google Colab Notebook with "Copy to Drive button selection highighted"](../media/colab_copy.png)
+
+{{% notice warning %}}
+### If you are using a Nuevo Google account temporarily
+Once you make a copy, please make sure to replace the "Copy of" with your name, along with the file name. This will be on the top left corner of your notebook.
+{{% /notice%}}
 
 {{% /notice %}}

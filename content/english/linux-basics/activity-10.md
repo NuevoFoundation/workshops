@@ -1,14 +1,21 @@
 ---
 title: "Activity 10 - Let's move and replace"
 description: "Use Linux commands to move and copy files"
-date: 2020-09-17
+date: 2022-09-23
 difficulty: "Intermediate"
 weight: 13
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LPcQW4oGK6g" alt="A YouTube video on Linux Basics Activity 10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/LPcQW4oGK6g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-*Great, now that the hackers' malicious file won't cause us any more headaches, let's restore the old file so things will run smoothly again.*
+<div style="margin: 1rem;padding: 2rem 2rem;text-align: center;">
+    <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;">
+        <img src="../images/nuvi.PNG?" alt="Uma foto de Nuvi" width="180" height="180" />
+    </div>
+    <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;width:50%;border:5px solid #2980b9;border-radius:10px;font-weight: bold;">
+        Great, now that the hackers' malicious file won't cause us any more headaches, let's restore the old file so things will run smoothly again.
+    </div>
+</div>
 
 ### How to fix the secret-message
 
@@ -24,7 +31,14 @@ Let's move the file into the new directory that we made.
 
 ### Backup your files
 
-*That backup file earlier came in handy to fix the tampered file. Let's backup the files in our directory.*
+<div style="margin: 1rem;padding: 2rem 2rem;text-align: center;">
+    <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;">
+        <img src="../images/nuvi.PNG?" alt="Uma foto de Nuvi" width="180" height="180" />
+    </div>
+    <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;width:50%;border:5px solid #2980b9;border-radius:10px;font-weight: bold;">
+        That backup file earlier came in handy to fix the tampered file. Let's backup the files in our directory.
+    </div>
+</div>
 
 `cp` is a command that copies a file from one location to another.  
 The format is: `cp [source filename] [destination filename]`.

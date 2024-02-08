@@ -102,7 +102,7 @@ Test your program by clicking `Run`, you should see the message `Invalid Positio
 
 Now we have a program that takes in one input and evaluates if it's valid, we want to ask the player to do it again until the game ends.
 
-To continue prompting the user to enter his/her next move, we put the whole `hasNextInt` if statement in a `while loop`. This `while loop` takes in an argument of `true` meaning the program will continuing looping until instructed to stop. 
+To continue prompting the user to enter his/her next move, we put the whole `hasNextInt` if statement in a `while loop`. This `while loop` takes in an argument of `true` meaning the program will continuing looping until instructed to stop.
 
 Note that we call `printBoard(board)` and prompt the user at the end of each iteration, shown below:
 

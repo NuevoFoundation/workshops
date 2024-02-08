@@ -95,7 +95,7 @@ When you launch VS Code you can Open Folder... Navigate to the workshop folder a
 
 ### Navigate to file and modify it
 
-Depending on what you're modifying you'll want to get a better understanding of [how the site is built](site-architecture.md)
+Depending on what you're modifying you'll want to get a better understanding of [how the site is built](site-architecture)
 
 In our case you want to modify this file so go to content\english\guidelines\getting-started.md
 I simply want you to add two exclamation points to the word "Welcome!"

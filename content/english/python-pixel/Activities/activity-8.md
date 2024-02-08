@@ -7,7 +7,7 @@ weight: 8
 draft: false
 ---
 
-<iframe width="100%" height="600px" src="https://www.youtube.com/embed/Jx_b8111WW0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Jx_b8111WW0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 In this section, we will start to learn how to flip your image using pixels.
 
@@ -93,5 +93,5 @@ Pay attention to the variable `widthNew` and think carefully about how to set it
 
 {{% /notice %}}
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Python-Pixel-Activity8?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/Python-Pixel-Activity8" target="_blank">Launch Replit</a>
 

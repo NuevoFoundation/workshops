@@ -6,7 +6,7 @@ difficulty: "Intermediate"
 weight: 6
 draft: false
 ---
-<p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/OvSvko6Y4io" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/OvSvko6Y4io" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 Now that you have learned how to add sounds to Earsketch, let's try and make a song! You should already have one audio clip in Earsketch, but
 songs are made up of various instruments, so we need to add more audio clips.
@@ -18,7 +18,7 @@ songs are made up of various instruments, so we need to add more audio clips.
 5. Repeat these steps until you have four different audio sounds in your song.
 
 Your code should now look something like this:
-    {{% notice %}}
+    {{% notice info %}}
 
     from earsketch import *\
     init()
@@ -30,3 +30,5 @@ Your code should now look something like this:
     finish()
 
     {{% /notice %}}
+
+![Robot making a song](https://media.giphy.com/media/9RJRzvIuKGrL3tAchc/giphy.gif)

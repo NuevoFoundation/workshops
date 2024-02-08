@@ -7,7 +7,7 @@ weight: 4
 draft: false
 ---
 
-<iframe width="100%" height="600px" src="https://www.youtube.com/embed/jA6xNqAhb1o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jA6xNqAhb1o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Now that we understand more about pixels and images, we can start to learn how to design your own filter on the image. Let us see some examples on how to design a basic filter on your image.
 
@@ -54,6 +54,6 @@ We start by going through the image, by each column and each row, to get each pi
 ### Challenge - Create your own filter
 
 Following the example above, try to create your own filters with different colors.
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Python-Pixel-Activity4?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/Python-Pixel-Activity4" target="_blank">Launch Replit</a>
 
 Finally, please think about and try to create a grey filter. We will talk about how to create a grey filter in the next section.

@@ -26,7 +26,7 @@ Here's a sample nested dictionary, but remember to apply the structure from abov
 smallDictionary = {'toy':['an object kids play with', 'noun', 'toi'], 'walk':['a way to move at a regular and slow pace, one foot lifted after the other, in sequence', 'verb', 'wok']}
 ```
 
-Go back to the `Repl.it` link from earlier and add in code that will store your menu in a variable named `dictMenu`. Remember to make `dictMenu` a global variable - don't put it in the `main()` function, rather place it at the top of your code so that it can be accessed by any function.
+Go back to the `Replit` link from earlier and add in code that will store your menu in a variable named `dictMenu`. Remember to make `dictMenu` a global variable - don't put it in the `main()` function, rather place it at the top of your code so that it can be accessed by any function.
 Hint: Your price is a `float`, and your description is a `string`.
 
 Pick your 5 favorite foods/drinks to be in your menu.

@@ -5,7 +5,7 @@ weight: 4
 draft: false
 ---
 
-<p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/kGhMGdqqV-w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/kGhMGdqqV-w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 Great! You drew a square. But notice that we are writing the same lines over and over again! We had to repeat the instructions to draw a line and turn left 4 times. Wouldn’t it be great if we can give instructions once and tell the program to repeat it 4 times? Fear not, we can!
 
@@ -39,6 +39,6 @@ turtle.left(120)
 
 {{% /notice %}}
 
-Now, take the example code that we have provided, and modify it slightly so that, instead of drawing a triangle, it draws a square. You can look back at what you did in Activity 1 as a hint. 
+Now, take the example code that we have provided, and modify it slightly so that, instead of drawing a triangle, it draws a square. You can look back at what you did in Activity 1 as a hint.
 
 <iframe src="https://trinket.io/embed/python/892913b49a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

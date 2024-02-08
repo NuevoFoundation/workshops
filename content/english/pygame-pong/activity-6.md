@@ -17,7 +17,7 @@ You may need to check the boundary value for the horizontal position (represente
 
 {{% /notice %}}
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/PongLessonStudent?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/PongLessonStudent" target="_blank">Launch Replit</a>
 
 ## Takeaway
 

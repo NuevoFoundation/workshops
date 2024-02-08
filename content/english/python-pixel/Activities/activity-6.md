@@ -7,13 +7,13 @@ weight: 6
 draft: false
 ---
 
-<iframe width="100%" height="600px" src="https://www.youtube.com/embed/X2AoHSdQOLo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/X2AoHSdQOLo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 In this section, we will start to learn how to crop your image.
 
 ### Example - Crop cat into half
 
-Now, let us crop out the right half of the cat image
+Now, let us crop out the right half of the cat image.
   
 <img src="../../media/cat.png" width=50%>
 
@@ -38,7 +38,7 @@ for i in range(width // 2):
 newimg.save("Mycat.png")
 ```
 
-Wow! This is our cat after the cropping. We cropped right half of the image!
+Wow! This is our cat after the cropping. We cropped the right half of the image!
 
 <img src="../../media/halfcat.png" width=25%>
 
@@ -75,4 +75,4 @@ Wow! This is our cat after cropping.
 ### Challenge - Crop image based on your own choice
 
 It's now your turn to crop whichever part you want on the cute cat! Exciting！
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Python-Pixel-Activity6?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/Python-Pixel-Activity6" target="_blank">Launch Replit</a>

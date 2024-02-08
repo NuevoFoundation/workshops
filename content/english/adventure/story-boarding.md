@@ -2,15 +2,20 @@
 title: "Section 1: Story Boarding"
 date: 2019-07-23T11:45:38-07:00
 draft: false
-weight: 2
+weight: 1
 difficulty: Intermediate
 prereq: "Python Basics - Writing to Console (Print), Reading from Console, Strings, Variables, Conditional statements"
 ---
 
+## Time to Create
+
+It’s time to start creating our own stories with all the skills we’ve learned today! The question that we are tackling today is how to get the audience involved with the story line, and the answer to this is CODE!
+
 To get started, pull out a piece a paper and start "story boarding". What does that mean? In order to develop a great story that allows the reader to choose between options, one can outline the flow of their story. This is a great planning step, that will you help you tremendously once you start coding!
+
 I would start with the 3 or 4 main choices your protagonist is going to make in the story. From there draw arrows for how the different choices your protagonist makes effects the story.
 
-# Nuvi’s Example
+## Nuvi’s Example
 
 Here an example of how to story board!
 The 4 main choices the protagonist will make is:

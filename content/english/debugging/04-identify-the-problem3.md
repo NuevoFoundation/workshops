@@ -9,7 +9,7 @@ draft: false
 
 Debugging code is such a widespread, common problem that people have built entire programs designed to help other programmers debug more efficiently. These are suitably named **debuggers**, and there are plenty of debuggers that work for the C programming language. Let's take a look at `gdb`, a common debugger used with the command line.
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/Debugging-Samples-C?lite=true#quicksort/quicksort.c" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/Debugging-Samples-C" target="_blank">Launch Replit</a>
 
 For our examples, we will make use of the <a href="https://www.youtube.com/watch?v=SLauY6PpjW4" target="_blank">Quicksort</a> algorithm.
 
@@ -143,7 +143,7 @@ A memory leak happens when your program allocates memory using malloc or calloc 
 Luckily, people have also written programs to help you find memory errors, and one of these programs is `valgrind`. Valgrind is a tool that not only looks for memory errors, but shows you exactly where the errors occur in your code.
 Let’s use valgrind to find where memory errors occur. As an example, we have a rudimentary implementation of a vector in C,  which is the C++ standard library’s version of a dynamically sized array.
 
-<iframe height="500px" width="100%" src="https://replit.com/@nuevofoundation/Debugging-Samples-C?lite=true#vector/vector.c" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/Debugging-Samples-C" target="_blank">Launch Replit</a>
 
 First make the program using 
 
@@ -162,7 +162,7 @@ Notice that there's an error called a 'double free'! This is a type of memory ca
 Now instead of using gdb, use valgrind to check how memory is allocated and used. Run the command:
 
 ```bash
-valgrind --tool=memcheck leak-check=full examples/Vector
+valgrind --tool=memcheck --leak-check=full examples/Vector
 ```
 
 It should be apparent valgrind caught some errors, perhaps related to the double free (notice the `ERROR SUMMARY` at the bottom has a few errors detected!).

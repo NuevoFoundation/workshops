@@ -1,14 +1,21 @@
 ---
 title: "Activity 7 - What's wrong with the file?"
 description: "Use Linux commands to read the file without opening it"
-date: 2020-09-17
+date: 2022-09-23
 difficulty: "Intermediate"
 weight: 10
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tgciAD4hbyU" alt="A YouTube video on Linux Basics Activity 7" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/tgciAD4hbyU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-*Malware can be dangerous! Don't open it right away! Instead let's use the command line to take a peek.*
+<div style="margin: 1rem;padding: 2rem 2rem;text-align: center;">
+    <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;">
+        <img src="../images/nuvi.PNG?" alt="Uma foto de Nuvi" width="180" height="180" />
+    </div>
+    <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;width:50%;border:5px solid #2980b9;border-radius:10px;font-weight: bold;">
+        Malware can be dangerous! Don't open it right away! Instead let's use the command line to take a peek.
+    </div>
+</div>
 
 {{% notice warning %}}
 For files that we aren't sure about, we need to peek at them so we don't accidentally open a virus.
@@ -19,7 +26,7 @@ For files that we aren't sure about, we need to peek at them so we don't acciden
 Sometimes you just need to look at the beginning of a file. The command `head` shows the first line of a file.  
 The format is: `head [filename]`
 
-{{% notice tip %}} 
+{{% notice tip %}}
 If you add the -n flag you can put how many lines you want to look at.  
 The format is: `head -n [# of lines] [filename]`
 {{% /notice %}}
@@ -33,7 +40,7 @@ Try to look at the first 5 lines of `malware.sh`!
 Sometimes you just need to look at the end of the file. The command `tail` shows the last line of a file.  
 The format is: `tail [filename]`
 
-{{% notice tip %}} 
+{{% notice tip %}}
 If you add the -n flag you can put how many lines you want to look at.  
 The format is: `tail -n [# of lines] [filename]`
 {{% /notice %}}
@@ -50,7 +57,7 @@ Let's look at the entire contents of `malware.sh`!
 `cat` shows the contents of a file.  
 The format is: `cat [filename]`
 
-{{% notice tip %}} 
+{{% notice tip %}}
 `less` and `more` are commands similar to `cat`.
 
 #### The more command
@@ -68,4 +75,11 @@ The format is: `less [filename]`
 ![less command](../images/Act7.4.png?classes=border,shadow)
 {{% /notice %}}
 
-*What do you think `malware.sh` does? Add it to your report!*
+<div style="margin: 1rem;padding: 2rem 2rem;text-align: center;">
+    <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;">
+        <img src="../images/nuvi.PNG?" alt="Uma foto de Nuvi" width="180" height="180" />
+    </div>
+    <div style="display: inline-block;padding: 1rem 1rem;vertical-align: middle;width:50%;border:5px solid #2980b9;border-radius:10px;font-weight: bold;">
+        What do you think malware.sh does? Add it to your report!
+    </div>
+</div>

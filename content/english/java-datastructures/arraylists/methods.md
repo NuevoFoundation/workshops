@@ -5,12 +5,7 @@ draft: false
 weight: 2
 ---
 
-<!--<link rel="stylesheet" href="../../style.css">-->
-
-![image](../../img/listex.png)
-<hr>
-
-## Change an Item
+## Modifying Elements
 
 ```js javascript
 import java.util.ArrayList;
@@ -22,7 +17,7 @@ public class Main {
         order.add("Chicken Nugget");
         order.add("Fries");
         order.set(1, "Coke");
-        //this sets the first element(chicken nuggets) to a coke instead
+        // This sets the first element (chicken nuggets) to a coke instead
     }
 }
 ```
@@ -30,7 +25,7 @@ Using `set()`, you can set the element at the index number to a new element.
 
 <hr>
 
-## Remove an Item
+## Removing Elements
 
 ```js javascript
 import java.util.ArrayList;
@@ -42,7 +37,7 @@ public class Main {
         order.add("Chicken Nugget");
         order.add("Fries");
         order.remove(2);
-        //removes fries from the arraylist
+        // Removes Fries from the ArrayList
     }
 }
 ```
@@ -50,7 +45,7 @@ Similar to `set()`, the `remove()` method removes an element at an index number.
 
 <hr>
 
-## Size of ArrayList
+## Getting the Size of an ArrayList
 
 ```js javascript
 import java.util.ArrayList;
@@ -62,7 +57,7 @@ public class Main {
         order.add("Chicken Nugget");
         order.add("Fries");
         System.out.println(order.size());
-        //outputs the size of the arraylist, in this case: 3
+        // Outputs the size of the ArrayList, in this case: 3
     }
 }
 ```
@@ -70,7 +65,7 @@ public class Main {
 
 <hr>
 
-## Iterating through an ArrayList
+## Iterating Over Elements
 
 ```js javascript
 import java.util.ArrayList;
@@ -84,6 +79,10 @@ public class Main {
         for (int i = 0; i < order.size(); i++) {
             System.out.println(order.get(i));
         }
+        // Outputs:
+        // Whopper
+        // Chicken Nugget
+        // Fries
     }
 }
 ```

@@ -9,12 +9,14 @@ draft: false
 
 ## Introduction
 
-Oh no! Aliens have descended onto Earth! Will you help Nuvi the robot in defeating them?
+Oh No! Aliens have descended onto Earth! Will you accept the challenge and help Nuvi the robot to defeat the aliens?
 
-This workshop will take you step-by-step through the creation of a top-down Unity space game! Hope you enjoy!
+This workshop will take you step-by-step through the creation of a Unity Space Game! 
+
+Hope you enjoy!
 
 ![Sample of a working game](./img/unity_game.gif)
 
 ## Table of Contents
 
-{{% children %}}
+{{% children /%}}

@@ -7,7 +7,7 @@ weight: 5
 draft: false
 ---
 
-<iframe width="100%" height="600px" src="https://www.youtube.com/embed/deYXkPt58co" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/deYXkPt58co" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
   
 In the last section, we saw an example of creating a blue filter and thought about how to create the grey filter. Now, let us create our grey filter together.
@@ -77,7 +77,7 @@ Wow! This is our cat after the filter. We only filtered one-forth of the cat on 
 
 It's now your turn to filter whichever part you want with different kinds of filters on the cute cat! Exciting！
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Python-Pixel-Activity5?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/Python-Pixel-Activity5" target="_blank">Launch Replit</a>
 
 {{% showanswer Advanced %}}
 

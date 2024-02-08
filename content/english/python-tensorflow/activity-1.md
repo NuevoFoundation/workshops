@@ -8,8 +8,11 @@ draft: false
 ---
 
 
-<iframe width="100%" height="600px" src="https://www.youtube.com/embed/OxDn2xDXWi4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OxDn2xDXWi4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### Import Dependencies
+
+#### Packages
 The first thing we have to do is to import the TensorFlow library in order to use functions that will allow us to train your model.
 
 We will also be implementing plots to visualize the prediction of our model, so for that we need to import the following libraries:
@@ -26,9 +29,10 @@ import numpy as np
 import matplotlib.pyplot as plt 
 ```
 
-These libraries are essential as they are a collection of precompiled methods and functions that and importing them into our program allows us to access these methods without having to rewrite these entire libraries. For example, we import the methods and functions to TensorFlow and NumPy to avoid having to write the entirety of these program within our own program.
+These libraries are essential as they are a collection of precompiled methods and functions that and importing them into our program allows us to access these methods without having to rewrite these entire libraries. For example, we import the methods and functions to TensorFlow and NumPy to avoid having to write the entirety of these programs within our own program.
 
- Now, we want to load the Fashion MNIST dataset, which has the collection of all the images of clothing we need for your model. 
+#### Load Datasets
+Now, we want to load the Fashion MNIST dataset, which has the collection of all the images of clothing we need for your model. 
 
 ```python
 #This variable is declared from the fashion_mist library of the datasets section
@@ -43,7 +47,14 @@ fashion_mnist = keras.datasets.fashion_mnist
 
 (train_images, train_labels), (test_images, test_labels) = fashion_mnist.load_data() 
 ```
+
+{{% notice note %}}
+You might notice we are splitting the data into training and testing datasets with their corresponding labels. A **training dataset** is for our model to learn about the optimal parameters to achieve our tasks, while the **test dataset** is to validate how well our model has learned. This is just like how we learn things: we're being continuously trained and tested to get better!
+{{% /notice %}}
+
 <br>
+
+### Prepare Our Data
 
 The next step is to create a list of categories under the variable `class_names`. 
 
@@ -53,7 +64,7 @@ Your supervisor gives you the categories of apparel that the warehouse processes
 
 <a href="https://workshops.nuevofoundation.org/python-basics/data-structures/lists/" target="_blank">Not sure how to create a list in Python?</a>
 
-### Question 1
+### Task 1
 
 Write the following class names in the list `class_names`:
 

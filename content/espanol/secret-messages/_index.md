@@ -1,5 +1,5 @@
 --- 
-title: "Mensajes secretos con C++"
+title: "C++: Mensajes secretos"
 description: "Aprende C++ y crea tus propios mensajes secretos"
 date: 2021-08-10T23:26:18-05:00
 prereq: "Ninguno"
@@ -23,5 +23,5 @@ El Rey ha pensado en ti, el nuevo programador de la corte, para que desarrolles 
 ## Contenido
 <details>
 <summary>Secciones</summary>
-{{% children %}}
+{{% children /%}}
 </details>

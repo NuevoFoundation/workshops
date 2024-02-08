@@ -8,15 +8,13 @@ icon: "fab fa-java"
 draft: false
 ---
 
-<p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/udEaocEYlpc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-
-## Overview
-
-<img src="images/logo.png" height="150" alt="Java Logo of steaming coffee cup with Java written below" />
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/udEaocEYlpc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 Welcome to the course <b>Java: Basics</b>, where you will learn a widely-used high-level programming language that gives computer instructions to create exciting programs!
 
 Java is a high-level programming language developed by James Gosling and Sun Microsystems in California in 1995. 
+
+<img src="images/logo.png" height="150" alt="Java Logo of steaming coffee cup with Java written below" />
 
 {{% notice info %}}
 A high-level programming language is called high-level because it is quite a few steps away from the original code run on a computer's Central Processing Unit (CPU). High-level code is meant to be used by humans and is much easier to understand than low-level code. The high-level code is later translated into a low-level language, which can only be perceived and run by a specific CPU. For the code to work, every single line of code written in a high-level language must be translated into machine language before being implemented by the computer.
@@ -34,4 +32,7 @@ In this course, we will follow the lead of a music-loving yellow duck named <b>P
 
 ## Table of Contents
 
-{{% children %}}
+<details close>
+<summary>Table of Contents</summary>
+{{% children /%}}
+</details>

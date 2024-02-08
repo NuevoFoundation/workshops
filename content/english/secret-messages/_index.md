@@ -1,5 +1,5 @@
 --- 
-title: "Secret messages with C++"
+title: "C++: Secret messages"
 description: "Learn C++ and create your own secret messages"
 date: 2021-08-10T23:26:18-05:00
 prereq: "None"
@@ -21,5 +21,5 @@ You've been selected by the King to be the next Court Developer, and create an e
 ## Content
 <details>
 <summary>Sections</summary>
-{{% children %}}
+{{% children /%}}
 </details>

@@ -5,7 +5,7 @@ date: 2021-10-13T00:00:00Z
 weight: 3
 ---
 
-<p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/KE0fNb-hTKE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/KE0fNb-hTKE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ## Variables: Name It!
 
@@ -17,7 +17,7 @@ In Java, we introduce the idea of a **variable** for data. A variable is like a 
 
 For example, there can be a variable called `myName` that stored `"Patrick"`, another variable called `loveMusic` that stored `true`, and another variable called `age` that stored `3`. Just like the image below:
 
-<img src="../images/variable.png" height="200" alt="3 boxes. The first box has white text outside, myName, and white text inside, 'Patrick'. The second box has white text outside, loveMusic, and white text inside, true. The third box has white text outside, age, and white text inside, 3." / > 
+<img src="../images/variable.png" height="200" alt="3 boxes. The first box has white text outside, myName, and white text inside, 'Patrick'. The second box has white text outside, loveMusic, and white text inside, true. The third box has white text outside, age, and white text inside, 3."/>
 
 ## What the Type!
 
@@ -62,7 +62,8 @@ boolean loveMusic = true;
 ## What the Type -- Help Patrick!
 
 Patrick 🐥 isn't a master of data types! He often mixed them up when declaring variables. Let's help him fix his mistake:
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsDataType?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsDataType" target="_blank">Launch Replit</a>
 
 {{% notice tip %}}
 By storing data in variables, you can use that data later or change it by assigning it to a different data of the same type. For example:
@@ -92,7 +93,7 @@ z = z;
 System.out.println("x: " + x + " y: " + y + " z: " + z );
 ```
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsVariable?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsVariable" target="_blank">Launch Replit</a>
 
 {{% notice tip %}}
 #### Explaining the example

@@ -5,7 +5,7 @@ date: 2021-10-13T00:00:00Z
 weight: 4
 ---
 
-<p style="text-align: center;"><iframe width="50%" height="500px" src="https://www.youtube.com/embed/wP8-F1nBPcg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/wP8-F1nBPcg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ## Let's do Math: Arithmetic Operator
 
@@ -51,7 +51,7 @@ Add (`+`) is used on String as concatenation operator. For example:
 ### Instructions
 1. Use the program below to practice using the arithmetic operators. Change the numbers to see the answers.
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsOperatorsPractice?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsOperatorsPractice" target="_blank">Launch Replit</a>
 
 ## Comparisons: Relational Operator
 
@@ -93,7 +93,7 @@ age == 3; // checks to see if the value of age is 3
 
 1. Use the program below to practice using the comparison operators. Change the numbers to see the answers.
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsComparisonPractice?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsComparisonPractice" target="_blank">Launch Replit</a>
 
 ## Exam Statistics!
 
@@ -140,4 +140,4 @@ Let's write it with the help of operators 🎵!
 
 {{% /notice %}}
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsOperators?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsOperators" target="_blank">Launch Replit</a>

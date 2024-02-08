@@ -7,10 +7,10 @@ weight: 3
 draft: false
 ---
 
-<iframe width="100%" height="600px" src="https://www.youtube.com/embed/YkxNH1TWjR0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YkxNH1TWjR0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-Using loops, you can actually design your own elements on the colorboard. You can design your own logo or anything you want on this color board. Here is an example we provided for you.
+Using loops, you can actually design your own elements on the colorboard. You can design your own logo or anything you want on this color board. Here is an example we have provided for you.
 
 
 ### Example: make an N.
@@ -47,4 +47,4 @@ output:
 You can actually design some easy letters, such as H, K, T and etc. You can change the color of a certain part of those letters in order to make it prettier.
 {{% /notice %}}
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Python-Pixel-Activity3?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/Python-Pixel-Activity3" target="_blank">Launch Replit</a>

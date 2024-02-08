@@ -5,6 +5,8 @@ weight: 4
 draft: false
 ---
 
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/zEQkGgS779g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 Great! 
 
 The King has now requested that we input our message letter by letter so that we can change them afterwards.
@@ -70,5 +72,5 @@ The size is: 5
 
 Now we modify the code we had to print each letter of the name instead of a hello.
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/activity-3-english?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/activity-3-english" target="_blank">Launch Replit</a>
 

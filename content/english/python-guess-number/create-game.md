@@ -21,10 +21,10 @@ Then the program will repeatedly ask the user for input from the console, and yo
 What's the best way to do repeated tasks? You guessed it, loops!
 You can use a `while` loop to achieve this task.
 
-Within the `while` loop, you can use conditionals to check if the player has guessed correctly.  If not, you can give them helpful hints whether they should try guessing lower or higher.
+Within the `while` loop, you can use conditionals to check if the player has guessed correctly. If not, you can give them helpful hints whether they should try guessing lower or higher.
 
 ## Try creating your own game!
 
 Remember to read the comments as a guide; or maybe delete the comments and see if you can figure out on your own. :)
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/python-guessnumber-try?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe src="https://trinket.io/embed/python/d7e8fdfc65" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

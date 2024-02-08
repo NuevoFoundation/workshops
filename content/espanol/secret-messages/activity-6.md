@@ -5,7 +5,7 @@ weight: 4
 draft: false
 ---
 
-{{< youtube NvD_aP73dqI >}}
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/NvD_aP73dqI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ¡Muy bien! 
 
@@ -101,6 +101,6 @@ reina
 Recuerda que siempre puedes volver a las actividades anteriores para recordar algo.
 
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/actividad-6?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/actividad-6" target="_blank">Lanza Replit</a>
 
 {{< alert theme="danger" >}}**Cuidado**. Para pegar algo en la consola, haz click derecho pegar. De otra forma puede no funcionar. {{< /alert >}}

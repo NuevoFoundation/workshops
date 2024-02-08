@@ -5,7 +5,7 @@ weight: 4
 draft: false
 ---
 
-{{< youtube a7zfuGM80QU >}}
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/a7zfuGM80QU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ¡Muy bien! 
 
@@ -61,4 +61,4 @@ Para eso, debemos seguir los siguientes pasos:
 
 Como ayuda, recuerda que puedes volver a las otras actividades.
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/actividad-4?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/actividad-4" target="_blank">Lanza Replit</a>

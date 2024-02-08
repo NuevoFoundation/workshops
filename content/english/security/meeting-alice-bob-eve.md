@@ -18,7 +18,7 @@ Meet our not so good friend <b>Eve</b>. **Eve** wants access to **Bob**’s secr
 
 **Eve** realizes that to get to **Bob**'s secret, they need to first get past
 **Bob**'s lock. **Eve** can't break the lock, but maybe she can figure out the
-`key`. After spying on **Bob** for a while, **Eve** realizes that he really 
+`key`. After spying on **Bob** for a while, **Eve** realizes that **Bob** really 
 loves his pet dog, Max. This gives **Eve** an idea.
 
 **Eve** thinks that, since **Bob** loves his pet so much, he might have decided

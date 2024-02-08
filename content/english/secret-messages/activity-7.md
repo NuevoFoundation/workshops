@@ -5,6 +5,8 @@ weight: 8
 draft: false
 ---
 
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/xLAq5HggT6E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 Congratulations!
 
 You are very close to completely saving the nation. All that remains is to be able to enter a complete sentence! For this we only have to make a few small changes. First, you need to use the statement to enter the `string:getline()`.
@@ -30,4 +32,4 @@ Create your own secret messages, or decrypt those of your peers!
 
 Remember that you can always go back to the previous activities to review anything!
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/activity-7-english?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/activity-7-english" target="_blank">Launch Replit</a>

@@ -5,7 +5,7 @@ draft: false
 weight: 11
 ---
 
-Now, let’s make some enemies for our player to fight! Let’s first load a sprite sheet for our enemies in Scene 1 just like we did for the player. Use the same syntax you used to load in the player, but use a different name, `'assets/enemies.png` as the source of the sprite sheet, and a frameWidth and frameHeight of 16:
+Now, let’s make some enemies for our player to fight! Let’s first load a sprite sheet for our enemies in Scene 1 just like we did for the player. Use the same syntax you used to load in the player, but use a different name, `assets/enemies.png` as the source of the sprite sheet, and a frameWidth and frameHeight of 16:
 
 <!--- ![load_sprite](../media/5/load_sprite.png) --->
 <img src="../media/5/load_sprite.png" alt="load_sprite" style="width:950px;"/>
@@ -14,7 +14,6 @@ In addition, create another animation in Scene 1 in the same way you created the
 
 <!--- ![create_sprite](../media/5/create_sprite.png) --->
 <img src="../media/5/create_sprite.png" alt="create_sprite" style="width:950px;"/>
-
 
 This game will use many enemies that look identical and behave very similarly. To make this coding easier, we will use a concept in Phaser called a group to control all of our enemies at once A group is exactly what it sounds - a group of things. We can reference this group when we want a change to be made to every member of it.
 

@@ -6,7 +6,7 @@ prereq: "Python Basics: Print, Comments, Functions"
 difficulty: "Intermediate"
 draft: false
 ---
-<p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/x3_gZYBX00I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/x3_gZYBX00I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>
 
 Now that you have one effect in your song, let's try to fade in the introduction of our song.
 
@@ -14,7 +14,9 @@ In activity 4, we used `setEffect` function to apply an effect to a specific tra
 for the entire duration of the song, but what if you only want a
 specific section of your song to have an effect? Use the `setEffect`
 function with more parameters!
-![](../img/screenshot-seteffect2.png)
+
+<img src="../img/screenshot-seteffect2.png" alt="Code snippet" width="60%"/>
+
 
 - `effectStartValue`: The starting value applied to the parameter
 - `effectStartLocation`: The measure at which the starting value is set
@@ -30,6 +32,8 @@ define our `effectStartValue` at -60 db and our `effectEndValue` at 0
 db, it will sound like our song is fading in over time. To adjust the
 starting point and length of the effect, specify the
 `effectStartLocation` and `effectEndLocation`.
+
+![DJ Nuvi](https://media.giphy.com/media/OTk8FTCvQ5WQQfJqVf/giphy.gif)
 
 ## Add another setEffect function to your song
 

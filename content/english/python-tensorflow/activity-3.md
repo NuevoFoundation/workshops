@@ -7,8 +7,11 @@ weight: 5
 draft: false
 ---
 
-<iframe width="100%" height="600px" src="https://www.youtube.com/embed/8dMNuQcmx5s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8dMNuQcmx5s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<br>
+
+### Display Samples
 Now, you will be displaying all of your clothing samples by doing the following:
 
 Copy the following code into your Colab notebook. This displays a collection of images along with their specific category. 

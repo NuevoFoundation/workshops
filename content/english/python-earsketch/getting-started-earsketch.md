@@ -6,7 +6,7 @@ prereq: "None"
 difficulty: "Beginner"
 draft: false
 ---
-<p style="text-align: center;"><iframe width="60%" height="600px" src="https://www.youtube.com/embed/apUsNWZ9wIE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560px" height="315px" src="https://www.youtube.com/embed/apUsNWZ9wIE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 [EarSketch](https://en.wikipedia.org/wiki/EarSketch) is a free educational programming environment developed at Georgia Institute of Technology. We will be composing music using EarSketch today.
 
@@ -17,7 +17,7 @@ draft: false
 2. Now, let's get started. Click on *Scripts* icon on the left menu bar and
 select *Create a new script*. When prompted to enter the script name, enter *myjam* and click on *Create* button. 
 
-![alt text height="600px" width="60%"](../gif/createanewscript.gif "New script demo")
+<img src="../gif/createanewscript.gif" alt="New script demo" width="50%"/>
 
 3. Do not delete any of the pre-existing code! We will insert our code in between them.
 

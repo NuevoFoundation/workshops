@@ -16,7 +16,7 @@ draft: false
 <script type="text/javascript" src="../default/alasql.js"></script>
 <script type="text/javascript" src="../default/db.js"></script>
 
-{{< youtube VPMZedGI-Ww >}}
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/VPMZedGI-Ww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ## Task 5: Find the Tallest Ladder To Get To Their Leader
 
@@ -31,16 +31,16 @@ The Galactic Federation has sent you four new SQL commands to play around with! 
 
 <br/>
 
-{{%notice info%}}
+{{% notice info %}}
 Column Property:
 `MAX()` is used to look for the largest value in a column. `MIN()` is the opposite of `MAX()` and will look for the smallest value in a column.
 You can replace any word inside the parenthesis with another column name to get the largest or smallest value of that column.
-{{%/notice%}}
+{{% /notice%}}
 
 ![IN](assets/In.png)
 ![NOT](assets/not.png)
 
-{{%notice info%}}
+{{% notice info %}}
 Notice how the items specified inside `IN()` and `NOT IN()` are surrounded by single quotation marks but the ones inside `MAX()` and `MIN()` are not.
 
 <br>
@@ -55,10 +55,10 @@ Condition:
 * Using only 1 input inside `IN()` is equivalent to using `=`: 
 
 Ex. `column_name IN('obejct_in_column');` is the same as `column_name = 'obejct_in_column';`
-{{%/notice%}}
+{{% /notice%}}
 
 ### Now use what you learned! Using the database called 'items' with columns labeled 'object' and 'height', find the tallest 'ladder'.
-{{%notice tip%}}
+{{% notice tip %}}
 You can display the database using the command from activity 1.
 
 * Hint 1: Remember the advice from the Galactic Federation: `SELECT [column/column property] FROM [database] [optional condition];`
@@ -70,16 +70,16 @@ You can display the database using the command from activity 1.
 * Hint 4: Do you need to use `IN()` or `NOT IN()` to show the 'ladder'?
 
 * Hint 5: What symbol do you need at the end of a SQL command?
-{{%/notice%}}
+{{% /notice%}}
  
-{{%notice info%}}
+{{% notice info %}}
 * BONUS: Try to use multiple inputs inside `IN()` or `NOT IN()` when searching for the ladder
 * This command is very powerful in searching multiple types of objects
-{{%/notice%}}
+{{% /notice%}}
 
-{{%notice tip%}}
+{{% notice tip %}}
 Remember: You can query the database multiple times using everything you have learnt till now to find out the color of the tallest ladder.
-{{%/notice%}}
+{{% /notice%}}
 
 <!-- SQL Type In Activity -->
 
@@ -119,9 +119,9 @@ Remember: You can query the database multiple times using everything you have le
 
 ### Choose and drag the correct ladder onto the hill to continue your adventure!
 
-{{%notice note%}}
+{{% notice note %}}
 The correct ladder will be highlighted in green.
-{{%/notice%}}
+{{% /notice%}}
 
 {{< rawhtml >}}
 

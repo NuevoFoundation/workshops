@@ -8,4 +8,4 @@ draft: false
 ---
 
 # Python Pixels
-{{% children %}}
+{{% children /%}}

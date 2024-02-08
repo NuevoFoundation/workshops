@@ -4,13 +4,11 @@ draft: false
 weight: 2
 ---
 
-A Tuple is also an ordered collection of elements just like lists, but tuples are immutable. So you can not change the elements of a tuple after it is assigned (unlike lists where you are allowed to do so). This immutable nature makes tuples very useful when you don't want your data to be mutated through out the program. Along with this, tuples are generally used to store elements of different data types. A tuple can be created by placing all the elements inside parentheses `()`, separated by commas. 
+A Tuple is also an ordered collection of elements just like lists, but tuples are immutable. So you can not change the elements of a tuple after it is assigned (unlike lists where you are allowed to do so). This immutable nature makes tuples very useful when you don't want your data to be mutated through out the program. Along with this, tuples are generally used to store elements of different data types. Where you defined a list using square brackets (`[]`), a tuple can be created by placing all the elements inside parentheses `()`, separated by commas. 
 
 ```python
-
 #creating a tuple of two elements of String type 
 my_tuple = ('apple', 'orange')
-
 ```
 
 {{% notice note %}}
@@ -22,24 +20,20 @@ Tuples can also be created without parentheses. However, it is a good practice t
 Tuple can also have elements of different types.
 
 ```python
-
 #A tuple having elements of different data types
 my_tuple = ('apple', 1, 4.5)
-
 ```
 
 ### Accessing the elements of a tuple
 
-We can access the elements of a tuple by using indexes inside square bracket `[]` just like list. Note the index starts from 0. 
+We can access the elements of a tuple by using indexes inside square bracket `[]` just like list. Also, just like lists, the index starts from `0`. 
 
 ```python
-
 #creating a tuple of three elements of String type 
 my_tuple = ('apple', 'orange', 'mango')
 
 print(my_tuple[0]) ## prints apple
 print(my_tuple[2]) ## prints mango
-
 ```
 
 ### Combine two tuples
@@ -47,7 +41,6 @@ print(my_tuple[2]) ## prints mango
 We can combine two tuples by using `+` operator.
 
 ```python
-
 fruits = ('apple', 'orange', 'mango')
 numbers = (1, 2, 3)
 
@@ -55,7 +48,6 @@ numbers = (1, 2, 3)
 combined_tuple = fruits + numbers
 
 print(combined_tuple) ## prints ('apple', 'orange', 'mango', 1, 2, 3)
-
 ```
 
 ### Length of a tuple
@@ -63,20 +55,17 @@ print(combined_tuple) ## prints ('apple', 'orange', 'mango', 1, 2, 3)
 `len(tuple)` function gives the number of elements present in the tuple.
 
 ```python
-
 fruits = ('apple', 'orange', 'mango')
 
 print(len(fruits))  ## prints 3
-
 ```
 
 ### Reassign a tuple
 
 Since tuples are immutable, we can not change an element of the tuple. So `fruits[0] = 'lemon'` will give an error as here we are trying to change the element at index `0` of 'fruits'.
-But we can reassign a tuple.
+But we can reassign a tuple (replace the entire tuple).
 
 ```python
-
 my_tuple = ('apple', 'orange', 'mango')
 
 print(my_tuple)  ## prints ('apple', 'orange', 'mango')
@@ -85,7 +74,6 @@ print(my_tuple)  ## prints ('apple', 'orange', 'mango')
 my_tuple = (1, 2, 3) 
 
 print(my_tuple)  ## prints (1, 2, 3)
-
 ```
 
 ### Deleting a tuple
@@ -94,7 +82,6 @@ We can delete a tuple entirely using the keyword `del`.
 
 
 ```python
-
 fruits = ('apple', 'orange', 'mango')
 
 print(fruits)  ## prints ('apple', 'orange', 'mango')
@@ -103,10 +90,15 @@ print(fruits)  ## prints ('apple', 'orange', 'mango')
 del fruits 
 
 print(fruits)  ## Gives ERROR as tuple fruits is no longer present 
-
 ```
 
-### Try it yourself
+### Challenge
+Let's try the same exercise we just did with Lists, but using Tuples.  
 
-<iframe height="600px" width="100%" 
- src="https://repl.it/@nuevofoundation/python-blank?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+Start with the list of fruits below. Print out the list of fruits and for each fruit, as the user if they like it. If they like it, keep it. If they do not, remove it from the list. Next, ask the user to add a fruit that is missing from the list. Add it to the list and print out the number of fruits the user likes.
+
+```python
+fruits = ['orange', 'kiwi', 'banana', 'apple', 'mango', 'lemon']
+```
+
+<iframe src="https://trinket.io/embed/python/b238d85d0d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

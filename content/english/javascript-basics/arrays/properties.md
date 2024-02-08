@@ -10,51 +10,49 @@ Array properties or characteristics are a way to describe the attributes of the 
 
 Here is a list of the properties of the Array object along with their description.
 
+## Constructor()
 
-# Constructor() 
 Returns a reference to the array function that created the object.
 
-<b>Syntax:</b>
+**Syntax:**
 ```javascript
 arrayName.constructor;
 ```
 
-<b>Example:</b>
+**Example:**
 ![#Can't find image](../../img/constructor.png)
 
+## Index()
 
-# Index() 
 The property represents the zero-based index of the match in the string. Index provides a way to access or modify elements based on their position in the array.
 
 ### Access an array element by index:
 
-<b>Syntax:</b>
+**Syntax:**
 ```javascript
 var value = arrayName[index];
 ```
 
-<b>Example:</b>
+**Example:**
 ![#Can't find image](../../img/indexaccess.png)
-
 
 ### Modify an array element by index:
 
-<b>Syntax:</b>
+**Syntax:**
 ```javascript
 arrayName[index] = newValue;
 ```
 
-<b>Example:</b>
+**Example:**
 ![#Can't find image](../../img/indexmodify.png)
 
-
-# Length() 
+## Length() 
 Reflects the number of elements in an array.
 
-<b>Syntax:</b>
+**Syntax:**
 ```javascript
 var length = arrayName.length;
 ```
 
-<b>Example:</b>
+**Example:**
 ![#Can't find image](../../img/length.png)

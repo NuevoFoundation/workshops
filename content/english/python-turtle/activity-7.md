@@ -5,7 +5,7 @@ weight: 10
 draft: false
 ---
 
-![alt text width="70%"](../media/figure-8.png "drawing a figure 8")
+<img src="../media/turtle_circles.png" alt="drawing a figure 8" width="25%"/>
 
 Great! Now let’s make a figure 8 as the first step to making a mandala flower! A figure 8 is just two circles that are opposite to each other. 
 To do this we can make use of the `turtle.circle(x)` method, which takes an integer `x` as the radius of the circle. (You may recall that `2 * radius` is how wide the circle is.) Having the radius as an **argument** means we can decide how big or small the circle should be.

@@ -7,7 +7,7 @@ weight: 2
 draft: false
 ---
 
-<iframe width="100%" height="600px" src="https://www.youtube.com/embed/WkI5ij6pTWI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WkI5ij6pTWI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Example one: Make a diagonal
@@ -28,10 +28,10 @@ while x < 10:
 img.save('pil_red.png')
 ```
 
-This is the picture before changing.
+This is the picture before adding the diagonal.
 ![alt text](../../media/whileloopbefore.png "image showing while loop first example")
 
-This is the picture after changing.
+This is the picture after adding the diagonal.
 ![alt text](../../media/whileloopafter.png "image showing while loop first example")
 
 ## Example two: Make a rectangle.
@@ -48,10 +48,10 @@ for x in range(10, 30):
 img.save('pil_redmodified.png')
 ```
 
-This is the picture before changing.
+This is the picture before adding the rectangle.
 ![alt text](../../media/whileloopbefore.png "image showing for loop first example")
 
-This is the picture after changing.
+This is the picture after adding the rectangle.
 ![alt text](../../media/forloopafter.png "image showing for loop first example")
 
 ## Modifying your own colorboard!
@@ -90,4 +90,4 @@ for x in range(initial_position_x, width+initial_position_x):
 img.save('pixel-activity2.png')
 ```
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Python-Pixel-Activity2?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/Python-Pixel-Activity2" target="_blank">Launch Replit</a>

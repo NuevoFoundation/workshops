@@ -50,7 +50,7 @@ Technically, we could use a single scene for all three of these game states if w
 
 Here is another example of a very common way to use scenes: a title screen.
 
-![titleScreen](../media/protectpres-title.png)
+![Outliers game title screen](../media/title-game.png)
 
 The first scene displays simply a title screen that often contains things like settings, loading a save file, and more. Once the player clicks play, they are switched to a different scene, where they'll play the game within.
 
@@ -58,4 +58,4 @@ This is exactly what we're going to be doing. Scene 1 will contain a title scree
 
 # Part 3: Infinite Canvas
 
-When you start up the game on the repl.it, you can see a blank canvas on your screen where you will eventually place things onto. However, you are only seeing a part of the total canvas - actually, the canvas is infinite in all directions. The canvas behaves the same way in all sections - this means that objects can move and be placed into parts of the canvas that the user cannot see. This will become important because for our game, we don't want things really going out of the screen very much, so we need to bind our objects within the screen or delete them if they exit.
+When you start up the game on the replit, you can see a blank canvas on your screen where you will eventually place things onto. However, you are only seeing a part of the total canvas - actually, the canvas is infinite in all directions. The canvas behaves the same way in all sections - this means that objects can move and be placed into parts of the canvas that the user cannot see. This will become important because for our game, we don't want things really going out of the screen very much, so we need to bind our objects within the screen or delete them if they exit.

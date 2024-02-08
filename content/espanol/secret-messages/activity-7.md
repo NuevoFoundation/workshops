@@ -5,7 +5,7 @@ weight: 4
 draft: false
 ---
 
-{{< youtube w0dp9AnGltQ >}}
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/w0dp9AnGltQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ¡Felicitaciones!
 
@@ -41,4 +41,4 @@ Primero debe ir el mensaje encriptado o a encriptar, luego un 1, si queremos enc
 ¡Recuerda que siempre puedes volver a las actividades anteriores para recordar algo!
 
 
-<iframe height="600px" width="100%" src="https://replit.com/@nuevofoundation/actividad-7?lite=true#main.cpp" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/actividad-7" target="_blank">Lanza Replit</a>
