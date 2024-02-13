@@ -1,6 +1,6 @@
 ---
 title: "Unity: Jogo espacial"
-description: "Aprenda o básico do Unity criando um jogo espacial de cima à baixo"
+description: "Aprenda o básico do Unity criando um jogo espacial"
 date: 2021-10-06T11:45:38-07:00
 difficulty: "Advanced"
 prerequisite: "C#: Jogo Adivinhe as Palavras"
