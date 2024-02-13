@@ -15,7 +15,7 @@ Este workshop irá guiá-lo passo a passo na criação de um jogo espacial Unity
 
 Espero que goste!
 
-![Sample of a working game](./img/unity_game.gif)
+![Exemplo de um jogo funcional](./img/unity_game.gif)
 
 ## Tabela de Conteúdos
 
