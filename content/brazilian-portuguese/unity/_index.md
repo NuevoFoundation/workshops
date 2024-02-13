@@ -1,5 +1,5 @@
 ---
-title: "Unity: Jogo espacial Nuvi de cima à baixo"
+title: "Unity: Jogo espacial"
 description: "Aprenda o básico do Unity criando um jogo espacial de cima à baixo"
 date: 2021-10-06T11:45:38-07:00
 difficulty: "Advanced"
