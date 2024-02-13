@@ -1,5 +1,5 @@
 ---
-title: "Construindo e executando seu jogo"
+title: "Compilando e executando seu jogo"
 date: 2021-10-06T11:45:38-07:00
 draft: false
 weight: 15
@@ -9,13 +9,13 @@ Para exportar seu jogo, encontre "Arquivo" no canto superior esquerdo da janela 
 
 <img src="../img/14_build_settings.png" alt="Pop-up de configurações de compilação" width="600"/>
 
-As duas compilações mais comuns são a compilação para Mac ou a compilação para PC. Para escolher entre os dois, selecione o menu suspenso ao lado de "Target Platform" (Plataforma de Destino) e escolha sua plataforma. Por fim, basta selecionar “Build” (Construir) no canto inferior direito. Em seguida, você será solicitado a escolher onde deseja salvar o jogo. Você pode criar uma nova pasta e salvar seu jogo lá! Selecione sua pasta e o processo de construção começará. Assim que o processo de construção for concluído, vá até onde a pasta recém-criada está localizada e abra-a.
+As duas compilações mais comuns são a compilação para Mac ou a compilação para PC. Para escolher entre os dois, selecione o menu suspenso ao lado de "Target Platform" (Plataforma de Destino) e escolha sua plataforma. Por fim, basta selecionar “Build” (compilação) no canto inferior direito. Em seguida, você será solicitado a escolher onde deseja salvar o jogo. Você pode criar uma nova pasta e salvar seu jogo lá! Selecione sua pasta e o processo de compilação será iniciado. Assim que o processo de compilação for concluído, vá até onde a pasta recém-criada está localizada e abra-a.
 
-Se você está construindo no Windows, você pode rodar seu jogo entrando na pasta onde você construiu o jogo e selecionando o aplicativo que tem o ícone abaixo, com o nome do seu jogo ao lado!
+Se você está compilando no Windows, você pode rodar seu jogo entrando na pasta onde você construiu o jogo e selecionando o aplicativo que tem o ícone abaixo, com o nome do seu jogo ao lado!
 
 <img src="../img/14_windows_build.png" alt="Ícone Build do Windows" width="200"/>
 
-Se você estiver construindo em um Mac, executar o jogo é exatamente o mesmo processo. Mas em vez da marca Unity, você pode encontrar um ícone como abaixo. Não se preocupe, ainda é o seu jogo.
+Se você estiver compilando em um Mac, executar o jogo é exatamente o mesmo processo. Mas em vez da marca Unity, você pode encontrar um ícone como abaixo. Não se preocupe, ainda é o seu jogo.
 
 <img src="../img/14_mac_build.png" alt="Ícone Build do Mac" width="200"/>
 
