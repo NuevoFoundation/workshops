@@ -89,7 +89,7 @@ public class Outline : MonoBehaviour
 
 Faltam algumas linhas neste código para que ele funcione corretamente. Vamos preenchê-los, certo?
 
-Se tentarmos rodar o jogo agora, isso não permitirá. Um dos motivos é que usamos um objeto UI no script. Para acessá-lo, precisamos importar o espaço de nome da UI. Para fazer isso, adicione `using UnityEngine.UI;` na parte superior do script em `using UnityEngine;`.
+Note que não será possível rodarmos o jogo ainda, um dos motivos é que usamos um objeto UI no script. Para acessá-lo, precisamos importar o namespace da UI. Para fazer isso, adicione `using UnityEngine.UI;` na parte superior do script em `using UnityEngine;`.
 
 A seguir, queremos armazenar as posições de spawn que criamos. Qual você acha que é a melhor estrutura de dados para armazenar esses pontos de geração? Se você pensou em arrays, você acertou! Adicione a linha `public Transform[] positions;` logo acima de `private Transform location;`. Isso nos permitirá armazenar todos os pontos de spawn sem precisar criar quatro variáveis ​​individuais.
 
@@ -116,4 +116,4 @@ A primeira linha do método `Start()` define a variável "cam" como o GameObject
 
 Finalmente, tudo o que precisamos fazer é remover todos os inimigos e Nuvi da janela Cena. Isso ocorre porque queremos que eles apareçam apenas quando pressionamos o botão Iniciar. Clique com o botão direito sobre eles na hierarquia e selecione excluir.
 
-Ufa... foi muito, não foi? Agora tente executar seu jogo! Se tudo estiver bem, então Parabéns! Você fez seu primeiro jogo! Mas você ainda não terminou. Vamos tentar exportar seu jogo para que você possa compartilhá-lo com outras pessoas!
+Ufa... foi bastante coisa, não foi? Agora tente executar seu jogo! Se tudo estiver bem, então Parabéns! Você fez seu primeiro jogo! Mas você ainda não terminou. Vamos tentar exportar seu jogo para que você possa compartilhá-lo com outras pessoas!
