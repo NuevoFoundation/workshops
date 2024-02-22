@@ -13,9 +13,9 @@ Cada lote de biscoitos equivale a 12 biscoitos. Você pode vender um lote de bis
 
 <img src= ../img/cookie_price.jpg alt="Foto de um biscoito com gotas de chocolate que diz $ 20 e uma foto de um biscoito de açúcar que diz $ 15" width="700" height="300">
 
-Você precisa comprar os ingredientes para fazer os biscoitos. Na cadeia de abastecimento, estes são conhecidos como “matérias-primas”. Ao fazer as contas, você descobriu que, como os biscoitos de chocolate usam mais ingredientes do que os biscoitos de açúcar, cada lote custará R$10 em matéria-prima. Cada lote de biscoitos açucarados custará apenas R$ 7.
+Você precisa comprar os ingredientes para fazer os biscoitos. Na cadeia de abastecimento, estes são conhecidos como “matérias-primas”. Ao fazer as contas, você descobriu que, como os biscoitos de chocolate usam mais ingredientes do que os os de açúcar, cada lote custará R$10 em matéria-prima. Cada lote de biscoitos açucarados custará apenas R$ 7.
 
-O negócio de biscoitos é muito competitivo. Para permanecer no mercado, você precisa ter lucro, o que significa que você ganha mais dinheiro do que gasta.
+Este modelo de negócio é muito competitivo. Para permanecer no mercado, você precisa ter lucro, o que significa que você ganha mais dinheiro do que gasta.
 
 {{% panel theme="info" header="Como você calcula o lucro?"%}}
 Profit = Revenue - Cost
@@ -25,7 +25,7 @@ A receita é o dinheiro total que você ganha vendendo biscoitos. Ao subtrair o 
 
 {{% /panel %}}
 
-Aqui está o problema: você só tem um número limitado de ingredientes comuns que deve compartilhar entre os dois cookies. Mas cada lote requer uma quantidade diferente. Para simplificar, incluí apenas três dos ingredientes principais: ovos, farinha e açúcar.
+Aqui está o problema: você só tem um número limitado de ingredientes comuns que deve compartilhar entre os dois. Mas cada lote requer uma quantidade diferente. Para simplificar, eu incluí apenas três dos ingredientes principais: ovos, farinha e açúcar.
 
 <img src= ../img/constraints_chart.jpg alt="Visualização de tabela de todas as restrições" width="750" height="200">
 
