@@ -19,7 +19,7 @@ Em um problema de otimização, você escreve uma fórmula matemática para repr
 
 Hoje em dia, você pode usar Excel ou Python para resolver esses problemas sem realmente escrever as equações.
 
-Existem três partes principais que você precisa aprender: variáveis ​​de decisão, função objetivo e restrições.
+Existem três partes principais que você precisa aprender: variáveis ​​de decisão, função objetiva e restrições.
 
 ## Variáveis ​​de decisão
 
