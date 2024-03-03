@@ -1,11 +1,10 @@
 ---
 title: "Activity 4 - Use effects to fade in"
-description: "Use effects to fade in"
+date: 2019-07-23T11:45:38-07:00
 weight: 6
-prereq: "None"
-difficulty: "Beginner"
 draft: false
 ---
+
 Now that you have one effect in your song, let's try to fade in the introduction of our song.
 
 In activity 3, we used `setEffect` function to apply an effect to a specific track for the entire duration of the song, but what if you only want a specific section of your song to have an effect? Use the `setEffect` function with more parameters!

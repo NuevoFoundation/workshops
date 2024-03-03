@@ -1,9 +1,7 @@
 ---
 title: "Getting started with Earsketch"
-description: "Introduction on how to use Earsketch"
+date: 2019-07-23T11:45:38-07:00
 weight: 2
-prereq: "None"
-difficulty: "Beginner"
 draft: false
 ---
 

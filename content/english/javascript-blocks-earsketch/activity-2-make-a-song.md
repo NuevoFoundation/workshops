@@ -1,8 +1,6 @@
 ---
 title: "Activity 2 - Make a song!"
-description: "Setting up headphones"
-prereq: "None"
-difficulty: "Beginner"
+date: 2019-07-23T11:45:38-07:00
 weight: 4
 draft: false
 ---
