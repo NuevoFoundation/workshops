@@ -45,4 +45,8 @@ Asegúrate de que los bloques de función y el texto estén colocados correctame
 
 {{% notice info %}}
 
-La **estación de trabajo de audio digital** (DAW) es el área donde aparecen los sonidos. Se encuentra en la parte superior central de tu ventana
+La **estación de trabajo de audio digital** (DAW) es el área donde aparecen los sonidos. Se encuentra en la parte superior central de tu ventana.
+
+<img src="../img/screenshot-daw.png" height="400"/>
+
+{{% /notice %}}
