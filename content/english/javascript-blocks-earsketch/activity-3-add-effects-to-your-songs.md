@@ -1,9 +1,7 @@
 ---
 title: "Activity 3 - Add effects to your song"
-description: "Add effects to your songs"
+date: 2019-07-23T11:45:38-07:00
 weight: 5
-prereq: "None"
-difficulty: "Beginner"
 draft: false
 ---
 

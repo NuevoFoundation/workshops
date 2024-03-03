@@ -1,8 +1,6 @@
 ---
 title: "Activity 1 - Set tempo & add sounds"
-description: "Setting up headphones"
-prereq: "Python Basics: Print, Comments, Functions"
-difficulty: "Intermediate"
+date: 2019-07-23T11:45:38-07:00
 weight: 3
 draft: false
 ---
