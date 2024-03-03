@@ -5,7 +5,7 @@ date: 2019-07-23T11:45:38-07:00
 difficulty: "Principiante"
 download: ""
 draft: false
-icon: "fab fa-puzzle-piece"
+icon: "fas fa-puzzle-piece"
 ---
 
 ### ¡Vamos a hacer música!

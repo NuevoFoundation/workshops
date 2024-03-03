@@ -60,4 +60,4 @@ Ahora que estamos más familiarizados con el uso de efectos, agreguemos un efect
 
 Su código ahora debería verse algo así:
 
-<img src="../img/screenshot-set-effect-1.png" height="400
+<img src="../img/screenshot-set-effect-1.png" height="400"/>

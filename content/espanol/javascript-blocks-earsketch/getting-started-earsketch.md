@@ -47,4 +47,6 @@ El `Administrador de contenido` en el lado izquierdo de la pantalla es tu base d
 
 <img src="../img/screenshot-navigation-api-curriculum.png" height="400"/>
 
-En el lado derecho, verás la guía de `Currículo`. Si quieres saber más sobre EarSketch, puedes explorar la sección que aparece en el lado derecho de la ventana cuando haces clic en ella. Saltaremos esta sección
+En el lado derecho, verás la guía de `Currículo`. Si quieres saber más sobre EarSketch, puedes explorar la sección que aparece en el lado derecho de la ventana cuando haces clic en ella. Saltaremos esta sección.
+
+{{% /notice %}}
