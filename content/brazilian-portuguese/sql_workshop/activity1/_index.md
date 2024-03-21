@@ -19,12 +19,10 @@ draft: false
 
 # Missão 1: Salvar o Planeta da Diversão do Tédio!
 Sua primeira missão é ir ao Planeta da Diversão e salvá-los do tédio!
-Você recebe um banco de dados sobre o planeta e precisa aprender a usar comandos
-SQL para ajudar a salvar o Planeta da Diversão!
+Você receberá um banco de dados sobre o planeta e precisa aprender a usar comandos SQL para ajudar a salvar o Planeta da Diversão!
 
 ## Tarefa 1: Dê uma olhada nas informações do Planeta da Diversão
-Você recebe informações sobre a Galáxia e deseja procurar o Planeta da Diversão. Para fazer isso,
- a Federação Galáctica deu a você seu primeiro comando SQL: `SELECT`.
+Você receberá informações sobre a Galáxia e deseja procurar o Planeta da Diversão. Para fazer isso, a Federação Galáctica deu a você seu primeiro comando SQL: `SELECT`.
 
 {{% notice info %}}
 ### O que o comando faz:
