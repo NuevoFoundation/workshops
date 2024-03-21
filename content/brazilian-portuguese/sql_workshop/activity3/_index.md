@@ -17,9 +17,9 @@ draft: false
 
 <br>
 
-Após receber a mensagem da Federação Galáctica, você continua sua aventura.
+A aventura se desdobra após a intrigante mensagem da Federação Galáctica.
 
-Você chegou com sucesso ao Planeta da Diversão! A Federação Galáctica enviou-vos uma base de dados sobre este planeta.
+Com os motores da nave zumbindo em antecipação, você aterrissa triunfantemente no Planeta da Diversão! Em suas mãos, um presente da Federação: uma base de dados repleta de segredos e maravilhas deste mundo exótico, aguardando sua exploração.
 
 {{< rawhtml >}}
   <table id="planettable">
