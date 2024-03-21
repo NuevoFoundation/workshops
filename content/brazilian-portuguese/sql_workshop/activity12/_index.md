@@ -18,7 +18,7 @@ draft: false
 
 ### Todos os convidados estão aqui! Precisamos encontrar o Inventor antes que seja tarde demais!
 
-Todos estão se divertindo na festa! O inventor também chegou, agora precisamos descobrir quem é o inventor! Ninguém sabe como é o inventor, mas o Líder deu dicas sobre como encontrá-lo!
+A alegria é contagiante na festa! O inventor misterioso finalmente fez sua entrada triunfal. Agora, o desafio é desvendar sua identidade! Sem pistas sobre sua aparência, dependemos das dicas astutas do Líder para revelar o inventor entre nós!
 
 ### Tarefa 12: Exiba todo o banco de dados chamado "pessoas" para que possamos ver todos os participantes.
 {{% notice tip %}}
