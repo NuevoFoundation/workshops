@@ -5,7 +5,7 @@ date: 2022-01-19T14:04:59.61-07:00
 prereq: "Excel; Excel Solver Add-In"
 difficulty: "Intermediário"
 download: ""
-icon: "fab fa-link"
+icon: "fas fa-link"
 draft: false
 ---
 
