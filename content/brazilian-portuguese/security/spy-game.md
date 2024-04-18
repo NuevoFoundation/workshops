@@ -46,4 +46,4 @@ Em uma lista de senhas usadas pelo nosso `Nuvi`, selecione a senha mais forte qu
 
 #### PARABÉNS! Você conseguiu. Veja as respostas clicando no botão abaixo.
 
-{{< button href="../summary" theme="success" >}} Done {{< /button >}}
+{{< button href="../summary" theme="success" >}} Concluído {{< /button >}}
