@@ -25,4 +25,4 @@ Vamos jogar um jogo!
 
 ### Voilà essa é sua nova senha! Não parece difícil de quebrar?
 
-{{< button href="/security/4-spy-game/" theme="success" >}} Success! {{< /button >}}
+{{< button href="/security/4-spy-game/" theme="success" >}} Sucesso! {{< /button >}}
