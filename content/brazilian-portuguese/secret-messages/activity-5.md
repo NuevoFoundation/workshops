@@ -25,7 +25,7 @@ Como cada caractere possui um valor numérico, podemos usar isso para adicionar 
 
 Exemplo
 ```
-letra char = 'A';
+char letra = 'A';
 int letra_valor = letra;
 
 cout << letra << " = " << letra_valor << endl;
