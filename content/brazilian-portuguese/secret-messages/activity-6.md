@@ -22,7 +22,7 @@ Nesta atividade usaremos funções com o tipo de retorno **void** (vazio). Essas
 
 Para declarar (criar) uma função, devemos usar a seguinte estrutura **fora da função principal**:
 ```
-void nome_função(){
+void name_function(){
     //Código aqui
 }
 ```
@@ -36,7 +36,7 @@ Vamos analisar este código com mais detalhes:
 
 Como as funções que declaramos vão fora da função `main()`, quando pressionamos **Run**, o bloco de código que escrevemos nas funções não será executado. Portanto, dentro da função `main()` devemos **chamar** a função. Devemos informar ao programa quando queremos que aquele bloco de código seja executado. Para chamar uma função, devemos usar a seguinte instrução:
 ```
-nome_função();
+name_function();
 ```
 Basta escrever o nome que demos à função, seguido dos parênteses e terminar com ponto e vírgula `;`.
 Isso fará com que as instruções que estão dentro da função `name_function()` sejam executadas.
@@ -76,7 +76,7 @@ Agora, vamos criar 2 funções – uma para criptografar a mensagem e outra para
 
 5. Na função `main`, chame a função correspondente na condição `if` dependendo se queremos criptografar ou descriptografar uma mensagem.
 
-Quando terminar, pressione **Run** e tente os seguintes exemplos:
+Quando terminar, pressione **Executar** e tente os seguintes exemplos:
 ```
 programmer
 1
