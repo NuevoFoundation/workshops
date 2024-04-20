@@ -21,24 +21,24 @@ int main() {
 ### Atividade 1
 
 ```
-cout << "Hello programmer!" << endl;
+cout << "Olá desenvolvedor!" << endl;
 ```
 
 ### Atividade 2
 
 ```
-  string name;
-  cin >> name;
-  cout << "Hello " << name << endl;
+  string nome;
+  cin >> nome;
+  cout << "Olá " << nome << endl;
 ```
 
 ### Atividade 3
 
 ```
-string name;
-cin >> name;
-for(int i=0; i<name.size(); i++){
-  cout << name[i] << endl;
+string nome;
+cin >> nome;
+for(int i=0; i<nome.size(); i++){
+  cout << nome[i] << endl;
 }
 ```
 
