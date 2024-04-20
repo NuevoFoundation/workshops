@@ -1,5 +1,5 @@
 ---
-title: "Activity 2 - Variables and Inputs"
+title: "Atividade 2 - Variáveis e Entradas (Inputs)"
 date: 2019-07-25T13:24:17-07:00
 weight: 3
 draft: false
@@ -47,10 +47,10 @@ O número é: 10
 Podemos usar `cout` para imprimir palavras, números ou variáveis. Se quiséssemos imprimir mais de uma coisa, teríamos que adicionar `<<` entre cada termo:
 Exemplo:
 ```
-int hour = 1;
+int hora = 1;
 cout << "É " << hora << " hora da tarde" << endl;
 ```
-This will print:
+A seguinte frase será impressa no console:
 ```
 É 1 hora da tarde.
 ```
@@ -71,13 +71,13 @@ Vamos nos aprofundar nesta linha de código.
 
 Semelhante a como podemos imprimir no console usando `cout`, podemos inserir dados no console usando `cin` e especificando o nome da variável na qual a entrada será armazenada.
 
-No exemplo anterior estamos afirmando que quaisquer dados que inserirmos, eles serão armazenados dentro da variável `name`.
+No exemplo anterior estamos afirmando que quaisquer dados que inserirmos, eles serão armazenados dentro da variável `nome`.
 
 Dito isto, se inserirmos:
 ```
 Rainha
 ```
-Então a variável `name` armazenará a string `"Rainha"`.
+Então a variável `nome` armazenará a string `"Rainha"`.
 
 {{% /notice%}}
 
