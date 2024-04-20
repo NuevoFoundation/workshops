@@ -27,7 +27,7 @@ Vamos tentar entender o que essa linha de código faz.
 Isso informa ao programa que as instruções contidas entre colchetes `{}` devem ser executadas em um loop.
 Podemos identificar três partes diferentes dentro deste comando:
 1. `int i=0;` declara uma variável int chamada `i` que será inicializada como `0`. Esta variável funcionará como um contador de quantas vezes estivemos no loop.
-2. `1<3;` é a condição que precisa ser atendida para que o loop continue funcionando. Se o valor da variável `i` for menor que `3`, o loop continuará em execução.
+2. `i<3;` é a condição que precisa ser atendida para que o loop continue funcionando. Se o valor da variável `i` for menor que `3`, o loop continuará em execução.
 3. `i++` adicionará 1 à variável `i` no final de cada loop.
 A parte mais importante a retirar disto é que esta é a forma geral de repetir as instruções um certo número de vezes (neste caso, 3 vezes).
 
@@ -58,9 +58,9 @@ A primeira letra é: o
 Além de acessar cada caractere individual em uma string, também podemos saber o quão longa ela é usando as seguintes linhas de código:
 
 ```
-palavra da string = "olá";
-int wordSize = word.size();
-cout << "O tamanho é: " << wordSize << endl;
+string palavra = "olá";
+int tamanhoPalavra = palavra.size();
+cout << "O tamanho é: " << tamanhoPalavra << endl;
 ```
 Isso imprimiria:
 ```
