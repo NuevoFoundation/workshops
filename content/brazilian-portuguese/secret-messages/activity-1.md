@@ -19,7 +19,7 @@ Vamos aprender mais sobre essa linha de código, certo?
 
 {{% notice tip %}}
 
-### Cordas
+### string
 
 Tudo o que vemos entre aspas (`""`) é chamado de **string**s. Uma string é uma sequência de caracteres, números, letras ou símbolos.
 
