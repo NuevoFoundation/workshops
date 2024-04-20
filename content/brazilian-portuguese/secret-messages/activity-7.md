@@ -1,5 +1,5 @@
 ---
-title: "Atividade 7 – Linha de entrada"
+title: "Atividade 7 – Linha de entrada (Input line)"
 date: 2019-07-25T13:24:17-07:00
 weight: 8
 draft: false
