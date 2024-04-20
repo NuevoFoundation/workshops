@@ -7,7 +7,7 @@ draft: false
 
 Parabéns!
 
-Você fez um trabalho incrível. Você salvou o reino e, ao fazer isso, também aprendeu programação C++! :)
+Você fez um trabalho incrível. Você salvou o reino e, ao fazer isso, também aprendeu à programar em C++! :)
 
 Vamos revisar o que você aprendeu:
 - Você usou o **console** para inserir e enviar mensagens criptografadas ou descriptografadas.
