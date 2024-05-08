@@ -31,5 +31,5 @@ sabe por onde começar.
 
 ![Não é possível carregar a imagem](../img/Alice.png?height=250px)
 
-Para a sorte de **Bob**, sua boa amiga, a Agente Secreta <b>Alice</b>, chega para ajuda-lo
+Para a sorte de **Bob**, sua boa amiga, a Agente Secreta <b>Alice</b>, chega para ajudá-lo
 com sua situação. Vamos ver o que **Alice** tem a dizer...
