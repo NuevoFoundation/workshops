@@ -20,7 +20,7 @@ As senhas precisam ser privadas e só devem ser conhecidas por você. Uma senha 
 ### Exemplos de senhas fracas
 
 1. Qualquer palavra comum do dicionário, em qualquer idioma (por exemplo, “avião” ou “Senha”).
-2. Uma palavra de dicionário onde as letras são substituídas por números (por exemplo, "a1rplan3" ou "P4ssw0rd").
+2. Uma palavra de dicionário onde as letras são substituídas por números (por exemplo, "av1a0" ou "S3nh@").
 3. Um conjunto repetido de caracteres (por exemplo, "AAAAA" ou "12345").
 4. Uma série de caracteres do teclado (por exemplo, "qwerty" ou "poiuy").
 5. Informações pessoais (por exemplo, aniversários, nomes de animais de estimação ou amigos, número do Seguro Social, endereços).
