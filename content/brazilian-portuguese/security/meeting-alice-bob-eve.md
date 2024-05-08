@@ -22,7 +22,7 @@ tranca de **Bob**. **Eva** não consegue quebrar a fechadura, mas talvez ela con
 adora seu cachorro de estimação, Max. Isso dá a **Eva** uma ideia.
 
 **Eva** acha que, já que **Bob** ama tanto seu animal de estimação, ele pode ter decidido
-para fazer disso a "chave" de sua fechadura. Eles decidem tentar e *violà*,
+para fazer disso a "chave" de sua fechadura. Eles decidem tentar e *supresa!?*,
 **Eva** conseguiu abrir a fechadura de **Bob** e ver seu segredo.
 
 Isso não é bom para **Bob**! Ele quer saber o que ele poderia ter feito
