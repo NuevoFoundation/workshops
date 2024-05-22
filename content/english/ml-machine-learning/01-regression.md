@@ -14,7 +14,7 @@ Regression is a technique to model the relationship between a feature (independe
 |:--:|
 |Regression|
 
-Regression is a powerful technique that lets us find a line or a curve that fits the data we have. BBy doing regression, we can create or reuse `mathematical models` that show how the dependent and independent variables are related. [Mathematical models](https://www.youtube.com/watch?v=xHtsuOB-TPw) are useful because they help us understand a system and make predictions based on the system's variables. Sometimes, the mathematical model we choose may not match the data well, so we have to look for a better model that can capture the patterns we see.
+Regression is a powerful technique that lets us find a line or a curve that fits the data we have. By doing regression, we can create or reuse `mathematical models` that show how the dependent and independent variables are related. [Mathematical models](https://www.youtube.com/watch?v=xHtsuOB-TPw) are useful because they help us understand a system and make predictions based on the system's variables. Sometimes, the mathematical model we choose may not match the data well, so we have to look for a better model that can capture the patterns we see.
 
 ## Example 1: How do we know if it is going to rain?
 Whenever you use your phone, watch a news cast, or just ask in the internet "What is the chance of rain today?", mathematical models are used by meteorologists to predict if there will be the possibility of rain. You may wonder,  What `variables` are taken into consideration when running those mathematical models? Is the smell of rain enough?
@@ -36,38 +36,34 @@ Suppose that someone wants to know the type of shapes they have based on the are
 
 1. Is that even possible? Can someone know what shape they have based on the area?
 {{% expand "**Click to show answer**" %}}  
-***No, as you can quickly guess no relation exists between the **area** and the type of shape.***
+***No***, as you can quickly guess there is no relation between the **area** and the type of shape a figure may have.
 
 For example, a square of side length 3 has an area of 9.
 
-(3 x 3 = 9)
+<h3>
+\[
+    3 \cdot 3 = 9
+\]
+</h3>
 
 But so does a triangle with width of 6 and height of 3.
-
-((6 x 3)/ 2) = 9.
+<h3>
+\[
+    (6 \cdot 3)/2 = 9
+\]
+</h3>
 
 {{% /expand %}}
 <br>
+
 2. If the area is not a good property to understand the type of shape we can have. We need to come up What relationship can we use in order to know what is the type of shape?
 {{% expand "**Click to show answer**" %}}  
-***The number of **sides** it has! As the number of sides increases, you can know the type of shape.***
 
-|Number of Sides|Shape|
-|:--:|:--:|
-|1|-|
-|2|-|
-|3|Triangle|
-|4|Square|
-|5|Pentagon|
-|6|Hexagon|
-|7|Heptagon|
-|8|Octagon|
-|9|Nonagon|
-|10|Decagon|
+***The number of **sides** it has! As the number of sides increases, you can know the type of shape.***
 
 If you noticed in our table, we have built a linear relationship that can be represented as X=Y. 
 
-X &rarr; **number of sides**
+X &rarr; **the number of sides**
 Y &rarr; **type of shape**
 
 There you go, you created your first machine learning model!
@@ -87,7 +83,7 @@ When we perform analysis using a machine learning model that already exists we n
 </h2>
 
 When you use a parabolic model you need to know where the vertices of the parabola will land in order to predict where a new point will be. You could go ahead and run a model, setting no vertices and end up like the "Under-fitting" image, or setup way to many vertices and end up like the "Over-fitting" image. We want to set it just right enough so that our model "fits" the data and new data points can be represented using the model. 
-
+<!-- TODO: Add diagram to replace image below. -->
 |![Fitting Data Example](../resources/fitting-data-example.png)|
 |:--:|
 |Image 1: Under-Fitting and Over-Fitting|
