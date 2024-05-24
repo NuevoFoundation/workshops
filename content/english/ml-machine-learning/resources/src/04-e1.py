@@ -4,8 +4,8 @@ import statsmodels.api as sm
 
 
 # Importing data sample
-sample_size = 30
-original_sample = pd.read_csv("Experience_vs_Salary.csv").sample(n=sample_size)
+sample_size = 1000
+original_sample = pd.read_csv("Experience_vs_Salary-More_Data.csv").sample(n=sample_size)
 x0 = original_sample.iloc[:, :-1].values 
 y0 = original_sample.iloc[:, 1].values
 

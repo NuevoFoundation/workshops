@@ -8,13 +8,14 @@ weight: 5
 
 # Training the Model
 
-For our model to be able to predict the correct values we need to train it. But, how do we do that, well we have been doing it 😉!
+For our model to be able to predict values we need to train it. But, how do we do that, well we have been doing it 😉!
 
 To train a model is to verify that there is a good relation between the data and that our model fits the data.
 
-We have done this by ensuring R<sup>2</sup> is close to 1. What we need to do now is use the dataset of 10,000+ to create a training and testing dataset. The training dataset will be a random sample instead of the initial 30 we had. According to the University of Texas el Paso, taking a sample of 30% is the ideal way to create an accurate model. ([Why 70/30 or 80/20 Relation Between Training and Testing Sets](https://scholarworks.utep.edu/cs_techrep/1209/))
+We have done this by ensuring R<sup>2</sup> is close to 1. What we need to do now is use the dataset of 10,000+ to create a training and testing dataset. The training dataset will be a random sample instead of the initial 30 we had. According to the University of Texas el Paso, taking a sample of 30% is the ideal way to create an accurate model. If you like to know more go here: ([Why 70/30 or 80/20 Relation Between Training and Testing Sets](https://scholarworks.utep.edu/cs_techrep/1209/))
 
 As the number of employees increases so will the dataset and the value of will R<sup>2</sup> change. We need to do this every time the dataset of 10,000+ employees increases to ensure that our model stays up to date with the current number of employees.
+
 # Making Predictions
 
 In the Replit below, you can see how the code creates a "training dataset" and a "testing dataset" by splitting the data from the 10,000+ record file and running predictions for both data sets.

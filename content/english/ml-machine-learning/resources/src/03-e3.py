@@ -9,7 +9,7 @@ dataset = pd.read_csv("Experience_vs_Salary-More_Data.csv")
 coefficients = []
 
 for index in range(1, number_of_samples + 1):
-    sample = dataset.sample(50, ignore_index=False)
+    sample = dataset.sample(int(number_of_samples/2), ignore_index=False)
     x = sample.iloc[:, :-1].values
     y = sample.iloc[:, 1].values
     model = linear_model.LinearRegression()

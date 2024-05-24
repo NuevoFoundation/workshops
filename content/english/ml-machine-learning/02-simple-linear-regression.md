@@ -121,7 +121,7 @@ If we plug these into our linear equation you will get something like this.
 \]
 </h1>
 
-With the equation like this, we are saying  that "The years of experience explains the salary an employee might have".
+With an equation like this we are saying: "The years of experience has a direct effect on the salary an employee".
 
 {{% /expand %}}
 
@@ -148,15 +148,13 @@ In our linear equation, let's add that error with the greek letter **ε**.
 
 # Exercise 1: Playing with Scikit-learn
 
-Scikit-learn is a machine-learning library that will help us analyze and use the built-in linear regression model to predict data.
-
-In the Replit window below, you can run the "02-e1.py" program and see how the code plots the data similar to the images above:
+Scikit-learn is a machine-learning library that will help us analyze and use the built-in simple linear regression model to predict data. In the Replit window below, you can run the program `02-e1.py` which will use a data set of employees alongside their years of experience. The program will plot a sample of 30 employees out of the employees within the company:
 
 <iframe height="500px" width="100%" src="https://replit.com/@nuevofoundation/LinearRegression-ConsoleApp#src/02-e1.py" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 # Exercise 2: Finding the Slope and Intercept
 
-Before we go any further, lets analyze our equation. We know that our equation has been updated like so:
+Before we go any further, lets analyze our equation once again. We know that our equation has been updated like so:
 
 <h1>
 \[
@@ -164,16 +162,14 @@ Before we go any further, lets analyze our equation. We know that our equation h
 \]
 </h1>
 
-We have been able to correlate **x** and **y** but what about **a** and **b**. Lets us recall from above what each value means.
+We have been able to determine what are the values of **x** and **y** but, what about **a** and **b**? Let us recall what each of the missing values mean:
 
 - **a** is the slope or coefficient of the line. The **slope** represents the estimated change on the dependent variable, in this case, the **SALARY**.
 - **b** is the intercept or the value of **y** when **x=0**. After plotting our data set, you can see that the value for the **SALARY** when the **YEARS OF EXPERIENCE** is 0.
 
-Hold on for a second? If I join the company with no experience, my salary will be 0? That doesn't sound right. Lets go ahead and figure out what is the actual value. 
+Hold on for a second? If I join the company with no experience, my salary will be 0? That doesn't sound right. Lets go ahead and figure out what is the actual value is. 
 
-Using scikit-learn we can use the linear regression model and find the value of **a** and **b**
-
-On the Replit window below, lets analyze the code:
+Using scikit-learn we can use the linear regression model and find the value of **a** and **b**. On the Replit window below, lets analyze the code
 
 First, we need to import the data from the CSV file:
 
@@ -184,13 +180,12 @@ x = dataset.iloc[:, :-1].values # Get all the values from "Experience"
 y = dataset.iloc[:, 1].values # Get all the values from "Salary"
 ```
 
-Then we instantiate the `LinearRegression` model class and **fit** the model to the data:
+Then we make an instance of the `LinearRegression` model class and **fit** the model to the data. The `fit` function will analyze the values from our CSV file and find the **slope** and **intercept** values.
+
 ```python
 model = linear_model.LinearRegression()
 model.fit(x,y)
 ```
-
-The `fit` function will take the values from our CSV file and find the **slope** and **intercept** values.
 
 <iframe height="500px" width="100%" src="https://replit.com/@nuevofoundation/LinearRegression-ConsoleApp#src/02-e2.py" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
@@ -208,6 +203,4 @@ As you can see, the code has returned the value for the **coefficient** and **in
 \]
 </h3>
 
-We know that the model gave us an intercept of **25792.20**. What this means is that an employee with NO experience would have a salary is 25792.20. But what does the 9449.96 mean? This means that, for every year of experience, the salary of employees has an increase of 9449.96.
-
-But wait a moment, how can we make sure these are the correct values? Do we have confidence that these are indeed the correct values? If we grab another 30 random employees and verify their salaries, will we get the same values?
+We know that the model gave us an intercept of **25792.20**. What this means is that an employee with NO experience would have a salary of $25792.20. But what does the 9449.96 mean? This means that, for every year of experience, the salary of employees has an increase of 9449.96. But wait a moment, how can we make sure these are the correct values? Do we have confidence that these are indeed the correct values? If we grab another 30 random employees and verify their salaries, are we going to get the same values?
