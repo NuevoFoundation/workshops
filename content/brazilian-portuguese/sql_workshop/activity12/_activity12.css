@@ -1,0 +1,80 @@
+/* O contêiner que contém a imagem "você encontrou o inventor" */
+.inventor_div {
+  padding-right: 1%;
+  background-image: url('assets/find.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 615px;
+  height: 220px;
+}
+
+/* O contêiner filho de inventor_div contém a área de inserção da caixa de texto */
+.box_half {
+  padding-top: 11%;
+  padding-left: 5%;
+  float: left;
+  width: 70%;
+  height: 100%;
+}
+
+.text_box {
+  float: left;
+  background-color: transparent;
+  width: 450px;
+  height: 50px;
+  resize: none;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  padding: 10px 0;
+  width: 90%;
+  height: 40%;
+}
+
+.text_box h3 {
+  margin: 0 auto;
+  text-align: left;
+  color: #228B22;
+}
+
+/* Colocação do segundo botão de verificação em inventor_div */
+.half {
+  float: right;
+  padding-top: 4%;
+  padding-left: 6%;
+  padding-right: 1%;
+  height: 100%;
+  width: 170px;
+}
+
+/* Estilo para o segundo botão de verificação (para inventor_div) */
+.second {
+  background-color: transparent;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 25%;
+  width: 100%;
+  outline: none;
+}
+
+/* Estilo do botão de download */
+#download {
+  background-color: #64b5f6;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  padding: 12px 28px;
+  margin: 0 auto;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+#download:hover {
+  background-color: #0077c2;
+}

@@ -1,0 +1,20 @@
+/* Posições e estilo para os blocos de código */
+.codeBlocks {
+  left: 450px;
+  margin: 20px;
+  top: -430px;
+  width: 80px;
+  height: 80px;
+  border: 1px solid white;
+}
+
+/* Posições e estilo para os locais de descarte */
+.dropClass {
+  top: -200px;
+  left: 165.0px;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  margin: 3.0px;
+  border: 3px solid blue;
+}
