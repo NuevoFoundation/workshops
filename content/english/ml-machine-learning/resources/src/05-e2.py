@@ -23,7 +23,7 @@ x_value = np.array([[experience]])
 
 y_predicted = model.predict(x_value)
 
-print(f'Experience = {5}')
+print(f'Experience = {experience}')
 print('Salary = ' + '{:.2f}'.format(y_predicted[0][0]))
 
 y_test_pred = model.predict(x_test)

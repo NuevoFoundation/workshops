@@ -16,27 +16,27 @@ One of the simplest ways to understand machine learning and get your hands dirty
 
 - What do you have to do to improve a skill? 🤔
 
-{{% expand "**Click to show answer**" %}}
+{{% notice "**Click to show answer**" %}}
 
-    Repetition.
+Repetition.
 
-    Always remember, "practice makes perfect". Similar to humans, machines can do the same.
+Always remember, "practice makes perfect". Similar to humans, machines can do the same.
 
-{{% /expand %}}
+{{% /notice %}}
 
 - Why are you able to know that something will happen again? Or that something similar will happen? 🤔
 
 {{% expand "**Click to show answer**" %}}
 
-    Our brains are excellent when it comes to [recognizing patterns](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4141622/). We are able to identify the things in our environment that, once combined, allow us to know that something may happen again.
+Our brains are excellent when it comes to [recognizing patterns](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4141622/). We are able to identify the things in our environment that, once combined, allow us to know that something may happen again.
 
-    - If you are running very fast without control? Will you fall if you take a mistake?
+- If you are running very fast without control? Will you fall if you take a mistake?
 
-    - If you see  **2 * 2** written so many times ? Are you able to guess that the answer is 4?
+- If you see  **2 * 2** written so many times ? Are you able to guess that the answer is 4?
 
-    - If you start to get a headache and high body temperature? Are you able to guess that you are sick?
+- If you start to get a headache and high body temperature? Are you able to guess that you are sick?
 
-    Your brain has grown accustomed to looking at events and memorizing the factors that can lead to specific outcomes (i.e; If I see **2 * 2** written in a board I know the answer is 4). Similar to humans, machines are able to collect information, predict outcomes and improve their predictions based on historical data .
+Your brain has grown accustomed to looking at events and memorizing the factors that can lead to specific outcomes (i.e; If I see **2 * 2** written in a board I know the answer is 4). Similar to humans, machines are able to collect information, predict outcomes and improve their predictions based on historical data.
 
 {{% /expand %}}
 

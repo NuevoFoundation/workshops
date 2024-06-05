@@ -10,6 +10,7 @@ weight: 1
 # What is regression?
 Regression is a technique to model the relationship between a feature (independent variables) and a prediction (dependent variables). It helps us understand how the value of a dependent variable is changing based on the value of the independent variable. When applied properly it helps us predict values 😯!
 
+<!-- TODO: Add diagram to replace image below. -->
 |![Regression](../resources/regression.png)|
 |:--:|
 |Regression|
@@ -56,7 +57,7 @@ But so does a triangle with width of 6 and height of 3.
 {{% /expand %}}
 <br>
 
-2. If the area is not a good property to understand the type of shape we can have. We need to come up What relationship can we use in order to know what is the type of shape?
+2. If the area is not a good variable or property to understand the type of shape we can have. We need to come up What relationship can we use in order to know what is the type of shape?
 {{% expand "**Click to show answer**" %}}  
 
 ***The number of **sides** it has! As the number of sides increases, you can know the type of shape.***
@@ -82,7 +83,8 @@ When we perform analysis using a machine learning model that already exists we n
 \]
 </h2>
 
-When you use a parabolic model you need to know where the vertices of the parabola will land in order to predict where a new point will be. You could go ahead and run a model, setting no vertices and end up like the "Under-fitting" image, or setup way to many vertices and end up like the "Over-fitting" image. We want to set it just right enough so that our model "fits" the data and new data points can be represented using the model. 
+When you use a parabolic model you need to know where the vertices of the parabola will land in order to predict where a new point will be. You could go ahead and run a model, setting no vertices and end up like the "Under-fitting" image, or setup way to many vertices and end up like the "Over-fitting" image. We want to set it just right enough so that our model "fits" the data and new data points can be represented using the model.
+ 
 <!-- TODO: Add diagram to replace image below. -->
 |![Fitting Data Example](../resources/fitting-data-example.png)|
 |:--:|
