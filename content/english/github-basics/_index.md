@@ -1,12 +1,12 @@
 ---
-title: "The Enchanted Code Quest: A GitHub Adventure"
-description: "Embark on a magical journey through the realms of GitHub, mastering its powers from your terminal"
+title: "GitHub Adventure Game"
+description: "Learn GitHub basics through a fun, collaborative project where each participant contributes to an evolving adventure game."
 difficulty: "Beginner"
 prereq: "Email account"
 weight: 1
 ---
 
-# The Enchanted Code Quest
+# GitHub Adventure Game
 <details open>
 <summary>Topics</summary>
 {{% children %}}
@@ -14,6 +14,7 @@ weight: 1
 
 ## Overview
 <img alt="Enchanted GitHub logo" src="./images/EnchantedGitHubLogo.png" height="200"/>
+
 
 Welcome, brave adventurers, to the mystical realm of CodeTopia! Here, you'll embark on an enchanting quest alongside two legendary digital knights, Maria and Kyle. Though you hail from different corners of this vast digital world, your paths are destined to intertwine in the quest for the fabled Code Crystal. 🌟🌲🏰
 
