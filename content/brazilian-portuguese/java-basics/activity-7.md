@@ -7,7 +7,7 @@ weight: 8
 
 <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/x2hcvJjiH_g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-Nos exercícios anteriores, aprendemos que variáveis ​​nos permitem acessar e armazenar dados de uma peça. Mas, e se quisermos armazenar vários dados semelhantes? Existe uma boa maneira de organizá-los sem declarar múltiplas variáveis?
+Nos exercícios anteriores, aprendemos que variáveis ​​nos permitem acessar e armazenar dados. Mas, e se quisermos armazenar vários dados semelhantes? Existe uma boa maneira de organizá-los sem declarar múltiplas variáveis?
 
 Na programação, **estruturas de dados** são elementos que permitem aos codificadores armazenar vários dados do mesmo tipo. Usar estruturas de dados é uma maneira eficiente de armazenar e acessar grandes volumes de dados. Neste exercício, aprenderemos sobre 2 estruturas de dados usadas em Java: **array** e **ArrayList**.
 

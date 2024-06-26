@@ -23,7 +23,7 @@ Por exemplo, pode haver uma variável chamada `myName` que armazenou `"Patrick"`
 
 Então, como criamos essas caixas ou variáveis ​​em Java para armazenar dados?
 
-Antes de aprender como criar variáveis, precisamos aprender o conceito de **tipo** em Java. Tipo em Java descreve o que está sendo armazenado na caixa. Se você tiver uma caixa inteira, ela conterá apenas números inteiros, não frases ou símbolos. Cada variável possui seu próprio tipo que a restringe ao armazenamento de um tipo específico de dados.
+Antes de aprender como criar variáveis, precisamos aprender o conceito de **tipo** em Java. Tipo em Java descreve o que está sendo armazenado na caixa. Se você tiver uma caixa de inteiros, ela conterá apenas números inteiros, não frases ou símbolos. Cada variável possui seu próprio tipo que a restringe ao armazenamento de um tipo específico de dados.
 
 Por exemplo, a variável chamada `age` que armazena o número `3` deve conter números inteiros, não sentenças ou símbolos.
 
@@ -70,9 +70,9 @@ Ao armazenar dados em variáveis, você pode usar esses dados posteriormente ou 
 
 ```java
 int age = 10;
-System.out.println(age); // prints out 10
-age = 11; // assign data 11 to the variable age
-System.out.println(age); // prints out 11
+System.out.println(age); // imprime 10
+age = 11; // atribui o valor 11 para a variável age
+System.out.println(age); // imprime 11
 ```
 
 {{% /notice %}}

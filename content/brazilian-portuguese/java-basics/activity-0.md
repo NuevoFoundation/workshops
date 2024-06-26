@@ -9,7 +9,7 @@ draft: false
 
 Hoje você usará o Replit para aprender como codificar em Java. Antes de começar, você precisará se inscrever em uma conta Replit, caso ainda não tenha uma. 
 
-Clique no botão abaixo para se inscrever em uma conta Replit - você precisará de uma conta de e-mail para se inscrever. Se você já possui uma conta Replit, também pode fazer login em sua conta usando o botão abaixo.
+Clique no botão abaixo para se inscrever em uma conta Replit - você precisará de uma conta de e-mail para se inscrever. Se você já possui uma conta Replit, também pode fazer login em sua conta usando o botão abaixo.dawd
 
 <a class="my-2 mx-4 btn btn-info" href="https://replit.com/signup" target="_blank">Sign up for Replit</a>
 
