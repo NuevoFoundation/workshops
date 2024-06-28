@@ -83,6 +83,6 @@ Ao criar um programa Java, podemos fazer algumas anotações adicionando um come
 Além disso, adicionar comentários não afetará de forma alguma o programa. Assim, você pode adicionar notas com comentários em todo o seu código!
 
      // amostra de comentário de uma linha
-     /* amostra
-      * várias linhas
-      * comente */
+     /* amostra de
+      * comentário de
+      * várias linhas */

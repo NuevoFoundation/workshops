@@ -37,7 +37,7 @@ Existem 2 partes em um método: cabeçalho e corpo:
 
 Para definir um método, precisamos primeiro escrever o <b>cabeçalho do método</b>. Um cabeçalho de método tem quatro partes principais:
 
-**Nome da peça** | **Descrição** | **Exemplos ou opções possíveis**
+**Nome da parte** | **Descrição** | **Exemplos ou opções possíveis**
 ----|----|----
 **especificador de acesso** | fornece o nível de acesso ao método | `public` informa ao computador que qualquer pessoa pode usar este método. `private` diz ao computador que ele só pode ser chamado dentro de uma classe. (Aprenderemos sobre classes na próxima página!) `protected` informa ao computador que ele pode ser chamado por objetos da mesma classe.
 **tipo de retorno** | tipo de dados retornado para a função de chamada | use `void` se o método não retornar nada.
@@ -81,7 +81,7 @@ public int sumNum(int numA, int numB){
 
 <br />
 
-### Method Call
+### Chamada do Método
 
 Por último, para executar um método no seu código, precisamos fazer uma <b>chamada de método</b>. Escrevemos o nome do método com a entrada apropriada.
 Por exemplo:

@@ -46,7 +46,7 @@ String name = "Patrick";
 Vamos aprender sobre as diferentes partes de uma aula abaixo:
 
 {{% notice note %}}
-### Aula
+### Classe
 Uma classe é um projeto ou protótipo de um novo tipo de objeto. Em geral, uma classe contém três partes importantes: (1) campos de dados/variáveis ​​de instância (2) construtor (3) métodos.
 
 <img src="../images/class.png" height="400" alt="A Class blueprint for an object contains instance varialbes/data fields which are data/attributes in the object, constructor which are methods that creates the obejct of the class, and methods, which are behaviors possible for the object."/> 
@@ -77,7 +77,7 @@ public class SampleClass{
 
 ## Experimente 🐥!
 
-Vamos fazer uma aula `Bird` para representar Patrick 🐥 e todos os seus amigos Bird (pássaros) seguindo os passos abaixo!
+Vamos fazer uma classe `Bird` para representar Patrick 🐥 e todos os seus amigos Bird (pássaros) seguindo os passos abaixo!
 **Nota:** Para este exercício, você trabalhará em Bird.java em vez de Main.java.
 
 <a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsBird" target="_blank">Launch Replit</a>
@@ -90,7 +90,7 @@ public class Bird{}
 
 <br />
 
-### Segundo, vamos declarar todos os campos da classe Bird: espécie, nome, hobby, idade, loveMusic.
+### Segundo, vamos declarar todos os campos da classe Bird: species, name, hobby, age, loveMusic.
 
 Cada campo é declarado no formato: `private` `data type` `name` `;`.
 
@@ -149,7 +149,7 @@ Depois, vamos escrever o método `toString()` juntos!
 
 `toString()` é um método que retorna a representação `String` do objeto.
 
-Retornaremos uma String que inclui todos os campos do `Bird`: nome, idade, espécie, hobby, adora música, chamando os 5 métodos que você acabou de implementar!
+Retornaremos uma String que inclui todos os campos do `Bird`: name, age, species, hobby, loveMusic, chamando os 5 métodos que você acabou de implementar!
 
 ```java
 public String toString(){
@@ -157,7 +157,7 @@ public String toString(){
     String info = "";
 
     // anexe informações à String no formato:
-    // Olá, meu nome é [nome]. Eu sou uma [espécie] de [idade] que gosta de [hobby].
+    // Hi, my name is [name]. I am a [age] year old [species] who likes to [hobby].
     info = info + "Hi, my name is " + getName() + 
            ". I am a " + getAge() + " year old " + getSpecies() + 
            " who likes to " + getHobby() + ". ";
@@ -201,7 +201,7 @@ Lembre-se de que o construtor da classe `Bird` é o seguinte:
 public Bird(String speciesInput, String nameInput, String hobbyInput, int ageInput, boolean loveMusicInput);
 ```
 
-Assim, podemos criar um Bird com estes atributos (espécie - duck; nome - Patrick; hobby - ponto de encontro com amigos; idade - 15; loveMusic - verdadeiro) com esta linha de código.
+Assim, podemos criar um Bird com estes atributos (species - duck; name - Patrick; hobby - hangout with friends; age - 15; loveMusic - true) com esta linha de código.
 
 ```java
 Bird patrick = new Bird("duck", "Patrick", "hangout with friends", 15, true);

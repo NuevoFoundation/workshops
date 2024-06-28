@@ -37,7 +37,7 @@ A seguir estão os operadores aritméticos em Java:
 `/` | divisão | `9 / 3 = 3`
 `%` | módulo/resto | `10 % 4 = 2`
 
-**Nota**: Se ambos os operandos da divisão forem inteiros, o resultado também será um inteiro. Por exemplo, `10/4` retorna 2, não 2,5, pois descartamos o restante. Se algum dos operandos for duplo, o resultado será duplo.
+**Nota**: Se ambos os operandos da divisão forem inteiros, o resultado também será um inteiro. Por exemplo, `10/4` retorna 2, não 2,5, pois descartamos o restante. Se algum dos operandos for double, o resultado será double.
 
 **Nota**: A operação de módulo obtém o restante da operação de divisão.
 {{% /notice %}}
@@ -80,7 +80,7 @@ x==y; // Isso produziria um erro porque x e y são de tipos diferentes.
 
 {{% /notice %}}
 
-{{% notice Tip %}}
+{{% notice tip %}}
 Usar um sinal de igual atribui um valor à variável. Usar dois sinais de igual compara os valores de dois elementos.
 
 ```java

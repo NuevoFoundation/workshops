@@ -30,9 +30,9 @@ E, neste curso, abordaremos todos os recursos básicos da linguagem.
 
 Neste curso, seguiremos o exemplo de um pato amarelo amante da música chamado <b>Patrick</b> 🐥 para aprender tudo sobre Java e fazer amigos pelo caminho!
 
-## Table of Contents
+## Sumário
 
 <details close>
-<summary>Table of Contents</summary>
+<summary>Sumário</summary>
 {{% children /%}}
 </details>
