@@ -8,11 +8,11 @@ weight: 3
 
 When creating a Python program, we can add some notes by adding one line comments using `#`. **Comments** are the parts of the code that do not effect the program. Anything after the `#` symbol is part of the comment and is ignored by your code. Comments are put in the code to tell the readers what the code is doing. They can make maintenance of code easy and can also help in finding bugs. 
 
-While writing code, If at any time you wish to write notes to help you understand the code, use the `#` symbol to create a comment.
+If at any time while writing code you wish to write notes to help you understand the code, use the `#` symbol to create a comment.
 
 ```python
 # This is my first line of code
-print("Hello, World!)
+print("Hello, World!")
 ```
 
 ![Screenshot showing the comment This is my first line of code.](../../img/comments.png "a picture of how to write comments in python")
