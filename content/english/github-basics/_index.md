@@ -12,24 +12,17 @@ weight: 1
 {{% children %}}
 </details>
 
-## Overview
-<img alt="Enchanted GitHub logo" src="./images/EnchantedGitHubLogo.png" height="200"/>
+Welcome to the GitHub Basics Workshop! This workshop aims to teach you the fundamentals of GitHub through an escape room-style game. Each room represents a different GitHub concept. Complete the tasks in each room to unlock the next one. Good luck!
 
+## Overview of Rooms
 
-Welcome, brave adventurers, to the mystical realm of CodeTopia! Here, you'll embark on an enchanting quest alongside two legendary digital knights, Maria and Kyle. Though you hail from different corners of this vast digital world, your paths are destined to intertwine in the quest for the fabled Code Crystal. 🌟🌲🏰
-
-In this realm, sending scrolls (files) through mystical portals (Discord, Teams, email) can be quite the trial, but fret not! GitHub, the ancient and powerful tool of CodeTopia, shall be your guiding star in this coding odyssey. 🧭✨
-
-Prepare thyself to delve into the secrets of GitHub, for it is time to unite with Maria and Kyle and commence your grand adventure...
-
-<img alt="Map of CodeTopia" src="./images/MapOfCodeTopia.png" height="200"/>
-
-**Journey Through CodeTopia:**
-- Init Village – Your First Steps in GitHub
-- Commit Cliffs – The Echoes of Code
-- Branch Bay – The Forest of Forking Paths
-- Pull-Request Peninsula – The Confluence of Minds
-- Merge Mountains – The Clash of Codes
-- Code Crystal Castle – The Final Gathering
-
-Let the quest begin!
+1. [Room 1: Forking and Cloning a Repository](/room1/)
+2. [Room 2: Creating and Committing Changes](/room2/)
+3. [Room 3: Pushing Changes and Creating Pull Requests](/room3/)
+4. [Room 4: Reviewing and Merging Pull Requests](/room4/)
+5. [Room 5: Handling Merge Conflicts](/room5/)
+6. [Room 6: Using GitHub Issues for Collaboration](/room6/)
+7. [Room 7: Leveraging GitHub Actions for Automation](/room7/)
+8. [Room 8: Exploring GitHub Projects for Project Management](/room8/)
+9. [Room 9: Securing Your Code with GitHub Security Features](/room9/)
+10. [Room 10: Utilizing GitHub Pages for Hosting](/room10/)
