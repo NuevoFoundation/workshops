@@ -16,13 +16,13 @@ Welcome to the GitHub Basics Workshop! This workshop aims to teach you the funda
 
 ## Overview of Rooms
 
-1. [Room 1: Forking and Cloning a Repository](/room1/)
-2. [Room 2: Creating and Committing Changes](/room2/)
-3. [Room 3: Pushing Changes and Creating Pull Requests](/room3/)
-4. [Room 4: Reviewing and Merging Pull Requests](/room4/)
-5. [Room 5: Handling Merge Conflicts](/room5/)
-6. [Room 6: Using GitHub Issues for Collaboration](/room6/)
-7. [Room 7: Leveraging GitHub Actions for Automation](/room7/)
-8. [Room 8: Exploring GitHub Projects for Project Management](/room8/)
-9. [Room 9: Securing Your Code with GitHub Security Features](/room9/)
-10. [Room 10: Utilizing GitHub Pages for Hosting](/room10/)
+1. [Room 1: Forking and Cloning a Repository](./activity-1.md)
+2. [Room 2: Creating and Committing Changes](./activity-2.md)
+3. [Room 3: Pushing Changes and Creating Pull Requests](./activity-3.md)
+4. [Room 4: Reviewing and Merging Pull Requests](./activity-4.md)
+5. [Room 5: Handling Merge Conflicts](./activity-5.md)
+6. [Room 6: Using GitHub Issues for Collaboration](./activity-6.md)
+7. [Room 7: Leveraging GitHub Actions for Automation](./activity-7.md)
+8. [Room 8: Exploring GitHub Projects for Project Management](./activity-8.md)
+9. [Room 9: Securing Your Code with GitHub Security Features](./activity-9.md)
+10. [Room 10: Utilizing GitHub Pages for Hosting](./activity-10.md)
