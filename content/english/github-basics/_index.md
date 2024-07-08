@@ -9,7 +9,7 @@ weight: 1
 # GitHub Adventure Game
 <details open>
 <summary>Topics</summary>
-{{% children %}}
+{{< children />}}
 </details>
 
 Welcome to the GitHub Basics Workshop! This workshop aims to teach you the fundamentals of GitHub through an escape room-style game. Each room represents a different GitHub concept. Complete the tasks in each room to unlock the next one. Good luck!
