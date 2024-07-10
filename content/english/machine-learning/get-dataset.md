@@ -17,7 +17,7 @@ We are heading to the website called kaggle.com to get our dataset.
  *Note: you may need to sign up to get the download link*.
 <br>
 
-On this page, you can find a lot of information about this dataset, take some time to browse it and familiarize the dataset.
+On this page, you can find a lot of information about this dataset, take some time to browse it and familiarize yourself with the dataset.
 ![kaggle_fifa_dataset.png](../images/kaggle_fifa_dataset.png)
 
 After you download it, extract the zip file to a folder, let's say `C:\fifa_dataset\`.
