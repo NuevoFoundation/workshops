@@ -43,11 +43,10 @@ The following are the important data types:
 
 **Type** | **Description** | **Examples**
 --------|-----------|----------
-`int` | integer | `20`, `30`, `35`
-`char` | character such as a symbol or a single alphabet letter | `'A'`,`'b'`, `'('`, `']'`
-`String` | a sequence of `char` | `"Hello"`, `"Bonjour"`, `"Hola"`
+`integer` | integer | `20`, `30`, `35`
+`string` | a sequence of `char` | `"Hello"`, `"Bonjour"`, `"Hola"`
 `boolean` | has a value of either `true` or `false` | `true`, `false`
-double | fractional numbers | `2.0`, `3.14`, `9.33`
+`float` | fractional numbers | `2.0`, `3.14`, `9.33`
 
 {{% /notice %}}
 
