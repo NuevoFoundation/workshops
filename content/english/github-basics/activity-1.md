@@ -9,12 +9,14 @@ weight: 1
 
 {{< figure src="/images/room1_fork.jpg" title="The first room of the Code Dungeon, illuminated by a mysterious GitHub logo" >}}
 
-You awaken in a dimly lit room. A pedestal in the center holds a glowing GitHub logo. A voice echoes: "To proceed, you must fork the path ahead."
+You awaken in a dimly lit room. A pedestal in the center holds a glowing GitHub logo. A voice echoes: "To proceed, you must fork the path ahead.
+
+By path, the voice means a GitHub repository. Forking creates a copy of the repository in your account, allowing you to make changes without affecting the original copy.
 
 ## Your Mission
 
 1. Create a GitHub account (if you haven't already).
-2. Fork the repository: `https://github.com/CodeDungeon/escape-room`
+2. Fork the repository: `https://github.com/VerisimilitudeX/escape-room`
 3. Clone your forked repository to your local machine.
 
 ## Instructions
@@ -36,7 +38,7 @@ You awaken in a dimly lit room. A pedestal in the center holds a glowing GitHub 
 If you're stuck, try these steps:
 1. Make sure you're logged into GitHub.
 2. Check that you've navigated to the correct repository URL.
-3. If you're having trouble with git commands, ensure git is installed on your system.
+3. If you're having trouble with git commands, make sure that [git](https://git-scm.com/downloads) is installed on your system.
 {{< /expand >}}
 
 When you're ready to proceed, enter the secret code you found:
