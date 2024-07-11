@@ -1,21 +1,62 @@
 ---
-title: "Room 10: Utilizing GitHub Pages for Hosting"
-description: "Step 10: Set up GitHub Pages to host your adventure log."
+title: "Room 10: The Deployment Den"
+description: "Learn to deploy your project using GitHub Pages."
 difficulty: "Intermediate"
-weight: 11
+weight: 10
 ---
 
-In the final room, Nuvi finds a magical mirror that can display web pages. It's time to share your adventure using GitHub Pages!
+# Room 10: The Deployment Den
 
-### Task:
-1. Create a new branch called `gh-pages`.
-2. Add an `index.md` file with a summary of your GitHub learning adventure.
-3. Configure your repository to use GitHub Pages from the `gh-pages` branch.
-4. View your published site and share the URL.
+{{< figure src="/images/room10_pages.jpg" title="A room with a giant screen displaying a website and floating deploy buttons" >}}
 
-### Clues:
-- Go to your repository settings to enable GitHub Pages.
-- Your adventure log will be accessible at `https://<username>.github.io/<repository-name>`.
-- Use Markdown in your index.md file to format your adventure summary.
+You enter the final room to find a giant screen displaying a website and floating "Deploy" buttons. A triumphant voice announces: "Deploy your victory for all to see!"
 
-![Nuvi Publishing with GitHub Pages](/images/nuvi_pages.png)
+## Your Mission
+
+1. Enable GitHub Pages for your repository.
+2. Create a simple index.html file.
+3. Push the file and view your deployed site.
+
+## Instructions
+
+1. Go to your repository's "Settings" tab.
+2. Scroll down to the "GitHub Pages" section.
+3. Under "Source", select the branch you want to deploy (usually `main`).
+4. In your local repository, create an `index.html` file in the root directory.
+5. Add some HTML to the file, like:
+
+   ```html
+   <!DOCTYPE html>
+   <html>
+     <head>
+       <title>My GitHub Pages Site</title>
+     </head>
+     <body>
+       <h1>Hello, GitHub Pages!</h1>
+       <p>I've completed the GitHub Adventure Game!</p>
+     </body>
+   </html>
+   ```
+
+6. Commit and push this file to your repository.
+7. Wait a few minutes, then visit your site at `https://<username>.github.io/<repository-name>`.
+
+{{< hint info >}}
+**Note:** It may take a few minutes for your site to be deployed after pushing changes.
+{{< /hint >}}
+
+{{< mermaid >}}
+graph TD
+    A[Enable GitHub Pages] --> B(Create index.html)
+    B --> C(Commit and push)
+    C --> D{Site deployed?}
+    D -->|Yes| E[View your site]
+    D -->|No| F[Wait a few minutes]
+    F --> D
+{{< /mermaid >}}
+
+After your site is deployed, what's the title of your webpage? Enter it below:
+
+{{< input-encrypt key="My GitHub Pages Site" >}}
+Congratulations, GitHub master! You've completed all challenges and deployed your victory. You've escaped the GitHub Adventure Game!
+{{< /input-encrypt >}}
