@@ -12,7 +12,7 @@ weight: 1
 {{< children />}}
 </details>
 
-Welcome to the GitHub Basics Workshop! This workshop aims to teach you the fundamentals of GitHub through an escape room-style game. Each room represents a different GitHub concept. Complete the tasks in each room to unlock the next one. Good luck!
+Welcome to the GitHub Basics Workshop! This workshop aims to teach you the fundamentals of GitHub through an escape room-style game. Each room will cover a different GitHub concept. Complete the tasks in each room to unlock the next one. Good luck!
 
 ## Overview of Rooms
 
