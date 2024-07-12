@@ -27,7 +27,7 @@ You enter a room bristling with security measures. Locks, shields, and security 
 6. If your repository is public, enable code scanning in the "Security & analysis" settings.
 
 {{< hint danger >}}
-**Important:** Always be cautious when dealing with security settings. Make sure you understand each feature before enabling it.
+**Important:** Always be cautious when dealing with security settings. Make sure you understand each feature before enabling it. Small mistakes can have big consequences!
 {{< /hint >}}
 
 {{< highlight markdown "linenos=table" >}}
