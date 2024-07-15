@@ -7,9 +7,9 @@ weight: 1
 
 # Room 1: The Fork in the Road
 
-{{< figure src="/images/room1_fork.jpg" title="The first room of the Code Dungeon, illuminated by a mysterious GitHub logo" >}}
+{{< figure src="images/room1_fork.jpg" title="The first room of the Code Dungeon, illuminated by a mysterious GitHub logo" >}}
 
-You awaken in a dimly lit room. A pedestal in the center holds a glowing GitHub logo. A voice echoes: "To proceed, you must fork the path ahead.
+You awaken in a dimly lit room. A pedestal in the center holds a glowing GitHub logo. A voice echoes: "To proceed, you must fork the path ahead."
 
 By path, the voice means a GitHub repository. Forking creates a copy of the repository in your account, allowing you to make changes without affecting the original copy.
 
@@ -43,6 +43,8 @@ If you're stuck, try these steps:
 
 When you're ready to proceed, enter the secret code you found:
 
-{{< input-encrypt key="GITHUB_BASICS_101" >}}
-Great job! You've completed Room 1. Click here to proceed to the next room.
-{{< /input-encrypt >}}
+[Input field for secret code]
+
+{{< hint info >}}
+Note: The actual input field and encryption functionality would need to be implemented separately, as Hugo doesn't provide this out of the box.
+{{< /hint >}}

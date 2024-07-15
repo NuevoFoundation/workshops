@@ -7,7 +7,7 @@ weight: 2
 
 # Room 2: The Commit Conundrum
 
-{{< figure src="/images/room2_commit.jpg" title="Code snippets float around a central terminal, waiting to be organized" >}}
+{{< figure src="images/room2_commit.jpg" title="Code snippets float around a central terminal, waiting to be organized" >}}
 
 As you enter the second room, snippets of code float in the air. A terminal in the center flickers with a message: "Bring order to chaos. Commit your changes to proceed."
 
@@ -35,8 +35,6 @@ As you enter the second room, snippets of code float in the air. A terminal in t
 {{< /hint >}}
 
 {{< quiz name="commit-quiz" >}}
-{{< quiz-label >}}Test your knowledge:{{< /quiz-label >}}
-
 {{< quiz-item name="q1" question="What command do you use to stage changes?" >}}
 {{< quiz-option value="git stage" >}}git stage{{< /quiz-option >}}
 {{< quiz-option value="git add" correct="true" >}}git add{{< /quiz-option >}}
@@ -52,6 +50,8 @@ As you enter the second room, snippets of code float in the air. A terminal in t
 
 When you've made your commit, enter the commit message you used:
 
-{{< input-encrypt key="Add solution for Room 1" >}}
-Excellent work! You've mastered the art of committing changes. Proceed to the next room to continue your adventure.
-{{< /input-encrypt >}}
+[Input field for commit message]
+
+{{< hint info >}}
+Note: The actual input field and encryption functionality would need to be implemented separately, as Hugo doesn't provide this out of the box.
+{{< /hint >}}
