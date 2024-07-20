@@ -7,7 +7,7 @@ weight: 5
 
 # Room 5: The Conflict Canyon
 
-{{< figure src="/images/room5_conflict.jpg" title="Two bridges almost connect over a deep chasm, representing a merge conflict" >}}
+{{< figure src="../images/room5_conflict.jpg" title="Two bridges almost connect over a deep chasm, representing a merge conflict" >}}
 
 You enter a room with a deep chasm. Two bridges extend from either side but don't quite meet in the middle. A sign reads: "Only by resolving conflicts can you cross."
 

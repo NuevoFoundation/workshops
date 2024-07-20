@@ -7,7 +7,7 @@ weight: 9
 
 # Room 9: The Security Stronghold
 
-{{< figure src="/images/room9_security.jpg" title="A room filled with locks, shields, and security monitors" >}}
+{{< figure src="../images/room9_security.jpg" title="A room filled with locks, shields, and security monitors" >}}
 
 You enter a room bristling with security measures. Locks, shields, and security monitors surround you. A stern voice declares: "Secure your code to proceed!"
 
@@ -27,7 +27,7 @@ You enter a room bristling with security measures. Locks, shields, and security 
 6. If your repository is public, enable code scanning in the "Security & analysis" settings.
 
 {{< hint danger >}}
-**Important:** Always be cautious when dealing with security settings. Make sure you understand each feature before enabling it. Small mistakes can have big consequences!
+**Important:** Always be cautious when dealing with security settings. Make sure you understand each feature before enabling it.
 {{< /hint >}}
 
 {{< highlight markdown "linenos=table" >}}

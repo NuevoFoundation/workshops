@@ -7,7 +7,7 @@ weight: 10
 
 # Room 10: The Deployment Den
 
-{{< figure src="/images/room10_pages.jpg" title="A room with a giant screen displaying a website and floating deploy buttons" >}}
+{{< figure src="../images/room10_pages.jpg" title="A room with a giant screen displaying a website and floating deploy buttons" >}}
 
 You enter the final room to find a giant screen displaying a website and floating "Deploy" buttons. A triumphant voice announces: "Deploy your victory for all to see!"
 

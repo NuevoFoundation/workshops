@@ -7,7 +7,7 @@ weight: 1
 
 # Room 1: The Fork in the Road
 
-{{< figure src="images/room1_fork.jpg" title="The first room of the Code Dungeon, illuminated by a mysterious GitHub logo" >}}
+{{< figure src="../images/room1_fork.jpg" title="The first room of the Code Dungeon, illuminated by a mysterious GitHub logo" >}}
 
 You awaken in a dimly lit room. A pedestal in the center holds a glowing GitHub logo. A voice echoes: "To proceed, you must fork the path ahead."
 

@@ -7,7 +7,7 @@ weight: 3
 
 # Room 3: The Pull Request Portal
 
-{{< figure src="images/room3_pull_request.jpg" title="A massive door stands before you, with 'Pull Request' emblazoned above" >}}
+{{< figure src="../images/room3_pull_request.jpg" title="A massive door stands before you, with 'Pull Request' emblazoned above" >}}
 
 A massive door blocks your path, with "Pull Request" written above it. A sign reads: "To open this door, your changes must be reviewed."
 
