@@ -5,13 +5,13 @@ weight: 6
 draft: false
 ---
 
-Desenhamos um hexágono. Mas este é apenas um dos muitos hexágonos que Alex precisa para construir seu favo de mel. Mais uma vez, parece que teríamos que repetir o código muitas vezes para desenhar vários hexágonos. Felizmente, não precisamos! Funções para nos resgatar!
+Desenhamos um hexágono. Mas este é apenas um dos muitos hexágonos que Alex precisa para construir seu favo de mel. Mais uma vez, parece que teríamos que repetir o código muitas vezes para desenhar vários hexágonos. Felizmente, não precisamos! As funções vieram para nos resgatar!
 
 {{% notice tip %}}
 
 ## Funções
 
-Uma função é uma forma de agrupar linhas de código para fazer algo. Por exemplo, `turtle.forward(50)` move a tartaruga 50 passos para frente e `turtle.left(120)` gira a tartaruga 120 graus para a esquerda. E se quisermos sempre fazer essas duas ações juntas? Podemos colocá-los em uma função chamada `draw_line()`, de modo que sempre que esta função for chamada, ambas as ações ocorram simultaneamente. Pense nisso como uma receita: compilamos todas as instruções juntas e o nome da receita é a comida que estamos preparando.
+Uma função é uma forma de agrupar linhas de código para fazer algo. Por exemplo, `turtle.forward(50)` move a tartaruga 50 passos para frente e `turtle.left(120)` gira a tartaruga 120 graus para a esquerda. E se quisermos sempre fazer essas duas ações juntas? Podemos colocá-las em uma função chamada `draw_line()`, de modo que sempre que esta função for chamada, ambas as ações ocorram simultaneamente. Pense nisso como uma receita: compilamos todas as instruções juntas e o nome da receita é a comida que estamos preparando.
 
 {{% /notice %}}
 
@@ -49,7 +49,7 @@ Isso é chamado de **chamada de função** para a função `draw_line()`. Uma ch
 
 {{% notice info %}}
 
-## Pontas
+## Dicas
 
 1. Sempre certifique-se de que os nomes de suas funções sejam descritivos o suficiente para explicar o que o código da função faz.
 2. Sua chamada de função deve estar abaixo da definição da função.
@@ -70,7 +70,7 @@ def draw_line():
     turtle.forward(50)
 ```
 
-Observe que `turtle.forward(50)` tem 2 guias na frente dele, porque está dentro de uma definição de função e dentro de um loop `for`!
+Observe que `turtle.forward(50)` tem 2 tabulações na frente dele, porque está dentro de uma definição de função e dentro de um loop `for`!
 
 {{% /notice %}}
 
