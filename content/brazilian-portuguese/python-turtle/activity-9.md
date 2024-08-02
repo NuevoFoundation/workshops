@@ -7,8 +7,7 @@ draft: false
 
 ![texto alternativo width="70%"](../media/mandala-blue.png "flor mandala com pétalas azuis")
 
-Agora que temos o formato de uma flor de mandala, é hora de colori-la! Ainda usaremos o método `turtle.color()`; entretanto, desta vez usaremos um valor RGB em vez de um valor de cor de string, para que possamos produzir uma variedade maior de cores.
-
+Agora que temos o formato de uma flor de mandala, é hora de colori-la! Ainda usaremos o método `turtle.color()`; entretanto, desta vez usaremos um valor RGB em vez de um valor string para representar a cor, para que dessa forma possamos produzir uma variedade maior de cores.
 {{% notice tip %}}
 
 ## Cores RGB (vermelho-verde-azul)
