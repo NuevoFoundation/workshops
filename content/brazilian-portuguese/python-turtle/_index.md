@@ -15,7 +15,7 @@ Bem-vindo à Colmeia Nuevo! Você chegou na hora certa para ajudar nosso novo be
 
 ![animação do bebê abelha Alex](https://media1.giphy.com/media/ozjz5omKqJYex8CaDV/giphy.gif)
 
-Alex mora em um país chamado Ilhas Tartarugas. Os residentes das Ilhas Tartarugas falam uma linguagem chamada Python. Usaremos Python para ensinar Alex como viver em uma colmeia. Você está pronto para o desafio? Neste tutorial, aprenderemos como usar a linguagem Python para ajudar Alex *bee* a se tornar uma abelha ocupada!
+Alex mora em um país chamado Ilhas Tartarugas. Os residentes das Ilhas Tartarugas falam uma linguagem chamada Python. Usaremos Python para ensinar Alex como viver em uma colmeia. Você está pronto para o desafio? Neste tutorial, aprenderemos como usar a linguagem Python para ajudar Alex a se tornar uma abelha ocupada!
 
 ## Tabela de Conteúdos
 <details>
