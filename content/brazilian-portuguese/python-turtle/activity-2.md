@@ -21,13 +21,13 @@ Vamos entender o que esse código faz. `for i in range(3):` Esta instrução diz
 
 ## Sintaxe complicada do Python - Parte 1
 
-**Sintaxe** é como escrevemos linguagens para que sejam compreensíveis. Em inglês, temos regras ortográficas e gramaticais para ajudar a entender uns aos outros. Da mesma forma, a linguagem Python possui regras de sintaxe para que o computador possa entender nosso código.
+**Sintaxe** é como escrevemos linguagens para que sejam compreensíveis. Em português, temos regras ortográficas e gramaticais para ajudar a entender uns aos outros. Da mesma forma, a linguagem Python possui regras de sintaxe para que o computador possa entender nosso código.
 
-Primeiro, observe que no final da linha com `for`, adicionamos dois pontos (`:`); isso significa que a próxima linha fará parte do loop `for`. O computador irá reclamar se você perder o `:`!
+Primeiro, observe que no final da linha com `for`, adicionamos dois pontos (`:`); isso significa que a próxima linha fará parte do loop `for`. O computador irá reclamar se você esquecer o `:`!
 
-Além disso, adicionamos uma guia na frente de algumas linhas de código no exemplo acima. A guia informa ao computador que essas instruções são consideradas parte do loop `for`.
+Além disso, adicionamos uma tabulação na frente de algumas linhas de código no exemplo acima. A tabulação informa ao computador que essas instruções são consideradas parte do loop `for`.
 
-Para ver a grande diferença que isso faz, dê uma olhada no código abaixo. Como removemos a guia na frente de `turtle.left(120)`, o código não funcionará mais conforme esperado. Agora, repetimos `turtle.forward(50)` apenas três vezes e, em vez disso, obtemos uma linha reta!
+Para ver a grande diferença que isso faz, dê uma olhada no código abaixo. Como removemos a tabulação na frente de `turtle.left(120)`, o código não funcionará mais conforme esperado. Agora, repetimos `turtle.forward(50)` apenas três vezes e, em vez disso, obtemos uma linha reta!
 
 ``` python
 for i in range(3):
