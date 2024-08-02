@@ -31,7 +31,7 @@ No código acima, `"orange"` é uma string. Outros exemplos de strings incluem `
 
 ## Argumentos
 
-Argumentos são entradas que você passa para **métodos** usar. Em nosso exemplo, `"turtle.color()` precisa de um argumento **string** representando o nome da cor para definir a tartaruga, então passamos `"orange"` como um **argumento** para o método. Também poderíamos ter dito para mudar a cor para outra coisa, mas tem que ser uma cor que `turtle.color()` entenda. As cores que ele reconhece são: `"vermelho"`, `"laranja"`, `"amarelo"`, `"verde"`, `"azul"`, `"roxo"`, `"preto"`, ` "rosa"` e `"cinza"`. Se enviarmos qualquer outra coisa além de uma dessas sequências de cores, obteremos a cor padrão, que é preto.
+Argumentos são entradas que você passa para **métodos** usar. Em nosso exemplo, `"turtle.color()` precisa de um argumento **string** representando o nome da cor para definir a tartaruga, então passamos `"orange"` como um **argumento** para o método. Também poderíamos ter dito para mudar a cor para outra coisa, mas tem que ser uma cor que `turtle.color()` entenda. As cores que ele reconhece são: `"red"`, `"orange"`, `"yellow"`, `"green"`, `"blue"`, `"purple"`, `"black"`, ` "pink"` e `"gray"`. Se enviarmos qualquer outra coisa além de uma dessas sequências de cores, obteremos a cor padrão, que é preto.
 
 {{% /notice %}}
 
@@ -46,7 +46,7 @@ turtle.backward(50)
 
 {{% notice tip %}}
 
-## Píxeis
+## Pixels
 
 Uma imagem é composta por milhares, senão milhões de pixels. Um pixel é uma unidade de medida para imagens digitais, semelhante à forma como medimos o peso em gramas ou longas distâncias em quilômetros.
 
