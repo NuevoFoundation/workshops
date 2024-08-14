@@ -19,7 +19,7 @@ We then move the player with this function. We can call this function in the `up
 
 Now, go to the `movePlayer()` method, and write code that will check for movement and move the player accordingly.
 
-{{% notice hint %}}
+{{% notice %}}
 
 * We would recommend a movement speed of 200
 * Use an if statement

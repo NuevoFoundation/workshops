@@ -70,7 +70,7 @@ Now, go to the `hurtPlayer()` method in `scene2.js`：
 <!--- ![create_explosion](../media/7/create_explosion.png)--->
 <img src="../media/7/create_explosion.png" alt="create_explosion" style="width:950px;"/>
 
-{{% notice hint %}}
+{{% notice %}}
 You will create two explosion objects:
 
 * One with the scene and player coordinates as parameters,

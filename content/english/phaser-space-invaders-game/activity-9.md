@@ -14,7 +14,7 @@ this.scoreText = this.add.text(20, 10, "Score: " + this.score, {
 });
 ```
 
-{{% notice hint %}}
+{{% notice %}}
 This line print score variable at the top left of the screen.
 
 * `20` and `10` is the x and y value

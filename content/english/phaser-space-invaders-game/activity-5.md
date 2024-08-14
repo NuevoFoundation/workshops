@@ -38,7 +38,7 @@ This is a timer that continuously calls the `changeEnemyDirection()` method afte
 <!--- ![change_direction](../media/6/change_direction.png)--->
 <img src="../media/6/change_direction.png" alt="change_direction" style="width:950px;"/>
 
-{{% notice hint %}}
+{{% notice %}}
 
 Notice how, however, that (if you used the same timer values we did), that your ship is moving in and out of the screen. Instead of binding it to the screen like we did for the player's ship, we will simply move the enemy's starting position a bit to the right (because the timer has the correct amount of time to go back and forth the screen).
 

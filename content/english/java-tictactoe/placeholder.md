@@ -41,7 +41,7 @@ Use if statement(s) to check whether the number input is valid. (Hint: access th
 
 If it's not, print the statement `Invalid Position; re-enter your move (1-9):`.
 
-{{% notice hint %}}
+{{% notice %}}
 #### How to I check if two Strings are the same?
 
 To check whether 2 Strings contains the same content, we call the method `equals()`. For example

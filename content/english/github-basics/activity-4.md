@@ -27,7 +27,7 @@ You find yourself in a room with a complex maze on the floor. Paths intersect an
 3. The pull request will update automatically.
 4. Once approved, click "Merge pull request" on the GitHub interface.
 
-{{< hint danger >}}
+{{% notice %}}
 **Important:** Communication is key! If you're unsure about the requested changes, don't hesitate to ask for clarification in the pull request comments.
 {{< /hint >}}
 

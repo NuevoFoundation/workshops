@@ -36,7 +36,7 @@ The color bar shows the range in the color intensity that a pixel can display.
 #### Question 1:
 After analyzing the shoe, we want to view another item from the clothing sample. Can you figure out how to do that using the previous code block? 
 
-{{% notice hint %}}
+{{% notice %}}
 Use the code in the previous code block. Then change the value of the index in `train_images[x]` to get a new image of an item.   
 
 For example, if you input the index value as 7, you get the following item:

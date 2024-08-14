@@ -10,7 +10,7 @@ Uma das cercas da fazenda se soltou e todas as galinhas e galinhas escaparam! Po
 
 Você consegue calcular quais deveriam ser as novas quantidades ideais de biscoitos? Quanto seu lucro mudou devido à escassez?
 
-{{% notice hint %}}
+{{% notice %}}
 
 Mude a célula que tem a restrição de capacidade para os ovos de 24 para 15 e execute novamente o Solver! Você não precisará alterar nada no Solver se configurar suas fórmulas corretamente, você só precisará alterar o valor da célula. 
 

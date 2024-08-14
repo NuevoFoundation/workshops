@@ -53,7 +53,7 @@ and the `player section` in `Scene2.js`:
 <!--- ![player_section](../media/3/player_section.png) --->
 <img src="../media/3/player_section.png" alt="background player_section" style="width:950px;"/>
 
-{{% notice hint %}}
+{{% notice %}}
 
 If the player section filled in correctly, but player does not shown up on the screen. Try to change x and y, the player may be out of screen!
 

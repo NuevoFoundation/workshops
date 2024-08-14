@@ -10,7 +10,7 @@ One of the fences have broken loose in the farm and all the chickens and hens es
 
 Can you calculate what the new optimal cookie quantities should be? How much did your profit change due to the shortage? 
 
-{{% notice hint %}}
+{{% notice %}}
 
 Change the cell that has the capacity constraint for the eggs from 24 to 15, and then re-run the Solver! You won’t have to change anything in Solver if you set up your formulas correctly, you’ll only need to change the cell value. 
 

@@ -22,7 +22,7 @@ We also need to create a difficulty for this game (we will explain more about `d
 <!--- ![add_diff](../media/9/add_diff.png)--->
 <img src="../media/9/add_diff.png" alt="add_diff" style="width:950px;"/>
 
-{{% notice hint %}}
+{{% notice %}}
 * We recommend setting difficulty to 1000.
 * If you set difficulty to 1000, the random number will pick from 1 to 1000. Only if the random number is 1, the enemy will shoot.
 * The enemy will shoot continously if you try difficulty to 1.

@@ -72,7 +72,7 @@ int minimax(String[] curBoard, boolean isMaximizing){
 
 1. For each available spot on the game board, place `"O"` at that spot and get the score for that board by calling `minimax()`. 
 
-{{% notice hint %}}
+{{% notice %}}
 
 - Note you should pass `false` for the second argument since it'd be the minimizer's turn.
 - You should change that spot back to `" "` after getting the score, so you maintain the original state of the game board during the next iteration.
@@ -80,7 +80,7 @@ int minimax(String[] curBoard, boolean isMaximizing){
 
 2. Track the largest score and its corresponding position of the board at each iteration. Return the position with the largest score.
 
-{{% notice hint %}}
+{{% notice %}}
 
 - Have a variable called `bestScore` that stores the current best score and have an initial value of `Integer.MIN_VALUE` (minimum value of an integer).
 - This is an useful way to find the maximum value in a data structure. 
