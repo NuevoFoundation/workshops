@@ -30,7 +30,7 @@ By path, the voice means a GitHub repository. Forking creates a copy of the repo
    cd escape-room
    ```
 
-{{< hint info >}}
+{{% notice %}}
 **Hint:** Look for the `README.md` file in your cloned repository. It contains a secret code to unlock the next room!
 {{< /hint >}}
 
