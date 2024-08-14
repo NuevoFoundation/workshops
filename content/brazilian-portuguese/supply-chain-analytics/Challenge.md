@@ -12,8 +12,6 @@ Você consegue calcular quais deveriam ser as novas quantidades ideais de biscoi
 
 {{% notice %}}
 
-Mude a célula que tem a restrição de capacidade para os ovos de 24 para 15 e execute novamente o Solver! Você não precisará alterar nada no Solver se configurar suas fórmulas corretamente, você só precisará alterar o valor da célula. 
+Mude a célula que tem a restrição de capacidade para os ovos de 24 para 15 e execute novamente o Solver! Você não precisará alterar nada no Solver se configurar suas fórmulas corretamente, você só precisará alterar o valor da célula.
 
 {{% /notice %}}
-
-

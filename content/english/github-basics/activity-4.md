@@ -5,8 +5,6 @@ difficulty: "Intermediate"
 weight: 4
 ---
 
-# Room 4: The Merge Maze
-
 {{< figure src="../images/room4_merge.jpg" title="A complex maze represents the challenges of merging code" >}}
 
 You find yourself in a room with a complex maze on the floor. Paths intersect and diverge, representing the occasional challenges of merging code from your local copy to the remotely hosted version.

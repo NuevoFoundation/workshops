@@ -5,8 +5,6 @@ difficulty: "Beginner"
 weight: 1
 ---
 
-# Room 1: The Fork in the Road
-
 {{< figure src="../images/room1_fork.jpg" title="The first room of the Code Dungeon, illuminated by a mysterious GitHub logo" >}}
 
 You awaken in a dimly lit room. A pedestal in the center holds a glowing GitHub logo. A voice echoes: "To proceed, you must fork the path ahead."
@@ -25,7 +23,8 @@ By path, the voice means a GitHub repository. Forking creates a copy of the repo
 2. Navigate to the repository URL and click the "Fork" button in the top-right corner.
 3. Once forked, click the green "Code" button and copy the URL.
 4. Open your terminal and run:
-   ```
+
+   ```pwsh
    git clone <YOUR_FORKED_REPO_URL>
    cd escape-room
    ```
@@ -36,6 +35,7 @@ By path, the voice means a GitHub repository. Forking creates a copy of the repo
 
 {{< expand "Need help?" >}}
 If you're stuck, try these steps:
+
 1. Make sure you're logged into GitHub.
 2. Check that you've navigated to the correct repository URL.
 3. If you're having trouble with git commands, make sure that [git](https://git-scm.com/downloads) is installed on your system.
