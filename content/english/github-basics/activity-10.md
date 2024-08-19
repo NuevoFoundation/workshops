@@ -36,27 +36,24 @@ You enter the final room to find a giant screen displaying a website and floatin
        <p>I've completed the GitHub Adventure Game!</p>
      </body>
    </html>
-   ```
+    ```
 
 6. Commit and push this file to your repository.
-7. Wait a few minutes for GitHub to process your request, then visit your site at `https://<username>.github.io/<repository-name>` where `<username>` is your GitHub username and `<repository-name>` is the name of your repository.
-
-{{< hint info >}}
-**Note:** It may take a few minutes for your site to be deployed after pushing changes.
-{{< /hint >}}
-
+7. Wait a few minutes for GitHub to process your request, then visit your site at https://<username>.github.io/<repository-name> where <username> is your GitHub username and <repository-name> is the name of your repository.
+{{< notice info >}}
+Note: It may take a few minutes for your site to be deployed after pushing changes.
+{{< /notice >}}
 {{< mermaid >}}
 graph TD
-    A[Enable GitHub Pages] --> B(Create index.html)
-    B --> C(Commit and push)
-    C --> D{Site deployed?}
-    D -->|Yes| E[View your site]
-    D -->|No| F[Wait a few minutes]
-    F --> D
+A[Enable GitHub Pages] --> B(Create index.html)
+B --> C(Commit and push)
+C --> D{Site deployed?}
+D -->|Yes| E[View your site]
+D -->|No| F[Wait a few minutes]
+F --> D
 {{< /mermaid >}}
-
 After your site is deployed, what's the title of your webpage? You can find it at the top of your browser when you visit the site. Enter it below:
-
-{{< input-encrypt key="My GitHub Pages Site" >}}
+[Input field for webpage title]
+{{< notice success >}}
 Congratulations, GitHub master! You've completed all challenges and deployed your victory. You've escaped the GitHub Adventure Game!
-{{< /input-encrypt >}}
+{{< /notice >}}

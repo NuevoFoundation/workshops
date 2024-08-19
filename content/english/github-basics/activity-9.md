@@ -26,11 +26,12 @@ You enter a room bristling with security measures. Locks, shields, and security 
 5. Add basic security guidelines to this file.
 6. If your repository is public, enable code scanning in the "Security & analysis" settings.
 
-{{< hint danger >}}
+{{< notice danger >}}
 **Important:** Always be cautious when dealing with security settings. Make sure you understand each feature before enabling it.
-{{< /hint >}}
+{{< /notice >}}
 
-{{< highlight markdown "linenos=table" >}}
+{{< expand "Example Security Policy" >}}
+```markdown
 # Security Policy
 
 ## Reporting a Vulnerability
@@ -47,10 +48,10 @@ Use this section to tell people about which versions of your project are current
 | 5.0.x   | :x:                |
 | 4.0.x   | :white_check_mark: |
 | < 4.0   | :x:                |
-{{< /highlight >}}
 
+{{< /expand >}}
 After setting up your security policy, what email address did you specify for reporting vulnerabilities? Enter it below:
-
-{{< input-encrypt key="security@example.com" >}}
+[Input field for email address]
+{{< notice success >}}
 Well done, security expert! You've fortified your repository. On to the final challenge!
-{{< /input-encrypt >}}
+{{< /notice >}}

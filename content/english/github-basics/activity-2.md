@@ -21,37 +21,43 @@ As you enter the second room, snippets of code float in the air. A terminal in t
 
 1. In your terminal, ensure you're in the `escape-room` directory.
 2. Create the file and add the code:
-   ```
-   echo "Secret Code: GITHUB_BASICS_101" > solution.md
-   ```
+
+```
+echo "Secret Code: GITHUB_BASICS_101" > solution.md
+```
+
 3. Stage and commit your changes:
-   ```
-   git add solution.md
-   git commit -m "Add solution for Room 1"
-   ```
 
-{{< hint warning >}}
+```
+git add solution.md
+git commit -m "Add solution for Room 1"
+```
+
+
+{{< notice warning >}}
 **Tip:** Always write clear and descriptive commit messages. They help you and others understand the history of your project.
-{{< /hint >}}
+{{< /notice >}}
 
-{{< quiz name="commit-quiz" >}}
-{{< quiz-item name="q1" question="What command do you use to stage changes?" >}}
-{{< quiz-option value="git stage" >}}git stage{{< /quiz-option >}}
-{{< quiz-option value="git add" correct="true" >}}git add{{< /quiz-option >}}
-{{< quiz-option value="git commit" >}}git commit{{< /quiz-option >}}
-{{< /quiz-item >}}
+{{< expand "Quiz: Test Your Knowledge" >}}
 
-{{< quiz-item name="q2" question="What does the -m flag do in the commit command?" >}}
-{{< quiz-option value="Marks the commit as important" >}}Marks the commit as important{{< /quiz-option >}}
-{{< quiz-option value="Merges the commit immediately" >}}Merges the commit immediately{{< /quiz-option >}}
-{{< quiz-option value="Allows you to add a commit message" correct="true" >}}Allows you to add a commit message{{< /quiz-option >}}
-{{< /quiz-item >}}
-{{< /quiz >}}
+**Question 1: What command do you use to stage changes?**
+
+{{< button href="#" >}}git stage{{< /button >}}
+{{< button href="#" >}}git add{{< /button >}}
+{{< button href="#" >}}git commit{{< /button >}}
+
+**Question 2: What does the -m flag do in the commit command?**
+
+{{< button href="#" >}}Marks the commit as important{{< /button >}}
+{{< button href="#" >}}Merges the commit immediately{{< /button >}}
+{{< button href="#" >}}Allows you to add a commit message{{< /button >}}
+
+{{< /expand >}}
 
 When you've made your commit, enter the commit message you used:
 
 [Input field for commit message]
 
-{{< hint info >}}
+{{< notice info >}}
 Note: The actual input field and encryption functionality would need to be implemented separately, as Hugo doesn't provide this out of the box.
-{{< /hint >}}
+{{< /notice >}}

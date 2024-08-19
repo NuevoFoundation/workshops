@@ -33,26 +33,28 @@ You step into a room buzzing with activity. Gears turn and conveyor belts move, 
          - uses: actions/checkout@v2
          - name: Say Hello
            run: echo "Hello, GitHub Actions!"
-   ```
 
+    ```
 4. Commit this file and push it to your GitHub repository.
-5. Go to the "Actions" tab in your GitHub repository to see the workflow run.
+Go to the "Actions" tab in your GitHub repository to see the workflow run.
 
-{{< hint warning >}}
-**Note:** GitHub Actions can be powerful tools for automation, but be mindful of usage limits on free accounts.
-{{< /hint >}}
-
+{{< notice warning >}}
+Note: GitHub Actions can be powerful tools for automation, but be mindful of usage limits on free accounts.
+{{< /notice >}}
 {{< mermaid >}}
 graph TD
-    A[Create workflow file] --> B(Commit and push)
-    B --> C{Workflow triggered?}
-    C -->|Yes| D[View results]
-    C -->|No| E[Check workflow file for errors]
-    E --> B
+A[Create workflow file] --> B(Commit and push)
+B --> C{Workflow triggered?}
+C -->|Yes| D[View results]
+C -->|No| E[Check workflow file for errors]
+E --> B
 {{< /mermaid >}}
-
 After your workflow runs successfully, what was the output of the "Say Hello" step? Enter it below:
-
-{{< input-encrypt key="Hello, GitHub Actions!" >}}
+[Input field for workflow output]
+{{< expand "Hint" >}}
+The output should be exactly what you specified in the echo command in your workflow file.
+{{< /expand >}}
+{{< notice success >}}
 Fantastic job! You've automated your first process with GitHub Actions. Onward to the next challenge!
-{{< /input-encrypt >}}
+{{< /notice >}}
+

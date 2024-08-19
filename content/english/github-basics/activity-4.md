@@ -25,9 +25,9 @@ You find yourself in a room with a complex maze on the floor. Paths intersect an
 3. The pull request will update automatically.
 4. Once approved, click "Merge pull request" on the GitHub interface.
 
-{{% notice %}}
+{{< notice warning >}}
 **Important:** Communication is key! If you're unsure about the requested changes, don't hesitate to ask for clarification in the pull request comments.
-{{< /hint >}}
+{{< /notice >}}
 
 {{< mermaid >}}
 graph TD
@@ -42,6 +42,12 @@ graph TD
 
 After successfully merging your pull request, what message did you see? Enter it below to proceed:
 
-{{< input-encrypt key="Pull request successfully merged and closed" >}}
-Congratulations! You've successfully navigated the Merge Maze. Onward to the final challenge!
-{{< /input-encrypt >}}
+[Input field for merge message]
+
+{{< expand "Hint" >}}
+The message you're looking for is typically something like "Pull request successfully merged and closed."
+{{< /expand >}}
+
+{{< notice info >}}
+Note: The actual input field and encryption functionality would need to be implemented separately, as Hugo doesn't provide this out of the box.
+{{< /notice >}}

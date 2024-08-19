@@ -20,36 +20,45 @@ You enter a room with a deep chasm. Two bridges extend from either side but don'
 ## Instructions
 
 1. Add the original repository as a remote:
-   ```
-   git remote add upstream https://github.com/CodeDungeon/escape-room.git
-   ```
+
+```
+git remote add upstream https://github.com/CodeDungeon/escape-room.git
+```
+
 2. Fetch and merge the changes:
-   ```
-   git fetch upstream
-   git merge upstream/main
-   ```
+
+```
+git fetch upstream
+git merge upstream/main
+```
+
 3. You'll see a merge conflict. Open the conflicting file(s) and resolve the conflicts.
 4. After resolving, stage, commit, and push:
-   ```
-   git add .
-   git commit -m "Resolve merge conflict"
-   git push origin main
-   ```
+   
+```
+git add .
+git commit -m "Resolve merge conflict"
+git push origin main
+```
 
-{{< hint info >}}
+
+{{< notice info >}}
 **Hint:** Look for the conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`) in the files. Choose which changes to keep or combine them as needed.
-{{< /hint >}}
+{{< /notice >}}
 
-{{< highlight diff "linenos=table" >}}
+{{< expand "Example of a Merge Conflict" >}}
+```diff
 <<<<<<< HEAD
 This is some content from your current branch.
 =======
 This is conflicting content from the branch you're merging in.
 >>>>>>> upstream/main
-{{< /highlight >}}
-
+{{< /expand >}}
 After resolving the conflict, what was the final line of the conflicting file? Enter it below:
-
-{{< input-encrypt key="This is the resolved content that combines both changes." >}}
+[Input field for resolved content]
+{{< notice success >}}
 Outstanding work! You've conquered the Conflict Canyon and completed all the challenges. You're now a GitHub master!
-{{< /input-encrypt >}}
+{{< /notice >}}
+{{< notice info >}}
+Note: The actual input field and encryption functionality would need to be implemented separately, as Hugo doesn't provide this out of the box.
+{{< /notice >}}
