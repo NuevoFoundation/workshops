@@ -1,4 +1,4 @@
-Copyright (c) 2022 Nuevo Foundation
+Copyright (c) 2024 Nuevo Foundation
 
 Attribution-NonCommercial-ShareAlike 4.0 International
 
