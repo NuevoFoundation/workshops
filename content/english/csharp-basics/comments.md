@@ -19,6 +19,8 @@ Also, adding comments will not affect the program whatsoever. So, you can add co
       * comment */
 ```
 
+## Play with Comments
+
 Add a single line comment and a multi-line comment to your program.
 
 {{% notice tip %}}
