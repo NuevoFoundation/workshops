@@ -1,7 +1,7 @@
 ---
 title: "C#: Basics"
 description: "An introduction to the basics of the C# programming language."
-date: 2023-09-12T00:00:00Z
+date: 2024-09-16T00:00:00Z
 prereq: "none"
 difficulty: "Beginner"
 draft: false
@@ -18,7 +18,7 @@ The C# programming language was designed by Anders Hejlsberg from Microsoft in 2
 A high-level programming language is called high-level because it is quite a few steps away from the original code run on a computer's Central Processing Unit (CPU). High-level code is meant to be used by humans and is much easier to understand than low-level code. The high-level code is later translated into a low-level language, which can only be perceived and run by a specific CPU. For the code to work, every single line of code written in a high-level language must be translated into machine language before being implemented by the computer.
 {{% /notice %}}
 
-C# is one of the most popular programming languages in the world, along with Java, JavaScript, Python and others. C# runs on Windows and various Linux operating systems.
+C# is one of the most popular programming languages in the world, along with Java, JavaScript, Python and others. C# can run on any computer, including on Windows and various Linux operating systems.
 
 <details open>
 <summary>Topics</summary>
