@@ -7,8 +7,8 @@ parameters:
 
 steps:
   # 1. Downloads specified version of Hugo executable
-  - script: wget https://github.com/gohugoio/hugo/releases/download/v0.115.4/hugo_0.115.4_linux-amd64.deb -O '$(Pipeline.Workspace)/hugo_0.115.4_linux-amd64.deb'
-    displayName: Download Hugo 0.115.4 Linux x64
+  - script: wget https://github.com/gohugoio/hugo/releases/download/v0.134.2/hugo_0.134.2_linux-amd64.deb -O '$(Pipeline.Workspace)/hugo_0.134.2_linux-amd64.deb'
+    displayName: Download Hugo 0.134.2 Linux x64
     # 2. Installs Hugo executable
   - script: sudo dpkg -i $(Pipeline.Workspace)/hugo*.deb
     displayName: Install Hugo
