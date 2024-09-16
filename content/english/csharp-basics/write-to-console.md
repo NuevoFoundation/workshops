@@ -1,7 +1,7 @@
 ---
 title: "Write to the Console"
 description: "Introduce print methods in C#."
-date: 2021-10-13T00:00:00Z
+date: 2024-09-16T00:00:00Z
 weight: 2
 ---
 
