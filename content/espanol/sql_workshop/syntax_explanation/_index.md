@@ -1,39 +1,39 @@
 ---
-title: "Tutorial 2: Explain Syntax"
-description: "Explain Syntax"
+title: "Tutorial 2: Explicar la Sintaxis"
+description: "Explicar la sintaxis"
 date: 2020-07-15
-prereq: "SELECT Command, conditions (WHERE command)"
-difficulty: "Beginner"
+prereq: "Comando SELECT, condicionales (comando WHERE)"
+difficulty: "Principiante"
 draft: false
 ---
 
 <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/wSv5FzbtkjQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-## An Email from the Galactic Federation?
-In the middle of your journey, you suddenly receive a message from the Galactic Federation. What could it be about?
+## ¿Un Email de parte de la Federación Gálactica?
+A la mitad de tu viaje, de pronto recibes un mensaje de la Federación Gálactica. ¿Sobre qué se tratará?
 
 <br/>
 
-Sender: The Galactic Federation
+Remitente: La Federación Gálactica
 
-Receiver: Space Cadet
+Destinatario: Cadete Espacial
 
-Subject: Upgraded Terminal
-
-<br/>
-
-Dear Space Cadet,
+Asunto: Terminal mejorada
 
 <br/>
 
-Our records have indicated that you have learned enough commands to learn the basic structure for SQL commands.
-**The Galactic Federation has taken notice of your achievements and has decided to bestow upon you an upgraded terminal!**
-During your journey, you will need your handy-dandy terminal to display information about the planet around. Now you are able to type in commands!
+Querido Cadete Espacial,
 
 <br/>
 
-As per the Space Explorer Guidelines, we will now debrief you on the core structure of a SQL 
-command in hopes that you will be able to overcome the challenges that have yet to come.
+Nuestros archivos indican que haz aprendido los suficientes comandos para aprender la estructura básica de los comandos de SQL.
+
+**La Federación Gálactica ha tomado nota de tus logros y ha decidido otorgarte una terminal mejorada.**
+Durante tu viaje, vas a necesitar una terminal útil para desplegar información sobre el planeta. ¡Ahora te será posible escribir comandos!
+
+<br/>
+
+Siguiendo los lineamientos de Explorador Espacial, ahora te enseñaremos la estructura central de un comando de SQL deseando que podrás superar los obstáculos que aparezcan en tu camino.
 
 ![Syntax](assets/Tutorial.png)
 
@@ -42,12 +42,12 @@ command in hopes that you will be able to overcome the challenges that have yet 
 * Please don't forget the semicolon at the end of a SQL command!
 {{% /notice%}}-->
 
-Hopefully our advice will help you in your journey. Good Luck, Space Cadet!
+Con suerte nuestro consejo te ayudará en tu viaje. ¡Buena suerte, Cadete Espacial!
 
 <br/>
 
-Wishing You The Best Adventure,
+Deseándote la mejor aventura,
 
 <br/>
 
-The Galactic Federation
+La Federación Gálactica
