@@ -1,7 +1,7 @@
 ---
 title: "Comments"
 description: "Introduce comments in C#."
-date: 2023-09-12T00:00:00Z
+date: 2024-09-16T00:00:00Z
 weight: 3
 ---
 
