@@ -18,6 +18,9 @@ Also, adding comments will not affect the program whatsoever. So, you can add co
       * multi-line
       * comment */
 ```
+
+Add a single line comment and a multi-line comment to your program.
+
 {{% notice tip %}}
 
 You can comment you code so the computer won't run it.
