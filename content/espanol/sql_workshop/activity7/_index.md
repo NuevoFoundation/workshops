@@ -1,9 +1,9 @@
 ---
-title: "Activity 7: Use the MIN Command"
-description: "Use MIN Command"
+title: "Actividad 7: Usa el comando MIN"
+description: "Usa el comando MIN"
 date: 2020-07-10
-prereq: "SELECT Command, WHERE Command, MAX/MIN Command"
-difficulty: "Beginner"
+prereq: "Comando SELECT, comando WHERE, comando MAX/MIN"
+difficulty: "Principiante"
 draft: false
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->
@@ -20,24 +20,23 @@ draft: false
 <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/H9BWcnE2a6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 
-## Task 7: Find the Key to Get to the Confetti Cannon!
+## Tarea 7: Encuentra la llave para conseguir el Cañón de Confeti.
 
-You found the location of the Legendary Confetti Cannon but it is locked away behind a door made of titanium 
-and can only be unlocked with the smallest key on the planet! 
+Encontraste la ubicación del Legendario Cañon de Confeti pero está encerrado detrás de una puerta de titanio y solo puede ser abierta con la llave más pequeña del planeta.
 
-**To help you out, the Galactic Federation has sent you a reminder on how to use `MIN()` from a previous activity.**
+**Para ayudarte, la Federación Gálactica te ha enviado un recordatorio de la actividad anterior sobre cómo usar el comando `MIN()`.**
 
 ![Explain](../activity5/assets/max_min.png)
 
-#### Using the database called <i>'items'</i> with columns labeled <i>'object'</i> and <i>'height'</i>, find the <i>'key'</i> with the smallest height.
+#### Usando la base de datos llamada <i>'items'</i> (artículos) con columnas etiquetadas como <i>'object'</i> (objeto) y <i>'height'</i>(altura), encuentra la <i>'key'</i> (llave) con la menor altura. 
 {{% notice tip %}}
-You can display the entire database using the command from activity 1.
+Puedes mostrar la base de datos entera usando el comando de la actividad 1.
 
-* Hint 1: Remember the advice from the Galactic Federation: `SELECT [column/column property] FROM [database] [optional condition];`
+* Pista 1: Recuerda el consejo de la Federación Gálactica: `SELECT [columna/propiedad de columna] FROM [base de datos] [condicionales opcionales];`
 
-* Hint 2: Condition: `WHERE [column_name] [IN()/NOT IN()];` 
+* Pista 2: Condicionales `WHERE [column_name] [IN()/NOT IN()];` 
 
-* Hint 3: Do you need to use `IN()` or `NOT IN()` to show the 'key'?
+* Pista 3: ¿Necesitar usar `IN()` o `NOT IN()` para mostrar la 'key' (llave)?
 {{% /notice%}}
 <!-- SQL Type In Activity -->
 
@@ -46,7 +45,7 @@ You can display the entire database using the command from activity 1.
   <div class="content_scaler">
     <div class="terminal_div" id="terminal_div">
       <div class = "outer">
-        <h3 id = "commands" contenteditable="true" onclick="placeholder()">Type command here!</h3>
+        <h3 id = "commands" contenteditable="true" onclick="placeholder()">Escribe el comando aquí</h3>
       </div>
       <div class = "prev">
         <h3 id = "prev"></h3>
@@ -54,11 +53,11 @@ You can display the entire database using the command from activity 1.
       <div style="clear: both;"></div> 
       <button class="button button1" onclick="sql()"> Enter </button>
       <div style="clear: both;"></div> 
-      <button class = "button reset" onclick="reset()">Reset</button>
+      <button class = "button reset" onclick="reset()">Reiniciar</button>
     </div> <!-- terminal_div -->
   </div> <!-- content_scaler -->
   <div style="clear: both;"></div> 
-  <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
+  <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR ENTRADA INVÁLIDA</strong></h1>
   <table id="table">
     <tr></tr>
   </table>
@@ -69,9 +68,9 @@ You can display the entire database using the command from activity 1.
 <br>
 {{< /rawhtml >}}
 
-### Choose and drag the correct key onto the lock to continue your adventure!
+### Elige y arrastra la llave correcta en el candado para continuar con tu adventura.
 {{% notice note %}}
-The height corresponds to the number of loops at the base of the key. The correct key will be highlighted in green.
+La altura corresponde al numero de bucles en la base de la llave. La llave correcta estará destacada con color verde.
 {{% /notice%}}
 
 {{< rawhtml >}}
@@ -106,7 +105,7 @@ The height corresponds to the number of loops at the base of the key. The correc
 
 <!-- Next mission text displays -->
 <div id="text1" style="visibility:hidden">
-  <h3> You found the Legendary Totem of Fun: Confetti Cannon! </h3>
+  <h3> ¡Encontraste el Tótem Legendario: el Cañón de Confeti!</h3>
 </div>
 
 <!-- Unhide the Confetti Cannon -->
@@ -116,7 +115,7 @@ The height corresponds to the number of loops at the base of the key. The correc
 <div class="resume_plot" id="resume_plot" style="visibility:hidden">
   <div class="alert">
     <span id="check">&#10003;</span>
-    You've completed the task! Continue to the next mission!
+    Completaste la tarea. Continúa con la siguiente misión.
   </div>
 </div>
 {{< /rawhtml >}}

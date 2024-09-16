@@ -1,9 +1,9 @@
 ---
-title: "Activity 12: Find the Inventor!"
-description: "Find the Inventor!"
+title: "Actividad 12: Encuentra al Inventor!"
+description: "Encuentra al Inventor!"
 date: 2020-07-05
-prereq: "SELECT Command"
-difficulty: "Beginner"
+prereq: "Comando SELECT"
+difficulty: "Principiante"
 draft: false
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->
@@ -18,21 +18,21 @@ draft: false
 
 <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/WocJGw2yd40" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-### All the guests are here! We need to find the Inventor before it's too late!
+### ¡Todos los invitaods están aquí. Necesitamos encontrar al Inventor antes de que sea muy tarde!
 
-Everyone is having a good time at the party! The inventor has also arrived, now we need to figure out who the inventor is! No one knows what the inventor looks like, but the Leader has given you hints on how to find the inventor!
+Todos se están divirtiendo en la fiesta. El Inventor también ha llegado, ahora tenemos que averiguar quién es el Inventor. Nadie sabe cómo luce, pero el líder te ha dado pistas sobre cómo encontrar al inventor.
 
-### Task 12: Display the entire database called "people" so we can look at all the attendees.
+### Tarea 12: Muestra toda la base de datos llamada "people" (personas)
 {{% notice tip %}}
-* Hint 1: The command you use should display the entire "people" database.
-* Hint 2: The command is similar to the one in activity 1 (Learn the `SELECT` command).
+* Pista 1: El comando que uses debería de mostrar toda la base de datos "people".
+* Pista 2: El comando es similar al de la actividad 1 (Aprende el comando `SELECT`).
 {{% /notice%}}
 
 {{< rawhtml >}}
 <div class="content_scaler">
   <div class="terminal_div" id="terminal_div">
     <div class = "outer">
-      <h3 id = "commands" contenteditable="true" onclick="placeholder()">Type command here!</h3>
+      <h3 id = "commands" contenteditable="true" onclick="placeholder()">!Escribe el comando aquí!</h3>
     </div>
     <div class = "prev">
         <h3 id = "prev"></h3>
@@ -40,24 +40,24 @@ Everyone is having a good time at the party! The inventor has also arrived, now 
     <div style="clear: both;"></div> 
     <button class="button button1" onclick="sql()"> Enter </button>
     <div style="clear: both;"></div> 
-      <button class = "button reset" onclick="reset()">Reset</button>
+      <button class = "button reset" onclick="reset()">Reiniciar</button>
   </div> <!-- terminal_div -->
 </div> <!-- content_scaler -->
 <div style="clear: both;"></div> 
-<h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT</strong></h1>
+<h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR ENTRADA INVÁLIDA</strong></h1>
 <table id="table">
 	<tr></tr>
 </table>
 <h3 id="story"></h3>
 {{< /rawhtml >}}
 
-### Here are some hints to figure out who the "Inventor" is:
+### Estas son algunas pistas para averiguar quién es el "Inventor":
 {{% notice info %}}
-* The Inventor's favorite food is Pizza.
+* La comida favorita del Inventor es la pizza.
 
-* The Inventor's favorite subject is Math.
+* La materia favorita del Inventor es matemáticas.
 
-* The Inventor's favorite movie is "Big Hero 6".
+* La película favorita del Inventor es "Big Hero 6"
 {{% /notice%}}
 
 {{< rawhtml >}}
@@ -66,7 +66,7 @@ Everyone is having a good time at the party! The inventor has also arrived, now 
     <div class = "inventor_div" id="inventor_div">
       <div class = "box_half" id = "box_half">
         <div class = "text_box">
-          <h3 id = "person" contenteditable="true" onclick="document.getElementById('person').innerHTML = ''">Enter person here!<h3>
+          <h3 id = "person" contenteditable="true" onclick="document.getElementById('person').innerHTML = ''">Ingresa la persona aquí<h3>
         </div>
       </div>
       
@@ -84,18 +84,17 @@ Everyone is having a good time at the party! The inventor has also arrived, now 
 <div class="resume_plot" id="resume_plot" style="visibility:hidden">
   <div class="alert">
     <span id="check">&#10003;</span>
-    You've completed the task!
+    ¡Completaste esta tarea!
   </div>
   
-  <h2> You Saved the Planet of Fun! </h2>
-  <p> The Planet of Fun is now protected from the invaders thanks to you! You found the lost Legendary Totems of Fun and returned them to their rightful place 
-      and saved the citizens from danger! The inhabitants will never forget your act of kindness! Congrats space cadet! You’ve successfully saved the Planet of Fun! 
-      <br><br>Click the "Download" button below to receive your honorary certificate!
+  <h2> !Salvaste el planeta de la Diversión! </h2>
+  <p> El planeta de la diversión ahora está protegido de invasores gracias a tí. Encontraste los Totems Legendarios perdidos y los regresaste a su lugar de origen y salvaste a los ciudadanos del peligro. Los habitantes nunca van a olvidar tu acto de amabilidad. ¡Felicidades cadete espacial! Haz salvado exitosamente al planeta de la Diversión.
+      <br><br>Click en el botón de "Descargar" debajo para recibir tu certificado honorario.
   </p>
   
   <!--Download Button -->
   <form method="get" action="assets/Certificate.pdf" target="_blank">
-    <button type="submit" id="download">Download</button>
+    <button type="submit" id="download">Descargar</button>
   </form> 
 
 </div>

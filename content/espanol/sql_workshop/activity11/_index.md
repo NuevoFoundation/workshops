@@ -1,9 +1,9 @@
 ---
-title: "Activity 11: Learn the GROUP BY command"
-description: "Learn GROUP BY command"
+title: "Actividad 11: Aprende el comando GROUP BY"
+description: "Aprende el comando GROUP BY"
 date: 2020-07-06
-prereq: "SELECT Command, WHERE Command"
-difficulty: "Beginner"
+prereq: "Comando SELECT, comando WHERE"
+difficulty: "Principiante"
 draft: false
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->
@@ -18,20 +18,20 @@ draft: false
 
 <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/WXoQP79SPsg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-## Party with the Inhabitants! 
+## Fiesta con los habitantes! 
 
-You are tasked to choose which food to serve at the party! Each city has their own favorite food and you need to decide which ones to have at the party! Let's use the `GROUP BY` command to figure out what to bring.
+Se te ha dado la tarea de elegir qué comida servir en la fiesta. Cada ciudad tiene su comida favorita y tienes que decidir cuales tener en la fiesta. Usa el comando `GROUP BY` para averiguar qué traer.
 
-### What the `GROUP BY` command does:
+### Lo que hace el comando `GROUP BY`:
 
 ![Explain](assets/group.png)
 
-### Task 11: Using the database called 'planet' with the column 'favorite_food', find out what to bring to the party!
+### Tarea 11: Usando la base de datos llamada 'planet'(planeta) con la columna 'favorite_food'(comida favorita), averigua qué traer a la fiesta.
 {{% notice tip %}}
-Hint: The command follows closely to the example above.
+Pista: El comando es muy similar al ejemplo de arriba.
 
-BONUS: Combine the `COUNT()` and `GROUP BY` commands to show the number of cities that like each food.
-(Review activity 3 and activity 4 for help)
+BONUS: Combina el los comandos `COUNT()` y `GROUP BY` para mostrar el numero de ciudades que les gusta cada comida. 
+(Revisa las actividades 3 y 4 para obtener ayuda)
 
 {{% /notice%}}
 
@@ -39,7 +39,7 @@ BONUS: Combine the `COUNT()` and `GROUP BY` commands to show the number of citie
 <div class="content_scaler">
   <div class="terminal_div" id="terminal_div">
     <div class = "outer">
-      <h3 id = "commands" contenteditable="true" onclick="placeholder()">Type command here!</h3>
+      <h3 id = "commands" contenteditable="true" onclick="placeholder()">Escribe el comando aquí!</h3>
     </div>
     <div class = "prev">
       <h3 id = "prev"></h3>
@@ -47,11 +47,11 @@ BONUS: Combine the `COUNT()` and `GROUP BY` commands to show the number of citie
     <div style="clear: both;"></div> 
     <button class="button button1" onclick="sql()"> Enter </button>
     <div style="clear: both;"></div> 
-    <button class = "button reset" onclick="reset()">Reset</button>
+    <button class = "button reset" onclick="reset()">Reiniciar</button>
   </div> <!-- terminal_div -->
 </div> <!-- content_scaler -->
 <div style="clear: both;"></div> 
-<h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
+<h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR ENTRADA INVÁLIDA></strong></h1>
 <table id="table">
   <tr></tr>
 </table>
@@ -62,25 +62,25 @@ BONUS: Combine the `COUNT()` and `GROUP BY` commands to show the number of citie
     <button class="button cake" id = "cake_button" onclick="highlight('cake_button')"></button>
     <button class="button ice_cream" id = "ic_button" onclick="highlight('ic_button')"></button> 
     <button class="button hot_dog" id = "hd_button" onclick="highlight('hd_button')"></button> 
-    <button class="button vendor_reset" id = "vendor_reset" onclick="oven_reset()"> Clear </button> 
+    <button class="button vendor_reset" id = "vendor_reset" onclick="oven_reset()"> Reiniciar </button> 
     <div style="clear: both;"></div>  
     <button class="button burger" id = "burger_button" onclick="highlight('burger_button')"></button>
     <button class="button pizza" id = "pizza_button" onclick="highlight('pizza_button')"></button>
     <button class="button taco" id = "taco_button" onclick="highlight('taco_button')"></button>
-    <button class="button vendor_button" id = "vendor_button" onclick="confirm()"> Cook! </button>  
+    <button class="button vendor_button" id = "vendor_button" onclick="confirm()"> ¡Cocinar! </button>  
     <div style="clear: both;"></div> 
   </div> <!-- vendor_div -->
 </div> <!-- content_scaler -->
 
 <br>
 
-<h4 id="plot" style="visibility:hidden"> You did it Space Cadet! Now the inhabitants can finally begin the party! </h4> 
+<h4 id="plot" style="visibility:hidden"> ¡Lo lograste Cadete Espacial! Ahora los habitantes finalmente podrán comenzar la fiesta. </h4> 
 
 <!-- Tells User to continue mission -->
 <div class="resume_plot" id="resume_plot" style="visibility:hidden">
   <div class="alert">
     <span id="check">&#10003;</span>
-    You've completed the task! Continue to the next mission!
+    Completaste la tarea. Continúa con la siguiente misión.
   </div>
 </div>
 {{< /rawhtml >}}

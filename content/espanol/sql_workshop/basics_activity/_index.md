@@ -29,11 +29,9 @@ información que necesitas. Un comando de SQL es como una oración que le dices 
 
 ![SQL](assets/SQL.png)
 
-## What is a Table?
+## ¿Qué es una tabla?
 
-A table can be a database.
+Una tabla puede ser una base de datos.
 ![Table](assets/Table.png)
 
-Now that you have some knowledge of what databases and SQL commands are, you will be
- learning how to use these on your missions! Continue to start your first official 
- space adventure!
+Ahora que tienes cierto conocimiento de las bases de datos y de los comandos de SQL, comenzarás a aprender cómo usarlos en tus misiones.Continúa para empezar tu primera aventura espacial oficial.

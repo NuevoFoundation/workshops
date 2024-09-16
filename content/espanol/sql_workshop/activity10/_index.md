@@ -1,9 +1,9 @@
 ---
-title: "Activity 10: Learn the SUM command"
-description: "Learn SUM command"
+title: "Actividad 10: Aprende el comando SUM"
+description: "Aprende el comando SUM"
 date: 2020-07-07
-prereq: "SELECT Command, WHERE Command"
-difficulty: "Beginner"
+prereq: "Comando SELECT, comando WHERE"
+difficulty: "Principiante"
 draft: false
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->
@@ -18,31 +18,32 @@ draft: false
 
 <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/UCxPAE0xw3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-## Return the Legendary Totems of Fun to The Leader
+## Regresa los Tótems Legendarios del planeta Fun al Lider
 
-You have successfully found both Legendary Totems of Fun! The Leader thanks you for finding their lost treasure.
+Haz encontrado exitosamente los dos Tótems Legendarios del planeta Fun. El Líder te agradece por encontrar su tesoro perdido.
 
-### The Leader also reveals a secret:
+### El Líder revela un secreto:
 {{% notice info %}}
-The Legendary Totems of Fun cannot unleash their full potential until they are merged together. They can only be merged together by the "Inventor".
+Los Tótems Legendarios del planeta Fun no pueden liberar todo su potencial hasta que sean unidos juntos. Unicamente pueden ser unidos por el "Inventor".
 
-Your next step is to find the person who can combine both Legendary Totems of Fun. The "Inventor" will only appear if you throw a huge party!
+Tu siguiente paso es encontrar a la persona que pueda combinar ambos Tótems Legendarios del planeta Fun. El "Inventor" solo va a aparecer si organizas una gran fiesta.
+
 {{% /notice%}}
 
-## Task 10: Help the inhabitants set up for the party!
+## Tarea 10: Ayuda a los habitantes a organizar la fiesta.
 The whole planet is invited! Help the citizens prepare for the party by finding out how many guests will be attending!
 
-Let's go over the `SUM` Command!
+Aprendamos el comando `SUM`
 
 ![Explain](assets/sum.png)
 
-#### Using the database 'planet' and the `SUM()` command, find the total number of guests that will attend this amazing party!
+#### Usando la base de datos  'planet'(planeta) y el comando `SUM()`, encuentra el numero total de invitados que van a asistir a esta increíble fiesta.
 
 {{% notice tip %}}
-Use the command from activity 1 to display the entire database.
+Usa el comando de la actividad 1 para mostrar toda la base de datos.
 
-* Hint 1: The command follows very closely to the example and the `AVG()` example (previous task).
-* Hint 2: The 'population' column holds information on the number of individuals per city.
+* Pista 1: El comando es muy similar al ejemplo de arriba y el ejemplo del ejercicio de `AVG()` (tarea anterior).
+* Pista 2: La columna 'population'(población) contiene información sobre el número de individuos por ciudad.
 {{% /notice%}}
 
 <!-- SQL Type In Activity -->
@@ -51,7 +52,7 @@ Use the command from activity 1 to display the entire database.
 <div class="content_scaler">
   <div class="terminal_div" id="terminal_div">
     <div class = "outer">
-      <h3 id = "commands" contenteditable="true" onclick="placeholder()">Type command here!</h3>
+      <h3 id = "commands" contenteditable="true" onclick="placeholder()">Escribe el comando aquí</h3>
     </div>
     <div class = "prev">
       <h3 id = "prev"></h3>
@@ -59,13 +60,13 @@ Use the command from activity 1 to display the entire database.
     <div style="clear: both;"></div>
     <button class="button button1" onclick="sql()"> Enter </button>
     <div style="clear: both;"></div> 
-    <button class = "button reset" onclick="reset()">Reset</button>
+    <button class = "button reset" onclick="reset()">Reiniciar</button>
   </div> <!-- terminal_div -->
 </div> <!-- content_scaler -->
 
 <div style="clear: both;"></div> 
   
-<h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
+<h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR ENTRADA INVÁLIDA</strong></h1>
   
 <table id="table">
   <tr></tr>
@@ -74,10 +75,10 @@ Use the command from activity 1 to display the entire database.
 <h4 id="story"></h4>
   
 <!-- Tells User to continue mission -->
-<div class="resume_plot" id="resume_plot" style="visibility:hidden">
+<div class="resume_plot" id="resume_plot" style="visibility:show">
   <div class="alert">
     <span id="check">&#10003;</span>
-    You've completed the task! Continue to the next mission!
+    Completaste la tarea. Continúa con la siguiente misión.
   </div>
 </div>
 

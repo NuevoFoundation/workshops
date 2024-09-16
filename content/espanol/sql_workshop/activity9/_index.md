@@ -1,9 +1,9 @@
 ---
-title: "Activity 9: Learn the AVG Command"
-description: "Learn AVG Command"
+title: "Actividad 9: Aprende el comando AVG"
+description: "Aprende el comando AVG"
 date: 2020-07-08
-prereq: "SELECT Command, WHERE Command"
-difficulty: "Beginner"
+prereq: "Comando SELECT, comando WHERE"
+difficulty: "Principiante"
 draft: false
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->
@@ -20,26 +20,26 @@ draft: false
 <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/XLm2T6XBltg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 
-## Task 9: Unlock the Infinite Buffet Table:
+## Tarea 9: Desbloquea la Mesa de Buffet Infinito:
 
-You discovered the location of the Legendary Infinite Buffet Table! However, it is locked behind a door that 
-will only unlock if you find the secret number. 
+¡Haz descubirto la ubicación de la Mesa de Buffet Infinito! Sin embargo, está encerrada detrás de una puerta que sólo se abre si encuentras el número secreto.
 
 {{% notice info %}}
-Your only clue is that the combination is the first two digits of the average city population.
+Tu única pista es que la combinación es los primeros dos dígitos de la población promedio de la ciudad.
 {{% /notice%}}
 
-**Let's look at the `AVG()` command!**
+**Repasemos el comando `AVG()`**
 
 ![Explain](assets/AVG.png)
 
-#### Using the database 'planet' and the `AVG()` command, find the first two digits of the average city 'population'!
+#### Usando la base de datos 'planet' y el comando `AVG()`, encuentra los primeros dos dígitos del promedio de la población ('population') de la ciudad.
 {{% notice tip %}}
-Use the command from activity 1 to view the entire database.
+Usa el comando de la actividad 1 para ver la base de datos entera.
 
-* Hint 1: The command follows very closely to the example.
+* Pista 1: El comando es muy similar al ejemplo de arriba.
 
-* Hint 2: How do you use 'population' with the `AVG()` command?
+* Pista 2: ¿Cómo usas 'population'(población) con el comando `AVG()`?
+
 {{% /notice%}}
 <!-- SQL Type In Activity -->
 
@@ -47,7 +47,7 @@ Use the command from activity 1 to view the entire database.
   <div class="content_scaler">
     <div class="terminal_div" id="terminal_div">
       <div class = "outer">
-        <h3 id = "commands" contenteditable="true" onclick="placeholder()">Type command here!</h3>
+        <h3 id = "commands" contenteditable="true" onclick="placeholder()">Escribe el comando aquí</h3>
       </div>
       <div class = "prev">
         <h3 id = "prev"></h3>
@@ -55,11 +55,11 @@ Use the command from activity 1 to view the entire database.
       <div style="clear: both;"></div> 
       <button class="button button1" onclick="sql()"> Enter </button>
       <div style="clear: both;"></div> 
-      <button class = "button reset" onclick="reset()">Reset</button>
+      <button class = "button reset" onclick="reset()">Reiniciar</button>
     </div> <!-- terminal_div -->
   </div> <!-- content_scaler -->
   <div style="clear: both;"></div> 
-  <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
+  <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR ENTRADA INVÁLIDA</strong></h1>
   <table id="table">
     <tr></tr>
   </table>
@@ -67,9 +67,9 @@ Use the command from activity 1 to view the entire database.
 
 {{< /rawhtml >}}
 
-### Figure out the combination to unlock the vault!
+### ¡Descubre la combinación para abrir la caja fuerte!
 {{% notice info %}}
-The clue to the combination is at the top of this page!
+La pista para la combinación está arriba en esta página.
 {{% /notice%}}
 
 {{< rawhtml >}}
@@ -101,7 +101,7 @@ The clue to the combination is at the top of this page!
 
 <br>
 
-<h5 id="plot" style="visibility:hidden"> You did it, Space Explorer! You found the Legendary Totem of Fun: Infinite Buffet Table! </h5> 
+<h5 id="plot" style="visibility:hidden"> ¡Lo lograste, Explorador Espacial! Encontraste el Tótem Legendario del planeta Fun: la Mesa de Buffet Infinito. </h5> 
 
 <!-- Unhide the Infinite Buffet Table -->
 <img id="buffet" alt="buffet" style="visibility:hidden"/>
@@ -110,7 +110,7 @@ The clue to the combination is at the top of this page!
 <div class="resume_plot" id="resume_plot" style="visibility:hidden">
   <div class="alert">
     <span id="check">&#10003;</span>
-    You've completed the task! Continue to the next mission!
+    Completaste la tarea. Continúa con la siguiente misión.
   </div>
 </div>
 
