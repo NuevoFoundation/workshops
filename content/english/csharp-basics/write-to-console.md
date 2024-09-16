@@ -15,14 +15,6 @@ Launch the repl and fork it. Give it a try by pressing the **run** button.  The 
 
 <a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/CSharpBasicsHelloWorld" target="_blank">Launch Replit</a>
 
-Note that all your code must be between the two braces:
-
-```c#
-public static void Main (string[] args) {
-     //your code here
-}
-```
-
 ### Let's write come code!
 
 Add a new line of code below the first line to print "Hello *your name*".  It should look something like this.
