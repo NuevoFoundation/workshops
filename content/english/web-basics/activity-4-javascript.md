@@ -41,7 +41,7 @@ Just like CSS, JS has a syntax (or way of writing) in the JS file so the compute
 With a little practice, JavaScript can enable you to do almost anything you want with your websites such as create games, animate 2D and 3D graphics, keep track of data in a database, and much more. Here are some good resources to learn more.
 
 - <a href="https://www.w3schools.com/jsref/default.asp" target="_blank">w3schools JavaScript and HTML DOM References</a>
-- <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics" target="_blank">JavaScript basics from mdn web docs</a>
+- <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics" target="_blank">JavaScript Basics from MDN Web Docs</a>
 
 ## How to add an alert button
 
