@@ -51,7 +51,7 @@ function drop(ev)
 function sql() 
 {
   clearTable();
-  document.getElementById("sqlcommand").innerHTML = "ERROR INVALID INPUT";
+  document.getElementById("sqlcommand").innerHTML = "ERROR ENTRADA INVÁLIDA";
   document.getElementById("sqlcommand").style.visibility="visible";
 
   var user = document.getElementById("commands").innerHTML;
@@ -88,7 +88,7 @@ function sql()
   if(input == ans1 || input == ans2 || input == ans3 || input == ans4 || input == ans5 || input == ans6 || input == ans7)
   {
     green(input);
-    document.getElementById("story").innerHTML = "Amazing work as always, Space Cadet! You found the key!";
+    document.getElementById("story").innerHTML = "Increíble trabajo, como siempre, Cadete Espacial. ¡Encontraste la llave!";
     
     /* Changes terminal screen */
     var screen = document.getElementById("terminal_div");

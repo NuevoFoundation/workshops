@@ -31,7 +31,7 @@ function sql()
   
   if(input == ans1)
   {
-    document.getElementById("story").innerHTML = "That's the correct command to show all the attendees!";
+    document.getElementById("story").innerHTML = "Ese es el comando correcto para mostrar todos los invitados.";
     
     /* Changes terminal screen */
     var screen = document.getElementById("terminal_div");
@@ -46,7 +46,7 @@ function check()
 
    if (trimmedPotential == "dr.phi")
    {
-    document.getElementById("answer").innerHTML = "You found the inventor! Now he can combine the Legendary Totems of Fun into a more powerful Totem! This Totem unleashes a force field around the Planet of Fun! The planet is saved from the invaders!";
+    document.getElementById("answer").innerHTML = "!Encontraste al Inventor! ¡Ahora puedes unir los Tótems Legendarios del planeta Fun en un solo Tótem más poderoso! Este Tótem desata un campo de fuerza protectora alrededor del Planeta de la Diversión. ¡El planeta está a salvo de invasores!";
     document.getElementById("plot").src="assets/Planet_Fun.png";
     
     /* Display the checkmark */
@@ -55,6 +55,6 @@ function check()
    }
    else
    {
-    document.getElementById("answer").innerHTML = "Try again. This person is not who you are looking for.";
+    document.getElementById("answer").innerHTML = "Inténtalo de nuevo. Esta no es la persona que estás buscando.";
    }
 }

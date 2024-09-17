@@ -33,7 +33,7 @@ function sql()
   if(input == ans1 || input == ans2)
   {
     green(input);
-    document.getElementById("story").innerHTML = "Nice job! The citizens on the planet of fun use a food-maker-izer to instantly cook food! Select the correct food items that match the inhabitant's favorite foods!"; 
+    document.getElementById("story").innerHTML = "¡Buen trabajo! Los ciudadanos del planeta de la Diversión utilizan un preparador de comida para cocinar instantáneamente. Selecciona las piezas de comida correctas que coincidan con la comida favorita de los habitantes.";
     
     /* Changes terminal screen */
     var screen = document.getElementById("terminal_div");
@@ -173,6 +173,6 @@ function confirm() {
     checkmark.setAttribute("style","visibility:visible");
     
   } else {
-    alert("Check to make sure only the favorite foods are selected");
+    alert("Asegúrate que únicamente sus comidas favoritas estén seleccionadas.");
   }
 }

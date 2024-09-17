@@ -32,7 +32,7 @@ function sql()
   
   if(input == ans1 || input == ans2)
   {
-    document.getElementById("story").innerHTML = "Amazing work as always, space cadet! The Legendary Totem of Fun: Infinite Buffet Table is in Fun Capital!";
+    document.getElementById("story").innerHTML = "Gran tabajo, como siempre, Cadete Espacial. El Tótem Legendario del Planeta de la Diversión: La Mesa de Buffet Infinito está en la Capital.";
     var display_legend = document.getElementById("legend");
     display_legend.setAttribute("style","visibility:visible");
     
@@ -51,6 +51,6 @@ function sql()
   }
   else
   {
-    document.getElementById("story").innerHTML = "Not quite the right command. Keep trying!";
+    document.getElementById("story").innerHTML = "El comando no es correcto. ¡Sigue intentando!";
   }
 }

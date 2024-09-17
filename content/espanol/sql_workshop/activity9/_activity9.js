@@ -54,7 +54,7 @@ function confirm() {
   var second = document.getElementById("lock2").value;
   
   if(first == 4 && second == 0) {
-    alert("That is correct! You found the correct combination!");
+    alert("¡Respuesta correcta! Encontraste la combinación correcta.");
     //Display next mission prompt
     var display1 = document.getElementById("plot");
     display1.setAttribute("style","visibility:visible");
@@ -97,7 +97,7 @@ function confirm() {
 function sql() 
 {
   clearTable();
-  document.getElementById("sqlcommand").innerHTML = "ERROR INVALID INPUT";
+  document.getElementById("sqlcommand").innerHTML = "ERROR ENTRADA INVÁLIDA";
   document.getElementById("sqlcommand").style.visibility="visible";
 
   var user = document.getElementById("commands").innerHTML;
@@ -128,7 +128,7 @@ function sql()
   if(input == ans1)
   {
     green(input);
-    document.getElementById("story").innerHTML = "Nice work Space Cadet! You found the average population size!";
+    document.getElementById("story").innerHTML = "¡Gran trabajo Cadete Espacial! Encontraste el tamaño promedio de población.";
     
     /* Changes terminal screen */
     var screen = document.getElementById("terminal_div");

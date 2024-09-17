@@ -18,20 +18,20 @@ draft: false
 
 <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/UCxPAE0xw3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-## Regresa los Tótems Legendarios del planeta Fun al Lider
+## Regresa los Tótems Legendarios del planeta de la Diversión al Lider
 
-Haz encontrado exitosamente los dos Tótems Legendarios del planeta Fun. El Líder te agradece por encontrar su tesoro perdido.
+Haz encontrado exitosamente los dos Tótems Legendarios del planeta de la Diversión. El Líder te agradece por encontrar su tesoro perdido.
 
 ### El Líder revela un secreto:
 {{% notice info %}}
-Los Tótems Legendarios del planeta Fun no pueden liberar todo su potencial hasta que sean unidos juntos. Unicamente pueden ser unidos por el "Inventor".
+Los Tótems Legendarios del planeta de la Diversión no pueden liberar todo su potencial hasta que sean unidos juntos. Unicamente pueden ser unidos por el "Inventor".
 
-Tu siguiente paso es encontrar a la persona que pueda combinar ambos Tótems Legendarios del planeta Fun. El "Inventor" solo va a aparecer si organizas una gran fiesta.
+Tu siguiente paso es encontrar a la persona que pueda combinar ambos Tótems Legendarios del planeta de la Diversión. El "Inventor" solo va a aparecer si organizas una gran fiesta.
 
 {{% /notice%}}
 
 ## Tarea 10: Ayuda a los habitantes a organizar la fiesta.
-The whole planet is invited! Help the citizens prepare for the party by finding out how many guests will be attending!
+¡El planeta entero está invitado! Ayuda a los ciudadanos a prepararse para la fiesta averiguando cuántos invitados irán a la fiesta.
 
 Aprendamos el comando `SUM`
 

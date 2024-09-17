@@ -71,7 +71,7 @@ Todos se están divirtiendo en la fiesta. El Inventor también ha llegado, ahora
       </div>
       
       <div class= "half" id = "half">
-        <button class="button second" onclick="check()"> Check! </button>
+        <button class="button second" onclick="check()"> Validar! </button>
       </div>
     </div> <!-- inventor_div -->
   </div> <!-- content_scaler -->

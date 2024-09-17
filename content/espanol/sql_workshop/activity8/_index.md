@@ -19,9 +19,9 @@ draft: false
 <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/dPk644r21e0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 
-## Tarea 8: Encuentra el Tótem Legendario del planeta Fun: La Mesa infinita de Buffet.
+## Tarea 8: Encuentra el Tótem Legendario del planeta de la Diversión: La Mesa infinita de Buffet.
 
-Otro artefecto que debes encontrar es la Mesa Infinita de Buffet del planeta Fun.
+Otro artefecto que debes encontrar es la Mesa Infinita de Buffet del planeta de la Diversión.
 Cuenta la leyenda que los festivales nunca se quedarán sin comida con esta mesa de buffet mística.
 
 {{% notice info %}}
@@ -67,7 +67,7 @@ Puedes usar el comando de la actividad 1 para mostrar toda la base de datos.
   <h4 id="story"></h4>
 
 <div id="legend" style="visibility:hidden">
-  <h4> ¡Encontraste la ubicación del Tótem Legendario del planeta Fun: La Mesa de Buffet Infinito! Ahora viajaremos a la capital de Fun.
+  <h4> ¡Encontraste la ubicación del Tótem Legendario del planeta de la Diversión: La Mesa de Buffet Infinito! Ahora viajaremos a la capital del planeta de la Diversión.
   </h4>
 </div>
 

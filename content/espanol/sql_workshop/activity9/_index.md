@@ -91,7 +91,7 @@ La pista para la combinación está arriba en esta página.
     </div>
 
     <div id="right_div">
-    <button class="button vault_button" id = "vault_button" onclick="confirm()"> Check </button>
+    <button class="button vault_button" id = "vault_button" onclick="confirm()"> Validar </button>
     </div>
     
     <div style="clear: both;"></div> 
@@ -101,7 +101,7 @@ La pista para la combinación está arriba en esta página.
 
 <br>
 
-<h5 id="plot" style="visibility:hidden"> ¡Lo lograste, Explorador Espacial! Encontraste el Tótem Legendario del planeta Fun: la Mesa de Buffet Infinito. </h5> 
+<h5 id="plot" style="visibility:hidden"> ¡Lo lograste, Explorador Espacial! Encontraste el Tótem Legendario del planeta de la Diversión: la Mesa de Buffet Infinito. </h5> 
 
 <!-- Unhide the Infinite Buffet Table -->
 <img id="buffet" alt="buffet" style="visibility:hidden"/>

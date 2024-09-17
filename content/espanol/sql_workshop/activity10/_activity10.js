@@ -32,7 +32,7 @@ function sql()
   if(input == ans1)
   {
     green(input);
-    document.getElementById("story").innerHTML = "Now we know how many guests will be attending! Let's choose what food to bring to the party!"; 
+    document.getElementById("story").innerHTML = "Ahora que sabemos cuántos invitados van a asistir, hay que elegir qué comida llevar a la fiesta."; 
     
     /* Changes terminal screen */
     var screen = document.getElementById("terminal_div");
@@ -44,6 +44,6 @@ function sql()
   }
   else
   {
-    document.getElementById("story").innerHTML = "Not quite the right command. Keep trying!";
+    document.getElementById("story").innerHTML = "El comando no es correcto. ¡Sigue intentando!";
   }
 }
