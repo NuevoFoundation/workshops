@@ -36,7 +36,7 @@ Remember how we used the `class` attribute or the `id` attribute with CSS to giv
 
 You'll notice in the example above, even though we made the info `div` teal in exercise 2, since the JavaScript function <code>document.getElementById("info").style.color = "black";</code> runs after the styling is applied, it changed the color back to black.
 
-Just like CSS, JS has a syntax (or way of writing) in the JS file so the computer understands what you're asking it to do. You'll use special keywords like `document` and functions like `getElementById` to give the computer instructions. There are too many keywords and functions to introduce now, but an important thing to remember is to end each line with a ;. Additionally, you can add comments to your code using // to help you remember what the code is doing.
+Just like CSS, JS has a syntax (or way of writing) in the JS file so the computer understands what you're asking it to do. You'll use special keywords like `document` and functions like `getElementById` to give the computer instructions. There are too many keywords and functions to introduce now, but an important thing to remember is to end each line with a `;`. Additionally, you can add comments to your code using `//` to help you remember what the code is doing.
 
 With a little practice, JavaScript can enable you to do almost anything you want with your websites such as create games, animate 2D and 3D graphics, keep track of data in a database, and much more. Here are some good resources to learn more.
 
