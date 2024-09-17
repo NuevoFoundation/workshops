@@ -7,7 +7,7 @@ weight: 7
 
 ## What is a Method?
 
-So far, we've learned about how to store data in variables, print data and sentences, and make decisions with if-statements, for-loops, and while-loops. 
+So far, we've learned about how to store data in variables, print data and sentences, and make decisions with `if`-statements, `for`-loops, and `while`-loops. 
 
 From the last exercise, we know the following block of code calculates the sum from 1 to 100:
 
