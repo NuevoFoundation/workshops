@@ -34,7 +34,7 @@ See this example below:
 
 Remember how we used the `class` attribute or the `id` attribute with CSS to give the corresponding HTML tags a style? We can use that same `id` with JavaScript to select that element.
 
-You'll notice in the example above, even though we made the info `div` teal in exercise 2, since the JavaScript function <code>document.getElementById("info").style.color = "black";</code> runs after the styling is applied, it changed the color back to black.
+You'll notice in the example above, even though we made the info `div` teal in exercise 2, since the JavaScript function <code>document.getElementById("info").style.color = "black";</code> runs after the styling is applied, it changed the color back to black. Note that this is another way to change the style of an element, although CSS is preferred.
 
 Just like CSS, JS has a syntax (or way of writing) in the JS file so the computer understands what you're asking it to do. You'll use special keywords like `document` and functions like `getElementById` to give the computer instructions. There are too many keywords and functions to introduce now, but an important thing to remember is to end each line with a `;`. Additionally, you can add comments to your code using `//` to help you remember what the code is doing.
 
