@@ -11,7 +11,7 @@ An Object is a thing (noun) that has certain characteristics and can perform cer
 
 An example is a Person. A Person is a kind of Class. A person can have certain characteristics that distinguish it from another person. It can have blue eyes, it can be 15 years old, etc. A person can also perform certain tasks. It can walk, it can talk, etc.
 
-A C# Object is an instance of a C# Class. In this instance "Bea" is a "Person". "Bea" has brown eyes. This is a property (or data field) of "Bea". "Bea" can speak in English. "Bea" can speak in Spanish. These are methods  that "Bea" can perform.
+A C# Object is an instance of a C# Class. In this instance "Bea" is a "Person". "Bea" has brown eyes. This is a property (or data field) of "Bea". "Bea" can speak in English. "Bea" can speak in Spanish. These are methods that "Bea" can perform.
 
 ## Creating a Class!
 
