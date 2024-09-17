@@ -1,0 +1,31 @@
+name: Auto Translation
+
+on:
+  push:
+    paths:
+      - content/english/**
+
+jobs:
+  auto-translate:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      with:
+        submodules: true
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '8.0.x' # or the version your project requires
+
+    - name: Run Translation Tool
+      run: |
+        languages=("french" "spanish" "portuguese" "german" "kyrgyz" "simplified-chinese" "traditional-chinese")
+        changed_folders=$(git diff --name-only HEAD~1 HEAD | grep '^content/english/' | cut -d'/' -f3 | sort | uniq)
+        for folder in $changed_folders; do
+          for lang in "${languages[@]}"; do
+            dotnet run --project translation-tool/WorkshopAutoTranslation/WorkShopTranslationV2 -- content/english/$folder $lang
+          done
+        done
