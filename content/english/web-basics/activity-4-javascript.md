@@ -49,7 +49,7 @@ You might've noticed in the example, we added a new button "Pet Benji" next to o
 
 - We added a new HTML element with the unique id `"pet-button"` to the HTML `<button id="pet-button">Pet Benji</button>`
 - We added an empty HTML element with the unique id `"message"` to the HTML `<div id="message"></div>`
-- Then, in the JS, we used `document.querySelector("#pet-button")` to find the element with id `"pet-button"`, and added a click event listenter that calls the alert function with the message `"Thanks for the pets!"`
+- Then, in the JS, we used `document.querySelector("#pet-button")` to find the element with id `"pet-button"`, and added a click event listener that calls the `alert` function with the message `"Thanks for the pets!"`
 
 ![alt text](../media/sample-event-listener-code.png "code block with click event listener code")
 
