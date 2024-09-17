@@ -1,7 +1,7 @@
 ---
 title: "Methods"
 description: "Introduce methods in C#."
-date: 2023-09-13T00:00:00Z
+date: 2024-09-16T00:00:00Z
 weight: 7
 ---
 
@@ -35,11 +35,15 @@ There are 2 parts in a method: signature and body:
 
 To define a method, we need to first write out its <b>method signature</b>. A signature header has four main parts:
 
+```
+access_specifier return_type method_name(list_of_parameters)
+```
+
 **Part Name** | **Description** | **Examples or possible options**
 ----|----|----
 **access specifier** | provides the level of access to the method  | `public` tells the computer that anyone can use this method. `private` tells the computer it can only be called within a class. (We'll learn about classes on the next page!) `protected` tells the computer it can be called by objects of the same class.
 **return type** | data type that is returned to the calling function, technically the return type is not a part of the signaure in C#  | `string` or `int`, use `void` if the method doesn't return anything.
-**method name** | name of the method used to call it | a descriptive name you choose based on what the method does.
+**method name** | name of the method, used to call it | a descriptive name you choose based on what the method does.
 **list of parameters** | list of inputs that must be provided when the method is used | can have zero or more parameters in the form of (`type` `input name`, `type` `input name`, ... ).  Use () for no parameters.
 
 ```
@@ -101,7 +105,7 @@ One of the reasons methods are powerful is we can call them more than once:
     Console.WrlineLine(sum); // prints 10
 ```
 
- For the curious we could have written the above to just print the return numbers without storing in a variable:
+ We could have written the above to just print the return numbers without storing them in a variable:
 ```c#
     Console.WriteLine(sumNum(1,3)); // prints 6
     Console.WriteLine(sumNum(1,4)); // prints 10
@@ -114,7 +118,7 @@ Here is an image of square-number pyramid where each level is a perfect square o
 
 <img src="../images/pyramid.png" height="250" alt="pyramid with layers of colorful beads. Bottom layer is yellow, next blue, next brown, next white, next pink, next light blue, next orange, next coral, next green, last red" /> 
 
-That is the top level has `1 * 1` bead, the 2nd level has `2 * 2` beads, and so on.
+The top level has `1 * 1` bead, the 2nd level has `2 * 2` beads, and so on.
 
 Let's write a method that takes in the number of total levels and output the total number of beads in the pyramid!
 
