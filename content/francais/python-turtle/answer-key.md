@@ -1,5 +1,12 @@
-```markdown
-Les 3 lignes ci-dessous sont nécessaires pour l'activité d'introduction ainsi que pour toutes les autres activités.
+---
+title: "Python Turtle - Clé de réponse"
+date: 2024-09-17T20:24:33-07:00
+weight: 15
+draft: false
+hidden: true
+---
+
+Les 3 lignes ci-dessous sont nécessaires pour l'activité d'introduction et toutes les autres activités aussi. 
 
 ```python
 import turtle
@@ -7,7 +14,7 @@ turtle.color("orange")
 turtle.shape("turtle")
 ```
 
-### Activité d'Introduction
+### Activité d'introduction
 
 ```python
 turtle.color("orange")
@@ -117,5 +124,4 @@ def mandala_flower():
     turtle.right(10)
 
 mandala_flower()
-```
 ```
