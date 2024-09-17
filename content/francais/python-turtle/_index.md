@@ -1,7 +1,7 @@
 ---
 title: "Python : Coder avec Turtle"
 description: "Apprenez à dessiner sur un canevas avec Python et Turtle"
-date: 2019-07-25T13:24:17-07:00
+date: 2024-09-17T13:24:17-07:00
 prereq: "Bases de Python"
 difficulty: "Débutant"
 image: ""
