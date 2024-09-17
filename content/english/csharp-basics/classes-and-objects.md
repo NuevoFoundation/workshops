@@ -19,7 +19,7 @@ C# is an **object-oriented** programming language, which means everything in C# 
 
 For starters, the line of code that we used to print statements from activity 1 is actually a method call from a predefined class called `System`!
 
-```c#
+```csharp
 Console.WriteLine("Hello World");
 ```
 
@@ -30,7 +30,7 @@ Another built-in class we have interacted with in the previous exercises is `str
 
 With the following line of code, we created a `string` object called `name` using the rules defined in the `string` class:
 
-```c#
+```csharp
 string name = "Patrick";
 ```
 
@@ -52,7 +52,7 @@ A class is a blueprint or prototype of a new type of object. In general, a class
 
 For example:
 
-```c#
+```csharp
 public class Person{
     // (1) data fields/instance variables
     private String name; // example
@@ -94,7 +94,7 @@ Let's make a `Bird` class to represent Patrick 🐥 and all of his Bird friends 
 
 ### First, we start by defining the class name in the format `public` `class` `name`.
 
-```c#
+```csharp
 public class Bird{}
 ```
 
@@ -122,7 +122,7 @@ For example, to declare `species` as a private field of class `Bird`, you would 
 
 Usually, constructor is the method that initialializes value to all the fields in a class. It has the format `public` `class name` `(parameter)`. Since we have 5 fields in this class, the constructor will take in 5 parameter/inputs.
 
-```c#
+```csharp
 public Bird(string speciesInput, string nameInput, string hobbyInput, int ageInput, bool loveMusicInput){
     // constructor body
 }
@@ -130,7 +130,7 @@ public Bird(string speciesInput, string nameInput, string hobbyInput, int ageInp
 
 In the constructor body, we need to initialize all the instance variables, by assign each variables to its initial values:
 
-```c#
+```csharp
 species = speciesInput;
 name = nameInput;
 hobby = hobbyInput;
@@ -158,7 +158,7 @@ After, let's write the `ToString()` method together!
 
 We will return a String that include all fields of the `Bird`: name, age, species, hobby, loveMusic by calling the 5 methods you just implemented!
 
-```c#
+```csharp
 public string ToString(){
     // initialize variable info to have empty String
     string info = "";
@@ -204,13 +204,13 @@ To create a new object of a particular class, we call the constructor of that cl
 
 Recall that the constructor of `Bird` class is the following:
 
-```C#
+```csharp
 public Bird(string speciesInput, string nameInput, string hobbyInput, int ageInput, bool loveMusicInput);
 ```
 
 Hence, we can create a Bird with these attributes (species - duck; name - Patrick; hobby - hangout with friends; age - 15; loveMusic - true) with this line of code.
 
-```c#
+```csharp
 Bird patrick = new Bird("duck", "Patrick", "hangout with friends", 15, true);
 ```
 
