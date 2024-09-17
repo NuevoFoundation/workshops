@@ -91,4 +91,4 @@ Which images from the list given below do you think are phishy?
   <label for="notify-off">No</label>
 </fieldset> -->
 
-{{< button href="/security-phishing/6-summary/" theme="success" >}} Check answers! {{< /button >}}
+{{< button href="/security-phishing/summary/" theme="success" >}} Check answers! {{< /button >}}
