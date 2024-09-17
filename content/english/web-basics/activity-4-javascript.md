@@ -55,7 +55,7 @@ You might've noticed in the example, we added a new button "Pet Benji" next to o
 
 {{% notice tip %}}
 
-Inside the curly brackets {} of the function, you can call whatever JavaScript code you'd like! Checkout the resource links above to get ideas of what else you can do.
+Inside the curly brackets `{}` of the function, you can call whatever JavaScript code you'd like! Check out the resource links above to get ideas of what else you can do.
 
 {{% /notice %}}
 
