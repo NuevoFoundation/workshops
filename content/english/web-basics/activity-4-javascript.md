@@ -32,7 +32,7 @@ See this example below:
 
 <b>Click the "HTML" tab on the top left corner to see the HTML code, the "CSS" tab to see the CSS code, and the "JS" tab to see the JS code.</b>
 
-Remember how we used the `class` attribute or  `id` attribute with CSS to give the corresponding HTML tags a style? We can use that same id with JavaScript to select that element.
+Remember how we used the `class` attribute or the `id` attribute with CSS to give the corresponding HTML tags a style? We can use that same `id` with JavaScript to select that element.
 
 You'll notice in the example above, even though we made the info div teal in exercise 2, since the JavaScript function <code>document.getElementById("info").style.color = "black";</code> runs after the styling is applied, it changed the color back to black.
 
