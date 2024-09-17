@@ -13,7 +13,7 @@ The `setTempo()` function allows you to set the overall project tempo. Tempo is 
 
 <img src="../img/img-tempo1.png" height="200"/>
 
-Now that our tempo is set, it is time to add sounds. To do so, we must utilize the `fitMedia()` function. We will be placing new code below the `setTempo()` function block.
+Now that our tempo is set, it is time to add sounds. To do so, we must utilize the `fitMedia()` function. We will be placing the new code below the `setTempo()` function block.
 
 ## Activity 1
 
