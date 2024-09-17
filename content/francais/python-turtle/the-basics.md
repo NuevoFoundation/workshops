@@ -65,6 +65,8 @@ turtle.forward(50)
 
 Maintenant que nous avons terminé notre code, appuyez sur **run**. Vous devriez voir ceci dans l'écran de résultat :
 
+![alt text height="600px" width="70%"](../media/basics-trinket.png "Fenêtre Trinket")
+
 Si oui, super ! Sinon, demandez de l'aide.
 
 Comme exercice, essayez de comprendre ce que la ligne de code suivante fait, et essayez de l'ajouter à votre code. Que fait-elle ?
@@ -75,6 +77,12 @@ turtle.shape("turtle")
 
 {{% notice warning %}}
 
-## AIDE ! Rien ne s'affiche à l'écran !
+## AIDE ! Rien n'apparaît à l'écran !
 
-Si, après avoir appuyé sur **run**, vous ne voyez rien à l'écran, vérifiez s'il y a une **croix rouge** à côté de l'onglet **console** (l'onglet **console** est juste à côté de l'onglet **result** au milieu
+Si, après avoir appuyé sur **run**, vous ne voyez rien à l'écran, vérifiez s'il y a un **x rouge** à côté de l'onglet **console** (l'onglet **console** est juste à côté de l'onglet **result** au milieu de l'écran). Si c'est le cas, vous avez rencontré des erreurs ! Veuillez cliquer sur l'onglet **console** et demander de l'aide. Méfiez-vous des éléments suivants lorsque vous codez en python :
+
+1.	Ne pas utiliser de lettres majuscules.
+2.	Assurez-vous qu'aucune des lignes que vous avez écrites jusqu'à présent ne commence par des espaces.
+3.	Assurez-vous que le nom de la couleur que vous avez choisi est entouré de guillemets et que la couleur est entre parenthèses dans `turtle.color()`.
+
+{{% /notice %}}
