@@ -11,7 +11,7 @@ The binary tree is one of the simplest data structures in computer science and t
 
 A binary tree consists of many nodes that are linked together. Each node has a parent nodes, or its predecessor, and up to two children nodes. A node that has no children is called a leaf. 
 
-In a **rooted** binary tree, one node is specified as a root, meaning it has no parent. In the diagram below, node A is the parent of nodes B and C. Likewise, B is the parent  of D and E. A is the root, and D, E, F and G are leaves.
+In a **rooted** binary tree, one node is specified as a root, meaning it has no parent. In the diagram below, node A is the parent of nodes B and C. Likewise, B is the parent of D and E. A is the root, and D, E, F and G are leaves.
 
 ![Binary Tree Basics](../resources/e1-01.png "Binary Tree graph with labels pointing at the root, leaves, parent, and left and right children.") 
 
@@ -43,7 +43,7 @@ We can repeat this process again, until we find a node that can be the new eleme
 
 To remove an element, it’s a bit more tricky. We first need to find the element that we are removing. However, once we remove it we’ll need to fill in the “hole” that we’ve made in the tree. We can’t just fill in the hole with any plain element; we need to maintain the binary tree ordering property. A convenient element to take is the deepest, leftmost element from the hole’s right subtree.
 
-The diagram below shows how to remove elements in several cases. Dotted lines indicate that the connection may or maynot exist. So in case 2 for instance, the blue parent might not exist if the node to remove is the root of the tree.
+The diagram below shows how to remove elements in several cases. Dotted lines indicate that the connection may or may not exist. So in case 2 for instance, the blue parent might not exist if the node to remove is the root of the tree.
 - In the first case, the node has no children - we can safely remove it with no issues.
 - In the second case, the node has 1 child on the left or the right. We can slide the child up to this node's former spot. This works for both the left and right side.
 - The the third case, the node has 2 children. There are a few ways to go about this, but the way we'll use is to take the smallest element of the right subtree and insert it into the "hole" that we'll make. If that element has a right child (the green node), we need to slide that node up, so its former parent (orange) becomes that child's parent.
@@ -64,7 +64,7 @@ Let's take a look at what the existing code is doing. First, the binary tree dat
 
 The tree itself contains a *sentinel node*, which makes other tree operations easier to handle. To get the actual root of the tree, we need to reference the left child of the sentinel. Thus, the root's parent is the sentinel node, rather than `NULL`.
 
-![Implementation Data Structures](../resources/e1-05.png)
+![Implementation Data Structures](../resources/e1-05.png "Picture of a BinaryTree structure that points out the sentinel node.")
 
 {{% notice note %}}
 Using a sentinel lets us not worry about operations that involve updating the parent. For instance, if we remove a node, we would need to update both the parent pointer's child node and the child node's parent pointer. With a sentinel, we wouldn't worry about the parent pointer being `NULL`. This leads to a point of confusion - the name of the sentinel is `__root` in `BinaryTree`! Seems like the programmer wasn't paying attention when they wrote it...

@@ -31,7 +31,7 @@ Our version of quicksort assumes the leftmost element is the "greater" element a
 
 [GDB (GNU Project Debugger)](https://sourceware.org/gdb/) is a powerful debugger that lets you debug programs from the command line, which is useful in cases where you don’t have access to a GUI (Graphical User Interface).
 
-It is important to understand how the program works to do effective debugging. Our 'quicksort' implementation runs a recursive implementation of quicksort and performs the sorting if the element is lesser than the pivot and assuming the first element is the "greater" element. The sorting itself occurs in the `partition` function.
+It is important to understand how the program works to do effective debugging. Our 'quicksort' implementation runs a recursive implementation of quicksort and performs the sorting if the current element is less than the pivot, and assuming the first element is the "greater" element. The sorting itself occurs in the `partition` function.
 
 ### Steps to debugging with GDB
 #### Compile the program
@@ -117,7 +117,7 @@ Try printing these variables each time the debugger stops your code.
 ```
 {{% /expand %}}
 {{% expand "***Answer***" %}}
-The `p1` variable is not being increased when a number lesser than the pivot is found. Remember that our version will assume that each time a lesser element is found, the pointer for the greater element must be updated.
+The `p1` variable is not being increased when a number smaller than the pivot is found. Remember that our version will assume that each time a lesser element is found, the pointer for the greater element must be updated.
 
 Add `p1++;` after the `swap` statement in line 27.
 
@@ -138,10 +138,10 @@ There are plenty of commands GDB offers. This table summarizes some useful ones,
 | `gdb <name of program>` | Runs/loads the program with GDB |
 | `run` or `r` | Runs the loaded executable program |
 | `quit` or `q` | Exits GDB |
-| `break <filename:line>` | Create a breakpoint |
+| `break <filename:line>` | Create a breakpoint at the specified file and line number |
 | `print <variable name>` or `print <expression>` | Print the value of an expression which can contain variable names and constants |
 | `next` or `n` | Advance to the next line of code without jumping into a function call |
 | `step` | Move to the first line of code in a function call | 
 | `continue` or `c` | Continue running your code until the next breakpoint | 
-| `delete <breakpoint #>` or `d <breakpoint #>` | Delete a breakpoint at the # |
+| `delete <breakpoint #>` or `d <breakpoint #>` | Delete a breakpoint at line number # |
 | `backtrace` or `bt` | Print a stack trace, or which functions were called to get to the line of code the program is halted on |
