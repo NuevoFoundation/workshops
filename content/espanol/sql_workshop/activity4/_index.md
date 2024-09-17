@@ -1,9 +1,9 @@
 ---
-title: "Activity 4: Select Multiple Info"
-description: "Select Multiple Info"
+título: "Actividad 4: Activity 4: Selecciona Información Multiple"
+descripción: "Selecciona Información Multiple"
 date: 2020-07-13
-prereq: "SELECT Command"
-difficulty: "Beginner"
+prerequesito: "Comando SELECT"
+dificultad: "Principiante"
 draft: false
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->
@@ -17,38 +17,39 @@ draft: false
 
 <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/UySfZlYMd6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-## Task 4: Find Their Leader
+## Tarea 4: Encuentra al Líder
 
-After going to the Capital of Fun, you are told by the inhabitants to talk to their Leader. Find out which inhabitant is the Leader.
-To do so, let's take a look at how to select multiple columns in a database.
+Después de ir a la Capital de Diversión, los habitantes te indican hablar con su Líder. Averigua cuál habitante es el Líder. 
+
+Para completar esta tarea, echemos un vistazo a cómo seleccionar múltiples columnas en la base de datos. 
 
 ![Commas](assets/Commas.png)
 
-#### Now use what you learned to find out who is the leader of the Planet of Fun!
+#### Ahora utiliza lo que aprendiste para averiguar quién es el líder del Planeta de la Diversión
 
 {{% notice tip %}}
-You can view the entire database using the `SELECT * FROM [database_name];` command that you learned in activity 1.
+Puedes ver la base de datos completa utilizando el comando `SELECT * FROM [database_name];` que aprendiste en la Actividad 1.
 
-**The Galactic Federation also sends you a reminder that the 'galaxy' database holds the following columns:**
+**La Federación Galáctica también te ha enviado un recordatorio sobre la base de datos 'galaxy' tiene las siguientes columnas:**
 
-* planet_number: What order the planets show up in the database.
+* planet_number: El orden en el los planetas aparecen en la base de datos. 
 
-* planet: The name of the planet.
+* planet: El nombre del planeta. 
 
-* leader: The name of the leader of the planet.
+* leader: El nombre del lider del planeta. 
 
-* population: How many inhabitants live on the planet.
+* population: La cantidad de habitantes que viven en el planeta.
 
-* coordinate: The location of the planet in the galaxy.
+* coordinate: La ubicación del planeta en la galaxia.
 
-**Hint: Only two columns are needed.**
+**Pista: Solo se necesitan dos columnas.**
 
 {{% /notice%}}
 
-### Question: Using the 'galaxy' database, how do you display only the _names of the_ planets and their leader?
+### Pregunta: Ustilizando la base de datos 'galaxy', ¿cómo muestras solo los _nombres de_ los planetas y su líder?
 
 {{% notice warning %}}
-Don't forget the semicolon at the end!
+¡No olvides el punto y coma al final!
 {{% /notice%}}
 
 <!-- SQL Type In Activity -->
@@ -77,10 +78,10 @@ Don't forget the semicolon at the end!
   
   <!-- Tells User to continue mission -->
   <div class="resume_plot" id="resume_plot" style="visibility:hidden">
-    <p>You found the correct command to display all the planets and their leaders!</p>
+    <p>¡Encontraste el comando correcto para mostrar todos los planetas y sus líderes!</p>
     <div class="alert">
       <span id="check">&#10003;</span>
-      You've completed the task! Continue to the next mission!
+      ¡Has completado la tarea!¡Continúa a la siguiente misión!
     </div>
   </div>
   

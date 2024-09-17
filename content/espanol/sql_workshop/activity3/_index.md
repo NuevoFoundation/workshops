@@ -1,9 +1,9 @@
 ---
-title: "Activity 3: Learn the COUNT Command"
-description: "Learn the COUNT command"
-date: 2020-07-14
-prereq: "SELECT Command"
-difficulty: "Beginner"
+título: "Actividad 3: Aprended el comando COUNT"
+descripción: "Aprende el comando COUNT"
+fecha: 2020-07-14
+prerequisito: "Comando SELECT"
+dificultad: "Principiante"
 draft: false
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->
@@ -19,9 +19,9 @@ draft: false
 
 <br>
 
-After receiving the message from the Galactic Federation, you continue your adventure.
+Después de recibir el mensaje de la Federación Galáctica, continúas tu aventura.
 
-You have successfully arrived on the Planet of Fun! The Galactic Federation has sent you a database about this planet.
+¡Haz llegado exitosamente al Planeta de la Diversión! La Federación Galáctica te ha enviado una base de datos sobre este planeta. 
 
 {{< rawhtml >}}
   <table id="planettable">
@@ -31,24 +31,24 @@ You have successfully arrived on the Planet of Fun! The Galactic Federation has 
   </table>
 {{< /rawhtml >}}
 
-## Task 3: Talk to the inhabitants
-You need to talk to the inhabitants of the Planet of Fun to discover what the problem is. Find out how many cities there are on the planet using the `COUNT()` command!
+## Tarea 3: Habla con los habitantes
+Necesitas hablar con los habitantes del Planeta de la Diversión para descubrir cuál es el problema. Averigua cuántas ciudades hay en el planeta utilizando el comando `COUNT()`. 
 
 {{% notice info %}}
-When we use the `SELECT * FROM planet;` command, the table above is displayed. But in order to check the number of cities, we can use the `COUNT()` command.
+Cuando usamos el comando `SELECT * FROM planet;`, la tabla de arriba se muestra. Pero para verificar el número de ciudades, podemos utilizar el comando `COUNT()`.
 {{% /notice%}}
 
 ![count](assets/count.png)
 
-### Question: Using `COUNT()`, what command will display the number of cities on the Planet of Fun?
+### Pregunta: Utilizando `COUNT()`, ¿cuál comando mostrará el número de ciudades en el Planeta de la Diversión? 
 
 {{% notice tip %}}
 
-Remember to type in the answer and not copy and paste the command. Press the Enter button on the terminal to check if you have the correct command. Use the Reset button to start over.
+Recuerda escribir la respuesta y no copiar y pegar el comando. Presiona el botón de Enter en la terminal para verificar sí tienes el comando correcto. Usa el boton de Reset para comenzar de nuevo.
 
-* Hint 1: The Galactic Federation gave you the name of this database at the beginning of this activity
-* Hint 2: You can use either the asterix (*) or a column name
-* Hint 3: Don't forget the semicolon (;)
+* Pista 1: La Federacion Galactica te dio el nombre de esta base de datos al principio de esta actividad. 
+* Pista 2: Puedes usar el asterisco (*) o el nombre de la columna.
+* Pista 3: No olvide agregar el punto y coma. 
 
 {{% /notice%}}
 
@@ -79,10 +79,10 @@ Remember to type in the answer and not copy and paste the command. Press the Ent
 
   <!-- Tells User to continue mission -->
   <div class="resume_plot" id="resume_plot" style="visibility:hidden">
-    <p>You found the correct command to display the entire database! This is handy when you want to see all the information at the tip of your fingers!</p>
+    <p>Encontraste el comando correcto para mostrar la base de datos completa. Esto es útil cuando quieres ver toda la información al alcance de tus dedos.</p>
     <div class="alert">
       <span id="check">&#10003;</span>
-      You've completed the task! Continue to the next mission!
+      ¡Has completado la tarea!¡Continúa a la siguiente misión! 
     </div>
   </div>
 {{< /rawhtml >}}

@@ -1,9 +1,9 @@
 ---
-title: "Activity 5: Learn the MAX/MIN Command"
-description: "Learn the MAX/MIN Command"
-date: 2020-07-12
-prereq: "SELECT Command, WHERE Command"
-difficulty: "Intermediate"
+título: "Actividad 5: Aprende el comando MAX/MIN"
+descripción: "Aprende el comando MAX/MIN"
+fecha: 2020-07-12
+prerequesito: "Comando SELECT, comando WHERE"
+dificultad: "Intermedia"
 draft: false
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->
@@ -18,67 +18,67 @@ draft: false
 
 <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/VPMZedGI-Ww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-## Task 5: Find the Tallest Ladder To Get To Their Leader
+## Tarea 5: Encuentra la escalera más alta para llegar con su Líder
 
-You have discovered that the planet's leader is in a hut on the tallest hill but to get to it, you need to find the largest ladder in the Capital of Fun!
+Haz descubierto que el líder del planeta está en una cabaña en la colina más alta pero para llegar ahi, necesitas encontrar la escalera más alta en la Capital de la Diversión
 
-The Galactic Federation has sent you four new SQL commands to play around with! Let's take a look at them!
+La Federación Galáctica te ha enviado cuatro comandos SQL nuevos. ¡Vamos a echarles un vistazo!
 
 
-### What the commands do:
+### Lo que hace el comando:
 
 ![Explain](assets/max_min.png)
 
 <br/>
 
 {{% notice info %}}
-Column Property:
-`MAX()` is used to look for the largest value in a column. `MIN()` is the opposite of `MAX()` and will look for the smallest value in a column.
-You can replace any word inside the parenthesis with another column name to get the largest or smallest value of that column.
+La propiedad de la columna:
+`MAX()` es utilizada para buscar el valor más alto en una columna. `MIN()` es lo opuesto de `MAX()` y buscará el valor más chico en una columna. 
+Puedes reemplazar cualquier palabra dentro de los paréntesis con el nombre de otra columna para obtener el valor més alto o chico de esa columna. 
 {{% /notice%}}
 
 ![IN](assets/In.png)
 ![NOT](assets/not.png)
 
 {{% notice info %}}
-Notice how the items specified inside `IN()` and `NOT IN()` are surrounded by single quotation marks but the ones inside `MAX()` and `MIN()` are not.
+Fíjate en cómo los elementos especificados dentro `IN()` y `NOT IN()` están rodeados por comillas simples pero las que están dentro de `MAX()` y `MIN()` no lo están.
 
 <br>
 
-Condition:
-* `IN()` and `NOT IN()` are used hand in hand with the `WHERE` command we learned in activity 2. `IN()` is part of the condition of a SQL command and is helpful when you want to show some columns but not all of them.
+Condición:
+* `IN()` y `NOT IN()` son usados mano a mano con el comando `WHERE` que aprendimos en la Actividad 2. `IN()` es parte de la condición de un comando SQL y es útil cuando sólo quieres mostrar algunas columnas y no todas. 
 
-* `NOT IN()` is the opposite of `IN()`. Instead of choosing what to show like `IN()`, `NOT IN()` will show all the columns you did not choose inside the parenthesis.
+* `NOT IN()` es lo opuesto de `IN()`. En lugar de elegir qué mostrar como el comando `IN()`, `NOT IN()` mostrará todas las columnas que no elegiste dentro dentro de los paréntesis.
 
-* You can use commas inside the parenthesis to choose more than one column to show or not show.
+* Puedes usar comas dentro de los paréntesis para elegir más de una columa qué mostrar o no. 
 
-* Using only 1 input inside `IN()` is equivalent to using `=`: 
+* Usar solo un input (entrada de datos) dentro de `IN()` es equivalente a usar `=`. 
 
-Ex. `column_name IN('obejct_in_column');` is the same as `column_name = 'obejct_in_column';`
+Ejemplo. `column_name IN('obejct_in_column');` es lo mismo que `column_name = 'obejct_in_column';`
 {{% /notice%}}
 
-### Now use what you learned! Using the database called 'items' with columns labeled 'object' and 'height', find the tallest 'ladder'.
+### ¡Ahora utiliza lo que aprendiste! Usando la base de datos llamada 'items' con las columnas 'object' y 'height', encuentra la escalera ('ladder') más alta.
 {{% notice tip %}}
-You can display the database using the command from activity 1.
+Puedes mostrar la base de datos utilizando el comando de la Actividad 1.
 
-* Hint 1: Remember the advice from the Galactic Federation: `SELECT [column/column property] FROM [database] [optional condition];`
+* Pista 1: Recuerda el consejo de la Federacion Galactica:`SELECT [column/column property] FROM [database] [optional condition];`
 
-* Hint 2: Column property: Do you need to use `MAX()` or `MIN()` to find the tallest ladder?
+* Pista 2: La propiedad de la columna: ¿Necesitas usar `MAX()` o `MIN()` para encontrar la escalera mas alta?
 
-* Hint 3: Condition: `WHERE [column_name] [IN/NOT IN];`
+* Pista 3: Condición: `WHERE [column_name] [IN/NOT IN];`
 
-* Hint 4: Do you need to use `IN()` or `NOT IN()` to show the 'ladder'?
+* Pista 4: ¿Necesitas usar `IN()` o `NOT IN()` para mostrar la escalera ('ladder')?
 
-* Hint 5: What symbol do you need at the end of a SQL command?
+* Pista 5: ¿Cuál símbolo necesitas al final de un comando SQL?
 {{% /notice%}}
  
 {{% notice info %}}
-* BONUS: Try to use multiple inputs inside `IN()` or `NOT IN()` when searching for the ladder
-* This command is very powerful in searching multiple types of objects
+* BONUS: Intenta usar múltiples inputs (entradas de datos) dentro de `IN()` o `NOT IN()` cuando estés buscando la escalera. 
+* Este comando es muy poderoso cuando estas buscando múltiples tipos de objetos.
 {{% /notice%}}
 
 {{% notice tip %}}
-Remember: You can query the database multiple times using everything you have learnt till now to find out the color of the tallest ladder.
+Recuerda: Puedes consultar la base datos múltiples veces usando todo lo que has aprendido hasta ahora para encontrar el color de la escalera más alta. 
 {{% /notice%}}
 
 <!-- SQL Type In Activity -->
@@ -117,10 +117,10 @@ Remember: You can query the database multiple times using everything you have le
 
 {{< /rawhtml >}}
 
-### Choose and drag the correct ladder onto the hill to continue your adventure!
+### ¡Elige y arrastra la escalera correcta en la colina para continuar tu aventura!
 
 {{% notice note %}}
-The correct ladder will be highlighted in green.
+La escalera correcta resaltará en verde. 
 {{% /notice%}}
 
 {{< rawhtml >}}
@@ -153,15 +153,15 @@ The correct ladder will be highlighted in green.
 
 <!-- Next mission text displays -->
 <div id="text1" style="visibility:hidden">
-  <p> You made it! The Leader tells you that the Planet of Fun is in danger of being invaded by the aliens from the Planet of Boredom!
-  You must find the Totems of Fun in order to save the planet! </p>
+  <p> ¡Lo lograste! El Lider te comunica que el Planeta de la Diversión está en riesgo de ser invadido por aliens del Planeta del Aburrimiento. 
+  ¡Debes encontrar los Tótems de la Diversión para salvar al planeta! </p>
 </div>
 
 <!-- Tells User to continue mission -->
 <div class="resume_plot" id="resume_plot" style="visibility:hidden">
   <div class="alert">
     <span id="check">&#10003;</span>
-    You've completed the task! Continue to the next mission!
+    ¡Has completado la tarea!¡Continúa a la siguiente misión!
   </div>
 </div>
 

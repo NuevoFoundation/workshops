@@ -19,39 +19,40 @@ draft: false
 
 <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/FZnnkNVn0Ok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-## Task 2: Travel to the Planet of Fun!
+## Tarea 2: ¡Viaja al Planeta de la Diversión!
 
-You need to program your rocket ship GPS to go to the Planet of Fun by rearranging the code blocks. To find the coordinates,
-the Galactic Federation has given you the next SQL command: `WHERE`!
+Necesitas programar el GPS de tus naves espaciales para ir al Planeta de la Diversión reacomodando los bloques de código. Para encontrar las coordenadas, la Federación Galáctica te ha dado el siguiente comando SQL: `WHERE`
 
 {{% notice info %}}
-### What the command does:
-The `WHERE` command allows you to only show data that you want.
+### Lo que hace el comando: 
+El comando `WHERE` te permite solo mostrar los datos que tu quieres. 
+
 {{% /notice%}}
 
 ![Explain](assets/Where_Explain.png)
 
-### Example:
+### Ejemplo:
 
 ![Ex](assets/Where_Ex.png)
 
 {{% notice info %}}
-1. The `SELECT * FROM` database block that we learned from the previous activity allows us to choose a database to look through.
+1. El bloque de la base de datos `SELECT * FROM` que aprendimos en la actividad anterior nos permite elegir una base de datos y mirar dentro de ésta. 
 
-2. The `WHERE` command allows us to narrow down what data is displayed depending on the condition (the green blocks in the image below). A condition is a requirement you are looking for. Conditions do not have to follow the example above, but the most common use of conditions are looking for rows that contain specific information.
+2. El comando `WHERE` nos permite reducir los datos que se muestran dependiendo de la condición (el bloque verde en la imagen debajo). Una condición es un requerimiento que estás buscando. Las condiciones no tienen que seguir el ejemplo de arriba, pero su uso más común es buscar los renglones que contengan información específica.
 
-3. The name of the column we wish to look for information in.
+3. El nombre de la columna en la que deseamos buscar información. 
  
-4. The equal sign means that we want to find information that matches what we have on the right-hand side of the equal sign. 
+4. El signo de igual significa que queremos buscar la información que coincide con lo que tenemos en el lado derecho del signo de igual. 
 
-5. When we are looking for specific words or text, we must surround the text with single quote marks. SQL uses single quote marks to indicate that we are looking for a word in the database.
+5. Cuando estamos buscando palabras específicas o texto, debemos rodear el texto con comillas simples. SQL utiliza comillas simples para indicar que estamos buscando una palabra en la base de datos.
 
-6. You can replace 'text' with any word you are looking for in the database.
+6. Puedes reemplazar 'texto' con cualquier palabra que estes buscando en la base de datos. 
 
-7. Semicolons act as the end of a SQL command, like a period at the end of a sentence.
+7. Los signos de punto y coma se utlizan para indicar el final de un comando SQL, como un punto al final de una oración. 
+
 {{% /notice%}}
 
-#### Using the database called 'galaxy' that has a column labeled 'planet', find the coordinates for the Planet of Fun!
+#### Usando la base de datos llamada 'galaxy' que tiene la columna 'planet,' encuentra las coordenadas para el Planeta de la Diversión. 
 
 <!-- rearrange code blocks on terminal to get coordinate block -->
 
@@ -115,7 +116,7 @@ The `WHERE` command allows you to only show data that you want.
 </table>
 
 <div id="text" style="visibility:hidden">
-<h3> Now that you know where the Planet of Fun is, we can find more information about it and ignore the other planets. Let's go to the Planet of Fun! </h3>
+<h3> Ahora que sabes donde esta el Planeta de la Diversión, podemos encontrar mas información sobre este e ignorar a otros planetas.  that you know where the Planet of Fun is, we can find more information about it and ignore the other planets. ¡Vamos al Planeta de la Diversión! </h3>
 </div>
 
 <img src="" id="gps">
@@ -124,7 +125,7 @@ The `WHERE` command allows you to only show data that you want.
 <div class="resume_plot" id="resume_plot" style="visibility:hidden">
   <div class="alert">
     <span id="check">&#10003;</span>
-    You've completed the task! Continue to the next mission!
+    ¡Has completado la tarea!¡Continua a la siguiente misión!
   </div>
 </div>
 {{< /rawhtml >}}

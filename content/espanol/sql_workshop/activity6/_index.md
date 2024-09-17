@@ -1,9 +1,9 @@
 ---
-title: "Activity 6: Use Comparators"
-description: "Use Comparators"
-date: 2020-07-11
-prereq: "SELECT Command, WHERE Command"
-difficulty: "Intermediate"
+título: "Actividdad 6: Utiliza Comparadores"
+descripción: "Utiliza Comparadores"
+fecha: 2020-07-11
+prerequesito: "Comando SELECT, comando WHERE"
+dificultad: "Intermedio"
 draft: false
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->
@@ -19,22 +19,22 @@ draft: false
 <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/WeTYg1YnbHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 
-## Task 6: Find the Legendary Totem of Fun: Confetti Cannon 
+## Tarea 6: Encuentra el Tótem Lengedario de la Diversión, el Cañón de Confeti  
 
-You need to explore the planet and find the first Legendary Totem of Fun - The Confetti Cannon of Fun. 
-Legends say that this cannon will never stop shooting confetti and it is a symbol of never-ending peace and entertainment. 
+Necesitas explorar el planeta y encontrar el primer Tótem Legendario de la Diversión: el Cañón de Confeti de la Diversión. 
+La leyenda cuenta que este cañón nunca deja de lanzar confeti ya que es un símbolo de paz y entretenimiento infinito. 
 
 {{% notice info %}}
-**Your only hint is that the artifact is created on 1738-09-12.**
+**Tu única pista es que el artefacto es creado el 1738-09-12.**
 {{% /notice%}}
-To help you out, the Galactic Federation has sent you a brief tutorial on how to compare numbers in the database.
+Para ayudarte, la Federación Galáctica te ha enviado un tutorial breve de cómo comparar los números en la base de datos. 
 
 ![Explain](assets/Comparator.png)
 ![Example](assets/Example.png)
 
 {{% notice note %}}
-* In example 2, the `!=` symbols could be used instead of `<>` to give the same output.
-* Notice the value in `[value to compare]` in `SELECT * FROM [database] WHERE [column_name] [Comparator] [value to compare];` Note that numbers do not need single quotation marks around them but date/words need to be inside single quotation marks! If Transportation had 2 more columns called "Name" that stored name of the vehicle and "Date" that stored the date of manufacture of the vehicle, we would query them like this:
+* En el ejemplo 2, los símbolos `!=` pueden ser utilizados en vez de `<>` para darte el mismo output (salida de datos).
+* Fíjate en el valor en `[value to compare]` en `SELECT * FROM [database] WHERE [column_name] [Comparator] [value to compare];` Toma en cuenta que los números no necesitan comillas simples alrededor, pero los datos/palabras si necesitan estar dentro de comillas simples. Sí Transportation/Transporte tuviera 2 columnas más llamadas "Nombre" que almacenaran el nombre del vehículo y "Fecha" que almacenara la fecha de fabricación del vehículo, las consultaríamos así:
 
     `SELECT * FROM Transportation WHERE Fuel > 20;`
 
@@ -43,18 +43,25 @@ To help you out, the Galactic Federation has sent you a brief tutorial on how to
     `SELECT * FROM Transportation WHERE Date > '2021-01-01';`
 {{% /notice%}}
 
-### Using the database called 'items' with the column labeled 'date_created', find out which artifact is the Legendary Totem of Fun: Confetti Cannon
+### Utilizando la base de datos llamada 'items' con la columna 'date_created', averigua cuál artefacto es el Tótem Legendario de la Diversión: el Canón de Confeti
 
 {{% notice tip %}}
-You can display the database using the command from activity 1.
+Puedes mostrar la base de datos utilizando el comando de la Actividad 1. 
 
-* Hint 1: The artifact is created on '1738-09-12' (Use single quotation marks around the date).
-* Hint 2: What comparator do you need to use to find an exact match?
-* Hint 3: The correct command follows closely to the example above.
-* Hint 4: You do not need single quotation marks around the column or database names in this command.
-* Hint 5: What symbol do you need at the end of a SQL command?
+Pista 1: El artefacto se creó en '1738-09-12' (use comillas simples alrededor de la fecha).
+* Sugerencia 2: ¿Qué comparador necesita usar para encontrar una coincidencia exacta?
+* Pista 3: El comando correcto sigue de cerca el ejemplo anterior.
+* Sugerencia 4: No necesita comillas simples alrededor de los nombres de las columnas o bases de datos en este comando.
+* Pista 5: ¿Qué símbolo necesita al final de un comando SQL?
 
-* BONUS: Display all items created on and after '1738-09-12' as well!
+* BONUS: ¡Muestra también todos los objetos creados a partir de '1738-09-12'!
+
+* Pista 1: El artefacto se creó en '1738-09-12' (use comillas simples alrededor de la fecha).
+* Pista 2: ¿Qué comparador necesitas usar para encontrar una coincidencia exacta de datos?
+* Pista 3: El comando correcto es similar al ejemplo de arriba. 
+* Pista 4: No necesitas comillas simples alrededor de los nombres de las columnas o bases de datos en este comando. 
+* Pista 5: ¿Qué símbolo necesitas al final de un comando SQL?
+* BONUS: ¡Muestra también todos los objetos creados a partir de '1738-09-12'!
 {{% /notice%}}
 
 <!-- SQL Type In Activity -->
@@ -82,7 +89,7 @@ You can display the database using the command from activity 1.
   <h4 id="story"></h4>
 
   <div id="text" style="visibility:hidden">
-    <p> You found the location of the first Legendary Totem of Fun: The Confetti Cannon! </p>
+    <p> Has encontrado la ubicación del primer Tótem Legendario de la Diversión: ¡el Cañón de Confeti!</p>
   </div>
 
   <!-- Unhide the Confetti Cannon -->
@@ -92,7 +99,7 @@ You can display the database using the command from activity 1.
   <div class="resume_plot" id="resume_plot" style="visibility:hidden">
     <div class="alert">
       <span id="check">&#10003;</span>
-      You've completed the task! Continue to the next mission!
+      ¡Haz completado la tarea!¡Continúa a la siguiente misión!
     </div>
   </div>
 {{< /rawhtml >}}

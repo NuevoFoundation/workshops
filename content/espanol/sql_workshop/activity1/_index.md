@@ -1,9 +1,9 @@
 ---
-title: "Activity 1: Learn the SELECT Command"
-description: "Learn the SELECT command"
-date: 2020-07-17
-prereq: "none"
-difficulty: "Beginner"
+título: "Actividad 1: Aprende el comando SELECT"
+descripción: "Aprende el comando SELECT"
+fecha: 2020-07-17
+prerequisito: "Ninguno"
+dificultad: "Pricipiante"
 draft: false
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->
@@ -18,30 +18,27 @@ draft: false
 <script type="text/javascript" src="_activity1.js"></script>
 <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/hUTKI3AHJ1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-# Mission 1: Save the Planet of Fun from Boredom!
-Your first mission is to go to the Planet of Fun and save them from boredom! 
-You are sent a database about the planet and you need to learn how to use SQL 
-commands to help save the Planet of Fun!
+# Misión 1: ¡Salvar al Planeta de la Diversión del Aburrimiento! 
+¡Tu primera misión es ir al Planeta de la Diversión y salvarlo del aburrimiento! Te han enviado una base de datos sobre el planeta y necesitas aprender como usar los comandos SQL para ayudar a salvar el Planeta de la Diversión. 
 
-## Task 1: Take a peek at the information on the Planet of Fun
-You are given information about the Galaxy and want to look for the Planet of Fun. To do this,
- the Galactic Federation has given you your first SQL command: `SELECT`. 
+## Tarea 1: Echa un vistazo a la información sobre el Planeta de la Diversión
+Te han dado información sobre la Galaxia y quieres buscar al Planeta de la Diversión. Para hacer esto, la Federación Galáctica te ha dado tu primer comando SQL:`SELECT`. 
 
 {{% notice info %}}
-### What the command does: 
-The `SELECT` command allows you to choose what data to show from a database.
+### Lo que hace el comando:  
+El comando `SELECT` te permite elegir cuáles datos mostrar de la base de datos. 
 {{% /notice%}}
 
-### Example:
+### Ejemplo:
 
 ![Select](assets/Select.PNG)
 
-### Now use what you learned! 
+### ¡Ahora usa lo que aprendiste! 
 {{% notice tip %}}
-**Drag the blocks into the terminal and rearrange them to answer the question below!**
+**¡Arrastra los bloques a la terminal y reacomodalos para responder la siguiente pregunta!**
 {{% /notice%}}
 
-#### Question: What command will display all the columns in the database called "galaxy"?
+#### Pregunta: ¿Cuál comando muestra todas las columnas en la base datos llamadas "galaxy"?
 
 {{< rawhtml >}}
 <div class="content_scaler">
@@ -94,10 +91,10 @@ The `SELECT` command allows you to choose what data to show from a database.
 
 <!-- Tells User to continue mission -->
 <div class="resume_plot" id="resume_plot" style="visibility:hidden">
-  <p>You found the correct command to display the entire database! This is handy when you want to see all the information at the tip of your fingers!</p>
+  <p> ¡Encontraste el comando correcto para mostrar la base de datos completa! Esto es es útil cuando quieres ver toda la información al alcance de tus dedos.</p>
   <div class="alert">
     <span id="check">&#10003;</span>
-    You've completed the task! Continue to the next mission!
+    Haz completado la tarea. Continua a la siguiente misión.
   </div>
 </div>
 {{< /rawhtml >}}
