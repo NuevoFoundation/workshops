@@ -16,32 +16,26 @@ Click the button below to sign up for a .NET Fiddle account - you will need an e
 
 Next, launch the .NET Fiddle console we will use today by clicking the below button. You should see the screen below.
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/CSharpBasicsTest" target="_blank">Launch Replit</a>
+<a class="my-2 mx-4 btn btn-info" href="https://dotnetfiddle.net/oLKxyN" target="_blank">Launch .NET FIddle</a>
 
-<img src="../images/replit-start-screen.png" height="300" alt="The starting screen of a repl" />
+<img src="../images/dotnetfiddle-launchScreen.png" height="300" alt="The starting screen of a .NET Fiddle" />
 
-We will now *fork* the Repl, which simply means to make a copy of the program, so that we can make our own changes to it. Click on the "Fork Repl" button on the top right, and then the "Fork Repl" button.
-
-<img src="../images/replit-fork.png" height="300" alt="Forking a repl to make a copy of the program" />
+We will now *fork* the Repl, which simply means to make a copy of the program, so that we can make our own changes to it. Click on the "Fork" button on the top.
 
 After forking the Replit, you will see a window similar to the one below:
 
-<img src="../images/replit-window.png" height="300" alt="Replit window" />
+<img src="../images/dotnetfiddle-window.png" height="300" alt=".NET Fiddle window" />
 
 {{% notice warning %}}
-Every time you see the "Launch Replit" button, you will need to follow the above steps to fork the repl in order to complete an activity. Ask for help if you are having trouble with forking the repls!
-{{%/notice %}}
-
-{{% notice note %}}
-The Replit application derives its name after REPL, which stands for Read-Eval-Print-Loop. Many development tools have REPL features.  Replit is a web site that uses this common approach for learning and developing software.
+Every time you see the "Launch .NET Fiddle" button, you will need to follow the above steps to fork the project in order to complete an activity. Ask for help if you are having trouble with forking the projects!
 {{%/notice %}}
 
 *********************************************************
 
-### Using Replit
-Before we start, let's first understand how the window works. On the left side you have a list of files for this repl.  The `main.cs` file contains code, or instructions for the computer to run, which are shown in the middle of the screen when the file is selected. By pressing the **run** button (the green button with the triangle in the middle at the top of the frame), you tell the computer to perform the instructions in the code.  The results from running the code will be displayed on the right side of the screen, under the **Console** tab.
+### Using .NET Fiddle
+Before we start, let's first understand how the window works. On the left side you have a list of options.  These have all been set for you, so you do not need to worry about those.  The center of the screen contains code, or instructions for the computer to run. By pressing the **run** button (the button with the triangle in the middle at the top of the frame), you tell the computer to perform the instructions in the code.  The results from running the code will be displayed on the bottom of the screen.
 
-<img src="../images/replit-overview.png" height="300" alt="Replit Window Layout" />
+<img src="../images/donetfiddle-overview.png" height="300" alt=".NET Fiddle Window Layout" />
 
 ### Some tips on C#
 
