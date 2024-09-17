@@ -1,9 +1,9 @@
 ---
-título: "Actividad 5: Aprende el comando MAX/MIN"
-descripción: "Aprende el comando MAX/MIN"
-fecha: 2020-07-12
-prerequesito: "Comando SELECT, comando WHERE"
-dificultad: "Intermedia"
+title: "Actividad 5: Aprende el comando MAX/MIN"
+description: "Aprende el comando MAX/MIN"
+date: 2020-07-12
+prereq: "Comando SELECT, comando WHERE"
+difficulty: "Intermedia"
 draft: false
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->

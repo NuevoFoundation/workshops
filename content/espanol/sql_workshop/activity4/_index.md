@@ -1,9 +1,9 @@
 ---
-título: "Actividad 4: Activity 4: Selecciona Información Multiple"
-descripción: "Selecciona Información Multiple"
+title: "Actividad 4: Activity 4: Selecciona Información Multiple"
+description: "Selecciona Información Multiple"
 date: 2020-07-13
-prerequesito: "Comando SELECT"
-dificultad: "Principiante"
+prereq: "Comando SELECT"
+difficulty: "Principiante"
 draft: false
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->

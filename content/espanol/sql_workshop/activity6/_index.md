@@ -1,9 +1,9 @@
 ---
-título: "Actividdad 6: Utiliza Comparadores"
-descripción: "Utiliza Comparadores"
-fecha: 2020-07-11
-prerequesito: "Comando SELECT, comando WHERE"
-dificultad: "Intermedio"
+title: "Actividdad 6: Utiliza Comparadores"
+description: "Utiliza Comparadores"
+date: 2020-07-11
+prereq: "Comando SELECT, comando WHERE"
+difficulty: "Intermedio"
 draft: false
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->

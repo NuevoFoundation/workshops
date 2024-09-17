@@ -1,9 +1,9 @@
 ---
-título: "Actividad 3: Aprended el comando COUNT"
-descripción: "Aprende el comando COUNT"
-fecha: 2020-07-14
-prerequisito: "Comando SELECT"
-dificultad: "Principiante"
+title: "Actividad 3: Aprended el comando COUNT"
+description: "Aprende el comando COUNT"
+date: 2020-07-14
+prereq: "Comando SELECT"
+difficulty: "Principiante"
 draft: false
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->
