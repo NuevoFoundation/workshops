@@ -2,6 +2,9 @@ name: Auto Translation
 
 on:
   push:
+    branches:
+      - master
+      - translation-submodule
     paths:
       - content/english/**
 
