@@ -115,7 +115,7 @@ El comando `WHERE` te permite solo mostrar los datos que tu quieres.
 </table>
 
 <div id="text" style="visibility:hidden">
-<h3> Ahora que sabes donde esta el Planeta de la Diversión, podemos encontrar mas información sobre este e ignorar a otros planetas.  that you know where the Planet of Fun is, we can find more information about it and ignore the other planets. ¡Vamos al Planeta de la Diversión! </h3>
+<h3> Ahora que sabes donde esta el Planeta de la Diversión, podemos encontrar mas información sobre este e ignorar a otros planetas. ¡Vamos al Planeta de la Diversión! </h3>
 </div>
 
 <img src="" id="gps">
