@@ -1,0 +1,3 @@
+[submodule "translation-tool"]
+	path = translation-tool
+	url = https://github.com/NuevoFoundation/WorkshopsAutoTranslation
