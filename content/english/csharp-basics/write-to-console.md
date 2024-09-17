@@ -33,7 +33,7 @@ Let's try printing other things. Add some additional lines of code to:
 Sometimes we want to write on the same like. We use a slightly different code `Console.Write` instead of `Console.WriteLine`.
 
 Add two lines of code:
-```c#
+```csharp
 Console.Write("I like to eat ");
 Console.Write("apples.");
 ```
@@ -52,5 +52,7 @@ If you type `Console.WriteLine(""");`, you will get an error because the compute
 
 Instead, certain characters need to be <b>escaped</b> by adding a `\` in front of it.
 
-     `Console.Writeline("\"");`  // this prints out "
+```csharp
+Console.Writeline("\"");`  // this prints out "
+```
 {{% /notice %}}
