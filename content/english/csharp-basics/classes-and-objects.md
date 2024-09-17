@@ -1,13 +1,13 @@
 ---
 title: "Classes and Objects"
 description: "Introduce classes and objects in C#."
-date: 2023-09-13T00:00:00Z
+date: 2024-09-16T00:00:00Z
 weight: 8
 ---
 
 ## What is an Object and what is a Class?
 
-An object is an thing (noun) that has certain characteristics and can perform certain tasks. A Class is the blueprint or definition for that object when it is created.
+An Object is a thing (noun) that has certain characteristics and can perform certain tasks. A Class is the blueprint or definition for that object when it is created.
 
 An example is a Person. A Person is a kind of Class. A person can have certain characteristics that distinguish it from another person. It can have blue eyes, it can be 15 years old, etc. A person can also perform certain tasks. It can walk, it can talk, etc.
 
@@ -28,7 +28,7 @@ Console.WriteLine("Hello World");
 
 Another built-in class we have interacted with in the previous exercises is `string`. The `string` class defines a set of rules on how a list of characters should behave.
 
-With following line of code, we created a `string` object called `name` using the rules defined in the `string` class:
+With the following line of code, we created a `string` object called `name` using the rules defined in the `string` class:
 
 ```c#
 string name = "Patrick";
@@ -42,10 +42,6 @@ Let's learn about the different parts in a class below:
 ### Class
 A class is a blueprint or prototype of a new type of object. In general, a class contains three important parts: 
 
-* data fields/instance variables 
-* constructor 
-* methods
-
 <img src="../images/class.png" height="400" alt="A Class blueprint for an object contains instance varialbes/data fields which are data/attributes in the object, constructor which are methods that creates the obejct of the class, and methods, which are behaviors possible for the object."/> 
 
 **Element** | **Description** | **Example**
@@ -57,16 +53,33 @@ A class is a blueprint or prototype of a new type of object. In general, a class
 For example:
 
 ```c#
-public class SampleClass{
+public class Person{
     // (1) data fields/instance variables
     private String name; // example
+    private int age;
+    private int height;
 
     // (2) constructor - constructors have the same name as the class
-    public SampleClass(){
-        name = "example";
+    public Person()
+    {
+        name = "Bea";
+        age = 29;
+        height = 167;
     }
+
+    // (2) constructor - you can have more than one
+    public Person( String nameInput, int ageInput, int heightInput)
+    {
+        name = nameInput;
+        age = ageInput;
+        height = heightInput;
+    }
+
     // (3) methods
-    public sampleMethod(){}
+    public void talk()
+    {
+        Console.WriteLine($"Hello from {name}");
+    }
 }
 ```
 
@@ -89,9 +102,9 @@ public class Bird{}
 
 ### Second, let's declare all the fields of the Bird class: species, name, hobby, age, loveMusic.
 
-Each field is declared in the format: `private` `data type` `name` `;`.
+Each field is declared in the format: `access specifier` `data type` `name` `;`.
 
-1. We declare all 5 fields as `private` in the class `Bird`. This ensures these data can only be accessed within this class.
+1. We declare all 5 fields as `private` in the class `Bird`. This ensures these fields can only be accessed within this class.
 
 2. Let's identify the appropriate type for each field:
 
@@ -207,7 +220,7 @@ Try it out yourself and create multiple Birds of different species 🐦🐤🐔�
 Next, let's call the `ToString()` method on these `Bird` objects we created to print the information of our friends. You can do either of the following:
 
 1. Print the return value of `ToString()` method. (i.e. `Console.WriteLine(patrick.ToString());`)
-2. Directly print the `Bird` object, which prompt `ToString()` to be called in the background. (i.e. `Console.WriteLine(patrick);`).
+2. Directly print the `Bird` object, which prompts `ToString()` to be called in the background. (i.e. `Console.WriteLine(patrick);`).
 
 Try it out and print out all the information of the bird friends you created 🐦🐤🐔🐧!
 
