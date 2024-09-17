@@ -1,20 +1,20 @@
 ---
-title: "Using Replit"
-date: 2023-09-12T00:00:00Z
+title: "Using .NET Fiddle"
+date: 2024-09-17T00:00:00Z
 weight: 1
 draft: false
 ---
 
-## Sign up and Launch Replit
+## Sign up and Launch .NET Fiddle
 
-Today you will be using Replit to learn how to code in C#. Before starting, you will need to sign up for a Replit account, if you do not yet have one. 
+Today you will be using .NET Fiddle to learn how to code in C#. Before starting, you will need to sign up for a .NET Fiddle account, if you do not yet have one. 
 
-Click the button below to sign up for a Replit account - you will need an email account in order to sign up. If you already have a Replit account, you can login to your account using the below button as well.
+Click the button below to sign up for a .NET Fiddle account - you will need an email account in order to sign up. If you already have a .NET Fiddle account, you can login to your account using the below button as well.
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/signup" target="_blank">Sign up for Replit</a>
-<img src="../images/replit-signup.png" height="300" alt="Replit sign up form" />
+<a class="my-2 mx-4 btn btn-info" href="https://dotnetfiddle.net/SignUp" target="_blank">Sign up for .NET Fiddle</a>
+<img src="../images/dotnetfiddle-signup.png" height="300" alt=".NET Fiddle sign up form" />
 
-Next, launch the Replit console we will use today by clicking the below button. You should see the screen below.
+Next, launch the .NET Fiddle console we will use today by clicking the below button. You should see the screen below.
 
 <a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/CSharpBasicsTest" target="_blank">Launch Replit</a>
 
