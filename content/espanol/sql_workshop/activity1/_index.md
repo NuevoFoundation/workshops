@@ -84,7 +84,7 @@ El comando `SELECT` te permite elegir cuáles datos mostrar de la base de datos.
 
 <!-- Hidden SQL database will appear once correct sequence is placed -->
 <div style="clear: both;"></div> 
-<h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT</strong></h1>
+<h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR ENTRADA INVÁLIDA</strong></h1>
 <table id="table">
   <tr></tr>
 </table>

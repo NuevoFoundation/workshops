@@ -56,7 +56,7 @@ Puedes ver la base de datos completa utilizando el comando `SELECT * FROM [datab
   <div class="content_scaler">
     <div class="terminal_div" id="terminal_div">
       <div class = "outer">
-        <h3 id = "commands" contenteditable="true" onclick="placeholder()">Type command here!</h3>
+        <h3 id = "commands" contenteditable="true" onclick="placeholder()">Escribe el comando aquí</h3>
       </div>
       <div class = "prev">
         <h3 id = "prev"></h3>
@@ -64,11 +64,11 @@ Puedes ver la base de datos completa utilizando el comando `SELECT * FROM [datab
         <div style="clear: both;"></div> 
       <button class="button button1" onclick="sql()"> Enter </button>
       <div style="clear: both;"></div> 
-      <button class = "button reset" onclick="reset()">Reset</button>
+      <button class = "button reset" onclick="reset()">Reiniciar</button>
     </div> <!-- terminal_div -->
   </div> <!-- content_scaler -->
   <div style="clear: both;"></div> 
-  <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
+  <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR ENTRADA INVÁLIDA</strong></h1>
   <table id="table">
     <tr>
     </tr>
