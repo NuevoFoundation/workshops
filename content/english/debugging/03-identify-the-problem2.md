@@ -5,20 +5,20 @@ weight: 4
 draft: false
 ---
 
-## Print Statements
+## Runtime Errors
 
-Compiler errors are one thing, but runtime errors and bugs are another. While the compiler can easily tell you where to look, runtime bugs are caused by how your program executes. We need to understand what the program is doing when the bug happens:
+Compiler errors are one thing, but **runtime errors and bugs** are another. While the compiler can easily tell you where to look, runtime bugs are caused by how your program executes. We need to understand what the program is doing when the bug happens:
 - What variables are being used?
 - Which instruction is being called? 
 - Is there a missing statement we needed?
 
-In smaller applications, we can use print statements in the code to quickly figure out the program’s running state. Print statements are a quick and dirty way to look into a program as it’s running, and with luck, you’ll be able to find what’s causing the bug without much struggle.
+In smaller applications, we can use **print statements** in the code to quickly figure out the program’s running state. Print statements are a quick and dirty way to look into a program as it’s running, and with luck, you’ll be able to find what’s causing the bug without much struggle.
 
 ## Binary Search
 
 One of the simpler algorithms you will learn or have learned is binary search, which lets you search for an item in a sorted list in logarithmic time. The idea is to check the middle of the sorted list and see if it matches the element we want; if we find the element, the algorithm is finished. If the element is higher, we search the upper half of the list. Otherwise, we search the lower half of the list. We repeat the process until we find the item we are searching for.
 
-|![Searching for number 7 in an ordered list of 10 numbers using Binary Search](../resources/binary_search.svg)|
+|![Searching for number 7 in an ordered list of 10 numbers using Binary Search](../resources/binary_search.svg "A tree showing the search process of finding the number 7 in an ordered list of numbers 1 through 10 using Binary Search")|
 |:--:|
 |Searching for number **7** in an ordered list of **10** numbers using Binary Search|
 
@@ -38,7 +38,7 @@ Run the program like so:
 
 You should see a list of names and their numbers in a list. Search Emily by typing 6 on the prompt and click `Enter`.
 
-|![Searching for Amy](../resources/debugging_process_searching_for_amy.svg)|
+|![Searching for Amy](../resources/debugging_process_searching_for_amy.svg "A screenshot of a console that shows a list of names and their associated numbers. 'Number: 5, Name: Amy' is highlighted.")|
 |:--:|
 |Searching for Amy.|
 
@@ -71,7 +71,7 @@ Placing `print` statements across your code is a dirty but sometimes effective w
 
 {{% expand "***Hint 1: What makes the problem we are trying to solve smaller?***" %}} 
 - Try placing the print statement after the `middle` variable on the `rbinary_search` function to see how the `lo`, `hi` and `middle` values are changing. Go ahead and search something. 
-|![Placing print statement to check values "lo", "hi" and "middle".](../resources/debugging_process_print_statement.svg)|
+|![Placing print statement to check values "lo", "hi" and "middle".](../resources/debugging_process_print_statement.svg "Screenshot of code that adds a print statement to line 17. The print statement prints out the values of 'lo', 'hi', and 'middle'.")|
 |:--:|
 |Placing print statement to check values `lo`, `hi` and `middle`.|
 
@@ -83,11 +83,11 @@ The recursive call for searching on the lower half of the array is searching on 
 
 To fix it, the `lo` and `hi` arguments of the `rbin_search()` need to be `lo` and `middle-1`.
 
-|![Fixing lower half recursive call.](../resources/debugging_process_fixing_lowerhalf_search.svg)|
+|![Fixing lower half recursive call.](../resources/debugging_process_fixing_lowerhalf_search.svg "Screenshot of code that highlights line 24 which reads 'return rbin_search(arr, lo, middle-1, element);'")|
 |:--:|
 |Fixing lower half recursive call.|
 
-|![Looking how the "lo", "hi" and "middle" variables change when searching for Becky.](../resources/debugging_process_searching_for_becky.svg)|
+|![Looking how the "lo", "hi" and "middle" variables change when searching for Becky.](../resources/debugging_process_searching_for_becky.svg "Screenshot of the console that shows a list of people plus the debugging print statements that show how the values of 'lo', 'hi', and 'middle' change.")|
 |:--:|
 |Looking how the "lo", "hi" and "middle" variables change when searching for Becky.|
 

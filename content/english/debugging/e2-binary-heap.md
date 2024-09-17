@@ -15,7 +15,7 @@ In addition to this structural constraint, it follows the heap ordering property
 
 The following is an example of a max binary heap, which is the type of heap we'll focus on in this exercise.
 
-![Binary Heap Example](../resources/e2-01.png)
+![Binary Heap Example](../resources/e2-01.png "Max binary heap example")
 
 You can see that every node has 2 or no children, except the node on the farthest right. The nodes are filled in from left to right before starting a new row. All children are smaller than their parent.
 
@@ -25,7 +25,7 @@ Duplicates are easily handled in this scheme. We'd need to maintain that all chi
 
 We can use an array to represent this data structure. A node i can be accessed by its index, i. To access its left child, multiply by 2. To access its right child, multiply by 2 and add 1. The following diagram illustrates this:
 
-![Binary Heap Array](../resources/e2-02.png)
+![Binary Heap Array](../resources/e2-02.png "Image of a binary heap and its corresponding array")
 
 ### Adding to a binary heap
 
@@ -36,7 +36,7 @@ The diagram below illustrates this process for adding `34` to the example binary
 2. We then compare with its parent (blue arrow), and find that `34 > 19`. Thus, we swap the two nodes.
 3. In step 2, we compare with `85`, and find that `34 < 85`, which indicates that we're done.
 
-![Binary Heap Add](../resources/e2-03.png)
+![Binary Heap Add](../resources/e2-03.png "Illustrating the process of adding to a binary heap")
 
 ### Removing the Max from the Heap
 
@@ -50,7 +50,7 @@ The diagram below shows how a max removal occurs.
 3. We repeat the process for step 2. We find `28` is the larger of the 2 children, and since `12 < 28` we swap again.
 4. We finally reach a stable position for step 3.
 
-![Binary Heap Removal](../resources/e2-04.png)
+![Binary Heap Removal](../resources/e2-04.png "Illustrating the process of removing the max from a binary heap")
 
 ## The Implementation
 

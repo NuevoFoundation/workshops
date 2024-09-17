@@ -13,7 +13,7 @@ A binary tree consists of many nodes that are linked together. Each node has a p
 
 In a **rooted** binary tree, one node is specified as a root, meaning it has no parent. In the diagram below, node A is the parent of nodes B and C. Likewise, B is the parent  of D and E. A is the root, and D, E, F and G are leaves.
 
-![Binary Tree Basics](../resources/e1-01.png) 
+![Binary Tree Basics](../resources/e1-01.png "Binary Tree graph with labels pointing at the root, leaves, parent, and left and right children.") 
 
 The binary tree is a recursive data structure. Each node can contain 0-2 children, and 1 parent. We can limit ourselves to looking at a specific subtree of the original binary tree without worrying too much about the entire tree as a whole, and that subtree is a valid binary tree on its own.
 
@@ -26,7 +26,7 @@ We can use a binary tree to store information about a list's ordering. Each node
 
 The following diagram shows an example binary tree. Notice that the left children are all smaller than its parent, while the right children are larger. Besides this tree ordering property, can see that there is no strict requirement on the shape of the tree.
 
-![Binary Tree Example 1](../resources/e1-02.png) 
+![Binary Tree Example 1](../resources/e1-02.png "An example binary tree where the left children are all smaller than its parent, while the right children are larger.") 
 
 ### Adding to a Binary Tree
 
@@ -34,7 +34,7 @@ To add an element, we need to find where it fits in the tree. To do this, we wil
 
 We can repeat this process again, until we find a node that can be the new element's parent. The diagram below illustrates adding 7 to a binary tree.
 
-![Binary Tree Add](../resources/e1-03.png)
+![Binary Tree Add](../resources/e1-03.png "Diagram illustrating the process of adding 7 to a binary tree.")
 
 1. In step 1 (blue), we compare `10` and `7`. Since `7 < 10`, we proceed down the left child.
 2. In step 2 (green), we compare `5` and `7`. `7 > 5`, so we proceed down its right child, only to find that `5` has no right child! Thus, we can insert `7` into that spot.
@@ -48,7 +48,7 @@ The diagram below shows how to remove elements in several cases. Dotted lines in
 - In the second case, the node has 1 child on the left or the right. We can slide the child up to this node's former spot. This works for both the left and right side.
 - The the third case, the node has 2 children. There are a few ways to go about this, but the way we'll use is to take the smallest element of the right subtree and insert it into the "hole" that we'll make. If that element has a right child (the green node), we need to slide that node up, so its former parent (orange) becomes that child's parent.
 
-![Binary Tree Removal](../resources/e1-04.png)
+![Binary Tree Removal](../resources/e1-04.png "Diagram illustrating the 3 cases of removing an element from a binary tree.")
 
 The third case is tricky to get correct because of the number of edge cases that exist. For instance, the smallest value of the right subtree could be the right child itself. Or, the min child could contain no right child.
 
