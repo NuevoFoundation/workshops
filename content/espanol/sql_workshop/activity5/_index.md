@@ -16,7 +16,6 @@ draft: false
 <script type="text/javascript" src="../default/alasql.js"></script>
 <script type="text/javascript" src="../default/db.js"></script>
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/VPMZedGI-Ww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ## Tarea 5: Encuentra la escalera más alta para llegar con su Líder
 

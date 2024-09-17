@@ -17,7 +17,6 @@ draft: false
 <script type="text/javascript" src="../default/_type.js"></script>
 <script type="text/javascript" src="_activity2.js"></script>
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/FZnnkNVn0Ok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ## Tarea 2: ¡Viaja al Planeta de la Diversión!
 

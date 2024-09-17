@@ -16,7 +16,7 @@ draft: false
 <script type="text/javascript" src="../default/_default.js"></script>
 <script type="text/javascript" src="../default/_type.js"></script>
 <script type="text/javascript" src="_activity1.js"></script>
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/hUTKI3AHJ1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 
 # Misión 1: ¡Salvar al Planeta de la Diversión del Aburrimiento! 
 ¡Tu primera misión es ir al Planeta de la Diversión y salvarlo del aburrimiento! Te han enviado una base de datos sobre el planeta y necesitas aprender como usar los comandos SQL para ayudar a salvar el Planeta de la Diversión. 

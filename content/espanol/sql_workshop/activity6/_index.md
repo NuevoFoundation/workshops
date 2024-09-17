@@ -16,7 +16,6 @@ draft: false
 <script type="text/javascript" src="_activity6.js"></script>
 <script type="text/javascript" src="../default/db.js"></script>
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/WeTYg1YnbHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 
 ## Tarea 6: Encuentra el Tótem Lengedario de la Diversión, el Cañón de Confeti  
