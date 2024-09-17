@@ -17,9 +17,6 @@ draft: false
 <script type="text/javascript" src="../default/db.js"></script>
 <script type="text/javascript" src="_activity7.js"></script>
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/H9BWcnE2a6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-
-
 ## Tarea 7: Encuentra la llave para conseguir el Cañón de Confeti.
 
 Encontraste la ubicación del Legendario Cañon de Confeti pero está encerrado detrás de una puerta de titanio y solo puede ser abierta con la llave más pequeña del planeta.

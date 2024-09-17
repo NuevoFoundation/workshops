@@ -17,9 +17,6 @@ draft: false
 <script type="text/javascript" src="_activity9.js"></script>
 <link rel="stylesheet" href="_activity9.css" type="text/css"></link>
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/XLm2T6XBltg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-
-
 ## Tarea 9: Desbloquea la Mesa de Buffet Infinito:
 
 ¡Haz descubirto la ubicación de la Mesa de Buffet Infinito! Sin embargo, está encerrada detrás de una puerta que sólo se abre si encuentras el número secreto.

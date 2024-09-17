@@ -16,7 +16,6 @@ draft: false
 <link rel="stylesheet" href="_activity11.css" type="text/css"></link>
 <script type="text/javascript" src="_activity11.js"></script>
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/WXoQP79SPsg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ## Fiesta con los habitantes! 
 
