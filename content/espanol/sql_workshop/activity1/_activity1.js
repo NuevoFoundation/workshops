@@ -25,6 +25,6 @@ function check()
         hide_boxes();
     } else {
     // If incorrect, give alert
-      alert("Try Again, Space Cadet!");
+      alert("Inténtalo de nuevo, Cadete Espacial.");
     }
 }

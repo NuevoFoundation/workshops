@@ -39,10 +39,10 @@ function sql()
     var checkmark = document.getElementById("resume_plot");
     checkmark.setAttribute("style","visibility:visible");
     
-    document.getElementById("story").innerHTML = "Oh no! You discover that the inhabitants are being invaded by the aliens from the planet Boredom. Press next to continue.";
+    document.getElementById("story").innerHTML = "¡Oh no! Haz descubierto que los habitantes están siendo invadidos por aliens del planeta Aburrimiento. Haz click en Siguiente para continuar.";
   }
   else
   {
-    document.getElementById("story").innerHTML = "Not quite the right command. Keep trying!";
+    document.getElementById("story").innerHTML = "El comando no es correcto. ¡Sigue intentando!";
   }
 }

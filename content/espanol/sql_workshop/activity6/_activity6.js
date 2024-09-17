@@ -17,7 +17,7 @@ function check()
 function sql() 
 {
   clearTable();
-  document.getElementById("sqlcommand").innerHTML = "ERROR INVALID INPUT";
+  document.getElementById("sqlcommand").innerHTML = "ERROR ENTRADA INVÁLIDA";
   document.getElementById("sqlcommand").style.visibility="visible";
 
   var user = document.getElementById("commands").innerHTML;
@@ -73,11 +73,11 @@ console.log(input);
   if(input == ans1 || input == ans2)
   {
     green(input);
-    document.getElementById("story").innerHTML = "Nice job! You found the location of the Legendary Totem of Fun: Confetti Cannon!";
+    document.getElementById("story").innerHTML = "¡Buen trabajo! Encontraste la ubicación del Tótem Lengendario del planeta Diversión: El Cañón de Confeti";
     check();
   }
   else
   {
-    document.getElementById("story").innerHTML = "Not quite the right command. Keep trying!";
+    document.getElementById("story").innerHTML = "El comando no es correcto. ¡Sigue intentando!";
   }
 }

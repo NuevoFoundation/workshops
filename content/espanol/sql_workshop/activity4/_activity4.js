@@ -1,7 +1,7 @@
 function sql()
 {
   clearTable();
-  document.getElementById("sqlcommand").innerHTML = "ERROR INVALID INPUT";
+  document.getElementById("sqlcommand").innerHTML = "ERROR ENTRADA INVÁLIDA";
   document.getElementById("sqlcommand").style.visibility="visible";
 
   var user = document.getElementById("commands").innerHTML;
@@ -39,10 +39,10 @@ function sql()
     var checkmark = document.getElementById("resume_plot");
     checkmark.setAttribute("style","visibility:visible");
     
-    document.getElementById("story").innerHTML = "Amazing work as always, space cadet! You discovered that the Planet of Fun's Leader is Olivia Windsor! Now you need to figure out a way to get to them!";
+    document.getElementById("story").innerHTML = "¡Increíble trabajo, como siempre, Cadete Espacial! Haz descubierto que la líder del Planeta de la Diversión es Olivia Windsor. Ahora tienes que averiguar cómo llegar a ella";
   }
   else
   {
-    document.getElementById("story").innerHTML = "Not quite the right command. Keep trying!";
+    document.getElementById("story").innerHTML = "El comando no es correcto. ¡Sigue intentando!";
   }
 }

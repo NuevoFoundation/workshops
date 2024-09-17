@@ -12,7 +12,7 @@ function drop(ev) {
   
   // Check if correct ladder is chosen
   if(div_num == "div4" && data == "drag1") {
-    alert("You found the correct ladder! Go talk to the Leader!");
+    alert("¡Encontraste al líder correcto! Ve y habla con ella.");
   
     //Display next mission prompt
     var display1 = document.getElementById("text1");
@@ -43,7 +43,7 @@ function drop(ev) {
 function sql() 
 {
   clearTable();
-  document.getElementById("sqlcommand").innerHTML = "ERROR INVALID INPUT";
+  document.getElementById("sqlcommand").innerHTML = "ERROR ENTRADA INVÁLIDA";
   document.getElementById("sqlcommand").style.visibility="visible";
 
   var user = document.getElementById("commands").innerHTML;
@@ -80,7 +80,7 @@ function sql()
 if(input == ans1 || input == ans2 || input == ans3 || input == ans4 || input == ans5 || input == ans6 || input == ans7)
   {
     green(user);
-    document.getElementById("story").innerHTML = "Excellent work Space Cadet! Now you need to figure out a way to get to the Leader!";
+    document.getElementById("story").innerHTML = "Excelente trabajo, Cadete Espacial. Ahora tienes que averiguar cómo acercarte al Líder";
     
     // Changes terminal screen
     var screen = document.getElementById("terminal_div");

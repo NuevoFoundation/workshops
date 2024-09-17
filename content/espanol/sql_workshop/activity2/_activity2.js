@@ -168,6 +168,6 @@ function check(){
     document.getElementById("planet").src="assets/Show_Planet.png";
     document.getElementById("gps").src="assets/GPS.png";
   } else {
-    alert("Try Again, Space Cadet!");
+    alert("Inténtalo de nuevo, Cadete Espacial.");
   }
 }
