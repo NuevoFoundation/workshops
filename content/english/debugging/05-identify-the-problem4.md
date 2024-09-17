@@ -40,7 +40,7 @@ Now instead of using gdb, use valgrind to check how memory is allocated and used
 valgrind --tool=memcheck --leak-check=full examples/Vector
 ```
 
-It should be apparent valgrind caught some errors, perhaps related to the double free (notice the `ERROR SUMMARY` at the bottom has a few errors detected!).
+It should be apparent that valgrind caught some errors, perhaps related to the double free (notice the `ERROR SUMMARY` at the bottom has a few errors detected!).
 
 Let's take a look at some of the errors.
 

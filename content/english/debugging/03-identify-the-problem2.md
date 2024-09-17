@@ -16,7 +16,7 @@ In smaller applications, we can use **print statements** in the code to quickly 
 
 ## Binary Search
 
-One of the simpler algorithms you will learn or have learned is binary search, which lets you search for an item in a sorted list in logarithmic time. The idea is to check the middle of the sorted list and see if it matches the element we want; if we find the element, the algorithm is finished. If the element is higher, we search the upper half of the list. Otherwise, we search the lower half of the list. We repeat the process until we find the item we are searching for.
+One of the simpler algorithms you will learn or have learned is **binary search**, which lets you search for an item in a sorted list in logarithmic time. The idea is to check the middle of the sorted list and see if it matches the element we want; if we find the element, the algorithm is finished. If the element is higher, we search the upper half of the list. Otherwise, we search the lower half of the list. We repeat the process until we find the item we are searching for.
 
 |![Searching for number 7 in an ordered list of 10 numbers using Binary Search](../resources/binary_search.svg "A tree showing the search process of finding the number 7 in an ordered list of numbers 1 through 10 using Binary Search")|
 |:--:|
@@ -95,4 +95,4 @@ Run your program again and search for a number below `5` and see how the `lo`, `
 {{% /expand %}}
 <br/>
 
-Print statements are not the best tool to use when the program complexity grows. They are extremely inefficient and if a programmer forgets to remove them, someone else (e.g. a user running your program) might see the print statements.  Only use print statements in isolated sections of your code and **ALWAYS** remember to remove them 🙂.
+Print statements are not the best tool to use when the program complexity grows. They are extremely inefficient and if a programmer forgets to remove them, someone else (e.g. a user running your program) might see the print statements. Only use print statements in isolated sections of your code and **ALWAYS** remember to remove them 🙂.

@@ -9,6 +9,8 @@ You’ve implemented the fix(es) for your bug(s). Naturally, the first thing you
 
 In testing you already know or have a good idea of where the bug will occur, and so in your tests you’ll want to intentionally run that code to make sure that code is correct. Testing is so important that a whole software development methodology revolves around it (test-based development)!
 
+Sometimes fixing a bug may introduce another bug, which is called a _regression_. It's very normal to sometimes have multiple iterations of bug fixes!
+
 ## Unit Tests
 Always start small with your tests. This idea is taken from scientific experiments: if you reduce the number of factors (independent variables) that are in play, you can narrow down the cause more easily. These are called unit tests. Rather than testing if the entire program or part works, a unit test looks at a specific part. A unit test could call one function that does not call other functions to see if it outputs the correct/expected value.
 
@@ -17,4 +19,4 @@ For example, let's say you have a calculator app that can add, subtract, multipl
 ## Integration Tests
 Only once your unit tests have succeeded should you start integration tests. Integration tests look at how multiple components of your program work together to see if they output the correct/expected value. An integration test could call a function that calls many other functions, or affects many different parts of the program.
 
-Just because your unit tests work doesn’t mean your integration tests work. You could write an integration test for your calculator app by testing a series of arithmetic operations, such as performing addition then multiplication and checking the result.
+Just because your unit tests work doesn’t mean your integration tests work. You could write an integration test for your calculator app by testing a series of arithmetic operations, such as performing addition and then multiplication, and checking the result.

@@ -1,7 +1,7 @@
 ---
 title: "Exercise 3 - The Burrows-Wheeler Transform"
 difficulty: "Intermediate"
-weight: 101
+weight: 11
 draft: false
 ---
 
@@ -43,7 +43,7 @@ We've implemented the suffix array and with it the Burrows-Wheeler transform. Ho
 The null terminator character can mess up how you print your strings. In this exercise, you have to print out the transformed string character by character, because the null terminator character will cause the `printf` function to stop printing after it finds it. The following code will print out the result of calling `bwt(dest, src)`, where `STR_LEN` is the static length of the string **including the null terminator**.
 ```c
 for(int i = 0; i < STR_LEN; ++i) {
-	printf("%c", dest[i]);
+    printf("%c", dest[i]);
 }
 ```
 Note that `strlen()` returns the length of the string, without the null terminator.

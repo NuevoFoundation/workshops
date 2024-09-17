@@ -15,11 +15,11 @@ To fix a program that exhibits strange behavior, the first place to look is to s
 
 The most important thing is to find the correct questions to ask yourself as you debug. *Rubber duck coding* involves the programmer talking aloud to a rubber duck, and being able to hear yourself explain what you are doing can catch erroneous errors.
 
-Unfortunately, fixing an error is oftentimes extremely specific to the program. It is difficult to offer more than general suggestions.
+Unfortunately, fixing an error is often extremely specific to the program. It is difficult to offer more than general suggestions.
 
 {{% notice note %}}
-There are many tools you can use to help figure out a problem - <i>linters</i> are available for most languages and can catch syntax errors like formatting issues, missing brackets, and misspelled keywords.
+There are many tools you can use to help figure out a problem - _linters_ are available for most languages and can catch syntax errors like formatting issues, missing brackets, and misspelled keywords.
 
-With the advancement of artificial intelligence (AI), tools like Github Copilot can also help suggest fixes for your errors. But, remember that AI responses can be incorrect so use your best judgement!
+With the advancement of artificial intelligence (AI), tools like Github Copilot can also help suggest fixes for your errors. But, remember that AI responses can be incorrect, so use your best judgement!
 
 {{% /notice %}}
