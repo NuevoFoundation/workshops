@@ -1,7 +1,7 @@
 ---
 title: "Control Structures"
 description: "Introduce if-else, for, and while loops in C#."
-date: 2022-09-12T00:00:00Z
+date: 2024-09-16T00:00:00Z
 weight: 6
 ---
 
@@ -65,7 +65,7 @@ An **if-else statement** follows the structure shown above. If the boolean expre
 The code above will print the statement `I like Music` because the boolean expression, `likeMusic == true`, is true.
 {{% /notice %}}
 
-Let's revisit the greating example above, and make decision for Patrick on whether to say "Good Morning," "Good Afternoon," "Good Night". 
+Let's revisit the greeting example above, and make decision for Patrick on whether to say "Good Morning," "Good Afternoon," "Good Night". 
 
 Patrick should say "Good Morning" between 0:00 - 11:59, "Good Afternoon" between 12:00 - 19:59, and "Good Night" between 20:00 - 23:59.
 
@@ -138,15 +138,15 @@ for(int number = 1; number <= 10; number = number + 1){
 
 {{% /notice %}}
 
-After learning about `for` loops and `while` loops, let's see how do we help Patrick 🐥 and calculate **1 + 2 + 3 + 4 ... + 99 + 100**  easily?
+After learning about `for` loops and `while` loops, let's see how do we help Patrick 🐥 calculate **1 + 2 + 3 + 4 ... + 99 + 100** easily?
 
-Let's try to do it in a while loop:
+Let's try to do it in a `while` loop:
 
 1. We have a variable called `total` that tracks the total addition sum we get so far.
 2. We have a variable called `num` that tracks the next number to be added to `total`.
 3. Write out the appropriate `boolean expression` and write out the while loop.
 
-By following those step we will get a while loop like this:
+By following those step we will get a `while` loop like this:
 
 ```C#
 int total = 0;
@@ -158,6 +158,6 @@ while(num <= 100){
 Console.WriteLine("Answer calculated in a while loop: " + total);
 ```
 
-Test this out below by clicking `Run` and write a for loop version that calculates the same thing! You should get the same answer!
+Test this out below by clicking `Run` and write a `for` loop version that calculates the same thing! You should get the same answer!
 
 <a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/CSharpBasicsLoops" target="_blank">Launch Replit</a>

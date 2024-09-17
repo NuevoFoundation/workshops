@@ -1,7 +1,7 @@
 ---
 title: "Write to the Console"
 description: "Introduce print methods in C#."
-date: 2021-10-13T00:00:00Z
+date: 2024-09-16T00:00:00Z
 weight: 2
 ---
 
@@ -15,15 +15,7 @@ Launch the repl and fork it. Give it a try by pressing the **run** button.  The 
 
 <a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/CSharpBasicsHelloWorld" target="_blank">Launch Replit</a>
 
-Note that all your code must be between the two braces:
-
-```c#
-public static void Main (string[] args) {
-     //your code here
-}
-```
-
-### Let's write come code!
+### Let's write some code!
 
 Add a new line of code below the first line to print "Hello *your name*".  It should look something like this.
 
@@ -41,7 +33,7 @@ Let's try printing other things. Add some additional lines of code to:
 Sometimes we want to write on the same like. We use a slightly different code `Console.Write` instead of `Console.WriteLine`.
 
 Add two lines of code:
-```c#
+```csharp
 Console.Write("I like to eat ");
 Console.Write("apples.");
 ```
@@ -60,5 +52,7 @@ If you type `Console.WriteLine(""");`, you will get an error because the compute
 
 Instead, certain characters need to be <b>escaped</b> by adding a `\` in front of it.
 
-     `Console.Writeline("\"");`  // this prints out "
+```csharp
+Console.Writeline("\"");`  // this prints out "
+```
 {{% /notice %}}
