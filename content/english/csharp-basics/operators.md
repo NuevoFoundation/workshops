@@ -42,7 +42,7 @@ The following are the arithmetic operators in C#:
 {{% /notice %}}
 
 {{% notice tip %}}
-Add (`+`) operator is used on Strings as a concatenation operator. For example:
+The add (`+`) operator is used on Strings as a concatenation operator. For example:
 
 `String name = "Patric" + "k";` is same as `String name = "Patrick";`
 {{% /notice %}}
