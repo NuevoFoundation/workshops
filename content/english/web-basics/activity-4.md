@@ -16,8 +16,6 @@ JavaScript is a programming language often used to make websites interactive and
 
 <img src="../media/clickingButton.png" alt="image of clicking a button" width="200" height="200">
 
-<!-- ![alt text](../media/clickingButton.png "image of clicking a button") -->
-
 We'll cover the very basics to get your started.
 
 Similar to CSS, JS files work closely with HTML tags to select different items on the page.
@@ -47,9 +45,11 @@ With a little practice, JavaScript can enable you to do almost anything you want
 
 You might've noticed in the example, we added a new button "Pet Benji" next to our image of Benji. When you click on it, it adds an alert on the screen that says "Thanks for the pets!" and adds a message from Benji to the page. How did we do that?
 
+![alt text](../media/alert.png "image of alert")
+
 - We added a new HTML element with the unique id `"pet-button"` to the HTML `<button id="pet-button">Pet Benji</button>`
 - We added an empty HTML element with the unique id `"message"` to the HTML `<div id="message"></div>`
-- Then, in the JS, we used `document.querySelector("#pet-button")` to find the element with id `"pet-button"`, and added a click event listener that calls the `alert` function with the message `"Thanks for the pets!"`
+- Then, in the JS, we used `document.querySelector("#pet-button")` to find the element with id `"pet-button"`, and added a click event listener that calls the `alert` function with the message `"Thanks for the pets!"` Note that the alert may look different depending on your browser.
 
 ![alt text](../media/sample-event-listener-code.png "code block with click event listener code")
 
