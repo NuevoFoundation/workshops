@@ -1,7 +1,7 @@
 ---
 title: "Operators"
 description: "Introduce operators and perform operations on variables in C#."
-date: 2023-09-12T00:00:00Z
+date: 2024-09-16T00:00:00Z
 weight: 5
 ---
 
@@ -37,11 +37,12 @@ The following are the arithmetic operators in C#:
 
 **Note**: If both of the operands of division are integers, the result will also be an integer. For example, `10 / 4` returns 2, not 2.5 since we throw away the remainder. If either of the operands is a double, the result will be a double.
 
-**Note**: Modulus operation get the remainder of the division operation.
+**Note**: Use the modulus operation (`%`) get the remainder of the division operation.
+
 {{% /notice %}}
 
 {{% notice tip %}}
-Add (`+`) is used on String as concatenation operator. For example:
+The add (`+`) operator is used on Strings as a concatenation operator. For example:
 
 `String name = "Patric" + "k";` is same as `String name = "Patrick";`
 {{% /notice %}}
@@ -70,7 +71,7 @@ The following are the relational operators in C#:
 `<=` | less than or equal to | `(2 <= 2)` is `true`
 
 Note: `==` and `!=` can only be used on data of the same type. For example:
-```java
+```csharp
 int x=3; 
 double y=3.0; 
 x==y; // This would produce an error because x and y are of different types.
@@ -81,7 +82,7 @@ x==y; // This would produce an error because x and y are of different types.
 {{% notice tip %}}
 Using 1 equal sign assigns a value to the variable. Using 2 equal signs compares the values of two elements.
 
-```java
+```csharp
 age = 3;  // sets the value of age to 3
 age == 3; // checks to see if the value of age is 3
 ```

@@ -1,7 +1,7 @@
 ---
 title: "Comments"
 description: "Introduce comments in C#."
-date: 2023-09-12T00:00:00Z
+date: 2024-09-16T00:00:00Z
 weight: 3
 ---
 
@@ -18,6 +18,13 @@ Also, adding comments will not affect the program whatsoever. So, you can add co
       * multi-line
       * comment */
 ```
+
+## Play with Comments
+
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/CSharpBasicsHelloWorld" target="_blank">Launch Replit</a>
+
+Add a single line comment and a multi-line comment to your program.
+
 {{% notice tip %}}
 
 You can comment you code so the computer won't run it.
