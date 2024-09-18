@@ -11,13 +11,13 @@ draft: false
 
 Bravo ! Vous avez aidé Alex à dessiner une ligne ! Maintenant, passons à l’étape suivante et aidons Alex à dessiner un carré. Pour dessiner un carré, nous devons suivre ces étapes :
 
-1. Aller en avant de 50 pas
-2. Tourner à gauche de 90 degrés
-3. Aller en avant de 50 pas
-4. Tourner à gauche de 90 degrés
-5. Aller en avant de 50 pas
-6. Tourner à gauche de 90 degrés
-7. Aller en avant de 50 pas
+1. Allez de 50 pas en avant.
+2. Tournez de 90 degrés vers la droite.
+3. Allez de 50 pas en avant.
+4. Tournez de 90 degrés vers la droite.
+5. Allez de 50 pas en avant.
+6. Tournez de 90 degrés vers la droite.
+7. Allez de 50 pas en avant.
 
 N'oubliez pas d'utiliser `turtle.forward()` pour dessiner les lignes. Pour tourner à 90 degrés à gauche, vous devez passer `90` comme argument à la méthode `turtle.left()` :
 

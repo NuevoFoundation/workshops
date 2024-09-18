@@ -5,13 +5,13 @@ weight: 6
 draft: false
 ---
 
-Nous avons dessiné un hexagone. Mais ce n'est qu'un des nombreux hexagones qu'Alex doit construire pour sa ruche. Encore une fois, il semble que nous devrions répéter le code plusieurs fois pour dessiner plusieurs hexagones. Heureusement, nous n'en avons pas besoin ! Les fonctions à la rescousse !
+Nous avons dessiné un hexagone. Mais ce n'est qu'un des nombreux hexagones qu'Alex doit construire pour sa ruche. Encore une fois, il semble que nous devrions répéter le code plusieurs fois pour dessiner plusieurs hexagones. Heureusement, nous n’avons pas à le faire ! Les fonctions à la rescousse !
 
 {{% notice tip %}}
 
 ## Fonctions
 
-Une fonction est un moyen de regrouper des lignes de code pour faire quelque chose. Par exemple, `turtle.forward(50)` déplace la tortue de 50 pas en avant, et `turtle.left(120)` tourne la tortue de 120 degrés à gauche. Que faire si nous voulons toujours effectuer ces deux actions ensemble ? Nous pouvons les mettre dans une fonction appelée `draw_line()`, de sorte que chaque fois que cette fonction est appelée, ces deux actions se produisent simultanément. Pensez-y comme une recette : nous regroupons toutes les instructions ensemble, et le nom de la recette est la nourriture que nous préparons.
+Une fonction est un moyen de regrouper des lignes de code pour faire quelque chose. Par exemple, `turtle.forward(50)` déplace la tortue de 50 pas en avant, et `turtle.left(120)` tourne la tortue de 120 degrés à gauche. Que faire si nous voulons toujours effectuer ces deux actions ensemble ? Nous pouvons les mettre dans une fonction appelée `draw_line()`, de sorte que chaque fois que cette fonction est appelée, ces deux actions se produisent simultanément. Pensez-y comme une recette :nous regroupons toutes les instructions ensemble, et le nom de la recette est la nourriture que nous préparons.
 
 {{% /notice %}}
 
@@ -23,7 +23,7 @@ def draw_line():
   turtle.left(120)
 ```
 
-La première ligne est appelée l'**en-tête** de définition de fonction. Le mot-clé `def` indique à l'ordinateur que nous définissons une nouvelle fonction. Ensuite, nous donnons un nom à la fonction, dans ce cas `draw_line`. Enfin, n'oubliez pas le `():` à la fin de la ligne, qui indique à l'ordinateur que nous commençons le corps de la fonction.
+La première ligne est appelée ** the function definition header **. Le mot-clé `def` indique à l'ordinateur que nous définissons une nouvelle fonction. Ensuite, nous donnons un nom à la fonction, dans ce cas `draw_line`. Enfin, n'oubliez pas le `():` à la fin de la ligne, qui indique à l'ordinateur que nous commençons le corps de la fonction.
 
 {{% notice tip %}}
 
@@ -74,4 +74,4 @@ Remarquez que `turtle.forward(50)` a 2 tabulations devant lui, car il est à la 
 
 {{% /notice %}}
 
-Alors, essayons cela en créant notre propre fonction `draw_hexagon()` ! N'oubliez pas d'inclure l'en-tête de définition de fonction, le nombre de côtés d'un hexagone, et l'angle associé à un hexagone : 
+Alors, essayons cela en créant notre propre fonction `draw_hexagon()` ! N'oubliez pas d'inclure l'en-tête de définition de fonction, le nombre de côtés d'un hexagone: 60 dégrées et l'angle associé à un hexagone : 

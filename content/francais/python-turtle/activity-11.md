@@ -1,5 +1,5 @@
 ---
-title: "Activity 11 - À vous de jouer !"
+title: "activité 11 - À vous de jouer !"
 date: 2024-09-17T13:24:17-07:00
 weight: 14
 draft: false

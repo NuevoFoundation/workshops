@@ -7,7 +7,7 @@ draft: false
 
 ![alt text width="70%"](../media/mandala-color.png "mandala fleur avec pétales de couleur aléatoire")
 
-Nous avons réussi à définir la couleur de la fleur mandala sur une valeur RVB. Maintenant, explorons le changement de couleur des pétales individuels de la fleur mandala ! 
+Nous avons réussi à définir la couleur de la fleur mandala sur une valeur RGB. Maintenant, explorons le changement de couleur des pétales individuels de la fleur mandala ! 
 
 Nous allons utiliser la bibliothèque `random` de python. La méthode `random.randint()` nous permet de choisir une valeur aléatoire pour chacune des valeurs rouge, vert ou bleu. Pour choisir une valeur qui est comprise entre 0 inclus et 256 exclus (en d'autres termes, entre 0 et 255 inclus), nous devons utiliser `random.randint(0, 256)`.
 

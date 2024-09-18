@@ -39,6 +39,6 @@ turtle.left(120)
 
 {{% /notice %}}
 
-Maintenant, prenez l'exemple de code que nous avons fourni et modifiez-le légèrement pour qu'il dessine un carré au lieu d'un triangle. Vous pouvez regarder ce que vous avez fait dans l'Activité 1 comme indice.
+Maintenant, regardez l'exemple de code que nous avons fourni et modifiez-le légèrement pour qu'il dessine un carré au lieu d'un triangle. Vous pouvez regarder ce que vous avez fait dans l'Activité 1 comme indice.
 
 <iframe src="https://trinket.io/embed/python/892913b49a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
