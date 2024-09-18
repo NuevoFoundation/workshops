@@ -128,4 +128,4 @@ Once you solved the challenge, you will see the following message:
 Congratulations! Challenge Solved!
 ```
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/CSharpBasicsMethods" target="_blank">Launch Replit</a>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/ireaAA" frameborder="0"></iframe>
