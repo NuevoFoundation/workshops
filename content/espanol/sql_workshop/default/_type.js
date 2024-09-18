@@ -112,7 +112,7 @@ function reset()
 {
   clearTable();
   document.getElementById('commands').innerHTML = '';
-  document.getElementById("sqlcommand").innerHTML = "ERROR INVALID INPUT";
+  document.getElementById("sqlcommand").innerHTML = "ERROR ENTRADA INVÁLIDA";
   document.getElementById("sqlcommand").style.visibility="hidden";
   document.getElementById('prev').innerHTML = '';
 }

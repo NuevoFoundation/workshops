@@ -1,7 +1,7 @@
 function sql() 
 {
   clearTable();
-  document.getElementById("sqlcommand").innerHTML = "ERROR INVALID INPUT";
+  document.getElementById("sqlcommand").innerHTML = "ERROR ENTRADA INVÁLIDA";
   document.getElementById("sqlcommand").style.visibility="visible";
 
   var user = document.getElementById("commands").innerHTML;
@@ -159,7 +159,7 @@ function confirm() {
   
   /* Advance plot */
   if(h == 1 && b == 1 && p == 1 && t == 1 && cake == 0 && ice == 0) {
-    alert("Congrats! You have food for the party!");
+    alert("¡Felicidades! Tienes comida para la fiesta.");
     
     /* Changes oven screen */
     var screen = document.getElementById("vendor_div");

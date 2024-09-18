@@ -7,8 +7,6 @@ difficulty: "Principiante"
 draft: false
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/wSv5FzbtkjQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-
 ## ¿Un Email de parte de la Federación Gálactica?
 A la mitad de tu viaje, de pronto recibes un mensaje de la Federación Gálactica. ¿Sobre qué se tratará?
 

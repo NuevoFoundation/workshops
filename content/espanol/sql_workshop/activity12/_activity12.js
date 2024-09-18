@@ -1,7 +1,7 @@
 function sql() 
 {
   clearTable();
-  document.getElementById("sqlcommand").innerHTML = "ERROR INVALID INPUT";
+  document.getElementById("sqlcommand").innerHTML = "ERROR ENTRADA INVÁLIDA";
   document.getElementById("sqlcommand").style.visibility="visible";
 
   var user = document.getElementById("commands").innerHTML;
@@ -46,7 +46,7 @@ function check()
 
    if (trimmedPotential == "dr.phi")
    {
-    document.getElementById("answer").innerHTML = "!Encontraste al Inventor! ¡Ahora puedes unir los Tótems Legendarios del planeta Fun en un solo Tótem más poderoso! Este Tótem desata un campo de fuerza protectora alrededor del Planeta de la Diversión. ¡El planeta está a salvo de invasores!";
+    document.getElementById("answer").innerHTML = "!Encontraste al Inventor! ¡Ahora puedes unir los Tótems Legendarios del planeta de la Diversión en un solo Tótem más poderoso! Este Tótem desata un campo de fuerza protectora alrededor del Planeta de la Diversión. ¡El planeta está a salvo de invasores!";
     document.getElementById("plot").src="assets/Planet_Fun.png";
     
     /* Display the checkmark */

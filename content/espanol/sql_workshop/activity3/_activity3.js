@@ -1,7 +1,7 @@
 function sql() 
 { 
   clearTable();
-  document.getElementById("sqlcommand").innerHTML = "ERROR INVALID INPUT";
+  document.getElementById("sqlcommand").innerHTML = "ERROR ENTRADA INVÁLIDA";
   document.getElementById("sqlcommand").style.visibility="visible";
   
   var user = document.getElementById("commands").innerHTML;
