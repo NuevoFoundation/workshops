@@ -54,6 +54,13 @@ other = "难度:"
 [download]
 other = "下载:"
 
+# next-prev-page.html
+[you-did-it]
+other = "你做到了！"
+
+[workshop-complete]
+other = "研讨会完成"
+
 # notice.html
 [note]
 other = "注"
