@@ -7,7 +7,7 @@ draft: false
 
 <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/_DbRac3d0lo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-To help Alex live in a beehive, he needs to learn how to create a honeycomb! We will use Python's `turtle` library to draw a honeycomb for Alex.
+To help Alex live in a beehive, he needs to learn how to create a honeycomb! We will use Python's `turtle` library to draw a honeycomb for Alex.The honeycomb shape is a pattern you often see in beehives. Imagine a bunch of small, flat, six-sided figures that fit together perfectly without any gaps. These six-sided figures are called hexagons.
 
 <img src="../media/turtle_honeycomb.png" alt="A photo of a honeycomb" width="25%" />
 
