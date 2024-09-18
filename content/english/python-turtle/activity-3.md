@@ -9,15 +9,17 @@ draft: false
 
 Great job! You just drew your first shape in Python with Turtle! Now let’s slightly change the code we already wrote to draw a square to instead draw a hexagon. Alex is a bee, after all, and he needs to draw hexagons to build his first honeycomb.
 
-To help you draw a hexagon, think of how many sides a hexagon has. How many degrees are in each interior angle of a hexagon?
+A hexagon is a shape with six sides and six angles. Hexagons are fascinating shapes that we often see in nature! For example, bees use hexagons to build their honeycombs because this shape is very efficient; it uses the least amount of material to hold the most honey. 
+
+To help you draw a hexagon, think of how many sides a hexagon has. Now lets find out how many degrees should the turtle turn?
 
 {{% expand "**Hint:**" %}} 
-Remember that in any shape, all the interior angles add up to 360°. For example, there are 4 sides in a square, so each interior angle of a square is 360 ÷ 4 = 90°.
+Remember: If you divide 360 degrees by the number of turns you need to make for a shape, you'll get the angle you need to turn.
 {{% /expand %}}
 <br/>
 
 {{% expand "**Show answer:**" %}} 
-As a hexagon have 6 sides, each interior angle of a hexagon is 360 ÷ 6 = 60°.
+The turtle needs to turn 6 times to draw the hexagon. So, 360 degrees ÷ 6 turns = 60 degrees per turn.
 {{% /expand %}}
 <br/>
 
