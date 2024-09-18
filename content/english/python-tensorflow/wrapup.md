@@ -19,6 +19,6 @@ If you would like to test the finished code, visit
  <a href="https://colab.research.google.com/drive/1NtI1_iiNvq1J9rQsEaKEbiFsotkL_C0T?usp=sharing" target="_blank">this link</a> 
 
 To edit this code, click on the 'Copy to Drive' button to make a personal copy of this notebook. Make sure you are logged in to your Google account.
-![](../media/colab_copy.png)
+![](../media/colab_copy.png "Google colab")
 
 {{% /notice %}}

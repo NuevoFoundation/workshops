@@ -85,7 +85,7 @@ plot_value_array(i, predictions[i],  test_labels)
 plt.show()
 ```
 
-![Plotting Model Figure 1 of an ankle boot](../media/Plotting_fig1.png)
+![Plotting Model Figure 1 of an ankle boot](../media/Plotting_fig1.png "Plotting Model Figure 1 of an ankle boot")
 
 We can see that our model predicts this item to be an ankle boot. How confident is the model in this prediction? 99% confident. The category in paranthesis is the correct categorization of the item. In this case, the model detected the item correctly. 
 </br>
@@ -105,7 +105,7 @@ plot_value_array(i, predictions[i],  test_labels)
 plt.show()
 ```
 
-![Plotting Model Figure 2 of a sneaker](../media/Plotting_fig2.png)
+![Plotting Model Figure 2 of a sneaker](../media/Plotting_fig2.png "Plotting Model Figure 2 of a sneaker")
 
 From this example we see that the model predicted the item to be a sandal with 96% confidence. However, we see that the correct identification of the item is a sneaker. The plot shows that the model also predicted this item to be a sneaker with ~ 3% confidence or an ankle boot with ~ 1% confidence. 
 
@@ -128,6 +128,6 @@ for i in range(num_images):
 plt.tight_layout()
 plt.show()
 ```
-![Plotting Model Figure 3, 5x5 images and their model predictions](../media/Plotting_fig3.png)
+![Plotting Model Figure 3, 5x5 images and their model predictions](../media/Plotting_fig3.png "Plotting Model Figure 3, 5x5 images and their model predictions")
 
 What do you think about the model's predictions? Would you be satisfied with this success rate? 

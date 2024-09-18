@@ -40,7 +40,7 @@ for i in range(42): #displays first 42 images with their class name
     plt.xlabel(class_names[train_labels[i]])
 plt.show() #shows images with their labels 
 ```
-![images 6x7](../media/PU2_42images.png)
+![images 6x7](../media/PU2_42images.png "images 6x7 with labels")
 
 
 ## Activity 4
@@ -186,7 +186,7 @@ plt.colorbar() #displays the color bar on the right
 plt.grid(False)
 plt.show() #displays the entire plot
 ```
-![Ankle Boot](../media/a2q1.png)
+![Ankle Boot](../media/a2q1.png "Ankle Boot")
 
 #### Question 1
 ```python
@@ -245,7 +245,7 @@ plt.colorbar() #displays the color bar on the right
 plt.grid(False)
 plt.show() #displays the entire plot
 ```
-![Shirt](../media/a2progress2.png)
+![Shirt](../media/a2progress2.png "Shirt")
 
 ```python
 probability_model = tf.keras.Sequential([model, tf.keras.layers.Softmax()])
@@ -303,7 +303,7 @@ print(img.shape)
 plot_value_array(7, predictions_single[0], test_labels)  #plot the graph containing all the class names
 _ = plt.xticks(range(10), class_names, rotation=45)
 ```
-![Classification Plot](../media/PU3_graph.png)
+![Classification Plot](../media/PU3_graph.png "Classification Plot")
 
 
 
@@ -316,7 +316,7 @@ plt.subplot(1,2,2)
 plot_value_array(i, predictions[i],  test_labels)
 plt.show()
 ```
-![Image and Graph](../media/PU3_shirtandgraph.png)
+![Image and Graph](../media/PU3_shirtandgraph.png "Image and graph")
 
 
 Yes, this is consistent with the previous question.
