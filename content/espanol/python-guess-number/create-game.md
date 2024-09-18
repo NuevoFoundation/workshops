@@ -27,4 +27,4 @@ Dentro del bucle `while`, puedes usar condicionales para verificar si el jugador
 
 Recuerda usar los comentarios como guía; o intenta eliminar los comentarios y ve si puedes resolverlo por tu cuenta. :)
 
-<iframe src="https://trinket.io/embed/python/d7e8fdfc65" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/f35f662d6e18" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
