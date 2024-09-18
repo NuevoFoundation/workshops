@@ -35,7 +35,7 @@ function drop(ev) {
     checkmark.setAttribute("style","visibility:visible");
   }
   else if(div_num == "div4") {
-    alert("Try again Space Cadet!");
+    alert("¡Inténtalo de nuevo, Cadete Espacial!");
   }
   
 }

@@ -15,7 +15,7 @@ function drop(ev)
 
   if(div_num == "div4" && data == "drag1") 
   {
-    alert("Congrats! You found the correct key!");
+    alert("¡Felicidades! Encontraste la llave correcta.");
   
     //Display next mission prompt
     var display1 = document.getElementById("text1");
@@ -44,7 +44,7 @@ function drop(ev)
   }
   else if(div_num == "div4") 
   {
-    alert("Try again Space Cadet!");
+    alert("¡Inténtalo de nuevo, Cadete Espacial!");
   }
 }
 

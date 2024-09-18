@@ -69,7 +69,7 @@ function confirm() {
     checkmark.setAttribute("style","visibility:visible");
   }
   else {
-    alert("Try Again, Space Explorer!");
+    alert("¡Inténtalo de nuevo, Cadete Espacial!");
   }
   
   //Turn box green if correct

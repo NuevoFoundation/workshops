@@ -35,7 +35,7 @@ Puedes ver la base de datos completa utilizando el comando `SELECT * FROM [datab
 
 * planet: El nombre del planeta. 
 
-* leader: El nombre del lider del planeta. 
+* leader: El nombre del líder del planeta. 
 
 * population: La cantidad de habitantes que viven en el planeta.
 
