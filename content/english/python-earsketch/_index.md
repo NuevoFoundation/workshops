@@ -23,8 +23,7 @@ Welcome to this introductory guide on how to make music using
 
 ### Nuvi has new headphones! Can you find yours?
 
-You got contacted to make Nuvi's next hit mixtape, but when you get to the studio, Nuvi says their next project is going to be produced all in code. This is something that hasn't been done before, are you up to the challenge? Look around yourself to find your headphones and get ready to
-join him!
+You got contacted to make Nuvi's next hit mixtape, but when you get to the studio, Nuvi says their next project is going to be produced all in code. This is something that hasn't been done before, are you up to the challenge? Look around yourself to find your headphones and get ready to join him!
 
 Before we start, make sure that your headphones are working. Try playing the following audio. What do you hear?!
 

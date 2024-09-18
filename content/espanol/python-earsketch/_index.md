@@ -11,33 +11,37 @@ icon: "fab fa-python"
 
 ### Hagamos algo de música!
 
+Bienvenidos a esta guía introductoria sobre cómo crear música usando [EarSketch](https://en.wikipedia.org/wiki/EarSketch) y Python. 
+
+Para ir a alguna actividad específica, puedes darle click a cualquier sección en el menu a la izquierda de esta página.
+
+### Conoce a DJ Nuvi
+
 ![DJ Nuvi](https://media.giphy.com/media/OTk8FTCvQ5WQQfJqVf/giphy.gif)
 
-Una guía introductoria sobre cómo hacer música usando [EarSketch](https://en.wikipedia.org/wiki/EarSketch) y Python. 
+## ¡Nuvi tiene sus audífonos! ¿Puedes encontrar los tuyos?
 
-Para ir a alguna actividad en específico, darle clic a cualquier sección.
+Te estamos contactando para crear el próximo éxito de Nuvi, pero cuando llegas al estudio, Nuvi dice que su próximo proyecto se va a producir todo en código. Esto es algo que no se ha hecho antes, ¿estás listo para el desafío? ¡Mira a tu alrededor para encontrar tus audífonos y prepárate para unirte a él!
 
-<details>
-<summary>Secciones</summary>
-<br>
-{{% children /%}}
-</details>
-
-## ¡DJ Nuevo tiene sus audífonos! ¿Puedes encontrar los tuyos?
-
-Te estamos contactando para hacer el próximo éxito de Nuvi, pero cuando llegues al estudio, Nuvi dice que su próximo proyecto se va a producir todo en código. Esto es algo que no se ha hecho antes, ¿estás listo para el desafío? ¡Mira a tu alrededor para encontrar sus audífonos y prepárate para unirse a él!
-
-Antes de empezar, debemos comprobar si tus audífonos están funcionando. Intente reproducir el siguiente audio. ¿Qué oyes?
+Antes de empezar, debemos comprobar si tus audífonos están funcionando. Intenta reproducir el siguiente audio. ¿Qué oyes?
 
 <figure>
     <audio
         controls
         src="../audio/good-enough.mp3">
-            Checa tu audio para ver si tu browser/servidor tiene soporte para audio. Sino suena, entonces es probable que necesites usar otro browser/servidos como Google Chrome. 
+            Verifica tu audio para ver si tu browser/navegador tiene soporte para audio. Sino suena, entonces es probable que necesites usar otro browser/navegador de internet como Google Chrome. 
             <code>audio</code> element.
     </audio>
 </figure>
 
-## Descripcion de la pantalla que usaremos para este taller
+## Pantalla de EarSketch que usaremos para este taller
 
 <img src="img/screenshot-overview.png" alt="Earsketch-play-overview" width="25%"/>
+
+
+## Secciones
+
+<details close>
+<summary>Secciones</summary>
+{{% children /%}}
+</details>

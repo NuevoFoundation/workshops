@@ -23,7 +23,7 @@ draft: false
 
 <img src="../img/screenshot-new-myjam.png" height="200"/>
  
-4. Finally, click on the gear icon, and select "Blocks mode". Your screen should now look like this.
+5. Finally, click on the gear icon, and select "Blocks mode". Your screen should now look like this.
 
 <img src="../img/screenshot-setup-complete.png" height="400"/>
 
