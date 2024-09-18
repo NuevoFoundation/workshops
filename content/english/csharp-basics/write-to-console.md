@@ -11,17 +11,15 @@ Our first excercise is to get comfortable with the structure of a simple C# appl
 
 Let’s try to run a C# program that prints `Hello World` to the console.  The line of code `Console.WriteLine ("Hello World");` does this for us.  It tells the computer to write whatever is inbetween the () to the screen.
 
-Launch the repl and fork it. Give it a try by pressing the **run** button.  The output will appear on the right. 
-
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/CSharpBasicsHelloWorld" target="_blank">Launch Replit</a>
-
 ### Let's write some code!
 
-Add a new line of code below the first line to print "Hello *your name*".  It should look something like this.
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/0g4Vu7" frameborder="0"></iframe>
 
-<img src="../images/Step1.png" height="300" alt="The starting screen of a repl" />
+In the above .NET Fiddle frame, add a new line of code below the first line to print "Hello *your name*".  It should look something like this.
 
-You should see your output on the right side of the screen. Cool huh?  
+<img src="../images/Step1.png" height="300" alt="The starting screen of a fiddle" />
+
+You should see your output on the bottom of the screen. Cool huh?  
 
 Let's try printing other things. Add some additional lines of code to:
 1. Print numbers by putting numbers in the parenthesis (i.e. `Console.WriteLine(42);`). No double quotes needed.
