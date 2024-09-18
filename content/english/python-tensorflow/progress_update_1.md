@@ -46,7 +46,7 @@ plt.grid(False)
 plt.show() #displays the entire plot
 ```
 
-![Ankle Boot](../media/a2q1.png)
+![Ankle Boot](../media/a2q1.png "Pixelated boot with color bar")
 
 ```python
 plt.figure()
@@ -56,7 +56,7 @@ plt.grid(False)
 plt.show() #displays the entire plot
 ```
 
-![Shirt](../media/a2progress2.png)
+![Shirt](../media/a2progress2.png "Pixelated shirt with color bar")
 
 ```python
 #the train_images and test_images range between values from 0 to 255. 
@@ -70,7 +70,7 @@ test_images = test_images / 255.0
 If you would like to test the code above, visit <a href="https://colab.research.google.com/drive/1ndj0W1P_3uAG-L2a6LwxdJPSHbSK5WE6?usp=sharing" target="_blank">this link</a>
 
 To edit this code, click on the 'Copy to Drive' button to make a personal copy of this notebook. Make sure you are logged in to your Google account.
-![Screenshot of Google Colab Notebook with "Copy to Drive button selection highighted"](../media/colab_copy.png)
+![Screenshot of Google Colab Notebook with "Copy to Drive button selection highighted"](../media/colab_copy.png "Screenshot of Google Colab Notebook ")
 
 {{% notice warning %}}
 ### If you are using a Nuevo Google account temporarily
