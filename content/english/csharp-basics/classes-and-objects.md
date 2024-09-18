@@ -88,9 +88,8 @@ public class Person{
 ## Try it Out 🐥!
 
 Let's make a `Bird` class to represent Patrick 🐥 and all of his Bird friends by following the steps below! 
-**Note:** For this exercise, you will be working in Bird.cs instead of Main.cs.
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsBird" target="_blank">Launch Replit</a>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/OH5XQO" frameborder="0"></iframe>
 
 ### First, we start by defining the class name in the format `public` `class` `name`.
 
@@ -224,4 +223,4 @@ Next, let's call the `ToString()` method on these `Bird` objects we created to p
 
 Try it out and print out all the information of the bird friends you created 🐦🐤🐔🐧!
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/CSharpBasicsClasses" target="_blank">Launch Replit</a>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/fMXXuT" frameborder="0"></iframe>
