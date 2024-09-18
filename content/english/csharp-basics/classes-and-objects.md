@@ -119,7 +119,7 @@ For example, to declare `species` as a private field of class `Bird`, you would 
 
 ### Third, let's create the constructor for the class `Bird`. 
 
-Usually, constructor is the method that initialializes value to all the fields in a class. It has the format `public` `class name` `(parameter)`. Since we have 5 fields in this class, the constructor will take in 5 parameter/inputs.
+Usually, constructor is the method that initializes value to all the fields in a class. It has the format `public` `class name` `(parameter)`. Since we have 5 fields in this class, the constructor will take in 5 parameter/inputs.
 
 ```csharp
 public Bird(string speciesInput, string nameInput, string hobbyInput, int ageInput, bool loveMusicInput){
