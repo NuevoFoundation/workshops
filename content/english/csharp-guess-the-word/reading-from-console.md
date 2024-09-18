@@ -49,6 +49,6 @@ I don't know the answer to that! Goodbye!
 
 `[input]` should be replaced with whatever the user had typed into the console.
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/NF-CSharp-blank" target="_blank">Launch Replit</a>
+<a class="my-2 mx-4 btn btn-info" href="https://dotnetfiddle.net/ULv0JH" target="_blank">Launch Fiddle</a>
 
 {{% /notice %}}

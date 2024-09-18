@@ -35,6 +35,6 @@ Try guessing the answers to the following expressions. Use `Console.WriteLine` t
 - `(9 < 10) && (12 => 11)`
 - `(15 - 2 == 11) || (4 % 3 != 2)`
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/NF-CSharp-blank" target="_blank">Launch Replit</a>
+<a class="my-2 mx-4 btn btn-info" href="https://dotnetfiddle.net/ULv0JH" target="_blank">Launch Fiddle</a>
 
 {{% /notice %}}
