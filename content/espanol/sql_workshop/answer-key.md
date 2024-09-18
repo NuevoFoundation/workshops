@@ -1,64 +1,64 @@
 ---
-title: "SQL Workshop Answer Key"
+title: "Taller de SQL: Respuestas del Workshop de SQL"
 date: 2020-03-28T10:24:17-07:00
 draft: false
 hidden: true
 weight: 300
 ---
 {{% notice tip %}}
-Note: Do not use Firefox Browser for this workshop!
+Nota: No uses el Navegador Firefox para este taller.
 
-For Drag and Drop Activities: Correctly chosen blocks will have a green highlight around them while incorrect blocks will highlight in red until the player moves the block.
+Para las actividades de arrastrar el elemento: Los bloques que son correctos van a ser resaltados con un recuadro verde alrededor, mientras que los incorrectos serán resaltados con un cuadrado rojo hasta que el jugador mueva el bloque. 
 
-For Type-In Activities: Correct words/commands will be highlighted in green in the Previous Command Box, incorrectly placed or misused words will be highlighted in red. If the command players write matches the answer key and it still highlights in red, make sure there are no extra spaces at the end or beginning of the command! Make sure players have a semicolon at the end of the command (The last word in the SQL command will highlight red if there is no semicolon)! Note that some of the kids copy a sample command from the workshop and paste it in the terminal to run - this will not work! Please ask them to refresh the page and manually type in the command.
+Para las actividades de escribir la respuesta: Los comandos o palabras correctas van a seer resaltadas con color verde en la Caja de Comando Anterior, palabras incorrectas o mal usadas serán resaltadas con rojo. Si el comando que el jugador escriba coincide con lo que se menciona en la hoja de respuestas, asegurate que no haya espacios extras al inicio o fin del comando. Asegurate que el jugador tenga punto y coma al final de cada comando (la última palabra en un comando de SQL será resaltada con rojo si no hay un punto y coma al final). Toma en cuenta que algunos infantes van a copiar el comando mostrado en el ejemplo, pegarlo en la terminal y correrlo - esto no va a funcionar. Por favor, pídeles que refresquen la página y escriban manualmente el comando.
 
-SQL keywords (reserved words) in the commands are case insensitive (SELECT, FROM, WHERE, COUNT, MAX, IN, etc.), but are often written in caps to differentiate from non-keywords. "select * from planet" is same as "SELECT * FROM planet".
+Las palabras clave de SQL (palabras reservadas) en comandos NO distinguen entre mayúsculas y minúsculas (SELECT, FROM, WHERE, COUNT, MAX, IN, etc.), pero a veces están escritas en mayúsculas para diferenciarlas de otras palabras que no son clave: "select * from planet" is same as "SELECT * FROM planet".
+
 {{% /notice%}}
 
-### Learn Cadet Basics
-**No activity, only a read through of terminology.**
+### Aprende los pasos básicos de un cadete
+**Ninguna actividad, solo leer la terminología.**
 
-### Activity 1: Learn the SELECT Command (Drag and Drop)
-Answer: `SELECT * FROM galaxy;`
+### Actividad 1: Aprende el comando SELECT (Arrastrar y soltar)
+Respuesta: `SELECT * FROM galaxy;`
 
-### Activity 2: Learn the WHERE Command (Drag and Drop)
-Answer: `SELECT * FROM galaxy WHERE name = ‘Planet of Fun’;`
+### Actividad 2: Aprende el comando WHERE (Arrastrar y soltar)
+Respuesta: `SELECT * FROM galaxy WHERE name = ‘Planet of Fun’;`
 
-### Explain Syntax
-**No activity, only an explanation of the SQL Command format.**
+### Explicar la Sintaxis
+**Ninguna actividad, solo una explicación del formato de comandos de SQL.**
 
-### Activity 3: 
-Two Valid Answers:
-`SELECT COUNT(*) FROM planet;` OR `SELECT COUNT(city_number) FROM planet;`
+### Actividad 3: Aprended el comando COUNT (Escribir respuesta)
+Dos respuestas válidas: `SELECT COUNT(*) FROM planet;` o `SELECT COUNT(city_number) FROM planet;`
 
-### Activity 4: Select Multiple Info (Type-in)
-Two Valid Answers: `SELECT planet, leader FROM galaxy;` OR `SELECT leader, planet FROM galaxy;`
+### Actividad 4: Selecciona Información Multiple (Escribir respuesta)
+Dos respuestas válidas: `SELECT planet, leader FROM galaxy;` o `SELECT leader, planet FROM galaxy;`
 
-The only difference between the two answers is the order of columns displayed, therefore both answers are valid.
+La única diferencia entre las dos respuestas es el orden en que se mostrarán las columnas, por lo tanto, ambas respuestas son válidas.
 
-### Activity 5: Learn the MAX/MIN Command (Both Type-In + Drag and Drop)
-Valid Answers: 
+### Actividad 5: Aprende el comando MAX/MIN (Escribir respuesta + Arrastrar y soltar)
+Respuestas válidas: 
 * `SELECT MAX(height) FROM items WHERE object IN (‘ladder’);` 
 * `SELECT MAX(height) FROM items WHERE object = 'ladder';`
 * `SELECT * FROM items WHERE object IN (‘ladder’);`
 * `SELECT * FROM items WHERE object = 'ladder';`
-Although the third and fourth answers do not use the MAX command, it displays all the ladders and their colors, making this a valid answer for the activity.
+A pesar de que la tercera y cuarta respuesta no utiliza el comando MAX, si muestra todas las escaleras y sus colores, haciendolas posibles respuestas válidas para la actividad.
 
-Answers for Bonus:
+Respuestas para los puntos extra:
 * `SELECT MAX(height) FROM items WHERE object NOT IN('totem', 'key');`
 * `SELECT MAX(height) FROM items WHERE object NOT IN('totem');`
 * `SELECT MAX(height) FROM items WHERE object NOT IN('key');`
-If players use `NOT IN` correctly, this will still output the correct answer.
+Si el jugador usa `NOT IN` correctamente, esto va a mostrar el resultado correcto.
 
-Drag and Drop: The correct ladder to drag and drop is the RED ladder (rightmost ladder). The correct ladder will highlight in green.
+Arrastrar y soltar: La escalera correcta para arrastrar y soltar es la ROJA (la de la extrema derecha). La escalera correcta va a ser resaltada con color Verde. 
 
-### Activity 6: Use Comparators (Type-In)
-Answer: `SELECT * FROM items WHERE date_created = ‘1738-09-12’;`
+### Actividdad 6: Utiliza Comparadores (Escribir respuesta)
+Respuesta: `SELECT * FROM items WHERE date_created = ‘1738-09-12’;`
 
-Bonus Answer: `SELECT * FROM items WHERE date_created >= ‘1738-09-12’;`
+Respuesta para puntos extra: `SELECT * FROM items WHERE date_created >= ‘1738-09-12’;`
 
-### Activity 7: Use the MIN Command (Type-In + Drag and Drop)
-Valid Answers: 
+### Actividad 7: Usa el comando MIN (Escribir respuesta + Arrastrar y soltar)
+Respuestas válidas: 
 * `SELECT MIN(height) FROM items WHERE object IN (‘key’);` 
 * `SELECT * FROM items WHERE object IN('key');`
 * `SELECT MIN(height) FROM items WHERE object = 'key';`
@@ -67,28 +67,28 @@ Valid Answers:
 * `SELECT MIN(height) FROM items WHERE object NOT IN('totem');`
 * `SELECT MIN(height) FROM items WHERE object NOT IN('ladder');`
 
-Drag and Drop: The height corresponds to the number of loops on the base of the key. The smallest key (height of 1) is the correct key to drag and drop (rightmost key).
+Arrastrar y Solar: La altura corresponde al número de bucles en la base de la llave. La llave mas pequeña (de altura 1) es la llave correcta para arrastrar y soltar (la de la extrema derecha).
 
-### Activity 8: Learn the LIKE Command (Type-In)
-Two Valid Answers: `SELECT * FROM items WHERE date_created LIKE ‘%-10-%’;` OR `select * from items where date_created like '1738-10-%';`
+### Actividad 8: Aprende el comando LIKE (Escribir respuesta)
+Dos respuestas válidas: `SELECT * FROM items WHERE date_created LIKE ‘%-10-%’;` o `select * from items where date_created like '1738-10-%';`
 
-### Activity 9: Learn the AVG Command (Type-In)
-Answer: `SELECT AVG(population) FROM planet;`
+### Actividad 9: Aprende el comando AVG (Escribir respuesta)
+Respuesta: `SELECT AVG(population) FROM planet;`
 
-The combination to the safe is "40".
+La combinación de la caja fuerte es "40".
 
-### Activity 10: Learn the SUM Command (Type-In)
-Answer: `SELECT SUM(population) FROM planet;`
+### Actividad 10: Aprende el comando SUM Command (Escribir respuesta)
+Respuesta: `SELECT SUM(population) FROM planet;`
 
-### Activity 11: Learn the GROUP BY Command (Type-In)
-Answer: `SELECT * FROM planet GROUP BY favorite_food;`
+### "Actividad 11: Aprende el comando GROUP BY" (Escribir respuesta)
+Respuesta: `SELECT * FROM planet GROUP BY favorite_food;`
 
-Bonus Answer: `SELECT COUNT(*), favorite_food FROM planet GROUP BY favorite_food;`
+Respuesta para puntos extra: `SELECT COUNT(*), favorite_food FROM planet GROUP BY favorite_food;`
 
-The correct buttons to select (in any order) are: pizza, hotdog, hamburger, and taco.
+Los botones correctos para seleccionar en cualquier orden son: pizza, hotdog, hamburger y taco.
 
-### Activity 12: Find the Inventor! (Type-In)
-Answer: `SELECT * FROM people;`
+### Actividad 12: Encuentra al Inventor! (Escribir respuesta)
+Respuesta: `SELECT * FROM people;`
 
-The inventor: "Dr. Phi"
+El inventor: "Dr. Phi"
 

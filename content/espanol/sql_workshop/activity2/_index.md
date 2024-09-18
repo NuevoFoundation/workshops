@@ -1,9 +1,9 @@
 ---
-title: "Activity 2: Learn the WHERE Command"
-description: "Learn the WHERE command"
+title: "Actividad 2: Aprende el comando WHERE"
+description: "Aprende el comando WHERE"
 date: 2020-07-16
-prereq: "SELECT command"
-difficulty: "Beginner"
+prereq: "Comando SELECT"
+difficulty: "Principiante"
 draft: false
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->
