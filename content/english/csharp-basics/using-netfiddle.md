@@ -20,9 +20,9 @@ Next, launch the .NET Fiddle console we will use today by clicking the below but
 
 <img src="../images/dotnetfiddle-launchScreen.png" height="300" alt="The starting screen of a .NET Fiddle" />
 
-We will now *fork* the Repl, which simply means to make a copy of the program, so that we can make our own changes to it. Click on the "Fork" button on the top.
+We will now *fork* the Fiddle, which simply means to make a copy of the program, so that we can make our own changes to it. Click on the "Fork" button on the top.
 
-After forking the Replit, you will see a window similar to the one below:
+After forking the Fiddle, you will see a window similar to the one below:
 
 <img src="../images/dotnetfiddle-window.png" height="300" alt=".NET Fiddle window" />
 
