@@ -3,7 +3,7 @@ title: "HTML & CSS: Fundamentos de Web"
 description: "Um guia introdutório sobre como criar um site simples do zero"
 date: 2019-09-03T17:53:41-07:00
 draft: false
-difficulty: "Beginner"
+difficulty: "Iniciante"
 icon: "fab fa-html5"
 ---
 
