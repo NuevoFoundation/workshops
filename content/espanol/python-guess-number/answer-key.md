@@ -1,5 +1,5 @@
 ---
-title: "Python Adivina el Número - Clave de Respuestas"
+title: "Python: Adivina el Número - Respuestas"
 date: 2020-03-27T20:24:33-07:00
 weight: 15
 draft: false
@@ -40,7 +40,7 @@ while guessesLeft > 0:
       print("¡Adivinaste el número correcto! Felicidades :)! Presiona 'run' para jugar de nuevo")
       break
     elif userinput > randomNumber:
-      print("Tu número es demasiado alto. Intenta adivinar más bajo.")
+      print("Tu número es demasiado bajo. Intenta con un número más alto.")
     else:
       print("Tu número es demasiado bajo. Intenta adivinar más alto.")
     

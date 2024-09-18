@@ -14,7 +14,7 @@ Esto generaría un número aleatorio entre 1 y 10.
 ¡Intenta ejecutar el código de abajo varias veces para ver qué obtienes!
 
 {{% notice tip %}}
-También puedes experimentar cambiando el rango de números aleatorios. Es divertido, ¡inténtalo!
+También puedes experimentar cambiando el rango de estos números aleatorios.
 {{% /notice %}}
 
 <iframe src="https://trinket.io/embed/python/40939d4d75" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
