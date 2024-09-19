@@ -35,7 +35,7 @@ while guessesLeft > 0:
     userinput =  int(input())
 
     #Compara la entrada que acabas de recibir con randomNumber y da al jugador una pista sobre si debe adivinar un número más bajo o más alto
-    #Si la adivinanza es correcta, recuerda usar break para salir del ciclo
+    #Si la respuesta a la adivinanza es correcta, recuerda usar break para salir del ciclo
     if userinput == randomNumber:
       print("¡Adivinaste el número correcto! Felicidades :)! Presiona 'run' para jugar de nuevo")
       break
@@ -47,9 +47,9 @@ while guessesLeft > 0:
     #disminuye el número de intentos que le quedan al jugador
     guessesLeft = guessesLeft -1
 
-#Verifica si el jugador se quedó sin intentos. Si se quedó sin intentos, dile un mensaje que perdió el juego
+#Verifica si el jugador se quedó sin intentos. Si se quedó sin intentos, muestra un mensaje diciendo que perdió el juego
 if guessesLeft == 0:
-  print("Te quedaste sin intentos. :/ El número correcto era " + str(randomNumber) + "!") #O ("Te quedaste sin intentos. :/ El número correcto era ", randomNumber)
+  print("Te quedaste sin intentos. :/ La respuesta correcta a la adivinanza era " + str(randomNumber) + "!") #O ("Te quedaste sin intentos. :/ La respuesta correcta a la adivinanza era ", randomNumber)
 else:
   pass
 ```
