@@ -5,28 +5,22 @@ weight: 1
 draft: false
 ---
 
-## Launch .NET Fiddle
-
+### Using .NET Fiddle
 Today you will be using .NET Fiddle to learn how to code in C#. 
 
-First, launch the .NET Fiddle console we will use today by clicking the below button. You should see the screen below.
-
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/ccWNBp" frameborder="0"></iframe>
-
-*********************************************************
-
-### Using .NET Fiddle
 Before we start, let's first understand how the window works. On the left side you have a list of options.  These have all been set for you, so you do not need to worry about those.  The center of the screen contains code, or instructions for the computer to run. By pressing the **run** button (the button with the triangle in the middle at the top of the frame), you tell the computer to perform the instructions in the code.  The results from running the code will be displayed on the bottom of the screen.
 
 <img src="../images/donetfiddle-overview.png" height="300" alt=".NET Fiddle Window Layout" />
 
+Spend some time and get to know the tool below.
+
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/ccWNBp" frameborder="0"></iframe>
+
 ### Some tips on C#
 
 A few important tips:
-1. Files containing C# code have a **.cs** suffix, such as **main.cs**. 
-2. Each line of code ends with a semicolon `;`
-3. The other files shown in the file list are necessary for our program to run, but not important for this project.
-4. There will be code in the examples that you don't understand.  That is ok, ignore for now and focus on the task you are working on.
+1. Each line of code ends with a semicolon `;`
+2. There will be code in the examples that you don't understand.  That is ok, ignore for now and focus on the task you are working on.
 
 ## Saving your work
 
