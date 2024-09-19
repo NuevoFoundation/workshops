@@ -59,7 +59,7 @@ plt.subplot(1,2,2)
 plot_value_array(i, predictions[i],  test_labels)
 plt.show()
 ```
-![Plotting Figure 1](../media/Plotting_fig1.png)
+![Plotting Figure 1](../media/Plotting_fig1.png "Plotting Figure 1")
 
 ```python
 i = 12 
@@ -70,7 +70,7 @@ plt.subplot(1,2,2)
 plot_value_array(i, predictions[i],  test_labels)
 plt.show()
 ```
-![Plotting Figure 2](../media/Plotting_fig2.png)
+![Plotting Figure 2](../media/Plotting_fig2.png "Plotting Figure 2")
 
 ```python
 #Plotting 6 images
@@ -86,7 +86,7 @@ for i in range(num_images):
 plt.tight_layout()
 plt.show()
 ```
-![Plotting 6 images](../media/PU3_6images.png)
+![Plotting 6 images](../media/PU3_6images.png "Plotting 6 images")
 
 ```python
 #Plotting 25 images
@@ -103,7 +103,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-![Plotting 25 images](../media/Plotting_fig3.png)
+![Plotting 25 images](../media/Plotting_fig3.png "Plotting 25 images")
 
 ```python
 # Grab an image from the test dataset. This shows the resolution of the image. 
@@ -145,7 +145,7 @@ plot_value_array(7, predictions_single[0], test_labels)  #plot the graph contain
 _ = plt.xticks(range(10), class_names, rotation=45)
 ```
 
-![Classification Plot](../media/PU3_graph.png)
+![Classification Plot](../media/PU3_graph.png "Classification Plot")
 
 ```python
 np.argmax(predictions_single[0]) #Verifying the index value with highest probability
@@ -163,7 +163,7 @@ plt.subplot(1,2,2)
 plot_value_array(i, predictions[i],  test_labels)
 plt.show()
 ```
-![Image and Graph](../media/PU3_shirtandgraph.png)
+![Image and Graph](../media/PU3_shirtandgraph.png "Image and Graph")
 
 {{% notice info %}}
 

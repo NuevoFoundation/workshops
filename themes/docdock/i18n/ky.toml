@@ -54,6 +54,13 @@ other = "Кыйынчылык:"
 [download]
 other = "Жүктөп алуу:"
 
+# next-prev-page.html
+[you-did-it]
+other = "Сиз жасадыңыз!"
+
+[workshop-complete]
+other = "Воркшоп аяктады"
+
 # notice.html
 [note]
 other = "Кошумча"

@@ -8,6 +8,9 @@ draft: false
 <img src="../media/turtle_circles.png" alt="drawing a figure 8" width="25%"/>
 
 Great! Now let’s make a figure 8 as the first step to making a mandala flower! A figure 8 is just two circles that are opposite to each other. 
+
+A circle is a round shape that looks like a ring or a hoop. The radius is the distance from the middle of the circle to its edge. It helps you understand how big the circle is because it shows you how far it is from the center to the edge.
+
 To do this we can make use of the `turtle.circle(x)` method, which takes an integer `x` as the radius of the circle. (You may recall that `2 * radius` is how wide the circle is.) Having the radius as an **argument** means we can decide how big or small the circle should be.
 
 ``` python

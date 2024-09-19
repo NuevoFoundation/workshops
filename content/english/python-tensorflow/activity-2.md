@@ -30,7 +30,7 @@ Notice that the image generated has a color bar on the left. This metric is show
 **Pixels** are the smallest unit of a graphic (image or display) that a screen can represent. Think of your computer screen! There are millions of tiny colored dots that when combined can create a picture of a boat or the text shown on your screen. 
 
 The color bar shows the range in the color intensity that a pixel can display. 
-![Boot image with pixelation range from 0 to 255](../media/a2q1.png)
+![Boot image with pixelation range from 0 to 255](../media/a2q1.png "Pixelated boot with color bar")
 {{% /notice %}}
 
 #### Question 1:
@@ -40,7 +40,7 @@ After analyzing the shoe, we want to view another item from the clothing sample.
 Use the code in the previous code block. Then change the value of the index in `train_images[x]` to get a new image of an item.   
 
 For example, if you input the index value as 7, you get the following item:
-![Shirt image](../media/a2progress2.png)
+![Shirt image](../media/a2progress2.png "Pixelated shirt with color bar")
 
 {{% /notice %}}
 

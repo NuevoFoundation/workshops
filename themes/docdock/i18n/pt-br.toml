@@ -54,6 +54,13 @@ other = "Dificuldade:"
 [download]
 other = "Baixar:"
 
+# next-prev-page.html
+[you-did-it]
+other = "Você conseguiu!"
+
+[workshop-complete]
+other = "Minicurso concluído"
+
 # notice.html
 [note]
 other = "Observação"

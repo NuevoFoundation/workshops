@@ -37,7 +37,7 @@ If you do not have a Google account and are not able to create one, please conta
 
 {{% notice note %}}
 When running your code for the first time, make sure to run your code by clicking on _Runtime -> Run all_ in the Menu bar to execute all your code snippets sequentially. This is to make sure that you don't accidentally execute functions without importing the libraries first!
-![Colab intro](media/colab_intro.png)
+![Colab intro](media/colab_intro.png "Colab intro")
 
 {{% /notice %}}
 
