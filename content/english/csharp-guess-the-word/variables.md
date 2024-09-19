@@ -92,6 +92,6 @@ ComputerComputerComputer
 15
 ```
 
-<a class="my-2 mx-4 btn btn-info" href="https://dotnetfiddle.net/ULv0JH" target="_blank">Launch Fiddle</a>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/ULv0JH" frameborder="0"></iframe>
 
 {{% /notice %}}

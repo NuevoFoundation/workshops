@@ -37,6 +37,6 @@ Nuevo Foundation
 Nuevo Foundation
 ```
 
-<a class="my-2 mx-4 btn btn-info" href="https://dotnetfiddle.net/itRFnP" target="_blank">Launch Fiddle</a>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/itRFnP" frameborder="0"></iframe>
 
 {{% /notice %}}

@@ -18,7 +18,7 @@ weight: 1
 3. Add another `Console.WriteLine` below the current line to print a second sentence below the first sentence.
 4. Press **run** to see if two sentences are printed out. If you see any red text, please ask for help.
 
-<a class="my-2 mx-4 btn btn-info" href="https://dotnetfiddle.net/pdWOTp" target="_blank">Launch Fiddle</a>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/pdWOTp" frameborder="0"></iframe>
 
 {{% /notice %}}
 
