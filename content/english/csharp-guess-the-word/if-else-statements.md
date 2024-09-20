@@ -105,7 +105,7 @@ Afterwards, the console waits for user input.
 - If the user enters no, the computer prints out `Oh no, that's too bad!`.
 - Otherwise, the computer prints out: `I don't understand you! Goodbye!`.
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/NF-CSharp-blank" target="_blank">Launch Replit</a>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/ULv0JH" frameborder="0"></iframe>
 
 {{% /notice %}}
 

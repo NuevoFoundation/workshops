@@ -19,7 +19,7 @@ Console.WriteLine("Apple" + "Pineapple");
 Console.WriteLine("Nuevo" + " " + "Foundation");
 ```
 
-![alt text height="600px" width="70%"](../media/strings-intro.png "Combining strings with +")
+![alt text height="600px" width="70%"](../media/strings-intro.PNG "Combining strings with +")
 
 {{% notice tip %}}
 
@@ -37,6 +37,6 @@ Nuevo Foundation
 Nuevo Foundation
 ```
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/NF-CSharp-Strings" target="_blank">Launch Replit</a>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/itRFnP" frameborder="0"></iframe>
 
 {{% /notice %}}
