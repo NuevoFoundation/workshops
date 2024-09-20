@@ -4,25 +4,27 @@ on:
   pull_request:
     paths:
       - content/english/**
-
+       
 jobs:
   auto-translate:
     runs-on: ubuntu-latest
+    continue-on-error: true
 
     permissions:
       # Give the default GITHUB_TOKEN write permission to commit and push the
       # added or changed files to the repository.
       contents: write
+      pull-requests: write
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         submodules: true
         fetch-depth: 2
 
     - name: Setup .NET
-      uses: actions/setup-dotnet@v1
+      uses: actions/setup-dotnet@v4
       with:
         dotnet-version: '8.0.x' # or the version your project requires
 
@@ -39,6 +41,12 @@ jobs:
           done
         done
 
-    - uses: stefanzweifel/git-auto-commit-action@v4
+    - name: Create Pull Request with AI-Generated Translations
+      uses: peter-evans/create-pull-request@v6
       with:
-        commit_message: "[Github Actions] Add AI translations"
+        commit-message: "Add AI translations for new workshop content"
+        title: "[Github Actions] AI Workshop Translations - #${{ github.event.pull_request.number }}"
+        body: "This PR generates AI translations for new English workshop content in this pull request [here](${{ github.event.pull_request.html_url }})."
+        branch: "auto-translation-suggestions-${{ github.event.pull_request.number }}"
+        labels: "translation, auto-generated"
+        base: "master" # or the default branch of your repository
