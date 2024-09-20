@@ -5,7 +5,7 @@ difficulty: "Beginner"
 weight: 1
 ---
 
-{{< figure src="../images/room1_fork.jpg" title="The first room of the Code Dungeon, illuminated by a mysterious GitHub logo" >}}
+<img src="../images/room1_fork.jpg" alt="The first room of the Code Dungeon, illuminated by a mysterious GitHub logo" />
 
 You awaken in a dimly lit room. A pedestal in the center holds a glowing GitHub logo. A voice echoes: "To proceed, you must fork the path ahead."
 

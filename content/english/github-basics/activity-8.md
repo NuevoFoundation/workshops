@@ -7,7 +7,7 @@ weight: 8
 
 # Room 8: The Project Planner's Paradise
 
-{{< figure src="../images/room8_projects.jpg" title="A room with floating kanban boards and project timelines" >}}
+<img src="../images/room8_projects.jpg" alt="A room with floating kanban boards and project timelines" />
 
 You enter a room filled with floating kanban boards and project timelines. A soothing voice announces: "Bring order to chaos, plan your escape!"
 

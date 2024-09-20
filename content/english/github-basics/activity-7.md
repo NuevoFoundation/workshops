@@ -7,7 +7,7 @@ weight: 7
 
 # Room 7: The Automation Alley
 
-{{< figure src="../images/room7_actions.jpg" title="A room filled with gears and conveyor belts representing automated workflows" >}}
+<img src="../images/room7_actions.jpg" alt="A room filled with gears and conveyor belts representing automated workflows" />
 
 You step into a room buzzing with activity. Gears turn and conveyor belts move, symbolizing automated processes. A holographic display flickers to life: "Automate your way to victory!"
 

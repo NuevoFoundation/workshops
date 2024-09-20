@@ -7,7 +7,7 @@ weight: 9
 
 # Room 9: The Security Stronghold
 
-{{< figure src="../images/room9_security.jpg" title="A room filled with locks, shields, and security monitors" >}}
+<img src="../images/room9_security.jpg" alt="A room filled with locks, shields, and security monitors" />
 
 You enter a room bristling with security measures. Locks, shields, and security monitors surround you. A stern voice declares: "Secure your code to proceed!"
 
