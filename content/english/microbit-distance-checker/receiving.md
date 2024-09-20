@@ -5,7 +5,7 @@ weight: 3
 draft: false
 ---
 
-Now that we're sending messages and listening for them, we need to use that information to find out how close together or far apart our micro:bits are. To do that, we need to know how strong the signal we're receiving is. Go back into the Radio section and this time drag the "on radio received (receivedNumber)" block and drag it to an empty spot on your workspace. It should not be inside of any other block.
+Now that we're sending messages and listening for them, we need to use that information to find out the distance between the micro:bits. To do that, we need to know how strong the signal we're receiving is. Go back into the Radio section and this time drag the "on radio received (receivedNumber)" block and drag it to an empty spot on your workspace. It should not be inside of any other block.
 
 This block tells our micro:bit to do something whenever it gets a number sent to it from another micro:bit.
 
