@@ -21,9 +21,9 @@ Also, adding comments will not affect the program whatsoever. So, you can add co
 
 ## Play with Comments
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/CSharpBasicsHelloWorld" target="_blank">Launch Replit</a>
+In the .NET Fiddle frame below, add a single line comment and a multi-line comment to your program.
 
-Add a single line comment and a multi-line comment to your program.
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/TTAhVm" frameborder="0"></iframe>
 
 {{% notice tip %}}
 

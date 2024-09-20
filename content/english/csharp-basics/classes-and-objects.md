@@ -88,9 +88,8 @@ public class Person{
 ## Try it Out 🐥!
 
 Let's make a `Bird` class to represent Patrick 🐥 and all of his Bird friends by following the steps below! 
-**Note:** For this exercise, you will be working in Bird.cs instead of Main.cs.
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsBird" target="_blank">Launch Replit</a>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/OH5XQO" frameborder="0"></iframe>
 
 ### First, we start by defining the class name in the format `public` `class` `name`.
 
@@ -120,7 +119,7 @@ For example, to declare `species` as a private field of class `Bird`, you would 
 
 ### Third, let's create the constructor for the class `Bird`. 
 
-Usually, constructor is the method that initialializes value to all the fields in a class. It has the format `public` `class name` `(parameter)`. Since we have 5 fields in this class, the constructor will take in 5 parameter/inputs.
+Usually, constructor is the method that initializes value to all the fields in a class. It has the format `public` `class name` `(parameter)`. Since we have 5 fields in this class, the constructor will take in 5 parameter/inputs.
 
 ```csharp
 public Bird(string speciesInput, string nameInput, string hobbyInput, int ageInput, bool loveMusicInput){
@@ -224,4 +223,4 @@ Next, let's call the `ToString()` method on these `Bird` objects we created to p
 
 Try it out and print out all the information of the bird friends you created 🐦🐤🐔🐧!
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/CSharpBasicsClasses" target="_blank">Launch Replit</a>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/fMXXuT" frameborder="0"></iframe>
