@@ -16,7 +16,7 @@ The goal of today's activity is to learn C# skills and incorporate your new-foun
 
 The goal of today's activity is to learn C# skills and incorporate your new-found knowledge to create a Guess The Word game! Let's get the game set up.
 
-Today you will be using .NET Fiddle. 
+Today you will be using .NET Fiddle, which is an online tool designed to help you learn, build, and run C# code.
 
 {{% notice tip %}}
 Before starting, you can choose to sign up for a .NET Fiddle account, if you do not yet have one, and would like to save your work later.
