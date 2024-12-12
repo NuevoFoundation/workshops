@@ -92,7 +92,7 @@ As you can see, it is very unlikely to see a very short person or a very tall pe
 
 If you run the Replit below you will see how the generated histogram resembles the bell curve. The program creates a [histogram](https://corporatefinanceinstitute.com/resources/excel/histogram/) which shows the amount of times a value shows up in our data set. Meaning, several employees having the same salary.
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/LinearRegression-ConsoleApp#src/03-e2.py" target="_blank">Launch Replit</a>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/LinearRegression-ConsoleApp#src/03-e3.py" target="_blank">Launch Replit</a>
 
 When this happens we can use the standard error and the following equation to say: "We are 95% confident that the value of the coefficient will be in this range". But what is that range? This range is our **confidence interval**.
 
