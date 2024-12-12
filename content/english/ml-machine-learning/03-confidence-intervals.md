@@ -37,7 +37,7 @@ We need to run the linear model with more random samples.
 
 Suppose you were able to find over 10,000 records for employees within your company 😯! This is amazing since, in the world of machine learning, the more data you have the better the results you will obtain. Now let's take 30 random records from that 10,000+ dataset and check if the intercept and coefficient values differ from the original sample we had. On the Replit window below run the code as many times as you want but notice how the **intercept** and **coefficient** values are somewhat similar to the ones we calculated before. 
 
-<iframe height="500px" width="100%" src="https://replit.com/@nuevofoundation/LinearRegression-ConsoleApp#src/03-e1.py" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/LinearRegression-ConsoleApp#src/03-e1.py" target="_blank">Launch Replit</a>
 
 Why is this happening? Why are the **intercept** and **coefficient** values different every time? Why is the original sample line (i.e: green line) very close to the blue line (i.e: new sample line).
 
@@ -64,8 +64,7 @@ We can use the [StatsModels](https://www.statsmodels.org/stable/index.html) libr
 |:--:|
 |Summary of Statsmodel run|
 
-
-<iframe height="500px" width="100%" src="https://replit.com/@nuevofoundation/LinearRegression-ConsoleApp#src/03-e2.py" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/LinearRegression-ConsoleApp#src/03-e2.py" target="_blank">Launch Replit</a>
 
 Within the table lets focus on the standard error which is the value labeled **stderr**. In this case, is **409.40**. This means is that, for any random sample set, the **coefficient** or **slope** of our line will vary by 409.40 or, in other words:
 
@@ -93,7 +92,7 @@ As you can see, it is very unlikely to see a very short person or a very tall pe
 
 If you run the Replit below you will see how the generated histogram resembles the bell curve. The program creates a [histogram](https://corporatefinanceinstitute.com/resources/excel/histogram/) which shows the amount of times a value shows up in our data set. Meaning, several employees having the same salary.
 
-<iframe height="500px" width="100%" src="https://replit.com/@nuevofoundation/LinearRegression-ConsoleApp#src/03-e3.py" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/LinearRegression-ConsoleApp#src/03-e3.py" target="_blank">Launch Replit</a>
 
 When this happens we can use the standard error and the following equation to say: "We are 95% confident that the value of the coefficient will be in this range". But what is that range? This range is our **confidence interval**.
 
@@ -130,4 +129,4 @@ What we are saying with the **coefficient range** above is:
 
 The code below will take a sample of 100 random employees and create histograms to show you how they resemble a bell curve. As you can see the values never lie outside of the coefficient range.
 
-<iframe height="500px" width="100%" src="https://replit.com/@nuevofoundation/LinearRegression-ConsoleApp#src/03-e3.py" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/LinearRegression-ConsoleApp#src/03-e3.py" target="_blank">Launch Replit</a>

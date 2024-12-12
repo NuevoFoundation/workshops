@@ -20,10 +20,10 @@ As the number of employees increases so will the dataset and the value of will R
 
 In the Replit below, you can see how the code creates a "training dataset" and a "testing dataset" by splitting the data from the 10,000+ record file and running predictions for both data sets.
 
-<iframe height="500px" width="100%" src="https://replit.com/@nuevofoundation/LinearRegression-ConsoleApp#src/05-e1.py" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/LinearRegression-ConsoleApp#src/05-e1.py" target="_blank">Launch Replit</a>
 
 As you can see, the prediction line generated in both graphs is very similar for both the training and test datasets. You can also see that the R<sup>2</sup> for both sets is almost identical or sometimes identical.
 
 You can now use the code below and change the `experience` variable to whatever you want, the plot will show the predicted salary based on the experience you add.
 
-<iframe height="500px" width="100%" src="https://replit.com/@nuevofoundation/LinearRegression-ConsoleApp#src/05-e2.py" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/LinearRegression-ConsoleApp#src/05-e2.py" target="_blank">Launch Replit</a>

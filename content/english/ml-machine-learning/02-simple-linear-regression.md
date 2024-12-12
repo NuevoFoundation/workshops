@@ -150,7 +150,7 @@ In our linear equation, let's add that error with the greek letter **ε**.
 
 Scikit-learn is a machine-learning library that will help us analyze and use the built-in simple linear regression model to predict data. In the Replit window below, you can run the program `02-e1.py` which will use a data set of employees alongside their years of experience. The program will plot a sample of 30 employees out of the employees within the company:
 
-<iframe height="500px" width="100%" src="https://replit.com/@nuevofoundation/LinearRegression-ConsoleApp#src/02-e1.py" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/LinearRegression-ConsoleApp#src/02-e1.py" target="_blank">Launch Replit</a>
 
 # Exercise 2: Finding the Slope and Intercept
 
@@ -187,7 +187,7 @@ model = linear_model.LinearRegression()
 model.fit(x,y)
 ```
 
-<iframe height="500px" width="100%" src="https://replit.com/@nuevofoundation/LinearRegression-ConsoleApp#src/02-e2.py" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/LinearRegression-ConsoleApp#src/02-e2.py" target="_blank">Launch Replit</a>
 
 As you can see, the code has returned the value for the **coefficient** and **intercept** of our linear equation. Let's update our linear equation with this.
 
