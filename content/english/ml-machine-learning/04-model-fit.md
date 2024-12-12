@@ -29,7 +29,7 @@ There are many ways to find this but in the world of machine learning and statis
 
 The `Experience_vs_Salary-More_Data` file has over 10,000+ entries where you can see the salary and years of experience of employees of the company you work for. The Replit code below will take the initial sample of 30 employees and find the standard error and R<sup>2</sup>.
 
-<iframe height="500px" width="100%" src="https://replit.com/@nuevofoundation/LinearRegression-ConsoleApp#src/04-e1.py" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/LinearRegression-ConsoleApp#src/04-e1.py" target="_blank">Launch Replit</a>
 
 As you can see, the value of R<sup>2</sup> is 0.973. Now if anyone asks us if there is any relation in our data, we can say that "we are 97.3% confident that the years of experience of an employee is related to the salary they have".
 
