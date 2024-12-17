@@ -1,50 +1,37 @@
 ---
-title: "Room 1: The Fork in the Road"
-description: "Begin your adventure by forking and cloning a repository."
+title: "Activity 1: Creating a GitHub Repository"
+description: "Learn how to create a new repository on GitHub."
 difficulty: "Beginner"
 weight: 1
 ---
 
-{{< figure src="../images/room1_fork.jpg" title="The first room of the Code Dungeon, illuminated by a mysterious GitHub logo" >}}
-
-You awaken in a dimly lit room. A pedestal in the center holds a glowing GitHub logo. A voice echoes: "To proceed, you must fork the path ahead."
-
-By path, the voice means a GitHub repository. Forking creates a copy of the repository in your account, allowing you to make changes without affecting the original copy.
+To start using GitHub, you need to create a repository, which serves as a place to store your project files. Follow these step-by-step instructions:
 
 ## Your Mission
 
-1. Create a GitHub account (if you haven't already).
-2. Fork the repository: `https://github.com/VerisimilitudeX/escape-room`
-3. Clone your forked repository to your local machine.
+1. **Sign in to GitHub:** Go to [GitHub](https://github.com) and log into your account.
+2. **Create a New Repository:**
+   - Click on the '+' icon in the upper right corner of the page.
+   - Select 'New repository' from the dropdown menu.
+3. **Repository Settings:**
+   - **Repository Name:** Enter a unique name for your project.
+   - **Description:** Provide a brief description of your repository (optional).
+   - **Public/Private:** Choose whether to make your repository public or private.
+   - **Initialize this repository with a README:** Select this option to create a README file, which you can edit later.
+4. **Create Repository:** Click the 'Create repository' button.
 
 ## Instructions
 
-1. Go to GitHub and sign up or log in.
-2. Navigate to the repository URL and click the "Fork" button in the top-right corner.
-3. Once forked, click the green "Code" button and copy the URL.
-4. Open your terminal and run:
+- After creating your repository, you will be directed to the repository page.
+- Familiarize yourself with the layout, including the 'Code', 'Issues', 'Pull Requests', and 'Projects' tabs.
 
-   ```pwsh
-   git clone <YOUR_FORKED_REPO_URL>
-   cd escape-room
-   ```
+## Next Steps
 
-{{% notice %}}
-**Hint:** Look for the `README.md` file in your cloned repository. It contains a secret code to unlock the next room!
-{{% /notice %}}
+You have successfully created a new GitHub repository. To proceed to the next activity, follow the upcoming instructions for forking an existing repository.
 
 {{< expand "Need help?" >}}
-If you're stuck, try these steps:
-
-1. Make sure you're logged into GitHub.
-2. Check that you've navigated to the correct repository URL.
-3. If you're having trouble with git commands, make sure that [git](https://git-scm.com/downloads) is installed on your system.
+If you're having trouble:
+- Make sure you're logged into GitHub.
+- Check that you have a valid email address associated with your GitHub account.
+- If you're unable to create a repository, ensure your account is verified.
 {{< /expand >}}
-
-When you're ready to proceed, enter the secret code you found:
-
-[Input field for secret code]
-
-{{% notice %}}
-Note: The actual input field and encryption functionality would need to be implemented separately, as Hugo doesn't provide this out of the box.
-{{% /notice %}}

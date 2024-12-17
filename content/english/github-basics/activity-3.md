@@ -1,67 +1,40 @@
+activity_3.md
 ---
-title: "Room 3: The Pull Request Portal"
-description: "Learn to push changes and create a pull request."
-difficulty: "Intermediate"
+title: "Activity 3: Cloning a Repository"
+description: "Learn how to clone your forked GitHub repository to your local machine."
+difficulty: "Beginner"
 weight: 3
 ---
 
-# Room 3: The Pull Request Portal
-
-{{< figure src="../images/room3_pull_request.jpg" title="A massive door stands before you, with 'Pull Request' emblazoned above" >}}
-
-A massive door blocks your path, with "Pull Request" written above it. A sign reads: "To open this door, your changes must be reviewed."
+In this activity, you will learn how to clone your forked repository from GitHub to your local machine. Cloning downloads a copy of the repository, allowing you to work on it without affecting the original repository.
 
 ## Your Mission
 
-1. Push your local changes to your forked repository.
-2. Create a pull request to the original `CodeDungeon/escape-room` repository.
+1. **Copy Your Repository URL:**
+   - Go to your forked repository on GitHub.
+   - Click the green 'Code' button and copy the URL provided under 'Clone with HTTPS'.
+2. **Open Terminal:**
+   - On your local machine, open a terminal (Command Prompt, PowerShell, or any terminal of your choice).
+3. **Clone the Repository:**
+   - In the terminal, navigate to the directory where you want to save the repository using `cd <directory_path>`.
+   - Run the command:
+     `git clone <YOUR_FORKED_REPO_URL>`
+4. **Change Directory to the Project Folder:**
+   - After cloning, enter the project directory with:
+     `cd escape-room`
 
 ## Instructions
 
-1. Push your changes:
+- Ensure you have Git installed on your machine by running `git --version` in the terminal.
+- If Git is not installed, download and install it from [git-scm.com](https://git-scm.com/downloads).
 
-```
-git push origin main
-```
+## Next Steps
 
-2. Go to your forked repository on GitHub.
-3. Click "Contribute" then "Open pull request".
-4. Fill in the title as "Solution for Room 2" and provide a brief description.
-5. Click "Create pull request".
+After successfully cloning your repository, the next activity will give you guidance on creating a new branch to work on features or fixes.
 
-{{< notice info >}}
-**Hint:** Keep an eye on your pull request. The dungeon guardians (repository maintainers) will review it and may request changes!
-{{< /notice >}}
-
-{{< expand "Pull Request Process" >}}
-
-**Push Changes**
-First, push your local changes to your remote repository:
-
-```
-git push origin main
-```
-
-
-**Create Pull Request**
-1. Navigate to your fork on GitHub
-2. Click the "Pull requests" tab
-3. Click "New pull request"
-4. Ensure the base repository is the original and the head repository is your fork
-5. Click "Create pull request"
-
-**Wait for Review**
-After creating the pull request:
-1. Wait for the maintainers to review your changes
-2. Address any feedback they provide
-3. Push new commits to update the pull request if needed
-
+{{< expand "Need help?" >}}
+If you're facing difficulties:
+- Make sure you've copied the correct URL from your forked repository.
+- Check if Git is properly installed by running `git --version` in your terminal.
+- If you receive a "permission denied" error, ensure you have the necessary permissions to write to the directory where you're trying to clone the repository.
 {{< /expand >}}
-
-Once you've created your pull request, enter its number to proceed:
-
-[Input field for pull request number]
-
-{{< notice info >}}
-Note: The actual input field and encryption functionality would need to be implemented separately, as Hugo doesn't provide this out of the box.
-{{< /notice >}}

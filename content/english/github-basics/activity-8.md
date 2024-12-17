@@ -1,59 +1,44 @@
+activity_8.md
 ---
-title: "Room 8: The Project Planner's Paradise"
-description: "Master project management with GitHub Projects."
-difficulty: "Intermediate"
+title: "Activity 8: Using Git Tags"
+description: "Learn how to tag releases in your Git repository."
+difficulty: "Beginner"
 weight: 8
 ---
 
-# Room 8: The Project Planner's Paradise
-
-{{< figure src="../images/room8_projects.jpg" title="A room with floating kanban boards and project timelines" >}}
-
-You enter a room filled with floating kanban boards and project timelines. A soothing voice announces: "Bring order to chaos, plan your escape!"
+Tags in Git are used to mark specific points in the repository's history as important - typically used for marking release versions. In this activity, you will learn how to create and manage tags in your repository.
 
 ## Your Mission
 
-1. Create a new project board in your GitHub repository.
-2. Add columns for "To Do", "In Progress", and "Done".
-3. Create a few issues and add them to your project board.
-4. Move an issue across the different columns.
+1. **Open Your Terminal:**
+   - Ensure you are in the correct project directory.
+2. **Create a Tag:**
+   - To create a new tag, use the following command:
+     `git tag -a v1.0 -m "Version 1.0 released"`
+   - Replace `v1.0` with your desired tag name and provide an appropriate message.
+3. **View Your Tags:**
+   - You can view all tags in your repository by running:
+     `git tag`
+4. **Push Your Tags to GitHub:**
+   - To share your tags with others, push them to GitHub:
+     `git push origin --tags`
+5. **Deleting a Tag (if necessary):**
+   - If you need to delete a tag, use:
+     `git tag -d v1.0` to delete it locally, and then:
+     `git push origin --delete v1.0` to delete it from GitHub.
 
 ## Instructions
 
-1. Go to your GitHub repository.
-2. Click on the "Projects" tab.
-3. Click "New project" and choose "Board" as the template.
-4. Add the required columns to your board.
-5. Create a few issues in your repository.
-6. Add these issues to your project board.
-7. Move one issue through each column of your board.
+- Tags are helpful in version management; ensure you tag relevant milestones in your project.
+- Use semantic versioning (e.g., v1.0.0) for your tags to indicate major, minor, and patch versions.
 
-{{< notice info >}}
-**Tip:** Project boards are great for visualizing your workflow and tracking progress on multiple issues or pull requests.
-{{< /notice >}}
+## Next Steps
 
-{{< expand "Project Board Process" >}}
-**Create Board**
-1. Go to the "Projects" tab
-2. Click "New project"
-3. Choose "Board" template
-4. Add columns: "To Do", "In Progress", "Done"
+Now that you have familiarized yourself with tagging, the next activity will summarize collaboration workflows.
 
-**Add Issues**
-1. Go to the "Issues" tab
-2. Create new issues
-3. In each issue, click "Projects" and add to your new board
-
-**Move Issues**
-1. Go back to your project board
-2. Drag and drop issues between columns
-3. Observe how this reflects the progress of your tasks
+{{< expand "Need help?" >}}
+If you're having issues with tags:
+- Make sure you have the necessary permissions to create and push tags to the repository.
+- If you can't see your tags on GitHub after pushing, try refreshing the page or waiting a few minutes.
+- When deleting tags, ensure you have the exact tag name to avoid accidentally deleting the wrong tag.
 {{< /expand >}}
-
-After setting up your board and moving an issue, in which column did you place the issue? Enter it below:
-
-[Input field for column name]
-
-{{< notice success >}}
-Excellent planning! You've mastered GitHub Projects. Let's move on to the next challenge!
-{{< /notice >}}

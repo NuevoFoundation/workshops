@@ -1,57 +1,18 @@
+activity_9.md
 ---
-title: "Room 9: The Security Stronghold"
-description: "Fortify your repository with GitHub's security features."
-difficulty: "Advanced"
+title: "Activity 9: Collaboration Workflows"
+description: "Learn about different workflows in GitHub for collaboration."
+difficulty: "Beginner"
 weight: 9
 ---
 
-# Room 9: The Security Stronghold
-
-{{< figure src="../images/room9_security.jpg" title="A room filled with locks, shields, and security monitors" >}}
-
-You enter a room bristling with security measures. Locks, shields, and security monitors surround you. A stern voice declares: "Secure your code to proceed!"
+Understanding collaboration workflows is key to successfully working on projects with others on GitHub. Different teams may use different workflows based on their structure and needs. In this activity, you will learn about a few key workflows.
 
 ## Your Mission
 
-1. Enable Dependabot alerts for your repository.
-2. Add a security policy to your repository.
-3. Run a code scanning alert using GitHub Actions (if your repository is public).
-
-## Instructions
-
-1. Go to your repository's "Settings" tab.
-2. Click on "Security & analysis" in the left sidebar.
-3. Enable Dependabot alerts.
-4. In your repository, create a new file at `.github/SECURITY.md`.
-5. Add basic security guidelines to this file.
-6. If your repository is public, enable code scanning in the "Security & analysis" settings.
-
-{{< notice danger >}}
-**Important:** Always be cautious when dealing with security settings. Make sure you understand each feature before enabling it.
-{{< /notice >}}
-
-{{< expand "Example Security Policy" >}}
-```markdown
-# Security Policy
-
-## Reporting a Vulnerability
-
-If you discover a security vulnerability within this project, please send an e-mail to security@example.com. All security vulnerabilities will be promptly addressed.
-
-## Supported Versions
-
-Use this section to tell people about which versions of your project are currently being supported with security updates.
-
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
-
-{{< /expand >}}
-After setting up your security policy, what email address did you specify for reporting vulnerabilities? Enter it below:
-[Input field for email address]
-{{< notice success >}}
-Well done, security expert! You've fortified your repository. On to the final challenge!
-{{< /notice >}}
+1. **Familiarize with Workflows:**
+   - **Centralized Workflow:** All team members commit changes directly to the main branch of the repository. This is simple but can lead to frequent merge conflicts.
+   - **Feature Branch Workflow:** Create a new branch for each feature and merge it back into the main branch after review. This keeps the main branch stable.
+   - **Git Flow Workflow:** A more structured approach with distinct branches for features, releases, and hotfixes. This facilitates organized releases and maintenance.
+2. **Choose a Workflow for Your Project:**
+   - Discuss with your team to decide which workflow suits your project.

@@ -1,63 +1,36 @@
+activity_2.md
 ---
-title: "Room 2: The Commit Conundrum"
-description: "Learn to make changes and commit them to your repository."
+title: "Activity 2: Forking a Repository"
+description: "Learn how to fork an existing GitHub repository."
 difficulty: "Beginner"
 weight: 2
 ---
 
-# Room 2: The Commit Conundrum
-
-{{< figure src="../images/room2_commit.jpg" title="Code snippets float around a central terminal, waiting to be organized" >}}
-
-As you enter the second room, snippets of code float in the air. A terminal in the center flickers with a message: "Bring order to chaos. Commit your changes to proceed."
+Once you have created your own repository, the next step is to fork an existing repository. Forking allows you to create a copy of another user's repository to your GitHub account. This is a common way to start contributing to open-source projects.
 
 ## Your Mission
 
-1. Create a new file called `solution.md` in your local repository.
-2. Add the secret code from Room 1 to this file.
-3. Stage and commit your changes.
+1. **Navigate to the Repository:** Go to the GitHub repository you wish to fork. For example, use the following URL: `https://github.com/VerisimilitudeX/escape-room`.
+2. **Fork the Repository:**
+   - At the top right of the repository page, click the 'Fork' button.
+   - Wait for GitHub to create your fork. You will be redirected to your new forked repository.
+3. **Check Your Repository:**
+   - Make sure your GitHub username appears as the owner of the repository.
+4. **Prepare for Cloning:**
+   - Click the green 'Code' button to see the clone options.
 
 ## Instructions
 
-1. In your terminal, ensure you're in the `escape-room` directory.
-2. Create the file and add the code:
+- Review the structure of the forked repository.
+- Take note of the branches available and the number of stars or forks to understand its popularity.
 
-```
-echo "Secret Code: GITHUB_BASICS_101" > solution.md
-```
+## Next Steps
 
-3. Stage and commit your changes:
+Now that you have forked the repository, the next activity will guide you on how to clone this repository to your local machine for further work.
 
-```
-git add solution.md
-git commit -m "Add solution for Room 1"
-```
-
-
-{{< notice warning >}}
-**Tip:** Always write clear and descriptive commit messages. They help you and others understand the history of your project.
-{{< /notice >}}
-
-{{< expand "Quiz: Test Your Knowledge" >}}
-
-**Question 1: What command do you use to stage changes?**
-
-{{< button href="#" >}}git stage{{< /button >}}
-{{< button href="#" >}}git add{{< /button >}}
-{{< button href="#" >}}git commit{{< /button >}}
-
-**Question 2: What does the -m flag do in the commit command?**
-
-{{< button href="#" >}}Marks the commit as important{{< /button >}}
-{{< button href="#" >}}Merges the commit immediately{{< /button >}}
-{{< button href="#" >}}Allows you to add a commit message{{< /button >}}
-
+{{< expand "Need help?" >}}
+If you're experiencing issues:
+- Ensure you're logged into your GitHub account.
+- Check your internet connection, as forking requires a stable connection.
+- If the fork button is grayed out, you may not have the necessary permissions. Try logging out and logging back in.
 {{< /expand >}}
-
-When you've made your commit, enter the commit message you used:
-
-[Input field for commit message]
-
-{{< notice info >}}
-Note: The actual input field and encryption functionality would need to be implemented separately, as Hugo doesn't provide this out of the box.
-{{< /notice >}}

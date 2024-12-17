@@ -1,60 +1,46 @@
+activity_7.md
 ---
-title: "Room 7: The Automation Alley"
-description: "Harness the power of GitHub Actions to automate your workflow."
-difficulty: "Advanced"
+title: "Activity 7: Resolving Merge Conflicts"
+description: "Learn how to handle merge conflicts when creating pull requests."
+difficulty: "Beginner"
 weight: 7
 ---
 
-# Room 7: The Automation Alley
-
-{{< figure src="../images/room7_actions.jpg" title="A room filled with gears and conveyor belts representing automated workflows" >}}
-
-You step into a room buzzing with activity. Gears turn and conveyor belts move, symbolizing automated processes. A holographic display flickers to life: "Automate your way to victory!"
+Merge conflicts occur when changes on two branches cannot be automatically merged. This can happen when the same lines of code are modified or when one branch deletes a file that another branch has modified. In this activity, you will learn how to resolve these conflicts.
 
 ## Your Mission
 
-1. Create a simple GitHub Action workflow.
-2. Trigger the workflow by pushing a change to your repository.
-3. View the results of the automated process.
+1. **Identify the Conflict:**
+   - GitHub will notify you of any merge conflicts when trying to merge branches. Navigate to your pull request on GitHub to see the conflicts.
+2. **Open Your Local Repository:**
+   - On your local machine, navigate to the repository using your terminal.
+3. **Fetch the Latest Changes:**
+   - Run the command:
+     `git fetch origin`
+4. **Merge the Base Branch:**
+   - Try merging the branch again:
+     `git merge origin/main`
+5. **Resolve Conflicts:**
+   - Open the files with conflicts in your code editor. You will see sections labeled with `<<<<<<`, `======`, and `>>>>>>`. Edit these lines to resolve the conflict.
+   - Once resolved, save the files.
+6. **Stage and Commit the Resolved Changes:**
+   - Use the command to stage the changes:
+     `git add <filename>`
+   - Then commit:
+     `git commit -m "Resolved merge conflict"`
 
 ## Instructions
 
-1. In your local repository, create a new directory called `.github/workflows`.
-2. Inside this directory, create a file named `hello-world.yml`.
-3. Add the following content to the file:
+- Always review the changes and test your code after resolving conflicts.
+- Communicate with your team about the conflicts and how you resolved them.
 
-   ```yaml
-   name: Hello World Workflow
-   on: [push]
-   jobs:
-     say-hello:
-       runs-on: ubuntu-latest
-       steps:
-         - uses: actions/checkout@v2
-         - name: Say Hello
-           run: echo "Hello, GitHub Actions!"
+## Next Steps
 
-    ```
-4. Commit this file and push it to your GitHub repository.
-Go to the "Actions" tab in your GitHub repository to see the workflow run.
+After resolving conflicts, you can continue with your pull request process. The next activity will cover using Git tags and releases.
 
-{{< notice warning >}}
-Note: GitHub Actions can be powerful tools for automation, but be mindful of usage limits on free accounts.
-{{< /notice >}}
-{{< mermaid >}}
-graph TD
-A[Create workflow file] --> B(Commit and push)
-B --> C{Workflow triggered?}
-C -->|Yes| D[View results]
-C -->|No| E[Check workflow file for errors]
-E --> B
-{{< /mermaid >}}
-After your workflow runs successfully, what was the output of the "Say Hello" step? Enter it below:
-[Input field for workflow output]
-{{< expand "Hint" >}}
-The output should be exactly what you specified in the echo command in your workflow file.
+{{< expand "Need help?" >}}
+If you're struggling with conflict resolution:
+- Take your time to understand the conflicting changes before resolving them.
+- If you're unsure about which changes to keep, consult with your team or the original authors of the conflicting code.
+- Consider using a visual merge tool if you find it difficult to resolve conflicts in a text editor.
 {{< /expand >}}
-{{< notice success >}}
-Fantastic job! You've automated your first process with GitHub Actions. Onward to the next challenge!
-{{< /notice >}}
-

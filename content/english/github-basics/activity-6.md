@@ -1,60 +1,43 @@
+activity_6.md
 ---
-title: "Room 5: The Conflict Canyon"
-description: "Learn to resolve merge conflicts and sync with the upstream repository."
-difficulty: "Advanced"
+title: "Activity 6: Creating a Pull Request"
+description: "Learn how to create a pull request on GitHub."
+difficulty: "Beginner"
 weight: 6
 ---
 
-Welcome to the Conflict Canyon, intrepid coder! This treacherous terrain is where merge conflicts lurk, waiting to challenge even the most seasoned developers. But fear not, for with the right tools and knowledge, you'll navigate these obstacles with ease.
+Creating a pull request is a way to propose changes you have made in your branch to the original repository. This is an essential part of collaborating on GitHub. In this activity, you will learn how to create a pull request.
 
-### The Challenge of Merge Conflicts
+## Your Mission
 
-Imagine you're working on a project with your team. You've been tasked with updating the project's website, but when you try to push your changes, you encounter a merge conflict. This is where your skills will be put to the test!
+1. **Push Your Changes:**
+   - Make sure you have pushed your latest changes to your GitHub repository by running:
+     `git push origin <your_branch_name>`
+2. **Navigate to Your Repository on GitHub:**
+   - Go to your forked repository page on GitHub.
+3. **Start a Pull Request:**
+   - Click on the 'Pull requests' tab at the top of the repository page.
+   - Click the green 'New pull request' button.
+4. **Select the Branches to Compare:**
+   - Ensure the base repository is set to the original repository and the base branch is set to 'main'.
+   - Compare it to your branch where you made changes.
+5. **Create the Pull Request:**
+   - Add a title and description for your pull request.
+   - Click the 'Create pull request' button.
 
-### Understanding GitHub Issues
+## Instructions
 
-Before we dive into resolving conflicts, let's explore a crucial tool in collaborative coding: GitHub Issues. These are more than just bug reports; they're a communication hub for your project.
+- Review the changes being proposed in the pull request before submitting.
+- Communicate your changes clearly in the description to help reviewers understand your contribution.
+- If your pull request is related to an existing issue, reference it in the description using '#' followed by the issue number.
 
-### Quiz: What is the purpose of labels in GitHub Issues?
+## Next Steps
 
-Take a moment to consider the following options:
+You have successfully created a pull request. The next activity will guide you on how to handle merge conflicts in pull requests.
 
-1. To assign issues to team members
-2. To set due dates for issues
-3. To categorize and filter issues
-
-Think about how you've used GitHub in your projects. Which of these functions seems most aligned with the purpose of labels?
-
-When you're ready, choose your answer. Remember, there's only one correct option!
-
-**The correct answer is: 3. To categorize and filter issues**
-
-Labels in GitHub Issues are powerful tools for organizing your project. They allow you to quickly identify the type of issue (bug, enhancement, question), its priority, or which part of the project it affects. This categorization makes it easier to manage large projects with many issues.
-
-### Hands-On Activity: Creating an Issue
-
-Now that you understand the purpose of labels, let's put this knowledge into practice:
-
-1. Go to the GitHub repository for one of your projects.
-2. Navigate to the "Issues" tab.
-3. Click on "New Issue".
-4. Give your issue a title related to a feature you'd like to add or a bug you've noticed.
-5. In the description, provide details about the issue. Remember to be clear and concise!
-6. On the right side, you'll see options to add labels. Choose at least one appropriate label for your issue.
-7. Submit the issue.
-
-After you've created the issue, take note of its number. You'll need this for the next step.
-
-**Input the issue number:** [________________]
-
-Great job! You've successfully created and labeled an issue. This skill will be invaluable as you continue to work on collaborative projects and manage your own repositories.
-
-### Reflection
-
-Take a moment to think about how using issues and labels could improve your workflow in your projects. How might these tools help you organize tasks, track bugs, or plan new features?
-
-### Next Steps
-
-As you continue your journey through the Conflict Canyon, remember that effective communication and organization are key to navigating merge conflicts and collaborating smoothly with your team. In the next section, we'll dive deeper into resolving those tricky merge conflicts.
-
-Keep up the excellent work! Your skills in software engineering and project management are growing stronger with each challenge you overcome. Onward to the next adventure in coding!
+{{< expand "Need help?" >}}
+If you're having trouble with the pull request:
+- Ensure all your changes are pushed to your branch on GitHub.
+- If you don't see your branch, try refreshing the page or selecting it from the branch dropdown.
+- If you can't create a pull request, check if there are any restrictions set by the repository owners.
+{{< /expand >}}

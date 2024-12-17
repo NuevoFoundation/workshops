@@ -1,53 +1,45 @@
+activity_4.md
 ---
-title: "Room 4: The Merge Maze"
-description: "Navigate the complexities of code review and merging."
-difficulty: "Intermediate"
+title: "Activity 4: Creating a Branch"
+description: "Learn how to create and manage branches in Git."
+difficulty: "Beginner"
 weight: 4
 ---
 
-{{< figure src="../images/room4_merge.jpg" title="A complex maze represents the challenges of merging code" >}}
-
-You find yourself in a room with a complex maze on the floor. Paths intersect and diverge, representing the occasional challenges of merging code from your local copy to the remotely hosted version.
+Branching is an essential feature in Git that allows you to work on different lines of development without impacting the main codebase. In this activity, you will create a new branch to work on new features or fixes.
 
 ## Your Mission
 
-1. Review any comments on your pull request.
-2. Make necessary changes and update your pull request.
-3. Once approved, merge your pull request.
+1. **Open Your Terminal:**
+   - Ensure you are in the project directory by navigating to it in the terminal.
+   - Confirm your current directory with `pwd` (on Mac/Linux) or `cd` (on Windows).
+2. **Check Existing Branches:**
+   - Run the command:
+     `git branch`
+   - This will list all existing branches.
+3. **Create a New Branch:**
+   - Use the following command to create a new branch:
+     `git branch <new_branch_name>`
+   - Replace `<new_branch_name>` with a name that reflects the purpose of the branch.
+4. **Switch to the New Branch:**
+   - Run the command:
+     `git checkout <new_branch_name>`
+5. **Verify the Branch Change:**
+   - Check to ensure you are on the new branch by running `git branch` again.
+   - The current branch will be highlighted.
 
 ## Instructions
 
-1. Check your pull request for any review comments.
-2. If changes are requested:
-   - Make the changes locally
-   - Commit the changes
-   - Push to your fork
-3. The pull request will update automatically.
-4. Once approved, click "Merge pull request" on the GitHub interface.
+- When making changes, ensure they are committed to this branch before merging or switching branches.
+- Use descriptive names for your branches to easily identify their purpose.
 
-{{< notice warning >}}
-**Important:** Communication is key! If you're unsure about the requested changes, don't hesitate to ask for clarification in the pull request comments.
-{{< /notice >}}
+## Next Steps
 
-{{< mermaid >}}
-graph TD
-    A[Check PR Comments] -->|Changes Requested| B(Make Local Changes)
-    B --> C(Commit Changes)
-    C --> D(Push to Fork)
-    D --> E{PR Approved?}
-    E -->|Yes| F(Merge PR)
-    E -->|No| A
-    A -->|No Changes Needed| E
-{{< /mermaid >}}
+You are now ready to make changes to your new branch. The next activity will cover how to merge branches.
 
-After successfully merging your pull request, what message did you see? Enter it below to proceed:
-
-[Input field for merge message]
-
-{{< expand "Hint" >}}
-The message you're looking for is typically something like "Pull request successfully merged and closed."
+{{< expand "Need help?" >}}
+If you're encountering issues:
+- Make sure you're in the correct directory of your cloned repository.
+- If you can't create a new branch, ensure you have the latest version of the repository by running `git fetch` first.
+- If you're unable to switch branches, commit or stash your changes in the current branch before switching.
 {{< /expand >}}
-
-{{< notice info >}}
-Note: The actual input field and encryption functionality would need to be implemented separately, as Hugo doesn't provide this out of the box.
-{{< /notice >}}
