@@ -1,7 +1,7 @@
 ---
 title: "KC7: Cyber Defender Game"
 description: "KC7 is a game that teaches you real world cybersecurity skills used by professional Cyber Defenders"
-date: 2023-02-1T13:24:17-07:00
+date: 2023-02-01T13:24:17-07:00
 prereq: "None"
 difficulty: "Advanced"
 draft: false
