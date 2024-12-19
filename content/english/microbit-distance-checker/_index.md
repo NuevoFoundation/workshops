@@ -1,7 +1,7 @@
 ---
 title: "Blocks: micro:bit Wireless Social Distancing"
 description: "A guide to keeping at least 2m apart with Bluetooth"
-date: 2020-07-297T08:45:08-07:00
+date: 2020-07-29T08:45:08-07:00
 prereq: "None"
 difficulty: "Beginner"
 download: ""

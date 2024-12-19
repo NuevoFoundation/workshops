@@ -1,6 +1,6 @@
 ---
 title: "Get to know VS Code"
-date: 2023-09-123T11:45:38-07:00
+date: 2023-09-12T11:45:38-07:00
 draft: false
 weight: 1
 ---
