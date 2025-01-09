@@ -73,7 +73,7 @@ Use what you just learn and recreate this owl below using just 4 lines of code! 
      Main.java:4: error: reached end of file while parsing
 If you get an error like this, it is possible that you forgot to escape chararcters such as `"` and `\`.
 
-Revisit the third tip above to see how to escape characters in a print statement!
+Revisit the third tip above to see how to escape characters in a print statement
 {{% /notice %}}
 
 ## Make a Comment
