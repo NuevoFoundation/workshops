@@ -51,8 +51,13 @@ weight = 7
 languageName = "繁體中文"
 contentDir = "content/traditional-chinese"
 
-[Languages.ky]
+[Languages.kr]
 weight = 8
+languageName = "한국어"
+contentDir = "content/korean"
+
+[Languages.ky]
+weight = 9
 languageName = "Кыргызча"
 contentDir = "content/kyrgyz"
 

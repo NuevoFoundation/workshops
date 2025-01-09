@@ -1,0 +1,81 @@
+# body-beforecontent.html
+[navigation]
+other = "항해:"
+
+# next-prev-button.html
+[up-next]
+other = "다음:"
+
+[previous]
+other = "이전의:"
+
+# custom-footer.html
+[join-social-media]
+other = "소셜 미디어에서 대화에 참여하세요."
+
+[copyright-footer]
+other = "© 저작권 2025, 모든 권리는 501(c)(3) 비영리 단체인 Nuevo Foundation에 있습니다."
+
+# header.html
+[donate]
+other = "기부하기"
+
+[what-we-do]
+other = "우리가 하는 일"
+
+[workshops]
+other = "워크샵"
+
+[get-involved]
+other = "참여하세요"
+
+[support-us]
+other = "우리를 지원해주세요"
+
+[event-blog]
+other = "이벤트 블로그"
+
+[our-team]
+other = "우리 팀"
+
+[contact-us]
+other = "문의하기"
+
+# Metadata.html
+[workshop-resources]
+other = "워크숍 리소스"
+
+[pre-requisite]
+other = "필요 조건:"
+
+[difficulty]
+other = "어려움:"
+
+[download]
+other = "다운로드:"
+
+# next-prev-page.html
+[you-did-it]
+other = "성공했어요!"
+
+[workshop-complete]
+other = "워크숍 완료"
+
+# notice.html
+[note]
+other = "주석"
+
+[info]
+other = "정보"
+
+[warning]
+other = "경고"
+
+[tip]
+other = "정보"
+
+[help]
+other = "도움"
+
+[hint]
+other = "힌트"
