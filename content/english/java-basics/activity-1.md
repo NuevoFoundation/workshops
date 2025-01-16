@@ -59,7 +59,7 @@ Let's meet 🐥 Patrick's first friend, the owl Minerva 🦉!
 
 Use what you just learn and recreate this owl below using just 4 lines of code! (Art credit: asciiart.eu/animals/birds-land)
 
-        , ___    / ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ \
+        , ___    / ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ \
      `\/{o,o}  <   Hi, I am Minerva. Patrick's friend!  |
       / /)  )    \ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ /
      /,--"-"- 
