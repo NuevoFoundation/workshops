@@ -51,6 +51,6 @@ If you type `Console.WriteLine(""");`, you will get an error because the compute
 Instead, certain characters need to be <b>escaped</b> by adding a `\` in front of it.
 
 ```csharp
-Console.Writeline("\"");`  // this prints out "
+Console.Writeline("\"");  // this prints out "
 ```
 {{% /notice %}}
