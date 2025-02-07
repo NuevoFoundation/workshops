@@ -13,8 +13,8 @@ draft: false
 em seu próprio som único. Semelhante a como usamos `fitMedia()` para adicionar
 novos clipes de áudio, devemos usar a função `setEffect()` para definir
 efeitos específicos para cada clipe de áudio. É importante notar que
-vários efeitos podem ser colocados na mesma trilha. Isto permite que
-produtor para combinar vários efeitos juntos. Earsketch tem muitos
+vários efeitos podem ser colocados na mesma trilha. Isto
+permite ao produtor combinar vários efeitos juntos. Earsketch tem muitos
 efeitos integrados. Para fazer referência a todos os efeitos, visite este
 [link](https://earsketch.gatech.edu/earsketch2/#?curriculum=5-1-0&language=python) e certifique-se de que o painel *Curriculum* esteja selecionado na barra de navegação.
 
@@ -58,8 +58,7 @@ das duas funções `setEffect`:
 
 ## Adicione a função setEffect à sua música
 
-Como estamos mais familiarizados com o uso de efeitos, vamos adicionar um efeito ao
-nossa música.
+Como estamos mais familiarizados com o uso de efeitos, vamos adicionar um efeito à nossa música.
 
 1. No navegador API à esquerda, vá até API `setEffect`.
 2. Insira uma chamada de função `setEffect` em seu código, usando o ícone de colar.
