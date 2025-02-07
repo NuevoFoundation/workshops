@@ -9,10 +9,8 @@ draft: false
 
 Agora que você tem um efeito em sua música, vamos tentar fazer um fade in (aparecimento) na introdução de nossa música.
 
-Na atividade 4, usamos a função `setEffect` para aplicar um efeito a uma faixa específica
-durante toda a duração da música, mas e se você quiser apenas um
-seção específica da sua música tenha efeito? Use o `setEffect`
-função com mais parâmetros!
+Na atividade 4, usamos a função `setEffect` para aplicar um efeito a uma faixa específica durante toda a duração da música, mas e se você quiser que apenas uma seção específica da sua música tenha efeito? 
+Use o `setEffect` função com mais parâmetros!
 ![](../img/screenshot-seteffect2.png)
 
 - `effectStartValue`: O valor inicial aplicado ao parâmetro
