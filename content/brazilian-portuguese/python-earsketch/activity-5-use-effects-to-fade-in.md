@@ -23,7 +23,7 @@ em uma peça específica da nossa música. Automação é uma forma de mudar o v
 de um efeito ao longo do tempo. Um uso da automação é fazer com que uma música apareça gradualmente
 ou desaparecer. Para fazer isso, devemos ajustar o **GAIN** `effectParameter`'s
 volume no **VOLUME** `effectType` ao longo do tempo. Por exemplo, se nós
-defina nosso `effectStartValue` em -60 db e nosso `effectEndValue` em 0
+definirmos nosso `effectStartValue` em -60 db e nosso `effectEndValue` em 0
 db, vai soar como se nossa música estivesse desaparecendo com o tempo. Para ajustar o
 ponto inicial e duração do efeito, especifique o
 `efeitoStartLocation` e `efeitoEndLocation`.
