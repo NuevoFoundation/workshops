@@ -31,7 +31,7 @@ Você pode especificar seus próprios valores para o seguinte:
 
 - `fileName` - Navegue até o painel \'Sounds\' e encontre um som que você gosta.
 - `trackNumber` - selecione qualquer número inteiro positivo como o número da faixa.
-- `startLocation/endlocation` - esses parâmetros são quantificados em compassos (measures). Um compasso é um segmento de tempo que se correlaciona com um número específico de batidas.
+- `startLocation/endlocation` - esses parâmetros são quantificados em compassos. Um compasso é um segmento de tempo que se correlaciona com um número específico de batidas.
 
 Se você não tiver certeza de quais valores escolher, tente o seguinte:
 
