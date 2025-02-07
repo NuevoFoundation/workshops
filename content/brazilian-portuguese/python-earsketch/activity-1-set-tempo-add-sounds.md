@@ -39,7 +39,7 @@ Se você não tiver certeza de quais valores escolher, tente o seguinte:
 
 Seu código agora deve parecer algo assim:
     {{% notice info %}}
-    da importação de earketch *
+     from earsketch import *
         init()
         setTempo(120)
         fitMedia(YG_TRAP_ELECTRIC_PIANO_FILTERED_1, 3, 1, 17)
