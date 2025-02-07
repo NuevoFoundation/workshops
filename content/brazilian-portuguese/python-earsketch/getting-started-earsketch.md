@@ -14,7 +14,7 @@ draft: false
 <a class="my-2 mx-4 btn btn-info" href="https://earsketch.gatech.edu/earsketch2/" target="_blank">Iniciar Earsketch</a>
 
 2. Agora vamos começar. Clique no ícone *Scripts* na barra de menu esquerda e
-selecione *Create a new script*. Quando solicitado a inserir o nome do script, digite *myjam* e clique no botão *Criar*.
+selecione *Create a new script*. Quando solicitado a inserir o nome do script, digite *myjam* e clique no botão *Create*.
 
 ![texto alternativo height="600px" width="60%"](../gif/createanewscript.gif "Nova demonstração de script")
 
