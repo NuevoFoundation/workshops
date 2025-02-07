@@ -21,8 +21,7 @@ Bem-vindo a este guia introdutório sobre como fazer música usando
 
 ### Nuvi tem novos fones de ouvido! Você consegue encontrar o seu?
 
-Você foi contatado para fazer a próxima mixtape de sucesso do Nuvi, mas quando você chega ao estúdio, Nuvi diz que seu próximo projeto será produzido todo em código. Isso é algo que nunca foi feito antes. Você está à altura do desafio? Olhe ao seu redor para encontrar seus fones de ouvido e prepare-se para
-Junte-se a ele!
+Você foi contatado para fazer a próxima mixtape de sucesso do Nuvi, mas quando você chega ao estúdio, Nuvi diz que seu próximo projeto será produzido todo em código. Isso é algo que nunca foi feito antes. Você está à altura do desafio? Olhe ao seu redor para encontrar seus fones de ouvido e prepare-se para se juntar a ele!
 
 Antes de começarmos, certifique-se de que seus fones de ouvido estejam funcionando. Tente reproduzir o seguinte áudio. O que você ouve?!
 
