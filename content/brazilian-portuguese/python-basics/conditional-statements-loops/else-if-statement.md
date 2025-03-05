@@ -75,7 +75,7 @@ No Exemplo B avaliaremos a primeira instrução `if` (`1==1`) como `verdadeiro`.
 #### Desafio
 Você pode utilizar o conhecimento que aprendeu em Python:Fundamentos-booleanos para criar seu próprio exemplo para `elif`?
 Você pode querer revisar o booleano para terminar este desafio.
-- <a href="../../python-basics/data-types/booleans"> Booleans </a>
+- <a href="../../python-basics/data-types/booleans"> Booleanos </a>
 <br/><br/>
 
 <iframe src="https://trinket.io/embed/python/5292ae7e3a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
