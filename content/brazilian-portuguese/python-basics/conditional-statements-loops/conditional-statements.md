@@ -61,7 +61,7 @@ Isto é realmente como a declaração `if`! No entanto, aqui, se a instrução `
 Um exemplo da vida real é que se estou com fome, como. Caso contrário (em outras palavras, não estou com fome), não comerei. Vamos dar uma olhada no código python!
 
 ```python
-if (hungry):
+if (comFome):
     como
 else:
     não_como
