@@ -15,10 +15,10 @@ Nesta seção, usaremos um loop dentro de outro, que é chamado de *Nested loop*
 ### Nested while loop
 ```python
 #Este é o formato do nested while loop
-while expressionA:
-    while expressionB:
-        statement(B)
-    statement(A)
+while expressãoA:
+    while expressãoB:
+        declaração(B)
+    declaração(A)
 ```
 No loop `while` acima, quando expressãoA produz `Falso`, pularemos o bloco inteiro. Quando a expressãoA produzir `Verdadeiro`, iremos para o loop while interno e verificaremos a expressãoB. Se a expressãoB produzir `Verdadeiro`, a instrução (B) será executada. Se a expressãoB produzir `Falso`, pularemos o loop while interno e iremos para a instrução (A).
 
