@@ -32,9 +32,9 @@ Vamos dar uma olhada em um exemplo de loop while aninhado.
  #Abaixo está nosso loop externo
  while x <3:
      #Imprime se "x < 3" produz Verdadeiro
-     print("Passe pelo loop while externo, x é", x, "y é", y, sep = " ")
+     print("Passando pelo loop while externo, x é", x, "y é", y, sep = " ")
      #Abaixo está nosso loop interno
-     enquanto y < 5:
+     while y < 5:
          #Imprime se "y < 5" produz Verdadeiro
          print("Passe pelo loop while interno, x é", x, "y é", y, sep = " ")
          y + = 1
