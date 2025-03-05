@@ -30,7 +30,7 @@ Vamos dar uma olhada em um exemplo de loop while aninhado.
  x = 0
  y = 0
  #Abaixo está nosso loop externo
- enquanto x <3:
+ while x <3:
      #Imprime se "x < 3" produz Verdadeiro
      print("Passe pelo loop while externo, x é", x, "y é", y, sep = " ")
      #Abaixo está nosso loop interno
