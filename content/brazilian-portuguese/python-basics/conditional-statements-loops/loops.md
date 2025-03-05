@@ -80,7 +80,7 @@ count = 0
 while True:  #Isso fará com que o loop while seja executado para sempre! a menos que haja uma instrução break em algum lugar do loop.
     print("contagem é", count)
     
-    if (count == 10): #Isso diz que a contagem é igual a 10, então saia do loop while
+    if (count == 10): #Isso diz que se count é igual a 10, então saia do loop while
         print("Saindo do loop!")
         break
     
