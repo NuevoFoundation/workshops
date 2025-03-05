@@ -56,7 +56,7 @@ else:
     declaração2
 ```    
 
-Isto é realmente como a declaração `if`! No entanto, aqui, se a instrução `if` for `falsa` (não verdadeira), o programa executará automaticamente a `instrução2` na instrução `else`.
+Isto é realmente como a declaração `if`! No entanto, aqui, se a instrução `if` for `falsa` (não verdadeira), o programa executará automaticamente a `declaração2` na instrução `else`.
 
 Um exemplo da vida real é que se estou com fome, como. Caso contrário (em outras palavras, não estou com fome), não comerei. Vamos dar uma olhada no código python!
 
