@@ -14,12 +14,12 @@ Nesta seção, expandiremos para introduzir uma nova condição chamada “elif�
 
 ```python
 # Esta é a sintaxe básica do elif
-if expressão:
-    declaração(ões)
-elif expressão:
-    declaração(ões)
+if expressão1:
+    declaração1
+elif expressão2:
+    declaração2
 else:
-    declaração(ões)
+    declaração3
 ```
 
 #### Vamos ver um exemplo
