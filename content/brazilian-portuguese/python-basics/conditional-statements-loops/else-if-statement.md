@@ -46,8 +46,7 @@ if 3 == 3:
 else:
     print('wrong')
 ```
-Example A will print out:
-
+O Exemplo A imprimirá:
 ```
 1 = 1
 3 = 3
