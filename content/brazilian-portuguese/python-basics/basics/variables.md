@@ -47,7 +47,7 @@ A seguir estão os tipos de dados importantes:
 `char` | caractere como um símbolo ou uma única letra do alfabeto | `'A'`,`'b'`, `'('`, `']'`
 `String` | uma sequência de `char` | `"Hello"`, `"Bonjour"`, `"Olá"`
 `boolean` |tem um valor de `verdadeiro` ou `falso` | `true`, `false`
-double | números fracionários | `2.0`, `3.14`, `9.33`
+`double` | números fracionários | `2.0`, `3.14`, `9.33`
 
 {{% /notice %}}
 
