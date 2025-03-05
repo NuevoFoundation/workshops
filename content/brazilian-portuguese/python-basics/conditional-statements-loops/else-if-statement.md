@@ -10,7 +10,7 @@ Nesta seção, expandiremos para introduzir uma nova condição chamada “elif�
 
 ### Condição Elif
 
-**Elif Keyword** representa a condição "else-if". Um exemplo do mundo real seria: Se eu estiver com muita fome, comerei um bolo; caso contrário, se estiver com um pouco de fome, comerei uma maçã; caso contrário, não comerei nada. Você pode ver que é usado quando deseja tentar outra condição se a primeira não for verdadeira.
+**A palavra-chave Elif** representa a condição "else-if". Um exemplo do mundo real seria: Se eu estiver com muita fome, comerei um bolo; caso contrário, se estiver com um pouco de fome, comerei uma maçã; caso contrário, não comerei nada. Você pode ver que é usado quando deseja tentar outra condição se a primeira não for verdadeira.
 
 ```python
 # Esta é a sintaxe básica do elif
