@@ -73,7 +73,7 @@ No Exemplo A, avaliaremos a primeira instrução `if` (`1==1`) como `verdadeiro`
 No Exemplo B avaliaremos a primeira instrução `if` (`1==1`) como `verdadeiro`. Então a parte restante de `elif` e `else` não será avaliada, pois `if` já está correto.
 
 #### Desafio
-Você pode utilizar o conhecimento que aprendeu em Python-Basics-booleans para criar seu próprio exemplo para `elif`?
+Você pode utilizar o conhecimento que aprendeu em Python:Fundamentos-booleanos para criar seu próprio exemplo para `elif`?
 Você pode querer revisar o booleano para terminar este desafio.
 - <a href="../../python-basics/data-types/booleans"> Booleans </a>
 <br/><br/>
