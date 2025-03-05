@@ -45,7 +45,7 @@ No entanto, podemos ver que `y` não é menor que `x`, então é avaliado como `
 
 # Outras declarações
 
-Agora que sabemos como usar declaração if para executar condicionalmente uma única declaração ou múltiplas declaração, vamos ver o que mais podemos fazer!
+Agora que sabemos como usar declaração if para executar condicionalmente uma única declaração ou múltiplas declarações, vamos ver o que mais podemos fazer!
 
 Às vezes, você precisa avaliar uma condição para agir de acordo se ela for “verdadeira”, mas se for “falsa”, agimos de maneira diferente. Aqui está a forma mais simples da declaração `else`.
 
