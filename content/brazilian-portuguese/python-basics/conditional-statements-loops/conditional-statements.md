@@ -23,7 +23,7 @@ Mostrado acima, temos três partes diferentes:
 
 1. If – isso informa ao computador que decidiremos com base na expressão entre parênteses
 2. Expr – representa a expressão que estamos avaliando. Se a expressão for "verdadeira", o computador entrará na declaração (statement) if e executará a declaração.
-3. Declaração – o que o computador completará se a expressão for “verdadeira”
+3. Statement – o que o computador completará se a expressão for “verdadeira”
 
 ```python
 x = 0
