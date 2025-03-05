@@ -84,7 +84,7 @@ while True:  #Isso fará com que o loop while seja executado para sempre! a meno
         print("Saindo do loop!")
         break
     
-    count += 1  # isso é igual a contar = contar + 1
+    count += 1  # isso é igual a count = count + 1
 ```
 
 <iframe src="https://trinket.io/embed/python/6cd0debfe5" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
