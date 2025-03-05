@@ -20,7 +20,7 @@ while expressãoA:
         declaração(B)
     declaração(A)
 ```
-No loop `while` acima, quando expressãoA produz `Falso`, pularemos o bloco inteiro. Quando a expressãoA produzir `Verdadeiro`, iremos para o loop while interno e verificaremos a expressãoB. Se a expressãoB produzir `Verdadeiro`, a instrução (B) será executada. Se a expressãoB produzir `Falso`, pularemos o loop while interno e iremos para a instrução (A).
+No loop `while` acima, quando expressãoA produz `Falso`, pularemos o bloco inteiro. Quando a expressãoA produzir `Verdadeiro`, iremos para o loop while interno e verificaremos a expressãoB. Se a expressãoB produzir `Verdadeiro`, a declaração (B) será executada. Se a expressãoB produzir `Falso`, pularemos o loop while interno e iremos para a declaração (A).
 
 Se expressãoA produzir `Falso`, nenhuma das instruções será executada; instrução (A) e instrução (B) serão executadas se e somente se expressãoA e expressãoB produzirem `Verdadeiro`.
 
