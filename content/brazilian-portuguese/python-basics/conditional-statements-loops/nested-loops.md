@@ -22,7 +22,7 @@ while expressãoA:
 ```
 No loop `while` acima, quando expressãoA produz `Falso`, pularemos o bloco inteiro. Quando a expressãoA produzir `Verdadeiro`, iremos para o loop while interno e verificaremos a expressãoB. Se a expressãoB produzir `Verdadeiro`, a declaração (B) será executada. Se a expressãoB produzir `Falso`, pularemos o loop while interno e iremos para a declaração (A).
 
-Se expressãoA produzir `Falso`, nenhuma das instruções será executada; instrução (A) e instrução (B) serão executadas se e somente se expressãoA e expressãoB produzirem `Verdadeiro`.
+Se expressãoA produzir `Falso`, nenhuma das instruções será executada; declaração (A) e declaração (B) serão executadas se e somente se expressãoA e expressãoB produzirem `Verdadeiro`.
 
 Vamos dar uma olhada em um exemplo de loop while aninhado.
  ```python
