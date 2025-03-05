@@ -36,7 +36,7 @@ Vamos dar uma olhada em um exemplo de loop while aninhado.
      #Abaixo está nosso loop interno
      while y < 5:
          #Imprime se "y < 5" produz Verdadeiro
-         print("Passe pelo loop while interno, x é", x, "y é", y, sep = " ")
+         print("Passando pelo loop while interno, x é", x, "y é", y, sep = " ")
          y + = 1
      #Os códigos abaixo são executados após o término de cada loop interno.
      x + = 1
@@ -45,24 +45,24 @@ Vamos dar uma olhada em um exemplo de loop while aninhado.
 Esta é a saída do nosso exemplo.
 
  ```output
-Passe pelo loop while externo, x é 0 y é 0
-Passe pelo loop while interno, x é 0 y é 0
-Passe pelo loop while interno, x é 0 y é 1
-Passe pelo loop while interno, x é 0 y é 2
-Passe pelo loop while interno, x é 0 y é 3
-Passe pelo loop while interno, x é 0 y é 4
-Passe pelo loop while externo, x é 1 y é 0
-Passe pelo loop while interno, x é 1 y é 0
-Passe pelo loop while interno, x é 1 y é 1
-Passe pelo loop while interno, x é 1 y é 2
-Passe pelo loop while interno, x é 1 y é 3
-Passe pelo loop while interno, x é 1 y é 4
-Passe pelo loop while externo, x é 2 y é 0
-Passe pelo loop while interno, x é 2 y é 0
-Passe pelo loop while interno, x é 2 y é 1
-Passe pelo loop while interno, x é 2 y é 2
-Passe pelo loop while interno, x é 2 y é 3
-Passe pelo loop while interno, x é 2 y é 4
+Passando pelo loop while externo, x é 0 y é 0
+Passando pelo loop while interno, x é 0 y é 0
+Passando pelo loop while interno, x é 0 y é 1
+Passando pelo loop while interno, x é 0 y é 2
+Passando pelo loop while interno, x é 0 y é 3
+Passando pelo loop while interno, x é 0 y é 4
+Passando pelo loop while externo, x é 1 y é 0
+Passando pelo loop while interno, x é 1 y é 0
+Passando pelo loop while interno, x é 1 y é 1
+Passando pelo loop while interno, x é 1 y é 2
+Passando pelo loop while interno, x é 1 y é 3
+Passando pelo loop while interno, x é 1 y é 4
+Passando pelo loop while externo, x é 2 y é 0
+Passando pelo loop while interno, x é 2 y é 0
+Passando pelo loop while interno, x é 2 y é 1
+Passando pelo loop while interno, x é 2 y é 2
+Passando pelo loop while interno, x é 2 y é 3
+Passando pelo loop while interno, x é 2 y é 4
  ```
 
 #### Perguntas
@@ -83,14 +83,14 @@ Tente alterar os números inteiros no nested while loop e prever as saídas. Em 
 
 ```python
 #Este é o formato do loop for aninhado
-for variávelA in rangeA:
-   for variávelB in rangeB:
+for variávelA in intervaloA:
+   for variávelB in intervaloB:
       declarações(B)
    declarações(A)
 ```
-No loop `for` acima, quando a variávelA não estiver no intervaloA, pularemos o bloco inteiro. Quando a variávelA estiver no intervaloA, iremos para o loop for interno. Se a variávelB estiver no intervaloB, a instrução (B) será executada. Se a variávelB não estiver no intervaloB, pularemos o loop for interno e iremos para o loop externo.
+No loop `for` acima, quando a variávelA não estiver no intervaloA(rangeA), pularemos o bloco inteiro. Quando a variávelA estiver no intervaloA, iremos para o loop for interno. Se a variávelB estiver no intervaloB, a instrução (B) será executada. Se a variávelB(rangeB) não estiver no intervaloB, pularemos o loop for interno e iremos para o loop externo.
 
-Se a variávelA não estiver no intervaloA, nenhuma das instruções será executada; instrução (B) e instrução (A) serão executadas se e somente se a variávelA estiver no intervaloA e a variávelB estiver no intervaloB.
+Se a variávelA não estiver no intervaloA, nenhuma das instruções será executada; declaração (B) e declaração (A) serão executadas se e somente se a variávelA estiver no intervaloA e a variávelB estiver no intervaloB.
 
 Vejamos um exemplo.
 
