@@ -55,7 +55,7 @@ count = 0
 
 while count < 5:
     print("A contagem atual é", count)
-    count += 1  #Isso é a mesma coisa que contar = contar + 1
+    count += 1  #Isso é a mesma coisa que count = count + 1
 ```
 
 <iframe src="https://trinket.io/embed/python/6d4f0c86f0" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
