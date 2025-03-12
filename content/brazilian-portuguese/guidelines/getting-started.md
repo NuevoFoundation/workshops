@@ -26,7 +26,7 @@ Para começar:
 
 ![imagem](../media/fork.png)
 
-2. No git bash, execute (substituindo _[nome de usuário]_ pelo seu nome de usuário do GitHub):
+2. No git bash, execute (substituindo _[user-name]_ pelo seu nome de usuário do GitHub):
 
 ```
 \> git clone https://github.com/[user-name]/workshops.git
