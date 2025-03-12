@@ -1,203 +1,227 @@
 ---
-title: "Formatando"
+title: "Formatando de um Jeitinho Divertido"
 date: 2020-07-29T14:08:32-07:00
 draft: false
 weight: 5
 ---
-Ao criar ou modificar workshops, você os escreverá usando a sintaxe Markdown padrão, além de alguma sintaxe personalizada adicional. Esta página explica qual sintaxe usar para adicionar formatos específicos a um workshop.
+Quando você cria ou muda os workshops, você usa uma linguagem especial chamada Markdown. Aqui, vamos aprender a usar essa linguagem para deixar seus textos mais bonitos e divertidos!
 
-## Referência de formatação
+## Guia de Formatação
 
-- [Folha de dicas do Markdown padrão](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-- [Opções de formatação personalizada usando códigos de acesso](/guidelines/shortcodes/)
+- [Dicas Rápidas do Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [Opções Legais com Códigos Especiais](/guidelines/shortcodes/)
 
-## Exemplos de formatação
+## Exemplos de Formatação
 
-Este tema inclui uma série de opções para personalizar a aparência do seu site. Abaixo, você pode encontrar vários exemplos de uso, que incluem a sintaxe a ser usada seguida pelo que realmente é mostrado em uma página quando você usa essa sintaxe.
+Este tema tem várias maneiras de deixar seu site do jeitinho que você gosta. Veja abaixo alguns exemplos: o que você precisa digitar e como vai aparecer na sua página.
 
-### Alertas
+### Caixas de Aviso
 
-#### Informações
+#### Informação
 
-    {{</* alert theme="info" */>}}**Isto** é uma informação {{</* /alert */>}}
+    {{</* alert theme="info" */>}}**Olha!** Esta é uma informação {{</* /alert */>}}
 
-{{< alert theme="info">}}**Isto** é uma informação{{< /alert >}}
+Que fica assim:
+
+{{< alert theme="info">}}**Olha!** Esta é uma informação{{< /alert >}}
 
 #### Sucesso
 
-    {{</* alert theme="success" */>}}**Yeahhh !** é um sucesso{{</* /alert */>}}
+    {{</* alert theme="success" */>}}**Uhu!** Tudo deu certo!{{</* /alert */>}}
 
-{{< alert theme="success" >}}**Yeahhh !** é um sucesso{{< /alert >}}
+Que fica assim:
 
-#### Aviso
+{{< alert theme="success" >}}**Uhu!** Tudo deu certo!{{< /alert >}}
 
-    {{</* alert theme="warning" */>}}**Aviso** é um aviso{{</* /alert */>}}
+#### Atenção
 
-{{< alert theme="warning" >}}**Aviso** é um aviso{{< /alert >}}
+    {{</* alert theme="warning" */>}}**Atenção!** Preste cuidado!{{</* /alert */>}}
+
+Que fica assim:
+
+{{< alert theme="warning" >}}**Atenção!** Preste cuidado!{{< /alert >}}
 
 #### Perigo
 
-    {{</* alert theme="danger" */>}}**Cuidado !** é um perigo{{</* /alert */>}}
+    {{</* alert theme="danger" */>}}**Cuidado!** Pode ser perigoso!{{</* /alert */>}}
 
-{{< alert theme="danger" >}}**Cuidado !** é um perigo{{< /alert >}}
+Que fica assim:
+
+{{< alert theme="danger" >}}**Cuidado!** Pode ser perigoso!{{< /alert >}}
 
 ### Botões
 
-    {{</* button href="https://nuevofoundation.org" */>}} ir para Nuevo Foundation {{</* /button */>}}
+#### Botão Simples
 
-{{<button href="https://google.com" >}} ir para Nuevo Foundation {{< /button >}}
+    {{</* button href="https://nuevofoundation.org" */>}} Visite o site da Nuevo Foundation {{</* /button */>}}
+
+Que fica assim:
+
+{{<button href="https://google.com" >}} Visite o site da Nuevo Foundation {{< /button >}}
 
 #### Botão de Sucesso
 
-    {{</* button href="https://nuevofoundation.org" theme="success" */>}} Sucesso {{</* /button */>}}
+    {{</* button href="https://nuevofoundation.org" theme="success" */>}} Tudo Certo! {{</* /button */>}}
 
-{{<button href="https://google.com" theme="success">}} Sucesso {{< /button >}}
+Que fica assim:
 
-#### Botão Informação
+{{<button href="https://google.com" theme="success">}} Tudo Certo! {{< /button >}}
 
-    {{</* button href="https://nuevofoundation.org" theme="info" */>}} Informação {{</* /button */>}}
+#### Botão de Informação
 
-{{<button href="https://google.com" theme="info">}} Informação {{< /button >}}
+    {{</* button href="https://nuevofoundation.org" theme="info" */>}} Mais Informações {{<//* /button */>}}
 
-#### Botão de Aviso
+Que fica assim:
 
-    {{</* button href="https://nuevofoundation.org" theme="warning" */>}} Aviso {{</* /button */>}}
+{{<button href="https://google.com" theme="info">}} Mais Informações {{< /button >}}
 
-{{<button href="https://google.com" theme="warning">}} Aviso {{< /button >}}
+#### Botão de Atenção
+
+    {{</* button href="https://nuevofoundation.org" theme="warning" */>}} Atenção! {{<//* /button */>}}
+
+Que fica assim:
+
+{{<button href="https://google.com" theme="warning">}} Atenção! {{< /button >}}
 
 #### Botão de Perigo
 
-    {{</* button href="https://nuevofoundation.org" theme="danger" */>}} Perigo ! {{</* /button */>}}
+    {{</* button href="https://nuevofoundation.org" theme="danger" */>}} Cuidado! {{<//* /button */>}}
 
-{{<button href="https://google.com" theme="danger">}} Perigo ! {{< /button >}}
+Que fica assim:
 
-#### Botão Padrão
+{{<button href="https://google.com" theme="danger">}} Cuidado! {{< /button >}}
 
-    {{</* button href="https://nuevofoundation.org" theme="default" */>}} Perigo ! {{</* /button */>}}
+#### Botão Normal
 
-{{<button href="https://google.com" theme="default">}} Perigo ! {{< /button >}}
+    {{</* button href="https://nuevofoundation.org" theme="default" */>}} Clique Aqui {{<//* /button */>}}
 
-### Expandir
+Que fica assim:
 
-    {{</*expand "Clique aqui para expandir!"*/>}}
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+{{<button href="https://google.com" theme="default">}} Clique Aqui {{< /button >}}
+
+### Seções Expansíveis
+
+#### Expandir o Conteúdo
+
+    {{</*expand "Clique aqui para ver mais!"*/>}}
+    Aqui vai um texto grande cheio de informações legais, curiosidades e histórias divertidas.
     {{</* /expand*/>}}
 
-{{< expand "Clique aqui para expandir!" >}}
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Que fica assim:
+
+{{< expand "Clique aqui para ver mais!" >}}
+Aqui vai um texto grande cheio de informações legais, curiosidades e histórias divertidas.
 {{< /expand >}}
 
-### Avisos
+### Mensagens Especiais
 
 #### Nota
 
     {{</* notice note */>}}
-    Um aviso de isenção de responsabilidade
+    Aqui vai uma nota importante para lembrar de algo.
     {{</* /notice */>}}
 
+Que fica assim:
+
 {{< notice note >}}
-Um aviso de isenção de responsabilidade
+Aqui vai uma nota importante para lembrar de algo.
 {{< /notice >}}
 
 #### Informativo
 
     {{</* notice info */>}}
-    Uma isenção de responsabilidade de informação
+    Aqui tem uma informação importante para você.
     {{</* /notice */>}}
 
+Que fica assim:
+
 {{< notice info >}}
-Uma isenção de responsabilidade de informação
+Aqui tem uma informação importante para você.
 {{< /notice >}}
 
 #### Dica
 
     {{</* notice tip */>}}
-    Um aviso de isenção de responsabilidade
+    Aqui vai uma dica para te ajudar.
     {{</* /notice */>}}
 
+Que fica assim:
+
 {{< notice tip >}}
-Um aviso de isenção de responsabilidade
+Aqui vai uma dica para te ajudar.
 {{< /notice >}}
 
 #### Aviso
 
     {{</* notice warning */>}}
-    Um aviso de isenção de responsabilidade
+    Preste atenção, isso é um aviso!
     {{</* /notice */>}}
 
+Que fica assim:
+
 {{< notice warning >}}
-Um aviso de isenção de responsabilidade
+Preste atenção, isso é um aviso!
 {{< /notice >}}
 
-### Exemplos de ícones disponíveis
+### Ícones Divertidos
 
-[Lista Completa Aqui](/guidelines/shortcodes/icon)
+[Veja a Lista Completa Aqui](/guidelines/shortcodes/icon)
 
-|Ícone|Nome do ícone|Exemplo de Uso|
-|----|---------|-------------|
-|{{< icon name="asterisk" size="large" >}}|asterisk|<code>{{&lt;icon name=&quot;asterisk&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="plus" size="large" >}}|plus|<code>{{&lt;icon name=&quot;plus&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="euro" size="large" >}}|euro|<code>{{&lt;icon name=&quot;euro&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="eur" size="large" >}}|eur|<code>{{&lt;icon name=&quot;eur&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="minus" size="large" >}}|minus|<code>{{&lt;icon name=&quot;minus&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="cloud" size="large" >}}|cloud|<code>{{&lt;icon name=&quot;cloud&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="envelope" size="large" >}}|envelope|<code>{{&lt;icon name=&quot;envelope&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="pencil" size="large" >}}|pencil|<code>{{&lt;icon name=&quot;pencil&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="glass" size="large" >}}|glass|<code>{{&lt;icon name=&quot;glass&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="music" size="large" >}}|music|<code>{{&lt;icon name=&quot;music&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="search" size="large" >}}|search|<code>{{&lt;icon name=&quot;search&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="heart" size="large" >}}|heart|<code>{{&lt;icon name=&quot;heart&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="star" size="large" >}}|star|<code>{{&lt;icon name=&quot;star&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="star-empty" size="large" >}}|star-empty|<code>{{&lt;icon name=&quot;star-empty&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="user" size="large" >}}|user|<code>{{&lt;icon name=&quot;user&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="film" size="large" >}}|film|<code>{{&lt;icon name=&quot;film&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="th-large" size="large" >}}|th-large|<code>{{&lt;icon name=&quot;th-large&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="th" size="large" >}}|th|<code>{{&lt;icon name=&quot;th&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="th-list" size="large" >}}|th-list|<code>{{&lt;icon name=&quot;th-list&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="ok" size="large" >}}|ok|<code>{{&lt;icon name=&quot;ok&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="remove" size="large" >}}|remove|<code>{{&lt;icon name=&quot;remove&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="zoom-in" size="large" >}}|zoom-in|<code>{{&lt;icon name=&quot;zoom-in&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="zoom-out" size="large" >}}|zoom-out|<code>{{&lt;icon name=&quot;zoom-out&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="off" size="large" >}}|off|<code>{{&lt;icon name=&quot;off&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="signal" size="large" >}}|signal|<code>{{&lt;icon name=&quot;signal&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="cog" size="large" >}}|cog|<code>{{&lt;icon name=&quot;cog&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="trash" size="large" >}}|trash|<code>{{&lt;icon name=&quot;trash&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="home" size="large" >}}|home|<code>{{&lt;icon name=&quot;home&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="file" size="large" >}}|file|<code>{{&lt;icon name=&quot;file&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="time" size="large" >}}|time|<code>{{&lt;icon name=&quot;time&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="road" size="large" >}}|road|<code>{{&lt;icon name=&quot;road&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="download-alt" size="large" >}}|download-alt|<code>{{&lt;icon name=&quot;download-alt&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="download" size="large" >}}|download|<code>{{&lt;icon name=&quot;download&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="upload" size="large" >}}|upload|<code>{{&lt;icon name=&quot;upload&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="inbox" size="large" >}}|inbox|<code>{{&lt;icon name=&quot;inbox&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="play-circle" size="large" >}}|play-circle|<code>{{&lt;icon name=&quot;play-circle&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="repeat" size="large" >}}|repeat|<code>{{&lt;icon name=&quot;repeat&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="refresh" size="large" >}}|refresh|<code>{{&lt;icon name=&quot;refresh&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="list-alt" size="large" >}}|list-alt|<code>{{&lt;icon name=&quot;list-alt&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="lock" size="large" >}}|lock|<code>{{&lt;icon name=&quot;lock&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="flag" size="large" >}}|flag|<code>{{&lt;icon name=&quot;flag&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="headphones" size="large" >}}|headphones|<code>{{&lt;icon name=&quot;headphones&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="volume-off" size="large" >}}|volume-off|<code>{{&lt;icon name=&quot;volume-off&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="volume-down" size="large" >}}|volume-down|<code>{{&lt;icon name=&quot;volume-down&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="volume-up" size="large" >}}|volume-up|<code>{{&lt;icon name=&quot;volume-up&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="qrcode" size="large" >}}|qrcode|<code>{{&lt;icon name=&quot;qrcode&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="barcode" size="large" >}}|barcode|<code>{{&lt;icon name=&quot;barcode&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="tag" size="large" >}}|tag|<code>{{&lt;icon name=&quot;tag&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="tags" size="large" >}}|tags|<code>{{&lt;icon name=&quot;tags&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="book" size="large" >}}|book|<code>{{&lt;icon name=&quot;book&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="bookmark" size="large" >}}|bookmark|<code>{{&lt;icon name=&quot;bookmark&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="print" size="large" >}}|print|<code>{{&lt;icon name=&quot;print&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="camera" size="large" >}}|camera|<code>{{&lt;icon name=&quot;camera&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="font" size="large" >}}|font|<code>{{&lt;icon name=&quot;font&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="bold" size="large" >}}|bold|<code>{{&lt;icon name=&quot;bold&quot; size=&quot;large&quot;&gt;}}</code>|
-|{{< icon name="italic" size="large" >}}|italic|<code>{{&lt;icon name=&quot;italic&quot; size=&quot;large&quot;&gt;}}</code>|
+| Ícone                                          | Nome do Ícone       | Exemplo de Uso                                 |
+| ---------------------------------------------- | ------------------- | ---------------------------------------------- |
+| {{< icon name="asterisk" size="large" >}}      | asterisco           | `<icon name="asterisk" size="large">`           |
+| {{< icon name="plus" size="large" >}}          | mais                | `<icon name="plus" size="large">`               |
+| {{< icon name="euro" size="large" >}}          | euro                | `<icon name="euro" size="large">`               |
+| {{< icon name="eur" size="large" >}}           | eur                 | `<icon name="eur" size="large">`                |
+| {{< icon name="minus" size="large" >}}         | menos               | `<icon name="minus" size="large">`              |
+| {{< icon name="cloud" size="large" >}}         | nuvem               | `<icon name="cloud" size="large">`              |
+| {{< icon name="envelope" size="large" >}}      | envelope            | `<icon name="envelope" size="large">`           |
+| {{< icon name="pencil" size="large" >}}        | lápis               | `<icon name="pencil" size="large">`             |
+| {{< icon name="glass" size="large" >}}         | copo                | `<icon name="glass" size="large">`              |
+| {{< icon name="music" size="large" >}}         | música              | `<icon name="music" size="large">`              |
+| {{< icon name="search" size="large" >}}        | busca               | `<icon name="search" size="large">`             |
+| {{< icon name="heart" size="large" >}}         | coração             | `<icon name="heart" size="large">`              |
+| {{< icon name="star" size="large" >}}          | estrela             | `<icon name="star" size="large">`               |
+| {{< icon name="star-empty" size="large" >}}    | estrela vazia       | `<icon name="star-empty" size="large">`         |
+| {{< icon name="user" size="large" >}}          | usuário             | `<icon name="user" size="large">`               |
+| {{< icon name="film" size="large" >}}          | filme               | `<icon name="film" size="large">`               |
+| {{< icon name="th-large" size="large" >}}      | grade grande        | `<icon name="th-large" size="large">`           |
+| {{< icon name="th" size="large" >}}            | grade               | `<icon name="th" size="large">`                 |
+| {{< icon name="th-list" size="large" >}}       | lista               | `<icon name="th-list" size="large">`            |
+| {{< icon name="ok" size="large" >}}            | ok                  | `<icon name="ok" size="large">`                 |
+| {{< icon name="remove" size="large" >}}        | remover             | `<icon name="remove" size="large">`             |
+| {{< icon name="zoom-in" size="large" >}}       | aumentar            | `<icon name="zoom-in" size="large">`            |
+| {{< icon name="zoom-out" size="large" >}}      | diminuir            | `<icon name="zoom-out" size="large">`           |
+| {{< icon name="off" size="large" >}}           | desligado           | `<icon name="off" size="large">`                |
+| {{< icon name="signal" size="large" >}}        | sinal               | `<icon name="signal" size="large">`             |
+| {{< icon name="cog" size="large" >}}           | engrenagem          | `<icon name="cog" size="large">`                |
+| {{< icon name="trash" size="large" >}}         | lixeira             | `<icon name="trash" size="large">`              |
+| {{< icon name="home" size="large" >}}          | casa                | `<icon name="home" size="large">`               |
+| {{< icon name="file" size="large" >}}          | arquivo             | `<icon name="file" size="large">`               |
+| {{< icon name="time" size="large" >}}          | tempo               | `<icon name="time" size="large">`               |
+| {{< icon name="road" size="large" >}}          | estrada             | `<icon name="road" size="large">`               |
+| {{< icon name="download-alt" size="large" >}}  | download alternativo| `<icon name="download-alt" size="large">`       |
+| {{< icon name="download" size="large" >}}      | download            | `<icon name="download" size="large">`           |
+| {{< icon name="upload" size="large" >}}        | upload              | `<icon name="upload" size="large">`             |
+| {{< icon name="inbox" size="large" >}}         | caixa de entrada    | `<icon name="inbox" size="large">`              |
+| {{< icon name="play-circle" size="large" >}}   | tocar               | `<icon name="play-circle" size="large">`        |
+| {{< icon name="repeat" size="large" >}}        | repetir             | `<icon name="repeat" size="large">`             |
+| {{< icon name="refresh" size="large" >}}       | atualizar           | `<icon name="refresh" size="large">`            |
+| {{< icon name="list-alt" size="large" >}}      | lista alternativa   | `<icon name="list-alt" size="large">`           |
+| {{< icon name="lock" size="large" >}}          | cadeado             | `<icon name="lock" size="large">`               |
+| {{< icon name="flag" size="large" >}}          | bandeira            | `<icon name="flag" size="large">`               |
+| {{< icon name="headphones" size="large" >}}    | fone de ouvido      | `<icon name="headphones" size="large">`         |
+| {{< icon name="volume-off" size="large" >}}    | sem volume          | `<icon name="volume-off" size="large">`         |
+| {{< icon name="volume-down" size="large" >}}   | volume baixo        | `<icon name="volume-down" size="large">`        |
+| {{< icon name="volume-up" size="large" >}}     | volume alto         | `<icon name="volume-up" size="large">`          |
+| {{< icon name="qrcode" size="large" >}}        | código QR           | `<icon name="qrcode" size="large">`             |
+| {{< icon name="barcode" size="large" >}}       | código de barras    | `<icon name="barcode" size="large">`            |
+| {{< icon name="tag" size="large" >}}           | etiqueta            | `<icon name="tag" size="large">`                |
+| {{< icon name="tags" size="large" >}}          | etiquetas           | `<icon name="tags" size="large">`               |
+| {{< icon name="book" size="large" >}}          | livro               | `<icon name="book" size="large">`               |
+| {{< icon name="bookmark" size="large" >}}      | marcador            | `<icon name="bookmark" size="large">`           |
+| {{< icon name="print" size="large" >}}         | imprimir            | `<icon name="print" size="large">`              |
+| {{< icon name="camera" size="large" >}}        | câmera              | `<icon name="camera" size="large">`             |
+| {{< icon name="font" size="large" >}}          | fonte               | `<icon name="font" size="large">`               |
+| {{< icon name="bold" size="large" >}}          | negrito             | `<icon name="bold" size="large">`               |
+| {{< icon name="italic" size="large" >}}        | itálico             | `<icon name="italic" size="large">`             |
