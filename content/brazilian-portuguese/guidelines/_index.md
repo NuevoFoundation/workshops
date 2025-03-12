@@ -12,14 +12,14 @@ Agradecemos suas contribuições! Você pode ajudar de diversas maneiras, como t
 Identificou um erro de digitação ou bug? Você pode <a target="_blank" href="https://github.com/NuevoFoundation/workshops/issues">registrá-lo como um problema no GitHub</a>.
 
 Deseja contribuir de forma mais ativa? Consulte nossos <a target="_blank" href="https://github.com/NuevoFoundation/workshops/labels/help%20wanted">problemas que precisam de atenção</a> para encontrar oportunidades de colaboração. Para começar, siga estas diretrizes:
-   - [Estrutura do Site](arquitetura do site)
-   - [Guia de Introdução](primeiros passos)
+   - [Estrutura do Site](site-architecture)
+   - [Guia de Introdução](getting-started)
 
 ## Para Criadores de Conteúdo
 Se deseja criar ou modificar workshops, siga os guias da seção "Primeiros Passos" e, em seguida, consulte:
    - [Diretrizes de Formatação](formatação)
-   - [Criação de Novos Workshops](novos workshops)
+   - [Criação de Novos Workshops](new-workshops)
 
 ## Para Desenvolvedores Web
 Caso tenha interesse em aprimorar este site, siga os guias da seção "Primeiros Passos" e, posteriormente, consulte:
-   - [Diretrizes para Desenvolvimento Web](desenvolvedor web)
+   - [Diretrizes Web Developer](web-developer)
