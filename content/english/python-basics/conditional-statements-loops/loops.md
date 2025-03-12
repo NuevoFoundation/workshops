@@ -62,7 +62,7 @@ while count < 5:
 
 As you can see, all of the code below the while loop gets executed as long as the variable count is less than 5.
 
-Be careful! Make sure that the condition becomes `false` at some point, or the loop will continue infinitely.
+Be careful! Make sure that the condition becomes `False` at some point, or the loop will continue infinitely.
 
 ### Break statements
 
