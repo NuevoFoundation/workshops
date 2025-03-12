@@ -20,6 +20,36 @@ Antes de empezar a añadir efectos a nuestra canción, vamos a desglosar las pie
 - `effectParameter`: la configuración del efecto que se está utilizando
 - `effectValue`: el valor aplicado a la `effectParameter`
 
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+<div class="row">
+  <div class="column">
+    <img src="../img/Robot_2_Pink.PNG" width="45%">
+  </div>
+  <div class="column">
+    <img src="../img/Robot_1_Green.PNG" width="45%">
+  </div>
+  <div class="column">
+    <img src="../img/Robot_2_Blue.PNG" width="45%">
+  </div>
+</div>
+
 ## Añadir la función `setEffect` en tu canción
 
 Ya que estamos más familiarizados con el uso de efectos, vamos a añadir un efecto a nuestra canción.

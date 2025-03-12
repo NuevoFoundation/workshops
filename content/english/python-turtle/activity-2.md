@@ -9,7 +9,13 @@ draft: false
 
 Great! You drew a square. But notice that we are writing the same lines over and over again! We had to repeat the instructions to draw a line and turn left 4 times. Wouldn’t it be great if we can give instructions once and tell the program to repeat it 4 times? Fear not, we can!
 
-To do this, we need to use loops. Loops run a set of instructions multiple times. To see this in action, here is some example code that draws a triangle:
+To do this, we need to use loops. Loops run a set of instructions multiple times. Lets use loops to creae a triangle. A triangle is a type of shape with three sides and three angles. Let’s build a triangle where the sides and the angles are the same. If you divide 360 degrees by the number of turns you need to make (which is 3 for a triangle), you'll get the angle you need to turn. 
+
+So, 360 degrees ÷ 3 turns = 120 degrees per turn.
+
+This means that each time you finish drawing a side of the triangle, you need to turn 120 degrees to be ready to draw the next side. By doing this three times, you’ll complete your triangle.
+
+To see this in action, here is some example code that draws a triangle:
 
 ``` python
 for i in range(3):

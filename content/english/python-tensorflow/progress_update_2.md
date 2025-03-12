@@ -33,7 +33,7 @@ for i in range(25): #displays first 25 images with their class name
 plt.show() #shows images with their labels
 
 ```
-![clothing sample images, 5x5](../media/PU2_25images.png)
+![clothing sample images, 5x5](../media/PU2_25images.png "Clothing sample images")
 
 ```python
 #Building the Neural Network

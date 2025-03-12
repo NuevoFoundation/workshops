@@ -2,6 +2,14 @@
 
 This repo contains all of the code and content for the [Nuevo Foundation Workshop website](https://workshops.nuevofoundation.org). 
 
+  <a href="https://uptimerobot.com/dashboard.php">
+    <img src="https://img.shields.io/uptimerobot/status/m795338143-b057b206552c0ef54c164ded" alt="Nuevo Foundation Production Workshops Website">
+  </a>
+
+  <a href="https://uptimerobot.com/dashboard.php">
+    <img alt="Uptime Robot ratio (30 days)" src="https://img.shields.io/uptimerobot/ratio/m795338143-b057b206552c0ef54c164ded">
+  </a>
+
 ## Website Links
 
 * [Workshops website](https://workshops.nuevofoundation.org) - The site students use (aka production). This requires a manual push via Azure DevOps to push the master branch live. 

@@ -14,7 +14,7 @@ other = "Мурунку:"
 other = "Социалдык тармактардагы маектерге кошулуңуз."
 
 [copyright-footer]
-other = "© Copyright 2022, All Rights Reserved by Nuevo Foundation, a 501(c)(3) nonprofit."
+other = "© Copyright 2025, All Rights Reserved by Nuevo Foundation, a 501(c)(3) nonprofit."
 
 # header.html
 [donate]
@@ -53,6 +53,13 @@ other = "Кыйынчылык:"
 
 [download]
 other = "Жүктөп алуу:"
+
+# next-prev-page.html
+[you-did-it]
+other = "Сиз жасадыңыз!"
+
+[workshop-complete]
+other = "Воркшоп аяктады"
 
 # notice.html
 [note]

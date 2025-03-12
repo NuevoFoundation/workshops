@@ -5,6 +5,8 @@ weight: 5
 draft: false
 ---
 
+![Animación de hexágon, tortuga](https://media.giphy.com/media/TDLqC61A5uOAO8WwnJ/giphy.gif)
+
 ¡Buen trabajo! Acabas de dibujar tu primera figura con Python y Turtle. Hagamos otros pequeños cambios al código que escribimos para hacer el cuadrado e intentemos hacer un hexágono. Alex es una abeja así que después de todo, él necesita dibujar hexágonos para crear su colmena.
 
 Piensa en cuántos lados tiene un hexágono. Si divides los 360° que tiene un círculo entre el número de lados del hexágono, tendrás los grados del ángulo para hacer tu nueva figura.

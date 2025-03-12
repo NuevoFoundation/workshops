@@ -1,0 +1,52 @@
+name: Auto Translation
+
+on:
+  pull_request:
+    paths:
+      - content/english/**
+       
+jobs:
+  auto-translate:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
+      pull-requests: write
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        submodules: true
+        fetch-depth: 2
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x' # or the version your project requires
+
+    - name: Run Translation Tool
+      env:
+        GITHUB_TOKEN: ${{ secrets.MODELS_TOKEN }}
+      run: |
+        languages=("french" "spanish" "portuguese" "german" "kyrgyz" "simplified-chinese" "traditional-chinese")
+        changed_files=$(git diff --name-only -r HEAD^1 HEAD | grep '^content/english/.*/[^/]*\.md$')
+        for file in $changed_files; do
+          echo "Translating $file"
+          for lang in "${languages[@]}"; do
+            dotnet run --project translation-tool/WorkshopAutoTranslation/WorkShopTranslationV2 -- "$file" "$lang"
+          done
+        done
+
+    - name: Create Pull Request with AI-Generated Translations
+      uses: peter-evans/create-pull-request@v7
+      with:
+        commit-message: "Add AI translations for new workshop content"
+        title: "[Github Actions] AI Workshop Translations - #${{ github.event.pull_request.number }}"
+        body: "This PR generates AI translations for new English workshop content in this pull request [here](${{ github.event.pull_request.html_url }})."
+        branch: "auto-translation-suggestions-${{ github.event.pull_request.number }}"
+        labels: "translation, auto-generated"
+        base: "master" # or the default branch of your repository

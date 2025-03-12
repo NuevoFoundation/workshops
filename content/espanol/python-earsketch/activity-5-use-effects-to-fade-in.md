@@ -11,7 +11,7 @@ Ahora que tienes un efecto en tu canción, vamos a tratar de desvanecernos en la
 
 En la actividad 4, usamos la función `setEffect` se utiliza para aplicar un efecto a una pista/canción específica durante toda la duración de la canción, pero ¿qué pasa si solo quieres que una sección específica de tu canción tenga un efecto? ¡Utilice la función `setEffect` con más parámetros!
 
-![](../img/screenshot-seteffect2.png)
+<img src="../img/screenshot-seteffect2.png" alt="Ejemplo de codigo" width="60%"/>
 
 - `effectStartValue`: el valor inicial aplicado al parámetro
 - `effectStartLocation`: la medida en la que se establece el valor inicial
@@ -19,6 +19,8 @@ En la actividad 4, usamos la función `setEffect` se utiliza para aplicar un efe
 - `effectEndLocation`: la medida en la que se establece el valor final
 
 Esta versión de `setEffect` nos permite realizar *automatización* en una pieza específica de nuestra canción. La automatización es una forma de cambiar el valor de un efecto a lo largo del tiempo. Un uso de la automatización es hacer que una canción se desvanezca o se desvanezca. Para ello, debemos ajustar el volumen **GAIN** en `effectParameter` en el efecto **VOLUME** `effectType` a lo largo del tiempo. Por ejemplo, si definimos nuestro `effectStartValue` en -60 db y nuestro `effectEndValue` en 0 db, sonará como si nuestra canción se desvaneciera con el tiempo. Para ajustar el punto inicial y la longitud del efecto, especifique `effectStartLocation` y `effectEndLocation`.
+
+![DJ Nuvi](https://media.giphy.com/media/OTk8FTCvQ5WQQfJqVf/giphy.gif)
 
 ## Añadir otra función de `setEffect` a tu pista/canción
 

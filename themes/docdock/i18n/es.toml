@@ -14,7 +14,7 @@ other = "Anterior:"
 other = "Únete a la conversación en las redes sociales."
 
 [copyright-footer]
-other = "© Copyright 2022, Todos los derechos reservados por Nuevo Foundation, una organización sin fines de lucro de acuerdo con la disposición 501(c)(3)."
+other = "© Copyright 2025, Todos los derechos reservados por Nuevo Foundation, una organización sin fines de lucro de acuerdo con la disposición 501(c)(3)."
 
 # header.html
 [donate]
@@ -53,6 +53,13 @@ other = "Dificultad:"
 
 [download]
 other = "Descargar:"
+
+# next-prev-page.html
+[you-did-it]
+other = "¡Lo lograste!"
+
+[workshop-complete]
+other = "Taller completo"
 
 # notice.html
 [note]

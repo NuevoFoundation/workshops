@@ -18,8 +18,8 @@ In our scenario, we are using pre-labeled images of clothing to train our model.
 
 Take a look at these two images.
 
-![Black and white sneaker with white sole](../media/NN_sneaker_ex1.png)
-![Black sneaker](../media/NN_sneaker_ex2.png)
+![Black and white sneaker with white sole](../media/NN_sneaker_ex1.png "Black and white sneaker with white sole")
+![Black sneaker](../media/NN_sneaker_ex2.png "Black sneaker")
 
 As we can see from these images, we have two sneakers. They are both different images and their pixel values vary significantly, but we can still categorize them as sneakers. How do we do this? Our brain interprets these images by looking at patterns that we observed previously and establishes, "That is a sneaker!"
 
@@ -41,7 +41,7 @@ The image below shows a simple implementation of a neural network.
 - The hidden layer consists of many neurons, which are responsible for recognizing the different patterns from the input data. These nodes then point to the output layer.
 - The output layer consists of a single node or multiple nodes that return an output value which the model predicts.
 
-![Neural Network Diagram](../media/neural_network.png)
+![Neural Network Diagram](../media/neural_network.png "Neural Network Diagram")
 
 Simply put, a neural network is a system, or an algorithm, that trains the computer to recognize different types of patterns. 
 

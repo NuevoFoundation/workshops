@@ -13,11 +13,12 @@ Which images from the list given below do you think are phishy?
 ![Spotify email](../media/Spotify_email.jpg?classes=border,shadow)
 
 <fieldset>  
-<legend>Does this email look phishy?</legend>
-  <input type="radio" id="notify-on1" name="notify1" value="on" >
-  <label for="notify-on">Yes</label>
-  <input type="radio" id="notify-off1" name="notify1" value="off">
-  <label for="notify-off">No</label>
+  <legend>Does this email look phishy?
+    <input type="radio" id="notify-on1" name="notify1" value="on" >
+    <label for="notify-on">Yes</label>
+    <input type="radio" id="notify-off1" name="notify1" value="off">
+    <label for="notify-off">No</label>
+  </legend>
 </fieldset>
 
 <!--
@@ -36,42 +37,46 @@ Which images from the list given below do you think are phishy?
 ![LinkedIn learning](../media/linkedIn.png)
 
 <fieldset>  
-<legend>Does this banner look phishy?</legend>
-  <input type="radio" id="notify-on1" name="notify1" value="on" >
-  <label for="notify-on">Yes</label>
-  <input type="radio" id="notify-off1" name="notify1" value="off">
-  <label for="notify-off">No</label>
+  <legend>Does this banner look phishy?
+    <input type="radio" id="notify-on1" name="notify1" value="on" >
+    <label for="notify-on">Yes</label>
+    <input type="radio" id="notify-off1" name="notify1" value="off">
+    <label for="notify-off">No</label>
+  </legend>
 </fieldset>
 
 ![A legitimate text message](../media/Legit_text.jpeg?classes=border,shadow)
 
 <fieldset>  
-<legend>Does this text message look phishy?</legend>
-  <input type="radio" id="notify-on1" name="notify1" value="on" >
-  <label for="notify-on">Yes</label>
-  <input type="radio" id="notify-off1" name="notify1" value="off">
-  <label for="notify-off">No</label>
+  <legend>Does this text message look phishy?
+    <input type="radio" id="notify-on1" name="notify1" value="on" >
+    <label for="notify-on">Yes</label>
+    <input type="radio" id="notify-off1" name="notify1" value="off">
+    <label for="notify-off">No</label>
+  </legend>
 </fieldset>
 
 ![A suspicious text message](../media/sus_text.JPG?classes=border,shadow)
 
 <fieldset>  
-<legend>Does this text message look phishy?</legend>
-  <input type="radio" id="notify-on1" name="notify1" value="on" >
-  <label for="notify-on">Yes</label>
-  <input type="radio" id="notify-off1" name="notify1" value="off">
-  <label for="notify-off">No</label>
+  <legend>Does this text message look phishy?
+    <input type="radio" id="notify-on1" name="notify1" value="on" >
+    <label for="notify-on">Yes</label>
+    <input type="radio" id="notify-off1" name="notify1" value="off">
+    <label for="notify-off">No</label>
+  </legend>
 </fieldset>
 
 
 ![A suspicious email](../media/sus_email.JPG?classes=border,shadow)
 
 <fieldset>  
-<legend>Does this text message look phishy?</legend>
-  <input type="radio" id="notify-on1" name="notify1" value="on" >
-  <label for="notify-on">Yes</label>
-  <input type="radio" id="notify-off1" name="notify1" value="off">
-  <label for="notify-off">No</label>
+  <legend>Does this text message look phishy?
+    <input type="radio" id="notify-on1" name="notify1" value="on" >
+    <label for="notify-on">Yes</label>
+    <input type="radio" id="notify-off1" name="notify1" value="off">
+    <label for="notify-off">No</label>
+  </legend>
 </fieldset>
 
 <!--
@@ -86,4 +91,4 @@ Which images from the list given below do you think are phishy?
   <label for="notify-off">No</label>
 </fieldset> -->
 
-{{< button href="/security-phishing/6-summary/" theme="success" >}} Check answers! {{< /button >}}
+{{< button href="/security-phishing/summary/" theme="success" >}} Check answers! {{< /button >}}

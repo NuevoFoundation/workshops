@@ -5,6 +5,8 @@ weight: 9
 draft: false
 ---
 
+<img src="../media/bee_turtle_chat.png" alt="Abeja y tortuga conversando" width="25%"/>
+
 Nuestro primer paso es dibujar una colmena más pequeña para poder dibujar tanto la colmena como la flor en la pantalla. Ya lo hemos hecho: ¿ves lo que hemos cambiado para dibujar una colmena más pequeña?
 
 ``` python
@@ -27,9 +29,9 @@ turtle.goto(x,y)
 turtle.pendown()
 ```
 
-`turtle.penup()` le dice a la tortuga que levante su pluma para que no dibuje mientras se mueve. Entonces, con `turtle.goto(x,y)`, le estamos diciendo a la tortuga la posición donde debe moverse. Después de eso le decimos a la tortuga que vuelva a bajar su pluma usando `turtle.pendown()` para que pueda comenzar a dibujar nuevamente. 
+`turtle.penup()` le dice a la tortuga que levante su pluma para que no dibuje mientras se mueve. Entonces, con `turtle.goto(x,y)`, le estamos diciendo a la tortuga la posición donde debe moverse. Después de eso le decimos a la tortuga que vuelva a bajar su pluma usando `turtle.pendown()` para que pueda comenzar a dibujar nuevamente.
 
-![alt text height="600px" width="50%"](../media/graph.png "Grafica")
+<img src="../media/graph.png" alt="Grafica" width="50%"/>
 
 {{% notice info %}}
 
