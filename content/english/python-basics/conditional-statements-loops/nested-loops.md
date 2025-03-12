@@ -1,6 +1,6 @@
 ---
 title: "Nested loops"
-description: "Advanced applications applications for flows"
+description: "Advanced applications for loops"
 date: 2020-07-16T00:00:00Z
 weight: 4
 ---

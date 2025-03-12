@@ -11,7 +11,7 @@ What conditional statements can you think of that you use in everyday life?
 
 # If statements
 
-We’ll start off with an if statement in its simplest form! Looking at the real world example, you can see certain words used and those apply to programming statements as well. **If** it is raining outside, then I use an umbrella. `if` tells us that we need to make a decision. Then we have the decision to make. Is it raining? That question is called the expression. Then, if it is raining, I use an umbrella. That is a statement that applies when the expression is truthful.
+We’ll start off with an if statement in its simplest form! Looking at the real world example, you can see certain words used and those apply to programming statements as well. **If** it is raining outside, then I use an umbrella. `if` tells us that we need to make a decision. Is it raining? That question is called the expression. Then, if it is raining, I use an umbrella. That is a statement that applies when the expression is truthful.
 
 ```python
 if (expr):
