@@ -1,25 +1,25 @@
 ---
-title: "Diretrizes para colaboradores do workshop"
-description: "Agradecemos contribuições. Ótimas maneiras de contribuir incluem experimentar coisas, registrar bugs, criar e adicionar novos workshops."
+title: "Diretrizes para Colaboradores do Workshop"
+description: "Agradecemos suas contribuições. Algumas das melhores formas de contribuir incluem testar funcionalidades, relatar bugs e criar ou aprimorar workshops."
 date: 2019-07-22T14:08:32-07:00
 draft: false
 hidden: false
 ---
 
-Aceitamos contribuições. Ótimas maneiras de contribuir incluem experimentar coisas, registrar bugs, criar e adicionar novos workshops.
+Agradecemos suas contribuições! Você pode ajudar de diversas maneiras, como testando novos recursos, identificando e relatando bugs ou desenvolvendo novos workshops.
 
-## Começando por aqui
-Apenas relatando um erro de digitação ou bug? Você pode <a target="_blank" href="https://github.com/NuevoFoundation/workshops/issues">registrá-lo como um problema do GitHub</a>.
+## Primeiros Passos
+Identificou um erro de digitação ou bug? Você pode <a target="_blank" href="https://github.com/NuevoFoundation/workshops/issues">registrá-lo como um problema no GitHub</a>.
 
-Quer contribuir mais? Dê uma olhada em nossos <a target="_blank" href="https://github.com/NuevoFoundation/workshops/labels/help%20wanted">problemas que precisam de ajuda</a> para encontrar áreas para as quais contribuir. Então, para começar a contribuir, siga estes guias:
-   - [Como o site é construído](arquitetura do site)
-   - [Primeiros passos](primeiros passos)
+Deseja contribuir de forma mais ativa? Consulte nossos <a target="_blank" href="https://github.com/NuevoFoundation/workshops/labels/help%20wanted">problemas que precisam de atenção</a> para encontrar oportunidades de colaboração. Para começar, siga estas diretrizes:
+   - [Estrutura do Site](arquitetura do site)
+   - [Guia de Introdução](primeiros passos)
 
-## Para criadores de conteúdo
-Interessado em criar ou modificar workshops? Siga os guias "Comece aqui" acima e depois o seguinte:
-   - [Formatação](formatação)
-   - [Novas Diretrizes do Workshop](novos workshops)
+## Para Criadores de Conteúdo
+Se deseja criar ou modificar workshops, siga os guias da seção "Primeiros Passos" e, em seguida, consulte:
+   - [Diretrizes de Formatação](formatação)
+   - [Criação de Novos Workshops](novos workshops)
 
-## Para desenvolvedores web
-Interessado em melhorar este site? Siga os guias "Comece aqui" acima e depois o seguinte:
-   - [Diretrizes para desenvolvedores web](desenvolvedor web)
+## Para Desenvolvedores Web
+Caso tenha interesse em aprimorar este site, siga os guias da seção "Primeiros Passos" e, posteriormente, consulte:
+   - [Diretrizes para Desenvolvimento Web](desenvolvedor web)
