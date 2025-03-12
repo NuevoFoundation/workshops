@@ -1,5 +1,5 @@
 ---
-title: "Diretrizes para desenvolvedores da Web"
+title: "Regras para Desenvolvedores Web"
 date: 2019-07-22T14:08:32-07:00
 draft: false
 weight: 4
@@ -20,14 +20,14 @@ Siga as instruções na página [Introdução](../getting-started/) para instala
 - **Imagens:** As imagens do site devem ser `temas/imagens`
 - **CSS** Ignore os arquivos SCSS e use apenas arquivos CSS em `/themes/docdock/static/css/` Certifique-se de adicionar uma referência ao CSS que deseja incluir no arquivo `head.html` em ` /themes/docdock/layouts/partials/flex/head.html`
 
-## Dissecando uma página de workshop
+## Como é feita uma página de workshop 📄  
 
-- **Modelo de página completo**: para ver todos os componentes de uma página, incluindo cabeçalho, menu, corpo, rodapé, consulte `/themes/docdock/layouts/_default/baseof.html`
-- **Head**: arquivos Meta, CSS e JS `/themes/docdock/layouts/partials/flex/head.html`
-- **Navegação superior/menu**: não use valores docDock config.toml, em vez disso adicione/edite HTML em: `/themes/docdock/layouts/partials/flex/body-before-content.html`
-- **Menu esquerdo**: `/themes/docdock/layouts/partials/flex/menu.html`
-- **Navegação no rodapé**: `/themes/docdock/layouts/partials/flex/body-after-content.html`
-- **Caixa de metadados**: `/themes/docdock/layouts/partials/flex/body-after-content.html`
+- **Página completa:** Para ver como tudo funciona junto (cabeçalho, menu, corpo e rodapé), olhe o arquivo `/themes/docdock/layouts/_default/baseof.html`.  
+- **Cabeçalho:** Aqui ficam os arquivos Meta, CSS e JS: `/themes/docdock/layouts/partials/flex/head.html`.  
+- **Menu superior:** Não mexa no arquivo `config.toml`, altere diretamente o HTML em `/themes/docdock/layouts/partials/flex/body-before-content.html`.  
+- **Menu lateral:** Está em `/themes/docdock/layouts/partials/flex/menu.html`.  
+- **Rodapé:** Fica em `/themes/docdock/layouts/partials/flex/body-after-content.html`.  
+- **Caixa de informações da página:** Também está em `/themes/docdock/layouts/partials/flex/body-after-content.html`.  
 
 ## Socorro, o CSS sumiu
 
