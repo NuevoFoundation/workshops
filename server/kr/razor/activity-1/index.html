@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nuevo Foundation Workshops</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+<meta name="theme-color" content="#000000" />
+<meta name="revised" content="2025-03-14T19:00:14 -03">
+<meta name="application-name" content=" " />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+<title>활동 1 - Visual Studio Code 탐색하기 :: Nuevo Foundation Workshops</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+
+<link rel="shortcut icon" href="https://www.nuevofoundation.org/favicons/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57"
+      href="https://www.nuevofoundation.org/favicons//apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120"
+      href="https://www.nuevofoundation.org/favicons/pple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-128.png" sizes=" 128x128" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="/css/nuevoweb.css" />
+<link rel="stylesheet" href="/css/chunk.css" />
+<link rel="stylesheet" href="/css/data-style.css" />
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+
+<script lang="JavaScript">
+
+      function toggleVisibility() {
+
+            
+            const menu = document.getElementById("mobile-nav-menu");
+            if (menu.style.display == 'none') {
+                  menu.classList.replace("transition-out", "transition-in")
+                  menu.style.display = 'block';
+            }
+            else if (menu.style.display == 'block') {
+                  menu.classList.replace("transition-in", "transition-out")
+                  menu.style.display = 'none';
+            }
+      }
+</script>
+<meta
+  name="description"
+  content="
+
+    
+"
+/>
+
+
+    
+  </head>
+  <body data-url="/kr/razor/activity-1/" >
+    
+      <header>
+  
+  <div id="mobile-nav-menu" class="transition-out" style="display: none;">
+    <div class="close-btn" onclick="toggleVisibility();">
+        <i aria-hidden="true" focusable="false" style="cursor: pointer;" class="fa fa-times fa-w-11 fa-sm"></i>
+    </div>
+    <div>
+        <div class="sc-dNLxif ecnYUM">
+            <a href="/support-us"><button class="sc-jbKcbu sedGx"
+                    style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: 4px solid rgb(0, 0, 0); border-radius: 4px;">
+                    기부하기
+                </button></a>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/what-we-do">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>우리가 하는 일</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/get-involved">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>참여하세요</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/support-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>우리를 지원해주세요</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/blog">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>이벤트 블로그</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/about-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>우리 팀</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/contact">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>문의하기</li>
+            </ul>
+        </a>
+    </div>
+</div>
+<div>
+    <div class="sc-gGBfsJ iKkPGj">
+        <div class="container-fluid">
+            <div id="toprow" class="row">
+                <div class="col-xs-12">
+                    <div class="sc-EHOje fJMnSm">
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.instagram.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation Instagram" class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://twitter.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation X" class="fab fa-x-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Facebook" class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.linkedin.com/company/nuevofoundation">
+                                <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://www.youtube.com/nuevofoundation?sub_confirmation=1n">
+                                <i aria-label="Nuevo Foundation YouTube" class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1">
+                                <i aria-label="Nuevo Foundation Spotify" class="fab fa-spotify"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://github.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Github" class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" rel="noopener noreferrer"
+                                href="https://nuevofoundation.org/support-us">기부하기</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="secondrow" class="row">
+                <div class="col-sm-12 hidden-xs">
+                    <div class="sc-htoDjs kjtfZK">
+                        <a class="sc-fjdhpX izNzAG active" aria-current="page" href="https://nuevofoundation.org">
+                            <img alt="Nuevo Foundation Logo" src="/images/Logo_long.0f097b90.svg"
+                                height="60px" />
+                        </a>
+                        <ul class="sc-iwsKbI bUOvG">
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/what-we-do">
+                                <li class="sc-gZMcBi Bomeo">우리가 하는 일</li>
+                            </a>
+                            <a class="izNzAG" href="/">
+                                <li class="sc-gZMcBi Bomeo-selected jgBGVn">워크샵<span></span></li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/get-involved">
+                                <li class="sc-gZMcBi Bomeo">참여하세요</li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/support-us">
+                                <li class="sc-gZMcBi Bomeo">우리를 지원해주세요</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/blog">
+                                <li class="sc-gZMcBi Bomeo">이벤트 블로그</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/about-us">
+                                <li class="sc-gZMcBi Bomeo">우리 팀</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/contact">
+                                <li class="sc-gZMcBi Bomeo">문의하기</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <a class="sc-fjdhpX izNzAG active" aria-current="page" href="/">
+                                <img alt="Nuevo Foundation Logo" class="sc-dnqmqq emolVn"
+                                    src="/images/Logo_long.0f097b90.svg" height="60%" /></a>
+                        </div>
+                        <div class="col-xs-2" onclick="toggleVisibility();"
+                            style="padding-top: 4%; padding-left: 4%; cursor: pointer;">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                                class="svg-inline--fa fa-bars fa-w-14 fa-lg" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/kr/razor/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/kr/razor/">C#: Razor를 사용한 웹 사이트 만들기</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/kr/razor/learn-vscode/" class="dd-item">
+        <div>
+          <a href="/kr/razor/learn-vscode/">
+            Visual Studio Code 알아보기
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/razor/activity-1/" class="dd-item active">
+        <div>
+          <a href="/kr/razor/activity-1/">
+            활동 1 - Visual Studio Code 탐색하기
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/razor/activity-2/" class="dd-item">
+        <div>
+          <a href="/kr/razor/activity-2/">
+            활동 2 - Visual Studio Code 확장 프로그램 추가
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/razor/razor-explained/" class="dd-item">
+        <div>
+          <a href="/kr/razor/razor-explained/">
+            Razor 기초1
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/razor/razor-syntax/" class="dd-item">
+        <div>
+          <a href="/kr/razor/razor-syntax/">
+            Razor 기초2
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/razor/directives/" class="dd-item">
+        <div>
+          <a href="/kr/razor/directives/">
+            Razor 지시문
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/razor/activity-3/" class="dd-item">
+        <div>
+          <a href="/kr/razor/activity-3/">
+            활동 3 - 웹 애플리케이션 만들기
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/razor/activity-4/" class="dd-item">
+        <div>
+          <a href="/kr/razor/activity-4/">
+            활동 4 - 새로운 Razor 페이지 추가
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+    </ul>
+
+    <section>
+    </section>
+  </aside>
+  <section class="page">
+    <div align="right">
+<select id="select-language" onchange="location = this.value;">
+	
+	
+	
+	  
+	  
+	    
+	      
+	        <option id="en" value="/razor/activity-1/">English</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="kr" value="/kr/razor/activity-1/" selected>한국어</option>
+	      
+	    
+	  
+	    
+	  
+	
+</select>
+    </div>
+
+    <div class="nav-select">
+      항해:&nbsp;
+      <select onchange="javascript:location.href = this.value;">
+        
+<option value="/kr/razor/" >
+   C#: Razor를 사용한 웹 사이트 만들기</option>
+
+<option value="/kr/razor/learn-vscode/" >- Visual Studio Code 알아보기</option>
+<option value="/kr/razor/activity-1/"  selected>- 활동 1 - Visual Studio Code 탐색하기</option>
+<option value="/kr/razor/activity-2/" >- 활동 2 - Visual Studio Code 확장 프로그램 추가</option>
+<option value="/kr/razor/razor-explained/" >- Razor 기초1</option>
+<option value="/kr/razor/razor-syntax/" >- Razor 기초2</option>
+<option value="/kr/razor/directives/" >- Razor 지시문</option>
+<option value="/kr/razor/activity-3/" >- 활동 3 - 웹 애플리케이션 만들기</option>
+<option value="/kr/razor/activity-4/" >- 활동 4 - 새로운 Razor 페이지 추가</option>
+
+
+
+      </select>
+
+    </div>
+    
+
+    <h1>활동 1 - Visual Studio Code 탐색하기</h1>
+
+    
+
+    
+
+    
+    
+    
+    
+    <h2 id="활동-1---visual-studio-code-탐색하기">활동 1 - Visual Studio Code 탐색하기</h2>
+<h3 id="visual-studio-code를-열고-welcome-페이지를-살펴보세요">Visual Studio Code를 열고 Welcome 페이지를 살펴보세요.</h3>
+<ol>
+<li>
+<p>Windows 시작 메뉴를 사용하여 Visual Studio Code 열기</p>
+<p>Windows 시작 메뉴를 열면 최근에 추가된 애플리케이션 목록에서 Visual Studio Code를 찾을 수 있습니다. 또는 시작 메뉴를 아래로 스크롤하여 Visual Studio Code를 찾아보세요. 화면 하단의 실행 트레이에 있는 Windows 검색 상자에 &ldquo;Visual Studio Code&quot;를 입력하여 검색할 수도 있습니다.</p>
+</li>
+<li>
+<p>Visual Studio Code의 Welcome 페이지 확인하기</p>
+<p>Visual Studio Code를 처음 열면 Welcome 페이지가 나타나며, 몇 가지 링크와 정보가 포함되어 있습니다. 처음 실행할 때 Get Started with VS Code와 같은 유용한 안내 내용이 표시됩니다. 이 안내 내용은 후에 따로 참고해볼 수 있습니다</p>
+</li>
+<li>
+<p>Welcome 페이지 닫기</p>
+<p>Welcome 페이지를 닫으려면, 인터페이스에 표시된 닫기 버튼(화면에 X로 표시됨)을 선택해주세요. 편집기(Editor)에서 열려 있는 각 페이지에는 페이지 제목 오른쪽에 닫기 버튼(X)이 있습니다. 페이지 탭은 Visual Studio Code 창의 왼쪽 상단, 메인 메뉴(Main Menu) 아래에 표시됩니다. 마우스 포인터를 닫기 버튼(X) 위에 올리면 &ldquo;Close&quot;라는 단어가 나타납니다.</p>
+</li>
+</ol>
+<h3 id="액티비티-바와-사이드-바-살펴보기">액티비티 바와 사이드 바 살펴보기</h3>
+<ol>
+<li>
+<p>Visual Studio Code 창의 왼쪽 끝에 있는 세로형 아이콘 목록이 액티비티 바(Activity Bar)입니다. 액티비티 바 오른쪽에 위치한 사이드 바(Side Bar)는 기본적으로 축소된 상태입니다. 사이드 바의 내용은 액티비티 바에서 선택한 항목에 따라 달라집니다.</p>
+</li>
+<li>
+<p>마우스 포인터를 액티비티 바 위에 놓고, 각 아이콘 위에 마우스를 올려보세요. 그러면 해당 아이콘의 라벨이 표시됩니다. 액티비티 바의 버튼들은 다음 이미지에서 보여주는 것과 유사하게 나타날 것입니다.</p>
+</li>
+</ol>
+<img src="../media/visual-studio-code-activity-bar-icons.png" alt="Screenshot showing Visual Studio Code Activity bar with labeled icons." />
+<p>액티비티 바(Activity bar)의 아이콘을 위에서부터 아래로 살펴보면 다음과 같습니다:
+탐색기(Explorer), 검색(Search), 소스 제어(Source Control), 실행 및 디버그(Run and Debug), 확장 프로그램(Extensions), 계정(Accounts), 관리(Manage).</p>
+<ol start="3">
+<li>
+<p>액티비티 바에서 탐색기(Explorer) 아이콘을 선택합니다.
+그러면 사이드 바가 열리고 관련 정보가 표시됩니다.</p>
+</li>
+<li>
+<p>사이드 바는 EXPLORER라는 이름으로 표시됩니다. EXPLORER 뷰는 프로젝트 폴더와 코드 파일을 탐색하거나 확인할 때 사용됩니다. Visual Studio Code는 작업 기록을 저장하며, 프로그램을 다시 열 때 가장 최근에 작업했던 파일과 폴더를 자동으로 엽니다. 하지만 처음 열었다면 아직 프로젝트 폴더가 열려 있지 않습니다.</p>
+</li>
+<li>
+<p>액티비티 바에서 확장 프로그램(Extensions) 아이콘을 선택합니다.</p>
+</li>
+<li>
+<p>N사이드 바가 EXTENSIONS라는 이름으로 표시됩니다.</p>
+</li>
+<li>
+<p>EXTENSIONS 뷰의 정보 살펴보기</p>
+<p>EXTENSIONS 뷰에서는 코딩 언어, 디버거, 기타 도구를 추가할 수 있는 확장 프로그램 정보를 제공합니다. 개발 환경을 지원하며, 이 워크숍에서는 나중에 C# 확장 프로그램을 설치할 것입니다.</p>
+</li>
+<li>
+<p>액티비티 바에서 다시 확장 프로그램(Extensions) 아이콘을 선택하면 EXTENSIONS 사이드 바가 닫힙니다.</p>
+</li>
+</ol>
+<h3 id="상단-메뉴-옵션-살펴보기">상단 메뉴 옵션 살펴보기</h3>
+<ol>
+<li>
+<p>File 메뉴를 선택하여 파일 메뉴 옵션을 확인합니다.</p>
+</li>
+<li>
+<p>파일 메뉴에는 New(새로 만들기), Open(열기), Save(저장), Close(닫기) 옵션이 나열되어 있는 것을 확인합니다.</p>
+</li>
+<li>
+<p>Edit(편집) 메뉴 옵션을 잠시 살펴본 후, 상단의 다른 메뉴 항목도 하나씩 살펴봅니다.</p>
+</li>
+<li>
+<p>여러 메뉴에 코드와 상호작용하는 옵션이 포함되어 있습니다. 예를 들어,</p>
+<ul>
+<li>Edit(편집) 메뉴에는 찾기, 바꾸기, 코드 주석 전환 옵션과 함께 잘라내기, 복사, 붙여넣기, 실행 취소, 다시 실행과 같은 표준 옵션이 포함되어 있습니다.</li>
+<li>Selection(선택) 메뉴에는 코드 줄을 선택하고 조작할 수 있는 옵션이 포함되어 있습니다.</li>
+<li>Run(실행) 메뉴에는 애플리케이션을 실행하고 디버그 할 수 있는 옵션이 포함되어 있습니다.</li>
+</ul>
+</li>
+<li>
+<p>Terminal(터미널) 메뉴에서 New Terminal을 선택합니다.</p>
+</li>
+<li>
+<p>터미널 패널의 내용 확인하기</p>
+<p>터미널 패널의 내용을 잠시 살펴봅니다.
+탭(PROBLEMS, OUTPUT, DEBUG CONSOLE, TERMINAL) 간에 전환할 수 있으며, 오른쪽 상단의 버튼 위에 마우스를 올리면 버튼 레이블이 표시됩니다.</p>
+</li>
+<li>
+<p>터미널 패널에는 명령 프롬프트가 포함되어 있습니다.</p>
+<p>터미널 패널은 명령줄 인터페이스(CLI) 명령을 실행하는 데 사용됩니다.</p>
+</li>
+<li>
+<p>터미널 패널의 오른쪽 상단에서 X(닫기) 버튼을 선택하여 패널을 닫습니다.</p>
+</li>
+<li>
+<p>보기(View) 메뉴에서 명령 팔레트 선택하기</p>
+<p>View 메뉴에서 <strong>Command Palette(명령 팔레트)</strong> 를 선택합니다.
+명령 팔레트는 다양한 유용한 명령을 찾고 실행하는 데 사용됩니다. 지금은 세부적으로 살펴볼 필요는 없지만, 명령 팔레트의 위치를 알아두는 것이 좋습니다.</p>
+</li>
+<li>
+<p>명령 팔레트의 프롬프트에 extensions를 입력합니다.</p>
+<p>입력에 따라 명령 목록이 필터링되는 것을 확인합니다.</p>
+</li>
+<li>
+<p>extensions 대신 help를 입력하여 명령 목록을 업데이트합니다.</p>
+</li>
+<li>
+<p>필터 된 명령 목록에서 Help: Interactive Editor Playground를 선택합니다.</p>
+<p>Editor Playground 문서가 편집기에 열리며, 대화형 활동 목록이 포함되어 있습니다.</p>
+</li>
+<li>
+<p>대화형 활동 목록에서 Formatting(서식 지정)을 선택합니다.</p>
+</li>
+<li>
+<p>서식 지정 옵션에 대한 내용을 잠시 읽어봅니다.</p>
+</li>
+<li>
+<p>Editor Playground 문서를 닫습니다.</p>
+</li>
+</ol>
+
+
+    
+    
+      <div class="chevrons">
+  <style>
+    .workshop-complete-image {
+        margin: 40px auto 50px auto;
+        width: 340.8px;
+    }
+    
+    .workshop-complete-words {
+        font-family: Space Mono, monospace;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        text-align: center;
+    }
+    
+    .horizontal-bar {
+        background-color: #000000;
+        width: 120px;
+        height: 12px;
+        margin: 80px auto 0 auto;
+    }
+</style>
+
+
+    <div id="navigation">
+            <div class="next-prev-wrapper-div"><a class='nav nav-prev' href="/kr/razor/learn-vscode/" title="Visual Studio Code 알아보기">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                이전의:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Visual Studio Code 알아보기
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="prevbutton-image">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+        
+    </div>
+</a></div>
+            <div class="next-prev-wrapper-div"><a class='nav nav-next' href="/kr/razor/activity-2/" title="활동 2 - Visual Studio Code 확장 프로그램 추가">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                다음:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                활동 2 - Visual Studio Code 확장 프로그램 추가
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="nextbutton-image">
+            <i class="fa fa-arrow-right"></i>
+        </div>
+        
+    </div>
+</a></div>
+        </div>
+</div>
+
+</section>
+</article>
+
+<footer>
+  <div class="footline">
+    
+
+    
+
+    
+    <div class="date">
+      <i class='fa fa-calendar'></i> 
+      Tue, 12 Sep 2023 11:45:38 PDT
+    </div>
+    
+
+    
+    <div class="github-link">
+      <a href="https://github.com/NuevoFoundation/workshops/tree/master/content/razor/activity-1.md" target="blank"><i
+          class="fa fa-code-fork"></i>
+        </a>
+    </div>
+    
+  </div>
+
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+    
+
+    
+    
+
+    <div id="footer" class="row">
+    <div class="col-xs-12">
+        <div class="App-footer">
+            <div class="App-footer-big">
+                소셜 미디어에서 대화에 참여하세요.
+            </div>
+            <div class="social-images">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Instagram" class="fab fa-2x fa-instagram"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation X" class="fab fa-2x fa-x-twitter"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Facebook" class="fab fa-2x fa-1x fa-facebook-f"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-2x fa-linkedin"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/nuevofoundation?sub_confirmation=1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation YouTube" class="fab fa-2x fa-youtube"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Spotify" class="fab fa-2x fa-spotify"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Github" class="fab fa-2x fa-github"></i>
+                </a>
+            </div>
+            <div class="App-footer-small">
+                © 저작권 2025, 모든 권리는 501(c)(3) 비영리 단체인 Nuevo Foundation에 있습니다.
+            </div>
+        </div>
+    </div>
+</div>
+
+  </body>
+</html>

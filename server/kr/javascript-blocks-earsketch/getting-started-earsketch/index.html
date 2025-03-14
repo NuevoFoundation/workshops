@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nuevo Foundation Workshops</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+<meta name="theme-color" content="#000000" />
+<meta name="revised" content="2025-03-14T19:00:13 -03">
+<meta name="application-name" content=" " />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+<title>EarSketch 시작하기 :: Nuevo Foundation Workshops</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+
+<link rel="shortcut icon" href="https://www.nuevofoundation.org/favicons/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57"
+      href="https://www.nuevofoundation.org/favicons//apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120"
+      href="https://www.nuevofoundation.org/favicons/pple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-128.png" sizes=" 128x128" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="/css/nuevoweb.css" />
+<link rel="stylesheet" href="/css/chunk.css" />
+<link rel="stylesheet" href="/css/data-style.css" />
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+
+<script lang="JavaScript">
+
+      function toggleVisibility() {
+
+            
+            const menu = document.getElementById("mobile-nav-menu");
+            if (menu.style.display == 'none') {
+                  menu.classList.replace("transition-out", "transition-in")
+                  menu.style.display = 'block';
+            }
+            else if (menu.style.display == 'block') {
+                  menu.classList.replace("transition-in", "transition-out")
+                  menu.style.display = 'none';
+            }
+      }
+</script>
+<meta
+  name="description"
+  content="
+
+    
+"
+/>
+
+
+    
+  </head>
+  <body data-url="/kr/javascript-blocks-earsketch/getting-started-earsketch/" >
+    
+      <header>
+  
+  <div id="mobile-nav-menu" class="transition-out" style="display: none;">
+    <div class="close-btn" onclick="toggleVisibility();">
+        <i aria-hidden="true" focusable="false" style="cursor: pointer;" class="fa fa-times fa-w-11 fa-sm"></i>
+    </div>
+    <div>
+        <div class="sc-dNLxif ecnYUM">
+            <a href="/support-us"><button class="sc-jbKcbu sedGx"
+                    style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: 4px solid rgb(0, 0, 0); border-radius: 4px;">
+                    기부하기
+                </button></a>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/what-we-do">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>우리가 하는 일</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/get-involved">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>참여하세요</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/support-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>우리를 지원해주세요</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/blog">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>이벤트 블로그</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/about-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>우리 팀</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/contact">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>문의하기</li>
+            </ul>
+        </a>
+    </div>
+</div>
+<div>
+    <div class="sc-gGBfsJ iKkPGj">
+        <div class="container-fluid">
+            <div id="toprow" class="row">
+                <div class="col-xs-12">
+                    <div class="sc-EHOje fJMnSm">
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.instagram.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation Instagram" class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://twitter.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation X" class="fab fa-x-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Facebook" class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.linkedin.com/company/nuevofoundation">
+                                <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://www.youtube.com/nuevofoundation?sub_confirmation=1n">
+                                <i aria-label="Nuevo Foundation YouTube" class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1">
+                                <i aria-label="Nuevo Foundation Spotify" class="fab fa-spotify"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://github.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Github" class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" rel="noopener noreferrer"
+                                href="https://nuevofoundation.org/support-us">기부하기</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="secondrow" class="row">
+                <div class="col-sm-12 hidden-xs">
+                    <div class="sc-htoDjs kjtfZK">
+                        <a class="sc-fjdhpX izNzAG active" aria-current="page" href="https://nuevofoundation.org">
+                            <img alt="Nuevo Foundation Logo" src="/images/Logo_long.0f097b90.svg"
+                                height="60px" />
+                        </a>
+                        <ul class="sc-iwsKbI bUOvG">
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/what-we-do">
+                                <li class="sc-gZMcBi Bomeo">우리가 하는 일</li>
+                            </a>
+                            <a class="izNzAG" href="/">
+                                <li class="sc-gZMcBi Bomeo-selected jgBGVn">워크샵<span></span></li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/get-involved">
+                                <li class="sc-gZMcBi Bomeo">참여하세요</li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/support-us">
+                                <li class="sc-gZMcBi Bomeo">우리를 지원해주세요</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/blog">
+                                <li class="sc-gZMcBi Bomeo">이벤트 블로그</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/about-us">
+                                <li class="sc-gZMcBi Bomeo">우리 팀</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/contact">
+                                <li class="sc-gZMcBi Bomeo">문의하기</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <a class="sc-fjdhpX izNzAG active" aria-current="page" href="/">
+                                <img alt="Nuevo Foundation Logo" class="sc-dnqmqq emolVn"
+                                    src="/images/Logo_long.0f097b90.svg" height="60%" /></a>
+                        </div>
+                        <div class="col-xs-2" onclick="toggleVisibility();"
+                            style="padding-top: 4%; padding-left: 4%; cursor: pointer;">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                                class="svg-inline--fa fa-bars fa-w-14 fa-lg" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/kr/javascript-blocks-earsketch/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/kr/javascript-blocks-earsketch/">블록: EarSketch로 음악 만들기</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/kr/javascript-blocks-earsketch/music-basics/" class="dd-item">
+        <div>
+          <a href="/kr/javascript-blocks-earsketch/music-basics/">
+            음악의 기본 요소
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/javascript-blocks-earsketch/getting-started-earsketch/" class="dd-item active">
+        <div>
+          <a href="/kr/javascript-blocks-earsketch/getting-started-earsketch/">
+            EarSketch 시작하기
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/javascript-blocks-earsketch/activity-1-set-tempo-add-sounds/" class="dd-item">
+        <div>
+          <a href="/kr/javascript-blocks-earsketch/activity-1-set-tempo-add-sounds/">
+            활동 1 - 템포 설정 및 사운드 추가
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/javascript-blocks-earsketch/activity-2-make-a-song/" class="dd-item">
+        <div>
+          <a href="/kr/javascript-blocks-earsketch/activity-2-make-a-song/">
+            활동 2 - 곡 만들기!
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/javascript-blocks-earsketch/activity-3-add-effects-to-your-songs/" class="dd-item">
+        <div>
+          <a href="/kr/javascript-blocks-earsketch/activity-3-add-effects-to-your-songs/">
+            활동 3 - 곡에 효과 추가하기
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/javascript-blocks-earsketch/activity-4-use-effects-to-fade-in/" class="dd-item">
+        <div>
+          <a href="/kr/javascript-blocks-earsketch/activity-4-use-effects-to-fade-in/">
+            활동 4 - 페이드 인 효과 사용하기
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+    </ul>
+
+    <section>
+    </section>
+  </aside>
+  <section class="page">
+    <div align="right">
+<select id="select-language" onchange="location = this.value;">
+	
+	
+	
+	  
+	  
+	    
+	      
+	        <option id="en" value="/javascript-blocks-earsketch/getting-started-earsketch/">English</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	      
+	        <option id="es" value="/es/javascript-blocks-earsketch/getting-started-earsketch/">Español</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="kr" value="/kr/javascript-blocks-earsketch/getting-started-earsketch/" selected>한국어</option>
+	      
+	    
+	  
+	    
+	  
+	
+</select>
+    </div>
+
+    <div class="nav-select">
+      항해:&nbsp;
+      <select onchange="javascript:location.href = this.value;">
+        
+<option value="/kr/javascript-blocks-earsketch/" >
+   블록: EarSketch로 음악 만들기</option>
+
+<option value="/kr/javascript-blocks-earsketch/music-basics/" >- 음악의 기본 요소</option>
+<option value="/kr/javascript-blocks-earsketch/getting-started-earsketch/"  selected>- EarSketch 시작하기</option>
+<option value="/kr/javascript-blocks-earsketch/activity-1-set-tempo-add-sounds/" >- 활동 1 - 템포 설정 및 사운드 추가</option>
+<option value="/kr/javascript-blocks-earsketch/activity-2-make-a-song/" >- 활동 2 - 곡 만들기!</option>
+<option value="/kr/javascript-blocks-earsketch/activity-3-add-effects-to-your-songs/" >- 활동 3 - 곡에 효과 추가하기</option>
+<option value="/kr/javascript-blocks-earsketch/activity-4-use-effects-to-fade-in/" >- 활동 4 - 페이드 인 효과 사용하기</option>
+
+
+
+      </select>
+
+    </div>
+    
+
+    <h1>EarSketch 시작하기</h1>
+
+    
+
+    
+
+    
+    
+    
+    
+    <p><a href="https://en.wikipedia.org/wiki/EarSketch" target="_blank">EarSketch<sup><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></sup></a>
+는 조지아 공과대학교에서 개발한 무료 교육용 프로그래밍 환경입니다. 오늘 우리는 EarSketch를 사용하여 음악을 만들 것입니다.</p>
+<ol>
+<li>음악을 만들기 위해, 아래 버튼을 클릭하여 EarSketch를 새 탭에서 엽니다.</li>
+</ol>
+<p><a class="my-2 mx-4 btn btn-info" href="https://earsketch.gatech.edu/earsketch2/" target="_blank">Earsketch 실행</a></p>
+<ol start="2">
+<li>웹페이지가 열리면, 아래와 같은 환영 화면이 나타날 수 있습니다. &ldquo;건너뛰기(skip)&ldquo;를 눌러 안내 과정을 생략하세요. 필요한 단계를 아래에서 모두 다룰 것입니다.</li>
+</ol>
+<img src="../img/screenshot-skip-tour.png" height="400"/>
+<ol start="3">
+<li>이제 시작해봅시다. 왼쪽 메뉴바에서 스크립트(Scripts) 아이콘을 클릭하고, + 새 스크립트(New Script)를 선택하세요.</li>
+</ol>
+<img src="../img/screenshot-new-script.png" height="400"/>
+<ol start="4">
+<li>스크립트 이름을  <em>myjam</em> (또는 원하는 이름) 으로 입력하고, 프로그래밍 언어를 <em>JavaScript</em>로 변경하세요. 그런 다음 <em>생성(Create)</em> 버튼을 눌러 스크립트를 생성합니다(여기에 코드가 작성됩니다).</li>
+</ol>
+<img src="../img/screenshot-new-myjam.png" height="200"/>
+<ol start="5">
+<li>마지막으로, 톱니바퀴 아이콘을 클릭하고 블록 모드(Blocks mode)를 선택합니다. 화면이 다음과 같이 표시되어야 합니다.</li>
+</ol>
+<img src="../img/screenshot-setup-complete.png" height="400"/>
+<div class="notices info" >
+    <p header-value="정보"><h2 id="교사를-위한-추천-사항---earsketch-개요">교사를 위한 추천 사항 - EarSketch 개요</h2>
+<p>수업을 시작하기 전에 EarSketch 개요를 살펴보세요. 사용자 인터페이스(UI)를 어떻게 탐색하는지에 대해 이해하는 것이 중요합니다.</p>
+<p>화면 왼쪽의 <code>콘텐츠 관리자(Content Manager)</code> 는 EarSketch의 모든 기능을 탐색하는 중심 역할을 합니다.</p>
+<ol>
+<li>탐색 바의 첫 번째 항목은 <code>사운드(Sounds)</code> 모음입니다. 이것은 EarSketch에 미리 로드된 사운드를 제공하는 중앙 위치입니다. 사운드 브라우저에서 아티스트, 장르 또는 악기에 따라 표시되는 사운드를 필터링할 수 있습니다.</li>
+</ol>
+<img src="../img/screenshot-navigation-sound-browser.png" height="400"/>
+<ol start="2">
+<li>다음 항목은 <code>스크립트(Scripts)</code>창입니다. 여기에서 코드를 작성하게 됩니다.</li>
+</ol>
+<img src="../img/screenshot-navigation-script.png" height="400"/>
+<p>3.마지막 항목은 <code>API 브라우저(API Browser)</code> 창입니다. API(애플리케이션 프로그래밍 인터페이스)는 바로 사용할 수 있는 코드의 집합입니다. API 브라우저를 클릭하면 각 API에 대한 자세한 설명이 제공됩니다.</p>
+<img src="../img/screenshot-navigation-api-curriculum.png" height="400"/>
+<p>오른쪽에는 <code>커리큘럼 가이드(Curriculum guide)</code>가 보일 것입니다. EarSketch에 대해 더 알고 싶다면, 커리큘럼 창에서 탐색할 수 있습니다. 이번 연습에서는 이 부분은 생략하겠습니다.</p>
+</p>
+</div>
+
+    
+    
+      <div class="chevrons">
+  <style>
+    .workshop-complete-image {
+        margin: 40px auto 50px auto;
+        width: 340.8px;
+    }
+    
+    .workshop-complete-words {
+        font-family: Space Mono, monospace;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        text-align: center;
+    }
+    
+    .horizontal-bar {
+        background-color: #000000;
+        width: 120px;
+        height: 12px;
+        margin: 80px auto 0 auto;
+    }
+</style>
+
+
+    <div id="navigation">
+            <div class="next-prev-wrapper-div"><a class='nav nav-prev' href="/kr/javascript-blocks-earsketch/music-basics/" title="음악의 기본 요소">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                이전의:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                음악의 기본 요소
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="prevbutton-image">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+        
+    </div>
+</a></div>
+            <div class="next-prev-wrapper-div"><a class='nav nav-next' href="/kr/javascript-blocks-earsketch/activity-1-set-tempo-add-sounds/" title="활동 1 - 템포 설정 및 사운드 추가">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                다음:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                활동 1 - 템포 설정 및 사운드 추가
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="nextbutton-image">
+            <i class="fa fa-arrow-right"></i>
+        </div>
+        
+    </div>
+</a></div>
+        </div>
+</div>
+
+</section>
+</article>
+
+<footer>
+  <div class="footline">
+    
+
+    
+
+    
+    <div class="date">
+      <i class='fa fa-calendar'></i> 
+      Tue, 23 Jul 2019 11:45:38 PDT
+    </div>
+    
+
+    
+    <div class="github-link">
+      <a href="https://github.com/NuevoFoundation/workshops/tree/master/content/javascript-blocks-earsketch/getting-started-earsketch.md" target="blank"><i
+          class="fa fa-code-fork"></i>
+        </a>
+    </div>
+    
+  </div>
+
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+    
+
+    
+    
+
+    <div id="footer" class="row">
+    <div class="col-xs-12">
+        <div class="App-footer">
+            <div class="App-footer-big">
+                소셜 미디어에서 대화에 참여하세요.
+            </div>
+            <div class="social-images">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Instagram" class="fab fa-2x fa-instagram"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation X" class="fab fa-2x fa-x-twitter"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Facebook" class="fab fa-2x fa-1x fa-facebook-f"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-2x fa-linkedin"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/nuevofoundation?sub_confirmation=1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation YouTube" class="fab fa-2x fa-youtube"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Spotify" class="fab fa-2x fa-spotify"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Github" class="fab fa-2x fa-github"></i>
+                </a>
+            </div>
+            <div class="App-footer-small">
+                © 저작권 2025, 모든 권리는 501(c)(3) 비영리 단체인 Nuevo Foundation에 있습니다.
+            </div>
+        </div>
+    </div>
+</div>
+
+  </body>
+</html>

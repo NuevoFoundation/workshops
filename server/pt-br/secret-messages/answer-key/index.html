@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nuevo Foundation Workshops</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+<meta name="theme-color" content="#000000" />
+<meta name="revised" content="2025-03-14T19:00:07 -03">
+<meta name="application-name" content=" " />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+<title>Mensagens secretas C&#43;&#43; - chave de resposta :: Nuevo Foundation Workshops</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+
+<link rel="shortcut icon" href="https://www.nuevofoundation.org/favicons/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57"
+      href="https://www.nuevofoundation.org/favicons//apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120"
+      href="https://www.nuevofoundation.org/favicons/pple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-128.png" sizes=" 128x128" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="/css/nuevoweb.css" />
+<link rel="stylesheet" href="/css/chunk.css" />
+<link rel="stylesheet" href="/css/data-style.css" />
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+
+<script lang="JavaScript">
+
+      function toggleVisibility() {
+
+            
+            const menu = document.getElementById("mobile-nav-menu");
+            if (menu.style.display == 'none') {
+                  menu.classList.replace("transition-out", "transition-in")
+                  menu.style.display = 'block';
+            }
+            else if (menu.style.display == 'block') {
+                  menu.classList.replace("transition-in", "transition-out")
+                  menu.style.display = 'none';
+            }
+      }
+</script>
+<meta
+  name="description"
+  content="
+
+    
+"
+/>
+
+
+    
+  </head>
+  <body data-url="/pt-br/secret-messages/answer-key/" >
+    
+      <header>
+  
+  <div id="mobile-nav-menu" class="transition-out" style="display: none;">
+    <div class="close-btn" onclick="toggleVisibility();">
+        <i aria-hidden="true" focusable="false" style="cursor: pointer;" class="fa fa-times fa-w-11 fa-sm"></i>
+    </div>
+    <div>
+        <div class="sc-dNLxif ecnYUM">
+            <a href="/support-us"><button class="sc-jbKcbu sedGx"
+                    style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: 4px solid rgb(0, 0, 0); border-radius: 4px;">
+                    Faça uma doação
+                </button></a>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/what-we-do">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Sobre nós</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/get-involved">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Faça parte</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/support-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Apoie-nos</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/blog">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Últimos eventos</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/about-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Conheça nosso time</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/contact">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Fale conosco</li>
+            </ul>
+        </a>
+    </div>
+</div>
+<div>
+    <div class="sc-gGBfsJ iKkPGj">
+        <div class="container-fluid">
+            <div id="toprow" class="row">
+                <div class="col-xs-12">
+                    <div class="sc-EHOje fJMnSm">
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.instagram.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation Instagram" class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://twitter.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation X" class="fab fa-x-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Facebook" class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.linkedin.com/company/nuevofoundation">
+                                <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://www.youtube.com/nuevofoundation?sub_confirmation=1n">
+                                <i aria-label="Nuevo Foundation YouTube" class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1">
+                                <i aria-label="Nuevo Foundation Spotify" class="fab fa-spotify"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://github.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Github" class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" rel="noopener noreferrer"
+                                href="https://nuevofoundation.org/support-us">Faça uma doação</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="secondrow" class="row">
+                <div class="col-sm-12 hidden-xs">
+                    <div class="sc-htoDjs kjtfZK">
+                        <a class="sc-fjdhpX izNzAG active" aria-current="page" href="https://nuevofoundation.org">
+                            <img alt="Nuevo Foundation Logo" src="/images/Logo_long.0f097b90.svg"
+                                height="60px" />
+                        </a>
+                        <ul class="sc-iwsKbI bUOvG">
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/what-we-do">
+                                <li class="sc-gZMcBi Bomeo">Sobre nós</li>
+                            </a>
+                            <a class="izNzAG" href="/">
+                                <li class="sc-gZMcBi Bomeo-selected jgBGVn">Minicursos<span></span></li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/get-involved">
+                                <li class="sc-gZMcBi Bomeo">Faça parte</li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/support-us">
+                                <li class="sc-gZMcBi Bomeo">Apoie-nos</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/blog">
+                                <li class="sc-gZMcBi Bomeo">Últimos eventos</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/about-us">
+                                <li class="sc-gZMcBi Bomeo">Conheça nosso time</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/contact">
+                                <li class="sc-gZMcBi Bomeo">Fale conosco</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <a class="sc-fjdhpX izNzAG active" aria-current="page" href="/">
+                                <img alt="Nuevo Foundation Logo" class="sc-dnqmqq emolVn"
+                                    src="/images/Logo_long.0f097b90.svg" height="60%" /></a>
+                        </div>
+                        <div class="col-xs-2" onclick="toggleVisibility();"
+                            style="padding-top: 4%; padding-left: 4%; cursor: pointer;">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                                class="svg-inline--fa fa-bars fa-w-14 fa-lg" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/pt-br/secret-messages/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/pt-br/secret-messages/">C&#43;&#43;: mensagens secretas</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/pt-br/secret-messages/using-repl-it/" class="dd-item">
+        <div>
+          <a href="/pt-br/secret-messages/using-repl-it/">
+            Usando Repl.It
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/secret-messages/activity-1/" class="dd-item">
+        <div>
+          <a href="/pt-br/secret-messages/activity-1/">
+            Atividade 1 - Resultado
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/secret-messages/activity-2/" class="dd-item">
+        <div>
+          <a href="/pt-br/secret-messages/activity-2/">
+            Atividade 2 - Variáveis e Entradas (Inputs)
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/secret-messages/activity-3/" class="dd-item">
+        <div>
+          <a href="/pt-br/secret-messages/activity-3/">
+            Atividade 3 - Loops
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/secret-messages/activity-4/" class="dd-item">
+        <div>
+          <a href="/pt-br/secret-messages/activity-4/">
+            Atividade 4 – Condições
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/secret-messages/activity-5/" class="dd-item">
+        <div>
+          <a href="/pt-br/secret-messages/activity-5/">
+            Atividade 5 - Código ASCII
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/secret-messages/activity-6/" class="dd-item">
+        <div>
+          <a href="/pt-br/secret-messages/activity-6/">
+            Atividade 6 – Funções
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/secret-messages/activity-7/" class="dd-item">
+        <div>
+          <a href="/pt-br/secret-messages/activity-7/">
+            Atividade 7 – Linha de entrada (Input line)
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/secret-messages/activity-8/" class="dd-item">
+        <div>
+          <a href="/pt-br/secret-messages/activity-8/">
+            Conclusão
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+    </ul>
+
+    <section>
+    </section>
+  </aside>
+  <section class="page">
+    <div align="right">
+<select id="select-language" onchange="location = this.value;">
+	
+	
+	
+	  
+	  
+	    
+	      
+	        <option id="en" value="/secret-messages/answer-key/">English</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	      
+	        <option id="es" value="/es/secret-messages/answer-key/">Español</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="pt-br" value="/pt-br/secret-messages/answer-key/" selected>Português Brasileiro</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="kr" value="/kr/secret-messages/answer-key/">한국어</option>
+	      
+	    
+	  
+	    
+	  
+	
+</select>
+    </div>
+
+    <div class="nav-select">
+      Navegação:&nbsp;
+      <select onchange="javascript:location.href = this.value;">
+        
+<option value="/pt-br/secret-messages/" >
+   C&#43;&#43;: mensagens secretas</option>
+
+<option value="/pt-br/secret-messages/using-repl-it/" >- Usando Repl.It</option>
+<option value="/pt-br/secret-messages/activity-1/" >- Atividade 1 - Resultado</option>
+<option value="/pt-br/secret-messages/activity-2/" >- Atividade 2 - Variáveis e Entradas (Inputs)</option>
+<option value="/pt-br/secret-messages/activity-3/" >- Atividade 3 - Loops</option>
+<option value="/pt-br/secret-messages/activity-4/" >- Atividade 4 – Condições</option>
+<option value="/pt-br/secret-messages/activity-5/" >- Atividade 5 - Código ASCII</option>
+<option value="/pt-br/secret-messages/activity-6/" >- Atividade 6 – Funções</option>
+<option value="/pt-br/secret-messages/activity-7/" >- Atividade 7 – Linha de entrada (Input line)</option>
+<option value="/pt-br/secret-messages/activity-8/" >- Conclusão</option>
+
+
+
+      </select>
+
+    </div>
+    
+
+    <h1>Mensagens secretas C&#43;&#43; - chave de resposta</h1>
+
+    
+
+    
+
+    
+    
+    
+    
+    <p>As 5 linhas a seguir são necessárias para todas as atividades.</p>
+<pre tabindex="0"><code>#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+  
+  return 0;
+}
+</code></pre><h3 id="atividade-1">Atividade 1</h3>
+<pre tabindex="0"><code>cout &lt;&lt; &#34;Olá desenvolvedor!&#34; &lt;&lt; endl;
+</code></pre><h3 id="atividade-2">Atividade 2</h3>
+<pre tabindex="0"><code>  string nome;
+  cin &gt;&gt; nome;
+  cout &lt;&lt; &#34;Olá &#34; &lt;&lt; nome &lt;&lt; endl;
+</code></pre><h3 id="atividade-3">Atividade 3</h3>
+<pre tabindex="0"><code>string nome;
+cin &gt;&gt; nome;
+for(int i=0; i&lt;nome.size(); i++){
+  cout &lt;&lt; nome[i] &lt;&lt; endl;
+}
+</code></pre><h3 id="atividade-4">Atividade 4</h3>
+<pre tabindex="0"><code>int number;
+cin &gt;&gt; number;
+if(number == 1){
+  cout &lt;&lt; &#34;Encrypt a message&#34; &lt;&lt; endl;
+}else{
+  cout &lt;&lt; &#34;Decrypt a message&#34; &lt;&lt; endl;
+}
+</code></pre><h3 id="atividade-5">Atividade 5</h3>
+<pre tabindex="0"><code>#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+  string code;
+  string name;
+  cin &gt;&gt; code;
+  cin &gt;&gt; name;
+  int counter = 0;
+  for(int i=0; i&lt;name.size(); i++){
+    int sum = name[i]+code[counter]-&#39;a&#39;;
+    if(sum &gt; &#39;z&#39;){
+     sum-=25;
+    }
+    name[i]=sum;
+    counter+=1;
+    if(counter &gt;= code.size()){
+      counter=0;
+    }
+  }
+  cout &lt;&lt; &#34;Encrypted message: &#34; &lt;&lt; endl;
+  cout &lt;&lt; name &lt;&lt; endl;
+  return 0;
+}
+</code></pre><h3 id="atividade-6">Atividade 6</h3>
+<pre tabindex="0"><code>#include &lt;iostream&gt;
+using namespace std;
+
+void encrypt (string &amp;name, string code){
+  int counter = 0;
+  for(int i=0; i&lt;name.size(); i++){
+    int sum = name[i]+code[counter]-&#39;a&#39;;
+    if(sum &gt; &#39;z&#39;){
+     sum-=25;
+    }
+    name[i]=sum;
+    counter+=1;
+    if(counter &gt;= code.size()){
+      counter=0;
+    }
+  }
+}
+
+void decrypt (string &amp;name, string code){
+  int counter = 0;
+  for(int i=0; i&lt;name.size(); i++){
+    int sum = name[i]-code[counter]+&#39;a&#39;;
+    if(sum &lt; &#39;a&#39;){
+     sum+=25;
+    }
+    name[i]=sum;
+    counter+=1;
+    if(counter &gt;= code.size()){
+      counter=0;
+    }
+  }
+}
+
+int main() {
+  string code;
+  string name;
+  int number;
+  cin &gt;&gt; number;
+  cin &gt;&gt; code;
+  cin &gt;&gt; name;
+  if(number == 1){
+      cout &lt;&lt; &#34;Encrypted message: &#34; &lt;&lt; endl;
+      encrypt(name, code);
+      cout &lt;&lt; name &lt;&lt; endl;
+  }else{
+    cout &lt;&lt; &#34;Decrypted message: &#34; &lt;&lt; endl;
+    decrypt(name, code);
+    cout &lt;&lt; name &lt;&lt; endl;
+  }
+  return 0;
+}
+</code></pre><h3 id="atividade-7">Atividade 7</h3>
+<pre tabindex="0"><code>#include &lt;iostream&gt;
+using namespace std;
+
+void encrypt (string &amp;name, string code){
+  int counter = 0;
+  for(int i=0; i&lt;name.size(); i++){
+    if(name[i]!=&#39; &#39;){
+      int sum = name[i]+code[counter]-&#39;a&#39;;
+      if(sum &gt; &#39;z&#39;){
+      sum-=25;
+      }
+      name[i]=sum;
+      counter+=1;
+      if(counter &gt;= code.size()){
+        counter=0;
+      }
+    }
+  }
+}
+
+void decrypt (string &amp;name, string code){
+  int counter = 0;
+  for(int i=0; i&lt;name.size(); i++){
+    if(name[i]!=&#39; &#39;){
+      int sum = name[i]-code[counter]+&#39;a&#39;;
+      if(sum &lt; &#39;a&#39;){
+      sum+=25;
+      }
+      name[i]=sum;
+      counter+=1;
+      if(counter &gt;= code.size()){
+        counter=0;
+      }
+    }
+  }
+}
+
+int main() {
+  string code;
+  string name;
+  int number;
+  cin &gt;&gt; number;
+  cin &gt;&gt; code;
+  getline(cin, name);
+  if(number == 1){
+      cout &lt;&lt; &#34;Encrypted message: &#34; &lt;&lt; endl;
+      encrypt(name, code);
+      cout &lt;&lt; name &lt;&lt; endl;
+  }else{
+    cout &lt;&lt; &#34;Decrypted message: &#34; &lt;&lt; endl;
+    decrypt(name, code);
+    cout &lt;&lt; name &lt;&lt; endl;
+  }
+  return 0;
+}
+</code></pre>
+
+    
+    
+      <div class="chevrons">
+  <style>
+    .workshop-complete-image {
+        margin: 40px auto 50px auto;
+        width: 340.8px;
+    }
+    
+    .workshop-complete-words {
+        font-family: Space Mono, monospace;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        text-align: center;
+    }
+    
+    .horizontal-bar {
+        background-color: #000000;
+        width: 120px;
+        height: 12px;
+        margin: 80px auto 0 auto;
+    }
+</style>
+
+
+    <div id="navigation">
+            <div class="next-prev-wrapper-div"></div>
+            <div class="next-prev-wrapper-div"><a class='nav nav-next' href="/pt-br/secret-messages/using-repl-it/" title="Usando Repl.It">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Próximo:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Usando Repl.It
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="nextbutton-image">
+            <i class="fa fa-arrow-right"></i>
+        </div>
+        
+    </div>
+</a></div>
+        </div>
+</div>
+
+</section>
+</article>
+
+<footer>
+  <div class="footline">
+    
+
+    
+
+    
+    <div class="date">
+      <i class='fa fa-calendar'></i> 
+      Fri, 27 Mar 2020 20:24:33 PDT
+    </div>
+    
+
+    
+    <div class="github-link">
+      <a href="https://github.com/NuevoFoundation/workshops/tree/master/content/secret-messages/answer-key.md" target="blank"><i
+          class="fa fa-code-fork"></i>
+        </a>
+    </div>
+    
+  </div>
+
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+    
+
+    
+    
+
+    <div id="footer" class="row">
+    <div class="col-xs-12">
+        <div class="App-footer">
+            <div class="App-footer-big">
+                Siga-nos nas redes sociais.
+            </div>
+            <div class="social-images">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Instagram" class="fab fa-2x fa-instagram"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation X" class="fab fa-2x fa-x-twitter"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Facebook" class="fab fa-2x fa-1x fa-facebook-f"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-2x fa-linkedin"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/nuevofoundation?sub_confirmation=1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation YouTube" class="fab fa-2x fa-youtube"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Spotify" class="fab fa-2x fa-spotify"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Github" class="fab fa-2x fa-github"></i>
+                </a>
+            </div>
+            <div class="App-footer-small">
+                © Copyright 2025, Todos os direitos reservados a Nuevo Foundation, uma organização sem fins lucrativos de acordo com a norma 501(c)(3) da lei federal dos Estados Unidos.
+            </div>
+        </div>
+    </div>
+</div>
+
+  </body>
+</html>

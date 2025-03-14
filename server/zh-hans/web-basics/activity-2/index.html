@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nuevo Foundation Workshops</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+<meta name="theme-color" content="#000000" />
+<meta name="revised" content="2025-03-14T19:00:11 -03">
+<meta name="application-name" content=" " />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+<title>挑战2 - CSS :: Nuevo Foundation Workshops</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+
+<link rel="shortcut icon" href="https://www.nuevofoundation.org/favicons/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57"
+      href="https://www.nuevofoundation.org/favicons//apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120"
+      href="https://www.nuevofoundation.org/favicons/pple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-128.png" sizes=" 128x128" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="/css/nuevoweb.css" />
+<link rel="stylesheet" href="/css/chunk.css" />
+<link rel="stylesheet" href="/css/data-style.css" />
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+
+<script lang="JavaScript">
+
+      function toggleVisibility() {
+
+            
+            const menu = document.getElementById("mobile-nav-menu");
+            if (menu.style.display == 'none') {
+                  menu.classList.replace("transition-out", "transition-in")
+                  menu.style.display = 'block';
+            }
+            else if (menu.style.display == 'block') {
+                  menu.classList.replace("transition-in", "transition-out")
+                  menu.style.display = 'none';
+            }
+      }
+</script>
+<meta
+  name="description"
+  content="
+
+    
+"
+/>
+
+
+    
+  </head>
+  <body data-url="/zh-hans/web-basics/activity-2/" >
+    
+      <header>
+  
+  <div id="mobile-nav-menu" class="transition-out" style="display: none;">
+    <div class="close-btn" onclick="toggleVisibility();">
+        <i aria-hidden="true" focusable="false" style="cursor: pointer;" class="fa fa-times fa-w-11 fa-sm"></i>
+    </div>
+    <div>
+        <div class="sc-dNLxif ecnYUM">
+            <a href="/support-us"><button class="sc-jbKcbu sedGx"
+                    style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: 4px solid rgb(0, 0, 0); border-radius: 4px;">
+                    捐赠
+                </button></a>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/what-we-do">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>我们的工作</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/get-involved">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>参与其中</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/support-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>支持我们</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/blog">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>活动博客</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/about-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>我们的团队</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/contact">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>联系我们</li>
+            </ul>
+        </a>
+    </div>
+</div>
+<div>
+    <div class="sc-gGBfsJ iKkPGj">
+        <div class="container-fluid">
+            <div id="toprow" class="row">
+                <div class="col-xs-12">
+                    <div class="sc-EHOje fJMnSm">
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.instagram.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation Instagram" class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://twitter.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation X" class="fab fa-x-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Facebook" class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.linkedin.com/company/nuevofoundation">
+                                <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://www.youtube.com/nuevofoundation?sub_confirmation=1n">
+                                <i aria-label="Nuevo Foundation YouTube" class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1">
+                                <i aria-label="Nuevo Foundation Spotify" class="fab fa-spotify"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://github.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Github" class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" rel="noopener noreferrer"
+                                href="https://nuevofoundation.org/support-us">捐赠</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="secondrow" class="row">
+                <div class="col-sm-12 hidden-xs">
+                    <div class="sc-htoDjs kjtfZK">
+                        <a class="sc-fjdhpX izNzAG active" aria-current="page" href="https://nuevofoundation.org">
+                            <img alt="Nuevo Foundation Logo" src="/images/Logo_long.0f097b90.svg"
+                                height="60px" />
+                        </a>
+                        <ul class="sc-iwsKbI bUOvG">
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/what-we-do">
+                                <li class="sc-gZMcBi Bomeo">我们的工作</li>
+                            </a>
+                            <a class="izNzAG" href="/">
+                                <li class="sc-gZMcBi Bomeo-selected jgBGVn">研讨会<span></span></li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/get-involved">
+                                <li class="sc-gZMcBi Bomeo">参与其中</li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/support-us">
+                                <li class="sc-gZMcBi Bomeo">支持我们</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/blog">
+                                <li class="sc-gZMcBi Bomeo">活动博客</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/about-us">
+                                <li class="sc-gZMcBi Bomeo">我们的团队</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/contact">
+                                <li class="sc-gZMcBi Bomeo">联系我们</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <a class="sc-fjdhpX izNzAG active" aria-current="page" href="/">
+                                <img alt="Nuevo Foundation Logo" class="sc-dnqmqq emolVn"
+                                    src="/images/Logo_long.0f097b90.svg" height="60%" /></a>
+                        </div>
+                        <div class="col-xs-2" onclick="toggleVisibility();"
+                            style="padding-top: 4%; padding-left: 4%; cursor: pointer;">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                                class="svg-inline--fa fa-bars fa-w-14 fa-lg" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/zh-hans/web-basics/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/zh-hans/web-basics/">HTML &amp; CSS: 入门网站设计</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/zh-hans/web-basics/basics/" class="dd-item">
+        <div>
+          <a href="/zh-hans/web-basics/basics/">
+            基础知识
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/web-basics/putting-together/" class="dd-item">
+        <div>
+          <a href="/zh-hans/web-basics/putting-together/">
+            组合网站的各个部分
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/web-basics/activity-1/" class="dd-item">
+        <div>
+          <a href="/zh-hans/web-basics/activity-1/">
+            挑战1 - 创建一个基本的网站
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/web-basics/html-attributes/" class="dd-item">
+        <div>
+          <a href="/zh-hans/web-basics/html-attributes/">
+            HTML属性
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/web-basics/activity-2/" class="dd-item active">
+        <div>
+          <a href="/zh-hans/web-basics/activity-2/">
+            挑战2 - CSS
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/web-basics/media-elements/" class="dd-item">
+        <div>
+          <a href="/zh-hans/web-basics/media-elements/">
+            媒体元素
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/web-basics/activity-3/" class="dd-item">
+        <div>
+          <a href="/zh-hans/web-basics/activity-3/">
+            挑战3 - 添加Nuvi的GIF
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/web-basics/activity-4/" class="dd-item">
+        <div>
+          <a href="/zh-hans/web-basics/activity-4/">
+            挑战4 - 添加联系表格
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/web-basics/activity-5/" class="dd-item">
+        <div>
+          <a href="/zh-hans/web-basics/activity-5/">
+            挑战5 - 最后的挑战
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/web-basics/hosting/" class="dd-item">
+        <div>
+          <a href="/zh-hans/web-basics/hosting/">
+            托管你的网站
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/web-basics/conclusion/" class="dd-item">
+        <div>
+          <a href="/zh-hans/web-basics/conclusion/">
+            如果你想知道
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+    </ul>
+
+    <section>
+    </section>
+  </aside>
+  <section class="page">
+    <div align="right">
+<select id="select-language" onchange="location = this.value;">
+	
+	
+	
+	  
+	  
+	    
+	      
+	        <option id="en" value="/web-basics/activity-2/">English</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	      
+	        <option id="es" value="/es/web-basics/activity-2/">Español</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="fr" value="/fr/web-basics/activity-2/">Français</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="pt-br" value="/pt-br/web-basics/activity-2/">Português Brasileiro</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="zh-hans" value="/zh-hans/web-basics/activity-2/" selected>简体中文</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="zh-hant" value="/zh-hant/web-basics/activity-2/">繁體中文</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="ky" value="/ky/web-basics/activity-2/">Кыргызча</option>
+	      
+	    
+	  
+	
+</select>
+    </div>
+
+    <div class="nav-select">
+      导航:&nbsp;
+      <select onchange="javascript:location.href = this.value;">
+        
+<option value="/zh-hans/web-basics/" >
+   HTML &amp; CSS: 入门网站设计</option>
+
+<option value="/zh-hans/web-basics/basics/" >- 基础知识</option>
+<option value="/zh-hans/web-basics/putting-together/" >- 组合网站的各个部分</option>
+<option value="/zh-hans/web-basics/activity-1/" >- 挑战1 - 创建一个基本的网站</option>
+<option value="/zh-hans/web-basics/html-attributes/" >- HTML属性</option>
+<option value="/zh-hans/web-basics/activity-2/"  selected>- 挑战2 - CSS</option>
+<option value="/zh-hans/web-basics/media-elements/" >- 媒体元素</option>
+<option value="/zh-hans/web-basics/activity-3/" >- 挑战3 - 添加Nuvi的GIF</option>
+<option value="/zh-hans/web-basics/activity-4/" >- 挑战4 - 添加联系表格</option>
+<option value="/zh-hans/web-basics/activity-5/" >- 挑战5 - 最后的挑战</option>
+<option value="/zh-hans/web-basics/hosting/" >- 托管你的网站</option>
+<option value="/zh-hans/web-basics/conclusion/" >- 如果你想知道</option>
+
+
+
+      </select>
+
+    </div>
+    
+
+    <h1>挑战2 - CSS</h1>
+
+    
+
+    
+
+    
+    
+    
+    
+    <h2 id="用css设计网站的样式">用CSS设计网站的样式</h2>
+<p>HTML标签告诉浏览器要使用哪些网站元素（标题，照片，表格，等）。但是我们还需要告诉它如何显示和摆放这些元素。我们可能希望标题位于中间或网站的右侧; 我们也可能想要放张图片再右侧。我们可以通过两种方式来设计网站的样式：</p>
+<ol>
+<li>使用HTML属性</li>
+<li>使用阶层式样式表 (CSS)。</li>
+</ol>
+<h3 id="阶层式样式表css">阶层式样式表（CSS）</h3>
+<p>虽然HTML属性很容易使用，但它们很快就会变得混乱。如果我们希望做很多样式设计，HTML元素可能会变得很长且难以阅读。此外，如果我们想用相同的方式设置许多元素的样式呢，我们将不得不复制每个元素的所有属性。这样不但效率不高并且容易出错。对于设计大多网站样式，最好使用CSS。</p>
+<p>CSS文件与HTML标记紧密配合。每个HTML标签可以具有一个<code>class</code> 属性或一个 <code>id</code> 有助于标识每个元素的属性。不同的元素可以有相同的类（<code>class</code>），一个元素可以有多个不同的类(<code>class</code>)。但是，一个元素只能有一个单一的<code>id</code>，并且该<code>id</code>无法在元素之间共享。 CSS文件会使用这些属性来显示与<code>class</code>或<code>id</code>相关的网站元素。</p>
+<p>以下是一的例子：</p>
+<p class="codepen" data-height="426" data-theme-id="dark" data-default-tab="css,result" data-user="Sunny-Dee" data-slug-hash="qgvpQE" style="height: 426px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Styling it up"> See the Pen <a href="https://codepen.io/Sunny-Dee/pen/qgvpQE/"> Styling it up</a> by Deliana Escobari (<a href="https://codepen.io/Sunny-Dee">@Sunny-Dee</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+<p><b>单击左上角的“HTML”选项以查看HTML程式编码 ，然后单击“CSS”选项以查看CSS程式编码 。</b></p>
+<p>让我们看一下HTML代码。找具有属性&quot;info&quot;的标签<code>&lt;div&gt;</code>，看起来像<code>&lt;div id=&quot;info&quot;&gt;</code>。通过<code>&lt;div&gt;</code>的<code>id</code>，我们可以使用CSS来为这个HTML元素指定样式。</p>
+<p>切换到CSS文件。在这，我们还可以为特定类型的所有元素赋予样式。例如，我们可以使用CSS为所有<code>&lt;header&gt;</code>元素赋予相同的样式。在<code>&lt;header&gt;&lt;/header&gt;</code>中，我们告诉浏览器为所有标题(header)着<code>#0097A7色</code>（蓝绿色）。</p>
+<p>让我们讨论一下CSS的语法。</p>
+<ul>
+<li>首先，如果要为所有具有相同标签的元素（例如: <code>&lt;header&gt;</code>）设置统一样式，只需输入名称即可（例如: header）</li>
+<li>如果要使用<code>class</code>或<code>id</code>设置元素样式，请分别在class或id名称前放置 <code>.</code> 或 <code>#</code>。</li>
+<li>然后，对于要更改的每个属性，使用这个格式：<code>属性名称(attribute-name)：值 (value)</code> 并且以 <code>;</code> 结尾。所有这些样式都应由 <code>{</code> 和 <code>}</code> 包围。</li>
+</ul>
+<p>本教程中无法涵盖所有样式元素。上网查询，如果你不确定如何使用CSS完成所需的样式。</p>
+<p><img src="../media/web-search.gif" alt="上网查询CSS的GIF" title="上网查询CSS的GIF"></p>
+<div class="notices tip" >
+    <p header-value="技巧">尽管CSS可以识别140种颜色名称，例如“green(绿色)”，“red(红色)”和“blue(蓝色)”，但这仍然是有限制性的。例如，如果我们想要深绿色或稍浅的绿色怎么办？为此，我们可以引用十六进制或RGB形式的颜色。检查<a href="https://htmlcolorcodes.com/color-names/" target="_blank">此链接</a>以查看颜色及其对应的十六进制形式。</p>
+</div>
+<h3 id="添加新字体">添加新字体</h3>
+<p>正如你可能知道的，有多种字体可以使用。这一部分将告诉你如何将不同的字体导入你的网站。</p>
+<ul>
+<li>让我们从网上导入<code>Heebo</code>字体。首先，复制贴上以下文字于CSS文件顶部: <code>@import url('https://fonts.googleapis.com/css?family=Heebo|Open+Sans');</code></li>
+<li>然后，我们将<code>body</code>标签设定适用此字体。由于<code>body</code>标签包含所有HTML元素，所有元素都会使用此字体。</li>
+</ul>
+<p><img src="../media/bodytag.PNG" alt="body标签列子" title="body标签列子"></p>
+<ul>
+<li>请注意，花括号内的格式为： <code>名称(name): 值(value)</code>;
+<ul>
+<li><code>&lt;span style=&quot;color:purple&quot;&gt;@import url('https://fonts.googleapis.com/css?family=Roboto+Mono'); &lt;/span&gt;</code><br> <code>font-family: 'Roboto Mono', monospace;</code></li>
+<li><code>&lt;span style=&quot;color:purple&quot;&gt; @import url('https://fonts.googleapis.com/css?family=Indie+Flower');&lt;/span&gt;</code><br> <code>font-family: 'Indie Flower', cursive;</code></li>
+<li><code>&lt;span style=&quot;color:purple&quot;&gt;@import url('https://fonts.googleapis.com/css?family=Pacifico'); &lt;/span&gt;</code><br> <code>font-family: 'Pacifico', cursive;</code></li>
+<li><code>&lt;span style=&quot;color:purple&quot;&gt;@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');&lt;/span&gt;</code><br> <code>font-family: 'Permanent Marker', cursive;</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="挑战2">挑战2</h3>
+<ol>
+<li>打开网络编辑器（单击下面的“尝试一下！”按钮）</li>
+<li>添加<code>id</code>属性到一个<code>header</code>标签。例如，<code>&lt;header id=&quot;page-title&quot;&gt;</code></li>
+<li>切换到CSS页面，写下 <br><code>#page-title</code><br><code>{</code><br><code>}</code></li>
+<li>改标题颜色：例如，<code>color: yellow;</code></li>
+<li>在花括号内更改字体：例如，<code>Roboto Mono</code> 。并添加 <code>@import url('https://fonts.googleapis.com/css?family=Roboto+Mono')</code> 于页面顶部。</li>
+</ol>
+<p><a class="my-2 mx-4 btn btn-info" href="https://codepen.io/Sunny-Dee/pen/qgvpQE" target="_blank">尝试一下！</a></p>
+
+
+    
+    
+      <div class="chevrons">
+  <style>
+    .workshop-complete-image {
+        margin: 40px auto 50px auto;
+        width: 340.8px;
+    }
+    
+    .workshop-complete-words {
+        font-family: Space Mono, monospace;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        text-align: center;
+    }
+    
+    .horizontal-bar {
+        background-color: #000000;
+        width: 120px;
+        height: 12px;
+        margin: 80px auto 0 auto;
+    }
+</style>
+
+
+    <div id="navigation">
+            <div class="next-prev-wrapper-div"><a class='nav nav-prev' href="/zh-hans/web-basics/html-attributes/" title="HTML属性">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                前一页:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                HTML属性
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="prevbutton-image">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+        
+    </div>
+</a></div>
+            <div class="next-prev-wrapper-div"><a class='nav nav-next' href="/zh-hans/web-basics/media-elements/" title="媒体元素">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                下一页:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                媒体元素
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="nextbutton-image">
+            <i class="fa fa-arrow-right"></i>
+        </div>
+        
+    </div>
+</a></div>
+        </div>
+</div>
+
+</section>
+</article>
+
+<footer>
+  <div class="footline">
+    
+
+    
+
+    
+    <div class="date">
+      <i class='fa fa-calendar'></i> 
+      Tue, 03 Sep 2019 17:53:41 PDT
+    </div>
+    
+
+    
+    <div class="github-link">
+      <a href="https://github.com/NuevoFoundation/workshops/tree/master/content/web-basics/activity-2.md" target="blank"><i
+          class="fa fa-code-fork"></i>
+        </a>
+    </div>
+    
+  </div>
+
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+    
+
+    
+    
+
+    <div id="footer" class="row">
+    <div class="col-xs-12">
+        <div class="App-footer">
+            <div class="App-footer-big">
+                加入社交媒体上的对话.
+            </div>
+            <div class="social-images">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Instagram" class="fab fa-2x fa-instagram"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation X" class="fab fa-2x fa-x-twitter"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Facebook" class="fab fa-2x fa-1x fa-facebook-f"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-2x fa-linkedin"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/nuevofoundation?sub_confirmation=1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation YouTube" class="fab fa-2x fa-youtube"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Spotify" class="fab fa-2x fa-spotify"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Github" class="fab fa-2x fa-github"></i>
+                </a>
+            </div>
+            <div class="App-footer-small">
+                © Copyright 2025, All Rights Reserved by Nuevo Foundation, a 501(c)(3) nonprofit.
+            </div>
+        </div>
+    </div>
+</div>
+
+  </body>
+</html>

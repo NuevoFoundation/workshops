@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>블록: EarSketch로 음악 만들기 on Nuevo Foundation Workshops</title>
+    <link>/kr/javascript-blocks-earsketch/</link>
+    <description>Recent content in 블록: EarSketch로 음악 만들기 on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>kr</language>
+    <lastBuildDate>Tue, 23 Jul 2019 11:45:38 -0700</lastBuildDate>
+    <atom:link href="/kr/javascript-blocks-earsketch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>음악의 기본 요소</title>
+      <link>/kr/javascript-blocks-earsketch/music-basics/</link>
+      <pubDate>Tue, 23 Jul 2019 11:45:38 -0700</pubDate>
+      <guid>/kr/javascript-blocks-earsketch/music-basics/</guid>
+      <description>&lt;h2 id=&#34;먼저-기본적인-음악-개념을-알아봅시다&#34;&gt;먼저 기본적인 음악 개념을 알아봅시다.&lt;/h2&gt;&#xA;&lt;h3 id=&#34;음악이란-무엇인가요&#34;&gt;음악이란 무엇인가요?&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://en.wikiversity.org/wiki/Introduction_to_music&#34; target=&#34;_blank&#34;&gt;음악&lt;sup&gt;&lt;span class=&#34;glyphicon glyphicon-new-window&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/sup&gt;&lt;/a&gt;&#xD;&#xA;은 소리를 시간적으로 조직화한 것입니다. 즉, 특정한 소리를 특정한 시간에 배치하여 선율, 리듬, 화성이 조화를 이루도록 만드는 것입니다. 가장 기본적인 개념은 소리를 제때 맞추는 것입니다. 이 개념에서 몇 가지 중요한 음악 용어들이 나옵니다: 비트(beat), 리듬(rhythm), 듀레이션(duration) 및 템포(tempo)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;비트(Beat)&lt;/strong&gt; 는 리듬이 맞춰지는 기준이 되는 규칙적인 박자입니다.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;리듬(Rhythm)&lt;/strong&gt; 은 길거나 짧은 소리, 강하거나 약한 소리 또는 침묵이 반복되는 패턴으로, 메인 비트에 맞춰집니다.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;듀레이션(Duration)&lt;/strong&gt; 은 리듬을 구성하는 음이나 소리, 침묵의 길이입니다.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;템포(Tempo)&lt;/strong&gt; 는 음악이 연주되는 속도를 의미합니다.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>EarSketch 시작하기</title>
+      <link>/kr/javascript-blocks-earsketch/getting-started-earsketch/</link>
+      <pubDate>Tue, 23 Jul 2019 11:45:38 -0700</pubDate>
+      <guid>/kr/javascript-blocks-earsketch/getting-started-earsketch/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/EarSketch&#34; target=&#34;_blank&#34;&gt;EarSketch&lt;sup&gt;&lt;span class=&#34;glyphicon glyphicon-new-window&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/sup&gt;&lt;/a&gt;&#xD;&#xA;는 조지아 공과대학교에서 개발한 무료 교육용 프로그래밍 환경입니다. 오늘 우리는 EarSketch를 사용하여 음악을 만들 것입니다.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;음악을 만들기 위해, 아래 버튼을 클릭하여 EarSketch를 새 탭에서 엽니다.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;a class=&#34;my-2 mx-4 btn btn-info&#34; href=&#34;https://earsketch.gatech.edu/earsketch2/&#34; target=&#34;_blank&#34;&gt;Earsketch 실행&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;웹페이지가 열리면, 아래와 같은 환영 화면이 나타날 수 있습니다. &amp;ldquo;건너뛰기(skip)&amp;ldquo;를 눌러 안내 과정을 생략하세요. 필요한 단계를 아래에서 모두 다룰 것입니다.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;img src=&#34;../img/screenshot-skip-tour.png&#34; height=&#34;400&#34;/&gt;&#xD;&#xA;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;이제 시작해봅시다. 왼쪽 메뉴바에서 스크립트(Scripts) 아이콘을 클릭하고, + 새 스크립트(New Script)를 선택하세요.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;img src=&#34;../img/screenshot-new-script.png&#34; height=&#34;400&#34;/&gt;&#xD;&#xA;&lt;ol start=&#34;4&#34;&gt;&#xA;&lt;li&gt;스크립트 이름을  &lt;em&gt;myjam&lt;/em&gt; (또는 원하는 이름) 으로 입력하고, 프로그래밍 언어를 &lt;em&gt;JavaScript&lt;/em&gt;로 변경하세요. 그런 다음 &lt;em&gt;생성(Create)&lt;/em&gt; 버튼을 눌러 스크립트를 생성합니다(여기에 코드가 작성됩니다).&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;img src=&#34;../img/screenshot-new-myjam.png&#34; height=&#34;200&#34;/&gt;&#xD;&#xA;&lt;ol start=&#34;5&#34;&gt;&#xA;&lt;li&gt;마지막으로, 톱니바퀴 아이콘을 클릭하고 블록 모드(Blocks mode)를 선택합니다. 화면이 다음과 같이 표시되어야 합니다.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;img src=&#34;../img/screenshot-setup-complete.png&#34; height=&#34;400&#34;/&gt;&#xD;&#xA;&lt;div class=&#34;notices info&#34; &gt;&#xD;&#xA;    &lt;p header-value=&#34;정보&#34;&gt;&lt;h2 id=&#34;교사를-위한-추천-사항---earsketch-개요&#34;&gt;교사를 위한 추천 사항 - EarSketch 개요&lt;/h2&gt;&#xA;&lt;p&gt;수업을 시작하기 전에 EarSketch 개요를 살펴보세요. 사용자 인터페이스(UI)를 어떻게 탐색하는지에 대해 이해하는 것이 중요합니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>활동 1 - 템포 설정 및 사운드 추가</title>
+      <link>/kr/javascript-blocks-earsketch/activity-1-set-tempo-add-sounds/</link>
+      <pubDate>Tue, 23 Jul 2019 11:45:38 -0700</pubDate>
+      <guid>/kr/javascript-blocks-earsketch/activity-1-set-tempo-add-sounds/</guid>
+      <description>&lt;p&gt;기존 코드의 내용을 자세히 살펴보고 그 의미를 이해해 봅시다.&lt;/p&gt;&#xA;&lt;img src=&#34;../img/screenshot-setup-complete.png&#34; height=&#34;400&#34;/&gt;&#xD;&#xA;&lt;p&gt;&lt;code&gt;setTempo()&lt;/code&gt; 함수는 프로젝트 전체의 템포(음악이 연주되는 속도)를 설정할 수 있도록 합니다. 프로젝트의 템포를 변경하면 다양한 스타일의 음악을 만들 수 있습니다. &lt;code&gt;setTempo&lt;/code&gt; 함수의 숫자를 변경하여 템포를 조정해 보세요! 숫자는 45에서 220 사이여야 합니다. 아래는 사용할 수 있는 몇 가지 템포 예시입니다.&lt;/p&gt;&#xA;&lt;img src=&#34;../img/img-tempo1.png&#34; height=&#34;200&#34;/&gt;&#xD;&#xA;&lt;p&gt;이제 템포가 설정되었으니 사운드를 추가할 시간입니다. 이를 위해 우리는 &lt;code&gt;fitMedia()&lt;/code&gt; 함수를 사용해야 합니다. 새로운 코드를 &lt;code&gt;setTempo()&lt;/code&gt; 함수 블록 아래에 추가할 것입니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>활동 2 - 곡 만들기!</title>
+      <link>/kr/javascript-blocks-earsketch/activity-2-make-a-song/</link>
+      <pubDate>Tue, 23 Jul 2019 11:45:38 -0700</pubDate>
+      <guid>/kr/javascript-blocks-earsketch/activity-2-make-a-song/</guid>
+      <description>&lt;p&gt;이제 EarSketch에 사운드를 추가하는 방법을 배웠으니, 곡을 만들어봅시다! 이미 EarSketch에 하나의 오디오 클립이 추가된 상태일 것입니다. 하지만 곡은 여러 악기로 구성되므로, 더 많은 오디오 클립을 추가해야 합니다.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;code&gt;fitMedia()&lt;/code&gt; 블록을 하나 더 추가하세요.&lt;/li&gt;&#xA;&lt;li&gt;현재 곡에 추가할 오디오 클립을 찾아서 &lt;code&gt;sound&lt;/code&gt; 매개변수에 넣으세요.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;track&lt;/code&gt; 매개변수는 고유한 숫자여야 합니다. 이렇게 하면 다른 트랙에 사운드를 배치할 수 있습니다. 다른 트랙에 사운드를 배치하면 각 사운드를 체계적으로 관리할 수 있으며, 동시에 다양한 사운드를 재생할 수 있습니다. 예시: 첫 번째 &lt;code&gt;fitMedia()&lt;/code&gt; 호출이 1번 트랙에 있다면, 두 번째 &lt;code&gt;fitMedia()&lt;/code&gt; 호출은 2번 트랙에 있어야 합니다.&lt;/li&gt;&#xA;&lt;li&gt;나머지 매개변수들도 완성하세요.&lt;/li&gt;&#xA;&lt;li&gt;이 단계를 반복하여 네 개의 서로 다른 오디오 사운드를 곡에 추가하세요.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;이제 코드가 아래와 같이 보일 것입니다::&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>활동 3 - 곡에 효과 추가하기</title>
+      <link>/kr/javascript-blocks-earsketch/activity-3-add-effects-to-your-songs/</link>
+      <pubDate>Tue, 23 Jul 2019 11:45:38 -0700</pubDate>
+      <guid>/kr/javascript-blocks-earsketch/activity-3-add-effects-to-your-songs/</guid>
+      <description>&lt;h2 id=&#34;earsketch에서의-효과&#34;&gt;EarSketch에서의 효과&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;효과&lt;/strong&gt; 프로듀서가 오디오 클립의 소리를 독특하게 변형할 수 있게 합니다. 새로운 오디오 클립을 추가할 때 &lt;code&gt;fitMedia()&lt;/code&gt; 함수를 사용한 것처럼, 우리는 특정 오디오 클립에 효과를 적용하기 위해 &lt;code&gt;setEffect()&lt;/code&gt; 함수를 사용해야 합니다. 한 트랙에 여러 효과를 적용할 수 있다는 점이 중요합니다. 이는 여러 효과를 결합하여 독특한 사운드를 만들 수 있음을 의미합니다. EarSketch에는 다양한 효과가 내장되어 있습니다. 모든 효과를 참고하려면 이 &lt;a href=&#34;https://earsketch.gatech.edu/earsketch2/#?curriculum=5-1-0&amp;amp;language=python&#34; target=&#34;_blank&#34;&gt;링크&lt;sup&gt;&lt;span class=&#34;glyphicon glyphicon-new-window&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/sup&gt;&lt;/a&gt;&#xD;&#xA; 를 방문하고 탐색 바에서 &lt;em&gt;커리큘럼&lt;/em&gt; 창을 선택하세요.&lt;/p&gt;&#xA;&lt;p&gt;효과를 추가하기 전에 &lt;code&gt;setEffect&lt;/code&gt; 함수의 각 요소를 살펴봅시다:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>활동 4 - 페이드 인 효과 사용하기</title>
+      <link>/kr/javascript-blocks-earsketch/activity-4-use-effects-to-fade-in/</link>
+      <pubDate>Tue, 23 Jul 2019 11:45:38 -0700</pubDate>
+      <guid>/kr/javascript-blocks-earsketch/activity-4-use-effects-to-fade-in/</guid>
+      <description>&lt;p&gt;이제 곡에 하나의 효과를 추가했으니, 이번에는 곡의 도입부에 페이드 인 효과를 적용해 보겠습니다.&lt;/p&gt;&#xA;&lt;p&gt;활동 3에서는 &lt;code&gt;setEffect&lt;/code&gt; 함수를 사용하여 특정 트랙에 곡 전체에 걸쳐 효과를 적용했습니다. 그러나 곡의 특정 부분에만 효과를 적용하고 싶다면 어떻게 해야 할까요? 이때는 매개변수를 더 많이 사용하는 &lt;code&gt;setEffect&lt;/code&gt; 함수를 사용해야 합니다.&lt;/p&gt;&#xA;&lt;img src=&#34;../img/screenshot-seteffect2.png&#34; height=&#34;30&#34;/&gt;&#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;startValue&lt;/code&gt;: 매개변수에 적용되는 시작 값&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;start&lt;/code&gt;: 시작 값을 설정할 마디&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;endValue&lt;/code&gt;: 매개변수에 적용되는 끝 값&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;end&lt;/code&gt;: 끝 값을 설정할 마디&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;이 &lt;code&gt;setEffect&lt;/code&gt;함수 버전을 사용하면 곡의 특정 부분에서 자동화를 실행할 수 있습니다. 자동화란 효과의 값을 시간이 지남에 따라 변경하는 방법입니다. 자동화의 한 가지 예로 곡을 페이드 인 또는 페이드 아웃하는 방법이 있습니다. 이를 위해서는 &lt;strong&gt;VOLUME&lt;/strong&gt; &lt;code&gt;effectType&lt;/code&gt;에서 &lt;strong&gt;GAIN&lt;/strong&gt;&lt;code&gt;매개변수(parameter)&lt;/code&gt;를 사용하여 음량을 시간에 따라 조절할 수 있습니다. 예를 들어, &lt;code&gt;startValue&lt;/code&gt; 를 -60db로, &lt;code&gt;endValue&lt;/code&gt; 를 0db로 정의하면, 시간이 지나면서 곡이 점점 커지는 페이드 인 효과가 나타납니다. 시작 지점과 효과의 길이를 조정하려면 &lt;code&gt;start&lt;/code&gt; 와 &lt;code&gt;end&lt;/code&gt;매개변수를 설정하세요.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

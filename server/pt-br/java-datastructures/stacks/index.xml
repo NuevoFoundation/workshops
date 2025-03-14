@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stacks: O motorista on Nuevo Foundation Workshops</title>
+    <link>/pt-br/java-datastructures/stacks/</link>
+    <description>Recent content in Stacks: O motorista on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Mon, 10 Feb 2020 13:24:17 -0700</lastBuildDate>
+    <atom:link href="/pt-br/java-datastructures/stacks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introdução</title>
+      <link>/pt-br/java-datastructures/stacks/introduction/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      <guid>/pt-br/java-datastructures/stacks/introduction/</guid>
+      <description>&lt;h2 id=&#34;visualizando-uma-pilha&#34;&gt;Visualizando uma pilha&lt;/h2&gt;&#xA;&lt;p&gt;Uma stack (pilha) é muito semelhante a uma queue (fila) e muitos dos conceitos que você aprendeu sobre uma queue podem ser aplicados a uma stack. Ao contrário da fila com lógica FIFO, uma pilha é diferente porque utiliza a lógica oposta, LIFO (Último a Entrar, Primeiro a Sair; Last In, First Out).&lt;/p&gt;&#xA;&lt;p&gt;Um exemplo comum para pensar em uma stack (pilha) é uma pilha de pratos. Imagine 5 pratos empilhados um sobre o outro. Se você adicionar um sexto prato ao topo da pilha, sua pilha de pratos agora será uma pilha de 6. No entanto, e se você quisesse remover um prato? Bem, você não alcançaria o fundo da pilha e pegaria um prato; você tiraria um prato de cima.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Métodos</title>
+      <link>/pt-br/java-datastructures/stacks/methods/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      <guid>/pt-br/java-datastructures/stacks/methods/</guid>
+      <description>&lt;h2 id=&#34;stacks&#34;&gt;Stacks&lt;/h2&gt;&#xA;&lt;p&gt;Uma stack é semelhante a uma queue. A única diferença são os nomes dos métodos e a maneira como recuperamos os itens.&lt;/p&gt;&#xA;&lt;p&gt;Antes de criarmos uma stack, teremos que &lt;code&gt;importar&lt;/code&gt; a classe &lt;code&gt;stack&lt;/code&gt;. Para facilitar a vida, podemos usar um &lt;code&gt;*&lt;/code&gt; para importar todas as classes da biblioteca. Vai parecer algo assim.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Isso importará a stack, entre outras classes&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#00a8c8&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#75af00&#34;&gt;java&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#75af00&#34;&gt;util&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Existem vários métodos para usar em uma stack. Se estiver interessado, você pode pesquisar na internet para obter mais informações sobre esses métodos. No entanto, vamos explicar apenas os métodos mais importantes por enquanto: &lt;code&gt;push()&lt;/code&gt;, &lt;code&gt;peek()&lt;/code&gt;, e &lt;code&gt;pop()&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problema 1: Fundamentos da Stack</title>
+      <link>/pt-br/java-datastructures/stacks/problem-1/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      <guid>/pt-br/java-datastructures/stacks/problem-1/</guid>
+      <description>&lt;h2 id=&#34;tarefa-1-reverter-usando-stack&#34;&gt;Tarefa 1: Reverter usando stack&lt;/h2&gt;&#xA;&lt;p&gt;Oh não! Um novo estagiário foi contratado e bagunçou a lista de restaurantes! Os pedidos dos restaurantes estão em ordem &lt;strong&gt;inversa&lt;/strong&gt;! Felizmente, a stack (pilha) é a estrutura de dados perfeita para isso. Você pode criar uma nova stack na ordem correta?&lt;/p&gt;&#xA;&lt;div class=&#34;notices tip&#34; &gt;&#xD;&#xA;    &lt;p header-value=&#34;Dica&#34;&gt;&lt;ol&gt;&#xA;&lt;li&gt;Lembre-se de que a stack é Último a entrar, primeiro a sair (LIFO; pense em uma pilha de pratos).&lt;/li&gt;&#xA;&lt;li&gt;Como é a stack original?&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

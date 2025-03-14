@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nuevo Foundation Workshops</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+<meta name="theme-color" content="#000000" />
+<meta name="revised" content="2025-03-14T19:00:11 -03">
+<meta name="application-name" content=" " />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+<title>集合 :: Nuevo Foundation Workshops</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+
+<link rel="shortcut icon" href="https://www.nuevofoundation.org/favicons/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57"
+      href="https://www.nuevofoundation.org/favicons//apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120"
+      href="https://www.nuevofoundation.org/favicons/pple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-128.png" sizes=" 128x128" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="/css/nuevoweb.css" />
+<link rel="stylesheet" href="/css/chunk.css" />
+<link rel="stylesheet" href="/css/data-style.css" />
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+
+<script lang="JavaScript">
+
+      function toggleVisibility() {
+
+            
+            const menu = document.getElementById("mobile-nav-menu");
+            if (menu.style.display == 'none') {
+                  menu.classList.replace("transition-out", "transition-in")
+                  menu.style.display = 'block';
+            }
+            else if (menu.style.display == 'block') {
+                  menu.classList.replace("transition-in", "transition-out")
+                  menu.style.display = 'none';
+            }
+      }
+</script>
+<meta
+  name="description"
+  content="
+
+    
+"
+/>
+
+
+    
+  </head>
+  <body data-url="/zh-hans/python-basics/data-structures/sets/" >
+    
+      <header>
+  
+  <div id="mobile-nav-menu" class="transition-out" style="display: none;">
+    <div class="close-btn" onclick="toggleVisibility();">
+        <i aria-hidden="true" focusable="false" style="cursor: pointer;" class="fa fa-times fa-w-11 fa-sm"></i>
+    </div>
+    <div>
+        <div class="sc-dNLxif ecnYUM">
+            <a href="/support-us"><button class="sc-jbKcbu sedGx"
+                    style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: 4px solid rgb(0, 0, 0); border-radius: 4px;">
+                    捐赠
+                </button></a>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/what-we-do">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>我们的工作</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/get-involved">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>参与其中</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/support-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>支持我们</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/blog">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>活动博客</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/about-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>我们的团队</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/contact">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>联系我们</li>
+            </ul>
+        </a>
+    </div>
+</div>
+<div>
+    <div class="sc-gGBfsJ iKkPGj">
+        <div class="container-fluid">
+            <div id="toprow" class="row">
+                <div class="col-xs-12">
+                    <div class="sc-EHOje fJMnSm">
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.instagram.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation Instagram" class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://twitter.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation X" class="fab fa-x-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Facebook" class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.linkedin.com/company/nuevofoundation">
+                                <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://www.youtube.com/nuevofoundation?sub_confirmation=1n">
+                                <i aria-label="Nuevo Foundation YouTube" class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1">
+                                <i aria-label="Nuevo Foundation Spotify" class="fab fa-spotify"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://github.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Github" class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" rel="noopener noreferrer"
+                                href="https://nuevofoundation.org/support-us">捐赠</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="secondrow" class="row">
+                <div class="col-sm-12 hidden-xs">
+                    <div class="sc-htoDjs kjtfZK">
+                        <a class="sc-fjdhpX izNzAG active" aria-current="page" href="https://nuevofoundation.org">
+                            <img alt="Nuevo Foundation Logo" src="/images/Logo_long.0f097b90.svg"
+                                height="60px" />
+                        </a>
+                        <ul class="sc-iwsKbI bUOvG">
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/what-we-do">
+                                <li class="sc-gZMcBi Bomeo">我们的工作</li>
+                            </a>
+                            <a class="izNzAG" href="/">
+                                <li class="sc-gZMcBi Bomeo-selected jgBGVn">研讨会<span></span></li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/get-involved">
+                                <li class="sc-gZMcBi Bomeo">参与其中</li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/support-us">
+                                <li class="sc-gZMcBi Bomeo">支持我们</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/blog">
+                                <li class="sc-gZMcBi Bomeo">活动博客</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/about-us">
+                                <li class="sc-gZMcBi Bomeo">我们的团队</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/contact">
+                                <li class="sc-gZMcBi Bomeo">联系我们</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <a class="sc-fjdhpX izNzAG active" aria-current="page" href="/">
+                                <img alt="Nuevo Foundation Logo" class="sc-dnqmqq emolVn"
+                                    src="/images/Logo_long.0f097b90.svg" height="60%" /></a>
+                        </div>
+                        <div class="col-xs-2" onclick="toggleVisibility();"
+                            style="padding-top: 4%; padding-left: 4%; cursor: pointer;">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                                class="svg-inline--fa fa-bars fa-w-14 fa-lg" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/zh-hans/python-basics/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/zh-hans/python-basics/">Python: 基础入门</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/zh-hans/python-basics/basics/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/zh-hans/python-basics/basics/">基础知识</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/zh-hans/python-basics/basics/using-trinket/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/basics/using-trinket/">
+            从 Trinket 开始学习
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/python-basics/basics/writing-to-console/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/basics/writing-to-console/">
+            写入控制台 (print打印语句)
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/python-basics/basics/comments/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/basics/comments/">
+            注释 (Comments)
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/python-basics/basics/variables/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/basics/variables/">
+            变量
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/python-basics/basics/reading-from-console/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/basics/reading-from-console/">
+            从控制台中读取
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/zh-hans/python-basics/data-types/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/zh-hans/python-basics/data-types/">数据类型</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/zh-hans/python-basics/data-types/strings/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/data-types/strings/">
+            字符串
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/python-basics/data-types/numbers/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/data-types/numbers/">
+            数值
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/python-basics/data-types/booleans/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/data-types/booleans/">
+            布尔值
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/zh-hans/python-basics/conditional-statements-loops/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/zh-hans/python-basics/conditional-statements-loops/">条件语句和循环</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/zh-hans/python-basics/conditional-statements-loops/conditional-statements/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/conditional-statements-loops/conditional-statements/">
+            条件语句
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/python-basics/conditional-statements-loops/else-if-statement/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/conditional-statements-loops/else-if-statement/">
+            Else-if 条件
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/python-basics/conditional-statements-loops/loops/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/conditional-statements-loops/loops/">
+            循环
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/python-basics/conditional-statements-loops/nested-loops/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/conditional-statements-loops/nested-loops/">
+            嵌套循环
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/zh-hans/python-basics/data-structures/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/zh-hans/python-basics/data-structures/">数据结构</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/zh-hans/python-basics/data-structures/lists/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/data-structures/lists/">
+            列表
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/python-basics/data-structures/tuples/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/data-structures/tuples/">
+            元组
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/python-basics/data-structures/sets/" class="dd-item active">
+        <div>
+          <a href="/zh-hans/python-basics/data-structures/sets/">
+            集合
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/zh-hans/python-basics/functions/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/zh-hans/python-basics/functions/">函数</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/zh-hans/python-basics/functions/built-in/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/functions/built-in/">
+            内置函数
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/python-basics/functions/built-in-math/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/functions/built-in-math/">
+            内置数学函数
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+      <li data-nav-id="/zh-hans/python-basics/help/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/help/">
+            求助, 我有困难!
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+    </ul>
+
+    <section>
+    </section>
+  </aside>
+  <section class="page">
+    <div align="right">
+<select id="select-language" onchange="location = this.value;">
+	
+	
+	
+	  
+	  
+	    
+	      
+	        <option id="en" value="/python-basics/data-structures/sets/">English</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="pt-br" value="/pt-br/python-basics/data-structures/sets/">Português Brasileiro</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="zh-hans" value="/zh-hans/python-basics/data-structures/sets/" selected>简体中文</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+</select>
+    </div>
+
+    <div class="nav-select">
+      导航:&nbsp;
+      <select onchange="javascript:location.href = this.value;">
+        
+<option value="/zh-hans/python-basics/" >
+   Python: 基础入门</option>
+
+<option value="/zh-hans/python-basics/basics/" >
+  -
+   基础知识</option>
+<option value="/zh-hans/python-basics/data-types/" >
+  -
+   数据类型</option>
+<option value="/zh-hans/python-basics/conditional-statements-loops/" >
+  -
+   条件语句和循环</option>
+<option value="/zh-hans/python-basics/data-structures/" >
+  -
+   数据结构</option>
+
+<option value="/zh-hans/python-basics/data-structures/lists/" >-- 列表</option>
+<option value="/zh-hans/python-basics/data-structures/tuples/" >-- 元组</option>
+<option value="/zh-hans/python-basics/data-structures/sets/"  selected>-- 集合</option>
+
+<option value="/zh-hans/python-basics/functions/" >
+  -
+   函数</option>
+<option value="/zh-hans/python-basics/help/" >- 求助, 我有困难!</option>
+
+
+
+      </select>
+
+    </div>
+    
+
+    <h1>集合</h1>
+
+    
+
+    
+
+    
+    
+    
+    
+    <p>就像列表一样，集合也是一组项目。集合和列表的区别在于集合不能包含重复项。因此，如果你原来有 5 块巧克力，将它们放入一个集合中，你将只剩下 1 块巧克力，因为重复项将被删除。 😢</p>
+<a href = "https://www.youtube.com/watch?v=mLIuHU5Sj5w">
+<img src="../../img/sets_example.jpg" width="500" alt="Picture of two circles with chess and ping pong in the left circle, soccer and cricket bat in the right circle, and basketball and badminton in both circles where they overlap" />
+</a>
+<p>上图中，左边表示 <strong><font color="red">室内游戏</font></strong>（国际象棋和乒乓球），右边表示 <strong><font color="green">室外游戏</font></strong>（板球和足球）。中间表示这两个集合的共同部分。这些是既可以在室内又可以在室外玩的游戏（篮球和羽毛球）。中间部分也称为两个集合之间的交集。</p>
+<div class="notices tip" >
+    <p header-value="技巧">可以使用 <code>set()</code> 函数或将所有元素放在一对花括号中来创建集合。</p>
+</div>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#111">indoorGames</span> <span style="color:#f92672">=</span> <span style="color:#111">set</span><span style="color:#111">([</span><span style="color:#d88200">&#34;Chess&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;Table Tennis&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;Basketball&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;Badminton&#34;</span><span style="color:#111">])</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">outdoorGames</span> <span style="color:#f92672">=</span> <span style="color:#111">{</span><span style="color:#d88200">&#34;Cricket&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;Football&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;Basketball&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;Badminton&#34;</span><span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">print</span><span style="color:#111">(</span><span style="color:#d88200">&#39;** Indoor Games **&#39;</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">print</span><span style="color:#111">(</span><span style="color:#111">indoorGames</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">print</span><span style="color:#111">(</span><span style="color:#d88200">&#39;** Outdoor Games **&#39;</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">print</span><span style="color:#111">(</span><span style="color:#111">outdoorGames</span><span style="color:#111">)</span>
+</span></span></code></pre></div><p><strong>输出</strong></p>
+<pre tabindex="0"><code>** Indoor Games - 室内游戏 **
+set([&#34;Chess&#34;, &#34;Table Tennis&#34;, &#34;Basketball&#34;, &#34;Badminton&#34;])
+** Outdoor Games - 室外游戏 **
+set([&#34;Cricket&#34;, &#34;Football&#34;, &#34;Basketball&#34;, &#34;Badminton&#34;])
+</code></pre><h3 id="集合的并集">集合的并集</h3>
+<p>如果我们有上面的 2 个集合，这两个集合的并集包含来自两个集合的游戏。输出将是一个新的集合。重复项将被删除。</p>
+<p>并集的符号是 <code>|</code>。</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#111">allGames</span> <span style="color:#f92672">=</span> <span style="color:#111">indoorGames</span> <span style="color:#f92672">|</span> <span style="color:#111">outdoorGames</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">print</span><span style="color:#111">(</span><span style="color:#d88200">&#39;** All Games **&#39;</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">print</span><span style="color:#111">(</span><span style="color:#111">allGames</span><span style="color:#111">)</span>
+</span></span></code></pre></div><p><strong>输出</strong></p>
+<pre tabindex="0"><code>** All Games - 所有游戏 **
+set([&#34;Chess&#34;, &#34;Table Tennis&#34;, &#34;Basketball&#34;, &#34;Badminton&#34;, &#34;Cricket&#34;, &#34;Football&#34;])
+</code></pre><h3 id="集合的交集">集合的交集</h3>
+<p>2 个集合的交集将是包含室内和室外游戏的集合。</p>
+<p>交集的符号是 <code>&amp;</code>。</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#111">commonGames</span> <span style="color:#f92672">=</span> <span style="color:#111">indoorGames</span> <span style="color:#f92672">&amp;</span> <span style="color:#111">outdoorGames</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">print</span><span style="color:#111">(</span><span style="color:#d88200">&#39;** Common Games **&#39;</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">print</span><span style="color:#111">(</span><span style="color:#111">commonGames</span><span style="color:#111">)</span>
+</span></span></code></pre></div><p><strong>输出</strong></p>
+<pre tabindex="0"><code>** Common Games - 室内和室外都能玩的游戏 **
+set([&#34;Basketball&#34;, &#34;Badminton&#34;])
+</code></pre><h3 id="集合的差异">集合的差异</h3>
+<p>2 个集合的差异将是包含一个集合中存在但在另一个集合中不存在的游戏的集合。</p>
+<p>差异的符号是 <code>-</code>。</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#111">indoorOnlyGames</span> <span style="color:#f92672">=</span> <span style="color:#111">indoorGames</span> <span style="color:#f92672">-</span> <span style="color:#111">outdoorGames</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">print</span><span style="color:#111">(</span><span style="color:#d88200">&#39;** Indoor Only Games **&#39;</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">print</span><span style="color:#111">(</span><span style="color:#111">indoorOnlyGames</span><span style="color:#111">)</span>
+</span></span></code></pre></div><p><strong>输出</strong></p>
+<pre tabindex="0"><code>** Indoor Only Games - 只能在室内玩的游戏 **
+set([&#34;Chess&#34;, &#34;Table Tennis&#34;])
+</code></pre><h3 id="打印集合的项目">打印集合的项目</h3>
+<p>我们不能像列表一样使用项目编号来打印集合的项目。集合的元素不是固定顺序的。</p>
+<p>因此，不能像在列表中那样做 <code>indoorGames[0]</code> 或 <code>indoorGames[1]</code>。但是，您可以使用 <code>for</code> 循环遍历集合的元素。</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#00a8c8">for</span> <span style="color:#111">g</span> <span style="color:#f92672">in</span> <span style="color:#111">indoorGames</span><span style="color:#111">:</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#111">print</span><span style="color:#111">(</span><span style="color:#111">g</span><span style="color:#111">)</span>
+</span></span></code></pre></div><p><strong>输出</strong></p>
+<pre tabindex="0"><code>Chess
+Table Tennis
+Basketball
+Badminton
+</code></pre><h3 id="向集合中添加项目">向集合中添加项目</h3>
+<p>我们可以使用 <code>.add</code> 函数将新游戏添加到集合中。</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#111">indoorGames</span><span style="color:#f92672">.</span><span style="color:#111">add</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Carrom&#34;</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">print</span><span style="color:#111">(</span><span style="color:#d88200">&#39;** Indoor Games **&#39;</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">print</span><span style="color:#111">(</span><span style="color:#111">indoorGames</span><span style="color:#111">)</span>
+</span></span></code></pre></div><p><strong>输出</strong></p>
+<pre tabindex="0"><code>** Indoor Games - 室内游戏**
+set([&#34;Chess&#34;, &#34;Table Tennis&#34;, &#34;Basketball&#34;, &#34;Badminton&#34;, &#34;Carrom&#34;])
+</code></pre><h3 id="从集合中删除项目">从集合中删除项目</h3>
+<p>我们可以使用 <code>.discard</code> 函数从集合中删除项目。</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#111">indoorGames</span><span style="color:#f92672">.</span><span style="color:#111">discard</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Chess&#34;</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">print</span><span style="color:#111">(</span><span style="color:#d88200">&#39;** Indoor Games **&#39;</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">print</span><span style="color:#111">(</span><span style="color:#111">indoorGames</span><span style="color:#111">)</span>
+</span></span></code></pre></div><p><strong>输出</strong></p>
+<pre tabindex="0"><code>** Indoor Games - 室内游戏**
+set([&#34;Table Tennis&#34;, &#34;Basketball&#34;, &#34;Badminton&#34;, &#34;Carrom&#34;])
+</code></pre><div class="notices note" >
+    <p header-value="注">如果你删除一个不在集合中的项目，你将不会得到任何错误。另一方面，如果你尝试从列表中删除一个不在集合中的项目，将得到 <code>ValueError</code>！</p>
+</div>
+<h3 id="小挑战">小挑战</h3>
+<p>让我们尝试一下刚才使用列表和元组完成的相同练习，但使用集合。</p>
+<p>从下面的水果列表开始。打印水果列表，对于每个水果，询问用户是否喜欢它。如果他们喜欢它，就保留它。如果他们不喜欢它，就从列表中删除它。接下来，要求用户添加一个缺少的水果。将其添加到列表中，并打印出用户喜欢的水果数量。</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#111">fruits</span> <span style="color:#f92672">=</span> <span style="color:#111">[</span><span style="color:#d88200">&#39;orange&#39;</span><span style="color:#111">,</span> <span style="color:#d88200">&#39;kiwi&#39;</span><span style="color:#111">,</span> <span style="color:#d88200">&#39;banana&#39;</span><span style="color:#111">,</span> <span style="color:#d88200">&#39;apple&#39;</span><span style="color:#111">,</span> <span style="color:#d88200">&#39;mango&#39;</span><span style="color:#111">,</span> <span style="color:#d88200">&#39;lemon&#39;</span><span style="color:#111">]</span>
+</span></span></code></pre></div><iframe src="https://trinket.io/embed/python/b238d85d0d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+    
+    
+      <div class="chevrons">
+  <style>
+    .workshop-complete-image {
+        margin: 40px auto 50px auto;
+        width: 340.8px;
+    }
+    
+    .workshop-complete-words {
+        font-family: Space Mono, monospace;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        text-align: center;
+    }
+    
+    .horizontal-bar {
+        background-color: #000000;
+        width: 120px;
+        height: 12px;
+        margin: 80px auto 0 auto;
+    }
+</style>
+
+
+    <div id="navigation">
+            <div class="next-prev-wrapper-div"><a class='nav nav-prev' href="/zh-hans/python-basics/data-structures/tuples/" title="元组">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                前一页:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                元组
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="prevbutton-image">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+        
+    </div>
+</a></div>
+            <div class="next-prev-wrapper-div"><a class='nav nav-next' href="/zh-hans/python-basics/functions/" title="函数">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                下一页:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                函数
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="nextbutton-image">
+            <i class="fa fa-arrow-right"></i>
+        </div>
+        
+    </div>
+</a></div>
+        </div>
+</div>
+
+</section>
+</article>
+
+<footer>
+  <div class="footline">
+    
+
+    
+
+    
+
+    
+    <div class="github-link">
+      <a href="https://github.com/NuevoFoundation/workshops/tree/master/content/python-basics/data-structures/sets.md" target="blank"><i
+          class="fa fa-code-fork"></i>
+        </a>
+    </div>
+    
+  </div>
+
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+    
+
+    
+    
+
+    <div id="footer" class="row">
+    <div class="col-xs-12">
+        <div class="App-footer">
+            <div class="App-footer-big">
+                加入社交媒体上的对话.
+            </div>
+            <div class="social-images">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Instagram" class="fab fa-2x fa-instagram"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation X" class="fab fa-2x fa-x-twitter"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Facebook" class="fab fa-2x fa-1x fa-facebook-f"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-2x fa-linkedin"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/nuevofoundation?sub_confirmation=1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation YouTube" class="fab fa-2x fa-youtube"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Spotify" class="fab fa-2x fa-spotify"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Github" class="fab fa-2x fa-github"></i>
+                </a>
+            </div>
+            <div class="App-footer-small">
+                © Copyright 2025, All Rights Reserved by Nuevo Foundation, a 501(c)(3) nonprofit.
+            </div>
+        </div>
+    </div>
+</div>
+
+  </body>
+</html>

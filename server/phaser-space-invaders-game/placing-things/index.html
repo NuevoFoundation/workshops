@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nuevo Foundation Workshops</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+<meta name="theme-color" content="#000000" />
+<meta name="revised" content="2025-03-14T18:59:44 -03">
+<meta name="application-name" content=" " />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+<title>Placing things into Phaser :: Nuevo Foundation Workshops</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+
+<link rel="shortcut icon" href="https://www.nuevofoundation.org/favicons/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57"
+      href="https://www.nuevofoundation.org/favicons//apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120"
+      href="https://www.nuevofoundation.org/favicons/pple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-128.png" sizes=" 128x128" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="/css/nuevoweb.css" />
+<link rel="stylesheet" href="/css/chunk.css" />
+<link rel="stylesheet" href="/css/data-style.css" />
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+
+<script lang="JavaScript">
+
+      function toggleVisibility() {
+
+            
+            const menu = document.getElementById("mobile-nav-menu");
+            if (menu.style.display == 'none') {
+                  menu.classList.replace("transition-out", "transition-in")
+                  menu.style.display = 'block';
+            }
+            else if (menu.style.display == 'block') {
+                  menu.classList.replace("transition-in", "transition-out")
+                  menu.style.display = 'none';
+            }
+      }
+</script>
+<meta
+  name="description"
+  content="
+
+    
+"
+/>
+
+
+    
+  </head>
+  <body data-url="/phaser-space-invaders-game/placing-things/" >
+    
+      <header>
+  
+  <div id="mobile-nav-menu" class="transition-out" style="display: none;">
+    <div class="close-btn" onclick="toggleVisibility();">
+        <i aria-hidden="true" focusable="false" style="cursor: pointer;" class="fa fa-times fa-w-11 fa-sm"></i>
+    </div>
+    <div>
+        <div class="sc-dNLxif ecnYUM">
+            <a href="/support-us"><button class="sc-jbKcbu sedGx"
+                    style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: 4px solid rgb(0, 0, 0); border-radius: 4px;">
+                    Donate
+                </button></a>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/what-we-do">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>What We Do</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/get-involved">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Get Involved</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/support-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Support us</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/blog">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Event blog</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/about-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Our team</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/contact">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Contact us</li>
+            </ul>
+        </a>
+    </div>
+</div>
+<div>
+    <div class="sc-gGBfsJ iKkPGj">
+        <div class="container-fluid">
+            <div id="toprow" class="row">
+                <div class="col-xs-12">
+                    <div class="sc-EHOje fJMnSm">
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.instagram.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation Instagram" class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://twitter.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation X" class="fab fa-x-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Facebook" class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.linkedin.com/company/nuevofoundation">
+                                <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://www.youtube.com/nuevofoundation?sub_confirmation=1n">
+                                <i aria-label="Nuevo Foundation YouTube" class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1">
+                                <i aria-label="Nuevo Foundation Spotify" class="fab fa-spotify"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://github.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Github" class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" rel="noopener noreferrer"
+                                href="https://nuevofoundation.org/support-us">Donate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="secondrow" class="row">
+                <div class="col-sm-12 hidden-xs">
+                    <div class="sc-htoDjs kjtfZK">
+                        <a class="sc-fjdhpX izNzAG active" aria-current="page" href="https://nuevofoundation.org">
+                            <img alt="Nuevo Foundation Logo" src="/images/Logo_long.0f097b90.svg"
+                                height="60px" />
+                        </a>
+                        <ul class="sc-iwsKbI bUOvG">
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/what-we-do">
+                                <li class="sc-gZMcBi Bomeo">What We Do</li>
+                            </a>
+                            <a class="izNzAG" href="/">
+                                <li class="sc-gZMcBi Bomeo-selected jgBGVn">Workshops<span></span></li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/get-involved">
+                                <li class="sc-gZMcBi Bomeo">Get Involved</li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/support-us">
+                                <li class="sc-gZMcBi Bomeo">Support us</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/blog">
+                                <li class="sc-gZMcBi Bomeo">Event blog</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/about-us">
+                                <li class="sc-gZMcBi Bomeo">Our team</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/contact">
+                                <li class="sc-gZMcBi Bomeo">Contact us</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <a class="sc-fjdhpX izNzAG active" aria-current="page" href="/">
+                                <img alt="Nuevo Foundation Logo" class="sc-dnqmqq emolVn"
+                                    src="/images/Logo_long.0f097b90.svg" height="60%" /></a>
+                        </div>
+                        <div class="col-xs-2" onclick="toggleVisibility();"
+                            style="padding-top: 4%; padding-left: 4%; cursor: pointer;">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                                class="svg-inline--fa fa-bars fa-w-14 fa-lg" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/phaser-space-invaders-game/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/phaser-space-invaders-game/">Phaser: Space Shooter Game</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/phaser-space-invaders-game/starting-up/" class="dd-item">
+        <div>
+          <a href="/phaser-space-invaders-game/starting-up/">
+            Starting Up
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/phaser-space-invaders-game/game-structure/" class="dd-item">
+        <div>
+          <a href="/phaser-space-invaders-game/game-structure/">
+            The Game&#39;s File Structure
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/phaser-space-invaders-game/phaser-fundementals/" class="dd-item">
+        <div>
+          <a href="/phaser-space-invaders-game/phaser-fundementals/">
+            Phaser Fundamentals
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/phaser-space-invaders-game/preload-create-update/" class="dd-item">
+        <div>
+          <a href="/phaser-space-invaders-game/preload-create-update/">
+            Preload, Create, and Update
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/phaser-space-invaders-game/placing-things/" class="dd-item active">
+        <div>
+          <a href="/phaser-space-invaders-game/placing-things/">
+            Placing things into Phaser
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/phaser-space-invaders-game/activity-1/" class="dd-item">
+        <div>
+          <a href="/phaser-space-invaders-game/activity-1/">
+            Activity 1 - Place Background and Player Ship
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/phaser-space-invaders-game/animation/" class="dd-item">
+        <div>
+          <a href="/phaser-space-invaders-game/animation/">
+            Creating Animations
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/phaser-space-invaders-game/activity-2/" class="dd-item">
+        <div>
+          <a href="/phaser-space-invaders-game/activity-2/">
+            Activity 2 - Animating the Player&#39;s Ship
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/phaser-space-invaders-game/input/" class="dd-item">
+        <div>
+          <a href="/phaser-space-invaders-game/input/">
+            Enabling User Inputs
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/phaser-space-invaders-game/activity-3/" class="dd-item">
+        <div>
+          <a href="/phaser-space-invaders-game/activity-3/">
+            Activity 3 - Add Keyboard Input to Move the Player
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/phaser-space-invaders-game/activity-4/" class="dd-item">
+        <div>
+          <a href="/phaser-space-invaders-game/activity-4/">
+            Activity 4 - Adding Enemies
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/phaser-space-invaders-game/activity-5/" class="dd-item">
+        <div>
+          <a href="/phaser-space-invaders-game/activity-5/">
+            Activity 5 - Making the Enemies Move
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/phaser-space-invaders-game/activity-6/" class="dd-item">
+        <div>
+          <a href="/phaser-space-invaders-game/activity-6/">
+            Activity 6 - Restarting the Player after Being Destroyed
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/phaser-space-invaders-game/activity-7/" class="dd-item">
+        <div>
+          <a href="/phaser-space-invaders-game/activity-7/">
+            Activity 7 - Allowing the Player to Shoot
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/phaser-space-invaders-game/activity-8/" class="dd-item">
+        <div>
+          <a href="/phaser-space-invaders-game/activity-8/">
+            Activity 8 - Allowing the Enemies to Shoot
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/phaser-space-invaders-game/activity-9/" class="dd-item">
+        <div>
+          <a href="/phaser-space-invaders-game/activity-9/">
+            Activity 9 - Adding Score, Levels, and Lives
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/phaser-space-invaders-game/activity-10/" class="dd-item">
+        <div>
+          <a href="/phaser-space-invaders-game/activity-10/">
+            Activity 10 - Adding a Title Screen
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+    </ul>
+
+    <section>
+    </section>
+  </aside>
+  <section class="page">
+    <div align="right">
+<select id="select-language" onchange="location = this.value;">
+	
+	
+	
+	  
+	  
+	    
+	      
+	        <option id="en" value="/phaser-space-invaders-game/placing-things/" selected>English</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+</select>
+    </div>
+
+    <div class="nav-select">
+      Navigation:&nbsp;
+      <select onchange="javascript:location.href = this.value;">
+        
+<option value="/phaser-space-invaders-game/" >
+   Phaser: Space Shooter Game</option>
+
+<option value="/phaser-space-invaders-game/starting-up/" >- Starting Up</option>
+<option value="/phaser-space-invaders-game/game-structure/" >- The Game&#39;s File Structure</option>
+<option value="/phaser-space-invaders-game/phaser-fundementals/" >- Phaser Fundamentals</option>
+<option value="/phaser-space-invaders-game/preload-create-update/" >- Preload, Create, and Update</option>
+<option value="/phaser-space-invaders-game/placing-things/"  selected>- Placing things into Phaser</option>
+<option value="/phaser-space-invaders-game/activity-1/" >- Activity 1 - Place Background and Player Ship</option>
+<option value="/phaser-space-invaders-game/animation/" >- Creating Animations</option>
+<option value="/phaser-space-invaders-game/activity-2/" >- Activity 2 - Animating the Player&#39;s Ship</option>
+<option value="/phaser-space-invaders-game/input/" >- Enabling User Inputs</option>
+<option value="/phaser-space-invaders-game/activity-3/" >- Activity 3 - Add Keyboard Input to Move the Player</option>
+<option value="/phaser-space-invaders-game/activity-4/" >- Activity 4 - Adding Enemies</option>
+<option value="/phaser-space-invaders-game/activity-5/" >- Activity 5 - Making the Enemies Move</option>
+<option value="/phaser-space-invaders-game/activity-6/" >- Activity 6 - Restarting the Player after Being Destroyed</option>
+<option value="/phaser-space-invaders-game/activity-7/" >- Activity 7 - Allowing the Player to Shoot</option>
+<option value="/phaser-space-invaders-game/activity-8/" >- Activity 8 - Allowing the Enemies to Shoot</option>
+<option value="/phaser-space-invaders-game/activity-9/" >- Activity 9 - Adding Score, Levels, and Lives</option>
+<option value="/phaser-space-invaders-game/activity-10/" >- Activity 10 - Adding a Title Screen</option>
+
+
+
+      </select>
+
+    </div>
+    
+
+    <h1>Placing things into Phaser</h1>
+
+    
+
+    
+
+    
+    
+    
+    
+    <h2 id="placing-text">Placing Text</h2>
+<p>Now, you will learn how to place things within Phaser. Look at the repl below.</p>
+<p>Let&rsquo;s first go over how to place text!</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#75af00">message</span> <span style="color:#f92672">=</span> <span style="color:#00a8c8">this</span><span style="color:#111">.</span><span style="color:#75af00">add</span><span style="color:#111">.</span><span style="color:#75af00">text</span><span style="color:#111">(</span><span style="color:#ae81ff">20</span><span style="color:#111">,</span> <span style="color:#ae81ff">10</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;Hello World!&#34;</span><span style="color:#111">,</span> <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#75af00">font</span><span style="color:#f92672">:</span> <span style="color:#d88200">&#34;25px Arial&#34;</span><span style="color:#111">,</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#75af00">fill</span><span style="color:#f92672">:</span> <span style="color:#d88200">&#34;white&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">});</span>
+</span></span></code></pre></div><p>These lines of code create a variable named &ldquo;message.&rdquo; This variable adds the text &ldquo;Hello World&rdquo; to the (X, Y) coordinate (20, 10) on our game window. The code also specifices that the text is created to be the color white, have font Arial, and have font size 25 px.</p>
+<p>Put this line in your <code>create()</code> method at the bottom of the page and see if it pops up in your game window.</p>
+<div class="notices note" >
+    <p header-value="Note"><ol>
+<li>When creating text, the variable name is not the text that gets displayed the screen, it is what you put in quotations</li>
+<li>This syntax can also be used to place text that is stored in a String variable.</li>
+</ol>
+</p>
+</div>
+<div class="notices warning" >
+    <p header-value="Warning"><h3 id="help-my-game-window-is-very-small">Help! My game window is very small!</h3>
+<p>Don&rsquo;t worry, it&rsquo;s actually relatively big, but repl minimizes it as default. You can extend your window view by dragging around the bars in between them.</p></p>
+</div>
+<h2 id="placing-a-background">Placing a Background</h2>
+<p>Texts are very simple, but when we want to use our own custom sprites for the game (which you almost always will), you have to first load the sprite in preload() before you specify its location in create().</p>
+<p>Let&rsquo;s start by creating a background. Put this code into your <code>preload()</code> method.</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#00a8c8">this</span><span style="color:#111">.</span><span style="color:#75af00">load</span><span style="color:#111">.</span><span style="color:#75af00">image</span><span style="color:#111">(</span><span style="color:#d88200">&#39;background&#39;</span><span style="color:#111">,</span> <span style="color:#d88200">&#39;assets/sky.png&#39;</span><span style="color:#111">);</span>
+</span></span></code></pre></div><p>This simply loads the image into the game. Next, let&rsquo;s add this image to the game with <code>create()</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#00a8c8">this</span><span style="color:#111">.</span><span style="color:#75af00">add</span><span style="color:#111">.</span><span style="color:#75af00">image</span><span style="color:#111">(</span><span style="color:#ae81ff">400</span><span style="color:#111">,</span> <span style="color:#ae81ff">300</span><span style="color:#111">,</span> <span style="color:#d88200">&#39;sky&#39;</span><span style="color:#111">);</span>
+</span></span></code></pre></div><p>This line simply places the image on coordinate (400, 300). Try it out, and see if your background is no longer a black screen!</p>
+<div class="notices note" >
+    <p header-value="Note">The coordinate (400, 300) refers to the location where we are placing the center pixel of our image. This means that (400, 300) will be the center of the image. We are placing the image here so that it covers the whole screen like a background should.</p>
+</div>
+<h2 id="placing-a-character">Placing a Character</h2>
+<p>Next, let&rsquo;s put a character into our world.</p>
+<p>The code that goes into your preload() function looks like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#00a8c8">this</span><span style="color:#111">.</span><span style="color:#75af00">load</span><span style="color:#111">.</span><span style="color:#75af00">spritesheet</span><span style="color:#111">(</span><span style="color:#d88200">&#39;dude&#39;</span><span style="color:#111">,</span> <span style="color:#d88200">&#39;assets/dude.png&#39;</span><span style="color:#111">,</span> <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75af00">frameWidth</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">32</span><span style="color:#111">,</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75af00">frameHeight</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">48</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">});</span>
+</span></span></code></pre></div><p>This requires a bit more code because it is a spritesheet instead of a simple sprite. Spritesheets look like this:
+<img src="../media/example-dude.png" alt="dude">
+This is the spritesheet for our character. Spritesheets are essentially a collection of sprites of a single character or thing in multiple positions. When played back to back, they will create animation for our game (which we will describe in more detail in the next lesson). Although it is obvious to us that it is a bunch of images of the same character, the computer isn&rsquo;t able to easily detect this on its own. So we have to have more syntax to tell the computer how big each character sprite is in the spritesheet (in this case, 32x48).</p>
+<p>The syntax to place this spritesheet in <code>create()</code> is nearly the same as with the image, but with a physics tag:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#75af00">dude</span> <span style="color:#f92672">=</span> <span style="color:#00a8c8">this</span><span style="color:#111">.</span><span style="color:#75af00">physics</span><span style="color:#111">.</span><span style="color:#75af00">add</span><span style="color:#111">.</span><span style="color:#75af00">sprite</span><span style="color:#111">(</span><span style="color:#ae81ff">250</span><span style="color:#111">,</span> <span style="color:#ae81ff">200</span><span style="color:#111">,</span> <span style="color:#d88200">&#39;dude&#39;</span><span style="color:#111">);</span>
+</span></span></code></pre></div><p>In this line, we are creating variable &ldquo;player&rdquo; that adds the first image in the spritesheet at coordinate (250, 200). The image is also given the name &ldquo;dude.&rdquo;</p>
+<p>In this line, player is the name of a variable that we are creating. 250 and 200 are the X and Y coordinates that we have placed the sprite, so it will be placed at the coordinate (250, 200) on our screen. &ldquo;dude&rdquo; is the name of our sprite, but it won&rsquo;t come into play in this particular lesson.</p>
+<p>Try adding in the character! Do you see the character on your screen?</p>
+<div class="notices note" >
+    <p header-value="Note"><ol>
+<li>In order to see the character, the dude variable in <code>create()</code> MUST be created after the background. This is because code is read by the computer from top to bottom, so if the character is placed before the background, then the computer will put the background on top of the character, covering him and making him not visible by the user.</li>
+<li>The dude is supposed to be looking to the left because at first placement, spritesheets will always be placed in the first entry in the sheet, and for our dude, he&rsquo;s looking to the left</li>
+</ol>
+</p>
+</div>
+<p><a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/PhasorPlacingThings" target="_blank">Launch Replit</a></p>
+
+
+    
+    
+      <div class="chevrons">
+  <style>
+    .workshop-complete-image {
+        margin: 40px auto 50px auto;
+        width: 340.8px;
+    }
+    
+    .workshop-complete-words {
+        font-family: Space Mono, monospace;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        text-align: center;
+    }
+    
+    .horizontal-bar {
+        background-color: #000000;
+        width: 120px;
+        height: 12px;
+        margin: 80px auto 0 auto;
+    }
+</style>
+
+
+    <div id="navigation">
+            <div class="next-prev-wrapper-div"><a class='nav nav-prev' href="/phaser-space-invaders-game/preload-create-update/" title="Preload, Create, and Update">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Previous:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Preload, Create, and Update
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="prevbutton-image">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+        
+    </div>
+</a></div>
+            <div class="next-prev-wrapper-div"><a class='nav nav-next' href="/phaser-space-invaders-game/activity-1/" title="Activity 1 - Place Background and Player Ship">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Up Next:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Activity 1 - Place Background and Player Ship
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="nextbutton-image">
+            <i class="fa fa-arrow-right"></i>
+        </div>
+        
+    </div>
+</a></div>
+        </div>
+</div>
+
+</section>
+</article>
+
+<footer>
+  <div class="footline">
+    
+
+    
+
+    
+    <div class="date">
+      <i class='fa fa-calendar'></i> 
+      Thu, 20 Aug 2020 11:45:38 PDT
+    </div>
+    
+
+    
+    <div class="github-link">
+      <a href="https://github.com/NuevoFoundation/workshops/tree/master/content/phaser-space-invaders-game/placing-things.md" target="blank"><i
+          class="fa fa-code-fork"></i>
+        </a>
+    </div>
+    
+  </div>
+
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+    
+
+    
+    
+
+    <div id="footer" class="row">
+    <div class="col-xs-12">
+        <div class="App-footer">
+            <div class="App-footer-big">
+                Join the conversation on social media.
+            </div>
+            <div class="social-images">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Instagram" class="fab fa-2x fa-instagram"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation X" class="fab fa-2x fa-x-twitter"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Facebook" class="fab fa-2x fa-1x fa-facebook-f"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-2x fa-linkedin"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/nuevofoundation?sub_confirmation=1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation YouTube" class="fab fa-2x fa-youtube"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Spotify" class="fab fa-2x fa-spotify"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Github" class="fab fa-2x fa-github"></i>
+                </a>
+            </div>
+            <div class="App-footer-small">
+                © Copyright 2025, All Rights Reserved by Nuevo Foundation, a 501(c)(3) nonprofit.
+            </div>
+        </div>
+    </div>
+</div>
+
+  </body>
+</html>

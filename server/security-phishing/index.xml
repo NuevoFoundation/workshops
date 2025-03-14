@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security: Gone Phishing on Nuevo Foundation Workshops</title>
+    <link>/security-phishing/</link>
+    <description>Recent content in Security: Gone Phishing on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/security-phishing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bob goes fishing</title>
+      <link>/security-phishing/bob-goes-fishing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/security-phishing/bob-goes-fishing/</guid>
+      <description>&lt;p&gt;Meet our friend &lt;strong&gt;Bob&lt;/strong&gt;. &lt;strong&gt;Bob&lt;/strong&gt; is a nice and jolly gentleman. His hobbies are travelling and fishing.  One fine evening &lt;strong&gt;Bob&lt;/strong&gt; received an email saying he won a free trip to the &amp;ldquo;Bahamas&amp;rdquo;. &lt;strong&gt;Bob&lt;/strong&gt; got excited. He immediately clicked the link to enter his personal details and waited for his itinerary to come.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Bob&lt;/strong&gt; decided to go shopping for his trip. He bought new clothes and a new fishing rod.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Phishing Basics</title>
+      <link>/security-phishing/phishing-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/security-phishing/phishing-basics/</guid>
+      <description>&lt;p&gt;Our Secret Agent Alice explains to Bob about Phishing!!!&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-phishing&#34;&gt;What is Phishing?&lt;/h2&gt;&#xA;&lt;p&gt;Just like when fishing, one uses a bait to catch fish on a rod, malicious &lt;strong&gt;hackers&lt;/strong&gt;&#xA;use different types of bait to steal personal information from unsuspecting people.&lt;/p&gt;&#xA;&lt;p&gt;Phishing is a type of social engineering attack which is used to steal sensitive data, including login credentials, banking and credit card details.&lt;/p&gt;&#xA;&lt;p&gt;It occurs when a &lt;strong&gt;Hacker&lt;/strong&gt;, posing as a trusted entity, lures an individual using email, text message, or phone.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A closer look</title>
+      <link>/security-phishing/a-closer-look/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/security-phishing/a-closer-look/</guid>
+      <description>&lt;p&gt;Bob received the following email the other night.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../media/email.png?classes=border,shadow&#34; alt=&#34;Bob’s Email&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;What do you think is suspicious here? Let&amp;rsquo;s analyze the email:&#xA;&lt;img src=&#34;../media/from_address.JPG?classes=border,shadow&#34; alt=&#34;Email address&#34;&gt;&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center;&#34;&gt;&#xD;&#xA;&lt;p style=&#34;color:red&#34;&gt;&#xD;&#xA;&lt;em&gt;The sender&#39;s email address is suspicious and you don&#39;t know this email sender personally.&lt;/em&gt;&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;p&gt;&lt;img src=&#34;../media/subject.JPG?classes=border,shadow&#34; alt=&#34;Email Subject&#34;&gt;&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center;&#34;&gt;&#xD;&#xA;&lt;p style=&#34;color:red&#34;&gt;&#xD;&#xA;&lt;em&gt;Lucrative offer in the subject line suggests it&#39;s too good to be true.&lt;/em&gt;&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;p&gt;&lt;img src=&#34;../media/date.JPG?classes=border,shadow&#34; alt=&#34;Email Date&#34;&gt;&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center;&#34;&gt;&#xD;&#xA;&lt;p style=&#34;color:red&#34;&gt;&#xD;&#xA;&lt;em&gt; You received an email during irregular business hours.&lt;/em&gt;&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;p&gt;&lt;img src=&#34;../media/urgency.JPG?classes=border,shadow&#34; alt=&#34;Urgency in language&#34;&gt;&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center;&#34;&gt;&#xD;&#xA;&lt;p style=&#34;color:red&#34;&gt;&#xD;&#xA;&lt;em&gt;These words show a sense of urgency.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>More about phishing</title>
+      <link>/security-phishing/other-phishing-types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/security-phishing/other-phishing-types/</guid>
+      <description>&lt;p&gt;Alice goes on to explain different kinds of phishing scams other than the email phishing.&lt;/p&gt;&#xA;&lt;h2 id=&#34;smishing-sms-phishing&#34;&gt;Smishing (SMS Phishing)&lt;/h2&gt;&#xA;&lt;p&gt;Phishing conducted via Short Message Service (SMS), a telephone-based text messaging service. A smishing text, for example, attempts to entice a victim into revealing personal information via a link that leads to a phishing website.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../media/SMS.JPG?classes=border,shadow&#34; alt=&#34;An example of SMS Phishing&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In the above image, an unknown sender texts you about free deals on iPads and lures you into clicking a malicious link.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What&#39;s Phishy?</title>
+      <link>/security-phishing/whats-phishy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/security-phishing/whats-phishy/</guid>
+      <description>&lt;p&gt;From our last section we learned about different types of phishing methods and how to recognize them. Now it&amp;rsquo;s time to play a game called &lt;code&gt;What&#39;s phishy&lt;/code&gt;?&lt;/p&gt;&#xA;&lt;p&gt;Which images from the list given below do you think are phishy?&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../media/Spotify_email.jpg?classes=border,shadow&#34; alt=&#34;Spotify email&#34;&gt;&lt;/p&gt;&#xA;&lt;fieldset&gt;  &#xD;&#xA;  &lt;legend&gt;Does this email look phishy?&#xD;&#xA;    &lt;input type=&#34;radio&#34; id=&#34;notify-on1&#34; name=&#34;notify1&#34; value=&#34;on&#34; &gt;&#xD;&#xA;    &lt;label for=&#34;notify-on&#34;&gt;Yes&lt;/label&gt;&#xD;&#xA;    &lt;input type=&#34;radio&#34; id=&#34;notify-off1&#34; name=&#34;notify1&#34; value=&#34;off&#34;&gt;&#xD;&#xA;    &lt;label for=&#34;notify-off&#34;&gt;No&lt;/label&gt;&#xD;&#xA;  &lt;/legend&gt;&#xD;&#xA;&lt;/fieldset&gt;&#xD;&#xA;&lt;!--&#xD;&#xA;&#xD;&#xA;![Cannot load image](legit_email_1.png?classes=border,shadow)&#xD;&#xA;&#xD;&#xA;&lt;fieldset&gt;  &#xD;&#xA;&lt;legend&gt;Does this email look phishy?&lt;/legend&gt;&#xD;&#xA;  &lt;input type=&#34;radio&#34; id=&#34;notify-on1&#34; name=&#34;notify1&#34; value=&#34;on&#34; &gt;&#xD;&#xA;  &lt;label for=&#34;notify-on&#34;&gt;Yes&lt;/label&gt;&#xD;&#xA;  &lt;input type=&#34;radio&#34; id=&#34;notify-off1&#34; name=&#34;notify1&#34; value=&#34;off&#34;&gt;&#xD;&#xA;  &lt;label for=&#34;notify-off&#34;&gt;No&lt;/label&gt;&#xD;&#xA;&lt;/fieldset&gt;&#xD;&#xA;--&gt;&#xD;&#xA;&lt;p&gt;&lt;img src=&#34;../media/linkedIn.png&#34; alt=&#34;LinkedIn learning&#34;&gt;&lt;/p&gt;&#xA;&lt;fieldset&gt;  &#xD;&#xA;  &lt;legend&gt;Does this banner look phishy?&#xD;&#xA;    &lt;input type=&#34;radio&#34; id=&#34;notify-on1&#34; name=&#34;notify1&#34; value=&#34;on&#34; &gt;&#xD;&#xA;    &lt;label for=&#34;notify-on&#34;&gt;Yes&lt;/label&gt;&#xD;&#xA;    &lt;input type=&#34;radio&#34; id=&#34;notify-off1&#34; name=&#34;notify1&#34; value=&#34;off&#34;&gt;&#xD;&#xA;    &lt;label for=&#34;notify-off&#34;&gt;No&lt;/label&gt;&#xD;&#xA;  &lt;/legend&gt;&#xD;&#xA;&lt;/fieldset&gt;&#xD;&#xA;&lt;p&gt;&lt;img src=&#34;../media/Legit_text.jpeg?classes=border,shadow&#34; alt=&#34;A legitimate text message&#34;&gt;&lt;/p&gt;&#xA;&lt;fieldset&gt;  &#xD;&#xA;  &lt;legend&gt;Does this text message look phishy?&#xD;&#xA;    &lt;input type=&#34;radio&#34; id=&#34;notify-on1&#34; name=&#34;notify1&#34; value=&#34;on&#34; &gt;&#xD;&#xA;    &lt;label for=&#34;notify-on&#34;&gt;Yes&lt;/label&gt;&#xD;&#xA;    &lt;input type=&#34;radio&#34; id=&#34;notify-off1&#34; name=&#34;notify1&#34; value=&#34;off&#34;&gt;&#xD;&#xA;    &lt;label for=&#34;notify-off&#34;&gt;No&lt;/label&gt;&#xD;&#xA;  &lt;/legend&gt;&#xD;&#xA;&lt;/fieldset&gt;&#xD;&#xA;&lt;p&gt;&lt;img src=&#34;../media/sus_text.JPG?classes=border,shadow&#34; alt=&#34;A suspicious text message&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Summary</title>
+      <link>/security-phishing/summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/security-phishing/summary/</guid>
+      <description>&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;&#xA;&lt;p&gt;In conclusion, the common features found in Phishing scams have at least one of the following properties:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Lucrative offers or attention grabbing statements.&lt;/li&gt;&#xA;&lt;li&gt;Unusual sender of unexpected behavior or character.&lt;/li&gt;&#xA;&lt;li&gt;Sense of urgency by asking you to act fast because of limited time offers or deals.&#xA;&lt;code&gt;Example: Your password is about to expire click here to change it immediately. &lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Suspicious hyperlinks. Hovering over the link will show the actual URL you will be directed to.&lt;/li&gt;&#xA;&lt;li&gt;Misspellings or grammatical mistakes.&#xA;&lt;code&gt;Example:  mail@g00gle.com instead of mail@google.com&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Email attachments with random file name or extensions.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;&#xA;&lt;p&gt;In the activity &amp;ldquo;What&amp;rsquo;s Phishy&amp;rdquo; the following emails and texts were potential phishing attempts:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

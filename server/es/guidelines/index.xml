@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Directrices para colaboradores del taller on Nuevo Foundation Workshops</title>
+    <link>/es/guidelines/</link>
+    <description>Recent content in Directrices para colaboradores del taller on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 29 Jul 2020 14:08:32 -0700</lastBuildDate>
+    <atom:link href="/es/guidelines/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aplicando formatos al texto</title>
+      <link>/es/guidelines/formatting/</link>
+      <pubDate>Wed, 29 Jul 2020 14:08:32 -0700</pubDate>
+      <guid>/es/guidelines/formatting/</guid>
+      <description>&lt;p&gt;Al crear o editar talleres, los redactarás usando sintaxis Markdown estándar, además de unos pocos elementos adicionales. Esta página explica qué sintaxis usar para usar formatos específicos en un taller.&lt;/p&gt;&#xA;&lt;h2 id=&#34;referencia-de-formateo&#34;&gt;Referencia de formateo&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34; target=&#34;_blank&#34;&gt;Hoja de trucos para Markdown Estándar&lt;sup&gt;&lt;span class=&#34;glyphicon glyphicon-new-window&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/sup&gt;&lt;/a&gt;&#xD;&#xA; (en inglés)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;/guidelines/shortcodes/&#34;&gt;Opciones de formato personalizado mediante “shortcodes”&lt;/a&gt;&#xD;&#xA; (en inglés)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;ejemplos-de-formato&#34;&gt;Ejemplos de formato&lt;/h2&gt;&#xA;&lt;p&gt;Este tema incluye una serie de opciones para personalizar el aspecto de tu página. A continuación, encontrarás varios ejemplos de uso de los mismos, los cuales incluyen la sintaxis que debe usar seguido de lo que se mostrará en la página al usar aquella sintaxis.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

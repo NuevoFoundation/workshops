@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nuevo Foundation Workshops</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+<meta name="theme-color" content="#000000" />
+<meta name="revised" content="2025-03-14T19:00:15 -03">
+<meta name="application-name" content=" " />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+<title>Activity 5 - ASCII 코드 :: Nuevo Foundation Workshops</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+
+<link rel="shortcut icon" href="https://www.nuevofoundation.org/favicons/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57"
+      href="https://www.nuevofoundation.org/favicons//apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120"
+      href="https://www.nuevofoundation.org/favicons/pple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-128.png" sizes=" 128x128" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="/css/nuevoweb.css" />
+<link rel="stylesheet" href="/css/chunk.css" />
+<link rel="stylesheet" href="/css/data-style.css" />
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+
+<script lang="JavaScript">
+
+      function toggleVisibility() {
+
+            
+            const menu = document.getElementById("mobile-nav-menu");
+            if (menu.style.display == 'none') {
+                  menu.classList.replace("transition-out", "transition-in")
+                  menu.style.display = 'block';
+            }
+            else if (menu.style.display == 'block') {
+                  menu.classList.replace("transition-in", "transition-out")
+                  menu.style.display = 'none';
+            }
+      }
+</script>
+<meta
+  name="description"
+  content="
+
+    
+"
+/>
+
+
+    
+  </head>
+  <body data-url="/kr/secret-messages/activity-5/" >
+    
+      <header>
+  
+  <div id="mobile-nav-menu" class="transition-out" style="display: none;">
+    <div class="close-btn" onclick="toggleVisibility();">
+        <i aria-hidden="true" focusable="false" style="cursor: pointer;" class="fa fa-times fa-w-11 fa-sm"></i>
+    </div>
+    <div>
+        <div class="sc-dNLxif ecnYUM">
+            <a href="/support-us"><button class="sc-jbKcbu sedGx"
+                    style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: 4px solid rgb(0, 0, 0); border-radius: 4px;">
+                    기부하기
+                </button></a>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/what-we-do">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>우리가 하는 일</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/get-involved">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>참여하세요</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/support-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>우리를 지원해주세요</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/blog">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>이벤트 블로그</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/about-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>우리 팀</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/contact">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>문의하기</li>
+            </ul>
+        </a>
+    </div>
+</div>
+<div>
+    <div class="sc-gGBfsJ iKkPGj">
+        <div class="container-fluid">
+            <div id="toprow" class="row">
+                <div class="col-xs-12">
+                    <div class="sc-EHOje fJMnSm">
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.instagram.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation Instagram" class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://twitter.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation X" class="fab fa-x-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Facebook" class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.linkedin.com/company/nuevofoundation">
+                                <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://www.youtube.com/nuevofoundation?sub_confirmation=1n">
+                                <i aria-label="Nuevo Foundation YouTube" class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1">
+                                <i aria-label="Nuevo Foundation Spotify" class="fab fa-spotify"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://github.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Github" class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" rel="noopener noreferrer"
+                                href="https://nuevofoundation.org/support-us">기부하기</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="secondrow" class="row">
+                <div class="col-sm-12 hidden-xs">
+                    <div class="sc-htoDjs kjtfZK">
+                        <a class="sc-fjdhpX izNzAG active" aria-current="page" href="https://nuevofoundation.org">
+                            <img alt="Nuevo Foundation Logo" src="/images/Logo_long.0f097b90.svg"
+                                height="60px" />
+                        </a>
+                        <ul class="sc-iwsKbI bUOvG">
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/what-we-do">
+                                <li class="sc-gZMcBi Bomeo">우리가 하는 일</li>
+                            </a>
+                            <a class="izNzAG" href="/">
+                                <li class="sc-gZMcBi Bomeo-selected jgBGVn">워크샵<span></span></li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/get-involved">
+                                <li class="sc-gZMcBi Bomeo">참여하세요</li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/support-us">
+                                <li class="sc-gZMcBi Bomeo">우리를 지원해주세요</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/blog">
+                                <li class="sc-gZMcBi Bomeo">이벤트 블로그</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/about-us">
+                                <li class="sc-gZMcBi Bomeo">우리 팀</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/contact">
+                                <li class="sc-gZMcBi Bomeo">문의하기</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <a class="sc-fjdhpX izNzAG active" aria-current="page" href="/">
+                                <img alt="Nuevo Foundation Logo" class="sc-dnqmqq emolVn"
+                                    src="/images/Logo_long.0f097b90.svg" height="60%" /></a>
+                        </div>
+                        <div class="col-xs-2" onclick="toggleVisibility();"
+                            style="padding-top: 4%; padding-left: 4%; cursor: pointer;">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                                class="svg-inline--fa fa-bars fa-w-14 fa-lg" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/kr/secret-messages/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/kr/secret-messages/">C&#43;&#43;: 비밀 메시지</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/kr/secret-messages/using-repl-it/" class="dd-item">
+        <div>
+          <a href="/kr/secret-messages/using-repl-it/">
+            Repl.It 사용하기
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/secret-messages/activity-1/" class="dd-item">
+        <div>
+          <a href="/kr/secret-messages/activity-1/">
+            Activity 1 - 출력하기t
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/secret-messages/activity-2/" class="dd-item">
+        <div>
+          <a href="/kr/secret-messages/activity-2/">
+            Activity 2 - 변수와 입력
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/secret-messages/activity-3/" class="dd-item">
+        <div>
+          <a href="/kr/secret-messages/activity-3/">
+            Activity 3 - 반복문 (Loops)
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/secret-messages/activity-4/" class="dd-item">
+        <div>
+          <a href="/kr/secret-messages/activity-4/">
+            Activity 4 - 조건문 (Conditions)
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/secret-messages/activity-5/" class="dd-item active">
+        <div>
+          <a href="/kr/secret-messages/activity-5/">
+            Activity 5 - ASCII 코드
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/secret-messages/activity-6/" class="dd-item">
+        <div>
+          <a href="/kr/secret-messages/activity-6/">
+            Activity 6 - 함수 (Functions)
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/secret-messages/activity-7/" class="dd-item">
+        <div>
+          <a href="/kr/secret-messages/activity-7/">
+            Activity 7 - 입력 줄 (Input Line)
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/secret-messages/activity-8/" class="dd-item">
+        <div>
+          <a href="/kr/secret-messages/activity-8/">
+            결론
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+    </ul>
+
+    <section>
+    </section>
+  </aside>
+  <section class="page">
+    <div align="right">
+<select id="select-language" onchange="location = this.value;">
+	
+	
+	
+	  
+	  
+	    
+	      
+	        <option id="en" value="/secret-messages/activity-5/">English</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	      
+	        <option id="es" value="/es/secret-messages/activity-5/">Español</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="pt-br" value="/pt-br/secret-messages/activity-5/">Português Brasileiro</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="kr" value="/kr/secret-messages/activity-5/" selected>한국어</option>
+	      
+	    
+	  
+	    
+	  
+	
+</select>
+    </div>
+
+    <div class="nav-select">
+      항해:&nbsp;
+      <select onchange="javascript:location.href = this.value;">
+        
+<option value="/kr/secret-messages/" >
+   C&#43;&#43;: 비밀 메시지</option>
+
+<option value="/kr/secret-messages/using-repl-it/" >- Repl.It 사용하기</option>
+<option value="/kr/secret-messages/activity-1/" >- Activity 1 - 출력하기t</option>
+<option value="/kr/secret-messages/activity-2/" >- Activity 2 - 변수와 입력</option>
+<option value="/kr/secret-messages/activity-3/" >- Activity 3 - 반복문 (Loops)</option>
+<option value="/kr/secret-messages/activity-4/" >- Activity 4 - 조건문 (Conditions)</option>
+<option value="/kr/secret-messages/activity-5/"  selected>- Activity 5 - ASCII 코드</option>
+<option value="/kr/secret-messages/activity-6/" >- Activity 6 - 함수 (Functions)</option>
+<option value="/kr/secret-messages/activity-7/" >- Activity 7 - 입력 줄 (Input Line)</option>
+<option value="/kr/secret-messages/activity-8/" >- 결론</option>
+
+
+
+      </select>
+
+    </div>
+    
+
+    <h1>Activity 5 - ASCII 코드</h1>
+
+    
+
+    
+
+    
+    
+    
+    
+    <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/MeOQFpey0pA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>좋아요!
+이번 활동에서는 수신자의 이름을 암호화(Encrypt)해 보겠습니다.</p>
+<p><strong>ASCII Code</strong> 써 봅시다!</p>
+<div class="notices tip" >
+    <p header-value="정보"><h3 id="ascii-코드">ASCII 코드</h3>
+<p>ASCII 코드는 각 문자에 숫자 값이 있음을 보여줍니다. 예를 들어 &lsquo;A&rsquo; 문자는 숫자 65, &lsquo;B&rsquo;는 66, &lsquo;C&rsquo;는 67 등입니다.</p>
+<p>다음 목록은 가장 일반적으로 사용되는 문자의 값을 보여줍니다:</p>
+<p><img src="../media/ascii-english.png" alt="ASCII 코드 목록"></p>
+<p>각 문자에는 숫자 값이 있으므로 이를 사용하여 이 문자에 값을 더하거나 뺄 수 있으므로 특정 방식으로 문자의 순서를 변경할 수 있습니다. 문자(&lsquo;char&rsquo;)를 숫자(&lsquo;int&rsquo;)로 변환하거나 그 반대로 변환할 수 있습니다.</p>
+<p>Example</p>
+<pre tabindex="0"><code>char letter = &#39;A&#39;;
+int letter_value = letter;
+<p>cout &lt;&lt; letter &lt;&lt; &quot; = &quot; &lt;&lt; letter_value &lt;&lt; endl;
+</code></pre><p>This will print:</p></p>
+<pre tabindex="0"><code>A = 65
+</code></pre><p>이 예제에서는 문자를 변수 유형 <strong>char</strong>에 저장합니다. 그런 다음 <strong>int</strong> 유형 변수에서는 문자 유형 변수를 저장하지만, 두 번째 변수는 숫자를 저장하므로 ASCII 코드에 따라 문자를 숫자 값으로 변환합니다.</p>
+<p>우리는 반대로 할 수 있습니다. 예를 들어:</p>
+<pre tabindex="0"><code>int letter_value = 67;
+char letter = letter_value;
+cout &lt;&lt; letter_value &lt;&lt; &#34; = &#34; &lt;&lt; letter &lt;&lt; endl;
+</code></pre><p>This will print:</p>
+<pre tabindex="0"><code>67 = C
+</code></pre></p>
+</div>
+<p>암호화 방법
+이제 우리는 키워드(keyword)를 사용하여 이름을 암호화할 것입니다.
+프로그램은 다음과 같은 방식으로 작동합니다:
+•	이름의 각 문자와 키워드의 각 문자를 더합니다.
+•	결과로 나온 새 문자를 암호화된 메시지에 저장합니다.
+•	키워드의 길이가 끝나면 다시 처음으로 돌아갑니다.</p>
+<p>예제:
+•	키워드: &ldquo;queen&rdquo;
+•	암호화할 이름: &ldquo;programmer&rdquo;</p>
+<ol>
+<li>첫 번째 문자 &lsquo;p&rsquo;와 키워드의 첫 번째 문자 &lsquo;q&rsquo;를 더합니다. 결과는 새 문자로 저장됩니다.</li>
+<li>두 번째 문자 &lsquo;r&rsquo;과 키워드의 두 번째 문자 &lsquo;u&rsquo;를 더합니다.</li>
+<li>키워드가 끝나면 다시 처음 문자 &lsquo;q&rsquo;로 돌아갑니다.</li>
+</ol>
+<p>이를 위해 우리는 이미 수행한 작업의 일부를 수집할 것이며 다음 단계를 따라야 합니다:</p>
+<ol>
+<li>먼저, 키워드가 될 &lsquo;string&rsquo; 유형의 변수를 생성합니다.</li>
+<li>콘솔에서 받은 입력을 이 변수에 저장합니다. 이것이 이름이 될 것입니다.</li>
+<li>처음 두 단계를 반복하면 키워드가 저장됩니다.</li>
+<li>&lsquo;for&rsquo; 루프를 선언하고 0으로 초기화된 유형의 변수 &lsquo;int&rsquo;를 사용합니다. 루프의 각 사이클에 대해 이 변수에 &lsquo;1&rsquo;을 추가하고 변수가 &lsquo;끈&rsquo; 변수의 &lsquo;크기&rsquo;보다 작을 때 루프를 계속합니다.</li>
+<li>&lsquo;for&rsquo; 루프의 본문에서 이름 문자 (<code>name[i]</code>)와 카운터 위치의 키워드 문자 (<code>key[counter]</code>)의 합과 같은 &lsquo;int&rsquo; 변수를 만듭니다. 이 합에서 소문자 &lsquo;a&rsquo;를 빼서 합이 ASCII 코드의 다른 임의 문자가 아닌 문자에 해당하도록 해야 합니다.</li>
+<li>&lsquo;if&rsquo; 문을 사용하여 문자의 합이 &lsquo;z&rsquo;보다 큰 문자에 해당하는지 확인합니다. 그렇다면 알파벳에서 참된 문자를 얻으려면 &lsquo;25&rsquo;(알파벳의 문자 수)를 빼야 합니다.</li>
+<li>문자 <code>name[i]</code>을 &lsquo;합&rsquo; 변수에 포함된 값으로 설정합니다. 이렇게 하면 원래 문자가 새 문자로 변경됩니다.</li>
+<li>키워드에서 가져온 카운터에 &lsquo;1&rsquo;을 추가합니다.</li>
+<li>키워드 카운터가 &lsquo;키&rsquo; 문자열의 길이보다 크거나 같은지 확인합니다. 그렇다면 카운터를 &lsquo;0&rsquo;으로 재설정합니다.</li>
+<li>마지막으로 &lsquo;for&rsquo; 문 뒤에 암호화된 메시지를 콘솔에 인쇄합니다.</li>
+</ol>
+<p>언제든지 이전 활동으로 돌아가서 무엇이든 복습할 수 있다는 점을 기억하세요!</p>
+<p>단계가 완료되면 단어 재생 및 암호화를 시작하세요! <strong>Run</strong>을 누르고 콘솔에 키워드를 입력한 다음 엔터 키, 암호화할 이름 또는 단어, 엔터 키를 입력합니다. 예를 들어, 다음을 복사하여 콘솔에 붙여넣을 수 있습니다:</p>
+<pre tabindex="0"><code>programmer
+queen
+</code></pre><div class="alert 
+alert-warning"
+ 
+role="alert"><strong>경고</strong>: 이 프로그램에서는 항상 <strong>소문자</strong>로 문자열과 문자를 작성해야 합니다..</div>
+
+<p><a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/activity-5-english" target="_blank">Replit 실행하기</a></p>
+<p><div class="alert 
+alert-danger"
+ 
+role="alert"><strong>중요:</strong> 콘솔에 붙여넣으려면 콘솔을 마우스 오른쪽 버튼으로 클릭하고 &ldquo;붙여넣기&quot;를 클릭합니다. 그렇지 않으면 붙여넣기 작업이 제대로 작동하지 않을 수 있습니다.</div>
+
+© 2022 GitHub, Inc.</p>
+
+
+    
+    
+      <div class="chevrons">
+  <style>
+    .workshop-complete-image {
+        margin: 40px auto 50px auto;
+        width: 340.8px;
+    }
+    
+    .workshop-complete-words {
+        font-family: Space Mono, monospace;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        text-align: center;
+    }
+    
+    .horizontal-bar {
+        background-color: #000000;
+        width: 120px;
+        height: 12px;
+        margin: 80px auto 0 auto;
+    }
+</style>
+
+
+    <div id="navigation">
+            <div class="next-prev-wrapper-div"><a class='nav nav-prev' href="/kr/secret-messages/activity-4/" title="Activity 4 - 조건문 (Conditions)">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                이전의:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Activity 4 - 조건문 (Conditions)
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="prevbutton-image">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+        
+    </div>
+</a></div>
+            <div class="next-prev-wrapper-div"><a class='nav nav-next' href="/kr/secret-messages/activity-6/" title="Activity 6 - 함수 (Functions)">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                다음:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Activity 6 - 함수 (Functions)
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="nextbutton-image">
+            <i class="fa fa-arrow-right"></i>
+        </div>
+        
+    </div>
+</a></div>
+        </div>
+</div>
+
+</section>
+</article>
+
+<footer>
+  <div class="footline">
+    
+
+    
+
+    
+    <div class="date">
+      <i class='fa fa-calendar'></i> 
+      Thu, 25 Jul 2019 13:24:17 PDT
+    </div>
+    
+
+    
+    <div class="github-link">
+      <a href="https://github.com/NuevoFoundation/workshops/tree/master/content/secret-messages/activity-5.md" target="blank"><i
+          class="fa fa-code-fork"></i>
+        </a>
+    </div>
+    
+  </div>
+
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+    
+
+    
+    
+
+    <div id="footer" class="row">
+    <div class="col-xs-12">
+        <div class="App-footer">
+            <div class="App-footer-big">
+                소셜 미디어에서 대화에 참여하세요.
+            </div>
+            <div class="social-images">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Instagram" class="fab fa-2x fa-instagram"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation X" class="fab fa-2x fa-x-twitter"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Facebook" class="fab fa-2x fa-1x fa-facebook-f"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-2x fa-linkedin"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/nuevofoundation?sub_confirmation=1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation YouTube" class="fab fa-2x fa-youtube"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Spotify" class="fab fa-2x fa-spotify"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Github" class="fab fa-2x fa-github"></i>
+                </a>
+            </div>
+            <div class="App-footer-small">
+                © 저작권 2025, 모든 권리는 501(c)(3) 비영리 단체인 Nuevo Foundation에 있습니다.
+            </div>
+        </div>
+    </div>
+</div>
+
+  </body>
+</html>

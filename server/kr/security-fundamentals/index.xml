@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>보안 기초 on Nuevo Foundation Workshops</title>
+    <link>/kr/security-fundamentals/</link>
+    <description>Recent content in 보안 기초 on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>kr</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/kr/security-fundamentals/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>보안이란 무엇일까요?</title>
+      <link>/kr/security-fundamentals/what-is-security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/kr/security-fundamentals/what-is-security/</guid>
+      <description>&lt;h2 id=&#34;일반-보안-vs-사이버-보안&#34;&gt;일반 보안 vs. 사이버 보안&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;보안&lt;/strong&gt;은 위험이나 위협으로부터 자유로운 상태를 의미합니다. &lt;strong&gt;사이버 보안&lt;/strong&gt;도 마찬가지로 위험에서 벗어나 안전한 상태를 만드는 것을 목표로 하지만, 사이버 보안은 &lt;strong&gt;사이버 공간&lt;/strong&gt;에서의 안전을 의미합니다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;사이버 보안 전문가&lt;/strong&gt;들은 사용자가 인터넷을 안전하게 이용할 수 있도록 다양한 방법으로 보호 작업을 진행합니다. 어떤 사이버 보안 엔지니어들은 새로운 취약점을 찾아내는 데 주의를 기울이고, 또 다른 엔지니어들은 해커들이 프로그램을 공격하기 전에 이를 방어하는 역할을 합니다.&lt;/p&gt;&#xA;&lt;h2 id=&#34;사이버-공간이란&#34;&gt;사이버 공간이란?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;사이버 공간&lt;/strong&gt;은 컴퓨터 네트워크를 통해 의사소통이 이루어지는 모든 장소를 의미합니다. 소셜 미디어 사이트나 포럼에서 다른 사람들과 상호작용하는 공간뿐 아니라, 인터넷을 통하거나, 가정이나 사무실과 같은 소규모 네트워크 내에서 컴퓨터들끼리 대화하는 경우도 포함됩니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>일상생활에서 어떻게 안전한 보안을 유지할 수 있을까요?</title>
+      <link>/kr/security-fundamentals/how-can-we-incorporate-security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/kr/security-fundamentals/how-can-we-incorporate-security/</guid>
+      <description>&lt;!-- Links for javascript needed for logic --&gt;&#xD;&#xA;&lt;script type=&#34;text/javascript&#34; src=&#34;../_incorporate-security.js&#34;&gt;&lt;/script&gt;&#xD;&#xA;&lt;p&gt;사이버 보안은 매우 넓은 분야이며, 우리 모두가 인터넷을 안전하게 사용할 수 있도록 각자의 역할을 해야 합니다. 사이버 보안을 활용하면 우리가 속한 네트워크에 해커와 사이버 범죄자들이 침입하는 것을 예방할 수 있습니다.&lt;/p&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div&gt;&#xD;&#xA;  &lt;form name=&#34;form1&#34; accept-charset=&#34;UTF-8&#34;&gt;&#xD;&#xA;    해커들의 침입을 막기 위해 우리가 할 수 있는 방법에는 무엇이 있을까요?&#xD;&#xA; &lt;/br&gt;&#xD;&#xA; &lt;/br&gt;&#xD;&#xA; &lt;/form&gt;&#xD;&#xA;&#xD;&#xA; &lt;input id=&#34;text_field&#34; type=&#34;text&#34; name=&#34;name1&#34; placeholder=&#34;여러분의 생각을 입력하세요.&#34;&gt;&#xD;&#xA; &#xD;&#xA; &lt;!-- Enter button --&gt;&#xD;&#xA; &lt;div&gt;&#xD;&#xA;   &lt;button id=&#34;submit_button&#34; type=&#34;button&#34; onclick=&#34;displaySection()&#34;&gt;제출&lt;/button&gt;&#xD;&#xA; &lt;/div&gt;&#xD;&#xA;&lt;/br&gt;&#xD;&#xA; &#xD;&#xA; &lt;!-- Hidden section with sample answers --&gt;&#xD;&#xA; &lt;div class=&#34;sample_answers&#34; id=&#34;sample_answers&#34; style=&#34;visibility:hidden&#34;&gt;&#xD;&#xA;   &lt;p&gt;좋은 생각이에요! 이 외에도 다른 방법들이 있어요:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>보안 vs 개인정보 보호</title>
+      <link>/kr/security-fundamentals/security-vs-privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/kr/security-fundamentals/security-vs-privacy/</guid>
+      <description>&lt;p&gt;사람들은 종종 보안과 개인정보 보호를 혼동하지만, 이 두 가지 개념은 다릅니다. 이러한 차이를 이해하는 것이 중요합니다.&lt;/p&gt;&#xA;&lt;h3 id=&#34;보안&#34;&gt;보안&lt;/h3&gt;&#xA;&lt;p&gt;보안은 데이터를 무단으로 접근하지 못하게 보호하는 것입니다. 누군가가 허락 없이 데이터를 접근하지 못하게 하는 모든 조치를 보안이라고 합니다. 예를 들어:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;컴퓨터를 사용하지 않을 때 잠금 설정하기&lt;/li&gt;&#xA;&lt;li&gt;소프트웨어 공격을 막는 프로그래밍 기술사용하기&lt;/li&gt;&#xA;&lt;li&gt;이중 인증(2FA) 설정하기&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;개인정보-보호&#34;&gt;개인정보 보호&lt;/h3&gt;&#xA;&lt;p&gt;개인정보 보호는 사용자가 원하지 않는 관심이나 감시에서 벗어날 권리를 말합니다. 주로 개인식별정보(PII)를 보호하는 것에 중점을 둡니다. 개인식별정보의 예는 다음과 같습니다:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>사이버 보안의 원인과 결과</title>
+      <link>/kr/security-fundamentals/cyber-security-cause--effect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/kr/security-fundamentals/cyber-security-cause--effect/</guid>
+      <description>&lt;p&gt;사이버 보안 실천은 단순히 온라인 사기에 넘어가지 않는 것 이상입니다. 사용자가 흔히 간과하고 해커들이 악용하는 일반적인 위험 요소들은 무엇일까요?&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;이중 인증(2FA)을 설정하지 않음&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;소셜 미디어, 은행, 게임 계정 등에 로그인할 때 이중 인증을 활성화하지 않으면 해커들이 쉽게 비밀번호를 알아채서 나도 모르게 로그인할 수 있습니다.&lt;/p&gt;&#xA;&lt;div class=&#34;notices tip&#34; &gt;&#xD;&#xA;    &lt;p header-value=&#34;정보&#34;&gt;&lt;h3 id=&#34;이중-인증2fa-설정하기&#34;&gt;이중 인증(2FA) 설정하기&lt;/h3&gt;&#xA;&lt;p&gt;이중 인증(2FA)은 로그인할 때 두 가지 방법으로 본인을 증명하는 절차를 말합니다. 이 기능은 누군가가 여러분의 비밀번호를 훔치거나 추측하더라도 계정에 로그인할 수 없도록 보호해줍니다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

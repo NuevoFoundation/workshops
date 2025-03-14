@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nuevo Foundation Workshops</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+<meta name="theme-color" content="#000000" />
+<meta name="revised" content="2025-03-14T19:00:11 -03">
+<meta name="application-name" content=" " />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+<title>布尔值 :: Nuevo Foundation Workshops</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+
+<link rel="shortcut icon" href="https://www.nuevofoundation.org/favicons/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57"
+      href="https://www.nuevofoundation.org/favicons//apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120"
+      href="https://www.nuevofoundation.org/favicons/pple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-128.png" sizes=" 128x128" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="/css/nuevoweb.css" />
+<link rel="stylesheet" href="/css/chunk.css" />
+<link rel="stylesheet" href="/css/data-style.css" />
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+
+<script lang="JavaScript">
+
+      function toggleVisibility() {
+
+            
+            const menu = document.getElementById("mobile-nav-menu");
+            if (menu.style.display == 'none') {
+                  menu.classList.replace("transition-out", "transition-in")
+                  menu.style.display = 'block';
+            }
+            else if (menu.style.display == 'block') {
+                  menu.classList.replace("transition-in", "transition-out")
+                  menu.style.display = 'none';
+            }
+      }
+</script>
+<meta
+  name="description"
+  content="
+
+    
+"
+/>
+
+
+    
+  </head>
+  <body data-url="/zh-hans/python-basics/data-types/booleans/" >
+    
+      <header>
+  
+  <div id="mobile-nav-menu" class="transition-out" style="display: none;">
+    <div class="close-btn" onclick="toggleVisibility();">
+        <i aria-hidden="true" focusable="false" style="cursor: pointer;" class="fa fa-times fa-w-11 fa-sm"></i>
+    </div>
+    <div>
+        <div class="sc-dNLxif ecnYUM">
+            <a href="/support-us"><button class="sc-jbKcbu sedGx"
+                    style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: 4px solid rgb(0, 0, 0); border-radius: 4px;">
+                    捐赠
+                </button></a>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/what-we-do">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>我们的工作</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/get-involved">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>参与其中</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/support-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>支持我们</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/blog">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>活动博客</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/about-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>我们的团队</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/contact">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>联系我们</li>
+            </ul>
+        </a>
+    </div>
+</div>
+<div>
+    <div class="sc-gGBfsJ iKkPGj">
+        <div class="container-fluid">
+            <div id="toprow" class="row">
+                <div class="col-xs-12">
+                    <div class="sc-EHOje fJMnSm">
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.instagram.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation Instagram" class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://twitter.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation X" class="fab fa-x-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Facebook" class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.linkedin.com/company/nuevofoundation">
+                                <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://www.youtube.com/nuevofoundation?sub_confirmation=1n">
+                                <i aria-label="Nuevo Foundation YouTube" class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1">
+                                <i aria-label="Nuevo Foundation Spotify" class="fab fa-spotify"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://github.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Github" class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" rel="noopener noreferrer"
+                                href="https://nuevofoundation.org/support-us">捐赠</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="secondrow" class="row">
+                <div class="col-sm-12 hidden-xs">
+                    <div class="sc-htoDjs kjtfZK">
+                        <a class="sc-fjdhpX izNzAG active" aria-current="page" href="https://nuevofoundation.org">
+                            <img alt="Nuevo Foundation Logo" src="/images/Logo_long.0f097b90.svg"
+                                height="60px" />
+                        </a>
+                        <ul class="sc-iwsKbI bUOvG">
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/what-we-do">
+                                <li class="sc-gZMcBi Bomeo">我们的工作</li>
+                            </a>
+                            <a class="izNzAG" href="/">
+                                <li class="sc-gZMcBi Bomeo-selected jgBGVn">研讨会<span></span></li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/get-involved">
+                                <li class="sc-gZMcBi Bomeo">参与其中</li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/support-us">
+                                <li class="sc-gZMcBi Bomeo">支持我们</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/blog">
+                                <li class="sc-gZMcBi Bomeo">活动博客</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/about-us">
+                                <li class="sc-gZMcBi Bomeo">我们的团队</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/contact">
+                                <li class="sc-gZMcBi Bomeo">联系我们</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <a class="sc-fjdhpX izNzAG active" aria-current="page" href="/">
+                                <img alt="Nuevo Foundation Logo" class="sc-dnqmqq emolVn"
+                                    src="/images/Logo_long.0f097b90.svg" height="60%" /></a>
+                        </div>
+                        <div class="col-xs-2" onclick="toggleVisibility();"
+                            style="padding-top: 4%; padding-left: 4%; cursor: pointer;">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                                class="svg-inline--fa fa-bars fa-w-14 fa-lg" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/zh-hans/python-basics/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/zh-hans/python-basics/">Python: 基础入门</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/zh-hans/python-basics/basics/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/zh-hans/python-basics/basics/">基础知识</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/zh-hans/python-basics/basics/using-trinket/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/basics/using-trinket/">
+            从 Trinket 开始学习
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/python-basics/basics/writing-to-console/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/basics/writing-to-console/">
+            写入控制台 (print打印语句)
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/python-basics/basics/comments/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/basics/comments/">
+            注释 (Comments)
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/python-basics/basics/variables/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/basics/variables/">
+            变量
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/python-basics/basics/reading-from-console/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/basics/reading-from-console/">
+            从控制台中读取
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/zh-hans/python-basics/data-types/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/zh-hans/python-basics/data-types/">数据类型</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/zh-hans/python-basics/data-types/strings/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/data-types/strings/">
+            字符串
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/python-basics/data-types/numbers/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/data-types/numbers/">
+            数值
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/python-basics/data-types/booleans/" class="dd-item active">
+        <div>
+          <a href="/zh-hans/python-basics/data-types/booleans/">
+            布尔值
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/zh-hans/python-basics/conditional-statements-loops/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/zh-hans/python-basics/conditional-statements-loops/">条件语句和循环</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/zh-hans/python-basics/conditional-statements-loops/conditional-statements/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/conditional-statements-loops/conditional-statements/">
+            条件语句
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/python-basics/conditional-statements-loops/else-if-statement/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/conditional-statements-loops/else-if-statement/">
+            Else-if 条件
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/python-basics/conditional-statements-loops/loops/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/conditional-statements-loops/loops/">
+            循环
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/python-basics/conditional-statements-loops/nested-loops/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/conditional-statements-loops/nested-loops/">
+            嵌套循环
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/zh-hans/python-basics/data-structures/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/zh-hans/python-basics/data-structures/">数据结构</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/zh-hans/python-basics/data-structures/lists/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/data-structures/lists/">
+            列表
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/python-basics/data-structures/tuples/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/data-structures/tuples/">
+            元组
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/python-basics/data-structures/sets/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/data-structures/sets/">
+            集合
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/zh-hans/python-basics/functions/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/zh-hans/python-basics/functions/">函数</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/zh-hans/python-basics/functions/built-in/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/functions/built-in/">
+            内置函数
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/zh-hans/python-basics/functions/built-in-math/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/functions/built-in-math/">
+            内置数学函数
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+      <li data-nav-id="/zh-hans/python-basics/help/" class="dd-item">
+        <div>
+          <a href="/zh-hans/python-basics/help/">
+            求助, 我有困难!
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+    </ul>
+
+    <section>
+    </section>
+  </aside>
+  <section class="page">
+    <div align="right">
+<select id="select-language" onchange="location = this.value;">
+	
+	
+	
+	  
+	  
+	    
+	      
+	        <option id="en" value="/python-basics/data-types/booleans/">English</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="pt-br" value="/pt-br/python-basics/data-types/booleans/">Português Brasileiro</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="zh-hans" value="/zh-hans/python-basics/data-types/booleans/" selected>简体中文</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+</select>
+    </div>
+
+    <div class="nav-select">
+      导航:&nbsp;
+      <select onchange="javascript:location.href = this.value;">
+        
+<option value="/zh-hans/python-basics/" >
+   Python: 基础入门</option>
+
+<option value="/zh-hans/python-basics/basics/" >
+  -
+   基础知识</option>
+<option value="/zh-hans/python-basics/data-types/" >
+  -
+   数据类型</option>
+
+<option value="/zh-hans/python-basics/data-types/strings/" >-- 字符串</option>
+<option value="/zh-hans/python-basics/data-types/numbers/" >-- 数值</option>
+<option value="/zh-hans/python-basics/data-types/booleans/"  selected>-- 布尔值</option>
+
+<option value="/zh-hans/python-basics/conditional-statements-loops/" >
+  -
+   条件语句和循环</option>
+<option value="/zh-hans/python-basics/data-structures/" >
+  -
+   数据结构</option>
+<option value="/zh-hans/python-basics/functions/" >
+  -
+   函数</option>
+<option value="/zh-hans/python-basics/help/" >- 求助, 我有困难!</option>
+
+
+
+      </select>
+
+    </div>
+    
+
+    <h1>布尔值</h1>
+
+    
+
+    
+
+    
+    
+    
+    
+    <p>布尔值是<font color="blue">True</font>（真）或<font color="blue">False</font>（假）的语句。与字符串或数字不同，<b>布尔值</b> 存储了关于真假的陈述：一件事物是真还是假？</p>
+<p>例如，如果我说：“你是机器人”，一个布尔值可以存储这个陈述是否为真。在这种情况下，由于你不是机器人（希望如此！），我们将存储<font color="blue">False</font>。</p>
+<p>关于以下问题，你的布尔值答案是什么？</p>
+<p>我是人类。 _______
+我有25个手指。 _______
+我喜欢饼干。 _______
+我最喜欢的颜色是蓝色。 ______</p>
+<p>最常见的布尔运算符是比较运算符，如小于或大于。在Python中，如何编写这些运算符如下所示。打印以下结果：fal</p>
+<table>
+  <thead>
+      <tr>
+          <th>运算符</th>
+          <th>描述</th>
+          <th>运算符</th>
+          <th>描述</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>&lt;</code></td>
+          <td>小于</td>
+          <td><code>&gt;</code></td>
+          <td>大于</td>
+      </tr>
+      <tr>
+          <td><code>&lt;=</code></td>
+          <td>小于等于</td>
+          <td><code>&gt;=</code></td>
+          <td>大于等于</td>
+      </tr>
+      <tr>
+          <td><code>==</code></td>
+          <td>等于</td>
+          <td><code>!=</code></td>
+          <td>不等于</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="小挑战一">小挑战一</h3>
+<p>像往常一样，我们使用 <code>print</code> 打印以下结果：</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#111">print</span><span style="color:#111">(</span><span style="color:#ae81ff">5</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">8</span> <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">10</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">print</span><span style="color:#111">((</span><span style="color:#ae81ff">3</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">5</span><span style="color:#111">)</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">6</span><span style="color:#111">)</span> <span style="color:#f92672">==</span> <span style="color:#111">(</span><span style="color:#ae81ff">65</span> <span style="color:#f92672">-</span> <span style="color:#ae81ff">17</span><span style="color:#111">)</span>
+</span></span></code></pre></div><p>第一个陈述应返回<font color="blue">False</font>。第二个应返回<font color="blue">True</font>。</p>
+<p><img src="../../img/booleans.png" alt="alt text" title="image of the above example showing the first is False and the second is true"></p>
+<h3 id="小挑战二">小挑战二</h3>
+<p>尝试使用print打印以下表达式的答案。如果其中任何陈述的结果不合理，请寻求帮助！</p>
+<ul>
+<li>54 &lt; (10 + 32)</li>
+<li>(37 / 5) != 7</li>
+<li>&ldquo;Hello&rdquo; + &ldquo;World&rdquo; == &ldquo;Hello World&rdquo;</li>
+<li><font color="blue">False</font> == <font color="blue">False</font></li>
+</ul>
+<h3 id="小挑战三">小挑战三</h3>
+<p>尝试创建自己的表达式！</p>
+<h3 id="趣事-使用and和or运算符连接布尔值">趣事: 使用AND和OR运算符连接布尔值</h3>
+<p>你还可以使用AND和OR运算符将布尔表达式连接在一起。以下是描述我们如何连接布尔表达式时会发生什么情况的图表：</p>
+<table>
+  <thead>
+      <tr>
+          <th>表达式</th>
+          <th>结果</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><font color="blue">True</font> and <font color="blue">True</font></td>
+          <td><font color="blue">True</font></td>
+      </tr>
+      <tr>
+          <td><font color="blue">True</font>  and <font color="blue">False</font></td>
+          <td><font color="blue">False</font></td>
+      </tr>
+      <tr>
+          <td><font color="blue">False</font> and <font color="blue">True</font></td>
+          <td><font color="blue">False</font></td>
+      </tr>
+      <tr>
+          <td><font color="blue">False</font> and <font color="blue">False</font></td>
+          <td><font color="blue">False</font></td>
+      </tr>
+      <tr>
+          <td><font color="blue">True</font>  or <font color="blue">True</font></td>
+          <td><font color="blue">True</font></td>
+      </tr>
+      <tr>
+          <td><font color="blue">True</font>  or <font color="blue">False</font></td>
+          <td><font color="blue">True</font></td>
+      </tr>
+      <tr>
+          <td><font color="blue">False</font> or <font color="blue">True</font></td>
+          <td><font color="blue">True</font></td>
+      </tr>
+      <tr>
+          <td><font color="blue">False</font>  and <font color="blue">False</font></td>
+          <td><font color="blue">False</font></td>
+      </tr>
+  </tbody>
+</table>
+<p>总结一下，AND要求两个布尔表达式都为true，而OR只需要其中一个布尔表达式为true。以下是一些更多的例子：</p>
+<ul>
+<li>(5 &lt; 8) and (9 != 10) 生成 <font color="blue">True</font> 因为5小于8，而9不等于10。</li>
+<li>(8 &lt;= 2) or (&ldquo;h&rdquo; + &ldquo;e&rdquo; == &ldquo;he&rdquo;) 生成 <font color="blue">True</font> 因为&quot;h&quot; + &ldquo;e&quot;的结果是&quot;he&rdquo;，即使8不小于或等于2。</li>
+<li>(6 != 2 * 3) or (8 &lt; 2 * 4) 生成 <font color="blue">False</font> 因为6不等于2 * 3，8小于2 * 4，都生成 <font color="blue">False</font>.</li>
+</ul>
+<h4 id="以下这些表达式会产生什么结果">以下这些表达式会产生什么结果?</h4>
+<ul>
+<li>(11-2 &lt; 10) and (7+3 &gt; 10)</li>
+<li>(<font color="blue">True</font> or 3 &lt; 1) and (<font color="blue">False</font> or 3&gt;1)</li>
+</ul>
+<iframe src="https://trinket.io/embed/python/b238d85d0d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+    
+    
+      <div class="chevrons">
+  <style>
+    .workshop-complete-image {
+        margin: 40px auto 50px auto;
+        width: 340.8px;
+    }
+    
+    .workshop-complete-words {
+        font-family: Space Mono, monospace;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        text-align: center;
+    }
+    
+    .horizontal-bar {
+        background-color: #000000;
+        width: 120px;
+        height: 12px;
+        margin: 80px auto 0 auto;
+    }
+</style>
+
+
+    <div id="navigation">
+            <div class="next-prev-wrapper-div"><a class='nav nav-prev' href="/zh-hans/python-basics/data-types/numbers/" title="数值">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                前一页:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                数值
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="prevbutton-image">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+        
+    </div>
+</a></div>
+            <div class="next-prev-wrapper-div"><a class='nav nav-next' href="/zh-hans/python-basics/conditional-statements-loops/" title="条件语句和循环">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                下一页:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                条件语句和循环
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="nextbutton-image">
+            <i class="fa fa-arrow-right"></i>
+        </div>
+        
+    </div>
+</a></div>
+        </div>
+</div>
+
+</section>
+</article>
+
+<footer>
+  <div class="footline">
+    
+
+    
+
+    
+    <div class="date">
+      <i class='fa fa-calendar'></i> 
+      Mon, 10 Feb 2020 13:24:17 PDT
+    </div>
+    
+
+    
+    <div class="github-link">
+      <a href="https://github.com/NuevoFoundation/workshops/tree/master/content/python-basics/data-types/booleans.md" target="blank"><i
+          class="fa fa-code-fork"></i>
+        </a>
+    </div>
+    
+  </div>
+
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+    
+
+    
+    
+
+    <div id="footer" class="row">
+    <div class="col-xs-12">
+        <div class="App-footer">
+            <div class="App-footer-big">
+                加入社交媒体上的对话.
+            </div>
+            <div class="social-images">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Instagram" class="fab fa-2x fa-instagram"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation X" class="fab fa-2x fa-x-twitter"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Facebook" class="fab fa-2x fa-1x fa-facebook-f"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-2x fa-linkedin"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/nuevofoundation?sub_confirmation=1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation YouTube" class="fab fa-2x fa-youtube"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Spotify" class="fab fa-2x fa-spotify"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Github" class="fab fa-2x fa-github"></i>
+                </a>
+            </div>
+            <div class="App-footer-small">
+                © Copyright 2025, All Rights Reserved by Nuevo Foundation, a 501(c)(3) nonprofit.
+            </div>
+        </div>
+    </div>
+</div>
+
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Basics on Nuevo Foundation Workshops</title>
+    <link>/python-basics/basics/</link>
+    <description>Recent content in Basics on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 19 Sep 2022 14:45:38 -0700</lastBuildDate>
+    <atom:link href="/python-basics/basics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Starting up with Trinket</title>
+      <link>/python-basics/basics/using-trinket/</link>
+      <pubDate>Mon, 19 Sep 2022 14:45:38 -0700</pubDate>
+      <guid>/python-basics/basics/using-trinket/</guid>
+      <description>&lt;p&gt;Today, we&amp;rsquo;ll be using Trinket to learn about Python. Here is an example of an interactive Trinket window you will be using today.&lt;/p&gt;&#xA;&lt;iframe src=&#34;https://trinket.io/embed/python/ce70252d93&#34; width=&#34;100%&#34; height=&#34;600&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xD;&#xA;&lt;p&gt;Before we start, let’s first understand how the window works. The &lt;code&gt;main.py&lt;/code&gt; file contains code, or instructions for the computer to run. Anything that results from running the code will be displayed on the right side. This window that displays the result is called the console.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Writing to Console (Print statement)</title>
+      <link>/python-basics/basics/writing-to-console/</link>
+      <pubDate>Mon, 19 Sep 2022 14:45:38 -0700</pubDate>
+      <guid>/python-basics/basics/writing-to-console/</guid>
+      <description>&lt;p style=&#34;text-align: center;&#34;&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/NrbQCjlzhYc&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;&#xD;&#xA;&lt;h2 id=&#34;make-your-program-talk-to-you&#34;&gt;Make your program talk to you!&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Print&lt;/strong&gt; statements are used to write something to the console. Use &lt;code&gt;print(&amp;quot;Hello World&amp;quot;)&lt;/code&gt; to print &lt;em&gt;Hello World&lt;/em&gt; in the output screen. We will later learn that print is a function and we use it to perform a print job. Whatever you pass to the &lt;code&gt;print&lt;/code&gt; function is printed on the screen.&#xA;Let&amp;rsquo;s start by doing a &lt;code&gt;print&lt;/code&gt; statement.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Comments</title>
+      <link>/python-basics/basics/comments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/python-basics/basics/comments/</guid>
+      <description>&lt;p style=&#34;text-align: center;&#34;&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/NE9IEUi1Eqk&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;When creating a Python program, we can add some notes by adding one line comments using &lt;code&gt;#&lt;/code&gt;. &lt;strong&gt;Comments&lt;/strong&gt; are the parts of the code that do not effect the program. Anything after the &lt;code&gt;#&lt;/code&gt; symbol is part of the comment and is ignored by your code. Comments are put in the code to tell the readers what the code is doing. They can make maintenance of code easy and can also help in finding bugs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Variables</title>
+      <link>/python-basics/basics/variables/</link>
+      <pubDate>Mon, 19 Sep 2022 14:45:38 -0700</pubDate>
+      <guid>/python-basics/basics/variables/</guid>
+      <description>&lt;p&gt;In a previous exercise, we learned to print different contents with &lt;code&gt;print(&amp;quot;&amp;quot;)&lt;/code&gt;. While it is great to print out a number or a sentence, we haven&amp;rsquo;t given them a meaning. Variables are simply names that we can give to values such as strings, numbers, and booleans. Here’s how to make a variable named s in Python. We say s is a string that has the value &lt;code&gt;&amp;quot;Hello, World!&amp;quot;&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#111&#34;&gt;s&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d88200&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#111&#34;&gt;x&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;88&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#111&#34;&gt;happy&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#00a8c8&#34;&gt;True&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Press run.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reading from the Console</title>
+      <link>/python-basics/basics/reading-from-console/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      <guid>/python-basics/basics/reading-from-console/</guid>
+      <description>&lt;p&gt;Now that we know the basics about variables, we can ask for input from the user. Use the following line to tell our program to wait until the user types something into the console. Then, the computer takes whatever is typed into the console, and stores it into the variable called &lt;strong&gt;value&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#111&#34;&gt;value&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#111&#34;&gt;input&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;()&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Here&amp;rsquo;s and examples of how to use &lt;code&gt;input()&lt;/code&gt; to accept user input:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#111&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#d88200&#34;&gt;&amp;#34;What&amp;#39;s your name?&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#111&#34;&gt;value&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#111&#34;&gt;input&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;()&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#111&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#d88200&#34;&gt;&amp;#34;Hello &amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#111&#34;&gt;value&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#d88200&#34;&gt;&amp;#34;!&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Give this a try! When you hit run, you&amp;rsquo;ll notice that the below image doesn&amp;rsquo;t appear on the console yet.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

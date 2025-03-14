@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nuevo Foundation Workshops</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+<meta name="theme-color" content="#000000" />
+<meta name="revised" content="2025-03-14T19:00:14 -03">
+<meta name="application-name" content=" " />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+<title>Razor 기초2 :: Nuevo Foundation Workshops</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+
+<link rel="shortcut icon" href="https://www.nuevofoundation.org/favicons/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57"
+      href="https://www.nuevofoundation.org/favicons//apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120"
+      href="https://www.nuevofoundation.org/favicons/pple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-128.png" sizes=" 128x128" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="/css/nuevoweb.css" />
+<link rel="stylesheet" href="/css/chunk.css" />
+<link rel="stylesheet" href="/css/data-style.css" />
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+
+<script lang="JavaScript">
+
+      function toggleVisibility() {
+
+            
+            const menu = document.getElementById("mobile-nav-menu");
+            if (menu.style.display == 'none') {
+                  menu.classList.replace("transition-out", "transition-in")
+                  menu.style.display = 'block';
+            }
+            else if (menu.style.display == 'block') {
+                  menu.classList.replace("transition-in", "transition-out")
+                  menu.style.display = 'none';
+            }
+      }
+</script>
+<meta
+  name="description"
+  content="
+
+    
+"
+/>
+
+
+    
+  </head>
+  <body data-url="/kr/razor/razor-syntax/" >
+    
+      <header>
+  
+  <div id="mobile-nav-menu" class="transition-out" style="display: none;">
+    <div class="close-btn" onclick="toggleVisibility();">
+        <i aria-hidden="true" focusable="false" style="cursor: pointer;" class="fa fa-times fa-w-11 fa-sm"></i>
+    </div>
+    <div>
+        <div class="sc-dNLxif ecnYUM">
+            <a href="/support-us"><button class="sc-jbKcbu sedGx"
+                    style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: 4px solid rgb(0, 0, 0); border-radius: 4px;">
+                    기부하기
+                </button></a>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/what-we-do">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>우리가 하는 일</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/get-involved">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>참여하세요</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/support-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>우리를 지원해주세요</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/blog">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>이벤트 블로그</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/about-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>우리 팀</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/contact">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>문의하기</li>
+            </ul>
+        </a>
+    </div>
+</div>
+<div>
+    <div class="sc-gGBfsJ iKkPGj">
+        <div class="container-fluid">
+            <div id="toprow" class="row">
+                <div class="col-xs-12">
+                    <div class="sc-EHOje fJMnSm">
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.instagram.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation Instagram" class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://twitter.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation X" class="fab fa-x-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Facebook" class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.linkedin.com/company/nuevofoundation">
+                                <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://www.youtube.com/nuevofoundation?sub_confirmation=1n">
+                                <i aria-label="Nuevo Foundation YouTube" class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1">
+                                <i aria-label="Nuevo Foundation Spotify" class="fab fa-spotify"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://github.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Github" class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" rel="noopener noreferrer"
+                                href="https://nuevofoundation.org/support-us">기부하기</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="secondrow" class="row">
+                <div class="col-sm-12 hidden-xs">
+                    <div class="sc-htoDjs kjtfZK">
+                        <a class="sc-fjdhpX izNzAG active" aria-current="page" href="https://nuevofoundation.org">
+                            <img alt="Nuevo Foundation Logo" src="/images/Logo_long.0f097b90.svg"
+                                height="60px" />
+                        </a>
+                        <ul class="sc-iwsKbI bUOvG">
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/what-we-do">
+                                <li class="sc-gZMcBi Bomeo">우리가 하는 일</li>
+                            </a>
+                            <a class="izNzAG" href="/">
+                                <li class="sc-gZMcBi Bomeo-selected jgBGVn">워크샵<span></span></li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/get-involved">
+                                <li class="sc-gZMcBi Bomeo">참여하세요</li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/support-us">
+                                <li class="sc-gZMcBi Bomeo">우리를 지원해주세요</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/blog">
+                                <li class="sc-gZMcBi Bomeo">이벤트 블로그</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/about-us">
+                                <li class="sc-gZMcBi Bomeo">우리 팀</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/contact">
+                                <li class="sc-gZMcBi Bomeo">문의하기</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <a class="sc-fjdhpX izNzAG active" aria-current="page" href="/">
+                                <img alt="Nuevo Foundation Logo" class="sc-dnqmqq emolVn"
+                                    src="/images/Logo_long.0f097b90.svg" height="60%" /></a>
+                        </div>
+                        <div class="col-xs-2" onclick="toggleVisibility();"
+                            style="padding-top: 4%; padding-left: 4%; cursor: pointer;">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                                class="svg-inline--fa fa-bars fa-w-14 fa-lg" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/kr/razor/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/kr/razor/">C#: Razor를 사용한 웹 사이트 만들기</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/kr/razor/learn-vscode/" class="dd-item">
+        <div>
+          <a href="/kr/razor/learn-vscode/">
+            Visual Studio Code 알아보기
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/razor/activity-1/" class="dd-item">
+        <div>
+          <a href="/kr/razor/activity-1/">
+            활동 1 - Visual Studio Code 탐색하기
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/razor/activity-2/" class="dd-item">
+        <div>
+          <a href="/kr/razor/activity-2/">
+            활동 2 - Visual Studio Code 확장 프로그램 추가
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/razor/razor-explained/" class="dd-item">
+        <div>
+          <a href="/kr/razor/razor-explained/">
+            Razor 기초1
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/razor/razor-syntax/" class="dd-item active">
+        <div>
+          <a href="/kr/razor/razor-syntax/">
+            Razor 기초2
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/razor/directives/" class="dd-item">
+        <div>
+          <a href="/kr/razor/directives/">
+            Razor 지시문
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/razor/activity-3/" class="dd-item">
+        <div>
+          <a href="/kr/razor/activity-3/">
+            활동 3 - 웹 애플리케이션 만들기
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/razor/activity-4/" class="dd-item">
+        <div>
+          <a href="/kr/razor/activity-4/">
+            활동 4 - 새로운 Razor 페이지 추가
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+    </ul>
+
+    <section>
+    </section>
+  </aside>
+  <section class="page">
+    <div align="right">
+<select id="select-language" onchange="location = this.value;">
+	
+	
+	
+	  
+	  
+	    
+	      
+	        <option id="en" value="/razor/razor-syntax/">English</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="kr" value="/kr/razor/razor-syntax/" selected>한국어</option>
+	      
+	    
+	  
+	    
+	  
+	
+</select>
+    </div>
+
+    <div class="nav-select">
+      항해:&nbsp;
+      <select onchange="javascript:location.href = this.value;">
+        
+<option value="/kr/razor/" >
+   C#: Razor를 사용한 웹 사이트 만들기</option>
+
+<option value="/kr/razor/learn-vscode/" >- Visual Studio Code 알아보기</option>
+<option value="/kr/razor/activity-1/" >- 활동 1 - Visual Studio Code 탐색하기</option>
+<option value="/kr/razor/activity-2/" >- 활동 2 - Visual Studio Code 확장 프로그램 추가</option>
+<option value="/kr/razor/razor-explained/" >- Razor 기초1</option>
+<option value="/kr/razor/razor-syntax/"  selected>- Razor 기초2</option>
+<option value="/kr/razor/directives/" >- Razor 지시문</option>
+<option value="/kr/razor/activity-3/" >- 활동 3 - 웹 애플리케이션 만들기</option>
+<option value="/kr/razor/activity-4/" >- 활동 4 - 새로운 Razor 페이지 추가</option>
+
+
+
+      </select>
+
+    </div>
+    
+
+    <h1>Razor 기초2</h1>
+
+    
+
+    
+
+    
+    
+    
+    
+    <h2 id="razor-구문">Razor 구문</h2>
+<h3 id="razor-구문의-주요-규칙">Razor 구문의 주요 규칙</h3>
+<p>Razor는 C#을 지원하며, HTML에서 C#으로 전환하기 위해 @ 기호를 사용합니다. Razor는 C# 표현식을 평가한 후, 이를 HTML 출력에 렌더링 합니다.</p>
+<p><strong>@ 기호와 Razor 전환</strong></p>
+<ul>
+<li>@ 기호 뒤에 Razor 예약 키워드가 올 경우: Razor 전용 마크업으로 전환됩니다.</li>
+<li>그렇지 않은 경우: 일반 HTML로 간주됩니다.</li>
+</ul>
+<p><strong>@ 기호 이스케이프 처리</strong></p>
+<p>Razor 마크업에서 @ 기호를 출력하려면 한 번 더 @를 사용합니다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#111">p</span><span style="color:#111">&gt;</span><span style="color:#960050;background-color:#1e0010">@</span><span style="color:#111">@Username</span><span style="color:#111">&lt;/</span><span style="color:#111">p</span><span style="color:#111">&gt;</span>
+</span></span></code></pre></div><p>위 코드의 HTML 출력은 다음과 같이 렌더링됩니다:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#111">p</span><span style="color:#111">&gt;</span><span style="color:#111">@Username</span><span style="color:#111">&lt;/</span><span style="color:#111">p</span><span style="color:#111">&gt;</span>
+</span></span></code></pre></div><p>Razor 코드를 작성할 때 기억해야 할 몇 가지 기본 규칙은 다음과 같습니다:</p>
+<ul>
+<li>Razor 코드 블록은 @{ &hellip; }로 감쌉니다.</li>
+<li>인라인 표현식(변수 및 함수)은 @로 시작합니다.</li>
+<li>코드 문(statement)은 세미콜론(;)으로 끝납니다.</li>
+<li>문자열(String)은 큰따옴표(&quot;&quot;)로 감쌉니다.</li>
+<li>C# 코드는 대소문자를 구분(case-sensitive)합니다.</li>
+<li>C# 파일 확장자는 .cshtml 또는 .razor입니다.</li>
+</ul>
+<h4 id="암묵적-razor-표현식">암묵적 Razor 표현식</h4>
+<p>암묵적(Implicit) Razor 표현식은 @로 시작하며 뒤에 C# 코드가 옵니다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#111">p</span><span style="color:#111">&gt;</span><span style="color:#111">@DateTime</span><span style="color:#111">.</span><span style="color:#111">Now</span><span style="color:#111">&lt;/</span><span style="color:#111">p</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#111">p</span><span style="color:#111">&gt;</span><span style="color:#111">@DateTime</span><span style="color:#111">.</span><span style="color:#111">IsLeapYear</span><span style="color:#111">(</span><span style="color:#ae81ff">2016</span><span style="color:#111">)&lt;/</span><span style="color:#111">p</span><span style="color:#111">&gt;</span>
+</span></span></code></pre></div><p>C#<code> await</code> 키워드를 제외하고는 암묵적 표현식에는 공백을 포함할 수 없습니다.</p>
+<p>C# 제네릭(Generic)은 사용할 수 없습니다. (<code>&lt; &gt;</code>) 안의 문자가 HTML 태그로 해석되기 때문입니다.</p>
+<h4 id="명시적-razor-표현식">명시적 Razor 표현식</h4>
+<p>명시적(Explicit) Razor 표현식은 @ 뒤에 괄호로 감싼 표현식을 사용합니다. 예를 들어, 지난주 같은 시간의 시간을 렌더링하려면 다음과 같은 Razor 마크업을 사용할 수 있습니다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#111">p</span><span style="color:#111">&gt;</span><span style="color:#111">Last</span> <span style="color:#111">week</span> <span style="color:#00a8c8">this</span> <span style="color:#111">time</span><span style="color:#111">:</span> <span style="color:#960050;background-color:#1e0010">@</span><span style="color:#111">(</span><span style="color:#111">DateTime</span><span style="color:#111">.</span><span style="color:#111">Now</span> <span style="color:#111">-</span> <span style="color:#111">TimeSpan</span><span style="color:#111">.</span><span style="color:#111">FromDays</span><span style="color:#111">(</span><span style="color:#ae81ff">7</span><span style="color:#111">))&lt;/</span><span style="color:#111">p</span><span style="color:#111">&gt;</span>
+</span></span></code></pre></div><p>괄호 안의 모든 내용은 평가된 후 출력됩니다. 명시적 표현식을 사용하면 텍스트와 표현식 결과를 연결할 수도 있습니다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">@</span><span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">var</span> <span style="color:#111">joe</span> <span style="color:#111">=</span> <span style="color:#00a8c8">new</span> <span style="color:#111">Person</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Joe&#34;</span><span style="color:#111">,</span> <span style="color:#ae81ff">33</span><span style="color:#111">);</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#111">p</span><span style="color:#111">&gt;</span><span style="color:#111">Age</span><span style="color:#960050;background-color:#1e0010">@</span><span style="color:#111">(</span><span style="color:#111">joe</span><span style="color:#111">.</span><span style="color:#111">Age</span><span style="color:#111">)&lt;/</span><span style="color:#111">p</span><span style="color:#111">&gt;</span>
+</span></span></code></pre></div><p>주의할 점:</p>
+<ul>
+<li>명시적 표현식 없이 작성된 경우: <code>&lt;p&gt;Age@joe.Age&lt;/p&gt;</code>는 이메일 주소처럼 처리되어 <code>&lt;p&gt;Age@joe.Age&lt;/p&gt;</code>로 렌더링됩니다.</li>
+<li>명시적 표현식을 사용하면: <code>&lt;p&gt;Age33&lt;/p&gt;</code>로 렌더링됩니다.</li>
+</ul>
+<h4 id="razor-코드-블록">Razor 코드 블록</h4>
+<p>Razor 코드 블록은 @로 시작하며 { }로 감쌉니다. 표현식과는 달리, 코드 블록 내부의 C# 코드는 렌더링되지 않습니다. 뷰(View)에서 코드 블록과 표현식은 동일한 스코프(Scope)를 공유하며, 정의된 순서대로 실행됩니다. 코드 블록에서는 로컬 함수(Local Function)를 선언하고, 마크업과 함께 이를 템플릿 메서드로 사용할 수 있습니다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">@</span><span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">void</span> <span style="color:#111">RenderName</span><span style="color:#111">(</span><span style="color:#00a8c8">string</span> <span style="color:#111">name</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#111">&lt;</span><span style="color:#111">p</span><span style="color:#111">&gt;</span><span style="color:#111">Name</span><span style="color:#111">:</span> <span style="color:#111">&lt;</span><span style="color:#111">strong</span><span style="color:#111">&gt;</span><span style="color:#111">@name</span><span style="color:#111">&lt;/</span><span style="color:#111">strong</span><span style="color:#111">&gt;&lt;/</span><span style="color:#111">p</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">RenderName</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Mahatma Gandhi&#34;</span><span style="color:#111">);</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">RenderName</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Martin Luther King, Jr.&#34;</span><span style="color:#111">);</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span></code></pre></div><p>다음 Razor 코드는 아래와 같은 HTML로 렌더링됩니다:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#f92672">p</span><span style="color:#111">&gt;</span>Name: <span style="color:#111">&lt;</span><span style="color:#f92672">strong</span><span style="color:#111">&gt;</span>Mahatma Gandhi<span style="color:#111">&lt;/</span><span style="color:#f92672">strong</span><span style="color:#111">&gt;&lt;/</span><span style="color:#f92672">p</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#f92672">p</span><span style="color:#111">&gt;</span>Name: <span style="color:#111">&lt;</span><span style="color:#f92672">strong</span><span style="color:#111">&gt;</span>Martin Luther King, Jr.<span style="color:#111">&lt;/</span><span style="color:#f92672">strong</span><span style="color:#111">&gt;&lt;/</span><span style="color:#f92672">p</span><span style="color:#111">&gt;</span>
+</span></span></code></pre></div><h4 id="조건부-속성-렌더링">조건부 속성 렌더링</h4>
+<p>Razor는 필요하지 않은 속성을 자동으로 생략합니다. 전달된 값이 null이거나 false인 경우 해당 속성은 렌더링되지 않습니다.</p>
+<p>예를 들어, 아래의 Razor 코드를 살펴보세요:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#111">div</span> <span style="color:#111">class</span><span style="color:#111">=</span><span style="color:#d88200">&#34;@false&#34;</span><span style="color:#111">&gt;</span><span style="color:#111">False</span><span style="color:#111">&lt;/</span><span style="color:#111">div</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#111">div</span> <span style="color:#111">class</span><span style="color:#111">=</span><span style="color:#d88200">&#34;@null&#34;</span><span style="color:#111">&gt;</span><span style="color:#111">Null</span><span style="color:#111">&lt;/</span><span style="color:#111">div</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#111">div</span> <span style="color:#111">class</span><span style="color:#111">=</span><span style="color:#d88200">&#34;@(&#34;&#34;)&#34;</span><span style="color:#111">&gt;</span><span style="color:#111">Empty</span><span style="color:#111">&lt;/</span><span style="color:#111">div</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#111">div</span> <span style="color:#111">class</span><span style="color:#111">=</span><span style="color:#d88200">&#34;@(&#34;</span><span style="color:#00a8c8">false</span><span style="color:#d88200">&#34;)&#34;</span><span style="color:#111">&gt;</span><span style="color:#111">False</span> <span style="color:#111">String</span><span style="color:#111">&lt;/</span><span style="color:#111">div</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#111">div</span> <span style="color:#111">class</span><span style="color:#111">=</span><span style="color:#d88200">&#34;@(&#34;</span><span style="color:#111">active</span><span style="color:#d88200">&#34;)&#34;</span><span style="color:#111">&gt;</span><span style="color:#111">String</span><span style="color:#111">&lt;/</span><span style="color:#111">div</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#111">input</span> <span style="color:#111">type</span><span style="color:#111">=</span><span style="color:#d88200">&#34;checkbox&#34;</span> <span style="color:#00a8c8">checked</span><span style="color:#111">=</span><span style="color:#d88200">&#34;@true&#34;</span> <span style="color:#111">name</span><span style="color:#111">=</span><span style="color:#d88200">&#34;true&#34;</span> <span style="color:#111">/&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#111">input</span> <span style="color:#111">type</span><span style="color:#111">=</span><span style="color:#d88200">&#34;checkbox&#34;</span> <span style="color:#00a8c8">checked</span><span style="color:#111">=</span><span style="color:#d88200">&#34;@false&#34;</span> <span style="color:#111">name</span><span style="color:#111">=</span><span style="color:#d88200">&#34;false&#34;</span> <span style="color:#111">/&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#111">input</span> <span style="color:#111">type</span><span style="color:#111">=</span><span style="color:#d88200">&#34;checkbox&#34;</span> <span style="color:#00a8c8">checked</span><span style="color:#111">=</span><span style="color:#d88200">&#34;@null&#34;</span> <span style="color:#111">name</span><span style="color:#111">=</span><span style="color:#d88200">&#34;null&#34;</span> <span style="color:#111">/&gt;</span>
+</span></span></code></pre></div><p>이 Razor 마크업은 다음과 같은 HTML을 생성합니다:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#f92672">div</span><span style="color:#111">&gt;</span>False<span style="color:#111">&lt;/</span><span style="color:#f92672">div</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#f92672">div</span><span style="color:#111">&gt;</span>Null<span style="color:#111">&lt;/</span><span style="color:#f92672">div</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#f92672">div</span> <span style="color:#75af00">class</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;&#34;</span><span style="color:#111">&gt;</span>Empty<span style="color:#111">&lt;/</span><span style="color:#f92672">div</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#f92672">div</span> <span style="color:#75af00">class</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;false&#34;</span><span style="color:#111">&gt;</span>False String<span style="color:#111">&lt;/</span><span style="color:#f92672">div</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#f92672">div</span> <span style="color:#75af00">class</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;active&#34;</span><span style="color:#111">&gt;</span>String<span style="color:#111">&lt;/</span><span style="color:#f92672">div</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#f92672">input</span> <span style="color:#75af00">type</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;checkbox&#34;</span> <span style="color:#75af00">checked</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;checked&#34;</span> <span style="color:#75af00">name</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;true&#34;</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#f92672">input</span> <span style="color:#75af00">type</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;checkbox&#34;</span> <span style="color:#75af00">name</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;false&#34;</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#f92672">input</span> <span style="color:#75af00">type</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;checkbox&#34;</span> <span style="color:#75af00">name</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;null&#34;</span><span style="color:#111">&gt;</span>
+</span></span></code></pre></div><h3 id="객체와-함께-작업하기">객체와 함께 작업하기</h3>
+<p>서버 코딩은 종종 객체(Object)와 관련됩니다.</p>
+<p>DateTime 객체는 ASP.NET에 내장된 대표적인 객체이지만, 객체는 웹 페이지, 텍스트 상자, 파일, 데이터베이스 레코드 등을 설명하기 위해 사용자 정의로 생성될 수도 있습니다. 객체는 수행할 수 있는 메서드(Method)를 가질 수 있습니다.</p>
+<p>예를 들어:</p>
+<ul>
+<li>데이터베이스 레코드 객체에는 Save 메서드가 있을 수 있습니다.</li>
+<li>이미지 객체에는 Rotate 메서드가 있을 수 있습니다.</li>
+<li>이메일 객체에는 Send 메서드가 있을 수 있습니다.</li>
+</ul>
+<p>객체는 특성을 설명하는 속성(Property)도 가질 수 있습니다.</p>
+<p>예를 들어:</p>
+<ul>
+<li>데이터베이스 레코드 객체는 FirstName과 LastName 속성을 가질 수 있습니다.</li>
+</ul>
+<p>ASP.NET의 DateTime 객체는 Now라는 속성을 가지고 있습니다(DateTime.Now로 작성). Now 속성은 Day라는 하위 속성도 가집니다(DateTime.Now.Day로 작성). 아래 예제는 DateTime 객체의 일부 속성에 접근하는 방법을 보여줍니다:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#f92672">table</span> <span style="color:#75af00">border</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;1&#34;</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#f92672">tr</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#f92672">th</span> <span style="color:#75af00">width</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;100px&#34;</span><span style="color:#111">&gt;</span>Name<span style="color:#111">&lt;/</span><span style="color:#f92672">th</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#f92672">td</span> <span style="color:#75af00">width</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;100px&#34;</span><span style="color:#111">&gt;</span>Value<span style="color:#111">&lt;/</span><span style="color:#f92672">td</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;/</span><span style="color:#f92672">tr</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#f92672">tr</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#f92672">td</span><span style="color:#111">&gt;</span>Day<span style="color:#111">&lt;/</span><span style="color:#f92672">td</span><span style="color:#111">&gt;&lt;</span><span style="color:#f92672">td</span><span style="color:#111">&gt;</span>@DateTime.Now.Day<span style="color:#111">&lt;/</span><span style="color:#f92672">td</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;/</span><span style="color:#f92672">tr</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#f92672">tr</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#f92672">td</span><span style="color:#111">&gt;</span>Hour<span style="color:#111">&lt;/</span><span style="color:#f92672">td</span><span style="color:#111">&gt;&lt;</span><span style="color:#f92672">td</span><span style="color:#111">&gt;</span>@DateTime.Now.Hour<span style="color:#111">&lt;/</span><span style="color:#f92672">td</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;/</span><span style="color:#f92672">tr</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#f92672">tr</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#f92672">td</span><span style="color:#111">&gt;</span>Minute<span style="color:#111">&lt;/</span><span style="color:#f92672">td</span><span style="color:#111">&gt;&lt;</span><span style="color:#f92672">td</span><span style="color:#111">&gt;</span>@DateTime.Now.Minute<span style="color:#111">&lt;/</span><span style="color:#f92672">td</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;/</span><span style="color:#f92672">tr</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#f92672">tr</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#f92672">td</span><span style="color:#111">&gt;</span>Second<span style="color:#111">&lt;/</span><span style="color:#f92672">td</span><span style="color:#111">&gt;&lt;</span><span style="color:#f92672">td</span><span style="color:#111">&gt;</span>@DateTime.Now.Second<span style="color:#111">&lt;/</span><span style="color:#f92672">td</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;/</span><span style="color:#f92672">tr</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;/</span><span style="color:#f92672">td</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;/</span><span style="color:#f92672">table</span><span style="color:#111">&gt;</span>
+</span></span></code></pre></div><h3 id="제어-구조">제어 구조</h3>
+<p>제어 구조는 코드 블록의 확장 형태입니다. 코드 블록의 모든 특성(마크업으로의 전환, 인라인 C# 등)이 다음 구조에도 적용됩니다:</p>
+<h4 id="조건문conditionals-if-else-if-else-그리고-switch">조건문(Conditionals) <code>@if, else if, else, 그리고 @switch</code></h4>
+<p><code>@if</code>는 코드 실행 여부를 제어합니다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#111">@if</span> <span style="color:#111">(</span><span style="color:#00a8c8">value</span> <span style="color:#111">%</span> <span style="color:#ae81ff">2</span> <span style="color:#111">==</span> <span style="color:#ae81ff">0</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">&lt;</span><span style="color:#111">p</span><span style="color:#111">&gt;</span><span style="color:#111">The</span> <span style="color:#00a8c8">value</span> <span style="color:#111">was</span> <span style="color:#111">even</span><span style="color:#111">.&lt;/</span><span style="color:#111">p</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span></code></pre></div><p><code>else</code>와 <code>else if</code>는 @ 기호를 필요로 하지 않습니다.`</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#111">@if</span> <span style="color:#111">(</span><span style="color:#00a8c8">value</span> <span style="color:#111">%</span> <span style="color:#ae81ff">2</span> <span style="color:#111">==</span> <span style="color:#ae81ff">0</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">&lt;</span><span style="color:#111">p</span><span style="color:#111">&gt;</span><span style="color:#111">The</span> <span style="color:#00a8c8">value</span> <span style="color:#111">was</span> <span style="color:#111">even</span><span style="color:#111">.&lt;/</span><span style="color:#111">p</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">else</span> <span style="color:#00a8c8">if</span> <span style="color:#111">(</span><span style="color:#00a8c8">value</span> <span style="color:#111">&gt;=</span> <span style="color:#ae81ff">9876</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">&lt;</span><span style="color:#111">p</span><span style="color:#111">&gt;</span><span style="color:#111">The</span> <span style="color:#00a8c8">value</span> <span style="color:#00a8c8">is</span> <span style="color:#111">large</span><span style="color:#111">.&lt;/</span><span style="color:#111">p</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">else</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">&lt;</span><span style="color:#111">p</span><span style="color:#111">&gt;</span><span style="color:#111">The</span> <span style="color:#00a8c8">value</span> <span style="color:#00a8c8">is</span> <span style="color:#111">odd</span> <span style="color:#111">and</span> <span style="color:#111">small</span><span style="color:#111">.&lt;/</span><span style="color:#111">p</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span></code></pre></div><p>아래 마크업은 switch 문을 사용하는 방법을 보여줍니다:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#111">@switch</span> <span style="color:#111">(</span><span style="color:#00a8c8">value</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">case</span> <span style="color:#ae81ff">1</span><span style="color:#111">:</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#111">&lt;</span><span style="color:#111">p</span><span style="color:#111">&gt;</span><span style="color:#111">The</span> <span style="color:#00a8c8">value</span> <span style="color:#00a8c8">is</span> <span style="color:#ae81ff">1</span><span style="color:#111">!&lt;/</span><span style="color:#111">p</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#00a8c8">break</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">case</span> <span style="color:#ae81ff">9876</span><span style="color:#111">:</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#111">&lt;</span><span style="color:#111">p</span><span style="color:#111">&gt;</span><span style="color:#111">Your</span> <span style="color:#111">number</span> <span style="color:#00a8c8">is</span> <span style="color:#ae81ff">9876</span><span style="color:#111">!&lt;/</span><span style="color:#111">p</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#00a8c8">break</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">default</span><span style="color:#111">:</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#111">&lt;</span><span style="color:#111">p</span><span style="color:#111">&gt;</span><span style="color:#111">Your</span> <span style="color:#111">number</span> <span style="color:#111">wasn</span><span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#111">t</span> <span style="color:#ae81ff">1</span> <span style="color:#111">or</span> <span style="color:#ae81ff">9876.</span><span style="color:#111">&lt;/</span><span style="color:#111">p</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#00a8c8">break</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span></code></pre></div><h4 id="반복문-for-foreach-while-do-while">반복문 <code>@for, @foreach, @while, @do while</code></h4>
+<p>반복 제어문을 사용하여 템플릿 HTML을 렌더링할 수 있습니다. 예를 들어, 사람들의 목록을 렌더링하려면 다음과 같이 작성할 수 있습니다:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">@</span><span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">var</span> <span style="color:#111">people</span> <span style="color:#111">=</span> <span style="color:#00a8c8">new</span> <span style="color:#111">Person</span><span style="color:#111">[]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#00a8c8">new</span> <span style="color:#111">Person</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Jade&#34;</span><span style="color:#111">,</span> <span style="color:#ae81ff">31</span><span style="color:#111">),</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#00a8c8">new</span> <span style="color:#111">Person</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Maxwell&#34;</span><span style="color:#111">,</span> <span style="color:#ae81ff">29</span><span style="color:#111">),</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#111">...</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">};</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span></code></pre></div><p>지원되는 반복문은 다음과 같습니다:</p>
+<p><code>@for</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#111">@for</span> <span style="color:#111">(</span><span style="color:#00a8c8">var</span> <span style="color:#111">i</span> <span style="color:#111">=</span> <span style="color:#ae81ff">0</span><span style="color:#111">;</span> <span style="color:#111">i</span> <span style="color:#111">&lt;</span> <span style="color:#111">people</span><span style="color:#111">.</span><span style="color:#111">Length</span><span style="color:#111">;</span> <span style="color:#111">i</span><span style="color:#111">++)</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">var</span> <span style="color:#111">person</span> <span style="color:#111">=</span> <span style="color:#111">people</span><span style="color:#111">[</span><span style="color:#111">i</span><span style="color:#111">];</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">&lt;</span><span style="color:#111">p</span><span style="color:#111">&gt;</span><span style="color:#111">Name</span><span style="color:#111">:</span> <span style="color:#111">@person</span><span style="color:#111">.</span><span style="color:#111">Name</span><span style="color:#111">&lt;/</span><span style="color:#111">p</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">&lt;</span><span style="color:#111">p</span><span style="color:#111">&gt;</span><span style="color:#111">Age</span><span style="color:#111">:</span> <span style="color:#111">@person</span><span style="color:#111">.</span><span style="color:#111">Age</span><span style="color:#111">&lt;/</span><span style="color:#111">p</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span></code></pre></div><p><code>@foreach</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#111">@foreach</span> <span style="color:#111">(</span><span style="color:#00a8c8">var</span> <span style="color:#111">person</span> <span style="color:#00a8c8">in</span> <span style="color:#111">people</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">&lt;</span><span style="color:#111">p</span><span style="color:#111">&gt;</span><span style="color:#111">Name</span><span style="color:#111">:</span> <span style="color:#111">@person</span><span style="color:#111">.</span><span style="color:#111">Name</span><span style="color:#111">&lt;/</span><span style="color:#111">p</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">&lt;</span><span style="color:#111">p</span><span style="color:#111">&gt;</span><span style="color:#111">Age</span><span style="color:#111">:</span> <span style="color:#111">@person</span><span style="color:#111">.</span><span style="color:#111">Age</span><span style="color:#111">&lt;/</span><span style="color:#111">p</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span></code></pre></div><p><code>@while</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">@</span><span style="color:#111">{</span> <span style="color:#00a8c8">var</span> <span style="color:#111">i</span> <span style="color:#111">=</span> <span style="color:#ae81ff">0</span><span style="color:#111">;</span> <span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">@while</span> <span style="color:#111">(</span><span style="color:#111">i</span> <span style="color:#111">&lt;</span> <span style="color:#111">people</span><span style="color:#111">.</span><span style="color:#111">Length</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">var</span> <span style="color:#111">person</span> <span style="color:#111">=</span> <span style="color:#111">people</span><span style="color:#111">[</span><span style="color:#111">i</span><span style="color:#111">];</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">&lt;</span><span style="color:#111">p</span><span style="color:#111">&gt;</span><span style="color:#111">Name</span><span style="color:#111">:</span> <span style="color:#111">@person</span><span style="color:#111">.</span><span style="color:#111">Name</span><span style="color:#111">&lt;/</span><span style="color:#111">p</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">&lt;</span><span style="color:#111">p</span><span style="color:#111">&gt;</span><span style="color:#111">Age</span><span style="color:#111">:</span> <span style="color:#111">@person</span><span style="color:#111">.</span><span style="color:#111">Age</span><span style="color:#111">&lt;/</span><span style="color:#111">p</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">i</span><span style="color:#111">++;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span></code></pre></div><p><code>@do while</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">@</span><span style="color:#111">{</span> <span style="color:#00a8c8">var</span> <span style="color:#111">i</span> <span style="color:#111">=</span> <span style="color:#ae81ff">0</span><span style="color:#111">;</span> <span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">@do</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">var</span> <span style="color:#111">person</span> <span style="color:#111">=</span> <span style="color:#111">people</span><span style="color:#111">[</span><span style="color:#111">i</span><span style="color:#111">];</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">&lt;</span><span style="color:#111">p</span><span style="color:#111">&gt;</span><span style="color:#111">Name</span><span style="color:#111">:</span> <span style="color:#111">@person</span><span style="color:#111">.</span><span style="color:#111">Name</span><span style="color:#111">&lt;/</span><span style="color:#111">p</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">&lt;</span><span style="color:#111">p</span><span style="color:#111">&gt;</span><span style="color:#111">Age</span><span style="color:#111">:</span> <span style="color:#111">@person</span><span style="color:#111">.</span><span style="color:#111">Age</span><span style="color:#111">&lt;/</span><span style="color:#111">p</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">i</span><span style="color:#111">++;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span> <span style="color:#00a8c8">while</span> <span style="color:#111">(</span><span style="color:#111">i</span> <span style="color:#111">&lt;</span> <span style="color:#111">people</span><span style="color:#111">.</span><span style="color:#111">Length</span><span style="color:#111">);</span>
+</span></span></code></pre></div>
+
+    
+    
+      <div class="chevrons">
+  <style>
+    .workshop-complete-image {
+        margin: 40px auto 50px auto;
+        width: 340.8px;
+    }
+    
+    .workshop-complete-words {
+        font-family: Space Mono, monospace;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        text-align: center;
+    }
+    
+    .horizontal-bar {
+        background-color: #000000;
+        width: 120px;
+        height: 12px;
+        margin: 80px auto 0 auto;
+    }
+</style>
+
+
+    <div id="navigation">
+            <div class="next-prev-wrapper-div"><a class='nav nav-prev' href="/kr/razor/razor-explained/" title="Razor 기초1">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                이전의:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Razor 기초1
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="prevbutton-image">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+        
+    </div>
+</a></div>
+            <div class="next-prev-wrapper-div"><a class='nav nav-next' href="/kr/razor/directives/" title="Razor 지시문">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                다음:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Razor 지시문
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="nextbutton-image">
+            <i class="fa fa-arrow-right"></i>
+        </div>
+        
+    </div>
+</a></div>
+        </div>
+</div>
+
+</section>
+</article>
+
+<footer>
+  <div class="footline">
+    
+
+    
+
+    
+    <div class="date">
+      <i class='fa fa-calendar'></i> 
+      Tue, 12 Sep 2023 11:45:38 PDT
+    </div>
+    
+
+    
+    <div class="github-link">
+      <a href="https://github.com/NuevoFoundation/workshops/tree/master/content/razor/razor-syntax.md" target="blank"><i
+          class="fa fa-code-fork"></i>
+        </a>
+    </div>
+    
+  </div>
+
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+    
+
+    
+    
+
+    <div id="footer" class="row">
+    <div class="col-xs-12">
+        <div class="App-footer">
+            <div class="App-footer-big">
+                소셜 미디어에서 대화에 참여하세요.
+            </div>
+            <div class="social-images">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Instagram" class="fab fa-2x fa-instagram"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation X" class="fab fa-2x fa-x-twitter"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Facebook" class="fab fa-2x fa-1x fa-facebook-f"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-2x fa-linkedin"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/nuevofoundation?sub_confirmation=1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation YouTube" class="fab fa-2x fa-youtube"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Spotify" class="fab fa-2x fa-spotify"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Github" class="fab fa-2x fa-github"></i>
+                </a>
+            </div>
+            <div class="App-footer-small">
+                © 저작권 2025, 모든 권리는 501(c)(3) 비영리 단체인 Nuevo Foundation에 있습니다.
+            </div>
+        </div>
+    </div>
+</div>
+
+  </body>
+</html>

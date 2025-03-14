@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Activity 11: Learn the GROUP BY command on Nuevo Foundation Workshops</title>
+    <link>/sql_workshop/activity11/</link>
+    <description>Recent content in Activity 11: Learn the GROUP BY command on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="/sql_workshop/activity11/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

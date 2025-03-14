@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HTML &amp; CSS: Fundamentos de Web on Nuevo Foundation Workshops</title>
+    <link>/pt-br/web-basics/</link>
+    <description>Recent content in HTML &amp; CSS: Fundamentos de Web on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Sat, 28 Mar 2020 12:53:41 -0700</lastBuildDate>
+    <atom:link href="/pt-br/web-basics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Noções básicas</title>
+      <link>/pt-br/web-basics/basics/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      <guid>/pt-br/web-basics/basics/</guid>
+      <description>&lt;h2 id=&#34;o-que-é-um-site&#34;&gt;O que é um site?&lt;/h2&gt;&#xA;&lt;p&gt;Um site é apenas uma página que pode ser encontrada na Internet. Ele é exibido por meio de um navegador quando você digita o endereço (também conhecido como unique name) na barra de endereço.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://1mtvya.dm.files.1drv.com/y4mqBcdQfTi7DP7Pk8U1Yu86e9ObVoogX4E9bB_jcTLAm5HVJpHgKWm6xeBpo_22xqLBgUwewOMcGKwEKFp9LHgFGgIcA2E-7W1XWmFqR3fkD04AQXAZFMxZxJdqqBlPvqrIs7rh_XEJRwpQc0eoRTERgI2gIJ_yR6jlCjz5Xer_oLWcVGTo12DUg-WTB5jM77hz4nbHirbMyufs6NQ60EIrg?width=660&amp;amp;height=521&amp;amp;cropmode=none&#34; alt=&#34;texto alternativo&#34; title=&#34;gráfico do navegador da web&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;partes-de-um-site&#34;&gt;Partes de um site&lt;/h3&gt;&#xA;&lt;p&gt;Os elementos comuns do site incluem barras de navegação, rodapés, barras de pesquisa e formulários de contato.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../media/website-parts.PNG&#34; alt=&#34;texto alternativo&#34; title=&#34;elementos de um site no spotify&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Juntando as peças</title>
+      <link>/pt-br/web-basics/putting-together/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      <guid>/pt-br/web-basics/putting-together/</guid>
+      <description>&lt;p&gt;Para que seu navegador entenda o que é cada elemento do seu site, precisamos rotulá-los com tags HTML. HTML significa &lt;code&gt;Linguagem de marcação de hipertexto&lt;/code&gt;. Tags são palavras rodeadas pelos símbolos &lt;code&gt;&amp;lt;&lt;/code&gt;e&lt;code&gt;&amp;gt;&lt;/code&gt;. Por exemplo, a tag &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; informa ao seu navegador “isto é uma imagem”. A tag &lt;code&gt;&amp;lt;button&amp;gt;&lt;/code&gt; informa “este é um botão”.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../media/web-tags-sm.png&#34; alt=&#34;texto alternativo&#34; title=&#34;gráfico de tags html&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Tags também podem ser usadas para organizar sua página da web! A imagem abaixo descreve a estrutura de uma página da web básica. O cabeçalho geralmente contém as bibliotecas adicionais usadas e o título da página, enquanto o corpo contém a maior parte do conteúdo exibido.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Atividade 1 – Familiarize-se com o editor online</title>
+      <link>/pt-br/web-basics/activity-1/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      <guid>/pt-br/web-basics/activity-1/</guid>
+      <description>&lt;h2 id=&#34;atividade-1--criando-um-site-básico&#34;&gt;Atividade 1 – Criando um site básico&lt;/h2&gt;&#xA;&lt;p&gt;Agora é hora de começar a construir um site básico. Para concluir esta atividade, você precisará concluir as seguintes etapas:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Abra o editor web (clique no botão &amp;ldquo;Try it yourself!&amp;rdquo; abaixo)&lt;/li&gt;&#xA;&lt;li&gt;Use as tags de cabeçalho para adicionar um título e as tags de parágrafo para escrever um parágrafo sobre Benji&lt;/li&gt;&#xA;&lt;li&gt;Se tiver tempo: escreva uma lista das guloseimas favoritas de Benji: peru, manteiga de amendoim e queijo ralado&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;a class=&#34;my-2 mx-4 btn btn-info&#34; href=&#34;https://codepen.io/Sunny-Dee/pen/exxyYL&#34; target=&#34;_blank&#34;&gt;Try it yourself!&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Atributos HTML</title>
+      <link>/pt-br/web-basics/html-attributes/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      <guid>/pt-br/web-basics/html-attributes/</guid>
+      <description>&lt;p&gt;Cada tag também pode ter informações adicionais, como atributos de estilo, que podem alterar as propriedades de um elemento. Existem atributos que podemos usar para alterar a aparência visual de um elemento, como tamanho, cor e fonte do texto.&lt;/p&gt;&#xA;&lt;p&gt;Todos os atributos são formatados como: &lt;code&gt;attribute-name=&amp;quot;valor entre aspas&amp;quot;&lt;/code&gt;. Por exemplo, podemos mudar a cor de um parágrafo para vermelho com este código: &lt;code&gt;&amp;lt;p style=&amp;quot;color:red&amp;quot;&amp;gt;Este texto é vermelho&amp;lt;/p&amp;gt;&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;As tags de imagem precisam de uma fonte, então precisamos de um atributo dentro da tag para informar ao navegador de onde obter a imagem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Atividade 2 - CSS</title>
+      <link>/pt-br/web-basics/activity-2/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      <guid>/pt-br/web-basics/activity-2/</guid>
+      <description>&lt;h2 id=&#34;estilize-o-com-css&#34;&gt;Estilize-o com CSS&lt;/h2&gt;&#xA;&lt;p&gt;As tags informam ao navegador quais elementos do site usar. Mas também precisamos dizer como exibir os elementos e onde colocá-los. Podemos querer o título no centro ou no lado direito. Podemos querer uma imagem à direita e um parágrafo à esquerda. Existem duas maneiras de fazer isso: através de atributos HTML ou &lt;code&gt;Cascading Style Sheets&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;folhas-em-estilo-cascata-css&#34;&gt;Folhas em estilo cascata (CSS)&lt;/h2&gt;&#xA;&lt;p&gt;Os atributos HTML são simples, mas podem ficar confusos rapidamente. Se quisermos estilizar muito, cada elemento HTML pode se tornar longo e difícil de ler. Além disso, e se quisermos estilizar muitos elementos da mesma maneira? Teríamos que copiar todos os atributos de cada elemento, o que não é eficiente e sujeito a erros. Para a maioria dos estilos, é melhor usar CSS.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Media Elements</title>
+      <link>/pt-br/web-basics/media-elements/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      <guid>/pt-br/web-basics/media-elements/</guid>
+      <description>&lt;h2 id=&#34;adicionar-um-gif&#34;&gt;Adicionar um GIF&lt;/h2&gt;&#xA;&lt;p&gt;GIF significa &lt;b&gt;Graphic Interchange Format&lt;/b&gt;, mas tudo que você precisa saber é que é apenas outro tipo de arquivo de imagem. A única diferença é que o arquivo contém muitas imagens. Quando exibidas no navegador, as imagens são reproduzidas em sequência, semelhante aos frames de um filme. Pense nisso como um daqueles flip books que parecem ter uma imagem animada quando você o vira.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../media/flipbook.gif&#34; alt=&#34;texto alternativo&#34; title=&#34;gif de um flipbook&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Atividade 3 - Adicionando um GIF do Nuvi</title>
+      <link>/pt-br/web-basics/activity-3/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      <guid>/pt-br/web-basics/activity-3/</guid>
+      <description>&lt;p&gt;Para concluir esta atividade, você precisará concluir as seguintes etapas:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://giphy.com/nuevofoundation&#34; target=&#34;_blank&#34;&gt;Siga este link&lt;/a&gt; para ver os GIFs disponíveis&lt;/li&gt;&#xA;&lt;li&gt;Clique naquele que você gosta e selecione &amp;ldquo;Incorporar&amp;rdquo; &lt;br&gt;&#xA;&lt;img src=&#34;../media/nuevo-.png&#34;/&gt;&lt;/li&gt;&#xA;&lt;li&gt;Copie o código da caixa branca abaixo de &amp;ldquo;Código de incorporação GIF&amp;rdquo;&lt;br&gt;&#xA;&lt;img src=&#34;../media/giphy-embed-instruction.PNG&#34; /&gt;&lt;/li&gt;&#xA;&lt;li&gt;Cole o código em qualquer lugar da sua página, desde que esteja dentro das tags &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt;.&lt;br&gt;&#xA;&lt;img src=&#34;https://qyauda.dm.files.1drv.com/y4mWCkifMfvdIaCqGW09zaPjD40e01lWkslVcULewSkHTta3krUbVk_9gF0un3CRjC7OZV_kee2RVhYze2QWcTuB9QJdjFCa_ODpEO4tcmELYwxy 3cVRtswz3IeVyX6R9CuT9hLlbajdX7y0zm9otMQ2M5Ejq81FSaRAnXdK0KMNAPq_QdzEhOuiuHlKleDGFQdYjtx7nKiayg2HSUuq16n0w?largura=419&amp;altura=228&amp;modo de corte=nenhum&#34; /&gt;&#xA;&lt;a class=&#34;my-2 mx-4 btn btn-info&#34; href=&#34;https://codepen.io/Sunny-Dee/pen/moqzmP&#34; target=&#34;_blank&#34;&gt;Tente você mesmo!&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>Atividade 4 – Experimente o formulário e mude o estilo</title>
+      <link>/pt-br/web-basics/activity-4/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      <guid>/pt-br/web-basics/activity-4/</guid>
+      <description>&lt;h2 id=&#34;adicionando-um-formulário-de-contato&#34;&gt;Adicionando um formulário de contato&lt;/h2&gt;&#xA;&lt;p&gt;Por fim, adicionaremos um formulário de contato para que as pessoas entrem em contato conosco caso estejam interessadas em Benji.&lt;/p&gt;&#xA;&lt;p&gt;A maioria dos navegadores não oferece suporte ao envio de e-mails diretamente do formulário de contato porque é uma maneira fácil para os criadores de problemas enviarem spam aos usuários. Spam é uma mensagem irrelevante ou inadequada enviada pela Internet. Portanto, para enviar um formulário, utilizaremos um serviço gratuito chamado &lt;a href=&#34;https://formspree.io/&#34; target=&#34;_blank&#34;&gt;FormSpree&lt;sup&gt;&lt;span class=&#34;glyphicon glyphicon-new-window&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/sup&gt;&lt;/a&gt;&#xD;&#xA;. Se quisermos que as mensagens do formulário de contato cheguem ao nosso e-mail, primeiro precisaremos confirmá-lo com o FormSpree. Esse método de confirmação evita que malfeitores simplesmente coloquem o e-mail de alguém em um formulário de contato e enviem spam para a vítima.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Atividade 4 - O exercício final</title>
+      <link>/pt-br/web-basics/activity-5/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      <guid>/pt-br/web-basics/activity-5/</guid>
+      <description>&lt;p&gt;Usando o que você aprendeu, vamos tentar criar um site que descreva você! Experimente usar alguns ou todos os seguintes:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Uma tag de título e parágrafo&lt;/li&gt;&#xA;&lt;li&gt;Fontes diferentes&lt;/li&gt;&#xA;&lt;li&gt;Cores diferentes&lt;/li&gt;&#xA;&lt;li&gt;Adicione uma imagem ao seu site&lt;/li&gt;&#xA;&lt;li&gt;Uma lista&lt;/li&gt;&#xA;&lt;li&gt;Incorpore um GIF ou vídeo&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;a class=&#34;my-2 mx-4 btn btn-info&#34; href=&#34;https://codepen.io/Sunny-Dee/pen/qvVJLE&#34; target=&#34;_blank&#34;&gt;Mostre seu Estilo!&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hospedar seu site</title>
+      <link>/pt-br/web-basics/hosting/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      <guid>/pt-br/web-basics/hosting/</guid>
+      <description>&lt;h2 id=&#34;hospede-seu-site-na-internet&#34;&gt;Hospede seu site na internet!&lt;/h2&gt;&#xA;&lt;p&gt;Agora que você criou seu site pessoal, vamos hospedá-lo na internet para que todos possam acessá-lo! Você precisará de uma conta GitHub para fazer isso. Se você não tiver um, crie um &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34;&gt;aqui&lt;sup&gt;&lt;span class=&#34;glyphicon glyphicon-new-window&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/sup&gt;&lt;/a&gt;&#xD;&#xA;.&lt;/p&gt;&#xA;&lt;p&gt;Depois de criar sua conta e verificar seu endereço de e-mail, você chegará a esta página.&lt;/p&gt;&#xA;&lt;p style=&#34;text-align: center; &#34;&gt;&lt;img src=&#34;../media/newAccount.png&#34; alt=&#34;new account landing page on github&#34; width=&#34;1200&#34;/&gt;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Agora você precisará criar um novo repositório para armazenar o conteúdo do seu site! Pense em um repositório como uma pasta gigante que pode armazenar muitos outros arquivos e pastas de um determinado projeto. Você pode criar um selecionando &lt;code&gt;Start a Project&lt;/code&gt; ou &lt;code&gt;Create a new repository&lt;/code&gt;. Duas coisas muito importantes para ter em mente:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Caso você esteja se perguntando</title>
+      <link>/pt-br/web-basics/conclusion/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      <guid>/pt-br/web-basics/conclusion/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;../media/benji-and-me-sm.png&#34; alt=&#34;texto alternativo&#34; title=&#34;desenho de Benji e eu&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Você pode estar preocupado com Benji, mas temos o prazer de informar que ele encontrou um lar por meio de um site igual ao que você está construindo. Benji agora é um bom menino recebendo muito amor, trabalhando duro em seus truques para ganhar guloseimas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gabarito - Fundamentos de Web</title>
+      <link>/pt-br/web-basics/answer-key/</link>
+      <pubDate>Sat, 28 Mar 2020 12:53:41 -0700</pubDate>
+      <guid>/pt-br/web-basics/answer-key/</guid>
+      <description>&lt;h3 id=&#34;nota-especial&#34;&gt;Nota especial:&lt;/h3&gt;&#xA;&lt;p&gt;Este currículo permite que os alunos sejam criativos. O texto abaixo é apenas um exemplo do que eles podem fazer. Use seu bom senso e peça orientação, se necessário. O gabarito fornecido aqui é bastante longo porque incluímos trechos de HTML completo para contexto.&lt;/p&gt;&#xA;&lt;p&gt;Quando um aluno clica no botão &amp;lsquo;Tente você mesmo!&amp;rsquo; abrirá uma nova guia com parte do código HTML (e código CSS) já estruturado.&lt;/p&gt;&#xA;&lt;h2 id=&#34;desafio-1&#34;&gt;Desafio 1&lt;/h2&gt;&#xA;&lt;p&gt;A solução deve ter:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

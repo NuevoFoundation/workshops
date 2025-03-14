@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nuevo Foundation Workshops</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+<meta name="theme-color" content="#000000" />
+<meta name="revised" content="2025-03-14T18:59:37 -03">
+<meta name="application-name" content=" " />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+<title>Classes and Objects :: Nuevo Foundation Workshops</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+
+<link rel="shortcut icon" href="https://www.nuevofoundation.org/favicons/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57"
+      href="https://www.nuevofoundation.org/favicons//apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120"
+      href="https://www.nuevofoundation.org/favicons/pple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-128.png" sizes=" 128x128" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="/css/nuevoweb.css" />
+<link rel="stylesheet" href="/css/chunk.css" />
+<link rel="stylesheet" href="/css/data-style.css" />
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+
+<script lang="JavaScript">
+
+      function toggleVisibility() {
+
+            
+            const menu = document.getElementById("mobile-nav-menu");
+            if (menu.style.display == 'none') {
+                  menu.classList.replace("transition-out", "transition-in")
+                  menu.style.display = 'block';
+            }
+            else if (menu.style.display == 'block') {
+                  menu.classList.replace("transition-in", "transition-out")
+                  menu.style.display = 'none';
+            }
+      }
+</script>
+<meta
+  name="description"
+  content="
+
+    Introduce classes and objects in C#.
+"
+/>
+
+
+    
+  </head>
+  <body data-url="/csharp-basics/classes-and-objects/" >
+    
+      <header>
+  
+  <div id="mobile-nav-menu" class="transition-out" style="display: none;">
+    <div class="close-btn" onclick="toggleVisibility();">
+        <i aria-hidden="true" focusable="false" style="cursor: pointer;" class="fa fa-times fa-w-11 fa-sm"></i>
+    </div>
+    <div>
+        <div class="sc-dNLxif ecnYUM">
+            <a href="/support-us"><button class="sc-jbKcbu sedGx"
+                    style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: 4px solid rgb(0, 0, 0); border-radius: 4px;">
+                    Donate
+                </button></a>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/what-we-do">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>What We Do</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/get-involved">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Get Involved</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/support-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Support us</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/blog">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Event blog</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/about-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Our team</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/contact">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Contact us</li>
+            </ul>
+        </a>
+    </div>
+</div>
+<div>
+    <div class="sc-gGBfsJ iKkPGj">
+        <div class="container-fluid">
+            <div id="toprow" class="row">
+                <div class="col-xs-12">
+                    <div class="sc-EHOje fJMnSm">
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.instagram.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation Instagram" class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://twitter.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation X" class="fab fa-x-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Facebook" class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.linkedin.com/company/nuevofoundation">
+                                <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://www.youtube.com/nuevofoundation?sub_confirmation=1n">
+                                <i aria-label="Nuevo Foundation YouTube" class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1">
+                                <i aria-label="Nuevo Foundation Spotify" class="fab fa-spotify"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://github.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Github" class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" rel="noopener noreferrer"
+                                href="https://nuevofoundation.org/support-us">Donate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="secondrow" class="row">
+                <div class="col-sm-12 hidden-xs">
+                    <div class="sc-htoDjs kjtfZK">
+                        <a class="sc-fjdhpX izNzAG active" aria-current="page" href="https://nuevofoundation.org">
+                            <img alt="Nuevo Foundation Logo" src="/images/Logo_long.0f097b90.svg"
+                                height="60px" />
+                        </a>
+                        <ul class="sc-iwsKbI bUOvG">
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/what-we-do">
+                                <li class="sc-gZMcBi Bomeo">What We Do</li>
+                            </a>
+                            <a class="izNzAG" href="/">
+                                <li class="sc-gZMcBi Bomeo-selected jgBGVn">Workshops<span></span></li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/get-involved">
+                                <li class="sc-gZMcBi Bomeo">Get Involved</li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/support-us">
+                                <li class="sc-gZMcBi Bomeo">Support us</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/blog">
+                                <li class="sc-gZMcBi Bomeo">Event blog</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/about-us">
+                                <li class="sc-gZMcBi Bomeo">Our team</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/contact">
+                                <li class="sc-gZMcBi Bomeo">Contact us</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <a class="sc-fjdhpX izNzAG active" aria-current="page" href="/">
+                                <img alt="Nuevo Foundation Logo" class="sc-dnqmqq emolVn"
+                                    src="/images/Logo_long.0f097b90.svg" height="60%" /></a>
+                        </div>
+                        <div class="col-xs-2" onclick="toggleVisibility();"
+                            style="padding-top: 4%; padding-left: 4%; cursor: pointer;">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                                class="svg-inline--fa fa-bars fa-w-14 fa-lg" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/csharp-basics/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/csharp-basics/">C#: Basics</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/csharp-basics/using-netfiddle/" class="dd-item">
+        <div>
+          <a href="/csharp-basics/using-netfiddle/">
+            Using .NET Fiddle
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/csharp-basics/write-to-console/" class="dd-item">
+        <div>
+          <a href="/csharp-basics/write-to-console/">
+            Write to the Console
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/csharp-basics/comments/" class="dd-item">
+        <div>
+          <a href="/csharp-basics/comments/">
+            Comments
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/csharp-basics/variables/" class="dd-item">
+        <div>
+          <a href="/csharp-basics/variables/">
+            Variables and Data Types
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/csharp-basics/operators/" class="dd-item">
+        <div>
+          <a href="/csharp-basics/operators/">
+            Operators
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/csharp-basics/control-structures/" class="dd-item">
+        <div>
+          <a href="/csharp-basics/control-structures/">
+            Control Structures
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/csharp-basics/methods/" class="dd-item">
+        <div>
+          <a href="/csharp-basics/methods/">
+            Methods
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/csharp-basics/classes-and-objects/" class="dd-item active">
+        <div>
+          <a href="/csharp-basics/classes-and-objects/">
+            Classes and Objects
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+    </ul>
+
+    <section>
+    </section>
+  </aside>
+  <section class="page">
+    <div align="right">
+<select id="select-language" onchange="location = this.value;">
+	
+	
+	
+	  
+	  
+	    
+	      
+	        <option id="en" value="/csharp-basics/classes-and-objects/" selected>English</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+</select>
+    </div>
+
+    <div class="nav-select">
+      Navigation:&nbsp;
+      <select onchange="javascript:location.href = this.value;">
+        
+<option value="/csharp-basics/" >
+   C#: Basics</option>
+
+<option value="/csharp-basics/using-netfiddle/" >- Using .NET Fiddle</option>
+<option value="/csharp-basics/write-to-console/" >- Write to the Console</option>
+<option value="/csharp-basics/comments/" >- Comments</option>
+<option value="/csharp-basics/variables/" >- Variables and Data Types</option>
+<option value="/csharp-basics/operators/" >- Operators</option>
+<option value="/csharp-basics/control-structures/" >- Control Structures</option>
+<option value="/csharp-basics/methods/" >- Methods</option>
+<option value="/csharp-basics/classes-and-objects/"  selected>- Classes and Objects</option>
+
+
+
+      </select>
+
+    </div>
+    
+
+    <h1>Classes and Objects</h1>
+
+    
+
+    
+
+    
+    
+    
+    
+    <h2 id="what-is-an-object-and-what-is-a-class">What is an Object and what is a Class?</h2>
+<p>An Object is a thing (noun) that has certain characteristics and can perform certain tasks. A Class is the blueprint or definition for that object when it is created.</p>
+<p>An example is a Person. A Person is a kind of Class. A person can have certain characteristics that distinguish it from another person. It can have blue eyes, it can be 15 years old, etc. A person can also perform certain tasks. It can walk, it can talk, etc.</p>
+<p>A C# Object is an instance of a C# Class. In this instance &ldquo;Bea&rdquo; is a &ldquo;Person&rdquo;. &ldquo;Bea&rdquo; has brown eyes. This is a property (or data field) of &ldquo;Bea&rdquo;. &ldquo;Bea&rdquo; can speak in English. &ldquo;Bea&rdquo; can speak in Spanish. These are methods that &ldquo;Bea&rdquo; can perform.</p>
+<h2 id="creating-a-class">Creating a Class!</h2>
+<p>C# is an <strong>object-oriented</strong> programming language, which means everything in C# is associated with an <strong>object</strong> and a <strong>class</strong> (the blueprint for the object).</p>
+<p>For starters, the line of code that we used to print statements from activity 1 is actually a method call from a predefined class called <code>System</code>!</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#111">Console</span><span style="color:#111">.</span><span style="color:#111">WriteLine</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Hello World&#34;</span><span style="color:#111">);</span>
+</span></span></code></pre></div><ol>
+<li><code>Console</code> is a class that deals with user input and outputs.</li>
+<li><code>WriteLine()</code> is a method defined in the class <code>Console</code>.</li>
+</ol>
+<p>Another built-in class we have interacted with in the previous exercises is <code>string</code>. The <code>string</code> class defines a set of rules on how a list of characters should behave.</p>
+<p>With the following line of code, we created a <code>string</code> object called <code>name</code> using the rules defined in the <code>string</code> class:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#00a8c8">string</span> <span style="color:#111">name</span> <span style="color:#111">=</span> <span style="color:#d88200">&#34;Patrick&#34;</span><span style="color:#111">;</span>
+</span></span></code></pre></div><p><code>Console</code>, and <code>string</code> are predefined classes in C#. However, we are not limited to these predefined classes, and we can actually create our own data type by writing a class! This is useful for coders to create specific objects to have certain attributes and behaviors. Having access to these user-defined types allows us to build distinct programs.</p>
+<p>Let&rsquo;s learn about the different parts in a class below:</p>
+<div class="notices note" >
+    <p header-value="Note"><h3 id="class">Class</h3>
+<p>A class is a blueprint or prototype of a new type of object. In general, a class contains three important parts:</p>
+<img src="../images/class.png" height="400" alt="A Class blueprint for an object contains instance varialbes/data fields which are data/attributes in the object, constructor which are methods that creates the obejct of the class, and methods, which are behaviors possible for the object."/> 
+<table>
+  <thead>
+      <tr>
+          <th><strong>Element</strong></th>
+          <th><strong>Description</strong></th>
+          <th><strong>Example</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>data fields/instance variables</strong></td>
+          <td>variables an object of this class has access to that describe the object</td>
+          <td>For example, a Person class could have fields eyeColor, age, height.</td>
+      </tr>
+      <tr>
+          <td><strong>constructor</strong></td>
+          <td>method called automatically when an object from this class is created, constructors have the same name as the class</td>
+          <td>There can be more than one constructor per class</td>
+      </tr>
+      <tr>
+          <td><strong>methods</strong></td>
+          <td>methods for the object of this class to perform certain tasks</td>
+          <td>Person class could have methods talk and walk.</td>
+      </tr>
+  </tbody>
+</table>
+<p>For example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#00a8c8">public</span> <span style="color:#00a8c8">class</span> <span style="color:#75af00">Person</span><span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// (1) data fields/instance variables</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">private</span> <span style="color:#111">String</span> <span style="color:#111">name</span><span style="color:#111">;</span> <span style="color:#75715e">// example</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">private</span> <span style="color:#00a8c8">int</span> <span style="color:#111">age</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">private</span> <span style="color:#00a8c8">int</span> <span style="color:#111">height</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// (2) constructor - constructors have the same name as the class</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">public</span> <span style="color:#111">Person</span><span style="color:#111">()</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#111">name</span> <span style="color:#111">=</span> <span style="color:#d88200">&#34;Bea&#34;</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#111">age</span> <span style="color:#111">=</span> <span style="color:#ae81ff">29</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#111">height</span> <span style="color:#111">=</span> <span style="color:#ae81ff">167</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// (2) constructor - you can have more than one</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">public</span> <span style="color:#111">Person</span><span style="color:#111">(</span> <span style="color:#111">String</span> <span style="color:#111">nameInput</span><span style="color:#111">,</span> <span style="color:#00a8c8">int</span> <span style="color:#111">ageInput</span><span style="color:#111">,</span> <span style="color:#00a8c8">int</span> <span style="color:#111">heightInput</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#111">name</span> <span style="color:#111">=</span> <span style="color:#111">nameInput</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#111">age</span> <span style="color:#111">=</span> <span style="color:#111">ageInput</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#111">height</span> <span style="color:#111">=</span> <span style="color:#111">heightInput</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// (3) methods</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">public</span> <span style="color:#00a8c8">void</span> <span style="color:#111">talk</span><span style="color:#111">()</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#111">Console</span><span style="color:#111">.</span><span style="color:#111">WriteLine</span><span style="color:#111">(</span><span style="color:#d88200">$&#34;Hello from {name}&#34;</span><span style="color:#111">);</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span></code></pre></div></p>
+</div>
+<h2 id="try-it-out-">Try it Out 🐥!</h2>
+<p>Let&rsquo;s make a <code>Bird</code> class to represent Patrick 🐥 and all of his Bird friends by following the steps below!</p>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/OH5XQO" frameborder="0"></iframe>
+<h3 id="first-we-start-by-defining-the-class-name-in-the-format-public-class-name">First, we start by defining the class name in the format <code>public</code> <code>class</code> <code>name</code>.</h3>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#00a8c8">public</span> <span style="color:#00a8c8">class</span> <span style="color:#75af00">Bird</span><span style="color:#111">{}</span>
+</span></span></code></pre></div><br />
+<h3 id="second-lets-declare-all-the-fields-of-the-bird-class-species-name-hobby-age-lovemusic">Second, let&rsquo;s declare all the fields of the Bird class: species, name, hobby, age, loveMusic.</h3>
+<p>Each field is declared in the format: <code>access specifier</code> <code>data type</code> <code>name</code> <code>;</code>.</p>
+<ol>
+<li>
+<p>We declare all 5 fields as <code>private</code> in the class <code>Bird</code>. This ensures these fields can only be accessed within this class.</p>
+</li>
+<li>
+<p>Let&rsquo;s identify the appropriate type for each field:</p>
+</li>
+</ol>
+<ul>
+<li><code>species</code> should be a <code>String</code> that stores for exmaple: &ldquo;duck&rdquo;, &ldquo;swan&rdquo;, &ldquo;owl&rdquo;.</li>
+<li><code>name</code> should be a <code>String</code> that stores for example: &ldquo;Patrick&rdquo;.</li>
+<li><code>hobby</code> should be a <code>String</code> that stores for example: &ldquo;play basketball&rdquo;.</li>
+<li><code>age</code> should be an <code>int</code> that stores for example: 25.</li>
+<li><code>loveMusic</code> should be a <code>bool</code> that stores either true or false.</li>
+</ul>
+<p>For example, to declare <code>species</code> as a private field of class <code>Bird</code>, you would put <code>private String species;</code> .</p>
+<ol start="3">
+<li>Finish creating the other 4 fields of the Bird class!</li>
+</ol>
+<h3 id="third-lets-create-the-constructor-for-the-class-bird">Third, let&rsquo;s create the constructor for the class <code>Bird</code>.</h3>
+<p>Usually, constructor is the method that initializes value to all the fields in a class. It has the format <code>public</code> <code>class name</code> <code>(parameter)</code>. Since we have 5 fields in this class, the constructor will take in 5 parameter/inputs.</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#00a8c8">public</span> <span style="color:#111">Bird</span><span style="color:#111">(</span><span style="color:#00a8c8">string</span> <span style="color:#111">speciesInput</span><span style="color:#111">,</span> <span style="color:#00a8c8">string</span> <span style="color:#111">nameInput</span><span style="color:#111">,</span> <span style="color:#00a8c8">string</span> <span style="color:#111">hobbyInput</span><span style="color:#111">,</span> <span style="color:#00a8c8">int</span> <span style="color:#111">ageInput</span><span style="color:#111">,</span> <span style="color:#00a8c8">bool</span> <span style="color:#111">loveMusicInput</span><span style="color:#111">){</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// constructor body</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span></code></pre></div><p>In the constructor body, we need to initialize all the instance variables, by assign each variables to its initial values:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#111">species</span> <span style="color:#111">=</span> <span style="color:#111">speciesInput</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">name</span> <span style="color:#111">=</span> <span style="color:#111">nameInput</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">hobby</span> <span style="color:#111">=</span> <span style="color:#111">hobbyInput</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">age</span> <span style="color:#111">=</span> <span style="color:#111">ageInput</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">loveMusic</span> <span style="color:#111">=</span> <span style="color:#111">loveMusicinput</span><span style="color:#111">;</span>
+</span></span></code></pre></div><br />
+<h3 id="lastly-lets-create-some-methods-for-the-class-bird">Lastly, let&rsquo;s create some methods for the class <code>Bird.</code></h3>
+<p>We are gonna create 6 methods for this class!</p>
+<ul>
+<li><code>getSpecies();</code>   // return species of the bird</li>
+<li><code>getName();</code>      // return name of the bird</li>
+<li><code>getHobby();</code>     // return hobby of the bird</li>
+<li><code>getAge();</code>       // return age of the bird</li>
+<li><code>getLoveMusic();</code> // return whether the bird loves music</li>
+<li><code>ToString();</code>     // return information in a string</li>
+</ul>
+<p>Try to write out the first 5 methods with what you learned from the previous exercise about writing methods!</p>
+<p>After, let&rsquo;s write the <code>ToString()</code> method together!</p>
+<p><code>ToString()</code> is a method that returns the <code>string</code> representation of the object.</p>
+<p>We will return a String that include all fields of the <code>Bird</code>: name, age, species, hobby, loveMusic by calling the 5 methods you just implemented!</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#00a8c8">public</span> <span style="color:#00a8c8">string</span> <span style="color:#111">ToString</span><span style="color:#111">(){</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// initialize variable info to have empty String</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">string</span> <span style="color:#111">info</span> <span style="color:#111">=</span> <span style="color:#d88200">&#34;&#34;</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// append information to the String in the format: </span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Hi, my name is [name]. I am a [age] year old [species] who likes to [hobby].</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">info</span> <span style="color:#111">=</span> <span style="color:#111">info</span> <span style="color:#111">+</span> <span style="color:#d88200">&#34;Hi, my name is &#34;</span> <span style="color:#111">+</span> <span style="color:#111">getName</span><span style="color:#111">()</span> <span style="color:#111">+</span> 
+</span></span><span style="display:flex;"><span>           <span style="color:#d88200">&#34;. I am a &#34;</span> <span style="color:#111">+</span> <span style="color:#111">getAge</span><span style="color:#111">()</span> <span style="color:#111">+</span> <span style="color:#d88200">&#34; year old &#34;</span> <span style="color:#111">+</span> <span style="color:#111">getSpecies</span><span style="color:#111">()</span> <span style="color:#111">+</span> 
+</span></span><span style="display:flex;"><span>           <span style="color:#d88200">&#34; who likes to &#34;</span> <span style="color:#111">+</span> <span style="color:#111">getHobby</span><span style="color:#111">()</span> <span style="color:#111">+</span> <span style="color:#d88200">&#34;. &#34;</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// if the Bird likes music, append the String &#34;I also like music very much!&#34; to info</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">if</span><span style="color:#111">(</span><span style="color:#111">getLoveMusic</span><span style="color:#111">()){</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#111">info</span> <span style="color:#111">=</span> <span style="color:#111">info</span> <span style="color:#111">+</span> <span style="color:#d88200">&#34;I also like music very much!&#34;</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">}</span><span style="color:#00a8c8">else</span><span style="color:#111">{</span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#111">info</span> <span style="color:#111">=</span> <span style="color:#111">info</span> <span style="color:#111">+</span> <span style="color:#d88200">&#34;However, I do not like music!&#34;</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// return the full string</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">return</span> <span style="color:#111">info</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span></code></pre></div><div class="notices warning" >
+    <p header-value="Warning"><p>If you correctly implemented the <code>Bird</code> class, you will see the following message when you click <code>Run</code>:</p>
+<pre tabindex="0"><code>Congratulations! You correctly implemented the Bird Class :)
+</code></pre><p>If there is still something incomplete or incorrect when you click <code>Run</code>:</p>
+<ul>
+<li>You might get an error such as <code>todo: fill this in</code>.</li>
+<li>Or, you will see the message, <code>Something is still not quite right!</code>.</li>
+</ul>
+</p>
+</div>
+<h2 id="creating-birds-">Creating Birds 🐥!</h2>
+<p>Congratulations! You just wrote you first C# class <code>Bird</code> class. Now let&rsquo;s learn to write a program that uses <code>Bird</code> objects!</p>
+<p>We defined the <code>Bird</code> class to have the following attributes (instance variables) and behaviors (methods):
+<img src="../images/bird_class.png" height="450" alt="Bird Class blueprint for a Bird object contains instance variables/data fields which include String species, String name, String hobby, int age, and bool loveMusic, constructor, which requires all 5 variables to be passed in, and methods, including String getSpecies(), String getName(), String getHobby(), int getAge(), bool getLoveMusic(), and String toString()." /></p>
+<p>To create a new object of a particular class, we call the constructor of that class in the format <code>class name</code> <code>variable name</code> <code>=</code> <code>new</code> <code>constructor call</code>.</p>
+<p>Recall that the constructor of <code>Bird</code> class is the following:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#00a8c8">public</span> <span style="color:#111">Bird</span><span style="color:#111">(</span><span style="color:#00a8c8">string</span> <span style="color:#111">speciesInput</span><span style="color:#111">,</span> <span style="color:#00a8c8">string</span> <span style="color:#111">nameInput</span><span style="color:#111">,</span> <span style="color:#00a8c8">string</span> <span style="color:#111">hobbyInput</span><span style="color:#111">,</span> <span style="color:#00a8c8">int</span> <span style="color:#111">ageInput</span><span style="color:#111">,</span> <span style="color:#00a8c8">bool</span> <span style="color:#111">loveMusicInput</span><span style="color:#111">);</span>
+</span></span></code></pre></div><p>Hence, we can create a Bird with these attributes (species - duck; name - Patrick; hobby - hangout with friends; age - 15; loveMusic - true) with this line of code.</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#111">Bird</span> <span style="color:#111">patrick</span> <span style="color:#111">=</span> <span style="color:#00a8c8">new</span> <span style="color:#111">Bird</span><span style="color:#111">(</span><span style="color:#d88200">&#34;duck&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;Patrick&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;hangout with friends&#34;</span><span style="color:#111">,</span> <span style="color:#ae81ff">15</span><span style="color:#111">,</span> <span style="color:#00a8c8">true</span><span style="color:#111">);</span>
+</span></span></code></pre></div><p>Try it out yourself and create multiple Birds of different species 🐦🐤🐔🐧!</p>
+<br />
+Next, let's call the `ToString()` method on these `Bird` objects we created to print the information of our friends. You can do either of the following:
+<ol>
+<li>Print the return value of <code>ToString()</code> method. (i.e. <code>Console.WriteLine(patrick.ToString());</code>)</li>
+<li>Directly print the <code>Bird</code> object, which prompts <code>ToString()</code> to be called in the background. (i.e. <code>Console.WriteLine(patrick);</code>).</li>
+</ol>
+<p>Try it out and print out all the information of the bird friends you created 🐦🐤🐔🐧!</p>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/fMXXuT" frameborder="0"></iframe>
+
+
+    
+    
+      <div class="chevrons">
+  <style>
+    .workshop-complete-image {
+        margin: 40px auto 50px auto;
+        width: 340.8px;
+    }
+    
+    .workshop-complete-words {
+        font-family: Space Mono, monospace;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        text-align: center;
+    }
+    
+    .horizontal-bar {
+        background-color: #000000;
+        width: 120px;
+        height: 12px;
+        margin: 80px auto 0 auto;
+    }
+</style>
+
+
+    <div>
+        <hr/>
+        <div class="workshop-complete-image">
+            <img src="/images/NF_mascot.jpg">
+        </div>
+        <div class="workshop-complete-words">
+            <p>
+                You did it!
+                <br> 
+                Workshop complete
+            </p>
+        </div>
+    </div><div id="navigation">
+            <div class="next-prev-wrapper-div"><a class='nav nav-prev' href="/csharp-basics/methods/" title="Methods">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Previous:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Methods
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="prevbutton-image">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+        
+    </div>
+</a></div>
+            <div class="next-prev-wrapper-div"></div>
+        </div>
+</div>
+
+</section>
+</article>
+
+<footer>
+  <div class="footline">
+    
+
+    
+
+    
+    <div class="date">
+      <i class='fa fa-calendar'></i> 
+      Mon, 16 Sep 2024 00:00:00 PDT
+    </div>
+    
+
+    
+    <div class="github-link">
+      <a href="https://github.com/NuevoFoundation/workshops/tree/master/content/csharp-basics/classes-and-objects.md" target="blank"><i
+          class="fa fa-code-fork"></i>
+        </a>
+    </div>
+    
+  </div>
+
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+    
+
+    
+    
+
+    <div id="footer" class="row">
+    <div class="col-xs-12">
+        <div class="App-footer">
+            <div class="App-footer-big">
+                Join the conversation on social media.
+            </div>
+            <div class="social-images">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Instagram" class="fab fa-2x fa-instagram"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation X" class="fab fa-2x fa-x-twitter"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Facebook" class="fab fa-2x fa-1x fa-facebook-f"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-2x fa-linkedin"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/nuevofoundation?sub_confirmation=1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation YouTube" class="fab fa-2x fa-youtube"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Spotify" class="fab fa-2x fa-spotify"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Github" class="fab fa-2x fa-github"></i>
+                </a>
+            </div>
+            <div class="App-footer-small">
+                © Copyright 2025, All Rights Reserved by Nuevo Foundation, a 501(c)(3) nonprofit.
+            </div>
+        </div>
+    </div>
+</div>
+
+  </body>
+</html>

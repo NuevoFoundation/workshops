@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JS: JSappyBird on Nuevo Foundation Workshops</title>
+    <link>/kr/jsappybird/</link>
+    <description>Recent content in JS: JSappyBird on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>kr</language>
+    <lastBuildDate>Wed, 29 Jul 2020 13:24:17 -0700</lastBuildDate>
+    <atom:link href="/kr/jsappybird/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>새 이미지 로드 및 화면 텍스트 변경</title>
+      <link>/kr/jsappybird/load-the-bird/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      <guid>/kr/jsappybird/load-the-bird/</guid>
+      <description>&lt;p&gt;먼저 “Flappy”를 로드하고 화면에 배치해 봅시다.&lt;/p&gt;&#xA;&lt;p&gt;파일 [File: load-sprites.js] 에 다음 명령을 추가하세요:&#xA;&lt;code&gt;&#xD; game.load.image(&#39;bird&#39;,&#39;assets/bird.png&#39;);&#xD; &lt;/code&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;함께-해보기&#34;&gt;함께 해보기&lt;/h3&gt;&#xA;&lt;p&gt;아래 “Replit” 창에서 코드는 &lt;code&gt;game.load.image(&#39;bird&#39;, &#39;assets/bird.png&#39;);&lt;/code&gt;로 시작합니다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/loadbird.png&#34; alt=&#34;alt text&#34; title=&#34;image to add the bird in the file&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;run&lt;/strong&gt;을 누르고 스페이스 바를 누르면, 여러분의 콘솔에 새가 나타나는 것을 볼 수 있습니다:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/loadbird_output.png&#34; alt=&#34;alt text&#34; title=&#34;bird image in the output&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;화면-텍스트-변경하기&#34;&gt;화면 텍스트 변경하기&lt;/h2&gt;&#xA;&lt;p&gt;시작 화면 텍스트를 변경해 봅시다:&lt;/p&gt;&#xA;&lt;p&gt;파일 [File: start-screen.js] 에 다음 명령을 추가하세요.&#xA;var text = game.add.text(0, 0, &amp;ldquo;Press Space to Start&amp;rdquo;, textOptions);&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>새가 점프하도록 만들고 중력 적용하기</title>
+      <link>/kr/jsappybird/jump/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      <guid>/kr/jsappybird/jump/</guid>
+      <description>&lt;h3 id=&#34;새에게-어떤-동작을-추가할까요&#34;&gt;새에게 어떤 동작을 추가할까요?&lt;/h3&gt;&#xA;&lt;p&gt;새가 점프하도록 만들어 봅시다:&lt;/p&gt;&#xA;&lt;p&gt;파일 [File: create-game.js] 에 다음 명령을 추가하세요:&#xA;spaceKey.onDown.add(jump, this);&lt;/p&gt;&#xA;&lt;h3 id=&#34;함께-해보기&#34;&gt;함께 해보기&lt;/h3&gt;&#xA;&lt;p&gt;아래 Replit 창에서 코드는 &lt;code&gt;spaceKey.onDown.add(jump, this);&lt;/code&gt;로 시작합니다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/jump.png&#34; alt=&#34;alt text&#34; title=&#34;image to add jump down&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;run&lt;/strong&gt; 을 누르고 스페이스 바를 누르면, 콘솔에 새가 점프하는 모습이 나타납니다:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/jump_output.png&#34; alt=&#34;alt text&#34; title=&#34;Image of jumping bird&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;중력-추가하기&#34;&gt;중력 추가하기&lt;/h2&gt;&#xA;&lt;h3 id=&#34;함께-해보기-1&#34;&gt;함께 해보기&lt;/h3&gt;&#xA;&lt;p&gt;아래 Replit 창에서 코드는 &lt;code&gt;bird.body.gravity.y = 900;&lt;/code&gt;로 시작합니다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/gravity.png&#34; alt=&#34;alt text&#34; title=&#34;image to add gravity to the bird&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;run&lt;/strong&gt; 을 누르고 스페이스 바를 누르면, 콘솔에 중력이 적용된 상태로 새가 점프하는 모습이 나타납니다.:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>새가 힘차게 점프하고 회전하면서 떨어지도록 만들기</title>
+      <link>/kr/jsappybird/jump-force/</link>
+      <pubDate>Wed, 29 Jul 2020 13:24:17 -0700</pubDate>
+      <guid>/kr/jsappybird/jump-force/</guid>
+      <description>&lt;p&gt;이번에는 새가 더 힘차게 점프할 수 있게 해 봅시다.&lt;/p&gt;&#xA;&lt;p&gt;파일 [File: create-game.js] 에 다음 명령을 추가하세요.&#xA;bird.body.velocity.y = -350;&lt;/p&gt;&#xA;&lt;div class=&#34;notices tip&#34; &gt;&#xD;&#xA;    &lt;p header-value=&#34;정보&#34;&gt;&lt;h2 id=&#34;함께-해보기&#34;&gt;함께 해보기&lt;/h2&gt;&#xA;&lt;p&gt;아래 Replit 창에서 코드는 &lt;code&gt;bird.body.velocity.y = -350;&lt;/code&gt;로 시작합니다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/jump_force.png&#34; alt=&#34;alt text&#34; title=&#34;image to add gravity to the bird&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;run&lt;/strong&gt; 을 누르면, 콘솔에 새가 힘차게 점프하는 모습이 나타납니다:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/jump_output.png&#34; alt=&#34;alt text&#34; title=&#34;bird jumping with gravity&#34;&gt;&lt;/p&gt;&#xA;&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;h2 id=&#34;보너스-활동&#34;&gt;보너스 활동&lt;/h2&gt;&#xA;&lt;p&gt;새가 위로 점프하면서 앞으로 나아가도록 만들어 봅시다:&lt;/p&gt;&#xA;&lt;p&gt;파일 [File: create-game.js] 에 다음 명령을 추가하세요.&#xA;bird.body.velocity.x = 100;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>새가 점프할 때 소리 추가하기 &amp; 보너스</title>
+      <link>/kr/jsappybird/add-jump-sound/</link>
+      <pubDate>Wed, 29 Jul 2020 13:24:17 -0700</pubDate>
+      <guid>/kr/jsappybird/add-jump-sound/</guid>
+      <description>&lt;p&gt;새가 점프할 때 소리가 나도록 만들어 봅시다.&lt;/p&gt;&#xA;&lt;p&gt;파일 [File: create-game.js] 에 다음 명령을 추가하세요.&#xA;jumpSound.play();&lt;/p&gt;&#xA;&lt;div class=&#34;notices tip&#34; &gt;&#xD;&#xA;    &lt;p header-value=&#34;정보&#34;&gt;&lt;h2 id=&#34;함께-해보기&#34;&gt;함께 해보기&lt;/h2&gt;&#xA;&lt;p&gt;아래 Replit 창에서 &lt;code&gt;jumpSound.play();&lt;/code&gt;로 코드를 시작했습니다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/jump_sound.png&#34; alt=&#34;alt text&#34; title=&#34;image to add sound to the bird&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;run&lt;/strong&gt; 을 누르면, 여러분의 콘솔에 새가 점프하면서 소리를 내는 모습을 확인할 수 있습니다.&lt;/p&gt;&#xA;&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;h1 id=&#34;보너스-활동&#34;&gt;보너스 활동&lt;/h1&gt;&#xA;&lt;div class=&#34;notices note&#34; &gt;&#xD;&#xA;    &lt;p header-value=&#34;주석&#34;&gt;&lt;ul&gt;&#xA;&lt;li&gt;중력의 값을 더 높이면 어떻게 될까요?&lt;/li&gt;&#xA;&lt;li&gt;중력 값을 음수로 만들면 무슨 일이 일어날까요?&lt;/li&gt;&#xA;&lt;li&gt;새가 다른 재미있는 방법으로 점프하게 하려면 어떻게 해야 할까요?&lt;/li&gt;&#xA;&lt;li&gt;새가 더 빠르게 회전하게 만들려면 어떻게 해야 할까요?&lt;/li&gt;&#xA;&lt;li&gt;회전을 명령하는 “if(조건명령어)”를 제거하면 어떤 변화가 생길까요?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

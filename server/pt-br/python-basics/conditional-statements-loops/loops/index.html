@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nuevo Foundation Workshops</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+<meta name="theme-color" content="#000000" />
+<meta name="revised" content="2025-03-14T19:00:06 -03">
+<meta name="application-name" content=" " />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+<title>Loops :: Nuevo Foundation Workshops</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+
+<link rel="shortcut icon" href="https://www.nuevofoundation.org/favicons/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57"
+      href="https://www.nuevofoundation.org/favicons//apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120"
+      href="https://www.nuevofoundation.org/favicons/pple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-128.png" sizes=" 128x128" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="/css/nuevoweb.css" />
+<link rel="stylesheet" href="/css/chunk.css" />
+<link rel="stylesheet" href="/css/data-style.css" />
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+
+<script lang="JavaScript">
+
+      function toggleVisibility() {
+
+            
+            const menu = document.getElementById("mobile-nav-menu");
+            if (menu.style.display == 'none') {
+                  menu.classList.replace("transition-out", "transition-in")
+                  menu.style.display = 'block';
+            }
+            else if (menu.style.display == 'block') {
+                  menu.classList.replace("transition-in", "transition-out")
+                  menu.style.display = 'none';
+            }
+      }
+</script>
+<meta
+  name="description"
+  content="
+
+    
+"
+/>
+
+
+    
+  </head>
+  <body data-url="/pt-br/python-basics/conditional-statements-loops/loops/" >
+    
+      <header>
+  
+  <div id="mobile-nav-menu" class="transition-out" style="display: none;">
+    <div class="close-btn" onclick="toggleVisibility();">
+        <i aria-hidden="true" focusable="false" style="cursor: pointer;" class="fa fa-times fa-w-11 fa-sm"></i>
+    </div>
+    <div>
+        <div class="sc-dNLxif ecnYUM">
+            <a href="/support-us"><button class="sc-jbKcbu sedGx"
+                    style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: 4px solid rgb(0, 0, 0); border-radius: 4px;">
+                    Faça uma doação
+                </button></a>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/what-we-do">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Sobre nós</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/get-involved">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Faça parte</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/support-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Apoie-nos</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/blog">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Últimos eventos</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/about-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Conheça nosso time</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/contact">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Fale conosco</li>
+            </ul>
+        </a>
+    </div>
+</div>
+<div>
+    <div class="sc-gGBfsJ iKkPGj">
+        <div class="container-fluid">
+            <div id="toprow" class="row">
+                <div class="col-xs-12">
+                    <div class="sc-EHOje fJMnSm">
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.instagram.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation Instagram" class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://twitter.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation X" class="fab fa-x-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Facebook" class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.linkedin.com/company/nuevofoundation">
+                                <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://www.youtube.com/nuevofoundation?sub_confirmation=1n">
+                                <i aria-label="Nuevo Foundation YouTube" class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1">
+                                <i aria-label="Nuevo Foundation Spotify" class="fab fa-spotify"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://github.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Github" class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" rel="noopener noreferrer"
+                                href="https://nuevofoundation.org/support-us">Faça uma doação</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="secondrow" class="row">
+                <div class="col-sm-12 hidden-xs">
+                    <div class="sc-htoDjs kjtfZK">
+                        <a class="sc-fjdhpX izNzAG active" aria-current="page" href="https://nuevofoundation.org">
+                            <img alt="Nuevo Foundation Logo" src="/images/Logo_long.0f097b90.svg"
+                                height="60px" />
+                        </a>
+                        <ul class="sc-iwsKbI bUOvG">
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/what-we-do">
+                                <li class="sc-gZMcBi Bomeo">Sobre nós</li>
+                            </a>
+                            <a class="izNzAG" href="/">
+                                <li class="sc-gZMcBi Bomeo-selected jgBGVn">Minicursos<span></span></li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/get-involved">
+                                <li class="sc-gZMcBi Bomeo">Faça parte</li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/support-us">
+                                <li class="sc-gZMcBi Bomeo">Apoie-nos</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/blog">
+                                <li class="sc-gZMcBi Bomeo">Últimos eventos</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/about-us">
+                                <li class="sc-gZMcBi Bomeo">Conheça nosso time</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/contact">
+                                <li class="sc-gZMcBi Bomeo">Fale conosco</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <a class="sc-fjdhpX izNzAG active" aria-current="page" href="/">
+                                <img alt="Nuevo Foundation Logo" class="sc-dnqmqq emolVn"
+                                    src="/images/Logo_long.0f097b90.svg" height="60%" /></a>
+                        </div>
+                        <div class="col-xs-2" onclick="toggleVisibility();"
+                            style="padding-top: 4%; padding-left: 4%; cursor: pointer;">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                                class="svg-inline--fa fa-bars fa-w-14 fa-lg" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/pt-br/python-basics/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/pt-br/python-basics/">Python: Fundamentos</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/pt-br/python-basics/basics/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/pt-br/python-basics/basics/">Fundamentos</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/pt-br/python-basics/basics/using-trinket/" class="dd-item">
+        <div>
+          <a href="/pt-br/python-basics/basics/using-trinket/">
+            Começando com o Trinket
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/python-basics/basics/writing-to-console/" class="dd-item">
+        <div>
+          <a href="/pt-br/python-basics/basics/writing-to-console/">
+            Gravando no console (imprimir instrução)
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/python-basics/basics/comments/" class="dd-item">
+        <div>
+          <a href="/pt-br/python-basics/basics/comments/">
+            Commentários
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/python-basics/basics/variables/" class="dd-item">
+        <div>
+          <a href="/pt-br/python-basics/basics/variables/">
+            Variáveis
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/python-basics/basics/reading-from-console/" class="dd-item">
+        <div>
+          <a href="/pt-br/python-basics/basics/reading-from-console/">
+            Lendo do console
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/pt-br/python-basics/data-types/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/pt-br/python-basics/data-types/">Tipos de dados</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/pt-br/python-basics/data-types/strings/" class="dd-item">
+        <div>
+          <a href="/pt-br/python-basics/data-types/strings/">
+            Strings
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/python-basics/data-types/numbers/" class="dd-item">
+        <div>
+          <a href="/pt-br/python-basics/data-types/numbers/">
+            Números
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/python-basics/data-types/booleans/" class="dd-item">
+        <div>
+          <a href="/pt-br/python-basics/data-types/booleans/">
+            Booleanos
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/pt-br/python-basics/conditional-statements-loops/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/pt-br/python-basics/conditional-statements-loops/">Instruções condicionais e loops</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/pt-br/python-basics/conditional-statements-loops/conditional-statements/" class="dd-item">
+        <div>
+          <a href="/pt-br/python-basics/conditional-statements-loops/conditional-statements/">
+            Declarações condicionais
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/python-basics/conditional-statements-loops/else-if-statement/" class="dd-item">
+        <div>
+          <a href="/pt-br/python-basics/conditional-statements-loops/else-if-statement/">
+            Condição Else-if
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/python-basics/conditional-statements-loops/loops/" class="dd-item active">
+        <div>
+          <a href="/pt-br/python-basics/conditional-statements-loops/loops/">
+            Loops
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/python-basics/conditional-statements-loops/nested-loops/" class="dd-item">
+        <div>
+          <a href="/pt-br/python-basics/conditional-statements-loops/nested-loops/">
+            Nested Loops
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/pt-br/python-basics/data-structures/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/pt-br/python-basics/data-structures/">Estruturas de dados</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/pt-br/python-basics/data-structures/lists/" class="dd-item">
+        <div>
+          <a href="/pt-br/python-basics/data-structures/lists/">
+            Listas
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/python-basics/data-structures/tuples/" class="dd-item">
+        <div>
+          <a href="/pt-br/python-basics/data-structures/tuples/">
+            Tuplas
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/python-basics/data-structures/sets/" class="dd-item">
+        <div>
+          <a href="/pt-br/python-basics/data-structures/sets/">
+            Conjunto
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/pt-br/python-basics/functions/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/pt-br/python-basics/functions/">Funções</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/pt-br/python-basics/functions/more-about-functions/" class="dd-item">
+        <div>
+          <a href="/pt-br/python-basics/functions/more-about-functions/">
+            Mais sobre funções
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/python-basics/functions/built-in/" class="dd-item">
+        <div>
+          <a href="/pt-br/python-basics/functions/built-in/">
+            Funções integradas
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/python-basics/functions/built-in-math/" class="dd-item">
+        <div>
+          <a href="/pt-br/python-basics/functions/built-in-math/">
+            Funções matemáticas integradas
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+      <li data-nav-id="/pt-br/python-basics/help/" class="dd-item">
+        <div>
+          <a href="/pt-br/python-basics/help/">
+            Socorro, estou preso!
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+    </ul>
+
+    <section>
+    </section>
+  </aside>
+  <section class="page">
+    <div align="right">
+<select id="select-language" onchange="location = this.value;">
+	
+	
+	
+	  
+	  
+	    
+	      
+	        <option id="en" value="/python-basics/conditional-statements-loops/loops/">English</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="pt-br" value="/pt-br/python-basics/conditional-statements-loops/loops/" selected>Português Brasileiro</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="zh-hans" value="/zh-hans/python-basics/conditional-statements-loops/loops/">简体中文</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+</select>
+    </div>
+
+    <div class="nav-select">
+      Navegação:&nbsp;
+      <select onchange="javascript:location.href = this.value;">
+        
+<option value="/pt-br/python-basics/" >
+   Python: Fundamentos</option>
+
+<option value="/pt-br/python-basics/basics/" >
+  -
+   Fundamentos</option>
+<option value="/pt-br/python-basics/data-types/" >
+  -
+   Tipos de dados</option>
+<option value="/pt-br/python-basics/conditional-statements-loops/" >
+  -
+   Instruções condicionais e loops</option>
+
+<option value="/pt-br/python-basics/conditional-statements-loops/conditional-statements/" >-- Declarações condicionais</option>
+<option value="/pt-br/python-basics/conditional-statements-loops/else-if-statement/" >-- Condição Else-if</option>
+<option value="/pt-br/python-basics/conditional-statements-loops/loops/"  selected>-- Loops</option>
+<option value="/pt-br/python-basics/conditional-statements-loops/nested-loops/" >-- Nested Loops</option>
+
+<option value="/pt-br/python-basics/data-structures/" >
+  -
+   Estruturas de dados</option>
+<option value="/pt-br/python-basics/functions/" >
+  -
+   Funções</option>
+<option value="/pt-br/python-basics/help/" >- Socorro, estou preso!</option>
+
+
+
+      </select>
+
+    </div>
+    
+
+    <h1>Loops</h1>
+
+    
+
+    
+
+    
+    
+    
+    
+    <h2 id="loops-em-python">Loops em Python</h2>
+<p>Se você quiser repetir uma tarefa várias vezes, o Python tem uma maneira de fazer isso facilmente usando loops (laços).
+Existem dois tipos de loops básicos em python: loops <code>for</code> e loops <code>while</code>.</p>
+<h3 id="for-loops">For loops</h3>
+<p>Os loops For iteram sobre uma sequência. Digamos que você queira repetir uma tarefa simples 5 vezes. Aqui está como você faria isso.</p>
+<p>O loop for a seguir itera cada um dos números da lista [1,2,3,4,5] e atribui o valor x a ele. Em seguida, ele executa o código dentro do loop for.</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#00a8c8">for</span> <span style="color:#111">x</span> <span style="color:#f92672">in</span> <span style="color:#111">[</span><span style="color:#ae81ff">1</span><span style="color:#111">,</span><span style="color:#ae81ff">2</span><span style="color:#111">,</span><span style="color:#ae81ff">3</span><span style="color:#111">,</span><span style="color:#ae81ff">4</span><span style="color:#111">,</span><span style="color:#ae81ff">5</span><span style="color:#111">]:</span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#111">print</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Estamos no número do loop&#34;</span><span style="color:#111">,</span><span style="color:#111">x</span><span style="color:#111">)</span>
+</span></span></code></pre></div><iframe src="https://trinket.io/embed/python/ddcca3b818" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<p>E se você quisesse repetir uma tarefa 10 vezes? 100 vezes? 1000 vezes??</p>
+<p>Seria difícil escrever uma lista com 1000 números [1,2,3,4,5,6,&hellip;&hellip;&hellip;.,998,999,1000]. Existe uma função que pode criar essa lista para você.</p>
+<p>Aqui está um exemplo de como criar a lista usando a função <code>range</code>:</p>
+<p>O código abaixo cria uma lista começando em 1 e terminando em 10.</p>
+<pre tabindex="0"><code>range(1,11)
+</code></pre><p>Agora tente substituir a lista [1,2,3,4,5] no exemplo acima por esta função de intervalo!</p>
+<p>A lista no loop for não precisa ser apenas números, pode ser qualquer coisa! Aqui está outro exemplo do que você pode fazer com isso:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#111">fruits</span> <span style="color:#f92672">=</span> <span style="color:#111">[</span><span style="color:#d88200">&#34;apple&#34;</span><span style="color:#111">,</span><span style="color:#d88200">&#34;banana&#34;</span><span style="color:#111">,</span><span style="color:#d88200">&#34;orange&#34;</span><span style="color:#111">]</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">for</span> <span style="color:#111">x</span> <span style="color:#f92672">in</span> <span style="color:#111">fruits</span><span style="color:#111">:</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">print</span><span style="color:#111">(</span><span style="color:#111">x</span><span style="color:#111">)</span>
+</span></span></code></pre></div><iframe src="https://trinket.io/embed/python/3fd98a6bf4" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<h3 id="while-loops">While loops</h3>
+<p>Embora os loops sejam semelhantes aos loops for, mas em vez de iterar sobre uma sequência, eles se repetem enquanto uma determinada condição for atendida.
+Por exemplo, vamos criar um loop while que se repete 5 vezes.</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#111">count</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">while</span> <span style="color:#111">count</span> <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">5</span><span style="color:#111">:</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">print</span><span style="color:#111">(</span><span style="color:#d88200">&#34;A contagem atual é&#34;</span><span style="color:#111">,</span> <span style="color:#111">count</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">count</span> <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>  <span style="color:#75715e">#Isso é a mesma coisa que count = count + 1</span>
+</span></span></code></pre></div><iframe src="https://trinket.io/embed/python/6d4f0c86f0" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<p>Como você pode ver, todo o código abaixo do loop while é executado desde que a contagem da variável seja menor que 5.</p>
+<p>Tome cuidado! Certifique-se de que a condição se torne Falsa em algum momento, ou o loop continuará infinitamente.</p>
+<h3 id="declarações-de-quebra">Declarações de quebra</h3>
+<p>Você aprendeu anteriormente que os loops for e while continuam iterando sobre uma sequência até chegar ao fim ou até que uma condição seja atendida.</p>
+<p>Existe outra maneira de interromper a execução desses loops antes do final da lista ou antes que uma condição seja atendida.</p>
+<p>Você pode fazer isso com a instrução <code>break</code>. Isso permite que você saia do loop em um loop for ou while.</p>
+<p>Aqui está um exemplo com um loop while:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#111">count</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">while</span> <span style="color:#00a8c8">True</span><span style="color:#111">:</span>  <span style="color:#75715e">#Isso fará com que o loop while seja executado para sempre! a menos que haja uma instrução break em algum lugar do loop.</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">print</span><span style="color:#111">(</span><span style="color:#d88200">&#34;contagem é&#34;</span><span style="color:#111">,</span> <span style="color:#111">count</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">if</span> <span style="color:#111">(</span><span style="color:#111">count</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">10</span><span style="color:#111">):</span> <span style="color:#75715e">#Isso diz que se count é igual a 10, então saia do loop while</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#111">print</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Saindo do loop!&#34;</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#00a8c8">break</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#111">count</span> <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>  <span style="color:#75715e"># isso é igual a count = count + 1</span>
+</span></span></code></pre></div><iframe src="https://trinket.io/embed/python/6cd0debfe5" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<h3 id="desafios">Desafios</h3>
+<ol>
+<li>Dada uma lista de alimentos, escreva um programa que escreva “Eu gosto de [nome do alimento]”, a menos que seja o menos favorito do usuário, o que você pede no início.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#111">foodList</span> <span style="color:#f92672">=</span> <span style="color:#111">[</span><span style="color:#d88200">&#34;maçãs&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;sorvete&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;pizza&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;bananas&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;cenouras&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;abóbora&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;pepinos&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;sanduíche&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;aveia&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;biscoitos&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;bolo&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;espinafre &#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;couve&#34;</span><span style="color:#111">]</span>
+</span></span></code></pre></div><ol start="2">
+<li>Dada uma lista grande como a mostrada abaixo, escreva um programa que possa encontrar um número específico dessa lista.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#111">numList</span> <span style="color:#f92672">=</span> <span style="color:#111">[</span><span style="color:#ae81ff">69</span><span style="color:#111">,</span> <span style="color:#ae81ff">430</span><span style="color:#111">,</span> <span style="color:#ae81ff">363</span><span style="color:#111">,</span> <span style="color:#ae81ff">80</span><span style="color:#111">,</span> <span style="color:#ae81ff">166</span><span style="color:#111">,</span> <span style="color:#ae81ff">476</span><span style="color:#111">,</span> <span style="color:#ae81ff">250</span><span style="color:#111">,</span> <span style="color:#ae81ff">38</span><span style="color:#111">,</span> <span style="color:#ae81ff">84</span><span style="color:#111">,</span> <span style="color:#ae81ff">405</span><span style="color:#111">,</span> <span style="color:#ae81ff">41</span><span style="color:#111">,</span> <span style="color:#ae81ff">302</span><span style="color:#111">,</span> <span style="color:#ae81ff">480</span><span style="color:#111">,</span> <span style="color:#ae81ff">57</span><span style="color:#111">,</span> <span style="color:#ae81ff">155</span><span style="color:#111">,</span> <span style="color:#ae81ff">17</span><span style="color:#111">,</span> <span style="color:#ae81ff">350</span><span style="color:#111">,</span> <span style="color:#ae81ff">87</span><span style="color:#111">,</span> <span style="color:#ae81ff">313</span><span style="color:#111">,</span> <span style="color:#ae81ff">36</span><span style="color:#111">,</span> <span style="color:#ae81ff">191</span><span style="color:#111">,</span> <span style="color:#ae81ff">367</span><span style="color:#111">,</span> <span style="color:#ae81ff">163</span><span style="color:#111">,</span> <span style="color:#ae81ff">167</span><span style="color:#111">,</span> <span style="color:#ae81ff">185</span><span style="color:#111">,</span> <span style="color:#ae81ff">93</span><span style="color:#111">,</span> <span style="color:#ae81ff">131</span><span style="color:#111">,</span> <span style="color:#ae81ff">314</span><span style="color:#111">,</span> <span style="color:#ae81ff">444</span><span style="color:#111">,</span> <span style="color:#ae81ff">452</span><span style="color:#111">,</span> <span style="color:#ae81ff">47</span><span style="color:#111">,</span> <span style="color:#ae81ff">457</span><span style="color:#111">,</span> <span style="color:#ae81ff">28</span><span style="color:#111">,</span> <span style="color:#ae81ff">21</span><span style="color:#111">,</span> <span style="color:#ae81ff">405</span><span style="color:#111">,</span> <span style="color:#ae81ff">350</span><span style="color:#111">,</span> <span style="color:#ae81ff">241</span><span style="color:#111">,</span> <span style="color:#ae81ff">121</span><span style="color:#111">,</span> <span style="color:#ae81ff">411</span><span style="color:#111">,</span> <span style="color:#ae81ff">152</span><span style="color:#111">,</span> <span style="color:#ae81ff">244</span><span style="color:#111">,</span> <span style="color:#ae81ff">207</span><span style="color:#111">,</span> <span style="color:#ae81ff">199</span><span style="color:#111">,</span> <span style="color:#ae81ff">371</span><span style="color:#111">,</span> <span style="color:#ae81ff">193</span><span style="color:#111">,</span> <span style="color:#ae81ff">4</span><span style="color:#111">,</span> <span style="color:#ae81ff">286</span><span style="color:#111">,</span> <span style="color:#ae81ff">482</span><span style="color:#111">,</span> <span style="color:#ae81ff">496</span><span style="color:#111">,</span> <span style="color:#ae81ff">283</span><span style="color:#111">,</span> <span style="color:#ae81ff">23</span><span style="color:#111">,</span> <span style="color:#ae81ff">466</span><span style="color:#111">,</span> <span style="color:#ae81ff">8</span><span style="color:#111">,</span> <span style="color:#ae81ff">84</span><span style="color:#111">,</span> <span style="color:#ae81ff">47</span><span style="color:#111">,</span> <span style="color:#ae81ff">231</span><span style="color:#111">,</span> <span style="color:#ae81ff">112</span><span style="color:#111">,</span> <span style="color:#ae81ff">329</span><span style="color:#111">,</span> <span style="color:#ae81ff">328</span><span style="color:#111">,</span> <span style="color:#ae81ff">85</span><span style="color:#111">,</span> <span style="color:#ae81ff">208</span><span style="color:#111">,</span> <span style="color:#ae81ff">161</span><span style="color:#111">,</span> <span style="color:#ae81ff">42</span><span style="color:#111">,</span> <span style="color:#ae81ff">251</span><span style="color:#111">,</span> <span style="color:#ae81ff">277</span><span style="color:#111">,</span> <span style="color:#ae81ff">207</span><span style="color:#111">,</span> <span style="color:#ae81ff">496</span><span style="color:#111">,</span> <span style="color:#ae81ff">3</span><span style="color:#111">,</span> <span style="color:#ae81ff">137</span><span style="color:#111">,</span> <span style="color:#ae81ff">138</span><span style="color:#111">,</span> <span style="color:#ae81ff">436</span><span style="color:#111">,</span> <span style="color:#ae81ff">447</span><span style="color:#111">,</span> <span style="color:#ae81ff">442</span><span style="color:#111">,</span> <span style="color:#ae81ff">313</span><span style="color:#111">,</span> <span style="color:#ae81ff">479</span><span style="color:#111">,</span> <span style="color:#ae81ff">464</span><span style="color:#111">,</span> <span style="color:#ae81ff">191</span><span style="color:#111">,</span> <span style="color:#ae81ff">19</span><span style="color:#111">,</span> <span style="color:#ae81ff">78</span><span style="color:#111">,</span> <span style="color:#ae81ff">333</span><span style="color:#111">,</span> <span style="color:#ae81ff">480</span><span style="color:#111">,</span> <span style="color:#ae81ff">36</span><span style="color:#111">,</span> <span style="color:#ae81ff">378</span><span style="color:#111">,</span> <span style="color:#ae81ff">232</span><span style="color:#111">,</span> <span style="color:#ae81ff">438</span><span style="color:#111">,</span> <span style="color:#ae81ff">451</span><span style="color:#111">,</span> <span style="color:#ae81ff">139</span><span style="color:#111">,</span> <span style="color:#ae81ff">444</span><span style="color:#111">,</span> <span style="color:#ae81ff">392</span><span style="color:#111">,</span> <span style="color:#ae81ff">75</span><span style="color:#111">,</span> <span style="color:#ae81ff">245</span><span style="color:#111">,</span> <span style="color:#ae81ff">151</span><span style="color:#111">,</span> <span style="color:#ae81ff">225</span><span style="color:#111">,</span> <span style="color:#ae81ff">50</span><span style="color:#111">,</span> <span style="color:#ae81ff">369</span><span style="color:#111">,</span> <span style="color:#ae81ff">49</span><span style="color:#111">,</span> <span style="color:#ae81ff">73</span><span style="color:#111">,</span> <span style="color:#ae81ff">325</span><span style="color:#111">,</span> <span style="color:#ae81ff">430</span><span style="color:#111">,</span> <span style="color:#ae81ff">335</span><span style="color:#111">]</span>
+</span></span></code></pre></div><p>Por exemplo, peça ao usuário para inserir um número no console e, em seguida, escreva no console se ele for encontrado.
+Dica: Você precisará converter as informações inseridas pelo usuário em um número inteiro usando <code>int(x)</code>.</p>
+<iframe src="https://trinket.io/embed/python/1beb594e30" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<h3 id="pergunta">Pergunta</h3>
+<p>Como você mudaria este programa se a lista fosse muito grande? Se você encontrou um número, precisa continuar pesquisando no restante da lista?</p>
+
+
+    
+    
+      <div class="chevrons">
+  <style>
+    .workshop-complete-image {
+        margin: 40px auto 50px auto;
+        width: 340.8px;
+    }
+    
+    .workshop-complete-words {
+        font-family: Space Mono, monospace;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        text-align: center;
+    }
+    
+    .horizontal-bar {
+        background-color: #000000;
+        width: 120px;
+        height: 12px;
+        margin: 80px auto 0 auto;
+    }
+</style>
+
+
+    <div id="navigation">
+            <div class="next-prev-wrapper-div"><a class='nav nav-prev' href="/pt-br/python-basics/conditional-statements-loops/else-if-statement/" title="Condição Else-if">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Anterior:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Condição Else-if
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="prevbutton-image">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+        
+    </div>
+</a></div>
+            <div class="next-prev-wrapper-div"><a class='nav nav-next' href="/pt-br/python-basics/conditional-statements-loops/nested-loops/" title="Nested Loops">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Próximo:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Nested Loops
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="nextbutton-image">
+            <i class="fa fa-arrow-right"></i>
+        </div>
+        
+    </div>
+</a></div>
+        </div>
+</div>
+
+</section>
+</article>
+
+<footer>
+  <div class="footline">
+    
+
+    
+
+    
+
+    
+    <div class="github-link">
+      <a href="https://github.com/NuevoFoundation/workshops/tree/master/content/python-basics/conditional-statements-loops/loops.md" target="blank"><i
+          class="fa fa-code-fork"></i>
+        </a>
+    </div>
+    
+  </div>
+
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+    
+
+    
+    
+
+    <div id="footer" class="row">
+    <div class="col-xs-12">
+        <div class="App-footer">
+            <div class="App-footer-big">
+                Siga-nos nas redes sociais.
+            </div>
+            <div class="social-images">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Instagram" class="fab fa-2x fa-instagram"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation X" class="fab fa-2x fa-x-twitter"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Facebook" class="fab fa-2x fa-1x fa-facebook-f"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-2x fa-linkedin"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/nuevofoundation?sub_confirmation=1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation YouTube" class="fab fa-2x fa-youtube"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Spotify" class="fab fa-2x fa-spotify"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Github" class="fab fa-2x fa-github"></i>
+                </a>
+            </div>
+            <div class="App-footer-small">
+                © Copyright 2025, Todos os direitos reservados a Nuevo Foundation, uma organização sem fins lucrativos de acordo com a norma 501(c)(3) da lei federal dos Estados Unidos.
+            </div>
+        </div>
+    </div>
+</div>
+
+  </body>
+</html>

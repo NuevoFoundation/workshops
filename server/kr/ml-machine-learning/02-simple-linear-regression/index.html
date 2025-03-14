@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nuevo Foundation Workshops</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+<meta name="theme-color" content="#000000" />
+<meta name="revised" content="2025-03-14T19:00:14 -03">
+<meta name="application-name" content=" " />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+<title>단순 선형 회귀 :: Nuevo Foundation Workshops</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+
+<link rel="shortcut icon" href="https://www.nuevofoundation.org/favicons/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57"
+      href="https://www.nuevofoundation.org/favicons//apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120"
+      href="https://www.nuevofoundation.org/favicons/pple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-128.png" sizes=" 128x128" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="/css/nuevoweb.css" />
+<link rel="stylesheet" href="/css/chunk.css" />
+<link rel="stylesheet" href="/css/data-style.css" />
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+
+<script lang="JavaScript">
+
+      function toggleVisibility() {
+
+            
+            const menu = document.getElementById("mobile-nav-menu");
+            if (menu.style.display == 'none') {
+                  menu.classList.replace("transition-out", "transition-in")
+                  menu.style.display = 'block';
+            }
+            else if (menu.style.display == 'block') {
+                  menu.classList.replace("transition-in", "transition-out")
+                  menu.style.display = 'none';
+            }
+      }
+</script>
+<meta
+  name="description"
+  content="
+
+    컴퓨터가 결과를 예측하게 하는 법 알아보기.
+"
+/>
+
+
+    
+  </head>
+  <body data-url="/kr/ml-machine-learning/02-simple-linear-regression/" >
+    
+      <header>
+  
+  <div id="mobile-nav-menu" class="transition-out" style="display: none;">
+    <div class="close-btn" onclick="toggleVisibility();">
+        <i aria-hidden="true" focusable="false" style="cursor: pointer;" class="fa fa-times fa-w-11 fa-sm"></i>
+    </div>
+    <div>
+        <div class="sc-dNLxif ecnYUM">
+            <a href="/support-us"><button class="sc-jbKcbu sedGx"
+                    style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: 4px solid rgb(0, 0, 0); border-radius: 4px;">
+                    기부하기
+                </button></a>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/what-we-do">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>우리가 하는 일</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/get-involved">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>참여하세요</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/support-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>우리를 지원해주세요</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/blog">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>이벤트 블로그</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/about-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>우리 팀</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/contact">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>문의하기</li>
+            </ul>
+        </a>
+    </div>
+</div>
+<div>
+    <div class="sc-gGBfsJ iKkPGj">
+        <div class="container-fluid">
+            <div id="toprow" class="row">
+                <div class="col-xs-12">
+                    <div class="sc-EHOje fJMnSm">
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.instagram.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation Instagram" class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://twitter.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation X" class="fab fa-x-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Facebook" class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.linkedin.com/company/nuevofoundation">
+                                <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://www.youtube.com/nuevofoundation?sub_confirmation=1n">
+                                <i aria-label="Nuevo Foundation YouTube" class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1">
+                                <i aria-label="Nuevo Foundation Spotify" class="fab fa-spotify"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://github.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Github" class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" rel="noopener noreferrer"
+                                href="https://nuevofoundation.org/support-us">기부하기</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="secondrow" class="row">
+                <div class="col-sm-12 hidden-xs">
+                    <div class="sc-htoDjs kjtfZK">
+                        <a class="sc-fjdhpX izNzAG active" aria-current="page" href="https://nuevofoundation.org">
+                            <img alt="Nuevo Foundation Logo" src="/images/Logo_long.0f097b90.svg"
+                                height="60px" />
+                        </a>
+                        <ul class="sc-iwsKbI bUOvG">
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/what-we-do">
+                                <li class="sc-gZMcBi Bomeo">우리가 하는 일</li>
+                            </a>
+                            <a class="izNzAG" href="/">
+                                <li class="sc-gZMcBi Bomeo-selected jgBGVn">워크샵<span></span></li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/get-involved">
+                                <li class="sc-gZMcBi Bomeo">참여하세요</li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/support-us">
+                                <li class="sc-gZMcBi Bomeo">우리를 지원해주세요</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/blog">
+                                <li class="sc-gZMcBi Bomeo">이벤트 블로그</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/about-us">
+                                <li class="sc-gZMcBi Bomeo">우리 팀</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/contact">
+                                <li class="sc-gZMcBi Bomeo">문의하기</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <a class="sc-fjdhpX izNzAG active" aria-current="page" href="/">
+                                <img alt="Nuevo Foundation Logo" class="sc-dnqmqq emolVn"
+                                    src="/images/Logo_long.0f097b90.svg" height="60%" /></a>
+                        </div>
+                        <div class="col-xs-2" onclick="toggleVisibility();"
+                            style="padding-top: 4%; padding-left: 4%; cursor: pointer;">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                                class="svg-inline--fa fa-bars fa-w-14 fa-lg" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/kr/ml-machine-learning/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/kr/ml-machine-learning/">머신 러닝: 선형 회귀</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/kr/ml-machine-learning/01-regression/" class="dd-item">
+        <div>
+          <a href="/kr/ml-machine-learning/01-regression/">
+            ‘회귀’란 무엇인가요?
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/ml-machine-learning/02-simple-linear-regression/" class="dd-item active">
+        <div>
+          <a href="/kr/ml-machine-learning/02-simple-linear-regression/">
+            단순 선형 회귀
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/ml-machine-learning/03-confidence-intervals/" class="dd-item">
+        <div>
+          <a href="/kr/ml-machine-learning/03-confidence-intervals/">
+            신뢰 구간(Confidence Interval)
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/ml-machine-learning/04-model-fit/" class="dd-item">
+        <div>
+          <a href="/kr/ml-machine-learning/04-model-fit/">
+            모델 적합도
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/ml-machine-learning/05-making-predictions/" class="dd-item">
+        <div>
+          <a href="/kr/ml-machine-learning/05-making-predictions/">
+            예측하기
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+    </ul>
+
+    <section>
+    </section>
+  </aside>
+  <section class="page">
+    <div align="right">
+<select id="select-language" onchange="location = this.value;">
+	
+	
+	
+	  
+	  
+	    
+	      
+	        <option id="en" value="/ml-machine-learning/02-simple-linear-regression/">English</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="kr" value="/kr/ml-machine-learning/02-simple-linear-regression/" selected>한국어</option>
+	      
+	    
+	  
+	    
+	  
+	
+</select>
+    </div>
+
+    <div class="nav-select">
+      항해:&nbsp;
+      <select onchange="javascript:location.href = this.value;">
+        
+<option value="/kr/ml-machine-learning/" >
+   머신 러닝: 선형 회귀</option>
+
+<option value="/kr/ml-machine-learning/01-regression/" >- ‘회귀’란 무엇인가요?</option>
+<option value="/kr/ml-machine-learning/02-simple-linear-regression/"  selected>- 단순 선형 회귀</option>
+<option value="/kr/ml-machine-learning/03-confidence-intervals/" >- 신뢰 구간(Confidence Interval)</option>
+<option value="/kr/ml-machine-learning/04-model-fit/" >- 모델 적합도</option>
+<option value="/kr/ml-machine-learning/05-making-predictions/" >- 예측하기</option>
+
+
+
+      </select>
+
+    </div>
+    
+
+    <h1>단순 선형 회귀</h1>
+
+    
+
+    
+
+    
+    
+    
+    
+    <h1 id="단순-선형-회귀란">단순 선형 회귀란?</h1>
+<p>단순 선형 회귀(Simple Linear Regression)는 두 변수 간의 상관관계를 찾아내고, 이 관계를 설명하는 수학적 공식을 만드는 방법입니다. 일반적으로 단순 선형 회귀에서는 다음과 같은 결론에 도달하는 것을 목적으로 합니다:</p>
+<ol>
+<li>
+<p>우리가 가진 변수들 간에 관계가 있는가?</p>
+<p>여러분은 소득과 소비, 경력과 급여, 또는 습도와 온도 사이의 관계를 파악할 수 있습니다. 반면, 학생의 키와 시험 점수 사이에는 아무런 관계가 없습니다.</p>
+</li>
+<li>
+<p>값을 예측하거나 예견할 수 있는가?</p>
+<p>회귀 분석(Regression)을 통해 모델을 학습시키고, 값을 확실하게 예측할 수 있는지 알아낼 수 있습니다. 우리가 관계에 대해 알고 있는 정보를 사용해서 새로운 값을 예측할 수 있을까요?</p>
+<p>예시:</p>
+<ul>
+<li>내일 온도는 몇 도가 될까?</li>
+<li>올해 우리 빵집은 작년과 비교해서 얼마나 매출을 올릴까?</li>
+<li>내가 경력이 5년이라면 급여는 얼마가 될까?</li>
+</ul>
+</li>
+</ol>
+<h1 id="변수의-역할">변수의 역할</h1>
+<p>단순 선형 회귀에서 변수는 두 가지 역할 중 하나를 맡습니다:</p>
+<ol>
+<li>
+<p><strong>종속 변수(Dependent Variable):</strong></p>
+<p>예측하거나 알아내고 싶은 값입니다. 종속 변수는 다른 변수에 따라 값이 결정되므로, &ldquo;종속적&quot;이라고 부릅니다. 이를 <strong>y</strong>라고 합니다.</p>
+</li>
+<li>
+<p><strong>독립 변수(Independent Variable):</strong></p>
+<p>종속 변수에 영향을 미치는 변수입니다. 우리가 조정하거나 변경할 수 있는 변수입니다. 이를 <strong>x</strong>라고 합니다.</p>
+<p>예시: <br>
+만약 사과 한 개의 가격이 $1.00이고, 사과를 10개 산다면 총 비용은 $10.00이 됩니다.</p>
+<ul>
+<li>이 경우, 종속 변수(y)는 총 비용입니다.</li>
+<li>독립 변수(x)는 사과의 개수입니다.</li>
+</ul>
+</li>
+</ol>
+<h1 id="단순-선형-방정식의-수학적-모델">단순 선형 방정식의 수학적 모델</h1>
+<p>우리가 단순 선형 회귀를 사용할 때 이를 &ldquo;선형(linear)&ldquo;이라고 부르는 이유는, 수학적 모델이 2차원 평면에서 직선을 나타내기 때문입니다.
+잠시 생각해 봅시다.</p>
+<p><strong>직선의 수학적 방정식은 무엇일까요?</strong></p>
+<div class="expand">
+<div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fa fa-chevron-down' : 'fa fa-chevron-right';});});">
+<i style="font-size:x-small;" class="fa fa-chevron-right"></i>
+<span><strong>답변 보기</strong></span>
+</div>
+<div class="expand-content" style="display: none;">
+<p><p>이 공식은 아마 익숙하게 느껴질 것입니다. 바로 직선의 일반 방정식입니다:</p>
+<h1>
+\[
+    y = ax + b
+\]
+</h1>
+<ul>
+<li>x: 독립 변수(independent variable)</li>
+<li>y: 종속 변수(dependent variable)</li>
+<li>a: 직선의 기울기(slope)</li>
+<li>b: 절편(intercept), 즉 x=0일 때 y의 값</li>
+</ul>
+<p>이 공식을 바탕으로 단순 선형 회귀 모델이 새로운 값을 어떻게 계산하고 예측하는지 자세히 알아보겠습니다.</p>
+</p>
+</div>
+</div>
+<h1 id="실제-세계에서의-예시">실제 세계에서의 예시</h1>
+<p>실제로는 데이터가 항상 선형적이지 않고, 예상한 것과 다르게 나타날 때가 많습니다. 처음에는 데이터 사이에 아무런 관계가 없어 보일 수도 있지만 단순 선형 회귀의 경우, 우리가 찾아야 할 것은 어느 정도 선형적인 패턴을 따르는 데이터입니다.</p>
+<p>여러분이 한 회사의 인사과에서 <code>데이터 분석가</code>로 일하고 있다고 가정해 보겠습니다. 이 회사에는 10,000명 이상의 직원이 있습니다. 여러분의 상사가 직원의 경력(근무 연수)이 급여와 관련이 있는지 알고 싶어 합니다. 데이터 분석가인 여러분은 직원 <code>데이터베이스</code>를 확인하여 다음과 같은 정보를 쉽게 확인할 수 있습니다:</p>
+<ol>
+<li>직원의 현재 급여는 얼마인가?</li>
+<li>직원의 경력(근무 연수)은 얼마인가?</li>
+</ol>
+<p>30명의 직원을 무작위로 선택해 데이터를 수집했다고 가정해 보겠습니다. 데이터는 다음과 같습니다:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center">직원 ID</th>
+          <th style="text-align: center">경력(근무 연수)</th>
+          <th style="text-align: center">급여</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">1</td>
+          <td style="text-align: center">1.1</td>
+          <td style="text-align: center">39343</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">2</td>
+          <td style="text-align: center">1.3</td>
+          <td style="text-align: center">46205</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">3</td>
+          <td style="text-align: center">1.5</td>
+          <td style="text-align: center">37731</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">4</td>
+          <td style="text-align: center">2.0</td>
+          <td style="text-align: center">43525</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">5</td>
+          <td style="text-align: center">2.2</td>
+          <td style="text-align: center">39891</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">6</td>
+          <td style="text-align: center">2.9</td>
+          <td style="text-align: center">56642</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">7</td>
+          <td style="text-align: center">3.0</td>
+          <td style="text-align: center">60150</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">8</td>
+          <td style="text-align: center">3.2</td>
+          <td style="text-align: center">54445</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">&hellip;</td>
+          <td style="text-align: center">&hellip;</td>
+          <td style="text-align: center">&hellip;</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">26</td>
+          <td style="text-align: center">9.0</td>
+          <td style="text-align: center">105582</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">27</td>
+          <td style="text-align: center">9.5</td>
+          <td style="text-align: center">116969</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">28</td>
+          <td style="text-align: center">9.6</td>
+          <td style="text-align: center">112635</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">29</td>
+          <td style="text-align: center">10.3</td>
+          <td style="text-align: center">122391</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">30</td>
+          <td style="text-align: center">10.5</td>
+          <td style="text-align: center">121872</td>
+      </tr>
+  </tbody>
+</table>
+<p>표를 확인한 후, 이 값을 2D 산점도(scatter plot)로 시각화하면 아래와 같은 그래프를 얻을 수 있습니다.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="../resources/Years_vs_Salary.png" alt="Years of Experience vs Salary"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">산점도 : 경력과 급여</td>
+      </tr>
+  </tbody>
+</table>
+<p>위 그래프에서 점들은 어느 정도 직선의 모양으로 나타납니다. 이제 가상의 직선을 그려, 그 선이 모든 점을 통과할 수 있는지 확인해 봅시다.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="../resources/Years_vs_Salary_with_trendline.png" alt="Years of Experience vs Salary with Trendline"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">산점도 : 경력과 급여를 직선으로 나타내기</td>
+      </tr>
+  </tbody>
+</table>
+<p>직선이 모든 점을 완벽히 통과하지는 않지만, 대부분 가까운 위치에 있습니다. 이는 무엇을 의미할까요? 왜 어떤 경우에는 점이 직선에 가깝고, 또 어떤 경우에는 멀리 떨어져 있을까요?</p>
+<p>현재까지 우리가 알고 있는 것은 다음과 같습니다:</p>
+<ul>
+<li>데이터가 선형적인 경향을 따르고 있습니다.</li>
+<li>데이터에는 두 가지 중요한 변수, 즉 급여(salary)와 경력(years of experience)이 포함되어 있습니다.<br>
+이는 우리가 데이터를 선형 방정식(linear equation)으로 모델링할 수 있음을 의미합니다.</li>
+</ul>
+<p><strong>질문:</strong> 우리는 <strong>급여(SALARY)</strong> 와 <strong>경력(YEARS OF EXPERIENCE)</strong> 이 변수라는 것을 알고 있습니다. 그렇다면 이 중에서 어느 것이 <code>종속 변수(dependent Variable)</code>이고, 어느 것이 <code>독립 변수(independent Variable)</code>일까요?</p>
+<div class="expand">
+<div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fa fa-chevron-down' : 'fa fa-chevron-right';});});">
+<i style="font-size:x-small;" class="fa fa-chevron-right"></i>
+<span><strong>답변 보기</strong></span>
+</div>
+<div class="expand-content" style="display: none;">
+<p><ul>
+<li>경력은 독립 변수입니다.</li>
+<li>급여는 종속 변수입니다.</li>
+</ul>
+<p>이 값을 선형 방정식에 대입하면 다음과 같은 식을 얻을 수 있습니다:</p>
+<h1>
+\[
+    급여 = a(경력) + b
+\]
+</h1>
+<p>이 방정식은 &ldquo;직원의 경력 연수가 급여에 직접적인 영향을 미친다&quot;는 것을 나타냅니다.</p>
+</p>
+</div>
+</div>
+<h1 id="오류의-가능성">오류의 가능성</h1>
+<p>앞에서 알아 보았듯이 데이터는 항상 일정하지 않을 수 있으며, 여러 방식으로 다르게 나타날 수 있습니다. 이는 우리가 사용하는 선형 방정식에 오류(Error)를 고려해야 함을 의미합니다. 하지만 방정식에서 이러한 오류를 어떻게 나타낼 수 있을까요? 또한 산점도(Scatter Plot)에서 이 오류를 어떻게 시각화할 수 있을까요?</p>
+<p>아래의 표에서 선택된 모든 직원이 텍사스 주 산안토니오(San Antonio, TX) 출신이지만, 인사부에서 실수로 시애틀(Seattle, WA) 출신의 직원 데이터를 포함시켰다고 가정해봅시다. <a href="https://www.numbeo.com/cost-of-living/compare_cities.jsp?country1=United&#43;States&amp;country2=United&#43;States&amp;city1=Seattle%2C&#43;WA&amp;city2=San&#43;Antonio%2C&#43;TX&amp;tracking=getDispatchComparison" target="_blank">시애틀의 생활비는 산안토니오보다 28.6% 더 높습니다<sup><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></sup></a>
+. 이로 인해 산점도에서 일부 데이터 포인트가 우리가 그린 가상의 직선에서 더 멀리 떨어져 있는 것을 설명할 수 있습니다. 이러한 점들은 데이터의 오류(Errors)로 간주됩니다.</p>
+<!-- TODO: Add diagram to replace the figure below.-->
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="../resources/error-lines.svg" alt="단순 선형 회귀의 오류선"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">단순 선형 회귀의 오류선</td>
+      </tr>
+  </tbody>
+</table>
+<p>우리의 선형 방정식에 오류를 추가할 때, 이를 그리스 문자 <strong>ε(에타)</strong> 로 표현합니다..</p>
+<h1>
+\[
+    급여 = a(경력) + b + ε
+\]
+</h1>
+<p><strong>ε</strong> 는 데이터에서 발생할 수 있는 오류(error)를 나타냅니다. 단순 선형 회귀의 목표는 데이터 포인트와 직선 사이의 이 오류를 최소화하는 가상의 직선을 그리는 것입니다. 이 오류 값은 종종 무시되기도 하지만, 중요한 점은 우리의 선형 방정식이 이 오류를 고려한다는 것입니다. 이를 반영하면 다음의 [예제1]과 같은 방식으로 선형 방정식을 표현할 수 있습니다.</p>
+<h1 id="예제-1-scikit-learn-사용해보기">예제 1: Scikit-learn 사용해보기</h1>
+<p>Scikit-learn은 머신러닝 라이브러리로, 내장된 단순 선형 회귀 모델을 사용해 데이터를 분석하고 예측할 수 있도록 도와줍니다. 아래 Replit 창에서 프로그램 <code>02-e1.py</code>를 실행할 수 있습니다. 이 프로그램은 회사 직원의 경력과 급여 데이터를 활용하며, 직원 30명의 샘플을 추출해 그래프로 표시합니다.</p>
+<p><a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/LinearRegression-ConsoleApp#src/02-e1.py" target="_blank">Replit 실행하기</a></p>
+<h1 id="예제-2-기울기slope와-절편intercept-찾기">예제 2: 기울기(Slope)와 절편(Intercept) 찾기</h1>
+<p>다음으로 넘어가기 전에, 우리의 방정식을 다시 한번 살펴보겠습니다.
+현재 방정식은 다음과 같이 업데이트되었습니다:</p>
+<h1>
+\[
+    급여 = a(경력) + b + ε
+\]
+</h1>
+<p>우리는 이미 x와 y 값이 무엇인지 알고 있습니다. 하지만 a와 b는 어떨까요? 이 값들이 무엇을 의미하는지 다시 정리해 봅시다:</p>
+<ul>
+<li>a: 직선의 기울기(Slope) 또는 계수(Coefficient)입니다. 기울기는 종속 변수(이 경우, 급여)가 어떻게 변화하는지 나타냅니다.</li>
+<li>b: 절편(Intercept)으로, x = 0일 때 y의 값입니다. 데이터를 그래프로 나타내면, 경력이 0일 때의 급여 값을 확인할 수 있습니다.</li>
+</ul>
+<p>잠깐! 만약 회사에 경력이 전혀 없는 상태에서 입사하면, 급여가 0이라는 뜻인가요? 뭔가 이상하죠? 실제 값을 알아보도록 합시다. Scikit-learn을 사용하면 선형 회귀 모델(Linear Regression Model)을 통해 a와 b 값을 구할 수 있습니다. 아래 Replit 창에서 코드를 분석하며 a와 b를 계산해 봅시다!</p>
+<p>먼저 CSV 파일에서 데이터를 가져와야 합니다:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># 데이터셋 불러오기</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">dataset</span> <span style="color:#f92672">=</span> <span style="color:#111">pd</span><span style="color:#f92672">.</span><span style="color:#111">read_csv</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Experience_vs_Salary.csv&#34;</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">x</span> <span style="color:#f92672">=</span> <span style="color:#111">dataset</span><span style="color:#f92672">.</span><span style="color:#111">iloc</span><span style="color:#111">[:,</span> <span style="color:#111">:</span><span style="color:#f92672">-</span><span style="color:#ae81ff">1</span><span style="color:#111">]</span><span style="color:#f92672">.</span><span style="color:#111">values</span> <span style="color:#75715e"># &#34;Experience&#34;(경력 연수) 열의 모든 값 가져오기</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">y</span> <span style="color:#f92672">=</span> <span style="color:#111">dataset</span><span style="color:#f92672">.</span><span style="color:#111">iloc</span><span style="color:#111">[:,</span> <span style="color:#ae81ff">1</span><span style="color:#111">]</span><span style="color:#f92672">.</span><span style="color:#111">values</span> <span style="color:#75715e"># # &#34;Salary&#34;(급여) 열의 모든 값 가져오기</span>
+</span></span></code></pre></div><p>다음으로, 선형 회기 모델 클래스를 생성하고 데이터를 학습시킵니다. fit 함수는 CSV 파일에서 가져온 값을 분석하여 기울기(Slope)와 절편(Intercept) 값을 계산합니다:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#111">model</span> <span style="color:#f92672">=</span> <span style="color:#111">linear_model</span><span style="color:#f92672">.</span><span style="color:#111">LinearRegression</span><span style="color:#111">()</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">model</span><span style="color:#f92672">.</span><span style="color:#111">fit</span><span style="color:#111">(</span><span style="color:#111">x</span><span style="color:#111">,</span><span style="color:#111">y</span><span style="color:#111">)</span>
+</span></span></code></pre></div><p><a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/LinearRegression-ConsoleApp#src/02-e2.py" target="_blank">Replit 실행하기</a></p>
+<p>이 코드를 실행하면, 선형 방정식의 계수(Coefficient)와 절편(Intercept) 값이 반환됩니다.
+이제 이 값을 사용하여 선형 방정식을 업데이트해 봅시다!</p>
+<h3>
+\[
+    절편=25792.20
+\]
+\[
+    계수=9449.96
+\]
+\[
+    급여=9449.96(경력)+25792.20+ε
+\]
+</h3>
+<p>우리는 모델이 절편(Intercept) 값으로 25,792.20을 제공했다는 것을 알고 있습니다.
+이는 경력이 전혀 없는 직원의 급여가 $25,792.20임을 의미합니다.
+그렇다면 9,449.96은 무엇을 뜻할까요?
+이 값은 경력이 1년 증가할 때마다 직원의 급여가 $9,449.96씩 증가한다는 의미입니다.
+하지만 이 값들이 정말 정확한지 어떻게 확인할 수 있을까요?
+무작위로 다른 30명의 직원을 선택해서 그들의 급여를 검증하면, 같은 값을 얻을 수 있을까요? 이러한 질문에 대한 답을 알아보기 위해 데이터를 더 분석해야 합니다.</p>
+
+
+    
+    
+      <div class="chevrons">
+  <style>
+    .workshop-complete-image {
+        margin: 40px auto 50px auto;
+        width: 340.8px;
+    }
+    
+    .workshop-complete-words {
+        font-family: Space Mono, monospace;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        text-align: center;
+    }
+    
+    .horizontal-bar {
+        background-color: #000000;
+        width: 120px;
+        height: 12px;
+        margin: 80px auto 0 auto;
+    }
+</style>
+
+
+    <div id="navigation">
+            <div class="next-prev-wrapper-div"><a class='nav nav-prev' href="/kr/ml-machine-learning/01-regression/" title="‘회귀’란 무엇인가요?">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                이전의:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                ‘회귀’란 무엇인가요?
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="prevbutton-image">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+        
+    </div>
+</a></div>
+            <div class="next-prev-wrapper-div"><a class='nav nav-next' href="/kr/ml-machine-learning/03-confidence-intervals/" title="신뢰 구간(Confidence Interval)">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                다음:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                신뢰 구간(Confidence Interval)
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="nextbutton-image">
+            <i class="fa fa-arrow-right"></i>
+        </div>
+        
+    </div>
+</a></div>
+        </div>
+</div>
+
+</section>
+</article>
+
+<footer>
+  <div class="footline">
+    
+
+    
+
+    
+
+    
+    <div class="github-link">
+      <a href="https://github.com/NuevoFoundation/workshops/tree/master/content/ml-machine-learning/02-simple-linear-regression.md" target="blank"><i
+          class="fa fa-code-fork"></i>
+        </a>
+    </div>
+    
+  </div>
+
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+    
+
+    
+    
+
+    <div id="footer" class="row">
+    <div class="col-xs-12">
+        <div class="App-footer">
+            <div class="App-footer-big">
+                소셜 미디어에서 대화에 참여하세요.
+            </div>
+            <div class="social-images">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Instagram" class="fab fa-2x fa-instagram"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation X" class="fab fa-2x fa-x-twitter"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Facebook" class="fab fa-2x fa-1x fa-facebook-f"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-2x fa-linkedin"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/nuevofoundation?sub_confirmation=1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation YouTube" class="fab fa-2x fa-youtube"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Spotify" class="fab fa-2x fa-spotify"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Github" class="fab fa-2x fa-github"></i>
+                </a>
+            </div>
+            <div class="App-footer-small">
+                © 저작권 2025, 모든 권리는 501(c)(3) 비영리 단체인 Nuevo Foundation에 있습니다.
+            </div>
+        </div>
+    </div>
+</div>
+
+  </body>
+</html>

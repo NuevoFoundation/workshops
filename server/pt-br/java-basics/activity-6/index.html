@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nuevo Foundation Workshops</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+<meta name="theme-color" content="#000000" />
+<meta name="revised" content="2025-03-14T19:00:04 -03">
+<meta name="application-name" content=" " />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+<title>Objeto e Classes :: Nuevo Foundation Workshops</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+
+<link rel="shortcut icon" href="https://www.nuevofoundation.org/favicons/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57"
+      href="https://www.nuevofoundation.org/favicons//apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120"
+      href="https://www.nuevofoundation.org/favicons/pple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-128.png" sizes=" 128x128" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="/css/nuevoweb.css" />
+<link rel="stylesheet" href="/css/chunk.css" />
+<link rel="stylesheet" href="/css/data-style.css" />
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+
+<script lang="JavaScript">
+
+      function toggleVisibility() {
+
+            
+            const menu = document.getElementById("mobile-nav-menu");
+            if (menu.style.display == 'none') {
+                  menu.classList.replace("transition-out", "transition-in")
+                  menu.style.display = 'block';
+            }
+            else if (menu.style.display == 'block') {
+                  menu.classList.replace("transition-in", "transition-out")
+                  menu.style.display = 'none';
+            }
+      }
+</script>
+<meta
+  name="description"
+  content="
+
+    Apresente objeto e classe em Java.
+"
+/>
+
+
+    
+  </head>
+  <body data-url="/pt-br/java-basics/activity-6/" >
+    
+      <header>
+  
+  <div id="mobile-nav-menu" class="transition-out" style="display: none;">
+    <div class="close-btn" onclick="toggleVisibility();">
+        <i aria-hidden="true" focusable="false" style="cursor: pointer;" class="fa fa-times fa-w-11 fa-sm"></i>
+    </div>
+    <div>
+        <div class="sc-dNLxif ecnYUM">
+            <a href="/support-us"><button class="sc-jbKcbu sedGx"
+                    style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: 4px solid rgb(0, 0, 0); border-radius: 4px;">
+                    Faça uma doação
+                </button></a>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/what-we-do">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Sobre nós</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/get-involved">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Faça parte</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/support-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Apoie-nos</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/blog">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Últimos eventos</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/about-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Conheça nosso time</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/contact">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Fale conosco</li>
+            </ul>
+        </a>
+    </div>
+</div>
+<div>
+    <div class="sc-gGBfsJ iKkPGj">
+        <div class="container-fluid">
+            <div id="toprow" class="row">
+                <div class="col-xs-12">
+                    <div class="sc-EHOje fJMnSm">
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.instagram.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation Instagram" class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://twitter.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation X" class="fab fa-x-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Facebook" class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.linkedin.com/company/nuevofoundation">
+                                <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://www.youtube.com/nuevofoundation?sub_confirmation=1n">
+                                <i aria-label="Nuevo Foundation YouTube" class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1">
+                                <i aria-label="Nuevo Foundation Spotify" class="fab fa-spotify"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://github.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Github" class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" rel="noopener noreferrer"
+                                href="https://nuevofoundation.org/support-us">Faça uma doação</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="secondrow" class="row">
+                <div class="col-sm-12 hidden-xs">
+                    <div class="sc-htoDjs kjtfZK">
+                        <a class="sc-fjdhpX izNzAG active" aria-current="page" href="https://nuevofoundation.org">
+                            <img alt="Nuevo Foundation Logo" src="/images/Logo_long.0f097b90.svg"
+                                height="60px" />
+                        </a>
+                        <ul class="sc-iwsKbI bUOvG">
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/what-we-do">
+                                <li class="sc-gZMcBi Bomeo">Sobre nós</li>
+                            </a>
+                            <a class="izNzAG" href="/">
+                                <li class="sc-gZMcBi Bomeo-selected jgBGVn">Minicursos<span></span></li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/get-involved">
+                                <li class="sc-gZMcBi Bomeo">Faça parte</li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/support-us">
+                                <li class="sc-gZMcBi Bomeo">Apoie-nos</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/blog">
+                                <li class="sc-gZMcBi Bomeo">Últimos eventos</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/about-us">
+                                <li class="sc-gZMcBi Bomeo">Conheça nosso time</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/contact">
+                                <li class="sc-gZMcBi Bomeo">Fale conosco</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <a class="sc-fjdhpX izNzAG active" aria-current="page" href="/">
+                                <img alt="Nuevo Foundation Logo" class="sc-dnqmqq emolVn"
+                                    src="/images/Logo_long.0f097b90.svg" height="60%" /></a>
+                        </div>
+                        <div class="col-xs-2" onclick="toggleVisibility();"
+                            style="padding-top: 4%; padding-left: 4%; cursor: pointer;">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                                class="svg-inline--fa fa-bars fa-w-14 fa-lg" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/pt-br/java-basics/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/pt-br/java-basics/">Java: Fundamentos</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/pt-br/java-basics/activity-0/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-basics/activity-0/">
+            Usando Replit
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-basics/activity-1/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-basics/activity-1/">
+            Imprimir declarações e comentários
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-basics/activity-2/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-basics/activity-2/">
+            Variáveis ​​e Tipos
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-basics/activity-3/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-basics/activity-3/">
+            Operadores
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-basics/activity-4/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-basics/activity-4/">
+            Estruturas de Controle
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-basics/activity-5/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-basics/activity-5/">
+            Métodos
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-basics/activity-6/" class="dd-item active">
+        <div>
+          <a href="/pt-br/java-basics/activity-6/">
+            Objeto e Classes
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-basics/activity-7/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-basics/activity-7/">
+            Estruturas de dados (Array &amp; ArrayList)
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+    </ul>
+
+    <section>
+    </section>
+  </aside>
+  <section class="page">
+    <div align="right">
+<select id="select-language" onchange="location = this.value;">
+	
+	
+	
+	  
+	  
+	    
+	      
+	        <option id="en" value="/java-basics/activity-6/">English</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	      
+	        <option id="es" value="/es/java-basics/activity-6/">Español</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="pt-br" value="/pt-br/java-basics/activity-6/" selected>Português Brasileiro</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+</select>
+    </div>
+
+    <div class="nav-select">
+      Navegação:&nbsp;
+      <select onchange="javascript:location.href = this.value;">
+        
+<option value="/pt-br/java-basics/" >
+   Java: Fundamentos</option>
+
+<option value="/pt-br/java-basics/activity-0/" >- Usando Replit</option>
+<option value="/pt-br/java-basics/activity-1/" >- Imprimir declarações e comentários</option>
+<option value="/pt-br/java-basics/activity-2/" >- Variáveis ​​e Tipos</option>
+<option value="/pt-br/java-basics/activity-3/" >- Operadores</option>
+<option value="/pt-br/java-basics/activity-4/" >- Estruturas de Controle</option>
+<option value="/pt-br/java-basics/activity-5/" >- Métodos</option>
+<option value="/pt-br/java-basics/activity-6/"  selected>- Objeto e Classes</option>
+<option value="/pt-br/java-basics/activity-7/" >- Estruturas de dados (Array &amp; ArrayList)</option>
+
+
+
+      </select>
+
+    </div>
+    
+
+    <h1>Objeto e Classes</h1>
+
+    
+
+    
+
+    
+    
+    
+    
+    <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/ejXgw0qchDg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<h2 id="o-que-é-um-objeto-e-uma-classe">O que é um objeto e uma classe?</h2>
+<p>Um objeto é uma coisa (substantivo) que possui certas características e pode realizar determinadas tarefas. Uma classe é o projeto ou definição desse objeto.</p>
+<p>Um exemplo é uma Pessoa. Uma pessoa é classe. Uma pessoa pode ter certas características que a distinguem de outra pessoa. Pode ter olhos azuis, pode ter 30 anos, etc. Uma pessoa também pode realizar certas tarefas. Ele pode andar, pode falar, etc.</p>
+<p>Um objeto Java é uma instância de uma classe Java. Neste caso, &ldquo;Bea&rdquo; é uma &ldquo;Pessoa&rdquo;. &ldquo;Bea&rdquo; tem olhos castanhos. Esta é uma propriedade (ou campo de dados) de &ldquo;Bea&rdquo;. &ldquo;Bea&rdquo; pode falar em inglês. &ldquo;Bea&rdquo; pode falar espanhol. Estes são métodos que &ldquo;Bea&rdquo; pode executar.</p>
+<h2 id="criando-uma-classe">Criando uma classe!</h2>
+<p>Java é uma linguagem de programação <b>orientada a objetos</b>, o que significa que tudo em Java está associado a um <b>objeto</b> e a uma <b>classe</b> (o modelo do objeto).</p>
+<p>Para começar, a linha de código que usamos para imprimir instruções da atividade 1 é na verdade uma chamada de método de uma classe predefinida chamada <code>System</code>!</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#111">System</span><span style="color:#111">.</span><span style="color:#75af00">out</span><span style="color:#111">.</span><span style="color:#75af00">println</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Hello World&#34;</span><span style="color:#111">);</span>
+</span></span></code></pre></div><ol>
+<li><code>System</code> é uma classe que lida com entradas e saídas do usuário.</li>
+<li><code>out</code> é uma variável na classe <code>System</code> da classe/tipo <code>PrintStream</code>.</li>
+<li><code>println()</code> é um método definido na classe <code>PrintStream</code>.</li>
+</ol>
+<br />
+<p>Outra classe com a qual interagimos nos exercícios anteriores é <code>String</code>. A classe <code>String</code> define um conjunto de regras sobre como uma lista de caracteres deve se comportar.</p>
+<p>Com a seguinte linha de código, criamos um objeto <code>String</code> chamado <code>name</code> usando as regras definidas na classe <code>String</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#111">String</span> <span style="color:#111">name</span> <span style="color:#f92672">=</span> <span style="color:#d88200">&#34;Patrick&#34;</span><span style="color:#111">;</span>
+</span></span></code></pre></div><br />
+<p><code>System</code>, <code>PrintStream</code> e <code>String</code> são classes predefinidas em Java. No entanto, não estamos limitados a essas classes predefinidas e podemos criar nosso próprio tipo de dados escrevendo uma classe! Isso é útil para codificadores criarem objetos específicos com determinados atributos e comportamentos. Ter acesso a esses tipos definidos pelo usuário nos permite construir programas distintos.</p>
+<p>Vamos aprender sobre as diferentes partes de uma aula abaixo:</p>
+<div class="notices note" >
+    <p header-value="Observação"><h3 id="classe">Classe</h3>
+<p>Uma classe é um projeto ou protótipo de um novo tipo de objeto. Em geral, uma classe contém três partes importantes: (1) campos de dados/variáveis ​​de instância (2) construtor (3) métodos.</p>
+<img src="../images/class.png" height="400" alt="A Class blueprint for an object contains instance varialbes/data fields which are data/attributes in the object, constructor which are methods that creates the obejct of the class, and methods, which are behaviors possible for the object."/> 
+<table>
+  <thead>
+      <tr>
+          <th><strong>Elemento</strong></th>
+          <th><strong>Descrição</strong></th>
+          <th><strong>Exemplo</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>campos de dados/variáveis ​​de instância</strong></td>
+          <td>variáveis ​​às quais um objeto desta classe tem acesso e que descrevem o objeto</td>
+          <td>A classe Person possui campos eyeColor, age, height.</td>
+      </tr>
+      <tr>
+          <td><strong>construtor</strong></td>
+          <td>método chamado para criar um objeto desta classe</td>
+          <td>Pode haver mais de um construtor por classe</td>
+      </tr>
+      <tr>
+          <td><strong>métodos</strong></td>
+          <td>métodos que um objeto desta classe poderá chamar para executar determinadas tarefas</td>
+          <td>A classe Person possui métodos talk e walk.</td>
+      </tr>
+  </tbody>
+</table>
+<p>Por exemplo:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">public</span> <span style="color:#00a8c8">class</span> <span style="color:#75af00">SampleClass</span><span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// (1) campos de dados/variáveis ​​de instância</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">private</span> <span style="color:#111">String</span> <span style="color:#111">name</span><span style="color:#111">;</span> <span style="color:#75715e">// exemplo</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// (2) construtor</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">public</span> <span style="color:#75af00">SampleClass</span><span style="color:#111">(){</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#111">name</span> <span style="color:#f92672">=</span> <span style="color:#d88200">&#34;example&#34;</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// (3) métodos</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">public</span> <span style="color:#75af00">sampleMethod</span><span style="color:#111">(){}</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span></code></pre></div></p>
+</div>
+<h2 id="experimente-">Experimente 🐥!</h2>
+<p>Vamos fazer uma classe <code>Bird</code> para representar Patrick 🐥 e todos os seus amigos Bird (pássaros) seguindo os passos abaixo!
+<strong>Nota:</strong> Para este exercício, você trabalhará em Bird.java em vez de Main.java.</p>
+<p><a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsBird" target="_blank">Launch Replit</a></p>
+<h3 id="primeiro-começamos-definindo-o-nome-da-classe-no-formato-public-class-name">Primeiro, começamos definindo o nome da classe no formato <code>public</code> <code>class</code> <code>name</code>.</h3>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">public</span> <span style="color:#00a8c8">class</span> <span style="color:#75af00">Bird</span><span style="color:#111">{}</span>
+</span></span></code></pre></div><br />
+<h3 id="segundo-vamos-declarar-todos-os-campos-da-classe-bird-species-name-hobby-age-lovemusic">Segundo, vamos declarar todos os campos da classe Bird: species, name, hobby, age, loveMusic.</h3>
+<p>Cada campo é declarado no formato: <code>private</code> <code>data type</code> <code>name</code> <code>;</code>.</p>
+<ol>
+<li>
+<p>Declaramos todos os 5 campos como <code>private</code> na classe <code>Bird</code>. Isso garante que esses dados só possam ser acessados ​​dentro desta classe.</p>
+</li>
+<li>
+<p>Vamos identificar o tipo apropriado para cada campo:</p>
+</li>
+</ol>
+<ul>
+<li><code>species</code> deve ser uma <code>String</code> que armazena por exemplo: &ldquo;duck&rdquo;, &ldquo;swan&rdquo;, &ldquo;owl&rdquo; (&ldquo;pato&rdquo;, &ldquo;cisne&rdquo;, &ldquo;coruja&rdquo;).</li>
+<li><code>name</code> deve ser uma <code>String</code> que armazena por exemplo: &ldquo;Patrick&rdquo;.</li>
+<li><code>hobby</code> deve ser uma <code>String</code> que armazena por exemplo: &ldquo;jogar basquete&rdquo;.</li>
+<li><code>age</code> deve ser um <code>int</code> que armazena por exemplo: 25.</li>
+<li><code>loveMusic</code> deve ser um <code>boolean</code> que armazena verdadeiro ou falso.</li>
+</ul>
+<p>Por exemplo, para declarar <code>species</code> como um campo privado da classe <code>Bird</code>, você colocaria <code>private String Species;</code> .</p>
+<ol start="3">
+<li>Termine de criar os outros 4 campos da classe Bird!</li>
+</ol>
+<br/>
+<h3 id="terceiro-vamos-criar-o-construtor-para-a-classe-bird">Terceiro, vamos criar o construtor para a classe <code>Bird</code>.</h3>
+<p>Normalmente, construtor é o método que inicializa o valor para todos os campos de uma classe. Possui o formato <code>public</code> <code>nome da classe</code> <code>(parâmetro)</code>. Como temos 5 campos nesta classe, o construtor receberá 5 parâmetros/entradas.</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">public</span> <span style="color:#75af00">Bird</span><span style="color:#111">(</span><span style="color:#111">String</span> <span style="color:#111">speciesInput</span><span style="color:#111">,</span> <span style="color:#111">String</span> <span style="color:#111">nameInput</span><span style="color:#111">,</span> <span style="color:#111">String</span> <span style="color:#111">hobbyInput</span><span style="color:#111">,</span> <span style="color:#00a8c8">int</span> <span style="color:#111">ageInput</span><span style="color:#111">,</span> <span style="color:#00a8c8">boolean</span> <span style="color:#111">loveMusicInput</span><span style="color:#111">){</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// corpo do construtor</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span></code></pre></div><p>No corpo do construtor, precisamos inicializar todas as variáveis ​​de instância, atribuindo a cada variável seus valores iniciais:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#111">species</span> <span style="color:#f92672">=</span> <span style="color:#111">speciesInput</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">name</span> <span style="color:#f92672">=</span> <span style="color:#111">nameInput</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">hobby</span> <span style="color:#f92672">=</span> <span style="color:#111">hobbyInput</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">age</span> <span style="color:#f92672">=</span> <span style="color:#111">ageInput</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">loveMusic</span> <span style="color:#f92672">=</span> <span style="color:#111">loveMusicinput</span><span style="color:#111">;</span>
+</span></span></code></pre></div><br />
+<h3 id="por-último-vamos-criar-alguns-métodos-para-a-classe-bird">Por último, vamos criar alguns métodos para a classe <code>Bird.</code></h3>
+<p>Vamos criar 6 métodos para esta classe!</p>
+<ul>
+<li>getSpecies();   // retornar espécie da ave</li>
+<li>getName();      // retornar o nome do pássaro</li>
+<li>getHobby();     // retornar hobby do pássaro</li>
+<li>getAge();       // retornar idade do pássaro</li>
+<li>getLoveMusic(); // retornar se o pássaro adora música</li>
+<li>toString();     // retornar informações em uma String</li>
+</ul>
+<p>Tente escrever os primeiros 5 métodos com o que você aprendeu no exercício anterior sobre métodos de escrita!</p>
+<br />
+Depois, vamos escrever o método `toString()` juntos!
+<p><code>toString()</code> é um método que retorna a representação <code>String</code> do objeto.</p>
+<p>Retornaremos uma String que inclui todos os campos do <code>Bird</code>: name, age, species, hobby, loveMusic, chamando os 5 métodos que você acabou de implementar!</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">public</span> <span style="color:#111">String</span> <span style="color:#75af00">toString</span><span style="color:#111">(){</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// inicialize as informações da variável para ter uma String vazia</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">String</span> <span style="color:#111">info</span> <span style="color:#f92672">=</span> <span style="color:#d88200">&#34;&#34;</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// anexe informações à String no formato:</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Hi, my name is [name]. I am a [age] year old [species] who likes to [hobby].</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">info</span> <span style="color:#f92672">=</span> <span style="color:#111">info</span> <span style="color:#f92672">+</span> <span style="color:#d88200">&#34;Hi, my name is &#34;</span> <span style="color:#f92672">+</span> <span style="color:#111">getName</span><span style="color:#111">()</span> <span style="color:#f92672">+</span> 
+</span></span><span style="display:flex;"><span>           <span style="color:#d88200">&#34;. I am a &#34;</span> <span style="color:#f92672">+</span> <span style="color:#111">getAge</span><span style="color:#111">()</span> <span style="color:#f92672">+</span> <span style="color:#d88200">&#34; year old &#34;</span> <span style="color:#f92672">+</span> <span style="color:#111">getSpecies</span><span style="color:#111">()</span> <span style="color:#f92672">+</span> 
+</span></span><span style="display:flex;"><span>           <span style="color:#d88200">&#34; who likes to &#34;</span> <span style="color:#f92672">+</span> <span style="color:#111">getHobby</span><span style="color:#111">()</span> <span style="color:#f92672">+</span> <span style="color:#d88200">&#34;. &#34;</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// se o pássaro gosta de música, acrescente a string &#34;I also like music very much!&#34; para informações</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">if</span><span style="color:#111">(</span><span style="color:#111">getLoveMusic</span><span style="color:#111">()){</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#111">info</span> <span style="color:#f92672">=</span> <span style="color:#111">info</span> <span style="color:#f92672">+</span> <span style="color:#d88200">&#34;I also like music very much!&#34;</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">}</span><span style="color:#00a8c8">else</span><span style="color:#111">{</span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#111">info</span> <span style="color:#f92672">=</span> <span style="color:#111">info</span> <span style="color:#f92672">+</span> <span style="color:#d88200">&#34;However, I do not like music!&#34;</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// retornar a String completa</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">return</span> <span style="color:#111">info</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span></code></pre></div><div class="notices warning" >
+    <p header-value="Aviso"><p>Se você implementou corretamente a classe <code>Bird</code>, você verá a seguinte mensagem ao clicar em <code>Run</code>:</p>
+<pre tabindex="0"><code>Parabéns! Você implementou corretamente a classe Bird :)
+</code></pre><p>Se ainda houver algo incompleto ou incorreto ao clicar em <code>Executar</code>:</p>
+<ul>
+<li>Você pode receber um erro como <code>Main.java:3: error: cannot access Bird</code> (Main.java:3: erro: não é possível acessar o Bird).</li>
+<li>Ou você verá a mensagem, <code>Something is still not quite right!</code> (Algo ainda não está certo!).</li>
+</ul>
+</p>
+</div>
+<h2 id="criando-birds-">Criando Birds 🐥!</h2>
+<p>Parabéns! Você acabou de escrever sua primeira classe Java, classe <code>Bird</code>. Agora vamos aprender a escrever um programa que use objetos <code>Bird</code>!</p>
+<p>Definimos a classe <code>Bird</code> para ter os seguintes atributos (variáveis ​​de instância) e comportamentos (métodos):
+<img src="../images/bird_class.png" height="450" alt="Bird Class blueprint for a Bird object contains instance variables/data fields which include String species, String name, String hobby, int age, and boolean loveMusic, constructor, which requires all 5 variables to be passed in, and methods, including String getSpecies(), String getName(), String getHobby(), int getAge(), boolean getLoveMusic(), and String toString()." /></p>
+<p>Para criar um novo objeto de uma classe específica, chamamos o construtor dessa classe no formato <code>class name</code> <code>variable name</code> <code>=</code> <code>new</code> <code>constructor call</code>.</p>
+<p>Lembre-se de que o construtor da classe <code>Bird</code> é o seguinte:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">public</span> <span style="color:#75af00">Bird</span><span style="color:#111">(</span><span style="color:#111">String</span> <span style="color:#111">speciesInput</span><span style="color:#111">,</span> <span style="color:#111">String</span> <span style="color:#111">nameInput</span><span style="color:#111">,</span> <span style="color:#111">String</span> <span style="color:#111">hobbyInput</span><span style="color:#111">,</span> <span style="color:#00a8c8">int</span> <span style="color:#111">ageInput</span><span style="color:#111">,</span> <span style="color:#00a8c8">boolean</span> <span style="color:#111">loveMusicInput</span><span style="color:#111">);</span>
+</span></span></code></pre></div><p>Assim, podemos criar um Bird com estes atributos (species - duck; name - Patrick; hobby - hangout with friends; age - 15; loveMusic - true) com esta linha de código.</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#111">Bird</span> <span style="color:#111">patrick</span> <span style="color:#f92672">=</span> <span style="color:#00a8c8">new</span> <span style="color:#111">Bird</span><span style="color:#111">(</span><span style="color:#d88200">&#34;duck&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;Patrick&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;hangout with friends&#34;</span><span style="color:#111">,</span> <span style="color:#111">15</span><span style="color:#111">,</span> <span style="color:#00a8c8">true</span><span style="color:#111">);</span>
+</span></span></code></pre></div><p>Experimente você mesmo e crie vários pássaros de espécies diferentes 🐦🐤🐔🐧!</p>
+<br />
+A seguir, vamos chamar o método `toString()` nesses objetos `Bird` que criamos para imprimir as informações de nossos amigos. Você pode fazer o seguinte:
+<ol>
+<li>Imprima o valor de retorno do método <code>toString()</code>. (ou seja, <code>System.out.println(patrick.toString());</code>)</li>
+<li>Imprima diretamente o objeto <code>Bird</code>, que solicita que <code>toString()</code> seja chamado em segundo plano. (ou seja, <code>System.out.println(patrick);</code>).</li>
+</ol>
+<p>Experimente e imprima todas as informações dos amigos pássaros que você criou 🐦🐤🐔🐧!</p>
+<p><a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsBirdMain" target="_blank">Launch Replit</a></p>
+
+
+    
+    
+      <div class="chevrons">
+  <style>
+    .workshop-complete-image {
+        margin: 40px auto 50px auto;
+        width: 340.8px;
+    }
+    
+    .workshop-complete-words {
+        font-family: Space Mono, monospace;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        text-align: center;
+    }
+    
+    .horizontal-bar {
+        background-color: #000000;
+        width: 120px;
+        height: 12px;
+        margin: 80px auto 0 auto;
+    }
+</style>
+
+
+    <div id="navigation">
+            <div class="next-prev-wrapper-div"><a class='nav nav-prev' href="/pt-br/java-basics/activity-5/" title="Métodos">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Anterior:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Métodos
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="prevbutton-image">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+        
+    </div>
+</a></div>
+            <div class="next-prev-wrapper-div"><a class='nav nav-next' href="/pt-br/java-basics/activity-7/" title="Estruturas de dados (Array &amp; ArrayList)">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Próximo:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Estruturas de dados (Array &amp; ArrayList)
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="nextbutton-image">
+            <i class="fa fa-arrow-right"></i>
+        </div>
+        
+    </div>
+</a></div>
+        </div>
+</div>
+
+</section>
+</article>
+
+<footer>
+  <div class="footline">
+    
+
+    
+
+    
+    <div class="date">
+      <i class='fa fa-calendar'></i> 
+      Wed, 13 Oct 2021 00:00:00 PDT
+    </div>
+    
+
+    
+    <div class="github-link">
+      <a href="https://github.com/NuevoFoundation/workshops/tree/master/content/java-basics/activity-6.md" target="blank"><i
+          class="fa fa-code-fork"></i>
+        </a>
+    </div>
+    
+  </div>
+
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+    
+
+    
+    
+
+    <div id="footer" class="row">
+    <div class="col-xs-12">
+        <div class="App-footer">
+            <div class="App-footer-big">
+                Siga-nos nas redes sociais.
+            </div>
+            <div class="social-images">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Instagram" class="fab fa-2x fa-instagram"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation X" class="fab fa-2x fa-x-twitter"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Facebook" class="fab fa-2x fa-1x fa-facebook-f"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-2x fa-linkedin"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/nuevofoundation?sub_confirmation=1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation YouTube" class="fab fa-2x fa-youtube"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Spotify" class="fab fa-2x fa-spotify"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Github" class="fab fa-2x fa-github"></i>
+                </a>
+            </div>
+            <div class="App-footer-small">
+                © Copyright 2025, Todos os direitos reservados a Nuevo Foundation, uma organização sem fins lucrativos de acordo com a norma 501(c)(3) da lei federal dos Estados Unidos.
+            </div>
+        </div>
+    </div>
+</div>
+
+  </body>
+</html>

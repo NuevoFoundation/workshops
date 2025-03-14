@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Estruturas de dados on Nuevo Foundation Workshops</title>
+    <link>/pt-br/python-basics/data-structures/</link>
+    <description>Recent content in Estruturas de dados on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <atom:link href="/pt-br/python-basics/data-structures/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Listas</title>
+      <link>/pt-br/python-basics/data-structures/lists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pt-br/python-basics/data-structures/lists/</guid>
+      <description>&lt;p&gt;As listas são a coleção ordenada de itens e podem ser escritas como valores separados por vírgula entre colchetes &lt;code&gt;[]&lt;/code&gt;. Como vimos em nossa lição sobre loops, as listas podem ser de qualquer tipo de dados, por exemplo, strings ou inteiros.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#Criando uma lista de 5 frutas&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#111&#34;&gt;fruits&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#111&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#d88200&#34;&gt;&amp;#39;laranja&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#d88200&#34;&gt;&amp;#39;maçã&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#d88200&#34;&gt;&amp;#39;banana&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#d88200&#34;&gt;&amp;#39;maçã&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#d88200&#34;&gt;&amp;#39;manga&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;]&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Se quiser se referir a um elemento específico de uma lista, você pode fazer isso usando índices (posição) entre colchetes. O primeiro elemento é o índice (posição) &lt;code&gt;0&lt;/code&gt; e a lista vai até &lt;code&gt;(número de elementos na lista - 1)&lt;/code&gt;. Portanto, uma lista com 6 elementos terá índices de 0 a 5.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tuplas</title>
+      <link>/pt-br/python-basics/data-structures/tuples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pt-br/python-basics/data-structures/tuples/</guid>
+      <description>&lt;p&gt;Uma tupla também é uma coleção ordenada de elementos, assim como as listas, mas as tuplas são imutáveis. Portanto, você não pode alterar os elementos de uma tupla depois que ela for atribuída (ao contrário das listas onde você tem permissão para fazer isso). Essa natureza imutável torna as tuplas muito úteis quando você não deseja que seus dados sofram mutação ao longo do programa. Junto com isso, as tuplas geralmente são usadas para armazenar elementos de diferentes tipos de dados. Onde você definiu uma lista usando colchetes (&lt;code&gt;[]&lt;/code&gt;), uma tupla pode ser criada colocando todos os elementos entre parênteses &lt;code&gt;()&lt;/code&gt;, separados por vírgulas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Conjunto</title>
+      <link>/pt-br/python-basics/data-structures/sets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pt-br/python-basics/data-structures/sets/</guid>
+      <description>&lt;p&gt;Assim como uma lista, um conjunto é uma coleção de itens. A diferença entre um conjunto e uma lista é que um conjunto não pode conter duplicatas. Então, se você tiver 5 chocolates e colocá-los em um conjunto, só sobrará 1 chocolate, pois as duplicatas serão removidas. 😢&lt;/p&gt;&#xA;&lt;img src=&#34;../../img/sets_example.jpg&#34; width=&#34;500&#34; alt=&#34;Imagem de dois círculos com xadrez e tênis de mesa no círculo esquerdo, taco de futebol e críquete no círculo direito e basquete e badminton em ambos os círculos onde eles se sobrepõem&#34; /&gt;&#xD;&#xA;&lt;/a&gt;&#xD;&#xA;&lt;p&gt;Na imagem acima, o lado esquerdo representa &lt;strong&gt;&lt;font color=&#34;red&#34;&gt;Jogos internos&lt;/font&gt;&lt;/strong&gt; (xadrez e tênis de mesa), enquanto o lado direito representa &lt;strong&gt;&lt;font color=&#34;green&#34;&gt;Jogos externos&lt;/font&gt;&lt;/strong&gt; (Críquete e Futebol). O meio representa a parte comum de ambos os conjuntos. Estes são os jogos que podem ser jogados tanto em ambientes internos quanto externos (basquete e badminton). A parte do meio também é conhecida como interseção entre dois conjuntos.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

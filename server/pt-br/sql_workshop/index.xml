@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SQL: Salvando a Galáxia on Nuevo Foundation Workshops</title>
+    <link>/pt-br/sql_workshop/</link>
+    <description>Recent content in SQL: Salvando a Galáxia on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Sat, 28 Mar 2020 10:24:17 -0700</lastBuildDate>
+    <atom:link href="/pt-br/sql_workshop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chave de resposta do workshop SQL</title>
+      <link>/pt-br/sql_workshop/answer-key/</link>
+      <pubDate>Sat, 28 Mar 2020 10:24:17 -0700</pubDate>
+      <guid>/pt-br/sql_workshop/answer-key/</guid>
+      <description>&lt;div class=&#34;notices tip&#34; &gt;&#xD;&#xA;    &lt;p header-value=&#34;Dica&#34;&gt;&lt;p&gt;Nota: Não use o navegador Firefox para este workshop!&lt;/p&gt;&#xA;&lt;p&gt;Para atividades de arrastar e soltar: os blocos escolhidos corretamente terão um destaque verde ao seu redor, enquanto os blocos incorretos serão destacados em vermelho até que o jogador mova o bloco.&lt;/p&gt;&#xA;&lt;p&gt;Para atividades de digitação: palavras/comandos corretos serão destacados em verde na caixa de comando anterior, palavras colocadas incorretamente ou mal utilizadas serão destacadas em vermelho. Se o comando que os jogadores escrevem corresponder à chave de resposta e ainda estiver destacado em vermelho, certifique-se de que não haja espaços extras no final ou no início do comando! Certifique-se de que os jogadores tenham ponto e vírgula no final do comando (a última palavra no comando SQL será destacada em vermelho se não houver ponto e vírgula)! Observe que algumas crianças copiam um exemplo de comando do workshop e colam-no no terminal para executar - isso não funcionará! Peça-lhes para atualizar a página e digitar manualmente o comando.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

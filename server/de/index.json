@@ -1,0 +1,64 @@
+[
+{
+	"uri": "/de/adafruit/the-components/",
+	"title": "Die Komponenten",
+	"tags": [],
+	"description": "",
+	"content": "Die Komponenten, die wir für das Projekt verwenden werden, sind unten aufgeführt. Stelle sicher, dass du alle diese Komponenten hast:\nEin Adafruit Micro-USB-auf-USB-Kabel 2 Krokodilklemmendrähte, beliebige Farben Zwei Orangen "
+},
+{
+	"uri": "/de/adafruit/building-the-dj-station/",
+	"title": "Aufbau der DJ-Station",
+	"tags": [],
+	"description": "",
+	"content": "Anschließen der Orangen Nimm eine Orange und einen deiner Drähte. Öffne eine der Krokodilklemmen und stecke die untere Hälfte in die Orange, so dass der obere Teil der Klemme außen liegt. Das geht am einfachsten, wenn du sie in der Mitte des unteren Teils der Orange einführst. Das ist die gleiche Stelle, an der du mit dem Schälen beginnen würdest, wenn du die Orange essen wolltest.\nWiederhole diesen Vorgang für die zweite Orange mit dem anderen Draht. Schließe eine Orange an A1 und die andere an A2 an. So sieht die orangefarbene Baugruppe aus! Verbinde die kleine Seite deines USB-Kabels mit dem Chip. Es wird in den silbernen Anschluss gesteckt. Nun wollen wir das Programm erstellen, bevor wir unseren Chip an den Computer anschließen! Bitte stelle sicher, dass dein Computer STUMMGESCHALTET ist, bevor du beginnst.\n"
+},
+{
+	"uri": "/de/adafruit/creating-the-program/",
+	"title": "Erstellung des Programms",
+	"tags": [],
+	"description": "",
+	"content": "Öffne deinen bevorzugten Internetbrowser (z. B. Edge, Firefox, Google Chrome, Internet Explorer) und gehe zu https://aka.ms/oranges\r. Dein Bildschirm sollte wie folgt aussehen:\nFestlegung der Variablen Heute werden wir Orangen verwenden, um unserem Adafruit zu sagen, wann er Geräusche machen soll. Als erstes müssen wir dem Computer einen Namen für jede Orange geben und wo er nachschauen soll, was die Orange sagt. Den ersten Teil machen wir, indem wir eine Variable definieren. Klicke auf den Abschnitt VARIABLES, er ist rosa und der 7. von oben. Dann definiere eine Variable, indem du auf Make a Variable klickst und ihr einen Namen gibst. Mache das zweimal, hier definieren wir unsere als analog1 und analog2, aber du kannst sie nennen, wie du willst.\nInterpretation von Eingaben Nun, da wir einen Namen für die Orangen haben, den unser Computer kennt, müssen wir unserem Adafruit mitteilen, wie er sie verstehen kann. Es gibt zwei Arten von Eingängen: digitale und analoge. Lichtschalter und Netzschalter sind Beispiele für digitale Eingänge. Sie sind entweder ein- oder ausgeschaltet, 1en oder 0en. Analoge Eingänge sind wie ein Lichtdimmer oder eine Lautstärketaste. Sie haben mehr Optionen für Werte. Unsere Orangen werden analoge Eingänge sein, und je nachdem, wie sehr wir sie berühren oder zusammendrücken, ändert sich der Wert, den sie an den Adafruit melden.\nKlicke erneut auf den Abschnitt Variablen. Diesmal sollte es ein paar mehr Optionen geben, da wir nun unsere beiden Variablen definiert haben. Ziehe einen der \u0026ldquo;set ___ to __\u0026rdquo; Blöcke in den grünen \u0026ldquo;forever\u0026rdquo; Block in unserem Arbeitsbereich. Ändere mit dem weißen Pfeil nach unten das erste Leerzeichen in \u0026ldquo;analog1\u0026rdquo;.\nAls nächstes klicke auf den Abwärtspfeil bei ADVANCED und dann auf PINS. Suche den Block \u0026ldquo;analog read pin __\u0026rdquo;, er ist der dritte von oben, und füge ihn dort ein, wo die 0 auf unserem Block \u0026ldquo;set analog1 to 0\u0026rdquo; ist. Um ihn in diesen Steckplatz einzufügen, ziehe ihn so, dass er über der Null schwebt, prüfe, ob die 0 gelb hervorgehoben ist, und lasse dann die Maus (oder das Touchpad) los. Du solltest sehen, dass sich der Block ausdehnt, um den Block aufzunehmen. Wenn dies nicht der Fall ist, versuche es erneut.\nDanach sollte dein Arbeitsbereich wie oben abgebildet aussehen. Wiederhole diesen Vorgang noch einmal, aber benutze dieses Mal die weißen Abwärtspfeile, um analog2 und A2 auszuwählen. Siehe unten, um zu überprüfen, ob du das richtig gemacht hast. Erstellung von Schleifen Nun, da unser Computer weiß, wie er unsere Orangen nennen soll und wie er sie verstehen kann, erstellen wir eine Schleife, die überprüft, wann wir unsere Orange in der Hand halten. Klicke auf den Abschnitt LOGIK und ziehe den Block \u0026ldquo;If ____ then\u0026rdquo; heraus, um ihn unter deine Variablenblöcke zu setzen.\nZurück zum Beispiel mit dem Lautstärkeregler, um den Vergleich zu verstehen, den wir in unserer Schleife durchführen werden. Jeder Mensch hat einen \u0026ldquo;Sweet Spot\u0026rdquo; dafür, wie laut er seine Musik hören möchte, um sie am besten genießen zu können. Dieser Sweet Spot gilt auch für unsere Orangen. Sie geben dem Computer eine Zahl an, wenn sie nur da liegen, und eine niedrigere, wenn wir sie berühren. Der Trick besteht darin, den Punkt dazwischen zu finden, damit wir nur dann Geräusche machen, wenn wir es wollen.\nUm das einzustellen, gehe wieder zum Abschnitt LOGIK und nimm den sechseckigen \u0026quot; __ \u0026lt; __ \u0026quot; Block, der der zweite unter dem Unterabschnitt Vergleich ist. Lege ihn über das \u0026ldquo;true\u0026rdquo; im \u0026ldquo;if __ then\u0026rdquo;-Block. Beachte die gelbe Markierung, bevor du ihn dort ablegst. Überprüfe deinen Arbeitsbereich in der Abbildung unten.\nGeben wir nun ein, was wir vergleichen wollen. Gehen zurück zum Abschnitt VARIABLEN, ziehe analog1 heraus und setze es in den ersten Slot. Klicke dann auf den zweiten Slot und gib 40 ein. Diese 40 sollte für die meisten Menschen ein guter Wert sein. Wenn deine Orange am Ende Geräusche macht, ohne dass du es berührst, kannst du zu diesem Schritt zurückkehren und die Zahl erhöhen. Wenn deine Orange kein Geräusch macht, wenn du sie berührst, kannst du die Zahl noch einmal erhöhen. Im Moment lassen wir es einfach bei 40.\nJetzt können wir unsere Musik aussuchen! Klicke auf den Abschnitt MUSIK und ziehe den zweiten Block \u0026ldquo;play _____ until done\u0026rdquo; in unseren If-Then-Block. Klicke auf den Pfeil nach unten und wähle deine eigenen Klänge aus.\nNun wollen wir diese letzten Schritte für analog2 wiederholen. Wenn du das getan hast, sieht dein Arbeitsbereich wie das Bild unten aus (aber mit deinen Musikoptionen).\nZusätzlicher Spaß mit Lichtern (wenn es die Zeit zulässt) Der Adafruit-Chip hat viele Lichter! Es macht Spaß, mit ihnen zu spielen, also fügen wir ein bisschen Farbe zu unseren Sounds hinzu, damit wir den Unterschied sehen und hören können, wenn wir unsere Orangen berühren. Klicke auf den Abschnitt LIGHT und ziehe den Block \u0026ldquo;Set all Pixels to ___\u0026rdquo; in unsere beiden If-Then-Blöcke. Du solltest sie direkt vor dem Abspielen eines Tons einfügen. Du kannst auf den Farbbereich klicken, um die Farbe zu ändern, die du anzeigen möchtest.\n"
+},
+{
+	"uri": "/de/adafruit/downloading-your-program/",
+	"title": "Herunterladen des Programms",
+	"tags": [],
+	"description": "",
+	"content": "Unten in deinem Arbeitsbereich solltest du diesen hellrosa Download-Button neben dem Namen deines Programms sehen. Du kannst dein Programm beliebig nennen, hier heißt es adafruit_musicalfruit. Klicke auf den Download-Button.\nEs sollte ein Fenster erscheinen, in dem du gefragt wirst, wo du deine Datei speichern möchtest. Es sollte standardmäßig der Ordner \u0026ldquo;Downloads\u0026rdquo; angezeigt werden. Falls nicht, navigiere zu deinem Downloads-Ordner und speichere die Datei dort.\nJetzt kannst du dein USB-Kabel an den Computer anschließen. Du solltest einige Regenbogenlichter sehen! Das bedeutet, dass dein Chip eingeschaltet ist und das Standardprogramm läuft. Wir werden es durch unser Programm ersetzen. Klicke auf die kleine Reset-Taste in der Mitte des Chips. Die Lichter sollten erst rot und dann grün werden. Wenn die Lichter nicht grün werden, doppelklicke schnell auf die Reset-Taste und warte ein paar Sekunden.\nSobald die Ampel grün leuchtet, öffne ein Windows-Explorer-Fenster, falls noch keines angezeigt wird. Nun solltest du ein CPLAYBOOT-Laufwerk sehen. Hier wird es als Laufwerk D: angezeigt, aber es könnte auch E:, F: usw. sein.\nSobald du dich vergewissert hast, dass du diesen CPLAYBOOT sehen kannst, gehst du in den Ordner Downloads und suchst die Datei, die du dort gespeichert hast. Klicke auf die Datei und ziehe sie, bis du den Mauszeiger über CPLAYBOOT hältst. Es sollte ein Text erscheinen, in dem steht \u0026ldquo;\u0026ndash;\u0026gt; Move to CPLAYBOOT\u0026rdquo;. Lege die Datei dort ab, um sie in CPLAYBOOT zu kopieren.\nNachdem du die Datei an der richtigen Stelle abgelegt hast, erlöschen die grünen Lichter, um anzuzeigen, dass du deinen Adafruit erfolgreich programmiert hast!\nHERZLICHEN GLÜCKWUNSCH! Du hast es geschafft. Du kannst gerne zurückgehen und die Sounds oder deine magische Zahl in den Vergleichen optimieren. "
+},
+{
+	"uri": "/de/adafruit/answer-key/",
+	"title": "Antwortschlüssel - Adafruit",
+	"tags": [],
+	"description": "Einfacher Referenz-Antwortschlüssel für den Adafruit-Lehrplan",
+	"content": "Einrichtung Zusammengefasst:\nDie beiden Krokodilklemmen sollten in die Oberfläche der Orangen geklemmt werden. Die andere Seite der Klemmen sollte an den Eingängen A1 und A2 des Adafruits sein. Der USB-Stecker sollte mit dem Adafruit verbunden sein, aber nicht mit dem Computer. Nach der Einrichtung sollten die Orangen und Adafruit wie folgt aussehen:\nLösung Lösung - fortgeschritten (mit Beleuchtung) So funktioniert es "
+},
+{
+	"uri": "/de/adafruit/",
+	"title": "Adafruit: Musikalische Frucht-Programmierung",
+	"tags": [],
+	"description": "Eine Einführung in die Erstellung von Klängen mit Adafruit, um etwas über Hardware zu lernen",
+	"content": "Inhaltsübersicht Abschnitt\rDie Komponenten Aufbau der DJ-Station Erstellung des Programms Herunterladen des Programms "
+},
+{
+	"uri": "/de/",
+	"title": "Workshops der Nuevo Foundation",
+	"tags": [],
+	"description": "",
+	"content": "Workshop-Projekte Adafruit: Musikalische Frucht-Programmierung\rEine Einführung in die Erstellung von Klängen mit Adafruit, um etwas über Hardware zu lernen\nBeitragen Möchtest du helfen, unsere Workshops oder unsere Website zu verbessern? Dann klicke hier: Workshop Contributor Guidelines\r!\n"
+},
+{
+	"uri": "/de/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/de/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]

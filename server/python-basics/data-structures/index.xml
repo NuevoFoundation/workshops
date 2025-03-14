@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Structures on Nuevo Foundation Workshops</title>
+    <link>/python-basics/data-structures/</link>
+    <description>Recent content in Data Structures on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="/python-basics/data-structures/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lists</title>
+      <link>/python-basics/data-structures/lists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/python-basics/data-structures/lists/</guid>
+      <description>&lt;p&gt;Lists are the ordered collection of items and can be written as comma separated values inside square bracket &lt;code&gt;[]&lt;/code&gt;. As we saw in our loops lesson, lists can be of any data type, for example strings or integers.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#Creating a list of 5 fruits&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#111&#34;&gt;fruits&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#111&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#d88200&#34;&gt;&amp;#39;orange&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#d88200&#34;&gt;&amp;#39;apple&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#d88200&#34;&gt;&amp;#39;banana&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#d88200&#34;&gt;&amp;#39;apple&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#d88200&#34;&gt;&amp;#39;mango&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;]&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If you want to refer to a specific element of a list, you can do so by using indexes (position) inside square bracket. The first element is index (position) &lt;code&gt;0&lt;/code&gt; and the list goes up to the &lt;code&gt;(number of elements in the list - 1)&lt;/code&gt;. So, a list having 6 elements will have indices from 0 to 5.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tuples</title>
+      <link>/python-basics/data-structures/tuples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/python-basics/data-structures/tuples/</guid>
+      <description>&lt;p&gt;A Tuple is also an ordered collection of elements just like lists, but tuples are immutable. So you can not change the elements of a tuple after it is assigned (unlike lists where you are allowed to do so). This immutable nature makes tuples very useful when you don&amp;rsquo;t want your data to be mutated through out the program. Along with this, tuples are generally used to store elements of different data types. Where you defined a list using square brackets (&lt;code&gt;[]&lt;/code&gt;), a tuple can be created by placing all the elements inside parentheses &lt;code&gt;()&lt;/code&gt;, separated by commas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sets</title>
+      <link>/python-basics/data-structures/sets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/python-basics/data-structures/sets/</guid>
+      <description>&lt;p&gt;Just like a list, a set is a collection of items. The difference between a set and a list is that a set cannot contain duplicates. So, if you have 5 chocolates and you put them in a set, you&amp;rsquo;ll only be left with 1 chocolate as duplicates will be removed. 😢&lt;/p&gt;&#xA;&lt;a href = &#34;https://www.youtube.com/watch?v=mLIuHU5Sj5w&#34;&gt;&#xD;&#xA;&lt;img src=&#34;../../img/sets_example.jpg&#34; width=&#34;500&#34; alt=&#34;Picture of two circles with chess and ping pong in the left circle, soccer and cricket bat in the right circle, and basketball and badminton in both circles where they overlap&#34; /&gt;&#xD;&#xA;&lt;/a&gt;&#xD;&#xA;&lt;p&gt;In the image above, the left side represents &lt;strong&gt;&lt;font color=&#34;red&#34;&gt;Indoor Games&lt;/font&gt;&lt;/strong&gt; (Chess &amp;amp; Table Tennis) while the right side represents the &lt;strong&gt;&lt;font color=&#34;green&#34;&gt;Outdoor Games&lt;/font&gt;&lt;/strong&gt; (Cricket &amp;amp; Football). The middle represents the common part of both these sets. These are the games that can be played Indoors as well as Outdoors (Basketball &amp;amp; Badminton). The middle part is also known as the intersection between two sets.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

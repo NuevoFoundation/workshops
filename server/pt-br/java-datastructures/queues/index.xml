@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Filas: Recebimento de Pedidos on Nuevo Foundation Workshops</title>
+    <link>/pt-br/java-datastructures/queues/</link>
+    <description>Recent content in Filas: Recebimento de Pedidos on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Mon, 10 Feb 2020 13:24:17 -0700</lastBuildDate>
+    <atom:link href="/pt-br/java-datastructures/queues/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introdução</title>
+      <link>/pt-br/java-datastructures/queues/introduction/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      <guid>/pt-br/java-datastructures/queues/introduction/</guid>
+      <description>&lt;h2 id=&#34;visualizando-uma-fila-queue&#34;&gt;Visualizando uma fila (queue)&lt;/h2&gt;&#xA;&lt;p&gt;Imagine que você está projetando o NuevoEats para uma empresa, e talvez essa empresa seja o McDonalds.&lt;/p&gt;&#xA;&lt;p&gt;Queremos atender nossos novos clientes potenciais da maneira mais eficiente possível para nossos grandes negócios; um por vez. Quando os clientes fazem seus pedidos para viagem no aplicativo NuevoEats, é quase como se estivessem formando uma fila ordenada em frente ao nosso restaurante, com novos clientes entrando nos últimos lugares. Os clientes devem essencialmente “fazer fila” quando fazem seus pedidos e nós devemos atender esses mesmos clientes de frente para trás.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Métodos</title>
+      <link>/pt-br/java-datastructures/queues/methods/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      <guid>/pt-br/java-datastructures/queues/methods/</guid>
+      <description>&lt;h2 id=&#34;filas-prioritárias&#34;&gt;Filas prioritárias&lt;/h2&gt;&#xA;&lt;p&gt;Uma &lt;code&gt;PriorityQueue&lt;/code&gt; (Fila Prioritária) é usada quando os objetos devem ser processados ​​com base na prioridade. Nesse caso, queremos ordenar a fila pelo tempo que o cliente está esperando. Sabe-se que uma Fila segue o algoritmo First-In-First-Out, mas às vezes é necessário que os elementos da fila sejam processados ​​​​de acordo com a prioridade; é aí que &lt;code&gt;PriorityQueue&lt;/code&gt; entra em ação. O PriorityQueue é baseado no amontoado de prioridade. Os elementos da fila de prioridade são ordenados de acordo com a ordenação natural, ou por um Comparador fornecido no momento da construção da fila, dependendo de qual construtor é utilizado.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problema 1: Fundamentos de Queue</title>
+      <link>/pt-br/java-datastructures/queues/problem-1/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      <guid>/pt-br/java-datastructures/queues/problem-1/</guid>
+      <description>&lt;!--&lt;link rel=&#34;stylesheet&#34; href=&#34;../../style.css&#34;&gt;--&gt;&#xD;&#xA;&lt;h2 id=&#34;tarefa-1-limpando-a-queue-para-novos-pedidos&#34;&gt;Tarefa 1: Limpando a Queue para novos pedidos&lt;/h2&gt;&#xA;&lt;p&gt;Um novo restaurante foi adicionado ao Nuevo Eats! Novos pedidos estão chegando e a Queue (Fila) está inundada de pedidos! A popularidade dos diferentes tacos cresceu rapidamente e o restaurante está sobrecarregado. Procure uma maneira de limpar todos os elementos para salvar o restaurante!&lt;/p&gt;&#xA;&lt;div class=&#34;notices tip&#34; &gt;&#xD;&#xA;    &lt;p header-value=&#34;Dica&#34;&gt;&lt;ol&gt;&#xA;&lt;li&gt;Como você pode iterar atráves da Queue?&lt;/li&gt;&#xA;&lt;li&gt;Tente limpar a fila à medida em que você avança!&lt;/li&gt;&#xA;&lt;li&gt;Veja o menu de exemplo!&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

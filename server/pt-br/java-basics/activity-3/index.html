@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nuevo Foundation Workshops</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+<meta name="theme-color" content="#000000" />
+<meta name="revised" content="2025-03-14T19:00:04 -03">
+<meta name="application-name" content=" " />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+<title>Operadores :: Nuevo Foundation Workshops</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+
+<link rel="shortcut icon" href="https://www.nuevofoundation.org/favicons/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57"
+      href="https://www.nuevofoundation.org/favicons//apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120"
+      href="https://www.nuevofoundation.org/favicons/pple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-128.png" sizes=" 128x128" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="/css/nuevoweb.css" />
+<link rel="stylesheet" href="/css/chunk.css" />
+<link rel="stylesheet" href="/css/data-style.css" />
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+
+<script lang="JavaScript">
+
+      function toggleVisibility() {
+
+            
+            const menu = document.getElementById("mobile-nav-menu");
+            if (menu.style.display == 'none') {
+                  menu.classList.replace("transition-out", "transition-in")
+                  menu.style.display = 'block';
+            }
+            else if (menu.style.display == 'block') {
+                  menu.classList.replace("transition-in", "transition-out")
+                  menu.style.display = 'none';
+            }
+      }
+</script>
+<meta
+  name="description"
+  content="
+
+    Apresente operadores e execute operações em variáveis ​​em Java.
+"
+/>
+
+
+    
+  </head>
+  <body data-url="/pt-br/java-basics/activity-3/" >
+    
+      <header>
+  
+  <div id="mobile-nav-menu" class="transition-out" style="display: none;">
+    <div class="close-btn" onclick="toggleVisibility();">
+        <i aria-hidden="true" focusable="false" style="cursor: pointer;" class="fa fa-times fa-w-11 fa-sm"></i>
+    </div>
+    <div>
+        <div class="sc-dNLxif ecnYUM">
+            <a href="/support-us"><button class="sc-jbKcbu sedGx"
+                    style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: 4px solid rgb(0, 0, 0); border-radius: 4px;">
+                    Faça uma doação
+                </button></a>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/what-we-do">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Sobre nós</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/get-involved">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Faça parte</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/support-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Apoie-nos</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/blog">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Últimos eventos</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/about-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Conheça nosso time</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/contact">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Fale conosco</li>
+            </ul>
+        </a>
+    </div>
+</div>
+<div>
+    <div class="sc-gGBfsJ iKkPGj">
+        <div class="container-fluid">
+            <div id="toprow" class="row">
+                <div class="col-xs-12">
+                    <div class="sc-EHOje fJMnSm">
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.instagram.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation Instagram" class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://twitter.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation X" class="fab fa-x-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Facebook" class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.linkedin.com/company/nuevofoundation">
+                                <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://www.youtube.com/nuevofoundation?sub_confirmation=1n">
+                                <i aria-label="Nuevo Foundation YouTube" class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1">
+                                <i aria-label="Nuevo Foundation Spotify" class="fab fa-spotify"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://github.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Github" class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" rel="noopener noreferrer"
+                                href="https://nuevofoundation.org/support-us">Faça uma doação</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="secondrow" class="row">
+                <div class="col-sm-12 hidden-xs">
+                    <div class="sc-htoDjs kjtfZK">
+                        <a class="sc-fjdhpX izNzAG active" aria-current="page" href="https://nuevofoundation.org">
+                            <img alt="Nuevo Foundation Logo" src="/images/Logo_long.0f097b90.svg"
+                                height="60px" />
+                        </a>
+                        <ul class="sc-iwsKbI bUOvG">
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/what-we-do">
+                                <li class="sc-gZMcBi Bomeo">Sobre nós</li>
+                            </a>
+                            <a class="izNzAG" href="/">
+                                <li class="sc-gZMcBi Bomeo-selected jgBGVn">Minicursos<span></span></li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/get-involved">
+                                <li class="sc-gZMcBi Bomeo">Faça parte</li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/support-us">
+                                <li class="sc-gZMcBi Bomeo">Apoie-nos</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/blog">
+                                <li class="sc-gZMcBi Bomeo">Últimos eventos</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/about-us">
+                                <li class="sc-gZMcBi Bomeo">Conheça nosso time</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/contact">
+                                <li class="sc-gZMcBi Bomeo">Fale conosco</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <a class="sc-fjdhpX izNzAG active" aria-current="page" href="/">
+                                <img alt="Nuevo Foundation Logo" class="sc-dnqmqq emolVn"
+                                    src="/images/Logo_long.0f097b90.svg" height="60%" /></a>
+                        </div>
+                        <div class="col-xs-2" onclick="toggleVisibility();"
+                            style="padding-top: 4%; padding-left: 4%; cursor: pointer;">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                                class="svg-inline--fa fa-bars fa-w-14 fa-lg" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/pt-br/java-basics/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/pt-br/java-basics/">Java: Fundamentos</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/pt-br/java-basics/activity-0/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-basics/activity-0/">
+            Usando Replit
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-basics/activity-1/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-basics/activity-1/">
+            Imprimir declarações e comentários
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-basics/activity-2/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-basics/activity-2/">
+            Variáveis ​​e Tipos
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-basics/activity-3/" class="dd-item active">
+        <div>
+          <a href="/pt-br/java-basics/activity-3/">
+            Operadores
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-basics/activity-4/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-basics/activity-4/">
+            Estruturas de Controle
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-basics/activity-5/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-basics/activity-5/">
+            Métodos
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-basics/activity-6/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-basics/activity-6/">
+            Objeto e Classes
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-basics/activity-7/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-basics/activity-7/">
+            Estruturas de dados (Array &amp; ArrayList)
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+    </ul>
+
+    <section>
+    </section>
+  </aside>
+  <section class="page">
+    <div align="right">
+<select id="select-language" onchange="location = this.value;">
+	
+	
+	
+	  
+	  
+	    
+	      
+	        <option id="en" value="/java-basics/activity-3/">English</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	      
+	        <option id="es" value="/es/java-basics/activity-3/">Español</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="pt-br" value="/pt-br/java-basics/activity-3/" selected>Português Brasileiro</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+</select>
+    </div>
+
+    <div class="nav-select">
+      Navegação:&nbsp;
+      <select onchange="javascript:location.href = this.value;">
+        
+<option value="/pt-br/java-basics/" >
+   Java: Fundamentos</option>
+
+<option value="/pt-br/java-basics/activity-0/" >- Usando Replit</option>
+<option value="/pt-br/java-basics/activity-1/" >- Imprimir declarações e comentários</option>
+<option value="/pt-br/java-basics/activity-2/" >- Variáveis ​​e Tipos</option>
+<option value="/pt-br/java-basics/activity-3/"  selected>- Operadores</option>
+<option value="/pt-br/java-basics/activity-4/" >- Estruturas de Controle</option>
+<option value="/pt-br/java-basics/activity-5/" >- Métodos</option>
+<option value="/pt-br/java-basics/activity-6/" >- Objeto e Classes</option>
+<option value="/pt-br/java-basics/activity-7/" >- Estruturas de dados (Array &amp; ArrayList)</option>
+
+
+
+      </select>
+
+    </div>
+    
+
+    <h1>Operadores</h1>
+
+    
+
+    
+
+    
+    
+    
+    
+    <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/wP8-F1nBPcg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<h2 id="vamos-fazer-matemática-operador-aritmético">Vamos fazer matemática: operador aritmético</h2>
+<p>No último exercício, aprendemos sobre variáveis ​​e como podemos atribuir valores a uma variável de um tipo específico, como:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">int</span> <span style="color:#111">age</span> <span style="color:#f92672">=</span> <span style="color:#111">3</span><span style="color:#111">;</span>  <span style="color:#75715e">// declare a variável idade do tipo int com valor 3</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">age</span> <span style="color:#f92672">=</span> <span style="color:#111">4</span><span style="color:#111">;</span>      <span style="color:#75715e">// atribua 4 à variável idade</span>
+</span></span></code></pre></div><p>Olhando para o código acima, essencialmente adiciona 1 ao valor da variável <code>age</code>.</p>
+<p>E, em Java, podemos realizar operações matemáticas em variáveis ​​diretamente com <strong>operadores aritméticos</strong>: <code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>, <code>%</code>.
+Por exemplo, podemos usar o operador <code>+</code> para adicionar 1 a <code>age</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">int</span> <span style="color:#111">age</span> <span style="color:#f92672">=</span> <span style="color:#111">3</span><span style="color:#111">;</span>  <span style="color:#75715e">// declare a variável idade do tipo int com valor 3</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">age</span> <span style="color:#f92672">=</span> <span style="color:#111">age</span> <span style="color:#f92672">+</span> <span style="color:#111">1</span><span style="color:#111">;</span><span style="color:#75715e">// adicione 1 à idade</span>
+</span></span></code></pre></div><div class="notices note" >
+    <p header-value="Observação"><p>A seguir estão os operadores aritméticos em Java:</p>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Operador</strong></th>
+          <th><strong>Descrição</strong></th>
+          <th><strong>Exemplo</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>+</code></td>
+          <td>adição</td>
+          <td><code>1 + 1 = 2</code></td>
+      </tr>
+      <tr>
+          <td><code>-</code></td>
+          <td>subtração</td>
+          <td><code>2 - 1 = 1</code></td>
+      </tr>
+      <tr>
+          <td><code>*</code></td>
+          <td>multiplicação</td>
+          <td><code>3 * 3 = 9</code></td>
+      </tr>
+      <tr>
+          <td><code>/</code></td>
+          <td>divisão</td>
+          <td><code>9 / 3 = 3</code></td>
+      </tr>
+      <tr>
+          <td><code>%</code></td>
+          <td>módulo/resto</td>
+          <td><code>10 % 4 = 2</code></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Nota</strong>: Se ambos os operandos da divisão forem inteiros, o resultado também será um inteiro. Por exemplo, <code>10/4</code> retorna 2, não 2,5, pois descartamos o restante. Se algum dos operandos for double, o resultado será double.</p>
+<p><strong>Nota</strong>: A operação de módulo obtém o restante da operação de divisão.</p>
+</p>
+</div>
+<div class="notices tip" >
+    <p header-value="Dica"><p>Adição (<code>+</code>) é usado em String como operador de concatenação. Por exemplo:</p>
+<p><code>String name = &quot;Patric&quot; + &quot;k&quot;;</code> é o mesmo que <code>String name = &quot;Patrick&quot;;</code></p>
+</p>
+</div>
+<h3 id="instruções">Instruções</h3>
+<p>1.Use o programa abaixo para praticar o uso dos operadores aritméticos. Mude os números para ver as respostas.</p>
+<p><a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsOperatorsPractice" target="_blank">Launch Replit</a></p>
+<h2 id="comparações-operador-relacional">Comparações: Operador Relacional</h2>
+<p>A seguir, vamos aprender como comparar números usando <strong>operadores relacionais</strong>.</p>
+<p>Assim como na matemática, podemos comparar números usando <code>&gt;</code>, <code>&lt;</code>, <code>&gt;=</code>, <code>&lt;=</code>. Por exemplo: <code>(3 &gt; 2)</code> é <code>true</code> (verdadeiro), ou  <code>(3 &lt; 2)</code> é <code>false</code> (falso), valores booleanos.</p>
+<div class="notices note" >
+    <p header-value="Observação"><p>A seguir estão os operadores relacionais em Java:</p>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Operador</strong></th>
+          <th><strong>Descrição</strong></th>
+          <th><strong>Exemplo</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>==</code></td>
+          <td>igual a</td>
+          <td><code>(3 == 3)</code> é<code>true</code></td>
+      </tr>
+      <tr>
+          <td><code>!=</code></td>
+          <td>não é igual a</td>
+          <td><code>(3 != 3)</code> é <code>false</code></td>
+      </tr>
+      <tr>
+          <td><code>&gt;</code></td>
+          <td>maior que</td>
+          <td><code>(3 &gt; 2)</code> é <code>true</code></td>
+      </tr>
+      <tr>
+          <td><code>&lt;</code></td>
+          <td>menor que</td>
+          <td><code>(3 &lt; 2)</code> é <code>false</code></td>
+      </tr>
+      <tr>
+          <td><code>&gt;=</code></td>
+          <td>maior ou igual a</td>
+          <td><code>(3 &gt;= 2)</code> é <code>true</code></td>
+      </tr>
+      <tr>
+          <td><code>&lt;=</code></td>
+          <td>menor ou igual a</td>
+          <td><code>(2 &lt;= 2)</code> é <code>true</code></td>
+      </tr>
+  </tbody>
+</table>
+<p>Nota: <code>==</code> e <code>!=</code> só pode ser usado em dados do mesmo tipo. Por exemplo:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">int</span> <span style="color:#111">x</span><span style="color:#f92672">=</span><span style="color:#111">3</span><span style="color:#111">;</span> 
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">double</span> <span style="color:#111">y</span><span style="color:#f92672">=</span><span style="color:#111">3</span><span style="color:#111">.</span><span style="color:#75af00">0</span><span style="color:#111">;</span> 
+</span></span><span style="display:flex;"><span><span style="color:#111">x</span><span style="color:#f92672">==</span><span style="color:#111">y</span><span style="color:#111">;</span> <span style="color:#75715e">// Isso produziria um erro porque x e y são de tipos diferentes.</span>
+</span></span></code></pre></div></p>
+</div>
+<div class="notices tip" >
+    <p header-value="Dica"><p>Usar um sinal de igual atribui um valor à variável. Usar dois sinais de igual compara os valores de dois elementos.</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#111">age</span> <span style="color:#f92672">=</span> <span style="color:#111">3</span><span style="color:#111">;</span>  <span style="color:#75715e">// define o valor de age para 3</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">age</span> <span style="color:#f92672">==</span> <span style="color:#111">3</span><span style="color:#111">;</span> <span style="color:#75715e">// verifica se o valor de age é 3</span>
+</span></span></code></pre></div></p>
+</div>
+<h3 id="prática-de-comparação">Prática de comparação</h3>
+<ol>
+<li>Use o programa abaixo para praticar o uso dos operadores de comparação. Mude os números para ver as respostas.</li>
+</ol>
+<p><a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsComparisonPractice" target="_blank">Launch Replit</a></p>
+<h2 id="estatísticas-do-exame">Estatísticas do exame!</h2>
+<p>Patrick 🐥 e 4 de seus colegas de classe acabaram de fazer uma prova de música nesta aula. Estas são as notas (Grades) dos exames: Patrick(88), Tom(89), Mary(95), Chris(84), Jen(92).</p>
+<p>Queremos produzir um relatório estatístico de notas de toda a turma.</p>
+<p>Este relatório lista a nota de cada aluno, a pontuação média da turma e se a média da turma é superior a 60, 70, 80, 90 (<code>true</code> ou <code>false</code>), como a seguir:</p>
+<pre tabindex="0"><code>---------------------------
+     Relatório de notas    
+---------------------------
+
+Notas dos alunos:          
+- Patrick: ...
+- Tom: ...
+...
+
+Média da turma: ...
+- Média acima de 60: ...
+- Média acima de 70: ...
+- Média acima de 80: ...
+- Média acima de 90: ...
+</code></pre><p>Vamos escrever com a ajuda de operadores 🎵!</p>
+<div class="notices note" >
+    <p header-value="Observação"><h3 id="instruções">Instruções:</h3>
+<ol>
+<li>
+<p>Identifique todas as variáveis ​​nas instruções de impressão e declare-as começando na linha 12 com o tipo de dados e valor corretos. (Observe que existem 10 variáveis ​​no total e <code>average</code> foi declarado para você).</p>
+<p>Dica: por exemplo, a variável <code>patrickGrade</code> deve ser declarada e atribuída na linha 13 como <code>int patrickGrade = 88;</code>.</p>
+</li>
+<li>
+<p>Calcule a média correta da turma e atribua-a à variável <code>average</code> (média) usando <strong>operadores aritméticos</strong> como <code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>, <code>%</code>.</p>
+<p>Observe que a pontuação média é <code>(total de pontos)</code>/<code>(quantidade de alunos)</code>.</p>
+</li>
+<li>
+<p>Atribua variáveis <code>over60</code>, <code>over70</code>, <code>over80</code>, <code>over90</code> com o valor correto usando <strong>operadores relacionais</strong> como <code>&gt;</code>, <code>&lt;</code>, <code>&gt;=</code>, <code>&lt;=</code>.</p>
+</li>
+<li>
+<p>Execute o programa e veja o relatório impresso!</p>
+</li>
+</ol>
+</p>
+</div>
+<p><a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsOperators" target="_blank">Launch Replit</a></p>
+
+
+    
+    
+      <div class="chevrons">
+  <style>
+    .workshop-complete-image {
+        margin: 40px auto 50px auto;
+        width: 340.8px;
+    }
+    
+    .workshop-complete-words {
+        font-family: Space Mono, monospace;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        text-align: center;
+    }
+    
+    .horizontal-bar {
+        background-color: #000000;
+        width: 120px;
+        height: 12px;
+        margin: 80px auto 0 auto;
+    }
+</style>
+
+
+    <div id="navigation">
+            <div class="next-prev-wrapper-div"><a class='nav nav-prev' href="/pt-br/java-basics/activity-2/" title="Variáveis ​​e Tipos">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Anterior:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Variáveis ​​e Tipos
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="prevbutton-image">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+        
+    </div>
+</a></div>
+            <div class="next-prev-wrapper-div"><a class='nav nav-next' href="/pt-br/java-basics/activity-4/" title="Estruturas de Controle">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Próximo:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Estruturas de Controle
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="nextbutton-image">
+            <i class="fa fa-arrow-right"></i>
+        </div>
+        
+    </div>
+</a></div>
+        </div>
+</div>
+
+</section>
+</article>
+
+<footer>
+  <div class="footline">
+    
+
+    
+
+    
+    <div class="date">
+      <i class='fa fa-calendar'></i> 
+      Wed, 13 Oct 2021 00:00:00 PDT
+    </div>
+    
+
+    
+    <div class="github-link">
+      <a href="https://github.com/NuevoFoundation/workshops/tree/master/content/java-basics/activity-3.md" target="blank"><i
+          class="fa fa-code-fork"></i>
+        </a>
+    </div>
+    
+  </div>
+
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+    
+
+    
+    
+
+    <div id="footer" class="row">
+    <div class="col-xs-12">
+        <div class="App-footer">
+            <div class="App-footer-big">
+                Siga-nos nas redes sociais.
+            </div>
+            <div class="social-images">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Instagram" class="fab fa-2x fa-instagram"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation X" class="fab fa-2x fa-x-twitter"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Facebook" class="fab fa-2x fa-1x fa-facebook-f"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-2x fa-linkedin"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/nuevofoundation?sub_confirmation=1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation YouTube" class="fab fa-2x fa-youtube"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Spotify" class="fab fa-2x fa-spotify"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Github" class="fab fa-2x fa-github"></i>
+                </a>
+            </div>
+            <div class="App-footer-small">
+                © Copyright 2025, Todos os direitos reservados a Nuevo Foundation, uma organização sem fins lucrativos de acordo com a norma 501(c)(3) da lei federal dos Estados Unidos.
+            </div>
+        </div>
+    </div>
+</div>
+
+  </body>
+</html>

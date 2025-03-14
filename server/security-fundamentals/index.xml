@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security Fundamentals on Nuevo Foundation Workshops</title>
+    <link>/security-fundamentals/</link>
+    <description>Recent content in Security Fundamentals on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/security-fundamentals/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is Security?</title>
+      <link>/security-fundamentals/what-is-security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/security-fundamentals/what-is-security/</guid>
+      <description>&lt;h2 id=&#34;general-security-vs-cyber-security&#34;&gt;General Security vs. Cyber Security&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Security&lt;/strong&gt; on its own is defined as the state of being free from danger or threat. This is the same as the definition of &lt;strong&gt;cyber security&lt;/strong&gt; except that cyber security is all about creating a state of being free from danger but in &lt;strong&gt;cyberspace&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Someone who works in &lt;strong&gt;cybersecurity&lt;/strong&gt; is always working on something to make sure that people who use computers are safe when they use the internet in a variety of ways. Some cybers security engineers ensure that users are safe by always being on alert for new vulnerabilities while others do the same job by trying to break programs before hackers can.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How can we incorporate security into our daily lives?</title>
+      <link>/security-fundamentals/how-can-we-incorporate-security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/security-fundamentals/how-can-we-incorporate-security/</guid>
+      <description>&lt;!-- Links for javascript needed for logic --&gt;&#xD;&#xA;&lt;script type=&#34;text/javascript&#34; src=&#34;../_incorporate-security.js&#34;&gt;&lt;/script&gt;&#xD;&#xA;&lt;p&gt;Cyber security is a big field where everyone needs to do their part to ensure that we can browse the Internet safely. We can help make it more difficult for hackers and cyber criminals to break in and gain access to the networks we are a part of.&lt;/p&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div&gt;&#xD;&#xA;  &lt;form name=&#34;form1&#34; accept-charset=&#34;UTF-8&#34;&gt;&#xD;&#xA;    What are some ways you think we can make it harder for hackers to break in?&#xD;&#xA; &lt;/br&gt;&#xD;&#xA; &lt;/br&gt;&#xD;&#xA; &lt;/form&gt;&#xD;&#xA;&#xD;&#xA; &lt;input id=&#34;text_field&#34; type=&#34;text&#34; name=&#34;name1&#34; placeholder=&#34;Type your answer here&#34;&gt;&#xD;&#xA; &#xD;&#xA; &lt;!-- Enter button --&gt;&#xD;&#xA; &lt;div&gt;&#xD;&#xA;   &lt;button id=&#34;submit_button&#34; type=&#34;button&#34; onclick=&#34;displaySection()&#34;&gt;Submit&lt;/button&gt;&#xD;&#xA; &lt;/div&gt;&#xD;&#xA;&lt;/br&gt;&#xD;&#xA; &#xD;&#xA; &lt;!-- Hidden section with sample answers --&gt;&#xD;&#xA; &lt;div class=&#34;sample_answers&#34; id=&#34;sample_answers&#34; style=&#34;visibility:hidden&#34;&gt;&#xD;&#xA;   &lt;p&gt;Nice answer! Some other answers to consider are:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Security vs Privacy</title>
+      <link>/security-fundamentals/security-vs-privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/security-fundamentals/security-vs-privacy/</guid>
+      <description>&lt;p&gt;Security and privacy are often used interchangeably by people, but it is important to understand how these two ideas are different.&lt;/p&gt;&#xA;&lt;h3 id=&#34;security&#34;&gt;Security&lt;/h3&gt;&#xA;&lt;p&gt;Security refers to protection against the unauthorized access of data regardless of the content. Any measure taken to make sure that data can&amp;rsquo;t be accessed by an unauthorized person is known as security. Some examples include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Ensuring that computers are locked while unattended&lt;/li&gt;&#xA;&lt;li&gt;Programming techniques that prevents software attacks&lt;/li&gt;&#xA;&lt;li&gt;Using two-factor authentication&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;privacy&#34;&gt;Privacy&lt;/h3&gt;&#xA;&lt;p&gt;Privacy refers to the right for consumers to be free from unwanted attention or surveillance. Privacy is generally concerned with Personally Identifiable Information (PII). Some examples of PII are:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cyber Security Cause &amp; Effect</title>
+      <link>/security-fundamentals/cyber-security-cause--effect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/security-fundamentals/cyber-security-cause--effect/</guid>
+      <description>&lt;p&gt;Cyber security in practice is more than just not falling for scams online. What exactly are the common risks that users online ignore and that hackers take advantage of?&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Not enabling two-factor authentication to log into accounts (social media, banking, gaming, etc.)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;This makes it much easier for hackers to crack your password and log in without you knowing.&lt;/p&gt;&#xA;&lt;div class=&#34;notices tip&#34; &gt;&#xD;&#xA;    &lt;p header-value=&#34;Tip&#34;&gt;&lt;h3 id=&#34;enabling-two-factor-authentication-2fa&#34;&gt;Enabling Two-Factor Authentication (2FA)&lt;/h3&gt;&#xA;&lt;p&gt;Two-Factor Authentication (commonly shortened to 2FA) is the practice of needing two forms (or factors) of proving who you are when signing in. This is helpful because if someone were to steal or guess your password, they still wouldn&amp;rsquo;t be able to log in to your account.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

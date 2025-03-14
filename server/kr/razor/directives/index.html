@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nuevo Foundation Workshops</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+<meta name="theme-color" content="#000000" />
+<meta name="revised" content="2025-03-14T19:00:14 -03">
+<meta name="application-name" content=" " />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+<title>Razor 지시문 :: Nuevo Foundation Workshops</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+
+<link rel="shortcut icon" href="https://www.nuevofoundation.org/favicons/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57"
+      href="https://www.nuevofoundation.org/favicons//apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120"
+      href="https://www.nuevofoundation.org/favicons/pple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-128.png" sizes=" 128x128" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="/css/nuevoweb.css" />
+<link rel="stylesheet" href="/css/chunk.css" />
+<link rel="stylesheet" href="/css/data-style.css" />
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+
+<script lang="JavaScript">
+
+      function toggleVisibility() {
+
+            
+            const menu = document.getElementById("mobile-nav-menu");
+            if (menu.style.display == 'none') {
+                  menu.classList.replace("transition-out", "transition-in")
+                  menu.style.display = 'block';
+            }
+            else if (menu.style.display == 'block') {
+                  menu.classList.replace("transition-in", "transition-out")
+                  menu.style.display = 'none';
+            }
+      }
+</script>
+<meta
+  name="description"
+  content="
+
+    
+"
+/>
+
+
+    
+  </head>
+  <body data-url="/kr/razor/directives/" >
+    
+      <header>
+  
+  <div id="mobile-nav-menu" class="transition-out" style="display: none;">
+    <div class="close-btn" onclick="toggleVisibility();">
+        <i aria-hidden="true" focusable="false" style="cursor: pointer;" class="fa fa-times fa-w-11 fa-sm"></i>
+    </div>
+    <div>
+        <div class="sc-dNLxif ecnYUM">
+            <a href="/support-us"><button class="sc-jbKcbu sedGx"
+                    style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: 4px solid rgb(0, 0, 0); border-radius: 4px;">
+                    기부하기
+                </button></a>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/what-we-do">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>우리가 하는 일</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/get-involved">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>참여하세요</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/support-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>우리를 지원해주세요</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/blog">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>이벤트 블로그</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/about-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>우리 팀</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/contact">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>문의하기</li>
+            </ul>
+        </a>
+    </div>
+</div>
+<div>
+    <div class="sc-gGBfsJ iKkPGj">
+        <div class="container-fluid">
+            <div id="toprow" class="row">
+                <div class="col-xs-12">
+                    <div class="sc-EHOje fJMnSm">
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.instagram.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation Instagram" class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://twitter.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation X" class="fab fa-x-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Facebook" class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.linkedin.com/company/nuevofoundation">
+                                <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://www.youtube.com/nuevofoundation?sub_confirmation=1n">
+                                <i aria-label="Nuevo Foundation YouTube" class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1">
+                                <i aria-label="Nuevo Foundation Spotify" class="fab fa-spotify"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://github.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Github" class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" rel="noopener noreferrer"
+                                href="https://nuevofoundation.org/support-us">기부하기</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="secondrow" class="row">
+                <div class="col-sm-12 hidden-xs">
+                    <div class="sc-htoDjs kjtfZK">
+                        <a class="sc-fjdhpX izNzAG active" aria-current="page" href="https://nuevofoundation.org">
+                            <img alt="Nuevo Foundation Logo" src="/images/Logo_long.0f097b90.svg"
+                                height="60px" />
+                        </a>
+                        <ul class="sc-iwsKbI bUOvG">
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/what-we-do">
+                                <li class="sc-gZMcBi Bomeo">우리가 하는 일</li>
+                            </a>
+                            <a class="izNzAG" href="/">
+                                <li class="sc-gZMcBi Bomeo-selected jgBGVn">워크샵<span></span></li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/get-involved">
+                                <li class="sc-gZMcBi Bomeo">참여하세요</li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/support-us">
+                                <li class="sc-gZMcBi Bomeo">우리를 지원해주세요</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/blog">
+                                <li class="sc-gZMcBi Bomeo">이벤트 블로그</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/about-us">
+                                <li class="sc-gZMcBi Bomeo">우리 팀</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/contact">
+                                <li class="sc-gZMcBi Bomeo">문의하기</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <a class="sc-fjdhpX izNzAG active" aria-current="page" href="/">
+                                <img alt="Nuevo Foundation Logo" class="sc-dnqmqq emolVn"
+                                    src="/images/Logo_long.0f097b90.svg" height="60%" /></a>
+                        </div>
+                        <div class="col-xs-2" onclick="toggleVisibility();"
+                            style="padding-top: 4%; padding-left: 4%; cursor: pointer;">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                                class="svg-inline--fa fa-bars fa-w-14 fa-lg" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/kr/razor/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/kr/razor/">C#: Razor를 사용한 웹 사이트 만들기</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/kr/razor/learn-vscode/" class="dd-item">
+        <div>
+          <a href="/kr/razor/learn-vscode/">
+            Visual Studio Code 알아보기
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/razor/activity-1/" class="dd-item">
+        <div>
+          <a href="/kr/razor/activity-1/">
+            활동 1 - Visual Studio Code 탐색하기
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/razor/activity-2/" class="dd-item">
+        <div>
+          <a href="/kr/razor/activity-2/">
+            활동 2 - Visual Studio Code 확장 프로그램 추가
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/razor/razor-explained/" class="dd-item">
+        <div>
+          <a href="/kr/razor/razor-explained/">
+            Razor 기초1
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/razor/razor-syntax/" class="dd-item">
+        <div>
+          <a href="/kr/razor/razor-syntax/">
+            Razor 기초2
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/razor/directives/" class="dd-item active">
+        <div>
+          <a href="/kr/razor/directives/">
+            Razor 지시문
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/razor/activity-3/" class="dd-item">
+        <div>
+          <a href="/kr/razor/activity-3/">
+            활동 3 - 웹 애플리케이션 만들기
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kr/razor/activity-4/" class="dd-item">
+        <div>
+          <a href="/kr/razor/activity-4/">
+            활동 4 - 새로운 Razor 페이지 추가
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+    </ul>
+
+    <section>
+    </section>
+  </aside>
+  <section class="page">
+    <div align="right">
+<select id="select-language" onchange="location = this.value;">
+	
+	
+	
+	  
+	  
+	    
+	      
+	        <option id="en" value="/razor/directives/">English</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="kr" value="/kr/razor/directives/" selected>한국어</option>
+	      
+	    
+	  
+	    
+	  
+	
+</select>
+    </div>
+
+    <div class="nav-select">
+      항해:&nbsp;
+      <select onchange="javascript:location.href = this.value;">
+        
+<option value="/kr/razor/" >
+   C#: Razor를 사용한 웹 사이트 만들기</option>
+
+<option value="/kr/razor/learn-vscode/" >- Visual Studio Code 알아보기</option>
+<option value="/kr/razor/activity-1/" >- 활동 1 - Visual Studio Code 탐색하기</option>
+<option value="/kr/razor/activity-2/" >- 활동 2 - Visual Studio Code 확장 프로그램 추가</option>
+<option value="/kr/razor/razor-explained/" >- Razor 기초1</option>
+<option value="/kr/razor/razor-syntax/" >- Razor 기초2</option>
+<option value="/kr/razor/directives/"  selected>- Razor 지시문</option>
+<option value="/kr/razor/activity-3/" >- 활동 3 - 웹 애플리케이션 만들기</option>
+<option value="/kr/razor/activity-4/" >- 활동 4 - 새로운 Razor 페이지 추가</option>
+
+
+
+      </select>
+
+    </div>
+    
+
+    <h1>Razor 지시문</h1>
+
+    
+
+    
+
+    
+    
+    
+    
+    <h2 id="지시문">지시문</h2>
+<p>Razor 지시문은 @ 기호 뒤에 예약된 키워드가 따라오는 암묵적 표현식으로 표현됩니다.
+지시문은 일반적으로 뷰(View)가 해석되는 방식을 변경하거나, 다양한 기능을 활성화합니다.</p>
+<p>Razor가 뷰에 대한 코드를 생성하는 방식을 이해하면 지시문의 동작을 더 쉽게 이해할 수 있습니다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">@</span><span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">string</span> <span style="color:#111">quote</span> <span style="color:#111">=</span> <span style="color:#d88200">&#34;Getting old ain&#39;t for wimps! - Anonymous&#34;</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#111">div</span><span style="color:#111">&gt;</span><span style="color:#111">Quote</span> <span style="color:#111">of</span> <span style="color:#111">the</span> <span style="color:#111">Day</span><span style="color:#111">:</span> <span style="color:#111">@quote</span><span style="color:#111">&lt;/</span><span style="color:#111">div</span><span style="color:#111">&gt;</span>
+</span></span></code></pre></div><p>위 코드는 다음과 유사한 클래스를 생성합니다:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#00a8c8">public</span> <span style="color:#00a8c8">class</span> <span style="color:#75af00">_Views_Something_cshtml</span> <span style="color:#111">:</span> <span style="color:#111">RazorPage</span><span style="color:#111">&lt;</span><span style="color:#00a8c8">dynamic</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">public</span> <span style="color:#00a8c8">override</span> <span style="color:#00a8c8">async</span> <span style="color:#111">Task</span> <span style="color:#111">ExecuteAsync</span><span style="color:#111">()</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#00a8c8">string</span> <span style="color:#111">output</span> <span style="color:#111">=</span> <span style="color:#d88200">&#34;Getting old ain&#39;t for wimps! - Anonymous&#34;</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#111">WriteLiteral</span><span style="color:#111">(</span><span style="color:#d88200">&#34;/r/n&lt;div&gt;Quote of the Day: &#34;</span><span style="color:#111">);</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#111">Write</span><span style="color:#111">(</span><span style="color:#111">output</span><span style="color:#111">);</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#111">WriteLiteral</span><span style="color:#111">(</span><span style="color:#d88200">&#34;&lt;/div&gt;&#34;</span><span style="color:#111">);</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span></code></pre></div><h3 id="attribute"><code>@attribute</code></h3>
+<p><code>@attribute</code> 지시문은 생성된 페이지나 뷰 클래스에 지정된 속성을 추가합니다. 다음 예제는 [Authorize] 속성을 추가하는 방법을 보여줍니다:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#111">@attribute</span> <span style="color:#111">[</span><span style="color:#111">Authorize</span><span style="color:#111">]</span>
+</span></span></code></pre></div><p><code>@attribute</code> 지시문은 Razor 컴포넌트에서 상수 기반 경로 템플릿(constant-based route template)을 제공하는 데에도 사용할 수 있습니다. 다음 예제에서는 컴포넌트에서 <code>@page</code> 지시문이 <code>@attribute</code> 지시문과 Constants.CounterRoute의 상수 기반 경로 템플릿으로 대체됩니다. Constants.CounterRoute는 앱의 다른 곳에서 &ldquo;/counter&quot;로 설정되어 있습니다:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#111">@page</span> <span style="color:#d88200">&#34;/counter&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">@attribute</span> <span style="color:#111">[</span><span style="color:#111">Route</span><span style="color:#111">(</span><span style="color:#111">Constants</span><span style="color:#111">.</span><span style="color:#111">CounterRoute</span><span style="color:#111">)]</span>
+</span></span></code></pre></div><h3 id="code"><code>@code</code></h3>
+<p>@code 블록은 Razor 컴포넌트(.razor)에만 해당됩니다. @code 블록을 사용하면 Razor 컴포넌트에 C# 멤버(필드, 속성, 메서드)를 추가할 수 있습니다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#111">@code</span> <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// C# members (fields, properties, and methods)</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span></code></pre></div><p>Razor 컴포넌트에서 <code>@code</code>는 <code>@functions</code>의 별칭으로, <code>@functions</code> 대신 사용하는 것이 권장됩니다. <code>@code</code> 블록은 여러 개 작성이 가능합니다.</p>
+<h3 id="functions"><code>@functions</code></h3>
+<p><code>@functions</code> 지시문은 생성된 클래스에 C# 멤버(필드, 속성, 메서드)를 추가할 수 있도록 합니다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#111">@functions</span> <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// C# members (fields, properties, and methods)</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span></code></pre></div><p>Razor 컴포넌트에서는 C# 멤버를 추가할 때 <code>@functions</code> 대신 <code>@code</code>를 사용하는 것이 권장됩니다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#111">@functions</span> <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">public</span> <span style="color:#00a8c8">string</span> <span style="color:#111">GetHello</span><span style="color:#111">()</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#00a8c8">return</span> <span style="color:#d88200">&#34;Hello&#34;</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#111">div</span><span style="color:#111">&gt;</span><span style="color:#111">From</span> <span style="color:#111">method</span><span style="color:#111">:</span> <span style="color:#111">@GetHello</span><span style="color:#111">()&lt;/</span><span style="color:#111">div</span><span style="color:#111">&gt;</span> 
+</span></span></code></pre></div><p>위 코드는 다음과 같은 HTML을 생성합니다:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#f92672">div</span><span style="color:#111">&gt;</span>From method: Hello<span style="color:#111">&lt;/</span><span style="color:#f92672">div</span><span style="color:#111">&gt;</span>
+</span></span></code></pre></div><p>다음은 Razor 코드가 생성하는 C# 클래스입니다:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#00a8c8">using</span> <span style="color:#111">System.Threading.Tasks</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">using</span> <span style="color:#111">Microsoft.AspNetCore.Mvc.Razor</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">public</span> <span style="color:#00a8c8">class</span> <span style="color:#75af00">_Views_Home_Test_cshtml</span> <span style="color:#111">:</span> <span style="color:#111">RazorPage</span><span style="color:#111">&lt;</span><span style="color:#00a8c8">dynamic</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Functions placed between here </span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">public</span> <span style="color:#00a8c8">string</span> <span style="color:#111">GetHello</span><span style="color:#111">()</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#00a8c8">return</span> <span style="color:#d88200">&#34;Hello&#34;</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// And here.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#pragma</span> <span style="color:#111">warning</span> <span style="color:#111">disable</span> <span style="color:#ae81ff">1998</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">public</span> <span style="color:#00a8c8">override</span> <span style="color:#00a8c8">async</span> <span style="color:#111">Task</span> <span style="color:#111">ExecuteAsync</span><span style="color:#111">()</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#111">WriteLiteral</span><span style="color:#111">(</span><span style="color:#d88200">&#34;\r\n&lt;div&gt;From method: &#34;</span><span style="color:#111">);</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#111">Write</span><span style="color:#111">(</span><span style="color:#111">GetHello</span><span style="color:#111">());</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#111">WriteLiteral</span><span style="color:#111">(</span><span style="color:#d88200">&#34;&lt;/div&gt;\r\n&#34;</span><span style="color:#111">);</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#pragma</span> <span style="color:#111">warning</span> <span style="color:#111">restore</span> <span style="color:#ae81ff">1998</span>
+</span></span></code></pre></div><p><code>@functions</code> 방식은 마크업을 포함하는 경우, 템플릿 방식으로 동작할 수 있습니다:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">@</span><span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">RenderName</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Mahatma Gandhi&#34;</span><span style="color:#111">);</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">RenderName</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Martin Luther King, Jr.&#34;</span><span style="color:#111">);</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#111">@functions</span> <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">private</span> <span style="color:#00a8c8">void</span> <span style="color:#111">RenderName</span><span style="color:#111">(</span><span style="color:#00a8c8">string</span> <span style="color:#111">name</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#111">&lt;</span><span style="color:#111">p</span><span style="color:#111">&gt;</span><span style="color:#111">Name</span><span style="color:#111">:</span> <span style="color:#111">&lt;</span><span style="color:#111">strong</span><span style="color:#111">&gt;</span><span style="color:#111">@name</span><span style="color:#111">&lt;/</span><span style="color:#111">strong</span><span style="color:#111">&gt;&lt;/</span><span style="color:#111">p</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span></code></pre></div><p>위 코드는 다음과 같은 HTML로 렌더링됩니다:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#f92672">p</span><span style="color:#111">&gt;</span>Name: <span style="color:#111">&lt;</span><span style="color:#f92672">strong</span><span style="color:#111">&gt;</span>Mahatma Gandhi<span style="color:#111">&lt;/</span><span style="color:#f92672">strong</span><span style="color:#111">&gt;&lt;/</span><span style="color:#f92672">p</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#f92672">p</span><span style="color:#111">&gt;</span>Name: <span style="color:#111">&lt;</span><span style="color:#f92672">strong</span><span style="color:#111">&gt;</span>Martin Luther King, Jr.<span style="color:#111">&lt;/</span><span style="color:#f92672">strong</span><span style="color:#111">&gt;&lt;/</span><span style="color:#f92672">p</span><span style="color:#111">&gt;</span>
+</span></span></code></pre></div><h3 id="implements"><code>@implements</code></h3>
+<p><code>@implements</code> 지시문은 생성된 클래스에 인터페이스를 구현하도록 설정합니다. 다음 예제는 <code>System.IDisposable</code>인터페이스를 구현하여 Dispose 메서드를 호출할 수 있도록 합니다:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#111">@implements</span> <span style="color:#111">IDisposable</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#111">h1</span><span style="color:#111">&gt;</span><span style="color:#111">Example</span><span style="color:#111">&lt;/</span><span style="color:#111">h1</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#111">@functions</span> <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">private</span> <span style="color:#00a8c8">bool</span> <span style="color:#111">_isDisposed</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">...</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">public</span> <span style="color:#00a8c8">void</span> <span style="color:#111">Dispose</span><span style="color:#111">()</span> <span style="color:#111">=&gt;</span> <span style="color:#111">_isDisposed</span> <span style="color:#111">=</span> <span style="color:#00a8c8">true</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span></code></pre></div><h3 id="inherits"><code>@inherits</code></h3>
+<p><code>@inherits</code> 지시문은 뷰(View)가 상속받는 클래스를 완전히 제어할 수 있도록 설정합니다:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#111">@inherits</span> <span style="color:#111">TypeNameOfClassToInheritFrom</span>
+</span></span></code></pre></div><p>커스텀 Razor 페이지 타입의 사용 예시는 다음과 같습니다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#00a8c8">using</span> <span style="color:#111">Microsoft.AspNetCore.Mvc.Razor</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">public</span> <span style="color:#00a8c8">abstract</span> <span style="color:#00a8c8">class</span> <span style="color:#75af00">CustomRazorPage</span><span style="color:#111">&lt;</span><span style="color:#111">TModel</span><span style="color:#111">&gt;</span> <span style="color:#111">:</span> <span style="color:#111">RazorPage</span><span style="color:#111">&lt;</span><span style="color:#111">TModel</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">public</span> <span style="color:#00a8c8">string</span> <span style="color:#111">CustomText</span> <span style="color:#111">{</span> <span style="color:#00a8c8">get</span><span style="color:#111">;</span> <span style="color:#111">}</span> <span style="color:#111">=</span> 
+</span></span><span style="display:flex;"><span>        <span style="color:#d88200">&#34;Gardyloo! - A Scottish warning yelled from a window before dumping&#34;</span> <span style="color:#111">+</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#d88200">&#34;a slop bucket on the street below.&#34;</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span></code></pre></div><p>뷰에서 CustomText 출력하기:</p>
+<pre tabindex="0"><code class="language-chsarp" data-lang="chsarp">@inherits CustomRazorPage&lt;TModel&gt;
+
+&lt;div&gt;Custom text: @CustomText&lt;/div&gt;
+</code></pre><p>위 코드는 다음과 같은 HTML을 생성합니다:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#f92672">div</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span>    Custom text: Bumbershoot - Another word for an umbrella.
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;/</span><span style="color:#f92672">div</span><span style="color:#111">&gt;</span>
+</span></span></code></pre></div><p><code>@model</code>과 <code>@inherits</code>는 동일한 뷰에서 함께 사용할 수 있습니다.
+<code>@inherits</code>는 _ViewImports.cshtml 파일에 정의되어 뷰가 이를 가져올 수 있습니다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#111">@inherits</span> <span style="color:#111">CustomRazorPage</span><span style="color:#111">&lt;</span><span style="color:#111">TModel</span><span style="color:#111">&gt;</span>
+</span></span></code></pre></div><p>다음 코드는 강력한 형식(strongly-typed)의 뷰 예제입니다:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#111">@inherits</span> <span style="color:#111">CustomRazorPage</span><span style="color:#111">&lt;</span><span style="color:#111">TModel</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#111">div</span><span style="color:#111">&gt;</span><span style="color:#111">The</span> <span style="color:#111">Login</span> <span style="color:#111">Email</span><span style="color:#111">:</span> <span style="color:#111">@Model</span><span style="color:#111">.</span><span style="color:#111">Email</span><span style="color:#111">&lt;/</span><span style="color:#111">div</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#111">div</span><span style="color:#111">&gt;</span><span style="color:#111">Custom</span> <span style="color:#111">text</span><span style="color:#111">:</span> <span style="color:#111">@CustomText</span><span style="color:#111">&lt;/</span><span style="color:#111">div</span><span style="color:#111">&gt;</span>
+</span></span></code></pre></div><p>Model에 &ldquo;<a href="mailto:jade@nuevofoundation.org">jade@nuevofoundation.org</a>
+&rdquo; 값이 전달되었을 때, 뷰는 다음과 같은 HTML을 생성합니다:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#f92672">div</span><span style="color:#111">&gt;</span>The Login Email: jade@nuevofoundation.org<span style="color:#111">&lt;/</span><span style="color:#f92672">div</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#f92672">div</span><span style="color:#111">&gt;</span>
+</span></span><span style="display:flex;"><span>    Custom text: Bumbershoot - Another word for an umbrella.
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;/</span><span style="color:#f92672">div</span><span style="color:#111">&gt;</span>
+</span></span></code></pre></div><h3 id="inject"><code>@inject</code></h3>
+<p><code>@inject</code> 지시문은 Razor 페이지가 서비스 컨테이너로부터 서비스를 뷰에 주입할 수 있도록 합니다.</p>
+<h3 id="layout"><code>@layout</code></h3>
+<p><code>@layout</code> 지시문은 Razor 컴포넌트(.razor)에만 해당됩니다.
+이 지시문은 <code>@page</code> 지시문이 있는 라우팅 가능한 Razor 컴포넌트에 대해 레이아웃을 지정합니다.</p>
+<p>레이아웃 컴포넌트는 코드 중복과 일관성 부족을 방지하기 위해 사용됩니다.</p>
+<h3 id="model"><code>@model</code></h3>
+<p><code>@model</code> 지시문은 MVC 뷰와 Razor 페이지(.cshtml)에만 해당됩니다. 다음 지시문은 뷰(View)나 페이지(Page)에 전달되는 모델의 타입을 지정합니다:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#111">@model</span> <span style="color:#111">TypeNameOfModel</span>
+</span></span></code></pre></div><p>ASP.NET Core MVC 또는 Razor Pages 앱에서 개별 사용자 계정을 사용하는 경우, Views/Account/Login.cshtml 파일은 다음과 같은 모델 선언을 포함합니다:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#111">@model</span> <span style="color:#111">LoginViewModel</span>
+</span></span></code></pre></div><p>@model 선언은 다음과 같이 RazorPage를 상속하는 클래스를 생성합니다:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#00a8c8">public</span> <span style="color:#00a8c8">class</span> <span style="color:#75af00">_Views_Account_Login_cshtml</span> <span style="color:#111">:</span> <span style="color:#111">RazorPage</span><span style="color:#111">&lt;</span><span style="color:#111">LoginViewModel</span><span style="color:#111">&gt;</span>
+</span></span></code></pre></div><p>Razor는 뷰에 전달된 모델에 접근할 수 있도록 Model 속성을 제공합니다:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#f92672">div</span><span style="color:#111">&gt;</span>The Login Email: @Model.Email<span style="color:#111">&lt;/</span><span style="color:#f92672">div</span><span style="color:#111">&gt;</span>
+</span></span></code></pre></div><p><code>@model</code> 지시문은 Model 속성의 타입을 지정합니다.
+이 지시문은 생성된 클래스에서 <code>RazorPage&lt;T&gt;</code>의 T 타입을 정의합니다.</p>
+<p><code>@model</code> 지시문이 없는 경우, Model 속성의 타입은 dynamic으로 설정됩니다.
+강력한 형식 모델(strongly typed models)과 <code>@model</code> 키워드에 대한 자세한 내용은 관련 문서를 참조해주세요.</p>
+<h3 id="namespace"><code>@namespace</code></h3>
+<p>@namespace 지시문은 다음과 같은 역할을 합니다:</p>
+<ul>
+<li>생성된 Razor 페이지, MVC 뷰 또는 Razor 컴포넌트 클래스의 네임스페이스를 설정합니다.</li>
+<li>디렉터리 트리에서 가장 가까운 imports 파일(_ViewImports.cshtml 또는 _Imports.razor)에 따라 페이지, 뷰 또는 컴포넌트 클래스의 루트 네임스페이스를 설정합니다.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#111">@namespace</span> <span style="color:#111">Your</span><span style="color:#111">.</span><span style="color:#111">Namespace</span><span style="color:#111">.</span><span style="color:#111">Here</span>
+</span></span></code></pre></div><p><strong>Razor Pages 예제</strong></p>
+<p>다음 표에서 보여주는 Razor Pages 예제의 특징은 다음과 같습니다:</p>
+<ul>
+<li>각 페이지는 Pages/_ViewImports.cshtml을 가져옵니다.</li>
+<li>각 페이지는 Hello.World를 네임스페이스의 루트로 설정합니다.</li>
+<li>Pages/_ViewImports.cshtml 파일에는 다음과 같은 내용이 포함됩니다:</li>
+</ul>
+<table>
+  <thead>
+      <tr>
+          <th>Page</th>
+          <th>Namespace</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Pages/Index.cshtml</td>
+          <td>Hello.World</td>
+      </tr>
+      <tr>
+          <td>Pages/MorePages/Page.cshtml</td>
+          <td>Hello.World.MorePages</td>
+      </tr>
+      <tr>
+          <td>Pages/MorePages/EvenMorePages/Page.cshtml</td>
+          <td>Hello.World.MorePages.EvenMorePages</td>
+      </tr>
+  </tbody>
+</table>
+<p>앞서 설명한 관계는 MVC 뷰와 Razor 컴포넌트에서 사용되는 import 파일에도 동일하게 적용됩니다. 디렉터리 트리에서 페이지, 뷰, 또는 컴포넌트와 가장 가까운 import 파일에 <code>@namespace</code> 지시문이 있을 경우, 해당 파일이 루트 네임스페이스를 설정합니다.</p>
+<p>예를 들어, 이전 예제에서 EvenMorePages 폴더에 <strong>@namespace Another.Planet</strong>을 포함한 import 파일이 있거나, Pages/MorePages/EvenMorePages/Page.cshtml 파일에 <code>@namespace</code> Another.Planet 지시문이 포함된 경우 결과는 다음 표와 같습니다.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Page</th>
+          <th>Namespace</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Pages/Index.cshtml</td>
+          <td>Hello.World</td>
+      </tr>
+      <tr>
+          <td>Pages/MorePages/Page.cshtml</td>
+          <td>Hello.World.MorePage</td>
+      </tr>
+      <tr>
+          <td>Pages/MorePages/EvenMorePages/Page.cshtml</td>
+          <td>Another.Planet</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="page"><code>@page</code></h3>
+<p><code>@page</code> 지시문은 나타나는 파일 유형에 따라 다른 동작을 수행합니다:</p>
+<ul>
+<li>.cshtml 파일에서: 해당 파일이 Razor 페이지임을 나타냅니다.</li>
+<li>Razor 컴포넌트에서: 해당 컴포넌트가 요청을 직접 처리해야 함을 지정합니다.</li>
+</ul>
+<h3 id="preservewhitespace"><code>@preservewhitespace</code></h3>
+<p>이 지시문은 Razor 컴포넌트(.razor)에만 적용됩니다.</p>
+<p>기본값은 false이며, 다음 조건에 해당하는 경우 렌더링된 마크업에서 공백이 제거됩니다:</p>
+<ul>
+<li>요소 안의 앞뒤 공백.</li>
+</ul>
+<ul>
+<li>RenderFragment 매개변수 안의 앞뒤 공백(예: 다른 컴포넌트에 전달된 자식 콘텐츠).</li>
+</ul>
+<ul>
+<li><code>@if</code> 또는 <code>@foreach</code>와 같은 C# 코드 블록 앞뒤의 공백.</li>
+</ul>
+<h3 id="section"><code>@section</code></h3>
+<p>@section 지시문은 MVC 뷰와 Razor 페이지(.cshtml)에만 적용됩니다.</p>
+<p>이 지시문은 MVC 및 Razor Pages 레이아웃과 함께 사용되어, 뷰(View)나 페이지(Page)가 HTML 페이지의 서로 다른 부분에 콘텐츠를 렌더링할 수 있도록 합니다.</p>
+<h3 id="typeparam"><code>@typeparam</code></h3>
+<p>@typeparam 지시문은 Razor 컴포넌트(.razor)에만 적용됩니다.</p>
+<p>이 지시문은 생성된 컴포넌트 클래스에 <strong>제네릭(Generic) 타입 매개변수</strong> 를 선언합니다:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#111">@typeparam</span> <span style="color:#111">TEntity</span>
+</span></span></code></pre></div><p>제약 조건(type constraints)이 있는 제네릭 타입도 지원됩니다:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#111">@typeparam</span> <span style="color:#111">TEntity</span> <span style="color:#00a8c8">where</span> <span style="color:#111">TEntity</span> <span style="color:#111">:</span> <span style="color:#111">IEntity</span>
+</span></span></code></pre></div><h3 id="using"><code>@using</code></h3>
+<p><code>@using</code> 지시문은 생성된 뷰(View)에 C#의 using 지시문을 추가합니다:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#111">@using</span> <span style="color:#111">System</span><span style="color:#111">.</span><span style="color:#111">IO</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">@</span><span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">var</span> <span style="color:#111">dir</span> <span style="color:#111">=</span> <span style="color:#111">Directory</span><span style="color:#111">.</span><span style="color:#111">GetCurrentDirectory</span><span style="color:#111">();</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#111">p</span><span style="color:#111">&gt;</span><span style="color:#111">@dir</span><span style="color:#111">&lt;/</span><span style="color:#111">p</span><span style="color:#111">&gt;</span>
+</span></span></code></pre></div><p>위 코드는 현재 디렉터리 경로를 출력하는 HTML을 생성합니다.</p>
+<p>Razor 컴포넌트에서는 <code>@using</code>이 컴포넌트의 범위(scope) 내에 있는 컴포넌트를 제어하는 데에도 사용됩니다.</p>
+<h2 id="directive-attributes">Directive attributes</h2>
+<p>Razor 지시문 속성은 <code>@</code> 기호 뒤에 예약 키워드가 따라오는 암묵적 표현식으로 쓸 수 있습니다. 지시문 속성은 일반적으로 요소가 해석되는 방식을 변경하거나, 다른 기능을 활성화합니다.</p>
+<h3 id="attributes"><code>@attributes</code></h3>
+<p><code>@attributes</code> 지시문은 Razor 컴포넌트(.razor)에만 적용됩니다.</p>
+<p>이 지시문은 선언되지 않은 속성을 컴포넌트에서 렌더링할 수 있도록 합니다.</p>
+<h3 id="bind"><code>@bind</code></h3>
+<p><code>@bind</code> 지시문은 Razor 컴포넌트(.razor)에만 적용됩니다.</p>
+<p>데이터 바인딩은 @bind 속성을 사용하여 수행됩니다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#f92672">input</span> <span style="color:#75af00">type</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;checkbox&#34;</span> <span style="color:#960050;background-color:#1e0010">@</span><span style="color:#75af00">bind</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;todo.IsDone&#34;</span> <span style="color:#111">/&gt;</span>
+</span></span></code></pre></div><p>This example binds the <code>todo</code> Object&rsquo;s <code>IsDone</code> property to the checkbox.</p>
+<h3 id="bindculture"><code>@bind:culture</code></h3>
+<p><code>@bind:culture</code> 지시문은 Razor 컴포넌트(.razor)에만 적용됩니다.</p>
+<p>이 속성은 <code>@bind</code> 속성과 함께 사용되어 값을 파싱 하거나 포맷할 때<code>System.Globalization.CultureInfo</code>를 제공합니다.</p>
+<h3 id="onevent"><code>@on{EVENT}</code></h3>
+<p>이 지시문은 Razor 컴포넌트(.razor)에만 적용됩니다.</p>
+<p>Razor는 컴포넌트를 위한 이벤트 처리 기능을 제공합니다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#111">&lt;</span><span style="color:#f92672">button</span> <span style="color:#960050;background-color:#1e0010">@</span><span style="color:#75af00">onclick</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;AddTodo&#34;</span><span style="color:#111">&gt;</span>Add todo<span style="color:#111">&lt;/</span><span style="color:#f92672">button</span><span style="color:#111">&gt;</span>
+</span></span></code></pre></div><p>위 코드에서 버튼을 클릭하면 <code>AddTodo</code> 메서드가 호출됩니다.</p>
+<h3 id="ref"><code>@ref</code></h3>
+<p><code>@ref</code> 지시문은 Razor 컴포넌트(.razor)에만 적용됩니다. 컴포넌트 참조(<code>@ref</code>)는 컴포넌트 인스턴스를 참조하여 해당 인스턴스에 명령을 전달할 수 있는 방법을 제공합니다.</p>
+<h2 id="razor-예약-키워드">Razor 예약 키워드</h2>
+<h3 id="razor에서-사용되는-키워드">Razor에서 사용되는 키워드:</h3>
+<ul>
+<li>page</li>
+<li>namespace</li>
+<li>functions</li>
+<li>inherits</li>
+<li>model</li>
+<li>section</li>
+</ul>
+<p>Razor 키워드는 <code>@(키워드)</code>형태로 이스케이프됩니다. (예를 들어<code> @(functions)</code>)</p>
+<h3 id="c-razor-키워드">C# Razor 키워드</h3>
+<ul>
+<li>case</li>
+<li>do</li>
+<li>default</li>
+<li>for</li>
+<li>foreach</li>
+<li>if</li>
+<li>else</li>
+<li>lock</li>
+<li>switch</li>
+<li>try</li>
+<li>catch</li>
+<li>finally</li>
+<li>using</li>
+<li>while</li>
+</ul>
+<p>C# Razor 키워드는 @(@C# 키워드) 형태로 이중 이스케이프해야 합니다.</p>
+<ul>
+<li>첫 번째 @는 Razor 파서를 이스케이프합니다.</li>
+<li>두 번째 @는 C# 파서를 이스케이프합니다. 예: @(@case)</li>
+</ul>
+<h3 id="razor에서-사용되지-않는-예약-키워드">Razor에서 사용되지 않는 예약 키워드</h3>
+<ul>
+<li>class</li>
+</ul>
+
+
+    
+    
+      <div class="chevrons">
+  <style>
+    .workshop-complete-image {
+        margin: 40px auto 50px auto;
+        width: 340.8px;
+    }
+    
+    .workshop-complete-words {
+        font-family: Space Mono, monospace;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        text-align: center;
+    }
+    
+    .horizontal-bar {
+        background-color: #000000;
+        width: 120px;
+        height: 12px;
+        margin: 80px auto 0 auto;
+    }
+</style>
+
+
+    <div id="navigation">
+            <div class="next-prev-wrapper-div"><a class='nav nav-prev' href="/kr/razor/razor-syntax/" title="Razor 기초2">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                이전의:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Razor 기초2
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="prevbutton-image">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+        
+    </div>
+</a></div>
+            <div class="next-prev-wrapper-div"><a class='nav nav-next' href="/kr/razor/activity-3/" title="활동 3 - 웹 애플리케이션 만들기">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                다음:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                활동 3 - 웹 애플리케이션 만들기
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="nextbutton-image">
+            <i class="fa fa-arrow-right"></i>
+        </div>
+        
+    </div>
+</a></div>
+        </div>
+</div>
+
+</section>
+</article>
+
+<footer>
+  <div class="footline">
+    
+
+    
+
+    
+    <div class="date">
+      <i class='fa fa-calendar'></i> 
+      Wed, 13 Sep 2023 11:45:38 PDT
+    </div>
+    
+
+    
+    <div class="github-link">
+      <a href="https://github.com/NuevoFoundation/workshops/tree/master/content/razor/directives.md" target="blank"><i
+          class="fa fa-code-fork"></i>
+        </a>
+    </div>
+    
+  </div>
+
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+    
+
+    
+    
+
+    <div id="footer" class="row">
+    <div class="col-xs-12">
+        <div class="App-footer">
+            <div class="App-footer-big">
+                소셜 미디어에서 대화에 참여하세요.
+            </div>
+            <div class="social-images">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Instagram" class="fab fa-2x fa-instagram"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation X" class="fab fa-2x fa-x-twitter"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Facebook" class="fab fa-2x fa-1x fa-facebook-f"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-2x fa-linkedin"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/nuevofoundation?sub_confirmation=1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation YouTube" class="fab fa-2x fa-youtube"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Spotify" class="fab fa-2x fa-spotify"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Github" class="fab fa-2x fa-github"></i>
+                </a>
+            </div>
+            <div class="App-footer-small">
+                © 저작권 2025, 모든 권리는 501(c)(3) 비영리 단체인 Nuevo Foundation에 있습니다.
+            </div>
+        </div>
+    </div>
+</div>
+
+  </body>
+</html>

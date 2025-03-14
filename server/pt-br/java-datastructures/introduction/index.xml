@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introdução às estruturas de dados on Nuevo Foundation Workshops</title>
+    <link>/pt-br/java-datastructures/introduction/</link>
+    <description>Recent content in Introdução às estruturas de dados on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Mon, 10 Feb 2020 13:24:17 -0700</lastBuildDate>
+    <atom:link href="/pt-br/java-datastructures/introduction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configurando</title>
+      <link>/pt-br/java-datastructures/introduction/setting-up/</link>
+      <pubDate>Tue, 23 Jul 2019 11:45:38 -0700</pubDate>
+      <guid>/pt-br/java-datastructures/introduction/setting-up/</guid>
+      <description>&lt;!--&lt;link rel=&#34;stylesheet&#34; href=&#34;../../style.css&#34;&gt;--&gt;&#xD;&#xA;&lt;h2 id=&#34;configurando-replit&#34;&gt;Configurando Replit!&lt;/h2&gt;&#xA;&lt;p&gt;Hoje você usará o Replit para aprender sobre estruturas de dados com Java. Antes de começar, você precisará se inscrever em uma conta Replit, caso ainda não tenha uma.&lt;/p&gt;&#xA;&lt;p&gt;Clique no botão abaixo para se inscrever em uma conta Replit - você precisará de uma conta de e-mail para se inscrever. Se você já possui uma conta Replit, também pode fazer login em sua conta usando o botão abaixo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pré Requisitos</title>
+      <link>/pt-br/java-datastructures/introduction/prerequisites/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      <guid>/pt-br/java-datastructures/introduction/prerequisites/</guid>
+      <description>&lt;!--&lt;link rel=&#34;stylesheet&#34; href=&#34;../../style.css&#34;&gt;--&gt;&#xD;&#xA;&lt;h2 id=&#34;variáveis&#34;&gt;Variáveis&lt;/h2&gt;&#xA;&lt;p&gt;Antes de iniciar este workshop, você deve ter algum conhecimento prévio de como as variáveis ​​Java funcionam e como criá-las. &lt;a href=&#34;https://workshops.nuevofoundation.org/java-basics/&#34; target=&#34;_blank&#34;&gt;Clique aqui para revisar o workshop Java Basics!&lt;sup&gt;&lt;span class=&#34;glyphicon glyphicon-new-window&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/sup&gt;&lt;/a&gt;&#xD;&#xA; Não se preocupe se ainda se sentir um pouco inseguro! Aos poucos, apresentaremos a você esses tópicos em questão. No entanto, se você não tem ideia do que são variáveis, recomendamos fortemente que você conclua o workshop de fundamentos de Java antes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Loops For</title>
+      <link>/pt-br/java-datastructures/introduction/for-loops/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      <guid>/pt-br/java-datastructures/introduction/for-loops/</guid>
+      <description>&lt;!--&lt;link rel=&#34;stylesheet&#34; href=&#34;../../style.css&#34;&gt;--&gt;&#xD;&#xA;&lt;p&gt;Quando você sabe exatamente quantas vezes deseja percorrer um bloco de código, use um loop (laço) &lt;code&gt;for&lt;/code&gt;em vez de um loop &lt;code&gt;while&lt;/code&gt;:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#00a8c8&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#111&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;initialization&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#111&#34;&gt;condition&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#111&#34;&gt;iteration&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#111&#34;&gt;{&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// bloco de código a ser executado&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#111&#34;&gt;}&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;initialization&lt;/code&gt; é executado (uma vez) antes da execução do bloco de código.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;condition&lt;/code&gt; (condição) define a condição para execução do bloco de código.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;iteration&lt;/code&gt; é executado (sempre) após a execução do bloco de código.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;O exemplo abaixo irá imprimir os números &lt;code&gt;0&lt;/code&gt; a &lt;code&gt;4&lt;/code&gt;:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

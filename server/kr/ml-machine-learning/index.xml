@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>머신 러닝: 선형 회귀 on Nuevo Foundation Workshops</title>
+    <link>/kr/ml-machine-learning/</link>
+    <description>Recent content in 머신 러닝: 선형 회귀 on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>kr</language>
+    <atom:link href="/kr/ml-machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>‘회귀’란 무엇인가요?</title>
+      <link>/kr/ml-machine-learning/01-regression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/kr/ml-machine-learning/01-regression/</guid>
+      <description>&lt;h1 id=&#34;회귀란-무엇인가요&#34;&gt;회귀란 무엇인가요?&lt;/h1&gt;&#xA;&lt;p&gt;회귀(Regression)는 어떤 변수(독립 변수/independent variable)가 다른 변수(종속 변수/dependent variable)에 어떤 영향을 미치는지 알아보는 방법입니다. 다시 말해 한 변수의 값이 바뀌면 다른 변수의 값이 어떻게 변하는지 알 수 있도록 관계를 찾아내는 것입니다. 이 방법을 잘 사용하면 앞으로의 결과를 쉽게 예측할 수 있습니다.&lt;/p&gt;&#xA;&lt;!-- TODO: Add diagram to replace image below. --&gt;&#xD;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;&lt;img src=&#34;../resources/regression.png&#34; alt=&#34;Regression&#34;&gt;&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;회귀&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;회귀는 우리가 가진 데이터를 이어주는 선(직선이나 곡선)을 찾아주는 효과적인 수단입니다. 회귀를 사용하면 &lt;a href=&#34;https://www.youtube.com/watch?v=xHtsuOB-TPw&#34; target=&#34;_blank&#34;&gt;수학적인 모델&lt;sup&gt;&lt;span class=&#34;glyphicon glyphicon-new-window&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/sup&gt;&lt;/a&gt;&#xD;&#xA;을 만들어 독립 변수와 종속 변수의 관계를 보여줄 수 있습니다. 수학적인 모델은 우리가 어떤 시스템(예를 들어 날씨, 판매량 등)을 이해하고, 그것을 바탕으로 미래를 예측하는 데 도움을 줍니다. 하지만, 우리가 만든 수학적 모델이 항상 데이터를 잘 데이터의 속성을 잘 반영하지 않을 수도 있습니다. 그러므로 데이터의 패턴을 더 잘 나타낼 수 있는 모델을 찾는 과정이 필수적입니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>단순 선형 회귀</title>
+      <link>/kr/ml-machine-learning/02-simple-linear-regression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/kr/ml-machine-learning/02-simple-linear-regression/</guid>
+      <description>&lt;h1 id=&#34;단순-선형-회귀란&#34;&gt;단순 선형 회귀란?&lt;/h1&gt;&#xA;&lt;p&gt;단순 선형 회귀(Simple Linear Regression)는 두 변수 간의 상관관계를 찾아내고, 이 관계를 설명하는 수학적 공식을 만드는 방법입니다. 일반적으로 단순 선형 회귀에서는 다음과 같은 결론에 도달하는 것을 목적으로 합니다:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;우리가 가진 변수들 간에 관계가 있는가?&lt;/p&gt;&#xA;&lt;p&gt;여러분은 소득과 소비, 경력과 급여, 또는 습도와 온도 사이의 관계를 파악할 수 있습니다. 반면, 학생의 키와 시험 점수 사이에는 아무런 관계가 없습니다.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;값을 예측하거나 예견할 수 있는가?&lt;/p&gt;&#xA;&lt;p&gt;회귀 분석(Regression)을 통해 모델을 학습시키고, 값을 확실하게 예측할 수 있는지 알아낼 수 있습니다. 우리가 관계에 대해 알고 있는 정보를 사용해서 새로운 값을 예측할 수 있을까요?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>신뢰 구간(Confidence Interval)</title>
+      <link>/kr/ml-machine-learning/03-confidence-intervals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/kr/ml-machine-learning/03-confidence-intervals/</guid>
+      <description>&lt;p&gt;이전 섹션에서, 무작위로 선택한 직원 30명의 샘플 데이터를 사용하여 선형 방정식의 기울기(Coefficient)와 절편(Intercept) 값을 구할 수 있었습니다.&lt;/p&gt;&#xA;&lt;h3&gt;&#xD;&#xA;\[&#xD;&#xA;    절편=25792.20&#xD;&#xA;\]&#xD;&#xA;\[&#xD;&#xA;    기울기=9449.96&#xD;&#xA;\]&#xD;&#xA;\[&#xD;&#xA;    급여=9449.96(경력)+25792.20+ε&#xD;&#xA;\]&#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;하지만 여기서 또 다른 질문이 생깁니다:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;급여는 정말로 직원의 경력과 관련이 있을까요?&lt;/li&gt;&#xA;&lt;li&gt;두 변수 간의 관계가 실제로 연관성이 있다고 주장할 만큼 강한가요?&lt;/li&gt;&#xA;&lt;li&gt;무작위로 선택한 직원 30명의 데이터만으로 이를 판단하기에 충분할까요?&lt;/li&gt;&#xA;&lt;li&gt;이 값들이 정말로 올바른 지 어떻게 확인할 수 있을까요?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;여러분은 훨씬 더 많은 직원들로 구성된 데이터에서 작은 샘플을 추출해 값을 계산했다는 것을 기억해야 합니다. 하나의 샘플만 사용했기 때문에, 기울기와 계수 값에는 불확실성이 더 클 수 있습니다. 그렇다면 이 값들이 올바른 지 확인하려면 무엇을 해야 할까요?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>모델 적합도</title>
+      <link>/kr/ml-machine-learning/04-model-fit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/kr/ml-machine-learning/04-model-fit/</guid>
+      <description>&lt;h1 id=&#34;우리가-만든-모델이-데이터를-잘-설명할까요&#34;&gt;우리가 만든 모델이 데이터를 잘 설명할까요?&lt;/h1&gt;&#xA;&lt;p&gt;우리가 만든 선형 방정식은 랜덤 오류 값(&lt;strong&gt;ε&lt;/strong&gt;)을 포함하고 있습니다:&lt;/p&gt;&#xA;&lt;h3&gt;&#xD;&#xA;\[&#xD;&#xA;    급여 = 9449.96(경력) + 25792.20 + ε&#xD;&#xA;\]&#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;&lt;strong&gt;ε&lt;/strong&gt;는 우리가 정확히 알 수 없는 오류 값입니다. 그래서 다음과 같은 질문을 해봐야 합니다:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;우리의 모델이 현실을 얼마나 잘 반영하나요? 또는 모델이 우리가 가진 데이터를 얼마나 잘 설명하나요?&lt;/li&gt;&#xA;&lt;li&gt;경력이 정말로 급여에 영향을 미치는지 어떻게 알 수 있을까요?&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;이를 알아내는 방법은 여러 가지가 있지만, 머신 러닝과 통계의 세계에서는 이를 평가할 수 있는 &lt;code&gt;R-제곱(R-Squared 또는 R^2)&lt;/code&gt;이라는 값을 사용합니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>예측하기</title>
+      <link>/kr/ml-machine-learning/05-making-predictions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/kr/ml-machine-learning/05-making-predictions/</guid>
+      <description>&lt;h1 id=&#34;모델-학습시키기&#34;&gt;모델 학습시키기&lt;/h1&gt;&#xA;&lt;p&gt;모델이 값을 예측하려면 학습이 필요합니다. 그런데, 어떻게 학습을 시킬까요? 사실, 우리는 이미 이 작업을 하고 있었답니다!😉&lt;/p&gt;&#xA;&lt;p&gt;모델을 학습시키는 과정은 데이터와 모델 간의 관계가 적절한지 확인하는 것을 말합니다. 우리는 R&lt;sup&gt;2&lt;/sup&gt; 값이 1에 가까운지 확인함으로써 이를 수행했습니다. 이제, 10,000개 이상의 데이터셋을 사용해 훈련 데이터와 테스트 데이터를 만들어야 합니다. 훈련 데이터는 초기 샘플 30개 대신 무작위 샘플을 사용합니다. 텍사스 엘파소 대학교에 따르면, 데이터의 30%를 샘플로 사용하는 것이 정확한 모델을 만드는 이상적인 방법이라고 합니다. (&lt;a href=&#34;https://scholarworks.utep.edu/cs_techrep/1209/&#34; target=&#34;_blank&#34;&gt;70/30 또는 80/20 훈련과 테스트 데이터 비율에 대한 자세한 내용은 여기를 참고하세요.&lt;sup&gt;&lt;span class=&#34;glyphicon glyphicon-new-window&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/sup&gt;&lt;/a&gt;&#xD;&#xA;) 직원 수가 증가하면 데이터셋도 함께 늘어나고 R&lt;sup&gt;2&lt;/sup&gt;값도 변하게 됩니다. 따라서, 직원 데이터셋이 10,000개 이상으로 업데이트될 때마다 이 과정을 반복해야 가장 최신의 상태로 모델을 유지할 수 있습니다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

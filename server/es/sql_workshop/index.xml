@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SQL: Salvando la Galaxia on Nuevo Foundation Workshops</title>
+    <link>/es/sql_workshop/</link>
+    <description>Recent content in SQL: Salvando la Galaxia on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Sat, 28 Mar 2020 10:24:17 -0700</lastBuildDate>
+    <atom:link href="/es/sql_workshop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Taller de SQL: Respuestas del Workshop de SQL</title>
+      <link>/es/sql_workshop/answer-key/</link>
+      <pubDate>Sat, 28 Mar 2020 10:24:17 -0700</pubDate>
+      <guid>/es/sql_workshop/answer-key/</guid>
+      <description>&lt;div class=&#34;notices tip&#34; &gt;&#xD;&#xA;    &lt;p header-value=&#34;Consejo&#34;&gt;&lt;p&gt;Nota: No uses el Navegador Firefox para este taller.&lt;/p&gt;&#xA;&lt;p&gt;Para las actividades de arrastrar el elemento: Los bloques que son correctos van a ser resaltados con un recuadro verde alrededor, mientras que los incorrectos serán resaltados con un cuadrado rojo hasta que el jugador mueva el bloque.&lt;/p&gt;&#xA;&lt;p&gt;Para las actividades de escribir la respuesta: Los comandos o palabras correctas van a seer resaltadas con color verde en la Caja de Comando Anterior, palabras incorrectas o mal usadas serán resaltadas con rojo. Si el comando que el jugador escriba coincide con lo que se menciona en la hoja de respuestas, asegurate que no haya espacios extras al inicio o fin del comando. Asegurate que el jugador tenga punto y coma al final de cada comando (la última palabra en un comando de SQL será resaltada con rojo si no hay un punto y coma al final). Toma en cuenta que algunos infantes van a copiar el comando mostrado en el ejemplo, pegarlo en la terminal y correrlo - esto no va a funcionar. Por favor, pídeles que refresquen la página y escriban manualmente el comando.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

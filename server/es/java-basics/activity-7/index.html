@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nuevo Foundation Workshops</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+<meta name="theme-color" content="#000000" />
+<meta name="revised" content="2025-03-14T18:59:55 -03">
+<meta name="application-name" content=" " />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+<title>Data Structures (Array &amp; ArrayList) :: Nuevo Foundation Workshops</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+
+<link rel="shortcut icon" href="https://www.nuevofoundation.org/favicons/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57"
+      href="https://www.nuevofoundation.org/favicons//apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120"
+      href="https://www.nuevofoundation.org/favicons/pple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-128.png" sizes=" 128x128" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="/css/nuevoweb.css" />
+<link rel="stylesheet" href="/css/chunk.css" />
+<link rel="stylesheet" href="/css/data-style.css" />
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+
+<script lang="JavaScript">
+
+      function toggleVisibility() {
+
+            
+            const menu = document.getElementById("mobile-nav-menu");
+            if (menu.style.display == 'none') {
+                  menu.classList.replace("transition-out", "transition-in")
+                  menu.style.display = 'block';
+            }
+            else if (menu.style.display == 'block') {
+                  menu.classList.replace("transition-in", "transition-out")
+                  menu.style.display = 'none';
+            }
+      }
+</script>
+<meta
+  name="description"
+  content="
+
+    Introduce basic data structures in Java.
+"
+/>
+
+
+    
+  </head>
+  <body data-url="/es/java-basics/activity-7/" >
+    
+      <header>
+  
+  <div id="mobile-nav-menu" class="transition-out" style="display: none;">
+    <div class="close-btn" onclick="toggleVisibility();">
+        <i aria-hidden="true" focusable="false" style="cursor: pointer;" class="fa fa-times fa-w-11 fa-sm"></i>
+    </div>
+    <div>
+        <div class="sc-dNLxif ecnYUM">
+            <a href="/support-us"><button class="sc-jbKcbu sedGx"
+                    style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: 4px solid rgb(0, 0, 0); border-radius: 4px;">
+                    Donar
+                </button></a>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/what-we-do">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Lo que hacemos</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/get-involved">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Involucrarse</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/support-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Apoyanos</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/blog">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Blog de eventos</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/about-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Nuestro equipo</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/contact">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Contactanos</li>
+            </ul>
+        </a>
+    </div>
+</div>
+<div>
+    <div class="sc-gGBfsJ iKkPGj">
+        <div class="container-fluid">
+            <div id="toprow" class="row">
+                <div class="col-xs-12">
+                    <div class="sc-EHOje fJMnSm">
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.instagram.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation Instagram" class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://twitter.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation X" class="fab fa-x-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Facebook" class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.linkedin.com/company/nuevofoundation">
+                                <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://www.youtube.com/nuevofoundation?sub_confirmation=1n">
+                                <i aria-label="Nuevo Foundation YouTube" class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1">
+                                <i aria-label="Nuevo Foundation Spotify" class="fab fa-spotify"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://github.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Github" class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" rel="noopener noreferrer"
+                                href="https://nuevofoundation.org/support-us">Donar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="secondrow" class="row">
+                <div class="col-sm-12 hidden-xs">
+                    <div class="sc-htoDjs kjtfZK">
+                        <a class="sc-fjdhpX izNzAG active" aria-current="page" href="https://nuevofoundation.org">
+                            <img alt="Nuevo Foundation Logo" src="/images/Logo_long.0f097b90.svg"
+                                height="60px" />
+                        </a>
+                        <ul class="sc-iwsKbI bUOvG">
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/what-we-do">
+                                <li class="sc-gZMcBi Bomeo">Lo que hacemos</li>
+                            </a>
+                            <a class="izNzAG" href="/">
+                                <li class="sc-gZMcBi Bomeo-selected jgBGVn">Talleres<span></span></li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/get-involved">
+                                <li class="sc-gZMcBi Bomeo">Involucrarse</li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/support-us">
+                                <li class="sc-gZMcBi Bomeo">Apoyanos</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/blog">
+                                <li class="sc-gZMcBi Bomeo">Blog de eventos</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/about-us">
+                                <li class="sc-gZMcBi Bomeo">Nuestro equipo</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/contact">
+                                <li class="sc-gZMcBi Bomeo">Contactanos</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <a class="sc-fjdhpX izNzAG active" aria-current="page" href="/">
+                                <img alt="Nuevo Foundation Logo" class="sc-dnqmqq emolVn"
+                                    src="/images/Logo_long.0f097b90.svg" height="60%" /></a>
+                        </div>
+                        <div class="col-xs-2" onclick="toggleVisibility();"
+                            style="padding-top: 4%; padding-left: 4%; cursor: pointer;">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                                class="svg-inline--fa fa-bars fa-w-14 fa-lg" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/es/java-basics/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/es/java-basics/">Java: Basics</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/es/java-basics/activity-0/" class="dd-item">
+        <div>
+          <a href="/es/java-basics/activity-0/">
+            Usando Repl.It
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/es/java-basics/activity-1/" class="dd-item">
+        <div>
+          <a href="/es/java-basics/activity-1/">
+            Imprimir Declaraciones y Añadir Comentarios
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/es/java-basics/activity-2/" class="dd-item">
+        <div>
+          <a href="/es/java-basics/activity-2/">
+            Variables and Types
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/es/java-basics/activity-3/" class="dd-item">
+        <div>
+          <a href="/es/java-basics/activity-3/">
+            Operadores
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/es/java-basics/activity-4/" class="dd-item">
+        <div>
+          <a href="/es/java-basics/activity-4/">
+            Control Structures
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/es/java-basics/activity-5/" class="dd-item">
+        <div>
+          <a href="/es/java-basics/activity-5/">
+            Métodos
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/es/java-basics/activity-6/" class="dd-item">
+        <div>
+          <a href="/es/java-basics/activity-6/">
+            Objetos y Clases
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/es/java-basics/activity-7/" class="dd-item active">
+        <div>
+          <a href="/es/java-basics/activity-7/">
+            Data Structures (Array &amp; ArrayList)
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+    </ul>
+
+    <section>
+    </section>
+  </aside>
+  <section class="page">
+    <div align="right">
+<select id="select-language" onchange="location = this.value;">
+	
+	
+	
+	  
+	  
+	    
+	      
+	        <option id="en" value="/java-basics/activity-7/">English</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	      
+	        <option id="es" value="/es/java-basics/activity-7/" selected>Español</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="pt-br" value="/pt-br/java-basics/activity-7/">Português Brasileiro</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+</select>
+    </div>
+
+    <div class="nav-select">
+      Navegación:&nbsp;
+      <select onchange="javascript:location.href = this.value;">
+        
+<option value="/es/java-basics/" >
+   Java: Basics</option>
+
+<option value="/es/java-basics/activity-0/" >- Usando Repl.It</option>
+<option value="/es/java-basics/activity-1/" >- Imprimir Declaraciones y Añadir Comentarios</option>
+<option value="/es/java-basics/activity-2/" >- Variables and Types</option>
+<option value="/es/java-basics/activity-3/" >- Operadores</option>
+<option value="/es/java-basics/activity-4/" >- Control Structures</option>
+<option value="/es/java-basics/activity-5/" >- Métodos</option>
+<option value="/es/java-basics/activity-6/" >- Objetos y Clases</option>
+<option value="/es/java-basics/activity-7/"  selected>- Data Structures (Array &amp; ArrayList)</option>
+
+
+
+      </select>
+
+    </div>
+    
+
+    <h1>Data Structures (Array &amp; ArrayList)</h1>
+
+    
+
+    
+
+    
+    
+    
+    
+    <p>En los últimos ejercicios, aprendimos sobre varilables que nos permiten accesar y guardar un pedazo de data. Pero, y si quereos guardar mucha data parecida? Habrá una manera buena de organizarlas sin declarar multiples variables?</p>
+<p>En programación, <b>estructuras de dato</b> son escructuras que permiten que programadores guarden multiples pedazos de data del mismo tipo. Usando estructuras de data es una manera eficiente de guardar y accesar pedazos grandes de data. En este ejercisio, aprederemos sobre 2 estructucas de data usadas en Java: <b>array</b> y <b>ArrayList</b>.</p>
+<p>Mientras un array es un estructura de data de tamaño fijo, ArrayList es una estructura de data de tamaño variable donde uno puede cambiar el tamaño de la estructura de dato.
+Empecemos con arrays.</p>
+<h3 id="1-array">1. Array</h3>
+<p>Digamos que queremos guardar la 5 películas favoritas de Patrick 🐥. En vez de crear 5 variables, podemos guardar las 5 pedazos de data en una array, nuestra primera estructura de dato.</p>
+<p>Para guardar data en un array, hacemos lo siguiente:</p>
+<ol>
+<li>Primero declaramos un array especificando el tipo de data y su tamaño (cantidad de data que puede ser guardada).</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#111">String</span> <span style="color:#111">topMovies</span><span style="color:#f92672">[]</span> <span style="color:#f92672">=</span> <span style="color:#00a8c8">new</span> <span style="color:#111">String</span><span style="color:#f92672">[</span><span style="color:#111">5</span><span style="color:#f92672">]</span><span style="color:#111">;</span> <span style="color:#75715e">// crea un array de tipo Strings de tamaño 5.</span>
+</span></span></code></pre></div><ol start="2">
+<li>Vamos a iterar por el array (pasar por todos sus espacios) y asignarlo un pedazo de data a cada espacio en el array.</li>
+</ol>
+<p>Note que tenemos acceso el espacio usando el nombre del array y una índice (<code>0</code> para accesar el primero espacio, <code>1</code> para el segundo &hellip; ).</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#111">topMovies</span><span style="color:#f92672">[</span><span style="color:#111">0</span><span style="color:#f92672">]</span> <span style="color:#f92672">=</span> <span style="color:#d88200">&#34;Birds Of Prey&#34;</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">topMovies</span><span style="color:#f92672">[</span><span style="color:#111">1</span><span style="color:#f92672">]</span> <span style="color:#f92672">=</span> <span style="color:#d88200">&#34;The Birds&#34;</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">topMovies</span><span style="color:#f92672">[</span><span style="color:#111">2</span><span style="color:#f92672">]</span> <span style="color:#f92672">=</span> <span style="color:#d88200">&#34;Angry Birds&#34;</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">topMovies</span><span style="color:#f92672">[</span><span style="color:#111">3</span><span style="color:#f92672">]</span> <span style="color:#f92672">=</span> <span style="color:#d88200">&#34;Bird Box&#34;</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">topMovies</span><span style="color:#f92672">[</span><span style="color:#111">4</span><span style="color:#f92672">]</span> <span style="color:#f92672">=</span> <span style="color:#d88200">&#34;The Secret Life of Pets&#34;</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// el array topMovies ahora guarda &#34;Birds Of Prey&#34;, &#34;The Birds&#34;, &#34;Angry Birds&#34;, &#34;Bird Box&#34;, &#34;The Secret Life of Pets&#34; en ese orden</span>
+</span></span></code></pre></div><div class="notices info" >
+    <p header-value="Información"><h4 id="por-qué-el-índice-de-un-array-comineza-en-0">Por qué el índice de un array comineza en 0?</h4>
+<p>Es razonable pensar que para accesar el primer espacio de un array, usaríamos un índice 1.</p>
+<p>Sin embargo, cuando la computadora lee <code>arr[1]</code>, no piensa en ver el <code>1er</code> espacio de <code>arr</code>.</p>
+<p>En realidad, de la manera que la computadora lo piensa es <code>arr[1]</code> significa ver el espacio a <code>1</code> distancia del principo del array.</p>
+<p>En otras palabras, el índice de hecho es desplazamiento de memoria. Para accesar el primer elemento debemos conseguir el elemento que está a una distancia de <code>0</code> desde el principio del array (i.e. <code>arr[0]</code>).</p>
+</p>
+</div>
+<div class="notices tip" >
+    <p header-value="Consejo"><h4 id="alternativa-para-crear-un-array">Alternativa para crear un array:</h4>
+<p>Si sabemos que todos los pedazos de data para un array de por adelantado, podemos crear un array en una línea al listar la data entre <code>{</code> y <code>}</code>.</p>
+<p>Por ejemplo:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#111">String</span> <span style="color:#111">topMovies</span><span style="color:#f92672">[]</span> <span style="color:#f92672">=</span> <span style="color:#111">{</span><span style="color:#d88200">&#34;Birds Of Prey&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;The Birds&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;Angry Birds&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;Bird Box&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;The Secret Life of Pets&#34;</span><span style="color:#111">};</span>
+</span></span></code></pre></div><p>Al giaul que podemos accesar la data con un índice, también podemos accesar y modificar cada pedazo de data con su índice correspondiente.</p>
+<p>Por ejemplo:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#111">String</span> <span style="color:#111">movie1</span> <span style="color:#f92672">=</span> <span style="color:#111">topMovies</span><span style="color:#f92672">[</span><span style="color:#111">0</span><span style="color:#f92672">]</span><span style="color:#111">;</span> <span style="color:#75715e">// movie1 tiene el valor de &#34;Birds Of Prey&#34;</span>
+</span></span></code></pre></div></p>
+</div>
+<p>Es útil saber cuantos espacios habrán en un array luego de crearse (por ejemplo, para accesar el último espacio en un array). También podemos conseguir el número de espacios en un array con <code>length</code> al escribir <code>array_name.length</code>.</p>
+<p>Por ejemplo:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">int</span> <span style="color:#111">numOfMovie</span> <span style="color:#f92672">=</span> <span style="color:#111">topMovies</span><span style="color:#111">.</span><span style="color:#75af00">length</span><span style="color:#111">;</span> <span style="color:#75715e">// numOfMovie tiene un valor de 5</span>
+</span></span></code></pre></div><br />
+<h4 id="ejercicio-esriber-un-método-printarr-que-tome-un-array-como-entrada-e-imprima-todos-los-elementos-en-el-array-en-orden">Ejercicio: Esriber un método <code>printArr()</code> que tome un array como entrada e imprima todos los elementos en el array en orden</h4>
+<p>(Sugerencia: Utilice un for loop y <code>.length</code>).</p>
+<p>Luego de <code>Run</code>, su programa debe imprimir lo siguiente:</p>
+<pre tabindex="0"><code>Birds Of Prey, The Birds, Angry Birds, Bird Box, The Secret Life of Pets
+</code></pre><p><a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicosArray" target="_blank">Lanza Replit</a></p>
+<h3 id="2-arraylist">2. ArrayList</h3>
+<p>ArrayList es otra estructura e data popular en Java. <code>ArrayList</code> es una clase que fue implementada usando arrays. Es similar a un array en cuanto a que un usuario puede accesar, guardar y modificar data usando un índice.</p>
+<p>Creas un ArrayList especificando su nombre y tipo entre <code>&lt;</code> y <code>&gt;</code>.
+Por ejemplo:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#111">ArrayList</span><span style="color:#f92672">&lt;</span><span style="color:#111">String</span><span style="color:#f92672">&gt;</span> <span style="color:#111">topMoviesList</span> <span style="color:#f92672">=</span> <span style="color:#00a8c8">new</span> <span style="color:#111">ArrayList</span><span style="color:#f92672">&lt;</span><span style="color:#111">String</span><span style="color:#f92672">&gt;</span><span style="color:#111">();</span>
+</span></span></code></pre></div><p>Para añadir elementos nuevos, llamamos al método <code>add()</code> en el ArrayList.
+Por ejemplo:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#111">topMoviesList</span><span style="color:#111">.</span><span style="color:#75af00">add</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Birds Of Prey&#34;</span><span style="color:#111">);</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">topMoviesList</span><span style="color:#111">.</span><span style="color:#75af00">add</span><span style="color:#111">(</span><span style="color:#d88200">&#34;The Birds&#34;</span><span style="color:#111">);</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">topMoviesList</span><span style="color:#111">.</span><span style="color:#75af00">add</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Angry Birds&#34;</span><span style="color:#111">);</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">topMoviesList</span><span style="color:#111">.</span><span style="color:#75af00">add</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Bird Box&#34;</span><span style="color:#111">);</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">topMoviesList</span><span style="color:#111">.</span><span style="color:#75af00">add</span><span style="color:#111">(</span><span style="color:#d88200">&#34;The Secret Life of Pets&#34;</span><span style="color:#111">);</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// el ArrayList ahora guarda &#34;Birds Of Prey&#34;, &#34;The Birds&#34;, &#34;Angry Birds&#34;, &#34;Bird Box&#34;, &#34;The Secret Life of Pets&#34; en orden</span>
+</span></span></code></pre></div><p>Para accesar un espacio en específico, llamamos el método <code>get()</code>. Note Java usa índices empezando en el número 0, asi que para accesr el primer elemento en un ArrayList llamamos el método <code>get(0)</code>. Por ejemplo:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#111">String</span> <span style="color:#111">movie1</span> <span style="color:#f92672">=</span> <span style="color:#111">topMoviesList</span><span style="color:#111">.</span><span style="color:#75af00">get</span><span style="color:#111">(</span><span style="color:#111">0</span><span style="color:#111">);</span> <span style="color:#75715e">// movie1 tiene el valor &#34;Birds Of Prey&#34;</span>
+</span></span></code></pre></div><p>Y para conseguir el número de elementos (espacios) en un ArrayList, llamamos el método <code>size()</code>.
+For example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">int</span> <span style="color:#111">numOfMovie2</span> <span style="color:#f92672">=</span> <span style="color:#111">topMoviesList</span><span style="color:#111">.</span><span style="color:#75af00">size</span><span style="color:#111">();</span> <span style="color:#75715e">// numOfMovie2 tiene el valor 5</span>
+</span></span></code></pre></div><br />
+<p>La diferencia más importante entre array y ArrayList es que necesitas saber el número de espacios que vas a necesitar para un array desde el principio antes de crearse, pero no para un ArrayList.</p>
+<ul>
+<li>
+<p>Con la línea de código <code>String topMovies[] = new String[5]</code> el array <code>topMovies</code> siempre tendrá un tamaño de 5. No puedes guardar más de 5 Strings en <code>topMovies</code> luego de crearse.</p>
+</li>
+<li>
+<p>Sin embargo, con la línea de código <code>ArrayList&lt;String&gt; topMoviesList = new ArrayList&lt;String&gt;()</code>, el ArrayList empieza con 0 elementos a la cual se le puede añadir infinitamente o remover elementos del mismo.</p>
+</li>
+</ul>
+<p>Para remover un elemento de un ArrayList, llamamos el método <code>remove()</code>.
+Por ejemplo:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#111">System</span><span style="color:#111">.</span><span style="color:#75af00">out</span><span style="color:#111">.</span><span style="color:#75af00">print</span><span style="color:#111">(</span><span style="color:#111">topMoviesList</span><span style="color:#111">.</span><span style="color:#75af00">size</span><span style="color:#111">());</span> <span style="color:#75715e">// imprime 5</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">topMoviesList</span><span style="color:#111">.</span><span style="color:#75af00">remove</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Birds Of Prey&#34;</span><span style="color:#111">);</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">System</span><span style="color:#111">.</span><span style="color:#75af00">out</span><span style="color:#111">.</span><span style="color:#75af00">print</span><span style="color:#111">(</span><span style="color:#111">topMoviesList</span><span style="color:#111">.</span><span style="color:#75af00">size</span><span style="color:#111">());</span> <span style="color:#75715e">// imprime 4</span>
+</span></span></code></pre></div><br />
+<h4 id="ejercicio-escriba-un-método-printlist-que-tome-un-arraylist-como-entrada-e-imprime-todos-los-elementos-del-arrylist-en-orden">Ejercicio: Escriba un método <code>printList()</code> que tome un ArrayList como entrada e imprime todos los elementos del ArryList en orden</h4>
+<p>(Hint: Utilize for loop y <code>size()</code>).</p>
+<p>Luego de <code>Run</code>, el programa debe imprimir lo siguiente:</p>
+<pre tabindex="0"><code>Birds Of Prey, The Birds, Angry Birds, Bird Box, The Secret Life of Pets
+</code></pre><p><a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicosList" target="_blank">Lanza Replit</a></p>
+<h3 id="fin-del-workshop-">Fin del Workshop 🐥</h3>
+<p><b>Patrick</b> 🐥 gracias por participar. Esperamos que hayas aprendido mucho en este curso :)
+<img src="https://media.giphy.com/media/l49JKwmJLChtS6d44/giphy.gif" alt="animation of duck Patrick"></p>
+<p style="text-align: center;">(image created by Molang: giphy.com/molangofficialpage)</p>
+
+
+    
+    
+      <div class="chevrons">
+  <style>
+    .workshop-complete-image {
+        margin: 40px auto 50px auto;
+        width: 340.8px;
+    }
+    
+    .workshop-complete-words {
+        font-family: Space Mono, monospace;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        text-align: center;
+    }
+    
+    .horizontal-bar {
+        background-color: #000000;
+        width: 120px;
+        height: 12px;
+        margin: 80px auto 0 auto;
+    }
+</style>
+
+
+    <div>
+        <hr/>
+        <div class="workshop-complete-image">
+            <img src="/images/NF_mascot.jpg">
+        </div>
+        <div class="workshop-complete-words">
+            <p>
+                ¡Lo lograste!
+                <br> 
+                Taller completo
+            </p>
+        </div>
+    </div><div id="navigation">
+            <div class="next-prev-wrapper-div"><a class='nav nav-prev' href="/es/java-basics/activity-6/" title="Objetos y Clases">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Anterior:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Objetos y Clases
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="prevbutton-image">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+        
+    </div>
+</a></div>
+            <div class="next-prev-wrapper-div"></div>
+        </div>
+</div>
+
+</section>
+</article>
+
+<footer>
+  <div class="footline">
+    
+
+    
+
+    
+    <div class="date">
+      <i class='fa fa-calendar'></i> 
+      Thu, 16 Jul 2020 00:00:00 PDT
+    </div>
+    
+
+    
+    <div class="github-link">
+      <a href="https://github.com/NuevoFoundation/workshops/tree/master/content/java-basics/activity-7.md" target="blank"><i
+          class="fa fa-code-fork"></i>
+        </a>
+    </div>
+    
+  </div>
+
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+    
+
+    
+    
+
+    <div id="footer" class="row">
+    <div class="col-xs-12">
+        <div class="App-footer">
+            <div class="App-footer-big">
+                Únete a la conversación en las redes sociales.
+            </div>
+            <div class="social-images">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Instagram" class="fab fa-2x fa-instagram"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation X" class="fab fa-2x fa-x-twitter"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Facebook" class="fab fa-2x fa-1x fa-facebook-f"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-2x fa-linkedin"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/nuevofoundation?sub_confirmation=1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation YouTube" class="fab fa-2x fa-youtube"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Spotify" class="fab fa-2x fa-spotify"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Github" class="fab fa-2x fa-github"></i>
+                </a>
+            </div>
+            <div class="App-footer-small">
+                © Copyright 2025, Todos los derechos reservados por Nuevo Foundation, una organización sin fines de lucro de acuerdo con la disposición 501(c)(3).
+            </div>
+        </div>
+    </div>
+</div>
+
+  </body>
+</html>

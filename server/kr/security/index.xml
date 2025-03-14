@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>보안: 스파이 게임 on Nuevo Foundation Workshops</title>
+    <link>/kr/security/</link>
+    <description>Recent content in 보안: 스파이 게임 on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>kr</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/kr/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>앨리스, 밥, 이브 만나기</title>
+      <link>/kr/security/meeting-alice-bob-eve/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/kr/security/meeting-alice-bob-eve/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;../img/Bob.png?height=250px&#34; alt=&#34;Cannot load image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;여기 우리 친구 밥이 있습니다. 그리고 밥은 공유하고 싶지 않은 비밀이 있습니다.&lt;/p&gt;&#xA;&lt;p&gt;밥은 그것을 안전하게 지키고 싶어합니다. 그의 비밀을 안전하게 잠가 두었습니다. 오직 밥만이 잠금 장치의 열쇠를 가지고 있어 누구도 그의 비밀에 접근할 수 없습니다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/Eve.png?height=250px&#34; alt=&#34;Cannot load image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;성격이 좋지 않은 이브가 있습니다. 이브는 밥의 비밀에 접근하고 싶어합니다.&lt;/p&gt;&#xA;&lt;p&gt;이브는 밥의 비밀에 접근하기 위해서 먼저 밥의 잠금을 풀어야 한다는 것을 깨닫습니다. 이브는 잠금 장치를 부술 수는 없지만, 아마도 열쇠를 찾아낼 수는  있을 것입니다. 밥을 잠시 염탐한 후 이브가 깨닫게 된 것은, 밥이 정말로 반려견 맥스를 사랑한다는 것이었습니다. 여기서 이브는 아이디어를 얻게 됩니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>비밀번호 기초</title>
+      <link>/kr/security/password-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/kr/security/password-basics/</guid>
+      <description>&lt;p&gt;우리 비밀 요원 앨리스는 밥에게 비밀번호에 대해 설명하면서 사건을 해결합니다!!!&lt;/p&gt;&#xA;&lt;h2 id=&#34;비밀번호란-무엇일까요&#34;&gt;비밀번호란 무엇일까요?&lt;/h2&gt;&#xA;&lt;p&gt;비밀번호는 당신의 가상 세계의 잠금 장치에 대한 열쇠입니다. 비밀번호와 사용자 이름을 사용하여 인터넷에서 개인 정보를 안전하게 보호하는 것처럼, 당신의 비밀은 잠금 장치와 열쇠를 사용하여 안전한 방에 보관됩니다.&#xA;안전한 방은 문에 있는 잠금 장치의 열쇠만큼이나 안전합니다. 해커라고 알려진 나쁜 사람들로부터 온라인 데이터와 신원을 보호하기 위해 더 강력한 비밀번호가 필요합니다.&lt;/p&gt;&#xA;&lt;h2 id=&#34;무엇이-문제일까요&#34;&gt;무엇이 문제일까요?&lt;/h2&gt;&#xA;&lt;p&gt;비밀번호는 비공식적이어야 하며 당신만 알아야 합니다. 강력한 비밀번호란 기계나 인간이 추측하기 어려운 특성으로 인해 더 안전한 비밀번호를 말합니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>활동</title>
+      <link>/kr/security/activity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/kr/security/activity/</guid>
+      <description>&lt;p&gt;게임을 해봅시다!&lt;/p&gt;&#xA;&lt;form accept-charset=&#34;UTF-8&#34; action=&#34;https://formkeep.com/f/exampletoken&#34; method=&#34;POST&#34;&gt;&#xD;&#xA;  &lt;input type=&#34;hidden&#34; name=&#34;utf8&#34; value=&#34;✓&#34;&gt;&#xD;&#xA;  아래 텍스트 상자에 당신의 가장 좋아하는 문장을 적어보세요. 반드시 다섯 단어 이상이어야 합니다.(예: I like playing volleyball at the beach.)&lt;input type=&#34;email&#34;  name=&#34;email&#34; placeholder=&#34;Your Favorite sentence.&#34;&gt;&#xD;&#xA;&lt;/br&gt;&#xD;&#xA;   이제 위 문장의 각 단어의 첫 글자를 가져와서 텍스트 상자에 적어보세요.&#xD;&#xA;(예: ilpvatb)&#xD;&#xA;  &lt;input type=&#34;text&#34; name=&#34;name&#34; placeholder=&#34;The first letter of each word&#34;&gt;&#xD;&#xA;&lt;/br&gt;&#xD;&#xA;   텍스트에 숫자를 추가해보세요. 숫자의 위치를 기억하세요.&#xD;&#xA;(예: 1ilpvatb6)&#xD;&#xA;  &lt;input type=&#34;tel&#34; name=&#34;phone&#34; placeholder=&#34;Add some numbers&#34;&gt;&#xD;&#xA;&lt;/br&gt;&#xD;&#xA;마지막으로, 텍스트에 특수 문자를 추가해보세요.&#xD;&#xA;(예: 1ilpv$atb6)&#xD;&#xA;  &lt;input type=&#34;tel&#34; name=&#34;phone&#34; placeholder=&#34;Add a special character&#34;&gt;&#xD;&#xA;&lt;/br&gt;&#xD;&#xA;&lt;/form&gt;&#xD;&#xA;&lt;h3 id=&#34;voilà감탄-당신의-새로운-비밀번호가-완성되었습니다-보안을-뚫기-어려워-보이지-않나요&#34;&gt;Voilà(감탄), 당신의 새로운 비밀번호가 완성되었습니다! 보안을 뚫기 어려워 보이지 않나요?&lt;/h3&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;button class=&#34;btn  btn-success&#34; type=&#34;button&#34;  onclick=&#34;location.href=&#39;\/security\/4-spy-game\/&#39;&#34; &gt; 성공! &lt;/button&gt;</description>
+    </item>
+    <item>
+      <title>스파이 게임</title>
+      <link>/kr/security/spy-game/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/kr/security/spy-game/</guid>
+      <description>&lt;p&gt;지난 활동에서 우리는 강력한 비밀번호가 무작위 문자 조합(대문자와 소문자, 숫자 및 일부 특수 문자가 포함될 수 있음)으로 이루어져 있다는 것을 배웠습니다. 이제 &amp;ldquo;해킹 가능&amp;rdquo; 또는 &amp;ldquo;안전&amp;rdquo; 게임을 해볼 시간입니다!&#xA;우리 누비의 비밀번호 목록에서 이브가 해킹할 수 없는 가장 강력한 비밀번호를 선택하세요.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/pwd1.png?height=450px&amp;amp;classes=border,shadow&#34; alt=&#34;Cannot load image&#34;&gt;&lt;/p&gt;&#xA;&lt;fieldset&gt;  &#xD;&#xA;  &lt;legend&gt;이 비밀번호는 해킹될 수 있습니까?&#xD;&#xA;    &lt;input type=&#34;radio&#34; id=&#34;notify-on1&#34; name=&#34;notify1&#34; value=&#34;on&#34; &gt;&#xD;&#xA;    &lt;label for=&#34;notify-on&#34;&gt;Yes&lt;/label&gt;&#xD;&#xA;    &lt;input type=&#34;radio&#34; id=&#34;notify-off1&#34; name=&#34;notify1&#34; value=&#34;off&#34;&gt;&#xD;&#xA;    &lt;label for=&#34;notify-off&#34;&gt;No&lt;/label&gt;&#xD;&#xA;  &lt;/legend&gt;&#xD;&#xA;&lt;/fieldset&gt;&#xD;&#xA;&lt;p&gt;&lt;img src=&#34;../img/pwd2.png?height=450px&amp;amp;classes=border,shadow&#34; alt=&#34;Cannot load image&#34;&gt;&lt;/p&gt;&#xA;&lt;fieldset&gt;  &#xD;&#xA;  &lt;legend&gt;이 비밀번호는 해킹될 수 있습니까?&#xD;&#xA;    &lt;input type=&#34;radio&#34; id=&#34;notify-on2&#34; name=&#34;notify2&#34; value=&#34;on&#34; &gt;&#xD;&#xA;    &lt;label for=&#34;notify-on&#34;&gt;Yes&lt;/label&gt;&#xD;&#xA;    &lt;input type=&#34;radio&#34; id=&#34;notify-off2&#34; name=&#34;notify2&#34; value=&#34;off&#34;&gt;&#xD;&#xA;    &lt;label for=&#34;notify-off&#34;&gt;No&lt;/label&gt;&#xD;&#xA;  &lt;/legend&gt;&#xD;&#xA;&lt;/fieldset&gt;&#xD;&#xA;&lt;p&gt;&lt;img src=&#34;../img/pwd3.png?height=450px&amp;amp;classes=border,shadow&#34; alt=&#34;Cannot load image&#34;&gt;&lt;/p&gt;&#xA;&lt;fieldset&gt;  &#xD;&#xA;  &lt;legend&gt;이 비밀번호는 해킹될 수 있습니까?&#xD;&#xA;    &lt;input type=&#34;radio&#34; id=&#34;notify-on3&#34; name=&#34;notify3&#34; value=&#34;on&#34; &gt;&#xD;&#xA;    &lt;label for=&#34;notify-on&#34;&gt;Yes&lt;/label&gt;&#xD;&#xA;    &lt;input type=&#34;radio&#34; id=&#34;notify-off3&#34; name=&#34;notify3&#34; value=&#34;off&#34;&gt;&#xD;&#xA;    &lt;label for=&#34;notify-off&#34;&gt;No&lt;/label&gt;&#xD;&#xA;  &lt;/legend&gt;&#xD;&#xA;&lt;/fieldset&gt; &#xD;&#xA;&lt;p&gt;&lt;img src=&#34;../img/pwd4.png?height=450px&amp;amp;classes=border,shadow&#34; alt=&#34;Cannot load image&#34;&gt;&lt;/p&gt;&#xA;&lt;fieldset&gt;  &#xD;&#xA;  &lt;legend&gt;이 비밀번호는 해킹될 수 있습니까?&#xD;&#xA;    &lt;input type=&#34;radio&#34; id=&#34;notify-on4&#34; name=&#34;notify4&#34; value=&#34;on&#34; &gt;&#xD;&#xA;    &lt;label for=&#34;notify-on&#34;&gt;Yes&lt;/label&gt;&#xD;&#xA;    &lt;input type=&#34;radio&#34; id=&#34;notify-off4&#34; name=&#34;notify4&#34; value=&#34;off&#34;&gt;&#xD;&#xA;    &lt;label for=&#34;notify-off&#34;&gt;No&lt;/label&gt;&#xD;&#xA;  &lt;/legend&gt;&#xD;&#xA;&lt;/fieldset&gt;&#xD;&#xA;&lt;h4 id=&#34;축하합니다-해내셨어요-아래-버튼을-클릭하여-정답을-확인하세요&#34;&gt;축하합니다! 해내셨어요! 아래 버튼을 클릭하여 정답을 확인하세요.&lt;/h4&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;button class=&#34;btn  btn-success&#34; type=&#34;button&#34;  onclick=&#34;location.href=&#39;..\/summary&#39;&#34; &gt; 정답 &lt;/button&gt;</description>
+    </item>
+    <item>
+      <title>요약</title>
+      <link>/kr/security/summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/kr/security/summary/</guid>
+      <description>&lt;h2 id=&#34;강력한-비밀번호의-특징은-다음과-같습니다&#34;&gt;강력한 비밀번호의 특징은 다음과 같습니다:&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;최소 8자 이상 - 문자가 많을수록 좋습니다.&lt;/li&gt;&#xA;&lt;li&gt;문자와 숫자의 혼합&lt;/li&gt;&#xA;&lt;li&gt;적어도 하나의 특수 문자를 포함해야 합니다. 예: ! @ # ? ]&#xA;&lt;em&gt;주의: 비밀번호에 &amp;lt; 또는 &amp;gt;를 사용하지 마세요. 이 두 기호는 웹 브라우저에서 문제를 일으킬 수 있습니다.&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;보안이 강력한 비밀번호는 추측하기 어렵지만, 당신이 기억하기 쉬워야 합니다. 적어 두어야 하는 비밀번호는 강력하지 않습니다.&lt;/p&gt;&#xA;&lt;h2 id=&#34;해답&#34;&gt;해답&lt;/h2&gt;&#xA;&lt;p&gt;우리의 스파이 게임에서 “Ilovemypet” 비밀번호는 숫자와 특수 문자가 포함되어 있지 않으며, “12345678”은 숫자의 시퀀스입니다. 따라서 두 비밀번호 모두 약하며 해킹 될 수 있습니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>답안 - 보안</title>
+      <link>/kr/security/answer-key/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/kr/security/answer-key/</guid>
+      <description>&lt;h3 id=&#34;해답&#34;&gt;해답&lt;/h3&gt;&#xA;&lt;p&gt;우리의 스파이 게임에서, 비밀번호 &amp;ldquo;Ilovemypet&amp;quot;은 숫자나 특수 문자가 포함되지 않았고, &amp;ldquo;12345678&amp;quot;은 숫자로 이루어진 단순한 순서입니다. 따라서 두 비밀번호 모두 약하며, 악의적인 사람이 쉽게 해킹하거나 추측할 수 있습니다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

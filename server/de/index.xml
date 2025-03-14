@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workshops der Nuevo Foundation on Nuevo Foundation Workshops</title>
+    <link>/de/</link>
+    <description>Recent content in Workshops der Nuevo Foundation on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/de/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Die Komponenten</title>
+      <link>/de/adafruit/the-components/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/de/adafruit/the-components/</guid>
+      <description>&lt;p&gt;Die Komponenten, die wir für das Projekt verwenden werden, sind unten aufgeführt. Stelle sicher, dass du alle diese Komponenten hast:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Ein Adafruit&lt;/li&gt;&#xA;&lt;li&gt;Micro-USB-auf-USB-Kabel&lt;/li&gt;&#xA;&lt;li&gt;2 Krokodilklemmendrähte, beliebige Farben&lt;/li&gt;&#xA;&lt;li&gt;Zwei Orangen&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>Aufbau der DJ-Station</title>
+      <link>/de/adafruit/building-the-dj-station/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/de/adafruit/building-the-dj-station/</guid>
+      <description>&lt;h3 id=&#34;anschließen-der-orangen&#34;&gt;Anschließen der Orangen&lt;/h3&gt;&#xA;&lt;p&gt;Nimm eine Orange und einen deiner Drähte. Öffne eine der Krokodilklemmen und stecke die untere Hälfte in die Orange, so dass der obere Teil der Klemme außen liegt. Das geht am einfachsten, wenn du sie in der Mitte des unteren Teils der Orange einführst. Das ist die gleiche Stelle, an der du mit dem Schälen beginnen würdest, wenn du die Orange essen wolltest.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/setup1.png?classes=border,shadow&#34; alt=&#34;Bild kann nicht geladen werden&#34;&gt;&#xA;&lt;img src=&#34;../img/setup2.png?classes=border,shadow&#34; alt=&#34;Bild kann nicht geladen werden&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Erstellung des Programms</title>
+      <link>/de/adafruit/creating-the-program/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/de/adafruit/creating-the-program/</guid>
+      <description>&lt;p&gt;Öffne deinen bevorzugten Internetbrowser (z. B. Edge, Firefox, Google Chrome, Internet Explorer) und gehe zu &lt;a href=&#34;https://aka.ms/oranges&#34; target=&#34;_blank&#34;&gt;https://aka.ms/oranges&lt;sup&gt;&lt;span class=&#34;glyphicon glyphicon-new-window&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/sup&gt;&lt;/a&gt;&#xD;&#xA;. Dein Bildschirm sollte wie folgt aussehen:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/adafruit.png?classes=border,shadow&#34; alt=&#34;Bild kann nicht geladen werden&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;festlegung-der-variablen&#34;&gt;Festlegung der Variablen&lt;/h3&gt;&#xA;&lt;p&gt;Heute werden wir Orangen verwenden, um unserem Adafruit zu sagen, wann er Geräusche machen soll. Als erstes müssen wir dem Computer einen Namen für jede Orange geben und wo er nachschauen soll, was die Orange sagt. Den ersten Teil machen wir, indem wir eine Variable definieren. Klicke auf den Abschnitt VARIABLES, er ist rosa und der 7. von oben. Dann definiere eine Variable, indem du auf Make a Variable klickst und ihr einen Namen gibst. Mache das zweimal, hier definieren wir unsere als analog1 und analog2, aber du kannst sie nennen, wie du willst.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Herunterladen des Programms</title>
+      <link>/de/adafruit/downloading-your-program/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/de/adafruit/downloading-your-program/</guid>
+      <description>&lt;p&gt;Unten in deinem Arbeitsbereich solltest du diesen hellrosa Download-Button neben dem Namen deines Programms sehen. Du kannst dein Programm beliebig nennen, hier heißt es adafruit_musicalfruit. Klicke auf den Download-Button.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/download1.png?classes=border,shadow&#34; alt=&#34;Bild kann nicht geladen werden&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Es sollte ein Fenster erscheinen, in dem du gefragt wirst, wo du deine Datei speichern möchtest. Es sollte standardmäßig der Ordner &amp;ldquo;Downloads&amp;rdquo; angezeigt werden. Falls nicht, navigiere zu deinem Downloads-Ordner und speichere die Datei dort.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/download2.png?classes=border,shadow&#34; alt=&#34;Bild kann nicht geladen werden&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Antwortschlüssel - Adafruit</title>
+      <link>/de/adafruit/answer-key/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/de/adafruit/answer-key/</guid>
+      <description>&lt;h3 id=&#34;einrichtung&#34;&gt;Einrichtung&lt;/h3&gt;&#xA;&lt;p&gt;Zusammengefasst:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Die beiden Krokodilklemmen sollten in die Oberfläche der Orangen geklemmt werden.&lt;/li&gt;&#xA;&lt;li&gt;Die andere Seite der Klemmen sollte an den Eingängen A1 und A2 des Adafruits sein.&lt;/li&gt;&#xA;&lt;li&gt;Der USB-Stecker sollte mit dem Adafruit verbunden sein, aber nicht mit dem Computer.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Nach der Einrichtung sollten die Orangen und Adafruit wie folgt aussehen:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/setupOverview.png?classes=border,shadow&#34; alt=&#34;Bild kann nicht geladen werden&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;lösung&#34;&gt;Lösung&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/adafruit-basic-solution.png?classes=border,shadow&#34; alt=&#34;Bild kann nicht geladen werden&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;lösung---fortgeschritten-mit-beleuchtung&#34;&gt;Lösung - fortgeschritten (mit Beleuchtung)&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/adafruit-complex-solution.png?classes=border,shadow&#34; alt=&#34;Bild kann nicht geladen werden&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

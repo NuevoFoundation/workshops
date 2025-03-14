@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python: Choose Your Own Adventure Game on Nuevo Foundation Workshops</title>
+    <link>/adventure/</link>
+    <description>Recent content in Python: Choose Your Own Adventure Game on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 23 Jul 2019 11:45:38 -0700</lastBuildDate>
+    <atom:link href="/adventure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Section 1: Story Boarding</title>
+      <link>/adventure/story-boarding/</link>
+      <pubDate>Tue, 23 Jul 2019 11:45:38 -0700</pubDate>
+      <guid>/adventure/story-boarding/</guid>
+      <description>&lt;h2 id=&#34;time-to-create&#34;&gt;Time to Create&lt;/h2&gt;&#xA;&lt;p&gt;It’s time to start creating our own stories with all the skills we’ve learned today! The question that we are tackling today is how to get the audience involved with the story line, and the answer to this is CODE!&lt;/p&gt;&#xA;&lt;p&gt;To get started, pull out a piece a paper and start &amp;ldquo;story boarding&amp;rdquo;. What does that mean? In order to develop a great story that allows the reader to choose between options, one can outline the flow of their story. This is a great planning step, that will you help you tremendously once you start coding!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Section 2: Transferring the Story Board to Code!</title>
+      <link>/adventure/story-board-code/</link>
+      <pubDate>Tue, 23 Jul 2019 11:45:38 -0700</pubDate>
+      <guid>/adventure/story-board-code/</guid>
+      <description>&lt;p&gt;It’s time to open Trinket. Now it is time to create, let’s get creative!&lt;/p&gt;&#xA;&lt;p&gt;You can continue working off Nuvi’s story line:&lt;/p&gt;&#xA;&lt;iframe src=&#34;https://trinket.io/embed/python/9759788192&#34; width=&#34;100%&#34; height=&#34;600&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xD;&#xA;&lt;p&gt;You can work on a template for a Choose Your Own Adventure game:&lt;/p&gt;&#xA;&lt;iframe src=&#34;https://trinket.io/embed/python/5e730935ae&#34; width=&#34;100%&#34; height=&#34;600&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xD;&#xA;&lt;p&gt;Or you can start from scratch and make it your own! Just go to Trinket and start story telling!&lt;/p&gt;&#xA;&lt;iframe src=&#34;https://trinket.io/embed/python/b238d85d0d&#34; width=&#34;100%&#34; height=&#34;600&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+  </channel>
+</rss>

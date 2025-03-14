@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Segurança: jogo de espionagem on Nuevo Foundation Workshops</title>
+    <link>/pt-br/security/</link>
+    <description>Recent content in Segurança: jogo de espionagem on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/pt-br/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conhecendo Alice, Bob e Eva</title>
+      <link>/pt-br/security/meeting-alice-bob-eve/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pt-br/security/meeting-alice-bob-eve/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;../img/Bob.png?height=250px&#34; alt=&#34;Não é possível carregar a imagem&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Conheça nosso amigo &lt;b&gt;Bob&lt;/b&gt;. &lt;strong&gt;Bob&lt;/strong&gt; tem um segredo que não quer compartilhar, ele&#xA;gostaria de mantê-lo seguro. Ele tem o segredo trancado em algum lugar seguro. Apenas&#xA;Bob tem a &amp;lsquo;chave&amp;rsquo; da fechadura para garantir que ninguém possa descobrir seu segredo,&#xA;exceto ele.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/Eva.png?height=250px&#34; alt=&#34;Não é possível carregar a imagem&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Conheça nossa não tão boa amiga &lt;b&gt;Eva&lt;/b&gt;. &lt;strong&gt;Eva&lt;/strong&gt; quer acesso ao segredo de &lt;strong&gt;Bob&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Eva&lt;/strong&gt; percebe que para descobrir o segredo de &lt;strong&gt;Bob&lt;/strong&gt;, eles precisam primeiro passar a&#xA;tranca de &lt;strong&gt;Bob&lt;/strong&gt;. &lt;strong&gt;Eva&lt;/strong&gt; não consegue quebrar a fechadura, mas talvez ela consiga descobrir a&#xA;&lt;code&gt;chave&lt;/code&gt;. Depois de espionar &lt;strong&gt;Bob&lt;/strong&gt; por um tempo, &lt;strong&gt;Eva&lt;/strong&gt; percebe que ele realmente&#xA;adora seu cachorro de estimação, Max. Isso dá a &lt;strong&gt;Eva&lt;/strong&gt; uma ideia.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fundamentos de Senhas</title>
+      <link>/pt-br/security/password-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pt-br/security/password-basics/</guid>
+      <description>&lt;p&gt;Nossa Agente Secreta Alice resolve o caso explicando ao Bob sobre Senhas!!!&lt;/p&gt;&#xA;&lt;h2 id=&#34;o-que-é-uma-senha&#34;&gt;O que é uma senha?&lt;/h2&gt;&#xA;&lt;p&gt;As senhas são a chave para a fechadura do seu mundo virtual.&#xA;Assim como seu segredo é mantido em segurança em uma sala segura usando um cadeado e uma chave, suas informações pessoais na Internet são protegidas por sua senha de login e nome de usuário.&lt;/p&gt;&#xA;&lt;p&gt;Uma sala segura é tão segura quanto a fechadura da porta. Precisamos de senhas mais fortes para proteger nossos dados e identidade on-line contra pessoas mal-intencionadas conhecidas como &lt;b&gt;Hackers&lt;/b&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Atividade</title>
+      <link>/pt-br/security/activity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pt-br/security/activity/</guid>
+      <description>&lt;p&gt;Vamos jogar um jogo!&lt;/p&gt;&#xA;&lt;form accept-charset=&#34;UTF-8&#34; action=&#34;https://formkeep.com/f/exampletoken&#34; method=&#34;POST&#34;&gt;&#xD;&#xA;  &lt;input type=&#34;hidden&#34; name=&#34;utf8&#34; value=&#34;✓&#34;&gt;&#xD;&#xA;  Escreva sua frase favorita na caixa de texto abaixo. Certifique-se de que tenha pelo menos cinco palavras. (Ex.: gosto de jogar vôlei na praia.)&#xD;&#xA;  &lt;input type=&#34;email&#34;  name=&#34;email&#34; placeholder=&#34;Your Favorite sentence.&#34;&gt;&#xD;&#xA;&lt;/br&gt;&#xD;&#xA;   Agora pegue a primeira letra de cada palavra da frase acima e escreva dentro da caixa de texto. (Por exemplo, gdjvnp)&#xD;&#xA;  &lt;input type=&#34;text&#34; name=&#34;name&#34; placeholder=&#34;The first letter of each word&#34;&gt;&#xD;&#xA;&lt;/br&gt;&#xD;&#xA;   Adicione alguns números ao texto. Lembre-se da posição dos números. (Por exemplo, 1gdjvnp6)&#xD;&#xA;  &lt;input type=&#34;tel&#34; name=&#34;phone&#34; placeholder=&#34;Add some numbers&#34;&gt;&#xD;&#xA;&lt;/br&gt;&#xD;&#xA;  Finalmente, vamos adicionar alguns caracteres especiais ao texto. (Por exemplo, 1gdj$vnp6)&#xD;&#xA;  &lt;input type=&#34;tel&#34; name=&#34;phone&#34; placeholder=&#34;Add a special character&#34;&gt;&#xD;&#xA;&lt;/br&gt;&#xD;&#xA;&lt;/form&gt;&#xD;&#xA;&lt;h3 id=&#34;voilà-essa-é-sua-nova-senha-não-parece-difícil-de-quebrar&#34;&gt;Voilà essa é sua nova senha! Não parece difícil de quebrar?&lt;/h3&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;button class=&#34;btn  btn-success&#34; type=&#34;button&#34;  onclick=&#34;location.href=&#39;\/security\/4-spy-game\/&#39;&#34; &gt; Sucesso! &lt;/button&gt;</description>
+    </item>
+    <item>
+      <title>Jogo de espião</title>
+      <link>/pt-br/security/spy-game/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pt-br/security/spy-game/</guid>
+      <description>&lt;p&gt;Na nossa última atividade aprendemos que uma senha forte é uma combinação de caracteres aleatórios (possivelmente com letras maiúsculas e minúsculas), números e alguns caracteres especiais. Agora é hora de jogar Hacked ou Safe!&lt;/p&gt;&#xA;&lt;p&gt;Em uma lista de senhas usadas pelo nosso &lt;code&gt;Nuvi&lt;/code&gt;, selecione a senha mais forte que não pode ser hackeada por &lt;strong&gt;Eve&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/pwd1.png?height=450px&amp;amp;classes=border,shadow&#34; alt=&#34;Não é possível carregar a imagem&#34;&gt;&lt;/p&gt;&#xA;&lt;fieldset&gt;  &#xD;&#xA;  &lt;legend&gt;Essa senha pode ser hackeada?&lt;/legend&gt;&#xD;&#xA;  &lt;input type=&#34;radio&#34; id=&#34;notify-on1&#34; name=&#34;notify1&#34; value=&#34;on&#34; &gt;&#xD;&#xA;  &lt;label for=&#34;notify-on&#34;&gt;Sim&lt;/label&gt;&#xD;&#xA;  &lt;input type=&#34;radio&#34; id=&#34;notify-off1&#34; name=&#34;notify1&#34; value=&#34;off&#34;&gt;&#xD;&#xA;  &lt;label for=&#34;notify-off&#34;&gt;Não&lt;/label&gt;&#xD;&#xA;&lt;/fieldset&gt;&#xD;&#xA;&lt;p&gt;&lt;img src=&#34;../img/pwd2.png?height=450px&amp;amp;classes=border,shadow&#34; alt=&#34;Não é possível carregar a imagem&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sumário</title>
+      <link>/pt-br/security/summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pt-br/security/summary/</guid>
+      <description>&lt;h2 id=&#34;lembre-se-que-as-características-de-uma-senha-forte-são&#34;&gt;Lembre-se que as características de uma senha forte são:&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Pelo menos 8 caracteres – quanto mais caracteres, melhor&lt;/li&gt;&#xA;&lt;li&gt;Uma mistura de letras e números&lt;/li&gt;&#xA;&lt;li&gt;Inclusão de pelo menos um caractere especial, por exemplo, ! @ # ? ]&#xA;&lt;em&gt;Nota: não use &amp;lt; ou &amp;gt; em sua senha, pois ambos podem causar problemas nos navegadores da Web&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Uma senha forte é difícil de adivinhar, mas deve ser fácil de lembrar - uma senha que precisa ser anotada não é forte, não importa quantas das características acima sejam empregadas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chave de resposta - Segurança</title>
+      <link>/pt-br/security/answer-key/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pt-br/security/answer-key/</guid>
+      <description>&lt;h3 id=&#34;solução&#34;&gt;Solução&lt;/h3&gt;&#xA;&lt;p&gt;Em nosso &lt;em&gt;Jogo do Espião&lt;/em&gt;, a senha &amp;ldquo;Ilovemypet&amp;rdquo; não contém números e caracteres especiais, e &amp;ldquo;12345678&amp;rdquo; é uma sequência de números; portanto, ambas as senhas são fracas e podem ser facilmente hackeadas/adivinhadas por uma pessoa mal-intencionada.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

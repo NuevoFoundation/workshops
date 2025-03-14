@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SQL: Saving the Galaxy on Nuevo Foundation Workshops</title>
+    <link>/sql_workshop/</link>
+    <description>Recent content in SQL: Saving the Galaxy on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 28 Mar 2020 10:24:17 -0700</lastBuildDate>
+    <atom:link href="/sql_workshop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SQL Workshop Answer Key</title>
+      <link>/sql_workshop/answer-key/</link>
+      <pubDate>Sat, 28 Mar 2020 10:24:17 -0700</pubDate>
+      <guid>/sql_workshop/answer-key/</guid>
+      <description>&lt;div class=&#34;notices tip&#34; &gt;&#xD;&#xA;    &lt;p header-value=&#34;Tip&#34;&gt;&lt;p&gt;Note: Do not use Firefox Browser for this workshop!&lt;/p&gt;&#xA;&lt;p&gt;For Drag and Drop Activities: Correctly chosen blocks will have a green highlight around them while incorrect blocks will highlight in red until the player moves the block.&lt;/p&gt;&#xA;&lt;p&gt;For Type-In Activities: Correct words/commands will be highlighted in green in the Previous Command Box, incorrectly placed or misused words will be highlighted in red. If the command players write matches the answer key and it still highlights in red, make sure there are no extra spaces at the end or beginning of the command! Make sure players have a semicolon at the end of the command (The last word in the SQL command will highlight red if there is no semicolon)! Note that some of the kids copy a sample command from the workshop and paste it in the terminal to run - this will not work! Please ask them to refresh the page and manually type in the command.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arrays on Nuevo Foundation Workshops</title>
+    <link>/java-datastructures/arrays/</link>
+    <description>Recent content in Arrays on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 16 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/java-datastructures/arrays/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>/java-datastructures/arrays/introduction/</link>
+      <pubDate>Tue, 23 Jul 2019 11:45:38 -0700</pubDate>
+      <guid>/java-datastructures/arrays/introduction/</guid>
+      <description>&lt;p&gt;Arrays are a data structure where each of its elements are arranged in a numerical sequence and each item is referenced by its position number. In Java, each of these elements are of one type (&lt;code&gt;String&lt;/code&gt;, &lt;code&gt;int&lt;/code&gt;, &lt;code&gt;double&lt;/code&gt;, etc.) and are zero indexed, which means that the first element in an array starts at &lt;code&gt;0&lt;/code&gt;, the second element with &lt;code&gt;1&lt;/code&gt;, and so on.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/array.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Here are some important vocabulary that you will need to know before we talk more about arrays.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Operations</title>
+      <link>/java-datastructures/arrays/operations/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      <guid>/java-datastructures/arrays/operations/</guid>
+      <description>&lt;p style=&#34;text-align: center;&#34;&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/NQXV586afr8&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;&#xD;&#xA;&lt;h2 id=&#34;creating-an-array&#34;&gt;Creating an array&lt;/h2&gt;&#xA;&lt;p&gt;Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value. To declare an array, define the variable type with square brackets.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#111&#34;&gt;String&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;[]&lt;/span&gt; &lt;span style=&#34;color:#75af00&#34;&gt;restaurants&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;We have now declared a variable that holds an array of strings. To insert values to it, we can use an array literal - place the values in a comma-separated list, inside curly braces:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem 1: Array basics</title>
+      <link>/java-datastructures/arrays/problem-1/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      <guid>/java-datastructures/arrays/problem-1/</guid>
+      <description>&lt;!--&lt;link rel=&#34;stylesheet&#34; href=&#34;../../style.css&#34;&gt;--&gt;&#xD;&#xA;&lt;h2 id=&#34;task-1-printing&#34;&gt;Task 1: Printing&lt;/h2&gt;&#xA;&lt;p&gt;We&amp;rsquo;ve created an array of existing restaurants in our system! We need your help to print out everything so we do not include the same restaurants.&lt;/p&gt;&#xA;&lt;div class=&#34;notices tip&#34; &gt;&#xD;&#xA;    &lt;p header-value=&#34;Tip&#34;&gt;&lt;ol&gt;&#xA;&lt;li&gt;Use a &lt;code&gt;for&lt;/code&gt; Loop to print out the contents of the array.&lt;/li&gt;&#xA;&lt;li&gt;Use the &lt;code&gt;length()&lt;/code&gt; method to find the size of the array.&lt;/li&gt;&#xA;&lt;li&gt;Look at the example below.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;p&gt;If we are given the array below:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#111&#34;&gt;String&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;[]&lt;/span&gt; &lt;span style=&#34;color:#75af00&#34;&gt;restaurants&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#111&#34;&gt;{&lt;/span&gt; &lt;span style=&#34;color:#d88200&#34;&gt;&amp;#34;Burger King&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#d88200&#34;&gt;&amp;#34;Chipotle&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#d88200&#34;&gt;&amp;#34;Panda Express&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#d88200&#34;&gt;&amp;#34;McDonalds&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#111&#34;&gt;};&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;the answer should print out:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem 2: Advanced Arrays</title>
+      <link>/java-datastructures/arrays/problem-2/</link>
+      <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/java-datastructures/arrays/problem-2/</guid>
+      <description>&lt;!--&lt;link rel=&#34;stylesheet&#34; href=&#34;../../style.css&#34;&gt;--&gt;&#xD;&#xA;&lt;h2 id=&#34;task-1-find-the-average-cost&#34;&gt;Task 1: Find the average cost!&lt;/h2&gt;&#xA;&lt;p&gt;Suppose we have an array containing the costs of various foods. Find the average cost of the food!&lt;/p&gt;&#xA;&lt;div class=&#34;notices tip&#34; &gt;&#xD;&#xA;    &lt;p header-value=&#34;Tip&#34;&gt;&lt;ol&gt;&#xA;&lt;li&gt;You can use a &lt;code&gt;for&lt;/code&gt; loop to go through the array!&lt;/li&gt;&#xA;&lt;li&gt;Remember, the average of a list is the total divided by the number of items&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;p&gt;&lt;a class=&#34;my-2 mx-4 btn btn-info&#34; href=&#34;https://replit.com/@nuevofoundation/Problem-4-averageRestaurant&#34; target=&#34;_blank&#34;&gt;Launch Replit&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;task-2-sorting-an-array&#34;&gt;Task 2: Sorting an array!&lt;/h2&gt;&#xA;&lt;p&gt;The cost of each item in the menu is all over the place! Help us sort the array from least to greatest.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

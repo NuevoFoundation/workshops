@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JS: JSappyBird on Nuevo Foundation Workshops</title>
+    <link>/pt-br/jsappybird/</link>
+    <description>Recent content in JS: JSappyBird on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Wed, 29 Jul 2020 13:24:17 -0700</lastBuildDate>
+    <atom:link href="/pt-br/jsappybird/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Carregue a imagem do pássaro e altere o texto da tela</title>
+      <link>/pt-br/jsappybird/load-the-bird/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      <guid>/pt-br/jsappybird/load-the-bird/</guid>
+      <description>&lt;p&gt;Primeiramente vamos carregar o Flappy e colocá-lo na tela.&lt;/p&gt;&#xA;&lt;p&gt;Adicione o comando abaixo no arquivo [File: load-sprites.js]&#xA;&lt;code&gt;&#xD; game.load.image(&#39;bird&#39;,&#39;assets/bird.png&#39;);&#xD; &lt;/code&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;trabalhando-juntos&#34;&gt;Trabalhando juntos&lt;/h3&gt;&#xA;&lt;p&gt;Na janela Replit abaixo, iniciamos o código com a linha &lt;code&gt;game.load.image(&#39;bird&#39;, &#39;assets/bird.png&#39;);&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/loadbird.png&#34; alt=&#34;texto alternativo&#34; title=&#34;imagem para adicionar o pássaro no arquivo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;No seu console você deverá ver um pássaro Jsappy depois de pressionar &lt;strong&gt;run&lt;/strong&gt; e depois a barra de espaço:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/loadbird_output.png&#34; alt=&#34;texto alternativo&#34; title=&#34;imagem de pássaro na saída&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;altere-o-texto-da-tela&#34;&gt;Altere o texto da tela&lt;/h2&gt;&#xA;&lt;p&gt;Vamos alterar o texto da tela inicial:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Faça o pássaro pular e adicione gravidade</title>
+      <link>/pt-br/jsappybird/jump/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      <guid>/pt-br/jsappybird/jump/</guid>
+      <description>&lt;h3 id=&#34;o-que-devemos-fazer-com-o-pássaro&#34;&gt;O que devemos fazer com o pássaro?&lt;/h3&gt;&#xA;&lt;p&gt;Vamos fazê-lo pular:&lt;/p&gt;&#xA;&lt;p&gt;Adicione o comando abaixo no arquivo [File: create-game.js]&#xA;spaceKey.onDown.add(jump, this);&lt;/p&gt;&#xA;&lt;h3 id=&#34;trabalhando-juntos&#34;&gt;Trabalhando juntos&lt;/h3&gt;&#xA;&lt;p&gt;Na janela Replit abaixo, iniciamos o código com a linha &lt;code&gt;spaceKey.onDown.add(jump, this);&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/jump.png&#34; alt=&#34;texto alternativo&#34; title=&#34;imagem para adicionar salto para baixo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;No seu console você deverá ver um pássaro Jsappy pulando depois de pressionar &lt;strong&gt;run&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/jump_output.png&#34; alt=&#34;texto alternativo&#34; title=&#34;Imagem de um pássaro saltando&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;adicione-gravidade&#34;&gt;Adicione gravidade&lt;/h2&gt;&#xA;&lt;h3 id=&#34;trabalhando-juntos-1&#34;&gt;Trabalhando juntos&lt;/h3&gt;&#xA;&lt;p&gt;Na janela Replit abaixo, iniciamos o código com a linha &lt;code&gt;bird.body.gravity.y = 900;&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Faça o pássaro pular com força e cair com rotação</title>
+      <link>/pt-br/jsappybird/jump-force/</link>
+      <pubDate>Wed, 29 Jul 2020 13:24:17 -0700</pubDate>
+      <guid>/pt-br/jsappybird/jump-force/</guid>
+      <description>&lt;p&gt;Vamos adicionar força ao pássaro&lt;/p&gt;&#xA;&lt;p&gt;Adicione o comando abaixo no arquivo [File: create-game.js]&#xA;bird.body.velocity.y = -350;&lt;/p&gt;&#xA;&lt;div class=&#34;notices tip&#34; &gt;&#xD;&#xA;    &lt;p header-value=&#34;Dica&#34;&gt;&lt;h2 id=&#34;trabalhando-juntos&#34;&gt;Trabalhando juntos&lt;/h2&gt;&#xA;&lt;p&gt;Na janela Replit abaixo, iniciamos o código com a linha &lt;code&gt;bird.body.velocity.y = -350;&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/jump_force.png&#34; alt=&#34;texto alternativo&#34; title=&#34;imagem para adicionar gravidade ao pássaro&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;No seu console você deverá ver um pássaro JSappy pulando com força depois de pressionar &lt;strong&gt;run&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/jump_output.png&#34; alt=&#34;texto alternativo&#34; title=&#34;pássaro pulando com gravidade&#34;&gt;&lt;/p&gt;&#xA;&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;h2 id=&#34;atividade-bônus&#34;&gt;Atividade bônus&lt;/h2&gt;&#xA;&lt;p&gt;Vamos fazer o pássaro pular para cima e para frente:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Adicione som do salto do pássaro e bônus</title>
+      <link>/pt-br/jsappybird/add-jump-sound/</link>
+      <pubDate>Wed, 29 Jul 2020 13:24:17 -0700</pubDate>
+      <guid>/pt-br/jsappybird/add-jump-sound/</guid>
+      <description>&lt;p&gt;Vamos adicionar sons ao pássaro quando ele pula&lt;/p&gt;&#xA;&lt;p&gt;Adicione o comando abaixo no arquivo [File: create-game.js]&#xA;jumpSound.play();&lt;/p&gt;&#xA;&lt;div class=&#34;notices tip&#34; &gt;&#xD;&#xA;    &lt;p header-value=&#34;Dica&#34;&gt;&lt;h2 id=&#34;trabalhando-juntos&#34;&gt;Trabalhando juntos&lt;/h2&gt;&#xA;&lt;p&gt;Na janela do Replit abaixo, iniciamos o código com a linha &lt;code&gt;jumpSound.play();&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/jump_sound.png&#34; alt=&#34;alt text&#34; title=&#34;imagem para adicionar som ao pássaro&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;No seu console você deverá ver um pássaro Jsappy pulando com som depois de pressionar &lt;strong&gt;run&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;h1 id=&#34;atividades-bônus&#34;&gt;Atividades bônus&lt;/h1&gt;&#xA;&lt;div class=&#34;notices note&#34; &gt;&#xD;&#xA;    &lt;p header-value=&#34;Observação&#34;&gt;&lt;ul&gt;&#xA;&lt;li&gt;O que acontece se tornarmos a gravidade mais forte?&lt;/li&gt;&#xA;&lt;li&gt;O que acontece se fizermos com que a gravidade tenha um valor negativo?&lt;/li&gt;&#xA;&lt;li&gt;De que outras maneiras malucas o pássaro pode pular?&lt;/li&gt;&#xA;&lt;li&gt;Como podemos fazê-lo girar mais rápido?&lt;/li&gt;&#xA;&lt;li&gt;O que acontece se removermos o &amp;lsquo;se&amp;rsquo; da rotação?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

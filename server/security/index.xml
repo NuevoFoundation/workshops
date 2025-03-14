@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security: Spy Game on Nuevo Foundation Workshops</title>
+    <link>/security/</link>
+    <description>Recent content in Security: Spy Game on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Meeting Alice, Bob and Eve</title>
+      <link>/security/meeting-alice-bob-eve/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/security/meeting-alice-bob-eve/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;../img/Bob.png?height=250px&#34; alt=&#34;Cannot load image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Meet our friend &lt;b&gt;Bob&lt;/b&gt;. &lt;strong&gt;Bob&lt;/strong&gt; has a secret that he doesn’t want to share, he&#xA;would like to keep it secured. He has the secret locked somewhere safe. Only&#xA;Bob has the &lt;code&gt;key&lt;/code&gt; to the lock to make sure that no one can get to his secret&#xA;but him.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/Eve.png?height=250px&#34; alt=&#34;Cannot load image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Meet our not so good friend &lt;b&gt;Eve&lt;/b&gt;. &lt;strong&gt;Eve&lt;/strong&gt; wants access to &lt;strong&gt;Bob&lt;/strong&gt;’s secret.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Eve&lt;/strong&gt; realizes that to get to &lt;strong&gt;Bob&lt;/strong&gt;&amp;rsquo;s secret, they need to first get past&#xA;&lt;strong&gt;Bob&lt;/strong&gt;&amp;rsquo;s lock. &lt;strong&gt;Eve&lt;/strong&gt; can&amp;rsquo;t break the lock, but maybe she can figure out the&#xA;&lt;code&gt;key&lt;/code&gt;. After spying on &lt;strong&gt;Bob&lt;/strong&gt; for a while, &lt;strong&gt;Eve&lt;/strong&gt; realizes that &lt;strong&gt;Bob&lt;/strong&gt; really&#xA;loves his pet dog, Max. This gives &lt;strong&gt;Eve&lt;/strong&gt; an idea.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Password Basics</title>
+      <link>/security/password-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/security/password-basics/</guid>
+      <description>&lt;p&gt;Our Secret Agent Alice solves the case by explaining Bob about Passwords!!!&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-a-password&#34;&gt;What is a Password?&lt;/h2&gt;&#xA;&lt;p&gt;Passwords are the key to the lock to your virtual world.&#xA;Just like your secret is kept safe in a secure room using a lock and a key, your personal information on the internet is secured by your login password and username.&lt;/p&gt;&#xA;&lt;p&gt;The secure room is only as secure as the key to the lock on the door. We need stronger passwords to protect our online data and identity from bad people known as &lt;b&gt;Hackers&lt;/b&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Activity</title>
+      <link>/security/activity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/security/activity/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s play a game!&lt;/p&gt;&#xA;&lt;form accept-charset=&#34;UTF-8&#34; action=&#34;https://formkeep.com/f/exampletoken&#34; method=&#34;POST&#34;&gt;&#xD;&#xA;  &lt;input type=&#34;hidden&#34; name=&#34;utf8&#34; value=&#34;✓&#34;&gt;&#xD;&#xA;  Write your favorite sentence in the text box below. Make sure it has at least five words. (E.g. I like playing volleyball at the beach.)&#xD;&#xA;  &lt;input type=&#34;email&#34;  name=&#34;email&#34; placeholder=&#34;Your Favorite sentence.&#34;&gt;&#xD;&#xA;&lt;/br&gt;&#xD;&#xA;   Now take the first letter of each word from the above sentence and write inside the text box. (E.g. ilpvatb)&#xD;&#xA;  &lt;input type=&#34;text&#34; name=&#34;name&#34; placeholder=&#34;The first letter of each word&#34;&gt;&#xD;&#xA;&lt;/br&gt;&#xD;&#xA;   Add some numbers to the text. Remember the position of the numbers. (E.g. 1ilpvatb6)&#xD;&#xA;  &lt;input type=&#34;tel&#34; name=&#34;phone&#34; placeholder=&#34;Add some numbers&#34;&gt;&#xD;&#xA;&lt;/br&gt;&#xD;&#xA;  Finally, let&#39;s add some special characters to the text. (E.g. 1ilpv$atb6)&#xD;&#xA;  &lt;input type=&#34;tel&#34; name=&#34;phone&#34; placeholder=&#34;Add a special character&#34;&gt;&#xD;&#xA;&lt;/br&gt;&#xD;&#xA;&lt;/form&gt;&#xD;&#xA;&lt;h3 id=&#34;voilà-thats-your-new-password-doesnt-it-look-hard-to-crack&#34;&gt;Voilà that&amp;rsquo;s your new password! Doesn&amp;rsquo;t it look hard to crack?&lt;/h3&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;button class=&#34;btn  btn-success&#34; type=&#34;button&#34;  onclick=&#34;location.href=&#39;\/security\/4-spy-game\/&#39;&#34; &gt; Success! &lt;/button&gt;</description>
+    </item>
+    <item>
+      <title>Spy Game</title>
+      <link>/security/spy-game/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/security/spy-game/</guid>
+      <description>&lt;p&gt;From our last activity we learnt that a strong password is a combination of random characters (possibly having uppercase and lowercase letters), numbers and some special characters. Now it&amp;rsquo;s time to play Hacked or Safe!&lt;/p&gt;&#xA;&lt;p&gt;From a list of passwords used by our &lt;code&gt;Nuvi&lt;/code&gt; select the strongest password which cannot be hacked by &lt;strong&gt;Eve&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/pwd1.png?height=450px&amp;amp;classes=border,shadow&#34; alt=&#34;Cannot load image&#34;&gt;&lt;/p&gt;&#xA;&lt;fieldset&gt;  &#xD;&#xA;  &lt;legend&gt;Can this password be Hacked?&#xD;&#xA;    &lt;input type=&#34;radio&#34; id=&#34;notify-on1&#34; name=&#34;notify1&#34; value=&#34;on&#34; &gt;&#xD;&#xA;    &lt;label for=&#34;notify-on&#34;&gt;Yes&lt;/label&gt;&#xD;&#xA;    &lt;input type=&#34;radio&#34; id=&#34;notify-off1&#34; name=&#34;notify1&#34; value=&#34;off&#34;&gt;&#xD;&#xA;    &lt;label for=&#34;notify-off&#34;&gt;No&lt;/label&gt;&#xD;&#xA;  &lt;/legend&gt;&#xD;&#xA;&lt;/fieldset&gt;&#xD;&#xA;&lt;p&gt;&lt;img src=&#34;../img/pwd2.png?height=450px&amp;amp;classes=border,shadow&#34; alt=&#34;Cannot load image&#34;&gt;&lt;/p&gt;&#xA;&lt;fieldset&gt;  &#xD;&#xA;  &lt;legend&gt;Can this password be Hacked?&#xD;&#xA;    &lt;input type=&#34;radio&#34; id=&#34;notify-on2&#34; name=&#34;notify2&#34; value=&#34;on&#34; &gt;&#xD;&#xA;    &lt;label for=&#34;notify-on&#34;&gt;Yes&lt;/label&gt;&#xD;&#xA;    &lt;input type=&#34;radio&#34; id=&#34;notify-off2&#34; name=&#34;notify2&#34; value=&#34;off&#34;&gt;&#xD;&#xA;    &lt;label for=&#34;notify-off&#34;&gt;No&lt;/label&gt;&#xD;&#xA;  &lt;/legend&gt;&#xD;&#xA;&lt;/fieldset&gt;&#xD;&#xA;&lt;p&gt;&lt;img src=&#34;../img/pwd3.png?height=450px&amp;amp;classes=border,shadow&#34; alt=&#34;Cannot load image&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Summary</title>
+      <link>/security/summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/security/summary/</guid>
+      <description>&lt;h2 id=&#34;remember-the-characteristics-of-a-strong-password-are&#34;&gt;Remember the characteristics of a strong password are:&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;At least 8 characters - the more characters, the better&lt;/li&gt;&#xA;&lt;li&gt;A mixture of letters and numbers&lt;/li&gt;&#xA;&lt;li&gt;Inclusion of at least one special character, e.g., ! @ # ? ]&#xA;&lt;em&gt;Note: do not use &amp;lt; or &amp;gt; in your password, as both can cause problems in Web browsers&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;A strong password is hard to guess, but it should be easy for you to remember - a password that has to be written down is not strong, no matter how many of the above characteristics are employed.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Answer Key - Security</title>
+      <link>/security/answer-key/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/security/answer-key/</guid>
+      <description>&lt;h3 id=&#34;solution&#34;&gt;Solution&lt;/h3&gt;&#xA;&lt;p&gt;In our &lt;em&gt;Spy Game&lt;/em&gt;, the passwords &amp;ldquo;Ilovemypet&amp;rdquo; does not contain any numbers and special characters, and &amp;ldquo;12345678&amp;rdquo; is a sequence of numbers; thus, both passwords are weak and can be easily hacked/guessed by a malicious person.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

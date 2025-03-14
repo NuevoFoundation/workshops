@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nuevo Foundation Workshops</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+<meta name="theme-color" content="#000000" />
+<meta name="revised" content="2025-03-14T18:59:49 -03">
+<meta name="application-name" content=" " />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+<title>Activity 3 - Create a Web App :: Nuevo Foundation Workshops</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+
+<link rel="shortcut icon" href="https://www.nuevofoundation.org/favicons/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57"
+      href="https://www.nuevofoundation.org/favicons//apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120"
+      href="https://www.nuevofoundation.org/favicons/pple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-128.png" sizes=" 128x128" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="/css/nuevoweb.css" />
+<link rel="stylesheet" href="/css/chunk.css" />
+<link rel="stylesheet" href="/css/data-style.css" />
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+
+<script lang="JavaScript">
+
+      function toggleVisibility() {
+
+            
+            const menu = document.getElementById("mobile-nav-menu");
+            if (menu.style.display == 'none') {
+                  menu.classList.replace("transition-out", "transition-in")
+                  menu.style.display = 'block';
+            }
+            else if (menu.style.display == 'block') {
+                  menu.classList.replace("transition-in", "transition-out")
+                  menu.style.display = 'none';
+            }
+      }
+</script>
+<meta
+  name="description"
+  content="
+
+    
+"
+/>
+
+
+    
+  </head>
+  <body data-url="/razor/activity-3/" >
+    
+      <header>
+  
+  <div id="mobile-nav-menu" class="transition-out" style="display: none;">
+    <div class="close-btn" onclick="toggleVisibility();">
+        <i aria-hidden="true" focusable="false" style="cursor: pointer;" class="fa fa-times fa-w-11 fa-sm"></i>
+    </div>
+    <div>
+        <div class="sc-dNLxif ecnYUM">
+            <a href="/support-us"><button class="sc-jbKcbu sedGx"
+                    style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: 4px solid rgb(0, 0, 0); border-radius: 4px;">
+                    Donate
+                </button></a>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/what-we-do">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>What We Do</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/get-involved">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Get Involved</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/support-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Support us</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/blog">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Event blog</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/about-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Our team</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/contact">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Contact us</li>
+            </ul>
+        </a>
+    </div>
+</div>
+<div>
+    <div class="sc-gGBfsJ iKkPGj">
+        <div class="container-fluid">
+            <div id="toprow" class="row">
+                <div class="col-xs-12">
+                    <div class="sc-EHOje fJMnSm">
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.instagram.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation Instagram" class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://twitter.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation X" class="fab fa-x-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Facebook" class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.linkedin.com/company/nuevofoundation">
+                                <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://www.youtube.com/nuevofoundation?sub_confirmation=1n">
+                                <i aria-label="Nuevo Foundation YouTube" class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1">
+                                <i aria-label="Nuevo Foundation Spotify" class="fab fa-spotify"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://github.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Github" class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" rel="noopener noreferrer"
+                                href="https://nuevofoundation.org/support-us">Donate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="secondrow" class="row">
+                <div class="col-sm-12 hidden-xs">
+                    <div class="sc-htoDjs kjtfZK">
+                        <a class="sc-fjdhpX izNzAG active" aria-current="page" href="https://nuevofoundation.org">
+                            <img alt="Nuevo Foundation Logo" src="/images/Logo_long.0f097b90.svg"
+                                height="60px" />
+                        </a>
+                        <ul class="sc-iwsKbI bUOvG">
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/what-we-do">
+                                <li class="sc-gZMcBi Bomeo">What We Do</li>
+                            </a>
+                            <a class="izNzAG" href="/">
+                                <li class="sc-gZMcBi Bomeo-selected jgBGVn">Workshops<span></span></li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/get-involved">
+                                <li class="sc-gZMcBi Bomeo">Get Involved</li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/support-us">
+                                <li class="sc-gZMcBi Bomeo">Support us</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/blog">
+                                <li class="sc-gZMcBi Bomeo">Event blog</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/about-us">
+                                <li class="sc-gZMcBi Bomeo">Our team</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/contact">
+                                <li class="sc-gZMcBi Bomeo">Contact us</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <a class="sc-fjdhpX izNzAG active" aria-current="page" href="/">
+                                <img alt="Nuevo Foundation Logo" class="sc-dnqmqq emolVn"
+                                    src="/images/Logo_long.0f097b90.svg" height="60%" /></a>
+                        </div>
+                        <div class="col-xs-2" onclick="toggleVisibility();"
+                            style="padding-top: 4%; padding-left: 4%; cursor: pointer;">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                                class="svg-inline--fa fa-bars fa-w-14 fa-lg" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/razor/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/razor/">C#: Create a Web site with Razor</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/razor/learn-vscode/" class="dd-item">
+        <div>
+          <a href="/razor/learn-vscode/">
+            Get to know VS Code
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/razor/activity-1/" class="dd-item">
+        <div>
+          <a href="/razor/activity-1/">
+            Activity 1 - Explore VS Code
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/razor/activity-2/" class="dd-item">
+        <div>
+          <a href="/razor/activity-2/">
+            Activity 2 - Add Visual Studio Code Extensions
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/razor/razor-explained/" class="dd-item">
+        <div>
+          <a href="/razor/razor-explained/">
+            Razor Basics
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/razor/razor-syntax/" class="dd-item">
+        <div>
+          <a href="/razor/razor-syntax/">
+            Razor Basics
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/razor/directives/" class="dd-item">
+        <div>
+          <a href="/razor/directives/">
+            Razor Directives
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/razor/activity-3/" class="dd-item active">
+        <div>
+          <a href="/razor/activity-3/">
+            Activity 3 - Create a Web App
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/razor/activity-4/" class="dd-item">
+        <div>
+          <a href="/razor/activity-4/">
+            Activity 4 - Adding a new Razor page
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+    </ul>
+
+    <section>
+    </section>
+  </aside>
+  <section class="page">
+    <div align="right">
+<select id="select-language" onchange="location = this.value;">
+	
+	
+	
+	  
+	  
+	    
+	      
+	        <option id="en" value="/razor/activity-3/" selected>English</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="kr" value="/kr/razor/activity-3/">한국어</option>
+	      
+	    
+	  
+	    
+	  
+	
+</select>
+    </div>
+
+    <div class="nav-select">
+      Navigation:&nbsp;
+      <select onchange="javascript:location.href = this.value;">
+        
+<option value="/razor/" >
+   C#: Create a Web site with Razor</option>
+
+<option value="/razor/learn-vscode/" >- Get to know VS Code</option>
+<option value="/razor/activity-1/" >- Activity 1 - Explore VS Code</option>
+<option value="/razor/activity-2/" >- Activity 2 - Add Visual Studio Code Extensions</option>
+<option value="/razor/razor-explained/" >- Razor Basics</option>
+<option value="/razor/razor-syntax/" >- Razor Basics</option>
+<option value="/razor/directives/" >- Razor Directives</option>
+<option value="/razor/activity-3/"  selected>- Activity 3 - Create a Web App</option>
+<option value="/razor/activity-4/" >- Activity 4 - Adding a new Razor page</option>
+
+
+
+      </select>
+
+    </div>
+    
+
+    <h1>Activity 3 - Create a Web App</h1>
+
+    
+
+    
+
+    
+    
+    
+    
+    <h2 id="instructions">Instructions</h2>
+<h3 id="creating-a-project">Creating a Project</h3>
+<ol>
+<li>
+<p>Ensure that you have Visual Studio Code open.</p>
+</li>
+<li>
+<p>On the <strong>Activity bar</strong>, select <strong>Explorer</strong>.</p>
+</li>
+<li>
+<p>Select the <strong>Create .NET Project</strong> button.</p>
+<p>The command pallette will drop down a list of project types to select from.</p>
+</li>
+<li>
+<p>From the list, select <strong>Blazor Server App</strong></p>
+</li>
+<li>
+<p>Select the folder you would like your new app to be stored in.</p>
+</li>
+<li>
+<p>Give it a name.</p>
+<p>The app will be created and a <strong>Solution</strong> menu will appear in the Explorer.</p>
+ <img src="../media/solution-explorer.png" alt="Screenshot of Solution Explorer in VS Code" />
+</li>
+</ol>
+<p>You now have a website!</p>
+<h3 id="review-the-razor-pages-project-structure">Review the Razor Pages project structure</h3>
+<p>The following table describes the project structure that was generated.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Name</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Pages/</td>
+          <td>Contains Razor Pages and supporting files. Each Razor page has a .cshtml file and a .cshtml.cs PageModel class file.</td>
+      </tr>
+      <tr>
+          <td>wwwroot/</td>
+          <td>Contains static asset files like HTML, JavaScript, and CSS.</td>
+      </tr>
+      <tr>
+          <td>ContosoPizza.csproj</td>
+          <td>Contains project configuration metadata, such as dependencies.</td>
+      </tr>
+      <tr>
+          <td>Program.cs</td>
+          <td>Serves as the app&rsquo;s entry point and configures app behavior, like routing.</td>
+      </tr>
+  </tbody>
+</table>
+<p>Other noteworthy observations:</p>
+<ul>
+<li>
+<p>Razor page files and their paired PageModel class file</p>
+<p>Razor pages are stored in the Pages directory. As noted above, each Razor page has a .cshtml file and a .cshtml.cs PageModel class file. The PageModel class allows separation of a Razor page&rsquo;s logic and presentation, defines page handlers for requests, and encapsulates data properties and logic scoped to its Razor page.</p>
+</li>
+<li>
+<p>The Pages directory structure and routing requests</p>
+<p>Razor Pages uses the Pages directory structure as the convention for routing requests. The following table shows how URLs map to filenames:</p>
+</li>
+</ul>
+<table>
+  <thead>
+      <tr>
+          <th>URL</th>
+          <th>Maps to Razor page</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><a href="https://www.domain.com" target="_blank">www.domain.com<sup><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></sup></a>
+</td>
+          <td>Pages/Index.cshtml</td>
+      </tr>
+      <tr>
+          <td><a href="https://www.domain.com/Index" target="_blank">www.domain.com/Index<sup><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></sup></a>
+</td>
+          <td>Pages/Index.cshtml</td>
+      </tr>
+      <tr>
+          <td><a href="https://www.domain.com/Privacy" target="_blank">www.domain.com/Privacy<sup><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></sup></a>
+</td>
+          <td>Pages/Privacy.cshtml</td>
+      </tr>
+      <tr>
+          <td><a href="https://www.domain.com/Error" target="_blank">www.domain.com/Error<sup><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></sup></a>
+</td>
+          <td>Pages/Error.cshtml</td>
+      </tr>
+  </tbody>
+</table>
+<p>Subfolders in the Pages directory are used to organize Razor pages. For example, if there were a Pages/Products directory, the URLs would reflect that structure:</p>
+<table>
+  <thead>
+      <tr>
+          <th>URL</th>
+          <th>Maps to Razor page</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><a href="https://www.domain.com/Products" target="_blank">www.domain.com/Products<sup><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></sup></a>
+</td>
+          <td>Pages/Products/Index.cshtml</td>
+      </tr>
+      <tr>
+          <td><a href="https://www.domain.com/Products/Index" target="_blank">www.domain.com/Products/Index<sup><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></sup></a>
+</td>
+          <td>Pages/Products/Index.cshtml</td>
+      </tr>
+      <tr>
+          <td><a href="https://www.domain.com/Products/Create" target="_blank">www.domain.com/Products/Create<sup><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></sup></a>
+</td>
+          <td>Pages/Products/Create.cshtml</td>
+      </tr>
+  </tbody>
+</table>
+<ul>
+<li>Layout and other shared files</li>
+</ul>
+<p>There are several files that are shared across multiple pages. These files determine common layout elements and page imports. The following table describes the purpose of each file.</p>
+<table>
+  <thead>
+      <tr>
+          <th>File</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>_ViewImports.cshtml</td>
+          <td>Imports namespaces and classes that are used across multiple pages.</td>
+      </tr>
+      <tr>
+          <td>_ViewStart.cshtml</td>
+          <td>Specifies the default layout for all Razor pages.</td>
+      </tr>
+      <tr>
+          <td>Pages/Shared/_Layout.cshtml</td>
+          <td>This is the layout specified by the _ViewStart.cshtml file. Implements common layout elements across multiple pages.</td>
+      </tr>
+      <tr>
+          <td>Pages/Shared/_ValidationScriptsPartial.cshtml</td>
+          <td>Provides validation functionality to all pages.</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="run-your-project">Run your project</h3>
+<ol>
+<li>
+<p>Ensure that you have Visual Studio Code open and in the <strong>Activity bar</strong>, <strong>Explorer</strong> is selected.</p>
+</li>
+<li>
+<p>In the <strong>Solution Explorer</strong>, right click on your project name, select <strong>Debug</strong> and select <strong>Start new instance</strong>.</p>
+<p>This will build and launch your new website.</p>
+ <img src="../media/website1.png" alt="Screenshot of the website you just created" />
+</li>
+<li>
+<p>Click on <em><strong>Counter</strong></em> and <em><strong>Fetch Data</strong></em> links to navigate around your website.</p>
+</li>
+</ol>
+<h3 id="customize-the-landing-page">Customize the landing page</h3>
+<p>Let&rsquo;s make a few changes to the landing page to make it more relevant to the your app.</p>
+<ol>
+<li>In <em>Pages/Index.razor</em>, add a block of C# code with the following code:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C#" data-lang="C#"><span style="display:flex;"><span><span style="color:#111">@code</span> <span style="color:#111">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">TimeSpan</span> <span style="color:#111">timeInBusiness</span> <span style="color:#111">=</span> <span style="color:#111">DateTime</span><span style="color:#111">.</span><span style="color:#111">Now</span> <span style="color:#111">-</span> <span style="color:#00a8c8">new</span> <span style="color:#111">DateTime</span><span style="color:#111">(</span><span style="color:#ae81ff">2010</span><span style="color:#111">,</span> <span style="color:#ae81ff">01</span><span style="color:#111">,</span> <span style="color:#ae81ff">17</span><span style="color:#111">);</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">}</span>
+</span></span></code></pre></div><p>The preceding code:</p>
+<ul>
+<li>Calculates the amount of time that has passed since the business opened.</li>
+</ul>
+<ol start="2">
+<li>
+<p>Change the <code>PageTitle</code> element to say &ldquo;Welcome to my first web page&rdquo;</p>
+</li>
+<li>
+<p>Change the <code>h1</code> to say &ldquo;Welcome to my first Razor web app&rdquo;</p>
+</li>
+<li>
+<p>Replace the remaining text with the following code:</p>
+</li>
+</ol>
+<pre tabindex="0"><code class="language-CSHTML" data-lang="CSHTML">&lt;p class=&#34;lead&#34;&gt;The best website in town for @Convert.ToInt32(timeInBusiness.TotalDays) days!&lt;/p&gt;
+</code></pre><p>The preceding code:</p>
+<ul>
+<li>Displays the number of days that have passed since January 17, 2010.
+<ul>
+<li>The @ character is used to switch from HTML to Razor Syntax.</li>
+<li>The Convert.ToInt32 method is used to convert the TotalDays property of the timeInBusiness variable to an integer.</li>
+<li>The Convert class is part of the System namespace, which is imported automatically by the <code>&lt;ImplicitUsings&gt;</code> element in the .csproj file.</li>
+</ul>
+</li>
+</ul>
+<ol start="3">
+<li>Save the file. Refresh the browser tab with the app to display the changes.</li>
+</ol>
+<img src="../media/end-of-activity-3.png" alt="Screenshot of site after changes from Activity 3" />
+
+    
+    
+      <div class="chevrons">
+  <style>
+    .workshop-complete-image {
+        margin: 40px auto 50px auto;
+        width: 340.8px;
+    }
+    
+    .workshop-complete-words {
+        font-family: Space Mono, monospace;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        text-align: center;
+    }
+    
+    .horizontal-bar {
+        background-color: #000000;
+        width: 120px;
+        height: 12px;
+        margin: 80px auto 0 auto;
+    }
+</style>
+
+
+    <div id="navigation">
+            <div class="next-prev-wrapper-div"><a class='nav nav-prev' href="/razor/directives/" title="Razor Directives">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Previous:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Razor Directives
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="prevbutton-image">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+        
+    </div>
+</a></div>
+            <div class="next-prev-wrapper-div"><a class='nav nav-next' href="/razor/activity-4/" title="Activity 4 - Adding a new Razor page">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Up Next:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Activity 4 - Adding a new Razor page
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="nextbutton-image">
+            <i class="fa fa-arrow-right"></i>
+        </div>
+        
+    </div>
+</a></div>
+        </div>
+</div>
+
+</section>
+</article>
+
+<footer>
+  <div class="footline">
+    
+
+    
+
+    
+    <div class="date">
+      <i class='fa fa-calendar'></i> 
+      Tue, 12 Sep 2023 11:45:38 PDT
+    </div>
+    
+
+    
+    <div class="github-link">
+      <a href="https://github.com/NuevoFoundation/workshops/tree/master/content/razor/activity-3.md" target="blank"><i
+          class="fa fa-code-fork"></i>
+        </a>
+    </div>
+    
+  </div>
+
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+    
+
+    
+    
+
+    <div id="footer" class="row">
+    <div class="col-xs-12">
+        <div class="App-footer">
+            <div class="App-footer-big">
+                Join the conversation on social media.
+            </div>
+            <div class="social-images">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Instagram" class="fab fa-2x fa-instagram"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation X" class="fab fa-2x fa-x-twitter"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Facebook" class="fab fa-2x fa-1x fa-facebook-f"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-2x fa-linkedin"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/nuevofoundation?sub_confirmation=1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation YouTube" class="fab fa-2x fa-youtube"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Spotify" class="fab fa-2x fa-spotify"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Github" class="fab fa-2x fa-github"></i>
+                </a>
+            </div>
+            <div class="App-footer-small">
+                © Copyright 2025, All Rights Reserved by Nuevo Foundation, a 501(c)(3) nonprofit.
+            </div>
+        </div>
+    </div>
+</div>
+
+  </body>
+</html>

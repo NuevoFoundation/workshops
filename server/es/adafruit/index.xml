@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blocks: Programando Frutas Musicales con Adafruit on Nuevo Foundation Workshops</title>
+    <link>/es/adafruit/</link>
+    <description>Recent content in Blocks: Programando Frutas Musicales con Adafruit on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/es/adafruit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Los Componentes</title>
+      <link>/es/adafruit/the-components/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/es/adafruit/the-components/</guid>
+      <description>&lt;p&gt;Los componentes que utilizaremos para el proyecto se listan a continuación. Asegúrate de tener todo esto antes de comenzar:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Una Adafruit&lt;/li&gt;&#xA;&lt;li&gt;Un cable Micro USB a USB&lt;/li&gt;&#xA;&lt;li&gt;Dos cables de pinza cocodrilo de cualquier color&lt;/li&gt;&#xA;&lt;li&gt;Dos naranjas&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>Construyendo la estación de DJ</title>
+      <link>/es/adafruit/building-the-dj-station/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/es/adafruit/building-the-dj-station/</guid>
+      <description>&lt;h3 id=&#34;conectando-las-naranjas&#34;&gt;Conectando las naranjas&lt;/h3&gt;&#xA;&lt;p&gt;Toma una naranja y uno de tus cables. Abre una de las pinzas de cocodrilo e inserta la mitad inferior en la naranja, dejando la parte superior de la pinza en el exterior. Esto es más fácil de hacer si lo insertas a la mitad de la parte inferior de la naranja. En ll mismo lugar donde comenzarías a pelar si fueras a comer la naranja.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/setup1.png?classes=border,shadow&#34; alt=&#34;Cannot load image&#34;&gt;&#xA;&lt;img src=&#34;../img/setup2.png?classes=border,shadow&#34; alt=&#34;Cannot load image&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Creando el programa</title>
+      <link>/es/adafruit/creating-the-program/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/es/adafruit/creating-the-program/</guid>
+      <description>&lt;p&gt;Abre tu navegador de internet favorito (como Edge, Firefox, Google Chrome, Internet Explorer) y entra a &lt;a href=&#34;https://aka.ms/oranges&#34; target=&#34;_blank&#34;&gt;https://aka.ms/oranges&lt;sup&gt;&lt;span class=&#34;glyphicon glyphicon-new-window&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/sup&gt;&lt;/a&gt;&#xD;&#xA;.&lt;/p&gt;&#xA;&lt;p&gt;Tu pantalla debería verse así:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/adafruit.png?classes=border,shadow&#34; alt=&#34;Cannot load image&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;definiendo-las-variables&#34;&gt;Definiendo las variables&lt;/h3&gt;&#xA;&lt;p&gt;Hoy vamos a usar naranjas para decirle a nuestra Adafruit cuándo hacer ruido. Lo primero que debemos hacer es darle a la computadora un nombre para cada naranja y dónde buscar lo que están &lt;em&gt;diciendo&lt;/em&gt;. Hacemos la primera parte definiendo una &lt;em&gt;variable&lt;/em&gt;. Haz clic en la sección que dice VARIABLES, es de color salmón y es el séptimo si cuentas desde la parte superior. Luego define una variable haciendo clic en &lt;strong&gt;Make a variable&lt;/strong&gt; y dale un nombre. Haz esto dos veces. En estas imágenes de ejemplo puedes ver como nosotros nombramos las nuestras como &lt;em&gt;analog1&lt;/em&gt; y &lt;em&gt;analog2&lt;/em&gt;, pero puedes llamarlas como quieras.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Descargando el Programa</title>
+      <link>/es/adafruit/downloading-your-program/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/es/adafruit/downloading-your-program/</guid>
+      <description>&lt;p&gt;En la parte inferior de tu espacio de trabajo, debería ver este botón rosado de descarga al lado del nombre de tu programa. Puedes asignarle un nombre a tu programa, aquí se llama adafruit_musicalfruit. Haz clic en el botón de descarga.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/download1.png?classes=border,shadow&#34; alt=&#34;Cannot load image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Debe apareceruna ventana emergente, preguntando dónde guardar tu archivo. Lo usual es que abra apuntando a la carpeta &lt;strong&gt;Descargas&lt;/strong&gt;; de lo contrario, ve a tu carpeta de descargas y guarda el archivo allí.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

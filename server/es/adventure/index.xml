@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python: Elige tu propia aventura on Nuevo Foundation Workshops</title>
+    <link>/es/adventure/</link>
+    <description>Recent content in Python: Elige tu propia aventura on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <atom:link href="/es/adventure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hora de crear</title>
+      <link>/es/adventure/time-to-create/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/es/adventure/time-to-create/</guid>
+      <description>&lt;p&gt;¡Es hora de empezar a crear nuestras propias historias con todas las habilidades que hemos aprendido hoy! ¡La pregunta que estamos abordando hoy es cómo involucrar a la audiencia con la historia, y la respuesta es con código!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sección 1: Diseñando del Guion (Story Boarding)</title>
+      <link>/es/adventure/story-boarding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/es/adventure/story-boarding/</guid>
+      <description>&lt;p&gt;Para empezar, saque un pedazo de un papel y comience a &amp;ldquo;diseñar el guion&amp;rdquo;. ¿Qué significa eso? Con el fin de desarrollar una gran historia que permite al lector elegir entre opciones, uno puede esbozar el flujo de su historia. ¡Este es un gran paso de planificación, que le ayudará tremendamente una vez que comience a codificar! Empezaría con las 3 o 4 decisiones principales que tu protagonista va a tomar en la historia. A partir de ahí dibuja flechas para saber cómo las diferentes elecciones que hace tu protagonista afectan la historia.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sección 2: ¡Pasar del diseño del guion (Story Board) al código!</title>
+      <link>/es/adventure/story-board-code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/es/adventure/story-board-code/</guid>
+      <description>&lt;p&gt;Es hora de abrir Trinket. ¡Ahora es el momento de crear, vamos a ser creativos!&lt;/p&gt;&#xA;&lt;p&gt;Puedes seguir trabajando en la historia de Nuvi:&lt;/p&gt;&#xA;&lt;iframe src=&#34;https://trinket.io/embed/python/71ba29621a&#34; width=&#34;100%&#34; height=&#34;600&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xD;&#xA;&lt;p&gt;Ahora tu puedes trabajar en tu propio codigo para elegir tu propio juego de &amp;lsquo;Elegir tu aventura&amp;rsquo;:&lt;/p&gt;&#xA;&lt;iframe src=&#34;https://trinket.io/embed/python/39831f67c6&#34; width=&#34;100%&#34; height=&#34;600&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xD;&#xA;&lt;p&gt;¡O puede empezar de cero y hacerlo suyo! ¡Solo ve a Trinket y empieza a contar historias!&lt;/p&gt;&#xA;&lt;iframe src=&#34;https://trinket.io/embed/python/b238d85d0d&#34; width=&#34;100%&#34; height=&#34;600&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+  </channel>
+</rss>

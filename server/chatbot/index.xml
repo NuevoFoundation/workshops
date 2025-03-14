@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Create your own chatbot on Nuevo Foundation Workshops</title>
+    <link>/chatbot/</link>
+    <description>Recent content in Create your own chatbot on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/chatbot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Activity 1: Meet ALICE</title>
+      <link>/chatbot/activity-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/chatbot/activity-1/</guid>
+      <description>&lt;h2 id=&#34;meet-alice&#34;&gt;Meet ALICE&lt;/h2&gt;&#xA;&lt;p&gt;Before we start building our own chatbot, let&amp;rsquo;s meet ALICE and ask it some questions. You should continue to have this webpage open and available.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a class=&#34;my-2 mx-4 btn btn-info&#34; href=&#34;https://www.pandorabots.com/pandora/talk?botid=b8d616e35e36e881&#34; target=&#34;_blank&#34;&gt;Try ALICE&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;What do you think of ALICE?&lt;/p&gt;&#xA;&lt;p&gt;What kind of questions was ALICE able to answer?&lt;/p&gt;&#xA;&lt;p&gt;What kind of questions was ALICE not able to answer?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Activity 2: Setup PandoraBots</title>
+      <link>/chatbot/activity-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/chatbot/activity-2/</guid>
+      <description>&lt;h2 id=&#34;aiml&#34;&gt;AIML&lt;/h2&gt;&#xA;&lt;p&gt;We will be using AIML to create our chatbot. AIML stands for &lt;strong&gt;Artificial Intelligence Markup Language&lt;/strong&gt;. If you have ever used HTML to make a website, you will find that AIML looks very similar. Before we can start writing AIML, we need to sign up for an account on PandoraBots.&lt;/p&gt;&#xA;&lt;h2 id=&#34;pandorabots&#34;&gt;Pandorabots&lt;/h2&gt;&#xA;&lt;p&gt;Go to &lt;a href=&#34;https://www.pandorabots.com/&#34; target=&#34;_blank&#34;&gt;https://www.pandorabots.com/&lt;sup&gt;&lt;span class=&#34;glyphicon glyphicon-new-window&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/sup&gt;&lt;/a&gt;&#xD;&#xA; and click on &lt;strong&gt;Sign Up&lt;/strong&gt;. Enter an email and password to create an account. Alternatevely, you can sign up using an account from Google, Facebook, Twitter, or Github. If prompted, choose the free trial option.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Categories</title>
+      <link>/chatbot/categories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/chatbot/categories/</guid>
+      <description>&lt;h2 id=&#34;aiml-fundamentals&#34;&gt;AIML Fundamentals&lt;/h2&gt;&#xA;&lt;p&gt;The basic unit of AIML is the &lt;strong&gt;category&lt;/strong&gt;. A category consists of a pattern and a template. The &lt;strong&gt;pattern&lt;/strong&gt; is what the user says to the bot. The &lt;strong&gt;template&lt;/strong&gt; is the response the bot gives to the user.&lt;/p&gt;&#xA;&lt;p&gt;Looking at the following example, we can see that the pattern is &amp;ldquo;HELLO&amp;rdquo; and the template is &amp;ldquo;Hello, World!&amp;rdquo;. When the user says &amp;ldquo;HELLO&amp;rdquo;, the bot will respond with &amp;ldquo;Hello, World!&amp;rdquo;. Note that pattern matching is case-insensitive, so the bot will respond to &amp;ldquo;hello&amp;rdquo;, &amp;ldquo;HELLO&amp;rdquo;, &amp;ldquo;Hello&amp;rdquo;, and &amp;ldquo;HeLlo&amp;rdquo; in the same way.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Activity 3: Add your own categories</title>
+      <link>/chatbot/activity-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/chatbot/activity-3/</guid>
+      <description>&lt;h2 id=&#34;add-more-categories&#34;&gt;Add more categories&lt;/h2&gt;&#xA;&lt;p&gt;Right now, our bot can only respond to &amp;ldquo;Hello&amp;rdquo;. Let&amp;rsquo;s add some more categories so that our bot can respond to more things.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;If the user says &amp;ldquo;What is your name?&amp;rdquo; the bot should respond with &amp;ldquo;My name is Chatbot&amp;rdquo;.&lt;/li&gt;&#xA;&lt;li&gt;If the user says &amp;ldquo;What is your favorite color?&amp;rdquo; the bot should respond with &amp;ldquo;My favorite color is blue&amp;rdquo;.&lt;/li&gt;&#xA;&lt;li&gt;If the user says &amp;ldquo;What is your favorite food?&amp;rdquo; the bot should respond with &amp;ldquo;My favorite food is pizza&amp;rdquo;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;As a reminder, here is the basic structure of a category:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wildcards</title>
+      <link>/chatbot/wildcards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/chatbot/wildcards/</guid>
+      <description>&lt;h2 id=&#34;wildcards&#34;&gt;Wildcards&lt;/h2&gt;&#xA;&lt;p&gt;You may be noticing now that it takes a lot of work to write a category for every possible way a user might ask a question. For example, currently the bot will respond to &amp;ldquo;Hello&amp;rdquo; with &amp;ldquo;Hello, world&amp;rdquo;. But what if the user says &amp;ldquo;Hello there&amp;rdquo; or &amp;ldquo;Hello chatbot&amp;rdquo;? We would have to write a new category for each of these cases. Thankfully, there are additional tools we can use to make our bot more flexible.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Activity 4: Wildcards</title>
+      <link>/chatbot/activity-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/chatbot/activity-4/</guid>
+      <description>&lt;h2 id=&#34;using-wildcards&#34;&gt;Using wildcards&lt;/h2&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s use the wildcard to allow our bot to answer more questions, without having to write a new category for each possible question. Let&amp;rsquo;s expand on our current categories so that the chatbot can respond to any question that ends with &amp;ldquo;food&amp;rdquo;, &amp;ldquo;color&amp;rdquo; or &amp;ldquo;name&amp;rdquo;.&lt;/p&gt;&#xA;&lt;div class=&#34;notices tip&#34; &gt;&#xD;&#xA;    &lt;p header-value=&#34;Tip&#34;&gt;Use the wildcard at the beginning of the pattern.&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;If the user enters a question that &lt;strong&gt;ENDS WITH&lt;/strong&gt; &amp;ldquo;food&amp;rdquo; (e.g. &amp;ldquo;What is your favorite food?&amp;rdquo;, &amp;ldquo;Do you like food?&amp;rdquo;, &amp;ldquo;Do chatbots eat food?&amp;rdquo;), the bot should respond with &amp;ldquo;My favorite food is pizza&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Echoing Wildcards</title>
+      <link>/chatbot/echoing-wildcards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/chatbot/echoing-wildcards/</guid>
+      <description>&lt;h2 id=&#34;introducing-the-star--tag&#34;&gt;Introducing the &lt;code&gt;&amp;lt;star /&amp;gt;&lt;/code&gt; tag&lt;/h2&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s learn one more tool to allow our chatbot to have more interesting responses. We learned in the last lesson how we can use the wildcard &lt;code&gt;*&lt;/code&gt; to match any word or phrase. But what if we want to use the word or phrase that the user entered in our response? For example, if the user tells us what their favorite color is, we want the bot&amp;rsquo;s response to include the user&amp;rsquo;s favorite color. We can do this using the &lt;code&gt;&amp;lt;star /&amp;gt;&lt;/code&gt; tag.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Activity 5: Echoing Wildcards</title>
+      <link>/chatbot/activity-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/chatbot/activity-5/</guid>
+      <description>&lt;h2 id=&#34;echoing-wildcards&#34;&gt;Echoing Wildcards&lt;/h2&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s use the wildcard &lt;code&gt;*&lt;/code&gt; and &lt;code&gt;&amp;lt;star /&amp;gt;&lt;/code&gt; tag together to allow our bot to include user input in its response.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;If the user enters &amp;ldquo;My name is [name]&amp;rdquo;, the bot should respond with &amp;ldquo;Nice to meet you, [name]!&amp;rdquo;.&#xA;Examples:&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Input&lt;/th&gt;&#xA;          &lt;th&gt;Output&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;My name is John&lt;/td&gt;&#xA;          &lt;td&gt;Nice to meet you, John!&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;My name is Jane&lt;/td&gt;&#xA;          &lt;td&gt;Nice to meet you, Jane!&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;My name is Bob&lt;/td&gt;&#xA;          &lt;td&gt;Nice to meet you, Bob!&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;If the user enters &amp;ldquo;My favorite color is [color]&amp;rdquo;, the bot should respond with &amp;ldquo;I also like [color]!&amp;rdquo;.&#xA;Examples:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Conclusion</title>
+      <link>/chatbot/conclusion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/chatbot/conclusion/</guid>
+      <description>&lt;p style=&#34;text-align: center;&#34;&gt;&lt;img src=&#34;../img/robot.png&#34; alt=&#34;image of a robot saying hi&#34; width=&#34;400&#34;/&gt;&lt;/p&gt;&#xD;&#xA;&lt;h2 id=&#34;wrap-up&#34;&gt;Wrap Up&lt;/h2&gt;&#xA;&lt;p&gt;We have built a simple chatbot with just a few categories. Now you should be able to have a short conversation with your chatbot! Say &amp;ldquo;hi&amp;rdquo;, tell it about your favorite food, color, and name, and ask it some questions.&lt;/p&gt;&#xA;&lt;p&gt;If you want to explore more, try adding more categories to your bot so that it can respond to more things.&lt;/p&gt;&#xA;&lt;p&gt;Remember ALICE? It was built with 50,000 categories! And some larger chatbots have over a million. So you can imagine how much more complex they are.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HTML &amp; CSS: Web Basics on Nuevo Foundation Workshops</title>
+    <link>/web-basics/</link>
+    <description>Recent content in HTML &amp; CSS: Web Basics on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 16 Sep 2024 15:25:51 -0700</lastBuildDate>
+    <atom:link href="/web-basics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Basics</title>
+      <link>/web-basics/basics/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      <guid>/web-basics/basics/</guid>
+      <description>&lt;p style=&#34;text-align: center;&#34;&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/dSShCrgRMwY&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;&#xD;&#xA;&lt;h2 id=&#34;what-is-a-website&#34;&gt;What is a website?&lt;/h2&gt;&#xA;&lt;p&gt;A website is just a page that can be found on the Internet. It is displayed through a browser when you type the address (aka unique name) in the address bar.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://1mtvya.dm.files.1drv.com/y4mqBcdQfTi7DP7Pk8U1Yu86e9ObVoogX4E9bB_jcTLAm5HVJpHgKWm6xeBpo_22xqLBgUwewOMcGKwEKFp9LHgFGgIcA2E-7W1XWmFqR3fkD04AQXAZFMxZxJdqqBlPvqrIs7rh_XEJRwpQc0eoRTERgI2gIJ_yR6jlCjz5Xer_oLWcVGTo12DUg-WTB5jM77hz4nbHirbMyufs6NQ60EIrg?width=660&amp;amp;height=521&amp;amp;cropmode=none&#34; alt=&#34;alt text&#34; title=&#34;web browser graphic&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;parts-of-a-website&#34;&gt;Parts of a website&lt;/h3&gt;&#xA;&lt;p&gt;Common website elements include navigation bars, footers, search bars, and contact forms.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../media/website-parts.PNG&#34; alt=&#34;alt text&#34; title=&#34;elements of a website on spotify&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Putting it together</title>
+      <link>/web-basics/putting-together/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      <guid>/web-basics/putting-together/</guid>
+      <description>&lt;p style=&#34;text-align: center;&#34;&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/n-bO0ku6QTE&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;For your browser to understand what each element of your site is, we need to label them with HTML tags. HTML stands for &lt;code&gt;Hypertext Markup Language&lt;/code&gt;. Tags are words surrounded by the symbols &lt;code&gt;&amp;lt;&lt;/code&gt;and&lt;code&gt;&amp;gt;&lt;/code&gt;. For example, the &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; tag tells your browser “this is an image.” The &lt;code&gt;&amp;lt;button&amp;gt;&lt;/code&gt; tag tells it “this is a button.”&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../media/web-tags-sm.png&#34; alt=&#34;alt text&#34; title=&#34;html tags graphic&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Tags can also be used to organize your webpage! The image below outlines the structure of a basic webpage. The head usually contains the additional libraries used and the page title, while the body contains most of the displayed content.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Activity 1 - Familiarize with online editor</title>
+      <link>/web-basics/activity-1/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      <guid>/web-basics/activity-1/</guid>
+      <description>&lt;p style=&#34;text-align: center;&#34;&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/xuzRE_OHGy0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;&#xD;&#xA;&lt;h2 id=&#34;activity-1---creating-a-basic-website&#34;&gt;Activity 1 - Creating a basic website&lt;/h2&gt;&#xA;&lt;p&gt;It&amp;rsquo;s now time to start building a basic website. To complete this activity, you will need to complete the following steps:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Open the web editor (click the &amp;ldquo;Try it yourself!&amp;rdquo; button below)&lt;/li&gt;&#xA;&lt;li&gt;Use the header tags to add a title, and the paragraph tags to write a paragraph about Benji&lt;/li&gt;&#xA;&lt;li&gt;If you have time: write a list of Benji&amp;rsquo;s favorite treats: turkey, peanut butter, and string cheese&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;a class=&#34;my-2 mx-4 btn btn-info&#34; href=&#34;https://codepen.io/Sunny-Dee/pen/exxyYL&#34; target=&#34;_blank&#34;&gt;Try it yourself!&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>HTML Attributes</title>
+      <link>/web-basics/html-attributes/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      <guid>/web-basics/html-attributes/</guid>
+      <description>&lt;p style=&#34;text-align: center;&#34;&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/Y664wWizX2w&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Each tag can also have additional information like style attributes that can change the properties of an element. There are attributes that we can use to change the visual appearance of an element, such as the size, the color, and the text font.&lt;/p&gt;&#xA;&lt;p&gt;All attributes are formatted as: &lt;code&gt;attribute-name=&amp;quot;value in quotes&amp;quot;&lt;/code&gt;. For example, we can change the color of a paragraph to red with this code: &lt;code&gt;&amp;lt;p style=&amp;quot;color:red&amp;quot;&amp;gt;This text is red&amp;lt;/p&amp;gt;&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Activity 2 - CSS</title>
+      <link>/web-basics/activity-2/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      <guid>/web-basics/activity-2/</guid>
+      <description>&lt;p style=&#34;text-align: center;&#34;&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/2Qm1ffc352o&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;&#xD;&#xA;&lt;h2 id=&#34;style-it-with-css&#34;&gt;Style it with CSS&lt;/h2&gt;&#xA;&lt;p&gt;Tags tell the browser what website elements to use. But we also need to tell it how to display the elements, and where to place them. We may want the title on the center or on the right side. We may want a picture on the right and a paragraph on the left. There are two ways we can do this: through HTML attributes or &lt;code&gt;Cascading Style Sheets&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Media Elements</title>
+      <link>/web-basics/media-elements/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      <guid>/web-basics/media-elements/</guid>
+      <description>&lt;p style=&#34;text-align: center;&#34;&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/tppIJbxknJc&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;&#xD;&#xA;&lt;h2 id=&#34;add-a-gif&#34;&gt;Add a GIF&lt;/h2&gt;&#xA;&lt;p&gt;GIF stands for &lt;b&gt;Graphic Interchange Format&lt;/b&gt;, but all you need to know is that it&amp;rsquo;s just another type of image file. The only difference is that the file has many images. When displayed in the browser, the images are played in sequence, similar to the frames of a movie. Think of it like one of those flip books that seem like the image is animated when you flip it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Activity 3 - Adding a GIF of Nuvi</title>
+      <link>/web-basics/activity-3/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      <guid>/web-basics/activity-3/</guid>
+      <description>&lt;p style=&#34;text-align: center;&#34;&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/iGyczFjvp1k&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;To complete this activity, you will need to complete the following steps:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://giphy.com/nuevofoundation&#34; target=&#34;_blank&#34;&gt;Follow this link&lt;/a&gt; to see the available GIFs&lt;/li&gt;&#xA;&lt;li&gt;Click on the one you like and select &amp;ldquo;Embed&amp;rdquo; &lt;br&gt;&#xA;&lt;img src=&#34;../media/nuevo-.png&#34;/&gt;&lt;/li&gt;&#xA;&lt;li&gt;Copy the code from the white box below &amp;ldquo;GIF Embed Code&amp;rdquo;&lt;br&gt;&#xA;&lt;img src=&#34;../media/giphy-embed-instruction.PNG&#34; /&gt;&lt;/li&gt;&#xA;&lt;li&gt;Paste the code anywhere in your page as long as it&amp;rsquo;s inside the &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; tags.&lt;br&gt;&#xA;&lt;img src=&#34;https://qyauda.dm.files.1drv.com/y4mWCkifMfvdIaCqGW09zaPjD40e01lWkslVcULewSkHTta3krUbVk_9gF0un3CRjC7OZV_kee2RVhYze2QWcTuB9QJdjFCa_ODpEO4tcmELYwxy3cVRtswz3IeVyX6R9CuT9hLlbajdX7y0zm9otMQ2M5Ejq81FSaRAnXdK0KMNAPq_QdzEhOuiuHlKleDGFQdYjtx7nKiayg2HSUuq16n0w?width=419&amp;height=228&amp;cropmode=none&#34; /&gt;&#xA;&lt;a class=&#34;my-2 mx-4 btn btn-info&#34; href=&#34;https://codepen.io/Sunny-Dee/pen/moqzmP&#34; target=&#34;_blank&#34;&gt;Try it yourself!&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>Activity 4 - JavaScript</title>
+      <link>/web-basics/activity-4/</link>
+      <pubDate>Mon, 16 Sep 2024 15:25:51 -0700</pubDate>
+      <guid>/web-basics/activity-4/</guid>
+      <description>&lt;!-- &lt;p style=&#34;text-align: center;&#34;&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/tppIJbxknJc&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt; --&gt;&#xD;&#xA;&lt;h2 id=&#34;making-your-webpage-interactive-with-js&#34;&gt;Making your webpage interactive with JS&lt;/h2&gt;&#xA;&lt;p&gt;Now that we have elements on our screen and know how to style them with CSS, let&amp;rsquo;s make our website more interesting and interactive. We may want to add animations or buttons that our site visitors can click on. We can do this by adding code logic to our page using JavaScript.&lt;/p&gt;&#xA;&lt;h2 id=&#34;javascript-js&#34;&gt;JavaScript (JS)&lt;/h2&gt;&#xA;&lt;p&gt;JavaScript is a programming language often used to make websites interactive and control their behavior. It allows you to add logic to your page, for example, if you click a button, then something on the page changes in response!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Activity 4 - Try the form and change the style</title>
+      <link>/web-basics/activity-4-form/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      <guid>/web-basics/activity-4-form/</guid>
+      <description>&lt;h2 id=&#34;adding-a-contact-form&#34;&gt;Adding a Contact Form&lt;/h2&gt;&#xA;&lt;p&gt;Finally, we will add a contact form to let people reach us if they are interested in Benji.&lt;/p&gt;&#xA;&lt;p&gt;Most browsers do not support sending emails directly from the contact form because it&amp;rsquo;s an easy way for trouble makers to send spam to users. Spam is an irrelevant or inappropriate message sent over the internet. Therefore, to send a form, we will use a free service called &lt;a href=&#34;https://formspree.io/&#34; target=&#34;_blank&#34;&gt;FormSpree&lt;sup&gt;&lt;span class=&#34;glyphicon glyphicon-new-window&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/sup&gt;&lt;/a&gt;&#xD;&#xA;. If we want the messages in the contact form to go to our email, we will first need to confirm it with FormSpree. This confirmation method keeps bad actors from just putting down anyone’s email in a contact form and spamming the victim.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Activity 5 - The final exercise</title>
+      <link>/web-basics/activity-5/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      <guid>/web-basics/activity-5/</guid>
+      <description>&lt;p style=&#34;text-align: center;&#34;&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/4EWUnTJ5_UU&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Using what you&amp;rsquo;ve learned, let&amp;rsquo;s try to create a site that describes you! Try and use some or all of the following:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;A heading &amp;amp; paragraph tag&lt;/li&gt;&#xA;&lt;li&gt;Different fonts&lt;/li&gt;&#xA;&lt;li&gt;Different colors&lt;/li&gt;&#xA;&lt;li&gt;Add an image to your site&lt;/li&gt;&#xA;&lt;li&gt;A list&lt;/li&gt;&#xA;&lt;li&gt;Embed a gif or video&lt;/li&gt;&#xA;&lt;li&gt;Add a button&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;a class=&#34;my-2 mx-4 btn btn-info&#34; href=&#34;https://codepen.io/Sunny-Dee/pen/qvVJLE&#34; target=&#34;_blank&#34;&gt;Show your style!&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hosting your website</title>
+      <link>/web-basics/hosting/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      <guid>/web-basics/hosting/</guid>
+      <description>&lt;p style=&#34;text-align: center;&#34;&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/hdVKJW_4J5o&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;&#xD;&#xA;&lt;h2 id=&#34;host-your-site-on-the-internet&#34;&gt;Host your site on the internet!&lt;/h2&gt;&#xA;&lt;p&gt;Now that you&amp;rsquo;ve created your own personal website, let&amp;rsquo;s host it on the internet so everyone can access it! You will need a GitHub account to do so. If you don&amp;rsquo;t have one, create one &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34;&gt;here&lt;sup&gt;&lt;span class=&#34;glyphicon glyphicon-new-window&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/sup&gt;&lt;/a&gt;&#xD;&#xA;.&lt;/p&gt;&#xA;&lt;p&gt;Once you have created your account and verified your email address, you will land on this page.&lt;/p&gt;&#xA;&lt;p style=&#34;text-align: center; &#34;&gt;&lt;img src=&#34;../media/newAccount.png&#34; alt=&#34;new account landing page on github&#34; width=&#34;1200&#34;/&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>In case you were wondering</title>
+      <link>/web-basics/conclusion/</link>
+      <pubDate>Tue, 03 Sep 2019 17:53:41 -0700</pubDate>
+      <guid>/web-basics/conclusion/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;../media/benji-and-me-sm.png&#34; alt=&#34;alt text&#34; title=&#34;drawing of Benji and me&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;You might be concerned about Benji, but we are happy to tell you that he found his home through a website just like the one you are building. Benji is now a full time good boy working hard on his tricks to earn treats.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Answer Key - Web Basics</title>
+      <link>/web-basics/answer-key/</link>
+      <pubDate>Sat, 28 Mar 2020 12:53:41 -0700</pubDate>
+      <guid>/web-basics/answer-key/</guid>
+      <description>&lt;h3 id=&#34;special-note&#34;&gt;Special note:&lt;/h3&gt;&#xA;&lt;p&gt;This curriculum allows students to be creative. The below is just an example of what they can do, please use your best judgement and ask for guidance if needed. The answer key provided here is fairly long because we are including snippets of full HTML for context.&lt;/p&gt;&#xA;&lt;p&gt;When a student clicks on the &amp;lsquo;Try it yourself!&amp;rsquo; it&amp;rsquo;ll open a new tab with some of the HTML code (and CSS code) already scaffolded.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

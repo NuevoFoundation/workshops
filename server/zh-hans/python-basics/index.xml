@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python: 基础入门 on Nuevo Foundation Workshops</title>
+    <link>/zh-hans/python-basics/</link>
+    <description>Recent content in Python: 基础入门 on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>zh-hans</language>
+    <lastBuildDate>Tue, 23 Jul 2019 11:45:38 -0700</lastBuildDate>
+    <atom:link href="/zh-hans/python-basics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>求助, 我有困难!</title>
+      <link>/zh-hans/python-basics/help/</link>
+      <pubDate>Tue, 23 Jul 2019 11:45:38 -0700</pubDate>
+      <guid>/zh-hans/python-basics/help/</guid>
+      <description>&lt;h5 id=&#34;别担心看看以下的信息是否有帮助如果没有随时联系我们之一我们会提供更多帮助&#34;&gt;别担心！看看以下的信息是否有帮助，如果没有，随时联系我们之一，我们会提供更多帮助。&lt;/h5&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;缩进在Python中非常重要。在代码中要小心空格和Tab符号，因为缩进错误有时可能很难发现。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/screenshot-indentationerror.png&#34; alt=&#34;IndentationError: expected an indented block&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;但好的一方面是，严格的格式使Python代码非常干净和有组织。你的所有变量和函数是否都按照指示正确缩进了吗？&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;SyntaxError: 无效的语法&#xA;验证你的关键字是否拼写正确，以及是否遵循了定义的结构。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;IndentationError: 意外的缩进&#xA;如果看到这个错误，请检查缩进。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;NameError: 全局名称&#39;---&#39;未定义&#xA;在函数内定义的变量只能在函数内部使用。如果尝试在另一个函数中使用来自一个函数的变量，将收到此错误消息。&lt;/p&gt;&#xA;&lt;p&gt;要使信息可用于其他函数，可以使用&lt;code&gt;return&lt;/code&gt;语句将其传递出一个函数，你可以将它分配给一个变量。然后，可以使用参数将其传递到另一个函数。有关详细解释，请阅读函数教程链接。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;无法识别错误：拼写错误？&#xA;通常在关键字拼写错误时会收到此错误消息。检查所有的关键字。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;TypeError: 无法隐式将&amp;rsquo;int&amp;rsquo;对象转换为str&#xA;请确保你没有尝试在字符串操作中使用整数（无法将字符串与整数连接起来。必须首先将整数转换为字符串）。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+  </channel>
+</rss>

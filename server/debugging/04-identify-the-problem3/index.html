@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nuevo Foundation Workshops</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+<meta name="theme-color" content="#000000" />
+<meta name="revised" content="2025-03-14T18:59:38 -03">
+<meta name="application-name" content=" " />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+<title>Step 1 - Finding the problem (Part 3) :: Nuevo Foundation Workshops</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+
+<link rel="shortcut icon" href="https://www.nuevofoundation.org/favicons/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57"
+      href="https://www.nuevofoundation.org/favicons//apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120"
+      href="https://www.nuevofoundation.org/favicons/pple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-128.png" sizes=" 128x128" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="/css/nuevoweb.css" />
+<link rel="stylesheet" href="/css/chunk.css" />
+<link rel="stylesheet" href="/css/data-style.css" />
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+
+<script lang="JavaScript">
+
+      function toggleVisibility() {
+
+            
+            const menu = document.getElementById("mobile-nav-menu");
+            if (menu.style.display == 'none') {
+                  menu.classList.replace("transition-out", "transition-in")
+                  menu.style.display = 'block';
+            }
+            else if (menu.style.display == 'block') {
+                  menu.classList.replace("transition-in", "transition-out")
+                  menu.style.display = 'none';
+            }
+      }
+</script>
+<meta
+  name="description"
+  content="
+
+    
+"
+/>
+
+
+    
+  </head>
+  <body data-url="/debugging/04-identify-the-problem3/" >
+    
+      <header>
+  
+  <div id="mobile-nav-menu" class="transition-out" style="display: none;">
+    <div class="close-btn" onclick="toggleVisibility();">
+        <i aria-hidden="true" focusable="false" style="cursor: pointer;" class="fa fa-times fa-w-11 fa-sm"></i>
+    </div>
+    <div>
+        <div class="sc-dNLxif ecnYUM">
+            <a href="/support-us"><button class="sc-jbKcbu sedGx"
+                    style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: 4px solid rgb(0, 0, 0); border-radius: 4px;">
+                    Donate
+                </button></a>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/what-we-do">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>What We Do</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/get-involved">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Get Involved</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/support-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Support us</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/blog">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Event blog</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/about-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Our team</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/contact">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Contact us</li>
+            </ul>
+        </a>
+    </div>
+</div>
+<div>
+    <div class="sc-gGBfsJ iKkPGj">
+        <div class="container-fluid">
+            <div id="toprow" class="row">
+                <div class="col-xs-12">
+                    <div class="sc-EHOje fJMnSm">
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.instagram.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation Instagram" class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://twitter.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation X" class="fab fa-x-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Facebook" class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.linkedin.com/company/nuevofoundation">
+                                <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://www.youtube.com/nuevofoundation?sub_confirmation=1n">
+                                <i aria-label="Nuevo Foundation YouTube" class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1">
+                                <i aria-label="Nuevo Foundation Spotify" class="fab fa-spotify"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://github.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Github" class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" rel="noopener noreferrer"
+                                href="https://nuevofoundation.org/support-us">Donate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="secondrow" class="row">
+                <div class="col-sm-12 hidden-xs">
+                    <div class="sc-htoDjs kjtfZK">
+                        <a class="sc-fjdhpX izNzAG active" aria-current="page" href="https://nuevofoundation.org">
+                            <img alt="Nuevo Foundation Logo" src="/images/Logo_long.0f097b90.svg"
+                                height="60px" />
+                        </a>
+                        <ul class="sc-iwsKbI bUOvG">
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/what-we-do">
+                                <li class="sc-gZMcBi Bomeo">What We Do</li>
+                            </a>
+                            <a class="izNzAG" href="/">
+                                <li class="sc-gZMcBi Bomeo-selected jgBGVn">Workshops<span></span></li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/get-involved">
+                                <li class="sc-gZMcBi Bomeo">Get Involved</li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/support-us">
+                                <li class="sc-gZMcBi Bomeo">Support us</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/blog">
+                                <li class="sc-gZMcBi Bomeo">Event blog</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/about-us">
+                                <li class="sc-gZMcBi Bomeo">Our team</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/contact">
+                                <li class="sc-gZMcBi Bomeo">Contact us</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <a class="sc-fjdhpX izNzAG active" aria-current="page" href="/">
+                                <img alt="Nuevo Foundation Logo" class="sc-dnqmqq emolVn"
+                                    src="/images/Logo_long.0f097b90.svg" height="60%" /></a>
+                        </div>
+                        <div class="col-xs-2" onclick="toggleVisibility();"
+                            style="padding-top: 4%; padding-left: 4%; cursor: pointer;">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                                class="svg-inline--fa fa-bars fa-w-14 fa-lg" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/debugging/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/debugging/">C: The Debugging Process</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/debugging/01-overview/" class="dd-item">
+        <div>
+          <a href="/debugging/01-overview/">
+            An Overview of Debugging
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/debugging/02-identify-the-problem1/" class="dd-item">
+        <div>
+          <a href="/debugging/02-identify-the-problem1/">
+            Step 1 - Finding the problem (Part 1)
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/debugging/03-identify-the-problem2/" class="dd-item">
+        <div>
+          <a href="/debugging/03-identify-the-problem2/">
+            Step 1 - Finding the problem (Part 2)
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/debugging/04-identify-the-problem3/" class="dd-item active">
+        <div>
+          <a href="/debugging/04-identify-the-problem3/">
+            Step 1 - Finding the problem (Part 3)
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/debugging/05-identify-the-problem4/" class="dd-item">
+        <div>
+          <a href="/debugging/05-identify-the-problem4/">
+            Step 1 - Finding the problem (Part 4)
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/debugging/06-fixing-the-problem/" class="dd-item">
+        <div>
+          <a href="/debugging/06-fixing-the-problem/">
+            Step 2 - Fixing the problem
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/debugging/07-testing/" class="dd-item">
+        <div>
+          <a href="/debugging/07-testing/">
+            Step 3 - Testing
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/debugging/e1-binary-tree/" class="dd-item">
+        <div>
+          <a href="/debugging/e1-binary-tree/">
+            Exercise 1 - Binary Tree Implementation
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/debugging/e2-binary-heap/" class="dd-item">
+        <div>
+          <a href="/debugging/e2-binary-heap/">
+            Exercise 2 - Binary Heap Implementation
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/debugging/e3-burrows-wheeler-transform/" class="dd-item">
+        <div>
+          <a href="/debugging/e3-burrows-wheeler-transform/">
+            Exercise 3 - The Burrows-Wheeler Transform
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+    </ul>
+
+    <section>
+    </section>
+  </aside>
+  <section class="page">
+    <div align="right">
+<select id="select-language" onchange="location = this.value;">
+	
+	
+	
+	  
+	  
+	    
+	      
+	        <option id="en" value="/debugging/04-identify-the-problem3/" selected>English</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+</select>
+    </div>
+
+    <div class="nav-select">
+      Navigation:&nbsp;
+      <select onchange="javascript:location.href = this.value;">
+        
+<option value="/debugging/" >
+   C: The Debugging Process</option>
+
+<option value="/debugging/01-overview/" >- An Overview of Debugging</option>
+<option value="/debugging/02-identify-the-problem1/" >- Step 1 - Finding the problem (Part 1)</option>
+<option value="/debugging/03-identify-the-problem2/" >- Step 1 - Finding the problem (Part 2)</option>
+<option value="/debugging/04-identify-the-problem3/"  selected>- Step 1 - Finding the problem (Part 3)</option>
+<option value="/debugging/05-identify-the-problem4/" >- Step 1 - Finding the problem (Part 4)</option>
+<option value="/debugging/06-fixing-the-problem/" >- Step 2 - Fixing the problem</option>
+<option value="/debugging/07-testing/" >- Step 3 - Testing</option>
+<option value="/debugging/e1-binary-tree/" >- Exercise 1 - Binary Tree Implementation</option>
+<option value="/debugging/e2-binary-heap/" >- Exercise 2 - Binary Heap Implementation</option>
+<option value="/debugging/e3-burrows-wheeler-transform/" >- Exercise 3 - The Burrows-Wheeler Transform</option>
+
+
+
+      </select>
+
+    </div>
+    
+
+    <h1>Step 1 - Finding the problem (Part 3)</h1>
+
+    <div class="panel panel-primary">
+    <div class="panel-heading">Workshop Resources</div>
+    <div class="panel-body">
+        
+        
+        <div class="metadata-row">
+            <span class="metadata-label">Difficulty:</span>
+            <span class="metadata-value">Intermediate</span>
+        </div>
+        
+        
+    </div>
+</div>
+    
+
+    
+    
+    
+    
+    <h2 id="debuggers">Debuggers</h2>
+<p>Debugging code is such a widespread, common problem that people have built entire programs designed to help other programmers debug more efficiently. These are suitably named <strong>debuggers</strong>, and there are plenty of debuggers that work for the C programming language. Let&rsquo;s take a look at <code>gdb</code>, a common debugger used with the command line.</p>
+<p><a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/Debugging-Samples-C" target="_blank">Launch Replit</a></p>
+<p>For our examples, we will make use of the <a href="https://www.youtube.com/watch?v=SLauY6PpjW4" target="_blank">Quicksort</a> algorithm.</p>
+<p><strong>Quicksort</strong> is an algorithm that sorts an array by first selecting an element in the array as a <code>pivot</code>.</p>
+<p>Next, the elements are organized based on one of the following conditions:</p>
+<ul>
+<li>Elements lower than the pivot.</li>
+<li>Elements greater than the pivot.</li>
+</ul>
+<p>When the sorting is done, the same process is recursively called in the upper and lower partitions of the array, taking the pivot as the middle point.</p>
+<div class="notices note" >
+    <p header-value="Note">Our version of quicksort assumes the leftmost element is the &ldquo;greater&rdquo; element and the rightmost element is the pivot within the partition.</p>
+</div>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="../resources/debugging_process_quicksort.svg" alt="Quicksort using pivot as the rightmost element." title="Multi-step process of quicksort using pivot as the rightmost element."></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">Figure 1: Quicksort using the rightmost element as the pivot and assuming the leftmost element is the &ldquo;greater&rdquo; element.</td>
+      </tr>
+  </tbody>
+</table>
+<p><a href="https://sourceware.org/gdb/" target="_blank">GDB (GNU Project Debugger)<sup><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></sup></a>
+ is a powerful debugger that lets you debug programs from the command line, which is useful in cases where you don’t have access to a GUI (Graphical User Interface).</p>
+<p>It is important to understand how the program works to do effective debugging. Our &lsquo;quicksort&rsquo; implementation runs a recursive implementation of quicksort and performs the sorting if the current element is less than the pivot, and assuming the first element is the &ldquo;greater&rdquo; element. The sorting itself occurs in the <code>partition</code> function.</p>
+<h3 id="steps-to-debugging-with-gdb">Steps to debugging with GDB</h3>
+<h4 id="compile-the-program">Compile the program</h4>
+<ol>
+<li>Open the <strong>Shell</strong> tab and compile the program:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>make Quicksort
+</span></span></code></pre></div><div class="notices note" >
+    <p header-value="Note"><p>When the program is compiled, the flags: <code>-g</code> and <code>-Og</code> are used. The first one tells the compiler to add <strong>debugging information</strong>, meaning that without that flag, gdb would not be able to debug the program. The second tells the compiler to optimize the program in a way that wouldn&rsquo;t affect the program&rsquo;s run structure. Without <code>-Og</code>, the compiler could potentially optimize away some of your code, so a debugger would not be nearly as effective.</p>
+<p>It is important to keep note of the second flag. For debugging, you should <strong>ALWAYS</strong> make sure the compiler makes minimal optimizations to your code because optimizations could drastically change how the code is run!</p>
+</p>
+</div>
+<h4 id="run-the-program">Run the program</h4>
+<ol>
+<li>
+<p>Type the command <code>gdb examples/Quicksort</code>. This will open the GDB command line interface. To debug a program with <code>gdb</code> you can use <code>gdb &lt;name of program&gt;</code>.</p>
+</li>
+<li>
+<p>Make sure that GDB says that it is <code>Reading symbols from ./examples/Quicksort...</code>, otherwise you didn&rsquo;t attach the program to GDB.</p>
+</li>
+<li>
+<p>You can exit GDB by entering the command <code>quit</code> (or any of its prefixes: <code>q</code> works) as if it were the normal shell command line.</p>
+</li>
+</ol>
+<p>You should see something like this:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="../resources/w4-01.png" alt="Running GDB on ‘Quicksort’ file." title="Screenshot of the console after running GBD on the &#39;Quicksort&#39; file."></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">Figure 2: Running GDB on &lsquo;Quicksort&rsquo; file.</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="debug-the-program">Debug the program</h4>
+<p>To debug the program, we need to run it from GDB.</p>
+<ol>
+<li>Enter the command <code>run</code> (or <code>r</code>). This will execute the program as if you&rsquo;d run it from the normal command line.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#f92672">(</span>gdb<span style="color:#f92672">)</span> run
+</span></span></code></pre></div><p>The program first prints the contents of the array to be sorted: an array of unordered numbers. Next, it runs the sort algorithm, and finally, prints out the array sorted array. You can see how the array is shifted during the sort!</p>
+<p>However, it seems that the sorting is not happening as intended.</p>
+<p>Let&rsquo;s use one of the most important tools debuggers offer: <strong>breakpoints</strong>. A breakpoint tells the debugger to pause the program whenever it reaches that line of code as it is executing. This enables you to take a look at what is happening within the program in real-time. Note that the debugger does not run the line of code the breakpoint is on until after you continue executing the program.</p>
+<p>First let&rsquo;s identify where all of the element sorting takes place. Do you know where the sorting is happening?</p>
+<div class="expand">
+<div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fa fa-chevron-down' : 'fa fa-chevron-right';});});">
+<i style="font-size:x-small;" class="fa fa-chevron-right"></i>
+<span><em><strong>Answer</strong></em></span>
+</div>
+<div class="expand-content" style="display: none;">
+<p>The sorting takes place within the <code>for</code> loop and at the end of the process when the pivot is changed with the &ldquo;greater&rdquo; element.</p>
+</div>
+</div>
+<br/>
+<ol start="2">
+<li>Place a breakpoint where the sorting takes place using the syntax <code>break &lt;filename:line&gt;</code>.</li>
+</ol>
+<div class="expand">
+<div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fa fa-chevron-down' : 'fa fa-chevron-right';});});">
+<i style="font-size:x-small;" class="fa fa-chevron-right"></i>
+<span><em><strong>Answer</strong></em></span>
+</div>
+<div class="expand-content" style="display: none;">
+<p><div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#f92672">(</span>gdb<span style="color:#f92672">)</span> <span style="color:#111">break</span> quicksort.c:27
+</span></span></code></pre></div></p>
+</div>
+</div>
+<br/>
+<ol start="3">
+<li>
+<p>Run the program with <code>run</code> and observe how the program halts when it reaches the breakpoint.</p>
+</li>
+<li>
+<p>While the program is paused, you can see the values of variables. Test out some <code>print</code> statements to evaluate expressions. Here&rsquo;s an example of how to use print statements:</p>
+</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># you can print out the value of a variable</span>
+</span></span><span style="display:flex;"><span>print myVariable
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># you can create more elaborate print statements by using entire expressions</span>
+</span></span><span style="display:flex;"><span>print myVariable + <span style="color:#ae81ff">2</span> 
+</span></span></code></pre></div><ol start="5">
+<li>
+<p>You can manually step through your code by calling <code>next</code> (or <code>n</code>), which will tell the debugger to advance to the next line of code <strong>without jumping into a function call</strong>.</p>
+</li>
+<li>
+<p>The <code>step</code> command will move the debugger to the first line of code in a function call.</p>
+</li>
+</ol>
+<p>You need to find the faulty variables that cause your program to not work as expected. Try and see if you can spot the problem!</p>
+<div class="expand">
+<div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fa fa-chevron-down' : 'fa fa-chevron-right';});});">
+<i style="font-size:x-small;" class="fa fa-chevron-right"></i>
+<span><em><strong>Hint: Keep an eye on how the variables in the loop change.</strong></em></span>
+</div>
+<div class="expand-content" style="display: none;">
+<p><p>Since we placed the breakpoint inside the loop, on each iteration we should see the values <code>p1</code> and <code>p2</code> change.</p>
+<p>Try printing these variables each time the debugger stops your code.</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#f92672">(</span>gdb<span style="color:#f92672">)</span> disp p1
+</span></span><span style="display:flex;"><span><span style="color:#f92672">(</span>gdb<span style="color:#f92672">)</span> disp p2
+</span></span></code></pre></div></p>
+</div>
+</div>
+<div class="expand">
+<div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fa fa-chevron-down' : 'fa fa-chevron-right';});});">
+<i style="font-size:x-small;" class="fa fa-chevron-right"></i>
+<span><em><strong>Answer</strong></em></span>
+</div>
+<div class="expand-content" style="display: none;">
+<p><p>The <code>p1</code> variable is not being increased when a number smaller than the pivot is found. Remember that our version will assume that each time a lesser element is found, the pointer for the greater element must be updated.</p>
+<p>Add <code>p1++;</code> after the <code>swap</code> statement in line 27.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="../resources/debugging_process_fixing_quicksort.svg" alt="Fixing our quicksort algorithm." title="Screenshot of code where &#39;p1&#43;&#43;;&#39; is created after line 27"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">Figure 3: Fixing our quicksort algorithm.</td>
+      </tr>
+  </tbody>
+</table>
+</p>
+</div>
+</div>
+<br/>
+<p>Note that all debuggers should have the same basic concepts: they allow you to step through your code as it runs, in real-time. You should almost always use debuggers over print statements. You won&rsquo;t regret it!</p>
+<h3 id="gdb-commands">GDB Commands</h3>
+<p>There are plenty of commands GDB offers. This table summarizes some useful ones, but we also recommend using this <a href="https://cs.brown.edu/courses/cs033/docs/guides/gdb.pdf" target="_blank">GDB Reference Sheet<sup><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></sup></a>
+ to see more commands you can use.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Command</th>
+          <th>What It Does</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>gdb &lt;name of program&gt;</code></td>
+          <td>Runs/loads the program with GDB</td>
+      </tr>
+      <tr>
+          <td><code>run</code> or <code>r</code></td>
+          <td>Runs the loaded executable program</td>
+      </tr>
+      <tr>
+          <td><code>quit</code> or <code>q</code></td>
+          <td>Exits GDB</td>
+      </tr>
+      <tr>
+          <td><code>break &lt;filename:line&gt;</code></td>
+          <td>Create a breakpoint at the specified file and line number</td>
+      </tr>
+      <tr>
+          <td><code>print &lt;variable name&gt;</code> or <code>print &lt;expression&gt;</code></td>
+          <td>Print the value of an expression which can contain variable names and constants</td>
+      </tr>
+      <tr>
+          <td><code>next</code> or <code>n</code></td>
+          <td>Advance to the next line of code without jumping into a function call</td>
+      </tr>
+      <tr>
+          <td><code>step</code></td>
+          <td>Move to the first line of code in a function call</td>
+      </tr>
+      <tr>
+          <td><code>continue</code> or <code>c</code></td>
+          <td>Continue running your code until the next breakpoint</td>
+      </tr>
+      <tr>
+          <td><code>delete &lt;breakpoint #&gt;</code> or <code>d &lt;breakpoint #&gt;</code></td>
+          <td>Delete a breakpoint at line number #</td>
+      </tr>
+      <tr>
+          <td><code>backtrace</code> or <code>bt</code></td>
+          <td>Print a stack trace, or which functions were called to get to the line of code the program is halted on</td>
+      </tr>
+  </tbody>
+</table>
+
+
+    
+    
+      <div class="chevrons">
+  <style>
+    .workshop-complete-image {
+        margin: 40px auto 50px auto;
+        width: 340.8px;
+    }
+    
+    .workshop-complete-words {
+        font-family: Space Mono, monospace;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        text-align: center;
+    }
+    
+    .horizontal-bar {
+        background-color: #000000;
+        width: 120px;
+        height: 12px;
+        margin: 80px auto 0 auto;
+    }
+</style>
+
+
+    <div id="navigation">
+            <div class="next-prev-wrapper-div"><a class='nav nav-prev' href="/debugging/03-identify-the-problem2/" title="Step 1 - Finding the problem (Part 2)">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Previous:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Step 1 - Finding the problem (Part 2)
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="prevbutton-image">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+        
+    </div>
+</a></div>
+            <div class="next-prev-wrapper-div"><a class='nav nav-next' href="/debugging/05-identify-the-problem4/" title="Step 1 - Finding the problem (Part 4)">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Up Next:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Step 1 - Finding the problem (Part 4)
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="nextbutton-image">
+            <i class="fa fa-arrow-right"></i>
+        </div>
+        
+    </div>
+</a></div>
+        </div>
+</div>
+
+</section>
+</article>
+
+<footer>
+  <div class="footline">
+    
+
+    
+
+    
+
+    
+    <div class="github-link">
+      <a href="https://github.com/NuevoFoundation/workshops/tree/master/content/debugging/04-identify-the-problem3.md" target="blank"><i
+          class="fa fa-code-fork"></i>
+        </a>
+    </div>
+    
+  </div>
+
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+    
+
+    
+    
+
+    <div id="footer" class="row">
+    <div class="col-xs-12">
+        <div class="App-footer">
+            <div class="App-footer-big">
+                Join the conversation on social media.
+            </div>
+            <div class="social-images">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Instagram" class="fab fa-2x fa-instagram"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation X" class="fab fa-2x fa-x-twitter"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Facebook" class="fab fa-2x fa-1x fa-facebook-f"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-2x fa-linkedin"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/nuevofoundation?sub_confirmation=1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation YouTube" class="fab fa-2x fa-youtube"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Spotify" class="fab fa-2x fa-spotify"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Github" class="fab fa-2x fa-github"></i>
+                </a>
+            </div>
+            <div class="App-footer-small">
+                © Copyright 2025, All Rights Reserved by Nuevo Foundation, a 501(c)(3) nonprofit.
+            </div>
+        </div>
+    </div>
+</div>
+
+  </body>
+</html>

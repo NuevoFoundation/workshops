@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nuevo Foundation Workshops</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+<meta name="theme-color" content="#000000" />
+<meta name="revised" content="2025-03-14T19:00:04 -03">
+<meta name="application-name" content=" " />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+<title>Problema 1: Cardápio de Exemplo :: Nuevo Foundation Workshops</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+
+<link rel="shortcut icon" href="https://www.nuevofoundation.org/favicons/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57"
+      href="https://www.nuevofoundation.org/favicons//apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120"
+      href="https://www.nuevofoundation.org/favicons/pple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-128.png" sizes=" 128x128" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="/css/nuevoweb.css" />
+<link rel="stylesheet" href="/css/chunk.css" />
+<link rel="stylesheet" href="/css/data-style.css" />
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+
+<script lang="JavaScript">
+
+      function toggleVisibility() {
+
+            
+            const menu = document.getElementById("mobile-nav-menu");
+            if (menu.style.display == 'none') {
+                  menu.classList.replace("transition-out", "transition-in")
+                  menu.style.display = 'block';
+            }
+            else if (menu.style.display == 'block') {
+                  menu.classList.replace("transition-in", "transition-out")
+                  menu.style.display = 'none';
+            }
+      }
+</script>
+<meta
+  name="description"
+  content="
+
+    
+"
+/>
+
+
+    
+  </head>
+  <body data-url="/pt-br/java-datastructures/2d-arrays/problem-1/" >
+    
+      <header>
+  
+  <div id="mobile-nav-menu" class="transition-out" style="display: none;">
+    <div class="close-btn" onclick="toggleVisibility();">
+        <i aria-hidden="true" focusable="false" style="cursor: pointer;" class="fa fa-times fa-w-11 fa-sm"></i>
+    </div>
+    <div>
+        <div class="sc-dNLxif ecnYUM">
+            <a href="/support-us"><button class="sc-jbKcbu sedGx"
+                    style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: 4px solid rgb(0, 0, 0); border-radius: 4px;">
+                    Faça uma doação
+                </button></a>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/what-we-do">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Sobre nós</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/get-involved">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Faça parte</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/support-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Apoie-nos</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/blog">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Últimos eventos</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/about-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Conheça nosso time</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/contact">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Fale conosco</li>
+            </ul>
+        </a>
+    </div>
+</div>
+<div>
+    <div class="sc-gGBfsJ iKkPGj">
+        <div class="container-fluid">
+            <div id="toprow" class="row">
+                <div class="col-xs-12">
+                    <div class="sc-EHOje fJMnSm">
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.instagram.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation Instagram" class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://twitter.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation X" class="fab fa-x-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Facebook" class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.linkedin.com/company/nuevofoundation">
+                                <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://www.youtube.com/nuevofoundation?sub_confirmation=1n">
+                                <i aria-label="Nuevo Foundation YouTube" class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1">
+                                <i aria-label="Nuevo Foundation Spotify" class="fab fa-spotify"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://github.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Github" class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" rel="noopener noreferrer"
+                                href="https://nuevofoundation.org/support-us">Faça uma doação</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="secondrow" class="row">
+                <div class="col-sm-12 hidden-xs">
+                    <div class="sc-htoDjs kjtfZK">
+                        <a class="sc-fjdhpX izNzAG active" aria-current="page" href="https://nuevofoundation.org">
+                            <img alt="Nuevo Foundation Logo" src="/images/Logo_long.0f097b90.svg"
+                                height="60px" />
+                        </a>
+                        <ul class="sc-iwsKbI bUOvG">
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/what-we-do">
+                                <li class="sc-gZMcBi Bomeo">Sobre nós</li>
+                            </a>
+                            <a class="izNzAG" href="/">
+                                <li class="sc-gZMcBi Bomeo-selected jgBGVn">Minicursos<span></span></li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/get-involved">
+                                <li class="sc-gZMcBi Bomeo">Faça parte</li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/support-us">
+                                <li class="sc-gZMcBi Bomeo">Apoie-nos</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/blog">
+                                <li class="sc-gZMcBi Bomeo">Últimos eventos</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/about-us">
+                                <li class="sc-gZMcBi Bomeo">Conheça nosso time</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/contact">
+                                <li class="sc-gZMcBi Bomeo">Fale conosco</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <a class="sc-fjdhpX izNzAG active" aria-current="page" href="/">
+                                <img alt="Nuevo Foundation Logo" class="sc-dnqmqq emolVn"
+                                    src="/images/Logo_long.0f097b90.svg" height="60%" /></a>
+                        </div>
+                        <div class="col-xs-2" onclick="toggleVisibility();"
+                            style="padding-top: 4%; padding-left: 4%; cursor: pointer;">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                                class="svg-inline--fa fa-bars fa-w-14 fa-lg" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/pt-br/java-datastructures/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/pt-br/java-datastructures/">Java: Estruturas de dados</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/pt-br/java-datastructures/introduction/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/pt-br/java-datastructures/introduction/">Introdução às estruturas de dados</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/pt-br/java-datastructures/introduction/setting-up/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-datastructures/introduction/setting-up/">
+            Configurando
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-datastructures/introduction/prerequisites/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-datastructures/introduction/prerequisites/">
+            Pré Requisitos
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-datastructures/introduction/for-loops/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-datastructures/introduction/for-loops/">
+            Loops For
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/pt-br/java-datastructures/arrays/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/pt-br/java-datastructures/arrays/">Arrays</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/pt-br/java-datastructures/arrays/introduction/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-datastructures/arrays/introduction/">
+            Introdução
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-datastructures/arrays/operations/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-datastructures/arrays/operations/">
+            Operações
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-datastructures/arrays/problem-1/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-datastructures/arrays/problem-1/">
+            Problema 1: Fundamentos de Array
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-datastructures/arrays/problem-2/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-datastructures/arrays/problem-2/">
+            Problema 2: Arrays Avançados
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/pt-br/java-datastructures/2d-arrays/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/pt-br/java-datastructures/2d-arrays/">Arrays 2D: Menu</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/pt-br/java-datastructures/2d-arrays/introduction/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-datastructures/2d-arrays/introduction/">
+            Introdução
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-datastructures/2d-arrays/the-menu/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-datastructures/2d-arrays/the-menu/">
+            O Cardápio
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-datastructures/2d-arrays/operations/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-datastructures/2d-arrays/operations/">
+            Operações
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-datastructures/2d-arrays/problem-1/" class="dd-item active">
+        <div>
+          <a href="/pt-br/java-datastructures/2d-arrays/problem-1/">
+            Problema 1: Cardápio de Exemplo
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/pt-br/java-datastructures/arraylists/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/pt-br/java-datastructures/arraylists/">ArrayList: ordenando no menu</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/pt-br/java-datastructures/arraylists/introduction/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-datastructures/arraylists/introduction/">
+            Introdução
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-datastructures/arraylists/methods/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-datastructures/arraylists/methods/">
+            Métodos
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-datastructures/arraylists/problem-1/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-datastructures/arraylists/problem-1/">
+            Problema 1: Fundamentos de ArrayList
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/pt-br/java-datastructures/queues/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/pt-br/java-datastructures/queues/">Filas: Recebimento de Pedidos</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/pt-br/java-datastructures/queues/introduction/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-datastructures/queues/introduction/">
+            Introdução
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-datastructures/queues/methods/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-datastructures/queues/methods/">
+            Métodos
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-datastructures/queues/problem-1/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-datastructures/queues/problem-1/">
+            Problema 1: Fundamentos de Queue
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/pt-br/java-datastructures/stacks/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/pt-br/java-datastructures/stacks/">Stacks: O motorista</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/pt-br/java-datastructures/stacks/introduction/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-datastructures/stacks/introduction/">
+            Introdução
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-datastructures/stacks/methods/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-datastructures/stacks/methods/">
+            Métodos
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-datastructures/stacks/problem-1/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-datastructures/stacks/problem-1/">
+            Problema 1: Fundamentos da Stack
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/pt-br/java-datastructures/hashmaps/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/pt-br/java-datastructures/hashmaps/">Hashmaps: A entrega</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/pt-br/java-datastructures/hashmaps/introduction/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-datastructures/hashmaps/introduction/">
+            Introdução
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-datastructures/hashmaps/methods/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-datastructures/hashmaps/methods/">
+            Métodos
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-datastructures/hashmaps/problem-1/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-datastructures/hashmaps/problem-1/">
+            Problema 1: Fundamentos de HashMap
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+      <li data-nav-id="/pt-br/java-datastructures/img/lab/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-datastructures/img/lab/">
+            
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-datastructures/lab/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-datastructures/lab/">
+            
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+    </ul>
+
+    <section>
+    </section>
+  </aside>
+  <section class="page">
+    <div align="right">
+<select id="select-language" onchange="location = this.value;">
+	
+	
+	
+	  
+	  
+	    
+	      
+	        <option id="en" value="/java-datastructures/2d-arrays/problem-1/">English</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="pt-br" value="/pt-br/java-datastructures/2d-arrays/problem-1/" selected>Português Brasileiro</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+</select>
+    </div>
+
+    <div class="nav-select">
+      Navegação:&nbsp;
+      <select onchange="javascript:location.href = this.value;">
+        
+<option value="/pt-br/java-datastructures/" >
+   Java: Estruturas de dados</option>
+
+<option value="/pt-br/java-datastructures/introduction/" >
+  -
+   Introdução às estruturas de dados</option>
+<option value="/pt-br/java-datastructures/arrays/" >
+  -
+   Arrays</option>
+<option value="/pt-br/java-datastructures/2d-arrays/" >
+  -
+   Arrays 2D: Menu</option>
+
+<option value="/pt-br/java-datastructures/2d-arrays/introduction/" >-- Introdução</option>
+<option value="/pt-br/java-datastructures/2d-arrays/the-menu/" >-- O Cardápio</option>
+<option value="/pt-br/java-datastructures/2d-arrays/operations/" >-- Operações</option>
+<option value="/pt-br/java-datastructures/2d-arrays/problem-1/"  selected>-- Problema 1: Cardápio de Exemplo</option>
+
+<option value="/pt-br/java-datastructures/arraylists/" >
+  -
+   ArrayList: ordenando no menu</option>
+<option value="/pt-br/java-datastructures/queues/" >
+  -
+   Filas: Recebimento de Pedidos</option>
+<option value="/pt-br/java-datastructures/stacks/" >
+  -
+   Stacks: O motorista</option>
+<option value="/pt-br/java-datastructures/hashmaps/" >
+  -
+   Hashmaps: A entrega</option>
+<option value="/pt-br/java-datastructures/img/lab/" >- </option>
+<option value="/pt-br/java-datastructures/lab/" >- </option>
+
+
+
+      </select>
+
+    </div>
+    
+
+    <h1>Problema 1: Cardápio de Exemplo</h1>
+
+    
+
+    
+
+    
+    
+    
+    
+    <h2 id="tarefa-1-imprima-o-array-2d">Tarefa 1: Imprima o array 2D</h2>
+<p>No array 2D abaixo temos uma lista de diferentes alimentos. Cada linha é do mesmo tipo. Por exemplo, a linha 1 é uma série de pratos principais. A linha 2 é uma variedade de bebidas e a linha 3 é uma variedade de sobremesas.</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#111">String</span><span style="color:#111">[][]</span> <span style="color:#75af00">menu</span> <span style="color:#f92672">=</span> <span style="color:#111">{</span>    
+</span></span><span style="display:flex;"><span>                    <span style="color:#111">{</span> <span style="color:#d88200">&#34;Hamburger&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;Massa&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;Filé&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;Tacos&#34;</span> <span style="color:#111">},</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#111">{</span> <span style="color:#d88200">&#34;Coca&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;Sprite&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;Pepsi&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;Fanta&#34;</span> <span style="color:#111">},</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#111">{</span> <span style="color:#d88200">&#34;Pudim&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;Sorvete&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;Moti&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;Bolo&#34;</span> <span style="color:#111">}</span>
+</span></span><span style="display:flex;"><span>                  <span style="color:#111">};</span>
+</span></span></code></pre></div><p>Use o que você aprendeu para imprimir o array!</p>
+<p><a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/2DPrint" target="_blank">Iniciar Replit</a></p>
+<h2 id="tarefa-2-procure-um-item">Tarefa 2: Procure um item</h2>
+<p>O gerente quer saber se existe algum item específico no cardápio. Construa um método de pesquisa que retorne <code>true</code> ou <code>false</code> se o item estiver no cardápio ou não.</p>
+<div class="notices tip" >
+    <p header-value="Dica"><ol>
+<li>Lembre-se de verificar todos os elementos da linha e da coluna!</li>
+<li>Que tipo de valor isso retorna?</li>
+</ol>
+</p>
+</div>
+<p><a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/2DFind" target="_blank">Iniciar Replit</a></p>
+
+
+    
+    
+      <div class="chevrons">
+  <style>
+    .workshop-complete-image {
+        margin: 40px auto 50px auto;
+        width: 340.8px;
+    }
+    
+    .workshop-complete-words {
+        font-family: Space Mono, monospace;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        text-align: center;
+    }
+    
+    .horizontal-bar {
+        background-color: #000000;
+        width: 120px;
+        height: 12px;
+        margin: 80px auto 0 auto;
+    }
+</style>
+
+
+    <div id="navigation">
+            <div class="next-prev-wrapper-div"><a class='nav nav-prev' href="/pt-br/java-datastructures/2d-arrays/operations/" title="Operações">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Anterior:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Operações
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="prevbutton-image">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+        
+    </div>
+</a></div>
+            <div class="next-prev-wrapper-div"><a class='nav nav-next' href="/pt-br/java-datastructures/arraylists/" title="ArrayList: ordenando no menu">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Próximo:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                ArrayList: ordenando no menu
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="nextbutton-image">
+            <i class="fa fa-arrow-right"></i>
+        </div>
+        
+    </div>
+</a></div>
+        </div>
+</div>
+
+</section>
+</article>
+
+<footer>
+  <div class="footline">
+    
+
+    
+
+    
+    <div class="date">
+      <i class='fa fa-calendar'></i> 
+      Mon, 10 Feb 2020 13:24:17 PDT
+    </div>
+    
+
+    
+    <div class="github-link">
+      <a href="https://github.com/NuevoFoundation/workshops/tree/master/content/java-datastructures/2d-arrays/problem-1.md" target="blank"><i
+          class="fa fa-code-fork"></i>
+        </a>
+    </div>
+    
+  </div>
+
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+    
+
+    
+    
+
+    <div id="footer" class="row">
+    <div class="col-xs-12">
+        <div class="App-footer">
+            <div class="App-footer-big">
+                Siga-nos nas redes sociais.
+            </div>
+            <div class="social-images">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Instagram" class="fab fa-2x fa-instagram"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation X" class="fab fa-2x fa-x-twitter"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Facebook" class="fab fa-2x fa-1x fa-facebook-f"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-2x fa-linkedin"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/nuevofoundation?sub_confirmation=1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation YouTube" class="fab fa-2x fa-youtube"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Spotify" class="fab fa-2x fa-spotify"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Github" class="fab fa-2x fa-github"></i>
+                </a>
+            </div>
+            <div class="App-footer-small">
+                © Copyright 2025, Todos os direitos reservados a Nuevo Foundation, uma organização sem fins lucrativos de acordo com a norma 501(c)(3) da lei federal dos Estados Unidos.
+            </div>
+        </div>
+    </div>
+</div>
+
+  </body>
+</html>

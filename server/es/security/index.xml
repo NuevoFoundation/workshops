@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Seguridad: Juego de Espías on Nuevo Foundation Workshops</title>
+    <link>/es/security/</link>
+    <description>Recent content in Seguridad: Juego de Espías on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/es/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conociendo a Alicia, Bob y Eva</title>
+      <link>/es/security/meeting-alice-bob-eve/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/es/security/meeting-alice-bob-eve/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;../img/Bob.png?height=250px&#34; alt=&#34;Cannot load image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Conoce a nuestro amigo &lt;strong&gt;Bob&lt;/strong&gt;. &lt;strong&gt;Bob&lt;/strong&gt; tiene un secreto que no quiere compartir,&#xA;le gustaría mantenerlo a salvo. Tiene el secreto guardado en un lugar seguro. Solo&#xA;&lt;strong&gt;Bob&lt;/strong&gt; tiene la &lt;code&gt;clave&lt;/code&gt; de la cerradura para asegurarse de que nadie más que él pueda&#xA;llegar a su secreto.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/Eve.png?height=250px&#34; alt=&#34;Cannot load image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Conoce a nuestra no tan buena amiga &lt;strong&gt;Eva&lt;/strong&gt;. &lt;strong&gt;Eva&lt;/strong&gt; quiere acceder al secreto de &lt;strong&gt;Bob&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Eva&lt;/strong&gt; se da cuenta de que para llegar al secreto de &lt;strong&gt;Bob&lt;/strong&gt;, primero debe pasar la cerradura.&#xA;&lt;strong&gt;Eva&lt;/strong&gt; no puede romper la cerradura, pero tal vez pueda descubrir la &lt;code&gt;clave&lt;/code&gt;. Después de&#xA;espiar a &lt;strong&gt;Bob&lt;/strong&gt; por un tiempo, &lt;strong&gt;Eva&lt;/strong&gt; se da cuenta de que &lt;strong&gt;Bob&lt;/strong&gt; realmente ama a su perro, Max.&#xA;Esto le da a &lt;strong&gt;Eva&lt;/strong&gt; una idea.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Conceptos Básicos de la Contraseña</title>
+      <link>/es/security/password-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/es/security/password-basics/</guid>
+      <description>&lt;p&gt;¡Nuestra agente secreta &lt;strong&gt;Alicia&lt;/strong&gt; resuelve el caso explicándole a &lt;strong&gt;Bob&lt;/strong&gt; sobre las contraseñas!&lt;/p&gt;&#xA;&lt;h2 id=&#34;qué-es-una-contraseña&#34;&gt;¿Qué es una Contraseña?&lt;/h2&gt;&#xA;&lt;p&gt;Las contraseñas son la clave para la cerradura de su mundo virtual. Al igual que su secreto se mantiene&#xA;a salvo en un lugar seguro usando una llave y un candado, su información personal en Internet está&#xA;protegida por su contraseña y nombre de usuario.&lt;/p&gt;&#xA;&lt;p&gt;El lugar seguro solamente es tan seguro como la llave para el candado de la puerta. Necesitamos&#xA;contraseñas más seguras para proteger nuestra identidad e informacion en linea de personas malas&#xA;conocidas como &lt;strong&gt;Hackers&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Actividad</title>
+      <link>/es/security/activity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/es/security/activity/</guid>
+      <description>&lt;p&gt;¡Juguemos un juego!&lt;/p&gt;&#xA;&lt;form accept-charset=&#34;UTF-8&#34; action=&#34;https://formkeep.com/f/exampletoken&#34; method=&#34;POST&#34;&gt;&#xD;&#xA;  &lt;input type=&#34;hidden&#34; name=&#34;utf8&#34; value=&#34;✓&#34;&gt;&#xD;&#xA;    Escriba su oración favorita en el cuadro de texto a continuación. Asegúrese de que tenga al menos cinco palabras. (p. Ej., Me gusta jugar al voleibol en la playa.) &#xD;&#xA;  &lt;input type=&#34;email&#34;  name=&#34;email&#34; placeholder=&#34;Su oración favorita&#34;&gt;&#xD;&#xA;&lt;/br&gt;&#xD;&#xA;    Ahora tome la primer letra de cada palabra de su oración y escribalas en el cuadro de texto. (p. Ej.,&#xD;&#xA;    mgjavelp)&#xD;&#xA;  &lt;input type=&#34;text&#34; name=&#34;name&#34; placeholder=&#34;La primer letra de cada palaba&#34;&gt;&#xD;&#xA;&lt;/br&gt;&#xD;&#xA;    Agregue algunos números al texto. Recuerde la posición de los números. (p. Ej., 1mgjavelp8)&#xD;&#xA;  &lt;input type=&#34;tel&#34; name=&#34;phone&#34; placeholder=&#34;Agrega algunos números&#34;&gt;&#xD;&#xA;&lt;/br&gt;&#xD;&#xA;    Finalmente, agreguemos algunos caracteres especiales al texto. (p. Ej., 1mgjavel$p8)&#xD;&#xA;  &lt;input type=&#34;tel&#34; name=&#34;phone&#34; placeholder=&#34;Agrega algunos caracteres especiales&#34;&gt;&#xD;&#xA;&lt;/br&gt;&#xD;&#xA;&lt;/form&gt;&#xD;&#xA;&lt;h3 id=&#34;voilà-esa-es-su-nueva-contraseña-no-parece-difícil-de-romper&#34;&gt;¡Voilà, esa es su nueva contraseña! ¿No parece difícil de romper?&lt;/h3&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;button class=&#34;btn  btn-success&#34; type=&#34;button&#34;  onclick=&#34;location.href=&#39;\/es\/security\/spy-game\/&#39;&#34; &gt; ¡Éxito! &lt;/button&gt;</description>
+    </item>
+    <item>
+      <title>Juego de Espías</title>
+      <link>/es/security/spy-game/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/es/security/spy-game/</guid>
+      <description>&lt;p&gt;De nuestra última actividad aprendimos que una contraseña segura es una combinación de caracteres aleatorios (posiblemente con letras mayúsculas y minúsculas), números y caracteres especiales. ¡Ahora es el momento de jugar Hacked o Seguro!&lt;/p&gt;&#xA;&lt;p&gt;De una lista de contraseñas utilizadas por nuestro &lt;code&gt;Nuvi&lt;/code&gt;, seleccione la contraseña más segura que no pueda ser hacked (o rota) por &lt;strong&gt;Eva&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/pwd1.png?height=450px&amp;amp;classes=border,shadow&#34; alt=&#34;Cannot load image&#34;&gt;&lt;/p&gt;&#xA;&lt;fieldset&gt;  &#xD;&#xA;  &lt;legend&gt;¿Se puede romper esta contraseña?&lt;/legend&gt;&#xD;&#xA;  &lt;input type=&#34;radio&#34; id=&#34;notify-on1&#34; name=&#34;notify1&#34; value=&#34;on&#34; &gt;&#xD;&#xA;  &lt;label for=&#34;notify-on&#34;&gt;Sí&lt;/label&gt;&#xD;&#xA;  &lt;input type=&#34;radio&#34; id=&#34;notify-off1&#34; name=&#34;notify1&#34; value=&#34;off&#34;&gt;&#xD;&#xA;  &lt;label for=&#34;notify-off&#34;&gt;No&lt;/label&gt;&#xD;&#xA;&lt;/fieldset&gt;&#xD;&#xA;&lt;p&gt;&lt;img src=&#34;../img/pwd2.png?height=450px&amp;amp;classes=border,shadow&#34; alt=&#34;Cannot load image&#34;&gt;&lt;/p&gt;&#xA;&lt;fieldset&gt;  &#xD;&#xA;  &lt;legend&gt;¿Se puede romper esta contraseña?&lt;/legend&gt;&#xD;&#xA;  &lt;input type=&#34;radio&#34; id=&#34;notify-on2&#34; name=&#34;notify2&#34; value=&#34;on&#34; &gt;&#xD;&#xA;  &lt;label for=&#34;notify-on&#34;&gt;Sí&lt;/label&gt;&#xD;&#xA;  &lt;input type=&#34;radio&#34; id=&#34;notify-off2&#34; name=&#34;notify2&#34; value=&#34;off&#34;&gt;&#xD;&#xA;  &lt;label for=&#34;notify-off&#34;&gt;No&lt;/label&gt;&#xD;&#xA;&lt;/fieldset&gt;&#xD;&#xA;&lt;p&gt;&lt;img src=&#34;../img/pwd3.png?height=450px&amp;amp;classes=border,shadow&#34; alt=&#34;Cannot load image&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Resumen</title>
+      <link>/es/security/summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/es/security/summary/</guid>
+      <description>&lt;h2 id=&#34;recuerde-que-las-características-de-una-contraseña-segura-son&#34;&gt;Recuerde que las Características de una Contraseña Segura son:&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Al menos 8 caracteres: cuantos más caracteres, mejor.&lt;/li&gt;&#xA;&lt;li&gt;Una combinación de letras y números.&lt;/li&gt;&#xA;&lt;li&gt;Inclusión de al menos un carácter especial, p. Ej., ! @ # ? ]&#xA;&lt;em&gt;Nota: no use &amp;lt; o &amp;gt; en su contraseña, ya que ambos pueden causar problemas en los navegadores web.&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Una contraseña segura es difícil de adivinar, pero debería ser fácil de recordar - una&#xA;contraseña que debe escribirse no es segura, sin importar cuántas de las características&#xA;anteriores se utilicen.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

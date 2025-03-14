@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tipos de dados on Nuevo Foundation Workshops</title>
+    <link>/pt-br/python-basics/data-types/</link>
+    <description>Recent content in Tipos de dados on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Mon, 10 Feb 2020 13:24:17 -0700</lastBuildDate>
+    <atom:link href="/pt-br/python-basics/data-types/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Strings</title>
+      <link>/pt-br/python-basics/data-types/strings/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      <guid>/pt-br/python-basics/data-types/strings/</guid>
+      <description>&lt;p&gt;Qualquer coisa que esteja entre aspas é chamada de &lt;code&gt;string&lt;/code&gt;. É assim que um computador representa palavras ou frases. Por exemplo, &amp;ldquo;a&amp;rdquo;, &amp;ldquo;2&amp;rdquo;, &amp;ldquo;banana!&amp;rdquo; e &amp;ldquo;Hello World&amp;rdquo; são strings, mas 2 e Hello World não são strings porque faltam aspas. Você pode combinar muitas strings usando o sinal &lt;code&gt;+&lt;/code&gt;!&lt;/p&gt;&#xA;&lt;div class=&#34;notices tip&#34; &gt;&#xD;&#xA;    &lt;p header-value=&#34;Dica&#34;&gt;As strings que você combina não precisam ser palavras reais! Por exemplo, &lt;code&gt;&amp;quot;Ma&amp;quot; + &amp;quot;çã&amp;quot;&lt;/code&gt; produzirá a string &lt;code&gt;&amp;quot;Maçã&amp;quot;&lt;/code&gt;.&#xA;&lt;b&gt;Peça ajuda se estiver confuso!&lt;/b&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Números</title>
+      <link>/pt-br/python-basics/data-types/numbers/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      <guid>/pt-br/python-basics/data-types/numbers/</guid>
+      <description>&lt;p&gt;O computador também pode fazer contas. Use &lt;code&gt;print()&lt;/code&gt; para imprimir o resultado das expressões matemáticas. Não são necessárias aspas para números! Ao contrário das strings, você pode fazer contas com números.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#111&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;7&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;)&lt;/span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;#imprime 4&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#111&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;6&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;7&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;)&lt;/span&gt;   &lt;span style=&#34;color:#75715e&#34;&gt;#imprime -23&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#111&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;24&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; &lt;span style=&#34;color:#111&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;8&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;6&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;)&lt;/span&gt;   &lt;span style=&#34;color:#75715e&#34;&gt;#imprime 20.0&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;notices note&#34; &gt;&#xD;&#xA;    &lt;p header-value=&#34;Observação&#34;&gt;&lt;p&gt;O computador faz a divisão de números inteiros de maneira diferente da calculadora normal. A divisão de números inteiros excluirá restos ou decimais.&lt;/p&gt;&#xA;&lt;p&gt;Por exemplo,&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;15/4&lt;/code&gt; resulta em &lt;code&gt;3&lt;/code&gt;&#xA;&lt;code&gt;15,0/4,0&lt;/code&gt; resulta em &lt;code&gt;3,75&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Booleanos</title>
+      <link>/pt-br/python-basics/data-types/booleans/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      <guid>/pt-br/python-basics/data-types/booleans/</guid>
+      <description>&lt;p&gt;Booleanos são declarações &lt;font color=&#34;blue&#34;&gt;True&lt;/font&gt; ou &lt;font color=&#34;blue&#34;&gt;False&lt;/font&gt; (Verdadeiro ou Falso). Ao contrário de strings ou números, os &lt;b&gt;booleanos&lt;/b&gt; armazenam declarações de verdade: o que estou dizendo é verdadeiro ou falso?&lt;/p&gt;&#xA;&lt;p&gt;Por exemplo, se eu disser “Você é um robô”, um booleano pode armazenar se esta afirmação é verdadeira. Neste caso, como você não é um robô (espero!), &lt;font color=&#34;blue&#34;&gt;False&lt;/font&gt; seria armazenado.&lt;/p&gt;&#xA;&lt;p&gt;Quais são as respostas booleanas a essas perguntas sobre você?&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Eu sou humano. _______&lt;/li&gt;&#xA;&lt;li&gt;Tenho 25 dedos. _______&lt;/li&gt;&#xA;&lt;li&gt;Gosto de biscoitos. _______&lt;/li&gt;&#xA;&lt;li&gt;Minha cor favorita é azul. ______&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;As formas mais comuns de operadores booleanos são comparações como menor ou maior que. Como eles são escritos em python está listado abaixo.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

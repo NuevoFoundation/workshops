@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Análise de Supply Chain on Nuevo Foundation Workshops</title>
+    <link>/pt-br/supply-chain-analytics/</link>
+    <description>Recent content in Análise de Supply Chain on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Sat, 13 Mar 2021 14:17:07 -0700</lastBuildDate>
+    <atom:link href="/pt-br/supply-chain-analytics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Preparando a cena</title>
+      <link>/pt-br/supply-chain-analytics/scenario/</link>
+      <pubDate>Sat, 13 Mar 2021 14:17:07 -0700</pubDate>
+      <guid>/pt-br/supply-chain-analytics/scenario/</guid>
+      <description>&lt;p&gt;O novo Xbox 1000 acabou de ser lançado e você PRECISA comprá-lo. Mas para fazer isso você precisará começar a economizar muito mais dinheiro. Depois que todas as crianças da escola adoraram os biscoitos que sua mãe preparou para a arrecadação de fundos da escola, você teve a ideia genial de abrir uma biscoiteria com ela e dividir os lucros em 50-50!&lt;/p&gt;&#xA;&lt;p&gt;Para começar, você venderá apenas 2 tipos de biscoitos. Depois de perguntar aos seus amigos, os dois principais biscoitos que todo mundo adora são biscoitos de chocolate e biscoitos açucarados.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Otimização Linear - Os Fundamentos</title>
+      <link>/pt-br/supply-chain-analytics/linearoptimizationbasics/</link>
+      <pubDate>Sat, 13 Mar 2021 14:17:07 -0700</pubDate>
+      <guid>/pt-br/supply-chain-analytics/linearoptimizationbasics/</guid>
+      <description>&lt;h2 id=&#34;o-que-é-otimização&#34;&gt;O que é otimização?&lt;/h2&gt;&#xA;&lt;p&gt;Definição oficial: Um modelo matemático de otimização consiste em uma função objetiva e um conjunto de restrições na forma de um sistema de equações ou desigualdades.&lt;/p&gt;&#xA;&lt;p&gt;A otimização linear pode parecer muito complicada – e pode ser. Mas para começar, você só precisa entender algumas coisas.&lt;/p&gt;&#xA;&lt;h2 id=&#34;otimização&#34;&gt;Otimização&lt;/h2&gt;&#xA;&lt;p&gt;A otimização é como você toma a decisão mais eficiente quando tem recursos limitados. Por exemplo, quando você tem apenas um período limitado de tempo permitido para jogar no Xbox, você quer ter certeza de que está jogando seu jogo favorito durante a maior parte do tempo para usar seu tempo com eficiência.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Resolvendo seu problema</title>
+      <link>/pt-br/supply-chain-analytics/solverandsolving/</link>
+      <pubDate>Sat, 13 Mar 2021 14:17:07 -0700</pubDate>
+      <guid>/pt-br/supply-chain-analytics/solverandsolving/</guid>
+      <description>&lt;p&gt;Para executar um problema de otimização no Excel, você precisa habilitar o complemento chamado “Solver”. Siga o link abaixo para obter detalhes ou veja a imagem abaixo.&lt;/p&gt;&#xA; &lt;img src= ../img/Download_Excel_solver.jpg alt=&#34;Captura de tela das etapas para baixar o Solver (solucionador) do Excel&#34; width=&#34;800&#34; height=&#34;600&#34;&gt;&#xD;&#xA;&lt;p&gt;Clique &lt;a href=&#34;https://support.microsoft.com/en-us/office/load-the-solver-add-in-in-excel-612926fc-d53b-46b4-872c-e24772f078ca&#34; target=&#34;_blank&#34;&gt;aqui&lt;sup&gt;&lt;span class=&#34;glyphicon glyphicon-new-window&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/sup&gt;&lt;/a&gt;&#xD;&#xA; para obter mais ajuda se estiver com problemas.&lt;/p&gt;&#xA;&lt;p&gt;Você pode encontrar o suplemento do solucionador clicando em “data” (dados) e depois em “solver” (solucionador) no cabeçalho.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/solver.jpg&#34; alt=&#34;Captura de tela de onde encontrar o complemento “Solver” na barra de cabeçalho&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Desafio Extra</title>
+      <link>/pt-br/supply-chain-analytics/challenge/</link>
+      <pubDate>Sat, 13 Mar 2021 14:17:07 -0700</pubDate>
+      <guid>/pt-br/supply-chain-analytics/challenge/</guid>
+      <description>&lt;p&gt;Uma das cercas da fazenda se soltou e todas as galinhas e galinhas escaparam! Por conta disso, estamos com poucos ovos e agora temos que alterar a capacidade máxima de ovos de 24 para 15. ☹&lt;/p&gt;&#xA;&lt;p&gt;Você consegue calcular quais deveriam ser as novas quantidades ideais de biscoitos? Quanto seu lucro mudou devido à escassez?&lt;/p&gt;&#xA;&lt;div class=&#34;notices hint&#34; &gt;&#xD;&#xA;    &lt;p header-value=&#34;Sugestão&#34;&gt;Mude a célula que tem a restrição de capacidade para os ovos de 24 para 15 e execute novamente o Solver! Você não precisará alterar nada no Solver se configurar suas fórmulas corretamente, você só precisará alterar o valor da célula.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

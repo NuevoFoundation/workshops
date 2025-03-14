@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hashmaps: The Delivery on Nuevo Foundation Workshops</title>
+    <link>/java-datastructures/hashmaps/</link>
+    <description>Recent content in Hashmaps: The Delivery on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 10 Feb 2020 13:24:17 -0700</lastBuildDate>
+    <atom:link href="/java-datastructures/hashmaps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>/java-datastructures/hashmaps/introduction/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      <guid>/java-datastructures/hashmaps/introduction/</guid>
+      <description>&lt;p&gt;A HashMap is a table that holds a collection of key-value pairs. It &amp;ldquo;maps&amp;rdquo; numerous keys to their respective values. A HashMap is very similar to a dictionary. In a dictionary, you might want to look up a definition for a certain word. You simply look up the keyword in the dictionary and by doing so, you can get the definition attached to that keyword. The dictionary maps words (the &amp;ldquo;keys&amp;rdquo;) to their definition (the &amp;ldquo;values&amp;rdquo;).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Methods</title>
+      <link>/java-datastructures/hashmaps/methods/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      <guid>/java-datastructures/hashmaps/methods/</guid>
+      <description>&lt;h2 id=&#34;hashmaps&#34;&gt;Hashmaps&lt;/h2&gt;&#xA;&lt;p&gt;A HashMap can store items in key/value pairs and you can assign those pairs to different types such as strings or integers.&lt;/p&gt;&#xA;&lt;p&gt;As usual, to create a &lt;code&gt;HashMap&lt;/code&gt;, you will have to import the HashMap class like so.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#00a8c8&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#75af00&#34;&gt;java&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#75af00&#34;&gt;util&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#75af00&#34;&gt;HashMap&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;// will import HashMap&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75af00&#34;&gt;HashMap&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;String&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#111&#34;&gt;String&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#75af00&#34;&gt;addresses&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#00a8c8&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#75af00&#34;&gt;HashMap&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;String&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#111&#34;&gt;String&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;();&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;In this case, we created a &lt;code&gt;HashMap&lt;/code&gt; called addresses which stores keys of &lt;code&gt;String&lt;/code&gt; type and values of &lt;code&gt;String&lt;/code&gt; type.&lt;/p&gt;&#xA;&lt;h2 id=&#34;adding-elements&#34;&gt;Adding Elements&lt;/h2&gt;&#xA;&lt;p&gt;To add key/value pairs into the HashMap, use the &lt;code&gt;put()&lt;/code&gt; method.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem 1: HashMap Basics</title>
+      <link>/java-datastructures/hashmaps/problem-1/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      <guid>/java-datastructures/hashmaps/problem-1/</guid>
+      <description>&lt;h2 id=&#34;task-1-using-hashmap-to-organize-data&#34;&gt;Task 1: Using Hashmap to organize data&lt;/h2&gt;&#xA;&lt;p&gt;It&amp;rsquo;s a party! A customer has a big birthday party for more than 20 people! Everyone has their own order. To keep the mass order organized, you decide to create a hashmap of &lt;code&gt;String&lt;/code&gt;s. The birthday girl&amp;rsquo;s name is Isabella, but her name is lost in the list. Can you figure out what Isabella ordered?&lt;/p&gt;&#xA;&lt;div class=&#34;notices tip&#34; &gt;&#xD;&#xA;    &lt;p header-value=&#34;Tip&#34;&gt;&lt;ol&gt;&#xA;&lt;li&gt;Do you remember the hashmap methods?&lt;/li&gt;&#xA;&lt;li&gt;Look at example order below!&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

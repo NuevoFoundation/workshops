@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>나만의 챗봇 만들기 on Nuevo Foundation Workshops</title>
+    <link>/kr/chatbot/</link>
+    <description>Recent content in 나만의 챗봇 만들기 on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>kr</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/kr/chatbot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>활동 1: ALICE 만나기</title>
+      <link>/kr/chatbot/activity-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/kr/chatbot/activity-1/</guid>
+      <description>&lt;h2 id=&#34;alice-만나기&#34;&gt;ALICE 만나기&lt;/h2&gt;&#xA;&lt;p&gt;챗봇만들기를 시작하기 전에, ALICE와 만나서 몇 가지 질문을 해보겠습니다. 이 웹페이지를 열어둔 채로 진행해 주세요.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a class=&#34;my-2 mx-4 btn btn-info&#34; href=&#34;https://www.pandorabots.com/pandora/talk?botid=b8d616e35e36e881&#34; target=&#34;_blank&#34;&gt;ALICE 사용해보기&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;ALICE에 대해 어떻게 생각하시나요?&lt;/p&gt;&#xA;&lt;p&gt;ALICE가 대답할 수 있었던 질문은 무엇인가요?&lt;/p&gt;&#xA;&lt;p&gt;ALICE가 대답하지 못했던 질문은 무엇인가요?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>활동 2: PandoraBots 설정</title>
+      <link>/kr/chatbot/activity-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/kr/chatbot/activity-2/</guid>
+      <description>&lt;h2 id=&#34;aiml&#34;&gt;AIML&lt;/h2&gt;&#xA;&lt;p&gt;이제 AIML을 사용하여 챗봇을 만들 것입니다. AIML은 &lt;strong&gt;인공지능 마크업 언어&lt;/strong&gt;(Artificial Intelligence Markup Language)의 약자로, 웹사이트를 만들 때 사용하는 HTML과 매우 유사하게 보일 것입니다. AIML을 작성하기 전에, Pandorabots에 가입해야 합니다.&lt;/p&gt;&#xA;&lt;h2 id=&#34;pandorabots&#34;&gt;Pandorabots&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.pandorabots.com/&#34; target=&#34;_blank&#34;&gt;https://www.pandorabots.com/&lt;sup&gt;&lt;span class=&#34;glyphicon glyphicon-new-window&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/sup&gt;&lt;/a&gt;&#xD;&#xA; 에 접속하여 &lt;strong&gt;Sign Up&lt;/strong&gt;을 클릭하세요. 메일과 비밀번호를 입력하여 계정을 만드세요. 또는 Google, Facebook, Twitter, Github 계정으로 가입할 수도 있습니다. 프롬프트가 나타나면 무료 체험(free trial) 옵션을 선택하세요.&lt;/p&gt;&#xA;&lt;h2 id=&#34;새로운-봇-만들기&#34;&gt;새로운 봇 만들기&lt;/h2&gt;&#xA;&lt;p&gt;가입이 완료되면, 다음과 같은 페이지가 표시 됩니다:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>카테고리</title>
+      <link>/kr/chatbot/categories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/kr/chatbot/categories/</guid>
+      <description>&lt;h2 id=&#34;aiml-기초&#34;&gt;AIML 기초&lt;/h2&gt;&#xA;&lt;p&gt;AIML의 기본 단위는 &lt;strong&gt;카테고리&lt;/strong&gt;입니다. 카테고리는 **패턴(pattern)**과 **템플릿(template)**으로 구성됩니다. 패턴은 사용자가 봇에게 말하는 내용이고, 템플릿은 봇이 사용자에게 제공하는 응답입니다.&lt;/p&gt;&#xA;&lt;p&gt;다음 예시를 보면, 패턴은 &amp;ldquo;HELLO&amp;quot;이고 템플릿은 &amp;ldquo;Hello, World!&amp;ldquo;입니다. 사용자가 &amp;ldquo;HELLO&amp;quot;라고 말하면, 봇은 &amp;ldquo;Hello, World!&amp;ldquo;라고 응답합니다. 패턴 매칭은 대소문자를 구분하지 않으므로, &amp;ldquo;hello&amp;rdquo;, &amp;ldquo;HELLO&amp;rdquo;, &amp;ldquo;Hello&amp;rdquo;, &amp;ldquo;HeLlo&amp;rdquo; 등 다양한 형태의 입력에도 동일한 응답이 나옵니다.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;category&amp;gt;&#xD;&#xA;    &amp;lt;pattern&amp;gt;HELLO&amp;lt;/pattern&amp;gt;&#xD;&#xA;    &amp;lt;template&amp;gt;&#xD;&#xA;        Hello, World!&#xD;&#xA;    &amp;lt;/template&amp;gt;&#xD;&#xA;&amp;lt;/category&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;notices info&#34; &gt;&#xD;&#xA;    &lt;p header-value=&#34;정보&#34;&gt;패턴을 작성할 때는 모든 문자를 대문자로 작성하고, 구두점 사용을 피하는 것이 좋습니다. 예를 들어, &amp;ldquo;What is your name?&amp;ldquo;이라는 패턴을 만들고 싶다면 &amp;ldquo;WHAT IS YOUR NAME&amp;quot;으로 작성해야 합니다. Pandora는 패턴 매칭을 수행하기 전에 사용자 입력에서 구두점을 제거합니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>활동 3: 나만의 카테고리 추가</title>
+      <link>/kr/chatbot/activity-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/kr/chatbot/activity-3/</guid>
+      <description>&lt;h2 id=&#34;카테고리-추가하기&#34;&gt;카테고리 추가하기&lt;/h2&gt;&#xA;&lt;p&gt;지금까지는 봇이 &amp;ldquo;Hello&amp;quot;라는 말에만 응답할 수 있었습니다. 이제 더 많은 카테고리를 추가하여 봇이 더 많은 질문에 응답할 수 있도록 해봅시다.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;여러분이 &amp;ldquo;What is your name?&amp;ldquo;이라고 입력하면, 봇이 &amp;ldquo;My name is Chatbot&amp;quot;이라고 응답합니다.&lt;/li&gt;&#xA;&lt;li&gt;여러분이 &amp;ldquo;What is your favorite color?&amp;ldquo;라고 입력하면, 봇이 &amp;ldquo;My favorite color is blue&amp;quot;라고 응답합니다.&lt;/li&gt;&#xA;&lt;li&gt;여러분이 &amp;ldquo;What is your favorite food?&amp;ldquo;라고 입력하면, 봇이 &amp;ldquo;My favorite food is pizza&amp;quot;라고 응답합니다.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;카테고리의 기본 구조는 다음과 같습니다:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;category&amp;gt;&#xD;&#xA;    &amp;lt;pattern&amp;gt;HELLO&amp;lt;/pattern&amp;gt;&#xD;&#xA;    &amp;lt;template&amp;gt;&#xD;&#xA;        Hello, World!&#xD;&#xA;    &amp;lt;/template&amp;gt;&#xD;&#xA;&amp;lt;/category&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;notices tip&#34; &gt;&#xD;&#xA;    &lt;p header-value=&#34;정보&#34;&gt;패턴을 작성할 때는 항상 대문자로 작성하고, 구두점은 사용하지 마세요. 예를 들어, &amp;ldquo;What is your name?&amp;ldquo;이라는 패턴을 작성할 때는 &amp;ldquo;WHAT IS YOUR NAME&amp;quot;으로 작성해야 합니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>와일드카드(Wildcard)</title>
+      <link>/kr/chatbot/wildcards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/kr/chatbot/wildcards/</guid>
+      <description>&lt;h2 id=&#34;와일드카드&#34;&gt;와일드카드&lt;/h2&gt;&#xA;&lt;p&gt;지금쯤이면 사용자가 질문하는 모든 방식에 대해 카테고리를 작성하는 것에 상당히 많은 작업이 필요하다는 것을 느꼈을 것입니다. 예를 들어, 현재 봇은 &amp;ldquo;Hello&amp;quot;에 &amp;ldquo;Hello, world&amp;quot;로 응답합니다. 하지만 사용자가 &amp;ldquo;Hello there&amp;rdquo; 또는 &amp;ldquo;Hello chatbot&amp;quot;이라고 말한다면 어떻게 될까요? 이런 경우마다 새로운 카테고리를 작성해야 합니다. 다행히도, 봇을 좀 더 유연하게 만들기 위해 사용할 수 있는 추가 도구들이 있습니다.&lt;/p&gt;&#xA;&lt;p&gt;그중 하나가 &lt;strong&gt;와일드카드&lt;/strong&gt;입니다. 와일드카드는 어떤 단어나 구도에 맞출 수 있는 특별한 문자입니다. 어떻게 작동하는지 살펴봅시다.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;category&amp;gt;&#xD;&#xA;    &amp;lt;pattern&amp;gt;HELLO *&amp;lt;/pattern&amp;gt;&#xD;&#xA;    &amp;lt;template&amp;gt;&#xD;&#xA;        Hi!&#xD;&#xA;    &amp;lt;/template&amp;gt;&#xD;&#xA;&amp;lt;/category&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;code&gt;*&lt;/code&gt; 기호는 사용자 입력에서 하나 이상의 단어를 캡처할 수 있습니다. 이 새로운 카테고리로 인해 챗봇은 이제 &amp;ldquo;Hello&amp;quot;로 시작하는 모든 입력에 대해 &amp;ldquo;Hi!&amp;ldquo;라고 응답할 것입니다. 따라서 &amp;ldquo;HELLO *&amp;rdquo; 패턴은 &amp;ldquo;HELLO THERE&amp;rdquo;, &amp;ldquo;HELLO CHATBOT&amp;rdquo;, &amp;ldquo;HELLO WORLD&amp;rdquo;, &amp;ldquo;HELLO EVERYONE&amp;rdquo; 등 다양한 입력에 대응합니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>와일드카드 활용(Echoing Wildcards)</title>
+      <link>/kr/chatbot/echoing-wildcards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/kr/chatbot/echoing-wildcards/</guid>
+      <description>&lt;h2 id=&#34;star-태그-소개&#34;&gt;&lt;code&gt;&amp;lt;star /&amp;gt;&lt;/code&gt;태그 소개&lt;/h2&gt;&#xA;&lt;p&gt;이번에는 봇의 응답이 더 흥미로워지도록 할 수 있는 방법을 하나 더 배워보겠습니다. 이전에 배운 것처럼, 우리는 와일드카드  &lt;code&gt;*&lt;/code&gt; 를 사용해 사용자의 다양한 입력을 대응할 수 있었습니다. 그런데, 만약 사용자가 입력한 단어나 구를 그대로 응답에 포함하고 싶다면 어떻게 해야 할까요? 예를 들어, 사용자가 좋아하는 색을 말했을 때, 그 색을 응답에 포함하도록 만들고 싶을 수 있습니다. 이 경우 &lt;code&gt;&amp;lt;star /&amp;gt;&lt;/code&gt; 태그를 사용할 수 있습니다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;&amp;lt;star /&amp;gt;&lt;/code&gt; 태그는 사용자가 입력한 단어나 구를 응답에 그대로 반영해 주는 특별한 태그입니다. 그 작동 방식을 살펴봅시다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>활동 4: 와일드카드 사용하기</title>
+      <link>/kr/chatbot/activity-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/kr/chatbot/activity-4/</guid>
+      <description>&lt;h2 id=&#34;와일드카드-사용하기&#34;&gt;와일드카드 사용하기&lt;/h2&gt;&#xA;&lt;p&gt;와일드카드를 사용하여 사용자가 질문하는 모든 방식에 대해 새로운 카테고리를 작성하지 않고도 봇이 더 많은 질문에 답변할 수 있도록 해봅시다. 현재의 카테고리들을 확장하여 챗봇이 &amp;ldquo;food&amp;rdquo;, &amp;ldquo;color&amp;rdquo;, &amp;ldquo;name&amp;quot;으로 끝나는 질문에 응답할 수 있도록 만들어 보겠습니다.&lt;/p&gt;&#xA;&lt;div class=&#34;notices tip&#34; &gt;&#xD;&#xA;    &lt;p header-value=&#34;정보&#34;&gt;패턴의 시작에 와일드카드를 사용하세요.&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;사용자가 &amp;ldquo;food&amp;quot;로 끝나는 질문을 입력하면(예: &amp;ldquo;What is your favorite food?&amp;rdquo;, &amp;ldquo;Do you like food?&amp;rdquo;, &amp;ldquo;Do chatbots eat food?&amp;rdquo;), 봇은 &amp;ldquo;My favorite food is pizza&amp;quot;라고 응답해야 합니다..&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;사용자가 &amp;ldquo;color&amp;quot;로 끝나는 질문을 입력하면(예: &amp;ldquo;What is your favorite color?&amp;rdquo;, &amp;ldquo;What’s your favorite color?&amp;rdquo;), 봇은 &amp;ldquo;My favorite color is blue&amp;quot;라고 응답해야 합니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>활동 5: 와일드카드 활용(Echoing Wildcards)</title>
+      <link>/kr/chatbot/activity-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/kr/chatbot/activity-5/</guid>
+      <description>&lt;h2 id=&#34;와일드카드-활용echoing-wildcards&#34;&gt;와일드카드 활용(Echoing Wildcards)&lt;/h2&gt;&#xA;&lt;p&gt;이제 와일드카드 &lt;code&gt;*&lt;/code&gt;와 &lt;code&gt;&amp;lt;star /&amp;gt;&lt;/code&gt;태그를 함께 사용하여 사용자의 입력을 응답에 포함시킬 수 있도록 해봅시다.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;사용자가 &amp;ldquo;My name is [name]&amp;ldquo;이라고 입력하면, 봇이 &amp;ldquo;Nice to meet you, [name]!&amp;ldquo;이라고 응답해야 합니다.&#xA;예시&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;입력&lt;/th&gt;&#xA;          &lt;th&gt;출력&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;My name is John&lt;/td&gt;&#xA;          &lt;td&gt;Nice to meet you, John!&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;My name is Jane&lt;/td&gt;&#xA;          &lt;td&gt;Nice to meet you, Jane!&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;My name is Bob&lt;/td&gt;&#xA;          &lt;td&gt;Nice to meet you, Bob!&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;사용자가 &amp;ldquo;My favorite color is [color]&amp;ldquo;라고 입력하면, 봇이 &amp;ldquo;I also like [color]!&amp;ldquo;라고 응답해야 합니다.&#xA;예시:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>결론</title>
+      <link>/kr/chatbot/conclusion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/kr/chatbot/conclusion/</guid>
+      <description>&lt;p style=&#34;text-align: center;&#34;&gt;&lt;img src=&#34;../img/robot.png&#34; alt=&#34;image of a robot saying hi&#34; width=&#34;400&#34;/&gt;&lt;/p&gt;&#xD;&#xA;&lt;h2 id=&#34;마무리&#34;&gt;마무리&lt;/h2&gt;&#xA;&lt;p&gt;지금까지 몇 가지 카테고리를 사용하여 간단한 챗봇을 만들어 보았습니다. 이제 여러분은 챗봇과 짧은 대화를 나눌 수 있을 것입니다! &amp;ldquo;hi&amp;quot;라고 인사해 보고, 좋아하는 음식이나 색, 이름에 대해 이야기해보세요. 그리고 봇에게 몇 가지 질문도 해보세요.&lt;/p&gt;&#xA;&lt;p&gt;더 탐구해 보고 싶다면, 봇이 더 많은 질문에 응답할 수 있도록 카테고리를 추가해보세요.&lt;/p&gt;&#xA;&lt;p&gt;ALICE 기억하시나요? ALICE는 50,000개의 카테고리로 만들어졌습니다! 일부 대형 챗봇은 100만 개 이상의 카테고리를 가지고 있습니다. 카테고리를 추가하는 일이 얼마나 더 복잡해질 수 있는지 상상이 되시죠?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

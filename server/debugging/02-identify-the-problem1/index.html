@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nuevo Foundation Workshops</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+<meta name="theme-color" content="#000000" />
+<meta name="revised" content="2025-03-14T18:59:38 -03">
+<meta name="application-name" content=" " />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+<title>Step 1 - Finding the problem (Part 1) :: Nuevo Foundation Workshops</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+
+<link rel="shortcut icon" href="https://www.nuevofoundation.org/favicons/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57"
+      href="https://www.nuevofoundation.org/favicons//apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120"
+      href="https://www.nuevofoundation.org/favicons/pple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-128.png" sizes=" 128x128" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="/css/nuevoweb.css" />
+<link rel="stylesheet" href="/css/chunk.css" />
+<link rel="stylesheet" href="/css/data-style.css" />
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+
+<script lang="JavaScript">
+
+      function toggleVisibility() {
+
+            
+            const menu = document.getElementById("mobile-nav-menu");
+            if (menu.style.display == 'none') {
+                  menu.classList.replace("transition-out", "transition-in")
+                  menu.style.display = 'block';
+            }
+            else if (menu.style.display == 'block') {
+                  menu.classList.replace("transition-in", "transition-out")
+                  menu.style.display = 'none';
+            }
+      }
+</script>
+<meta
+  name="description"
+  content="
+
+    
+"
+/>
+
+
+    
+  </head>
+  <body data-url="/debugging/02-identify-the-problem1/" >
+    
+      <header>
+  
+  <div id="mobile-nav-menu" class="transition-out" style="display: none;">
+    <div class="close-btn" onclick="toggleVisibility();">
+        <i aria-hidden="true" focusable="false" style="cursor: pointer;" class="fa fa-times fa-w-11 fa-sm"></i>
+    </div>
+    <div>
+        <div class="sc-dNLxif ecnYUM">
+            <a href="/support-us"><button class="sc-jbKcbu sedGx"
+                    style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: 4px solid rgb(0, 0, 0); border-radius: 4px;">
+                    Donate
+                </button></a>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/what-we-do">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>What We Do</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/get-involved">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Get Involved</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/support-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Support us</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/blog">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Event blog</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/about-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Our team</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/contact">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Contact us</li>
+            </ul>
+        </a>
+    </div>
+</div>
+<div>
+    <div class="sc-gGBfsJ iKkPGj">
+        <div class="container-fluid">
+            <div id="toprow" class="row">
+                <div class="col-xs-12">
+                    <div class="sc-EHOje fJMnSm">
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.instagram.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation Instagram" class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://twitter.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation X" class="fab fa-x-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Facebook" class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.linkedin.com/company/nuevofoundation">
+                                <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://www.youtube.com/nuevofoundation?sub_confirmation=1n">
+                                <i aria-label="Nuevo Foundation YouTube" class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1">
+                                <i aria-label="Nuevo Foundation Spotify" class="fab fa-spotify"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://github.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Github" class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" rel="noopener noreferrer"
+                                href="https://nuevofoundation.org/support-us">Donate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="secondrow" class="row">
+                <div class="col-sm-12 hidden-xs">
+                    <div class="sc-htoDjs kjtfZK">
+                        <a class="sc-fjdhpX izNzAG active" aria-current="page" href="https://nuevofoundation.org">
+                            <img alt="Nuevo Foundation Logo" src="/images/Logo_long.0f097b90.svg"
+                                height="60px" />
+                        </a>
+                        <ul class="sc-iwsKbI bUOvG">
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/what-we-do">
+                                <li class="sc-gZMcBi Bomeo">What We Do</li>
+                            </a>
+                            <a class="izNzAG" href="/">
+                                <li class="sc-gZMcBi Bomeo-selected jgBGVn">Workshops<span></span></li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/get-involved">
+                                <li class="sc-gZMcBi Bomeo">Get Involved</li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/support-us">
+                                <li class="sc-gZMcBi Bomeo">Support us</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/blog">
+                                <li class="sc-gZMcBi Bomeo">Event blog</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/about-us">
+                                <li class="sc-gZMcBi Bomeo">Our team</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/contact">
+                                <li class="sc-gZMcBi Bomeo">Contact us</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <a class="sc-fjdhpX izNzAG active" aria-current="page" href="/">
+                                <img alt="Nuevo Foundation Logo" class="sc-dnqmqq emolVn"
+                                    src="/images/Logo_long.0f097b90.svg" height="60%" /></a>
+                        </div>
+                        <div class="col-xs-2" onclick="toggleVisibility();"
+                            style="padding-top: 4%; padding-left: 4%; cursor: pointer;">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                                class="svg-inline--fa fa-bars fa-w-14 fa-lg" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/debugging/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/debugging/">C: The Debugging Process</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/debugging/01-overview/" class="dd-item">
+        <div>
+          <a href="/debugging/01-overview/">
+            An Overview of Debugging
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/debugging/02-identify-the-problem1/" class="dd-item active">
+        <div>
+          <a href="/debugging/02-identify-the-problem1/">
+            Step 1 - Finding the problem (Part 1)
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/debugging/03-identify-the-problem2/" class="dd-item">
+        <div>
+          <a href="/debugging/03-identify-the-problem2/">
+            Step 1 - Finding the problem (Part 2)
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/debugging/04-identify-the-problem3/" class="dd-item">
+        <div>
+          <a href="/debugging/04-identify-the-problem3/">
+            Step 1 - Finding the problem (Part 3)
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/debugging/05-identify-the-problem4/" class="dd-item">
+        <div>
+          <a href="/debugging/05-identify-the-problem4/">
+            Step 1 - Finding the problem (Part 4)
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/debugging/06-fixing-the-problem/" class="dd-item">
+        <div>
+          <a href="/debugging/06-fixing-the-problem/">
+            Step 2 - Fixing the problem
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/debugging/07-testing/" class="dd-item">
+        <div>
+          <a href="/debugging/07-testing/">
+            Step 3 - Testing
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/debugging/e1-binary-tree/" class="dd-item">
+        <div>
+          <a href="/debugging/e1-binary-tree/">
+            Exercise 1 - Binary Tree Implementation
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/debugging/e2-binary-heap/" class="dd-item">
+        <div>
+          <a href="/debugging/e2-binary-heap/">
+            Exercise 2 - Binary Heap Implementation
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/debugging/e3-burrows-wheeler-transform/" class="dd-item">
+        <div>
+          <a href="/debugging/e3-burrows-wheeler-transform/">
+            Exercise 3 - The Burrows-Wheeler Transform
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+    </ul>
+
+    <section>
+    </section>
+  </aside>
+  <section class="page">
+    <div align="right">
+<select id="select-language" onchange="location = this.value;">
+	
+	
+	
+	  
+	  
+	    
+	      
+	        <option id="en" value="/debugging/02-identify-the-problem1/" selected>English</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+</select>
+    </div>
+
+    <div class="nav-select">
+      Navigation:&nbsp;
+      <select onchange="javascript:location.href = this.value;">
+        
+<option value="/debugging/" >
+   C: The Debugging Process</option>
+
+<option value="/debugging/01-overview/" >- An Overview of Debugging</option>
+<option value="/debugging/02-identify-the-problem1/"  selected>- Step 1 - Finding the problem (Part 1)</option>
+<option value="/debugging/03-identify-the-problem2/" >- Step 1 - Finding the problem (Part 2)</option>
+<option value="/debugging/04-identify-the-problem3/" >- Step 1 - Finding the problem (Part 3)</option>
+<option value="/debugging/05-identify-the-problem4/" >- Step 1 - Finding the problem (Part 4)</option>
+<option value="/debugging/06-fixing-the-problem/" >- Step 2 - Fixing the problem</option>
+<option value="/debugging/07-testing/" >- Step 3 - Testing</option>
+<option value="/debugging/e1-binary-tree/" >- Exercise 1 - Binary Tree Implementation</option>
+<option value="/debugging/e2-binary-heap/" >- Exercise 2 - Binary Heap Implementation</option>
+<option value="/debugging/e3-burrows-wheeler-transform/" >- Exercise 3 - The Burrows-Wheeler Transform</option>
+
+
+
+      </select>
+
+    </div>
+    
+
+    <h1>Step 1 - Finding the problem (Part 1)</h1>
+
+    <div class="panel panel-primary">
+    <div class="panel-heading">Workshop Resources</div>
+    <div class="panel-body">
+        
+        
+        <div class="metadata-row">
+            <span class="metadata-label">Difficulty:</span>
+            <span class="metadata-value">Intermediate</span>
+        </div>
+        
+        
+    </div>
+</div>
+    
+
+    
+    
+    
+    
+    <h2 id="compiler-errors">Compiler Errors</h2>
+<p>Let’s start and take a look at one of the first daunting problems a novice programmer faces: <strong>reading</strong> and <strong>understanding</strong> errors.</p>
+<p>There are two kinds of errors: <strong>compiler</strong> and <strong>runtime</strong> errors.</p>
+<p>A <strong>compiler</strong> error usually indicates a problem with your syntax. Perhaps you wanted to express an idea in the program but didn&rsquo;t adhere to the rules of the programming language. These are caught when you compile your program. Compiler errors are nice because they are relatively easy to fix. Compilers like <code>gcc</code> usually give a lot of information about what went wrong when the code is compiled. Let’s explore some of these errors.</p>
+<p>Open the <strong>Shell</strong> tab in the Replit program below and run the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>make CompilerErrors
+</span></span></code></pre></div><div class="notices note" >
+    <p header-value="Note">For this example, we will not be running the program - this program is meant to showcase some common compiler errors that you may encounter.</p>
+</div>
+<p><a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/Debugging-Samples-C" target="_blank">Launch Replit</a></p>
+<p>The first error should look like this (or similar):</p>
+<p><img src="../resources/w2-01.png" alt="Error 1: Missing Semicolon" title="A screenshot of a compiler error that says &#39;error: expected &#39;;&#39; after top level declarator&#39;"></p>
+<p>You&rsquo;ll notice the error contains:</p>
+<ul>
+<li>the name of the file we tried to compile (<strong><code>CompilerErrors.c</code></strong>).</li>
+<li>the line where the error was found (<strong><code>12</code></strong>).</li>
+<li>the position on the line where the error is located (<strong><code>19</code></strong>).</li>
+</ul>
+<p>As you can see, the compiler gives you the line of code and points to where the error actually occurred! It then gives a brief name of the error - in this case, the compiler expected a semicolon (<strong><code>;</code></strong>) at the end of the line. You can simply add a semicolon to fix this error.</p>
+<p>The other error mentions that there is a missing curly brace (<strong><code>}</code></strong>) when it didn&rsquo;t expect one. The fix for this one is also relatively simple: you can add the corresponding curly brace <code>{</code> next to <code>func()</code>.</p>
+<div class="notices warning" >
+    <p header-value="Warning">A missing curly brace is often the reason for seemingly extraordinary errors. The compiler is not great at picking up where a curly brace should be, so if you&rsquo;re including a header file with a missing curly brace, it&rsquo;ll blow up in your face. In almost all cases, when the compiler outputs a number of errors in code you didn&rsquo;t write, chances are it&rsquo;s a curly brace missing somewhere in your (or perhaps even the library&rsquo;s) code!</p>
+</div>
+<p>Once you&rsquo;ve fixed it, you can compile the code again using the same command.</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>make CompilerErrors
+</span></span></code></pre></div><p>Wait, there are more errors! As mentioned in the warning box, the compiler isn&rsquo;t great at picking up errors if there&rsquo;s a missing curly brace. A compiler error can &ldquo;hide&rdquo; others.</p>
+<p>We&rsquo;ll use a table to showcase common compiler errors and their general cause.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Error</th>
+          <th>Cause</th>
+          <th>General Fix</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Missing semicolon</td>
+          <td>Missing semicolon.</td>
+          <td>Add the semicolon <code>;</code>.</td>
+      </tr>
+      <tr>
+          <td>Expected function body after function declarator</td>
+          <td>Missing curly bracket <code>{</code>, usually at the beginning of a function body declaration.</td>
+          <td>Add the curly brace <code>{</code> where it belongs.</td>
+      </tr>
+      <tr>
+          <td>Expected identifier or &lsquo;(&rsquo;</td>
+          <td>In the context of a curly brace, usually means you have an extra dangling curly brace <code>{</code>.</td>
+          <td>Remove the curly brace or add a corresponding <code>}</code> after it.</td>
+      </tr>
+      <tr>
+          <td>Redefinition of &hellip;</td>
+          <td>Somewhere in your code you declared a variable. Later you declared it again.</td>
+          <td>Rename the variables, or remove one of them.</td>
+      </tr>
+      <tr>
+          <td>Use of undeclared type&hellip;</td>
+          <td>The compiler can&rsquo;t find the declaration of a type you want to use.</td>
+          <td>Usually this comes from improper <code>#include</code> directives (as types are usually declared in header files). Make sure there are no typos.</td>
+      </tr>
+      <tr>
+          <td>Must use <code>struct</code> (or <code>enum</code>) tag</td>
+          <td>C requires you to use <code>struct NAME_OF_TYPE</code> or <code>enum NAME_OF_ENUM</code> whenever you want to refer to the struct/enum type.</td>
+          <td>Usually C developers use a <code>typedef</code> statement so they don&rsquo;t have to type <code>struct</code> or <code>enum</code> to refer to those types. You can add those keywords yourself, though.</td>
+      </tr>
+      <tr>
+          <td>No member named&hellip;</td>
+          <td>In your <code>struct</code>, there&rsquo;s no field of the name you requested.</td>
+          <td>Probably a typo, or you haven&rsquo;t defined a field in your <code>struct</code> yet.</td>
+      </tr>
+      <tr>
+          <td>Incompatible types&hellip;</td>
+          <td>You&rsquo;re mixing and matching types, which is not allowed in C without explicit casting.</td>
+          <td>Either check whether an assignment is accurate, or use explicit casting to silence the error during compile time. This could lead to runtime errors though.</td>
+      </tr>
+      <tr>
+          <td>Argument type is incomplete</td>
+          <td>If a function returns void, you can&rsquo;t pass it in as an argument to another function!</td>
+          <td>Fix the function declaration to nonvoid, and be sure that you want such behavior.</td>
+      </tr>
+      <tr>
+          <td>Extraneous &lsquo;(&rsquo; or &lsquo;)&rsquo; before &lsquo;;&rsquo;</td>
+          <td>Mismatched parentheses <code>()</code></td>
+          <td>You have an extra set of parentheses somewhere. Double check to make sure there&rsquo;s a matching pair for each of them!</td>
+      </tr>
+  </tbody>
+</table>
+<p>If applying a general fix doesn&rsquo;t work, <em>then</em> you should turn to the internet for help. For common errors with simple fixes, knowing how to read the error and decipher what it wants fixed can be a lot faster than looking it up.</p>
+<div class="notices warning" >
+    <p header-value="Warning">Not all compilers give useful information. For instance, C++ compiler errors can range from simple ones (like in <code>CompilerErrors.c</code>), to enormous blocks of text, especially when working with templates. The point of this lesson is NOT to turn you away from internet sources completely, but rather to get you familiar enough with them to give you some more intuition as to how to fix simple errors.</p>
+</div>
+
+    
+    
+      <div class="chevrons">
+  <style>
+    .workshop-complete-image {
+        margin: 40px auto 50px auto;
+        width: 340.8px;
+    }
+    
+    .workshop-complete-words {
+        font-family: Space Mono, monospace;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        text-align: center;
+    }
+    
+    .horizontal-bar {
+        background-color: #000000;
+        width: 120px;
+        height: 12px;
+        margin: 80px auto 0 auto;
+    }
+</style>
+
+
+    <div id="navigation">
+            <div class="next-prev-wrapper-div"><a class='nav nav-prev' href="/debugging/01-overview/" title="An Overview of Debugging">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Previous:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                An Overview of Debugging
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="prevbutton-image">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+        
+    </div>
+</a></div>
+            <div class="next-prev-wrapper-div"><a class='nav nav-next' href="/debugging/03-identify-the-problem2/" title="Step 1 - Finding the problem (Part 2)">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Up Next:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Step 1 - Finding the problem (Part 2)
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="nextbutton-image">
+            <i class="fa fa-arrow-right"></i>
+        </div>
+        
+    </div>
+</a></div>
+        </div>
+</div>
+
+</section>
+</article>
+
+<footer>
+  <div class="footline">
+    
+
+    
+
+    
+
+    
+    <div class="github-link">
+      <a href="https://github.com/NuevoFoundation/workshops/tree/master/content/debugging/02-identify-the-problem1.md" target="blank"><i
+          class="fa fa-code-fork"></i>
+        </a>
+    </div>
+    
+  </div>
+
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+    
+
+    
+    
+
+    <div id="footer" class="row">
+    <div class="col-xs-12">
+        <div class="App-footer">
+            <div class="App-footer-big">
+                Join the conversation on social media.
+            </div>
+            <div class="social-images">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Instagram" class="fab fa-2x fa-instagram"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation X" class="fab fa-2x fa-x-twitter"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Facebook" class="fab fa-2x fa-1x fa-facebook-f"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-2x fa-linkedin"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/nuevofoundation?sub_confirmation=1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation YouTube" class="fab fa-2x fa-youtube"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Spotify" class="fab fa-2x fa-spotify"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Github" class="fab fa-2x fa-github"></i>
+                </a>
+            </div>
+            <div class="App-footer-small">
+                © Copyright 2025, All Rights Reserved by Nuevo Foundation, a 501(c)(3) nonprofit.
+            </div>
+        </div>
+    </div>
+</div>
+
+  </body>
+</html>

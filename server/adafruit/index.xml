@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blocks: Adafruit Musical Fruit Programming on Nuevo Foundation Workshops</title>
+    <link>/adafruit/</link>
+    <description>Recent content in Blocks: Adafruit Musical Fruit Programming on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/adafruit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building the DJ station</title>
+      <link>/adafruit/building-the-dj-station/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/adafruit/building-the-dj-station/</guid>
+      <description>&lt;h2 id=&#34;hooking-up-the-oranges&#34;&gt;Hooking up the oranges&lt;/h2&gt;&#xA;&lt;p&gt;Grab an orange and one of your wires. Open up one of the alligator clips and insert the bottom half into the orange, leaving the top part of the clip on the outside. This is easiest to do if you insert it in the middle of the bottom of the orange. The same spot where you’d start peeling if you were going to eat the orange.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Creating the Program</title>
+      <link>/adafruit/creating-the-program/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/adafruit/creating-the-program/</guid>
+      <description>&lt;p&gt;Open your favorite internet browser (such as Edge, Firefox, Google Chrome, Internet Explorer), and go to &lt;a href=&#34;https://aka.ms/oranges&#34; target=&#34;_blank&#34;&gt;https://aka.ms/oranges&lt;sup&gt;&lt;span class=&#34;glyphicon glyphicon-new-window&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/sup&gt;&lt;/a&gt;&#xD;&#xA;. Your screen should look like this:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/adafruit.png?classes=border,shadow&#34; alt=&#34;Cannot load image&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;defining-the-variables&#34;&gt;Defining the Variables&lt;/h2&gt;&#xA;&lt;p&gt;Today we are going to be using oranges to tell our Adafruit when to make noise. The first thing we need to do is give the computer a name for each orange and where to look for what they are saying. We do the first part by defining a variable. Click on the section that says VARIABLES, it is salmon colored and 7th from the top. Then define a variable by clicking on Make a Variable and giving it a name. Do this twice, here we define ours as analog1 and analog2 but you can call them whatever you want.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Downloading your program</title>
+      <link>/adafruit/downloading-your-program/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/adafruit/downloading-your-program/</guid>
+      <description>&lt;p&gt;At the bottom of your workspace you should see this bright pink download button next to the name of your program. You can name your program anything, here it’s called adafruit_musicalfruit. Click on the download button.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/download1.png?classes=border,shadow&#34; alt=&#34;Cannot load image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;You should see a window popping up, asking where to save your file. It should default to the Downloads folder, if not, navigate to your downloads folder and save the file there.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Answer Key - Adafruit</title>
+      <link>/adafruit/answer-key/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/adafruit/answer-key/</guid>
+      <description>&lt;h3 id=&#34;setup&#34;&gt;Setup&lt;/h3&gt;&#xA;&lt;p&gt;In summary:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;The two alligator clips should be clipped into the surface of the oranges.&lt;/li&gt;&#xA;&lt;li&gt;The other side of the clips should be on the A1 and A2 inputs on the adafruit.&lt;/li&gt;&#xA;&lt;li&gt;The USB should be plugged in to the adafruit, but not into the computer.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;After setup, the oranges and adafruit should look like this:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/setupOverview.png?classes=border,shadow&#34; alt=&#34;Cannot load image&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;solution&#34;&gt;Solution&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/adafruit-basic-solution.png?classes=border,shadow&#34; alt=&#34;Cannot load image&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;solution---advanced-with-lights&#34;&gt;Solution - advanced (with lights)&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/adafruit-complex-solution.png?classes=border,shadow&#34; alt=&#34;Cannot load image&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

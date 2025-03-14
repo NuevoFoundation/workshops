@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JS: JSappyBird on Nuevo Foundation Workshops</title>
+    <link>/jsappybird/</link>
+    <description>Recent content in JS: JSappyBird on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 29 Jul 2020 13:24:17 -0700</lastBuildDate>
+    <atom:link href="/jsappybird/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Load the bird image &amp; change the screen text</title>
+      <link>/jsappybird/load-the-bird/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      <guid>/jsappybird/load-the-bird/</guid>
+      <description>&lt;p&gt;First of all let&amp;rsquo;s load Flappy and put it on the screen.&lt;/p&gt;&#xA;&lt;p&gt;Add below command in the file [File: load-sprites.js]&#xA;&lt;code&gt;&#xD; game.load.image(&#39;bird&#39;,&#39;assets/bird.png&#39;);&#xD; &lt;/code&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;working-together&#34;&gt;Working Together&lt;/h3&gt;&#xA;&lt;p&gt;In the Replit window below, we started the code with the line &lt;code&gt;game.load.image(&#39;bird&#39;, &#39;assets/bird.png&#39;);&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/loadbird.png&#34; alt=&#34;alt text&#34; title=&#34;image to add the bird in the file&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In your console you should see a Jsappy bird after you press &lt;strong&gt;run&lt;/strong&gt; and then the space bar:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/loadbird_output.png&#34; alt=&#34;alt text&#34; title=&#34;bird image in the output&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Make the bird jump &amp; add gravity</title>
+      <link>/jsappybird/jump/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      <guid>/jsappybird/jump/</guid>
+      <description>&lt;h3 id=&#34;what-should-we-do-with-the-bird&#34;&gt;What should we do with the bird?&lt;/h3&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s make him jump:&lt;/p&gt;&#xA;&lt;p&gt;Add below command in the file [File: create-game.js]&#xA;spaceKey.onDown.add(jump, this);&lt;/p&gt;&#xA;&lt;h3 id=&#34;working-together&#34;&gt;Working Together&lt;/h3&gt;&#xA;&lt;p&gt;In the Replit window below, we started the code with the line &lt;code&gt;spaceKey.onDown.add(jump, this);&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/jump.png&#34; alt=&#34;alt text&#34; title=&#34;image to add jump down&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In your console you should see a Jsappy bird jumping after you press &lt;strong&gt;run&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/jump_output.png&#34; alt=&#34;alt text&#34; title=&#34;Image of jumping bird&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;add-gravity&#34;&gt;Add gravity&lt;/h2&gt;&#xA;&lt;h3 id=&#34;working-together-1&#34;&gt;Working Together&lt;/h3&gt;&#xA;&lt;p&gt;In the Replit window below, we started the code with the line &lt;code&gt;bird.body.gravity.y = 900;&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Make the bird jump with force &amp; falling with rotation</title>
+      <link>/jsappybird/jump-force/</link>
+      <pubDate>Wed, 29 Jul 2020 13:24:17 -0700</pubDate>
+      <guid>/jsappybird/jump-force/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s add force to the bird&lt;/p&gt;&#xA;&lt;p&gt;Add the below command in the file [File: create-game.js]&#xA;bird.body.velocity.y = -350;&lt;/p&gt;&#xA;&lt;div class=&#34;notices tip&#34; &gt;&#xD;&#xA;    &lt;p header-value=&#34;Tip&#34;&gt;&lt;h2 id=&#34;working-together&#34;&gt;Working Together&lt;/h2&gt;&#xA;&lt;p&gt;In the Replit window below, we started the code with the line &lt;code&gt;bird.body.velocity.y = -350;&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/jump_force.png&#34; alt=&#34;alt text&#34; title=&#34;image to add gravity to the bird&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In your console you should see a JSappy bird jumping with force after you press &lt;strong&gt;run&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/jump_output.png&#34; alt=&#34;alt text&#34; title=&#34;bird jumping with gravity&#34;&gt;&lt;/p&gt;&#xA;&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;h2 id=&#34;bonus-activity&#34;&gt;Bonus Activity&lt;/h2&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s make the bird jump up and forwards:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Add sound while the bird is jumping &amp; bonus</title>
+      <link>/jsappybird/add-jump-sound/</link>
+      <pubDate>Wed, 29 Jul 2020 13:24:17 -0700</pubDate>
+      <guid>/jsappybird/add-jump-sound/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s add sounds to the bird while it is jumping&lt;/p&gt;&#xA;&lt;p&gt;Add the below command in the file [File: create-game.js]&#xA;jumpSound.play();&lt;/p&gt;&#xA;&lt;div class=&#34;notices tip&#34; &gt;&#xD;&#xA;    &lt;p header-value=&#34;Tip&#34;&gt;&lt;h2 id=&#34;working-together&#34;&gt;Working Together&lt;/h2&gt;&#xA;&lt;p&gt;In the Replit window below, we started the code with the line &lt;code&gt;jumpSound.play();&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/jump_sound.png&#34; alt=&#34;alt text&#34; title=&#34;image to add sound to the bird&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In your console you should see a Jsappy bird jumping with sound after you press &lt;strong&gt;run&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;h1 id=&#34;bonus-activities&#34;&gt;Bonus activities&lt;/h1&gt;&#xA;&lt;div class=&#34;notices note&#34; &gt;&#xD;&#xA;    &lt;p header-value=&#34;Note&#34;&gt;&lt;ul&gt;&#xA;&lt;li&gt;What happens if we make gravity stronger?&lt;/li&gt;&#xA;&lt;li&gt;What happens if we make gravity have a negative value?&lt;/li&gt;&#xA;&lt;li&gt;What other wacky ways can the bird jump?&lt;/li&gt;&#xA;&lt;li&gt;How can we make him rotate quicker?&lt;/li&gt;&#xA;&lt;li&gt;What happens if we remove the &amp;lsquo;if&amp;rsquo; around the rotation?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C: The Debugging Process on Nuevo Foundation Workshops</title>
+    <link>/debugging/</link>
+    <description>Recent content in C: The Debugging Process on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/debugging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An Overview of Debugging</title>
+      <link>/debugging/01-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/debugging/01-overview/</guid>
+      <description>&lt;p&gt;There are many different ways to debug a program. In this guide, we’ll start off with some general steps so that you don’t get lost when you debug a program. There are 3 basic steps to debugging a program:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Identify the problem&lt;/strong&gt;. In this step, your goal is to identify what is causing the bug. This involves finding the conditions that led to the bug. Being able to reproduce the bug gives you some of the information you need, which lets you narrow down the problem and perhaps helps you understand why the bug is occurring in the first place.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Step 1 - Finding the problem (Part 1)</title>
+      <link>/debugging/02-identify-the-problem1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/debugging/02-identify-the-problem1/</guid>
+      <description>&lt;h2 id=&#34;compiler-errors&#34;&gt;Compiler Errors&lt;/h2&gt;&#xA;&lt;p&gt;Let’s start and take a look at one of the first daunting problems a novice programmer faces: &lt;strong&gt;reading&lt;/strong&gt; and &lt;strong&gt;understanding&lt;/strong&gt; errors.&lt;/p&gt;&#xA;&lt;p&gt;There are two kinds of errors: &lt;strong&gt;compiler&lt;/strong&gt; and &lt;strong&gt;runtime&lt;/strong&gt; errors.&lt;/p&gt;&#xA;&lt;p&gt;A &lt;strong&gt;compiler&lt;/strong&gt; error usually indicates a problem with your syntax. Perhaps you wanted to express an idea in the program but didn&amp;rsquo;t adhere to the rules of the programming language. These are caught when you compile your program. Compiler errors are nice because they are relatively easy to fix. Compilers like &lt;code&gt;gcc&lt;/code&gt; usually give a lot of information about what went wrong when the code is compiled. Let’s explore some of these errors.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Step 1 - Finding the problem (Part 2)</title>
+      <link>/debugging/03-identify-the-problem2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/debugging/03-identify-the-problem2/</guid>
+      <description>&lt;h2 id=&#34;runtime-errors&#34;&gt;Runtime Errors&lt;/h2&gt;&#xA;&lt;p&gt;Compiler errors are one thing, but &lt;strong&gt;runtime errors and bugs&lt;/strong&gt; are another. While the compiler can easily tell you where to look, runtime bugs are caused by how your program executes. We need to understand what the program is doing when the bug happens:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;What variables are being used?&lt;/li&gt;&#xA;&lt;li&gt;Which instruction is being called?&lt;/li&gt;&#xA;&lt;li&gt;Is there a missing statement we needed?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;In smaller applications, we can use &lt;strong&gt;print statements&lt;/strong&gt; in the code to quickly figure out the program’s running state. Print statements are a quick and dirty way to look into a program as it’s running, and with luck, you’ll be able to find what’s causing the bug without much struggle.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Step 1 - Finding the problem (Part 3)</title>
+      <link>/debugging/04-identify-the-problem3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/debugging/04-identify-the-problem3/</guid>
+      <description>&lt;h2 id=&#34;debuggers&#34;&gt;Debuggers&lt;/h2&gt;&#xA;&lt;p&gt;Debugging code is such a widespread, common problem that people have built entire programs designed to help other programmers debug more efficiently. These are suitably named &lt;strong&gt;debuggers&lt;/strong&gt;, and there are plenty of debuggers that work for the C programming language. Let&amp;rsquo;s take a look at &lt;code&gt;gdb&lt;/code&gt;, a common debugger used with the command line.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a class=&#34;my-2 mx-4 btn btn-info&#34; href=&#34;https://replit.com/@nuevofoundation/Debugging-Samples-C&#34; target=&#34;_blank&#34;&gt;Launch Replit&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;For our examples, we will make use of the &lt;a href=&#34;https://www.youtube.com/watch?v=SLauY6PpjW4&#34; target=&#34;_blank&#34;&gt;Quicksort&lt;/a&gt; algorithm.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Step 1 - Finding the problem (Part 4)</title>
+      <link>/debugging/05-identify-the-problem4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/debugging/05-identify-the-problem4/</guid>
+      <description>&lt;h2 id=&#34;another-type-of-bug-memory-errors&#34;&gt;Another Type of Bug: Memory Errors&lt;/h2&gt;&#xA;&lt;p&gt;A C/C++’s nightmare, memory errors are one of the most frustrating kinds of bugs that exist. Failing to address them can result in undefined behavior (non-replicable bugs!) and memory leaks. Thus, fixing them is a huge priority.&lt;/p&gt;&#xA;&lt;div class=&#34;notices note&#34; &gt;&#xD;&#xA;    &lt;p header-value=&#34;Note&#34;&gt;A memory leak happens when your program allocates memory using malloc or calloc (or other memory allocation calls), and doesn’t free it. The memory is “lost” - there’s no (easy) way to retrieve it until the program terminates.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Step 2 - Fixing the problem</title>
+      <link>/debugging/06-fixing-the-problem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/debugging/06-fixing-the-problem/</guid>
+      <description>&lt;p&gt;Once you’ve figured out what’s causing the bug, you can start thinking about how to fix the bug. Compiler errors are easy enough - most of the time, the compiler gives you plenty of hints on how to fix it, and during times you can’t figure it out by compiler output alone, you can turn to the web. Chances are, someone ran into the same problem as you years ago and asked the question already on a forum such as &lt;a href=&#34;https://stackoverflow.com/&#34; target=&#34;_blank&#34;&gt;StackOverflow&lt;sup&gt;&lt;span class=&#34;glyphicon glyphicon-new-window&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/sup&gt;&lt;/a&gt;&#xD;&#xA;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Step 3 - Testing</title>
+      <link>/debugging/07-testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/debugging/07-testing/</guid>
+      <description>&lt;p&gt;You’ve implemented the fix(es) for your bug(s). Naturally, the first thing you do is recompile your code and run it. If it looks right, you’ve fixed the bug! For smaller projects, this works relatively well. Larger projects might be more difficult since it takes much longer to compile. Typically, these have automated tests that are run automatically after updates are made to the codebase so programmers don&amp;rsquo;t even need to worry too much about this step (except for the programmers making the tests!).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Exercise 1 - Binary Tree Implementation</title>
+      <link>/debugging/e1-binary-tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/debugging/e1-binary-tree/</guid>
+      <description>&lt;p&gt;The binary tree is one of the simplest data structures in computer science and the ideas it uses are very useful. It stores sortable data and boasts an optimal runtime of O(log n) for searching, adding, and removing elements. However, this performance depends heavily on the order in which elements are added or removed, which limits its use to academic discussion.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-theory&#34;&gt;The Theory&lt;/h2&gt;&#xA;&lt;p&gt;A binary tree consists of many nodes that are linked together. Each node has a parent nodes, or its predecessor, and up to two children nodes. A node that has no children is called a leaf.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Exercise 2 - Binary Heap Implementation</title>
+      <link>/debugging/e2-binary-heap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/debugging/e2-binary-heap/</guid>
+      <description>&lt;p&gt;A binary heap is an important data structure used most often to implement a data type called a priority queue. It is also used conceptually in sorting algorithm called heapsort. Its distinctive feature is its &lt;code&gt;O(1)&lt;/code&gt; query for the largest or smallest value within its contents, depending on what kind of heap we are talking about.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-theory&#34;&gt;The Theory&lt;/h2&gt;&#xA;&lt;p&gt;The binary heap is conceptually a complete binary tree. This means that nodes are added to the tree in level order, and the depth of the tree increases only when there is no room the deepest tree level.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Exercise 3 - The Burrows-Wheeler Transform</title>
+      <link>/debugging/e3-burrows-wheeler-transform/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/debugging/e3-burrows-wheeler-transform/</guid>
+      <description>&lt;p&gt;The Burrows-Wheeler transform (BWT) is an algorithm used in data compression. It takes as an input a string, and outputs an encoded string, which usually has similar characters clustered together.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-theory&#34;&gt;The Theory&lt;/h2&gt;&#xA;&lt;p&gt;The algorithm is relatively straightforward and easy to understand.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Take the input string and extract all of its rotational transformations. (See picture).&lt;/li&gt;&#xA;&lt;li&gt;Sort the rotations in lexicographical order, ascending.&lt;/li&gt;&#xA;&lt;li&gt;Take the last column of the sorted transform; this is the output.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../resources/e3-01.png&#34; alt=&#34;Burrows-Wheeler Transform&#34; title=&#34;The 3 steps of a Burrows Wheeler Transform&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

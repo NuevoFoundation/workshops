@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python: crie música com EarSketch on Nuevo Foundation Workshops</title>
+    <link>/pt-br/python-earsketch/</link>
+    <description>Recent content in Python: crie música com EarSketch on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Tue, 23 Jul 2019 11:45:38 -0700</lastBuildDate>
+    <atom:link href="/pt-br/python-earsketch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fundamentos de Música</title>
+      <link>/pt-br/python-earsketch/music-basics/</link>
+      <pubDate>Tue, 23 Jul 2019 11:45:38 -0700</pubDate>
+      <guid>/pt-br/python-earsketch/music-basics/</guid>
+      <description>&lt;h2 id=&#34;os-fundamentos-primeiro-algumas-coisas-sobre-música&#34;&gt;Os fundamentos primeiro. Algumas coisas sobre música.&lt;/h2&gt;&#xA;&lt;h2 id=&#34;o-que-é-música&#34;&gt;O que é música?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://en.wikiversity.org/wiki/Introduction_to_music&#34; target=&#34;_blank&#34;&gt;Música&lt;sup&gt;&lt;span class=&#34;glyphicon glyphicon-new-window&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/sup&gt;&lt;/a&gt;&#xD;&#xA; é a organização cronológica de sons; isto é, emitir certos sons em determinados momentos, que tenham sentido melódico, rítmico e harmônico. O primeiro conceito, mais básico, é manter os sons “no tempo”. Isso nos leva a alguns dos primeiros conceitos musicais: batida, ritmo, duração e tempo.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Batida&lt;/strong&gt; (Beat) é o pulso regular que fornece uma &lt;code&gt;linha do tempo&lt;/code&gt; para o&#xA;ritmo para se ancorar.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Ritmo&lt;/strong&gt; (Rhythm) é essencialmente padrões repetidos de sons ou silêncios longos ou curtos, acentuados ou átonos, que se encaixam na batida principal.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Duração&lt;/strong&gt; (Duration) é a duração das notas ou sons ou silêncios que facilitam o ritmo.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tempo&lt;/strong&gt; é a velocidade com que uma peça musical é tocada.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Fundamentos de `Python</title>
+      <link>/pt-br/python-earsketch/python-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pt-br/python-earsketch/python-basics/</guid>
+      <description>&lt;h1 id=&#34;python-fundamentos&#34;&gt;Python: Fundamentos&lt;/h1&gt;&#xA;&lt;p&gt;Para codificar música, precisamos aprender um pouco de Python. Não se preocupe, isso não vai te morder. Python é uma das linguagens que nós, humanos, usamos para dizer aos computadores o que fazer. Essas linguagens são conhecidas como “linguagens de programação”. Aprenderemos conceitos de Python ao longo da aula, mas vamos começar com uma simples declaração print.&lt;/p&gt;&#xA;&lt;p&gt;Se você quiser ir para uma seção específica do Python, clique no tópico&#xA;abaixo:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introdução ao Earsketch</title>
+      <link>/pt-br/python-earsketch/getting-started-earsketch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pt-br/python-earsketch/getting-started-earsketch/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/EarSketch&#34; target=&#34;_blank&#34;&gt;EarSketch&lt;sup&gt;&lt;span class=&#34;glyphicon glyphicon-new-window&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/sup&gt;&lt;/a&gt;&#xD;&#xA; é um ambiente de programação educacional gratuito desenvolvido no Georgia Institute of Technology. Iremos compor músicas usando EarSketch hoje.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Para fazer música, clique no botão abaixo para abrir o Earsketch em uma nova aba.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;a class=&#34;my-2 mx-4 btn btn-info&#34; href=&#34;https://earsketch.gatech.edu/earsketch2/&#34; target=&#34;_blank&#34;&gt;Iniciar Earsketch&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Agora vamos começar. Clique no ícone &lt;em&gt;Scripts&lt;/em&gt; na barra de menu esquerda e&#xA;selecione &lt;em&gt;Create a new script&lt;/em&gt;. Quando solicitado a inserir o nome do script, digite &lt;em&gt;myjam&lt;/em&gt; e clique no botão &lt;em&gt;Create&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../gif/createanewscript.gif&#34; alt=&#34;texto alternativo height=“600px” width=“60%”&#34; title=&#34;Nova demonstração de script&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Atividade 1 – Defina o andamento e adicione sons</title>
+      <link>/pt-br/python-earsketch/activity-1-set-tempo-add-sounds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pt-br/python-earsketch/activity-1-set-tempo-add-sounds/</guid>
+      <description>&lt;p&gt;Vamos dar uma olhada mais de perto no código pré-existente e entender o que ele significa. &lt;img src=&#34;../img/annotated-screenshot-overview.png&#34; alt=&#34;captura de tela anotada não pode ser exibida&#34;&gt; Colocaremos nosso novo código entre as funções &lt;code&gt;setTempo()&lt;/code&gt; e &lt;code&gt;finish()&lt;/code&gt;. A função &lt;code&gt;setTempo()&lt;/code&gt; permite definir o andamento geral do projeto.&lt;/p&gt;&#xA;&lt;div class=&#34;notices info&#34; &gt;&#xD;&#xA;    &lt;p header-value=&#34;Informação&#34;&gt;&lt;p&gt;&lt;strong&gt;Dica&lt;/strong&gt;: Tempo é a velocidade com que uma peça de música é tocada. Alterar o tempo de um projeto permite que diferentes estilos de música sejam criados. Tente alterar o tempo da sua função &lt;code&gt;setTempo&lt;/code&gt; e veja o que acontece! Verifique se é um número entre 45-220.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Atividade 2 – Faça uma música!</title>
+      <link>/pt-br/python-earsketch/activity-2-make-a-song/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pt-br/python-earsketch/activity-2-make-a-song/</guid>
+      <description>&lt;p&gt;Agora que você aprendeu como adicionar sons ao Earsketch, vamos tentar fazer uma música! Você já deve ter um clipe de áudio no Earsketch, mas&#xA;as músicas são compostas por vários instrumentos, por isso precisamos adicionar mais clipes de áudio.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Adicione outra chamada &lt;code&gt;fitMedia()&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Encontre um clipe de áudio que você gostaria de adicionar à sua música atual e insira-o no parâmetro &lt;code&gt;fileName&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;O parâmetro &lt;code&gt;trackNumber&lt;/code&gt; deve ser um número único. Isso nos permitirá colocar nossos sons em faixas diferentes. Ter sons diferentes em faixas diferentes nos permite manter a organização dos nossos sons e reproduzir sons diferentes ao mesmo tempo. Exemplo: Se a primeira chamada &lt;code&gt;fitMedia()&lt;/code&gt; estiver na trilha 1, a segunda chamada &lt;code&gt;fitMedia()&lt;/code&gt; deverá estar na trilha 2.&lt;/li&gt;&#xA;&lt;li&gt;Preencha o restante dos parâmetros.&lt;/li&gt;&#xA;&lt;li&gt;Repita essas etapas até ter quatro sons de áudio diferentes em sua música.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Seu código agora deve ser parecido com isto:&#xA;&lt;div class=&#34;notices info&#34; &gt;&#xA;&lt;p header-value=&#34;Informação&#34;&gt;&lt;pre&gt;&lt;code&gt;from earsketch import *&lt;br&gt;&#xA;init()&#xA;setTempo(120)&lt;br&gt;&#xA;fitMedia(RD_TRAP_BELLLEAD_1, 1, 5, 9)&#xA;fitMedia(YG_TRAP_STRINGS_2, 2, 1, 17)&#xA;fitMedia(YG_TRAP_ELECTRIC_PIANO_FILTERED_1, 3, 1, 17)&#xA;fitMedia(YG_TRAP_BASS_9, 4, 1, 9)&lt;br&gt;&#xA;finish()&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Atividade 3 - Organize sua música usando funções</title>
+      <link>/pt-br/python-earsketch/activity-3-organize-songs-using-functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pt-br/python-earsketch/activity-3-organize-songs-using-functions/</guid>
+      <description>&lt;p&gt;No EarSketch, as funções são usadas principalmente para organizar diferentes seções de uma música. A forma musical mais comum é A-B-A onde cada seção é&#xA;quatro compassos de duração, e as seções A soam diferentes da seção B.&lt;/p&gt;&#xA;&lt;p&gt;Agora que aprendemos como usar as funções, vamos tentar utilizá-las para organizar melhor nossas músicas.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Defina sua função com um parâmetro &lt;code&gt;startMeasure&lt;/code&gt; e um parâmetro &lt;code&gt;endMeasure&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Coloque os sons que você gostaria que a função representasse abaixo da definição da sua função.&lt;/li&gt;&#xA;&lt;li&gt;Tente fazer múltiplas seções de uma música (verso, refrão, introdução, etc.) e defina-as com suas funções. Se você não fizer isso e usar apenas múltiplas chamadas &lt;code&gt;fitMedia&lt;/code&gt;, você notará que seu programa se tornará longo e difícil de entender. Para ajudar a evitar um arquivo de projeto grande, use funções!&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Seu código agora deve ser parecido com isto:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Atividade 4 - Adicione efeitos à sua música</title>
+      <link>/pt-br/python-earsketch/activity-4-add-effects-to-your-songs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pt-br/python-earsketch/activity-4-add-effects-to-your-songs/</guid>
+      <description>&lt;h2 id=&#34;efeitos-no-earsketch&#34;&gt;Efeitos no EarSketch&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Efeitos&lt;/strong&gt; permitem que o produtor altere o som do clipe de áudio&#xA;em seu próprio som único. Semelhante a como usamos &lt;code&gt;fitMedia()&lt;/code&gt; para adicionar&#xA;novos clipes de áudio, devemos usar a função &lt;code&gt;setEffect()&lt;/code&gt; para definir&#xA;efeitos específicos para cada clipe de áudio. É importante notar que&#xA;vários efeitos podem ser colocados na mesma trilha. Isto&#xA;permite ao produtor combinar vários efeitos juntos. Earsketch tem muitos&#xA;efeitos integrados. Para fazer referência a todos os efeitos, visite este&#xA;&lt;a href=&#34;https://earsketch.gatech.edu/earsketch2/#?curriculum=5-1-0&amp;amp;language=python&#34; target=&#34;_blank&#34;&gt;link&lt;sup&gt;&lt;span class=&#34;glyphicon glyphicon-new-window&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/sup&gt;&lt;/a&gt;&#xD;&#xA; e certifique-se de que o painel &lt;em&gt;Curriculum&lt;/em&gt; esteja selecionado na barra de navegação.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Atividade 5 - Use efeitos para fade in</title>
+      <link>/pt-br/python-earsketch/activity-5-use-effects-to-fade-in/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pt-br/python-earsketch/activity-5-use-effects-to-fade-in/</guid>
+      <description>&lt;p&gt;Agora que você tem um efeito em sua música, vamos tentar fazer um fade in (aparecimento) na introdução de nossa música.&lt;/p&gt;&#xA;&lt;p&gt;Na atividade 4, usamos a função &lt;code&gt;setEffect&lt;/code&gt; para aplicar um efeito a uma faixa específica durante toda a duração da música, mas e se você quiser que apenas uma seção específica da sua música tenha efeito?&#xA;Use o &lt;code&gt;setEffect&lt;/code&gt; função com mais parâmetros!&#xA;&lt;img src=&#34;../img/screenshot-seteffect2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;effectStartValue&lt;/code&gt;: O valor inicial aplicado ao parâmetro&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;effectStartLocation&lt;/code&gt;: O compasso no qual o valor inicial é definido&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;effectEndValue&lt;/code&gt;: O valor final do parâmetro&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;effectEndLocation&lt;/code&gt;: O compasso no qual o valor final é definido&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Esta versão do &lt;code&gt;setEffect&lt;/code&gt; nos permite realizar &lt;em&gt;automação&lt;/em&gt;&#xA;em uma peça específica da nossa música. Automação é uma forma de mudar o valor&#xA;de um efeito ao longo do tempo. Um uso da automação é fazer com que uma música apareça gradualmente&#xA;ou desaparecer. Para fazer isso, devemos ajustar o &lt;strong&gt;GAIN&lt;/strong&gt; &lt;code&gt;effectParameter&lt;/code&gt;&amp;rsquo;s&#xA;volume no &lt;strong&gt;VOLUME&lt;/strong&gt; &lt;code&gt;effectType&lt;/code&gt; ao longo do tempo. Por exemplo, se nós&#xA;definirmos nosso &lt;code&gt;effectStartValue&lt;/code&gt; em -60 db e nosso &lt;code&gt;effectEndValue&lt;/code&gt; em 0&#xA;db, vai soar como se nossa música estivesse desaparecendo com o tempo. Para ajustar o&#xA;ponto inicial e duração do efeito, especifique o&#xA;&lt;code&gt;efeitoStartLocation&lt;/code&gt; e &lt;code&gt;efeitoEndLocation&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

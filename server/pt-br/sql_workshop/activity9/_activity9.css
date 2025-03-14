@@ -1,0 +1,96 @@
+/* Posiciona a caixa de texto do vault */
+.lock {
+  float: left;
+  width: 34%;
+  height: 20%;
+  border: 10px solid white;
+  border-radius: 5px;
+  resize: none;
+  margin: 17.0px;
+  text-align: center;
+  font-family: courier;
+  font-size: 50px;
+  padding: 10px 0px;
+  font-weight: bold;
+}
+
+#left_div {
+  float: left;
+  padding-top: 15%;
+  padding-left: 10%;
+  width: 50%;
+  height: 100%;
+}
+
+#right_div {
+  float: right;
+  padding-top: 31%;
+  padding-right: 17%;
+  width: 50%;
+  height: 100%;
+}
+
+/* Botões do Vault (Adicionando)*/
+.first_up, .sec_up {
+  float: left;
+  background-color:#42f56c;
+  border: none;
+  color: white;
+  text-align: center;
+  display: block;
+  font-size: 50px;
+  margin: 15.0px;
+  width: 34%;
+  line-height: 20px;
+  outline: none;
+}
+
+/* Botões do Vault (Subtração)*/
+.first_down, .sec_down {
+  float: left;
+  background-color: #FF0000;
+  border: none;
+  color: white;
+  text-align: center;
+  display: block;
+  font-size: 70px;
+  margin: 17.0px;
+  width: 34%;
+  line-height: 20px;
+  outline: none;
+  
+}
+
+/* Botão de confirmação do Vault */
+.vault_button {
+  text-align: left;
+  display: inline-block;
+  font-size: 20px;
+  font-family: courier;
+  color: #43a4e0;
+  font-weight: bold;
+  background-color: transparent;
+  outline: none;
+  width: 100px;
+  
+}
+
+/* Contêiner do Vault com imagem de fundo como vault */
+.vault_div {
+  background-image: url('assets/Vault.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 730px;
+  height: 550px;
+}
+
+/* Estilo de texto do gráfico*/
+h5 {
+  font-size: 20px;
+}
+
+/* Posição da imagem do buffet */
+.buffet {
+  display: inline-block;
+  pointer-events: none;
+}

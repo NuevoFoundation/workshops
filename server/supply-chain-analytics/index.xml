@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Supply Chain Analytics on Nuevo Foundation Workshops</title>
+    <link>/supply-chain-analytics/</link>
+    <description>Recent content in Supply Chain Analytics on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 13 Mar 2021 14:17:07 -0700</lastBuildDate>
+    <atom:link href="/supply-chain-analytics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting the Scene</title>
+      <link>/supply-chain-analytics/scenario/</link>
+      <pubDate>Sat, 13 Mar 2021 14:17:07 -0700</pubDate>
+      <guid>/supply-chain-analytics/scenario/</guid>
+      <description>&lt;p&gt;The new Xbox 1000 has just come out, and you NEED to get it. But to do so you’ll need to start saving a lot more than the money. After all the kids in school loved the cookies your mom baked for the school fundraiser, you had the genius idea to start up a bakery with her and split the profits 50-50!&lt;/p&gt;&#xA;&lt;p&gt;To start off, you’re just going to sell 2 cookies. After polling your friends, the top two cookies everyone loves are chocolate chip and sugar cookies.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Optimization - The Basics</title>
+      <link>/supply-chain-analytics/linearoptimizationbasics/</link>
+      <pubDate>Sat, 13 Mar 2021 14:17:07 -0700</pubDate>
+      <guid>/supply-chain-analytics/linearoptimizationbasics/</guid>
+      <description>&lt;h2 id=&#34;what-is-optimization&#34;&gt;What is optimization?&lt;/h2&gt;&#xA;&lt;p&gt;Official definition: A mathematical optimization model consists of an objective function and a set of constraints in the form of a system of equations or inequalities.&lt;/p&gt;&#xA;&lt;p&gt;Linear optimization may sound really complicated- and it can be. But to start off, you only really need to understand a few things.&lt;/p&gt;&#xA;&lt;h2 id=&#34;optimization&#34;&gt;Optimization&lt;/h2&gt;&#xA;&lt;p&gt;Optimization is how you make the most efficient decision when you have limited resources. For example, when you only have a limited amount of time you’re allowed to play on your Xbox, you want to make sure you’re playing your favorite game for the majority of that time so you’re using your time efficiently.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Solving Your Problem</title>
+      <link>/supply-chain-analytics/solverandsolving/</link>
+      <pubDate>Sat, 13 Mar 2021 14:17:07 -0700</pubDate>
+      <guid>/supply-chain-analytics/solverandsolving/</guid>
+      <description>&lt;p&gt;To run an optimization problem in Excel, you need to enable the add-on called “Solver.” Follow the link below for details or see the image below.&lt;/p&gt;&#xA; &lt;img src= ../img/Download_Excel_solver.jpg alt=&#34;Screenshot of steps to download Excel solver&#34; width=&#34;800&#34; height=&#34;600&#34;&gt;&#xD;&#xA;&lt;p&gt;Click &lt;a href=&#34;https://support.microsoft.com/en-us/office/load-the-solver-add-in-in-excel-612926fc-d53b-46b4-872c-e24772f078ca&#34; target=&#34;_blank&#34;&gt;here&lt;sup&gt;&lt;span class=&#34;glyphicon glyphicon-new-window&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/sup&gt;&lt;/a&gt;&#xD;&#xA; for more help if you are having trouble.&lt;/p&gt;&#xA;&lt;p&gt;You can find your solver add-in by clicking on “data” and then “solver” in the header.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/solver.jpg&#34; alt=&#34;Screenshot of where to find “Solver” add in on the header bar&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Extra Challenge</title>
+      <link>/supply-chain-analytics/challenge/</link>
+      <pubDate>Sat, 13 Mar 2021 14:17:07 -0700</pubDate>
+      <guid>/supply-chain-analytics/challenge/</guid>
+      <description>&lt;p&gt;One of the fences have broken loose in the farm and all the chickens and hens escaped! Because of this, we’re short on eggs and we now have to change the maximum capacity of eggs from 24 to 15. ☹&lt;/p&gt;&#xA;&lt;p&gt;Can you calculate what the new optimal cookie quantities should be? How much did your profit change due to the shortage?&lt;/p&gt;&#xA;&lt;div class=&#34;notices hint&#34; &gt;&#xD;&#xA;    &lt;p header-value=&#34;Hint&#34;&gt;Change the cell that has the capacity constraint for the eggs from 24 to 15, and then re-run the Solver! You won’t have to change anything in Solver if you set up your formulas correctly, you’ll only need to change the cell value.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

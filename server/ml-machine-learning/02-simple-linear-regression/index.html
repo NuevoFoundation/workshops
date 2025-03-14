@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nuevo Foundation Workshops</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+<meta name="theme-color" content="#000000" />
+<meta name="revised" content="2025-03-14T18:59:43 -03">
+<meta name="application-name" content=" " />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+<title>Simple Linear Regression :: Nuevo Foundation Workshops</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+
+<link rel="shortcut icon" href="https://www.nuevofoundation.org/favicons/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57"
+      href="https://www.nuevofoundation.org/favicons//apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120"
+      href="https://www.nuevofoundation.org/favicons/pple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-128.png" sizes=" 128x128" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="/css/nuevoweb.css" />
+<link rel="stylesheet" href="/css/chunk.css" />
+<link rel="stylesheet" href="/css/data-style.css" />
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+
+<script lang="JavaScript">
+
+      function toggleVisibility() {
+
+            
+            const menu = document.getElementById("mobile-nav-menu");
+            if (menu.style.display == 'none') {
+                  menu.classList.replace("transition-out", "transition-in")
+                  menu.style.display = 'block';
+            }
+            else if (menu.style.display == 'block') {
+                  menu.classList.replace("transition-in", "transition-out")
+                  menu.style.display = 'none';
+            }
+      }
+</script>
+<meta
+  name="description"
+  content="
+
+    Make computers learn to predict outcomes.
+"
+/>
+
+
+    
+  </head>
+  <body data-url="/ml-machine-learning/02-simple-linear-regression/" >
+    
+      <header>
+  
+  <div id="mobile-nav-menu" class="transition-out" style="display: none;">
+    <div class="close-btn" onclick="toggleVisibility();">
+        <i aria-hidden="true" focusable="false" style="cursor: pointer;" class="fa fa-times fa-w-11 fa-sm"></i>
+    </div>
+    <div>
+        <div class="sc-dNLxif ecnYUM">
+            <a href="/support-us"><button class="sc-jbKcbu sedGx"
+                    style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: 4px solid rgb(0, 0, 0); border-radius: 4px;">
+                    Donate
+                </button></a>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/what-we-do">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>What We Do</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/get-involved">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Get Involved</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/support-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Support us</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/blog">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Event blog</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/about-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Our team</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/contact">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Contact us</li>
+            </ul>
+        </a>
+    </div>
+</div>
+<div>
+    <div class="sc-gGBfsJ iKkPGj">
+        <div class="container-fluid">
+            <div id="toprow" class="row">
+                <div class="col-xs-12">
+                    <div class="sc-EHOje fJMnSm">
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.instagram.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation Instagram" class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://twitter.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation X" class="fab fa-x-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Facebook" class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.linkedin.com/company/nuevofoundation">
+                                <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://www.youtube.com/nuevofoundation?sub_confirmation=1n">
+                                <i aria-label="Nuevo Foundation YouTube" class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1">
+                                <i aria-label="Nuevo Foundation Spotify" class="fab fa-spotify"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://github.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Github" class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" rel="noopener noreferrer"
+                                href="https://nuevofoundation.org/support-us">Donate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="secondrow" class="row">
+                <div class="col-sm-12 hidden-xs">
+                    <div class="sc-htoDjs kjtfZK">
+                        <a class="sc-fjdhpX izNzAG active" aria-current="page" href="https://nuevofoundation.org">
+                            <img alt="Nuevo Foundation Logo" src="/images/Logo_long.0f097b90.svg"
+                                height="60px" />
+                        </a>
+                        <ul class="sc-iwsKbI bUOvG">
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/what-we-do">
+                                <li class="sc-gZMcBi Bomeo">What We Do</li>
+                            </a>
+                            <a class="izNzAG" href="/">
+                                <li class="sc-gZMcBi Bomeo-selected jgBGVn">Workshops<span></span></li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/get-involved">
+                                <li class="sc-gZMcBi Bomeo">Get Involved</li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/support-us">
+                                <li class="sc-gZMcBi Bomeo">Support us</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/blog">
+                                <li class="sc-gZMcBi Bomeo">Event blog</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/about-us">
+                                <li class="sc-gZMcBi Bomeo">Our team</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/contact">
+                                <li class="sc-gZMcBi Bomeo">Contact us</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <a class="sc-fjdhpX izNzAG active" aria-current="page" href="/">
+                                <img alt="Nuevo Foundation Logo" class="sc-dnqmqq emolVn"
+                                    src="/images/Logo_long.0f097b90.svg" height="60%" /></a>
+                        </div>
+                        <div class="col-xs-2" onclick="toggleVisibility();"
+                            style="padding-top: 4%; padding-left: 4%; cursor: pointer;">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                                class="svg-inline--fa fa-bars fa-w-14 fa-lg" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/ml-machine-learning/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/ml-machine-learning/">Machine Learning: Linear Regression</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/ml-machine-learning/01-regression/" class="dd-item">
+        <div>
+          <a href="/ml-machine-learning/01-regression/">
+            What is regression?
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/ml-machine-learning/02-simple-linear-regression/" class="dd-item active">
+        <div>
+          <a href="/ml-machine-learning/02-simple-linear-regression/">
+            Simple Linear Regression
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/ml-machine-learning/03-confidence-intervals/" class="dd-item">
+        <div>
+          <a href="/ml-machine-learning/03-confidence-intervals/">
+            Confidence Interval
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/ml-machine-learning/04-model-fit/" class="dd-item">
+        <div>
+          <a href="/ml-machine-learning/04-model-fit/">
+            Model Fit
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/ml-machine-learning/05-making-predictions/" class="dd-item">
+        <div>
+          <a href="/ml-machine-learning/05-making-predictions/">
+            Making Predictions
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+    </ul>
+
+    <section>
+    </section>
+  </aside>
+  <section class="page">
+    <div align="right">
+<select id="select-language" onchange="location = this.value;">
+	
+	
+	
+	  
+	  
+	    
+	      
+	        <option id="en" value="/ml-machine-learning/02-simple-linear-regression/" selected>English</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="kr" value="/kr/ml-machine-learning/02-simple-linear-regression/">한국어</option>
+	      
+	    
+	  
+	    
+	  
+	
+</select>
+    </div>
+
+    <div class="nav-select">
+      Navigation:&nbsp;
+      <select onchange="javascript:location.href = this.value;">
+        
+<option value="/ml-machine-learning/" >
+   Machine Learning: Linear Regression</option>
+
+<option value="/ml-machine-learning/01-regression/" >- What is regression?</option>
+<option value="/ml-machine-learning/02-simple-linear-regression/"  selected>- Simple Linear Regression</option>
+<option value="/ml-machine-learning/03-confidence-intervals/" >- Confidence Interval</option>
+<option value="/ml-machine-learning/04-model-fit/" >- Model Fit</option>
+<option value="/ml-machine-learning/05-making-predictions/" >- Making Predictions</option>
+
+
+
+      </select>
+
+    </div>
+    
+
+    <h1>Simple Linear Regression</h1>
+
+    
+
+    
+
+    
+    
+    
+    
+    <h1 id="what-is-simple-linear-regression">What is simple linear regression?</h1>
+<p>Simple linear regression aims to find a correlation between two variables and derive mathematical equations that explain the relationships between a dependent and an independent variable. With simple linear regression in general, we want to reach the conclusion:</p>
+<ol>
+<li>
+<p>Is there a <strong>relationship</strong> between the variables we have?</p>
+<p>You can determine the relationship between income and spending, experience and salary, or humidity and temperature. But, as an example, there is NO relationship between the height of a student and their exam scores.</p>
+</li>
+<li>
+<p>Can we <strong>forecast / predict</strong> values with this?</p>
+<p>With regression, we can train the model and find out if we can predict values with certainty. Can we use what we know about the relationship to predict new values?</p>
+<p>Example: What will be the temperature tomorrow? How much will my bakery sell this year compared to last year? How much will my salary be if I have 5 years of experience?</p>
+</li>
+</ol>
+<h1 id="variable-roles">Variable roles</h1>
+<p>In simple linear regression, variables can take one of 2 roles.</p>
+<ol>
+<li>
+<p><strong>Dependent Variable</strong></p>
+<p>The variable whose value we want to predict or forecast. We call it <strong>dependent</strong> because its value depends on something else. We will call this variable <strong>y</strong>.</p>
+</li>
+<li>
+<p><strong>Independent Variables</strong></p>
+<p>This is the variable which we can control or change in order to affect the dependent variable. We will call this variable <strong>x</strong>.</p>
+<p>Example: If an apple costs $1.00, and you buy 10 of them the total cost will be $10.00. The dependent variable here is the <code>total cost</code> while the independent variable are the number of apples you want to buy.</p>
+</li>
+</ol>
+<h1 id="the-simple-linear-equation-mathematical-model">The Simple Linear Equation Mathematical Model</h1>
+<p>When we use simple linear regression we call it <strong>linear</strong> because, well&hellip; the mathematical model represents a straight line in a 2D plane. Let&rsquo;s think about it for a second.</p>
+<p>What is the math equation for a straight line?</p>
+<div class="expand">
+<div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fa fa-chevron-down' : 'fa fa-chevron-right';});});">
+<i style="font-size:x-small;" class="fa fa-chevron-right"></i>
+<span><strong>Click to show answer</strong></span>
+</div>
+<div class="expand-content" style="display: none;">
+<p><p>This equation may seem very familiar to you. If it is, it&rsquo;s the general equation for a straight line.</p>
+<h1>
+\[
+    y = ax + b
+\]
+</h1>
+<ul>
+<li><strong>x</strong> is the independent variable.</li>
+<li><strong>y</strong> is the dependent value.</li>
+<li><strong>a</strong> is the slope of the line.</li>
+<li><strong>b</strong> is the intercept or the value of <strong>y</strong> when <strong>x = 0</strong>.</li>
+</ul>
+<p>Following this equation we will elaborate on how simple linear regression math models calculate and predict new values.</p>
+</p>
+</div>
+</div>
+<h1 id="true-world-examples">True World Examples</h1>
+<p>In the real world, data sometimes is not linear and behaves differently to what we think. At first glance, it may seem that data has no relation at all. In the case of simple linear regression what you need to look for is data that somewhat follows a linear pattern.</p>
+<p>Suppose that you work as a <code>Data Analyst</code> for the human resources department of a company that has over 10,000 employees. Your boss wants to know if the years of experience of an employee has anything to do with the amount of money they win. Of course, since you are a <code>Data Analyst</code> you can check the database of employees and quickly verify the following:</p>
+<ol>
+<li>What is their current salary?</li>
+<li>How many years of experience does the person have?</li>
+</ol>
+<p>Assume that you are able to get data from 30 random employees which looks something like this:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center">Employee ID</th>
+          <th style="text-align: center">Years of Experience</th>
+          <th style="text-align: center">Salary</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">1</td>
+          <td style="text-align: center">1.1</td>
+          <td style="text-align: center">39343</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">2</td>
+          <td style="text-align: center">1.3</td>
+          <td style="text-align: center">46205</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">3</td>
+          <td style="text-align: center">1.5</td>
+          <td style="text-align: center">37731</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">4</td>
+          <td style="text-align: center">2.0</td>
+          <td style="text-align: center">43525</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">5</td>
+          <td style="text-align: center">2.2</td>
+          <td style="text-align: center">39891</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">6</td>
+          <td style="text-align: center">2.9</td>
+          <td style="text-align: center">56642</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">7</td>
+          <td style="text-align: center">3.0</td>
+          <td style="text-align: center">60150</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">8</td>
+          <td style="text-align: center">3.2</td>
+          <td style="text-align: center">54445</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">&hellip;</td>
+          <td style="text-align: center">&hellip;</td>
+          <td style="text-align: center">&hellip;</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">26</td>
+          <td style="text-align: center">9.0</td>
+          <td style="text-align: center">105582</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">27</td>
+          <td style="text-align: center">9.5</td>
+          <td style="text-align: center">116969</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">28</td>
+          <td style="text-align: center">9.6</td>
+          <td style="text-align: center">112635</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">29</td>
+          <td style="text-align: center">10.3</td>
+          <td style="text-align: center">122391</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">30</td>
+          <td style="text-align: center">10.5</td>
+          <td style="text-align: center">121872</td>
+      </tr>
+  </tbody>
+</table>
+<p>After you check the table, you plot all these values in a 2D scatter plot and get an image like so.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="../resources/Years_vs_Salary.png" alt="Years of Experience vs Salary"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">Scatter Plot: Years of Experience vs Salary.</td>
+      </tr>
+  </tbody>
+</table>
+<p>As you can see, the dots <em>somewhat</em> resemble a line. Let&rsquo;s go ahead and draw an imaginary line and see if we can pass through all the dots.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="../resources/Years_vs_Salary_with_trendline.png" alt="Years of Experience vs Salary with Trendline"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">Scatter Plot: Years of Experience vs Salary with line.</td>
+      </tr>
+  </tbody>
+</table>
+<p>As you can see the line doesn&rsquo;t pass through <strong>ALL</strong> the dots, but it&rsquo;s somewhat close. What does this mean? Why in some cases are the dots close or far away from our imaginary line?</p>
+<p>So far we know that:</p>
+<ol>
+<li>The data in follows somewhat of a <strong>linear</strong> approach.</li>
+<li>The data has 2 important variables <strong>SALARY</strong> and <strong>YEARS OF EXPERIENCE</strong>. This means, that we can start to <strong>model</strong> our like a linear equation.</li>
+</ol>
+<p><strong>Question:</strong> We know that <strong>SALARY</strong> and <strong>YEARS OF EXPERIENCE</strong> are our variables but which one is the dependent and which one is the independent variable?</p>
+<div class="expand">
+<div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fa fa-chevron-down' : 'fa fa-chevron-right';});});">
+<i style="font-size:x-small;" class="fa fa-chevron-right"></i>
+<span><strong>Click to show answer</strong></span>
+</div>
+<div class="expand-content" style="display: none;">
+<p><ul>
+<li><strong>YEARS OF EXPERIENCE (XP)</strong> is our independent variable.</li>
+<li><strong>SALARY</strong> is our dependent variable.</li>
+</ul>
+<p>If we plug these into our linear equation you will get something like this.</p>
+<h1>
+\[
+    SALARY = a(XP) + b
+\]
+</h1>
+<p>With an equation like this we are saying: &ldquo;The years of experience has a direct effect on the salary an employee&rdquo;.</p>
+</p>
+</div>
+</div>
+<h1 id="the-possibility-of-errors">The Possibility of Errors</h1>
+<p>As we mentioned before, data may or may not be always consistent and can behave in different ways. What this means is that our linear equation needs to consider a possible error. But how do we represent that error in the equation? How can that error be visualized in the scatter plot?</p>
+<p>Lets assume that all the employees that were chosen in the table above are from San Antonio, TX but the HR department accidentally added employees from the city of Seattle, WA into the data set you chose. <a href="https://www.numbeo.com/cost-of-living/compare_cities.jsp?country1=United&#43;States&amp;country2=United&#43;States&amp;city1=Seattle%2C&#43;WA&amp;city2=San&#43;Antonio%2C&#43;TX&amp;tracking=getDispatchComparison" target="_blank">The cost of living in Seattle is 28.6% higher than San Antonio<sup><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></sup></a>
+. This would explain why, some data points in the plot, are farther away from the imaginary line we have traced. These are considered errors in our data.</p>
+<!-- TODO: Add diagram to replace the figure below.-->
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="../resources/error-lines.svg" alt="Error Lines for Simple Linear Regression"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">Error Lines for Simple Linear Regression</td>
+      </tr>
+  </tbody>
+</table>
+<p>In our linear equation, let&rsquo;s add that error with the greek letter <strong>ε</strong>.</p>
+<h1>
+\[
+    SALARY = a(XP) + b + ε
+\]
+</h1>
+<p><strong>ε</strong> is the possible error our data can have. What <code>simple linear regression</code> aims to do is to draw an imaginary line that minimizes this error between the data points. This error is a value that is often ignored but the important thing is that our linear equation will consider this and we can represent the linear equation in a way that is familiar to our example.</p>
+<h1 id="exercise-1-playing-with-scikit-learn">Exercise 1: Playing with Scikit-learn</h1>
+<p>Scikit-learn is a machine-learning library that will help us analyze and use the built-in simple linear regression model to predict data. In the Replit window below, you can run the program <code>02-e1.py</code> which will use a data set of employees alongside their years of experience. The program will plot a sample of 30 employees out of the employees within the company:</p>
+<p><a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/LinearRegression-ConsoleApp#src/02-e1.py" target="_blank">Launch Replit</a></p>
+<h1 id="exercise-2-finding-the-slope-and-intercept">Exercise 2: Finding the Slope and Intercept</h1>
+<p>Before we go any further, lets analyze our equation once again. We know that our equation has been updated like so:</p>
+<h1>
+\[
+    SALARY = a(XP) + b + ε
+\]
+</h1>
+<p>We have been able to determine what are the values of <strong>x</strong> and <strong>y</strong> but, what about <strong>a</strong> and <strong>b</strong>? Let us recall what each of the missing values mean:</p>
+<ul>
+<li><strong>a</strong> is the slope or coefficient of the line. The <strong>slope</strong> represents the estimated change on the dependent variable, in this case, the <strong>SALARY</strong>.</li>
+<li><strong>b</strong> is the intercept or the value of <strong>y</strong> when <strong>x=0</strong>. After plotting our data set, you can see that the value for the <strong>SALARY</strong> when the <strong>YEARS OF EXPERIENCE</strong> is 0.</li>
+</ul>
+<p>Hold on for a second? If I join the company with no experience, my salary will be 0? That doesn&rsquo;t sound right. Lets go ahead and figure out what is the actual value is.</p>
+<p>Using scikit-learn we can use the linear regression model and find the value of <strong>a</strong> and <strong>b</strong>. On the Replit window below, lets analyze the code</p>
+<p>First, we need to import the data from the CSV file:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Importing dataset</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">dataset</span> <span style="color:#f92672">=</span> <span style="color:#111">pd</span><span style="color:#f92672">.</span><span style="color:#111">read_csv</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Experience_vs_Salary.csv&#34;</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">x</span> <span style="color:#f92672">=</span> <span style="color:#111">dataset</span><span style="color:#f92672">.</span><span style="color:#111">iloc</span><span style="color:#111">[:,</span> <span style="color:#111">:</span><span style="color:#f92672">-</span><span style="color:#ae81ff">1</span><span style="color:#111">]</span><span style="color:#f92672">.</span><span style="color:#111">values</span> <span style="color:#75715e"># Get all the values from &#34;Experience&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">y</span> <span style="color:#f92672">=</span> <span style="color:#111">dataset</span><span style="color:#f92672">.</span><span style="color:#111">iloc</span><span style="color:#111">[:,</span> <span style="color:#ae81ff">1</span><span style="color:#111">]</span><span style="color:#f92672">.</span><span style="color:#111">values</span> <span style="color:#75715e"># Get all the values from &#34;Salary&#34;</span>
+</span></span></code></pre></div><p>Then we make an instance of the <code>LinearRegression</code> model class and <strong>fit</strong> the model to the data. The <code>fit</code> function will analyze the values from our CSV file and find the <strong>slope</strong> and <strong>intercept</strong> values.</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#111">model</span> <span style="color:#f92672">=</span> <span style="color:#111">linear_model</span><span style="color:#f92672">.</span><span style="color:#111">LinearRegression</span><span style="color:#111">()</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">model</span><span style="color:#f92672">.</span><span style="color:#111">fit</span><span style="color:#111">(</span><span style="color:#111">x</span><span style="color:#111">,</span><span style="color:#111">y</span><span style="color:#111">)</span>
+</span></span></code></pre></div><p><a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/LinearRegression-ConsoleApp#src/02-e2.py" target="_blank">Launch Replit</a></p>
+<p>As you can see, the code has returned the value for the <strong>coefficient</strong> and <strong>intercept</strong> of our linear equation. Let&rsquo;s update our linear equation with this.</p>
+<h3>
+\[
+    Intercept = 25792.20
+\]
+\[
+    Coefficient= 9449.96
+\]
+\[
+    SALARY = 9449.96(XP) + 25792.20 + ε
+\]
+</h3>
+<p>We know that the model gave us an intercept of <strong>25792.20</strong>. What this means is that an employee with NO experience would have a salary of $25792.20. But what does the 9449.96 mean? This means that, for every year of experience, the salary of employees has an increase of 9449.96. But wait a moment, how can we make sure these are the correct values? Do we have confidence that these are indeed the correct values? If we grab another 30 random employees and verify their salaries, are we going to get the same values?</p>
+
+
+    
+    
+      <div class="chevrons">
+  <style>
+    .workshop-complete-image {
+        margin: 40px auto 50px auto;
+        width: 340.8px;
+    }
+    
+    .workshop-complete-words {
+        font-family: Space Mono, monospace;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        text-align: center;
+    }
+    
+    .horizontal-bar {
+        background-color: #000000;
+        width: 120px;
+        height: 12px;
+        margin: 80px auto 0 auto;
+    }
+</style>
+
+
+    <div id="navigation">
+            <div class="next-prev-wrapper-div"><a class='nav nav-prev' href="/ml-machine-learning/01-regression/" title="What is regression?">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Previous:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                What is regression?
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="prevbutton-image">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+        
+    </div>
+</a></div>
+            <div class="next-prev-wrapper-div"><a class='nav nav-next' href="/ml-machine-learning/03-confidence-intervals/" title="Confidence Interval">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Up Next:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Confidence Interval
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="nextbutton-image">
+            <i class="fa fa-arrow-right"></i>
+        </div>
+        
+    </div>
+</a></div>
+        </div>
+</div>
+
+</section>
+</article>
+
+<footer>
+  <div class="footline">
+    
+
+    
+
+    
+
+    
+    <div class="github-link">
+      <a href="https://github.com/NuevoFoundation/workshops/tree/master/content/ml-machine-learning/02-simple-linear-regression.md" target="blank"><i
+          class="fa fa-code-fork"></i>
+        </a>
+    </div>
+    
+  </div>
+
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+    
+
+    
+    
+
+    <div id="footer" class="row">
+    <div class="col-xs-12">
+        <div class="App-footer">
+            <div class="App-footer-big">
+                Join the conversation on social media.
+            </div>
+            <div class="social-images">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Instagram" class="fab fa-2x fa-instagram"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation X" class="fab fa-2x fa-x-twitter"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Facebook" class="fab fa-2x fa-1x fa-facebook-f"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-2x fa-linkedin"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/nuevofoundation?sub_confirmation=1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation YouTube" class="fab fa-2x fa-youtube"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Spotify" class="fab fa-2x fa-spotify"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Github" class="fab fa-2x fa-github"></i>
+                </a>
+            </div>
+            <div class="App-footer-small">
+                © Copyright 2025, All Rights Reserved by Nuevo Foundation, a 501(c)(3) nonprofit.
+            </div>
+        </div>
+    </div>
+</div>
+
+  </body>
+</html>

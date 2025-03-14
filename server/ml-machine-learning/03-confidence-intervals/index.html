@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nuevo Foundation Workshops</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+<meta name="theme-color" content="#000000" />
+<meta name="revised" content="2025-03-14T18:59:43 -03">
+<meta name="application-name" content=" " />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+<title>Confidence Interval :: Nuevo Foundation Workshops</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+
+<link rel="shortcut icon" href="https://www.nuevofoundation.org/favicons/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57"
+      href="https://www.nuevofoundation.org/favicons//apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120"
+      href="https://www.nuevofoundation.org/favicons/pple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-128.png" sizes=" 128x128" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="/css/nuevoweb.css" />
+<link rel="stylesheet" href="/css/chunk.css" />
+<link rel="stylesheet" href="/css/data-style.css" />
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+
+<script lang="JavaScript">
+
+      function toggleVisibility() {
+
+            
+            const menu = document.getElementById("mobile-nav-menu");
+            if (menu.style.display == 'none') {
+                  menu.classList.replace("transition-out", "transition-in")
+                  menu.style.display = 'block';
+            }
+            else if (menu.style.display == 'block') {
+                  menu.classList.replace("transition-in", "transition-out")
+                  menu.style.display = 'none';
+            }
+      }
+</script>
+<meta
+  name="description"
+  content="
+
+    Make computers learn to predict outcomes.
+"
+/>
+
+
+    
+  </head>
+  <body data-url="/ml-machine-learning/03-confidence-intervals/" >
+    
+      <header>
+  
+  <div id="mobile-nav-menu" class="transition-out" style="display: none;">
+    <div class="close-btn" onclick="toggleVisibility();">
+        <i aria-hidden="true" focusable="false" style="cursor: pointer;" class="fa fa-times fa-w-11 fa-sm"></i>
+    </div>
+    <div>
+        <div class="sc-dNLxif ecnYUM">
+            <a href="/support-us"><button class="sc-jbKcbu sedGx"
+                    style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: 4px solid rgb(0, 0, 0); border-radius: 4px;">
+                    Donate
+                </button></a>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/what-we-do">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>What We Do</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/get-involved">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Get Involved</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/support-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Support us</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/blog">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Event blog</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/about-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Our team</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/contact">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Contact us</li>
+            </ul>
+        </a>
+    </div>
+</div>
+<div>
+    <div class="sc-gGBfsJ iKkPGj">
+        <div class="container-fluid">
+            <div id="toprow" class="row">
+                <div class="col-xs-12">
+                    <div class="sc-EHOje fJMnSm">
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.instagram.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation Instagram" class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://twitter.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation X" class="fab fa-x-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Facebook" class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.linkedin.com/company/nuevofoundation">
+                                <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://www.youtube.com/nuevofoundation?sub_confirmation=1n">
+                                <i aria-label="Nuevo Foundation YouTube" class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1">
+                                <i aria-label="Nuevo Foundation Spotify" class="fab fa-spotify"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://github.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Github" class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" rel="noopener noreferrer"
+                                href="https://nuevofoundation.org/support-us">Donate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="secondrow" class="row">
+                <div class="col-sm-12 hidden-xs">
+                    <div class="sc-htoDjs kjtfZK">
+                        <a class="sc-fjdhpX izNzAG active" aria-current="page" href="https://nuevofoundation.org">
+                            <img alt="Nuevo Foundation Logo" src="/images/Logo_long.0f097b90.svg"
+                                height="60px" />
+                        </a>
+                        <ul class="sc-iwsKbI bUOvG">
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/what-we-do">
+                                <li class="sc-gZMcBi Bomeo">What We Do</li>
+                            </a>
+                            <a class="izNzAG" href="/">
+                                <li class="sc-gZMcBi Bomeo-selected jgBGVn">Workshops<span></span></li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/get-involved">
+                                <li class="sc-gZMcBi Bomeo">Get Involved</li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/support-us">
+                                <li class="sc-gZMcBi Bomeo">Support us</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/blog">
+                                <li class="sc-gZMcBi Bomeo">Event blog</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/about-us">
+                                <li class="sc-gZMcBi Bomeo">Our team</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/contact">
+                                <li class="sc-gZMcBi Bomeo">Contact us</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <a class="sc-fjdhpX izNzAG active" aria-current="page" href="/">
+                                <img alt="Nuevo Foundation Logo" class="sc-dnqmqq emolVn"
+                                    src="/images/Logo_long.0f097b90.svg" height="60%" /></a>
+                        </div>
+                        <div class="col-xs-2" onclick="toggleVisibility();"
+                            style="padding-top: 4%; padding-left: 4%; cursor: pointer;">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                                class="svg-inline--fa fa-bars fa-w-14 fa-lg" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/ml-machine-learning/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/ml-machine-learning/">Machine Learning: Linear Regression</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/ml-machine-learning/01-regression/" class="dd-item">
+        <div>
+          <a href="/ml-machine-learning/01-regression/">
+            What is regression?
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/ml-machine-learning/02-simple-linear-regression/" class="dd-item">
+        <div>
+          <a href="/ml-machine-learning/02-simple-linear-regression/">
+            Simple Linear Regression
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/ml-machine-learning/03-confidence-intervals/" class="dd-item active">
+        <div>
+          <a href="/ml-machine-learning/03-confidence-intervals/">
+            Confidence Interval
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/ml-machine-learning/04-model-fit/" class="dd-item">
+        <div>
+          <a href="/ml-machine-learning/04-model-fit/">
+            Model Fit
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/ml-machine-learning/05-making-predictions/" class="dd-item">
+        <div>
+          <a href="/ml-machine-learning/05-making-predictions/">
+            Making Predictions
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+    </ul>
+
+    <section>
+    </section>
+  </aside>
+  <section class="page">
+    <div align="right">
+<select id="select-language" onchange="location = this.value;">
+	
+	
+	
+	  
+	  
+	    
+	      
+	        <option id="en" value="/ml-machine-learning/03-confidence-intervals/" selected>English</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="kr" value="/kr/ml-machine-learning/03-confidence-intervals/">한국어</option>
+	      
+	    
+	  
+	    
+	  
+	
+</select>
+    </div>
+
+    <div class="nav-select">
+      Navigation:&nbsp;
+      <select onchange="javascript:location.href = this.value;">
+        
+<option value="/ml-machine-learning/" >
+   Machine Learning: Linear Regression</option>
+
+<option value="/ml-machine-learning/01-regression/" >- What is regression?</option>
+<option value="/ml-machine-learning/02-simple-linear-regression/" >- Simple Linear Regression</option>
+<option value="/ml-machine-learning/03-confidence-intervals/"  selected>- Confidence Interval</option>
+<option value="/ml-machine-learning/04-model-fit/" >- Model Fit</option>
+<option value="/ml-machine-learning/05-making-predictions/" >- Making Predictions</option>
+
+
+
+      </select>
+
+    </div>
+    
+
+    <h1>Confidence Interval</h1>
+
+    
+
+    
+
+    
+    
+    
+    
+    <p>From the last section, we were able to find the coefficient and intercept of our linear equation using a sample dataset of 30 random employees.</p>
+<h3>
+\[
+    Intercept = 25792.20
+\]
+\[
+    Coefficient= 9449.96
+\]
+\[
+    SALARY = 9449.96(XP) + 25792.20 + ε
+\]
+</h3>
+<p>But this brought up another question; Is <strong>salary</strong> REALLY related to the <strong>years of experience</strong> of an employee? Is the relationship between the two variables strong enough to claim they are related? Are 30 random employees enough to determine this? How can we make sure these are the correct values?</p>
+<p>You need to recall that you found the values by working with a small sample that was drawn from a much larger number of employees. Since we have only one sample to test with, the values for the <strong>coefficient</strong> and the <strong>slope</strong> will be more uncertain.</p>
+<p>What can we do to make sure the values are valid?</p>
+<div class="expand">
+<div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fa fa-chevron-down' : 'fa fa-chevron-right';});});">
+<i style="font-size:x-small;" class="fa fa-chevron-right"></i>
+<span><strong>Click to show answer</strong></span>
+</div>
+<div class="expand-content" style="display: none;">
+<p>We need to run the linear model with more random samples.</p>
+</div>
+</div>
+<h1 id="exercise-1-checking-more-samples">Exercise 1: Checking More Samples</h1>
+<p>Suppose you were able to find over 10,000 records for employees within your company 😯! This is amazing since, in the world of machine learning, the more data you have the better the results you will obtain. Now let&rsquo;s take 30 random records from that 10,000+ dataset and check if the intercept and coefficient values differ from the original sample we had. On the Replit window below run the code as many times as you want but notice how the <strong>intercept</strong> and <strong>coefficient</strong> values are somewhat similar to the ones we calculated before.</p>
+<p><a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/LinearRegression-ConsoleApp#src/03-e1.py" target="_blank">Launch Replit</a></p>
+<p>Why is this happening? Why are the <strong>intercept</strong> and <strong>coefficient</strong> values different every time? Why is the original sample line (i.e: green line) very close to the blue line (i.e: new sample line).</p>
+<div class="expand">
+<div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fa fa-chevron-down' : 'fa fa-chevron-right';});});">
+<i style="font-size:x-small;" class="fa fa-chevron-right"></i>
+<span><strong>Click to show answer</strong></span>
+</div>
+<div class="expand-content" style="display: none;">
+<p>This is because every time you run the program, a random sample of 30 records is selected. On any random sample you run, both values will be different. But the good thing is, all these values are obtained from the same data set.</p>
+</div>
+</div>
+<p>Now ask yourself, how <strong>confident</strong> are you that the values for <strong>intercept</strong> and <strong>coefficient</strong> truly represent the data we have?</p>
+<h1 id="confidence-intervals">Confidence Intervals</h1>
+<p>The previous example teaches us that, when you work random samples from a larger dataset, the <strong>intercept</strong> and <strong>coefficient</strong> values fall in a range. We know that the actual value must lie between 2 values but we don&rsquo;t know what they are! This is known as the <a href="https://www.geeksforgeeks.org/confidence-intervals-for-machine-learning/" target="_blank">confidence interval<sup><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></sup></a>
+.</p>
+<p>When you run the code from <strong>Exercise 1</strong> several times you can see that the <strong>coefficient</strong> value changes every time but notice how it rarely drops below 9000 or it rarely goes above 10000. What is the difference between all the possible <strong>coefficients</strong> we can find running the code multiple times? What is that value? This is known as the <strong>standard error</strong>.</p>
+<p><strong><a href="https://www.statology.org/standard-error-regression/" target="_blank">Standard Error<sup><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></sup></a>
+</strong> - the average distance that the values fall from the regression line.</p>
+<h1 id="example-2-finding-the-standard-error">Example 2: Finding the Standard Error.</h1>
+<p>We can use the <a href="https://www.statsmodels.org/stable/index.html" target="_blank">StatsModels<sup><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></sup></a>
+ library to get all sorts of values from our linear regression. Run the Replit below and you should see an output like so:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="../resources/finding_stderror.png" alt="Statmodels result"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">Summary of Statsmodel run</td>
+      </tr>
+  </tbody>
+</table>
+<p><a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/LinearRegression-ConsoleApp#src/03-e2.py" target="_blank">Launch Replit</a></p>
+<p>Within the table lets focus on the standard error which is the value labeled <strong>stderr</strong>. In this case, is <strong>409.40</strong>. This means is that, for any random sample set, the <strong>coefficient</strong> or <strong>slope</strong> of our line will vary by 409.40 or, in other words:</p>
+<p>&ldquo;The salary of an employee can vary by $409.40.&rdquo;</p>
+<h1 id="example-3-the-normal-distribution">Example 3: The Normal Distribution</h1>
+<p>Let&rsquo;s take a step back and ask, from the coefficients or slopes that we can see in &ldquo;Exercise 2&rdquo; how likely is it that they will repeat when running the program for other samples?</p>
+<p>Machine learning uses a lot of statistics to determine the values we have obtained. In the world of statistics, there is a graph used to measure the <code>likelihood</code> of a value appearing in the data. This is known as the <code>Normal Distribution</code> or <code>Bell Curve</code> and it looks something like this:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="../resources/normal_distribution.png" alt="Normal Distribution"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">Figure #: Normal Distribution or Bell Curve</td>
+      </tr>
+  </tbody>
+</table>
+<p>Let&rsquo;s take the following example, how likely is it to see a very short person? How likely is it to see a very tall person?</p>
+<p>If we make this relation with a bell curve you will get something like this:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="../resources/normal_distribution_height.png" alt="Normal Distribution"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">Figure #: Normal Distribution or Bell Curve with people&rsquo;s height.</td>
+      </tr>
+  </tbody>
+</table>
+<p>As you can see, it is very unlikely to see a very short person or a very tall person. But it is quite normal to see people of average height. Of course this could vary by country but you get the idea.</p>
+<p>If you run the Replit below you will see how the generated histogram resembles the bell curve. The program creates a <a href="https://corporatefinanceinstitute.com/resources/excel/histogram/" target="_blank">histogram<sup><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></sup></a>
+ which shows the amount of times a value shows up in our data set. Meaning, several employees having the same salary.</p>
+<p><a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/LinearRegression-ConsoleApp#src/03-e3.py" target="_blank">Launch Replit</a></p>
+<p>When this happens we can use the standard error and the following equation to say: &ldquo;We are 95% confident that the value of the coefficient will be in this range&rdquo;. But what is that range? This range is our <strong>confidence interval</strong>.</p>
+<h3>
+\[
+    CoefficientRange = Coefficient \pm2 * (StdError)
+\]
+</h3>
+<p>Since we know that the standard error is 409.40 we can calculate the range of the coefficient like so:</p>
+<h3>
+\[
+    StdError = 409.40
+\]
+\[
+    Coefficient = 9449.96
+\]
+\[
+    CoefficientRange = Coefficient \pm 2 * StdError
+\]
+\[
+    CoefficientRange = 9449.96 \pm 2 * StdError
+\]
+\[
+    CoefficientRange = [8,631.16, 10,268.76]
+\]
+</h3>
+<p>What we are saying with the <strong>coefficient range</strong> above is:</p>
+<ul>
+<li>&ldquo;The value of the <strong>coefficient</strong> will be between 8,631.16 and 10,268.76.&rdquo;</li>
+<li>&ldquo;The salary increase of an employee per year is between 8,631.16 and 10,268.76.&rdquo;</li>
+</ul>
+<p>The code below will take a sample of 100 random employees and create histograms to show you how they resemble a bell curve. As you can see the values never lie outside of the coefficient range.</p>
+<p><a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/LinearRegression-ConsoleApp#src/03-e3.py" target="_blank">Launch Replit</a></p>
+
+
+    
+    
+      <div class="chevrons">
+  <style>
+    .workshop-complete-image {
+        margin: 40px auto 50px auto;
+        width: 340.8px;
+    }
+    
+    .workshop-complete-words {
+        font-family: Space Mono, monospace;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        text-align: center;
+    }
+    
+    .horizontal-bar {
+        background-color: #000000;
+        width: 120px;
+        height: 12px;
+        margin: 80px auto 0 auto;
+    }
+</style>
+
+
+    <div id="navigation">
+            <div class="next-prev-wrapper-div"><a class='nav nav-prev' href="/ml-machine-learning/02-simple-linear-regression/" title="Simple Linear Regression">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Previous:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Simple Linear Regression
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="prevbutton-image">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+        
+    </div>
+</a></div>
+            <div class="next-prev-wrapper-div"><a class='nav nav-next' href="/ml-machine-learning/04-model-fit/" title="Model Fit">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Up Next:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Model Fit
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="nextbutton-image">
+            <i class="fa fa-arrow-right"></i>
+        </div>
+        
+    </div>
+</a></div>
+        </div>
+</div>
+
+</section>
+</article>
+
+<footer>
+  <div class="footline">
+    
+
+    
+
+    
+
+    
+    <div class="github-link">
+      <a href="https://github.com/NuevoFoundation/workshops/tree/master/content/ml-machine-learning/03-confidence-intervals.md" target="blank"><i
+          class="fa fa-code-fork"></i>
+        </a>
+    </div>
+    
+  </div>
+
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+    
+
+    
+    
+
+    <div id="footer" class="row">
+    <div class="col-xs-12">
+        <div class="App-footer">
+            <div class="App-footer-big">
+                Join the conversation on social media.
+            </div>
+            <div class="social-images">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Instagram" class="fab fa-2x fa-instagram"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation X" class="fab fa-2x fa-x-twitter"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Facebook" class="fab fa-2x fa-1x fa-facebook-f"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-2x fa-linkedin"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/nuevofoundation?sub_confirmation=1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation YouTube" class="fab fa-2x fa-youtube"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Spotify" class="fab fa-2x fa-spotify"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Github" class="fab fa-2x fa-github"></i>
+                </a>
+            </div>
+            <div class="App-footer-small">
+                © Copyright 2025, All Rights Reserved by Nuevo Foundation, a 501(c)(3) nonprofit.
+            </div>
+        </div>
+    </div>
+</div>
+
+  </body>
+</html>

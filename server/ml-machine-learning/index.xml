@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learning: Linear Regression on Nuevo Foundation Workshops</title>
+    <link>/ml-machine-learning/</link>
+    <description>Recent content in Machine Learning: Linear Regression on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="/ml-machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is regression?</title>
+      <link>/ml-machine-learning/01-regression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/ml-machine-learning/01-regression/</guid>
+      <description>&lt;h1 id=&#34;what-is-regression&#34;&gt;What is regression?&lt;/h1&gt;&#xA;&lt;p&gt;Regression is a technique to model the relationship between a feature (independent variables) and a prediction (dependent variables). It helps us understand how the value of a dependent variable is changing based on the value of the independent variable. When applied properly it helps us predict values 😯!&lt;/p&gt;&#xA;&lt;!-- TODO: Add diagram to replace image below. --&gt;&#xD;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;&lt;img src=&#34;../resources/regression.png&#34; alt=&#34;Regression&#34;&gt;&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Regression&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;Regression is a powerful technique that lets us find a line or a curve that fits the data we have. By doing regression, we can create or reuse &lt;code&gt;mathematical models&lt;/code&gt; that show how the dependent and independent variables are related. &lt;a href=&#34;https://www.youtube.com/watch?v=xHtsuOB-TPw&#34; target=&#34;_blank&#34;&gt;Mathematical models&lt;sup&gt;&lt;span class=&#34;glyphicon glyphicon-new-window&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/sup&gt;&lt;/a&gt;&#xD;&#xA; are useful because they help us understand a system and make predictions based on the system&amp;rsquo;s variables. Sometimes, the mathematical model we choose may not match the data well, so we have to look for a better model that can capture the patterns we see.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Simple Linear Regression</title>
+      <link>/ml-machine-learning/02-simple-linear-regression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/ml-machine-learning/02-simple-linear-regression/</guid>
+      <description>&lt;h1 id=&#34;what-is-simple-linear-regression&#34;&gt;What is simple linear regression?&lt;/h1&gt;&#xA;&lt;p&gt;Simple linear regression aims to find a correlation between two variables and derive mathematical equations that explain the relationships between a dependent and an independent variable. With simple linear regression in general, we want to reach the conclusion:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Is there a &lt;strong&gt;relationship&lt;/strong&gt; between the variables we have?&lt;/p&gt;&#xA;&lt;p&gt;You can determine the relationship between income and spending, experience and salary, or humidity and temperature. But, as an example, there is NO relationship between the height of a student and their exam scores.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Confidence Interval</title>
+      <link>/ml-machine-learning/03-confidence-intervals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/ml-machine-learning/03-confidence-intervals/</guid>
+      <description>&lt;p&gt;From the last section, we were able to find the coefficient and intercept of our linear equation using a sample dataset of 30 random employees.&lt;/p&gt;&#xA;&lt;h3&gt;&#xD;&#xA;\[&#xD;&#xA;    Intercept = 25792.20&#xD;&#xA;\]&#xD;&#xA;\[&#xD;&#xA;    Coefficient= 9449.96&#xD;&#xA;\]&#xD;&#xA;\[&#xD;&#xA;    SALARY = 9449.96(XP) + 25792.20 + ε&#xD;&#xA;\]&#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;But this brought up another question; Is &lt;strong&gt;salary&lt;/strong&gt; REALLY related to the &lt;strong&gt;years of experience&lt;/strong&gt; of an employee? Is the relationship between the two variables strong enough to claim they are related? Are 30 random employees enough to determine this? How can we make sure these are the correct values?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Model Fit</title>
+      <link>/ml-machine-learning/04-model-fit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/ml-machine-learning/04-model-fit/</guid>
+      <description>&lt;h1 id=&#34;does-our-model-fit&#34;&gt;Does our model fit?&lt;/h1&gt;&#xA;&lt;p&gt;Remember that the linear equation we built has a random error value (&lt;strong&gt;ε&lt;/strong&gt;).&lt;/p&gt;&#xA;&lt;h3&gt;&#xD;&#xA;\[&#xD;&#xA;    SALARY = 9449.96(XP) + 25792.20 + ε&#xD;&#xA;\]&#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;Since &lt;strong&gt;ε&lt;/strong&gt; is an error value that we are unable to determine we need to ask ourselves:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;How well does our model represent reality or how well does our model &lt;code&gt;fit&lt;/code&gt; the data we have?&lt;/li&gt;&#xA;&lt;li&gt;How can we know if &lt;strong&gt;Years of Experience&lt;/strong&gt; truly has an effect on the &lt;strong&gt;Salary&lt;/strong&gt;?&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;There are many ways to find this but in the world of machine learning and statistics, there is a value we can use. This value is called the &lt;strong&gt;R-Squared&lt;/strong&gt; or &lt;strong&gt;R&lt;sup&gt;2&lt;/sup&gt;&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Making Predictions</title>
+      <link>/ml-machine-learning/05-making-predictions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/ml-machine-learning/05-making-predictions/</guid>
+      <description>&lt;h1 id=&#34;training-the-model&#34;&gt;Training the Model&lt;/h1&gt;&#xA;&lt;p&gt;For our model to be able to predict values we need to train it. But, how do we do that, well we have been doing it 😉!&lt;/p&gt;&#xA;&lt;p&gt;To train a model is to verify that there is a good relation between the data and that our model fits the data.&lt;/p&gt;&#xA;&lt;p&gt;We have done this by ensuring R&lt;sup&gt;2&lt;/sup&gt; is close to 1. What we need to do now is use the dataset of 10,000+ to create a training and testing dataset. The training dataset will be a random sample instead of the initial 30 we had. According to the University of Texas el Paso, taking a sample of 30% is the ideal way to create an accurate model. If you like to know more go here: (&lt;a href=&#34;https://scholarworks.utep.edu/cs_techrep/1209/&#34; target=&#34;_blank&#34;&gt;Why 70/30 or 80/20 Relation Between Training and Testing Sets&lt;sup&gt;&lt;span class=&#34;glyphicon glyphicon-new-window&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/sup&gt;&lt;/a&gt;&#xD;&#xA;)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python: Fundamentos on Nuevo Foundation Workshops</title>
+    <link>/pt-br/python-basics/</link>
+    <description>Recent content in Python: Fundamentos on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Tue, 23 Jul 2019 11:45:38 -0700</lastBuildDate>
+    <atom:link href="/pt-br/python-basics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Socorro, estou preso!</title>
+      <link>/pt-br/python-basics/help/</link>
+      <pubDate>Tue, 23 Jul 2019 11:45:38 -0700</pubDate>
+      <guid>/pt-br/python-basics/help/</guid>
+      <description>&lt;h5 id=&#34;sem-problemas-veja-se-alguma-das-opções-a-seguir-ajuda-você-caso-contrário-sinta-se-à-vontade-para-entrar-em-contato-com-um-de-nós-e-nós-o-ajudaremos&#34;&gt;Sem problemas! Veja se alguma das opções a seguir ajuda você; caso contrário, sinta-se à vontade para entrar em contato com um de nós e nós o ajudaremos.&lt;/h5&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;O recuo é muito importante quando você está trabalhando em Python. Tenha cuidado com espaços e tabulações em seu código, porque erros de indentação (um espaço no começo de uma linha escrita ou de um paragrafo) às vezes podem ser muito difíceis de detectar.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

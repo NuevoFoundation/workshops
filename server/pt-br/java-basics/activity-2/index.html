@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nuevo Foundation Workshops</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+<meta name="theme-color" content="#000000" />
+<meta name="revised" content="2025-03-14T19:00:03 -03">
+<meta name="application-name" content=" " />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+<title>Variáveis ​​e Tipos :: Nuevo Foundation Workshops</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+
+<link rel="shortcut icon" href="https://www.nuevofoundation.org/favicons/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57"
+      href="https://www.nuevofoundation.org/favicons//apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120"
+      href="https://www.nuevofoundation.org/favicons/pple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-128.png" sizes=" 128x128" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="/css/nuevoweb.css" />
+<link rel="stylesheet" href="/css/chunk.css" />
+<link rel="stylesheet" href="/css/data-style.css" />
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+
+<script lang="JavaScript">
+
+      function toggleVisibility() {
+
+            
+            const menu = document.getElementById("mobile-nav-menu");
+            if (menu.style.display == 'none') {
+                  menu.classList.replace("transition-out", "transition-in")
+                  menu.style.display = 'block';
+            }
+            else if (menu.style.display == 'block') {
+                  menu.classList.replace("transition-in", "transition-out")
+                  menu.style.display = 'none';
+            }
+      }
+</script>
+<meta
+  name="description"
+  content="
+
+    Apresente tipos e variáveis ​​em Java.
+"
+/>
+
+
+    
+  </head>
+  <body data-url="/pt-br/java-basics/activity-2/" >
+    
+      <header>
+  
+  <div id="mobile-nav-menu" class="transition-out" style="display: none;">
+    <div class="close-btn" onclick="toggleVisibility();">
+        <i aria-hidden="true" focusable="false" style="cursor: pointer;" class="fa fa-times fa-w-11 fa-sm"></i>
+    </div>
+    <div>
+        <div class="sc-dNLxif ecnYUM">
+            <a href="/support-us"><button class="sc-jbKcbu sedGx"
+                    style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: 4px solid rgb(0, 0, 0); border-radius: 4px;">
+                    Faça uma doação
+                </button></a>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/what-we-do">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Sobre nós</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/get-involved">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Faça parte</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/support-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Apoie-nos</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/blog">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Últimos eventos</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/about-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Conheça nosso time</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/contact">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Fale conosco</li>
+            </ul>
+        </a>
+    </div>
+</div>
+<div>
+    <div class="sc-gGBfsJ iKkPGj">
+        <div class="container-fluid">
+            <div id="toprow" class="row">
+                <div class="col-xs-12">
+                    <div class="sc-EHOje fJMnSm">
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.instagram.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation Instagram" class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://twitter.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation X" class="fab fa-x-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Facebook" class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.linkedin.com/company/nuevofoundation">
+                                <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://www.youtube.com/nuevofoundation?sub_confirmation=1n">
+                                <i aria-label="Nuevo Foundation YouTube" class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1">
+                                <i aria-label="Nuevo Foundation Spotify" class="fab fa-spotify"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://github.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Github" class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" rel="noopener noreferrer"
+                                href="https://nuevofoundation.org/support-us">Faça uma doação</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="secondrow" class="row">
+                <div class="col-sm-12 hidden-xs">
+                    <div class="sc-htoDjs kjtfZK">
+                        <a class="sc-fjdhpX izNzAG active" aria-current="page" href="https://nuevofoundation.org">
+                            <img alt="Nuevo Foundation Logo" src="/images/Logo_long.0f097b90.svg"
+                                height="60px" />
+                        </a>
+                        <ul class="sc-iwsKbI bUOvG">
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/what-we-do">
+                                <li class="sc-gZMcBi Bomeo">Sobre nós</li>
+                            </a>
+                            <a class="izNzAG" href="/">
+                                <li class="sc-gZMcBi Bomeo-selected jgBGVn">Minicursos<span></span></li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/get-involved">
+                                <li class="sc-gZMcBi Bomeo">Faça parte</li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/support-us">
+                                <li class="sc-gZMcBi Bomeo">Apoie-nos</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/blog">
+                                <li class="sc-gZMcBi Bomeo">Últimos eventos</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/about-us">
+                                <li class="sc-gZMcBi Bomeo">Conheça nosso time</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/contact">
+                                <li class="sc-gZMcBi Bomeo">Fale conosco</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <a class="sc-fjdhpX izNzAG active" aria-current="page" href="/">
+                                <img alt="Nuevo Foundation Logo" class="sc-dnqmqq emolVn"
+                                    src="/images/Logo_long.0f097b90.svg" height="60%" /></a>
+                        </div>
+                        <div class="col-xs-2" onclick="toggleVisibility();"
+                            style="padding-top: 4%; padding-left: 4%; cursor: pointer;">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                                class="svg-inline--fa fa-bars fa-w-14 fa-lg" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/pt-br/java-basics/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/pt-br/java-basics/">Java: Fundamentos</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/pt-br/java-basics/activity-0/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-basics/activity-0/">
+            Usando Replit
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-basics/activity-1/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-basics/activity-1/">
+            Imprimir declarações e comentários
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-basics/activity-2/" class="dd-item active">
+        <div>
+          <a href="/pt-br/java-basics/activity-2/">
+            Variáveis ​​e Tipos
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-basics/activity-3/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-basics/activity-3/">
+            Operadores
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-basics/activity-4/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-basics/activity-4/">
+            Estruturas de Controle
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-basics/activity-5/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-basics/activity-5/">
+            Métodos
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-basics/activity-6/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-basics/activity-6/">
+            Objeto e Classes
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/java-basics/activity-7/" class="dd-item">
+        <div>
+          <a href="/pt-br/java-basics/activity-7/">
+            Estruturas de dados (Array &amp; ArrayList)
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+    </ul>
+
+    <section>
+    </section>
+  </aside>
+  <section class="page">
+    <div align="right">
+<select id="select-language" onchange="location = this.value;">
+	
+	
+	
+	  
+	  
+	    
+	      
+	        <option id="en" value="/java-basics/activity-2/">English</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	      
+	        <option id="es" value="/es/java-basics/activity-2/">Español</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="pt-br" value="/pt-br/java-basics/activity-2/" selected>Português Brasileiro</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+</select>
+    </div>
+
+    <div class="nav-select">
+      Navegação:&nbsp;
+      <select onchange="javascript:location.href = this.value;">
+        
+<option value="/pt-br/java-basics/" >
+   Java: Fundamentos</option>
+
+<option value="/pt-br/java-basics/activity-0/" >- Usando Replit</option>
+<option value="/pt-br/java-basics/activity-1/" >- Imprimir declarações e comentários</option>
+<option value="/pt-br/java-basics/activity-2/"  selected>- Variáveis ​​e Tipos</option>
+<option value="/pt-br/java-basics/activity-3/" >- Operadores</option>
+<option value="/pt-br/java-basics/activity-4/" >- Estruturas de Controle</option>
+<option value="/pt-br/java-basics/activity-5/" >- Métodos</option>
+<option value="/pt-br/java-basics/activity-6/" >- Objeto e Classes</option>
+<option value="/pt-br/java-basics/activity-7/" >- Estruturas de dados (Array &amp; ArrayList)</option>
+
+
+
+      </select>
+
+    </div>
+    
+
+    <h1>Variáveis ​​e Tipos</h1>
+
+    
+
+    
+
+    
+    
+    
+    
+    <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/KE0fNb-hTKE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<h2 id="variáveis-nomeie-as">Variáveis: Nomeie-as!</h2>
+<p>No último exercício, aprendemos a imprimir diferentes declarações com <code>System.out.print()</code>.</p>
+<p>Embora seja ótimo imprimir um número ou uma frase, não lhes demos um significado.</p>
+<p>Em Java, introduzimos a ideia de uma <strong>variável</strong> para dados. Uma variável é como uma caixa que armazena um dado com um nome.</p>
+<p>Por exemplo, pode haver uma variável chamada <code>myName</code> que armazenou <code>&quot;Patrick&quot;</code>, outra variável chamada <code>loveMusic</code> que armazenou <code>true</code> e outra variável chamada <code>age</code> que armazenou <code>3</code>. Assim como a imagem abaixo:</p>
+<img src="../images/variable.png" height="200" alt="3 boxes. The first box has white text outside, myName, and white text inside, 'Patrick'. The second box has white text outside, loveMusic, and white text inside, true. The third box has white text outside, age, and white text inside, 3."/>
+<h2 id="qual-é-o-tipo">Qual é o tipo!</h2>
+<p>Então, como criamos essas caixas ou variáveis ​​em Java para armazenar dados?</p>
+<p>Antes de aprender como criar variáveis, precisamos aprender o conceito de <strong>tipo</strong> em Java. Tipo em Java descreve o que está sendo armazenado na caixa. Se você tiver uma caixa de inteiros, ela conterá apenas números inteiros, não frases ou símbolos. Cada variável possui seu próprio tipo que a restringe ao armazenamento de um tipo específico de dados.</p>
+<p>Por exemplo, a variável chamada <code>age</code> que armazena o número <code>3</code> deve conter números inteiros, não sentenças ou símbolos.</p>
+<p>Em Java, uma variável que armazena números inteiros é do tipo <code>int</code>. Declaramos uma variável <code>int</code> chamada <code>age</code> com dados <code>3</code> usando a linha de código:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">int</span> <span style="color:#111">age</span> <span style="color:#f92672">=</span> <span style="color:#111">3</span><span style="color:#111">;</span>
+</span></span></code></pre></div><p>Em geral, para declarar uma variável nós as escrevemos no formato: <code>[tipo de dados] [nome da variável] = [dado];</code>.</p>
+<div class="notices note" >
+    <p header-value="Observação"><p>A seguir estão os tipos de dados importantes que foram integrados em Java:</p>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Tipo</strong></th>
+          <th><strong>Descrição</strong></th>
+          <th><strong>Exemplos</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>int</code></td>
+          <td>inteiro</td>
+          <td><code>20</code>, <code>30</code>, <code>35</code></td>
+      </tr>
+      <tr>
+          <td><code>char</code></td>
+          <td>caractere, como um símbolo ou uma única letra do alfabeto</td>
+          <td><code>'A'</code>,<code>'b'</code>, <code>'('</code>, <code>']'</code></td>
+      </tr>
+      <tr>
+          <td><code>String</code></td>
+          <td>uma sequência de <code>char</code></td>
+          <td><code>&quot;Hello&quot;</code>, <code>&quot;Hola&quot;</code>, <code>&quot;Olá&quot;</code></td>
+      </tr>
+      <tr>
+          <td><code>boolean</code></td>
+          <td>tem o valor de verdadeiro (true) ou falso (false) <code>true</code> or <code>false</code></td>
+          <td><code>true</code>, <code>false</code></td>
+      </tr>
+      <tr>
+          <td>double</td>
+          <td>números fracionados</td>
+          <td><code>2.0</code>, <code>3.14</code>, <code>9.33</code></td>
+      </tr>
+  </tbody>
+</table></p>
+</div>
+<p>Vamos revisitar as três variáveis ​​de que falamos e identificar seus tipos de dados.</p>
+<img src="../images/dataType.png" height="200" alt="3 boxes. The first box has white text outside, myName, and white text inside, 'Patrick'. Red arrow pointing to box with text type String. The second box has white text outside, loveMusic, and white text inside, true. Red arrow pointing to the box with text type boolean. The third box has white text outside, age, and white text inside, 3. Red arrow pointing to the box with text type int"/> 
+<p>Para declarar essas variáveis ​​em Java, digitamos o seguinte:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#111">String</span> <span style="color:#111">name</span> <span style="color:#f92672">=</span> <span style="color:#d88200">&#34;Patrick&#34;</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">int</span> <span style="color:#111">age</span> <span style="color:#f92672">=</span> <span style="color:#111">10</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">boolean</span> <span style="color:#111">loveMusic</span> <span style="color:#f92672">=</span> <span style="color:#00a8c8">true</span><span style="color:#111">;</span>
+</span></span></code></pre></div><h2 id="qual-é-o-tipo---ajude-patrick">Qual é o tipo - Ajude Patrick!</h2>
+<p>Patrick 🐥 não é um mestre em tipos de dados! Ele frequentemente os confundia ao declarar variáveis. Vamos ajudá-lo a corrigir seu erro:</p>
+<p><a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsDataType" target="_blank">Launch Replit</a></p>
+<div class="notices tip" >
+    <p header-value="Dica"><p>Ao armazenar dados em variáveis, você pode usar esses dados posteriormente ou alterá-los, atribuindo-os a dados diferentes do mesmo tipo. Por exemplo:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">int</span> <span style="color:#111">age</span> <span style="color:#f92672">=</span> <span style="color:#111">10</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">System</span><span style="color:#111">.</span><span style="color:#75af00">out</span><span style="color:#111">.</span><span style="color:#75af00">println</span><span style="color:#111">(</span><span style="color:#111">age</span><span style="color:#111">);</span> <span style="color:#75715e">// imprime 10</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">age</span> <span style="color:#f92672">=</span> <span style="color:#111">11</span><span style="color:#111">;</span> <span style="color:#75715e">// atribui o valor 11 para a variável age</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">System</span><span style="color:#111">.</span><span style="color:#75af00">out</span><span style="color:#111">.</span><span style="color:#75af00">println</span><span style="color:#111">(</span><span style="color:#111">age</span><span style="color:#111">);</span> <span style="color:#75715e">// imprime 11</span>
+</span></span></code></pre></div></p>
+</div>
+<h2 id="qual-o-tipo--acompanhe-os-números">Qual o tipo? &ndash; Acompanhe os Números!</h2>
+<p>Agora considere o seguinte código. Qual você acha que é a saída? Acompanhe os valores de cada variável e teste-os abaixo!</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#00a8c8">double</span> <span style="color:#111">x</span> <span style="color:#f92672">=</span> <span style="color:#111">2</span><span style="color:#111">.</span><span style="color:#75af00">3</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">double</span> <span style="color:#111">y</span> <span style="color:#f92672">=</span> <span style="color:#111">10</span><span style="color:#111">.</span><span style="color:#75af00">0</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">int</span> <span style="color:#111">z</span> <span style="color:#f92672">=</span> <span style="color:#111">4</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#111">x</span> <span style="color:#f92672">=</span> <span style="color:#111">y</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">y</span> <span style="color:#f92672">=</span> <span style="color:#111">x</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">z</span> <span style="color:#f92672">=</span> <span style="color:#111">0</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">z</span> <span style="color:#f92672">=</span> <span style="color:#111">z</span><span style="color:#111">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">System</span><span style="color:#111">.</span><span style="color:#75af00">out</span><span style="color:#111">.</span><span style="color:#75af00">println</span><span style="color:#111">(</span><span style="color:#d88200">&#34;x: &#34;</span> <span style="color:#f92672">+</span> <span style="color:#111">x</span> <span style="color:#f92672">+</span> <span style="color:#d88200">&#34; y: &#34;</span> <span style="color:#f92672">+</span> <span style="color:#111">y</span> <span style="color:#f92672">+</span> <span style="color:#d88200">&#34; z: &#34;</span> <span style="color:#f92672">+</span> <span style="color:#111">z</span> <span style="color:#111">);</span>
+</span></span></code></pre></div><p><a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/JavaBasicsVariable" target="_blank">Launch Replit</a></p>
+<div class="notices tip" >
+    <p header-value="Dica"><h4 id="explicando-o-exemplo">Explicando o exemplo</h4>
+<p>Nas linhas 1-3 declaramos as variáveis ​​e definimos os valores iniciais para <code>x</code> (2.3), <code>y</code> (10.0) e <code>z</code> (4).
+Na linha 4, definimos <code>x</code> com o valor de <code>y</code> (10.0).
+Na linha 5, definimos <code>y</code> como o valor de <code>x</code>, que foi definido como 10.0 (10.0).
+Na linha 6, definimos <code>z</code> como 0.
+Na linha 7, definimos <code>z</code> com o valor de <code>z</code>, que é 0 (0).</p></p>
+</div>
+
+    
+    
+      <div class="chevrons">
+  <style>
+    .workshop-complete-image {
+        margin: 40px auto 50px auto;
+        width: 340.8px;
+    }
+    
+    .workshop-complete-words {
+        font-family: Space Mono, monospace;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        text-align: center;
+    }
+    
+    .horizontal-bar {
+        background-color: #000000;
+        width: 120px;
+        height: 12px;
+        margin: 80px auto 0 auto;
+    }
+</style>
+
+
+    <div id="navigation">
+            <div class="next-prev-wrapper-div"><a class='nav nav-prev' href="/pt-br/java-basics/activity-1/" title="Imprimir declarações e comentários">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Anterior:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Imprimir declarações e comentários
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="prevbutton-image">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+        
+    </div>
+</a></div>
+            <div class="next-prev-wrapper-div"><a class='nav nav-next' href="/pt-br/java-basics/activity-3/" title="Operadores">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Próximo:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Operadores
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="nextbutton-image">
+            <i class="fa fa-arrow-right"></i>
+        </div>
+        
+    </div>
+</a></div>
+        </div>
+</div>
+
+</section>
+</article>
+
+<footer>
+  <div class="footline">
+    
+
+    
+
+    
+    <div class="date">
+      <i class='fa fa-calendar'></i> 
+      Wed, 13 Oct 2021 00:00:00 PDT
+    </div>
+    
+
+    
+    <div class="github-link">
+      <a href="https://github.com/NuevoFoundation/workshops/tree/master/content/java-basics/activity-2.md" target="blank"><i
+          class="fa fa-code-fork"></i>
+        </a>
+    </div>
+    
+  </div>
+
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+    
+
+    
+    
+
+    <div id="footer" class="row">
+    <div class="col-xs-12">
+        <div class="App-footer">
+            <div class="App-footer-big">
+                Siga-nos nas redes sociais.
+            </div>
+            <div class="social-images">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Instagram" class="fab fa-2x fa-instagram"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation X" class="fab fa-2x fa-x-twitter"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Facebook" class="fab fa-2x fa-1x fa-facebook-f"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-2x fa-linkedin"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/nuevofoundation?sub_confirmation=1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation YouTube" class="fab fa-2x fa-youtube"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Spotify" class="fab fa-2x fa-spotify"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Github" class="fab fa-2x fa-github"></i>
+                </a>
+            </div>
+            <div class="App-footer-small">
+                © Copyright 2025, Todos os direitos reservados a Nuevo Foundation, uma organização sem fins lucrativos de acordo com a norma 501(c)(3) da lei federal dos Estados Unidos.
+            </div>
+        </div>
+    </div>
+</div>
+
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fundamentos on Nuevo Foundation Workshops</title>
+    <link>/pt-br/python-basics/basics/</link>
+    <description>Recent content in Fundamentos on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Mon, 19 Sep 2022 14:45:38 -0700</lastBuildDate>
+    <atom:link href="/pt-br/python-basics/basics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Começando com o Trinket</title>
+      <link>/pt-br/python-basics/basics/using-trinket/</link>
+      <pubDate>Mon, 19 Sep 2022 14:45:38 -0700</pubDate>
+      <guid>/pt-br/python-basics/basics/using-trinket/</guid>
+      <description>&lt;p&gt;Hoje, usaremos o Trinket para aprender sobre Python. Aqui está um exemplo de janela interativa do Trinket que você usará hoje.&lt;/p&gt;&#xA;&lt;iframe src=&#34;https://trinket.io/embed/python/ce70252d93&#34; width=&#34;100%&#34; height=&#34;600&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xD;&#xA;&lt;p&gt;Antes de começarmos, vamos primeiro entender como funciona a janela. O arquivo &lt;code&gt;main.py&lt;/code&gt; contém código ou instruções para o computador funcionar. Tudo o que resultar da execução do código será exibido no lado direito. Esta janela é chamada de console.&lt;/p&gt;&#xA;&lt;p&gt;Clique em &lt;strong&gt;run&lt;/strong&gt; e observe seu console executar seu código na tela à direita! No exemplo abaixo, &lt;code&gt;print&lt;/code&gt; diz ao computador para imprimir a frase entre parênteses &lt;code&gt;()&lt;/code&gt; no console ou na tela à direita. Saiba mais sobre &lt;code&gt;print&lt;/code&gt; nas próximas lições.&#xA;&lt;img src=&#34;../../img/helloWorld.png&#34; alt=&#34;Captura de tela do Trinket mostrando print(“Hello World”) no arquivo main.py e o resultado no console à direita&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gravando no console (imprimir instrução)</title>
+      <link>/pt-br/python-basics/basics/writing-to-console/</link>
+      <pubDate>Mon, 19 Sep 2022 14:45:38 -0700</pubDate>
+      <guid>/pt-br/python-basics/basics/writing-to-console/</guid>
+      <description>&lt;h2 id=&#34;faça-seu-programa-falar-com-você&#34;&gt;Faça seu programa falar com você!&lt;/h2&gt;&#xA;&lt;p&gt;As instruções &lt;strong&gt;Print&lt;/strong&gt; são usadas para escrever algo no console. Use &lt;code&gt;print(&amp;quot;Olá, Mundo!&amp;quot;)&lt;/code&gt; para imprimir &lt;em&gt;Olá, Mundo!&lt;/em&gt; na tela de saída. Mais tarde aprenderemos que print é uma função e a utilizamos para realizar um trabalho de impressão. Tudo o que você passa para a função &lt;code&gt;print&lt;/code&gt; é impresso na tela.&#xA;Vamos começar fazendo uma instrução &lt;code&gt;print&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Usaremos muito a impressão nas lições posteriores, portanto, certifique-se de entender isso antes de passar para o próximo conceito!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Commentários</title>
+      <link>/pt-br/python-basics/basics/comments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pt-br/python-basics/basics/comments/</guid>
+      <description>&lt;p&gt;Ao criar um programa Python, podemos adicionar algumas notas adicionando comentários de uma linha usando &lt;code&gt;#&lt;/code&gt;. &lt;strong&gt;Comentários&lt;/strong&gt; são as partes do código que não afetam o programa. Qualquer coisa após o símbolo &lt;code&gt;#&lt;/code&gt; faz parte do comentário e é ignorado pelo seu código. Comentários são colocados no código para informar aos leitores o que o código está fazendo. Eles podem facilitar a manutenção do código e também ajudar a encontrar bugs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Variáveis</title>
+      <link>/pt-br/python-basics/basics/variables/</link>
+      <pubDate>Mon, 19 Sep 2022 14:45:38 -0700</pubDate>
+      <guid>/pt-br/python-basics/basics/variables/</guid>
+      <description>&lt;p&gt;Em um exercício anterior, aprendemos a imprimir diferentes instruções com &lt;code&gt;print(&amp;quot;&amp;quot;)&lt;/code&gt;. Embora seja ótimo imprimir um número ou uma frase, não lhes demos um significado. Variáveis ​​são simplesmente nomes que podemos dar a valores como strings, números e booleanos. Veja como criar uma variável chamada s em Python. Dizemos que s é uma string que possui o valor &lt;code&gt;&amp;quot;Olá Mundo!&amp;quot;&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#111&#34;&gt;s&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d88200&#34;&gt;&amp;#34;Olá Mundo!&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#111&#34;&gt;x&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;88&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#111&#34;&gt;happy&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#00a8c8&#34;&gt;True&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Pressione Run (executar).&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../../img/variables.png&#34; alt=&#34;Captura de tela da aparência do exemplo de variáveis ​​no replit&#34; title=&#34;imagem de como as variáveis ​​aparecem no replit&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lendo do console</title>
+      <link>/pt-br/python-basics/basics/reading-from-console/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      <guid>/pt-br/python-basics/basics/reading-from-console/</guid>
+      <description>&lt;p&gt;Agora que sabemos o básico sobre variáveis, podemos pedir informações ao usuário. Use a linha a seguir para dizer ao nosso programa para esperar até que o usuário digite algo no console. Então, o computador pega tudo o que é digitado no console e armazena na variável chamada &lt;strong&gt;value&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#111&#34;&gt;value&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#111&#34;&gt;input&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;()&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Aqui estão alguns exemplos de como usar &lt;code&gt;input()&lt;/code&gt; para aceitar a entrada do usuário:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#111&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#d88200&#34;&gt;&amp;#34;Qual o seu nome?&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#111&#34;&gt;value&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#111&#34;&gt;input&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;()&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#111&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#d88200&#34;&gt;&amp;#34;Olá &amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#111&#34;&gt;value&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#d88200&#34;&gt;&amp;#34;!&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Experimente! Ao clicar em executar, você notará que a imagem abaixo ainda não aparece no console.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

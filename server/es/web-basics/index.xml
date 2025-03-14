@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HTML &amp; CSS: Web Basico on Nuevo Foundation Workshops</title>
+    <link>/es/web-basics/</link>
+    <description>Recent content in HTML &amp; CSS: Web Basico on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 27 Nov 2020 17:53:41 -0700</lastBuildDate>
+    <atom:link href="/es/web-basics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conceptos Básicos</title>
+      <link>/es/web-basics/basics/</link>
+      <pubDate>Fri, 27 Nov 2020 17:53:41 -0700</pubDate>
+      <guid>/es/web-basics/basics/</guid>
+      <description>&lt;h2 id=&#34;qué-es-un-sitio-web&#34;&gt;¿Qué es un sitio web?&lt;/h2&gt;&#xA;&lt;p&gt;Un sitio web es solo una página que se puede encontrar en Internet. Se ve a través de un navegador cuando introduces la dirección (o nombre único) en la barra de direcciones.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://1mtvya.dm.files.1drv.com/y4mqBcdQfTi7DP7Pk8U1Yu86e9ObVoogX4E9bB_jcTLAm5HVJpHgKWm6xeBpo_22xqLBgUwewOMcGKwEKFp9LHgFGgIcA2E-7W1XWmFqR3fkD04AQXAZFMxZxJdqqBlPvqrIs7rh_XEJRwpQc0eoRTERgI2gIJ_yR6jlCjz5Xer_oLWcVGTo12DUg-WTB5jM77hz4nbHirbMyufs6NQ60EIrg?width=660&amp;amp;height=521&amp;amp;cropmode=none&#34; alt=&#34;alt text height=“600px” width=“30%”&#34; title=&#34;Grafica de buscador&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;partes-de-un-sitio-web&#34;&gt;Partes de un sitio web&lt;/h2&gt;&#xA;&lt;p&gt;Existen varios elementos comunes para un sitio web incluyendo barras de navegación, pie de página, barras de búsqueda y formularios de contacto.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Poniendo todo junto</title>
+      <link>/es/web-basics/putting-together/</link>
+      <pubDate>Fri, 27 Nov 2020 17:53:41 -0700</pubDate>
+      <guid>/es/web-basics/putting-together/</guid>
+      <description>&lt;h2 id=&#34;poniendo-todo-junto&#34;&gt;Poniendo todo junto&lt;/h2&gt;&#xA;&lt;p&gt;Para que el navegador entienda lo que es cada elemento de tu sitio web, necesitamos etiquetarlos con etiquetas HTML. HTML significa &lt;code&gt;Hypertext Markup Language&lt;/code&gt;. Las etiquetas son palabras rodeadas por los símbolos &lt;code&gt;&amp;lt; y &amp;gt;&lt;/code&gt;. Por ejemplo, la etiqueta &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; le indica al navegador que “esto es una imagen”. La etiqueta &lt;code&gt;&amp;lt;button&amp;gt;&lt;/code&gt; le indica que “esto es un botón”.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../media/web-tags-sm.png&#34; alt=&#34;alt text&#34; title=&#34;Grafica de html tags&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;¡Las etiquetas (o Tags) también se pueden usar para organizar tu página web! La imagen de abajo muestra la estructura de una página web básica. La cabecera (etiqueta &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt;) generalmente contiene las bibliotecas adicionales y el título de la página, mientras que el cuerpo (la etiqueta &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt;) contiene la mayor parte del contenido que se muestra en la página.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Actividad  1 - Familiarizarse con editor en linea</title>
+      <link>/es/web-basics/activity-1/</link>
+      <pubDate>Fri, 27 Nov 2020 17:53:41 -0700</pubDate>
+      <guid>/es/web-basics/activity-1/</guid>
+      <description>&lt;h2 id=&#34;instrucciones&#34;&gt;Instrucciones&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Abre el editor del navegador (clica en el botón de abajo “Inténtalo tu mism@!”)&lt;/li&gt;&#xA;&lt;li&gt;Usa etiquetas de cabecera para añadir el título y las etiquetas de párrafo para escribir un párrafo sobre Benji&lt;/li&gt;&#xA;&lt;li&gt;Si tienes tiempo: escribe una lista de las golosinas favoritas de Benji: pavo, mantequilla de cacahuetes y queso en hebras&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;a class=&#34;my-2 mx-4 btn btn-info&#34; href=&#34;https://codepen.io/Sunny-Dee/pen/exxyYL&#34; target=&#34;_blank&#34;&gt;Inténtalo tu mism@!&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Usa este gráfico de referencia para probar algunas etiquetas HTML tú mism@.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Atributos de HTML</title>
+      <link>/es/web-basics/html-attributes/</link>
+      <pubDate>Fri, 27 Nov 2020 17:53:41 -0700</pubDate>
+      <guid>/es/web-basics/html-attributes/</guid>
+      <description>&lt;h2 id=&#34;html-y-sus-atributos&#34;&gt;HTML y sus atributos&lt;/h2&gt;&#xA;&lt;p&gt;Cada etiqueta también puede tener información adicional como atributos de estilo que pueden cambiar las propiedades de un elemento. Hay atributos que podemos usar para cambiar la apariencia visual de un elemento, como el tamaño, el color y la tipografía.&lt;/p&gt;&#xA;&lt;p&gt;Todos los atributos tienen un formato de este tipo: &lt;code&gt;attribute-name=&amp;quot;value in quotes&amp;quot;&lt;/code&gt;. Por ejemplo, podemos cambiar el color de un párrafo a rojo con este código: &lt;code&gt;&amp;lt;p style=&amp;quot;color:red&amp;quot;&amp;gt;Este texto es rojo&amp;lt;/p&amp;gt;&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Activity 2 - CSS</title>
+      <link>/es/web-basics/activity-2/</link>
+      <pubDate>Fri, 27 Nov 2020 17:53:41 -0700</pubDate>
+      <guid>/es/web-basics/activity-2/</guid>
+      <description>&lt;h2 id=&#34;dale-estilo-con-css&#34;&gt;Dale estilo con CSS&lt;/h2&gt;&#xA;&lt;p&gt;Las etiquetas le indican al navegador qué elementos tiene que utilizar. Pero también le tenemos que decir como mostrar esos elementos, y dónde ponerlos. Puede que queramos el título en el centro o en el lado derecho. Puede que queramos una foto a la derecha y el párrafo a la izquierda. Hay dos formas de hacer esto: usando atributos HTML u hojas de estilo en cascada ( en inglés &lt;code&gt;Cascading Style Sheets&lt;/code&gt;).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Elementos multimedia</title>
+      <link>/es/web-basics/media-elements/</link>
+      <pubDate>Fri, 27 Nov 2020 17:53:41 -0700</pubDate>
+      <guid>/es/web-basics/media-elements/</guid>
+      <description>&lt;h2 id=&#34;agregar-un-gif&#34;&gt;Agregar un GIF&lt;/h2&gt;&#xA;&lt;p&gt;Las siglas GIF significan &lt;strong&gt;Graphic Interchange Format&lt;/strong&gt;, pero todo lo que debes saber es que es un tipo de imagen. La única diferencia es que este archivo contiene varias imágenes. Cuando se muestra en el navegador, las imágenes se reproducen de forma secuencial, similar a los frames (o marcos) de una película. Piensa en ellos como uno de esos cuadernos donde se ve una imagen animada según se van pasando las páginas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Activity 3 - Adding a GIF of Nuvi</title>
+      <link>/es/web-basics/activity-3/</link>
+      <pubDate>Fri, 27 Nov 2020 17:53:41 -0700</pubDate>
+      <guid>/es/web-basics/activity-3/</guid>
+      <description>&lt;h2 id=&#34;instrucciones&#34;&gt;Instrucciones&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Usa este &lt;a href=&#34;https://giphy.com/nuevofoundation&#34; target=&#34;_blank&#34;&gt;link&lt;sup&gt;&lt;span class=&#34;glyphicon glyphicon-new-window&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/sup&gt;&lt;/a&gt;&#xD;&#xA; para ver los GIFs disponibles&lt;/li&gt;&#xA;&lt;li&gt;Haz clic sobre uno que te guste y selecciona “Embed” &lt;br&gt;&#xA;&lt;img src=&#34;../media/nuevo-.png&#34;/&gt;&lt;/li&gt;&#xA;&lt;li&gt;Copia el código del cuadro blanco debajo de “GIF Embed Code&amp;quot;&lt;br&gt;&#xA;&lt;img src=&#34;../media/giphy-embed-instruction.PNG&#34; /&gt;&lt;/li&gt;&#xA;&lt;li&gt;Pega el código en cualquier sitio de tu página siempre y cuando esté dentro de las etiquetas &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt;.&lt;br&gt;&#xA;&lt;img src=&#34;https://qyauda.dm.files.1drv.com/y4mWCkifMfvdIaCqGW09zaPjD40e01lWkslVcULewSkHTta3krUbVk_9gF0un3CRjC7OZV_kee2RVhYze2QWcTuB9QJdjFCa_ODpEO4tcmELYwxy3cVRtswz3IeVyX6R9CuT9hLlbajdX7y0zm9otMQ2M5Ejq81FSaRAnXdK0KMNAPq_QdzEhOuiuHlKleDGFQdYjtx7nKiayg2HSUuq16n0w?width=419&amp;height=228&amp;cropmode=none&#34; /&gt;&#xA;&lt;a class=&#34;my-2 mx-4 btn btn-info&#34; href=&#34;https://codepen.io/Sunny-Dee/pen/moqzmP&#34; target=&#34;_blank&#34;&gt;Inténtalo tu mism@!&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>Actividad 4 - Formulario de contacto</title>
+      <link>/es/web-basics/activity-4/</link>
+      <pubDate>Fri, 27 Nov 2020 17:53:41 -0700</pubDate>
+      <guid>/es/web-basics/activity-4/</guid>
+      <description>&lt;h2 id=&#34;agregar-un-formulario-de-contacto&#34;&gt;Agregar un formulario de contacto&lt;/h2&gt;&#xA;&lt;p&gt;Finalmente, vamos a agregar un formulario de contacto para que la gente pueda contactarnos si están interesados en Benji.&lt;/p&gt;&#xA;&lt;p&gt;La mayoría de los navegadores no soporta el envío directo de emails desde el formulario de contacto porque es una forma fácil de que personas maliciosas envíen spam a los usuarios. El spam es un mensaje irrelevante o inapropiado que se envía por Internet. Por eso, para enviar un formulario, vamos a usar un servicio gratuito llamado &lt;a href=&#34;https://formspree.io/&#34; target=&#34;_blank&#34;&gt;FormSpree&lt;sup&gt;&lt;span class=&#34;glyphicon glyphicon-new-window&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/sup&gt;&lt;/a&gt;&#xD;&#xA;. Si queremos que los mensajes den formulario de contacto nos lleguen a nuestro email, primero vamos a tener que confirmarlos con FormSpree. Este método de confirmación evita que las personas con malas intenciones pongan la dirección de email de cualquier persona y evita que ésta reciba spam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Activity 5 - La gran actividad</title>
+      <link>/es/web-basics/activity-5/</link>
+      <pubDate>Fri, 27 Nov 2020 17:53:41 -0700</pubDate>
+      <guid>/es/web-basics/activity-5/</guid>
+      <description>&lt;h2 id=&#34;instrucciones&#34;&gt;Instrucciones&lt;/h2&gt;&#xA;&lt;p&gt;Usando todo lo que has aprendido, vamos a intentar crear un sitio que te describa a ti. Prueba y usa algunas o todas de las siguientes opciones:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Una etiqueta de cabecera (head) y una de párrafo&lt;/li&gt;&#xA;&lt;li&gt;Diferentes tipografías&lt;/li&gt;&#xA;&lt;li&gt;Diferentes colores&lt;/li&gt;&#xA;&lt;li&gt;Agrega una imagen a tu sitio&lt;/li&gt;&#xA;&lt;li&gt;Una lista&lt;/li&gt;&#xA;&lt;li&gt;Embeber un gif o un video&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;a class=&#34;my-2 mx-4 btn btn-info&#34; href=&#34;https://codepen.io/Sunny-Dee/pen/qvVJLE&#34; target=&#34;_blank&#34;&gt;Muestra tu estilo!&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Aloja (host) tu sitio web</title>
+      <link>/es/web-basics/hosting/</link>
+      <pubDate>Fri, 27 Nov 2020 17:53:41 -0700</pubDate>
+      <guid>/es/web-basics/hosting/</guid>
+      <description>&lt;h2 id=&#34;aloja-tu-sitio-web-en-internet&#34;&gt;¡Aloja tu sitio web en Internet!&lt;/h2&gt;&#xA;&lt;p&gt;¡Ahora que has creado tu sitio web personal, vamos a alojarlo en Internet para que todo el mundo pueda acceder a él! Vas a necesitar una cuenta de GitHub para hacerlo. Si no tienes una, la puedes crear &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34;&gt;aquí&lt;sup&gt;&lt;span class=&#34;glyphicon glyphicon-new-window&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/sup&gt;&lt;/a&gt;&#xD;&#xA;.&lt;/p&gt;&#xA;&lt;p&gt;Una vez que hayas creado tu cuenta y verificado tu dirección de email, aparecerás en esta página:&lt;/p&gt;&#xA;&lt;p style=&#34;text-align: center; &#34;&gt;&lt;img src=&#34;../media/newAccount.png&#34; alt=&#34;Cuenta nueva en la pagina de github&#34; width=&#34;1200&#34;/&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>En caso de que te lo estuvieras preguntando</title>
+      <link>/es/web-basics/conclusion/</link>
+      <pubDate>Fri, 27 Nov 2020 17:53:41 -0700</pubDate>
+      <guid>/es/web-basics/conclusion/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;../media/benji-and-me-sm.png&#34; alt=&#34;alt text&#34; title=&#34;Dibuje de Benji y Dee&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Puede que estés preocupado por Benji, pero estamos encantados de decirte que ha encontrado su hogar a través de una página web como la que estás creando. Benji es ahora un buen chico a tiempo completo y trabaja mucho en sus trucos para conseguir golosinas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Answer Key - Web Basics</title>
+      <link>/es/web-basics/answer-key/</link>
+      <pubDate>Sat, 28 Mar 2020 12:53:41 -0700</pubDate>
+      <guid>/es/web-basics/answer-key/</guid>
+      <description>&lt;h3 id=&#34;special-note&#34;&gt;Special note:&lt;/h3&gt;&#xA;&lt;p&gt;This curriculum allows students to be creative. The below is just an example of what they can do, please use your best judgement and ask for guidance if needed. The answer key provided here is fairly long because we are including snippets of full HTML for context.&lt;/p&gt;&#xA;&lt;p&gt;When a student clicks on the &amp;lsquo;Try it yourself!&amp;rsquo; it&amp;rsquo;ll open a new tab with some of the HTML code (and CSS code) already scaffolded.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

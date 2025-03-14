@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nuevo Foundation Workshops</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+<meta name="theme-color" content="#000000" />
+<meta name="revised" content="2025-03-14T19:00:18 -03">
+<meta name="application-name" content=" " />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+<title>Көнүгүү 2 - CSS :: Nuevo Foundation Workshops</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+
+<link rel="shortcut icon" href="https://www.nuevofoundation.org/favicons/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57"
+      href="https://www.nuevofoundation.org/favicons//apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120"
+      href="https://www.nuevofoundation.org/favicons/pple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-128.png" sizes=" 128x128" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="/css/nuevoweb.css" />
+<link rel="stylesheet" href="/css/chunk.css" />
+<link rel="stylesheet" href="/css/data-style.css" />
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+
+<script lang="JavaScript">
+
+      function toggleVisibility() {
+
+            
+            const menu = document.getElementById("mobile-nav-menu");
+            if (menu.style.display == 'none') {
+                  menu.classList.replace("transition-out", "transition-in")
+                  menu.style.display = 'block';
+            }
+            else if (menu.style.display == 'block') {
+                  menu.classList.replace("transition-in", "transition-out")
+                  menu.style.display = 'none';
+            }
+      }
+</script>
+<meta
+  name="description"
+  content="
+
+    
+"
+/>
+
+
+    
+  </head>
+  <body data-url="/ky/web-basics/activity-2/" >
+    
+      <header>
+  
+  <div id="mobile-nav-menu" class="transition-out" style="display: none;">
+    <div class="close-btn" onclick="toggleVisibility();">
+        <i aria-hidden="true" focusable="false" style="cursor: pointer;" class="fa fa-times fa-w-11 fa-sm"></i>
+    </div>
+    <div>
+        <div class="sc-dNLxif ecnYUM">
+            <a href="/support-us"><button class="sc-jbKcbu sedGx"
+                    style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: 4px solid rgb(0, 0, 0); border-radius: 4px;">
+                    Кайрымдуулук кылуу
+                </button></a>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/what-we-do">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Биз эмне кылабыз</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/get-involved">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Катышуу</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/support-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Бизди колдо</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/blog">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Блог</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/about-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Биздин команда</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/contact">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Биз менен байланыш</li>
+            </ul>
+        </a>
+    </div>
+</div>
+<div>
+    <div class="sc-gGBfsJ iKkPGj">
+        <div class="container-fluid">
+            <div id="toprow" class="row">
+                <div class="col-xs-12">
+                    <div class="sc-EHOje fJMnSm">
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.instagram.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation Instagram" class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://twitter.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation X" class="fab fa-x-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Facebook" class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.linkedin.com/company/nuevofoundation">
+                                <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://www.youtube.com/nuevofoundation?sub_confirmation=1n">
+                                <i aria-label="Nuevo Foundation YouTube" class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1">
+                                <i aria-label="Nuevo Foundation Spotify" class="fab fa-spotify"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://github.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Github" class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" rel="noopener noreferrer"
+                                href="https://nuevofoundation.org/support-us">Кайрымдуулук кылуу</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="secondrow" class="row">
+                <div class="col-sm-12 hidden-xs">
+                    <div class="sc-htoDjs kjtfZK">
+                        <a class="sc-fjdhpX izNzAG active" aria-current="page" href="https://nuevofoundation.org">
+                            <img alt="Nuevo Foundation Logo" src="/images/Logo_long.0f097b90.svg"
+                                height="60px" />
+                        </a>
+                        <ul class="sc-iwsKbI bUOvG">
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/what-we-do">
+                                <li class="sc-gZMcBi Bomeo">Биз эмне кылабыз</li>
+                            </a>
+                            <a class="izNzAG" href="/">
+                                <li class="sc-gZMcBi Bomeo-selected jgBGVn">Воркшоптор<span></span></li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/get-involved">
+                                <li class="sc-gZMcBi Bomeo">Катышуу</li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/support-us">
+                                <li class="sc-gZMcBi Bomeo">Бизди колдо</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/blog">
+                                <li class="sc-gZMcBi Bomeo">Блог</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/about-us">
+                                <li class="sc-gZMcBi Bomeo">Биздин команда</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/contact">
+                                <li class="sc-gZMcBi Bomeo">Биз менен байланыш</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <a class="sc-fjdhpX izNzAG active" aria-current="page" href="/">
+                                <img alt="Nuevo Foundation Logo" class="sc-dnqmqq emolVn"
+                                    src="/images/Logo_long.0f097b90.svg" height="60%" /></a>
+                        </div>
+                        <div class="col-xs-2" onclick="toggleVisibility();"
+                            style="padding-top: 4%; padding-left: 4%; cursor: pointer;">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                                class="svg-inline--fa fa-bars fa-w-14 fa-lg" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/ky/web-basics/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/ky/web-basics/">HTML &amp; CSS:  Веб негиздери</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/ky/web-basics/basics/" class="dd-item">
+        <div>
+          <a href="/ky/web-basics/basics/">
+            Негиздер
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/ky/web-basics/putting-together/" class="dd-item">
+        <div>
+          <a href="/ky/web-basics/putting-together/">
+            Баарын бириктирүү
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/ky/web-basics/activity-1/" class="dd-item">
+        <div>
+          <a href="/ky/web-basics/activity-1/">
+            Көнүгүү 1 - Веб редактор менен таанышуу
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/ky/web-basics/html-attributes/" class="dd-item">
+        <div>
+          <a href="/ky/web-basics/html-attributes/">
+            HTML атрибуттары
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/ky/web-basics/activity-2/" class="dd-item active">
+        <div>
+          <a href="/ky/web-basics/activity-2/">
+            Көнүгүү 2 - CSS
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/ky/web-basics/media-elements/" class="dd-item">
+        <div>
+          <a href="/ky/web-basics/media-elements/">
+            Медиа элементтери
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/ky/web-basics/activity-3/" class="dd-item">
+        <div>
+          <a href="/ky/web-basics/activity-3/">
+            Көнүгүү 3 - Nuvi GIF кошуу
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/ky/web-basics/activity-4/" class="dd-item">
+        <div>
+          <a href="/ky/web-basics/activity-4/">
+            Көнүгүү 4 - Форманы байкап көрүңүз жана стилди өзгөртүңүз
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/ky/web-basics/activity-5/" class="dd-item">
+        <div>
+          <a href="/ky/web-basics/activity-5/">
+            Көнүгүү 5 - Акыркы көнүгүү
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/ky/web-basics/hosting/" class="dd-item">
+        <div>
+          <a href="/ky/web-basics/hosting/">
+            Вебсайтты интернетте жайгаштыруу
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/ky/web-basics/conclusion/" class="dd-item">
+        <div>
+          <a href="/ky/web-basics/conclusion/">
+            Эгер сизге кызык болсо
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+    </ul>
+
+    <section>
+    </section>
+  </aside>
+  <section class="page">
+    <div align="right">
+<select id="select-language" onchange="location = this.value;">
+	
+	
+	
+	  
+	  
+	    
+	      
+	        <option id="en" value="/web-basics/activity-2/">English</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	      
+	        <option id="es" value="/es/web-basics/activity-2/">Español</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="fr" value="/fr/web-basics/activity-2/">Français</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="pt-br" value="/pt-br/web-basics/activity-2/">Português Brasileiro</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="zh-hans" value="/zh-hans/web-basics/activity-2/">简体中文</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="zh-hant" value="/zh-hant/web-basics/activity-2/">繁體中文</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="ky" value="/ky/web-basics/activity-2/" selected>Кыргызча</option>
+	      
+	    
+	  
+	
+</select>
+    </div>
+
+    <div class="nav-select">
+      Навигация:&nbsp;
+      <select onchange="javascript:location.href = this.value;">
+        
+<option value="/ky/web-basics/" >
+   HTML &amp; CSS:  Веб негиздери</option>
+
+<option value="/ky/web-basics/basics/" >- Негиздер</option>
+<option value="/ky/web-basics/putting-together/" >- Баарын бириктирүү</option>
+<option value="/ky/web-basics/activity-1/" >- Көнүгүү 1 - Веб редактор менен таанышуу</option>
+<option value="/ky/web-basics/html-attributes/" >- HTML атрибуттары</option>
+<option value="/ky/web-basics/activity-2/"  selected>- Көнүгүү 2 - CSS</option>
+<option value="/ky/web-basics/media-elements/" >- Медиа элементтери</option>
+<option value="/ky/web-basics/activity-3/" >- Көнүгүү 3 - Nuvi GIF кошуу</option>
+<option value="/ky/web-basics/activity-4/" >- Көнүгүү 4 - Форманы байкап көрүңүз жана стилди өзгөртүңүз</option>
+<option value="/ky/web-basics/activity-5/" >- Көнүгүү 5 - Акыркы көнүгүү</option>
+<option value="/ky/web-basics/hosting/" >- Вебсайтты интернетте жайгаштыруу</option>
+<option value="/ky/web-basics/conclusion/" >- Эгер сизге кызык болсо</option>
+
+
+
+      </select>
+
+    </div>
+    
+
+    <h1>Көнүгүү 2 - CSS</h1>
+
+    
+
+    
+
+    
+    
+    
+    
+    <h2 id="css-менен-кооздоо">CSS менен кооздоо</h2>
+<p>Тегдер браузерге веб-сайттын кандай элементтерин колдонуу керектигин көрсөтөт. Бирок биз элементтерди кантип көрсөтүүнү жана аларды кайда жайгаштырууну да көрсөтүшүбүз керек. Биз аталышын борбордо же оң жагында болушун каалайбыз. Оң жакта сүрөт жана сол жакта абзац болуш керек. Муну биз эки жол менен жасай алабыз: HTML атрибуттары аркылуу же <code>Cascading Style Sheets</code> (Каскаддык стиль баракчалары).</p>
+<h2 id="каскаддык-стиль-баракчалары-css">Каскаддык стиль баракчалары (CSS)</h2>
+<p>HTML атрибуттары жөнөкөй, бирок алар бат эле башаламан болуп кетиши мүмкүн. Эгерде биз көп стиль кааласак, ар бир HTML элементи окуу кыйын болуп калышы мүмкүн. Андан башка, эгер биз көп элементти бирдей стилде болушун кааласакчы? Анда элементтин бардык атрибуттарын көчүрүп алышыбыз керек болот, бул убакыт алат жана ката кылышыбыз мүмкүн. Көпчүлүктү стилдөө үчүн CSSти колдонуу жакшы.</p>
+<p>CSS файлдары HTML тегдери менен тыгыз байланышкан. Ар бир HTML тегинде ар бир элементти аныктоого жардам берген <code>class</code> атрибуту жана/же <code>id</code> атрибуту болушу мүмкүн. . Көптөгөн элементтер бир класска ээ болушу мүмкүн, ал эми элементте бир нече класс болушу мүмкүн. Бирок, элементтин бир гана идентификатору болушу мүмкүн жана id элементтер арасында бөлүшүлбөйт. CSS файлы ар бир <code>class</code> же <code>id</code> үчүн өзгөчө стилди көрсөтүү үчүн бул атрибуттарды колдонот.</p>
+<p>Төмөндөгү мисалдарды караңыз:</p>
+<p class="codepen" data-height="426" data-theme-id="dark" data-default-tab="css,result" data-user="Sunny-Dee" data-slug-hash="qgvpQE" style="height: 426px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Styling it up"> CodePen'деги Делиана Эскобардын(@sunnydee) (<a href="https://codepen.io/Sunny-Dee">@Sunny-Dee</a>)<a href="https://codepen.io/Sunny-Dee/pen/qgvpQE/">  Pen Стилдөө'сүн көрүңүз </a> <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+<b>HTML кодун көрүү үчүн жогорку сол бурчтагы "HTML" өтмөгүн, ал эми CSS кодун көрүү үчүн "CSS" өтмөгүн басыңыз.</b>
+<p>Келгиле, HTML кодун карап көрөлү. <code>&ldquo;info&rdquo;</code> атрибутуна ээ болгон &lt;div&gt;  тегин таап көрүңүз. Ал буга <code>&lt;div id=&ldquo;info&rdquo;&gt;</code> окшош. Бул div-ге id берип, биз андан кийин ушул элемент үчүн стилди көрсөтүүгө CSS-ти колдоно алабыз.</p>
+<p>CSS файлына өтүңүз. Биз белгилүү бир түрдөгү бардык элементтерди стилдей алабыз - мисалы, биз CSS&rsquo;ди колдонуп &lt;p&gt; элементтерин бирдей стилде кооздосок болот. Баш маалымат блогунда биз браузерге бардык аталыштарды #0097A7 (бул көк түскө) боёсун деп көрсөтөбүз.</p>
+<p>CSSтин синтаксиси (же жазуу жолу) жөнүндө сүйлөшөлү. Биринчиден, сиз стилдин кайсы элементинен баштайсыз. Эгер сиз бирдей тегтеги бардык элементтерди стилдештирүүнү кааласаңыз (мисалы, &lt;header&gt;), жөн гана атын жазышыңыз керек. Эгер сиз элементти класс же идентификатор менен стилдештирүүнү кааласаңыз,  class же id аталышынын алдына <code>.</code> же <code>#</code> коюңуз. Андан кийин, өзгөрткүңүз келген ар бир атрибут үчүн <code>attribute-name: value;</code> форматын колдонуңуз. Ар бир сапты <code>;</code> менен бүтүрүүнү унутпаңыз. Бул стилдердин баары { жана } тармал кашаалары менен курчалышы керек.</p>
+<p>Бул окуу куралында алардын баарын камтый албагандай өтө көп стилдик элементтер бар. Эгер мурда жасаган ишиңизди стилдештирүү үчүн каалаган CSSти кантип колдонууну билбей жатсаңыз, интернеттен издеп көрүңүз.</p>
+<p><img src="../media/web-search.gif" alt="alt text" title="gif вебтен css издөө"></p>
+<div class="notices tip" >
+    <p header-value="Кеңеш">CSS &ldquo;жашыл&rdquo;, &ldquo;кызыл&rdquo; жана &ldquo;көк&rdquo; сыяктуу 140 түстүн аталышын түшүнсө да, мунун чектелиши бар. Кочкул жашыл же бир аз ачык жашыл болсочу? Буга жетүү үчүн биз он алтылык (hexadecimal) же RGB формасындагы түстөрдү да көрсөтө алабыз. Түстөрдү жана алардын тиешелүү он алтылык формасын көрүү үчүн <a href="https://htmlcolorcodes.com/color-names/" target="_blank">бул шилтемени</a> текшериңиз.</p>
+</div>
+<h2 id="жаңы-шрифт-кошуу">Жаңы шрифт кошуу</h2>
+<p>Сиз колдоно турган бир нече шрифт бар. Бул бөлүк сиздин сайтка ар кандай шрифттерди кантип кошуш керектигин көрсөтөт.-9</p>
+<ul>
+<li>Келгиле, Heebo шрифтин интернеттен кошолу. Биринчиден биз CSS файлынын жогору жагына шрифти бул билдирүү менен кошобуз:
+<code>@import url('https://fonts.googleapis.com/css?family=Heebo|Open+Sans');</code></li>
+<li>Андан кийин биз аны дене тегине беребиз. Бул тег башка бардык HTML элементтерин камтыгандыктан, биз тандаган шрифт бардык элементтер үчүн колдонулат.</li>
+</ul>
+<p><img src="../media/bodytag.PNG" alt="alt text" title="дене тегинин мисалы"></p>
+<ul>
+<li>Көңүл буруңуз, тармал кашаалардын ичиндеги формат: <code>аты: мааниси;</code>
+<ul>
+<li><span style="color:purple">@import url(&lsquo;<a href="https://fonts.googleapis.com/css?family=Roboto&#43;Mono%27%29;" target="_blank">https://fonts.googleapis.com/css?family=Roboto+Mono');<sup><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></sup></a>
+ </span><br> <code>font-family: 'Roboto Mono', monospace;</code></li>
+<li><span style="color:purple"> @import url(&lsquo;<a href="https://fonts.googleapis.com/css?family=Indie&#43;Flower%27%29;" target="_blank">https://fonts.googleapis.com/css?family=Indie+Flower');<sup><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></sup></a>
+</span><br> <code>font-family: 'Indie Flower', cursive;</code></li>
+<li><span style="color:purple">@import url(&lsquo;<a href="https://fonts.googleapis.com/css?family=Pacifico%27%29;" target="_blank">https://fonts.googleapis.com/css?family=Pacifico');<sup><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></sup></a>
+ </span><br> <code>font-family: 'Pacifico', cursive;</code></li>
+<li><span style="color:purple">@import url(&lsquo;<a href="https://fonts.googleapis.com/css?family=Permanent&#43;Marker%27%29;" target="_blank">https://fonts.googleapis.com/css?family=Permanent+Marker');<sup><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></sup></a>
+</span><br> <code>font-family: 'Permanent Marker', cursive;</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="көнүгүү-2---атрибуттарды-жана-стилди-кошуу">Көнүгүү 2 - Атрибуттарды жана стилди кошуу</h2>
+<p>Азыр биздин веб-сайтты кооз кылууга убакыт келди! Бул көнүгүүнү аяктоо үчүн сиз төмөнкү кадамдарды аткарышыңыз керек:</p>
+<ol>
+<li>
+<p>Веб редакторду ачып (төмөндөгү &ldquo;Өзүңүз байкап көрүңүз!&rdquo; баскычын басыңыз)</p>
+</li>
+<li>
+<p>Баш тегтин бирине id атрибутун кошуңуз. Мисалы,
+<font color="red"><code>&lt;header id=&quot;page-title&quot;&gt;</code></font></p>
+</li>
+<li>
+<p>CSS өтмөгүнө өтүңүз
+<font color="red"><code>#page-title { стиль бул жерде ... }</code>
+</font></p>
+</li>
+<li>
+<p>Тармал кашаалардын ичине “color: yellow;” кошуп аталыштын түсүн өзгөртүңүз</p>
+</li>
+<li>
+<p>Тармал кашаалардын ичине <code>font-family: 'Roboto Mono', monospace;</code> жана CSS өтмөгүнүн жогору жагына <span style="color:purple">@import url(&lsquo;<a href="https://fonts.googleapis.com/css?family=Roboto&#43;Mono%27%29;" target="_blank">https://fonts.googleapis.com/css?family=Roboto+Mono');<sup><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></sup></a>
+</span> кошуп шрифти өзгөртүңүз</p>
+</li>
+</ol>
+<p><a class="my-2 mx-4 btn btn-info" href="https://codepen.io/Sunny-Dee/pen/qgvpQE" target="_blank">Өзүңүз байкап көрүңүз!</a></p>
+
+
+    
+    
+      <div class="chevrons">
+  <style>
+    .workshop-complete-image {
+        margin: 40px auto 50px auto;
+        width: 340.8px;
+    }
+    
+    .workshop-complete-words {
+        font-family: Space Mono, monospace;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        text-align: center;
+    }
+    
+    .horizontal-bar {
+        background-color: #000000;
+        width: 120px;
+        height: 12px;
+        margin: 80px auto 0 auto;
+    }
+</style>
+
+
+    <div id="navigation">
+            <div class="next-prev-wrapper-div"><a class='nav nav-prev' href="/ky/web-basics/html-attributes/" title="HTML атрибуттары">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Мурунку:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                HTML атрибуттары
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="prevbutton-image">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+        
+    </div>
+</a></div>
+            <div class="next-prev-wrapper-div"><a class='nav nav-next' href="/ky/web-basics/media-elements/" title="Медиа элементтери">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Кийинки:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Медиа элементтери
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="nextbutton-image">
+            <i class="fa fa-arrow-right"></i>
+        </div>
+        
+    </div>
+</a></div>
+        </div>
+</div>
+
+</section>
+</article>
+
+<footer>
+  <div class="footline">
+    
+
+    
+
+    
+    <div class="date">
+      <i class='fa fa-calendar'></i> 
+      Tue, 03 Sep 2019 17:53:41 PDT
+    </div>
+    
+
+    
+    <div class="github-link">
+      <a href="https://github.com/NuevoFoundation/workshops/tree/master/content/web-basics/activity-2.md" target="blank"><i
+          class="fa fa-code-fork"></i>
+        </a>
+    </div>
+    
+  </div>
+
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+    
+
+    
+    
+
+    <div id="footer" class="row">
+    <div class="col-xs-12">
+        <div class="App-footer">
+            <div class="App-footer-big">
+                Социалдык тармактардагы маектерге кошулуңуз.
+            </div>
+            <div class="social-images">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Instagram" class="fab fa-2x fa-instagram"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation X" class="fab fa-2x fa-x-twitter"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Facebook" class="fab fa-2x fa-1x fa-facebook-f"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-2x fa-linkedin"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/nuevofoundation?sub_confirmation=1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation YouTube" class="fab fa-2x fa-youtube"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Spotify" class="fab fa-2x fa-spotify"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Github" class="fab fa-2x fa-github"></i>
+                </a>
+            </div>
+            <div class="App-footer-small">
+                © Copyright 2025, All Rights Reserved by Nuevo Foundation, a 501(c)(3) nonprofit.
+            </div>
+        </div>
+    </div>
+</div>
+
+  </body>
+</html>

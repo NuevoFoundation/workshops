@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programando Frutas Musicais com Adafruit on Nuevo Foundation Workshops</title>
+    <link>/pt-br/adafruit/</link>
+    <description>Recent content in Programando Frutas Musicais com Adafruit on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/pt-br/adafruit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Os Componentes</title>
+      <link>/pt-br/adafruit/the-components/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pt-br/adafruit/the-components/</guid>
+      <description>&lt;p&gt;Todos os componentes que usaremos para o projeto estão listados abaixo. Certifique-se de adquirir todos os materiais necessários antes de começar o projeto:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Uma Placa Arduíno Adafruit&lt;/li&gt;&#xA;&lt;li&gt;Cabo Micro USB para USB&lt;/li&gt;&#xA;&lt;li&gt;2 conectores do tipo garra de jacaré, em qualquer cor&lt;/li&gt;&#xA;&lt;li&gt;Duas laranjas&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>Construindo uma estação de DJ</title>
+      <link>/pt-br/adafruit/building-the-dj-station/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pt-br/adafruit/building-the-dj-station/</guid>
+      <description>&lt;h3 id=&#34;ligando-as-laranjas&#34;&gt;Ligando as laranjas&lt;/h3&gt;&#xA;&lt;p&gt;Pegue uma laranja e um de seus fios. Abra uma das garras jacaré e insira a parte inferior na laranja, deixando a parte superior da garra visível para fora. Será mais fácil de fazer se você inseri-lo no parte central inferior da laranja. O mesmo local onde você começaria a descascar se fosse comer a laranja.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/setup1.png?classes=border,shadow&#34; alt=&#34;Não foi possível carregar a imagem&#34;&gt;&#xA;&lt;img src=&#34;../img/setup2.png?classes=border,shadow&#34; alt=&#34;Não foi possível carregar a imagem&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Criando o seu programa</title>
+      <link>/pt-br/adafruit/creating-the-program/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pt-br/adafruit/creating-the-program/</guid>
+      <description>&lt;p&gt;Abra seu navegador de internet favorito (como Edge, Firefox, Google Chrome, Brave) e acesse &lt;a href=&#34;https://aka.ms/oranges&#34; target=&#34;_blank&#34;&gt;https://aka.ms/oranges&lt;sup&gt;&lt;span class=&#34;glyphicon glyphicon-new-window&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/sup&gt;&lt;/a&gt;&#xD;&#xA;. Sua tela ficará assim:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/adafruit.png?classes=border,shadow&#34; alt=&#34;Não foi possível carregar a imagem&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;definindo-as-variáveis&#34;&gt;Definindo as variáveis&lt;/h3&gt;&#xA;&lt;p&gt;Hoje vamos usar laranjas para dizer ao nosso Adafruit quando fazer barulho. A primeira coisa que precisamos fazer é dar um nome para cada laranja, possibilitando ao nosso computador saber onde procurar o que elas estão dizendo. Fazemos a primeira parte definindo uma variável. Clique na seção que diz &lt;strong&gt;VARIABLES&lt;/strong&gt; ou variáveis em português. Ela é de cor salmão e pode ser encontrado na sétima posição de cima para baixo da lista de botões. Em seguida, defina uma variável clicando em &lt;strong&gt;Make a variable&lt;/strong&gt;, dando-lhe um nome. Faça isso duas vezes. Aqui nomeamos as nossas variáveis como &lt;em&gt;analog1&lt;/em&gt; e &lt;em&gt;analog2&lt;/em&gt;, mas você pode chamá-las como quiser.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Baixando o seu programa</title>
+      <link>/pt-br/adafruit/downloading-your-program/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pt-br/adafruit/downloading-your-program/</guid>
+      <description>&lt;p&gt;Na parte inferior da sua área de trabalho, ao lado do nome do seu programa, você poderá ver um botão de download em cor rosa-brilhante. Mas antes de baixar o seu programa, vamos nomeá-lo primeiro. Você pode nomear à sua preferência. Aqui nós o chamamos de adafruit_musicalfruit. Agora, clique no botão de download.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/download1.png?classes=border,shadow&#34; alt=&#34;Não foi possível carregar a imagem&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Você verá uma nova janela, perguntando onde deseja salvar o seu arquivo. O padrão deve ser a pasta Downloads, caso contrário, navegue até a pasta de Downloads e salve o arquivo lá.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chave de resposta - Adafruit</title>
+      <link>/pt-br/adafruit/answer-key/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pt-br/adafruit/answer-key/</guid>
+      <description>&lt;h3 id=&#34;configuração&#34;&gt;Configuração&lt;/h3&gt;&#xA;&lt;p&gt;Em resumo:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;As duas garras de jacaré devem ser presos na superfície das laranjas.&lt;/li&gt;&#xA;&lt;li&gt;O outro lado das garras deve estar nas entradas A1 e A2 do adafruit.&lt;/li&gt;&#xA;&lt;li&gt;O USB deve ser conectado ao adafruit, mas não ao computador.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Após a configuração, as laranjas e adafruit devem ficar assim:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/setupOverview.png?classes=border,shadow&#34; alt=&#34;Não foi possível carregar a imagem&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;solução&#34;&gt;Solução&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/adafruit-basic-solution.png?classes=border,shadow&#34; alt=&#34;Não foi possível carregar a imagem&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;solução---avançada-com-luzes&#34;&gt;Solução - avançada (com luzes)&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/adafruit-complex-solution.png?classes=border,shadow&#34; alt=&#34;Não foi possível carregar a imagem&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

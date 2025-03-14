@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nuevo Foundation Workshops</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+<meta name="theme-color" content="#000000" />
+<meta name="revised" content="2025-03-14T18:59:41 -03">
+<meta name="application-name" content=" " />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+<title>Activity 3: Kusto Query Language 101 :: Nuevo Foundation Workshops</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+
+<link rel="shortcut icon" href="https://www.nuevofoundation.org/favicons/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57"
+      href="https://www.nuevofoundation.org/favicons//apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120"
+      href="https://www.nuevofoundation.org/favicons/pple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-128.png" sizes=" 128x128" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="/css/nuevoweb.css" />
+<link rel="stylesheet" href="/css/chunk.css" />
+<link rel="stylesheet" href="/css/data-style.css" />
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+
+<script lang="JavaScript">
+
+      function toggleVisibility() {
+
+            
+            const menu = document.getElementById("mobile-nav-menu");
+            if (menu.style.display == 'none') {
+                  menu.classList.replace("transition-out", "transition-in")
+                  menu.style.display = 'block';
+            }
+            else if (menu.style.display == 'block') {
+                  menu.classList.replace("transition-in", "transition-out")
+                  menu.style.display = 'none';
+            }
+      }
+</script>
+<meta
+  name="description"
+  content="
+
+    
+"
+/>
+
+
+    
+  </head>
+  <body data-url="/kusto-kc7/activity-3/" >
+    
+      <header>
+  
+  <div id="mobile-nav-menu" class="transition-out" style="display: none;">
+    <div class="close-btn" onclick="toggleVisibility();">
+        <i aria-hidden="true" focusable="false" style="cursor: pointer;" class="fa fa-times fa-w-11 fa-sm"></i>
+    </div>
+    <div>
+        <div class="sc-dNLxif ecnYUM">
+            <a href="/support-us"><button class="sc-jbKcbu sedGx"
+                    style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: 4px solid rgb(0, 0, 0); border-radius: 4px;">
+                    Donate
+                </button></a>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/what-we-do">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>What We Do</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/get-involved">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Get Involved</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/support-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Support us</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/blog">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Event blog</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/about-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Our team</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/contact">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Contact us</li>
+            </ul>
+        </a>
+    </div>
+</div>
+<div>
+    <div class="sc-gGBfsJ iKkPGj">
+        <div class="container-fluid">
+            <div id="toprow" class="row">
+                <div class="col-xs-12">
+                    <div class="sc-EHOje fJMnSm">
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.instagram.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation Instagram" class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://twitter.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation X" class="fab fa-x-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Facebook" class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.linkedin.com/company/nuevofoundation">
+                                <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://www.youtube.com/nuevofoundation?sub_confirmation=1n">
+                                <i aria-label="Nuevo Foundation YouTube" class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1">
+                                <i aria-label="Nuevo Foundation Spotify" class="fab fa-spotify"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://github.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Github" class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" rel="noopener noreferrer"
+                                href="https://nuevofoundation.org/support-us">Donate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="secondrow" class="row">
+                <div class="col-sm-12 hidden-xs">
+                    <div class="sc-htoDjs kjtfZK">
+                        <a class="sc-fjdhpX izNzAG active" aria-current="page" href="https://nuevofoundation.org">
+                            <img alt="Nuevo Foundation Logo" src="/images/Logo_long.0f097b90.svg"
+                                height="60px" />
+                        </a>
+                        <ul class="sc-iwsKbI bUOvG">
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/what-we-do">
+                                <li class="sc-gZMcBi Bomeo">What We Do</li>
+                            </a>
+                            <a class="izNzAG" href="/">
+                                <li class="sc-gZMcBi Bomeo-selected jgBGVn">Workshops<span></span></li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/get-involved">
+                                <li class="sc-gZMcBi Bomeo">Get Involved</li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/support-us">
+                                <li class="sc-gZMcBi Bomeo">Support us</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/blog">
+                                <li class="sc-gZMcBi Bomeo">Event blog</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/about-us">
+                                <li class="sc-gZMcBi Bomeo">Our team</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/contact">
+                                <li class="sc-gZMcBi Bomeo">Contact us</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <a class="sc-fjdhpX izNzAG active" aria-current="page" href="/">
+                                <img alt="Nuevo Foundation Logo" class="sc-dnqmqq emolVn"
+                                    src="/images/Logo_long.0f097b90.svg" height="60%" /></a>
+                        </div>
+                        <div class="col-xs-2" onclick="toggleVisibility();"
+                            style="padding-top: 4%; padding-left: 4%; cursor: pointer;">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                                class="svg-inline--fa fa-bars fa-w-14 fa-lg" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/kusto-kc7/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/kusto-kc7/">KC7: Cyber Defender Game</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/kusto-kc7/activity-1/" class="dd-item">
+        <div>
+          <a href="/kusto-kc7/activity-1/">
+            Activity 1: Login &amp; Setup of the Cyber Environment
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kusto-kc7/tutorial-1/" class="dd-item">
+        <div>
+          <a href="/kusto-kc7/tutorial-1/">
+            Tutorial 1: Intro to Threat Intelligence
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kusto-kc7/activity-2/" class="dd-item">
+        <div>
+          <a href="/kusto-kc7/activity-2/">
+            Activity 2: Threat Intel Game
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kusto-kc7/tutorial-2/" class="dd-item">
+        <div>
+          <a href="/kusto-kc7/tutorial-2/">
+            Tutorial 2: New Employee Orientation
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kusto-kc7/activity-3/" class="dd-item active">
+        <div>
+          <a href="/kusto-kc7/activity-3/">
+            Activity 3: Kusto Query Language 101
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kusto-kc7/activity-3_5/" class="dd-item">
+        <div>
+          <a href="/kusto-kc7/activity-3_5/">
+            Activity 3.5: KQL 101 Answers Explained
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kusto-kc7/activity-4/" class="dd-item">
+        <div>
+          <a href="/kusto-kc7/activity-4/">
+            Activity 4: Catch the Hacker
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kusto-kc7/activity-4_5/" class="dd-item">
+        <div>
+          <a href="/kusto-kc7/activity-4_5/">
+            Activity 4.5: Catch the Hacker Answers Explained
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kusto-kc7/activity-5/" class="dd-item">
+        <div>
+          <a href="/kusto-kc7/activity-5/">
+            Bonus 1: Phishy Activity
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kusto-kc7/activity-6/" class="dd-item">
+        <div>
+          <a href="/kusto-kc7/activity-6/">
+            Bonus 2: Truth or Misinformation?
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kusto-kc7/activity-7/" class="dd-item">
+        <div>
+          <a href="/kusto-kc7/activity-7/">
+            Bonus 3: Security Jeopardy
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kusto-kc7/trainer-1/" class="dd-item">
+        <div>
+          <a href="/kusto-kc7/trainer-1/">
+            T3: Train-the-Trainer Intro
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kusto-kc7/trainer-2/" class="dd-item">
+        <div>
+          <a href="/kusto-kc7/trainer-2/">
+            T3: Choosing the Right Event Style
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/kusto-kc7/trainer-3/" class="dd-item">
+        <div>
+          <a href="/kusto-kc7/trainer-3/">
+            T3: Event Schedule &amp; Logistics
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+    </ul>
+
+    <section>
+    </section>
+  </aside>
+  <section class="page">
+    <div align="right">
+<select id="select-language" onchange="location = this.value;">
+	
+	
+	
+	  
+	  
+	    
+	      
+	        <option id="en" value="/kusto-kc7/activity-3/" selected>English</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+</select>
+    </div>
+
+    <div class="nav-select">
+      Navigation:&nbsp;
+      <select onchange="javascript:location.href = this.value;">
+        
+<option value="/kusto-kc7/" >
+   KC7: Cyber Defender Game</option>
+
+<option value="/kusto-kc7/activity-1/" >- Activity 1: Login &amp; Setup of the Cyber Environment</option>
+<option value="/kusto-kc7/tutorial-1/" >- Tutorial 1: Intro to Threat Intelligence</option>
+<option value="/kusto-kc7/activity-2/" >- Activity 2: Threat Intel Game</option>
+<option value="/kusto-kc7/tutorial-2/" >- Tutorial 2: New Employee Orientation</option>
+<option value="/kusto-kc7/activity-3/"  selected>- Activity 3: Kusto Query Language 101</option>
+<option value="/kusto-kc7/activity-3_5/" >- Activity 3.5: KQL 101 Answers Explained</option>
+<option value="/kusto-kc7/activity-4/" >- Activity 4: Catch the Hacker</option>
+<option value="/kusto-kc7/activity-4_5/" >- Activity 4.5: Catch the Hacker Answers Explained</option>
+<option value="/kusto-kc7/activity-5/" >- Bonus 1: Phishy Activity</option>
+<option value="/kusto-kc7/activity-6/" >- Bonus 2: Truth or Misinformation?</option>
+<option value="/kusto-kc7/activity-7/" >- Bonus 3: Security Jeopardy</option>
+<option value="/kusto-kc7/trainer-1/" >- T3: Train-the-Trainer Intro</option>
+<option value="/kusto-kc7/trainer-2/" >- T3: Choosing the Right Event Style</option>
+<option value="/kusto-kc7/trainer-3/" >- T3: Event Schedule &amp; Logistics</option>
+
+
+
+      </select>
+
+    </div>
+    
+
+    <h1>Activity 3: Kusto Query Language 101</h1>
+
+    
+
+    
+
+    
+    
+    
+    
+    <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/lAeRxuUN1IM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<div class="notices tip" >
+    <p header-value="Tip"><p>This is where we want you to pull up the Scoreboard and ADX viewer from earlier in separate windows to complete the remaining exercises. If you can&rsquo;t or don&rsquo;t want to use the Scoreboard, all questions for this section are listed below.</p>
+<p><em>Remember any page with a video duplicates the lesson in both video and written form. You can follow one or the other depending on what type of learner you are.</em></p>
+</p>
+</div>
+<h2 id="kql-101">KQL 101</h2>
+<p><strong>[Be sure you use the SecurityLogs database for this exercise.]</strong></p>
+<p>Type the following query in the workspace to view the first rows in the <strong>Employees</strong> table. Press “run” or “shift + enter” to execute the query. All KQL code blocks for this workshop will be outlined in grey like the one below.</p>
+<pre tabindex="0"><code class="language-KQL" data-lang="KQL">Employees
+|   take 10
+</code></pre><p>This query has a few parts. Let’s take a moment to break each of them down:</p>
+<img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/KQL1.png?raw=true" alt= “KQL1” width="50%" height="value">
+<img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/KQL2.png?raw=true" alt= “KQL2” width="80%" height="value">
+<p>The <span style="color:red"><strong>take</strong></span> operator is a powerful tool you can use to explore rows in a table, and therefore better understand what kinds of data are stored there.</p>
+<div class="notices note" >
+    <p header-value="Note">🎯<strong>Key Point – What to do when you don’t know what to do</strong>: Whenever you are faced with an unfamiliar database table, the first thing you should do is sample its rows using the <span style="color:red"><strong>take</strong></span> operator. That way, you know what fields are available for you to query and you can guess what type of information you might extract from the data source.</p>
+</div>
+<p>The Employees table contains information about all the employees in our organization. In this case, we can see that the organization is named “Envolve Labs” and the domain is “envolvelabs.com”.</p>
+<div class="alert 
+alert-success"
+ 
+role="alert"><em>Question 1.	🤔 Try it for yourself! Do a <span style="color:red"><strong>take</strong></span> 10 on all the other tables to see what kind of data they contain.</em></div>
+
+<p>You can easily write multiple queries in the same workspace tab. To do this, make sure to separate each query by an empty line. Notice below how we have separated the queries for the Employees, Email, and OutboundBrowsing tables by empty lines on lines 3 and 6.</p>
+<img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/KQL3.png?raw=true" alt= “KQL3” width="value" height="value">
+<p>When you have multiple queries, it’s important to tell ADX which query you want to run. To choose a query, just click on any line that is part of that query. Once you’ve selected a query, it will be highlighted in blue, as seen on lines 4 and 5 above.</p>
+<h4 id="finding-out-how-many-the"><strong>Finding Out “How Many”: The &lsquo;count&rsquo; Operator</strong></h4>
+<p>We can use <span style="color:red"><strong>count</strong></span> to see how many rows are in a table. This tells us how much data is stored there.</p>
+<pre tabindex="0"><code class="language-KQL" data-lang="KQL">Employees
+|   count
+</code></pre><div class="alert 
+alert-success"
+ 
+role="alert"><em>Question 2.	🤔How many employees are in the company?</em></div>
+
+<h4 id="filtering-data-with-the"><strong>Filtering Data With the &lsquo;where&rsquo; Operator</strong></h4>
+<p>So far, we’ve run queries that look at the entire contents of the table. Often in cybersecurity analysis, we only want to look at data that meets a set of conditions or criteria. To accomplish this, we apply filters to specific columns.</p>
+<p>We can use the <span style="color:red"><strong>where</strong></span> operator in KQL to apply filters to a particular field. For example, we can find all the employees with the name “Linda” by filtering on the name column in the <strong>Employees</strong> table.</p>
+<p><span style="color:red"><strong>where</strong></span> statements are written using a particular structure. Use this helpful chart below to understand how to structure a <span style="color:red"><strong>where</strong></span> statement.</p>
+<img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/KQL4.png?raw=true" alt= “KQL4” width="50%" height="value">
+<pre tabindex="0"><code class="language-KQL" data-lang="KQL">Employees
+|   where name has &#34;Linda&#34;
+</code></pre><p>The <span style="color:blue"><strong>has</strong></span> operator is useful here because we’re looking for only a partial match. If we wanted to look for an employee with a specific first and last name (an exact match), we’d use the == operator:</p>
+<pre tabindex="0"><code class="language-KQL" data-lang="KQL">Employees
+|   where name == &#34;Linda Holbert&#34;
+</code></pre><div class="alert 
+alert-success"
+ 
+role="alert"><em>Question 3.	🤔Each employee at Envolve Labs is assigned an IP address. Which employee has the IP address: “192.168.0.191”?</em></div>
+
+<p>While performing their day-to-day tasks, Envolve Labs employees send and receive emails. A record of each of these emails is stored in the <strong>Email</strong> table.</p>
+<div class="notices note" >
+    <p header-value="Note"><p>🎯<strong>Key Point – User Privacy and Metadata</strong>: As you can imagine, some emails are highly sensitive. Instead of storing the entire contents of every email sent and received within the company in a database that can be easily accessed by security analysts, we only capture email metadata.</p>
+<p>Email metadata includes information like: the time the email was sent, the sender, the recipient, the subject line, and any links the email may contain. Storing only email metadata, rather than entire contents, helps protect the privacy of our employees, while also ensuring that our security analysts can keep us safe. Sometimes even metadata can reveal sensitive information, so it’s important that you don’t talk about log data with other employees outside the SOC.</p>
+</p>
+</div>
+<p>We can find information about the emails sent or received by a user by looking for their email address in the sender and recipient fields of the <strong>Email</strong> table. For example, we can use the following query to see all the emails sent by “Michael Montello”:</p>
+<pre tabindex="0"><code class="language-KQL" data-lang="KQL">Email
+|   where sender == &#34;michael_montello@envolvelabs.com&#34;
+</code></pre><div class="alert 
+alert-success"
+ 
+role="alert"><em>Question 4.	🤔How many emails did Betty Parrish receive?</em></div>
+
+<h4 id="easy-as-1-2-3-compound-queries-and-the-distinct-operator"><strong>Easy as 1, 2, 3… Compound Queries and the distinct Operator</strong></h4>
+<p>We can use the distinct operator to find unique values in a particular column. We can use the following query to determine how many of the organization’s users sent emails.</p>
+<img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/KQL5.png?raw=true" alt= “KQL5” width="50%" height="value">
+<p>This is our first time using a multi-line query with multiple operators, so let’s break it down:</p>
+<p>In <strong>line 2</strong>, we take the Email table and filter the data down to find only those rows with “envolvelabs” in the sender column.</p>
+<p>In <strong>line 3</strong>, we add another pipe character ( | ) and use the distinct operator to find all the unique senders. Here, we aren’t finding the unique senders for all of the email senders, but only the unique senders that are left after we apply the filter looking for rows with “envolvelabs” in the sender column.</p>
+<p>Finally, in <strong>line 4</strong>, we add another pipe character ( | ) and then use the count operator to count the results of lines 1-3 of the query.</p>
+<div class="alert 
+alert-success"
+ 
+role="alert"><em>Question 5.	🤔How many users received emails with the term “vaccine” in the subject?</em></div>
+
+<h4 id="tracking-down-a-click-outboundbrowsing-data"><strong>Tracking Down a Click: OutboundBrowsing Data</strong></h4>
+<p>When employees at Envolve Labs browse to a website from within the corporate network, that browsing activity is logged. This is stored in the <strong>OutboundBrowsing</strong> table, which contains records of the websites browsed by each user in the company. Whenever someone visits a website, a record of it stored in the table. However, the user’s name is not stored in the table, only their IP address is recorded. There is a 1:1 relationship between users and their assigned IP addresses, so we can reference the <strong>Employees</strong> table to figure out who browsed a particular website.</p>
+<p>If we want to figure out what websites Annie Jackson visited, we can find her IP address from the <strong>Employees</strong> table.</p>
+<pre tabindex="0"><code class="language-KQL" data-lang="KQL">Employees
+|   where name == &#34;Annie Jackson&#34;
+</code></pre><p>The query above tells us her IP address is “192.168.3.168”. We can take her IP address and look in the <strong>OutboundBrowsing</strong> table to determine what websites she visited.</p>
+<pre tabindex="0"><code class="language-KQL" data-lang="KQL">OutboundBrowsing
+| where src_ip == &#34;192.168.3.168&#34;
+</code></pre><div class="alert 
+alert-success"
+ 
+role="alert"><em>Question 6.	🤔How many unique websites did “Keith Mitchell” visit?</em></div>
+
+<h4 id="whats-in-a-name-all-about-passive-dns-data"><strong>What’s in a Name? All about Passive DNS Data</strong></h4>
+<p>Although domain names like “google.com” are easy for humans to remember, computers don’t know how to handle them. So, they convert them to machine readable IP addresses. Just like your home address tells your friends how to find your house or apartment, an IP address tells your computer where to find a page or service hosted on the internet.</p>
+<div class="notices note" >
+    <p header-value="Note">🎯<strong>Key Point – Practice Good OPSEC</strong>: If we want to find out which IP address a particular domain resolves to, we could just browse to it. But, if the domain is a malicious one, you could download malicious files to your corporate analysis system or tip off the attackers that you know about their infrastructure. As cybersecurity analysts, we must follow procedures and safeguards that protect our ability to track threats. These practices are generally called operational security, or OPSEC.</p>
+</div>
+<p>To eliminate the need to actively resolve (that is- directly browse to or interact with a domain to find it’s related IP address) every domain we’re interested in, we can rely on passive DNS data. Passive DNS data allows us to safely explore domain-to-IP relationships, so we can answer questions like:</p>
+<ul>
+<li>Which IP address does this domain resolve to?</li>
+<li>Which domains are hosted on this IP address?</li>
+<li>How many other IPs have this domain resolved to?</li>
+</ul>
+<p>These domain-to-IP relationships are stored in our <strong>PassiveDns</strong> table.
+<div class="alert 
+alert-success"
+ 
+role="alert"><p><em>Question 7.	🤔 How many domains in the <strong>PassiveDns</strong> records contain the word “vaccine”? (hint: use the <span style="color:blue"><strong>contains</strong></span> operator instead of <span style="color:blue"><strong>has</strong></span>. If you get stuck, do a <span style="color:red"><strong>take</strong></span> 10 on the table to see what fields are available.)</em></p>
+<p><em>Question 8.	🤔 What IPs did the domain “biotechenvolv.science” resolve to?</em></p>
+</div>
+</p>
+<p>🤯<strong>Let statements – making your life a bit easier:</strong></p>
+<p>Sometimes we need to use the output of one query as the input for a second query.  The first way we can do this is by manually typing the results into next query.</p>
+<ul>
+<li>For example, what if we want to look at all the web browsing activity from employees named “Linda”?</li>
+<li>First, you would need to go into the <strong>Employees</strong> table and find the IP addresses used by these employees.</li>
+</ul>
+<img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/KQL6.png?raw=true" alt= “KQL6” width="80%" height="value">
+<p>Then, you could manually copy and paste these IPs into a query against the <strong>OutboundBrowsing</strong> table. Note that we can use the in operator to choose all rows that have a value matching any value from a list of possible values. In other words, the == (comparison) operator looks for an exact match, while the in operator checks for any values from the list.</p>
+<img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/KQL7.png?raw=true" alt= “KQL7” width="90%" height="value">
+<p>Although this is a valid way to get the information you need, it may not be as elegant (or timely) if you had 100 or even 1000 employees named “Linda.”</p>
+<p>We can accomplish this in a more elegant way by using a <a href="https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/letstatement" target="_blank">let statement<sup><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></sup></a>
+, which allows us to assign a name to an expression or a function. We can use a <span style="color:blue"><strong>let</strong></span> statement here to save and give a name to the results of the first query so that the values can be re-used later. That means we don’t have to manually type or copy and paste the results repeatedly.</p>
+<img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/KQL8.png?raw=true" alt= “KQL8” width="value" height="value">
+<p>On the left of the <span style="color:blue"><strong>let</strong></span> statement is the variable name (“linda_ips” in this case). The variable name can be whatever we want, but it is helpful to make it something meaningful that can help us remember what values it is storing.</p>
+<img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/KQL9.png?raw=true" alt= “KQL9” width="value" height="value">
+<p>On the right side of the <span style="color:blue"><strong>let</strong></span> statement in the expression you are storing. In this case, we use the <span style="color:red"><strong>distinct</strong></span> operator to select values from only one column – so they are stored in an array – or list of values.</p>
+<img src= "https://github.com/bgrant34/workshops/blob/master/content/english/kusto-kc7/Images/KQL10.png?raw=true" alt= “KQL10” width="value" height="value">
+<p>The <span style="color:blue"><strong>let</strong></span> statement is concluded by a semi-colon.</p>
+<p>After we store the value of a query into a variable using the <span style="color:blue"><strong>let</strong></span> statement, we can refer to it as many times as we like in the rest of the query. The stored query does not show any output. Remember, however, that your KQL query must have a tabular statement – which means that you must have another query following your <span style="color:blue"><strong>let</strong></span> statement.
+<div class="alert 
+alert-success"
+ 
+role="alert"><em>Question 9.	🤔 How many unique URLs were browsed by employees named “Karen”?</em></div>
+</p>
+<div class="notices note" >
+    <p header-value="Note">🎯<strong>Key Point – Pivoting</strong>: Part of being a great cyber analyst is learning how to use multiple data sources to tell a more complete story of what an attacker has done. We call this “pivoting.” We pivot by taking one known piece of data in one dataset and looking in a different dataset to learn something we didn’t already know. You practiced this here when we started in one dataset – the Employees table – and used knowledge from there to find related data in another source – <strong>OutboundBrowsing</strong>.</p>
+</div>
+
+
+    
+    
+      <div class="chevrons">
+  <style>
+    .workshop-complete-image {
+        margin: 40px auto 50px auto;
+        width: 340.8px;
+    }
+    
+    .workshop-complete-words {
+        font-family: Space Mono, monospace;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        text-align: center;
+    }
+    
+    .horizontal-bar {
+        background-color: #000000;
+        width: 120px;
+        height: 12px;
+        margin: 80px auto 0 auto;
+    }
+</style>
+
+
+    <div id="navigation">
+            <div class="next-prev-wrapper-div"><a class='nav nav-prev' href="/kusto-kc7/tutorial-2/" title="Tutorial 2: New Employee Orientation">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Previous:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Tutorial 2: New Employee Orientation
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="prevbutton-image">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+        
+    </div>
+</a></div>
+            <div class="next-prev-wrapper-div"><a class='nav nav-next' href="/kusto-kc7/activity-3_5/" title="Activity 3.5: KQL 101 Answers Explained">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Up Next:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Activity 3.5: KQL 101 Answers Explained
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="nextbutton-image">
+            <i class="fa fa-arrow-right"></i>
+        </div>
+        
+    </div>
+</a></div>
+        </div>
+</div>
+
+</section>
+</article>
+
+<footer>
+  <div class="footline">
+    
+
+    
+
+    
+
+    
+    <div class="github-link">
+      <a href="https://github.com/NuevoFoundation/workshops/tree/master/content/Kusto-KC7/activity-3.md" target="blank"><i
+          class="fa fa-code-fork"></i>
+        </a>
+    </div>
+    
+  </div>
+
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+    
+
+    
+    
+
+    <div id="footer" class="row">
+    <div class="col-xs-12">
+        <div class="App-footer">
+            <div class="App-footer-big">
+                Join the conversation on social media.
+            </div>
+            <div class="social-images">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Instagram" class="fab fa-2x fa-instagram"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation X" class="fab fa-2x fa-x-twitter"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Facebook" class="fab fa-2x fa-1x fa-facebook-f"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-2x fa-linkedin"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/nuevofoundation?sub_confirmation=1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation YouTube" class="fab fa-2x fa-youtube"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Spotify" class="fab fa-2x fa-spotify"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Github" class="fab fa-2x fa-github"></i>
+                </a>
+            </div>
+            <div class="App-footer-small">
+                © Copyright 2025, All Rights Reserved by Nuevo Foundation, a 501(c)(3) nonprofit.
+            </div>
+        </div>
+    </div>
+</div>
+
+  </body>
+</html>

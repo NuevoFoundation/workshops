@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>공급망 분석 on Nuevo Foundation Workshops</title>
+    <link>/kr/supply-chain-analytics/</link>
+    <description>Recent content in 공급망 분석 on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>kr</language>
+    <lastBuildDate>Sat, 13 Mar 2021 14:17:07 -0700</lastBuildDate>
+    <atom:link href="/kr/supply-chain-analytics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>상황 설정하기</title>
+      <link>/kr/supply-chain-analytics/scenario/</link>
+      <pubDate>Sat, 13 Mar 2021 14:17:07 -0700</pubDate>
+      <guid>/kr/supply-chain-analytics/scenario/</guid>
+      <description>&lt;p&gt;새로운 Xbox 1000이 출시되었고, 꼭 사고 싶어졌어요. 하지만 돈을 많이 모아야 하죠. 학교 모금 행사에서 엄마가 구워주신 쿠키가 인기를 끌었던 기억이 떠올라서, 엄마와 함께 베이커리를 시작해 수익을 50:50으로 나누자는 멋진 아이디어를 생각해냈어요!&lt;/p&gt;&#xA;&lt;p&gt;처음에는 두 가지 종류의 쿠키만 팔기로 했어요. 친구들에게 설문조사를 해보니, 친구들이 가장 좋아하는 두 가지 쿠키는 초코칩 쿠키와 설탕 쿠키였어요.&lt;/p&gt;&#xA;&lt;p&gt;한 번에 구워내는 양은 쿠키 12개예요. 초코칩 쿠키 한 판은 $20에 팔 수 있고, 설탕 쿠키 한 판은 $15에 팔 수 있어요.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>선형 최적화 - 기초</title>
+      <link>/kr/supply-chain-analytics/linearoptimizationbasics/</link>
+      <pubDate>Sat, 13 Mar 2021 14:17:07 -0700</pubDate>
+      <guid>/kr/supply-chain-analytics/linearoptimizationbasics/</guid>
+      <description>&lt;h2 id=&#34;최적화란-무엇일까&#34;&gt;최적화란 무엇일까?&lt;/h2&gt;&#xA;&lt;p&gt;공식 정의: 수학적 최적화 모델은 목표 함수와 제약 조건으로 이루어진 방정식이나 부등식의 시스템이에요.&lt;/p&gt;&#xA;&lt;p&gt;선형 최적화는 복잡하게 들릴 수 있어요. 하지만 시작할 때는 몇 가지 기본 개념만 이해하면 돼요.&lt;/p&gt;&#xA;&lt;h2 id=&#34;최적화란&#34;&gt;최적화란?&lt;/h2&gt;&#xA;&lt;p&gt;최적화는 제한된 자원을 가지고 가장 효율적인 결정을 내리는 방법이에요. 예를 들어, Xbox를 할 수 있는 시간이 제한되어 있다면, 가장 좋아하는 게임을 최대한 오래 하도록 시간을 쓰는 것이 최적화된 선택이겠죠.&lt;/p&gt;&#xA;&lt;p&gt;최적화 문제에서는 컴퓨터 사용 시간이나 계란의 수처럼 현실의 제약을 수학 공식으로 나타내요. (보세요, 결국 우리는 대수학을 사용하는 거예요!)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>문제 해결하기</title>
+      <link>/kr/supply-chain-analytics/solverandsolving/</link>
+      <pubDate>Sat, 13 Mar 2021 14:17:07 -0700</pubDate>
+      <guid>/kr/supply-chain-analytics/solverandsolving/</guid>
+      <description>&lt;p&gt;Excel에서 최적화 문제를 실행하려면 “Solver”라는 추가 기능을 활성화해야 해요. 자세한 내용은 아래 링크나 이미지를 참조하세요.&lt;/p&gt;&#xA; &lt;img src= ../img/Download_Excel_solver.jpg alt=&#34;Screenshot of steps to download Excel solver&#34; width=&#34;800&#34; height=&#34;600&#34;&gt;&#xD;&#xA;&lt;p&gt;문제를 해결하는 방법이 어려우면, &lt;a href=&#34;https://support.microsoft.com/en-us/office/load-the-solver-add-in-in-excel-612926fc-d53b-46b4-872c-e24772f078ca&#34; target=&#34;_blank&#34;&gt;이곳&lt;sup&gt;&lt;span class=&#34;glyphicon glyphicon-new-window&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&lt;/sup&gt;&lt;/a&gt;&#xD;&#xA;에서 도움을 받을 수 있어요.&lt;/p&gt;&#xA;&lt;p&gt;Solver 추가 기능은 Excel의 “Data” 탭에서 “Solver”를 클릭하면 사용할 수 있어요.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/solver.jpg&#34; alt=&#34;Screenshot of where to find “Solver” add in on the header bar&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;다음 &lt;a href=&#34;../Cookie_Bakery_Optimization_Template.xlsx&#34;&gt;템플릿&lt;/a&gt;&#xD;&#xA;을 다운로드하여 문제 설정을 따라가 보세요.&lt;/p&gt;&#xA;&lt;p&gt;Solver를 사용할 때는 셀 번호와 셀 간의 관계만 선택하면 돼요. Excel 사용이 익숙하지 않은 경우, 선생님께 도움을 요청하세요.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>추가 도전 과제</title>
+      <link>/kr/supply-chain-analytics/challenge/</link>
+      <pubDate>Sat, 13 Mar 2021 14:17:07 -0700</pubDate>
+      <guid>/kr/supply-chain-analytics/challenge/</guid>
+      <description>&lt;p&gt;농장의 울타리 하나가 부서져 닭과 암탉들이 모두 도망갔어요! 그래서 계란이 부족해졌고, 계란의 최대 사용 가능 수량을 24개에서 15개로 변경해야 해요. ☹&lt;/p&gt;&#xA;&lt;p&gt;새로운 최적의 쿠키 생산량을 계산할 수 있나요? 계란 부족으로 인해 수익이 얼마나 변했는지 확인해 보세요.&lt;/p&gt;&#xA;&lt;div class=&#34;notices hint&#34; &gt;&#xD;&#xA;    &lt;p header-value=&#34;힌트&#34;&gt;계란 수량 제한이 설정된 셀을 24에서 15로 변경한 다음, Solver를 다시 실행해 보세요! 공식을 제대로 설정했다면 Solver에서 셀 값만 변경해도 다른 설정을 바꿀 필요는 없어요.&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

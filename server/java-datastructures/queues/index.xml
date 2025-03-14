@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Queues: Receiving Orders on Nuevo Foundation Workshops</title>
+    <link>/java-datastructures/queues/</link>
+    <description>Recent content in Queues: Receiving Orders on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 10 Feb 2020 13:24:17 -0700</lastBuildDate>
+    <atom:link href="/java-datastructures/queues/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>/java-datastructures/queues/introduction/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      <guid>/java-datastructures/queues/introduction/</guid>
+      <description>&lt;h2 id=&#34;visualizing-a-queue&#34;&gt;Visualizing a Queue&lt;/h2&gt;&#xA;&lt;p&gt;Imagine that you are designing NuevoEats for a business, and perhaps this business is McDonalds.&lt;/p&gt;&#xA;&lt;p&gt;We want to serve our new potential clients in the most efficient way possible for our large business; one at a time. When customers place their to-go order on the NuevoEats app, it is almost as if they are forming an orderly line in front of our restaurant, with new customers joining at the rear. Customers should essentially &amp;ldquo;line up&amp;rdquo; when they place their order and we should be serving those same customers from front to back.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Methods</title>
+      <link>/java-datastructures/queues/methods/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      <guid>/java-datastructures/queues/methods/</guid>
+      <description>&lt;h2 id=&#34;priority-queues&#34;&gt;Priority Queues&lt;/h2&gt;&#xA;&lt;p&gt;A &lt;code&gt;PriorityQueue&lt;/code&gt; is used when the objects are supposed to be processed based on the priority. In this case, we want to sort the queue by the time the customer has been waiting. It is known that a Queue follows the First-In-First-Out algorithm, but sometimes the elements of the queue are needed to be processed according to the priority; that’s when the &lt;code&gt;PriorityQueue&lt;/code&gt; comes into play. The PriorityQueue is based on the priority heap. The elements of the priority queue are ordered according to the natural ordering, or by a Comparator provided at queue construction time, depending on which constructor is used.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem 1: Queue Basics</title>
+      <link>/java-datastructures/queues/problem-1/</link>
+      <pubDate>Mon, 10 Feb 2020 13:24:17 -0700</pubDate>
+      <guid>/java-datastructures/queues/problem-1/</guid>
+      <description>&lt;!--&lt;link rel=&#34;stylesheet&#34; href=&#34;../../style.css&#34;&gt;--&gt;&#xD;&#xA;&lt;h2 id=&#34;task-1-clearing-queue-for-new-orders&#34;&gt;Task 1: Clearing Queue for New Orders&lt;/h2&gt;&#xA;&lt;p&gt;A new restaurant has been added into Nuevo Eats! New orders have been flooding in and the Queue is flooded with orders! The popularity of the different tacos grew fast and the restaurant is overloaded. Look for a way to clear all elements to save the restaurant!&lt;/p&gt;&#xA;&lt;div class=&#34;notices tip&#34; &gt;&#xD;&#xA;    &lt;p header-value=&#34;Tip&#34;&gt;&lt;ol&gt;&#xA;&lt;li&gt;How can you iterate through the Queue?&lt;/li&gt;&#xA;&lt;li&gt;Try to clear the Queue as you go through it!&lt;/li&gt;&#xA;&lt;li&gt;Look at the example menu!&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

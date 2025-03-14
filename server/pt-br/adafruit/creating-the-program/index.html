@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nuevo Foundation Workshops</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+<meta name="theme-color" content="#000000" />
+<meta name="revised" content="2025-03-14T19:00:01 -03">
+<meta name="application-name" content=" " />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+<title>Criando o seu programa :: Nuevo Foundation Workshops</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+
+<link rel="shortcut icon" href="https://www.nuevofoundation.org/favicons/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57"
+      href="https://www.nuevofoundation.org/favicons//apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120"
+      href="https://www.nuevofoundation.org/favicons/pple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152"
+      href="https://www.nuevofoundation.org/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://www.nuevofoundation.org/favicons/favicon-128.png" sizes=" 128x128" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="/css/nuevoweb.css" />
+<link rel="stylesheet" href="/css/chunk.css" />
+<link rel="stylesheet" href="/css/data-style.css" />
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+
+<script lang="JavaScript">
+
+      function toggleVisibility() {
+
+            
+            const menu = document.getElementById("mobile-nav-menu");
+            if (menu.style.display == 'none') {
+                  menu.classList.replace("transition-out", "transition-in")
+                  menu.style.display = 'block';
+            }
+            else if (menu.style.display == 'block') {
+                  menu.classList.replace("transition-in", "transition-out")
+                  menu.style.display = 'none';
+            }
+      }
+</script>
+<meta
+  name="description"
+  content="
+
+    
+"
+/>
+
+
+    
+  </head>
+  <body data-url="/pt-br/adafruit/creating-the-program/" >
+    
+      <header>
+  
+  <div id="mobile-nav-menu" class="transition-out" style="display: none;">
+    <div class="close-btn" onclick="toggleVisibility();">
+        <i aria-hidden="true" focusable="false" style="cursor: pointer;" class="fa fa-times fa-w-11 fa-sm"></i>
+    </div>
+    <div>
+        <div class="sc-dNLxif ecnYUM">
+            <a href="/support-us"><button class="sc-jbKcbu sedGx"
+                    style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: 4px solid rgb(0, 0, 0); border-radius: 4px;">
+                    Faça uma doação
+                </button></a>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/what-we-do">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Sobre nós</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/get-involved">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Faça parte</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/support-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Apoie-nos</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/blog">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Últimos eventos</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/about-us">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Conheça nosso time</li>
+            </ul>
+        </a><a class="sc-jqCOkK glTukf" href="https://nuevofoundation.org/contact">
+            <ul class="sc-uJMKN fRSLiB">
+                <li>Fale conosco</li>
+            </ul>
+        </a>
+    </div>
+</div>
+<div>
+    <div class="sc-gGBfsJ iKkPGj">
+        <div class="container-fluid">
+            <div id="toprow" class="row">
+                <div class="col-xs-12">
+                    <div class="sc-EHOje fJMnSm">
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.instagram.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation Instagram" class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://twitter.com/nuevofoundation">
+                                <i aria-label="Nuevo Foundation X" class="fab fa-x-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Facebook" class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                                href="https://www.linkedin.com/company/nuevofoundation">
+                                <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://www.youtube.com/nuevofoundation?sub_confirmation=1n">
+                                <i aria-label="Nuevo Foundation YouTube" class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1">
+                                <i aria-label="Nuevo Foundation Spotify" class="fab fa-spotify"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" target="_blank" rel="noopener noreferrer"
+                               href="https://github.com/NuevoFoundation">
+                                <i aria-label="Nuevo Foundation Github" class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="sc-bZQynM dXgQaH">
+                            <a class="sc-gzVnrw cZJBlR" rel="noopener noreferrer"
+                                href="https://nuevofoundation.org/support-us">Faça uma doação</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="secondrow" class="row">
+                <div class="col-sm-12 hidden-xs">
+                    <div class="sc-htoDjs kjtfZK">
+                        <a class="sc-fjdhpX izNzAG active" aria-current="page" href="https://nuevofoundation.org">
+                            <img alt="Nuevo Foundation Logo" src="/images/Logo_long.0f097b90.svg"
+                                height="60px" />
+                        </a>
+                        <ul class="sc-iwsKbI bUOvG">
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/what-we-do">
+                                <li class="sc-gZMcBi Bomeo">Sobre nós</li>
+                            </a>
+                            <a class="izNzAG" href="/">
+                                <li class="sc-gZMcBi Bomeo-selected jgBGVn">Minicursos<span></span></li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/get-involved">
+                                <li class="sc-gZMcBi Bomeo">Faça parte</li>
+                            </a>
+                            <a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/support-us">
+                                <li class="sc-gZMcBi Bomeo">Apoie-nos</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/blog">
+                                <li class="sc-gZMcBi Bomeo">Últimos eventos</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/about-us">
+                                <li class="sc-gZMcBi Bomeo">Conheça nosso time</li>
+                            </a><a class="sc-fjdhpX izNzAG" href="https://nuevofoundation.org/contact">
+                                <li class="sc-gZMcBi Bomeo">Fale conosco</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <a class="sc-fjdhpX izNzAG active" aria-current="page" href="/">
+                                <img alt="Nuevo Foundation Logo" class="sc-dnqmqq emolVn"
+                                    src="/images/Logo_long.0f097b90.svg" height="60%" /></a>
+                        </div>
+                        <div class="col-xs-2" onclick="toggleVisibility();"
+                            style="padding-top: 4%; padding-left: 4%; cursor: pointer;">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                                class="svg-inline--fa fa-bars fa-w-14 fa-lg" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/pt-br/adafruit/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/pt-br/adafruit/">Programando Frutas Musicais com Adafruit</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/pt-br/adafruit/the-components/" class="dd-item">
+        <div>
+          <a href="/pt-br/adafruit/the-components/">
+            Os Componentes
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/adafruit/building-the-dj-station/" class="dd-item">
+        <div>
+          <a href="/pt-br/adafruit/building-the-dj-station/">
+            Construindo uma estação de DJ
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/adafruit/creating-the-program/" class="dd-item active">
+        <div>
+          <a href="/pt-br/adafruit/creating-the-program/">
+            Criando o seu programa
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/pt-br/adafruit/downloading-your-program/" class="dd-item">
+        <div>
+          <a href="/pt-br/adafruit/downloading-your-program/">
+            Baixando o seu programa
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+    </ul>
+
+    <section>
+    </section>
+  </aside>
+  <section class="page">
+    <div align="right">
+<select id="select-language" onchange="location = this.value;">
+	
+	
+	
+	  
+	  
+	    
+	      
+	        <option id="en" value="/adafruit/creating-the-program/">English</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	      
+	        <option id="es" value="/es/adafruit/creating-the-program/">Español</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="pt-br" value="/pt-br/adafruit/creating-the-program/" selected>Português Brasileiro</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="de" value="/de/adafruit/creating-the-program/">Deutsch</option>
+	      
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	      
+	        <option id="kr" value="/kr/adafruit/creating-the-program/">한국어</option>
+	      
+	    
+	  
+	    
+	  
+	
+</select>
+    </div>
+
+    <div class="nav-select">
+      Navegação:&nbsp;
+      <select onchange="javascript:location.href = this.value;">
+        
+<option value="/pt-br/adafruit/" >
+   Programando Frutas Musicais com Adafruit</option>
+
+<option value="/pt-br/adafruit/the-components/" >- Os Componentes</option>
+<option value="/pt-br/adafruit/building-the-dj-station/" >- Construindo uma estação de DJ</option>
+<option value="/pt-br/adafruit/creating-the-program/"  selected>- Criando o seu programa</option>
+<option value="/pt-br/adafruit/downloading-your-program/" >- Baixando o seu programa</option>
+
+
+
+      </select>
+
+    </div>
+    
+
+    <h1>Criando o seu programa</h1>
+
+    
+
+    
+
+    
+    
+    
+    
+    <p>Abra seu navegador de internet favorito (como Edge, Firefox, Google Chrome, Brave) e acesse <a href="https://aka.ms/oranges" target="_blank">https://aka.ms/oranges<sup><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></sup></a>
+. Sua tela ficará assim:</p>
+<p><img src="../img/adafruit.png?classes=border,shadow" alt="Não foi possível carregar a imagem"></p>
+<h3 id="definindo-as-variáveis">Definindo as variáveis</h3>
+<p>Hoje vamos usar laranjas para dizer ao nosso Adafruit quando fazer barulho. A primeira coisa que precisamos fazer é dar um nome para cada laranja, possibilitando ao nosso computador saber onde procurar o que elas estão dizendo. Fazemos a primeira parte definindo uma variável. Clique na seção que diz <strong>VARIABLES</strong> ou variáveis em português. Ela é de cor salmão e pode ser encontrado na sétima posição de cima para baixo da lista de botões. Em seguida, defina uma variável clicando em <strong>Make a variable</strong>, dando-lhe um nome. Faça isso duas vezes. Aqui nomeamos as nossas variáveis como <em>analog1</em> e <em>analog2</em>, mas você pode chamá-las como quiser.</p>
+<p><img src="../img/1.png?classes=border,shadow" alt="Não foi possível carregar a imagem">
+<img src="../img/2.png?classes=border,shadow" alt="Não foi possível carregar a imagem">
+<img src="../img/3.png?classes=border,shadow" alt="Não foi possível carregar a imagem"></p>
+<h3 id="interpretando-as-entradas">Interpretando as entradas</h3>
+<p>Agora que temos um nome que nosso computador conhece para cada uma das nossas laranjas, vamos deixar o Adafruit saber como entendê-las. Existem dois tipos de entradas, digital e analógica. Interruptores de luz e botões de energia são exemplos de entradas digitais. Eles podem ser ligados ou desligados, 1 ou 0. As entradas analógicas são como um botão de volume ou um dimmer de luz. Eles possuem mais opções de valores que podem ser ajustáveis girando o botão. No nosso projeto, as nossas laranjas serão como entradas analógicas, que ajustarão os valores no Adafruit, conforme elas são tocadas ou espremidas.</p>
+<p>Clique novamente na seção Variáveis. Desta vez, você verá quatro caixinhas nas opções do menu. Isso acontece porque anteriormente nos definimos as nossas duas variáveis. Arraste a caixinha “<strong>set __ to __</strong>” para o bloco verde “<strong>forever</strong>” localizado na sua área de trabalho. Usando a seta branca para baixo, altere o primeiro espaço em branco para a sua primeira variável, aqui chama-se “<em>analog1</em>”.</p>
+<p><img src="../img/4.png?classes=border,shadow" alt="Não foi possível carregar a imagem"></p>
+<p>Em seguida, em <strong>ADVANCED</strong>, clique na seta para baixo para expandir o menu e então clique em PINS. Procure pela caixinha “<strong>analog read pin __</strong>”, ele fica na terceira posição de cima para baixo da lista. Insira-o na posição onde o 0 está localizado, na caixinha “<strong>set analog1 to 0</strong>”. Para inseri-lo nesse slot, clique na caixinha e arraste-a para que fique acima do zero. Verifique se o 0 está destacado em amarelo e solte botão do mouse (ou touchpad). Você perceberá que a primeira caixinha estendeu-se para acomodar a segunda caixinha. Se esse comportamento não acontecer, tente novamente.</p>
+<p><img src="../img/5.png?classes=border,shadow" alt="Não foi possível carregar a imagem">
+<img src="../img/6.png?classes=border,shadow" alt="Não foi possível carregar a imagem"></p>
+<p>Depois de finalizado, sua área de trabalho deverá se parecer com a imagem acima. Repita este processo novamente, mas desta vez selecione a sua segunda variável. Para isso, use as setas brancas para baixo para selecionar <em>analog2</em> e <em>A2</em>. Agora compare com a imagem abaixo para verificar se você o fez corretamente.</p>
+<p><img src="../img/7.png?classes=border,shadow" alt="Não foi possível carregar a imagem"></p>
+<h3 id="criando-nossos-loops">Criando nossos loops</h3>
+<p>Agora que nosso computador sabe como chamar nossas laranjas e também como entender o que elas estão dizendo, vamos criar um loop que verificará quando estivermos segurando nossa laranja. Clique na seção <strong>LOGIC</strong> e arraste a caixinha “<strong>If ____ then</strong>” para adicioná-la ao seu conjunto de variáveis.</p>
+<p><img src="../img/8.png?classes=border,shadow" alt="Não foi possível carregar a imagem"></p>
+<p>Nessa etapa, voltaremos ao exemplo do botão de volume para entender a comparação que faremos em nosso loop.
+Cada pessoa tem um ponto em que gosta de ouvir sua música para se divertir. Este ponto ideal também aplica-se para as nossas laranjas. Elas informarão ao computador um determinado valor quando ninguém as toca e um valor menor quando as tocarmos. O truque é encontrar o meio termo para que só façamos barulho quando quisermos.</p>
+<p>Para realizar esta configuração, vá para a seção <strong>LOGIC</strong> novamente e pegue a caixinha logica &ldquo;<strong>0 &lt; 0</strong>&rdquo; que é o segundo na subseção <strong>Comparison</strong>. Coloque-a sob o valor “<strong>true</strong>” na caixinha “<strong>If ____ then</strong>”. Certifique-se de ver o destaque amarelo antes de soltá-la nessa posição. Observe a imagem abaixo para comparar com a sua área de trabalho.</p>
+<p><img src="../img/9.png?classes=border,shadow" alt="Não foi possível carregar a imagem"></p>
+<p>Agora vamos adicionar o que estamos comparando. Volte para a seção <strong>VARIABLES</strong>, retire <em>analog1</em> e coloque-a no primeiro espaço. Em seguida, clique no segundo espaço e digite 40. O número 40 seria o ponto ideal para a maioria das pessoas. Caso sua laranja esteja fazendo barulho sem que você a toque, volte para esta etapa e aumente o valor. Ainda, se a sua laranja não estiver fazendo barulho algum ao tocá-la, você também pode voltar e aumentar o mesmo valor. Por enquanto, vamos deixá-lo em 40.</p>
+<p><img src="../img/10.png?classes=border,shadow" alt="Não foi possível carregar a imagem"></p>
+<p>Agora podemos escolher nossa música! Clique na seção <strong>MUSIC</strong> e arraste a segunda caixinha ”<strong>play sound <strong>__</strong> until done</strong>” para o nosso bloco <strong>If-Then</strong>. Sinta-se à vontade para clicar na seta para baixo e selecionar os sons de sua preferência.</p>
+<p><img src="../img/11.png?classes=border,shadow" alt="Não foi possível carregar a imagem"></p>
+<p>Agora repita os últimos passos descritos acima para a segunda variável, <em>analog2</em>. Ao finalizar, sua área de trabalho ficará como a imagem abaixo (mas com suas opções de música).</p>
+<p><img src="../img/12.png?classes=border,shadow" alt="Não foi possível carregar a imagem"></p>
+<h3 id="diversão-com-luzes-se-o-tempo-permitir">Diversão com luzes (se o tempo permitir)</h3>
+<p>A placa da Adafruit possui diversas luzes! Elas são superdivertidas de brincar, então vamos adicionar um pouco de cor as nossas músicas para que possamos ver e ouvir a diferença quando tocamos em nossas laranjas. Clique na seção <strong>LIGHT</strong> e arraste a caixinha “<strong>Set all Pixels to ___</strong>” para os nossos dois blocos <strong>If-Then</strong>. Faça isso antes de tocar qualquer som. Por fim, fique à vontade para mudar a cor das luzes. Para isso, você deve clicar na parte da cor e escolher uma que mais te agrade.</p>
+<p><img src="../img/13.png?classes=border,shadow" alt="Não foi possível carregar a imagem"></p>
+
+
+    
+    
+      <div class="chevrons">
+  <style>
+    .workshop-complete-image {
+        margin: 40px auto 50px auto;
+        width: 340.8px;
+    }
+    
+    .workshop-complete-words {
+        font-family: Space Mono, monospace;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        text-align: center;
+    }
+    
+    .horizontal-bar {
+        background-color: #000000;
+        width: 120px;
+        height: 12px;
+        margin: 80px auto 0 auto;
+    }
+</style>
+
+
+    <div id="navigation">
+            <div class="next-prev-wrapper-div"><a class='nav nav-prev' href="/pt-br/adafruit/building-the-dj-station/" title="Construindo uma estação de DJ">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Anterior:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Construindo uma estação de DJ
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="prevbutton-image">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+        
+    </div>
+</a></div>
+            <div class="next-prev-wrapper-div"><a class='nav nav-next' href="/pt-br/adafruit/downloading-your-program/" title="Baixando o seu programa">
+    <div class="nextprevbutton-border">
+        <div class="nextprevbutton-desktop-only">
+            <div class="nextprevbutton-next-text">
+                Próximo:
+            </div>
+            <div class="nextprevbutton-subsection-name">
+                Baixando o seu programa
+            </div>
+            <div class="nextprevbutton-horizontal-bar"></div>
+        </div>
+        
+        <div class="nextbutton-image">
+            <i class="fa fa-arrow-right"></i>
+        </div>
+        
+    </div>
+</a></div>
+        </div>
+</div>
+
+</section>
+</article>
+
+<footer>
+  <div class="footline">
+    
+
+    
+
+    
+
+    
+    <div class="github-link">
+      <a href="https://github.com/NuevoFoundation/workshops/tree/master/content/adafruit/creating-the-program.md" target="blank"><i
+          class="fa fa-code-fork"></i>
+        </a>
+    </div>
+    
+  </div>
+
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+    
+
+    
+    
+
+    <div id="footer" class="row">
+    <div class="col-xs-12">
+        <div class="App-footer">
+            <div class="App-footer-big">
+                Siga-nos nas redes sociais.
+            </div>
+            <div class="social-images">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Instagram" class="fab fa-2x fa-instagram"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation X" class="fab fa-2x fa-x-twitter"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Facebook" class="fab fa-2x fa-1x fa-facebook-f"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/nuevofoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation LinkedIn" class="fab fa-2x fa-linkedin"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/nuevofoundation?sub_confirmation=1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation YouTube" class="fab fa-2x fa-youtube"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/playlist/0uQ8AwLs4SIpY4A4G52pTB?si=e30542420a8c40b1"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Spotify" class="fab fa-2x fa-spotify"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/NuevoFoundation"
+                    class="footer-pics">
+                    <i aria-label="Nuevo Foundation Github" class="fab fa-2x fa-github"></i>
+                </a>
+            </div>
+            <div class="App-footer-small">
+                © Copyright 2025, Todos os direitos reservados a Nuevo Foundation, uma organização sem fins lucrativos de acordo com a norma 501(c)(3) da lei federal dos Estados Unidos.
+            </div>
+        </div>
+    </div>
+</div>
+
+  </body>
+</html>

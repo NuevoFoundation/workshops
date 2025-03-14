@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Instruções condicionais e loops on Nuevo Foundation Workshops</title>
+    <link>/pt-br/python-basics/conditional-statements-loops/</link>
+    <description>Recent content in Instruções condicionais e loops on Nuevo Foundation Workshops</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Mon, 19 Sep 2022 14:45:38 -0700</lastBuildDate>
+    <atom:link href="/pt-br/python-basics/conditional-statements-loops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Declarações condicionais</title>
+      <link>/pt-br/python-basics/conditional-statements-loops/conditional-statements/</link>
+      <pubDate>Mon, 19 Sep 2022 14:45:38 -0700</pubDate>
+      <guid>/pt-br/python-basics/conditional-statements-loops/conditional-statements/</guid>
+      <description>&lt;p&gt;Agora que conhecemos o básico sobre instruções de impressão, variáveis ​​e leitura de entrada do usuário – podemos combinar todas essas habilidades incríveis com instruções condicionais. As instruções condicionais permitem que o computador tome &lt;strong&gt;decisões&lt;/strong&gt; com base no &lt;strong&gt;valor&lt;/strong&gt; de uma expressão. No mundo real, usamos declarações condicionais o tempo todo para tomar decisões! Por exemplo, se estiver chovendo lá fora, uso um guarda-chuva. Neste exemplo, avaliei o tempo lá fora e como estava chovendo, tomei a decisão sequencial de usar guarda-chuva.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Condição Else-if</title>
+      <link>/pt-br/python-basics/conditional-statements-loops/else-if-statement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pt-br/python-basics/conditional-statements-loops/else-if-statement/</guid>
+      <description>&lt;p&gt;No último exercício, aprendemos condições if-else básicas. Se precisar de uma atualização rápida, você pode revisar &lt;a href=&#34;../../python-basics/conditional-statements&#34;&gt; Declarações condicionais&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Nesta seção, expandiremos para introduzir uma nova condição chamada “elif”.&lt;/p&gt;&#xA;&lt;h3 id=&#34;condição-elif&#34;&gt;Condição Elif&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;A palavra-chave Elif&lt;/strong&gt; representa a condição &amp;ldquo;else-if&amp;rdquo;. Um exemplo do mundo real seria: Se eu estiver com muita fome, comerei um bolo; caso contrário, se estiver com um pouco de fome, comerei uma maçã; caso contrário, não comerei nada. Você pode ver que é usado quando deseja tentar outra condição se a primeira não for verdadeira.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Loops</title>
+      <link>/pt-br/python-basics/conditional-statements-loops/loops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pt-br/python-basics/conditional-statements-loops/loops/</guid>
+      <description>&lt;h2 id=&#34;loops-em-python&#34;&gt;Loops em Python&lt;/h2&gt;&#xA;&lt;p&gt;Se você quiser repetir uma tarefa várias vezes, o Python tem uma maneira de fazer isso facilmente usando loops (laços).&#xA;Existem dois tipos de loops básicos em python: loops &lt;code&gt;for&lt;/code&gt; e loops &lt;code&gt;while&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;for-loops&#34;&gt;For loops&lt;/h3&gt;&#xA;&lt;p&gt;Os loops For iteram sobre uma sequência. Digamos que você queira repetir uma tarefa simples 5 vezes. Aqui está como você faria isso.&lt;/p&gt;&#xA;&lt;p&gt;O loop for a seguir itera cada um dos números da lista [1,2,3,4,5] e atribui o valor x a ele. Em seguida, ele executa o código dentro do loop for.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nested Loops</title>
+      <link>/pt-br/python-basics/conditional-statements-loops/nested-loops/</link>
+      <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/pt-br/python-basics/conditional-statements-loops/nested-loops/</guid>
+      <description>&lt;h3 id=&#34;nested-loops&#34;&gt;Nested Loops&lt;/h3&gt;&#xA;&lt;p&gt;&lt;em&gt;Nested loops&lt;/em&gt; baseia-se no que aprendemos sobre loops for e loops while no exercício anterior. Você pode querer revisar a página &lt;a href=&#34;../../../python-basics/loops&#34; target=&#34;blank&#34;&gt;For-loop e While-loop&lt;/a&gt; antes de prosseguirmos.&lt;/p&gt;&#xA;&lt;p&gt;Nesta seção, usaremos um loop dentro de outro, que é chamado de &lt;em&gt;Nested loop&lt;/em&gt; (loop aninhado).&#xA;&lt;h/&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;nested-while-loop&#34;&gt;Nested while loop&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#Este é o formato do nested while loop&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#00a8c8&#34;&gt;while&lt;/span&gt; &lt;span style=&#34;color:#111&#34;&gt;expressãoA&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;:&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#00a8c8&#34;&gt;while&lt;/span&gt; &lt;span style=&#34;color:#111&#34;&gt;expressãoB&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;:&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#111&#34;&gt;declaração&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;B&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#111&#34;&gt;declaração&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;A&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;No loop &lt;code&gt;while&lt;/code&gt; acima, quando expressãoA produz &lt;code&gt;Falso&lt;/code&gt;, pularemos o bloco inteiro. Quando a expressãoA produzir &lt;code&gt;Verdadeiro&lt;/code&gt;, iremos para o loop while interno e verificaremos a expressãoB. Se a expressãoB produzir &lt;code&gt;Verdadeiro&lt;/code&gt;, a declaração (B) será executada. Se a expressãoB produzir &lt;code&gt;Falso&lt;/code&gt;, pularemos o loop while interno e iremos para a declaração (A).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
