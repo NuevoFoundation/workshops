@@ -1,28 +1,28 @@
 ---
-title: "Summary"
+title: "Resumo"
 description: ""
 draft: false
 weight: 6
 ---
-	
-## Conclusion
 
-In conclusion, the common features found in Phishing scams have at least one of the following properties:
+## Conclusão
 
-1. Lucrative offers or attention grabbing statements.
-2. Unusual sender of unexpected behavior or character.
-3. Sense of urgency by asking you to act fast because of limited time offers or deals. 
-`Example: Your password is about to expire click here to change it immediately. `
-4. Suspicious hyperlinks. Hovering over the link will show the actual URL you will be directed to. 
-5. Misspellings or grammatical mistakes. 
-`Example:  mail@g00gle.com instead of mail@google.com`
-6. Email attachments with random file name or extensions. 
+Em conclusão, as características comuns encontradas em golpes de Phishing têm pelo menos uma das seguintes propriedades:
 
-## Solution
+1. Ofertas lucrativas ou declarações chamativas.
+2. Remetente incomum ou comportamento inesperado.
+3. Sentido de urgência, pedindo para você agir rápido por causa de ofertas ou promoções de tempo limitado.
+`Exemplo: Sua senha está prestes a expirar, clique aqui para mudá-la imediatamente.`
+4. Links suspeitos. Passar o mouse sobre o link mostrará o URL real para onde você será direcionado.
+5. Erros de ortografia ou gramaticais.
+`Exemplo: mail@g00gle.com em vez de mail@google.com`
+6. Anexos de e-mail com nomes de arquivos ou extensões aleatórias.
 
-In the activity "What's Phishy" the following emails and texts were potential phishing attempts:
-1. The email from spotifyaccounts.
-2. The text from Amazon for free Airpods.
-3. A voice notification email.
+## Solução
 
-<b>Remember to be careful about what you upload or download from the internet.</b>
+Na atividade "O que é Phishy", os seguintes e-mails e textos foram tentativas de phishing em potencial:
+1. O e-mail do spotifyaccounts.
+2. A mensagem da Amazon para Airpods grátis.
+3. Um e-mail de notificação de voz.
+
+<b>Lembre-se de ter cuidado com o que você carrega ou baixa da internet.</b>
