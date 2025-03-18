@@ -1,16 +1,14 @@
 ---
-title: "Answer Key - Security"
-description: "Easy reference answer key for the security curriculum"
+title: "Gabarito - Segurança"
+description: "Gabarito de referência fácil para o currículo de segurança"
 draft: true
 hidden: true
 weight: 5
 ---
 
-### Solution
+### Solução
 
-In the activity "What's Phishy" the following emails and texts were potential phishing attempts:
-1. The email from spotifyaccounts.
-2. The text from Amazon for free Airpods.
-3. A voice notification email. 
-
-
+Na atividade "O que é Phishy" os seguintes e-mails e textos foram tentativas de phishing em potencial:
+1. O e-mail de spotifyaccounts.
+2. O texto da Amazon para Airpods grátis.
+3. Um e-mail de notificação de voz.

@@ -1,20 +1,19 @@
 ---
-title: "Bob goes fishing"
+title: "Bob vai pescar"
 description: ""
 draft: false
 weight: 1
 ---
 
-Meet our friend **Bob**. **Bob** is a nice and jolly gentleman. His hobbies are travelling and fishing.  One fine evening **Bob** received an email saying he won a free trip to the "Bahamas". **Bob** got excited. He immediately clicked the link to enter his personal details and waited for his itinerary to come. 
+Conheça nosso amigo **Bob**. **Bob** é um cavalheiro simpático e alegre. Seus hobbies são viajar e pescar. Uma bela noite, **Bob** recebeu um e-mail dizendo que ele ganhou uma viagem grátis para as "Bahamas". **Bob** ficou animado. Ele imediatamente clicou no link para inserir seus dados pessoais e esperou pelo seu itinerário.
 
-**Bob** decided to go shopping for his trip. He bought new clothes and a new fishing rod.
+**Bob** decidiu ir às compras para sua viagem. Ele comprou roupas novas e uma nova vara de pescar.
 
-![Bob is preparing for his fishing trip to the Bahamas](../media/nuvi_phish_reduced.png?height=250px)
+![Bob está se preparando para sua viagem de pesca às Bahamas](../media/nuvi_phish_reduced.png?height=250px)
 
-However, 24 hours later, he still didn't receive a confirmation for his trip. Another day passed and still nothing. The next day, he decided to go meet his good friend **Alice**. 
-![Secret Agent Alice](../media/Alice_reduced.png?height=250px)
+No entanto, 24 horas depois, ele ainda não havia recebido uma confirmação para sua viagem. Outro dia se passou e ainda nada. No dia seguinte, ele decidiu ir encontrar sua boa amiga **Alice**.
+![Agente Secreta Alice](../media/Alice_reduced.png?height=250px)
 
+**Bob** contou a **Alice** tudo sobre o e-mail, a viagem para as Bahamas, suas roupas novas e como ele mal podia esperar para pescar. **Alice**, sendo uma agente secreta, ficou desconfiada e pediu para **Bob** mostrar o e-mail.
 
-**Bob** told **Alice** all about the email, the trip to Bahamas, his new clothes and how he cannot wait to go fishing. **Alice**, being a secret agent was suspicious, and asked **Bob** to show her the email.
-
-On reading the email **Alice** sighed, "Bob you have been `phished`!"
+Ao ler o e-mail, **Alice** suspirou, "Bob, você foi `phished`!"
