@@ -1,33 +1,32 @@
 ---
-title: "More about phishing"
+title: "Mais sobre phishing"
 description: ""
 draft: false
 weight: 4
 ---
- 
-Alice goes on to explain different kinds of phishing scams other than the email phishing. 
 
-## Smishing (SMS Phishing)
+Alice continua explicando diferentes tipos de golpes de phishing além do phishing por email.
 
-Phishing conducted via Short Message Service (SMS), a telephone-based text messaging service. A smishing text, for example, attempts to entice a victim into revealing personal information via a link that leads to a phishing website.
+## Smishing (Phishing por SMS)
 
-![An example of SMS Phishing](../media/SMS.JPG?classes=border,shadow)
+Phishing realizado via Serviço de Mensagens Curtas (SMS), um serviço de mensagens de texto por telefone. Um texto de smishing, por exemplo, tenta atrair a vítima para revelar informações pessoais através de um link que leva a um site de phishing.
 
-In the above image, an unknown sender texts you about free deals on iPads and lures you into clicking a malicious link.  
+![Um exemplo de Phishing por SMS](../media/SMS.JPG?classes=border,shadow)
+
+Na imagem acima, um remetente desconhecido envia uma mensagem sobre ofertas grátis de iPads e tenta te atrair para clicar em um link malicioso.
 
 ## Malvertising
 
-Malvertising is malicious advertising that contains active scripts designed to download malware or force unwanted content onto your computer.
+Malvertising é publicidade maliciosa que contém scripts ativos projetados para baixar malware ou forçar conteúdo indesejado no seu computador.
 
-![An example of malvertisement](../media/malvertising.png?height=450px)
+![Um exemplo de malvertising](../media/malvertising.png?height=450px)
 
-In the above image, a malvertisment blends into a genuine website. It encourages you to click on the
-download button. This can lead you to install a virus or a malware on your computer.
+Na imagem acima, um malvertising se mistura a um site genuíno. Ele te encoraja a clicar no botão de download. Isso pode te levar a instalar um vírus ou um malware no seu computador.
 
-## Search Engine Phishing
+## Phishing em Motores de Busca
 
-Some phishing scams involve search engines where the user is directed to products sites which may offer low cost products or services. When the user tries to buy the product by entering the credit card details, the phishing site collects those details. There are many fake bank websites and fake product ads that are used to lure users into clicking a malicious link.
+Alguns golpes de phishing envolvem motores de busca onde o usuário é direcionado para sites de produtos que podem oferecer produtos ou serviços de baixo custo. Quando o usuário tenta comprar o produto inserindo os detalhes do cartão de crédito, o site de phishing coleta esses detalhes. Existem muitos sites falsos de bancos e anúncios de produtos falsos que são usados para atrair usuários a clicar em um link malicioso.
 
-![An example of search engine Ad](../media/search_engine.png?height=450px)
+![Um exemplo de anúncio em motor de busca](../media/search_engine.png?height=450px)
 
-Many search engines prioritize advertisement links for a search query. Make sure to verify the link before clicking on it so you avoid going to a malicious website as highlighted in the above image.
+Muitos motores de busca priorizam links de anúncios para uma consulta de pesquisa. Certifique-se de verificar o link antes de clicar para evitar ir a um site malicioso, como destacado na imagem acima.
