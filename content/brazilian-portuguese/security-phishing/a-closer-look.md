@@ -1,52 +1,49 @@
 ---
-title: "A closer look"
+title: "Um olhar mais atento"
 description: ""
 draft: false
 weight: 3
 ---
 
-Bob received the following email the other night.
+Bob recebeu o seguinte e-mail na outra noite.
 
-![Bob's Email](../media/email.png?classes=border,shadow)
+![Email de Bob](../media/email.png?classes=border,shadow)
 
-
-
-What do you think is suspicious here? Let's analyze the email:
-![Email address](../media/from_address.JPG?classes=border,shadow)
-
+O que você acha que é suspeito aqui? Vamos analisar o e-mail:
+![Endereço de e-mail](../media/from_address.JPG?classes=border,shadow)
 
 <div style="text-align: center;">
 <p style="color:red">
-<em>The sender's email address is suspicious and you don't know this email sender personally.</em></p>
+<em>O endereço de e-mail do remetente é suspeito e você não conhece esse remetente pessoalmente.</em></p>
 </div>
 
-![Email Subject](../media/subject.JPG?classes=border,shadow)
+![Assunto do e-mail](../media/subject.JPG?classes=border,shadow)
 
 <div style="text-align: center;">
 <p style="color:red">
-<em>Lucrative offer in the subject line suggests it's too good to be true.</em></p>
+<em>Oferta lucrativa na linha de assunto sugere que é bom demais para ser verdade.</em></p>
 </div>
 
-![Email Date](../media/date.JPG?classes=border,shadow)
+![Data do e-mail](../media/date.JPG?classes=border,shadow)
 
 <div style="text-align: center;">
 <p style="color:red">
-<em> You received an email during irregular business hours.</em></p>
+<em>Você recebeu um e-mail fora do horário comercial.</em></p>
 </div>
 
-![Urgency in language](../media/urgency.JPG?classes=border,shadow)
+![Urgência na linguagem](../media/urgency.JPG?classes=border,shadow)
 
 <div style="text-align: center;">
 <p style="color:red">
-<em>These words show a sense of urgency.</em></p>
+<em>Essas palavras mostram um senso de urgência.</em></p>
 </div>
 
-![URLs in Email](../media/url.JPG?classes=border,shadow)
+![URLs no e-mail](../media/url.JPG?classes=border,shadow)
 
 <div style="text-align: center;">
 <p style="color:red">
-<em>The sender is asking you to click on a link or open an attachment that you don't know about.
-The URL or the link has a spelling error which is hard to notice.</em></p>
+<em>O remetente está pedindo para você clicar em um link ou abrir um anexo que você não conhece.
+A URL ou o link tem um erro de ortografia que é difícil de notar.</em></p>
 </div>
 
-After explaining all of this, Alice asked Bob to change all his passwords and bank account login credentials to be safe. Thankfully, the attacker **Eve** had not yet acted on the information given by Bob and he was safe.
+Depois de explicar tudo isso, Alice pediu a Bob para mudar todas as suas senhas e credenciais de login da conta bancária para estar seguro. Felizmente, o atacante **Eve** ainda não havia agido com base nas informações fornecidas por Bob e ele estava seguro.
