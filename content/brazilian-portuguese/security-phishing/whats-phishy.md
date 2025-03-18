@@ -1,94 +1,92 @@
 ---
-title: "What's Phishy?"
+title: "O que é Phishy?"
 description: ""
 draft: false
 weight: 5
 ---
- 
- 
-From our last section we learned about different types of phishing methods and how to recognize them. Now it's time to play a game called `What's phishy`?
 
-Which images from the list given below do you think are phishy?
+Na nossa última seção, aprendemos sobre diferentes tipos de métodos de phishing e como reconhecê-los. Agora é hora de jogar um jogo chamado `O que é phishy`?
 
-![Spotify email](../media/Spotify_email.jpg?classes=border,shadow)
+Quais imagens da lista abaixo você acha que são phishy?
+
+![Email do Spotify](../media/Spotify_email.jpg?classes=border,shadow)
 
 <fieldset>  
-  <legend>Does this email look phishy?
+  <legend>Este email parece phishy?
     <input type="radio" id="notify-on1" name="notify1" value="on" >
-    <label for="notify-on">Yes</label>
+    <label for="notify-on">Sim</label>
     <input type="radio" id="notify-off1" name="notify1" value="off">
-    <label for="notify-off">No</label>
+    <label for="notify-off">Não</label>
   </legend>
 </fieldset>
 
 <!--
 
-![Cannot load image](legit_email_1.png?classes=border,shadow)
+![Não é possível carregar a imagem](legit_email_1.png?classes=border,shadow)
 
 <fieldset>  
-<legend>Does this email look phishy?</legend>
+<legend>Este email parece phishy?</legend>
   <input type="radio" id="notify-on1" name="notify1" value="on" >
-  <label for="notify-on">Yes</label>
+  <label for="notify-on">Sim</label>
   <input type="radio" id="notify-off1" name="notify1" value="off">
-  <label for="notify-off">No</label>
+  <label for="notify-off">Não</label>
 </fieldset>
 -->
 
-![LinkedIn learning](../media/linkedIn.png)
+![LinkedIn Learning](../media/linkedIn.png)
 
 <fieldset>  
-  <legend>Does this banner look phishy?
+  <legend>Este banner parece phishy?
     <input type="radio" id="notify-on1" name="notify1" value="on" >
-    <label for="notify-on">Yes</label>
+    <label for="notify-on">Sim</label>
     <input type="radio" id="notify-off1" name="notify1" value="off">
-    <label for="notify-off">No</label>
+    <label for="notify-off">Não</label>
   </legend>
 </fieldset>
 
-![A legitimate text message](../media/Legit_text.jpeg?classes=border,shadow)
+![Uma mensagem de texto legítima](../media/Legit_text.jpeg?classes=border,shadow)
 
 <fieldset>  
-  <legend>Does this text message look phishy?
+  <legend>Esta mensagem de texto parece phishy?
     <input type="radio" id="notify-on1" name="notify1" value="on" >
-    <label for="notify-on">Yes</label>
+    <label for="notify-on">Sim</label>
     <input type="radio" id="notify-off1" name="notify1" value="off">
-    <label for="notify-off">No</label>
+    <label for="notify-off">Não</label>
   </legend>
 </fieldset>
 
-![A suspicious text message](../media/sus_text.JPG?classes=border,shadow)
+![Uma mensagem de texto suspeita](../media/sus_text.JPG?classes=border,shadow)
 
 <fieldset>  
-  <legend>Does this text message look phishy?
+  <legend>Esta mensagem de texto parece phishy?
     <input type="radio" id="notify-on1" name="notify1" value="on" >
-    <label for="notify-on">Yes</label>
+    <label for="notify-on">Sim</label>
     <input type="radio" id="notify-off1" name="notify1" value="off">
-    <label for="notify-off">No</label>
+    <label for="notify-off">Não</label>
   </legend>
 </fieldset>
 
-
-![A suspicious email](../media/sus_email.JPG?classes=border,shadow)
+![Um email suspeito](../media/sus_email.JPG?classes=border,shadow)
 
 <fieldset>  
-  <legend>Does this text message look phishy?
+  <legend>Esta mensagem de texto parece phishy?
     <input type="radio" id="notify-on1" name="notify1" value="on" >
-    <label for="notify-on">Yes</label>
+    <label for="notify-on">Sim</label>
     <input type="radio" id="notify-off1" name="notify1" value="off">
-    <label for="notify-off">No</label>
+    <label for="notify-off">Não</label>
   </legend>
 </fieldset>
 
 <!--
 
-![Cannot load image](legit_email_2.png?classes=border,shadow)
+![Não é possível carregar a imagem](legit_email_2.png?classes=border,shadow)
 
 <fieldset>  
-<legend>Does this text message look phishy?</legend>
+<legend>Esta mensagem de texto parece phishy?</legend>
   <input type="radio" id="notify-on1" name="notify1" value="on" >
-  <label for="notify-on">Yes</label>
+  <label for="notify-on">Sim</label>
   <input type="radio" id="notify-off1" name="notify1" value="off">
-  <label for="notify-off">No</label>
+  <label for="notify-off">Não</label>
 </fieldset> -->
 
-{{< button href="/security-phishing/summary/" theme="success" >}} Check answers! {{< /button >}}
+{{< button href="/security-phishing/summary/" theme="success" >}} Verificar respostas! {{< /button >}}
