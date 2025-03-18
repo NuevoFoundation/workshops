@@ -1,39 +1,37 @@
 ---
-title: "Phishing Basics"
+title: "Noções Básicas sobre Phishing"
 description: ""
 draft: false
 weight: 2
 ---
 
-Our Secret Agent Alice explains to Bob about Phishing!!!
+Nossa Agente Secreta Alice explica para Bob sobre Phishing!!!
 
-## What is Phishing?
+## O que é Phishing?
 
-Just like when fishing, one uses a bait to catch fish on a rod, malicious **hackers**
-use different types of bait to steal personal information from unsuspecting people.
+Assim como na pesca, onde se usa uma isca para pegar peixes com uma vara, **hackers** mal-intencionados usam diferentes tipos de iscas para roubar informações pessoais de pessoas desavisadas.
 
-Phishing is a type of social engineering attack which is used to steal sensitive data, including login credentials, banking and credit card details.
+Phishing é um tipo de ataque de engenharia social usado para roubar dados sensíveis, incluindo credenciais de login, detalhes bancários e de cartão de crédito.
 
-It occurs when a **Hacker**, posing as a trusted entity, lures an individual using email, text message, or phone.
+Isso ocorre quando um **Hacker**, fingindo ser uma entidade confiável, atrai uma pessoa usando e-mail, mensagem de texto ou telefone.
 
-The recipient is then tricked into clicking a malicious link, which can lead to the installation of a malicious software, or revealing of sensitive data.
+O destinatário é então enganado a clicar em um link malicioso, que pode levar à instalação de um software malicioso ou à revelação de dados sensíveis.
 
-## What went wrong?
+## O que deu errado?
 
-Bob was enticed by an email from a hacker named Eve offering him a free trip to Bahamas to steal his personal
-information.
+Bob foi atraído por um e-mail de uma hacker chamada Eve oferecendo uma viagem grátis para as Bahamas para roubar suas informações pessoais.
 
 <!--
-#### Different types of phishing
+#### Diferentes tipos de phishing
 
-1. Email Phishing scams
-2. Website Phishing scams
-3. Text Phishing scams
+1. Golpes de Phishing por E-mail
+2. Golpes de Phishing por Website
+3. Golpes de Phishing por Texto
 
 --->
-## A closer look
+## Um olhar mais atento
 
-Alice helps Bob understand the red flags in his email by taking a detailed look!
+Alice ajuda Bob a entender os sinais de alerta em seu e-mail, dando uma olhada detalhada!
 
-_Note: There are times when you need to provide personal information to a trusted recipient.</br>
-However, providing personal information can also lead to phishing. In this workshop we will understand how to differentiate between a legitimate email and a scam email._
+_Nota: Existem momentos em que você precisa fornecer informações pessoais a um destinatário confiável.</br>
+No entanto, fornecer informações pessoais também pode levar ao phishing. Neste workshop, vamos entender como diferenciar um e-mail legítimo de um e-mail de golpe._
