@@ -5,8 +5,6 @@ difficulty: "Intermediate"
 weight: 3
 ---
 
-# Room 3: The Pull Request Portal
-
 <img src="../images/room3_pull_request.jpg" alt="A massive door stands before you, with 'Pull Request' emblazoned above" />
 
 A massive door blocks your path, with "Pull Request" written above it. A sign reads: "To open this door, your changes must be reviewed."
@@ -60,8 +58,5 @@ After creating the pull request:
 
 Once you've created your pull request, enter its number to proceed:
 
-[Input field for pull request number]
-
-{{< notice info >}}
-Note: The actual input field and encryption functionality would need to be implemented separately, as Hugo doesn't provide this out of the box.
-{{< /notice >}}
+<label for="finput">Input field for pull request number:</label><br>
+<input type="text" id="finput" name="finput"><br>

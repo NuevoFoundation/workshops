@@ -42,12 +42,9 @@ graph TD
 
 After successfully merging your pull request, what message did you see? Enter it below to proceed:
 
-[Input field for merge message]
+<label for="finput">Input field for merge message:</label><br>
+<input type="text" id="finput" name="finput"><br>
 
 {{< expand "Hint" >}}
 The message you're looking for is typically something like "Pull request successfully merged and closed."
 {{< /expand >}}
-
-{{< notice info >}}
-Note: The actual input field and encryption functionality would need to be implemented separately, as Hugo doesn't provide this out of the box.
-{{< /notice >}}

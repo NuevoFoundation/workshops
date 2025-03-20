@@ -45,7 +45,8 @@ Now that you understand the purpose of labels, let's put this knowledge into pra
 
 After you've created the issue, take note of its number. You'll need this for the next step.
 
-**Input the issue number:** [________________]
+<label for="finput">Input the issue number:</label><br>
+<input type="text" id="finput" name="finput"><br>
 
 Great job! You've successfully created and labeled an issue. This skill will be invaluable as you continue to work on collaborative projects and manage your own repositories.
 

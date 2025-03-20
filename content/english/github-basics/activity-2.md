@@ -5,8 +5,6 @@ difficulty: "Beginner"
 weight: 2
 ---
 
-# Room 2: The Commit Conundrum
-
 <img src="../images/room2_commit.jpg" alt="Code snippets float around a central terminal, waiting to be organized" />
 
 As you enter the second room, snippets of code float in the air. A terminal in the center flickers with a message: "Bring order to chaos. Commit your changes to proceed."
@@ -56,8 +54,5 @@ git commit -m "Add solution for Room 1"
 
 When you've made your commit, enter the commit message you used:
 
-[Input field for commit message]
-
-{{< notice info >}}
-Note: The actual input field and encryption functionality would need to be implemented separately, as Hugo doesn't provide this out of the box.
-{{< /notice >}}
+<label for="finput">Input field for commit message:</label><br>
+<input type="text" id="finput" name="finput"><br>

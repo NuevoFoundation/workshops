@@ -29,7 +29,7 @@ By path, the voice means a GitHub repository. Forking creates a copy of the repo
    cd escape-room
    ```
 
-{{% notice %}}
+{{% notice tip %}}
 **Hint:** Look for the `README.md` file in your cloned repository. It contains a secret code to unlock the next room!
 {{% /notice %}}
 
@@ -43,8 +43,5 @@ If you're stuck, try these steps:
 
 When you're ready to proceed, enter the secret code you found:
 
-[Input field for secret code]
-
-{{% notice %}}
-Note: The actual input field and encryption functionality would need to be implemented separately, as Hugo doesn't provide this out of the box.
-{{% /notice %}}
+<label for="finput">Input field for secret code:</label><br>
+<input type="text" id="finput" name="finput"><br>
