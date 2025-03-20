@@ -5,8 +5,6 @@ difficulty: "Advanced"
 weight: 7
 ---
 
-# Room 7: The Automation Alley
-
 <img src="../images/room7_actions.jpg" alt="A room filled with gears and conveyor belts representing automated workflows" />
 
 You step into a room buzzing with activity. Gears turn and conveyor belts move, symbolizing automated processes. A holographic display flickers to life: "Automate your way to victory!"
@@ -49,11 +47,16 @@ C -->|Yes| D[View results]
 C -->|No| E[Check workflow file for errors]
 E --> B
 {{< /mermaid >}}
+
 After your workflow runs successfully, what was the output of the "Say Hello" step? Enter it below:
-[Input field for workflow output]
+
+<label for="finput">Input field for workflow output:</label><br>
+<input type="text" id="finput" name="finput"><br>
+
 {{< expand "Hint" >}}
 The output should be exactly what you specified in the echo command in your workflow file.
 {{< /expand >}}
+
 {{< notice success >}}
 Fantastic job! You've automated your first process with GitHub Actions. Onward to the next challenge!
 {{< /notice >}}

@@ -5,8 +5,6 @@ difficulty: "Advanced"
 weight: 9
 ---
 
-# Room 9: The Security Stronghold
-
 <img src="../images/room9_security.jpg" alt="A room filled with locks, shields, and security monitors" />
 
 You enter a room bristling with security measures. Locks, shields, and security monitors surround you. A stern voice declares: "Secure your code to proceed!"
@@ -31,7 +29,7 @@ You enter a room bristling with security measures. Locks, shields, and security 
 {{< /notice >}}
 
 {{< expand "Example Security Policy" >}}
-```markdown
+
 # Security Policy
 
 ## Reporting a Vulnerability
@@ -51,7 +49,10 @@ Use this section to tell people about which versions of your project are current
 
 {{< /expand >}}
 After setting up your security policy, what email address did you specify for reporting vulnerabilities? Enter it below:
-[Input field for email address]
+
+<label for="finput">Input field for email address:</label><br>
+<input type="text" id="finput" name="finput"><br>
+
 {{< notice success >}}
 Well done, security expert! You've fortified your repository. On to the final challenge!
 {{< /notice >}}

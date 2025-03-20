@@ -5,8 +5,6 @@ difficulty: "Intermediate"
 weight: 10
 ---
 
-# Room 10: The Deployment Den
-
 <img src="../images/room10_pages.jpg" alt="A room with a giant screen displaying a website and floating deploy buttons" />
 
 You enter the final room to find a giant screen displaying a website and floating "Deploy" buttons. A triumphant voice announces: "Deploy your victory for all to see!"
@@ -40,9 +38,11 @@ You enter the final room to find a giant screen displaying a website and floatin
 
 6. Commit and push this file to your repository.
 7. Wait a few minutes for GitHub to process your request, then visit your site at https://<username>.github.io/<repository-name> where <username> is your GitHub username and <repository-name> is the name of your repository.
+
 {{< notice info >}}
 Note: It may take a few minutes for your site to be deployed after pushing changes.
 {{< /notice >}}
+
 {{< mermaid >}}
 graph TD
 A[Enable GitHub Pages] --> B(Create index.html)
@@ -52,8 +52,12 @@ D -->|Yes| E[View your site]
 D -->|No| F[Wait a few minutes]
 F --> D
 {{< /mermaid >}}
+
 After your site is deployed, what's the title of your webpage? You can find it at the top of your browser when you visit the site. Enter it below:
-[Input field for webpage title]
+
+<label for="finput">Input field for webpage title:</label><br>
+<input type="text" id="finput" name="finput"><br>
+
 {{< notice success >}}
 Congratulations, GitHub master! You've completed all challenges and deployed your victory. You've escaped the GitHub Adventure Game!
 {{< /notice >}}

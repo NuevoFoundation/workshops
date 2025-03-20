@@ -54,11 +54,10 @@ This is some content from your current branch.
 This is conflicting content from the branch you're merging in.
 >>>>>>> upstream/main
 {{< /expand >}}
-After resolving the conflict, what was the final line of the conflicting file? Enter it below:
-[Input field for resolved content]
+
+<label for="finput">After resolving the conflict, what was the final line of the conflicting file? Enter it below:</label><br>
+<input type="text" id="finput" name="finput"><br>
+
 {{< notice success >}}
 Outstanding work! You've conquered the Conflict Canyon and completed all the challenges. You're now a GitHub master!
-{{< /notice >}}
-{{< notice info >}}
-Note: The actual input field and encryption functionality would need to be implemented separately, as Hugo doesn't provide this out of the box.
 {{< /notice >}}

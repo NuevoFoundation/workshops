@@ -5,8 +5,6 @@ difficulty: "Intermediate"
 weight: 8
 ---
 
-# Room 8: The Project Planner's Paradise
-
 <img src="../images/room8_projects.jpg" alt="A room with floating kanban boards and project timelines" />
 
 You enter a room filled with floating kanban boards and project timelines. A soothing voice announces: "Bring order to chaos, plan your escape!"
@@ -52,7 +50,8 @@ You enter a room filled with floating kanban boards and project timelines. A soo
 
 After setting up your board and moving an issue, in which column did you place the issue? Enter it below:
 
-[Input field for column name]
+<label for="finput">Input field for column name:</label><br>
+<input type="text" id="finput" name="finput"><br>
 
 {{< notice success >}}
 Excellent planning! You've mastered GitHub Projects. Let's move on to the next challenge!

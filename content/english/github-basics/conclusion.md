@@ -2,7 +2,7 @@
 title: "Final Challenge: Creating an Issue and Project Board"
 description: "Final Challenge: Create an issue and project board to escape the room."
 difficulty: "Intermediate"
-weight: 9
+weight: 11
 ---
 
 Nuvi needs to plan and document the escape strategy to complete the adventure.
