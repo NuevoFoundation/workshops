@@ -1,55 +1,55 @@
 ---
-title: "Activity 2: Setup PandoraBots"
+title: "Atividade 2: Configurar PandoraBots"
 draft: false
 weight: 5
 ---
 
 ## AIML
-We will be using AIML to create our chatbot. AIML stands for **Artificial Intelligence Markup Language**. If you have ever used HTML to make a website, you will find that AIML looks very similar. Before we can start writing AIML, we need to sign up for an account on PandoraBots.
+Vamos usar AIML para criar nosso chatbot. AIML significa **Artificial Intelligence Markup Language** (Linguagem de Marcação de Inteligência Artificial). Se você já usou HTML para fazer um site, verá que o AIML é muito semelhante. Antes de começarmos a escrever AIML, precisamos nos inscrever em uma conta no PandoraBots.
 
 ## Pandorabots
-Go to [https://www.pandorabots.com/](https://www.pandorabots.com/) and click on **Sign Up**. Enter an email and password to create an account. Alternatevely, you can sign up using an account from Google, Facebook, Twitter, or Github. If prompted, choose the free trial option.
+Vá para [https://www.pandorabots.com/](https://www.pandorabots.com/) e clique em **Sign Up** (Inscrever-se). Insira um e-mail e uma senha para criar uma conta. Alternativamente, você pode se inscrever usando uma conta do Google, Facebook, Twitter ou Github. Se solicitado, escolha a opção de teste gratuito.
 
-## Create a new bot
-Once you have signed up, you should see a page that looks like this:
+## Criar um novo bot
+Depois de se inscrever, você verá uma página que se parece com esta:
 
-<p style="text-align: center;"><img src="../img/pandorabots_1.png" alt="new account landing page on pandorabots" width="40%"/></p>
+<p style="text-align: center;"><img src="../img/pandorabots_1.png" alt="página inicial de nova conta no pandorabots" width="40%"/></p>
 
-To create a new bot, use the “+” button next to My Bots on the navigation pane. Give it a name and click “Create Bot”.
+Para criar um novo bot, use o botão “+” ao lado de My Bots no painel de navegação. Dê um nome e clique em “Create Bot” (Criar Bot).
 
-<p style="text-align: center;"><img src="../img/pandorabots_2.png" alt="creating a new bot on pandorabots" width="40%"/></p>
+<p style="text-align: center;"><img src="../img/pandorabots_2.png" alt="criando um novo bot no pandorabots" width="40%"/></p>
 
-## Bot Editing
-Once you have created a new bot, the name of the bot will appear in the navigation pane. Click **Edit** beneath your Bot’s Name and then choose **Code Editor** to navigate to the Editor.
+## Edição do Bot
+Depois de criar um novo bot, o nome do bot aparecerá no painel de navegação. Clique em **Edit** (Editar) abaixo do nome do seu bot e depois escolha **Code Editor** (Editor de Código) para navegar até o Editor.
 
-<p style="text-align: center;"><img src="../img/pandorabots_3.png" alt="editing a bot on pandorabots" width="40%"/></p>
+<p style="text-align: center;"><img src="../img/pandorabots_3.png" alt="editando um bot no pandorabots" width="40%"/></p>
 
-The Editor is where you will write AIML files and categories that will allow you and others to talk to your bot. 
+O Editor é onde você escreverá arquivos e categorias AIML que permitirão que você e outras pessoas conversem com seu bot.
 
-Use the File Menu to create a new AIML file called greetings.
+Use o Menu de Arquivos para criar um novo arquivo AIML chamado greetings (saudações).
 
-<p style="text-align: center;"><img src="../img/pandorabots_4.png" alt="adding a new file on pandorabots" width="40%"/></p>
+<p style="text-align: center;"><img src="../img/pandorabots_4.png" alt="adicionando um novo arquivo no pandorabots" width="40%"/></p>
 
-<p style="text-align: center;"><img src="../img/pandorabots_5.png" alt="adding a new file on pandorabots" width="40%"/></p>
+<p style="text-align: center;"><img src="../img/pandorabots_5.png" alt="adicionando um novo arquivo no pandorabots" width="40%"/></p>
 
-## Hello World
+## Olá Mundo
 
-Copy the code for the following category into the text editor in between the start ```<aiml>``` and end ```</aiml>``` tags:
+Copie o código para a seguinte categoria no editor de texto entre as tags de início ```<aiml>``` e fim ```</aiml>```:
 
 ```
 <category>
     <pattern>HELLO</pattern>
     <template>
-        Hello, World!
+        Olá, Mundo!
     </template>
 </category>
 ```
 
-Once completed, save your file via the “File” drop-down menu.
+Depois de concluir, salve seu arquivo através do menu suspenso “File” (Arquivo).
 
-<p style="text-align: center;"><img src="../img/pandorabots_6.png" alt="adding a new file on pandorabots" width="40%"/></p>
+<p style="text-align: center;"><img src="../img/pandorabots_6.png" alt="adicionando um novo arquivo no pandorabots" width="40%"/></p>
 
-## Testing your bot
-The Chat Widget allows you to talk to your bot. Click on the "chat bubbles" icon in the bottom right corner to start talking to your bot. Type `Hello` and you should receive the response you just coded, `“Hello, world!”`
+## Testando seu bot
+O Widget de Chat permite que você converse com seu bot. Clique no ícone de "balões de chat" no canto inferior direito para começar a conversar com seu bot. Digite `Hello` e você deverá receber a resposta que acabou de codificar, `“Olá, Mundo!”`
 
-<p style="text-align: center;"><img src="../img/pandorabots_7.png" alt="adding a new file on pandorabots" width="40%"/></p>
+<p style="text-align: center;"><img src="../img/pandorabots_7.png" alt="adicionando um novo arquivo no pandorabots" width="40%"/></p>

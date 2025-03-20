@@ -1,20 +1,20 @@
 ---
-title: "Activity 4: Wildcards"
+title: "Atividade 4: Coringas"
 draft: false
 weight: 9
 ---
 
-## Using wildcards
-Let's use the wildcard to allow our bot to answer more questions, without having to write a new category for each possible question. Let's expand on our current categories so that the chatbot can respond to any question that ends with "food", "color" or "name".
+## Usando coringas
+Vamos usar o coringa para permitir que nosso bot responda a mais perguntas, sem ter que escrever uma nova categoria para cada possível pergunta. Vamos expandir nossas categorias atuais para que o chatbot possa responder a qualquer pergunta que termine com "comida", "cor" ou "nome".
 
 {{% notice tip %}}
 
-Use the wildcard at the beginning of the pattern.
+Use o coringa no início do padrão.
 
 {{% /notice %}}
 
-1. If the user enters a question that **ENDS WITH** "food" (e.g. "What is your favorite food?", "Do you like food?", "Do chatbots eat food?"), the bot should respond with "My favorite food is pizza".
+1. Se o usuário digitar uma pergunta que **TERMINA COM** "comida" (por exemplo, "Qual é a sua comida favorita?", "Você gosta de comida?", "Chatbots comem comida?"), o bot deve responder "Minha comida favorita é pizza".
 
-2. If the user enters a question that **ENDS WITH** "color" (e.g. "What is your favorite color?", "What's your favorite color?"), the bot should respond with "My favorite color is blue".
+2. Se o usuário digitar uma pergunta que **TERMINA COM** "cor" (por exemplo, "Qual é a sua cor favorita?", "Qual é a sua cor favorita?"), o bot deve responder "Minha cor favorita é azul".
 
-3. If the user enters a question that **ENDS WITH** "name" (e.g. "What is your name?", "What's your name?", "Do you have a name?"), the bot should respond with "My name is Chatbot".
+3. Se o usuário digitar uma pergunta que **TERMINA COM** "nome" (por exemplo, "Qual é o seu nome?", "Qual é o seu nome?", "Você tem um nome?"), o bot deve responder "Meu nome é Chatbot".

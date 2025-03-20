@@ -1,39 +1,39 @@
 ---
-title: "Create your own chatbot"
-description: "An introductory guide to chatbots"
+title: "Crie seu próprio chatbot"
+description: "Um guia introdutório para chatbots"
 date: 2020-02-21T11:45:38-07:00
 prereq: "email"
-difficulty: "Beginner"
+difficulty: "Iniciante"
 download: ""
 draft: false
 icon: "fas fa-code"
 ---
-## Introduction
-In this workshop, you will learn how to create your own chatbot. By the end of the workshop, you will have a chatbot that can have a simple conversation with the user. You will learn how to use AIML, a language for creating chatbots. You will also learn how to use Pandorabots, a platform for hosting chatbots.
+## Introdução
+Neste workshop, você vai aprender a criar seu próprio chatbot. No final do workshop, você terá um chatbot que pode ter uma conversa simples com o usuário. Você vai aprender a usar AIML, uma linguagem para criar chatbots. Você também vai aprender a usar o Pandorabots, uma plataforma para hospedar chatbots.
 
-In order to complete the workshop, you will need an email address to sign up for a Pandorabots account.
+Para completar o workshop, você vai precisar de um endereço de email para se inscrever em uma conta no Pandorabots.
 
-## What is a chatbot?
-A chatbot is a computer program that simulates human conversation to answer questions. 
+## O que é um chatbot?
+Um chatbot é um programa de computador que simula uma conversa humana para responder perguntas.
 
-## Examples of chatbots
-Chances are you've already interacted with a chatbot as part of your daily life. 
+## Exemplos de chatbots
+Provavelmente você já interagiu com um chatbot no seu dia a dia.
 
-You might use a virtual assistant to set a reminder on your phone, or to play a song on your smart speaker.
-<p style="text-align: center; "><img src="./img/smart_device.jpg" alt="Two women talking to each other with speech bubbles in the background" width="40%"/></p>
+Você pode usar um assistente virtual para definir um lembrete no seu telefone ou para tocar uma música no seu alto-falante inteligente.
+<p style="text-align: center; "><img src="./img/smart_device.jpg" alt="Duas mulheres conversando com balões de fala ao fundo" width="40%"/></p>
 
-You might have interacted with a chatbot to get help with a product or service.
+Você pode ter interagido com um chatbot para obter ajuda com um produto ou serviço.
 
-<p style="text-align: center; "><img src="./img/customer_service_chatbot.png" alt="new account landing page on github" width="40%"/></p>
+<p style="text-align: center; "><img src="./img/customer_service_chatbot.png" alt="página de nova conta no GitHub" width="40%"/></p>
 
-More recently, chatbots have become more well-known thanks to technologies like ChatGPT.
+Mais recentemente, os chatbots se tornaram mais conhecidos graças a tecnologias como o ChatGPT.
 
-## History of chatbots
-Chatbots have been around for a long time. The first chatbot was created in 1966 and was called ELIZA. In 1995, a new chatbot called ALICE was created. ALICE was written using AIML, which is the same language we will learn in this workshop.
+## História dos chatbots
+Os chatbots existem há muito tempo. O primeiro chatbot foi criado em 1966 e se chamava ELIZA. Em 1995, um novo chatbot chamado ALICE foi criado. ALICE foi escrito usando AIML, que é a mesma linguagem que vamos aprender neste workshop.
 
-## Table of Contents
+## Índice
 
 <details close>
-<summary>Table of Contents</summary>
+<summary>Índice</summary>
 {{% children /%}}
 </details>

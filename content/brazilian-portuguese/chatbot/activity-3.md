@@ -1,38 +1,38 @@
 ---
-title: "Activity 3: Add your own categories"
+title: "Atividade 3: Adicione suas próprias categorias"
 draft: false
 weight: 7
 ---
 
-## Add more categories
+## Adicione mais categorias
 
-Right now, our bot can only respond to "Hello". Let's add some more categories so that our bot can respond to more things.
+Atualmente, nosso bot só responde a "Olá". Vamos adicionar mais categorias para que nosso bot possa responder a mais coisas.
 
-1. If the user says "What is your name?" the bot should respond with "My name is Chatbot".
-2. If the user says "What is your favorite color?" the bot should respond with "My favorite color is blue".
-3. If the user says "What is your favorite food?" the bot should respond with "My favorite food is pizza".
+1. Se o usuário disser "Qual é o seu nome?" o bot deve responder "Meu nome é Chatbot".
+2. Se o usuário disser "Qual é a sua cor favorita?" o bot deve responder "Minha cor favorita é azul".
+3. Se o usuário disser "Qual é a sua comida favorita?" o bot deve responder "Minha comida favorita é pizza".
 
-As a reminder, here is the basic structure of a category:
+Como lembrete, aqui está a estrutura básica de uma categoria:
 
 ```
 <category>
-    <pattern>HELLO</pattern>
+    <pattern>OLÁ</pattern>
     <template>
-        Hello, World!
+        Olá, Mundo!
     </template>
 </category>
 ```
 
 {{% notice tip %}}
 
-Remember: When writing the pattern, use all caps and avoid using punctuation. So if you want to match "What is your name?", you should write the pattern as "WHAT IS YOUR NAME".
+Lembre-se: Ao escrever o padrão, use letras maiúsculas e evite usar pontuação. Então, se você quiser corresponder a "Qual é o seu nome?", você deve escrever o padrão como "QUAL É O SEU NOME".
 
 {{% /notice %}}
 
 {{% notice tip %}}
 
-Remember to save the file whenever you modify the categories and want to interact with the chatbot.
+Lembre-se de salvar o arquivo sempre que modificar as categorias e quiser interagir com o chatbot.
 
 {{% /notice %}}
 
-Try adding these categories to your bot and test them out using the chat widget. At this point, the bot should respond to "Hello", "What is your name?", "What is your favorite color?", and "What is your favorite food?".
+Tente adicionar essas categorias ao seu bot e testá-las usando o widget de chat. Neste ponto, o bot deve responder a "Olá", "Qual é o seu nome?", "Qual é a sua cor favorita?" e "Qual é a sua comida favorita?".

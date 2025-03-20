@@ -1,29 +1,29 @@
 ---
-title: "Echoing Wildcards"
+title: "Ecoando Coringas"
 draft: false
 weight: 9
 ---
 
-## Introducing the ```<star />``` tag
-Let's learn one more tool to allow our chatbot to have more interesting responses. We learned in the last lesson how we can use the wildcard ```*``` to match any word or phrase. But what if we want to use the word or phrase that the user entered in our response? For example, if the user tells us what their favorite color is, we want the bot's response to include the user's favorite color. We can do this using the ```<star />``` tag.
+## Introduzindo a tag ```<star />```
+Vamos aprender mais uma ferramenta para permitir que nosso chatbot tenha respostas mais interessantes. Aprendemos na última lição como podemos usar o coringa ```*``` para corresponder a qualquer palavra ou frase. Mas e se quisermos usar a palavra ou frase que o usuário digitou em nossa resposta? Por exemplo, se o usuário nos disser qual é a cor favorita dele, queremos que a resposta do bot inclua a cor favorita do usuário. Podemos fazer isso usando a tag ```<star />```.
 
-The ```<star />``` tag is a special tag that allows us to use the word or phrase that the user entered in our response. Let's see how it works.
+A tag ```<star />``` é uma tag especial que nos permite usar a palavra ou frase que o usuário digitou em nossa resposta. Vamos ver como funciona.
 
 ```
 <category>
-    <pattern>MY FAVORITE COLOR IS *</pattern>
+    <pattern>MINHA COR FAVORITA É *</pattern>
     <template>
-        Your favorite color is <star />.
+        Sua cor favorita é <star />.
     </template>
 </category>
 ```
 
-Let's walk through how this category works. The pattern "MY FAVORITE COLOR IS *" will match any input that starts with "MY FAVORITE COLOR IS" followed by any word or phrase. So the pattern will match "MY FAVORITE COLOR IS BLUE" and "MY FAVORITE COLOR IS RED" and "MY FAVORITE COLOR IS GREEN" and so on. The ```<star />``` tag will capture the word or phrase that the user entered and use it in the response. So if the user enters "MY FAVORITE COLOR IS BLUE", "blue" is the word represented by the wildcard so when the chatbot responds, ```<star />``` will be replaced with "blue". The bot will respond with "Your favorite color is blue".
+Vamos entender como essa categoria funciona. O padrão "MINHA COR FAVORITA É *" corresponderá a qualquer entrada que comece com "MINHA COR FAVORITA É" seguido de qualquer palavra ou frase. Então o padrão corresponderá a "MINHA COR FAVORITA É AZUL" e "MINHA COR FAVORITA É VERMELHA" e "MINHA COR FAVORITA É VERDE" e assim por diante. A tag ```<star />``` capturará a palavra ou frase que o usuário digitou e a usará na resposta. Então, se o usuário digitar "MINHA COR FAVORITA É AZUL", "azul" é a palavra representada pelo coringa, então quando o chatbot responder, ```<star />``` será substituído por "azul". O bot responderá com "Sua cor favorita é azul".
 
-Here are some more examples of inputs and outputs from this category:
+Aqui estão mais alguns exemplos de entradas e saídas dessa categoria:
 
-Input | Output 
+Entrada | Saída 
 ---|--------------
-MY FAVORITE COLOR IS BLUE | Your favorite color is blue.
-MY FAVORITE COLOR IS RED | Your favorite color is red.
-MY FAVORITE COLOR IS GREEN | Your favorite color is green.
+MINHA COR FAVORITA É AZUL | Sua cor favorita é azul.
+MINHA COR FAVORITA É VERMELHA | Sua cor favorita é vermelha.
+MINHA COR FAVORITA É VERDE | Sua cor favorita é verde.

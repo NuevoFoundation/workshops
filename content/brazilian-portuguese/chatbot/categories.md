@@ -1,25 +1,25 @@
 ---
-title: "Categories"
+title: "Categorias"
 draft: false
 weight: 6
 ---
 
-## AIML Fundamentals
-The basic unit of AIML is the **category**. A category consists of a pattern and a template. The **pattern** is what the user says to the bot. The **template** is the response the bot gives to the user. 
+## Fundamentos de AIML
+A unidade básica do AIML é a **categoria**. Uma categoria consiste em um padrão e um template. O **padrão** é o que o usuário diz ao bot. O **template** é a resposta que o bot dá ao usuário.
 
-Looking at the following example, we can see that the pattern is "HELLO" and the template is "Hello, World!". When the user says "HELLO", the bot will respond with "Hello, World!". Note that pattern matching is case-insensitive, so the bot will respond to "hello", "HELLO", "Hello", and "HeLlo" in the same way.
+Olhando para o exemplo a seguir, podemos ver que o padrão é "OLÁ" e o template é "Olá, Mundo!". Quando o usuário diz "OLÁ", o bot responderá com "Olá, Mundo!". Note que a correspondência de padrões não diferencia maiúsculas de minúsculas, então o bot responderá a "olá", "OLÁ", "Olá" e "OlÁ" da mesma maneira.
 
 ```
 <category>
-    <pattern>HELLO</pattern>
+    <pattern>OLÁ</pattern>
     <template>
-        Hello, World!
+        Olá, Mundo!
     </template>
 </category>
 ```
 
 {{% notice info %}}
 
-When writing the pattern, we recommend writing in all UPPERCASE and to avoid using punctuation. So if you want to match "What is your name?", you should write the pattern as "WHAT IS YOUR NAME". Pandora will remove any punctuation in the user input before matching the pattern.
+Ao escrever o padrão, recomendamos escrever em letras maiúsculas e evitar usar pontuação. Então, se você quiser corresponder a "Qual é o seu nome?", você deve escrever o padrão como "QUAL É O SEU NOME". O Pandora removerá qualquer pontuação na entrada do usuário antes de corresponder ao padrão.
 
 {{% /notice %}}

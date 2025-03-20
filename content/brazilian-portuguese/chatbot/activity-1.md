@@ -1,16 +1,16 @@
 ---
-title: "Activity 1: Meet ALICE"
+title: "Atividade 1: Conheça a ALICE"
 draft: false
 weight: 4
 ---
 
-## Meet ALICE
-Before we start building our own chatbot, let's meet ALICE and ask it some questions. You should continue to have this webpage open and available.
+## Conheça a ALICE
+Antes de começarmos a construir nosso próprio chatbot, vamos conhecer a ALICE e fazer algumas perguntas a ela. Você deve continuar com esta página aberta e disponível.
 
-<a class="my-2 mx-4 btn btn-info" href="https://www.pandorabots.com/pandora/talk?botid=b8d616e35e36e881" target="_blank">Try ALICE</a>
+<a class="my-2 mx-4 btn btn-info" href="https://www.pandorabots.com/pandora/talk?botid=b8d616e35e36e881" target="_blank">Experimente a ALICE</a>
 
-What do you think of ALICE? 
+O que você achou da ALICE? 
 
-What kind of questions was ALICE able to answer?
+Que tipo de perguntas a ALICE conseguiu responder?
 
-What kind of questions was ALICE not able to answer?
+Que tipo de perguntas a ALICE não conseguiu responder?

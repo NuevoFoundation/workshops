@@ -1,32 +1,32 @@
 ---
-title: "Activity 5: Echoing Wildcards"
+title: "Atividade 5: Ecoando Coringas"
 draft: false
 weight: 10
 ---
 
-## Echoing Wildcards
-Let's use the wildcard ```*``` and ```<star />``` tag together to allow our bot to include user input in its response. 
+## Ecoando Coringas
+Vamos usar o coringa ```*``` e a tag ```<star />``` juntos para permitir que nosso bot inclua a entrada do usuário em sua resposta.
 
-1. If the user enters "My name is [name]", the bot should respond with "Nice to meet you, [name]!".
-Examples:
-Input | Output
+1. Se o usuário digitar "Meu nome é [nome]", o bot deve responder "Prazer em conhecê-lo, [nome]!".
+Exemplos:
+Entrada | Saída
 ---|--------------
-My name is John | Nice to meet you, John!
-My name is Jane | Nice to meet you, Jane!
-My name is Bob | Nice to meet you, Bob!
+Meu nome é João | Prazer em conhecê-lo, João!
+Meu nome é Maria | Prazer em conhecê-la, Maria!
+Meu nome é Bob | Prazer em conhecê-lo, Bob!
 
-2. If the user enters "My favorite color is [color]", the bot should respond with "I also like [color]!".
-Examples:
-Input | Output
+2. Se o usuário digitar "Minha cor favorita é [cor]", o bot deve responder "Eu também gosto de [cor]!".
+Exemplos:
+Entrada | Saída
 ---|--------------
-My favorite color is blue | I also like blue!
-My favorite color is red | I also like red!
-My favorite color is green | I also like green!
+Minha cor favorita é azul | Eu também gosto de azul!
+Minha cor favorita é vermelha | Eu também gosto de vermelha!
+Minha cor favorita é verde | Eu também gosto de verde!
 
-3. If the user enters "My favorite food is [food]", the bot should respond with "[food]! Yum!".
-Examples:
-Input | Output
+3. Se o usuário digitar "Minha comida favorita é [comida]", o bot deve responder "[comida]! Delícia!".
+Exemplos:
+Entrada | Saída
 ---|--------------
-My favorite food is pizza | pizza! Yum!
-My favorite food is pasta | pasta! Yum!
-My favorite food is sushi | sushi! Yum!
+Minha comida favorita é pizza | pizza! Delícia!
+Minha comida favorita é macarrão | macarrão! Delícia!
+Minha comida favorita é sushi | sushi! Delícia!

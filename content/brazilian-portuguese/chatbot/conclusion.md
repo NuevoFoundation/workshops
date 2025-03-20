@@ -1,14 +1,14 @@
 ---
-title: "Conclusion"
+title: "Conclusão"
 draft: false
 weight: 11
 ---
 
-<p style="text-align: center;"><img src="../img/robot.png" alt="image of a robot saying hi" width="400"/></p>
+<p style="text-align: center;"><img src="../img/robot.png" alt="imagem de um robô dizendo oi" width="400"/></p>
 
-## Wrap Up
-We have built a simple chatbot with just a few categories. Now you should be able to have a short conversation with your chatbot! Say "hi", tell it about your favorite food, color, and name, and ask it some questions. 
+## Conclusão
+Construímos um chatbot simples com apenas algumas categorias. Agora você deve ser capaz de ter uma conversa curta com seu chatbot! Diga "oi", conte sobre sua comida, cor e nome favoritos, e faça algumas perguntas.
 
-If you want to explore more, try adding more categories to your bot so that it can respond to more things.
+Se você quiser explorar mais, tente adicionar mais categorias ao seu bot para que ele possa responder a mais coisas.
 
-Remember ALICE? It was built with 50,000 categories! And some larger chatbots have over a million. So you can imagine how much more complex they are.
+Lembra do ALICE? Ele foi construído com 50.000 categorias! E alguns chatbots maiores têm mais de um milhão. Então você pode imaginar o quão mais complexos eles são.

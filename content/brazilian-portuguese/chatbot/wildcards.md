@@ -1,21 +1,21 @@
 ---
-title: "Wildcards"
+title: "Coringas"
 draft: false
 weight: 8
 ---
 
-## Wildcards
-You may be noticing now that it takes a lot of work to write a category for every possible way a user might ask a question. For example, currently the bot will respond to "Hello" with "Hello, world". But what if the user says "Hello there" or "Hello chatbot"? We would have to write a new category for each of these cases. Thankfully, there are additional tools we can use to make our bot more flexible. 
+## Coringas
+Você deve estar percebendo agora que dá muito trabalho escrever uma categoria para cada maneira possível que um usuário pode fazer uma pergunta. Por exemplo, atualmente o bot responde a "Olá" com "Olá, mundo". Mas e se o usuário disser "Olá, tudo bem" ou "Olá, chatbot"? Teríamos que escrever uma nova categoria para cada um desses casos. Felizmente, existem ferramentas adicionais que podemos usar para tornar nosso bot mais flexível.
 
-One of these tools is the **wildcard**. A wildcard is a special character that matches any word or phrase. Let's see how it works.
+Uma dessas ferramentas é o **coringa**. Um coringa é um caractere especial que corresponde a qualquer palavra ou frase. Vamos ver como funciona.
 
 ```
 <category>
-    <pattern>HELLO *</pattern>
+    <pattern>OLÁ *</pattern>
     <template>
-        Hi!
+        Oi!
     </template>
 </category>
 ```
 
-The ```*``` symbol is able to capture 1 or more words in the user input. With this new category, the chatbot will now respond with "Hi!" to any input that starts with "Hello" followed by any word. So the pattern "HELLO *" will match "HELLO THERE" and "HELLO CHATBOT" and "HELLO WORLD" and "HELLO EVERYONE" and so on.
+O símbolo ```*``` é capaz de capturar 1 ou mais palavras na entrada do usuário. Com essa nova categoria, o chatbot agora responderá com "Oi!" a qualquer entrada que comece com "Olá" seguido de qualquer palavra. Então o padrão "OLÁ *" corresponderá a "OLÁ TUDO BEM" e "OLÁ CHATBOT" e "OLÁ MUNDO" e "OLÁ PESSOAL" e assim por diante.
