@@ -184,6 +184,8 @@ article > aside section {
 * {
   margin: 0;
   padding: 0;
+  
+
 }
 
 html,
@@ -198,7 +200,10 @@ html {
 
 body {
   background-color: #fff;
-  color: #222;
+  color: #000000 !important;
+  font-family: "Lato" !important;
+  font-weight: 400 !important;
+  font-size: 24px !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -206,7 +211,7 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  line-height: 1.5rem;
+  line-height: 30px !important;
 }
 
 :disabled {
@@ -241,6 +246,7 @@ section strong {
 .nav-select {
   /* background: #e5e5e5; */
   display: none;
+  
 }
 
 .searchbox {
@@ -297,6 +303,7 @@ section strong {
 #navigation a i {
   font-size: 4em;
   margin: auto;
+  color: #000000;
 }
 #navigation a label {
   margin: auto;
@@ -345,7 +352,7 @@ section strong {
 }
 #navigation .nextprevbutton-subsection-name {
   margin: 13px 21px auto 21px;
-
+  color: #000000;
   text-align: left;
   font-family: Lato, monospace;
   font-weight: 900;
@@ -416,20 +423,72 @@ article section.page {
   overflow-y: auto;
   padding: 2rem 4rem;
 }
-article section.page h1:first-of-type {
-  margin: 3rem 0rem;
-  font-family: "Lato", "Helvetica", "Tahoma", "Geneva", "Arial",
+header h1:first-of-type {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Space Mono", "Lato", "Helvetica", "Tahoma", "Geneva", "Arial",
     sans-serif;
-  text-align: center;
-  color: #060606;
-  font-size: 3.25rem;
-  line-height: 2.7rem;
+  text-align: left;
+  color: #000000;
+  font-size: 48px;
+  line-height: 71.09px;
+  background-color:#Fcc600 !important;
+  font-weight: 700;
+  height: 100px;
+  top: 104px;
+  padding-left: 20px;
+  padding-top: 30px;
+  margin: 0 !important;
+}
+button, input, optgroup, select, textarea {
+
+  color:#000000!important;
+}
+#select-language {
+  background-color: #Fcc600;
+  border-width: 3px;
+  border-radius: 5px;
+  border-color:#000000;
+  font-family: "Lato", "Arial";
+  font-size: 18px;
+  font-weight: 600;
+  width: 100px;
+  height: 35px;
+  display: flex;
+  justify-content: right;
+  flex: wrap;
+}
+#nav-bar-section {
+  background-color: #Fcc600;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: right;
+  flex: wrap;
+}
+.panel-primary>.panel-heading {
+
+  background-color: #000000 !important;
+  border-radius: 4px!important;
+  border: 10px!important;
 }
 article section.page h1 {
   margin-top: 4rem;
 }
 article section.page h2 {
   margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  height: 77;
+  top: 27px;
+  left: 24;
+  color:#000000;
+  font-family: "Space Mono", "Lato", "Helvetica", "Tahoma", "Geneva", "Arial",
+    sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 59.24px;
+
 }
 article section.page table {
   width: 100%;
@@ -902,6 +961,7 @@ ul.children.children-card > .workshop-button > p {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    
   }
 
   article > aside {

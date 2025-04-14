@@ -1,6 +1,10 @@
 <header>
   <!-- Page Logo-->
   {{ partial "header.html" . }}
+  {{if not .IsHome}}<h1>{{.Title}}</h1>{{end}}
+  <div align="right" id="nav-bar-section">
+    {{- partial "language-selector.html" . }}
+  </div>
 </header>
 <article>
   <aside>
@@ -20,9 +24,7 @@
     </section>
   </aside>
   <section class="page">
-    <div align="right">
-      {{- partial "language-selector.html" . }}
-    </div>
+    
 
     <div class="nav-select">
       {{ i18n "navigation" }}&nbsp;
@@ -51,7 +53,7 @@
     </div>
     {{- end}} -->
 
-    {{if not .IsHome}}<h1>{{.Title}}</h1>{{end}}
+    
 
     {{ if isset .Params "difficulty" }}
     {{- partial "flex/metadata.html" . }}
