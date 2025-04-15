@@ -17,7 +17,7 @@ Deseja contribuir de forma mais ativa? Consulte nossos <a target="_blank" href="
 
 ## Para Criadores de Conteúdo
 Se deseja criar ou modificar workshops, siga os guias da seção "Primeiros Passos" e, em seguida, consulte:
-   - [Diretrizes de Formatação](formatação)
+   - [Diretrizes de Formatação](formatting)
    - [Criação de Novos Workshops](new-workshops)
 
 ## Para Desenvolvedores Web
