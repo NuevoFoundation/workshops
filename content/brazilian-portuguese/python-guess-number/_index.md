@@ -1,20 +1,20 @@
 ---
-title: "Python: Guess the Number Game"
-description: "Create a simple game that asks the user to guess a randomly generated number"
+title: "Python: Advinhe o número"
+description: "Crie um jogo simples que pede ao usuário para adivinhar um número gerado aleatoriamente"
 date: 2020-07-27
-prereq: "Python Basics"
-difficulty: "Intermediate"
+prereq: "Noções Básicas de Python"
+difficulty: "Intermediário"
 icon: "fab fa-python"
 draft: false
 ---
 
-In this workshop, you will be creating a simple game that incorporates some of the things you learned in the Python Basics section. Try this demo and see how many tries it takes you until you guess the number!!!
+Neste workshop, você criará um jogo simples que incorpora alguns dos conceitos aprendidos na seção de Noções Básicas de Python. Experimente esta demonstração e veja quantas tentativas você leva para adivinhar o número!!!
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Python-guessnumber-demo?lite=true&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-## Table of Contents
+## Tabela de Conteúdos
 
 <details close>
-<summary>Table of Contents</summary>
+<summary>Tabela de Conteúdos</summary>
 {{% children /%}}
 </details>

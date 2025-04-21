@@ -12,7 +12,7 @@ hidden: true
 import random
 
 number = random.randint(1,100)
-print("your randomly generated number is", number)
+print("Se numero randomico gerado é: ", number)
 ```
 
 ## Create the 'Guess the number game'
@@ -20,36 +20,36 @@ print("your randomly generated number is", number)
 ```python
 import random
 
-#Use the random.randint() function here to generate a number
-#Also define the number of guesses you want to allow here
+#Use a função random.randint() aqui para gerar um número
+#Também defina o número de tentativas que você deseja permitir aqui
 randomNumber = random.randint(1,10)
 guessesLeft = 3
 
-#Create a loop here that repeatedly asks the player for a number and compares it to the random number
-#Remember to decrease the number of guesses left so the player doesn't get unlimited tries!
+#Crie um loop aqui que peça repetidamente ao jogador um número e o compare ao número aleatório
+#Lembre-se de diminuir o número de tentativas restantes para que o jogador não tenha tentativas ilimitadas!
 while guessesLeft > 0:
-    print('\nGuess a number between 1 and 10:')
+    print('\nAdivinhe um número entre 1 e 10:')
     
-    #Ask the user for input here
-    print('Please enter only numbers')
+    #Peça ao usuário uma entrada aqui
+    print('Por favor, insira apenas números')
     userinput =  int(input())
 
-    #Compare the input you just received to randomNumber and give the player a hint whether they should guess lower or higher
-    #If the guess is correct, remember to use break to exit the loop
+    #Compare a entrada que você acabou de receber com randomNumber e dê ao jogador uma dica se ele deve adivinhar um número menor ou maior
+    #Se o palpite estiver correto, lembre-se de usar break para sair do loop
     if userinput == randomNumber:
-      print("You guessed the right number! Congrats :)! Press 'run' to play again")
+      print("Você adivinhou o número certo! Parabéns :)! Pressione 'executar' para jogar novamente")
       break
     elif userinput > randomNumber:
-      print("Your number is too high. Try guessing lower.")
+      print("Seu número é muito alto. Tente adivinhar um número menor.")
     else:
-      print("Your number is too low. Try guessing higher.")
+      print("Seu número é muito baixo. Tente adivinhar um número maior.")
     
-    #decrease the number of tries the player has left
+    #Diminua o número de tentativas restantes do jogador
     guessesLeft = guessesLeft -1
 
-#Check if the player ran out of guesses.  If they ran out of guesses, tell them a message that they lost the game
+#Verifique se o jogador ficou sem tentativas. Se ele ficou sem tentativas, diga uma mensagem informando que ele perdeu o jogo
 if guessesLeft == 0:
-  print("You ran out of guesses. :/ The correct number was " + str(randomNumber) + "!") #OR ("You ran out of guesses. :/ The correct number was ", randomNumber)
+  print("Você ficou sem tentativas. :/ O número correto era " + str(randomNumber) + "!") #OU ("Você ficou sem tentativas. :/ O número correto era ", randomNumber)
 else:
   pass
 ```
