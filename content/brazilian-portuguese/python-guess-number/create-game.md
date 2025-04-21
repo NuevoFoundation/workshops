@@ -1,30 +1,28 @@
 ---
-title: "Create the game"
+title: "Criando o jogo"
 draft: false
 weight: 2
 ---
 
-## Accept user input
+## Aceitar entrada do usuário
 
-This game will use some of the concepts you learned in the Python Basics section.
-You will need to know how to use the following concepts. If you are not familiar with any of these, please go back to review them.
+Esse jogo usará alguns conceitos aprendidos na sessão curso Phyton Básico. Você vai precisar saber como usar os conceitos.Você precisará saber como usar os seguintes conceitos. Se você não estiver familiarizado com nenhum deles, volte para revisá-los.
 - <a href="../../python-basics/loops" target="_blank">While loops</a>
 - <a href="../../python-basics/python-console/writing-to-console" target="_blank">Writing to console</a>
 - <a href="../../python-basics/python-console/reading-from-console" target="_blank">Reading from the console</a>
 - <a href="../../python-basics/conditional-statements" target="_blank">Conditional statements</a>
 - <a href="/python-guess-number/random/" target="_blank">Random numbers</a>
 
-You will need to code this game so that it randomly generates a number.
+Você precisará codificar este jogo para que ele gere aleatoriamente um número.
 
-Then the program will repeatedly ask the user for input from the console, and you will need to compare this input to the number that was randomly generated.
+Em seguida, o programa solicitará repetidamente ao usuário a entrada do console e você precisará comparar essa entrada com o número que foi gerado aleatoriamente.
 
-What's the best way to do repeated tasks? You guessed it, loops!
-You can use a `while` loop to achieve this task.
+Qual é a melhor maneira de fazer tarefas repetidas? Você adivinhou, loops!Você pode usar um loop `while` para realizar essa tarefa.
 
-Within the `while` loop, you can use conditionals to check if the player has guessed correctly. If not, you can give them helpful hints whether they should try guessing lower or higher.
+Dentro do loop `while`, você pode usar condicionais para verificar se o jogador adivinhou corretamente. Caso contrário, você pode dar dicas úteis se eles devem tentar adivinhar mais baixo ou mais alto.
 
-## Try creating your own game!
+## Tente criar seu próprio jogo!
 
-Remember to read the comments as a guide; or maybe delete the comments and see if you can figure out on your own. :)
+Lembre-se de ler os comentários como um guia; ou talvez exclua os comentários e veja se consegue descobrir por conta própria. :)
 
-<iframe src="https://trinket.io/embed/python/d7e8fdfc65" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/python/c77dcb756c65" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
