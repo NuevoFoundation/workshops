@@ -53,7 +53,8 @@
 @font-face {
   font-family: "Lato";
   font-weight: 600;
-  src: local("Lato Semibold"), url("../fonts/Lato-Semibold.ttf") format("truetype");
+  src: local("Lato Semibold"),
+    url("../fonts/Lato-Semibold.ttf") format("truetype");
 }
 @font-face {
   font-family: "Lato";
@@ -69,6 +70,10 @@
     url("../fonts/Lato-Black.ttf") format("truetype");
 }
 
+.Workshop-Projects-Header {
+  font-family: "Space Mono";
+}
+
 article > aside {
   /* background-color: #f9f9f9; */
   bottom: 0;
@@ -82,16 +87,18 @@ article > aside {
   flex-direction: column;
   padding: 2rem 0rem 1rem 0rem;
   width: 20rem;
-  max-height:100vh;
+  max-height: 100vh;
   overflow-y: auto;
   /* align-self: flex-start is needed so that position: sticky works  */
   align-self: flex-start;
   position: sticky;
   top: 0px;
+  background-color: #f1f6f1;
 }
 article > aside .menu {
-  line-height: 2rem;
+  line-height: 3rem;
   list-style-type: none;
+  /* scrollbar-track-color: #f1f6f1; */
 }
 article > aside .menu > label {
   display: block;
@@ -155,6 +162,7 @@ article > aside .menu .dd-item div a {
   order: 2;
   padding: 0 0rem;
   text-decoration: none;
+  color: black;
 }
 article > aside .menu .dd-item div a:hover,
 article > aside .menu .dd-item div a:focus,
@@ -311,14 +319,16 @@ section strong {
 #navigation a.nav-next {
   text-align: right;
 }
-#navigation a.nav-prev, #navigation a.nav-next {
+#navigation a.nav-prev,
+#navigation a.nav-next {
   width: 340px;
 }
 @media (max-width: 985px) {
   .nextprevbutton-desktop-only {
-      display: none;
+    display: none;
   }
-  #navigation a.nav-prev, #navigation a.nav-next {
+  #navigation a.nav-prev,
+  #navigation a.nav-next {
     width: 100%;
   }
   #navigation a.nav-prev {
@@ -334,9 +344,9 @@ section strong {
 #navigation .nextprevbutton-border {
   width: 100%;
 
-  background: #FFFFFF;
+  background: #ffffff;
   border: 4px solid #000000;
-  border-radius: 4px; 
+  border-radius: 4px;
 }
 #navigation .nextprevbutton-next-text {
   margin: 21px auto auto 20px;
@@ -399,7 +409,8 @@ article {
   flex: 1;
   margin-right: auto;
   margin-left: auto;
-  width:100%;
+  width: 100%;
+  background-color: #f1f6f1;
   /* Re-enable max-width after #259 is fixed (https://github.com/NuevoFoundation/workshops/issues/259) */
   /* max-width: 1210px; */
   /* background-color: #F1F6F1; */
@@ -407,7 +418,7 @@ article {
 
 /* Special homepage styling */
 body#home article section.page {
-  background-color: #F1F6F1;
+  background-color: #f1f6f1;
   border-radius: 5px;
 }
 
@@ -423,8 +434,7 @@ article section.page {
 header h1:first-of-type {
   display: flex;
   flex-wrap: wrap;
-  font-family: "Space Mono", "Lato", "Helvetica", "Tahoma", "Geneva", "Arial",
-    sans-serif;
+  font-family: "Space Mono", "Lato", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
   text-align: left;
   color: #000000;
   font-size: 48px;
@@ -497,6 +507,10 @@ article section.page h2 {
   font-weight: 700;
   line-height: 59.24px;
 }
+
+#workshop-projects {
+}
+
 article section.page table {
   width: 100%;
   margin-bottom: 2em;
@@ -833,14 +847,12 @@ div.notices p:first-child:after {
   color: #fff;
   font-size: 25px;
   left: 2rem;
-  content: attr(header-value)
+  content: attr(header-value);
 }
-
 
 #header-value {
   color: #000000;
 }
-
 
 div.notices.note {
   border: 4px solid black;
@@ -894,7 +906,7 @@ ul.children.children-card {
   justify-content: space-between;
 }
 ul.children.children-card > .workshop-button {
-  position:relative;
+  position: relative;
   background-color: #fff;
   cursor: pointer;
   text-align: left;
@@ -912,7 +924,7 @@ ul.children.children-card > .workshop-button {
   border-radius: 5px;
 }
 
-@media(hover: hover) and (pointer: fine) {
+@media (hover: hover) and (pointer: fine) {
   /* This media query only triggers on desktop.
      Only add these on desktop so that mobile users don't need to press the button twice */
 
