@@ -1,9 +1,10 @@
 ---
-title: "C: The Debugging Process"
+title: "The Debugging Process"
 description: "An introduction to debugging programs"
 date: 2021-10-13T00:00:00Z
 difficulty: "Intermediate"
 prereq: "C"
+skillName: "C"
 icon: ""
 draft: false
 ---

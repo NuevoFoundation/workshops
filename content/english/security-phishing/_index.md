@@ -1,8 +1,9 @@
 ---
-title: "Security: Gone Phishing"
+title: "Gone Phishing"
 description: "An introductory guide to learn about phishing!"
 date: 2020-02-21T11:45:38-07:00
 prereq: "None"
+skillName: "Security"
 difficulty: "Beginner"
 download: ""
 draft: false

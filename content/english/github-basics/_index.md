@@ -3,6 +3,7 @@ title: "GitHub Adventure Game"
 description: "Learn GitHub basics through a fun, collaborative project where each participant contributes to an evolving adventure game."
 difficulty: "Beginner"
 prereq: "Email account"
+skillName: "GitHub"
 weight: 1
 hidden: true
 ---

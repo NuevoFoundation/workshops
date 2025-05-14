@@ -1,8 +1,9 @@
 ---
-title: "Arduino: Light game"
+title: "Light game"
 description: "Build an Arduino microcontroller"
 date: 2020-07-27T14:04:59.61-07:00
 difficulty: "Intermediate"
+skillName: "Arduino"
 icon: "fas fa-microchip"
 draft: false
 ---

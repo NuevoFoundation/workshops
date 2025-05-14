@@ -1,8 +1,9 @@
 ---
-title: "SQL: Saving the Galaxy"
+title: "Saving the Galaxy"
 description: "Learning Basic SQL Commands"
 date: 2019-07-25T13:24:17-07:00
 prereq: "None"
+skillName: "SQL"
 difficulty: "Beginner"
 draft: false
 icon: "fas fa-database"

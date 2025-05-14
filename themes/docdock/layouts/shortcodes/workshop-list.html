@@ -23,6 +23,8 @@
 
 	{{- if eq $sortTerm "Weight"}}
 	{{- template "workshop-childs" dict "menu" .Site.Home.Sections.ByTitle "style" $style "showhidden" $showhidden "count" 1 "depth" $depth "pages" .Site.Pages "description" $withDescription "sortTerm" $sortTerm}}
+	{{- else if eq $sortTerm "SkillName"}}
+	{{- template "workshop-childs" dict "menu" ($pages.ByParam "skillName") "style" $style "showhidden" $showhidden "count" 1 "depth" $depth "pages" .Site.Pages "description" $withDescription "sortTerm" $sortTerm}}
 	{{- else if eq $sortTerm "Name"}}
 	{{- template "workshop-childs" dict "menu" $pages.ByTitle "style" $style "showhidden" $showhidden "count" 1 "depth" $depth "pages" .Site.Pages "description" $withDescription "sortTerm" $sortTerm}}
 	{{- else if eq $sortTerm "PublishDate"}}
@@ -41,7 +43,7 @@
 {{ define "workshop-childs" }}
 {{- range .menu }}
 {{- if .Params.hidden }}
-{{- else}}
+{{- else }}
 
 <span class="workshop-button" onclick="location.href='{{.Permalink}}'">
 	{{- if hasPrefix $.style "h"}}

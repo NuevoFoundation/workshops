@@ -1,8 +1,9 @@
 ---
-title: "C#: Create a Web site with Razor"
+title: "Create a Web site with Razor"
 description: "An introductory guide on how to make a simple web site using C#/Razor"
 date: 2023-09-11T11:45:38-07:00
 prereq: "Web Basics, C#"
+skillName: "C# Razor"
 difficulty: "Intermediate"
 draft: false
 icon: "fas fa-code"

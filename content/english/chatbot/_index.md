@@ -1,8 +1,9 @@
 ---
-title: "Create your own chatbot"
+title: "Create Your Own Chatbot"
 description: "An introductory guide to chatbots"
 date: 2020-02-21T11:45:38-07:00
 prereq: "email"
+skillName: "Chatbot, AI"
 difficulty: "Beginner"
 download: ""
 draft: false

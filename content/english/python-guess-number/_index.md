@@ -1,8 +1,9 @@
 ---
-title: "Python: Guess the Number Game"
+title: "Guess the Number Game"
 description: "Create a simple game that asks the user to guess a randomly generated number"
 date: 2020-07-27
 prereq: "Python Basics"
+skillName: "Python"
 difficulty: "Intermediate"
 icon: "fab fa-python"
 draft: false

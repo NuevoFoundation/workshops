@@ -1,8 +1,9 @@
 ---
-title: "Java: Tic-Tac-Toe"
+title: "Android Tic-Tac-Toe"
 description: "Learn about variables, functions, and conditionals all while building a Tic-Tac-Toe Android app."
 date: 2021-03-13T14:04:59.61-07:00
 prereq: "Android Studio"
+skillName: "Java"
 difficulty: "Intermediate"
 download: "resources/_gen/files/TicTacToe.zip"
 icon: "fab fa-android"

@@ -1,8 +1,9 @@
 ---
-title: "C#: Basics"
+title: "C# Basics"
 description: "An introduction to the basics of the C# programming language."
 date: 2024-09-16T00:00:00Z
 prereq: "none"
+skillName: "C#"
 difficulty: "Beginner"
 draft: false
 icon: "fas fa-code"

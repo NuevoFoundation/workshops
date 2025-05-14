@@ -1,9 +1,10 @@
 ---
-title: "Python: Choose Your Own Adventure Game"
+title: "Choose Your Own Adventure Game"
 description: "An introductory guide on how to make a Choose Your Own Adventure Game in Python"
 date: 2019-07-23T11:45:38-07:00
 difficulty: Intermediate
 prereq: "Python Basics - Writing to Console (Print), Reading from Console, Strings, Variables, Conditional statements"
+skillName: "Python"
 download: ""
 draft: false
 icon: "fab fa-python"

@@ -1,8 +1,9 @@
 ---
-title: "Python: Coding with Turtle"
+title: "Coding with Turtle"
 description: "Learn how to draw on a canvas with Python with Turtle"
 date: 2019-07-25T13:24:17-07:00
 prereq: "Python Basics"
+skillName: "Python"
 difficulty: "Beginner"
 image: ""
 draft: false

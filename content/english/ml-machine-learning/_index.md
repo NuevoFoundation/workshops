@@ -1,8 +1,9 @@
 ---
-title: "Machine Learning: Linear Regression"
+title: "Linear Regression"
 description: "Understanding how to predict things."
 difficulty: "Advanced"
 prereq: "Python"
+skillName: "Machine Learning"
 icon: ""
 draft: false
 weight: 0

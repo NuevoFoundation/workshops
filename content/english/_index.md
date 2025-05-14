@@ -6,7 +6,7 @@ hidemetadata: true
 ---
 
 ## Workshop Projects
-{{< workshop-list style="card" depth="1" showhidden="false" description="true"  />}}
+{{< workshop-list sort="SkillName" style="card" depth="1" showhidden="false" description="true"  />}}
 
 ## Contributing
 Want to help improve our workshops or our website? Click here: **[Workshop Contributor Guidelines](guidelines/)**!
