@@ -98,6 +98,8 @@ article > aside {
 article > aside .menu {
   line-height: 3rem;
   list-style-type: none;
+  font-family: Lato;
+  font-weight: bold;
   /* scrollbar-track-color: #f1f6f1; */
 }
 article > aside .menu > label {
@@ -150,7 +152,7 @@ article > aside .menu .dd-item div i.read-icon {
 }
 article > aside .menu .dd-item div i.category-icon {
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   order: 1;
   width: 20px;
@@ -402,7 +404,7 @@ article {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  margin-top: 3.5rem;
+  /* margin-top: 3.5rem; */
   margin-right: auto;
   margin-left: auto;
   width: 100%;
