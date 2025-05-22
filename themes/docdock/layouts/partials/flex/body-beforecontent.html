@@ -1,10 +1,18 @@
 <header>
   <!-- Page Logo-->
   {{ partial "header.html" . }}
-  {{if not .IsHome}}<h1>{{.Title}}</h1>{{end}}
-  <div align="right" id="nav-bar-section">
+  
+  {{if not .IsHome}}
+  <h1>{{.Title}}</h1>
+  <div align="right" class = "language-bar-workshops">
     {{- partial "language-selector.html" . }}
   </div>
+  {{end}}
+  {{if .IsHome}}
+  <div align="right">
+    {{- partial "language-selector.html" . }}
+  </div>
+  {{end}}
 </header>
 <article>
   <aside>

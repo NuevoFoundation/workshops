@@ -248,6 +248,9 @@ section strong {
   display: none;
   
 }
+img {
+  
+}
 
 .searchbox {
   margin: 0rem 0rem 0rem 0rem;
@@ -399,7 +402,6 @@ article {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  margin-top: 3.5rem;
   margin-right: auto;
   margin-left: auto;
   width:100%;
@@ -444,8 +446,23 @@ button, input, optgroup, select, textarea {
 
   color:#000000!important;
 }
-#select-language {
+#select-language-workshop {
   background-color: #Fcc600;
+  border-width: 3px;
+  border-radius: 5px;
+  border-color:#000000;
+  font-family: "Lato", "Arial";
+  font-size: 18px;
+  font-weight: 600;
+  width: 115px;
+  height: 35px;
+  display: flex;
+  justify-content: right;
+  flex: wrap;
+  padding-left: 15px;
+}
+#select-language-home {
+  background-color: #ffffff;
   border-width: 3px;
   border-radius: 5px;
   border-color:#000000;
@@ -458,19 +475,20 @@ button, input, optgroup, select, textarea {
   justify-content: right;
   flex: wrap;
 }
-#nav-bar-section {
-  background-color: #Fcc600;
-  padding-bottom: 10px;
-  padding-right: 30px;
-  display: flex;
-  justify-content: right;
-  flex: wrap;
+.language-bar-workshops {
+  background-color: #Fcc600 !important;
+  padding-bottom: 25px;
+  padding-right: 35px;
+}
+
+.panel.panel-primary {
+
+  border: 4px solid black;
 }
 .panel-primary>.panel-heading {
 
   background-color: #000000 !important;
-  border-radius: 4px!important;
-  border: 10px!important;
+
 }
 article section.page h1 {
   margin-top: 4rem;
@@ -528,9 +546,11 @@ article section.page img {
   margin: 3rem auto;
   display: block;
   text-align: center;
+  border: 4px solid black !important;
+
 }
 article section.page img.border {
-  border: 2px solid #e6e6e6 !important;
+  border: 2px solid #ffffff;
   padding: 2px;
 }
 article section.page img.shadow {
@@ -823,42 +843,51 @@ div.notices p:first-child:after {
   position: absolute;
   top: -27px;
   color: #fff;
+  font-size: 25px;
   left: 2rem;
   content: attr(header-value)
 }
-
+#header-value {
+  color: #000000;
+}
 div.notices.note {
-  border-top: 30px solid #6bb1e0;
+  border: 4px solid black;
+  border-top: 30px solid #000000;
   background: #e6f3fb;
   color: rgba(47, 103, 141, 0.995) !important;
 }
 
 div.notices.info {
-  border-top: 30px solid #f1b37e;
+  border: 4px solid black;
+  border-top: 30px solid #000000;
   background: #fefaf5;
   color: rgba(150, 90, 38, 0.995) !important;
 }
 
 div.notices.tip {
-  border-top: 30px solid #84c578;
+  border: 4px solid black;
+  border-top: 30px solid #000000;
   background: #e8f7e6;
   color: rgba(72, 125, 63, 0.995) !important;
 }
 
 div.notices.hint {
-  border-top: 30px solid #84c578;
+  border: 4px solid black;
+  border-top: 30px solid #000000;
   background: #e8f7e6;
   color: rgba(72, 125, 63, 0.995) !important;
 }
 
 div.notices.warning {
-  border-top: 30px solid #d58181;
+  border: 4px solid black;
+  border-top: 30px solid #000000;
   background: #fbeded;
   color: rgba(132, 56, 56, 0.995) !important;
 }
 
 div.notices.help {
-  border-top: 30px solid #d58181;
+  border: 4px solid black;
+  border-top: 30px solid #000000;
   background: #fbeded;
   color: rgba(132, 56, 56, 0.995) !important;
 }
