@@ -872,6 +872,7 @@ ul.children.children-card > .workshop-button .workshop-button-subtitle {
 ul.children.children-card > .workshop-button .workshop-button-skill-name {
   font-family: "Space Mono", monospace;
   color: #5c5c5c;
+  font-size: 20px;
   margin-left: 5px;
 }
 
