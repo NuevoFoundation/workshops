@@ -6,7 +6,6 @@ prereq: "none"
 difficulty: "Beginner"
 icon: "fab fa-java"
 draft: false
-type: "Coding Language"
 ---
 
 <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/udEaocEYlpc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -28,7 +27,7 @@ And, in this course, we will cover all the basic features of the language.
 ![Cartoon, yellow duck named Patrick playing a pink trumpet](https://media.giphy.com/media/l49JKwmJLChtS6d44/giphy.gif) 
 
 <p style="text-align: center;">(image created by Molang: giphy.com/molangofficialpage)</p>
- f
+
 In this course, we will follow the lead of a music-loving yellow duck named <b>Patrick</b> 🐥 to learn all about Java and make friends along the way!
 
 ## Table of Contents
