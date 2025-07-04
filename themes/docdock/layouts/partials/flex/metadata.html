@@ -19,5 +19,12 @@
             <span class="metadata-value"><a href="{{ . }}">{{ i18n "download" }}</a></span>
         </div>
         {{ end }}
+        {{ with .Param "style" }}
+        <div class="metadata-row">
+            <span class="metadata-label">{{ i18n "style" }}</span>
+            <span class="metadata-value"><a href="{{ . }}">{{ i18n "style" }}</a></span>
+        </div>
+        {{ end }}
+        
     </div>
 </div>
