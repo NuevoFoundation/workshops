@@ -4,7 +4,6 @@ date: 2019-07-25T13:24:17-07:00
 weight: 2
 draft: false
 ---
-
 ## Ligando o Rádio
 
 Vamos usar o rádio Bluetooth do seu micro:bit para descobrir a que distância você está de outros micro:bits. A primeira coisa que precisamos fazer é ligar o rádio e sintonizá-lo em um canal. Clique na seção chamada Rádio. É a seção rosa, a quinta de cima para baixo. Escolha "radio set group 1" e arraste para o bloco azul "on start" no espaço de trabalho. Certifique-se de usar o mesmo número de grupo que todos os outros. Se você usar números de grupo diferentes, seus micro:bits não conseguirão se comunicar. Seu espaço de trabalho deve ficar como o exemplo abaixo depois de terminar:

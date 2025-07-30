@@ -4,7 +4,6 @@ date: 2019-07-25T13:24:17-07:00
 weight: 3
 draft: false
 ---
-
 Agora que estamos enviando mensagens e ouvindo por elas, precisamos usar essa informação para descobrir a distância entre os micro:bits. Para isso, precisamos saber quão forte é o sinal que estamos recebendo. Volte para a seção Rádio e, desta vez, arraste o bloco "ao receber rádio (receivedNumber)" para um espaço vazio no seu ambiente de trabalho. Ele não deve estar dentro de nenhum outro bloco.
 
 Esse bloco diz ao nosso micro:bit para fazer algo sempre que receber um número enviado de outro micro:bit.

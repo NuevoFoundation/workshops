@@ -4,7 +4,6 @@ date: 2019-07-25T13:24:17-07:00
 weight: 4
 draft: false
 ---
-
 Agora que nosso micro:bit sabe quão forte é o sinal que está recebendo, precisamos usar isso para descobrir o quão próximos estamos. Clique na seção Lógica e pegue o bloco "se verdadeiro então / senão". Arraste-o para dentro do bloco de rádio recebido, logo abaixo de onde definimos a variável forca. Volte para a seção Lógica e arraste a comparação 0 = 0 em cima do verdadeiro na linha "se verdadeiro então". Seu código deve ficar assim:
 
 ![Ambiente de trabalho com a instrução if/then/else adicionada ao bloco de evento](../img/addedLogic.png)

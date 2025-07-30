@@ -4,7 +4,6 @@ date: 2019-07-25T13:24:17-07:00
 weight: 1
 draft: false
 ---
-
 ## O que é um micro:bit?
 
 Um micro:bit é um microcontrolador programável! Ele pode ser programado a partir de qualquer navegador web em várias linguagens como JavaScript, Python, Scratch e Blocos. Para nossa sessão de hoje, usaremos os Blocos do MakeCode.
