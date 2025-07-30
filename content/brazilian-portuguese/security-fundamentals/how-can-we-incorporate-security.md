@@ -27,14 +27,14 @@ A cibersegurança é um campo amplo onde todos precisam fazer sua parte para gar
  
  <!-- Hidden section with sample answers -->
  <div class="sample_answers" id="sample_answers" style="visibility:hidden">
-   <p>Nice answer! Some other answers to consider are:</p>
-   <ul>
-     <li>Use long passwords that are not easy to guess</li>
-     <li>Avoid leaving sensitive information in places that are not secure (written down, plain documents, notes apps)</li>
-     <li>Turn on sign in notifications and things like two factor authentication</li>
-     <li>Be careful when opening suspicious links in emails and text messages</li>
-     <li>Make sure to keep your devices updated to the most recent software versions</li>
-   </ul>
+  <p>Boa resposta! Outras respostas para considerar são:</p>
+  <ul>
+    <li>Use senhas longas que não sejam fáceis de adivinhar</li>
+    <li>Evite deixar informações sensíveis em locais inseguros (anotadas, em documentos simples, aplicativos de notas)</li>
+    <li>Ative notificações de login e recursos como autenticação em dois fatores</li>
+    <li>Tome cuidado ao abrir links suspeitos em e-mails e mensagens de texto</li>
+    <li>Mantenha seus dispositivos atualizados com as versões mais recentes dos softwares</li>
+  </ul>
  </div>
 </div>
 {{< /rawhtml >}}
