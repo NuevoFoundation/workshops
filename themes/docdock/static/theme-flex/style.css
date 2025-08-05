@@ -184,7 +184,6 @@ article > aside section {
 * {
   margin: 0;
   padding: 0;
-  
 
 }
 
@@ -248,10 +247,6 @@ section strong {
   display: none;
   
 }
-img {
-  
-}
-
 .searchbox {
   margin: 0rem 0rem 0rem 0rem;
   padding: 0rem 0rem;
@@ -480,12 +475,10 @@ button, input, optgroup, select, textarea {
   padding-bottom: 25px;
   padding-right: 35px;
 }
-
 .panel.panel-primary {
-
   border: 4px solid black;
 }
-.panel-primary>.panel-heading {
+.panel-primary > .panel-heading {
 
   background-color: #000000 !important;
   border-radius: 0px;
@@ -501,12 +494,10 @@ article section.page h2 {
   top: 27px;
   left: 24;
   color:#000000;
-  font-family: "Space Mono", "Lato", "Helvetica", "Tahoma", "Geneva", "Arial",
-    sans-serif;
+  font-family: "Space Mono", "Lato", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 59.24px;
-
 }
 article section.page table {
   width: 100%;
@@ -547,7 +538,6 @@ article section.page img {
   display: block;
   text-align: center;
   border: 4px solid black !important;
-
 }
 article section.page img.border {
   border: 2px solid #ffffff;
@@ -847,13 +837,14 @@ div.notices p:first-child:after {
   left: 2rem;
   content: attr(header-value)
 }
+
 #header-value {
   color: #000000;
 }
+
 div.notices.note {
   border: 4px solid black;
   border-top: 50px solid #000000;
-  
   background: #e6f3fb;
   color: rgba(47, 103, 141, 0.995) !important;
 }
@@ -991,7 +982,6 @@ ul.children.children-card > .workshop-button > p {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    
   }
 
   article > aside {
