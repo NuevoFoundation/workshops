@@ -4,7 +4,7 @@
   
   {{if not .IsHome}}
   <h1>{{.Title}}</h1>
-  <div align="right" class = "language-bar-workshops">
+  <div align="right" class="language-bar-workshops">
     {{- partial "language-selector.html" . }}
   </div>
   {{end}}
@@ -32,7 +32,6 @@
     </section>
   </aside>
   <section class="page">
-    
 
     <div class="nav-select">
       {{ i18n "navigation" }}&nbsp;
@@ -61,7 +60,6 @@
     </div>
     {{- end}} -->
 
-    
 
     {{ if isset .Params "difficulty" }}
     {{- partial "flex/metadata.html" . }}
