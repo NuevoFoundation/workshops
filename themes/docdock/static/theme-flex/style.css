@@ -478,7 +478,6 @@ button, input, optgroup, select, textarea {
   border: 4px solid black;
 }
 .panel-primary > .panel-heading {
-
   background-color: #000000 !important;
   border-radius: 0px;
 }
@@ -837,9 +836,11 @@ div.notices p:first-child:after {
   content: attr(header-value)
 }
 
+
 #header-value {
   color: #000000;
 }
+
 
 div.notices.note {
   border: 4px solid black;
