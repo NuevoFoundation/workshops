@@ -31,6 +31,7 @@
   font-family: Lato, sans-serif;
   color: rgb(112, 112, 112);
   font-size: 16px;
+  background-color: #ffffff;
 }
 .emolVn {
   float: left;
@@ -94,9 +95,7 @@
   text-decoration-style: unset;
 }
 .iFdsJw {
-  background-image: /*savepage-url=./static/media/2018_0814_Pattern_Adjusted.57f3c140.svg*/ url(
-
-  );
+  background-image: /*savepage-url=./static/media/2018_0814_Pattern_Adjusted.57f3c140.svg*/ url();
   font-family: Lato, sans-serif;
   font-weight: bolder;
   box-shadow: rgba(245, 107, 107, 0.1) 0px 4px 12px;
