@@ -70,7 +70,7 @@
     url("../fonts/Lato-Black.ttf") format("truetype");
 }
 
-.Workshop-Projects-Header {
+.workshop-projects-header {
   font-family: "Space Mono";
 }
 
@@ -100,7 +100,6 @@ article > aside .menu {
   list-style-type: none;
   font-family: Lato;
   font-weight: bold;
-  /* scrollbar-track-color: #f1f6f1; */
 }
 article > aside .menu > label {
   display: block;
@@ -508,9 +507,6 @@ article section.page h2 {
   font-size: 40px;
   font-weight: 700;
   line-height: 59.24px;
-}
-
-#workshop-projects {
 }
 
 article section.page table {
