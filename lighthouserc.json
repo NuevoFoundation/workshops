@@ -1,0 +1,15 @@
+{
+  "ci": {
+    "assert": {
+      "assertions": {
+        "categories:accessibility": ["warn", { "minScore": 1 }],
+        "categories:performance": ["warn", { "minScore":1 }],
+        "categories:seo": ["warn", { "minScore":1 }],
+        "categories:best-practices": ["warn", { "minScore":1 }]
+      }
+    },
+    "collect": {
+      "staticDistDir": "./public/adafruit"
+    }
+  }
+}
