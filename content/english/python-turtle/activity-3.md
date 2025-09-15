@@ -5,6 +5,8 @@ weight: 5
 draft: false
 ---
 
+<p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/RFWEYPAoiew" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 ![Turtle, hexagon animation](https://media.giphy.com/media/TDLqC61A5uOAO8WwnJ/giphy.gif)
 
 Great job! You just drew your first shape in Python with Turtle! Now let’s slightly change the code we already wrote to draw a square to instead draw a hexagon. Alex is a bee, after all, and he needs to draw hexagons to build his first honeycomb.
