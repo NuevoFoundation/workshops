@@ -15,17 +15,23 @@ Install **Python 3.10** (a 3.10.x version, like 3.10.14) from the official websi
 
 Why 3.10? Some of the libraries we will use for Discord and translation work best (or only) with Python 3.10 right now. Using a newer version (like 3.11 or 3.12) may cause install errors.
 
-On the Windows installer: check the box **“Add Python to PATH”** before clicking Install.
-
-To test after install, open a terminal (Command Prompt, PowerShell, or VS Code terminal) and run:
-```
-python --version
-```
 You should see something like `Python 3.10.x`.
 
-## 2. Install VS Code
-Download from: https://code.visualstudio.com/
-Open VS Code after installing.
+## 2. Install VS Code (and the Python tools)
+
+VS Code is a free, student‑friendly code editor where you'll write and run your bot; it gives smart autocompletion, error hints, and an easy way to manage Python.
+
+Download VS Code from: https://code.visualstudio.com/
+
+After VS Code installs, add the Python tooling:
+1. Open VS Code and go to the Extensions view (Click on the extensions icon in the Activity Bar on the side or press `Ctrl+Shift+X`).
+![Extensions view icon](../../media/extensions.png)
+2. Search for `Python` (Publisher: Microsoft) and click Install. This will install some helpful tools we'll be using throughout the workshop. ![Python VSCode extension page](../../media/python-extension.png)
+3. Install the `Python Environment Manager` experience if prompted – it is bundled in the Python extension recent versions.
+4. Reload VS Code if it asks you to.
+
+You should now see the Python extension symbol on your sidebar.
+![Python extension symbol](../../media/python-symbol.png)
 
 ## 3. Create a Project Folder
 Choose a location you can find easily, like your Documents or Desktop.
@@ -33,79 +39,43 @@ Example folder name: `discord-translator-bot`.
 Open the folder in VS Code (File → Open Folder).
 
 ## 4. Create a Virtual Environment
-A virtual environment keeps your project’s packages separate from other projects.
+A virtual environment keeps your project separate from other projects and makes it easier to organize all of the Python files on your computer. The VS Code Python extension can create and select it for you.
 
-In the VS Code terminal, run:
-```
-python -m venv .venv
-```
-Then activate it:
-- Windows PowerShell:
-```
-.\.venv\Scripts\Activate.ps1
-```
-You should see `(.venv)` at the start of the terminal line.
-
-- macOS / Linux (bash or zsh):
-```
-source .venv/bin/activate
-```
-
-If `python` points to Python 2 on macOS/Linux, try:
-```
-python3 -m venv .venv
-source .venv/bin/activate
-```
-
-If activation is blocked, you may need to run PowerShell as Administrator and allow scripts:
-```
-Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
-```
-(Ask an adult if unsure.) Then try activation again.
+1. To create the environment, look for the Python symbol on the side bar and click on it: ![Python VSCode extension icon](../../media/sidebar.png)
+1. Click on the "venv" dropdown. It should say something like "No environment found, click to create". Click it.
+1. That should bring a dropdown near the top saying "Select environment creation mode". Choose "Quick Create".
+![Create environment dropdown](../../media/create-env.png)
+1. You should now see a small loading window pop up that indicates that it is creating the virtual environment. This may take a few minutes.
+![Creating virtual environment](../../media/loading-env.png)
+1. Once it is finished, if you select the Python symbol on the side bar again, and clicke the "venv" dropdown, you should see that the virtual environment has been created and selected.
+![Virtual environment created and selected](../../media/venv-created.png)
 
 ## 5. Create Starter Files
 Inside the project folder, create these files:
 ```
-main.py
+bot.py
 requirements.txt
-.env           (will hold secrets - do NOT share)
 ```
 
-### main.py (starter)
+### bot.py
+This will be where all of the code for your bot goes. For now, just add this starter code:
 ```python
 print("Bot project ready. We'll add Discord code soon!")
 ```
 
-### requirements.txt (initial)
-We’ll add real libraries later. For now you can leave it empty or add a comment:
-```
-# Add packages here, e.g. discord.py or nextcord
-```
+### requirements.txt 
+This can remain empty for now. Later, you will add the names of the Python libraries your bot needs to this file, so they can be installed easily.
 
-### .env (keep private!)
-This file will store your bot token later:
-```
-DISCORD_BOT_TOKEN=YOUR_TOKEN_WILL_GO_HERE
-```
-(Do not commit this file to GitHub.)
 
-## 6. Install Discord Library (Preview)
-We’ll do this for real later, but just so you know:
-```
-pip install discord.py
-```
-This will also create / update a `pip` cache.
+## 6. Run the bot script
+1. On the sidebar there should also be a "Run and Debug" icon (a play button with a bug). With bot.py open in the main editor, click the icon, then click on the Run and Debug button at the top of the sidebar.
+![Run and Debug icon](../../media/run-and-debug.png)
 
-To save the dependency to `requirements.txt`:
-```
-pip freeze > requirements.txt
-```
+1. In the dropdown that appears, select "Python debugger".
+![Select Python debugger](../../media/debugger.png)
 
-## 7. Run Your Starter Script
-```
-python main.py
-```
-You should see the print message.
+1. Then in debug configurations, select "Python File".
+![Select Python File](../../media/select-python.png)
 
-## Next Step
-Now that your environment is ready, you can start writing real bot code and use your token securely.
+1. Clicking "Run and Debug" again should run the script, and you should see the output in the terminal at the bottom!
+![Output in terminal](../../media/terminal.png)
