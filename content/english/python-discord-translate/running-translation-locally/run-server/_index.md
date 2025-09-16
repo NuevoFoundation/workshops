@@ -6,6 +6,11 @@ weight: 1
 
 Nuvi wants quick, private translations—so you’ll host the translation “brain” right on your machine.
 
+{{< alert theme="info" >}}
+<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="85" style="float:right;margin:0 0 8px 12px;" />
+<strong>Nuvi says:</strong> Keeping it local means no internet delay and better privacy for practice projects.
+{{< /alert >}}
+
 ## 1. Add it to requirements.txt
 Open your project’s `requirements.txt` and add (or confirm these lines are present):
 ```
@@ -41,6 +46,11 @@ Start the server in the terminal (keep this window open while you test):
 libretranslate --load-only en,es
 ```
 This will start the server with support for translating English and Spanish—the two languages Nuvi wants to support first.
+
+{{< alert theme="info" >}}
+<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="70" style="float:right;margin:0 0 6px 10px;" />
+<strong>Nuvi tip:</strong> Need more languages later? Restart without `--load-only` or add codes (e.g. `--load-only en,es,fr`).
+{{< /alert >}}
 
 The first time running it may download language data. That can take a few minutes.
 

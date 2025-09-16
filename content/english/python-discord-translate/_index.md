@@ -11,8 +11,8 @@ draft: false
 ## Overview
 Welcome to the course **Python: Building a Discord Translator Bot**!
 
-### Meet Nuvi
-Nuvi is the friendly robot mascot from the Nuevo Foundation. Nuvi just created a new Discord server so all of his friends around the world can hang out, share ideas, and plan creative projects. There’s only one problem: not everyone speaks the same language. Some friends type in English, some in Spanish, some in Portuguese, and others in Korean or Chinese. Conversations get broken up, people feel left out, and Nuvi wants everyone to feel included.
+![Nuvi](media/NF_mascot.jpg)
+ Nuvi just created a new Discord server so all of his friends around the world can hang out, share ideas, and plan creative projects. There’s only one problem: not everyone speaks the same language. Some friends type in English, some in Spanish, some in Portuguese, and others in Korean or Chinese. Conversations get broken up, people feel left out, and Nuvi wants everyone to feel included.
 
 So Nuvi has an idea: build a **translation bot** that lives right inside the Discord server. Someone can take a message and run a command to translate that message right in the discord server! To make that happen, Nuvi (and you!) will learn how to:
 
@@ -24,8 +24,3 @@ So Nuvi has an idea: build a **translation bot** that lives right inside the Dis
 By the end, you’ll have a working bot that helps people who speak different languages chat together. You’re not just writing code—you’re building a bridge between friends.
 
 Ready to help Nuvi? Let’s build it step by step.
-
-<details open>
-<summary>Topics</summary>
-{{% children /%}}
-</details>

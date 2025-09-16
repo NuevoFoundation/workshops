@@ -6,6 +6,7 @@ weight: 2
 
 ## Test a Translation (Quick Script)
 Nuvi needs proof the translator engine actually works before wiring it into the bot. This tiny script is that proof.
+
 Let’s send some text to the server using a short Python file.
 
 Create a new file named `test_translate.py`:
@@ -44,6 +45,11 @@ You should see something like: `{'translatedText': '¡Hola Mundo!'}`
 **JSON:** A simple text format for data. The server sends its answer as JSON so different programs and languages can read it.
 
 **resp.json():** This converts the JSON reply from the server into something Python understands.
+
+{{< alert theme="info" >}}
+<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="65" style="float:right;margin:0 0 6px 10px;" />
+<strong>Nuvi tip:</strong> If you get a connection error, double-check the server terminal is still running and the URL is `http://127.0.0.1:5000`.
+{{< /alert >}}
 
 **Endpoint:** The specific URL (`/translate`) on the server that performs a task—in this case, translation.
 

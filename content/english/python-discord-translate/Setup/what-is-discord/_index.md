@@ -33,11 +33,8 @@ Before you invite your bot, it’s best to have a private server where you can e
 6. (Optional) Upload an icon so it’s easy to spot.
 7. Click `Create`.
 
-You now have a blank server with some default channels (like `#general`). You’ll invite your bot here later so you can try your slash commands without bothering other people.
+You now have a blank server with some default channels (like `#general`). You’ll invite your bot here later so you can test out the bot commands
 
-### Optional Clean-Up / Organization
-- Create a new text channel named `#bot-testing` (right‑click the server name → `Create Channel`).
-- Delete extra channels you don’t need yet to reduce clutter.
 
 ### Keep It Private
 Only invite people you trust while you’re learning. You can always make a “real” server later once your bot is stable.

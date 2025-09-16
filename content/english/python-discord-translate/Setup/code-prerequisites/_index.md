@@ -6,6 +6,11 @@ weight: 2
 
 Nuvi can’t invite a translator bot yet—there’s no code environment set up! Let’s get your computer ready. You’ll install Python, set up a virtual environment (a safe “bubble” for your project’s packages), install VS Code (your code editor), and create the starter files. Once this foundation is ready, you’ll start writing the bot that helps everyone understand each other.
 
+{{< alert theme="info" >}}
+<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="90" style="float:right;margin:0 0 8px 12px;" />
+<strong>Nuvi says:</strong> Pick Python 3.10 so the translator parts install smoothly—future upgrades are easier once things work now!
+{{< /alert >}}
+
 ## 1. Install Python
 Install **Python 3.10** (a 3.10.x version, like 3.10.14) from the official website.
 - Windows & macOS: https://www.python.org/downloads/
@@ -38,6 +43,11 @@ Open the folder in VS Code (File → Open Folder).
 
 ## 4. Create a Virtual Environment
 A virtual environment keeps your project separate from other projects and makes it easier to organize all of the Python files on your computer. The VS Code Python extension can create and select it for you.
+
+{{< alert theme="info" >}}
+<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="70" style="float:right;margin:0 0 6px 10px;" />
+<strong>Nuvi tip:</strong> If the environment creation seems stuck, wait a minute before retrying—Python is just setting up your isolated lab.
+{{< /alert >}}
 
 1. To create the environment, look for the Python symbol on the side bar and click on it: ![Python VSCode extension icon](../../media/sidebar.png)
 1. Click on the "venv" dropdown. It should say something like "No environment found, click to create". Click it.

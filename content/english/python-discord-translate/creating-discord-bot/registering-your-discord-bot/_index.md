@@ -29,6 +29,11 @@ Still on the Bot page:
 
 {{< alert theme="danger" >}}If someone else gets your token, they can control your bot. If it leaks, come back here and click **Reset token**{{< /alert >}}
 
+{{< alert theme="warning" >}}
+<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="80" style="float:right;margin:0 0 8px 12px;" />
+<strong>Nuvi warning:</strong> Never paste your token into chat or screenshots. Treat it like a secret door key—lose it and you must regenerate it.
+{{< /alert >}}
+
 ### 5. Invite Your Bot to a Server
 - Click **OAuth2 → URL Generator**.
 - Under **Scopes** check: `bot`.
@@ -37,5 +42,10 @@ Still on the Bot page:
 
 Your bot is now registered and added to your server! It won’t come online until you run your Python code with the token. Once it’s online, you’ll start turning it into the translator helper Nuvi needs.
 
+{{< alert theme="info" >}}
+<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="75" style="float:right;margin:0 0 8px 12px;" />
+<strong>Nuvi says:</strong> If the invite URL fails, re-check you included both `bot` and `applications.commands` scopes.
+{{< /alert >}}
+
 ### Next Step
-Set up your coding environment and create a simple script to make the bot go online.
+Next we'll create a simple script to make the bot go online.

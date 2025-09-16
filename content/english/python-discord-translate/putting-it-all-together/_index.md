@@ -6,10 +6,6 @@ weight: 4
 
 Nuvi’s assistant bot is online and the local translator engine works. Now it’s time to fuse them: in this final section, we'll combine the local translation library with your Discord bot so messages can cross the language gap in Nuvi’s server.
 
-<details open>
-<summary>Topics</summary>
-{{% children /%}}
-</details>
 
 ---
 
@@ -157,9 +153,13 @@ bot.run(TOKEN)
 | `timeout=` | Stops the request from hanging forever if the server doesn’t answer. |
 
 ## 6. Test the Command
-Quick note: When using a slash command you *don’t* have to type `phrase:` yourself. Discord pops up boxes (fields). Just:
 1. Type `/translate`
 2. In the first box (phrase) type your text. Leave the second box empty to translate to Spanish, or set it to `english` to reverse.
+
+{{< alert theme="info" >}}
+<img src="../media/NF_mascot.jpg" alt="Nuvi mascot" width="70" style="float:right;margin:0 0 6px 10px;" />
+<strong>Nuvi tip:</strong> When using a slash command you *don’t* have to type `phrase:` yourself. Discord pops up boxes (fields) for you.
+{{< /alert >}}
 
 Now try these (the lines below show how Discord might display them after you submit— you only typed in the fields):
 
@@ -172,7 +172,6 @@ Now try these (the lines below show how Discord might display them after you sub
 If you *do* type the parameter label manually (e.g. `phrase:Hello world`) it still works, but it’s not required.
 
 
-
 ## 7. Common Issues
 | Problem | Fix |
 |---------|-----|
@@ -180,7 +179,10 @@ If you *do* type the parameter label manually (e.g. `phrase:Hello world`) it sti
 | Always says translation failed | Check server running & URL correct (`127.0.0.1:5000`). |
 | Invalid translate-to value | Only `english` or `spanish` are accepted (case-insensitive). You’ll get a helpful error if not. |
 | Direction seems backwards | Remember: default is English → Spanish. Add `translate-to:english` to reverse. |
+| Getting repeated failures | Try a shorter phrase first—long inputs highlight latency or timeout issues. |
 | Empty translation | Ensure you used `q`, `source`, `target`, `format` keys; server might not have that language model. |
 
-## Wrapping up
-You now have a working translation pipeline: Discord → Your Bot → Local API → Discord. Nuvi’s friends can finally read each other’s messages—mission accomplished! From here you can expand to more languages, auto‑detect input, or even log anonymized usage stats to see how global the conversations become. Great job helping Nuvi build a more inclusive server!
+{{< alert theme="success" >}}
+<img src="../media/NF_mascot.jpg" alt="Nuvi mascot" width="80" style="float:right;margin:0 0 8px 12px;" />
+You now have a working translation pipeline: Discord → Your Bot → Local API → Discord. Nuvi’s friends can finally read each other’s messages—mission accomplished! From here you can expand to more languages, or even try auto-detecting the source language!
+{{< /alert >}}

@@ -5,25 +5,30 @@ weight: 2
 ---
 
 Nuvi now has a registered bot identity. Next: make it actually respond. Now that your project folder, virtual environment, and starter file are set up, you’re ready to build a simple Discord bot. In this part, you will:
+
 1. Add `discord.py` to `requirements.txt` and install it using the VS Code Python extension (UI only — no terminal typing required)
-2. Add your bot token safely using a `.env` file
-3. Write a basic bot that responds to a slash command `/hello`
-4. Run and test the bot
+1. Write a basic bot that responds to a slash command `/hello`
+1. Run and test the bot
+
+{{< alert theme="info" >}}
+<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="85" style="float:right;margin:0 0 8px 12px;" />
+<strong>Nuvi says:</strong> Your first goal is just to see the bot come online—translation comes later. Small wins keep momentum!
+{{< /alert >}}
 
 ---
 
 ## 1. Add and Install the discord.py Library (Using requirements.txt + VS Code UI)
 We’ll declare the dependency first, then let VS Code install it into your virtual environment.
 
-### 1.A Add it to requirements.txt
+### 1.a Add it to requirements.txt
 1. Open `requirements.txt` in your project.
-2. Add this line (the file can just contain this for now):
+1. Add this line (the file can just contain this for now):
 ```
 discord.py
 ```
-3. Save the file
+1. Save the file
 
-### 1.B Install via the Environment Manager UI
+### 1.b Install via the Environment Manager UI
 1. Open the Python extension view (Python icon in the Activity Bar) and confirm the correct environment (e.g. `.venv`) is selected.
 1. Select the "Packages" icon (it looks like a box) which will show a dropdown. Now select "Install project dependencies"
 ![Install project dependencies](../../media/dependencies.png)
@@ -64,7 +69,7 @@ if not TOKEN:
 bot.run(TOKEN)
 ```
 
-### What this does (and how it moves Nuvi forward):
+### What this does:
 - Imports a *library* (`discord.py`). A library is pre-written code that gives you powerful features (like talking to Discord) without you writing everything from scratch.
 - Creates and starts the bot connection to Discord’s servers.
 - Defines (registers) a slash command `/hello` so Discord knows it exists in your server—your first proof the bot “speaks.”
@@ -90,7 +95,8 @@ bot.run(TOKEN)
 
 </details>
 
-{{< alert theme="danger" >}}**Beware !** putting your BOT_TOKEN directly in the code is not advised in normal circumstances, this is just for workshop simplification. Normally should use environment variables or a config file.{{< /alert >}}
+{{< alert theme="danger" >}}<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="70" style="float:right;margin:0 0 6px 10px;" />
+<strong>Beware!</strong> Putting your BOT_TOKEN directly in the code is not advised in normal circumstances, this is just for workshop simplification. Normally should use environment variables or a secure storage location.{{< /alert >}}
 
 ---
 
@@ -110,7 +116,7 @@ Synced X application command(s).
 ---
 
 ## 4. Test the /hello Command in Discord
-1. Invite your bot to a server where you have permissions (you can generate an OAuth2 URL from the Developer Portal under "OAuth2 → URL Generator" with the `bot` and `applications.commands` scopes, as well as the `Send Messages` text permission).
+1. Invite your bot to a server where you have permissions (you can generate an invite link from the Developer Portal under "OAuth2 → URL Generator" with the `bot` and `applications.commands` scopes, as well as the `Send Messages` text permission).
 ![Invite bot with correct scopes](../../media/urlgen.png)
 ![Bot invite link](../../media/bot-perms.png)
 ![Bot in member list](../../media/url.png).
@@ -119,10 +125,13 @@ Synced X application command(s).
 1. Make sure the bot is running, you should see it online in the member list.
 ![Bot online in member list](../../media/bot-online.png)
 1. In any text channel where the bot is present, type `/hello`.
-1. If slash commands don’t autocomplete yet, wait up to a minute (first sync can be slow) or try re-inviting the bot.
 1. You should see: `Hello <your Discord username here>!`
 ![Bot response in Discord](../../media/bot-hello.png)
 
+{{< alert theme="info" >}}
+<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="70" style="float:right;margin:0 0 6px 10px;" />
+<strong>Nuvi tip:</strong> If `/hello` doesn’t autocomplete right away, wait up to 60 seconds or restart the bot—Discord is syncing commands.
+{{< /alert >}}
 
 ## 5. Troubleshooting
 | Problem | Possible Fix |
