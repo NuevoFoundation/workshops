@@ -1,5 +1,5 @@
 ---
-title: "Activity 5 - Drawing a honeycomb"
+title: "Задание 5 - Рисуем  соты"
 date: 2019-07-25T13:24:17-07:00
 weight: 7
 draft: false
