@@ -82,11 +82,32 @@ bot.run(TOKEN)
 ```
 
 ### What this does:
-- Loads your secret bot's password from `.env`
-- Registers a slash command `/hello`
-- Replies with a personal greeting!
+- Imports a *library* (`discord.py`). A library is pre-written code that gives you powerful features (like talking to Discord) without you writing everything from scratch.
+- Creates and starts the bot connection to Discord’s servers.
+- Defines (registers) a slash command `/hello` so Discord knows it exists in your server.
+- Waits for a user to run `/hello` and then replies with a personal greeting.
+- Includes a safety check so the bot won’t run if the token (bot password) is missing.
 
-{{< alert theme="danger" >}}**Beware !** putting your BOT_TOKEN directly in the code is not advised{{< /alert >}}
+<details>
+<summary><strong>-> Advanced details (click to expand if you'd like to learn about more of the advanced concepts used here. Totally optional!)</strong></summary>
+
+**async / await**: These keywords let Python run other tasks while waiting (for example, for Discord to reply) so your bot doesn’t freeze.
+
+**Event (@bot.event)**: Decorators like `@bot.event` tell the library “run this function when a specific event happens” (here: when the bot is ready).
+
+**Slash commands (`@bot.tree.command`)**: These create modern commands that appear when users type `/` in Discord. They’re registered with Discord’s servers and may take a short time to sync.
+
+**Interaction**: Represents a user using a slash command. `interaction.user` gives you the person, and `interaction.response.send_message(...)` sends a reply.
+
+**Bot vs Client**: `commands.Bot` adds helpful command features (like command trees) on top of the lower-level Discord client.
+
+**Intents**: Permissions telling Discord what data you want (messages, members, etc.). Using fewer keeps your bot simpler and safer.
+
+**Exceptions (try / except)**: The `try:` block runs code that might fail; `except Exception as e:` catches errors so your bot can log them instead of crashing.
+
+</details>
+
+{{< alert theme="danger" >}}**Beware !** putting your BOT_TOKEN directly in the code is not advised in normal circumstances, this is just for workshop simplification. Normally should use environment variables or a config file.{{< /alert >}}
 
 ---
 
@@ -102,21 +123,28 @@ Synced X application command(s).
 
 ```
 ![Output in terminal](../../media/running.png)
-If you see errors about the token, make sure the `.env` file is saved and correctly spelled.
 
 ---
 
 ## 5. Test the /hello Command in Discord
-1. Invite your bot to a server where you have permissions (you can generate an OAuth2 URL from the Developer Portal under "OAuth2 → URL Generator" with the `bot` and `applications.commands` scopes).
-2. In any text channel where the bot is present, type `/hello`.
-3. If slash commands don’t autocomplete yet, wait up to a minute (first sync can be slow) or try re-inviting the bot.
-4. You should see: `Hello YourName!`
+1. Invite your bot to a server where you have permissions (you can generate an OAuth2 URL from the Developer Portal under "OAuth2 → URL Generator" with the `bot` and `applications.commands` scopes, as well as the `Send Messages` text permission).
+![Invite bot with correct scopes](../../media/urlgen.png)
+![Bot invite link](../../media/bot-perms.png)
+![Bot in member list](../../media/url.png).
+1. Copy the url and paste it into your browser. That should open a Discord page asking you to select a server to invite the bot to. Select your test server.
+![Invite bot to server](../../media/allow.png)
+1. Make sure the bot is running, you should see it online in the member list.
+![Bot online in member list](../../media/bot-online.png)
+1. In any text channel where the bot is present, type `/hello`.
+1. If slash commands don’t autocomplete yet, wait up to a minute (first sync can be slow) or try re-inviting the bot.
+1. You should see: `Hello <your Discord username here>!`
+![Bot response in Discord](../../media/bot-hello.png)
 
 
 ## 6. Troubleshooting
 | Problem | Possible Fix |
 |---------|--------------|
-| `DISCORD_BOT_TOKEN is missing` error | Ensure `.env` is in the same folder as `bot.py` and the variable name matches exactly. |
+| `DISCORD_BOT_TOKEN is missing` error | Ensure the `TOKEN=...` line is present |
 | Slash command not showing | Wait 1–2 minutes, ensure the bot is in the server, and that `applications.commands` scope was included in the invite. |
 | `403` or permissions error | Recreate invite URL with needed scopes. |
 | Wrong Python environment / import errors | Verify the `.venv` is selected in the Python extension view; reinstall `discord.py` there. |
