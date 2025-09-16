@@ -9,12 +9,13 @@ weight: 2
 Before you can run code for your bot, you must create a "bot identity" in Discord’s Developer Portal. This gives you a **token** (think of this like a password) your bot will use to log in.
 
 ### 1. Open the Developer Portal
-Go to the Discord Developer and log in with your Discord account.
+Go to the [Discord Developer portal](https://discord.com/login?redirect_to=%2Fdevelopers%2Fapplications%3Fnew_application%3Dtrue) and log in with your Discord account (or create one if you don’t have one)
 
 ### 2. Create a New Application
 Click **New Application**.
-- Give it a short, clear name (example: `TranslatorBuddy`).
-- Click **Create**.
+- Give it a short, clear name (example: `Nuevo Translator Bot`).
+- Click the terms of service checkbox and then **Create**.
+![Create new application](../../media/discord-bot-name.png)
 
 ### 3. Add a Bot User
 Inside your application page:

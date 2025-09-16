@@ -1,7 +1,7 @@
 ---
 title: "Code Prerequisites"
 draft: false
-weight: 3
+weight: 2
 ---
 
 ## Overview
