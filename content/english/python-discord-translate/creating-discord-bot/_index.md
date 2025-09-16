@@ -4,7 +4,7 @@ draft: false
 weight: 2
 ---
 
-In this section, you'll create a minimal Discord bot using Python. You'll register a Discord application, generate a bot token, invite the bot to a server you control, and implement a first command to make sure everything works!
+Nuvi’s server is live and people are joining—but the translation helper doesn’t exist yet. In this section, you'll create the very first building block: a minimal Discord bot using Python. You’ll register a Discord application, generate a bot token, invite the bot to a server you control, and implement a first command to make sure everything works. Think of this as powering on Nuvi’s assistant core before adding language features.
 
 We'll focus on:
 - Creating a Discord application & bot user

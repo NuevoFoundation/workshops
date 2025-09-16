@@ -4,7 +4,7 @@ draft: false
 weight: 2
 ---
 
-Now that your project folder, virtual environment, and starter file are set up, you’re ready to build a simple Discord bot. In this part, you will:
+Nuvi now has a registered bot identity. Next: make it actually respond. Now that your project folder, virtual environment, and starter file are set up, you’re ready to build a simple Discord bot. In this part, you will:
 1. Add `discord.py` to `requirements.txt` and install it using the VS Code Python extension (UI only — no terminal typing required)
 2. Add your bot token safely using a `.env` file
 3. Write a basic bot that responds to a slash command `/hello`
@@ -64,11 +64,11 @@ if not TOKEN:
 bot.run(TOKEN)
 ```
 
-### What this does:
+### What this does (and how it moves Nuvi forward):
 - Imports a *library* (`discord.py`). A library is pre-written code that gives you powerful features (like talking to Discord) without you writing everything from scratch.
 - Creates and starts the bot connection to Discord’s servers.
-- Defines (registers) a slash command `/hello` so Discord knows it exists in your server.
-- Waits for a user to run `/hello` and then replies with a personal greeting.
+- Defines (registers) a slash command `/hello` so Discord knows it exists in your server—your first proof the bot “speaks.”
+- Waits for a user to run `/hello` and then replies with a personal greeting. Soon this pattern will power real translations.
 - Includes a safety check so the bot won’t run if the token (bot password) is missing.
 
 <details>

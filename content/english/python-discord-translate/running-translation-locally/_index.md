@@ -4,7 +4,7 @@ draft: false
 weight: 3
 ---
 
-In this section, you'll learn how to install a program that can run translation locally on your computer and how to use it!
+Nuvi’s bot can respond, but it can’t help friends understand each other yet. In this section, you’ll install a program that can run translation locally on your computer—no outside accounts needed—so the bot can become the multilingual bridge Nuvi imagined.
 
 Let's get started!
 
@@ -19,7 +19,7 @@ Why it’s helpful for this workshop:
 - Offline use: after the first download of language data, it can work without internet.
 - Open source: you can look at how it works or even contribute.
 
-Think of it as a tiny local website with an **API** that your bot will call for translation.
+Think of it as a tiny local website with an **API** that your bot will call for translation—Nuvi’s own in‑house translator.
 
 ### What is an API?
 An API is like a menu for a program. It lists the “endpoints” (URLs) you can call and what you get back. When you visit `http://127.0.0.1:5000/translate` with the right data, LibreTranslate’s API answers with translated text. Your bot will **send a request** (your text + language choices) and **receive a response** (the translated text) — just like ordering food and getting a meal.

@@ -4,7 +4,7 @@ draft: false
 weight: 4
 ---
 
-In this final section, we'll combine the local translation library with your Discord bot to add the translation to your Discord server!
+Nuvi’s assistant bot is online and the local translator engine works. Now it’s time to fuse them: in this final section, we'll combine the local translation library with your Discord bot so messages can cross the language gap in Nuvi’s server.
 
 <details open>
 <summary>Topics</summary>
@@ -183,4 +183,4 @@ If you *do* type the parameter label manually (e.g. `phrase:Hello world`) it sti
 | Empty translation | Ensure you used `q`, `source`, `target`, `format` keys; server might not have that language model. |
 
 ## Wrapping up
-Congratulations! You've helped Nuvi create a translator bot in Discord so all of his friends who speak different languages chat and hang out online!
+You now have a working translation pipeline: Discord → Your Bot → Local API → Discord. Nuvi’s friends can finally read each other’s messages—mission accomplished! From here you can expand to more languages, auto‑detect input, or even log anonymized usage stats to see how global the conversations become. Great job helping Nuvi build a more inclusive server!

@@ -5,6 +5,7 @@ weight: 2
 ---
 
 ## Test a Translation (Quick Script)
+Nuvi needs proof the translator engine actually works before wiring it into the bot. This tiny script is that proof.
 Let’s send some text to the server using a short Python file.
 
 Create a new file named `test_translate.py`:
@@ -46,4 +47,4 @@ You should see something like: `{'translatedText': '¡Hola Mundo!'}`
 
 **Endpoint:** The specific URL (`/translate`) on the server that performs a task—in this case, translation.
 
-Now you know each piece! Next you’ll connect this idea to your Discord bot.
+Now you know each piece! Next you’ll connect this idea to your Discord bot so Nuvi’s friends can finally understand one another.

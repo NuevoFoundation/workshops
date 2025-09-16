@@ -4,7 +4,7 @@ draft: false
 weight: 1
 ---
 
-[Discord](https://en.wikipedia.org/wiki/Discord) is an online platform where people build communities (called **servers**) to chat using text, voice, or video. You can think of a server like a group for a club, a game, a class, or friends. Inside each server are **channels**. Channels help organize conversations. For example, one channel might be for homework help and another for talking about videogames.
+Nuvi’s new community lives on Discord—an online platform where people build communities (called **servers**) to chat using text, voice, or video. You can think of a server like a group for a club, a game, a class, or friends. Inside each server are **channels**. Channels help organize conversations. For example, one channel might be for homework help and another for talking about videogames.
 
 ### Key Ideas
 - **Servers:** Spaces people create for groups or topics.
@@ -12,7 +12,7 @@ weight: 1
 - **Users:** People with accounts who can join servers (sometimes by invite).
 - **Bots:** Computer programs (like the one you will build!) that can help with tasks such as moderating chat, translating messages, or playing music.
 
-Discord was first popular with gamers, but now it’s used by study groups, hobby communities, and classrooms too.
+Discord was first popular with gamers, but now it’s used by study groups, hobby communities, and classrooms too. That makes it a perfect place for Nuvi’s international friends—if only everyone could read each other’s messages.
 
 
 ### Safety Note

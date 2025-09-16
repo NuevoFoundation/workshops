@@ -4,7 +4,7 @@ draft: false
 weight: 2
 ---
 
-Before you can run code for your bot, you must create a "bot identity" in Discord’s Developer Portal. This gives you a **token** (think of this like a password) your bot will use to log in.
+Nuvi can’t deploy a translator without an official “identity.” Before you write real behavior, you must create a bot user in Discord’s Developer Portal. This gives you a **token** (a secret password) your code will use to log in.
 
 ### 1. Open the Developer Portal
 Go to the [Discord Developer portal](https://discord.com/login?redirect_to=%2Fdevelopers%2Fapplications%3Fnew_application%3Dtrue) and log in with your Discord account (or create one if you don’t have one)
@@ -35,7 +35,7 @@ Still on the Bot page:
 - Under **Bot Permissions**, select only what you need now (start simple: `Read Messages/View Channels`, `Send Messages`).
 - Copy the generated URL, paste it into your browser, choose a server you own or manage, and authorize.
 
-Your bot is now registered and added to your server! It won’t come online until you run your Python code with the token.
+Your bot is now registered and added to your server! It won’t come online until you run your Python code with the token. Once it’s online, you’ll start turning it into the translator helper Nuvi needs.
 
 ### Next Step
 Set up your coding environment and create a simple script to make the bot go online.

@@ -4,6 +4,8 @@ draft: false
 weight: 1
 ---
 
+Nuvi wants quick, private translations—so you’ll host the translation “brain” right on your machine.
+
 ## 1. Add it to requirements.txt
 Open your project’s `requirements.txt` and add (or confirm these lines are present):
 ```
@@ -38,7 +40,7 @@ Start the server in the terminal (keep this window open while you test):
 ```bash
 libretranslate --load-only en,es
 ```
-This will start the server with support for translating English and Spanish.
+This will start the server with support for translating English and Spanish—the two languages Nuvi wants to support first.
 
 The first time running it may download language data. That can take a few minutes.
 

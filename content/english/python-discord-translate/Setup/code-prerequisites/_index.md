@@ -4,7 +4,7 @@ draft: false
 weight: 2
 ---
 
-Let’s get your computer ready to run a Discord bot. You’ll install Python, set up a virtual environment (a safe “bubble” for your project’s packages), install VS Code (your code editor), and create the starter files.
+Nuvi can’t invite a translator bot yet—there’s no code environment set up! Let’s get your computer ready. You’ll install Python, set up a virtual environment (a safe “bubble” for your project’s packages), install VS Code (your code editor), and create the starter files. Once this foundation is ready, you’ll start writing the bot that helps everyone understand each other.
 
 ## 1. Install Python
 Install **Python 3.10** (a 3.10.x version, like 3.10.14) from the official website.
