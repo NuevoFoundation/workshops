@@ -27,12 +27,9 @@ Inside your application page:
 Still on the Bot page:
 - Click **Reset Token** or **Copy Token**.
 - This long string is like a password for your bot.
-- Never post it publicly or commit it to GitHub.
-- You will store it in an environment variable or a `.env` file later.
+- Never post it publicly
 
-{{% notice warning %}}
-If someone else gets your token, they can control your bot. If it leaks, come back here and click **Reset Token**.
-{{% /notice %}}
+
 
 ### 5. Enable Privileged Intents (If Needed)
 Scroll down to **Privileged Gateway Intents** and toggle on:
