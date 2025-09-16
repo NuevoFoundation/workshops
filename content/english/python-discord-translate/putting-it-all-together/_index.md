@@ -4,8 +4,6 @@ draft: false
 weight: 4
 ---
 
-## Overview
-
 In this final section, we'll combine the local translation library with your Discord bot to add the translation to your Discord server!
 
 <details open>
@@ -184,12 +182,5 @@ If you *do* type the parameter label manually (e.g. `phrase:Hello world`) it sti
 | Direction seems backwards | Remember: default is English → Spanish. Add `translate-to:english` to reverse. |
 | Empty translation | Ensure you used `q`, `source`, `target`, `format` keys; server might not have that language model. |
 
-## 8. Extension Ideas
-- Support more languages (add them to server with `--load-only en,es,fr,de` and extend the mapping list).
-- Auto-detect source language (call LibreTranslate `/detect` endpoint first, then translate).
-- Cache recent translations to reduce duplicate requests.
-- Add ephemeral error details only visible to the user who ran the command.
-- Rate limit or cooldown to prevent spam.
-- Add a `/languages` command to list what your server loaded.
-
-You now have a working translation pipeline: Discord → Your Bot → Local API → Discord. Great job!
+## Wrapping up
+Congratulations! You've helped Nuvi create a translator bot in Discord so all of his friends who speak different languages chat and hang out online!

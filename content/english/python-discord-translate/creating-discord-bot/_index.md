@@ -4,8 +4,6 @@ draft: false
 weight: 2
 ---
 
-## Overview
-
 In this section, you'll create a minimal Discord bot using Python. You'll register a Discord application, generate a bot token, invite the bot to a server you control, and implement a first command to make sure everything works!
 
 We'll focus on:

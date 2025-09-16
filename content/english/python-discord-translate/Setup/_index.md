@@ -4,8 +4,6 @@ draft: false
 weight: 1
 ---
 
-## Overview
-
 In this section, you'll prepare your development environment for building a Discord bot with translation features. You'll install required tools, create or select a Python runtime, and organize a clean project folder to keep secrets secure and code modular.
 
 We'll focus on:

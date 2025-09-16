@@ -4,8 +4,6 @@ draft: false
 weight: 1
 ---
 
-## Overview
-
 [Discord](https://en.wikipedia.org/wiki/Discord) is an online platform where people build communities (called **servers**) to chat using text, voice, or video. You can think of a server like a group for a club, a game, a class, or friends. Inside each server are **channels**. Channels help organize conversations. For example, one channel might be for homework help and another for talking about videogames.
 
 ### Key Ideas

@@ -4,8 +4,6 @@ draft: false
 weight: 2
 ---
 
-## Overview
-
 Let’s get your computer ready to run a Discord bot. You’ll install Python, set up a virtual environment (a safe “bubble” for your project’s packages), install VS Code (your code editor), and create the starter files.
 
 ## 1. Install Python

@@ -4,8 +4,6 @@ draft: false
 weight: 2
 ---
 
-## Overview
-
 Before you can run code for your bot, you must create a "bot identity" in Discord’s Developer Portal. This gives you a **token** (think of this like a password) your bot will use to log in.
 
 ### 1. Open the Developer Portal
@@ -29,14 +27,9 @@ Still on the Bot page:
 - This long string is like a password for your bot.
 - Never post it publicly
 
+{{< alert theme="danger" >}}If someone else gets your token, they can control your bot. If it leaks, come back here and click **Reset token**{{< /alert >}}
 
-
-### 5. Enable Privileged Intents (If Needed)
-Scroll down to **Privileged Gateway Intents** and toggle on:
-- `MESSAGE CONTENT INTENT` (needed if you want to read message text in most libraries)
-You can leave others off for now.
-
-### 6. Invite Your Bot to a Server
+### 5. Invite Your Bot to a Server
 - Click **OAuth2 → URL Generator**.
 - Under **Scopes** check: `bot`.
 - Under **Bot Permissions**, select only what you need now (start simple: `Read Messages/View Channels`, `Send Messages`).

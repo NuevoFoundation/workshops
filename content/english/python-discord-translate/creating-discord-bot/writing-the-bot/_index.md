@@ -4,7 +4,6 @@ draft: false
 weight: 2
 ---
 
-## Overview
 Now that your project folder, virtual environment, and starter file are set up, you’re ready to build a simple Discord bot. In this part, you will:
 1. Add `discord.py` to `requirements.txt` and install it using the VS Code Python extension (UI only — no terminal typing required)
 2. Add your bot token safely using a `.env` file
@@ -34,23 +33,7 @@ discord.py
 ![discord.py installed](../../media/discord-installed.png)
 
 
-
-
-## 2. Create / Update the .env File (Add Token)
-Your bot needs a secret Token from the Discord Developer Portal.
-
-1. Go to https://discord.com/developers/applications
-2. Open your application, go to the “Bot” tab, and copy the **Bot Token** (you may need to click *Reset Token* if none is visible). Treat it like a password.
-3. In your project folder (where `bot.py` lives), create a file named `.env` if you don’t already have one.
-4. Add this line (replace YOUR_TOKEN_HERE with the token you copied):
-```
-DISCORD_BOT_TOKEN=YOUR_TOKEN_HERE
-```
-
-The `.env` file should NOT be shared or uploaded publicly.
-
-
-## 3. Write the Bot Code
+## 2. Write the Bot Code
 Open `bot.py` and replace any placeholder code with the following:
 ```python
 import discord
@@ -111,12 +94,12 @@ bot.run(TOKEN)
 
 ---
 
-## 4. Run the Bot
+## 3. Run the Bot
 1. Open `bot.py` in the editor.
-2. Open the Run & Debug view (play icon with a bug).
-3. If asked to select a configuration, choose `Python File`.
-4. Click the green Run/Debug button.
-5. Watch the Debug Console / Terminal for:
+1. Open the Run & Debug view (play icon with a bug).
+1. If asked to select a configuration, choose `Python File`.
+1. Click the green Run/Debug button.
+1. Watch the Debug Console / Terminal for:
 ```
 Logged in as <your bot name>
 Synced X application command(s).
@@ -126,7 +109,7 @@ Synced X application command(s).
 
 ---
 
-## 5. Test the /hello Command in Discord
+## 4. Test the /hello Command in Discord
 1. Invite your bot to a server where you have permissions (you can generate an OAuth2 URL from the Developer Portal under "OAuth2 → URL Generator" with the `bot` and `applications.commands` scopes, as well as the `Send Messages` text permission).
 ![Invite bot with correct scopes](../../media/urlgen.png)
 ![Bot invite link](../../media/bot-perms.png)
@@ -141,7 +124,7 @@ Synced X application command(s).
 ![Bot response in Discord](../../media/bot-hello.png)
 
 
-## 6. Troubleshooting
+## 5. Troubleshooting
 | Problem | Possible Fix |
 |---------|--------------|
 | `DISCORD_BOT_TOKEN is missing` error | Ensure the `TOKEN=...` line is present |
