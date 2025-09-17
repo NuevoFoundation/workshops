@@ -32,7 +32,7 @@ async def register_language(interaction: discord.Interaction, language: app_comm
     user_languages[interaction.user.id] = language.value
     lang_name = "English" if language.value == "en" else "Spanish"
     await interaction.response.send_message(
-        f"✅ Got it! You speak {lang_name}, so I'll translate messages into {lang_name} for you!",
+        f"Got it! You speak {lang_name}, so I'll translate messages into {lang_name} for you!",
         ephemeral=True
     )
 ```
@@ -72,7 +72,7 @@ async def stop_translation(interaction: discord.Interaction):
     uid = interaction.user.id
     if uid in user_languages:
         del user_languages[uid]
-        await interaction.response.send_message("✅ You won't get translations anymore.", ephemeral=True)
+        await interaction.response.send_message("You won't get translations anymore.", ephemeral=True)
     else:
         await interaction.response.send_message("You weren't getting translations anyway!", ephemeral=True)
 ```

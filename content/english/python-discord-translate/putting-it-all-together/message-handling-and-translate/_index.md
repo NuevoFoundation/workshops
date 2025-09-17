@@ -74,7 +74,7 @@ async def on_message(message):
                 original_lang_name = "English" if detected_lang == "en" else "Spanish"
                 target_lang_name = "English" if preferred_lang == "en" else "Spanish"
                 dm_text = (
-                    f"**Translation** ({original_lang_name} → {target_lang_name})\n"
+                    f"**Translation** ({original_lang_name} -> {target_lang_name})\n"
                     f"**Original:** {message.content}\n"
                     f"**Translation:** {translation}\n"
                     f"*From {message.author.display_name} in #{message.channel.name}*\n\n"
@@ -139,7 +139,7 @@ async def translate_command(interaction: discord.Interaction, phrase: str, trans
 
 ### Cool Features
 
-- **Works both ways**: English → Spanish or Spanish → English
+- **Works both ways**: English -> Spanish or Spanish -> English
 - **Smart default**: If you don't say, it assumes Spanish
 - **Shows "thinking"**: So you know it's working
 - **Helpful errors**: Tells you what went wrong
@@ -149,7 +149,7 @@ async def translate_command(interaction: discord.Interaction, phrase: str, trans
 When someone writes "¡Buenos días amigos!", English speakers get this DM:
 
 ```
-**Translation** (Spanish → English)
+**Translation** (Spanish -> English)
 **Original:** ¡Buenos días amigos!
 **Translation:** Good morning friends!
 *From UserName in #general*
@@ -158,8 +158,8 @@ When someone writes "¡Buenos días amigos!", English speakers get this DM:
 ## Testing Everything
 
 ### Test Auto-Translation
-1. Person A: `/register_language` → picks Spanish
-2. Person B: `/register_language` → picks English
+1. Person A: `/register_language` -> picks Spanish
+2. Person B: `/register_language` -> picks English
 3. Person A types: "Hello everyone!"
    - Person B gets a Spanish translation in DMs
 4. Person B types: "¡Gracias!"
@@ -168,13 +168,13 @@ When someone writes "¡Buenos días amigos!", English speakers get this DM:
 ### Test Manual Translation
 ```
 /translate phrase:"Hello world"
-→ Spanish: ¡Hola Mundo!
+-> Spanish: ¡Hola Mundo!
 
 /translate phrase:"Buenos dias" translate_to:english
-→ English: Good morning
+-> English: Good morning
 
 /translate phrase:"How are you?"
-→ Spanish: ¿Cómo estás?
+-> Spanish: ¿Cómo estás?
 ```
 
 ## Speed Tips

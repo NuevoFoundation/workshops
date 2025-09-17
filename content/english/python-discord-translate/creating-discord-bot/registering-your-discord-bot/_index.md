@@ -40,7 +40,7 @@ While still on the **Bot** page:
 <strong>Super Important:</strong> Without Message Content Intent enabled, your bot won't be able to read messages and the auto-translation feature won't work!
 {{< /alert >}}
 
-{{< alert theme="Danger" >}}
+{{< alert theme="danger" >}}
 <img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="80" style="float:right;margin:0 0 8px 12px;" />
 <strong>Nuvi warning:</strong> Never paste your token into chat or screenshots. Treat it like a secret door key—lose it and you must regenerate it.
 {{< /alert >}}

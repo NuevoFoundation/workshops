@@ -81,7 +81,7 @@ async def register_language(interaction: discord.Interaction, language: app_comm
     user_languages[interaction.user.id] = language.value
     lang_name = "English" if language.value == "en" else "Spanish"
     await interaction.response.send_message(
-        f"✅ Got it! You speak {lang_name}, so I'll translate messages into {lang_name} for you!",
+        f"Got it! You speak {lang_name}, so I'll translate messages into {lang_name} for you!",
         ephemeral=True
     )
 
@@ -100,7 +100,7 @@ async def stop_translation(interaction: discord.Interaction):
     uid = interaction.user.id
     if uid in user_languages:
         del user_languages[uid]
-        await interaction.response.send_message("✅ You won't get translations anymore.", ephemeral=True)
+        await interaction.response.send_message("You won't get translations anymore.", ephemeral=True)
     else:
         await interaction.response.send_message("You weren't getting translations anyway!", ephemeral=True)
 
@@ -166,7 +166,7 @@ async def on_message(message):
                 original_lang_name = "English" if detected_lang == "en" else "Spanish"
                 target_lang_name = "English" if preferred_lang == "en" else "Spanish"
                 dm_text = (
-                    f"**Translation** ({original_lang_name} → {target_lang_name})\n"
+                    f"**Translation** ({original_lang_name} -> {target_lang_name})\n"
                     f"**Original:** {message.content}\n"
                     f"**Translation:** {translation}\n"
                     f"*From {message.author.display_name} in #{message.channel.name}*\n\n"
@@ -202,10 +202,10 @@ bot.run(TOKEN)
 ## Before You Run This
 
 Make sure you have:
-1. ✅ Your bot token from Discord (replace `<your token here>`)
-2. ✅ LibreTranslate running (`libretranslate --load-only en,es`)
-3. ✅ Message Content Intent enabled in Discord Developer Portal
-4. ✅ `discord.py` and `requests` installed
+1. Your bot token from Discord (replace `<your token here>`)
+2. LibreTranslate running (`libretranslate --load-only en,es`)
+3. Message Content Intent enabled in Discord Developer Portal
+4. `discord.py` and `requests` installed
 
 ## Commands Your Bot Will Have
 

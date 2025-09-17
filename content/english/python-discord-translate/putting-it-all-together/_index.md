@@ -57,5 +57,5 @@ After building everything:
 
 {{< alert theme="success" >}}
 <img src="../media/NF_mascot.jpg" alt="Nuvi mascot" width="80" style="float:right;margin:0 0 8px 12px;" />
-Let's get started! Click on [Detect Language Function](detect-language-function/) to begin building your translation bot!
+Let's get started! Click on Detect Language Function to begin building your translation bot!
 {{< /alert >}}

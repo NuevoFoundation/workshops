@@ -8,12 +8,5 @@ Nuvi just launched a new global Discord hub where friends from different countri
 
 We'll focus on:
 - Prerequisites (Python version, pip, virtual environment)
-- Installing core dependencies (discord libraries, dotenv, translation SDKs later)
-- Environment variables and protecting secrets (bot token!)
+- Installing core dependencies (libraries)
 - Project folder structure foundations
-
-Let's get started!
-<details open>
-<summary>Topics</summary>
-{{% children /%}}
-</details>
