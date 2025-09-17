@@ -72,7 +72,7 @@ async def hello_command(interaction: discord.Interaction):
     await interaction.response.send_message(f"Hello {interaction.user.display_name}!")
 
 if not TOKEN:
-    raise RuntimeError("DISCORD_BOT_TOKEN is missing. Did you put it in the .env file?")
+    raise RuntimeError("Bot token missing. Add it to the TOKEN variable near the top of the file.")
 
 bot.run(TOKEN)
 ```
