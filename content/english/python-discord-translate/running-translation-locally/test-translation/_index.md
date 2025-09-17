@@ -13,15 +13,22 @@ Create a new file named `test_translate.py`:
 ```python
 import requests
 
-payload = {
+# Test 1: Language Detection
+print("Testing language detection...")
+detect_payload = {"q": "Hello world!"}
+detect_resp = requests.post("http://127.0.0.1:5000/detect", json=detect_payload)
+print("Detection result:", detect_resp.json())
+
+# Test 2: Translation
+print("\nTesting translation...")
+translate_payload = {
     "q": "Hello world!",
     "source": "en",
     "target": "es",
     "format": "text"
 }
-
-resp = requests.post("http://127.0.0.1:5000/translate", json=payload)
-print(resp.json())
+translate_resp = requests.post("http://127.0.0.1:5000/translate", json=translate_payload)
+print("Translation result:", translate_resp.json())
 ```
 
 Run it (make sure the LibreTranslate server is still running):

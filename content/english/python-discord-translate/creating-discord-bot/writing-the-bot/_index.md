@@ -46,25 +46,30 @@ from discord.ext import commands
 
 TOKEN = "<your token here>"
 
-bot = commands.Bot(command_prefix="!", intents=discord.Intents.default())
+# This is where we remember which language each user wants
+# It's like a notebook: user_languages[user_id] = "en" or "es"
+user_languages = {}
+
+# Tell Discord our bot needs to read messages (not just commands)
+intents = discord.Intents.default()
+intents.message_content = True
+bot = commands.Bot(command_prefix="!", intents=intents)
 
 @bot.event
 async def on_ready():
-	print(f"Logged in as {bot.user} (ID: {bot.user.id})")
-	print("Slash commands syncing (this can take up to a minute the first time)...")
-	try:
-		synced = await bot.tree.sync()
-		print(f"Synced {len(synced)} application command(s).")
-	except Exception as e:
-		print(f"Error syncing commands: {e}")
+    print(f"Bot is online as {bot.user}!")
+    try:
+        synced = await bot.tree.sync()
+        print(f"Synced {len(synced)} commands.")
+    except Exception as e:
+        print(f"Error: {e}")
 
 @bot.tree.command(name="hello", description="Says hello!")
 async def hello_command(interaction: discord.Interaction):
-	user_name = interaction.user.display_name
-	await interaction.response.send_message(f"Hello {user_name}!")
+    await interaction.response.send_message(f"Hello {interaction.user.display_name}!")
 
 if not TOKEN:
-	raise RuntimeError("DISCORD_BOT_TOKEN is missing. Did you put it in the .env file?")
+    raise RuntimeError("DISCORD_BOT_TOKEN is missing. Did you put it in the .env file?")
 
 bot.run(TOKEN)
 ```
@@ -142,6 +147,3 @@ Synced X application command(s).
 | Wrong Python environment / import errors | Verify the `.venv` is selected in the Python extension view; reinstall `discord.py` there. |
 | `ModuleNotFoundError: discord` | The package isn’t installed in the selected environment—reinstall via the Packages UI. |
 | Bot shows online but no response | Confirm you used `/hello` (slash command), not `!hello`. |
-
-
-
