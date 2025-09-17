@@ -16,4 +16,4 @@ weight: 5
 ![img标签列子](../media/attribute-sm.png "img标签列子")
 
 结果如下：
-<img src="../media/benji.png" width="40%" />
+<img src="../media/benji.jpg" width="40%" />
