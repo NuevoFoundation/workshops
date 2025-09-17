@@ -8,13 +8,13 @@ weight: 1
 Cualquier cosa que esté entre comillas se llama un `string`. Así es como la computadora representa palabras o frases. Por ejemplo, "a", "2", "banana!" y "Hello World" son strings, pero 2 y Hello World no son strings, porque faltan las comillas. ¡Puedes combinar muchos strings usando el signo `+`!
 
 {{% notice tip %}}
-¡Las strings que combines no tienen que ser palabras reales! Por ejemplo, `"Ap" + "ple"` producirá la `string` `"Apple"`. 
+¡Las strings que combines no tienen que ser palabras reales! Por ejemplo, `"Man" + "zana"` producirá la `string` `"Manzana"`. 
 <b>¡Pide ayuda si estás confundido!</b>
 {{% /notice %}}
 
 Por ejemplo,
 
-- `"Apple" + "Pineapple"` produce el string `"ApplePineapple"`
+- `"Manzana" + "Piña"` produce el string `"ManzanaPiña"`
 
 - `"Nuevo" + " " + "Foundation"` produce `"Nuevo Foundation"`
 

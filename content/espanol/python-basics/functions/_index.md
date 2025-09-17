@@ -3,7 +3,6 @@ title: "Funciones"
 weight: 5
 draft: false
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0207zoiJ6s8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Funciones** son una forma de organizar fragmentos de código similares o repetitivos. En lugar de tener que escribir constantemente el mismo código, podemos poner el código deseado en una función y llamarla cuando queramos usarlo.
 
@@ -27,7 +26,7 @@ def nombreDeLaFuncion(parametro1, parametro2, ...):
     # llama a esta función desde otras partes
     # del código usando nombreDeLaFuncion
 ```
-![Graphic describing the structure of a function](../img/annotated-screenshot-function.png)
+![Gráfico que describe la estructura de una función](../img/annotated-screenshot-function.png)
 
 {{% notice warning %}}
 Asegúrate de que la primera línea de tu función siempre termine con dos puntos `:`
@@ -77,7 +76,7 @@ En este ejemplo, `sectionA` será llamada con el valor `startMeasure` como `1` y
 
 {{% notice warning %}}
 **Ten cuidado:** Cuando crees una función en Python, debes definir la función y su contenido antes de que sea llamada. En otras palabras, en el código necesitas poner la declaración de la función por encima de la llamada a la función. De lo contrario, recibirás un NameError como el que se muestra abajo. Mira la figura siguiente para un ejemplo:
-![Example showing the function called before the name defintion and the producting NameError](../img/annotated-screenshot-function4-error.png)
+![Ejemplo que muestra la función llamada antes de la definición del nombre y la producción de NameError](../img/annotated-screenshot-function4-error.png)
 {{% /notice %}}
 
 ### Desafío 1 - ¡Crea tu propia función!
@@ -85,7 +84,7 @@ En este ejemplo, `sectionA` será llamada con el valor `startMeasure` como `1` y
 **Desafío:** Crea una función llamada addNumbers que tome 2 parámetros llamados number1 y number2 e imprima la suma en la consola. Llama a la función addNumbers con los parámetros 3 y 5.
 ¿Qué se imprime en la consola?
 
-<iframe src="https://trinket.io/embed/python/31164cfda3e0" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/f3f7874f0fe3" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### Desafío 2
 

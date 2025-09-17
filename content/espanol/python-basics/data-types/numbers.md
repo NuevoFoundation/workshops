@@ -44,7 +44,7 @@ Vamos a intentar averiguar las respuestas de lo siguiente usando Python. Intenta
 
 Rellenarás el espacio en blanco con la respuesta de cuánto es `(527 * 199)`. Si quieres imprimir una cadena y un número juntos, primero tienes que convertir el número en una cadena.
 
-Aquí tienes un ejemplo: <font color="blue">print</font>(`"Hello, World!"` + str(5))
+Aquí tienes un ejemplo: <font color="blue">print</font>(`"¡Hola, Mundo!"` + str(5))
 
 {{% notice tip %}}
 

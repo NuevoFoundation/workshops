@@ -44,7 +44,7 @@ if 1 == 1:
 if 3 == 3:
     print('3=3')
 else:
-    print('wrong')
+    print('Incorrecto')
 ```
 El Ejemplo A imprimirá:
 
@@ -61,7 +61,7 @@ if 1 == 1:
 elif 3 == 3:
     print('3=3')
 else:
-    print('wrong')
+    print('Incorrecto')
 ```
 El Ejemplo B imprimirá:
 
@@ -79,4 +79,4 @@ Quizás quieras repasar booleanos para completar este desafío.
 - <a href="../../python-basics/data-types/booleans">Booleanos</a>
 <br/><br/>
 
-<iframe src="https://trinket.io/embed/python/ef70399cdf9a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/3ea6b97209df" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

@@ -11,7 +11,7 @@ Ahora que conocemos lo básico sobre las declaraciónes print, las variables y c
 
 # Declaraciónes If
 
-Comenzaremos con una oración if en su forma más simple. Si miras el ejemplo del mundo real, verás ciertas palabras que se usan y que también aplican a las sentencias en programación. **If** it is raining outside, then I use an umbrella. `if` nos indica que necesitamos tomar una decisión. ¿Está lloviendo? Esa pregunta se llama la expresión. Luego, si está lloviendo, uso un paraguas. Esa es una oración que se aplica cuando la expresión es veraz.
+Comenzaremos con una oración if en su forma más simple. Si miras el ejemplo del mundo real, verás ciertas palabras que se usan y que también aplican a las sentencias en programación. `if` nos indica que necesitamos tomar una decisión. ¿Está lloviendo? Esa pregunta se llama la expresión. Luego, **Si** está lloviendo afuera, entonces uso un paraguas. Esa es una oración que se aplica cuando la expresión es veraz.
 
 ```python
 if (expr):
@@ -29,11 +29,11 @@ x = 0
 y = 5
 
 if (x<y):       # verdadero
-    print('yes')
+    print('si')
 if (y<x):       # falso
-    print('yes')
+    print('si')
 if (x == 10):   # falso
-    print('yes')
+    print('si')
 ```
 
 Desglosemos el ejemplo anterior y decidamos por qué algunas frase son "verdaderas" o "falsas".
@@ -60,10 +60,10 @@ else:
 Un ejemplo de la vida real es: si tengo hambre, comeré. Else (en otras palabras, no tengo hambre), no comeré. ¡Veamos esto en código python!
 
 ```python
-if (hungry):
-    eat
+if (hambriento):
+    comer
 else:
-    dont_eat
+    no_comer
 ```
 
 ### Desafío

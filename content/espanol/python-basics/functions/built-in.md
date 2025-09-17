@@ -19,9 +19,9 @@ print('El arreglo ordenado es :',arr)
 # find()
 Devuelve la primera ocurrencia del patrón proporcionado a find() dentro de la cadena dada.
 ```python
-str1 = "Hello World"
-index = str1.find("World)")
-print(index) # imprime 6
+str1 = "¡Hola, Mundo!"
+index = str1.find("Mundo")
+print(index) # imprime 7
 ```
 
 # len()
@@ -37,10 +37,10 @@ Esta función devuelve `True` si la cadena pasada como argumento consiste única
 s = "123";  
 print s.isdigit() # imprime True
 
-s = "Hello World";
+s = "¡Hola, Mundo!";
 print s.isdigit() # imprime False
 
-s = "123Hello"
+s = "123Hola"
 print s.isdigit() # imprime False ya que tiene letras además de dígitos
 ```
 
@@ -126,6 +126,3 @@ Crea un arreglo llamado `arr`
 ```
 
 <iframe src="https://trinket.io/embed/python/b238d85d0d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-; manteniéndolo claro para principiantes. 
-        Preserve technical terms, code syntax, and formatting. Only translate comments that explain concepts.
-        Adapt cultural references appropriately. Don't translate the header key title; don't translate the image html

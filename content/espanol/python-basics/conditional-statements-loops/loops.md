@@ -20,7 +20,7 @@ for x in [1,2,3,4,5]:
     print("Estamos en el número de bucle",x)
 ```
 
-<iframe src="https://trinket.io/embed/python/a73d066cb41b" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/69500ce2884d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ¿Qué pasa si quieres repetir una tarea 10 veces? ¿100 veces? ¿1000 veces?
 
@@ -43,7 +43,7 @@ for x in frutas:
   print(x)
 ```
 
-<iframe src="https://trinket.io/embed/python/28c51af001a6" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/02c154536635" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### Bucles while
 
@@ -58,7 +58,7 @@ while contador < 5:
   contador += 1 # Esto es lo mismo que contador = contador + 1
 ```
 
-<iframe src="https://trinket.io/embed/python/da586a754a10" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/1dafeeebecfc" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Como puedes ver, todo el código debajo del `while` se ejecuta mientras la variable `count` sea menor que 5.
 
@@ -87,7 +87,7 @@ while True: # Esto hará que el bucle while se ejecute para siempre, ¡a menos q
   contador += 1 # esto es igual a contador = contador + 1
 ```
 
-<iframe src="https://trinket.io/embed/python/4bd88bc9f050" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/16bb6cb1c7a8" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### Desafíos
 
@@ -106,7 +106,7 @@ listaDeNumero = [69, 430, 363, 80, 166, 476, 250, 38, 84, 405, 41, 302, 480, 57,
 Por ejemplo, pide al usuario que introduzca un número en la consola, y luego escribe en la consola si fue encontrado.
 Pista: Necesitarás convertir la información introducida por el usuario a un entero usando `int(x)`.
 
-<iframe src="https://trinket.io/embed/python/352425e4fb6d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/e90a80df15f9" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### Pregunta
 
