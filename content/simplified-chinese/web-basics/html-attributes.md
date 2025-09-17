@@ -16,4 +16,4 @@ weight: 5
 ![img标签列子](../media/attribute-sm.png "img标签列子")
 
 结果如下：
-![Benji的图片](https://qyatda.dm.files.1drv.com/y4mTmthbnZl8R4dmLmzkmrlFe1Wg8V1YoXSQp0JIvJJQgPK_IC6O3oWMQXXqUH386u9cNsKg-8kUV8ec4_TvC5eUFUrgkdZeRHJ95uQ0nUbgO_BO3_33cWBUkS9KUqvZhSDYcn9h037DYIPnmUerzBJ1XyjbhSseOhdpDJXya8Cn__51WxOdTygEpsC9NA4NriAZXjTizgUsiNu1qYIo-1B7w?width=495&height=660&cropmode=none "Benji的图片")
+<img src="../media/benji.png" width="40%" />
