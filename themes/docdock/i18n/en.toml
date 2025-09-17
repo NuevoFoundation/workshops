@@ -85,4 +85,4 @@ other = "Workshop type:"
 
 # menu.html
 [workshop-dashboard]
-"Workshop Dashboard"
+other = "Workshop Dashboard"
