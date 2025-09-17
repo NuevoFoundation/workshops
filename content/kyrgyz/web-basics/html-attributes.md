@@ -15,4 +15,4 @@ weight: 5
 ![alt text](../media/attribute-sm.png "img тег үлгүсү")
 
 Натыйжасы:
-<img src="../media/benji.png" width="40%" />
+<img src="../media/benji.jpg" width="40%" />

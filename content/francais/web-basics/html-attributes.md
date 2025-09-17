@@ -15,4 +15,4 @@ Voici un exemple :
 ![texte alt](../media/attribute-sm.png "exemple de tag img")
 
 Et voici le résultat :
-<img src="../media/benji.png" width="40%" />
+<img src="../media/benji.jpg" width="40%" />

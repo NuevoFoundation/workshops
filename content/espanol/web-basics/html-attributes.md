@@ -17,4 +17,4 @@ Aquí tienes un ejemplo:
 ![alt text](../media/attribute-sm-es.png "Ejemplo de img tag")
 
 Y aquí está el resultado:
-<img src="../media/benji.png" width="40%" />
+<img src="../media/benji.jpg" width="40%" />
