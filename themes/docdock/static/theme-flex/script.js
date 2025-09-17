@@ -2,10 +2,6 @@ jQuery(document).ready(function () {
   jQuery(".category-icon").on("click", function () {
     // Check if this is the back navigation icon
     if ($(this).hasClass("back-nav-icon")) {
-      console.log("Back navigation clicked");
-      console.log("Navigating to:", $(this).parent().attr("href"));
-      console.log("Current page:", window.location.href);
-      // Allow the default link behavior for back navigation
       window.location.href = $(this).parent().attr("href");
       return true;
     }
