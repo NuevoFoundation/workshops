@@ -4,11 +4,14 @@ draft: false
 weight: 2
 ---
 
-Nuvi now has a registered bot identity. Next: make it actually respond. Now that your project folder, virtual environment, and starter file are set up, you’re ready to build a simple Discord bot. In this part, you will:
+Nuvi now has a registered bot identity. Next: make it actually respond. With your project folder, virtual environment, and starter file ready, you’ll build a **minimal bot foundation**. This first version just proves the connection works. We also turn on one permission (`message_content`) now so later pages can add auto‑translation without revisiting setup.
 
-1. Add `discord.py` to `requirements.txt` and install it using the VS Code Python extension (UI only — no terminal typing required)
-1. Write a basic bot that responds to a slash command `/hello`
-1. Run and test the bot
+In this part, you will:
+
+1. Add `discord.py` to `requirements.txt` and install it (VS Code UI — no terminal typing required)
+2. Write a basic bot that responds to a slash command `/hello`
+3. Enable the message content intent (needed later for auto‑translation)
+4. Run and test the bot
 
 {{< alert theme="info" >}}
 <img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="85" style="float:right;margin:0 0 8px 12px;" />
@@ -39,7 +42,7 @@ discord.py
 
 
 ## 2. Write the Bot Code
-Open `bot.py` and replace any placeholder code with the following:
+Open `bot.py` and replace any placeholder code with the following. (You’ll notice a `user_languages` dictionary already—this is a “placeholder notebook” we’ll actually start using when we add registration and auto‑translation soon.)
 ```python
 import discord
 from discord.ext import commands
@@ -75,11 +78,13 @@ bot.run(TOKEN)
 ```
 
 ### What this does:
-- Imports a *library* (`discord.py`). A library is pre-written code that gives you powerful features (like talking to Discord) without you writing everything from scratch.
-- Creates and starts the bot connection to Discord’s servers.
-- Defines (registers) a slash command `/hello` so Discord knows it exists in your server—your first proof the bot “speaks.”
-- Waits for a user to run `/hello` and then replies with a personal greeting. Soon this pattern will power real translations.
-- Includes a safety check so the bot won’t run if the token (bot password) is missing.
+- Imports the Discord library so you don’t reinvent networking.
+- Sets up “intents” and enables `message_content` early (future auto‑translation needs to read messages).
+- Creates and starts a bot connection.
+- Registers a slash command `/hello` to prove command syncing works.
+- Uses `user_languages = {}` as a simple in‑memory place we’ll fill later.
+- Replies with a personal greeting when `/hello` runs.
+- Safety check: stops if the token is missing.
 
 <details>
 <summary><strong>-> Advanced details (click to expand if you'd like to learn about more of the advanced concepts used here. Totally optional!)</strong></summary>

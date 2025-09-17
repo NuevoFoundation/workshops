@@ -29,12 +29,23 @@ Still on the Bot page:
 
 {{< alert theme="danger" >}}If someone else gets your token, they can control your bot. If it leaks, come back here and click **Reset token**{{< /alert >}}
 
+### 5. Enable Message Content Intent (Important for Translation!)
+While still on the **Bot** page:
+- Scroll down to **Privileged Gateway Intents**
+- Turn ON the **Message Content Intent** toggle
+- This lets your bot read messages (required for auto-translation)
+
 {{< alert theme="warning" >}}
+<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="70" style="float:right;margin:0 0 6px 10px;" />
+<strong>Super Important:</strong> Without Message Content Intent enabled, your bot won't be able to read messages and the auto-translation feature won't work!
+{{< /alert >}}
+
+{{< alert theme="Danger" >}}
 <img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="80" style="float:right;margin:0 0 8px 12px;" />
 <strong>Nuvi warning:</strong> Never paste your token into chat or screenshots. Treat it like a secret door key—lose it and you must regenerate it.
 {{< /alert >}}
 
-### 5. Invite Your Bot to a Server
+### 6. Invite Your Bot to a Server
 - Click **OAuth2 → URL Generator**.
 - Under **Scopes** check: `bot`.
 - Under **Bot Permissions**, select only what you need now (start simple: `Read Messages/View Channels`, `Send Messages`).
