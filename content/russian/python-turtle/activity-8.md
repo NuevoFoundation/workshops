@@ -11,4 +11,4 @@ draft: false
 
 Создайте новую функцию с именем `mandala_flower()`. Внутри цикла мы будем вызывать функцию `figure_8()`, которую написали ранее, чтобы нарисовать восьмёрку. Затем поворачивайте черепашку влево или вправо на определённое количество градусов (например, на 10 градусов). Повторите эти шаги много раз, чтобы получить мандалу-цветок; хорошая идея — создать цикл, который повторяется как минимум 25 раз. 
 
-<iframe src="https://trinket.io/embed/python/b82ce0c14f" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/85e44ee447d6" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

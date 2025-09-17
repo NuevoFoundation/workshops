@@ -76,4 +76,4 @@ def draw_line():
 
 Итак, давайте попробуем — создайте собственную функцию `draw_hexagon()`! Не забудьте включить заголовок определения функции, количество сторон шестиугольника и соответствующий угол: 60 градусов. С английского, `draw_hexagon` переводится как `нарисовать шестиугольник`
 
-<iframe src="https://trinket.io/embed/python/c3ef894658" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/ff2219e87eae" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

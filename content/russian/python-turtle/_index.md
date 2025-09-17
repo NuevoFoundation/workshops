@@ -1,9 +1,9 @@
 ---
-title: "Python: Coding with Turtle"
+title: "Питон: Пишем код с Turtle"
 description: "Learn how to draw on a canvas with Python with Turtle"
 date: 2019-07-25T13:24:17-07:00
-prereq: "Python Basics"
-difficulty: "Beginner"
+prereq: "Beginner Python"
+difficulty: "Начинающая"
 image: ""
 draft: false
 icon: "fab fa-python"
@@ -17,7 +17,7 @@ icon: "fab fa-python"
 
 ![animation of baby bee Alex](https://media1.giphy.com/media/ozjz5omKqJYex8CaDV/giphy.gif)
 
-Алекс живёт в стране под названием Черепашиe островa. Жители Черепашиох островрв говорят на языке под названием Python. Мы собираемся использовать Python, чтобы научить Алекса жить в улье. Готовы ли вы принять вызов? В этом руководстве мы научимся использовать язык Python, чтобы помочь Алексу *стать* трудолюбивой пчёлкой!
+Алекс живёт в стране под названием Черепашиe островa. Жители Черепаших островрв говорят на языке под названием Python. Мы собираемся использовать Python, чтобы научить Алекса жить в улье. Готовы ли вы принять вызов? В этом руководстве мы научимся использовать язык Python, чтобы помочь Алексу *стать* трудолюбивой пчёлкой!
 
 ## Содержание
 <details>

@@ -21,4 +21,4 @@ draft: false
 
 Обновите ваш цветок мандалы, чтобы использовать понравившийся вам цвет. Не стесняйтесь экспериментировать с разными оттенками!
 
-<iframe src="https://trinket.io/embed/python/1f9c80fffe" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/596a72caaf1f" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

@@ -47,4 +47,4 @@ turtle.left(120)
 
 Теперь возьмите приведённый пример кода и слегка измените его так, чтобы он рисовал не треугольник, а квадрат. Вы можете посмотреть назад на то, что вы делали в Задании 1, чтобы получить подсказку.
 
-<iframe src="https://trinket.io/embed/python/892913b49a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/6e4fdd05dc63" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

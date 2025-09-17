@@ -45,4 +45,4 @@ turtle.pendown()
 
 Чтобы выполнить это задание, переместите черепаху в позицию (100, 100) на холсте. Это переместит её в правый верхний угол.
 
-<iframe src="https://trinket.io/embed/python/dee0f642ce" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/dbe1dfe90c49" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

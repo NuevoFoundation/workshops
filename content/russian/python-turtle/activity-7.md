@@ -22,4 +22,4 @@ draft: false
 
 Используя эту информацию, создайте новую функцию с именем `figure_8()`, которая рисует фигуру «8».
 
-<iframe src="https://trinket.io/embed/python/e87cb9f3b9" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/569e82ead90b" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

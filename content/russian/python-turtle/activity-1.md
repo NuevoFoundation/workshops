@@ -32,4 +32,4 @@ draft: false
 turtle.left(90)
 ```
 
-<iframe src="https://trinket.io/embed/python/bfe791bb1e" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/b7f0aed05f6d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

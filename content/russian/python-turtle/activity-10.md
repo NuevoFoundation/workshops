@@ -13,7 +13,7 @@ draft: false
 
 Вызовите `random.randint(0, 256)` три раза, чтобы получить три случайных значения, и подставьте их в метод `turtle.color()`. Теперь вы должны увидеть разноцветный цветок мандалы! Это определённо тот цветок, с которого Алексу захотелось бы собирать нектар!
 
-<iframe src="https://trinket.io/embed/python/64ab3455ae" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/f36de4d399da" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 <br>
 <br>
 
