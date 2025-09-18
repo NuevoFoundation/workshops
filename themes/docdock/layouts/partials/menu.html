@@ -29,12 +29,17 @@
         {{- if .Params.alwaysopen}} alwaysopen{{end -}}
         {{- if ne $numberOfPages 0 }} haschildren{{end}}">
   <div class="menu-item">
+    {{- with .Params.icon}}
+      <span><i aria-hidden="true" style="margin-right:2px" focusable="false" class="fas {{ . }}"></i></span>
+    {{- else }}
+      <span><i aria-hidden="true" style="margin-right:2px" focusable="false" class="fas fa-code"></i></span>
+    {{- end}}
     <a href="{{ .RelPermalink}}">
       {{safeHTML .Params.Pre}}{{.Title}}{{safeHTML .Params.Post}}
     </a>
 
     {{- if ne $numberOfPages 0 }} {{- if or (.IsAncestor $currentNode) (.Params.alwaysopen) }}
-      <i class="fa fa-angle-up fa-lg category-icon"></i>
+      <i class="fa fa-lg category-icon fa-angle-up"></i>
     {{- else -}}
       <i class="fa fa-angle-down fa-lg category-icon"></i>
     {{- end}}
