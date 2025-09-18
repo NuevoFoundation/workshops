@@ -182,6 +182,81 @@ article > aside .menu .dd-item div i.category-icon:hover {
 article > aside .menu .dd-item li {
   border-left: 1px solid #eee;
 }
+
+/* Back to workshops dashboard navigation styles */
+article > aside .menu .dd-item.back-to-dashboard {
+  margin: 0.5rem 0px 0.5rem 20px;
+  padding-left: 1rem;
+  list-style: none;
+  font-size: 14px;
+}
+
+article > aside .menu .dd-item.back-to-dashboard .menu-item {
+  margin-left: -20px;
+}
+
+article > aside .menu .dd-item.back-to-dashboard div {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+}
+
+article > aside .menu .dd-item.back-to-dashboard div * {
+  line-height: inherit;
+}
+
+article > aside .menu .dd-item.back-to-dashboard div a {
+  display: flex !important;
+  align-items: start !important;
+  justify-content: center !important;
+  order: 1 !important;
+  width: 20px !important;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  padding: 0 !important;
+  flex-shrink: 0 !important;
+  flex-grow: 0 !important;
+  flex-basis: 20px !important;
+}
+
+article > aside .menu .dd-item.back-to-dashboard div a i.category-icon {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+article > aside .menu .dd-item.back-to-dashboard div span {
+  display: flex !important;
+  order: 2 !important;
+  padding: 0 0rem 0 0.5rem !important;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  flex-shrink: 1 !important;
+  flex-grow: 0 !important;
+  flex-basis: auto !important;
+  min-width: 0 !important;
+  width: auto !important;
+  max-width: none !important;
+}
+
+article > aside .menu .dd-item.back-to-dashboard div a:hover,
+article > aside .menu .dd-item.back-to-dashboard div a:focus,
+article > aside .menu .dd-item.back-to-dashboard div a:active {
+  background-color: #eee;
+  border-radius: 0.2rem;
+  padding: 0 0rem;
+}
+
+article > aside .menu .dd-item.back-to-dashboard .back-nav-separator {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 0.25rem 5px 0.75rem 5px;
+  width: auto;
+}
+
 article > aside section {
   margin: 2rem 0rem;
 }
@@ -492,10 +567,69 @@ button, input, optgroup, select, textarea {
 .panel.panel-primary {
   border: 4px solid black;
 }
+
+/* Right-align panel-primary on workshop first pages */
+article section.page .panel.panel-primary {
+  position: relative;
+  float: right;
+  clear: right;
+  max-width: 350px;
+  width: 350px;
+  margin: 8rem 10rem 1.5rem 3rem; /* top right bottom left - adds 6rem space from right edge */
+  transform: translateX(-2rem); /* Moves it 2rem more towards center */
+}
+
+/* Ensure text flows around the right-floated panels */
+article section.page .panel.panel-primary + * {
+  clear: none; /* Allow text to wrap around panels */
+}
+
+/* For mobile devices - stack panels below content */
+@media (max-width: 768px) {
+  article section.page .panel.panel-primary {
+    position: static;
+    float: none;
+    clear: both;
+    width: 100%;
+    max-width: none;
+    margin: 1rem 0;
+    transform: none;
+  }
+}
 .panel-primary > .panel-heading {
   background-color: #000000 !important;
   border-radius: 0px;
 }
+
+/* Thick black bar before table of contents header */
+article section.page h2#table-of-contents::before {
+  content: "";
+  position: absolute;
+  transform: translateY(-3rem); /* Move bar above the h2 */
+  width: 33.33%; /* Takes roughly a third of horizontal space */
+  height: 8px; /* Thick black bar */
+  background-color: #000000;
+  margin-bottom: 2rem; /* Space below the bar */
+}
+
+/* Ensure the h2 has relative positioning for the absolute bar */
+article section.page h2#table-of-contents {
+  position: relative;
+  margin-top: 5rem; /* Extra space to accommodate the bar above */
+}
+
+/* Hide the bar on mobile for better spacing */
+@media (max-width: 768px) {
+  article section.page h2#table-of-contents::before {
+    width: 50%; /* Slightly wider on mobile */
+    transform: translateY(-2rem); /* Less space on mobile */
+  }
+  
+  article section.page h2#table-of-contents {
+    margin-top: 4rem; /* Less margin on mobile */
+  }
+}
+
 article section.page h1 {
   margin-top: 4rem;
 }
@@ -504,7 +638,6 @@ article section.page h2 {
   display: flex;
   flex-wrap: wrap;
   height: 77;
-  top: 27px;
   left: 24;
   color:#000000;
   font-family: "Space Mono", "Lato", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
