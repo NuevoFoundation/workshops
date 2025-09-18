@@ -8,7 +8,7 @@ draft: false
 icon: "fab fa-python"
 ---
 
-Quizá ya sepas cómo jugar Pong en la vida real. ¿Qué te parece crear tu propia versión de Pong en tu ordenador? En este tutorial aprenderemos a usar una biblioteca de Python llamada Pygame para construir Pong. ¿Suena divertido?
+Quizá ya sepas cómo jugar Pong en la vida real. ¿Qué te parece crear tu propia versión de Pong en tu computadora? En este tutorial aprenderemos a usar una biblioteca de Python llamada Pygame para construir Pong. ¿Suena divertido?
 
 ![animation of pong game](https://media.giphy.com/media/xThuWtNFKZWG6fUFe8/giphy.gif)
 
