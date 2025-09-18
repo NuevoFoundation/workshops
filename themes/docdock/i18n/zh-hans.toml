@@ -79,3 +79,7 @@ other = "帮助"
 
 [hint]
 other = "暗示"
+
+# menu.html
+[workshop-dashboard]
+other = "研讨会仪表板"
