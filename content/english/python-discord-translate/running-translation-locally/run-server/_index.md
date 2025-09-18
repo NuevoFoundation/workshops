@@ -7,13 +7,13 @@ weight: 1
 Nuvi wants quick, private translations—so you’ll host the translation “brain” right on your machine.
 
 {{< alert theme="info" >}}
-<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="85" style="float:right;margin:0 0 8px 12px;" />
+<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="70px" style="float:right;margin:0 0 6px 10px;" />
 <strong>Nuvi says:</strong> Keeping it local means no internet delay and better privacy for practice projects.
 {{< /alert >}}
 
 ## 1. Add it to requirements.txt
 Open your project’s `requirements.txt` and add (or confirm these lines are present):
-```
+```text
 libretranslate
 requests
 ```
@@ -26,7 +26,7 @@ To open the terminal you can:
 - OR click the Terminal tab / plus (+) icon at the top of the panel area.
 
 1. Make sure your virtual environment is selected (look for `.venv` in the bottom status bar). If not, select it.
-2. Open a new terminal in VS Code (``Ctrl+` ``).
+2. Open a new terminal in VS Code (``Ctrlxd+` ``).
 3. Run:
 ```pwsh
 pip install -r requirements.txt
@@ -48,7 +48,7 @@ libretranslate --load-only en,es
 This will start the server with support for translating English and Spanish—the two languages Nuvi wants to support first.
 
 {{< alert theme="info" >}}
-<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="70" style="float:right;margin:0 0 6px 10px;" />
+<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="70px" style="float:right;margin:0 0 6px 10px;" />
 <strong>Nuvi tip:</strong> Need more languages later? Restart without `--load-only` or add codes (e.g. `--load-only en,es,fr`).
 {{< /alert >}}
 
@@ -64,7 +64,7 @@ You should see a simple page. To see languages the server supports, visit:
 ```
 http://127.0.0.1:5000/languages
 ```
-
+xdxd
 ---
 
 ## 3. Troubleshooting
@@ -78,6 +78,3 @@ http://127.0.0.1:5000/languages
 | Port already in use | Use a different one: `python -m libretranslate --port 5001` and update the URL. |
 
 ---
-
-## 4. Next: Test a Translation
-Move on to the Test a Translation page to try a quick Python script that calls the `/translate` endpoint.

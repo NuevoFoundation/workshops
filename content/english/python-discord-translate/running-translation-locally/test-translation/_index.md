@@ -54,10 +54,16 @@ You should see something like: `{'translatedText': '¡Hola Mundo!'}`
 **resp.json():** This converts the JSON reply from the server into something Python understands.
 
 {{< alert theme="info" >}}
-<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="65" style="float:right;margin:0 0 6px 10px;" />
+<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="70px" style="float:right;margin:0 0 6px 10px;" />
 <strong>Nuvi tip:</strong> If you get a connection error, double-check the server terminal is still running and the URL is `http://127.0.0.1:5000`.
 {{< /alert >}}
 
 **Endpoint:** The specific URL (`/translate`) on the server that performs a task—in this case, translation.
+
+### Try It Yourself
+1. Translate a different phrase
+1. Reverse direction, translate from Spanish to English
+1. Add another language!
+
 
 Now you know each piece! Next you’ll connect this idea to your Discord bot so Nuvi’s friends can finally understand one another.

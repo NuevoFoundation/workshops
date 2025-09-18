@@ -15,7 +15,7 @@ Your bot will become a **translation helper** that:
 - Has a backup `/translate` command just in case
 
 {{< alert theme="info" >}}
-<img src="../media/NF_mascot.jpg" alt="Nuvi mascot" width="70" style="float:right;margin:0 0 6px 10px;" />
+<img src="../media/NF_mascot.jpg" alt="Nuvi mascot" width="70px" style="float:right;margin:0 0 6px 10px;" />
 <strong>Nuvi says:</strong> Don't worry if this seems like a lot! We've broken it into smaller pieces that are easy to follow.
 {{< /alert >}}
 
@@ -55,7 +55,4 @@ After building everything:
 | No auto-translations | [Message Handling](message-handling-and-translate/) |
 | Want the complete code | [Full Bot Code](full-code/) |
 
-{{< alert theme="success" >}}
-<img src="../media/NF_mascot.jpg" alt="Nuvi mascot" width="80" style="float:right;margin:0 0 8px 12px;" />
-Let's get started! Click on Detect Language Function to begin building your translation bot!
-{{< /alert >}}
+---

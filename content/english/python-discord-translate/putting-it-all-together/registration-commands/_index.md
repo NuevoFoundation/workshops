@@ -93,8 +93,8 @@ async def stop_translation(interaction: discord.Interaction):
 ## Example: Two Friends Sign Up
 
 {{< alert theme="info" >}}
-<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="70" style="float:right;margin:0 0 6px 10px;" />
-<strong>Nuvi's Example:</strong> Here's how Maria and John would use the system:
+<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="70px" style="float:right;margin:0 0 6px 10px;" />
+<strong>Nuvi tip:</strong> Here's how Maria and John would use the system:
 {{< /alert >}}
 
 1. **Maria** (speaks Spanish) types: `/register_language` and picks "I speak Spanish"
@@ -111,7 +111,7 @@ async def stop_translation(interaction: discord.Interaction):
 
 ## Good to Know
 
-- **Private messages**: All responses are ephemeral (only you see them)
+- **Private messages**: All responses are private (only you see them)
 - **Resets when bot restarts**: The list is only in memory, not saved to a file
 - **Easy to change**: Just run `/register_language` again with a new choice
 - **No spam**: Only people who sign up get translations
@@ -124,3 +124,5 @@ async def stop_translation(interaction: discord.Interaction):
 | Want to change language | Just run `/register_language` again |
 | Not getting translations | Check with `/my_language` to see if you're signed up |
 | Can't get DMs | Check your Discord privacy settings |
+
+---

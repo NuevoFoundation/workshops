@@ -18,8 +18,8 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 ```
 
 {{< alert theme="warning" >}}
-<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="70" style="float:right;margin:0 0 6px 10px;" />
-<strong>Super Important:</strong> You MUST turn on "Message Content Intent" in the Discord Developer Portal for your bot. Otherwise it can't read messages!
+<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="70px" style="float:right;margin:0 0 6px 10px;" />
+<strong>Warning:</strong> Turn on "Message Content Intent" in the Discord Developer Portal or the bot cannot read messages.
 {{< /alert >}}
 
 ## The Auto-Translation Code
@@ -177,14 +177,6 @@ When someone writes "¡Buenos días amigos!", English speakers get this DM:
 -> Spanish: ¿Cómo estás?
 ```
 
-## Speed Tips
-
-| Thing | Why It's Fast |
-|-------|---------------|
-| Skip short messages | Less work for the bot |
-| Only translate for signed-up users | Not wasting time |
-| Ignore DM failures | Doesn't slow down for one person |
-| Cache users | Remembers people instead of looking them up |
 
 ## Common Problems
 
@@ -195,7 +187,3 @@ When someone writes "¡Buenos días amigos!", English speakers get this DM:
 | Slow translations | Server is busy | Be patient or restart LibreTranslate |
 | Bot translates itself | Missing bot check | Make sure the bot check is there |
 
-{{< alert theme="success" >}}
-<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="70" style="float:right;margin:0 0 6px 10px;" />
-<strong>You did it!</strong> Now Nuvi's friends can chat in different languages and everyone understands each other!
-{{< /alert >}}

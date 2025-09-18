@@ -7,7 +7,7 @@ weight: 2
 Nuvi can’t invite a translator bot yet—there’s no code environment set up! Let’s get your computer ready. You’ll install Python, set up a virtual environment (a safe “bubble” for your project’s packages), install VS Code (your code editor), and create the starter files. Once this foundation is ready, you’ll start writing the bot that helps everyone understand each other.
 
 {{< alert theme="info" >}}
-<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="90" style="float:right;margin:0 0 8px 12px;" />
+<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="70px" style="float:right;margin:0 0 6px 10px;" />
 <strong>Nuvi says:</strong> Pick Python 3.10 so the translator parts install smoothly—future upgrades are easier once things work now!
 {{< /alert >}}
 
@@ -24,14 +24,14 @@ You should see something like `Python 3.10.x`.
 
 VS Code is a free, student‑friendly code editor where you'll write and run your bot; it gives smart autocompletion, error hints, and an easy way to manage Python.
 
-Download VS Code from: https://code.visualstudio.com/
+{{<button href="https://code.visualstudio.com" theme="info">}}Download VS Code{{< /button >}}
 
 After VS Code installs, add the Python tooling:
 1. Open VS Code and go to the Extensions view (Click on the extensions icon in the Activity Bar on the side or press `Ctrl+Shift+X`).
 ![Extensions view icon](../../media/extensions.png)
-2. Search for `Python` (Publisher: Microsoft) and click Install. This will install some helpful tools we'll be using throughout the workshop. ![Python VSCode extension page](../../media/python-extension.png)
-3. Install the `Python Environment Manager` experience if prompted – it is bundled in the Python extension recent versions.
-4. Reload VS Code if it asks you to.
+1. Search for `Python` (Publisher: Microsoft) and click Install. This will install some helpful tools we'll be using throughout the workshop. ![Python VSCode extension page](../../media/python-extension.png)
+1. Install the `Python Environment Manager` experience if prompted – it is bundled in the Python extension recent versions.
+1. Reload VS Code if it asks you to.
 
 You should now see the Python extension symbol on your sidebar.
 ![Python extension symbol](../../media/python-symbol.png)
@@ -45,7 +45,7 @@ Open the folder in VS Code (File → Open Folder).
 A virtual environment keeps your project separate from other projects and makes it easier to organize all of the Python files on your computer. The VS Code Python extension can create and select it for you.
 
 {{< alert theme="info" >}}
-<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="70" style="float:right;margin:0 0 6px 10px;" />
+<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="70px" style="float:right;margin:0 0 6px 10px;" />
 <strong>Nuvi tip:</strong> If the environment creation seems stuck, wait a minute before retrying—Python is just setting up your isolated lab.
 {{< /alert >}}
 
@@ -87,3 +87,5 @@ This can remain empty for now. Later, you will add the names of the Python libra
 
 1. Clicking "Run and Debug" again should run the script, and you should see the output in the terminal at the bottom!
 ![Output in terminal](../../media/terminal.png)
+
+---

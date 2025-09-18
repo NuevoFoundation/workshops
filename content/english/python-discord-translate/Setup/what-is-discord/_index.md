@@ -5,8 +5,8 @@ weight: 1
 ---
 
 {{< alert theme="info" >}}
-<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="75" style="float:right;margin:0 0 6px 10px;" />
-<strong>Nuvi Says:</strong> Discord might seem like just another chat app, but it's actually perfect for our bot project! It's where millions of people hang out online - from gamers to study groups. And the coolest part? Discord lets us add bots to make these communities even better!
+<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="70px" style="float:right;margin:0 0 6px 10px;" />
+<strong>Nuvi says:</strong> Discord might seem like just another chat app, but it's actually perfect for our bot project! It's where millions of people hang out online— from gamers to study groups. And the coolest part? Discord lets us add bots to make these communities even better.
 {{< /alert >}}
 
 Nuvi's new community lives on Discord—an online platform where people build communities (called **servers**) to chat using text, voice, or video. You can think of a server like a group for a club, a game, a class, or friends. Inside each server are **channels**. Channels help organize conversations. For example, one channel might be for homework help and another for talking about videogames.
@@ -20,8 +20,8 @@ Nuvi's new community lives on Discord—an online platform where people build co
 Discord was first popular with gamers, but now it's used by study groups, hobby communities, and classrooms too. That makes it a perfect place for Nuvi's international friends—if only everyone could read each other's messages.
 
 {{< alert theme="warning" >}}
-<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="65" style="float:right;margin:0 0 5px 8px;" />
-<strong>Nuvi's Safety Reminder:</strong> Stay smart online! Never share personal info like your real name, address, or school with people you don't know in real life. And when we create our bot, we'll keep its token super secret - think of it like the bot's password!
+<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="70px" style="float:right;margin:0 0 6px 10px;" />
+<strong>Warning:</strong> Stay smart online! Never share personal info like your real name, address, or school with people you don't know in real life. Keep your bot token secret—it’s the bot’s password.
 {{< /alert >}}
 
 ### Safety Note
@@ -35,8 +35,8 @@ _Source: Adapted from public information on Wikipedia's Discord article._
 Before you invite your bot, it's best to have a private server where you can experiment safely.
 
 {{< alert theme="success" >}}
-<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="70" style="float:right;margin:0 0 5px 8px;" />
-<strong>Pro Tip from Nuvi:</strong> Making your own server is like having your own lab! You can mess up, experiment, and learn without worrying about breaking anything important. I always test new stuff in my "Bot Playground" server first!
+<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="70px" style="float:right;margin:0 0 6px 10px;" />
+<strong>Nuvi tip:</strong> Making your own server is like having a lab where you can experiment safely. I always test new stuff in a private “Bot Playground” server first.
 {{< /alert >}}
 
 1. Open the Discord app (or go to https://discord.com/app in a browser and log in).
@@ -53,3 +53,5 @@ You now have a blank server with some default channels (like `#general`). You'll
 Only invite people you trust while you're learning. You can always make a "real" server later once your bot is stable.
 
 Next, you'll learn how to set up your development environment and start coding the bot.
+
+---

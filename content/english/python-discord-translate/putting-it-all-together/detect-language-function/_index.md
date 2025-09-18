@@ -32,35 +32,35 @@ def detect_language(text):
 
 ## How It Works
 
-1. **Send the text**: We send the message to LibreTranslate
-2. **Get an answer**: LibreTranslate tells us what language it thinks it is
-3. **Check if we can use it**: We only work with English ("en") or Spanish ("es")
-4. **Handle problems**: If something goes wrong, we return `None` (which means "I don't know")
+1. **Send the text**: We send the message to LibreTranslate.
+2. **Get an answer**: LibreTranslate tells us what language it thinks it is.
+3. **Check if we can use it**: We only work with English (`en`) or Spanish (`es`).
+4. **Handle problems**: If something goes wrong, we return `None` (which means "I don't know").
 
 ## What the Bot Does With This
 
 When someone sends a message, the bot:
-- Uses this function to figure out the language
-- Skips messages that aren't English or Spanish
-- Decides who needs a translation
+- Uses this function to figure out the language.
+- Skips messages that aren't English or Spanish.
+- Decides who needs a translation.
 
 ## Example
 
 When someone types "Hello world", LibreTranslate sends back something like:
 ```json
 [
-    {
-        "language": "en",
-        "confidence": 0.95
-    }
+  {
+    "language": "en",
+    "confidence": 0.95
+  }
 ]
 ```
 
-The function grabs "en" from this and returns it.
+The function grabs `"en"` from this and returns it.
 
 {{< alert theme="info" >}}
-<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="70" style="float:right;margin:0 0 6px 10px;" />
-<strong>Nuvi tip:</strong> Make sure you started LibreTranslate with `--load-only en,es` so it only loads English and Spanish!
+<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="70px" style="float:right;margin:0 0 6px 10px;" />
+<strong>Nuvi tip:</strong> Start LibreTranslate with `--load-only en,es` so it loads just English and Spanish for faster startup.
 {{< /alert >}}
 
 ## Common Problems

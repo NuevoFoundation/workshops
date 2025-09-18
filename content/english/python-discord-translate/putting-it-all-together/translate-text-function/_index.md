@@ -81,7 +81,7 @@ The function returns `None` when:
 - The text is too long (timeout after 10 seconds)
 
 {{< alert theme="warning" >}}
-<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="70" style="float:right;margin:0 0 6px 10px;" />
+<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="70px" style="float:right;margin:0 0 6px 10px;" />
 <strong>Heads up:</strong> Really long messages might take more than 10 seconds. If that happens a lot, you can change the timeout number!
 {{< /alert >}}
 

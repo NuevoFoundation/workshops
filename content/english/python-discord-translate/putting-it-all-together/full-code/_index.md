@@ -225,7 +225,8 @@ After running your bot:
 - [ ] Try `/translate phrase:"test"`
 - [ ] Test `/stop_translation` to opt out
 
+
 {{< alert theme="success" >}}
-<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="80" style="float:right;margin:0 0 8px 12px;" />
+<img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="70px" style="float:right;margin:0 0 6px 10px;" />
 <strong>Congratulations!</strong> You've built a complete translation bot! Nuvi and friends can now chat across language barriers!
 {{< /alert >}}
