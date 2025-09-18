@@ -230,3 +230,6 @@ After running your bot:
 <img src="../../media/NF_mascot.jpg" alt="Nuvi mascot" width="70px" style="float:right;margin:0 0 6px 10px;" />
 <strong>Congratulations!</strong> You've built a complete translation bot! Nuvi and friends can now chat across language barriers!
 {{< /alert >}}
+
+## Optional Challenge
+For a final challenge, try updating the bot to store a user's settings so it doesn't forget them when it restarts!
