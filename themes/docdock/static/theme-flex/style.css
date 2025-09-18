@@ -153,14 +153,14 @@ article > aside .menu .dd-item div i.category-icon {
   display: flex;
   align-items: start;
   justify-content: center;
-  order: 1;
+  order: 3;
   width: 20px;
   cursor: pointer;
 }
 article > aside .menu .dd-item div a {
   display: flex;
   flex: 1;
-  order: 2;
+  order: 1;
   padding: 0 0rem;
   text-decoration: none;
   color: black;
@@ -184,6 +184,10 @@ article > aside .menu .dd-item li {
 }
 article > aside section {
   margin: 2rem 0rem;
+}
+
+.menu-item {
+  font-size: 16px;
 }
 
 /*!
@@ -1052,6 +1056,10 @@ ul.children.children-card > .workshop-button > p {
 }
 
 .metadata-value {
+}
+
+.expand-title {
+  font-size: 16px
 }
 
 /*# sourceMappingURL=style.css.map */
