@@ -215,7 +215,7 @@ body {
   color: #000000 !important;
   font-family: "Lato" !important;
   font-weight: 400 !important;
-  font-size: 24px !important;
+  font-size: 20px !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -463,7 +463,7 @@ button, input, optgroup, select, textarea {
   font-family: "Lato", "Arial";
   font-size: 18px;
   font-weight: 600;
-  width: 115px;
+  width: 120px;
   height: 35px;
   display: flex;
   justify-content: right;
@@ -478,7 +478,7 @@ button, input, optgroup, select, textarea {
   font-family: "Lato", "Arial";
   font-size: 18px;
   font-weight: 600;
-  width: 100px;
+  width: 200px;
   height: 35px;
   display: flex;
   justify-content: right;
