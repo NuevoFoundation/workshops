@@ -8,9 +8,9 @@ weight: 2
 ## ¡Haz que tu programa te hable!
 
 Las declaraciones **print** se usan para escribir algo en la consola. Usa `print("¡Hola, Mundo!")` para imprimir *¡Hola, Mundo!* en la pantalla de salida. Más adelante aprenderemos que print es una función y la usamos para realizar una tarea de impresión. Lo que pases a la función `print` se mostrará en la pantalla.
-Empecemos haciendo una declaracion `print`. 
+Empecemos haciendo una declaración `print`. 
 
-Usaremos la declaracion mucho en las lecciones posteriores, así que asegúrate de entender esto antes de pasar al siguiente concepto.
+Usaremos la declaración mucho en las lecciones posteriores, así que asegúrate de entender esto antes de pasar al siguiente concepto.
 
 ### Desafío 1
 Para empezar, escribe el siguiente texto en tu main.py de Trinket y haz clic a Run.
