@@ -1,5 +1,5 @@
 ---
-title: "Escribiendo a Console (Declaraciones Print)"
+title: "Escribiendo a Consola (Declaraciones Print)"
 date: 2022-09-19T14:45:38-07:00
 draft: false
 weight: 2
