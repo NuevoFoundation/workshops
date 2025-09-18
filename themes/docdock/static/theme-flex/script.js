@@ -1,5 +1,12 @@
 jQuery(document).ready(function () {
   jQuery(".category-icon").on("click", function () {
+    // Check if this is the back navigation icon
+    if ($(this).hasClass("back-nav-icon")) {
+      window.location.href = $(this).parent().attr("href");
+      return true;
+    }
+    
+    // Original dropdown behavior for other category icons
     $(this).toggleClass("fa-angle-down fa-angle-up");
     $(this).parent().parent().children("ul").toggle();
     return false;

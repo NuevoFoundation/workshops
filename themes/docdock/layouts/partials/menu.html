@@ -1,5 +1,21 @@
 {{- $currentNode := . }}
 {{- $showvisitedlinks := .Site.Params.showVisitedLinks -}}
+
+{{/* Add back to workshops dashboard navigation if not on home page */}}
+{{- if not .IsHome -}}
+  <li class="dd-item back-to-dashboard">
+    <div class="menu-item">
+      <span>
+        {{ i18n "workshop-dashboard" }}
+      </span>
+      <a href="{{ "/" | relLangURL }}" aria-label="Back to workshops dashboard" class="back-nav-link">
+        <i class="fa fa-angle-left fa-lg category-icon back-nav-icon"></i>
+      </a>
+    </div>
+    <hr class="back-nav-separator">
+  </li>
+{{- end -}}
+
 {{- if eq .Site.Params.orderSectionsBy "title"}}
   {{- range .Site.Home.Sections.ByTitle}}
     {{- if (or (eq $currentNode .Site.Home) (.IsAncestor $currentNode))}}
