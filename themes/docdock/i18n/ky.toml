@@ -79,3 +79,7 @@ other = "Жардам"
 
 [hint]
 other = "Көрсөткүч"
+
+# menu.html
+[workshop-dashboard]
+other = "Устакана тактасы"

@@ -79,3 +79,7 @@ other = "Ajuda"
 
 [hint]
 other = "Sugestão"
+
+# menu.html
+[workshop-dashboard]
+other = "Painel do minicursos"

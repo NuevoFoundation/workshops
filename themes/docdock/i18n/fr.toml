@@ -79,3 +79,7 @@ other = "Aide"
 
 [hint]
 other = "Indice"
+
+# menu.html
+[workshop-dashboard]
+other = "Tableau de bord de l’atelier"
