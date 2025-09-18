@@ -40,12 +40,14 @@ Before you invite your bot, it's best to have a private server where you can exp
 {{< /alert >}}
 
 1. Open the Discord app (or go to https://discord.com/app in a browser and log in).
-2. Look at the far left sidebar (the column with server icons). Click the green plus button (`Add a Server`).
-3. Choose `Create My Own` (you don't need a template).
-4. If it asks "For me and my friends" vs "For a club or community," either is fine — pick one.
-5. Give it a name like `Bot Test Lab` or `Translator Bot Dev`.
-6. (Optional) Upload an icon so it's easy to spot.
-7. Click `Create`.
+1. Look at the far left sidebar (the column with server icons). Click the plus button.
+![Create a server button](../../media/add-server.png)
+1. Choose `Create My Own` (you don't need a template).
+![Choose template](../../media/create-my-own.png)
+1. Pick `For me and my friends`.
+![For me and my friends](../../media/friends.png)
+1. Give it a name like `Bot Test Lab` or `Translator Bot Dev`.
+1. Click `Create`.
 
 You now have a blank server with some default channels (like `#general`). You'll invite your bot here later so you can test out the bot commands
 
