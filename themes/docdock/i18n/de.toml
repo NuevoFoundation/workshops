@@ -79,3 +79,7 @@ other = "Hilfe"
 
 [hint]
 other = "Hinweis"
+
+# menu.html
+[workshop-dashboard]
+other = "Werkstatt-Dashboard"

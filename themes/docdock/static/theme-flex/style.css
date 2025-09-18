@@ -225,14 +225,14 @@ article > aside .menu .dd-item.back-to-dashboard div a i.category-icon {
   display: flex;
   align-items: start;
   justify-content: center;
+  order: 1 !important;
 }
 
-article > aside .menu .dd-item.back-to-dashboard div span {
+article > aside .menu .dd-item.back-to-dashboard div a {
   display: flex !important;
-  order: 2 !important;
   padding: 0 0rem 0 0.5rem !important;
   color: black;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   flex-shrink: 1 !important;
   flex-grow: 0 !important;
@@ -641,7 +641,24 @@ article section.page h2 {
   left: 24;
   color:#000000;
   font-family: "Space Mono", "Lato", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
-  font-size: 40px;
+  font-weight: 700;
+  line-height: 59.24px;
+}
+article section.page h3 {
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  color:#000000;
+  font-family: "Space Mono", "Lato", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-weight: 700;
+  line-height: 59.24px;
+}
+article section.page h4 {
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  color:#000000;
+  font-family: "Space Mono", "Lato", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
   font-weight: 700;
   line-height: 59.24px;
 }
