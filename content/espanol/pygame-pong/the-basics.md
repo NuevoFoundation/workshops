@@ -1,5 +1,5 @@
 ---
-title: "Conceptos Basicos - Clase y Objeto"
+title: "Conceptos Básicos - Clase y Objeto"
 date: 2019-07-29T13:24:17-07:00
 weight: 2
 draft: false
@@ -7,13 +7,13 @@ draft: false
 
 ## Clases y Objetos
 
-Antes de empezar a construir un juego, debes saber cómo dibujar distintos objetos y modificarlos según la forma en que deban verse y moverse en la pantalla del ordenador.
+Antes de empezar a construir un juego, debes saber cómo dibujar distintos objetos y modificarlos según la forma en que deban verse y moverse en la pantalla del computadora.
 
-Para construir objetos, primero debes decidir cómo deben verse, qué papel deben desempeñar en tu juego y cómo el jugador puede controlar su movimiento en pantalla. Puedes hacer esto creando una clase para cada objeto que quieras en la pantalla. Antes de que los objetos se creen en un programa, debes definir su clase. Una clase es lo que indica cómo deberá verse y comportarse un objeto individual. Contiene los atributos y métodos que su objeto puede usar mientras el programa está en ejecución (en este caso se trata de un juego Pong). Solo necesitas definir una clase una vez, después de lo cual puedes usarla para crear tantos objetos como quieras.
+Para construir objetos, primero debes decidir cómo deben verse, qué papel deben desempeñar en tu juego y cómo el jugador puede controlar su movimiento en pantalla. Puedes hacer esto creando una clase para cada objeto que quieras en la pantalla. Antes de que los objetos se creen en un programa, debes definir su clase. Una clase define cómo deberá verse y comportarse un objeto individual. Contiene los atributos y métodos que su objeto puede usar mientras el programa está en ejecución (en este caso se trata de un juego Pong). Solo necesitas definir una clase una vez, después de lo cual puedes usarla para crear tantos objetos como quieras.
 
 No puedes usar una clase directamente en un programa; una clase debe tener un objeto como manifestación que se use en el programa.
-Todos los aspectos relacionados con lo visual y el movimiento se llaman `"atributos"` del objeto que ves en la pantalla del ordenador.
-Todos los aspectos relacionados con el control de un objeto se llaman `"funciones"` del objeto.
+Todos los aspectos relacionados con lo visual y el movimiento se llaman `"atributos"` del objeto que ves en la pantalla del computadora.
+Todos los aspectos relacionados con el control de un objeto se implementan mediante `"métodos"` del objeto.
 
 Primero, define la clase para la paleta (paddle) usada en el juego. Para hacerlo, usa el siguiente código:
 

@@ -57,7 +57,7 @@ font_name = pygame.font.match_font(font_label)
 ### Actividad 6
 
 ```python
-if ball.x < 0
+if ball.x < 0:
     self.RIGHTSCORE = self.RIGHTSCORE + 1
     ball.x = self.BALLXSTARTPOSITION
     ball.y = self.BALLYSTARTPOSITION

@@ -13,12 +13,12 @@ Busca `# TODO (ACTIVITY 5)` en el código. Declara la variable `font_label` y as
 
 {{% notice tip %}}
 
-Puedes obtener una lista de las fuentes que tu equipo soporta ejecutando `pygame.font.get_fonts()`. Intenta usar una fuente distinta de `'arial'`. ¿Cuál te gusta más? Pulsa **Run** para ver el resultado.
+Puedes obtener una lista de las fuentes que tu computadora reconoce ejecutando `pygame.font.get_fonts()`. Intenta usar una fuente distinta de `'arial'`. ¿Cuál te gusta más? Haz clic en **Run** para ver el resultado.
 
 {{% /notice %}}
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/PongLessonStudent" target="_blank">Launch Replit</a>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/PongLessonStudent" target="_blank">Abrir en Replit</a>
 
 ## Conclusión
 
-Acabas de modificar el parámetro de la fuente usando una variable. Si usas la misma fuente en varios lugares de tu programa, puedes modificar la variable en un solo sitio, y el cambio se aplicará en todos los lugares donde la hayas usado!
+Acabas de modificar el parámetro de la fuente usando una variable. !Si usas la misma fuente en varios lugares de tu programa, puedes modificar la variable en un solo sitio, y el cambio se aplicará en todos los lugares donde la hayas usado!

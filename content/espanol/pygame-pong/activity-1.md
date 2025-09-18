@@ -7,15 +7,15 @@ draft: false
 
 Puedes ajustar el límite del juego Pong modificando la altura y el ancho del rectángulo que representa el borde.
 
-Ve al <a href="https://replit.com/@nuevofoundation/PongLessonStudent?v=1" target="_blank">código</a> que contiene el juego Pong. Pulsa **run**. Observa que el borde del juego no parece correcto: mira la imagen abajo. Vamos a arreglar eso en esta actividad, para que el borde del juego se vea mejor.
+Ve al <a href="https://replit.com/@nuevofoundation/PongLessonStudent?v=1" target="_blank">código</a> que contiene el juego Pong. Haz clic en **run**. Observa que el borde del juego no se ve bien: mira la imagen abajo. Vamos a arreglar eso en esta actividad, para que el borde del juego se vea mejor.
 
 ![Pong game with incorrect boundary](../media/width-highlight.png)
 
-Busca `# TODO (ACTIVITY 1)` en el código. Sigue las instrucciones allí para modificar el atributo `WIDTH` de la clase `Pong`. Si lo haces correctamente, el problema del borde se habrá solucionado. Pulsa **run** para observar el resultado.
+Busca `# TODO (ACTIVITY 1)` en el código. Sigue las instrucciones allí para modificar el atributo `WIDTH` (ancho) de la clase `Pong`. Si lo haces correctamente, el problema del borde se habrá solucionado. Haz clic en **run** para observar el resultado.
 
 {{% notice tip %}}
 
-Prueba a cambiar los valores de height y width para ver los efectos que distintos valores tienen en el borde del juego.
+Prueba a cambiar los valores de alto (height) y ancho (width) para ver los efectos que distintos valores tienen en el borde del juego.
 
 {{% /notice %}}
 

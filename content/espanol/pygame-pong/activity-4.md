@@ -1,5 +1,5 @@
 ---
-title: "Actividad 4 - Cambiar la Asignacion de Teclas para Mover la Paleta Derecha"
+title: "Actividad 4 - Cambiar la Asignación de Teclas para Mover la Paleta Derecha"
 date: 2019-07-29T13:24:17-07:00
 weight: 6
 draft: false
@@ -13,12 +13,12 @@ Busca `# TODO (ACTIVITY 4)` en el código. Modifica el valor del atributo corres
 
 {{% notice tip %}}
 
-Pulsa <b>run</b> para confirmar el resultado.
+Haz clic en <b>run</b> para confirmar el resultado.
 
 {{% /notice %}}
 
-<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/PongLessonStudent" target="_blank">Launch Replit</a>
+<a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/PongLessonStudent" target="_blank">Abrir en Replit</a>
 
 ## Conclusión
 
-Acabas de modificar el atributo `up_key` en la clase `Paddle` para influir en cómo debe moverse la paleta derecha en la pantalla.  
+Acabas de modificar el atributo `up_key` en la clase `Paddle` para influir en cómo se mueve la paleta derecha en la pantalla.  

@@ -14,7 +14,7 @@ Quizá ya sepas cómo jugar Pong en la vida real. ¿Qué te parece crear tu prop
 
 El objetivo de este taller es usar tus conocimientos existentes de Python para corregir el código donde se indique para hacer que el juego funcione y aprender sobre la biblioteca Pygame y sus funciones en el proceso.
 
-## Tabla de contenidos
+## Tabla de contenido
 
 <details>
 <summary>Secciones</summary>
