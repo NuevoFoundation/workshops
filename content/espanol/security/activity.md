@@ -11,8 +11,7 @@ weight: 3
     Escriba su oración favorita en el cuadro de texto a continuación. Asegúrese de que tenga al menos cinco palabras. (p. Ej., Me gusta jugar al voleibol en la playa.) 
   <input type="email"  name="email" placeholder="Su oración favorita">
 </br>
-    Ahora tome la primer letra de cada palabra de su oración y escribalas en el cuadro de texto. (p. Ej.,
-    mgjavelp)
+    Testing 123
   <input type="text" name="name" placeholder="La primer letra de cada palaba">
 </br>
     Agregue algunos números al texto. Recuerde la posición de los números. (p. Ej., 1mgjavelp8)
