@@ -26,7 +26,7 @@ Nuvi scurried inside... but soon disappeared behind twisty paths and secret corn
 
 Are you ready to begin your coding quest?
 
-![Nuvo and Nuvi turtle friends](https://media.giphy.com/media/8YutMatqkTfSE/giphy.gif)
+![Nuvo and Nuvi turtle friends](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDBmeHp1N2x1bGVybjFndDhlaWQxaWp0Zm9iOHJjazJud2lkd3Z1biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/twHPeW7Y818bBxP3BE/giphy.gif)
 
 Together, we’ll learn how to:
 - 🎨 Draw with the **Turtle** module  
@@ -44,3 +44,4 @@ Grab your keyboard, brave explorer — the maze awaits! 🌿
 <summary>Sections</summary>
 {{% children /%}}
 </details>
+
