@@ -11,10 +11,6 @@ icon: "fab fa-python"
 
 ## Introduction
 
-<p style="text-align: center;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/placeholder-video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
-
 Welcome to **The Tale of Nuvo and Nuvi: The Great Maze Adventure!** 🐢✨  
 
 Once upon a time, in a bright green meadow, two curious robot turtles — **Nuvo** and **Nuvi** — loved exploring, racing to the pond, and playing hide-and-seek under tall flowers.  
@@ -44,5 +40,6 @@ Grab your keyboard, brave explorer — the maze awaits! 🌿
 <summary>Sections</summary>
 {{% children /%}}
 </details>
+
 
 
