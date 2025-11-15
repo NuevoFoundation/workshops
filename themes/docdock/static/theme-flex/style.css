@@ -184,6 +184,7 @@ article > aside section {
 * {
   margin: 0;
   padding: 0;
+
 }
 
 html,
@@ -198,7 +199,10 @@ html {
 
 body {
   background-color: #fff;
-  color: #222;
+  color: #000000 !important;
+  font-family: "Lato" !important;
+  font-weight: 400 !important;
+  font-size: 24px !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -206,7 +210,7 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  line-height: 1.5rem;
+  line-height: 30px !important;
 }
 
 :disabled {
@@ -241,8 +245,8 @@ section strong {
 .nav-select {
   /* background: #e5e5e5; */
   display: none;
+  
 }
-
 .searchbox {
   margin: 0rem 0rem 0rem 0rem;
   padding: 0rem 0rem;
@@ -297,6 +301,7 @@ section strong {
 #navigation a i {
   font-size: 4em;
   margin: auto;
+  color: #000000;
 }
 #navigation a label {
   margin: auto;
@@ -345,7 +350,7 @@ section strong {
 }
 #navigation .nextprevbutton-subsection-name {
   margin: 13px 21px auto 21px;
-
+  color: #000000;
   text-align: left;
   font-family: Lato, monospace;
   font-weight: 900;
@@ -392,7 +397,6 @@ article {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  margin-top: 3.5rem;
   margin-right: auto;
   margin-left: auto;
   width:100%;
@@ -416,20 +420,82 @@ article section.page {
   overflow-y: auto;
   padding: 2rem 4rem;
 }
-article section.page h1:first-of-type {
-  margin: 3rem 0rem;
-  font-family: "Lato", "Helvetica", "Tahoma", "Geneva", "Arial",
+header h1:first-of-type {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Space Mono", "Lato", "Helvetica", "Tahoma", "Geneva", "Arial",
     sans-serif;
-  text-align: center;
-  color: #060606;
-  font-size: 3.25rem;
-  line-height: 2.7rem;
+  text-align: left;
+  color: #000000;
+  font-size: 48px;
+  line-height: 71.09px;
+  background-color:#Fcc600 !important;
+  font-weight: 700;
+  height: 100px;
+  top: 104px;
+  padding-left: 20px;
+  padding-top: 30px;
+  margin: 0 !important;
+}
+button, input, optgroup, select, textarea {
+  color:#000000!important;
+}
+#select-language-workshop {
+  background-color: #Fcc600;
+  border-width: 3px;
+  border-radius: 5px;
+  border-color:#000000;
+  font-family: "Lato", "Arial";
+  font-size: 18px;
+  font-weight: 600;
+  width: 115px;
+  height: 35px;
+  display: flex;
+  justify-content: right;
+  flex: wrap;
+  padding-left: 15px;
+}
+#select-language-home {
+  background-color: #ffffff;
+  border-width: 3px;
+  border-radius: 5px;
+  border-color:#000000;
+  font-family: "Lato", "Arial";
+  font-size: 18px;
+  font-weight: 600;
+  width: 100px;
+  height: 35px;
+  display: flex;
+  justify-content: right;
+  flex: wrap;
+}
+.language-bar-workshops {
+  background-color: #Fcc600 !important;
+  padding-bottom: 25px;
+  padding-right: 35px;
+}
+.panel.panel-primary {
+  border: 4px solid black;
+}
+.panel-primary > .panel-heading {
+  background-color: #000000 !important;
+  border-radius: 0px;
 }
 article section.page h1 {
   margin-top: 4rem;
 }
 article section.page h2 {
   margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  height: 77;
+  top: 27px;
+  left: 24;
+  color:#000000;
+  font-family: "Space Mono", "Lato", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 59.24px;
 }
 article section.page table {
   width: 100%;
@@ -469,9 +535,10 @@ article section.page img {
   margin: 3rem auto;
   display: block;
   text-align: center;
+  border: 4px solid black !important;
 }
 article section.page img.border {
-  border: 2px solid #e6e6e6 !important;
+  border: 2px solid #ffffff;
   padding: 2px;
 }
 article section.page img.shadow {
@@ -764,42 +831,55 @@ div.notices p:first-child:after {
   position: absolute;
   top: -27px;
   color: #fff;
+  font-size: 25px;
   left: 2rem;
   content: attr(header-value)
 }
 
+
+#header-value {
+  color: #000000;
+}
+
+
 div.notices.note {
-  border-top: 30px solid #6bb1e0;
+  border: 4px solid black;
+  border-top: 50px solid #000000;
   background: #e6f3fb;
   color: rgba(47, 103, 141, 0.995) !important;
 }
 
 div.notices.info {
-  border-top: 30px solid #f1b37e;
+  border: 4px solid black;
+  border-top: 30px solid #000000;
   background: #fefaf5;
   color: rgba(150, 90, 38, 0.995) !important;
 }
 
 div.notices.tip {
-  border-top: 30px solid #84c578;
+  border: 4px solid black;
+  border-top: 30px solid #000000;
   background: #e8f7e6;
   color: rgba(72, 125, 63, 0.995) !important;
 }
 
 div.notices.hint {
-  border-top: 30px solid #84c578;
+  border: 4px solid black;
+  border-top: 30px solid #000000;
   background: #e8f7e6;
   color: rgba(72, 125, 63, 0.995) !important;
 }
 
 div.notices.warning {
-  border-top: 30px solid #d58181;
+  border: 4px solid black;
+  border-top: 30px solid #000000;
   background: #fbeded;
   color: rgba(132, 56, 56, 0.995) !important;
 }
 
 div.notices.help {
-  border-top: 30px solid #d58181;
+  border: 4px solid black;
+  border-top: 30px solid #000000;
   background: #fbeded;
   color: rgba(132, 56, 56, 0.995) !important;
 }
