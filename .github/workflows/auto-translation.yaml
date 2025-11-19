@@ -55,8 +55,8 @@ jobs:
       uses: peter-evans/create-pull-request@v7
       with:
         commit-message: "Add AI translations for new workshop content"
-        title: "[Github Actions] AI Workshop Translations - #${{ github.event.pull_request.number || inputs.pr_number || 'manual' }}"
-        body: "This PR generates AI translations for new English workshop content."
-        branch: "auto-translation-suggestions-${{ github.event.pull_request.number || github.run_number }}"
+        title: "[Github Actions] AI Workshop Translations - #${{ github.event.pull_request.number }}"
+        body: "This PR generates AI translations for new English workshop content in this pull request [here](${{ github.event.pull_request.html_url }})."
+        branch: "auto-translation-suggestions-${{ github.event.pull_request.number }}"
         labels: "translation, auto-generated"
-        base: ${{ github.event.pull_request.base.ref || github.ref_name }}
+        base: "master" # or the default branch of your repository
