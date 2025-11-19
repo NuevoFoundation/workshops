@@ -22,31 +22,28 @@ jobs:
       with:
         ref: ${{ github.event.pull_request.head.ref || github.ref }}
         submodules: true
-        fetch-depth: 0
+        fetch-depth: 2
 
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: '8.0.x'
+        dotnet-version: '10.0.x' # or the version your project requires
+
+    - name: List files to be translated
+      run: |
+        echo "Files that will be translated:"
+        find content -name "*.md" -path "*/english/*" -type f
 
     - name: Run Translation Tool
       env:
         GITHUB_TOKEN: ${{ secrets.MODELS_TOKEN }}
       run: |
         languages=("french" "spanish" "portuguese" "german" "kyrgyz" "simplified-chinese" "traditional-chinese")
-        
-        # Get changed files with proper null-byte separation for safety
-        git diff --name-only -z -r HEAD^1 HEAD | grep -z '^content/english/.*/[^/]*\.md$' | while IFS= read -r -d '' file; do
-          echo "Translating: $file"
-          
-          # Validate file exists
-          if [[ ! -f "$file" ]]; then
-            echo "Warning: File $file not found, skipping"
-            continue
-          fi
-          
+        changed_files=$(git diff --name-only -r HEAD^1 HEAD | grep '^content/english/.*/[^/]*\.md$')
+        for file in $changed_files; do
+          echo "Translating $file"
           for lang in "${languages[@]}"; do
-            echo "  -> $lang"
+            echo " Running WorkShopTranslationV2 tool for language -> $lang"
             dotnet run --project translation-tool/WorkshopAutoTranslation/WorkShopTranslationV2 -- "$file" "$lang"
           done
         done
