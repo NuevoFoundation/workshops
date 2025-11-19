@@ -34,6 +34,12 @@ jobs:
         echo "Files that will be translated:"
         find content -name "*.md" -path "*/english/*" -type f
 
+    - name: Check translation tool structure
+      run: |
+        echo "Translation tool directory structure:"
+        ls -la translation-tool/
+        find translation-tool/ -name "*.csproj"
+
     - name: Run Translation Tool
       env:
         GITHUB_TOKEN: ${{ secrets.MODELS_TOKEN }}
@@ -44,7 +50,7 @@ jobs:
           echo "Translating $file"
           for lang in "${languages[@]}"; do
             echo " Running WorkShopTranslationV2 tool for language -> $lang"
-            dotnet run --project "translation-tool@46d1968/WorkshopAutoTranslation/WorkShopTranslationV2" -- "$file" "$lang"
+            dotnet run --project "translation-tool/WorkshopAutoTranslation/WorkShopTranslationV2" -- "$file" "$lang"
           done
         done
 
