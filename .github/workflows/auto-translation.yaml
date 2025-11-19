@@ -44,7 +44,7 @@ jobs:
           echo "Translating $file"
           for lang in "${languages[@]}"; do
             echo " Running WorkShopTranslationV2 tool for language -> $lang"
-            dotnet run --project "translation-tool @ 46d1968/WorkshopAutoTranslation/WorkShopTranslationV2" -- "$file" "$lang"
+            dotnet run --project "translation-tool@46d1968/WorkshopAutoTranslation/WorkShopTranslationV2" -- "$file" "$lang"
           done
         done
 
