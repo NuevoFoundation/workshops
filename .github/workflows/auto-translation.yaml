@@ -4,19 +4,15 @@ on:
   pull_request:
     paths:
       - content/english/**
-  workflow_dispatch:  # Add this for manual testing
-    inputs:
-      pr_number:
-        description: 'PR number to test translations on'
-        required: false
-        type: number
        
 jobs:
   auto-translate:
     runs-on: ubuntu-latest
     continue-on-error: true
 
-    permissions:
+      permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
       contents: write
       pull-requests: write
 
