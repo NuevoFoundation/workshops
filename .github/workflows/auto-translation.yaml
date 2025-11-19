@@ -4,6 +4,12 @@ on:
   pull_request:
     paths:
       - content/english/**
+  workflow_dispatch:  # Add this for manual testing
+    inputs:
+      pr_number:
+        description: 'PR number to test translations on'
+        required: false
+        type: number
        
 jobs:
   auto-translate:
@@ -18,8 +24,9 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
+        ref: ${{ github.event.pull_request.head.ref || github.ref }}
         submodules: true
-        fetch-depth: 0  # Fetch full history to ensure git diff works
+        fetch-depth: 0
 
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
@@ -28,7 +35,7 @@ jobs:
 
     - name: Run Translation Tool
       env:
-        MODELS_TOKEN: ${{ secrets.MODELS_TOKEN }}  # Use correct variable name
+        MODELS_TOKEN: ${{ secrets.MODELS_TOKEN }}
       run: |
         languages=("french" "spanish" "portuguese" "german" "kyrgyz" "simplified-chinese" "traditional-chinese")
         
@@ -52,8 +59,8 @@ jobs:
       uses: peter-evans/create-pull-request@v7
       with:
         commit-message: "Add AI translations for new workshop content"
-        title: "[Github Actions] AI Workshop Translations - #${{ github.event.pull_request.number }}"
-        body: "This PR generates AI translations for new English workshop content in this pull request [here](${{ github.event.pull_request.html_url }})."
-        branch: "auto-translation-suggestions-${{ github.event.pull_request.number }}"
+        title: "[Github Actions] AI Workshop Translations - #${{ github.event.pull_request.number || inputs.pr_number || 'manual' }}"
+        body: "This PR generates AI translations for new English workshop content."
+        branch: "auto-translation-suggestions-${{ github.event.pull_request.number || github.run_number }}"
         labels: "translation, auto-generated"
-        base: ${{ github.event.pull_request.base.ref }}  # Use correct base branch
+        base: ${{ github.event.pull_request.base.ref || github.ref_name }}
