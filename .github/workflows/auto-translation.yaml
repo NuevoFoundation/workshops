@@ -31,7 +31,7 @@ jobs:
 
     - name: Run Translation Tool
       env:
-        MODELS_TOKEN: ${{ secrets.MODELS_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.MODELS_TOKEN }}
       run: |
         languages=("french" "spanish" "portuguese" "german" "kyrgyz" "simplified-chinese" "traditional-chinese")
         
