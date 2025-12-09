@@ -5,7 +5,7 @@ weight: 8
 draft: false
 ---
 
-<img src="../media/bee_honeycomb.png" alt="Abeja pensando en colmena" width="25%" />
+<img src="../media/Perezoso.png" alt="Perezoso, ilustracion descargada de freepik" width="25%" />
 
 ¡Ya estamos por terminar nuestro viaje por Costa Rica! Para terminar vamos a conocer un poco sobre los Perezosos.  
 Los osos perezosos en Costa Rica son un ícono del país y hay dos especies: el de dos dedos (Choleopus hoffmanni) y el de tres dedos (Bradypus variegatus). Son conocidos por su lentitud, su habilidad para camuflarse y por ser símbolos nacionales que representan la conexión de Costa Rica con la naturaleza. Puedes avistarlos en parques nacionales como Manuel Antonio y Corcovado, y en zonas como La Fortuna y Cahuita.  

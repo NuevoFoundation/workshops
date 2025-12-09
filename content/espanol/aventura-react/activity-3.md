@@ -13,7 +13,7 @@ Así que vamos a aprender sobre el proceso del café y porque no aprender más d
 
 **Escribe este archivo `"FincaCafe.jsx"`**
 
-<img src="../media/playas.png" alt="Limpieza de playa" style="width:25%;);">
+<img src="../media/cafe.png" alt="Cafe" style="width:50%;);">
 
 Para hacer café primero debemos saber que esto lleva un proceso importante que contiene algunas etapas, que veremos a continuación.
 
