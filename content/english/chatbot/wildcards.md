@@ -6,7 +6,7 @@ weight: 8
 
 ## Wildcards
 You may be noticing now that it takes a lot of work to write a category for every possible way a user might ask a question. For example, currently the bot will respond to "Hello" with "Hello, world". But what if the user says "Hello there" or "Hello chatbot"? We would have to write a new category for each of these cases. Thankfully, there are additional tools we can use to make our bot more flexible. 
-
+<img  src="../img/party.png" alt="" width="25%" style="display: block; margin-left: 0;" /></p>
 One of these tools is the **wildcard**. A wildcard is a special character that matches any word or phrase. Let's see how it works.
 
 ```

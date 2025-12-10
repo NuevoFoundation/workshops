@@ -6,6 +6,7 @@ weight: 10
 
 ## Echoing Wildcards
 Let's use the wildcard ```*``` and ```<star />``` tag together to allow our bot to include user input in its response. 
+<img  src="../img/learn.png" alt="" width="20%" style="display: block; margin-left: 0;" /></p>
 
 1. If the user enters "My name is [name]", the bot should respond with "Nice to meet you, [name]!".
 Examples:
