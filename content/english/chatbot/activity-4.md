@@ -18,4 +18,4 @@ Use the wildcard at the beginning of the pattern.
 2. If the user enters a question that **ENDS WITH** "color" (e.g. "What is your favorite color?", "What's your favorite color?"), the bot should respond with "My favorite color is blue".
 
 3. If the user enters a question that **ENDS WITH** "name" (e.g. "What is your name?", "What's your name?", "Do you have a name?"), the bot should respond with "My name is Chatbot".
-<img  src="../img/idea.png" alt="" width="20%"/></p>
+<img src="../img/idea.png" alt="" width="20%"/>

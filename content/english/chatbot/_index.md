@@ -17,7 +17,7 @@ In order to complete the workshop, you will need an email address to sign up for
 
 ## What is a chatbot?
 A chatbot is a computer program that simulates human conversation to answer questions. 
-<img  src="./img/surprised.png" alt="" width="20%" style="" /></p>
+<img src="./img/surprised.png" alt="" width="20%" style="" />
 
 ## Examples of chatbots
 Chances are you've already interacted with a chatbot as part of your daily life. 
@@ -34,7 +34,7 @@ More recently, chatbots have become more well-known thanks to technologies like 
 ## History of chatbots
 Chatbots have been around for a long time. The first chatbot was created in 1966 and was called ELIZA. In 1995, a new chatbot called ALICE was created. ALICE was written using AIML, which is the same language we will learn in this workshop.
 
-<img  src="./img/elderly.png" alt="" width="20%"/></p>
+<img src="./img/elderly.png" alt="" width="20%"/>
 
 ## Table of Contents
 
