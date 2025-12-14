@@ -12,6 +12,8 @@ Right now, our bot can only respond to "Hello". Let's add some more categories s
 2. If the user says "What is your favorite color?" the bot should respond with "My favorite color is blue".
 3. If the user says "What is your favorite food?" the bot should respond with "My favorite food is pizza".
 
+<img src="../img/ideas.png" alt="" width="30%" style="" /
+
 As a reminder, here is the basic structure of a category:
 
 ```
