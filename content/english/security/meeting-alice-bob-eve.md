@@ -5,6 +5,8 @@ draft: false
 weight: 1
 ---
 
+<p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/q6HvZ220xpY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 ![Cannot load image](../img/Bob.png?height=250px)
 
 Meet our friend <b>Bob</b>. **Bob** has a secret that he doesn’t want to share, he 

@@ -5,6 +5,8 @@ weight: 10
 draft: false
 ---
 
+<p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/f1LwVBXHRhs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 <img src="../media/turtle_circles.png" alt="drawing a figure 8" width="25%"/>
 
 Great! Now let’s make a figure 8 as the first step to making a mandala flower! A figure 8 is just two circles that are opposite to each other. 

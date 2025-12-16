@@ -15,6 +15,6 @@ To complete this activity, you will need to complete the following steps:
 3. Copy the code from the white box below "GIF Embed Code"<br>
     <img src="../media/giphy-embed-instruction.PNG" />
 4. Paste the code anywhere in your page as long as it's inside the <code>&lt;body&gt;</code> tags.<br> 
-    <img src="https://qyauda.dm.files.1drv.com/y4mWCkifMfvdIaCqGW09zaPjD40e01lWkslVcULewSkHTta3krUbVk_9gF0un3CRjC7OZV_kee2RVhYze2QWcTuB9QJdjFCa_ODpEO4tcmELYwxy3cVRtswz3IeVyX6R9CuT9hLlbajdX7y0zm9otMQ2M5Ejq81FSaRAnXdK0KMNAPq_QdzEhOuiuHlKleDGFQdYjtx7nKiayg2HSUuq16n0w?width=419&height=228&cropmode=none" />
+    <img src="../media/paste-code-here.png" width="30%" />
 <a class="my-2 mx-4 btn btn-info" href="https://codepen.io/Sunny-Dee/pen/moqzmP" target="_blank">Try it yourself!</a>
 

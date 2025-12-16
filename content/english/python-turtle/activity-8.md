@@ -5,6 +5,8 @@ weight: 11
 draft: false
 ---
 
+<p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/vfwj3tqEZCI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 <img src="../media/bee_happy.png" alt="Bee happy" width="25%"/>
 
 We’re done creating our first figure 8! We can now use the `figure_8()` function to create a mandala flower! A mandala flower is many figure 8s placed on top of each other at different angles. So, to do this we need to use a... you guessed it, a loop!
