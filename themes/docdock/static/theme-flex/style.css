@@ -1202,6 +1202,16 @@ ul.children.children-card > .workshop-button > p {
   section > .toc {
     display: none;
   }
+
+  /* Footer date hover effect */
+  footer .footline .date .date-text {
+    display: none;
+  }
+
+  footer .footline .date:hover .date-text {
+    display: inline;
+    margin-left: 5px;
+  }
 }
 @media (max-width: 768px) {
   article {
@@ -1294,9 +1304,15 @@ ul.children.children-card > .workshop-button > p {
   /* Navigation improvements */
   .nav-select {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     padding: 0.5rem;
     box-sizing: border-box;
+  }
+
+  .nav-select .nav-label {
+    margin-bottom: 0.5rem;
   }
 
   .nav-select select {
@@ -1305,6 +1321,12 @@ ul.children.children-card > .workshop-button > p {
     box-sizing: border-box;
     font-size: 16px;
     padding: 8px;
+  }
+
+  /* Footer adjustments */
+  .App-footer-small {
+    font-size: 10px;
+    padding: 0 10px;
   }
 
   /* Image responsive handling */
