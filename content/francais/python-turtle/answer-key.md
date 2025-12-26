@@ -50,6 +50,20 @@ for i in range(6):
   turtle.left(60)
 ```
 
+```python
+for i in range(5):
+  turtle.forward(50)
+  turtle.left(144)
+```
+
+```python
+for i in range(5):
+  turtle.forward(50)
+  turtle.left(72)
+  turtle.forward(50)
+  turtle.right(144)
+```
+
 ### Activité 4
 
 ```python

@@ -5,21 +5,23 @@ weight: 5
 draft: false
 ---
 
+<p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/RFWEYPAoiew" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 ![Turtle, hexagon animation](https://media.giphy.com/media/TDLqC61A5uOAO8WwnJ/giphy.gif)
 
 Great job! You just drew your first shape in Python with Turtle! Now let’s slightly change the code we already wrote to draw a square to instead draw a hexagon. Alex is a bee, after all, and he needs to draw hexagons to build his first honeycomb.
 
 A hexagon is a shape with six sides and six angles. Hexagons are fascinating shapes that we often see in nature! For example, bees use hexagons to build their honeycombs because this shape is very efficient; it uses the least amount of material to hold the most honey. 
 
-To help you draw a hexagon, think of how many sides a hexagon has. Now lets find out how many degrees should the turtle turn?
+To help you draw a hexagon, think of how many sides a hexagon has. Now, let's find out how many degrees should the turtle turn?
 
 {{% expand "**Hint:**" %}} 
-Remember: If you divide 360 degrees by the number of turns you need to make for a shape, you'll get the angle you need to turn.
+Remember: If you divide 360 degrees by the number of sides of the shape, you'll get the angle you need to turn.
 {{% /expand %}}
 <br/>
 
 {{% expand "**Show answer:**" %}} 
-The turtle needs to turn 6 times to draw the hexagon. So, 360 degrees ÷ 6 turns = 60 degrees per turn.
+The turtle needs to draw 6 sides of the hexagon. So, 360 degrees ÷ 6 turns = 60 degrees per turn.
 {{% /expand %}}
 <br/>
 
@@ -32,3 +34,12 @@ for i in range(3):
 ```
 
 <iframe src="https://trinket.io/embed/python/e82295e92f" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+{{% expand "**Extra Challenge:**" %}} 
+If you've finished early, try modifying your code and try to draw more complex shapes! Here are some examples of shapes you can try to draw.
+
+<div style="display: flex">
+  <div><img src="../media/star_1.png" height="60%" title="Star shape 1" alt="Star shape 1"/></div>
+  <div><img src="../media/star_2.png" height="60%" title="Star shape 2" alt="Star shape 2"/></div>
+</div>
+{{% /expand %}}

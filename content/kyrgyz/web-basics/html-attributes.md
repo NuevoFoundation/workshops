@@ -15,4 +15,4 @@ weight: 5
 ![alt text](../media/attribute-sm.png "img тег үлгүсү")
 
 Натыйжасы:
-![alt text](https://qyatda.dm.files.1drv.com/y4mTmthbnZl8R4dmLmzkmrlFe1Wg8V1YoXSQp0JIvJJQgPK_IC6O3oWMQXXqUH386u9cNsKg-8kUV8ec4_TvC5eUFUrgkdZeRHJ95uQ0nUbgO_BO3_33cWBUkS9KUqvZhSDYcn9h037DYIPnmUerzBJ1XyjbhSseOhdpDJXya8Cn__51WxOdTygEpsC9NA4NriAZXjTizgUsiNu1qYIo-1B7w?width=495&height=660&cropmode=none "Бенжинин сүрөтү")
+<img src="../media/benji.jpg" width="40%" />
