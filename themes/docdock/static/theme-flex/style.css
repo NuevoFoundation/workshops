@@ -1202,16 +1202,6 @@ ul.children.children-card > .workshop-button > p {
   section > .toc {
     display: none;
   }
-
-  /* Footer date hover effect */
-  footer .footline .date .date-text {
-    display: none;
-  }
-
-  footer .footline .date:hover .date-text {
-    display: inline;
-    margin-left: 5px;
-  }
 }
 @media (max-width: 768px) {
   article {
