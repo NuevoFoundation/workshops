@@ -49,11 +49,15 @@ content/{language}/{workshop-name}/
 ├── activity-2.md          # Second activity (builds on first)
 ├── ...                    # As many activities as needed (3-11 is typical)
 ├── answer-key.md          # All answers, hidden from student navigation
-├── conclusion.md          # Celebration page with Nuvi ("You did it!")
 └── media/                 # Images, diagrams (NO video files, use YouTube)
     ├── descriptive-name.png
     └── ...
 ```
+
+> **Note:** The Hugo theme automatically adds a Nuvi "You did it! Workshop complete" celebration
+> to the last page of every workshop. You do not need to create a separate conclusion file.
+> If your workshop has a special story ending (like web-basics' Benji adoption story),
+> you can optionally add a `conclusion.md` page.
 
 ---
 
@@ -61,7 +65,7 @@ content/{language}/{workshop-name}/
 
 ### Landing Page (`_index.md`)
 
-- [ ] **Frontmatter is complete:**
+- [ ] **Metadata block is complete** (the YAML between `---` markers at the top of each file, called "front matter" in Hugo):
   ```yaml
   ---
   title: "Workshop Title"
@@ -82,7 +86,7 @@ content/{language}/{workshop-name}/
 
 ### Activities (`activity-N.md`)
 
-- [ ] **Frontmatter includes weight** for proper sidebar ordering:
+- [ ] **Metadata block includes weight** for proper sidebar ordering:
   ```yaml
   ---
   title: "Activity 1 - Descriptive Title"
@@ -105,7 +109,7 @@ content/{language}/{workshop-name}/
 
 ### Answer Key (`answer-key.md`)
 
-- [ ] **Frontmatter has `hidden: true`** so students don't see it in navigation:
+- [ ] **Metadata block has `hidden: true`** so students don't see it in navigation:
   ```yaml
   ---
   title: "Answer Key"
@@ -118,20 +122,6 @@ content/{language}/{workshop-name}/
 - [ ] **Complex activities have step-by-step solutions**, not just final code
 - [ ] **Optional/bonus challenges** are also covered
 - [ ] **Teacher notes** where helpful ("This curriculum allows students to be creative. The below is just an example")
-
-### Completion Page (`conclusion.md`)
-
-- [ ] **Nuvi celebration** image/GIF ("You did it! Workshop complete!")
-- [ ] **Summary** of what the student learned
-- [ ] **Next steps** or related workshops to explore
-- [ ] **Frontmatter with high weight** so it appears last:
-  ```yaml
-  ---
-  title: "You Did It!"
-  draft: false
-  weight: 200
-  ---
-  ```
 
 ### Media & Assets (`media/`)
 
@@ -174,7 +164,7 @@ When reviewing a workshop PR, verify:
 6. **Self-paced friendly?** Could a student complete this without a teacher?
 7. **Fun factor?** Is the theme engaging? Can students personalize it?
 8. **Accessibility?** Descriptive alt text on all images, clear instructions
-9. **Conclusion page?** Nuvi celebration at the end
+9. **Completion**: Hugo theme auto-adds Nuvi "You did it!" to the last page (no action needed)
 10. **Progressive difficulty?** Activities build on each other, one concept at a time
 
 ---
@@ -206,7 +196,7 @@ See [content/guidelines/shortcodes/](content/guidelines/shortcodes/) for full do
 6. **Record YouTube videos** for each activity page explaining the concept
 7. **Add media** with descriptive alt text and consistent, case-sensitive file naming
 8. **Create the answer key** with solutions for every challenge (set `hidden: true`)
-9. **Add the conclusion** with Nuvi celebration and next steps
+9. **Verify completion**: The Hugo theme auto-adds Nuvi "You did it!" to the last page. Optionally add a `conclusion.md` if your story has a special ending
 10. **Add Mermaid diagrams** for complex concepts
 11. **Self-test**: Follow your own workshop start to finish as if you were a student
 12. **Translate** if creating a bilingual version (use tu for Spanish)
@@ -221,7 +211,7 @@ When translating a workshop to another language:
 - [ ] Translate ALL text content (titles, descriptions, instructions, alt text)
 - [ ] Keep code snippets in the original programming language (variable/function names stay in English)
 - [ ] Translate comments inside code to the target language
-- [ ] Update frontmatter `title` and `description` to the target language
+- [ ] Update metadata block `title` and `description` to the target language
 - [ ] Reuse the same media files (images are language-neutral)
 - [ ] For Spanish: use **tu** conjugation for broad Latin American accessibility
 - [ ] Verify the translation reads naturally, not like a machine translation
