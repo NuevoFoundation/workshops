@@ -220,4 +220,4 @@ When translating a workshop to another language:
 
 *This guide is maintained by [Nuevo Foundation](https://nuevofoundation.org). Questions? Open an issue or reach out to the workshop team.*
 
-*"Si usted tiene, usted tiene que dar." - If you have, you have to give.*
+*"Si usted tiene, usted tiene que dar." - If you have, you have to give.* Papito, Bea's grandpa.
