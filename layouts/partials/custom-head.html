@@ -1,0 +1,28 @@
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-879TB3F3ES"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-879TB3F3ES');
+</script>
+
+<meta
+  name="description"
+  content="
+{{ with.Description }}
+    {{ . }}
+{{ else }}
+    {{ with.Site.Params.description }}
+        {{ . }}
+    {{ end }}
+{{ end }}"
+/>
+{{ with.Site.Params.author }}
+<meta
+  name="author"
+  content="
+    {{ . }}"
+/>
+{{ end }}
