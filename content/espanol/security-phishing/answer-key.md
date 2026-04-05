@@ -1,7 +1,8 @@
 ---
 title: "Answer Key - Security"
 description: "Respuestas para el curriculo de seguridad"
-draft: true
+draft: false
+hidden: true
 hidden: true
 weight: 5
 ---
