@@ -20,6 +20,8 @@ The ```<star />``` tag is a special tag that allows us to use the word or phrase
 
 Let's walk through how this category works. The pattern "MY FAVORITE COLOR IS *" will match any input that starts with "MY FAVORITE COLOR IS" followed by any word or phrase. So the pattern will match "MY FAVORITE COLOR IS BLUE" and "MY FAVORITE COLOR IS RED" and "MY FAVORITE COLOR IS GREEN" and so on. The ```<star />``` tag will capture the word or phrase that the user entered and use it in the response. So if the user enters "MY FAVORITE COLOR IS BLUE", "blue" is the word represented by the wildcard so when the chatbot responds, ```<star />``` will be replaced with "blue". The bot will respond with "Your favorite color is blue".
 
+<img  src="../img/sentence_response.png" alt="" width="27%"  /></p>
+
 Here are some more examples of inputs and outputs from this category:
 
 Input | Output 
