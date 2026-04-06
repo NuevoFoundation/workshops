@@ -21,7 +21,7 @@ Tu misión es comprobar este comportamiento en el simulador y encender el camino
 
 ---
 
-<img src="../media/Pattern.webp" alt="Patrón decorativo del taller de lógica" width="100%" />
+<img src="../media/pattern.webp" alt="Patrón decorativo del taller de lógica" width="100%" />
 
 ## ¿Qué es la compuerta OR?
 

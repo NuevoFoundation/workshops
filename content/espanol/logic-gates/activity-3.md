@@ -22,7 +22,7 @@ Tu misión es construir un circuito que **invierta** la señal de entrada.
 
 ---
 
-<img src="../media/Pattern.webp" alt="Patrón decorativo del taller de lógica" width="100%" />
+<img src="../media/pattern.webp" alt="Patrón decorativo del taller de lógica" width="100%" />
 
 ## ¿Qué es la compuerta NOT?
 

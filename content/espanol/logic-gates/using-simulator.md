@@ -14,7 +14,7 @@ Para restaurarla, primero debemos aprender a usar el simulador de circuitos lóg
 
 ---
 
-<img src="../media/Pattern.webp" alt="Decoracion" width="100%" />
+<img src="../media/pattern.webp" alt="Decoracion" width="100%" />
 
 ## Uso básico del simulador
 
@@ -25,19 +25,19 @@ Antes de aprender compuertas lógicas, necesitamos entender cómo colocar compon
 En la parte izquierda se encuentra una barra con todos los componentes disponibles, como:
 
 - Entradas (Input) 
-<img src="../media/LogicInput.png" alt="Foto de una entrada" width="40px" class="lg-img"/>
+<img src="../media/logicinput.png" alt="Foto de una entrada" width="40px" class="lg-img"/>
 
 - Salidas (Output) 
-<img src="../media/LogicOutput.png" alt="Foto de una salida" width="40px" class="lg-img"/>
+<img src="../media/logicoutput.png" alt="Foto de una salida" width="40px" class="lg-img"/>
 
 - Reloj (CLK) 
-<img src="../media/LogicClock.png" alt="Foto de un reloj" width="64px" class="lg-img"/>
+<img src="../media/logicclock.png" alt="Foto de un reloj" width="64px" class="lg-img"/>
 
 - Compuertas lógicas (AND, OR, NOT, etc.)  
 <div style="margin-left: 20px; display: flex; gap: 5px; align-items: center;">
-  <img src="../media/LogicAND.png" alt="Foto de un compuerta lógica AND" width="64px"/>
-  <img src="../media/LogicOR.png" alt="Foto de un compuerta lógica OR" width="64px"/>
-  <img src="../media/LogicNOT.png" alt="Foto de un compuerta lógica NOT" width="64px"/>
+   <img src="../media/logicand.png" alt="Foto de un compuerta lógica AND" width="64px"/>
+   <img src="../media/logicor.png" alt="Foto de un compuerta lógica OR" width="64px"/>
+   <img src="../media/logicnot.png" alt="Foto de un compuerta lógica NOT" width="64px"/>
 </div>
 
 En la parte superior hay botones importantes:

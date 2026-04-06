@@ -19,7 +19,7 @@ Frente a la puerta de piedra, el **Tucán** te guiña un ojo:
 
 ---
 
-<img src="../media/Pattern.webp" alt="Patrón decorativo del taller de lógica" width="100%" />
+<img src="../media/pattern.webp" alt="Patrón decorativo del taller de lógica" width="100%" />
 
 ## Objetivo lógico
 

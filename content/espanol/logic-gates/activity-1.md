@@ -23,7 +23,7 @@ Tu misión es probar este comportamiento utilizando el simulador de compuertas l
 
 ---
 
-<img src="../media/Pattern.webp" alt="Patrón decorativo del taller de lógica" width="100%" />
+<img src="../media/pattern.webp" alt="Patrón decorativo del taller de lógica" width="100%" />
 
 ## ¿Qué es la compuerta AND?
 
