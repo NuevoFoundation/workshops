@@ -45,7 +45,7 @@ En la parte superior hay botones importantes:
 - **Move**: mover componentes ya colocados.
 - **Delete**: eliminar componentes.
 - **Save / Load**: guardar o cargar circuitos.
-<img src="../media/Menu.png" alt="Foto de menu del simulador" class="lg-img"/>
+<img src="../media/menu.png" alt="Foto de menu del simulador" class="lg-img"/>
 
 
 El área en blanco es donde construirás tu circuito.
