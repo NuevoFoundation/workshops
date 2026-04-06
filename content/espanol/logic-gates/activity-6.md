@@ -7,9 +7,10 @@ draft: false
 
 <link rel="stylesheet" href="../_logic-gates.css" type="text/css"></link>
 
-<img src="../media/perezoso.webp" alt="Decoración" width="10%" />
+<img src="../media/perezoso.webp" alt="Nuvi disfrazado de perezoso" width="10%" />
 
 ## Introducción
+
 
 El **Perezoso** te espera en la montaña:
 
@@ -18,7 +19,7 @@ El **Perezoso** te espera en la montaña:
 
 ---
 
-<img src="../media/Pattern.webp" alt="Decoración" width="100%" />
+<img src="../media/Pattern.webp" alt="Patrón decorativo del taller de lógica" width="100%" />
 
 ## Objetivo lógico
 
@@ -43,7 +44,7 @@ Ver tabla de verdad completa
 
 ---
 
-<img src="../media/paisaje_camino.webp" alt="Decoración" width="100%" />
+<img src="../media/paisaje_camino.webp" alt="Paisaje de la cima de la montaña" width="100%" />
 
 ## Instrucciones en el simulador
 
@@ -53,7 +54,7 @@ Ver tabla de verdad completa
 - **NOT Gate**  
 - **Output**
 
-<img src="../media/actividad_6.png" alt="Decoración" width="20%" class="lg-img"/>
+<img src="../media/actividad_6.png" alt="Ejemplo visual del circuito OR seguido de NOT con dos entradas y una salida" width="20%" class="lg-img"/>
 
 ### 2. Conectar
 1. A y B ➔ **OR**  
@@ -61,7 +62,7 @@ Ver tabla de verdad completa
 3. Salida de **NOT** ➔ **Output**
 
 ### 3. Probar
-- Probá 00, 01, 10, 11.  
+- Prueba 00, 01, 10, 11.  
 - Solo con 00 la salida debe ser 1.
 
 **Condición de victoria:** si hay **alguna** luz en A o B, la salida es 0.
@@ -71,7 +72,7 @@ Ver tabla de verdad completa
 ## Consejos rápidos
 
 - Si la salida queda siempre en 1, puede faltar el cable de **OR** hacia **NOT**.  
-- Nombrá el intermedio `OR_AB`.
+- Nombra el intermedio `OR_AB`.
 
 ---
 

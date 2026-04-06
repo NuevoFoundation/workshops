@@ -15,18 +15,18 @@ Aquí viven animales muy especiales: la **Rana**, el **Tucán**, el **Perezoso**
 Ellos protegen una **esfera mágica** que mantiene el bosque lleno de vida y luz.  
 Pero algo ha pasado... la esfera se está apagando, y solo podrá encenderse de nuevo si **resolvemos acertijos usando compuertas lógicas**.  
 
-¿Te animás a ayudarlos?
+¿Te animas a ayudarlos?
 
 ---
 
-<img src="./media/Pattern.webp" alt="Decoracion" width="100%" />
+<img src="./media/Pattern.webp" alt="Patrón decorativo del taller de lógica" width="100%" />
 
 
 ## ¿Listo para comenzar?
 
 Haz clic en la primera sección para iniciar la aventura con nuestros amigos del bosque.
 
-<img src="./media/Sphere.webp" alt="Decoracion" width="10%" />
+<img src="./media/Sphere.webp" alt="Ilustración de la esfera mágica del bosque" width="10%" />
 
 ---
 

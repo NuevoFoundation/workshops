@@ -7,11 +7,12 @@ draft: false
 
 <link rel="stylesheet" href="../_logic-gates.css" type="text/css"></link>
 
-<img src="../media/tucan.png" alt="Decoración" width="15%" />
+<img src="../media/tucan.png" alt="Ilustración de Nuvi con disfrás de tucán" width="15%" />
 
 ## Introducción
 
-Al avanzar por el bosque, llegás a una gran puerta de madera.  
+
+Al avanzar por el bosque, llegas a una gran puerta de madera.  
 Un tucán aparece junto a ella y te dice:
 
 > “Esta puerta solo se abre si se encienden las dos antorchas al mismo tiempo.  
@@ -22,7 +23,7 @@ Tu misión es probar este comportamiento utilizando el simulador de compuertas l
 
 ---
 
-<img src="../media/Pattern.webp" alt="Decoración" width="100%" />
+<img src="../media/Pattern.webp" alt="Patrón decorativo del taller de lógica" width="100%" />
 
 ## ¿Qué es la compuerta AND?
 
@@ -49,28 +50,29 @@ Ver tabla de verdad completa
 
 ---
 
-<img src="../media/paisaje_puerta.webp" alt="Decoración" width="100%" />
+<img src="../media/paisaje_puerta.webp" alt="Paisaje de la puerta en el bosque" width="100%" />
 
 ## Instrucciones en el simulador
 
 ### 1. Colocar los componentes
-1. Asegurate de estar en modo **Edit**.
-2. Desde la barra lateral izquierda, hacé clic en:
-   - **Input** ➔ colocá **dos** entradas (A y B).
-   - **AND Gate** ➔ colocá una compuerta AND.
-   - **Output** ➔ colocá una salida a la derecha de la compuerta.
+1. Asegúrate de estar en modo **Edit**.
+2. Desde la barra lateral izquierda, haz clic en:
+   - **Input** ➔ coloca **dos** entradas (A y B).
+   - **AND Gate** ➔ coloca una compuerta AND.
+   - **Output** ➔ coloca una salida a la derecha de la compuerta.
 
-<img src="../media/actividad_1.png" alt="Decoración" width="20%" class="lg-img"/>
+<img src="../media/actividad_1.png" alt="Ejemplo visual del circuito AND con dos entradas y una salida" width="20%" class="lg-img"/>
 
 ### 2. Conectar los componentes
-1. Hacé clic en el círculo de salida de la **entrada A**, luego clic en una de las entradas de la compuerta AND.  
-2. Repetí lo mismo con la **entrada B**.  
-3. Desde la salida de la compuerta AND, conectá al círculo de la **salida**.
+1. Haz clic en el círculo de salida de la **entrada A**, luego clic en una de las entradas de la compuerta AND.  
+2. Repite lo mismo con la **entrada B**.  
+3. Desde la salida de la compuerta AND, conecta al círculo de la **salida**.
 
 ### 3. Probar el circuito
-- Hacé clic sobre cada entrada para cambiar entre `0` y `1`.  
-- Probá todas las combinaciones posibles.  
-- La puerta del Tucán solo se “abre” (salida = 1) cuando:
+- Haz clic sobre cada entrada para cambiar entre `0` y `1`.  
+- Prueba todas las combinaciones posibles.  
+- La puerta del Tucán solo se “abre” (salida = 1) cuando la entrada A es 1 y la entrada B es 1 (A=1 AND B=1).
+
 
 ---
 

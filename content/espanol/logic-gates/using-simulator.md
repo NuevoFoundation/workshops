@@ -48,7 +48,7 @@ En la parte superior hay botones importantes:
 <img src="../media/Menu.png" alt="Foto de menu del simulador" class="lg-img"/>
 
 
-El área en blanco es donde construirás el circuito.
+El área en blanco es donde construirás tu circuito.
 
 ---
 
@@ -68,7 +68,7 @@ El área en blanco es donde construirás el circuito.
    - `0` = apagado
    - `1` = encendido
 
-Si la entrada está en `1` y la salida muestra `1`, el circuito está funcionando.
+Si la entrada está en `1` y la salida muestra `1`, tu circuito está funcionando.
 
 ---
 

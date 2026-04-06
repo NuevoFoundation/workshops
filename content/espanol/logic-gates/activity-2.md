@@ -7,7 +7,7 @@ draft: false
 
 <link rel="stylesheet" href="../_logic-gates.css" type="text/css"></link>
 
-<img src="../media/perezoso.webp" alt="Decoración" width="10%" />
+<img src="../media/perezoso.webp" alt="Nuvi disfrazado de perezoso" width="10%" />
 
 ## Introducción
 
@@ -21,7 +21,7 @@ Tu misión es comprobar este comportamiento en el simulador y encender el camino
 
 ---
 
-<img src="../media/Pattern.webp" alt="Decoración" width="100%" />
+<img src="../media/Pattern.webp" alt="Patrón decorativo del taller de lógica" width="100%" />
 
 ## ¿Qué es la compuerta OR?
 
@@ -48,37 +48,37 @@ Ver tabla de verdad completa
 
 ---
 
-<img src="../media/paisaje_camino.webp" alt="Decoración" width="100%" />
+<img src="../media/paisaje_camino.webp" alt="Paisaje de la montaña y el camino" width="100%" />
 
 ## Instrucciones en el simulador
 
 ### 1. Colocar los componentes
 1. Asegurate de estar en modo **Edit**.
 2. En la barra lateral izquierda, elegí y colocá:
-   - **Input** ➔ colocá **dos** entradas (A y B).
-   - **OR Gate** ➔ colocá una compuerta OR entre las entradas y la salida.
-   - **Output** ➔ colocá una salida a la derecha de la compuerta.
+   - **Input** ➔ coloca **dos** entradas (A y B).
+   - **OR Gate** ➔ coloca una compuerta OR entre las entradas y la salida.
+   - **Output** ➔ coloca una salida a la derecha de la compuerta.
 
-<img src="../media/actividad_2.png" alt="Decoración" width="20%" class="lg-img"/>
+<img src="../media/actividad_2.png" alt="Ejemplo visual del circuito OR con dos entradas y una salida" width="20%" class="lg-img"/>
 
 ### 2. Conectar los componentes
-1. Conectá la **salida** de la **entrada A** a una de las **entradas** de la compuerta **OR**.  
-2. Conectá la **salida** de la **entrada B** a la **otra entrada** de la compuerta **OR**.  
-3. Conectá la **salida** de la compuerta **OR** al **Output**.
+1. Conecta la **salida** de la **entrada A** a una de las **entradas** de la compuerta **OR**.  
+2. Conecta la **salida** de la **entrada B** a la **otra entrada** de la compuerta **OR**.  
+3. Conecta la **salida** de la compuerta **OR** al **Output**.
 
 ### 3. Probar el circuito
-- Hacé clic en cada **Input** para alternar `0` ↔ `1`.  
-- Probá las cuatro combinaciones (00, 01, 10, 11).  
+- Haz clic en cada **Input** para alternar `0` ↔ `1`.  
+- Prueba las cuatro combinaciones (00, 01, 10, 11).  
 - **Objetivo / Condición de victoria:** la salida debe ser `1` si **A = 1** **o** **B = 1** (o ambos).  
 
-> "¿Ves? Con solo un camino abierto, ya podés llegar arriba".
+> "¿Ves? Con solo un camino abierto, ya puedes llegar arriba".
 
 ---
 
 ## Consejos rápidos
 
-- Si la salida se queda en `0` aun con A = 1 o B = 1, revisá que ambas entradas estén conectadas a la compuerta OR.  
-- Verificá que usaste **OR Gate** y no **AND Gate** por error.
+- Si la salida se queda en `0` aun con A = 1 o B = 1, revisa que ambas entradas estén conectadas a la compuerta OR.  
+- Verifica que usaste **OR Gate** y no **AND Gate** por error.
 
 ---
 

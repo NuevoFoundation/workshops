@@ -7,18 +7,19 @@ draft: false
 
 <link rel="stylesheet" href="../_logic-gates.css" type="text/css"></link>
 
-<img src="../media/tucan.png" alt="Decoración" width="15%" />
+<img src="../media/tucan.png" alt="Nuvi disfrazado de tucán" width="15%" />
 
 ## Introducción
 
+
 Frente a la puerta de piedra, el **Tucán** te guiña un ojo:
 
-> "¿Recordás mi puerta **AND**? Hoy la vamos a **invertir** con ayuda de **NOT**.  
+> "¿Recuerdas mi puerta **AND**? Hoy la vamos a **invertir** con ayuda de **NOT**.  
 > La puerta se abrirá **a menos** que ambas antorchas estén encendidas."
 
 ---
 
-<img src="../media/Pattern.webp" alt="Decoración" width="100%" />
+<img src="../media/Pattern.webp" alt="Patrón decorativo del taller de lógica" width="100%" />
 
 ## Objetivo lógico
 
@@ -43,18 +44,18 @@ Ver tabla de verdad completa
 
 ---
 
-<img src="../media/paisaje_puerta.webp" alt="Decoración" width="100%" />
+<img src="../media/paisaje_puerta.webp" alt="Paisaje de la puerta de piedra en el bosque" width="100%" />
 
 ## Instrucciones en el simulador
 
 ### 1. Colocar los componentes
-1. Asegurate de estar en modo **Edit**.
+1. Asegúrate de estar en modo **Edit**.
 - **Inputs**: A, B  
 - **AND Gate**  
 - **NOT Gate**  
 - **Output**
 
-<img src="../media/actividad_5.png" alt="Decoración" width="20%" class="lg-img"/>
+<img src="../media/actividad_5.png" alt="Ejemplo visual del circuito AND seguido de NOT con dos entradas y una salida" width="20%" class="lg-img"/>
 
 ### 2. Conectar
 1. A y B ➔ **AND**  

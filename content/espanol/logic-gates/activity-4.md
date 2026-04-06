@@ -7,20 +7,21 @@ draft: false
 
 <link rel="stylesheet" href="../_logic-gates.css" type="text/css"></link>
 
-<img src="../media/monito.jpg" alt="Decoración" width="20%" />
+<img src="../media/monito.jpg" alt="Nuvi disfrazado de monito" width="20%" />
 
 ## Introducción
 
+
 Desde la copa de un árbol, el **Monito** te saluda entusiasmado:
 
-> "¡Llegaste muy lejos! Ya dominás **AND**, **OR** y **NOT**.  
+> "¡Llegaste muy lejos! Ya dominas **AND**, **OR** y **NOT**.  
 > Ahora toca **combinarlas** para devolverle la energía a la **Esfera del Bosque**."
 
-En esta actividad construirás un circuito que usa **todas** las compuertas para resolver un reto.
+En esta actividad vas a construir un circuito que usa **todas** las compuertas para resolver un reto.
 
 ---
 
-<img src="../media/Pattern.webp" alt="Decoración" width="100%" />
+<img src="../media/Pattern.webp" alt="Patrón decorativo del taller de lógica" width="100%" />
 
 ## Objetivo
 
@@ -42,32 +43,32 @@ Este circuito usa **NOT**, **AND** y **OR**.
 - 1 **OR Gate**  
 - 1 **Output**
 
-<img src="../media/actividad_4.png" alt="Decoración" width="20%" style="vertical-align: middle; margin-left: 10px;"/>
+<img src="../media/actividad_4.png" alt="Ejemplo visual del circuito combinado AND, OR, NOT con tres entradas y una salida" width="20%" style="vertical-align: middle; margin-left: 10px;"/>
 
 ---
 
-<img src="../media/paisaje_bosque.webp" alt="Decoración" width="100%" />
+<img src="../media/paisaje_bosque.webp" alt="Paisaje del bosque mágico" width="100%" />
 
 ## Instrucciones en el simulador
 
 ### 1. Colocar los componentes
-1. Asegurate de estar en modo **Edit**.
-2. En la barra lateral izquierda, elegí y colocá:
-  - Colocá **A**, **B**, **C** (Inputs).  
-  - Colocá **NOT**, **AND**, **OR**.  
-  - Colocá un **Output** a la derecha.
+1. Asegúrate de estar en modo **Edit**.
+2. En la barra lateral izquierda, elige y coloca:
+  - Coloca **A**, **B**, **C** (Inputs).  
+  - Coloca **NOT**, **AND**, **OR**.  
+  - Coloca un **Output** a la derecha.
 
 ### 2. Conectar los componentes
-1. Conectá **C ➔ NOT** (esto crea **NOT C**).  
-2. Conectá **A** y **NOT C** a la **AND** (esto crea **A AND NOT C**).  
-3. Conectá **(A AND NOT C)** y **B** a la **OR**.  
-4. Conectá la **salida de OR ➔ Output**.
+1. Conecta **C ➔ NOT** (esto crea **NOT C**).  
+2. Conecta **A** y **NOT C** a la **AND** (esto crea **A AND NOT C**).  
+3. Conecta **(A AND NOT C)** y **B** a la **OR**.  
+4. Conecta la **salida de OR ➔ Output**.
 
 ---
 
 ## Pruebas guiadas
 
-Probá estas combinaciones y verificá el **Output**:
+Prueba estas combinaciones y verifica el **Output**:
 
 1. **A = 1, B = 0, C = 0** ➔ `NOT C = 1` ➔ `A AND NOT C = 1` ➔ `Salida = 1`  
 2. **A = 1, B = 0, C = 1** ➔ `NOT C = 0` ➔ `A AND NOT C = 0` ➔ `Salida = 0` 
@@ -111,7 +112,7 @@ Ver tabla de verdad completa
 
 ## Errores comunes y cómo resolverlos
 
-- **La salida siempre es 0:** revisá que la **OR** reciba **dos señales**: `B` **y** `A AND NOT C`.  
+- **La salida siempre es 0:** revisa que la **OR** reciba **dos señales**: `B` **y** `A AND NOT C`.  
 
 ---
 

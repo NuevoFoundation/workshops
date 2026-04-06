@@ -7,7 +7,7 @@ draft: false
 
 <link rel="stylesheet" href="../_logic-gates.css" type="text/css"></link>
 
-<img src="../media/ranita.jpg" alt="Decoración" width="15%" />
+<img src="../media/ranita.jpg" alt="Nuvi disfrazado de rana" width="15%" />
 
 ## Introducción
 
@@ -18,11 +18,11 @@ La **Rana** cuida un puente con una regla precisa:
 
 ---
 
-<img src="../media/Pattern.webp" alt="Decoración" width="100%" />
+<img src="../media/Pattern.webp" alt="Patrón decorativo del taller de lógica" width="100%" />
 
 ## Objetivo lógico
 
-Construí una salida que valga 1 cuando A y B sean **distintos**.  
+Construye una salida que valga 1 cuando A y B sean **distintos**.  
 Se arma **solo** con AND, OR y NOT:
 
 <details class="lg-details">
@@ -44,7 +44,7 @@ Ver tabla de verdad completa
 
 ---
 
-<img src="../media/paisaje_lago.webp" alt="Decoración" width="100%" />
+<img src="../media/paisaje_lago.webp" alt="Paisaje del lago en el bosque" width="100%" />
 
 ## Instrucciones en el simulador
 
@@ -55,7 +55,7 @@ Ver tabla de verdad completa
 - **NOT Gate**  
 - **Output**
 
-<img src="../media/actividad_7.png" alt="Decoración" width="20%" class="lg-img"/>
+<img src="../media/actividad_7.png" alt="Ejemplo visual del circuito XOR usando AND, OR y NOT con dos entradas y una salida" width="20%" class="lg-img"/>
 
 ### 2. Conectar
 1. A y B ➔ **OR**: `OR_AB`  
@@ -65,7 +65,7 @@ Ver tabla de verdad completa
 5. **AND2** ➔ **Output**
 
 ### 3. Probar
-- Verificá 00, 01, 10, 11.  
+- Verifica 00, 01, 10, 11.  
 - La salida debe ser 1 solo en 01 y 10.
 
 **Condición de victoria:** salida = 1 cuando A ≠ B.
@@ -75,7 +75,7 @@ Ver tabla de verdad completa
 ## Consejos rápidos
 
 - Si te da 1 en 11, te falta la negación de `AND_AB`.  
-- Separá visualmente las ramas `OR_AB` y `NOT_AND_AB` para evitar cruces.
+- Separa visualmente las ramas `OR_AB` y `NOT_AND_AB` para evitar cruces.
 
 ---
 

@@ -7,7 +7,7 @@ draft: false
 
 <link rel="stylesheet" href="../_logic-gates.css" type="text/css"></link>
 
-<img src="../media/monito.jpg" alt="Decoración" width="20%" />
+<img src="../media/monito.jpg" alt="Nuvi disfrazado de monito" width="20%" />
 
 ## Introducción
 
@@ -18,11 +18,11 @@ En la sala de reflejos, el **Monito** te explica:
 
 ---
 
-<img src="../media/Pattern.webp" alt="Decoración" width="100%" />
+<img src="../media/Pattern.webp" alt="Patrón decorativo del taller de lógica" width="100%" />
 
 ## Objetivo lógico
 
-Armar una salida que valga 1 cuando **A = B**, usando **AND/OR/NOT**:
+Construye una salida que valga 1 cuando **A = B**, usando **AND/OR/NOT**:
 
 <details class="lg-details">
 <summary class="lg-summary">
@@ -43,7 +43,7 @@ Ver tabla de verdad completa
 
 ---
 
-<img src="../media/paisaje_bosque.webp" alt="Decoración" width="100%" />
+<img src="../media/paisaje_bosque.webp" alt="Paisaje del bosque mágico" width="100%" />
 
 ## Instrucciones en el simulador
 
@@ -54,7 +54,7 @@ Ver tabla de verdad completa
 - **OR Gate**  
 - **Output**
 
-<img src="../media/actividad_8.png" alt="Decoración" width="20%" class="lg-img"/>
+<img src="../media/actividad_8.png" alt="Ejemplo visual del circuito XNOR usando AND, OR y NOT con dos entradas y una salida" width="20%" class="lg-img"/>
 
 ### 2. Conectar
 1. A ➔ **NOT**: `NOT_A`  
@@ -65,7 +65,7 @@ Ver tabla de verdad completa
 6. **OR** ➔ **Output**
 
 ### 3. Probar
-- Recorre 00, 01, 10, 11.  
+- Prueba 00, 01, 10, 11.  
 - La salida debe ser 1 en 00 y 11.
 
 **Condición de victoria:** salida = 1 si y solo si A y B coinciden.
@@ -74,8 +74,8 @@ Ver tabla de verdad completa
 
 ## Consejos rápidos
 
-- Si la salida es 1 en 01 o 10, revisá los cables de `NOT_A`/`NOT_B` hacia **AND₂**.  
-- Mantené simétricas las dos ramas para leer el circuito rápido.
+- Si la salida es 1 en 01 o 10, revisa los cables de `NOT_A`/`NOT_B` hacia **AND₂**.  
+- Mantén simétricas las dos ramas para leer el circuito rápido.
 
 ---
 

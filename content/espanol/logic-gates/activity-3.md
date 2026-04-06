@@ -7,11 +7,11 @@ draft: false
 
 <link rel="stylesheet" href="../_logic-gates.css" type="text/css"></link>
 
-<img src="../media/ranita.jpg" alt="Decoración" width="15%" />
+<img src="../media/ranita.jpg" alt="Nuvi disfrazado de rana" width="15%" />
 
 ## Introducción
 
-Siguiendo el sendero, llegás a una laguna brillante.  
+Siguiendo el sendero, llegas a una laguna brillante.  
 Una **rana verde** salta sobre una hoja y te saluda:
 
 > "¡Bienvenidos a la **laguna del reflejo**!  
@@ -22,7 +22,7 @@ Tu misión es construir un circuito que **invierta** la señal de entrada.
 
 ---
 
-<img src="../media/Pattern.webp" alt="Decoración" width="100%" />
+<img src="../media/Pattern.webp" alt="Patrón decorativo del taller de lógica" width="100%" />
 
 ## ¿Qué es la compuerta NOT?
 
@@ -48,26 +48,26 @@ Ver tabla de verdad completa
 
 ---
 
-<img src="../media/paisaje_lago.webp" alt="Decoración" width="100%" />
+<img src="../media/paisaje_lago.webp" alt="Paisaje de la laguna en el bosque" width="100%" />
 
 ## Instrucciones en el simulador
 
 ### 1. Colocar los componentes
-1. Asegurate de estar en modo **Edit**.  
-2. En la barra lateral izquierda, elegí y colocá:
+1. Asegúrate de estar en modo **Edit**.  
+2. En la barra lateral izquierda, elige y coloca:
    - **Input** ➔ una entrada (A).
    - **NOT Gate** ➔ una compuerta NOT entre la entrada y la salida.
    - **Output** ➔ una salida a la derecha de la compuerta.
 
-<img src="../media/actividad_3.png" alt="Decoración" width="20%" class="lg-img"/>
+<img src="../media/actividad_3.png" alt="Ejemplo visual del circuito NOT con una entrada y una salida" width="20%" class="lg-img"/>
 
 ### 2. Conectar los componentes
-1. Conectá la **salida** del **Input A** a la **entrada** de la **NOT**.  
-2. Conectá la **salida** de la **NOT** al **Output**.
+1. Conecta la **salida** del **Input A** a la **entrada** de la **NOT**.  
+2. Conecta la **salida** de la **NOT** al **Output**.
 
 ### 3. Probar el circuito
-- Hacé clic en el **Input A** para alternar `0` ↔ `1`.  
-- Observá el **Output**: debe mostrar **lo opuesto** a A.
+- Haz clic en el **Input A** para alternar `0` ↔ `1`.  
+- Observa el **Output**: debe mostrar **lo opuesto** a A.
 
 **Condición de victoria:**  
 - Si `A = 0` ➔ **Salida = 1**  
@@ -80,15 +80,15 @@ Ver tabla de verdad completa
 
 ## Consejos rápidos
 
-- Si la salida **no** cambia al contrario de la entrada, revisá que el cable pase **a través** de la compuerta **NOT**.  
-- Confirmá que elegiste **NOT Gate** y no otra compuerta.  
+- Si la salida **no** cambia al contrario de la entrada, revisa que el cable pase **a través** de la compuerta **NOT**.  
+- Confirma que elegiste **NOT Gate** y no otra compuerta.  
 - Si la salida es **igual** a la entrada, probablemente la NOT no está conectada o falta.
 
 ---
 
 ## Desafío (opcional)
 
-- **Doble NOT:** agregá **dos** compuertas NOT en serie. ¿Qué pasa con la salida?  
+- **Doble NOT:** agrega **dos** compuertas NOT en serie. ¿Qué pasa con la salida?  
 
 ---
 
