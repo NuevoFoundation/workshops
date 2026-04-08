@@ -83,7 +83,7 @@ Si la entrada está en `1` y la salida muestra `1`, tu circuito está funcionand
 
 ## Simulador
 
-<iframe src="https://drendog.github.io/Logic-Circuit-Simulator/" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://drendog.github.io/Logic-Circuit-Simulator/" title="Simulador de compuertas lógicas" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
 
 ---
 
