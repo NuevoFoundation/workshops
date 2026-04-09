@@ -14,7 +14,7 @@ draft: false
 Al dejar atrás la puerta del Tucán, el sendero te lleva a una montaña tranquila.  
 Sobre una rama, un perezoso bosteza y te dice con voz serena:
 
-> "No hace falta correr... Para llegar a la cima podés usar el sendero **A** o el **B**.  
+> "No hace falta correr... Para llegar a la cima puedes usar el sendero **A** o el **B**.  
 > Si alguno está abierto, llegarás. Y si ambos están abiertos, ¡también! Aquí usamos lógica **OR**."
 
 Tu misión es comprobar este comportamiento en el simulador y encender el camino hacia la cima.
@@ -53,8 +53,8 @@ Ver tabla de verdad completa
 ## Instrucciones en el simulador
 
 ### 1. Colocar los componentes
-1. Asegurate de estar en modo **Edit**.
-2. En la barra lateral izquierda, elegí y colocá:
+1. Asegúrate de estar en modo **Edit**.
+2. En la barra lateral izquierda, elige y coloca:
    - **Input** ➔ coloca **dos** entradas (A y B).
    - **OR Gate** ➔ coloca una compuerta OR entre las entradas y la salida.
    - **Output** ➔ coloca una salida a la derecha de la compuerta.
@@ -84,7 +84,7 @@ Ver tabla de verdad completa
 
 ## Simulador
 
-<iframe src="https://drendog.github.io/Logic-Circuit-Simulator/" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://drendog.github.io/Logic-Circuit-Simulator/" title="Simulador de compuertas lógicas" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
 
 ---
 
