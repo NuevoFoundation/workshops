@@ -29,7 +29,7 @@ draft: false
   margin-top: 30px;
   font-size: 1.2rem;
   font-weight: bold;
-  color: #ffffff;
+  color: black;
   animation: aparecer 1s ease-in-out;
 }
 

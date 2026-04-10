@@ -15,14 +15,31 @@ El Volcán Arenal es un estratovolcán inactivo y un ícono de Costa Rica, ubica
 
 **Escribe este archivo `"Volcan.jsx"`**
 
+{{% notice info %}}
+### Importante utilizar:
+
+<p style="font-size:1.6rem; color:#444; line-height:1.8;">1. import { useState } from "react";</p>
+<p style="font-size:1.6rem; color:#444; line-height:1.8;">2. export default function Volcan() { }</p>
+
+{{% /notice %}}
 
 <h2 style="font-size:2rem; color:#007BFF;">Crea una constante de animales con un respectivo SetAnimales, escribe los que piensas que hay en Costa Rica!</h2>
+
+```jsx
+const [animales, setAnimales] = useState([
+    "",
+    "",
+    "",
+    "",
+    ""
+  ]);
+```
 
 ---
 
 #### **Vamonos a salvarlos porque parece que el Volcán Arenal presenta actividad!**
 
-<img src="../media/volcan.png" alt="Volcan-Peligro" style="width:50%;);">
+<img src="../media/Volcan.png" alt="Volcan-Peligro" style="width:50%;);">
 
 **Creamos constante para evacuarlos del lugar**
 ```jsx
@@ -38,7 +55,7 @@ const evacuar = (nombre) => {
 {{% /notice %}}
 
 ```jsx
-// Aquí hacemos una lista a mano usando un for
+/*Aquí hacemos una lista a mano usando un for*/
   let listaAnimales = [];
 
   for (let i = 0; i < animales.length; i++) {
@@ -103,6 +120,10 @@ return (
 ```
 
 **NO OLVIDES IMPORTARLO EN EL APP.JSX**
+
+``` jsx
+import Volcan from "./Components/Volcan.jsx"
+``` 
 
 ![alt text height="200px" width="50%"](../media/Components4Volcan.png "Volcan Arenal")
 

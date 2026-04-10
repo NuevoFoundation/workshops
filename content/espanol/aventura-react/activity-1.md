@@ -5,7 +5,7 @@ weight: 4
 draft: false
 ---
 
-<img src="../media/Tortuga.png" alt="Abeja imaginando un cuadrado" style="width:25%;);">
+<img src="../media/Tortuga.png" alt="Sharky con el caparazón de tortuga" style="width:25%;">
 
 <p style="font-size:1.8rem; text-align:center; color:#333;">Entra en el link de abajo para construir tú mismo el app de Costa Rica</p>
 
@@ -37,7 +37,7 @@ Empecemos
 <p style="font-size:1.6rem; color:#444; line-height:1.8;">En React, algunas herramientas no vienen listas. Hay que pedirlas de la cajita de React. <code>useState</code> es una de esas herramientas especiales que nos deja guardar cosas que cambian.</p>
 <p style="font-size:1.6rem; color:#444; line-height:1.8;">Por ejemplo: cuántas tortugas quedan por salvar.</p>
 
-<h2 style="font-size:2rem; color:#007BFF;">export default function Tortugero()</h2>
+<h2 style="font-size:2rem; color:#007BFF;">export default function Tortugero() { }</h2>
 
 <p style="font-size:1.6rem; color:#444; line-height:1.8;">¿Qué es <code>export default function Tortugero()</code>?</p>
 <p style="font-size:1.6rem; color:#444; line-height:1.8;">Aquí estamos creando un componente. <code>export default</code> significa: “Este es el archivo principal, lo puedes usar en otros lugares”.</p>
@@ -60,7 +60,7 @@ Empecemos
 
 {{% notice tip %}}
 
-<h2 style="font-size:2rem; color:#007BFF;">¿Qué hace <code>salvarTortuga()</code>?</h2> <p style="font-size:1.6rem; color:#444; line-height:1.8;"> Esta función se activa hacemos clic en el botón <b>"Salvar tortuga"</b>. </p> <ul style="font-size:1.6rem; color:#444; line-height:1.8;"> <li>Revisa si aún quedan tortugas por salvar → <code>tortugas &lt; total</code></li> <li>Si sí, suma una tortuga más → <code>setTortugas(tortugas + 1)</code></li> </ul> <p style="font-size:1.6rem; color:#444; line-height:1.8;"> Cada clic rescata una tortuga nueva. </p>
+<h2 style="font-size:2rem; color:#007BFF;">¿Qué hace <code>const salvarTortuga = () => { }; </code>?</h2> <p style="font-size:1.6rem; color:#444; line-height:1.8;"> Esta función se activa cuando hacemos clic en el botón <b>"Salvar tortuga"</b>. </p> <ul style="font-size:1.6rem; color:#444; line-height:1.8;"> <li>Revisa si aún quedan tortugas por salvar → <code>tortugas &lt; total</code></li> <li>Si sí, suma una tortuga más → <code>setTortugas(tortugas + 1)</code></li> </ul> <p style="font-size:1.6rem; color:#444; line-height:1.8;"> Cada clic rescata una tortuga nueva. </p>
 
 ``` jsx
 if (tortugas < total) setTortugas(tortugas + 1);
@@ -78,7 +78,6 @@ const reiniciar = () => setTortugas(0);
 
 {{% /notice %}}
 
-**Importante colocar un div con el classname= Tortugero**
 
 ```jsx 
 <p>Has salvado {tortugas} de {total} tortugas</p>
@@ -87,7 +86,12 @@ const reiniciar = () => setTortugas(0);
 Aqui se mostraran las tortugas que has salvado y el total.
 
 ``` jsx
-{tortugas < total ? (
+return (
+    <div className="Tortugero">
+      <h2>Parque Nacional Tortuguero</h2>
+      <p>Has salvado {tortugas} de {total} tortugas</p>
+
+      {tortugas < total ? (
         <button onClick={salvarTortuga}>Salvar tortuga</button>
       ) : (
         <>
@@ -95,6 +99,8 @@ Aqui se mostraran las tortugas que has salvado y el total.
           <button onClick={reiniciar}>Reiniciar misión</button>
         </>
       )}
+    </div>
+  );
 ``` 
 
 **El button responde a la funcion SALVARTORTUGAS para ir sumando rescates**
@@ -104,7 +110,7 @@ El botton reiniciar limpia la mision, para que puedas rescatar mas tortugas.
 Luego para mostrar lo que acabamos de construir debemos importarlo en el `"App.jsx"`
 
 ``` jsx
-import Tortugero from "./components/Tortugero.jsx"
+import Tortugero from "./Components/Tortugero.jsx"
 ``` 
 
 Con el nombre `"Tortugero"` podemos implementar una nueva "etiqueta" y asi mostramos todo lo que contiene el archivo `"Tortugero.jsx"`

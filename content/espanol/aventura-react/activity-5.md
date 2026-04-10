@@ -13,6 +13,10 @@ Los osos perezosos en Costa Rica son un ícono del país y hay dos especies: el 
 **Escribe este archivo `"Perezoso.jsx"`**
 
 {{% notice info %}}
+### Importante utilizar:
+
+<p style="font-size:1.6rem; color:#444; line-height:1.8;">1. import { useState } from "react";</p>
+
 ### Un componente dentro de otro componente
 
 En esta actividad vamos a usar dos componentes:
@@ -67,14 +71,14 @@ Así se envían:
 ```
 ---
 
-#### Dentro del componente **Perezosos** va este codigo
+#### Dentro del componente **Perezoso** va este codigo
 
 ```jsx
 <div className={`perezoso-card ${rescatado ? "rescatado" : ""}`}>
       <p>
         {rescatado
-          ? `✅ ${nombre} está a salvo!`
-          : `🦥 ${nombre} necesita ayuda`}
+          ? "${nombre} está a salvo!"
+          : "${nombre} necesita ayuda"}
       </p>
 
       {!rescatado && (
@@ -106,8 +110,8 @@ La clase **"rescatado"** es esa pegatina.
 ```jsx
 <p>
   {rescatado
-    ? `✅ ${nombre} está a salvo!`
-    : `🦥 ${nombre} necesita ayuda`}
+      ? "${nombre} está a salvo!"
+      : "${nombre} necesita ayuda"}
 </p>
 
 ```
@@ -212,5 +216,9 @@ return (
 ```
 
 **NO OLVIDES IMPORTARLO EN EL APP.JSX**
+
+``` jsx
+import Perezoso from "./Components/Perezoso.jsx"
+``` 
 
 ![alt text height="200px" width="50%"](../media/Components5Perezoso.png "Perezoso")

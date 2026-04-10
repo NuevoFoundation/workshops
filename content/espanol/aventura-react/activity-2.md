@@ -5,11 +5,21 @@ weight: 5
 draft: false
 ---
 
-<img src="../media/playas.png" alt="Limpieza de playa" style="width:50%;);">
+<img src="../media/Playa.png" alt="Limpieza de playa" style="width:50%;">
 
 ¡Genial! Lograste salvar las tortugas. Ahora para a limpiar playas de Costa Rica aprenderemos a usar constantes pero con arrays, for loops y variables let.
 
-**Escribe este archivo `"Playas.jsx"`**
+**Escribe este archivo `"Playa.jsx"`**
+
+{{% notice info %}}
+### Importante utilizar:
+
+<p style="font-size:1.6rem; color:#444; line-height:1.8;">1. import { useState } from "react";</p>
+<p style="font-size:1.6rem; color:#444; line-height:1.8;">2. export default function Playa() { }</p>
+
+{{% /notice %}}
+
+
 
 En primer lugar lo que vamos a hacer es crear una array que ahí puedes guardar una cantidad x de elementos, mira este ejemplo!
 
@@ -41,7 +51,7 @@ Este codigo deposita dinero en un banco, puedes usarlo para limpiar la playa!!!
 ### ¿Qué hace esta función?
 <p style="font-size:1.6rem; color:#444; line-height:1.8;"><code>const depositar = (d) => setDinero(dinero.filter((x) => x !== d));</code>?</p>
 <p style="font-size:1.6rem; color:#444; line-height:1.8;">Cuando le das click elimina lo que tienes en la array</p>
-<p style="font-size:1.6rem; color:#444; line-height:1.8;">El filter, revisa uno por uno, borra el qeu coincida y guarda la lista sin dinero</p>
+<p style="font-size:1.6rem; color:#444; line-height:1.8;">El filter, revisa uno por uno, crea una nueva array, luego guarda la lista sin dinero</p>
 <p style="font-size:1.6rem; color:#444; line-height:1.8;">Ejemplo, quito los colones y que quedo con los dolares</p>
 
 {{% /notice %}}
@@ -53,13 +63,13 @@ Le ponemos por nombre `"botones = [];"`
 ```jsx
 let botones = [];
 
-for (let i = 0; i < desechos.length; i++) {
-  botones.push(
-    <button key={i} onClick={() => limpiar(desechos[i])}>
-      Recolectar {desechos[i]}
-    </button>
-  );
-}
+  for (let i = 0; i < desechos.length; i++) {
+    botones.push(
+      <button key={i} onClick={() => limpiar(desechos[i])}>
+        Recolectar {desechos[i]}
+      </button>
+    );
+  }
 
 ```
 
@@ -78,7 +88,7 @@ Con esto nos ahorramos el escribir 4 botones a mano.
 
 {{% /notice %}}
 
-**Lo que se muestra en pantalla!!!**
+
 
 ```jsx
 return (
@@ -91,7 +101,6 @@ return (
 
       <div className="botones">{botones}</div>
 
-      //Aqui muestra el mensaje final
       {desechos.length === 0 && (
         <p className="mensaje-final">Playa limpia!</p>
       )}
@@ -100,5 +109,8 @@ return (
 ```
 
 **NO OLVIDES IMPORTARLO EN EL APP.JSX**
+``` jsx
+import Playa from "./Components/Playa.jsx"
+``` 
 
 ![alt text height="200px" width="50%"](../media/Components2Playa.png "Playa")
