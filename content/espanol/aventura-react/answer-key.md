@@ -57,7 +57,7 @@ export default function Playas() {
 
   const limpiar = (d) => setDesechos(desechos.filter((x) => x !== d));
 
-  // Crear los botones usando for
+  /*Crear los botones usando for*/
   let botones = [];
 
   for (let i = 0; i < desechos.length; i++) {

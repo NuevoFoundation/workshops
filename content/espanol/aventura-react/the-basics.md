@@ -17,8 +17,8 @@ Al darle click al boton entraras en la pagina de playcode
 
 **Le damos en Start Free**
 
-<video controls width="800" height="400">
-  <source src="media/Configuracion2.mp4" type="video/mp4">
+<video controls width="800" height="400" style="display:block; margin:20px auto;">
+  <source src="../media/Configuracion2.mp4" type="video/mp4">
   Tu navegador no soporta la etiqueta de video.
 </video>
 
@@ -29,12 +29,16 @@ import React from 'react';
 
 export function App(props) {
   return (
-
+      <div className="App">
+       <h2>Hola mundo</h2>
+      </div>
       );
 }
+
+console.log('Configurando')
 ``` 
 
-En el archivo `"indext.jsx"` **pegamos este codigo!**
+En el archivo `"index.jsx"` **pegamos este codigo!**
 
 ```jsx
 import React from 'react';
@@ -48,7 +52,7 @@ ReactDOM.createRoot(
 
 ```
 
-En el archivo `"indext.html"` **pegamos este codigo!**
+En el archivo `"index.html"` **pegamos este codigo!**
 
 ```jsx 
 <!DOCTYPE html>
@@ -79,6 +83,10 @@ Antes de ver todos los elementos necesarios para crear nuestro proyecto de Costa
 
 ![alt text height="600px" width="70%"](../media/paso1-carpeta.png "Paso 1")
 
+{{% notice info %}}
+#### El archivo 'style.css' debe estar dentro de la carpeta src
+{{% /notice %}}
+
 **Luego seguimos los siguientes pasos:**
 
 `"New", "Directory"`
@@ -101,7 +109,7 @@ Para eso igual le damos en los 3 puntitos pero ahora en la carpeta `"Components"
 
 ![alt text height="600px" width="70%"](../media/paso5-carpeta.png "Paso 5")
 
-Asi debe de quedar nuestro neuvo archivo llamado: `"Torguero.jsx"`
+Asi debe de quedar nuestro neuvo archivo llamado: `"Tortugero.jsx"`
 
 ```jsx 
 Tortugero.jsx

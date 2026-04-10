@@ -13,7 +13,15 @@ Así que vamos a aprender sobre el proceso del café y porque no aprender más d
 
 **Escribe este archivo `"FincaCafe.jsx"`**
 
-<img src="../media/cafe.png" alt="Cafe" style="width:50%;);">
+{{% notice info %}}
+### Importante utilizar:
+
+<p style="font-size:1.6rem; color:#444; line-height:1.8;">1. import { useState } from "react";</p>
+<p style="font-size:1.6rem; color:#444; line-height:1.8;">2. export default function FincaCafe() { }</p>
+
+{{% /notice %}}
+
+<img src="../media/Cafe.png" alt="Cafe" style="width:50%;">
 
 Para hacer café primero debemos saber que esto lleva un proceso importante que contiene algunas etapas, que veremos a continuación.
 
@@ -58,7 +66,7 @@ const siguiente = () => {
   };
 ```
 
-**Como se muestra:**
+
 
 ```jsx
 return (
@@ -66,7 +74,6 @@ return (
       <h2>Finca del Abuelo</h2>
       <p className="etapa">{etapas[indice]}</p>
 
-      //Estoy en un nivel MENOR que el ultimo nivel?
       {indice < etapas.length - 1 ? (
         <button className="btn-siguiente" onClick={siguiente}>
           Siguiente etapa
@@ -90,5 +97,9 @@ return (
 {{% /notice %}}
 
 **NO OLVIDES IMPORTARLO EN EL APP.JSX**
+
+``` jsx
+import FincaCafe from "./Components/FincaCafe.jsx"
+``` 
 
 ![alt text height="200px" width="50%"](../media/Components3FincaCafe.png "Finca de cafe")
