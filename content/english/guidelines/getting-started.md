@@ -4,130 +4,144 @@ date: 2020-07-29T14:08:32-07:00
 draft: false
 weight: 2
 ---
-## Prerequisites
-- [Visual Studio Code](https://code.visualstudio.com/download)
-- [Hugo](https://gohugo.io/getting-started/installing/)
-- [Git](https://git-scm.com/downloads). Learn more about Git and GitHub in their [Quickstart](https://docs.github.com/en/get-started/quickstart) guide.
 
-## Reference Links
-- [Github repo](https://github.com/NuevoFoundation/workshops)
+## Prerequisites
+
+| Tool | Purpose | Install link |
+|------|---------|-------------|
+| **Git** | Version control | [git-scm.com/downloads](https://git-scm.com/downloads) |
+| **Hugo (Extended)** | Builds the workshop site | [gohugo.io/installation](https://gohugo.io/installation/) |
+| **VS Code** (recommended) | Text editor | [code.visualstudio.com](https://code.visualstudio.com/download) |
+
+New to Git? Check out the GitHub [Quickstart guide](https://docs.github.com/en/get-started/quickstart).
+
+### Quick install for Hugo
+
+**Windows (winget):**
+```
+winget install Hugo.Hugo.Extended
+```
+
+**macOS (Homebrew):**
+```
+brew install hugo
+```
+
+**Linux (snap):**
+```
+snap install hugo
+```
+
+Verify with `hugo version`. You should see output that includes **extended**.
+
+## Reference links
+
+- [GitHub repo](https://github.com/NuevoFoundation/workshops)
 - [Workshops website](https://workshops.nuevofoundation.org/)
 
-## Walkthrough Videos
-- [Workshops Github repository development cycle](https://youtu.be/LpjucoAVviI)
-- [Workshops Github repository structure](https://youtu.be/cygmE6LGcOw)
+## Walkthrough videos
 
-## Code
-Contribution to this repository is via the [fork model](https://help.github.com/articles/fork-a-repo/). Contributors push changes to their own "forked" version of workshops, and then submit a pull request into it requesting those changes be merged.
+- [Workshops GitHub repository development cycle](https://youtu.be/LpjucoAVviI)
+- [Workshops GitHub repository structure](https://youtu.be/cygmE6LGcOw)
 
-To get started:
+## Fork and clone the repo
 
-1. Fork <a target="_blank" href="https://github.com/nuevoFoundation/workshops">the repo</a> by clicking Fork in the top right corner:
+Contributions use the [fork model](https://help.github.com/articles/fork-a-repo/). You push changes to your own fork, then open a pull request to merge them into the main repo.
 
-![image](../media/fork.png)
+### 1. Fork the repo
 
-2. From git bash, run (replacing _[user-name]_ with your GitHub user name):
+Click **Fork** in the top right corner of the <a target="_blank" href="https://github.com/nuevoFoundation/workshops">workshops repo</a>:
 
-```
-\> git clone https://github.com/[user-name]/workshops.git
-\> cd workshops
-\workshops> git remote add upstream https://github.com/NuevoFoundation/workshops.git
-\workshops> git remote set-url --push upstream no_push
-```
+![Screenshot showing the Fork button on GitHub](/guidelines/media/fork.png)
 
-The last command prevents an accidental push to this repository without going through a pull request.
+### 2. Clone your fork
 
-After running above, `git remote -v` should show something similar to the following:
-```
-\workshops> git remote -v 
-origin  https://github.com/dmonroym/workshops.git (fetch)
-origin  https://github.com/dmonroym/workshops.git (push)
-upstream        https://github.com/NuevoFoundation/workshops.git (fetch)
-upstream        no_push (push)
+Replace `[your-username]` with your GitHub username:
+
+```bash
+git clone https://github.com/[your-username]/workshops.git
+cd workshops
 ```
 
-## Build and Test
+### 3. Set up the upstream remote
 
-In order to build and test your changes you'll want to use hugo. If you've followed the right installation instructions then hugo should be in your PATH (if not give your machine a restart).
+This lets you pull in updates from the main repo while preventing accidental pushes:
 
-```
-\> cd workshops
-\workshops> hugo -D server
-```
-
-This will output some build information but the most important line is going to be along the lines of: `Web Server is available at //localhost:1313/ (bind address 127.0.0.1)`
-
-You can now launch your favorite web browser and open up //localhost:1313/ and should see the site up.
-
-## Updating your fork
-
-In order to keep yourself up to date you'll want to maintain your fork updated as much as possible.
-Before creating a new branch you should fetch the changes and push them to your fork. Here's how to do it (if you need another branch just use that instead of master).
-
-```
-\workshops> git fetch --all --prune
-\workshops> git checkout master
-\workshops> git merge upstream/master
-\workshops> git push origin master
+```bash
+git remote add upstream https://github.com/NuevoFoundation/workshops.git
+git remote set-url --push upstream no_push
 ```
 
-## Sample Walkthrough
+Verify with `git remote -v`:
 
-**Scenario**: Let's make a simple change to the Getting Started page and submit a pull request.
+```
+origin    https://github.com/[your-username]/workshops.git (fetch)
+origin    https://github.com/[your-username]/workshops.git (push)
+upstream  https://github.com/NuevoFoundation/workshops.git (fetch)
+upstream  no_push (push)
+```
 
-### Follow instructions above
+## Build and test locally
 
-Once you've followed the Code instructions above you'll have a local copy of the workshops repo.
+From the `workshops` directory, run:
+
+```bash
+hugo server -D
+```
+
+- `-D` includes draft content so you can preview work in progress.
+- The site builds in a few seconds and is available at **http://localhost:1313/**.
+- Hugo watches for file changes and live-reloads your browser automatically.
+
+To stop the server, press `Ctrl+C`.
+
+## Keep your fork up to date
+
+Before starting new work, sync with upstream:
+
+```bash
+git fetch --all --prune
+git checkout master
+git merge upstream/master
+git push origin master
+```
+
+## Sample walkthrough
+
+**Scenario**: Make a simple change and submit a pull request.
 
 ### Create a topic branch
 
-Make sure your fork is updated before doing this:
+Make sure your fork is up to date first:
 
-```
-\workshops> git checkout master
-\workshops> git checkout -b [branch-name]
-\workshops> git push --set-upstream origin [branch-name]
-```
-
-### Open the repo using VS Code
-
-When you launch VS Code you can Open Folder... Navigate to the workshop folder and select open.
-
-### Navigate to file and modify it
-
-Depending on what you're modifying you'll want to get a better understanding of [how the site is built](site-architecture)
-
-In our case you want to modify this file so go to content\english\guidelines\getting-started.md
-I simply want you to add two exclamation points to the word "Welcome!"
-
-**Before**: `Welcome!`
-
-**After**: `Welcome!!!`
-
-### Commit the change 
-
-Running `git status` should provide you with all the changes you've made and all the file names. You'll want to stage them by using git add and then commit and push them. Here's the commands to do that.
-
-```
-\workshops> git status
-\workshops> git add content/english/guidelines/getting-started.md
-\workshops> git commit -m "Added exclamations"
-\workshops> git push
+```bash
+git checkout master
+git checkout -b my-change
+git push --set-upstream origin my-change
 ```
 
-Some git tips: If you want to add everything and commit at the same time you can skip all these commands and just use `git commit -am "message here" ` and then do the `git push`
+### Make your edit
 
-### Create a pull request
-Congratulations, you've now made all the necessary changes and the last step is to get it reviewed and pushed into production.
+Open the repo folder in VS Code. Navigate to the file you want to change. For this example, edit `content/english/guidelines/getting-started.md`. For a deeper understanding of the file structure, see [how the site is built](site-architecture).
 
-If you navigate to your fork on github.com you will most likely see a suggestion to create a Pull Request based on your latest push.
+### Commit and push
 
-![image](../media/compare-and-pull.png)
+```bash
+git add content/english/guidelines/getting-started.md
+git commit -m "Description of what changed"
+git push
+```
 
-If you don't, just navigate to Pull Requests -> New pull request
+**Tip**: Use `git commit -am "message"` to stage all modified files and commit in one step.
 
-![image](../media/create-new-pr.png)
+### Open a pull request
 
-The most important aspect here is to make sure you're choosing your branches correctly (your base and your head).
+Navigate to your fork on GitHub. You should see a prompt to create a pull request from your recent push:
 
-You can now hit the Create pull request button, give it a description and good title and wait for a reviewer to approve so it can be merged.
+![Screenshot showing the Compare and Pull Request button on GitHub](/guidelines/media/compare-and-pull.png)
+
+If you don't see the prompt, go to **Pull Requests > New pull request**:
+
+![Screenshot showing the New Pull Request button on GitHub](/guidelines/media/create-new-pr.png)
+
+Make sure your base branch (target) and head branch (source) are correct, add a title and description, then submit.
