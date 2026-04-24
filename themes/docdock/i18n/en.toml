@@ -79,3 +79,10 @@ other = "Help"
 
 [hint]
 other = "Hint"
+
+[type]
+other = "Workshop type:"
+
+# menu.html
+[workshop-dashboard]
+other = "Workshop Dashboard"

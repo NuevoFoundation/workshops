@@ -1,86 +1,109 @@
 {{- $currentNode := . }}
 {{- $showvisitedlinks := .Site.Params.showVisitedLinks -}}
 
+{{/* Add back to workshops dashboard navigation if not on home page */}}
+{{- if not .IsHome -}}
+  <li class="dd-item back-to-dashboard">
+    <div class="menu-item">
+      <a href="{{ "/" | relLangURL }}" aria-label="Back to workshops dashboard" class="back-nav-link">
+        <i class="fa fa-angle-left fa-lg category-icon back-nav-icon"></i>
+      </a>
+      <a href="{{ "/"| relLangURL }}">{{ i18n "workshop-dashboard" }}</a>
+    </div>
+    <hr class="back-nav-separator">
+  </li>
+{{- end -}}
+
 {{- if eq .Site.Params.orderSectionsBy "title"}}
   {{- range .Site.Home.Sections.ByTitle}}
     {{- if (or (eq $currentNode .Site.Home) (.IsAncestor $currentNode))}}
       {{- template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks}}
     {{- end}}
   {{- end}}
-{{- else}}
-  {{- range .Site.Home.Sections.ByWeight}}
-    {{- if (or (eq $currentNode .Site.Home) (.IsAncestor $currentNode))}}
-      {{- template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks}}
+  {{- else}}
+    {{- range .Site.Home.Sections.ByWeight}}
+      {{- if (or (eq $currentNode .Site.Home) (.IsAncestor $currentNode))}}
+        {{- template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks}}
+      {{- end}} 
     {{- end}}
   {{- end}}
-{{- end}}
 
 <!-- templates -->
-{{- define "section-tree-nav" }}
-{{- $showvisitedlinks := .showvisitedlinks }}
-{{- $currentNode := .currentnode }}
- {{- with .sect}}
-  {{- if and .IsSection (or (not .Params.hidden) $.showhidden)}}
-    {{- $numberOfPages := (add (len .Pages) (len .Sections)) }}
-    {{- safeHTML .Params.head}}
-    <li data-nav-id="{{.Permalink}}" class="dd-item
+  {{- define "section-tree-nav" }}
+  {{- $showvisitedlinks := .showvisitedlinks }}
+  {{- $currentNode := .currentnode }}
+  {{- with .sect}}
+    {{- if and .IsSection (or (not .Params.hidden) $.showhidden)}}
+      {{- $numberOfPages := (add (len .Pages) (len .Sections)) }}
+      {{- safeHTML .Params.head}}
+<li data-nav-id="{{.Permalink}}"
+  class="dd-item
         {{- if .IsAncestor $currentNode}} parent{{end}}
         {{- if eq .Permalink $currentNode.Permalink}} active{{end}}
         {{- if .Params.alwaysopen}} alwaysopen{{end -}}
-        {{- if ne $numberOfPages 0 }} haschildren{{end}}
-        ">
-      <div>
-      <a href="{{ .RelPermalink}}">{{safeHTML .Params.Pre}}{{.Title}}{{safeHTML .Params.Post}}</a>
-        
-        {{- if ne $numberOfPages 0 }}
-          {{- if or (.IsAncestor $currentNode) (.Params.alwaysopen) }}
-            <i class="fa fa-angle-down fa-lg category-icon"></i>
-          {{- else -}}
-            <i class="fa fa-angle-right fa-lg category-icon"></i>
-          {{- end}}
-        {{- end}}
+        {{- if ne $numberOfPages 0 }} haschildren{{end}}">
+  <div class="menu-item">
+    {{- with .Params.icon}}
+      <span><i aria-hidden="true" style="margin-right:10px" focusable="false" class="fas {{ . }}"></i></span>
+    {{- else }}
+      <span><i aria-hidden="true" style="margin-right:10px" focusable="false" class="fas fa-code"></i></span>
+    {{- end}}
+    <a href="{{ .RelPermalink}}">
+      {{safeHTML .Params.Pre}}{{.Title}}{{safeHTML .Params.Post}}
+    </a>
 
-        {{- if $showvisitedlinks}}<i class="fa fa-circle-thin read-icon"></i>{{end}}
-      </div>
-      {{- if ne $numberOfPages 0 }}
-        <ul>
-          {{- .Scratch.Set "pages" .Pages }}
-          {{- if .Sections}}
-          {{- .Scratch.Set "pages" (.Pages | union .Sections) }}
-          {{- end}}
-          {{- $pages := (.Scratch.Get "pages") }}
-
-        {{- if eq .Site.Params.orderPagesBy "title"}}
-          {{- range $pages.ByTitle }}
-            {{- if and .Params.hidden (not $.showhidden) }}
-            {{- else}}
-            {{- template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks }}
-            {{- end}}
-          {{- end}}
-        {{- else}}
-          {{- range $pages.ByWeight }}
-            {{- if and .Params.hidden (not $.showhidden) }}
-            {{- else}}
-            {{- template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks }}
-            {{- end}}
-          {{- end}}
-        {{- end}}
-        </ul>
-      {{- end}}
-    </li>
-  {{- else}}
-    {{- if not .Params.Hidden }}
-      <li data-nav-id="{{.Permalink}}" class="dd-item
-     {{- if eq .Permalink $currentNode.Permalink}} active{{end -}}
-      ">
-        <div>
-          <a href="{{ .RelPermalink}}">
-            {{safeHTML .Params.Pre}}{{.LinkTitle}}{{safeHTML .Params.Post}}
-          </a>
-          {{- if $showvisitedlinks}}<i class="fa fa-circle-thin read-icon"></i>{{end}}
-        </div>
-    </li>
-     {{- end}}
+    {{- if ne $numberOfPages 0 }} {{- if or (.IsAncestor $currentNode) (.Params.alwaysopen) }}
+      <i class="fa fa-lg category-icon fa-angle-up"></i>
+    {{- else -}}
+      <i class="fa fa-angle-down fa-lg category-icon"></i>
+    {{- end}}
   {{- end}}
- {{- end}}
+  {{- if $showvisitedlinks}}
+    <i class="fa fa-circle-thin read-icon"></i>
+  {{end}}
+
+  </div>
+  <ul>
+    {{- .Scratch.Set "pages" .Pages }}
+    {{- if .Sections}}
+      {{- .Scratch.Set "pages" (.Pages | union .Sections) }}
+    {{- end}}
+    {{- $pages := (.Scratch.Get "pages") }}
+    {{- if eq .Site.Params.orderPagesBy "title"}}
+      {{- range $pages.ByTitle }}
+        {{- if and .Params.hidden (not $.showhidden) }}
+        {{- else}}
+        {{- template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks }}
+      {{- end}}
+    {{- end}}
+    {{- else}}
+      {{- range $pages.ByWeight }}
+        {{- if and .Params.hidden (not $.showhidden) }}
+        {{- else}}
+          {{- template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks }}
+        {{- end}}
+      {{- end}}
+    {{- end}}
+  </ul>
+</li>
+{{- else}}
+  {{- if not .Params.Hidden }}
+<li
+  data-nav-id="{{.Permalink}}"
+  class="dd-item
+     {{- if eq .Permalink $currentNode.Permalink}} active{{end -}}
+      "
+>
+  <div>
+    <a class="menu-item" href="{{ .RelPermalink}}">
+      {{safeHTML .Params.Pre}}{{.LinkTitle}}{{safeHTML .Params.Post}}
+    </a>
+    {{- if $showvisitedlinks}}
+      <i class="fa fa-circle-thin read-icon"></i>
+    {{end}}
+  </div>
+</li>
+{{- end}}
+{{- end}}
+{{- end}}
 {{- end}}
