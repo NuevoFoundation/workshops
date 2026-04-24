@@ -61,6 +61,11 @@ weight = 9
 languageName = "Кыргызча"
 contentDir = "content/kyrgyz"
 
+[Languages.ru]
+weight = 9
+languageName = "Русский"
+contentDir = "content/russian"
+
 [params]
 editURL = "https://github.com/NuevoFoundation/workshops/tree/master/content/"
 showVisitedLinks = true # default is false
