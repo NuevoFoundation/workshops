@@ -7,6 +7,9 @@ prereq: "Noções básicas de Python - Escrever no console (Print), Ler do conso
 download: ""
 draft: false
 icon: "fab fa-python"
+language: "python"
+topics: ["games"]
+difficulties: ["intermediate"]
 ---
 
 ## O Poder das Histórias

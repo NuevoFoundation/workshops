@@ -9,3 +9,7 @@
 {{end}}
 
 <script src="{{(printf "theme-%s/script.js" (.Site.Params.themeStyle| default "flex")) | relURL}}"></script>
+
+{{ if .IsHome }}
+<script src="{{"js/workshop-explorer.js" | relURL}}" defer></script>
+{{ end }}

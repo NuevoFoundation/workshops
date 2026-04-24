@@ -4,6 +4,9 @@ description: "Learn C++ and create your own secret messages"
 date: 2021-08-10T23:26:18-05:00
 prereq: "None"
 difficulty: "Beginner"
+language: "cpp"
+topics: ["cybersecurity"]
+difficulties: ["beginner"]
 ---
 
 ## Intro

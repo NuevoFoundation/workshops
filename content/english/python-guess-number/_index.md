@@ -6,6 +6,9 @@ prereq: "Python Basics"
 difficulty: "Intermediate"
 icon: "fab fa-python"
 draft: false
+language: "python"
+topics: ["games"]
+difficulties: ["intermediate"]
 ---
 
 In this workshop, you will be creating a simple game that incorporates some of the things you learned in the Python Basics section. Try this demo and see how many tries it takes you until you guess the number!!!

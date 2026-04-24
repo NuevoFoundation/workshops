@@ -6,7 +6,7 @@ hidemetadata: true
 ---
 
 ## Workshop-Projekte
-{{< workshop-list style="card" depth="1" showhidden="false" description="true"  />}}
+{{< workshop-list style="card" depth="1" showhidden="false" description="true" interactive="true"  />}}
 
 ## Beitragen
 Möchtest du helfen, unsere Workshops oder unsere Website zu verbessern? Dann klicke hier: **[Workshop Contributor Guidelines](guidelines/)**!

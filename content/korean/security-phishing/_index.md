@@ -7,6 +7,9 @@ difficulty: "초급"
 download: ""
 draft: false
 icon: "fas fa-user-secret"
+language: "no-code"
+topics: ["cybersecurity"]
+difficulties: ["beginner"]
 ---
 
 ## 목차

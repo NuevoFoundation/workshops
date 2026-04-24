@@ -7,6 +7,9 @@ difficulty: "Iniciante"
 download: ""
 draft: false
 icon: "fas fa-user-secret"
+language: "no-code"
+topics: ["cybersecurity"]
+difficulties: ["beginner"]
 ---
 
 ## Índice

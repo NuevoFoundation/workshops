@@ -6,6 +6,9 @@ prereq: "Java: Basics"
 difficulty: "Intermediate"
 icon: "fab fa-java"
 draft: false
+language: "java"
+topics: ["games"]
+difficulties: ["intermediate"]
 ---
 
 {{% notice tip %}}

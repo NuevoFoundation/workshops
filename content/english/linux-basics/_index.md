@@ -8,6 +8,9 @@ download: ""
 draft: false
 icon: "fas fa-microchip"
 weight: 1
+language: "linux"
+topics: ["tools"]
+difficulties: ["intermediate"]
 ---
 
 {{% notice warning %}}

@@ -7,6 +7,9 @@ difficulty: "Iniciante"
 draft: false
 icon: "fas fa-database"
 weight: 130
+language: "sql"
+topics: ["data"]
+difficulties: ["beginner"]
 ---
 <!-- Link para unidade de imagem SQL: https://drive.google.com/drive/folders/0ADAbCQbzZCAFUk9PVA -->
 

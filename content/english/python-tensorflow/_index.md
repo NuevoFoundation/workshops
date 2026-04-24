@@ -7,6 +7,9 @@ difficulty: "Intermediate"
 image: ""
 draft: false
 icon: "fab fa-python"
+language: "python"
+topics: ["ai"]
+difficulties: ["intermediate"]
 ---
 
 

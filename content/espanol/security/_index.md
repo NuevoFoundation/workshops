@@ -6,6 +6,9 @@ prereq: "Ninguno"
 difficulty: "Principiante"
 draft: false
 icon: "fas fa-user-secret"
+language: "no-code"
+topics: ["cybersecurity"]
+difficulties: ["beginner"]
 ---
 
 ## Tabla de contenidos

@@ -6,6 +6,9 @@ prereq: "无"
 difficulty: "初学者"
 icon: "fab fa-python"
 draft: false
+language: "python"
+topics: ["programming-basics"]
+difficulties: ["beginner"]
 ---
 
 ## 课程简介

@@ -4,6 +4,9 @@ description: "Aprende C++ y crea tus propios mensajes secretos"
 date: 2021-08-10T23:26:18-05:00
 prereq: "Ninguno"
 difficulty: "Principiante"
+language: "cpp"
+topics: ["cybersecurity"]
+difficulties: ["beginner"]
 ---
 
 ## Mensajes Secretos con C++

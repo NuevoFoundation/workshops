@@ -7,6 +7,9 @@ difficulty: "Beginner"
 download: ""
 draft: false
 icon: "fas fa-code"
+language: "no-code"
+topics: ["ai"]
+difficulties: ["beginner"]
 ---
 ## Introduction
 In this workshop, you will learn how to create your own chatbot. By the end of the workshop, you will have a chatbot that can have a simple conversation with the user. You will learn how to use AIML, a language for creating chatbots. You will also learn how to use Pandorabots, a platform for hosting chatbots.

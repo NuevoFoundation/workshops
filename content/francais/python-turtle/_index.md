@@ -7,6 +7,9 @@ difficulty: "Débutant"
 image: ""
 draft: false
 icon: "fab fa-python"
+language: "python"
+topics: ["graphics"]
+difficulties: ["beginner"]
 ---
 
 ## Introduction

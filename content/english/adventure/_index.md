@@ -7,6 +7,9 @@ prereq: "Python Basics - Writing to Console (Print), Reading from Console, Strin
 download: ""
 draft: false
 icon: "fab fa-python"
+language: "python"
+topics: ["games"]
+difficulties: ["intermediate"]
 ---
 
 ## Power of Stories

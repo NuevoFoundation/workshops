@@ -16,3 +16,6 @@
     {{ . }}"
 />
 {{ end }}
+{{ if .IsHome }}
+<link href="{{ "css/workshop-explorer.css" | relURL }}" rel="stylesheet">
+{{ end }}

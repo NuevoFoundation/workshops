@@ -6,6 +6,9 @@ difficulty: "Intermedio"
 download: ""
 draft: false
 icon: "fas fa-code"
+language: "csharp"
+topics: ["games"]
+difficulties: ["intermediate"]
 ---
 
 ## Traducciones de términos comunes

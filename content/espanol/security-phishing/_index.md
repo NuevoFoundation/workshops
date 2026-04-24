@@ -7,6 +7,9 @@ difficulty: "Principiante"
 download: ""
 draft: false
 icon: "fas fa-user-secret"
+language: "no-code"
+topics: ["cybersecurity"]
+difficulties: ["beginner"]
 ---
 
 # Bob va a pescar

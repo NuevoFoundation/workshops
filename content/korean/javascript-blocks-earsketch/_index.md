@@ -6,6 +6,9 @@ date: 2019-07-23T11:45:38-07:00
 download: ""
 draft: false
 icon: "fas fa-puzzle-piece"
+language: "blocks"
+topics: ["music"]
+difficulties: ["beginner"]
 ---
 
 ### 음악을 만들어 봅시다!

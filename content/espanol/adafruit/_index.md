@@ -6,6 +6,9 @@ prereq: "Ninguno"
 difficulty: "Principiante"
 download: ""
 draft: false
+language: "blocks"
+topics: ["hardware", "music"]
+difficulties: ["beginner"]
 ---
 
 ## Contenido

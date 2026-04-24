@@ -7,6 +7,9 @@ difficulty: "Intermediate"
 draft: false
 hidden: true
 icon: "fab fa-python"
+language: "python"
+topics: ["programming-basics"]
+difficulties: ["intermediate"]
 ---
 
 ## Introduction

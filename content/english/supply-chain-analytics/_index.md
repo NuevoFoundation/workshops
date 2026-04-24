@@ -7,6 +7,9 @@ difficulty: "Intermediate"
 download: ""
 icon: "fa-link"
 draft: false
+language: "no-code"
+topics: ["data", "engineering"]
+difficulties: ["intermediate"]
 ---
 
 ## What is a Supply Chain?

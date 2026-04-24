@@ -7,6 +7,9 @@ difficulty: "Intermediate"
 download: "resources/_gen/files/TicTacToe.zip"
 icon: "fab fa-android"
 draft: false
+language: "java"
+topics: ["games", "mobile"]
+difficulties: ["intermediate"]
 ---
 
 ## Start your Android Game Adventure

@@ -6,6 +6,9 @@ prereq: "Nenhum"
 difficulty: "Iniciante"
 draft: false
 icon: "fas fa-code"
+language: "csharp"
+topics: ["programming-basics"]
+difficulties: ["beginner"]
 ---
 
 ## Visão Geral

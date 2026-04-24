@@ -7,6 +7,9 @@ difficulty: "Principiante"
 draft: false
 icon: "fas fa-database"
 weight: 130
+language: "sql"
+topics: ["data"]
+difficulties: ["beginner"]
 ---
 
 # Introducción: Aprende SQL salvando la Galaxia!

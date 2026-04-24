@@ -6,6 +6,9 @@ prereq: "Java: Conceitos Básicos"
 difficulty: "Intermediário"
 icon: "fab fa-java"
 draft: false
+language: "java"
+topics: ["games"]
+difficulties: ["intermediate"]
 ---
 
 {{% notice tip %}}

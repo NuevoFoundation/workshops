@@ -7,6 +7,9 @@ download: "https://github.com/NuevoFoundation/workshops/tree/master/content/micr
 draft: true
 hidden: true
 icon: "fas fa-microchip"
+language: "blocks"
+topics: ["hardware"]
+difficulties: ["beginner", "intermediate"]
 ---
 
 ### An introduction to JavaScript and hardware using [MicroBits](https://microbit.org/guide/)

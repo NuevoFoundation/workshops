@@ -7,6 +7,9 @@ difficulty: "Advanced"
 draft: false
 icon: "fas fa-database"
 weight: 131
+language: "kusto"
+topics: ["cybersecurity", "data"]
+difficulties: ["advanced"]
 ---
 
 ## Introdução: Aprenda a Pegar o Hacker!

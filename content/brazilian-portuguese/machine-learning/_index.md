@@ -4,6 +4,9 @@ description: "Conceitos básicos de Machine Learning"
 prereq: "nenhum"
 difficulty: "Iniciante"
 draft: false
+language: "python"
+topics: ["ai"]
+difficulties: ["beginner"]
 ---
 
 ## Vamos aprender um pouco de aprendizado de máquina para avaliar as notas gerais dos jogadores no jogo FIFA

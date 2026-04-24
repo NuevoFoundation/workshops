@@ -6,6 +6,9 @@ prereq: "Python"
 icon: ""
 draft: false
 weight: 0
+language: "python"
+topics: ["ai"]
+difficulties: ["advanced"]
 ---
 
 Oh wow! Look at you wanting to get into the difficult stuff. Don't worry, we will guide you through the journey so that you can understand how it all works 😉. This workshop, gives you an introduction on machine learning and lets you understand the potential machine learning has once you have been able to master it. 

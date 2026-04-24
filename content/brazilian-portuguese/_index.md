@@ -7,7 +7,7 @@ hidemetadata: true
 
 ## Projetos do Minicurso
 
-{{< workshop-list style="card" depth="1" showhidden="false" description="true"  />}}
+{{< workshop-list style="card" depth="1" showhidden="false" description="true" interactive="true"  />}}
 
 ## Colabore conosco
 

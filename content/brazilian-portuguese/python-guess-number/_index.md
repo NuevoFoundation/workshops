@@ -6,6 +6,9 @@ prereq: "Noções Básicas de Python"
 difficulty: "Intermediário"
 icon: "fab fa-python"
 draft: false
+language: "python"
+topics: ["games"]
+difficulties: ["intermediate"]
 ---
 
 Neste workshop, você criará um jogo simples que incorpora alguns dos conceitos aprendidos na seção de Noções Básicas de Python. Experimente esta demonstração e veja quantas tentativas você leva para adivinhar o número!!!

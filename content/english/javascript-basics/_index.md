@@ -6,6 +6,9 @@ prereq: "none"
 difficulty: "Beginner"
 icon: "fab fa-js"
 hidden: true
+language: "javascript"
+topics: ["web", "programming-basics"]
+difficulties: ["beginner"]
 ---
 
 ## Table of Contents

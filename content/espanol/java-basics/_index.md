@@ -7,6 +7,9 @@ difficulty: "Principiante"
 icon: "fab fa-java"
 draft: false
 hidden: false
+language: "java"
+topics: ["programming-basics"]
+difficulties: ["beginner"]
 ---
 
 ## Resumen general

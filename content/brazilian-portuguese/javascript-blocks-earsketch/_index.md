@@ -6,6 +6,9 @@ difficulty: "Iniciante"
 download: ""
 draft: false
 icon: "fas fa-puzzle-piece"
+language: "blocks"
+topics: ["music"]
+difficulties: ["beginner"]
 ---
 
 ### Vamos fazer música!

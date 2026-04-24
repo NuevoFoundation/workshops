@@ -6,6 +6,9 @@ prereq: "Nenhum"
 difficulty: "Intermediário"
 draft: false
 icon: "fas fa-code"
+language: "csharp"
+topics: ["games"]
+difficulties: ["intermediate"]
 ---
 
 ## Bem-vindo

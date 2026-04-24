@@ -6,6 +6,9 @@ prereq: "Java: Fundamentos"
 difficulty: "Intermediário"
 icon: "fab fa-java"
 draft: false
+language: "java"
+topics: ["programming-basics"]
+difficulties: ["intermediate"]
 ---
 
 <!--<link rel="stylesheet" href="../../style.css">-->

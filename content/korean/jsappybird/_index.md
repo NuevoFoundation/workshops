@@ -6,6 +6,9 @@ prereq: "없음"
 difficulty: "초급"
 icon: "fab fa-html5"
 draft: false
+language: "javascript"
+topics: ["games", "web"]
+difficulties: ["beginner"]
 ---
 
 ## 소개

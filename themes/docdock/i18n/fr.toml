@@ -83,3 +83,124 @@ other = "Indice"
 # menu.html
 [workshop-dashboard]
 other = "Tableau de bord de l’atelier"
+
+# BEGIN workshop-explorer (auto-generated)
+
+[workshop-explorer-filters-aria]
+other = "Filtrer et grouper les ateliers"
+
+[workshop-explorer-filters-title]
+other = "Filtres"
+
+[workshop-explorer-search]
+other = "Rechercher des ateliers…"
+
+[workshop-explorer-clear]
+other = "Effacer les filtres"
+
+[workshop-explorer-group-by]
+other = "Grouper par"
+
+[workshop-explorer-group-none]
+other = "Aucun"
+
+[workshop-explorer-empty]
+other = "Aucun atelier ne correspond à vos filtres."
+
+[workshop-explorer-count]
+other = "{n} ateliers"
+
+[tax.dim.difficulty]
+other = "Difficulté"
+
+[tax.dim.language]
+other = "Langage"
+
+[tax.dim.topic]
+other = "Thème"
+
+[tax.difficulty.beginner]
+other = "Débutant"
+
+[tax.difficulty.intermediate]
+other = "Intermédiaire"
+
+[tax.difficulty.advanced]
+other = "Avancé"
+
+[tax.language.blocks]
+other = "Blocks"
+
+[tax.language.python]
+other = "Python"
+
+[tax.language.javascript]
+other = "JavaScript"
+
+[tax.language.java]
+other = "Java"
+
+[tax.language.csharp]
+other = "C#"
+
+[tax.language.cpp]
+other = "C++"
+
+[tax.language.c]
+other = "C"
+
+[tax.language.html-css]
+other = "HTML & CSS"
+
+[tax.language.sql]
+other = "SQL"
+
+[tax.language.kusto]
+other = "Kusto (KQL)"
+
+[tax.language.arduino]
+other = "Arduino"
+
+[tax.language.linux]
+other = "Linux"
+
+[tax.language.no-code]
+other = "Sans code"
+
+[tax.topic.programming-basics]
+other = "Bases de la programmation"
+
+[tax.topic.games]
+other = "Jeux"
+
+[tax.topic.web]
+other = "Web"
+
+[tax.topic.ai]
+other = "IA et apprentissage automatique"
+
+[tax.topic.cybersecurity]
+other = "Cybersécurité"
+
+[tax.topic.data]
+other = "Données"
+
+[tax.topic.hardware]
+other = "Matériel"
+
+[tax.topic.music]
+other = "Musique"
+
+[tax.topic.graphics]
+other = "Graphismes"
+
+[tax.topic.mobile]
+other = "Mobile"
+
+[tax.topic.engineering]
+other = "Ingénierie"
+
+[tax.topic.tools]
+other = "Outils"
+
+# END workshop-explorer

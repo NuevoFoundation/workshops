@@ -6,6 +6,9 @@ prereq: "자바 기본(Java: Basics)"
 difficulty: "중급"
 icon: "fab fa-java"
 draft: false
+language: "java"
+topics: ["games"]
+difficulties: ["intermediate"]
 ---
 
 {{% notice tip %}}

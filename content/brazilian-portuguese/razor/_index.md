@@ -6,6 +6,9 @@ prereq: "Básico Web, C#"
 difficulty: "Intermediário"
 draft: false
 icon: "fas fa-code"
+language: "csharp"
+topics: ["web"]
+difficulties: ["intermediate"]
 ---
 
 ## Boas-vindas

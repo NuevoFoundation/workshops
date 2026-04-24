@@ -7,6 +7,9 @@ difficulty: "중급"
 download: ""
 icon: "fa-link"
 draft: false
+language: "no-code"
+topics: ["data", "engineering"]
+difficulties: ["intermediate"]
 ---
 
 ## 공급망이란 무엇일까?

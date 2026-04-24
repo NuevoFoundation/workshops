@@ -5,6 +5,9 @@ difficulty: "Beginner"
 draft: false
 hidden: true
 icon: "fas fa-car"
+language: "no-code"
+topics: ["engineering"]
+difficulties: ["beginner"]
 ---
 
 The goal of the workshop is to have students understand how engineers create real life projects through a procedure called the Design Process. The students will learn what the Design Process is, how it is used, and its purpose and relevance towards creating big projects. Upon learning the basics, the students will visualize the Design Process through a fictional and virtual racing competition, called DISTANCE. Using the Design Process will assist students to design an important part for their “racecar”, where they get to briefly experience the thought processes of an actual engineer!

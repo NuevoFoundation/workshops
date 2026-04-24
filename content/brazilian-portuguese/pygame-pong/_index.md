@@ -6,6 +6,9 @@ prereq: "Noções Básicas de Python"
 difficulty: "Intermediário"
 draft: false
 icon: "fab fa-python"
+language: "python"
+topics: ["games"]
+difficulties: ["intermediate"]
 ---
 
 Você talvez já saiba como jogar Pong na vida real. Que tal criar sua própria versão do Pong no seu computador? Neste tutorial, vamos aprender a usar uma biblioteca do Python chamada **Pygame** para construir o Pong. Parece divertido?

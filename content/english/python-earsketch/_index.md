@@ -7,6 +7,9 @@ difficulty: "Intermediate"
 download: ""
 draft: false
 icon: "fab fa-python"
+language: "python"
+topics: ["music"]
+difficulties: ["intermediate"]
 ---
 
 ### Let's make some music!

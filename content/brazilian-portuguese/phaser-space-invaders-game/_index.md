@@ -5,6 +5,9 @@ date: 2020-08-20T11:45:38-07:00
 difficulty: "Intermediário"
 prereq: "JavaScript: Básico"
 draft: false
+language: "javascript"
+topics: ["games", "web"]
+difficulties: ["intermediate"]
 ---
 
 ## Introdução

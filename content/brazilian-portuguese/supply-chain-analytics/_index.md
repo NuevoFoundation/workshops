@@ -7,6 +7,9 @@ difficulty: "Intermediário"
 download: ""
 icon: "fas fa-link"
 draft: false
+language: "no-code"
+topics: ["data", "engineering"]
+difficulties: ["intermediate"]
 ---
 
 ## O que é uma cadeia de suprimentos (Supply Chain)?

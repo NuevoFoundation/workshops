@@ -6,6 +6,9 @@ prereq: "웹 기초, C#"
 difficulty: "중급"
 draft: false
 icon: "fas fa-code"
+language: "csharp"
+topics: ["web"]
+difficulties: ["intermediate"]
 ---
 
 ## 환영합니다

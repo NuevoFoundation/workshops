@@ -5,6 +5,9 @@ date: 2019-09-03T17:53:41-07:00
 draft: false
 difficulty: "Beginner"
 icon: "fab fa-html5"
+language: "html-css"
+topics: ["web"]
+difficulties: ["beginner"]
 ---
 
 <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/Rstw0s7ws4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>

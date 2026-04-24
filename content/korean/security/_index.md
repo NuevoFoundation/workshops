@@ -6,6 +6,9 @@ prereq: "없음"
 difficulty: "초급"
 draft: false
 icon: "fas fa-user-secret"
+language: "no-code"
+topics: ["cybersecurity"]
+difficulties: ["beginner"]
 ---
 
 ## 목차

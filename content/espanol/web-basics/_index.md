@@ -5,6 +5,9 @@ date: 2020-11-27T17:53:41-07:00
 draft: false
 difficulty: "Principiante"
 icon: "fab fa-html5"
+language: "html-css"
+topics: ["web"]
+difficulties: ["beginner"]
 ---
 
 # ¡Vamos a crear un sitio web!

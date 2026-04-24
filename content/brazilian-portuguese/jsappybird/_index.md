@@ -6,6 +6,9 @@ prereq: "nenhum"
 difficulty: "Iniciante"
 icon: "fab fa-html5"
 draft: false
+language: "javascript"
+topics: ["games", "web"]
+difficulties: ["beginner"]
 ---
 
 ## Introdução

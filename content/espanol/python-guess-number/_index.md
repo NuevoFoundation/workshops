@@ -6,6 +6,9 @@ prereq: "Fundamentos de Python"
 difficulty: "Intermedio"
 icon: "fab fa-python"
 draft: false
+language: "python"
+topics: ["games"]
+difficulties: ["intermediate"]
 ---
 
 En este taller, crearás un juego sencillo que incorpora algunos de los conceptos que aprendiste en la sección de Fundamentos de Python. ¡Prueba esta demostración y descubre cuántos intentos te lleva adivinar el número!

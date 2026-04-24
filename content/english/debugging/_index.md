@@ -6,6 +6,9 @@ difficulty: "Intermediate"
 prereq: "C"
 icon: ""
 draft: false
+language: "c"
+topics: ["programming-basics"]
+difficulties: ["intermediate"]
 ---
 
 ## Introduction

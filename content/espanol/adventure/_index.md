@@ -6,6 +6,9 @@ prereq: "Conceptos básicos de Python - Escritura en consola (imprimir), Lectura
 download: ""
 draft: false
 icon: "fab fa-python"
+language: "python"
+topics: ["games"]
+difficulties: ["intermediate"]
 ---
 
 ## Parte 1 – ¡Bienvenido!

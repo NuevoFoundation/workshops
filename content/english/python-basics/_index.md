@@ -6,6 +6,9 @@ prereq: "none"
 difficulty: "Beginner"
 icon: "fab fa-python"
 draft: false
+language: "python"
+topics: ["programming-basics"]
+difficulties: ["beginner"]
 ---
 
 ## Overview

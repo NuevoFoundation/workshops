@@ -6,7 +6,7 @@ hidemetadata: true
 ---
 
 ## Воркшоп Долбоорлору
-{{< workshop-list style="card" depth="1" showhidden="false" description="true"  />}}
+{{< workshop-list style="card" depth="1" showhidden="false" description="true" interactive="true"  />}}
 
 ## Салым кошуу
 Биздин воркшопторду же веб-сайтыбызды жакшыртууга жардам бергиңиз келеби? Бул жерди басыңыз: **[Workshop Contributor Guidelines](guidelines/)**!

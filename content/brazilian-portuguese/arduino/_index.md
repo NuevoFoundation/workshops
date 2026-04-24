@@ -5,6 +5,9 @@ date: 2020-07-27T14:04:59.61-07:00
 difficulty: "Intermediário"
 icon: "fas fa-microchip"
 draft: false
+language: "arduino"
+topics: ["hardware", "games"]
+difficulties: ["intermediate"]
 ---
 
 ## Introdução - Construindo com Arduino
