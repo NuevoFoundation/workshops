@@ -14,7 +14,7 @@ Para restaurarla, primero debemos aprender a usar el simulador de circuitos lóg
 
 ---
 
-<img src="../media/pattern.webp" alt="Decoracion" width="100%" />
+<img src="../media/pattern.webp" alt="Patrón decorativo del taller de lógica" width="100%" />
 
 ## Uso básico del simulador
 
