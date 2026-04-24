@@ -7,6 +7,13 @@ draft: false
 
 **Esto es codigo CSS para la app, copialo y pegado en el archivo** `"style.css"`
 
+{{% notice info %}}
+### ¿Que hace el CSS?
+El CSS (Cascading Style Sheets) controla como se **ve** tu aplicacion: los colores, las formas, los tamaños y las animaciones. Sin CSS, tu app funcionaria igual pero se veria como texto plano sin estilo.
+
+Cada seccion de abajo le da estilo a un componente diferente de tu app de Costa Rica.
+{{% /notice %}}
+
 
 ```css 
 .App {

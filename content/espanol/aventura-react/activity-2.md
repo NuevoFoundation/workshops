@@ -39,20 +39,20 @@ Crea una constante llamada **desechos y setDesechos** para esta actividad. Dentr
 Tenemos que crear una funcion para poder limpiar la playa de los desechos de la array.
 
 ``` jsx
-const depositar = (d) => setDinero(dinero.filter((x) => x !== d));
+const limpiar = (d) => setDesechos(desechos.filter((x) => x !== d));
 
 ``` 
 
-Este codigo deposita dinero en un banco, puedes usarlo para limpiar la playa!!!
+Esta funcion elimina un desecho de la lista cuando le das clic. Veamos como funciona:
 
 
 
 {{% notice tip %}}
 ### ¿Qué hace esta función?
-<p style="font-size:1.6rem; color:#444; line-height:1.8;"><code>const depositar = (d) => setDinero(dinero.filter((x) => x !== d));</code>?</p>
+<p style="font-size:1.6rem; color:#444; line-height:1.8;"><code>const limpiar = (d) => setDesechos(desechos.filter((x) => x !== d));</code></p>
 <p style="font-size:1.6rem; color:#444; line-height:1.8;">Cuando le das click elimina lo que tienes en la array</p>
-<p style="font-size:1.6rem; color:#444; line-height:1.8;">El filter, revisa uno por uno, crea una nueva array, luego guarda la lista sin dinero</p>
-<p style="font-size:1.6rem; color:#444; line-height:1.8;">Ejemplo, quito los colones y que quedo con los dolares</p>
+<p style="font-size:1.6rem; color:#444; line-height:1.8;">El filter, revisa uno por uno, crea una nueva array, luego guarda la lista sin ese desecho</p>
+<p style="font-size:1.6rem; color:#444; line-height:1.8;">Ejemplo: si quitas el plastico, te quedas con vidrio, metal y papel</p>
 
 {{% /notice %}}
 

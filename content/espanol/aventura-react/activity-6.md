@@ -46,5 +46,16 @@ Lo que aprendieron hoy es solo el comienzo.
 ### ¡Felicitaciones, programadores! ⭐
 **¡Lo lograron! 🚀🦥🌋🐢🌴**
 
+---
+
+### ¿Qué sigue?
+
+Ahora que sabes los fundamentos de React, puedes seguir explorando:
+
+- **Agrega una nueva parada al tour:** Crea un nuevo componente para otro lugar de Costa Rica (por ejemplo, el Parque Nacional Manuel Antonio o el Río Celeste).
+- **Mejora el diseño:** Experimenta con nuevos colores, animaciones o imágenes en tu `style.css`.
+- **Aprende más React:** Visita la [documentación oficial de React](https://react.dev/learn) para descubrir conceptos como `useEffect`, navegación entre páginas, y cómo publicar tu app en internet.
+- **Comparte tu trabajo:** Muestra tu app a tus amigos y familia. ¡Eres un programador de React!
+
 
 
