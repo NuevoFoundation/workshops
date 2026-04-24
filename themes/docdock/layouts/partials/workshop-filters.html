@@ -53,10 +53,10 @@
   "tools"              "fa-screwdriver-wrench"
 -}}
 
-<section class="workshop-explorer-filters" aria-label="{{ i18n "workshop-explorer-filters-aria" }}">
+<section class="workshop-explorer-filters is-collapsed" aria-label="{{ i18n "workshop-explorer-filters-aria" }}">
   <div class="we-header">
     <button type="button" class="we-toggle" id="we-toggle"
-            aria-expanded="true" aria-controls="we-body">
+            aria-expanded="false" aria-controls="we-body">
       <i class="fas fa-sliders" aria-hidden="true"></i>
       <span class="we-toggle-label">{{ i18n "workshop-explorer-filters-title" }}</span>
       <span class="we-active-count" hidden aria-hidden="true">0</span>
@@ -71,7 +71,7 @@
            autocomplete="off" spellcheck="false" />
   </div>
 
-  <div class="we-body" id="we-body">
+  <div class="we-body" id="we-body" hidden>
   <div class="we-chip-group" data-dimension="difficulties" role="group"
        aria-label="{{ i18n "tax.dim.difficulty" }}">
     <span class="we-chip-group-label">

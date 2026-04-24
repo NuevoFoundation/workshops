@@ -337,24 +337,16 @@
       body.hidden = collapsed;
       if (persist) {
         try {
-          if (collapsed) localStorage.setItem(STORAGE_KEY, "1");
-          else localStorage.removeItem(STORAGE_KEY);
+          localStorage.setItem(STORAGE_KEY, collapsed ? "1" : "0");
         } catch (_e) { /* ignore */ }
       }
     }
-    var initialCollapsed = false;
+    var initialCollapsed = true;
     try {
-      initialCollapsed = localStorage.getItem(STORAGE_KEY) === "1";
+      var stored = localStorage.getItem(STORAGE_KEY);
+      if (stored === "0") initialCollapsed = false;
+      else if (stored === "1") initialCollapsed = true;
     } catch (_e) { /* ignore */ }
-    // On narrow viewports, default to collapsed if no explicit preference.
-    if (
-      localStorage.getItem &&
-      localStorage.getItem(STORAGE_KEY) === null &&
-      window.matchMedia &&
-      window.matchMedia("(max-width: 720px)").matches
-    ) {
-      initialCollapsed = true;
-    }
     setCollapsed(initialCollapsed, false);
     toggle.addEventListener("click", function () {
       var nowCollapsed = toggle.getAttribute("aria-expanded") === "true";
