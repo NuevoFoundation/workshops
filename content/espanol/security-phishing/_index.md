@@ -24,9 +24,7 @@ Sin embargo, pasaron 24 horas después, y no recibió ninguna confirmación de s
 
 Al leer el correo electrónico, **Alice** suspiró: "¡Bob, has sido `phished`!"
 
-## Tabla de contenido
-
 <details>
-<summary>Sections</summary>
+<summary>Tabla de contenido</summary>
 {{% children /%}}
 </details>

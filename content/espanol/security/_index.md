@@ -8,9 +8,7 @@ draft: false
 icon: "fas fa-user-secret"
 ---
 
-## Tabla de contenidos
-
-<details close>
-<summary>Table of Contents</summary>
+<details>
+<summary>Tabla de contenidos</summary>
 {{% children /%}}
 </details>

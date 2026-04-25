@@ -17,9 +17,7 @@ The San Diego Student Racing Competition (DISTANCE) is a fictional student racin
 Of course, building a car from scratch consists of many components: body, engine, transmission electrical work, interior, etc. Before any actual hands on work begins, the first phase is to do research and go through the Design Process to think of what kind of car they want to create.
 
 
-## Table of Contents
-
-<details close>
+<details>
 <summary>Table of Contents</summary>
 {{% children /%}}
 </details>

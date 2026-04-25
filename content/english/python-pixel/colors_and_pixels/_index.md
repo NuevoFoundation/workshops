@@ -6,8 +6,7 @@ weight: 1
 ---
 In this section, we will begin to learn the basics of colors and pixels as well as starting to create and change pixels in images.
 
-## Python Colors
-<details close>
-<summary>Table of Contents</summary>
+<details>
+<summary>Python Colors</summary>
 {{% children /%}}
 </details>

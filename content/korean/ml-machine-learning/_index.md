@@ -40,8 +40,7 @@ weight: 0
 
 {{% /expand %}}
 
-## 목차
-<details close>
-<summary>Table of Contents</summary>
+<details>
+<summary>목차</summary>
 {{% children /%}}
 </details>

@@ -8,9 +8,7 @@ draft: false
 icon: "fas fa-user-secret"
 ---
 
-## 목차
-
-<details close>
-<summary>Table of Contents</summary>
+<details>
+<summary>목차</summary>
 {{% children /%}}
 </details>

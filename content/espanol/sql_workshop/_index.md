@@ -24,9 +24,7 @@ Eres un aventurero espacial que viaja a través de la galaxia en tu cohete mient
 Por favor, no uses el navegador Firefox para este taller.
 {{% /notice%}}
 
-## Contenido
-
-<details close>
-<summary>Table of Contents</summary>
+<details>
+<summary>Contenido</summary>
 {{% children /%}}
 </details>

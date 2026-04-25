@@ -55,9 +55,7 @@ Os exemplos foram feitos em um único Replit. Vamos mostrar todos os comandos qu
 
 {{% /panel %}}
 
-## Conteúdo do Workshop
-
-<details close>
-<summary>Table of Contents</summary>
+<details>
+<summary>Conteúdo do Workshop</summary>
 {{% children /%}}
 </details>

@@ -55,9 +55,7 @@ The examples were written on a single Replit. We'll be providing all the command
 
 {{% /panel %}}
 
-## Workshop Contents
-
-<details close>
-<summary>Table of Contents</summary>
+<details>
+<summary>Workshop Contents</summary>
 {{% children /%}}
 </details>

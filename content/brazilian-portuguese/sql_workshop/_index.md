@@ -24,9 +24,7 @@ Você foi aprovado como explorador espacial honorário pela Federação Galácti
 Por favor, não use o navegador Firefox para este workshop.
 {{% /notice %}}
 
-## Tabela de Conteúdos
-
-<details close>
-<summary>Table of Contents</summary>
+<details>
+<summary>Tabela de Conteúdos</summary>
 {{% children /%}}
 </details>

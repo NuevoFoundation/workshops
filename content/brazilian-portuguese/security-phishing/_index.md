@@ -9,9 +9,7 @@ draft: false
 icon: "fas fa-user-secret"
 ---
 
-## Índice
-
-<details close>
-<summary>Table of Contents</summary>
+<details>
+<summary>Índice</summary>
 {{% children /%}}
 </details>

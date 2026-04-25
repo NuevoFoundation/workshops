@@ -17,9 +17,7 @@ Espero que goste!
 
 ![Exemplo de um jogo funcional](./img/unity_game.gif)
 
-## Tabela de Conteúdos
-
-<details close>
-<summary>Table of Contents</summary>
+<details>
+<summary>Tabela de Conteúdos</summary>
 {{% children /%}}
 </details>

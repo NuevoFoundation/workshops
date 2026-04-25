@@ -17,9 +17,7 @@ Hope you enjoy!
 
 ![Sample of a working game](./img/unity_game.gif)
 
-## Table of Contents
-
-<details close>
+<details>
 <summary>Table of Contents</summary>
 {{% children /%}}
 </details>

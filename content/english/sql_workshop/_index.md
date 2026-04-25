@@ -25,9 +25,7 @@ You’ve been approved as an honorary space explorer by the Galactic Federation!
 Please do not use the Firefox browser for this workshop.
 {{% /notice%}}
 
-## Table of Contents
-
-<details close>
+<details>
 <summary>Table of Contents</summary>
 {{% children /%}}
 </details>
