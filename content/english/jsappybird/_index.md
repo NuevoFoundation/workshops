@@ -3,7 +3,6 @@ title: "JS: JSappyBird"
 description: "Create Your Own JSappyBird Game"
 date: 2022-07-07T10:45:38-07:00
 prereq: "none"
-difficulty: "Beginner"
 icon: "fab fa-html5"
 draft: false
 language: "javascript"

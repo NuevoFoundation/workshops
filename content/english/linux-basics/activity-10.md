@@ -2,7 +2,7 @@
 title: "Activity 10 - Let's move and replace"
 description: "Use Linux commands to move and copy files"
 date: 2022-09-23
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 13
 ---
 

@@ -3,7 +3,7 @@ title: "Python Basics"
 description: "basics of python"
 weight: 3
 prereq: "Python Basics"
-difficulty: "Beginner"
+difficulties: ["beginner"]
 draft: false
 ---
 # Python basics

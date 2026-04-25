@@ -2,7 +2,6 @@
 title: "C#: Adivina la palabra"
 description: "Una guía introductoria para aprender C# y para usar tus nuevas habilidades a crear un juego de Adivina la palabra."
 prereq: "Ninguno"
-difficulty: "Intermedio"
 download: ""
 draft: false
 icon: "fas fa-code"

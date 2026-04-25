@@ -2,7 +2,7 @@
 title: "Activity 5 - Secure User Permissions"
 description: "Use a Linux command to secure your files"
 date: 2022-09-23
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 8
 ---
 

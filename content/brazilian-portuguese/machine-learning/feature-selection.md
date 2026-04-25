@@ -2,7 +2,7 @@
 title: "Etapa 5: Seleção de atributos (features)"
 description: "Conceitos básicos de Machine Learning"
 prereq: "nenhum"
-difficulty: "Intermediário"
+difficulties: ["intermediate"]
 draft: false
 weight: 5
 ---

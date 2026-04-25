@@ -1,7 +1,7 @@
 ---
 title: "Atividade 6: Recortar Imagem"
 prereq: "Fundamentos de Python, Manipulação de Imagens em Python: Abrir uma Imagem, Pixels em Python: Cores e Pixels"
-difficulty: "Intermediário"
+difficulties: ["intermediate"]
 date: 2020-09-08T00:00:00Z
 weight: 6
 draft: false

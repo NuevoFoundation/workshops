@@ -4,7 +4,7 @@ description: "Use Minimax algorithm to pick move for the computer"
 date: 2021-10-14T00:00:00Z
 weight: 6
 prereq: "게임판 설정하기!, 입력을 읽고 처리하기, 게임판 업데이트하기, 승자를 확인하기"
-difficulty: "고급"
+difficulties: ["advanced"]
 ---
 
 ### 컴퓨터가 생각하게 만들기

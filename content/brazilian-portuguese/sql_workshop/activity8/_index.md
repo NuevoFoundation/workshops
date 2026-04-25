@@ -3,7 +3,7 @@ title: "Atividade 8: Aprenda o comando LIKE"
 description: "Aprenda o comando LIKE"
 date: 2020-07-09
 prereq: "Comando SELECT, Comando WHERE"
-difficulty: "Iniciante"
+difficulties: ["beginner"]
 draft: false
 ---
 <!-- Links para javascript e CSS necessários para lógica suspensa -->

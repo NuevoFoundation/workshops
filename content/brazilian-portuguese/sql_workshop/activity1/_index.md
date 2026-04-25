@@ -3,7 +3,7 @@ title: "Atividade 1: Aprenda o Comando SELECT"
 description: "Aprenda o comando SELECT"
 date: 2020-07-17
 prereq: "none"
-difficulty: "Iniciante"
+difficulties: ["beginner"]
 draft: false
 ---
 <!-- Links para javascript e CSS necessários para lógica suspensa -->

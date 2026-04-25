@@ -3,7 +3,6 @@ title: "공급망 분석"
 description: "STEM 개념인 최적화를 활용해 쿠키 가게를 효율적으로 운영하는 방법을 배워보세요!"
 date: 2022-01-19T14:04:59.61-07:00
 prereq: "Excel; Excel Solver 추가 기능"
-difficulty: "중급"
 download: ""
 icon: "fa-link"
 draft: false

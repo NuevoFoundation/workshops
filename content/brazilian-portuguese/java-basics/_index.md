@@ -3,7 +3,6 @@ title: "Java: Fundamentos"
 description: "Uma introdução aos fundamentos da linguagem de programação Java"
 date: 2021-10-13T00:00:00Z
 prereq: "Nenhum"
-difficulty: "Iniciante"
 icon: "fab fa-java"
 draft: false
 language: "java"

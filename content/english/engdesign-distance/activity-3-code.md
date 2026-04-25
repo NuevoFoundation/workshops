@@ -1,6 +1,6 @@
 ---
 title: "Activity 3 - Code - TO FIX"
-difficulty: "Beginner"
+difficulties: ["beginner"]
 weight: 3
 draft: true
 ---

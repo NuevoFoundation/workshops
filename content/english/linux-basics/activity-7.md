@@ -2,7 +2,7 @@
 title: "Activity 7 - What's wrong with the file?"
 description: "Use Linux commands to read the file without opening it"
 date: 2022-09-23
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 10
 ---
 

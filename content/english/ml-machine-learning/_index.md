@@ -1,7 +1,6 @@
 ---
 title: "Machine Learning: Linear Regression"
 description: "Understanding how to predict things."
-difficulty: "Advanced"
 prereq: "Python"
 icon: ""
 draft: false

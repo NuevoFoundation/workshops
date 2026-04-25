@@ -3,7 +3,7 @@ title: "Tutorial 2: Explicar la Sintaxis"
 description: "Explicar la sintaxis"
 date: 2020-07-15
 prereq: "Comando SELECT, condicionales (comando WHERE)"
-difficulty: "Principiante"
+difficulties: ["beginner"]
 draft: false
 ---
 

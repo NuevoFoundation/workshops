@@ -4,7 +4,7 @@ date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 10
 prereq: "Python Basics, Python Pixels: Colors and Pixels, Python Image manipulation: Open an image"
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 --- 
 
 One other thing we can do to enhance our image is to add text. We can do that by utilizing the `Pillow ImageDraw` module. Let’s import that at the top of our file along with our other import statements.

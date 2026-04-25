@@ -3,7 +3,6 @@ title: "C#: Jogo Adivinhe a Palavra"
 description: "Um guia introdutório sobre como criar um jogo simples de Adivinhe a Palavra do zero usando C#"
 date: 2019-07-23T11:45:38-07:00
 prereq: "Nenhum"
-difficulty: "Intermediário"
 draft: false
 icon: "fas fa-code"
 language: "csharp"

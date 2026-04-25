@@ -3,7 +3,7 @@ title: "Section 2: Transferring the Story Board to Code!"
 date: 2019-07-23T11:45:38-07:00
 draft: false
 weight: 3
-difficulty: Intermediate
+difficulties: ["intermediate"]
 prereq: "Python Basics - Writing to Console (Print), Reading from Console, Strings, Variables, Conditional statements"
 ---
 

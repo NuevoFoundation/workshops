@@ -3,7 +3,7 @@ title: "Actividad 7: Usa el comando MIN"
 description: "Usa el comando MIN"
 date: 2020-07-10
 prereq: "Comando SELECT, comando WHERE, comando MAX/MIN"
-difficulty: "Principiante"
+difficulties: ["beginner"]
 draft: false
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->

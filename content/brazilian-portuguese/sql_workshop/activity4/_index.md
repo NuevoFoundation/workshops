@@ -3,7 +3,7 @@ title: "Atividade 4: Selecionar Múltiplas Informações"
 description: "Selecionar Múltiplas Informações"
 date: 2020-07-13
 prereq: "Comando SELECT"
-difficulty: "Iniciante"
+difficulties: ["beginner"]
 draft: false
 ---
 <!-- Links para javascript e CSS necessários para a lógica do menu suspenso -->

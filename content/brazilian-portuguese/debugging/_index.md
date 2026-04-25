@@ -2,7 +2,6 @@
 title: "C: O Processo de Depuração"
 description: "Uma introdução à depuração de programas"
 date: 2021-10-13T00:00:00Z
-difficulty: "Intermediário"
 prereq: "C"
 icon: ""
 draft: false

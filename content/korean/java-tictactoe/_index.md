@@ -3,7 +3,6 @@ title: "자바: 틱택토 (Tic-Tac-Toe)"
 description: "Java에서 콘솔 기반 TicTacToe 게임을 만드는 방법 알아보기"
 date: 2021-10-14T00:00:00Z
 prereq: "자바 기본(Java: Basics)"
-difficulty: "중급"
 icon: "fab fa-java"
 draft: false
 language: "java"

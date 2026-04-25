@@ -2,7 +2,7 @@
 title: "Resoluções - Minicurso Básico de Linux"
 description: "Resoluções de todos os exercícios"
 date: 2022-09-22
-difficulty: "Intermediário"
+difficulties: ["intermediate"]
 weight: 15
 ---
 

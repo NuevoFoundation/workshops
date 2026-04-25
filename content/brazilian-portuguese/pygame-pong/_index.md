@@ -3,7 +3,6 @@ title: "Python: Criando um Jogo de Pong"
 description: "Aprendendo a Criar um Jogo de Pong com a Biblioteca Pygame"
 date: 2019-07-29T13:24:17-07:00
 prereq: "Noções Básicas de Python"
-difficulty: "Intermediário"
 draft: false
 icon: "fab fa-python"
 language: "python"

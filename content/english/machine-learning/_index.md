@@ -2,7 +2,6 @@
 title: "Python: Machine Learning"
 description: "Basics of Machine Learning"
 prereq: "none"
-difficulty: "Beginner"
 draft: false
 language: "python"
 topics: ["ai"]

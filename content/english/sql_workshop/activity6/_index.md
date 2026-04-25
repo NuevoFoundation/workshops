@@ -3,7 +3,7 @@ title: "Activity 6: Use Comparators"
 description: "Use Comparators"
 date: 2020-07-11
 prereq: "SELECT Command, WHERE Command"
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 draft: false
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->

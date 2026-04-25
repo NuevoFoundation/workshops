@@ -3,7 +3,7 @@ title: "Atividade 5 - Use efeitos para fade in"
 description: "Configurando fones de ouvido"
 weight: 9
 prereq: "Python: Fundamentos. Impressão, comentários, funções"
-difficulty: "Intermediário"
+difficulties: ["intermediate"]
 draft: false
 ---
 

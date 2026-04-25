@@ -3,7 +3,6 @@ title: "Python: Create music with EarSketch"
 description: "Create music using Python and EarSketch"
 date: 2019-07-23T11:45:38-07:00
 prereq: "Python Basics: Print, Comments, Functions"
-difficulty: "Intermediate"
 download: ""
 draft: false
 icon: "fab fa-python"

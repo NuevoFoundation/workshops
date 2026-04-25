@@ -3,7 +3,6 @@ title: "Java: Jogo da Velha"
 description: "Aprenda sobre variáveis, funções e condicionais enquanto constrói um aplicativo Android do Jogo da Velha"
 date: 2021-03-13T14:04:59.61-07:00
 prereq: "Android Studio"
-difficulty: "Intermediário"
 download: "resources/_gen/files/TicTacToe.zip"
 icon: "fab fa-android"
 draft: false

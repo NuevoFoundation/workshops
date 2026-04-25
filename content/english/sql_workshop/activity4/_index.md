@@ -3,7 +3,7 @@ title: "Activity 4: Select Multiple Info"
 description: "Select Multiple Info"
 date: 2020-07-13
 prereq: "SELECT Command"
-difficulty: "Beginner"
+difficulties: ["beginner"]
 draft: false
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->

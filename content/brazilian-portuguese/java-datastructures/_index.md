@@ -3,7 +3,6 @@ title: "Java: Estruturas de dados"
 description: "Aprenda conceitos básicos de estruturas de dados Java"
 date: 2019-07-30T18:45:38-07:00
 prereq: "Java: Fundamentos"
-difficulty: "Intermediário"
 icon: "fab fa-java"
 draft: false
 language: "java"

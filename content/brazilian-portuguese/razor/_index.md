@@ -3,7 +3,6 @@ title: "C#: Criando um Web site com Razor"
 description: "Um guia introdutório de como fazer um site simples usando using C#/Razor"
 date: 2023-09-11T11:45:38-07:00
 prereq: "Básico Web, C#"
-difficulty: "Intermediário"
 draft: false
 icon: "fas fa-code"
 language: "csharp"

@@ -3,7 +3,6 @@ title: "Python: Fundamentos de Machine Learning com TensorFlow"
 description: "Aprenda classificação básica de imagens e treine modelos de ML com TensorFlow"
 date: 2020-09-09T16:19:17-07:00
 prereq: "Fundamentos de Python"
-difficulty: "Intermediário"
 image: ""
 draft: false
 icon: "fab fa-python"

@@ -2,7 +2,7 @@
 title: "Atividade 5 - Protegendo as permissões de usuários"
 description: "Aprendendo sobre os commandos do Linux para proteger os seus arquivos"
 date: 2022-09-21
-difficulty: "Intermediário"
+difficulties: ["intermediate"]
 weight: 8
 ---
 

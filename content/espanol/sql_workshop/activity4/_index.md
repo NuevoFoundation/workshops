@@ -3,7 +3,7 @@ title: "Actividad 4: Selecciona Información Multiple"
 description: "Selecciona Información Multiple"
 date: 2020-07-13
 prereq: "Comando SELECT"
-difficulty: "Principiante"
+difficulties: ["beginner"]
 draft: false
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->

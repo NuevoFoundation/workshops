@@ -3,7 +3,6 @@ title: "C++: 비밀 메시지"
 description: "C++ 배우고 나만의 비밀 메시지 만들기"
 date: 2021-08-10T23:26:18-05:00
 prereq: "없음"
-difficulty: "초급"
 language: "cpp"
 topics: ["cybersecurity"]
 difficulties: ["beginner"]

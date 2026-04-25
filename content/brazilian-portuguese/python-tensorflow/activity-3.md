@@ -2,7 +2,7 @@
 title: "Atividade 3 - Exibindo Amostras de Roupas"
 date: 2020-09-09T16:19:17-07:00
 prereq: "Fundamentos de Python: Funções - Funções integradas, Funções de bibliotecas; Tipos de Dados - Strings, Números, Leitura do console; Estruturas de Dados - Listas; Laços - For"
-difficulty: Intermediário
+difficulties: ["intermediate"]
 weight: 5
 draft: false
 ---

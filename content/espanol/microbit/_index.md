@@ -2,7 +2,6 @@
 title: "MicroBit: Codificación con mini computadoras"
 description: "Usando MicroBits para enseñar a los estudientes JavaScript y hardware"
 date: 2020-11-25T14:54:53-07:00
-difficulty: "Principiante a intermedio"
 download: "https://github.com/NuevoFoundation/workshops/tree/master/content/microbit"
 draft: false
 icon: "fas fa-microchip"

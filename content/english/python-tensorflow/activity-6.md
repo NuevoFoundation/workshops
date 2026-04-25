@@ -2,7 +2,7 @@
 title: "Activity 6 - Testing the Model (Again!)"
 date: 2020-09-09T16:19:17-07:00
 prereq: "Python Basics: Functions- Built in Functions, Functions from libraries; Data Types- Strings, Numbers, Reading from Console; Data Structures- Lists"
-difficulty: Intermediate
+difficulties: ["intermediate"]
 weight: 9
 draft: false
 ---

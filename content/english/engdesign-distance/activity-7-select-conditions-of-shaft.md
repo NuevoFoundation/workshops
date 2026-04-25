@@ -1,6 +1,6 @@
 ---
 title: "Activity 7 - Select conditions of your shaft"
-difficulty: "Beginner"
+difficulties: ["beginner"]
 weight: 7
 draft: true
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Passo 3 - Testando"
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 8
 draft: false
 ---

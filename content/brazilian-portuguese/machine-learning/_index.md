@@ -2,7 +2,6 @@
 title: "Python: Aprendizado de Máquina"
 description: "Conceitos básicos de Machine Learning"
 prereq: "nenhum"
-difficulty: "Iniciante"
 draft: false
 language: "python"
 topics: ["ai"]

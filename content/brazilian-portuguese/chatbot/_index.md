@@ -3,7 +3,6 @@ title: "Crie seu próprio chatbot"
 description: "Um guia introdutório para chatbots"
 date: 2020-02-21T11:45:38-07:00
 prereq: "email"
-difficulty: "Iniciante"
 download: ""
 draft: false
 icon: "fas fa-code"

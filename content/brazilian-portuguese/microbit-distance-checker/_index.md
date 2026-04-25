@@ -3,7 +3,6 @@ title: "Blocos: micro:bit Distanciamento Social Sem Fio"
 description: "Um guia para manter pelo menos 2m de distância usando Bluetooth"
 date: 2020-07-29T08:45:08-07:00
 prereq: "Nenhum"
-difficulty: "Iniciante"
 download: ""
 draft: false
 icon: "fas fa-microchip"

@@ -1,7 +1,6 @@
 ---
 title: "머신 러닝: 선형 회귀"
 description: "다양한 현상을 어떻게 예측하는지 알아보기."
-difficulty: "고급"
 prereq: "파이썬"
 icon: ""
 draft: false

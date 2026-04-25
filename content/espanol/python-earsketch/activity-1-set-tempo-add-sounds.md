@@ -2,7 +2,7 @@
 title: "Actividad 1 - Establecer tempo y añadir sonidos"
 description: "Actividad 1 - Establecer tempo y añadir sonidos"
 prereq: "Python Basico: Imprimir, Comentarios, Funciones"
-difficulty: "Intermedio"
+difficulties: ["intermediate"]
 weight: 5
 draft: false
 ---

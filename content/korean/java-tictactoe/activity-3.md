@@ -3,7 +3,7 @@ title: "3. 게임판 업데이트하기"
 description: "컴퓨터의 움직임 생성 및 보드 업데이트하기"
 date: 2021-10-14T00:00:00Z
 prereq: "Set up the Board!, Read and Process Input"
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 4
 ---
 

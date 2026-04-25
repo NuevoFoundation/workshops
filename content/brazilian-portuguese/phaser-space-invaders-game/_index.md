@@ -2,7 +2,6 @@
 title: "Phaser: Jogo Space Shooter"
 description: "Um guia para criar um Space Shooter inspirado em jogos como Space Invaders e Galaga"
 date: 2020-08-20T11:45:38-07:00
-difficulty: "Intermediário"
 prereq: "JavaScript: Básico"
 draft: false
 language: "javascript"

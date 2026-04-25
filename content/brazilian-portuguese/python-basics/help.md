@@ -4,7 +4,7 @@ description: "Configurando fones de ouvido"
 date: 2019-07-23T11:45:38-07:00
 weight: 12
 prereq: "Nenhum"
-difficulty: "Iniciante"
+difficulties: ["beginner"]
 draft: false
 ---
 ##### Sem problemas! Veja se alguma das opções a seguir ajuda você; caso contrário, sinta-se à vontade para entrar em contato com um de nós e nós o ajudaremos.

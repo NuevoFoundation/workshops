@@ -3,7 +3,6 @@ title: "나만의 챗봇 만들기"
 description: "챗봇 입문 가이드"
 date: 2020-02-21T11:45:38-07:00
 prereq: "이메일 주소"
-difficulty: "초급"
 download: ""
 draft: false
 icon: "fas fa-code"

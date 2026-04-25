@@ -2,7 +2,7 @@
 title: "Activity 2: Modify your color board"
 date: 2020-07-11T00:00:00Z
 prereq: "Python Basics, Python Pixels: Colors and Pixels, Python Image manipulation: Open an image"
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 2
 draft: false
 ---

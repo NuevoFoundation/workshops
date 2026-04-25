@@ -1,6 +1,6 @@
 ---
 title: "An Overview of Debugging"
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 2
 draft: false
 ---

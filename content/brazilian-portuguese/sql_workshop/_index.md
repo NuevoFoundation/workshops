@@ -3,7 +3,6 @@ title: "SQL: Salvando a Galáxia"
 description: "Aprendendo comandos SQL básicos"
 date: 2019-07-25T13:24:17-07:00
 prereq: "Nenhum"
-difficulty: "Iniciante"
 draft: false
 icon: "fas fa-database"
 weight: 130

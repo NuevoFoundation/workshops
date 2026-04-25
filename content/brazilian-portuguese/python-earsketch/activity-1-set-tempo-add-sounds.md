@@ -2,7 +2,7 @@
 title: "Atividade 1 – Defina o andamento e adicione sons"
 description: "Configurando fones de ouvido"
 prereq: "Python: Fundamentos. Impressão, comentários, funções"
-difficulty: "Intermediário"
+difficulties: ["intermediate"]
 weight: 5
 draft: false
 ---

@@ -2,7 +2,7 @@
 title: "Activity 6 - A BAD File"
 description: "Use Linux commands to search"
 date: 2022-09-23
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 9
 ---
 

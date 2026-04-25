@@ -3,7 +3,6 @@ title: "HTML & CSS: 入門網站設計"
 description: "有關如何從頭開始製作簡單網站的入門指南"
 date: 2019-09-03T17:53:41-07:00
 draft: false
-difficulty: "初學者"
 icon: "fab fa-html5"
 language: "html-css"
 topics: ["web"]

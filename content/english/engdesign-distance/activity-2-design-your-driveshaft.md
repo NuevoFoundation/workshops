@@ -1,6 +1,6 @@
 ---
 title: "Activity 2 - Design your Driveshaft"
-difficulty: "Beginner"
+difficulties: ["beginner"]
 weight: 2
 draft: true
 ---

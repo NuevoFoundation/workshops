@@ -2,7 +2,7 @@
 title: "Step 2: 프로젝트 시작하기"
 description: "머신러닝에 관한 기초 내용"
 prereq: "없음"
-difficulty: "중급"
+difficulties: ["intermediate"]
 draft: false
 weight: 2
 ---

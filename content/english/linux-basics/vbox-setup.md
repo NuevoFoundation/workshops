@@ -2,7 +2,7 @@
 title: "Using Virtual Machines Part 1"
 description: "An introductory guide to using virtual machines"
 date: 2022-09-23
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 1
 ---
 

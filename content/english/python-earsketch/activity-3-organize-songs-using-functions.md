@@ -2,7 +2,7 @@
 title: "Activity 3 - Organize your song using functions"
 description: "Setting up headphones"
 prereq: "Python Basics: Functions"
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 7
 draft: false
 ---

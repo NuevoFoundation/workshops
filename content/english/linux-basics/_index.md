@@ -3,7 +3,6 @@ title: "Linux: Basics"
 description: "An introductory guide to using the Linux command line."
 date: 2022-09-23
 prereq: "None."
-difficulty: "Intermediate"
 download: ""
 draft: false
 icon: "fas fa-microchip"

@@ -3,7 +3,6 @@ title: "Java: Basics"
 description: "An introduction to the basics of Java programming language."
 date: 2021-10-13T00:00:00Z
 prereq: "none"
-difficulty: "Beginner"
 icon: "fab fa-java"
 draft: false
 language: "java"

@@ -2,7 +2,7 @@
 title: "Activity 8 - What's different?"
 description: "Use Linux commands to compare files"
 date: 2022-09-23
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 11
 ---
 

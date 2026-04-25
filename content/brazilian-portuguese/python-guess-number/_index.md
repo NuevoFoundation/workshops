@@ -3,7 +3,6 @@ title: "Python: Advinhe o número"
 description: "Crie um jogo simples que pede ao usuário para adivinhar um número gerado aleatoriamente"
 date: 2020-07-27
 prereq: "Noções Básicas de Python"
-difficulty: "Intermediário"
 icon: "fab fa-python"
 draft: false
 language: "python"

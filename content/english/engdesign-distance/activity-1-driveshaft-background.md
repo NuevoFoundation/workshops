@@ -1,6 +1,6 @@
 ---
 title: "Activity 1 - Driveshaft Background"
-difficulty: "Beginner"
+difficulties: ["beginner"]
 weight: 1
 draft: true
 ---

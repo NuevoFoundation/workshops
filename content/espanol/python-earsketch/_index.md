@@ -3,7 +3,6 @@ title: "Python: Hagamos música con EarSketch"
 description: "Crea música usando Python y EarSketch"
 date: 2020-11-25T11:45:38-07:00
 prereq: "Python Basico: Imprimir, Comentarios, Funciones"
-difficulty: "Intermedio"
 download: ""
 draft: false
 icon: "fab fa-python"

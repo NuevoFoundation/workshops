@@ -2,7 +2,7 @@
 title: "Step 1: 데이터셋 가져오기"
 description: "머신러닝에 관한 기초 내용"
 prereq: "없음"
-difficulty: "중급"
+difficulties: ["intermediate"]
 draft: false
 weight: 1
 ---

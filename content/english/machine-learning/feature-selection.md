@@ -2,7 +2,7 @@
 title: "Step 5: Feature selection"
 description: "Basics of Machine Learning"
 prereq: "none"
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 draft: false
 weight: 5
 ---

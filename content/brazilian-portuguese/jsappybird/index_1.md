@@ -2,7 +2,7 @@
 title: "Javascript: JSappy Bird"
 description: "Aprenda sobre variáveis, funções e condicionais enquanto constrói um clone de flappy bird."
 date: 2019-07-23T10:42:43-07:00
-difficulty: "Inicianter/Intermediário"
+difficulties: ["beginner", "intermediate"]
 draft: true
 hidden: true
 ---
