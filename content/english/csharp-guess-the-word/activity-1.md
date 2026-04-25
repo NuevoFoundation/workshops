@@ -11,4 +11,4 @@ Go to the code containing the [GuessTheWord](https://dotnetfiddle.net/lMl7j4) ga
 
 Find `// TODO (ACTIVITY 1)` in the code. Add a line of code to print Welcome to C# GuessTheWord to the console. If you did this correctly, `Welcome to C# GuessTheWord` will be printed to the console after pressing **run**.
 
-![alt text height="600px" width="70%"](../media/guessTheWordActivity-1-start.PNG "Fiddle for activity 1")
+![alt text height="600px" width="70%"](../media/guessTheWordActivity-1-start.png "Fiddle for activity 1")

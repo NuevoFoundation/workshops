@@ -19,7 +19,7 @@ Console.WriteLine("Apple" + "Pineapple");
 Console.WriteLine("Nuevo" + " " + "Foundation");
 ```
 
-![alt text height="600px" width="70%"](../media/strings-intro.PNG "Combining strings with +")
+![alt text height="600px" width="70%"](../media/strings-intro.png "Combining strings with +")
 
 {{% notice tip %}}
 
