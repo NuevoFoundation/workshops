@@ -30,7 +30,7 @@ A cor representada por `(R, G, B)` é o resultado da mistura dessas três cores 
 Aqui estamos misturando quantidades diferentes de luz vermelha, verde e azul para criar novas cores. É parecido com a pintura com tinta, onde usamos pigmentos nas cores primárias vermelho, amarelo e azul. Mas no computador usamos luz — com as cores primárias vermelho, verde e azul.
 
 Esta imagem mostra, de forma aproximada, como as cores se combinam:  
-![alt text iframe height="600px" width="40%"](../../media/colors.svg.png "representação de mistura de cores")
+<img src="../../media/colors.svg.png" alt="Representação de mistura de cores" width="50%">
 
 Assim como não devemos usar tinta demais, há um limite para representar cores com luz:  
 O valor máximo de cada cor no RGB é `255` e o mínimo é `0`.
@@ -50,7 +50,7 @@ Em todo o restante do material, "cor" significa "cor da luz".
 
 {{% showanswer "Mostrar Resposta" %}}
 Preto. Todos os valores são 0%. (Não há luz — está tudo escuro. É preto!)
-![alt text height="600px" width="40%"](../../media/black.png "preto")
+<img src="../../media/black.png" alt="Amostra de cor preta" width="40%">
 </br>
 {{% /showanswer %}}
 
@@ -63,7 +63,7 @@ Preto. Todos os valores são 0%. (Não há luz — está tudo escuro. É preto!)
 
 {{% showanswer "Mostrar Resposta" %}}
 Branco. 255 significa que estamos usando 100% de cada cor — totalmente saturado. Quando todas estão no máximo, o resultado é branco.
-![alt text height="600px" width="40%"](../../media/white.png "branco")
+<img src="../../media/white.png" alt="Amostra de cor branca" width="40%">
 </br>
 {{% /showanswer %}}
 
@@ -76,7 +76,7 @@ Branco. 255 significa que estamos usando 100% de cada cor — totalmente saturad
 
 {{% showanswer "Mostrar Resposta" %}}
 Cinza. `100 / 255` = aproximadamente 39,2%. Misturando 39,2% de vermelho, verde e azul obtemos cinza.
-![alt text height="600px" width="40%"](../../media/grey.png "cinza")
+<img src="../../media/grey.png" alt="Amostra de cor cinza" width="40%">
 </br>
 {{% /showanswer %}}
 
@@ -104,6 +104,6 @@ img.show('red.png')
 
 A saída será:
 
-![alt text](../../media/whileloopbefore.png "vermelho")
+<img src="../../media/whileloopbefore.png" alt="Exemplo de saída de cor vermelha" width="60%">
 
 Incrível! Você obteve vermelho!

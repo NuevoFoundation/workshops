@@ -14,10 +14,10 @@ Quando vemos uma imagem na tela, ela é composta por muitos pixels coloridos, ma
 <div style="width:80%;padding-left:20%;">
     <table>
         <td>
-            <img src="../../media/nuvi.png" width=100%>
+            <img src="../../media/nuvi.png" alt="Personagem Nuvi" width="100%">
         </td>
         <td>
-            <img src="../../media/pixel-nuvi.png" width=100%>
+            <img src="../../media/pixel-nuvi.png" alt="Personagem Nuvi mostrado como pixels" width="100%">
         </td>
     </table>
 </div>
@@ -49,7 +49,7 @@ img.save('pil_grey.png')
 ```
 
 A variável `img` guarda a imagem PNG, que fica assim:  
-![alt text](../../media/grey.png "Imagem cinza gerada por pixels")
+<img src="../../media/grey.png" alt="Imagem cinza gerada por pixels" width="40%">
 
 ```python
 # Lembre-se de importar Image
@@ -59,7 +59,7 @@ img.save('pil_black.png')
 ```
 
 Aqui, ao especificar `"black"` como cor RGB, criamos e salvamos esta imagem:  
-![alt text](../../media/black.png "Imagem preta gerada por pixels")
+<img src="../../media/black.png" alt="Imagem preta gerada por pixels" width="40%">
 
 ## Alterando um pixel na imagem
 
@@ -80,4 +80,4 @@ img.save('pil_black-dot.png')
 Após criar uma imagem amarela de 200x100, a função `putpixel` coloca um pequeno ponto preto bem no meio do bloco amarelo.  
 Esse ponto é apenas 1 pixel – talvez você precise ampliar a imagem para enxergar!
 
-![alt text](../../media/black-dot.png "Imagem mostrando ponto preto em fundo amarelo")
+<img src="../../media/black-dot.png" alt="Imagem mostrando ponto preto em fundo amarelo" width="40%">

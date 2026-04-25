@@ -15,7 +15,7 @@ Na seção anterior, vimos como criar um filtro azul e pensamos sobre como fazer
 
 Vamos modificar a imagem do gatinho abaixo com nosso filtro cinza!
 
-<img src="../../media/cat.png" width=50%>
+<img src="../../media/cat.png" alt="Imagem original do gato" width="50%">
 
 ```python
 # Precisamos importar o pacote PIL para manipular pixels
@@ -44,7 +44,7 @@ Qual é a melhor forma de “cinzar” um pixel? Podemos fazer a média entre os
 {{% /notice %}}
 
 Uau! Aqui está nosso gato com o filtro cinza:  
-<img src="../../media/greyfiltercat.png" width=50%>
+<img src="../../media/greyfiltercat.png" alt="Imagem do gato com filtro cinza aplicado" width="50%">
 
 ### Exemplo – Filtro parcial
 
@@ -69,7 +69,7 @@ img.save("Mycat.png")
 ```
 
 Uau! Aqui está nosso gato com o filtro aplicado só em um quarto da imagem (canto superior esquerdo):  
-<img src="../../media/partialfilter.png" width=50%>
+<img src="../../media/partialfilter.png" alt="Imagem do gato com filtro parcial aplicado" width="50%">
 
 ### Desafio – Crie seu próprio filtro parcial
 
@@ -105,6 +105,6 @@ Vamos testar:
 ```
 
 Se você combinar `filter()` com `convert("L")`, terá algo como isto – purrfeito!  
-<img src="../../media/bw_upside_down.png" alt="gato preto e branco borrado de cabeça para baixo" width=50%>
+<img src="../../media/bw_upside_down.png" alt="gato preto e branco borrado de cabeça para baixo" width="50%">
 
 {{% /showanswer %}}

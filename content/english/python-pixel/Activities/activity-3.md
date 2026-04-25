@@ -38,7 +38,7 @@ for y in range(5, 25):
 img.save('pixel-activity3.png')
 ```
 output:
-![alt text](../../media/Activity3_ex.png "image showing activity3 example")
+<img src="../../media/Activity3_ex.png" alt="Image showing activity 3 example" width="60%">
 
 
 ### Design your own element!

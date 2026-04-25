@@ -15,7 +15,7 @@ In this section, we will start to learn how to crop your image.
 
 Now, let us crop out the right half of the cat image.
   
-<img src="../../media/cat.png" width=50%>
+<img src="../../media/cat.png" alt="Original cat image" width="50%">
 
 ```python
 # We need to import PIL package to allow manipulation with pixels.
@@ -40,13 +40,13 @@ newimg.save("Mycat.png")
 
 Wow! This is our cat after the cropping. We cropped the right half of the image!
 
-<img src="../../media/halfcat.png" width=25%>
+<img src="../../media/halfcat.png" alt="Cat image cropped to left half" width="25%">
 
 ### Example - Crop out the central piece
 
 Let us crop the cat image to have only the center part!
 
-<img src="../../media/cat.png" width=50%>
+<img src="../../media/cat.png" alt="Original cat image" width="50%">
 
 ```python
 # We need to import PIL package to allow manipulation with pixels.
@@ -70,7 +70,7 @@ newimg.save("Mycat.png")
 ```
 
 Wow! This is our cat after cropping.
-<img src="../../media/cropcat.png" width=25%>
+<img src="../../media/cropcat.png" alt="Cat image with custom crop applied" width="25%">
 
 ### Challenge - Crop image based on your own choice
 

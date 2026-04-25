@@ -19,13 +19,13 @@ from PIL import Image
 img = Image.new('RGB', (60, 30), 'red')
 img.save('pil_red.png')
 ```
-![alt text](../../media/whileloopbefore.png "image showing activity one first example")
+<img src="../../media/whileloopbefore.png" alt="Image showing activity one first example" width="60%">
 
 ## Create your own colorboard!
 
 Choose your favorite color and make a color board to play with! Here are some example colors you can choose from, but you can also pick your own color.
 
-<img src="../../media/Color-chart.png" width=30%>
+<img src="../../media/Color-chart.png" alt="Color chart showing example RGB colors" width="30%">
 
 <!-- For accessibility, use this label HTML -->
 <label for="colorpicker">You can use color picker to choose a color:</label>
@@ -33,13 +33,13 @@ Choose your favorite color and make a color board to play with! Here are some ex
 
 {{% notice warning %}}
  In order to see your image, please click on top left corner (which says 'Files'), and then click on the image file to see the result.
-<div style="width:100%">
+<div style="width:70%">
     <table>
         <td>
-            <img src="../../media/open-file1.png" width=100%>
+            <img src="../../media/open-file1.png" alt="Click Files in the left panel" width="100%">
         </td>
         <td>
-            <img src="../../media/open-file2.png" width=100%>
+            <img src="../../media/open-file2.png" alt="Click the image file to see results" width="100%">
         </td>
     </table>
 </div>
