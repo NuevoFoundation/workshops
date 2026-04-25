@@ -88,13 +88,13 @@ Draft pages only appear when running `hugo server -D` (the `-D` flag includes dr
 To show a list of child pages on a landing page, use the `children` shortcode inside a collapsible details element:
 
 ```html
-<details close>
+<details>
 <summary>Table of Contents</summary>
 {{% children /%}}
 </details>
 ```
 
-This renders a clean, collapsible table of contents that students can expand when ready.
+This renders a clean, collapsible table of contents that students can expand when ready. Some existing workshops use `<details open>` for an expanded default.
 
 ## Workshop landing page template
 

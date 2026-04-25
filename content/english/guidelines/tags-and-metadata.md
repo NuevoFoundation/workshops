@@ -56,20 +56,20 @@ weight: 1
 
 ## Common icons
 
-The homepage displays an icon for each workshop. Use [Font Awesome](https://fontawesome.com/icons) classes:
+The homepage displays an icon for each workshop. Use [Font Awesome](https://fontawesome.com/icons) classes in the `icon` frontmatter field:
 
-| Icon | Class | Good for |
-|------|-------|----------|
-| {{< icon name="fab fa-python" >}} | `fab fa-python` | Python workshops |
-| {{< icon name="fab fa-html5" >}} | `fab fa-html5` | HTML/web workshops |
-| {{< icon name="fab fa-js" >}} | `fab fa-js` | JavaScript workshops |
-| {{< icon name="fas fa-laptop-code" >}} | `fas fa-laptop-code` | General coding |
-| {{< icon name="fas fa-microchip" >}} | `fas fa-microchip` | Hardware / Arduino |
-| {{< icon name="fas fa-shield-alt" >}} | `fas fa-shield-alt` | Security workshops |
-| {{< icon name="fas fa-database" >}} | `fas fa-database` | SQL / data workshops |
-| {{< icon name="fas fa-code" >}} | `fas fa-code` | General (default) |
-| {{< icon name="fas fa-gamepad" >}} | `fas fa-gamepad` | Game workshops |
-| {{< icon name="fas fa-music" >}} | `fas fa-music` | Music / audio |
+| Class | Good for |
+|-------|----------|
+| `fab fa-python` | Python workshops |
+| `fab fa-html5` | HTML/web workshops |
+| `fab fa-js` | JavaScript workshops |
+| `fas fa-laptop-code` | General coding |
+| `fas fa-microchip` | Hardware / Arduino |
+| `fas fa-shield-alt` | Security workshops |
+| `fas fa-database` | SQL / data workshops |
+| `fas fa-code` | General (default) |
+| `fas fa-gamepad` | Game workshops |
+| `fas fa-music` | Music / audio |
 
 ## Activity page fields
 

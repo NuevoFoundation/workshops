@@ -23,7 +23,7 @@ Thank you for helping make workshops accessible to more kids around the world! T
 | `content/traditional-chinese/` | Traditional Chinese |
 | `content/kyrgyz/` | Kyrgyz |
 
-2. Open a [Translation Request issue](https://github.com/NuevoFoundation/workshops/issues/new?template=translation-request.yml) so others know you're working on it.
+2. Open a [Translation Request issue](https://github.com/NuevoFoundation/workshops/issues/new) on GitHub so others know you're working on it.
 
 ## How translations work
 
