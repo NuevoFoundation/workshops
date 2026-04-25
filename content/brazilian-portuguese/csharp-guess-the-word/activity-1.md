@@ -11,4 +11,4 @@ Vá até o código do jogo [GuessTheWord](https://dotnetfiddle.net/lMl7j4). Aper
 
 Encontre `// TODO (ACTIVITY 1)` no código. Adicione uma linha de código para imprimir Welcome to C# GuessTheWord no console. Se você fez isso corretamente, `Welcome to C# GuessTheWord` será mostrado no console depois de apertar **run**.
 
-![alt text height="600px" width="70%"](../media/guessTheWordActivity-1-start.PNG "Fiddle da atividade 1")
+![alt text height="600px" width="70%"](../media/guessTheWordActivity-1-start.png "Fiddle da atividade 1")
