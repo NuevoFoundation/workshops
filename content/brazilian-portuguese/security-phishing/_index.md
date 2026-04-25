@@ -11,9 +11,7 @@ topics: ["cybersecurity"]
 difficulties: ["beginner"]
 ---
 
-## Índice
-
-<details close>
-<summary>Table of Contents</summary>
+<details>
+<summary>Índice</summary>
 {{% children /%}}
 </details>

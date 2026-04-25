@@ -22,7 +22,7 @@ difficulties: ["beginner"]
 
 You are a space adventurer who travels the galaxy in your speedy rocket ship while solving coding puzzles to help save your alien friends on different planets.
  
-YouΓÇÖve been approved as an honorary space explorer by the Galactic Federation! You will be given missions to help make the galaxy a safe and fun place for everyone!
+You╬ô├ç├ûve been approved as an honorary space explorer by the Galactic Federation! You will be given missions to help make the galaxy a safe and fun place for everyone!
 
 {{% notice warning %}}
 Please do not use the Firefox browser for this workshop.

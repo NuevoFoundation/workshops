@@ -42,8 +42,7 @@ Your brain has grown accustomed to looking at events and memorizing the factors 
 
 {{% /expand %}}
 
-## Table of Contents
-<details close>
+<details>
 <summary>Table of Contents</summary>
 {{% children /%}}
 </details>

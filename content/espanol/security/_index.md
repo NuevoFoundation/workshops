@@ -10,9 +10,7 @@ topics: ["cybersecurity"]
 difficulties: ["beginner"]
 ---
 
-## Tabla de contenidos
-
-<details close>
-<summary>Table of Contents</summary>
+<details>
+<summary>Tabla de contenidos</summary>
 {{% children /%}}
 </details>

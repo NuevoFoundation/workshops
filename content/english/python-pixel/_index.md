@@ -10,7 +10,7 @@ difficulties: ["intermediate"]
 ---
 
 # Python Pixels
-<details close>
+<details>
 <summary>Table of Contents</summary>
 {{% children /%}}
 </details>
