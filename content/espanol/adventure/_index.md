@@ -1,11 +1,13 @@
 ---
 title: "Python: Elige tu propia aventura"
 description: "Introduccion para hacer un juego de Python donde puedes elegir tu propia aventura"
-difficulty: Intermedio
 prereq: "Conceptos básicos de Python - Escritura en consola (imprimir), Lectura desde consola, Cadenas, Variables, Instrucciones condicionales"
 download: ""
 draft: false
 icon: "fab fa-python"
+language: "python"
+topics: ["games"]
+difficulties: ["intermediate"]
 ---
 
 ## Parte 1 – ¡Bienvenido!

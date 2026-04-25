@@ -2,7 +2,7 @@
 title: "Actividad 3 - Organiza tus canciones usando funciones"
 description: "Actividad 3 - Organiza tus canciones usando funciones"
 prereq: "Python Basico: Funciones"
-difficulty: "Intermedio"
+difficulties: ["intermediate"]
 weight: 7
 draft: false
 ---

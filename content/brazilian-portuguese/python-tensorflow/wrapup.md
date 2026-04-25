@@ -2,7 +2,7 @@
 title: "Conclusão do Workshop"
 date: 2020-09-09T16:19:17-07:00
 prereq: "Fundamentos de Python: Funções - Funções embutidas, Funções de bibliotecas; Tipos de Dados - Strings, Números, Leitura pelo Console; Estruturas de Dados - Listas, Tuplas, Conjuntos; Laços - Laços For"
-difficulty: Intermediário
+difficulties: ["intermediate"]
 weight: 14
 draft: false
 ---

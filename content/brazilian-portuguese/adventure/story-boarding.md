@@ -3,7 +3,7 @@ title: "Seção 1: Planejamento da História"
 date: 2019-07-23T11:45:38-07:00
 draft: false
 weight: 1
-difficulty: Intermediate
+difficulties: ["intermediate"]
 prereq: " Noções básicas de Python - Escrever no console (Print), Ler do console, Strings, Variáveis, Declarações condicionais "
 ---
 

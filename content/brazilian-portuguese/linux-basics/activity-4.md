@@ -2,7 +2,7 @@
 title: "Atividade 4 - Praticando anotações"
 description: "Aprendendo sobre os commandos do Linux para criar um novo arquivo"
 date: 2022-09-21
-difficulty: "Intermediário"
+difficulties: ["intermediate"]
 weight: 7
 ---
 

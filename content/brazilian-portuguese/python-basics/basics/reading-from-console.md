@@ -4,7 +4,7 @@ date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 6
 prereq: "Fundamentos de Python: variáveis"
-difficulty: Intermediário
+difficulties: ["intermediate"]
 --- 
 
 Agora que sabemos o básico sobre variáveis, podemos pedir informações ao usuário. Use a linha a seguir para dizer ao nosso programa para esperar até que o usuário digite algo no console. Então, o computador pega tudo o que é digitado no console e armazena na variável chamada **value**.

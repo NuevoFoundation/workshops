@@ -83,3 +83,124 @@ other = "Hinweis"
 # menu.html
 [workshop-dashboard]
 other = "Werkstatt-Dashboard"
+
+# BEGIN workshop-explorer (auto-generated)
+
+[workshop-explorer-filters-aria]
+other = "Workshops filtern und gruppieren"
+
+[workshop-explorer-filters-title]
+other = "Filter"
+
+[workshop-explorer-search]
+other = "Workshops suchen…"
+
+[workshop-explorer-clear]
+other = "Filter zurücksetzen"
+
+[workshop-explorer-group-by]
+other = "Gruppieren nach"
+
+[workshop-explorer-group-none]
+other = "Keine"
+
+[workshop-explorer-empty]
+other = "Keine Workshops entsprechen deinen Filtern."
+
+[workshop-explorer-count]
+other = "{n} Workshops"
+
+[tax.dim.difficulty]
+other = "Schwierigkeit"
+
+[tax.dim.language]
+other = "Sprache"
+
+[tax.dim.topic]
+other = "Thema"
+
+[tax.difficulty.beginner]
+other = "Anfänger"
+
+[tax.difficulty.intermediate]
+other = "Mittelstufe"
+
+[tax.difficulty.advanced]
+other = "Fortgeschritten"
+
+[tax.language.blocks]
+other = "Blocks"
+
+[tax.language.python]
+other = "Python"
+
+[tax.language.javascript]
+other = "JavaScript"
+
+[tax.language.java]
+other = "Java"
+
+[tax.language.csharp]
+other = "C#"
+
+[tax.language.cpp]
+other = "C++"
+
+[tax.language.c]
+other = "C"
+
+[tax.language.html-css]
+other = "HTML & CSS"
+
+[tax.language.sql]
+other = "SQL"
+
+[tax.language.kusto]
+other = "Kusto (KQL)"
+
+[tax.language.arduino]
+other = "Arduino"
+
+[tax.language.linux]
+other = "Linux"
+
+[tax.language.no-code]
+other = "No-Code"
+
+[tax.topic.programming-basics]
+other = "Programmiergrundlagen"
+
+[tax.topic.games]
+other = "Spiele"
+
+[tax.topic.web]
+other = "Web"
+
+[tax.topic.ai]
+other = "KI & maschinelles Lernen"
+
+[tax.topic.cybersecurity]
+other = "Cybersicherheit"
+
+[tax.topic.data]
+other = "Daten"
+
+[tax.topic.hardware]
+other = "Hardware"
+
+[tax.topic.music]
+other = "Musik"
+
+[tax.topic.graphics]
+other = "Grafik"
+
+[tax.topic.mobile]
+other = "Mobil"
+
+[tax.topic.engineering]
+other = "Technik"
+
+[tax.topic.tools]
+other = "Werkzeuge"
+
+# END workshop-explorer

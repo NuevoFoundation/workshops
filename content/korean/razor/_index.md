@@ -3,9 +3,11 @@ title: "C#: Razor를 사용한 웹 사이트 만들기"
 description: "C#/Razor를 사용하여 간단한 웹사이트를 만드는 방법에 대한 소개 가이드"
 date: 2023-09-11T11:45:38-07:00
 prereq: "웹 기초, C#"
-difficulty: "중급"
 draft: false
 icon: "fas fa-code"
+language: "csharp"
+topics: ["web"]
+difficulties: ["intermediate"]
 ---
 
 ## 환영합니다

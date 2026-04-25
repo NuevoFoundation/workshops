@@ -3,7 +3,7 @@ title: "Activity 4 - Add effects to your song"
 description: "Setting up headphones"
 weight: 8
 prereq: "Python Basics: Print, Comments, Functions"
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 draft: false
 ---
 <p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/vryYSBvwnIY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>

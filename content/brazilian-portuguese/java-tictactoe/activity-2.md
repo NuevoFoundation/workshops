@@ -3,7 +3,7 @@ title: "2. Leia e Processe a Entrada"
 description: "Leia a entrada com a classe Scanner e verifique casos de erro"
 date: 2021-10-14T00:00:00Z
 prereq: "Prepare o Tabuleiro!"
-difficulty: "Intermediário"
+difficulties: ["intermediate"]
 weight: 3
 draft: false
 ---

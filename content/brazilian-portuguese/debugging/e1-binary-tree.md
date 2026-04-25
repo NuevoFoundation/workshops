@@ -1,6 +1,6 @@
 ---
 title: "Exercício 1 - Implementação de Árvore Binária"
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 9
 draft: false
 ---

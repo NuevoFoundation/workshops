@@ -1,6 +1,6 @@
 ---
 title: "Activity 9 - Select Geometry"
-difficulty: "Beginner"
+difficulties: ["beginner"]
 weight: 9
 draft: true
 ---

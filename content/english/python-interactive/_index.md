@@ -3,10 +3,12 @@ title: "Python: Interacting with the Console"
 description: "Exploring Python's capabilities with the Console"
 date: 2019-07-25T13:24:17-07:00
 prereq: "Python Basics"
-difficulty: "Intermediate"
 draft: false
 hidden: true
 icon: "fab fa-python"
+language: "python"
+topics: ["programming-basics"]
+difficulties: ["intermediate"]
 ---
 
 ## Introduction

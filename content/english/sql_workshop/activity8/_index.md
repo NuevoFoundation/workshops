@@ -3,7 +3,7 @@ title: "Activity 8: Learn the LIKE Command"
 description: "Learn LIKE Command"
 date: 2020-07-09
 prereq: "SELECT Command, WHERE Command"
-difficulty: "Beginner"
+difficulties: ["beginner"]
 draft: false
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->

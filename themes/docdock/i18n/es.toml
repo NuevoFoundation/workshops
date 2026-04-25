@@ -83,3 +83,124 @@ other = "Sugerencia"
 # menu.html
 [workshop-dashboard]
 other = "Panel de taller"
+
+# BEGIN workshop-explorer (auto-generated)
+
+[workshop-explorer-filters-aria]
+other = "Filtrar y agrupar talleres"
+
+[workshop-explorer-filters-title]
+other = "Filtros"
+
+[workshop-explorer-search]
+other = "Buscar talleres…"
+
+[workshop-explorer-clear]
+other = "Limpiar filtros"
+
+[workshop-explorer-group-by]
+other = "Agrupar por"
+
+[workshop-explorer-group-none]
+other = "Ninguno"
+
+[workshop-explorer-empty]
+other = "Ningún taller coincide con tus filtros."
+
+[workshop-explorer-count]
+other = "{n} talleres"
+
+[tax.dim.difficulty]
+other = "Dificultad"
+
+[tax.dim.language]
+other = "Lenguaje"
+
+[tax.dim.topic]
+other = "Tema"
+
+[tax.difficulty.beginner]
+other = "Principiante"
+
+[tax.difficulty.intermediate]
+other = "Intermedio"
+
+[tax.difficulty.advanced]
+other = "Avanzado"
+
+[tax.language.blocks]
+other = "Blocks"
+
+[tax.language.python]
+other = "Python"
+
+[tax.language.javascript]
+other = "JavaScript"
+
+[tax.language.java]
+other = "Java"
+
+[tax.language.csharp]
+other = "C#"
+
+[tax.language.cpp]
+other = "C++"
+
+[tax.language.c]
+other = "C"
+
+[tax.language.html-css]
+other = "HTML & CSS"
+
+[tax.language.sql]
+other = "SQL"
+
+[tax.language.kusto]
+other = "Kusto (KQL)"
+
+[tax.language.arduino]
+other = "Arduino"
+
+[tax.language.linux]
+other = "Linux"
+
+[tax.language.no-code]
+other = "Sin código"
+
+[tax.topic.programming-basics]
+other = "Fundamentos de programación"
+
+[tax.topic.games]
+other = "Juegos"
+
+[tax.topic.web]
+other = "Web"
+
+[tax.topic.ai]
+other = "IA y aprendizaje automático"
+
+[tax.topic.cybersecurity]
+other = "Ciberseguridad"
+
+[tax.topic.data]
+other = "Datos"
+
+[tax.topic.hardware]
+other = "Hardware"
+
+[tax.topic.music]
+other = "Música"
+
+[tax.topic.graphics]
+other = "Gráficos"
+
+[tax.topic.mobile]
+other = "Móvil"
+
+[tax.topic.engineering]
+other = "Ingeniería"
+
+[tax.topic.tools]
+other = "Herramientas"
+
+# END workshop-explorer

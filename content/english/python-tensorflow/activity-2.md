@@ -2,7 +2,7 @@
 title: "Activity 2 - Displaying RGB Color Values for Images"
 date: 2020-09-09T16:19:17-07:00
 prereq: "Python Basics: Functions- Built in Functions, Functions from libraries; Data Types- Strings, Numbers, Reading from Console; Data Structures- Lists"
-difficulty: Intermediate
+difficulties: ["intermediate"]
 weight: 3
 draft: false
 ---

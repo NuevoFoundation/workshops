@@ -2,7 +2,7 @@
 title: "Atividade 10 - Aprendendo a mover e substituir arquivos"
 description: "Aprendendo sobre os commandos do Linux para mover e copiar arquivos"
 date: 2020-09-17
-difficulty: "Intermediário"
+difficulties: ["intermediate"]
 weight: 13
 ---
 

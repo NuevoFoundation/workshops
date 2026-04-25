@@ -83,3 +83,124 @@ other = "Көрсөткүч"
 # menu.html
 [workshop-dashboard]
 other = "Устакана тактасы"
+
+# BEGIN workshop-explorer (auto-generated)
+
+[workshop-explorer-filters-aria]
+other = "Семинарларды чыпкалоо жана топтоо"
+
+[workshop-explorer-filters-title]
+other = "Чыпкалар"
+
+[workshop-explorer-search]
+other = "Семинарларды издөө…"
+
+[workshop-explorer-clear]
+other = "Чыпкаларды тазалоо"
+
+[workshop-explorer-group-by]
+other = "Боюнча топтоо"
+
+[workshop-explorer-group-none]
+other = "Жок"
+
+[workshop-explorer-empty]
+other = "Чыпкаларга дал келген семинар жок."
+
+[workshop-explorer-count]
+other = "{n} семинар"
+
+[tax.dim.difficulty]
+other = "Татаалдыгы"
+
+[tax.dim.language]
+other = "Тил"
+
+[tax.dim.topic]
+other = "Тема"
+
+[tax.difficulty.beginner]
+other = "Баштапкы"
+
+[tax.difficulty.intermediate]
+other = "Орточо"
+
+[tax.difficulty.advanced]
+other = "Жогорку"
+
+[tax.language.blocks]
+other = "Blocks"
+
+[tax.language.python]
+other = "Python"
+
+[tax.language.javascript]
+other = "JavaScript"
+
+[tax.language.java]
+other = "Java"
+
+[tax.language.csharp]
+other = "C#"
+
+[tax.language.cpp]
+other = "C++"
+
+[tax.language.c]
+other = "C"
+
+[tax.language.html-css]
+other = "HTML & CSS"
+
+[tax.language.sql]
+other = "SQL"
+
+[tax.language.kusto]
+other = "Kusto (KQL)"
+
+[tax.language.arduino]
+other = "Arduino"
+
+[tax.language.linux]
+other = "Linux"
+
+[tax.language.no-code]
+other = "Коду жок"
+
+[tax.topic.programming-basics]
+other = "Программалоо негиздери"
+
+[tax.topic.games]
+other = "Оюндар"
+
+[tax.topic.web]
+other = "Веб"
+
+[tax.topic.ai]
+other = "AI жана машина үйрөнүү"
+
+[tax.topic.cybersecurity]
+other = "Кибер коопсуздук"
+
+[tax.topic.data]
+other = "Маалыматтар"
+
+[tax.topic.hardware]
+other = "Аппараттык камсыздоо"
+
+[tax.topic.music]
+other = "Музыка"
+
+[tax.topic.graphics]
+other = "Графика"
+
+[tax.topic.mobile]
+other = "Мобилдик"
+
+[tax.topic.engineering]
+other = "Инженерия"
+
+[tax.topic.tools]
+other = "Куралдар"
+
+# END workshop-explorer

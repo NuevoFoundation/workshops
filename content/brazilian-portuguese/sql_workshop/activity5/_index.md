@@ -3,7 +3,7 @@ title: "Atividade 5: Aprenda o Comando MAX/MIN"
 description: "Aprenda o Comando MAX/MIN"
 date: 2020-07-12
 prereq: "Comando SELECT, Comando WHERE"
-difficulty: "Intermediário"
+difficulties: ["intermediate"]
 draft: false
 ---
 <!-- Links para javascript e CSS necessários para a lógica do menu suspenso -->

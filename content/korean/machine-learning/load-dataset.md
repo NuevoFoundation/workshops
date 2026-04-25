@@ -2,7 +2,7 @@
 title: "Step 3: 데이터셋 불러오기"
 description: "머신러닝에 관한 기초 내용"
 prereq: "없음"
-difficulty: "중급"
+difficulties: ["intermediate"]
 draft: false
 weight: 3
 ---

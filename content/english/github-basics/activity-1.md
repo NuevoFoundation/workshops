@@ -1,7 +1,7 @@
 ---
 title: "Room 1: The Fork in the Road"
 description: "Begin your adventure by forking and cloning a repository."
-difficulty: "Beginner"
+difficulties: ["beginner"]
 weight: 1
 ---
 

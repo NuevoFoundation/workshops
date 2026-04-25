@@ -2,10 +2,12 @@
 title: "Bloques: Crea música con EarSketch"
 description: "Crea música usando bloques de JavaScript y EarSketch"
 date: 2019-07-23T11:45:38-07:00
-difficulty: "Principiante"
 download: ""
 draft: false
 icon: "fas fa-puzzle-piece"
+language: "blocks"
+topics: ["music"]
+difficulties: ["beginner"]
 ---
 
 ### ¡Vamos a hacer música!

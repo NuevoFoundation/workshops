@@ -3,7 +3,7 @@ title: "2. 입력을 읽고 처리하기"
 description: "스캐너 클래스로 입력 읽기 및 오류 사례 확인하세요."
 date: 2021-10-14T00:00:00Z
 prereq: "게임판 설정하기!"
-difficulty: "중급"
+difficulties: ["intermediate"]
 weight: 3
 draft: false
 ---

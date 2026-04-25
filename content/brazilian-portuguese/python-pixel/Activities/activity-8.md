@@ -2,7 +2,7 @@
 title: "Atividade 8: Inverta sua imagem"
 date: 2020-09-08T00:00:00Z
 prereq: "Fundamentos de Python, Pixels em Python: Cores e Pixels, Manipulação de Imagens em Python: Abrir uma imagem"
-difficulty: "Intermediário"
+difficulties: ["intermediate"]
 weight: 8
 draft: false
 ---

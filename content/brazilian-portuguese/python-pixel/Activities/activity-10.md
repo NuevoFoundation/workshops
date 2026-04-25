@@ -4,7 +4,7 @@ date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 10
 prereq: "Fundamentos de Python, Pixels em Python: Cores e Pixels, Manipulação de Imagens em Python: Abrir uma imagem"
-difficulty: "Intermediário"
+difficulties: ["intermediate"]
 ---
 
 Outra coisa divertida que podemos fazer para melhorar nossa imagem é adicionar texto. Podemos fazer isso usando o módulo `ImageDraw` do Pillow. Vamos importá-lo no topo do nosso arquivo junto com os outros imports.

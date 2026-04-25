@@ -2,7 +2,7 @@
 title: "Etapa 6: Treinar o modelo"
 description: "Conceitos básicos de Machine Learning"
 prereq: "nenhum"
-difficulty: "Intermediário"
+difficulties: ["intermediate"]
 draft: false
 weight: 6
 ---

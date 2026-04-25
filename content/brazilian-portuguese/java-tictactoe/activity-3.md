@@ -3,7 +3,7 @@ title: "3. Atualize o Tabuleiro"
 description: "Aprenda a gerar uma jogada para o computador e atualizar o tabuleiro"
 date: 2021-10-14T00:00:00Z
 prereq: "Prepare o Tabuleiro!, Leia e Processe a Jogada"
-difficulty: "Intermediário"
+difficulties: ["intermediate"]
 weight: 4
 ---
 

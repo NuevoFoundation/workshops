@@ -3,7 +3,7 @@ title: "Actividad 10: Aprende el comando SUM"
 description: "Aprende el comando SUM"
 date: 2020-07-07
 prereq: "Comando SELECT, comando WHERE"
-difficulty: "Principiante"
+difficulties: ["beginner"]
 draft: false
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->

@@ -2,7 +2,7 @@
 title: "Activity 5: More advanced filters"
 date: 2020-09-08T00:00:00Z
 prereq: "Python Basics, Python Pixels: Colors and Pixels, Python Image manipulation: Open an image"
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 5
 draft: false
 ---

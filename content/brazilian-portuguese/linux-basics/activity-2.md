@@ -2,7 +2,7 @@
 title: "Atividade 2 - Identificando a Localização do Usuário"
 description: "Aprendendo sobre os commandos do Linux para determinar em qual diretório você está atualmente"
 date: 2022-09-21
-difficulty: "Intermediário"
+difficulties: ["intermediate"]
 weight: 5
 ---
 

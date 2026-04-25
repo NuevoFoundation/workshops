@@ -2,7 +2,7 @@
 title: "Step 3: Load dataset"
 description: "Basics of Machine Learning"
 prereq: "none"
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 draft: false
 weight: 3
 ---

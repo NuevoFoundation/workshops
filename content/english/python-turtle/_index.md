@@ -3,10 +3,12 @@ title: "Python: Coding with Turtle"
 description: "Learn how to draw on a canvas with Python with Turtle"
 date: 2019-07-25T13:24:17-07:00
 prereq: "Python Basics"
-difficulty: "Beginner"
 image: ""
 draft: false
 icon: "fab fa-python"
+language: "python"
+topics: ["graphics"]
+difficulties: ["beginner"]
 ---
 
 ## Introduction

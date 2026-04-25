@@ -2,7 +2,7 @@
 title: "Etapa 1: Obter o Conjunto de Dados"
 description: "Conceitos básicos de Machine Learning"
 prereq: "nenhum"
-difficulty: "Intermediário"
+difficulties: ["intermediate"]
 draft: false
 weight: 1
 ---

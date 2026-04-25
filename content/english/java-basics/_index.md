@@ -3,9 +3,11 @@ title: "Java: Basics"
 description: "An introduction to the basics of Java programming language."
 date: 2021-10-13T00:00:00Z
 prereq: "none"
-difficulty: "Beginner"
 icon: "fab fa-java"
 draft: false
+language: "java"
+topics: ["programming-basics"]
+difficulties: ["beginner"]
 ---
 
 <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/udEaocEYlpc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>

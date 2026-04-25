@@ -2,7 +2,7 @@
 title: "Step 7: 테스트 데이터로 모델 평가하기"
 description: "머신러닝에 관한 기초 내용"
 prereq: "없음"
-difficulty: "중급"
+difficulties: ["intermediate"]
 draft: false
 weight: 7
 ---

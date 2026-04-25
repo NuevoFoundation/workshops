@@ -3,9 +3,11 @@ title: "Java: Data Structures"
 description: "Learn basic concepts of Java data structures"
 date: 2019-07-30T18:45:38-07:00
 prereq: "Java Basics"
-difficulty: "Intermediate"
 icon: "fab fa-java"
 draft: false
+language: "java"
+topics: ["programming-basics"]
+difficulties: ["intermediate"]
 ---
 
 <p style="text-align: center;"><iframe width="60%" height="600px" src="https://youtube.com/embed/UeK31RyFzN0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>

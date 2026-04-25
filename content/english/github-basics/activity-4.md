@@ -1,7 +1,7 @@
 ---
 title: "Room 4: The Merge Maze"
 description: "Navigate the complexities of code review and merging."
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 4
 ---
 

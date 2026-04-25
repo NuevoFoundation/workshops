@@ -1,6 +1,6 @@
 ---
 title: "Activity 5 - Enter Factor of Safety"
-difficulty: "Beginner"
+difficulties: ["beginner"]
 weight: 5
 draft: true
 ---

@@ -3,7 +3,7 @@ title: "Actividad 5 - Usar efecto de Fade in"
 description: "Actividad 5 - Usar efecto de Fade in"
 weight: 9
 prereq: "Python Basico: Imprimir, Comentarios, Funciones"
-difficulty: "Intermedio"
+difficulties: ["intermediate"]
 draft: false
 ---
 

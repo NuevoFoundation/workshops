@@ -1,7 +1,7 @@
 ---
 title: "Room 8: The Project Planner's Paradise"
 description: "Master project management with GitHub Projects."
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 8
 ---
 

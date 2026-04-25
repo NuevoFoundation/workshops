@@ -2,7 +2,7 @@
 title: "Etapa 7: Testar o modelo com os dados de teste"
 description: "Conceitos básicos de Machine Learning"
 prereq: "nenhum"
-difficulty: "Intermediário"
+difficulties: ["intermediate"]
 draft: false
 weight: 7
 ---

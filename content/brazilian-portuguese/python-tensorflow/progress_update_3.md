@@ -2,7 +2,7 @@
 title: "Atualização de Progresso 3"
 date: 2020-09-09T16:19:17-07:00
 prereq: "Fundamentos de Python: Funções - Funções integradas, Funções de bibliotecas; Tipos de Dados - Strings, Números, Leitura do console; Estruturas de Dados - Listas, Tuplas, Conjuntos; Laços - Laços For"
-difficulty: Intermediário
+difficulties: ["intermediate"]
 weight: 13
 draft: false
 ---

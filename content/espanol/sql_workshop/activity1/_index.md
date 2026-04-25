@@ -3,7 +3,7 @@ title: "Actividad 1: Aprende el comando SELECT"
 description: "Aprende el comando SELECT"
 date: 2020-07-17
 prereq: "Ninguno"
-difficulty: "Pricipiante"
+difficulties: ["beginner"]
 draft: false
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->

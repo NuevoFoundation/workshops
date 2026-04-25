@@ -1,6 +1,6 @@
 ---
 title: "Activity 11 - Grading criteria"
-difficulty: "Beginner"
+difficulties: ["beginner"]
 weight: 11
 draft: true
 ---

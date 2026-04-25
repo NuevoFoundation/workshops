@@ -1,6 +1,6 @@
 ---
 title: "Exercise 3 - The Burrows-Wheeler Transform"
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 11
 draft: false
 ---

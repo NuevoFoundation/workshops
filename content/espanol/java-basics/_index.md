@@ -3,10 +3,12 @@ title: "Java: Basics"
 description: "Una guía introductoría a conceptos básicos de programación en Java."
 date: 2020-07-07T00:00:00Z
 prereq: "Ninguno"
-difficulty: "Principiante"
 icon: "fab fa-java"
 draft: false
 hidden: false
+language: "java"
+topics: ["programming-basics"]
+difficulties: ["beginner"]
 ---
 
 ## Resumen general

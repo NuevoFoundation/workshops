@@ -1,6 +1,6 @@
 ---
 title: "Step 1 - Finding the problem (Part 4)"
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 6
 draft: false
 ---

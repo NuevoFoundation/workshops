@@ -3,10 +3,12 @@ title: "Python: crie música com EarSketch"
 description: "Crie música usando Python e EarSketch"
 date: 2019-07-23T11:45:38-07:00
 prereq: "Python: Fundamentos. Impressão, comentários, funções"
-difficulty: "Intermediário"
 download: ""
 draft: false
 icon: "fab fa-python"
+language: "python"
+topics: ["music"]
+difficulties: ["intermediate"]
 ---
 
 ### Vamos fazer música!

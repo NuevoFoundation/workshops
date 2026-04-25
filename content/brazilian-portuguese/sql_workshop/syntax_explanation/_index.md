@@ -3,7 +3,7 @@ title: "Tutorial 2: Explicar a sintaxe"
 description: "Explicar a sintaxe"
 date: 2020-07-15
 prereq: "Comando SELECT, condições (comando WHERE)"
-difficulty: "Iniciante"
+difficulties: ["beginner"]
 draft: false
 ---
 

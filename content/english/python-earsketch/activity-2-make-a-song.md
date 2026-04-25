@@ -2,7 +2,7 @@
 title: "Activity 2 - Make a song!"
 description: "Setting up headphones"
 prereq: "Python Basics: Print, Comments, Functions"
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 6
 draft: false
 ---

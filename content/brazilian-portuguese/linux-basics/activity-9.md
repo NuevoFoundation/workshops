@@ -2,7 +2,7 @@
 title: "Atividade 9 - Removendo arquivos maliciosos"
 description: "Aprendendo sobre os commandos do Linux para deletar arquivos e diretórios"
 date: 2022-09-22
-difficulty: "Intermediário"
+difficulties: ["intermediate"]
 weight: 12
 ---
 

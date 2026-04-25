@@ -2,7 +2,7 @@
 title: "Activity 4 - Note Taking Practice"
 description: "Use Linux commands to create new directory"
 date: 2022-09-23
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 7
 ---
 

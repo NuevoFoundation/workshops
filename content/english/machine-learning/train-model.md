@@ -2,7 +2,7 @@
 title: "Step 6: Train the model"
 description: "Basics of Machine Learning"
 prereq: "none"
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 draft: false
 weight: 6
 ---

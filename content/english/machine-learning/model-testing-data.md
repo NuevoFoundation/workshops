@@ -2,7 +2,7 @@
 title: "Step 7: Try the model on testing data"
 description: "Basics of Machine Learning"
 prereq: "none"
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 draft: false
 weight: 7
 ---

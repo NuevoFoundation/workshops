@@ -4,7 +4,7 @@ description: "Use o algoritmo Minimax para escolher a jogada do computador"
 date: 2021-10-14T00:00:00Z
 weight: 6
 prereq: "Prepare o Tabuleiro!, Leia e Processe a Jogada, Atualize o Tabuleiro, Verifique o vencedor"
-difficulty: "Avançado"
+difficulties: ["advanced"]
 ---
 
 ### Vamos fazer o computador pensar

@@ -3,7 +3,7 @@ title: "Introdução ao Earsketch"
 description: "introdução sobre como usar o Earsketch"
 weight: 4
 prereq: "Nenhum"
-difficulty: "Iniciante"
+difficulties: ["beginner"]
 draft: false
 ---
 

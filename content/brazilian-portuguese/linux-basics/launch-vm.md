@@ -2,7 +2,7 @@
 title: "Iniciando uma Máquina Virtual"
 description: "Continuação do guia introdutório sobre máquinas virtuais"
 date: 2022-09-22
-difficulty: "Intermediário"
+difficulties: ["intermediate"]
 weight: 3
 ---
 

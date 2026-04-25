@@ -3,7 +3,7 @@ title: "Atividade 12: Encontre o Inventor!"
 description: "Encontre o Inventor!"
 date: 2020-07-05
 prereq: "Comando SELECT"
-difficulty: "Iniciante"
+difficulties: ["beginner"]
 draft: false
 ---
 <!-- Links para javascript e CSS necessários para lógica suspensa -->

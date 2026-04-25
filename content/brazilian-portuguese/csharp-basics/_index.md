@@ -3,9 +3,11 @@ title: "C#: Básico"
 description: "Uma introdução aos conceitos básicos da linguagem de programação C#."
 date: 2024-09-16T00:00:00Z
 prereq: "Nenhum"
-difficulty: "Iniciante"
 draft: false
 icon: "fas fa-code"
+language: "csharp"
+topics: ["programming-basics"]
+difficulties: ["beginner"]
 ---
 
 ## Visão Geral
