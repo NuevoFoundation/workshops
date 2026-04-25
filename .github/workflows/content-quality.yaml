@@ -1,0 +1,192 @@
+name: Content Quality Checks
+
+on:
+  pull_request:
+    paths:
+      - 'content/**'
+      - 'layouts/**'
+      - 'static/**'
+      - 'themes/**'
+      - 'config.toml'
+
+jobs:
+  hugo-build:
+    name: Hugo Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build site
+        run: hugo --quiet --minify
+
+  content-lint:
+    name: Content Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Get changed files
+        id: changed
+        uses: tj-actions/changed-files@v44
+        with:
+          files: |
+            content/**/*.md
+
+      - name: Check uppercase image extensions
+        if: steps.changed.outputs.any_changed == 'true'
+        run: |
+          echo "🔍 Checking for uppercase image extensions (.PNG, .JPG, .GIF)..."
+          ERRORS=0
+          for file in ${{ steps.changed.outputs.all_changed_files }}; do
+            if [ -f "$file" ]; then
+              MATCHES=$(grep -n '\.\(PNG\|JPG\|GIF\|JPEG\|BMP\)' "$file" || true)
+              if [ -n "$MATCHES" ]; then
+                echo "❌ $file:"
+                echo "$MATCHES"
+                ERRORS=$((ERRORS + 1))
+              fi
+            fi
+          done
+          if [ $ERRORS -gt 0 ]; then
+            echo ""
+            echo "⚠️  Found $ERRORS file(s) with uppercase image extensions."
+            echo "   Linux servers are case-sensitive — use .png, .jpg, .gif instead."
+            exit 1
+          fi
+          echo "✅ No uppercase image extensions found."
+
+      - name: Check unquoted HTML attributes
+        if: steps.changed.outputs.any_changed == 'true'
+        run: |
+          echo "🔍 Checking for unquoted HTML attributes..."
+          ERRORS=0
+          for file in ${{ steps.changed.outputs.all_changed_files }}; do
+            if [ -f "$file" ]; then
+              # Match src= or href= followed by a space then non-quote char (unquoted attr)
+              MATCHES=$(grep -n 'src= [^"]' "$file" || true)
+              if [ -n "$MATCHES" ]; then
+                echo "❌ $file:"
+                echo "$MATCHES"
+                ERRORS=$((ERRORS + 1))
+              fi
+            fi
+          done
+          if [ $ERRORS -gt 0 ]; then
+            echo ""
+            echo "⚠️  Found $ERRORS file(s) with unquoted HTML attributes."
+            echo "   Always quote attributes: src=\"file.png\" not src= file.png"
+            exit 1
+          fi
+          echo "✅ No unquoted HTML attributes found."
+
+      - name: Check duplicate YAML frontmatter keys
+        if: steps.changed.outputs.any_changed == 'true'
+        run: |
+          echo "🔍 Checking for duplicate YAML frontmatter keys..."
+          ERRORS=0
+          for file in ${{ steps.changed.outputs.all_changed_files }}; do
+            if [ -f "$file" ]; then
+              # Extract frontmatter (between --- markers), get keys, find duplicates
+              DUPES=$(sed -n '/^---$/,/^---$/p' "$file" | grep -E '^\w+:' | sed 's/:.*//' | sort | uniq -d)
+              if [ -n "$DUPES" ]; then
+                echo "❌ $file has duplicate YAML keys:"
+                echo "$DUPES"
+                ERRORS=$((ERRORS + 1))
+              fi
+            fi
+          done
+          if [ $ERRORS -gt 0 ]; then
+            echo ""
+            echo "⚠️  Found $ERRORS file(s) with duplicate YAML frontmatter keys."
+            echo "   Hugo silently uses the last value — remove duplicates."
+            exit 1
+          fi
+          echo "✅ No duplicate YAML keys found."
+
+      - name: Check images have alt text
+        if: steps.changed.outputs.any_changed == 'true'
+        run: |
+          echo "🔍 Checking for images without alt text..."
+          WARNINGS=0
+          for file in ${{ steps.changed.outputs.all_changed_files }}; do
+            if [ -f "$file" ]; then
+              # Check for ![](  (empty alt text in markdown images)
+              MATCHES=$(grep -n '!\[\](' "$file" || true)
+              if [ -n "$MATCHES" ]; then
+                echo "⚠️  $file has images without alt text:"
+                echo "$MATCHES"
+                WARNINGS=$((WARNINGS + 1))
+              fi
+              # Check for <img> tags without alt attribute
+              IMG_NO_ALT=$(grep -n '<img ' "$file" | grep -v 'alt=' || true)
+              if [ -n "$IMG_NO_ALT" ]; then
+                echo "⚠️  $file has <img> tags without alt attribute:"
+                echo "$IMG_NO_ALT"
+                WARNINGS=$((WARNINGS + 1))
+              fi
+            fi
+          done
+          if [ $WARNINGS -gt 0 ]; then
+            echo ""
+            echo "⚠️  Found $WARNINGS file(s) with missing alt text."
+            echo "   All images should have descriptive alt text for accessibility."
+            echo "   Example: ![Student typing code in editor](media/screenshot.png)"
+            # Warning only — don't fail the build for alt text (too many existing files)
+          fi
+          echo "✅ Alt text check complete."
+
+  translation-parity:
+    name: Translation Parity Check
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Get changed files
+        id: changed
+        uses: tj-actions/changed-files@v44
+        with:
+          files: |
+            content/**/*.md
+
+      - name: Check if translations exist for changed workshops
+        if: steps.changed.outputs.any_changed == 'true'
+        run: |
+          echo "🌍 Checking translation parity for changed workshops..."
+          LANGUAGES=("brazilian-portuguese" "espanol" "korean" "francais" "german" "simplified-chinese" "traditional-chinese" "kyrgyz")
+          NOTICES=0
+
+          # Get unique workshop paths from changed English files
+          for file in ${{ steps.changed.outputs.all_changed_files }}; do
+            if [[ "$file" == content/english/* ]]; then
+              # Extract workshop name (first directory after english/)
+              WORKSHOP=$(echo "$file" | sed 's|content/english/||' | cut -d'/' -f1)
+
+              for lang in "${LANGUAGES[@]}"; do
+                LANG_DIR="content/$lang/$WORKSHOP"
+                if [ -d "$LANG_DIR" ]; then
+                  echo "📋 Workshop '$WORKSHOP' also exists in $lang — please verify changes apply there too."
+                  NOTICES=$((NOTICES + 1))
+                  break  # Only report once per workshop
+                fi
+              done
+            fi
+          done
+
+          if [ $NOTICES -gt 0 ]; then
+            echo ""
+            echo "ℹ️  $NOTICES workshop(s) have translations that may need matching updates."
+            echo "   If this is a structural change (TOC, layout, images), update all languages."
+            echo "   If this is English-only content, you can skip this."
+          else
+            echo "✅ No translation parity issues detected."
+          fi
+          # Info only — don't fail the build
