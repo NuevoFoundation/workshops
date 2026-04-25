@@ -7,7 +7,7 @@ weight: 4
 
 To run an optimization problem in Excel, you need to enable the add-on called “Solver.” Follow the link below for details or see the image below. 
 
- <img src= ../img/Download_Excel_solver.jpg alt="Screenshot of steps to download Excel solver" width="800" height="600">
+ <img src="../img/Download_Excel_solver.jpg" alt="Screenshot of steps to download Excel solver" width="800" height="600">
 
 Click [here](
 https://support.microsoft.com/en-us/office/load-the-solver-add-in-in-excel-612926fc-d53b-46b4-872c-e24772f078ca) for more help if you are having trouble.
