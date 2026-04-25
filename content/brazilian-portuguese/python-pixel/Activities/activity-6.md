@@ -15,7 +15,7 @@ Nesta seção, vamos aprender como recortar (cortar) uma imagem.
 
 Agora, vamos cortar a metade direita da imagem do gatinho.
 
-<img src="../../media/cat.png" width="50%">
+<img src="../../media/cat.png" alt="Imagem original do gato" width="50%">
 
 ```python
 # Precisamos importar o pacote PIL para manipular pixels
@@ -39,13 +39,13 @@ newimg.save("Mycat.png")
 ```
 
 Uau! Esse é nosso gato depois de ser recortado. Cortamos a metade direita da imagem!  
-<img src="../../media/halfcat.png" width="25%">
+<img src="../../media/halfcat.png" alt="Imagem do gato cortada pela metade" width="25%">
 
 ### Exemplo – Cortar só a parte central
 
 Vamos cortar a imagem do gato para deixar apenas a parte central!
 
-<img src="../../media/cat.png" width="50%">
+<img src="../../media/cat.png" alt="Imagem original do gato" width="50%">
 
 ```python
 # Precisamos importar o pacote PIL para manipular pixels
@@ -69,7 +69,7 @@ newimg.save("Mycat.png")
 ```
 
 Uau! Esse é nosso gato depois de recortar só o centro.  
-<img src="../../media/cropcat.png" width="25%">
+<img src="../../media/cropcat.png" alt="Imagem do gato com corte personalizado" width="25%">
 
 ### Desafio – Recorte a imagem do jeito que quiser!
 
