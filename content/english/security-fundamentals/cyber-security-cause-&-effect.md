@@ -5,7 +5,7 @@ draft: false
 weight: 4
 ---
 
-{{< figure src="../img/secret-notes.png" alt="Illustration of secret notes representing hidden cyber threats" width="700px" >}}
+{{< figure src="../img/secret-notes.png" alt="Illustration of secret notes representing hidden cyber threats" width="50%" >}}
 Cyber security in practice is more than just not falling for scams online. What exactly are the common risks that users online ignore and that hackers take advantage of?  
 
 1.  Not enabling two-factor authentication to log into accounts (social media, banking, gaming, etc.) 

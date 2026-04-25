@@ -27,7 +27,7 @@ Implementamos controles de segurança para limitar quem pode acessar as informa�
 
 A segurança pode ser aplicada sem privacidade, mas a privacidade não pode ser aplicada sem segurança. 
 
-![Diagrama comparando seguranca e privacidade com tres cenarios possiveis](../img/security-vs-privacy.png)
+![Diagrama comparando segurança e privacidade com três cenários possíveis](../img/security-vs-privacy.png)
 
 Aqui está um exemplo. Você pode compartilhar informações pessoais com seu banco ao abrir uma conta. O que acontece depois disso? Veja três possíveis cenários, todos relacionados às suas informações pessoais (não ao dinheiro na conta corrente). 
 
