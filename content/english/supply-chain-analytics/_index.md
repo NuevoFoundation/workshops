@@ -16,7 +16,7 @@ difficulties: ["intermediate"]
 > A supply chain moves a product or service from supplier to customer. It is the people, activities, information, and resources which move the product.
 
 <figure>
-<img src= img/sandwich.png alt="Diagram that illustrates the various steps in the suppy chain to make a sandwich including farm, factory, and delivery" width="700" height="450">
+<img src="img/sandwich.png" alt="Diagram that illustrates the various steps in the suppy chain to make a sandwich including farm, factory, and delivery" width="700" height="450">
 <figcaption align = "center"><b>https://newsela.com/read/supply-chain-shortages-holidays/id/2001025129/</b></figcaption>
 </figure>
 
@@ -34,7 +34,7 @@ Example: Your parents pack you a yummy sandwich to take to school for lunch the 
 This might sound simple. After all, when you’re craving a sandwich, all you have to do as the customer is go to the store and pick one off the shelf. You might not think of all the things that go on behind the scene - and there’s a lot of them. Here’s some examples of roles: 
 
 <figure>
-<<img src= img/jobs.jpg alt="Image that shows icons of different jobs such as manufacturing, sales, and delivery that are needed to make a supply chain run" width="700" height="300">>
+<img src="img/jobs.jpg" alt="Image that shows icons of different jobs such as manufacturing, sales, and delivery that are needed to make a supply chain run" width="700" height="300">
 <figcaption align = "center"><b>Types of jobs: forecasting, manufacturing, sourcing, negotation, warehouse management, delivery <br /><br />
 https://creativemarket.com/falara/</b></figcaption>
 </figure>
