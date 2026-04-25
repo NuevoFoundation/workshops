@@ -1,6 +1,6 @@
 ---
 title: "Atividade 10: Criando um meme!"
-date: 2020-02-10T13:24:17-07:00
+date: 2026-04-25T00:00:00-07:00
 draft: false
 weight: 10
 prereq: "Fundamentos de Python, Pixels em Python: Cores e Pixels, Manipulação de Imagens em Python: Abrir uma imagem"

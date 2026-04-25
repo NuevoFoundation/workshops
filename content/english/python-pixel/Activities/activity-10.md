@@ -1,6 +1,6 @@
 ---
 title: "Activity 10: Making a meme!"
-date: 2020-02-10T13:24:17-07:00
+date: 2026-04-25T00:00:00-07:00
 draft: false
 weight: 10
 prereq: "Python Basics, Python Pixels: Colors and Pixels, Python Image manipulation: Open an image"
