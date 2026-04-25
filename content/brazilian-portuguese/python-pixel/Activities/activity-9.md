@@ -14,7 +14,7 @@ Nesta seção, vamos aprender como girar sua imagem usando pixels.
 ### Exemplo – Girar a imagem 180 graus no sentido horário
 
 Vamos girar nosso gatinho 180 graus no sentido horário.  
-<img src="../../media/cat.png" width=50%>
+<img src="../../media/cat.png" width="50%">
 
 ```python
 # Precisamos importar o pacote PIL para manipular pixels
@@ -42,13 +42,13 @@ newimg.save("Mycat.png")
 ```
 
 Uau! Aqui está nosso novo gato após a rotação.  
-<img src="../../media/catrot.png" width=50%>
+<img src="../../media/catrot.png" width="50%">
 
 {{% notice note %}}
 Preste atenção em como calculamos `heightNew` e `widthNew`. Tente visualizar esses valores!
 
 Por exemplo, aplique esse cálculo ao grupo de letras 4x4 abaixo:  
-<img src="../../media/table.png" width=15%>
+<img src="../../media/table.png" width="15%">
 
 Depois gire o grupo 180 graus no sentido horário e compare o resultado. É o mesmo?
 {{% /notice %}}
@@ -88,6 +88,6 @@ Desafio: você consegue girar a imagem totalmente (360 graus)?
 E girar 3/4 de volta sem usar um ângulo maior que 180? (Dica: tente ângulos negativos!)
 
 Minha imagem girada totalmente ficou assim:  
-<img src="../../media/upside_down.png" alt="gato de cabeça para baixo" width=50%>
+<img src="../../media/upside_down.png" alt="gato de cabeça para baixo" width="50%">
 
 {{% /showanswer %}}

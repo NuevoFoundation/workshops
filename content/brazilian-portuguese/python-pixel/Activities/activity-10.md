@@ -26,7 +26,7 @@ drawnImage.save("meuGatoComTexto.jpg")
 ```
 
 Minha imagem agora ficou assim:  
-<img src="../../media/meme.png" alt="gato em preto e branco de cabeça para baixo com texto: 'when you realize you learned python in an hour.'" width=50%>
+<img src="../../media/meme.png" alt="gato em preto e branco de cabeça para baixo com texto: 'when you realize you learned python in an hour.'" width="50%">
 
 ### Desafio – Mude a fonte
 

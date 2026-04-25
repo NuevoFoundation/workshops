@@ -14,7 +14,7 @@ In this section, we will start to learn how to rotate your image using pixels.
 ### Example - Rotate your image 180 degree clock-wise
 
 Let us rotate our cat 180 degrees clock-wise.
-<img src="../../media/cat.png" width=50%>
+<img src="../../media/cat.png" width="50%">
 
 ```python
 # We need to import PIL package to allow manipulation with pixels.
@@ -44,7 +44,7 @@ newimg.save("Mycat.png")
 ```
 
 Wow! This is our new cat after rotating.
-<img src="../../media/catrot.png" width=50%>
+<img src="../../media/catrot.png" width="50%">
 
 {{% notice note %}}
 
@@ -52,7 +52,7 @@ Pay attention to how we get our heightNew and widthNew. Think about those variab
 
 For example, try to apply them on the following 4x4 letter group:
 
-<img src="../../media/table.png" width=15%>
+<img src="../../media/table.png" width="15%">
 
 Then rotate it 180 degree clockwise and compare it with the previous output. Are they the same?
 {{% /notice %}}
@@ -93,7 +93,7 @@ way around without using an angle > 180? (Hint: try using negative angle numbers
 
 Rotated all the way around, my image looks like this:
 
-<img src="../../media/upside_down.png" alt="cat upside down" width=50%>
+<img src="../../media/upside_down.png" alt="cat upside down" width="50%">
 </br>
 {{% /showanswer %}}
 

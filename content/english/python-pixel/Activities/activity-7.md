@@ -14,7 +14,7 @@ In this section, we will start to learn how to change the simple background of y
 ### Example - Change background color
 
 Let us change the background color of Nuvi to pink.
-<img src="../../media/nuevo.png" width=25%>
+<img src="../../media/nuevo.png" width="25%">
 
 ```python
 from PIL import Image
@@ -43,7 +43,7 @@ newimg.save("nuevopink.png")
 ```
 
 Wow! This is our new Nuvi after changing the background.
-<img src="../../media/nuevopink.png" width=25%>
+<img src="../../media/nuevopink.png" width="25%">
 
 
 ### Challenge - Change background based on your choice

@@ -15,26 +15,26 @@ Aqui está um exemplo de como fazer um quadro de cores com a cor vermelha, uma l
 
 `from PIL import Image; img = Image.new('RGB', (60, 30), 'red'); img.save('pil_red.png')`
 
-![alt text](../../media/whileloopbefore.png "imagem mostrando o primeiro exemplo da atividade")
+<img src="../../media/whileloopbefore.png" alt="Imagem mostrando primeiro exemplo da atividade" width="60%">
 
 ## Crie seu próprio quadro de cores!
 
 Escolha sua cor favorita e faça um quadro de cores para brincar! Aqui estão algumas cores de exemplo que você pode escolher, mas também pode escolher sua própria cor.
 
-<img src="../../media/Color-chart.png" width=30%>
+<img src="../../media/Color-chart.png" width="30%">
 
 <label for="colorpicker">Você pode usar o seletor de cores para escolher uma cor:</label>
 <input type="color" id="colorpicker">
 
 {{% notice warning %}}
 Para ver sua imagem, clique no canto superior esquerdo (onde diz 'Files'), e depois clique no arquivo de imagem para ver o resultado.
-<div style="width:100%">
+<div style="width:70%">
     <table>
         <td>
-            <img src="../../media/open-file1.png" width=100%>
+            <img src="../../media/open-file1.png" width="100%">
         </td>
         <td>
-            <img src="../../media/open-file2.png" width=100%>
+            <img src="../../media/open-file2.png" width="100%">
         </td>
     </table>
 </div>

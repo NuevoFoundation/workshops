@@ -19,7 +19,7 @@ First, let’s delete everything in the main.py file. Then, add the following st
 
 Once you hit run, you should see the module being installed in the console:
 
-![alt text](../../media/installed_module.png "image of what you should see when you successfully install the module")
+<img src="../../media/installed_module.png" alt="Image of what you should see when you successfully install the module" width="60%">
 
 If you see the above, it means you have successfully imported a module! If you’re hitting issues, please ask for help before moving on.
 

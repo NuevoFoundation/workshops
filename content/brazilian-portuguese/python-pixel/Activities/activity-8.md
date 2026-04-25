@@ -14,13 +14,13 @@ Nesta seção, vamos aprender como inverter sua imagem usando pixels.
 ### Exemplo – Inverter sua imagem de cabeça para baixo
 
 Vamos virar o gato de cabeça para baixo.  
-<img src="../../media/cat.png" width=50%>
+<img src="../../media/cat.png" width="50%">
 
 {{% notice note %}}
 Virar a imagem de cabeça para baixo é o mesmo que criar uma imagem simétrica em relação à `linha central horizontal`, que é a linha preta na imagem abaixo.
 {{% /notice %}}
 
-<img src="../../media/cathori.png" width=50%>
+<img src="../../media/cathori.png" width="50%">
 
 ```python
 # Precisamos importar o pacote PIL para manipular pixels
@@ -45,7 +45,7 @@ newimg.save("Mycat.png")
 ```
 
 Uau! Aqui está nosso novo gato depois de virar de cabeça para baixo.  
-<img src="../../media/flipcat.png" width=50%>
+<img src="../../media/flipcat.png" width="50%">
 
 Como descobrimos como definir `heightNew`?
 
@@ -71,7 +71,7 @@ for i in range(width):
 ```
 
 Por exemplo, tente aplicar esse código no seguinte grupo de letras 4x4:  
-<img src="../../media/table.png" width=15%>
+<img src="../../media/table.png" width="15%">
 
 Depois crie a versão espelhada usando a linha horizontal como base e compare com o resultado anterior. Ficaram iguais?
 

@@ -14,7 +14,7 @@ Nesta seção, vamos aprender como mudar o fundo simples de uma imagem usando pi
 ### Exemplo – Mudar a cor do fundo
 
 Vamos mudar o fundo da imagem da Nuvi para rosa.  
-<img src="../../media/nuevo.png" width=25%>
+<img src="../../media/nuevo.png" width="25%">
 
 ```python
 from PIL import Image
@@ -43,7 +43,7 @@ newimg.save("nuevopink.png")
 ```
 
 Uau! Aqui está a Nuvi com o novo fundo rosa.  
-<img src="../../media/nuevopink.png" width=25%>
+<img src="../../media/nuevopink.png" width="25%">
 
 ### Desafio – Mude o fundo com a cor que você quiser
 

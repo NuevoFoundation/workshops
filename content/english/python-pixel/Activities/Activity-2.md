@@ -29,10 +29,10 @@ img.save('pil_red.png')
 ```
 
 This is the picture before adding the diagonal.
-![alt text](../../media/whileloopbefore.png "image showing while loop first example")
+<img src="../../media/whileloopbefore.png" alt="Image showing while loop first example" width="60%">
 
 This is the picture after adding the diagonal.
-![alt text](../../media/whileloopafter.png "image showing while loop first example")
+<img src="../../media/whileloopafter.png" alt="Image showing while loop first example result" width="60%">
 
 ## Example two: Make a rectangle.
 
@@ -49,10 +49,10 @@ img.save('pil_redmodified.png')
 ```
 
 This is the picture before adding the rectangle.
-![alt text](../../media/whileloopbefore.png "image showing for loop first example")
+<img src="../../media/whileloopbefore.png" alt="Image showing for loop first example" width="60%">
 
 This is the picture after adding the rectangle.
-![alt text](../../media/forloopafter.png "image showing for loop first example")
+<img src="../../media/forloopafter.png" alt="Image showing for loop first example result" width="60%">
 
 ## Modifying your own colorboard!
 

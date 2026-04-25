@@ -10,7 +10,7 @@ Let’s first find some images to open. Find an image of your choice and downloa
 
 For example, to upload the cat.jpg file:
 
-![alt text](../../media/upload_file.png "image showing how to upload a file")
+<img src="../../media/upload_file.png" alt="Image showing how to upload a file" width="60%">
 
 You should see the JPG file on the left side once you’ve uploaded it. Note that your image may have a different extension. 
 
@@ -27,4 +27,4 @@ If you are using a different image, then make sure you put the name of the file 
 
 Hit run and see your image appear! My image looks like this:
 
-<img src="../../media/cat.png" alt="cat" width=50%>
+<img src="../../media/cat.png" alt="Cat image example" width="50%">
