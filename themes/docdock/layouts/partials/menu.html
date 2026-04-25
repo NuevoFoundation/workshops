@@ -6,7 +6,7 @@
   <li class="dd-item back-to-dashboard">
     <div class="menu-item">
       <a href="{{ "/" | relLangURL }}" aria-label="Back to workshops dashboard" class="back-nav-link">
-        <i class="fa fa-angle-left fa-lg category-icon back-nav-icon"></i>
+        <i class="fa fa-angle-left fa-lg back-nav-icon" aria-hidden="true"></i>
       </a>
       <a href="{{ "/"| relLangURL }}">{{ i18n "workshop-dashboard" }}</a>
     </div>
@@ -52,12 +52,15 @@
       {{safeHTML .Params.Pre}}{{.Title}}{{safeHTML .Params.Post}}
     </a>
 
-    {{- if ne $numberOfPages 0 }} {{- if or (.IsAncestor $currentNode) (.Params.alwaysopen) }}
-      <i class="fa fa-lg category-icon fa-angle-up"></i>
-    {{- else -}}
-      <i class="fa fa-angle-down fa-lg category-icon"></i>
+    {{- if ne $numberOfPages 0 }}
+      <button type="button" class="category-icon" aria-expanded="{{- if or (.IsAncestor $currentNode) (.Params.alwaysopen) }}true{{- else }}false{{- end}}" aria-label="Toggle {{.Title}}">
+      {{- if or (.IsAncestor $currentNode) (.Params.alwaysopen) }}
+        <i class="fa fa-lg fa-angle-up" aria-hidden="true"></i>
+      {{- else -}}
+        <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
+      {{- end}}
+      </button>
     {{- end}}
-  {{- end}}
   {{- if $showvisitedlinks}}
     <i class="fa fa-circle-thin read-icon"></i>
   {{end}}

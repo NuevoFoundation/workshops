@@ -149,7 +149,13 @@ article > aside .menu .dd-item div * {
 article > aside .menu .dd-item div i.read-icon {
   display: none;
 }
-article > aside .menu .dd-item div i.category-icon {
+article > aside .menu .dd-item div button.category-icon {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
   display: flex;
   align-items: start;
   justify-content: center;
@@ -172,12 +178,17 @@ article > aside .menu .dd-item div a:active {
   border-radius: 0.2rem;
   padding: 0 0rem;
 }
-article > aside .menu .dd-item div i.category-icon:active,
-article > aside .menu .dd-item div i.category-icon:focus,
-article > aside .menu .dd-item div i.category-icon:hover {
+article > aside .menu .dd-item div button.category-icon:active,
+article > aside .menu .dd-item div button.category-icon:focus,
+article > aside .menu .dd-item div button.category-icon:hover {
   background-color: #eee;
   border-radius: 0.2rem;
   padding: 0 0rem;
+}
+article > aside .menu .dd-item div button.category-icon:focus-visible {
+  outline: 2px solid #4A90D9;
+  outline-offset: 1px;
+  border-radius: 0.2rem;
 }
 article > aside .menu .dd-item li {
   border-left: 1px solid #eee;
@@ -221,11 +232,13 @@ article > aside .menu .dd-item.back-to-dashboard div a {
   flex-basis: 20px !important;
 }
 
-article > aside .menu .dd-item.back-to-dashboard div a i.category-icon {
+article > aside .menu .dd-item.back-to-dashboard div a i.back-nav-icon {
   display: flex;
   align-items: start;
   justify-content: center;
   order: 1 !important;
+  width: 20px;
+  cursor: pointer;
 }
 
 article > aside .menu .dd-item.back-to-dashboard div a {
