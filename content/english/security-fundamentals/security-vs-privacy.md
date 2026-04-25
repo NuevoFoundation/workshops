@@ -6,7 +6,7 @@ weight: 3
 ---
 
 Security and privacy are often used interchangeably by people, but it is important to understand how these two ideas are different. 
-{{< figure src="../img/teacher.png" width="600px" >}}
+{{< figure src="../img/teacher.png" alt="Illustration of a teacher explaining security concepts" width="600px" >}}
 ### Security
 Security refers to protection against the unauthorized access of data regardless of the content. Any measure taken to make sure that data can't be accessed by an unauthorized person is known as security. Some examples include:
 * Ensuring that computers are locked while unattended
@@ -27,7 +27,7 @@ We put security controls in place to limit who can access information, and we pu
 
 Security can be put into practice without privacy, but privacy cannot be put into practice without security. 
 <!-- ![Cannot load image](../img/security-vs-privacy.png?classes=border,shadow)-->
-{{< figure src="../img/security-vs-privacy.png" width="900px" >}}
+{{< figure src="../img/security-vs-privacy.png" alt="Diagram comparing security and privacy with three outcomes: both maintained, privacy compromised, and both compromised" width="900px" >}}
 
 Here’s an example. You might share personal information with your bank when you open an account. What happens after that? Here are three possible outcomes, all related to your personal information (not to the money in the checking account). 
 
