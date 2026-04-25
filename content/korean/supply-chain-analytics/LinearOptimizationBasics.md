@@ -32,7 +32,7 @@ weight: 3
 의사결정 변수는 여러분이 최적화하고 싶은 항목이에요. 예를 들어, 계란의 수 같은 것이 될 수 있죠. 컴퓨터는 이 변수를 최적으로 계산해 주고, 가장 적절한 양을 추천해 줘요.
  
  
-<img src= ../img/decision_var.jpg alt="Image showing the two types of cookies with #1 and #2 written" width="600" height="300">
+<img src="../img/decision_var.jpg" alt="Image showing the two types of cookies with #1 and #2 written" width="600" height="300">
 
 ## 목표 함수
 

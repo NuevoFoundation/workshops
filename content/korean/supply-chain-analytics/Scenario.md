@@ -13,7 +13,7 @@ weight: 2
 한 번에 구워내는 양은 쿠키 12개예요. 초코칩 쿠키 한 판은 $20에 팔 수 있고, 설탕 쿠키 한 판은 $15에 팔 수 있어요.
 
 
-<img src= ../img/cookie_price.jpg alt="Picture of chocolate chip cookie that says $20, and a picture of a sugar cookie that says $15" width="700" height="300">
+<img src="../img/cookie_price.jpg" alt="Picture of chocolate chip cookie that says $20, and a picture of a sugar cookie that says $15" width="700" height="300">
 
 쿠키를 만들기 위해서는 재료를 사야 해요. 공급망에서는 이런 재료를 원재료라고 불러요. 계산해보니, 초코칩 쿠키는 설탕 쿠키보다 더 많은 재료가 필요해서, 초코칩 쿠키 한 판당 원재료 비용이 $10이 들고, 설탕 쿠키 한 판은 $7이 들어요.
 
@@ -33,7 +33,7 @@ weight: 2
 하지만 여기서 문제는, 초코칩 쿠키와 설탕 쿠키를 만드는 데 필수 재료가 한정되어 있다는 거예요. 각 쿠키 한 판마다 필요한 재료의 양이 다르기 때문에 이를 잘 관리해야 해요. 단순하게 설명하기 위해 주된 재료 세 가지(계란, 밀가루, 설탕)만 포함했어요.
  
 
-<img src= ../img/constraints_chart.jpg alt="Table view of all constraints" width="750" height="200">
+<img src="../img/constraints_chart.jpg" alt="Table view of all constraints" width="750" height="200">
 
 
 여러분은 가지고 있는 재료를 최대한 활용해서 쿠키를 팔아 가장 많은 수익을 내야 해요. 그렇다면 어떻게 해야 할까요?

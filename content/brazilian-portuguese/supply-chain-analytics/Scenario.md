@@ -11,7 +11,7 @@ Para começar, você venderá apenas 2 tipos de biscoitos. Depois de perguntar a
 
 Cada lote de biscoitos equivale a 12 biscoitos. Você pode vender um lote de biscoitos de chocolate por R$20 e um lote de biscoitos de açúcar por R$15.
 
-<img src= ../img/cookie_price.jpg alt="Foto de um biscoito com gotas de chocolate que diz $ 20 e uma foto de um biscoito de açúcar que diz $ 15" width="700" height="300">
+<img src="../img/cookie_price.jpg" alt="Foto de um biscoito com gotas de chocolate que diz $ 20 e uma foto de um biscoito de açúcar que diz $ 15" width="700" height="300">
 
 Você precisa comprar os ingredientes para fazer os biscoitos. Na cadeia de abastecimento, estes são conhecidos como “matérias-primas”. Ao fazer as contas, você descobriu que, como os biscoitos de chocolate usam mais ingredientes do que os os de açúcar, cada lote custará R$10 em matéria-prima. Cada lote de biscoitos açucarados custará apenas R$ 7.
 
@@ -27,7 +27,7 @@ A receita é o dinheiro total que você ganha vendendo biscoitos. Ao subtrair o 
 
 Aqui está o problema: você só tem um número limitado de ingredientes comuns que deve compartilhar entre os dois. Mas cada lote requer uma quantidade diferente. Para simplificar, eu incluí apenas três dos ingredientes principais: ovos, farinha e açúcar.
 
-<img src= ../img/constraints_chart.jpg alt="Visualização de tabela de todas as restrições" width="750" height="200">
+<img src="../img/constraints_chart.jpg" alt="Visualização de tabela de todas as restrições" width="750" height="200">
 
 
 Você quer ganhar o máximo de dinheiro vendendo os biscoitos com os ingredientes que possui. Então o que nós podemos fazer?

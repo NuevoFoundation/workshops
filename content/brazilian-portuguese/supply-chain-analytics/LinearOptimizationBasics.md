@@ -25,7 +25,7 @@ Existem três partes principais que você precisa aprender: variáveis ​​de 
 
 Estas são as variáveis ​​que você deseja otimizar (como número de ovos). O computador resolverá isso para você e recomendará a quantidade ideal.
  
-<img src= ../img/decision_var.jpg alt="Imagem mostrando os dois tipos de cookies com os números 1 e 2 escritos" width="600" height="300">
+<img src="../img/decision_var.jpg" alt="Imagem mostrando os dois tipos de cookies com os números 1 e 2 escritos" width="600" height="300">
 
 ## Função objetiva
 

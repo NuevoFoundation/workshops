@@ -7,7 +7,7 @@ weight: 4
 
 Para executar um problema de otimização no Excel, você precisa habilitar o complemento chamado “Solver”. Siga o link abaixo para obter detalhes ou veja a imagem abaixo. 
 
- <img src= ../img/Download_Excel_solver.jpg alt="Captura de tela das etapas para baixar o Solver (solucionador) do Excel" width="800" height="600">
+ <img src="../img/Download_Excel_solver.jpg" alt="Captura de tela das etapas para baixar o Solver (solucionador) do Excel" width="800" height="600">
 
 Clique [aqui](
 https://support.microsoft.com/en-us/office/load-the-solver-add-in-in-excel-612926fc-d53b-46b4-872c-e24772f078ca) para obter mais ajuda se estiver com problemas.
