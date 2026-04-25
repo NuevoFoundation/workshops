@@ -25,7 +25,7 @@ For activities where students write and run code, embed an interactive editor. H
 
 ### Replit
 
-Best for Python, JavaScript, and general-purpose programming.
+Best for Python, JavaScript, and general-purpose programming. Use the `replit.com` domain for new embeds (older workshops may use `repl.it`, which still redirects).
 
 ```html
 <a class="my-2 mx-4 btn btn-info" href="https://replit.com/@nuevofoundation/python-basics" target="_blank">Launch Replit</a>
@@ -45,7 +45,7 @@ Best for Python turtle graphics and simple Python programs.
 <iframe src="https://trinket.io/embed/python/abc123" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 ```
 
-### DotNetFiddle
+### .NET Fiddle
 
 Best for C# programs.
 
@@ -55,15 +55,15 @@ Best for C# programs.
 
 ### CodePen
 
-Best for HTML/CSS/JavaScript web projects.
+Best for HTML/CSS/JavaScript web projects. In this repo, CodePen is typically used as a link button rather than an inline embed:
 
 ```html
-<iframe height="400" width="100%" src="https://codepen.io/user/embed/abc123?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowfullscreen></iframe>
+<a class="my-2 mx-4 btn btn-info" href="https://codepen.io/Sunny-Dee/pen/exxyYL" target="_blank">Try it yourself!</a>
 ```
 
 ## Interactive HTML elements
 
-For custom interactivity (quizzes, drag-and-drop, buttons), use the `rawhtml` shortcode:
+For custom interactivity (quizzes, drag-and-drop, buttons), you can use raw HTML directly in markdown (Hugo's `unsafe` rendering is enabled for this site). Alternatively, use the `rawhtml` shortcode:
 
 ```
 {{</* rawhtml */>}}
@@ -95,3 +95,8 @@ Remember to use parentheses when calling a function!
 - Set `height="600"` as a starting point for embedded editors and adjust as needed
 - Add a fallback link below iframes in case embedding is blocked: "Can't see the editor? [Open it in a new tab](link)"
 - Keep code examples short and focused. If an example exceeds 20 lines, consider splitting it into steps.
+
+## See also
+
+- [Formatting](../formatting) — Visual shortcodes (alerts, buttons, notices, expand)
+- [Tags and Metadata](../tags-and-metadata) — Frontmatter fields for all page types
