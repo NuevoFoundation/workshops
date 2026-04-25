@@ -6,6 +6,7 @@ weight: 3
 ---
 
 Segurança e privacidade são termos frequentemente usados como sinônimos, mas é importante entender como essas duas ideias são diferentes.
+{{< figure src="../img/teacher.png" alt="Ilustração de uma professora explicando conceitos de segurança" width="40%" >}}
 
 ### Segurança
 Segurança refere-se à proteção contra o acesso não autorizado a dados, independentemente do conteúdo. Qualquer medida tomada para garantir que os dados não possam ser acessados por pessoas não autorizadas é considerada segurança. Alguns exemplos incluem:

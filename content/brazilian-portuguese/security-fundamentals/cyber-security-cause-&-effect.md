@@ -6,6 +6,7 @@ weight: 4
 ---
 
 
+{{< figure src="../img/secret-notes.png" alt="Ilustração de notas secretas representando ameaças cibernéticas ocultas" width="50%" >}}
 A segurança cibernética na prática vai além de apenas não cair em golpes online. Quais são exatamente os riscos comuns que os usuários ignoram na internet e dos quais os hackers se aproveitam?  
 
 1. Não habilitar a autenticação de dois fatores para acessar contas (redes sociais, bancos, jogos, etc.)

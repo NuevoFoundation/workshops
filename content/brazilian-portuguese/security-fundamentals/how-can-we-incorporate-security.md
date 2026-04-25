@@ -23,6 +23,7 @@ A cibersegurança é um campo amplo onde todos precisam fazer sua parte para gar
  <div>
    <button id="submit_button" type="button" onclick="displaySection()">Submit</button>
  </div>
+ {{< figure src="../img/question.png" alt="Ilustração de um personagem refletindo sobre uma questão de segurança" width="20%" >}}
 </br>
  
  <!-- Hidden section with sample answers -->
