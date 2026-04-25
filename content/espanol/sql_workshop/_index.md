@@ -1,7 +1,7 @@
 ---
 title: "SQL: Salvando la Galaxia"
 description: "Aprendiendo comandos básicos de SQL"
-date: 2019-07-25T13:24:17-07:00
+date: 2026-04-25T00:00:00-07:00
 prereq: "Ninguno"
 difficulty: "Principiante"
 draft: false

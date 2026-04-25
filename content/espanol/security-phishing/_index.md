@@ -1,7 +1,7 @@
 ---
 title: "Seguridad: Phishing"
 description: "Guía introductoria sobre el concepto de phishing!"
-date: 2022-04-21T11:45:38-07:00
+date: 2026-04-25T00:00:00-07:00
 prereq: "Ninguno"
 difficulty: "Principiante"
 download: ""
