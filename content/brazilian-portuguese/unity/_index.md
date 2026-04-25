@@ -1,25 +1,26 @@
 ---
 title: "Unity: Jogo espacial"
-description: "Aprenda o básico do Unity criando um jogo espacial"
-date: 2021-10-06T11:45:38-07:00
+description: "Aprenda o b├ísico do Unity criando um jogo espacial"
+date: 2026-04-25T00:00:00-07:00
 prerequisite: "C#: Jogo Adivinhe as Palavras"
 draft: false
+alwaysopen: false
 language: "csharp"
 topics: ["games"]
 difficulties: ["advanced"]
 ---
 
-## Introdução
+## Introdu├º├úo
 
-Oh não! Alienígenas desceram à Terra! Você aceitará o desafio e ajudará o robô Nuvi a derrotar os alienígenas?
+Oh n├úo! Alien├¡genas desceram ├á Terra! Voc├¬ aceitar├í o desafio e ajudar├í o rob├┤ Nuvi a derrotar os alien├¡genas?
 
-Este workshop irá guiá-lo passo a passo na criação de um jogo espacial Unity!
+Este workshop ir├í gui├í-lo passo a passo na cria├º├úo de um jogo espacial Unity!
 
 Espero que goste!
 
 ![Exemplo de um jogo funcional](./img/unity_game.gif)
 
 <details>
-<summary>Tabela de Conteúdos</summary>
+<summary>Tabela de Conte├║dos</summary>
 {{% children /%}}
 </details>
