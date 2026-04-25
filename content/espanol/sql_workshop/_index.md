@@ -26,4 +26,7 @@ Por favor, no uses el navegador Firefox para este taller.
 
 ## Contenido
 
+<details close>
+<summary>Table of Contents</summary>
 {{% children /%}}
+</details>

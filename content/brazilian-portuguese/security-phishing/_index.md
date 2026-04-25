@@ -11,4 +11,7 @@ icon: "fas fa-user-secret"
 
 ## Índice
 
+<details close>
+<summary>Table of Contents</summary>
 {{% children /%}}
+</details>

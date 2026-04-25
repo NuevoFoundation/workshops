@@ -10,4 +10,7 @@ icon: "fas fa-user-secret"
 
 ## 목차
 
+<details close>
+<summary>Table of Contents</summary>
 {{% children /%}}
+</details>

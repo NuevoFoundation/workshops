@@ -8,4 +8,7 @@ draft: false
 ---
 
 # Pixels em Python
+<details close>
+<summary>Table of Contents</summary>
 {{% children /%}}
+</details>

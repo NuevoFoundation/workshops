@@ -57,4 +57,7 @@ Os exemplos foram feitos em um único Replit. Vamos mostrar todos os comandos qu
 
 ## Conteúdo do Workshop
 
+<details close>
+<summary>Table of Contents</summary>
 {{% children /%}}
+</details>

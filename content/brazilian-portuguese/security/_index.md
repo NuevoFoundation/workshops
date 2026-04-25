@@ -10,4 +10,7 @@ icon: "fas fa-user-secret"
 
 ## Tabela de Conteúdos
 
+<details close>
+<summary>Table of Contents</summary>
 {{% children /%}}
+</details>

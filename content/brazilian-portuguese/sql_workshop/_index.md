@@ -26,4 +26,7 @@ Por favor, não use o navegador Firefox para este workshop.
 
 ## Tabela de Conteúdos
 
+<details close>
+<summary>Table of Contents</summary>
 {{% children /%}}
+</details>
