@@ -1,6 +1,6 @@
 ---
 title: "Activity 4: Create Basic Filter"
-date: 2020-09-08T00:00:00Z
+date: 2026-04-25T00:00:00-07:00
 prereq: "Python Basics, Python Pixels: Colors and Pixels, Python Image manipulation: Open an image"
 difficulty: "Intermediate"
 weight: 4

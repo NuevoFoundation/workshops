@@ -2,7 +2,7 @@
 title: "Activity 1: Create a color board"
 prereq: "Python Basics, Python Image Manipulation: Open an Image, Python Pixels: Colors and Pixels"
 difficulty: "Intermediate"
-date: 2020-07-11T00:00:00Z
+date: 2026-04-25T00:00:00-07:00
 weight: 1
 draft: false
 ---

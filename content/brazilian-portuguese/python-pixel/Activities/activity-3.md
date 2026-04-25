@@ -2,7 +2,7 @@
 title: "Atividade 3: Desafio: Crie novos elementos"
 prereq: "Fundamentos de Python, Manipulação de Imagens em Python: Abrir uma Imagem, Pixels em Python: Cores e Pixels"
 difficulty: "Intermediário"
-date: 2020-09-08T00:00:00Z
+date: 2026-04-25T00:00:00-07:00
 weight: 3
 draft: false
 ---

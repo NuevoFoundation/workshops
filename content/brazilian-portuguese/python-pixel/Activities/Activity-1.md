@@ -2,7 +2,7 @@
 title: "Atividade 1: Crie um quadro de cores"
 prereq: "Fundamentos de Python, Manipulação de Imagens em Python: Abrir uma Imagem, Pixels em Python: Cores e Pixels"
 difficulty: "Intermediário"
-date: 2020-07-11T00:00:00Z
+date: 2026-04-25T00:00:00-07:00
 weight: 1
 draft: false
 ---
