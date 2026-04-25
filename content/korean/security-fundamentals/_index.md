@@ -1,15 +1,16 @@
 ---
-title: "보안 기초"
-description: "보안의 기초를 배우기 위한 입문 가이드입니다!"
+title: "δ│┤∞òê Ω╕░∞┤ê"
+description: "δ│┤∞òê∞¥ÿ Ω╕░∞┤êδÑ╝ δ░░∞Ü░Ω╕░ ∞£äφò£ ∞₧àδ¼╕ Ω░Ç∞¥┤δô£∞₧àδïêδïñ!"
 date: 2020-02-21T11:45:38-07:00
-prereq: "없음"
+prereq: "∞ùå∞¥î"
 draft: false
+alwaysopen: false
 icon: "fas fa-user-secret"
 language: "no-code"
 topics: ["cybersecurity"]
 difficulties: ["beginner"]
 ---
 
-## 목차
+## δ¬⌐∞░¿
 
 {{% children /%}}

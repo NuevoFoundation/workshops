@@ -21,4 +21,7 @@ Hope you enjoy!
 
 ## Table of Contents
 
+<details close>
+<summary>Table of Contents</summary>
 {{% children /%}}
+</details>

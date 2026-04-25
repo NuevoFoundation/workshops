@@ -13,4 +13,7 @@ difficulties: ["beginner"]
 
 ## Índice
 
+<details close>
+<summary>Table of Contents</summary>
 {{% children /%}}
+</details>

@@ -21,4 +21,7 @@ Espero que goste!
 
 ## Tabela de Conteúdos
 
+<details close>
+<summary>Table of Contents</summary>
 {{% children /%}}
+</details>
