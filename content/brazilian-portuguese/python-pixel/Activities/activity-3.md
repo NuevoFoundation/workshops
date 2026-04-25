@@ -38,7 +38,7 @@ img.save('pixel-activity3.png')
 
 output:  
 `imagem mostrando o exemplo da atividade 3`  
-![alt text](../../media/Activity3_ex.png "imagem mostrando o exemplo da atividade 3")
+<img src="../../media/Activity3_ex.png" alt="Imagem mostrando exemplo da atividade 3" width="60%">
 
 ### Crie seu próprio elemento!
 

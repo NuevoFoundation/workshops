@@ -27,7 +27,7 @@ For example:
 
 
 My image now looks like this:
-<img src="../../media/meme.png" alt="blurred black and white cat upside down with text that says `when you realize you learned python in an hour.`" width=50%>
+<img src="../../media/meme.png" alt="blurred black and white cat upside down with text that says `when you realize you learned python in an hour.`" width="50%">
 
 ### Challenge - Change the font
 You can see that the text in the image created above is in a small, default font. There are other parameters within the `text()` method you can use. Take a look at the [documentation](https://pillow.readthedocs.io/en/stable/reference/ImageDraw.html#PIL.ImageDraw.PIL.ImageDraw.ImageDraw.text) and see if you can change the font and the font size, as well as the color of the text! 

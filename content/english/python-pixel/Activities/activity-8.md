@@ -14,7 +14,7 @@ In this section, we will start to learn how to flip your image using pixels.
 ### Example - Flip your image upside down
 
 Let us flip the cat upside down.
-<img src="../../media/cat.png" width=50%>
+<img src="../../media/cat.png" width="50%">
 
 {{% notice note %}}
 
@@ -22,7 +22,7 @@ Flipping the image upside down is the same as creating a symmetrical image with 
 
 {{% /notice %}}
 
-<img src="../../media/cathori.png" width=50%>
+<img src="../../media/cathori.png" width="50%">
 
 ```python
 # We need to import PIL package to manipulation with pixels.
@@ -48,7 +48,7 @@ newimg.save("Mycat.png")
 
 Wow! This is our new cat after flipping.
 
-<img src="../../media/flipcat.png" width=50%>
+<img src="../../media/flipcat.png" width="50%">
 
 How did we figure out how to set `heightNew`? In the above code we have:
 
@@ -77,7 +77,7 @@ for i in range(width): # For every column
 
 For example, try to apply this code on the following 4x4 letter group:
 
-<img src="../../media/table.png" width=15%>
+<img src="../../media/table.png" width="15%">
 
 Then create the symmetrical output with respect to horizontal central line and compare it with the previous output. Are they the same?
 

@@ -19,7 +19,7 @@ Depois, adicione as instruções abaixo:
 
 Assim que você clicar em "Run", verá que o módulo será instalado no console:
 
-![alt text](../../media/installed_module.png "imagem do console mostrando o módulo instalado com sucesso")
+<img src="../../media/installed_module.png" alt="Imagem do console mostrando o módulo instalado com sucesso" width="60%">
 
 Se você viu isso, parabéns! Você importou o módulo com sucesso.  
 Se estiver com problemas, peça ajuda antes de continuar.
