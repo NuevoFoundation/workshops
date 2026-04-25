@@ -23,7 +23,7 @@ Cyber security is a big field where everyone needs to do their part to ensure th
  <div>
    <button id="submit_button" type="button" onclick="displaySection()">Submit</button>
  </div>
- {{< figure src="../img/question.png" alt="Illustration of a character pondering a question about security" width="300px" >}}
+ {{< figure src="../img/question.png" alt="Illustration of a character pondering a question about security" width="20%" >}}
 </br>
  
  <!-- Hidden section with sample answers -->

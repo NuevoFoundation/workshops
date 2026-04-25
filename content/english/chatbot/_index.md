@@ -27,7 +27,7 @@ You might use a virtual assistant to set a reminder on your phone, or to play a 
 
 You might have interacted with a chatbot to get help with a product or service.
 
-<p style="text-align: center; "><img src="./img/customer_service_chatbot.png" alt="Customer service chatbot conversation interface" width="20%"/></p>
+<p style="text-align: center; "><img src="./img/customer_service_chatbot.png" alt="Customer service chatbot conversation interface" width="35%"/></p>
 
 More recently, chatbots have become more well-known thanks to technologies like ChatGPT.
 
