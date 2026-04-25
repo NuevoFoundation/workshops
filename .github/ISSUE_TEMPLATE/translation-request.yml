@@ -1,0 +1,59 @@
+---
+name: Translation request
+description: Request a workshop be translated to a new language
+title: "[Translation]: "
+labels: ["translation"]
+body:
+  - type: dropdown
+    id: workshop
+    attributes:
+      label: Workshop to translate
+      description: Which English workshop should be translated?
+      options:
+        - web-basics (HTML/CSS)
+        - python-basics
+        - python-turtle
+        - python-earsketch
+        - python-pixel
+        - python-pong
+        - csharp-basics
+        - chatbot
+        - javascript-basics
+        - github-basics
+        - sql-workshop
+        - security-fundamentals
+        - Other (specify below)
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Target language
+      description: Which language should this workshop be translated to?
+      options:
+        - Español
+        - Brazilian Portuguese
+        - Korean
+        - French
+        - German
+        - Simplified Chinese
+        - Traditional Chinese
+        - Russian
+        - Japanese
+        - Other (specify below)
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Are you volunteering to do this translation? Any special considerations?
+      placeholder: "Example: I'm a native Spanish speaker and would like to translate this workshop for our chapter in Mexico City."
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Before starting
+      options:
+        - label: I checked that this workshop doesn't already exist in the target language
+          required: true
+        - label: I'm willing to translate the full workshop (not just the landing page)
