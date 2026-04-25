@@ -1,7 +1,7 @@
 ---
 title: "Workshop Contributor Guidelines"
 description: "We welcome contributions. Great ways to contribute include trying things out, filing bugs, creating, and adding new workshops."
-date: 2019-07-22T14:08:32-07:00
+date: 2026-04-25T00:00:00-07:00
 draft: false
 hidden: false
 ---
@@ -19,6 +19,14 @@ Looking to contribute more? Take a look at our <a target="_blank" href="https://
 Interested in creating or modifying workshops? Follow the "Start here" guides above, then the following:
   - [Formatting](formatting)
   - [New Workshop Guidelines](new-workshops)
+  - [Images and GIFs](images-and-gifs)
+  - [Navigation](navigation)
+  - [Code and Interactivity](code-and-interactivity)
+  - [Tags and Metadata](tags-and-metadata)
+
+## For translators
+Want to help make workshops available in more languages?
+  - [Translation Volunteer Guide](translation-volunteer)
 
 ## For web developers
 Interested in improving this website? Follow the "Start here" guides above, then the following:
