@@ -34,6 +34,7 @@ date: {date}
 prereq: "{prereq}"
 difficulty: "{difficulty}"
 draft: false
+alwaysopen: false
 icon: "{icon}"
 ---
 
