@@ -126,6 +126,10 @@ Math breakdown for the third expression:
 
 ### Numbers - Challenge 2
 
+{{% notice warning %}}
+The workshop text says `"527 time 199 is: __"` — this appears to be a typo for "times" in the original workshop. The answer below matches the workshop text exactly.
+{{% /notice %}}
+
 ```python
 print("527 time 199 is: " + str(527 * 199))
 ```
@@ -432,7 +436,11 @@ print(str(multiply(5, 2)))   # 10
 print(str(divide(5, 2)))     # 2.5
 ```
 
-### Methods - Challenge 1
+### Built in Functions - Challenge 1
+
+{{% notice warning %}}
+The workshop page "Built in Functions" contains Python 2 syntax (`print s.isdigit()` without parentheses) and a `find()` example with a misplaced closing parenthesis. The answers below use correct Python 3 syntax.
+{{% /notice %}}
 
 ```python
 arr = [1, 2, 3, 4, 5]
@@ -448,7 +456,7 @@ print(arr)        # [1, 2, 3, 4, 5]
 print(len(arr))   # 5
 ```
 
-### Methods - Challenge 2
+### Built in Functions - Challenge 2
 
 ```python
 s = "Hello all.Hello people"
