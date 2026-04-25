@@ -17,16 +17,18 @@
 
 <article>
   <aside>
+    <nav aria-label="Workshop navigation">
     <ul class="menu">
       {{- if not .Site.Params.disableHomeIcon}}
       <li data-nav-id="{{"/" | relLangURL}}" class="dd-item">
-        <a href="{{"/" | relLangURL}}">
-          <i class="fa fa-fw fa-home"></i>
+        <a href="{{"/" | relLangURL}}" aria-label="Home">
+          <i class="fa fa-fw fa-home" aria-hidden="true"></i>
         </a>
       </li>
       {{- end}}
       {{- partial "menu.html" . }}
     </ul>
+    </nav>
 
     <section>
       {{- partial "menu-footer.html" . }}
