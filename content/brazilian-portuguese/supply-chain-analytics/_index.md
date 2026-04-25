@@ -1,7 +1,7 @@
 ---
 title: "Análise de Supply Chain"
 description: "Aprenda como usar conceitos STEM, como otimização, para ajudar a administrar sua biscoiteria!"
-date: 2022-01-19T14:04:59.61-07:00
+date: 2026-04-25T00:00:00-07:00
 prereq: "Excel; Excel Solver Add-In"
 difficulty: "Intermediário"
 download: ""
