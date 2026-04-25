@@ -34,8 +34,10 @@ Best for Python, JavaScript, and general-purpose programming. Use the `replit.co
 Or embed directly:
 
 ```html
-<iframe height="600" width="100%" src="https://replit.com/@nuevofoundation/python-basics?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe height="600" width="100%" src="https://replit.com/@nuevofoundation/python-basics" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true"></iframe>
 ```
+
+Note: older workshops include `?lite=true` in Replit URLs. This parameter is no longer active and can be omitted from new embeds.
 
 ### Trinket
 
@@ -83,9 +85,9 @@ A good activity follows this pattern:
 4. **Hint** using a notice shortcode:
 
 ```
-{{</* notice tip */>}}
+{{% notice tip %}}
 Remember to use parentheses when calling a function!
-{{</* /notice */>}}
+{{% /notice %}}
 ```
 
 ## Tips

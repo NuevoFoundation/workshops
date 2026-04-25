@@ -51,7 +51,7 @@ Never leave images without width constraints. Without a `width` attribute, image
 {{</* figure src="../img/filename.png" alt="Description" width="50%" */>}}
 ```
 
-The `figure` shortcode provides theme-consistent rendering and is the preferred approach for new content.
+The `figure` shortcode wraps images in a `<figure>` element. Note: most existing workshops use the markdown or HTML approaches above.
 
 ## Accessibility (alt text)
 
