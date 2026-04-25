@@ -14,10 +14,10 @@ Quando vemos uma imagem na tela, ela é composta por muitos pixels coloridos, ma
 <div style="width:80%;padding-left:20%;">
     <table>
         <td>
-            <img src="../../media/nuvi.png" width="100%">
+            <img src="../../media/nuvi.png" alt="Personagem Nuvi" width="100%">
         </td>
         <td>
-            <img src="../../media/pixel-nuvi.png" width="100%">
+            <img src="../../media/pixel-nuvi.png" alt="Personagem Nuvi mostrado como pixels" width="100%">
         </td>
     </table>
 </div>

@@ -21,7 +21,7 @@ Aqui está um exemplo de como fazer um quadro de cores com a cor vermelha, uma l
 
 Escolha sua cor favorita e faça um quadro de cores para brincar! Aqui estão algumas cores de exemplo que você pode escolher, mas também pode escolher sua própria cor.
 
-<img src="../../media/Color-chart.png" width="30%">
+<img src="../../media/Color-chart.png" alt="Tabela de cores RGB de exemplo" width="30%">
 
 <label for="colorpicker">Você pode usar o seletor de cores para escolher uma cor:</label>
 <input type="color" id="colorpicker">
@@ -31,10 +31,10 @@ Para ver sua imagem, clique no canto superior esquerdo (onde diz 'Files'), e dep
 <div style="width:70%">
     <table>
         <td>
-            <img src="../../media/open-file1.png" width="100%">
+            <img src="../../media/open-file1.png" alt="Clique em Arquivos no painel esquerdo" width="100%">
         </td>
         <td>
-            <img src="../../media/open-file2.png" width="100%">
+            <img src="../../media/open-file2.png" alt="Clique no arquivo de imagem para ver resultados" width="100%">
         </td>
     </table>
 </div>

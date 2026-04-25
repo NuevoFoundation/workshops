@@ -16,7 +16,7 @@ In the last section, we saw an example of creating a blue filter and thought abo
 
 Let us change the original cat image below with our grey filter together! 
 
-<img src="../../media/cat.png" width="50%">
+<img src="../../media/cat.png" alt="Original cat image" width="50%">
 
 ```python
 # We need to import PIL package to allow manipulation with pixels.
@@ -45,7 +45,7 @@ How can we best figure out how to set a pixel to be the 'greyed' version of it? 
 
 Wow! This is our cat after the grey filter.
   
-<img src="../../media/greyfiltercat.png" width="50%">
+<img src="../../media/greyfiltercat.png" alt="Cat image with greyscale filter applied" width="50%">
 
 ### Example - Partial filter
 
@@ -71,7 +71,7 @@ img.save("Mycat.png")
 
 Wow! This is our cat after the filter. We only filtered one-forth of the cat on the upper left corner！
 
-<img src="../../media/partialfilter.png" width="50%">
+<img src="../../media/partialfilter.png" alt="Cat image with partial filter applied" width="50%">
 
 ### Challenge - Create your own partial filter
 
