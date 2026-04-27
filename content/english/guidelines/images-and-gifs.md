@@ -25,10 +25,10 @@ Never leave images without width constraints. Without a `width` attribute, image
 
 ```markdown
 <!-- Good: responsive -->
-<img src="../img/screenshot.png" alt="Replit code editor" width="60%">
+<img src="../media/screenshot.png" alt="Replit code editor" width="60%">
 
 <!-- Avoid: fixed pixel width -->
-<img src="../img/screenshot.png" alt="Replit code editor" width="900px">
+<img src="../media/screenshot.png" alt="Replit code editor" width="900px">
 ```
 
 ## Adding images
@@ -36,22 +36,22 @@ Never leave images without width constraints. Without a `width` attribute, image
 ### Method 1: Markdown syntax
 
 ```markdown
-![Description of the image](../img/filename.png)
+![Description of the image](../media/filename.png)
 ```
 
 ### Method 2: HTML img tag (when you need width control)
 
 ```html
-<img src="../img/filename.png" alt="Description of the image" width="50%">
+<img src="../media/filename.png" alt="Description of the image" width="50%">
 ```
 
 ### Method 3: Hugo figure shortcode
 
 ```
-{{</* figure src="../img/filename.png" alt="Description" width="50%" */>}}
+{{</* figure src="../media/filename.png" alt="Description" width="50%" */>}}
 ```
 
-The `figure` shortcode wraps images in a `<figure>` element. Note: most existing workshops use the markdown or HTML approaches above.
+The `figure` shortcode wraps images in a `<figure>` element. Note: most existing workshops use the markdown or HTML approaches above. Older workshops may use `img/` instead of `media/` — both work identically.
 
 ## Accessibility (alt text)
 
@@ -77,22 +77,22 @@ For translated workshops, alt text must be in the page's language:
 
 ## Image location
 
-Store images in an `img/` or `media/` directory inside the workshop folder:
+New workshops should use a `media/` directory (the scaffold script generates this automatically). Some older workshops use `img/` instead — both work the same way in Hugo.
 
 ```
 content/english/my-workshop/
   _index.md
   activity-1.md
-  img/              <-- images here
+  media/             <-- images here
     screenshot.png
     diagram.png
 ```
 
-Reference them with relative paths from the page: `../img/screenshot.png`
+Reference images with relative paths from the page. In `_index.md`, use `media/image.png`. In activity pages and answer keys, use `../media/image.png` (they render one level deeper in Hugo).
 
-{{< notice warning >}}
-Hugo resolves relative paths from the **page URL**, not the filesystem location. For child pages at `/workshop/section/activity/`, the path `../img/file.png` resolves to `/workshop/img/file.png`. This is the correct pattern.
-{{< /notice >}}
+{{% notice warning %}}
+Hugo resolves relative paths from the **page URL**, not the filesystem location. For child pages at `/workshop/section/activity/`, the path `../media/file.png` resolves to `/workshop/media/file.png`. This is the correct pattern. Do not "fix" these `../` paths — they are intentional.
+{{% /notice %}}
 
 ## GIFs
 
