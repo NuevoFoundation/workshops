@@ -18,15 +18,15 @@ Looking to contribute more? Take a look at our <a target="_blank" href="https://
 ## For content creators
 Interested in creating or modifying workshops? Follow the "Start here" guides above, then the following:
   - [Formatting](formatting)
-  - [New Workshop Guidelines](new-workshops)
+  - [Creating a new workshop](new-workshops)
   - [Images and GIFs](images-and-gifs)
   - [Navigation](navigation)
-  - [Code and Interactivity](code-and-interactivity)
-  - [Tags and Metadata](tags-and-metadata)
+  - [Code and interactivity](code-and-interactivity)
+  - [Tags and metadata](tags-and-metadata)
 
 ## For translators
 Want to help make workshops available in more languages?
-  - [Translation Volunteer Guide](translation-volunteer)
+  - [Translation volunteer guide](translation-volunteer)
 
 ## For web developers
 Interested in improving this website? Follow the "Start here" guides above, then the following:

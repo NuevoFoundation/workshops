@@ -99,3 +99,11 @@ Navigate to your translated workshop and verify:
 - Keep sentences short and clear. These workshops are for kids aged 8-18.
 - When in doubt about a technical term, keep the English term and add a brief explanation in the target language.
 - Don't translate workshop names in URLs or folder names — they must stay in English for Hugo routing.
+
+## Language-specific notes
+
+### Spanish
+
+- Use **tú** verb conjugation for broad Latin American accessibility (not voseo)
+- Translate code comments but keep variable and function names in English
+- Technical terms like "string", "loop", "function" can stay in English with a brief Spanish explanation the first time they appear
