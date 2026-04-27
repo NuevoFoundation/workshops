@@ -20,7 +20,7 @@ print('The sorted arr is :',arr)
 返回给定字符串中输入（模式）的第一个出现位置。
 ```python
 str1 = "Hello World"
-index = str1.find("World)"
+index = str1.find("World")
 print(index) #输出 6
 ```
 
@@ -32,16 +32,16 @@ print(len(arr)) #输出 5
 ```
 
 # isdigit()
-此函数判断传递的字符串是否仅由数字组成，是则返回 `true`；否则返回 `false`。
+此函数判断传递的字符串是否仅由数字组成，是则返回 `True`；否则返回 `False`。
 ```python
 s = "123";  
-print s.isdigit() #输出 true
+print(s.isdigit()) #输出 True
 
 s = "Hello World";
-print s.isdigit() #输出 false
+print(s.isdigit()) #输出 False
 
 s = "123Hello"
-print s.isdigit() #输出 false 因为其中包含字母和数字
+print(s.isdigit()) #输出 False 因为其中包含字母和数字
 ```
 
 # reverse()

@@ -8,7 +8,7 @@ weight: 1
 ## General Security vs. Cyber Security
 **Security** on its own is defined as the state of being free from danger or threat. This is the same as the definition of **cyber security** except that cyber security is all about creating a state of being free from danger but in **cyberspace**. 
 
-Someone who works in **cybersecurity** is always working on something to make sure that people who use computers are safe when they use the internet in a variety of ways. Some cybers security engineers ensure that users are safe by always being on alert for new vulnerabilities while others do the same job by trying to break programs before hackers can.
+Someone who works in **cybersecurity** is always working on something to make sure that people who use computers are safe when they use the internet in a variety of ways. Some cybersecurity engineers ensure that users are safe by always being on alert for new vulnerabilities while others do the same job by trying to break programs before hackers can.
 
 ## What is cyberspace?
 **Cyberspace** is anywhere that communication happens over a computer network. This can mean when you are interacting with others online in places like social media sites or forums, but it also includes computers talking to each other over the internet or smaller networks for places like a home or office.

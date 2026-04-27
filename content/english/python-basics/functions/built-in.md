@@ -20,7 +20,7 @@ print('The sorted arr is :',arr)
 Returns the first occurence of the input(pattern) to the find() provided in the given string.
 ```python
 str1 = "Hello World"
-index = str1.find("World)"
+index = str1.find("World")
 print(index) #prints 6
 ```
 
@@ -32,16 +32,16 @@ print(len(arr)) #prints 5
 ```
 
 # isdigit()
-This function returns `true` if the string passed as an argument consists of only digits; otherwise it returns `false`
+This function returns `True` if the string passed as an argument consists of only digits; otherwise it returns `False`
 ```python
 s = "123";  
-print s.isdigit() #prints true
+print(s.isdigit()) #prints True
 
 s = "Hello World";
-print s.isdigit() #prints false
+print(s.isdigit()) #prints False
 
 s = "123Hello"
-print s.isdigit() #prints false as it has letters along with digits
+print(s.isdigit()) #prints False as it has letters along with digits
 ```
 
 # reverse()

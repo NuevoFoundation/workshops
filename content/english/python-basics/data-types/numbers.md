@@ -14,12 +14,12 @@ print(24 * (8-3) / 6)   #prints 20.0
 ```
 
 {{% notice note %}}
-The computer does division of integers differently from your regular calculator. Division of integers will exclude remainders or decimals. 
+In Python 3, the `/` operator always returns a decimal result. To divide and get a whole number (discarding the remainder), use `//` instead.
 
-For example, 
+For example,
 
-`15/4` makes `3` 
-`15.0/4.0` makes `3.75`
+`15 / 4` makes `3.75`
+`15 // 4` makes `3`
 
 {{% /notice %}}
 
@@ -40,7 +40,7 @@ Let's try to figure out the answers to the following using Python. Try printing 
 
 ### Challenge 2
 
-Can you print out this statement? `"527 time 199 is: __"`
+Can you print out this statement? `"527 times 199 is: __"`
 
 You will fill in the blank with the answer of what `(527 * 199)` is. If you want to print a string and a number together, you first have to convert the number into a string. 
 
@@ -60,7 +60,7 @@ Here is how to print a random number between 1 (inclusive) and 10 (inclusive):
 
  ```python 
  # This line imports the library needed
- from random import 
+ from random import randint
  # This line prints a random number between 1 (inclusive) and 10 (inclusive)
  print(randint(1,10))
  ```

@@ -16,7 +16,7 @@ weight: 3
 我喜欢饼干。 _______
 我最喜欢的颜色是蓝色。 ______
 
-最常见的布尔运算符是比较运算符，如小于或大于。在Python中，如何编写这些运算符如下所示。打印以下结果：fal
+最常见的布尔运算符是比较运算符，如小于或大于。在Python中，如何编写这些运算符如下所示。打印以下结果：
 
 
 | 运算符 | 描述          | 运算符 | 描述              |
@@ -30,7 +30,7 @@ weight: 3
 
 ```python
 print(5 + 8 < 10)
-print((3 + 5) * 6) == (65 - 17)
+print(((3 + 5) * 6) == (65 - 17))
 ```
 
 第一个陈述应返回<font color="blue">False</font>。第二个应返回<font color="blue">True</font>。
@@ -61,7 +61,7 @@ print((3 + 5) * 6) == (65 - 17)
 <font color="blue">True</font>  or <font color="blue">True</font>  | <font color="blue">True</font> 
 <font color="blue">True</font>  or <font color="blue">False</font> | <font color="blue">True</font> 
 <font color="blue">False</font> or <font color="blue">True</font>  | <font color="blue">True</font> 
-<font color="blue">False</font>  and <font color="blue">False</font> | <font color="blue">False</font>
+<font color="blue">False</font>  or <font color="blue">False</font> | <font color="blue">False</font>
 
 总结一下，AND要求两个布尔表达式都为true，而OR只需要其中一个布尔表达式为true。以下是一些更多的例子：
 
