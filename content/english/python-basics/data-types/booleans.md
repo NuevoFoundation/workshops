@@ -29,7 +29,7 @@ As usual, use `print` to print out your results to the following:
 
 ```python
 print(5 + 8 < 10)
-print((3 + 5) * 6) == (65 - 17)
+print(((3 + 5) * 6) == (65 - 17))
 ```
 
 The first statement should return <font color="blue">False</font>. And the second should return <font color="blue">True</font>. 
@@ -60,7 +60,7 @@ Expression  | Result
 <font color="blue">True</font>  or <font color="blue">True</font>  | <font color="blue">True</font> 
 <font color="blue">True</font>  or <font color="blue">False</font> | <font color="blue">True</font> 
 <font color="blue">False</font> or <font color="blue">True</font>  | <font color="blue">True</font> 
-<font color="blue">False</font>  and <font color="blue">False</font> | <font color="blue">False</font>
+<font color="blue">False</font>  or <font color="blue">False</font> | <font color="blue">False</font>
 
 To summarize, AND requires both boolean expressions to be true, while OR only requires one of the two Boolean expressions to be true. Here are some more examples:
 

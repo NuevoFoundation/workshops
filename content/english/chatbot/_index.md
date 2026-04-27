@@ -5,6 +5,7 @@ date: 2020-02-21T11:45:38-07:00
 prereq: "email"
 download: ""
 draft: false
+alwaysopen: false
 icon: "fas fa-code"
 language: "no-code"
 topics: ["ai"]
