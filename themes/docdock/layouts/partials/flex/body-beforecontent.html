@@ -1,7 +1,9 @@
 <header>
   <!-- Page Logo-->
-  {{ partial "header.html" . }}
-  
+  <div class="site-topnav">
+    {{ partial "header.html" . }}
+  </div>
+
   {{if not .IsHome}}
   <h1>{{.Title}}</h1>
   <div align="right" class="language-bar-workshops">

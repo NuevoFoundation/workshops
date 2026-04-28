@@ -74,6 +74,17 @@
   font-family: "Space Mono";
 }
 
+:root {
+  --topnav-height: 72px;
+}
+
+.site-topnav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #ffffff;
+}
+
 article > aside {
   /* background-color: #f9f9f9; */
   bottom: 0;
@@ -87,12 +98,12 @@ article > aside {
   flex-direction: column;
   padding: 2rem 0rem 1rem 0rem;
   width: 25rem;
-  max-height: 100vh;
+  max-height: calc(100vh - var(--topnav-height));
   overflow-y: auto;
   /* align-self: flex-start is needed so that position: sticky works  */
   align-self: flex-start;
   position: sticky;
-  top: 0px;
+  top: var(--topnav-height);
   background-color: #f1f6f1;
 }
 article > aside .menu {
