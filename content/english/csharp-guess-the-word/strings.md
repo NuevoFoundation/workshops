@@ -1,6 +1,6 @@
 ---
 title: "Strings"
-date: 2019-07-23T11:45:38-07:00
+date: 2026-04-25T00:00:00-07:00
 draft: false
 weight: 5
 ---
@@ -19,7 +19,7 @@ Console.WriteLine("Apple" + "Pineapple");
 Console.WriteLine("Nuevo" + " " + "Foundation");
 ```
 
-![alt text height="600px" width="70%"](../media/strings-intro.PNG "Combining strings with +")
+![alt text height="600px" width="70%"](../media/strings-intro.png "Combining strings with +")
 
 {{% notice tip %}}
 
