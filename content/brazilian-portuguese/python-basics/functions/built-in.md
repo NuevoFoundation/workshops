@@ -32,16 +32,16 @@ print(len(arr)) #imprime 5
 ```
 
 # isdigit()
-Esta função retorna `true` se a string passada como argumento consistir apenas em dígitos; caso contrário, retorna `falso`
+Esta função retorna `True` se a string passada como argumento consistir apenas em dígitos; caso contrário, retorna `False`
 ```python
 s = "123";  
-print s.isdigit() #imprime true
+print(s.isdigit()) #imprime True
 
 s = "Olá Mundo";
-print s.isdigit() #imprime false
+print(s.isdigit()) #imprime False
 
 s = "123Olá"
-print s.isdigit() #imprime false pois tem letras junto com dígitos
+print(s.isdigit()) #imprime False pois tem letras junto com dígitos
 ```
 
 # reverse()

@@ -1,6 +1,6 @@
 ---
 title: "Atividade 10: Criando um meme!"
-date: 2020-02-10T13:24:17-07:00
+date: 2026-04-25T00:00:00-07:00
 draft: false
 weight: 10
 prereq: "Fundamentos de Python, Pixels em Python: Cores e Pixels, Manipulação de Imagens em Python: Abrir uma imagem"
@@ -26,7 +26,7 @@ drawnImage.save("meuGatoComTexto.jpg")
 ```
 
 Minha imagem agora ficou assim:  
-<img src="../../media/meme.png" alt="gato em preto e branco de cabeça para baixo com texto: 'when you realize you learned python in an hour.'" width=50%>
+<img src="../../media/meme.png" alt="gato em preto e branco de cabeça para baixo com texto: 'when you realize you learned python in an hour.'" width="50%">
 
 ### Desafio – Mude a fonte
 

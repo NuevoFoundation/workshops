@@ -1,6 +1,6 @@
 ---
 title: "Activity 4: Create Basic Filter"
-date: 2020-09-08T00:00:00Z
+date: 2026-04-25T00:00:00-07:00
 prereq: "Python Basics, Python Pixels: Colors and Pixels, Python Image manipulation: Open an image"
 difficulties: ["intermediate"]
 weight: 4
@@ -13,7 +13,7 @@ Now that we understand more about pixels and images, we can start to learn how t
 
 ### Example for blue filter
 
-<img src="../../media/cat.png" width=50%>
+<img src="../../media/cat.png" alt="Original cat image" width="50%">
 We want to add a blue filter on the cute cat above. Let's see how to achieve that.
 
 ```python
@@ -34,7 +34,7 @@ img.save("Mycat.png")
 ```
 
 Wow! This is our cat after the blue filter.
-<img src="../../media/bluefiltercat.png" width=50%>
+<img src="../../media/bluefiltercat.png" alt="Cat image with blue filter applied" width="50%">
 
 {{% notice tip %}}
 How did this work? Let's look at the loop: 

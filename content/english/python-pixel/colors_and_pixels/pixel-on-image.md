@@ -13,10 +13,10 @@ Pixels are a small area of color on a display screen. Images are formed by pixel
 <div style="width:80%;padding-left:20%;">
     <table>
         <td>
-            <img src="../../media/nuvi.png" width=100%>
+            <img src="../../media/nuvi.png" alt="Nuvi character" width="100%">
         </td>
         <td>
-            <img src="../../media/pixel-nuvi.png" width=100%>
+            <img src="../../media/pixel-nuvi.png" alt="Nuvi character shown as pixels" width="100%">
         </td>
     </table>
 </div>
@@ -45,7 +45,7 @@ img.save('pil_grey.png')
 ```
 The variable `img` stores the PNG image that looks like this: 
 
-![alt text](../../media/grey.png "Image showing pixels first example")
+<img src="../../media/grey.png" alt="Image showing pixels first example" width="40%">
 
 ```python
 # Remember to import Image
@@ -55,7 +55,7 @@ img.save('pil_black.png')
 ```
 Here, specifying `black` as the RGB color creates and stores the PNG image that looks like this:
 
-![alt text](../../media/black.png "Image showing pixels second example")
+<img src="../../media/black.png" alt="Image showing pixels second example" width="40%">
 
 ## Changing a pixel in an image 
 
@@ -75,5 +75,5 @@ img.save('pil_black-dot.png')
 
 After creating a 200x100 yellow image, the `putpixel` function puts a tiny small dot in the middle of this yellow block. This is one small pixel - in fact, it's so small you may have to expand the image to actually see it!
 
-![alt text](../../media/black-dot.png "image showing pixels third example")
+<img src="../../media/black-dot.png" alt="Image showing pixels third example" width="40%">
 

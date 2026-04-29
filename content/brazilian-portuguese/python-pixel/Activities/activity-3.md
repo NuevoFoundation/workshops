@@ -2,7 +2,7 @@
 title: "Atividade 3: Desafio: Crie novos elementos"
 prereq: "Fundamentos de Python, Manipulação de Imagens em Python: Abrir uma Imagem, Pixels em Python: Cores e Pixels"
 difficulties: ["intermediate"]
-date: 2020-09-08T00:00:00Z
+date: 2026-04-25T00:00:00-07:00
 weight: 3
 draft: false
 ---
@@ -38,7 +38,7 @@ img.save('pixel-activity3.png')
 
 output:  
 `imagem mostrando o exemplo da atividade 3`  
-![alt text](../../media/Activity3_ex.png "imagem mostrando o exemplo da atividade 3")
+<img src="../../media/Activity3_ex.png" alt="Imagem mostrando exemplo da atividade 3" width="60%">
 
 ### Crie seu próprio elemento!
 

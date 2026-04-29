@@ -25,11 +25,11 @@ As formas mais comuns de operadores booleanos são comparações como menor ou m
 | `==`     | Igual a               | `!=`     | Diferente de             |
 
 ### Desafio 1
-Como de costume, use `print` para imprimir seus resultados da seguinte forma: Diferente de
+Como de costume, use `print` para imprimir seus resultados:
 
 ```python
 print(5 + 8 < 10)
-print((3 + 5) * 6) == (65 - 17)
+print(((3 + 5) * 6) == (65 - 17))
 ```
 
 A primeira instrução deve retornar <font color="blue">False</font>. E o segundo deve retornar <font color="blue">True</font>.
@@ -60,7 +60,7 @@ Expressão | Resultado
 <font color="blue">True</font>  or <font color="blue">True</font>  | <font color="blue">True</font> 
 <font color="blue">True</font>  or <font color="blue">False</font> | <font color="blue">True</font> 
 <font color="blue">False</font> or <font color="blue">True</font>  | <font color="blue">True</font> 
-<font color="blue">False</font>  and <font color="blue">False</font> | <font color="blue">False</font>
+<font color="blue">False</font>  or <font color="blue">False</font> | <font color="blue">False</font>
 
 Para resumir, AND (e) requer que ambas as expressões booleanas sejam verdadeiras, enquanto OR (ou) requer apenas que uma das duas expressões booleanas seja verdadeira. Aqui estão mais alguns exemplos:
 

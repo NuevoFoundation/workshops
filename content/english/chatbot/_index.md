@@ -3,6 +3,10 @@ title: "Create your own chatbot"
 description: "An introductory guide to chatbots"
 date: 2026-04-25T00:00:00-07:00
 prereq: "email"
+download: ""
+draft: false
+alwaysopen: false
+icon: "fas fa-code"
 language: "no-code"
 topics: ["ai"]
 difficulties: ["beginner"]
@@ -10,6 +14,7 @@ download: ""
 draft: false
 icon: "fas fa-code"
 ---
+
 ## Introduction
 In this workshop, you will learn how to create your own chatbot. By the end of the workshop, you will have a chatbot that can have a simple conversation with the user. You will learn how to use AIML, a language for creating chatbots. You will also learn how to use Pandorabots, a platform for hosting chatbots.
 

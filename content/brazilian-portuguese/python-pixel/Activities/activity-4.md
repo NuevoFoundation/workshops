@@ -1,6 +1,6 @@
 ---
 title: "Atividade 4: Crie um Filtro Básico"
-date: 2020-09-08T00:00:00Z
+date: 2026-04-25T00:00:00-07:00
 prereq: "Fundamentos de Python, Pixels em Python: Cores e Pixels, Manipulação de Imagens em Python: Abrir uma imagem"
 difficulties: ["intermediate"]
 weight: 4
@@ -13,7 +13,7 @@ Agora que entendemos melhor sobre pixels e imagens, podemos começar a aprender 
 
 ### Exemplo de filtro azul
 
-<img src="../../media/cat.png" width=50%>  
+<img src="../../media/cat.png" alt="Imagem original do gato" width="50%">  
 Queremos adicionar um filtro azul no gatinho fofo acima. Vamos ver como fazer isso:
 
 ```python
@@ -34,7 +34,7 @@ img.save("Mycat.png")
 ```
 
 Uau! Aqui está o nosso gato com o filtro azul aplicado.  
-<img src="../../media/bluefiltercat.png" width=50%>
+<img src="../../media/bluefiltercat.png" alt="Imagem do gato com filtro azul aplicado" width="50%">
 
 {{% notice tip %}}
 Como isso funciona? Vamos olhar o loop:
