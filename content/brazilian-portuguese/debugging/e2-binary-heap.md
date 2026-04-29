@@ -1,6 +1,6 @@
 ---
 title: "Exercício 2 - Implementação de Heap Binário"
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 10
 draft: false
 ---

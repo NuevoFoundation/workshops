@@ -2,7 +2,7 @@
 title: "Activity 3 - Displaying Clothing Samples"
 date: 2020-09-09T16:19:17-07:00
 prereq: "Python Basics: Functions- Built in Functions, Functions from libraries; Data Types- Strings, Numbers, Reading from Console; Data Structures- Lists; Loops- For Loops"
-difficulty: Intermediate
+difficulties: ["intermediate"]
 weight: 5
 draft: false
 ---

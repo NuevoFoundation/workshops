@@ -1,6 +1,6 @@
 ---
 title: "Step 2 - Fixing the problem"
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 7
 draft: false
 ---

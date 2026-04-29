@@ -2,7 +2,7 @@
 title: "Starting up the Virtual Machine"
 description: "Continuing the introductory guide to using virtual machines"
 date: 2022-09-23
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 3
 ---
 

@@ -3,7 +3,7 @@ title: "Actividad 2: Aprende el comando WHERE"
 description: "Aprende el comando WHERE"
 date: 2020-07-16
 prereq: "Comando SELECT"
-difficulty: "Principiante"
+difficulties: ["beginner"]
 draft: false
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->

@@ -1,11 +1,13 @@
 ---
 title: "머신 러닝: 선형 회귀"
 description: "다양한 현상을 어떻게 예측하는지 알아보기."
-difficulty: "고급"
 prereq: "파이썬"
 icon: ""
 draft: false
 weight: 0
+language: "python"
+topics: ["ai"]
+difficulties: ["advanced"]
 ---
 
 이렇게 어려운 내용을 배우고자 하다니 대단해요! 하지만 걱정 말아요. 이해하기 쉽게 친절히 알려 줄게요. 이 워크숍에서는 머신 러닝에 대한 기초를 소개하고 머신 러닝이 가진 잠재력을 이해할 수 있도록 도와줍니다. 

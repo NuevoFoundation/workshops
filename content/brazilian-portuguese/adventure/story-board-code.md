@@ -3,7 +3,7 @@ title: "Seção 2: Transferindo o Story Board para o Código!"
 date: 2019-07-23T11:45:38-07:00
 draft: false
 weight: 3
-difficulty: Intermediate
+difficulties: ["intermediate"]
 prereq: "Noções básicas de Python - Escrever no Console (Print), Ler do Console, Strings, Variáveis, Declarações condicionais"
 ---
 

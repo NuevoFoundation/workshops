@@ -1,0 +1,38 @@
+# Controlled vocabularies for the homepage workshop explorer.
+# Keys are canonical tokens stored in each workshop's _index.md frontmatter.
+# Display names are localized via i18n keys of the form `tax.<dimension>.<key>`.
+# Order is the presentation order for filter chips and group headings.
+
+difficulties:
+  - beginner
+  - intermediate
+  - advanced
+
+languages:
+  - blocks
+  - python
+  - javascript
+  - java
+  - csharp
+  - cpp
+  - c
+  - html-css
+  - sql
+  - kusto
+  - arduino
+  - linux
+  - no-code
+
+topics:
+  - programming-basics
+  - games
+  - web
+  - ai
+  - cybersecurity
+  - data
+  - hardware
+  - music
+  - graphics
+  - mobile
+  - engineering
+  - tools

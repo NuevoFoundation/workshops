@@ -2,7 +2,7 @@
 title: "Usando Máquinas Virtuais - Parte 1"
 description: "Um guia introdutório sobre máquinas virtuais"
 date: 2022-09-21
-difficulty: "Intermediário"
+difficulties: ["intermediate"]
 weight: 1
 ---
 

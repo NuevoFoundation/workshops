@@ -1,6 +1,6 @@
 ---
 title: "Uma Visão Geral da Depuração"
-difficulty: "Intermediário"
+difficulties: ["intermediate"]
 weight: 2
 draft: false
 ---

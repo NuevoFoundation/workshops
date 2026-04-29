@@ -1,0 +1,142 @@
+{{- /*
+  workshop-filters.html — renders the homepage workshop explorer controls:
+  search input, chip groups (difficulty, language, topic), group-by select,
+  clear-filters button. State is managed by workshop-explorer.js.
+
+  Vocabularies come from site.Data.taxonomy; display names are i18n keys of the
+  form `tax.<dimension>.<key>` (see themes/docdock/i18n/*.toml). Icons are
+  Font Awesome 6 classes (already loaded site-wide).
+*/ -}}
+{{- $tax := site.Data.taxonomy -}}
+
+{{- $diffIcons := dict
+  "beginner"     "fa-seedling"
+  "intermediate" "fa-leaf"
+  "advanced"     "fa-fire"
+-}}
+
+{{- $langIcons := dict
+  "blocks"     "fa-cubes"
+  "python"     "fa-python"
+  "javascript" "fa-js"
+  "java"       "fa-java"
+  "csharp"     "fa-hashtag"
+  "cpp"        "fa-c"
+  "c"          "fa-c"
+  "html-css"   "fa-html5"
+  "sql"        "fa-database"
+  "kusto"      "fa-magnifying-glass-chart"
+  "arduino"    "fa-microchip"
+  "linux"      "fa-linux"
+  "no-code"    "fa-mouse-pointer"
+-}}
+{{- $langIconStyles := dict
+  "python"     "fab"
+  "javascript" "fab"
+  "java"       "fab"
+  "html-css"   "fab"
+  "linux"      "fab"
+-}}
+
+{{- $topicIcons := dict
+  "programming-basics" "fa-code"
+  "games"              "fa-gamepad"
+  "web"                "fa-globe"
+  "ai"                 "fa-robot"
+  "cybersecurity"      "fa-shield-halved"
+  "data"               "fa-chart-column"
+  "hardware"           "fa-microchip"
+  "music"              "fa-music"
+  "graphics"           "fa-palette"
+  "mobile"             "fa-mobile-screen"
+  "engineering"        "fa-gears"
+  "tools"              "fa-screwdriver-wrench"
+-}}
+
+<section class="workshop-explorer-filters is-collapsed" aria-label="{{ i18n "workshop-explorer-filters-aria" }}">
+  <div class="we-header">
+    <button type="button" class="we-toggle" id="we-toggle"
+            aria-expanded="false" aria-controls="we-body">
+      <i class="fas fa-sliders" aria-hidden="true"></i>
+      <span class="we-toggle-label">{{ i18n "workshop-explorer-filters-title" }}</span>
+      <span class="we-active-count" hidden aria-hidden="true">0</span>
+      <i class="fas fa-chevron-down we-toggle-chevron" aria-hidden="true"></i>
+    </button>
+  </div>
+
+  <div class="we-search">
+    <label for="we-search-input" class="sr-only">{{ i18n "workshop-explorer-search" }}</label>
+    <input type="search" id="we-search-input" class="we-search-input"
+           placeholder="{{ i18n "workshop-explorer-search" }}"
+           autocomplete="off" spellcheck="false" />
+  </div>
+
+  <div class="we-body" id="we-body" hidden>
+  <div class="we-chip-group" data-dimension="difficulties" role="group"
+       aria-label="{{ i18n "tax.dim.difficulty" }}">
+    <span class="we-chip-group-label">
+      <i class="fas fa-gauge-high" aria-hidden="true"></i>
+      {{ i18n "tax.dim.difficulty" }}
+    </span>
+    {{- range $tax.difficulties }}
+    {{- $icon := index $diffIcons . | default "fa-circle" }}
+    <button type="button" class="we-chip" data-value="{{ . }}" aria-pressed="false">
+      <i class="fas {{ $icon }}" aria-hidden="true"></i>
+      <span>{{ i18n (printf "tax.difficulty.%s" .) }}</span>
+    </button>
+    {{- end }}
+  </div>
+
+  <div class="we-chip-group" data-dimension="language" role="group"
+       aria-label="{{ i18n "tax.dim.language" }}">
+    <span class="we-chip-group-label">
+      <i class="fas fa-code" aria-hidden="true"></i>
+      {{ i18n "tax.dim.language" }}
+    </span>
+    {{- range $tax.languages }}
+    {{- $icon := index $langIcons . | default "fa-code" }}
+    {{- $style := index $langIconStyles . | default "fas" }}
+    <button type="button" class="we-chip" data-value="{{ . }}" aria-pressed="false">
+      <i class="{{ $style }} {{ $icon }}" aria-hidden="true"></i>
+      <span>{{ i18n (printf "tax.language.%s" .) }}</span>
+    </button>
+    {{- end }}
+  </div>
+
+  <div class="we-chip-group" data-dimension="topics" role="group"
+       aria-label="{{ i18n "tax.dim.topic" }}">
+    <span class="we-chip-group-label">
+      <i class="fas fa-tag" aria-hidden="true"></i>
+      {{ i18n "tax.dim.topic" }}
+    </span>
+    {{- range $tax.topics }}
+    {{- $icon := index $topicIcons . | default "fa-tag" }}
+    <button type="button" class="we-chip" data-value="{{ . }}" aria-pressed="false">
+      <i class="fas {{ $icon }}" aria-hidden="true"></i>
+      <span>{{ i18n (printf "tax.topic.%s" .) }}</span>
+    </button>
+    {{- end }}
+  </div>
+
+  <div class="we-controls">
+    <label class="we-group-label" for="we-groupby">
+      <i class="fas fa-layer-group" aria-hidden="true"></i>
+      {{ i18n "workshop-explorer-group-by" }}
+    </label>
+    <select id="we-groupby" class="we-group-select">
+      <option value="none">{{ i18n "workshop-explorer-group-none" }}</option>
+      <option value="difficulties">{{ i18n "tax.dim.difficulty" }}</option>
+      <option value="language">{{ i18n "tax.dim.language" }}</option>
+      <option value="topics">{{ i18n "tax.dim.topic" }}</option>
+    </select>
+
+    <button type="button" class="we-clear" id="we-clear">
+      <i class="fas fa-xmark" aria-hidden="true"></i>
+      {{ i18n "workshop-explorer-clear" }}
+    </button>
+
+    <span class="we-result-count" role="status" aria-live="polite"
+          data-template="{{ i18n "workshop-explorer-count" }}"></span>
+  </div>
+  </div>
+</section>

@@ -1,7 +1,7 @@
 ---
 title: "Activity 3: Challenge: Design new elements"
 prereq: "Python Basics, Python Image Manipulation: Open an Image, Python Pixels: Colors and Pixels"
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 date: 2020-09-08T00:00:00Z
 weight: 3
 draft: false

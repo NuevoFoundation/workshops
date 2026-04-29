@@ -1,13 +1,13 @@
 ---
 title: "Solving Your Problem"
-date: 2021-03-13T14:17:07.42-07:00
+date: 2026-04-25T00:00:00-07:00
 draft: false
 weight: 4
 ---
 
 To run an optimization problem in Excel, you need to enable the add-on called “Solver.” Follow the link below for details or see the image below. 
 
- <img src= ../img/Download_Excel_solver.jpg alt="Screenshot of steps to download Excel solver" width="800" height="600">
+ <img src="../img/Download_Excel_solver.jpg" alt="Screenshot of steps to download Excel solver" width="800" height="600">
 
 Click [here](
 https://support.microsoft.com/en-us/office/load-the-solver-add-in-in-excel-612926fc-d53b-46b4-872c-e24772f078ca) for more help if you are having trouble.

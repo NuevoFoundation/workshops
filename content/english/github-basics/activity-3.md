@@ -1,7 +1,7 @@
 ---
 title: "Room 3: The Pull Request Portal"
 description: "Learn to push changes and create a pull request."
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 3
 ---
 

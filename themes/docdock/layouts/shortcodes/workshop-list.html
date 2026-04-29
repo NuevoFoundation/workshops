@@ -3,6 +3,12 @@
 {{- $depth :=  .Get "depth" | default 1 }}
 {{- $withDescription :=  .Get "description" | default false }}
 {{- $sortTerm :=  .Get "sort" | default "Weight" }}
+{{- $interactive := eq (.Get "interactive" | default "false") "true" }}
+
+{{- if $interactive }}
+{{- partial "workshop-filters.html" . }}
+<div class="workshop-explorer" data-interactive="true">
+{{- end }}
 
 {{- .Scratch.Set "current" .Page }}
 
@@ -36,6 +42,11 @@
 	{{end}}
 </ul>
 
+{{- if $interactive }}
+<div class="workshop-explorer-empty" hidden>{{ i18n "workshop-explorer-empty" }}</div>
+</div>
+{{- end }}
+
 {{.Inner|safeHTML}}
 
 {{ define "workshop-childs" }}
@@ -43,7 +54,14 @@
 {{- if .Params.hidden }}
 {{- else}}
 
-<span class="workshop-button" onclick="location.href='{{.Permalink}}'">
+<span class="workshop-button" onclick="location.href='{{.Permalink}}'"
+	data-title="{{ .Title }}"
+	data-description="{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify }}{{ end }}"
+	data-language="{{ with .Params.language }}{{ . }}{{ else }}unspecified{{ end }}"
+	data-difficulties="{{ with .Params.difficulties }}{{ delimit . " " }}{{ end }}"
+	data-topics="{{ with .Params.topics }}{{ delimit . " " }}{{ end }}"
+	data-hidden="{{ with .Params.hidden }}true{{ else }}false{{ end }}">
+
 	{{- if hasPrefix $.style "h"}}
 		{{- $num := sub ( int (trim $.style "h") ) 1 }}
 		{{- $numn := add $num $.count }}

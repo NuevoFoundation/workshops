@@ -2,11 +2,13 @@
 title: "Python: Crie Seu Próprio Jogo de Aventura"
 description: "Um guia introdutório sobre como criar um jogo de aventura em Python"
 date: 2019-07-23T11:45:38-07:00
-difficulty: Intermediário
 prereq: "Noções básicas de Python - Escrever no console (Print), Ler do console, Strings, Variáveis, Declarações condicionais"
 download: ""
 draft: false
 icon: "fab fa-python"
+language: "python"
+topics: ["games"]
+difficulties: ["intermediate"]
 ---
 
 ## O Poder das Histórias

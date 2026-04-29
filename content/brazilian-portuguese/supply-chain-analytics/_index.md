@@ -1,12 +1,14 @@
 ---
 title: "Análise de Supply Chain"
 description: "Aprenda como usar conceitos STEM, como otimização, para ajudar a administrar sua biscoiteria!"
-date: 2022-01-19T14:04:59.61-07:00
+date: 2026-04-25T00:00:00-07:00
 prereq: "Excel; Excel Solver Add-In"
-difficulty: "Intermediário"
 download: ""
 icon: "fas fa-link"
 draft: false
+language: "no-code"
+topics: ["data", "engineering"]
+difficulties: ["intermediate"]
 ---
 
 ## O que é uma cadeia de suprimentos (Supply Chain)?
@@ -14,7 +16,7 @@ draft: false
 > Uma cadeia de suprimentos move um produto ou serviço do fornecedor ao cliente. São as pessoas, atividades, informações e recursos que movem o produto.
 
 <figure>
-<img src= img/sandwich.png alt="Diagrama que ilustra as várias etapas da cadeia de abastecimento para fazer um sanduíche, incluindo fazenda, fábrica e entrega" width="700" height="450">
+<img src="img/sandwich.png" alt="Diagrama que ilustra as várias etapas da cadeia de abastecimento para fazer um sanduíche, incluindo fazenda, fábrica e entrega" width="700" height="450">
 <figcaption align = "center"><b>https://newsela.com/read/supply-chain-shortages-holidays/id/2001025129/</b></figcaption>
 </figure>
 
@@ -32,7 +34,7 @@ Exemplo: Seus pais preparam um sanduíche gostoso para você levar para a escola
 Isto pode parecer simples. Afinal, quando você está com vontade de comer um sanduíche, tudo o que o cliente precisa fazer é ir até a loja e escolher um na prateleira. Você pode não pensar em todas as coisas que acontecem nos bastidores – e há muitas delas. Aqui estão alguns exemplos de funções:
 
 <figure>
-<<img src= img/jobs.jpg alt="Imagem que mostra ícones de diferentes trabalhos, como fabricação, vendas e entrega, necessários para fazer funcionar uma cadeia de suprimentos" width="700" height="300">>
+<img src="img/jobs.jpg" alt="Imagem que mostra ícones de diferentes trabalhos, como fabricação, vendas e entrega, necessários para fazer funcionar uma cadeia de suprimentos" width="700" height="300">
 <figcaption align = "center"><b>Tipos de trabalhos: previsão, fabricação, abastecimento, negociação, gerenciamento de armazém, entrega <br /><br />
 https://creativemarket.com/falara/</b></figcaption>
 </figure>

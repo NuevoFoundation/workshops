@@ -1,7 +1,7 @@
 ---
 title: "Room 9: The Security Stronghold"
 description: "Fortify your repository with GitHub's security features."
-difficulty: "Advanced"
+difficulties: ["advanced"]
 weight: 9
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Room 5: The Conflict Canyon"
 description: "Learn to resolve merge conflicts and sync with the upstream repository."
-difficulty: "Advanced"
+difficulties: ["advanced"]
 weight: 5
 ---
 

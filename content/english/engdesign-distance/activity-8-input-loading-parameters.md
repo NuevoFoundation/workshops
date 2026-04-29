@@ -1,6 +1,6 @@
 ---
 title: "Activity 8 - Input Loading parameters"
-difficulty: "Beginner"
+difficulties: ["beginner"]
 weight: 8
 draft: true
 ---

@@ -1,13 +1,13 @@
 ---
 title: "문제 해결하기"
-date: 2021-03-13T14:17:07.42-07:00
+date: 2026-04-25T00:00:00-07:00
 draft: false
 weight: 4
 ---
 
 Excel에서 최적화 문제를 실행하려면 “Solver”라는 추가 기능을 활성화해야 해요. 자세한 내용은 아래 링크나 이미지를 참조하세요.
 
- <img src= ../img/Download_Excel_solver.jpg alt="Screenshot of steps to download Excel solver" width="800" height="600">
+ <img src="../img/Download_Excel_solver.jpg" alt="Screenshot of steps to download Excel solver" width="800" height="600">
 
 문제를 해결하는 방법이 어려우면, [이곳](https://support.microsoft.com/en-us/office/load-the-solver-add-in-in-excel-612926fc-d53b-46b4-872c-e24772f078ca)에서 도움을 받을 수 있어요.
 

@@ -3,7 +3,7 @@ title: "Activity 11: Learn the GROUP BY command"
 description: "Learn GROUP BY command"
 date: 2020-07-06
 prereq: "SELECT Command, WHERE Command"
-difficulty: "Beginner"
+difficulties: ["beginner"]
 draft: false
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->

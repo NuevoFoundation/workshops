@@ -2,7 +2,7 @@
 title: "Etapa 2: Comece o projeto"
 description: "Conceitos básicos de Machine Learning"
 prereq: "nenhum"
-difficulty: "Intermediário"
+difficulties: ["intermediate"]
 draft: false
 weight: 2
 ---

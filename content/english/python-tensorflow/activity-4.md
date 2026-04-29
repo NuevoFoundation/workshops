@@ -2,7 +2,7 @@
 title: "Activity 4 - Training the Model"
 date: 2020-09-09T16:19:17-07:00
 prereq: "Python Basics: Functions- Built in Functions, Functions from libraries; Data Types- Strings, Numbers, Reading from Console; Data Structures- Lists, Tuples, Sets"
-difficulty: Intermediate
+difficulties: ["intermediate"]
 weight: 7
 draft: false
 ---

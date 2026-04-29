@@ -1,7 +1,7 @@
 ---
 title: "Room 7: The Automation Alley"
 description: "Harness the power of GitHub Actions to automate your workflow."
-difficulty: "Advanced"
+difficulties: ["advanced"]
 weight: 7
 ---
 

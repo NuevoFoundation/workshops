@@ -3,7 +3,7 @@ title: "Atividade 9: Aprenda o Comando AVG"
 description: "Aprenda o Comando AVG"
 date: 2020-07-08
 prereq: "Comando SELECT, Comando WHERE"
-difficulty: "Iniciante"
+difficulties: ["beginner"]
 draft: false
 ---
 <!-- Links para javascript e CSS necessários para lógica suspensa -->
