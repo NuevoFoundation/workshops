@@ -17,7 +17,7 @@ print('The sorted arr is :',arr)
 ```
 
 # find()
-Returns the first occurence of the input(pattern) to the find() provided in the given string.
+Returns the first occurrence of the input(pattern) to the find() provided in the given string.
 ```python
 str1 = "Hello World"
 index = str1.find("World")

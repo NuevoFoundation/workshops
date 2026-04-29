@@ -9,7 +9,7 @@ We will be using AIML to create our chatbot. AIML stands for **Artificial Intell
 <img src="../img/chat_Alice.png" alt="" width="20%" style="" />
 
 ## Pandorabots
-Go to [https://www.pandorabots.com/](https://www.pandorabots.com/) and click on **Sign Up**. Enter an email and password to create an account. Alternatively, you can sign up using an account from Google, Facebook, Twitter, or Github. If prompted, choose the free trial option.
+Go to [https://www.pandorabots.com/](https://www.pandorabots.com/) and click on **Sign Up**. Enter an email and password to create an account. Alternatively, you can sign up using an account from Google, Facebook, Twitter, or GitHub. If prompted, choose the free trial option.
 
 ## Create a new bot
 Once you have signed up, you should see a page that looks like this:
