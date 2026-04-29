@@ -2,7 +2,7 @@
 title: "Activity 3: Challenge: Design new elements"
 prereq: "Python Basics, Python Image Manipulation: Open an Image, Python Pixels: Colors and Pixels"
 difficulties: ["intermediate"]
-date: 2020-09-08T00:00:00Z
+date: 2026-04-25T00:00:00-07:00
 weight: 3
 draft: false
 ---
@@ -38,7 +38,7 @@ for y in range(5, 25):
 img.save('pixel-activity3.png')
 ```
 output:
-![alt text](../../media/Activity3_ex.png "image showing activity3 example")
+<img src="../../media/Activity3_ex.png" alt="Image showing activity 3 example" width="60%">
 
 
 ### Design your own element!

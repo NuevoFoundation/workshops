@@ -1,6 +1,6 @@
 ---
 title: "Atividade 2: Modifique seu quadro de cores"
-date: 2020-07-11T00:00:00Z
+date: 2026-04-25T00:00:00-07:00
 prereq: "Fundamentos de Python, Pixels em Python: Cores e Pixels, Manipulação de Imagens em Python: Abrir uma imagem"
 difficulties: ["intermediate"]
 weight: 2
@@ -27,11 +27,11 @@ img.save('pil_red.png')
 
 Esta é a imagem antes de adicionar a diagonal.  
 `imagem mostrando o primeiro exemplo com while`  
-![alt text](../../media/whileloopbefore.png "imagem mostrando o primeiro exemplo com while")
+<img src="../../media/whileloopbefore.png" alt="Imagem mostrando o primeiro exemplo com while" width="60%">
 
 Esta é a imagem depois de adicionar a diagonal.  
 `imagem mostrando o primeiro exemplo com while`  
-![alt text](../../media/whileloopafter.png "imagem mostrando o primeiro exemplo com while")
+<img src="../../media/whileloopafter.png" alt="Imagem mostrando resultado do while loop" width="60%">
 
 ## Exemplo dois: Faça um retângulo
 
@@ -47,11 +47,11 @@ img.save('pil_redmodified.png')
 
 Esta é a imagem antes de adicionar o retângulo.  
 `imagem mostrando o primeiro exemplo com for`  
-![alt text](../../media/whileloopbefore.png "imagem mostrando o primeiro exemplo com for")
+<img src="../../media/whileloopbefore.png" alt="Imagem mostrando o primeiro exemplo com for" width="60%">
 
 Esta é a imagem depois de adicionar o retângulo.  
 `imagem mostrando o primeiro exemplo com for`  
-![alt text](../../media/forloopafter.png "imagem mostrando o primeiro exemplo com for")
+<img src="../../media/forloopafter.png" alt="Imagem mostrando resultado do for loop" width="60%">
 
 ## Modifique seu próprio quadro de cores!
 
