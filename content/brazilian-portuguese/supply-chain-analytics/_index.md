@@ -3,10 +3,12 @@ title: "Análise de Supply Chain"
 description: "Aprenda como usar conceitos STEM, como otimização, para ajudar a administrar sua biscoiteria!"
 date: 2026-04-25T00:00:00-07:00
 prereq: "Excel; Excel Solver Add-In"
-difficulty: "Intermediário"
 download: ""
 icon: "fas fa-link"
 draft: false
+language: "no-code"
+topics: ["data", "engineering"]
+difficulties: ["intermediate"]
 ---
 
 ## O que é uma cadeia de suprimentos (Supply Chain)?

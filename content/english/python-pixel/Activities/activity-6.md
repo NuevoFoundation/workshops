@@ -1,7 +1,7 @@
 ---
 title: "Activity 6: Crop Image"
 prereq: "Python Basics, Python Image Manipulation: Open an Image, Python Pixel: Colors and Pixels"
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 date: 2020-09-08T00:00:00Z
 weight: 6
 draft: false

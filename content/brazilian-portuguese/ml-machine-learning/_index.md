@@ -1,11 +1,13 @@
 ---
 title: "Machine Learning: Regressão Linear"
 description: "Entendendo como prever coisas."
-difficulty: "Avançado"
 prereq: "Python"
 icon: ""
 draft: false
 weight: 0
+language: "python"
+topics: ["ai"]
+difficulties: ["advanced"]
 ---
 
 Uau! Olha só você querendo mergulhar nas coisas mais difíceis.  

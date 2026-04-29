@@ -1,6 +1,6 @@
 ---
 title: "Passo 1 - Encontrando o problema (Parte 3)"
-difficulty: "Intermediário"
+difficulties: ["intermediate"]
 weight: 5
 draft: false
 ---

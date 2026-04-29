@@ -7,10 +7,19 @@
             <span class="metadata-value">{{ . }} </span>
         </div>
         {{ end }}
-        {{ with .Param "difficulty" }}
+        {{ with .Param "difficulties" }}
         <div class="metadata-row">
             <span class="metadata-label">{{ i18n "difficulty" }}</span>
-            <span class="metadata-value">{{ . }}</span>
+            <span class="metadata-value">
+                {{- $sep := "" -}}
+                {{- range . -}}
+                    {{- $sep -}}
+                    {{- $key := printf "tax.difficulty.%s" . -}}
+                    {{- $label := i18n $key -}}
+                    {{- if $label -}}{{ $label }}{{- else -}}{{ . }}{{- end -}}
+                    {{- $sep = " / " -}}
+                {{- end -}}
+            </span>
         </div>
         {{ end }}
         {{ with .Param "download" }}

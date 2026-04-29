@@ -3,10 +3,12 @@ title: "KC7: Jogo do Defensor Cibernético"
 description: "KC7 é um jogo que ensina habilidades reais de cibersegurança usadas por Defensores Cibernéticos profissionais"
 date: 2023-02-01T13:24:17-07:00
 prereq: "Nenhum"
-difficulty: "Advanced"
 draft: false
 icon: "fas fa-database"
 weight: 131
+language: "kusto"
+topics: ["cybersecurity", "data"]
+difficulties: ["advanced"]
 ---
 
 ## Introdução: Aprenda a Pegar o Hacker!

@@ -2,7 +2,7 @@
 title: "Atividade 2: Modifique seu quadro de cores"
 date: 2020-07-11T00:00:00Z
 prereq: "Fundamentos de Python, Pixels em Python: Cores e Pixels, Manipulação de Imagens em Python: Abrir uma imagem"
-difficulty: "Intermediário"
+difficulties: ["intermediate"]
 weight: 2
 draft: false
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Passo 2 - Corrigindo o problema"
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 7
 draft: false
 ---

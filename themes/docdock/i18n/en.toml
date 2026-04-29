@@ -86,3 +86,124 @@ other = "Workshop type:"
 # menu.html
 [workshop-dashboard]
 other = "Workshop Dashboard"
+
+# BEGIN workshop-explorer (auto-generated)
+
+[workshop-explorer-filters-aria]
+other = "Filter and group workshops"
+
+[workshop-explorer-filters-title]
+other = "Filters"
+
+[workshop-explorer-search]
+other = "Search workshops…"
+
+[workshop-explorer-clear]
+other = "Clear filters"
+
+[workshop-explorer-group-by]
+other = "Group by"
+
+[workshop-explorer-group-none]
+other = "None"
+
+[workshop-explorer-empty]
+other = "No workshops match your filters."
+
+[workshop-explorer-count]
+other = "{n} workshops"
+
+[tax.dim.difficulty]
+other = "Difficulty"
+
+[tax.dim.language]
+other = "Language"
+
+[tax.dim.topic]
+other = "Topic"
+
+[tax.difficulty.beginner]
+other = "Beginner"
+
+[tax.difficulty.intermediate]
+other = "Intermediate"
+
+[tax.difficulty.advanced]
+other = "Advanced"
+
+[tax.language.blocks]
+other = "Blocks"
+
+[tax.language.python]
+other = "Python"
+
+[tax.language.javascript]
+other = "JavaScript"
+
+[tax.language.java]
+other = "Java"
+
+[tax.language.csharp]
+other = "C#"
+
+[tax.language.cpp]
+other = "C++"
+
+[tax.language.c]
+other = "C"
+
+[tax.language.html-css]
+other = "HTML & CSS"
+
+[tax.language.sql]
+other = "SQL"
+
+[tax.language.kusto]
+other = "Kusto (KQL)"
+
+[tax.language.arduino]
+other = "Arduino"
+
+[tax.language.linux]
+other = "Linux"
+
+[tax.language.no-code]
+other = "No-code"
+
+[tax.topic.programming-basics]
+other = "Programming Basics"
+
+[tax.topic.games]
+other = "Games"
+
+[tax.topic.web]
+other = "Web"
+
+[tax.topic.ai]
+other = "AI & Machine Learning"
+
+[tax.topic.cybersecurity]
+other = "Cybersecurity"
+
+[tax.topic.data]
+other = "Data"
+
+[tax.topic.hardware]
+other = "Hardware"
+
+[tax.topic.music]
+other = "Music"
+
+[tax.topic.graphics]
+other = "Graphics"
+
+[tax.topic.mobile]
+other = "Mobile"
+
+[tax.topic.engineering]
+other = "Engineering"
+
+[tax.topic.tools]
+other = "Tools"
+
+# END workshop-explorer

@@ -3,7 +3,7 @@ title: "Atividade 4 - Adicione efeitos à sua música"
 description: "Configurando fones de ouvido"
 weight: 8
 prereq: "Python: Fundamentos. Impressão, comentários, funções"
-difficulty: "Intermediário"
+difficulties: ["intermediate"]
 draft: false
 ---
 

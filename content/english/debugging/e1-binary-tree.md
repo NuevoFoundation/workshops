@@ -1,6 +1,6 @@
 ---
 title: "Exercise 1 - Binary Tree Implementation"
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 9
 draft: false
 ---

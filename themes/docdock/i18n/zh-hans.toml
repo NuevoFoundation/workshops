@@ -83,3 +83,124 @@ other = "暗示"
 # menu.html
 [workshop-dashboard]
 other = "研讨会仪表板"
+
+# BEGIN workshop-explorer (auto-generated)
+
+[workshop-explorer-filters-aria]
+other = "筛选并分组工作坊"
+
+[workshop-explorer-filters-title]
+other = "筛选器"
+
+[workshop-explorer-search]
+other = "搜索工作坊…"
+
+[workshop-explorer-clear]
+other = "清除筛选"
+
+[workshop-explorer-group-by]
+other = "分组方式"
+
+[workshop-explorer-group-none]
+other = "无"
+
+[workshop-explorer-empty]
+other = "没有符合筛选条件的工作坊。"
+
+[workshop-explorer-count]
+other = "{n} 个工作坊"
+
+[tax.dim.difficulty]
+other = "难度"
+
+[tax.dim.language]
+other = "编程语言"
+
+[tax.dim.topic]
+other = "主题"
+
+[tax.difficulty.beginner]
+other = "入门"
+
+[tax.difficulty.intermediate]
+other = "中级"
+
+[tax.difficulty.advanced]
+other = "高级"
+
+[tax.language.blocks]
+other = "Blocks"
+
+[tax.language.python]
+other = "Python"
+
+[tax.language.javascript]
+other = "JavaScript"
+
+[tax.language.java]
+other = "Java"
+
+[tax.language.csharp]
+other = "C#"
+
+[tax.language.cpp]
+other = "C++"
+
+[tax.language.c]
+other = "C"
+
+[tax.language.html-css]
+other = "HTML & CSS"
+
+[tax.language.sql]
+other = "SQL"
+
+[tax.language.kusto]
+other = "Kusto (KQL)"
+
+[tax.language.arduino]
+other = "Arduino"
+
+[tax.language.linux]
+other = "Linux"
+
+[tax.language.no-code]
+other = "无代码"
+
+[tax.topic.programming-basics]
+other = "编程基础"
+
+[tax.topic.games]
+other = "游戏"
+
+[tax.topic.web]
+other = "网页"
+
+[tax.topic.ai]
+other = "人工智能与机器学习"
+
+[tax.topic.cybersecurity]
+other = "网络安全"
+
+[tax.topic.data]
+other = "数据"
+
+[tax.topic.hardware]
+other = "硬件"
+
+[tax.topic.music]
+other = "音乐"
+
+[tax.topic.graphics]
+other = "图形"
+
+[tax.topic.mobile]
+other = "移动"
+
+[tax.topic.engineering]
+other = "工程"
+
+[tax.topic.tools]
+other = "工具"
+
+# END workshop-explorer

@@ -74,6 +74,17 @@
   font-family: "Space Mono";
 }
 
+:root {
+  --topnav-height: 72px;
+}
+
+.site-topnav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #ffffff;
+}
+
 article > aside {
   /* background-color: #f9f9f9; */
   bottom: 0;
@@ -87,12 +98,12 @@ article > aside {
   flex-direction: column;
   padding: 2rem 0rem 1rem 0rem;
   width: 25rem;
-  max-height: 100vh;
+  max-height: calc(100vh - var(--topnav-height));
   overflow-y: auto;
   /* align-self: flex-start is needed so that position: sticky works  */
   align-self: flex-start;
   position: sticky;
-  top: 0px;
+  top: var(--topnav-height);
   background-color: #f1f6f1;
 }
 article > aside .menu {
@@ -149,7 +160,13 @@ article > aside .menu .dd-item div * {
 article > aside .menu .dd-item div i.read-icon {
   display: none;
 }
-article > aside .menu .dd-item div i.category-icon {
+article > aside .menu .dd-item div button.category-icon {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
   display: flex;
   align-items: start;
   justify-content: center;
@@ -172,12 +189,17 @@ article > aside .menu .dd-item div a:active {
   border-radius: 0.2rem;
   padding: 0 0rem;
 }
-article > aside .menu .dd-item div i.category-icon:active,
-article > aside .menu .dd-item div i.category-icon:focus,
-article > aside .menu .dd-item div i.category-icon:hover {
+article > aside .menu .dd-item div button.category-icon:active,
+article > aside .menu .dd-item div button.category-icon:focus,
+article > aside .menu .dd-item div button.category-icon:hover {
   background-color: #eee;
   border-radius: 0.2rem;
   padding: 0 0rem;
+}
+article > aside .menu .dd-item div button.category-icon:focus-visible {
+  outline: 2px solid #4A90D9;
+  outline-offset: 1px;
+  border-radius: 0.2rem;
 }
 article > aside .menu .dd-item li {
   border-left: 1px solid #eee;
@@ -221,11 +243,13 @@ article > aside .menu .dd-item.back-to-dashboard div a {
   flex-basis: 20px !important;
 }
 
-article > aside .menu .dd-item.back-to-dashboard div a i.category-icon {
+article > aside .menu .dd-item.back-to-dashboard div a i.back-nav-icon {
   display: flex;
   align-items: start;
   justify-content: center;
   order: 1 !important;
+  width: 20px;
+  cursor: pointer;
 }
 
 article > aside .menu .dd-item.back-to-dashboard div a {
@@ -1049,13 +1073,9 @@ div.notices.help {
 }
 
 ul.children.children-card {
-  flex-wrap: wrap;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.2rem;
 }
 ul.children.children-card > .workshop-button {
   position: relative;
@@ -1063,14 +1083,9 @@ ul.children.children-card > .workshop-button {
   cursor: pointer;
   text-align: left;
   white-space: normal;
-  -webkit-box-flex: 1;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
   min-width: 0;
   min-height: 0;
-  width: 20%;
-  min-width: 250px;
-  margin: 1.2rem 1.2rem;
+  margin: 0;
   padding: 1.5rem 1.5rem 2rem 1.5rem;
   border: 0.3rem solid #000;
   border-radius: 5px;

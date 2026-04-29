@@ -2,7 +2,7 @@
 title: "Atividade 3 - Organize sua música usando funções"
 description: "Configurando fones de ouvido"
 prereq: "Python: Fundamentos. Impressão, comentários, funções"
-difficulty: "Intermediário"
+difficulties: ["intermediate"]
 weight: 7
 draft: false
 ---

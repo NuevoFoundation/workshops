@@ -2,7 +2,7 @@
 title: "Hora de crear"
 draft: false
 weight: 1
-difficulty: Intermedio
+difficulties: ["intermediate"]
 prereq: "Conceptos básicos de Python - Escritura en consola (imprimir), Lectura desde consola, Cadenas, Variables, Instrucciones condicionales"
 ---
 

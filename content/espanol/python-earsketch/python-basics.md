@@ -3,7 +3,7 @@ title: "Conceptos básicos de Python"
 description: "Conceptos básicos de Python"
 weight: 3
 prereq: "Python Basico"
-difficulty: "Principiante"
+difficulties: ["beginner"]
 draft: false
 ---
 ## Python basico

@@ -3,7 +3,7 @@ title: "Tutorial 1: Aprende los pasos básicos de un cadete"
 description: "aprende qué es una base de datos y SQL"
 date: 2020-07-26
 prereq: "none"
-difficulty: "Principiante"
+difficulties: ["beginner"]
 icon: ""
 draft: false
 ---

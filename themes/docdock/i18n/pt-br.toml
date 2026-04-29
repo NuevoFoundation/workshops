@@ -83,3 +83,124 @@ other = "Sugestão"
 # menu.html
 [workshop-dashboard]
 other = "Painel do minicursos"
+
+# BEGIN workshop-explorer (auto-generated)
+
+[workshop-explorer-filters-aria]
+other = "Filtrar e agrupar workshops"
+
+[workshop-explorer-filters-title]
+other = "Filtros"
+
+[workshop-explorer-search]
+other = "Buscar workshops…"
+
+[workshop-explorer-clear]
+other = "Limpar filtros"
+
+[workshop-explorer-group-by]
+other = "Agrupar por"
+
+[workshop-explorer-group-none]
+other = "Nenhum"
+
+[workshop-explorer-empty]
+other = "Nenhum workshop corresponde aos seus filtros."
+
+[workshop-explorer-count]
+other = "{n} workshops"
+
+[tax.dim.difficulty]
+other = "Dificuldade"
+
+[tax.dim.language]
+other = "Linguagem"
+
+[tax.dim.topic]
+other = "Tema"
+
+[tax.difficulty.beginner]
+other = "Iniciante"
+
+[tax.difficulty.intermediate]
+other = "Intermediário"
+
+[tax.difficulty.advanced]
+other = "Avançado"
+
+[tax.language.blocks]
+other = "Blocks"
+
+[tax.language.python]
+other = "Python"
+
+[tax.language.javascript]
+other = "JavaScript"
+
+[tax.language.java]
+other = "Java"
+
+[tax.language.csharp]
+other = "C#"
+
+[tax.language.cpp]
+other = "C++"
+
+[tax.language.c]
+other = "C"
+
+[tax.language.html-css]
+other = "HTML & CSS"
+
+[tax.language.sql]
+other = "SQL"
+
+[tax.language.kusto]
+other = "Kusto (KQL)"
+
+[tax.language.arduino]
+other = "Arduino"
+
+[tax.language.linux]
+other = "Linux"
+
+[tax.language.no-code]
+other = "Sem código"
+
+[tax.topic.programming-basics]
+other = "Fundamentos de programação"
+
+[tax.topic.games]
+other = "Jogos"
+
+[tax.topic.web]
+other = "Web"
+
+[tax.topic.ai]
+other = "IA e aprendizado de máquina"
+
+[tax.topic.cybersecurity]
+other = "Cibersegurança"
+
+[tax.topic.data]
+other = "Dados"
+
+[tax.topic.hardware]
+other = "Hardware"
+
+[tax.topic.music]
+other = "Música"
+
+[tax.topic.graphics]
+other = "Gráficos"
+
+[tax.topic.mobile]
+other = "Móvel"
+
+[tax.topic.engineering]
+other = "Engenharia"
+
+[tax.topic.tools]
+other = "Ferramentas"
+
+# END workshop-explorer

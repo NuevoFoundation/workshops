@@ -2,7 +2,7 @@
 title: "Atividade 1 - Importando a biblioteca TensorFlow e os conjuntos de dados"
 date: 2020-09-09T16:19:17-07:00
 prereq: "Fundamentos de Python: Funções - Funções integradas, Funções de bibliotecas; Tipos de Dados - Strings, Números, Leitura do console; Estruturas de Dados - Listas"
-difficulty: Intermediário
+difficulties: ["intermediate"]
 weight: 2
 draft: false
 ---

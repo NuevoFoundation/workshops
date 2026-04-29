@@ -1,6 +1,6 @@
 ---
 title: "Activity 4 - Structure of the code"
-difficulty: "Beginner"
+difficulties: ["beginner"]
 weight: 4
 draft: true
 ---

@@ -3,10 +3,12 @@ title: "나만의 챗봇 만들기"
 description: "챗봇 입문 가이드"
 date: 2020-02-21T11:45:38-07:00
 prereq: "이메일 주소"
-difficulty: "초급"
 download: ""
 draft: false
 icon: "fas fa-code"
+language: "no-code"
+topics: ["ai"]
+difficulties: ["beginner"]
 ---
 ## 소개
 이 워크숍에서는 자신만의 챗봇을 만드는 방법을 배우게 됩니다. 본 워크숍을 수료하면 사용자와 간단한 대화를 나눌 수 있는 챗봇을 만들게 될 것입니다. 또한 챗봇을 만들기 위한 언어인 AIML을 사용하는 방법을 배우고, Pandorabots라는 플랫폼을 사용하여 챗봇을 호스팅하는 방법도 익히게 됩니다.

@@ -3,11 +3,13 @@ title: "Minicurso básico de Linux"
 description: "Um guia introdutório sobre os comandos básicos do Linux."
 date: 2022-09-21
 prereq: "Nenhum"
-difficulty: "Intermediário"
 download: ""
 draft: false
 icon: "fas fa-microchip"
 weight: 1
+language: "linux"
+topics: ["tools"]
+difficulties: ["intermediate"]
 ---
 
 {{% notice warning %}}

@@ -2,7 +2,7 @@
 title: "Sección 2: ¡Pasar del diseño del guion (Story Board) al código!"
 draft: false
 weight: 3
-difficulty: Intermedio
+difficulties: ["intermediate"]
 prereq: "Conceptos básicos de Python - Escritura en consola (imprimir), Lectura desde consola, Cadenas, Variables, Instrucciones condicionales"
 ---
 

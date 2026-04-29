@@ -1,7 +1,7 @@
 ---
 title: "Room 10: The Deployment Den"
 description: "Learn to deploy your project using GitHub Pages."
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 10
 ---
 

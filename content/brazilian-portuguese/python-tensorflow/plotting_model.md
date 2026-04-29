@@ -2,7 +2,7 @@
 title: "Plotando o Modelo e Suas Previsões"
 date: 2020-09-09T16:19:17-07:00
 prereq: "Fundamentos de Python: Funções - Funções integradas, Funções de bibliotecas; Tipos de Dados - Strings, Números, Leitura do console; Estruturas de Dados - Listas, Tuplas, Conjuntos; Laços - For"
-difficulty: Intermediário
+difficulties: ["intermediate"]
 weight: 11
 draft: false
 ---

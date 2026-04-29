@@ -2,7 +2,7 @@
 title: "Construindo a Rede Neural"
 date: 2020-09-09T16:19:17-07:00
 prereq: "Fundamentos de Python: Funções - Funções integradas, Funções de bibliotecas; Tipos de Dados - Strings, Números, Leitura do console; Estruturas de Dados - Listas, Tuplas, Conjuntos"
-difficulty: Intermediário
+difficulties: ["intermediate"]
 weight: 6
 draft: false
 ---

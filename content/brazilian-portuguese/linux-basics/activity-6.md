@@ -2,7 +2,7 @@
 title: "Atividade 6 - Um arquivo corrompido"
 description: "Aprendendo sobre os commandos do Linux para procurar arquivos"
 date: 2022-09-21
-difficulty: "Intermediário"
+difficulties: ["intermediate"]
 weight: 9
 ---
 

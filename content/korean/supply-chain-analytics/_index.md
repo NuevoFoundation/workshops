@@ -1,12 +1,14 @@
 ---
 title: "공급망 분석"
 description: "STEM 개념인 최적화를 활용해 쿠키 가게를 효율적으로 운영하는 방법을 배워보세요!"
-date: 2026-04-25T00:00:00-07:00
+date: 2022-01-19T14:04:59.61-07:00
 prereq: "Excel; Excel Solver 추가 기능"
-difficulty: "중급"
 download: ""
 icon: "fa-link"
 draft: false
+language: "no-code"
+topics: ["data", "engineering"]
+difficulties: ["intermediate"]
 ---
 
 ## 공급망이란 무엇일까?
@@ -14,7 +16,7 @@ draft: false
 > 공급망은 제품이나 서비스를 공급자에서 소비자에게 이동시키는 과정을 말해요. 이는 제품을 이동시키는 데 필요한 사람들, 활동, 정보, 자원을 포함합니다.
 
 <figure>
-<img src="img/sandwich.png" alt="Diagram that illustrates the various steps in the suppy chain to make a sandwich including farm, factory, and delivery" width="700" height="450">
+<img src= img/sandwich.png alt="Diagram that illustrates the various steps in the suppy chain to make a sandwich including farm, factory, and delivery" width="700" height="450">
 <figcaption align = "center"><b>https://newsela.com/read/supply-chain-shortages-holidays/id/2001025129/</b></figcaption>
 </figure>
 
@@ -34,7 +36,7 @@ draft: false
 
 
 <figure>
-<img src="img/jobs.jpg" alt="Image that shows icons of different jobs such as manufacturing, sales, and delivery that are needed to make a supply chain run" width="700" height="300">
+<<img src= img/jobs.jpg alt="Image that shows icons of different jobs such as manufacturing, sales, and delivery that are needed to make a supply chain run" width="700" height="300">>
 <figcaption align = "center"><b>직업 종류: 예측, 제조, 조달, 협상, 창고 관리, 배달 <br /><br />
 https://creativemarket.com/falara/</b></figcaption>
 </figure>

@@ -2,7 +2,7 @@
 title: "Step 5: 특징 선택하기(Feature selection)"
 description: "머신러닝에 관한 기초 내용"
 prereq: "없음"
-difficulty: "중급"
+difficulties: ["intermediate"]
 draft: false
 weight: 5
 ---

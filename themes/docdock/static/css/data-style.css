@@ -4,7 +4,7 @@
   align-items: center;
   -webkit-box-pack: end;
   justify-content: flex-end;
-  height: 32px;
+  height: 24px;
   padding-right: 20px;
   font-family: Lato, sans-serif;
   font-weight: bold;
@@ -27,7 +27,7 @@
   color: rgb(0, 0, 0);
 }
 .kjtfZK {
-  height: 72px;
+  height: 48px;
   font-family: Lato, sans-serif;
   color: rgb(112, 112, 112);
   font-size: 16px;

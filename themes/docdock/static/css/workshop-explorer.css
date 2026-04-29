@@ -1,0 +1,517 @@
+/* workshop-explorer.css
+ * Filter UI for the homepage workshop explorer.
+ *
+ * Design language matches the rest of the site (see workshop-button rules in
+ * theme-flex/style.css):
+ *   - Bold 2–3px black borders, modest 5px corner radius.
+ *   - Hard offset hover shadow (-4px 4px 0 0 #000) + nudged transform.
+ *   - "Space Mono" monospace for headings and chip labels.
+ *   - "Lato" for body/UI text.
+ *   - Brand palette: amber #Fcc600 (primary accent), red #e13126,
+ *     teal #00bed5, soft page green #f1f6f1, black #000.
+ */
+
+/* ---------- accessibility helper ---------- */
+.sr-only {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px; overflow: hidden;
+  clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+}
+
+/* ---------- container ---------- */
+.workshop-explorer-filters {
+  --we-amber: #fcc600;
+  --we-amber-soft: #fff4cc;
+  --we-red: #e13126;
+  --we-teal: #00bed5;
+  --we-green-soft: #f1f6f1;
+  --we-ink: #070f19;
+  --we-border: #000000;
+  --we-muted: #5c5c5c;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.25rem 1.4rem;
+  margin: 0 0 1.75rem;
+  background: #ffffff;
+  border: 3px solid var(--we-border);
+  border-radius: 5px;
+  font-family: Lato, sans-serif;
+  color: var(--we-ink);
+}
+
+/* ---------- header / collapsible toggle ---------- */
+.workshop-explorer-filters .we-header {
+  display: flex;
+  align-items: center;
+}
+
+.workshop-explorer-filters .we-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  width: 100%;
+  padding: 0.55rem 0.85rem;
+  font-family: "Space Mono", monospace;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--we-ink);
+  background: var(--we-green-soft);
+  border: 2px solid var(--we-border);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: box-shadow 0.12s ease, transform 0.08s ease,
+              background 0.12s ease;
+}
+
+.workshop-explorer-filters .we-toggle .fa-sliders {
+  font-size: 1rem;
+  color: var(--we-ink);
+}
+
+.workshop-explorer-filters .we-toggle-label {
+  flex: 1 1 auto;
+  text-align: left;
+}
+
+.workshop-explorer-filters .we-active-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.6rem;
+  height: 1.6rem;
+  padding: 0 0.4rem;
+  font-family: "Space Mono", monospace;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--we-ink);
+  background: var(--we-amber);
+  border: 2px solid var(--we-border);
+  border-radius: 999px;
+  font-variant-numeric: tabular-nums;
+}
+
+.workshop-explorer-filters .we-active-count[hidden] {
+  display: none;
+}
+
+.workshop-explorer-filters .we-toggle-chevron {
+  transition: transform 0.2s ease;
+  font-size: 0.85rem;
+}
+
+.workshop-explorer-filters.is-collapsed .we-toggle-chevron {
+  transform: rotate(-90deg);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .workshop-explorer-filters .we-toggle:hover {
+    background: var(--we-amber-soft);
+    box-shadow: -3px 3px 0 0 var(--we-border);
+    transform: translate(2px, -2px);
+  }
+}
+
+.workshop-explorer-filters .we-toggle:focus-visible {
+  outline: none;
+  box-shadow: -3px 3px 0 0 var(--we-amber);
+  transform: translate(2px, -2px);
+}
+
+/* hide search when collapsed too, for a tidy minimised state */
+.workshop-explorer-filters.is-collapsed .we-search {
+  display: none;
+}
+
+/* ---------- search input ---------- */
+.workshop-explorer-filters .we-search {
+  position: relative;
+}
+
+.workshop-explorer-filters .we-search::before {
+  content: "\f002"; /* fa-magnifying-glass */
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  position: absolute;
+  left: 0.95rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--we-ink);
+  font-size: 1rem;
+  pointer-events: none;
+}
+
+/* ---------- collapsible body ---------- */
+.workshop-explorer-filters .we-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.workshop-explorer-filters .we-body[hidden] {
+  display: none;
+}
+
+.workshop-explorer-filters .we-search-input {
+  width: 100%;
+  padding: 0.7rem 1rem 0.7rem 2.6rem;
+  font: inherit;
+  font-size: 1rem;
+  font-family: "Space Mono", monospace;
+  color: var(--we-ink);
+  background: #ffffff;
+  border: 2px solid var(--we-border);
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: box-shadow 0.12s ease, transform 0.12s ease,
+              background 0.12s ease;
+}
+
+.workshop-explorer-filters .we-search-input::placeholder {
+  color: var(--we-muted);
+  font-family: Lato, sans-serif;
+  font-style: italic;
+}
+
+.workshop-explorer-filters .we-search-input:focus {
+  outline: none;
+  background: #fffdf3;
+  box-shadow: -4px 4px 0 0 var(--we-amber);
+  transform: translate(2px, -2px);
+}
+
+/* ---------- chip groups ---------- */
+.workshop-explorer-filters .we-chip-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.7rem 0.7rem;
+  padding: 1rem 1.15rem;
+  background: var(--we-green-soft);
+  border-radius: 5px;
+}
+
+.workshop-explorer-filters .we-chip-group-label {
+  flex: 0 0 auto;
+  width: 10.5rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--we-ink);
+  white-space: nowrap;
+}
+
+.workshop-explorer-filters .we-chip-group-label .fas,
+.workshop-explorer-filters .we-chip-group-label .fab {
+  font-size: 1.2rem;
+  color: var(--we-ink);
+}
+
+/* an accent stripe + tinted icon per dimension, drawn from brand palette */
+.workshop-explorer-filters .we-chip-group[data-dimension="difficulties"] {
+  border-left: 4px solid var(--we-amber);
+}
+.workshop-explorer-filters .we-chip-group[data-dimension="language"] {
+  border-left: 4px solid var(--we-teal);
+}
+.workshop-explorer-filters .we-chip-group[data-dimension="topics"] {
+  border-left: 4px solid var(--we-red);
+}
+
+/* ---------- chip ---------- */
+.workshop-explorer-filters .we-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-family: "Space Mono", monospace;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  padding: 0.85rem 1.4rem;
+  color: var(--we-ink);
+  background: #ffffff;
+  border: 2px solid var(--we-border);
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+  transform-origin: center;
+  transition: box-shadow 0.15s ease, transform 0.15s ease,
+              background 0.12s ease, color 0.12s ease,
+              border-color 0.12s ease;
+}
+
+.workshop-explorer-filters .we-chip .fas,
+.workshop-explorer-filters .we-chip .fab {
+  font-size: 1.25rem;
+  color: var(--we-ink);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .workshop-explorer-filters .we-chip:hover {
+    background: var(--we-amber-soft);
+    box-shadow: -5px 5px 0 0 var(--we-border);
+    transform: translate(2px, -2px) scale(1.25);
+    z-index: 2;
+  }
+}
+
+.workshop-explorer-filters .we-chip:active {
+  box-shadow: none;
+  transform: none;
+}
+
+.workshop-explorer-filters .we-chip:focus-visible {
+  outline: none;
+  box-shadow: -5px 5px 0 0 var(--we-amber);
+  transform: translate(2px, -2px) scale(1.25);
+  border-color: var(--we-border);
+  z-index: 2;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .workshop-explorer-filters .we-chip,
+  .workshop-explorer-filters .we-chip:hover,
+  .workshop-explorer-filters .we-chip:focus-visible {
+    transition: none;
+    transform: none;
+  }
+}
+
+.workshop-explorer-filters .we-chip.is-active,
+.workshop-explorer-filters .we-chip[aria-pressed="true"] {
+  background: var(--we-amber);
+  color: var(--we-ink);
+  box-shadow: -3px 3px 0 0 var(--we-border);
+  transform: translate(1px, -1px);
+}
+
+.workshop-explorer-filters .we-chip.is-active .fas,
+.workshop-explorer-filters .we-chip.is-active .fab,
+.workshop-explorer-filters .we-chip[aria-pressed="true"] .fas,
+.workshop-explorer-filters .we-chip[aria-pressed="true"] .fab {
+  color: var(--we-ink);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .workshop-explorer-filters .we-chip.is-active:hover,
+  .workshop-explorer-filters .we-chip[aria-pressed="true"]:hover {
+    background: var(--we-amber);
+    box-shadow: -4px 4px 0 0 var(--we-border);
+    transform: translate(2px, -2px);
+  }
+}
+
+/* per-dimension active accent — keeps it bold but distinguishable */
+.workshop-explorer-filters
+  .we-chip-group[data-dimension="language"] .we-chip.is-active,
+.workshop-explorer-filters
+  .we-chip-group[data-dimension="language"] .we-chip[aria-pressed="true"] {
+  background: var(--we-teal);
+  color: var(--we-ink);
+}
+.workshop-explorer-filters
+  .we-chip-group[data-dimension="topics"] .we-chip.is-active,
+.workshop-explorer-filters
+  .we-chip-group[data-dimension="topics"] .we-chip[aria-pressed="true"] {
+  background: var(--we-red);
+  color: #ffffff;
+}
+.workshop-explorer-filters
+  .we-chip-group[data-dimension="topics"] .we-chip.is-active .fas,
+.workshop-explorer-filters
+  .we-chip-group[data-dimension="topics"] .we-chip[aria-pressed="true"] .fas {
+  color: #ffffff;
+}
+
+/* per-value override for difficulty so the three levels read distinctly */
+.workshop-explorer-filters
+  .we-chip-group[data-dimension="difficulties"] .we-chip[data-value="advanced"].is-active,
+.workshop-explorer-filters
+  .we-chip-group[data-dimension="difficulties"] .we-chip[data-value="advanced"][aria-pressed="true"] {
+  background: var(--we-red);
+  color: #ffffff;
+}
+.workshop-explorer-filters
+  .we-chip-group[data-dimension="difficulties"] .we-chip[data-value="advanced"].is-active .fas,
+.workshop-explorer-filters
+  .we-chip-group[data-dimension="difficulties"] .we-chip[data-value="advanced"][aria-pressed="true"] .fas {
+  color: #ffffff;
+}
+
+/* ---------- bottom controls row ---------- */
+.workshop-explorer-filters .we-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.7rem 1rem;
+  padding-top: 1rem;
+  margin-top: 0.1rem;
+  border-top: 2px dashed var(--we-border);
+}
+
+.workshop-explorer-filters .we-group-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--we-ink);
+  margin: 0;
+}
+
+.workshop-explorer-filters .we-group-label .fas {
+  color: var(--we-amber);
+  text-shadow:
+    -1px 0 0 var(--we-ink), 1px 0 0 var(--we-ink),
+    0 -1px 0 var(--we-ink), 0 1px 0 var(--we-ink);
+}
+
+.workshop-explorer-filters .we-group-select {
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 0.45rem 2.1rem 0.45rem 0.8rem;
+  border: 2px solid var(--we-border);
+  border-radius: 5px;
+  background: #ffffff
+    no-repeat right 0.7rem center / 12px
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'><polyline points='6 9 12 15 18 9'/></svg>");
+  font-family: "Space Mono", monospace;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--we-ink);
+  cursor: pointer;
+  transition: box-shadow 0.12s ease, transform 0.08s ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .workshop-explorer-filters .we-group-select:hover {
+    box-shadow: -3px 3px 0 0 var(--we-border);
+    transform: translate(2px, -2px);
+  }
+}
+
+.workshop-explorer-filters .we-group-select:focus {
+  outline: none;
+  box-shadow: -3px 3px 0 0 var(--we-amber);
+  transform: translate(2px, -2px);
+}
+
+.workshop-explorer-filters .we-clear {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: "Space Mono", monospace;
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 0.45rem 0.9rem;
+  border: 2px solid var(--we-border);
+  border-radius: 5px;
+  background: #ffffff;
+  color: var(--we-ink);
+  cursor: pointer;
+  transition: box-shadow 0.12s ease, transform 0.08s ease,
+              background 0.12s ease, color 0.12s ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .workshop-explorer-filters .we-clear:hover {
+    background: var(--we-red);
+    color: #ffffff;
+    box-shadow: -3px 3px 0 0 var(--we-border);
+    transform: translate(2px, -2px);
+  }
+  .workshop-explorer-filters .we-clear:hover .fas {
+    color: #ffffff;
+  }
+}
+
+.workshop-explorer-filters .we-clear:focus-visible {
+  outline: none;
+  box-shadow: -3px 3px 0 0 var(--we-amber);
+  transform: translate(2px, -2px);
+}
+
+.workshop-explorer-filters .we-result-count {
+  margin-left: auto;
+  font-family: "Space Mono", monospace;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--we-ink);
+  font-variant-numeric: tabular-nums;
+  padding: 0.3rem 0.6rem;
+  background: var(--we-amber);
+  border: 2px solid var(--we-border);
+  border-radius: 5px;
+}
+
+/* ---------- empty state ---------- */
+.workshop-explorer-empty {
+  padding: 2rem 1rem;
+  text-align: center;
+  font-family: "Space Mono", monospace;
+  color: var(--we-ink);
+  border: 2px dashed var(--we-border);
+  border-radius: 5px;
+  background: var(--we-green-soft);
+  margin-top: 1rem;
+}
+
+/* ---------- group-by sections ---------- */
+.workshop-explorer-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.workshop-explorer-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.workshop-explorer-group-title {
+  font-family: "Space Mono", monospace;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0.5rem 0 0.25rem 0.5rem;
+  padding: 0;
+  color: var(--we-ink);
+  display: inline-flex;
+  align-self: flex-start;
+}
+
+.workshop-explorer-group-title::after {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 8px;
+  background: var(--we-amber);
+  margin-top: 6px;
+}
+
+/* ---------- responsive ---------- */
+@media (max-width: 720px) {
+  .workshop-explorer-filters {
+    padding: 1rem;
+  }
+  .workshop-explorer-filters .we-chip-group-label,
+  .workshop-explorer-filters .we-group-label {
+    width: 100%;
+    margin-bottom: 0.15rem;
+  }
+  .workshop-explorer-filters .we-result-count {
+    margin-left: 0;
+  }
+}

@@ -83,3 +83,124 @@ other = "힌트"
 # menu.html
 [workshop-dashboard]
 other = "워크숍 대시보드"
+
+# BEGIN workshop-explorer (auto-generated)
+
+[workshop-explorer-filters-aria]
+other = "워크숍 필터 및 그룹화"
+
+[workshop-explorer-filters-title]
+other = "필터"
+
+[workshop-explorer-search]
+other = "워크숍 검색…"
+
+[workshop-explorer-clear]
+other = "필터 지우기"
+
+[workshop-explorer-group-by]
+other = "그룹화 기준"
+
+[workshop-explorer-group-none]
+other = "없음"
+
+[workshop-explorer-empty]
+other = "필터와 일치하는 워크숍이 없습니다."
+
+[workshop-explorer-count]
+other = "{n}개 워크숍"
+
+[tax.dim.difficulty]
+other = "난이도"
+
+[tax.dim.language]
+other = "언어"
+
+[tax.dim.topic]
+other = "주제"
+
+[tax.difficulty.beginner]
+other = "입문"
+
+[tax.difficulty.intermediate]
+other = "중급"
+
+[tax.difficulty.advanced]
+other = "고급"
+
+[tax.language.blocks]
+other = "Blocks"
+
+[tax.language.python]
+other = "Python"
+
+[tax.language.javascript]
+other = "JavaScript"
+
+[tax.language.java]
+other = "Java"
+
+[tax.language.csharp]
+other = "C#"
+
+[tax.language.cpp]
+other = "C++"
+
+[tax.language.c]
+other = "C"
+
+[tax.language.html-css]
+other = "HTML & CSS"
+
+[tax.language.sql]
+other = "SQL"
+
+[tax.language.kusto]
+other = "Kusto (KQL)"
+
+[tax.language.arduino]
+other = "Arduino"
+
+[tax.language.linux]
+other = "Linux"
+
+[tax.language.no-code]
+other = "노코드"
+
+[tax.topic.programming-basics]
+other = "프로그래밍 기초"
+
+[tax.topic.games]
+other = "게임"
+
+[tax.topic.web]
+other = "웹"
+
+[tax.topic.ai]
+other = "AI 및 머신러닝"
+
+[tax.topic.cybersecurity]
+other = "사이버 보안"
+
+[tax.topic.data]
+other = "데이터"
+
+[tax.topic.hardware]
+other = "하드웨어"
+
+[tax.topic.music]
+other = "음악"
+
+[tax.topic.graphics]
+other = "그래픽"
+
+[tax.topic.mobile]
+other = "모바일"
+
+[tax.topic.engineering]
+other = "공학"
+
+[tax.topic.tools]
+other = "도구"
+
+# END workshop-explorer

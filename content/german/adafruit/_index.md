@@ -6,6 +6,9 @@ prereq: "Keine Einsteiger"
 download: ""
 draft: false
 icon: "fas fa-microchip"
+language: "blocks"
+topics: ["hardware", "music"]
+difficulties: ["beginner"]
 ---
 
 ## Inhaltsübersicht

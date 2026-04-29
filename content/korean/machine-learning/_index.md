@@ -1,8 +1,10 @@
 ---
 title: "파이썬: 머신러닝"
 description: "머신러닝에 관한 기초 내용"
-difficulty: "중급"
 draft: false
+language: "python"
+topics: ["ai"]
+difficulties: ["beginner"]
 ---
 
 ## FIFA 비디오 게임에서 선수의 종합 능력치를 평가해보자. 

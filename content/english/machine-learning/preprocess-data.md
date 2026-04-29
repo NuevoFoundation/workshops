@@ -2,7 +2,7 @@
 title: "Step 4: Pre-process data"
 description: "Basics of Machine Learning"
 prereq: "none"
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 draft: false
 weight: 4
 ---

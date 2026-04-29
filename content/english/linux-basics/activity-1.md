@@ -2,7 +2,7 @@
 title: "Activity 1 - Determine User Account"
 description: "Use a Linux command to determine what user you are"
 date: 2022-09-23
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 4
 ---
 
