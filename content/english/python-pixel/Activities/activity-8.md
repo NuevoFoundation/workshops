@@ -48,7 +48,7 @@ newimg.save("Mycat.png")
 
 Wow! This is our new cat after flipping.
 
-<img src="../../media/flipcat.png" alt="Original cat image" width="50%">
+<img src="../../media/flipcat.png" alt="Cat image flipped upside down" width="50%">
 
 How did we figure out how to set `heightNew`? In the above code we have:
 

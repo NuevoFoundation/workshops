@@ -34,7 +34,7 @@ img.save("Mycat.png")
 ```
 
 Wow! This is our cat after the blue filter.
-<img src="../../media/bluefiltercat.png" alt="Original cat image" width="50%">
+<img src="../../media/bluefiltercat.png" alt="Cat image with blue filter applied" width="50%">
 
 {{% notice tip %}}
 How did this work? Let's look at the loop: 

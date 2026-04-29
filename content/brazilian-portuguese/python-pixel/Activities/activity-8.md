@@ -45,7 +45,7 @@ newimg.save("Mycat.png")
 ```
 
 Uau! Aqui está nosso novo gato depois de virar de cabeça para baixo.  
-<img src="../../media/flipcat.png" alt="Imagem original do gato" width="50%">
+<img src="../../media/flipcat.png" alt="Imagem do gato virada de cabeça para baixo" width="50%">
 
 Como descobrimos como definir `heightNew`?
 
