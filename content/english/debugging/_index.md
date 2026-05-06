@@ -13,16 +13,16 @@ difficulties: ["intermediate"]
 
 ## Introduction
 
-So, youΓò¼├┤Γö£├ºΓö£├╗ve learned the basics of a programming language. YouΓò¼├┤Γö£├ºΓö£├╗ve probably mastered the art of `Γò¼├┤Γö£├ºΓö¼├║Hello WorldΓò¼├┤Γö£├ºΓö¼├æ` and have either started a personal project, or followed enough tutorials to be able to turn an idea into code.
+So, you’ve learned the basics of a programming language. You’ve probably mastered the art of `“Hello World”` and have either started a personal project, or followed enough tutorials to be able to turn an idea into code.
 
 However, what happens when your code fails to compile? Beginners to programming usually search online to see if others have encountered similar problems. This is a bit tedious, as you'd need to turn to the internet every single time you run into an error. 
 
-What happens when your program compiles, but doesn't work the way you expect it to? (i.e., you found **a bug? ╬ô├½├¡Γò₧├åΓö¼┬╝╬ô├╗├┤)**
+What happens when your program compiles, but doesn't work the way you expect it to? (i.e., you found **a bug? 🪲)**
 
 Going back to fix your code can be a challenge more difficult than writing the code itself. Learning how to navigate these bugs and errors takes skill, patience, and experience. In this workshop, we'll unravel the basic process for debugging your code. Remember that debugging is part of all programming languages.
 
 {{% panel theme="info" header="Why call it a bug?"%}}
-The first recorded programming bug was recorded all the way back in 1947 when a moth decided to be in the wrong place. Check out <a href="https://education.nationalgeographic.org/resource/worlds-first-computer-bug" target="_blank">The WorldΓò¼├┤Γö£├ºΓö£├╗s First Computer Bug.</a>
+The first recorded programming bug was recorded all the way back in 1947 when a moth decided to be in the wrong place. Check out <a href="https://education.nationalgeographic.org/resource/worlds-first-computer-bug" target="_blank">The World’s First Computer Bug.</a>
 
 {{% /panel %}}
 
