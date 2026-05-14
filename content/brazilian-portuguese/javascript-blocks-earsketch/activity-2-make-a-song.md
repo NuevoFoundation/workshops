@@ -15,6 +15,6 @@ Agora que você aprendeu como adicionar sons ao Earsketch, vamos tentar criar um
 
 Seu código deve ficar parecido com isto:
 
-<img src="../img/screenshot-fit-media-2.png" height="400"/>
+<img src="../img/screenshot-fit-media-2.png" alt="Script com múltiplos blocos fitMedia em trilhas diferentes" height="400"/>
 
 ![Robô fazendo uma música](https://media.giphy.com/media/9RJRzvIuKGrL3tAchc/giphy.gif)
