@@ -10,9 +10,6 @@ icon: "fas fa-code"
 language: "no-code"
 topics: ["ai"]
 difficulties: ["beginner"]
-download: ""
-draft: false
-icon: "fas fa-code"
 ---
 
 ## Introduction
