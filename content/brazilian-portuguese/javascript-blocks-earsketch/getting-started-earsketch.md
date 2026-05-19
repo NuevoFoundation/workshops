@@ -13,19 +13,19 @@ draft: false
 
 2. Após abrir a página, você pode ver a seguinte tela de boas-vindas. Pressione "skip" para pular o tour - vamos passar por todos os passos necessários abaixo.
 
-<img src="../img/screenshot-skip-tour.png" height="400"/>
+<img src="../img/screenshot-skip-tour.png" alt="Tela de boas-vindas do EarSketch com o botão Skip destacado" height="400"/>
 
 3. Agora, vamos começar. Clique no ícone *Scripts* na barra de menu à esquerda e selecione *+ New Script*.
 
-<img src="../img/screenshot-new-script.png" height="400"/>
+<img src="../img/screenshot-new-script.png" alt="Painel Scripts do EarSketch com a opção + New Script destacada" height="400"/>
 
 4. Digite *myjam* (ou qualquer outro nome que desejar) como o nome do seu script e altere a linguagem de programação para *JavaScript*. Clique no botão *Create* para criar seu script (o arquivo onde seu código será colocado).
 
-<img src="../img/screenshot-new-myjam.png" height="200"/>
+<img src="../img/screenshot-new-myjam.png" alt="Diálogo de criação de novo script com nome 'myjam' e linguagem JavaScript selecionada" height="200"/>
  
 5. Por fim, clique no ícone de engrenagem e selecione "Blocks mode". Sua tela deve ficar assim.
 
-<img src="../img/screenshot-setup-complete.png" height="400"/>
+<img src="../img/screenshot-setup-complete.png" alt="Tela do EarSketch após configuração completa, em modo Blocks" height="400"/>
 
 {{% notice info %}} 
 
@@ -37,15 +37,15 @@ O `Content Manager` no lado esquerdo da tela é sua base para navegar por tudo q
 
 1. O primeiro item da barra de navegação é a coleção de `Sounds`. É o local central para todos os sons pré-carregados que o EarSketch oferece. No navegador de sons, você pode filtrar quais sons aparecem com base nos artistas, no gênero ou nos instrumentos.
 
-<img src="../img/screenshot-navigation-sound-browser.png" height="400"/>
+<img src="../img/screenshot-navigation-sound-browser.png" alt="Navegador de sons do EarSketch com filtros por artista, gênero e instrumento" height="400"/>
 
 2. O próximo ícone na barra de navegação é o painel `Scripts`. É onde vamos escrever nosso código.
 
-<img src="../img/screenshot-navigation-script.png" height="400"/>
+<img src="../img/screenshot-navigation-script.png" alt="Painel Scripts do EarSketch onde o código é editado" height="400"/>
 
 3. O último ícone na barra de navegação é o painel `API Browser`. Uma *Interface de Programação de Aplicações* ou *API* é um conjunto de códigos prontos para você usar! Ao clicar, uma explicação detalhada de cada API é fornecida.
 
-<img src="../img/screenshot-navigation-api-curriculum.png" height="400"/>
+<img src="../img/screenshot-navigation-api-curriculum.png" alt="Painel API Browser do EarSketch com a lista de funções disponíveis" height="400"/>
 
 No lado direito, você verá o guia `Curriculum`. Se quiser saber mais sobre o EarSketch, pode explorar a seção que aparece do lado direito da janela ao clicar nela. Vamos pular esta seção neste exercício.
 
