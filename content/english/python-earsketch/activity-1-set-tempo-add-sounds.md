@@ -2,12 +2,11 @@
 title: "Activity 1 - Set tempo & add sounds"
 description: "Setting up headphones"
 prereq: "Python Basics: Print, Comments, Functions"
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 5
 draft: false
 ---
-
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/3OpCc7sKcpM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/INHMwQoni-M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 Let's take a closer look at the pre-existing code and understand what it means. 
 

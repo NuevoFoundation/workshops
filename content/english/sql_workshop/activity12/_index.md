@@ -3,7 +3,7 @@ title: "Activity 12: Find the Inventor!"
 description: "Find the Inventor!"
 date: 2020-07-05
 prereq: "SELECT Command"
-difficulty: "Beginner"
+difficulties: ["beginner"]
 draft: false
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->

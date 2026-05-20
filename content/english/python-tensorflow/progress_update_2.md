@@ -2,7 +2,7 @@
 title: "Progress Update 2"
 date: 2020-03-27T20:24:33-07:00
 prereq: "Python Basics: Functions- Built in Functions, Functions from libraries; Data Types- Strings, Numbers, Reading from Console; Data Structures- Lists, Tuples, Sets; Loops- For Loops"
-difficulty: Intermediate
+difficulties: ["intermediate"]
 weight: 10
 draft: false
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Activity 1 - Write to console"
-date: 2019-07-23T11:45:38-07:00
+date: 2026-04-25T00:00:00-07:00
 draft: false
 weight: 4
 ---
@@ -11,4 +11,4 @@ Go to the code containing the [GuessTheWord](https://dotnetfiddle.net/lMl7j4) ga
 
 Find `// TODO (ACTIVITY 1)` in the code. Add a line of code to print Welcome to C# GuessTheWord to the console. If you did this correctly, `Welcome to C# GuessTheWord` will be printed to the console after pressing **run**.
 
-![alt text height="600px" width="70%"](../media/guessTheWordActivity-1-start.PNG "Fiddle for activity 1")
+![alt text height="600px" width="70%"](../media/guessTheWordActivity-1-start.png "Fiddle for activity 1")

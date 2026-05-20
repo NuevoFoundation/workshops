@@ -9,7 +9,7 @@ weight: 2
 
 Un sitio web es solo una página que se puede encontrar en Internet. Se ve a través de un navegador cuando introduces la dirección (o nombre único) en la barra de direcciones.
 
-![alt text height="600px" width="30%"](https://1mtvya.dm.files.1drv.com/y4mqBcdQfTi7DP7Pk8U1Yu86e9ObVoogX4E9bB_jcTLAm5HVJpHgKWm6xeBpo_22xqLBgUwewOMcGKwEKFp9LHgFGgIcA2E-7W1XWmFqR3fkD04AQXAZFMxZxJdqqBlPvqrIs7rh_XEJRwpQc0eoRTERgI2gIJ_yR6jlCjz5Xer_oLWcVGTo12DUg-WTB5jM77hz4nbHirbMyufs6NQ60EIrg?width=660&height=521&cropmode=none "Grafica de buscador")
+![alt text height="600px" width="30%"](../media/website-overview.png "Grafica de buscador")
 
 ## Partes de un sitio web
 

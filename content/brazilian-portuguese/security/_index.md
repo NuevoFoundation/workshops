@@ -1,13 +1,16 @@
 ---
 title: "Segurança: jogo de espionagem"
 description: "Um guia introdutório para aprender sobre senhas e como criar uma senha forte!"
-date: 2020-02-21T11:45:38-07:00
+date: 2026-04-25T00:00:00-07:00
 prereq: "Nenhum"
-difficulty: "Iniciante"
 draft: false
 icon: "fas fa-user-secret"
+language: "no-code"
+topics: ["cybersecurity"]
+difficulties: ["beginner"]
 ---
 
-## Tabela de Conteúdos
-
+<details>
+<summary>Tabela de Conteúdos</summary>
 {{% children /%}}
+</details>

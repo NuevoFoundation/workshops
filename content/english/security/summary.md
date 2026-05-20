@@ -5,6 +5,8 @@ draft: false
 weight: 4
 ---
 
+<p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/W9jx-A346gU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 ## Remember the characteristics of a strong password are:
 
 1. At least 8 characters - the more characters, the better

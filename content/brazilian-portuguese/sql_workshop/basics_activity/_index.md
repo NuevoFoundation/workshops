@@ -3,7 +3,7 @@ title: "Tutorial 1: Aprenda o básico do cadete"
 description: "Aprenda o que são um banco de dados e SQL"
 date: 2020-07-26
 prereq: "nenhum"
-difficulty: "Iniciante"
+difficulties: ["beginner"]
 icon: ""
 draft: false
 ---

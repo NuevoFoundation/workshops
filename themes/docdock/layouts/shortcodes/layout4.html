@@ -1,0 +1,56 @@
+<style>
+    .layout4-image {
+        float: left;
+        margin: 27px 48px 0px 24px;
+        width: 809px;
+        height: 520px;
+    }
+
+    .layout4-image img {    
+        border: 4px solid #000000;
+        border-radius: 4px; 
+    }
+
+    .layout4-section-subhead {       
+        padding-top: 48px;
+        font-family: Space Mono, monospace;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 59px;
+    }
+
+    .layout4-section-writing {       
+        margin-top: 56px;
+        font-family: Lato, monospace;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .layout4-horizontal-bar {
+        margin: 48px auto auto 27px;
+
+        border: 1px solid #000000;
+    }
+</style>
+
+<div>
+    <div class="layout4-image">
+        <img src="{{.Get `image`}}">
+        <div class="layout4-section-subhead">
+        </div>
+    </div>
+    <div class="layout4-section-subhead">
+        <p>
+            {{.Get "title"}}
+        </p>
+    </div>
+    <div class="layout4-section-writing">
+        <p>
+            {{.Inner | markdownify}}
+        </p>
+    </div>
+</div>
+
+<br style="clear:both" />
+
+<div class="layout4-horizontal-bar"></div>

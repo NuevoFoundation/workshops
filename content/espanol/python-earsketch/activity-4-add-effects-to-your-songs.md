@@ -3,7 +3,7 @@ title: "Actividad 4 - Añadir efectos a tu canción"
 description: "Actividad 4 - Añadir efectos a tu canción"
 weight: 8
 prereq: "Python Basico: Imprimir, Comentarios, Funciones"
-difficulty: "Intermedio"
+difficulties: ["intermediate"]
 draft: false
 ---
 

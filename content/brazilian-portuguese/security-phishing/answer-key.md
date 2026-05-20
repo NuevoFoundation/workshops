@@ -1,7 +1,7 @@
 ---
 title: "Gabarito - Segurança"
 description: "Gabarito de referência fácil para o currículo de segurança"
-draft: true
+draft: false
 hidden: true
 weight: 5
 ---

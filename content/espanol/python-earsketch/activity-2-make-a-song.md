@@ -2,7 +2,7 @@
 title: "Actividad 2 – Haz tu propia canción!"
 description: "Actividad 2 – Haz tu propia canción"
 prereq: "Python Basico: Imprimir, Comentarios, Funciones"
-difficulty: "Intermedio"
+difficulties: ["intermediate"]
 weight: 6
 draft: false
 ---

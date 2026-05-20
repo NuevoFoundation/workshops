@@ -2,7 +2,7 @@
 title: "Atividade 1 - Identificando Usuários no Linux"
 description: "Aprendendo sobre os commandos do Linux para identificar que usuário você é"
 date: 2022-09-21
-difficulty: "Intermediário"
+difficulties: ["intermediate"]
 weight: 4
 output:
   html_document:

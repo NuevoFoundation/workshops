@@ -3,10 +3,10 @@ title: "Getting started with Earsketch"
 description: "intro on how to use Earsketch"
 weight: 4
 prereq: "None"
-difficulty: "Beginner"
+difficulties: ["beginner"]
 draft: false
 ---
-<p style="text-align: center;"><iframe width="560px" height="315px" src="https://www.youtube.com/embed/apUsNWZ9wIE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560px" height="315px" src="https://youtube.com/embed/oIB5_N-Og_0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 [EarSketch](https://en.wikipedia.org/wiki/EarSketch) is a free educational programming environment developed at Georgia Institute of Technology. We will be composing music using EarSketch today.
 

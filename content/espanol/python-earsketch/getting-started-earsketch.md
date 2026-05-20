@@ -3,7 +3,7 @@ title: "Introducción a EarSketch"
 description: "Introducción a EarSketch"
 weight: 4
 prereq: "None"
-difficulty: "Principiante"
+difficulties: ["beginner"]
 draft: false
 ---
 

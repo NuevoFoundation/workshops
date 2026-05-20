@@ -5,6 +5,8 @@ weight: 13
 draft: false
 ---
 
+<p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/u7PMmNbOyXg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 ![alt text width="70%"](../media/mandala-color.png "mandala flower with random color pedals")
 
 We’ve successfully set the color of the mandala flower to an RGB value. Now, let's explore changing the color of the individual mandala flower petals? 

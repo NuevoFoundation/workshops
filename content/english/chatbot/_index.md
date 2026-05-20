@@ -1,35 +1,44 @@
 ---
 title: "Create your own chatbot"
 description: "An introductory guide to chatbots"
-date: 2020-02-21T11:45:38-07:00
+date: 2026-04-25T00:00:00-07:00
 prereq: "email"
-difficulty: "Beginner"
 download: ""
 draft: false
+alwaysopen: false
 icon: "fas fa-code"
+language: "no-code"
+topics: ["ai"]
+difficulties: ["beginner"]
 ---
+
 ## Introduction
 In this workshop, you will learn how to create your own chatbot. By the end of the workshop, you will have a chatbot that can have a simple conversation with the user. You will learn how to use AIML, a language for creating chatbots. You will also learn how to use Pandorabots, a platform for hosting chatbots.
 
 In order to complete the workshop, you will need an email address to sign up for a Pandorabots account.
+<p style="text-align: center; "><img src="./img/introduction.png" alt="Illustration of a friendly chatbot welcoming users to the workshop" width="60%"/></p>
+
 
 ## What is a chatbot?
 A chatbot is a computer program that simulates human conversation to answer questions. 
+<img src="./img/surprised.png" alt="Illustration of a surprised character learning about chatbots" width="20%" />
 
 ## Examples of chatbots
 Chances are you've already interacted with a chatbot as part of your daily life. 
 
 You might use a virtual assistant to set a reminder on your phone, or to play a song on your smart speaker.
-<p style="text-align: center; "><img src="./img/smart_device.jpg" alt="Two women talking to each other with speech bubbles in the background" width="40%"/></p>
+<p style="text-align: center; "><img src="./img/smart_device.jpg" alt="Two women talking to each other with speech bubbles in the background" width="35%"/></p>
 
 You might have interacted with a chatbot to get help with a product or service.
 
-<p style="text-align: center; "><img src="./img/customer_service_chatbot.png" alt="new account landing page on github" width="40%"/></p>
+<p style="text-align: center; "><img src="./img/customer_service_chatbot.png" alt="Customer service chatbot conversation interface" width="35%"/></p>
 
 More recently, chatbots have become more well-known thanks to technologies like ChatGPT.
 
 ## History of chatbots
 Chatbots have been around for a long time. The first chatbot was created in 1966 and was called ELIZA. In 1995, a new chatbot called ALICE was created. ALICE was written using AIML, which is the same language we will learn in this workshop.
+
+<img src="./img/elderly.png" alt="Illustration of an elderly character representing the long history of chatbots" width="20%"/>
 
 ## Table of Contents
 

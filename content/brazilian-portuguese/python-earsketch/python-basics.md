@@ -3,7 +3,7 @@ title: "Fundamentos de `Python"
 description: "fundamentos do python"
 weight: 3
 prereq: "Python: Fundamentos"
-difficulty: "Iniciante"
+difficulties: ["beginner"]
 draft: false
 ---
 # Python: Fundamentos

@@ -2,7 +2,7 @@
 title: "Atividade 3 - Explorando o diretório atual"
 description: "Aprendendo sobre os commandos do Linux para visualizar o conteúdo do diretório atual"
 date: 2022-09-21
-difficulty: "Intermediário"
+difficulties: ["intermediate"]
 weight: 6
 ---
 

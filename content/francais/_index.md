@@ -6,7 +6,7 @@ hidemetadata: true
 ---
 
 ## Projets d'Ateliers
-{{< workshop-list style="card" depth="1" showhidden="false" description="true"  />}}
+{{< workshop-list style="card" depth="1" showhidden="false" description="true" interactive="true"  />}}
 
 <!-- ## Contribuer
 Vous souhaitez contribuer à l'amélioration de nos ateliers ou de notre site web ? Cliquez ici :  **[Directives pour les contributeurs aux ateliers](guidelines/)** -->

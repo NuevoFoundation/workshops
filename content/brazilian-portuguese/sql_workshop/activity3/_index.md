@@ -3,7 +3,7 @@ title: "Atividade 3: Aprenda o comando COUNT"
 description: "Aprenda o comando COUNT"
 date: 2020-07-14
 prereq: "comanado SELECT"
-difficulty: "Iniciante"
+difficulties: ["beginner"]
 draft: false
 ---
 <!-- Links para javascript e CSS necessários para lógica suspensa -->

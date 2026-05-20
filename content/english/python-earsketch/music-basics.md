@@ -4,10 +4,10 @@ description: "basics of music"
 date: 2019-07-23T11:45:38-07:00
 draft: false
 prereq: "None"
-difficulty: "Beginner"
+difficulties: ["beginner"]
 weight: 2
 ---
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/g0u1CkbpUWQ?start=134" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/Yr2UfFodnNY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ## Basics first. A few things about music.
 

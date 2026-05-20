@@ -11,7 +11,7 @@ Bon travail ! Vous venez de dessiner votre première forme en Python avec Turtle
 
 Pour vous aider à dessiner un hexagone, pensez au nombre de côtés qu'un hexagone possède. Combien de degrés y a-t-il dans chaque angle intérieur d'un hexagone ?
 
-{{% expand "**Indice:**" %}} 
+{{% expand "**Indice :**" %}} 
 Rappelez-vous que dans n'importe quelle forme, tous les angles intérieurs s'additionnent à 360°. Par exemple, il y a 4 côtés dans un carré, donc chaque angle intérieur d'un carré est de 360 ÷ 4 = 90°.
 {{% /expand %}}
 <br/>
@@ -30,3 +30,12 @@ for i in range(3):
 ```
 
 <iframe src="https://trinket.io/embed/python/e82295e92f" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+{{% expand "**Défi supplémentaire :**" %}}
+Si tu as terminé plus tôt, essaie de modifier ton code et de dessiner des formes plus complexes ! Voici quelques exemples de formes que tu peux essayer de dessiner.
+
+<div style="display: flex">
+  <div><img src="../media/star_1.png" height="60%" title="Forme d’étoile 1" alt="Forme d’étoile 1"/></div>
+  <div><img src="../media/star_2.png" height="60%" title="Forme d’étoile 2" alt="Forme d’étoile 2"/></div> 
+</div>
+{{% /expand %}}

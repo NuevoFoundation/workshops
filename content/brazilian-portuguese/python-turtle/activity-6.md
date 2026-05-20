@@ -1,5 +1,5 @@
 ---
-title: “Atividade 6 – Movendo a tartaruga”
+title: Atividade 6 – Movendo a tartaruga
 date: 2019-07-25T13:24:17-07:00
 weight: 9
 draft: false

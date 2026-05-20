@@ -7,7 +7,7 @@ hidemetadata: true
 
 ## Proyectos
 
-{{< workshop-list style="card" depth="1" showhidden="false" description="true"  />}}
+{{< workshop-list style="card" depth="1" showhidden="false" description="true" interactive="true"  />}}
 
 ## ¿Cómo contribuir?
 ¿Quisieras ayudar a mejorar nuestros talleres o nuestra página web? Aquí explicamos cómo:

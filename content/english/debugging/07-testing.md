@@ -1,6 +1,6 @@
 ---
 title: "Step 3 - Testing"
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 8
 draft: false
 ---

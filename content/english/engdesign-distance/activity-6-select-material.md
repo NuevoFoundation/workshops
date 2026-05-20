@@ -1,6 +1,6 @@
 ---
 title: "Activity 6 - Select Material"
-difficulty: "Beginner"
+difficulties: ["beginner"]
 weight: 6
 draft: true
 ---

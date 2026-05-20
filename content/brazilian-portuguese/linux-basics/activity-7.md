@@ -2,7 +2,7 @@
 title: "Atividade 7 - O que há de errado com o arquivo?"
 description: "Aprendendo sobre os commandos do Linux para ler um arquivo sem abri-lo"
 date: 2022-09-21
-difficulty: "Intermediário"
+difficulties: ["intermediate"]
 weight: 10
 ---
 

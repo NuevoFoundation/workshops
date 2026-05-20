@@ -3,10 +3,12 @@ title: "Python: Codificando com Turtle"
 description: "Aprenda a desenhar em uma tela com Python com Turtle"
 date: 2019-07-25T13:24:17-07:00
 prereq: "Python: Fundamentos"
-difficulty: "Iniciante"
 image: ""
 draft: false
 icon: "fab fa-python"
+language: "python"
+topics: ["graphics"]
+difficulties: ["beginner"]
 ---
 
 ## Introdução

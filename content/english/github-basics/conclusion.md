@@ -1,7 +1,7 @@
 ---
 title: "Final Challenge: Creating an Issue and Project Board"
 description: "Final Challenge: Create an issue and project board to escape the room."
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 11
 ---
 
