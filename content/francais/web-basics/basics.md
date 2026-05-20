@@ -9,7 +9,7 @@ weight: 2
 
 Un site Web est simplement une page que l'on peut trouver sur l'Internet. Elle est affichée par un navigateur lorsque tu tapes l'adresse (un nom unique) dans la barre d'adresse.
 
-![alt text](https://1mtvya.dm.files.1drv.com/y4mqBcdQfTi7DP7Pk8U1Yu86e9ObVoogX4E9bB_jcTLAm5HVJpHgKWm6xeBpo_22xqLBgUwewOMcGKwEKFp9LHgFGgIcA2E-7W1XWmFqR3fkD04AQXAZFMxZxJdqqBlPvqrIs7rh_XEJRwpQc0eoRTERgI2gIJ_yR6jlCjz5Xer_oLWcVGTo12DUg-WTB5jM77hz4nbHirbMyufs6NQ60EIrg?width=660&height=521&cropmode=none "web browser graphic")
+![alt text](../media/website-overview.png "web browser graphic")
 
 ### Parties d'un site Web
 

@@ -3,7 +3,7 @@ title: "Activity 11 - Store and protect files"
 description: "Use Linux commands to compress and archive files."
 date: 2022-09-23
 prereq: "None."
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 14
 ---
 

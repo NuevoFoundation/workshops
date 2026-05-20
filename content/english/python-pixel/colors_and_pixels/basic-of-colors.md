@@ -25,7 +25,7 @@ In Python, we follow a specific format when defining colors:
 Here we are using different amounts of red, green and blue light to get a new color of light. Just like we use different amounts of pigments while painting, we are mixing different amounts of lights to create different colors of light.  Pigments use the primary colors of red, yellow and blue, whereas computers use primary colors of red, green and blue light. 
 
 This picture represents very approximately how colors mix up:
-![alt text iframe height="600px" width="40%"](../../media/colors.svg.png "color representation")
+<img src="../../media/colors.svg.png" alt="Color representation showing how red, green, and blue light mix together" width="50%">
 
 Just as we should not use too much pigment, there is also limitation for representing colors. The maximum integer we can use to represent each amount of color is 255 and the minimum integer we can use to represent each amount of color is 0. This is defined in RGB mode.
 
@@ -44,7 +44,7 @@ style="display:inline-block;width:40%;height:100px;">
 
 {{% showanswer "Show Answer" %}}
 Black. All colors are of 0%. (There is no color here. The whole world is so dark. It is black!)
-![alt text height="600px" width="40%"](../../media/black.png "black")
+<img src="../../media/black.png" alt="Black color sample" width="40%">
 </br>
 {{% /showanswer %}}
 
@@ -58,7 +58,7 @@ style="display:inline-block;width:40%;height:100px;">
 
 {{% showanswer "Show Answer" %}}
 White. 255 represents that you are using 100% of each color, which is saturate. (When all colors are saturate, you will get white)
-![alt text height="600px" width="40%"](../../media/white.png "white")
+<img src="../../media/white.png" alt="White color sample" width="40%">
 </br>
 {{% /showanswer %}}
 
@@ -72,7 +72,7 @@ style="display:inline-block;width:40%;height:100px;">
 
 {{% showanswer "Show Answer" %}}
 Gray. 100 / 255 % = 39.2%. You will get gray by adding up 39.2% of red, 39.2% of blue, and 39.2% of green.
-![alt text height="600px" width="40%"](../../media/grey.png "gray")
+<img src="../../media/grey.png" alt="Gray color sample" width="40%">
 </br>
 {{% /showanswer %}}
 
@@ -96,5 +96,5 @@ img.save('red.png')
 img.show('red.png')
 ```
 The following is your output:
-![alt text](../../media/whileloopbefore.png "red")
+<img src="../../media/whileloopbefore.png" alt="Red color output example" width="60%">
 Amazing! You get red!

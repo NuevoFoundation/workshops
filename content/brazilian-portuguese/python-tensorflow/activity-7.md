@@ -2,7 +2,7 @@
 title: "Atividade 7 - Plotando a Categoria Prevista de uma Imagem"
 date: 2020-09-09T16:19:17-07:00
 prereq: "Fundamentos de Python: Funções - Funções integradas, Funções de bibliotecas; Tipos de Dados - Strings, Números, Leitura do console; Estruturas de Dados - Listas"
-difficulty: Intermediário
+difficulties: ["intermediate"]
 weight: 12
 draft: false
 ---

@@ -3,9 +3,11 @@ title: "Java: Jogo da Velha"
 description: "Aprenda como fazer um jogo da velha no console usando Java"
 date: 2021-10-14T00:00:00Z
 prereq: "Java: Conceitos Básicos"
-difficulty: "Intermediário"
 icon: "fab fa-java"
 draft: false
+language: "java"
+topics: ["games"]
+difficulties: ["intermediate"]
 ---
 
 {{% notice tip %}}

@@ -7,5 +7,7 @@ weight: 3
 
 Nesta seção, vamos usar o que aprendemos para nos divertir com pixels e imagens!
 
-## Atividades com Pixels
+<details>
+<summary>Atividades com Pixels</summary>
 {{% children /%}}
+</details>

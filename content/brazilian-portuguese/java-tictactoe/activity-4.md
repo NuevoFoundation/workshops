@@ -3,7 +3,7 @@ title: "4. Verificar o vencedor"
 description: "escreva um método para verificar o vencedor com um tabuleiro de entrada"
 date: 2021-10-14T00:00:00Z
 prereq: "Configurar o Tabuleiro!, Ler e Processar Entrada, Atualizar o Tabuleiro do Jogo"
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 5
 ---
 

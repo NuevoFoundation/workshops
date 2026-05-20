@@ -14,12 +14,12 @@ print(24 * (8-3) / 6)   #imprime 20.0
 ```
 
 {{% notice note %}}
-O computador faz a divisão de números inteiros de maneira diferente da calculadora normal. A divisão de números inteiros excluirá restos ou decimais.
+No Python 3, o operador `/` sempre retorna um resultado decimal. Para dividir e obter um número inteiro (descartando o resto), use `//`.
 
 Por exemplo,
 
-`15/4` resulta em `3`
-`15,0/4,0` resulta em `3,75`
+`15 / 4` resulta em `3.75`
+`15 // 4` resulta em `3`
 
 {{% /notice %}}
 
@@ -60,7 +60,7 @@ Veja como imprimir um número aleatório entre 1 (inclusive) e 10 (inclusive):
 
  ```python 
  # Esta linha importa a biblioteca necessária
- from random import 
+ from random import randint
  # Esta linha imprime um número aleatório entre 1 (inclusive) e 10 (inclusive)
  print(randint(1,10))
  ```

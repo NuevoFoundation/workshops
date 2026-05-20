@@ -3,7 +3,9 @@ title: "C++: mensagens secretas"
 description: "Aprenda C++ e crie suas próprias mensagens secretas"
 date: 2021-08-10T23:26:18-05:00
 prereq: "Nenhum"
-difficulty: "Iniciante"
+language: "cpp"
+topics: ["cybersecurity"]
+difficulties: ["beginner"]
 ---
 
 ## Introdução

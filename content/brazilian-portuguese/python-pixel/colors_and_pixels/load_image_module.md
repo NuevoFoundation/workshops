@@ -1,6 +1,6 @@
 ---
 title: "Importar um módulo de imagem"
-date: 2020-02-10T13:24:17-07:00
+date: 2026-04-25T00:00:00-07:00
 draft: false
 weight: 1
 ---
@@ -19,7 +19,7 @@ Depois, adicione as instruções abaixo:
 
 Assim que você clicar em "Run", verá que o módulo será instalado no console:
 
-![alt text](../../media/installed_module.png "imagem do console mostrando o módulo instalado com sucesso")
+<img src="../../media/installed_module.png" alt="Imagem do console mostrando o módulo instalado com sucesso" width="60%">
 
 Se você viu isso, parabéns! Você importou o módulo com sucesso.  
 Se estiver com problemas, peça ajuda antes de continuar.

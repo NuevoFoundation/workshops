@@ -3,12 +3,13 @@ title: "Python: Create music with EarSketch"
 description: "Create music using Python and EarSketch"
 date: 2019-07-23T11:45:38-07:00
 prereq: "Python Basics: Print, Comments, Functions"
-difficulty: "Intermediate"
 download: ""
 draft: false
 icon: "fab fa-python"
+language: "python"
+topics: ["music"]
+difficulties: ["intermediate"]
 ---
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/g0u1CkbpUWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ### Let's make some music!
 

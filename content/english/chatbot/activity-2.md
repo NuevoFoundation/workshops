@@ -6,9 +6,10 @@ weight: 5
 
 ## AIML
 We will be using AIML to create our chatbot. AIML stands for **Artificial Intelligence Markup Language**. If you have ever used HTML to make a website, you will find that AIML looks very similar. Before we can start writing AIML, we need to sign up for an account on PandoraBots.
+<img src="../img/chat_Alice.png" alt="Illustration of the ALICE chatbot character" width="20%" />
 
 ## Pandorabots
-Go to [https://www.pandorabots.com/](https://www.pandorabots.com/) and click on **Sign Up**. Enter an email and password to create an account. Alternatevely, you can sign up using an account from Google, Facebook, Twitter, or Github. If prompted, choose the free trial option.
+Go to [https://www.pandorabots.com/](https://www.pandorabots.com/) and click on **Sign Up**. Enter an email and password to create an account. Alternatively, you can sign up using an account from Google, Facebook, Twitter, or GitHub. If prompted, choose the free trial option.
 
 ## Create a new bot
 Once you have signed up, you should see a page that looks like this:

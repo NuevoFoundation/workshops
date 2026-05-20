@@ -3,9 +3,11 @@ title: "Java: Fundamentos"
 description: "Uma introdução aos fundamentos da linguagem de programação Java"
 date: 2021-10-13T00:00:00Z
 prereq: "Nenhum"
-difficulty: "Iniciante"
 icon: "fab fa-java"
 draft: false
+language: "java"
+topics: ["programming-basics"]
+difficulties: ["beginner"]
 ---
 
 <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/udEaocEYlpc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>

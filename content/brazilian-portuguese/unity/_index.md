@@ -1,10 +1,13 @@
 ---
 title: "Unity: Jogo espacial"
 description: "Aprenda o básico do Unity criando um jogo espacial"
-date: 2021-10-06T11:45:38-07:00
-difficulty: "Avançado"
+date: 2026-04-25T00:00:00-07:00
 prerequisite: "C#: Jogo Adivinhe as Palavras"
 draft: false
+alwaysopen: false
+language: "csharp"
+topics: ["games"]
+difficulties: ["advanced"]
 ---
 
 ## Introdução
@@ -17,6 +20,7 @@ Espero que goste!
 
 ![Exemplo de um jogo funcional](./img/unity_game.gif)
 
-## Tabela de Conteúdos
-
+<details>
+<summary>Tabela de Conteúdos</summary>
 {{% children /%}}
+</details>

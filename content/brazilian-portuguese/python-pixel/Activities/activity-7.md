@@ -1,8 +1,8 @@
 ---
 title: "Atividade 7: Mudar o fundo da imagem"
 prereq: "Fundamentos de Python, Manipulação de Imagens em Python: Abrir uma Imagem, Pixels em Python: Cores e Pixels"
-difficulty: "Intermediário"
-date: 2020-09-08T00:00:00Z
+difficulties: ["intermediate"]
+date: 2026-04-25T00:00:00-07:00
 weight: 7
 draft: false
 ---
@@ -14,7 +14,7 @@ Nesta seção, vamos aprender como mudar o fundo simples de uma imagem usando pi
 ### Exemplo – Mudar a cor do fundo
 
 Vamos mudar o fundo da imagem da Nuvi para rosa.  
-<img src="../../media/nuevo.png" width=25%>
+<img src="../../media/nuevo.png" alt="Logo da Nuevo Foundation" width="25%">
 
 ```python
 from PIL import Image
@@ -43,7 +43,7 @@ newimg.save("nuevopink.png")
 ```
 
 Uau! Aqui está a Nuvi com o novo fundo rosa.  
-<img src="../../media/nuevopink.png" width=25%>
+<img src="../../media/nuevopink.png" alt="Logo da Nuevo Foundation com fundo rosa" width="25%">
 
 ### Desafio – Mude o fundo com a cor que você quiser
 

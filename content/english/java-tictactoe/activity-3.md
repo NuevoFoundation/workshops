@@ -3,7 +3,7 @@ title: "3. Update the Game Board"
 description: "learn to generate a move for computer and update the board"
 date: 2021-10-14T00:00:00Z
 prereq: "Set up the Board!, Read and Process Input"
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 4
 ---
 

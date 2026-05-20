@@ -6,6 +6,7 @@ weight: 3
 ---
 
 Segurança e privacidade são termos frequentemente usados como sinônimos, mas é importante entender como essas duas ideias são diferentes.
+{{< figure src="../img/teacher.png" alt="Ilustração de uma professora explicando conceitos de segurança" width="40%" >}}
 
 ### Segurança
 Segurança refere-se à proteção contra o acesso não autorizado a dados, independentemente do conteúdo. Qualquer medida tomada para garantir que os dados não possam ser acessados por pessoas não autorizadas é considerada segurança. Alguns exemplos incluem:
@@ -27,7 +28,7 @@ Implementamos controles de segurança para limitar quem pode acessar as informa�
 
 A segurança pode ser aplicada sem privacidade, mas a privacidade não pode ser aplicada sem segurança. 
 
-![Cannot load image](../img/security-vs-privacy.png?classes=border,shadow)
+![Diagrama comparando segurança e privacidade com três cenários possíveis](../img/security-vs-privacy.png)
 
 Aqui está um exemplo. Você pode compartilhar informações pessoais com seu banco ao abrir uma conta. O que acontece depois disso? Veja três possíveis cenários, todos relacionados às suas informações pessoais (não ao dinheiro na conta corrente). 
 

@@ -4,7 +4,7 @@ description: "Música Basica"
 date: 2020-11-25T11:45:38-07:00
 draft: false
 prereq: "None"
-difficulty: "Principiante"
+difficulties: ["beginner"]
 weight: 2
 ---
 

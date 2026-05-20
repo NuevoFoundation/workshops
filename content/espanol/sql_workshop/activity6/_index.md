@@ -3,7 +3,7 @@ title: "Actividdad 6: Utiliza Comparadores"
 description: "Utiliza Comparadores"
 date: 2020-07-11
 prereq: "Comando SELECT, comando WHERE"
-difficulty: "Intermedio"
+difficulties: ["intermediate"]
 draft: false
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->

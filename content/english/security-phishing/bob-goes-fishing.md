@@ -5,6 +5,8 @@ draft: false
 weight: 1
 ---
 
+<p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/Px1yctv-sdY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 Meet our friend **Bob**. **Bob** is a nice and jolly gentleman. His hobbies are travelling and fishing.  One fine evening **Bob** received an email saying he won a free trip to the "Bahamas". **Bob** got excited. He immediately clicked the link to enter his personal details and waited for his itinerary to come. 
 
 **Bob** decided to go shopping for his trip. He bought new clothes and a new fishing rod.

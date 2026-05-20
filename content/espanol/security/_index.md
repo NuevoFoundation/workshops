@@ -1,13 +1,16 @@
 ---
 title: "Seguridad: Juego de Espías"
 description: "¡Guía introductoria para aprender sobre contraseñas y cómo crear una segura!"
-date: 2020-02-21T11:45:38-07:00
+date: 2026-04-25T00:00:00-07:00
 prereq: "Ninguno"
-difficulty: "Principiante"
 draft: false
 icon: "fas fa-user-secret"
+language: "no-code"
+topics: ["cybersecurity"]
+difficulties: ["beginner"]
 ---
 
-## Tabla de contenidos
-
+<details>
+<summary>Tabla de contenidos</summary>
 {{% children /%}}
+</details>

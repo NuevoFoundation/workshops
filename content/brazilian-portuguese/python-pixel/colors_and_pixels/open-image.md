@@ -1,6 +1,6 @@
 ---
 title: "Abrir uma imagem"
-date: 2020-02-10T13:24:17-07:00
+date: 2026-04-25T00:00:00-07:00
 draft: false
 weight: 2
 ---
@@ -12,7 +12,7 @@ Depois que a imagem estiver salva, volte para a janela do Replit e envie o arqui
 
 Por exemplo, para enviar o arquivo `cat.jpg`:
 
-![alt text](../../media/upload_file.png "imagem mostrando como enviar um arquivo")
+<img src="../../media/upload_file.png" alt="Imagem mostrando como enviar um arquivo" width="60%">
 
 Você verá o arquivo JPG aparecer no lado esquerdo da tela após o upload.  
 Note que sua imagem pode ter uma extensão diferente (como .png, .jpeg etc.).
@@ -34,4 +34,4 @@ O código acima abre a imagem e armazena ela na variável `image`. Depois, salva
 Clique em **Run** e veja a imagem aparecer!  
 A minha imagem ficou assim:
 
-<img src="../../media/cat.png" alt="gato" width=50%>
+<img src="../../media/cat.png" alt="gato" width="50%">

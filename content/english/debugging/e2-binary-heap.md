@@ -1,6 +1,6 @@
 ---
 title: "Exercise 2 - Binary Heap Implementation"
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
 weight: 10
 draft: false
 ---

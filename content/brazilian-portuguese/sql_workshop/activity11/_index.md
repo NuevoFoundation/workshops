@@ -3,7 +3,7 @@ title: "Atividade 11: Aprenda o comando GROUP BY"
 description: "Aprenda o comando GROUP BY"
 date: 2020-07-06
 prereq: "Comando SELECT, Comando WHERE"
-difficulty: "Iniciante"
+difficulties: ["beginner"]
 draft: false
 ---
 <!-- Links para javascript e CSS necessários para lógica suspensa -->

@@ -1,10 +1,13 @@
 ---
 title: "Unity: Top-Down Nuvi Space Game"
 description: "Learn the basics of Unity by creating a top-down space game"
-date: 2021-10-06T11:45:38-07:00
-difficulty: "Advanced"
+date: 2026-04-25T00:00:00-07:00
 prerequisite: "C#: Guess the Word Game"
 draft: false
+alwaysopen: false
+language: "csharp"
+topics: ["games"]
+difficulties: ["advanced"]
 ---
 
 ## Introduction
@@ -17,6 +20,7 @@ Hope you enjoy!
 
 ![Sample of a working game](./img/unity_game.gif)
 
-## Table of Contents
-
+<details>
+<summary>Table of Contents</summary>
 {{% children /%}}
+</details>

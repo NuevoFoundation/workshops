@@ -1,11 +1,14 @@
 ---
 title: "C: O Processo de Depuração"
 description: "Uma introdução à depuração de programas"
-date: 2021-10-13T00:00:00Z
-difficulty: "Intermediário"
+date: 2026-04-25T00:00:00-07:00
 prereq: "C"
 icon: ""
 draft: false
+alwaysopen: false
+language: "c"
+topics: ["programming-basics"]
+difficulties: ["intermediate"]
 ---
 
 ## Introdução
@@ -55,6 +58,7 @@ Os exemplos foram feitos em um único Replit. Vamos mostrar todos os comandos qu
 
 {{% /panel %}}
 
-## Conteúdo do Workshop
-
+<details>
+<summary>Conteúdo do Workshop</summary>
 {{% children /%}}
+</details>

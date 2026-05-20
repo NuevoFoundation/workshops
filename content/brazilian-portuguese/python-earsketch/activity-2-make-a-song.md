@@ -2,7 +2,7 @@
 title: "Atividade 2 – Faça uma música!"
 description: "Configurando fones de ouvido"
 prereq: "Python: Fundamentos. Impressão, comentários, funções"
-difficulty: "Intermediário"
+difficulties: ["intermediate"]
 weight: 6
 draft: false
 ---

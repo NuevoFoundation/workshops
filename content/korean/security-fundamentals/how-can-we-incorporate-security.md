@@ -23,6 +23,7 @@ weight: 2
  <div>
    <button id="submit_button" type="button" onclick="displaySection()">제출</button>
  </div>
+ {{< figure src="../img/question.png" alt="보안에 대한 질문을 고민하는 캐릭터 일러스트" width="20%" >}}
 </br>
  
  <!-- Hidden section with sample answers -->

@@ -2,7 +2,7 @@
 title: "Etapa 4: Pré-processar os dados"
 description: "Conceitos básicos de Machine Learning"
 prereq: "nenhum"
-difficulty: "Intermediário"
+difficulties: ["intermediate"]
 draft: false
 weight: 4
 ---

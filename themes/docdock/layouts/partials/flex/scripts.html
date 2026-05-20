@@ -1,7 +1,7 @@
 <script src="{{"js/clipboard.min.js" | relURL}}"></script>
 
-<link href="{{"css/featherlight.min.css" | relURL}}" rel="stylesheet">
-<script src="{{"js/featherlight.min.js" | relURL}}"></script>
+<link href="https://cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.css" rel="stylesheet" integrity="sha256-UHP0vaPqS1SY6G5ySZndoVKzQJYBSVF2pqs4mPrDEcE=" crossorigin="anonymous" onerror="this.onerror=null;this.href='{{"css/featherlight.min.css" | relURL}}';">
+<script src="https://cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.js" integrity="sha256-n/xqYYgRqwjNP/0+0VT5jmenhdqhKCSkSpmFT5aPGZM=" crossorigin="anonymous" onerror="this.onerror=null;this.src='{{"js/featherlight.min.js" | relURL}}';"></script>
 
 {{if eq .Site.Params.highlightClientSide true}}
 <script src="{{"js/highlight.pack.js" | relURL}}"></script>
@@ -9,3 +9,7 @@
 {{end}}
 
 <script src="{{(printf "theme-%s/script.js" (.Site.Params.themeStyle| default "flex")) | relURL}}"></script>
+
+{{ if .IsHome }}
+<script src="{{"js/workshop-explorer.js" | relURL}}" defer></script>
+{{ end }}

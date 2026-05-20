@@ -5,6 +5,8 @@ weight: 7
 draft: false
 ---
 
+<p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/Z6omKevIUKo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 <img src="../media/bee_honeycomb.png" alt="Honeycomb drawing" width="25%" />
 
 This is the finale! Let's create the honeycomb that Alex will live in. Fortunately, a honeycomb is simply 6 hexagons, so let's combine our knowledge of functions and loops to make our honeycomb! 

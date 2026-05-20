@@ -4,7 +4,7 @@ date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 6
 prereq: "Python Basics: Variables"
-difficulty: Intermediate
+difficulties: ["intermediate"]
 --- 
 
 Now that we know the basics about variables, we can ask for input from the user. Use the following line to tell our program to wait until the user types something into the console. Then, the computer takes whatever is typed into the console, and stores it into the variable called **value**.

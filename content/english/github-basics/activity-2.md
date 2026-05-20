@@ -1,7 +1,7 @@
 ---
 title: "Room 2: The Commit Conundrum"
 description: "Learn to make changes and commit them to your repository."
-difficulty: "Beginner"
+difficulties: ["beginner"]
 weight: 2
 ---
 

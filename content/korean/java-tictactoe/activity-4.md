@@ -3,7 +3,7 @@ title: "4. 승자를 확인하기"
 description: "write method to check the winner with an input board"
 date: 2021-10-14T00:00:00Z
 prereq: "게임판 설정하기!, 입력을 읽고 처리하기, 게임판 업데이트하기"
-difficulty: "중급"
+difficulties: ["intermediate"]
 weight: 5
 ---
 
