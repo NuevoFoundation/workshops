@@ -1,4 +1,3 @@
-```markdown
 ---
 title: "Консолго жазуу"
 description: "C# тилинде басып чыгаруу ыкмаларын тааныштыруу."
@@ -55,4 +54,3 @@ Console.Write("apples.");
 Console.WriteLine("\"");  // бул " белгини басып чыгарат
 ```
 {{% /notice %}}
-```

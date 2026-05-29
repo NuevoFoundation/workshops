@@ -1,11 +1,9 @@
-```yaml
 ---
 title: "输出到控制台"
 description: "介绍 C# 中的打印方法。"
 date: 2024-09-16T00:00:00Z
 weight: 2
 ---
-```
 
 ## 您的第一个 C# 程序
 
@@ -56,4 +54,3 @@ Console.Write("apples.");
 Console.Writeline("\"");  // 这将打印出 "
 ```
 {{% /notice %}}
-```
