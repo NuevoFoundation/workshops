@@ -1,4 +1,3 @@
-```markdown
 ---
 title: "Actividad 3: Añade tus propias categorías"
 draft: false
@@ -39,4 +38,3 @@ Recuerda guardar el archivo cada vez que modifiques las categorías y quieras in
 {{% /notice %}}
 
 Intenta añadir estas categorías a tu bot y pruébalas usando el widget de chat. En este punto, el bot debería responder a "Hello", "What is your name?", "What is your favorite color?" y "What is your favorite food?".
-```

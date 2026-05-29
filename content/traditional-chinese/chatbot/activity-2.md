@@ -1,4 +1,3 @@
-```markdown
 ---
 title: "活動 2：設定 PandoraBots"
 draft: false
@@ -55,4 +54,3 @@ weight: 5
 聊天小工具（Chat Widget）允許你與機器人對話。點擊右下角的「聊天氣泡」圖示，開始與機器人對話。輸入 `Hello`，你應該會收到你剛才編寫的回應：`“Hello, world!”`
 
 <p style="text-align: center;"><img src="../img/pandorabots_7.png" alt="在 PandoraBots 上測試機器人" width="40%"/></p>
-```

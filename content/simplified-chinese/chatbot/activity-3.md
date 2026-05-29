@@ -1,10 +1,8 @@
-```yaml
 ---
 title: "活动3：添加您自己的分类"
 draft: false
 weight: 7
 ---
-```
 
 ## 添加更多分类
 

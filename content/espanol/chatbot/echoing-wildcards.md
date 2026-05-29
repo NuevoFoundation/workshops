@@ -1,4 +1,3 @@
-```markdown
 ---
 title: "Repetición de comodines"
 draft: false
@@ -30,4 +29,3 @@ Entrada | Salida
 MI COLOR FAVORITO ES AZUL | Tu color favorito es azul.
 MI COLOR FAVORITO ES ROJO | Tu color favorito es rojo.
 MI COLOR FAVORITO ES VERDE | Tu color favorito es verde.
-```

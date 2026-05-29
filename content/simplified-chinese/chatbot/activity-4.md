@@ -1,4 +1,3 @@
-```markdown
 ---
 title: "Activity 4: Wildcards"
 draft: false
@@ -20,4 +19,3 @@ weight: 9
 
 3. 如果用户输入的问题以 **“名字”结尾**（例如：“你的名字是什么？”、“你的名字是什么？”、“你有名字吗？”），机器人应该回答“我的名字是聊天机器人”。
 <img src="../img/idea.png" alt="" width="20%"/>
-```

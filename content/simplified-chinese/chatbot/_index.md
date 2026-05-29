@@ -1,4 +1,3 @@
-```markdown
 ---
 title: "创建您自己的聊天机器人"
 description: "聊天机器人入门指南"
@@ -46,4 +45,3 @@ difficulties: ["beginner"]
 <summary>目录</summary>
 {{% children /%}}
 </details>
-```

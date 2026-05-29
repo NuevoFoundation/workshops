@@ -1,4 +1,3 @@
-```markdown
 ---
 title: "Kategorien"
 draft: false
@@ -25,4 +24,3 @@ Schauen wir uns das folgende Beispiel an: Das Muster ist "HELLO" und die Vorlage
 Beim Schreiben des Musters empfehlen wir, alles in GROSSBUCHSTABEN zu schreiben und auf die Verwendung von Satzzeichen zu verzichten. Wenn Sie beispielsweise "What is your name?" abgleichen möchten, sollten Sie das Muster als "WHAT IS YOUR NAME" schreiben. Pandora entfernt alle Satzzeichen in der Benutzereingabe, bevor das Muster abgeglichen wird.
 
 {{% /notice %}}
-```

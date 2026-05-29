@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "回显通配符"
 draft: false
@@ -30,4 +29,3 @@ weight: 9
 MY FAVORITE COLOR IS BLUE | Your favorite color is blue.
 MY FAVORITE COLOR IS RED | Your favorite color is red.
 MY FAVORITE COLOR IS GREEN | Your favorite color is green.
-```

@@ -1,4 +1,3 @@
-```markdown
 ---
 title: "Aktivität 3: Füge deine eigenen Kategorien hinzu"
 draft: false
@@ -39,4 +38,3 @@ Erinnerung: Speichere die Datei immer, wenn du die Kategorien änderst und mit d
 {{% /notice %}}
 
 Versuche, diese Kategorien deinem Bot hinzuzufügen und teste sie im Chat-Widget. An diesem Punkt sollte der Bot auf "Hallo", "Wie heißt du?", "Was ist deine Lieblingsfarbe?" und "Was ist dein Lieblingsessen?" antworten.
-```

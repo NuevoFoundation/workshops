@@ -1,4 +1,3 @@
-```markdown
 ---
 title: "Aktivität 5: Wildcards wiedergeben"
 draft: false
@@ -32,4 +31,3 @@ Eingabe | Ausgabe
 Mein Lieblingsessen ist Pizza | Pizza! Lecker!
 Mein Lieblingsessen ist Pasta | Pasta! Lecker!
 Mein Lieblingsessen ist Sushi | Sushi! Lecker!
-```

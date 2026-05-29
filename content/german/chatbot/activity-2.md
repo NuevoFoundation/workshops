@@ -1,4 +1,3 @@
-```markdown
 ---
 title: "Aktivität 2: Einrichten von PandoraBots"
 draft: false
@@ -54,4 +53,3 @@ Nachdem du fertig bist, speichere deine Datei über das Dropdown-Menü „File�
 Das Chat-Widget ermöglicht es dir, mit deinem Bot zu sprechen. Klicke auf das "Chatblasen"-Symbol unten rechts, um mit deinem Bot zu sprechen. Gib `Hello` ein, und du solltest die Antwort erhalten, die du gerade codiert hast: `“Hello, world!”`
 
 <p style="text-align: center;"><img src="../img/pandorabots_7.png" alt="Mit deinem Bot auf PandoraBots chatten" width="40%"/></p>
-```

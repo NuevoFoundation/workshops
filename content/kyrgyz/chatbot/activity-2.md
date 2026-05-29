@@ -1,4 +1,3 @@
-```markdown
 ---
 title: "Ишмердүүлүк 2: PandoraBots орнотуу"
 draft: false
@@ -55,4 +54,3 @@ weight: 5
 Chat Widget сизге бот менен сүйлөшүүгө мүмкүнчүлүк берет. Төмөнкү оң бурчтагы "сүйлөшүү көптүрлары" иконасын басып, ботуңуз менен сүйлөшүүнү баштаңыз. `Hello` деп текст жазыңыз, жана сиз жазган жоопту, `“Hello, world!”` аласыз.
 
 <p style="text-align: center;"><img src="../img/pandorabots_7.png" alt="pandorabots'ta жаңы файл кошуу" width="40%"/></p>
-```

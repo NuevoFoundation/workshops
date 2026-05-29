@@ -1,4 +1,3 @@
-```markdown
 ---
 title: "Faire Écho aux Jokers"
 draft: false
@@ -30,4 +29,3 @@ Entrée | Sortie
 MA COULEUR PRÉFÉRÉE EST BLEU | Ta couleur préférée est bleu.
 MA COULEUR PRÉFÉRÉE EST ROUGE | Ta couleur préférée est rouge.
 MA COULEUR PRÉFÉRÉE EST VERT | Ta couleur préférée est vert.
-```

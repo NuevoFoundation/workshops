@@ -1,4 +1,3 @@
-```markdown
 ---
 title: "Actividad 2: Configurar PandoraBots"
 draft: false
@@ -55,4 +54,3 @@ Una vez completado, guarda tu archivo desde el menú desplegable “File”.
 El Chat Widget te permite hablar con tu bot. Haz clic en el ícono de "burbujas de chat" en la esquina inferior derecha para comenzar a interactuar con tu bot. Escribe `Hello` y deberías recibir la respuesta que acabas de programar, `“Hello, world!”`
 
 <p style="text-align: center;"><img src="../img/pandorabots_7.png" alt="añadiendo un nuevo archivo en pandorabots" width="40%"/></p>
-```

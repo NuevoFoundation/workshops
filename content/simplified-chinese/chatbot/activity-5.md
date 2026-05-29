@@ -1,4 +1,3 @@
-```markdown
 ---
 title: "Activity 5: Echoing Wildcards"
 draft: false
@@ -32,4 +31,3 @@ My favorite color is green | I also like green!
 My favorite food is pizza | pizza! Yum!  
 My favorite food is pasta | pasta! Yum!  
 My favorite food is sushi | sushi! Yum!  
-```

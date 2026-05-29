@@ -1,4 +1,3 @@
-```markdown
 ---
 title: "活动 2：设置 PandoraBots"
 draft: false
@@ -55,4 +54,3 @@ weight: 5
 聊天窗口部件允许你与机器人对话。点击右下角的“聊天气泡”图标开始和机器人聊天。输入 `Hello`，你应该会收到刚才编写的响应：`“Hello, world!”`
 
 <p style="text-align: center;"><img src="../img/pandorabots_7.png" alt="在 Pandorabots 上测试机器人" width="40%"/></p>
-```

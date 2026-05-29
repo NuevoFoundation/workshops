@@ -1,4 +1,3 @@
-```markdown
 ---
 title: "Activité 5 : Écho des jokers"
 draft: false
@@ -32,4 +31,3 @@ Entrée | Sortie
 Ma nourriture préférée est pizza | pizza ! Miam !
 Ma nourriture préférée est pâtes | pâtes ! Miam !
 Ma nourriture préférée est sushi | sushi ! Miam !
-```

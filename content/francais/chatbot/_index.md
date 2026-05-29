@@ -1,4 +1,3 @@
-```markdown
 ---
 title: "Créez votre propre chatbot"
 description: "Un guide introductif sur les chatbots"
@@ -46,4 +45,3 @@ Les chatbots existent depuis longtemps. Le premier chatbot a été créé en 196
 <summary>Table des matières</summary>
 {{% children /%}}
 </details>
-```

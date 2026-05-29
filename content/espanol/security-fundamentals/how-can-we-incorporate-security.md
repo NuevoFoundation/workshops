@@ -1,4 +1,3 @@
-```markdown
 ---
 title: "¿Cómo podemos incorporar la seguridad en nuestra vida diaria?"
 description: ""
@@ -40,4 +39,3 @@ La ciberseguridad es un campo amplio donde todos debemos aportar para asegurarno
  </div>
 </div>
 {{< /rawhtml >}}
-```
