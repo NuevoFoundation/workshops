@@ -1,0 +1,81 @@
+# body-beforecontent.html
+[navigation]
+other = "Навигация:"
+
+# next-prev-button.html
+[up-next]
+other = "Следующий:"
+
+[previous]
+other = "Предыдущий:"
+
+# custom-footer.html
+[join-social-media]
+other = "Присоединяйся в социальных сетях."
+
+[copyright-footer]
+other = "© Copyright 2025, All Rights Reserved by Nuevo Foundation, a 501(c)(3) nonprofit."
+
+# header.html
+[donate]
+other = "Пожертвования"
+
+[what-we-do]
+other = "Чем мы занимаемся"
+
+[workshops]
+other = "Воркшопы"
+
+[get-involved]
+other = "Присоединяйся к команде"
+
+[support-us]
+other = "Поддержи нас"
+
+[event-blog]
+other = "Блог"
+
+[our-team]
+other = "Наша команда"
+
+[contact-us]
+other = "Напиши нам!"
+
+# Metadata.html
+[workshop-resources]
+other = "Ресурсы для воркшопа"
+
+[pre-requisite]
+other = "Сначала закончи:"
+
+[difficulty]
+other = "Сложность:"
+
+[download]
+other = "Скачать:"
+
+# next-prev-page.html
+[you-did-it]
+other = "У тебя получилось!"
+
+[workshop-complete]
+other = "Воркшоп закончен"
+
+# notice.html
+[note]
+other = "Заметка"
+
+[info]
+other = "Информация"
+
+[warning]
+other = "Предупреждение"
+
+[tip]
+other = "Совет"
+
+[help]
+other = "Помощь"
+
+[hint]
+other = "Подсказка"
