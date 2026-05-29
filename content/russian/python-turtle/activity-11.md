@@ -7,9 +7,9 @@ draft: false
 
 Если останется время, попробуйте нарисовать свои собственные фигуры и узоры! Сделайте изображение интересным, используя разные формы и цвета.
 
-Нажми на кнопку снизу что бы открыть новое окно Trinket и нарисовать свой узор.
+Нажми на кнопку снизу, чтобы открыть новое окно Trinket и нарисовать свой узор.
 
-<a class="my-2 mx-4 btn btn-info" href="https://trinket.io/library/trinkets/create?lang=python3" target="_blank">Click here</a>
+<a class="my-2 mx-4 btn btn-info" href="https://trinket.io/library/trinkets/create?lang=python3" target="_blank">Нажми здесь</a>
 
 ## Помогите, я застрял!
 
