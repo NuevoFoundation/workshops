@@ -7,7 +7,7 @@ draft: false
 
 <link rel="stylesheet" href="../_logic-gates.css" type="text/css"></link>
 
-<img src="../media/ranita.jpg" alt="Decoración" width="15%" />
+<img src="../media/ranita.webp" alt="Decoración" width="15%" />
 
 ## Introducción
 
@@ -22,7 +22,7 @@ Tu misión es construir un circuito que **invierta** la señal de entrada.
 
 ---
 
-<img src="../media/Pattern.webp" alt="Decoración" width="100%" />
+<img src="../media/pattern.webp" alt="Decoración" width="100%" />
 
 ## ¿Qué es la compuerta NOT?
 
@@ -48,7 +48,7 @@ Ver tabla de verdad completa
 
 ---
 
-<img src="../media/paisaje_lago.webp" alt="Decoración" width="100%" />
+<img src="../media/paisaje-lago.webp" alt="Decoración" width="100%" />
 
 ## Instrucciones en el simulador
 
@@ -59,7 +59,7 @@ Ver tabla de verdad completa
    - **NOT Gate** ➔ una compuerta NOT entre la entrada y la salida.
    - **Output** ➔ una salida a la derecha de la compuerta.
 
-<img src="../media/actividad_3.png" alt="Decoración" width="20%" class="lg-img"/>
+<img src="../media/actividad-3.webp" alt="Decoración" width="20%" class="lg-img"/>
 
 ### 2. Conectar los componentes
 1. Conectá la **salida** del **Input A** a la **entrada** de la **NOT**.  

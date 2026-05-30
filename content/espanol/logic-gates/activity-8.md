@@ -7,7 +7,7 @@ draft: false
 
 <link rel="stylesheet" href="../_logic-gates.css" type="text/css"></link>
 
-<img src="../media/monito.jpg" alt="Decoración" width="20%" />
+<img src="../media/monito.webp" alt="Decoración" width="20%" />
 
 ## Introducción
 
@@ -18,7 +18,7 @@ En la sala de reflejos, el **Monito** te explica:
 
 ---
 
-<img src="../media/Pattern.webp" alt="Decoración" width="100%" />
+<img src="../media/pattern.webp" alt="Decoración" width="100%" />
 
 ## Objetivo lógico
 
@@ -43,7 +43,7 @@ Ver tabla de verdad completa
 
 ---
 
-<img src="../media/paisaje_bosque.webp" alt="Decoración" width="100%" />
+<img src="../media/paisaje-bosque.webp" alt="Decoración" width="100%" />
 
 ## Instrucciones en el simulador
 
@@ -54,7 +54,7 @@ Ver tabla de verdad completa
 - **OR Gate**  
 - **Output**
 
-<img src="../media/actividad_8.png" alt="Decoración" width="20%" class="lg-img"/>
+<img src="../media/actividad-8.webp" alt="Decoración" width="20%" class="lg-img"/>
 
 ### 2. Conectar
 1. A ➔ **NOT**: `NOT_A`  

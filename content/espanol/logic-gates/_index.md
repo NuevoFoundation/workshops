@@ -19,14 +19,14 @@ Pero algo ha pasado... la esfera se está apagando, y solo podrá encenderse de 
 
 ---
 
-<img src="./media/Pattern.webp" alt="Decoracion" width="100%" />
+<img src="./media/pattern.webp" alt="Decoracion" width="100%" />
 
 
 ## ¿Listo para comenzar?
 
 Haz clic en la primera sección para iniciar la aventura con nuestros amigos del bosque.
 
-<img src="./media/Sphere.webp" alt="Decoracion" width="10%" />
+<img src="./media/sphere.webp" alt="Decoracion" width="10%" />
 
 ---
 

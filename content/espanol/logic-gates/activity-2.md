@@ -21,7 +21,7 @@ Tu misión es comprobar este comportamiento en el simulador y encender el camino
 
 ---
 
-<img src="../media/Pattern.webp" alt="Decoración" width="100%" />
+<img src="../media/pattern.webp" alt="Decoración" width="100%" />
 
 ## ¿Qué es la compuerta OR?
 
@@ -48,7 +48,7 @@ Ver tabla de verdad completa
 
 ---
 
-<img src="../media/paisaje_camino.webp" alt="Decoración" width="100%" />
+<img src="../media/paisaje-camino.webp" alt="Decoración" width="100%" />
 
 ## Instrucciones en el simulador
 
@@ -59,7 +59,7 @@ Ver tabla de verdad completa
    - **OR Gate** ➔ colocá una compuerta OR entre las entradas y la salida.
    - **Output** ➔ colocá una salida a la derecha de la compuerta.
 
-<img src="../media/actividad_2.png" alt="Decoración" width="20%" class="lg-img"/>
+<img src="../media/actividad-2.webp" alt="Decoración" width="20%" class="lg-img"/>
 
 ### 2. Conectar los componentes
 1. Conectá la **salida** de la **entrada A** a una de las **entradas** de la compuerta **OR**.  
