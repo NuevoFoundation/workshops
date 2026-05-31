@@ -7,7 +7,7 @@ draft: false
 
 <link rel="stylesheet" href="../_logic-gates.css" type="text/css"></link>
 
-<img src="../media/tucan.png" alt="Decoración" width="15%" />
+<img src="../media/tucan.webp" alt="Decoración" width="15%" />
 
 ## Introducción
 
@@ -22,7 +22,7 @@ Tu misión es probar este comportamiento utilizando el simulador de compuertas l
 
 ---
 
-<img src="../media/Pattern.webp" alt="Decoración" width="100%" />
+<img src="../media/pattern.webp" alt="Decoración" width="100%" />
 
 ## ¿Qué es la compuerta AND?
 
@@ -49,7 +49,7 @@ Ver tabla de verdad completa
 
 ---
 
-<img src="../media/paisaje_puerta.webp" alt="Decoración" width="100%" />
+<img src="../media/paisaje-puerta.webp" alt="Decoración" width="100%" />
 
 ## Instrucciones en el simulador
 
@@ -60,7 +60,7 @@ Ver tabla de verdad completa
    - **AND Gate** ➔ colocá una compuerta AND.
    - **Output** ➔ colocá una salida a la derecha de la compuerta.
 
-<img src="../media/actividad_1.png" alt="Decoración" width="20%" class="lg-img"/>
+<img src="../media/actividad-1.webp" alt="Decoración" width="20%" class="lg-img"/>
 
 ### 2. Conectar los componentes
 1. Hacé clic en el círculo de salida de la **entrada A**, luego clic en una de las entradas de la compuerta AND.  

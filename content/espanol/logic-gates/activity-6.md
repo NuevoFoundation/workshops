@@ -18,7 +18,7 @@ El **Perezoso** te espera en la montaña:
 
 ---
 
-<img src="../media/Pattern.webp" alt="Decoración" width="100%" />
+<img src="../media/pattern.webp" alt="Decoración" width="100%" />
 
 ## Objetivo lógico
 
@@ -43,7 +43,7 @@ Ver tabla de verdad completa
 
 ---
 
-<img src="../media/paisaje_camino.webp" alt="Decoración" width="100%" />
+<img src="../media/paisaje-camino.webp" alt="Decoración" width="100%" />
 
 ## Instrucciones en el simulador
 
@@ -53,7 +53,7 @@ Ver tabla de verdad completa
 - **NOT Gate**  
 - **Output**
 
-<img src="../media/actividad_6.png" alt="Decoración" width="20%" class="lg-img"/>
+<img src="../media/actividad-6.webp" alt="Decoración" width="20%" class="lg-img"/>
 
 ### 2. Conectar
 1. A y B ➔ **OR**  

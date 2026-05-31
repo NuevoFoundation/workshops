@@ -7,7 +7,7 @@ draft: false
 
 <link rel="stylesheet" href="../_logic-gates.css" type="text/css"></link>
 
-<img src="../media/monito.jpg" alt="Decoración" width="20%" />
+<img src="../media/monito.webp" alt="Decoración" width="20%" />
 
 ## Introducción
 
@@ -20,7 +20,7 @@ En esta actividad construirás un circuito que usa **todas** las compuertas para
 
 ---
 
-<img src="../media/Pattern.webp" alt="Decoración" width="100%" />
+<img src="../media/pattern.webp" alt="Decoración" width="100%" />
 
 ## Objetivo
 
@@ -42,11 +42,11 @@ Este circuito usa **NOT**, **AND** y **OR**.
 - 1 **OR Gate**  
 - 1 **Output**
 
-<img src="../media/actividad_4.png" alt="Decoración" width="20%" style="vertical-align: middle; margin-left: 10px;"/>
+<img src="../media/actividad-4.webp" alt="Decoración" width="20%" style="vertical-align: middle; margin-left: 10px;"/>
 
 ---
 
-<img src="../media/paisaje_bosque.webp" alt="Decoración" width="100%" />
+<img src="../media/paisaje-bosque.webp" alt="Decoración" width="100%" />
 
 ## Instrucciones en el simulador
 
