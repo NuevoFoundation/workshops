@@ -89,4 +89,4 @@ If the input is at `1` and the output shows `1`, your circuit is working.
 
 ## Next up
 
-When you are ready, in the next activity you will meet the Toucan (Tucán) and learn how to use the **AND** logic gate.
+When you are ready, in the next activity you will meet the Toucan and learn how to use the **AND** logic gate.

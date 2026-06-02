@@ -11,7 +11,7 @@ draft: false
 
 ## Introduction
 
-In the hall of reflections, the **Little Monkey (Monito)** explains:
+In the hall of reflections, the **Little Monkey** explains:
 
 > "To activate the chamber, the signals must **match**.  
 > If A and B are equal, the door opens."
@@ -31,7 +31,7 @@ See full truth table
 
 <div class="lg-div">
 
-| A | B | NOT A | NOT B | A AND B | (NOT A AND NOT B) | Output |
+| A | B | NOT A | NOT B | A AND B | (NOT A AND NOT B)  | Output |
 |---|---|-------|-------|---------|--------------------|--------|
 | 0 | 0 |   1   |   1   |    0    |         1          |   1    |
 | 0 | 1 |   1   |   0   |    0    |         0          |   0    |

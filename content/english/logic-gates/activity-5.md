@@ -32,7 +32,7 @@ See full truth table
 
 <div class="lg-div">
 
-| A | B | A AND B | Output = NOT(A AND B) |
+| A | B | A AND B | Output = NOT(A AND B)  |
 |---|---|---------|------------------------|
 | 0 | 0 |    0    |           1            |
 | 0 | 1 |    0    |           1            |

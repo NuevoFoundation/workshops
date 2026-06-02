@@ -88,7 +88,7 @@ See full truth table
 
 <div class="lg-div">
 
-| A | B | C | NOT C | A AND NOT C | Output = (A AND NOT C) OR B |
+| A | B | C | NOT C | A AND NOT C | Output = (A AND NOT C) OR B  |
 |---|---|---|-------|-------------|------------------------------|
 | 0 | 0 | 0 |   1   |      0      |              0               |
 | 0 | 0 | 1 |   0   |      0      |              0               |

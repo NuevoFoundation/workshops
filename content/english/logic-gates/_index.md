@@ -11,7 +11,7 @@ draft: false
 ## Introduction
 
 Welcome to the **Digital Magic Forest**.
-Here live very special animals: the **Frog (Rana)**, the **Toucan (Tucán)**, the **Sloth (Perezoso)**, and the **Little Monkey (Monito)**. 
+Here live very special animals: the **Frog**, the **Toucan**, the **Sloth**, and the **Little Monkey**. 
 
 They protect a **magic sphere** that keeps the forest full of life and light.  
 But something has happened... the sphere is fading, and it can only be turned back on if **we solve puzzles using logic gates**.  

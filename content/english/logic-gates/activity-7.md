@@ -11,7 +11,7 @@ draft: false
 
 ## Introduction
 
-The **Frog (Rana)** guards a bridge with a precise rule:
+The **Frog** guards a bridge with a precise rule:
 
 > "Only those carrying **exactly one** lit torch may cross.  
 > If you carry none or both, the bridge closes."
@@ -32,7 +32,7 @@ See full truth table
 
 <div class="lg-div">
 
-| A | B | A OR B | A AND B | NOT(A AND B) | Output |
+| A | B | A OR B | A AND B | NOT(A AND B)  | Output |
 |---|---|--------|---------|---------------|--------|
 | 0 | 0 |   0    |    0    |       1       |   0    |
 | 0 | 1 |   1    |    0    |       1       |   1    |

@@ -91,4 +91,4 @@ See full truth table
 
 ## Next up
 
-In the next activity, you will walk down the trail until you meet the Sloth (Perezoso) and discover how the OR gate works.
+In the next activity, you will walk down the trail until you meet the Sloth and discover how the OR gate works.

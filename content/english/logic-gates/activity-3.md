@@ -108,4 +108,4 @@ See full truth table
 
 ## Next up
 
-Excellent! In the next activity, the **Little Monkey (Monito)** will show you how to **combine** AND, OR, and NOT to solve more complex challenges and restore the energy to the **Forest Sphere**.
+Excellent! In the next activity, the **Little Monkey** will show you how to **combine** AND, OR, and NOT to solve more complex challenges and restore the energy to the **Forest Sphere**.

@@ -12,7 +12,7 @@ draft: false
 ## Introduction
 
 
-The **Sloth (Perezoso)** is waiting for you on the mountain:
+The **Sloth** is waiting for you on the mountain:
 
 > "I want total silence: the output only turns on when **no** trail has light.  
 > Let's use **OR** to detect if there's light, and **NOT** to invert."

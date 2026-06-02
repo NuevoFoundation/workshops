@@ -97,4 +97,4 @@ See full truth table
 
 ## Next up
 
-In the next activity, you will visit the reflection pond with the **Frog (Rana)** and discover how the **NOT** gate works.
+In the next activity, you will visit the reflection pond with the **Frog** and discover how the **NOT** gate works.
