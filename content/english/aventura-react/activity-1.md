@@ -94,7 +94,6 @@ const reiniciar = () => setTortugas(0);
 
 {{% /notice %}}
 
-
 ```jsx 
 <p>Has salvado {tortugas} de {total} tortugas</p>
 ``` 
