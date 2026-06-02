@@ -9,7 +9,7 @@ draft: false
 
 Great! You managed to save the turtles. Now to clean the beaches of Costa Rica we will learn how to use constants with arrays, for loops, and let variables.
 
-**Write this file `"Playa.jsx"`**
+**Write this file `"Playa.jsx"`**:
 
 {{% notice info %}}
 ### Important to use:
@@ -18,9 +18,6 @@ Great! You managed to save the turtles. Now to clean the beaches of Costa Rica w
 <p style="font-size:1.6rem; color:#444; line-height:1.8;">2. export default function Playa() { }</p>
 
 {{% /notice %}}
-
-
-
 First, what we are going to do is create an array where you can store any number of elements. Look at this example!
 
 This is how arrays normally look in React.
@@ -40,19 +37,16 @@ We need to create a function to be able to clean the beach of the waste in the a
 
 ``` jsx
 const limpiar = (d) => setDesechos(desechos.filter((x) => x !== d));
-
 ``` 
 
 This function removes a piece of waste from the list when you click on it. Let's see how it works:
 
-
-
 {{% notice tip %}}
 ### What does this function do?
 <p style="font-size:1.6rem; color:#444; line-height:1.8;"><code>const limpiar = (d) => setDesechos(desechos.filter((x) => x !== d));</code></p>
-<p style="font-size:1.6rem; color:#444; line-height:1.8;">When you click it, it removes what you have in the array</p>
-<p style="font-size:1.6rem; color:#444; line-height:1.8;">The filter checks one by one, creates a new array, then saves the list without that piece of waste</p>
-<p style="font-size:1.6rem; color:#444; line-height:1.8;">Example: if you remove plastic, you are left with glass, metal, and paper</p>
+<p style="font-size:1.6rem; color:#444; line-height:1.8;">When you click it, it removes what you have in the array.</p>
+<p style="font-size:1.6rem; color:#444; line-height:1.8;">The filter checks one by one, creates a new array, then saves the list without that piece of waste.</p>
+<p style="font-size:1.6rem; color:#444; line-height:1.8;">Example: if you remove plastic, you are left with glass, metal, and paper.</p>
 
 {{% /notice %}}
 
@@ -87,10 +81,6 @@ This saves us from writing 4 buttons by hand.
 **If the list changes, React redraws only the remaining buttons.**
 
 {{% /notice %}}
-
-
-
-```jsx
 return (
   <div className="playas-container">
       <h2>Limpieza de las Playas</h2>

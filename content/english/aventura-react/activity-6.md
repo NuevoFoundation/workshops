@@ -12,8 +12,7 @@ And also the end of your first **React** workshop! 🚀💻
 
 <img src="../media/React.png" alt="Photo of Sharky with React" width="25%" />
 
-Today you not only learned about volcanoes, beaches, sloths, turtles, and the coffee farm,  
-you also learned **how to build a complete application**, step by step, with:
+Today you not only learned about volcanoes, beaches, sloths, turtles, and the coffee farm, you also learned **how to build a complete application**, step by step, with:
 
 - 🌱 **Components**
 - 🔄 **useState**

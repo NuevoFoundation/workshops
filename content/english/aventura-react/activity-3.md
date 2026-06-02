@@ -9,9 +9,9 @@ Do you know how important coffee is in Costa Rica?
 
 Costa Rican coffee is recognized worldwide for its high quality, thanks to the combination of fertile volcanic soils, an ideal climate, and the exclusive cultivation of Arabica beans. The country prohibits the cultivation of the Robusta variety to guarantee a smooth and balanced product. Coffee has historically been vital to the economy and culture of the country, and it is grown in various regions, including Tarrazú, which is one of the most famous.
 
-So let's learn about the coffee process and why not learn more about React with **Sharky**
+So let's learn about the coffee process and why not learn more about React with **Sharky**!
 
-**Write this file `"FincaCafe.jsx"`**
+**Write this file `"FincaCafe.jsx"`**:
 
 {{% notice info %}}
 ### Important to use:
@@ -27,9 +27,9 @@ To make coffee, we first need to know that this involves an important process th
 
 {{% notice info %}}
 ### We will learn some different things
-<p style="font-size:1.6rem; color:#444; line-height:1.8;">1. We will use a number to know which stage of a story we are in</p>
-<p style="font-size:1.6rem; color:#444; line-height:1.8;">2. We change what we see based on that number</p>
-<p style="font-size:1.6rem; color:#444; line-height:1.8;">3. We are not counting, we are navigating steps</p>
+<p style="font-size:1.6rem; color:#444; line-height:1.8;">1. We will use a number to know which stage of a story we are in.</p>
+<p style="font-size:1.6rem; color:#444; line-height:1.8;">2. We change what we see based on that number.</p>
+<p style="font-size:1.6rem; color:#444; line-height:1.8;">3. We are not counting, we are navigating steps.</p>
 
 {{% /notice %}}
 
@@ -46,13 +46,13 @@ const [indice, setIndice] = useState(0);
 
 ```
 
-**Here we create a constant called `"ETAPAS"`, but we also have another constant called `"INDICE"`**
+**Here we create a constant called `"ETAPAS"`, but we also have another constant called `"INDICE"`**.
 
 {{% notice info %}}
 ### This means that:
-<p style="font-size:1.6rem; color:#444; line-height:1.8;">The number 0 means stage 1</p>
-<p style="font-size:1.6rem; color:#444; line-height:1.8;">The number 1 means stage 2</p>
-<p style="font-size:1.6rem; color:#444; line-height:1.8;">The number 2 means stage 3</p>
+<p style="font-size:1.6rem; color:#444; line-height:1.8;">The number 0 means stage 1.</p>
+<p style="font-size:1.6rem; color:#444; line-height:1.8;">The number 1 means stage 2.</p>
+<p style="font-size:1.6rem; color:#444; line-height:1.8;">The number 2 means stage 3.</p>
 
 {{% /notice %}}
 
@@ -65,10 +65,6 @@ const siguiente = () => {
     }
   };
 ```
-
-
-
-```jsx
 return (
     <div className="finca-container">
       <h2>Finca del Abuelo</h2>
@@ -90,9 +86,9 @@ return (
 
 {{% notice tip %}}
 ### Imagine you are playing a game with 5 levels
-<p style="font-size:1.6rem; color:#444; line-height:1.8;">etapas.length = How many levels the game has (example: 5 levels)</p>
-<p style="font-size:1.6rem; color:#444; line-height:1.8;">indice = What level you are on right now (can be level 1, 2, 3...)</p>
-<p style="font-size:1.6rem; color:#444; line-height:1.8;">The number 2 means stage 3</p>
+<p style="font-size:1.6rem; color:#444; line-height:1.8;">etapas.length = How many levels the game has (example: 5 levels).</p>
+<p style="font-size:1.6rem; color:#444; line-height:1.8;">indice = What level you are on right now (can be level 1, 2, 3...).</p>
+<p style="font-size:1.6rem; color:#444; line-height:1.8;">The number 2 means stage 3.</p>
 
 {{% /notice %}}
 

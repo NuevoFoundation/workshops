@@ -12,7 +12,7 @@ Well, we are going to tell you about the Arenal Volcano.
 <img src="../media/Arenal.jpg" alt="Arenal Volcano" style="width:50%;">
 The Arenal Volcano is an inactive stratovolcano and an icon of Costa Rica, located in the province of Alajuela, within the Arenal Volcano National Park. It is known for its conical shape and is surrounded by tropical forests, hot springs, and rich biodiversity, which includes a large number of bird species. Its last major eruptive activity began in 1968 and ceased in 2010.
 
-**Write this file `"Volcan.jsx"`**
+**Write this file `"Volcan.jsx"`**:
 
 {{% notice info %}}
 ### Important to use:
@@ -49,7 +49,7 @@ const evacuar = (nombre) => {
 
 {{% notice info %}}
 <p style="font-size:1.6rem; color:#444; line-height:1.8;">In Beaches we only created buttons, but in Volcano we create a complete list:</p>
-<p style="font-size:1.6rem; color:#444; line-height:1.8;">An "li" can contain text + a button + a function</p>
+<p style="font-size:1.6rem; color:#444; line-height:1.8;">An "li" can contain text + a button + a function.</p>
 {{% /notice %}}
 
 ```jsx
@@ -73,11 +73,11 @@ const evacuar = (nombre) => {
 ```jsx
 for (let i = 0; i < animales.length; i++)
 ```
-<p style="font-size:1.6rem; color:#444; line-height:1.8;">i = 0 → First round: visits animal 1</p>
-<p style="font-size:1.6rem; color:#444; line-height:1.8;">i = 1 → Second round: visits animal 2 </p>
-<p style="font-size:1.6rem; color:#444; line-height:1.8;">i = 2 → Third round: visits animal 3 </p>
-<p style="font-size:1.6rem; color:#444; line-height:1.8;">i = 3 → Fourth round: visits animal 4 </p>
-<p style="font-size:1.6rem; color:#444; line-height:1.8;">i = 4 → STOP! There are no more animals (because animales.length = 4)</p>
+<p style="font-size:1.6rem; color:#444; line-height:1.8;">i = 0 → First round: visits animal 1.</p>
+<p style="font-size:1.6rem; color:#444; line-height:1.8;">i = 1 → Second round: visits animal 2.</p>
+<p style="font-size:1.6rem; color:#444; line-height:1.8;">i = 2 → Third round: visits animal 3.</p>
+<p style="font-size:1.6rem; color:#444; line-height:1.8;">i = 3 → Fourth round: visits animal 4.</p>
+<p style="font-size:1.6rem; color:#444; line-height:1.8;">i = 4 → STOP! There are no more animals (because animales.length = 4).</p>
 
 ```jsx
 listaAnimales.push( ... )
@@ -101,7 +101,7 @@ listaAnimales.push( ... )
 ```
 {{% /notice %}}
 
-**How it is displayed**
+**How it is displayed**:
 
 ```jsx
 return (

@@ -11,7 +11,7 @@ draft: false
 ## Introduction
 
 <p style="font-size: 1.8rem; font-weight: bold;">Welcome! You just won a tour to Costa Rica.</p>
-<p style="font-size: 1.8rem;">Below you will see a map of Costa Rica with the most important things about this beautiful country</p>
+<p style="font-size: 1.8rem;">Below you will see a map of Costa Rica with the most important things about this beautiful country!</p>
 
 <img src="media/mapa-costa-rica.jpg" alt="Illustrated map of Costa Rica" style="width:50%;">
 

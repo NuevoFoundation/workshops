@@ -7,7 +7,7 @@ draft: false
 
 <img src="../media/Tortuga.png" alt="Sharky with the turtle shell" style="width:25%;">
 
-<p style="font-size:1.8rem; text-align:center; color:#333;">Click the link below to build the Costa Rica app yourself</p>
+<p style="font-size:1.8rem; text-align:center; color:#333;">Click the link below to build the Costa Rica app yourself:</p>
 
 <a class="my-2 mx-4 btn btn-info" href="https://playcode.io/react" target="_blank" style="display:block; text-align:center; background-color:#007BFF; color:white; padding:10px 20px; text-decoration:none; border-radius:5px; font-size:1.5rem; margin:20px auto; width:fit-content;">Create your React project!</a>
 
@@ -24,12 +24,9 @@ draft: false
 
 <p style="font-size:1.5rem; line-height:1.8; color:#555;">When you put all those pieces together... your complete application is formed!</p>
 
-Let's get started
-
+Let's get started!
 
 {{% notice tip %}}
-
-
 
 <h2 style="font-size:2rem; color:#007BFF;">import { useState } from "react";</h2>
 
@@ -48,19 +45,36 @@ Let's get started
 
 {{% notice tip %}}
 
-<h2 style="font-size:2rem; color:#007BFF;">What is <code>const [tortugas, setTortugas] = useState(0);</code>?</h2> <p style="font-size:1.6rem; color:#444; line-height:1.8;"> Imagine we have a magic box where we store a number. That number is the amount of turtles saved. </p> <ul style="font-size:1.6rem; color:#444; line-height:1.8;"> <li><b>tortugas</b> → what is in the box (a number)</li> <li><b>setTortugas</b> → the magic key that lets you change that number</li> <li><b>useState(0)</b> → starts at 0 turtles saved</li> </ul> <p style="font-size:1.6rem; color:#444; line-height:1.8;"> This is how React remembers how many turtles you have saved. </p>
+<h2 style="font-size:2rem; color:#007BFF;">What is <code>const [tortugas, setTortugas] = useState(0);</code>?</h2>
+
+<p style="font-size:1.6rem; color:#444; line-height:1.8;"> Imagine we have a magic box where we store a number. That number is the amount of turtles saved. </p>
+<ul style="font-size:1.6rem; color:#444; line-height:1.8;">
+  <li><b>tortugas</b> → what is in the box (a number)</li>
+  <li><b>setTortugas</b> → the magic key that lets you change that number</li>
+  <li><b>useState(0)</b> → starts at 0 turtles saved</li>
+</ul>
+<p style="font-size:1.6rem; color:#444; line-height:1.8;"> This is how React remembers how many turtles you have saved. </p>
 
 {{% /notice %}}
 
 {{% notice tip %}}
 
-<h2 style="font-size:2rem; color:#007BFF;">What is <code>const total = 10;</code>?</h2> <p style="font-size:1.6rem; color:#444; line-height:1.8;"> This number is the goal of the game: there are 10 turtles trapped in Tortuguero! Here we are saying: <b>"We must save 10 turtles"</b>. </p> <p style="font-size:1.6rem; color:#444; line-height:1.8;"> You could change it to another number to make the game easier or harder. </p>
+<h2 style="font-size:2rem; color:#007BFF;">What is <code>const total = 10;</code>?</h2>
+<p style="font-size:1.6rem; color:#444; line-height:1.8;"> This number is the goal of the game: there are 10 turtles trapped in Tortuguero! Here we are saying: <b>"We must save 10 turtles"</b>.</p>
+<p style="font-size:1.6rem; color:#444; line-height:1.8;"> You could change it to another number to make the game easier or harder. </p>
 
 {{% /notice %}}
 
 {{% notice tip %}}
 
-<h2 style="font-size:2rem; color:#007BFF;">What does <code>const salvarTortuga = () => { }; </code> do?</h2> <p style="font-size:1.6rem; color:#444; line-height:1.8;"> This function is triggered when we click the <b>"Salvar tortuga"</b> button. </p> <ul style="font-size:1.6rem; color:#444; line-height:1.8;"> <li>It checks if there are still turtles left to save → <code>tortugas &lt; total</code></li> <li>If yes, it adds one more turtle → <code>setTortugas(tortugas + 1)</code></li> </ul> <p style="font-size:1.6rem; color:#444; line-height:1.8;"> Each click rescues a new turtle. </p>
+<h2 style="font-size:2rem; color:#007BFF;">What does <code>const salvarTortuga = () => { }; </code> do?</h2>
+
+<p style="font-size:1.6rem; color:#444; line-height:1.8;"> This function is triggered when we click the <b>"Salvar tortuga"</b> button. </p>
+<ul style="font-size:1.6rem; color:#444; line-height:1.8;">
+  <li>It checks if there are still turtles left to save → <code>tortugas &lt; total</code></li>
+  <li>If yes, it adds one more turtle → <code>setTortugas(tortugas + 1)</code></li
+</ul>
+<p style="font-size:1.6rem; color:#444; line-height:1.8;"> Each click rescues a new turtle. </p>
 
 ``` jsx
 if (tortugas < total) setTortugas(tortugas + 1);
@@ -70,7 +84,9 @@ if (tortugas < total) setTortugas(tortugas + 1);
 
 {{% notice tip %}}
 
-<h2 style="font-size:2rem; color:#007BFF;">What does <code>reiniciar()</code> do?</h2> <p style="font-size:1.6rem; color:#444; line-height:1.8;"> When we finish the mission, we can start over. This function sets the turtle counter back to 0. </p> <p style="font-size:1.6rem; color:#444; line-height:1.8;"> This way you can play again from the beginning. </p>
+<h2 style="font-size:2rem; color:#007BFF;">What does <code>reiniciar()</code> do?</h2>
+<p style="font-size:1.6rem; color:#444; line-height:1.8;"> When we finish the mission, we can start over. This function sets the turtle counter back to 0. </p>
+<p style="font-size:1.6rem; color:#444; line-height:1.8;"> This way you can play again from the beginning. </p>
 
 ``` jsx
 const reiniciar = () => setTortugas(0);
@@ -103,7 +119,7 @@ return (
   );
 ``` 
 
-**The button responds to the salvarTortuga function to keep adding rescues**
+**The button responds to the `salvarTortuga` function to keep adding rescues**
 
 The reset button clears the mission so you can rescue more turtles.
 

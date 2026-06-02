@@ -5,11 +5,11 @@ weight: 2
 draft: false
 ---
 
-<p style="font-size:1.8rem; text-align:center; color:#333;">Click the link below to build the Costa Rica app yourself</p>
+<p style="font-size:1.8rem; text-align:center; color:#333;">Click the link below to build the Costa Rica app yourself:</p>
 
 <a class="my-2 mx-4 btn btn-info" href="https://playcode.io/react" target="_blank" style="display:block; text-align:center; background-color:#007BFF; color:white; padding:10px 20px; text-decoration:none; border-radius:5px; font-size:1.5rem; margin:20px auto; width:fit-content;">Create your React project!</a>
 
-When you click the button you will enter the PlayCode page
+When you click the button you will enter the PlayCode page:
 
 <img src="../media/UsarPlaygroud.png" alt="PlayCode start screen showing the free option" style="width:50%;">
 
@@ -75,8 +75,6 @@ In the file `"index.html"` **paste this code!**
 
 <img src="../media/css.png" alt="Creating a new style.css file in PlayCode" style="width:50%;">
 
-
-
 Before seeing all the elements needed to create our Costa Rica project, we need to set up, or more specifically, create an important folder.
 
 **Click on the 3 dots next to the main folder called** `"src"`
@@ -93,7 +91,7 @@ Before seeing all the elements needed to create our Costa Rica project, we need 
 
 <img src="../media/paso2-carpeta.png" alt="Select New then Directory to create a folder" style="width:70%;">
 
-**Now we have the folder created, click on the 3 dots and rename**
+**Now we have the folder created, click on the 3 dots and rename**:
 
 <img src="../media/paso3-carpeta.png" alt="Rename the new folder to Components" style="width:70%;">
 
@@ -101,11 +99,11 @@ Before seeing all the elements needed to create our Costa Rica project, we need 
 
 <img src="../media/paso4-carpeta.png" alt="Components folder created inside src" style="width:70%;">
 
-**Finally, we need to add jsx files so we can start building our project**
+**Finally, we need to add jsx files so we can start building our project**!
 
-To do this, click on the 3 dots again but now on the `"Components"` folder
+To do this, click on the 3 dots again but now on the `"Components"` folder.
 
-**Important: select the** `"JSX"` **file type**
+**Important: select the** `"JSX"` **file type**.
 
 <img src="../media/paso5-carpeta.png" alt="Adding a new JSX file inside the Components folder" style="width:70%;">
 
@@ -119,8 +117,3 @@ Tortugero.jsx
 
 
 <img src="../media/paso6-carpeta.png" alt="Tortugero.jsx file created inside Components" style="width:70%;">
-
-
-
-
-

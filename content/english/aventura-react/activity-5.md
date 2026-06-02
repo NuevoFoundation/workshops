@@ -10,7 +10,7 @@ draft: false
 We are almost done with our trip through Costa Rica! To finish, let's learn a bit about sloths.  
 Sloths in Costa Rica are an icon of the country, and there are two species: the two-toed sloth (Choleopus hoffmanni) and the three-toed sloth (Bradypus variegatus). They are known for their slowness, their ability to camouflage, and for being national symbols that represent Costa Rica's connection with nature. You can spot them in national parks like Manuel Antonio and Corcovado, and in areas like La Fortuna and Cahuita.  
 
-**Write this file `"Perezoso.jsx"`**
+**Write this file `"Perezoso.jsx"`**:
 
 {{% notice info %}}
 ### Important to use:
@@ -96,7 +96,7 @@ This is how they are sent:
 <div className={`perezoso-card ${rescatado ? "rescatado" : ""}`}>
 ```
 
-- It always uses the perezoso-card class from style.css
+- It always uses the perezoso-card class from style.css.
 - If the sloth has already been rescued (```rescatado === true```), it also adds the ```rescatado``` class.
 - This is used to change styles based on its state.
 
@@ -147,11 +147,6 @@ If it is already fine, the button hides because you no longer need it.
 
 {{% /notice %}}
 
-
-
-
-
-
 ---
 
 
@@ -164,10 +159,7 @@ If it is already fine, the button hides because you no longer need it.
 
 ---
 
-
-
 **Constant to rescue the sloths!**
-```jsx
 const rescatar = (nombre) => {
     setRescatados([...rescatados, nombre]);
   };
