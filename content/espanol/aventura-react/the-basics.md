@@ -17,8 +17,8 @@ Al darle click al boton entraras en la pagina de playcode
 
 **Le damos en Start Free**
 
-<video controls width="800" height="400">
-  <source src="media/Configuracion2.mp4" type="video/mp4">
+<video controls width="800" height="400" style="display:block; margin:20px auto;">
+  <source src="../media/Configuracion2.mp4" type="video/mp4">
   Tu navegador no soporta la etiqueta de video.
 </video>
 

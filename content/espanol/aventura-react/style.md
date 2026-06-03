@@ -7,6 +7,12 @@ draft: false
 
 **Esto es codigo CSS para la app, copialo y pegado en el archivo** `"style.css"`
 
+{{% notice info %}}
+### ¿Para qué sirve el CSS?
+El CSS (hojas de estilo en cascada) muestra **como se ve** tu aplicación: los colores, las formas, los tamaños y las animaciones. Sin CSS, tu aplicación funcionaría igual, pero tendría el aspecto de un texto sin formato.
+
+Cada una de las secciones siguientes aplica estilos a un componente diferente de tu aplicación de Costa Rica.
+{{% /notice %}}
 
 ```css 
 .App {
