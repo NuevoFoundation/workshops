@@ -5,7 +5,7 @@ weight: 4
 draft: false
 ---
 
-<img src="../media/Tortuga.png" alt="Abeja imaginando un cuadrado" style="width:25%;);">
+<img src="../media/Tortuga.png" alt="Tortuga" style="width:25%;">
 
 <p style="font-size:1.8rem; text-align:center; color:#333;">Entra en el link de abajo para construir tú mismo el app de Costa Rica</p>
 
