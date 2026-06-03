@@ -9,7 +9,7 @@ draft: false
 
 Bueno te vamos a hablar del Volcán Arenal. 
 
-<img src="../media/Arenal.jpg" alt="Arenal" style="width:50%;);">
+<img src="../media/Arenal.jpg" alt="Arenal" style="width:50%">
 
 El Volcán Arenal es un estratovolcán inactivo y un ícono de Costa Rica, ubicado en la provincia de Alajuela, dentro del Parque Nacional Volcán Arenal. Es conocido por su forma cónica y está rodeado por selvas tropicales, aguas termales y una rica biodiversidad, que incluye una gran cantidad de especies de aves. Su última gran actividad eruptiva comenzó en 1968 y cesó en 2010.
 
@@ -22,7 +22,7 @@ El Volcán Arenal es un estratovolcán inactivo y un ícono de Costa Rica, ubica
 
 #### **Vamonos a salvarlos porque parece que el Volcán Arenal presenta actividad!**
 
-<img src="../media/volcan.png" alt="Volcan-Peligro" style="width:50%;);">
+<img src="../media/Volcan.png" alt="Volcan-Peligro" style="width:50%">
 
 **Creamos constante para evacuarlos del lugar**
 ```jsx

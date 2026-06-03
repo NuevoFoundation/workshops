@@ -5,7 +5,7 @@ weight: 5
 draft: false
 ---
 
-<img src="../media/playas.png" alt="Limpieza de playa" style="width:50%;);">
+<img src="../media/playas.png" alt="Limpieza de playa" style="width:50%;">
 
 ¡Genial! Lograste salvar las tortugas. Ahora para a limpiar playas de Costa Rica aprenderemos a usar constantes pero con arrays, for loops y variables let.
 
