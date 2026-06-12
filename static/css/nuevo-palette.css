@@ -1,0 +1,34 @@
+/* ============================================================
+   Nuevo Foundation color palette
+   ------------------------------------------------------------
+   Brand colors and neutrals exposed as CSS custom properties
+   so every workshop can use var(--nuevo-coral) instead of
+   typing hex codes (and getting them subtly wrong).
+
+   Full reference + accessibility/contrast notes:
+   https://workshops.nuevofoundation.org/guidelines/colors/
+   ============================================================ */
+
+:root {
+  /* Brand */
+  --nuevo-emphasis: #36374d;
+  --nuevo-cyan:     #00bed5;
+  --nuevo-red:      #e13126;
+  --nuevo-coral:    #e96469;
+  --nuevo-yellow:   #fcb415;
+  --nuevo-blush:    #fbe6e0;
+
+  /* Extended accent colors (designer's Canva system) */
+  --nuevo-green:  #78e08f;
+  --nuevo-orange: #f19066;
+  --nuevo-cream:  #f7f1e3;
+
+  /* Neutrals */
+  --nuevo-white:    #ffffff;
+  --nuevo-gray-50:  #e6e6e6;
+  --nuevo-gray-100: #d3d2d2;
+  --nuevo-gray-200: #bcbdc1;
+  --nuevo-gray-500: #737474;
+  --nuevo-gray-700: #505150;
+  --nuevo-black:    #231f20;
+}
