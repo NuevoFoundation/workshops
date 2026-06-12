@@ -97,6 +97,23 @@ print("Hello, world!")
 ```
 ````
 
+### Colors and visual styling
+
+When you add visual styling — CSS demos, mini-games, embedded HTML, diagrams — use the [Nuevo Foundation color palette](content/english/guidelines/colors.md) so every workshop stays on-brand.
+
+Quick reference (full table + WCAG contrast notes on the guidelines page):
+
+| Color | Hex | CSS variable |
+|-------|-----|--------------|
+| Emphasis (dark) | `#36374d` | `var(--nuevo-emphasis)` |
+| Cyan accent    | `#00bed5` | `var(--nuevo-cyan)`     |
+| Red accent     | `#e13126` | `var(--nuevo-red)`      |
+| Coral accent   | `#e96469` | `var(--nuevo-coral)`    |
+| Yellow accent  | `#fcb415` | `var(--nuevo-yellow)`   |
+| Blush accent   | `#fbe6e0` | `var(--nuevo-blush)`    |
+
+CSS variables are available on every workshop page through `static/css/nuevo-palette.css`. Inside workshop pages, prefer `var(--nuevo-coral)` over typing hex codes. In standalone files under `workshopcode/` (which students open outside Hugo), paste the hex values directly.
+
 ## Translations
 
 We love translations! Here's how to do them well:
