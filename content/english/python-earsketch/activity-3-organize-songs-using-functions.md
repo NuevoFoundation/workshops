@@ -4,7 +4,7 @@ description: "Setting up headphones"
 prereq: "Python Basics: Functions"
 difficulties: ["intermediate"]
 weight: 7
-draft: false
+draft: true
 ---
 <p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/cApCvf3hoiQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 

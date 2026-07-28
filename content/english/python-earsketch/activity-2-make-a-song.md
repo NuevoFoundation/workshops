@@ -22,10 +22,17 @@ Your code should now look something like this:
 from earsketch import *
 
 setTempo(120)
-fitMedia(RD_TRAP_BELLLEAD_1, 1, 5, 9)
-fitMedia(YG_TRAP_STRINGS_2, 2, 1, 17) 
-fitMedia(YG_TRAP_ELECTRIC_PIANO_FILTERED_1, 3, 1, 17) 
-fitMedia(YG_TRAP_BASS_9, 4, 1, 9)
+
+fitMedia(HOUSE_DEEP_CRYSTALCHORD_001, 3, 1, 5)
+fitMedia(HOUSE_DEEP_CRYSTALCHORD_002, 3, 5, 9)
+
+fitMedia(RD_UK_HOUSE__AIRYPAD_1, 1, 1, 9)
+fitMedia(HOUSE_MAIN_BEAT_002, 4, 1, 9)
+fitMedia(HOUSE_ROADS_BASS_001, 5, 1, 9)
+
+fitMedia(Y37_ORGAN_1, 2, 9, 17)
+fitMedia(HOUSE_ROADS_BASS_001, 5, 9, 17)
+fitMedia(RD_UK_HOUSE__ARPLEAD_1, 6, 9, 17)
 ```
 
 ![Robot making a song](https://media.giphy.com/media/9RJRzvIuKGrL3tAchc/giphy.gif)
