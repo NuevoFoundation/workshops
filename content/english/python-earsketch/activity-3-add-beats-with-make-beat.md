@@ -30,7 +30,7 @@ Here are some examples of valid beats:
 <figure>
     <audio
         controls
-        src="./audio/makebeat1.mp3">
+        src="../audio/makebeat1.mp3">
             Test audio to see if your browser supports the audio element. If you cannot play the audio, it likely means your browser does not support this. 
             <code>audio</code> element.
     </audio>
@@ -41,7 +41,7 @@ Here are some examples of valid beats:
 <figure>
     <audio
         controls
-        src="./audio/makebeat2.mp3">
+        src="../audio/makebeat2.mp3">
             Test audio to see if your browser supports the audio element. If you cannot play the audio, it likely means your browser does not support this. 
             <code>audio</code> element.
     </audio>
@@ -52,7 +52,7 @@ Here are some examples of valid beats:
 <figure>
     <audio
         controls
-        src="./audio/makebeat3.mp3">
+        src="../audio/makebeat3.mp3">
             Test audio to see if your browser supports the audio element. If you cannot play the audio, it likely means your browser does not support this. 
             <code>audio</code> element.
     </audio>
