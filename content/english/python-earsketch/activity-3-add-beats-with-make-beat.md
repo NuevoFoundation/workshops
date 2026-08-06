@@ -21,11 +21,11 @@ For `makeBeat`, we will be mix and matching the following three types of beats t
 - `"-"` rests (i.e. creates silence) for one note.
 - `"+"` ties (i.e. holds) the sound or silence for an additional note.
 
-To make things easier, we will create strings that are exactly 16-characters in length when creating our beat. You can also use strings of any length, but making them multiples of 16 in length (i.e., 16, 32, 48, etc.) work best.
+The `makeBeat` function assumes that we want to create beats that cover 16 notes per measure. So to make things easier, we will create beats with strings that are exactly 16-characters in length. Although you can also use strings of any length, making them multiples of 16 in length (i.e., 16, 32, 48, etc.) will work best.
 
 Here are some examples of valid beats:
 
-- `"0+------0+------"`: plays 2 sounds per measure, and each sound lasts for 2 notes.
+- `"0+------0+------"`: plays 2 sounds per measure, and each sound lasts for 2 notes, followed by 6 notes of rest.
 
 <figure>
     <audio
@@ -84,7 +84,7 @@ You can specify your own values for the following:
 
 - `track` - Select any positive integer as the track number. Make sure it's a track number that you haven't used yet.
 - `start` - Specify which measure to start the beat.
-- `beat` - Specify the beat you wish to add as a `string`, which should be 16 characters long (or any multiple of 16).
+- `beat` - Specify the beat you wish to add as a `string`, which ideally should be 16 characters long.
 
 If you are not sure what values to choose, try this:
 
