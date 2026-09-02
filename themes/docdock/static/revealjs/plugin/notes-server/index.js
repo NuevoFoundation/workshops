@@ -12,6 +12,7 @@ io = io(server);
 
 var opts = {
 	port :      1947,
+	host :      '127.0.0.1',
 	baseDir :   __dirname + '/../../'
 };
 
@@ -55,7 +56,7 @@ app.get( '/notes/:socketId', function( req, res ) {
 });
 
 // Actually listen
-server.listen( opts.port || null );
+server.listen( opts.port || null, opts.host );
 
 var brown = '\033[33m',
 	green = '\033[32m',
