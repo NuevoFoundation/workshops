@@ -12,9 +12,9 @@ En Earsketch, las funciones se utilizan principalmente para organizar diferentes
 
 Ahora que aprendimos a usar funciones, vamos a tratar de usarlas para organizar mejor nuestras canciones.
 
-1. Defina la función con un parámetro `startMeasure` y un parámetro `endMeasure`.
-2. Coloque los sonidos que desea que la función represente debajo de la definición de la función.
-3. Trate de hacer varias secciones de una canción (verso, coro, introducción, etc.) y definirlos con sus funciones. Si no lo hace, y solo utiliza varias llamadas `fitMedia`, notará que su programa será largo y difícil de entender. Para ayudar a evitar tener un archivo de proyecto grande, ¡utilice funciones!
+1. Define tu función con un parámetro `startMeasure` y un parámetro `endMeasure`.
+2. Coloca los sonidos que quieras que la función represente debajo de la definición de la función.
+3. Trata de hacer varias secciones de una canción (verso, coro, introducción, etc.) y defínelas con tus funciones. Si no lo haces, y solo utilizas varias llamadas `fitMedia`, notarás que tu programa será largo y difícil de entender. Para ayudar a evitar tener un archivo de proyecto grande, ¡usa funciones!
 
 Tu código debería parecerse a este:
 
