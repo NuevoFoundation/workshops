@@ -6,6 +6,7 @@ weight: 10
 
 ## Ecoando Coringas
 Vamos usar o coringa ```*``` e a tag ```<star />``` juntos para permitir que nosso bot inclua a entrada do usuário em sua resposta.
+<img src="../img/learn.png" alt="Ilustração de um personagem animado para aprender novos conceitos" width="20%" style="display: block; margin-left: 0;" />
 
 1. Se o usuário digitar "Meu nome é [nome]", o bot deve responder "Prazer em conhecê-lo, [nome]!".
 Exemplos:

@@ -6,6 +6,7 @@ weight: 5
 
 ## AIML
 Vamos usar AIML para criar nosso chatbot. AIML significa **Artificial Intelligence Markup Language** (Linguagem de Marcação de Inteligência Artificial). Se você já usou HTML para fazer um site, verá que o AIML é muito semelhante. Antes de começarmos a escrever AIML, precisamos nos inscrever em uma conta no PandoraBots.
+<img src="../img/chat_Alice.png" alt="Ilustração do personagem do chatbot ALICE" width="20%" />
 
 ## Pandorabots
 Vá para [https://www.pandorabots.com/](https://www.pandorabots.com/) e clique em **Sign Up** (Inscrever-se). Insira um e-mail e uma senha para criar uma conta. Alternativamente, você pode se inscrever usando uma conta do Google, Facebook, Twitter ou Github. Se solicitado, escolha a opção de teste gratuito.
@@ -38,7 +39,7 @@ Copie o código para a seguinte categoria no editor de texto entre as tags de in
 
 ```
 <category>
-    <pattern>HELLO</pattern>
+    <pattern>OLÁ</pattern>
     <template>
         Olá, Mundo!
     </template>
@@ -50,6 +51,6 @@ Depois de concluir, salve seu arquivo através do menu suspenso “File” (Arqu
 <p style="text-align: center;"><img src="../img/pandorabots_6.png" alt="adicionando um novo arquivo no pandorabots" width="40%"/></p>
 
 ## Testando seu bot
-O Widget de Chat permite que você converse com seu bot. Clique no ícone de "balões de chat" no canto inferior direito para começar a conversar com seu bot. Digite `Hello` e você deverá receber a resposta que acabou de codificar, `“Olá, Mundo!”`
+O Widget de Chat permite que você converse com seu bot. Clique no ícone de "balões de chat" no canto inferior direito para começar a conversar com seu bot. Digite `Olá` e você deverá receber a resposta que acabou de codificar, `“Olá, Mundo!”`
 
 <p style="text-align: center;"><img src="../img/pandorabots_7.png" alt="adicionando um novo arquivo no pandorabots" width="40%"/></p>

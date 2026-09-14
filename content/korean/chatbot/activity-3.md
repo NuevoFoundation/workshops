@@ -12,6 +12,8 @@ weight: 7
 2. 여러분이 "What is your favorite color?"라고 입력하면, 봇이 "My favorite color is blue"라고 응답합니다.
 3. 여러분이 "What is your favorite food?"라고 입력하면, 봇이 "My favorite food is pizza"라고 응답합니다.
 
+<img src="../img/ideas.png" alt="Illustration of a character brainstorming new ideas" width="30%" />
+
 카테고리의 기본 구조는 다음과 같습니다:
 
 ```

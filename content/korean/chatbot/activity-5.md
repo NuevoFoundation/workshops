@@ -6,6 +6,7 @@ weight: 10
 
 ## 와일드카드 활용(Echoing Wildcards)
 이제 와일드카드 ```*```와 ```<star />```태그를 함께 사용하여 사용자의 입력을 응답에 포함시킬 수 있도록 해봅시다.
+<img src="../img/learn.png" alt="Illustration of a character eager to learn new concepts" width="20%" style="display: block; margin-left: 0;" />
 
 1. 사용자가 "My name is [name]"이라고 입력하면, 봇이 "Nice to meet you, [name]!"이라고 응답해야 합니다.
 예시

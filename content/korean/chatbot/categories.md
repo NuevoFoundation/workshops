@@ -8,6 +8,7 @@ weight: 6
 AIML의 기본 단위는 **카테고리**입니다. 카테고리는 **패턴(pattern)**과 **템플릿(template)**으로 구성됩니다. 패턴은 사용자가 봇에게 말하는 내용이고, 템플릿은 봇이 사용자에게 제공하는 응답입니다. 
 
 다음 예시를 보면, 패턴은 "HELLO"이고 템플릿은 "Hello, World!"입니다. 사용자가 "HELLO"라고 말하면, 봇은 "Hello, World!"라고 응답합니다. 패턴 매칭은 대소문자를 구분하지 않으므로, "hello", "HELLO", "Hello", "HeLlo" 등 다양한 형태의 입력에도 동일한 응답이 나옵니다.
+<img src="../img/chat_persons_robot.png" alt="Illustration of people communicating with a chatbot robot" width="20%"/>
 
 ```
 <category>
