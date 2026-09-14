@@ -82,3 +82,6 @@ enableGitInfo = true
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
+
+[security]
+allowContent = ['.*', '! ^text/org$']
