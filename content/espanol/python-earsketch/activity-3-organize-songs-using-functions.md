@@ -6,6 +6,7 @@ difficulties: ["intermediate"]
 weight: 7
 draft: false
 ---
+<p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/cApCvf3hoiQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 En Earsketch, las funciones se utilizan principalmente para organizar diferentes secciones de una canción. La forma musical más común es A-B-A donde cada sección tiene cuatro medidas de longitud, y las secciones A suenan diferentes de la sección B. 
 

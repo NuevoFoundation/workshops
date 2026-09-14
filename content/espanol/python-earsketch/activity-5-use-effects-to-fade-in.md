@@ -6,6 +6,7 @@ prereq: "Python Basico: Imprimir, Comentarios, Funciones"
 difficulties: ["intermediate"]
 draft: false
 ---
+<p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/VSm6m5p3CUg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 Ahora que tienes un efecto en tu canción, vamos a tratar de desvanecernos en la introducción de nuestra canción.
 

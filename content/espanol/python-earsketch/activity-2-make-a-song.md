@@ -6,6 +6,7 @@ difficulties: ["intermediate"]
 weight: 6
 draft: false
 ---
+<p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/GVG8DlG1Tuo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 Ahora que has aprendido a añadir sonidos a Earsketch, vamos a tratar de hacer una canción. Ya debería tener un clip de audio en Earsketch, pero las canciones se componen de varios instrumentos, por lo que necesitamos añadir más clips de audio.
 

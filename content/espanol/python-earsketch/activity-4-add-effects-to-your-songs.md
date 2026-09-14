@@ -6,6 +6,7 @@ prereq: "Python Basico: Imprimir, Comentarios, Funciones"
 difficulties: ["intermediate"]
 draft: false
 ---
+<p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/vryYSBvwnIY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ## Efectos en EarSketch
 

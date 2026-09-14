@@ -6,6 +6,7 @@ difficulties: ["intermediate"]
 weight: 5
 draft: false
 ---
+<p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/INHMwQoni-M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 Echemos un vistazo más de cerca al código preexistente y entendamos lo que significa.
 
