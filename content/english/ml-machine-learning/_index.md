@@ -1,7 +1,7 @@
 ---
 title: "Machine Learning: Linear Regression"
 description: "Understanding how to predict things."
-prereq: "Python"
+prereq: "Python Basics"
 icon: ""
 draft: false
 weight: 0
