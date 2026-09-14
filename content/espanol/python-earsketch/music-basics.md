@@ -9,7 +9,7 @@ weight: 2
 ---
 <p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/Yr2UfFodnNY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-Lo básico primero. Algunas cosas sobre la música.
+## Lo básico primero. Algunas cosas sobre la música.
 
 ## ¿Qué es la música?
 

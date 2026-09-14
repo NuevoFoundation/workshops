@@ -4,7 +4,7 @@ description: "Actividad 3 - Organiza tus canciones usando funciones"
 prereq: "Python Basico: Funciones"
 difficulties: ["intermediate"]
 weight: 7
-draft: false
+draft: true
 ---
 <p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/cApCvf3hoiQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
@@ -19,29 +19,26 @@ Ahora que aprendimos a usar funciones, vamos a tratar de usarlas para organizar 
 Tu código debería parecerse a este:
 
 ```python
-    from earsketch import *
+from earsketch import *
 
-    init()
-    setTempo(120)
+setTempo(120)
 
-    fitMedia(HOUSE_DEEP_CRYSTALCHORD_001, 3, 1, 5)
-    fitMedia(HOUSE_DEEP_CRYSTALCHORD_002, 3, 5, 9)
+fitMedia(HOUSE_DEEP_CRYSTALCHORD_001, 3, 1, 5)
+fitMedia(HOUSE_DEEP_CRYSTALCHORD_002, 3, 5, 9)
 
-    # Section A
-    def sectionA(startMeasure, endMeasure):
-        fitMedia(RD_UK_HOUSE__AIRYPAD_1, 1, startMeasure, endMeasure)
-        fitMedia(HOUSE_MAIN_BEAT_002, 4, startMeasure, endMeasure)
-        fitMedia(HOUSE_ROADS_BASS_001, 5, startMeasure, endMeasure)  
+# Section A
+def sectionA(startMeasure, endMeasure):
+    fitMedia(RD_UK_HOUSE__AIRYPAD_1, 1, startMeasure, endMeasure)
+    fitMedia(HOUSE_MAIN_BEAT_002, 4, startMeasure, endMeasure)
+    fitMedia(HOUSE_ROADS_BASS_001, 5, startMeasure, endMeasure)  
 
-    # Section B
-    def sectionB(startMeasure, endMeasure):
-        fitMedia(Y37_ORGAN_1, 2, startMeasure, endMeasure)
-        fitMedia(HOUSE_ROADS_BASS_001, 5, startMeasure, endMeasure)
-        fitMedia(RD_UK_HOUSE__ARPLEAD_1, 6, startMeasure, endMeasure)
+# Section B
+def sectionB(startMeasure, endMeasure):
+    fitMedia(Y37_ORGAN_1, 2, startMeasure, endMeasure)
+    fitMedia(HOUSE_ROADS_BASS_001, 5, startMeasure, endMeasure)
+    fitMedia(RD_UK_HOUSE__ARPLEAD_1, 6, startMeasure, endMeasure)
 
-    sectionA(1, 9)
-    sectionB(9, 17)
-    sectionA(17, 25)
-
-    finish()
+sectionA(1, 9)
+sectionB(9, 17)
+sectionA(17, 25)
 ```
