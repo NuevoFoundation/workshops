@@ -8,7 +8,7 @@
   Font Awesome 6 classes (already loaded site-wide).
 */ -}}
 {{- $tax := site.Data.taxonomy -}}
-{{- $prereqLabel := strings.TrimSpace (strings.TrimRight ":" (i18n "pre-requisite")) -}}
+{{- $prereqLabel := trim (i18n "pre-requisite") ": " -}}
 {{- $prerequisites := slice -}}
 {{- range .Site.Home.Sections -}}
   {{- if not .Params.hidden -}}
