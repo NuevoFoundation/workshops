@@ -13,6 +13,6 @@ Para codificar música, precisamos aprender um pouco de Python. Não se preocupe
 Se você quiser ir para uma seção específica do Python, clique no tópico
 abaixo:
 
-- <a href="../../python-basics/python-console/" target="_blank">Console do Python</a>
-- <a href="../../python-basics/comments/" target="_blank">Comentários</a>
+- <a href="../../python-basics/basics/" target="_blank">Console do Python</a>
+- <a href="../../python-basics/basics/comments/" target="_blank">Comentários</a>
 - <a href="../../python-basics/functions/" target="_blank">Funções</a>

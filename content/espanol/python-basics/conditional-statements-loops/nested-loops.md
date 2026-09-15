@@ -7,7 +7,7 @@ weight: 4
 
 
 ### Bucles Anidados
-*Nested loops* (Bucles Anidados) se basa en lo que aprendimos sobre bucles for y bucles while en el ejercicio anterior. Puede que quieras revisar la página <a href="../../../python-basics/loops" target="blank">For-loop and While-loop</a> antes de continuar.
+*Nested loops* (Bucles Anidados) se basa en lo que aprendimos sobre bucles for y bucles while en el ejercicio anterior. Puede que quieras revisar la página <a href="../loops/" target="blank">For-loop and While-loop</a> antes de continuar.
 
 En esta sección usaremos un bucle dentro de otro, lo que se llama nested loops o *bucles anidados*.
 <hr/>

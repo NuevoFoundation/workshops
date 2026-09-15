@@ -190,8 +190,6 @@ background: linear-gradient(135deg, #e96469, #e13126);
 }
 ```
 
-See the [JavaScript: Korean Snack Picker Game](../../js-snack-picker/) workshop for a complete real-world example.
-
 ## Accessibility & contrast
 
 Always check color contrast before shipping. The [WCAG 2.1 AA standard](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) requires:
@@ -225,5 +223,3 @@ When in doubt, run your combo through [WebAIM's Contrast Checker](https://webaim
 
 - **CSS variables:** `static/css/nuevo-palette.css` (loaded on every page)
 - **Reference page:** this file
-- **Quick reference in the new-workshop guide:** [Creating a new workshop, Nuevo Foundation color palette section](../new-workshops/#nuevo-foundation-color-palette)
-- **Real workshop using it:** [JavaScript: Korean Snack Picker Game](../../js-snack-picker/)

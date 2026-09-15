@@ -18,7 +18,7 @@ El **Perezoso** te espera en la montaña:
 
 ---
 
-<img src="../media/pattern.webp" alt="Decoración" width="100%" />
+<img src="../media/Pattern.webp" alt="Decoración" width="100%" />
 
 ## Objetivo lógico
 

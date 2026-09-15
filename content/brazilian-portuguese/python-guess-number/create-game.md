@@ -7,10 +7,10 @@ weight: 2
 ## Aceitar entrada do usuário
 
 Esse jogo usará alguns conceitos aprendidos na sessão curso Phyton Básico. Você vai precisar saber como usar os conceitos.Você precisará saber como usar os seguintes conceitos. Se você não estiver familiarizado com nenhum deles, volte para revisá-los.
-- <a href="../../python-basics/loops" target="_blank">While loops</a>
-- <a href="../../python-basics/python-console/writing-to-console" target="_blank">Writing to console</a>
-- <a href="../../python-basics/python-console/reading-from-console" target="_blank">Reading from the console</a>
-- <a href="../../python-basics/conditional-statements" target="_blank">Conditional statements</a>
+- <a href="../../python-basics/conditional-statements-loops/loops/" target="_blank">While loops</a>
+- <a href="../../python-basics/basics/writing-to-console/" target="_blank">Writing to console</a>
+- <a href="../../python-basics/basics/reading-from-console/" target="_blank">Reading from the console</a>
+- <a href="../../python-basics/conditional-statements-loops/conditional-statements/" target="_blank">Conditional statements</a>
 - <a href="/python-guess-number/random/" target="_blank">Random numbers</a>
 
 Você precisará codificar este jogo para que ele gere aleatoriamente um número.

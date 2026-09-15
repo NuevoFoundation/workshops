@@ -95,7 +95,7 @@ VS Code를 실행하고 Open Folder를 선택하여 워크숍 폴더로 이동�
 
 ### 파일 탐색 및 수정하기
 
-수정하는 내용에 따라 [사이트가 어떻게 구축되는지](site-architecture) 더 잘 이해하고 싶을 것입니다.
+수정하는 내용에 따라 [사이트가 어떻게 구축되는지](../site-architecture/) 더 잘 이해하고 싶을 것입니다.
 
 우리의 경우 이 파일을 수정하려고 하므로, content\english\guidelines\getting-started.md로 이동합니다.
 “Welcome!”이라는 단어에 느낌표 두 개를 추가해 주세요.
