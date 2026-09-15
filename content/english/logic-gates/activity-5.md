@@ -1,7 +1,7 @@
 ---
-title: "Activity 5 - The Toucan's inverted gate (AND + NOT)"
+title: "Activity 4 - The Toucan's inverted gate (AND + NOT)"
 date: 2025-10-20T02:10:00-05:00
-weight: 6
+weight: 5
 draft: false
 ---
 
