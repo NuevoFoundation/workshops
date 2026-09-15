@@ -828,6 +828,10 @@ article section.page pre[class*="language-"] {
   color: #007991 !important;
 }
 
+.highlight span[style*="color:#75af00"] {
+  color: #547e00 !important;
+}
+
 .anchor {
   color: #2053ab;
   font-size: 0.5em;

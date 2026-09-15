@@ -5,7 +5,7 @@ weight: 7
 draft: false
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/Z6omKevIUKo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe title="Drawing a honeycomb with Python Turtle" width="560" height="315" src="https://youtube.com/embed/Z6omKevIUKo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 <img src="../media/bee_honeycomb.png" alt="Honeycomb drawing" width="25%" />
 
@@ -23,4 +23,4 @@ Note that the drawing of the honeycomb may take a while. You can change how fast
 turtle.speed(8)
 ```
 
-<iframe src="https://trinket.io/embed/python/d83811c24a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Interactive Python Turtle code editor for drawing a honeycomb" src="https://trinket.io/embed/python/d83811c24a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
