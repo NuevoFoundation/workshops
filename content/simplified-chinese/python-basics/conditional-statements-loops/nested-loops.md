@@ -7,7 +7,7 @@ weight: 4
 
 
 ### 嵌套循环
-*嵌套循环* 是我们在前面练习中学到的关于for循环和while循环知识的拓展。在继续学习之前，你可能需要回顾一下 <a href="../../../python-basics/loops" target="blank">For循环和While循环</a>页面。
+*嵌套循环* 是我们在前面练习中学到的关于for循环和while循环知识的拓展。在继续学习之前，你可能需要回顾一下 <a href="../loops/" target="blank">For循环和While循环</a>页面。
 
 在本节课中，我们将在一个循环中使用另一个循环，这称为 *嵌套循环*。
 

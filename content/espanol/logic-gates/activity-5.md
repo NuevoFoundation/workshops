@@ -18,7 +18,7 @@ Frente a la puerta de piedra, el **Tucán** te guiña un ojo:
 
 ---
 
-<img src="../media/pattern.webp" alt="Decoración" width="100%" />
+<img src="../media/Pattern.webp" alt="Decoración" width="100%" />
 
 ## Objetivo lógico
 

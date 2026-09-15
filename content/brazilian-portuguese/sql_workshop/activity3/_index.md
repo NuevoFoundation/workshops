@@ -36,7 +36,7 @@ Você precisa falar com os habitantes do Planeta da Diversão para descobrir qua
 Quando usamos o comando `SELECT * FROM planet;`, a tabela acima é exibida. Mas para verificar o número de cidades, podemos usar o comando `COUNT()`.
 {{% /notice%}}
 
-![contagem](assets/contagem.png)
+![contagem](assets/count.png)
 
 ### Pergunta: Usando o `COUNT()`, qual comando exibirá o número de cidades no Planeta da Diversão?
 
