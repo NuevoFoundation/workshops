@@ -1,6 +1,6 @@
 {{if not .IsHome}}
 	{{- if and hugo.IsMultilingual (not .Site.Params.DisableLanguageSwitchingButton)}}
-	<select id="select-language-workshop" aria-label="{{ i18n "tax.dim.language" }}" onchange="location = this.value;">
+	<select id="select-language-workshop" class="language-selector" aria-label="{{ i18n "tax.dim.language" }}">
 		{{ $siteLanguages := .Site.Languages}}
 		{{ $pageLang := .Page.Lang}}
 		{{ range .Page.AllTranslations }}
@@ -21,7 +21,7 @@
 
 {{if .IsHome}}
 	{{- if and hugo.IsMultilingual (not .Site.Params.DisableLanguageSwitchingButton)}}
-	<select id="select-language-home" aria-label="{{ i18n "tax.dim.language" }}" onchange="location = this.value;">
+	<select id="select-language-home" class="language-selector" aria-label="{{ i18n "tax.dim.language" }}">
 		{{ $siteLanguages := .Site.Languages}}
 		{{ $pageLang := .Page.Lang}}
 		{{ range .Page.AllTranslations }}
