@@ -110,6 +110,9 @@ other = "None"
 [workshop-explorer-empty]
 other = "No workshops match your filters."
 
+[workshop-explorer-unspecified]
+other = "Not specified"
+
 [workshop-explorer-count]
 other = "{n} workshops"
 
