@@ -28,3 +28,38 @@
 	vertical-align: middle;
 	margin-left: 10px !important;
 }
+
+.lg-icon-guide {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 10px 20px;
+	margin: 8px 0 16px;
+	padding: 10px 0;
+	border-top: 1px solid #d9d9d9;
+	border-bottom: 1px solid #d9d9d9;
+}
+
+.lg-icon-guide-item {
+	display: flex;
+	align-items: center;
+	gap: 7px;
+	min-width: 125px;
+}
+
+.lg-icon-guide-item img {
+	width: 42px;
+	height: 34px;
+	object-fit: contain;
+}
+
+.lg-icon-guide-item span {
+	display: flex;
+	flex-direction: column;
+	font-size: 12px;
+	line-height: 1.25;
+}
+
+.lg-icon-guide-item strong {
+	font-size: 14px;
+}
