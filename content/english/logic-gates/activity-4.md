@@ -1,7 +1,7 @@
 ---
-title: "Activity 4 - The Little Monkey's mission (Combining gates)"
+title: "Activity 6 - The Little Monkey's mission (Combining gates)"
 date: 2025-10-20T01:55:00-05:00
-weight: 5
+weight: 7
 draft: false
 ---
 

@@ -1,7 +1,7 @@
 ---
-title: "Activity 6 - The Sloth's silent summit (OR + NOT)"
+title: "Activity 5 - The Sloth's silent summit (OR + NOT)"
 date: 2025-10-20T02:25:00-05:00
-weight: 7
+weight: 6
 draft: false
 ---
 
