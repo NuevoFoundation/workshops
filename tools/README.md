@@ -1,6 +1,6 @@
 # tools/ — Workshop development utilities
 
-Scripts to help contributors maintain the NuevoFoundation workshops repo. All scripts use Python 3.8+ with stdlib only (no external dependencies).
+Scripts to help contributors maintain the NuevoFoundation workshops repo. Maintenance scripts use Python 3.8+ with stdlib only. The browser regression tests below additionally require Playwright.
 
 ## update-dates.py
 
@@ -73,6 +73,45 @@ check prerequisite options in all nine interactive catalogs (and preserve the
 non-interactive Russian catalog), combined filtering, shared URLs, grouping,
 missing metadata, reset, keyboard access, mobile layout, green accent-bar
 contrast, and navigation from the Python Basics link in workshop metadata.
+
+```powershell
+py -m pip install playwright
+py -m playwright install chromium
+hugo --destination .\public
+py tools\test-workshop-explorer.py .\public
+# Or use an already installed Edge browser without downloading Chromium:
+py tools\test-workshop-explorer.py .\public --browser-channel msedge
+```
+
+Prerequisite options use each visible workshop section's existing `prereq`
+text verbatim, deduplicated within the current site language. They are not
+derived from difficulty or translated from English. Missing values stay visible
+when the filter is clear, do not match any prerequisite choice, and appear under
+the localized `workshop-explorer-unspecified` label when grouping (English
+fallback until that label is translated). Existing `pre-requisite` translations
+supply the group label without its trailing colon.
+
+On workshop pages, the exact prerequisite `Python Basics` links to the current
+language's Python Basics workshop when that page exists. Other prerequisites
+remain plain text. The catalog prerequisite buttons still filter rather than
+navigate, and their values remain plain metadata rather than embedded links.
+
+### What it shows
+
+- **Workshop x language matrix** with file counts per workshop per language
+- **Coverage summary** with percentage of English workshops translated
+- **Double dash (`--`)** marks missing translations
+- File counts serve as a rough completeness indicator (a workshop with 7 files
+  in English but only 3 in Spanish may be partially translated)
+
+## test-workshop-explorer.py
+
+Runs browser regression tests against an existing Hugo build. The tests serve
+the build on a temporary localhost port and check prerequisite options in all
+nine interactive catalogs (and preserve the non-interactive Russian catalog),
+combined filtering, shared URLs, grouping, missing metadata,
+reset, keyboard access, pale-green selected buttons at mobile width, and navigation
+from the Python Basics link in workshop metadata.
 
 ```powershell
 py -m pip install playwright

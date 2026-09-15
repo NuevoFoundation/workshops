@@ -5,7 +5,7 @@ date: 2022-09-21
 prereq: "Nenhum"
 download: ""
 draft: false
-icon: "fas fa-microchip"
+icon: "fab fa-linux"
 weight: 1
 language: "linux"
 topics: ["tools"]

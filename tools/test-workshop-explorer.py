@@ -183,7 +183,7 @@ class WorkshopExplorerTests(unittest.TestCase):
         self.assertNotIn("#", self.page.url)
 
     def test_shared_url_preserves_punctuation_and_multiple_selections(self):
-        labels = ["Web Basics, C#", "email"]
+        labels = ["Web Basics, C# Basics", "email"]
         for label in labels:
             self.chip(label).click()
         expected = self.expected_titles(labels)
@@ -266,11 +266,22 @@ class WorkshopExplorerTests(unittest.TestCase):
                 self.page.wait_for_url(self.base_url + "/python-basics/")
                 self.assertEqual(self.page.locator(".metadata-row").first.locator("a").count(), 0)
         self.page.goto(self.base_url + "/java-tictactoe/", wait_until="domcontentloaded")
-        self.assertEqual(
-            self.page.locator(".metadata-row").first.locator(".metadata-value").inner_text(),
-            "Java Basics"
+        java_link = self.page.locator(".metadata-value").get_by_role(
+            "link", name="Java Basics", exact=True
         )
-        self.assertEqual(self.page.locator(".metadata-row").first.locator("a").count(), 0)
+        self.assertEqual(java_link.count(), 1)
+        self.assertEqual(java_link.get_attribute("href"), "/java-basics/")
+        self.page.goto(urljoin(self.base_url, java_link.get_attribute("href")))
+        self.page.wait_for_url(self.base_url + "/java-basics/")
+        self.page.goto(self.base_url + "/razor/", wait_until="domcontentloaded")
+        csharp_link = self.page.locator(".metadata-value").get_by_role(
+            "link", name="C# Basics", exact=True
+        )
+        self.assertEqual(csharp_link.count(), 1)
+        self.assertEqual(csharp_link.get_attribute("href"), "/csharp-basics/")
+        self.assertIn("Web Basics", self.page.locator(".metadata-value").first.inner_text())
+        self.page.goto(urljoin(self.base_url, csharp_link.get_attribute("href")))
+        self.page.wait_for_url(self.base_url + "/csharp-basics/")
 
     def test_mobile_keyboard_selection_and_pale_green(self):
         self.open_catalog("/pt-br/")
