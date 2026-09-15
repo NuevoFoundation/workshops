@@ -40,7 +40,7 @@ img.save('pixel-activity2.png')
 ## Activity3
 This is the sample answer to create a H which is colorful.
 Refer image to this:
-<img src="media/ac3sample.png">
+<img src="../media/ac3sample.png">
 
 ```python
 from PIL import Image

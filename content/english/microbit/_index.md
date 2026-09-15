@@ -8,6 +8,7 @@ hidden: true
 icon: "fas fa-microchip"
 language: "blocks"
 topics: ["hardware"]
+prereq: "None"
 difficulties: ["beginner", "intermediate"]
 ---
 

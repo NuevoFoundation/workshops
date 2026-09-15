@@ -5,8 +5,6 @@ difficulties: ["intermediate"]
 weight: 10
 ---
 
-<img src="../images/room10_pages.jpg" alt="A room with a giant screen displaying a website and floating deploy buttons" />
-
 You enter the final room to find a giant screen displaying a website and floating "Deploy" buttons. A triumphant voice announces: "Deploy your victory for all to see!"
 
 ## Your Mission

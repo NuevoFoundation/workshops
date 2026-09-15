@@ -7,7 +7,7 @@ weight: 4
 
 
 ### Nested Loops
-*Nested loops* baseia-se no que aprendemos sobre loops for e loops while no exercício anterior. Você pode querer revisar a página <a href="../../../python-basics/loops" target="blank">For-loop e While-loop</a> antes de prosseguirmos.
+*Nested loops* baseia-se no que aprendemos sobre loops for e loops while no exercício anterior. Você pode querer revisar a página <a href="../loops/" target="blank">For-loop e While-loop</a> antes de prosseguirmos.
 
 Nesta seção, usaremos um loop dentro de outro, que é chamado de *Nested loop* (loop aninhado).
 <h/>

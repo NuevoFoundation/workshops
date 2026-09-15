@@ -95,7 +95,7 @@ Remember to use parentheses when calling a function!
 - Always provide a **working starting point** so students aren't staring at a blank editor
 - Test all embedded links before submitting. Replit and Trinket links can expire.
 - Set `height="600"` as a starting point for embedded editors and adjust as needed
-- Add a fallback link below iframes in case embedding is blocked: "Can't see the editor? [Open it in a new tab](link)"
+- Add a working fallback link below iframes in case embedding is blocked, such as: "Can't see the editor? Open it in a new tab."
 - Keep code examples short and focused. If an example exceeds 20 lines, consider splitting it into steps.
 
 ## See also

@@ -4,7 +4,7 @@ draft: false
 weight: 2
 ---
 
-En el ejercicio anterior, aprendimos las condiciones básicas if-else. Si necesitas un repaso rápido, puedes revisar <a href="../../python-basics/conditional-statements">Declaraciónes Condicionales</a>.
+En el ejercicio anterior, aprendimos las condiciones básicas if-else. Si necesitas un repaso rápido, puedes revisar <a href="../conditional-statements/">Declaraciónes Condicionales</a>.
 
 En esta sección, ampliaremos el tema para introducir una nueva condición llamada "elif".
 
@@ -76,7 +76,7 @@ En el Ejemplo B evaluamos la primera declaración `if` (`1==1`) como `true`. Ent
 #### Desafío
 ¿Puedes utilizar los conocimientos que aprendiste en Python-Basics-Booleanos para crear tu propio ejemplo con `elif`?
 Quizás quieras repasar booleanos para completar este desafío.
-- <a href="../../python-basics/data-types/booleans">Booleanos</a>
+- <a href="../../data-types/booleans/">Booleanos</a>
 <br/><br/>
 
 <iframe src="https://trinket.io/embed/python/3ea6b97209df" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

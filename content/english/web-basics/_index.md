@@ -6,6 +6,7 @@ draft: false
 icon: "fab fa-html5"
 language: "html-css"
 topics: ["web"]
+prereq: "None"
 difficulties: ["beginner"]
 ---
 

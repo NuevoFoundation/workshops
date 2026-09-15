@@ -17,7 +17,7 @@ weight: 2
 
 在上面的 .NET Fiddle 框架中，在第一行代碼的下方新增一行程式碼，列印出 "Hello *您的名字*"。它應該類似於以下所示。
 
-<img src="../images/Step1.png" height="300" alt="Fiddle 的起始畫面" />
+<img src="/csharp-basics/images/Step1.png" height="300" alt="Fiddle 的起始畫面" />
 
 您應該可以在螢幕底部看到輸出。有趣吧？
 

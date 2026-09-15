@@ -4,7 +4,7 @@ draft: false
 weight: 2
 ---
 
-In the last exercise, we learned basic if-else conditions. If you need a quick refresher, you can review <a href="../../python-basics/conditional-statements"> Conditional statements</a>.
+In the last exercise, we learned basic if-else conditions. If you need a quick refresher, you can review <a href="../conditional-statements/"> Conditional statements</a>.
 
 In this section, we'll expand to introduce a new condition called "elif".
 
@@ -76,7 +76,7 @@ In Example B we will evaluate the first `if` statement (`1==1`) to be `true`. Th
 #### Challenge
 Can you utilize the knowledge you learnt in Python-Basics-booleans to make your own example for `elif`?
 You may want to review boolean to finish this challenge.
-- <a href="../../python-basics/data-types/booleans"> Booleans </a>
+- <a href="../../data-types/booleans/"> Booleans </a>
 <br/><br/>
 
 <iframe src="https://trinket.io/embed/python/5292ae7e3a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

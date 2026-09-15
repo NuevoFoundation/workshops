@@ -17,7 +17,7 @@ Lass uns versuchen, ein C#-Programm auszuführen, das `Hello World` in die Konso
 
 Füge im obenstehenden .NET Fiddle-Fenster eine neue Codezeile unter der ersten Zeile hinzu, um "Hello *dein Name*" auszugeben. Es sollte etwa so aussehen:
 
-<img src="../images/Step1.png" height="300" alt="Der Startbildschirm eines Fiddles" />
+<img src="/csharp-basics/images/Step1.png" height="300" alt="Der Startbildschirm eines Fiddles" />
 
 Unten auf dem Bildschirm solltest du deine Ausgabe sehen. Cool, oder?  
 

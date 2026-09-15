@@ -17,7 +17,7 @@ weight: 2
 
 在上面的 .NET Fiddle 窗口中，在第一行代码下面添加新的一行代码，打印 "Hello *你的名字*"。它应该看起来像这样：
 
-<img src="../images/Step1.png" height="300" alt="小练习的起始界面" />
+<img src="/csharp-basics/images/Step1.png" height="300" alt="小练习的起始界面" />
 
 你应该在屏幕下方看到你的输出结果。很酷吧？  
 

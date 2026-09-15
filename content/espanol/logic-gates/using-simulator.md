@@ -14,7 +14,7 @@ Para restaurarla, primero debemos aprender a usar el simulador de circuitos lóg
 
 ---
 
-<img src="../media/pattern.webp" alt="Decoracion" width="100%" />
+<img src="../media/Pattern.webp" alt="Decoracion" width="100%" />
 
 ## Uso básico del simulador
 
@@ -82,6 +82,8 @@ Si la entrada está en `1` y la salida muestra `1`, el circuito está funcionand
 ---
 
 ## Simulador
+
+{{< logic-gate-icon-guide lang="es" >}}
 
 <iframe src="https://drendog.github.io/Logic-Circuit-Simulator/" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
 

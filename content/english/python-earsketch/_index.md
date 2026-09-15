@@ -2,7 +2,7 @@
 title: "Python: Create music with EarSketch"
 description: "Create music using Python and EarSketch"
 date: 2019-07-23T11:45:38-07:00
-prereq: "Python Basics: Print, Comments, Functions"
+prereq: "Python Basics"
 download: ""
 draft: false
 icon: "fab fa-python"
@@ -12,6 +12,8 @@ difficulties: ["intermediate"]
 ---
 
 ### Let's make some music!
+
+Python skills used in this workshop: print statements, comments, and functions.
 
 Welcome to this introductory guide on how to make music using
 [EarSketch](https://en.wikipedia.org/wiki/EarSketch) & Python. To jump to a particular activity, you can click on the section link on the navigation bar on the left of the page.

@@ -2,7 +2,7 @@
 title: "Python: Basics"
 description: "Learn basic concepts of using the Python programming language"
 date: 2022-09-19T14:45:38-07:00
-prereq: "none"
+prereq: "None"
 icon: "fab fa-python"
 draft: false
 language: "python"
@@ -24,7 +24,7 @@ Today, Python is used by developers all over the world. Specifically, Python is 
 
 And, in this course, we will cover all the basic features of the language.
 
-If at any time you get stuck or run into problems, access the [Help, I am stuck!](help.md) page for some quick tips and fixes to common mistakes.
+If at any time you get stuck or run into problems, access the [Help, I am stuck!](help/) page for some quick tips and fixes to common mistakes.
 
 <details open>
 <summary>Topics</summary>

@@ -17,7 +17,7 @@ Essayons d'exécuter un programme C# qui affiche `Hello World` dans la console. 
 
 Dans le cadre .NET Fiddle ci-dessus, ajoutez une nouvelle ligne de code sous la première ligne pour imprimer "Hello *votre nom*". Cela devrait ressembler à ceci.
 
-<img src="../images/Step1.png" height="300" alt="L'écran de départ d'un fiddle" />
+<img src="/csharp-basics/images/Step1.png" height="300" alt="L'écran de départ d'un fiddle" />
 
 Vous devriez voir votre résultat en bas de l'écran. Sympa, non ?
 
