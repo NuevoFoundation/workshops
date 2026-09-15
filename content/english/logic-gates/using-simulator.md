@@ -79,9 +79,9 @@ If the input is at `1` and the output shows `1`, your circuit is working.
 - How to toggle input signals.
 - This circuit does not use logic gates yet, just a direct connection.
 
----
-
 ## Simulator
+
+{{< logic-gate-icon-guide >}}
 
 <iframe src="https://drendog.github.io/Logic-Circuit-Simulator/" title="Logic gate simulator" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
 

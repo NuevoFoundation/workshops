@@ -106,6 +106,8 @@ See full truth table
 
 ## Simulator
 
+{{< logic-gate-icon-guide >}}
+
 <iframe src="https://drendog.github.io/Logic-Circuit-Simulator/" title="Logic gate simulator" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
 
 ---
