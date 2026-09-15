@@ -1,3 +1,27 @@
+{{- if eq (.Get "lang") "es" -}}
+<div class="lg-icon-guide" aria-label="Guía de iconos de circuitos lógicos">
+	<div class="lg-icon-guide-item">
+		<img src="../media/logic-input.webp" alt="" />
+		<span><strong>Entrada</strong>Configura 0 o 1</span>
+	</div>
+	<div class="lg-icon-guide-item">
+		<img src="../media/logic-output.webp" alt="" />
+		<span><strong>Salida</strong>Muestra el resultado</span>
+	</div>
+	<div class="lg-icon-guide-item">
+		<img src="../media/logic-and.webp" alt="" />
+		<span><strong>AND</strong>Ambas deben ser 1</span>
+	</div>
+	<div class="lg-icon-guide-item">
+		<img src="../media/logic-or.webp" alt="" />
+		<span><strong>OR</strong>Cualquiera puede ser 1</span>
+	</div>
+	<div class="lg-icon-guide-item">
+		<img src="../media/logic-not.webp" alt="" />
+		<span><strong>NOT</strong>Invierte 0 y 1</span>
+	</div>
+</div>
+{{- else -}}
 <div class="lg-icon-guide" aria-label="Logic circuit icon guide">
 	<div class="lg-icon-guide-item">
 		<img src="../media/logicinput.png" alt="" />
@@ -20,3 +44,4 @@
 		<span><strong>NOT</strong>Reverses 0 and 1</span>
 	</div>
 </div>
+{{- end -}}
