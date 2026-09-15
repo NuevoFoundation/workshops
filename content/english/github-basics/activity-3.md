@@ -5,8 +5,6 @@ difficulties: ["intermediate"]
 weight: 3
 ---
 
-<img src="../images/room3_pull_request.jpg" alt="A massive door stands before you, with 'Pull Request' emblazoned above" />
-
 A massive door blocks your path, with "Pull Request" written above it. A sign reads: "To open this door, your changes must be reviewed."
 
 ## Your Mission

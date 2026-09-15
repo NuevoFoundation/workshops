@@ -31,7 +31,7 @@ In this project we've given you a mostly working Android application that's a ga
 
 ## Download the Project Files
 To get started, download the project files using the steps below:
-1. [Download the project files](../resources/_gen/files/TicTacToe.zip) for your game.
+1. [Download the project files](resources/_gen/files/TicTacToe.zip) for your game.
 2. Find the TicTacToe.zip file in your downloads folder.
 3. Unzip the file.
    - On Windows: Right-click on TicTacToe.zip and select `Extract All...`. A folder named 'TicTacToe' will be created containing the project code.

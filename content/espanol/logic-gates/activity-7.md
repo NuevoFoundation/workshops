@@ -18,7 +18,7 @@ La **Rana** cuida un puente con una regla precisa:
 
 ---
 
-<img src="../media/pattern.webp" alt="Decoración" width="100%" />
+<img src="../media/Pattern.webp" alt="Decoración" width="100%" />
 
 ## Objetivo lógico
 

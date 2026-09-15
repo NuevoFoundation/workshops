@@ -18,7 +18,7 @@ En la sala de reflejos, el **Monito** te explica:
 
 ---
 
-<img src="../media/pattern.webp" alt="Decoración" width="100%" />
+<img src="../media/Pattern.webp" alt="Decoración" width="100%" />
 
 ## Objetivo lógico
 

@@ -3,7 +3,7 @@ title: "Java: Jogo da Velha"
 description: "Aprenda sobre variáveis, funções e condicionais enquanto constrói um aplicativo Android do Jogo da Velha"
 date: 2021-03-13T14:04:59.61-07:00
 prereq: "Android Studio"
-download: "resources/_gen/files/TicTacToe.zip"
+download: "/android-tictactoe/resources/_gen/files/TicTacToe.zip"
 icon: "fab fa-android"
 draft: false
 language: "java"
@@ -31,7 +31,7 @@ Neste projeto, fornecemos a você um aplicativo Android quase funcional. Ele pre
 
 ## Baixe os arquivos do projeto
 Para começar, baixe os arquivos do projeto usando as etapas abaixo:
-1. [Baixe os arquivos do projeto](../resources/_gen/files/TicTacToe.zip) para o seu jogo.
+1. [Baixe os arquivos do projeto](/android-tictactoe/resources/_gen/files/TicTacToe.zip) para o seu jogo.
 2. Encontre o arquivo TicTacToe.zip na pasta de downloads.
 3. Descompacte o arquivo.
  - No Windows: Clique com o botão direito em TicTacToe.zip e selecione `Extrair tudo...`. Uma pasta chamada 'TicTacToe' será criada contendo o código do projeto.

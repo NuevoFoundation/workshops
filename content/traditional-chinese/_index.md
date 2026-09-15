@@ -9,4 +9,4 @@ hidemetadata: true
 {{< workshop-list style="card" depth="1" showhidden="false" description="true" interactive="true"  />}}
 
 ## 貢獻
-想幫助改進我們的研討會或網站嗎？請點處這裏: **[Workshop Contributor Guidelines](guidelines/)**!
+想幫助改進我們的研討會或網站嗎？請點處這裏: **[Workshop Contributor Guidelines](/guidelines/)**!

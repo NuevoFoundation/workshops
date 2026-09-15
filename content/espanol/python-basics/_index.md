@@ -22,7 +22,7 @@ Hoy en día, Python es usado por desarrolladores de todo el mundo. Específicame
 
 Y, en este curso, cubriremos todas las características básicas del lenguaje.
 
-Si en algún momento te atascas o encuentras problemas, accede a la página [¡Ayuda, estoy atascado!](help.md) para obtener consejos rápidos y soluciones a errores comunes.
+Si en algún momento te atascas o encuentras problemas, accede a la página [¡Ayuda, estoy atascado!](help/) para obtener consejos rápidos y soluciones a errores comunes.
 
 <details open>
 <summary>Temas</summary>

@@ -21,7 +21,7 @@ Tu misión es comprobar este comportamiento en el simulador y encender el camino
 
 ---
 
-<img src="../media/pattern.webp" alt="Decoración" width="100%" />
+<img src="../media/Pattern.webp" alt="Decoración" width="100%" />
 
 ## ¿Qué es la compuerta OR?
 
