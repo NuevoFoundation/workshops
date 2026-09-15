@@ -15,9 +15,11 @@ difficulties: ["beginner"]
 Neste workshop, você vai aprender a criar seu próprio chatbot. No final do workshop, você terá um chatbot que pode ter uma conversa simples com o usuário. Você vai aprender a usar AIML, uma linguagem para criar chatbots. Você também vai aprender a usar o Pandorabots, uma plataforma para hospedar chatbots.
 
 Para completar o workshop, você vai precisar de um endereço de email para se inscrever em uma conta no Pandorabots.
+<p style="text-align: center; "><img src="./img/introduction.png" alt="Ilustração de um chatbot amigável dando as boas-vindas ao workshop" width="60%"/></p>
 
 ## O que é um chatbot?
 Um chatbot é um programa de computador que simula uma conversa humana para responder perguntas.
+<img src="./img/surprised.png" alt="Ilustração de um personagem surpreso aprendendo sobre chatbots" width="20%" />
 
 ## Exemplos de chatbots
 Provavelmente você já interagiu com um chatbot no seu dia a dia.
@@ -33,6 +35,8 @@ Mais recentemente, os chatbots se tornaram mais conhecidos graças a tecnologias
 
 ## História dos chatbots
 Os chatbots existem há muito tempo. O primeiro chatbot foi criado em 1966 e se chamava ELIZA. Em 1995, um novo chatbot chamado ALICE foi criado. ALICE foi escrito usando AIML, que é a mesma linguagem que vamos aprender neste workshop.
+
+<img src="./img/elderly.png" alt="Ilustração de um personagem idoso representando a longa história dos chatbots" width="20%"/>
 
 ## Índice
 

@@ -6,7 +6,7 @@ weight: 8
 
 ## Coringas
 Você deve estar percebendo agora que dá muito trabalho escrever uma categoria para cada maneira possível que um usuário pode fazer uma pergunta. Por exemplo, atualmente o bot responde a "Olá" com "Olá, mundo". Mas e se o usuário disser "Olá, tudo bem" ou "Olá, chatbot"? Teríamos que escrever uma nova categoria para cada um desses casos. Felizmente, existem ferramentas adicionais que podemos usar para tornar nosso bot mais flexível.
-
+<img src="../img/party.png" alt="Ilustração de um personagem comemorando as novas capacidades do chatbot" width="25%" style="display: block; margin-left: 0;" />
 Uma dessas ferramentas é o **coringa**. Um coringa é um caractere especial que corresponde a qualquer palavra ou frase. Vamos ver como funciona.
 
 ```
