@@ -7,6 +7,7 @@ draft: false
 icon: "fas fa-puzzle-piece"
 language: "blocks"
 topics: ["music"]
+prereq: "None"
 difficulties: ["beginner"]
 ---
 

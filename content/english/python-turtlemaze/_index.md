@@ -3,7 +3,9 @@ title: "Python: The Tale of Nuvo and Nuvi — The Great Maze Adventure"
 description: "Join Nuvo the turtle on a coding adventure to find his best friend Nuvi using Python Turtle!"
 date: 2025-10-12T12:00:00-04:00
 prereq: "Python Basics"
-difficulty: "Advanced"
+difficulties: ["advanced"]
+language: "python"
+topics: ["graphics"]
 image: ""
 draft: false
 icon: "fab fa-python"

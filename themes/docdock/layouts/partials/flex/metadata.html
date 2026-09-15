@@ -4,7 +4,14 @@
         {{ with .Param "prereq" }}
         <div class="metadata-row">
             <span class="metadata-label">{{ i18n "pre-requisite" }}</span>
-            <span class="metadata-value">{{ . }} </span>
+            <span class="metadata-value">
+                {{- $pythonBasics := $.Site.GetPage "/python-basics" -}}
+                {{- if and (eq . "Python Basics") $pythonBasics -}}
+                    <a href="{{ $pythonBasics.RelPermalink }}">{{ . }}</a>
+                {{- else -}}
+                    {{ . }}
+                {{- end -}}
+            </span>
         </div>
         {{ end }}
         {{ with .Param "difficulties" }}
