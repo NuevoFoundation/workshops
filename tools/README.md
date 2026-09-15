@@ -1,6 +1,6 @@
 # tools/ — Workshop development utilities
 
-Scripts to help contributors maintain the NuevoFoundation workshops repo.
+Scripts to help contributors maintain the NuevoFoundation workshops repo. All scripts use Python 3.8+ with stdlib only (no external dependencies).
 
 ## update-dates.py
 

@@ -17,7 +17,7 @@ Vamos a intentar ejecutar un programa en C# que imprima `Hello World` (Hola Mund
 
 En el marco de .NET Fiddle anterior, agrega una nueva línea de código debajo de la primera línea para imprimir "Hello *tu nombre*". Debería verse algo así:
 
-<img src="../images/Step1.png" height="300" alt="La pantalla inicial de un fiddle" />
+<img src="/csharp-basics/images/Step1.png" height="300" alt="La pantalla inicial de un fiddle" />
 
 Deberías ver tu salida en la parte inferior de la pantalla. ¿Genial, no?  
 

@@ -12,7 +12,7 @@ gostaria de mantê-lo seguro. Ele tem o segredo trancado em algum lugar seguro. 
 Bob tem a 'chave' da fechadura para garantir que ninguém possa descobrir seu segredo,
 exceto ele.
 
-![Não é possível carregar a imagem](../img/Eva.png?height=250px)
+![Não é possível carregar a imagem](../img/Eve.png?height=250px)
 
 Conheça nossa não tão boa amiga <b>Eva</b>. **Eva** quer acesso ao segredo de **Bob**.
 

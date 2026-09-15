@@ -13,4 +13,4 @@ Clic en el botón de abajo para abrir una ventana en blanco Trinket e iniciar tu
 
 ## Ayuda, estoy atascado!
 
-¿Atascado? ¡Compruebe la [Clave de respuestas](../answer-key.md) para ver la actividad en la que está atascado!
+¿Atascado? ¡Compruebe la [Clave de respuestas](../answer-key/) para ver la actividad en la que está atascado!

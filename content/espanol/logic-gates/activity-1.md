@@ -22,7 +22,7 @@ Tu misión es probar este comportamiento utilizando el simulador de compuertas l
 
 ---
 
-<img src="../media/pattern.webp" alt="Decoración" width="100%" />
+<img src="../media/Pattern.webp" alt="Decoración" width="100%" />
 
 ## ¿Qué es la compuerta AND?
 
