@@ -5,6 +5,8 @@ weight: 5
 draft: false
 ---
 
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/UpnLEbxxrpU" title="React CR - Actividad 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 <img src="../media/playas.png" alt="Limpieza de playa" style="width:50%;">
 
 ¡Genial! Lograste salvar las tortugas. Ahora para a limpiar playas de Costa Rica aprenderemos a usar constantes pero con arrays, for loops y variables let.

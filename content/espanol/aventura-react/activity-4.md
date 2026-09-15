@@ -5,6 +5,8 @@ weight: 7
 draft: false
 ---
 
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/Q8H56xFWFec" title="React CR - Actividad 4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 ¿Sabías que hay alrededor de 200 volcanes en Costa Rica?, de los cuales solo cinco están activos que son: el Poás, Irazú, Turrialba, Rincón de la Vieja y Arenal. El resto se encuentran inactivos o extintos. 
 
 Bueno te vamos a hablar del Volcán Arenal. 
@@ -105,4 +107,3 @@ return (
 **NO OLVIDES IMPORTARLO EN EL APP.JSX**
 
 ![alt text height="200px" width="50%"](../media/Components4Volcan.png "Volcan Arenal")
-
