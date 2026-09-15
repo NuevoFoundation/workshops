@@ -6,6 +6,8 @@ prereq: "Conocimiento en HTML y CSS"
 difficulty: "Normal"
 ---
 
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/7jq8ln0LclI" title="React CR - Introducción" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 ## Introducción
 
 <p style="font-size: 1.8rem; font-weight: bold;">Bienvenidos, te acabas de ganar un tour a Costa Rica.</p>

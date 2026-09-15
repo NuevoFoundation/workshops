@@ -5,6 +5,8 @@ weight: 2
 draft: false
 ---
 
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/SwLpeAknUvQ" title="React CR - Configurar entorno" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 <p style="font-size:1.8rem; text-align:center; color:#333;">Entra en el link de abajo para construir tú mismo el app de Costa Rica</p>
 
 <a class="my-2 mx-4 btn btn-info" href="https://playcode.io/react" target="_blank" style="display:block; text-align:center; background-color:#007BFF; color:white; padding:10px 20px; text-decoration:none; border-radius:5px; font-size:1.5rem; margin:20px auto; width:fit-content;">Crea tu proyecto de React!</a>
@@ -111,7 +113,6 @@ Tortugero.jsx
 
 
 ![alt text height="600px" width="70%"](../media/paso6-carpeta.png "Paso 6")
-
 
 
 
