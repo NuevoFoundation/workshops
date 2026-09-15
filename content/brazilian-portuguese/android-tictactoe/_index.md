@@ -1,5 +1,5 @@
 ---
-title: "Java: Jogo da Velha"
+title: "Java Android: Jogo da Velha"
 description: "Aprenda sobre variáveis, funções e condicionais enquanto constrói um aplicativo Android do Jogo da Velha"
 date: 2021-03-13T14:04:59.61-07:00
 prereq: "Android Studio"
