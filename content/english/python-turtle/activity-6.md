@@ -5,7 +5,7 @@ weight: 9
 draft: false
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/JuwS89luH1M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe title="Moving the Python Turtle to draw in a new location" width="560" height="315" src="https://youtube.com/embed/JuwS89luH1M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 <img src="../media/bee_turtle_chat.png" alt="Bee turtle chat" width="25%"/>
 
@@ -47,4 +47,4 @@ The `x` and  `y` in the `turtle.goto()` method are the `x` and `y` coordinates o
 
 To complete this activity, move the turtle to position (100, 100) on the canvas. This will move it to the top-right corner.
 
-<iframe src="https://trinket.io/embed/python/dee0f642ce" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Interactive Python Turtle code editor for practicing coordinates" src="https://trinket.io/embed/python/dee0f642ce" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

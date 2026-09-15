@@ -366,7 +366,13 @@ section ul {
 }
 
 section a {
-  color: #2980b9;
+  color: #2472a6;
+}
+
+section a.btn-info {
+  color: #fff;
+  background-color: #397c90;
+  border-color: #326d7f;
 }
 
 section strong {
@@ -1100,6 +1106,12 @@ div.notices.hint {
 div.notices.tip p,
 div.notices.hint p {
   color: #45763c !important;
+}
+
+div.notices.tip a,
+div.notices.hint a {
+  color: #2472a6;
+  text-decoration: underline;
 }
 
 div.notices.warning {

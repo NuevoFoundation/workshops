@@ -5,7 +5,7 @@ weight: 12
 draft: false
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/X3cGRSyeJrs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe title="Coloring a mandala flower with Python Turtle" width="560" height="315" src="https://youtube.com/embed/X3cGRSyeJrs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ![alt text width="70%"](../media/mandala-blue.png "mandala flower with blue pedals")
 
@@ -23,4 +23,4 @@ In the `turtle.color()` method, we can specify three integer arguments correspon
 
 Update your mandala flower to use a color of your liking. Feel free to experiment with different colors!
 
-<iframe src="https://trinket.io/embed/python/1f9c80fffe" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Interactive Python Turtle code editor for coloring a mandala flower" src="https://trinket.io/embed/python/1f9c80fffe" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
