@@ -15,7 +15,7 @@
   var filters = document.querySelector(".workshop-explorer-filters");
   if (!explorer || !filters) return;
 
-  // Collect all card elements (direct spans) and remember their home <li>.
+  // Collect all card list items and remember their original positions.
   var cards = Array.prototype.slice.call(
     explorer.querySelectorAll(".workshop-button")
   );

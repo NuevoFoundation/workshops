@@ -54,7 +54,7 @@
 {{- if .Params.hidden }}
 {{- else}}
 
-<span class="workshop-button" onclick="location.href='{{.Permalink}}'"
+<li class="workshop-button" onclick="location.href='{{.Permalink}}'"
 	data-title="{{ .Title }}"
 	data-description="{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify }}{{ end }}"
 	data-language="{{ with .Params.language }}{{ . }}{{ else }}unspecified{{ end }}"
@@ -95,7 +95,7 @@
 			<p>{{.Summary}}</p>
 		{{- end}}
 	{{- end}}
-</span>
+</li>
 
 
 {{- if lt $.count $.depth}}
