@@ -2,6 +2,9 @@
 [navigation]
 other = "導航:"
 
+[skip-workshop-content]
+other = "跳至工作坊內容"
+
 # next-prev-button.html
 [up-next]
 other = "下一頁:"

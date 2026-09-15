@@ -5,7 +5,7 @@ weight: 6
 draft: false
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/X3NVkkglkQ8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe title="Simplifying Python Turtle code with functions" width="560" height="315" src="https://youtube.com/embed/X3NVkkglkQ8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 We drew one hexagon. But this is just one of many hexagons Alex needs to build his honeycomb. Once again, it seems that we would have to repeat the code many times to draw multiple hexagons. Fortunately, we don't have to! Functions to the rescue!
 
@@ -78,4 +78,4 @@ Notice that `turtle.forward(50)` has 2 tabs in front of it, because it is both i
 
 So, let’s try that out by making our own `draw_hexagon()` function! Remember to include the function definition header, the number of sides a hexagon has, and the angle associated with a hexagon: 60 degrees.
 
-<iframe src="https://trinket.io/embed/python/c3ef894658" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Interactive Python Turtle code editor for practicing functions" src="https://trinket.io/embed/python/c3ef894658" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

@@ -2,6 +2,9 @@
 [navigation]
 other = "Navigation :"
 
+[skip-workshop-content]
+other = "Aller au contenu de l’atelier"
+
 # next-prev-button.html
 [up-next]
 other = "Suivant :"
