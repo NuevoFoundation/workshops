@@ -122,7 +122,7 @@ git push --set-upstream origin my-change
 
 ### Make your edit
 
-Open the repo folder in VS Code. Navigate to the file you want to change. For this example, edit `content/english/guidelines/getting-started.md`. For a deeper understanding of the file structure, see [how the site is built](site-architecture).
+Open the repo folder in VS Code. Navigate to the file you want to change. For this example, edit `content/english/guidelines/getting-started.md`. For a deeper understanding of the file structure, see [how the site is built](../site-architecture/).
 
 ### Commit and push
 

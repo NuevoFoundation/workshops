@@ -8,10 +8,10 @@ weight: 2
 
 This game will use some of the concepts you learned in the Python Basics section.
 You will need to know how to use the following concepts. If you are not familiar with any of these, please go back to review them.
-- <a href="../../python-basics/loops" target="_blank">While loops</a>
-- <a href="../../python-basics/python-console/writing-to-console" target="_blank">Writing to console</a>
-- <a href="../../python-basics/python-console/reading-from-console" target="_blank">Reading from the console</a>
-- <a href="../../python-basics/conditional-statements" target="_blank">Conditional statements</a>
+- <a href="../../python-basics/conditional-statements-loops/loops/" target="_blank">While loops</a>
+- <a href="../../python-basics/basics/writing-to-console/" target="_blank">Writing to console</a>
+- <a href="../../python-basics/basics/reading-from-console/" target="_blank">Reading from the console</a>
+- <a href="../../python-basics/conditional-statements-loops/conditional-statements/" target="_blank">Conditional statements</a>
 - <a href="/python-guess-number/random/" target="_blank">Random numbers</a>
 
 You will need to code this game so that it randomly generates a number.

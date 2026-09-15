@@ -9,4 +9,4 @@ hidemetadata: true
 {{< workshop-list style="card" depth="1" showhidden="false" description="true"  />}}
 
 ## Внеси свой вклад
-Хотите помочь улучшить наши воркшопы или сайт? Нажми здесь: **[Workshop Contributor Guidelines](guidelines/)**!
+Хотите помочь улучшить наши воркшопы или сайт? Нажми здесь: **[Workshop Contributor Guidelines](/guidelines/)**!

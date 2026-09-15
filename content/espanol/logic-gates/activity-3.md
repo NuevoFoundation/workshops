@@ -22,7 +22,7 @@ Tu misión es construir un circuito que **invierta** la señal de entrada.
 
 ---
 
-<img src="../media/pattern.webp" alt="Decoración" width="100%" />
+<img src="../media/Pattern.webp" alt="Decoración" width="100%" />
 
 ## ¿Qué es la compuerta NOT?
 
@@ -93,6 +93,8 @@ Ver tabla de verdad completa
 ---
 
 ## Simulador
+
+{{< logic-gate-icon-guide lang="es" >}}
 
 <iframe src="https://drendog.github.io/Logic-Circuit-Simulator/" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
 
