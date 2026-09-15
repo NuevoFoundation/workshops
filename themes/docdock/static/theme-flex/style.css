@@ -812,6 +812,18 @@ article section.page pre[class*="language-"] {
   white-space: pre;
 }
 
+.highlight span[style*="color:#d88200"] {
+  color: #a56200 !important;
+}
+
+.highlight span[style*="color:#ae81ff"] {
+  color: #7e5cb9 !important;
+}
+
+.highlight span[style*="color:#f92672"] {
+  color: #d42060 !important;
+}
+
 .anchor {
   color: #2053ab;
   font-size: 0.5em;
