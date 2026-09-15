@@ -19,51 +19,61 @@ enableMissingTranslationPlaceholders = false
 [Languages.en]
 weight = 1
 languageName = "English"
+languageCode = "en-US"
 contentDir = "content/english"
 
 [Languages.es]
 weight = 2
 languageName = "Español"
+languageCode = "es"
 contentDir = "content/espanol"
 
 [Languages.fr]
 weight = 3
 languageName = "Français"
+languageCode = "fr"
 contentDir = "content/francais"
 
 [Languages.pt-br]
 weight = 4
 languageName = "Português Brasileiro"
+languageCode = "pt-BR"
 contentDir = "content/brazilian-portuguese"
 
 [Languages.de]
 weight = 5
 languageName = "Deutsch"
+languageCode = "de"
 contentDir = "content/german"
 
 [Languages.zh-hans]
 weight = 6
 languageName = "简体中文"
+languageCode = "zh-Hans"
 contentDir = "content/simplified-chinese"
 
 [Languages.zh-hant]
 weight = 7
 languageName = "繁體中文"
+languageCode = "zh-Hant"
 contentDir = "content/traditional-chinese"
 
 [Languages.kr]
 weight = 8
 languageName = "한국어"
+languageCode = "ko"
 contentDir = "content/korean"
 
 [Languages.ky]
 weight = 9
 languageName = "Кыргызча"
+languageCode = "ky"
 contentDir = "content/kyrgyz"
 
 [Languages.ru]
 weight = 9
 languageName = "Русский"
+languageCode = "ru"
 contentDir = "content/russian"
 
 [params]

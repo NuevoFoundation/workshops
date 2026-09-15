@@ -7,7 +7,7 @@ draft: false
 
 <img src="../media/bee_square.png" alt="Bee imagining square" width="25%" />
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/CRJf-LbXAx4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe title="Drawing a square with Python Turtle" width="560" height="315" src="https://www.youtube.com/embed/CRJf-LbXAx4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 Kudos! You helped Alex draw a line! Now let’s step it up and help Alex draw a square. A square is one of the simplest and most familiar shapes in geometry.A square has four sides and they are exactly the same length. When we say "angle," we mean the space between two sides where they meet. In a square, all four angles are the same too.
 
@@ -32,4 +32,4 @@ Remember to use `turtle.forward()` to draw lines. To turn 90 degrees left, you n
 turtle.left(90)
 ```
 
-<iframe src="https://trinket.io/embed/python/bfe791bb1e" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Interactive Python Turtle code editor for drawing a square" src="https://trinket.io/embed/python/bfe791bb1e" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

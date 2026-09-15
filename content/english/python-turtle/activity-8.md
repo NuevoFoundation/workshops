@@ -5,7 +5,7 @@ weight: 11
 draft: false
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/vfwj3tqEZCI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe title="Creating a mandala flower with Python Turtle" width="560" height="315" src="https://youtube.com/embed/vfwj3tqEZCI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 <img src="../media/bee_happy.png" alt="Bee happy" width="25%"/>
 
@@ -13,4 +13,4 @@ We’re done creating our first figure 8! We can now use the `figure_8()` functi
 
 Create a new function called `mandala_flower()`. In the loop we will call the `figure_8()` function we wrote earlier to create a figure 8. Then, rotate the turtle either left or right a certain number of degrees (for example, 10 degrees). Repeat these steps many times to make a mandala flower; it’s a good idea to create a loop that repeats at least 25 times. 
 
-<iframe src="https://trinket.io/embed/python/b82ce0c14f" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Interactive Python Turtle code editor for creating a mandala flower" src="https://trinket.io/embed/python/b82ce0c14f" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
