@@ -1,4 +1,15 @@
 jQuery(document).ready(function () {
+  jQuery(".skip-link").on("click", function (event) {
+    var target = document.querySelector(this.hash);
+    if (!target) {
+      return;
+    }
+
+    event.preventDefault();
+    target.focus({ preventScroll: true });
+    target.scrollIntoView({ block: "start" });
+  });
+
   jQuery("button.category-icon").on("click", function () {
     var $btn = $(this);
     $btn.find("i").toggleClass("fa-angle-down fa-angle-up");
