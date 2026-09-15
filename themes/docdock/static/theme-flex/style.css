@@ -329,6 +329,25 @@ body {
   pointer-events: none;
 }
 
+.skip-link {
+  position: fixed;
+  top: 0.5rem;
+  left: 0.5rem;
+  z-index: 2000;
+  padding: 0.75rem 1rem;
+  color: #000;
+  background: #fcc600;
+  border: 3px solid #000;
+  border-radius: 5px;
+  transform: translateY(-150%);
+}
+
+.skip-link:focus {
+  outline: 3px solid #fff;
+  outline-offset: 2px;
+  transform: translateY(0);
+}
+
 a {
   color: inherit;
 }
@@ -1048,14 +1067,19 @@ div.notices.tip {
   border: 4px solid black;
   border-top: 30px solid #000000;
   background: #e8f7e6;
-  color: rgba(72, 125, 63, 0.995) !important;
+  color: #45763c !important;
 }
 
 div.notices.hint {
   border: 4px solid black;
   border-top: 30px solid #000000;
   background: #e8f7e6;
-  color: rgba(72, 125, 63, 0.995) !important;
+  color: #45763c !important;
+}
+
+div.notices.tip p,
+div.notices.hint p {
+  color: #45763c !important;
 }
 
 div.notices.warning {
