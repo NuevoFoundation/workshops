@@ -5,7 +5,7 @@ weight: 1
 draft: false
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/_DbRac3d0lo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe title="Usando Trinket - YouTube video" width="560" height="315" src="https://www.youtube.com/embed/_DbRac3d0lo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 Para ajudar Alex a viver em uma colmeia, ele precisa aprender a como criar um favo de mel! Usaremos a biblioteca `turtle` do Python para desenhar um favo de mel para Alex.
 
@@ -15,7 +15,7 @@ Para ajudar Alex a viver em uma colmeia, ele precisa aprender a como criar um fa
 
 Hoje você usará o Trinket para aprender a codificar em Python. Aqui está um exemplo de janela interativa que você usará hoje:
 
-<iframe src="https://trinket.io/embed/python/1363ac22be" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Usando Trinket - Trinket" src="https://trinket.io/embed/python/1363ac22be" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Antes de começar, vamos primeiro entender como a janela funciona. O arquivo `main.py` contém código ou instruções para o computador executar. Pressionando o botão **run**, você diz para o computador executar as instruções do código. Todos os resultados do código serão exibidos na tela branca inferior, na guia **result**. Hoje, nossos resultados serão uma animação de um desenho sendo criado.
 

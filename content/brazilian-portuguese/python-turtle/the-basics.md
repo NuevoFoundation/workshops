@@ -7,7 +7,7 @@ draft: false
 
 Antes que Alex possa aprender como criar uma colmeia, ele deve primeiro aprender a desenhar uma linha colorida. Adicionaremos código à janela do Trinket abaixo e faremos isso em duas partes.
 
-<iframe src="https://trinket.io/embed/python/1363ac22be" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Os Fundamentos – Desenhando uma linha colorida - Trinket" src="https://trinket.io/embed/python/1363ac22be" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Primeiro, precisamos dizer à tartaruga qual a cor que queremos que a linha tenha. Para fazer isso, vamos digitar:
 

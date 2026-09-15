@@ -7,7 +7,7 @@ draft: false
 
 <img src="../media/bee_square.png" alt="Bee imagining square" width="25%" />
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/CRJf-LbXAx4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe title="Задание 1 - Рисуем квадрат - YouTube video" width="560" height="315" src="https://www.youtube.com/embed/CRJf-LbXAx4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 Молодец! Ты помог(ла) Алексу нарисовать линию! Теперь давай усложним задачу и поможем Алексу нарисовать квадрат. Квадрат — одна из самых простых и знакомых фигур в геометрии. У квадрата четыре стороны, и они точно одинаковой длины. Когда мы говорим «угол», мы имеем в виду пространство между двумя сторонами в месте их пересечения. В квадрате все четыре угла тоже равны.
 
@@ -32,4 +32,4 @@ draft: false
 turtle.left(90)
 ```
 
-<iframe src="https://trinket.io/embed/python/b7f0aed05f6d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Задание 1 - Рисуем квадрат - Trinket" src="https://trinket.io/embed/python/b7f0aed05f6d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

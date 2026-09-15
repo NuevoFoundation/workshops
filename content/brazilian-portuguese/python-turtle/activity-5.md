@@ -17,4 +17,4 @@ Observe que o desenho do favo de mel pode demorar um pouco. Você pode alterar a
 turtle.speed(8)
 ```
 
-<iframe src="https://trinket.io/embed/python/d83811c24a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Atividade 5 – Desenhando um favo de mel - Trinket" src="https://trinket.io/embed/python/d83811c24a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

@@ -21,4 +21,4 @@ Dans la méthode `turtle.color()`, nous pouvons spécifier trois arguments entie
 
 Mettez à jour votre fleur mandala pour utiliser une couleur de votre choix. N'hésitez pas à expérimenter avec différentes couleurs !
 
-<iframe src="https://trinket.io/embed/python/1f9c80fffe" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Couleurs RGB (Rouge-Vert-Bleu) - Trinket" src="https://trinket.io/embed/python/1f9c80fffe" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

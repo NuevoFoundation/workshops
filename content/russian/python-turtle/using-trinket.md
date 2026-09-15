@@ -5,7 +5,7 @@ weight: 1
 draft: false
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/_DbRac3d0lo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe title="Работаем с Trinket - YouTube video" width="560" height="315" src="https://www.youtube.com/embed/_DbRac3d0lo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 Чтобы помочь Алексу жить в улье, ему нужно научиться строить соты! Мы будем использовать библиотеку `turtle` в Питоне, чтобы нарисовать соты для Алекса. Сота — это узор, который часто встречается в ульях. Представьте себе множество небольших плоских шестигранников, которые идеально прилегают друг к другу без зазоров. Эти шестигранники называются шестиугольниками.
 
@@ -15,7 +15,7 @@ draft: false
 
 Сегодня вы будете использовать Trinket, чтобы научиться программировать на Python. Ниже приведено интерактивное окно (Trinket), которым вы будете пользоваться сегодня:
 
-<iframe src="https://trinket.io/embed/python/d88b95c4c47a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Использование Trinket - Trinket" src="https://trinket.io/embed/python/d88b95c4c47a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Прежде чем начать, давайте сначала поймём, как работает это окно. Файл `main.py` содержит программу (код), то есть инструкции для выполнения компьютером. Нажав кнопку **run** (запуск), вы просите компьютер выполнить эти инструкции. Любые результаты выполнения кода будут показаны на нижнем белом экране во вкладке **result** (результаты). Сегодня наш результат — анимация того, как создаётся рисунок.
 

@@ -29,7 +29,7 @@ for i in range(3):
   turtle.left(120)
 ```
 
-<iframe src="https://trinket.io/embed/python/e82295e92f" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Activité 3 - Dessiner un hexagone - Trinket" src="https://trinket.io/embed/python/e82295e92f" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 {{% expand "**Défi supplémentaire :**" %}}
 Si tu as terminé plus tôt, essaie de modifier ton code et de dessiner des formes plus complexes ! Voici quelques exemples de formes que tu peux essayer de dessiner.

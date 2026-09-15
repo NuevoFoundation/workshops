@@ -31,4 +31,4 @@ for i in range(3):
   turtle.left(120)
 ```
 
-<iframe src="https://trinket.io/embed/python/8101b9d917b7" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Задание 3 - Рисуем шестиугольник - Trinket" src="https://trinket.io/embed/python/8101b9d917b7" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

@@ -39,4 +39,4 @@ turtle.left(120)
 
 Bueno, ahora tomemos el código que teníamos y modifiquemoslo un poco para dibujar un cuadrado en vez de un triángulo. Como pista, puedes volver a revisar lo que hicimos en la Avtividad 2.
 
-<iframe src="https://trinket.io/embed/python/c35ddebfcd" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="La sintaxis &quot;tricky&quot; de Python - Parte 1 - Trinket" src="https://trinket.io/embed/python/c35ddebfcd" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

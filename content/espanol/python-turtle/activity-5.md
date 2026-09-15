@@ -17,4 +17,4 @@ Dibujar la colmena puede tomar un rato. Para que la tortuga vaya más rápido pu
   turtle.speed(8)
 ```
 
-<iframe src="https://trinket.io/embed/python/eca47e6f61" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Actividad 5 - Dibujar una colmena - Trinket" src="https://trinket.io/embed/python/eca47e6f61" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

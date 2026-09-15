@@ -76,4 +76,4 @@ Observe que `turtle.forward(50)` tem 2 tabulações na frente dele, porque está
 
 Então, vamos tentar fazer nossa própria função `draw_hexagon()`! Lembre-se de incluir o cabeçalho de definição da função, o número de lados que um hexágono possui e o ângulo associado a um hexágono: 60 graus.
 
-<iframe src="https://trinket.io/embed/python/c3ef894658" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Sintaxe complicada do Python - Parte 2 - Trinket" src="https://trinket.io/embed/python/c3ef894658" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

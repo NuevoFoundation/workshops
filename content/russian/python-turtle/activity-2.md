@@ -5,7 +5,7 @@ weight: 4
 draft: false
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/kGhMGdqqV-w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe title="Задание 2 - Упрощение кода с помощью циклов - YouTube video" width="560" height="315" src="https://www.youtube.com/embed/kGhMGdqqV-w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 Отлично! Вы нарисовали квадрат. Но обратите внимание, что мы пишем одни и те же строки снова и снова! Нам пришлось повторить инструкции «нарисовать линию» и «повернуть влево» 4 раза. Разве не было бы здорово дать инструкцию один раз и сказать программе повторить её 4 раза? Не волнуйтесь — это возможно!
 
@@ -47,4 +47,4 @@ turtle.left(120)
 
 Теперь возьмите приведённый пример кода и слегка измените его так, чтобы он рисовал не треугольник, а квадрат. Вы можете посмотреть назад на то, что вы делали в Задании 1, чтобы получить подсказку.
 
-<iframe src="https://trinket.io/embed/python/6e4fdd05dc63" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Сложности синтаксиса Python — часть 1 - Trinket" src="https://trinket.io/embed/python/6e4fdd05dc63" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

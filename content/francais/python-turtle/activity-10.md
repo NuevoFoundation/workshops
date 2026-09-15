@@ -13,7 +13,7 @@ Nous allons utiliser la bibliothèque `random` de python. La méthode `random.ra
 
 Utilisez `random.randint(0, 256)` trois fois pour produire trois valeurs aléatoires, et intégrez-les dans la méthode `turtle.color()`. Vous devriez maintenant pouvoir voir une fleur mandala multicolore ! C'est certainement une fleur dont Alex serait intéressé à collecter le nectar !
 
-<iframe src="https://trinket.io/embed/python/64ab3455ae" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Activité 10 - Randomiser la couleur des pétales de votre fleur mandala - Trinket" src="https://trinket.io/embed/python/64ab3455ae" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 <br>
 <br>
 

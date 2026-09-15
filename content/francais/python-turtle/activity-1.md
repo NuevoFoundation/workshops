@@ -7,7 +7,7 @@ draft: false
 
 <img src="../media/bee_square.png" alt="Abeille imaginant un carré" width="25%" />
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/CRJf-LbXAx4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe title="Activité 1 - Dessiner un carré - YouTube video" width="560" height="315" src="https://www.youtube.com/embed/CRJf-LbXAx4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 Bravo ! Vous avez aidé Alex à dessiner une ligne ! Maintenant, passons à l’étape suivante et aidons Alex à dessiner un carré. Pour dessiner un carré, nous devons suivre ces étapes :
 
@@ -25,4 +25,4 @@ N'oubliez pas d'utiliser `turtle.forward()` pour dessiner les lignes. Pour tourn
 turtle.left(90)
 ```
 
-<iframe src="https://trinket.io/embed/python/bfe791bb1e" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Activité 1 - Dessiner un carré - Trinket" src="https://trinket.io/embed/python/bfe791bb1e" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

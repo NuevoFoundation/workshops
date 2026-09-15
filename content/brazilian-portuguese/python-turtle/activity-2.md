@@ -39,4 +39,4 @@ turtle.left(120)
 
 Agora, pegue o código de exemplo que fornecemos e modifique-o ligeiramente para que, em vez de desenhar um triângulo, desenhe um quadrado. Você pode relembrar o que fez na Atividade 1 como uma dica.
 
-<iframe src="https://trinket.io/embed/python/892913b49a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Sintaxe complicada do Python - Parte 1 - Trinket" src="https://trinket.io/embed/python/892913b49a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
