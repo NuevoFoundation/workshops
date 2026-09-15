@@ -91,7 +91,7 @@ figura para um exemplo:
 **Desafio:** Crie uma função chamada addNumbers que receba 2 parâmetros chamados número1 e número2 e imprima a soma no console. Chame a função addNumbers com os parâmetros 3 e 5.
 O que está impresso no console?
 
-<iframe src="https://trinket.io/embed/python/52ce76e1d0" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Desafio 1 – Crie sua própria função! - Trinket" src="https://trinket.io/embed/python/52ce76e1d0" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### Desafio 2
 

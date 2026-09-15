@@ -3,7 +3,7 @@ title: "函数"
 weight: 5
 draft: false
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0207zoiJ6s8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="函数 - YouTube video" width="560" height="315" src="https://www.youtube.com/embed/0207zoiJ6s8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **函数** 是组织相似或重复代码的一种方式。与其重复写相同的代码，我们可以将所需的代码放在函数中，然后在需要使用它的任何地方调用它。
 
@@ -86,7 +86,7 @@ sectionA(1,9)
 **挑战：** 创建一个名为 `addNumbers` 的函数，它接受名为 `number1` 和 `number2` 的 2 个参数，并在控制台上打印它们的总和。使用参数 `3` 和 `5` 调用函数 `addNumbers`。
 控制台上会打印什么？
 
-<iframe src="https://trinket.io/embed/python/52ce76e1d0" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="小挑战一 - 创建你自己的函数！ - Trinket" src="https://trinket.io/embed/python/52ce76e1d0" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### 小挑战二
 

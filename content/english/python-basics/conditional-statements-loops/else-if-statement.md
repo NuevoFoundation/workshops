@@ -79,4 +79,4 @@ You may want to review boolean to finish this challenge.
 - <a href="../../data-types/booleans/"> Booleans </a>
 <br/><br/>
 
-<iframe src="https://trinket.io/embed/python/5292ae7e3a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Challenge - Trinket" src="https://trinket.io/embed/python/5292ae7e3a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

@@ -71,4 +71,4 @@ En particular, intenta entender qué significan las palabras <font color="blue">
 
 {{% /notice %}}
 
-<iframe src="https://trinket.io/embed/python/b238d85d0d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Dato Curioso: Números Aleatorios - Trinket" src="https://trinket.io/embed/python/b238d85d0d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

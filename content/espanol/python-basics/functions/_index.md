@@ -84,7 +84,7 @@ En este ejemplo, `sectionA` será llamada con el valor `startMeasure` como `1` y
 **Desafío:** Crea una función llamada addNumbers que tome 2 parámetros llamados number1 y number2 e imprima la suma en la consola. Llama a la función addNumbers con los parámetros 3 y 5.
 ¿Qué se imprime en la consola?
 
-<iframe src="https://trinket.io/embed/python/f3f7874f0fe3" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Desafío 1 - ¡Crea tu propia función! - Trinket" src="https://trinket.io/embed/python/f3f7874f0fe3" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### Desafío 2
 

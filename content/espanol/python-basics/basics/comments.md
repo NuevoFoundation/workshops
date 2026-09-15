@@ -23,4 +23,4 @@ Ten cuidado: si quitas el símbolo `#`, ¡tu código no funcionará!
 
 Intenta añadir un comentario encima de tu primera línea de código y pulsa ejecutar. Verás que el ordenador ignorará tu comentario.
 
-<iframe src="https://trinket.io/embed/python/7d285bedc9d3" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Esta es mi primera línea de código - Trinket" src="https://trinket.io/embed/python/7d285bedc9d3" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

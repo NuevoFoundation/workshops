@@ -79,4 +79,4 @@ Quizás quieras repasar booleanos para completar este desafío.
 - <a href="../../data-types/booleans/">Booleanos</a>
 <br/><br/>
 
-<iframe src="https://trinket.io/embed/python/3ea6b97209df" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Desafío - Trinket" src="https://trinket.io/embed/python/3ea6b97209df" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

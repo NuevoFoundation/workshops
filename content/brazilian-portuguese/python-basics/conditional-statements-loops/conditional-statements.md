@@ -71,6 +71,6 @@ else:
 
 Vamos juntar tudo o que aprendemos até agora! Vamos ver se podemos criar um programa que solicite o nome do usuário. O usuário pode escrever seu nome no console. Então o computador pode decidir se o nome dele é igual ao seu e imprimir uma resposta. Caso contrário, imprima uma resposta diferente!
 
-<iframe src="https://trinket.io/embed/python/b238d85d0d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Desafio - Trinket" src="https://trinket.io/embed/python/b238d85d0d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Dica: experimente falar sobre os diferentes caminhos que um computador pode seguir! Certifique-se de identificar quais são as condições if e else.

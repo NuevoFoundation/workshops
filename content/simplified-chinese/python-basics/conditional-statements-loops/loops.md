@@ -19,7 +19,7 @@ for x in [1,2,3,4,5]:
     print("We're on loop number",x)
 ```
 
-<iframe src="https://trinket.io/embed/python/ddcca3b818" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="For 循环 - Trinket" src="https://trinket.io/embed/python/ddcca3b818" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 如果你想重复一个任务 10 次怎么办？100 次？1000 次？？
 
@@ -44,7 +44,7 @@ for x in fruits:
     print(x)
 ```
 
-<iframe src="https://trinket.io/embed/python/3fd98a6bf4" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="For 循环 - Trinket 2" src="https://trinket.io/embed/python/3fd98a6bf4" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### While 循环
 
@@ -60,7 +60,7 @@ while count < 5:
     count += 1  #这等同于count = count + 1
 ```
 
-<iframe src="https://trinket.io/embed/python/6d4f0c86f0" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="While 循环 - Trinket" src="https://trinket.io/embed/python/6d4f0c86f0" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 我们发现，只要变量count小于5，while循环下面的所有代码都会执行。
 
@@ -89,7 +89,7 @@ while True:  #这将使while循环一直运行下去！除非在循环中的某�
     count += 1  #这等同于count = count + 1
 ```
 
-<iframe src="https://trinket.io/embed/python/6cd0debfe5" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Break语句 - Trinket" src="https://trinket.io/embed/python/6cd0debfe5" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### 小挑战
 
@@ -108,7 +108,7 @@ numList = [69, 430, 363, 80, 166, 476, 250, 38, 84, 405, 41, 302, 480, 57, 155, 
 例如，请用户在控制台中输入一个数字，然后将是否找到了该数字的结果写入控制台。
 提示：我们需使用  `int(x)` 将用户输入的信息转换为整数。
 
-<iframe src="https://trinket.io/embed/python/1beb594e30" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="小挑战 - Trinket" src="https://trinket.io/embed/python/1beb594e30" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### 提问
 

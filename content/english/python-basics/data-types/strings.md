@@ -38,4 +38,4 @@ Let’s try and find two more ways to print the string `"Nuevo Foundation"` usin
     Nuevo Foundation
     Nuevo Foundation
 
-<iframe src="https://trinket.io/embed/python/b238d85d0d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Challenge 2 - Trinket" src="https://trinket.io/embed/python/b238d85d0d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

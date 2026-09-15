@@ -79,4 +79,4 @@ else:
 - <a href="../../data-types/booleans/"> 布尔值 </a>
 <br/><br/>
 
-<iframe src="https://trinket.io/embed/python/5292ae7e3a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="小挑战 - Trinket" src="https://trinket.io/embed/python/5292ae7e3a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

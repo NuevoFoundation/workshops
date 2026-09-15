@@ -7,7 +7,7 @@ weight: 1
 
 今天我们将用Trinket来学习Python。下面这个例子展示了我们要用的Trinket窗口：
 
-<iframe src="https://trinket.io/embed/python/ce70252d93" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="从 Trinket 开始学习 - Trinket" src="https://trinket.io/embed/python/ce70252d93" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 在开始之前，让我们首先了解这个窗口的工作原理。 `main.py` 文件包含了使计算机运行的代码或指令。运行代码产生的结果会被显示在窗口右侧。这个显示结果的窗口叫做控制台。
 
