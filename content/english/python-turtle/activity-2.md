@@ -47,4 +47,4 @@ turtle.left(120)
 
 Now, take the example code that we have provided, and modify it slightly so that, instead of drawing a triangle, it draws a square. You can look back at what you did in Activity 1 as a hint.
 
-<iframe title="Interactive Python Turtle code editor for practicing loops" src="https://trinket.io/embed/python/892913b49a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Interactive Python Turtle code editor for practicing loops" src="https://codebunga.com/embed/wcstxqep" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

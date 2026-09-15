@@ -5,9 +5,9 @@ weight: 2
 draft: false
 ---
 
-Antes que Alex possa aprender como criar uma colmeia, ele deve primeiro aprender a desenhar uma linha colorida. Adicionaremos código à janela do Trinket abaixo e faremos isso em duas partes.
+Antes que Alex possa aprender como criar uma colmeia, ele deve primeiro aprender a desenhar uma linha colorida. Adicionaremos código à janela do Codebunga abaixo e faremos isso em duas partes.
 
-<iframe src="https://trinket.io/embed/python/1363ac22be" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Interactive Python Turtle code editor for drawing a colored line" src="https://codebunga.com/embed/y6tyvujt" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
 
 Primeiro, precisamos dizer à tartaruga qual a cor que queremos que a linha tenha. Para fazer isso, vamos digitar:
 
@@ -67,7 +67,7 @@ turtle.forward(50)
 
 Agora que completamos nosso código, pressione **run**. Você deverá ver o seguinte na tela de resultados:
 
-![texto alternativo height="600px" width="70%"](../media/basics-trinket.png "Janela do Trinket")
+![texto alternativo height="600px" width="70%"](../media/basics-trinket.png "Janela do Codebunga")
 
 Se sim, ótimo! Caso contrário, peça ajuda.
 
