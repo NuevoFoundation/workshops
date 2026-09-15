@@ -3,7 +3,9 @@ title: "React: Costa Rica adventure"
 description: "Learn React with JavaScript"
 date: 2019-09-22T23:26:18-05:00
 prereq: "Knowledge of HTML and CSS"
-difficulty: "Intermediate"
+difficulties: ["intermediate"]
+language: "javascript"
+topics: ["web"]
 icon: "fab fa-react"
 draft: false
 ---

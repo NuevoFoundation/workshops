@@ -2,7 +2,7 @@
 title: "Python: Basics"
 description: "Learn basic concepts of using the Python programming language"
 date: 2022-09-19T14:45:38-07:00
-prereq: "none"
+prereq: "None"
 icon: "fab fa-python"
 draft: false
 language: "python"
