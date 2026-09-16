@@ -18,62 +18,62 @@ enableMissingTranslationPlaceholders = false
 [Languages]
 [Languages.en]
 weight = 1
-languageName = "English"
-languageCode = "en-US"
+label = "English"
+locale = "en-US"
 contentDir = "content/english"
 
 [Languages.es]
 weight = 2
-languageName = "Español"
-languageCode = "es"
+label = "Español"
+locale = "es"
 contentDir = "content/espanol"
 
 [Languages.fr]
 weight = 3
-languageName = "Français"
-languageCode = "fr"
+label = "Français"
+locale = "fr"
 contentDir = "content/francais"
 
 [Languages.pt-br]
 weight = 4
-languageName = "Português Brasileiro"
-languageCode = "pt-BR"
+label = "Português Brasileiro"
+locale = "pt-BR"
 contentDir = "content/brazilian-portuguese"
 
 [Languages.de]
 weight = 5
-languageName = "Deutsch"
-languageCode = "de"
+label = "Deutsch"
+locale = "de"
 contentDir = "content/german"
 
 [Languages.zh-hans]
 weight = 6
-languageName = "简体中文"
-languageCode = "zh-Hans"
+label = "简体中文"
+locale = "zh-Hans"
 contentDir = "content/simplified-chinese"
 
 [Languages.zh-hant]
 weight = 7
-languageName = "繁體中文"
-languageCode = "zh-Hant"
+label = "繁體中文"
+locale = "zh-Hant"
 contentDir = "content/traditional-chinese"
 
 [Languages.kr]
 weight = 8
-languageName = "한국어"
-languageCode = "ko"
+label = "한국어"
+locale = "ko"
 contentDir = "content/korean"
 
 [Languages.ky]
 weight = 9
-languageName = "Кыргызча"
-languageCode = "ky"
+label = "Кыргызча"
+locale = "ky"
 contentDir = "content/kyrgyz"
 
 [Languages.ru]
 weight = 9
-languageName = "Русский"
-languageCode = "ru"
+label = "Русский"
+locale = "ru"
 contentDir = "content/russian"
 
 [params]
