@@ -10,7 +10,7 @@ topics: ["programming-basics"]
 difficulties: ["beginner"]
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/udEaocEYlpc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/udEaocEYlpc" title="Introduction to Java Basics video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 Welcome to the course <b>Java: Basics</b>, where you will learn a widely-used high-level programming language that gives computer instructions to create exciting programs!
 
