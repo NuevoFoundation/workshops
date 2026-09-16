@@ -45,4 +45,4 @@ Les `x` et `y` dans la méthode `turtle.goto()` sont les coordonnées `x` et `y`
 
 Pour compléter cette activité, déplacez la tortue à la position (100, 100) sur la toile. Cela la déplacera vers le coin supérieur droit.
 
-<iframe title="Conseil - Trinket" src="https://trinket.io/embed/python/dee0f642ce" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Interactive Python Turtle code editor for practicing coordinates" src="https://codebunga.com/embed/zamtp76x" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

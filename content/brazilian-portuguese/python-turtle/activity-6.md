@@ -44,4 +44,4 @@ Os `x` e `y` no método `turtle.goto()` são as coordenadas `x` e `y` da tartaru
 
 Para completar esta atividade, mova a tartaruga para a posição (100, 100) na tela. Isso o moverá para o canto superior direito.
 
-<iframe title="Dica - Trinket" src="https://trinket.io/embed/python/dee0f642ce" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Interactive Python Turtle code editor for practicing coordinates" src="https://codebunga.com/embed/zamtp76x" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

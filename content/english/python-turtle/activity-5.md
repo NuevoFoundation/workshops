@@ -23,4 +23,4 @@ Note that the drawing of the honeycomb may take a while. You can change how fast
 turtle.speed(8)
 ```
 
-<iframe title="Interactive Python Turtle code editor for drawing a honeycomb" src="https://trinket.io/embed/python/d83811c24a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Interactive Python Turtle code editor for drawing a honeycomb" src="https://codebunga.com/embed/hfrc3v37" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

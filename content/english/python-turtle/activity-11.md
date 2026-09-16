@@ -9,7 +9,7 @@ If there is any time left, try drawing your own shapes and designs! Make your pi
 
 Click the button below to open a new blank Trinket window to start on your creation.
 
-<a class="my-2 mx-4 btn btn-info" href="https://trinket.io/library/trinkets/create?lang=python3" target="_blank">Click here</a>
+<a class="my-2 mx-4 btn btn-info" href="https://codebunga.com/embed/wm8xfj5y" target="_blank">Click here</a>
 
 ## Help, I am stuck!
 

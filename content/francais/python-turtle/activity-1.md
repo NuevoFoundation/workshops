@@ -25,4 +25,4 @@ N'oubliez pas d'utiliser `turtle.forward()` pour dessiner les lignes. Pour tourn
 turtle.left(90)
 ```
 
-<iframe title="Activité 1 - Dessiner un carré - Trinket" src="https://trinket.io/embed/python/bfe791bb1e" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Interactive Python Turtle code editor for drawing a square" src="https://codebunga.com/embed/shwtqbuc" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

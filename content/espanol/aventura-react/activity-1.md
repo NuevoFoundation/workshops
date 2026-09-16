@@ -5,6 +5,8 @@ weight: 4
 draft: false
 ---
 
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/GS2O98dQ3Jg" title="React CR - Actividad 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 <img src="../media/Tortuga.png" alt="Tortuga" style="width:25%;">
 
 <p style="font-size:1.8rem; text-align:center; color:#333;">Entra en el link de abajo para construir tú mismo el app de Costa Rica</p>
@@ -110,7 +112,6 @@ import Tortugero from "./components/Tortugero.jsx"
 Con el nombre `"Tortugero"` podemos implementar una nueva "etiqueta" y asi mostramos todo lo que contiene el archivo `"Tortugero.jsx"`
 
 ![alt text height="200px" width="50%"](../media/Components1Tortugero.png "Tortugero")
-
 
 
 

@@ -5,6 +5,8 @@ weight: 8
 draft: false
 ---
 
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/xX2VAwiPnYs" title="React CR - Actividad 5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 <img src="../media/Perezoso.png" alt="Perezoso, ilustracion descargada de freepik" width="25%" />
 
 ¡Ya estamos por terminar nuestro viaje por Costa Rica! Para terminar vamos a conocer un poco sobre los Perezosos.  

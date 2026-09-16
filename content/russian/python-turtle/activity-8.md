@@ -11,4 +11,4 @@ draft: false
 
 Создайте новую функцию с именем `mandala_flower()`. Внутри цикла мы будем вызывать функцию `figure_8()`, которую написали ранее, чтобы нарисовать восьмёрку. Затем поворачивайте черепашку влево или вправо на определённое количество градусов (например, на 10 градусов). Повторите эти шаги много раз, чтобы получить мандалу-цветок; хорошая идея — создать цикл, который повторяется как минимум 25 раз. 
 
-<iframe title="Задание 8 - Рисуем цветок манделы - Trinket" src="https://trinket.io/embed/python/85e44ee447d6" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Interactive Python Turtle code editor for creating a mandala flower" src="https://codebunga.com/embed/yg83vd87" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

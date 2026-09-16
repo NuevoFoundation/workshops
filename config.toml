@@ -1,6 +1,6 @@
 baseURL = "/"
 
-languageCode = "en-us"
+locale = "en-us"
 DefaultContentLanguage = "en"
 title = "Nuevo Foundation Workshops"
 theme = "docdock"

@@ -5,6 +5,8 @@ weight: 9
 draft: false
 ---
 
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/expl4P1QQzU" title="React CR - Viaje terminado" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 ## ¡Felicidades por completar el taller de React! 🎉
 
 Han llegado hasta el final de este emocionante viaje por Costa Rica…  
@@ -45,6 +47,5 @@ Lo que aprendieron hoy es solo el comienzo.
 
 ### ¡Felicitaciones, programadores! ⭐
 **¡Lo lograron! 🚀🦥🌋🐢🌴**
-
 
 

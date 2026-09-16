@@ -1,21 +1,21 @@
 ---
-title: "Using Trinket"
+title: "Using Codebunga"
 date: 2019-07-25T13:24:17-07:00
 weight: 1
 draft: false
 ---
 
-<p style="text-align: center;"><iframe title="How to use Trinket for Python Turtle" width="560" height="315" src="https://www.youtube.com/embed/_DbRac3d0lo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe title="How to use Codebunga for Python Turtle" width="560" height="315" src="https://www.youtube.com/embed/_DbRac3d0lo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 To help Alex live in a beehive, he needs to learn how to create a honeycomb! We will use Python's `turtle` library to draw a honeycomb for Alex.The honeycomb shape is a pattern you often see in beehives. Imagine a bunch of small, flat, six-sided figures that fit together perfectly without any gaps. These six-sided figures are called hexagons.
 
 <img src="../media/turtle_honeycomb.png" alt="A photo of a honeycomb" width="25%" />
 
-## Using Trinket
+## Using Codebunga
 
-Today you will be using Trinket to learn how to code in Python. Here is an example interactive window that you will use today:
+Today you will be using Codebunga to learn how to code in Python. Here is an example interactive window that you will use today:
 
-<iframe title="Interactive Python Turtle code editor" src="https://trinket.io/embed/python/1363ac22be" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Interactive Python Turtle code editor" src="https://codebunga.com/embed/fm7umyug" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Before we start, let's first understand how the window works. The `main.py` file contains code, or instructions for the computer to run. By pressing the **run** button, you tell the computer to perform the instructions in the code. Any results from running the code will be displayed on the bottom white screen, under the **result** tab. Today, our results will be an animation of a drawing being created.
 

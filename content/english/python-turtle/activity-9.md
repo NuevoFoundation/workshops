@@ -23,4 +23,4 @@ In the `turtle.color()` method, we can specify three integer arguments correspon
 
 Update your mandala flower to use a color of your liking. Feel free to experiment with different colors!
 
-<iframe title="Interactive Python Turtle code editor for coloring a mandala flower" src="https://trinket.io/embed/python/1f9c80fffe" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Interactive Python Turtle code editor for coloring a mandala flower" src="https://codebunga.com/embed/56kdzx6h" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

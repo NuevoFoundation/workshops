@@ -41,4 +41,4 @@ turtle.left(120)
 
 Maintenant, regardez l'exemple de code que nous avons fourni et modifiez-le légèrement pour qu'il dessine un carré au lieu d'un triangle. Vous pouvez regarder ce que vous avez fait dans l'Activité 1 comme indice.
 
-<iframe title="Syntaxe Python délicate - Partie 1 - Trinket" src="https://trinket.io/embed/python/892913b49a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Interactive Python Turtle code editor for practicing loops" src="https://codebunga.com/embed/wcstxqep" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

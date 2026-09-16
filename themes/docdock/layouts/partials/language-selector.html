@@ -4,15 +4,10 @@
 		{{ $siteLanguages := .Site.Languages}}
 		{{ $pageLang := .Page.Lang}}
 		{{ range .Page.AllTranslations }}
-	  	{{ $translation := .}}
-	  	{{ range $siteLanguages }}
-	    	{{ if eq $translation.Lang .Lang }}
-	      	{{ if eq $pageLang .Lang}}
-	        	<option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}</option>
-	      	{{ else }}
-	        	<option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
-	      	{{ end }}
-	    	{{ end }}
+	  	{{ if eq $pageLang .Lang}}
+	    	<option id="{{ .Language }}" value="{{ .Permalink }}" selected>{{ .Site.Language.Label }}</option>
+	  	{{ else }}
+	    	<option id="{{ .Language }}" value="{{ .Permalink }}">{{ .Site.Language.Label }}</option>
 	  	{{ end }}
 		{{ end }}
 	</select>
@@ -25,16 +20,11 @@
 		{{ $siteLanguages := .Site.Languages}}
 		{{ $pageLang := .Page.Lang}}
 		{{ range .Page.AllTranslations }}
-		{{ $translation := .}}
-		{{ range $siteLanguages }}
-			{{ if eq $translation.Lang .Lang }}
 			{{ if eq $pageLang .Lang}}
-				<option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}</option>
+				<option id="{{ .Language }}" value="{{ .Permalink }}" selected>{{ .Site.Language.Label }}</option>
 			{{ else }}
-				<option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
+				<option id="{{ .Language }}" value="{{ .Permalink }}">{{ .Site.Language.Label }}</option>
 			{{ end }}
-			{{ end }}
-		{{ end }}
 		{{ end }}
 	</select>
 	{{- end }}

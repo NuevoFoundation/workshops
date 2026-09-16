@@ -79,4 +79,4 @@ def draw_line():
 
 Intentemos ahora crear nuestra propia función y llamémosla `draw_hexagon()`. Recuerda incluir la cabecera o header dela función, el número de lados que tiene un hexágono y el ángulo que debes usar: 60 grados.
 
-<iframe title="La sintaxis &quot;tricky&quot; de Python - Parte 2 - Trinket" src="https://trinket.io/embed/python/d100671656" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Interactive Python Turtle code editor for practicing functions" src="https://codebunga.com/embed/rwk2i37m" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

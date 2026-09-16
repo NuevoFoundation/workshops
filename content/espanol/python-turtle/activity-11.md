@@ -7,9 +7,9 @@ draft: false
 
 Si queda algo de tiempo, ¡Intenta dibujar tus propias formas y diseños! Has de tu imagen interesante usando varias formas y colores.
 
-Clic en el botón de abajo para abrir una ventana en blanco Trinket e iniciar tu propia creación.
+Clic en el botón de abajo para abrir una ventana en blanco Codebunga e iniciar tu propia creación.
 
-<a class="my-2 mx-4 btn btn-info" href="https://trinket.io/library/trinkets/create?lang=python3" target="_blank">Clic aquí</a>
+<a class="my-2 mx-4 btn btn-info" href="https://codebunga.com/embed/wm8xfj5y" target="_blank">Clic aquí</a>
 
 ## Ayuda, estoy atascado!
 

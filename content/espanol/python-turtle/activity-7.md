@@ -19,4 +19,4 @@ En el ejemplo anterior, el círculo es de 40 píxeles de ancho y es dibujado en 
 
 Usando esta información, crea una nueva función llamada `figure_8()` que dibuje una figura de un 8.
 
-<iframe title="Actividad 7 - Dibujando una figura 8 - Trinket" src="https://trinket.io/embed/python/f2e75371f0" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Interactive Python Turtle code editor for drawing a figure eight" src="https://codebunga.com/embed/4we8rxu9" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

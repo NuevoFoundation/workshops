@@ -18,3 +18,4 @@ Use o coringa no início do padrão.
 2. Se o usuário digitar uma pergunta que **TERMINA COM** "cor" (por exemplo, "Qual é a sua cor favorita?", "Qual é a sua cor favorita?"), o bot deve responder "Minha cor favorita é azul".
 
 3. Se o usuário digitar uma pergunta que **TERMINA COM** "nome" (por exemplo, "Qual é o seu nome?", "Qual é o seu nome?", "Você tem um nome?"), o bot deve responder "Meu nome é Chatbot".
+<img src="../img/idea.png" alt="Ilustração de um personagem com uma lâmpada de ideia" width="20%"/>

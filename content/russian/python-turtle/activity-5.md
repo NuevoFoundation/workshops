@@ -21,4 +21,4 @@ draft: false
 turtle.speed(8)
 ```
 
-<iframe title="Задание 5 - Рисуем  соты - Trinket" src="https://trinket.io/embed/python/8698cb16972a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Interactive Python Turtle code editor for drawing a honeycomb" src="https://codebunga.com/embed/hfrc3v37" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

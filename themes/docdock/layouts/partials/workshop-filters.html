@@ -3,11 +3,11 @@
   search input, chip groups (difficulty, prerequisite, language, topic), group-by select,
   clear-filters button. State is managed by workshop-explorer.js.
 
-  Vocabularies come from site.Data.taxonomy; display names are i18n keys of the
+  Vocabularies come from hugo.Data.taxonomy; display names are i18n keys of the
   form `tax.<dimension>.<key>` (see themes/docdock/i18n/*.toml). Icons are
   Font Awesome 6 classes (already loaded site-wide).
 */ -}}
-{{- $tax := site.Data.taxonomy -}}
+{{- $tax := hugo.Data.taxonomy -}}
 {{- $prereqLabel := trim (i18n "pre-requisite") ": " -}}
 {{- $prerequisites := slice -}}
 {{- range .Site.Home.Sections -}}

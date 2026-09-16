@@ -21,4 +21,4 @@ draft: false
 
 Обновите ваш цветок мандалы, чтобы использовать понравившийся вам цвет. Не стесняйтесь экспериментировать с разными оттенками!
 
-<iframe title="RGB (красный — зелёный — синий) цвета - Trinket" src="https://trinket.io/embed/python/596a72caaf1f" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Interactive Python Turtle code editor for coloring a mandala flower" src="https://codebunga.com/embed/56kdzx6h" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
