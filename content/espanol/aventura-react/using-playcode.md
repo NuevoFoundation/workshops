@@ -20,6 +20,6 @@ Vamos a utilizar la herramienta playcode para construir nuestro primer proyecto 
 Primero debemos saber como funciona playcode o playground puedes crear archivos y carpetas para organizar tu código, es un editor de código que se refrezca automaticamente lo que vayas escribiendo se va a actualizar sin refrezcar, podrás ver tu avance en tiempo real.
 
 
-<iframe src="https://playcode.io/react" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://playcode.io/react" title="Usando Playground  - PlayCode editor" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 

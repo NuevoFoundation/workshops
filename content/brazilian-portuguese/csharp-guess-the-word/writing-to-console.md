@@ -18,7 +18,7 @@ weight: 1
 3. Adicione outro `Console.WriteLine` abaixo da linha atual para mostrar uma segunda frase abaixo da primeira.
 4. Aperte **run** para ver se duas frases aparecem. Se você ver algum texto vermelho, peça ajuda.
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/pdWOTp" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/pdWOTp" title="Escrevendo no Console - .NET Fiddle editor" frameborder="0"></iframe>
 
 {{% /notice %}}
 

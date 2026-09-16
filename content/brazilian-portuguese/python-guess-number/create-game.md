@@ -25,4 +25,4 @@ Dentro do loop `while`, você pode usar condicionais para verificar se o jogador
 
 Lembre-se de ler os comentários como um guia; ou talvez exclua os comentários e veja se consegue descobrir por conta própria. :)
 
-<iframe src="https://codebunga.com/embed/z5dnmnnv" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/z5dnmnnv" title="Criando o jogo - Codebunga editor" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

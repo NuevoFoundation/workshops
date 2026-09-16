@@ -27,4 +27,4 @@ Dentro del bucle `while`, puedes usar condicionales para verificar si el jugador
 
 Recuerda usar los comentarios como guía; o intenta eliminar los comentarios e intenta resolverlo por tu cuenta. :)
 
-<iframe src="https://codebunga.com/embed/z5dnmnnv" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/z5dnmnnv" title="Crea el juego - Codebunga editor" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

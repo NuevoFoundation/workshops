@@ -11,15 +11,15 @@ prereq: "Noções básicas de Python - Escrever no Console (Print), Ler do Conso
 
 Você pode continuar trabalhando na linha da história de Nuvi:
 
-<iframe src="https://codebunga.com/embed/vky5wh8y" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/vky5wh8y" title="Seção 2: Transferindo o Story Board para o Código! - Codebunga editor 1" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Você pode trabalhar em um modelo para um jogo de Escolha Sua Própria Aventura:
 
-<iframe src="https://codebunga.com/embed/7s5rkuud" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/7s5rkuud" title="Seção 2: Transferindo o Story Board para o Código! - Codebunga editor 2" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Ou você pode começar do zero e fazer do seu jeito! Basta ir ao Codebunga e começar a contar histórias!
 
-<iframe src="https://codebunga.com/embed/hycqv2uf" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/hycqv2uf" title="Seção 2: Transferindo o Story Board para o Código! - Codebunga editor 3" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 # Código do Storyboard
 

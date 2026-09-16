@@ -44,7 +44,7 @@ O operador de adição (`+`) é usado em Strings como um operador de concatenaç
 ### Instruções
 1. Use o programa abaixo para praticar o uso dos operadores aritméticos. Mude os números para ver as respostas.
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/dUSTOt" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/dUSTOt" title="Operadores - .NET Fiddle editor 1" frameborder="0"></iframe>
 
 ## Comparações: Operador Relacional
 
@@ -78,7 +78,7 @@ Usar 1 sinal de igual atribui um valor à variável. Usar 2 sinais de igual comp
 
 1. Use o programa abaixo para praticar o uso dos operadores de comparação. Mude os números para ver as respostas.
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/tZs8tb" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/tZs8tb" title="Operadores - .NET Fiddle editor 2" frameborder="0"></iframe>
 
 ## Estatísticas do Exame!
 
@@ -108,4 +108,4 @@ Vamos escrever isso com a ajuda de operadores 🎵!
 
 {{% /notice %}}
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/mM7xbj" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/mM7xbj" title="Operadores - .NET Fiddle editor 3" frameborder="0"></iframe>

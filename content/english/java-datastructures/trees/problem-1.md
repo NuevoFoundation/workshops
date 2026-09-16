@@ -12,7 +12,7 @@ Now that we know the basics of traversing through a tree, implement binary searc
 * If the current value is more than what we want, go to the left node.
 * If the current value is what we want, you're done!
 
-<iframe height="800px" width="100%" src="https://replit.com/@nuevofoundation/BinarySearch?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="800px" width="100%" src="https://replit.com/@nuevofoundation/BinarySearch?lite=true" title="Problem 1: Tree Basics - Replit editor" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 {{% showanswer "SPOILER: Click here if you need help with the solution!" %}}
 ```js javascript

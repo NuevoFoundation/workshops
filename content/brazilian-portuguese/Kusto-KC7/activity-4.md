@@ -4,7 +4,7 @@ draft: false
 weight: 16
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/HjKkQVH5-rQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/HjKkQVH5-rQ" title="Atividade 4: Pegue o Hacker - YouTube video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 {{< notice note >}}Esta é uma seção bem mais curta — vamos apenas explicar o cenário e deixar você livre para caçar hackers. Você pode gastar o tempo que quiser nesta parte, mas em sessões ao vivo geralmente damos aos participantes de 30 a 40 minutos antes de seguir em frente.
 

@@ -13,7 +13,7 @@ Essayons d'exécuter un programme C# qui affiche `Hello World` dans la console. 
 
 ### Écrivons un peu de code !
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/0g4Vu7" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/0g4Vu7" title="Écrire dans la Console - .NET Fiddle editor" frameborder="0"></iframe>
 
 Dans le cadre .NET Fiddle ci-dessus, ajoutez une nouvelle ligne de code sous la première ligne pour imprimer "Hello *votre nom*". Cela devrait ressembler à ceci.
 

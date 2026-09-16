@@ -17,4 +17,4 @@ Esto generaría un número aleatorio entre 1 y 10.
 También puedes experimentar cambiando el rango de estos números aleatorios.
 {{% /notice %}}
 
-<iframe src="https://codebunga.com/embed/x2ixjiq6" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/x2ixjiq6" title="Generar un número aleatorio - Codebunga editor" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

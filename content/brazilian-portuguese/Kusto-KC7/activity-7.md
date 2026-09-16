@@ -3,7 +3,7 @@ title: "Bônus 3: Jeopardy de Segurança"
 draft: false
 weight: 24
 ---
-<p style="text-align: center;"><iframe src="https://giphy.com/embed/1vZaAcldbX8Xh6lMlV" width="480" height="267" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/jeopardy-the-jeopardy-you-know-1vZaAcldbX8Xh6lMlV">via GIPHY</a></p>
+<p style="text-align: center;"><iframe src="https://giphy.com/embed/1vZaAcldbX8Xh6lMlV" title="Bônus 3: Jeopardy de Segurança - Giphy animation" width="480" height="267" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/jeopardy-the-jeopardy-you-know-1vZaAcldbX8Xh6lMlV">via GIPHY</a></p>
 
 ## Vamos Jogar uma Rodada de Jeopardy!
 

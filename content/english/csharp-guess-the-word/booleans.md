@@ -37,6 +37,6 @@ Try guessing the answers to the following expressions. Use `Console.WriteLine` t
 - `"Hello" + "World" == "Hello World"`
 - `false == false`
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/ULv0JH" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/ULv0JH" title="Booleans - .NET Fiddle editor" frameborder="0"></iframe>
 
 {{% /notice %}}

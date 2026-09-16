@@ -7,7 +7,7 @@ weight: 6
 draft: false
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/X2AoHSdQOLo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/X2AoHSdQOLo" title="Atividade 6: Recortar Imagem - YouTube video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Nesta seção, vamos aprender como recortar (cortar) uma imagem.
 

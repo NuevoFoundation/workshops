@@ -7,7 +7,7 @@ weight: 3
 draft: false
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YkxNH1TWjR0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YkxNH1TWjR0" title="Activity 3: Challenge: Design new elements - YouTube video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 Using loops, you can actually design your own elements on the colorboard. You can design your own logo or anything you want on this color board. Here is an example we have provided for you.

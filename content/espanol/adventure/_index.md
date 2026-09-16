@@ -28,6 +28,6 @@ difficulties: ["intermediate"]
 
 ¡Vamos a probarlo!
 
-<iframe src="https://codebunga.com/embed/vky5wh8y?display=output" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/vky5wh8y?display=output" title="Python: Elige tu propia aventura - Codebunga editor" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ¿Qué pensaron? Ahora vamos a aprender algunas habilidades interesantes que nos permitirán crear nuestras propias historias.

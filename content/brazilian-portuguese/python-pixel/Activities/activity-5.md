@@ -7,7 +7,7 @@ weight: 5
 draft: false
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/deYXkPt58co" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/deYXkPt58co" title="Atividade 5: Filtros mais avançados - YouTube video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Na seção anterior, vimos como criar um filtro azul e pensamos sobre como fazer um filtro cinza. Agora, vamos criar juntos o nosso filtro cinza!
 

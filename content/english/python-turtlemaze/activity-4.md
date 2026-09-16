@@ -106,7 +106,7 @@ th.set_cursor(nuvo, 10, -135)
 2. What happens if you turn by 45 degrees instead of 90?
 3. Can you guide Nuvo from the bottom-left corner to the top-right?
 
-<p style="text-align: center;"> <iframe src="https://codebunga.com/embed/yuftctjd" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> </p>
+<p style="text-align: center;"> <iframe src="https://codebunga.com/embed/yuftctjd" title="Activity 4 - Test Drive Nuvo Through the Maze - Codebunga editor" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> </p>
 
 Bravo, Turtle Driver! 🚗💨
 You’ve just learned to control direction, distance, and turns — all the tools you need to navigate any maze.
