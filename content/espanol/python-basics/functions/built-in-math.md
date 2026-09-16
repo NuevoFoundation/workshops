@@ -36,4 +36,4 @@ print(x)
 
 ¡Pongamos todo junto! Veamos si podemos crear un programa que tome 5 números del usuario e imprima el valor del mínimo de esos números elevado a la potencia del máximo. Por ejemplo, dados los números 2,7,4,11,9, devolver 2<sup>11</sup>. ¡Puntos extra si lo divides en funciones!
 
-<iframe src="https://trinket.io/embed/python/b238d85d0d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/3sw68wix" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

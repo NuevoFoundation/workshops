@@ -12,7 +12,7 @@ difficulties: ["intermediate"]
 
 En este taller, crearás un juego sencillo que incorpora algunos de los conceptos que aprendiste en la sección de Fundamentos de Python. ¡Prueba esta demostración y descubre cuántos intentos te lleva adivinar el número!
 
-<iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/Python-guessnumber-demo?lite=true&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe src="https://codebunga.com/embed/v36ew4p5?display=output" width="100%" height="500" frameborder="0" allowfullscreen></iframe>
 
 ## Tabla de Contenidos
 

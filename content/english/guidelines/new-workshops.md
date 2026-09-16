@@ -30,8 +30,8 @@ Study these gold-standard workshops before building your own:
 ### Python turtle — [content/english/python-turtle/](https://github.com/NuevoFoundation/workshops/tree/master/content/english/python-turtle)
 
 - **Theme**: Help Alex the Bee build a honeycomb home using Python drawing
-- **Why it works**: 11 YouTube videos, embedded Trinket IDE, visual results (students SEE their code draw shapes), progressive complexity (line → square → hexagon → honeycomb → mandala flower)
-- **Key pattern**: story context → video → code example → interactive Trinket → challenge
+- **Why it works**: 11 YouTube videos, embedded Codebunga IDE, visual results (students SEE their code draw shapes), progressive complexity (line → square → hexagon → honeycomb → mandala flower)
+- **Key pattern**: story context → video → code example → interactive Codebunga → challenge
 
 ### EarSketch (Python and JS blocks) — [content/english/python-earsketch/](https://github.com/NuevoFoundation/workshops/tree/master/content/english/python-earsketch)
 
@@ -150,7 +150,7 @@ Use this checklist before submitting your PR. Reviewers will check the same item
 - [ ] Code snippets are syntactically correct and actually runnable
 - [ ] Images throughout to help visual learners
 - [ ] All images have descriptive alt text (see [Images and GIFs](../images-and-gifs/))
-- [ ] Interactive coding environment embedded when possible (Replit, Trinket, CodePen — see [Code and interactivity](../code-and-interactivity/))
+- [ ] Interactive coding environment embedded when possible (Codebunga, CodePen — see [Code and interactivity](../code-and-interactivity/))
 - [ ] Encouraging tone ("Great job!", "You're doing amazing!")
 - [ ] Use `notice tip` shortcodes for best practices and `notice warning` for common pitfalls
 - [ ] Weight values create correct page ordering in sidebar (see [Navigation](../navigation/))
@@ -213,6 +213,6 @@ The Hugo theme automatically adds a Nuvi "You did it! Workshop complete" celebra
 - [Formatting](../formatting/) — markdown syntax and shortcodes
 - [Images and GIFs](../images-and-gifs/) — sizing, alt text, file naming
 - [Navigation](../navigation/) — frontmatter fields for page ordering
-- [Code and interactivity](../code-and-interactivity/) — embedding Replit, Trinket, CodePen
+- [Code and interactivity](../code-and-interactivity/) — embedding Codebunga, CodePen
 - [Tags and metadata](../tags-and-metadata/) — complete frontmatter reference
 - [Translation volunteer guide](../translation-volunteer/) — translating workshops to other languages

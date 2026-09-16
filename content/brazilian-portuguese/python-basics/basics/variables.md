@@ -14,7 +14,7 @@ happy = True
 ```
 Pressione Run (executar).
 
-![Captura de tela da aparência do exemplo de variáveis ​​no replit](../../img/variables.png "imagem de como as variáveis ​​aparecem no replit") 
+![Captura de tela da aparência do exemplo de variáveis no Codebunga](../../img/variables.png "Imagem de como as variáveis aparecem no Codebunga")
 
 Observe que as variáveis ​​não são impressas no console. Em vez disso, a variável simplesmente salva a string, o número ou o booleano na memória do computador. Podemos usar essas variáveis ​​em outras declarações. Por exemplo, o código a seguir imprimiria `"Olá" Nuevo Foundation"` no console:
 
@@ -73,4 +73,4 @@ Dica: se você tiver dúvidas, considere usar o operador `+`. Lembre-se que voc�
 
 {{% /notice %}}
 
-<iframe src="https://trinket.io/embed/python/b238d85d0d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/eceyb8yx" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

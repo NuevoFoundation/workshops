@@ -70,6 +70,6 @@ else:
 
 让我们把到目前为止学到的一切结合起来！看看是否可以创建一个程序，提示用户输入他们的名字。用户可以在控制台中输入他们的名字。然后，计算机可以决定他们的名字是否与你的名字相等，并打印出一个响应。否则，打印出不同的响应！
 
-<iframe src="https://trinket.io/embed/python/b238d85d0d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/y8b9pj44" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 提示：尝试讨论计算机可以采取的不同路径！确保识别if和else条件是什么。

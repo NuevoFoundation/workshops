@@ -70,6 +70,6 @@ else:
 
 ¡Juntémoslo todo lo que hemos aprendido hasta ahora! Veamos si podemos crear un programa que solicite al usuario su nombre. El usuario puede escribir su nombre en la consola. Luego la computadora puede decidir si su nombre es igual al tuyo y imprimir una respuesta. ¡Else, imprime una respuesta diferente!
 
-<iframe src="https://trinket.io/embed/python/b238d85d0d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/y8b9pj44" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Pista: Trata de verbalizar los diferentes caminos que puede tomar la computadora. Asegúrate de identificar cuáles son las condiciones del if y del else.
