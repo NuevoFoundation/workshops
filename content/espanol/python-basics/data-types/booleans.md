@@ -60,7 +60,7 @@ Expression  | Result
 <font color="#005a9c">True</font>  or <font color="#005a9c">True</font>  | <font color="#005a9c">True</font>
 <font color="#005a9c">True</font>  or <font color="#005a9c">False</font> | <font color="#005a9c">True</font>
 <font color="#005a9c">False</font> or <font color="#005a9c">True</font>  | <font color="#005a9c">True</font>
-<font color="#005a9c">False</font>  and <font color="#005a9c">False</font> | <font color="#005a9c">False</font>
+<font color="#005a9c">False</font>  or <font color="#005a9c">False</font> | <font color="#005a9c">False</font>
 
 En resumen, AND requiere que ambas expresiones booleanas sean verdaderas, mientras que OR solo requiere que una de las dos expresiones booleanas sea verdadera. Aquí hay más ejemplos:
 
