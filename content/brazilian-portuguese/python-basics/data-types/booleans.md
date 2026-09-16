@@ -64,9 +64,9 @@ Expressão | Resultado
 
 Para resumir, AND (e) requer que ambas as expressões booleanas sejam verdadeiras, enquanto OR (ou) requer apenas que uma das duas expressões booleanas seja verdadeira. Aqui estão mais alguns exemplos:
 
-- (5 < 8) e (9 != 10) produz <font color="#005a9c">True</font> já que 5 é menor que 8 e 9 não é igual a 10.
-- (8 <= 2) ou ("h" + "e" == "ele") produz <font color="#005a9c">Verdadeiro</font> já que "h" + "e" resulta em "ele", mesmo que 8 não seja menor ou igual a 2.
-- (6 != 2 * 3) ou (8 < 2 * 4) produz <font color="#005a9c">False</font> já que 6 não é igual a 2 * 3 e 8 é menor que 2 * 4, produza <font color="#005a9c">Falso</font>.
+- (5 < 8) and (9 != 10) produz <font color="#005a9c">True</font> já que 5 é menor que 8 e 9 não é igual a 10.
+- (8 <= 2) or ("h" + "e" == "he") produz <font color="#005a9c">True</font> já que "h" + "e" resulta em "he", mesmo que 8 não seja menor ou igual a 2.
+- (6 != 2 * 3) or (8 < 2 * 4) produz <font color="#005a9c">False</font> já que 6 não é igual a 2 * 3 e 8 é menor que 2 * 4, produzem <font color="#005a9c">False</font>.
 
 #### O que você acha que as seguintes expressões produzem?
 
