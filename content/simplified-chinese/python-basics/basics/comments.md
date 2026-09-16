@@ -23,4 +23,4 @@ print("Hello, World!)
 
 试着在你的第一行代码前添加注释然后点击运行。你会发现电脑会在程序运行时忽略你的注释。
 
-<iframe title="This is my first line of code - Trinket" src="https://trinket.io/embed/python/0d679e57b9" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="This is my first line of code - Codebunga" src="https://codebunga.com/embed/fcrtud9r" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

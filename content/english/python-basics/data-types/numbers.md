@@ -71,4 +71,4 @@ In particular, try understanding what the <font color="#005a9c">from</font> and 
 
 {{% /notice %}}
 
-<iframe title="Fun Fact: Random Numbers - Trinket" src="https://trinket.io/embed/python/b238d85d0d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Fun Fact: Random Numbers - Codebunga" src="https://codebunga.com/embed/nuthi3gj" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

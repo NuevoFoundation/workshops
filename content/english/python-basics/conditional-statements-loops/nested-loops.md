@@ -75,7 +75,7 @@ Can you try to find out how x and y values change and explain why?
 ### Challenge One
 Try to change the integers in the nested while loop and predict the outputs. Then run the code and observe the outputs. Do they match your predictions?
 
-<iframe title="Challenge One - Trinket" src="https://trinket.io/embed/python/386ca3182b" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Challenge One - Codebunga" src="https://codebunga.com/embed/wgwzwt4z" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 <br/><br/>
 <hr/>
 
@@ -124,13 +124,13 @@ Can you try to explain the printing pattern?
 Try to change the integers in the nested for loop and predict the outputs.
 Then run the code and observe the outputs. Do they match your predictions?
 
-<iframe title="Challenge Two - Trinket" src="https://trinket.io/embed/python/8b9effdbd6" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Challenge Two - Codebunga" src="https://codebunga.com/embed/wgwzwt4z6" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 #### Questions
 Try to initialize n and m. Will this change our output from the nested loops and why?
 Then run the code and observe the outputs. Do they match your predictions?
 
-<iframe title="Questions - Trinket" src="https://trinket.io/embed/python/1ea8b47667" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Questions - Codebunga" src="https://codebunga.com/embed/wgwzwt4z" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 #### Questions
 By the end of this section, let us think about the following questions:

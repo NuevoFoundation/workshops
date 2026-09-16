@@ -14,7 +14,7 @@ happy = True
 ```
 Presiona run. 
 
-![Captura de pantalla de cómo se ve el ejemplo de variables en Trinket](../../img/variables_es.png "imagen de cómo se ven las variables en Trinket") 
+![Captura de pantalla de cómo se ve el ejemplo de variables en Codebunga](../../img/variables_es.png "imagen de cómo se ven las variables en Codebunga")
 
 Ten en cuenta que las variables no se imprimen automáticamente en la consola. En lugar de eso, la variable simplemente guarda la cadena, número o booleano en la memoria del ordenador. Podemos usar estas variables en otras sentencias. Por ejemplo, el siguiente código imprimiría `"Hola Nuevo Foundation"` en la consola:
 
@@ -72,4 +72,4 @@ Pista: Si estás atascado, considera usar el operador `+`. Recuerda que puedes u
 
 {{% /notice %}}
 
-<iframe title="Desafío - Trinket" src="https://trinket.io/embed/python/b238d85d0d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Desafío - Codebunga" src="https://codebunga.com/embed/eceyb8yx" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

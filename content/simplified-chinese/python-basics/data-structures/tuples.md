@@ -100,4 +100,4 @@ print(fruits)  ## 由于元组 fruits 不再存在，因此会出现错误
 fruits = ['orange', 'kiwi', 'banana', 'apple', 'mango', 'lemon']
 ```
 
-<iframe title="小挑战 - Trinket" src="https://trinket.io/embed/python/b238d85d0d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="小挑战 - Codebunga" src="https://codebunga.com/embed/f25jnzdr" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

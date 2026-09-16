@@ -74,4 +74,4 @@ print(((3 + 5) * 6) == (65 - 17))
 - (11-2 < 10) and (7+3 > 10)
 - (<font color="#005a9c">True</font> or 3 < 1) and (<font color="#005a9c">False</font> or 3>1)
 
-<iframe title="以下这些表达式会产生什么结果? - Trinket" src="https://trinket.io/embed/python/b238d85d0d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="以下这些表达式会产生什么结果? - Codebunga" src="https://codebunga.com/embed/c2vqd36f" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

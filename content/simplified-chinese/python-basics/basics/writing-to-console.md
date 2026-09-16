@@ -16,7 +16,7 @@ weight: 2
 我们将在后面的课程中大量使用打印语句，因此在继续下一个概念之前，请确保你已经理解了上面的内容！
 
 ### 小挑战一
-首先，将以下文本写入您的 Trinket main.py，然后单击运行。
+首先，将以下文本写入您的 Codebunga main.py，然后单击运行。
 
 ```python
 print("Hello, World!")
@@ -26,7 +26,7 @@ print("Hello, World!")
 
 ![alt text](../../img/print.png "hello world in python!")
 
-<iframe title="小挑战一 - Trinket" src="https://trinket.io/embed/python/ce70252d93" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="小挑战一 - Codebunga" src="https://codebunga.com/embed/fcrtud9r" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 {{% notice tip %}}
 ### 在打印语句中使用 "
@@ -43,7 +43,7 @@ print("Hello, World!")
 2. 在第一个打印语句下面添加一个新的打印语句，在第一句话下面打印第二句。
 3. 单击**运行**观察是否两个句子被打印了出来。
 
-<iframe title="小挑战二 - Trinket" src="https://trinket.io/embed/python/ce70252d93" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="小挑战二 - Codebunga" src="https://codebunga.com/embed/fcrtud9r" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 我们将在后面的课程中大量使用打印语句，因此在继续之前请确保你已经理解了上面的内容！
 

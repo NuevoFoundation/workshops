@@ -20,7 +20,7 @@ for x in [1,2,3,4,5]:
     print("Estamos no número do loop",x)
 ```
 
-<iframe title="For loops - Trinket" src="https://trinket.io/embed/python/ddcca3b818" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="For loops - Codebunga" src="https://codebunga.com/embed/2xipqayk" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 E se você quisesse repetir uma tarefa 10 vezes? 100 vezes? 1000 vezes??
 
@@ -43,7 +43,7 @@ for x in fruits:
     print(x)
 ```
 
-<iframe title="For loops - Trinket 2" src="https://trinket.io/embed/python/3fd98a6bf4" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="For loops - Codebunga 2" src="https://codebunga.com/embed/2xipqayk" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### While loops
 
@@ -58,7 +58,7 @@ while count < 5:
     count += 1  #Isso é a mesma coisa que count = count + 1
 ```
 
-<iframe title="While loops - Trinket" src="https://trinket.io/embed/python/6d4f0c86f0" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="While loops - Codebunga" src="https://codebunga.com/embed/2xipqayk" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Como você pode ver, todo o código abaixo do loop while é executado desde que a contagem da variável seja menor que 5.
 
@@ -87,7 +87,7 @@ while True:  #Isso fará com que o loop while seja executado para sempre! a meno
     count += 1  # isso é igual a count = count + 1
 ```
 
-<iframe title="Declarações de quebra - Trinket" src="https://trinket.io/embed/python/6cd0debfe5" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Declarações de quebra - Codebunga" src="https://codebunga.com/embed/2xipqayk" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### Desafios
 
@@ -106,7 +106,7 @@ numList = [69, 430, 363, 80, 166, 476, 250, 38, 84, 405, 41, 302, 480, 57, 155, 
 Por exemplo, peça ao usuário para inserir um número no console e, em seguida, escreva no console se ele for encontrado.
 Dica: Você precisará converter as informações inseridas pelo usuário em um número inteiro usando `int(x)`.
 
-<iframe title="Desafios - Trinket" src="https://trinket.io/embed/python/1beb594e30" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Desafios - Codebunga" src="https://codebunga.com/embed/2xipqayk" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### Pergunta
 

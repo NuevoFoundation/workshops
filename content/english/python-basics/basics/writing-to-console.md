@@ -15,7 +15,7 @@ Let's start by doing a `print` statement.
 We will use printing a lot in the later lessons, so make sure you understand this before moving on to the next concept!
 
 ### Challenge 1
-To start, write the following text into your Trinket main.py and click Run.
+To start, write the following text into your Codebunga main.py and click Run.
 
 ```python
 print("Hello, World!")
@@ -25,7 +25,7 @@ Watch your console say "Hello, World!" on the screen to the right! `print` tells
 
 ![alt text](../../img/print.png "hello world in python!")
 
-<iframe title="Challenge 1 - Trinket" src="https://trinket.io/embed/python/ce70252d93" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Challenge 1 - Codebunga" src="https://codebunga.com/embed/fcrtud9r" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 {{% notice tip %}}
 ### Using " with printing
@@ -41,7 +41,7 @@ Go back up and give try printing different things!
 2. Add another print below the current line to print a second sentence below the first sentence.
 3. Press **run** to see if two sentences are printed out.
 
-<iframe title="Challenge 2 - Trinket" src="https://trinket.io/embed/python/ce70252d93" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Challenge 2 - Codebunga" src="https://codebunga.com/embed/fcrtud9r" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 We will use printing a lot in the later lessons, so make sure you understand this before continuing!
 

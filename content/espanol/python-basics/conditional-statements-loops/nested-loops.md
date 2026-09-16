@@ -75,7 +75,7 @@ Pasa por el bucle interno while, x es 2 y es 4
 ### Desafío Uno
 Intenta cambiar los enteros en el bucle while anidado y predice las salidas. Luego ejecuta el código y observa los resultados. ¿Coinciden con tus predicciones?
 
-<iframe title="Desafío Uno - Trinket" src="https://trinket.io/embed/python/f3c616d39391" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Desafío Uno - Codebunga" src="https://codebunga.com/embed/wgwzwt4z" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 <br/><br/>
 <hr/>
 
@@ -124,13 +124,13 @@ Este es el resultado de nuestro ejemplo.
 Intenta cambiar los enteros en el bucle for anidado y predice las salidas.
 Luego ejecuta el código y observa los resultados. ¿Coinciden con tus predicciones?
 
-<iframe title="Desafío Dos - Trinket" src="https://trinket.io/embed/python/64c90dd23a3e" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Desafío Dos - Codebunga" src="https://codebunga.com/embed/wgwzwt4z6" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 #### Preguntas
 Intenta inicializar n y m. ¿Esto cambiará nuestra salida de los bucles anidados y por qué?
 Luego ejecuta el código y observa los resultados. ¿Coinciden con tus predicciones?
 
-<iframe title="Preguntas - Trinket" src="https://trinket.io/embed/python/c94af8e20690" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Preguntas - Codebunga" src="https://codebunga.com/embed/wgwzwt4z" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 #### Preguntas
 Al final de esta sección, pensemos en las siguientes preguntas:

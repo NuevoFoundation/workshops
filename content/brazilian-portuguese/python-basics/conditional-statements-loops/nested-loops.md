@@ -75,7 +75,7 @@ Você pode tentar descobrir como os valores de x e y mudam e explicar por quê?
 ### Desafio Um
 Tente alterar os números inteiros no nested while loop e prever as saídas. Em seguida, execute o código e observe as saídas. Eles correspondem às suas previsões?
 
-<iframe title="Desafio Um - Trinket" src="https://trinket.io/embed/python/386ca3182b" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Desafio Um - Codebunga" src="https://codebunga.com/embed/wgwzwt4z" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 <br/><br/>
 <hr/>
 
@@ -124,13 +124,13 @@ Você pode tentar explicar o padrão de impressão?
 Tente alterar os números inteiros no loop for aninhado e prever as saídas.
 Em seguida, execute o código e observe as saídas. Eles correspondem às suas previsões?
 
-<iframe title="Desafio Dois - Trinket" src="https://trinket.io/embed/python/8b9effdbd6" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Desafio Dois - Codebunga" src="https://codebunga.com/embed/wgwzwt4z6" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 #### Perguntas
 Tente inicializar n e m. Isso mudará nossa saída dos nested loops e por quê?
 Em seguida, execute o código e observe as saídas. Eles correspondem às suas previsões?
 
-<iframe title="Perguntas - Trinket" src="https://trinket.io/embed/python/1ea8b47667" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Perguntas - Codebunga" src="https://codebunga.com/embed/wgwzwt4z" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 #### Perguntas
 Ao final desta seção, vamos pensar nas seguintes questões:
