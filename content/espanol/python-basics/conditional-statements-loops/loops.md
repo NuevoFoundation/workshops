@@ -87,7 +87,7 @@ while True: # Esto hará que el bucle while se ejecute para siempre, ¡a menos q
   contador += 1 # esto es igual a contador = contador + 1
 ```
 
-<iframe title="Declaraciónes Break - Codebunga" src="https://codebunga.com/embed/2xipqayk" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Declaraciones Break - Codebunga" src="https://codebunga.com/embed/2xipqayk" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### Desafíos
 
