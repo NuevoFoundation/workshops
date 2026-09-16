@@ -6,9 +6,12 @@ Creates a new workshop directory structure with template files.
 Designed for summer interns and new contributors.
 
 Usage:
-    python tools/new-workshop.py --name "my-workshop" --title "My Workshop"
-    python tools/new-workshop.py --name "my-workshop" --title "My Workshop" --activities 5 --difficulty Intermediate
-    python tools/new-workshop.py --name "my-workshop" --title "My Workshop" --dry-run
+    python tools/new-workshop.py --name "my-workshop" --title "My Workshop" \
+        --coding-language python --topics programming-basics
+    python tools/new-workshop.py --name "my-game" --title "My Game" \
+        --coding-language javascript --topics games --activities 5
+    python tools/new-workshop.py --name "my-workshop" --title "My Workshop" \
+        --coding-language no-code --topics tools --dry-run
 
 For more information, see CONTRIBUTING.md
 """
@@ -21,6 +24,10 @@ import re
 import sys
 from datetime import date
 
+from workshop_taxonomy import load_taxonomy
+
+
+TAXONOMY = load_taxonomy()
 
 # ---------------------------------------------------------------------------
 # Template strings
@@ -32,10 +39,14 @@ title: "{title}"
 description: "{description}"
 date: {date}
 prereq: "{prereq}"
-difficulty: "{difficulty}"
+language: "{coding_language}"
+topics: [{topics}]
+difficulties: ["{difficulty}"]
 draft: false
+hidden: false
 alwaysopen: false
 icon: "{icon}"
+weight: 1
 ---
 
 ## Introduction
@@ -119,6 +130,11 @@ def _escape_yaml(value: str) -> str:
     return value.replace('\\', '\\\\').replace('"', '\\"')
 
 
+def _yaml_list(values: list[str]) -> str:
+    """Format canonical taxonomy tokens as an inline YAML string list."""
+    return ", ".join(f'"{_escape_yaml(value)}"' for value in values)
+
+
 KEBAB_RE = re.compile(r"^[a-z][a-z0-9]*(-[a-z0-9]+)*$")
 
 
@@ -170,6 +186,8 @@ def build_file_plan(args, today: str):
         date=today,
         prereq=_escape_yaml(args.prereq),
         difficulty=args.difficulty,
+        coding_language=args.coding_language,
+        topics=_yaml_list(args.topics),
         icon=args.icon,
         prereq_section=prereq_section,
     )
@@ -225,10 +243,10 @@ def write_files(files, *, dry_run: bool = False, verbose: bool = False):
             if dry_run:
                 print(f"  [FILE] {path}")
                 if verbose:
-                    print("  ── content ──")
+                    print("  -- content --")
                     for line in content.splitlines():
-                        print(f"  │ {line}")
-                    print("  ──────────────")
+                        print(f"  | {line}")
+                    print("  -------------")
             else:
                 os.makedirs(os.path.dirname(path), exist_ok=True)
                 with open(path, "w", encoding="utf-8", newline="\n") as fh:
@@ -250,10 +268,10 @@ def build_parser() -> argparse.ArgumentParser:
         description="Generate a new workshop directory with template files.",
         epilog="""\
 Examples:
-  %(prog)s --name "python-web-scraping" --title "Python: Web Scraping"
-  %(prog)s --name "my-workshop" --title "My Workshop" --activities 5 --difficulty Intermediate
-  %(prog)s --name "my-workshop" --title "My Workshop" --dry-run
-  %(prog)s --name "my-workshop" --title "My Workshop" -l espanol
+  %(prog)s --name "python-web-scraping" --title "Python: Web Scraping" --coding-language python --topics data
+  %(prog)s --name "my-game" --title "My Game" --activities 5 --difficulty intermediate --coding-language javascript --topics games web
+  %(prog)s --name "my-workshop" --title "My Workshop" --coding-language no-code --topics tools --dry-run
+  %(prog)s --name "my-workshop" --title "My Workshop" --coding-language blocks --topics programming-basics -l espanol
 """,
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
@@ -270,6 +288,21 @@ Examples:
         required=True,
         help='Display title for the workshop (e.g. "Python: Web Scraping")',
     )
+    parser.add_argument(
+        "--coding-language",
+        required=True,
+        type=str.lower,
+        choices=TAXONOMY["languages"],
+        help="Workshop explorer coding-language tag",
+    )
+    parser.add_argument(
+        "--topics",
+        required=True,
+        nargs="+",
+        type=str.lower,
+        choices=TAXONOMY["topics"],
+        help="One or more workshop explorer topic tags",
+    )
 
     # Optional with defaults
     parser.add_argument(
@@ -279,9 +312,10 @@ Examples:
     )
     parser.add_argument(
         "--difficulty",
-        default="Beginner",
-        choices=["Beginner", "Intermediate", "Advanced"],
-        help="Difficulty level (default: Beginner)",
+        default="beginner",
+        type=str.lower,
+        choices=TAXONOMY["difficulties"],
+        help="Workshop explorer difficulty tag (default: beginner)",
     )
     parser.add_argument(
         "--prereq",
@@ -342,7 +376,8 @@ def main(argv: list[str] | None = None) -> int:
             print(
                 "Error: 'content/' directory not found.\n"
                 "Please run this script from the repository root:\n"
-                "  python tools/new-workshop.py --name ... --title ...",
+                "  python tools/new-workshop.py --name ... --title ... "
+                "--coding-language ... --topics ...",
                 file=sys.stderr,
             )
             return 1
@@ -373,7 +408,7 @@ def main(argv: list[str] | None = None) -> int:
     files = build_file_plan(args, today)
 
     if args.dry_run:
-        print(f"Dry run — the following would be created for '{args.name}':\n")
+        print(f"Dry run - the following would be created for '{args.name}':\n")
         write_files(files, dry_run=True, verbose=args.verbose)
         print(f"\nTotal: {sum(1 for _, c in files if c is not None)} files, "
               f"{sum(1 for _, c in files if c is None)} directories")
@@ -390,6 +425,9 @@ def main(argv: list[str] | None = None) -> int:
     print(f"  Location:         {workshop_dir}/")
     print(f"  Files:            {len(created_files)}")
     print(f"  Activities:       {args.activities}")
+    print(f"  Difficulty tag:   {args.difficulty}")
+    print(f"  Language tag:     {args.coding_language}")
+    print(f"  Topic tags:       {', '.join(args.topics)}")
     answer_key_status = "yes" if not args.no_answer_key else "skipped"
     print(f"  Answer key:       {answer_key_status}")
     print(f"{'=' * 60}")

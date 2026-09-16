@@ -1,6 +1,6 @@
 ---
 title: "Code and interactivity"
-date: 2026-04-25T00:00:00-07:00
+date: 2026-09-14T00:00:00-07:00
 draft: false
 weight: 9
 ---
@@ -39,9 +39,13 @@ Or embed directly:
 
 Note: older workshops include `?lite=true` in Replit URLs. This parameter is no longer active and can be omitted from new embeds.
 
-### Trinket
+### Trinket (deprecated — TODO-IDE-Replace)
 
-Best for Python turtle graphics and simple Python programs.
+Do not add new Trinket links or embeds. Existing Trinket integrations remain in
+the repository temporarily and are tracked as `TODO-IDE-Replace` until a
+supported browser IDE migration is completed.
+
+Legacy example:
 
 ```html
 <iframe src="https://trinket.io/embed/python/abc123" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
@@ -93,7 +97,7 @@ Remember to use parentheses when calling a function!
 ## Tips
 
 - Always provide a **working starting point** so students aren't staring at a blank editor
-- Test all embedded links before submitting. Replit and Trinket links can expire.
+- Test all embedded links before submitting. Do not introduce new Trinket links.
 - Set `height="600"` as a starting point for embedded editors and adjust as needed
 - Add a fallback link below iframes in case embedding is blocked: "Can't see the editor? [Open it in a new tab](link)"
 - Keep code examples short and focused. If an example exceeds 20 lines, consider splitting it into steps.

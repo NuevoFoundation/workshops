@@ -104,10 +104,13 @@ Here's a complete `_index.md` frontmatter example:
 ---
 title: "Python: Basics"
 description: "Learn Python fundamentals"
-date: 2026-04-25T00:00:00-07:00
-difficulty: "Beginner"
+date: 2026-09-16T00:00:00-07:00
+language: "python"
+topics: ["programming-basics"]
+difficulties: ["beginner"]
 prereq: "None"
 draft: false
+hidden: false
 alwaysopen: false
 icon: "fab fa-python"
 weight: 1
