@@ -67,8 +67,6 @@ turtle.forward(50)
 
 Agora que completamos nosso código, pressione **run**. Você deverá ver o seguinte na tela de resultados:
 
-![texto alternativo height="600px" width="70%"](../media/basics-trinket.png "Janela do Codebunga")
-
 Se sim, ótimo! Caso contrário, peça ajuda.
 
 Como exercício, tente entender o que a linha de código a seguir faz e tente adicionar isso ao seu código. O que isso faz?

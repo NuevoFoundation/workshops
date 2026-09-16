@@ -86,7 +86,7 @@ sectionA(1,9)
 **挑战：** 创建一个名为 `addNumbers` 的函数，它接受名为 `number1` 和 `number2` 的 2 个参数，并在控制台上打印它们的总和。使用参数 `3` 和 `5` 调用函数 `addNumbers`。
 控制台上会打印什么？
 
-<iframe src="https://trinket.io/embed/python/52ce76e1d0" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/cgv9gk32" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### 小挑战二
 

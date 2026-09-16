@@ -36,4 +36,4 @@ print(x)
 
 让我们把这些知识整合起来！我们看看能否创建一个程序，从用户那里获取 5 个数字，并打印出这些数字中最小的数的幂次最大值。例如，给定数字 2、7、4、11、9，返回 2<sup>11</sup>。如果你能将它拆分成函数，那将获得额外的奖励分数！
 
-<iframe src="https://trinket.io/embed/python/b238d85d0d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/3sw68wix" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

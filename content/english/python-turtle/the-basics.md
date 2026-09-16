@@ -69,8 +69,6 @@ turtle.forward(50)
 
 Now that we have completed our code, press **run**. You should see the following in the result screen:
 
-![alt text height="600px" width="70%"](../media/basics-trinket.png "Trinket window")
-
 If so, great! If not, please ask for help.
 
 As an exercise, try understanding what the following line of code does, and try adding this to your code. What does it do?

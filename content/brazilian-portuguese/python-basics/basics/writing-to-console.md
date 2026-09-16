@@ -13,7 +13,7 @@ Vamos começar fazendo uma instrução `print`.
 Usaremos muito a impressão nas lições posteriores, portanto, certifique-se de entender isso antes de passar para o próximo conceito!
 
 ### Desafio 1
-Para começar, escreva o seguinte texto em seu Trinket main.py e clique em Run (Executar).
+Para começar, escreva o seguinte texto em seu Codebunga main.py e clique em Run (Executar).
 
 ```python
 print("Olá, Mundo!")
@@ -23,7 +23,7 @@ Observe seu console dizer “Olá, mundo!” na tela à direita! `print` diz ao 
 
 ![texto alternativo](../../img/print.png "hello world em python!")
 
-<iframe src="https://trinket.io/embed/python/ce70252d93" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/fcrtud9r" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 {{% notice tip %}}
 ### Usando " com impressão
@@ -39,7 +39,7 @@ Volte e tente imprimir coisas diferentes!
 2. Adicione outro print abaixo da linha atual para imprimir uma segunda frase abaixo da primeira frase.
 3. Pressione **Run** para ver se duas frases são impressas.
 
-<iframe src="https://trinket.io/embed/python/ce70252d93" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/fcrtud9r" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Usaremos muito a impressão nas lições posteriores, portanto, certifique-se de entender isso antes de continuar!
 

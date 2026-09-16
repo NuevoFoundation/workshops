@@ -30,7 +30,7 @@ In Choose Your Own Adventure Games you are the protagonist of the story, and you
 
 Let’s try it out!
 
-<iframe src="https://trinket.io/embed/python/ddbeb74073?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/vky5wh8y?display=output" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 What did you all think? We’re now going to learn some cool skills that will allow us to create our own stories.
 

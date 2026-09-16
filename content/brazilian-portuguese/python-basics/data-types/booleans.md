@@ -73,4 +73,4 @@ Para resumir, AND (e) requer que ambas as expressões booleanas sejam verdadeira
 - (11-2 < 10) e (7+3 > 10)
 - (<font color="blue">True</font> ou 3 < 1) e (<font color="blue">False</font> ou 3>1)
 
-<iframe src="https://trinket.io/embed/python/b238d85d0d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/c2vqd36f" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

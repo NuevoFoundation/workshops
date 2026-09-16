@@ -75,3 +75,5 @@ Remarquez que `turtle.forward(50)` a 2 tabulations devant lui, car il est à la 
 {{% /notice %}}
 
 Alors, essayons cela en créant notre propre fonction `draw_hexagon()` ! N'oubliez pas d'inclure l'en-tête de définition de fonction, le nombre de côtés d'un hexagone: 60 dégrées et l'angle associé à un hexagone : 
+
+<iframe title="Interactive Python Turtle code editor for practicing functions" src="https://codebunga.com/embed/rwk2i37m" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

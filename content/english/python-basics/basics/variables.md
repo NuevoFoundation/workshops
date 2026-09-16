@@ -14,7 +14,7 @@ happy = True
 ```
 Press run. 
 
-![Screenshot of what variables example looks like in replit](../../img/variables.png "image of how variables look in replit") 
+![Screenshot of what the variables example looks like in Codebunga](../../img/variables.png "Image of how variables look in Codebunga")
 
 Note that variables are not printed out to the console. Instead, the variable simply saves the string, number, or boolean into the computer’s memory. We can use these variables in other statements. For example, the following code would print `"Hello Nuevo Foundation"` to the console:
 
@@ -72,4 +72,4 @@ Hint: If you're stuck, consider using the `+` operator. Remember that you can us
 
 {{% /notice %}}
 
-<iframe src="https://trinket.io/embed/python/b238d85d0d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/eceyb8yx" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
