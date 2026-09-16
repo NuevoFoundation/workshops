@@ -37,6 +37,6 @@ Nuevo Foundation
 Nuevo Foundation
 ```
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/itRFnP" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/itRFnP" title="Strings - .NET Fiddle editor" frameborder="0"></iframe>
 
 {{% /notice %}}

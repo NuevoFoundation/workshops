@@ -12,7 +12,7 @@ difficulties: ["intermediate"]
 
 En este taller, crearás un juego sencillo que incorpora algunos de los conceptos que aprendiste en la sección de Fundamentos de Python. ¡Prueba esta demostración y descubre cuántos intentos te lleva adivinar el número!
 
-<iframe src="https://codebunga.com/embed/v36ew4p5?display=output" width="100%" height="500" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/v36ew4p5?display=output" title="Python: Adivina el Número - Codebunga editor" width="100%" height="500" frameborder="0" allowfullscreen></iframe>
 
 ## Tabla de Contenidos
 

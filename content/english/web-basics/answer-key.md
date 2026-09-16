@@ -97,7 +97,7 @@ Nuevo Foundation GIFs: https://giphy.com/nuevofoundation
 Example iframe code:
 
 ```HTML
-<iframe src="https://giphy.com/embed/oywrR92C9YBlrSuUKP" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/nuevofoundation-rockstar-nuvi-oywrR92C9YBlrSuUKP">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/oywrR92C9YBlrSuUKP" title="Answer Key - Web Basics - Giphy animation 1" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/nuevofoundation-rockstar-nuvi-oywrR92C9YBlrSuUKP">via GIPHY</a></p>
 ```
 
 Integrated into sample 'Try it yourself code!':
@@ -130,7 +130,7 @@ Integrated into sample 'Try it yourself code!':
     <h3>I hope we get to play soon!</h3> 
 
     <!-- Challenge 3: Paste your code here! -->
-    <iframe src="https://giphy.com/embed/oywrR92C9YBlrSuUKP" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/nuevofoundation-rockstar-nuvi-oywrR92C9YBlrSuUKP">via GIPHY</a></p>
+    <iframe src="https://giphy.com/embed/oywrR92C9YBlrSuUKP" title="Answer Key - Web Basics - Giphy animation 2" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/nuevofoundation-rockstar-nuvi-oywrR92C9YBlrSuUKP">via GIPHY</a></p>
   </body>
 </html>
 ```

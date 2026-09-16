@@ -34,7 +34,7 @@ Best for Python, JavaScript, and general-purpose programming. Use the `replit.co
 Or embed directly:
 
 ```html
-<iframe height="600" width="100%" src="https://replit.com/@nuevofoundation/python-basics" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe height="600" width="100%" src="https://replit.com/@nuevofoundation/python-basics" title="Code and interactivity - Replit editor" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true"></iframe>
 ```
 
 Note: older workshops include `?lite=true` in Replit URLs. This parameter is no longer active and can be omitted from new embeds.
@@ -48,7 +48,7 @@ supported browser IDE migration is completed.
 Legacy example:
 
 ```html
-<iframe src="https://codebunga.com/embed/7s5rkuud" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/7s5rkuud" title="Code and interactivity - Codebunga editor" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 ```
 
 ### .NET Fiddle
@@ -56,7 +56,7 @@ Legacy example:
 Best for C# programs.
 
 ```html
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/abc123" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/abc123" title="Code and interactivity - .NET Fiddle editor" frameborder="0"></iframe>
 ```
 
 ### CodePen

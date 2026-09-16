@@ -49,6 +49,6 @@ I don't know the answer to that! Goodbye!
 
 `[input]` should be replaced with whatever the user had typed into the console.
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/ULv0JH" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/ULv0JH" title="Reading from Console - .NET Fiddle editor" frameborder="0"></iframe>
 
 {{% /notice %}}

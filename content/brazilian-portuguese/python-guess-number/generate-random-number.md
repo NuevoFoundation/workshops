@@ -17,4 +17,4 @@ Try running the below code a few times to see what you get!
 You can also play around by changing the range of random numbers. It's fun, give it a try!
 {{% /notice %}}
 
-<iframe src="https://codebunga.com/embed/x2ixjiq6" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/x2ixjiq6" title="Gerando um número randômico - Codebunga editor" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

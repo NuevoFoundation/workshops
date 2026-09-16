@@ -13,7 +13,7 @@ Vamos a intentar ejecutar un programa en C# que imprima `Hello World` (Hola Mund
 
 ### ¡Escribamos algo de código!
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/0g4Vu7" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/0g4Vu7" title="Escribir en la Consola - .NET Fiddle editor" frameborder="0"></iframe>
 
 En el marco de .NET Fiddle anterior, agrega una nueva línea de código debajo de la primera línea para imprimir "Hello *tu nombre*". Debería verse algo así:
 

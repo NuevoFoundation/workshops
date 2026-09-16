@@ -13,7 +13,7 @@ weight: 2
 
 ### Келгиле, код жазалы!
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/0g4Vu7" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/0g4Vu7" title="Консолго жазуу - .NET Fiddle editor" frameborder="0"></iframe>
 
 Жогорудагы .NET Fiddle бөлүгүнө биринчи саптын астына жаңы код сап кошуп, "Hello *атың*" текстинин басылып чыгышын камсыз кылыңыз. Ал төмөнкүдөй көрүнүшү керек.
 

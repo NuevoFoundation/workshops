@@ -4,7 +4,7 @@ draft: false
 weight: 4
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/drRPzuNcUbo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/drRPzuNcUbo" title="Spy Game - YouTube video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 From our last activity we learnt that a strong password is a combination of random characters (possibly having uppercase and lowercase letters), numbers and some special characters. Now it's time to play Hacked or Safe!
 

@@ -14,7 +14,7 @@ difficulties: ["beginner"]
 
 여러분은 아마도 플래피 버드(Flappy Bird) 게임에 익숙할 것 입니다. 이 워크숍에서는 JavaScript 언어를 사용하여 여러분만의 플래피 버드 게임을 만드는 방법을 배울 것입니다! 도전할 준비가 되셨나요?
 
-<p style="text-align: center;"><iframe src="https://giphy.com/embed/euuaA2cwLEUuI" width="350" height="350" frameBorder="0" class="giphy-embed"></iframe>
+<p style="text-align: center;"><iframe src="https://giphy.com/embed/euuaA2cwLEUuI" title="JS: JSappyBird - Giphy animation" width="350" height="350" frameBorder="0" class="giphy-embed"></iframe>
 
 이미 익숙한 플래피 버드 게임을 직접 만들어보고, 친구들에게도 보여줄 수 있습니다! 이번 튜토리얼에서는 여러분이 만든 세계에서 새가 움직일 수 있도록 JavaScript 언어를 배우게 됩니다.
 

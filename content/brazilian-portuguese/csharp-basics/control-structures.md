@@ -52,7 +52,7 @@ Patrick deve dizer "Good Morning" entre 0:00 - 11:59, "Good Afternoon" entre 12:
 2. Complete as expressões booleanas `A` e `B` para finalizar o programa.  
 3. Teste seu resultado atribuindo valores de 0 a 23 para `currentHour`:
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/T6AUdh" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/T6AUdh" title="Estruturas de Controle - .NET Fiddle editor 1" frameborder="0"></iframe>
 
 ## Repetindo: For-Loop, While-Loop
 
@@ -112,4 +112,4 @@ O código ficará assim:
 
 Teste esse código clicando em `Run` e crie uma versão com `for loop` que calcule a mesma coisa! O resultado deve ser o mesmo!
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/ySFwK0" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/ySFwK0" title="Estruturas de Controle - .NET Fiddle editor 2" frameborder="0"></iframe>

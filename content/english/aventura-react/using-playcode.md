@@ -16,7 +16,7 @@ We are going to use the PlayCode tool to build our first project with React. Her
 
 First we need to know how PlayCode or Playground works. You can create files and folders to organize your code. It is a code editor that refreshes automatically, so whatever you write will update without refreshing. You can see your progress in real time.
 
-<iframe src="https://playcode.io/react" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://playcode.io/react" title="Using Playground - PlayCode editor" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 
 

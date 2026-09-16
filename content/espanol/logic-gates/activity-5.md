@@ -79,7 +79,7 @@ Ver tabla de verdad completa
 
 {{< logic-gate-icon-guide lang="es" >}}
 
-<iframe src="https://drendog.github.io/Logic-Circuit-Simulator/" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://drendog.github.io/Logic-Circuit-Simulator/" title="Actividad 5 - La Puerta Invertida del Tucán (AND + NOT) - interactive logic gate simulator" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
 
 ---
 

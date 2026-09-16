@@ -97,7 +97,7 @@ GIFs da Fundação Nuevo: https://giphy.com/nuevofoundation
 Exemplo de código iframe:
 
 ```HTML
-<iframe src="https://giphy.com/embed/oywrR92C9YBlrSuUKP" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/nuevofoundation-rockstar-nuvi-oywrR92C9YBlrSuUKP">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/oywrR92C9YBlrSuUKP" title="Gabarito - Fundamentos de Web - Giphy animation 1" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/nuevofoundation-rockstar-nuvi-oywrR92C9YBlrSuUKP">via GIPHY</a></p>
 ```
 
 Integrado no exemplo 'Tente codar você mesmo!':
@@ -130,7 +130,7 @@ Integrado no exemplo 'Tente codar você mesmo!':
      <h3>Espero que possamos brincar em breve!</h3> 
 
     <!-- Desafio 3: Cole seu código aqui! -->
-    <iframe src="https://giphy.com/embed/oywrR92C9YBlrSuUKP" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/nuevofoundation-rockstar-nuvi-oywrR92C9YBlrSuUKP">via GIPHY</a></p>
+    <iframe src="https://giphy.com/embed/oywrR92C9YBlrSuUKP" title="Gabarito - Fundamentos de Web - Giphy animation 2" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/nuevofoundation-rockstar-nuvi-oywrR92C9YBlrSuUKP">via GIPHY</a></p>
   </body>
 </html>
 ```

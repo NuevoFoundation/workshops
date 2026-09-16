@@ -27,4 +27,4 @@ Within the `while` loop, you can use conditionals to check if the player has gue
 
 Remember to read the comments as a guide; or maybe delete the comments and see if you can figure out on your own. :)
 
-<iframe src="https://codebunga.com/embed/z5dnmnnv" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/z5dnmnnv" title="Create the game - Codebunga editor" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

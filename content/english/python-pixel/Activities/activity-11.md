@@ -7,7 +7,7 @@ weight: 11
 draft: false
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KWL3b4xY8dA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KWL3b4xY8dA" title="Activity 11: Challenge: Make your own image - YouTube video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 In this section, we will take what you have learned so far to create and change your own picture! In this section, you are free to make any combination of basic colorboards, drawing elements, filters, cropping, flipping, changing colors or text. 
 

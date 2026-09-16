@@ -14,7 +14,7 @@ difficulties: ["beginner"]
 
 Você deve estar familiarizado com o jogo Flappy Bird. Este workshop irá guiá-lo na criação de sua própria versão do jogo usando a linguagem JavaScript! Você está pronto para o desafio?
 
-<p style="text-align: center;"><iframe src="https://giphy.com/embed/euuaA2cwLEUuI" width="350" height="350" frameBorder="0" class="giphy-embed"></iframe>
+<p style="text-align: center;"><iframe src="https://giphy.com/embed/euuaA2cwLEUuI" title="JS: JSappyBird - Giphy animation" width="350" height="350" frameBorder="0" class="giphy-embed"></iframe>
 
 Como você provavelmente está familiarizado com o jogo Flappy Bird, este workshop irá guiá-lo sobre como você pode criar sua própria versão do jogo e deixar seus amigos experimentarem! Neste tutorial aprenderemos como usar a linguagem JavaScript para ajudar o pássaro a brincar no mundo que você criará.
 

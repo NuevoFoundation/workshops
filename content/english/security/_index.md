@@ -10,7 +10,7 @@ topics: ["cybersecurity"]
 difficulties: ["beginner"]
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/q6HvZ220xpY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/q6HvZ220xpY" title="Security: Spy Game - YouTube video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ![Cannot load image](img/Bob.png?height=250px)
 

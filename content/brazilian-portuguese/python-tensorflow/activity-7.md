@@ -7,7 +7,7 @@ weight: 12
 draft: false
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pwZDPj4yIsM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pwZDPj4yIsM" title="Atividade 7 - Plotando a Categoria Prevista de uma Imagem - YouTube video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Plotando a Categoria de uma Imagem
 </br>

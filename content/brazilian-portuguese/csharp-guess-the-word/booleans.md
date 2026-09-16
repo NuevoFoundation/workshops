@@ -34,6 +34,6 @@ Tente adivinhar as respostas das expressões abaixo. Use `Console.WriteLine` par
 - `"Hello" + "World" == "Hello World"`
 - `false == false`
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/ULv0JH" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/ULv0JH" title="Booleanos - .NET Fiddle editor" frameborder="0"></iframe>
 
 {{% /notice %}}

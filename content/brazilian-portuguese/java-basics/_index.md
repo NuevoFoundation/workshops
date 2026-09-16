@@ -10,7 +10,7 @@ topics: ["programming-basics"]
 difficulties: ["beginner"]
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/udEaocEYlpc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/udEaocEYlpc" title="Java: Fundamentos - YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 Bem vindo ao curso <b>Java: Fundamentos</b>, onde você vai aprender uma linguagem de programação amplamente utilizada e de alto nível, que fornece ao computador instruções para criar programas emocionantes!
 

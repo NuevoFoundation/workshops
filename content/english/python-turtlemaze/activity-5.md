@@ -11,7 +11,7 @@ After all your practice steering Nuvo around the maze, it’s time for the grand
 It's your turn to play the actual game!!! HAVE FUN!!
 ---
 
-<p style="text-align: center;"> <iframe src="https://codebunga.com/embed/a4zfagqb" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> </p>
+<p style="text-align: center;"> <iframe src="https://codebunga.com/embed/a4zfagqb" title="Activity 5 - Nuvo Finds Nuvi! - Codebunga editor" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> </p>
 
 {{% notice success %}}
 🎉 You Did It!

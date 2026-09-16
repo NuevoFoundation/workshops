@@ -7,7 +7,7 @@ weight: 2
 draft: false
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OxDn2xDXWi4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OxDn2xDXWi4" title="Atividade 1 - Importando a biblioteca TensorFlow e os conjuntos de dados - YouTube video 1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Importar Dependências
 
@@ -103,7 +103,7 @@ difficulty: Intermediário
 weight: 3
 draft: false
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bMr1c4a7dXQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bMr1c4a7dXQ" title="Atividade 2 - Exibindo Valores de Cor RGB para Imagens - YouTube video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Visualizar Imagens das Amostras
 

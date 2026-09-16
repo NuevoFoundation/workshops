@@ -20,7 +20,7 @@ You can also use [this video](https://www.youtube.com/watch?v=FiNglI1wRNk) to fo
 
 The following videos will go over all the code and activities, so we recommend doing the activities first before looking at the walkthrough solutions.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6FfxBNRn0Ww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6FfxBNRn0Ww" title="Python: Machine Learning Basics using TensorFlow - YouTube video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Getting Started with Google Colab
 Visit [Google Colab](https://colab.research.google.com/), an online programming environment similar to Google Docs but for running code. After signing into your Google account, click the option to create a "New Notebook". To run the code you complete while working through this workshop, click on the "play" button on the left. 

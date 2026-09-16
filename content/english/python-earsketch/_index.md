@@ -18,7 +18,7 @@ Python skills used in this workshop: print statements, comments, and functions.
 Welcome to this introductory guide on how to make music using
 [EarSketch](https://en.wikipedia.org/wiki/EarSketch) & Python. To jump to a particular activity, you can click on the section link on the navigation bar on the left of the page.
 
-<!--- LEAVING THIS VIDEO HERE IN CASE IT IS NEEDED <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/g0u1CkbpUWQ?start=79" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p> --->
+<!--- LEAVING THIS VIDEO HERE IN CASE IT IS NEEDED <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/g0u1CkbpUWQ?start=79" title="Python: Create music with EarSketch - YouTube video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p> --->
 
 ### Meet DJ Nuvi
 

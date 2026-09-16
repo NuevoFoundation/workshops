@@ -35,6 +35,6 @@ Try guessing the answers to the following expressions. Use `Console.WriteLine` t
 - `(9 < 10) && (12 => 11)`
 - `(15 - 2 == 11) || (4 % 3 != 2)`
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/ULv0JH" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/ULv0JH" title="Boolean Operators - .NET Fiddle editor" frameborder="0"></iframe>
 
 {{% /notice %}}
