@@ -2,7 +2,7 @@
 title: "Python: Choose Your Own Adventure Game"
 description: "An introductory guide on how to make a Choose Your Own Adventure Game in Python"
 date: 2019-07-23T11:45:38-07:00
-prereq: "Python Basics - Writing to Console (Print), Reading from Console, Strings, Variables, Conditional statements"
+prereq: "Python Basics"
 download: ""
 draft: false
 icon: "fab fa-python"
@@ -12,6 +12,8 @@ difficulties: ["intermediate"]
 ---
 
 ## Power of Stories
+
+Python skills used in this workshop: writing to the console (`print`), reading from the console, strings, variables, and conditional statements.
 
 Hi everyone! Today we are going to be using our engineering superpowers to be the best storytellers. Stories are a great way to connect people, share traditions, and learn new things!
 
@@ -28,7 +30,7 @@ In Choose Your Own Adventure Games you are the protagonist of the story, and you
 
 Let’s try it out!
 
-<iframe src="https://trinket.io/embed/python/ddbeb74073?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/vky5wh8y?display=output" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 What did you all think? We’re now going to learn some cool skills that will allow us to create our own stories.
 

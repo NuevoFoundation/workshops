@@ -5,11 +5,11 @@ weight: 2
 draft: false
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/uSQGtnlot2s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe title="Drawing a colored line with Python Turtle" width="560" height="315" src="https://www.youtube.com/embed/uSQGtnlot2s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-Before Alex can learn how to create a beehive, he must first learn how to draw a colored line. We will add code to the below Trinket window, and we will do this in two parts.
+Before Alex can learn how to create a beehive, he must first learn how to draw a colored line. We will add code to the below Codebunga window, and we will do this in two parts.
 
-<iframe src="https://trinket.io/embed/python/1363ac22be" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Interactive Python Turtle code editor for drawing a colored line" src="https://codebunga.com/embed/y6tyvujt" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
 
 First, we need tell the turtle what color we want the line to be. To do this, let's type in:
 
@@ -68,8 +68,6 @@ turtle.forward(50)
 ```
 
 Now that we have completed our code, press **run**. You should see the following in the result screen:
-
-![alt text height="600px" width="70%"](../media/basics-trinket.png "Trinket window")
 
 If so, great! If not, please ask for help.
 

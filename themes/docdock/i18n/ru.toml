@@ -2,6 +2,9 @@
 [navigation]
 other = "Навигация:"
 
+[skip-workshop-content]
+other = "Перейти к содержанию практикума"
+
 # next-prev-button.html
 [up-next]
 other = "Следующий:"

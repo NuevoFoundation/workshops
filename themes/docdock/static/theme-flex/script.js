@@ -1,4 +1,24 @@
 jQuery(document).ready(function () {
+  jQuery(".language-selector").on("change", function () {
+    var destination = new URL(this.value, window.location.href);
+    var isHttp = destination.protocol === "http:" || destination.protocol === "https:";
+
+    if (isHttp && destination.origin === window.location.origin) {
+      window.location.assign(destination.href);
+    }
+  });
+
+  jQuery(".skip-link").on("click", function (event) {
+    var target = document.querySelector(this.hash);
+    if (!target) {
+      return;
+    }
+
+    event.preventDefault();
+    target.focus({ preventScroll: true });
+    target.scrollIntoView({ block: "start" });
+  });
+
   jQuery("button.category-icon").on("click", function () {
     var $btn = $(this);
     $btn.find("i").toggleClass("fa-angle-down fa-angle-up");

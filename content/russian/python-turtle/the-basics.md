@@ -7,9 +7,9 @@ draft: false
 
 <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/uSQGtnlot2s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-Прежде чем Алекс сможет научиться строить улей, он должен научиться рисовать цветные линии. Мы добавим код в окно Trinket ниже, и сделаем это в двух частях.
+Прежде чем Алекс сможет научиться строить улей, он должен научиться рисовать цветные линии. Мы добавим код в окно Codebunga ниже, и сделаем это в двух частях.
 
-<iframe src="https://trinket.io/embed/python/d88b95c4c47a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Interactive Python Turtle code editor for drawing a colored line" src="https://codebunga.com/embed/y6tyvujt" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
 
 
 Сначала нам нужно сказать черепашке, какого цвета должна быть линия. Для этого давайте напишем:
@@ -69,8 +69,6 @@ turtle.forward(50)
 ```
 
 Теперь, когда мы завершили код, нажмите **run**. Вы должны увидеть следующее в окне результата:
-
-![alt text height="600px" width="70%"](../media/basics-trinket.png "Trinket window")
 
 Если да — отлично! Если нет — попросите помощи.
 

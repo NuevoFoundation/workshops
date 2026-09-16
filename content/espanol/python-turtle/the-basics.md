@@ -7,7 +7,7 @@ draft: false
 
 Ante de que Alex pueda aprender a crear una colmena, él debe aprender primero cómo dibujar una línea. Haremos esto en dos partes.
 
-<iframe src="https://trinket.io/embed/python/5453001fb3" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Interactive Python Turtle code editor for drawing a colored line" src="https://codebunga.com/embed/y6tyvujt" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
 
 Primero, necesitamos decirle a la tortuga qué color queremos usar para dibujar la línea. Para hacerlo de color naranja (orange in inglés) esta es la instrucción:
 
@@ -67,8 +67,6 @@ turtle.forward(50)
 ```
 
 Copia las líneas de arriba, pégalas en el archivo `main.py` que teníamos al inicio, y dale click en Run.
-
-![alt text height="600px" width="70%"](../media/basics-trinket.png "Ventana de Trinket")
 
 Como ejercicio, trata de entender que hace la siguiente línea de código. Después pégala al final del archivo `main.py` y vuélvelo a correr.
 

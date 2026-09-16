@@ -48,7 +48,25 @@ If you place two NOT gates in series, the signal is inverted twice. That is:
 
 ---
 
-### Activity 4: Combining gates (AND, OR, NOT)
+### Activity 4: AND + NOT (Inverted gate)
+Expected answer: The output is 1 except when both inputs are 1 (use AND and then NOT).
+
+Tip: The NOT gate inverts the AND result. Only if both inputs are 1 will the output be 0.
+
+<img src="../media/answer_5.png" alt="Visual solution for the AND followed by NOT circuit with two inputs and one output" width="40%" class="lg-img"/>
+
+---
+
+### Activity 5: OR + NOT (Silent output)
+Expected answer: The output is 1 only if both inputs are 0 (use OR and then NOT).
+
+Tip: The NOT gate inverts the OR result. If any input is 1, the output will be 0.
+
+<img src="../media/answer_6.png" alt="Visual solution for the OR followed by NOT circuit with two inputs and one output" width="40%" class="lg-img"/>
+
+---
+
+### Activity 6: Combining gates (AND, OR, NOT)
 Expected answer: The output is activated if B is 1, or if A is 1 and C is 0 (use NOT to invert C).
 
 Tip: Build the circuit by combining the gates according to the given logical condition. Test the cases suggested in the activity.
@@ -78,24 +96,6 @@ Tip: Build the circuit by combining the gates according to the given logical con
 - A = 1, B = 0, C = 1 → Output = 0
 - A = 0, B = 1, C = 1 → Output = 1
 - A = 0, B = 0, C = 0 → Output = 0
-
----
-
-### Activity 5: AND + NOT (Inverted gate)
-Expected answer: The output is 1 except when both inputs are 1 (use AND and then NOT).
-
-Tip: The NOT gate inverts the AND result. Only if both inputs are 1 will the output be 0.
-
-<img src="../media/answer_5.png" alt="Visual solution for the AND followed by NOT circuit with two inputs and one output" width="40%" class="lg-img"/>
-
----
-
-### Activity 6: OR + NOT (Silent output)
-Expected answer: The output is 1 only if both inputs are 0 (use OR and then NOT).
-
-Tip: The NOT gate inverts the OR result. If any input is 1, the output will be 0.
-
-<img src="../media/answer_6.png" alt="Visual solution for the OR followed by NOT circuit with two inputs and one output" width="40%" class="lg-img"/>
 
 ---
 

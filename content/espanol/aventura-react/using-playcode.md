@@ -5,6 +5,8 @@ weight: 1
 draft: false
 ---
 
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/rkOAe9AB8cc" title="React CR - Usando Playground" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 Sharky te enseñara a usar react y contruir tu viaje por Costa Rica, Hoy vamos a iniciar una aventura creando una app de Costa Rica con React.
 React nos permite crear pantallas usando algo parecido a HTML.
 
@@ -19,6 +21,5 @@ Primero debemos saber como funciona playcode o playground puedes crear archivos 
 
 
 <iframe src="https://playcode.io/react" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-
 
 

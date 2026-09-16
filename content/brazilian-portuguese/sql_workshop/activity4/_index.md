@@ -20,7 +20,7 @@ draft: false
 Depois de ir para a Capital da Diversão, os habitantes pedem para você falar com o líder deles. Descubra qual habitante é o líder.
 Para fazer isso, vamos dar uma olhada em como selecionar múltiplas colunas em um banco de dados.
 
-![Vírgulas](assets/Virgulas.png)
+![Vírgulas](assets/Commas.png)
 
 #### Agora use o que aprendeu para descobrir quem é o líder do Planeta da Diversão!
 

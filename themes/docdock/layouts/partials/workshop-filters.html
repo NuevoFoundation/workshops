@@ -1,13 +1,22 @@
 {{- /*
   workshop-filters.html — renders the homepage workshop explorer controls:
-  search input, chip groups (difficulty, language, topic), group-by select,
+  search input, chip groups (difficulty, prerequisite, language, topic), group-by select,
   clear-filters button. State is managed by workshop-explorer.js.
 
-  Vocabularies come from site.Data.taxonomy; display names are i18n keys of the
+  Vocabularies come from hugo.Data.taxonomy; display names are i18n keys of the
   form `tax.<dimension>.<key>` (see themes/docdock/i18n/*.toml). Icons are
   Font Awesome 6 classes (already loaded site-wide).
 */ -}}
-{{- $tax := site.Data.taxonomy -}}
+{{- $tax := hugo.Data.taxonomy -}}
+{{- $prereqLabel := trim (i18n "pre-requisite") ": " -}}
+{{- $prerequisites := slice -}}
+{{- range .Site.Home.Sections -}}
+  {{- if not .Params.hidden -}}
+    {{- with .Params.prereq -}}
+      {{- $prerequisites = $prerequisites | append . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
 
 {{- $diffIcons := dict
   "beginner"     "fa-seedling"
@@ -87,6 +96,22 @@
     {{- end }}
   </div>
 
+  <div class="we-chip-group" data-dimension="prereq" role="group"
+       aria-label="{{ $prereqLabel }}"
+       data-unspecified-label="{{ i18n "workshop-explorer-unspecified" }}">
+    <span class="we-chip-group-label">
+      <i class="fas fa-list-check" aria-hidden="true"></i>
+      {{ $prereqLabel }}
+    </span>
+    {{- range sort (uniq $prerequisites) }}
+    {{/* Stable IDs preserve complete labels, including commas, in shared filter URLs. */}}
+    <button type="button" class="we-chip" data-value="{{ sha256 . }}" aria-pressed="false">
+      <i class="fas fa-list-check" aria-hidden="true"></i>
+      <span>{{ . }}</span>
+    </button>
+    {{- end }}
+  </div>
+
   <div class="we-chip-group" data-dimension="language" role="group"
        aria-label="{{ i18n "tax.dim.language" }}">
     <span class="we-chip-group-label">
@@ -126,6 +151,7 @@
     <select id="we-groupby" class="we-group-select">
       <option value="none">{{ i18n "workshop-explorer-group-none" }}</option>
       <option value="difficulties">{{ i18n "tax.dim.difficulty" }}</option>
+      <option value="prereq">{{ $prereqLabel }}</option>
       <option value="language">{{ i18n "tax.dim.language" }}</option>
       <option value="topics">{{ i18n "tax.dim.topic" }}</option>
     </select>

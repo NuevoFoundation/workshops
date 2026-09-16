@@ -7,7 +7,7 @@ weight: 4
 
 
 ### Bucles Anidados
-*Nested loops* (Bucles Anidados) se basa en lo que aprendimos sobre bucles for y bucles while en el ejercicio anterior. Puede que quieras revisar la página <a href="../../../python-basics/loops" target="blank">For-loop and While-loop</a> antes de continuar.
+*Nested loops* (Bucles Anidados) se basa en lo que aprendimos sobre bucles for y bucles while en el ejercicio anterior. Puede que quieras revisar la página <a href="../loops/" target="blank">For-loop and While-loop</a> antes de continuar.
 
 En esta sección usaremos un bucle dentro de otro, lo que se llama nested loops o *bucles anidados*.
 <hr/>
@@ -75,7 +75,7 @@ Pasa por el bucle interno while, x es 2 y es 4
 ### Desafío Uno
 Intenta cambiar los enteros en el bucle while anidado y predice las salidas. Luego ejecuta el código y observa los resultados. ¿Coinciden con tus predicciones?
 
-<iframe src="https://trinket.io/embed/python/f3c616d39391" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/wgwzwt4z" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 <br/><br/>
 <hr/>
 
@@ -124,13 +124,13 @@ Este es el resultado de nuestro ejemplo.
 Intenta cambiar los enteros en el bucle for anidado y predice las salidas.
 Luego ejecuta el código y observa los resultados. ¿Coinciden con tus predicciones?
 
-<iframe src="https://trinket.io/embed/python/64c90dd23a3e" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/wgwzwt4z6" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 #### Preguntas
 Intenta inicializar n y m. ¿Esto cambiará nuestra salida de los bucles anidados y por qué?
 Luego ejecuta el código y observa los resultados. ¿Coinciden con tus predicciones?
 
-<iframe src="https://trinket.io/embed/python/c94af8e20690" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/wgwzwt4z" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 #### Preguntas
 Al final de esta sección, pensemos en las siguientes preguntas:

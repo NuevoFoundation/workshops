@@ -2,7 +2,7 @@
 title: "Java: TicTacToe"
 description: "Learn how to make a console based TicTacToe game in Java"
 date: 2021-10-14T00:00:00Z
-prereq: "Java: Basics"
+prereq: "Java Basics"
 icon: "fab fa-java"
 draft: false
 language: "java"

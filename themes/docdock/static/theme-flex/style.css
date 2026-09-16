@@ -329,6 +329,25 @@ body {
   pointer-events: none;
 }
 
+.skip-link {
+  position: fixed;
+  top: 0.5rem;
+  left: 0.5rem;
+  z-index: 2000;
+  padding: 0.75rem 1rem;
+  color: #000;
+  background: #fcc600;
+  border: 3px solid #000;
+  border-radius: 5px;
+  transform: translateY(-150%);
+}
+
+.skip-link:focus {
+  outline: 3px solid #fff;
+  outline-offset: 2px;
+  transform: translateY(0);
+}
+
 a {
   color: inherit;
 }
@@ -347,7 +366,13 @@ section ul {
 }
 
 section a {
-  color: #2980b9;
+  color: #2472a6;
+}
+
+section a.btn-info {
+  color: #fff;
+  background-color: #397c90;
+  border-color: #326d7f;
 }
 
 section strong {
@@ -793,6 +818,26 @@ article section.page pre[class*="language-"] {
   white-space: pre;
 }
 
+.highlight span[style*="color:#d88200"] {
+  color: #a56200 !important;
+}
+
+.highlight span[style*="color:#ae81ff"] {
+  color: #7e5cb9 !important;
+}
+
+.highlight span[style*="color:#f92672"] {
+  color: #d42060 !important;
+}
+
+.highlight span[style*="color:#00a8c8"] {
+  color: #007991 !important;
+}
+
+.highlight span[style*="color:#75af00"] {
+  color: #547e00 !important;
+}
+
 .anchor {
   color: #2053ab;
   font-size: 0.5em;
@@ -1048,14 +1093,25 @@ div.notices.tip {
   border: 4px solid black;
   border-top: 30px solid #000000;
   background: #e8f7e6;
-  color: rgba(72, 125, 63, 0.995) !important;
+  color: #45763c !important;
 }
 
 div.notices.hint {
   border: 4px solid black;
   border-top: 30px solid #000000;
   background: #e8f7e6;
-  color: rgba(72, 125, 63, 0.995) !important;
+  color: #45763c !important;
+}
+
+div.notices.tip p,
+div.notices.hint p {
+  color: #45763c !important;
+}
+
+div.notices.tip a,
+div.notices.hint a {
+  color: #2472a6;
+  text-decoration: underline;
 }
 
 div.notices.warning {
@@ -1079,6 +1135,7 @@ ul.children.children-card {
 }
 ul.children.children-card > .workshop-button {
   position: relative;
+  list-style: none;
   background-color: #fff;
   cursor: pointer;
   text-align: left;

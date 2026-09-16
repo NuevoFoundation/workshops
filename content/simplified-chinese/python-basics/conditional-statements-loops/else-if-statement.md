@@ -4,7 +4,7 @@ draft: false
 weight: 2
 ---
 
-在上一个练习中，我们学习了基本的if-else条件语句。如果需要快速复习，你可以查看<a href="../../python-basics/conditional-statements">条件语句</a>。
+在上一个练习中，我们学习了基本的if-else条件语句。如果需要快速复习，你可以查看<a href="../conditional-statements/">条件语句</a>。
 
 在本节中，我们将介绍一个新的条件，叫做 "elif"。
 
@@ -76,7 +76,7 @@ else:
 
 #### 小挑战
 你能利用您在 "Python基础:布尔值" 中学到的知识来制作自己的elif示例吗？你可能需要复习布尔值来完成这个挑战。
-- <a href="../../python-basics/data-types/booleans"> 布尔值 </a>
+- <a href="../../data-types/booleans/"> 布尔值 </a>
 <br/><br/>
 
-<iframe src="https://trinket.io/embed/python/5292ae7e3a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/7e6i4vm8" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

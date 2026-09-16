@@ -1,21 +1,21 @@
 ---
-title: "Работаем с Trinket"
+title: "Работаем с Codebunga"
 date: 2019-07-25T13:24:17-07:00
 weight: 1
 draft: false
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/_DbRac3d0lo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe title="How to use Codebunga for Python Turtle" width="560" height="315" src="https://www.youtube.com/embed/_DbRac3d0lo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 Чтобы помочь Алексу жить в улье, ему нужно научиться строить соты! Мы будем использовать библиотеку `turtle` в Питоне, чтобы нарисовать соты для Алекса. Сота — это узор, который часто встречается в ульях. Представьте себе множество небольших плоских шестигранников, которые идеально прилегают друг к другу без зазоров. Эти шестигранники называются шестиугольниками.
 
 <img src="../media/turtle_honeycomb.png" alt="A photo of a honeycomb" width="25%" />
 
-## Использование Trinket
+## Использование Codebunga
 
-Сегодня вы будете использовать Trinket, чтобы научиться программировать на Python. Ниже приведено интерактивное окно (Trinket), которым вы будете пользоваться сегодня:
+Сегодня вы будете использовать Codebunga, чтобы научиться программировать на Python. Ниже приведено интерактивное окно (Codebunga), которым вы будете пользоваться сегодня:
 
-<iframe src="https://trinket.io/embed/python/d88b95c4c47a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Interactive Python Turtle code editor" src="https://codebunga.com/embed/fm7umyug" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Прежде чем начать, давайте сначала поймём, как работает это окно. Файл `main.py` содержит программу (код), то есть инструкции для выполнения компьютером. Нажав кнопку **run** (запуск), вы просите компьютер выполнить эти инструкции. Любые результаты выполнения кода будут показаны на нижнем белом экране во вкладке **result** (результаты). Сегодня наш результат — анимация того, как создаётся рисунок.
 

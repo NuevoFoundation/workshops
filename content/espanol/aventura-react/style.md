@@ -5,6 +5,8 @@ weight: 3
 draft: false
 ---
 
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/EelZ3_2GWLI" title="React CR - Aplicar style" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 **Esto es codigo CSS para la app, copialo y pegado en el archivo** `"style.css"`
 
 {{% notice info %}}

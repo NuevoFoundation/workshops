@@ -98,4 +98,4 @@ Comienza con la lista de frutas que aparece abajo. Imprime la lista de frutas y,
 frutas = ['naranja', 'kiwi', 'banana', 'manzana', 'mango', 'limón']
 ```
 
-<iframe src="https://trinket.io/embed/python/b238d85d0d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/f25jnzdr" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

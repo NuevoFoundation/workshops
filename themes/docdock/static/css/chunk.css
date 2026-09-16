@@ -76,6 +76,10 @@
   color: #fff !important;
   text-decoration: none;
 }
+.footer-pics:focus-visible {
+  outline: 3px solid #fcc600;
+  outline-offset: 5px;
+}
 .App-footer {
   background-color: #29293c;
   height: 260px;

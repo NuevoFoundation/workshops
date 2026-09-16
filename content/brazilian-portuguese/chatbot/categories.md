@@ -8,6 +8,7 @@ weight: 6
 A unidade básica do AIML é a **categoria**. Uma categoria consiste em um padrão e um template. O **padrão** é o que o usuário diz ao bot. O **template** é a resposta que o bot dá ao usuário.
 
 Olhando para o exemplo a seguir, podemos ver que o padrão é "OLÁ" e o template é "Olá, Mundo!". Quando o usuário diz "OLÁ", o bot responderá com "Olá, Mundo!". Note que a correspondência de padrões não diferencia maiúsculas de minúsculas, então o bot responderá a "olá", "OLÁ", "Olá" e "OlÁ" da mesma maneira.
+<img src="../img/chat_persons_robot.png" alt="Ilustração de pessoas se comunicando com um robô chatbot" width="20%"/>
 
 ```
 <category>

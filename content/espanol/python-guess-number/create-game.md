@@ -8,10 +8,10 @@ weight: 2
 
 Este juego utilizará algunos de los conceptos que aprendiste en la sección de Conceptos Básicos de Python.
 Necesitarás saber cómo usar los siguientes conceptos. Si no estás familiarizado con alguno de estos, por favor revisa la sección correspondiente.
-- <a href="../../python-basics/loops" target="_blank">Bucles While</a>
-- <a href="../../python-basics/python-console/writing-to-console" target="_blank">Escribir en la consola</a>
-- <a href="../../python-basics/python-console/reading-from-console" target="_blank">Leer desde la consola</a>
-- <a href="../../python-basics/conditional-statements" target="_blank">Declaraciones condicionales</a>
+- <a href="../../python-basics/conditional-statements-loops/loops/" target="_blank">Bucles While</a>
+- <a href="../../python-basics/basics/writing-to-console/" target="_blank">Escribir en la consola</a>
+- <a href="../../python-basics/basics/reading-from-console/" target="_blank">Leer desde la consola</a>
+- <a href="../../python-basics/conditional-statements-loops/conditional-statements/" target="_blank">Declaraciones condicionales</a>
 - <a href="/python-guess-number/random/" target="_blank">Números aleatorios</a>
 
 Necesitarás programar este juego para que genere un número aleatoriamente.
@@ -27,4 +27,4 @@ Dentro del bucle `while`, puedes usar condicionales para verificar si el jugador
 
 Recuerda usar los comentarios como guía; o intenta eliminar los comentarios e intenta resolverlo por tu cuenta. :)
 
-<iframe src="https://trinket.io/embed/python/f35f662d6e18" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/z5dnmnnv" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

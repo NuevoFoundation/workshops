@@ -13,7 +13,7 @@ happy = True
 ```
 单击运行. 
 
-![Screenshot of what variables example looks like in replit](../../img/variables.png "image of how variables look in replit") 
+![Screenshot of what the variables example looks like in Codebunga](../../img/variables.png "Image of how variables look in Codebunga")
 
 请注意，变量不会被打印到控制台。相反，变量只是将字符串、数字或布尔值保存到计算机的内存中。我们可以在其他语句中使用这些变量。例如，以下代码会将 `"Hello Nuevo Foundation"` 打印到控制台：
 
@@ -71,4 +71,4 @@ Python 是一种动态类型语言，这意味着与 Java 等语言不同，在�
 
 {{% /notice %}}
 
-<iframe src="https://trinket.io/embed/python/b238d85d0d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/eceyb8yx" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

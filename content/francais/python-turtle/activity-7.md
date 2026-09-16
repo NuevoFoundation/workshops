@@ -19,4 +19,4 @@ Dans cet exemple, le cercle fait 40 pixels de large et il est tracé dans le sen
 
 En utilisant ces informations, créez une nouvelle fonction appelée `figure_8()` qui dessine un chiffre 8.
 
-<iframe src="https://trinket.io/embed/python/e87cb9f3b9" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Interactive Python Turtle code editor for drawing a figure eight" src="https://codebunga.com/embed/4we8rxu9" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

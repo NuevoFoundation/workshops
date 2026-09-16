@@ -5,6 +5,8 @@ weight: 6
 draft: false
 ---
 
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/JDAuuQ12vEY" title="React CR - Actividad 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 ¿Sabes que tan importante es el café en Costa Rica?
 
 El café de Costa Rica es reconocido mundialmente por su alta calidad, gracias a la combinación de suelos volcánicos fértiles, un clima ideal y el cultivo exclusivo de granos de Arábica. El país prohíbe el cultivo de la variedad Robusta para garantizar un producto suave y equilibrado. El café ha sido históricamente vital para la economía y la cultura del país, y se cultiva en diversas regiones, incluyendo Tarrazú, que es una de las más famosas.
