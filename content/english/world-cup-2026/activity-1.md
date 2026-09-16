@@ -1,13 +1,17 @@
 ---
 title: "Activity 1: Build the Team Sheet"
-date: 2026-09-15
+date: 2026-09-16
 draft: false
 weight: 3
 ---
 
 ## Kickoff: meet the finalists
 
-Before a match begins, the announcer needs the names of the teams and captain. A **variable** is a named place where a program remembers information. The value to the right of `=` is stored in the variable named on the left.
+You have already seen some Python, so treat this activity as a quick refresher. Before a match begins, the announcer needs the names of the teams and captain. Your program stores those details in **variables**.
+
+Reviewing variables now gives the next activities information they can reuse. In Activity 2, you will place these variables inside formatted match messages and add score variables. In Activity 3, an `if`/`else` decision will compare those scores to announce the winner.
+
+As a reminder, a **variable** is a named place where a program remembers information. The value to the right of `=` is stored in the variable named on the left.
 
 ```python
 team_name = "Nuvi United"

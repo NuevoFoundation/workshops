@@ -41,6 +41,8 @@ By the final whistle, you will be able to:
 
 You should already know how to save a file and run a simple Python program. No online account or external coding service is required.
 
+Because you already have some exposure to Python, Activity 1 is a quick refresher rather than a first introduction to coding. It reviews variables so everyone starts with the same team data before Activity 2 uses those variables in formatted match messages and Activity 3 compares the score variables to decide the winner.
+
 ## Create your match file
 
 1. Open your text editor.
