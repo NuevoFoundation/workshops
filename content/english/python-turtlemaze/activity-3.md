@@ -33,7 +33,7 @@ just move the turtle using set_cursor() — no need to start from scratch!
 
 {{% /notice %}}
 
-<p style="text-align: center;"><iframe src="https://trinket.io/embed/python/98c243243850" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe src="https://codebunga.com/embed/a4i3d3pk" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe></p>
 
 #### 🌟 Challenge for You
 
@@ -41,7 +41,7 @@ Walls aren’t just barriers—they’re invitations to explore. Add twists, tur
 
 Here's a sample maze for your reference:
 
-<p style="text-align: center;"><iframe src="https://trinket.io/embed/python/180e09890a31" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe src="https://codebunga.com/embed/3s58emjh" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe></p>
 
 ### Step 2: It's time for Nuvi to hide in the maze
 

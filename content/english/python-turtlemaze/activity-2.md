@@ -101,7 +101,7 @@ Make your walls thicker or thinner by adjusting the pensize.
 
 Try creating extra paths — can you make a secret shortcut for Nuvi?
 
-<p style="text-align: center;"><iframe src="https://trinket.io/embed/python/7795f4e596a6" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe src="https://codebunga.com/embed/8sanyhiu" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe></p>
 
 Awesome work, Maze Master! 🏆
 You just created the stage for the adventure.

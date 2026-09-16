@@ -157,7 +157,7 @@ for i in range(3):
 
 Nuvo and Nuvi are happy to meet you! 💫
 
-<p style="text-align: center;"><iframe src="https://trinket.io/embed/python/b80421787b6b" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> </p>
+<p style="text-align: center;"><iframe src="https://codebunga.com/embed/6uad9aii" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> </p>
 
 Awesome! 🎉 You now know how to:
 
