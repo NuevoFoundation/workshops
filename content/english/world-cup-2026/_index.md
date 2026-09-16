@@ -2,7 +2,7 @@
 title: "World Cup 2026"
 description: "Use Python variables, formatted messages, and decisions to guide a soccer team through a championship match."
 date: 2026-09-16
-prereq: "Some exposure to Python"
+prereq: "Python Basics"
 language: "python"
 topics: ["games", "programming-basics"]
 difficulties: ["beginner"]
