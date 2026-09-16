@@ -1,0 +1,26 @@
+# NuevoFoundation/workshops code owners
+#
+# These owners are automatically requested for review when a PR
+# touches files in their area. See GitHub docs:
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owner — catches everything not matched below
+*                                       @ozhang22
+
+# Workshop content by language
+content/english/                        @ozhang22 @beagandica
+content/espanol/                        @ozhang22
+content/brazilian-portuguese/           @ozhang22
+content/korean/                         @ozhang22
+content/francais/                       @ozhang22
+content/simplified-chinese/             @ozhang22
+content/traditional-chinese/            @ozhang22
+
+# Hugo configuration and theme
+config.toml                             @ozhang22
+layouts/                                @ozhang22
+themes/                                 @ozhang22
+
+# CI, tooling, and repo infrastructure
+.github/                                @ozhang22 @beagandica
+tools/                                  @ozhang22 @beagandica

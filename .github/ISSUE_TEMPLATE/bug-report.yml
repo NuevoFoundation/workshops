@@ -1,0 +1,66 @@
+---
+name: Bug report
+description: Report a problem with a workshop (broken links, incorrect code, display issues)
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: workshop
+    attributes:
+      label: Workshop
+      description: Which workshop is affected?
+      options:
+        - web-basics (HTML/CSS)
+        - python-basics
+        - python-turtle
+        - python-earsketch
+        - python-pixel
+        - python-pong
+        - csharp-basics
+        - csharp-guess-the-word
+        - chatbot
+        - javascript-basics
+        - github-basics
+        - sql-workshop
+        - security-fundamentals
+        - security-phishing
+        - supply-chain-analytics
+        - Other (specify in description)
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      description: Which language version?
+      options:
+        - English
+        - Español
+        - Brazilian Portuguese
+        - Korean
+        - French
+        - German
+        - Simplified Chinese
+        - Traditional Chinese
+        - Kyrgyz
+        - All languages
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the problem. Include the page URL or file path if possible.
+      placeholder: "Example: The image on Activity 3 doesn't load. The alt text says 'Cannot load image'."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should happen?
+      description: What did you expect to see instead?
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain the problem.
