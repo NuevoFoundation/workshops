@@ -73,7 +73,7 @@ Patrick should say "Good Morning" between 0:00 - 11:59, "Good Afternoon" between
 2. Fill out the correct `boolean expression A` and `boolean expression B` to complete the program.
 3. Test your result by assigning the variable `currentHour` to numbers from 0 to 23:
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/T6AUdh" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/T6AUdh" title="Interactive C# conditional statements exercise" frameborder="0"></iframe>
 
 ## Repeat It Again: For-Loop, While-Loop
 
@@ -160,4 +160,4 @@ Console.WriteLine("Answer calculated in a while loop: " + total);
 
 Test this out below by clicking `Run` and write a `for` loop version that calculates the same thing! You should get the same answer!
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/ySFwK0" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/ySFwK0" title="Interactive C# loops exercise" frameborder="0"></iframe>

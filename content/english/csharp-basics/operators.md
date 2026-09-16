@@ -50,7 +50,7 @@ The add (`+`) operator is used on Strings as a concatenation operator. For examp
 ### Instructions
 1. Use the program below to practice using the arithmetic operators. Change the numbers to see the answers.
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/dUSTOt" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/dUSTOt" title="Interactive C# arithmetic operators exercise" frameborder="0"></iframe>
 
 ## Comparisons: Relational Operator
 
@@ -92,7 +92,7 @@ age == 3; // checks to see if the value of age is 3
 
 1. Use the program below to practice using the comparison operators. Change the numbers to see the answers.
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/tZs8tb" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/tZs8tb" title="Interactive C# comparison operators exercise" frameborder="0"></iframe>
 
 ## Exam Statistics!
 
@@ -139,4 +139,4 @@ Let's write it with the help of operators 🎵!
 
 {{% /notice %}}
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/mM7xbj" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/mM7xbj" title="Interactive C# exam statistics challenge" frameborder="0"></iframe>

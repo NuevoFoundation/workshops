@@ -14,7 +14,7 @@ Before we start, let's first understand how the window works. On the left side y
 
 Spend some time and get to know the tool below.
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/ccWNBp" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/ccWNBp" title="Interactive .NET Fiddle editor overview" frameborder="0"></iframe>
 
 ### Some tips on C#
 
