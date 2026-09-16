@@ -142,21 +142,6 @@ class WorkshopValidatorTests(unittest.TestCase):
 
         self.assertIn("workshop landing page must set hidden: false", messages)
 
-    def test_trinket_reference_is_marked_for_replacement(self):
-        temporary_directory, workshop = self.create_workshop()
-        self.addCleanup(temporary_directory.cleanup)
-        activity = workshop / "activity-1.md"
-        activity.write_text(
-            VALID_ACTIVITY
-            + '\n<iframe src="https://trinket.io/embed/python/example"></iframe>\n',
-            encoding="utf-8",
-        )
-
-        findings = validate_workshop.find_deprecated_ide_references([activity])
-
-        self.assertEqual(len(findings), 1)
-        self.assertIn("TODO-IDE-Replace", findings[0].message)
-
     def test_unsupported_taxonomy_tags_are_reported(self):
         temporary_directory, workshop = self.create_workshop()
         self.addCleanup(temporary_directory.cleanup)

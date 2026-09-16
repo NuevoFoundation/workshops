@@ -116,17 +116,14 @@ interaction style.
    activities and teach one main concept per activity.
 5. Write the landing page, every activity, and a complete hidden answer key.
 6. Provide a working starting point for every coding activity.
-7. Do not create new Trinket links or embeds. Treat every existing Trinket
-   reference as `TODO-IDE-Replace` until the supported editor migration is
-   implemented.
-8. Create original diagrams or other locally owned media when useful. Never
+7. Create original diagrams or other locally owned media when useful. Never
    copy copyrighted assets.
-9. Make examples personalizable and suitable for the requested age range.
+8. Make examples personalizable and suitable for the requested age range.
    Adapt facilitation notes and interaction patterns to the selected in-person
    or virtual delivery format.
-10. Run every code example. Test meaningful branches, not only syntax.
-11. Run `python tools/validate-workshop.py WORKSHOP_PATH`.
-12. Build the complete site with Hugo and inspect the generated workshop pages
+9. Run every code example. Test meaningful branches, not only syntax.
+10. Run `python tools/validate-workshop.py WORKSHOP_PATH`.
+11. Build the complete site with Hugo and inspect the generated workshop pages
     with Playwright. Open the Workshops tab, verify the workshop card appears,
     and confirm it remains visible when its difficulty, coding-language, and
     topic filters are selected.
@@ -174,7 +171,6 @@ interaction style.
   are structural and pedagogical references only.
 - Do not introduce copyrighted media, secrets, student personal data, or
   unreviewed external scripts.
-- Do not create new Trinket integrations.
 - Do not silently replace the requested coding language, delivery format, or
   learning outcomes because a preferred tool is unavailable.
 - Do not install system-wide dependencies or create hosted-service accounts
