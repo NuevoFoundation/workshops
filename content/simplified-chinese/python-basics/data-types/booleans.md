@@ -5,9 +5,9 @@ draft: false
 weight: 3
 ---
 
-布尔值是<font color="blue">True</font>（真）或<font color="blue">False</font>（假）的语句。与字符串或数字不同，<b>布尔值</b> 存储了关于真假的陈述：一件事物是真还是假？
+布尔值是<font color="#005a9c">True</font>（真）或<font color="#005a9c">False</font>（假）的语句。与字符串或数字不同，<b>布尔值</b> 存储了关于真假的陈述：一件事物是真还是假？
 
-例如，如果我说：“你是机器人”，一个布尔值可以存储这个陈述是否为真。在这种情况下，由于你不是机器人（希望如此！），我们将存储<font color="blue">False</font>。
+例如，如果我说：“你是机器人”，一个布尔值可以存储这个陈述是否为真。在这种情况下，由于你不是机器人（希望如此！），我们将存储<font color="#005a9c">False</font>。
 
 关于以下问题，你的布尔值答案是什么？
 
@@ -33,7 +33,7 @@ print(5 + 8 < 10)
 print(((3 + 5) * 6) == (65 - 17))
 ```
 
-第一个陈述应返回<font color="blue">False</font>。第二个应返回<font color="blue">True</font>。
+第一个陈述应返回<font color="#005a9c">False</font>。第二个应返回<font color="#005a9c">True</font>。
 
 ![alt text](../../img/booleans.png "image of the above example showing the first is False and the second is true") 
 
@@ -43,7 +43,7 @@ print(((3 + 5) * 6) == (65 - 17))
 - 54 < (10 + 32)
 - (37 / 5) != 7
 - "Hello" + "World" == "Hello World"
-- <font color="blue">False</font> == <font color="blue">False</font>
+- <font color="#005a9c">False</font> == <font color="#005a9c">False</font>
 
 ### 小挑战三 
 尝试创建自己的表达式！
@@ -54,24 +54,24 @@ print(((3 + 5) * 6) == (65 - 17))
 
 表达式  | 结果
 ------------|----------
-<font color="blue">True</font> and <font color="blue">True</font>  | <font color="blue">True</font> 
-<font color="blue">True</font>  and <font color="blue">False</font> | <font color="blue">False</font>
-<font color="blue">False</font> and <font color="blue">True</font> | <font color="blue">False</font>
-<font color="blue">False</font> and <font color="blue">False</font> | <font color="blue">False</font>
-<font color="blue">True</font>  or <font color="blue">True</font>  | <font color="blue">True</font> 
-<font color="blue">True</font>  or <font color="blue">False</font> | <font color="blue">True</font> 
-<font color="blue">False</font> or <font color="blue">True</font>  | <font color="blue">True</font> 
-<font color="blue">False</font>  or <font color="blue">False</font> | <font color="blue">False</font>
+<font color="#005a9c">True</font> and <font color="#005a9c">True</font>  | <font color="#005a9c">True</font>
+<font color="#005a9c">True</font>  and <font color="#005a9c">False</font> | <font color="#005a9c">False</font>
+<font color="#005a9c">False</font> and <font color="#005a9c">True</font> | <font color="#005a9c">False</font>
+<font color="#005a9c">False</font> and <font color="#005a9c">False</font> | <font color="#005a9c">False</font>
+<font color="#005a9c">True</font>  or <font color="#005a9c">True</font>  | <font color="#005a9c">True</font>
+<font color="#005a9c">True</font>  or <font color="#005a9c">False</font> | <font color="#005a9c">True</font>
+<font color="#005a9c">False</font> or <font color="#005a9c">True</font>  | <font color="#005a9c">True</font>
+<font color="#005a9c">False</font>  or <font color="#005a9c">False</font> | <font color="#005a9c">False</font>
 
 总结一下，AND要求两个布尔表达式都为true，而OR只需要其中一个布尔表达式为true。以下是一些更多的例子：
 
-- (5 < 8) and (9 != 10) 生成 <font color="blue">True</font> 因为5小于8，而9不等于10。
-- (8 <= 2) or ("h" + "e" == "he") 生成 <font color="blue">True</font> 因为"h" + "e"的结果是"he"，即使8不小于或等于2。
-- (6 != 2 * 3) or (8 < 2 * 4) 生成 <font color="blue">False</font> 因为6不等于2 * 3，8小于2 * 4，都生成 <font color="blue">False</font>.
+- (5 < 8) and (9 != 10) 生成 <font color="#005a9c">True</font> 因为5小于8，而9不等于10。
+- (8 <= 2) or ("h" + "e" == "he") 生成 <font color="#005a9c">True</font> 因为"h" + "e"的结果是"he"，即使8不小于或等于2。
+- (6 != 2 * 3) or (8 < 2 * 4) 生成 <font color="#005a9c">False</font> 因为6不等于2 * 3，8小于2 * 4，都生成 <font color="#005a9c">False</font>.
 
 #### 以下这些表达式会产生什么结果?
 
 - (11-2 < 10) and (7+3 > 10)
-- (<font color="blue">True</font> or 3 < 1) and (<font color="blue">False</font> or 3>1)
+- (<font color="#005a9c">True</font> or 3 < 1) and (<font color="#005a9c">False</font> or 3>1)
 
 <iframe title="以下这些表达式会产生什么结果? - Trinket" src="https://trinket.io/embed/python/b238d85d0d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

@@ -94,7 +94,7 @@ sectionA(1,9)
 
 {{% notice tip %}}
 
-首先复制 triple 函数的结构。更改 triple 函数的名称，并将参数 number 替换为 number1 和 number2，用逗号分隔。number1 和 number2 都应为<font color="blue">整数(int)</font>，不要忘记将它们相加！
+首先复制 triple 函数的结构。更改 triple 函数的名称，并将参数 number 替换为 number1 和 number2，用逗号分隔。number1 和 number2 都应为<font color="#005a9c">整数(int)</font>，不要忘记将它们相加！
 
 {{% /notice %}}
 
@@ -102,7 +102,7 @@ sectionA(1,9)
 
 <pre>
 value2 = add(2, 3)
-<font color="blue">print</font>("This should print 5: " + str(value2))
+<font color="#005a9c">print</font>("This should print 5: " + str(value2))
 </pre>
 
 ### 小挑战三

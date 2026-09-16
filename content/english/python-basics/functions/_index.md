@@ -100,7 +100,7 @@ Let’s try to create some simple math functions. Create a function called add t
 
 {{% notice tip %}}
 
-First copy the structure of the triple function. Change the triple function name, and replace the parameter number with number1 and number2, separated with a comma. Both number1 and number2 should be <font color="blue">int</font>, and don’t forget to add number1 and number2 together!
+First copy the structure of the triple function. Change the triple function name, and replace the parameter number with number1 and number2, separated with a comma. Both number1 and number2 should be <font color="#005a9c">int</font>, and don’t forget to add number1 and number2 together!
 
 {{% /notice %}}
 
@@ -108,7 +108,7 @@ To check that your function is working correctly, add the following code after y
 
 <pre>
 value2 = add(2, 3)
-<font color="blue">print</font>("This should print 5: " + str(value2))
+<font color="#005a9c">print</font>("This should print 5: " + str(value2))
 </pre>
 
 ### Challenge 3

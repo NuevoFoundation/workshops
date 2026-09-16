@@ -44,7 +44,7 @@ Você pode imprimir esta declaração? `"527 vezes 199 é: __"`
 
 Você preencherá o espaço em branco com a resposta sobre o que é `(527 * 199)`. Se quiser imprimir uma string e um número juntos, primeiro você precisa converter o número em uma string.
 
-Aqui está um exemplo: <font color="blue">print</font>(`"Olá, Mundo!"` + str(5))
+Aqui está um exemplo: <font color="#005a9c">print</font>(`"Olá, Mundo!"` + str(5))
 
 {{% notice tip %}}
 
@@ -67,7 +67,7 @@ Veja como imprimir um número aleatório entre 1 (inclusive) e 10 (inclusive):
 
 Quer saber mais? Peça ajuda ou dê uma olhada na internet! O melhor amigo de todo programador é um mecanismo de busca!
 
-Em particular, tente entender o que significam as palavras <font color="blue">from</font> e <font color="blue">import</font>. Voltaremos a estas palavras mais tarde durante o projeto.
+Em particular, tente entender o que significam as palavras <font color="#005a9c">from</font> e <font color="#005a9c">import</font>. Voltaremos a estas palavras mais tarde durante o projeto.
 
 {{% /notice %}}
 

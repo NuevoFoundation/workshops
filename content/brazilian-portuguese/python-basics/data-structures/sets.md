@@ -9,7 +9,7 @@ Assim como uma lista, um conjunto é uma coleção de itens. A diferença entre 
 <img src="../../img/sets_example.jpg" width="500" alt="Imagem de dois círculos com xadrez e tênis de mesa no círculo esquerdo, taco de futebol e críquete no círculo direito e basquete e badminton em ambos os círculos onde eles se sobrepõem" />
 </a>
 
-Na imagem acima, o lado esquerdo representa **<font color="red">Jogos internos</font>** (xadrez e tênis de mesa), enquanto o lado direito representa **<font color="green">Jogos externos</font>** (Críquete e Futebol). O meio representa a parte comum de ambos os conjuntos. Estes são os jogos que podem ser jogados tanto em ambientes internos quanto externos (basquete e badminton). A parte do meio também é conhecida como interseção entre dois conjuntos.
+Na imagem acima, o lado esquerdo representa **<font color="#b00020">Jogos internos</font>** (xadrez e tênis de mesa), enquanto o lado direito representa **<font color="#2e6b2e">Jogos externos</font>** (Críquete e Futebol). O meio representa a parte comum de ambos os conjuntos. Estes são os jogos que podem ser jogados tanto em ambientes internos quanto externos (basquete e badminton). A parte do meio também é conhecida como interseção entre dois conjuntos.
 
 {{% notice tip %}}
 Um conjunto é criado usando a função `set()` ou colocando todos os elementos entre chaves.

@@ -92,7 +92,7 @@ Intentemos crear algunas funciones matemáticas simples. Crea una función llama
 
 {{% notice tip %}}
 
-Primero copia la estructura de la función triple. Cambia el nombre de la función, y reemplaza el parámetro número por numero1 y numero2, separados por una coma. Tanto numero1 como numero2 deben ser <font color="blue">int</font>, y no olvides sumar numero1 y numero2 juntos.
+Primero copia la estructura de la función triple. Cambia el nombre de la función, y reemplaza el parámetro número por numero1 y numero2, separados por una coma. Tanto numero1 como numero2 deben ser <font color="#005a9c">int</font>, y no olvides sumar numero1 y numero2 juntos.
 
 {{% /notice %}}
 
@@ -100,7 +100,7 @@ Para comprobar que tu función funciona correctamente, añade el siguiente códi
 
 <pre>
 value2 = add(2, 3)
-<font color="blue">print</font>("Esto debería imprimir 5: " + str(value2))
+<font color="#005a9c">print</font>("Esto debería imprimir 5: " + str(value2))
 </pre>
 
 ### Desafío 3

@@ -44,7 +44,7 @@ print(24 * (8-3) / 6)   #输出 20.0
 
 你可以用(527 * 199)的答案来填写空白处。如果要同时打印字符串和数字，必须首先将数字转换为字符串。
 
-以下是一个示例： <font color="blue">print</font>(`"Hello, World!"` + str(5))
+以下是一个示例： <font color="#005a9c">print</font>(`"Hello, World!"` + str(5))
 
 {{% notice tip %}}
 
@@ -67,7 +67,7 @@ print(24 * (8-3) / 6)   #输出 20.0
 
 想要了解更多？寻求帮助或在互联网上搜索！每个程序员的最佳朋友都是搜索引擎！
 
-尤其是尝试理解<font color="blue">from</font>和<font color="blue">import</font>这两个词的含义。在以后的项目中，我们将再次回到这些词。
+尤其是尝试理解<font color="#005a9c">from</font>和<font color="#005a9c">import</font>这两个词的含义。在以后的项目中，我们将再次回到这些词。
 
 {{% /notice %}}
 
