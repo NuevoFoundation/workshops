@@ -5,7 +5,7 @@ weight: 2
 draft: false
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/uSQGtnlot2s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe title="Основы - Рисуем цветную линию - YouTube video" width="560" height="315" src="https://www.youtube.com/embed/uSQGtnlot2s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 Прежде чем Алекс сможет научиться строить улей, он должен научиться рисовать цветные линии. Мы добавим код в окно Codebunga ниже, и сделаем это в двух частях.
 

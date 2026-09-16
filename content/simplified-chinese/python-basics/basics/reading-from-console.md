@@ -57,4 +57,4 @@ print("Hello " + value + "!")
 
 {{% /notice %}}
 
-<iframe src="https://codebunga.com/embed/wamnbqtn" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="小挑战 - Codebunga" src="https://codebunga.com/embed/wamnbqtn" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

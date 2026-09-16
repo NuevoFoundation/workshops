@@ -44,7 +44,7 @@ Can you print out this statement? `"527 times 199 is: __"`
 
 You will fill in the blank with the answer of what `(527 * 199)` is. If you want to print a string and a number together, you first have to convert the number into a string. 
 
-Here's an example: <font color="blue">print</font>(`"Hello, World!"` + str(5))
+Here's an example: <font color="#005a9c">print</font>(`"Hello, World!"` + str(5))
 
 {{% notice tip %}}
 
@@ -67,8 +67,8 @@ Here is how to print a random number between 1 (inclusive) and 10 (inclusive):
 
 Want to know more? Ask for help or poke around on the internet! Every coder's best friend is a search engine! 
 
-In particular, try understanding what the <font color="blue">from</font> and the <font color="blue">import</font> words mean. We will come back to these words later during the project. 
+In particular, try understanding what the <font color="#005a9c">from</font> and the <font color="#005a9c">import</font> words mean. We will come back to these words later during the project.
 
 {{% /notice %}}
 
-<iframe src="https://codebunga.com/embed/nuthi3gj" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Fun Fact: Random Numbers - Codebunga" src="https://codebunga.com/embed/nuthi3gj" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

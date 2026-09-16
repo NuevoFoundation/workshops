@@ -76,7 +76,7 @@ Go through inner while loop, x is 2 y is 4
 ### 小挑战一
 尝试更改嵌套while循环中的整数并预测输出结果。然后运行代码并观察输出结果。它们是否与您的预测相符？
 
-<iframe src="https://codebunga.com/embed/wgwzwt4z" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="小挑战一 - Codebunga" src="https://codebunga.com/embed/wgwzwt4z" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 <br/><br/>
 <hr/>
 
@@ -126,13 +126,13 @@ for n in range(0, 3):
 尝试更改嵌套for循环中的整数并预测输出结果。
 然后运行代码并观察输出结果。它们是否与预测相符？
 
-<iframe src="https://codebunga.com/embed/wgwzwt4z6" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="小挑战二 - Codebunga" src="https://codebunga.com/embed/wgwzwt4z6" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 #### 提问
 尝试初始化n和m。这会改变我们的嵌套循环的输出吗？为什么？
 然后运行代码并观察输出结果。它们是否与预测相符？
 
-<iframe src="https://codebunga.com/embed/wgwzwt4z" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="提问 - Codebunga" src="https://codebunga.com/embed/wgwzwt4z" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 #### 提问
 在本节课结束时，让我们思考以下问题：

@@ -72,4 +72,4 @@ Pista: Si estás atascado, considera usar el operador `+`. Recuerda que puedes u
 
 {{% /notice %}}
 
-<iframe src="https://codebunga.com/embed/eceyb8yx" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Desafío - Codebunga" src="https://codebunga.com/embed/eceyb8yx" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

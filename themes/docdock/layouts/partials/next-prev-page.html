@@ -83,14 +83,14 @@
             <div class="next-prev-wrapper-div">
             {{- if (not $isFirstPageOfWorkshop) -}}
                 {{- with ($.Scratch.Get "prevPage") -}}
-                    {{ partial "next-prev-button" (dict "subsection" .Title "Permalink" .Permalink "isNext" false)}}
+                    {{ partial "next-prev-button" (dict "subsection" .Title "Permalink" .RelPermalink "isNext" false)}}
                 {{- end -}}
             {{- end -}}
             </div>
             <div class="next-prev-wrapper-div">
             {{- if (not $isLastPageOfWorkshop) -}}
                 {{- with ($.Scratch.Get "nextPage") -}}
-                    {{ partial "next-prev-button" (dict "subsection" .Title "Permalink" .Permalink "isNext" true)}} 
+                    {{ partial "next-prev-button" (dict "subsection" .Title "Permalink" .RelPermalink "isNext" true)}}
                 {{- end -}}
             {{- end -}}
             </div>

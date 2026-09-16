@@ -84,7 +84,7 @@ En este ejemplo, `sectionA` será llamada con el valor `startMeasure` como `1` y
 **Desafío:** Crea una función llamada addNumbers que tome 2 parámetros llamados number1 y number2 e imprima la suma en la consola. Llama a la función addNumbers con los parámetros 3 y 5.
 ¿Qué se imprime en la consola?
 
-<iframe src="https://codebunga.com/embed/cgv9gk32" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Desafío 1 - ¡Crea tu propia función! - Codebunga" src="https://codebunga.com/embed/cgv9gk32" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### Desafío 2
 
@@ -92,7 +92,7 @@ Intentemos crear algunas funciones matemáticas simples. Crea una función llama
 
 {{% notice tip %}}
 
-Primero copia la estructura de la función triple. Cambia el nombre de la función, y reemplaza el parámetro número por numero1 y numero2, separados por una coma. Tanto numero1 como numero2 deben ser <font color="blue">int</font>, y no olvides sumar numero1 y numero2 juntos.
+Primero copia la estructura de la función triple. Cambia el nombre de la función, y reemplaza el parámetro número por numero1 y numero2, separados por una coma. Tanto numero1 como numero2 deben ser <font color="#005a9c">int</font>, y no olvides sumar numero1 y numero2 juntos.
 
 {{% /notice %}}
 
@@ -100,7 +100,7 @@ Para comprobar que tu función funciona correctamente, añade el siguiente códi
 
 <pre>
 value2 = add(2, 3)
-<font color="blue">print</font>("Esto debería imprimir 5: " + str(value2))
+<font color="#005a9c">print</font>("Esto debería imprimir 5: " + str(value2))
 </pre>
 
 ### Desafío 3

@@ -72,4 +72,4 @@ Hint: If you're stuck, consider using the `+` operator. Remember that you can us
 
 {{% /notice %}}
 
-<iframe src="https://codebunga.com/embed/eceyb8yx" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Challenge - Codebunga" src="https://codebunga.com/embed/eceyb8yx" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

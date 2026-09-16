@@ -10,7 +10,7 @@ weight: 3
 <img src="../../img/sets_example.jpg" width="500" alt="Picture of two circles with chess and ping pong in the left circle, soccer and cricket bat in the right circle, and basketball and badminton in both circles where they overlap" />
 </a>
 
-上图中，左边表示 **<font color="red">室内游戏</font>**（国际象棋和乒乓球），右边表示 **<font color="green">室外游戏</font>**（板球和足球）。中间表示这两个集合的共同部分。这些是既可以在室内又可以在室外玩的游戏（篮球和羽毛球）。中间部分也称为两个集合之间的交集。
+上图中，左边表示 **<font color="#b00020">室内游戏</font>**（国际象棋和乒乓球），右边表示 **<font color="#2e6b2e">室外游戏</font>**（板球和足球）。中间表示这两个集合的共同部分。这些是既可以在室内又可以在室外玩的游戏（篮球和羽毛球）。中间部分也称为两个集合之间的交集。
 
 {{% notice tip %}}
 可以使用 `set()` 函数或将所有元素放在一对花括号中来创建集合。
@@ -146,4 +146,4 @@ set(["Table Tennis", "Basketball", "Badminton", "Carrom"])
 fruits = ['orange', 'kiwi', 'banana', 'apple', 'mango', 'lemon']
 ```
 
-<iframe src="https://codebunga.com/embed/i7wzei96" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="小挑战 - Codebunga" src="https://codebunga.com/embed/i7wzei96" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

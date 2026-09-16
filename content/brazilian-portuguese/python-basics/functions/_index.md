@@ -91,7 +91,7 @@ figura para um exemplo:
 **Desafio:** Crie uma função chamada addNumbers que receba 2 parâmetros chamados número1 e número2 e imprima a soma no console. Chame a função addNumbers com os parâmetros 3 e 5.
 O que está impresso no console?
 
-<iframe src="https://codebunga.com/embed/cgv9gk32" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Desafio 1 – Crie sua própria função! - Codebunga" src="https://codebunga.com/embed/cgv9gk32" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### Desafio 2
 
@@ -99,7 +99,7 @@ Vamos tentar criar algumas funções matemáticas simples. Crie uma função cha
 
 {{% notice tip %}}
 
-Primeiro copie a estrutura da função tripla. Altere o nome da função tripla e substitua o número do parâmetro por número1 e número2, separados por vírgula. Tanto o número1 quanto o número2 devem ser <font color="blue">int</font> e não se esqueça de adicionar o número1 e o número2 juntos!
+Primeiro copie a estrutura da função tripla. Altere o nome da função tripla e substitua o número do parâmetro por número1 e número2, separados por vírgula. Tanto o número1 quanto o número2 devem ser <font color="#005a9c">int</font> e não se esqueça de adicionar o número1 e o número2 juntos!
 
 {{% /notice %}}
 
@@ -107,7 +107,7 @@ Para verificar se sua função está funcionando corretamente, adicione o seguin
 
 <pre>
 value2 = add(2, 3)
-<font color="blue">print</font>("Isso deve imprimir 5: " + str(value2))
+<font color="#005a9c">print</font>("Isso deve imprimir 5: " + str(value2))
 </pre>
 
 ### Desafio 3

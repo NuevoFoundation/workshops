@@ -23,7 +23,7 @@ print("¡Hola, Mundo!")
 
 ![alt text](../../img/print_es.png "¡Hola, Mundo! en python!")
 
-<iframe src="https://codebunga.com/embed/fcrtud9r" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Desafío 1 - Codebunga" src="https://codebunga.com/embed/fcrtud9r" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 {{% notice tip %}}
 ### Uso de " al imprimir
@@ -39,7 +39,7 @@ Vuelve arriba y prueba imprimiendo cosas diferentes.
 2. Añade otro `print` debajo de la línea actual para imprimir una segunda frase debajo de la primera.
 3. Pulsa **run** para ver si se imprimen dos frases.
 
-<iframe src="https://codebunga.com/embed/fcrtud9r" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Desafío 2 - Codebunga" src="https://codebunga.com/embed/fcrtud9r" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Usaremos la impresión mucho en las lecciones posteriores, así que asegúrate de entender esto antes de continuar.
 

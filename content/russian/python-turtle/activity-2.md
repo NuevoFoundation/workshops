@@ -5,7 +5,7 @@ weight: 4
 draft: false
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/kGhMGdqqV-w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe title="Задание 2 - Упрощение кода с помощью циклов - YouTube video" width="560" height="315" src="https://www.youtube.com/embed/kGhMGdqqV-w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 Отлично! Вы нарисовали квадрат. Но обратите внимание, что мы пишем одни и те же строки снова и снова! Нам пришлось повторить инструкции «нарисовать линию» и «повернуть влево» 4 раза. Разве не было бы здорово дать инструкцию один раз и сказать программе повторить её 4 раза? Не волнуйтесь — это возможно!
 

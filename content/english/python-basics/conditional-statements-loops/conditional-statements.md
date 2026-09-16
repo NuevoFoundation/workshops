@@ -71,6 +71,6 @@ else:
 
 Let’s put together everything we've learned so far! Let’s see if we can create a program that prompts the user for their name. The user can write their name into the console. Then the computer can decide if their name is equal to your name and print out a response. Else, print out a different response!
 
-<iframe src="https://codebunga.com/embed/y8b9pj44" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Challenge - Codebunga" src="https://codebunga.com/embed/y8b9pj44" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Hint: Try talking out the different paths a computer can take! Make sure to identify what the if and else conditions are.

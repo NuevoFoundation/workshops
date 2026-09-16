@@ -10,7 +10,7 @@ Al igual que una lista, un conjunto es una colección de elementos. La diferenci
 <img src="../../img/sets_example.jpg" width="500" alt="Picture of two circles with chess and ping pong in the left circle, soccer and cricket bat in the right circle, and basketball and badminton in both circles where they overlap" />
 </a>
 
-En la imagen de arriba, el lado izquierdo representa **<font color="red">Juegos de Interior</font>** (Ajedrez y Tenis de Mesa) mientras que el lado derecho representa los **<font color="green">Juegos de Exterior</font>** (Críquet y Fútbol). La parte central representa la parte común de ambos conjuntos. Estos son los juegos que pueden jugarse tanto en interiores como en exteriores (Baloncesto y Bádminton). La parte central también se conoce como la intersección entre dos conjuntos.
+En la imagen de arriba, el lado izquierdo representa **<font color="#b00020">Juegos de Interior</font>** (Ajedrez y Tenis de Mesa) mientras que el lado derecho representa los **<font color="#2e6b2e">Juegos de Exterior</font>** (Críquet y Fútbol). La parte central representa la parte común de ambos conjuntos. Estos son los juegos que pueden jugarse tanto en interiores como en exteriores (Baloncesto y Bádminton). La parte central también se conoce como la intersección entre dos conjuntos.
 
 {{% notice tip %}}
 Un conjunto se crea usando la función `set()` o colocando todos los elementos entre un par de llaves.
@@ -149,4 +149,4 @@ Empieza con la lista de frutas a continuación. Imprime la lista de frutas y par
 frutas = ['naranja', 'kiwi', 'banana', 'manzana', 'mango', 'limón']
 ```
 
-<iframe src="https://codebunga.com/embed/i7wzei96" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Desafío - Codebunga" src="https://codebunga.com/embed/i7wzei96" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

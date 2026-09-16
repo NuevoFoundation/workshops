@@ -7,7 +7,7 @@ weight: 1
 
 Hoy usaremos Codebunga para aprender sobre Python. Aquí tienes un ejemplo de una ventana interactiva de Codebunga que utilizarás hoy.
 
-<iframe src="https://codebunga.com/embed/fcrtud9r" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Empezando con Codebunga - Codebunga" src="https://codebunga.com/embed/fcrtud9r" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Antes de comenzar, entendamos primero cómo funciona la ventana. El archivo `main.py` contiene código, o instrucciones para que la computadora ejecute. Todo lo que resulte de ejecutar el código se mostrará en el lado derecho. Esa ventana que muestra el resultado se llama consola.
 

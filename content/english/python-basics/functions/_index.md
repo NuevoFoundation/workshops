@@ -3,7 +3,7 @@ title: "Functions"
 weight: 5
 draft: false
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0207zoiJ6s8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="Functions - YouTube video" width="560" height="315" src="https://www.youtube.com/embed/0207zoiJ6s8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Functions** are a way to organize pieces of similar or repeating code. Rather than having to constantly type out the same code, we can put the desired code in a function and call it whenever we want to use it.
 
@@ -92,7 +92,7 @@ figure for an example:
 **Challenge:** Create a function called addNumbers that takes 2 parameters called number1 & number2 and prints the sum on console. Call the function addNumbers with parameters 3 & 5.
 What is printed on the console?
 
-<iframe src="https://codebunga.com/embed/cgv9gk32" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Challenge 1 - Create your own function! - Codebunga" src="https://codebunga.com/embed/cgv9gk32" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### Challenge 2
 
@@ -100,7 +100,7 @@ Let’s try to create some simple math functions. Create a function called add t
 
 {{% notice tip %}}
 
-First copy the structure of the triple function. Change the triple function name, and replace the parameter number with number1 and number2, separated with a comma. Both number1 and number2 should be <font color="blue">int</font>, and don’t forget to add number1 and number2 together!
+First copy the structure of the triple function. Change the triple function name, and replace the parameter number with number1 and number2, separated with a comma. Both number1 and number2 should be <font color="#005a9c">int</font>, and don’t forget to add number1 and number2 together!
 
 {{% /notice %}}
 
@@ -108,7 +108,7 @@ To check that your function is working correctly, add the following code after y
 
 <pre>
 value2 = add(2, 3)
-<font color="blue">print</font>("This should print 5: " + str(value2))
+<font color="#005a9c">print</font>("This should print 5: " + str(value2))
 </pre>
 
 ### Challenge 3

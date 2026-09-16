@@ -5,7 +5,7 @@ weight: 4
 draft: false
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/kGhMGdqqV-w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe title="Activité 2 - Simplifier le code avec des boucles - YouTube video" width="560" height="315" src="https://www.youtube.com/embed/kGhMGdqqV-w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 Super ! Vous avez dessiné un carré. Mais remarquez que nous écrivons les mêmes lignes encore et encore ! Nous avons dû répéter les instructions pour dessiner une ligne et tourner à gauche 4 fois. Ne serait-ce pas génial si nous pouvions donner les instructions une fois et dire au programme de les répéter 4 fois ? Ne vous inquiétez pas, nous pouvons le faire !
 

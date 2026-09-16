@@ -44,7 +44,7 @@ Vamos a intentar averiguar las respuestas de lo siguiente usando Python. Intenta
 
 Rellenarás el espacio en blanco con la respuesta de cuánto es `(527 * 199)`. Si quieres imprimir una cadena y un número juntos, primero tienes que convertir el número en una cadena.
 
-Aquí tienes un ejemplo: <font color="blue">print</font>(`"¡Hola, Mundo!"` + str(5))
+Aquí tienes un ejemplo: <font color="#005a9c">print</font>(`"¡Hola, Mundo!"` + str(5))
 
 {{% notice tip %}}
 
@@ -67,8 +67,8 @@ Así es como se imprime un número aleatorio entre 1 (inclusive) y 10 (inclusive
 
 ¿Quieres saber más? ¡Pide ayuda o busca en internet! El mejor amigo de todo programador es un motor de búsqueda.
 
-En particular, intenta entender qué significan las palabras <font color="blue">from</font> y <font color="blue">import</font>. Volveremos a estas palabras más adelante durante el proyecto.
+En particular, intenta entender qué significan las palabras <font color="#005a9c">from</font> y <font color="#005a9c">import</font>. Volveremos a estas palabras más adelante durante el proyecto.
 
 {{% /notice %}}
 
-<iframe src="https://codebunga.com/embed/nuthi3gj" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Dato Curioso: Números Aleatorios - Codebunga" src="https://codebunga.com/embed/nuthi3gj" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

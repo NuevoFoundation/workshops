@@ -5,9 +5,9 @@ draft: false
 weight: 3
 ---
 
-Booleanos são declarações <font color="blue">True</font> ou <font color="blue">False</font> (Verdadeiro ou Falso). Ao contrário de strings ou números, os <b>booleanos</b> armazenam declarações de verdade: o que estou dizendo é verdadeiro ou falso?
+Booleanos são declarações <font color="#005a9c">True</font> ou <font color="#005a9c">False</font> (Verdadeiro ou Falso). Ao contrário de strings ou números, os <b>booleanos</b> armazenam declarações de verdade: o que estou dizendo é verdadeiro ou falso?
 
-Por exemplo, se eu disser “Você é um robô”, um booleano pode armazenar se esta afirmação é verdadeira. Neste caso, como você não é um robô (espero!), <font color="blue">False</font> seria armazenado.
+Por exemplo, se eu disser “Você é um robô”, um booleano pode armazenar se esta afirmação é verdadeira. Neste caso, como você não é um robô (espero!), <font color="#005a9c">False</font> seria armazenado.
 
 Quais são as respostas booleanas a essas perguntas sobre você?
 
@@ -32,7 +32,7 @@ print(5 + 8 < 10)
 print(((3 + 5) * 6) == (65 - 17))
 ```
 
-A primeira instrução deve retornar <font color="blue">False</font>. E o segundo deve retornar <font color="blue">True</font>.
+A primeira instrução deve retornar <font color="#005a9c">False</font>. E o segundo deve retornar <font color="#005a9c">True</font>.
 
 ![alt text](../../img/booleans.png "imagem do exemplo acima mostrando que o primeiro é falso e o segundo é verdadeiro") 
 
@@ -42,7 +42,7 @@ Tente imprimir as respostas para as seguintes expressões usando `print`. Se os 
 - 54 < (10 + 32)
 - (37 / 5) != 7
 - "Olá" + "Mundo" == "Olá Mundo"
-- <font color="blue">False</font> == <font color="blue">False</font>
+- <font color="#005a9c">False</font> == <font color="#005a9c">False</font>
 
 ### Desafio 3
 Tente fazer suas próprias expressões!
@@ -53,24 +53,24 @@ Você também pode conectar expressões booleanas usando os operadores AND e OR.
 
 Expressão | Resultado
 ------------|----------
-<font color="blue">True</font> and <font color="blue">True</font>  | <font color="blue">True</font> 
-<font color="blue">True</font>  and <font color="blue">False</font> | <font color="blue">False</font>
-<font color="blue">False</font> and <font color="blue">True</font> | <font color="blue">False</font>
-<font color="blue">False</font> and <font color="blue">False</font> | <font color="blue">False</font>
-<font color="blue">True</font>  or <font color="blue">True</font>  | <font color="blue">True</font> 
-<font color="blue">True</font>  or <font color="blue">False</font> | <font color="blue">True</font> 
-<font color="blue">False</font> or <font color="blue">True</font>  | <font color="blue">True</font> 
-<font color="blue">False</font>  or <font color="blue">False</font> | <font color="blue">False</font>
+<font color="#005a9c">True</font> and <font color="#005a9c">True</font>  | <font color="#005a9c">True</font>
+<font color="#005a9c">True</font>  and <font color="#005a9c">False</font> | <font color="#005a9c">False</font>
+<font color="#005a9c">False</font> and <font color="#005a9c">True</font> | <font color="#005a9c">False</font>
+<font color="#005a9c">False</font> and <font color="#005a9c">False</font> | <font color="#005a9c">False</font>
+<font color="#005a9c">True</font>  or <font color="#005a9c">True</font>  | <font color="#005a9c">True</font>
+<font color="#005a9c">True</font>  or <font color="#005a9c">False</font> | <font color="#005a9c">True</font>
+<font color="#005a9c">False</font> or <font color="#005a9c">True</font>  | <font color="#005a9c">True</font>
+<font color="#005a9c">False</font>  or <font color="#005a9c">False</font> | <font color="#005a9c">False</font>
 
 Para resumir, AND (e) requer que ambas as expressões booleanas sejam verdadeiras, enquanto OR (ou) requer apenas que uma das duas expressões booleanas seja verdadeira. Aqui estão mais alguns exemplos:
 
-- (5 < 8) e (9 != 10) produz <font color="blue">True</font> já que 5 é menor que 8 e 9 não é igual a 10.
-- (8 <= 2) ou ("h" + "e" == "ele") produz <font color="blue">Verdadeiro</font> já que "h" + "e" resulta em "ele", mesmo que 8 não seja menor ou igual a 2.
-- (6 != 2 * 3) ou (8 < 2 * 4) produz <font color="blue">False</font> já que 6 não é igual a 2 * 3 e 8 é menor que 2 * 4, produza <font color="blue">Falso</font>.
+- (5 < 8) e (9 != 10) produz <font color="#005a9c">True</font> já que 5 é menor que 8 e 9 não é igual a 10.
+- (8 <= 2) ou ("h" + "e" == "ele") produz <font color="#005a9c">Verdadeiro</font> já que "h" + "e" resulta em "ele", mesmo que 8 não seja menor ou igual a 2.
+- (6 != 2 * 3) ou (8 < 2 * 4) produz <font color="#005a9c">False</font> já que 6 não é igual a 2 * 3 e 8 é menor que 2 * 4, produza <font color="#005a9c">Falso</font>.
 
 #### O que você acha que as seguintes expressões produzem?
 
 - (11-2 < 10) e (7+3 > 10)
-- (<font color="blue">True</font> ou 3 < 1) e (<font color="blue">False</font> ou 3>1)
+- (<font color="#005a9c">True</font> ou 3 < 1) e (<font color="#005a9c">False</font> ou 3>1)
 
-<iframe src="https://codebunga.com/embed/c2vqd36f" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="O que você acha que as seguintes expressões produzem? - Codebunga" src="https://codebunga.com/embed/c2vqd36f" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

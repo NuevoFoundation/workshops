@@ -5,7 +5,7 @@ draft: false
 weight: 2
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/NrbQCjlzhYc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe title="写入控制台 (print打印语句) - YouTube video" width="560" height="315" src="https://www.youtube.com/embed/NrbQCjlzhYc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ## 和你的程序对话！
 
@@ -26,7 +26,7 @@ print("Hello, World!")
 
 ![alt text](../../img/print.png "hello world in python!")
 
-<iframe src="https://codebunga.com/embed/fcrtud9r" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="小挑战一 - Codebunga" src="https://codebunga.com/embed/fcrtud9r" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 {{% notice tip %}}
 ### 在打印语句中使用 "
@@ -43,7 +43,7 @@ print("Hello, World!")
 2. 在第一个打印语句下面添加一个新的打印语句，在第一句话下面打印第二句。
 3. 单击**运行**观察是否两个句子被打印了出来。
 
-<iframe src="https://codebunga.com/embed/fcrtud9r" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="小挑战二 - Codebunga" src="https://codebunga.com/embed/fcrtud9r" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 我们将在后面的课程中大量使用打印语句，因此在继续之前请确保你已经理解了上面的内容！
 
