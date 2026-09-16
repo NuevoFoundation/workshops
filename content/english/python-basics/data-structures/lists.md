@@ -139,6 +139,6 @@ Now let's try this yourself. Start with the list of fruits below. Print out the 
 fruits = ['orange', 'kiwi', 'banana', 'apple', 'mango', 'lemon']
 ```
 
-<iframe title="Challange - Codebunga" src="https://codebunga.com/embed/cv4h3m89" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Challenge - Codebunga" src="https://codebunga.com/embed/cv4h3m89" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Hint: You will need to convert the `length` integer to a string using the `str(int)` function.
