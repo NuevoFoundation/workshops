@@ -1,6 +1,6 @@
 ---
 title: "Code and interactivity"
-date: 2026-04-25T00:00:00-07:00
+date: 2026-09-14T00:00:00-07:00
 draft: false
 weight: 9
 ---
@@ -41,7 +41,11 @@ Note: older workshops include `?lite=true` in Replit URLs. This parameter is no 
 
 ### Codebunga
 
-Best for Python turtle graphics and simple Python programs.
+Do not add new Trinket links or embeds. Existing Trinket integrations remain in
+the repository temporarily and are tracked as `TODO-IDE-Replace` until a
+supported browser IDE migration is completed.
+
+Legacy example:
 
 ```html
 <iframe src="https://codebunga.com/embed/7s5rkuud" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

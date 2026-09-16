@@ -2,6 +2,53 @@
 
 Scripts to help contributors maintain the NuevoFoundation workshops repo. Maintenance scripts use Python 3.8+ with stdlib only. The browser regression tests below additionally require Playwright.
 
+## new-workshop.py
+
+Creates the standard directory and starter files for a new workshop.
+
+```bash
+python tools/new-workshop.py \
+  --name "python-space-adventure" \
+  --title "Python: Build a Space Adventure" \
+  --activities 4 \
+  --difficulty beginner \
+  --coding-language python \
+  --topics games programming-basics
+```
+
+Use `--dry-run` first to preview the files. See
+`content/english/guidelines/new-workshops.md` for all options and the complete
+authoring workflow.
+
+## validate-workshop.py
+
+Checks one workshop for publication-blocking problems:
+
+- Missing files or required frontmatter
+- Unsupported Workshops tab difficulty, coding-language, or topic tags
+- Visible answer keys or invalid activity weights
+- Unresolved scaffold placeholders
+- Missing local images or image alt attributes
+- Unbalanced code fences
+- Invalid Python code blocks and Python playgrounds
+
+Deprecated Trinket references are reported as non-blocking
+`TODO-IDE-Replace` warnings so existing workshops can be migrated
+incrementally without allowing new workshops to depend on Trinket.
+
+```bash
+python tools/validate-workshop.py content/english/my-workshop
+```
+
+The command exits with status `1` when it finds an issue, so it can also run in
+continuous integration.
+
+Run its unit tests with:
+
+```bash
+python -m unittest tools/test_validate_workshop.py
+```
+
 ## update-dates.py
 
 Keeps Hugo frontmatter `date:` fields current. When you commit a markdown

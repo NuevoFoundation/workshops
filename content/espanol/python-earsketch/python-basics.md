@@ -10,7 +10,7 @@ draft: false
 
 Para codificar música, necesitamos aprender un poco de Python. No te preocupes, no te morderá 😊. Python es uno de los lenguajes que usamos para decirle a las computadoras qué hacer. Estos lenguajes se conocen como "lenguajes de programación". Aprenderemos conceptos de Python en toda la clase, pero comencemos con una simple instrucción print. 
 
-Si desea saltar a una sección específica de Python, haga clic en el siguiente tema:
+Si quieres saltar a una sección específica de Python, haz clic en el siguiente tema:
 
 - <a href="../../python-basics/basics/" target="_blank">Python Console</a>
 - <a href="../../python-basics/basics/comments/" target="_blank">Comments</a>
