@@ -151,7 +151,8 @@ Make sure your base branch (target) and head branch (source) are correct, add a 
 Always use the scaffold script to generate the correct directory structure and templates. Do not create workshop files by hand.
 
 ```bash
-python tools/new-workshop.py --name "my-workshop" --title "My Workshop"
+python tools/new-workshop.py --name "my-workshop" --title "My Workshop" \
+  --coding-language python --topics programming-basics
 ```
 
 See the [New Workshop Guidelines](../new-workshops/) for the full walkthrough, options, and pre-PR checklist.

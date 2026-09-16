@@ -37,6 +37,9 @@ public/
 
 # OS generated files #
 ######################
+.vs/
+__pycache__/
+*.py[cod]
 .DS_Store
 .DS_Store?
 ._*
