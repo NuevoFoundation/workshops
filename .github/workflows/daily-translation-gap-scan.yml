@@ -14,8 +14,8 @@ on:
         description: 'Optional single language to process (for example: french)'
         required: false
         type: string
-      max_files_per_pr:
-        description: 'Optional maximum number of files to include per PR'
+      max_workshops_per_pr:
+        description: 'Optional maximum number of whole workshops to include per PR (default 8; workshops are never split)'
         required: false
         type: string
 
@@ -47,16 +47,16 @@ jobs:
           if [ "${GITHUB_EVENT_NAME}" = "workflow_dispatch" ]; then
             dry_run="$(jq -r '.inputs.dry_run // "true"' "${GITHUB_EVENT_PATH}")"
             language="$(jq -r '.inputs.language // ""' "${GITHUB_EVENT_PATH}")"
-            max_files_per_pr="$(jq -r '.inputs.max_files_per_pr // ""' "${GITHUB_EVENT_PATH}")"
+            max_workshops_per_pr="$(jq -r '.inputs.max_workshops_per_pr // ""' "${GITHUB_EVENT_PATH}")"
           else
             dry_run="false"
             language=""
-            max_files_per_pr=""
+            max_workshops_per_pr=""
           fi
           {
             echo "dry_run=${dry_run}"
             echo "language=${language}"
-            echo "max_files_per_pr=${max_files_per_pr}"
+            echo "max_workshops_per_pr=${max_workshops_per_pr}"
           } >> "$GITHUB_OUTPUT"
 
       - name: Set up .NET
@@ -78,7 +78,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           WORKFLOW_DRY_RUN: ${{ steps.runtime.outputs.dry_run }}
           WORKFLOW_LANGUAGE: ${{ steps.runtime.outputs.language }}
-          WORKFLOW_MAX_FILES_PER_PR: ${{ steps.runtime.outputs.max_files_per_pr }}
+          WORKFLOW_MAX_WORKSHOPS_PER_PR: ${{ steps.runtime.outputs.max_workshops_per_pr }}
         run: |
           set -euo pipefail
           args=(
@@ -98,8 +98,8 @@ jobs:
           if [ -n "${WORKFLOW_LANGUAGE}" ]; then
             args+=(--language "${WORKFLOW_LANGUAGE}")
           fi
-          if [ -n "${WORKFLOW_MAX_FILES_PER_PR}" ]; then
-            args+=(--max-files-per-pr "${WORKFLOW_MAX_FILES_PER_PR}")
+          if [ -n "${WORKFLOW_MAX_WORKSHOPS_PER_PR}" ]; then
+            args+=(--max-workshops-per-pr "${WORKFLOW_MAX_WORKSHOPS_PER_PR}")
           fi
 
           printf 'Running command: dotnet'
