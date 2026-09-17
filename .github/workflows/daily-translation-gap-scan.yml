@@ -1,0 +1,124 @@
+name: Daily translation gap scan
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Run without pushing branches or creating/updating PRs'
+        required: false
+        default: true
+        type: boolean
+      language:
+        description: 'Optional single language to process (for example: french)'
+        required: false
+        type: string
+      max_files_per_pr:
+        description: 'Optional maximum number of files to include per PR'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: daily-translation-gap-scan
+  cancel-in-progress: false
+
+jobs:
+  scan-and-create-prs:
+    runs-on: ubuntu-latest
+    env:
+      TOOL_PROJECT_PATH: translation-tool/WorkshopAutoTranslation/WorkShopTranslationV2/WorkShopTranslationV2.csproj
+    steps:
+      - name: Check out workshops repository
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Resolve runtime options
+        id: runtime
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ "${GITHUB_EVENT_NAME}" = "workflow_dispatch" ]; then
+            dry_run="$(jq -r '.inputs.dry_run // "true"' "${GITHUB_EVENT_PATH}")"
+            language="$(jq -r '.inputs.language // ""' "${GITHUB_EVENT_PATH}")"
+            max_files_per_pr="$(jq -r '.inputs.max_files_per_pr // ""' "${GITHUB_EVENT_PATH}")"
+          else
+            dry_run="false"
+            language=""
+            max_files_per_pr=""
+          fi
+          {
+            echo "dry_run=${dry_run}"
+            echo "language=${language}"
+            echo "max_files_per_pr=${max_files_per_pr}"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Build translation tool
+        run: dotnet build "${TOOL_PROJECT_PATH}" --configuration Release
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Run daily translation gap scan
+        env:
+          GITHUB_TOKEN: ${{ secrets.MODELS_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          WORKFLOW_DRY_RUN: ${{ steps.runtime.outputs.dry_run }}
+          WORKFLOW_LANGUAGE: ${{ steps.runtime.outputs.language }}
+          WORKFLOW_MAX_FILES_PER_PR: ${{ steps.runtime.outputs.max_files_per_pr }}
+        run: |
+          set -euo pipefail
+          args=(
+            run
+            --project "${TOOL_PROJECT_PATH}"
+            --
+            --scan-gaps "${GITHUB_WORKSPACE}"
+            --create-prs
+            --model "gpt-4o"
+            --base-branch "master"
+            --branch-prefix "auto-translate/"
+          )
+
+          if [ "${WORKFLOW_DRY_RUN}" = "true" ]; then
+            args+=(--dry-run)
+          fi
+          if [ -n "${WORKFLOW_LANGUAGE}" ]; then
+            args+=(--language "${WORKFLOW_LANGUAGE}")
+          fi
+          if [ -n "${WORKFLOW_MAX_FILES_PER_PR}" ]; then
+            args+=(--max-files-per-pr "${WORKFLOW_MAX_FILES_PER_PR}")
+          fi
+
+          printf 'Running command: dotnet'
+          printf ' %q' "${args[@]}"
+          printf '\n'
+
+          dotnet "${args[@]}" 2>&1 | tee "${RUNNER_TEMP}/daily-translation-gap-scan.log"
+
+      - name: Publish job summary
+        if: always()
+        run: |
+          {
+            echo "# Daily translation gap scan"
+            echo
+            echo "- Trigger: \`${{ github.event_name }}\`"
+            echo "- Dry run: \`${{ steps.runtime.outputs.dry_run }}\`"
+            echo "- Language filter: \`${{ steps.runtime.outputs.language || 'all supported languages' }}\`"
+            echo
+            echo '```text'
+            sed -n '1,250p' "${RUNNER_TEMP}/daily-translation-gap-scan.log" 2>/dev/null || echo "No log captured."
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
