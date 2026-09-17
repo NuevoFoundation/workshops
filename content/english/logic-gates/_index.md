@@ -5,7 +5,7 @@ date: 2025-10-20T01:00:18-05:00
 prereq: "None"
 difficulties: ["beginner"]
 language: "no-code"
-topics: ["engineering"]
+topics: ["hardware"]
 icon: "fas fa-microchip"
 draft: false
 ---

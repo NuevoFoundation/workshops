@@ -182,6 +182,56 @@ class WorkshopExplorerTests(unittest.TestCase):
         self.assertTrue(self.page.locator(".we-active-count").is_hidden())
         self.assertNotIn("#", self.page.url)
 
+    def test_cards_show_language_in_basics_titles_and_topics_for_no_code(self):
+        python_basics = self.page.locator('.workshop-button[data-title="Python Basics"]')
+        self.assertEqual(
+            python_basics.locator(".workshop-button-skill-name").inner_text(), "Python"
+        )
+        self.assertEqual(
+            python_basics.locator(".workshop-button-title").inner_text(), "Python Basics"
+        )
+
+        spy_game = self.page.locator('.workshop-button[data-title="Spy Game"]')
+        self.assertEqual(
+            spy_game.locator(".workshop-button-skill-name").inner_text(), "Cybersecurity"
+        )
+
+        machine_learning = self.page.locator(
+            '.workshop-button[data-title="Machine Learning: Linear Regression"]'
+        )
+        self.assertEqual(
+            machine_learning.locator(".workshop-button-skill-name").inner_text(), "Python"
+        )
+        self.assertEqual(
+            machine_learning.locator(".workshop-button-title").inner_text(),
+            "Machine Learning: Linear Regression",
+        )
+
+    def test_long_page_titles_fit_on_one_banner_line(self):
+        paths = [
+            "/python-turtlemaze/",
+            "/es/pygame-pong/activity-6/",
+        ]
+        for width in [1440, 390]:
+            self.page.set_viewport_size({"width": width, "height": 900})
+            for path in paths:
+                with self.subTest(width=width, path=path):
+                    self.page.goto(self.base_url + path, wait_until="domcontentloaded")
+                    dimensions = self.page.locator(".workshop-page-title").evaluate("""title => {
+                        const style = getComputedStyle(title);
+                        const range = document.createRange();
+                        range.selectNodeContents(title);
+                        return {
+                            available: title.clientWidth
+                                - parseFloat(style.paddingLeft)
+                                - parseFloat(style.paddingRight),
+                            text: range.getBoundingClientRect().width,
+                            whiteSpace: style.whiteSpace
+                        };
+                    }""")
+                    self.assertEqual(dimensions["whiteSpace"], "nowrap")
+                    self.assertLessEqual(dimensions["text"], dimensions["available"] + 0.5)
+
     def test_shared_url_preserves_punctuation_and_multiple_selections(self):
         labels = ["Web Basics, C# Basics", "email"]
         for label in labels:

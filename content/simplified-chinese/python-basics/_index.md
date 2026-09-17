@@ -1,5 +1,5 @@
 ---
-title: "Python: 基础入门"
+title: "Python 基础入门"
 description: "学习使用 Python 编程语言的基础知识"
 date: 2022-09-19T14:45:38-07:00
 prereq: "无"

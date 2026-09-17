@@ -561,8 +561,9 @@ article section.page {
   padding: 2rem 4rem;
 }
 header h1:first-of-type {
-  display: flex;
-  flex-wrap: wrap;
+  display: block;
+  box-sizing: border-box;
+  white-space: nowrap;
   font-family: "Space Mono", "Lato", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
   text-align: left;
   color: #000000;
@@ -1210,6 +1211,7 @@ ul.children.children-card > .workshop-button .workshop-button-subtitle {
 
 ul.children.children-card > .workshop-button .workshop-button-skill-name {
   font-family: "Space Mono", monospace;
+  font-size: 16px;
   color: #5c5c5c;
   margin-left: 5px;
 }

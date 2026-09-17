@@ -2,6 +2,7 @@
 title: "React: Aventura por Costa Rica"
 description: "Aprender React con Javacript"
 date: 2019-09-22T23:26:18-05:00
+language: "javascript"
 prereq: "Conocimiento en HTML y CSS"
 difficulty: "Normal"
 ---

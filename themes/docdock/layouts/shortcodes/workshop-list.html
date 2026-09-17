@@ -51,7 +51,7 @@
 
 {{ define "workshop-childs" }}
 {{- range .menu }}
-{{- if .Params.hidden }}
+{{- if or .Params.hidden (not .Params.language) }}
 {{- else}}
 
 <li class="workshop-button" onclick="location.href='{{.Permalink}}'"
@@ -72,6 +72,18 @@
 		<a href="{{.Permalink}}">{{ .Title }}</a>
 		{{- (printf "</h%d>" $numn)|safeHTML}}
 	{{- else}}
+		{{- $languageLabel := "" }}
+		{{- if and (eq .Params.language "no-code") .Params.topics }}
+			{{- $languageLabel = i18n (printf "tax.topic.%s" (index .Params.topics 0)) }}
+		{{- else }}
+			{{- with .Params.language }}
+				{{- $languageLabel = i18n (printf "tax.language.%s" .) }}
+			{{- end }}
+		{{- end }}
+		{{- $cardTitle := .Title }}
+		{{- with $languageLabel }}
+			{{- $cardTitle = strings.TrimPrefix (printf "%s: " .) $cardTitle }}
+		{{- end }}
 		<div>	
 			<div class="workshop-button-subtitle">
 				<!-- icon -->
@@ -80,10 +92,9 @@
 				{{- else }}
 					<i aria-hidden="true" style="margin-right:2px" focusable="false" class="fas fa-code"></i>
 				{{- end}}
-				<!-- name of skill to be learned, such as programming language or platform -->
-				<span class="workshop-button-skill-name">{{ .Params.skillName }}</span>
+				<span class="workshop-button-skill-name">{{ $languageLabel }}</span>
 			</div>
-			<div class="workshop-button-title"><a href="{{.Permalink}}">{{ .Title }}</a></div>
+			<div class="workshop-button-title"><a href="{{.Permalink}}">{{ $cardTitle }}</a></div>
 	    </div>
 	{{- end}}
 

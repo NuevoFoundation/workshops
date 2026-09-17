@@ -1,5 +1,5 @@
 ---
-title: "Python: Building a Discord Translator Bot"
+title: "Discord: Building a Translator Bot"
 description: "Learn intermediate Python concepts like libraries and APIs with Discord integration"
 date: 2025-09-15T10:11:00-07:00
 prereq: "Python Basics"

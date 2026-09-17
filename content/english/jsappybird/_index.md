@@ -1,5 +1,5 @@
 ---
-title: "JS: JSappyBird"
+title: "JSappyBird"
 description: "Create Your Own JSappyBird Game"
 date: 2022-07-07T10:45:38-07:00
 prereq: "None"

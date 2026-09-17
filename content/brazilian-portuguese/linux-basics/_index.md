@@ -1,5 +1,5 @@
 ---
-title: "Minicurso básico de Linux"
+title: "Linux Básico"
 description: "Um guia introdutório sobre os comandos básicos do Linux."
 date: 2022-09-21
 prereq: "Nenhum"

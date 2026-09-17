@@ -2,6 +2,8 @@
 title: "Useless box: Silly gadget circuit"
 description: "A guide to build a 'useless box' to learn the basics of circuits and how a battery powers action."
 date: 2020-09-24T11:45:38-07:00
+language: "no-code"
+topics: ["hardware"]
 prereq: "None"
 difficulty: "Beginner"
 download: ""
