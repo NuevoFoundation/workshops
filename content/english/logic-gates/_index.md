@@ -1,5 +1,5 @@
 ---
-title: "Logic gates"
+title: "Logic Gates"
 description: "An adventure in a magic forest to learn how digital logic works."
 date: 2025-10-20T01:00:18-05:00
 prereq: "None"

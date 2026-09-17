@@ -1,5 +1,5 @@
 ---
-title: "MicroBit: Coding with mini computers"
+title: "micro:bit: Coding with Mini Computers"
 description: "Using MicroBits to learn about JavaScript and hardware"
 date: 2019-07-23T14:54:53-07:00
 download: "https://github.com/NuevoFoundation/workshops/tree/master/content/microbit"

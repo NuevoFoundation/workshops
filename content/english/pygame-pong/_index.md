@@ -1,5 +1,5 @@
 ---
-title: "Python: Building a Pong Game"
+title: "Pygame: Building a Pong Game"
 description: "Learning To Build a Pong Game with Pygame Library"
 date: 2019-07-29T13:24:17-07:00
 prereq: "Python Basics"

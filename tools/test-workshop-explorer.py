@@ -162,7 +162,7 @@ class WorkshopExplorerTests(unittest.TestCase):
         self.chip("Python Basics").click()
         self.assertEqual(self.visible_titles(), self.expected_titles(["Python Basics"]))
         for title in ["Python: Choose Your Own Adventure Game",
-                      "Python: Create music with EarSketch",
+                  "Python: Create Music with EarSketch",
                       "Machine Learning: Linear Regression"]:
             self.assertIn(title, self.visible_titles())
         self.assertEqual(self.page.locator(".we-active-count").inner_text(), "1")
@@ -231,6 +231,21 @@ class WorkshopExplorerTests(unittest.TestCase):
                     }""")
                     self.assertEqual(dimensions["whiteSpace"], "nowrap")
                     self.assertLessEqual(dimensions["text"], dimensions["available"] + 0.5)
+
+    def test_mobile_page_navigation_stays_within_viewport(self):
+        self.page.goto(
+            self.base_url + "/es/pygame-pong/activity-6/",
+            wait_until="domcontentloaded",
+        )
+        for width in [390, 320, 250]:
+            with self.subTest(width=width):
+                self.page.set_viewport_size({"width": width, "height": 900})
+                dimensions = self.page.locator("#workshop-page-navigation").evaluate(
+                    "select => { const rect = select.getBoundingClientRect(); "
+                    "return { left: rect.left, right: rect.right, viewport: innerWidth }; }"
+                )
+                self.assertGreaterEqual(dimensions["left"], 0)
+                self.assertLessEqual(dimensions["right"], dimensions["viewport"] + 0.5)
 
     def test_shared_url_preserves_punctuation_and_multiple_selections(self):
         labels = ["Web Basics, C# Basics", "email"]

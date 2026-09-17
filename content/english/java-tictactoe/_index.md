@@ -1,5 +1,5 @@
 ---
-title: "Java: TicTacToe"
+title: "Java: Tic-Tac-Toe"
 description: "Learn how to make a console based TicTacToe game in Java"
 date: 2021-10-14T00:00:00Z
 prereq: "Java Basics"

@@ -1158,7 +1158,9 @@ ul.children.children-card > li:not(.workshop-button) p {
   padding: 0rem 1rem;
 }
 ul.children.children-card > .workshop-button {
+  --workshop-card-title-size: clamp(18px, 6cqi, 22px);
   position: relative;
+  container-type: inline-size;
   list-style: none;
   background-color: #fff;
   cursor: pointer;
@@ -1189,7 +1191,7 @@ ul.children.children-card > .workshop-button:active {
 
 ul.children.children-card > .workshop-button .workshop-button-title {
   padding-top: 7px;
-  font-size: 20px;
+  font-size: var(--workshop-card-title-size);
   /* black (heavy) */
   font-weight: 900;
 }
@@ -1211,7 +1213,7 @@ ul.children.children-card > .workshop-button .workshop-button-subtitle {
 
 ul.children.children-card > .workshop-button .workshop-button-skill-name {
   font-family: "Space Mono", monospace;
-  font-size: 16px;
+  font-size: calc(var(--workshop-card-title-size) * 0.65);
   color: #5c5c5c;
   margin-left: 5px;
 }
@@ -1269,11 +1271,19 @@ ul.children.children-card > .workshop-button > p {
 
   .nav-select {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+    min-width: 0;
+    width: 100%;
   }
 
   .nav-select select {
     display: block;
+    box-sizing: border-box;
+    min-width: 0;
+    max-width: 100%;
+    width: 100%;
   }
 
   article img {

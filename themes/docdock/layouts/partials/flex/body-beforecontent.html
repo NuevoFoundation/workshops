@@ -42,8 +42,8 @@
     <span id="workshop-content" tabindex="-1"></span>
 
     <div class="nav-select">
-      {{ i18n "navigation" }}&nbsp;
-      <select onchange="javascript:location.href = this.value;">
+      <label for="workshop-page-navigation">{{ i18n "navigation" }}</label>
+      <select id="workshop-page-navigation" onchange="javascript:location.href = this.value;">
         {{partial "flex/selectnavigation.html" .}}
       </select>
 
