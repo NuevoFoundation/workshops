@@ -162,7 +162,7 @@ class WorkshopExplorerTests(unittest.TestCase):
         self.chip("Python Basics").click()
         self.assertEqual(self.visible_titles(), self.expected_titles(["Python Basics"]))
         for title in ["Python: Choose Your Own Adventure Game",
-                  "Python: Create Music with EarSketch",
+                      "Python: Create Music with EarSketch",
                       "Machine Learning: Linear Regression"]:
             self.assertIn(title, self.visible_titles())
         self.assertEqual(self.page.locator(".we-active-count").inner_text(), "1")
