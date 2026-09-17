@@ -1,5 +1,5 @@
 ---
-title: "JavaScript: Basics"
+title: "JavaScript Basics"
 description: "Basics of JavaScript"
 date: 2020-07-29T18:45:38-07:00
 prereq: "None"

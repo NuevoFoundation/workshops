@@ -1,5 +1,5 @@
 ---
-title: "Python: Fundamentos"
+title: "Python Fundamentos"
 description: "Aprenda conceitos básicos de uso da linguagem de programação Python"
 date: 2022-09-19T14:45:38-07:00
 prereq: "nenhum"

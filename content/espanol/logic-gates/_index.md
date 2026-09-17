@@ -2,6 +2,8 @@
 title: "Compuertas Lógicas"
 description: "Una aventura en un bosque mágico para aprender cómo funciona la lógica digital."
 date: 2025-10-20T01:00:18-05:00
+language: "no-code"
+topics: ["hardware"]
 prereq: "Ninguno"
 difficulty: "Principiante"
 draft: false

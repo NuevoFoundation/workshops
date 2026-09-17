@@ -1,5 +1,5 @@
 ---
-title: "Security: Gone Phishing"
+title: "Gone Phishing"
 description: "An introductory guide to learn about phishing!"
 date: 2026-04-25T00:00:00-07:00
 prereq: "None"

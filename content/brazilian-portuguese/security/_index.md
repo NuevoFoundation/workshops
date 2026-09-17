@@ -1,5 +1,5 @@
 ---
-title: "Segurança: jogo de espionagem"
+title: "Jogo de espionagem"
 description: "Um guia introdutório para aprender sobre senhas e como criar uma senha forte!"
 date: 2026-04-25T00:00:00-07:00
 prereq: "Nenhum"

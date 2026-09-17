@@ -1,7 +1,8 @@
 ---
-title: "Python: Básicos"
+title: "Python Básicos"
 description: "Aprende conceptos básicos del uso del lenguaje de programación Python"
 date: 2022-09-19T14:45:38-07:00
+language: "python"
 prereq: "ninguno"
 difficulty: "Principiante"
 icon: "fab fa-python"

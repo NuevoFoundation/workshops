@@ -1,5 +1,5 @@
 ---
-title: "HTML & CSS: Les bases du Web"
+title: "HTML & CSS Les bases du Web"
 description: "Un guide d'introduction sur la façon de créer un site web simple à partir de zéro"
 date: 2019-09-03T17:53:41-07:00
 draft: false

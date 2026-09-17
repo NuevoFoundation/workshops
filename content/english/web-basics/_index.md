@@ -1,5 +1,5 @@
 ---
-title: "HTML & CSS: Web Basics"
+title: "HTML & CSS Web Basics"
 description: "An introductory guide on how to make a simple website from scratch"
 date: 2019-09-03T17:53:41-07:00
 draft: false

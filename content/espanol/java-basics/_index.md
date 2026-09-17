@@ -1,5 +1,5 @@
 ---
-title: "Java: Basics"
+title: "Java Basics"
 description: "Una guía introductoría a conceptos básicos de programación en Java."
 date: 2020-07-07T00:00:00Z
 prereq: "Ninguno"
