@@ -19,7 +19,7 @@ Expected answer: The output is activated (1) only if both inputs are active (1).
 
 Tip: Try all possible combinations of the two inputs. Only when both are 1 will the output be 1.
 
-<img src="../media/answer_1.png" alt="Visual solution for the AND circuit with two inputs and one output" width="40%" class="lg-img"/>
+{{< workshop-image filename="media/answer_1.png" alt="Visual solution for the AND circuit with two inputs and one output" width="40%" class="lg-img" >}}
 
 ---
 
@@ -28,7 +28,7 @@ Expected answer: The output is activated (1) if at least one of the inputs is ac
 
 Tip: If one or both inputs are 1, the output will be 1. It will only be 0 if both inputs are 0.
 
-<img src="../media/answer_2.png" alt="Visual solution for the OR circuit with two inputs and one output" width="40%" class="lg-img"/>
+{{< workshop-image filename="media/answer_2.png" alt="Visual solution for the OR circuit with two inputs and one output" width="40%" class="lg-img" >}}
 
 ---
 
@@ -37,7 +37,7 @@ Expected answer: The output is always the opposite of the input.
 
 Tip: If the input is 0, the output will be 1. If the input is 1, the output will be 0.
 
-<img src="../media/answer_3.png" alt="Visual solution for the NOT circuit with one input and one output" width="40%" class="lg-img"/>
+{{< workshop-image filename="media/answer_3.png" alt="Visual solution for the NOT circuit with one input and one output" width="40%" class="lg-img" >}}
 
 **Double NOT challenge:**
 If you place two NOT gates in series, the signal is inverted twice. That is:
@@ -53,7 +53,7 @@ Expected answer: The output is 1 except when both inputs are 1 (use AND and then
 
 Tip: The NOT gate inverts the AND result. Only if both inputs are 1 will the output be 0.
 
-<img src="../media/answer_5.png" alt="Visual solution for the AND followed by NOT circuit with two inputs and one output" width="40%" class="lg-img"/>
+{{< workshop-image filename="media/answer_5.png" alt="Visual solution for the AND followed by NOT circuit with two inputs and one output" width="40%" class="lg-img" >}}
 
 ---
 
@@ -62,7 +62,7 @@ Expected answer: The output is 1 only if both inputs are 0 (use OR and then NOT)
 
 Tip: The NOT gate inverts the OR result. If any input is 1, the output will be 0.
 
-<img src="../media/answer_6.png" alt="Visual solution for the OR followed by NOT circuit with two inputs and one output" width="40%" class="lg-img"/>
+{{< workshop-image filename="media/answer_6.png" alt="Visual solution for the OR followed by NOT circuit with two inputs and one output" width="40%" class="lg-img" >}}
 
 ---
 
@@ -88,7 +88,7 @@ Tip: Build the circuit by combining the gates according to the given logical con
 
 **Example of connections:**
 
-<img src="../media/answer_4.png" alt="Visual solution for the combined AND, OR, NOT circuit with three inputs and one output" width="40%" class="lg-img"/>
+{{< workshop-image filename="media/answer_4.png" alt="Visual solution for the combined AND, OR, NOT circuit with three inputs and one output" width="40%" class="lg-img" >}}
 
 **Guided tests:**
 
@@ -124,7 +124,7 @@ Tip: Try all combinations. The output will be 1 only if one input is 1 and the o
 
 **Example of connections:**
 
-<img src="../media/answer_7.png" alt="Visual solution for the XOR circuit using AND, OR, and NOT with two inputs and one output" width="40%" class="lg-img"/>
+{{< workshop-image filename="media/answer_7.png" alt="Visual solution for the XOR circuit using AND, OR, and NOT with two inputs and one output" width="40%" class="lg-img" >}}
 
 **Guided tests:**
 
@@ -169,7 +169,7 @@ Tip: The output will be 1 if both inputs are 0 or both are 1.
 
 **Example of connections:**
 
-<img src="../media/answer_8.png" alt="Visual solution for the XNOR circuit using AND, OR, and NOT with two inputs and one output" width="40%" class="lg-img"/>
+{{< workshop-image filename="media/answer_8.png" alt="Visual solution for the XNOR circuit using AND, OR, and NOT with two inputs and one output" width="40%" class="lg-img" >}}
 
 **Guided tests:**
 - A = 0, B = 0 → Output = 1
@@ -187,7 +187,7 @@ An XOR (exclusive OR) gate is a digital logic gate that produces a high-level ou
 ### Bonus activity: Using the simulator
 Tip: Explore the simulator to create your own circuits and test different combinations of logic gates. Observe how the outputs change based on the inputs.
 
-<img src="../media/answer_us.png" alt="Visual example of a custom circuit created in the simulator" width="40%" class="lg-img"/>
+{{< workshop-image filename="media/answer_us.png" alt="Visual example of a custom circuit created in the simulator" width="40%" class="lg-img" >}}
 
 ---
 

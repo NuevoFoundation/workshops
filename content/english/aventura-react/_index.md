@@ -1,5 +1,5 @@
 ---
-title: "React: Costa Rica adventure"
+title: "React: Costa Rica Adventure"
 description: "Learn React with JavaScript"
 date: 2019-09-22T23:26:18-05:00
 prereq: "Knowledge of HTML and CSS"

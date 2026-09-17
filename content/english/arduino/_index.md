@@ -1,5 +1,5 @@
 ---
-title: "Arduino: Light game"
+title: "Arduino: Light Game"
 description: "Build an Arduino microcontroller"
 date: 2020-07-27T14:04:59.61-07:00
 icon: "fas fa-microchip"
