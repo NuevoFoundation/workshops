@@ -74,7 +74,8 @@ jobs:
 
       - name: Run daily translation gap scan
         env:
-          GITHUB_TOKEN: ${{ secrets.MODELS_TOKEN }}
+          AZURE_AI_ENDPOINT: ${{ secrets.AZURE_AI_ENDPOINT }}
+          AZURE_AI_API_KEY: ${{ secrets.AZURE_AI_API_KEY }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           WORKFLOW_DRY_RUN: ${{ steps.runtime.outputs.dry_run }}
           WORKFLOW_LANGUAGE: ${{ steps.runtime.outputs.language }}
