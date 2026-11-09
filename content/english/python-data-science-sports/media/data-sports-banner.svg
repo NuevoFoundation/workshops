@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="200" viewBox="0 0 600 200" role="img" aria-labelledby="t">
+  <title id="t">A whistle, a bar chart, and a trophy side by side</title>
+  <rect width="600" height="200" rx="16" fill="#eef6ff"/>
+  <circle cx="90" cy="105" r="38" fill="#f4b400"/>
+  <rect x="115" y="80" width="70" height="22" rx="8" fill="#f4b400"/>
+  <circle cx="90" cy="105" r="12" fill="#eef6ff"/>
+  <rect x="235" y="110" width="30" height="50" fill="#4285f4"/>
+  <rect x="275" y="70" width="30" height="90" fill="#34a853"/>
+  <rect x="315" y="90" width="30" height="70" fill="#ea4335"/>
+  <rect x="225" y="160" width="130" height="5" fill="#333"/>
+  <path d="M440 60h80v40a40 40 0 0 1-80 0z" fill="#fbbc04"/>
+  <rect x="470" y="130" width="20" height="25" fill="#fbbc04"/>
+  <rect x="450" y="155" width="60" height="12" rx="3" fill="#f29900"/>
+</svg>
