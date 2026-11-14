@@ -6,6 +6,7 @@ hidden: true
 icon: "fas fa-car"
 language: "no-code"
 topics: ["engineering"]
+prereq: "None"
 difficulties: ["beginner"]
 ---
 
@@ -23,5 +24,4 @@ Of course, building a car from scratch consists of many components: body, engine
 <summary>Table of Contents</summary>
 {{% children /%}}
 </details>
-
 

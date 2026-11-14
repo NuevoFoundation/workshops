@@ -5,7 +5,7 @@ weight: 3
 draft: false
 ---
 ## Pre-reqs
-- <a href="../../python-basics/lists" target="_blank">Lists</a>
+- <a href="../../python-basics/data-structures/lists/" target="_blank">Lists</a>
 
 ## How to Create and Store your Menu
 Now that we have a banner for your restaurant, let's start thinking about how to organize the information about your dishes. Remember how earlier you decided what foods and beverages you wanted to sell at your restaurant? Well, now we need to figure out how to store all of that information. We need to store the name, price, and description of every item on your menu.

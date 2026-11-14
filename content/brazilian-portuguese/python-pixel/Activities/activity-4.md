@@ -7,7 +7,7 @@ weight: 4
 draft: false
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jA6xNqAhb1o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jA6xNqAhb1o" title="Atividade 4: Crie um Filtro Básico - YouTube video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Agora que entendemos melhor sobre pixels e imagens, podemos começar a aprender como criar nossos próprios filtros em imagens. Vamos ver alguns exemplos de como fazer um filtro básico.
 

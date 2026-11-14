@@ -14,7 +14,7 @@ Antes de começarmos, vamos primeiro entender como a janela funciona. No lado es
 
 Passe um tempo e conheça a ferramenta abaixo.
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/ccWNBp" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/ccWNBp" title="Usando .NET Fiddle - .NET Fiddle editor" frameborder="0"></iframe>
 
 ### Algumas dicas sobre C#
 

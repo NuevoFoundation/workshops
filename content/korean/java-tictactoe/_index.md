@@ -50,4 +50,4 @@ difficulties: ["intermediate"]
 <img src="images/tictactoe-demo.gif" height="30%" width="22%" title="Android Tic-Tac-Toe Game" alt="Android Tic-Tac-Toe Game"/>
 
 <iframe height="600px" width="100%" 
- src="https://replit.com/@nuevofoundation/JavaTicTacToeDemo?lite=true&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+ src="https://replit.com/@nuevofoundation/JavaTicTacToeDemo?lite=true&outputonly=1" title="자바: 틱택토 (Tic-Tac-Toe) - Replit editor" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>

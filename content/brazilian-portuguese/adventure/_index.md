@@ -2,6 +2,7 @@
 title: "Python: Crie Seu Próprio Jogo de Aventura"
 description: "Um guia introdutório sobre como criar um jogo de aventura em Python"
 date: 2019-07-23T11:45:38-07:00
+difficulty: Intermediário
 prereq: "Noções básicas de Python - Escrever no console (Print), Ler do console, Strings, Variáveis, Declarações condicionais"
 download: ""
 draft: false
@@ -28,7 +29,7 @@ Nos Jogos de Escolha Sua Própria Aventura, você é o protagonista da história
 
 Vamos experimentar!
 
-<iframe src="https://trinket.io/embed/python/ddbeb74073?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/vky5wh8y?display=output" title="Python: Crie Seu Próprio Jogo de Aventura - Codebunga editor" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 O que vocês acharam? Agora vamos aprender algumas habilidades legais que nos permitirão criar nossas próprias histórias.
 

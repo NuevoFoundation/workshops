@@ -5,8 +5,6 @@ difficulties: ["beginner"]
 weight: 1
 ---
 
-<img src="../images/room1_fork.jpg" alt="The first room of the Code Dungeon, illuminated by a mysterious GitHub logo" />
-
 You awaken in a dimly lit room. A pedestal in the center holds a glowing GitHub logo. A voice echoes: "To proceed, you must fork the path ahead."
 
 By path, the voice means a GitHub repository. Forking creates a copy of the repository in your account, allowing you to make changes without affecting the original copy.

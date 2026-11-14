@@ -10,6 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     continue-on-error: true
 
+    # Translation commits and the follow-up pull request can only be created
+    # from a branch in this repository. Pull requests opened from a fork run
+    # with a read-only GITHUB_TOKEN and their head branch does not exist here,
+    # so the job is skipped rather than failing on checkout.
+    if: github.event.pull_request.head.repo.full_name == github.repository
+
     permissions:
       # Give the default GITHUB_TOKEN write permission to commit and push the
       # added or changed files to the repository.

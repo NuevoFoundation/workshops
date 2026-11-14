@@ -6,7 +6,7 @@ prereq: "Python Basics: Print, Comments, Functions"
 difficulties: ["intermediate"]
 draft: false
 ---
-<p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/VSm6m5p3CUg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/VSm6m5p3CUg" title="Activity 5 - Use effects to fade in - YouTube video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 Now that you have one effect in your song, let's try to fade in the introduction of our song.
 
@@ -47,21 +47,19 @@ setTempo(120)
 fitMedia(HOUSE_DEEP_CRYSTALCHORD_001, 3, 1, 5)
 fitMedia(HOUSE_DEEP_CRYSTALCHORD_002, 3, 5, 9)
 
-# Section A
-def sectionA(startMeasure, endMeasure):
-    fitMedia(RD_UK_HOUSE__AIRYPAD_1, 1, startMeasure, endMeasure)
-    fitMedia(HOUSE_MAIN_BEAT_002, 4, startMeasure, endMeasure)
-    fitMedia(HOUSE_ROADS_BASS_001, 5, startMeasure, endMeasure)
+fitMedia(RD_UK_HOUSE__AIRYPAD_1, 1, 1, 9)
+fitMedia(HOUSE_MAIN_BEAT_002, 4, 1, 9)
+fitMedia(HOUSE_ROADS_BASS_001, 5, 1, 9)
 
-# Section B
-def sectionB(startMeasure, endMeasure): 
-    fitMedia(Y37_ORGAN_1, 2, startMeasure, endMeasure)
-    fitMedia(HOUSE_ROADS_BASS_001, 5, startMeasure, endMeasure)
-    fitMedia(RD_UK_HOUSE__ARPLEAD_1, 6, startMeasure, endMeasure)
+fitMedia(Y37_ORGAN_1, 2, 9, 17)
+fitMedia(HOUSE_ROADS_BASS_001, 5, 9, 17)
+fitMedia(RD_UK_HOUSE__ARPLEAD_1, 6, 9, 17)
 
-sectionA(1, 9)
-sectionB(9, 17)
-sectionA(17, 25)
+makeBeat(OS_CLAP01, 6, 1, "--0+--0+--0+0+0+")
+makeBeat(OS_CLAP01, 6, 2, "--0+--0+--000000")
+makeBeat(OS_CLAP01, 6, 3, "0+-0+-0+-0+-0-0-")
+makeBeat(OS_CLAP01, 6, 4, "0+-0+-0+-0+-0000")
+
 setEffect(2, DELAY, DELAY_FEEDBACK, -6.0)
 setEffect(2, DELAY, DELAY_TIME, 1200.0)
 setEffect(0, VOLUME, GAIN, -60, 1, 0, 3)

@@ -12,6 +12,8 @@ Atualmente, nosso bot só responde a "Olá". Vamos adicionar mais categorias par
 2. Se o usuário disser "Qual é a sua cor favorita?" o bot deve responder "Minha cor favorita é azul".
 3. Se o usuário disser "Qual é a sua comida favorita?" o bot deve responder "Minha comida favorita é pizza".
 
+<img src="../img/ideas.png" alt="Ilustração de um personagem pensando em novas ideias" width="30%" />
+
 Como lembrete, aqui está a estrutura básica de uma categoria:
 
 ```

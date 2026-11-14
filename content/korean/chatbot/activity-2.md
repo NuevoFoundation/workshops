@@ -6,6 +6,7 @@ weight: 5
 
 ## AIML
 이제 AIML을 사용하여 챗봇을 만들 것입니다. AIML은 **인공지능 마크업 언어**(Artificial Intelligence Markup Language)의 약자로, 웹사이트를 만들 때 사용하는 HTML과 매우 유사하게 보일 것입니다. AIML을 작성하기 전에, Pandorabots에 가입해야 합니다.
+<img src="../img/chat_Alice.png" alt="Illustration of the ALICE chatbot character" width="20%" />
 
 ## Pandorabots
 [https://www.pandorabots.com/](https://www.pandorabots.com/) 에 접속하여 **Sign Up**을 클릭하세요. 메일과 비밀번호를 입력하여 계정을 만드세요. 또는 Google, Facebook, Twitter, Github 계정으로 가입할 수도 있습니다. 프롬프트가 나타나면 무료 체험(free trial) 옵션을 선택하세요.

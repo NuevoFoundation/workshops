@@ -4,7 +4,7 @@ draft: false
 weight: 5
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ydP3GVHLGR0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ydP3GVHLGR0" title="Acessar pixels em uma imagem - YouTube video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Mais sobre pixels
 

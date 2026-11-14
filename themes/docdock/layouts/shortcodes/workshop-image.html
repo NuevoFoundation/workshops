@@ -1,0 +1,10 @@
+{{- $filename := .Get "filename" -}}
+{{- $resource := .Page.Resources.GetMatch $filename -}}
+{{- if not $resource -}}
+  {{- $resource = .Page.Parent.Resources.GetMatch $filename -}}
+{{- end -}}
+{{- with $resource -}}
+<img src="{{ .RelPermalink }}" alt="{{ $.Get "alt" }}"{{ with $.Get "width" }} width="{{ . }}"{{ end }}{{ with $.Get "class" }} class="{{ . }}"{{ end }}>
+{{- else -}}
+  {{- errorf "Workshop image %q was not found for %s" $filename .Page.File.Path -}}
+{{- end -}}

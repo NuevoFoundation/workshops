@@ -5,7 +5,7 @@ date: 2021-10-13T00:00:00Z
 weight: 8
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/x2hcvJjiH_g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/x2hcvJjiH_g" title="Estruturas de dados (Array &amp; ArrayList) - YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 Nos exercícios anteriores, aprendemos que variáveis ​​nos permitem acessar e armazenar dados. Mas, e se quisermos armazenar vários dados semelhantes? Existe uma boa maneira de organizá-los sem declarar múltiplas variáveis?
 

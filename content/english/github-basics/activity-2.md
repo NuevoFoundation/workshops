@@ -5,8 +5,6 @@ difficulties: ["beginner"]
 weight: 2
 ---
 
-<img src="../images/room2_commit.jpg" alt="Code snippets float around a central terminal, waiting to be organized" />
-
 As you enter the second room, snippets of code float in the air. A terminal in the center flickers with a message: "Bring order to chaos. Commit your changes to proceed."
 
 ## Your Mission

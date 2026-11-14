@@ -9,4 +9,4 @@ hidemetadata: true
 {{< workshop-list style="card" depth="1" showhidden="false" description="true" interactive="true"  />}}
 
 ## 贡献
-想帮助改进我们的研讨会或网站吗？请点击这里： **[Workshop Contributor Guidelines](guidelines/)**!
+想帮助改进我们的研讨会或网站吗？请点击这里： **[Workshop Contributor Guidelines](/guidelines/)**!

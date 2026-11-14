@@ -4,7 +4,7 @@ draft: false
 weight: 12
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/lAeRxuUN1IM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/lAeRxuUN1IM" title="Activity 3: Kusto Query Language 101 - YouTube video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 {{< notice tip >}} This is where we want you to pull up the Scoreboard and ADX viewer from earlier in separate windows to complete the remaining exercises. If you can't or don't want to use the Scoreboard, all questions for this section are listed below.  
 

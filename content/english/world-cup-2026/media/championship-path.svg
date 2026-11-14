@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title description">
+  <title id="title">Python soccer championship path</title>
+  <desc id="description">A three-step path showing team variables, match messages, and a winner decision leading to a trophy.</desc>
+  <rect width="1200" height="360" rx="32" fill="#eef7f0"/>
+  <path d="M170 180 H1030" stroke="#287a4d" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="210" cy="180" r="92" fill="#ffffff" stroke="#287a4d" stroke-width="8"/>
+  <circle cx="600" cy="180" r="92" fill="#ffffff" stroke="#287a4d" stroke-width="8"/>
+  <circle cx="990" cy="180" r="92" fill="#ffffff" stroke="#287a4d" stroke-width="8"/>
+  <text x="210" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#17472f">1</text>
+  <text x="210" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#17472f">Team</text>
+  <text x="210" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#17472f">variables</text>
+  <text x="600" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#17472f">2</text>
+  <text x="600" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#17472f">Match</text>
+  <text x="600" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#17472f">messages</text>
+  <text x="990" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#17472f">3</text>
+  <text x="990" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#17472f">Winner</text>
+  <text x="990" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#17472f">decision</text>
+  <path d="M1080 80 h52 v62 c0 42-25 73-52 73s-52-31-52-73V80z" fill="#f6c744" stroke="#8a6711" stroke-width="6"/>
+  <path d="M1028 102 h-28 c0 42 18 64 49 68M1132 102 h28 c0 42-18 64-49 68" fill="none" stroke="#8a6711" stroke-width="8"/>
+  <path d="M1080 215 v38M1043 278 h74M1058 253 h44" stroke="#8a6711" stroke-width="10" stroke-linecap="round"/>
+</svg>

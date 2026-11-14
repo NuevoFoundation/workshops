@@ -52,10 +52,10 @@ No Quadro .NET Fiddle abaixo, faça um fork do Fiddle e tente digitar essas linh
 
 Podemos atribuir um valor a uma variável, referenciá-la e depois mudar o valor.
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/PPCCzG" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/PPCCzG" title="Variáveis e Tipos de Dados - .NET Fiddle editor 1" frameborder="0"></iframe>
 
 ## Que Tipo -- Ajude o Patrick!
 
 Patrick 🐥 não é um mestre em tipos de dados! Ele frequentemente os confunde ao declarar variáveis. Vamos ajudá-lo a corrigir seus erros no .NET Fiddle abaixo.
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/xKMKvn" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/xKMKvn" title="Variáveis e Tipos de Dados - .NET Fiddle editor 2" frameborder="0"></iframe>

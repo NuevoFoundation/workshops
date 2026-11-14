@@ -28,7 +28,7 @@ Dan está pedindo tacos em sua loja favorita:
 2. O que Dan deseja no pedido?
 {{% /notice %}}
 
-<iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@nuevofoundation/2DInsert?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@nuevofoundation/2DInsert?lite=true" title="Problema 1: Fundamentos de ArrayList - Replit editor 1"></iframe>
 
 ## Tarefa 2: Obtendo elementos
 
@@ -51,7 +51,7 @@ item = find(menu, 0);
 2. Veja o menu de exemplo!
 {{% /notice%}}
 
-<iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@nuevofoundation/2DFind?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@nuevofoundation/2DFind?lite=true" title="Problema 1: Fundamentos de ArrayList - Replit editor 2"></iframe>
 
 ## Tarefa 3: Removendo Elementos
 
@@ -73,6 +73,6 @@ item = remove(menu,"Pizza", 2);
 // O menu não será o seguinte array: {"Cachorro Quente", "Hamburger", "Pizza", "Cachorro Quente"}
 ```
 
-<iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@nuevofoundation/2DRemove?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@nuevofoundation/2DRemove?lite=true" title="Problema 1: Fundamentos de ArrayList - Replit editor 3"></iframe>
 
 

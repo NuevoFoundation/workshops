@@ -1,4 +1,52 @@
 jQuery(document).ready(function () {
+  var pageTitle = document.querySelector(".workshop-page-title");
+  if (pageTitle) {
+    var fitPageTitle = function () {
+      var maxFontSize = 48;
+      pageTitle.style.fontSize = maxFontSize + "px";
+
+      var styles = window.getComputedStyle(pageTitle);
+      var availableWidth = pageTitle.clientWidth - parseFloat(styles.paddingLeft) - parseFloat(styles.paddingRight);
+      var titleRange = document.createRange();
+      titleRange.selectNodeContents(pageTitle);
+      var titleWidth = titleRange.getBoundingClientRect().width;
+
+      if (titleWidth > availableWidth) {
+        pageTitle.style.fontSize = maxFontSize * availableWidth / titleWidth * 0.99 + "px";
+      }
+    };
+
+    fitPageTitle();
+    if (document.fonts) {
+      document.fonts.ready.then(fitPageTitle);
+    }
+    if (window.ResizeObserver) {
+      new ResizeObserver(fitPageTitle).observe(pageTitle);
+    } else {
+      window.addEventListener("resize", fitPageTitle);
+    }
+  }
+
+  jQuery(".language-selector").on("change", function () {
+    var destination = new URL(this.value, window.location.href);
+    var isHttp = destination.protocol === "http:" || destination.protocol === "https:";
+
+    if (isHttp && destination.origin === window.location.origin) {
+      window.location.assign(destination.href);
+    }
+  });
+
+  jQuery(".skip-link").on("click", function (event) {
+    var target = document.querySelector(this.hash);
+    if (!target) {
+      return;
+    }
+
+    event.preventDefault();
+    target.focus({ preventScroll: true });
+    target.scrollIntoView({ block: "start" });
+  });
+
   jQuery("button.category-icon").on("click", function () {
     var $btn = $(this);
     $btn.find("i").toggleClass("fa-angle-down fa-angle-up");

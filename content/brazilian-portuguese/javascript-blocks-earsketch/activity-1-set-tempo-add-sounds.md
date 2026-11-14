@@ -8,11 +8,11 @@ draft: false
 
 Vamos analisar o código pré-existente e entender o que ele significa.
 
-<img src="../img/screenshot-setup-complete.png" height="400"/>
+<img src="../img/screenshot-setup-complete.png" alt="Tela do EarSketch após a configuração inicial em modo Blocks" height="400"/>
 
 A função `setTempo()` permite definir o tempo geral do projeto. Tempo é a velocidade com que uma música é tocada. Alterar o tempo de um projeto permite criar diferentes estilos musicais. Tente mudar o tempo da sua função `setTempo` alterando o número no bloco e veja o que acontece! Certifique-se de que seja um número entre 45-220. Abaixo estão algumas sugestões de tempos que você pode usar.
 
-<img src="../img/img-tempo1.png" height="200"/>
+<img src="../img/img-tempo1.png" alt="Sugestões de valores de tempo (BPM) para diferentes estilos musicais" height="200"/>
 
 Agora que nosso tempo está definido, é hora de adicionar sons. Para isso, devemos utilizar a função `fitMedia()`. Vamos colocar o novo código logo abaixo do bloco da função `setTempo()`.
 
@@ -22,7 +22,7 @@ Agora que nosso tempo está definido, é hora de adicionar sons. Para isso, deve
 2. Arraste o bloco `fitMedia()` para inseri-lo abaixo do bloco `setTempo`.
 3. Você pode notar que, ao adicionar o bloco, o Earsketch exibe alguns textos de espaço reservado que precisaremos substituir depois. Esses textos de espaço reservado também são conhecidos como `parâmetros`.
 
-<img src="../img/screenshot-parameters.png" height="100"/>
+<img src="../img/screenshot-parameters.png" alt="Bloco fitMedia mostrando os parâmetros sound, trackNumber, start e end" height="100"/>
 
 Vamos substituir cada um desses textos por um valor válido.
 
@@ -32,7 +32,7 @@ Vamos substituir cada um desses textos por um valor válido.
 
 Seu código agora deve se parecer com isto:
 
-<img src="../img/screenshot-fit-media.png" height="400"/>
+<img src="../img/screenshot-fit-media.png" alt="Script com o bloco fitMedia preenchido abaixo do setTempo" height="400"/>
 
 {{% notice warning %}}
 
@@ -48,6 +48,6 @@ Tenha certeza que os blocos da função e o texto estão no lugar correto.
 
 A **Digital Audio Workstation** (DAW) é a area que o som aparece dentro. Fica no centro em cima da janela do seu EarSketch. Abaixo veja um exemplo de diferentes sessões de uma música podem aparecer na DAW.
 
-<img src="../img/screenshot-daw.png" height="400"/>
+<img src="../img/screenshot-daw.png" alt="Digital Audio Workstation (DAW) do EarSketch exibindo várias trilhas" height="400"/>
 
 {{% /notice %}}

@@ -16,7 +16,7 @@ difficulties: ["intermediate"]
 Bem-vindo a este guia introdutório sobre como fazer música usando
 [EarSketch](https://en.wikipedia.org/wiki/EarSketch) e Python. Para ir para uma atividade específica, você pode clicar no link da seção na barra de navegação à esquerda da página.
 
-<!--- DEIXE ESSE VÍDEO AQUI CASO NECESSITE <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/g0u1CkbpUWQ?start=79" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p> --->
+<!--- DEIXE ESSE VÍDEO AQUI CASO NECESSITE <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/g0u1CkbpUWQ?start=79" title="Python: crie música com EarSketch - YouTube video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p> --->
 
 ### Conheça DJ Nuvi
 ![DJ Nuvi](https://media.giphy.com/media/OTk8FTCvQ5WQQfJqVf/giphy.gif)

@@ -36,7 +36,7 @@ Não se esqueça de remover os dois espaços antes de chamar my_function(). Caso
 
 ## Escrevendo funções matemáticas ##
 Você deve estar familiarizado com a definição matemática de uma função; por exemplo,
-a função 𝒇(𝒙) = 3𝒙. Ele pega um valor de entrada, 𝒙, e transforma o valor multiplicando-o por 3. Da mesma forma, em python, você também pode fornecer valores de entrada (chamados <b>parâmetros</b>) para uma função e <font color="blue ">retornar</font> (ou produzir) um valor de saída. Um exemplo de função Python que triplica um determinado
+a função 𝒇(𝒙) = 3𝒙. Ele pega um valor de entrada, 𝒙, e transforma o valor multiplicando-o por 3. Da mesma forma, em python, você também pode fornecer valores de entrada (chamados <b>parâmetros</b>) para uma função e <font color="#005a9c">retornar</font> (ou produzir) um valor de saída. Um exemplo de função Python que triplica um determinado
 número é fornecido abaixo:
 
 ```python

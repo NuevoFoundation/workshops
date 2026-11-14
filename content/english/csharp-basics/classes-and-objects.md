@@ -89,7 +89,7 @@ public class Person{
 
 Let's make a `Bird` class to represent Patrick 🐥 and all of his Bird friends by following the steps below! 
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/OH5XQO" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/OH5XQO" title="Interactive C# Bird class exercise" frameborder="0"></iframe>
 
 ### First, we start by defining the class name in the format `public` `class` `name`.
 
@@ -223,4 +223,4 @@ Next, let's call the `ToString()` method on these `Bird` objects we created to p
 
 Try it out and print out all the information of the bird friends you created 🐦🐤🐔🐧!
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/fMXXuT" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/fMXXuT" title="Interactive C# Bird objects exercise" frameborder="0"></iframe>

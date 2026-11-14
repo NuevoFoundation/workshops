@@ -23,4 +23,4 @@ Lembre-se de usar `turtle.forward()` para desenhar linhas. Para virar 90 graus p
 turtle.left(90)
 ```
 
-<iframe src="https://trinket.io/embed/python/bfe791bb1e" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Interactive Python Turtle code editor for drawing a square" src="https://codebunga.com/embed/shwtqbuc" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

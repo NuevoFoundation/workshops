@@ -43,8 +43,10 @@
 {{- if and .Params.hidden (not $.showhidden) }}
 {{- else}}
 
-<span>
-	{{- if hasPrefix $.style "h"}}
+<li>
+	{{- if eq $.style "li"}}
+	<a href="{{.Permalink}}">{{ .Title }}</a>
+	{{- else if hasPrefix $.style "h"}}
 	{{- $num := sub ( int (trim $.style "h") ) 1 }}
 	{{- $numn := add $num $.count }}
 
@@ -61,7 +63,6 @@
 
 
 
-
 	{{- if $.description}}
 	{{- if .Description}}
 	<p>{{.Description}}</p>
@@ -69,13 +70,10 @@
 	<p>{{.Summary}}</p>
 	{{- end}}
 	{{- end}}
-</span>
 
 
 {{- if lt $.count $.depth}}
-{{- if eq $.style "li" }}
 <ul>
-	{{- end}}
 	{{- .Scratch.Set "pages" .Pages }}
 	{{- if .Sections}}
 	{{- .Scratch.Set "pages" (.Pages | union .Sections) }}
@@ -95,11 +93,10 @@
 	{{- else}}
 	{{- template "childs" dict "menu" $pages  "style" $.style "showhidden" $.showhidden "count" (add $.count 1) "depth" $.depth "pages" $.pages "description" $.description "sortTerm" $.sortTerm}}
 	{{- end}}
-	{{- if eq $.style "li"}}
 </ul>
 {{- end }}
-{{- end }}
+</li>
 
-{{- end }}
-{{- end }}
+{{- end}}
+{{- end}}
 {{- end }}

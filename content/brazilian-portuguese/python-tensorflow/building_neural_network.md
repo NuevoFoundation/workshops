@@ -7,7 +7,7 @@ weight: 6
 draft: false
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ttOhB-w8dt0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ttOhB-w8dt0" title="Construindo a Rede Neural - YouTube video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Este é o primeiro passo na construção de uma **rede neural**, que é uma ferramenta que permite realizar **aprendizado de máquina**. Com essa ferramenta, treinamos um programa para analisar imagens ou dados — também chamados de **dados de treinamento**.
 

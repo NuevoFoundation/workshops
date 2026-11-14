@@ -9,7 +9,7 @@ Agora que você já tem um efeito na sua música, vamos tentar fazer a introduç
 
 Na atividade 3, usamos a função `setEffect` para aplicar um efeito a uma trilha específica durante toda a música, mas e se você quiser que apenas uma parte da música tenha um efeito? Use a função `setEffect` com mais parâmetros!
 
-<img src="../img/screenshot-seteffect2.png" height="30"/>
+<img src="../img/screenshot-seteffect2.png" alt="Assinatura da função setEffect com 7 parâmetros, incluindo startValue, start, endValue e end" height="30"/>
 
 - `startValue`: O valor inicial aplicado ao parâmetro
 - `start`: A medida em que o valor inicial é definido
@@ -35,4 +35,4 @@ Esta versão do `setEffect` permite que façamos *automação* em uma parte espe
 
 Seu código deve ficar parecido com isto:
 
-<img src="../img/screenshot-set-effect-2.png" height="400"/>
+<img src="../img/screenshot-set-effect-2.png" alt="Script de exemplo com setEffect aplicando fade in usando VOLUME e GAIN" height="400"/>

@@ -7,7 +7,7 @@ weight: 9
 draft: false
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/m0d9NT0MEPE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m0d9NT0MEPE" title="Atividade 9: Rotacione sua imagem - YouTube video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Nesta seção, vamos aprender como girar sua imagem usando pixels.
 

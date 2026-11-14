@@ -7,19 +7,19 @@ difficulties: ["intermediate"]
 prereq: "Noções básicas de Python - Escrever no Console (Print), Ler do Console, Strings, Variáveis, Declarações condicionais"
 ---
 
-É hora de abrir o Trinket. Agora é hora de criar, vamos ser criativos!
+É hora de abrir o Codebunga. Agora é hora de criar, vamos ser criativos!
 
 Você pode continuar trabalhando na linha da história de Nuvi:
 
-<iframe src="https://trinket.io/python/3393e67d683a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/vky5wh8y" title="Seção 2: Transferindo o Story Board para o Código! - Codebunga editor 1" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Você pode trabalhar em um modelo para um jogo de Escolha Sua Própria Aventura:
 
-<iframe src="https://trinket.io/python/e8911d860986" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/7s5rkuud" title="Seção 2: Transferindo o Story Board para o Código! - Codebunga editor 2" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-Ou você pode começar do zero e fazer do seu jeito! Basta ir ao Trinket e começar a contar histórias!
+Ou você pode começar do zero e fazer do seu jeito! Basta ir ao Codebunga e começar a contar histórias!
 
-<iframe src="https://trinket.io/embed/python/b238d85d0d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://codebunga.com/embed/hycqv2uf" title="Seção 2: Transferindo o Story Board para o Código! - Codebunga editor 3" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 # Código do Storyboard
 

@@ -5,6 +5,9 @@ weight: 4
 ---
 
 ## Conheça a ALICE
+
+<img src="../img/chatbot1.png" alt="Um balão de fala verde-azulado com um rosto de robô simplificado, com uma tela retangular mostrando dois olhos ovais alaranjados, decorado com uma pequena flor roxa e cercado por um fone de ouvido branco com conchas circulares" width="20%"/>
+
 Antes de começarmos a construir nosso próprio chatbot, vamos conhecer a ALICE e fazer algumas perguntas a ela. Você deve continuar com esta página aberta e disponível.
 
 <a class="my-2 mx-4 btn btn-info" href="https://www.pandorabots.com/pandora/talk?botid=b8d616e35e36e881" target="_blank">Experimente a ALICE</a>

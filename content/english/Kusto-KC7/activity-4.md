@@ -4,7 +4,7 @@ draft: false
 weight: 16
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/HjKkQVH5-rQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/HjKkQVH5-rQ" title="Activity 4: Catch the Hacker - YouTube video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 {{< notice note >}}This is a much shorter section, we're just going to explain the scenario and let you go for free hunting time. You can take however much time you'd like to on this portion, but for live sessions we generally give participants 30-40 minutes before moving on.
 

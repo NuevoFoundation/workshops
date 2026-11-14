@@ -2,13 +2,13 @@
 
 {{- if eq .Site.Params.orderSectionsBy "title"}}
   {{- range .Site.Home.Sections.ByTitle}}
-    {{- if (or (eq $currentNode .Site.Home) (.IsAncestor $currentNode))}}
+    {{- if (or (eq $currentNode .Site.Home) (eq .RelPermalink $currentNode.RelPermalink) (.IsAncestor $currentNode))}}
       {{- template "menu-nav" dict "sect" . "currentnode" $currentNode "level" 1}}
     {{- end}}
   {{- end}}
 {{- else}}
   {{- range .Site.Home.Sections.ByWeight}}
-    {{- if (or (eq $currentNode .Site.Home) (.IsAncestor $currentNode))}}
+    {{- if (or (eq $currentNode .Site.Home) (eq .RelPermalink $currentNode.RelPermalink) (.IsAncestor $currentNode))}}
       {{- template "menu-nav" dict "sect" . "currentnode" $currentNode "level" 1}}
     {{- end}}
   {{- end}}
@@ -25,7 +25,7 @@
   {{- range after 1 (seq $level)}}-{{ end }}
   {{end}} {{.Title}}</option>
 
-{{- if or (.IsAncestor $currentNode) (.Params.alwaysopen) }}
+{{- if or (eq .RelPermalink $currentNode.RelPermalink) (.IsAncestor $currentNode) (.Params.alwaysopen) }}
 <!-- dig into sub levels only if active or menu is always ON-->
 
 {{- $numberOfPages := (add (len .Pages) (len .Sections)) }}

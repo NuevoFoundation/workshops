@@ -1,7 +1,7 @@
 ---
 title: "Python: Machine Learning"
 description: "Basics of Machine Learning"
-prereq: "none"
+prereq: "None"
 draft: false
 language: "python"
 topics: ["ai"]

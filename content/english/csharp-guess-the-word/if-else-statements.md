@@ -105,7 +105,7 @@ Afterwards, the console waits for user input.
 - If the user enters no, the computer prints out `Oh no, that's too bad!`.
 - Otherwise, the computer prints out: `I don't understand you! Goodbye!`.
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/ULv0JH" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/ULv0JH" title="If-else statements - .NET Fiddle editor" frameborder="0"></iframe>
 
 {{% /notice %}}
 

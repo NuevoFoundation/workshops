@@ -7,7 +7,7 @@ weight: 11
 draft: false
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KWL3b4xY8dA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KWL3b4xY8dA" title="Atividade 11: Desafio – Crie sua própria imagem - YouTube video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Nesta seção, vamos usar tudo o que você aprendeu até agora para criar e modificar sua própria imagem!  
 Você pode fazer qualquer combinação de quadros de cor, desenhos, filtros, recortes, espelhamentos, mudanças de cor ou até adicionar texto.

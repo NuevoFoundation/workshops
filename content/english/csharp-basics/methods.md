@@ -128,4 +128,4 @@ Once you solved the challenge, you will see the following message:
 Congratulations! Challenge Solved!
 ```
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/ireaAA" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/ireaAA" title="Interactive C# methods challenge" frameborder="0"></iframe>

@@ -1,5 +1,5 @@
 ---
-title: "C#: Guess The Word Game"
+title: "C#: Guess the Word Game"
 description: "An introductory guide on how to make a simple Guess The Word from scratch using C#"
 date: 2019-07-23T11:45:38-07:00
 prereq: "None"

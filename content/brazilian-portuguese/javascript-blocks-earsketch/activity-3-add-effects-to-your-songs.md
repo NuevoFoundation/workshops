@@ -11,7 +11,7 @@ draft: false
 
 Antes de começarmos a adicionar efeitos à nossa música, vamos analisar as partes das duas funções `setEffect`:
 
-<img src="../img/screenshot-seteffect1.png" height="30"/>
+<img src="../img/screenshot-seteffect1.png" alt="Assinatura da função setEffect com os parâmetros track, effectType, effectParameter e effectValue" height="30"/>
 
 - `track`: O número da trilha à qual o efeito será aplicado. Nota: Para aplicar um efeito à trilha Master, use 0 como valor para track. A trilha master é onde todo o áudio é reproduzido em conjunto. Essa é uma maneira fácil de aplicar um efeito a todos os sons processados.
 - `effectType`: O efeito específico que está sendo utilizado.
@@ -37,13 +37,13 @@ Antes de começarmos a adicionar efeitos à nossa música, vamos analisar as par
 
 <div class="row">
   <div class="column">
-    <img src="../img/Robot_2_Pink.PNG" width="45%">
+    <img src="../img/Robot_2_Pink.png" alt="Ilustração de robô rosa" width="45%">
   </div>
   <div class="column">
-    <img src="../img/Robot_1_Green.PNG" width="45%">
+    <img src="../img/Robot_1_Green.png" alt="Ilustração de robô verde" width="45%">
   </div>
   <div class="column">
-    <img src="../img/Robot_2_Blue.PNG" width="45%">
+    <img src="../img/Robot_2_Blue.png" alt="Ilustração de robô azul" width="45%">
   </div>
 </div>
 
@@ -59,4 +59,4 @@ Agora que estamos mais familiarizados com o uso de efeitos, vamos adicionar um e
 
 Seu código deve ficar parecido com este:
 
-<img src="../img/screenshot-set-effect-1.png" height="400"/>
+<img src="../img/screenshot-set-effect-1.png" alt="Script de exemplo com o bloco setEffect usando DELAY e DELAY_FEEDBACK" height="400"/>

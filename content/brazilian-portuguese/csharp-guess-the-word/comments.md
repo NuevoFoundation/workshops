@@ -27,7 +27,7 @@ Para remover um comentário (ou descomentar uma linha), basta apagar o `//` no c
 2. Apague o `//` e, em vez disso, coloque `/*` e `*/` em volta de `Console.WriteLine("Hello World");`. Confira se `Hello World` continua não aparecendo no console depois de apertar **run**.
 3. Apague tanto `/*` quanto `*/`, e aperte **run**. Agora `Hello World` deve ser mostrado no console.
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/pdWOTp" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/pdWOTp" title="Comentários - .NET Fiddle editor" frameborder="0"></iframe>
 
 Durante a atividade de hoje você verá vários comentários de múltiplas linhas e `// TODO`. Esses comentários vão nos guiar para completar o jogo Adivinhe a Palavra, então tenha certeza de que entende como comentar e descomentar código.
 

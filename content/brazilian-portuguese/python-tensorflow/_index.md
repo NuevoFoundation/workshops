@@ -1,5 +1,5 @@
 ---
-title: "Python: Fundamentos de Machine Learning com TensorFlow"
+title: "TensorFlow: Fundamentos de Machine Learning"
 description: "Aprenda classificação básica de imagens e treine modelos de ML com TensorFlow"
 date: 2020-09-09T16:19:17-07:00
 prereq: "Fundamentos de Python"
@@ -19,7 +19,7 @@ Você também pode usar [este vídeo](https://www.youtube.com/watch?v=FiNglI1wRN
 
 Os vídeos a seguir mostrarão todo o código e as atividades. Recomendamos que você **faça as atividades primeiro antes de assistir às soluções explicadas**.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6FfxBNRn0Ww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6FfxBNRn0Ww" title="Python: Fundamentos de Machine Learning com TensorFlow - YouTube video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Começando com o Google Colab
 

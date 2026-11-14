@@ -2,6 +2,9 @@
 [navigation]
 other = "Навигация:"
 
+[skip-workshop-content]
+other = "Семинардын мазмунуна өтүү"
+
 # next-prev-button.html
 [up-next]
 other = "Кийинки:"

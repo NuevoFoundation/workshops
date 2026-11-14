@@ -34,7 +34,7 @@ Propriedade da Coluna:
 Você pode substituir qualquer palavra dentro dos parênteses por outro nome de coluna para obter o maior ou menor valor dessa coluna.
 {{% /notice%}}
 
-![IN](assets/Em.png)
+![IN](assets/In.png)
 ![NOT](assets/not.png)
 
 {{% notice info %}}

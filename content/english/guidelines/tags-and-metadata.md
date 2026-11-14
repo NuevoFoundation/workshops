@@ -1,6 +1,6 @@
 ---
 title: "Tags and metadata"
-date: 2026-04-25T00:00:00-07:00
+date: 2026-09-16T00:00:00-07:00
 draft: false
 weight: 10
 ---
@@ -14,7 +14,7 @@ Every markdown file needs at minimum:
 ```yaml
 ---
 title: "Page Title"
-date: 2026-04-25T00:00:00-07:00
+date: 2026-09-16T00:00:00-07:00
 draft: false
 ---
 ```
@@ -22,7 +22,7 @@ draft: false
 | Field | Purpose | Example |
 |-------|---------|---------|
 | `title` | Display title in nav and page header | `"Python: Basics"` |
-| `date` | Last update date (shown on site) | `2026-04-25T00:00:00-07:00` |
+| `date` | Last update date (shown on site) | `2026-09-16T00:00:00-07:00` |
 | `draft` | `false` for published, `true` for work-in-progress | `false` |
 
 ## Workshop landing page fields
@@ -33,8 +33,10 @@ The `_index.md` file for a workshop supports additional fields:
 ---
 title: "Python: Basics"
 description: "Learn Python fundamentals including variables, loops, and functions"
-date: 2026-04-25T00:00:00-07:00
-difficulty: "Beginner"
+date: 2026-09-16T00:00:00-07:00
+language: "python"
+topics: ["programming-basics"]
+difficulties: ["beginner"]
 prereq: "None"
 draft: false
 hidden: false
@@ -47,12 +49,26 @@ weight: 1
 | Field | Purpose | Values |
 |-------|---------|--------|
 | `description` | Short summary shown in listings | Free text |
-| `difficulty` | Skill level | `Beginner`, `Intermediate`, `Advanced` |
+| `language` | Coding language filter | A token from `data/taxonomy.yaml` |
+| `topics` | Topic filters | One or more tokens from `data/taxonomy.yaml` |
+| `difficulties` | Difficulty filters | One or more tokens from `data/taxonomy.yaml` |
 | `prereq` | Prerequisites | `"None"` or workshop name |
 | `hidden` | Hide from navigation | `true` / `false` |
 | `alwaysopen` | TOC expand behavior | `false` (preferred) |
 | `icon` | Font Awesome icon for homepage | See icons below |
 | `weight` | Sort order in navigation | Number (lower = first) |
+
+The `language`, `topics`, and `difficulties` fields determine how a workshop
+appears in the Workshops tab filters. Use only the controlled values in
+`data/taxonomy.yaml`. Unknown values do not create new filter options.
+
+Example:
+
+```yaml
+language: "javascript"
+topics: ["games", "web"]
+difficulties: ["beginner"]
+```
 
 ## Common icons
 
@@ -78,7 +94,7 @@ Activity pages are simpler:
 ```yaml
 ---
 title: "Activity 1: Hello World"
-date: 2026-04-25T00:00:00-07:00
+date: 2026-09-16T00:00:00-07:00
 draft: false
 weight: 3
 ---
@@ -91,7 +107,7 @@ Answer keys should be hidden from navigation:
 ```yaml
 ---
 title: "Python: Basics - Answer Key"
-date: 2026-04-25T00:00:00-07:00
+date: 2026-09-16T00:00:00-07:00
 draft: false
 weight: 15
 hidden: true

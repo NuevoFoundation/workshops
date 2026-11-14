@@ -29,7 +29,7 @@ Muitos sites oferecem iframes para incorporar ao seu site. Por exemplo, veja com
 
 ### Aqui está um exemplo de iframe
 Copie o seguinte código:
-`<iframe width="560" height="315" src="https://www.youtube.com/embed/lQsqEBSGdyc" frameborder="0" permitir="acelerômetro; reprodução automática; mídia criptografada; giroscópio; imagem- na imagem" permitir tela cheia> </iframe>`
+`<iframe width="560" height="315" src="https://www.youtube.com/embed/lQsqEBSGdyc" title="Media Elements - YouTube video 1" frameborder="0" permitir="acelerômetro; reprodução automática; mídia criptografada; giroscópio; imagem- na imagem" permitir tela cheia> </iframe>`
 
 Cole-o na sua Code Pen e ficará assim:
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/lQsqEBSGdyc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe></center>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/lQsqEBSGdyc" title="Media Elements - YouTube video 2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe></center>

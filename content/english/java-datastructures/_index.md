@@ -10,7 +10,7 @@ topics: ["programming-basics"]
 difficulties: ["intermediate"]
 ---
 
-<p style="text-align: center;"><iframe width="60%" height="600px" src="https://youtube.com/embed/UeK31RyFzN0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="60%" height="600px" src="https://youtube.com/embed/UeK31RyFzN0" title="Java: Data Structures - YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 <!--<link rel="stylesheet" href="../../style.css">-->
 

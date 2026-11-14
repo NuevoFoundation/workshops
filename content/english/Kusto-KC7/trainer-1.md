@@ -9,7 +9,7 @@ weight: 24
             - KC7 Architects         
             Simeon Kakpovi, Greg Schloemer, & Emily Hacker
 <!--<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/b82yaK15kfQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>-->
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/b82yaK15kfQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/b82yaK15kfQ" title="T3: Train-the-Trainer Intro - YouTube video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 *[Check out our interview on the SANS podcast.]*
 ### Know Your Why

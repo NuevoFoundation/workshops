@@ -1,5 +1,5 @@
 ---
-title: "Python: Fundamentos"
+title: "Python Fundamentos"
 description: "Aprenda conceitos básicos de uso da linguagem de programação Python"
 date: 2022-09-19T14:45:38-07:00
 prereq: "nenhum"
@@ -24,7 +24,7 @@ Hoje, Python é usado por desenvolvedores em todo o mundo. Especificamente, Pyth
 
 E, neste curso, abordaremos todos os recursos básicos da linguagem.
 
-Se a qualquer momento você ficar travado ou tiver problemas, acesse a seção [Ajuda, estou travado!](help.md) página para obter algumas dicas rápidas e soluções para erros comuns.
+Se a qualquer momento você ficar travado ou tiver problemas, acesse a seção [Ajuda, estou travado!](help/) página para obter algumas dicas rápidas e soluções para erros comuns.
 
 <details open>
 <summary>Tópicos</summary>

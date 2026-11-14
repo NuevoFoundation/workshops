@@ -5,7 +5,7 @@ draft: false
 weight: 3
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/jV0Yx8eAM0Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/jV0Yx8eAM0Q" title="A closer look - YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 Bob received the following email the other night.
 

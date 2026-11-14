@@ -1,6 +1,6 @@
 baseURL = "/"
 
-languageCode = "en-us"
+locale = "en-us"
 DefaultContentLanguage = "en"
 title = "DocDock Documentation"
 theme = "hugo-theme-docdock"
@@ -17,12 +17,12 @@ enableMissingTranslationPlaceholders = false
 # [Languages.en]
 # title = "Documentation for Hugo docDock"
 # weight = 1
-# languageName = "English"
+# label = "English"
 # 
 # [Languages.fr]
 # title = "Documentation du thème docDock"
 # weight = 2
-# languageName = "Français"
+# label = "Français"
 
 
 

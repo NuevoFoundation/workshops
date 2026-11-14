@@ -5,8 +5,6 @@ difficulties: ["advanced"]
 weight: 7
 ---
 
-<img src="../images/room7_actions.jpg" alt="A room filled with gears and conveyor belts representing automated workflows" />
-
 You step into a room buzzing with activity. Gears turn and conveyor belts move, symbolizing automated processes. A holographic display flickers to life: "Automate your way to victory!"
 
 ## Your Mission

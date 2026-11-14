@@ -7,7 +7,7 @@ weight: 8
 draft: false
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Jx_b8111WW0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Jx_b8111WW0" title="Atividade 8: Inverta sua imagem - YouTube video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Nesta seção, vamos aprender como inverter sua imagem usando pixels.
 

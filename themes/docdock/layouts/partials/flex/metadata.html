@@ -4,7 +4,27 @@
         {{ with .Param "prereq" }}
         <div class="metadata-row">
             <span class="metadata-label">{{ i18n "pre-requisite" }}</span>
-            <span class="metadata-value">{{ . }} </span>
+            <span class="metadata-value">
+                {{- $pythonBasics := $.Site.GetPage "/python-basics" -}}
+                {{- $javaBasics := $.Site.GetPage "/java-basics" -}}
+                {{- $csharpBasics := $.Site.GetPage "/csharp-basics" -}}
+                {{- $parts := split . "," -}}
+                {{- $separator := "" -}}
+                {{- range $parts -}}
+                    {{- $part := trim . " " -}}
+                    {{- $separator -}}
+                    {{- if and (eq $part "Python Basics") $pythonBasics -}}
+                        <a href="{{ $pythonBasics.RelPermalink }}">{{ $part }}</a>
+                    {{- else if and (eq $part "Java Basics") $javaBasics -}}
+                        <a href="{{ $javaBasics.RelPermalink }}">{{ $part }}</a>
+                    {{- else if and (eq $part "C# Basics") $csharpBasics -}}
+                        <a href="{{ $csharpBasics.RelPermalink }}">{{ $part }}</a>
+                    {{- else -}}
+                        {{ $part }}
+                    {{- end -}}
+                    {{- $separator = ", " -}}
+                {{- end -}}
+            </span>
         </div>
         {{ end }}
         {{ with .Param "difficulties" }}

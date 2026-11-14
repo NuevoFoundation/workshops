@@ -7,7 +7,7 @@ weight: 3
 draft: false
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YkxNH1TWjR0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YkxNH1TWjR0" title="Atividade 3: Desafio: Crie novos elementos - YouTube video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Usando loops, você pode criar seus próprios elementos no quadro de cores. Dá para desenhar seu próprio logo ou qualquer outra coisa que quiser nesse quadro. Aqui está um exemplo que preparamos para você.
 

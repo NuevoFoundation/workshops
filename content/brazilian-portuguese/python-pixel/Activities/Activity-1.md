@@ -7,7 +7,7 @@ weight: 1
 draft: false
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Nz3Uz4kBoUU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Nz3Uz4kBoUU" title="Atividade 1: Crie um quadro de cores - YouTube video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Exemplo de um quadro de cores básico
 

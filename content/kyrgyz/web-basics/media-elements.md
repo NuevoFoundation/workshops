@@ -29,7 +29,7 @@ Iframes биздин сайттын ичинде башка веб-сайтта�
 
 ### iframe үлгүсү
 Төмөнкү кодду көчүрүңүз:
-`<iframe width="560" height="315" src="https://www.youtube.com/embed/lQsqEBSGdyc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>`
+`<iframe width="560" height="315" src="https://www.youtube.com/embed/lQsqEBSGdyc" title="Медиа элементтери - YouTube video 1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>`
 
 Кодду Code Pen-ге киргизсеңиз ал ушундай көрүнөт:
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/lQsqEBSGdyc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe></center>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/lQsqEBSGdyc" title="Медиа элементтери - YouTube video 2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe></center>

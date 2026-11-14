@@ -1,11 +1,11 @@
 ---
-title: "Linux: Basics"
+title: "Linux Basics"
 description: "An introductory guide to using the Linux command line."
 date: 2022-09-23
-prereq: "None."
+prereq: "None"
 download: ""
 draft: false
-icon: "fas fa-microchip"
+icon: "fab fa-linux"
 weight: 1
 language: "linux"
 topics: ["tools"]
@@ -22,7 +22,7 @@ This tutorial requires:
 
 {{% /notice %}}
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/zfdlPZYlgtk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/zfdlPZYlgtk" title="Linux: Basics - YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ## Welcome!
 

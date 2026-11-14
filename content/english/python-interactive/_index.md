@@ -14,7 +14,7 @@ difficulties: ["intermediate"]
 ## Introduction
 In this project, we're going to create a fun console application that allows the user to order from a restaurant based on their menu. So go ahead and choose your favorite restaurant/fast-food place and let's get started!
 
-Note: If you're unfamiliar with Trinket, take a look at the [Python Turtle workshops's Using Trinket](../python-turtle/using-trinket) page for more information.
+Note: If you're unfamiliar with Codebunga, take a look at the [Python Turtle workshop's Using Codebunga](../python-turtle/using-codebunga) page for more information.
 
 ## Table of Contents
 <details>

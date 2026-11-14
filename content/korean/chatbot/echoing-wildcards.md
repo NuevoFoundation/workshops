@@ -20,6 +20,8 @@ weight: 9
 
 이 카테고리가 어떻게 작동하는지 살펴봅시다. "MY FAVORITE COLOR IS " 패턴은 "MY FAVORITE COLOR IS"로 시작하는 모든 입력에 매칭되며, 그 뒤에 오는 단어나 구는 무엇이든 캡처됩니다. 따라서 이 패턴은 "MY FAVORITE COLOR IS BLUE", "MY FAVORITE COLOR IS RED", "MY FAVORITE COLOR IS GREEN" 등과 같은 입력에 매칭됩니다.  ```<star />``` 태그는 사용자가 입력한 단어나 구를 캡처하여 응답에 사용합니다. 예를 들어, 사용자가 "MY FAVORITE COLOR IS BLUE"라고 입력하면, "blue"라는 단어가 와일드카드로 캡처되며, 봇은 "Your favorite color is blue"라고 응답합니다.
 
+<img src="../img/sentence_response.png" alt="Illustration showing how a chatbot matches sentence patterns and responds" width="27%" />
+
 다음은 이 카테고리의 입력과 출력 예시입니다:
 
 입력 | 출력 

@@ -16,13 +16,13 @@
 
 {{- if eq .Site.Params.orderSectionsBy "title"}}
   {{- range .Site.Home.Sections.ByTitle}}
-    {{- if (or (eq $currentNode .Site.Home) (.IsAncestor $currentNode))}}
+    {{- if (or (eq $currentNode .Site.Home) (eq .RelPermalink $currentNode.RelPermalink) (.IsAncestor $currentNode))}}
       {{- template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks}}
     {{- end}}
   {{- end}}
   {{- else}}
     {{- range .Site.Home.Sections.ByWeight}}
-      {{- if (or (eq $currentNode .Site.Home) (.IsAncestor $currentNode))}}
+      {{- if (or (eq $currentNode .Site.Home) (eq .RelPermalink $currentNode.RelPermalink) (.IsAncestor $currentNode))}}
         {{- template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks}}
       {{- end}} 
     {{- end}}
@@ -53,8 +53,8 @@
     </a>
 
     {{- if ne $numberOfPages 0 }}
-      <button type="button" class="category-icon" aria-expanded="{{- if or (.IsAncestor $currentNode) (.Params.alwaysopen) }}true{{- else }}false{{- end}}" aria-label="Toggle {{.Title}}">
-      {{- if or (.IsAncestor $currentNode) (.Params.alwaysopen) }}
+      <button type="button" class="category-icon" aria-expanded="{{- if or (eq .RelPermalink $currentNode.RelPermalink) (.IsAncestor $currentNode) (.Params.alwaysopen) }}true{{- else }}false{{- end}}" aria-label="Toggle {{.Title}}">
+      {{- if or (eq .RelPermalink $currentNode.RelPermalink) (.IsAncestor $currentNode) (.Params.alwaysopen) }}
         <i class="fa fa-lg fa-angle-up" aria-hidden="true"></i>
       {{- else -}}
         <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>

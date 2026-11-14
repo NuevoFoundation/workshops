@@ -223,6 +223,11 @@
 .workshop-explorer-filters .we-chip-group[data-dimension="language"] {
   border-left: 4px solid var(--we-teal);
 }
+.workshop-explorer-filters .we-chip-group[data-dimension="prereq"] {
+  border-left: 4px solid var(--we-border);
+  /* Darken the approved green hue; retain a visible fallback for older browsers. */
+  border-left-color: hsl(from var(--we-green-soft) h s 35%);
+}
 .workshop-explorer-filters .we-chip-group[data-dimension="topics"] {
   border-left: 4px solid var(--we-red);
 }
@@ -330,6 +335,32 @@
 .workshop-explorer-filters
   .we-chip-group[data-dimension="topics"] .we-chip[aria-pressed="true"] .fas {
   color: #ffffff;
+}
+
+/* Keep long prerequisite descriptions readable and selection distinct from the row. */
+.workshop-explorer-filters .we-chip-group[data-dimension="prereq"] .we-chip {
+  max-width: 100%;
+  text-align: left;
+  white-space: normal;
+  transform: none;
+}
+.workshop-explorer-filters .we-chip-group[data-dimension="prereq"] .we-chip:focus-visible {
+  outline: 2px solid var(--we-ink);
+  outline-offset: 4px;
+}
+.workshop-explorer-filters .we-chip-group[data-dimension="prereq"] .we-chip span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.workshop-explorer-filters
+  .we-chip-group[data-dimension="prereq"] .we-chip[aria-pressed="true"] {
+  background: var(--we-green-soft);
+  color: var(--we-ink);
+  box-shadow: inset 0 0 0 2px var(--we-border), -3px 3px 0 0 var(--we-border);
+}
+.workshop-explorer-filters
+  .we-chip-group[data-dimension="prereq"] .we-chip[aria-pressed="true"] .fa-list-check::before {
+  content: "\f00c";
 }
 
 /* per-value override for difficulty so the three levels read distinctly */

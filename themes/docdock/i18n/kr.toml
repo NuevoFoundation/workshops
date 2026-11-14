@@ -2,6 +2,9 @@
 [navigation]
 other = "항해:"
 
+[skip-workshop-content]
+other = "워크숍 콘텐츠로 건너뛰기"
+
 # next-prev-button.html
 [up-next]
 other = "다음:"

@@ -5,7 +5,7 @@ draft: false
 weight: 3
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/unwrTbTILmA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/unwrTbTILmA" title="Problem 1: ArrayList Basics - YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 <!--<link rel="stylesheet" href="../../style.css">-->
 
@@ -30,7 +30,7 @@ Dan is ordering from his favorite taco shop:
 2. What does Dan want in the order?
 {{% /notice %}}
 
-<iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@nuevofoundation/2DInsert?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@nuevofoundation/2DInsert?lite=true" title="Problem 1: ArrayList Basics - Replit editor 1"></iframe>
 
 ## Task 2: Getting elements
 
@@ -53,7 +53,7 @@ item = find(menu, 0);
 2. Look at the example menu!
 {{% /notice%}}
 
-<iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@nuevofoundation/2DFind?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@nuevofoundation/2DFind?lite=true" title="Problem 1: ArrayList Basics - Replit editor 2"></iframe>
 
 ## Task 3: Removing Elements
 
@@ -75,6 +75,6 @@ item = remove(menu,"Pizza", 2);
 // Menu will not be the following array: {"Hotdog", "Hamburger", "Pizza", "Hotdog"}
 ```
 
-<iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@nuevofoundation/2DRemove?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@nuevofoundation/2DRemove?lite=true" title="Problem 1: ArrayList Basics - Replit editor 3"></iframe>
 
 

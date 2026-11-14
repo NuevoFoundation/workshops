@@ -23,7 +23,7 @@ Also, adding comments will not affect the program whatsoever. So, you can add co
 
 In the .NET Fiddle frame below, add a single line comment and a multi-line comment to your program.
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/TTAhVm" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/TTAhVm" title="Interactive C# comments exercise" frameborder="0"></iframe>
 
 {{% notice tip %}}
 

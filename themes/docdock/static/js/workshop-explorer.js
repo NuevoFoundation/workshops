@@ -15,7 +15,7 @@
   var filters = document.querySelector(".workshop-explorer-filters");
   if (!explorer || !filters) return;
 
-  // Collect all card elements (direct spans) and remember their home <li>.
+  // Collect all card list items and remember their original positions.
   var cards = Array.prototype.slice.call(
     explorer.querySelectorAll(".workshop-button")
   );
@@ -34,9 +34,10 @@
     filters.querySelectorAll(".we-chip-group")
   );
 
-  // State: { difficulties: Set, language: Set, topics: Set, q: string, group: string }
+  // State: { difficulties: Set, prereq: Set, language: Set, topics: Set, q: string, group: string }
   var state = {
     difficulties: new Set(),
+    prereq: new Set(),
     language: new Set(),
     topics: new Set(),
     q: "",
@@ -70,7 +71,7 @@
 
   function writeHash() {
     var parts = [];
-    ["difficulties", "language", "topics"].forEach(function (dim) {
+    ["difficulties", "prereq", "language", "topics"].forEach(function (dim) {
       if (state[dim].size) {
         parts.push(
           encodeURIComponent(dim) +
@@ -114,6 +115,7 @@
     if (!badge) return;
     var n =
       state.difficulties.size +
+      state.prereq.size +
       state.language.size +
       state.topics.size +
       (state.q ? 1 : 0) +
@@ -149,6 +151,10 @@
         if (state.difficulties.has(dtoks[i])) { ok = true; break; }
       }
       if (!ok) return false;
+    }
+    if (state.prereq.size) {
+      var prereq = card.getAttribute("data-prereq") || "";
+      if (!state.prereq.has(prereq)) return false;
     }
     if (state.language.size) {
       var lang = card.getAttribute("data-language") || "";
@@ -205,6 +211,9 @@
       ".we-chip-group[data-dimension='" + dim + "']"
     );
     if (chipGroup) {
+      if (key === "unspecified" && dim === "prereq") {
+        return chipGroup.getAttribute("data-unspecified-label");
+      }
       var chip = chipGroup.querySelector(".we-chip[data-value='" + CSS.escape(key) + "']");
       if (chip) return chip.textContent.trim();
     }
@@ -277,6 +286,7 @@
       resultCountEl.textContent = tmpl.replace("{n}", visibleCount);
     }
 
+    updateActiveCount();
     writeHash();
   }
 
@@ -312,6 +322,7 @@
 
   clearBtn.addEventListener("click", function () {
     state.difficulties.clear();
+    state.prereq.clear();
     state.language.clear();
     state.topics.clear();
     state.q = "";

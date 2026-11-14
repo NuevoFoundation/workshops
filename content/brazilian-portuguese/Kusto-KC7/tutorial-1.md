@@ -4,7 +4,7 @@ draft: false
 weight: 6
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/F6qFmiV6Alc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/F6qFmiV6Alc" title="Tutorial 1: Introdução à Inteligência contra Ameaças - YouTube video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 {{< notice note >}} Conforme você avança neste workshop, vai perceber que cada página com vídeo repete a lição tanto em vídeo quanto em texto. Você pode seguir um ou outro, dependendo do seu estilo de aprendizado. {{< /notice >}}
 

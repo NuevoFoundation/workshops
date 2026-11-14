@@ -5,8 +5,6 @@ difficulties: ["intermediate"]
 weight: 8
 ---
 
-<img src="../images/room8_projects.jpg" alt="A room with floating kanban boards and project timelines" />
-
 You enter a room filled with floating kanban boards and project timelines. A soothing voice announces: "Bring order to chaos, plan your escape!"
 
 ## Your Mission

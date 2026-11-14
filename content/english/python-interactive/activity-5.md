@@ -6,7 +6,7 @@ draft: false
 ---
 ## Pre-reqs
 - <a href="../../python-basics/functions" target="_blank">Functions</a>
-- <a href="../../python-basics/Loops" target="_blank">Loops</a>
+- <a href="../../python-basics/conditional-statements-loops/loops/" target="_blank">Loops</a>
 
 ## Analyzing the customer's order
 We've got the customer's order, and now we have to simply calculate how much their order costs!

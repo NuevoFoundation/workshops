@@ -15,4 +15,3 @@ Nuvi needs to plan and document the escape strategy to complete the adventure.
 ### Clues:
 - Use issues and project boards to stay organized and track progress.
 
-![Nuvi Creating an Issue](/images/nuvi_issue.png)

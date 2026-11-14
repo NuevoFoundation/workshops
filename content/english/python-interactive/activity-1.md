@@ -6,7 +6,7 @@ weight: 2
 draft: false
 ---
 ## Pre-reqs
-- <a href="../../python-basics/python-console/writing-to-console" target="_blank">Printing with Python</a>
+- <a href="../../python-basics/basics/writing-to-console/" target="_blank">Printing with Python</a>
 
 ## Create your Restaurant Banner
 When setting up your restaurant's virtual cashier, we're going to have to first make sure we have a restaurant banner with the name of your restaurant. Since we want an actual banner, not just plain text for the name, let's use ASCII art! ASCII art uses special symbols such as `()`, `{}`, `*` and other keys to create images and words.

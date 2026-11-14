@@ -21,7 +21,7 @@ Para ir a alguna actividad específica, puedes darle click a cualquier sección 
 
 ![DJ Nuvi](https://media.giphy.com/media/OTk8FTCvQ5WQQfJqVf/giphy.gif)
 
-## ¡Nuvi tiene sus audífonos! ¿Puedes encontrar los tuyos?
+### ¡Nuvi tiene sus audífonos! ¿Puedes encontrar los tuyos?
 
 Te estamos contactando para crear el próximo éxito de Nuvi, pero cuando llegas al estudio, Nuvi dice que su próximo proyecto se va a producir todo en código. Esto es algo que no se ha hecho antes, ¿estás listo para el desafío? ¡Mira a tu alrededor para encontrar tus audífonos y prepárate para unirte a él!
 
@@ -30,7 +30,7 @@ Antes de empezar, debemos comprobar si tus audífonos están funcionando. Intent
 <figure>
     <audio
         controls
-        src="../audio/good-enough.mp3">
+        src="./audio/good-enough.mp3">
             Verifica tu audio para ver si tu browser/navegador tiene soporte para audio. Sino suena, entonces es probable que necesites usar otro browser/navegador de internet como Google Chrome. 
             <code>audio</code> element.
     </audio>

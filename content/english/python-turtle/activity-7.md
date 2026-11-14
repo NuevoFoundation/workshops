@@ -5,7 +5,7 @@ weight: 10
 draft: false
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/f1LwVBXHRhs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe title="Drawing a figure eight with Python Turtle" width="560" height="315" src="https://youtube.com/embed/f1LwVBXHRhs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 <img src="../media/turtle_circles.png" alt="drawing a figure 8" width="25%"/>
 
@@ -24,4 +24,4 @@ In the above example, the circle is 40 pixels wide and the circle is drawn in a 
 
 Using this information, create a new function called `figure_8()` which draws a figure 8.
 
-<iframe src="https://trinket.io/embed/python/e87cb9f3b9" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Interactive Python Turtle code editor for drawing a figure eight" src="https://codebunga.com/embed/4we8rxu9" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

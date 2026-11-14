@@ -1,0 +1,65 @@
+/* Centralized styles for logic gates */
+
+.lg-details {
+	margin: 20px 0;
+}
+
+.lg-summary {
+	cursor: pointer;
+	padding: 12px 20px;
+	background: #10b981;
+	color: white;
+	border-radius: 8px;
+	font-weight: 600;
+	display: inline-block;
+	box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+	transition: transform 0.2s;
+}
+
+.lg-div {
+	margin-top: 15px;
+	padding: 15px;
+	border-left: 4px solid #10b981;
+	background-color: #f8f9fa;
+	border-radius: 4px;
+}
+
+.lg-img {
+	vertical-align: middle;
+	margin-left: 10px !important;
+}
+
+.lg-icon-guide {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 10px 20px;
+	margin: 8px 0 16px;
+	padding: 10px 0;
+	border-top: 1px solid #d9d9d9;
+	border-bottom: 1px solid #d9d9d9;
+}
+
+.lg-icon-guide-item {
+	display: flex;
+	align-items: center;
+	gap: 7px;
+	min-width: 125px;
+}
+
+.lg-icon-guide-item img {
+	width: 42px;
+	height: 34px;
+	object-fit: contain;
+}
+
+.lg-icon-guide-item span {
+	display: flex;
+	flex-direction: column;
+	font-size: 12px;
+	line-height: 1.25;
+}
+
+.lg-icon-guide-item strong {
+	font-size: 14px;
+}

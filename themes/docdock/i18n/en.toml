@@ -2,6 +2,9 @@
 [navigation]
 other = "Navigation:"
 
+[skip-workshop-content]
+other = "Skip to workshop content"
+
 # next-prev-button.html
 [up-next]
 other = "Up Next:"
@@ -109,6 +112,9 @@ other = "None"
 
 [workshop-explorer-empty]
 other = "No workshops match your filters."
+
+[workshop-explorer-unspecified]
+other = "Not specified"
 
 [workshop-explorer-count]
 other = "{n} workshops"

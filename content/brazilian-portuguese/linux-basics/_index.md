@@ -1,11 +1,11 @@
 ---
-title: "Minicurso básico de Linux"
+title: "Linux Básico"
 description: "Um guia introdutório sobre os comandos básicos do Linux."
 date: 2022-09-21
 prereq: "Nenhum"
 download: ""
 draft: false
-icon: "fas fa-microchip"
+icon: "fab fa-linux"
 weight: 1
 language: "linux"
 topics: ["tools"]
@@ -23,7 +23,7 @@ Antes de prosseguirmos, vamos aos requisitos necessários para completar nosso c
 
 {{% /notice %}}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zfdlPZYlgtk" alt="Um vídeo do YouTube que apresenta o Minicurso de Linux" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zfdlPZYlgtk" title="Minicurso básico de Linux - YouTube video" alt="Um vídeo do YouTube que apresenta o Minicurso de Linux" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Nossas boas-vindas!
 

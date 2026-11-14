@@ -1,6 +1,6 @@
 ---
 title: "Creating a new workshop"
-date: 2026-04-26T00:00:00-07:00
+date: 2026-09-16T00:00:00-07:00
 draft: false
 weight: 2
 ---
@@ -30,14 +30,57 @@ Study these gold-standard workshops before building your own:
 ### Python turtle — [content/english/python-turtle/](https://github.com/NuevoFoundation/workshops/tree/master/content/english/python-turtle)
 
 - **Theme**: Help Alex the Bee build a honeycomb home using Python drawing
-- **Why it works**: 11 YouTube videos, embedded Trinket IDE, visual results (students SEE their code draw shapes), progressive complexity (line → square → hexagon → honeycomb → mandala flower)
-- **Key pattern**: story context → video → code example → interactive Trinket → challenge
+- **Why it works**: 11 YouTube videos, embedded Codebunga IDE, visual results (students SEE their code draw shapes), progressive complexity (line → square → hexagon → honeycomb → mandala flower)
+- **Key pattern**: story context → video → code example → interactive Codebunga → challenge
 
 ### EarSketch (Python and JS blocks) — [content/english/python-earsketch/](https://github.com/NuevoFoundation/workshops/tree/master/content/english/python-earsketch)
 
 - **Theme**: Help DJ Nuvi produce a hit mixtape using code
 - **Why it works**: students HEAR their code (music!), immediate audible feedback, professional tool (Georgia Tech), creative freedom in sound choices
 - **Key pattern**: music concept → code concept → build → listen → iterate
+
+## Create a workshop with Copilot
+
+This repository includes the `workshop-builder` skill for GitHub Copilot CLI.
+The skill reads these guidelines, studies a relevant existing workshop, uses
+the scaffold script, writes the content, and runs the publication checks.
+
+Start Copilot CLI from the repository root:
+
+```bash
+copilot
+```
+
+If the skill was added while Copilot was already running, reload project
+skills:
+
+```text
+/skills reload
+```
+
+Confirm that Copilot discovered it:
+
+```text
+/skills info workshop-builder
+```
+
+Then include the skill name and workshop brief in the prompt:
+
+```text
+Use the /workshop-builder skill to create a 45-minute beginner Python
+workshop for ages 10–13. It should run in the browser and teach variables,
+input, and if statements through a robot rescue story.
+```
+
+The skill uses a standard questionnaire to collect the title, age range,
+duration, previous coding experience, learning outcomes, coding language,
+in-person or virtual delivery format, number of activities, story, and special
+requirements. It asks for all missing information together before creating
+files. If the requested activity count is likely to exceed the available time,
+the skill warns about the estimate but keeps the user's requested count.
+
+Copilot may also select the skill automatically when the request clearly asks
+to create, revise, or review a Nuevo Foundation workshop.
 
 ## Step 1: scaffold your workshop
 
@@ -48,13 +91,15 @@ Use the scaffold script to generate the correct directory structure and template
 Run this from the root of the `workshops` repository:
 
 ```bash
-python tools/new-workshop.py --name "my-workshop" --title "My Workshop"
+python tools/new-workshop.py --name "my-workshop" --title "My Workshop" \
+  --coding-language python --topics programming-basics
 ```
 
 Use `--dry-run` first to preview what would be created without writing any files:
 
 ```bash
-python tools/new-workshop.py --name "my-workshop" --title "My Workshop" --dry-run
+python tools/new-workshop.py --name "my-workshop" --title "My Workshop" \
+  --coding-language python --topics programming-basics --dry-run
 ```
 
 This generates the standard starter structure:
@@ -77,7 +122,9 @@ content/english/my-workshop/
 | `--name` | (required) | Directory name in kebab-case (e.g. `python-web-scraping`) |
 | `--title` | (required) | Display title (e.g. `"Python: Web Scraping"`) |
 | `--activities` or `-n` | 3 | Number of activity files to generate (1 to 25) |
-| `--difficulty` | Beginner | `Beginner`, `Intermediate`, or `Advanced` |
+| `--difficulty` | `beginner` | `beginner`, `intermediate`, or `advanced` |
+| `--coding-language` | (required) | Canonical coding-language tag from `data/taxonomy.yaml` |
+| `--topics` | (required) | One or more canonical topic tags from `data/taxonomy.yaml` |
 | `--description` | (empty) | Short description for the landing page |
 | `--prereq` | `"None"` | Prerequisite workshop name |
 | `--icon` | `fas fa-code` | Font Awesome icon class |
@@ -92,7 +139,9 @@ python tools/new-workshop.py \
   --name "python-web-scraping" \
   --title "Python: Web Scraping" \
   --activities 5 \
-  --difficulty Intermediate \
+  --difficulty intermediate \
+  --coding-language python \
+  --topics data \
   --prereq "Python Basics" \
   --description "Learn to scrape data from websites using Python"
 ```
@@ -150,7 +199,7 @@ Use this checklist before submitting your PR. Reviewers will check the same item
 - [ ] Code snippets are syntactically correct and actually runnable
 - [ ] Images throughout to help visual learners
 - [ ] All images have descriptive alt text (see [Images and GIFs](../images-and-gifs/))
-- [ ] Interactive coding environment embedded when possible (Replit, Trinket, CodePen — see [Code and interactivity](../code-and-interactivity/))
+- [ ] Interactive coding environment embedded when possible (Codebunga, CodePen — see [Code and interactivity](../code-and-interactivity/))
 - [ ] Encouraging tone ("Great job!", "You're doing amazing!")
 - [ ] Use `notice tip` shortcodes for best practices and `notice warning` for common pitfalls
 - [ ] Weight values create correct page ordering in sidebar (see [Navigation](../navigation/))
@@ -213,6 +262,6 @@ The Hugo theme automatically adds a Nuvi "You did it! Workshop complete" celebra
 - [Formatting](../formatting/) — markdown syntax and shortcodes
 - [Images and GIFs](../images-and-gifs/) — sizing, alt text, file naming
 - [Navigation](../navigation/) — frontmatter fields for page ordering
-- [Code and interactivity](../code-and-interactivity/) — embedding Replit, Trinket, CodePen
+- [Code and interactivity](../code-and-interactivity/) — embedding Codebunga, CodePen
 - [Tags and metadata](../tags-and-metadata/) — complete frontmatter reference
 - [Translation volunteer guide](../translation-volunteer/) — translating workshops to other languages

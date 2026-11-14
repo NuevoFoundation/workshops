@@ -20,8 +20,9 @@ A tag ```<star />``` é uma tag especial que nos permite usar a palavra ou frase
 
 Vamos entender como essa categoria funciona. O padrão "MINHA COR FAVORITA É *" corresponderá a qualquer entrada que comece com "MINHA COR FAVORITA É" seguido de qualquer palavra ou frase. Então o padrão corresponderá a "MINHA COR FAVORITA É AZUL" e "MINHA COR FAVORITA É VERMELHA" e "MINHA COR FAVORITA É VERDE" e assim por diante. A tag ```<star />``` capturará a palavra ou frase que o usuário digitou e a usará na resposta. Então, se o usuário digitar "MINHA COR FAVORITA É AZUL", "azul" é a palavra representada pelo coringa, então quando o chatbot responder, ```<star />``` será substituído por "azul". O bot responderá com "Sua cor favorita é azul".
 
-Aqui estão mais alguns exemplos de entradas e saídas dessa categoria:
+<img src="../img/sentence_response.png" alt="Ilustração mostrando como um chatbot reconhece padrões de frases e responde" width="27%" />
 
+Aqui estão mais alguns exemplos de entradas e saídas dessa categoria:
 Entrada | Saída 
 ---|--------------
 MINHA COR FAVORITA É AZUL | Sua cor favorita é azul.

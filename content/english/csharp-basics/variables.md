@@ -66,10 +66,10 @@ Console.WriteLine(age); // prints out 12
 ```
 We can assign a value to a varable, reference it and then change the value.  
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/PPCCzG" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/PPCCzG" title="Interactive C# variables exercise" frameborder="0"></iframe>
 
 ## What the Type -- Help Patrick!
 
 Patrick 🐥 isn't a master of data types! He often mixed them up when declaring variables. Let's help him fix his mistakes in the .NET Fiddle below.
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/xKMKvn" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/xKMKvn" title="Interactive C# data types exercise" frameborder="0"></iframe>

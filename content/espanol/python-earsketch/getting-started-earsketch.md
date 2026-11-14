@@ -6,43 +6,46 @@ prereq: "None"
 difficulties: ["beginner"]
 draft: false
 ---
+<p style="text-align: center;"><iframe width="560px" height="315px" src="https://youtube.com/embed/oIB5_N-Og_0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-[EarSketch](https://en.wikipedia.org/wiki/EarSketch) es un entorno de programación educativa gratuito desarrollado en el Instituto de Tecnología de Georgia. Hoy compondremos música usando EarSketch. 
+[EarSketch](https://en.wikipedia.org/wiki/EarSketch) es un entorno de programación educativa gratuito desarrollado en el Instituto de Tecnología de Georgia. Hoy compondremos música usando EarSketch.
 
-1. Para hacer música, clic en el botón de abajo para abrir Earsketch en una nueva pestaña.
+1. Para hacer música, haz clic en el botón de abajo para abrir Earsketch en una nueva pestaña.
 
 <a class="my-2 mx-4 btn btn-info" href="https://earsketch.gatech.edu/earsketch2/" target="_blank">Abrir Earsketch</a>
 
-2. Clic donde dice *Scripts* en el menu izquierdo y selecciona `Create a new script`. Cuando te salga que introduzcas el number del script, coloca `myjam` (mis sonidos) y dale click en el buton de `Create`.
+2. Después de abrir la página web, es posible que veas la siguiente pantalla de bienvenida. Pulsa "skip" para omitir el recorrido; a continuación repasaremos todos los pasos necesarios.
 
-<img src="../gif/createanewscript.gif" alt="Demo" width="50%"/>
+<img src="../img/screenshot-skip-tour.png" height="400"/>
 
-3. ¡No borrar ningún código que ya este escrito! Colocaremos nuestro código en estas líneas.
+3. Ahora, vamos a empezar. Haz clic en el icono *Scripts* en el menú de la izquierda y selecciona *+ New Script*.
+
+<img src="../img/screenshot-new-script.png" height="400"/>
+
+4. Escribe *myjam* (o cualquier otro nombre que quieras) como nombre de tu script y deja el lenguaje de programación como *Python*. Haz clic en el botón *Create* para crear tu script (el archivo donde colocarás tu código).
+
+<img src="../img/screenshot-new-myjam.png" height="200"/>
 
 {{% notice info %}} 
 
-## Resumen de EarSketch
+## Recomendado para docentes - Resumen de EarSketch
 
-Es importante que entiendas como funciona EarSketch antes de que comiences la clase. De esta manera podrás navegar la interfaz adecuadamente. 
+Echa un vistazo al resumen de EarSketch antes de empezar la clase. Es importante saber cómo navegar de un lado a otro en la interfaz.
 
-La `barra de navegación` en el lado izquierdo de la pantalla es su base de operaciones para navegar a través de todo lo que EarSketch tiene para ofrecer.
+El `Content Manager` en el lado izquierdo de la pantalla es tu base de operaciones para navegar por todo lo que EarSketch tiene para ofrecer.
 
-1. El primer elemento de la barra de navegación es la colección de `sonidos` (o `Sounds`). Es la ubicación central para todos los sonidos precargados que earsketch tiene para ofrecer. En el navegador de sonido, puede filtrar qué sonidos aparecen en función de los artistas, el género o los instrumentos.
+1. El primer elemento de la barra de navegación es la colección `Sounds` (sonidos). Es la ubicación central para todos los sonidos precargados que earsketch tiene para ofrecer. En el navegador de sonido, puedes filtrar qué sonidos aparecen en función de los artistas, el género o los instrumentos.
 
-    ![](../img/screenshot-navigation-sound-browser.png)
+<img src="../img/screenshot-navigation-sound-browser.png" height="400"/>
 
-2. El siguiente icono de la barra de navegación es el panel que dice `Scripts`. Aquí es donde escribiremos nuestro código.
+2. El siguiente icono de la barra de navegación es el panel `Scripts`. Aquí es donde escribiremos nuestro código.
 
-    ![](../img/screenshot-navigation-script.png)
+<img src="../img/screenshot-navigation-script.png" height="400"/>
 
-3. El siguiente icono (tercero desde la parte superior) es la sección de `Compartir` (o `Share`). Puedes usar esto para guardar tu código, descargarlo o compartirlo con tus amigos. Omitiremos esta sección para este ejercicio.
+3. El último icono de la barra de navegación es el panel `API Browser`. Una *interfaz de programación de aplicaciones* (por sus siglas en inglés *Application Programming Interface*) o *API* es un conjunto de código que está listo para que lo uses de inmediato. Cuando haces clic en abrir, se proporciona una explicación detallada de cada API.
 
-4. Los dos últimos iconos de la barra de navegación son el navegador `API Browser` y las guías de currículo (o `Curriculum`).
+<img src="../img/screenshot-navigation-api-curriculum.png" height="400"/>
 
-    ![](../img/screenshot-navigation-api-curriculum.png)
-
-Usaremos el  `API browser` para hacer música. ¡Una interfaz de programación de aplicaciones (por sus siglas en ingles *Application Programming Interface*) o *API* es un conjunto de código que está listo para su uso de inmediato! Puede observar dos iconos a la derecha de cada API. El primer icono proporciona una descripción de la API y un ejemplo sobre cómo utilizar la API. ¡El segundo icono copia y pega la API en el editor de código, por lo que ni siquiera es necesario escribirlo! Usaremos un par de estos en las próximas secciones.
-
-El último icono de la imagen anterior muestra la guía de guías de currículo (o `Curriculum`) plan de estudios. Si desea saber más sobre EarSketch, puede explorar la sección que aparece en el lado derecho de la ventana al hacer clic en ella. Omitiremos esta sección para este ejercicio.
+En el lado derecho verás la guía `Curriculum`. Si quieres saber más sobre EarSketch, puedes explorar la sección que aparece en el lado derecho de la ventana al hacer clic en ella. Omitiremos esta sección para este ejercicio.
 
 {{% /notice %}}

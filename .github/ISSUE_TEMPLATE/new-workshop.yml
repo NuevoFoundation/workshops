@@ -1,0 +1,57 @@
+---
+name: New workshop proposal
+description: Propose a new workshop topic for NuevoFoundation
+title: "[New Workshop]: "
+labels: ["enhancement", "new-workshop"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Workshop title
+      description: What would you call this workshop?
+      placeholder: "Example: Python: Web Scraping"
+    validations:
+      required: true
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty level
+      options:
+        - Beginner
+        - Intermediate
+        - Advanced
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Workshop description
+      description: What will students learn? What will they build?
+      placeholder: "Students will learn how to use Python's BeautifulSoup library to extract data from websites. By the end, they'll have a script that collects weather data."
+    validations:
+      required: true
+  - type: textarea
+    id: prerequisites
+    attributes:
+      label: Prerequisites
+      description: What should students know before starting this workshop?
+      placeholder: "Basic Python knowledge (variables, loops, functions)"
+  - type: textarea
+    id: tools
+    attributes:
+      label: Tools and platforms
+      description: What tools or platforms does this workshop use?
+      placeholder: "Replit (free account), Python 3"
+  - type: input
+    id: activities
+    attributes:
+      label: Estimated number of activities
+      placeholder: "5"
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Before submitting
+      options:
+        - label: I checked that a similar workshop doesn't already exist
+          required: true
+        - label: I'm willing to help create this workshop

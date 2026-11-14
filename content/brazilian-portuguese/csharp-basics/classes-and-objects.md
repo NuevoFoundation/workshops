@@ -53,7 +53,7 @@ Exemplo de classe Person:
 
 Vamos criar uma classe `Bird` para representar o Patrick 🐥 e todos os seus amigos pássaros, seguindo os passos abaixo!  
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/OH5XQO" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/OH5XQO" title="Classes e Objetos - .NET Fiddle editor 1" frameborder="0"></iframe>
 
 ### Primeiro, definimos o nome da classe no formato `public class NomeDaClasse`.
 
@@ -112,4 +112,4 @@ Para criar um objeto, chamamos o construtor no formato `class name variable = ne
 Depois, podemos usar `ToString()` para exibir as informações do objeto:  
 `Console.WriteLine(patrick.ToString());` ou `Console.WriteLine(patrick);`
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/fMXXuT" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/fMXXuT" title="Classes e Objetos - .NET Fiddle editor 2" frameborder="0"></iframe>

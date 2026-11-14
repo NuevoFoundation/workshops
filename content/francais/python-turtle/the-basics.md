@@ -5,7 +5,9 @@ weight: 2
 draft: false
 ---
 
-Avant qu'Alex ne puisse apprendre à créer une ruche, il doit d'abord apprendre à dessiner une ligne colorée. Nous ajouterons du code à la fenêtre Trinket ci-dessous, et nous le ferons en deux parties.
+Avant qu'Alex ne puisse apprendre à créer une ruche, il doit d'abord apprendre à dessiner une ligne colorée. Nous ajouterons du code à la fenêtre Codebunga ci-dessous, et nous le ferons en deux parties.
+
+<iframe title="Interactive Python Turtle code editor for drawing a colored line" src="https://codebunga.com/embed/y6tyvujt" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
 
 Tout d'abord, nous devons dire à la tortue quelle couleur nous voulons que la ligne soit. Pour cela, tapons :
 
@@ -64,8 +66,6 @@ turtle.forward(50)
 ```
 
 Maintenant que nous avons terminé notre code, appuyez sur **run**. Vous devriez voir ceci dans l'écran de résultat :
-
-![alt text height="600px" width="70%"](../media/basics-trinket.png "Fenêtre Trinket")
 
 Si oui, super ! Sinon, demandez de l'aide.
 

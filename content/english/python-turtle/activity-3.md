@@ -5,7 +5,7 @@ weight: 5
 draft: false
 ---
 
-<p style="text-align: center;"><iframe width="560" height="315" src="https://youtube.com/embed/RFWEYPAoiew" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align: center;"><iframe title="Drawing a hexagon with Python Turtle" width="560" height="315" src="https://youtube.com/embed/RFWEYPAoiew" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 ![Turtle, hexagon animation](https://media.giphy.com/media/TDLqC61A5uOAO8WwnJ/giphy.gif)
 
@@ -33,7 +33,7 @@ for i in range(3):
   turtle.left(120)
 ```
 
-<iframe src="https://trinket.io/embed/python/e82295e92f" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe title="Interactive Python Turtle code editor for drawing a hexagon" src="https://codebunga.com/embed/ya8uteh2" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 {{% expand "**Extra Challenge:**" %}} 
 If you've finished early, try modifying your code and try to draw more complex shapes! Here are some examples of shapes you can try to draw.

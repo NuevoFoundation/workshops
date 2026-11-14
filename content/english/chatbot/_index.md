@@ -1,5 +1,5 @@
 ---
-title: "Create your own chatbot"
+title: "Create Your Own Chatbot"
 description: "An introductory guide to chatbots"
 date: 2026-04-25T00:00:00-07:00
 prereq: "email"
@@ -10,9 +10,6 @@ icon: "fas fa-code"
 language: "no-code"
 topics: ["ai"]
 difficulties: ["beginner"]
-download: ""
-draft: false
-icon: "fas fa-code"
 ---
 
 ## Introduction
