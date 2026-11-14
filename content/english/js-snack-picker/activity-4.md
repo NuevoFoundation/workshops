@@ -1,97 +1,87 @@
 ---
-title: "Activity 4: Bring it to life (animation)"
-date: 2026-05-07T00:00:00-07:00
+title: "Activity 4 - Serve five visitors"
+date: 2026-11-14
 draft: false
-weight: 4
+weight: 5
 ---
 
-The game works! But every click feels the same. Let's add a big **bounce** so the card pops every time a new snack appears, and switch the button to Korean once they've started playing. 🎀
+Nuvi can take an order and check a snack choice. Let's give the player a goal: **serve five visitors to complete the game!**
 
-## Step 1: Add a bouncy pop animation in CSS
+## Keep count
 
-At the bottom of `styles.css`, add:
-
-```css
-/* Bouncy "pop" animation: shrinks + rotates in, then settles.
-   Big enough that students go "ooh!" every click. */
-@keyframes pop {
-  0%   { transform: scale(0.5) rotate(-6deg); opacity: 0;   }
-  40%  { transform: scale(1.15) rotate(4deg);  opacity: 1;   }
-  70%  { transform: scale(0.95) rotate(-2deg);              }
-  100% { transform: scale(1)    rotate(0);     opacity: 1;   }
-}
-
-/* Any element with the .pop class plays the animation once.
-   The cubic-bezier curve gives a springy "bouncing ball" feel. */
-.pop {
-  animation: pop 0.55s cubic-bezier(0.34, 1.56, 0.64, 1);
-}
-```
-
-## Step 2: Trigger the animation from JavaScript
-
-We can't just leave the `.pop` class on the card forever, because it would only animate once. The trick is to **remove and re-add** the class on every click.
-
-Update `showSnack()` in `script.js` to look like this:
+Near the top of `script.js`, the starter has:
 
 ```javascript
-function showSnack() {
-  const snack = pickRandomSnack();
-  emojiEl.textContent     = snack.emoji;
-  nameEl.textContent      = snack.name;
-  pronounceEl.textContent = snack.pronounce;
-  factEl.textContent      = snack.fact;
-  didYouKnowEl.innerHTML  = "<strong>Did you know?</strong> " + snack.didYouKnow;
-  didYouKnowEl.hidden     = false;
+const totalVisitors = 5;
+let served = 0;
+```
 
-  // Find the whole card, remove the animation class, then add it back.
-  // The void line below forces the browser to "see" the change so the
-  // animation actually replays from the beginning every click.
-  const card = document.getElementById("card");
-  card.classList.remove("pop");
-  void card.offsetWidth;
-  card.classList.add("pop");
+A **variable** stores a value. We use `let` for `served` because its value changes during the game. We use `const` for `totalVisitors` because the goal stays the same during a round.
+
+`served = served + 1` takes the current count, adds one, and stores the new count. An incorrect choice must not increase it.
+
+## Finish an order or finish the game
+
+Replace the entire `checkAnswer()` function with:
+
+```javascript
+function checkAnswer(snackId) {
+  if (snackId === currentOrder.id) {
+    served = served + 1;
+    updateProgress();
+    if (served === totalVisitors) {
+      finishGame();
+    } else {
+      finishOrder();
+    }
+  } else {
+    feedback.textContent = "Try again! " + currentOrder.hint;
+    feedback.dataset.kind = "hint";
+  }
 }
 ```
 
-Refresh and click. The card should bounce in every time! 🪩 If you don't see the bounce, double-check that the `.pop` rule is in your `styles.css`.
+The second `if` is inside the correct-answer branch. It checks whether you have reached the goal.
 
-## Step 3: Switch the button to Korean after the first pick
+The page helpers are already provided:
 
-The first time the page loads, the button says **"Pick a snack! / 간식 골라줘!"**. After the first click, swap it to Korean to invite another pick.
+| Helper | What it does |
+|---|---|
+| `updateProgress()` | Updates the count and progress bar. |
+| `finishOrder()` | Thanks the player, disables the menu so the same visitor cannot count twice, and shows **Next visitor**. |
+| `finishGame()` | Replaces the game board with a celebration and a **Play again** button. |
+| `restartGame()` | Sets `served` back to `0`, clears the celebration, and displays a new order. The **Play again** button already calls it. |
 
-Add this line at the end of `showSnack()`:
+Save and refresh. Select a matching snack, then use **Next visitor** to continue. After five correct orders, you should see the celebration!
 
-```javascript
-button.textContent = "Try another snack / 다른 간식 보기";
-```
+## Challenge: test your game
 
-## You did it! 🎉
+Try these actions and check the result:
 
-You just built a real, working JavaScript mini-game with:
+1. Choose an incorrect snack. The hint appears, but the order and count do not change.
+2. Choose the correct snack. The count increases by exactly one, and the menu pauses until **Next visitor**.
+3. Serve all five visitors. The celebration appears.
+4. Select **Play again**. The count returns to zero and the menu works again.
 
-- An HTML skeleton
-- A cute Nuevo CSS theme
-- A bilingual title and button (English + Korean!)
-- A random picker using arrays and `Math.random()`
-- A click-driven, bouncy CSS animation
+Now change `totalVisitors` from `5` to `3`, save, and refresh. Can you complete a shorter round? The goal text and progress bar should change too.
 
-Show it to a friend, share the screen with your class, or send it to your family. 사랑해, Nuvi! 💕
+{{% notice tip %}}
+Change the number in `const totalVisitors = 5`, not the HTML progress text. The helpers update the page from that variable. Use a whole number greater than zero. Restore `5` when you finish experimenting.
+{{% /notice %}}
 
-## 🌶️ Your turn: add your favorite snack
+## Extra challenge: add your favorite snack
 
-Open `script.js` and add **your favorite Korean snack** (or any snack from your culture!) to the `snacks` array. Pick an emoji, write the name, add a pronunciation guide, and write a one-line fact about it. Make sure to keep the comma between items!
+Nuvi would love to offer a snack from your culture too! Add both of these pieces:
 
-```javascript
-{ emoji: "🍓", name: "Your snack", pronounce: "(YOUR-snack)", fact: "Why you love it!", didYouKnow: "Where it comes from!" }
-```
+1. In `index.html`, copy one whole `<button class="snack-button"...>...</button>` inside the menu. Give it a new `data-snack`, name, and description. You can replace its `<svg>...</svg>` picture with an emoji using the example in the answer key.
+2. In the `snacks` array in `script.js`, add an object with a matching `id`, an `order`, and a `hint`.
 
-Refresh the page and click the button until your snack appears. 🎉
+{{% notice tip %}}
+The HTML `data-snack` and JavaScript `id` must match exactly. Add a comma between array items. Write an order that matches your new description, and keep all the existing snacks. `snacks.length` automatically includes the new item.
+{{% /notice %}}
 
-## Stretch challenges (if you finish early)
+## You did it!
 
-1. **No repeats.** Make sure the picker never shows the same snack twice in a row.
-2. **Favorites button.** Add a little ❤️ button under the snack that saves the name to a list at the bottom.
-3. **Sound effect.** Play a tiny "pop" sound when the snack changes. Use the HTML `<audio>` element.
-4. **K-pop edition.** Replace the snacks array with K-pop songs, K-dramas, or your favorite Seoul neighborhoods.
-5. **Share button.** Add a button that copies "I just got recommended {snack name}!" to the clipboard with `navigator.clipboard.writeText(...)`.
+You turned a practice menu into a game with choices, hints, progress, a goal, and replay. Show someone your stall and let them try serving Nuvi's visitors!
+
+Need a hand? The [Activity 4 answer](../answer-key/#activity-4) includes the finished game and an example extra snack.

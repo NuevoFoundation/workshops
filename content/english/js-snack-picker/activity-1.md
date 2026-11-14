@@ -1,82 +1,55 @@
 ---
-title: "Activity 1: Build the stage (HTML)"
-date: 2026-05-07T00:00:00-07:00
+title: "Activity 1 - Open your snack stall"
+date: 2026-11-14
 draft: false
-weight: 1
+weight: 2
 ---
 
-Every web page needs a **skeleton**. That's what HTML is for, it tells the browser *what* is on the page (a heading, a button, a card), but not yet what it looks like or what it does.
+Nuvi's menu is ready. Before we take orders, let's open the stall and give it your own style!
 
-## Step 1: Make a project folder
+## Open the starter
 
-On your computer, create a new folder called `snack-picker`. Inside it, create three empty files:
+<a class="my-2 mx-4 btn btn-info" href="../media/snack-stall-starter.zip" download>Download the snack stall starter</a>
 
-```text
-snack-picker/
-├── index.html
-├── styles.css
-└── script.js
-```
+1. Download the ZIP file, then **extract** it. Extracting opens the package so you can edit the files inside. On Windows, right-click the ZIP and choose **Extract All**. On a Mac, double-click the ZIP.
+2. Keep `index.html`, `styles.css`, and `script.js` together in the extracted folder.
+3. Double-click the extracted `index.html` to open the stall in your browser.
+4. Open the same folder in your text editor. If you use Notepad, right-click a file and choose **Open with**, then **Notepad**.
 
-{{% notice tip %}}
-Use VS Code: **File → Open Folder…** → pick `snack-picker`, then right-click in the sidebar → **New File**.
+{{% notice warning %}}
+Edit the extracted files, not files still inside the ZIP. Keep their names unchanged, especially `.html`, `.css`, and `.js`. If the page has no styling, check that all three files are in the same folder.
 {{% /notice %}}
 
-## Step 2: Write the HTML skeleton
+Try selecting a snack card. The starter tells you which snack you selected, but it does **not** check your choice yet. The order stays the same and the counter stays at zero. Those are the game rules you will build!
 
-Open `index.html` and paste in the code below. Read the comments, they explain every line.
+## Meet the three files
+
+| File | Job |
+|---|---|
+| `index.html` | **HTML** describes the page: its headings, menu cards, buttons, and progress bar. |
+| `styles.css` | **CSS** controls colors, spacing, and layout. |
+| `script.js` | **JavaScript** responds to clicks and runs the game rules. |
+
+When you change a file, **save it in your editor**, then **refresh the browser** to see the change.
+
+## Challenge: name your stall
+
+Open `index.html` and find this heading:
 
 ```html
-<!DOCTYPE html>
-<!-- Tells the browser this is a modern HTML page -->
-<html lang="en">
-  <head>
-    <!-- <meta> tags give the browser info about the page -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Korean Snack Picker</title>
-
-    <!-- Hook up our stylesheet so the page looks nice -->
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-
-  <body>
-    <main class="app">
-      <h1>🍡 Korean Snack Picker <span class="kr">한국 간식 추천 게임</span></h1>
-      <p class="subtitle">Tap the button to discover a tasty Korean snack!</p>
-
-      <!-- The card where we'll show the random snack -->
-      <div id="card" class="card">
-        <div class="emoji">🍱</div>
-        <h2 class="snack-name">Press the button to start!</h2>
-        <p class="snack-pronounce">&nbsp;</p>
-        <p class="snack-fact">Nuvi can't wait to try one with you.</p>
-        <!-- This will hold a "Did you know?" fact once a snack is picked -->
-        <p class="snack-did-you-know" hidden></p>
-      </div>
-
-      <!-- The button students will click -->
-      <button id="pickBtn" class="pick-btn">Pick a snack! / 간식 골라줘!</button>
-
-      <!-- A tiny footer so students see the stack they just used -->
-      <footer class="footer">
-        Built with <span class="stack">HTML, CSS, JavaScript</span> + AI assistance 🤖
-      </footer>
-    </main>
-
-    <!-- Hook up our JavaScript at the END of <body>
-         so the HTML is loaded before the script runs -->
-    <script src="script.js"></script>
-  </body>
-</html>
+<h1>Nuvi's Korean snack stall</h1>
 ```
 
-## Step 3: Open it in your browser
-
-Double-click `index.html`. You should see something like this, plain, but it works! 🎉
-
-Right now everything looks like raw text because we haven't written any CSS yet. That's our next job!
+The `<h1>` and `</h1>` tags mark the main heading. Change the words between them to your own stall name. Save and refresh. Your new name should appear above the menu!
 
 {{% notice tip %}}
-**Challenge:** Change the `<h1>` text to your own title (maybe "Yujin's Snack Picker"?), and update the subtitle.
+Keep both tags, including the `/` in `</h1>`. Only change the text between them. You can search for `Nuvi's` in your editor to find the heading.
 {{% /notice %}}
+
+Want to customize a color too? In `styles.css`, find `.snack-button` and change its `border` color from `#a9c9be` to `#2d6da4`. A color starting with `#` is a **hex color code**.
+
+## Checkpoint
+
+Your stall opens, has your chosen name, and responds when you select a snack. Nuvi is ready for a first visitor!
+
+Need a hand? See the [Activity 1 answer](../answer-key/#activity-1).

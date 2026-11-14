@@ -1,31 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Korean Snack Picker</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <main class="app">
-      <h1>🍡 Korean Snack Picker <span class="kr">한국 간식 추천 게임</span></h1>
-      <p class="subtitle">Tap the button to discover a tasty Korean snack!</p>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nuvi's Korean snack stall</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <svg class="icon-library" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <symbol id="rice-cakes" viewBox="0 0 80 60">
+        <path d="M8 32h64l-8 21H16z" fill="#0e7c6b"/>
+        <g fill="#d2691e" stroke="#c0392b" stroke-width="3">
+          <rect x="16" y="14" width="13" height="24" rx="6" transform="rotate(-15 22 26)"/>
+          <rect x="33" y="11" width="13" height="27" rx="6"/>
+          <rect x="51" y="15" width="13" height="23" rx="6" transform="rotate(15 57 26)"/>
+        </g>
+      </symbol>
+      <symbol id="rice-roll" viewBox="0 0 80 60">
+        <rect x="12" y="14" width="54" height="34" rx="17" fill="#0e7c6b"/>
+        <circle cx="51" cy="31" r="17" fill="#16333f"/>
+        <circle cx="51" cy="31" r="13" fill="#fff9e8"/>
+        <path d="M45 23h7v9h-7z" fill="#d2691e"/>
+        <path d="M52 30h7v9h-7z" fill="#2e8b57"/>
+        <path d="M44 34h7v6h-7z" fill="#daa520"/>
+      </symbol>
+      <symbol id="pancakes" viewBox="0 0 80 60">
+        <g fill="#daa520" stroke="#d2691e" stroke-width="3">
+          <ellipse cx="40" cy="41" rx="28" ry="10"/>
+          <ellipse cx="40" cy="32" rx="28" ry="10"/>
+          <ellipse cx="40" cy="23" rx="28" ry="10"/>
+        </g>
+        <path d="M30 21q10-8 20 0" fill="none" stroke="#fff3ce" stroke-width="4"/>
+      </symbol>
+      <symbol id="shaved-ice" viewBox="0 0 80 60">
+        <path d="M14 32 40 8 66 32z" fill="#edf4fa" stroke="#2d6da4" stroke-width="2"/>
+        <path d="M12 32h56q-4 22-28 22T12 32" fill="#2d6da4"/>
+        <circle cx="35" cy="22" r="4" fill="#c0392b"/>
+        <circle cx="46" cy="17" r="4" fill="#d2691e"/>
+        <circle cx="51" cy="27" r="4" fill="#2e8b57"/>
+      </symbol>
+      <symbol id="biscuit-sticks" viewBox="0 0 80 60">
+        <g stroke-linecap="round" stroke-width="7">
+          <path d="m23 50 8-38m9 38V9m17 41-7-38" stroke="#daa520"/>
+          <path d="m26 35 5-23m9 23V9m14 26-4-23" stroke="#70452a"/>
+        </g>
+      </symbol>
+      <symbol id="sweet-cookie" viewBox="0 0 80 60">
+        <g fill="#daa520" stroke="#d2691e" stroke-width="2">
+          <circle cx="40" cy="16" r="10"/><circle cx="53" cy="23" r="10"/>
+          <circle cx="53" cy="38" r="10"/><circle cx="40" cy="45" r="10"/>
+          <circle cx="27" cy="38" r="10"/><circle cx="27" cy="23" r="10"/>
+          <circle cx="40" cy="30" r="11"/>
+        </g>
+      </symbol>
+      <symbol id="chocolate-cake" viewBox="0 0 80 60">
+        <ellipse cx="40" cy="41" rx="27" ry="12" fill="#70452a"/>
+        <path d="M13 26h54v12q-27 12-54 0z" fill="#fff9e8" stroke="#70452a" stroke-width="2"/>
+        <ellipse cx="40" cy="25" rx="27" ry="12" fill="#70452a"/>
+        <path d="M27 21q13-5 26 0" fill="none" stroke="#d2691e" stroke-width="3"/>
+      </symbol>
+      <symbol id="fish-bread" viewBox="0 0 80 60">
+        <path d="m52 30 22-17v34z" fill="#daa520" stroke="#d2691e" stroke-width="2"/>
+        <ellipse cx="32" cy="30" rx="25" ry="18" fill="#daa520" stroke="#d2691e" stroke-width="2"/>
+        <circle cx="19" cy="26" r="3" fill="#16333f"/>
+        <path d="m34 18-5 12 5 12m10-24-5 12 5 12" fill="none" stroke="#d2691e" stroke-width="2"/>
+      </symbol>
+    </defs>
+  </svg>
+  <main class="app">
+    <header class="stall-header">
+      <p class="eyebrow">A JavaScript snack challenge</p>
+      <h1>Nuvi's Korean snack stall</h1>
+      <p class="korean-title" lang="ko">한국 간식 가게</p>
+      <p>Help Nuvi serve <span id="visitor-goal">5</span> visitors. Read each order and choose a snack from the menu!</p>
+    </header>
 
-      <div id="card" class="card">
-        <div class="emoji">🍱</div>
-        <h2 class="snack-name">Press the button to start!</h2>
-        <p class="snack-pronounce">&nbsp;</p>
-        <p class="snack-fact">Nuvi can't wait to try one with you.</p>
-        <p class="snack-did-you-know" hidden></p>
-      </div>
+    <section class="progress-card" aria-labelledby="progress-label">
+      <p id="progress-label">0 of 5 visitors served</p>
+      <progress id="progress" value="0" max="5" aria-labelledby="progress-label"></progress>
+      <p class="small-text">No timer. No lost lives. Take your time and try again.</p>
+    </section>
 
-      <button id="pickBtn" class="pick-btn">Pick a snack! / 간식 골라줘!</button>
+    <div id="game-panel" class="game-grid">
+      <section class="order-card" aria-labelledby="order-heading">
+        <p id="visitor-label" class="eyebrow">Visitor 1</p>
+        <h2 id="order-heading" tabindex="-1">What would you like?</h2>
+        <p id="order-text" class="order-text"></p>
+        <p id="feedback" class="feedback" role="status" aria-live="polite" aria-atomic="true"></p>
+        <button id="next-visitor" class="action-button" type="button" hidden>Next visitor</button>
+      </section>
 
-      <footer class="footer">
-        Built with <span class="stack">HTML, CSS, JavaScript</span> + AI assistance 🤖
-      </footer>
-    </main>
+      <section aria-labelledby="menu-heading">
+        <h2 id="menu-heading">Choose from the menu</h2>
+        <p class="menu-help">The descriptions are your clues. Select a card to serve it.</p>
+        <div class="menu-grid">
+          <button class="snack-button" type="button" data-snack="tteokbokki">
+            <svg class="snack-icon" aria-hidden="true"><use href="#rice-cakes"/></svg>
+            <strong>Tteokbokki</strong><span lang="ko">떡볶이</span>
+            <span class="description">Spicy rice cakes</span>
+          </button>
+          <button class="snack-button" type="button" data-snack="kimbap">
+            <svg class="snack-icon" aria-hidden="true"><use href="#rice-roll"/></svg>
+            <strong>Kimbap</strong><span lang="ko">김밥</span>
+            <span class="description">Rice rolls wrapped in seaweed</span>
+          </button>
+          <button class="snack-button" type="button" data-snack="hotteok">
+            <svg class="snack-icon" aria-hidden="true"><use href="#pancakes"/></svg>
+            <strong>Hotteok</strong><span lang="ko">호떡</span>
+            <span class="description">Sweet filled pancakes</span>
+          </button>
+          <button class="snack-button" type="button" data-snack="bingsu">
+            <svg class="snack-icon" aria-hidden="true"><use href="#shaved-ice"/></svg>
+            <strong>Bingsu</strong><span lang="ko">빙수</span>
+            <span class="description">A shaved-ice dessert</span>
+          </button>
+          <button class="snack-button" type="button" data-snack="pepero">
+            <svg class="snack-icon" aria-hidden="true"><use href="#biscuit-sticks"/></svg>
+            <strong>Pepero</strong><span lang="ko">빼빼로</span>
+            <span class="description">Chocolate-coated biscuit sticks</span>
+          </button>
+          <button class="snack-button" type="button" data-snack="yakgwa">
+            <svg class="snack-icon" aria-hidden="true"><use href="#sweet-cookie"/></svg>
+            <strong>Yakgwa</strong><span lang="ko">약과</span>
+            <span class="description">Traditional sweet cookies</span>
+          </button>
+          <button class="snack-button" type="button" data-snack="choco-pie">
+            <svg class="snack-icon" aria-hidden="true"><use href="#chocolate-cake"/></svg>
+            <strong>Choco Pie</strong><span lang="ko">초코파이</span>
+            <span class="description">Chocolate-coated cakes with marshmallow</span>
+          </button>
+          <button class="snack-button" type="button" data-snack="bungeoppang">
+            <svg class="snack-icon" aria-hidden="true"><use href="#fish-bread"/></svg>
+            <strong>Bungeoppang</strong><span lang="ko">붕어빵</span>
+            <span class="description">Fish-shaped filled bread</span>
+          </button>
+        </div>
+      </section>
+    </div>
 
-    <script src="script.js"></script>
-  </body>
+    <section id="finish-panel" class="finish-card" aria-labelledby="finish-heading" hidden>
+      <p class="stars" aria-hidden="true">★ ★ ★</p>
+      <h2 id="finish-heading" tabindex="-1">You did it!</h2>
+      <p id="finish-message"></p>
+      <p>Nuvi's snack stall is ready for another round.</p>
+      <button id="restart" class="action-button" type="button">Play again</button>
+    </section>
+
+    <footer>Built with HTML, CSS, and JavaScript. Made yours with a little imagination.</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
 </html>

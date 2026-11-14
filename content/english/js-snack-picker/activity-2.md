@@ -1,190 +1,65 @@
 ---
-title: "Activity 2: Make it cute (CSS)"
-date: 2026-05-07T00:00:00-07:00
+title: "Activity 2 - Welcome a visitor"
+date: 2026-11-14
 draft: false
-weight: 2
+weight: 3
 ---
 
-CSS is what turns a boring page into something **cute and colorful**. Think of HTML as the bones and CSS as the outfit. 👗
+Every visitor currently asks for the first snack. Let's give Nuvi a variety of orders!
 
-We'll use the **Nuevo Foundation color palette** so our snack picker matches the rest of the Nuevo site.
+Keep working in the files you extracted in Activity 1.
 
-| Color | Hex | Used for |
-|---|---|---|
-| Emphasis (dark) | `#36374d` | Headings and body text |
-| Coral accent | `#e96469` | Button gradient (light) |
-| Red accent | `#e13126` | Button gradient (dark) |
-| Cyan accent | `#00bed5` | Pronunciation text |
-| Yellow accent | `#fcb415` | Focus outline |
-| Blush accent | `#fbe6e0` | Background and card border |
+## Explore the order list
 
-## Step 1: Add the Nuevo background
+At the top of `script.js`, find `const snacks = [...]`. An **array** is an ordered list. Each item here is an **object**, which groups information about one snack:
 
-Open `styles.css` and paste in the code below.
+```javascript
+{ id: "bingsu", order: "A shaved-ice dessert for me, please!", hint: "Look for the shaved-ice dessert." }
+```
 
-```css
-/* Reset the default page margins so our gradient fills the screen */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+The `id` connects the order to a menu card. The `order` is what the visitor says, and the `hint` helps after an incorrect choice.
 
-/* Soft blush, white, blush gradient (Nuevo palette) */
-body {
-  font-family: "Segoe UI", "Apple SD Gothic Neo", "Helvetica Neue", sans-serif;
-  background: linear-gradient(135deg, #fbe6e0 0%, #ffffff 50%, #fbe6e0 100%);
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-  color: #36374d;
-}
+Array positions are called **indexes**. JavaScript starts counting at `0`, so `snacks[0]` is the first item. `snacks.length` tells us how many items are in the list.
 
-/* Center everything in a nice column */
-.app {
-  text-align: center;
-  max-width: 420px;
-  width: 100%;
-}
+## Choose an order
 
-h1 {
-  font-size: 1.7rem;
-  margin-bottom: 0.25rem;
-  color: #36374d;
-  line-height: 1.3;
-}
+A **function** is a named group of instructions. Find `function showOrder()` in `script.js`. It currently uses `const index = 0`, so it always chooses the first item.
 
-/* Korean half of the bilingual title sits a touch smaller and softer */
-.kr {
-  display: block;
-  font-size: 1.1rem;
-  color: #737474;
-  font-weight: 500;
-  margin-top: 0.25rem;
-}
+Replace that entire function, from `function showOrder() {` through its closing `}`, with:
 
-.subtitle {
-  font-size: 1rem;
-  margin-bottom: 1.5rem;
-  color: #737474;
+```javascript
+function showOrder() {
+  const index = Math.floor(Math.random() * snacks.length);
+  currentOrder = snacks[index];
+  orderText.textContent = currentOrder.order;
+  visitorLabel.textContent = "Visitor " + (served + 1);
+  feedback.textContent = "Choose a snack from the menu.";
+  feedback.dataset.kind = "info";
+  nextButton.hidden = true;
+  setMenuEnabled(true);
 }
 ```
 
-Refresh `index.html` in your browser. Clean and friendly! 💖
+The first three lines inside the function do the new work:
 
-## Step 2: Style the snack card
+- `Math.random()` gives a number from `0` up to, but **not including**, `1`.
+- Multiplying by `snacks.length` and rounding down with `Math.floor()` gives a valid list index. With eight snacks, the indexes are `0` through `7`.
+- `currentOrder = snacks[index]` remembers the chosen object. `orderText.textContent` puts its `order` text on the page.
 
-Add this to the bottom of `styles.css`:
+The other lines prepare the page for a choice. `setMenuEnabled(true)` is a helper already provided in your starter; it makes the menu buttons available.
 
-```css
-/* The white snack card with a soft shadow */
-.card {
-  background: #ffffff;
-  border-radius: 24px;
-  padding: 2rem 1.5rem;
-  box-shadow: 0 12px 30px rgba(54, 55, 77, 0.15);
-  margin-bottom: 1.5rem;
-  /* A subtle border in the Nuevo blush accent */
-  border: 3px solid #fbe6e0;
-}
+Save and refresh several times. You may see different orders, but **random choices can repeat**. The menu still does not check your answers, and the counter still stays at zero.
 
-/* The big emoji at the top of the card */
-.emoji {
-  font-size: 5rem;
-  line-height: 1;
-  margin-bottom: 0.75rem;
-}
+## Challenge: give a visitor a new request
 
-/* The snack name */
-.snack-name {
-  font-size: 1.5rem;
-  margin-bottom: 0.25rem;
-  color: #36374d;
-}
-
-/* Pronunciation guide in the cyan Nuevo accent */
-.snack-pronounce {
-  font-size: 0.95rem;
-  margin-bottom: 0.5rem;
-  color: #00bed5;
-  font-style: italic;
-}
-
-/* The fun fact under the name */
-.snack-fact {
-  font-size: 1rem;
-  color: #505150;
-  line-height: 1.4;
-}
-```
-
-## Step 3: Style the button
-
-```css
-/* A big, tappable, Nuevo-coral button */
-.pick-btn {
-  background: linear-gradient(135deg, #e96469, #e13126);
-  color: white;
-  font-size: 1.2rem;
-  font-weight: bold;
-  border: none;
-  border-radius: 999px; /* fully rounded "pill" */
-  padding: 1rem 2rem;
-  cursor: pointer;
-  box-shadow: 0 8px 20px rgba(225, 49, 38, 0.35);
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
-}
-
-/* Lift the button on hover with a slight scale + brighter shadow.
-   Tiny details like this make the page feel premium. */
-.pick-btn:hover {
-  transform: translateY(-3px) scale(1.03);
-  box-shadow: 0 16px 30px rgba(225, 49, 38, 0.55);
-}
-
-/* Press-down effect when clicked */
-.pick-btn:active {
-  transform: translateY(0) scale(1);
-}
-
-/* Yellow Nuevo accent when tabbing with the keyboard (accessibility) */
-.pick-btn:focus-visible {
-  outline: 3px solid #fcb415;
-  outline-offset: 3px;
-}
-
-/* "Did you know?" callout that appears under the snack fact */
-.snack-did-you-know {
-  margin-top: 0.75rem;
-  padding: 0.6rem 0.9rem;
-  background: #fbe6e0;
-  border-radius: 12px;
-  font-size: 0.9rem;
-  color: #36374d;
-  line-height: 1.4;
-}
-
-.snack-did-you-know strong {
-  color: #e13126;
-}
-
-/* Tiny page footer so students see the stack they just used */
-.footer {
-  margin-top: 1.25rem;
-  font-size: 0.85rem;
-  color: #737474;
-}
-
-.footer .stack {
-  color: #36374d;
-  font-weight: 600;
-}
-```
-
-Refresh the page. It should look like a real, friendly little Nuevo app now! 🌸
+In the Bingsu object, change only the `order` text to another request for shaved ice. Keep its `id` and `hint` unchanged.
 
 {{% notice tip %}}
-**Challenge:** Swap the card border color from `#fbe6e0` to the cyan accent `#00bed5`, then change it back. Notice how a single hex value can change the whole feel of the page!
+Keep the quotation marks around the request and the commas between the object's pieces of information. Refreshing might not choose Bingsu immediately. To check your edit, temporarily use `const index = 3` inside `showOrder()`, then restore the random-index line.
 {{% /notice %}}
+
+## Checkpoint
+
+Nuvi can display an order from the list. Next, we will teach the game to recognize the matching snack!
+
+Need a hand? See the [Activity 2 answer](../answer-key/#activity-2).

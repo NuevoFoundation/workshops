@@ -1,51 +1,59 @@
 ---
-title: "JavaScript: Korean Snack Picker Game"
-description: "Build a cute Korean snack picker mini-game with HTML, CSS, and vanilla JavaScript."
-date: 2026-05-07T00:00:00-07:00
+title: "JavaScript: Nuvi's Korean snack stall"
+description: "Build a snack-matching game with choices, hints, progress, and a celebration."
+date: 2026-11-14
 prereq: "None"
 icon: "fab fa-js"
 draft: false
+hidden: false
+alwaysopen: false
 weight: 1
 language: "javascript"
 topics: ["games", "web"]
 difficulties: ["beginner"]
 ---
 
-## Welcome to Seoul!
+## Help Nuvi open a snack stall
 
-Nuvi just landed at Incheon Airport and walked straight into a convenience store. The shelves are packed with delicious Korean snacks: tteokbokki, hotteok, bingsu, pepero, banana milk… too many choices! 🥺
+Nuvi is visiting Seoul and wants to run a Korean snack stall. The menu is ready, but Nuvi needs your help taking orders!
 
-Let's help Nuvi out by building a **Snack Picker**, a tiny web app with a single button that picks a random Korean snack every time you tap it.
+Your mission is to build a game where a player reads a visitor's order, chooses the matching snack, and serves **five visitors**. An incorrect choice gives a hint and another try. When all five visitors are served, it's time to celebrate!
 
-![Preview of the finished Korean Snack Picker game](media/preview.png?width=60%)
+<img src="media/preview.png" alt="Nuvi's snack stall with a visitor order, eight snack cards, and a progress bar" width="100%">
 
 ## What you'll build
 
-A one-page mini-game with:
+The four activities unlock the game one piece at a time:
 
-- A big, friendly **"Pick a snack!"** button
-- A pastel, cute card that shows a random Korean snack (name + emoji + fun fact)
-- A bouncy **animation** every time you pick a new snack
-- A **"Try another snack 🍡"** button to keep the fun going
+| Activity | Your mission |
+|---|---|
+| 1. Open your snack stall | Open the visual starter and make the stall your own. |
+| 2. Welcome a visitor | Use JavaScript to choose an order from a list. |
+| 3. Match the order | Check the player's choice and give helpful feedback. |
+| 4. Serve five visitors | Track progress, celebrate a win, and play again. |
+
+There is **no timer and no penalty for trying again**. Players can read the descriptions on the menu, so they do not need to know the snacks beforehand.
 
 ## What you'll learn
 
-- The three languages of the web: **HTML** (structure), **CSS** (style), and **JavaScript** (behavior)
-- How to use **arrays** and `Math.random()` to pick something at random
-- How to **listen for a click** and update the page
-- How to add a simple **CSS animation**
+- How **HTML** describes a page, **CSS** styles it, and **JavaScript** makes it respond.
+- How an **array** stores a list and `Math.random()` helps choose an item.
+- How an **`if` statement** checks a player's choice.
+- How **variables** track progress and decide when a game is complete.
 
-## Prerequisites
+## What you need
 
-Nothing! All you need is a text editor (like [VS Code](https://code.visualstudio.com/)) and a web browser. No installs, no accounts.
+A computer, a web browser, and a plain-text editor. Use an editor you already have, such as VS Code or Notepad. Download and extract the starter in Activity 1. After that, the game runs locally without an account, a server, or an internet connection.
+
+The HTML, CSS, snack list, and page helpers are provided. You will focus on the game rules rather than copy a long stylesheet.
 
 {{% notice tip %}}
-This workshop is yours to remix! Swap in your own favorite snacks, change the colors, or replace snacks with K-pop songs, dramas, or anything else you love.
+This is your stall! Change its name and colors, then try adding a favorite snack from your own culture in the extra challenge.
 {{% /notice %}}
 
-## Table of Contents
+## Activities
 
 <details>
-<summary>Activities</summary>
+<summary>Open the activity list</summary>
 {{% children /%}}
 </details>

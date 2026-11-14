@@ -1,83 +1,56 @@
 ---
-title: "Activity 3: Pick a snack (JavaScript)"
-date: 2026-05-07T00:00:00-07:00
+title: "Activity 3 - Match the order"
+date: 2026-11-14
 draft: false
-weight: 3
+weight: 4
 ---
 
-The page looks cute, but the button doesn't do anything yet. Time for **JavaScript**, the language that makes pages *interactive*. ⚡
+A visitor has placed an order. Now the player needs to serve the matching snack!
 
-## Step 1: Build a snack list
+## How a choice reaches the code
 
-Open `script.js` and start with a list of snacks. Each snack has five pieces of info: an `emoji`, a `name`, a `pronounce` guide (so you know how to say it!), a one-line `fact`, and a `didYouKnow` historical or cultural tidbit.
+Your starter already listens for menu clicks. When a player selects a card, it calls `checkAnswer(snackId)`. The **argument** `snackId` is the selected card's identifier, such as `"hotteok"`.
 
-```javascript
-// An array is just a list. Each item in this list is an "object"
-// holding info about one Korean snack.
-const snacks = [
-  { emoji: "🌶️", name: "Tteokbokki",   pronounce: "(duck-BO-kee)",     fact: "Spicy chewy rice cakes in red pepper sauce.",                                       didYouKnow: "Originally a royal court dish in the 1800s, made with soy sauce, not red pepper." },
-  { emoji: "🍙", name: "Kimbap",        pronounce: "(GIM-bap)",         fact: "Rice and veggies rolled in seaweed, perfect for a picnic.",                          didYouKnow: "Often packed for school field trips and picnics across Korea." },
-  { emoji: "🥞", name: "Hotteok",       pronounce: "(ho-DDOK)",         fact: "Sweet pancakes filled with brown sugar and cinnamon.",                              didYouKnow: "Brought to Korea by Chinese merchants in the late 1800s." },
-  { emoji: "🍧", name: "Bingsu",        pronounce: "(BING-soo)",        fact: "Shaved ice piled with fruit, red bean, and condensed milk.",                        didYouKnow: "Bingsu became popular in Korea during the Joseon era as a royal summer treat." },
-  { emoji: "🍫", name: "Pepero",        pronounce: "(PEH-peh-roh)",     fact: "Crunchy chocolate-dipped sticks. Pepero Day is November 11!",                       didYouKnow: "Pepero Day (11/11) is one of Korea's biggest friendship holidays." },
-  { emoji: "🍯", name: "Yakgwa",        pronounce: "(YAK-gwa)",         fact: "Honey-glazed flower-shaped cookies, a classic Korean dessert.",                     didYouKnow: "A traditional Joseon dynasty dessert served at weddings and royal ceremonies." },
-  { emoji: "🍪", name: "Choco Pie",     pronounce: "(CHO-ko pie)",      fact: "Two soft cakes with marshmallow inside, dipped in chocolate.",                      didYouKnow: "Korean soldiers became fans in the 1970s, turning it into a national snack." },
-  { emoji: "🐟", name: "Bungeoppang",   pronounce: "(BUNG-uh-PPANG)",   fact: "Fish-shaped bread filled with sweet red bean paste, a winter street food.",         didYouKnow: "First appeared in Korea in the 1930s, inspired by Japan's taiyaki." }
-];
-```
+The correct identifier is stored in `currentOrder.id`. We can compare the two with `===`, which asks whether they are exactly equal.
 
-## Step 2: Pick a random snack
+## Check the choice
 
-Add this function to the bottom of `script.js`:
+An **`if` statement** runs instructions when a condition is true. Its **`else`** part runs when the condition is false.
+
+Replace the entire `checkAnswer()` function in `script.js` with:
 
 ```javascript
-// Math.random() gives a number between 0 and 1 (like 0.4271...).
-// Multiply by snacks.length to stretch it across the array,
-// then Math.floor() rounds DOWN to a whole number, a valid index.
-function pickRandomSnack() {
-  const index = Math.floor(Math.random() * snacks.length);
-  return snacks[index];
+function checkAnswer(snackId) {
+  if (snackId === currentOrder.id) {
+    feedback.textContent = "That's the one!";
+    feedback.dataset.kind = "success";
+  } else {
+    feedback.textContent = "Try again!";
+    feedback.dataset.kind = "hint";
+  }
 }
 ```
 
-## Step 3: Show the snack on the card
+`feedback.textContent` changes the message. The provided CSS uses `feedback.dataset.kind` to choose the message's background color. The words explain the result too, so players do not have to rely on color.
 
-To change what the page shows, JavaScript needs to **find** the HTML elements first, then **update their text**.
+Save and refresh. Read the visitor's order, choose an incorrect snack, then choose the correct one. Your messages should change!
 
-```javascript
-// Grab the parts of the card we want to update.
-// document.querySelector(".class-name") finds the first match.
-const emojiEl      = document.querySelector(".emoji");
-const nameEl       = document.querySelector(".snack-name");
-const pronounceEl  = document.querySelector(".snack-pronounce");
-const factEl       = document.querySelector(".snack-fact");
-const didYouKnowEl = document.querySelector(".snack-did-you-know");
-const button       = document.getElementById("pickBtn");
+At this stage you are practicing answer checking. The counter remains at zero, and you stay with the same visitor. We will add progress in Activity 4.
 
-// This function picks a snack and writes it into the card.
-function showSnack() {
-  const snack = pickRandomSnack();
-  emojiEl.textContent     = snack.emoji;
-  nameEl.textContent      = snack.name;
-  pronounceEl.textContent = snack.pronounce;
-  factEl.textContent      = snack.fact;
+## Challenge: offer a useful hint
 
-  // The "Did you know?" callout starts hidden in the HTML.
-  // We fill it in and reveal it the first time a snack is picked.
-  didYouKnowEl.innerHTML = "<strong>Did you know?</strong> " + snack.didYouKnow;
-  didYouKnowEl.hidden = false;
-}
+"Try again!" is encouraging, but it does not tell the player what to look for. Change the incorrect-choice message so it also includes `currentOrder.hint`.
 
-// Run showSnack() every time the button is clicked.
-button.addEventListener("click", showSnack);
-```
-
-Save and refresh. Click the button, you should see a different Korean snack each time, with its name, how to say it, a fun fact, AND a "Did you know?" tidbit! 🎉
-
-{{% notice warning %}}
-**Stuck?** Open the browser's developer tools (right-click, **Inspect**, **Console** tab). Any red text there is a clue about what's wrong. Most bugs are typos in element names like `".snak-name"` instead of `".snack-name"`.
-{{% /notice %}}
+In JavaScript, `+` can join pieces of text. For example, `"Hello, " + "Nuvi!"` becomes `"Hello, Nuvi!"`.
 
 {{% notice tip %}}
-**Challenge:** Add **two of your own favorite snacks** to the `snacks` array. Make sure to keep the same shape (`emoji`, `name`, `pronounce`, `fact`, `didYouKnow`) and don't forget the comma between items!
+Change the message inside `else`. Join `"Try again! "` with `currentOrder.hint`. Keep the space after the exclamation mark so the words do not run together.
 {{% /notice %}}
+
+## Checkpoint
+
+Correct choices get a success message. Incorrect choices get a helpful hint and another try. No one loses a life or has to race a timer.
+
+If nothing happens, open your browser's developer tools and check the **Console** for errors. Make sure you replaced the old function rather than adding a second copy, and check your quotation marks and braces `{}`.
+
+Need a hand? See the [Activity 3 answer](../answer-key/#activity-3).

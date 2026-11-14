@@ -1,52 +1,103 @@
-// A list (array) of Korean snacks. Each item is an object holding
-// the emoji, name, pronunciation guide, a one-line fun fact,
-// and a "did you know?" historical/cultural tidbit.
 const snacks = [
-  { emoji: "🌶️", name: "Tteokbokki",   pronounce: "(duck-BO-kee)",     fact: "Spicy chewy rice cakes in red pepper sauce.",                                       didYouKnow: "Originally a royal court dish in the 1800s, made with soy sauce, not red pepper." },
-  { emoji: "🍙", name: "Kimbap",        pronounce: "(GIM-bap)",         fact: "Rice and veggies rolled in seaweed, perfect for a picnic.",                          didYouKnow: "Often packed for school field trips and picnics across Korea." },
-  { emoji: "🥞", name: "Hotteok",       pronounce: "(ho-DDOK)",         fact: "Sweet pancakes filled with brown sugar and cinnamon.",                              didYouKnow: "Brought to Korea by Chinese merchants in the late 1800s." },
-  { emoji: "🍧", name: "Bingsu",        pronounce: "(BING-soo)",        fact: "Shaved ice piled with fruit, red bean, and condensed milk.",                        didYouKnow: "Bingsu became popular in Korea during the Joseon era as a royal summer treat." },
-  { emoji: "🍫", name: "Pepero",        pronounce: "(PEH-peh-roh)",     fact: "Crunchy chocolate-dipped sticks. Pepero Day is November 11!",                       didYouKnow: "Pepero Day (11/11) is one of Korea's biggest friendship holidays." },
-  { emoji: "🍯", name: "Yakgwa",        pronounce: "(YAK-gwa)",         fact: "Honey-glazed flower-shaped cookies, a classic Korean dessert.",                     didYouKnow: "A traditional Joseon dynasty dessert served at weddings and royal ceremonies." },
-  { emoji: "🍪", name: "Choco Pie",     pronounce: "(CHO-ko pie)",      fact: "Two soft cakes with marshmallow inside, dipped in chocolate.",                      didYouKnow: "Korean soldiers became fans in the 1970s, turning it into a national snack." },
-  { emoji: "🐟", name: "Bungeoppang",   pronounce: "(BUNG-uh-PPANG)",   fact: "Fish-shaped bread filled with sweet red bean paste, a winter street food.",         didYouKnow: "First appeared in Korea in the 1930s, inspired by Japan's taiyaki." }
+  { id: "tteokbokki", order: "I'd like the spicy rice cakes, please!", hint: "Find the card that says spicy rice cakes." },
+  { id: "kimbap", order: "May I have rice rolls wrapped in seaweed?", hint: "Look for the rice rolls on the menu." },
+  { id: "hotteok", order: "I'd love some sweet filled pancakes.", hint: "Which card describes pancakes?" },
+  { id: "bingsu", order: "A shaved-ice dessert for me, please!", hint: "Look for the shaved-ice dessert." },
+  { id: "pepero", order: "I'd like chocolate-coated biscuit sticks.", hint: "Find the biscuit sticks, not the cakes." },
+  { id: "yakgwa", order: "Some traditional sweet cookies, please.", hint: "Look for the card that describes traditional cookies." },
+  { id: "choco-pie", order: "May I have the chocolate-coated cakes with marshmallow?", hint: "Find the cakes with marshmallow, not the biscuit sticks." },
+  { id: "bungeoppang", order: "I'd like the fish-shaped filled bread!", hint: "Which card describes bread shaped like a fish?" }
 ];
 
-// Pick a random snack from the array.
-function pickRandomSnack() {
+const totalVisitors = 5;
+let served = 0;
+let currentOrder = snacks[0];
+
+const orderText = document.getElementById("order-text");
+const feedback = document.getElementById("feedback");
+const visitorLabel = document.getElementById("visitor-label");
+const progress = document.getElementById("progress");
+const progressLabel = document.getElementById("progress-label");
+const nextButton = document.getElementById("next-visitor");
+const snackButtons = document.querySelectorAll(".snack-button");
+const gamePanel = document.getElementById("game-panel");
+const finishPanel = document.getElementById("finish-panel");
+
+function showOrder() {
   const index = Math.floor(Math.random() * snacks.length);
-  return snacks[index];
+  currentOrder = snacks[index];
+  orderText.textContent = currentOrder.order;
+  visitorLabel.textContent = "Visitor " + (served + 1);
+  feedback.textContent = "Choose a snack from the menu.";
+  feedback.dataset.kind = "info";
+  nextButton.hidden = true;
+  setMenuEnabled(true);
 }
 
-// Find the parts of the page we want to update.
-const emojiEl       = document.querySelector(".emoji");
-const nameEl        = document.querySelector(".snack-name");
-const pronounceEl   = document.querySelector(".snack-pronounce");
-const factEl        = document.querySelector(".snack-fact");
-const didYouKnowEl  = document.querySelector(".snack-did-you-know");
-const button        = document.getElementById("pickBtn");
-
-// Pick a snack, write it into the card, and play the pop animation.
-function showSnack() {
-  const snack = pickRandomSnack();
-  emojiEl.textContent     = snack.emoji;
-  nameEl.textContent      = snack.name;
-  pronounceEl.textContent = snack.pronounce;
-  factEl.textContent      = snack.fact;
-
-  // Show the "Did you know?" callout. innerHTML lets us bold the label.
-  didYouKnowEl.innerHTML = "<strong>Did you know?</strong> " + snack.didYouKnow;
-  didYouKnowEl.hidden = false;
-
-  // Restart the CSS pop animation by removing + re-adding the class.
-  const card = document.getElementById("card");
-  card.classList.remove("pop");
-  void card.offsetWidth; // forces the browser to reflow before re-adding
-  card.classList.add("pop");
-
-  // After the first click, change the button to invite another pick.
-  button.textContent = "Try another snack / 다른 간식 보기";
+function checkAnswer(snackId) {
+  if (snackId === currentOrder.id) {
+    served = served + 1;
+    updateProgress();
+    if (served === totalVisitors) {
+      finishGame();
+    } else {
+      finishOrder();
+    }
+  } else {
+    feedback.textContent = "Try again! " + currentOrder.hint;
+    feedback.dataset.kind = "hint";
+  }
 }
 
-// Run showSnack() every time the button is clicked.
-button.addEventListener("click", showSnack);
+// These page helpers are provided so students can focus on the game rules.
+function setMenuEnabled(enabled) {
+  snackButtons.forEach(function (button) {
+    button.disabled = !enabled;
+  });
+}
+
+function updateProgress() {
+  progress.max = totalVisitors;
+  progress.value = served;
+  progressLabel.textContent = served + " of " + totalVisitors + " visitors served";
+  document.getElementById("visitor-goal").textContent = totalVisitors;
+}
+
+function finishOrder() {
+  feedback.textContent = "That's the one! Visitor " + served + " is served.";
+  feedback.dataset.kind = "success";
+  setMenuEnabled(false);
+  nextButton.hidden = false;
+  nextButton.focus();
+}
+
+function finishGame() {
+  setMenuEnabled(false);
+  gamePanel.hidden = true;
+  finishPanel.hidden = false;
+  document.getElementById("finish-message").textContent = "You served all " + totalVisitors + " visitors!";
+  document.getElementById("finish-heading").focus();
+}
+
+function restartGame() {
+  served = 0;
+  gamePanel.hidden = false;
+  finishPanel.hidden = true;
+  updateProgress();
+  showOrder();
+  document.getElementById("order-heading").focus();
+}
+
+snackButtons.forEach(function (button) {
+  button.addEventListener("click", function () {
+    checkAnswer(button.dataset.snack);
+  });
+});
+nextButton.addEventListener("click", function () {
+  showOrder();
+  document.getElementById("order-heading").focus();
+});
+document.getElementById("restart").addEventListener("click", restartGame);
+
+updateProgress();
+showOrder();
