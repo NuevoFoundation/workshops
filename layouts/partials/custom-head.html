@@ -32,3 +32,14 @@
 
 <!-- Nuevo Foundation color palette (CSS variables, --nuevo-coral, etc.) -->
 <link href="{{ "css/nuevo-palette.css" | relURL }}" rel="stylesheet">
+
+<!-- Code blocks: Hugo's JSX highlighter marks plain text it doesn't recognize
+     (emoji, "¡", accented letters inside JSX) as an error, and the monokailight
+     style paints errors as dark boxes that hide the character. Show them as
+     normal text instead. -->
+<style>
+  .highlight span[style*="background-color:#1e0010"] {
+    background-color: transparent !important;
+    color: inherit !important;
+  }
+</style>
