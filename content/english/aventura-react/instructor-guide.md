@@ -70,6 +70,7 @@ The code mistakes below were tested in the starter project. Messages marked "con
 | Red box: "Identifier 'turtles' has already been declared" | Typed the new TODO 1 line but kept `const turtles = 0;` | Delete the old line. |
 | Red box in the trash list: "Unexpected token, expected ','" | Beach TODO 1: forgot the `)` in `]);`, or deleted a quote or comma | The list's last line must be `]);` and every item needs quotes and a comma |
 | Whole app goes white, no red box | Code that breaks while running: `usestate`, `{Name}`, lines typed outside a function's `{ }`, a missing `{ }` around `trash.map(...)` | Ctrl+Z. The console says what's wrong, e.g. "usestate is not defined", "Too many re-renders" or "item is not defined". |
+| Counter jumps to 10 by itself and Restart mission does nothing | The TODO 2 `if` was typed below `};`, outside `saveTurtle` | Move those lines inside the `{ }` of `saveTurtle`. |
 | Turtle counter stays at 0 | TODO 2 not done (`saveTurtle` is empty), or a TODO 1 typo (console: "setTurtles is not defined") | Do TODO 2. Check `setTurtles` has a capital T in both places. |
 | "Restart mission" does nothing | TODO 3 not done, typed inside `saveTurtle`, or `setTurtles = 0` | `setTurtles(0);` inside `restart`. |
 | Nothing on the beach | TODO 3 not done yet. That's normal. | Do TODO 3. If TODO 3 is done: they used `{ }` after `=>` instead of `( )`. |

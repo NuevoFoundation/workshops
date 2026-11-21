@@ -229,7 +229,7 @@ Note:
 - **Say:** "`saveTurtle` is a function: a little list of instructions that runs every time someone clicks 'Save a turtle'. Right now the list is empty. We'll add: if the turtles we saved are fewer than the total, set turtles to turtles plus one. The `<` sign means 'less than'."
 - **Type live:** Click on the empty line between `{` and `};` and type the three lines. Point out that the editor sometimes adds the closing `}` or `)` for you, so check you don't end up with two.
 - **Check-in:** "Click 'Save a turtle' a few times. Thumbs up when your counter goes up!"
-- **Watch for:** (1) Lines typed below the `};` instead of inside the `{ }` → the app goes white (the console says "Too many re-renders"). Move them inside. (2) A missing `}` → red box "Unexpected token", often pointing at the last line of the file. Check the braces you just typed. (3) Counter doesn't move and no red box → a typo in TODO 1 like `setturtles`; the console (F12) says "setTurtles is not defined".
+- **Watch for:** (1) Lines typed below the `};` instead of inside the `{ }` → either the app goes white (the console says "Too many re-renders") or the counter jumps straight to 10 by itself. Move them inside. (2) A missing `}` → red box "Unexpected token", often pointing at the last line of the file. Check the braces you just typed. (3) Counter doesn't move and no red box → a typo in TODO 1 like `setturtles`; the console (F12) says "setTurtles is not defined".
 - **Catch-up:** "If you're behind, open 'Stuck? Show the complete file' on the Activity 1 page."
 
 ---
