@@ -1,0 +1,208 @@
+/* No necesitas cambiar este archivo.
+   Le da color a tu app de Costa Rica. Cada sección da estilo a un componente. */
+
+body {
+  margin: 0;
+  background-color: #f4fbf8;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  padding: 32px 16px;
+  font-family: "Comic Sans MS", "Chalkboard SE", "Poppins", sans-serif;
+  text-align: center;
+}
+
+.App h1 {
+  font-size: 2.5rem;
+  color: #00796b;
+  margin: 0;
+}
+
+/* Cada actividad es una tarjeta del mismo ancho */
+.tortugas,
+.playa,
+.perezosos,
+.finca-cafe,
+.volcan {
+  width: 100%;
+  max-width: 640px;
+  box-sizing: border-box;
+  padding: 32px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  font-family: inherit;
+  font-size: 1rem;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.instrucciones {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.mensaje-final {
+  margin-top: 24px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #1b5e20;
+  animation: aparecer 0.6s ease-in-out;
+}
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* ---------- Actividad 1: Tortugas ---------- */
+.tortugas {
+  background: linear-gradient(135deg, #a2f5a2, #b3e5fc);
+  color: #084c31;
+}
+
+.tortugas button {
+  background-color: #d32f2f;
+  color: white;
+}
+
+.tortugas button:hover {
+  background-color: #1565c0;
+}
+
+.exito {
+  font-weight: bold;
+  color: #1b4f8a;
+}
+
+/* ---------- Actividad 2: Playa ---------- */
+.playa {
+  background: linear-gradient(180deg, #fff4a8, #bfe6f5);
+  color: #222;
+}
+
+.botones-desechos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.playa button {
+  background-color: #00806a;
+  color: white;
+}
+
+.playa button:hover {
+  background-color: #00634f;
+}
+
+/* ---------- Actividad 3: Perezosos ---------- */
+.perezosos {
+  background-color: #8d5a3b;
+  color: white;
+}
+
+.perezosos .mensaje-final {
+  color: #fff3b0;
+}
+
+.lista-perezosos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.tarjeta-perezoso {
+  width: 140px;
+  padding: 16px;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.tarjeta-perezoso h3 {
+  margin: 0 0 8px;
+}
+
+.tarjeta-perezoso.rescatado {
+  background-color: #4caf50;
+}
+
+.tarjeta-perezoso button {
+  background-color: #fefae0;
+  color: #5c3d2e;
+  font-weight: bold;
+}
+
+/* ---------- Extra 1: Finca de café ---------- */
+.finca-cafe {
+  background-color: #e3d5ca;
+  color: #3e2723;
+}
+
+.numero-etapa {
+  margin: 0;
+  color: #6d4c41;
+}
+
+.etapa {
+  font-size: 1.4rem;
+  margin: 16px 0 24px;
+}
+
+.boton-siguiente {
+  background-color: #8b5e3c;
+  color: white;
+}
+
+.boton-siguiente:hover {
+  background-color: #a47148;
+}
+
+/* ---------- Extra 2: Volcán ---------- */
+.volcan {
+  background-color: #ffe5b4;
+  color: #3e2f00;
+}
+
+.volcan ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.volcan li {
+  margin: 12px 0;
+  font-size: 1.1rem;
+}
+
+.volcan button {
+  margin-left: 10px;
+  background-color: #e64a19;
+  color: white;
+}
+
+.volcan button:hover {
+  background-color: #bf360c;
+}
