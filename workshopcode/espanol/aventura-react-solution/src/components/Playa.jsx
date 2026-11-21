@@ -1,7 +1,12 @@
 import { useState } from "react";
 
 export default function Playa() {
-  const [desechos, setDesechos] = useState(["🧃 Plástico", "🍾 Vidrio", "🥫 Lata", "📄 Papel"]);
+  const [desechos, setDesechos] = useState([
+    "🧃 Plástico",
+    "🍾 Vidrio",
+    "🥫 Lata",
+    "📄 Papel",
+  ]);
 
   const recoger = (desecho) => {
     setDesechos(desechos.filter((d) => d !== desecho));

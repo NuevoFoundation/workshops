@@ -2,8 +2,14 @@ import { useState } from "react";
 
 export default function Playa() {
   // TAREA 1: Dale a React una memoria para la lista de desechos.
-  // Cambia esta línea por una variable de estado (como tortugas en la Actividad 1).
-  const desechos = ["🧃 Plástico", "🍾 Vidrio", "🥫 Lata", "📄 Papel"];
+  // Cambia la primera y la última línea de esta lista para que sea una variable
+  // de estado (como tortugas en la Actividad 1).
+  const desechos = [
+    "🧃 Plástico",
+    "🍾 Vidrio",
+    "🥫 Lata",
+    "📄 Papel",
+  ];
 
   // TAREA 2: Quita el desecho al que se le hizo clic.
   const recoger = (desecho) => {

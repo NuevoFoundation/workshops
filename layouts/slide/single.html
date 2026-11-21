@@ -27,6 +27,8 @@
     .reveal h1, .reveal h2, .reveal h3 { text-transform: none; }
     .reveal pre { width: 100%; font-size: 0.6em; box-shadow: none; }
     .reveal pre code { max-height: 560px; padding: 0.6em 0.8em; border-radius: 8px; }
+    /* Wrap long lines instead of hiding them behind a sideways scroll. */
+    .reveal pre code, .reveal .code-wrapper code { white-space: pre-wrap; }
     .reveal img { max-height: 420px; }
     .reveal ul, .reveal ol { display: block; }
   </style>

@@ -1,7 +1,12 @@
 import { useState } from "react";
 
 export default function Beach() {
-  const [trash, setTrash] = useState(["🧃 Plastic bottle", "🍾 Glass", "🥫 Can", "📄 Paper"]);
+  const [trash, setTrash] = useState([
+    "🧃 Plastic bottle",
+    "🍾 Glass",
+    "🥫 Can",
+    "📄 Paper",
+  ]);
 
   const pickUp = (item) => {
     setTrash(trash.filter((t) => t !== item));

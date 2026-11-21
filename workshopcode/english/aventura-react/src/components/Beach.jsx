@@ -2,8 +2,14 @@ import { useState } from "react";
 
 export default function Beach() {
   // TODO 1: Give React a memory for the trash list.
-  // Change this line into a state variable (like turtles in Activity 1).
-  const trash = ["🧃 Plastic bottle", "🍾 Glass", "🥫 Can", "📄 Paper"];
+  // Change the first and last lines of this list to make it a state variable
+  // (like turtles in Activity 1).
+  const trash = [
+    "🧃 Plastic bottle",
+    "🍾 Glass",
+    "🥫 Can",
+    "📄 Paper",
+  ];
 
   // TODO 2: Remove the piece of trash that was clicked.
   const pickUp = (item) => {
