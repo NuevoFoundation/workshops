@@ -150,7 +150,13 @@ Prueba tu tarjeta del volcán:
 
 ## Tu turno
 
-Muestra cuántos animales siguen en peligro. Agrega un `<p>` nuevo debajo de las instrucciones y pon `{animales.length}` adentro, igual que la tarjeta de las tortugas muestra `{tortugas}`. Después haz clic en **Evacuar** y mira cómo baja el número.
+Muestra cuántos animales siguen en peligro. Después de la línea `</p>` que cierra las instrucciones, agrega esta línea:
+
+~~~jsx
+      <p>Animales todavía en peligro: {animales.length}</p>
+~~~
+
+`{animales.length}` muestra cuántos animales hay en la lista, igual que la tarjeta de las tortugas muestra `{tortugas}`. Después haz clic en **Evacuar** y mira cómo baja el número.
 
 ## ¿Atascado?
 
@@ -158,7 +164,7 @@ Compara tu código con los archivos terminados. Haz clic en **Muestra el archivo
 
 Para ponerte al día, puedes reemplazar un archivo completo:
 
-1. Selecciona todo el código de un recuadro con el mouse y cópialo (**Ctrl + C**, o **Cmd + C** en Mac).
+1. Haz clic justo antes de `import`, al principio de uno de los recuadros. Después mantén presionada la tecla **Shift** (⇧) y haz clic justo después de la última `}`, al final de ese mismo recuadro. Copia lo que seleccionaste (**Ctrl + C**, o **Cmd + C** en Mac).
 2. En StackBlitz, haz clic dentro del archivo con el mismo nombre y presiona **Ctrl + A** (**Cmd + A** en Mac) para seleccionar todo.
 3. Pega (**Ctrl + V**, o **Cmd + V** en Mac).
 
@@ -240,4 +246,11 @@ export default function App() {
 - **Ves `/*` y `*/` en la página.** En `App.jsx`, esa línea debe ser solo `<Volcan />`.
 - **Todos los animales desaparecieron de una vez.** El botón necesita `() =>`: `onClick={() => evacuar(animal)}`.
 - **Un clic evacúa a dos animales.** Dos animales tienen exactamente el mismo nombre. Haz que cada animal sea diferente.
-- **Un recuadro rojo dice `Unexpected token`.** Revisa que no falten comas ni comillas entre tus animales, que la lista termine con `]);` y que `.map` termine con `))}`.
+- **El recuadro de error dice `Unexpected token` o `'return' outside of function`.** Te falta o te sobra un paréntesis, un corchete o una llave, o te falta una coma o unas comillas. Revisa las comas y las comillas entre tus animales, que la lista termine con `]);` y que `.map` termine con `))}`.
+- **Ves `))}` escrito en la tarjeta del volcán.** El editor agregó `))}` por ti y tú lo volviste a escribir. Borra uno de los dos.
+
+## ¡Viaje completo!
+
+¡Terminaste todas las paradas! **¡Pura vida!** 🦈
+
+¿Quieres conservar tu app? Pídele a una persona adulta que te ayude a iniciar sesión en StackBlitz y a guardar tu propia copia con el botón **Fork** de arriba.

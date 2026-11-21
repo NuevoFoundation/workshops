@@ -71,6 +71,8 @@ Cerca del final del archivo hay un botón: `<button onClick={salvarTortuga}>`. `
 Cuando escribes `(` o `{`, a veces el editor agrega por su cuenta el `)` o la `}` que los cierra. Revisa que tu código sea igual al del recuadro de arriba, sin una `}` de más.
 {{% /notice %}}
 
+**Consejo:** ¿Te cansaste de hacer clic 10 veces? Mientras pruebas, cambia `const total = 10;` por `const total = 3;`. Cuando termines, vuelve a ponerlo en `10`.
+
 **Lo que deberías ver:** Haz clic en **Salvar tortuga**. El número sube: 1 de 10, 2 de 10, 3 de 10… Cuando llegas a 10, el botón desaparece. Ves **¡Todas las tortugas están a salvo!** y un botón **Reiniciar misión**.
 
 **¿Cómo apareció ese mensaje?** Tú no lo escribiste. Esta parte ya estaba en el archivo:
@@ -110,8 +112,6 @@ Haz clic en **Reiniciar misión**. No pasa nada, porque `reiniciar` está vacía
 
 **Lo que deberías ver:** Haz clic en **Reiniciar misión**. La tarjeta vuelve a **0 de 10**, y el botón **Salvar tortuga** regresa.
 
-**Consejo:** ¿Te cansaste de hacer clic 10 veces? Mientras pruebas, cambia `const total = 10;` por `const total = 3;`.
-
 ## Punto de control
 
 <img src="../media/checkpoint-turtles.png" alt="La tarjeta de las tortugas dice Has salvado 3 de 10 tortugas y tiene un botón rojo que dice Salvar tortuga" width="50%">
@@ -124,7 +124,7 @@ Prueba tu tarjeta de las tortugas:
 
 ## Tu turno
 
-¡Haz que la misión sea tuya! Cambia `total` por otro número, como `5` o `25`. Después cambia las palabras del botón, por ejemplo por `Salvar una tortuga bebé 🐢`. Salva todas las tortugas y revisa que el mensaje siga apareciendo.
+¡Haz que la misión sea tuya! Cambia `total` por otro número, como `5` o `25`. Después cambia las palabras del botón. En `<button onClick={salvarTortuga}>Salvar tortuga</button>`, cambia solo las palabras `Salvar tortuga`, por ejemplo por `Salvar una tortuga bebé 🐢`. Salva todas las tortugas y revisa que el mensaje siga apareciendo.
 
 ## ¿Atascado?
 
@@ -132,7 +132,7 @@ Compara tu código con el archivo terminado. Haz clic en **Muestra el archivo co
 
 Para ponerte al día, puedes reemplazar todo tu archivo con él:
 
-1. Selecciona todo el código del recuadro con el mouse y cópialo (**Ctrl + C**, o **Cmd + C** en Mac).
+1. Haz clic justo antes de `import`, al principio del recuadro. Después mantén presionada la tecla **Shift** (⇧) y haz clic justo después de la última `}`, al final del recuadro. Copia lo que seleccionaste (**Ctrl + C**, o **Cmd + C** en Mac).
 2. En StackBlitz, haz clic dentro de `Tortugas.jsx` y presiona **Ctrl + A** (**Cmd + A** en Mac) para seleccionar todo.
 3. Pega (**Ctrl + V**, o **Cmd + V** en Mac).
 
@@ -179,8 +179,9 @@ export default function Tortugas() {
 
 ## ¿No funciona?
 
-- **Un recuadro oscuro con letras rojas dice `Identifier 'tortugas' has already been declared`.** Quiere decir "el nombre `tortugas` ya existe". Todavía tienes la línea vieja `const tortugas = 0;`. Bórrala. Solo debe quedar `const [tortugas, setTortugas] = useState(0);`.
+- **El recuadro de error dice `Identifier 'tortugas' has already been declared`.** Quiere decir "el nombre `tortugas` ya existe". Todavía tienes la línea vieja `const tortugas = 0;`. Bórrala. Solo debe quedar `const [tortugas, setTortugas] = useState(0);`.
 - **El número no sube.** Revisa que `setTortugas` esté escrito igual en la TAREA 1 y en la TAREA 2, con **T** mayúscula. ¡En el código, las mayúsculas importan! Revisa también que las líneas de la TAREA 2 estén *dentro* de `salvarTortuga`, entre `() => {` y `};`.
-- **Un recuadro rojo dice `Unexpected token`.** Quiere decir "encontré algo que no esperaba". Falta un paréntesis o una llave, o sobra uno. Cada `(` necesita un `)`, y cada `{` necesita una `}`. Compara tu archivo con el archivo completo de arriba.
+- **Dice 10 de 10 antes de que hagas clic.** Tus líneas de la TAREA 2 quedaron fuera de `salvarTortuga`. Muévelas entre `() => {` y `};`.
+- **El recuadro de error dice `Unexpected token` o `'return' outside of function`.** Te falta o te sobra un paréntesis o una llave. (`Unexpected token` quiere decir "encontré algo que no esperaba", y `'return' outside of function` quiere decir "hay un `return` fuera de una función"). Cada `(` necesita un `)`, y cada `{` necesita una `}`. Compara tu archivo con el archivo completo de arriba.
 - **Toda la app desapareció y el lado derecho está en blanco.** Busca un error al escribir, como `usestate` en vez de `useState`. Cuando lo corrijas, la app vuelve.
 - **Tu cambio no aparece.** Presiona **Ctrl + S** (**Cmd + S** en Mac) para guardar.

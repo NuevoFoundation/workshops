@@ -13,7 +13,7 @@ draft: false
 
 | Idea de React | Qué significa | Dónde la usaste |
 |---|---|---|
-| **Componentes** | Funciones que devuelven lo que se muestra en la pantalla | Cada tarjeta de tu app |
+| **Componentes** | Pedacitos de código que hacen cada uno una parte de la pantalla | Cada tarjeta de tu app |
 | **Estado** (`useState`) | La memoria de React. Cuando cambia, la pantalla se actualiza | El contador de tortugas y la lista de desechos |
 | **Eventos** (`onClick`) | Ejecutar una función cuando alguien hace clic | Cada botón |
 | **Listas** (`.map()`) | Mostrar algo por cada elemento de una lista | Los botones de los desechos y las tarjetas de los perezosos |
@@ -23,7 +23,7 @@ draft: false
 
 ## Mira la app terminada
 
-¿Quieres comparar tu app con la nuestra? Esto abre la app terminada en una pestaña nueva. Es una copia aparte, así que tu propia app sigue a salvo en tu pestaña.
+¿Quieres comparar tu app con la nuestra? Esto abre la app terminada en una pestaña nueva. Es una copia aparte, así que tu propia app sigue a salvo en tu pestaña. La app terminada también tiene las dos tarjetas extra: la finca de café y el volcán. ¡Puedes construirlas a continuación!
 
 ### <a class="btn btn-info" href="https://stackblitz.com/github/NuevoFoundation/workshops/tree/master/workshopcode/espanol/aventura-react-solution?file=src%2FApp.jsx" target="_blank" rel="noopener">👉 Abrir la app terminada</a>
 

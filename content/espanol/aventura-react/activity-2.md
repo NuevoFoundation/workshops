@@ -20,7 +20,7 @@ Las tortugas están a salvo. ¡Ahora vamos a limpiar su playa! Costa Rica tiene 
 En tu pestaña de StackBlitz, haz clic en `Playa.jsx` en la lista de archivos. Está en la misma carpeta `components` que `Tortugas.jsx`.
 
 {{% notice info %}}
-En esta actividad no aparece nada nuevo en la pantalla hasta el Paso 3. ¡Ahí todo empieza a funcionar de una vez!
+En esta actividad, los botones de los desechos no aparecen hasta el Paso 3. ¡Ahí todo empieza a funcionar de una vez!
 {{% /notice %}}
 
 ## Paso 1 — TAREA 1: Guarda la lista de desechos en el estado
@@ -54,7 +54,7 @@ No tienes que tocar los elementos del medio. Solo cambian dos líneas:
 1. La primera línea: `const desechos = [` se convierte en `const [desechos, setDesechos] = useState([`.
 2. La última línea: `];` se convierte en `]);`.
 
-**Lo que deberías ver:** Todavía no cambia nada en la pantalla. ¡Así está bien!
+**Lo que deberías ver:** Si solo cambiaste la primera línea, puede que aparezca el recuadro de error. ¡Es normal! Desaparece cuando cambias también la última línea. Después de eso, todavía no cambia nada en la pantalla. ¡Así está bien!
 
 ## Paso 2 — TAREA 2: Recoge un desecho
 
@@ -105,8 +105,12 @@ No tienes que tocar los elementos del medio. Solo cambian dos líneas:
 ```
 
 - `key={desecho}` le da a cada botón su propio nombre, para que React sepa cuál es cuál.
-- `onClick={() => recoger(desecho)}` significa "cuando alguien haga clic en este botón, recoge este desecho". En la Actividad 1 solo escribimos `onClick={salvarTortuga}`. Aquí también tenemos que decirle a `recoger` *cuál* desecho, así que lo envolvemos en una pequeña función, `() =>`, que solo se ejecuta cuando haces clic. ¡No la olvides!
+- `onClick={() => recoger(desecho)}` significa "cuando alguien haga clic en este botón, recoge este desecho". En la Actividad 1, el botón decía `onClick={salvarTortuga}`. Aquí también tenemos que decirle a `recoger` *cuál* desecho, así que lo envolvemos en una pequeña función, `() =>`, que solo se ejecuta cuando haces clic. ¡No la olvides!
 - Mira el final: `))}`. El primer `)` cierra la parte del botón, el segundo cierra `.map(`, y la `}` cierra la `{` del principio.
+
+{{% notice tip %}}
+Cuando escribes `(` o `{`, a veces el editor agrega por su cuenta el `)` o la `}` que los cierra. Revisa que tu código sea igual al del recuadro de arriba, sin un `))}` de más.
+{{% /notice %}}
 
 **Lo que deberías ver:** Aparecen cuatro botones: **Recoger 🧃 Plástico**, **Recoger 🍾 Vidrio**, **Recoger 🥫 Lata** y **Recoger 📄 Papel**. Haz clic en uno y ¡desaparece! Recoge los cuatro y verás **¡La playa está limpia!**
 
@@ -140,7 +144,7 @@ Compara tu código con el archivo terminado. Haz clic en **Muestra el archivo co
 
 Para ponerte al día, puedes reemplazar todo tu archivo con él:
 
-1. Selecciona todo el código del recuadro con el mouse y cópialo (**Ctrl + C**, o **Cmd + C** en Mac).
+1. Haz clic justo antes de `import`, al principio del recuadro. Después mantén presionada la tecla **Shift** (⇧) y haz clic justo después de la última `}`, al final del recuadro. Copia lo que seleccionaste (**Ctrl + C**, o **Cmd + C** en Mac).
 2. En StackBlitz, haz clic dentro de `Playa.jsx` y presiona **Ctrl + A** (**Cmd + A** en Mac) para seleccionar todo.
 3. Pega (**Ctrl + V**, o **Cmd + V** en Mac).
 
@@ -187,7 +191,9 @@ export default function Playa() {
 
 ## ¿No funciona?
 
-- **No aparece ningún botón.** Revisa que tu código con `.map` esté entre `<div className="botones-desechos">` y `</div>`. Tiene que empezar con `{` y terminar con `))}`.
+- **No aparece ningún botón.** Revisa que tu código con `.map` esté entre `<div className="botones-desechos">` y `</div>`. Revisa también que justo después de `(desecho) =>` hayas escrito un paréntesis `(`, no una llave `{`.
+- **Toda la app desapareció.** Revisa que tu código con `.map` empiece con `{` y termine con `))}`.
 - **Todos los desechos desaparecieron de una vez y dice "¡La playa está limpia!"** Seguramente escribiste `onClick={recoger(desecho)}`, como en el botón de las tortugas. Agrega `() =>` para que diga `onClick={() => recoger(desecho)}`. Sin eso, React ejecuta `recoger` para cada desecho apenas muestra los botones, en vez de esperar a que hagas clic.
 - **Los botones no desaparecen cuando haces clic.** Revisa que tu línea de la TAREA 2 esté dentro de `recoger`, y que `setDesechos` esté escrito igual que en la TAREA 1, con **D** mayúscula. Revisa también las **s**: la lista es `desechos` y cada elemento es `desecho`.
-- **Un recuadro rojo dice `Unexpected token`.** Falta un paréntesis o un corchete. La TAREA 1 tiene que terminar con `]);` y la TAREA 3 con `))}`. Compara tu archivo con el archivo completo de arriba.
+- **El recuadro de error dice `Unexpected token` o `'return' outside of function`.** Te falta o te sobra un paréntesis, un corchete o una llave. La TAREA 1 tiene que terminar con `]);` y la TAREA 3 con `))}`. Compara tu archivo con el archivo completo de arriba.
+- **Ves `))}` escrito en la tarjeta de la playa.** El editor agregó `))}` por ti y tú lo volviste a escribir. Borra uno de los dos.

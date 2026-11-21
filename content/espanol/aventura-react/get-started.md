@@ -17,6 +17,8 @@ Haz clic en el botón de abajo. Tu proyecto se abre en una pestaña nueva en **S
 
 Ahora espera más o menos un minuto mientras StackBlitz prepara tu app. Puede que veas líneas de texto pasando en la parte de abajo de la pantalla. ¡Es normal!
 
+¿Pasaron 2 minutos y todavía no aparece tu app? Revisa que estés usando Chrome, Edge o Firefox, y después pídele ayuda a tu instructor o a una persona adulta.
+
 {{% notice warning %}}
 **Deja abierta esta pestaña de StackBlitz hasta el final del taller.** No vuelvas a hacer clic en el botón de arriba, y no cierres ni recargues la pestaña de StackBlitz. El botón siempre abre una copia nueva, sin tu trabajo.
 {{% /notice %}}
@@ -58,7 +60,7 @@ En la lista de archivos, abre la carpeta `src`. Ahí vive todo tu código, y las
 
 ## Cómo encajan las piezas
 
-En React, cada parte de la pantalla es un **componente**. Un componente es una función que devuelve lo que se debe mostrar en la pantalla, escrito en algo muy parecido a HTML. Cada archivo de la carpeta `components` tiene un componente.
+En React, cada parte de la pantalla es un **componente**. Un componente es un pedacito de código que crea una parte de la pantalla. Cada archivo de la carpeta `components` tiene un componente.
 
 `App.jsx` pone los componentes en la página. Ya está listo:
 
@@ -98,6 +100,8 @@ export default function App() {
 2. Busca el comentario que dice `TAREA 1` (después `TAREA 2`, y así). Marca el lugar donde va tu código.
 3. Escribe el código de la página de la actividad. Escríbelo en lugar de copiarlo: ¡así aprendes más!
 4. Mira tu app a la derecha. Se actualiza un momento después de que escribes. Si no, presiona **Ctrl + S** (**Cmd + S** en Mac) para guardar.
+
+Mientras estás escribiendo, puede que tu app se quede en blanco o que muestre el **recuadro de error**: un recuadro oscuro con letras rojas que tapa tu app. ¡Es normal! Desaparece cuando terminas de escribir. Solo mira la sección **¿No funciona?**, al final de cada actividad, si sigue ahí cuando ya terminaste.
 
 {{% notice tip %}}
 ¿Te equivocaste? Presiona **Ctrl + Z** (**Cmd + Z** en Mac) para deshacerlo.

@@ -63,14 +63,15 @@ Cosas que conviene avisar desde antes:
 
 ## Errores comunes
 
-Los errores de código de abajo se probaron en el proyecto inicial. Los mensajes que aparecen en el recuadro rojo o en la consola salen en inglés, tal como los verán los estudiantes. Los marcados como "consola" solo aparecen en la consola del navegador (**F12 → Console**); la app solo se ve mal.
+Los errores de código de abajo se probaron en el proyecto inicial. Los mensajes que aparecen en el recuadro de error o en la consola salen en inglés, tal como los verán los estudiantes. Los marcados como "consola" solo aparecen en la consola del navegador (**F12 → Console**); la app solo se ve mal.
 
 | Lo que ve el estudiante | Causa | Solución |
 |---|---|---|
-| Recuadro rojo encima de la app: "Unexpected token" con un archivo y un número de línea | Falta un `)`, `}`, `]` o `"` | Revisa esa línea y las anteriores. Si falta una `}`, el número de línea muchas veces señala el final del archivo. Compara con la página. |
-| Recuadro rojo: "Identifier 'tortugas' has already been declared" (el nombre ya existe) | Escribió la línea nueva de la TAREA 1 pero dejó `const tortugas = 0;` | Borra la línea vieja. |
-| Recuadro rojo en la lista de desechos: "Unexpected token, expected ','" o "Unterminated string constant" | TAREA 1 de Playa: olvidó el `)` de `]);`, o borró unas comillas o una coma | La última línea de la lista tiene que ser `]);`, y cada desecho necesita sus comillas y su coma. |
-| Toda la app se pone en blanco, sin recuadro rojo | Código que falla al ejecutarse: `usestate`, `Tortugas` con mayúscula en la TAREA 1, `{Nombre}`, líneas escritas fuera de las `{ }` de una función, o faltan las `{ }` alrededor de `desechos.map(...)` | Ctrl+Z. La consola dice qué pasó, por ejemplo "usestate is not defined", "tortugas is not defined", "Too many re-renders" o "desecho is not defined". |
+| Recuadro de error encima de la app: "Unexpected token" con un archivo y un número de línea | Falta un `)`, `}`, `]` o `"` | Revisa esa línea y las anteriores. Si falta una `}`, el número de línea muchas veces señala el final del archivo. Compara con la página. |
+| Recuadro de error: "'return' outside of function" (hay un `return` fuera de una función) | Sobra una `}`, muchas veces porque el editor la agregó solo y el estudiante la volvió a escribir | Borra la `}` de más. Compara con la página. |
+| Recuadro de error: "Identifier 'tortugas' has already been declared" (el nombre ya existe) | Escribió la línea nueva de la TAREA 1 pero dejó `const tortugas = 0;` | Borra la línea vieja. |
+| Recuadro de error en la lista de desechos: "Unexpected token, expected ','" o "Unterminated string constant" | TAREA 1 de Playa: olvidó el `)` de `]);`, o borró unas comillas o una coma | La última línea de la lista tiene que ser `]);`, y cada desecho necesita sus comillas y su coma. |
+| Toda la app se pone en blanco, sin recuadro de error | Código que falla al ejecutarse: `usestate`, `Tortugas` con mayúscula en la TAREA 1, `{Nombre}`, líneas escritas fuera de las `{ }` de una función, o faltan las `{ }` alrededor de `desechos.map(...)` | Ctrl+Z. La consola dice qué pasó, por ejemplo "usestate is not defined", "tortugas is not defined", "Too many re-renders" o "desecho is not defined". |
 | El contador salta solo a 10 y Reiniciar misión no hace nada | Escribió el `if` de la TAREA 2 debajo de `};`, fuera de `salvarTortuga` | Mueve esas líneas dentro de las `{ }` de `salvarTortuga`. |
 | El contador de tortugas se queda en 0 | No hizo la TAREA 2 (`salvarTortuga` está vacía), o tiene un error de escritura en la TAREA 1 (consola: "setTortugas is not defined") | Haz la TAREA 2. Revisa que `setTortugas` tenga T mayúscula en los dos lugares. |
 | "Reiniciar misión" no hace nada | No hizo la TAREA 3, la escribió dentro de `salvarTortuga`, o escribió `setTortugas = 0` (consola: "Assignment to constant variable") | `setTortugas(0);` dentro de `reiniciar`. |
@@ -78,6 +79,7 @@ Los errores de código de abajo se probaron en el proyecto inicial. Los mensajes
 | "¡La playa está limpia!" de inmediato, sin botones | `onClick={recoger(desecho)}` | `onClick={() => recoger(desecho)}` |
 | Hacer clic en un desecho no hace nada | No hizo la TAREA 2, o no hizo la TAREA 1 (consola: "setDesechos is not defined") | Termina la TAREA 1 y la TAREA 2. |
 | Al tocar un desecho desaparecen todos los demás | `===` en vez de `!==` en `filter` | `d !== desecho` |
+| La tarjeta muestra `))}` como texto, sin error | El editor cerró solo `{desechos.map((desecho) => (` y el estudiante también escribió `))}` (lo mismo puede pasar en `Perezosos.jsx`) | Borra uno de los dos `))}`. |
 | Todos los botones dicen "Recoger desecho" | Faltan las llaves | `Recoger {desecho}` |
 | La tarjeta del perezoso dice "🦥 nombre" | Faltan las llaves | `<h3>🦥 {nombre}</h3>` |
 | 5 tarjetas de perezosos, Mau dos veces | Dejó la tarjeta de Mau escrita a mano (`<Perezoso nombre="Mau" … />`, 5 líneas) | Bórrala. |

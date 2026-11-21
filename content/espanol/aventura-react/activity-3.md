@@ -7,7 +7,7 @@ draft: false
 
 <img src="../media/Perezoso.png" alt="Un perezoso feliz colgado de una rama con una computadora portátil, junto a Sharky sonriendo" width="40%">
 
-¡Última parada: el bosque tropical! En Costa Rica viven dos tipos de perezosos: el de dos dedos y el de tres dedos. Se mueven tan despacio que en su pelaje crecen algas, unas plantitas verdes diminutas que los ayudan a esconderse en los árboles. Puedes verlos en parques nacionales como Manuel Antonio y Corcovado. ¡Cuatro perezosos necesitan tu ayuda!
+¡Última parada: el bosque tropical! En Costa Rica viven dos tipos de perezosos: el de dos dedos y el de tres dedos. Se mueven tan despacio que en su pelaje crecen algas, unos seres vivos diminutos parecidos a plantas, que los ayudan a esconderse en los árboles. Puedes verlos en parques nacionales como Manuel Antonio y Corcovado. ¡Cuatro perezosos necesitan tu ayuda!
 
 ## Lo que vas a aprender
 
@@ -75,12 +75,16 @@ En el componente grande `Perezosos` hay una lista con cuatro nombres: `const per
         ))}
 ```
 
-Cada tarjeta recibe cuatro props:
+Cada tarjeta recibe una `key` y tres props:
 
 - `key={nombre}`: un nombre que React usa para saber cuál tarjeta es cuál.
 - `nombre={nombre}`: el nombre del perezoso. Lo muestras en la tarjeta gracias a la TAREA 1.
 - `rescatado={rescatados.includes(nombre)}`: `true` (verdadero) si este perezoso está en la lista de rescatados, `false` (falso) si no.
 - `onRescatar={rescatar}`: la función que se ejecuta cuando haces clic en **Rescatar**. No lleva `()` después de `rescatar`, porque le estamos pasando la función, no la estamos ejecutando todavía.
+
+{{% notice tip %}}
+Cuando escribes `(` o `{`, a veces el editor agrega por su cuenta el `)` o la `}` que los cierra. Revisa que tu código sea igual al del recuadro de arriba, sin un `))}` de más.
+{{% /notice %}}
 
 **Esto ya está en el archivo:** `rescatados` es una lista en el estado que empieza vacía, `useState([])`. La función `rescatar` agrega el nombre de un perezoso a esa lista:
 
@@ -110,7 +114,13 @@ Prueba tus tarjetas de perezosos:
 
 ## Tu turno
 
-Agrega tu propio perezoso a la lista `perezosos`, como `"Pura Vida"` (¡así se saluda, se dan las gracias y se dice "todo bien" en Costa Rica!). Ponle comillas al nombre y una coma antes, y que sea diferente de los otros nombres. Aparece una tarjeta nueva, y ahora tienes que rescatar a 5 perezosos para terminar.
+Agrega tu propio perezoso a la lista `perezosos`, como `"Pura Vida"` (¡así se saluda, se dan las gracias y se dice "todo bien" en Costa Rica!). Escríbelo después de `"Toby"`, antes del `]`. Ponle comillas al nombre y una coma antes, y que sea diferente de los otros nombres. Con Pura Vida, la línea queda así:
+
+~~~jsx
+  const perezosos = ["Mau", "Rick", "Luna", "Toby", "Pura Vida"];
+~~~
+
+Aparece una tarjeta nueva, y ahora tienes que rescatar a 5 perezosos para terminar.
 
 ## ¿Atascado?
 
@@ -118,7 +128,7 @@ Compara tu código con el archivo terminado. Haz clic en **Muestra el archivo co
 
 Para ponerte al día, puedes reemplazar todo tu archivo con él:
 
-1. Selecciona todo el código del recuadro con el mouse y cópialo (**Ctrl + C**, o **Cmd + C** en Mac).
+1. Haz clic justo antes de `import`, al principio del recuadro. Después mantén presionada la tecla **Shift** (⇧) y haz clic justo después de la última `}`, al final del recuadro. Copia lo que seleccionaste (**Ctrl + C**, o **Cmd + C** en Mac).
 2. En StackBlitz, haz clic dentro de `Perezosos.jsx` y presiona **Ctrl + A** (**Cmd + A** en Mac) para seleccionar todo.
 3. Pega (**Ctrl + V**, o **Cmd + V** en Mac).
 
@@ -184,5 +194,8 @@ export default function Perezosos() {
 - **La tarjeta sigue diciendo "Un perezoso".** La TAREA 1 va en el componente pequeño `Perezoso`, arriba en el archivo, no en el grande.
 - **Todas las tarjetas dicen "nombre".** Te faltaron las llaves. Debe decir `{nombre}`.
 - **Ves a Mau dos veces (5 tarjetas).** Agregaste el código con `.map`, pero no borraste las 5 líneas viejas de `<Perezoso nombre="Mau" ... />`. Bórralas.
-- **No hay ninguna tarjeta, o toda la app desapareció.** Los nombres de los componentes empiezan con mayúscula: `<Perezoso`, no `<perezoso`. Revisa también las **s**: la lista es `rescatados` y la prop es `rescatado`, así que debe decir `rescatado={rescatados.includes(nombre)}`.
+- **No hay ninguna tarjeta.** Los nombres de los componentes empiezan con mayúscula: `<Perezoso`, no `<perezoso`. Revisa también que justo después de `(nombre) =>` hayas escrito un paréntesis `(`, no una llave `{`.
+- **Toda la app desapareció.** Revisa que tu código con `.map` empiece con `{` y termine con `))}`. Revisa también las **s**: la lista es `rescatados` y la prop es `rescatado`, así que debe decir `rescatado={rescatados.includes(nombre)}`.
 - **Hacer clic en Rescatar no hace nada.** Revisa que diga `onRescatar={rescatar}`, sin `()` después de `rescatar`.
+- **Ves `))}` escrito en la tarjeta de los perezosos.** El editor agregó `))}` por ti y tú lo volviste a escribir. Borra uno de los dos.
+- **El recuadro de error dice `Unexpected token` o `'return' outside of function`.** Te falta o te sobra una llave o un paréntesis. Compara tu archivo con el archivo completo de arriba.

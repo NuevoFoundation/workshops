@@ -91,6 +91,10 @@ Hay 5 etapas, así que `etapas.length` es `5`. Empezamos a contar desde 0, así 
   };
 ```
 
+{{% notice tip %}}
+Cuando escribes `(` o `{`, a veces el editor agrega por su cuenta el `)` o la `}` que los cierra. Revisa que tu código sea igual al del recuadro de arriba, sin una `}` de más.
+{{% /notice %}}
+
 **Lo que deberías ver:** Haz clic en **Siguiente etapa ➡️**. La tarjeta muestra **Etapa 2 de 5** y **🍒 Cosechar los granos de café**. ¡Sigue haciendo clic! En la etapa 5, **☕ Disfrutar una taza de café**, el botón desaparece y verás **¡Has completado todo el proceso del café!**
 
 ## Punto de control
@@ -113,7 +117,7 @@ Compara tu código con el archivo terminado. Haz clic en **Muestra el archivo co
 
 Para ponerte al día, puedes reemplazar todo tu archivo con él:
 
-1. Selecciona todo el código del recuadro con el mouse y cópialo (**Ctrl + C**, o **Cmd + C** en Mac).
+1. Haz clic justo antes de `import`, al principio del recuadro. Después mantén presionada la tecla **Shift** (⇧) y haz clic justo después de la última `}`, al final del recuadro. Copia lo que seleccionaste (**Ctrl + C**, o **Cmd + C** en Mac).
 2. En StackBlitz, haz clic dentro de `FincaCafe.jsx` y presiona **Ctrl + A** (**Cmd + A** en Mac) para seleccionar todo.
 3. Pega (**Ctrl + V**, o **Cmd + V** en Mac).
 
@@ -169,5 +173,6 @@ export default function FincaCafe() {
 - **Toda la app desapareció y el lado derecho está en blanco.** Activaste `<FincaCafe />`, pero la línea `import FincaCafe` todavía empieza con `//`. Borra las `//`. ¡Necesitas los dos cambios en `App.jsx`!
 - **Ves `/*` y `*/` en la página.** Borraste la `{` y la `}`, pero no el `/*` ni el `*/`. Esa línea debe ser solo `<FincaCafe />`.
 - **No hay tarjeta del café.** Baja hasta el final de tu app. ¿Sigue sin aparecer? Revisa que `<FincaCafe />` ya no esté dentro de `{/* */}`.
-- **Un recuadro rojo dice `Identifier 'paso' has already been declared`.** Quiere decir "el nombre `paso` ya existe". Borra la línea vieja `const paso = 0;`.
+- **El recuadro de error dice `Identifier 'paso' has already been declared`.** Quiere decir "el nombre `paso` ya existe". Borra la línea vieja `const paso = 0;`.
+- **El recuadro de error dice `Unexpected token` o `'return' outside of function`.** Te falta o te sobra un paréntesis o una llave. Cada `(` necesita un `)`, y cada `{` necesita una `}`. Compara tu archivo con el archivo completo de arriba.
 - **Siguiente etapa no hace nada.** Revisa que `setPaso` esté escrito igual en la TAREA 1 y en la TAREA 2, con **P** mayúscula.

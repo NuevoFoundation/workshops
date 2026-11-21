@@ -129,7 +129,7 @@ Note:
 
 ## Si algo se rompe
 
-- 🟥 **¿Recuadro rojo?** Lee el número de línea. Busca un `)`, `}` o `"` que falte
+- 🟥 **¿Recuadro de error?** Lee el número de línea. Busca un `)`, `}` o `"` que falte o que sobre
 - ⬜ **¿App en blanco?** Presiona **Ctrl+Z** para deshacer tu último cambio
 - 😕 **¿Te quedaste atrás?** En **¿Atascado?**, abre **▶ Muestra el archivo completo**
 - ✋ ¿Sigues atascado? ¡Levanta la mano!
@@ -137,10 +137,10 @@ Note:
 Note:
 **[1 min, acumulado 0:10]**
 
-- **Di:** "A todo el mundo se le rompe el código, incluso a los programadores profesionales, todos los días. Si ves un recuadro rojo, te dice el archivo y la línea. Casi siempre falta un paréntesis, una llave o unas comillas. Si toda la app se pone en blanco, deshaz tu último cambio. Y si te quedas atrás, no hay problema: cada página de actividad tiene una sección que se llama '¿Atascado?' con el archivo completo. Lo copias, lo pegas encima de todo tu archivo y quedas al día".
+- **Di:** "A todo el mundo se le rompe el código, incluso a los programadores profesionales, todos los días. Mientras estás escribiendo, la app puede quedarse en blanco o mostrar el recuadro de error por un momento. ¡Es normal! Desaparece cuando terminas de escribir. Si sigue ahí, el recuadro de error te dice el archivo y la línea. Casi siempre falta un paréntesis, una llave o unas comillas. Si toda la app se pone en blanco, deshaz tu último cambio. Y si te quedas atrás, no hay problema: cada página de actividad tiene una sección que se llama '¿Atascado?' con el archivo completo. Lo copias, lo pegas encima de todo tu archivo y quedas al día".
 - **Haz:** Muestra la página de la Actividad 1 y baja hasta la sección **¿Atascado?**. Abre **▶ Muestra el archivo completo** para que vean cómo se ve. Señala **¿No funciona?** justo debajo: una lista corta con los errores más comunes de esa actividad.
 - **Pregunta:** "Pulgar arriba si sabes dónde encontrar '¿Atascado?'".
-- **Atento a:** Estudiantes nerviosos. Diles que no pueden romper la computadora y que el archivo completo siempre arregla su archivo. Consejo para ti: el número de línea del recuadro rojo es donde la computadora se confundió. El error de verdad suele estar unas líneas más arriba.
+- **Atento a:** Estudiantes nerviosos. Diles que no pueden romper la computadora y que el archivo completo siempre arregla su archivo. Consejo para ti: el número de línea del recuadro de error es donde la computadora se confundió. El error de verdad suele estar unas líneas más arriba.
 
 ---
 
@@ -199,7 +199,7 @@ Note:
 - **Escribe en vivo:** Selecciona `const tortugas = 0;` y escribe encima despacio, diciendo cada parte en voz alta: "const, abre corchete, tortugas, coma, setTortugas con T mayúscula, cierra corchete, igual, useState con S mayúscula, paréntesis con 0 adentro, punto y coma".
 - **Di:** "Todavía no cambia nada en la pantalla. ¡No pasa nada! Le dimos memoria a React, pero todavía no la usamos".
 - **Pregunta:** "Pulgar arriba cuando tu línea se vea exactamente como la mía y la app siga diciendo 0 de 10".
-- **Atento a:** (1) Dejaron la línea vieja y agregaron la nueva → recuadro rojo "Identifier 'tortugas' has already been declared" (el nombre `tortugas` ya existe). Borra la línea vieja. (2) `usestate` con s minúscula, o `Tortugas` con T mayúscula dentro de los corchetes → toda la app se pone en blanco. Las mayúsculas importan: el componente es `Tortugas` y la variable es `tortugas`. (3) Paréntesis en vez de corchetes alrededor de `tortugas, setTortugas`.
+- **Atento a:** (1) Dejaron la línea vieja y agregaron la nueva → recuadro de error "Identifier 'tortugas' has already been declared" (el nombre `tortugas` ya existe). Borra la línea vieja. (2) `usestate` con s minúscula, o `Tortugas` con T mayúscula dentro de los corchetes → toda la app se pone en blanco. Las mayúsculas importan: el componente es `Tortugas` y la variable es `tortugas`. (3) Paréntesis en vez de corchetes alrededor de `tortugas, setTortugas`.
 
 ---
 
@@ -229,7 +229,7 @@ Note:
 - **Di:** "`salvarTortuga` es una función: una pequeña lista de instrucciones que se ejecuta cada vez que alguien hace clic en 'Salvar tortuga'. Ahora la lista está vacía. Vamos a agregar: si las tortugas que salvamos son menos que el total, cambia tortugas a tortugas más uno. El signo `<` significa 'menor que'".
 - **Escribe en vivo:** Haz clic en la línea vacía entre `{` y `};` y escribe las tres líneas. Avisa que a veces el editor agrega solo la `}` o el `)` de cierre, así que hay que revisar que no queden dos.
 - **Pregunta:** "Haz clic en 'Salvar tortuga' varias veces. ¡Pulgar arriba cuando tu contador suba!".
-- **Atento a:** (1) Líneas escritas debajo de `};` en vez de dentro de las `{ }` → la app se pone en blanco (la consola dice "Too many re-renders": React se quedó dibujando sin parar) o el contador salta solo a 10. Hay que moverlas adentro. (2) Falta una `}` → recuadro rojo "Unexpected token", que muchas veces señala la última línea del archivo. Revisa las llaves que acabas de escribir. (3) El contador no se mueve y no hay recuadro rojo → un error de escritura en la TAREA 1, como `settortugas`; la consola (F12) dice "setTortugas is not defined".
+- **Atento a:** (1) Líneas escritas debajo de `};` en vez de dentro de las `{ }` → la app se pone en blanco (la consola dice "Too many re-renders": React se quedó dibujando sin parar) o el contador salta solo a 10. Hay que moverlas adentro. (2) Falta una `}` → recuadro de error "Unexpected token", que muchas veces señala la última línea del archivo. Si sobra una `}` (a veces el editor la agrega solo), dice "'return' outside of function". Revisa las llaves que acabas de escribir. (3) El contador no se mueve y no hay recuadro de error → un error de escritura en la TAREA 1, como `settortugas`; la consola (F12) dice "setTortugas is not defined".
 - **Para ponerse al día:** "Si te quedaste atrás, abre **▶ Muestra el archivo completo** en la sección **¿Atascado?** de la página de la Actividad 1".
 
 ---
@@ -387,7 +387,7 @@ Note:
 - **Escribe en vivo:** Cambia solo la primera y la última línea. No vuelvas a escribir los emojis.
 - **Di:** "Todavía no cambia nada en la pantalla. No pasa nada".
 - **Pregunta:** "Pulgar arriba cuando tu lista termine en `]);`".
-- **Atento a:** (1) Olvidaron el `)` del final → recuadro rojo "Unexpected token, expected ','" (la computadora esperaba otra cosa en esa línea). (2) Borraron unas comillas o una coma entre los desechos → recuadro rojo (si falta una comilla dice "Unterminated string constant"). (3) `setdesechos` con d minúscula (más adelante, al hacer clic, la consola dirá "setDesechos is not defined").
+- **Atento a:** (1) Olvidaron el `)` del final → recuadro de error "Unexpected token, expected ','" (la computadora esperaba otra cosa en esa línea). (2) Borraron unas comillas o una coma entre los desechos → recuadro de error (si falta una comilla dice "Unterminated string constant"). (3) `setdesechos` con d minúscula (más adelante, al hacer clic, la consola dirá "setDesechos is not defined").
 
 ---
 
@@ -415,7 +415,7 @@ Note:
 - **Di:** "`recoger` se ejecuta cuando haces clic en un desecho. `desecho` es el que tocaste. `filter` revisa la lista uno por uno, como cuando revisas cada cosa de tu mochila, y se queda con todo lo que NO es el desecho que tocaste. La `d` es cada desecho mientras `filter` los revisa, y `!==` significa 'no es igual a'. Después, `setDesechos` guarda la lista nueva, más corta".
 - **Escribe en vivo:** La única línea. Al final, cuenta los paréntesis en voz alta: "dos paréntesis de cierre y punto y coma".
 - **Pregunta:** "Pulgar arriba cuando lo hayas escrito. La playa sigue vacía. Es normal: los botones llegan en la TAREA 3".
-- **Atento a:** (1) `===` en vez de `!==` → más adelante, al tocar un desecho desaparecen todos los DEMÁS. (2) Falta el `))` del final → recuadro rojo. (3) La línea quedó fuera de las `{ }` de `recoger`.
+- **Atento a:** (1) `===` en vez de `!==` → más adelante, al tocar un desecho desaparecen todos los DEMÁS. (2) Falta el `))` del final → recuadro de error. (3) La línea quedó fuera de las `{ }` de `recoger`.
 
 ---
 
@@ -483,7 +483,7 @@ Note:
 - **Muestra:** Agrega una línea nueva `"👟 Zapato viejo",` justo después de `"📄 Papel",` (antes de `]);`). Los emojis son opcionales, pero las comillas y la coma no.
 - **Pregunta:** "¡Pulgar arriba cuando aparezca tu botón nuevo! ¿Qué agregaste?".
 - **Resumen antes de seguir:** "En la Actividad 2 guardaste una lista en el estado. `filter` saca cosas y `map` crea un botón por cada cosa".
-- **Atento a:** (1) Falta una coma o unas comillas → recuadro rojo. (2) Dos desechos con el mismo nombre → desaparecen juntos, y la consola avisa que hay dos elementos con la misma key ("Encountered two children with the same key").
+- **Atento a:** (1) Falta una coma o unas comillas → recuadro de error. (2) Dos desechos con el mismo nombre → desaparecen juntos, y la consola avisa que hay dos elementos con la misma key ("Encountered two children with the same key").
 
 ---
 
@@ -491,13 +491,13 @@ Note:
 
 <img src="../media/Perezoso.png" alt="Un perezoso colgado de una rama con una laptop, junto a Sharky" width="30%">
 
-- ¡Los perezosos se mueven tan despacio que les crecen plantitas (algas) en el pelaje!
+- ¡Los perezosos se mueven tan despacio que les crecen algas en el pelaje!
 - Abre `src/components/Perezosos.jsx`
 
 Note:
 **[2 min, acumulado 0:52]**
 
-- **Di:** "Última parada: ¡el bosque lluvioso! En Costa Rica hay dos tipos de perezosos: el de dos dedos y el de tres dedos. Se mueven tan despacio que en su pelaje crecen unas plantitas verdes llamadas algas, que los ayudan a esconderse en los árboles. Algunos perezosos necesitan nuestra ayuda. Abre Perezosos.jsx".
+- **Di:** "Última parada: ¡el bosque lluvioso! En Costa Rica hay dos tipos de perezosos: el de dos dedos y el de tres dedos. Se mueven tan despacio que en su pelaje crecen algas, unos seres vivos diminutos parecidos a plantas, que los ayudan a esconderse en los árboles. Algunos perezosos necesitan nuestra ayuda. Abre Perezosos.jsx".
 - **Pregunta:** "Pulgar arriba cuando tengas Perezosos.jsx abierto".
 - **Atento a:** Esta es la actividad más difícil. Si vas corto de tiempo, mira "Si te falta tiempo" en la guía para instructores: puedes hacer esta actividad como demostración en vez de programarla todos juntos.
 
@@ -606,7 +606,7 @@ Note:
 - **Di:** "Ahora mismo escribimos a mano una sola tarjeta, la de Mau. Pero la lista `perezosos` tiene 4: Mau, Rick, Luna y Toby. El mismo truco de la playa: `map` recorre la lista y crea una tarjeta Perezoso por cada nombre. Cada tarjeta recibe una key, su nombre, si está rescatado y la función para rescatar".
 - **Escribe en vivo:** Borra las 5 líneas de la tarjeta de Mau y escribe las 8 líneas. Cuando escribas `nombre={nombre}`, di: "el nombre de la izquierda es la etiqueta; el de la derecha es el perezoso de la lista".
 - **Pregunta:** "Pulgar arriba cuando veas 4 tarjetas de perezosos. Rescátalos a todos. ¿Ves '¡Has rescatado a todos los perezosos!'?".
-- **Atento a:** (1) Dejaron la tarjeta de Mau → 5 tarjetas, Mau dos veces. (2) `<perezoso` con p minúscula → no aparece ninguna tarjeta (React cree que es una etiqueta HTML). (3) `rescatados.includes("nombre")` con comillas → las tarjetas nunca se ponen verdes. (4) Falta el `/>` o el `))}` → recuadro rojo.
+- **Atento a:** (1) Dejaron la tarjeta de Mau → 5 tarjetas, Mau dos veces. (2) `<perezoso` con p minúscula → no aparece ninguna tarjeta (React cree que es una etiqueta HTML). (3) `rescatados.includes("nombre")` con comillas → las tarjetas nunca se ponen verdes. (4) Falta el `/>` o el `))}` → recuadro de error.
 - **Para ponerse al día:** "Si te quedaste atrás, abre **▶ Muestra el archivo completo** en la sección **¿Atascado?** de la página de la Actividad 3".
 
 ---
@@ -646,7 +646,7 @@ Note:
 - **Muestra:** `"Toby"` se convierte en `"Toby", "Pura Vida"` (cualquier nombre, entre comillas y después de una coma; la página usa el mismo ejemplo).
 - **Pregunta:** "Pulgar arriba cuando veas 5 tarjetas. ¿Quién nos cuenta cómo se llama su perezoso?".
 - **Resumen antes de seguir:** "En la Actividad 3 hiciste un componente pequeño y lo usaste muchas veces, pasándole props".
-- **Atento a:** (1) Faltan las comillas o la coma → recuadro rojo. (2) Dos perezosos con el mismo nombre → se ponen verdes juntos.
+- **Atento a:** (1) Faltan las comillas o la coma → recuadro de error. (2) Dos perezosos con el mismo nombre → se ponen verdes juntos.
 - **¿Poco tiempo?** Sáltate esta diapositiva.
 
 ---

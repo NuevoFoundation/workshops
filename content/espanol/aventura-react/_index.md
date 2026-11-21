@@ -42,7 +42,7 @@ Cuando termines, tu app se verá así:
 
 - ⏱️ **Tiempo:** unos 75 minutos. Las actividades extra son aparte.
 - 🎒 **Para quién:** de 10 años en adelante. No necesitas saber React.
-- 💻 **Qué necesitas:** una computadora con el navegador Chrome o Edge. No necesitas una cuenta y no hay nada que instalar. Una tablet o un celular no funcionan bien, porque vas a escribir código.
+- 💻 **Qué necesitas:** una computadora con el navegador Chrome, Edge o Firefox. No necesitas una cuenta y no hay nada que instalar. Una tablet o un celular no funcionan bien, porque vas a escribir código.
 
 ## Cómo funciona
 
