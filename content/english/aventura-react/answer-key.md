@@ -8,7 +8,7 @@ hidden: true
 
 These are the finished files from the solution project (`workshopcode/english/aventura-react-solution`). You can also open the finished app and try it:
 
-### <a class="btn btn-info" href="https://stackblitz.com/github/NuevoFoundation/workshops/tree/main/workshopcode/english/aventura-react-solution?file=src%2FApp.jsx" target="_blank" rel="noopener">👉 Open the finished app</a>
+### <a class="btn btn-info" href="https://stackblitz.com/github/NuevoFoundation/workshops/tree/master/workshopcode/english/aventura-react-solution?file=src%2FApp.jsx" target="_blank" rel="noopener">👉 Open the finished app</a>
 
 `src/main.jsx` and `src/style.css` are the same in the starter and the finished app, so they aren't shown here. In the Volcano activity, students choose their own animals, so their list can be different.
 

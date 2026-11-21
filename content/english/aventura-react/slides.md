@@ -47,7 +47,7 @@ Note:
 **[2 min, 0:04 elapsed]**
 
 - **Say:** "Let's open our project first, because it takes a minute to load. Go to the workshop page, click 'Get your starter project', then click the big link. It opens a website called StackBlitz. You don't need an account. Very important: keep this ONE tab open the whole time. Don't click the start link again. It gives you a brand-new empty copy, and your work stays in the old tab."
-- **Do:** Open it yourself on the projector so they see what to expect. If you have a chat, paste the direct link: https://stackblitz.com/github/NuevoFoundation/workshops/tree/main/workshopcode/english/aventura-react?file=src%2Fcomponents%2FTurtles.jsx
+- **Do:** Open it yourself on the projector so they see what to expect. If you have a chat, paste the direct link: https://stackblitz.com/github/NuevoFoundation/workshops/tree/master/workshopcode/english/aventura-react?file=src%2Fcomponents%2FTurtles.jsx
 - **Check-in:** "Thumbs up when you see code on your screen. It's OK if the right side is still loading."
 - **Watch for:** (1) The first load installs things and can take a minute or two. Tell them to wait, not to click again. (2) A laptop where StackBlitz won't open (old browser, blocked network): pair that student with a neighbor right away. Don't debug it now.
 
@@ -63,7 +63,7 @@ Note:
 **[1 min, 0:05 elapsed]**
 
 - **Say:** "While your project loads, here's where we're going. Your app will have three parts: a turtle game with a counter, a beach where you click the trash to pick it up, and sloth cards you can rescue. Right now the buttons don't work. You will turn on every part yourself."
-- **Do:** Show the finished app live in your other tab and click a few buttons (20 seconds). Moving buttons are more exciting than a picture. Finished app: https://stackblitz.com/github/NuevoFoundation/workshops/tree/main/workshopcode/english/aventura-react-solution?file=src%2FApp.jsx
+- **Do:** Show the finished app live in your other tab and click a few buttons (20 seconds). Moving buttons are more exciting than a picture. Finished app: https://stackblitz.com/github/NuevoFoundation/workshops/tree/master/workshopcode/english/aventura-react-solution?file=src%2FApp.jsx
 - **Check-in:** "Thumbs up if your StackBlitz has loaded."
 - **Watch for:** Students who closed the tab or opened two tabs. Help them end up with exactly one.
 
@@ -690,7 +690,7 @@ Note:
 <img src="../media/Sharky.png" alt="Sharky, a smiling orange shark" width="20%">
 
 - You did it! Thanks for traveling with Sharky
-- See the [finished app](https://stackblitz.com/github/NuevoFoundation/workshops/tree/main/workshopcode/english/aventura-react-solution?file=src%2FApp.jsx)
+- See the [finished app](https://stackblitz.com/github/NuevoFoundation/workshops/tree/master/workshopcode/english/aventura-react-solution?file=src%2FApp.jsx)
 - The workshop pages stay online: keep coding at home!
 
 Note:

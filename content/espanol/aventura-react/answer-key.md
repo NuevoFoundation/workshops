@@ -8,7 +8,7 @@ hidden: true
 
 Estos son los archivos terminados del proyecto de solución (`workshopcode/espanol/aventura-react-solution`). También puedes abrir la app terminada y probarla:
 
-### <a class="btn btn-info" href="https://stackblitz.com/github/NuevoFoundation/workshops/tree/main/workshopcode/espanol/aventura-react-solution?file=src%2FApp.jsx" target="_blank" rel="noopener">👉 Abrir la app terminada</a>
+### <a class="btn btn-info" href="https://stackblitz.com/github/NuevoFoundation/workshops/tree/master/workshopcode/espanol/aventura-react-solution?file=src%2FApp.jsx" target="_blank" rel="noopener">👉 Abrir la app terminada</a>
 
 `src/main.jsx` y `src/style.css` son iguales en el proyecto inicial y en la app terminada, así que no aparecen aquí. En la actividad del volcán, cada estudiante elige sus propios animales, así que su lista puede ser diferente.
 

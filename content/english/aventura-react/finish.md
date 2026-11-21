@@ -25,7 +25,7 @@ draft: false
 
 Want to compare your app with ours? This opens the finished app in a new tab. It's a separate copy, so your own app stays safe in your tab.
 
-### <a class="btn btn-info" href="https://stackblitz.com/github/NuevoFoundation/workshops/tree/main/workshopcode/english/aventura-react-solution?file=src%2FApp.jsx" target="_blank" rel="noopener">👉 Open the finished app</a>
+### <a class="btn btn-info" href="https://stackblitz.com/github/NuevoFoundation/workshops/tree/master/workshopcode/english/aventura-react-solution?file=src%2FApp.jsx" target="_blank" rel="noopener">👉 Open the finished app</a>
 
 ## Keep going
 

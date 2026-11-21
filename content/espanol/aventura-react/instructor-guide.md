@@ -11,8 +11,8 @@ Los estudiantes (de 10 a 18 años, sin saber React) crean una pequeña app de Re
 
 - **Páginas para estudiantes:** [Abre tu proyecto inicial](../get-started/) · [Actividad 1](../activity-1/) · [Actividad 2](../activity-2/) · [Actividad 3](../activity-3/) · [¡Lo lograste!](../finish/) · [Extra 1](../bonus-1/) · [Extra 2](../bonus-2/). Dirección pública: `workshops.nuevofoundation.org/es/aventura-react`
 - **Diapositivas:** [../slides/](../slides/). Presiona **S** para ver las notas del presentador (permite las ventanas emergentes). Las notas de cada diapositiva tienen el tiempo, qué decir, qué escribir, una pregunta para revisar cómo van y los errores a los que hay que estar atento.
-- **Proyecto inicial (lo que abren los estudiantes):** [Proyecto inicial en StackBlitz](https://stackblitz.com/github/NuevoFoundation/workshops/tree/main/workshopcode/espanol/aventura-react?file=src%2Fcomponents%2FTortugas.jsx)
-- **App terminada (para la demostración):** [App terminada en StackBlitz](https://stackblitz.com/github/NuevoFoundation/workshops/tree/main/workshopcode/espanol/aventura-react-solution?file=src%2FApp.jsx)
+- **Proyecto inicial (lo que abren los estudiantes):** [Proyecto inicial en StackBlitz](https://stackblitz.com/github/NuevoFoundation/workshops/tree/master/workshopcode/espanol/aventura-react?file=src%2Fcomponents%2FTortugas.jsx)
+- **App terminada (para la demostración):** [App terminada en StackBlitz](https://stackblitz.com/github/NuevoFoundation/workshops/tree/master/workshopcode/espanol/aventura-react-solution?file=src%2FApp.jsx)
 - **Respuestas:** [../answer-key/](../answer-key/)
 
 ## Antes de la sesión

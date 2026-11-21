@@ -47,7 +47,7 @@ Note:
 **[2 min, acumulado 0:04]**
 
 - **Di:** "Primero vamos a abrir nuestro proyecto, porque tarda un minuto en cargar. Ve a la página del taller, haz clic en 'Abre tu proyecto inicial' y luego en el botón grande. Se abre un sitio que se llama StackBlitz. No necesitas cuenta. Muy importante: deja esta ÚNICA pestaña abierta todo el tiempo. No vuelvas a hacer clic en ese botón: te da una copia nueva y vacía, y tu trabajo se queda en la pestaña vieja".
-- **Haz:** Ábrelo tú también en el proyector para que vean qué esperar. Si hay un chat, pega el enlace directo: https://stackblitz.com/github/NuevoFoundation/workshops/tree/main/workshopcode/espanol/aventura-react?file=src%2Fcomponents%2FTortugas.jsx
+- **Haz:** Ábrelo tú también en el proyector para que vean qué esperar. Si hay un chat, pega el enlace directo: https://stackblitz.com/github/NuevoFoundation/workshops/tree/master/workshopcode/espanol/aventura-react?file=src%2Fcomponents%2FTortugas.jsx
 - **Pregunta:** "Pulgar arriba cuando veas código en tu pantalla. No pasa nada si el lado derecho todavía está cargando".
 - **Atento a:** (1) La primera carga instala cosas y puede tardar uno o dos minutos. Diles que esperen y que no vuelvan a hacer clic. (2) Una computadora donde StackBlitz no abre (navegador viejo, red bloqueada): sienta a ese estudiante con un compañero de inmediato. No lo arregles ahora.
 
@@ -63,7 +63,7 @@ Note:
 **[1 min, acumulado 0:05]**
 
 - **Di:** "Mientras carga tu proyecto, te muestro adónde vamos. Tu app va a tener tres partes: un juego de tortugas con un contador, una playa donde haces clic en la basura para recogerla y unas tarjetas de perezosos que puedes rescatar. Ahora mismo los botones no funcionan. Tú vas a encender cada parte".
-- **Haz:** Muestra la app terminada en vivo en tu otra pestaña y haz clic en algunos botones (20 segundos). Unos botones que se mueven emocionan más que una imagen. App terminada: https://stackblitz.com/github/NuevoFoundation/workshops/tree/main/workshopcode/espanol/aventura-react-solution?file=src%2FApp.jsx
+- **Haz:** Muestra la app terminada en vivo en tu otra pestaña y haz clic en algunos botones (20 segundos). Unos botones que se mueven emocionan más que una imagen. App terminada: https://stackblitz.com/github/NuevoFoundation/workshops/tree/master/workshopcode/espanol/aventura-react-solution?file=src%2FApp.jsx
 - **Pregunta:** "Pulgar arriba si ya cargó tu StackBlitz".
 - **Atento a:** Estudiantes que cerraron la pestaña o abrieron dos. Ayúdalos a quedarse con una sola.
 
@@ -690,7 +690,7 @@ Note:
 <img src="../media/Sharky.png" alt="Sharky, un tiburón anaranjado que sonríe" width="20%">
 
 - ¡Lo lograste! Gracias por viajar con Sharky
-- Mira la [app terminada](https://stackblitz.com/github/NuevoFoundation/workshops/tree/main/workshopcode/espanol/aventura-react-solution?file=src%2FApp.jsx)
+- Mira la [app terminada](https://stackblitz.com/github/NuevoFoundation/workshops/tree/master/workshopcode/espanol/aventura-react-solution?file=src%2FApp.jsx)
 - Las páginas del taller siguen en línea: ¡sigue programando en casa!
 
 Note:

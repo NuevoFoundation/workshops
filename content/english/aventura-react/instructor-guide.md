@@ -11,8 +11,8 @@ Students (ages 10–18, no React needed) build a small React app on a trip to Co
 
 - **Student pages:** [Get started](../get-started/) · [Activity 1](../activity-1/) · [Activity 2](../activity-2/) · [Activity 3](../activity-3/) · [You did it!](../finish/) · [Bonus 1](../bonus-1/) · [Bonus 2](../bonus-2/). Public address: `workshops.nuevofoundation.org/aventura-react`
 - **Slides:** [../slides/](../slides/). Press **S** for speaker view (allow pop-ups). Every slide's notes have the timing, what to say, what to type, a check-in and the mistakes to watch for.
-- **Starter (what students open):** [StackBlitz starter](https://stackblitz.com/github/NuevoFoundation/workshops/tree/main/workshopcode/english/aventura-react?file=src%2Fcomponents%2FTurtles.jsx)
-- **Finished app (to demo):** [StackBlitz finished app](https://stackblitz.com/github/NuevoFoundation/workshops/tree/main/workshopcode/english/aventura-react-solution?file=src%2FApp.jsx)
+- **Starter (what students open):** [StackBlitz starter](https://stackblitz.com/github/NuevoFoundation/workshops/tree/master/workshopcode/english/aventura-react?file=src%2Fcomponents%2FTurtles.jsx)
+- **Finished app (to demo):** [StackBlitz finished app](https://stackblitz.com/github/NuevoFoundation/workshops/tree/master/workshopcode/english/aventura-react-solution?file=src%2FApp.jsx)
 - **Answer key:** [../answer-key/](../answer-key/)
 
 ## Before the session
