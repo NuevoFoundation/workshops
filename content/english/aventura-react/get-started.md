@@ -17,6 +17,8 @@ Click the button below. Your project opens in a new tab on **StackBlitz**, a web
 
 Now wait about a minute while StackBlitz gets your app ready. You may see lines of text scrolling at the bottom of the screen. That's normal!
 
+Still no app after 2 minutes? Make sure you're using Chrome, Edge or Firefox, then ask your instructor or an adult for help.
+
 {{% notice warning %}}
 **Keep this one StackBlitz tab open until the end of the workshop.** Don't click the button above again, and don't close or reload the StackBlitz tab. The button always opens a brand-new copy, without your work.
 {{% /notice %}}
@@ -58,7 +60,7 @@ In the file list, open the `src` folder. All your code lives there, and the card
 
 ## How the pieces fit together
 
-In React, each part of the screen is a **component**. A component is a function that returns what should show on the screen, written in something that looks a lot like HTML. Each file in the `components` folder holds one component.
+In React, each part of the screen is a **component**. A component is a small piece of code that makes one part of the screen. Each file in the `components` folder holds one component.
 
 `App.jsx` puts the components on the page. It's already done for you:
 
@@ -98,6 +100,8 @@ export default function App() {
 2. Find the comment that says `TODO 1` (then `TODO 2`, and so on). *TODO* means "to do". It marks where your code goes.
 3. Type the code from the activity page. Typing it yourself helps you learn!
 4. Look at your app on the right. It updates a moment after you type. If it doesn't, press **Ctrl + S** (**Cmd + S** on a Mac) to save.
+
+While you're in the middle of typing, your app may go blank or show **the error box**: a dark box with red writing that covers your app. That's normal! It goes away when you finish typing. Only look at **Not working?**, at the end of each activity, if it's still there after you finish.
 
 {{% notice tip %}}
 Made a mistake? Press **Ctrl + Z** (**Cmd + Z** on a Mac) to undo it.

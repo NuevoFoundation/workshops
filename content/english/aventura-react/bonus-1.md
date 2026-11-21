@@ -91,6 +91,10 @@ There are 5 stages, so `stages.length` is `5`. We start counting at 0, so the la
   };
 ```
 
+{{% notice tip %}}
+When you type `(` or `{`, the editor sometimes adds the closing `)` or `}` for you. Check that your code matches the box above, with no extra `}` left over.
+{{% /notice %}}
+
 **What you should see:** Click **Next stage ➡️**. The card shows **Stage 2 of 5** and **🍒 Pick the coffee cherries**. Keep clicking! On stage 5, **☕ Enjoy a cup of coffee**, the button goes away and you see **You finished the whole coffee process!**
 
 ## Checkpoint
@@ -113,7 +117,7 @@ Compare your code with the finished file. Click **Show the complete file** to op
 
 To catch up, you can replace your whole file with it:
 
-1. Select all the code in the box with your mouse and copy it (**Ctrl + C**, or **Cmd + C** on a Mac).
+1. Click just before `import` at the top of the box, then hold **Shift** and click after the last `}` at the bottom. Copy it (**Ctrl + C**, or **Cmd + C** on a Mac).
 2. In StackBlitz, click inside `CoffeeFarm.jsx` and press **Ctrl + A** (**Cmd + A** on a Mac) to select everything.
 3. Paste (**Ctrl + V**, or **Cmd + V** on a Mac).
 
@@ -169,5 +173,6 @@ export default function CoffeeFarm() {
 - **The whole app disappeared and the right side is blank.** You turned on `<CoffeeFarm />`, but the `import CoffeeFarm` line still starts with `//`. Delete the `//`. You need both changes in `App.jsx`!
 - **You see `/*` and `*/` on the page.** You deleted the `{` and `}` but not the `/*` and `*/`. That line should be just `<CoffeeFarm />`.
 - **There's no coffee card.** Scroll to the bottom of your app. Still missing? Check that `<CoffeeFarm />` isn't inside `{/* */}` anymore.
-- **A red box says `Identifier 'step' has already been declared`.** Delete the old line `const step = 0;`.
+- **The error box says `Identifier 'step' has already been declared`.** Delete the old line `const step = 0;`.
+- **The error box says `Unexpected token` or `'return' outside of function`.** You have a missing or an extra bracket. Every `(` needs a `)`, and every `{` needs a `}`. Compare your file with the complete file above.
 - **Next stage does nothing.** Check that `setStep` is spelled the same in TODO 1 and TODO 2, with a capital **S**.

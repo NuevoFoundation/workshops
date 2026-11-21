@@ -129,7 +129,7 @@ Note:
 
 ## If something breaks
 
-- 🟥 **Red box?** Read the line number. Look for a missing `)` `}` or `"`
+- 🟥 **Error box?** Read the line number. Look for a missing `)` `}` or `"`
 - ⬜ **White app?** Press **Ctrl+Z** to undo your last change
 - 😕 **Behind?** Open **Stuck? Show the complete file** on the page
 - ✋ Still stuck? Raise your hand!
@@ -137,10 +137,10 @@ Note:
 Note:
 **[1 min, 0:10 elapsed]**
 
-- **Say:** "Everybody's code breaks, even professional programmers', every day. If you see a red box, it tells you the file and the line. Usually a bracket or a quote is missing. If the whole app goes white, undo your last change. And if you fall behind, no problem: every activity page has a part called 'Stuck?' with the complete file. Copy it, paste it over your whole file, and you're caught up."
+- **Say:** "Everybody's code breaks, even professional programmers', every day. While you're in the middle of typing, your app may go blank or show the error box for a moment, and that's normal: it goes away when you finish typing. If the error box is still there after you finish, it tells you the file and the line. Usually a bracket or a quote is missing. If the whole app goes white, undo your last change. And if you fall behind, no problem: every activity page has a part called 'Stuck?' with the complete file. Copy it, paste it over your whole file, and you're caught up."
 - **Do:** Show the Activity 1 page and scroll to "Stuck? Show the complete file". Open it so they see what it looks like. Point out "Not working?" just below it: a short list of the most common mistakes for that activity.
 - **Check-in:** "Thumbs up if you know where to find 'Stuck?'."
-- **Watch for:** Nervous kids. Tell them they can't break the computer, and the complete file always fixes their file. Tip for you: the line number in the red box is where the computer got confused. The real mistake is often a few lines above it.
+- **Watch for:** Nervous kids. Tell them they can't break the computer, and the complete file always fixes their file. Tip for you: the line number in the error box is where the computer got confused. The real mistake is often a few lines above it.
 
 ---
 
@@ -199,7 +199,7 @@ Note:
 - **Type live:** Select `const turtles = 0;` and type over it slowly, saying each piece out loud: "const, square bracket, turtles, comma, setTurtles with a capital T, close square bracket, equals, useState with a capital S, round brackets with 0, semicolon."
 - **Say:** "Nothing changes on the screen yet. That's OK! We gave React a memory, but we don't use it yet."
 - **Check-in:** "Thumbs up when your line looks exactly like mine and the app still says 0 of 10."
-- **Watch for:** (1) Kept the old line and added the new one → red box "Identifier 'turtles' has already been declared". Delete the old line. (2) `usestate` with a small s → the whole app goes white. Capital letters matter. (3) Round brackets instead of square ones around `turtles, setTurtles`.
+- **Watch for:** (1) Kept the old line and added the new one → error box "Identifier 'turtles' has already been declared". Delete the old line. (2) `usestate` with a small s → the whole app goes white. Capital letters matter. (3) Round brackets instead of square ones around `turtles, setTurtles`.
 
 ---
 
@@ -229,7 +229,7 @@ Note:
 - **Say:** "`saveTurtle` is a function: a little list of instructions that runs every time someone clicks 'Save a turtle'. Right now the list is empty. We'll add: if the turtles we saved are fewer than the total, set turtles to turtles plus one. The `<` sign means 'less than'."
 - **Type live:** Click on the empty line between `{` and `};` and type the three lines. Point out that the editor sometimes adds the closing `}` or `)` for you, so check you don't end up with two.
 - **Check-in:** "Click 'Save a turtle' a few times. Thumbs up when your counter goes up!"
-- **Watch for:** (1) Lines typed below the `};` instead of inside the `{ }` → either the app goes white (the console says "Too many re-renders") or the counter jumps straight to 10 by itself. Move them inside. (2) A missing `}` → red box "Unexpected token", often pointing at the last line of the file. Check the braces you just typed. (3) Counter doesn't move and no red box → a typo in TODO 1 like `setturtles`; the console (F12) says "setTurtles is not defined".
+- **Watch for:** (1) Lines typed below the `};` instead of inside the `{ }` → either the app goes white (the console says "Too many re-renders") or the counter jumps straight to 10 by itself. Move them inside. (2) A missing `}` → error box "Unexpected token", often pointing at the last line of the file. Check the braces you just typed. (3) Counter doesn't move and no error box → a typo in TODO 1 like `setturtles`; the console (F12) says "setTurtles is not defined".
 - **Catch-up:** "If you're behind, open 'Stuck? Show the complete file' on the Activity 1 page."
 
 ---
@@ -387,7 +387,7 @@ Note:
 - **Type live:** Edit only the first and the last line. Don't retype the emoji.
 - **Say:** "Nothing changes on screen yet. That's OK."
 - **Check-in:** "Thumbs up when your list ends with `]);`."
-- **Watch for:** (1) Forgot the `)` at the end → red box "Unexpected token, expected ','". (2) Deleted a quote or a comma between the items → red box. (3) `settrash` with a small t.
+- **Watch for:** (1) Forgot the `)` at the end → error box "Unexpected token, expected ','". (2) Deleted a quote or a comma between the items → error box. (3) `settrash` with a small t.
 
 ---
 
@@ -415,7 +415,7 @@ Note:
 - **Say:** "`pickUp` runs when you click a piece of trash. `item` is the piece you clicked. `filter` goes through the list one by one, like checking each thing in your backpack, and keeps everything that is NOT the piece you clicked. `!==` means 'is not'. Then `setTrash` saves the new, shorter list."
 - **Type live:** The one line. At the end, count the brackets out loud: "two round brackets, then a semicolon".
 - **Check-in:** "Thumbs up when you typed it. The beach is still empty. That's normal: the buttons come in TODO 3."
-- **Watch for:** (1) `===` instead of `!==` → later, clicking one piece removes all the OTHER pieces. (2) Missing `))` at the end → red box. (3) Typed outside the `{ }` of `pickUp`.
+- **Watch for:** (1) `===` instead of `!==` → later, clicking one piece removes all the OTHER pieces. (2) Missing `))` at the end → error box. (3) Typed outside the `{ }` of `pickUp`.
 
 ---
 
@@ -483,7 +483,7 @@ Note:
 - **Show:** Add a new line `"👟 Old shoe",` right after `"📄 Paper",` (before `]);`). Emoji are optional, but the quotes and the comma are not.
 - **Check-in:** "Thumbs up when your new button shows up! What did you add?"
 - **Recap before moving on:** "In Activity 2 you kept a list in state. `filter` takes things out, and `map` makes one button for each thing."
-- **Watch for:** (1) A missing comma or quote → red box. (2) Two items with the same name → both disappear together, and the console warns about two children with the same key.
+- **Watch for:** (1) A missing comma or quote → error box. (2) Two items with the same name → both disappear together, and the console warns about two children with the same key.
 
 ---
 
@@ -491,13 +491,13 @@ Note:
 
 <img src="../media/Perezoso.png" alt="A sloth hanging from a branch with a laptop, next to Sharky" width="30%">
 
-- Sloths move so slowly that tiny plants (algae) grow in their fur!
+- Sloths move so slowly that algae, tiny plant-like living things, grow in their fur!
 - Open `src/components/Sloths.jsx`
 
 Note:
 **[2 min, 0:52 elapsed]**
 
-- **Say:** "Last stop: the rainforest! Costa Rica has two kinds of sloths: two-toed and three-toed. They move so slowly that tiny green plants called algae grow in their fur, which helps them hide in the trees. Some sloths need our help. Open Sloths.jsx."
+- **Say:** "Last stop: the rainforest! Costa Rica has two kinds of sloths: two-toed and three-toed. They move so slowly that tiny plant-like living things called algae grow in their fur, which helps them hide in the trees. Some sloths need our help. Open Sloths.jsx."
 - **Check-in:** "Thumbs up when you have Sloths.jsx open."
 - **Watch for:** This is the hardest activity. If time is short, see "If you're short on time" in the instructor guide: you can demo this one instead of coding along.
 
@@ -606,7 +606,7 @@ Note:
 - **Say:** "Right now we hand-wrote one card, for Mau. But the `sloths` list has 4 sloths: Mau, Rick, Luna and Toby. Same trick as the beach: `map` goes through the list and makes one Sloth card for each name. Each card gets a key, its name, whether it's saved, and the rescue function."
 - **Type live:** Delete the whole Mau line, then type the 8 lines. When you type `name={name}`, say: "the name on the left is the name tag; the name on the right is the sloth from the list."
 - **Check-in:** "Thumbs up when you see 4 sloth cards. Rescue all of them. Do you see 'You rescued all the sloths!'?"
-- **Watch for:** (1) Kept the Mau line → 5 cards, Mau twice. (2) `<sloth` with a small s → no cards at all (React thinks it's an HTML tag). (3) `rescued.includes("name")` with quotes → the cards never turn green. (4) Missing `/>` or `))}` → red box.
+- **Watch for:** (1) Kept the Mau line → 5 cards, Mau twice. (2) `<sloth` with a small s → no cards at all (React thinks it's an HTML tag). (3) `rescued.includes("name")` with quotes → the cards never turn green. (4) Missing `/>` or `))}` → error box.
 - **Catch-up:** "If you're behind, open 'Stuck? Show the complete file' on the Activity 3 page."
 
 ---
@@ -646,7 +646,7 @@ Note:
 - **Show:** `"Toby"` becomes `"Toby", "Pura Vida"` (any name, in quotes, after a comma; the page uses the same example).
 - **Check-in:** "Thumbs up when you see 5 cards. Who wants to share their sloth's name?"
 - **Recap before moving on:** "In Activity 3 you made one small component and used it many times, handing it props."
-- **Watch for:** (1) Missing quotes or comma → red box. (2) Two sloths with the same name → both turn green together.
+- **Watch for:** (1) Missing quotes or comma → error box. (2) Two sloths with the same name → both turn green together.
 - **Short on time?** Skip this slide.
 
 ---

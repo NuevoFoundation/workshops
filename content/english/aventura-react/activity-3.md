@@ -7,7 +7,7 @@ draft: false
 
 <img src="../media/Perezoso.png" alt="A happy sloth hanging from a branch with a laptop, next to a smiling Sharky" width="40%">
 
-Last stop: the rainforest! Costa Rica has two kinds of sloths, two-toed and three-toed. They move so slowly that tiny green plants called algae grow on their fur, which helps them hide in the trees. Four sloths need your help!
+Last stop: the rainforest! Costa Rica has two kinds of sloths, two-toed and three-toed. They move so slowly that tiny plant-like living things called algae grow on their fur, which helps them hide in the trees. Four sloths need your help!
 
 ## What you'll learn
 
@@ -69,12 +69,16 @@ In the big `Sloths` component there's a list of four names: `const sloths = ["Ma
         ))}
 ```
 
-Each card gets four props:
+Each card gets a `key` and three props:
 
 - `key={name}`: a name React uses to keep track of each card.
 - `name={name}`: the sloth's name. You show it on the card in TODO 1.
 - `saved={rescued.includes(name)}`: `true` if this sloth is on the rescued list, `false` if not.
 - `onRescue={rescue}`: the function to run when you click **Rescue**. There's no `()` after `rescue`, because we're handing the function over, not running it yet.
+
+{{% notice tip %}}
+When you type `(` or `{`, the editor sometimes adds the closing `)` or `}` for you. Check that your code matches the box above, with no extra `))}` left over.
+{{% /notice %}}
 
 **Already in the file for you:** `rescued` is a list in state that starts empty, `useState([])`. The `rescue` function adds a sloth's name to that list:
 
@@ -104,7 +108,13 @@ Test your sloth cards:
 
 ## Your turn
 
-Add your own sloth to the `sloths` list, like `"Pura Vida"` (that's how people in Costa Rica say hello, thanks and "all good"!). Put quotes around the name and a comma before it, and make it different from the other names. A new card appears, and now you have to rescue 5 sloths to finish.
+Add your own sloth to the `sloths` list, like `"Pura Vida"` (that's how people in Costa Rica say hello, thanks and "all good"!). Type it after `"Toby"`, before the `]`. Put quotes around the name and a comma before it, and make it different from the other names. With Pura Vida, the line looks like this:
+
+~~~jsx
+  const sloths = ["Mau", "Rick", "Luna", "Toby", "Pura Vida"];
+~~~
+
+A new card appears, and now you have to rescue 5 sloths to finish.
 
 ## Stuck?
 
@@ -112,7 +122,7 @@ Compare your code with the finished file. Click **Show the complete file** to op
 
 To catch up, you can replace your whole file with it:
 
-1. Select all the code in the box with your mouse and copy it (**Ctrl + C**, or **Cmd + C** on a Mac).
+1. Click just before `import` at the top of the box, then hold **Shift** and click after the last `}` at the bottom. Copy it (**Ctrl + C**, or **Cmd + C** on a Mac).
 2. In StackBlitz, click inside `Sloths.jsx` and press **Ctrl + A** (**Cmd + A** on a Mac) to select everything.
 3. Paste (**Ctrl + V**, or **Cmd + V** on a Mac).
 
@@ -178,5 +188,8 @@ export default function Sloths() {
 - **The card still says "A sloth".** TODO 1 goes in the small `Sloth` component at the top of the file, not in the big one.
 - **Every card says "name".** You forgot the curly braces. It should be `{name}`.
 - **You see Mau twice (5 cards).** You added the `.map` code but didn't delete the old `<Sloth name="Mau" ... />` line. Delete it.
-- **No sloth cards at all.** Component names start with a capital letter: `<Sloth`, not `<sloth`.
+- **No sloth cards at all.** Component names start with a capital letter: `<Sloth`, not `<sloth`. Also check that right after `(name) =>` you typed a round bracket `(`, not a curly one `{`.
+- **The whole app disappeared.** Check that your `.map` code starts with `{` and ends with `))}`.
 - **Clicking Rescue does nothing.** Check that it says `onRescue={rescue}`, with no `()` after `rescue`.
+- **You see `))}` written on your card.** The editor added `))}` for you and you typed it again. Delete one of them.
+- **The error box says `Unexpected token` or `'return' outside of function`.** You have a missing or an extra bracket. Compare your file with the complete file above.

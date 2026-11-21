@@ -148,7 +148,13 @@ Test your volcano card:
 
 ## Your turn
 
-Show how many animals are still in danger. Add a new `<p>` under the instructions and put `{animals.length}` inside it, the same way the turtle card shows `{turtles}`. Then click **Evacuate** and watch the number go down.
+Show how many animals are still in danger. After the `</p>` line that ends the instructions, add this line:
+
+~~~jsx
+      <p>Animals still in danger: {animals.length}</p>
+~~~
+
+`{animals.length}` shows how many animals are in the list, the same way the turtle card shows `{turtles}`. Then click **Evacuate** and watch the number go down.
 
 ## Stuck?
 
@@ -156,7 +162,7 @@ Compare your code with the finished files. Click **Show the complete file** to o
 
 To catch up, you can replace a whole file:
 
-1. Select all the code in one box with your mouse and copy it (**Ctrl + C**, or **Cmd + C** on a Mac).
+1. Click just before `import` at the top of one box, then hold **Shift** and click after the last `}` at the bottom of that box. Copy it (**Ctrl + C**, or **Cmd + C** on a Mac).
 2. In StackBlitz, click inside the file with the same name and press **Ctrl + A** (**Cmd + A** on a Mac) to select everything.
 3. Paste (**Ctrl + V**, or **Cmd + V** on a Mac).
 
@@ -238,4 +244,11 @@ export default function App() {
 - **You see `/*` and `*/` on the page.** In `App.jsx`, that line should be just `<Volcano />`.
 - **All the animals vanished right away.** The button needs `() =>`: `onClick={() => evacuate(animal)}`.
 - **One click evacuates two animals.** Two animals have exactly the same name. Make every animal different.
-- **A red box says `Unexpected token`.** Check for a missing comma or quote between your animals, the `]);` at the end of the list, and the `))}` at the end of `.map`.
+- **The error box says `Unexpected token` or `'return' outside of function`.** You have a missing or an extra bracket, or a missing comma or quote. Check the commas and quotes between your animals, the `]);` at the end of the list, and the `))}` at the end of `.map`.
+- **You see `))}` written on your card.** The editor added `))}` for you and you typed it again. Delete one of them.
+
+## Trip complete!
+
+You finished every stop! ¡Pura vida! 🦈
+
+Want to keep your app? Ask an adult to help you sign in to StackBlitz and save your own copy with the **Fork** button at the top.

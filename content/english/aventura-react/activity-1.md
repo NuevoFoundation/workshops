@@ -69,6 +69,8 @@ Near the bottom of the file there's a button: `<button onClick={saveTurtle}>`. `
 When you type `(` or `{`, the editor sometimes adds the closing `)` or `}` for you. Check that your code matches the box above, with no extra `}` left over.
 {{% /notice %}}
 
+**Tip:** Tired of clicking 10 times? While you test, change `const total = 10;` to `const total = 3;`. Change it back to `10` when you're done.
+
 **What you should see:** Click **Save a turtle**. The number goes up: 1 of 10, 2 of 10, 3 of 10… When you reach 10, the button goes away. You see **All the turtles are safe!** and a **Restart mission** button.
 
 **How did that message appear?** You didn't type it. This part was already in the file:
@@ -108,8 +110,6 @@ Click **Restart mission**. Nothing happens, because `restart` is empty. To play 
 
 **What you should see:** Click **Restart mission**. The card goes back to **0 of 10**, and the **Save a turtle** button comes back.
 
-**Tip:** Tired of clicking 10 times? While you test, change `const total = 10;` to `const total = 3;`.
-
 ## Checkpoint
 
 <img src="../media/checkpoint-turtles.png" alt="The turtle card saying You have saved 3 of 10 turtles, with a red Save a turtle button" width="50%">
@@ -122,7 +122,7 @@ Test your turtle card:
 
 ## Your turn
 
-Make the mission your own! Change `total` to a new number, like `5` or `25`. Then change the words on the button, for example to `Save a baby turtle 🐢`. Save all the turtles and check that the message still appears.
+Make the mission your own! Change `total` to a new number, like `5` or `25`. Then change the words on the button. In `<button onClick={saveTurtle}>Save a turtle</button>`, change only the words `Save a turtle`, for example to `Save a baby turtle 🐢`. Save all the turtles and check that the message still appears.
 
 ## Stuck?
 
@@ -130,7 +130,7 @@ Compare your code with the finished file. Click **Show the complete file** to op
 
 To catch up, you can replace your whole file with it:
 
-1. Select all the code in the box with your mouse and copy it (**Ctrl + C**, or **Cmd + C** on a Mac).
+1. Click just before `import` at the top of the box, then hold **Shift** and click after the last `}` at the bottom. Copy it (**Ctrl + C**, or **Cmd + C** on a Mac).
 2. In StackBlitz, click inside `Turtles.jsx` and press **Ctrl + A** (**Cmd + A** on a Mac) to select everything.
 3. Paste (**Ctrl + V**, or **Cmd + V** on a Mac).
 
@@ -177,8 +177,9 @@ export default function Turtles() {
 
 ## Not working?
 
-- **A dark box with red writing says `Identifier 'turtles' has already been declared`.** You still have the old line `const turtles = 0;`. Delete it. Only `const [turtles, setTurtles] = useState(0);` should be left.
+- **The error box says `Identifier 'turtles' has already been declared`.** You still have the old line `const turtles = 0;`. Delete it. Only `const [turtles, setTurtles] = useState(0);` should be left.
 - **The number doesn't go up.** Check that `setTurtles` is spelled the same in TODO 1 and TODO 2, with a capital **T**. Capital letters matter in code! Also check that your TODO 2 lines are *inside* `saveTurtle`, between `() => {` and `};`.
-- **A red box says `Unexpected token`.** A bracket is missing or there's an extra one. Every `(` needs a `)`, and every `{` needs a `}`. Compare your file with the complete file above.
+- **It says 10 of 10 before you click anything.** Your TODO 2 lines are outside `saveTurtle`. Move them between `() => {` and `};`.
+- **The error box says `Unexpected token` or `'return' outside of function`.** You have a missing or an extra bracket. Every `(` needs a `)`, and every `{` needs a `}`. Compare your file with the complete file above.
 - **The whole app disappeared and the right side is blank.** Look for a spelling mistake, like `usestate` instead of `useState`. When you fix it, the app comes back.
 - **Your change doesn't show up.** Press **Ctrl + S** (**Cmd + S** on a Mac) to save.

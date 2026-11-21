@@ -7,7 +7,7 @@ draft: false
 
 <img src="../media/Playa.png" alt="Sharky floating above a beach while three kids pick up trash and put it in green recycling bags" width="45%">
 
-The turtles are safe. Now let's clean their beach! Costa Rica has beaches on two seas, the Pacific Ocean and the Caribbean Sea. Sea turtles can mistake a floating plastic bag for a jellyfish, which many of them eat, so every piece of trash you pick up helps.
+The turtles are safe. Now let's clean their beach! Costa Rica has beaches on two coasts: the Pacific Ocean and the Caribbean Sea. Sea turtles can mistake a floating plastic bag for a jellyfish, which many of them eat, so every piece of trash you pick up helps.
 
 ## What you'll learn
 
@@ -20,7 +20,7 @@ The turtles are safe. Now let's clean their beach! Costa Rica has beaches on two
 In your StackBlitz tab, click `Beach.jsx` in the file list. It's in the same `components` folder as `Turtles.jsx`.
 
 {{% notice info %}}
-In this activity, nothing new shows on the screen until Step 3. Then everything works at once!
+In this activity, the trash buttons don't show up until Step 3. Then everything works at once!
 {{% /notice %}}
 
 ## Step 1 — TODO 1: Put the trash list in state
@@ -54,7 +54,7 @@ You don't have to touch the items in the middle. Only two lines change:
 1. The first line: `const trash = [` becomes `const [trash, setTrash] = useState([`.
 2. The last line: `];` becomes `]);`.
 
-**What you should see:** Nothing changes on the screen yet. That's OK!
+**What you should see:** While only the first line is changed, the error box may show up. That's normal! It goes away when you change the last line too. After that, nothing changes on the screen yet. That's OK!
 
 ## Step 2 — TODO 2: Pick up a piece of trash
 
@@ -105,8 +105,12 @@ You don't have to touch the items in the middle. Only two lines change:
 ```
 
 - `key={item}` gives each button its own name, so React can keep track of them.
-- `onClick={() => pickUp(item)}` means "when this button is clicked, pick up this item". In Activity 1 we just wrote `onClick={saveTurtle}`. Here we also have to tell `pickUp` *which* item, so we wrap it in a little function, `() =>`, that runs only when you click. Don't forget it!
+- `onClick={() => pickUp(item)}` means "when this button is clicked, pick up this item". In Activity 1 the button said `onClick={saveTurtle}`. Here we also have to tell `pickUp` *which* item, so we wrap it in a little function, `() =>`, that runs only when you click. Don't forget it!
 - Look at the end: `))}`. The first `)` closes the button part, the second closes `.map(`, and `}` closes the `{` at the start.
+
+{{% notice tip %}}
+When you type `(` or `{`, the editor sometimes adds the closing `)` or `}` for you. Check that your code matches the box above, with no extra `))}` left over.
+{{% /notice %}}
 
 **What you should see:** Four buttons appear: **Pick up 🧃 Plastic bottle**, **Pick up 🍾 Glass**, **Pick up 🥫 Can** and **Pick up 📄 Paper**. Click one and it disappears! Pick up all four and you see **The beach is clean!**
 
@@ -140,7 +144,7 @@ Compare your code with the finished file. Click **Show the complete file** to op
 
 To catch up, you can replace your whole file with it:
 
-1. Select all the code in the box with your mouse and copy it (**Ctrl + C**, or **Cmd + C** on a Mac).
+1. Click just before `import` at the top of the box, then hold **Shift** and click after the last `}` at the bottom. Copy it (**Ctrl + C**, or **Cmd + C** on a Mac).
 2. In StackBlitz, click inside `Beach.jsx` and press **Ctrl + A** (**Cmd + A** on a Mac) to select everything.
 3. Paste (**Ctrl + V**, or **Cmd + V** on a Mac).
 
@@ -187,7 +191,9 @@ export default function Beach() {
 
 ## Not working?
 
-- **No buttons appear.** Check that your `.map` code is between `<div className="trash-buttons">` and `</div>`. It must start with `{` and end with `))}`.
+- **No buttons appear.** Check that your `.map` code is between `<div className="trash-buttons">` and `</div>`. Also check that right after `(item) =>` you typed a round bracket `(`, not a curly one `{`.
+- **The whole app disappeared.** Check that your `.map` code starts with `{` and ends with `))}`.
 - **All the trash vanished right away, and it says "The beach is clean!"** You probably wrote `onClick={pickUp(item)}`, like the turtle button. Add `() =>` so it says `onClick={() => pickUp(item)}`. Without it, React runs `pickUp` for every item as soon as it shows the buttons, instead of waiting for a click.
 - **The buttons don't go away when you click them.** Check that your TODO 2 line is inside `pickUp`, and that `setTrash` is spelled the same as in TODO 1, with a capital **T**.
-- **A red box says `Unexpected token`.** A bracket is missing. TODO 1 must end with `]);` and TODO 3 must end with `))}`. Compare your file with the complete file above.
+- **The error box says `Unexpected token` or `'return' outside of function`.** You have a missing or an extra bracket. TODO 1 must end with `]);` and TODO 3 must end with `))}`. Compare your file with the complete file above.
+- **You see `))}` written on your card.** The editor added `))}` for you and you typed it again. Delete one of them.

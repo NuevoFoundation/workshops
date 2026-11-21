@@ -12,7 +12,7 @@ draft: false
 
 ## Welcome to Costa Rica!
 
-You just won a trip to **Costa Rica**! 🎉 It's a small country in Central America with beaches on two seas, the Pacific Ocean and the Caribbean Sea. It also has volcanoes, rainforests and amazing animals.
+You just won a trip to **Costa Rica**! 🎉 It's a small country in Central America with beaches on two coasts: the Pacific Ocean and the Caribbean Sea. It also has volcanoes, rainforests and amazing animals.
 
 <img src="media/mapa-costa-rica.jpg" alt="Colorful illustrated map of Costa Rica with its provinces, the Pacific Ocean, the Caribbean Sea, animals and places to visit" width="40%">
 
@@ -42,7 +42,7 @@ When you finish, your app will look like this:
 
 - ⏱️ **Time:** about 75 minutes. The bonus activities are extra.
 - 🎒 **Who:** ages 10 and up. You don't need to know React.
-- 💻 **What you need:** a computer with the Chrome or Edge web browser. You don't need an account, and there's nothing to install. A tablet or phone won't work well, because you'll type code.
+- 💻 **What you need:** a computer with the Chrome, Edge or Firefox web browser. You don't need an account, and there's nothing to install. A tablet or phone won't work well, because you'll type code.
 
 ## How it works
 

@@ -13,7 +13,7 @@ draft: false
 
 | React idea | What it means | Where you used it |
 |---|---|---|
-| **Components** | Functions that return what to show on the screen | Every card in your app |
+| **Components** | Small pieces of code that each make one part of the screen | Every card in your app |
 | **State** (`useState`) | React's memory. When it changes, the screen updates | The turtle counter and the trash list |
 | **Events** (`onClick`) | Run a function when something is clicked | Every button |
 | **Lists** (`.map()`) | Show one thing for each item in a list | The trash buttons and the sloth cards |
@@ -23,7 +23,7 @@ draft: false
 
 ## See the finished app
 
-Want to compare your app with ours? This opens the finished app in a new tab. It's a separate copy, so your own app stays safe in your tab.
+Want to compare your app with ours? This opens the finished app in a new tab. It's a separate copy, so your own app stays safe in your tab. It also has two bonus cards, the coffee farm and the volcano. You can build those next!
 
 ### <a class="btn btn-info" href="https://stackblitz.com/github/NuevoFoundation/workshops/tree/master/workshopcode/english/aventura-react-solution?file=src%2FApp.jsx" target="_blank" rel="noopener">👉 Open the finished app</a>
 
