@@ -1,0 +1,21 @@
+{{- /*
+  Used by the stackblitz shortcode: one hidden form field per file in a
+  workshopcode/ project, walking into subfolders. Skips installed packages,
+  build output and files StackBlitz doesn't need.
+  Called with (dict "root" "workshopcode/<lang>/<project>" "dir" "<subfolder or empty>").
+*/ -}}
+{{- $root := .root -}}
+{{- $dir := .dir -}}
+{{- $here := $root -}}
+{{- if $dir }}{{ $here = printf "%s/%s" $root $dir }}{{ end -}}
+{{- range os.ReadDir $here -}}
+  {{- $path := .Name -}}
+  {{- if $dir }}{{ $path = printf "%s/%s" $dir .Name }}{{ end -}}
+  {{- if .IsDir -}}
+    {{- if not (in (slice "node_modules" "dist" ".git") .Name) -}}
+      {{- partial "stackblitz-files.html" (dict "root" $root "dir" $path) -}}
+    {{- end -}}
+  {{- else if not (in (slice ".gitignore" ".DS_Store") .Name) }}
+<input type="hidden" name="project[files][{{ $path }}]" value="{{ os.ReadFile (printf "%s/%s" $root $path) }}">
+  {{- end -}}
+{{- end -}}

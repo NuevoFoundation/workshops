@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+{{- /*
+  Slide decks: any page with `type: "slide"` in its front matter is rendered
+  as a reveal.js presentation. This replaces the docdock theme's slide layout,
+  whose bundled reveal.js no longer works.
+
+  Authoring (Markdown in the page body):
+    - a line with only `---` starts a new slide
+    - a line starting with `Note:` starts the speaker notes for that slide
+    - wrap Markdown in <div class="fragment clue"> … </div>, with a blank line
+      after the opening tag and before the closing one, to reveal it on the
+      next click (used for the step-by-step clues on discussion slides)
+  Presenting: press S for speaker view (notes + timer), F for full screen.
+
+  The Markdown sits in a <textarea> so JSX like <button onClick={...}> in code
+  blocks is shown as code instead of being parsed by the browser as HTML.
+*/ -}}
+{{- $reveal := "https://cdn.jsdelivr.net/npm/reveal.js@5.2.1" }}
+{{- $theme := .Params.theme | default "white" }}
+<html lang="{{ .Site.Language.Lang | default "en" }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ .Title }} · {{ .Parent.Title }}</title>
+  <link rel="stylesheet" href="{{ $reveal }}/dist/reset.css">
+  <link rel="stylesheet" href="{{ $reveal }}/dist/reveal.css">
+  <link rel="stylesheet" href="{{ $reveal }}/dist/theme/{{ $theme }}.css">
+  <link rel="stylesheet" href="{{ $reveal }}/plugin/highlight/monokai.css">
+  <style>
+    .reveal h1, .reveal h2, .reveal h3 { text-transform: none; }
+    .reveal pre { width: 100%; font-size: 0.6em; box-shadow: none; }
+    .reveal pre code { max-height: 560px; padding: 0.6em 0.8em; border-radius: 8px; }
+    /* Wrap long lines instead of hiding them behind a sideways scroll. */
+    .reveal pre code, .reveal .code-wrapper code { white-space: pre-wrap; }
+    .reveal img { max-height: 420px; }
+    .reveal ul, .reveal ol { display: block; }
+    /* Discussion slides (any slide with clues): a smaller title and question,
+       so the code and all three clues fit once they're revealed. Code inside
+       a clue stays the same size as the rest of the deck's code. */
+    .reveal section:has(.clue) h2 { font-size: 1.3em; }
+    .reveal section:has(.clue) > p { font-size: 0.8em; }
+    .reveal section:has(.clue) > pre { margin: 0.3em auto; }
+    .reveal .clue { font-size: 0.6em; margin-top: 0.4em; }
+    .reveal .clue p { margin: 0.2em 0; }
+    .reveal .clue pre { font-size: 1em; margin: 0.2em auto; }
+  </style>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section data-markdown
+               data-separator="^---$"
+               data-separator-notes="^Note:">
+        <textarea data-template>
+{{ .RawContent }}
+        </textarea>
+      </section>
+    </div>
+  </div>
+
+  <script src="{{ $reveal }}/dist/reveal.js"></script>
+  <script src="{{ $reveal }}/plugin/markdown/markdown.js"></script>
+  <script src="{{ $reveal }}/plugin/highlight/highlight.js"></script>
+  <script src="{{ $reveal }}/plugin/notes/notes.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      slideNumber: "c/t",
+      transition: "slide",
+      plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+    });
+  </script>
+</body>
+</html>
