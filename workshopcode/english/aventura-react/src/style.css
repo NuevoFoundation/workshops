@@ -1,0 +1,208 @@
+/* You don't need to change this file.
+   It makes your Costa Rica app colorful. Each section styles one component. */
+
+body {
+  margin: 0;
+  background-color: #f4fbf8;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  padding: 32px 16px;
+  font-family: "Comic Sans MS", "Chalkboard SE", "Poppins", sans-serif;
+  text-align: center;
+}
+
+.App h1 {
+  font-size: 2.5rem;
+  color: #00796b;
+  margin: 0;
+}
+
+/* Every activity is a card with the same width */
+.turtles,
+.beach,
+.sloths,
+.coffee-farm,
+.volcano {
+  width: 100%;
+  max-width: 640px;
+  box-sizing: border-box;
+  padding: 32px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  font-family: inherit;
+  font-size: 1rem;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.instructions {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.final-message {
+  margin-top: 24px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #1b5e20;
+  animation: appear 0.6s ease-in-out;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* ---------- Activity 1: Turtles ---------- */
+.turtles {
+  background: linear-gradient(135deg, #a2f5a2, #b3e5fc);
+  color: #084c31;
+}
+
+.turtles button {
+  background-color: #d32f2f;
+  color: white;
+}
+
+.turtles button:hover {
+  background-color: #1565c0;
+}
+
+.success {
+  font-weight: bold;
+  color: #1b4f8a;
+}
+
+/* ---------- Activity 2: Beach ---------- */
+.beach {
+  background: linear-gradient(180deg, #fff4a8, #bfe6f5);
+  color: #222;
+}
+
+.trash-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.beach button {
+  background-color: #00806a;
+  color: white;
+}
+
+.beach button:hover {
+  background-color: #00634f;
+}
+
+/* ---------- Activity 3: Sloths ---------- */
+.sloths {
+  background-color: #8d5a3b;
+  color: white;
+}
+
+.sloths .final-message {
+  color: #fff3b0;
+}
+
+.sloth-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.sloth-card {
+  width: 140px;
+  padding: 16px;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.sloth-card h3 {
+  margin: 0 0 8px;
+}
+
+.sloth-card.saved {
+  background-color: #4caf50;
+}
+
+.sloth-card button {
+  background-color: #fefae0;
+  color: #5c3d2e;
+  font-weight: bold;
+}
+
+/* ---------- Bonus 1: Coffee farm ---------- */
+.coffee-farm {
+  background-color: #e3d5ca;
+  color: #3e2723;
+}
+
+.stage-number {
+  margin: 0;
+  color: #6d4c41;
+}
+
+.stage {
+  font-size: 1.4rem;
+  margin: 16px 0 24px;
+}
+
+.next-button {
+  background-color: #8b5e3c;
+  color: white;
+}
+
+.next-button:hover {
+  background-color: #a47148;
+}
+
+/* ---------- Bonus 2: Volcano ---------- */
+.volcano {
+  background-color: #ffe5b4;
+  color: #3e2f00;
+}
+
+.volcano ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.volcano li {
+  margin: 12px 0;
+  font-size: 1.1rem;
+}
+
+.volcano button {
+  margin-left: 10px;
+  background-color: #e64a19;
+  color: white;
+}
+
+.volcano button:hover {
+  background-color: #bf360c;
+}
