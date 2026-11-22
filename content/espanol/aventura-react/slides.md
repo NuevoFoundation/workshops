@@ -150,12 +150,12 @@ Note:
 
 - Cada año, miles de tortugas marinas ponen sus huevos en **Tortuguero**
 - Abre `src/components/Tortugas.jsx`
-- ⌨️ en una diapositiva = escribe conmigo
+- 🔍 en una diapositiva = lo descubrimos juntos · 💡 = una pista
 
 Note:
 **[2 min, acumulado 0:12]**
 
-- **Di:** "Primera parada: el Parque Nacional Tortuguero, en la costa del Caribe. Cada año, miles de tortugas verdes salen del mar a esta playa para poner sus huevos. Nuestra misión: ¡salvar 10 tortugas! Abre el archivo Tortugas.jsx. Cuando veas el teclado en una diapositiva, significa: escribe conmigo".
+- **Di:** "Primera parada: el Parque Nacional Tortuguero, en la costa del Caribe. Cada año, miles de tortugas verdes salen del mar a esta playa para poner sus huevos. Nuestra misión: ¡salvar 10 tortugas! Abre el archivo Tortugas.jsx. Cuando veas la lupa en una diapositiva, no te voy a dar el código. Vamos a mirar el código que ya está ahí y a descubrir juntos la parte que falta. Si nos atascamos, tengo pistas".
 - **Haz:** Agranda la letra de tu editor (Ctrl y +) para que la última fila pueda leer tu código. Ten la página de la Actividad 1 abierta en otra pestaña para mostrar la sección **¿Atascado?**.
 - **Pregunta:** "Pulgar arriba cuando veas `TAREA 1` en tu archivo".
 - **Atento a:** Estudiantes en el archivo equivocado. Mira el nombre del archivo en la pestaña que está encima del código.
@@ -178,34 +178,50 @@ Note:
 
 ---
 
-## ⌨️ Paso 1 — TAREA 1
-
-Busca esta línea:
+## 🔍 TAREA 1: ¿Por qué se queda en 0?
 
 ```jsx
   const tortugas = 0;
 ```
 
-Cámbiala por:
+🗣️ ¿Qué tipo de variable es `tortugas`? ¿Qué necesita React en su lugar?
+
+<div class="fragment clue">
+
+💡 Mira la primera línea del archivo. ¿Qué herramienta de React está esperando ahí?
+
+</div>
+
+<div class="fragment clue">
+
+💡 `useState` te da **dos** cosas: el valor y una función que lo cambia. El nombre de esa función empieza con `set`
+
+</div>
+
+<div class="fragment clue">
+
+💡 Completa los espacios:
 
 ```jsx
-  const [tortugas, setTortugas] = useState(0);
+  const [tortugas, set________] = useState(___);
 ```
 
-Note:
-**[3 min, acumulado 0:17]**
+</div>
 
-- **Di:** "Vamos a darle memoria a React. Dentro de los corchetes hay dos nombres. `tortugas` es el número que React recuerda. `setTortugas` es el botón que lo cambia. `useState(0)` significa: empieza en 0. `useState` viene de React; por eso la primera línea del archivo dice `import { useState } from "react";`".
-- **Escribe en vivo:** Selecciona `const tortugas = 0;` y escribe encima despacio, diciendo cada parte en voz alta: "const, abre corchete, tortugas, coma, setTortugas con T mayúscula, cierra corchete, igual, useState con S mayúscula, paréntesis con 0 adentro, punto y coma".
+Note:
+**[4 min, acumulado 0:18]**
+
+- **Plantea:** "Haz clic en Salvar tortuga. No pasa nada, y es a propósito. Con lo que acabamos de aprender: ¿qué tipo de variable es `tortugas`? ¿Qué necesita React en su lugar?". Dales 30 segundos para hablarlo con un compañero y luego escucha 2 o 3 respuestas. Buscas "es una variable normal" y "tiene que ser estado".
+- **Pistas:** Presiona → para mostrar una pista a la vez, solo cuando el grupo lleve unos 30 segundos atascado. Deja de mostrar pistas en cuanto alguien lo tenga.
+- **Constrúyelo con el grupo:** Cuando un estudiante tenga la línea, pídele que te la dicte mientras la escribes en tu StackBlitz, diciendo cada parte en voz alta. Luego todos la escriben.
+- **Respuesta (no la muestres en la diapositiva):** `const [tortugas, setTortugas] = useState(0);` reemplaza a `const tortugas = 0;`. `tortugas` es el número que React recuerda, `setTortugas` es el botón del marcador que lo cambia y `0` es donde empieza.
 - **Di:** "Todavía no cambia nada en la pantalla. ¡No pasa nada! Le dimos memoria a React, pero todavía no la usamos".
-- **Pregunta:** "Pulgar arriba cuando tu línea se vea exactamente como la mía y la app siga diciendo 0 de 10".
+- **Pregunta:** "Pulgar arriba cuando tu línea sea igual a la mía y la app siga diciendo 0 de 10".
 - **Atento a:** (1) Dejaron la línea vieja y agregaron la nueva → recuadro de error "Identifier 'tortugas' has already been declared" (el nombre `tortugas` ya existe). Borra la línea vieja. (2) `usestate` con s minúscula, o `Tortugas` con T mayúscula dentro de los corchetes → toda la app se pone en blanco. Las mayúsculas importan: el componente es `Tortugas` y la variable es `tortugas`. (3) Paréntesis en vez de corchetes alrededor de `tortugas, setTortugas`.
 
 ---
 
-## ⌨️ Paso 2 — TAREA 2
-
-Busca:
+## 🔍 TAREA 2: ¿Qué debe hacer un clic?
 
 ```jsx
   const salvarTortuga = () => {
@@ -213,21 +229,39 @@ Busca:
   };
 ```
 
-Escribe adentro:
+🗣️ Esto se ejecuta en cada clic de **Salvar tortuga**. ¿Qué debería pasar? ¿Deberíamos llegar a 11?
+
+<div class="fragment clue">
+
+💡 ¿Cuál de nuestros dos nombres **cambia** el número: `tortugas` o `setTortugas`?
+
+</div>
+
+<div class="fragment clue">
+
+💡 Número nuevo = número viejo **+ 1**, pero solo **si** tenemos menos que `total`. `<` significa "menor que"
+
+</div>
+
+<div class="fragment clue">
+
+💡 Completa los espacios:
 
 ```jsx
-  const salvarTortuga = () => {
-    if (tortugas < total) {
-      setTortugas(tortugas + 1);
+    if (tortugas ___ total) {
+      setTortugas(____________);
     }
-  };
 ```
+
+</div>
 
 Note:
-**[4 min, acumulado 0:21]**
+**[5 min, acumulado 0:23]**
 
-- **Di:** "`salvarTortuga` es una función: una pequeña lista de instrucciones que se ejecuta cada vez que alguien hace clic en 'Salvar tortuga'. Ahora la lista está vacía. Vamos a agregar: si las tortugas que salvamos son menos que el total, cambia tortugas a tortugas más uno. El signo `<` significa 'menor que'".
-- **Escribe en vivo:** Haz clic en la línea vacía entre `{` y `};` y escribe las tres líneas. Avisa que a veces el editor agrega solo la `}` o el `)` de cierre, así que hay que revisar que no queden dos.
+- **Plantea:** "`salvarTortuga` es una función: una pequeña lista de instrucciones que se ejecuta cada vez que alguien hace clic. Ahora la lista está vacía. ¿Qué debería pasar cuando haces clic?" (El número sube en uno). "¿Y deberíamos poder salvar 11 tortugas de 10?" (¡No! Hay que parar en `total`).
+- **Pistas:** Una a la vez, solo cuando el grupo esté atascado. La primera pista conecta con la TAREA 1: `setTortugas` es el botón del marcador.
+- **Constrúyelo con el grupo:** Pide a un estudiante que te dicte la línea del `if` y a otro la de `setTortugas` mientras las escribes en el proyector. Avisa que a veces el editor agrega solo la `}` o el `)` de cierre, así que hay que revisar que no queden dos.
+- **Respuesta (no la muestres en la diapositiva):** dentro de `salvarTortuga`: `if (tortugas < total) { setTortugas(tortugas + 1); }`
 - **Pregunta:** "Haz clic en 'Salvar tortuga' varias veces. ¡Pulgar arriba cuando tu contador suba!".
 - **Atento a:** (1) Líneas escritas debajo de `};` en vez de dentro de las `{ }` → la app se pone en blanco (la consola dice "Too many re-renders": React se quedó dibujando sin parar) o el contador salta solo a 10. Hay que moverlas adentro. (2) Falta una `}` → recuadro de error "Unexpected token", que muchas veces señala la última línea del archivo. Si sobra una `}` (a veces el editor la agrega solo), dice "'return' outside of function". Revisa las llaves que acabas de escribir. (3) El contador no se mueve y no hay recuadro de error → un error de escritura en la TAREA 1, como `settortugas`; la consola (F12) dice "setTortugas is not defined".
 - **Para ponerse al día:** "Si te quedaste atrás, abre **▶ Muestra el archivo completo** en la sección **¿Atascado?** de la página de la Actividad 1".
@@ -248,7 +282,7 @@ Note:
 ```
 
 Note:
-**[2 min, acumulado 0:23]**
+**[2 min, acumulado 0:25]**
 
 - **Di:** "Esta parte ya está escrita. No la escribes tú. Hace una pregunta: ¿`tortugas` es menor que `total`? El `?` significa 'si la respuesta es sí, muestra esto'. Los dos puntos `:` significan 'si no, muestra aquello'. Así que mientras tengas menos de 10, ves el botón 'Salvar tortuga'. Al llegar a 10, ves '¡Todas las tortugas están a salvo!' y un botón 'Reiniciar misión'. Los `<>` y `</>` son una caja invisible que mantiene dos cosas juntas".
 - **Haz:** Haz clic en "Salvar tortuga" hasta llegar a 10 en tu pantalla para que vean aparecer el mensaje.
@@ -257,9 +291,7 @@ Note:
 
 ---
 
-## ⌨️ Paso 3 — TAREA 3
-
-Busca:
+## 🔍 TAREA 3: Empieza la misión otra vez
 
 ```jsx
   const reiniciar = () => {
@@ -267,19 +299,36 @@ Busca:
   };
 ```
 
-Escribe adentro:
+🗣️ ¿A qué número debe volver el contador? ¿Qué función puede cambiarlo?
+
+<div class="fragment clue">
+
+💡 Ya usaste la función que cambia `tortugas` en la TAREA 2
+
+</div>
+
+<div class="fragment clue">
+
+💡 Esta vez no sumamos nada y no necesitamos un `if`. Solo le damos el número con el que empezamos
+
+</div>
+
+<div class="fragment clue">
+
+💡 Completa los espacios:
 
 ```jsx
-  const reiniciar = () => {
-    setTortugas(0);
-  };
+    set________(___);
 ```
+
+</div>
 
 Note:
-**[3 min, acumulado 0:26]**
+**[3 min, acumulado 0:28]**
 
-- **Di:** "Reiniciar tiene que volver a poner el contador en 0. ¿Qué botón cambia el número de tortugas? ¡`setTortugas`! Así que lo ponemos en 0".
-- **Escribe en vivo:** La línea `setTortugas(0);` dentro de `reiniciar`.
+- **Plantea:** "Reiniciar tiene que volver a poner el contador como al principio. ¿En qué número?" (0). "¿Qué función cambia el número de tortugas?" (¡`setTortugas`!). Esta es corta: la mayoría de los grupos la resuelve antes de la segunda pista. Dale la palabra a alguien que todavía no haya hablado.
+- **Constrúyelo con el grupo:** Un estudiante te dicta la línea mientras la escribes dentro de `reiniciar`.
+- **Respuesta (no la muestres en la diapositiva):** `setTortugas(0);` dentro de `reiniciar`.
 - **Consejo:** "¿Te cansaste de hacer clic 10 veces? Cambia `const total = 10;` por `const total = 3;` para probar más rápido".
 - **Pregunta:** "Llega al final y haz clic en Reiniciar misión. ¡Pulgar arriba cuando vuelvas a 0!".
 - **Atento a:** (1) `setTortugas(0);` escrito dentro de `salvarTortuga` en vez de `reiniciar` → el contador ya no sube. (2) `setTortugas = 0` en vez de `setTortugas(0)` → Reiniciar no hace nada (la consola dice "Assignment to constant variable"). Necesita los paréntesis.
@@ -295,7 +344,7 @@ Note:
 - **Reiniciar misión** → vuelve a 0
 
 Note:
-**[2 min, acumulado 0:28]**
+**[1 min, acumulado 0:29]**
 
 - **Di:** "Probemos todo. Haz clic en Salvar tortuga, llega al final y haz clic en Reiniciar misión".
 - **Haz:** Camina por el salón (o pide a tus ayudantes que lo hagan) y mira las pantallas.
@@ -315,7 +364,7 @@ Note:
 - ¿Te quedaste atrás? En **¿Atascado?**, abre **▶ Muestra el archivo completo**
 
 Note:
-**[2 min, acumulado 0:30]**
+**[1 min, acumulado 0:30]**
 
 - **Di:** "Tu turno: cambia el total por el número que quieras: 5, 20, 100. Mira la frase de la derecha. Dice 'de 20 tortugas' solita. Cambiaste UN número y React actualizó todo lo que lo usa".
 - **Pregunta:** "¡Di tu número en voz alta!".
@@ -366,34 +415,54 @@ Note:
 
 ---
 
-## ⌨️ Paso 1 — TAREA 1
-
-- Primera línea: `const desechos = [` → `const [desechos, setDesechos] = useState([`
-- Última línea: `];` → `]);`
+## 🔍 TAREA 1: Recuerda una lista completa
 
 ```jsx
-  const [desechos, setDesechos] = useState([
-    "🧃 Plástico",
-    "🍾 Vidrio",
-    "🥫 Lata",
-    "📄 Papel",
-  ]);
+  const desechos = [
+    "🧃 Plástico", … ,
+  ];
 ```
 
-Note:
-**[3 min, acumulado 0:37]**
+🗣️ Al recoger desechos, esta lista va a cambiar. ¿Cómo hicimos que React recordara las tortugas?
 
-- **Di:** "Igual que con las tortugas, vamos a convertir `desechos` en estado. Solo cambias la primera y la última línea de la lista. Deja los desechos del medio tal como están. La primera línea, `const desechos = [`, se convierte en `const [desechos, setDesechos] = useState([`. En la última línea, agrega un `)` antes del `;`. La lista va dentro de los paréntesis de useState, como antes iba el 0".
-- **Escribe en vivo:** Cambia solo la primera y la última línea. No vuelvas a escribir los emojis.
+<div class="fragment clue">
+
+💡 El mismo truco de la Actividad 1: `useState`, más una función cuyo nombre empieza con `set`
+
+</div>
+
+<div class="fragment clue">
+
+💡 Los desechos del medio no cambian. Solo cambian la **primera** y la **última** línea. Toda la lista va dentro de `useState( )`, donde estaba el `0`
+
+</div>
+
+<div class="fragment clue">
+
+💡 Completa los espacios:
+
+```jsx
+  const [desechos, ___________] = useState([
+    "🧃 Plástico", … ,
+  ]___;
+```
+
+</div>
+
+Note:
+**[4 min, acumulado 0:38]**
+
+- **Plantea:** "Cuando recogemos un desecho, la lista se hace más corta. Así que React tiene que recordar esta lista. ¿Cómo hicimos que React recordara las tortugas?" (¡Con `useState`!). "¿Cómo vamos a llamar a la función que cambia `desechos`?" (`setDesechos`).
+- **Pistas:** Una a la vez. Lo difícil no es la idea, son los signos: la lista conserva sus `[ ]` y va dentro de `useState( )`.
+- **Constrúyelo con el grupo:** Un estudiante te dicta la primera línea y otro la última, mientras cambias solo esas dos líneas. No vuelvas a escribir los emojis.
+- **Respuesta (no la muestres en la diapositiva):** primera línea `const [desechos, setDesechos] = useState([`, última línea `]);`. Los cuatro desechos del medio no cambian.
 - **Di:** "Todavía no cambia nada en la pantalla. No pasa nada".
 - **Pregunta:** "Pulgar arriba cuando tu lista termine en `]);`".
 - **Atento a:** (1) Olvidaron el `)` del final → recuadro de error "Unexpected token, expected ','" (la computadora esperaba otra cosa en esa línea). (2) Borraron unas comillas o una coma entre los desechos → recuadro de error (si falta una comilla dice "Unterminated string constant"). (3) `setdesechos` con d minúscula (más adelante, al hacer clic, la consola dirá "setDesechos is not defined").
 
 ---
 
-## ⌨️ Paso 2 — TAREA 2
-
-Busca:
+## 🔍 TAREA 2: ¡Recógelo!
 
 ```jsx
   const recoger = (desecho) => {
@@ -401,49 +470,93 @@ Busca:
   };
 ```
 
-Escribe adentro:
+🗣️ `desecho` es el que tocaste. ¿Cómo debería quedar la lista nueva? ¿Qué función la guarda?
+
+<div class="fragment clue">
+
+💡 La lista nueva = todos los desechos **menos** el que tocaste
+
+</div>
+
+<div class="fragment clue">
+
+💡 `filter` se queda solo con los elementos que pasan una prueba. `!==` significa "no es igual a":
 
 ```jsx
-  const recoger = (desecho) => {
-    setDesechos(desechos.filter((d) => d !== desecho));
-  };
+["🍎", "🍌", "🍇"].filter((f) => f !== "🍌")
+// → ["🍎", "🍇"]
 ```
+
+</div>
+
+<div class="fragment clue">
+
+💡 Completa los espacios:
+
+```jsx
+    setDesechos(desechos.filter((d) => d ___ _______));
+```
+
+</div>
 
 Note:
-**[4 min, acumulado 0:41]**
+**[5 min, acumulado 0:43]**
 
-- **Di:** "`recoger` se ejecuta cuando haces clic en un desecho. `desecho` es el que tocaste. `filter` revisa la lista uno por uno, como cuando revisas cada cosa de tu mochila, y se queda con todo lo que NO es el desecho que tocaste. La `d` es cada desecho mientras `filter` los revisa, y `!==` significa 'no es igual a'. Después, `setDesechos` guarda la lista nueva, más corta".
-- **Escribe en vivo:** La única línea. Al final, cuenta los paréntesis en voz alta: "dos paréntesis de cierre y punto y coma".
+- **Plantea:** "`recoger` se ejecuta cuando haces clic en un desecho, y `desecho` es el que tocaste. Digamos que tocamos el Vidrio. ¿Cómo queda la lista después?" (Plástico, Lata y Papel: todo menos el Vidrio). "¿Qué función guarda una lista nueva?" (`setDesechos`).
+- **Pistas:** La segunda pista presenta `filter` con frutas, no con desechos, para que los estudiantes todavía tengan que dar el salto. Comparación: `filter` es como revisar cada cosa de tu mochila y quedarte con todo lo que NO es lo que quieres botar.
+- **Constrúyelo con el grupo:** Pregunta: "En el ejemplo de las frutas, ¿qué fue lo que sacamos? ¿Y aquí?" (`desecho`). Un estudiante te dicta la línea mientras la escribes. La `d` es cada desecho mientras `filter` los revisa. Al final, cuenta los paréntesis en voz alta: "dos paréntesis de cierre y punto y coma".
+- **Respuesta (no la muestres en la diapositiva):** dentro de `recoger`: `setDesechos(desechos.filter((d) => d !== desecho));`
 - **Pregunta:** "Pulgar arriba cuando lo hayas escrito. La playa sigue vacía. Es normal: los botones llegan en la TAREA 3".
 - **Atento a:** (1) `===` en vez de `!==` → más adelante, al tocar un desecho desaparecen todos los DEMÁS. (2) Falta el `))` del final → recuadro de error. (3) La línea quedó fuera de las `{ }` de `recoger`.
 
 ---
 
-## ⌨️ Paso 3 — TAREA 3
-
-Busca:
+## 🔍 TAREA 3: Un botón por desecho
 
 ```jsx
-      <div className="botones-desechos">
-        {/* TAREA 3: Crea un botón para cada desecho. */}
-      </div>
+{/* TAREA 3: Crea un botón para cada desecho. */}
 ```
 
-Escribe dentro del `div`:
+🗣️ ¿Cómo hacemos un botón para cada desecho?
+
+<div class="fragment clue">
+
+💡 `map` convierte cada elemento de una lista en algo nuevo, como un botón:
 
 ```jsx
-        {desechos.map((desecho) => (
-          <button key={desecho} onClick={() => recoger(desecho)}>
-            Recoger {desecho}
-          </button>
-        ))}
+{["🍎", "🍌"].map((f) => <p key={f}>Me gusta {f}</p>)}
 ```
+
+</div>
+
+<div class="fragment clue">
+
+💡 Cada botón necesita una `key` (su etiqueta), un `onClick` que llame a `recoger` con **su** desecho, y las palabras `Recoger` más el desecho
+
+</div>
+
+<div class="fragment clue">
+
+💡 Completa los espacios:
+
+```jsx
+{desechos.map((desecho) => (
+  <button key={_______} onClick={() => _______(_______)}>
+    Recoger {_______}
+  </button>
+))}
+```
+
+</div>
 
 Note:
-**[5 min, acumulado 0:46]**
+**[5 min, acumulado 0:48]**
 
-- **Di:** "Ahora viene la magia. `map` recorre la lista y crea un botón por cada desecho. Entra una lista y sale un botón por cada elemento. Cada botón necesita una `key`, como una etiqueta con su nombre, para que React pueda distinguir los botones. Cuando haces clic en un botón, se llama a `recoger` con ese desecho".
-- **Escribe en vivo:** Reemplaza la línea del comentario de la TAREA 3 por las 5 líneas. Escribe despacio y di en voz alta los paréntesis y las llaves.
+- **Plantea:** "Tenemos 4 desechos, así que queremos 4 botones. Podríamos escribir 4 botones a mano. ¿Pero y si alguien agrega un quinto? ¿O 100?". Deja que propongan ideas: "un ciclo", "repetirlo", "uno por cada uno". Cualquiera de esas es la idea correcta. Luego: "Cada botón tiene que saber tres cosas. ¿Cuáles?" (Qué desecho es, qué hacer al hacer clic y qué palabras mostrar).
+- **Pistas:** La primera pista muestra `map` con frutas. Comparación: entra una lista y sale un botón por cada elemento. La segunda pista es la lista de lo que necesita cada botón. El `() =>` del `onClick` hace que espere al clic; sin él, todo se recoge de inmediato.
+- **Constrúyelo con el grupo:** Escribe primero la línea `{desechos.map((desecho) => (` y su cierre `))}`, y luego pregúntale al grupo qué va en cada espacio dentro del botón. Escribe despacio y di en voz alta los paréntesis y las llaves.
+- **Respuesta (no la muestres en la diapositiva):** reemplaza el comentario de la TAREA 3 por:
+  `{desechos.map((desecho) => (<button key={desecho} onClick={() => recoger(desecho)}>Recoger {desecho}</button>))}` (en 5 líneas, como en la tercera pista).
 - **Di:** "Ahora todo funciona a la vez: ¡4 botones, y al hacer clic en uno se recoge!".
 - **Pregunta:** "Recoge todos los desechos. Pulgar arriba cuando veas '¡La playa está limpia!'".
 - **Atento a:** (1) Llaves `{ }` después de `=>` en vez de paréntesis `( )` → no aparecen botones y no hay error. (2) `onClick={recoger(desecho)}` sin `() =>` → dice '¡La playa está limpia!' de inmediato, sin botones. (3) Faltan las `{ }` alrededor de `desechos.map(...)` → la app se pone en blanco (la consola dice "desecho is not defined"). (4) Falta la `key` → funciona, pero sale un aviso en la consola ("Each child in a list should have a unique key prop"). Agrégala de todos modos.
@@ -459,7 +572,7 @@ Note:
 - Todos recogidos → **¡La playa está limpia!**
 
 Note:
-**[2 min, acumulado 0:48]**
+**[1 min, acumulado 0:49]**
 
 - **Di:** "Pruébalo: cuatro botones; haz clic en uno y desaparece; recógelos todos y la playa queda limpia".
 - **Haz:** Camina por el salón y mira las pantallas.
@@ -477,7 +590,7 @@ Note:
 - ¿Te quedaste atrás? En **¿Atascado?**, abre **▶ Muestra el archivo completo**
 
 Note:
-**[2 min, acumulado 0:50]**
+**[1 min, acumulado 0:50]**
 
 - **Di:** "Agrega tu propio desecho: un zapato viejo, una bolsa, una tapa de botella. Aparece un botón nuevo solito, porque `map` crea un botón por cada elemento de la lista".
 - **Muestra:** Agrega una línea nueva `"👟 Zapato viejo",` justo después de `"📄 Papel",` (antes de `]);`). Los emojis son opcionales, pero las comillas y la coma no.
@@ -560,51 +673,96 @@ Note:
 
 ---
 
-## ⌨️ Paso 1 — TAREA 1
-
-Busca esta línea:
+## 🔍 TAREA 1: ¿Quién es este perezoso?
 
 ```jsx
+function Perezoso({ nombre, rescatado, onRescatar }) {
+  …
       <h3>🦥 Un perezoso</h3>
 ```
 
-Cámbiala por:
+🗣️ Todas las tarjetas dicen "Un perezoso". La tarjeta ya **recibe** el nombre del perezoso. ¿Dónde? ¿Cómo lo mostramos?
+
+<div class="fragment clue">
+
+💡 Mira la primera línea: `nombre` es una de las props que recibe la tarjeta
+
+</div>
+
+<div class="fragment clue">
+
+💡 En JSX, las llaves `{ }` significan "esto es código: muestra lo que vale". Ya lo hiciste en la playa: `Recoger {desecho}`
+
+</div>
+
+<div class="fragment clue">
+
+💡 Completa los espacios:
 
 ```jsx
-      <h3>🦥 {nombre}</h3>
+      <h3>🦥 ________</h3>
 ```
 
-Note:
-**[3 min, acumulado 1:01]**
+</div>
 
-- **Di:** "La tarjeta siempre dice 'Un perezoso'. Vamos a usar la prop `nombre`. Las llaves dentro de JSX significan: esto es código, no texto, así que muéstrame lo que vale `nombre`".
-- **Escribe en vivo:** Cambia `Un perezoso` por `{nombre}`. Deja el emoji.
+Note:
+**[4 min, acumulado 1:02]**
+
+- **Plantea:** "Todas las tarjetas dicen 'Un perezoso'. Pero la tarjeta ya sabe el nombre de su perezoso. ¿Dónde está escondido?" (En las props de la primera línea: `nombre`). "¿Cómo mostramos un valor en vez de texto? Lo hicimos en la playa" (Con llaves, como `Recoger {desecho}`).
+- **Pistas:** Una a la vez. La mayoría de los grupos lo resuelve después de la segunda pista.
+- **Constrúyelo con el grupo:** Un estudiante te dice qué reemplaza a `Un perezoso`. Escríbelo. Deja el emoji.
+- **Respuesta (no la muestres en la diapositiva):** `<h3>🦥 {nombre}</h3>`
+- **Para los mayores:** "¿Qué mostraría la tarjeta si escribiéramos `nombre` sin llaves?" (La palabra "nombre").
 - **Pregunta:** "¡Pulgar arriba cuando tu tarjeta diga 🦥 Mau!".
 - **Atento a:** (1) `nombre` sin llaves → la tarjeta dice "nombre". (2) `{Nombre}` con N mayúscula → la app se pone en blanco (la consola dice "Nombre is not defined"). (3) Borraron sin querer el emoji o el `<h3>` → Ctrl+Z.
 
 ---
 
-## ⌨️ Paso 2 — TAREA 2
-
-- Borra las 5 líneas de la tarjeta de Mau, de `<Perezoso` a `/>`
-- Escribe esto en su lugar:
+## 🔍 TAREA 2: 4 perezosos, 1 tarjeta
 
 ```jsx
-        {perezosos.map((nombre) => (
-          <Perezoso
-            key={nombre}
-            nombre={nombre}
-            rescatado={rescatados.includes(nombre)}
-            onRescatar={rescatar}
-          />
-        ))}
+const perezosos = ["Mau", "Rick", "Luna", "Toby"];
+<Perezoso nombre="Mau"
+  rescatado={rescatados.includes("Mau")}
+  onRescatar={rescatar} />
 ```
 
-Note:
-**[5 min, acumulado 1:06]**
+🗣️ 4 nombres, solo 1 tarjeta. ¿Dónde resolvimos esto antes?
 
-- **Di:** "Ahora mismo escribimos a mano una sola tarjeta, la de Mau. Pero la lista `perezosos` tiene 4: Mau, Rick, Luna y Toby. El mismo truco de la playa: `map` recorre la lista y crea una tarjeta Perezoso por cada nombre. Cada tarjeta recibe una key, su nombre, si está rescatado y la función para rescatar".
-- **Escribe en vivo:** Borra las 5 líneas de la tarjeta de Mau y escribe las 8 líneas. Cuando escribas `nombre={nombre}`, di: "el nombre de la izquierda es la etiqueta; el de la derecha es el perezoso de la lista".
+<div class="fragment clue">
+
+💡 En la playa, `map` creó un **botón** por desecho. Aquí, un `<Perezoso />` por **nombre**
+
+</div>
+
+<div class="fragment clue">
+
+💡 Parte de la tarjeta de Mau: donde dice `"Mau"`, usa el nombre de la lista. Agrega una `key` y luego borra la tarjeta de Mau
+
+</div>
+
+<div class="fragment clue">
+
+💡 Completa los espacios:
+
+```jsx
+{perezosos.map((nombre) => (
+  <Perezoso key={______} nombre={______}
+    rescatado={rescatados.includes(______)}
+    onRescatar={rescatar} />
+))}
+```
+
+</div>
+
+Note:
+**[6 min, acumulado 1:08]**
+
+- **Plantea:** "La lista `perezosos` tiene 4 nombres: Mau, Rick, Luna y Toby. Pero solo vemos una tarjeta, porque alguien escribió a mano la de Mau. ¿Dónde ya convertimos una lista en muchas cosas?" (¡En la playa! Con `map`). "¿Qué debería salir de `map` esta vez?" (Una tarjeta `<Perezoso />` por cada nombre).
+- **Pistas:** La segunda pista es la gran ayuda: la tarjeta de Mau escrita a mano ya tiene todo, solo que usa `"Mau"` en vez de un nombre de la lista.
+- **Constrúyelo con el grupo:** Escribe primero las líneas `{perezosos.map((nombre) => (` y `))}`. Luego pregúntale al grupo qué va en cada espacio, y por qué `nombre` no lleva comillas. Cuando escribas `nombre={nombre}`, di: "el nombre de la izquierda es la etiqueta; el de la derecha es el perezoso de la lista". Al final, borren juntos las 5 líneas de la tarjeta de Mau.
+- **Respuesta (no la muestres en la diapositiva):** reemplaza la tarjeta de Mau por
+  `{perezosos.map((nombre) => (<Perezoso key={nombre} nombre={nombre} rescatado={rescatados.includes(nombre)} onRescatar={rescatar} />))}`. La página de la actividad pone cada prop en su propia línea; las dos formas funcionan.
 - **Pregunta:** "Pulgar arriba cuando veas 4 tarjetas de perezosos. Rescátalos a todos. ¿Ves '¡Has rescatado a todos los perezosos!'?".
 - **Atento a:** (1) Dejaron la tarjeta de Mau → 5 tarjetas, Mau dos veces. (2) `<perezoso` con p minúscula → no aparece ninguna tarjeta (React cree que es una etiqueta HTML). (3) `rescatados.includes("nombre")` con comillas → las tarjetas nunca se ponen verdes. (4) Falta el `/>` o el `))}` → recuadro de error.
 - **Para ponerse al día:** "Si te quedaste atrás, abre **▶ Muestra el archivo completo** en la sección **¿Atascado?** de la página de la Actividad 3".
@@ -620,7 +778,7 @@ Note:
 - Los 4 → **¡Has rescatado a todos los perezosos!**
 
 Note:
-**[2 min, acumulado 1:08]**
+**[1 min, acumulado 1:09]**
 
 - **Di:** "Pruébalo: cuatro tarjetas con nombres; Rescatar las pone verdes; y después de las cuatro sale el mensaje final".
 - **Haz:** Camina por el salón y mira las pantallas.
@@ -640,7 +798,7 @@ Note:
 - ¿Te quedaste atrás? En **¿Atascado?**, abre **▶ Muestra el archivo completo**
 
 Note:
-**[2 min, acumulado 1:10]**
+**[1 min, acumulado 1:10]**
 
 - **Di:** "Agrega un quinto perezoso. Ponle el nombre que quieras: el tuyo o el de tu mascota. Aparece una tarjeta nueva solita. Y fíjate: ahora tienes que rescatar 5 perezosos para ver el mensaje final. El código compara con `perezosos.length`, así que cuenta por ti".
 - **Muestra:** `"Toby"` se convierte en `"Toby", "Pura Vida"` (cualquier nombre, entre comillas y después de una coma; la página usa el mismo ejemplo).

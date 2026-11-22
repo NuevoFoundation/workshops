@@ -5,12 +5,12 @@ weight: 21
 draft: false
 ---
 
-Students (ages 10–18, no React needed) build a small React app on a trip to Costa Rica with Sharky: they save turtles (state), clean a beach (a list in state, `filter`, `map`) and rescue sloths (components and props). Everyone opens the same StackBlitz starter: nothing to install, `App.jsx` already wired up, and each file has numbered `TODO` comments. For each TODO you explain it, type it live, the students type it, you check thumbs, and you move on. About 75 minutes, hard stop at 90. The same pages work self-paced, and every activity ends with the complete file, so nobody stays behind for long.
+Students (ages 10–18, no React needed) build a small React app on a trip to Costa Rica with Sharky: they save turtles (state), clean a beach (a list in state, `filter`, `map`) and rescue sloths (components and props). Everyone opens the same StackBlitz starter: nothing to install, `App.jsx` already wired up, and each file has numbered `TODO` comments. For each TODO, the slide shows the code that's already there and asks a question. The room works out the missing code together, with clues you reveal one at a time if they get stuck. Then a student dictates it while you type it, everyone types it, you check thumbs, and you move on. About 75 minutes, hard stop at 90. The same pages work self-paced, and every activity ends with the complete file, so nobody stays behind for long.
 
 ## Links
 
 - **Student pages:** [Get started](../get-started/) · [Activity 1](../activity-1/) · [Activity 2](../activity-2/) · [Activity 3](../activity-3/) · [You did it!](../finish/) · [Bonus 1](../bonus-1/) · [Bonus 2](../bonus-2/). Public address: `workshops.nuevofoundation.org/aventura-react`
-- **Slides:** [../slides/](../slides/). Press **S** for speaker view (allow pop-ups). Every slide's notes have the timing, what to say, what to type, a check-in and the mistakes to watch for.
+- **Slides:** [../slides/](../slides/). Press **S** for speaker view (allow pop-ups). Every slide's notes have the timing, what to say or ask, a check-in and the mistakes to watch for. On the 🔍 slides, the notes also have the answer, which is never on the slide.
 - **Starter (what students open):** [StackBlitz starter](https://stackblitz.com/github/NuevoFoundation/workshops/tree/master/workshopcode/english/aventura-react?file=src%2Fcomponents%2FTurtles.jsx)
 - **Finished app (to demo):** [StackBlitz finished app](https://stackblitz.com/github/NuevoFoundation/workshops/tree/master/workshopcode/english/aventura-react-solution?file=src%2FApp.jsx)
 - **Answer key:** [../answer-key/](../answer-key/)
@@ -37,15 +37,17 @@ Students (ages 10–18, no React needed) build a small React app on a trip to Co
 
 Each speaker note starts with a cue like `[3 min, 0:17 elapsed]`: the minutes for that slide, and where you should be when you leave it. If you are more than 5 minutes behind, see "If you're short on time" below.
 
-## How to run the code-along
+## How to run the discussions
 
-Use the same rhythm for every TODO (slides marked ⌨️):
+The slides never hand out the code. Each concept slide (state, lists, components, props) teaches the idea with an analogy: scoreboard, backpack, cookie cutter. Then a 🔍 slide shows the code that's already in the file and asks the room to work out what's missing. Use the same rhythm for every 🔍 slide:
 
-1. **Explain** it in one sentence, plus the analogy from the notes (scoreboard, backpack, cookie cutter).
-2. **Type the same TODO live** in your StackBlitz. Go slowly and say the brackets out loud.
-3. **Students type.** The slide shows the exact code. The page shows the same code under "Step 1 — TODO 1" and so on.
-4. **Thumbs-up check** ("thumbs up when your counter goes up"). Look for the missing thumbs.
+1. **Ask the question on the slide.** Give the room about 30 seconds to talk it over with a neighbor, then take 2 or 3 answers. Wrong answers are welcome: "What would happen if we tried that?" keeps the discussion going.
+2. **Reveal clues only when they're stuck.** Press → to show the next clue, about every 30 seconds of silence. The clues go from a nudge to a fill-in-the-blank. As soon as someone has it, skip the rest: **Alt+→** (Option+→ on a Mac) goes to the next slide without showing the remaining clues.
+3. **Build it together.** A student dictates the code while you type it in your StackBlitz on the projector. Say the brackets out loud. The answer is in the speaker notes, in case the room lands on something else that also works.
+4. **Everyone types it.** Then the thumbs-up check ("thumbs up when your counter goes up"). Look for the missing thumbs.
 5. **Move on.** Never wait more than about 2 minutes for one student. Stragglers (or a helper) open **Stuck? Show the complete file** at the bottom of the activity page, copy it, click in their file, select all (Ctrl+A) and paste. They're caught up. The "Not working?" list on each page covers the usual mistakes.
+
+The activity pages still show every step's code, so students working alone at home can follow along. During the session, ask students to keep the activity page closed and open it only for **Stuck?** when they fall behind.
 
 Things to say ahead of time:
 
@@ -56,8 +58,8 @@ Things to say ahead of time:
 
 ## Mixed ages (10–18)
 
-- **Younger students (10–12):** pair them up. One types, one reads the page aloud, and they swap each activity. Praise matching the code exactly. They don't need to understand every symbol.
-- **Older or faster students:** give them the **Your turn** challenge at the end of each activity, then the bonus pages (Coffee farm, then Arenal volcano, which has fewer hints). Ask them to help a neighbor by explaining, not typing. The notes have extra questions for them ("explain `?` and `:`").
+- **Younger students (10–12):** pair them up. They answer each 🔍 question together, one types, and they swap each activity. Praise good guesses, not only right answers. They don't need to understand every symbol.
+- **Older or faster students:** ask them to hold their answer for 30 seconds so others get a chance to think, then call on them to explain *why* it works. Give them the **Your turn** challenge at the end of each activity, then the bonus pages (Coffee farm, then Arenal volcano, which has fewer hints). Ask them to help a neighbor by explaining, not typing. The notes have extra questions for them ("explain `?` and `:`").
 - Don't slow the room down for the fastest or the slowest student. The pages let everyone go at their own speed.
 
 ## Common errors
@@ -92,6 +94,7 @@ The code mistakes below were tested in the starter project. Messages marked "con
 
 ## If you're short on time
 
+- **A few minutes behind:** on the 🔍 slides, reveal the clues sooner, after about 15 seconds instead of 30.
 - **First cut:** Activity 3's **Your turn** (slide 31), then the other Your turn slides. Students can do them at home.
 - **Behind by 10 minutes or more:** demo Activity 3 instead of coding along. You type it while they watch, then they paste the complete `Sloths.jsx` from the page's "Stuck?" fold-out and click Rescue.
 - **Way behind (setup trouble):** finish Activity 2, show the finished app, and do the wrap-up. Activity 3 and the bonus pages work self-paced at home.

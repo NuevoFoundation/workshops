@@ -5,12 +5,12 @@ weight: 21
 draft: false
 ---
 
-Los estudiantes (de 10 a 18 años, sin saber React) crean una pequeña app de React en un viaje a Costa Rica con Sharky: salvan tortugas (estado), limpian una playa (una lista en el estado, `filter` y `map`) y rescatan perezosos (componentes y props). Todos abren el mismo proyecto inicial en StackBlitz: no hay nada que instalar, `App.jsx` ya está conectado y cada archivo tiene comentarios numerados que dicen `TAREA`. En cada TAREA, tú la explicas, la escribes en vivo, los estudiantes la escriben, revisas los pulgares y sigues. Dura unos 75 minutos, con un máximo de 90. Las mismas páginas sirven para avanzar a su propio ritmo, y cada actividad termina con el archivo completo, así que nadie se queda atrás por mucho tiempo.
+Los estudiantes (de 10 a 18 años, sin saber React) crean una pequeña app de React en un viaje a Costa Rica con Sharky: salvan tortugas (estado), limpian una playa (una lista en el estado, `filter` y `map`) y rescatan perezosos (componentes y props). Todos abren el mismo proyecto inicial en StackBlitz: no hay nada que instalar, `App.jsx` ya está conectado y cada archivo tiene comentarios numerados que dicen `TAREA`. En cada TAREA, la diapositiva muestra el código que ya está ahí y hace una pregunta. El grupo descubre junto el código que falta, con pistas que muestras de una en una si se atascan. Luego un estudiante te lo dicta mientras lo escribes, todos lo escriben, revisas los pulgares y sigues. Dura unos 75 minutos, con un máximo de 90. Las mismas páginas sirven para avanzar a su propio ritmo, y cada actividad termina con el archivo completo, así que nadie se queda atrás por mucho tiempo.
 
 ## Enlaces
 
 - **Páginas para estudiantes:** [Abre tu proyecto inicial](../get-started/) · [Actividad 1](../activity-1/) · [Actividad 2](../activity-2/) · [Actividad 3](../activity-3/) · [¡Lo lograste!](../finish/) · [Extra 1](../bonus-1/) · [Extra 2](../bonus-2/). Dirección pública: `workshops.nuevofoundation.org/es/aventura-react`
-- **Diapositivas:** [../slides/](../slides/). Presiona **S** para ver las notas del presentador (permite las ventanas emergentes). Las notas de cada diapositiva tienen el tiempo, qué decir, qué escribir, una pregunta para revisar cómo van y los errores a los que hay que estar atento.
+- **Diapositivas:** [../slides/](../slides/). Presiona **S** para ver las notas del presentador (permite las ventanas emergentes). Las notas de cada diapositiva tienen el tiempo, qué decir o preguntar, una pregunta para revisar cómo van y los errores a los que hay que estar atento. En las diapositivas 🔍, las notas también tienen la respuesta, que nunca aparece en la diapositiva.
 - **Proyecto inicial (lo que abren los estudiantes):** [Proyecto inicial en StackBlitz](https://stackblitz.com/github/NuevoFoundation/workshops/tree/master/workshopcode/espanol/aventura-react?file=src%2Fcomponents%2FTortugas.jsx)
 - **App terminada (para la demostración):** [App terminada en StackBlitz](https://stackblitz.com/github/NuevoFoundation/workshops/tree/master/workshopcode/espanol/aventura-react-solution?file=src%2FApp.jsx)
 - **Respuestas:** [../answer-key/](../answer-key/)
@@ -37,15 +37,17 @@ Los estudiantes (de 10 a 18 años, sin saber React) crean una pequeña app de Re
 
 Cada nota del presentador empieza con una marca como `[3 min, acumulado 0:17]`: los minutos de esa diapositiva y el tiempo total en que deberías ir al pasar a la siguiente. Si vas más de 5 minutos atrasado, mira "Si te falta tiempo" más abajo.
 
-## Cómo dar la clase programando juntos
+## Cómo guiar las conversaciones
 
-Usa el mismo ritmo en cada TAREA (las diapositivas marcadas con ⌨️):
+Las diapositivas nunca dan el código. Cada diapositiva de concepto (estado, listas, componentes, props) enseña la idea con una comparación: el marcador, la mochila, el molde de galletas. Después, una diapositiva 🔍 muestra el código que ya está en el archivo y le pide al grupo que descubra lo que falta. Usa el mismo ritmo en cada diapositiva 🔍:
 
-1. **Explica** la TAREA en una frase, más la comparación de las notas (el marcador, la mochila, el molde de galletas).
-2. **Escribe la misma TAREA en vivo** en tu StackBlitz. Ve despacio y di en voz alta los paréntesis, los corchetes y las llaves.
-3. **Los estudiantes escriben.** La diapositiva muestra el código exacto. La página muestra el mismo código en "Paso 1 — TAREA 1", y así con las demás.
-4. **Revisa con los pulgares** ("pulgar arriba cuando tu contador suba"). Busca a quien no tenga el pulgar arriba.
+1. **Haz la pregunta de la diapositiva.** Dale al grupo unos 30 segundos para hablarlo con un compañero y luego escucha 2 o 3 respuestas. Las respuestas equivocadas también sirven: "¿Qué pasaría si probáramos eso?" mantiene viva la conversación.
+2. **Muestra pistas solo cuando se atasquen.** Presiona → para mostrar la siguiente pista, más o menos cada 30 segundos de silencio. Las pistas van de un empujoncito a completar los espacios. En cuanto alguien lo tenga, sáltate las demás: **Alt+→** (Option+→ en Mac) pasa a la siguiente diapositiva sin mostrar las pistas que quedan.
+3. **Constrúyelo con el grupo.** Un estudiante te dicta el código mientras lo escribes en tu StackBlitz en el proyector. Di en voz alta los paréntesis, los corchetes y las llaves. La respuesta está en las notas del presentador, por si el grupo llega a otra forma que también funciona.
+4. **Todos lo escriben.** Luego revisa con los pulgares ("pulgar arriba cuando tu contador suba"). Busca a quien no tenga el pulgar arriba.
 5. **Sigue adelante.** Nunca esperes más de unos 2 minutos por un solo estudiante. Quien se quede atrás (o un ayudante) abre **▶ Muestra el archivo completo** en la sección **¿Atascado?** al final de la página de la actividad, lo copia, hace clic en su archivo, selecciona todo (Ctrl+A) y pega. Ya está al día. La lista **¿No funciona?** de cada página cubre los errores más comunes.
+
+Las páginas de las actividades siguen mostrando el código de cada paso, para que quien trabaje solo en casa pueda avanzar. Durante la sesión, pide a los estudiantes que tengan cerrada la página de la actividad y que la abran solo para **¿Atascado?** cuando se queden atrás.
 
 Cosas que conviene avisar desde antes:
 
@@ -57,8 +59,8 @@ Cosas que conviene avisar desde antes:
 
 ## Edades mezcladas (10 a 18 años)
 
-- **Los más pequeños (10 a 12):** ponlos en parejas. Uno escribe y el otro lee la página en voz alta, y cambian en cada actividad. Felicítalos cuando copien el código exactamente igual. No necesitan entender cada símbolo.
-- **Los mayores o los más rápidos:** dales el reto **Tu turno** al final de cada actividad y luego las actividades extra (primero la finca de café y después el volcán Arenal, que tiene menos pistas). Pídeles que ayuden a un compañero explicándole, no escribiendo por él. Las notas tienen preguntas extra para ellos ("explica el `?` y los `:`").
+- **Los más pequeños (10 a 12):** ponlos en parejas. Responden juntos cada pregunta 🔍, uno escribe, y cambian en cada actividad. Felicita las buenas ideas, no solo las respuestas correctas. No necesitan entender cada símbolo.
+- **Los mayores o los más rápidos:** pídeles que esperen 30 segundos antes de responder, para que los demás tengan tiempo de pensar, y luego que expliquen *por qué* funciona. Dales el reto **Tu turno** al final de cada actividad y luego las actividades extra (primero la finca de café y después el volcán Arenal, que tiene menos pistas). Pídeles que ayuden a un compañero explicándole, no escribiendo por él. Las notas tienen preguntas extra para ellos ("explica el `?` y los `:`").
 - No frenes al grupo por el estudiante más rápido ni por el más lento. Las páginas dejan que cada quien avance a su ritmo.
 
 ## Errores comunes
@@ -93,6 +95,7 @@ Los errores de código de abajo se probaron en el proyecto inicial. Los mensajes
 
 ## Si te falta tiempo
 
+- **Si vas unos minutos atrasado:** en las diapositivas 🔍, muestra las pistas antes, más o menos a los 15 segundos en vez de a los 30.
 - **Lo primero que puedes quitar:** el **Tu turno** de la Actividad 3 (diapositiva 31), y luego los otros Tu turno. Los estudiantes pueden hacerlos en casa.
 - **Si vas 10 minutos o más atrasado:** haz la Actividad 3 como demostración en vez de programarla todos juntos. Tú escribes mientras ellos miran, y luego pegan el `Perezosos.jsx` completo desde **▶ Muestra el archivo completo**, en la sección **¿Atascado?** de la página, y hacen clic en Rescatar.
 - **Si vas muy atrasado (problemas para abrir el proyecto):** termina la Actividad 2, muestra la app terminada y haz el cierre. La Actividad 3 y las actividades extra se pueden hacer en casa, a su propio ritmo.

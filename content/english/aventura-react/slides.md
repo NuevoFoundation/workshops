@@ -150,12 +150,12 @@ Note:
 
 - Thousands of sea turtles lay eggs at **Tortuguero** every year
 - Open `src/components/Turtles.jsx`
-- ⌨️ on a slide = type along with me
+- 🔍 on a slide = let's figure it out together · 💡 = a clue
 
 Note:
 **[2 min, 0:12 elapsed]**
 
-- **Say:** "First stop: Tortuguero National Park, on the Caribbean coast. Every year thousands of green sea turtles crawl onto this beach to lay their eggs. Our mission: save 10 turtles! Open the file Turtles.jsx. When you see the keyboard on a slide, it means: type along with me."
+- **Say:** "First stop: Tortuguero National Park, on the Caribbean coast. Every year thousands of green sea turtles crawl onto this beach to lay their eggs. Our mission: save 10 turtles! Open the file Turtles.jsx. When you see the magnifying glass on a slide, I won't tell you the code. We'll look at the code that's already there and figure out the missing piece together. If we get stuck, I have clues."
 - **Do:** Make your editor font bigger (Ctrl and +) so the back row can read your code. Keep the Activity 1 page open in another tab for the "Stuck?" part.
 - **Check-in:** "Thumbs up when you see `TODO 1` in your file."
 - **Watch for:** Students in the wrong file. Look at the file name on the tab above their code.
@@ -178,34 +178,50 @@ Note:
 
 ---
 
-## ⌨️ Step 1 — TODO 1
-
-Find this line:
+## 🔍 TODO 1: Why is it stuck at 0?
 
 ```jsx
   const turtles = 0;
 ```
 
-Change it to:
+🗣️ What kind of variable is `turtles`? What does React need instead?
+
+<div class="fragment clue">
+
+💡 Look at the very first line of the file. Which React tool is waiting there?
+
+</div>
+
+<div class="fragment clue">
+
+💡 `useState` gives you **two** things: the value, and a function that changes it. That function's name starts with `set`
+
+</div>
+
+<div class="fragment clue">
+
+💡 Fill in the blanks:
 
 ```jsx
-  const [turtles, setTurtles] = useState(0);
+  const [turtles, set_______] = useState(___);
 ```
 
-Note:
-**[3 min, 0:17 elapsed]**
+</div>
 
-- **Say:** "Let's give React its memory. Inside the square brackets there are two names. `turtles` is the number React remembers. `setTurtles` is the button that changes it. `useState(0)` means: start at 0. `useState` comes from React; that's why the first line of the file says `import { useState } from "react";`."
-- **Type live:** Select `const turtles = 0;` and type over it slowly, saying each piece out loud: "const, square bracket, turtles, comma, setTurtles with a capital T, close square bracket, equals, useState with a capital S, round brackets with 0, semicolon."
+Note:
+**[4 min, 0:18 elapsed]**
+
+- **Ask:** "Click Save a turtle. Nothing happens, and that's on purpose. Using what we just learned: what kind of variable is `turtles`? What does React need instead?" Give them 30 seconds to talk with a neighbor, then take 2 or 3 answers. You're listening for "it's a normal variable" and "it needs to be state".
+- **Clues:** Press → to reveal one clue at a time, only when the room has been stuck for about 30 seconds. Stop revealing as soon as someone has it.
+- **Build it together:** When a student has the line, ask them to dictate it while you type it in your StackBlitz, saying each piece out loud. Then everyone types it.
+- **Answer (keep it off the slide):** `const [turtles, setTurtles] = useState(0);` replaces `const turtles = 0;`. `turtles` is the number React remembers, `setTurtles` is the scoreboard button that changes it, and `0` is where it starts.
 - **Say:** "Nothing changes on the screen yet. That's OK! We gave React a memory, but we don't use it yet."
-- **Check-in:** "Thumbs up when your line looks exactly like mine and the app still says 0 of 10."
+- **Check-in:** "Thumbs up when your line matches mine and the app still says 0 of 10."
 - **Watch for:** (1) Kept the old line and added the new one → error box "Identifier 'turtles' has already been declared". Delete the old line. (2) `usestate` with a small s → the whole app goes white. Capital letters matter. (3) Round brackets instead of square ones around `turtles, setTurtles`.
 
 ---
 
-## ⌨️ Step 2 — TODO 2
-
-Find:
+## 🔍 TODO 2: What should a click do?
 
 ```jsx
   const saveTurtle = () => {
@@ -213,21 +229,39 @@ Find:
   };
 ```
 
-Type inside it:
+🗣️ This runs on every click of **Save a turtle**. What should happen? Should we ever reach 11?
+
+<div class="fragment clue">
+
+💡 Which of our two names **changes** the number: `turtles` or `setTurtles`?
+
+</div>
+
+<div class="fragment clue">
+
+💡 New number = old number **+ 1**, but only **if** we have fewer than `total`. `<` means "less than"
+
+</div>
+
+<div class="fragment clue">
+
+💡 Fill in the blanks:
 
 ```jsx
-  const saveTurtle = () => {
-    if (turtles < total) {
-      setTurtles(turtles + 1);
+    if (turtles ___ total) {
+      setTurtles(___________);
     }
-  };
 ```
+
+</div>
 
 Note:
-**[4 min, 0:21 elapsed]**
+**[5 min, 0:23 elapsed]**
 
-- **Say:** "`saveTurtle` is a function: a little list of instructions that runs every time someone clicks 'Save a turtle'. Right now the list is empty. We'll add: if the turtles we saved are fewer than the total, set turtles to turtles plus one. The `<` sign means 'less than'."
-- **Type live:** Click on the empty line between `{` and `};` and type the three lines. Point out that the editor sometimes adds the closing `}` or `)` for you, so check you don't end up with two.
+- **Ask:** "`saveTurtle` is a function: a little list of instructions that runs every time someone clicks. Right now the list is empty. What should happen when you click?" (The number goes up by one.) "And should we be able to save 11 turtles out of 10?" (No! We need to stop at `total`.)
+- **Clues:** One at a time, only when the room is stuck. The first clue connects back to TODO 1: `setTurtles` is the scoreboard button.
+- **Build it together:** Let one student dictate the `if` line and another the `setTurtles` line while you type them on the projector. Point out that the editor sometimes adds the closing `}` or `)` for you, so check you don't end up with two.
+- **Answer (keep it off the slide):** inside `saveTurtle`: `if (turtles < total) { setTurtles(turtles + 1); }`
 - **Check-in:** "Click 'Save a turtle' a few times. Thumbs up when your counter goes up!"
 - **Watch for:** (1) Lines typed below the `};` instead of inside the `{ }` → either the app goes white (the console says "Too many re-renders") or the counter jumps straight to 10 by itself. Move them inside. (2) A missing `}` → error box "Unexpected token", often pointing at the last line of the file. Check the braces you just typed. (3) Counter doesn't move and no error box → a typo in TODO 1 like `setturtles`; the console (F12) says "setTurtles is not defined".
 - **Catch-up:** "If you're behind, open 'Stuck? Show the complete file' on the Activity 1 page."
@@ -248,7 +282,7 @@ Note:
 ```
 
 Note:
-**[2 min, 0:23 elapsed]**
+**[2 min, 0:25 elapsed]**
 
 - **Say:** "This part is already written. You don't type it. It asks a question: is `turtles` less than `total`? The `?` means 'if yes, show this'. The `:` means 'if not, show that'. So while you have fewer than 10, you see the 'Save a turtle' button. At 10, you see 'All the turtles are safe!' and a 'Restart mission' button. The `<>` and `</>` are an invisible box that holds two things together."
 - **Do:** Click "Save a turtle" until 10 on your screen so they see the message appear.
@@ -257,9 +291,7 @@ Note:
 
 ---
 
-## ⌨️ Step 3 — TODO 3
-
-Find:
+## 🔍 TODO 3: Start the mission again
 
 ```jsx
   const restart = () => {
@@ -267,19 +299,36 @@ Find:
   };
 ```
 
-Type inside it:
+🗣️ What number should the counter go back to? Which function can change it?
+
+<div class="fragment clue">
+
+💡 You already used the function that changes `turtles` in TODO 2
+
+</div>
+
+<div class="fragment clue">
+
+💡 This time we don't add anything, and we don't need an `if`. We just give it the starting number
+
+</div>
+
+<div class="fragment clue">
+
+💡 Fill in the blanks:
 
 ```jsx
-  const restart = () => {
-    setTurtles(0);
-  };
+    set_______(___);
 ```
+
+</div>
 
 Note:
-**[3 min, 0:26 elapsed]**
+**[3 min, 0:28 elapsed]**
 
-- **Say:** "Restart should put the counter back to 0. Which button changes the turtles number? `setTurtles`! So we set it to 0."
-- **Type live:** The one line `setTurtles(0);` inside `restart`.
+- **Ask:** "Restart should put the counter back. Back to what number?" (0.) "Which function changes the turtles number?" (`setTurtles`!) This one is short: most rooms get it before the second clue. Let a student who hasn't spoken yet answer.
+- **Build it together:** One student dictates the line while you type it inside `restart`.
+- **Answer (keep it off the slide):** `setTurtles(0);` inside `restart`.
 - **Tip:** "Tired of clicking 10 times? Change `const total = 10;` to `const total = 3;` to test faster."
 - **Check-in:** "Get to the end and click Restart mission. Thumbs up when you're back at 0!"
 - **Watch for:** (1) `setTurtles(0);` typed inside `saveTurtle` instead of `restart` → the counter stops going up. (2) `setTurtles = 0` instead of `setTurtles(0)` → Restart does nothing. It needs round brackets.
@@ -295,7 +344,7 @@ Note:
 - **Restart mission** → back to 0
 
 Note:
-**[2 min, 0:28 elapsed]**
+**[1 min, 0:29 elapsed]**
 
 - **Say:** "Let's test the whole thing. Click Save a turtle, get to the end, click Restart."
 - **Do:** Walk around (or ask your helpers to) and look at screens.
@@ -315,7 +364,7 @@ Note:
 - Behind? Open **Stuck? Show the complete file**
 
 Note:
-**[2 min, 0:30 elapsed]**
+**[1 min, 0:30 elapsed]**
 
 - **Say:** "Your turn: change the total to any number you like: 5, 20, 100. Watch the sentence on the right. It says 'of 20 turtles' by itself. You changed ONE number, and React updated everything that uses it."
 - **Check-in:** "Shout out your number!"
@@ -366,34 +415,54 @@ Note:
 
 ---
 
-## ⌨️ Step 1 — TODO 1
-
-- First line: `const trash = [` → `const [trash, setTrash] = useState([`
-- Last line: `];` → `]);`
+## 🔍 TODO 1: Remember a whole list
 
 ```jsx
-  const [trash, setTrash] = useState([
-    "🧃 Plastic bottle",
-    "🍾 Glass",
-    "🥫 Can",
-    "📄 Paper",
-  ]);
+  const trash = [
+    "🧃 Plastic bottle", … ,
+  ];
 ```
 
-Note:
-**[3 min, 0:37 elapsed]**
+🗣️ Picking up trash will change this list. How did we make React remember the turtles?
 
-- **Say:** "Just like the turtles, we turn `trash` into state. You only change the first line and the last line of the list. Keep the trash in the middle exactly as it is. The first line, `const trash = [`, becomes `const [trash, setTrash] = useState([`. On the last line, add a `)` before the `;`. The list goes inside useState's round brackets, like the 0 did."
-- **Type live:** Edit only the first and the last line. Don't retype the emoji.
+<div class="fragment clue">
+
+💡 Same trick as Activity 1: `useState`, plus a function whose name starts with `set`
+
+</div>
+
+<div class="fragment clue">
+
+💡 The trash in the middle stays the same. Only the **first** and the **last** line change. The whole list goes inside `useState( )`, where the `0` was
+
+</div>
+
+<div class="fragment clue">
+
+💡 Fill in the blanks:
+
+```jsx
+  const [trash, ________] = useState([
+    "🧃 Plastic bottle", … ,
+  ]___;
+```
+
+</div>
+
+Note:
+**[4 min, 0:38 elapsed]**
+
+- **Ask:** "When we pick up a piece of trash, the list gets shorter. So React has to remember this list. How did we make React remember the turtles?" (`useState`!) "What will we call the function that changes `trash`?" (`setTrash`.)
+- **Clues:** One at a time. The tricky part isn't the idea, it's the brackets: the list keeps its `[ ]`, and it goes inside `useState( )`.
+- **Build it together:** A student dictates the first line, another the last line, while you edit only those two lines. Don't retype the emoji.
+- **Answer (keep it off the slide):** first line `const [trash, setTrash] = useState([`, last line `]);`. The four pieces of trash in the middle don't change.
 - **Say:** "Nothing changes on screen yet. That's OK."
 - **Check-in:** "Thumbs up when your list ends with `]);`."
 - **Watch for:** (1) Forgot the `)` at the end → error box "Unexpected token, expected ','". (2) Deleted a quote or a comma between the items → error box. (3) `settrash` with a small t.
 
 ---
 
-## ⌨️ Step 2 — TODO 2
-
-Find:
+## 🔍 TODO 2: Pick it up!
 
 ```jsx
   const pickUp = (item) => {
@@ -401,49 +470,93 @@ Find:
   };
 ```
 
-Type inside it:
+🗣️ `item` is the piece you clicked. What should the new list be? Which function saves it?
+
+<div class="fragment clue">
+
+💡 The new list = every piece of trash **except** the one you clicked
+
+</div>
+
+<div class="fragment clue">
+
+💡 `filter` keeps only the items that pass a test. `!==` means "is not":
 
 ```jsx
-  const pickUp = (item) => {
-    setTrash(trash.filter((t) => t !== item));
-  };
+["🍎", "🍌", "🍇"].filter((f) => f !== "🍌")
+// → ["🍎", "🍇"]
 ```
+
+</div>
+
+<div class="fragment clue">
+
+💡 Fill in the blanks:
+
+```jsx
+    setTrash(trash.filter((t) => t ___ ____));
+```
+
+</div>
 
 Note:
-**[4 min, 0:41 elapsed]**
+**[5 min, 0:43 elapsed]**
 
-- **Say:** "`pickUp` runs when you click a piece of trash. `item` is the piece you clicked. `filter` goes through the list one by one, like checking each thing in your backpack, and keeps everything that is NOT the piece you clicked. `!==` means 'is not'. Then `setTrash` saves the new, shorter list."
-- **Type live:** The one line. At the end, count the brackets out loud: "two round brackets, then a semicolon".
+- **Ask:** "`pickUp` runs when you click a piece of trash, and `item` is the piece you clicked. Say we click the Glass. What should the list look like after?" (Bottle, Can, Paper: everything except the Glass.) "Which function saves a new list?" (`setTrash`.)
+- **Clues:** The second clue introduces `filter` with fruit, not trash, so students still have to make the jump themselves. Analogy: filter is like checking each thing in your backpack and keeping everything that is NOT the thing you want to throw out.
+- **Build it together:** Ask "In the fruit example, what was the thing we threw out? What is it here?" (`item`.) A student dictates the line while you type it. At the end, count the brackets out loud: "two round brackets, then a semicolon".
+- **Answer (keep it off the slide):** inside `pickUp`: `setTrash(trash.filter((t) => t !== item));`
 - **Check-in:** "Thumbs up when you typed it. The beach is still empty. That's normal: the buttons come in TODO 3."
 - **Watch for:** (1) `===` instead of `!==` → later, clicking one piece removes all the OTHER pieces. (2) Missing `))` at the end → error box. (3) Typed outside the `{ }` of `pickUp`.
 
 ---
 
-## ⌨️ Step 3 — TODO 3
-
-Find:
+## 🔍 TODO 3: One button per piece
 
 ```jsx
-      <div className="trash-buttons">
-        {/* TODO 3: Make one button for each piece of trash. */}
-      </div>
+{/* TODO 3: Make one button for each piece of trash. */}
 ```
 
-Type inside the `div`:
+🗣️ How do we get one button for each piece of trash?
+
+<div class="fragment clue">
+
+💡 `map` turns every item of a list into something new, like a button:
 
 ```jsx
-        {trash.map((item) => (
-          <button key={item} onClick={() => pickUp(item)}>
-            Pick up {item}
-          </button>
-        ))}
+  {["🍎", "🍌"].map((f) => <p key={f}>I like {f}</p>)}
 ```
+
+</div>
+
+<div class="fragment clue">
+
+💡 Each button needs a `key` (its name tag), an `onClick` that calls `pickUp` with **its** piece, and the words `Pick up` plus the piece
+
+</div>
+
+<div class="fragment clue">
+
+💡 Fill in the blanks:
+
+```jsx
+{trash.map((item) => (
+  <button key={____} onClick={() => ______(____)}>
+    Pick up {____}
+  </button>
+))}
+```
+
+</div>
 
 Note:
-**[5 min, 0:46 elapsed]**
+**[5 min, 0:48 elapsed]**
 
-- **Say:** "Now the magic. `map` goes through the list and makes one button for each piece of trash. One list goes in, one button per item comes out. Each button needs a `key`, like a name tag, so React can tell the buttons apart. When you click a button, it calls `pickUp` with that piece of trash."
-- **Type live:** Replace the TODO 3 comment line with the 5 lines. Type slowly and say the brackets out loud.
+- **Ask:** "We have 4 pieces of trash, so we want 4 buttons. We could write 4 buttons by hand. But what if someone adds a fifth piece? Or 100?" Let them suggest ideas: "a loop", "repeat it", "one for each". Any of those is the right idea. Then: "Each button needs to know three things. What are they?" (Which piece it is, what to do on click, what words to show.)
+- **Clues:** The first clue shows `map` with fruit. Analogy: one list goes in, one button per item comes out. The second clue is the checklist for one button. The `() =>` in `onClick` makes it wait for the click; without it, everything is picked up right away.
+- **Build it together:** Type the `{trash.map((item) => (` line and its closing `))}` first, then ask the room for each of the three blanks inside the button. Type slowly and say the brackets out loud.
+- **Answer (keep it off the slide):** replace the TODO 3 comment with:
+  `{trash.map((item) => (<button key={item} onClick={() => pickUp(item)}>Pick up {item}</button>))}` (on 5 lines, as in the third clue).
 - **Say:** "Now everything works at once: 4 buttons, and clicking one picks it up!"
 - **Check-in:** "Click all the trash. Thumbs up when you see 'The beach is clean!'"
 - **Watch for:** (1) Curly brackets `{ }` after the `=>` instead of round ones `( )` → no buttons and no error. (2) `onClick={pickUp(item)}` without `() =>` → it says 'The beach is clean!' right away, with no buttons. (3) Forgot the `{ }` around `trash.map(...)` → the app goes white. (4) Forgot `key` → it works, but there is a warning in the console. Add it anyway.
@@ -459,7 +572,7 @@ Note:
 - All gone → **The beach is clean!**
 
 Note:
-**[2 min, 0:48 elapsed]**
+**[1 min, 0:49 elapsed]**
 
 - **Say:** "Test it: four buttons, click one and it disappears, click them all and the beach is clean."
 - **Do:** Walk around and look at screens.
@@ -477,7 +590,7 @@ Note:
 - Behind? Open **Stuck? Show the complete file**
 
 Note:
-**[2 min, 0:50 elapsed]**
+**[1 min, 0:50 elapsed]**
 
 - **Say:** "Add your own piece of trash: an old shoe, a straw, a bag. A new button appears by itself, because `map` makes one button for every item in the list."
 - **Show:** Add a new line `"👟 Old shoe",` right after `"📄 Paper",` (before `]);`). Emoji are optional, but the quotes and the comma are not.
@@ -560,51 +673,93 @@ Note:
 
 ---
 
-## ⌨️ Step 1 — TODO 1
-
-Find this line:
+## 🔍 TODO 1: Who is this sloth?
 
 ```jsx
+function Sloth({ name, saved, onRescue }) {
+  …
       <h3>🦥 A sloth</h3>
 ```
 
-Change it to:
+🗣️ Every card says "A sloth". The card already **gets** the sloth's name. Where? How do we show it?
+
+<div class="fragment clue">
+
+💡 Look at the first line: `name` is one of the props the card receives
+
+</div>
+
+<div class="fragment clue">
+
+💡 In JSX, curly brackets `{ }` mean "this is code: show its value". You already did this on the beach: `Pick up {item}`
+
+</div>
+
+<div class="fragment clue">
+
+💡 Fill in the blanks:
 
 ```jsx
-      <h3>🦥 {name}</h3>
+      <h3>🦥 ________</h3>
 ```
 
-Note:
-**[3 min, 1:01 elapsed]**
+</div>
 
-- **Say:** "The card always says 'A sloth'. Let's use the `name` prop. Curly brackets inside JSX mean: this is code, not text, so show me the value of `name`."
-- **Type live:** Replace `A sloth` with `{name}`. Keep the emoji.
+Note:
+**[4 min, 1:02 elapsed]**
+
+- **Ask:** "Every card says 'A sloth'. But the card already knows its sloth's name. Where is it hiding?" (In the props on the first line: `name`.) "How do we show a value instead of plain text? We did it on the beach." (Curly brackets, like `Pick up {item}`.)
+- **Clues:** One at a time. Most rooms get this one after the second clue.
+- **Build it together:** A student tells you what replaces `A sloth`. Type it. Keep the emoji.
+- **Answer (keep it off the slide):** `<h3>🦥 {name}</h3>`
+- **Ask (older students):** "What would the card show if we wrote `name` without the curly brackets?" (The word "name".)
 - **Check-in:** "Thumbs up when your card says 🦥 Mau!"
 - **Watch for:** (1) `name` without curly brackets → the card says "name". (2) `{Name}` with a capital N → the app goes white (the console says "Name is not defined"). (3) Deleted the emoji or the `<h3>` by accident → Ctrl+Z.
 
 ---
 
-## ⌨️ Step 2 — TODO 2
-
-- Delete the line `<Sloth name="Mau" … />`
-- Type this in its place:
+## 🔍 TODO 2: Four sloths, one card
 
 ```jsx
-        {sloths.map((name) => (
-          <Sloth
-            key={name}
-            name={name}
-            saved={rescued.includes(name)}
-            onRescue={rescue}
-          />
-        ))}
+const sloths = ["Mau", "Rick", "Luna", "Toby"];
+<Sloth name="Mau" saved={rescued.includes("Mau")} onRescue={rescue} />
 ```
 
-Note:
-**[5 min, 1:06 elapsed]**
+🗣️ 4 names, only 1 card. Where did we fix this before?
 
-- **Say:** "Right now we hand-wrote one card, for Mau. But the `sloths` list has 4 sloths: Mau, Rick, Luna and Toby. Same trick as the beach: `map` goes through the list and makes one Sloth card for each name. Each card gets a key, its name, whether it's saved, and the rescue function."
-- **Type live:** Delete the whole Mau line, then type the 8 lines. When you type `name={name}`, say: "the name on the left is the name tag; the name on the right is the sloth from the list."
+<div class="fragment clue">
+
+💡 On the beach, `map` made one **button** per piece of trash. Here we want one `<Sloth />` per **name**
+
+</div>
+
+<div class="fragment clue">
+
+💡 Start from the Mau line: everywhere it says `"Mau"`, use the name from the list instead. Add a `key`, then delete the old Mau line
+
+</div>
+
+<div class="fragment clue">
+
+💡 Fill in the blanks:
+
+```jsx
+{sloths.map((name) => (
+  <Sloth key={____} name={____}
+    saved={rescued.includes(____)} onRescue={rescue} />
+))}
+```
+
+</div>
+
+Note:
+**[6 min, 1:08 elapsed]**
+
+- **Ask:** "The `sloths` list has 4 names: Mau, Rick, Luna and Toby. But we only see one card, because somebody wrote Mau's card by hand. Where did we already turn a list into lots of things?" (The beach! `map`.) "What should come out of `map` this time?" (One `<Sloth />` card per name.)
+- **Clues:** The second clue is the big hint: the hand-written Mau line already has everything, it just uses `"Mau"` instead of a name from the list.
+- **Build it together:** Type the `{sloths.map((name) => (` and `))}` lines first. Then ask the room what goes in each blank, and why there are no quotes around `name`. When you type `name={name}`, say: "the name on the left is the name tag; the name on the right is the sloth from the list." Finally delete the Mau line together.
+- **Answer (keep it off the slide):** replace the Mau line with
+  `{sloths.map((name) => (<Sloth key={name} name={name} saved={rescued.includes(name)} onRescue={rescue} />))}`. The student page puts each prop on its own line; both work.
 - **Check-in:** "Thumbs up when you see 4 sloth cards. Rescue all of them. Do you see 'You rescued all the sloths!'?"
 - **Watch for:** (1) Kept the Mau line → 5 cards, Mau twice. (2) `<sloth` with a small s → no cards at all (React thinks it's an HTML tag). (3) `rescued.includes("name")` with quotes → the cards never turn green. (4) Missing `/>` or `))}` → error box.
 - **Catch-up:** "If you're behind, open 'Stuck? Show the complete file' on the Activity 3 page."
@@ -620,7 +775,7 @@ Note:
 - All 4 → **You rescued all the sloths!**
 
 Note:
-**[2 min, 1:08 elapsed]**
+**[1 min, 1:09 elapsed]**
 
 - **Say:** "Test it: four cards with names, rescue turns them green, and after all four you get the final message."
 - **Do:** Walk around and look at screens.
@@ -640,7 +795,7 @@ Note:
 - Behind? Open **Stuck? Show the complete file**
 
 Note:
-**[2 min, 1:10 elapsed]**
+**[1 min, 1:10 elapsed]**
 
 - **Say:** "Add a fifth sloth. Give it any name: your name, your pet's name. A new card appears by itself. And look: now you have to rescue 5 sloths to see the final message. The code compares with `sloths.length`, so it counts for you."
 - **Show:** `"Toby"` becomes `"Toby", "Pura Vida"` (any name, in quotes, after a comma; the page uses the same example).

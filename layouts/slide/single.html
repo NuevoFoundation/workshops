@@ -7,6 +7,9 @@
   Authoring (Markdown in the page body):
     - a line with only `---` starts a new slide
     - a line starting with `Note:` starts the speaker notes for that slide
+    - wrap Markdown in <div class="fragment clue"> … </div>, with a blank line
+      after the opening tag and before the closing one, to reveal it on the
+      next click (used for the step-by-step clues on discussion slides)
   Presenting: press S for speaker view (notes + timer), F for full screen.
 
   The Markdown sits in a <textarea> so JSX like <button onClick={...}> in code
@@ -31,6 +34,15 @@
     .reveal pre code, .reveal .code-wrapper code { white-space: pre-wrap; }
     .reveal img { max-height: 420px; }
     .reveal ul, .reveal ol { display: block; }
+    /* Discussion slides (any slide with clues): a smaller title and question,
+       so the code and all three clues fit once they're revealed. Code inside
+       a clue stays the same size as the rest of the deck's code. */
+    .reveal section:has(.clue) h2 { font-size: 1.3em; }
+    .reveal section:has(.clue) > p { font-size: 0.8em; }
+    .reveal section:has(.clue) > pre { margin: 0.3em auto; }
+    .reveal .clue { font-size: 0.6em; margin-top: 0.4em; }
+    .reveal .clue p { margin: 0.2em 0; }
+    .reveal .clue pre { font-size: 1em; margin: 0.2em auto; }
   </style>
 </head>
 <body>
