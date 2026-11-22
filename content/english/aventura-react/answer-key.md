@@ -1,243 +1,254 @@
 ---
-title: "React Costa Rica - Answer key"
+title: "Answer key"
 date: 2020-03-27T20:24:33-07:00
-weight: 10
+weight: 20
 draft: false
 hidden: true
 ---
 
-Answers for the entire React app
+These are the finished files from the solution project (`workshopcode/english/aventura-react-solution`). You can also open the finished app and try it:
 
-### Activity 1 Tortugero
+### <a class="btn btn-info" href="../open-finished/" target="_blank" rel="noopener">👉 Open the finished app</a>
+
+`src/main.jsx` and `src/style.css` are the same in the starter and the finished app, so they aren't shown here. In the Volcano activity, students choose their own animals, so their list can be different.
+
+## src/App.jsx
+
+Both bonus components are turned on.
+
+```jsx
+import Turtles from "./components/Turtles.jsx";
+import Beach from "./components/Beach.jsx";
+import Sloths from "./components/Sloths.jsx";
+import CoffeeFarm from "./components/CoffeeFarm.jsx";
+import Volcano from "./components/Volcano.jsx";
+
+export default function App() {
+  return (
+    <div className="App">
+      <h1>My Costa Rica Adventure</h1>
+
+      <Turtles />
+      <Beach />
+      <Sloths />
+
+      <CoffeeFarm />
+      <Volcano />
+    </div>
+  );
+}
+```
+
+## src/components/Turtles.jsx (Activity 1)
 
 ```jsx
 import { useState } from "react";
 
-export default function Tortugero() {
-  const [tortugas, setTortugas] = useState(0);
-  const total = 10; 
+export default function Turtles() {
+  const [turtles, setTurtles] = useState(0);
 
-  const salvarTortuga = () => {
-    if (tortugas < total) setTortugas(tortugas + 1);
+  const total = 10;
+
+  const saveTurtle = () => {
+    if (turtles < total) {
+      setTurtles(turtles + 1);
+    }
   };
 
-  const reiniciar = () => setTortugas(0);
+  const restart = () => {
+    setTurtles(0);
+  };
 
   return (
-    <div className="Tortugero">
-      <h2>Parque Nacional Tortuguero</h2>
-      <p>Has salvado {tortugas} de {total} tortugas</p>
+    <div className="turtles">
+      <h2>🐢 Tortuguero National Park</h2>
+      <p>You have saved {turtles} of {total} turtles</p>
 
-      {tortugas < total ? (
-        <button onClick={salvarTortuga}>Salvar tortuga</button>
+      {turtles < total ? (
+        <button onClick={saveTurtle}>Save a turtle</button>
       ) : (
         <>
-          <p className="exito">Todas las tortugas están a salvo!</p>
-          <button onClick={reiniciar}>Reiniciar misión</button>
+          <p className="success">All the turtles are safe!</p>
+          <button onClick={restart}>Restart mission</button>
         </>
       )}
     </div>
   );
 }
-
 ```
 
-### Activity 2 Playa
+## src/components/Beach.jsx (Activity 2)
 
 ```jsx
 import { useState } from "react";
 
-export default function Playas() {
-  const [desechos, setDesechos] = useState([
-    "🧃 Plástico",
-    "🍾 Vidrio",
-    "🪙 Metal",
-    "📄 Papel"
+export default function Beach() {
+  const [trash, setTrash] = useState([
+    "🧃 Plastic bottle",
+    "🍾 Glass",
+    "🥫 Can",
+    "📄 Paper",
   ]);
 
-  const limpiar = (d) => setDesechos(desechos.filter((x) => x !== d));
-
-  /*Crear los botones usando for*/
-  let botones = [];
-
-  for (let i = 0; i < desechos.length; i++) {
-    botones.push(
-      <button key={i} onClick={() => limpiar(desechos[i])}>
-        Recolectar {desechos[i]}
-      </button>
-    );
-  }
+  const pickUp = (item) => {
+    setTrash(trash.filter((t) => t !== item));
+  };
 
   return (
-    <div className="playas-container">
-      <h2>Limpieza de las Playas</h2>
-      <p className="instruccion">
-        Haz clic en los desechos para recolectarlos y ayudar a proteger a las
-        especies marinas
+    <div className="beach">
+      <h2>🏖️ Beach Cleanup</h2>
+      <p className="instructions">
+        Click the trash to pick it up and protect sea life.
       </p>
 
-      <div className="botones">{botones}</div>
+      <div className="trash-buttons">
+        {trash.map((item) => (
+          <button key={item} onClick={() => pickUp(item)}>
+            Pick up {item}
+          </button>
+        ))}
+      </div>
 
-      {desechos.length === 0 && (
-        <p className="mensaje-final">Playa limpia!</p>
-      )}
+      {trash.length === 0 && <p className="final-message">The beach is clean!</p>}
+    </div>
+  );
+}
+```
+
+## src/components/Sloths.jsx (Activity 3)
+
+```jsx
+import { useState } from "react";
+
+// A SMALL component: one sloth card.
+// It gets its information from props: name, saved and onRescue.
+function Sloth({ name, saved, onRescue }) {
+  return (
+    <div className={saved ? "sloth-card saved" : "sloth-card"}>
+      <h3>🦥 {name}</h3>
+
+      <p>{saved ? "✅ Safe!" : "Needs help"}</p>
+
+      {!saved && <button onClick={() => onRescue(name)}>Rescue</button>}
     </div>
   );
 }
 
-```
+// A BIG component: the whole rescue area.
+export default function Sloths() {
+  const sloths = ["Mau", "Rick", "Luna", "Toby"];
+  const [rescued, setRescued] = useState([]);
 
-### Activity 3 Coffee farm
-
-```jsx
-import { useState } from "react";
-
-export default function FincaCafe() {
-  const etapas = [
-    "🌱 Sembrar café",
-    "🌾 Cosechar granos",
-    "🌞 Secar al sol",
-    "🔥 Tostar",
-    "☕ Disfrutar del café"
-  ];
-
-  const [indice, setIndice] = useState(0);
-
-  const siguiente = () => {
-    if (indice < etapas.length - 1) {
-      setIndice(indice + 1);
+  const rescue = (name) => {
+    if (!rescued.includes(name)) {
+      setRescued([...rescued, name]);
     }
   };
 
   return (
-    <div className="finca-container">
-      <h2>Finca del Abuelo</h2>
-      <p className="etapa">{etapas[indice]}</p>
+    <div className="sloths">
+      <h2>🦥 Sloth Rescue</h2>
+      <p className="instructions">Click a sloth to rescue it from the forest.</p>
 
-      {indice < etapas.length - 1 ? (
-        <button className="btn-siguiente" onClick={siguiente}>
-          Siguiente etapa ➡️
+      <div className="sloth-list">
+        {sloths.map((name) => (
+          <Sloth
+            key={name}
+            name={name}
+            saved={rescued.includes(name)}
+            onRescue={rescue}
+          />
+        ))}
+      </div>
+
+      {rescued.length === sloths.length && (
+        <h3 className="final-message">You rescued all the sloths!</h3>
+      )}
+    </div>
+  );
+}
+```
+
+## src/components/CoffeeFarm.jsx (Bonus: Coffee farm)
+
+```jsx
+import { useState } from "react";
+
+export default function CoffeeFarm() {
+  const stages = [
+    "🌱 Plant the coffee",
+    "🍒 Pick the coffee cherries",
+    "🌞 Dry the beans in the sun",
+    "🔥 Roast the beans",
+    "☕ Enjoy a cup of coffee",
+  ];
+
+  const [step, setStep] = useState(0);
+
+  const next = () => {
+    if (step < stages.length - 1) {
+      setStep(step + 1);
+    }
+  };
+
+  return (
+    <div className="coffee-farm">
+      <h2>☕ Grandpa's Coffee Farm</h2>
+      <p className="stage-number">
+        Stage {step + 1} of {stages.length}
+      </p>
+      <p className="stage">{stages[step]}</p>
+
+      {step < stages.length - 1 ? (
+        <button className="next-button" onClick={next}>
+          Next stage ➡️
         </button>
       ) : (
-        <h3 className="mensaje-final">
-          Has completado todo el proceso del café!
-        </h3>
+        <h3 className="final-message">You finished the whole coffee process!</h3>
       )}
     </div>
   );
 }
-
 ```
 
-### Activity 4 Arenal volcano
+## src/components/Volcano.jsx (Bonus: Arenal volcano)
 
 ```jsx
 import { useState } from "react";
 
-export default function Volcan() {
-  const [animales, setAnimales] = useState([
-    "mapache",
-    "mono",
-    "jaguar",
-    "tucán",
-    "Tobi"
+export default function Volcano() {
+  const [animals, setAnimals] = useState([
+    "🐒 Howler monkey",
+    "🦜 Toucan",
+    "🐆 Jaguar",
+    "🐸 Red-eyed tree frog",
+    "🦥 Three-toed sloth",
   ]);
 
-  const evacuar = (nombre) => {
-    setAnimales(animales.filter((a) => a !== nombre));
+  const evacuate = (animal) => {
+    setAnimals(animals.filter((a) => a !== animal));
   };
 
-  // Aquí hacemos una lista a mano usando un for
-  let listaAnimales = [];
-
-  for (let i = 0; i < animales.length; i++) {
-    listaAnimales.push(
-      <li key={i}>
-        {animales[i]} está en peligro{" "}
-        <button onClick={() => evacuar(animales[i])}>Evacuar</button>
-      </li>
-    );
-  }
-
   return (
-    <div className="volcan">
-      <h2>Volcán Arenal</h2>
+    <div className="volcano">
+      <h2>🌋 Arenal Volcano</h2>
+      <p className="instructions">
+        The volcano is rumbling! Evacuate every animal.
+      </p>
 
-      {animales.length > 0 ? (
-        <ul>{listaAnimales}</ul>
+      {animals.length > 0 ? (
+        <ul>
+          {animals.map((animal) => (
+            <li key={animal}>
+              {animal} is in danger!
+              <button onClick={() => evacuate(animal)}>Evacuate</button>
+            </li>
+          ))}
+        </ul>
       ) : (
-        <p>Todos los animales están a salvo!</p>
+        <p className="final-message">All the animals are safe!</p>
       )}
     </div>
   );
 }
-
 ```
-
-### Activity 5 Sloths
-
-```jsx
-import { useState } from "react";
-
-function Perezoso({ nombre, onRescatar, rescatado }) {
-  return (
-    <div className={`perezoso-card ${rescatado ? "rescatado" : ""}`}>
-      <p>
-        {rescatado
-          ? `✅ ${nombre} está a salvo!`
-          : `🦥 ${nombre} necesita ayuda`}
-      </p>
-
-      {!rescatado && (
-        <button onClick={() => onRescatar(nombre)}>Rescatar</button>
-      )}
-    </div>
-  );
-}
-
-export default function Perezosos() {
-  const [rescatados, setRescatados] = useState([]);
-
-  const rescatar = (nombre) => {
-    setRescatados([...rescatados, nombre]);
-  };
-
-  const perezosos = ["Mau", "Rick", "Luna", "Toby"];
-
-  // Crear la lista de componentes con un for
-  let listaPerezosos = [];
-
-  for (let i = 0; i < perezosos.length; i++) {
-    const nombre = perezosos[i];
-
-    listaPerezosos.push(
-      <Perezoso
-        key={i}
-        nombre={nombre}
-        onRescatar={rescatar}
-        rescatado={rescatados.includes(nombre)}
-      />
-    );
-  }
-
-  return (
-    <div className="perezosos-container">
-      <h2>Rescate de los Perezosos</h2>
-      <p className="instruccion">
-        Haz clic en los perezosos para rescatarlos del bosque
-      </p>
-
-      <div className="lista-perezosos">{listaPerezosos}</div>
-
-      {rescatados.length === perezosos.length && (
-        <h3 className="mensaje-final">
-          Has rescatado a todos los perezosos!
-        </h3>
-      )}
-    </div>
-  );
-}
-
-```
-
-
