@@ -13,7 +13,7 @@ Sharky has packed your bags! Your app is already started. You just need to open 
 
 Click the button below. Your project opens in a new tab on **StackBlitz**, a website where you can write code and see your app right away. You don't need an account.
 
-### <a class="btn btn-info" href="https://stackblitz.com/github/NuevoFoundation/workshops/tree/master/workshopcode/english/aventura-react?file=src%2Fcomponents%2FTurtles.jsx" target="_blank" rel="noopener">👉 Open my Costa Rica app</a>
+### <a class="btn btn-info" href="../open-starter/" target="_blank" rel="noopener">👉 Open my Costa Rica app</a>
 
 Now wait about a minute while StackBlitz gets your app ready. You may see lines of text scrolling at the bottom of the screen. That's normal!
 

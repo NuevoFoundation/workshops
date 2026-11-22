@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+{{- /*
+  "Open in StackBlitz" pages: any page with `type: "stackblitz"` in its front
+  matter sends a project from workshopcode/ to StackBlitz and opens it, in the
+  same tab. Link to the page (it's an ordinary URL, so it also works pasted in
+  a chat), and it does the rest.
+
+  Why not a plain stackblitz.com/github/... link? Those make StackBlitz
+  download this whole repository (about 1 GB of workshop media) before it
+  shows anything, which takes minutes. This page carries the project's files
+  itself, built from workshopcode/ when the site is built, and posts them to
+  StackBlitz's POST API (https://stackblitz.com/run), so it opens in seconds.
+
+  Front matter:
+    type: "stackblitz"
+    hidden: true                  keeps it out of the workshop menu
+    project:   folder under workshopcode/, e.g. "english/aventura-react"
+    file:      file to open in the editor
+    app_title: project name shown in StackBlitz
+    opening:   message while StackBlitz opens
+    came_back: message when the student comes back with the Back button
+               (the page then waits instead of opening another copy)
+    button:    label of the fallback button
+*/ -}}
+{{- $root := printf "workshopcode/%s" .Params.project -}}
+{{- if or (not .Params.project) (not (fileExists $root)) -}}
+  {{- errorf "%s: set project to a folder under workshopcode/ (got %q)" .File.Path .Params.project -}}
+{{- end }}
+<html lang="{{ .Site.Language.Lang | default "en" }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>{{ .Title }} · {{ .Parent.Title }}</title>
+  <style>
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #f4f8f7; color: #1f2d2b; font: 1.15rem/1.5 system-ui, sans-serif; text-align: center; }
+    main { max-width: 32rem; padding: 1.5rem 16px; }
+    button { margin-top: 0.5rem; padding: 0.6em 1.4em; border: 0; border-radius: 6px; background: #31b0d5; color: #fff; font: inherit; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <main>
+    <img src="../media/Sharky.png" alt="" width="120">
+    <p id="status">{{ .Params.opening }}</p>
+    <form id="stackblitz" method="post" action="https://stackblitz.com/run{{ with .Params.file }}?file={{ . }}{{ end }}">
+      <input type="hidden" name="project[title]" value="{{ .Params.app_title | default .Params.project }}">
+      <input type="hidden" name="project[template]" value="node">
+      {{- partial "stackblitz-files.html" (dict "root" $root "dir" "") }}
+      <button type="submit">{{ .Params.button }}</button>
+    </form>
+  </main>
+  <script>
+    (function () {
+      var status = document.getElementById("status");
+      var cameBack = {{ .Params.came_back }};
+      // Coming back with the Back button: don't open a second, empty copy.
+      window.addEventListener("pageshow", function (event) {
+        if (event.persisted) { status.textContent = cameBack; }
+      });
+      var nav = window.performance && performance.getEntriesByType
+        ? performance.getEntriesByType("navigation")[0] : null;
+      if (nav && nav.type === "back_forward") {
+        status.textContent = cameBack;
+        return;
+      }
+      document.getElementById("stackblitz").submit();
+    })();
+  </script>
+</body>
+</html>

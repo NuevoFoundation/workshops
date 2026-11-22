@@ -40,14 +40,14 @@ Note:
 
 1. Go to **workshops.nuevofoundation.org/aventura-react**
 2. Click [**Get your starter project**](../get-started/)
-3. Click the big link. It opens **StackBlitz**
+3. Click the big button. It opens **StackBlitz**
 4. ⭐ **Keep this ONE tab open all workshop**
 
 Note:
 **[2 min, 0:04 elapsed]**
 
-- **Say:** "Let's open our project first, because it takes a minute to load. Go to the workshop page, click 'Get your starter project', then click the big link. It opens a website called StackBlitz. You don't need an account. Very important: keep this ONE tab open the whole time. Don't click the start link again. It gives you a brand-new empty copy, and your work stays in the old tab."
-- **Do:** Open it yourself on the projector so they see what to expect. If you have a chat, paste the direct link: https://stackblitz.com/github/NuevoFoundation/workshops/tree/master/workshopcode/english/aventura-react?file=src%2Fcomponents%2FTurtles.jsx
+- **Say:** "Let's open our project first, because it takes a minute to load. Go to the workshop page, click 'Get your starter project', then click the big button. It opens a website called StackBlitz. You don't need an account. Very important: keep this ONE tab open the whole time. Don't click the button again. It gives you a brand-new empty copy, and your work stays in the old tab."
+- **Do:** Open it yourself on the projector so they see what to expect. If you have a chat, paste the direct link: https://workshops.nuevofoundation.org/aventura-react/open-starter/
 - **Check-in:** "Thumbs up when you see code on your screen. It's OK if the right side is still loading."
 - **Watch for:** (1) The first load installs things and can take a minute or two. Tell them to wait, not to click again. (2) A laptop where StackBlitz won't open (old browser, blocked network): pair that student with a neighbor right away. Don't debug it now.
 
@@ -63,7 +63,7 @@ Note:
 **[1 min, 0:05 elapsed]**
 
 - **Say:** "While your project loads, here's where we're going. Your app will have three parts: a turtle game with a counter, a beach where you click the trash to pick it up, and sloth cards you can rescue. Right now the buttons don't work. You will turn on every part yourself."
-- **Do:** Show the finished app live in your other tab and click a few buttons (20 seconds). Moving buttons are more exciting than a picture. Finished app: https://stackblitz.com/github/NuevoFoundation/workshops/tree/master/workshopcode/english/aventura-react-solution?file=src%2FApp.jsx
+- **Do:** Show the finished app live in your other tab and click a few buttons (20 seconds). Moving buttons are more exciting than a picture. Finished app: https://workshops.nuevofoundation.org/aventura-react/open-finished/
 - **Check-in:** "Thumbs up if your StackBlitz has loaded."
 - **Watch for:** Students who closed the tab or opened two tabs. Help them end up with exactly one.
 
@@ -100,7 +100,7 @@ Note:
 - **Say:** "StackBlitz has three parts. On the left, the list of files. In the middle, the code. On the right, your app running. When you change the code, the app on the right changes by itself. In the code you'll see comments that start with TODO. TODO means 'to do'. Each TODO turns on one thing."
 - **Do:** Point at the three areas on the projector. Click "Save a turtle" to show that nothing happens yet.
 - **Check-in:** "Thumbs up if you can see 'Tortuguero National Park' on the right side."
-- **Watch for:** An empty right side means it is still installing. Wait 30 seconds. Never click the start link again or reload the tab. Later, if a change doesn't show up on the right, press Ctrl+S (Cmd+S on a Mac) to save the file.
+- **Watch for:** An empty right side means it is still installing. Wait 30 seconds. Never click the start button again or reload the tab. Later, if a change doesn't show up on the right, press Ctrl+S (Cmd+S on a Mac) to save the file.
 
 ---
 
@@ -845,7 +845,7 @@ Note:
 <img src="../media/Sharky.png" alt="Sharky, a smiling orange shark" width="20%">
 
 - You did it! Thanks for traveling with Sharky
-- See the [finished app](https://stackblitz.com/github/NuevoFoundation/workshops/tree/master/workshopcode/english/aventura-react-solution?file=src%2FApp.jsx)
+- See the [finished app](../finish/)
 - The workshop pages stay online: keep coding at home!
 
 Note:
@@ -854,4 +854,4 @@ Note:
 - **Say:** "'Pura vida' is what people in Costa Rica say for hello, goodbye, and 'life is good'. You built a React app today. Pura vida, programmers!"
 - **Do:** If students want to keep their code, StackBlitz has a Fork button that saves a copy to a free account. Otherwise they can open the finished app any time.
 - **Check-in:** "One last thumbs up if you had fun!"
-- **Watch for:** Before they close the tab, remind them the pages and the starter link will still be there next time.
+- **Watch for:** Before they close the tab, remind them the pages and the starter button will still be there next time.

@@ -13,7 +13,7 @@ draft: false
 
 Haz clic en el botón de abajo. Tu proyecto se abre en una pestaña nueva en **StackBlitz**, un sitio web donde puedes escribir código y ver tu app al instante. No necesitas una cuenta.
 
-### <a class="btn btn-info" href="https://stackblitz.com/github/NuevoFoundation/workshops/tree/master/workshopcode/espanol/aventura-react?file=src%2Fcomponents%2FTortugas.jsx" target="_blank" rel="noopener">👉 Abrir mi app de Costa Rica</a>
+### <a class="btn btn-info" href="../open-starter/" target="_blank" rel="noopener">👉 Abrir mi app de Costa Rica</a>
 
 Ahora espera más o menos un minuto mientras StackBlitz prepara tu app. Puede que veas líneas de texto pasando en la parte de abajo de la pantalla. ¡Es normal!
 

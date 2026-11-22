@@ -25,7 +25,7 @@ draft: false
 
 ¿Quieres comparar tu app con la nuestra? Esto abre la app terminada en una pestaña nueva. Es una copia aparte, así que tu propia app sigue a salvo en tu pestaña. La app terminada también tiene las dos tarjetas extra: la finca de café y el volcán. ¡Puedes construirlas a continuación!
 
-### <a class="btn btn-info" href="https://stackblitz.com/github/NuevoFoundation/workshops/tree/master/workshopcode/espanol/aventura-react-solution?file=src%2FApp.jsx" target="_blank" rel="noopener">👉 Abrir la app terminada</a>
+### <a class="btn btn-info" href="../open-finished/" target="_blank" rel="noopener">👉 Abrir la app terminada</a>
 
 ## Sigue adelante
 

@@ -47,7 +47,7 @@ Note:
 **[2 min, acumulado 0:04]**
 
 - **Di:** "Primero vamos a abrir nuestro proyecto, porque tarda un minuto en cargar. Ve a la página del taller, haz clic en 'Abre tu proyecto inicial' y luego en el botón grande. Se abre un sitio que se llama StackBlitz. No necesitas cuenta. Muy importante: deja esta ÚNICA pestaña abierta todo el tiempo. No vuelvas a hacer clic en ese botón: te da una copia nueva y vacía, y tu trabajo se queda en la pestaña vieja".
-- **Haz:** Ábrelo tú también en el proyector para que vean qué esperar. Si hay un chat, pega el enlace directo: https://stackblitz.com/github/NuevoFoundation/workshops/tree/master/workshopcode/espanol/aventura-react?file=src%2Fcomponents%2FTortugas.jsx
+- **Haz:** Ábrelo tú también en el proyector para que vean qué esperar. Si hay un chat, pega el enlace directo: https://workshops.nuevofoundation.org/es/aventura-react/open-starter/
 - **Pregunta:** "Pulgar arriba cuando veas código en tu pantalla. No pasa nada si el lado derecho todavía está cargando".
 - **Atento a:** (1) La primera carga instala cosas y puede tardar uno o dos minutos. Diles que esperen y que no vuelvan a hacer clic. (2) Una computadora donde StackBlitz no abre (navegador viejo, red bloqueada): sienta a ese estudiante con un compañero de inmediato. No lo arregles ahora.
 
@@ -63,7 +63,7 @@ Note:
 **[1 min, acumulado 0:05]**
 
 - **Di:** "Mientras carga tu proyecto, te muestro adónde vamos. Tu app va a tener tres partes: un juego de tortugas con un contador, una playa donde haces clic en la basura para recogerla y unas tarjetas de perezosos que puedes rescatar. Ahora mismo los botones no funcionan. Tú vas a encender cada parte".
-- **Haz:** Muestra la app terminada en vivo en tu otra pestaña y haz clic en algunos botones (20 segundos). Unos botones que se mueven emocionan más que una imagen. App terminada: https://stackblitz.com/github/NuevoFoundation/workshops/tree/master/workshopcode/espanol/aventura-react-solution?file=src%2FApp.jsx
+- **Haz:** Muestra la app terminada en vivo en tu otra pestaña y haz clic en algunos botones (20 segundos). Unos botones que se mueven emocionan más que una imagen. App terminada: https://workshops.nuevofoundation.org/es/aventura-react/open-finished/
 - **Pregunta:** "Pulgar arriba si ya cargó tu StackBlitz".
 - **Atento a:** Estudiantes que cerraron la pestaña o abrieron dos. Ayúdalos a quedarse con una sola.
 
@@ -100,7 +100,7 @@ Note:
 - **Di:** "StackBlitz tiene tres partes. A la izquierda, la lista de archivos. En el centro, el código. A la derecha, tu app funcionando. Cuando cambias el código, la app de la derecha cambia sola. En el código vas a ver comentarios que empiezan con TAREA. Cada TAREA enciende una cosa".
 - **Haz:** Señala las tres zonas en el proyector. Haz clic en "Salvar tortuga" para mostrar que todavía no pasa nada.
 - **Pregunta:** "Pulgar arriba si ves 'Parque Nacional Tortuguero' a la derecha".
-- **Atento a:** Si el lado derecho está vacío, todavía se está instalando. Espera 30 segundos. Nunca vuelvas a hacer clic en el enlace del proyecto inicial ni recargues la pestaña. Más adelante, si un cambio no aparece a la derecha, presiona Ctrl+S (Cmd+S en Mac) para guardar el archivo.
+- **Atento a:** Si el lado derecho está vacío, todavía se está instalando. Espera 30 segundos. Nunca vuelvas a hacer clic en el botón del proyecto inicial ni recargues la pestaña. Más adelante, si un cambio no aparece a la derecha, presiona Ctrl+S (Cmd+S en Mac) para guardar el archivo.
 
 ---
 
@@ -848,7 +848,7 @@ Note:
 <img src="../media/Sharky.png" alt="Sharky, un tiburón anaranjado que sonríe" width="20%">
 
 - ¡Lo lograste! Gracias por viajar con Sharky
-- Mira la [app terminada](https://stackblitz.com/github/NuevoFoundation/workshops/tree/master/workshopcode/espanol/aventura-react-solution?file=src%2FApp.jsx)
+- Mira la [app terminada](../finish/)
 - Las páginas del taller siguen en línea: ¡sigue programando en casa!
 
 Note:
@@ -857,4 +857,4 @@ Note:
 - **Di:** "'Pura vida' es lo que dicen en Costa Rica para saludar, para despedirse y para decir 'la vida es buena'. Hoy creaste una app con React. ¡Pura vida, programadoras y programadores!".
 - **Haz:** Si los estudiantes quieren guardar su código, StackBlitz tiene un botón Fork que guarda una copia en una cuenta gratuita. Si no, pueden abrir la app terminada cuando quieran.
 - **Pregunta:** "¡Un último pulgar arriba si te divertiste!".
-- **Atento a:** Antes de que cierren la pestaña, recuérdales que las páginas y el enlace del proyecto inicial van a seguir ahí la próxima vez.
+- **Atento a:** Antes de que cierren la pestaña, recuérdales que las páginas y el botón del proyecto inicial van a seguir ahí la próxima vez.

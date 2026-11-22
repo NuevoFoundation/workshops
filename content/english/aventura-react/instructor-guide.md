@@ -11,14 +11,15 @@ Students (ages 10–18, no React needed) build a small React app on a trip to Co
 
 - **Student pages:** [Get started](../get-started/) · [Activity 1](../activity-1/) · [Activity 2](../activity-2/) · [Activity 3](../activity-3/) · [You did it!](../finish/) · [Bonus 1](../bonus-1/) · [Bonus 2](../bonus-2/). Public address: `workshops.nuevofoundation.org/aventura-react`
 - **Slides:** [../slides/](../slides/). Press **S** for speaker view (allow pop-ups). Every slide's notes have the timing, what to say or ask, a check-in and the mistakes to watch for. On the 🔍 slides, the notes also have the answer, which is never on the slide.
-- **Starter (what students open):** [StackBlitz starter](https://stackblitz.com/github/NuevoFoundation/workshops/tree/master/workshopcode/english/aventura-react?file=src%2Fcomponents%2FTurtles.jsx)
-- **Finished app (to demo):** [StackBlitz finished app](https://stackblitz.com/github/NuevoFoundation/workshops/tree/master/workshopcode/english/aventura-react-solution?file=src%2FApp.jsx)
+- **Starter (what students open):** <a href="../open-starter/" target="_blank" rel="noopener">Open the starter in StackBlitz</a>. Direct link to paste in a chat: `workshops.nuevofoundation.org/aventura-react/open-starter/`
+- **Finished app (to demo):** <a href="../open-finished/" target="_blank" rel="noopener">Open the finished app in StackBlitz</a> (`workshops.nuevofoundation.org/aventura-react/open-finished/`)
+- **About these links:** they go to a small page on this site that sends the project's files from `workshopcode/` to StackBlitz, which opens a fresh copy in a few seconds. A `stackblitz.com/github/...` link would make StackBlitz download this whole repository first, which takes minutes.
 - **Answer key:** [../answer-key/](../answer-key/)
 
 ## Before the session
 
-- **The day before, test on the real venue laptops and network.** Open the starter link and wait for the app to appear on the right (the first load installs packages, which takes a minute or two). Then click "Save a turtle". StackBlitz needs a recent Chrome, Edge or Firefox, and school networks sometimes block it. If it fails, ask IT to allow StackBlitz, or bring a hotspot.
-- **Decide how students get the link.** Send them to the Get started page, or paste the starter link into the chat. Tell them to open it **once** and keep that **one tab** all session. Opening the link again starts a fresh, empty copy.
+- **The day before, test on the real venue laptops and network.** Click the starter button and wait for the app to appear on the right (StackBlitz installs packages first, which takes up to a minute). Then click "Save a turtle". StackBlitz needs a recent Chrome, Edge or Firefox, and school networks sometimes block it. If it fails, ask IT to allow StackBlitz, or bring a hotspot.
+- **Decide how students get to the starter.** Send them to the Get started page, or paste the starter's direct link into the chat: `workshops.nuevofoundation.org/aventura-react/open-starter/`. Tell them to open it **once** and keep that **one tab** all session. Opening it again starts a fresh, empty copy.
 - **Do the three activities yourself once** in the starter (about 20 minutes), so you know where every TODO is.
 - **Open your tabs:** the slides (press **S**), your own starter, the finished app (you demo it on slide 4) and the Activity 1–3 pages (to show the "Stuck?" fold-out).
 - **Zoom in your editor** so the back row can read your code.
@@ -54,7 +55,7 @@ Things to say ahead of time:
 - **Beach:** nothing shows up until TODO 3, and then everything works at once. This is normal.
 - **Some code is already written:** the `? :` in `Turtles.jsx`, and `rescued` plus `rescue` in `Sloths.jsx`. Explain it, but students don't type it.
 - **The editor may add closing brackets and quotes for you.** Watch for doubled `))` or `}}`.
-- **Never reload the browser tab or click the starter link again.** If a change doesn't show up on the right, press Ctrl+S (Cmd+S on a Mac) to save the file.
+- **Never reload the browser tab or click the starter button again.** If a change doesn't show up on the right, press Ctrl+S (Cmd+S on a Mac) to save the file.
 
 ## Mixed ages (10–18)
 
@@ -88,7 +89,7 @@ The code mistakes below were tested in the starter project. Messages marked "con
 | Rescue never turns the card green | `rescued.includes("name")` with quotes | `rescued.includes(name)` |
 | Console: "Each child in a list should have a unique key prop" | Forgot `key=` | The app still works. Add the `key`. |
 | Bonus doesn't appear / app white / `/*` shows as text | Only uncommented the import (nothing shows), only the tag (white, "CoffeeFarm is not defined"), or left the `/* */` | Remove the `//` on the import **and** the whole `{/* */}` around the tag. |
-| Student sees the empty starter again | Clicked the starter link again or opened a new tab | Go back to the old tab. If it's gone, paste the complete files from the "Stuck?" sections. |
+| Student sees the empty starter again | Clicked the starter button again or opened a new tab | Go back to the old tab. If it's gone, paste the complete files from the "Stuck?" sections. |
 | A change doesn't show up | The file isn't saved yet | Ctrl+S (Cmd+S on a Mac). |
 | Right side stays empty | First load is still installing, or StackBlitz is blocked or the browser is too old | Wait 1–2 minutes. Then pair the student with a neighbor. |
 

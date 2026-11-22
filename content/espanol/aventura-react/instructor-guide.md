@@ -11,14 +11,15 @@ Los estudiantes (de 10 a 18 años, sin saber React) crean una pequeña app de Re
 
 - **Páginas para estudiantes:** [Abre tu proyecto inicial](../get-started/) · [Actividad 1](../activity-1/) · [Actividad 2](../activity-2/) · [Actividad 3](../activity-3/) · [¡Lo lograste!](../finish/) · [Extra 1](../bonus-1/) · [Extra 2](../bonus-2/). Dirección pública: `workshops.nuevofoundation.org/es/aventura-react`
 - **Diapositivas:** [../slides/](../slides/). Presiona **S** para ver las notas del presentador (permite las ventanas emergentes). Las notas de cada diapositiva tienen el tiempo, qué decir o preguntar, una pregunta para revisar cómo van y los errores a los que hay que estar atento. En las diapositivas 🔍, las notas también tienen la respuesta, que nunca aparece en la diapositiva.
-- **Proyecto inicial (lo que abren los estudiantes):** [Proyecto inicial en StackBlitz](https://stackblitz.com/github/NuevoFoundation/workshops/tree/master/workshopcode/espanol/aventura-react?file=src%2Fcomponents%2FTortugas.jsx)
-- **App terminada (para la demostración):** [App terminada en StackBlitz](https://stackblitz.com/github/NuevoFoundation/workshops/tree/master/workshopcode/espanol/aventura-react-solution?file=src%2FApp.jsx)
+- **Proyecto inicial (lo que abren los estudiantes):** <a href="../open-starter/" target="_blank" rel="noopener">Abrir el proyecto inicial en StackBlitz</a>. Enlace directo para pegar en un chat: `workshops.nuevofoundation.org/es/aventura-react/open-starter/`
+- **App terminada (para la demostración):** <a href="../open-finished/" target="_blank" rel="noopener">Abrir la app terminada en StackBlitz</a> (`workshops.nuevofoundation.org/es/aventura-react/open-finished/`)
+- **Sobre estos enlaces:** llevan a una pequeña página de este sitio que le envía a StackBlitz los archivos del proyecto que están en `workshopcode/`, y StackBlitz abre una copia nueva en unos segundos. Un enlace `stackblitz.com/github/...` haría que StackBlitz descargara primero todo este repositorio, lo que tarda varios minutos.
 - **Respuestas:** [../answer-key/](../answer-key/)
 
 ## Antes de la sesión
 
-- **El día anterior, haz una prueba en las computadoras y la red del lugar.** Abre el enlace del proyecto inicial y espera a que la app aparezca a la derecha (la primera carga instala paquetes y tarda uno o dos minutos). Luego haz clic en "Salvar tortuga". StackBlitz necesita una versión reciente de Chrome, Edge o Firefox, y a veces las redes de las escuelas lo bloquean. Si falla, pide al equipo de informática que permita StackBlitz o lleva un punto de acceso móvil.
-- **Decide cómo les vas a dar el enlace.** Mándalos a la página "Abre tu proyecto inicial" o pega el enlace del proyecto inicial en el chat. Diles que lo abran **una sola vez** y que usen **esa única pestaña** toda la sesión. Si abren el enlace otra vez, empiezan con una copia nueva y vacía.
+- **El día anterior, haz una prueba en las computadoras y la red del lugar.** Haz clic en el botón del proyecto inicial y espera a que la app aparezca a la derecha (StackBlitz primero instala paquetes, lo que tarda hasta un minuto). Luego haz clic en "Salvar tortuga". StackBlitz necesita una versión reciente de Chrome, Edge o Firefox, y a veces las redes de las escuelas lo bloquean. Si falla, pide al equipo de informática que permita StackBlitz o lleva un punto de acceso móvil.
+- **Decide cómo van a llegar al proyecto inicial.** Mándalos a la página "Abre tu proyecto inicial" o pega el enlace directo en el chat: `workshops.nuevofoundation.org/es/aventura-react/open-starter/`. Diles que lo abran **una sola vez** y que usen **esa única pestaña** toda la sesión. Si lo vuelven a abrir, empiezan con una copia nueva y vacía.
 - **Haz tú las tres actividades una vez** en el proyecto inicial (unos 20 minutos), para que sepas dónde está cada TAREA.
 - **Abre tus pestañas:** las diapositivas (presiona **S**), tu propio proyecto inicial, la app terminada (la muestras en la diapositiva 4) y las páginas de las actividades 1 a 3 (para mostrar la sección **¿Atascado?**).
 - **Agranda la letra de tu editor** para que la última fila pueda leer tu código.
@@ -54,7 +55,7 @@ Cosas que conviene avisar desde antes:
 - **Playa:** no aparece nada hasta la TAREA 3, y entonces todo funciona a la vez. Es normal.
 - **Parte del código ya está escrito:** el `? :` en `Tortugas.jsx`, y `rescatados` y `rescatar` en `Perezosos.jsx`. Explícalo, pero los estudiantes no lo escriben.
 - **El editor puede agregar solo los paréntesis, las llaves y las comillas de cierre.** Fíjate que no queden `))` o `}}` repetidos.
-- **Nadie debe recargar la pestaña del navegador ni volver a hacer clic en el enlace del proyecto inicial.** Si un cambio no aparece a la derecha, presiona Ctrl+S (Cmd+S en Mac) para guardar el archivo.
+- **Nadie debe recargar la pestaña del navegador ni volver a hacer clic en el botón del proyecto inicial.** Si un cambio no aparece a la derecha, presiona Ctrl+S (Cmd+S en Mac) para guardar el archivo.
 - **Las mayúsculas importan:** el componente es `Tortugas` y la variable es `tortugas`; la tarjeta es `Perezoso` y la zona de rescate es `Perezosos`.
 
 ## Edades mezcladas (10 a 18 años)
@@ -89,7 +90,7 @@ Los errores de código de abajo se probaron en el proyecto inicial. Los mensajes
 | Rescatar nunca pone verde la tarjeta | `rescatados.includes("nombre")` con comillas | `rescatados.includes(nombre)` |
 | Consola: "Each child in a list should have a unique key prop" (cada elemento de una lista necesita su propia key) | Olvidó `key=` | La app sigue funcionando. Agrega la `key`. |
 | La actividad extra no aparece / la app en blanco / se ve `/*` como texto | Solo quitó el comentario del import (no aparece nada), solo el de la etiqueta (en blanco, "FincaCafe is not defined"), o dejó los `/* */` | Borra las `//` del import **y** todas las `{/* */}` alrededor de la etiqueta. |
-| El estudiante ve otra vez el proyecto inicial vacío | Volvió a hacer clic en el enlace del proyecto inicial o abrió una pestaña nueva | Vuelve a la pestaña anterior. Si ya no está, pega los archivos completos de las secciones **¿Atascado?**. |
+| El estudiante ve otra vez el proyecto inicial vacío | Volvió a hacer clic en el botón del proyecto inicial o abrió una pestaña nueva | Vuelve a la pestaña anterior. Si ya no está, pega los archivos completos de las secciones **¿Atascado?**. |
 | Un cambio no aparece | El archivo todavía no se guardó | Ctrl+S (Cmd+S en Mac). |
 | El lado derecho sigue vacío | La primera carga todavía está instalando, StackBlitz está bloqueado o el navegador es muy viejo | Espera 1 o 2 minutos. Si no carga, sienta al estudiante con un compañero. |
 
